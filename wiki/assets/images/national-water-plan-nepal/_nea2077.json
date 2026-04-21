@@ -1,0 +1,25 @@
+{
+  "slug": "national-water-plan-nepal",
+  "entries": [
+    {
+      "src": "national-water-plan-nepal/nea2077-p174-img01.png",
+      "filename": "nea2077-p174-img01.png",
+      "caption": "of PGA values as determined in the Seismic",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 174,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        471.97,
+        299.06,
+        648.08
+      ],
+      "width": 634,
+      "height": 489,
+      "fetched_at": 1776686322
+    }
+  ]
+}

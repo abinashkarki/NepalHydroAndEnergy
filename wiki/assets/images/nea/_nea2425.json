@@ -1,0 +1,25 @@
+{
+  "slug": "nea",
+  "entries": [
+    {
+      "src": "nea/nea2425-p019-img01.png",
+      "filename": "nea2425-p019-img01.png",
+      "caption": "Timeline of Hydropower Development by NEA",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 19,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        77.18,
+        431.38,
+        546.44,
+        713.08
+      ],
+      "width": 1303,
+      "height": 782,
+      "fetched_at": 1776763998
+    }
+  ]
+}

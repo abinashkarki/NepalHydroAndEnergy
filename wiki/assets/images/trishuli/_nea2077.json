@@ -1,0 +1,65 @@
+{
+  "slug": "trishuli",
+  "entries": [
+    {
+      "src": "trishuli/nea2077-p041-img01.png",
+      "filename": "nea2077-p041-img01.png",
+      "caption": "Matatirtha terminal",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 41,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        357.1,
+        299.21,
+        540.24
+      ],
+      "width": 634,
+      "height": 508,
+      "fetched_at": 1776686295
+    },
+    {
+      "src": "trishuli/nea2077-p042-img01.png",
+      "filename": "nea2077-p042-img01.png",
+      "caption": "Headpond Water Filling",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 42,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        319.61,
+        71.57,
+        547.79,
+        241.29
+      ],
+      "width": 634,
+      "height": 471,
+      "fetched_at": 1776686296
+    },
+    {
+      "src": "trishuli/nea2077-p144-img02.png",
+      "filename": "nea2077-p144-img02.png",
+      "caption": "Samundratar 132/33 kV Substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 144,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        318.9,
+        605.2,
+        547.09,
+        753.51
+      ],
+      "width": 634,
+      "height": 412,
+      "fetched_at": 1776686318
+    }
+  ]
+}

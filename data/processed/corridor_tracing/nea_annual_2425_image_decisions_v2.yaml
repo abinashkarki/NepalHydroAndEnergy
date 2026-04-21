@@ -1,0 +1,1441 @@
+- page: 1
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 1
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: ""
+  candidate_slugs: []
+- page: 2
+  image_index: 0
+  action: filmstrip
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 2
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["chilime", "sanjen", "india-cbte-2018"]
+- page: 2
+  image_index: 1
+  action: filmstrip
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "Sanjen and Chilime HEP Site"
+  paragraph_anchor: ""
+  source_page: 2
+  note: ""
+  raw_caption: "Sanjen and Chilime HEP Site"
+  candidate_slugs: ["chilime", "sanjen", "india-cbte-2018"]
+- page: 4
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 4
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: ""
+  candidate_slugs: []
+- page: 5
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 5
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: ""
+  candidate_slugs: []
+- page: 6
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 6
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: ""
+  candidate_slugs: []
+- page: 7
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 7
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: ""
+  candidate_slugs: []
+- page: 19
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Timeline of Hydropower Development by NEA"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 19
+  note: ""
+  raw_caption: "Timeline of Hydropower Development by NEA"
+  candidate_slugs: ["nea", "bangladesh-trade-route", "niettp"]
+- page: 20
+  image_index: 0
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Comparison: % of designed vs % of Target (FY 2081/82)"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 20
+  note: ""
+  raw_caption: "Comparison: % of designed vs % of Target (FY 2081/82)"
+  candidate_slugs: ["marsyangdi", "upper-trishuli-3a", "trishuli"]
+- page: 20
+  image_index: 1
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Wet vs Dry Season Generation of last three fiscal years"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 20
+  note: ""
+  raw_caption: "Wet vs Dry Season Generation of last three fiscal years"
+  candidate_slugs: ["marsyangdi", "upper-trishuli-3a", "trishuli"]
+- page: 20
+  image_index: 2
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Monthly seasonal variation of last three fiscal years"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 20
+  note: ""
+  raw_caption: "Monthly seasonal variation of last three fiscal years"
+  candidate_slugs: ["marsyangdi", "upper-trishuli-3a", "trishuli"]
+- page: 21
+  image_index: 1
+  action: inline_figure
+  target_slug: "kulekhani-cascade"
+  proposed_slug: ""
+  caption: "Energy generation pattern of PROR/ROR and storage (GWh)"
+  paragraph_anchor: "# Kulekhani Cascade"
+  source_page: 21
+  note: ""
+  raw_caption: "Energy generation pattern of PROR/ROR and storage (GWh)"
+  candidate_slugs: ["kulekhani-cascade", "kali-gandaki-a", "marsyangdi"]
+- page: 21
+  image_index: 2
+  action: inline_figure
+  target_slug: "kulekhani-cascade"
+  proposed_slug: ""
+  caption: "storage use in Baisakh."
+  paragraph_anchor: "# Kulekhani Cascade"
+  source_page: 21
+  note: ""
+  raw_caption: "storage use in Baisakh."
+  candidate_slugs: ["kulekhani-cascade", "kali-gandaki-a", "marsyangdi"]
+- page: 22
+  image_index: 0
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Unit No.1 overhauling works"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 22
+  note: ""
+  raw_caption: "Unit No.1 overhauling works"
+  candidate_slugs: ["marsyangdi", "sediment-as-design-constraint", "claim-sediment-core-issue"]
+- page: 22
+  image_index: 1
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "LDC communication."
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 22
+  note: ""
+  raw_caption: "LDC communication."
+  candidate_slugs: ["marsyangdi", "sediment-as-design-constraint", "claim-sediment-core-issue"]
+- page: 22
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "seal, and sliding ring of Unit No. 3."
+  paragraph_anchor: ""
+  source_page: 22
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "seal, and sliding ring of Unit No. 3."
+  candidate_slugs: ["marsyangdi", "sediment-as-design-constraint", "claim-sediment-core-issue"]
+- page: 23
+  image_index: 1
+  action: inline_figure
+  target_slug: "upper-trishuli-3a"
+  proposed_slug: ""
+  caption: "Lifting of upper bracket during overhauling"
+  paragraph_anchor: "# Upper Trishuli 3A"
+  source_page: 23
+  note: ""
+  raw_caption: "Lifting of upper bracket during overhauling"
+  candidate_slugs: ["upper-trishuli-3a", "kulekhani-cascade", "trishuli"]
+- page: 23
+  image_index: 2
+  action: inline_figure
+  target_slug: "upper-trishuli-3a"
+  proposed_slug: ""
+  caption: "sea level (on 2082/02/30)."
+  paragraph_anchor: "# Upper Trishuli 3A"
+  source_page: 23
+  note: ""
+  raw_caption: "sea level (on 2082/02/30)."
+  candidate_slugs: ["upper-trishuli-3a", "kulekhani-cascade", "trishuli"]
+- page: 24
+  image_index: 0
+  action: inline_figure
+  target_slug: "kulekhani-cascade"
+  proposed_slug: ""
+  caption: "Machine floor of KL1"
+  paragraph_anchor: "| Plant | Capacity (MW) | Type | |-------|--------------|------| | Kulekhani I | 60 | Reservoir | | Kulekhani II | 32 | "
+  source_page: 24
+  note: ""
+  raw_caption: "Machine floor of KL1"
+  candidate_slugs: ["kulekhani-cascade", "claim-mw-not-equal-value", "nepal-energy-profile"]
+- page: 24
+  image_index: 1
+  action: inline_figure
+  target_slug: "kulekhani-cascade"
+  proposed_slug: ""
+  caption: "6.6 kV Bus conductor maintenance"
+  paragraph_anchor: "| Plant | Capacity (MW) | Type | |-------|--------------|------| | Kulekhani I | 60 | Reservoir | | Kulekhani II | 32 | "
+  source_page: 24
+  note: ""
+  raw_caption: "6.6 kV Bus conductor maintenance"
+  candidate_slugs: ["kulekhani-cascade", "claim-mw-not-equal-value", "nepal-energy-profile"]
+- page: 25
+  image_index: 1
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Trishuli"
+  source_page: 25
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["trishuli", "nea", "claim-sediment-core-issue"]
+- page: 25
+  image_index: 2
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "Repair of generator side covers during overhauling Stator of unit-2 during overhauling"
+  paragraph_anchor: "# Trishuli"
+  source_page: 25
+  note: ""
+  raw_caption: "Repair of generator side covers during overhauling Stator of unit-2 during overhauling"
+  candidate_slugs: ["trishuli", "nea", "claim-sediment-core-issue"]
+- page: 26
+  image_index: 0
+  action: inline_figure
+  target_slug: "kulekhani-cascade"
+  proposed_slug: ""
+  caption: "Repair works on draft tube during overhauling"
+  paragraph_anchor: "# Kulekhani Cascade"
+  source_page: 26
+  note: ""
+  raw_caption: "Repair works on draft tube during overhauling"
+  candidate_slugs: ["kulekhani-cascade", "claim-mw-not-equal-value", "nepal-energy-profile"]
+- page: 26
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "servicing."
+  paragraph_anchor: ""
+  source_page: 26
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "servicing."
+  candidate_slugs: ["kulekhani-cascade", "claim-mw-not-equal-value", "nepal-energy-profile"]
+- page: 26
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "replacement."
+  paragraph_anchor: ""
+  source_page: 26
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "replacement."
+  candidate_slugs: ["kulekhani-cascade", "claim-mw-not-equal-value", "nepal-energy-profile"]
+- page: 27
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "along the penstock and reservoir. damage in Asoj."
+  paragraph_anchor: ""
+  source_page: 27
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "along the penstock and reservoir. damage in Asoj."
+  candidate_slugs: ["claim-mw-not-equal-value", "india-energy-relationship", "nepal-energy-profile"]
+- page: 27
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "completed to boost reliability and efficiency, and modification of hydraulic pipelines for the"
+  paragraph_anchor: ""
+  source_page: 27
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "completed to boost reliability and efficiency, and modification of hydraulic pipelines for the"
+  candidate_slugs: ["claim-mw-not-equal-value", "india-energy-relationship", "nepal-energy-profile"]
+- page: 28
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "• Landslide protection generation."
+  paragraph_anchor: ""
+  source_page: 28
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "• Landslide protection generation."
+  candidate_slugs: ["claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022", "niettp"]
+- page: 28
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Seti Hydropower Station achieving 51% of its target and 15% of design"
+  paragraph_anchor: ""
+  source_page: 28
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Seti Hydropower Station achieving 51% of its target and 15% of design"
+  candidate_slugs: ["claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022", "niettp"]
+- page: 28
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "reliability."
+  paragraph_anchor: ""
+  source_page: 28
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "reliability."
+  candidate_slugs: ["claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022", "niettp"]
+- page: 29
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 29
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["nea", "national-water-plan-nepal", "wb-water-sector-diagnostic"]
+- page: 29
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "and 138% of its design generation."
+  paragraph_anchor: ""
+  source_page: 29
+  note: ""
+  raw_caption: "and 138% of its design generation."
+  candidate_slugs: ["nea", "national-water-plan-nepal", "wb-water-sector-diagnostic"]
+- page: 29
+  image_index: 3
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "May 1911 (B.S. 1968, 9th Jestha)."
+  paragraph_anchor: ""
+  source_page: 29
+  note: ""
+  raw_caption: "May 1911 (B.S. 1968, 9th Jestha)."
+  candidate_slugs: ["nea", "national-water-plan-nepal", "wb-water-sector-diagnostic"]
+- page: 30
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "FISCAL YEAR 2024/2025 A YEAR IN REVIEW"
+  paragraph_anchor: ""
+  source_page: 30
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "FISCAL YEAR 2024/2025 A YEAR IN REVIEW"
+  candidate_slugs: ["kulekhani-cascade", "nea", "marsyangdi"]
+- page: 30
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Hetauda Diesel Plant and Multifuel Power Plant"
+  paragraph_anchor: ""
+  source_page: 30
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Hetauda Diesel Plant and Multifuel Power Plant"
+  candidate_slugs: ["kulekhani-cascade", "nea", "marsyangdi"]
+- page: 30
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "planned after budget approval."
+  paragraph_anchor: ""
+  source_page: 30
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "planned after budget approval."
+  candidate_slugs: ["kulekhani-cascade", "nea", "marsyangdi"]
+- page: 32
+  image_index: 0
+  action: inline_figure
+  target_slug: "dhungesangu-basantapur-220-132kv"
+  proposed_slug: ""
+  caption: "Chilime Hub GIS SS day view."
+  paragraph_anchor: "# Dhungesanghu–Basantapur 220/132 kV Corridor"
+  source_page: 32
+  note: ""
+  raw_caption: "Chilime Hub GIS SS day view."
+  candidate_slugs: ["dhungesangu-basantapur-220-132kv", "middle-tamor", "niettp"]
+- page: 32
+  image_index: 1
+  action: inline_figure
+  target_slug: "dhungesangu-basantapur-220-132kv"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Dhungesanghu–Basantapur 220/132 kV Corridor"
+  source_page: 32
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["dhungesangu-basantapur-220-132kv", "middle-tamor", "niettp"]
+- page: 32
+  image_index: 2
+  action: inline_figure
+  target_slug: "dhungesangu-basantapur-220-132kv"
+  proposed_slug: ""
+  caption: "KC-3: Transmission Line Stretch from Basantapur"
+  paragraph_anchor: "# Dhungesanghu–Basantapur 220/132 kV Corridor"
+  source_page: 32
+  note: ""
+  raw_caption: "KC-3: Transmission Line Stretch from Basantapur"
+  candidate_slugs: ["dhungesangu-basantapur-220-132kv", "middle-tamor", "niettp"]
+- page: 33
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "supporting growing local energy demands."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 33
+  note: ""
+  raw_caption: "supporting growing local energy demands."
+  candidate_slugs: ["nea", "data-domestic-demand", "niettp"]
+- page: 33
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Malekhu Substation"
+  paragraph_anchor: ""
+  source_page: 33
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Malekhu Substation"
+  candidate_slugs: ["nea", "data-domestic-demand", "niettp"]
+- page: 34
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Tamghas 132/33/11 kV Substation"
+  paragraph_anchor: ""
+  source_page: 34
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Tamghas 132/33/11 kV Substation"
+  candidate_slugs: ["nea", "claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022"]
+- page: 36
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 36
+  note: "skipped:per-target-cap-reached"
+  raw_caption: ""
+  candidate_slugs: ["nea", "dhungesangu-basantapur-220-132kv", "nepal-transmission-landscape-2025"]
+- page: 37
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "First Erected Tower"
+  paragraph_anchor: ""
+  source_page: 37
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "First Erected Tower"
+  candidate_slugs: ["nea", "claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022"]
+- page: 37
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "First Erected Tower"
+  paragraph_anchor: ""
+  source_page: 37
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "First Erected Tower"
+  candidate_slugs: ["nea", "claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022"]
+- page: 38
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "to be energized within the next three months."
+  paragraph_anchor: ""
+  source_page: 38
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "to be energized within the next three months."
+  candidate_slugs: ["nea", "kathmandu-valley-underground-cabling", "data-domestic-demand"]
+- page: 38
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "industrial corridor."
+  paragraph_anchor: ""
+  source_page: 38
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "industrial corridor."
+  candidate_slugs: ["nea", "kathmandu-valley-underground-cabling", "data-domestic-demand"]
+- page: 39
+  image_index: 1
+  action: filmstrip
+  target_slug: "niettp"
+  proposed_slug: ""
+  caption: "New Modi 132 kV Substation (with two Bay expansion & Foundation work)"
+  paragraph_anchor: ""
+  source_page: 39
+  note: ""
+  raw_caption: "New Modi 132 kV Substation (with two Bay expansion & Foundation work)"
+  candidate_slugs: ["niettp", "nepal-transmission-landscape-2025", "nawalpur-132kv-substation"]
+- page: 41
+  image_index: 1
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "pending resolution of environmental approvals."
+  paragraph_anchor: "# Trishuli"
+  source_page: 41
+  note: ""
+  raw_caption: "pending resolution of environmental approvals."
+  candidate_slugs: ["trishuli", "niettp", "mca-central-400"]
+- page: 42
+  image_index: 0
+  action: inline_figure
+  target_slug: "niettp"
+  proposed_slug: ""
+  caption: "400 kV Tower at Koshi River"
+  paragraph_anchor: "# Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+  source_page: 42
+  note: ""
+  raw_caption: "400 kV Tower at Koshi River"
+  candidate_slugs: ["niettp", "nea", "india-cbte-2018"]
+- page: 45
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Energy contribution scenario (2081/82)"
+  paragraph_anchor: ""
+  source_page: 45
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Energy contribution scenario (2081/82)"
+  candidate_slugs: ["nea", "sanjen", "sanjen-khola"]
+- page: 56
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Electrification in Rubi Valley, Dhading"
+  paragraph_anchor: ""
+  source_page: 56
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Electrification in Rubi Valley, Dhading"
+  candidate_slugs: ["nea", "data-domestic-demand", "nepal-energy-profile"]
+- page: 63
+  image_index: 1
+  action: inline_figure
+  target_slug: "karnali-chisapani"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Karnali Chisapani Project"
+  source_page: 63
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["karnali-chisapani", "mugu-karnali-feasibility-2025", "upper-karnali"]
+- page: 63
+  image_index: 2
+  action: inline_figure
+  target_slug: "karnali-chisapani"
+  proposed_slug: ""
+  caption: "Syarpu Lake Pumped Storage Hydroelectric"
+  paragraph_anchor: "# Karnali Chisapani Project"
+  source_page: 63
+  note: ""
+  raw_caption: "Syarpu Lake Pumped Storage Hydroelectric"
+  candidate_slugs: ["karnali-chisapani", "mugu-karnali-feasibility-2025", "upper-karnali"]
+- page: 65
+  image_index: 1
+  action: inline_figure
+  target_slug: "dudhkoshi-storage"
+  proposed_slug: ""
+  caption: "awareness programs, skill development training,"
+  paragraph_anchor: "# Dudhkoshi Storage Hydroelectric Project"
+  source_page: 65
+  note: ""
+  raw_caption: "awareness programs, skill development training,"
+  candidate_slugs: ["dudhkoshi-storage", "upper-arun", "chilime"]
+- page: 65
+  image_index: 2
+  action: inline_figure
+  target_slug: "dudhkoshi-storage"
+  proposed_slug: ""
+  caption: "Fisheries Study in Jawa-Tila HEP Area (70.37 MW), Public Consultation Meeting at Lekhnath-Damauli Jumla 220 kV TLP Area, Byas Municipality, Tanahu"
+  paragraph_anchor: "# Dudhkoshi Storage Hydroelectric Project"
+  source_page: 65
+  note: ""
+  raw_caption: "Fisheries Study in Jawa-Tila HEP Area (70.37 MW), Public Consultation Meeting at Lekhnath-Damauli Jumla 220 kV TLP Area, Byas Municipality, Tanahu"
+  candidate_slugs: ["dudhkoshi-storage", "upper-arun", "chilime"]
+- page: 65
+  image_index: 3
+  action: inline_figure
+  target_slug: "dudhkoshi-storage"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Dudhkoshi Storage Hydroelectric Project"
+  source_page: 65
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["dudhkoshi-storage", "upper-arun", "chilime"]
+- page: 65
+  image_index: 4
+  action: inline_figure
+  target_slug: "dudhkoshi-storage"
+  proposed_slug: ""
+  caption: "Jumla 220 kV TLP Area, Byas Municipality, Tanahu"
+  paragraph_anchor: "# Dudhkoshi Storage Hydroelectric Project"
+  source_page: 65
+  note: ""
+  raw_caption: "Jumla 220 kV TLP Area, Byas Municipality, Tanahu"
+  candidate_slugs: ["dudhkoshi-storage", "upper-arun", "chilime"]
+- page: 66
+  image_index: 0
+  action: inline_figure
+  target_slug: "upper-arun"
+  proposed_slug: ""
+  caption: "ERT survey at IkhuwaKhola HPP (IKHPP) Core Drilling at JawaTila"
+  paragraph_anchor: "# Upper Arun Hydroelectric Project"
+  source_page: 66
+  note: ""
+  raw_caption: "ERT survey at IkhuwaKhola HPP (IKHPP) Core Drilling at JawaTila"
+  candidate_slugs: ["upper-arun", "nea", "bangladesh-trade-route"]
+- page: 66
+  image_index: 1
+  action: inline_figure
+  target_slug: "upper-arun"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Upper Arun Hydroelectric Project"
+  source_page: 66
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["upper-arun", "nea", "bangladesh-trade-route"]
+- page: 66
+  image_index: 2
+  action: inline_figure
+  target_slug: "upper-arun"
+  proposed_slug: ""
+  caption: "56 |"
+  paragraph_anchor: "# Upper Arun Hydroelectric Project"
+  source_page: 66
+  note: ""
+  raw_caption: "56 |"
+  candidate_slugs: ["upper-arun", "nea", "bangladesh-trade-route"]
+- page: 67
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "with sloped roof and jhingati tile. The total built-"
+  paragraph_anchor: ""
+  source_page: 67
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "with sloped roof and jhingati tile. The total built-"
+  candidate_slugs: ["nea", "claim-sediment-core-issue", "bangladesh-trade-route"]
+- page: 67
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "main function is to prepare training, allocate Rendered View of Office Building at Lainchaur"
+  paragraph_anchor: ""
+  source_page: 67
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "main function is to prepare training, allocate Rendered View of Office Building at Lainchaur"
+  candidate_slugs: ["nea", "claim-sediment-core-issue", "bangladesh-trade-route"]
+- page: 68
+  image_index: 0
+  action: filmstrip
+  target_slug: "mca-central-400"
+  proposed_slug: ""
+  caption: "Central Workshop Hetauda"
+  paragraph_anchor: ""
+  source_page: 68
+  note: ""
+  raw_caption: "Central Workshop Hetauda"
+  candidate_slugs: ["mca-central-400", "claim-sediment-core-issue", "data-domestic-demand"]
+- page: 68
+  image_index: 1
+  action: filmstrip
+  target_slug: "mca-central-400"
+  proposed_slug: ""
+  caption: "Maintenance work at Central Workshop Hetauda"
+  paragraph_anchor: ""
+  source_page: 68
+  note: ""
+  raw_caption: "Maintenance work at Central Workshop Hetauda"
+  candidate_slugs: ["mca-central-400", "claim-sediment-core-issue", "data-domestic-demand"]
+- page: 68
+  image_index: 2
+  action: filmstrip
+  target_slug: "mca-central-400"
+  proposed_slug: ""
+  caption: "Amlekhgunj Pole Plant"
+  paragraph_anchor: ""
+  source_page: 68
+  note: ""
+  raw_caption: "Amlekhgunj Pole Plant"
+  candidate_slugs: ["mca-central-400", "claim-sediment-core-issue", "data-domestic-demand"]
+- page: 70
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Strung Kusma- New Butwal Multi-circuit Line"
+  paragraph_anchor: ""
+  source_page: 70
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Strung Kusma- New Butwal Multi-circuit Line"
+  candidate_slugs: ["marsyangdi", "nea", "mca-central-400"]
+- page: 70
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "28 April 2024."
+  paragraph_anchor: ""
+  source_page: 70
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "28 April 2024."
+  candidate_slugs: ["marsyangdi", "nea", "mca-central-400"]
+- page: 70
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Markichowk Substation"
+  paragraph_anchor: ""
+  source_page: 70
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Markichowk Substation"
+  candidate_slugs: ["marsyangdi", "nea", "mca-central-400"]
+- page: 70
+  image_index: 3
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "line."
+  paragraph_anchor: ""
+  source_page: 70
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "line."
+  candidate_slugs: ["marsyangdi", "nea", "mca-central-400"]
+- page: 71
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Samundratar Substation on 5 April 2025 and is fully operational."
+  paragraph_anchor: ""
+  source_page: 71
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Samundratar Substation on 5 April 2025 and is fully operational."
+  candidate_slugs: ["nea", "trishuli", "upper-trishuli-3b"]
+- page: 71
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "PROJECT MANAGEMENT DIRECTORATE FISCAL YEAR 2024/2025"
+  paragraph_anchor: ""
+  source_page: 71
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "PROJECT MANAGEMENT DIRECTORATE FISCAL YEAR 2024/2025"
+  candidate_slugs: ["nea", "trishuli", "upper-trishuli-3b"]
+- page: 71
+  image_index: 3
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "serves 45–50 customers daily."
+  paragraph_anchor: ""
+  source_page: 71
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "serves 45–50 customers daily."
+  candidate_slugs: ["nea", "trishuli", "upper-trishuli-3b"]
+- page: 72
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 72
+  note: "skipped:per-target-cap-reached"
+  raw_caption: ""
+  candidate_slugs: ["nea", "upper-tamakoshi", "niettp"]
+- page: 72
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Final stringing at AP 44/0"
+  paragraph_anchor: ""
+  source_page: 72
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Final stringing at AP 44/0"
+  candidate_slugs: ["nea", "upper-tamakoshi", "niettp"]
+- page: 73
+  image_index: 1
+  action: filmstrip
+  target_slug: "upper-tamakoshi"
+  proposed_slug: ""
+  caption: "approach road and boundary wall in progress."
+  paragraph_anchor: ""
+  source_page: 73
+  note: ""
+  raw_caption: "approach road and boundary wall in progress."
+  candidate_slugs: ["upper-tamakoshi", "kathmandu-valley-underground-cabling", "claim-systems-conversion-failure"]
+- page: 73
+  image_index: 2
+  action: filmstrip
+  target_slug: "upper-tamakoshi"
+  proposed_slug: ""
+  caption: "400kV GIS Building and Transformer Banks at New Khimti Substation"
+  paragraph_anchor: ""
+  source_page: 73
+  note: ""
+  raw_caption: "400kV GIS Building and Transformer Banks at New Khimti Substation"
+  candidate_slugs: ["upper-tamakoshi", "kathmandu-valley-underground-cabling", "claim-systems-conversion-failure"]
+- page: 73
+  image_index: 3
+  action: filmstrip
+  target_slug: "upper-tamakoshi"
+  proposed_slug: ""
+  caption: "Phutung Substation"
+  paragraph_anchor: ""
+  source_page: 73
+  note: ""
+  raw_caption: "Phutung Substation"
+  candidate_slugs: ["upper-tamakoshi", "kathmandu-valley-underground-cabling", "claim-systems-conversion-failure"]
+- page: 75
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "acquisition and right-of-way issues."
+  paragraph_anchor: ""
+  source_page: 75
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "acquisition and right-of-way issues."
+  candidate_slugs: ["nea", "rahughat", "niettp"]
+- page: 75
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "132 kV Switchyard with CR Building at Dadakhet Substation"
+  paragraph_anchor: ""
+  source_page: 75
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "132 kV Switchyard with CR Building at Dadakhet Substation"
+  candidate_slugs: ["nea", "rahughat", "niettp"]
+- page: 77
+  image_index: 1
+  action: filmstrip
+  target_slug: "niettp"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 77
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["niettp", "claim-mw-not-equal-value", "bangladesh-trade-route"]
+- page: 77
+  image_index: 2
+  action: filmstrip
+  target_slug: "niettp"
+  proposed_slug: ""
+  caption: "Pangtang Substation Keraun 132/33 kV Substation"
+  paragraph_anchor: ""
+  source_page: 77
+  note: ""
+  raw_caption: "Pangtang Substation Keraun 132/33 kV Substation"
+  candidate_slugs: ["niettp", "claim-mw-not-equal-value", "bangladesh-trade-route"]
+- page: 78
+  image_index: 0
+  action: filmstrip
+  target_slug: "madi"
+  proposed_slug: ""
+  caption: "33 kV Switchyard"
+  paragraph_anchor: ""
+  source_page: 78
+  note: ""
+  raw_caption: "33 kV Switchyard"
+  candidate_slugs: ["madi", "niettp", "wb-nepal-power-sector-reform-2022"]
+- page: 78
+  image_index: 1
+  action: filmstrip
+  target_slug: "madi"
+  proposed_slug: ""
+  caption: "Khungri Substation"
+  paragraph_anchor: ""
+  source_page: 78
+  note: ""
+  raw_caption: "Khungri Substation"
+  candidate_slugs: ["madi", "niettp", "wb-nepal-power-sector-reform-2022"]
+- page: 78
+  image_index: 2
+  action: filmstrip
+  target_slug: "madi"
+  proposed_slug: ""
+  caption: "Tower Erection at Dang District"
+  paragraph_anchor: ""
+  source_page: 78
+  note: ""
+  raw_caption: "Tower Erection at Dang District"
+  candidate_slugs: ["madi", "niettp", "wb-nepal-power-sector-reform-2022"]
+- page: 79
+  image_index: 1
+  action: filmstrip
+  target_slug: "niettp"
+  proposed_slug: ""
+  caption: "the end of 2025."
+  paragraph_anchor: ""
+  source_page: 79
+  note: ""
+  raw_caption: "the end of 2025."
+  candidate_slugs: ["niettp", "india-energy-relationship", "nepal-transmission-landscape-2025"]
+- page: 79
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "complete and already in successful operation."
+  paragraph_anchor: ""
+  source_page: 79
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "complete and already in successful operation."
+  candidate_slugs: ["niettp", "india-energy-relationship", "nepal-transmission-landscape-2025"]
+- page: 80
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "completion by the end of 2025."
+  paragraph_anchor: ""
+  source_page: 80
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "completion by the end of 2025."
+  candidate_slugs: ["nea", "nepal-energy-profile", "kathmandu-valley-underground-cabling"]
+- page: 81
+  image_index: 1
+  action: inline_figure
+  target_slug: "kathmandu-valley-underground-cabling"
+  proposed_slug: ""
+  caption: "by the end of 2025."
+  paragraph_anchor: "# Kathmandu Valley Underground Cabling"
+  source_page: 81
+  note: ""
+  raw_caption: "by the end of 2025."
+  candidate_slugs: ["kathmandu-valley-underground-cabling", "nea", "niettp"]
+- page: 81
+  image_index: 2
+  action: inline_figure
+  target_slug: "kathmandu-valley-underground-cabling"
+  proposed_slug: ""
+  caption: "electricity to NEA consumers."
+  paragraph_anchor: "# Kathmandu Valley Underground Cabling"
+  source_page: 81
+  note: ""
+  raw_caption: "electricity to NEA consumers."
+  candidate_slugs: ["kathmandu-valley-underground-cabling", "nea", "niettp"]
+- page: 82
+  image_index: 0
+  action: filmstrip
+  target_slug: "kathmandu-valley-underground-cabling"
+  proposed_slug: ""
+  caption: "Kathmandu Valley."
+  paragraph_anchor: ""
+  source_page: 82
+  note: ""
+  raw_caption: "Kathmandu Valley."
+  candidate_slugs: ["kathmandu-valley-underground-cabling", "nepal-transmission-landscape-2025", "niettp"]
+- page: 82
+  image_index: 1
+  action: filmstrip
+  target_slug: "kathmandu-valley-underground-cabling"
+  proposed_slug: ""
+  caption: "HDPE laying with HDD machine in Pokhara"
+  paragraph_anchor: ""
+  source_page: 82
+  note: ""
+  raw_caption: "HDPE laying with HDD machine in Pokhara"
+  candidate_slugs: ["kathmandu-valley-underground-cabling", "nepal-transmission-landscape-2025", "niettp"]
+- page: 82
+  image_index: 2
+  action: filmstrip
+  target_slug: "kathmandu-valley-underground-cabling"
+  proposed_slug: ""
+  caption: "LT Feeder Pillar foundation in Pokhara"
+  paragraph_anchor: ""
+  source_page: 82
+  note: ""
+  raw_caption: "LT Feeder Pillar foundation in Pokhara"
+  candidate_slugs: ["kathmandu-valley-underground-cabling", "nepal-transmission-landscape-2025", "niettp"]
+- page: 83
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Equipment Testing at Manara SS"
+  paragraph_anchor: ""
+  source_page: 83
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Equipment Testing at Manara SS"
+  candidate_slugs: ["nea", "data-domestic-demand", "kathmandu-valley-underground-cabling"]
+- page: 84
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "The project is near completion, with SCADA modernization efforts."
+  paragraph_anchor: ""
+  source_page: 84
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "The project is near completion, with SCADA modernization efforts."
+  candidate_slugs: ["nea", "data-domestic-demand", "nepal-transmission-landscape-2025"]
+- page: 84
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "phase of the RMS."
+  paragraph_anchor: ""
+  source_page: 84
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "phase of the RMS."
+  candidate_slugs: ["nea", "data-domestic-demand", "nepal-transmission-landscape-2025"]
+- page: 87
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 87
+  note: "skipped:per-target-cap-reached"
+  raw_caption: ""
+  candidate_slugs: ["nea", "bangladesh-trade-route", "claim-domestic-led-strategy"]
+- page: 87
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 87
+  note: "skipped:per-target-cap-reached"
+  raw_caption: ""
+  candidate_slugs: ["nea", "bangladesh-trade-route", "claim-domestic-led-strategy"]
+- page: 87
+  image_index: 3
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "historical places of Nepal."
+  paragraph_anchor: ""
+  source_page: 87
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "historical places of Nepal."
+  candidate_slugs: ["nea", "bangladesh-trade-route", "claim-domestic-led-strategy"]
+- page: 88
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "• Calibration of Metering Units demand."
+  paragraph_anchor: ""
+  source_page: 88
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "• Calibration of Metering Units demand."
+  candidate_slugs: ["nea", "data-domestic-demand", "nepal-energy-profile"]
+- page: 88
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Public Charging Station in Butwal, Rupandehi"
+  paragraph_anchor: ""
+  source_page: 88
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Public Charging Station in Butwal, Rupandehi"
+  candidate_slugs: ["nea", "data-domestic-demand", "nepal-energy-profile"]
+- page: 89
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 89
+  note: "skipped:per-target-cap-reached"
+  raw_caption: ""
+  candidate_slugs: ["nea", "india-cbte-2018", "niettp"]
+- page: 89
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Photo showing Loss reduction activities carried out by Electricity Loss Reduction Division in Madhesh Province"
+  paragraph_anchor: ""
+  source_page: 89
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Photo showing Loss reduction activities carried out by Electricity Loss Reduction Division in Madhesh Province"
+  candidate_slugs: ["nea", "india-cbte-2018", "niettp"]
+- page: 89
+  image_index: 3
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Photo showing Loss reduction activities carried out by Electricity Loss Reduction Division in Madhesh Province"
+  paragraph_anchor: ""
+  source_page: 89
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Photo showing Loss reduction activities carried out by Electricity Loss Reduction Division in Madhesh Province"
+  candidate_slugs: ["nea", "india-cbte-2018", "niettp"]
+- page: 91
+  image_index: 1
+  action: inline_figure
+  target_slug: "upper-tamakoshi"
+  proposed_slug: ""
+  caption: "Share Structure"
+  paragraph_anchor: "# Upper Tamakoshi"
+  source_page: 91
+  note: ""
+  raw_caption: "Share Structure"
+  candidate_slugs: ["upper-tamakoshi", "nea", "chilime"]
+- page: 93
+  image_index: 1
+  action: inline_figure
+  target_slug: "upper-tamakoshi"
+  proposed_slug: ""
+  caption: "Permanent Camp Facility"
+  paragraph_anchor: "# Upper Tamakoshi"
+  source_page: 93
+  note: ""
+  raw_caption: "Permanent Camp Facility"
+  candidate_slugs: ["upper-tamakoshi", "tamakoshi-v", "nea"]
+- page: 94
+  image_index: 0
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "Share structure:"
+  paragraph_anchor: "# Chilime"
+  source_page: 94
+  note: ""
+  raw_caption: "Share structure:"
+  candidate_slugs: ["chilime", "nea", "niettp"]
+- page: 96
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Unit 1 Wet Testing"
+  paragraph_anchor: ""
+  source_page: 96
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Unit 1 Wet Testing"
+  candidate_slugs: ["nea", "chilime", "madhya-bhotekoshi"]
+- page: 97
+  image_index: 1
+  action: inline_figure
+  target_slug: "sanjen"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Sanjen"
+  source_page: 97
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["sanjen", "chilime", "nea"]
+- page: 97
+  image_index: 2
+  action: inline_figure
+  target_slug: "sanjen"
+  proposed_slug: ""
+  caption: "began is 90.79 GWh as of Ashadh, 2082."
+  paragraph_anchor: "# Sanjen"
+  source_page: 97
+  note: ""
+  raw_caption: "began is 90.79 GWh as of Ashadh, 2082."
+  candidate_slugs: ["sanjen", "chilime", "nea"]
+- page: 97
+  image_index: 3
+  action: inline_figure
+  target_slug: "sanjen"
+  proposed_slug: ""
+  caption: "Switchyard"
+  paragraph_anchor: "# Sanjen"
+  source_page: 97
+  note: ""
+  raw_caption: "Switchyard"
+  candidate_slugs: ["sanjen", "chilime", "nea"]
+- page: 99
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Site Inspection during Safeguards"
+  paragraph_anchor: ""
+  source_page: 99
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Site Inspection during Safeguards"
+  candidate_slugs: ["wecs-hydropower-potential-2019", "nea", "wecs-energy-synopsis-2024"]
+- page: 101
+  image_index: 1
+  action: filmstrip
+  target_slug: "upper-trishuli-3b"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 101
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["upper-trishuli-3b", "trishuli", "nea"]
+- page: 103
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "1) Lot 1 - Civil and Hydro-Mechanical Works:"
+  paragraph_anchor: ""
+  source_page: 103
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "1) Lot 1 - Civil and Hydro-Mechanical Works:"
+  candidate_slugs: ["india-cbte-2018", "niettp", "india-energy-relationship"]
+- page: 104
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Main Dam"
+  paragraph_anchor: ""
+  source_page: 104
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Main Dam"
+  candidate_slugs: ["nea", "tanahu-hydropower", "tanahu-adb-status-2025"]
+- page: 108
+  image_index: 0
+  action: inline_figure
+  target_slug: "phukot-karnali"
+  proposed_slug: ""
+  caption: "within and outside the country."
+  paragraph_anchor: "# Phukot Karnali"
+  source_page: 108
+  note: ""
+  raw_caption: "within and outside the country."
+  candidate_slugs: ["phukot-karnali", "nea", "claim-systems-conversion-failure"]
+- page: 135
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "NEA Hydro Generation Purchase NEA Subsidaries"
+  paragraph_anchor: ""
+  source_page: 135
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "NEA Hydro Generation Purchase NEA Subsidaries"
+  candidate_slugs: ["nea", "claim-domestic-led-strategy", "data-domestic-demand"]
+- page: 135
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "19% MU) 12.26%"
+  paragraph_anchor: ""
+  source_page: 135
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "19% MU) 12.26%"
+  candidate_slugs: ["nea", "claim-domestic-led-strategy", "data-domestic-demand"]
+- page: 135
+  image_index: 6
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Domestic Industrial Export Others"
+  paragraph_anchor: ""
+  source_page: 135
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Domestic Industrial Export Others"
+  candidate_slugs: ["nea", "claim-domestic-led-strategy", "data-domestic-demand"]
+- page: 135
+  image_index: 12
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Operating Income Finance Income Other Income"
+  paragraph_anchor: ""
+  source_page: 135
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Operating Income Finance Income Other Income"
+  candidate_slugs: ["nea", "claim-domestic-led-strategy", "data-domestic-demand"]
+- page: 135
+  image_index: 16
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "1.23%"
+  paragraph_anchor: ""
+  source_page: 135
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "1.23%"
+  candidate_slugs: ["nea", "claim-domestic-led-strategy", "data-domestic-demand"]
+- page: 135
+  image_index: 17
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "5.53%"
+  paragraph_anchor: ""
+  source_page: 135
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "5.53%"
+  candidate_slugs: ["nea", "claim-domestic-led-strategy", "data-domestic-demand"]
+- page: 143
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annual System Peak Load Curve"
+  paragraph_anchor: ""
+  source_page: 143
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Annual System Peak Load Curve"
+  candidate_slugs: ["nea", "nepal-transmission-landscape-2025", "data-domestic-demand"]
+- page: 143
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Jestha 27, 2082 (June 10, 2025) Tuesday"
+  paragraph_anchor: ""
+  source_page: 143
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Jestha 27, 2082 (June 10, 2025) Tuesday"
+  candidate_slugs: ["nea", "nepal-transmission-landscape-2025", "data-domestic-demand"]
+- page: 144
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 144
+  note: "skipped:per-target-cap-reached"
+  raw_caption: ""
+  candidate_slugs: ["nea", "nepal-energy-profile", "india-energy-relationship"]
+- page: 145
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 145
+  note: "skipped:per-target-cap-reached"
+  raw_caption: ""
+  candidate_slugs: ["nea", "data-domestic-demand", "bangladesh-trade-route"]
+- page: 146
+  image_index: 0
+  action: crop
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "Nepal Electricity Authority"
+  paragraph_anchor: ""
+  source_page: 146
+  note: ""
+  raw_caption: "Nepal Electricity Authority"
+  candidate_slugs: ["india-energy-relationship", "niettp", "india-cbte-2018"]
+- page: 147
+  image_index: 1
+  action: filmstrip
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 147
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["india-energy-relationship", "niettp", "india-cbte-2018"]
+- page: 193
+  image_index: 0
+  action: filmstrip
+  target_slug: "bangladesh-trade-route"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 193
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["bangladesh-trade-route", "niettp", "india-cbte-2018"]
+- page: 193
+  image_index: 1
+  action: filmstrip
+  target_slug: "bangladesh-trade-route"
+  proposed_slug: ""
+  caption: "Middle Bhotekoshi Dam Site"
+  paragraph_anchor: ""
+  source_page: 193
+  note: ""
+  raw_caption: "Middle Bhotekoshi Dam Site"
+  candidate_slugs: ["bangladesh-trade-route", "niettp", "india-cbte-2018"]
+- page: 194
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 194
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: ""
+  candidate_slugs: []

@@ -1,0 +1,25 @@
+{
+  "slug": "trishuli",
+  "entries": [
+    {
+      "src": "trishuli/nea2425-p025-img02.png",
+      "filename": "nea2425-p025-img02.png",
+      "caption": "Repair of generator side covers during overhauling Stator of unit-2 during overhauling",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 25,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        317.81,
+        62.36,
+        546.84,
+        232.74
+      ],
+      "width": 636,
+      "height": 473,
+      "fetched_at": 1776764001
+    }
+  ]
+}

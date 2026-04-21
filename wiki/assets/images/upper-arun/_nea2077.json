@@ -1,0 +1,105 @@
+{
+  "slug": "upper-arun",
+  "entries": [
+    {
+      "src": "upper-arun/nea2077-p115-img01.png",
+      "filename": "nea2077-p115-img01.png",
+      "caption": "Honorable Minister for Energy, Water Resources and Irrigation and NEA leadership during the Upper Arun site visit",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 115,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        393.86,
+        299.06,
+        535.75
+      ],
+      "width": 634,
+      "height": 394,
+      "fetched_at": 1776689196
+    },
+    {
+      "src": "upper-arun/nea2077-p116-img01.png",
+      "filename": "nea2077-p116-img01.png",
+      "caption": "Project Location",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 116,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.33,
+        266.46,
+        305.83,
+        600.71
+      ],
+      "width": 654,
+      "height": 928,
+      "fetched_at": 1776689196
+    },
+    {
+      "src": "upper-arun/nea2077-p117-img01.png",
+      "filename": "nea2077-p117-img01.png",
+      "caption": "Test Adit at Proposed Headworks Site",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 117,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        388.35,
+        548.98,
+        729.12
+      ],
+      "width": 1328,
+      "height": 946,
+      "fetched_at": 1776689197
+    },
+    {
+      "src": "upper-arun/nea2077-p118-img01.png",
+      "filename": "nea2077-p118-img01.png",
+      "caption": "Proposed Headworks",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 118,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.8,
+        93.4,
+        547.12,
+        369.24
+      ],
+      "width": 1323,
+      "height": 766,
+      "fetched_at": 1776689197
+    },
+    {
+      "src": "upper-arun/nea2077-p118-img02.png",
+      "filename": "nea2077-p118-img02.png",
+      "caption": "Proposed Underground Powerhouse 3D Model",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 118,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        413.84,
+        548.15,
+        708.66
+      ],
+      "width": 1326,
+      "height": 819,
+      "fetched_at": 1776689197
+    }
+  ]
+}

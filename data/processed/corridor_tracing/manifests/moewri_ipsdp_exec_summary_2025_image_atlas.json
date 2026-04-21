@@ -1,0 +1,2436 @@
+[
+  {
+    "page": 10,
+    "image_index": 0,
+    "bbox": [
+      50.16,
+      79.2,
+      516.24,
+      186.6
+    ],
+    "area_pct": 9.99,
+    "nearest_caption": "Executive Summary in Nepal",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_010.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": true,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 19.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'domestic' via title",
+          "matched 'demand' via title"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 17.5,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'export' via title",
+          "matched 'should' via title"
+        ]
+      },
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 16.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nea' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "score": 15.75,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'energy' via title",
+          "matched 'installed' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 15.5,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'bangladesh' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 6 - Source: JICA Study Team Figure 2.2-2 Outline of Hydropower Database Based on the results of considerations in this Section, lessons for power generation d…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 10,
+    "image_index": 1,
+    "bbox": [
+      50.16,
+      186.6,
+      516.24,
+      294.0
+    ],
+    "area_pct": 9.99,
+    "nearest_caption": "Figure 2.2-2 Outline of Hydropower Database",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_010.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": true,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 19.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'domestic' via title",
+          "matched 'demand' via title"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 17.5,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'export' via title",
+          "matched 'should' via title"
+        ]
+      },
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 16.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nea' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "score": 15.75,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'energy' via title",
+          "matched 'installed' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 15.5,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'bangladesh' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 6 - Source: JICA Study Team Figure 2.2-2 Outline of Hydropower Database Based on the results of considerations in this Section, lessons for power generation d…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 11,
+    "image_index": 0,
+    "bbox": [
+      78.96,
+      179.76,
+      544.56,
+      288.0
+    ],
+    "area_pct": 10.06,
+    "nearest_caption": "Each interconnection line is used for both imports and exports. There are plans to construct five(5)",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_011.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 28.75,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'nepal' via title",
+          "matched 'electricity' via title"
+        ]
+      },
+      {
+        "slug": "india-cbte-2018",
+        "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
+        "score": 24.5,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'electricity' via title",
+          "matched 'trade' via title"
+        ]
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "score": 24.0,
+        "reasons": [
+          "matched 'future' via title",
+          "matched 'india' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 22.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'electricity' via title",
+          "matched 'trade' via title"
+        ]
+      },
+      {
+        "slug": "india-energy-relationship",
+        "title": "India — Energy Relationship with Nepal",
+        "score": 20.25,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'nepal' via title",
+          "matched 'india' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 7 - 2.2.4 Power Trade Figure 2.2-3 shows the current status and future plans for inte rconnection lines. Nepal has been exchanging electricity with India, and…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 11,
+    "image_index": 1,
+    "bbox": [
+      78.96,
+      288.0,
+      544.56,
+      396.24
+    ],
+    "area_pct": 10.06,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_011.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 28.75,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'nepal' via title",
+          "matched 'electricity' via title"
+        ]
+      },
+      {
+        "slug": "india-cbte-2018",
+        "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
+        "score": 24.5,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'electricity' via title",
+          "matched 'trade' via title"
+        ]
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "score": 24.0,
+        "reasons": [
+          "matched 'future' via title",
+          "matched 'india' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 22.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'electricity' via title",
+          "matched 'trade' via title"
+        ]
+      },
+      {
+        "slug": "india-energy-relationship",
+        "title": "India — Energy Relationship with Nepal",
+        "score": 20.25,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'nepal' via title",
+          "matched 'india' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 7 - 2.2.4 Power Trade Figure 2.2-3 shows the current status and future plans for inte rconnection lines. Nepal has been exchanging electricity with India, and…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 11,
+    "image_index": 2,
+    "bbox": [
+      78.96,
+      396.24,
+      544.56,
+      504.48
+    ],
+    "area_pct": 10.06,
+    "nearest_caption": "Source: JICA Study Team based on NEA documents",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_011.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 28.75,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'nepal' via title",
+          "matched 'electricity' via title"
+        ]
+      },
+      {
+        "slug": "india-cbte-2018",
+        "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
+        "score": 24.5,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'electricity' via title",
+          "matched 'trade' via title"
+        ]
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "score": 24.0,
+        "reasons": [
+          "matched 'future' via title",
+          "matched 'india' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 22.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'electricity' via title",
+          "matched 'trade' via title"
+        ]
+      },
+      {
+        "slug": "india-energy-relationship",
+        "title": "India — Energy Relationship with Nepal",
+        "score": 20.25,
+        "reasons": [
+          "matched 'india' via title",
+          "matched 'nepal' via title",
+          "matched 'india' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 7 - 2.2.4 Power Trade Figure 2.2-3 shows the current status and future plans for inte rconnection lines. Nepal has been exchanging electricity with India, and…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 12,
+    "image_index": 0,
+    "bbox": [
+      57.36,
+      79.2,
+      509.04,
+      159.84
+    ],
+    "area_pct": 7.27,
+    "nearest_caption": "Executive Summary in Nepal",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_012.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 24.0,
+        "reasons": [
+          "matched 'trade' via title",
+          "matched 'nepal' via title",
+          "matched 'india' via title"
+        ]
+      },
+      {
+        "slug": "india-energy-relationship",
+        "title": "India — Energy Relationship with Nepal",
+        "score": 23.75,
+        "reasons": [
+          "matched 'energy' via title",
+          "matched 'nepal' via title",
+          "matched 'india' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 23.25,
+        "reasons": [
+          "matched 'sector' via title",
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 22.0,
+        "reasons": [
+          "matched 'trade' via title",
+          "matched 'nepal' via title",
+          "matched 'electricity' via title"
+        ]
+      },
+      {
+        "slug": "india-cbte-2018",
+        "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
+        "score": 20.25,
+        "reasons": [
+          "matched 'trade' via title",
+          "matched 'india' via title",
+          "matched 'electricity' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 8 - Source: JICA Study Team Figure 2.2-4 Current Power Trade Scheme between Nepal and India 2.3 T HE STUDY FOR DEVELOPMENT SCENARIOS In this Section, Developm…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 12,
+    "image_index": 1,
+    "bbox": [
+      57.36,
+      159.84,
+      509.04,
+      240.48
+    ],
+    "area_pct": 7.27,
+    "nearest_caption": "Figure 2.2-4 Current Power Trade Scheme between Nepal and India",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_012.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 24.0,
+        "reasons": [
+          "matched 'trade' via title",
+          "matched 'nepal' via title",
+          "matched 'india' via title"
+        ]
+      },
+      {
+        "slug": "india-energy-relationship",
+        "title": "India — Energy Relationship with Nepal",
+        "score": 23.75,
+        "reasons": [
+          "matched 'energy' via title",
+          "matched 'nepal' via title",
+          "matched 'india' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 23.25,
+        "reasons": [
+          "matched 'sector' via title",
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 22.0,
+        "reasons": [
+          "matched 'trade' via title",
+          "matched 'nepal' via title",
+          "matched 'electricity' via title"
+        ]
+      },
+      {
+        "slug": "india-cbte-2018",
+        "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
+        "score": 20.25,
+        "reasons": [
+          "matched 'trade' via title",
+          "matched 'india' via title",
+          "matched 'electricity' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 8 - Source: JICA Study Team Figure 2.2-4 Current Power Trade Scheme between Nepal and India 2.3 T HE STUDY FOR DEVELOPMENT SCENARIOS In this Section, Developm…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 13,
+    "image_index": 0,
+    "bbox": [
+      117.12,
+      253.44,
+      507.36,
+      359.88
+    ],
+    "area_pct": 8.29,
+    "nearest_caption": "power trade, capital investment cost and environmental and social impacts in order to respond",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_013.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 18.75,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'trade' via title",
+          "matched 'electricity' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 15.75,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title",
+          "matched 'policy' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 15.0,
+        "reasons": [
+          "matched 'export' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'trade' via title",
+          "matched 'electricity' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 9 - It is important to consider two overall approaches for the future direction: (i) Restrict hydropower development and accept power import in dry season or…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 13,
+    "image_index": 1,
+    "bbox": [
+      117.12,
+      359.88,
+      507.36,
+      466.32
+    ],
+    "area_pct": 8.29,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_013.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 18.75,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'trade' via title",
+          "matched 'electricity' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 15.75,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title",
+          "matched 'policy' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 15.0,
+        "reasons": [
+          "matched 'export' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'trade' via title",
+          "matched 'electricity' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 9 - It is important to consider two overall approaches for the future direction: (i) Restrict hydropower development and accept power import in dry season or…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 13,
+    "image_index": 2,
+    "bbox": [
+      117.12,
+      466.32,
+      507.36,
+      572.64
+    ],
+    "area_pct": 8.28,
+    "nearest_caption": "Source: JICA Study Team",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_013.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 18.75,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'trade' via title",
+          "matched 'electricity' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 15.75,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title",
+          "matched 'policy' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 15.0,
+        "reasons": [
+          "matched 'export' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'trade' via title",
+          "matched 'electricity' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 9 - It is important to consider two overall approaches for the future direction: (i) Restrict hydropower development and accept power import in dry season or…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 17,
+    "image_index": 2,
+    "bbox": [
+      126.48,
+      68.4,
+      497.52,
+      206.46
+    ],
+    "area_pct": 10.22,
+    "nearest_caption": "in Nepal Executive Summary",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_017.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 5.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "icimod-hkh-glacier-change",
+        "title": "ICIMOD HKH Glacier Change Summary",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "nepal-transmission-landscape-2025",
+        "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'system' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 13 - Table 2.4-1 Summary of Optimum Scenario Source: JICA Study Team",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 17,
+    "image_index": 3,
+    "bbox": [
+      126.48,
+      206.46,
+      497.52,
+      344.52
+    ],
+    "area_pct": 10.22,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_017.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 5.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "icimod-hkh-glacier-change",
+        "title": "ICIMOD HKH Glacier Change Summary",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "nepal-transmission-landscape-2025",
+        "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'system' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 13 - Table 2.4-1 Summary of Optimum Scenario Source: JICA Study Team",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 17,
+    "image_index": 4,
+    "bbox": [
+      126.48,
+      344.52,
+      497.52,
+      482.58
+    ],
+    "area_pct": 10.22,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_017.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 5.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "icimod-hkh-glacier-change",
+        "title": "ICIMOD HKH Glacier Change Summary",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "nepal-transmission-landscape-2025",
+        "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'system' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 13 - Table 2.4-1 Summary of Optimum Scenario Source: JICA Study Team",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 17,
+    "image_index": 5,
+    "bbox": [
+      126.48,
+      482.58,
+      497.52,
+      620.64
+    ],
+    "area_pct": 10.22,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_017.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 5.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "icimod-hkh-glacier-change",
+        "title": "ICIMOD HKH Glacier Change Summary",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "nepal-transmission-landscape-2025",
+        "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'system' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 13 - Table 2.4-1 Summary of Optimum Scenario Source: JICA Study Team",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 17,
+    "image_index": 6,
+    "bbox": [
+      126.48,
+      620.64,
+      497.52,
+      758.64
+    ],
+    "area_pct": 10.22,
+    "nearest_caption": "- 13 -",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_017.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 5.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "icimod-hkh-glacier-change",
+        "title": "ICIMOD HKH Glacier Change Summary",
+        "score": 5.0,
+        "reasons": [
+          "matched 'summary' via title"
+        ]
+      },
+      {
+        "slug": "nepal-transmission-landscape-2025",
+        "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'system' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 5.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 13 - Table 2.4-1 Summary of Optimum Scenario Source: JICA Study Team",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 18,
+    "image_index": 0,
+    "bbox": [
+      50.16,
+      267.6,
+      516.72,
+      379.32
+    ],
+    "area_pct": 10.4,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_018.png",
+    "page_classification": {
+      "has_photo": true,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 23.5,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'demand' via title",
+          "matched 'domestic' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 12.5,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'world' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 10.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'energy' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 14 - 2.4.1 Power Demand Forecast The results of the power demand forecast and the per capita electricity consumption (kWh/capita) × GDP (Gross Domestic Produc…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 18,
+    "image_index": 1,
+    "bbox": [
+      50.16,
+      379.32,
+      516.72,
+      491.04
+    ],
+    "area_pct": 10.4,
+    "nearest_caption": "(Left：Power Right：Peak Figure 2.4-1 Power Demand Forecast Demand (GWh), Demand (MW))",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_018.png",
+    "page_classification": {
+      "has_photo": true,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 23.5,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'demand' via title",
+          "matched 'domestic' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 12.5,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'world' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 10.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'energy' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 14 - 2.4.1 Power Demand Forecast The results of the power demand forecast and the per capita electricity consumption (kWh/capita) × GDP (Gross Domestic Produc…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 18,
+    "image_index": 2,
+    "bbox": [
+      103.68,
+      543.6,
+      462.72,
+      708.72
+    ],
+    "area_pct": 11.83,
+    "nearest_caption": "(Left：Power Right：Peak Figure 2.4-1 Power Demand Forecast Demand (GWh), Demand (MW))",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_018.png",
+    "page_classification": {
+      "has_photo": true,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 23.5,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'demand' via title",
+          "matched 'domestic' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 12.5,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'world' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 10.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'energy' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 14 - 2.4.1 Power Demand Forecast The results of the power demand forecast and the per capita electricity consumption (kWh/capita) × GDP (Gross Domestic Produc…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 23,
+    "image_index": 0,
+    "bbox": [
+      78.96,
+      79.2,
+      545.52,
+      171.96
+    ],
+    "area_pct": 8.64,
+    "nearest_caption": "in Nepal Executive Summary",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_023.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "dhalkebar-muzaffarpur",
+        "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection",
+        "score": 11.5,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'dhalkebar' via title",
+          "matched '400kv' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 10.0,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'support' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "score": 10.0,
+        "reasons": [
+          "matched 'development' via title",
+          "matched 'plans' via title"
+        ]
+      },
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 8.25,
+        "reasons": [
+          "matched 'status' via title",
+          "matched 'summary' via title",
+          "matched 'construction' via tag"
+        ]
+      },
+      {
+        "slug": "chameliya-jauljibi-interconnection",
+        "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
+        "score": 8.25,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'planned' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 19 - Source: JICA Study Team Figure 2.4-5 Major backbone systems and in ternational interconnection lines in 2040 Figure 2.4-6 summarizes the development stat…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 23,
+    "image_index": 1,
+    "bbox": [
+      78.96,
+      171.96,
+      545.52,
+      264.72
+    ],
+    "area_pct": 8.64,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_023.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "dhalkebar-muzaffarpur",
+        "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection",
+        "score": 11.5,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'dhalkebar' via title",
+          "matched '400kv' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 10.0,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'support' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "score": 10.0,
+        "reasons": [
+          "matched 'development' via title",
+          "matched 'plans' via title"
+        ]
+      },
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 8.25,
+        "reasons": [
+          "matched 'status' via title",
+          "matched 'summary' via title",
+          "matched 'construction' via tag"
+        ]
+      },
+      {
+        "slug": "chameliya-jauljibi-interconnection",
+        "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
+        "score": 8.25,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'planned' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 19 - Source: JICA Study Team Figure 2.4-5 Major backbone systems and in ternational interconnection lines in 2040 Figure 2.4-6 summarizes the development stat…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 23,
+    "image_index": 2,
+    "bbox": [
+      78.96,
+      264.72,
+      545.52,
+      357.36
+    ],
+    "area_pct": 8.62,
+    "nearest_caption": "Source: JICA Study Team",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_023.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "dhalkebar-muzaffarpur",
+        "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection",
+        "score": 11.5,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'dhalkebar' via title",
+          "matched '400kv' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 10.0,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'support' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "score": 10.0,
+        "reasons": [
+          "matched 'development' via title",
+          "matched 'plans' via title"
+        ]
+      },
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 8.25,
+        "reasons": [
+          "matched 'status' via title",
+          "matched 'summary' via title",
+          "matched 'construction' via tag"
+        ]
+      },
+      {
+        "slug": "chameliya-jauljibi-interconnection",
+        "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
+        "score": 8.25,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'planned' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 19 - Source: JICA Study Team Figure 2.4-5 Major backbone systems and in ternational interconnection lines in 2040 Figure 2.4-6 summarizes the development stat…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 23,
+    "image_index": 3,
+    "bbox": [
+      78.96,
+      425.04,
+      530.64,
+      550.44
+    ],
+    "area_pct": 11.3,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_023.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "dhalkebar-muzaffarpur",
+        "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection",
+        "score": 11.5,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'dhalkebar' via title",
+          "matched '400kv' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 10.0,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'support' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "score": 10.0,
+        "reasons": [
+          "matched 'development' via title",
+          "matched 'plans' via title"
+        ]
+      },
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 8.25,
+        "reasons": [
+          "matched 'status' via title",
+          "matched 'summary' via title",
+          "matched 'construction' via tag"
+        ]
+      },
+      {
+        "slug": "chameliya-jauljibi-interconnection",
+        "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
+        "score": 8.25,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'planned' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 19 - Source: JICA Study Team Figure 2.4-5 Major backbone systems and in ternational interconnection lines in 2040 Figure 2.4-6 summarizes the development stat…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 23,
+    "image_index": 4,
+    "bbox": [
+      78.96,
+      550.44,
+      530.64,
+      675.84
+    ],
+    "area_pct": 11.3,
+    "nearest_caption": "Source: Prepared by JICA Study Team",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_023.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "dhalkebar-muzaffarpur",
+        "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection",
+        "score": 11.5,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'dhalkebar' via title",
+          "matched '400kv' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 10.0,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'support' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "score": 10.0,
+        "reasons": [
+          "matched 'development' via title",
+          "matched 'plans' via title"
+        ]
+      },
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)",
+        "score": 8.25,
+        "reasons": [
+          "matched 'status' via title",
+          "matched 'summary' via title",
+          "matched 'construction' via tag"
+        ]
+      },
+      {
+        "slug": "chameliya-jauljibi-interconnection",
+        "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
+        "score": 8.25,
+        "reasons": [
+          "matched 'interconnection' via title",
+          "matched 'planned' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 19 - Source: JICA Study Team Figure 2.4-5 Major backbone systems and in ternational interconnection lines in 2040 Figure 2.4-6 summarizes the development stat…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 26,
+    "image_index": 1,
+    "bbox": [
+      67.68,
+      141.84,
+      498.24,
+      220.92
+    ],
+    "area_pct": 6.79,
+    "nearest_caption": "power generator.",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_026.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 33.75,
+        "reasons": [
+          "matched 'nea' via title",
+          "matched 'electricity' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 31.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'bangladesh' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 28.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'india' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "india-energy-relationship",
+        "title": "India — Energy Relationship with Nepal",
+        "score": 27.75,
+        "reasons": [
+          "matched 'energy' via title",
+          "matched 'india' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "india-cbte-2018",
+        "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
+        "score": 21.25,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'india' via title",
+          "matched 'trade' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 22 - Proposed power trading scheme Figure 2.4-7 shows the proposed trading scheme from the perspective of both the NEA and the power generator. Source: JICA S…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 26,
+    "image_index": 2,
+    "bbox": [
+      67.68,
+      220.92,
+      498.24,
+      300.0
+    ],
+    "area_pct": 6.79,
+    "nearest_caption": "Figure 2.4-7 Proposed power trading scheme",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_026.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 33.75,
+        "reasons": [
+          "matched 'nea' via title",
+          "matched 'electricity' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 31.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'bangladesh' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "niettp",
+        "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)",
+        "score": 28.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'india' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "india-energy-relationship",
+        "title": "India — Energy Relationship with Nepal",
+        "score": 27.75,
+        "reasons": [
+          "matched 'energy' via title",
+          "matched 'india' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "india-cbte-2018",
+        "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
+        "score": 21.25,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'india' via title",
+          "matched 'trade' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 22 - Proposed power trading scheme Figure 2.4-7 shows the proposed trading scheme from the perspective of both the NEA and the power generator. Source: JICA S…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 28,
+    "image_index": 1,
+    "bbox": [
+      94.8,
+      79.2,
+      471.12,
+      170.64
+    ],
+    "area_pct": 6.87,
+    "nearest_caption": "Executive Summary in Nepal",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_028.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": true,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 21.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title",
+          "matched 'nea' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 17.5,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title",
+          "matched 'sector' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 15.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title",
+          "matched 'export' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'domestic' via title",
+          "matched 'export' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 24 - Source: JICA Study Team Figure 2.4-9 Basic Funding Flows in Nepal's Electricity Sector Cash Flow analysis In this section, a cash flow analysis will be c…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 28,
+    "image_index": 2,
+    "bbox": [
+      94.8,
+      170.64,
+      471.12,
+      262.08
+    ],
+    "area_pct": 6.87,
+    "nearest_caption": "Figure 2.4-9 Basic Funding Flows in Nepal's Electricity Sector",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_028.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": true,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 21.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title",
+          "matched 'nea' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 17.5,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title",
+          "matched 'sector' via title"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 15.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title",
+          "matched 'export' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'domestic' via title",
+          "matched 'export' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 15.0,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 24 - Source: JICA Study Team Figure 2.4-9 Basic Funding Flows in Nepal's Electricity Sector Cash Flow analysis In this section, a cash flow analysis will be c…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 30,
+    "image_index": 0,
+    "bbox": [
+      95.52,
+      167.76,
+      470.88,
+      277.92
+    ],
+    "area_pct": 8.25,
+    "nearest_caption": "cash on hand and the amount of capital investment need.",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_030.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 12.5,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'sector' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 10.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'domestic' via title",
+          "matched 'nepal' via tag"
+        ]
+      },
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 10.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title",
+          "matched 'utility' via tag"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 10.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 26 - having a significant shortage of cash on hand, power sector needs to raise more external funds (loans and shareholder contributions) for capital investme…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 30,
+    "image_index": 1,
+    "bbox": [
+      95.52,
+      277.92,
+      470.88,
+      388.08
+    ],
+    "area_pct": 8.25,
+    "nearest_caption": "",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_030.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 12.5,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'sector' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 10.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'domestic' via title",
+          "matched 'nepal' via tag"
+        ]
+      },
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 10.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title",
+          "matched 'utility' via tag"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 10.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 26 - having a significant shortage of cash on hand, power sector needs to raise more external funds (loans and shareholder contributions) for capital investme…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 30,
+    "image_index": 2,
+    "bbox": [
+      95.52,
+      388.08,
+      470.88,
+      498.24
+    ],
+    "area_pct": 8.25,
+    "nearest_caption": "Figure 2.4-10 Relationship between available investment amount from cash on hand and capital",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_030.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": false,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 12.5,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'sector' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 10.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'domestic' via title",
+          "matched 'nepal' via tag"
+        ]
+      },
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 10.75,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title",
+          "matched 'utility' via tag"
+        ]
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal–Bangladesh Electricity Trade Route",
+        "score": 10.0,
+        "reasons": [
+          "matched 'electricity' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 26 - having a significant shortage of cash on hand, power sector needs to raise more external funds (loans and shareholder contributions) for capital investme…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 33,
+    "image_index": 50,
+    "bbox": [
+      127.56,
+      79.38,
+      496.26,
+      321.54
+    ],
+    "area_pct": 17.82,
+    "nearest_caption": "Source: JICA Study Team",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_033.png",
+    "page_classification": {
+      "has_photo": true,
+      "has_table": true,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 10.75,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title",
+          "matched 'institutions' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 10.0,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'export' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 10.0,
+        "reasons": [
+          "matched 'power' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)",
+        "score": 8.5,
+        "reasons": [
+          "matched 'nea' via title",
+          "matched 'nepal' via title"
+        ]
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "score": 8.25,
+        "reasons": [
+          "matched 'domestic' via title",
+          "matched 'distribution' via title",
+          "matched 'nepal' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 29 - Source: JICA Study Team Figure 2.4-11 Distribution of IPSDP Priority Development Projects Table 2.4-11 Basic Concept of Project Categories and Financing…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 36,
+    "image_index": 0,
+    "bbox": [
+      56.22,
+      80.88,
+      509.76,
+      397.38
+    ],
+    "area_pct": 28.64,
+    "nearest_caption": "Executive Summary in Nepal",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_036.png",
+    "page_classification": {
+      "has_photo": true,
+      "has_table": true,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "score": 14.75,
+        "reasons": [
+          "matched 'development' via title",
+          "matched 'plans' via title",
+          "matched 'basins' via tag"
+        ]
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "score": 12.5,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'should' via title"
+        ]
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "score": 12.5,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      },
+      {
+        "slug": "nepal-transmission-landscape-2025",
+        "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
+        "score": 12.5,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'system' via title"
+        ]
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "score": 12.5,
+        "reasons": [
+          "matched 'nepal' via title",
+          "matched 'power' via title"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan Executive Summary in Nepal - 32 - Source: JICA Study Team Figure 2.4-13 Evaluation of Optimum Scenarios (Example) - Karnali River It is recommended to avoid as much as possible environmen…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  },
+  {
+    "page": 39,
+    "image_index": 1,
+    "bbox": [
+      153.0,
+      108.0,
+      520.08,
+      184.2
+    ],
+    "area_pct": 5.58,
+    "nearest_caption": "2040 :Contribution to South",
+    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/moewri_ipsdp_exec_summary_2025/page_039.png",
+    "page_classification": {
+      "has_photo": false,
+      "has_table": true,
+      "has_map": false
+    },
+    "candidate_slugs": [
+      {
+        "slug": "mca-central-400",
+        "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)",
+        "score": 32.25,
+        "reasons": [
+          "matched 'damauli' via title",
+          "matched 'ratmate' via title",
+          "matched 'hetauda' via title"
+        ]
+      },
+      {
+        "slug": "upper-trishuli-1",
+        "title": "Upper Trishuli-1",
+        "score": 26.75,
+        "reasons": [
+          "matched 'upper trishuli-1' via title",
+          "matched 'upper' via title",
+          "matched 'trishuli' via title"
+        ]
+      },
+      {
+        "slug": "upper-trishuli-3b",
+        "title": "Upper Trishuli 3B",
+        "score": 26.75,
+        "reasons": [
+          "matched 'upper trishuli 3b' via title",
+          "matched 'upper' via title",
+          "matched 'trishuli' via title"
+        ]
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "score": 26.5,
+        "reasons": [
+          "matched 'phukot karnali' via title",
+          "matched 'karnali' via title",
+          "matched 'phukot' via title"
+        ]
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "score": 26.25,
+        "reasons": [
+          "matched 'marsyangdi' via title",
+          "matched 'gandaki' via tag",
+          "matched 'project' via tag"
+        ]
+      }
+    ],
+    "page_text_excerpt": "Project on Integrated Power System Development Plan in Nepal Executive Summary - 35 - Source: JICA Study Team Figure 3.1-1 Development Milestones and Pathways in IPSDP 0 5000 10000 15000 20000 25000 30000 35000 40000 2022 2023 2024 2025 20…",
+    "section": {
+      "title": "PDF Pages",
+      "page_start": 1,
+      "page_end": 44
+    }
+  }
+]

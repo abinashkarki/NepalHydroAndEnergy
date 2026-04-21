@@ -1,0 +1,25 @@
+{
+  "slug": "upper-trishuli-3a",
+  "entries": [
+    {
+      "src": "upper-trishuli-3a/nea2425-p023-img01.png",
+      "filename": "nea2425-p023-img01.png",
+      "caption": "Lifting of upper bracket during overhauling",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 23,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        72.76,
+        421.63,
+        310.06,
+        593.9
+      ],
+      "width": 659,
+      "height": 478,
+      "fetched_at": 1776764000
+    }
+  ]
+}

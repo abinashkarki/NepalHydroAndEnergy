@@ -1,0 +1,25 @@
+{
+  "slug": "nawalpur-132kv-substation",
+  "entries": [
+    {
+      "src": "nawalpur-132kv-substation/nea2077-p056-img01.png",
+      "filename": "nea2077-p056-img01.png",
+      "caption": "Nawalpur 132 kV SS",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 56,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        475.42,
+        299.06,
+        626.71
+      ],
+      "width": 634,
+      "height": 420,
+      "fetched_at": 1776689191
+    }
+  ]
+}

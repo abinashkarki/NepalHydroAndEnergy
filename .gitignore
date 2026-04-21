@@ -1,0 +1,72 @@
+# ==========================================================================
+# macOS / editors
+# ==========================================================================
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# ==========================================================================
+# Python
+# ==========================================================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================================================
+# Node / web tooling
+# ==========================================================================
+node_modules/
+.npm/
+.yarn/
+dist/
+build/
+
+# ==========================================================================
+# Playwright / browser testing artifacts
+# ==========================================================================
+.playwright-cli/
+test-results/
+playwright-report/
+
+# ==========================================================================
+# Scratch / derived intermediates (regenerate on demand)
+# ==========================================================================
+tmp/
+
+# ==========================================================================
+# Heavy raw data — re-download from original sources.
+# Source URLs are tracked in data/processed/corridor_tracing/corridor_source_inventory.csv
+# and the per-source wiki pages under wiki/pages/sources/.
+# ==========================================================================
+# All raw PDFs (77 files, ~200 MB)
+data/raw/**/*.pdf
+
+# Global hydrography / OSM shapefile bundles (~1.5 GB)
+data/raw/maps/hydrorivers/
+data/raw/maps/hydrobasins/
+data/raw/maps/nepal_osm_waterways/
+data/raw/maps/*.zip
+
+# Large raw HTML captures (re-fetchable)
+data/raw/**/*.html
+
+# ==========================================================================
+# Environment / secrets
+# ==========================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json

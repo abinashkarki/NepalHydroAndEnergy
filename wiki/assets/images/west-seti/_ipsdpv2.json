@@ -1,0 +1,25 @@
+{
+  "slug": "west-seti",
+  "entries": [
+    {
+      "src": "west-seti/ipsdpv2-p255-img00.png",
+      "filename": "ipsdpv2-p255-img00.png",
+      "caption": "Figure 6.3-2 River Longitudinal Profile of the West Seti River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 255,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        111.8,
+        248.39,
+        511.74,
+        507.69
+      ],
+      "width": 1111,
+      "height": 720,
+      "fetched_at": 1776768023
+    }
+  ]
+}

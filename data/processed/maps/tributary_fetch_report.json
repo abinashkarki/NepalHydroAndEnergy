@@ -1,0 +1,299 @@
+[
+  {
+    "id": "koshi_main",
+    "name": "Koshi River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 25
+  },
+  {
+    "id": "arun",
+    "name": "Arun River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 8
+  },
+  {
+    "id": "tamor",
+    "name": "Tamor River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 82
+  },
+  {
+    "id": "sunkoshi",
+    "name": "Sun Koshi River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 97
+  },
+  {
+    "id": "dudhkoshi",
+    "name": "Dudh Koshi River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 67
+  },
+  {
+    "id": "tamakoshi",
+    "name": "Tama Koshi River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 33
+  },
+  {
+    "id": "bhotekoshi",
+    "name": "Bhote Koshi River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 15
+  },
+  {
+    "id": "indrawati",
+    "name": "Indrawati River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 36
+  },
+  {
+    "id": "likhu",
+    "name": "Likhu Khola",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 18
+  },
+  {
+    "id": "balephi",
+    "name": "Balephi Khola",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 33
+  },
+  {
+    "id": "narayani",
+    "name": "Narayani River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 45
+  },
+  {
+    "id": "kaligandaki",
+    "name": "Kali Gandaki River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 173
+  },
+  {
+    "id": "marsyangdi",
+    "name": "Marsyangdi River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 94
+  },
+  {
+    "id": "budhigandaki",
+    "name": "Budhi Gandaki River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 81
+  },
+  {
+    "id": "trishuli",
+    "name": "Trishuli River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 80
+  },
+  {
+    "id": "setigandaki",
+    "name": "Seti Gandaki River",
+    "status": "pending_review",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "suppress",
+    "qa_status": "pass",
+    "source_reaches": 18
+  },
+  {
+    "id": "madi",
+    "name": "Madi River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 64
+  },
+  {
+    "id": "eastrapti",
+    "name": "East Rapti River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 56
+  },
+  {
+    "id": "karnali",
+    "name": "Karnali River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 31
+  },
+  {
+    "id": "bheri",
+    "name": "Bheri River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 24
+  },
+  {
+    "id": "westseti",
+    "name": "West Seti River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 0
+  },
+  {
+    "id": "humlakarnali",
+    "name": "Humla Karnali River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 8
+  },
+  {
+    "id": "mugukarnali",
+    "name": "Mugu Karnali River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 35
+  },
+  {
+    "id": "tila",
+    "name": "Tila River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 42
+  },
+  {
+    "id": "mahakali",
+    "name": "Mahakali River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 98
+  },
+  {
+    "id": "chameliya",
+    "name": "Chameliya River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 0
+  },
+  {
+    "id": "westrapti",
+    "name": "West Rapti River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 0
+  },
+  {
+    "id": "babai",
+    "name": "Babai River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 29
+  },
+  {
+    "id": "bagmati",
+    "name": "Bagmati River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 59
+  },
+  {
+    "id": "kamala",
+    "name": "Kamala River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 31
+  },
+  {
+    "id": "kankai",
+    "name": "Kankai River",
+    "status": "failed_qa",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pending",
+    "qa_status": "fail",
+    "source_reaches": 23
+  },
+  {
+    "id": "tinau",
+    "name": "Tinau River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 23
+  },
+  {
+    "id": "mechi",
+    "name": "Mechi River",
+    "status": "ok",
+    "geometry_source": "HydroRIVERS v10 Asia",
+    "review_status": "pass",
+    "qa_status": "pass",
+    "source_reaches": 26
+  }
+]

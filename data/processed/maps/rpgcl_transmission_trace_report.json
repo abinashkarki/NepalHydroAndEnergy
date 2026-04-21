@@ -1,0 +1,184 @@
+{
+  "source_pdf": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+  "viewports": {
+    "Layers": {
+      "bbox": [
+        28.80035,
+        2404.80043,
+        4291.25214,
+        14.42393
+      ],
+      "gpts": [
+        26.31348,
+        79.98472,
+        30.48856,
+        79.82382,
+        30.47998,
+        88.43548,
+        26.30627,
+        88.26467
+      ]
+    },
+    "New Data Frame": {
+      "bbox": [
+        3153.63832,
+        2321.04125,
+        4103.56986,
+        1370.89059
+      ],
+      "gpts": [
+        27.41823,
+        84.96048,
+        28.02328,
+        84.9658,
+        28.0168,
+        85.64735,
+        27.41192,
+        85.63828
+      ]
+    }
+  },
+  "linework_feature_count": 4636,
+  "label_feature_count": 1845,
+  "selected_anchor_keys": [
+    "Layers",
+    "fallback"
+  ],
+  "corridors": {
+    "hddi_400": {
+      "status": "ok",
+      "matched_anchors": [
+        "Hetauda",
+        "New Dhalkebar-",
+        "Inaruwa"
+      ],
+      "expected_anchors": [
+        "Hetauda",
+        "Dhalkebar",
+        "Inaruwa"
+      ],
+      "selected_count": 10,
+      "output_segment_count": 4,
+      "layer": "EXISTING/UNDERCONSTRUCTION 400 kV",
+      "viewport_name": "Layers",
+      "coverage": "full",
+      "confidence": "high"
+    },
+    "hetauda_bharatpur_bardaghat_220": {
+      "status": "ok",
+      "matched_anchors": [
+        "Hetauda",
+        "New Bharatpur",
+        "Bardaghat"
+      ],
+      "expected_anchors": [
+        "Hetauda",
+        "Bharatpur",
+        "Bardaghat"
+      ],
+      "selected_count": 6,
+      "output_segment_count": 5,
+      "layer": "EXISTING/UNDERCONSTRUCTION 220 kV",
+      "viewport_name": "Layers",
+      "coverage": "full",
+      "confidence": "high"
+    },
+    "mca_central_400": {
+      "status": "ok",
+      "matched_anchors": [
+        "Lapsephedi",
+        "Ratmate",
+        "Hetauda",
+        "Damauli",
+        "Butwal"
+      ],
+      "expected_anchors": [
+        "Lapsephedi",
+        "Ratmate",
+        "Hetauda",
+        "Damauli",
+        "Butwal"
+      ],
+      "selected_count": 158,
+      "output_segment_count": 15,
+      "layer": "PROPOSED 400kV",
+      "viewport_name": "Layers",
+      "coverage": "full",
+      "confidence": "high"
+    },
+    "udipur_damauli_bharatpur_220": {
+      "status": "ok",
+      "matched_anchors": [
+        "Khudi",
+        "Udipur",
+        "Damauli",
+        "New Bharatpur"
+      ],
+      "expected_anchors": [
+        "Khudi",
+        "Udipur",
+        "Damauli",
+        "Bharatpur"
+      ],
+      "selected_count": 54,
+      "output_segment_count": 16,
+      "layer": "PROPOSED 220kV",
+      "viewport_name": "Layers",
+      "coverage": "full",
+      "confidence": "medium"
+    },
+    "solu_tingla_mirchaiya_132": {
+      "status": "skipped_missing_anchors",
+      "matched_anchors": [],
+      "expected_anchors": [
+        "Tingla",
+        "Mirchaiya"
+      ]
+    },
+    "kabeli_132": {
+      "status": "skipped_missing_anchors",
+      "matched_anchors": [],
+      "expected_anchors": [
+        "Mirchaiya",
+        "Dhungesanu",
+        "Soyak"
+      ]
+    }
+  },
+  "manual_corridors": {
+    "kabeli_132": {
+      "status": "ok_manual_trace",
+      "source_id": "nea_kabeli_iee",
+      "source_pdf": "nea_kabeli_iee.pdf",
+      "page_start": 26,
+      "page_end": 27,
+      "output_segment_count": 3,
+      "coverage": "full",
+      "confidence": "medium",
+      "trace_method": "manual_pdf_trace"
+    },
+    "marsyangdi_upper_220": {
+      "status": "ok_manual_trace",
+      "source_id": "nea_marsyangdi_rap_upper",
+      "source_pdf": "nea_marsyangdi_rap_upper.pdf",
+      "page_start": 33,
+      "page_end": 36,
+      "output_segment_count": 1,
+      "coverage": "full",
+      "confidence": "medium",
+      "trace_method": "manual_pdf_trace"
+    },
+    "solu_tingla_mirchaiya_132": {
+      "status": "ok_manual_trace",
+      "source_id": "nea_transmission_annual_book_2077",
+      "source_pdf": "nea_transmission_annual_book_2077.pdf",
+      "page_start": 47,
+      "page_end": 52,
+      "output_segment_count": 1,
+      "coverage": "full",
+      "confidence": "low",
+      "trace_method": "manual_route_trace"
+    }
+  },
+  "traced_feature_count": 45
+}

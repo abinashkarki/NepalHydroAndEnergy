@@ -1,0 +1,1388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Nepal Energy · Wiki & Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="shared/style.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="shared/leaflet-init.js"></script>
+<script src="shared/wiki-loader.js"></script>
+<script src="shared/wiki-bm25.js"></script>
+<style>
+  /* Layout: resizable three-pane grid. */
+  .layout {
+    display: grid;
+    grid-template-columns: var(--col-left, 260px) 6px var(--col-center, 1fr) 6px var(--col-right, 460px);
+    height: calc(100vh - 39px);
+    overflow: hidden;
+  }
+  .splitter {
+    background: transparent;
+    cursor: col-resize;
+    position: relative;
+    border-left: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+    transition: background 0.15s ease;
+  }
+  .splitter:hover, .splitter.dragging { background: var(--accent-soft); }
+  .splitter::before {
+    content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 2px; height: 30px; background: var(--rule); border-radius: 2px;
+    transition: background 0.15s ease, height 0.15s ease;
+  }
+  .splitter:hover::before, .splitter.dragging::before { background: var(--accent); height: 50px; }
+  body.resizing { cursor: col-resize !important; user-select: none; }
+  body.resizing iframe, body.resizing #map { pointer-events: none; }
+
+  .pane.right { padding: 0; position: relative; border-left: none; }
+  .pane.left { border-right: none; }
+  .pane.right #map { height: 100%; }
+
+  /* Left-pane header */
+  .left-head {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--panel); border-bottom: 1px solid var(--rule);
+    padding: 8px 10px;
+  }
+  .search-input-wrap { position: relative; }
+  .search-input-wrap input {
+    width: 100%; padding: 7px 30px 7px 28px;
+    border: 1px solid var(--rule); border-radius: 4px; font: inherit; font-size: 13px;
+    background: var(--panel-2);
+  }
+  .search-input-wrap input:focus { background: var(--panel); outline: 2px solid var(--accent); outline-offset: -1px; }
+  .search-input-wrap .si {
+    position: absolute; left: 9px; top: 50%; transform: translateY(-50%);
+    color: var(--ink-soft); font-size: 13px; pointer-events: none;
+  }
+  .search-input-wrap .clear-btn {
+    position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+    background: transparent; border: none; cursor: pointer;
+    color: var(--ink-soft); font-size: 16px; padding: 0 4px; display: none;
+  }
+  .search-input-wrap.has-text .clear-btn { display: block; }
+
+  .seg {
+    display: flex; gap: 0; margin-top: 6px;
+    background: var(--panel-2); border: 1px solid var(--rule); border-radius: 4px;
+    padding: 2px;
+  }
+  .seg button {
+    flex: 1; background: transparent; border: none; font: inherit;
+    font-size: 11px; padding: 4px 6px; border-radius: 3px; cursor: pointer;
+    color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  .seg button.active { background: var(--panel); color: var(--ink); font-weight: 600; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+  .seg button:hover:not(.active) { color: var(--ink); }
+
+  /* Semantic indexing status row */
+  .sem-status {
+    display: none; padding: 6px 10px; background: #fef3c7; border-bottom: 1px solid var(--rule);
+    font-size: 11px; color: #78350f;
+  }
+  .sem-status.show { display: block; }
+  .sem-status .bar { height: 3px; background: rgba(0,0,0,0.08); border-radius: 2px; margin-top: 4px; overflow: hidden; }
+  .sem-status .bar-fill { height: 100%; background: var(--accent); transition: width 0.2s ease; }
+
+  /* Nav: stacked + collapsible categories with sub-grouping for entities */
+  .nav-list { padding: 4px; }
+  .nav-link.spatial::before { content: "●"; color: var(--accent); font-size: 8px; vertical-align: middle; margin-right: 6px; }
+  .nav-link:not(.spatial)::before { content: "○"; color: var(--rule); font-size: 8px; vertical-align: middle; margin-right: 6px; }
+
+  .nav-group { margin: 0 0 2px; }
+  .group-h {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 6px 10px; cursor: pointer; user-select: none;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-soft);
+    border-radius: 4px;
+  }
+  .group-h:hover { background: var(--panel-2); color: var(--ink); }
+  .group-h .arrow { transition: transform 0.15s ease; opacity: 0.6; }
+  .nav-group.collapsed .group-h .arrow { transform: rotate(-90deg); }
+  .nav-group.collapsed .group-body { display: none; }
+  .group-h .count { font-weight: normal; color: var(--ink-soft); opacity: 0.6; }
+  .nav-link {
+    display: block; padding: 4px 10px 4px 18px; border-radius: 4px;
+    font-size: 13px; color: var(--ink); cursor: pointer;
+  }
+  .nav-link:hover { background: var(--panel-2); text-decoration: none; }
+  .nav-link.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .sub-h {
+    padding: 4px 10px 2px 18px; font-size: 9.5px; text-transform: uppercase;
+    letter-spacing: 0.07em; color: var(--ink-soft); opacity: 0.7; margin-top: 4px;
+  }
+
+  /* Search results list */
+  .results { padding: 4px; }
+  .result {
+    display: block; padding: 8px 10px; margin-bottom: 4px; border-radius: 5px;
+    color: var(--ink); cursor: pointer; line-height: 1.45;
+  }
+  .result:hover { background: var(--panel-2); text-decoration: none; }
+  .result.active { background: var(--accent-soft); }
+  .result .r-title { font-weight: 600; font-size: 13px; margin-bottom: 2px; }
+  .result .r-meta { font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft); margin-bottom: 4px; display: flex; gap: 8px; }
+  .result .r-meta .score { color: var(--accent); font-family: var(--mono); }
+  .result .r-snippet { font-size: 12px; color: var(--ink-soft); line-height: 1.45; }
+  .result .r-snippet mark { background: #fde68a; padding: 0 1px; }
+  .result.spatial .r-meta::before { content: "● spatial"; color: var(--accent); margin-right: 8px; }
+  .results-empty { padding: 24px 16px; text-align: center; font-size: 12px; color: var(--ink-soft); font-style: italic; }
+  .results-summary { padding: 6px 10px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); border-bottom: 1px solid var(--rule); }
+
+  .map-overlay-info {
+    position: absolute; top: 12px; left: 60px;
+    background: var(--panel); border: 1px solid var(--rule); border-radius: 6px;
+    padding: 6px 10px; font-size: 11px; color: var(--ink-soft);
+    box-shadow: var(--shadow); max-width: calc(100% - 320px); z-index: 700;
+    line-height: 1.4;
+  }
+  .map-overlay-info b { color: var(--ink); }
+
+  /* Preset bar overlaid at the bottom-center of the map pane */
+  .preset-bar {
+    position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
+    background: var(--panel); border: 1px solid var(--rule); border-radius: 999px;
+    padding: 3px; box-shadow: var(--shadow); z-index: 700;
+    display: flex; gap: 0; align-items: center;
+    max-width: calc(100% - 40px); overflow-x: auto;
+  }
+  .preset-bar button {
+    background: transparent; border: none; cursor: pointer; font: inherit;
+    font-size: 11px; padding: 5px 12px; border-radius: 999px;
+    color: var(--ink-soft); white-space: nowrap;
+    transition: background 0.12s ease, color 0.12s ease;
+  }
+  .preset-bar button:hover { color: var(--ink); background: var(--panel-2); }
+  .preset-bar button.active { background: var(--accent); color: white; font-weight: 600; }
+  .preset-bar .sep { width: 1px; height: 16px; background: var(--rule); margin: 0 2px; }
+
+  .preset-meta {
+    position: absolute; bottom: 72px; left: 50%; transform: translateX(-50%);
+    background: var(--panel); border: 1px solid var(--rule); border-radius: 6px;
+    padding: 6px 10px; font-size: 11px; color: var(--ink-soft);
+    box-shadow: var(--shadow); max-width: 320px; z-index: 700;
+    opacity: 0; pointer-events: none; transition: opacity 0.2s ease;
+    white-space: nowrap;
+  }
+  .preset-meta.show { opacity: 1; }
+  .preset-meta b { color: var(--ink); }
+
+  /* Native Leaflet layer control — restyle to match the rest of the viewer */
+  .leaflet-control-layers {
+    border: 1px solid var(--rule) !important;
+    border-radius: 6px !important;
+    box-shadow: var(--shadow) !important;
+    background: var(--panel) !important;
+    font: inherit !important;
+    font-size: 11px !important;
+  }
+  .leaflet-control-layers-expanded {
+    padding: 8px 10px !important;
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 200px !important;
+    max-width: 200px !important;
+  }
+  .leaflet-control-layers label {
+    display: flex !important; align-items: flex-start;
+    margin: 0; padding: 2px 0;
+    color: var(--ink); cursor: pointer;
+    line-height: 1.35;
+  }
+  .leaflet-control-layers label > div {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    font-size: 10.5px;
+  }
+  .leaflet-control-layers label > span,
+  .leaflet-control-layers label > div > span { font-size: 10.5px; }
+  .leaflet-control-layers label:hover { color: var(--accent); }
+  .leaflet-control-layers input[type=checkbox],
+  .leaflet-control-layers input[type=radio] {
+    accent-color: var(--accent); margin-right: 6px;
+  }
+  .leaflet-control-layers-separator {
+    border-top: 1px solid var(--rule) !important;
+    margin: 6px 0 !important;
+  }
+  .leaflet-control-layers-base label,
+  .leaflet-control-layers-overlays label { line-height: 1.5; }
+
+  /* Permanent feature labels (Folium-style annotations) */
+  .np-label-wrap { background: transparent; border: none; }
+  .np-label {
+    font-size: 10px; font-weight: 700;
+    white-space: nowrap; pointer-events: none;
+    transform: translate(6px, -50%);
+  }
+  .np-label-river { color: #1f2937; text-shadow: 0 0 2px white, 0 0 6px white; }
+  .np-label-river-faint { color: #525252; text-shadow: 0 0 2px white, 0 0 4px white; font-weight: 500; opacity: 0.85; }
+  .np-label-basin { color: #1e40af; text-shadow: 0 0 2px white, 0 0 6px white; font-size: 11px; letter-spacing: 0.02em; }
+  .np-label-basin-faint { color: #b45309; text-shadow: 0 0 2px white, 0 0 4px white; font-size: 11px; opacity: 0.9; }
+  .np-label-transmission {
+    color: #7c2d12; text-shadow: 0 0 2px white, 0 0 6px white;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.01em;
+    transform: translate(8px, -50%);
+    background: rgba(255,255,255,0.55); padding: 1px 4px; border-radius: 2px;
+  }
+  .np-label-transmission-faint {
+    color: #9a3412; text-shadow: 0 0 2px white, 0 0 4px white;
+    font-size: 9.5px; font-weight: 600; opacity: 0.85;
+    transform: translate(8px, -50%);
+  }
+
+  /* Hover tooltips */
+  .np-leaflet-tooltip {
+    background: rgba(255,255,255,0.97) !important;
+    border: 1px solid var(--rule) !important;
+    border-radius: 4px !important;
+    box-shadow: var(--shadow) !important;
+    color: var(--ink) !important;
+    font: inherit !important; font-size: 11px !important;
+    padding: 4px 8px !important;
+  }
+  .np-leaflet-tooltip table { border-collapse: collapse; }
+  .np-leaflet-tooltip th { color: var(--ink-soft); font-weight: 500; padding-right: 8px; text-align: left; }
+  .np-leaflet-tooltip td { color: var(--ink); font-weight: 600; }
+
+  /* Flash card popup — opens automatically on direct hits */
+  .np-card-popup .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.98);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+    padding: 0;
+    overflow: hidden;
+    opacity: 1;
+    animation: npCardIn 220ms cubic-bezier(0.2, 0.9, 0.3, 1) forwards;
+  }
+  .np-card-popup .leaflet-popup-content { margin: 0; padding: 0; min-width: 220px; }
+  .np-card-popup .leaflet-popup-tip { background: rgba(255,255,255,0.98); }
+  .np-card-popup .leaflet-popup-close-button {
+    color: var(--ink-soft) !important; font: 700 16px/1 system-ui, sans-serif;
+    padding: 6px 8px 0 0 !important;
+  }
+  .np-card-popup .leaflet-popup-close-button:hover { color: var(--ink) !important; }
+
+  .np-card { font: inherit; color: var(--ink); padding: 12px 14px 10px; }
+  .np-card-title {
+    font-size: 14px; font-weight: 700; letter-spacing: -0.01em;
+    color: var(--ink); margin-bottom: 2px; padding-right: 18px;
+  }
+  .np-card-lead {
+    font-size: 11.5px; color: var(--ink-soft); font-weight: 500;
+    margin-bottom: 8px; line-height: 1.35;
+  }
+  .np-card-body {
+    margin: 0; padding: 6px 0 0; border-top: 1px solid var(--rule);
+    display: grid; grid-template-columns: max-content 1fr;
+    column-gap: 10px; row-gap: 3px;
+    font-size: 11.5px;
+  }
+  .np-card-body dt { color: var(--ink-soft); font-weight: 500; margin: 0; }
+  .np-card-body dd { color: var(--ink); font-weight: 600; margin: 0; word-break: break-word; }
+  .np-card-footer {
+    margin-top: 8px; padding-top: 6px; border-top: 1px solid var(--rule);
+    display: flex; justify-content: flex-end;
+  }
+  .np-card-link {
+    color: var(--accent); text-decoration: none; font-weight: 600; font-size: 11.5px;
+  }
+  .np-card-link:hover { text-decoration: underline; }
+
+  @keyframes npCardIn {
+    from { opacity: 0; transform: translateY(6px) scale(0.98); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  .reset-btn {
+    background: var(--panel); border: 1px solid var(--rule); border-radius: 4px;
+    padding: 3px 8px; font: inherit; font-size: 11px; cursor: pointer;
+    color: var(--ink-soft);
+  }
+  .reset-btn:hover { color: var(--ink); }
+
+  /* Each overlay row has a small swatch that only appears when the layer is
+     ON — so the control doubles as a "what's on the map" legend without
+     cluttering inactive rows. Swatch is right-aligned so the checkbox + label
+     stay a clean column on the left. */
+  .leaflet-control-layers label > span {
+    display: flex !important; flex: 1 1 auto; align-items: center;
+    gap: 6px; min-width: 0;
+  }
+  .leaflet-control-layers label > span > span {
+    flex: 1 1 auto; min-width: 0;
+  }
+  .leaflet-control-layers .lc-row {
+    display: flex; align-items: center; gap: 8px; width: 100%; min-width: 0;
+  }
+  .leaflet-control-layers .lc-name {
+    flex: 1 1 auto; min-width: 0;
+  }
+  .leaflet-control-layers .lc-swatch {
+    flex: 0 0 auto; margin-left: auto;
+    display: none; align-items: center; justify-content: center;
+    width: 18px; height: 16px;
+    opacity: 0; transform: translateX(-2px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+  .leaflet-control-layers .lc-row.lc-on .lc-swatch {
+    display: inline-flex; opacity: 1; transform: translateX(0);
+  }
+  .leaflet-control-layers .lc-swatch .lc-dot {
+    border-radius: 50%; box-sizing: border-box;
+  }
+  .leaflet-control-layers .lc-swatch .lc-line {
+    width: 16px; border-radius: 1px;
+  }
+  .leaflet-control-layers .lc-swatch .lc-poly {
+    width: 13px; height: 11px; box-sizing: border-box; border-radius: 2px;
+  }
+  .leaflet-control-layers .lc-swatch.lc-muted {
+    color: var(--ink-soft); font-size: 10.5px; font-style: italic;
+  }
+  .leaflet-control-layers .lc-foot {
+    margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--rule);
+    font-size: 10px; color: var(--ink-soft); line-height: 1.4;
+  }
+  .leaflet-control-layers .lc-foot .lc-dotcap { display: none; }
+  .leaflet-control-layers .lc-foot.lc-foot-on .lc-dotcap { display: block; }
+  /* Three-way tier filter in the layer-control footer. Mirrors the .seg
+     pattern used for search modes — same visual vocabulary, narrower. */
+  .leaflet-control-layers .lc-tierseg {
+    display: flex; margin-top: 6px; padding: 2px;
+    background: var(--panel-2); border: 1px solid var(--rule); border-radius: 4px;
+  }
+  .leaflet-control-layers .lc-tierseg button {
+    flex: 1; background: transparent; border: none; font: inherit;
+    font-size: 10px; padding: 3px 4px; border-radius: 3px; cursor: pointer;
+    color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+  .leaflet-control-layers .lc-tierseg button.active {
+    background: var(--panel); color: var(--ink); font-weight: 600;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+  .leaflet-control-layers .lc-tierseg button:hover:not(.active) { color: var(--ink); }
+  .leaflet-control-layers .lc-count {
+    margin-left: 6px; font-size: 10px; color: var(--ink-soft); font-variant-numeric: tabular-nums;
+  }
+  /* Tier legend dots — inline swatches inside the layer-control footer. */
+  .lc-legend-dot {
+    display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+    vertical-align: -1px; margin-right: 2px;
+    box-sizing: border-box;
+  }
+  .lc-legend-narrated { background: #2e7d32; border: 1.3px solid #1b5e20; }
+  .lc-legend-stub     { background: rgba(46,125,50,0.22); border: 1px solid #2e7d32; }
+  .lc-legend-orphan   { background: transparent; border: 1px dashed #2e7d32; opacity: 0.55; }
+
+  /* Three tiers of page-backing for map markers:
+       · orphan    — no wiki page (data-only)     : dashed stroke, 55% opacity
+       · stub      — auto-generated placeholder   : solid thin stroke, reduced fill (hollow look)
+       · narrated  — hand-written page            : solid stroke, full fill (current default)
+     Pages that also carry images get a subtle gold drop-shadow on top of the tier. */
+  .leaflet-pane .np-marker-orphan {
+    stroke-dasharray: 2 2.5;
+    opacity: 0.55;
+  }
+  .leaflet-pane .np-marker-stub {
+    fill-opacity: 0.25;
+    opacity: 0.8;
+    stroke-width: 1;
+  }
+  .leaflet-pane .np-marker-hasimg {
+    filter: drop-shadow(0 0 0.8px #d4a017) drop-shadow(0 0 1.2px #d4a017);
+  }
+
+  /* "Only with wiki pages" hides orphans. A second tier-filter CSS hook,
+     ".np-only-narrated", additionally hides stubs. Only tiered layers
+     (raw hydropower registries) receive these classes — curated overlays
+     (Top-10, watchlist, storage shortlist) use .np-marker-curated and
+     are always visible regardless of the tier filter. */
+  .np-only-bound    .leaflet-pane .np-marker-orphan { display: none; }
+  .np-only-narrated .leaflet-pane .np-marker-orphan,
+  .np-only-narrated .leaflet-pane .np-marker-stub   { display: none; }
+
+  /* Tier-filter banner — sits over the top of the map so the state is
+     always visible and easy to reverse. */
+  .np-tier-banner {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 650;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 6px 10px 6px 12px;
+    background: #fff7ed;
+    border: 1px solid #f59e0b;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    font-family: var(--sans);
+    font-size: 12px;
+    color: #92400e;
+    pointer-events: auto;
+  }
+  .np-tier-banner .tb-btn {
+    background: var(--accent);
+    color: #fff;
+    border: 0;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .np-tier-banner .tb-btn:hover { background: #1e40af; }
+
+  /* Stub badge in the left nav — low-key gray chip next to page title. */
+  .nav-link .stub-chip {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 0 5px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    background: var(--panel-2);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    vertical-align: 1px;
+    opacity: 0.7;
+  }
+  .nav-link:hover .stub-chip { opacity: 1; }
+  .nav-link.active .stub-chip { color: var(--accent); border-color: var(--accent-soft); background: white; }
+</style>
+</head>
+<body>
+
+<div class="app-bar">
+  <span class="title">Nepal Energy · Wiki & Map</span>
+  <span class="pill">nav · wiki page · live map (bidirectional)</span>
+  <span class="spacer"></span>
+  <button class="reset-btn" id="reset-layout" title="Reset pane widths and view preferences">Reset layout</button>
+  <span class="crumb" id="now-page" style="margin-left: 10px">no page selected</span>
+</div>
+
+<div class="layout" id="layout">
+  <aside class="pane left">
+    <div class="left-head">
+      <div class="search-input-wrap" id="search-wrap">
+        <span class="si">⌕</span>
+        <input id="q" placeholder="filter pages…" autocomplete="off" />
+        <button class="clear-btn" id="clear-q" title="clear">×</button>
+      </div>
+      <div class="seg" id="search-mode">
+        <button data-mode="filter" class="active" title="Substring match on titles (instant)">Filter</button>
+        <button data-mode="content" title="BM25 ranking over body text (instant)">Content</button>
+        <button data-mode="semantic" title="Embedding similarity (~25 MB on first use, then offline)">Semantic</button>
+      </div>
+    </div>
+    <div class="sem-status" id="sem-status">
+      <div class="msg">…</div>
+      <div class="bar"><div class="bar-fill" id="sem-bar" style="width: 0%"></div></div>
+    </div>
+    <div id="nav" class="nav-list"></div>
+  </aside>
+
+  <div class="splitter" id="split-1" aria-label="Resize left pane"></div>
+
+  <main class="pane center">
+    <div class="markdown" id="page">
+      <div class="placeholder">
+        Pick any page on the left, or click any feature on the map.<br/><br/>
+        Pages with the <span style="color: var(--accent)">●</span> dot are spatially anchored — opening one will fly the map there and scope the layers.<br/><br/>
+        Try <a href="javascript:void(0)" onclick="openWikiPage('koshi-basin')">koshi-basin</a> ·
+        <a href="javascript:void(0)" onclick="openWikiPage('upper-tamakoshi')">upper-tamakoshi</a> ·
+        <a href="javascript:void(0)" onclick="openWikiPage('claim-transmission-immediate-blocker')">claim-transmission-immediate-blocker</a>.<br/><br/>
+        <span style="font-size: 13px; color: var(--ink-soft)">
+          Search modes: <em>Filter</em> (titles only), <em>Content</em> (full-text BM25), or <em>Semantic</em> (embeddings — first run downloads ~25 MB then runs offline).
+        </span>
+      </div>
+    </div>
+  </main>
+
+  <div class="splitter" id="split-2" aria-label="Resize map pane"></div>
+
+  <aside class="pane right">
+    <div id="map"></div>
+    <div class="preset-bar" id="preset-bar"></div>
+    <div class="preset-meta" id="preset-meta"></div>
+    <div class="map-overlay-info" id="map-info">
+      <b>Map follows the page.</b> Click any feature → it loads in the centre.
+    </div>
+  </aside>
+</div>
+
+<!-- Lightbox for wiki-page filmstrip images. Hidden until openWikiLightbox. -->
+<div class="wiki-lightbox" id="wiki-lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="wiki-lightbox-close" aria-label="Close" id="wiki-lightbox-close">&times;</button>
+  <button class="wiki-lightbox-nav prev" aria-label="Previous image" id="wiki-lightbox-prev">&#8249;</button>
+  <button class="wiki-lightbox-nav next" aria-label="Next image" id="wiki-lightbox-next">&#8250;</button>
+  <div class="wiki-lightbox-inner">
+    <div class="wiki-lightbox-toolbar">
+      <button class="wiki-lightbox-zoom" aria-label="Zoom out" id="wiki-lightbox-zoom-out">−</button>
+      <button class="wiki-lightbox-zoom" aria-label="Reset zoom" id="wiki-lightbox-zoom-reset">100%</button>
+      <button class="wiki-lightbox-zoom" aria-label="Zoom in" id="wiki-lightbox-zoom-in">+</button>
+    </div>
+    <div class="wiki-lightbox-stage" id="wiki-lightbox-stage">
+      <img id="wiki-lightbox-img" alt="" />
+    </div>
+    <div class="wiki-lightbox-caption" id="wiki-lightbox-caption"></div>
+    <div class="wiki-lightbox-credit" id="wiki-lightbox-credit"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+const { makeMap, LayerManager, buildReverseIndex, loadJSON } = window.NepalExplorer;
+
+let bindings, manifest, presetsCfg, lm, map, baseLayers, layerControl, labelsLayer, pageIndex, spatialSlugs, pageMeta, bm25, hydropowerSlugAliases;
+let currentSlug = null;
+let currentPreset = null;
+let searchMode = localStorage.getItem("explorer.searchMode") || "filter";
+let collapsedGroups = new Set(JSON.parse(localStorage.getItem("explorer.collapsedGroups") || "[]"));
+let semanticReady = false;
+let semanticLoading = null;
+let suppressUrlSync = false;
+
+const ENTITY_SUB_ORDER = ["basins", "projects", "institutions", "geopolitics", "profiles", "other"];
+const ENTITY_SUB_LABEL = {
+  basins: "Basins", projects: "Projects", institutions: "Institutions",
+  geopolitics: "Geopolitics & Trade", profiles: "Profiles", other: "Other",
+};
+const CAT_ORDER = ["entities", "concepts", "claims", "syntheses", "data", "sources"];
+const CAT_LABEL = { entities: "Entities", concepts: "Concepts", claims: "Claims", syntheses: "Syntheses", data: "Data", sources: "Sources" };
+
+// ============================================================
+// Resizable panes
+// ============================================================
+function setupSplitters() {
+  const layout = document.getElementById("layout");
+  const savedLeft = localStorage.getItem("explorer.colLeft") || "260px";
+  const savedRight = localStorage.getItem("explorer.colRight") || "460px";
+  layout.style.setProperty("--col-left", savedLeft);
+  layout.style.setProperty("--col-right", savedRight);
+
+  function startDrag(splitter, kind) {
+    splitter.addEventListener("mousedown", (e) => {
+      e.preventDefault();
+      splitter.classList.add("dragging");
+      document.body.classList.add("resizing");
+      const startX = e.clientX;
+      const layoutRect = layout.getBoundingClientRect();
+      const startLeft = parseInt(getComputedStyle(layout).getPropertyValue("--col-left"));
+      const startRight = parseInt(getComputedStyle(layout).getPropertyValue("--col-right"));
+
+      function onMove(ev) {
+        const dx = ev.clientX - startX;
+        if (kind === "left") {
+          const w = Math.max(180, Math.min(layoutRect.width - 400, startLeft + dx));
+          layout.style.setProperty("--col-left", w + "px");
+        } else {
+          const w = Math.max(280, Math.min(layoutRect.width - 400, startRight - dx));
+          layout.style.setProperty("--col-right", w + "px");
+        }
+        if (map) map.invalidateSize();
+      }
+      function onUp() {
+        document.removeEventListener("mousemove", onMove);
+        document.removeEventListener("mouseup", onUp);
+        splitter.classList.remove("dragging");
+        document.body.classList.remove("resizing");
+        localStorage.setItem("explorer.colLeft", getComputedStyle(layout).getPropertyValue("--col-left").trim());
+        localStorage.setItem("explorer.colRight", getComputedStyle(layout).getPropertyValue("--col-right").trim());
+        if (map) map.invalidateSize();
+      }
+      document.addEventListener("mousemove", onMove);
+      document.addEventListener("mouseup", onUp);
+    });
+  }
+  startDrag(document.getElementById("split-1"), "left");
+  startDrag(document.getElementById("split-2"), "right");
+}
+
+document.getElementById("reset-layout").addEventListener("click", () => {
+  Object.keys(localStorage)
+    .filter((k) => k.startsWith("explorer."))
+    .forEach((k) => localStorage.removeItem(k));
+  location.reload();
+});
+
+// ============================================================
+// Nav rendering: stacked, collapsible, with entity sub-groups
+// ============================================================
+function entitiesGrouped() {
+  const ents = (pageIndex.byCategory.entities || []).slice();
+  const buckets = {};
+  for (const it of ents) {
+    const meta = pageMeta.bySlug[it.slug];
+    const sub = (meta && meta.subcategory) || "other";
+    (buckets[sub] = buckets[sub] || []).push(it);
+  }
+  return buckets;
+}
+
+function navItem(it) {
+  const sp = spatialSlugs.has(it.slug) ? " spatial" : "";
+  const meta = pageMeta.bySlug[it.slug];
+  const stub = meta && meta.is_stub ? ` <span class="stub-chip" title="Auto-generated stub — data only, no narrative yet">stub</span>` : "";
+  return `<a class="nav-link${sp}" data-slug="${it.slug}" href="javascript:void(0)" onclick="openWikiPage('${it.slug}')"><span>${it.title}</span>${stub}</a>`;
+}
+
+function buildNav() {
+  const nav = document.getElementById("nav");
+  nav.className = "nav-list";
+  let html = "";
+  for (const cat of CAT_ORDER) {
+    const items = pageIndex.byCategory[cat] || [];
+    if (!items.length) continue;
+    const isCollapsed = collapsedGroups.has(cat);
+    html += `<div class="nav-group ${isCollapsed ? "collapsed" : ""}" data-cat="${cat}">`;
+    html += `<div class="group-h" onclick="toggleGroup('${cat}')"><span><span class="arrow">▾</span> ${CAT_LABEL[cat]}</span><span class="count">${items.length}</span></div>`;
+    html += `<div class="group-body">`;
+    if (cat === "entities") {
+      const buckets = entitiesGrouped();
+      for (const sub of ENTITY_SUB_ORDER) {
+        const arr = buckets[sub];
+        if (!arr || !arr.length) continue;
+        html += `<div class="sub-h">${ENTITY_SUB_LABEL[sub]} <span style="opacity: 0.5">${arr.length}</span></div>`;
+        for (const it of arr) html += navItem(it);
+      }
+    } else {
+      for (const it of items) html += navItem(it);
+    }
+    html += `</div></div>`;
+  }
+  nav.innerHTML = html;
+  setActiveNav(currentSlug);
+}
+
+window.toggleGroup = function (cat) {
+  if (collapsedGroups.has(cat)) collapsedGroups.delete(cat);
+  else collapsedGroups.add(cat);
+  localStorage.setItem("explorer.collapsedGroups", JSON.stringify(Array.from(collapsedGroups)));
+  buildNav();
+};
+
+// ============================================================
+// Search modes: filter / content / semantic
+// ============================================================
+function setSearchMode(mode) {
+  searchMode = mode;
+  localStorage.setItem("explorer.searchMode", mode);
+  document.querySelectorAll("#search-mode button").forEach((b) => b.classList.toggle("active", b.dataset.mode === mode));
+  const input = document.getElementById("q");
+  input.placeholder = mode === "filter" ? "filter pages…" : mode === "content" ? "search page contents…" : "ask anything (semantic)…";
+  if (mode === "semantic" && !semanticReady && !semanticLoading) primeSemantic();
+  applySearch();
+}
+
+async function primeSemantic() {
+  if (semanticReady || semanticLoading) return;
+  if (!window.NepalExplorer.semantic) {
+    showSemStatus("loading semantic search module…", 0.05);
+    await new Promise((res, rej) => {
+      const s = document.createElement("script");
+      s.src = "shared/wiki-semantic.js";
+      s.onload = res;
+      s.onerror = rej;
+      document.head.appendChild(s);
+    });
+  }
+  semanticLoading = window.NepalExplorer.semantic.ensureIndex(pageMeta, (p) => {
+    showSemStatus(p.message, p.progress);
+  }).then(() => {
+    semanticReady = true;
+    semanticLoading = null;
+    setTimeout(() => hideSemStatus(), 1500);
+    applySearch();
+  }).catch((err) => {
+    showSemStatus("semantic search failed: " + err.message + " — falling back to content mode", 1);
+    semanticLoading = null;
+    setSearchMode("content");
+  });
+}
+
+function showSemStatus(msg, pct) {
+  const el = document.getElementById("sem-status");
+  el.classList.add("show");
+  el.querySelector(".msg").textContent = msg;
+  document.getElementById("sem-bar").style.width = (pct * 100).toFixed(1) + "%";
+}
+function hideSemStatus() { document.getElementById("sem-status").classList.remove("show"); }
+
+let lastQuery = "";
+async function applySearch() {
+  const q = document.getElementById("q").value.trim();
+  document.getElementById("search-wrap").classList.toggle("has-text", !!q);
+  if (!q) { buildNav(); return; }
+  if (searchMode === "filter") {
+    filterNavInPlace(q);
+  } else if (searchMode === "content") {
+    renderResults(bm25.search(q, { limit: 30 }), q, "BM25");
+  } else if (searchMode === "semantic") {
+    if (!semanticReady) {
+      const nav = document.getElementById("nav");
+      nav.className = "nav-list";
+      nav.innerHTML = `<div class="results-empty">building semantic index…<br/><br/>(this happens once; cached after)</div>`;
+      return;
+    }
+    lastQuery = q;
+    const results = await window.NepalExplorer.semantic.search(q, { limit: 20 });
+    if (lastQuery !== q) return;
+    renderResults(results, q, "cosine");
+  }
+}
+
+function filterNavInPlace(q) {
+  buildNav();
+  const ql = q.toLowerCase();
+  document.querySelectorAll(".nav-link").forEach((el) => {
+    const txt = el.textContent.toLowerCase();
+    el.style.display = txt.includes(ql) ? "" : "none";
+  });
+}
+
+function renderResults(results, q, scoreLabel) {
+  const nav = document.getElementById("nav");
+  nav.className = "nav-list";
+  if (!results.length) {
+    nav.innerHTML = `<div class="results-empty">no matches for <b>${escapeHtml(q)}</b></div>`;
+    return;
+  }
+  let html = `<div class="results-summary">${results.length} result${results.length === 1 ? "" : "s"} · ${scoreLabel}</div><div class="results">`;
+  for (const r of results) {
+    const sp = spatialSlugs.has(r.slug) ? " spatial" : "";
+    const score = (r.score >= 1 ? r.score.toFixed(2) : (r.score * 100).toFixed(0) + "%");
+    html += `<a class="result${sp}" data-slug="${r.slug}" href="javascript:void(0)" onclick="openWikiPage('${r.slug}')">
+      <div class="r-title">${escapeHtml(r.title)}</div>
+      <div class="r-meta"><span>${r.category}${r.subcategory ? " · " + r.subcategory : ""}</span><span class="score">${score}</span></div>
+      <div class="r-snippet">${r.snippet || ""}</div>
+    </a>`;
+  }
+  html += `</div>`;
+  nav.innerHTML = html;
+  setActiveNav(currentSlug);
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[<>&"']/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+// ============================================================
+// Page open + map sync
+// ============================================================
+function setActiveNav(slug) {
+  document.querySelectorAll("#nav .nav-link, #nav .result").forEach((el) => {
+    el.classList.toggle("active", el.dataset.slug === slug);
+  });
+  document.getElementById("now-page").textContent = slug || "no page";
+}
+
+window.openWikiPage = async function (slug, opts = {}) {
+  // Detect "re-open the page that's already showing" — typically happens when
+  // the user clicks a feature whose canonical page is already loaded. In that
+  // case the map view is already adequate (we just opened the bound popup);
+  // re-flying the camera would yank the user away from where they clicked.
+  const wasAlreadyCurrent = (currentSlug === slug);
+  const page = document.getElementById("page");
+  page.innerHTML = "<div class='placeholder'>loading…</div>";
+  const html = await window.NepalExplorer.renderPage(slug, { spatialSlugs });
+  // Treat the "No page for **X**" sentinel from wiki-loader as a failure —
+  // don't claim the slug as current, otherwise bound popups render
+  // "✓ Showing in reader" while the reader itself says nothing was found.
+  // The sentinel is wrapped in `<div class="placeholder">No page for ... </div>`.
+  const loadFailed = /class="placeholder">(No page for |Could not load )/.test(html);
+  page.innerHTML = html;
+  if (loadFailed) {
+    document.getElementById("map-info").innerHTML =
+      "<b>" + slug + "</b><br/>Wiki page not found. The map binding points to a slug with no markdown file (hard reload may help if stubs were just regenerated).";
+    // Don't update currentSlug or nav highlight — keep the previously loaded
+    // state so the user doesn't lose their place.
+    return;
+  }
+  currentSlug = slug;
+  setActiveNav(slug);
+  // If a feature popup is currently open, refresh it so its CTA reflects the
+  // new current page (e.g., the just-opened slug becomes "Already open").
+  if (map) {
+    map.eachLayer((lyr) => {
+      if (lyr.isPopupOpen && lyr.isPopupOpen() && typeof lyr.getPopup === "function") {
+        const p = lyr.getPopup();
+        if (p) p.update();
+      }
+    });
+  }
+
+  const binding = bindings.pages[slug];
+  if (!binding) {
+    document.getElementById("map-info").innerHTML = "<b>" + slug + "</b><br/>No spatial binding for this page.";
+    syncUrl();
+    return;
+  }
+
+  // ADDITIVE: layers from the page binding are added on top of whatever
+  // the active preset already has. The preset is preserved.
+  const needed = (binding.layers_on || []).filter((k) => !lm.has(k));
+  for (const k of needed) await lm.add(k);
+
+  const onCount = lm.activeKeys().length;
+  const featCount = (binding.features || []).length;
+  document.getElementById("map-info").innerHTML =
+    `<b>${slug}</b><br/>${featCount} feature(s) · ${onCount} layer(s) on${needed.length ? ` · added <i>${needed.join(", ")}</i>` : ""}.`;
+
+  // If the page was already current, the user is just being routed back to
+  // the same place — keep the camera put. Layers are already on; the bound
+  // popup the click opened is enough feedback.
+  if (wasAlreadyCurrent) {
+    syncUrl();
+    return;
+  }
+
+  setTimeout(async () => {
+    const feats = lm.findFeaturesForSlug(slug, bindings);
+    if (feats.length) {
+      const card = lm.pickCardFeature(feats);
+      if (card) {
+        // Direct hit: ensure the focal feature's layer is actually on the map,
+        // then tight-zoom + pulse + flash card.
+        if (!lm.has(card.key)) await lm.add(card.key);
+
+        const single = L.featureGroup([card.layer]);
+        const b = single.getBounds();
+        if (b.isValid()) {
+          map.flyToBounds(b, { padding: [80, 80], duration: 0.9, maxZoom: 12 });
+        } else if (typeof card.layer.getLatLng === "function") {
+          map.flyTo(card.layer.getLatLng(), 12, { duration: 0.9 });
+        }
+        lm.highlight([card], { revertAfterMs: 4500 });
+        // Wait for the flyTo animation before opening the card so autoPan
+        // doesn't fight the camera.
+        setTimeout(() => {
+          const spec = lm.buildCardSpec(card, { pageHref: `?page=${slug}` });
+          if (spec) lm.flashCard(card, spec, { dismissAfterMs: 7000 });
+        }, 950);
+      } else {
+        // Broad hit (basin polygon, multi-segment corridor): keep current behavior.
+        lm.flyToFeatures(feats, { duration: 0.9, maxZoom: 9 });
+        lm.highlight(feats, { revertAfterMs: 4000 });
+      }
+    } else if (binding.focus) {
+      map.flyTo(binding.focus.center, binding.focus.zoom || 8, { duration: 0.9 });
+    }
+  }, 250);
+
+  syncUrl();
+};
+
+function onFeatureClick({ key, props, slug, layer }) {
+  if (slug) {
+    const wasAlreadyCurrent = (currentSlug === slug);
+    openWikiPage(slug);
+    // When the click *triggers* navigation we close the popup — the reader is
+    // the answer and a lingering "✓ Showing in reader" popup reads as a dead
+    // handshake. When the page was already open (nav → map flyto → user clicks
+    // the same marker for context) we keep the popup so the confirmatory CTA
+    // is visible.
+    if (!wasAlreadyCurrent) {
+      setTimeout(() => {
+        if (layer && typeof layer.closePopup === "function") layer.closePopup();
+        map.closePopup();
+      }, 20);
+    }
+    return;
+  }
+  const title = props.label_title || props.name || props.project || "(unnamed)";
+  const info = [];
+  const cap  = props.capacity_mw != null ? `${props.capacity_mw} MW` : null;
+  const stat = props.license_type || props.status || props.category || null;
+  const river = props.river || props.basin || null;
+  if (cap)   info.push(cap);
+  if (stat)  info.push(stat);
+  if (river) info.push(river);
+  document.getElementById("map-info").innerHTML =
+    `<b>${title}</b>` +
+    (info.length ? ` <span class="muted">· ${info.join(" · ")}</span>` : "") +
+    `<br/><span class="muted">Data-only · no narrative wiki page yet for this feature.</span>`;
+}
+
+// ============================================================
+// Presets (lenses) + layer panel + URL state
+// ============================================================
+function buildPresetBar() {
+  const bar = document.getElementById("preset-bar");
+  const order = Object.keys(presetsCfg.presets);
+  let html = "";
+  for (const key of order) {
+    const p = presetsCfg.presets[key];
+    html += `<button data-preset="${key}" title="${escapeAttr(p.label + ' — ' + (p.subtitle || p.description || ''))}">${p.short || p.label}</button>`;
+    if (key !== order[order.length - 1]) html += `<span class="sep"></span>`;
+  }
+  bar.innerHTML = html;
+  bar.querySelectorAll("button[data-preset]").forEach((b) => {
+    b.addEventListener("click", () => applyPreset(b.dataset.preset, { fly: true }));
+  });
+}
+
+function escapeAttr(s) { return String(s).replace(/"/g, "&quot;"); }
+
+async function applyPreset(key, opts = {}) {
+  const p = presetsCfg.presets[key];
+  if (!p) return;
+  currentPreset = key;
+  document.querySelectorAll("#preset-bar button[data-preset]").forEach((b) => {
+    b.classList.toggle("active", b.dataset.preset === key);
+  });
+  const meta = document.getElementById("preset-meta");
+  meta.classList.add("show");
+  meta.innerHTML = `<b>${p.label}</b> · ${p.subtitle || ""}`;
+  setTimeout(() => meta.classList.remove("show"), 3500);
+
+  await lm.setActive(p.layers_on || []);
+  if (opts.fly !== false && p.bounds) {
+    map.flyToBounds(p.bounds, { padding: [40, 40], duration: 0.9, maxZoom: 9 });
+  }
+  syncUrl();
+}
+
+// Strip kV suffix and normalize whitespace/case so the same corridor matches across layers.
+function normalizeCorridorName(s) {
+  return String(s || "")
+    .toLowerCase()
+    .replace(/\b\d+\s*kv\b/gi, "")
+    .replace(/backbone|corridor|reinforcement/gi, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+// Render a small swatch mirroring a layer's own style — a filled dot for
+// points, a short stroke for lines, a filled square for polygons — so each
+// row in the layer control shows WHAT the thing looks like on the map.
+function layerSwatchHtml(def) {
+  const s = def.style || {};
+  if (def.kind === "point") {
+    // Use a middling representative size so Operating vs Construction vs
+    // Survey stay distinguishable in the control, without exploding row height.
+    const rMax = s.radius_max || s.radius || 6;
+    const sz = Math.min(Math.max(Math.round(rMax * 1.1), 5), 13);
+    const fill = s.fillColor || s.color || "#666";
+    const border = s.color || "#333";
+    const fillOp = s.fillOpacity ?? 0.9;
+    const weight = s.weight ?? 1.3;
+    return `<span class="lc-swatch"><span class="lc-dot" style="width:${sz}px;height:${sz}px;background:${fill};border:${weight}px solid ${border};opacity:${fillOp};"></span></span>`;
+  }
+  if (def.kind === "line") {
+    const color = s.color || "#666";
+    const weight = Math.max(s.weight || 2, 1.5);
+    const opacity = s.opacity ?? 0.9;
+    const dashed = s.dashArray ? "background-image: repeating-linear-gradient(to right, currentColor 0 3px, transparent 3px 6px); color:" + color + ";" : "";
+    return `<span class="lc-swatch"><span class="lc-line" style="${dashed || `background:${color};`}height:${weight}px;opacity:${opacity};"></span></span>`;
+  }
+  if (def.kind === "polygon") {
+    const color = s.color || "#333";
+    const fill = s.fillColor || color;
+    const fillOp = s.fillOpacity ?? 0.2;
+    return `<span class="lc-swatch"><span class="lc-poly" style="background:${fill};border:1.2px solid ${color};opacity:${Math.max(fillOp * 3, 0.55)};"></span></span>`;
+  }
+  return `<span class="lc-swatch lc-muted">·</span>`;
+}
+
+function overlayLabelHtml(def, fallbackName, opts = {}) {
+  const name = def && def.label ? def.label : fallbackName;
+  const sw = opts.swatch != null ? opts.swatch : (def ? layerSwatchHtml(def) : "");
+  const group = opts.group ? ` data-lc-group="${opts.group}"` : "";
+  const count = opts.count
+    ? `<span class="lc-count" title="features with a narrative wiki page / total">${opts.count.bound}/${opts.count.total}</span>`
+    : "";
+  return `<span class="lc-row"${group}><span class="lc-name">${name}</span>${sw}${count}</span>`;
+}
+
+// Build the native L.control.layers (basemaps + every overlay + Labels).
+async function buildLayerControl() {
+  // Pre-create every overlay so we have stable references for the control.
+  const overlays = {};
+  for (const key of Object.keys(manifest.layers)) {
+    const def = manifest.layers[key];
+    if (def.interactive === false) continue; // omit non-interactive base shapes (country outline) from the picker
+    await lm.preload(key);
+    const group = key.startsWith("hydropower_") ? "hydropower" : null;
+    const cov = lm.coverageFor(key);
+    const showCount = !!cov && cov.total >= 5; // skip counts for small curated lists; overkill
+    overlays[overlayLabelHtml(def, key, { group, count: showCount ? cov : null })] = lm.layers[key];
+  }
+
+  // River + basin labels — Folium-style permanent annotations
+  labelsLayer = window.NepalExplorer.buildLabelsOverlay(lm, manifest, manifest.labels_overlay || []);
+  await labelsLayer._npRebuild();
+  overlays[overlayLabelHtml(null, "Labels", { swatch: `<span class="lc-swatch lc-muted">Aa</span>` })] = labelsLayer;
+
+  // Transmission labels — separate toggle so they don't compete with river labels at low zoom.
+  // Two specs:
+  //   1) transmission_corridors  → uses curated label_lat/lon, short_label · kV (primary)
+  //   2) transmission_traced     → midpoint of longest segment, only for corridors NOT in #1
+  const corridorNamesSeen = new Set();
+  const txSpecs = (manifest.transmission_labels_overlay || []).map((s) => ({
+    ...s,
+    format: (p) => {
+      if (s.layer === "transmission_corridors") {
+        const label = p.short_label || p.name || p.id || "";
+        if (label) corridorNamesSeen.add(normalizeCorridorName(label));
+        return p.voltage_kv ? `${label} · ${p.voltage_kv} kV` : label;
+      }
+      // transmission_traced
+      const nm = p.name || p.short_label || p.corridor_id || "";
+      if (!nm) return "";
+      if (corridorNamesSeen.has(normalizeCorridorName(nm))) return ""; // already labeled by corridors layer
+      return p.voltage_kv ? `${nm} · ${p.voltage_kv} kV` : nm;
+    },
+  }));
+  const txLabelsLayer = window.NepalExplorer.buildLabelsOverlay(lm, manifest, txSpecs);
+  await txLabelsLayer._npRebuild();
+  overlays[overlayLabelHtml(null, "Transmission labels", { swatch: `<span class="lc-swatch lc-muted">Aa</span>` })] = txLabelsLayer;
+
+  layerControl = L.control.layers(baseLayers, overlays, {
+    position: "topright",
+    collapsed: true,        // collapsed by default (Folium-style) — expands on hover
+    hideSingleBase: false,
+    autoZIndex: true,
+  }).addTo(map);
+
+  // Sync pass: (1) mark each row .lc-on iff its checkbox is checked so the
+  // swatch only appears for active layers, and (2) show the size-encoding
+  // footer only when at least one hydropower_* layer is active. Leaflet
+  // rebuilds the inner DOM on every overlay toggle, so we also ensure the
+  // footer element exists before each pass.
+  const syncSwatches = () => {
+    const root = layerControl.getContainer();
+    const overlaysHost = root.querySelector(".leaflet-control-layers-overlays");
+    if (!overlaysHost) return;
+    let foot = overlaysHost.querySelector(".lc-foot");
+    if (!foot) {
+      foot = document.createElement("div");
+      foot.className = "lc-foot";
+      foot.innerHTML = `
+        <div class="lc-tierseg" role="group" aria-label="Filter markers by wiki-page tier">
+          <button data-tier="all"       title="Show every marker">All</button>
+          <button data-tier="bound"     title="Hide data-only markers (keep stubs + narrated)">Wiki</button>
+          <button data-tier="narrated"  title="Show only hand-written narrative pages">Narrated</button>
+        </div>
+        <div class="lc-dotcap" style="margin-top:6px; line-height:1.5">
+          <div>Dot size ∝ √capacity (MW)</div>
+          <div style="margin-top:3px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+            <span title="Hand-written narrative"><span class="lc-legend-dot lc-legend-narrated"></span> narrated</span>
+            <span title="Auto-generated stub page"><span class="lc-legend-dot lc-legend-stub"></span> stub</span>
+            <span title="No wiki page"><span class="lc-legend-dot lc-legend-orphan"></span> data only</span>
+          </div>
+        </div>
+      `;
+      overlaysHost.appendChild(foot);
+      foot.querySelectorAll(".lc-tierseg button").forEach((btn) => {
+        btn.addEventListener("click", () => setMarkerTier(btn.dataset.tier));
+      });
+    }
+    // Reflect current tier on every rebuild (Leaflet wipes the inner DOM on toggle).
+    const tier = document.body.dataset.npTier || "all";
+    foot.querySelectorAll(".lc-tierseg button").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.tier === tier);
+    });
+    let hpActive = false;
+    overlaysHost.querySelectorAll("label").forEach((lbl) => {
+      const input = lbl.querySelector('input[type="checkbox"]');
+      const row = lbl.querySelector(".lc-row");
+      if (!input || !row) return;
+      const on = input.checked;
+      row.classList.toggle("lc-on", on);
+      if (on && row.dataset.lcGroup === "hydropower") hpActive = true;
+    });
+    foot.classList.toggle("lc-foot-on", hpActive);
+  };
+  // Tier filter — one of { "all", "bound", "narrated" }, persisted across reloads.
+  // Also migrates the old boolean preference (explorer.onlyBound === "1") to the
+  // new three-way key so existing users don't lose their setting.
+  window.setMarkerTier = function (tier) {
+    if (!["all", "bound", "narrated"].includes(tier)) tier = "all";
+    document.body.dataset.npTier = tier;
+    document.body.classList.toggle("np-only-bound",    tier === "bound" || tier === "narrated");
+    document.body.classList.toggle("np-only-narrated", tier === "narrated");
+    localStorage.setItem("explorer.markerTier", tier);
+    document.querySelectorAll(".leaflet-control-layers .lc-tierseg button").forEach((b) => {
+      b.classList.toggle("active", b.dataset.tier === tier);
+    });
+    renderTierBanner();
+  };
+  // Shows a dismissible banner over the map whenever the tier filter is
+  // hiding markers. Without this, a user who set "Narrated" in one session
+  // opens a fresh tab and silently sees almost no markers — which reads as
+  // "bug". The banner makes the filter state loud and reversible.
+  function renderTierBanner() {
+    const tier = document.body.dataset.npTier || "all";
+    const mapEl = document.getElementById("map");
+    if (!mapEl) return;
+    let banner = document.getElementById("tier-banner");
+    if (tier === "all") {
+      if (banner) banner.remove();
+      return;
+    }
+    const label = tier === "narrated"
+      ? "Showing narrated pages only — stubs &amp; data-only markers hidden."
+      : "Showing wiki-bound markers only — data-only markers hidden.";
+    if (!banner) {
+      banner = document.createElement("div");
+      banner.id = "tier-banner";
+      banner.className = "np-tier-banner";
+      mapEl.appendChild(banner);
+    }
+    banner.innerHTML = `
+      <span class="tb-msg">${label}</span>
+      <button class="tb-btn" type="button" onclick="window.setMarkerTier('all')">Show all</button>
+    `;
+  }
+  (function restoreTier() {
+    let saved = localStorage.getItem("explorer.markerTier");
+    if (!saved) {
+      saved = localStorage.getItem("explorer.onlyBound") === "1" ? "bound" : "all";
+    }
+    window.setMarkerTier(saved);
+  })();
+  syncSwatches();
+  // Leaflet's _update rebuilds rows on every add/remove; MutationObserver
+  // covers that. overlayadd/overlayremove cover toggles triggered outside
+  // the control (presets, deep links).
+  new MutationObserver(syncSwatches).observe(
+    layerControl.getContainer().querySelector(".leaflet-control-layers-list"),
+    { childList: true, subtree: true }
+  );
+  map.on("overlayadd overlayremove", syncSwatches);
+}
+
+function syncUrl() {
+  if (suppressUrlSync) return;
+  const params = new URLSearchParams();
+  if (currentPreset) params.set("preset", currentPreset);
+  if (currentSlug) params.set("page", currentSlug);
+  const url = params.toString() ? "?" + params.toString() : location.pathname;
+  history.replaceState(null, "", url);
+}
+
+function readUrlState() {
+  const params = new URLSearchParams(location.search);
+  return { preset: params.get("preset"), page: params.get("page") };
+}
+
+// ============================================================
+// Init
+// ============================================================
+async function init() {
+  manifest = await loadJSON("shared/layer-manifest.json");
+  bindings = await loadJSON("shared/bindings.json");
+  presetsCfg = await loadJSON("shared/presets.json");
+  hydropowerSlugAliases = await loadJSON("shared/hydropower-slug-aliases.json");
+  pageIndex = await window.NepalExplorer.buildPageIndex();
+  spatialSlugs = new Set(Object.keys(bindings.pages || {}));
+  pageMeta = await loadJSON("shared/wiki-page-meta.json");
+  pageMeta.bySlug = Object.fromEntries(pageMeta.pages.map((p) => [p.slug, p]));
+  bm25 = new window.NepalExplorer.BM25Index(pageMeta);
+
+  setupSplitters();
+
+  document.querySelectorAll("#search-mode button").forEach((b) => {
+    b.addEventListener("click", () => setSearchMode(b.dataset.mode));
+  });
+  setSearchMode(searchMode);
+
+  document.getElementById("q").addEventListener("input", applySearch);
+  document.getElementById("clear-q").addEventListener("click", () => {
+    document.getElementById("q").value = "";
+    applySearch();
+    document.getElementById("q").focus();
+  });
+
+  buildNav();
+
+  ({ map, baseLayers } = makeMap("map"));
+  const reverseIdx = buildReverseIndex(bindings);
+  const pagesWithImages = new Set(
+    (pageMeta.pages || []).filter((p) => (p.image_count || 0) > 0).map((p) => p.slug)
+  );
+  const stubSlugs = new Set(
+    (pageMeta.pages || []).filter((p) => p.is_stub).map((p) => p.slug)
+  );
+  lm = new LayerManager(map, manifest, reverseIdx, {
+    onFeatureClick,
+    getCurrentSlug: () => currentSlug,
+    pagesWithImages,
+    stubSlugs,
+    hydropowerSlugAliases,
+    knownSlugs: new Set(pageIndex.allSlugs || []),
+  });
+
+  // Country outline is non-interactive and not in the layer picker;
+  // it just sits behind everything.
+  await lm.add("country_outline");
+
+  await buildLayerControl();
+  buildPresetBar();
+
+  // Resolve initial state: URL > localStorage > config default
+  const url = readUrlState();
+  const savedPreset = localStorage.getItem("explorer.preset");
+  const initialPreset = url.preset || savedPreset || presetsCfg.default_preset;
+
+  suppressUrlSync = true;
+  await applyPreset(initialPreset in presetsCfg.presets ? initialPreset : presetsCfg.default_preset, { fly: !url.page });
+  suppressUrlSync = false;
+
+  if (url.page && bindings.pages[url.page]) {
+    await window.openWikiPage(url.page);
+  } else {
+    syncUrl();
+  }
+
+  // Persist preset choice
+  const _origApply = applyPreset;
+  // (already runs syncUrl; also store preference)
+  window.addEventListener("beforeunload", () => {
+    if (currentPreset) localStorage.setItem("explorer.preset", currentPreset);
+  });
+
+  window._explorer = { lm, map, openWikiPage, setSearchMode, buildNav, primeSemantic, applyPreset, presetsCfg };
+
+  // --- Wiki-page image lightbox -------------------------------------------
+  // The wiki renderer embeds a <script type="application/json"> payload with
+  // the page's images; we read it each time the lightbox opens so the handler
+  // doesn't need its own state synchronization with page navigation.
+  const lb       = document.getElementById("wiki-lightbox");
+  const lbImg    = document.getElementById("wiki-lightbox-img");
+  const lbCap    = document.getElementById("wiki-lightbox-caption");
+  const lbCred   = document.getElementById("wiki-lightbox-credit");
+  const lbPrev   = document.getElementById("wiki-lightbox-prev");
+  const lbNext   = document.getElementById("wiki-lightbox-next");
+  const lbClose  = document.getElementById("wiki-lightbox-close");
+  const lbStage  = document.getElementById("wiki-lightbox-stage");
+  const lbZoomOut = document.getElementById("wiki-lightbox-zoom-out");
+  const lbZoomIn = document.getElementById("wiki-lightbox-zoom-in");
+  const lbZoomReset = document.getElementById("wiki-lightbox-zoom-reset");
+  let lbImages = []; let lbIndex = 0; let lbZoom = 1;
+  const LB_ZOOM_MIN = 0.75;
+  const LB_ZOOM_MAX = 4;
+  const LB_ZOOM_STEP = 0.25;
+
+  function readImageData() {
+    const el = document.getElementById("wiki-images-data");
+    if (!el) return [];
+    try { return JSON.parse(el.textContent); } catch { return []; }
+  }
+  function readInlineFigureData() {
+    return Array.from(document.querySelectorAll("#page .wiki-inline-figure")).map((fig) => {
+      const img = fig.querySelector("img");
+      const cap = fig.querySelector("figcaption");
+      if (!img) return null;
+      return {
+        src: img.getAttribute("src") || img.src,
+        caption: cap ? cap.textContent.trim() : (img.alt || ""),
+        credit: "",
+        license: "",
+      };
+    }).filter(Boolean);
+  }
+  function normalizeLightboxItems(items) {
+    return (items || []).map((img) => ({
+      src: String(img.src || ""),
+      caption: img.caption || "",
+      credit: img.credit || "",
+      license: img.license || "",
+    })).filter((img) => img.src);
+  }
+  function resolveLightboxSrc(src) {
+    if (/^(https?:)?\/\//.test(src) || src.startsWith("data:")) return src;
+    if (src.startsWith("../assets/images/")) return src;
+    return `../assets/images/${src}`;
+  }
+  function applyLightboxZoom() {
+    const pct = Math.round(lbZoom * 100);
+    lbImg.style.maxWidth = `${pct}%`;
+    lbImg.style.maxHeight = `${Math.round(lbZoom * 78)}vh`;
+    lbZoomReset.textContent = `${pct}%`;
+    lbZoomOut.disabled = lbZoom <= LB_ZOOM_MIN;
+    lbZoomIn.disabled = lbZoom >= LB_ZOOM_MAX;
+  }
+  function setLightboxZoom(nextZoom) {
+    lbZoom = Math.max(LB_ZOOM_MIN, Math.min(LB_ZOOM_MAX, Math.round(nextZoom * 100) / 100));
+    applyLightboxZoom();
+  }
+  function renderLightboxAt(i) {
+    if (!lbImages.length) return;
+    lbIndex = (i + lbImages.length) % lbImages.length;
+    const img = lbImages[lbIndex];
+    lbImg.src = resolveLightboxSrc(img.src);
+    lbImg.alt = img.caption || "";
+    lbCap.textContent = img.caption || "";
+    lbCred.textContent = [img.credit, img.license].filter(Boolean).join(" · ");
+    lbPrev.disabled = lbImages.length <= 1;
+    lbNext.disabled = lbImages.length <= 1;
+    lbStage.scrollTop = 0;
+    lbStage.scrollLeft = 0;
+    setLightboxZoom(1);
+  }
+  window.openWikiLightbox = function (index, opts = {}) {
+    const items = opts.items ? normalizeLightboxItems(opts.items) : normalizeLightboxItems(readImageData());
+    lbImages = items;
+    if (!lbImages.length) return;
+    renderLightboxAt(index || 0);
+    lb.classList.add("open");
+    lb.setAttribute("aria-hidden", "false");
+  };
+  function closeLightbox() {
+    lb.classList.remove("open");
+    lb.setAttribute("aria-hidden", "true");
+    lbImg.src = "";
+  }
+  lbClose.addEventListener("click", closeLightbox);
+  lb.addEventListener("click", (e) => { if (e.target === lb) closeLightbox(); });
+  lbPrev.addEventListener("click", () => renderLightboxAt(lbIndex - 1));
+  lbNext.addEventListener("click", () => renderLightboxAt(lbIndex + 1));
+  lbZoomOut.addEventListener("click", () => setLightboxZoom(lbZoom - LB_ZOOM_STEP));
+  lbZoomIn.addEventListener("click", () => setLightboxZoom(lbZoom + LB_ZOOM_STEP));
+  lbZoomReset.addEventListener("click", () => setLightboxZoom(1));
+  document.addEventListener("click", (e) => {
+    const fig = e.target.closest("#page .wiki-inline-figure");
+    if (!fig) return;
+    const figures = Array.from(document.querySelectorAll("#page .wiki-inline-figure"));
+    const index = figures.indexOf(fig);
+    if (index === -1) return;
+    const items = readInlineFigureData();
+    if (!items.length) return;
+    window.openWikiLightbox(index, { items });
+  });
+  lbStage.addEventListener("wheel", (e) => {
+    if (!lb.classList.contains("open")) return;
+    e.preventDefault();
+    const delta = e.deltaY < 0 ? LB_ZOOM_STEP : -LB_ZOOM_STEP;
+    setLightboxZoom(lbZoom + delta);
+  }, { passive: false });
+  document.addEventListener("keydown", (e) => {
+    if (!lb.classList.contains("open")) return;
+    if (e.key === "Escape")       closeLightbox();
+    else if (e.key === "ArrowLeft")  renderLightboxAt(lbIndex - 1);
+    else if (e.key === "ArrowRight") renderLightboxAt(lbIndex + 1);
+    else if (e.key === "+" || e.key === "=") setLightboxZoom(lbZoom + LB_ZOOM_STEP);
+    else if (e.key === "-") setLightboxZoom(lbZoom - LB_ZOOM_STEP);
+    else if (e.key === "0") setLightboxZoom(1);
+  });
+}
+init();
+})();
+</script>
+
+</body>
+</html>

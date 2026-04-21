@@ -1,0 +1,45 @@
+{
+  "slug": "dhungesangu-basantapur-220-132kv",
+  "entries": [
+    {
+      "src": "dhungesangu-basantapur-220-132kv/nea2077-p063-img01.png",
+      "filename": "nea2077-p063-img01.png",
+      "caption": "Foundation of Control Room Building under progress at Dhungesanghu Substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 63,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        69.85,
+        575.66,
+        300.11,
+        736.64
+      ],
+      "width": 639,
+      "height": 447,
+      "fetched_at": 1776689192
+    },
+    {
+      "src": "dhungesangu-basantapur-220-132kv/nea2077-p063-img03.png",
+      "filename": "nea2077-p063-img03.png",
+      "caption": "Tower Erection under progress in Basantapur–Dhungesanghu section",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 63,
+      "image_index": 3,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        354.68,
+        547.09,
+        458.3
+      ],
+      "width": 634,
+      "height": 287,
+      "fetched_at": 1776689193
+    }
+  ]
+}

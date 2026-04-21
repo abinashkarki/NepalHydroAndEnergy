@@ -1,0 +1,45 @@
+{
+  "slug": "tamakoshi-v",
+  "entries": [
+    {
+      "src": "tamakoshi-v/nea2077-p191-img01.png",
+      "filename": "nea2077-p191-img01.png",
+      "caption": "Interconnection System",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 191,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        144.57,
+        547.09,
+        316.14
+      ],
+      "width": 634,
+      "height": 476,
+      "fetched_at": 1776689207
+    },
+    {
+      "src": "tamakoshi-v/nea2077-p191-img02.png",
+      "filename": "nea2077-p191-img02.png",
+      "caption": "Layout of Permanent Camp",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 191,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        126.14,
+        299.06,
+        308.47
+      ],
+      "width": 634,
+      "height": 506,
+      "fetched_at": 1776689207
+    }
+  ]
+}

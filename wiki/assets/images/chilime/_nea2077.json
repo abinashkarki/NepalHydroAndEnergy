@@ -1,0 +1,125 @@
+{
+  "slug": "chilime",
+  "entries": [
+    {
+      "src": "chilime/nea2077-p177-img01.png",
+      "filename": "nea2077-p177-img01.png",
+      "caption": "Work in Progress in Surge Shaft",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 177,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        70.87,
+        299.06,
+        240.61
+      ],
+      "width": 634,
+      "height": 471,
+      "fetched_at": 1776689205
+    },
+    {
+      "src": "chilime/nea2077-p177-img02.png",
+      "filename": "nea2077-p177-img02.png",
+      "caption": "Work in Progress in Permanent Bridge",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 177,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        273.54,
+        298.05,
+        399.4
+      ],
+      "width": 631,
+      "height": 349,
+      "fetched_at": 1776689205
+    },
+    {
+      "src": "chilime/nea2077-p177-img03.png",
+      "filename": "nea2077-p177-img03.png",
+      "caption": "Signing ceremony of Contract Agreement for Lot-2 electro-mechanical works",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 177,
+      "image_index": 3,
+      "action": "filmstrip",
+      "bbox": [
+        70.26,
+        597.87,
+        299.06,
+        740.8
+      ],
+      "width": 635,
+      "height": 397,
+      "fetched_at": 1776689205
+    },
+    {
+      "src": "chilime/nea2077-p177-img05.png",
+      "filename": "nea2077-p177-img05.png",
+      "caption": "Chilime Hydroelectric Plant",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 177,
+      "image_index": 5,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        459.91,
+        547.09,
+        591.73
+      ],
+      "width": 634,
+      "height": 366,
+      "fetched_at": 1776689205
+    },
+    {
+      "src": "chilime/nea2077-p182-img02.png",
+      "filename": "nea2077-p182-img02.png",
+      "caption": "HEP Headworks & Powerhouse",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 182,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        318.9,
+        70.87,
+        547.09,
+        217.1
+      ],
+      "width": 634,
+      "height": 406,
+      "fetched_at": 1776686326
+    },
+    {
+      "src": "chilime/nea2077-p184-img02.png",
+      "filename": "nea2077-p184-img02.png",
+      "caption": "Under construction powerhouse filled with the water and debris during the flood.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 184,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        70.87,
+        592.44,
+        299.06,
+        742.48
+      ],
+      "width": 634,
+      "height": 416,
+      "fetched_at": 1776686327
+    }
+  ]
+}

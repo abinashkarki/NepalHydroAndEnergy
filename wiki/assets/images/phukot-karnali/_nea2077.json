@@ -1,0 +1,25 @@
+{
+  "slug": "phukot-karnali",
+  "entries": [
+    {
+      "src": "phukot-karnali/nea2077-p135-img01.png",
+      "filename": "nea2077-p135-img01.png",
+      "caption": "Handing over computer and projector to works as assigned by the Client. Aadarsha Primary School, Parbat",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 135,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        602.7,
+        299.06,
+        744.7
+      ],
+      "width": 634,
+      "height": 394,
+      "fetched_at": 1776686316
+    }
+  ]
+}

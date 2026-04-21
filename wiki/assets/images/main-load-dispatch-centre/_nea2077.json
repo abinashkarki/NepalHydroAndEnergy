@@ -1,0 +1,45 @@
+{
+  "slug": "main-load-dispatch-centre",
+  "entries": [
+    {
+      "src": "main-load-dispatch-centre/nea2077-p074-img01.png",
+      "filename": "nea2077-p074-img01.png",
+      "caption": "Emergency Control Center (ECC) Building at Hetauda",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 74,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        154.49,
+        299.06,
+        304.05
+      ],
+      "width": 634,
+      "height": 415,
+      "fetched_at": 1776689195
+    },
+    {
+      "src": "main-load-dispatch-centre/nea2077-p074-img02.png",
+      "filename": "nea2077-p074-img02.png",
+      "caption": "During inauguration of main LDC",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 74,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        125.89,
+        547.09,
+        269.4
+      ],
+      "width": 634,
+      "height": 398,
+      "fetched_at": 1776689195
+    }
+  ]
+}

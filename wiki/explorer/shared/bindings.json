@@ -1,0 +1,2436 @@
+{
+  "_doc": "Maps wiki page slugs to map features. Stand-in for per-page frontmatter; same shape works either way. 'features' = list of {layer, id?, match?}. 'focus' = optional override for fly-to. 'layers_on' = preferred default layer set when this page is the focus.",
+  "pages": {
+    "koshi-basin": {
+      "type": "entity",
+      "category": "basin",
+      "features": [
+        {
+          "layer": "basin_polygons",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "basin_seasonality",
+          "id": "basin_koshi"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "tributaries",
+        "basin_seasonality",
+        "priority_watchlist"
+      ]
+    },
+    "gandaki-basin": {
+      "type": "entity",
+      "category": "basin",
+      "features": [
+        {
+          "layer": "basin_polygons",
+          "id": "gandaki_system"
+        },
+        {
+          "layer": "basin_seasonality",
+          "id": "basin_gandaki"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "tributaries",
+        "basin_seasonality",
+        "priority_watchlist"
+      ]
+    },
+    "karnali-basin": {
+      "type": "entity",
+      "category": "basin",
+      "features": [
+        {
+          "layer": "basin_polygons",
+          "id": "karnali_system"
+        },
+        {
+          "layer": "basin_seasonality",
+          "id": "basin_karnali"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "tributaries",
+        "basin_seasonality",
+        "priority_watchlist"
+      ]
+    },
+    "mahakali-basin": {
+      "type": "entity",
+      "category": "basin",
+      "features": [
+        {
+          "layer": "basin_polygons",
+          "id": "mahakali_system"
+        },
+        {
+          "layer": "basin_seasonality",
+          "id": "basin_mahakali"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "tributaries",
+        "basin_seasonality"
+      ]
+    },
+    "upper-tamakoshi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "upper_tamakoshi_priority",
+          "primary": true
+        },
+        {
+          "layer": "top_capacity",
+          "id": "top_project_7"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value_contains": "Upper Tamakoshi"
+          }
+        }
+      ]
+    },
+    "kulekhani-cascade": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_kulekhani_i_iii"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value_contains": "Kulekhani"
+          }
+        }
+      ]
+    },
+    "tanahu-hydropower": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_tanahu"
+        },
+        {
+          "layer": "priority_watchlist",
+          "id": "tanahu_priority"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Tanahu HEP"
+          }
+        }
+      ]
+    },
+    "dudhkoshi-storage": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_dudhkoshi"
+        }
+      ]
+    },
+    "budhigandaki": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value_contains": "Budhigandaki"
+          }
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value_contains": "Budhi Gandaki"
+          }
+        }
+      ]
+    },
+    "pancheshwar": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value_contains": "Pancheshwar"
+          }
+        }
+      ]
+    },
+    "west-seti": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value_contains": "West Seti"
+          }
+        }
+      ]
+    },
+    "karnali-chisapani": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value_contains": "Karnali"
+          }
+        }
+      ]
+    },
+    "bangladesh-trade-route": {
+      "type": "entity",
+      "category": "trade-route",
+      "features": [
+        {
+          "layer": "cross_border",
+          "id": "dhalkebar_muzaffarpur"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "cross_border"
+      ]
+    },
+
+    "hetauda-dhalkebar-inaruwa-backbone": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        { "layer": "transmission_corridors", "id": "hddi_400", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_corridors",
+        "transmission_traced",
+        "cross_border"
+      ]
+    },
+    "mca-central-400": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        { "layer": "transmission_corridors", "id": "mca_central_400", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_corridors",
+        "transmission_traced",
+        "cross_border"
+      ]
+    },
+    "khimti-dhalkebar-corridor": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        { "layer": "transmission_corridors", "id": "khimti_dhalkebar_220", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_corridors",
+        "transmission_traced"
+      ]
+    },
+    "hetauda-bharatpur-bardaghat-corridor": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        { "layer": "transmission_corridors", "id": "hetauda_bharatpur_bardaghat_220", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_corridors",
+        "transmission_traced"
+      ]
+    },
+    "dana-kushma-butwal-corridor": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        { "layer": "transmission_corridors", "id": "dana_kushma_butwal_220", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_corridors",
+        "transmission_traced"
+      ]
+    },
+    "dhalkebar-muzaffarpur": {
+      "type": "entity",
+      "category": "cross-border",
+      "features": [
+        { "layer": "cross_border", "id": "dhalkebar_muzaffarpur", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_corridors",
+        "cross_border"
+      ]
+    },
+    "gorakhpur-butwal-interconnection": {
+      "type": "entity",
+      "category": "cross-border",
+      "features": [
+        { "layer": "cross_border", "id": "gorakhpur_new_butwal", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_corridors",
+        "cross_border"
+      ]
+    },
+    "inaruwa-purnea-interconnection": {
+      "type": "entity",
+      "category": "cross-border",
+      "features": [
+        { "layer": "cross_border", "id": "inaruwa_purnea", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_corridors",
+        "cross_border"
+      ]
+    },
+    "kataiya-kushaha-interconnection": {
+      "type": "entity",
+      "category": "cross-border",
+      "features": [
+        { "layer": "cross_border", "id": "kataiya_kushaha", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "cross_border"
+      ]
+    },
+    "chameliya-jauljibi-interconnection": {
+      "type": "entity",
+      "category": "cross-border",
+      "features": [
+        { "layer": "cross_border", "id": "chameliya_jauljibi", "primary": true }
+      ],
+      "layers_on": [
+        "country_outline",
+        "cross_border"
+      ]
+    },
+    "claim-transmission-immediate-blocker": {
+      "type": "claim",
+      "features": [
+        {
+          "layer": "transmission_traced",
+          "all": true
+        },
+        {
+          "layer": "transmission_corridors",
+          "all": true
+        },
+        {
+          "layer": "cross_border",
+          "all": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "transmission_corridors",
+        "cross_border"
+      ],
+      "narrative": "Generation has outpaced wires. The 400 kV east–west backbone is incomplete; western evacuation is constrained by legacy 132 kV; cross-border capacity lags behind installed MW."
+    },
+    "claim-storage-physical-fix": {
+      "type": "claim",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "all": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "storage_shortlist"
+      ],
+      "narrative": "Run-of-river cannot reschedule the monsoon. Storage is the clearest physical answer — the shortlist below carries dry-season energy that the present fleet cannot."
+    },
+    "claim-sediment-core-issue": {
+      "type": "claim",
+      "features": [
+        {
+          "layer": "basin_polygons",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "basin_polygons",
+          "id": "gandaki_system"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "priority_watchlist"
+      ],
+      "narrative": "Sediment is a first-order design constraint, not a footnote. Koshi alone moves ~120 Mt/year; Kali Gandaki turbines erode within years."
+    },
+    "claim-stranded-generation": {
+      "type": "claim",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "all": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "priority_watchlist",
+        "transmission_traced"
+      ],
+      "narrative": "Monsoon 2025 spilled 700–800 MW daily — energy that exists but cannot be moved or sold."
+    },
+    "seasonal-mismatch": {
+      "type": "concept",
+      "features": [
+        {
+          "layer": "basin_seasonality",
+          "all": true
+        },
+        {
+          "layer": "basin_polygons",
+          "all": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "basin_seasonality"
+      ]
+    },
+    "storage-deficit": {
+      "type": "concept",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "all": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "storage_shortlist"
+      ]
+    },
+    "stranded-generation": {
+      "type": "concept",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "all": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "priority_watchlist",
+        "transmission_traced"
+      ]
+    },
+    "run-of-river-hydropower": {
+      "type": "concept",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "all": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "priority_watchlist"
+      ]
+    },
+    "glof-risk": {
+      "type": "concept",
+      "features": [
+        {
+          "layer": "basin_polygons",
+          "id": "koshi_system"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "basin_polygons"
+      ]
+    },
+    "upper-bhotekoshi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "upper_bhotekoshi_priority",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Bhotekoshi"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating",
+        "priority_watchlist"
+      ]
+    },
+    "kali-gandaki-a": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "kali_gandaki_a_priority",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kali Gandaki A"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating",
+        "priority_watchlist"
+      ]
+    },
+    "andhi-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "andhi_khola_priority",
+          "primary": true
+        },
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_andhi_khola"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "storage_shortlist",
+        "priority_watchlist"
+      ]
+    },
+    "upper-trishuli-1": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "upper_trishuli_priority",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Trishuli-1"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction",
+        "priority_watchlist"
+      ]
+    },
+    "nalsyau-gad-storage-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "nalsyau_gad_radar",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Nalsyau Gad Storage HEP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist"
+      ]
+    },
+    "mugu-karnali-storage-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "mugu_karnali_storage_radar",
+          "primary": true
+        },
+        {
+          "layer": "top_capacity",
+          "id": "top_project_1"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Mugu Karnali Storage HEP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist",
+        "top_capacity"
+      ]
+    },
+    "arun-3": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "arun3_radar",
+          "primary": true
+        },
+        {
+          "layer": "top_capacity",
+          "id": "top_project_2"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Arun 3"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist",
+        "top_capacity"
+      ]
+    },
+    "upper-karnali": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "upper_karnali_radar",
+          "primary": true
+        },
+        {
+          "layer": "top_capacity",
+          "id": "top_project_3"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Karnali"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist",
+        "top_capacity"
+      ]
+    },
+    "betan-karnali-hp": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "betan_karnali_radar",
+          "primary": true
+        },
+        {
+          "layer": "top_capacity",
+          "id": "top_project_5"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Betan Karnali HP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist",
+        "top_capacity"
+      ]
+    },
+    "phukot-karnali": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "phukot_karnali_radar",
+          "primary": true
+        },
+        {
+          "layer": "top_capacity",
+          "id": "top_project_10"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Phukot Karnali"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist",
+        "top_capacity"
+      ]
+    },
+    "nalsyau-gad": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_nalsyau_gad",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "storage_shortlist"
+      ]
+    },
+    "lower-badigad": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_lower_badigad",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "storage_shortlist"
+      ]
+    },
+    "naumure-w-rapti": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_naumure_w_rapti",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "storage_shortlist"
+      ]
+    },
+    "sun-koshi-no-3": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_sun_koshi_no_3",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "storage_shortlist"
+      ]
+    },
+    "madi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_madi",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "storage_shortlist"
+      ]
+    },
+    "kokhajor-1": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_kokhajor_1",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "storage_shortlist"
+      ]
+    },
+    "lower-jhimruk": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "storage_shortlist",
+          "id": "storage_lower_jhimruk",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "storage_shortlist"
+      ]
+    },
+    "uttarganga-storage-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "top_capacity",
+          "id": "top_project_4",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Uttarganga Storage Hydropower Project"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "top_capacity"
+      ]
+    },
+    "tamakoshi-3": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "top_capacity",
+          "id": "top_project_6",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Tamakoshi 3"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "top_capacity"
+      ]
+    },
+    "kimathanka-arun-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "top_capacity",
+          "id": "top_project_8",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kimathanka Arun HEP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "top_capacity"
+      ]
+    },
+    "bheri-1-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "top_capacity",
+          "id": "top_project_9",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Bheri-1 HEP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "top_capacity"
+      ]
+    },
+    "chameliya-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Chameliya Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "chilime": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Chilime"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "khimti-i": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Khimti -I"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "madhya-marsyangdi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Madhya Marsyangdi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "mai": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Mai"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "marsyangdi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Marsyangdi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "trishuli": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Trishuli"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "upper-madi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Madi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "upper-marsyangdi-a": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Marsyangdi A"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_operating"
+      ]
+    },
+    "kali-gandaki-kowan": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kali Gandaki-Kowan"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "kaligandaki-upper": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kaligandaki Upper"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "lapche-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Lapche Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "likhu-1": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Likhu -1"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "likhu-2": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Likhu -2"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "likhu-khola-a": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Likhu Khola 'A'"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "likhu-4": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Likhu-4"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "lower-solu-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Lower Solu Hydropower Project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "madhya-bhotekoshi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Madhya Bhotekoshi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "marsyangdi-besi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Marsyangdi Besi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "mewa-khola-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Mewa Khola Hydropower project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "middle-tamor": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Middle Tamor"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "rasuwa-bhotekoshi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Rasuwa Bhotekoshi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "rasuwagadhi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Rasuwagadhi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "sanjen-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Sanjen Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "solu-khola-dudha-koshi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Solu Khola (Dudha Koshi)"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "super-trishuli": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Super Trishuli"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "tamakoshi-v": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Tamakoshi V"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "trishuli-galchhi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Trishuli Galchhi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-lapche-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Lapche Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-tamor": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Tamor"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-trishuli-3a": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Trishuli 3A"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "bheri-4": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Bheri 4"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "bheri-2-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Bheri-2 HEP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "chainpur-seti": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Chainpur Seti"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "humla-karnali-1-hpp": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Humla Karnali 1 HPP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "humla-karnali-2-hpp": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Humla Karnali 2 HPP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "jagdulla-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Jagdulla HEP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "lantang-khola-reservoir-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Lantang Khola Reservoir Hydropower Project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "tamor-storage": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Tamor Storage"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "ankhu-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Ankhu Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "bagmati-nadi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Bagmati Nadi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "balephi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Balephi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "dordi-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Dordi Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "durbang-myagdi-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Durbang Myagdi Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "kabeli-b-1": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kabeli B - 1"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "kabeli-a": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kabeli-A"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "kasuwa-khola-hpp": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kasuwa Khola HPP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "khani-khola-dolakha": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Khani Khola (Dolakha)"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "khani-khola-1": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Khani Khola - 1"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "khare-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Khare Hydropower Project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "khimti-ii": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Khimti II"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "lower-hewa": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Lower Hewa"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "lower-likhu": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Lower Likhu"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "lower-modi-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Lower Modi Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "mristi-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Mristi Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "nilgiri-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Nilgiri Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "nyadi-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Nyadi Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "rahughat": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Rahughat"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "rahughat-mangale": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Rahughat Mangale"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "sanjen": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Sanjen"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "singati-khola-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Singati Khola hydropower project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "solu-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Solu Hydropower Project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "super-dordi-kha-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Super Dordi Kha Hydropower Project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "super-madi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Super Madi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "super-nyadi-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Super Nyadi Hydropower Project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-balephi-a": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Balephi A"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-chaku-a": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Chaku A"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-dordi-a-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Dordi A HEP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-kalangad": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Kalangad"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-khudi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Khudi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-modi-a": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Modi A"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-myagdi": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Myagdi"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-nyasim-khola": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Nyasim Khola"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-trishuli-3b": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Trishuli 3B"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    }
+  },
+  "tours": {
+    "master-thesis": {
+      "title": "Master Thesis: Nepal is dispatch-poor, not resource-poor",
+      "steps": [
+        {
+          "page": "seasonal-mismatch",
+          "subtitle": "1. The hydrology delivers a monsoon pulse, not firm power.",
+          "layers_on": [
+            "country_outline",
+            "basin_polygons",
+            "basin_seasonality"
+          ],
+          "focus": {
+            "center": [
+              28.0,
+              84.0
+            ],
+            "zoom": 7
+          }
+        },
+        {
+          "page": "run-of-river-hydropower",
+          "subtitle": "2. The fleet is >90% run-of-river. It mirrors the hydrograph by design.",
+          "layers_on": [
+            "country_outline",
+            "tributaries",
+            "priority_watchlist"
+          ]
+        },
+        {
+          "page": "storage-deficit",
+          "subtitle": "3. There is almost no storage to reshape the year. 5 m³/capita vs 900 global.",
+          "layers_on": [
+            "country_outline",
+            "basin_polygons",
+            "storage_shortlist"
+          ]
+        },
+        {
+          "page": "claim-transmission-immediate-blocker",
+          "subtitle": "4. And the wires lag behind the megawatts. Spill is now a transmission story.",
+          "layers_on": [
+            "country_outline",
+            "transmission_traced",
+            "cross_border"
+          ]
+        },
+        {
+          "page": "claim-storage-physical-fix",
+          "subtitle": "5. Storage is the clearest physical answer. The shortlist already exists.",
+          "layers_on": [
+            "country_outline",
+            "basin_polygons",
+            "storage_shortlist"
+          ]
+        }
+      ]
+    }
+  }
+}

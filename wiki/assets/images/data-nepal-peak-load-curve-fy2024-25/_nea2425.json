@@ -1,0 +1,25 @@
+{
+  "slug": "data-nepal-peak-load-curve-fy2024-25",
+  "entries": [
+    {
+      "src": "data-nepal-peak-load-curve-fy2024-25/nea2425-p143-img01.png",
+      "filename": "nea2425-p143-img01.png",
+      "caption": "Annual System Peak Load Curve",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 143,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        74.9,
+        104.32,
+        548.93,
+        402.45
+      ],
+      "width": 1316,
+      "height": 828,
+      "fetched_at": 1776764007
+    }
+  ]
+}

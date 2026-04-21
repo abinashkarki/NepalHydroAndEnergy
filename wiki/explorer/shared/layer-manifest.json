@@ -1,0 +1,298 @@
+{
+  "_doc": "Map layer registry. Paths resolve relative to wiki/explorer/. All layers are sourced from data/processed/maps/ (single source of truth, no duplication).",
+  "layers": {
+    "country_outline": {
+      "path": "../../../data/processed/maps/nepal_country_outline.geojson",
+      "kind": "polygon",
+      "label": "Nepal outline",
+      "style": { "color": "#444", "weight": 1.2, "fillOpacity": 0.04, "fillColor": "#888" },
+      "interactive": false
+    },
+
+    "basin_polygons": {
+      "path": "../../../data/processed/maps/nepal_linked_basin_polygons.geojson",
+      "kind": "polygon",
+      "label": "Nepal-linked basin polygons",
+      "style": { "color": "#1d4ed8", "weight": 1.4, "fillOpacity": 0.10, "fillColor": "#3b82f6" },
+      "popup_fields": ["name", "upstream_area_km2", "nepal_share_pct", "monsoon_share_pct", "annual_discharge_m3s"],
+      "tooltip_fields": ["name", "nepal_share_pct"],
+      "card_fields": {
+        "title": "name",
+        "lead_template": "${nepal_share_pct}% Nepal · ${upstream_area_km2} km² basin",
+        "body": [
+          { "label": "Annual discharge", "field": "annual_discharge_m3s", "suffix": " m³/s" },
+          { "label": "Monsoon share",    "field": "monsoon_share_pct",    "suffix": "%" }
+        ]
+      }
+    },
+    "india_basins": {
+      "path": "../../../data/processed/maps/india_comparison_basin_polygons.geojson",
+      "kind": "polygon",
+      "label": "India comparison basins",
+      "style": { "color": "#b45309", "weight": 1.2, "fillOpacity": 0.06, "fillColor": "#f59e0b", "dashArray": "4,3" },
+      "popup_fields": ["name", "upstream_area_km2", "nepal_share_pct", "monsoon_share_pct", "annual_discharge_m3s"],
+      "tooltip_fields": ["name", "nepal_share_pct"]
+    },
+
+    "tributaries": {
+      "path": "../../../data/processed/maps/nepal_relevant_tributaries.geojson",
+      "kind": "line",
+      "label": "Nepal tributaries (HydroRIVERS)",
+      "style": { "color": "#0ea5e9", "weight": 1.6, "opacity": 0.85 },
+      "popup_fields": ["name", "basin", "wecs_mw", "note"],
+      "tooltip_fields": ["name", "basin"]
+    },
+    "downstream_systems": {
+      "path": "../../../data/processed/maps/nepal_origin_downstream_systems.geojson",
+      "kind": "line",
+      "label": "Nepal-origin downstream systems",
+      "style": { "color": "#1e40af", "weight": 2, "opacity": 0.9 },
+      "popup_fields": ["name", "downstream_name", "basin", "annual_discharge_m3s", "annual_runoff_bcm", "impact_note"],
+      "tooltip_fields": ["name", "downstream_name"]
+    },
+    "india_rivers": {
+      "path": "../../../data/processed/maps/india_reference_rivers.geojson",
+      "kind": "line",
+      "label": "India comparison rivers",
+      "style": { "color": "#94a3b8", "weight": 1.2, "opacity": 0.7, "dashArray": "1,3" },
+      "popup_fields": ["name", "display_name", "osm_type"],
+      "tooltip_fields": ["display_name"]
+    },
+    "hydrology_markers": {
+      "path": "../../../data/processed/maps/downstream_hydrology_markers.geojson",
+      "kind": "point",
+      "label": "Downstream impact markers",
+      "style": { "radius": 6, "color": "#92400e", "weight": 2, "fillColor": "#fbbf24", "fillOpacity": 0.85 },
+      "popup_fields": ["name", "basin", "annual_discharge_m3s", "annual_runoff_bcm", "monsoon_share_pct", "impact_note"],
+      "tooltip_fields": ["name", "annual_discharge_m3s"]
+    },
+    "callouts": {
+      "path": "../../../data/processed/maps/river_influence_callouts.geojson",
+      "kind": "point",
+      "label": "Origin / control callouts",
+      "style": { "radius": 5, "color": "#7f1d1d", "weight": 2, "fillColor": "#dc2626", "fillOpacity": 0.85 },
+      "popup_fields": ["name", "basin", "control_class", "nepal_share_pct", "monsoon_share_pct", "downstream_name"],
+      "tooltip_fields": ["name", "control_class"]
+    },
+
+    "hydropower_operating": {
+      "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
+      "kind": "point",
+      "label": "Hydropower · Operating (81)",
+      "filter": { "field": "license_type", "equals": "Operation" },
+      "aliases": ["hydropower_points"],
+      "tiered": true,
+      "style": {
+        "color": "#065f46", "weight": 1.5, "fillColor": "#10b981", "fillOpacity": 0.9,
+        "radius_field": "capacity_mw", "radius_min": 4, "radius_max": 16, "radius_scale": "sqrt"
+      },
+      "popup_fields": ["project", "license_type", "capacity_mw", "river", "district", "province"],
+      "tooltip_fields": ["project", "capacity_mw"],
+      "name_field": "project",
+      "card_fields": {
+        "title": "project",
+        "lead_template": "${capacity_mw} MW · operating · ${river}",
+        "body": [
+          { "label": "District", "field": "district" },
+          { "label": "Province", "field": "province" },
+          { "label": "Match basis", "field": "map_match_basis" }
+        ]
+      }
+    },
+    "hydropower_construction": {
+      "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
+      "kind": "point",
+      "label": "Hydropower · Construction (180)",
+      "filter": { "field": "license_type", "equals": "Generation" },
+      "aliases": ["hydropower_points"],
+      "tiered": true,
+      "style": {
+        "color": "#1e40af", "weight": 1.4, "fillColor": "#60a5fa", "fillOpacity": 0.55,
+        "radius_field": "capacity_mw", "radius_min": 3, "radius_max": 12, "radius_scale": "sqrt"
+      },
+      "popup_fields": ["project", "license_type", "capacity_mw", "river", "district", "province"],
+      "tooltip_fields": ["project", "capacity_mw"],
+      "name_field": "project",
+      "card_fields": {
+        "title": "project",
+        "lead_template": "${capacity_mw} MW · licensed to build · ${river}",
+        "body": [
+          { "label": "District", "field": "district" },
+          { "label": "Province", "field": "province" },
+          { "label": "Match basis", "field": "map_match_basis" }
+        ]
+      }
+    },
+    "hydropower_survey": {
+      "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
+      "kind": "point",
+      "label": "Hydropower · Survey/study (311)",
+      "filter": { "field": "license_type", "equals": "Survey" },
+      "aliases": ["hydropower_points"],
+      "tiered": true,
+      "style": {
+        "color": "#475569", "weight": 0.6, "fillColor": "#94a3b8", "fillOpacity": 0.45,
+        "radius_field": "capacity_mw", "radius_min": 2, "radius_max": 8, "radius_scale": "sqrt"
+      },
+      "popup_fields": ["project", "license_type", "capacity_mw", "river", "district", "province"],
+      "tooltip_fields": ["project", "capacity_mw"],
+      "name_field": "project",
+      "card_fields": {
+        "title": "project",
+        "lead_template": "${capacity_mw} MW · survey/study only · ${river}",
+        "body": [
+          { "label": "District", "field": "district" },
+          { "label": "Province", "field": "province" },
+          { "label": "Match basis", "field": "map_match_basis" }
+        ]
+      }
+    },
+    "priority_watchlist": {
+      "path": "../../../data/processed/maps/priority_project_watchlist.geojson",
+      "kind": "point",
+      "label": "Priority watchlist",
+      "style": { "radius": 7, "color": "#14532d", "weight": 2, "fillColor": "#22c55e", "fillOpacity": 0.85 },
+      "popup_fields": ["label_title", "label_subtitle", "river", "district", "priority_read"],
+      "tooltip_fields": ["label_title", "label_subtitle"],
+      "card_fields": {
+        "title": "label_title",
+        "lead_field": "label_subtitle",
+        "body": [
+          { "label": "River",    "field": "river" },
+          { "label": "District", "field": "district" },
+          { "label": "Why watch", "field": "priority_read" }
+        ]
+      }
+    },
+    "storage_shortlist": {
+      "path": "../../../data/processed/maps/storage_shortlist_annotations.geojson",
+      "kind": "point",
+      "label": "Storage shortlist",
+      "style": { "radius": 8, "color": "#581c87", "weight": 2, "fillColor": "#a855f7", "fillOpacity": 0.85 },
+      "popup_fields": ["label_title", "category", "basin", "installed_mw", "annual_energy_gwh", "dry_energy_gwh", "dry_share_pct"],
+      "tooltip_fields": ["label_title", "category"],
+      "card_fields": {
+        "title": "label_title",
+        "lead_template": "${installed_mw} MW · ${category} · ${basin}",
+        "body": [
+          { "label": "Annual energy", "field": "annual_energy_gwh", "suffix": " GWh" },
+          { "label": "Dry energy",    "field": "dry_energy_gwh",    "suffix": " GWh" },
+          { "label": "Dry share",     "field": "dry_share_pct",     "suffix": "%" }
+        ]
+      }
+    },
+    "top_capacity": {
+      "path": "../../../data/processed/maps/top_capacity_project_annotations.geojson",
+      "kind": "point",
+      "label": "Top-10 capacity projects",
+      "style": { "radius": 7, "color": "#1e3a8a", "weight": 2, "fillColor": "#2563eb", "fillOpacity": 0.85 },
+      "popup_fields": ["label_title", "label_subtitle", "river", "district", "license_type", "promoter"],
+      "tooltip_fields": ["label_title", "label_subtitle"],
+      "card_fields": {
+        "title": "label_title",
+        "lead_field": "label_subtitle",
+        "body": [
+          { "label": "River",    "field": "river" },
+          { "label": "District", "field": "district" },
+          { "label": "Licence",  "field": "license_type" },
+          { "label": "Promoter", "field": "promoter" }
+        ]
+      }
+    },
+
+    "transmission_corridors": {
+      "path": "../../../data/processed/maps/transmission_corridors.geojson",
+      "kind": "line",
+      "label": "Transmission corridors (curated)",
+      "style": { "color": "#7c2d12", "weight": 3, "dashArray": "6,4", "opacity": 0.85 },
+      "popup_fields": ["name", "voltage_kv", "status", "category", "importance"],
+      "tooltip_fields": ["name", "voltage_kv"],
+      "card_fields": {
+        "title": "short_label",
+        "lead_template": "${voltage_kv} kV · ${status} · ${category}",
+        "body": [
+          { "label": "Spine length", "field": "spine_length_km", "suffix": " km" },
+          { "label": "Importance",   "field": "importance" },
+          { "label": "Source",       "field": "source_note" }
+        ]
+      }
+    },
+    "transmission_traced": {
+      "path": "../../../data/processed/maps/transmission_corridor_traced_segments.geojson",
+      "kind": "line",
+      "aliases": ["transmission_corridors"],
+      "label": "Transmission corridors (traced)",
+      "style": { "color": "#9a3412", "weight": 2.5, "opacity": 0.9 },
+      "popup_fields": ["name", "voltage_kv", "status", "trace_confidence", "notes"],
+      "tooltip_fields": ["name", "voltage_kv"],
+      "card_fields": {
+        "title": "name",
+        "lead_template": "${voltage_kv} kV · ${status} · trace: ${trace_confidence}",
+        "body": [
+          { "label": "Segment", "field": "segment_name" },
+          { "label": "Notes",   "field": "notes" }
+        ]
+      }
+    },
+    "place_anchors": {
+      "path": "../../../data/processed/maps/place_anchor_index.geojson",
+      "kind": "point",
+      "label": "Grid hubs / place anchors",
+      "style": { "radius": 4, "color": "#1f2937", "weight": 1.5, "fillColor": "#9ca3af", "fillOpacity": 0.8 },
+      "popup_fields": ["label", "display_name", "basis"],
+      "tooltip_fields": ["label"]
+    },
+    "cross_border": {
+      "path": "../../../data/processed/maps/cross_border_interconnections.geojson",
+      "kind": "point",
+      "label": "Cross-border interconnections",
+      "style": { "radius": 8, "color": "#7f1d1d", "weight": 2, "fillColor": "#ef4444", "fillOpacity": 0.85 },
+      "popup_fields": ["name", "voltage_kv", "status", "nepal_node", "india_node", "timeline_note"],
+      "tooltip_fields": ["name", "status"],
+      "card_fields": {
+        "title": "name",
+        "lead_template": "${voltage_kv} kV · ${status}",
+        "body": [
+          { "label": "Nepal node",  "field": "nepal_node" },
+          { "label": "India node",  "field": "india_node" },
+          { "label": "Timeline",    "field": "timeline_note" }
+        ]
+      }
+    },
+
+    "basin_seasonality": {
+      "path": "../../../data/processed/maps/basin_seasonality_annotations.geojson",
+      "kind": "point",
+      "label": "Basin seasonality",
+      "style": { "radius": 6, "color": "#854d0e", "weight": 2, "fillColor": "#facc15", "fillOpacity": 0.85 },
+      "popup_fields": ["label_title", "label_subtitle", "annual_discharge_or_runoff", "monsoon_metric", "winter_metric", "dry_season_note"],
+      "tooltip_fields": ["label_title", "label_subtitle"]
+    }
+  },
+
+  "labels_overlay": [
+    { "layer": "tributaries",        "field": "name",            "tier": "river" },
+    { "layer": "downstream_systems", "field": "downstream_name", "tier": "river" },
+    { "layer": "india_rivers",       "field": "display_name",    "tier": "river-faint" },
+    { "layer": "basin_polygons",     "field": "name",            "tier": "basin" },
+    { "layer": "india_basins",       "field": "name",            "tier": "basin-faint" }
+  ],
+
+  "transmission_labels_overlay": [
+    {
+      "layer": "transmission_corridors",
+      "tier": "transmission",
+      "placement": "label_xy",
+      "dedupe": true,
+      "_format_template": "${short_label} · ${voltage_kv} kV"
+    },
+    {
+      "layer": "transmission_traced",
+      "tier": "transmission-faint",
+      "placement": "midpoint",
+      "dedupe": true,
+      "_skip_if_seen_in_corridors": true,
+      "_format_template": "${name}"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "uttarganga-storage-hydropower-project",
+  "entries": [
+    {
+      "src": "uttarganga-storage-hydropower-project/nea2077-p192-img01.png",
+      "filename": "nea2077-p192-img01.png",
+      "caption": "High level visit at the Project Site",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 192,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        310.65,
+        547.09,
+        502.81
+      ],
+      "width": 634,
+      "height": 533,
+      "fetched_at": 1776689208
+    },
+    {
+      "src": "uttarganga-storage-hydropower-project/nea2077-p193-img01.png",
+      "filename": "nea2077-p193-img01.png",
+      "caption": "Proposed Reservoir Area",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 193,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        71.49,
+        547.09,
+        365.67
+      ],
+      "width": 634,
+      "height": 817,
+      "fetched_at": 1776689208
+    }
+  ]
+}

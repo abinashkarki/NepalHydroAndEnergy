@@ -1,0 +1,25 @@
+{
+  "slug": "dudhkoshi-storage",
+  "entries": [
+    {
+      "src": "dudhkoshi-storage/nea2077-p113-img01.png",
+      "filename": "nea2077-p113-img01.png",
+      "caption": "Project area of Dudhkoshi Storage",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 113,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        70.87,
+        70.87,
+        299.06,
+        235.04
+      ],
+      "width": 634,
+      "height": 456,
+      "fetched_at": 1776686308
+    }
+  ]
+}

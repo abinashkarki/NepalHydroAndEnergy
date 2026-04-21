@@ -1,0 +1,45 @@
+{
+  "slug": "dhungesangu-basantapur-220-132kv",
+  "entries": [
+    {
+      "src": "dhungesangu-basantapur-220-132kv/nea2425-p032-img00.png",
+      "filename": "nea2425-p032-img00.png",
+      "caption": "Chilime Hub GIS SS day view.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 32,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        63.94,
+        62.36,
+        291.64,
+        234.18
+      ],
+      "width": 632,
+      "height": 477,
+      "fetched_at": 1776764002
+    },
+    {
+      "src": "dhungesangu-basantapur-220-132kv/nea2425-p032-img02.png",
+      "filename": "nea2425-p032-img02.png",
+      "caption": "KC-3: Transmission Line Stretch from Basantapur",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 32,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        304.43,
+        544.66,
+        532.13,
+        706.87
+      ],
+      "width": 632,
+      "height": 450,
+      "fetched_at": 1776764002
+    }
+  ]
+}

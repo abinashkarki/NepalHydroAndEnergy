@@ -1,0 +1,44 @@
+{
+  "slug": "dudhkoshi-storage",
+  "entries": [
+    {
+      "commons_title": "File:DudhKosiSuspensionBridge1.jpg",
+      "src": "dudhkoshi-storage/dudhkosisuspensionbridge1.jpg",
+      "filename": "dudhkosisuspensionbridge1.jpg",
+      "caption": "Bridge over river Dudh Kosi, between Phakding and Namche Bazar, Nepal 1992.",
+      "credit": "Albert Backer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADudhKosiSuspensionBridge1.jpg",
+      "width": 1585,
+      "height": 1738,
+      "fetched_at": 1776662650
+    },
+    {
+      "commons_title": "File:DudhKosiSuspensionBridge2.jpg",
+      "src": "dudhkoshi-storage/dudhkosisuspensionbridge2.jpg",
+      "filename": "dudhkosisuspensionbridge2.jpg",
+      "caption": "Suspension Bridge (Old Hillary Bridge) over river Dudhkoshi before the last ascent to Namche Bazar, Nepal 1992.",
+      "credit": "Albert Backer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADudhKosiSuspensionBridge2.jpg",
+      "width": 1600,
+      "height": 1881,
+      "fetched_at": 1776662652
+    },
+    {
+      "commons_title": "File:DudhKosi2WoodenBridge.jpg",
+      "src": "dudhkoshi-storage/dudhkosi2woodenbridge.jpg",
+      "filename": "dudhkosi2woodenbridge.jpg",
+      "caption": "Bridge over river Dudh Kosi, between Phakding and Namche Bazar, Nepal 1992",
+      "credit": "Albert Backer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADudhKosi2WoodenBridge.jpg",
+      "width": 2065,
+      "height": 1160,
+      "fetched_at": 1776662654
+    }
+  ]
+}

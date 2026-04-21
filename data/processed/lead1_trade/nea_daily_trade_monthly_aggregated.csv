@@ -1,0 +1,3 @@
+fiscal_year,bs_month,bs_month_name,fiscal_month_order,days_count,import_mwh,export_mwh,net_exchange_india_mwh,energy_interruption_mwh,generation_deficit_mwh,energy_requirement_mwh,max_daily_peak_import_mw,max_daily_peak_export_mw,max_daily_peak_requirement_mw
+2081_2082,8,Mangsir,5,13,27071,4414,22657,19635,0,443131,214,0,2001
+2081_2082,9,Poush,6,27,157010,110,156900,51710,0,987880,368,8,2091

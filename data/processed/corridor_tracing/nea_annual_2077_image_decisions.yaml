@@ -1,0 +1,1664 @@
+- page: 1
+  image_index: 0
+  action: new_node
+  target_slug: ""
+  proposed_slug: "nea2077-page-001"
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 1
+- page: 2
+  image_index: 0
+  action: new_node
+  target_slug: ""
+  proposed_slug: "inauguration-underground-cabling-kathmandu-valley-dhalkebar"
+  caption: "Inauguration of Underground Cabling in Kathmandu Valley Dhalkebar 400/220 kV Substation"
+  paragraph_anchor: ""
+  source_page: 2
+- page: 2
+  image_index: 1
+  action: new_node
+  target_slug: ""
+  proposed_slug: "inauguration-upper-trisuli-hydroelectric-project-bardaghat"
+  caption: "Inauguration of Upper Trisuli 3A Hydroelectric Project Bardaghat \u2013 Sardi 132 kV Transmission Line Tower Erection"
+  paragraph_anchor: ""
+  source_page: 2
+- page: 2
+  image_index: 2
+  action: new_node
+  target_slug: ""
+  proposed_slug: "inauguration-underground-cabling-kathmandu-valley-dhalkebar"
+  caption: "Inauguration of Underground Cabling in Kathmandu Valley Dhalkebar 400/220 kV Substation"
+  paragraph_anchor: ""
+  source_page: 2
+- page: 2
+  image_index: 3
+  action: new_node
+  target_slug: ""
+  proposed_slug: "inauguration-upper-trisuli-hydroelectric-project-bardaghat"
+  caption: "Inauguration of Upper Trisuli 3A Hydroelectric Project Bardaghat \u2013 Sardi 132 kV Transmission Line Tower Erection"
+  paragraph_anchor: ""
+  source_page: 2
+- page: 4
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 4
+- page: 5
+  image_index: 1
+  action: new_node
+  target_slug: ""
+  proposed_slug: "2019-2020-3nepal"
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 5
+- page: 6
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Nepal Electricity Authority 4 I"
+  paragraph_anchor: ""
+  source_page: 6
+- page: 7
+  image_index: 1
+  action: new_node
+  target_slug: ""
+  proposed_slug: "2019-2020-5nepal"
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 7
+- page: 10
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 10
+- page: 25
+  image_index: 1
+  action: filmstrip
+  target_slug: "data-mountain-hydro-comparison"
+  proposed_slug: ""
+  caption: "Repairing of Stay vanes"
+  paragraph_anchor: ""
+  source_page: 25
+- page: 25
+  image_index: 2
+  action: filmstrip
+  target_slug: "data-mountain-hydro-comparison"
+  proposed_slug: ""
+  caption: "Control Room Furnished with SCADA"
+  paragraph_anchor: ""
+  source_page: 25
+- page: 27
+  image_index: 1
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "studs of generator brake of Unit-1"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 27
+- page: 27
+  image_index: 2
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Radial Gates 2 and 3"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 27
+- page: 28
+  image_index: 1
+  action: inline_figure
+  target_slug: "upper-trishuli-3a"
+  proposed_slug: ""
+  caption: "Valve of Unit-2 Cooling Water System"
+  paragraph_anchor: "# Upper Trishuli 3A"
+  source_page: 28
+- page: 29
+  image_index: 1
+  action: inline_figure
+  target_slug: "kulekhani-cascade"
+  proposed_slug: ""
+  caption: "control house (remote)"
+  paragraph_anchor: "# Kulekhani Cascade"
+  source_page: 29
+- page: 30
+  image_index: 1
+  action: inline_figure
+  target_slug: "kulekhani-cascade"
+  proposed_slug: ""
+  caption: "Generator Floor"
+  paragraph_anchor: "| Plant | Capacity (MW) | Type | |-------|--------------|------| | Kulekhani I | 60 | Reservoir | | Kulekhani II | 32 | "
+  source_page: 30
+- page: 32
+  image_index: 1
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "Penstock"
+  paragraph_anchor: "# Trishuli"
+  source_page: 32
+- page: 33
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Welding of Francis Runner"
+  paragraph_anchor: ""
+  source_page: 33
+- page: 34
+  image_index: 1
+  action: filmstrip
+  target_slug: "claim-sediment-core-issue"
+  proposed_slug: ""
+  caption: "sensors, position indicators and mini MCR. servomotor and governor of unit no. 2"
+  paragraph_anchor: ""
+  source_page: 34
+- page: 34
+  image_index: 2
+  action: filmstrip
+  target_slug: "claim-sediment-core-issue"
+  proposed_slug: ""
+  caption: "High sand deposition at Intake"
+  paragraph_anchor: ""
+  source_page: 34
+- page: 35
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "GENERATION DIRECTORATE I FISCAL YEAR 2019/2020"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 35
+- page: 36
+  image_index: 1
+  action: filmstrip
+  target_slug: "wb-water-sector-diagnostic"
+  proposed_slug: ""
+  caption: "Power Transformer in the Switchyard"
+  paragraph_anchor: ""
+  source_page: 36
+- page: 36
+  image_index: 2
+  action: filmstrip
+  target_slug: "wb-water-sector-diagnostic"
+  proposed_slug: ""
+  caption: "New Control Room"
+  paragraph_anchor: ""
+  source_page: 36
+- page: 37
+  image_index: 1
+  action: filmstrip
+  target_slug: "claim-mw-not-equal-value"
+  proposed_slug: ""
+  caption: "Turbine Overhauling of unit no. 3"
+  paragraph_anchor: ""
+  source_page: 37
+- page: 37
+  image_index: 2
+  action: filmstrip
+  target_slug: "claim-mw-not-equal-value"
+  proposed_slug: ""
+  caption: "Turbine Floor"
+  paragraph_anchor: ""
+  source_page: 37
+- page: 38
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Insulation Testing of Generator of Unit-1."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 38
+- page: 39
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Machine Hall"
+  paragraph_anchor: ""
+  source_page: 39
+- page: 39
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Pharping Reservoir"
+  paragraph_anchor: ""
+  source_page: 39
+- page: 41
+  image_index: 1
+  action: filmstrip
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "Matatirtha terminal"
+  paragraph_anchor: ""
+  source_page: 41
+- page: 42
+  image_index: 1
+  action: filmstrip
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "Headpond Water Filling"
+  paragraph_anchor: ""
+  source_page: 42
+- page: 47
+  image_index: 1
+  action: inline_figure
+  target_slug: "mai"
+  proposed_slug: ""
+  caption: "2019."
+  paragraph_anchor: "22 MW \u00b7 operating \u00b7 on the Mai Khola \u00b7 in Ilam district."
+  source_page: 47
+- page: 48
+  image_index: 1
+  action: filmstrip
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: "proposed. because of the RoW problem."
+  paragraph_anchor: ""
+  source_page: 48
+- page: 50
+  image_index: 1
+  action: filmstrip
+  target_slug: "claim-systems-conversion-failure"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 50
+- page: 51
+  image_index: 1
+  action: filmstrip
+  target_slug: "upper-tamakoshi"
+  proposed_slug: ""
+  caption: "substation works will be completed on"
+  paragraph_anchor: ""
+  source_page: 51
+- page: 51
+  image_index: 2
+  action: filmstrip
+  target_slug: "upper-tamakoshi"
+  proposed_slug: ""
+  caption: "Under construction Garjyang substation 132 kV Transmission Tower"
+  paragraph_anchor: ""
+  source_page: 51
+- page: 52
+  image_index: 1
+  action: filmstrip
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: "New Modi substation"
+  paragraph_anchor: ""
+  source_page: 52
+- page: 52
+  image_index: 2
+  action: filmstrip
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: "New Modi, it is in final stage."
+  paragraph_anchor: ""
+  source_page: 52
+- page: 53
+  image_index: 1
+  action: filmstrip
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: "Covid-19 and local people obstructing workers"
+  paragraph_anchor: ""
+  source_page: 53
+- page: 55
+  image_index: 1
+  action: inline_figure
+  target_slug: "kataiya-kushaha-interconnection"
+  proposed_slug: ""
+  caption: "expected to reach site soon."
+  paragraph_anchor: "# Kataiya\u2013Kushaha 132 kV Interconnection"
+  source_page: 55
+- page: 56
+  image_index: 1
+  action: filmstrip
+  target_slug: "claim-systems-conversion-failure"
+  proposed_slug: ""
+  caption: "Nawalpur 132 kV SS"
+  paragraph_anchor: ""
+  source_page: 56
+- page: 57
+  image_index: 1
+  action: filmstrip
+  target_slug: "india-cbte-2018"
+  proposed_slug: ""
+  caption: "Detail Survey of Patan Suichatar 66 kV second section i.e. Surkhet-Dailekh 132 kV Transmission Line, Houses constructed in RoW"
+  paragraph_anchor: ""
+  source_page: 57
+- page: 60
+  image_index: 1
+  action: filmstrip
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "(KfW) & European Investment Bank (EIB)."
+  paragraph_anchor: ""
+  source_page: 60
+- page: 61
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 61
+- page: 62
+  image_index: 1
+  action: filmstrip
+  target_slug: "bangladesh-trade-route"
+  proposed_slug: ""
+  caption: "Stringing work under progress at Chitre, Dhankuta District."
+  paragraph_anchor: ""
+  source_page: 62
+- page: 62
+  image_index: 2
+  action: filmstrip
+  target_slug: "bangladesh-trade-route"
+  proposed_slug: ""
+  caption: "Constructional activities at Tumlingtar Substation"
+  paragraph_anchor: ""
+  source_page: 62
+- page: 63
+  image_index: 1
+  action: filmstrip
+  target_slug: "claim-systems-conversion-failure"
+  proposed_slug: ""
+  caption: "Foundation of Control Room Building under progress at Dhungesanghu Substation"
+  paragraph_anchor: ""
+  source_page: 63
+- page: 63
+  image_index: 2
+  action: filmstrip
+  target_slug: "claim-systems-conversion-failure"
+  proposed_slug: ""
+  caption: "TRANSMISSION DIRECTORATE I FISCAL YEAR 2019/2020"
+  paragraph_anchor: ""
+  source_page: 63
+- page: 63
+  image_index: 3
+  action: filmstrip
+  target_slug: "claim-systems-conversion-failure"
+  proposed_slug: ""
+  caption: "Tower Erection under progress in Basantapur-"
+  paragraph_anchor: ""
+  source_page: 63
+- page: 64
+  image_index: 1
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "for Damauli substation."
+  paragraph_anchor: "# Trishuli"
+  source_page: 64
+- page: 65
+  image_index: 1
+  action: filmstrip
+  target_slug: "dhalkebar-muzaffarpur"
+  proposed_slug: ""
+  caption: "Under-constructing Trishuli 3B Hub Substation"
+  paragraph_anchor: ""
+  source_page: 65
+- page: 66
+  image_index: 1
+  action: filmstrip
+  target_slug: "hetauda-dhalkebar-inaruwa-backbone"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 66
+- page: 66
+  image_index: 2
+  action: filmstrip
+  target_slug: "hetauda-dhalkebar-inaruwa-backbone"
+  proposed_slug: ""
+  caption: "400 kV GIS Hall at Dhalkebar"
+  paragraph_anchor: ""
+  source_page: 66
+- page: 67
+  image_index: 1
+  action: inline_figure
+  target_slug: "rasuwagadhi"
+  proposed_slug: ""
+  caption: "Joint Technical Group (JTG) meeting between"
+  paragraph_anchor: "# Rasuwagadhi"
+  source_page: 67
+- page: 69
+  image_index: 1
+  action: inline_figure
+  target_slug: "hetauda-dhalkebar-inaruwa-backbone"
+  proposed_slug: ""
+  caption: "220 kV Substation at Dhalkebar"
+  paragraph_anchor: "# Hetauda\u2013Dhalkebar\u2013Inaruwa 400 kV Backbone"
+  source_page: 69
+- page: 72
+  image_index: 1
+  action: filmstrip
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 72
+- page: 72
+  image_index: 2
+  action: filmstrip
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Total Energy Contribution"
+  paragraph_anchor: ""
+  source_page: 72
+- page: 74
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "main load dispatch Centre."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 74
+- page: 74
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "During inauguration of main LDC"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 74
+- page: 75
+  image_index: 1
+  action: filmstrip
+  target_slug: "dhalkebar-muzaffarpur"
+  proposed_slug: ""
+  caption: "others) were tested."
+  paragraph_anchor: ""
+  source_page: 75
+- page: 75
+  image_index: 2
+  action: filmstrip
+  target_slug: "dhalkebar-muzaffarpur"
+  proposed_slug: ""
+  caption: "Cross Arm Maintenance works"
+  paragraph_anchor: ""
+  source_page: 75
+- page: 76
+  image_index: 1
+  action: filmstrip
+  target_slug: "claim-mw-not-equal-value"
+  proposed_slug: ""
+  caption: "conductor near Simara Kaligandaki Syangja 132 kV section"
+  paragraph_anchor: ""
+  source_page: 76
+- page: 76
+  image_index: 2
+  action: filmstrip
+  target_slug: "claim-mw-not-equal-value"
+  proposed_slug: ""
+  caption: "Repairing work of broken strands of Landslide near Tower no.31 in"
+  paragraph_anchor: ""
+  source_page: 76
+- page: 79
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Awareness program to school students"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 79
+- page: 80
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Oil Filtration for installation of 33/11 kV, 20/24"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 80
+- page: 81
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "this year despite Covid 19 pandemic."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 81
+- page: 81
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Initiation of One Door System for assistance to"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 81
+- page: 81
+  image_index: 3
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Queue management System using token at Surkhet Distribution Centre"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 81
+- page: 84
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "between meter and system is GPRS."
+  paragraph_anchor: ""
+  source_page: 84
+- page: 85
+  image_index: 1
+  action: filmstrip
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: "2021. other social issues identified after earthquake."
+  paragraph_anchor: ""
+  source_page: 85
+- page: 86
+  image_index: 1
+  action: filmstrip
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 86
+- page: 87
+  image_index: 1
+  action: inline_figure
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: "11 kV outgoing feeder from Bhalche Substation to neighborhood areas"
+  paragraph_anchor: "# Domestic Electricity Demand Distribution"
+  source_page: 87
+- page: 89
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Transformer Testing Lab at Kohlapur, Banke"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 89
+- page: 90
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "caused by COVID-19 virus."
+  paragraph_anchor: ""
+  source_page: 90
+- page: 91
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "carried out for other locations."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 91
+- page: 93
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "line & Sub-station Project"
+  paragraph_anchor: ""
+  source_page: 93
+- page: 94
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 94
+- page: 95
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Inauguration of Billing Counter at Dhunkharka by Bagmati Provisional Director"
+  paragraph_anchor: ""
+  source_page: 95
+- page: 95
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "33/11 kV, 3 MVA Jhakale Substation at Bush Cutting activities under Kuleshor"
+  paragraph_anchor: ""
+  source_page: 95
+- page: 95
+  image_index: 3
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Achham Distribution Center"
+  paragraph_anchor: ""
+  source_page: 95
+- page: 96
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Agreement between Panchkhal Mayor and DCS Chief regarding Wooden Pole"
+  paragraph_anchor: ""
+  source_page: 96
+- page: 96
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Maintenance of burnt transformers at"
+  paragraph_anchor: ""
+  source_page: 96
+- page: 96
+  image_index: 3
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Electricity Bill Payment by Karjanha"
+  paragraph_anchor: ""
+  source_page: 96
+- page: 96
+  image_index: 4
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Replacement of non-standard and damaged wooden poles from 11 kV Line within"
+  paragraph_anchor: ""
+  source_page: 96
+- page: 97
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Tower Erection for 33 kV Line from Kamane to"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 97
+- page: 97
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Transmission Line and Substation Project"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 97
+- page: 98
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Construction of Cable Trench for cabling works during substation construction"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 98
+- page: 98
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Substation Project"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 98
+- page: 99
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Line & Substation Project"
+  paragraph_anchor: ""
+  source_page: 99
+- page: 113
+  image_index: 1
+  action: inline_figure
+  target_slug: "dudhkoshi-storage"
+  proposed_slug: ""
+  caption: "Project area of Dudhkoshi Storage"
+  paragraph_anchor: "# Dudhkoshi Storage Hydroelectric Project"
+  source_page: 113
+- page: 113
+  image_index: 2
+  action: inline_figure
+  target_slug: "dudhkoshi-storage"
+  proposed_slug: ""
+  caption: "Hydroelectric Project"
+  paragraph_anchor: "# Dudhkoshi Storage Hydroelectric Project"
+  source_page: 113
+- page: 114
+  image_index: 1
+  action: inline_figure
+  target_slug: "dudhkoshi-storage"
+  proposed_slug: ""
+  caption: "Public Hearing of EIA Report at Rabuwa"
+  paragraph_anchor: "# Dudhkoshi Storage Hydroelectric Project"
+  source_page: 114
+- page: 115
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "priority project after a detailed final design is is expected to complete by end of 2020."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 115
+- page: 115
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 115
+- page: 116
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Project Location"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 116
+- page: 117
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 117
+- page: 118
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Some 3D model snaps are below:"
+  paragraph_anchor: ""
+  source_page: 118
+- page: 118
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Proposed Underground Powerhouse 3D Model"
+  paragraph_anchor: ""
+  source_page: 118
+- page: 120
+  image_index: 1
+  action: filmstrip
+  target_slug: "kali-gandaki-a"
+  proposed_slug: ""
+  caption: "Modi Jalvidyut Company from this fiscal year."
+  paragraph_anchor: ""
+  source_page: 120
+- page: 120
+  image_index: 2
+  action: filmstrip
+  target_slug: "kali-gandaki-a"
+  proposed_slug: ""
+  caption: "Proposed Camp Layout"
+  paragraph_anchor: ""
+  source_page: 120
+- page: 121
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "document preparation of this project."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 121
+- page: 121
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "I FISCAL YEAR 2019/2020 ENGINEERING SERVICES DIRECTORATE"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 121
+- page: 121
+  image_index: 3
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 121
+- page: 121
+  image_index: 4
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Drill Hole Location at Powerhouse Site"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 121
+- page: 122
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "of the new by-laws. But the Kathmandu Valley Building from F/Y 2077/078."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 122
+- page: 123
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Proposed Office Building at Bhagwanpau"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 123
+- page: 123
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Proposed office building at Lainchaur"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 123
+- page: 124
+  image_index: 1
+  action: inline_figure
+  target_slug: "chainpur-seti"
+  proposed_slug: ""
+  caption: "Powerhouse Area of Chainpur Seti"
+  paragraph_anchor: "# Chainpur Seti"
+  source_page: 124
+- page: 125
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "headworks, steel lined pressure tunnel,"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 125
+- page: 129
+  image_index: 1
+  action: filmstrip
+  target_slug: "chainpur-seti"
+  proposed_slug: ""
+  caption: "SD/ToR approved by MoFE"
+  paragraph_anchor: ""
+  source_page: 129
+- page: 129
+  image_index: 2
+  action: filmstrip
+  target_slug: "chainpur-seti"
+  proposed_slug: ""
+  caption: "Public hearing of Ghorahi Madichaur 132kV"
+  paragraph_anchor: ""
+  source_page: 129
+- page: 131
+  image_index: 1
+  action: filmstrip
+  target_slug: "dana-kushma-butwal-corridor"
+  proposed_slug: ""
+  caption: "each at Rautahat and Saptari."
+  paragraph_anchor: ""
+  source_page: 131
+- page: 131
+  image_index: 2
+  action: filmstrip
+  target_slug: "dana-kushma-butwal-corridor"
+  proposed_slug: ""
+  caption: "On-site Awareness Training at Rautahat"
+  paragraph_anchor: ""
+  source_page: 131
+- page: 132
+  image_index: 1
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "affected families."
+  paragraph_anchor: "# Chilime"
+  source_page: 132
+- page: 132
+  image_index: 2
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "Participants of Five Days Agriculture Training at Rasuwa"
+  paragraph_anchor: "# Chilime"
+  source_page: 132
+- page: 132
+  image_index: 3
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "at Rasuwa"
+  paragraph_anchor: "# Chilime"
+  source_page: 132
+- page: 133
+  image_index: 1
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Trishuli"
+  source_page: 133
+- page: 133
+  image_index: 2
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "Participants of Driving Training and House"
+  paragraph_anchor: "# Trishuli"
+  source_page: 133
+- page: 133
+  image_index: 3
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "near to project site."
+  paragraph_anchor: "# Trishuli"
+  source_page: 133
+- page: 133
+  image_index: 4
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "Organization at Bardibas, Mahottari."
+  paragraph_anchor: "# Trishuli"
+  source_page: 133
+- page: 134
+  image_index: 1
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Project fiscal year."
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 134
+- page: 134
+  image_index: 2
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Construction of Shade at Phulbari Ghat, River bank protection at Gaidakot, Nawalpur"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 134
+- page: 134
+  image_index: 3
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "people coming in nearby cremation areas."
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 134
+- page: 135
+  image_index: 1
+  action: filmstrip
+  target_slug: "phukot-karnali"
+  proposed_slug: ""
+  caption: "Handing over computer and projector to works as assigned by the Client. Aadarsha Primary School, Parbat"
+  paragraph_anchor: ""
+  source_page: 135
+- page: 137
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Seismic Refraction survey at Upper Arun HEP"
+  paragraph_anchor: ""
+  source_page: 137
+- page: 137
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Consultancy Pvt. Ltd."
+  paragraph_anchor: ""
+  source_page: 137
+- page: 137
+  image_index: 3
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Seismic Refraction survey at Upper Arun HEP"
+  paragraph_anchor: ""
+  source_page: 137
+- page: 137
+  image_index: 4
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Laboratory tests on core sample"
+  paragraph_anchor: ""
+  source_page: 137
+- page: 139
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Maintenance of Distribution Transformer Inside Transformer Workshop"
+  paragraph_anchor: ""
+  source_page: 139
+- page: 139
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "of power system, the workshop has been striving to its best, using its available resources to meet"
+  paragraph_anchor: ""
+  source_page: 139
+- page: 139
+  image_index: 3
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Winding of Power Transformer Tanking Power Transformer"
+  paragraph_anchor: ""
+  source_page: 139
+- page: 139
+  image_index: 4
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 139
+- page: 144
+  image_index: 1
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "2021. stage of manufacturing completion."
+  paragraph_anchor: "# Trishuli"
+  source_page: 144
+- page: 144
+  image_index: 2
+  action: inline_figure
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "Samundratar 132/33 kV Substation"
+  paragraph_anchor: "# Trishuli"
+  source_page: 144
+- page: 145
+  image_index: 1
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Tower Foundation work in progress: Udipur -"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 145
+- page: 146
+  image_index: 1
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Marsyangdi - Kathmandu 220 kV Transmission Line"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 146
+- page: 146
+  image_index: 2
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "(Dana - Kushma - New Butwal)."
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 146
+- page: 147
+  image_index: 1
+  action: filmstrip
+  target_slug: "dana-kushma-butwal-corridor"
+  proposed_slug: ""
+  caption: "220 kV Kushma Substation"
+  paragraph_anchor: ""
+  source_page: 147
+- page: 147
+  image_index: 2
+  action: filmstrip
+  target_slug: "dana-kushma-butwal-corridor"
+  proposed_slug: ""
+  caption: "be commissioned by December 2020."
+  paragraph_anchor: ""
+  source_page: 147
+- page: 148
+  image_index: 1
+  action: filmstrip
+  target_slug: "nepal-transmission-landscape-2025"
+  proposed_slug: ""
+  caption: "enhanced distribution capacity."
+  paragraph_anchor: ""
+  source_page: 148
+- page: 148
+  image_index: 2
+  action: filmstrip
+  target_slug: "nepal-transmission-landscape-2025"
+  proposed_slug: ""
+  caption: "new substations, 181 km of 33 kV line, 147"
+  paragraph_anchor: ""
+  source_page: 148
+- page: 149
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "end of 2020."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 149
+- page: 151
+  image_index: 1
+  action: inline_figure
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: "nos. of and RMU installation."
+  paragraph_anchor: "# Domestic Electricity Demand Distribution"
+  source_page: 151
+- page: 152
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "is expected to be completed by middle of 2022."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 152
+- page: 152
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Data Centre construction at IT Department premises"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 152
+- page: 155
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "11 kV and low voltage lines."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 155
+- page: 162
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "NEA ENGINEERING COMPANY LTD."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 162
+- page: 164
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea-annual-report-fy2024-25"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 164
+- page: 173
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "DB/DC Type Towers at the Contractor\u2019s testing the Contract."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 173
+- page: 173
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "the tunnel portal."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 173
+- page: 173
+  image_index: 3
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Conductor, Earthwire and Insulators to the site."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 173
+- page: 174
+  image_index: 1
+  action: filmstrip
+  target_slug: "national-water-plan-nepal"
+  proposed_slug: ""
+  caption: "of PGA values as determined in the Seismic"
+  paragraph_anchor: ""
+  source_page: 174
+- page: 176
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "9th Site Visit by NEA MD Kulman Ghising on"
+  paragraph_anchor: ""
+  source_page: 176
+- page: 176
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "March 2020"
+  paragraph_anchor: ""
+  source_page: 176
+- page: 176
+  image_index: 3
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Work in Progress in Power House"
+  paragraph_anchor: ""
+  source_page: 176
+- page: 177
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Work in Progress in Surge Shaft"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 177
+- page: 177
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Work in Progress in Permanent Bridge"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 177
+- page: 177
+  image_index: 3
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Signing ceremony of Contract Agreement for"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 177
+- page: 177
+  image_index: 4
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "by the public"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 177
+- page: 177
+  image_index: 5
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Chilime Hydroelectric Plant"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 177
+- page: 179
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "been working from the site office."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 179
+- page: 179
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Lot 1: Civil and Hydro-Mechanical Works"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 179
+- page: 179
+  image_index: 3
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "ongoing."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 179
+- page: 179
+  image_index: 4
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Nepal Electricity Authority I 177"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 179
+- page: 180
+  image_index: 1
+  action: filmstrip
+  target_slug: "claim-domestic-led-strategy"
+  proposed_slug: ""
+  caption: "ongoing with full section lining."
+  paragraph_anchor: ""
+  source_page: 180
+- page: 180
+  image_index: 2
+  action: filmstrip
+  target_slug: "claim-domestic-led-strategy"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 180
+- page: 180
+  image_index: 3
+  action: filmstrip
+  target_slug: "claim-domestic-led-strategy"
+  proposed_slug: ""
+  caption: "Nepal Electricity Authority 178 I"
+  paragraph_anchor: ""
+  source_page: 180
+- page: 180
+  image_index: 4
+  action: filmstrip
+  target_slug: "claim-domestic-led-strategy"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 180
+- page: 181
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "(SUHEP) - 14.8 MW"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 181
+- page: 181
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "SUHEP Headworks & Powerhouse"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 181
+- page: 182
+  image_index: 1
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "contractor home country China."
+  paragraph_anchor: "# Chilime"
+  source_page: 182
+- page: 182
+  image_index: 2
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "HEP Headworks & Powerhouse"
+  paragraph_anchor: "# Chilime"
+  source_page: 182
+- page: 183
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "I FISCAL YEAR 2019/2020 NEA'S SUBSIDIARY & ASSOCIATE COMPANIES"
+  paragraph_anchor: ""
+  source_page: 183
+- page: 183
+  image_index: 2
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Excavation and Support of Surge Tank"
+  paragraph_anchor: ""
+  source_page: 183
+- page: 183
+  image_index: 3
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Reinforcement placement in Powerhouse"
+  paragraph_anchor: ""
+  source_page: 183
+- page: 184
+  image_index: 1
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Chilime"
+  source_page: 184
+- page: 184
+  image_index: 2
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "Under construction powerhouse filled with the water and debris during the flood."
+  paragraph_anchor: "# Chilime"
+  source_page: 184
+- page: 184
+  image_index: 3
+  action: inline_figure
+  target_slug: "chilime"
+  proposed_slug: ""
+  caption: "Structures during the flood in headworks, area."
+  paragraph_anchor: "# Chilime"
+  source_page: 184
+- page: 188
+  image_index: 1
+  action: filmstrip
+  target_slug: "claim-domestic-led-strategy"
+  proposed_slug: ""
+  caption: "installation has been completed."
+  paragraph_anchor: ""
+  source_page: 188
+- page: 188
+  image_index: 2
+  action: filmstrip
+  target_slug: "claim-domestic-led-strategy"
+  proposed_slug: ""
+  caption: "the preceding fiscal year."
+  paragraph_anchor: ""
+  source_page: 188
+- page: 188
+  image_index: 3
+  action: filmstrip
+  target_slug: "claim-domestic-led-strategy"
+  proposed_slug: ""
+  caption: "runner is underway."
+  paragraph_anchor: ""
+  source_page: 188
+- page: 190
+  image_index: 1
+  action: inline_figure
+  target_slug: "upper-tamakoshi"
+  proposed_slug: ""
+  caption: "Overall Project Layout"
+  paragraph_anchor: "# Upper Tamakoshi"
+  source_page: 190
+- page: 191
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Interconnection System"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 191
+- page: 191
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Layout of Permanent Camp"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 191
+- page: 192
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "fiscal year 2078/79."
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 192
+- page: 193
+  image_index: 1
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "(Proposed Reservoir Area)"
+  paragraph_anchor: ""
+  source_page: 193
+- page: 199
+  image_index: 1
+  action: filmstrip
+  target_slug: "nepal-energy-profile"
+  proposed_slug: ""
+  caption: "Water pump operating with direct hooking"
+  paragraph_anchor: ""
+  source_page: 199
+- page: 199
+  image_index: 2
+  action: filmstrip
+  target_slug: "nepal-energy-profile"
+  proposed_slug: ""
+  caption: "found in Kalaiya DCS"
+  paragraph_anchor: ""
+  source_page: 199
+- page: 200
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 200
+- page: 200
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Single phase meter bypass CT operated electromechanical meter found in Kabhre DCS found in Janakpur DCS (PT outage )"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 200
+- page: 222
+  image_index: 1
+  action: filmstrip
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "Thermal Internal Sales Export System Loss Self Consumption 82.96% Hydro 22% 0% Purchase India SALES (FY 2019/20)"
+  paragraph_anchor: ""
+  source_page: 222
+- page: 222
+  image_index: 5
+  action: filmstrip
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "0.62% Commercial Industrial Others Export Domestic Non-Commercial 9.61%"
+  paragraph_anchor: ""
+  source_page: 222
+- page: 222
+  image_index: 25
+  action: filmstrip
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "15.27% AVAILABILITY OF ENGERGY (FY 2019/20) Statistics & Schematics"
+  paragraph_anchor: ""
+  source_page: 222
+- page: 222
+  image_index: 31
+  action: filmstrip
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "Hydro 0% Thermal Internal Sales Export System Loss Self Consumption 82.96% Hydro 22% 0% Purchase India SALES (FY 2019/20)"
+  paragraph_anchor: ""
+  source_page: 222
+- page: 222
+  image_index: 60
+  action: filmstrip
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "4.09% 4.09% 0.62% 0.62% 8.84%"
+  paragraph_anchor: ""
+  source_page: 222
+- page: 222
+  image_index: 63
+  action: filmstrip
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "4.09% 4.09% 0.62% 0.62% 8.84%"
+  paragraph_anchor: ""
+  source_page: 222
+- page: 229
+  image_index: 1
+  action: filmstrip
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 229
+- page: 229
+  image_index: 2
+  action: filmstrip
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 229
+- page: 230
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "(Jan 12,2020)"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 230
+- page: 230
+  image_index: 2
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "1500 1400 1300 1200 1100"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 230
+- page: 231
+  image_index: 1
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "900"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 231
+- page: 232
+  image_index: 1
+  action: inline_figure
+  target_slug: "india-energy-relationship"
+  proposed_slug: ""
+  caption: "Energy Balance (GWh) in FY 2076/77 (2019/20)"
+  paragraph_anchor: "# India \u2014 Energy Relationship with Nepal"
+  source_page: 232
+- page: 233
+  image_index: 1
+  action: filmstrip
+  target_slug: "data-domestic-demand"
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 233
+- page: 266
+  image_index: 0
+  action: new_node
+  target_slug: ""
+  proposed_slug: "inauguration-underground-cabling-kathmandu-valley-dhalkebar"
+  caption: "Inauguration of Underground Cabling in Kathmandu Valley Dhalkebar 400/220 kV Substation"
+  paragraph_anchor: ""
+  source_page: 266
+- page: 266
+  image_index: 1
+  action: new_node
+  target_slug: ""
+  proposed_slug: "inauguration-upper-trisuli-hydroelectric-project-bardaghat"
+  caption: "Inauguration of Upper Trisuli 3A Hydroelectric Project Bardaghat \u2013 Sardi 132 kV Transmission Line Tower Erection"
+  paragraph_anchor: ""
+  source_page: 266
+- page: 266
+  image_index: 2
+  action: new_node
+  target_slug: ""
+  proposed_slug: "inauguration-underground-cabling-kathmandu-valley-dhalkebar"
+  caption: "Inauguration of Underground Cabling in Kathmandu Valley Dhalkebar 400/220 kV Substation"
+  paragraph_anchor: ""
+  source_page: 266
+- page: 266
+  image_index: 3
+  action: new_node
+  target_slug: ""
+  proposed_slug: "inauguration-upper-trisuli-hydroelectric-project-bardaghat"
+  caption: "Inauguration of Upper Trisuli 3A Hydroelectric Project Bardaghat \u2013 Sardi 132 kV Transmission Line Tower Erection"
+  paragraph_anchor: ""
+  source_page: 266
+- page: 267
+  image_index: 0
+  action: new_node
+  target_slug: ""
+  proposed_slug: "nea2077-page-267"
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 267

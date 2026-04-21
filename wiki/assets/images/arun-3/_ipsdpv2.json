@@ -1,0 +1,25 @@
+{
+  "slug": "arun-3",
+  "entries": [
+    {
+      "src": "arun-3/ipsdpv2-p281-img00.png",
+      "filename": "ipsdpv2-p281-img00.png",
+      "caption": "Figure 6.3-25 River Longitudinal Profile of the Arun River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 281,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        86.3,
+        270.49,
+        537.6,
+        564.69
+      ],
+      "width": 1254,
+      "height": 817,
+      "fetched_at": 1776768028
+    }
+  ]
+}

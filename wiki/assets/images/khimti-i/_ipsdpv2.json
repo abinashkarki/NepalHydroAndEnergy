@@ -1,0 +1,25 @@
+{
+  "slug": "khimti-i",
+  "entries": [
+    {
+      "src": "khimti-i/ipsdpv2-p278-img00.png",
+      "filename": "ipsdpv2-p278-img00.png",
+      "caption": "Figure 6.3-22 River Longitudinal Profile of the Tamakoshi and Khimiti River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 278,
+      "image_index": 0,
+      "action": "filmstrip",
+      "bbox": [
+        57.5,
+        79.35,
+        508.8,
+        373.9
+      ],
+      "width": 1254,
+      "height": 818,
+      "fetched_at": 1776768028
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "india-energy-relationship",
+  "entries": [
+    {
+      "src": "india-energy-relationship/nea2077-p060-img01.png",
+      "filename": "nea2077-p060-img01.png",
+      "caption": "(KfW) & European Investment Bank (EIB).",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 60,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        204.1,
+        299.06,
+        373.37
+      ],
+      "width": 634,
+      "height": 470,
+      "fetched_at": 1776686298
+    },
+    {
+      "src": "india-energy-relationship/nea2077-p222-img01.png",
+      "filename": "nea2077-p222-img01.png",
+      "caption": "Thermal Internal Sales Export System Loss Self Consumption 82.96% Hydro 22% 0% Purchase India SALES (FY 2019/20)",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 222,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        95.53,
+        218.16,
+        291.02,
+        311.99
+      ],
+      "width": 543,
+      "height": 260,
+      "fetched_at": 1776686330
+    },
+    {
+      "src": "india-energy-relationship/nea2077-p222-img05.png",
+      "filename": "nea2077-p222-img05.png",
+      "caption": "0.62% Commercial Industrial Others Export Domestic Non-Commercial 9.61%",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 222,
+      "image_index": 5,
+      "action": "filmstrip",
+      "bbox": [
+        63.16,
+        351.85,
+        299.66,
+        525.8
+      ],
+      "width": 657,
+      "height": 483,
+      "fetched_at": 1776686330
+    },
+    {
+      "src": "india-energy-relationship/nea2077-p222-img25.png",
+      "filename": "nea2077-p222-img25.png",
+      "caption": "15.27% AVAILABILITY OF ENGERGY (FY 2019/20) Statistics & Schematics",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 222,
+      "image_index": 25,
+      "action": "filmstrip",
+      "bbox": [
+        98.65,
+        145.92,
+        308.35,
+        248.08
+      ],
+      "width": 582,
+      "height": 283,
+      "fetched_at": 1776686330
+    },
+    {
+      "src": "india-energy-relationship/nea2077-p222-img31.png",
+      "filename": "nea2077-p222-img31.png",
+      "caption": "Hydro 0% Thermal Internal Sales Export System Loss Self Consumption 82.96% Hydro 22% 0% Purchase India SALES (FY 2019/20)",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 222,
+      "image_index": 31,
+      "action": "filmstrip",
+      "bbox": [
+        59.74,
+        317.29,
+        293.11,
+        491.53
+      ],
+      "width": 648,
+      "height": 484,
+      "fetched_at": 1776686331
+    },
+    {
+      "src": "india-energy-relationship/nea2077-p222-img60.png",
+      "filename": "nea2077-p222-img60.png",
+      "caption": "4.09% 4.09% 0.62% 0.62% 8.84%",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 222,
+      "image_index": 60,
+      "action": "filmstrip",
+      "bbox": [
+        325.0,
+        580.82,
+        507.26,
+        688.48
+      ],
+      "width": 506,
+      "height": 299,
+      "fetched_at": 1776686331
+    },
+    {
+      "src": "india-energy-relationship/nea2077-p222-img63.png",
+      "filename": "nea2077-p222-img63.png",
+      "caption": "4.09% 4.09% 0.62% 0.62% 8.84%",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 222,
+      "image_index": 63,
+      "action": "filmstrip",
+      "bbox": [
+        345.31,
+        580.32,
+        528.55,
+        686.96
+      ],
+      "width": 509,
+      "height": 296,
+      "fetched_at": 1776686331
+    },
+    {
+      "src": "india-energy-relationship/nea2077-p232-img01.png",
+      "filename": "nea2077-p232-img01.png",
+      "caption": "Energy Balance (GWh) in FY 2076/77 (2019/20)",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 232,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        75.86,
+        174.11,
+        547.1,
+        459.11
+      ],
+      "width": 1309,
+      "height": 791,
+      "fetched_at": 1776686333
+    }
+  ]
+}

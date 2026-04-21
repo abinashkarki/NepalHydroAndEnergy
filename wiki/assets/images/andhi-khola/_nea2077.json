@@ -1,0 +1,45 @@
+{
+  "slug": "andhi-khola",
+  "entries": [
+    {
+      "src": "andhi-khola/nea2077-p025-img01.png",
+      "filename": "nea2077-p025-img01.png",
+      "caption": "Repairing of Stay vanes",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 25,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        136.77,
+        299.06,
+        394.66
+      ],
+      "width": 634,
+      "height": 716,
+      "fetched_at": 1776689187
+    },
+    {
+      "src": "andhi-khola/nea2077-p025-img02.png",
+      "filename": "nea2077-p025-img02.png",
+      "caption": "Control Room Furnished with SCADA",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 25,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        319.1,
+        356.32,
+        547.28,
+        564.74
+      ],
+      "width": 634,
+      "height": 579,
+      "fetched_at": 1776689187
+    }
+  ]
+}

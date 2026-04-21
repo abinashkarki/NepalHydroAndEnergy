@@ -1,0 +1,25 @@
+{
+  "slug": "chameliya-khola",
+  "entries": [
+    {
+      "src": "chameliya-khola/ipsdpv2-p284-img00.png",
+      "filename": "ipsdpv2-p284-img00.png",
+      "caption": "Figure 6.3-28 River Longitudinal Profile of the Chameliya River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 284,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        57.5,
+        286.79,
+        508.8,
+        579.74
+      ],
+      "width": 1254,
+      "height": 814,
+      "fetched_at": 1776768029
+    }
+  ]
+}

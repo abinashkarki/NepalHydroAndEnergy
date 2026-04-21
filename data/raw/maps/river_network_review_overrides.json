@@ -1,0 +1,139 @@
+{
+  "koshi_main": {
+    "review_status": "pass",
+    "note": "Manual review: connected main stem aligned with the named Koshi trunk."
+  },
+  "tamor": {
+    "review_status": "pass",
+    "note": "Manual review: continuous eastern trunk with defensible shape and length."
+  },
+  "sunkoshi": {
+    "review_status": "pass",
+    "reference_buffer_deg": 0.5,
+    "route_exit_misses": 60,
+    "downstream_reach_id": 40862013,
+    "note": "Manual review: extended Sun Koshi routing preserves the local trunk name and carries the line through to the lower Koshi system instead of ending abruptly upstream."
+  },
+  "indrawati": {
+    "review_status": "pass",
+    "note": "Manual review: routed line is connected and follows the visible Indrawati corridor."
+  },
+  "dudhkoshi": {
+    "review_status": "pass",
+    "note": "Manual review: connected Dudh Koshi corridor is visually coherent and now ties cleanly into the extended Sun Koshi trunk."
+  },
+  "tamakoshi": {
+    "review_status": "pass",
+    "note": "Manual review: connected Tama Koshi corridor is publishable and no longer terminates against a missing parent trunk."
+  },
+  "balephi": {
+    "review_status": "pass",
+    "note": "Manual review: connected tributary geometry is publishable."
+  },
+  "narayani": {
+    "review_status": "pass",
+    "note": "Manual review: connected Narayani trunk is defensible and map-ready."
+  },
+  "kaligandaki": {
+    "review_status": "pass",
+    "reference_buffer_deg": 0.28,
+    "route_exit_misses": 12,
+    "downstream_seed": {
+      "lat": 27.88852,
+      "lon": 83.87694
+    },
+    "note": "Manual review: widened routing window recovers a defensible connected Kali Gandaki trunk and removes a major Gandaki gap."
+  },
+  "marsyangdi": {
+    "review_status": "pass",
+    "note": "Manual review: connected Marsyangdi trunk aligns cleanly enough to publish and ties back into the central Gandaki network."
+  },
+  "budhigandaki": {
+    "review_status": "pass",
+    "note": "Manual review: connected Budhi Gandaki path is publishable."
+  },
+  "trishuli": {
+    "review_status": "pass",
+    "note": "Manual review: connected Trishuli path resolves the fragmented OSM presentation problem."
+  },
+  "setigandaki": {
+    "review_status": "suppress",
+    "suppress": true,
+    "note": "Manual review: routed Seti Gandaki candidate still reads as an isolated stub, so it stays hidden until a defensible confluence can be recovered."
+  },
+  "madi": {
+    "review_status": "pass",
+    "reference_buffer_deg": 0.28,
+    "route_exit_misses": 8,
+    "downstream_seed": {
+      "lat": 27.9962,
+      "lon": 84.2512
+    },
+    "note": "Manual review: extended Madi routing recovers the downstream tie-in so the published line no longer reads as an island."
+  },
+  "eastrapti": {
+    "review_status": "pass",
+    "note": "Manual review: East Rapti route is connected and visually coherent."
+  },
+  "mahakali": {
+    "review_status": "pass",
+    "aliases": [
+      "Mahakali River",
+      "Sharda River",
+      "Mahakali"
+    ],
+    "reference_buffer_deg": 0.28,
+    "route_exit_misses": 12,
+    "downstream_seed": {
+      "lat": 27.8497581,
+      "lon": 81.0192776
+    },
+    "note": "Manual review: narrowed aliases plus a wider routing window recover the Mahakali border trunk and restore a publishable western system line."
+  },
+  "karnali": {
+    "review_status": "pass",
+    "note": "Manual review: connected Karnali trunk is publishable."
+  },
+  "mugukarnali": {
+    "review_status": "pass",
+    "note": "Manual review: connected upper tributary geometry is publishable."
+  },
+  "babai": {
+    "review_status": "pass",
+    "reference_buffer_deg": 0.28,
+    "route_exit_misses": 12,
+    "downstream_seed": {
+      "lat": 28.365446278254478,
+      "lon": 81.69288705507803
+    },
+    "note": "Manual review: extended Babai routing carries the visible main stem through to the lower border-side corridor instead of stopping abruptly mid-basin."
+  },
+  "bagmati": {
+    "review_status": "pass",
+    "note": "Manual review: connected Bagmati route is publishable."
+  },
+  "kamala": {
+    "review_status": "pass",
+    "reference_buffer_deg": 0.28,
+    "route_exit_misses": 12,
+    "downstream_seed": {
+      "lat": 26.85,
+      "lon": 86.45
+    },
+    "note": "Manual review: extended Kamala routing preserves a fuller downstream read across the plains-facing basin edge."
+  },
+  "tinau": {
+    "review_status": "pass",
+    "reference_buffer_deg": 0.28,
+    "route_exit_misses": 12,
+    "downstream_seed": {
+      "lat": 27.3,
+      "lon": 83.8
+    },
+    "note": "Manual review: extended Tinau routing removes the abrupt downstream cutoff and makes the basin read as a complete trunk."
+  },
+  "mechi": {
+    "review_status": "pass",
+    "note": "Manual review: connected Mechi border river is publishable."
+  }
+}

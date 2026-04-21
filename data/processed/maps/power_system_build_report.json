@@ -1,0 +1,375 @@
+{
+  "place_anchors": {
+    "feature_count": 29,
+    "matches": [
+      {
+        "id": "hetauda",
+        "label": "Hetauda",
+        "status": "ok",
+        "query": "Hetauda Substation, Nepal",
+        "display_name": "\u0928\u092f\u093e\u0901 \u0939\u0947\u091f\u094c\u0901\u0921\u093e \u0938\u092c\u0938\u094d\u091f\u0947\u0936\u0928, \u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930 \u0930\u093e\u091c\u094d\u092e\u093e\u0930\u094d\u0917\u094d, \u0917\u094b\u0932\u092a\u093f\u0919\u091f\u093e\u0930, Hetauda-11, \u0939\u0947\u091f\u094c\u0901\u0921\u093e, \u0939\u0947\u091f\u094c\u0901\u0921\u093e \u0909\u092a\u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u092e\u0915\u0935\u093e\u0928\u092a\u0941\u0930 \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 44107, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "dhalkebar",
+        "label": "Dhalkebar",
+        "status": "ok",
+        "query": "Dhalkebar Nepal",
+        "display_name": "Dhalkebar, Mithila-06, \u092e\u093f\u0925\u093f\u0932\u093e, \u092e\u093f\u0925\u093f\u0932\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0927\u0928\u0941\u0937\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "inaruwa",
+        "label": "Inaruwa",
+        "status": "ok",
+        "query": "Inaruwa Substation, Nepal",
+        "display_name": "Inaruwa 400kV Substation, \u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930 \u0930\u093e\u091c\u094d\u092e\u093e\u0930\u094d\u0917\u094d, Bhokraha, Bhokraha-04, \u092d\u094b\u0915\u094d\u0930\u093e\u0939\u093e \u0928\u0930\u0938\u093f\u0902\u0939, \u092d\u094b\u0915\u094d\u0930\u093e\u0939\u093e \u0928\u0930\u0938\u093f\u0902\u0939 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u0941\u0928\u0938\u0930\u0940 \u091c\u093f\u0932\u094d\u0932\u093e, \u0915\u094b\u0936\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "bharatpur",
+        "label": "Bharatpur",
+        "status": "ok",
+        "query": "Bharatpur Nepal",
+        "display_name": "\u092d\u0930\u0924\u092a\u0941\u0930, \u092d\u0930\u0924\u092a\u0941\u0930 \u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u091a\u093f\u0924\u0935\u0928 \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 44207, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "bardaghat",
+        "label": "Bardaghat",
+        "status": "ok",
+        "query": "Bardaghat Nepal",
+        "display_name": "\u092c\u0930\u094d\u0926\u0918\u093e\u091f, \u0928\u0935\u0932\u092a\u0930\u093e\u0938\u0940 \u092a\u0936\u094d\u091a\u093f\u092e / \u092c\u0930\u094d\u0926\u0918\u093e\u091f \u0938\u0941\u0938\u094d\u0924\u093e \u092a\u0936\u094d\u091a\u093f\u092e, Nawalparasi W, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 33011, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "khimti",
+        "label": "Khimti",
+        "status": "ok",
+        "query": "Khimti Nepal",
+        "display_name": "\u0916\u093f\u092e\u094d\u0924\u0940, Manthali-13, \u092e\u0928\u094d\u0925\u0932\u0940 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0930\u093e\u092e\u0947\u091b\u093e\u092a \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "tingla",
+        "label": "Tingla",
+        "status": "ok",
+        "query": "Tingla Nepal",
+        "display_name": "Tingla, Nechasalyan-06, \u0928\u0947\u091a\u093e\u0938\u0932\u094d\u092f\u093e\u0928 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u094b\u0932\u0941\u0916\u0941\u092e\u094d\u092c\u0941 \u091c\u093f\u0932\u094d\u0932\u093e, \u0915\u094b\u0936\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "mirchaiya",
+        "label": "Mirchaiya",
+        "status": "ok",
+        "query": "Mirchaiya Nepal",
+        "display_name": "\u092e\u093f\u0930\u094d\u091a\u0948\u092f\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u093f\u0930\u093e\u0939\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "dana",
+        "label": "Dana",
+        "status": "ok",
+        "query": "Dana Myagdi Nepal",
+        "display_name": "Dana, Beni - Jomsom Road, D\u0101na, Annapurna-03, Ligma, Annapurna, \u092e\u094d\u092f\u093e\u0917\u094d\u0926\u0940, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "kushma",
+        "label": "Kushma",
+        "status": "ok",
+        "query": "Kushma Nepal",
+        "display_name": "Kushma, \u092a\u0930\u094d\u0935\u0924, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 33400, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "butwal",
+        "label": "Butwal",
+        "status": "ok",
+        "query": "Butwal Nepal",
+        "display_name": "\u092c\u0941\u091f\u0935\u0932, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 32907, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "ratmate",
+        "label": "Ratmate",
+        "status": "ok",
+        "query": "Ratmate Nuwakot Nepal",
+        "display_name": "\u0930\u093e\u0924\u092e\u093e\u091f\u0947, Belkotgadhi-07, \u092c\u0947\u0932\u0915\u094b\u091f\u0917\u0922\u0940 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0928\u0941\u0935\u093e\u0915\u094b\u091f \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "lapsiphedi",
+        "label": "Lapsiphedi",
+        "status": "ok",
+        "query": "Lapsiphedi Nepal",
+        "display_name": "\u0932\u092a\u094d\u0938\u0940\u092b\u0947\u0926\u0940, Shankharapur-03, \u0936\u0919\u094d\u0916\u0930\u093e\u092a\u0941\u0930 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0915\u093e\u0920\u092e\u093e\u0921\u094c\u0902 \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 44812, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "damauli",
+        "label": "Damauli",
+        "status": "ok",
+        "query": "Damauli Nepal",
+        "display_name": "Damauli Forest, Byas-04, \u0926\u092e\u094c\u0932\u0940, Byas, \u0924\u0928\u0939\u0941\u0901, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "udipur",
+        "label": "Udipur",
+        "status": "ok",
+        "query": "Udipur Lamjung Nepal",
+        "display_name": "Udipur, Besishahar-01, Besishahar, \u0932\u092e\u091c\u0941\u0919, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "muzaffarpur",
+        "label": "Muzaffarpur",
+        "status": "ok",
+        "query": "Muzaffarpur Bihar India",
+        "display_name": "Muzaffarpur, Bihar, India"
+      },
+      {
+        "id": "kushaha",
+        "label": "Kushaha",
+        "status": "ok",
+        "query": "Kushaha Nepal",
+        "display_name": "\u0915\u0941\u0936\u093e\u0939\u093e, Surunga-05, \u0938\u0941\u0930\u0941\u0919\u094d\u0917\u093e, \u0938\u0941\u0930\u0941\u0919\u094d\u0917\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u092a\u094d\u0924\u0930\u0940 \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "parwanipur",
+        "label": "Parwanipur",
+        "status": "ok",
+        "query": "Parwanipur Nepal",
+        "display_name": "\u092a\u0930\u0935\u093e\u0928\u0940\u092a\u0941\u0930 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u092c\u093e\u0930\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, 44400, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "mainahiya",
+        "label": "Mainahiya",
+        "status": "ok",
+        "query": "Mainahiya Rupandehi Nepal",
+        "display_name": "mainahiya swasthya chauki, 49A008R, Siyari-02, Siyari, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 32900, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "gaddachauki",
+        "label": "Gaddachauki",
+        "status": "ok",
+        "query": "Gaddachauki Nepal",
+        "display_name": "Immigration Office Gaddachauki, \u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930 \u0930\u093e\u091c\u094d\u092e\u093e\u0930\u094d\u0917\u094d, Bhimdatta-11, \u092d\u093f\u092e\u0926\u0924\u094d\u0924, \u0915\u091e\u094d\u091a\u0928\u092a\u0941\u0930 \u091c\u093f\u0932\u094d\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "jamunaha",
+        "label": "Jamunaha",
+        "status": "ok",
+        "query": "Jamunaha Nepal",
+        "display_name": "\u091c\u092e\u0941\u0928\u093e\u0939, Narainapur-05, Narainapur, \u092c\u093e\u0901\u0915\u0947, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "belahiya",
+        "label": "Belahiya",
+        "status": "ok",
+        "query": "Belahiya Nepal",
+        "display_name": "\u092c\u0947\u0932\u0939\u093f\u092f\u093e, Siddharthanagar, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "lamki",
+        "label": "Lamki / Dododhara",
+        "status": "ok",
+        "query": "Lamki Nepal",
+        "display_name": "Lamki Chuha, Lamkichuha, \u0915\u0948\u0932\u093e\u0932\u0940, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "purnea",
+        "label": "Purnea",
+        "status": "ok",
+        "query": "Purnea Bihar India",
+        "display_name": "Purnia, Purnia East, Purnia, Bihar, 854301, India"
+      },
+      {
+        "id": "bareilly",
+        "label": "Bareilly",
+        "status": "ok",
+        "query": "Bareilly India",
+        "display_name": "Bareilly, Uttar Pradesh, India"
+      },
+      {
+        "id": "chameliya",
+        "label": "Chameliya",
+        "status": "ok",
+        "query": "Chameliya Nepal",
+        "display_name": "Chameliya Khola, \u0926\u093e\u0930\u094d\u091a\u0941\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "jauljibi",
+        "label": "Jauljibi",
+        "status": "ok",
+        "query": "Jauljibi India",
+        "display_name": "Jauljibi, Didihat, Pithoragarh district, Uttarakhand, 262544, India"
+      },
+      {
+        "id": "mahendranagar",
+        "label": "Mahendranagar",
+        "status": "ok",
+        "query": "Mahendranagar Kanchanpur Nepal",
+        "display_name": "\u092d\u093f\u092e\u0926\u0924\u094d\u0924, \u0915\u091e\u094d\u091a\u0928\u092a\u0941\u0930 \u091c\u093f\u0932\u094d\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, 10400, \u0928\u0947\u092a\u093e\u0932"
+      },
+      {
+        "id": "nautanwa",
+        "label": "New Nautanwa / Sunauli",
+        "status": "ok",
+        "query": "Sunauli India",
+        "display_name": "Sonauli, Nautanwa, Mahrajganj, Uttar Pradesh, India"
+      }
+    ]
+  },
+  "transmission_corridors": {
+    "feature_count": 7,
+    "skipped": []
+  },
+  "cross_border_interconnections": {
+    "feature_count": 10,
+    "skipped": []
+  },
+  "priority_watchlist": {
+    "feature_count": 12,
+    "skipped": []
+  },
+  "hydropower_project_anchors": {
+    "tier_counts": {
+      "site": 81,
+      "river_reference": 427,
+      "raw_reference": 64
+    },
+    "snap_examples": [
+      {
+        "project": "Aayu Chhatigad Hydropower Project",
+        "license_type": "Survey",
+        "river": "Chatti Gad",
+        "offset_m": 183.5,
+        "map_match_basis": "HydroRIVERS order 1"
+      },
+      {
+        "project": "Aayu Malun Khola Hydro-Electric Project",
+        "license_type": "Survey",
+        "river": "Malun",
+        "offset_m": 936.5,
+        "map_match_basis": "HydroRIVERS order 3"
+      },
+      {
+        "project": "Adhikhola Storage HEP",
+        "license_type": "Survey",
+        "river": "Adhikhola",
+        "offset_m": 230.3,
+        "map_match_basis": "HydroRIVERS order 4"
+      },
+      {
+        "project": "Akhu Khola-2 HPP",
+        "license_type": "Survey",
+        "river": "Akhu Khola",
+        "offset_m": 493.0,
+        "map_match_basis": "HydroRIVERS order 4"
+      },
+      {
+        "project": "Ankhu Khola",
+        "license_type": "Generation",
+        "river": "Ankhu Khola",
+        "offset_m": 677.7,
+        "map_match_basis": "HydroRIVERS order 4"
+      },
+      {
+        "project": "Apsuwa I HEP",
+        "license_type": "Survey",
+        "river": "Apsuwa",
+        "offset_m": 154.3,
+        "map_match_basis": "HydroRIVERS order 3"
+      },
+      {
+        "project": "Arun 3",
+        "license_type": "Survey",
+        "river": "Arun",
+        "offset_m": 1414.0,
+        "map_match_basis": "HydroRIVERS order 1"
+      },
+      {
+        "project": "Arun Khola 2 HEP",
+        "license_type": "Survey",
+        "river": "Arun Khola",
+        "offset_m": 6.8,
+        "map_match_basis": "OSM Arun Khola"
+      },
+      {
+        "project": "Arung Khola",
+        "license_type": "Survey",
+        "river": "Arung",
+        "offset_m": 301.2,
+        "map_match_basis": "HydroRIVERS order 3"
+      },
+      {
+        "project": "Badigad HPP",
+        "license_type": "Generation",
+        "river": "Badigad",
+        "offset_m": 1107.9,
+        "map_match_basis": "HydroRIVERS order 3"
+      },
+      {
+        "project": "Badigad Khola HPP",
+        "license_type": "Survey",
+        "river": "Badigad",
+        "offset_m": 236.0,
+        "map_match_basis": "HydroRIVERS order 4"
+      },
+      {
+        "project": "Bagar Khola Hydro-Electric Project",
+        "license_type": "Survey",
+        "river": "Bagar Khola",
+        "offset_m": 92.3,
+        "map_match_basis": "HydroRIVERS order 3"
+      },
+      {
+        "project": "Bagmati Nadi",
+        "license_type": "Generation",
+        "river": "Bagmati",
+        "offset_m": 576.7,
+        "map_match_basis": "Published tributary geometry: Bagmati River"
+      },
+      {
+        "project": "Balephi",
+        "license_type": "Generation",
+        "river": "Balephi",
+        "offset_m": 205.0,
+        "map_match_basis": "Published tributary geometry: Balephi Khola"
+      },
+      {
+        "project": "Balephi A",
+        "license_type": "Generation",
+        "river": "Balephi",
+        "offset_m": 10.3,
+        "map_match_basis": "Published tributary geometry: Balephi Khola"
+      },
+      {
+        "project": "Balephi Cascade HPP",
+        "license_type": "Survey",
+        "river": "Balephi",
+        "offset_m": 68.4,
+        "map_match_basis": "Published tributary geometry: Balephi Khola"
+      },
+      {
+        "project": "Balephi Khola HEP",
+        "license_type": "Survey",
+        "river": "Balephi",
+        "offset_m": 246.6,
+        "map_match_basis": "Published tributary geometry: Balephi Khola"
+      },
+      {
+        "project": "Begnas- Rupa Storage Project",
+        "license_type": "Survey",
+        "river": "Begnas - Rupa",
+        "offset_m": 503.9,
+        "map_match_basis": "HydroRIVERS order 1"
+      },
+      {
+        "project": "Betan Karnali HP",
+        "license_type": "Survey",
+        "river": "Karnali",
+        "offset_m": 2709.4,
+        "map_match_basis": "OSM \u0915\u0930\u094d\u0923\u093e\u0932\u0940"
+      },
+      {
+        "project": "Bhabil 1 Hydropower Project",
+        "license_type": "Survey",
+        "river": "Bhabil Khola",
+        "offset_m": 313.4,
+        "map_match_basis": "OSM Bhabil Khola"
+      }
+    ]
+  },
+  "traced_transmission_segments": {
+    "feature_count": 45,
+    "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_segments.geojson"
+  }
+}

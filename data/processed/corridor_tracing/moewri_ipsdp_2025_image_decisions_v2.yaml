@@ -1,0 +1,363 @@
+- page: 10
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Executive Summary in Nepal"
+  paragraph_anchor: ""
+  source_page: 10
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Executive Summary in Nepal"
+  candidate_slugs: ["data-domestic-demand", "claim-domestic-led-strategy", "nea"]
+- page: 10
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 2.2-2 Outline of Hydropower Database"
+  paragraph_anchor: ""
+  source_page: 10
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Figure 2.2-2 Outline of Hydropower Database"
+  candidate_slugs: ["data-domestic-demand", "claim-domestic-led-strategy", "nea"]
+- page: 11
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Each interconnection line is used for both imports and exports. There are plans to construct five(5)"
+  paragraph_anchor: ""
+  source_page: 11
+  note: ""
+  raw_caption: "Each interconnection line is used for both imports and exports. There are plans to construct five(5)"
+  candidate_slugs: ["niettp", "india-cbte-2018", "claim-india-decisive-actor"]
+- page: 11
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 11
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["niettp", "india-cbte-2018", "claim-india-decisive-actor"]
+- page: 11
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team based on NEA documents"
+  paragraph_anchor: ""
+  source_page: 11
+  note: ""
+  raw_caption: "Source: JICA Study Team based on NEA documents"
+  candidate_slugs: ["niettp", "india-cbte-2018", "claim-india-decisive-actor"]
+- page: 12
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Executive Summary in Nepal"
+  paragraph_anchor: ""
+  source_page: 12
+  note: ""
+  raw_caption: "Executive Summary in Nepal"
+  candidate_slugs: ["niettp", "india-energy-relationship", "wb-nepal-power-sector-reform-2022"]
+- page: 12
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 2.2-4 Current Power Trade Scheme between Nepal and India"
+  paragraph_anchor: ""
+  source_page: 12
+  note: ""
+  raw_caption: "Figure 2.2-4 Current Power Trade Scheme between Nepal and India"
+  candidate_slugs: ["niettp", "india-energy-relationship", "wb-nepal-power-sector-reform-2022"]
+- page: 13
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "power trade, capital investment cost and environmental and social impacts in order to respond"
+  paragraph_anchor: ""
+  source_page: 13
+  note: ""
+  raw_caption: "power trade, capital investment cost and environmental and social impacts in order to respond"
+  candidate_slugs: ["bangladesh-trade-route", "wb-nepal-power-sector-reform-2022", "claim-domestic-led-strategy"]
+- page: 13
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 13
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["bangladesh-trade-route", "wb-nepal-power-sector-reform-2022", "claim-domestic-led-strategy"]
+- page: 13
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 13
+  note: ""
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["bangladesh-trade-route", "wb-nepal-power-sector-reform-2022", "claim-domestic-led-strategy"]
+- page: 17
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "in Nepal Executive Summary"
+  paragraph_anchor: ""
+  source_page: 17
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: "in Nepal Executive Summary"
+  candidate_slugs: ["arun-3-project-status-2025", "claim-systems-conversion-failure", "icimod-hkh-glacier-change"]
+- page: 17
+  image_index: 3
+  action: new_node
+  target_slug: ""
+  proposed_slug: "project-integrated-power-system-development-plan"
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 17
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["arun-3-project-status-2025", "claim-systems-conversion-failure", "icimod-hkh-glacier-change"]
+- page: 17
+  image_index: 4
+  action: new_node
+  target_slug: ""
+  proposed_slug: "project-integrated-power-system-development-plan"
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 17
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["arun-3-project-status-2025", "claim-systems-conversion-failure", "icimod-hkh-glacier-change"]
+- page: 17
+  image_index: 5
+  action: new_node
+  target_slug: ""
+  proposed_slug: "project-integrated-power-system-development-plan"
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 17
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["arun-3-project-status-2025", "claim-systems-conversion-failure", "icimod-hkh-glacier-change"]
+- page: 17
+  image_index: 6
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "- 13 -"
+  paragraph_anchor: ""
+  source_page: 17
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: "- 13 -"
+  candidate_slugs: ["arun-3-project-status-2025", "claim-systems-conversion-failure", "icimod-hkh-glacier-change"]
+- page: 18
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 18
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: ""
+  candidate_slugs: ["data-domestic-demand", "wb-nepal-power-sector-reform-2022", "bangladesh-trade-route"]
+- page: 18
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "(Left：Power Right：Peak Figure 2.4-1 Power Demand Forecast Demand (GWh), Demand (MW))"
+  paragraph_anchor: ""
+  source_page: 18
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "(Left：Power Right：Peak Figure 2.4-1 Power Demand Forecast Demand (GWh), Demand (MW))"
+  candidate_slugs: ["data-domestic-demand", "wb-nepal-power-sector-reform-2022", "bangladesh-trade-route"]
+- page: 18
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "(Left：Power Right：Peak Figure 2.4-1 Power Demand Forecast Demand (GWh), Demand (MW))"
+  paragraph_anchor: ""
+  source_page: 18
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "(Left：Power Right：Peak Figure 2.4-1 Power Demand Forecast Demand (GWh), Demand (MW))"
+  candidate_slugs: ["data-domestic-demand", "wb-nepal-power-sector-reform-2022", "bangladesh-trade-route"]
+- page: 23
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "in Nepal Executive Summary"
+  paragraph_anchor: ""
+  source_page: 23
+  note: ""
+  raw_caption: "in Nepal Executive Summary"
+  candidate_slugs: ["dhalkebar-muzaffarpur", "claim-domestic-led-strategy", "wecs-river-basin-plan-2024"]
+- page: 23
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 23
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["dhalkebar-muzaffarpur", "claim-domestic-led-strategy", "wecs-river-basin-plan-2024"]
+- page: 23
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 23
+  note: ""
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["dhalkebar-muzaffarpur", "claim-domestic-led-strategy", "wecs-river-basin-plan-2024"]
+- page: 23
+  image_index: 3
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 23
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["dhalkebar-muzaffarpur", "claim-domestic-led-strategy", "wecs-river-basin-plan-2024"]
+- page: 23
+  image_index: 4
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 23
+  note: ""
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["dhalkebar-muzaffarpur", "claim-domestic-led-strategy", "wecs-river-basin-plan-2024"]
+- page: 26
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "power generator."
+  paragraph_anchor: ""
+  source_page: 26
+  note: ""
+  raw_caption: "power generator."
+  candidate_slugs: ["nea", "bangladesh-trade-route", "niettp"]
+- page: 26
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 2.4-7 Proposed power trading scheme"
+  paragraph_anchor: ""
+  source_page: 26
+  note: ""
+  raw_caption: "Figure 2.4-7 Proposed power trading scheme"
+  candidate_slugs: ["nea", "bangladesh-trade-route", "niettp"]
+- page: 28
+  image_index: 1
+  action: crop
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Executive Summary in Nepal"
+  paragraph_anchor: ""
+  source_page: 28
+  note: ""
+  raw_caption: "Executive Summary in Nepal"
+  candidate_slugs: ["nea", "wb-nepal-power-sector-reform-2022", "bangladesh-trade-route"]
+- page: 28
+  image_index: 2
+  action: crop
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Figure 2.4-9 Basic Funding Flows in Nepal's Electricity Sector"
+  paragraph_anchor: ""
+  source_page: 28
+  note: ""
+  raw_caption: "Figure 2.4-9 Basic Funding Flows in Nepal's Electricity Sector"
+  candidate_slugs: ["nea", "wb-nepal-power-sector-reform-2022", "bangladesh-trade-route"]
+- page: 30
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "cash on hand and the amount of capital investment need."
+  paragraph_anchor: ""
+  source_page: 30
+  note: ""
+  raw_caption: "cash on hand and the amount of capital investment need."
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "data-domestic-demand", "nea"]
+- page: 30
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 30
+  note: ""
+  raw_caption: ""
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "data-domestic-demand", "nea"]
+- page: 30
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 2.4-10 Relationship between available investment amount from cash on hand and capital"
+  paragraph_anchor: ""
+  source_page: 30
+  note: ""
+  raw_caption: "Figure 2.4-10 Relationship between available investment amount from cash on hand and capital"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "data-domestic-demand", "nea"]
+- page: 33
+  image_index: 50
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 33
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["claim-systems-conversion-failure", "claim-domestic-led-strategy", "wb-nepal-power-sector-reform-2022"]
+- page: 36
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Executive Summary in Nepal"
+  paragraph_anchor: ""
+  source_page: 36
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Executive Summary in Nepal"
+  candidate_slugs: ["wecs-river-basin-plan-2024", "claim-domestic-led-strategy", "claim-systems-conversion-failure"]
+- page: 39
+  image_index: 1
+  action: crop
+  target_slug: "mca-central-400"
+  proposed_slug: ""
+  caption: "2040 :Contribution to South"
+  paragraph_anchor: ""
+  source_page: 39
+  note: ""
+  raw_caption: "2040 :Contribution to South"
+  candidate_slugs: ["mca-central-400", "upper-trishuli-1", "upper-trishuli-3b"]

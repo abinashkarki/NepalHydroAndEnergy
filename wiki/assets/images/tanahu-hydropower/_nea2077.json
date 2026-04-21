@@ -1,0 +1,125 @@
+{
+  "slug": "tanahu-hydropower",
+  "entries": [
+    {
+      "src": "tanahu-hydropower/nea2077-p173-img01.png",
+      "filename": "nea2077-p173-img01.png",
+      "caption": "Camp Facilities of Package 2 Contractor",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 173,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        129.69,
+        299.06,
+        284.3
+      ],
+      "width": 634,
+      "height": 429,
+      "fetched_at": 1776689203
+    },
+    {
+      "src": "tanahu-hydropower/nea2077-p173-img02.png",
+      "filename": "nea2077-p173-img02.png",
+      "caption": "Tower Testing at the Contractor’s Laboratory",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 173,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        472.86,
+        299.06,
+        612.28
+      ],
+      "width": 634,
+      "height": 387,
+      "fetched_at": 1776689203
+    },
+    {
+      "src": "tanahu-hydropower/nea2077-p173-img03.png",
+      "filename": "nea2077-p173-img03.png",
+      "caption": "Portal Area of Cable Tunnel and Main Access",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 173,
+      "image_index": 3,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        188.5,
+        547.09,
+        343.11
+      ],
+      "width": 634,
+      "height": 429,
+      "fetched_at": 1776689204
+    },
+    {
+      "src": "tanahu-hydropower/nea2077-p176-img01.png",
+      "filename": "nea2077-p176-img01.png",
+      "caption": "Site Visit by NEA MD Kulman Ghising on 9th March 2020",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 176,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        70.87,
+        547.09,
+        240.34
+      ],
+      "width": 634,
+      "height": 470,
+      "fetched_at": 1776689204
+    },
+    {
+      "src": "tanahu-hydropower/nea2077-p176-img02.png",
+      "filename": "nea2077-p176-img02.png",
+      "caption": "Work in Progress in Power House",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 176,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        318.81,
+        290.84,
+        547.09,
+        399.51
+      ],
+      "width": 634,
+      "height": 301,
+      "fetched_at": 1776689204
+    },
+    {
+      "src": "tanahu-hydropower/nea2077-p176-img03.png",
+      "filename": "nea2077-p176-img03.png",
+      "caption": "Work in Progress in Adit-3",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 176,
+      "image_index": 3,
+      "action": "filmstrip",
+      "bbox": [
+        318.69,
+        435.12,
+        547.74,
+        748.98
+      ],
+      "width": 636,
+      "height": 872,
+      "fetched_at": 1776689205
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "balephi",
+  "entries": [
+    {
+      "src": "balephi/ipsdpv2-p279-img00.png",
+      "filename": "ipsdpv2-p279-img00.png",
+      "caption": "Figure 6.3-23 River Longitudinal Profile of the Balephi River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 279,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        86.3,
+        262.64,
+        537.6,
+        556.54
+      ],
+      "width": 1254,
+      "height": 816,
+      "fetched_at": 1776768028
+    }
+  ]
+}

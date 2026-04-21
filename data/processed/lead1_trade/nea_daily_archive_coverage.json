@@ -1,0 +1,17 @@
+{
+  "archive_url": "https://td.neasite.dryicesolutions.net/en/category/daily-operational-reports-1",
+  "archive_page_count": 64,
+  "coverage_start_bs_date": "2080-01-01",
+  "coverage_end_bs_date": "2081-09-27",
+  "raw_detail_links_seen": 703,
+  "unique_daily_dates_seen": 639,
+  "year_counts": {
+    "2080": 365,
+    "2081": 338
+  },
+  "notes": [
+    "Coverage depth was established from archive pagination and detail-link scan, not from a completed full PDF parse.",
+    "This daily archive does not fully cover FY 2079/80, so the earliest months still require the annual trade chart or another source.",
+    "Older NEA monthly operational report PDFs appear in search results, but direct fetches from this environment are blocked by the NEA site security layer."
+  ]
+}

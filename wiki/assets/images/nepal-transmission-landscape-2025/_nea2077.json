@@ -1,0 +1,45 @@
+{
+  "slug": "nepal-transmission-landscape-2025",
+  "entries": [
+    {
+      "src": "nepal-transmission-landscape-2025/nea2077-p148-img01.png",
+      "filename": "nea2077-p148-img01.png",
+      "caption": "enhanced distribution capacity.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 148,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        391.18,
+        299.06,
+        602.28
+      ],
+      "width": 634,
+      "height": 586,
+      "fetched_at": 1776686319
+    },
+    {
+      "src": "nepal-transmission-landscape-2025/nea2077-p148-img02.png",
+      "filename": "nea2077-p148-img02.png",
+      "caption": "new substations, 181 km of 33 kV line, 147",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 148,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        469.13,
+        547.09,
+        754.06
+      ],
+      "width": 634,
+      "height": 791,
+      "fetched_at": 1776686319
+    }
+  ]
+}

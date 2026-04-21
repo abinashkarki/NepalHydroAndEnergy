@@ -1,0 +1,25 @@
+{
+  "slug": "upper-karnali",
+  "entries": [
+    {
+      "src": "upper-karnali/ipsdpv2-p125-img00.png",
+      "filename": "ipsdpv2-p125-img00.png",
+      "caption": "Figure 2.7-2 Location Map of NHDP Priority Projects",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 125,
+      "image_index": 0,
+      "action": "filmstrip",
+      "bbox": [
+        108.05,
+        143.78,
+        516.04,
+        407.61
+      ],
+      "width": 1133,
+      "height": 733,
+      "fetched_at": 1776768022
+    }
+  ]
+}

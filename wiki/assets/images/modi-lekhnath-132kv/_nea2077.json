@@ -1,0 +1,45 @@
+{
+  "slug": "modi-lekhnath-132kv",
+  "entries": [
+    {
+      "src": "modi-lekhnath-132kv/nea2077-p052-img01.png",
+      "filename": "nea2077-p052-img01.png",
+      "caption": "Lahachowk substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 52,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.72,
+        402.58,
+        299.05,
+        532.39
+      ],
+      "width": 634,
+      "height": 360,
+      "fetched_at": 1776689191
+    },
+    {
+      "src": "modi-lekhnath-132kv/nea2077-p052-img02.png",
+      "filename": "nea2077-p052-img02.png",
+      "caption": "New Modi substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 52,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        251.22,
+        300.27,
+        376.02
+      ],
+      "width": 637,
+      "height": 346,
+      "fetched_at": 1776689191
+    }
+  ]
+}

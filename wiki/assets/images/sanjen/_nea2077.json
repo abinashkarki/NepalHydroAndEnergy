@@ -1,0 +1,45 @@
+{
+  "slug": "sanjen",
+  "entries": [
+    {
+      "src": "sanjen/nea2077-p181-img01.png",
+      "filename": "nea2077-p181-img01.png",
+      "caption": "Sanjen (Upper) Hydroelectric Project (SUHEP)",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 181,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        229.61,
+        547.09,
+        365.47
+      ],
+      "width": 634,
+      "height": 377,
+      "fetched_at": 1776689206
+    },
+    {
+      "src": "sanjen/nea2077-p181-img02.png",
+      "filename": "nea2077-p181-img02.png",
+      "caption": "SUHEP Headworks and Powerhouse",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 181,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        372.92,
+        546.06,
+        509.61
+      ],
+      "width": 631,
+      "height": 379,
+      "fetched_at": 1776689206
+    }
+  ]
+}

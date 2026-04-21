@@ -1,0 +1,1727 @@
+- page: 9
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team based on World Development Indicators (World Bank)"
+  paragraph_anchor: ""
+  source_page: 9
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Prepared by JICA Study Team based on World Development Indicators (World Bank)"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "wb-water-sector-diagnostic", "adb-hydropower-growth-nepal"]
+- page: 10
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 1; General Information of Nepal in Nepal"
+  paragraph_anchor: ""
+  source_page: 10
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Annex 1; General Information of Nepal in Nepal"
+  candidate_slugs: ["wb-country-economic-memo-2025", "wb-nepal-power-sector-reform-2022", "adb-hydropower-growth-nepal"]
+- page: 12
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 1; General Information of Nepal in Nepal"
+  paragraph_anchor: ""
+  source_page: 12
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Annex 1; General Information of Nepal in Nepal"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "wb-water-sector-diagnostic", "wb-country-economic-memo-2025"]
+- page: 12
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 1.1-3 GDP Growth by Industry"
+  paragraph_anchor: ""
+  source_page: 12
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Figure 1.1-3 GDP Growth by Industry"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "wb-water-sector-diagnostic", "wb-country-economic-memo-2025"]
+- page: 14
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 1.1-5 Remittances to Nepal and GDP Ratio"
+  paragraph_anchor: ""
+  source_page: 14
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Figure 1.1-5 Remittances to Nepal and GDP Ratio"
+  candidate_slugs: ["wb-country-economic-memo-2025", "claim-systems-conversion-failure", "nepal-transmission-landscape-2025"]
+- page: 16
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: modified after R.K.Dahal and Hasegawa S., 2008"
+  paragraph_anchor: ""
+  source_page: 16
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: modified after R.K.Dahal and Hasegawa S., 2008"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "nepal-transmission-landscape-2025"]
+- page: 17
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: R.K.Dahal, 2012"
+  paragraph_anchor: ""
+  source_page: 17
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: R.K.Dahal, 2012"
+  candidate_slugs: ["nepal-transmission-landscape-2025", "data-mountain-hydro-comparison", "national-water-plan-nepal"]
+- page: 21
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: English translation and some additions to Arita, 1988"
+  paragraph_anchor: ""
+  source_page: 21
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: English translation and some additions to Arita, 1988"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "wb-country-economic-memo-2025", "claim-systems-conversion-failure"]
+- page: 23
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "in Nepal Annex 1; General Information of Nepal"
+  paragraph_anchor: ""
+  source_page: 23
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "in Nepal Annex 1; General Information of Nepal"
+  candidate_slugs: ["claim-systems-conversion-failure", "national-water-plan-nepal", "nepal-transmission-landscape-2025"]
+- page: 23
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 23
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: ""
+  candidate_slugs: ["claim-systems-conversion-failure", "national-water-plan-nepal", "nepal-transmission-landscape-2025"]
+- page: 23
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 23
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: ""
+  candidate_slugs: ["claim-systems-conversion-failure", "national-water-plan-nepal", "nepal-transmission-landscape-2025"]
+- page: 25
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Nepal Seismological Centre, 2002"
+  paragraph_anchor: ""
+  source_page: 25
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: Nepal Seismological Centre, 2002"
+  candidate_slugs: ["claim-systems-conversion-failure", "nepal-transmission-landscape-2025", "wb-nepal-power-sector-reform-2022"]
+- page: 26
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "within one degree of latitude."
+  paragraph_anchor: ""
+  source_page: 26
+  note: "skipped:bottom-quartile-confidence (score=15.75, q1=18.81)"
+  raw_caption: "within one degree of latitude."
+  candidate_slugs: ["niettp", "bangladesh-trade-route", "claim-timing-not-volume"]
+- page: 27
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "causing a front to develop, which results in rainfall mainly over western Nepal."
+  paragraph_anchor: ""
+  source_page: 27
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "causing a front to develop, which results in rainfall mainly over western Nepal."
+  candidate_slugs: ["wb-water-sector-diagnostic", "wb-nepal-power-sector-reform-2022", "claim-timing-not-volume"]
+- page: 27
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "from the north and passes over the southern foothills of the Himalayas in western Nepal,"
+  paragraph_anchor: ""
+  source_page: 27
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "from the north and passes over the southern foothills of the Himalayas in western Nepal,"
+  candidate_slugs: ["wb-water-sector-diagnostic", "wb-nepal-power-sector-reform-2022", "claim-timing-not-volume"]
+- page: 27
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 27
+  note: "skipped:auto-routed-to-source"
+  raw_caption: ""
+  candidate_slugs: ["wb-water-sector-diagnostic", "wb-nepal-power-sector-reform-2022", "claim-timing-not-volume"]
+- page: 27
+  image_index: 3
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Department of Hydrology and Meteorology, 2015"
+  paragraph_anchor: ""
+  source_page: 27
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Department of Hydrology and Meteorology, 2015"
+  candidate_slugs: ["wb-water-sector-diagnostic", "wb-nepal-power-sector-reform-2022", "claim-timing-not-volume"]
+- page: 28
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "to strong winds (Ushiyama, 1995)."
+  paragraph_anchor: ""
+  source_page: 28
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "to strong winds (Ushiyama, 1995)."
+  candidate_slugs: ["claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022", "claim-mw-not-equal-value"]
+- page: 30
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 1; General Information of Nepal in Nepal"
+  paragraph_anchor: ""
+  source_page: 30
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Annex 1; General Information of Nepal in Nepal"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "nepal-transmission-landscape-2025"]
+- page: 30
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 30
+  note: "skipped:auto-routed-to-source"
+  raw_caption: ""
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "nepal-transmission-landscape-2025"]
+- page: 32
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "between latitude 29°07 and 30°04N and longitude 80°08’ and 81°07’ E."
+  paragraph_anchor: ""
+  source_page: 32
+  note: "hand-adjust:drop; caption is only a lat/long fragment; image value too low without real title"
+  raw_caption: "between latitude 29°07 and 30°04N and longitude 80°08’ and 81°07’ E."
+  candidate_slugs: ["mahakali-basin", "karnali-basin", "humla-karnali-1-hpp"]
+- page: 33
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: MP2014"
+  paragraph_anchor: ""
+  source_page: 33
+  note: "skipped:bottom-quartile-confidence (score=15.00, q1=18.81)"
+  raw_caption: "Source: MP2014"
+  candidate_slugs: ["marsyangdi", "trishuli", "icimod-koshi-basin"]
+- page: 36
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Middle Mountain Zone and Siwalik Zone."
+  paragraph_anchor: ""
+  source_page: 36
+  note: "hand-adjust:drop; caption describes Middle Mountain / Siwalik geographic zones, not NEA"
+  raw_caption: "Middle Mountain Zone and Siwalik Zone."
+  candidate_slugs: ["nea", "koshi-basin", "niettp"]
+- page: 37
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Glacial Lakes and Glacial Lake Outburst Floods in Nepal, ICIMOD, 2011"
+  paragraph_anchor: ""
+  source_page: 37
+  note: "skipped:bottom-quartile-confidence (score=18.25, q1=18.81)"
+  raw_caption: "Source: Glacial Lakes and Glacial Lake Outburst Floods in Nepal, ICIMOD, 2011"
+  candidate_slugs: ["karnali-basin", "claim-sediment-core-issue", "icimod-koshi-basin"]
+- page: 39
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team, based on Department of Environment, MoFE (https://pollution.gov.np/portal/#/home?_k=1r7ytt)"
+  paragraph_anchor: ""
+  source_page: 39
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: Prepared by JICA Study Team, based on Department of Environment, MoFE (https://pollution.gov.np/portal/#/home?_k=1r7ytt)"
+  candidate_slugs: ["claim-systems-conversion-failure", "national-water-plan-nepal", "nepal-transmission-landscape-2025"]
+- page: 43
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Population Atlas of Nepal (2014; Central Bureau of Statistics)"
+  paragraph_anchor: ""
+  source_page: 43
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Population Atlas of Nepal (2014; Central Bureau of Statistics)"
+  candidate_slugs: ["national-water-plan-nepal", "mai", "wb-nepal-power-sector-reform-2022"]
+- page: 44
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Rara Lake Phoksundo Lake"
+  paragraph_anchor: ""
+  source_page: 44
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Rara Lake Phoksundo Lake"
+  candidate_slugs: ["national-water-plan-nepal", "wb-nepal-power-sector-reform-2022", "mai"]
+- page: 49
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Central Bureau of Statistics, National Planning Commissions"
+  paragraph_anchor: ""
+  source_page: 49
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Central Bureau of Statistics, National Planning Commissions"
+  candidate_slugs: ["national-water-plan-nepal", "claim-systems-conversion-failure", "nepal-transmission-landscape-2025"]
+- page: 50
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 1.3-2 Population Growth Rate in Nepal (2001- 2011)"
+  paragraph_anchor: ""
+  source_page: 50
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Figure 1.3-2 Population Growth Rate in Nepal (2001- 2011)"
+  candidate_slugs: ["adb-hydropower-growth-nepal", "wb-country-economic-memo-2025", "wb-nepal-power-sector-reform-2022"]
+- page: 50
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Social Affairs estimated that the population would decline after 2050."
+  paragraph_anchor: ""
+  source_page: 50
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Social Affairs estimated that the population would decline after 2050."
+  candidate_slugs: ["adb-hydropower-growth-nepal", "wb-country-economic-memo-2025", "wb-nepal-power-sector-reform-2022"]
+- page: 61
+  image_index: 0
+  action: inline_figure
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Figure 2.1-2 NEA Organization Chart (as of September 2022)"
+  paragraph_anchor: "# Nepal Electricity Authority (NEA)"
+  source_page: 61
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: ""
+  candidate_slugs: ["nea", "wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure"]
+- page: 64
+  image_index: 0
+  action: filmstrip
+  target_slug: "phukot-karnali"
+  proposed_slug: ""
+  caption: "Figure 2.1-3 Location of VUCL’s Projects"
+  paragraph_anchor: ""
+  source_page: 64
+  note: ""
+  raw_caption: "Figure 2.1-3 Location of VUCL’s Projects"
+  candidate_slugs: ["phukot-karnali", "mugu-karnali-storage-hep", "kimathanka-arun-hep"]
+- page: 67
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: NEA “Corporate Development Plan 2019/20 - 2023/24”"
+  paragraph_anchor: ""
+  source_page: 67
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: NEA “Corporate Development Plan 2019/20 - 2023/24”"
+  candidate_slugs: ["india-cbte-2018", "nea", "niettp"]
+- page: 68
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "power sector reform is, and Figure 2.1-6 shows the time frame to reach that point."
+  paragraph_anchor: ""
+  source_page: 68
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "power sector reform is, and Figure 2.1-6 shows the time frame to reach that point."
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "nea", "niettp"]
+- page: 69
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: NEA “Corporate Development Plan 2019/20-2023/24”"
+  paragraph_anchor: ""
+  source_page: 69
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: NEA “Corporate Development Plan 2019/20-2023/24”"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "nea"]
+- page: 108
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "electricity consumption low."
+  paragraph_anchor: ""
+  source_page: 108
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "electricity consumption low."
+  candidate_slugs: ["data-domestic-demand", "nea", "niettp"]
+- page: 108
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "After 2020, the peak demand began to increase again."
+  paragraph_anchor: ""
+  source_page: 108
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "After 2020, the peak demand began to increase again."
+  candidate_slugs: ["data-domestic-demand", "nea", "niettp"]
+- page: 109
+  image_index: 0
+  action: filmstrip
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Figure 2.5-4 Power Interruption"
+  paragraph_anchor: ""
+  source_page: 109
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2022/2023"
+  candidate_slugs: ["nea", "data-domestic-demand", "adb-hydropower-growth-nepal"]
+- page: 109
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 2.5-4 Power Interruption"
+  paragraph_anchor: ""
+  source_page: 109
+  note: "hand-adjust:drop; duplicate of p109 i0 (same 'Figure 2.5-4 Power Interruption' caption)"
+  raw_caption: "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2018/2019 ~ 2022/2023"
+  candidate_slugs: ["nea", "data-domestic-demand", "adb-hydropower-growth-nepal"]
+- page: 110
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "of loss control."
+  paragraph_anchor: ""
+  source_page: 110
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "of loss control."
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "nea"]
+- page: 112
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 2.6-3 shows trends in the total amount and"
+  paragraph_anchor: ""
+  source_page: 112
+  note: "hand-adjust:drop; caption is a truncated body sentence ('Figure 2.6-3 shows trends ...'), not a figure title"
+  raw_caption: "Annex 2; Current Status of the Power Sector in Nepal in Nepal"
+  candidate_slugs: ["nea", "wb-nepal-power-sector-reform-2022", "wb-water-sector-diagnostic"]
+- page: 121
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 2.7-1 IRRP Working Group"
+  paragraph_anchor: ""
+  source_page: 121
+  note: ""
+  raw_caption: "Figure 2.7-1 IRRP Working Group"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "nepal-energy-profile", "wecs-energy-synopsis-2024"]
+- page: 125
+  image_index: 0
+  action: filmstrip
+  target_slug: "upper-karnali"
+  proposed_slug: ""
+  caption: "Figure 2.7-2 Location Map of NHDP Priority Projects"
+  paragraph_anchor: ""
+  source_page: 125
+  note: ""
+  raw_caption: "Figure 2.7-2 Location Map of NHDP Priority Projects"
+  candidate_slugs: ["upper-karnali", "upper-trishuli-1", "wb-nepal-power-sector-reform-2022"]
+- page: 127
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 2.7-3 Outline of NHDP"
+  paragraph_anchor: ""
+  source_page: 127
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Figure 2.7-3 Outline of NHDP"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "nepal-transmission-landscape-2025"]
+- page: 129
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Table 2.7-2 Project Scope (Transmission Line and Substation Facilities)"
+  paragraph_anchor: ""
+  source_page: 129
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Table 2.7-2 Project Scope (Transmission Line and Substation Facilities)"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "claim-timing-not-volume"]
+- page: 129
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Detailed Feasibility Studies: Transmission Projects in Nepal Volume 8: Project Summary, March 2017"
+  paragraph_anchor: ""
+  source_page: 129
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Detailed Feasibility Studies: Transmission Projects in Nepal Volume 8: Project Summary, March 2017"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "claim-timing-not-volume"]
+- page: 129
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "in Nepal Annex 2; Current Status of the Power Sector in Nepal"
+  paragraph_anchor: ""
+  source_page: 129
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "in Nepal Annex 2; Current Status of the Power Sector in Nepal"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "claim-timing-not-volume"]
+- page: 135
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "(Source: Environmental Monitoring Report, July 2022, PTDEEP)"
+  paragraph_anchor: ""
+  source_page: 135
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "(Source: Environmental Monitoring Report, July 2022, PTDEEP)"
+  candidate_slugs: ["nea", "data-domestic-demand", "niettp"]
+- page: 137
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Social Monitoring Report, July 2023 (January – June 2023), EGMP"
+  paragraph_anchor: ""
+  source_page: 137
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Social Monitoring Report, July 2023 (January – June 2023), EGMP"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "wecs-energy-synopsis-2024", "nepal-energy-profile"]
+- page: 146
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "ROR: Run of River This method involves diverting river water directly to the"
+  paragraph_anchor: ""
+  source_page: 146
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "ROR: Run of River This method involves diverting river water directly to the"
+  candidate_slugs: ["data-domestic-demand", "run-of-river-hydropower", "wb-water-sector-diagnostic"]
+- page: 146
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "PROR: Peak Run of River This method involves storing water in a regulating pond to"
+  paragraph_anchor: ""
+  source_page: 146
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "PROR: Peak Run of River This method involves storing water in a regulating pond to"
+  candidate_slugs: ["data-domestic-demand", "run-of-river-hydropower", "wb-water-sector-diagnostic"]
+- page: 146
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "STO: Storage This method involves storing water in a large reservoir for"
+  paragraph_anchor: ""
+  source_page: 146
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "STO: Storage This method involves storing water in a large reservoir for"
+  candidate_slugs: ["data-domestic-demand", "run-of-river-hydropower", "wb-water-sector-diagnostic"]
+- page: 146
+  image_index: 3
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "PS: Pumped Storage This method utilizing the head between two regulating pond."
+  paragraph_anchor: ""
+  source_page: 146
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "PS: Pumped Storage This method utilizing the head between two regulating pond."
+  candidate_slugs: ["data-domestic-demand", "run-of-river-hydropower", "wb-water-sector-diagnostic"]
+- page: 155
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: NEA Annual Report 2022/2023"
+  paragraph_anchor: ""
+  source_page: 155
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Source: NEA Annual Report 2022/2023"
+  candidate_slugs: ["nea", "nea-annual-report-fy2024-25", "claim-systems-conversion-failure"]
+- page: 155
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: NEA Annual Report 2022/2023"
+  paragraph_anchor: ""
+  source_page: 155
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Source: NEA Annual Report 2022/2023"
+  candidate_slugs: ["nea", "nea-annual-report-fy2024-25", "claim-systems-conversion-failure"]
+- page: 158
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 158
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: ""
+  candidate_slugs: ["claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022", "nea"]
+- page: 159
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 159
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: ""
+  candidate_slugs: ["claim-systems-conversion-failure", "wb-nepal-power-sector-reform-2022", "nea"]
+- page: 176
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 4.1-1 Image of National Power Policy 2013"
+  paragraph_anchor: ""
+  source_page: 176
+  note: "hand-adjust:drop; Figure 4.1-1 National Power Policy 2013 is a generic policy figure, not lower-badigad specific"
+  raw_caption: "Figure 4.1-1 Image of National Power Policy 2013"
+  candidate_slugs: ["lower-badigad", "sun-koshi-no-3", "andhi-khola"]
+- page: 177
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Table 4.1-3 Summary of Present Status of Promising Projects (JICA 2018)"
+  paragraph_anchor: ""
+  source_page: 177
+  note: "hand-adjust:drop; Table 4.1-3 is an aggregate status table (text > pixels), not lower-badigad specific"
+  raw_caption: "Source: Data Collection Survey on Hydropower Development Project (JICA2018)"
+  candidate_slugs: ["lower-badigad", "lower-jhimruk", "sun-koshi-no-3"]
+- page: 183
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Transmission System Development Plan of Nepal (July 2018, RPGCL)"
+  paragraph_anchor: ""
+  source_page: 183
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Transmission System Development Plan of Nepal (July 2018, RPGCL)"
+  candidate_slugs: ["nepal-transmission-landscape-2025", "data-domestic-demand", "nea"]
+- page: 188
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 188
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["nepal-transmission-landscape-2025", "trishuli", "claim-systems-conversion-failure"]
+- page: 190
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 4; Review of Existing Development Plans in Nepal"
+  paragraph_anchor: ""
+  source_page: 190
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Annex 4; Review of Existing Development Plans in Nepal"
+  candidate_slugs: ["wecs-river-basin-plan-2024", "nawalpur-132kv-substation", "purbi-chitwan-132kv-substation"]
+- page: 190
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 4.2-7 Birauta substation construction site"
+  paragraph_anchor: ""
+  source_page: 190
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Figure 4.2-7 Birauta substation construction site"
+  candidate_slugs: ["wecs-river-basin-plan-2024", "nawalpur-132kv-substation", "purbi-chitwan-132kv-substation"]
+- page: 195
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2021/2022"
+  paragraph_anchor: ""
+  source_page: 195
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2021/2022"
+  candidate_slugs: ["data-domestic-demand", "wb-nepal-power-sector-reform-2022", "wecs-energy-synopsis-2024"]
+- page: 196
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 196
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["nea", "data-domestic-demand", "bangladesh-trade-route"]
+- page: 196
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "number of consumers is forcasted to increase in the future."
+  paragraph_anchor: ""
+  source_page: 196
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "number of consumers is forcasted to increase in the future."
+  candidate_slugs: ["nea", "data-domestic-demand", "bangladesh-trade-route"]
+- page: 198
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 198
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "data-domestic-demand", "claim-systems-conversion-failure"]
+- page: 198
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 5.1-5 Daily Load Curve"
+  paragraph_anchor: ""
+  source_page: 198
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Figure 5.1-5 Daily Load Curve"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "data-domestic-demand", "claim-systems-conversion-failure"]
+- page: 199
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2020/2021"
+  paragraph_anchor: ""
+  source_page: 199
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2020/2021"
+  candidate_slugs: ["nea", "wb-nepal-power-sector-reform-2022", "data-domestic-demand"]
+- page: 199
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2021/2022"
+  paragraph_anchor: ""
+  source_page: 199
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2021/2022"
+  candidate_slugs: ["nea", "wb-nepal-power-sector-reform-2022", "data-domestic-demand"]
+- page: 200
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 200
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["claim-systems-conversion-failure", "nea-annual-report-fy2024-25", "wb-nepal-power-sector-reform-2022"]
+- page: 200
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "It declined slightly in 2020 but is still at 69.0% in 2021."
+  paragraph_anchor: ""
+  source_page: 200
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "It declined slightly in 2020 but is still at 69.0% in 2021."
+  candidate_slugs: ["claim-systems-conversion-failure", "nea-annual-report-fy2024-25", "wb-nepal-power-sector-reform-2022"]
+- page: 204
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 204
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["nea", "data-domestic-demand", "wb-nepal-power-sector-reform-2022"]
+- page: 204
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "growth rates as variables. Figure 5.2-3 shows the power demand forecast by NEA."
+  paragraph_anchor: ""
+  source_page: 204
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "growth rates as variables. Figure 5.2-3 shows the power demand forecast by NEA."
+  candidate_slugs: ["nea", "data-domestic-demand", "wb-nepal-power-sector-reform-2022"]
+- page: 205
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team based on Power demand Forecast Report (2015-2040), Annual Report 2021/2022"
+  paragraph_anchor: ""
+  source_page: 205
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Prepared by JICA Study Team based on Power demand Forecast Report (2015-2040), Annual Report 2021/2022"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "nea", "wecs"]
+- page: 206
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 206
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["claim-systems-conversion-failure", "nea-annual-report-fy2024-25", "wb-nepal-power-sector-reform-2022"]
+- page: 208
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 208
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["data-domestic-demand", "wb-nepal-power-sector-reform-2022", "bangladesh-trade-route"]
+- page: 209
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 209
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "data-domestic-demand", "bangladesh-trade-route"]
+- page: 210
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 210
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["adb-hydropower-growth-nepal", "wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure"]
+- page: 210
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Table 5.3-2."
+  paragraph_anchor: ""
+  source_page: 210
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Table 5.3-2."
+  candidate_slugs: ["adb-hydropower-growth-nepal", "wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure"]
+- page: 211
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "(a) GDP Transition"
+  paragraph_anchor: ""
+  source_page: 211
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "(a) GDP Transition"
+  candidate_slugs: ["data-domestic-demand", "adb-hydropower-growth-nepal", "wb-nepal-power-sector-reform-2022"]
+- page: 211
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "(a) GDP Transition"
+  paragraph_anchor: ""
+  source_page: 211
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "(a) GDP Transition"
+  candidate_slugs: ["data-domestic-demand", "adb-hydropower-growth-nepal", "wb-nepal-power-sector-reform-2022"]
+- page: 212
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "(a) Industrial GDP"
+  paragraph_anchor: ""
+  source_page: 212
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "(a) Industrial GDP"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "wb-country-economic-memo-2025"]
+- page: 212
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "(b) Commercial GDP"
+  paragraph_anchor: ""
+  source_page: 212
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "(b) Commercial GDP"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "wb-country-economic-memo-2025"]
+- page: 212
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "(b) Commercial GDP"
+  paragraph_anchor: ""
+  source_page: 212
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "(b) Commercial GDP"
+  candidate_slugs: ["wb-nepal-power-sector-reform-2022", "claim-systems-conversion-failure", "wb-country-economic-memo-2025"]
+- page: 216
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 216
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["data-domestic-demand", "nea", "wb-nepal-power-sector-reform-2022"]
+- page: 217
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 217
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["data-domestic-demand", "nea", "wb-nepal-power-sector-reform-2022"]
+- page: 218
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "times more than the value in 2021."
+  paragraph_anchor: ""
+  source_page: 218
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "times more than the value in 2021."
+  candidate_slugs: ["data-domestic-demand", "nea", "wb-nepal-power-sector-reform-2022"]
+- page: 219
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 219
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["wb-water-sector-diagnostic", "data-domestic-demand", "nea"]
+- page: 220
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 5.4-5 Results of Electricity Demand Forecast"
+  paragraph_anchor: ""
+  source_page: 220
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Figure 5.4-5 Results of Electricity Demand Forecast"
+  candidate_slugs: ["data-domestic-demand", "bangladesh-trade-route", "nea"]
+- page: 229
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 229
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["data-domestic-demand", "wecs-energy-synopsis-2024", "bangladesh-trade-route"]
+- page: 230
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "2021."
+  paragraph_anchor: ""
+  source_page: 230
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "2021."
+  candidate_slugs: ["data-domestic-demand", "data-mountain-hydro-comparison", "bangladesh-trade-route"]
+- page: 232
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "were considered."
+  paragraph_anchor: ""
+  source_page: 232
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "were considered."
+  candidate_slugs: ["data-domestic-demand", "nea", "nepal-transmission-landscape-2025"]
+- page: 233
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 233
+  note: "skipped:per-target-cap-reached"
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["nea", "nepal-transmission-landscape-2025", "data-mountain-hydro-comparison"]
+- page: 234
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 5; Power Demand Forecast in Nepal"
+  paragraph_anchor: ""
+  source_page: 234
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Annex 5; Power Demand Forecast in Nepal"
+  candidate_slugs: ["data-domestic-demand", "nepal-transmission-landscape-2025", "data-mountain-hydro-comparison"]
+- page: 235
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 235
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["data-mountain-hydro-comparison", "data-domestic-demand", "nea"]
+- page: 235
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 235
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["data-mountain-hydro-comparison", "data-domestic-demand", "nea"]
+- page: 236
+  image_index: 0
+  action: crop
+  target_slug: "nea"
+  proposed_slug: ""
+  caption: "Figure 5.6-6 Calculation Point for Peak Demand"
+  paragraph_anchor: ""
+  source_page: 236
+  note: ""
+  raw_caption: "Figure 5.6-6 Calculation Point for Peak Demand"
+  candidate_slugs: ["nea", "wecs", "data-domestic-demand"]
+- page: 237
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: Prepared by JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 237
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: Prepared by JICA Study Team"
+  candidate_slugs: ["data-domestic-demand", "adb-hydropower-growth-nepal", "bangladesh-trade-route"]
+- page: 246
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 6; Hydropower Development Plan in Nepal"
+  paragraph_anchor: ""
+  source_page: 246
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal", "claim-systems-conversion-failure"]
+- page: 250
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 6.2-1 Example of Hydropower Development Database (1): Watershed Map of Karnali"
+  paragraph_anchor: ""
+  source_page: 250
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Figure 6.2-1 Example of Hydropower Development Database (1): Watershed Map of Karnali"
+  candidate_slugs: ["claim-mw-not-equal-value", "arun-3-project-status-2025", "claim-systems-conversion-failure"]
+- page: 251
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 251
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal", "claim-systems-conversion-failure"]
+- page: 251
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 251
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal", "claim-systems-conversion-failure"]
+- page: 251
+  image_index: 2
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 251
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal", "claim-systems-conversion-failure"]
+- page: 251
+  image_index: 3
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 251
+  note: "skipped:auto-routed-to-source"
+  raw_caption: ""
+  candidate_slugs: ["wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal", "claim-systems-conversion-failure"]
+- page: 252
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "*: Colored boxes indicates the areas of issued/applying projects (information from DoED web site)"
+  paragraph_anchor: ""
+  source_page: 252
+  note: "skipped:bottom-quartile-confidence (score=16.75, q1=18.81)"
+  raw_caption: "*: Colored boxes indicates the areas of issued/applying projects (information from DoED web site)"
+  candidate_slugs: ["nalsyau-gad", "wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal"]
+- page: 254
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "STO: Storage, ROR : Run-of-River, PROR : Peak Run-of-River : Canceled"
+  paragraph_anchor: ""
+  source_page: 254
+  note: "hand-adjust:drop; caption is a legend key (STO/ROR/PROR), not meaningful on upper-karnali"
+  raw_caption: "STO: Storage, ROR : Run-of-River, PROR : Peak Run-of-River : Canceled"
+  candidate_slugs: ["upper-karnali", "phukot-karnali", "mugu-karnali-storage-hep"]
+- page: 255
+  image_index: 0
+  action: inline_figure
+  target_slug: "west-seti"
+  proposed_slug: ""
+  caption: "Figure 6.3-2 River Longitudinal Profile of the West Seti River"
+  paragraph_anchor: "# West Seti Hydroelectric Project"
+  source_page: 255
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["west-seti", "chainpur-seti", "upper-arun"]
+- page: 256
+  image_index: 0
+  action: filmstrip
+  target_slug: "humla-karnali-1-hpp"
+  proposed_slug: ""
+  caption: "Figure 6.3-3 River Longitudinal Profile of the Tila River"
+  paragraph_anchor: ""
+  source_page: 256
+  note: ""
+  raw_caption: "Figure 6.3-3 River Longitudinal Profile of the Tila River"
+  candidate_slugs: ["humla-karnali-1-hpp", "humla-karnali-2-hpp", "mugu-karnali-storage-hep"]
+- page: 257
+  image_index: 0
+  action: filmstrip
+  target_slug: "humla-karnali-1-hpp"
+  proposed_slug: ""
+  caption: "Figure 6.3-4 River Longitudinal Profile of the Humla Karnali River"
+  paragraph_anchor: ""
+  source_page: 257
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["humla-karnali-1-hpp", "humla-karnali-2-hpp", "mugu-karnali-storage-hep"]
+- page: 258
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 258
+  note: "skipped:auto-routed-to-source"
+  raw_caption: ""
+  candidate_slugs: ["nepal-transmission-landscape-2025", "wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal"]
+- page: 260
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 6; Hydropower Development Plan in Nepal"
+  paragraph_anchor: ""
+  source_page: 260
+  note: "skipped:bottom-quartile-confidence (score=9.75, q1=18.81)"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["bheri-corridor-400kv", "bheri-1-hep", "bheri-2-hep"]
+- page: 260
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 6.3-6 River Longitudinal Profile of the Bheri River (downstream) and Sani Bheri River"
+  paragraph_anchor: ""
+  source_page: 260
+  note: "skipped:bottom-quartile-confidence (score=9.75, q1=18.81)"
+  raw_caption: "Figure 6.3-6 River Longitudinal Profile of the Bheri River (downstream) and Sani Bheri River"
+  candidate_slugs: ["bheri-corridor-400kv", "bheri-1-hep", "bheri-2-hep"]
+- page: 262
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 262
+  note: "skipped:auto-routed-to-source"
+  raw_caption: ""
+  candidate_slugs: ["nepal-transmission-landscape-2025", "wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal"]
+- page: 263
+  image_index: 0
+  action: filmstrip
+  target_slug: "kali-gandaki-kowan"
+  proposed_slug: ""
+  caption: "Table 6.3-7 Hydropower Development Projects on the Kali Gandaki River"
+  paragraph_anchor: ""
+  source_page: 263
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["kali-gandaki-kowan", "kaligandaki-upper", "lower-badigad"]
+- page: 264
+  image_index: 0
+  action: inline_figure
+  target_slug: "kali-gandaki-kowan"
+  proposed_slug: ""
+  caption: "Figure 6.3-10 River Longitudinal Profile of the Kali Gandaki River (Upstream)"
+  paragraph_anchor: ""
+  source_page: 264
+  note: "hand-adjust:reroute-to-kali-gandaki-kowan; caption is Kali Gandaki upstream profile; kali-gandaki-kowan is the upstream storage project"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["lower-badigad", "wecs-river-basin-plan-2024", "wecs"]
+- page: 265
+  image_index: 0
+  action: inline_figure
+  target_slug: "upper-myagdi"
+  proposed_slug: ""
+  caption: "Table 6.3-9 Hydropower Development Projects on the Myagdi Khola River"
+  paragraph_anchor: "# Upper Myagdi"
+  source_page: 265
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["upper-myagdi", "durbang-myagdi-khola", "lower-modi-khola"]
+- page: 266
+  image_index: 0
+  action: inline_figure
+  target_slug: "upper-myagdi"
+  proposed_slug: ""
+  caption: "Figure 6.3-12 River Longitudinal Profile of the Myagdi Khola River"
+  paragraph_anchor: "# Upper Myagdi"
+  source_page: 266
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["upper-myagdi", "durbang-myagdi-khola", "upper-lapche-khola"]
+- page: 267
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "m a Te y d u St A C JI e: c ur o S"
+  paragraph_anchor: ""
+  source_page: 267
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "m a Te y d u St A C JI e: c ur o S"
+  candidate_slugs: ["nepal-transmission-landscape-2025", "wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal"]
+- page: 268
+  image_index: 0
+  action: filmstrip
+  target_slug: "trishuli"
+  proposed_slug: ""
+  caption: "Figure 6.3-14 River Longitudinal Profile of the Trishuli River"
+  paragraph_anchor: ""
+  source_page: 268
+  note: ""
+  raw_caption: "Figure 6.3-14 River Longitudinal Profile of the Trishuli River"
+  candidate_slugs: ["trishuli", "trishuli-galchhi", "upper-trishuli-1"]
+- page: 270
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 6.3-15 River Longitudinal Profile of the Seti Nadi River"
+  paragraph_anchor: ""
+  source_page: 270
+  note: "hand-adjust:drop; caption is Seti Nadi profile, target marsyangdi; no seti-nadi page exists"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["marsyangdi", "upper-marsyangdi-a", "marsyangdi-besi"]
+- page: 271
+  image_index: 0
+  action: inline_figure
+  target_slug: "marsyangdi"
+  proposed_slug: ""
+  caption: "Figure 6.3-16 River Longitudinal Profile of the Marsyangdi River"
+  paragraph_anchor: "# Marsyangdi"
+  source_page: 271
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["marsyangdi", "upper-marsyangdi-a", "madhya-marsyangdi"]
+- page: 272
+  image_index: 0
+  action: inline_figure
+  target_slug: "budhigandaki"
+  proposed_slug: ""
+  caption: "Figure 6.3-17 River Longitudinal Profile of the Budhi Gandaki River"
+  paragraph_anchor: "# Budhigandaki Hydroelectric Project"
+  source_page: 272
+  note: ""
+  raw_caption: "Figure 6.3-17 River Longitudinal Profile of the Budhi Gandaki River"
+  candidate_slugs: ["budhigandaki", "trishuli", "kali-gandaki-a"]
+- page: 273
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "m a Te y d u St A C JI e: c ur o S"
+  paragraph_anchor: ""
+  source_page: 273
+  note: "skipped:bottom-quartile-confidence (score=13.50, q1=18.81)"
+  raw_caption: "m a Te y d u St A C JI e: c ur o S"
+  candidate_slugs: ["marsyangdi", "trishuli", "nepal-transmission-landscape-2025"]
+- page: 274
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 6.3-19 River Longitudinal Profile of the Sun Koshi River"
+  paragraph_anchor: ""
+  source_page: 274
+  note: "hand-adjust:drop; caption is Sun Koshi profile, target upper-bhotekoshi; no sun-koshi page"
+  raw_caption: "Figure 6.3-19 River Longitudinal Profile of the Sun Koshi River"
+  candidate_slugs: ["upper-bhotekoshi", "madhya-bhotekoshi", "sun-koshi-no-3"]
+- page: 275
+  image_index: 0
+  action: inline_figure
+  target_slug: "dudhkoshi-storage"
+  proposed_slug: ""
+  caption: "Figure 6.3-20 River Longitudinal Profile of the Dudh Koshi River"
+  paragraph_anchor: "# Dudhkoshi Storage Hydroelectric Project"
+  source_page: 275
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["dudhkoshi-storage", "madhya-bhotekoshi", "wb-water-sector-diagnostic"]
+- page: 277
+  image_index: 0
+  action: filmstrip
+  target_slug: "likhu-4"
+  proposed_slug: ""
+  caption: "Figure 6.3-21 River Longitudinal Profile of the Likhu Khola River"
+  paragraph_anchor: ""
+  source_page: 277
+  note: "hand-adjust:reroute-to-likhu-4; caption is Likhu Khola; likhu-4 HEP is on that river"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["lapche-khola", "upper-tamakoshi", "upper-lapche-khola"]
+- page: 278
+  image_index: 0
+  action: filmstrip
+  target_slug: "khimti-i"
+  proposed_slug: ""
+  caption: "Figure 6.3-22 River Longitudinal Profile of the Tamakoshi and Khimiti River"
+  paragraph_anchor: ""
+  source_page: 278
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["khimti-i", "khimti-ii", "tamakoshi-3"]
+- page: 279
+  image_index: 0
+  action: inline_figure
+  target_slug: "balephi"
+  proposed_slug: ""
+  caption: "Figure 6.3-23 River Longitudinal Profile of the Balephi River"
+  paragraph_anchor: "# Balephi"
+  source_page: 279
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["balephi", "upper-balephi-a", "upper-lapche-khola"]
+- page: 280
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 280
+  note: "skipped:auto-routed-to-source"
+  raw_caption: ""
+  candidate_slugs: ["nepal-transmission-landscape-2025", "wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal"]
+- page: 281
+  image_index: 0
+  action: inline_figure
+  target_slug: "arun-3"
+  proposed_slug: ""
+  caption: "Figure 6.3-25 River Longitudinal Profile of the Arun River"
+  paragraph_anchor: "# Arun 3"
+  source_page: 281
+  note: "caption-rehabbed-from-page-text"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["arun-3", "kimathanka-arun-hep", "upper-arun"]
+- page: 282
+  image_index: 0
+  action: inline_figure
+  target_slug: "upper-tamor"
+  proposed_slug: ""
+  caption: "Figure 6.3-26 River Longitudinal Profile of the Tamor River"
+  paragraph_anchor: "# Upper Tamor"
+  source_page: 282
+  note: ""
+  raw_caption: "Figure 6.3-26 River Longitudinal Profile of the Tamor River"
+  candidate_slugs: ["upper-tamor", "tamor-storage", "middle-tamor"]
+- page: 283
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "m a Te y d u St A C JI e: c ur o S"
+  paragraph_anchor: ""
+  source_page: 283
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "m a Te y d u St A C JI e: c ur o S"
+  candidate_slugs: ["nepal-transmission-landscape-2025", "wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal"]
+- page: 284
+  image_index: 0
+  action: inline_figure
+  target_slug: "chameliya-khola"
+  proposed_slug: ""
+  caption: "Figure 6.3-28 River Longitudinal Profile of the Chameliya River"
+  paragraph_anchor: "# Chameliya Khola"
+  source_page: 284
+  note: ""
+  raw_caption: "Figure 6.3-28 River Longitudinal Profile of the Chameliya River"
+  candidate_slugs: ["chameliya-khola", "wecs-river-basin-plan-2024", "chameliya-jauljibi-interconnection"]
+- page: 285
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 285
+  note: "skipped:bottom-quartile-confidence (score=16.50, q1=18.81)"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["madi", "naumure-w-rapti", "wb-water-sector-diagnostic"]
+- page: 286
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 6.3-30 River Longitudinal Profile of the Rapti River"
+  paragraph_anchor: ""
+  source_page: 286
+  note: "hand-adjust:drop; caption is Rapti profile, target madi; subject mismatch"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["madi", "naumure-w-rapti", "wb-water-sector-diagnostic"]
+- page: 287
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "y d u St A C JI e: c ur o S"
+  paragraph_anchor: ""
+  source_page: 287
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "y d u St A C JI e: c ur o S"
+  candidate_slugs: ["nepal-transmission-landscape-2025", "wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal"]
+- page: 288
+  image_index: 0
+  action: inline_figure
+  target_slug: "bagmati-nadi"
+  proposed_slug: ""
+  caption: "Figure 6.3-32 River Longitudinal Profile of the Bagmati River"
+  paragraph_anchor: "# Bagmati Nadi"
+  source_page: 288
+  note: ""
+  raw_caption: "Figure 6.3-32 River Longitudinal Profile of the Bagmati River"
+  candidate_slugs: ["bagmati-nadi", "wb-water-sector-diagnostic", "national-water-plan-nepal"]
+- page: 289
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: ""
+  paragraph_anchor: ""
+  source_page: 289
+  note: "skipped:auto-routed-to-source"
+  raw_caption: ""
+  candidate_slugs: ["wecs-river-basin-plan-2024", "adb-hydropower-growth-nepal", "claim-systems-conversion-failure"]
+- page: 296
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 6; Hydropower Development Plan in Nepal"
+  paragraph_anchor: ""
+  source_page: 296
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["claim-mw-not-equal-value", "green-hydrogen-nepal", "claim-systems-conversion-failure"]
+- page: 297
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 297
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["data-nea-transmission-length-fy2076-77", "nepal-transmission-landscape-2025", "green-hydrogen-nepal"]
+- page: 298
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 6; Hydropower Development Plan in Nepal"
+  paragraph_anchor: ""
+  source_page: 298
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["claim-systems-conversion-failure", "kali-gandaki-a-adb-evaluation", "nepal-transmission-landscape-2025"]
+- page: 298
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 6.5-4 Evaluation Results of Screening: (1) Economy - LCOE [cent/kWh]"
+  paragraph_anchor: ""
+  source_page: 298
+  note: "skipped:bottom-quartile-confidence (score=5.00, q1=18.81)"
+  raw_caption: "Figure 6.5-4 Evaluation Results of Screening: (1) Economy - LCOE [cent/kWh]"
+  candidate_slugs: ["claim-systems-conversion-failure", "kali-gandaki-a-adb-evaluation", "nepal-transmission-landscape-2025"]
+- page: 299
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 299
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["kali-gandaki-a-adb-evaluation", "wb-nepal-power-sector-reform-2022", "green-hydrogen-nepal"]
+- page: 299
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 299
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["kali-gandaki-a-adb-evaluation", "wb-nepal-power-sector-reform-2022", "green-hydrogen-nepal"]
+- page: 300
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "large-scale reservoir-type hydropower plants located downstream of each river."
+  paragraph_anchor: ""
+  source_page: 300
+  note: "skipped:bottom-quartile-confidence (score=13.50, q1=18.81)"
+  raw_caption: "large-scale reservoir-type hydropower plants located downstream of each river."
+  candidate_slugs: ["glof-risk", "claim-systems-conversion-failure", "nepal-transmission-landscape-2025"]
+- page: 301
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 301
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["claim-systems-conversion-failure", "kali-gandaki-a-adb-evaluation", "green-hydrogen-nepal"]
+- page: 301
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 301
+  note: "skipped:auto-routed-to-claim-or-data"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["claim-systems-conversion-failure", "kali-gandaki-a-adb-evaluation", "green-hydrogen-nepal"]
+- page: 303
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 303
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["claim-systems-conversion-failure", "kali-gandaki-a-adb-evaluation", "nepal-transmission-landscape-2025"]
+- page: 303
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 303
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["claim-systems-conversion-failure", "kali-gandaki-a-adb-evaluation", "nepal-transmission-landscape-2025"]
+- page: 304
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Annex 6; Hydropower Development Plan in Nepal"
+  paragraph_anchor: ""
+  source_page: 304
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: "Annex 6; Hydropower Development Plan in Nepal"
+  candidate_slugs: ["claim-systems-conversion-failure", "kali-gandaki-a-adb-evaluation", "nepal-transmission-landscape-2025"]
+- page: 304
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 6.5-13 Evaluation Results of Screening: (5) Environment – Forest Area [%]"
+  paragraph_anchor: ""
+  source_page: 304
+  note: "skipped:bottom-quartile-confidence (score=5.00, q1=18.81)"
+  raw_caption: "Figure 6.5-13 Evaluation Results of Screening: (5) Environment – Forest Area [%]"
+  candidate_slugs: ["claim-systems-conversion-failure", "kali-gandaki-a-adb-evaluation", "nepal-transmission-landscape-2025"]
+- page: 305
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 305
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["kali-gandaki-a-adb-evaluation", "green-hydrogen-nepal", "claim-systems-conversion-failure"]
+- page: 305
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 305
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["kali-gandaki-a-adb-evaluation", "green-hydrogen-nepal", "claim-systems-conversion-failure"]
+- page: 306
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Figure 6.5-16 Evaluation Results of Screening: (6) Progress – Progress of Project"
+  paragraph_anchor: ""
+  source_page: 306
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Figure 6.5-16 Evaluation Results of Screening: (6) Progress – Progress of Project"
+  candidate_slugs: ["kali-gandaki-a-adb-evaluation", "betan-karnali-hp", "gandaki-basin"]
+- page: 306
+  image_index: 1
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Above results are summarized as Figure 6.5-17 and Table 6.5-4."
+  paragraph_anchor: ""
+  source_page: 306
+  note: "skipped:auto-routed-to-source"
+  raw_caption: "Above results are summarized as Figure 6.5-17 and Table 6.5-4."
+  candidate_slugs: ["kali-gandaki-a-adb-evaluation", "betan-karnali-hp", "gandaki-basin"]
+- page: 307
+  image_index: 0
+  action: drop
+  target_slug: ""
+  proposed_slug: ""
+  caption: "Source: JICA Study Team"
+  paragraph_anchor: ""
+  source_page: 307
+  note: "skipped:new-node-shape-rejected"
+  raw_caption: "Source: JICA Study Team"
+  candidate_slugs: ["adb-hydropower-growth-nepal", "claim-domestic-led-strategy", "claim-systems-conversion-failure"]

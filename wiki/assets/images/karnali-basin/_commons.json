@@ -1,0 +1,44 @@
+{
+  "slug": "karnali-basin",
+  "entries": [
+    {
+      "commons_title": "File:Karnali-IMG 0138.jpg",
+      "src": "karnali-basin/karnali-img-0138.jpg",
+      "filename": "karnali-img-0138.jpg",
+      "caption": "This is a photo of a natural site in Nepal identified by the ID",
+      "credit": "Wang Lama Humla",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKarnali-IMG_0138.jpg",
+      "width": 2000,
+      "height": 1333,
+      "fetched_at": 1776662707
+    },
+    {
+      "commons_title": "File:Karnali river.JPG",
+      "src": "karnali-basin/karnali-river.jpg",
+      "filename": "karnali-river.jpg",
+      "caption": "Einmündung der Chuwa Khola (rechts im Bild) in die Humla Karnali",
+      "credit": "Sherparinji",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKarnali_river.JPG",
+      "width": 5184,
+      "height": 3456,
+      "fetched_at": 1776662707
+    },
+    {
+      "commons_title": "File:Karnali Bridge Karnali River Chisapani Kailali Pradesh 7 Nepal Rajesh Dhungana (22).jpg",
+      "src": "karnali-basin/karnali-bridge-karnali-river-chisapani-kailali-pradesh-7-nepal-rajesh-dhungana-22.jpg",
+      "filename": "karnali-bridge-karnali-river-chisapani-kailali-pradesh-7-nepal-rajesh-dhungana-22.jpg",
+      "caption": "Karnali Bridge of Chisapani in Kailali District.",
+      "credit": "Rajesh Dhungana",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKarnali_Bridge_Karnali_River_Chisapani_Kailali_Pradesh_7_Nepal_Rajesh_Dhungana_%2822%29.jpg",
+      "width": 7353,
+      "height": 3828,
+      "fetched_at": 1776662710
+    }
+  ]
+}

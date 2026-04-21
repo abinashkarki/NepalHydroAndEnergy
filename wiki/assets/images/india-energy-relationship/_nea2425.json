@@ -1,0 +1,25 @@
+{
+  "slug": "india-energy-relationship",
+  "entries": [
+    {
+      "src": "india-energy-relationship/nea2425-p146-img00.png",
+      "filename": "nea2425-p146-img00.png",
+      "caption": "Nepal Electricity Authority",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 146,
+      "image_index": 0,
+      "action": "crop",
+      "bbox": [
+        110.16,
+        57.61,
+        376.98,
+        775.06
+      ],
+      "width": 741,
+      "height": 1993,
+      "fetched_at": 1776764007
+    }
+  ]
+}

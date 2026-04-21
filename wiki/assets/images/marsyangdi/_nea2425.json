@@ -1,0 +1,85 @@
+{
+  "slug": "marsyangdi",
+  "entries": [
+    {
+      "src": "marsyangdi/nea2425-p020-img00.png",
+      "filename": "nea2425-p020-img00.png",
+      "caption": "Comparison: % of designed vs % of Target (FY 2081/82)",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 20,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        62.89,
+        132.36,
+        532.38,
+        350.04
+      ],
+      "width": 1304,
+      "height": 604,
+      "fetched_at": 1776763999
+    },
+    {
+      "src": "marsyangdi/nea2425-p020-img01.png",
+      "filename": "nea2425-p020-img01.png",
+      "caption": "Wet vs Dry Season Generation of last three fiscal years",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 20,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        303.89,
+        381.45,
+        530.85,
+        543.13
+      ],
+      "width": 630,
+      "height": 449,
+      "fetched_at": 1776763999
+    },
+    {
+      "src": "marsyangdi/nea2425-p020-img02.png",
+      "filename": "nea2425-p020-img02.png",
+      "caption": "Monthly seasonal variation of last three fiscal years",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 20,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        76.54,
+        577.14,
+        518.74,
+        748.81
+      ],
+      "width": 1228,
+      "height": 476,
+      "fetched_at": 1776763999
+    },
+    {
+      "src": "marsyangdi/nea2425-p022-img00.png",
+      "filename": "nea2425-p022-img00.png",
+      "caption": "Unit No.1 overhauling works",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 22,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        62.36,
+        61.03,
+        292.68,
+        252.86
+      ],
+      "width": 639,
+      "height": 532,
+      "fetched_at": 1776764000
+    }
+  ]
+}

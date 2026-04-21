@@ -1,0 +1,84 @@
+{
+  "_doc": "Map lenses. Each preset = a named layer set + initial fit_bounds, mirroring the four Folium HTMLs in docs/maps/. Choosing a preset replaces the active layer set; opening a wiki page after that ADDS the page's needed layers without unloading the preset.",
+
+  "default_preset": "tributary_explorer",
+
+  "presets": {
+    "tributary_explorer": {
+      "label": "Tributary explorer",
+      "short": "Tributaries",
+      "subtitle": "Rivers + downstream + built / under-construction hydro",
+      "description": "The general-purpose Nepal river view: tributaries, Nepal-origin downstream systems extending beyond the border, and the 261 hydropower projects that are operating or licensed to build. The 311 survey-only sites stay one toggle away in the layer panel. Mirrors docs/maps/nepal_tributary_explorer.html.",
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "downstream_systems",
+        "hydropower_operating",
+        "hydropower_construction"
+      ],
+      "bounds": [[24.2, 78.0], [31.3, 89.5]]
+    },
+
+    "tributary_network": {
+      "label": "River network",
+      "short": "Rivers",
+      "subtitle": "Rivers + downstream, no project clutter",
+      "description": "Same hydrology as the explorer but without the 572-project cloud. Use when you want to read the river geometry on its own. Mirrors docs/maps/nepal_tributary_network.html.",
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "downstream_systems"
+      ],
+      "bounds": [[24.2, 78.0], [31.3, 89.5]]
+    },
+
+    "geopolitics": {
+      "label": "Geopolitics",
+      "short": "Geopolitics",
+      "subtitle": "Where Nepal sits in Gangetic basin geography",
+      "description": "Basin polygons (Nepal-linked + India comparison), origin/control callouts, downstream impact markers, and India reference rivers turned on by default. Answers: which Gangetic systems route through Nepal, which don't, and how much of each upstream basin lies inside the border. Mirrors docs/maps/nepal_geopolitics_river_influence.html.",
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "downstream_systems",
+        "india_rivers",
+        "basin_polygons",
+        "india_basins",
+        "callouts",
+        "hydrology_markers"
+      ],
+      "bounds": [[24.0, 77.5], [31.5, 90.0]]
+    },
+
+    "power_system": {
+      "label": "Power system",
+      "short": "Power",
+      "subtitle": "Grid, gateways, priority projects, storage",
+      "description": "Traced transmission corridors, grid hubs, cross-border interconnections, the curated priority watchlist, the storage shortlist, and the full hydropower cloud. River layers stay available but start off so the network reads as a power system rather than another hydro trace. Mirrors docs/maps/nepal_power_system_explorer.html.",
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "transmission_corridors",
+        "place_anchors",
+        "cross_border",
+        "priority_watchlist",
+        "storage_shortlist",
+        "hydropower_operating",
+        "hydropower_construction"
+      ],
+      "bounds": [[25.4, 80.5], [30.6, 88.6]]
+    },
+
+    "wiki": {
+      "label": "Wiki minimal",
+      "short": "Minimal",
+      "subtitle": "Sparse base · let the page drive the layers",
+      "description": "A near-empty starting canvas. Useful when you want the wiki page (and its binding's layers_on) to entirely drive what shows up on the map.",
+      "layers_on": [
+        "country_outline",
+        "basin_polygons"
+      ],
+      "bounds": [[26.0, 80.0], [30.7, 88.5]]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "moewri-ipsdp-exec-summary-2025",
+  "entries": [
+    {
+      "src": "moewri-ipsdp-exec-summary-2025/ipsdp2025-p010-img01.png",
+      "filename": "ipsdp2025-p010-img01.png",
+      "caption": "Figure 2.2-2 Outline of Hydropower Database",
+      "credit": "Ministry of Energy, Water Resources and Irrigation (MoEWRI) / JICA — Project on Integrated Power System Development Plan in Nepal, Executive Summary (2025)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
+      "source_page": 10,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        50.16,
+        186.6,
+        516.24,
+        294.0
+      ],
+      "width": 1295,
+      "height": 298,
+      "fetched_at": 1776763988
+    },
+    {
+      "src": "moewri-ipsdp-exec-summary-2025/ipsdp2025-p028-img02.png",
+      "filename": "ipsdp2025-p028-img02.png",
+      "caption": "Figure 2.4-9 Basic Funding Flows in Nepal's Electricity Sector",
+      "credit": "Ministry of Energy, Water Resources and Irrigation (MoEWRI) / JICA — Project on Integrated Power System Development Plan in Nepal, Executive Summary (2025)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
+      "source_page": 28,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        94.8,
+        170.64,
+        471.12,
+        262.08
+      ],
+      "width": 1045,
+      "height": 254,
+      "fetched_at": 1776763989
+    },
+    {
+      "src": "moewri-ipsdp-exec-summary-2025/ipsdp2025-p030-img02.png",
+      "filename": "ipsdp2025-p030-img02.png",
+      "caption": "Figure 2.4-10 Relationship between available investment amount from cash on hand and capital",
+      "credit": "Ministry of Energy, Water Resources and Irrigation (MoEWRI) / JICA — Project on Integrated Power System Development Plan in Nepal, Executive Summary (2025)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
+      "source_page": 30,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        95.52,
+        388.08,
+        470.88,
+        498.24
+      ],
+      "width": 1043,
+      "height": 306,
+      "fetched_at": 1776763989
+    },
+    {
+      "src": "moewri-ipsdp-exec-summary-2025/ipsdp2025-p039-img01.png",
+      "filename": "ipsdp2025-p039-img01.png",
+      "caption": "2040 :Contribution to South",
+      "credit": "Ministry of Energy, Water Resources and Irrigation (MoEWRI) / JICA — Project on Integrated Power System Development Plan in Nepal, Executive Summary (2025)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
+      "source_page": 39,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        153.0,
+        108.0,
+        520.08,
+        184.2
+      ],
+      "width": 1020,
+      "height": 211,
+      "fetched_at": 1776763989
+    }
+  ]
+}

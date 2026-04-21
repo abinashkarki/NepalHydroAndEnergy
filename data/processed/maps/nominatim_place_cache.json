@@ -1,0 +1,1322 @@
+{
+  "Hetauda Substation, Nepal": [
+    {
+      "place_id": 223022000,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11993062769,
+      "lat": "27.4309935",
+      "lon": "85.0084010",
+      "category": "office",
+      "type": "government",
+      "place_rank": 30,
+      "importance": 5.000152590214416e-05,
+      "addresstype": "office",
+      "name": "\u0928\u092f\u093e\u0901 \u0939\u0947\u091f\u094c\u0901\u0921\u093e \u0938\u092c\u0938\u094d\u091f\u0947\u0936\u0928",
+      "display_name": "\u0928\u092f\u093e\u0901 \u0939\u0947\u091f\u094c\u0901\u0921\u093e \u0938\u092c\u0938\u094d\u091f\u0947\u0936\u0928, \u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930 \u0930\u093e\u091c\u094d\u092e\u093e\u0930\u094d\u0917\u094d, \u0917\u094b\u0932\u092a\u093f\u0919\u091f\u093e\u0930, Hetauda-11, \u0939\u0947\u091f\u094c\u0901\u0921\u093e, \u0939\u0947\u091f\u094c\u0901\u0921\u093e \u0909\u092a\u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u092e\u0915\u0935\u093e\u0928\u092a\u0941\u0930 \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 44107, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.4309435",
+        "27.4310435",
+        "85.0083510",
+        "85.0084510"
+      ]
+    }
+  ],
+  "Dhalkebar Nepal": [
+    {
+      "place_id": 418863954,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3384195014,
+      "lat": "26.9300120",
+      "lon": "85.9548800",
+      "category": "place",
+      "type": "suburb",
+      "place_rank": 19,
+      "importance": 0.14671666819256882,
+      "addresstype": "suburb",
+      "name": "Dhalkebar",
+      "display_name": "Dhalkebar, Mithila-06, \u092e\u093f\u0925\u093f\u0932\u093e, \u092e\u093f\u0925\u093f\u0932\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0927\u0928\u0941\u0937\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "26.9100120",
+        "26.9500120",
+        "85.9348800",
+        "85.9748800"
+      ]
+    }
+  ],
+  "Inaruwa Substation, Nepal": [
+    {
+      "place_id": 224562333,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9805414717,
+      "lat": "26.6098699",
+      "lon": "87.1218153",
+      "category": "office",
+      "type": "government",
+      "place_rank": 30,
+      "importance": 4.902342259856592e-05,
+      "addresstype": "office",
+      "name": "Inaruwa 400kV Substation",
+      "display_name": "Inaruwa 400kV Substation, \u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930 \u0930\u093e\u091c\u094d\u092e\u093e\u0930\u094d\u0917\u094d, Bhokraha, Bhokraha-04, \u092d\u094b\u0915\u094d\u0930\u093e\u0939\u093e \u0928\u0930\u0938\u093f\u0902\u0939, \u092d\u094b\u0915\u094d\u0930\u093e\u0939\u093e \u0928\u0930\u0938\u093f\u0902\u0939 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u0941\u0928\u0938\u0930\u0940 \u091c\u093f\u0932\u094d\u0932\u093e, \u0915\u094b\u0936\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "26.6098199",
+        "26.6099199",
+        "87.1217653",
+        "87.1218653"
+      ]
+    }
+  ],
+  "Bharatpur Nepal": [
+    {
+      "place_id": 222451499,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 567090203,
+      "lat": "27.6811896",
+      "lon": "84.4301652",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.42234121106503436,
+      "addresstype": "city",
+      "name": "\u092d\u0930\u0924\u092a\u0941\u0930",
+      "display_name": "\u092d\u0930\u0924\u092a\u0941\u0930, \u092d\u0930\u0924\u092a\u0941\u0930 \u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u091a\u093f\u0924\u0935\u0928 \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 44207, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.5211896",
+        "27.8411896",
+        "84.2701652",
+        "84.5901652"
+      ]
+    },
+    {
+      "place_id": 226192537,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9619831202,
+      "lat": "28.2324841",
+      "lon": "82.1046099",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "Bharatpur",
+      "display_name": "Bharatpur, \u092c\u092c\u0908-\u0966\u0968, \u092c\u092c\u0908, \u0926\u093e\u0919, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.2124841",
+        "28.2524841",
+        "82.0846099",
+        "82.1246099"
+      ]
+    },
+    {
+      "place_id": 419527808,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8593273375,
+      "lat": "26.9305491",
+      "lon": "85.7624185",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "\u092d\u0930\u0924\u092a\u0941\u0930",
+      "display_name": "\u092d\u0930\u0924\u092a\u0941\u0930, Gaushala-09, \u0917\u094c\u0936\u093e\u0932\u093e, \u0917\u094c\u0936\u093e\u0932\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u092e\u0939\u094b\u0924\u094d\u0924\u0930\u0940 \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "26.9105491",
+        "26.9505491",
+        "85.7424185",
+        "85.7824185"
+      ]
+    },
+    {
+      "place_id": 224296353,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 12393267,
+      "lat": "27.6879749",
+      "lon": "84.4336765",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 14,
+      "importance": 0.2133833348592355,
+      "addresstype": "municipality",
+      "name": "\u092d\u0930\u0924\u092a\u0941\u0930 \u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e",
+      "display_name": "\u092d\u0930\u0924\u092a\u0941\u0930 \u092e\u0939\u093e\u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u091a\u093f\u0924\u0935\u0928 \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.5517535",
+        "27.8247361",
+        "84.1572862",
+        "84.5260113"
+      ]
+    },
+    {
+      "place_id": 225025595,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9527344578,
+      "lat": "28.0309534",
+      "lon": "82.4874853",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "\u092d\u0930\u0924\u092a\u0941\u0930",
+      "display_name": "\u092d\u0930\u0924\u092a\u0941\u0930, \u0918\u094b\u0930\u093e\u0939\u0940-\u0967\u096b, \u0918\u094b\u0930\u093e\u0939\u0940, \u0926\u093e\u0919, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 22415, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.0109534",
+        "28.0509534",
+        "82.4674853",
+        "82.5074853"
+      ]
+    }
+  ],
+  "Bardaghat Nepal": [
+    {
+      "place_id": 400289873,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12609740708,
+      "lat": "27.5514632",
+      "lon": "83.7993104",
+      "category": "place",
+      "type": "town",
+      "place_rank": 18,
+      "importance": 0.16005000152590218,
+      "addresstype": "town",
+      "name": "\u092c\u0930\u094d\u0926\u0918\u093e\u091f",
+      "display_name": "\u092c\u0930\u094d\u0926\u0918\u093e\u091f, \u0928\u0935\u0932\u092a\u0930\u093e\u0938\u0940 \u092a\u0936\u094d\u091a\u093f\u092e / \u092c\u0930\u094d\u0926\u0918\u093e\u091f \u0938\u0941\u0938\u094d\u0924\u093e \u092a\u0936\u094d\u091a\u093f\u092e, Nawalparasi W, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 33011, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.5114632",
+        "27.5914632",
+        "83.7593104",
+        "83.8393104"
+      ]
+    },
+    {
+      "place_id": 224444785,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6630315485,
+      "lat": "27.5573797",
+      "lon": "83.7610873",
+      "category": "shop",
+      "type": "books",
+      "place_rank": 30,
+      "importance": 5.000152590214416e-05,
+      "addresstype": "shop",
+      "name": "Nepal",
+      "display_name": "Nepal, 17, \u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930 \u0930\u093e\u091c\u094d\u092e\u093e\u0930\u094d\u0917\u094d, Bardaghat Susta-11, \u092c\u0930\u094d\u0926\u0918\u093e\u091f, \u0928\u0935\u0932\u092a\u0930\u093e\u0938\u0940 \u092a\u0936\u094d\u091a\u093f\u092e / \u092c\u0930\u094d\u0926\u0918\u093e\u091f \u0938\u0941\u0938\u094d\u0924\u093e \u092a\u0936\u094d\u091a\u093f\u092e, Nawalparasi W, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 00977, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.5573297",
+        "27.5574297",
+        "83.7610373",
+        "83.7611373"
+      ]
+    },
+    {
+      "place_id": 224443962,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10492506,
+      "lat": "27.5693232",
+      "lon": "83.7929833",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 14,
+      "importance": 0.2133833348592355,
+      "addresstype": "municipality",
+      "name": "\u0928\u0935\u0932\u092a\u0930\u093e\u0938\u0940 \u092a\u0936\u094d\u091a\u093f\u092e / \u092c\u0930\u094d\u0926\u0918\u093e\u091f \u0938\u0941\u0938\u094d\u0924\u093e \u092a\u0936\u094d\u091a\u093f\u092e",
+      "display_name": "\u0928\u0935\u0932\u092a\u0930\u093e\u0938\u0940 \u092a\u0936\u094d\u091a\u093f\u092e / \u092c\u0930\u094d\u0926\u0918\u093e\u091f \u0938\u0941\u0938\u094d\u0924\u093e \u092a\u0936\u094d\u091a\u093f\u092e, Nawalparasi W, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.4724646",
+        "27.6668453",
+        "83.7348601",
+        "83.8822556"
+      ]
+    }
+  ],
+  "Khimti Nepal": [
+    {
+      "place_id": 420397788,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3459771653,
+      "lat": "27.4920323",
+      "lon": "86.1016008",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "\u0916\u093f\u092e\u094d\u0924\u0940",
+      "display_name": "\u0916\u093f\u092e\u094d\u0924\u0940, Manthali-13, \u092e\u0928\u094d\u0925\u0932\u0940 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0930\u093e\u092e\u0947\u091b\u093e\u092a \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.4720323",
+        "27.5120323",
+        "86.0816008",
+        "86.1216008"
+      ]
+    },
+    {
+      "place_id": 224641763,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 757101426,
+      "lat": "27.5438366",
+      "lon": "86.1621607",
+      "category": "waterway",
+      "type": "river",
+      "place_rank": 19,
+      "importance": 0.14671666819256882,
+      "addresstype": "river",
+      "name": "Khimti Khola",
+      "display_name": "Khimti Khola, \u0924\u093e\u092e\u093e\u0915\u094b\u0936\u0940 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u0926\u094b\u0932\u0916\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.4738761",
+        "27.5909150",
+        "86.1126925",
+        "86.2449322"
+      ]
+    },
+    {
+      "place_id": 224227899,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 235576808,
+      "lat": "27.6785502",
+      "lon": "86.3365868",
+      "category": "waterway",
+      "type": "river",
+      "place_rank": 19,
+      "importance": 0.14671666819256882,
+      "addresstype": "river",
+      "name": "Khimti Khola",
+      "display_name": "Khimti Khola, \u0917\u094b\u0915\u0941\u0932\u0917\u0919\u094d\u0917\u093e \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u0930\u093e\u092e\u0947\u091b\u093e\u092a \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.6139858",
+        "27.7412507",
+        "86.2998975",
+        "86.3770212"
+      ]
+    },
+    {
+      "place_id": 224554745,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 757101427,
+      "lat": "27.5977219",
+      "lon": "86.2739196",
+      "category": "waterway",
+      "type": "river",
+      "place_rank": 19,
+      "importance": 0.14671666819256882,
+      "addresstype": "river",
+      "name": "Khimti Khola",
+      "display_name": "Khimti Khola, Gokulganga-02, \u0917\u094b\u0915\u0941\u0932\u0917\u0919\u094d\u0917\u093e \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u0930\u093e\u092e\u0947\u091b\u093e\u092a \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.5904899",
+        "27.6139858",
+        "86.2449322",
+        "86.2998975"
+      ]
+    },
+    {
+      "place_id": 222850275,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 456220972,
+      "lat": "27.7558755",
+      "lon": "86.3897108",
+      "category": "waterway",
+      "type": "river",
+      "place_rank": 19,
+      "importance": 0.14671666819256882,
+      "addresstype": "river",
+      "name": "Khimti Kh",
+      "display_name": "Khimti Kh, Jiri-01, \u091c\u093f\u0930\u0940 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0926\u094b\u0932\u0916\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.7412507",
+        "27.7650830",
+        "86.3760777",
+        "86.4059469"
+      ]
+    }
+  ],
+  "Tingla Nepal": [
+    {
+      "place_id": 224482852,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8812605740,
+      "lat": "27.4156500",
+      "lon": "86.6075290",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333733340962844,
+      "addresstype": "hamlet",
+      "name": "Tingla",
+      "display_name": "Tingla, Nechasalyan-06, \u0928\u0947\u091a\u093e\u0938\u0932\u094d\u092f\u093e\u0928 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u094b\u0932\u0941\u0916\u0941\u092e\u094d\u092c\u0941 \u091c\u093f\u0932\u094d\u0932\u093e, \u0915\u094b\u0936\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.3956500",
+        "27.4356500",
+        "86.5875290",
+        "86.6275290"
+      ]
+    }
+  ],
+  "Mirchaiya Nepal": [
+    {
+      "place_id": 224571549,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10424757,
+      "lat": "26.8321962",
+      "lon": "86.2448435",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 14,
+      "importance": 0.2133833348592355,
+      "addresstype": "municipality",
+      "name": "\u092e\u093f\u0930\u094d\u091a\u0948\u092f\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e",
+      "display_name": "\u092e\u093f\u0930\u094d\u091a\u0948\u092f\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u093f\u0930\u093e\u0939\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "26.7779027",
+        "26.8870306",
+        "86.1764412",
+        "86.3420022"
+      ]
+    },
+    {
+      "place_id": 224629588,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2424150061,
+      "lat": "26.8304301",
+      "lon": "86.2524757",
+      "category": "place",
+      "type": "town",
+      "place_rank": 18,
+      "importance": 0.16005000152590218,
+      "addresstype": "town",
+      "name": "\u092e\u093f\u0930\u094d\u091a\u0948\u092f\u093e",
+      "display_name": "\u092e\u093f\u0930\u094d\u091a\u0948\u092f\u093e, \u092e\u093f\u0930\u094d\u091a\u0948\u092f\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u093f\u0930\u093e\u0939\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "26.7904301",
+        "26.8704301",
+        "86.2124757",
+        "86.2924757"
+      ]
+    }
+  ],
+  "Dana Myagdi Nepal": [
+    {
+      "place_id": 225891610,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4781229922,
+      "lat": "28.5402676",
+      "lon": "83.6495034",
+      "category": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 5.000152590214416e-05,
+      "addresstype": "tourism",
+      "name": "Dana",
+      "display_name": "Dana, Beni - Jomsom Road, D\u0101na, Annapurna-03, Ligma, Annapurna, \u092e\u094d\u092f\u093e\u0917\u094d\u0926\u0940, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.5402176",
+        "28.5403176",
+        "83.6494534",
+        "83.6495534"
+      ]
+    },
+    {
+      "place_id": 226025382,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5669668378,
+      "lat": "28.5394532",
+      "lon": "83.6480185",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "D\u0101na",
+      "display_name": "D\u0101na, Annapurna-03, Ligma, Annapurna, \u092e\u094d\u092f\u093e\u0917\u094d\u0926\u0940, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.5194532",
+        "28.5594532",
+        "83.6280185",
+        "83.6680185"
+      ]
+    }
+  ],
+  "Kushma Nepal": [
+    {
+      "place_id": 225420077,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10515184,
+      "lat": "28.2339253",
+      "lon": "83.6860455",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 14,
+      "importance": 0.2133833348592355,
+      "addresstype": "municipality",
+      "name": "Kushma",
+      "display_name": "Kushma, \u092a\u0930\u094d\u0935\u0924, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 33400, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.1813029",
+        "28.2862340",
+        "83.6092391",
+        "83.8095977"
+      ]
+    }
+  ],
+  "Butwal Nepal": [
+    {
+      "place_id": 225799901,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3172617940,
+      "lat": "27.7003986",
+      "lon": "83.4657667",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.4216117942344225,
+      "addresstype": "city",
+      "name": "\u092c\u0941\u091f\u0935\u0932",
+      "display_name": "\u092c\u0941\u091f\u0935\u0932, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 32907, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.5403986",
+        "27.8603986",
+        "83.3057667",
+        "83.6257667"
+      ]
+    },
+    {
+      "place_id": 225862569,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 12409358,
+      "lat": "27.6827731",
+      "lon": "83.4438620",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 14,
+      "importance": 0.2133833348592355,
+      "addresstype": "municipality",
+      "name": "\u092c\u0941\u091f\u0935\u0932",
+      "display_name": "\u092c\u0941\u091f\u0935\u0932, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 32907, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.6154894",
+        "27.7490946",
+        "83.3611138",
+        "83.5041214"
+      ]
+    }
+  ],
+  "Ratmate Nuwakot Nepal": [
+    {
+      "place_id": 425074594,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5055621837,
+      "lat": "27.8530224",
+      "lon": "85.0613809",
+      "category": "place",
+      "type": "suburb",
+      "place_rank": 19,
+      "importance": 0.3268260957230098,
+      "addresstype": "suburb",
+      "name": "\u0930\u093e\u0924\u092e\u093e\u091f\u0947",
+      "display_name": "\u0930\u093e\u0924\u092e\u093e\u091f\u0947, Belkotgadhi-07, \u092c\u0947\u0932\u0915\u094b\u091f\u0917\u0922\u0940 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0928\u0941\u0935\u093e\u0915\u094b\u091f \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.8330224",
+        "27.8730224",
+        "85.0413809",
+        "85.0813809"
+      ]
+    }
+  ],
+  "Lapsiphedi Nepal": [
+    {
+      "place_id": 421568691,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3024124995,
+      "lat": "27.7518193",
+      "lon": "85.4947890",
+      "category": "place",
+      "type": "suburb",
+      "place_rank": 19,
+      "importance": 0.14672022507057292,
+      "addresstype": "suburb",
+      "name": "\u0932\u092a\u094d\u0938\u0940\u092b\u0947\u0926\u0940",
+      "display_name": "\u0932\u092a\u094d\u0938\u0940\u092b\u0947\u0926\u0940, Shankharapur-03, \u0936\u0919\u094d\u0916\u0930\u093e\u092a\u0941\u0930 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0915\u093e\u0920\u092e\u093e\u0921\u094c\u0902 \u091c\u093f\u0932\u094d\u0932\u093e, \u092c\u093e\u0917\u092e\u0924\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 44812, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.7318193",
+        "27.7718193",
+        "85.4747890",
+        "85.5147890"
+      ]
+    }
+  ],
+  "Damauli Nepal": [
+    {
+      "place_id": 224739639,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 340687574,
+      "lat": "27.9828293",
+      "lon": "84.2655773",
+      "category": "natural",
+      "type": "wood",
+      "place_rank": 22,
+      "importance": 0.10671666819256884,
+      "addresstype": "wood",
+      "name": "Damauli Forest",
+      "display_name": "Damauli Forest, Byas-04, \u0926\u092e\u094c\u0932\u0940, Byas, \u0924\u0928\u0939\u0941\u0901, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.9788422",
+        "27.9868961",
+        "84.2625704",
+        "84.2721520"
+      ]
+    },
+    {
+      "place_id": 222610685,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 216528416,
+      "lat": "27.9509810",
+      "lon": "84.3103107",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053383334859235486,
+      "addresstype": "road",
+      "name": "Damauli-Pokhari Bhanjyang-Keshavtar-Dharampani-Bandipur",
+      "display_name": "Damauli-Pokhari Bhanjyang-Keshavtar-Dharampani-Bandipur, funding gaun, Byas-13, Keshavtar, Byas, \u0924\u0928\u0939\u0941\u0901, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.9339911",
+        "27.9642325",
+        "84.2836406",
+        "84.3392596"
+      ]
+    },
+    {
+      "place_id": 223935071,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 672110970,
+      "lat": "27.9181831",
+      "lon": "84.3522110",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053383334859235486,
+      "addresstype": "road",
+      "name": "Damauli-Pokhari Bhanjyang-Keshavtar-Dharampani-Bandipur",
+      "display_name": "Damauli-Pokhari Bhanjyang-Keshavtar-Dharampani-Bandipur, Byas-14, Keshavtar, Byas, \u0924\u0928\u0939\u0941\u0901, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 00000, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.8971131",
+        "27.9336972",
+        "84.3401538",
+        "84.3608742"
+      ]
+    },
+    {
+      "place_id": 224745755,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 962817837,
+      "lat": "27.9611512",
+      "lon": "84.2794073",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053383334859235486,
+      "addresstype": "road",
+      "name": "Damauli-Pokhari Bhanjyang-Keshavtar-Dharampani-Bandipur",
+      "display_name": "Damauli-Pokhari Bhanjyang-Keshavtar-Dharampani-Bandipur, belbas, Byas-13, \u0926\u092e\u094c\u0932\u0940, Byas, \u0924\u0928\u0939\u0941\u0901, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.9609003",
+        "27.9623003",
+        "84.2777811",
+        "84.2813190"
+      ]
+    },
+    {
+      "place_id": 222867751,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 672110971,
+      "lat": "27.9338712",
+      "lon": "84.3400701",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053383334859235486,
+      "addresstype": "road",
+      "name": "Damauli-Pokhari Bhanjyang-Keshavtar-Dharampani-Bandipur",
+      "display_name": "Damauli-Pokhari Bhanjyang-Keshavtar-Dharampani-Bandipur, bel bhanjayang, Byas-13, Keshavtar, Byas, \u0924\u0928\u0939\u0941\u0901, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 00000, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.9336972",
+        "27.9342944",
+        "84.3392596",
+        "84.3411694"
+      ]
+    }
+  ],
+  "Udipur Lamjung Nepal": [
+    {
+      "place_id": 225959541,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1742495827,
+      "lat": "28.1767940",
+      "lon": "84.4311680",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "Udipur",
+      "display_name": "Udipur, Besishahar-01, Besishahar, \u0932\u092e\u091c\u0941\u0919, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.1567940",
+        "28.1967940",
+        "84.4111680",
+        "84.4511680"
+      ]
+    }
+  ],
+  "Muzaffarpur Bihar India": [
+    {
+      "place_id": 224003183,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1960284,
+      "lat": "26.1482548",
+      "lon": "85.3316097",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.5906709070083619,
+      "addresstype": "state_district",
+      "name": "Muzaffarpur",
+      "display_name": "Muzaffarpur, Bihar, India",
+      "boundingbox": [
+        "25.9035500",
+        "26.3932570",
+        "84.8718186",
+        "85.7542847"
+      ]
+    },
+    {
+      "place_id": 224282946,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 566622644,
+      "lat": "26.1182898",
+      "lon": "85.3857888",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.4858599227164451,
+      "addresstype": "city",
+      "name": "Muzaffarpur",
+      "display_name": "Muzaffarpur, Musahri, Muzaffarpur, Bihar, 842001, India",
+      "boundingbox": [
+        "25.9582898",
+        "26.2782898",
+        "85.2257888",
+        "85.5457888"
+      ]
+    },
+    {
+      "place_id": 222787450,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 316417223,
+      "lat": "26.1667052",
+      "lon": "85.4166314",
+      "category": "place",
+      "type": "county",
+      "place_rank": 12,
+      "importance": 0.24005416266117338,
+      "addresstype": "county",
+      "name": "Muzaffarpur",
+      "display_name": "Muzaffarpur, Bihar, 842004, India",
+      "boundingbox": [
+        "25.4667052",
+        "26.8667052",
+        "84.7166314",
+        "86.1166314"
+      ]
+    }
+  ],
+  "Kushaha Nepal": [
+    {
+      "place_id": 419120455,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2837163668,
+      "lat": "26.6848442",
+      "lon": "86.5399036",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "\u0915\u0941\u0936\u093e\u0939\u093e",
+      "display_name": "\u0915\u0941\u0936\u093e\u0939\u093e, Surunga-05, \u0938\u0941\u0930\u0941\u0919\u094d\u0917\u093e, \u0938\u0941\u0930\u0941\u0919\u094d\u0917\u093e \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u092a\u094d\u0924\u0930\u0940 \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "26.6648442",
+        "26.7048442",
+        "86.5199036",
+        "86.5599036"
+      ]
+    },
+    {
+      "place_id": 224372911,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5040922427,
+      "lat": "26.5132687",
+      "lon": "87.2263670",
+      "category": "place",
+      "type": "village",
+      "place_rank": 19,
+      "importance": 0.14672013962005032,
+      "addresstype": "village",
+      "name": "Purba Kushaha",
+      "display_name": "Purba Kushaha, \u0926\u0941\u0939\u0935\u0940 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0938\u0941\u0928\u0938\u0930\u0940 \u091c\u093f\u0932\u094d\u0932\u093e, \u0915\u094b\u0936\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "26.4932687",
+        "26.5332687",
+        "87.2063670",
+        "87.2463670"
+      ]
+    }
+  ],
+  "Parwanipur Nepal": [
+    {
+      "place_id": 224725190,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10529070,
+      "lat": "27.0552387",
+      "lon": "84.9303298",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 14,
+      "importance": 0.2133842488746471,
+      "addresstype": "municipality",
+      "name": "\u092a\u0930\u0935\u093e\u0928\u0940\u092a\u0941\u0930 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e",
+      "display_name": "\u092a\u0930\u0935\u093e\u0928\u0940\u092a\u0941\u0930 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u092c\u093e\u0930\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, 44400, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.0322052",
+        "27.0781964",
+        "84.8986704",
+        "84.9629837"
+      ]
+    },
+    {
+      "place_id": 418685116,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3491407697,
+      "lat": "27.0677392",
+      "lon": "84.9201813",
+      "category": "place",
+      "type": "village",
+      "place_rank": 19,
+      "importance": 0.14671758220798042,
+      "addresstype": "village",
+      "name": "\u092a\u0930\u0935\u093e\u0928\u0940\u092a\u0941\u0930",
+      "display_name": "\u092a\u0930\u0935\u093e\u0928\u0940\u092a\u0941\u0930, \u092a\u0930\u0935\u093e\u0928\u0940\u092a\u0941\u0930 \u0917\u093e\u0909\u0901\u092a\u093e\u0932\u093f\u0915\u093e, \u092c\u093e\u0930\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, 44400, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.0477392",
+        "27.0877392",
+        "84.9001813",
+        "84.9401813"
+      ]
+    }
+  ],
+  "Mainahiya Rupandehi Nepal": [
+    {
+      "place_id": 225809529,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9780836120,
+      "lat": "27.5329041",
+      "lon": "83.3909065",
+      "category": "amenity",
+      "type": "clinic",
+      "place_rank": 30,
+      "importance": 5.000152590214416e-05,
+      "addresstype": "amenity",
+      "name": "mainahiya swasthya chauki",
+      "display_name": "mainahiya swasthya chauki, 49A008R, Siyari-02, Siyari, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 32900, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.5328541",
+        "27.5329541",
+        "83.3908565",
+        "83.3909565"
+      ]
+    },
+    {
+      "place_id": 225414991,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9780842332,
+      "lat": "27.5339088",
+      "lon": "83.3905869",
+      "category": "amenity",
+      "type": "school",
+      "place_rank": 30,
+      "importance": 5.000152590214416e-05,
+      "addresstype": "amenity",
+      "name": "shree mainahiya mavi",
+      "display_name": "shree mainahiya mavi, 49A008R, Siyari-02, Siyari, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 32900, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.5338588",
+        "27.5339588",
+        "83.3905369",
+        "83.3906369"
+      ]
+    }
+  ],
+  "Gaddachauki Nepal": [
+    {
+      "place_id": 222017207,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11936852771,
+      "lat": "28.9931995",
+      "lon": "80.1223078",
+      "category": "office",
+      "type": "government",
+      "place_rank": 30,
+      "importance": 4.224078736548436e-05,
+      "addresstype": "office",
+      "name": "Immigration Office Gaddachauki",
+      "display_name": "Immigration Office Gaddachauki, \u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930 \u0930\u093e\u091c\u094d\u092e\u093e\u0930\u094d\u0917\u094d, Bhimdatta-11, \u092d\u093f\u092e\u0926\u0924\u094d\u0924, \u0915\u091e\u094d\u091a\u0928\u092a\u0941\u0930 \u091c\u093f\u0932\u094d\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.9931495",
+        "28.9932495",
+        "80.1222578",
+        "80.1223578"
+      ]
+    }
+  ],
+  "Jamunaha Nepal": [
+    {
+      "place_id": 226076607,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10213494915,
+      "lat": "27.9118922",
+      "lon": "81.8167742",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333733340962844,
+      "addresstype": "hamlet",
+      "name": "\u091c\u092e\u0941\u0928\u093e\u0939",
+      "display_name": "\u091c\u092e\u0941\u0928\u093e\u0939, Narainapur-05, Narainapur, \u092c\u093e\u0901\u0915\u0947, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.8918922",
+        "27.9318922",
+        "81.7967742",
+        "81.8367742"
+      ]
+    },
+    {
+      "place_id": 223980911,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3907744412,
+      "lat": "28.0181994",
+      "lon": "81.6034350",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "Jamunaha Gaun",
+      "display_name": "Jamunaha Gaun, \u0928\u0947\u092a\u093e\u0932\u0917\u091e\u094d\u091c, NSMC-24 | Khas Karkando, \u092c\u093e\u0901\u0915\u0947, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.9981994",
+        "28.0381994",
+        "81.5834350",
+        "81.6234350"
+      ]
+    }
+  ],
+  "Belahiya Nepal": [
+    {
+      "place_id": 225646356,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2246454866,
+      "lat": "27.4787449",
+      "lon": "83.4668199",
+      "category": "place",
+      "type": "village",
+      "place_rank": 19,
+      "importance": 0.14671666819256882,
+      "addresstype": "village",
+      "name": "\u092c\u0947\u0932\u0939\u093f\u092f\u093e",
+      "display_name": "\u092c\u0947\u0932\u0939\u093f\u092f\u093e, Siddharthanagar, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "27.4587449",
+        "27.4987449",
+        "83.4468199",
+        "83.4868199"
+      ]
+    }
+  ],
+  "Lamki Nepal": [
+    {
+      "place_id": 226095431,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 342104518,
+      "lat": "28.6280250",
+      "lon": "81.1528930",
+      "category": "place",
+      "type": "town",
+      "place_rank": 18,
+      "importance": 0.2711690462561393,
+      "addresstype": "town",
+      "name": "Lamki Chuha",
+      "display_name": "Lamki Chuha, Lamkichuha, \u0915\u0948\u0932\u093e\u0932\u0940, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.5880250",
+        "28.6680250",
+        "81.1128930",
+        "81.1928930"
+      ]
+    },
+    {
+      "place_id": 226112370,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 480449795,
+      "lat": "28.5637223",
+      "lon": "81.1146863",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.053383334859235486,
+      "addresstype": "road",
+      "name": "Lamki-tikapur road",
+      "display_name": "Lamki-tikapur road, Janaki-01, Toriyapur village, Janaki, \u0915\u0948\u0932\u093e\u0932\u0940, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, 10902, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.5586770",
+        "28.5692829",
+        "81.1093287",
+        "81.1174762"
+      ]
+    }
+  ],
+  "Purnea Bihar India": [
+    {
+      "place_id": 224722300,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 245738523,
+      "lat": "25.7773601",
+      "lon": "87.4731227",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.45484410242286455,
+      "addresstype": "city",
+      "name": "Purnia",
+      "display_name": "Purnia, Purnia East, Purnia, Bihar, 854301, India",
+      "boundingbox": [
+        "25.6173601",
+        "25.9373601",
+        "87.3131227",
+        "87.6331227"
+      ]
+    }
+  ],
+  "Bareilly India": [
+    {
+      "place_id": 225103704,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1958196,
+      "lat": "28.4582345",
+      "lon": "79.4047452",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 10,
+      "importance": 0.5797844823560578,
+      "addresstype": "state_district",
+      "name": "Bareilly",
+      "display_name": "Bareilly, Uttar Pradesh, India",
+      "boundingbox": [
+        "28.0153520",
+        "28.9011901",
+        "78.9694970",
+        "79.7914271"
+      ]
+    },
+    {
+      "place_id": 225173665,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 245765070,
+      "lat": "28.3550990",
+      "lon": "79.4178510",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.48136421697415127,
+      "addresstype": "city",
+      "name": "Bareilly",
+      "display_name": "Bareilly, Uttar Pradesh, 243001, India",
+      "boundingbox": [
+        "28.1950990",
+        "28.5150990",
+        "79.2578510",
+        "79.5778510"
+      ]
+    },
+    {
+      "place_id": 225099229,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 10011679,
+      "lat": "28.4166670",
+      "lon": "79.3833330",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 12,
+      "importance": 0.24005467536430913,
+      "addresstype": "county",
+      "name": "Bareilly",
+      "display_name": "Bareilly, Uttar Pradesh, India",
+      "boundingbox": [
+        "28.2151343",
+        "28.6170008",
+        "79.2390632",
+        "79.6291208"
+      ]
+    }
+  ],
+  "Chameliya Nepal": [
+    {
+      "place_id": 409194968,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 19252613,
+      "lat": "29.7359129",
+      "lon": "80.7392939",
+      "category": "waterway",
+      "type": "stream",
+      "place_rank": 21,
+      "importance": 0.10540294855860563,
+      "addresstype": "stream",
+      "name": "Chameliya Khola",
+      "display_name": "Chameliya Khola, \u0926\u093e\u0930\u094d\u091a\u0941\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "29.6037717",
+        "29.9716928",
+        "80.4087434",
+        "80.9509509"
+      ]
+    },
+    {
+      "place_id": 225460762,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9603495717,
+      "lat": "28.8163548",
+      "lon": "80.5511633",
+      "category": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 5.000152590214416e-05,
+      "addresstype": "tourism",
+      "name": "Hotel Chameliya Plaza",
+      "display_name": "Hotel Chameliya Plaza, Mahakali Highway, Thali gaun, Godawari-02, \u0917\u094b\u0926\u093e\u0935\u0930\u0940, Godawari, \u0915\u0948\u0932\u093e\u0932\u0940, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, 90400, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.8163048",
+        "28.8164048",
+        "80.5511133",
+        "80.5512133"
+      ]
+    }
+  ],
+  "Jauljibi India": [
+    {
+      "place_id": 225586045,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 342103545,
+      "lat": "29.7524071",
+      "lon": "80.3762870",
+      "category": "place",
+      "type": "village",
+      "place_rank": 19,
+      "importance": 0.2345952151314245,
+      "addresstype": "village",
+      "name": "Jauljibi",
+      "display_name": "Jauljibi, Didihat, Pithoragarh district, Uttarakhand, 262544, India",
+      "boundingbox": [
+        "29.7324071",
+        "29.7724071",
+        "80.3562870",
+        "80.3962870"
+      ]
+    }
+  ],
+  "Mahendranagar Nepal": [
+    {
+      "place_id": 225888178,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3907744417,
+      "lat": "28.0228555",
+      "lon": "81.6261151",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.1333833348592355,
+      "addresstype": "hamlet",
+      "name": "Mahendranagar",
+      "display_name": "Mahendranagar, \u0928\u0947\u092a\u093e\u0932\u0917\u091e\u094d\u091c, NSMC-24 | Khas Karkando, \u092c\u093e\u0901\u0915\u0947, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.0028555",
+        "28.0428555",
+        "81.6061151",
+        "81.6461151"
+      ]
+    },
+    {
+      "place_id": 225588392,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2924267068,
+      "lat": "28.9665746",
+      "lon": "80.1785465",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.3476412868877268,
+      "addresstype": "city",
+      "name": "\u092d\u093f\u092e\u0926\u0924\u094d\u0924",
+      "display_name": "\u092d\u093f\u092e\u0926\u0924\u094d\u0924, \u0915\u091e\u094d\u091a\u0928\u092a\u0941\u0930 \u091c\u093f\u0932\u094d\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, 10400, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.8065746",
+        "29.1265746",
+        "80.0185465",
+        "80.3385465"
+      ]
+    },
+    {
+      "place_id": 224252546,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9019851209,
+      "lat": "26.8635752",
+      "lon": "85.9641053",
+      "category": "place",
+      "type": "suburb",
+      "place_rank": 19,
+      "importance": 0.14671666819256882,
+      "addresstype": "suburb",
+      "name": "\u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930\u0928\u0917\u0930",
+      "display_name": "\u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930\u0928\u0917\u0930, Kshireshwornath-05, \u0915\u094d\u0937\u093f\u0930\u0947\u0936\u094d\u0935\u0930\u0928\u093e\u0925, \u0915\u094d\u0937\u093f\u0930\u0947\u0936\u094d\u0935\u0930\u0928\u093e\u0925 \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0927\u0928\u0941\u0937\u093e \u091c\u093f\u0932\u094d\u0932\u093e, \u092e\u0927\u0947\u0936 \u092a\u094d\u0930\u0926\u0947\u0936, 45646, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "26.8435752",
+        "26.8835752",
+        "85.9441053",
+        "85.9841053"
+      ]
+    }
+  ],
+  "Sunauli India": [
+    {
+      "place_id": 225520894,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2246454946,
+      "lat": "27.4719014",
+      "lon": "83.4662018",
+      "category": "place",
+      "type": "town",
+      "place_rank": 18,
+      "importance": 0.2345952151314245,
+      "addresstype": "town",
+      "name": "Sonauli",
+      "display_name": "Sonauli, Nautanwa, Mahrajganj, Uttar Pradesh, India",
+      "boundingbox": [
+        "27.4319014",
+        "27.5119014",
+        "83.4262018",
+        "83.5062018"
+      ]
+    },
+    {
+      "place_id": 226228352,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7894442290,
+      "lat": "29.7080060",
+      "lon": "79.7154665",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13339310063324938,
+      "addresstype": "hamlet",
+      "name": "sunauli",
+      "display_name": "sunauli, Almora, Uttarakhand, 263628, India",
+      "boundingbox": [
+        "29.6880060",
+        "29.7280060",
+        "79.6954665",
+        "79.7354665"
+      ]
+    }
+  ],
+  "Mahendranagar Kanchanpur Nepal": [
+    {
+      "place_id": 225928377,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2924267068,
+      "lat": "28.9665746",
+      "lon": "80.1785465",
+      "category": "place",
+      "type": "city",
+      "place_rank": 16,
+      "importance": 0.3476412868877268,
+      "addresstype": "city",
+      "name": "\u092d\u093f\u092e\u0926\u0924\u094d\u0924",
+      "display_name": "\u092d\u093f\u092e\u0926\u0924\u094d\u0924, \u0915\u091e\u094d\u091a\u0928\u092a\u0941\u0930 \u091c\u093f\u0932\u094d\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, 10400, \u0928\u0947\u092a\u093e\u0932",
+      "boundingbox": [
+        "28.8065746",
+        "29.1265746",
+        "80.0185465",
+        "80.3385465"
+      ]
+    }
+  ]
+}

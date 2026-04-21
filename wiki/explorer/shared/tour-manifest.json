@@ -1,0 +1,207 @@
+{
+  "_doc": "Narrative tour presets for the wiki explorer. One canonical story with three durations (short/deep/expansive).",
+  "default_tour": "master-thesis",
+  "default_mode": "short",
+  "modes": {
+    "short": {
+      "label": "Short",
+      "target_minutes": "5-8",
+      "description": "Thesis-first walkthrough for first-time readers."
+    },
+    "deep": {
+      "label": "Deep",
+      "target_minutes": "15-25",
+      "description": "Evidence-rich pass with key diagnostics and constraints."
+    },
+    "expansive": {
+      "label": "Expansive",
+      "target_minutes": "40+",
+      "description": "Full chapter mode with methods, assumptions, and alternatives."
+    }
+  },
+  "tours": {
+    "master-thesis": {
+      "title": "Nepal Energy Systems Tour",
+      "thesis": "Nepal is not resource-poor; it is timing-constrained and system-constrained.",
+      "steps": [
+        {
+          "id": "core-question",
+          "title": "The Core Question",
+          "page": "claim-transmission-immediate-blocker",
+          "preset": "wiki",
+          "layers_on": [
+            "country_outline",
+            "basin_polygons"
+          ],
+          "focus": {
+            "center": [
+              28.3,
+              84.0
+            ],
+            "zoom": 7
+          },
+          "mode_copy": {
+            "short": "Start from the national puzzle: huge hydro geography, unstable real delivery.",
+            "deep": "Frame the system question: where does potential disappear between river and socket?",
+            "expansive": "Establish scope, definitions, and what counts as evidence in this tour."
+          },
+          "questions": [
+            "Is Nepal's bottleneck generation, storage, grid, market design, or strategy?",
+            "What does 'real energy potential' mean in operational terms?"
+          ]
+        },
+        {
+          "id": "hydrology-reality",
+          "title": "Hydrology Reality",
+          "page": "seasonal-mismatch",
+          "preset": "tributary_explorer",
+          "layers_on": [
+            "country_outline",
+            "tributaries",
+            "basin_polygons",
+            "basin_seasonality"
+          ],
+          "mode_copy": {
+            "short": "Water is abundant annually but heavily concentrated in monsoon months.",
+            "deep": "Show basin-by-basin variability and where dry-season firmness breaks down.",
+            "expansive": "Add measurement caveats, basin exceptions, and climate-sensitivity notes."
+          },
+          "questions": [
+            "Which basins stay resilient in dry season?",
+            "How does seasonal concentration shape power design choices?"
+          ]
+        },
+        {
+          "id": "hydropower-footprint",
+          "title": "Hydropower Footprint",
+          "page": "run-of-river-hydropower",
+          "preset": "tributary_explorer",
+          "layers_on": [
+            "country_outline",
+            "tributaries",
+            "hydropower_operating",
+            "hydropower_construction",
+            "priority_watchlist"
+          ],
+          "mode_copy": {
+            "short": "Most projects are run-of-river, so generation follows flow timing.",
+            "deep": "Map operating vs construction clusters and explain placement tradeoffs.",
+            "expansive": "Compare project archetypes, basin concentration, and underused geographies."
+          },
+          "questions": [
+            "Where is the fleet concentrated relative to river quality?",
+            "What share of potential is theoretical vs developable?"
+          ]
+        },
+        {
+          "id": "storage-gap",
+          "title": "Storage Gap",
+          "page": "storage-deficit",
+          "preset": "power_system",
+          "layers_on": [
+            "country_outline",
+            "basin_polygons",
+            "storage_shortlist"
+          ],
+          "mode_copy": {
+            "short": "Storage is the missing machine that turns seasonal water into firm power.",
+            "deep": "Connect monsoon spill, dry-season imports, and reservoir alternatives.",
+            "expansive": "Include social/environmental tradeoffs and candidate-site prioritization logic."
+          },
+          "questions": [
+            "How much instability is a storage problem?",
+            "Which storage sites create the most system value?"
+          ]
+        },
+        {
+          "id": "grid-constraint",
+          "title": "Grid Constraint Layer",
+          "page": "claim-transmission-immediate-blocker",
+          "preset": "power_system",
+          "layers_on": [
+            "country_outline",
+            "transmission_traced",
+            "transmission_corridors",
+            "cross_border",
+            "place_anchors"
+          ],
+          "mode_copy": {
+            "short": "Even when electricity is generated, weak corridors and interconnectors bottleneck delivery.",
+            "deep": "Show where evacuation constraints strand generation and force curtailment.",
+            "expansive": "Layer corridor timelines, phasing risk, and grid investment sequencing."
+          },
+          "questions": [
+            "What share of underperformance is network-limited?",
+            "Which corridors are highest leverage for reliability and exports?"
+          ]
+        },
+        {
+          "id": "economics-and-timing",
+          "title": "Economics and Timing",
+          "page": "stranded-generation",
+          "preset": "power_system",
+          "layers_on": [
+            "country_outline",
+            "priority_watchlist",
+            "transmission_traced",
+            "cross_border"
+          ],
+          "mode_copy": {
+            "short": "Timing mismatch can force low-value exports and high-value imports in opposite seasons.",
+            "deep": "Tie dispatch limits to contract structure, curtailment, and value leakage.",
+            "expansive": "Add demand-sector pathways for domestic value capture and industrial load growth."
+          },
+          "questions": [
+            "Where is value lost: contracts, timing, or infrastructure?",
+            "Domestic use vs export: where does each MWh create more value?"
+          ]
+        },
+        {
+          "id": "geopolitical-layer",
+          "title": "Geopolitical Layer",
+          "page": "bangladesh-trade-route",
+          "preset": "geopolitics",
+          "layers_on": [
+            "country_outline",
+            "tributaries",
+            "downstream_systems",
+            "india_rivers",
+            "basin_polygons",
+            "india_basins",
+            "cross_border"
+          ],
+          "mode_copy": {
+            "short": "Nepal's upstream geography creates strategic relevance beyond its economic size.",
+            "deep": "Differentiate real leverage from overstated narratives using basin-level context.",
+            "expansive": "Add scenario analysis under climate stress and regional water politics."
+          },
+          "questions": [
+            "How much leverage is geographic vs institutional?",
+            "How does climate volatility alter bargaining power?"
+          ]
+        },
+        {
+          "id": "synthesis",
+          "title": "Synthesis and Path",
+          "page": "claim-storage-physical-fix",
+          "preset": "wiki",
+          "layers_on": [
+            "country_outline",
+            "basin_polygons",
+            "storage_shortlist",
+            "transmission_traced"
+          ],
+          "mode_copy": {
+            "short": "Conclusion: the first unlock is system design, not more slogans about raw potential.",
+            "deep": "Rank bottlenecks and define the minimum viable 20-year sequence.",
+            "expansive": "Present competing strategic pathways and stress-test assumptions."
+          },
+          "questions": [
+            "If only one bottleneck is solved first, which unlocks the most progress?",
+            "What sequence best converts geography into dependable national value?"
+          ]
+        }
+      ]
+    }
+  }
+}

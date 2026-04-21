@@ -1,0 +1,45 @@
+{
+  "slug": "nepal-energy-profile",
+  "entries": [
+    {
+      "src": "nepal-energy-profile/nea2077-p199-img01.png",
+      "filename": "nea2077-p199-img01.png",
+      "caption": "Water pump operating with direct hooking",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 199,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        70.87,
+        547.09,
+        375.17
+      ],
+      "width": 634,
+      "height": 845,
+      "fetched_at": 1776686329
+    },
+    {
+      "src": "nepal-energy-profile/nea2077-p199-img02.png",
+      "filename": "nea2077-p199-img02.png",
+      "caption": "found in Kalaiya DCS",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 199,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        418.67,
+        547.09,
+        735.93
+      ],
+      "width": 634,
+      "height": 881,
+      "fetched_at": 1776686329
+    }
+  ]
+}

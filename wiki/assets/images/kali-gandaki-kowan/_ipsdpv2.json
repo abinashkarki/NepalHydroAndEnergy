@@ -1,0 +1,45 @@
+{
+  "slug": "kali-gandaki-kowan",
+  "entries": [
+    {
+      "src": "kali-gandaki-kowan/ipsdpv2-p263-img00.png",
+      "filename": "ipsdpv2-p263-img00.png",
+      "caption": "Table 6.3-7 Hydropower Development Projects on the Kali Gandaki River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 263,
+      "image_index": 0,
+      "action": "filmstrip",
+      "bbox": [
+        86.3,
+        354.29,
+        537.6,
+        644.74
+      ],
+      "width": 1254,
+      "height": 807,
+      "fetched_at": 1776768024
+    },
+    {
+      "src": "kali-gandaki-kowan/ipsdpv2-p264-img00.png",
+      "filename": "ipsdpv2-p264-img00.png",
+      "caption": "Figure 6.3-10 River Longitudinal Profile of the Kali Gandaki River (Upstream)",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 264,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        57.5,
+        79.35,
+        508.8,
+        371.5
+      ],
+      "width": 1254,
+      "height": 811,
+      "fetched_at": 1776768024
+    }
+  ]
+}

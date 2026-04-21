@@ -1,0 +1,1458 @@
+{
+  "byCategory": {
+    "sources": [
+      {
+        "slug": "adb-hydropower-growth-nepal",
+        "title": "ADB Hydropower Growth Nepal Study"
+      },
+      {
+        "slug": "arun-3-project-status-2025",
+        "title": "Arun-3 Project Status & PDA Summary (2025)"
+      },
+      {
+        "slug": "dudhkoshi-nea-proposal-2024",
+        "title": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record"
+      },
+      {
+        "slug": "green-hydrogen-roadmap-nepal",
+        "title": "Green Hydrogen Roadmap for Nepal"
+      },
+      {
+        "slug": "icimod-hkh-glacier-change",
+        "title": "ICIMOD HKH Glacier Change Summary"
+      },
+      {
+        "slug": "icimod-koshi-basin",
+        "title": "ICIMOD Koshi Basin Programme"
+      },
+      {
+        "slug": "icimod-koshi-sediment-threats",
+        "title": "ICIMOD Threats to the Koshi River Basin"
+      },
+      {
+        "slug": "india-cbte-2018",
+        "title": "India Cross-Border Trade in Electricity Guidelines (2018)"
+      },
+      {
+        "slug": "jica-ipsdp-main-report-vol2",
+        "title": "JICA IPSDP Final Report Annexes (Vol. 2)"
+      },
+      {
+        "slug": "kali-gandaki-a-adb-evaluation",
+        "title": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia"
+      },
+      {
+        "slug": "moewri-ipsdp-exec-summary-2025",
+        "title": "MoEWRI IPSDP Executive Summary"
+      },
+      {
+        "slug": "mugu-karnali-feasibility-2025",
+        "title": "Mugu Karnali Storage \u2014 Feasibility, Bids & EOI Record (2024\u20132025)"
+      },
+      {
+        "slug": "national-water-plan-nepal",
+        "title": "National Water Plan, Nepal"
+      },
+      {
+        "slug": "nea-annual-report-fy2024-25",
+        "title": "NEA Annual Report FY 2024/25"
+      },
+      {
+        "slug": "nea-transmission-annual-book-2077",
+        "title": "NEA Transmission Annual Book 2077"
+      },
+      {
+        "slug": "nepal-transmission-landscape-2025",
+        "title": "Nepal Transmission System \u2014 400 kV Landscape & Cross-Border Plan (2025)"
+      },
+      {
+        "slug": "tanahu-adb-status-2025",
+        "title": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)"
+      },
+      {
+        "slug": "upper-karnali-pda-record",
+        "title": "Upper Karnali \u2014 PDA, Financial Closure & Court Record"
+      },
+      {
+        "slug": "wb-country-economic-memo-2025",
+        "title": "World Bank Nepal Country Economic Memorandum (2025)"
+      },
+      {
+        "slug": "wb-ganges-strategic-basin-assessment",
+        "title": "World Bank Ganges Strategic Basin Assessment"
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)"
+      },
+      {
+        "slug": "wb-water-sector-diagnostic",
+        "title": "World Bank Nepal Water Sector Diagnostic"
+      },
+      {
+        "slug": "wecs-energy-synopsis-2024",
+        "title": "WECS Energy Sector Synopsis Report 2024"
+      },
+      {
+        "slug": "wecs-hydropower-potential-2019",
+        "title": "WECS Assessment of Hydropower Potential of Nepal (2019)"
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)"
+      }
+    ],
+    "entities": [
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola"
+      },
+      {
+        "slug": "ankhu-khola",
+        "title": "Ankhu Khola"
+      },
+      {
+        "slug": "arun-3",
+        "title": "Arun 3"
+      },
+      {
+        "slug": "bagmati-nadi",
+        "title": "Bagmati Nadi"
+      },
+      {
+        "slug": "balephi",
+        "title": "Balephi"
+      },
+      {
+        "slug": "bangladesh-trade-route",
+        "title": "Nepal\u2013Bangladesh Electricity Trade Route"
+      },
+      {
+        "slug": "betan-karnali-hp",
+        "title": "Betan Karnali HP"
+      },
+      {
+        "slug": "bheri-1-hep",
+        "title": "Bheri-1 HEP"
+      },
+      {
+        "slug": "bheri-2-hep",
+        "title": "Bheri-2 HEP"
+      },
+      {
+        "slug": "bheri-4",
+        "title": "Bheri 4"
+      },
+      {
+        "slug": "bheri-corridor-400kv",
+        "title": "Bheri Corridor 400 kV Transmission Line"
+      },
+      {
+        "slug": "bhutan-hydropower-model",
+        "title": "Bhutan Hydropower Model"
+      },
+      {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project"
+      },
+      {
+        "slug": "chainpur-seti",
+        "title": "Chainpur Seti"
+      },
+      {
+        "slug": "chameliya-jauljibi-interconnection",
+        "title": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection"
+      },
+      {
+        "slug": "chameliya-khola",
+        "title": "Chameliya Khola"
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime"
+      },
+      {
+        "slug": "damak-godak-phidim-132kv",
+        "title": "Damak\u2013Godak\u2013Phidim 132 kV Corridor"
+      },
+      {
+        "slug": "dana-kushma-butwal-corridor",
+        "title": "Dana\u2013Kushma\u2013New Butwal 220 kV Corridor"
+      },
+      {
+        "slug": "dhalkebar-muzaffarpur",
+        "title": "Dhalkebar\u2013Muzaffarpur 400 kV Cross-Border Interconnection"
+      },
+      {
+        "slug": "dhungesangu-basantapur-220-132kv",
+        "title": "Dhungesanghu\u2013Basantapur 220/132 kV Corridor"
+      },
+      {
+        "slug": "dordi-khola",
+        "title": "Dordi Khola"
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project"
+      },
+      {
+        "slug": "durbang-myagdi-khola",
+        "title": "Durbang Myagdi Khola"
+      },
+      {
+        "slug": "gandaki-basin",
+        "title": "Gandaki Basin"
+      },
+      {
+        "slug": "gorakhpur-butwal-interconnection",
+        "title": "Gorakhpur\u2013New Butwal 400 kV Cross-Border Interconnection"
+      },
+      {
+        "slug": "hetauda-bharatpur-bardaghat-corridor",
+        "title": "Hetauda\u2013Bharatpur\u2013Bardaghat 220 kV Corridor"
+      },
+      {
+        "slug": "hetauda-dhalkebar-inaruwa-backbone",
+        "title": "Hetauda\u2013Dhalkebar\u2013Inaruwa 400 kV Backbone"
+      },
+      {
+        "slug": "humla-karnali-1-hpp",
+        "title": "Humla Karnali 1 HPP"
+      },
+      {
+        "slug": "humla-karnali-2-hpp",
+        "title": "Humla Karnali 2 HPP"
+      },
+      {
+        "slug": "inaruwa-purnea-interconnection",
+        "title": "Inaruwa\u2013Purnea 400 kV Cross-Border Interconnection"
+      },
+      {
+        "slug": "india-energy-relationship",
+        "title": "India \u2014 Energy Relationship with Nepal"
+      },
+      {
+        "slug": "jagdulla-hep",
+        "title": "Jagdulla HEP"
+      },
+      {
+        "slug": "kabeli-a",
+        "title": "Kabeli-A"
+      },
+      {
+        "slug": "kabeli-b-1",
+        "title": "Kabeli B - 1"
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A"
+      },
+      {
+        "slug": "kali-gandaki-kowan",
+        "title": "Kali Gandaki-Kowan"
+      },
+      {
+        "slug": "kaligandaki-upper",
+        "title": "Kaligandaki Upper"
+      },
+      {
+        "slug": "karnali-basin",
+        "title": "Karnali Basin"
+      },
+      {
+        "slug": "karnali-chisapani",
+        "title": "Karnali Chisapani Project"
+      },
+      {
+        "slug": "kasuwa-khola-hpp",
+        "title": "Kasuwa Khola HPP"
+      },
+      {
+        "slug": "kataiya-kushaha-interconnection",
+        "title": "Kataiya\u2013Kushaha 132 kV Cross-Border Interconnection"
+      },
+      {
+        "slug": "kathmandu-valley-underground-cabling",
+        "title": "Kathmandu Valley Underground Cabling"
+      },
+      {
+        "slug": "khani-khola-1",
+        "title": "Khani Khola - 1"
+      },
+      {
+        "slug": "khani-khola-dolakha",
+        "title": "Khani Khola (Dolakha)"
+      },
+      {
+        "slug": "khare-hydropower-project",
+        "title": "Khare Hydropower Project"
+      },
+      {
+        "slug": "khimti-dhalkebar-corridor",
+        "title": "Khimti\u2013Dhalkebar 220 kV Hydropower Corridor"
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I"
+      },
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II"
+      },
+      {
+        "slug": "kimathanka-arun-hep",
+        "title": "Kimathanka Arun HEP"
+      },
+      {
+        "slug": "kokhajor-1",
+        "title": "Kokhajor-1"
+      },
+      {
+        "slug": "koshi-basin",
+        "title": "Koshi Basin"
+      },
+      {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade"
+      },
+      {
+        "slug": "lantang-khola-reservoir-hydropower-project",
+        "title": "Lantang Khola Reservoir Hydropower Project"
+      },
+      {
+        "slug": "lapche-khola",
+        "title": "Lapche Khola"
+      },
+      {
+        "slug": "likhu-1",
+        "title": "Likhu -1"
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2"
+      },
+      {
+        "slug": "likhu-4",
+        "title": "Likhu-4"
+      },
+      {
+        "slug": "likhu-khola-a",
+        "title": "Likhu Khola 'A'"
+      },
+      {
+        "slug": "lower-badigad",
+        "title": "Lower Badigad"
+      },
+      {
+        "slug": "lower-hewa",
+        "title": "Lower Hewa"
+      },
+      {
+        "slug": "lower-jhimruk",
+        "title": "Lower Jhimruk"
+      },
+      {
+        "slug": "lower-likhu",
+        "title": "Lower Likhu"
+      },
+      {
+        "slug": "lower-modi-khola",
+        "title": "Lower Modi Khola"
+      },
+      {
+        "slug": "lower-solu-hydropower-project",
+        "title": "Lower Solu Hydropower Project"
+      },
+      {
+        "slug": "madhya-bhotekoshi",
+        "title": "Madhya Bhotekoshi"
+      },
+      {
+        "slug": "madhya-marsyangdi",
+        "title": "Madhya Marsyangdi"
+      },
+      {
+        "slug": "madi",
+        "title": "Madi"
+      },
+      {
+        "slug": "mahakali-basin",
+        "title": "Mahakali Basin"
+      },
+      {
+        "slug": "mai",
+        "title": "Mai"
+      },
+      {
+        "slug": "main-load-dispatch-centre",
+        "title": "Main Load Dispatch Centre"
+      },
+      {
+        "slug": "marsyangdi-besi",
+        "title": "Marsyangdi Besi"
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi"
+      },
+      {
+        "slug": "mca-central-400",
+        "title": "MCA Central 400 kV Corridor (Lapsiphedi\u2013Ratmate\u2013Hetauda\u2013Damauli\u2013Butwal)"
+      },
+      {
+        "slug": "mewa-khola-hydropower-project",
+        "title": "Mewa Khola Hydropower Project"
+      },
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor"
+      },
+      {
+        "slug": "modi-lekhnath-132kv",
+        "title": "New Modi\u2013Lekhnath 132 kV Transmission Line"
+      },
+      {
+        "slug": "mristi-khola",
+        "title": "Mristi Khola"
+      },
+      {
+        "slug": "mugu-karnali-storage-hep",
+        "title": "Mugu Karnali Storage HEP"
+      },
+      {
+        "slug": "nalsyau-gad-storage-hep",
+        "title": "Nalsyau Gad Storage HEP"
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad"
+      },
+      {
+        "slug": "naumure-w-rapti",
+        "title": "Naumure (W. Rapti)"
+      },
+      {
+        "slug": "nawalpur-132kv-substation",
+        "title": "Nawalpur 132 kV Substation"
+      },
+      {
+        "slug": "nea",
+        "title": "Nepal Electricity Authority (NEA)"
+      },
+      {
+        "slug": "nepal-energy-profile",
+        "title": "Nepal Energy Profile"
+      },
+      {
+        "slug": "niettp",
+        "title": "Nepal\u2013India Electricity Transmission and Trade Project (NIETTP)"
+      },
+      {
+        "slug": "nilgiri-khola",
+        "title": "Nilgiri Khola"
+      },
+      {
+        "slug": "nyadi-khola",
+        "title": "Nyadi Khola"
+      },
+      {
+        "slug": "pancheshwar",
+        "title": "Pancheshwar Multipurpose Project"
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali"
+      },
+      {
+        "slug": "purbi-chitwan-132kv-substation",
+        "title": "Purbi Chitwan 132 kV Substation"
+      },
+      {
+        "slug": "rahughat-mangale",
+        "title": "Rahughat Mangale"
+      },
+      {
+        "slug": "rahughat",
+        "title": "Rahughat"
+      },
+      {
+        "slug": "rasuwa-bhotekoshi",
+        "title": "Rasuwa Bhotekoshi"
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi"
+      },
+      {
+        "slug": "ratmate-rasuwagadhi-kerung-400kv",
+        "title": "Ratmate\u2013Rasuwagadhi\u2013Kerung 400 kV Transmission Line"
+      },
+      {
+        "slug": "sanjen-khola",
+        "title": "Sanjen Khola"
+      },
+      {
+        "slug": "sanjen",
+        "title": "Sanjen"
+      },
+      {
+        "slug": "singati-khola-hydropower-project",
+        "title": "Singati Khola Hydropower Project"
+      },
+      {
+        "slug": "solu-hydropower-project",
+        "title": "Solu Hydropower Project"
+      },
+      {
+        "slug": "solu-khola-dudha-koshi",
+        "title": "Solu Khola (Dudha Koshi)"
+      },
+      {
+        "slug": "sun-koshi-no-3",
+        "title": "Sun Koshi No.3"
+      },
+      {
+        "slug": "super-dordi-kha-hydropower-project",
+        "title": "Super Dordi Kha Hydropower Project"
+      },
+      {
+        "slug": "super-madi",
+        "title": "Super Madi"
+      },
+      {
+        "slug": "super-nyadi-hydropower-project",
+        "title": "Super Nyadi Hydropower Project"
+      },
+      {
+        "slug": "super-trishuli",
+        "title": "Super Trishuli"
+      },
+      {
+        "slug": "tamakoshi-3",
+        "title": "Tamakoshi 3"
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V"
+      },
+      {
+        "slug": "tamor-storage",
+        "title": "Tamor Storage"
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project"
+      },
+      {
+        "slug": "tingla-132-33kv-substation",
+        "title": "Tingla 132/33 kV Substation"
+      },
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi"
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli"
+      },
+      {
+        "slug": "upper-arun",
+        "title": "Upper Arun Hydroelectric Project"
+      },
+      {
+        "slug": "upper-balephi-a",
+        "title": "Upper Balephi A"
+      },
+      {
+        "slug": "upper-bhotekoshi",
+        "title": "Upper Bhotekoshi"
+      },
+      {
+        "slug": "upper-chaku-a",
+        "title": "Upper Chaku A"
+      },
+      {
+        "slug": "upper-dordi-a-hep",
+        "title": "Upper Dordi A HEP"
+      },
+      {
+        "slug": "upper-kalangad",
+        "title": "Upper Kalangad"
+      },
+      {
+        "slug": "upper-karnali",
+        "title": "Upper Karnali"
+      },
+      {
+        "slug": "upper-khudi",
+        "title": "Upper Khudi"
+      },
+      {
+        "slug": "upper-lapche-khola",
+        "title": "Upper Lapche Khola"
+      },
+      {
+        "slug": "upper-madi",
+        "title": "Upper Madi"
+      },
+      {
+        "slug": "upper-marsyangdi-a",
+        "title": "Upper Marsyangdi A"
+      },
+      {
+        "slug": "upper-modi-a",
+        "title": "Upper Modi A"
+      },
+      {
+        "slug": "upper-myagdi",
+        "title": "Upper Myagdi"
+      },
+      {
+        "slug": "upper-nyasim-khola",
+        "title": "Upper Nyasim Khola"
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi"
+      },
+      {
+        "slug": "upper-tamor",
+        "title": "Upper Tamor"
+      },
+      {
+        "slug": "upper-trishuli-1",
+        "title": "Upper Trishuli-1"
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A"
+      },
+      {
+        "slug": "upper-trishuli-3b",
+        "title": "Upper Trishuli 3B"
+      },
+      {
+        "slug": "uttarganga-storage-hydropower-project",
+        "title": "Uttarganga Storage Hydropower Project"
+      },
+      {
+        "slug": "wecs",
+        "title": "Water and Energy Commission Secretariat (WECS)"
+      },
+      {
+        "slug": "west-seti",
+        "title": "West Seti Hydroelectric Project"
+      }
+    ],
+    "concepts": [
+      {
+        "slug": "buildability",
+        "title": "Buildability"
+      },
+      {
+        "slug": "domestic-led-hydro-strategy",
+        "title": "Domestic-Led Hydro Strategy"
+      },
+      {
+        "slug": "firm-power",
+        "title": "Firm Power"
+      },
+      {
+        "slug": "ganges-contribution",
+        "title": "Nepal's Contribution to the Ganges"
+      },
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk"
+      },
+      {
+        "slug": "green-hydrogen-nepal",
+        "title": "Green Hydrogen Nepal"
+      },
+      {
+        "slug": "hydro-geopolitics",
+        "title": "Hydro-Geopolitics"
+      },
+      {
+        "slug": "hydropower-potential-categories",
+        "title": "Hydropower Potential Categories"
+      },
+      {
+        "slug": "peak-water",
+        "title": "Peak Water"
+      },
+      {
+        "slug": "project-roadmap",
+        "title": "Project Roadmap"
+      },
+      {
+        "slug": "run-of-river-hydropower",
+        "title": "Run-of-River Hydropower"
+      },
+      {
+        "slug": "seasonal-arbitrage-trap",
+        "title": "Seasonal Arbitrage Trap"
+      },
+      {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch"
+      },
+      {
+        "slug": "sediment-as-design-constraint",
+        "title": "Sediment as Design Constraint"
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit"
+      },
+      {
+        "slug": "stranded-generation",
+        "title": "Stranded Generation"
+      }
+    ],
+    "syntheses": [
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy"
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis"
+      },
+      {
+        "slug": "provider-comparison",
+        "title": "Provider Comparison"
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy"
+      },
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions"
+      }
+    ],
+    "claims": [
+      {
+        "slug": "claim-climate-harder-not-easier",
+        "title": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win"
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support"
+      },
+      {
+        "slug": "claim-governance-binding",
+        "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives"
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future"
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated"
+      },
+      {
+        "slug": "claim-pror-not-storage",
+        "title": "PRoR Is Not Seasonal Storage"
+      },
+      {
+        "slug": "claim-ror-dominance",
+        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage"
+      },
+      {
+        "slug": "claim-sediment-core-issue",
+        "title": "Sediment Is a Central Design and Economics Constraint, Not an O&M Footnote"
+      },
+      {
+        "slug": "claim-storage-physical-fix",
+        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch"
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power"
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume"
+      },
+      {
+        "slug": "claim-transmission-immediate-blocker",
+        "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+      }
+    ],
+    "data": [
+      {
+        "slug": "data-basin-discharge",
+        "title": "Basin Discharge Data"
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution"
+      },
+      {
+        "slug": "data-fleet-composition",
+        "title": "Hydropower Fleet Composition"
+      },
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory"
+      },
+      {
+        "slug": "data-mountain-hydro-comparison",
+        "title": "Mountain Hydro System Comparison"
+      },
+      {
+        "slug": "data-nea-substation-capacity-fy2076-77",
+        "title": "NEA Substation Capacity FY 2076/77"
+      },
+      {
+        "slug": "data-nea-transmission-length-fy2076-77",
+        "title": "NEA Transmission Length FY 2076/77"
+      },
+      {
+        "slug": "data-nepal-peak-load-curve-fy2024-25",
+        "title": "Nepal Peak Load Curve FY 2024/25"
+      },
+      {
+        "slug": "data-pipeline-readme",
+        "title": "Data Pipeline Readme"
+      },
+      {
+        "slug": "data-potential-pyramid",
+        "title": "Hydropower Potential Pyramid"
+      },
+      {
+        "slug": "data-storage-comparison",
+        "title": "Storage Capacity Comparison"
+      },
+      {
+        "slug": "data-trade-time-series",
+        "title": "Electricity Trade Time Series"
+      }
+    ]
+  },
+  "allSlugs": [
+    "adb-hydropower-growth-nepal",
+    "arun-3-project-status-2025",
+    "dudhkoshi-nea-proposal-2024",
+    "green-hydrogen-roadmap-nepal",
+    "icimod-hkh-glacier-change",
+    "icimod-koshi-basin",
+    "icimod-koshi-sediment-threats",
+    "india-cbte-2018",
+    "jica-ipsdp-main-report-vol2",
+    "kali-gandaki-a-adb-evaluation",
+    "moewri-ipsdp-exec-summary-2025",
+    "mugu-karnali-feasibility-2025",
+    "national-water-plan-nepal",
+    "nea-annual-report-fy2024-25",
+    "nea-transmission-annual-book-2077",
+    "nepal-transmission-landscape-2025",
+    "tanahu-adb-status-2025",
+    "upper-karnali-pda-record",
+    "wb-country-economic-memo-2025",
+    "wb-ganges-strategic-basin-assessment",
+    "wb-nepal-power-sector-reform-2022",
+    "wb-water-sector-diagnostic",
+    "wecs-energy-synopsis-2024",
+    "wecs-hydropower-potential-2019",
+    "wecs-river-basin-plan-2024",
+    "andhi-khola",
+    "ankhu-khola",
+    "arun-3",
+    "bagmati-nadi",
+    "balephi",
+    "bangladesh-trade-route",
+    "betan-karnali-hp",
+    "bheri-1-hep",
+    "bheri-2-hep",
+    "bheri-4",
+    "bheri-corridor-400kv",
+    "bhutan-hydropower-model",
+    "budhigandaki",
+    "chainpur-seti",
+    "chameliya-jauljibi-interconnection",
+    "chameliya-khola",
+    "chilime",
+    "damak-godak-phidim-132kv",
+    "dana-kushma-butwal-corridor",
+    "dhalkebar-muzaffarpur",
+    "dhungesangu-basantapur-220-132kv",
+    "dordi-khola",
+    "dudhkoshi-storage",
+    "durbang-myagdi-khola",
+    "gandaki-basin",
+    "gorakhpur-butwal-interconnection",
+    "hetauda-bharatpur-bardaghat-corridor",
+    "hetauda-dhalkebar-inaruwa-backbone",
+    "humla-karnali-1-hpp",
+    "humla-karnali-2-hpp",
+    "inaruwa-purnea-interconnection",
+    "india-energy-relationship",
+    "jagdulla-hep",
+    "kabeli-a",
+    "kabeli-b-1",
+    "kali-gandaki-a",
+    "kali-gandaki-kowan",
+    "kaligandaki-upper",
+    "karnali-basin",
+    "karnali-chisapani",
+    "kasuwa-khola-hpp",
+    "kataiya-kushaha-interconnection",
+    "kathmandu-valley-underground-cabling",
+    "khani-khola-1",
+    "khani-khola-dolakha",
+    "khare-hydropower-project",
+    "khimti-dhalkebar-corridor",
+    "khimti-i",
+    "khimti-ii",
+    "kimathanka-arun-hep",
+    "kokhajor-1",
+    "koshi-basin",
+    "kulekhani-cascade",
+    "lantang-khola-reservoir-hydropower-project",
+    "lapche-khola",
+    "likhu-1",
+    "likhu-2",
+    "likhu-4",
+    "likhu-khola-a",
+    "lower-badigad",
+    "lower-hewa",
+    "lower-jhimruk",
+    "lower-likhu",
+    "lower-modi-khola",
+    "lower-solu-hydropower-project",
+    "madhya-bhotekoshi",
+    "madhya-marsyangdi",
+    "madi",
+    "mahakali-basin",
+    "mai",
+    "main-load-dispatch-centre",
+    "marsyangdi-besi",
+    "marsyangdi",
+    "mca-central-400",
+    "mewa-khola-hydropower-project",
+    "middle-tamor",
+    "modi-lekhnath-132kv",
+    "mristi-khola",
+    "mugu-karnali-storage-hep",
+    "nalsyau-gad-storage-hep",
+    "nalsyau-gad",
+    "naumure-w-rapti",
+    "nawalpur-132kv-substation",
+    "nea",
+    "nepal-energy-profile",
+    "niettp",
+    "nilgiri-khola",
+    "nyadi-khola",
+    "pancheshwar",
+    "phukot-karnali",
+    "purbi-chitwan-132kv-substation",
+    "rahughat-mangale",
+    "rahughat",
+    "rasuwa-bhotekoshi",
+    "rasuwagadhi",
+    "ratmate-rasuwagadhi-kerung-400kv",
+    "sanjen-khola",
+    "sanjen",
+    "singati-khola-hydropower-project",
+    "solu-hydropower-project",
+    "solu-khola-dudha-koshi",
+    "sun-koshi-no-3",
+    "super-dordi-kha-hydropower-project",
+    "super-madi",
+    "super-nyadi-hydropower-project",
+    "super-trishuli",
+    "tamakoshi-3",
+    "tamakoshi-v",
+    "tamor-storage",
+    "tanahu-hydropower",
+    "tingla-132-33kv-substation",
+    "trishuli-galchhi",
+    "trishuli",
+    "upper-arun",
+    "upper-balephi-a",
+    "upper-bhotekoshi",
+    "upper-chaku-a",
+    "upper-dordi-a-hep",
+    "upper-kalangad",
+    "upper-karnali",
+    "upper-khudi",
+    "upper-lapche-khola",
+    "upper-madi",
+    "upper-marsyangdi-a",
+    "upper-modi-a",
+    "upper-myagdi",
+    "upper-nyasim-khola",
+    "upper-tamakoshi",
+    "upper-tamor",
+    "upper-trishuli-1",
+    "upper-trishuli-3a",
+    "upper-trishuli-3b",
+    "uttarganga-storage-hydropower-project",
+    "wecs",
+    "west-seti",
+    "buildability",
+    "domestic-led-hydro-strategy",
+    "firm-power",
+    "ganges-contribution",
+    "glof-risk",
+    "green-hydrogen-nepal",
+    "hydro-geopolitics",
+    "hydropower-potential-categories",
+    "peak-water",
+    "project-roadmap",
+    "run-of-river-hydropower",
+    "seasonal-arbitrage-trap",
+    "seasonal-mismatch",
+    "sediment-as-design-constraint",
+    "storage-deficit",
+    "stranded-generation",
+    "bottleneck-hierarchy",
+    "master-thesis",
+    "provider-comparison",
+    "twenty-year-strategy",
+    "unresolved-questions",
+    "claim-climate-harder-not-easier",
+    "claim-domestic-led-strategy",
+    "claim-governance-binding",
+    "claim-india-decisive-actor",
+    "claim-mw-not-equal-value",
+    "claim-pror-not-storage",
+    "claim-ror-dominance",
+    "claim-sediment-core-issue",
+    "claim-storage-physical-fix",
+    "claim-systems-conversion-failure",
+    "claim-timing-not-volume",
+    "claim-transmission-immediate-blocker",
+    "data-basin-discharge",
+    "data-domestic-demand",
+    "data-fleet-composition",
+    "data-map-inventory",
+    "data-mountain-hydro-comparison",
+    "data-nea-substation-capacity-fy2076-77",
+    "data-nea-transmission-length-fy2076-77",
+    "data-nepal-peak-load-curve-fy2024-25",
+    "data-pipeline-readme",
+    "data-potential-pyramid",
+    "data-storage-comparison",
+    "data-trade-time-series"
+  ],
+  "slugToCategory": {
+    "adb-hydropower-growth-nepal": "sources",
+    "arun-3-project-status-2025": "sources",
+    "dudhkoshi-nea-proposal-2024": "sources",
+    "green-hydrogen-roadmap-nepal": "sources",
+    "icimod-hkh-glacier-change": "sources",
+    "icimod-koshi-basin": "sources",
+    "icimod-koshi-sediment-threats": "sources",
+    "india-cbte-2018": "sources",
+    "jica-ipsdp-main-report-vol2": "sources",
+    "kali-gandaki-a-adb-evaluation": "sources",
+    "moewri-ipsdp-exec-summary-2025": "sources",
+    "mugu-karnali-feasibility-2025": "sources",
+    "national-water-plan-nepal": "sources",
+    "nea-annual-report-fy2024-25": "sources",
+    "nea-transmission-annual-book-2077": "sources",
+    "nepal-transmission-landscape-2025": "sources",
+    "tanahu-adb-status-2025": "sources",
+    "upper-karnali-pda-record": "sources",
+    "wb-country-economic-memo-2025": "sources",
+    "wb-ganges-strategic-basin-assessment": "sources",
+    "wb-nepal-power-sector-reform-2022": "sources",
+    "wb-water-sector-diagnostic": "sources",
+    "wecs-energy-synopsis-2024": "sources",
+    "wecs-hydropower-potential-2019": "sources",
+    "wecs-river-basin-plan-2024": "sources",
+    "andhi-khola": "entities",
+    "ankhu-khola": "entities",
+    "arun-3": "entities",
+    "bagmati-nadi": "entities",
+    "balephi": "entities",
+    "bangladesh-trade-route": "entities",
+    "betan-karnali-hp": "entities",
+    "bheri-1-hep": "entities",
+    "bheri-2-hep": "entities",
+    "bheri-4": "entities",
+    "bheri-corridor-400kv": "entities",
+    "bhutan-hydropower-model": "entities",
+    "budhigandaki": "entities",
+    "chainpur-seti": "entities",
+    "chameliya-jauljibi-interconnection": "entities",
+    "chameliya-khola": "entities",
+    "chilime": "entities",
+    "damak-godak-phidim-132kv": "entities",
+    "dana-kushma-butwal-corridor": "entities",
+    "dhalkebar-muzaffarpur": "entities",
+    "dhungesangu-basantapur-220-132kv": "entities",
+    "dordi-khola": "entities",
+    "dudhkoshi-storage": "entities",
+    "durbang-myagdi-khola": "entities",
+    "gandaki-basin": "entities",
+    "gorakhpur-butwal-interconnection": "entities",
+    "hetauda-bharatpur-bardaghat-corridor": "entities",
+    "hetauda-dhalkebar-inaruwa-backbone": "entities",
+    "humla-karnali-1-hpp": "entities",
+    "humla-karnali-2-hpp": "entities",
+    "inaruwa-purnea-interconnection": "entities",
+    "india-energy-relationship": "entities",
+    "jagdulla-hep": "entities",
+    "kabeli-a": "entities",
+    "kabeli-b-1": "entities",
+    "kali-gandaki-a": "entities",
+    "kali-gandaki-kowan": "entities",
+    "kaligandaki-upper": "entities",
+    "karnali-basin": "entities",
+    "karnali-chisapani": "entities",
+    "kasuwa-khola-hpp": "entities",
+    "kataiya-kushaha-interconnection": "entities",
+    "kathmandu-valley-underground-cabling": "entities",
+    "khani-khola-1": "entities",
+    "khani-khola-dolakha": "entities",
+    "khare-hydropower-project": "entities",
+    "khimti-dhalkebar-corridor": "entities",
+    "khimti-i": "entities",
+    "khimti-ii": "entities",
+    "kimathanka-arun-hep": "entities",
+    "kokhajor-1": "entities",
+    "koshi-basin": "entities",
+    "kulekhani-cascade": "entities",
+    "lantang-khola-reservoir-hydropower-project": "entities",
+    "lapche-khola": "entities",
+    "likhu-1": "entities",
+    "likhu-2": "entities",
+    "likhu-4": "entities",
+    "likhu-khola-a": "entities",
+    "lower-badigad": "entities",
+    "lower-hewa": "entities",
+    "lower-jhimruk": "entities",
+    "lower-likhu": "entities",
+    "lower-modi-khola": "entities",
+    "lower-solu-hydropower-project": "entities",
+    "madhya-bhotekoshi": "entities",
+    "madhya-marsyangdi": "entities",
+    "madi": "entities",
+    "mahakali-basin": "entities",
+    "mai": "entities",
+    "main-load-dispatch-centre": "entities",
+    "marsyangdi-besi": "entities",
+    "marsyangdi": "entities",
+    "mca-central-400": "entities",
+    "mewa-khola-hydropower-project": "entities",
+    "middle-tamor": "entities",
+    "modi-lekhnath-132kv": "entities",
+    "mristi-khola": "entities",
+    "mugu-karnali-storage-hep": "entities",
+    "nalsyau-gad-storage-hep": "entities",
+    "nalsyau-gad": "entities",
+    "naumure-w-rapti": "entities",
+    "nawalpur-132kv-substation": "entities",
+    "nea": "entities",
+    "nepal-energy-profile": "entities",
+    "niettp": "entities",
+    "nilgiri-khola": "entities",
+    "nyadi-khola": "entities",
+    "pancheshwar": "entities",
+    "phukot-karnali": "entities",
+    "purbi-chitwan-132kv-substation": "entities",
+    "rahughat-mangale": "entities",
+    "rahughat": "entities",
+    "rasuwa-bhotekoshi": "entities",
+    "rasuwagadhi": "entities",
+    "ratmate-rasuwagadhi-kerung-400kv": "entities",
+    "sanjen-khola": "entities",
+    "sanjen": "entities",
+    "singati-khola-hydropower-project": "entities",
+    "solu-hydropower-project": "entities",
+    "solu-khola-dudha-koshi": "entities",
+    "sun-koshi-no-3": "entities",
+    "super-dordi-kha-hydropower-project": "entities",
+    "super-madi": "entities",
+    "super-nyadi-hydropower-project": "entities",
+    "super-trishuli": "entities",
+    "tamakoshi-3": "entities",
+    "tamakoshi-v": "entities",
+    "tamor-storage": "entities",
+    "tanahu-hydropower": "entities",
+    "tingla-132-33kv-substation": "entities",
+    "trishuli-galchhi": "entities",
+    "trishuli": "entities",
+    "upper-arun": "entities",
+    "upper-balephi-a": "entities",
+    "upper-bhotekoshi": "entities",
+    "upper-chaku-a": "entities",
+    "upper-dordi-a-hep": "entities",
+    "upper-kalangad": "entities",
+    "upper-karnali": "entities",
+    "upper-khudi": "entities",
+    "upper-lapche-khola": "entities",
+    "upper-madi": "entities",
+    "upper-marsyangdi-a": "entities",
+    "upper-modi-a": "entities",
+    "upper-myagdi": "entities",
+    "upper-nyasim-khola": "entities",
+    "upper-tamakoshi": "entities",
+    "upper-tamor": "entities",
+    "upper-trishuli-1": "entities",
+    "upper-trishuli-3a": "entities",
+    "upper-trishuli-3b": "entities",
+    "uttarganga-storage-hydropower-project": "entities",
+    "wecs": "entities",
+    "west-seti": "entities",
+    "buildability": "concepts",
+    "domestic-led-hydro-strategy": "concepts",
+    "firm-power": "concepts",
+    "ganges-contribution": "concepts",
+    "glof-risk": "concepts",
+    "green-hydrogen-nepal": "concepts",
+    "hydro-geopolitics": "concepts",
+    "hydropower-potential-categories": "concepts",
+    "peak-water": "concepts",
+    "project-roadmap": "concepts",
+    "run-of-river-hydropower": "concepts",
+    "seasonal-arbitrage-trap": "concepts",
+    "seasonal-mismatch": "concepts",
+    "sediment-as-design-constraint": "concepts",
+    "storage-deficit": "concepts",
+    "stranded-generation": "concepts",
+    "bottleneck-hierarchy": "syntheses",
+    "master-thesis": "syntheses",
+    "provider-comparison": "syntheses",
+    "twenty-year-strategy": "syntheses",
+    "unresolved-questions": "syntheses",
+    "claim-climate-harder-not-easier": "claims",
+    "claim-domestic-led-strategy": "claims",
+    "claim-governance-binding": "claims",
+    "claim-india-decisive-actor": "claims",
+    "claim-mw-not-equal-value": "claims",
+    "claim-pror-not-storage": "claims",
+    "claim-ror-dominance": "claims",
+    "claim-sediment-core-issue": "claims",
+    "claim-storage-physical-fix": "claims",
+    "claim-systems-conversion-failure": "claims",
+    "claim-timing-not-volume": "claims",
+    "claim-transmission-immediate-blocker": "claims",
+    "data-basin-discharge": "data",
+    "data-domestic-demand": "data",
+    "data-fleet-composition": "data",
+    "data-map-inventory": "data",
+    "data-mountain-hydro-comparison": "data",
+    "data-nea-substation-capacity-fy2076-77": "data",
+    "data-nea-transmission-length-fy2076-77": "data",
+    "data-nepal-peak-load-curve-fy2024-25": "data",
+    "data-pipeline-readme": "data",
+    "data-potential-pyramid": "data",
+    "data-storage-comparison": "data",
+    "data-trade-time-series": "data"
+  },
+  "slugToTitle": {
+    "adb-hydropower-growth-nepal": "ADB Hydropower Growth Nepal Study",
+    "arun-3-project-status-2025": "Arun-3 Project Status & PDA Summary (2025)",
+    "dudhkoshi-nea-proposal-2024": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record",
+    "green-hydrogen-roadmap-nepal": "Green Hydrogen Roadmap for Nepal",
+    "icimod-hkh-glacier-change": "ICIMOD HKH Glacier Change Summary",
+    "icimod-koshi-basin": "ICIMOD Koshi Basin Programme",
+    "icimod-koshi-sediment-threats": "ICIMOD Threats to the Koshi River Basin",
+    "india-cbte-2018": "India Cross-Border Trade in Electricity Guidelines (2018)",
+    "jica-ipsdp-main-report-vol2": "JICA IPSDP Final Report Annexes (Vol. 2)",
+    "kali-gandaki-a-adb-evaluation": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia",
+    "moewri-ipsdp-exec-summary-2025": "MoEWRI IPSDP Executive Summary",
+    "mugu-karnali-feasibility-2025": "Mugu Karnali Storage \u2014 Feasibility, Bids & EOI Record (2024\u20132025)",
+    "national-water-plan-nepal": "National Water Plan, Nepal",
+    "nea-annual-report-fy2024-25": "NEA Annual Report FY 2024/25",
+    "nea-transmission-annual-book-2077": "NEA Transmission Annual Book 2077",
+    "nepal-transmission-landscape-2025": "Nepal Transmission System \u2014 400 kV Landscape & Cross-Border Plan (2025)",
+    "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)",
+    "upper-karnali-pda-record": "Upper Karnali \u2014 PDA, Financial Closure & Court Record",
+    "wb-country-economic-memo-2025": "World Bank Nepal Country Economic Memorandum (2025)",
+    "wb-ganges-strategic-basin-assessment": "World Bank Ganges Strategic Basin Assessment",
+    "wb-nepal-power-sector-reform-2022": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+    "wb-water-sector-diagnostic": "World Bank Nepal Water Sector Diagnostic",
+    "wecs-energy-synopsis-2024": "WECS Energy Sector Synopsis Report 2024",
+    "wecs-hydropower-potential-2019": "WECS Assessment of Hydropower Potential of Nepal (2019)",
+    "wecs-river-basin-plan-2024": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+    "andhi-khola": "Andhi Khola",
+    "ankhu-khola": "Ankhu Khola",
+    "arun-3": "Arun 3",
+    "bagmati-nadi": "Bagmati Nadi",
+    "balephi": "Balephi",
+    "bangladesh-trade-route": "Nepal\u2013Bangladesh Electricity Trade Route",
+    "betan-karnali-hp": "Betan Karnali HP",
+    "bheri-1-hep": "Bheri-1 HEP",
+    "bheri-2-hep": "Bheri-2 HEP",
+    "bheri-4": "Bheri 4",
+    "bheri-corridor-400kv": "Bheri Corridor 400 kV Transmission Line",
+    "bhutan-hydropower-model": "Bhutan Hydropower Model",
+    "budhigandaki": "Budhigandaki Hydroelectric Project",
+    "chainpur-seti": "Chainpur Seti",
+    "chameliya-jauljibi-interconnection": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection",
+    "chameliya-khola": "Chameliya Khola",
+    "chilime": "Chilime",
+    "damak-godak-phidim-132kv": "Damak\u2013Godak\u2013Phidim 132 kV Corridor",
+    "dana-kushma-butwal-corridor": "Dana\u2013Kushma\u2013New Butwal 220 kV Corridor",
+    "dhalkebar-muzaffarpur": "Dhalkebar\u2013Muzaffarpur 400 kV Cross-Border Interconnection",
+    "dhungesangu-basantapur-220-132kv": "Dhungesanghu\u2013Basantapur 220/132 kV Corridor",
+    "dordi-khola": "Dordi Khola",
+    "dudhkoshi-storage": "Dudhkoshi Storage Hydroelectric Project",
+    "durbang-myagdi-khola": "Durbang Myagdi Khola",
+    "gandaki-basin": "Gandaki Basin",
+    "gorakhpur-butwal-interconnection": "Gorakhpur\u2013New Butwal 400 kV Cross-Border Interconnection",
+    "hetauda-bharatpur-bardaghat-corridor": "Hetauda\u2013Bharatpur\u2013Bardaghat 220 kV Corridor",
+    "hetauda-dhalkebar-inaruwa-backbone": "Hetauda\u2013Dhalkebar\u2013Inaruwa 400 kV Backbone",
+    "humla-karnali-1-hpp": "Humla Karnali 1 HPP",
+    "humla-karnali-2-hpp": "Humla Karnali 2 HPP",
+    "inaruwa-purnea-interconnection": "Inaruwa\u2013Purnea 400 kV Cross-Border Interconnection",
+    "india-energy-relationship": "India \u2014 Energy Relationship with Nepal",
+    "jagdulla-hep": "Jagdulla HEP",
+    "kabeli-a": "Kabeli-A",
+    "kabeli-b-1": "Kabeli B - 1",
+    "kali-gandaki-a": "Kali Gandaki A",
+    "kali-gandaki-kowan": "Kali Gandaki-Kowan",
+    "kaligandaki-upper": "Kaligandaki Upper",
+    "karnali-basin": "Karnali Basin",
+    "karnali-chisapani": "Karnali Chisapani Project",
+    "kasuwa-khola-hpp": "Kasuwa Khola HPP",
+    "kataiya-kushaha-interconnection": "Kataiya\u2013Kushaha 132 kV Cross-Border Interconnection",
+    "kathmandu-valley-underground-cabling": "Kathmandu Valley Underground Cabling",
+    "khani-khola-1": "Khani Khola - 1",
+    "khani-khola-dolakha": "Khani Khola (Dolakha)",
+    "khare-hydropower-project": "Khare Hydropower Project",
+    "khimti-dhalkebar-corridor": "Khimti\u2013Dhalkebar 220 kV Hydropower Corridor",
+    "khimti-i": "Khimti -I",
+    "khimti-ii": "Khimti II",
+    "kimathanka-arun-hep": "Kimathanka Arun HEP",
+    "kokhajor-1": "Kokhajor-1",
+    "koshi-basin": "Koshi Basin",
+    "kulekhani-cascade": "Kulekhani Cascade",
+    "lantang-khola-reservoir-hydropower-project": "Lantang Khola Reservoir Hydropower Project",
+    "lapche-khola": "Lapche Khola",
+    "likhu-1": "Likhu -1",
+    "likhu-2": "Likhu -2",
+    "likhu-4": "Likhu-4",
+    "likhu-khola-a": "Likhu Khola 'A'",
+    "lower-badigad": "Lower Badigad",
+    "lower-hewa": "Lower Hewa",
+    "lower-jhimruk": "Lower Jhimruk",
+    "lower-likhu": "Lower Likhu",
+    "lower-modi-khola": "Lower Modi Khola",
+    "lower-solu-hydropower-project": "Lower Solu Hydropower Project",
+    "madhya-bhotekoshi": "Madhya Bhotekoshi",
+    "madhya-marsyangdi": "Madhya Marsyangdi",
+    "madi": "Madi",
+    "mahakali-basin": "Mahakali Basin",
+    "mai": "Mai",
+    "main-load-dispatch-centre": "Main Load Dispatch Centre",
+    "marsyangdi-besi": "Marsyangdi Besi",
+    "marsyangdi": "Marsyangdi",
+    "mca-central-400": "MCA Central 400 kV Corridor (Lapsiphedi\u2013Ratmate\u2013Hetauda\u2013Damauli\u2013Butwal)",
+    "mewa-khola-hydropower-project": "Mewa Khola Hydropower Project",
+    "middle-tamor": "Middle Tamor",
+    "modi-lekhnath-132kv": "New Modi\u2013Lekhnath 132 kV Transmission Line",
+    "mristi-khola": "Mristi Khola",
+    "mugu-karnali-storage-hep": "Mugu Karnali Storage HEP",
+    "nalsyau-gad-storage-hep": "Nalsyau Gad Storage HEP",
+    "nalsyau-gad": "Nalsyau Gad",
+    "naumure-w-rapti": "Naumure (W. Rapti)",
+    "nawalpur-132kv-substation": "Nawalpur 132 kV Substation",
+    "nea": "Nepal Electricity Authority (NEA)",
+    "nepal-energy-profile": "Nepal Energy Profile",
+    "niettp": "Nepal\u2013India Electricity Transmission and Trade Project (NIETTP)",
+    "nilgiri-khola": "Nilgiri Khola",
+    "nyadi-khola": "Nyadi Khola",
+    "pancheshwar": "Pancheshwar Multipurpose Project",
+    "phukot-karnali": "Phukot Karnali",
+    "purbi-chitwan-132kv-substation": "Purbi Chitwan 132 kV Substation",
+    "rahughat-mangale": "Rahughat Mangale",
+    "rahughat": "Rahughat",
+    "rasuwa-bhotekoshi": "Rasuwa Bhotekoshi",
+    "rasuwagadhi": "Rasuwagadhi",
+    "ratmate-rasuwagadhi-kerung-400kv": "Ratmate\u2013Rasuwagadhi\u2013Kerung 400 kV Transmission Line",
+    "sanjen-khola": "Sanjen Khola",
+    "sanjen": "Sanjen",
+    "singati-khola-hydropower-project": "Singati Khola Hydropower Project",
+    "solu-hydropower-project": "Solu Hydropower Project",
+    "solu-khola-dudha-koshi": "Solu Khola (Dudha Koshi)",
+    "sun-koshi-no-3": "Sun Koshi No.3",
+    "super-dordi-kha-hydropower-project": "Super Dordi Kha Hydropower Project",
+    "super-madi": "Super Madi",
+    "super-nyadi-hydropower-project": "Super Nyadi Hydropower Project",
+    "super-trishuli": "Super Trishuli",
+    "tamakoshi-3": "Tamakoshi 3",
+    "tamakoshi-v": "Tamakoshi V",
+    "tamor-storage": "Tamor Storage",
+    "tanahu-hydropower": "Tanahu Hydropower Project",
+    "tingla-132-33kv-substation": "Tingla 132/33 kV Substation",
+    "trishuli-galchhi": "Trishuli Galchhi",
+    "trishuli": "Trishuli",
+    "upper-arun": "Upper Arun Hydroelectric Project",
+    "upper-balephi-a": "Upper Balephi A",
+    "upper-bhotekoshi": "Upper Bhotekoshi",
+    "upper-chaku-a": "Upper Chaku A",
+    "upper-dordi-a-hep": "Upper Dordi A HEP",
+    "upper-kalangad": "Upper Kalangad",
+    "upper-karnali": "Upper Karnali",
+    "upper-khudi": "Upper Khudi",
+    "upper-lapche-khola": "Upper Lapche Khola",
+    "upper-madi": "Upper Madi",
+    "upper-marsyangdi-a": "Upper Marsyangdi A",
+    "upper-modi-a": "Upper Modi A",
+    "upper-myagdi": "Upper Myagdi",
+    "upper-nyasim-khola": "Upper Nyasim Khola",
+    "upper-tamakoshi": "Upper Tamakoshi",
+    "upper-tamor": "Upper Tamor",
+    "upper-trishuli-1": "Upper Trishuli-1",
+    "upper-trishuli-3a": "Upper Trishuli 3A",
+    "upper-trishuli-3b": "Upper Trishuli 3B",
+    "uttarganga-storage-hydropower-project": "Uttarganga Storage Hydropower Project",
+    "wecs": "Water and Energy Commission Secretariat (WECS)",
+    "west-seti": "West Seti Hydroelectric Project",
+    "buildability": "Buildability",
+    "domestic-led-hydro-strategy": "Domestic-Led Hydro Strategy",
+    "firm-power": "Firm Power",
+    "ganges-contribution": "Nepal's Contribution to the Ganges",
+    "glof-risk": "GLOF Risk",
+    "green-hydrogen-nepal": "Green Hydrogen Nepal",
+    "hydro-geopolitics": "Hydro-Geopolitics",
+    "hydropower-potential-categories": "Hydropower Potential Categories",
+    "peak-water": "Peak Water",
+    "project-roadmap": "Project Roadmap",
+    "run-of-river-hydropower": "Run-of-River Hydropower",
+    "seasonal-arbitrage-trap": "Seasonal Arbitrage Trap",
+    "seasonal-mismatch": "Seasonal Mismatch",
+    "sediment-as-design-constraint": "Sediment as Design Constraint",
+    "storage-deficit": "Storage Deficit",
+    "stranded-generation": "Stranded Generation",
+    "bottleneck-hierarchy": "Bottleneck Hierarchy",
+    "master-thesis": "Master Thesis",
+    "provider-comparison": "Provider Comparison",
+    "twenty-year-strategy": "Twenty-Year Strategy",
+    "unresolved-questions": "Unresolved Questions",
+    "claim-climate-harder-not-easier": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
+    "claim-domestic-led-strategy": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+    "claim-governance-binding": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives",
+    "claim-india-decisive-actor": "India Is the Decisive External Actor in Nepal's Hydro Future",
+    "claim-mw-not-equal-value": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+    "claim-pror-not-storage": "PRoR Is Not Seasonal Storage",
+    "claim-ror-dominance": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
+    "claim-sediment-core-issue": "Sediment Is a Central Design and Economics Constraint, Not an O&M Footnote",
+    "claim-storage-physical-fix": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+    "claim-systems-conversion-failure": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+    "claim-timing-not-volume": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+    "claim-transmission-immediate-blocker": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
+    "data-basin-discharge": "Basin Discharge Data",
+    "data-domestic-demand": "Domestic Electricity Demand Distribution",
+    "data-fleet-composition": "Hydropower Fleet Composition",
+    "data-map-inventory": "Map Inventory",
+    "data-mountain-hydro-comparison": "Mountain Hydro System Comparison",
+    "data-nea-substation-capacity-fy2076-77": "NEA Substation Capacity FY 2076/77",
+    "data-nea-transmission-length-fy2076-77": "NEA Transmission Length FY 2076/77",
+    "data-nepal-peak-load-curve-fy2024-25": "Nepal Peak Load Curve FY 2024/25",
+    "data-pipeline-readme": "Data Pipeline Readme",
+    "data-potential-pyramid": "Hydropower Potential Pyramid",
+    "data-storage-comparison": "Storage Capacity Comparison",
+    "data-trade-time-series": "Electricity Trade Time Series"
+  },
+  "totalPages": 205
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "hetauda-dhalkebar-inaruwa-backbone",
+  "entries": [
+    {
+      "src": "hetauda-dhalkebar-inaruwa-backbone/nea2077-p061-img01.png",
+      "filename": "nea2077-p061-img01.png",
+      "caption": "Ongoing Stringing work at Dhankuta Section",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 61,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        510.08,
+        547.09,
+        741.26
+      ],
+      "width": 1323,
+      "height": 642,
+      "fetched_at": 1776689192
+    },
+    {
+      "src": "hetauda-dhalkebar-inaruwa-backbone/nea2077-p066-img02.png",
+      "filename": "nea2077-p066-img02.png",
+      "caption": "400 kV GIS Hall at Dhalkebar",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 66,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        318.87,
+        521.46,
+        547.28,
+        726.54
+      ],
+      "width": 634,
+      "height": 569,
+      "fetched_at": 1776686300
+    },
+    {
+      "src": "hetauda-dhalkebar-inaruwa-backbone/nea2077-p069-img01.png",
+      "filename": "nea2077-p069-img01.png",
+      "caption": "220 kV Substation at Dhalkebar",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 69,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        70.87,
+        70.71,
+        547.09,
+        366.83
+      ],
+      "width": 1323,
+      "height": 822,
+      "fetched_at": 1776686301
+    }
+  ]
+}

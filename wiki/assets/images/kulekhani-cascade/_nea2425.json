@@ -1,0 +1,85 @@
+{
+  "slug": "kulekhani-cascade",
+  "entries": [
+    {
+      "src": "kulekhani-cascade/nea2425-p021-img01.png",
+      "filename": "nea2425-p021-img01.png",
+      "caption": "Energy generation pattern of PROR/ROR and storage (GWh)",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 21,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        76.85,
+        62.08,
+        546.77,
+        275.2
+      ],
+      "width": 1305,
+      "height": 592,
+      "fetched_at": 1776763999
+    },
+    {
+      "src": "kulekhani-cascade/nea2425-p024-img00.png",
+      "filename": "nea2425-p024-img00.png",
+      "caption": "Machine floor of KL1",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 24,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        61.17,
+        62.36,
+        293.27,
+        331.8
+      ],
+      "width": 644,
+      "height": 748,
+      "fetched_at": 1776764000
+    },
+    {
+      "src": "kulekhani-cascade/nea2425-p024-img01.png",
+      "filename": "nea2425-p024-img01.png",
+      "caption": "6.6 kV Bus conductor maintenance",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 24,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        303.64,
+        62.36,
+        532.76,
+        368.04
+      ],
+      "width": 636,
+      "height": 849,
+      "fetched_at": 1776764000
+    },
+    {
+      "src": "kulekhani-cascade/nea2425-p026-img00.png",
+      "filename": "nea2425-p026-img00.png",
+      "caption": "Repair works on draft tube during overhauling",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 26,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        62.36,
+        61.3,
+        292.54,
+        226.48
+      ],
+      "width": 639,
+      "height": 458,
+      "fetched_at": 1776764001
+    }
+  ]
+}

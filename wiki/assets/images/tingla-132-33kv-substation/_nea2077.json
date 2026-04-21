@@ -1,0 +1,25 @@
+{
+  "slug": "tingla-132-33kv-substation",
+  "entries": [
+    {
+      "src": "tingla-132-33kv-substation/nea2077-p047-img01.png",
+      "filename": "nea2077-p047-img01.png",
+      "caption": "132/33/11 kV Tingla Substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 47,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        408.28,
+        547.09,
+        713.91
+      ],
+      "width": 1323,
+      "height": 849,
+      "fetched_at": 1776689190
+    }
+  ]
+}

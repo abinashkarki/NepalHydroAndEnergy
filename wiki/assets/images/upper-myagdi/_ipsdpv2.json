@@ -1,0 +1,45 @@
+{
+  "slug": "upper-myagdi",
+  "entries": [
+    {
+      "src": "upper-myagdi/ipsdpv2-p265-img00.png",
+      "filename": "ipsdpv2-p265-img00.png",
+      "caption": "Table 6.3-9 Hydropower Development Projects on the Myagdi Khola River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 265,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        86.3,
+        241.44,
+        537.6,
+        474.94
+      ],
+      "width": 1254,
+      "height": 648,
+      "fetched_at": 1776768025
+    },
+    {
+      "src": "upper-myagdi/ipsdpv2-p266-img00.png",
+      "filename": "ipsdpv2-p266-img00.png",
+      "caption": "Figure 6.3-12 River Longitudinal Profile of the Myagdi Khola River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 266,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        57.5,
+        79.35,
+        508.8,
+        322.65
+      ],
+      "width": 1254,
+      "height": 676,
+      "fetched_at": 1776768025
+    }
+  ]
+}

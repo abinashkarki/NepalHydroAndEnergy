@@ -1,0 +1,65 @@
+{
+  "slug": "upper-tamakoshi",
+  "entries": [
+    {
+      "src": "upper-tamakoshi/nea2077-p051-img01.png",
+      "filename": "nea2077-p051-img01.png",
+      "caption": "substation works will be completed on",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 51,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        339.9,
+        547.09,
+        531.85
+      ],
+      "width": 634,
+      "height": 533,
+      "fetched_at": 1776686297
+    },
+    {
+      "src": "upper-tamakoshi/nea2077-p051-img02.png",
+      "filename": "nea2077-p051-img02.png",
+      "caption": "Under construction Garjyang substation 132 kV Transmission Tower",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 51,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        69.86,
+        339.9,
+        299.06,
+        531.39
+      ],
+      "width": 636,
+      "height": 532,
+      "fetched_at": 1776686297
+    },
+    {
+      "src": "upper-tamakoshi/nea2077-p190-img01.png",
+      "filename": "nea2077-p190-img01.png",
+      "caption": "Overall Project Layout",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 190,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        318.9,
+        428.74,
+        547.09,
+        616.71
+      ],
+      "width": 634,
+      "height": 522,
+      "fetched_at": 1776686328
+    }
+  ]
+}

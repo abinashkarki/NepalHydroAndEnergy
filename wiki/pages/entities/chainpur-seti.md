@@ -1,0 +1,55 @@
+---
+title: Chainpur Seti
+type: entity
+created: 2026-04-20
+updated: 2026-04-20
+sources: [nea-transmission-annual-book-2077]
+tags: [project, survey, gandaki, bajhang]
+images:
+  - src: chainpur-seti/nea2077-p129-img01.png
+    caption: "SD/ToR approved by MoFE"
+    credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
+    license: gov-permissive
+    source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+  - src: chainpur-seti/nea2077-p129-img02.png
+    caption: "Public hearing of Ghorahi Madichaur 132kV"
+    credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
+    license: gov-permissive
+    source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+generator: auto-stub
+---
+
+# Chainpur Seti
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/images/chainpur-seti/nea2077-p124-img01.png" alt="Powerhouse Area of Chainpur Seti">
+  <figcaption>Powerhouse Area of Chainpur Seti</figcaption>
+</figure>
+
+210 MW · survey / study · on the Seti Khola · in Bajhang district.
+
+<!-- generated:specs:start -->
+
+## Specifications
+
+| Parameter | Value |
+|-----------|-------|
+| Capacity | 210 MW |
+| Status | Survey / study |
+| River | Seti Khola ([[gandaki-basin]]) |
+| District | Bajhang |
+| Province | Sudurpashchim Pradesh |
+
+<!-- generated:specs:end -->
+
+## Notes
+
+> [!gap] This page is an auto-generated stub. Capacity, location and
+> licence status come straight from the Ministry of Energy registry
+> mirrored in the map manifest. Add narrative, citations and images
+> here; the spec table above will refresh on rerun.
+
+## See also
+
+- [[gandaki-basin]]
+- [[buildability]]

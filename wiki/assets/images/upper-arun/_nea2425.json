@@ -1,0 +1,25 @@
+{
+  "slug": "upper-arun",
+  "entries": [
+    {
+      "src": "upper-arun/nea2425-p066-img00.png",
+      "filename": "nea2425-p066-img00.png",
+      "caption": "ERT survey at IkhuwaKhola HPP (IKHPP) Core Drilling at JawaTila",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 66,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        63.31,
+        211.28,
+        294.81,
+        378.07
+      ],
+      "width": 643,
+      "height": 463,
+      "fetched_at": 1776764003
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "madhya-bhotekoshi",
+  "entries": [
+    {
+      "src": "madhya-bhotekoshi/nea2425-p193-img01.png",
+      "filename": "nea2425-p193-img01.png",
+      "caption": "Middle Bhotekoshi Dam Site",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 193,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        35.44,
+        408.53,
+        574.0,
+        758.93
+      ],
+      "width": 1496,
+      "height": 973,
+      "fetched_at": 1776764007
+    }
+  ]
+}

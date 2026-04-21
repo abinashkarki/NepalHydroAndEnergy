@@ -1,0 +1,10 @@
+metric,unit,Shrawan,Bhadra,Ashwin,Kartik,Mangsir,Poush,Magh,Falgun,Chaitra,Baishakh,Jestha,Ashadh,source_note
+IPP,MW,1652,1553,1791,1424,792,690,604,497,564,599,1134,1711,"NEA annual report FY 2024/25 monthly capacity balance table"
+NEA_SUBSIDIARY,MW,543,546,545,92,138,267,521,542,552,517,660,711,"NEA annual report FY 2024/25 monthly capacity balance table"
+NEA_ROR_PROR,MW,385,304,346,390,415,413,388,304,394,342,423,417,"NEA annual report FY 2024/25 monthly capacity balance table"
+IMPORT,MW,0,12,13,0,214,274,184,196,68,268,39,0,"NEA annual report FY 2024/25 monthly capacity balance table"
+NEA_STORAGE,MW,99,95,97,97,93,97,35,102,96,97,18,62,"NEA annual report FY 2024/25 monthly capacity balance table"
+INTERRUPTION,MW,80,250,100,180,350,350,300,350,370,400,300,0,"NEA annual report FY 2024/25 monthly capacity balance table"
+MONTHLY_NATIONAL_PEAK_DEMAND,MW,2192,2183,2337,1946,2001,2091,2032,1991,2045,2223,2409,2214,"NEA annual report FY 2024/25 monthly capacity balance table"
+EXPORT,MW,537,578,555,237,0,0,0,0,0,0,165,687,"NEA annual report FY 2024/25 monthly capacity balance table"
+MONTHLY_SYSTEM_PEAK_DEMAND,MW,2759,2761,2892,2184,2001,2091,2032,1991,2043,2223,2574,2901,"NEA annual report FY 2024/25 monthly capacity balance table"

@@ -1,0 +1,25 @@
+{
+  "slug": "upper-tamor",
+  "entries": [
+    {
+      "src": "upper-tamor/ipsdpv2-p282-img00.png",
+      "filename": "ipsdpv2-p282-img00.png",
+      "caption": "Figure 6.3-26 River Longitudinal Profile of the Tamor River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 282,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        57.5,
+        305.89,
+        508.8,
+        598.09
+      ],
+      "width": 1254,
+      "height": 811,
+      "fetched_at": 1776768029
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+---
+title: Arun 3
+type: entity
+created: 2026-04-20
+updated: 2026-04-20
+sources: [arun-3-project-status-2025, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
+tags: [project, watchlist, top-capacity, under-construction, koshi, sankhuwasabha, india-developed, peaking-ror]
+---
+
+# Arun 3
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/images/arun-3/ipsdpv2-p281-img00.png" alt="Figure 6.3-25 River Longitudinal Profile of the Arun River">
+  <figcaption>Figure 6.3-25 River Longitudinal Profile of the Arun River</figcaption>
+</figure>
+
+Nepal's **single largest project under construction** — a 900 MW
+peaking run-of-river scheme on the Arun River in Sankhuwasabha,
+developed and financed by India's state utility SJVN. When it comes
+online (revised target: September 2026), it will almost double the
+country's operating hydropower fleet — but only ~22% of its output
+will stay in Nepal.
+
+## Specifications
+
+| Parameter | Value |
+|-----------|-------|
+| Capacity | 900 MW (4 × 225 MW Francis units) |
+| Status | Under construction — **74.6% complete** (Dec 2025) |
+| Type | Peaking run-of-river, ~3.4 hours/day at full output |
+| River | Arun (eastern [[koshi-basin]]) |
+| District | Sankhuwasabha |
+| Developer | SJVN Arun-3 Power Development Company (SAPDC) |
+| Cost | ~USD 1.6 billion |
+| Concession | 30-year BOOT |
+| Design energy | 3,924–4,019 GWh / year |
+| Nepal free share | **21.9%** (~197 MW) royalty-free |
+| Evacuation | 400 kV DC line to Sitamarhi, Bihar |
+
+## Significance
+
+Arun-3 is the archetype of Nepal's **India-developed export-first**
+project class. Under the 2014 Project Development Agreement, SJVN
+builds, owns and operates the plant for 30 years, gives Nepal 21.9%
+of the energy as royalty-free share, offers another 10% on commercial
+terms, and takes the remainder to the Indian grid — a structure that
+makes Arun-3 the reference case when discussing [[hydro-geopolitics]]
+in the basin.
+
+It also changes the shape of Nepal's fleet, not just the size. Arun-3
+is designed as a **peaking** RoR plant — 3.4 hours of full rated output
+per day, not continuous. So its 900 MW nameplate translates into a
+much smaller day-long energy contribution than its capacity suggests.
+That matters because Nepal's structural problem isn't capacity; it's
+[[seasonal-mismatch]] and [[firm-power]] deficits in dry months, which
+a peaking RoR plant can help with only to the extent the transmission
+system can absorb concentrated evening blocks.
+
+Compared to [[upper-tamakoshi]] — which is Nepali-developed,
+Nepali-dispatched, and continuous-RoR at 456 MW — Arun-3 is larger
+but strategically narrower: more export value than domestic
+reliability value.
+
+## Limitations & Controversies
+
+**Repeated schedule slip.** Original commissioning target was
+March 2025; SJVN has formally applied to extend COD to September 2026.
+Every year of delay compounds Nepal's [[storage-deficit]] exposure
+because Arun-3 is in the pipeline of projects NEA's planning has
+already counted on as "coming online soon."
+
+**Evacuation dependency.** The 400 kV cross-border line to Sitamarhi
+is only 58% complete as of late 2025. Without it, Arun-3's Indian
+export cannot move; with it, a single line carries most of the value.
+Both sides are exposed to the cross-border transmission asset.
+
+**Free power as compensation theory.** The 21.9% free share is the
+political justification for allowing the dominant share of the energy
+and revenue to accrue to India. Whether 21.9% is a good deal for
+Nepal depends on (a) the counterfactual — would the project have
+been built by a Nepali developer at all, and on what timeline — and
+(b) how the free share interacts with dry-season [[firm-power]]
+accounting, which Arun-3's peaking design constrains.
+
+## Official Visual References
+
+SAPDC's monthly progress reports are a materially better official
+visual source than the generic Arun riverside imagery that often gets
+used as a placeholder for the project. The February 2023 report cover
+contains a compact one-page schematic tying together the intake,
+headrace, surge shaft, powerhouse and tailrace alignment.
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/images/arun-3/sapdc-mpr-cover-schematic.png" alt="Arun 3 project schematic">
+  <figcaption>Cover page from SAPDC's monthly progress report up to 28 February 2023.</figcaption>
+</figure>
+
+Source: [SAPDC monthly progress report up to 28 February 2023 (PDF)](https://www.sapdc.com.np/public/uploads/doc/mpr-february-2023-640eb396c8a6d.pdf)
+
+## See also
+
+- [[koshi-basin]]
+- [[upper-tamakoshi]]
+- [[hydro-geopolitics]]
+- [[stranded-generation]]
+- [[firm-power]]
+- [[seasonal-mismatch]]
+- [[inaruwa-purnea-interconnection]] — the 400 kV line being built to evacuate Arun-3

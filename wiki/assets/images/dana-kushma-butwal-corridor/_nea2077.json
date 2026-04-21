@@ -1,0 +1,85 @@
+{
+  "slug": "dana-kushma-butwal-corridor",
+  "entries": [
+    {
+      "src": "dana-kushma-butwal-corridor/nea2077-p131-img01.png",
+      "filename": "nea2077-p131-img01.png",
+      "caption": "each at Rautahat and Saptari.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 131,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        603.07,
+        299.06,
+        751.89
+      ],
+      "width": 634,
+      "height": 413,
+      "fetched_at": 1776686313
+    },
+    {
+      "src": "dana-kushma-butwal-corridor/nea2077-p131-img02.png",
+      "filename": "nea2077-p131-img02.png",
+      "caption": "On-site Awareness Training at Rautahat",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 131,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        319.69,
+        70.87,
+        547.09,
+        209.37
+      ],
+      "width": 631,
+      "height": 384,
+      "fetched_at": 1776686313
+    },
+    {
+      "src": "dana-kushma-butwal-corridor/nea2077-p147-img01.png",
+      "filename": "nea2077-p147-img01.png",
+      "caption": "220 kV Kushma Substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 147,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        70.87,
+        239.53,
+        299.06,
+        409.98
+      ],
+      "width": 634,
+      "height": 473,
+      "fetched_at": 1776686319
+    },
+    {
+      "src": "dana-kushma-butwal-corridor/nea2077-p147-img02.png",
+      "filename": "nea2077-p147-img02.png",
+      "caption": "be commissioned by December 2020.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 147,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        227.48,
+        547.09,
+        417.64
+      ],
+      "width": 634,
+      "height": 528,
+      "fetched_at": 1776686319
+    }
+  ]
+}

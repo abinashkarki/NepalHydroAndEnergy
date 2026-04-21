@@ -1,0 +1,65 @@
+{
+  "slug": "marsyangdi",
+  "entries": [
+    {
+      "src": "marsyangdi/nea2077-p072-img02.png",
+      "filename": "nea2077-p072-img02.png",
+      "caption": "Total Energy Contribution",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 72,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        325.01,
+        537.31,
+        541.05,
+        745.75
+      ],
+      "width": 600,
+      "height": 579,
+      "fetched_at": 1776686301
+    },
+    {
+      "src": "marsyangdi/nea2077-p134-img02.png",
+      "filename": "nea2077-p134-img02.png",
+      "caption": "Construction of Shade at Phulbari Ghat, River bank protection at Gaidakot, Nawalpur",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 134,
+      "image_index": 2,
+      "action": "inline_figure",
+      "bbox": [
+        69.74,
+        511.65,
+        298.67,
+        657.64
+      ],
+      "width": 636,
+      "height": 405,
+      "fetched_at": 1776686315
+    },
+    {
+      "src": "marsyangdi/nea2077-p146-img01.png",
+      "filename": "nea2077-p146-img01.png",
+      "caption": "Marsyangdi - Kathmandu 220 kV Transmission Line",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 146,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        70.87,
+        388.35,
+        301.86,
+        631.3
+      ],
+      "width": 641,
+      "height": 675,
+      "fetched_at": 1776686318
+    }
+  ]
+}

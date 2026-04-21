@@ -1,0 +1,13 @@
+fiscal_year,bs_month_name,fiscal_month_order,import_gwh_trade_chart,export_gwh_trade_chart,import_gwh_energy_balance,storage_gwh_energy_balance,ror_pror_gwh_energy_balance,ipp_gwh_energy_balance,nea_subsidiary_gwh_energy_balance,system_demand_gwh_energy_balance,daily_import_gwh,daily_export_gwh,daily_days_covered
+2081_2082,Shrawan,1,0.0000,497.8630,0,15,287,1126,379,1819,,,
+2081_2082,Bhadra,2,2.4524,552.3316,2,15,247,1184,399,1857,,,
+2081_2082,Ashwin,3,3.4053,358.2048,3,31,239,1047,167,1497,,,
+2081_2082,Kartik,4,0.0000,289.7869,0,18,266,905,64,1259,,,
+2081_2082,Mangsir,5,29.7911,66.2297,30,13,243,674,75,1063,27.071,4.414,13
+2081_2082,Poush,6,172.3379,0.1100,172,24,188,487,133,1062,157.010,0.110,27
+2081_2082,Magh,7,295.8489,0.0000,296,12,164,411,132,1067,,,
+2081_2082,Falgun,8,357.3589,0.0000,357,6,141,341,114,1013,,,
+2081_2082,Chaitra,9,362.2620,1.0960,362,44,152,377,123,1138,,,
+2081_2082,Baishakh,10,354.4904,0.0000,354,50,172,460,141,1268,,,
+2081_2082,Jestha,11,123.5147,78.9363,124,31,247,713,271,1435,,,
+2081_2082,Ashadh,12,10.0657,487.1778,10,20,272,1194,467,1970,,,

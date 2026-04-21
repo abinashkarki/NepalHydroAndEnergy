@@ -1,0 +1,65 @@
+{
+  "slug": "niettp",
+  "entries": [
+    {
+      "src": "niettp/nea2425-p042-img00.png",
+      "filename": "nea2425-p042-img00.png",
+      "caption": "400 kV Tower at Koshi River",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 42,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        303.95,
+        265.3,
+        532.61,
+        394.24
+      ],
+      "width": 635,
+      "height": 358,
+      "fetched_at": 1776764003
+    },
+    {
+      "src": "niettp/nea2425-p077-img02.png",
+      "filename": "nea2425-p077-img02.png",
+      "caption": "Pangtang Substation Keraun 132/33 kV Substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 77,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        316.51,
+        63.1,
+        547.74,
+        195.59
+      ],
+      "width": 642,
+      "height": 368,
+      "fetched_at": 1776764004
+    },
+    {
+      "src": "niettp/nea2425-p079-img01.png",
+      "filename": "nea2425-p079-img01.png",
+      "caption": "the end of 2025.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 79,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        317.81,
+        125.93,
+        547.4,
+        231.96
+      ],
+      "width": 637,
+      "height": 294,
+      "fetched_at": 1776764004
+    }
+  ]
+}

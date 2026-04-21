@@ -1,0 +1,25 @@
+{
+  "slug": "tanahu-hydropower",
+  "entries": [
+    {
+      "src": "tanahu-hydropower/nea2425-p104-img00.png",
+      "filename": "nea2425-p104-img00.png",
+      "caption": "Main Dam",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 104,
+      "image_index": 0,
+      "action": "filmstrip",
+      "bbox": [
+        303.64,
+        606.27,
+        533.33,
+        746.81
+      ],
+      "width": 638,
+      "height": 390,
+      "fetched_at": 1776764006
+    }
+  ]
+}

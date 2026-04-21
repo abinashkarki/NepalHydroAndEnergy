@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "ad8383ca49ddaa45",
+    "type": "split",
+    "children": [
+      {
+        "id": "965a81e1a3f08c44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f4b661ef562d298",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7098f1944e8e4471",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7f1a37454b466ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dfdfdccc71046c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3c9d146e54d28ace",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ddd065b94a406e69",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "de3fcea3ca206d4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a39930a325b92221",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a735417b04e6e25d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2b074c91cb4d2b28",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "3767155af4e5c3d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "82d8dffdcff399a5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "93e63fedf06fb4d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3f4b661ef562d298",
+  "lastOpenFiles": [
+    "pages/data/data-pipeline-readme.md",
+    "pages/data/data-map-inventory.md",
+    "assets/maps/previews/nepal_geopolitics_river_influence.png",
+    "assets/maps/previews/nepal_cross_border_with_projects.png",
+    "assets/maps/previews/nepal_cross_border_hydrology.png",
+    "assets/maps/previews/nepal_cross_border_basin_context.png",
+    "assets/maps/layers/river_influence_callouts.geojson",
+    "assets/maps/layers/nepal_relevant_tributaries.geojson",
+    "assets/maps/layers/nepal_origin_downstream_systems.geojson",
+    "assets/maps/layers/nepal_linked_basin_polygons.geojson",
+    "assets/maps/layers/nepal_country_outline.geojson",
+    "assets/maps/layers/india_reference_rivers.geojson",
+    "assets/maps/layers/india_comparison_basin_polygons.geojson",
+    "assets/maps/layers/downstream_hydrology_markers.geojson",
+    "assets/maps/html/nepal_tributary_network.html",
+    "assets/maps/html/nepal_tributary_explorer.html",
+    "pages/data/data-domestic-demand.md",
+    "pages/entities/west-seti.md",
+    "pages/data/data-mountain-hydro-comparison.md",
+    "pages/entities/bangladesh-trade-route.md",
+    "pages/claims/claim-domestic-led-strategy.md",
+    "pages/entities/tanahu-hydropower.md",
+    "pages/syntheses/unresolved-questions.md",
+    "pages/entities/koshi-basin.md"
+  ]
+}

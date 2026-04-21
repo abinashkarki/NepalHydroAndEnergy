@@ -1,0 +1,164 @@
+[
+  {
+    "slug": "arun-3",
+    "locator": {
+      "src": "arun-3/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Arun 3.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    }
+  },
+  {
+    "slug": "upper-karnali",
+    "locator": {
+      "src": "upper-karnali/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Upper Karnali.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    }
+  },
+  {
+    "slug": "tanahu-hydropower",
+    "locator": {
+      "src": "tanahu-hydropower/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Tanahu Hydropower Project.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    }
+  },
+  {
+    "slug": "dudhkoshi-storage",
+    "locator": {
+      "src": "dudhkoshi-storage/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Dudhkoshi Storage Hydroelectric Project.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    }
+  },
+  {
+    "slug": "upper-tamakoshi",
+    "locator": {
+      "src": "upper-tamakoshi/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Upper Tamakoshi.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    }
+  },
+  {
+    "slug": "kali-gandaki-a",
+    "locator": {
+      "src": "kali-gandaki-a/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Kali Gandaki A.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    }
+  },
+  {
+    "slug": "mugu-karnali-storage-hep",
+    "locator": {
+      "src": "mugu-karnali-storage-hep/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Mugu Karnali Storage HEP.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    },
+    "official": {
+      "src": "mugu-karnali-storage-hep/official-layout.jpg",
+      "caption": "Official project layout image published on the VUCL Mugu Karnali Storage HEP page.",
+      "credit": "Vidhyut Utpadan Company Limited (VUCL)",
+      "source_url": "https://www.vucl.org/projects/mugu-karnali-storage-hep"
+    }
+  },
+  {
+    "slug": "phukot-karnali",
+    "locator": {
+      "src": "phukot-karnali/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Phukot Karnali.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    },
+    "official": {
+      "src": "phukot-karnali/official-layout.jpg",
+      "caption": "Official project layout image published on the VUCL Phukot Karnali PROR HEP page.",
+      "credit": "Vidhyut Utpadan Company Limited (VUCL)",
+      "source_url": "https://www.vucl.org/projects/phukot-karnali-pror-hep"
+    }
+  },
+  {
+    "slug": "nalsyau-gad-storage-hep",
+    "locator": {
+      "src": "nalsyau-gad-storage-hep/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Nalsyau Gad Storage HEP.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    },
+    "official": {
+      "src": "nalsyau-gad-storage-hep/jica-layout-page.png",
+      "caption": "Official JICA storage master plan figure page showing Nalsyau Gad location and general layout.",
+      "credit": "JICA / EPDC, Nationwide Master Plan Study on Storage-type Hydroelectric Power Development in Nepal",
+      "source_url": "data/raw/lead1_sources/jica_storage_master_plan_vol_2.pdf"
+    }
+  },
+  {
+    "slug": "naumure-w-rapti",
+    "locator": {
+      "src": "naumure-w-rapti/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Naumure (W. Rapti).",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    },
+    "official": {
+      "src": "naumure-w-rapti/jica-layout-page.png",
+      "caption": "Official JICA storage master plan figure page showing Naumure location and general layout.",
+      "credit": "JICA / EPDC, Nationwide Master Plan Study on Storage-type Hydroelectric Power Development in Nepal",
+      "source_url": "data/raw/lead1_sources/jica_storage_master_plan_vol_2.pdf"
+    }
+  },
+  {
+    "slug": "sun-koshi-no-3",
+    "locator": {
+      "src": "sun-koshi-no-3/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Sun Koshi No.3.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    },
+    "official": {
+      "src": "sun-koshi-no-3/jica-layout-page.png",
+      "caption": "Official JICA storage master plan figure page showing Sun Koshi No.3 location and general layout.",
+      "credit": "JICA / EPDC, Nationwide Master Plan Study on Storage-type Hydroelectric Power Development in Nepal",
+      "source_url": "data/raw/lead1_sources/jica_storage_master_plan_vol_2.pdf"
+    }
+  },
+  {
+    "slug": "andhi-khola",
+    "locator": {
+      "src": "andhi-khola/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Andhi Khola.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    }
+  },
+  {
+    "slug": "lower-badigad",
+    "locator": {
+      "src": "lower-badigad/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Lower Badigad.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    },
+    "official": {
+      "src": "lower-badigad/jica-layout-page.png",
+      "caption": "Official JICA storage master plan figure page showing Lower Badigad location and general layout.",
+      "credit": "JICA / EPDC, Nationwide Master Plan Study on Storage-type Hydroelectric Power Development in Nepal",
+      "source_url": "data/raw/lead1_sources/jica_storage_master_plan_vol_2.pdf"
+    }
+  },
+  {
+    "slug": "uttarganga-storage-hydropower-project",
+    "locator": {
+      "src": "uttarganga-storage-hydropower-project/locator-map.png",
+      "caption": "Locator crop centered on the mapped project anchor for Uttarganga Storage Hydropower Project.",
+      "credit": "Nepal Energy research workspace",
+      "source_url": "data/processed/maps/hydropower_project_display_points.geojson"
+    }
+  }
+]

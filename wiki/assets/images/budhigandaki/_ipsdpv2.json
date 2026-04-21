@@ -1,0 +1,25 @@
+{
+  "slug": "budhigandaki",
+  "entries": [
+    {
+      "src": "budhigandaki/ipsdpv2-p272-img00.png",
+      "filename": "ipsdpv2-p272-img00.png",
+      "caption": "Figure 6.3-17 River Longitudinal Profile of the Budhi Gandaki River",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 272,
+      "image_index": 0,
+      "action": "inline_figure",
+      "bbox": [
+        57.5,
+        260.84,
+        508.8,
+        546.14
+      ],
+      "width": 1254,
+      "height": 792,
+      "fetched_at": 1776768026
+    }
+  ]
+}

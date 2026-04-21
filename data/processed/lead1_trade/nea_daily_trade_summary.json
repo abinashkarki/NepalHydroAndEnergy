@@ -1,0 +1,14 @@
+{
+  "archive_url": "https://td.neasite.dryicesolutions.net/en/category/daily-operational-reports-1",
+  "page_count_crawled": 4,
+  "detail_count": 40,
+  "manifest_count": 40,
+  "parsed_count": 40,
+  "failure_count": 0,
+  "earliest_bs_date": "2081/08/18",
+  "latest_bs_date": "2081/09/27",
+  "fiscal_years_present": [
+    "2081_2082"
+  ],
+  "failures": []
+}

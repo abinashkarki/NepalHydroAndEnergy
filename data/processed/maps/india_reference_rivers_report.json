@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ganga",
+    "name": "Ganga",
+    "status": "ok",
+    "query": "Ganga, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 1236345
+  },
+  {
+    "id": "yamuna",
+    "name": "Yamuna",
+    "status": "ok",
+    "query": "Yamuna, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 326077
+  },
+  {
+    "id": "ghaghara",
+    "name": "Ghaghara",
+    "status": "ok",
+    "query": "Ghaghara River, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 15793911
+  },
+  {
+    "id": "gandak",
+    "name": "Gandak",
+    "status": "ok",
+    "query": "Gandak, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 4839382
+  },
+  {
+    "id": "kosi_india",
+    "name": "Kosi",
+    "status": "ok",
+    "query": "Kosi River, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 5702599
+  },
+  {
+    "id": "rapti_india",
+    "name": "Rapti",
+    "status": "ok",
+    "query": "Rapti River, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 12559163
+  },
+  {
+    "id": "mahakali_india",
+    "name": "Mahakali / Sharda",
+    "status": "ok",
+    "query": "Mahakali River, India",
+    "chosen_osm_type": "way",
+    "chosen_osm_id": 136079043
+  },
+  {
+    "id": "gomti",
+    "name": "Gomti",
+    "status": "ok",
+    "query": "Gomti River, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 325822
+  },
+  {
+    "id": "son",
+    "name": "Son",
+    "status": "ok",
+    "query": "Son River, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 12559166
+  },
+  {
+    "id": "ramganga",
+    "name": "Ramganga",
+    "status": "ok",
+    "query": "Ramganga River, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 6722174
+  },
+  {
+    "id": "mahananda",
+    "name": "Mahananda",
+    "status": "ok",
+    "query": "Mahananda River, India",
+    "chosen_osm_type": "relation",
+    "chosen_osm_id": 13705629
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "tier_counts": {
+    "site": 81,
+    "river_reference": 427,
+    "raw_reference": 64
+  },
+  "snap_examples": [
+    {
+      "project": "Aayu Chhatigad Hydropower Project",
+      "license_type": "Survey",
+      "river": "Chatti Gad",
+      "offset_m": 183.5,
+      "map_match_basis": "HydroRIVERS order 1"
+    },
+    {
+      "project": "Aayu Malun Khola Hydro-Electric Project",
+      "license_type": "Survey",
+      "river": "Malun",
+      "offset_m": 936.5,
+      "map_match_basis": "HydroRIVERS order 3"
+    },
+    {
+      "project": "Adhikhola Storage HEP",
+      "license_type": "Survey",
+      "river": "Adhikhola",
+      "offset_m": 230.3,
+      "map_match_basis": "HydroRIVERS order 4"
+    },
+    {
+      "project": "Akhu Khola-2 HPP",
+      "license_type": "Survey",
+      "river": "Akhu Khola",
+      "offset_m": 493.0,
+      "map_match_basis": "HydroRIVERS order 4"
+    },
+    {
+      "project": "Ankhu Khola",
+      "license_type": "Generation",
+      "river": "Ankhu Khola",
+      "offset_m": 677.7,
+      "map_match_basis": "HydroRIVERS order 4"
+    },
+    {
+      "project": "Apsuwa I HEP",
+      "license_type": "Survey",
+      "river": "Apsuwa",
+      "offset_m": 154.3,
+      "map_match_basis": "HydroRIVERS order 3"
+    },
+    {
+      "project": "Arun 3",
+      "license_type": "Survey",
+      "river": "Arun",
+      "offset_m": 1414.0,
+      "map_match_basis": "HydroRIVERS order 1"
+    },
+    {
+      "project": "Arun Khola 2 HEP",
+      "license_type": "Survey",
+      "river": "Arun Khola",
+      "offset_m": 6.8,
+      "map_match_basis": "OSM Arun Khola"
+    },
+    {
+      "project": "Arung Khola",
+      "license_type": "Survey",
+      "river": "Arung",
+      "offset_m": 301.2,
+      "map_match_basis": "HydroRIVERS order 3"
+    },
+    {
+      "project": "Badigad HPP",
+      "license_type": "Generation",
+      "river": "Badigad",
+      "offset_m": 1107.9,
+      "map_match_basis": "HydroRIVERS order 3"
+    },
+    {
+      "project": "Badigad Khola HPP",
+      "license_type": "Survey",
+      "river": "Badigad",
+      "offset_m": 236.0,
+      "map_match_basis": "HydroRIVERS order 4"
+    },
+    {
+      "project": "Bagar Khola Hydro-Electric Project",
+      "license_type": "Survey",
+      "river": "Bagar Khola",
+      "offset_m": 92.3,
+      "map_match_basis": "HydroRIVERS order 3"
+    },
+    {
+      "project": "Bagmati Nadi",
+      "license_type": "Generation",
+      "river": "Bagmati",
+      "offset_m": 576.7,
+      "map_match_basis": "Published tributary geometry: Bagmati River"
+    },
+    {
+      "project": "Balephi",
+      "license_type": "Generation",
+      "river": "Balephi",
+      "offset_m": 205.0,
+      "map_match_basis": "Published tributary geometry: Balephi Khola"
+    },
+    {
+      "project": "Balephi A",
+      "license_type": "Generation",
+      "river": "Balephi",
+      "offset_m": 10.3,
+      "map_match_basis": "Published tributary geometry: Balephi Khola"
+    },
+    {
+      "project": "Balephi Cascade HPP",
+      "license_type": "Survey",
+      "river": "Balephi",
+      "offset_m": 68.4,
+      "map_match_basis": "Published tributary geometry: Balephi Khola"
+    },
+    {
+      "project": "Balephi Khola HEP",
+      "license_type": "Survey",
+      "river": "Balephi",
+      "offset_m": 246.6,
+      "map_match_basis": "Published tributary geometry: Balephi Khola"
+    },
+    {
+      "project": "Begnas- Rupa Storage Project",
+      "license_type": "Survey",
+      "river": "Begnas - Rupa",
+      "offset_m": 503.9,
+      "map_match_basis": "HydroRIVERS order 1"
+    },
+    {
+      "project": "Betan Karnali HP",
+      "license_type": "Survey",
+      "river": "Karnali",
+      "offset_m": 2709.4,
+      "map_match_basis": "OSM \u0915\u0930\u094d\u0923\u093e\u0932\u0940"
+    },
+    {
+      "project": "Bhabil 1 Hydropower Project",
+      "license_type": "Survey",
+      "river": "Bhabil Khola",
+      "offset_m": 313.4,
+      "map_match_basis": "OSM Bhabil Khola"
+    }
+  ]
+}

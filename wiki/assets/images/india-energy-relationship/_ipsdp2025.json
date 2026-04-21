@@ -1,0 +1,45 @@
+{
+  "slug": "india-energy-relationship",
+  "entries": [
+    {
+      "src": "india-energy-relationship/ipsdp2025-p012-img01.png",
+      "filename": "ipsdp2025-p012-img01.png",
+      "caption": "Figure 2.2-4 Current Power Trade Scheme between Nepal and India",
+      "credit": "Ministry of Energy, Water Resources and Irrigation (MoEWRI) / JICA — Project on Integrated Power System Development Plan in Nepal, Executive Summary (2025)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
+      "source_page": 12,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        57.36,
+        159.84,
+        509.04,
+        240.48
+      ],
+      "width": 1255,
+      "height": 224,
+      "fetched_at": 1776763988
+    },
+    {
+      "src": "india-energy-relationship/ipsdp2025-p026-img02.png",
+      "filename": "ipsdp2025-p026-img02.png",
+      "caption": "Figure 2.4-7 Proposed power trading scheme",
+      "credit": "Ministry of Energy, Water Resources and Irrigation (MoEWRI) / JICA — Project on Integrated Power System Development Plan in Nepal, Executive Summary (2025)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
+      "source_page": 26,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        67.68,
+        220.92,
+        498.24,
+        300.0
+      ],
+      "width": 1196,
+      "height": 219,
+      "fetched_at": 1776763989
+    }
+  ]
+}

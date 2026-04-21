@@ -1,0 +1,156 @@
+[
+  {
+    "source_id": "mca_annex_d1_alignment_maps",
+    "title": "MCA-Nepal Annex D-1 Alignment Maps",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf",
+    "exists_local": true,
+    "url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FEIAReports%2FAnnexD_1_Alignment-Maps.pdf&section=EIAReports&guid=90d56f40-0b72-4cb0-9e2b-fa8eeaba72d3",
+    "source_type": "pdf",
+    "document_class": "alignment_atlas",
+    "primary_use": "trace_grade",
+    "note": "193-page A3 alignment atlas for the MCA central 400 kV corridor. Exact sheet ranges still need source-by-source confirmation."
+  },
+  {
+    "source_id": "world_bank_hddtl_rap",
+    "title": "World Bank Hetauda-Dhalkebar-Duhabi RAP",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/world_bank_hddtl_rap.pdf",
+    "exists_local": true,
+    "url": "https://documents1.worldbank.org/curated/en/522221483681808545/pdf/IPP476-v2-Box396344B-PUBLIC-disclosed-1-5-17.pdf",
+    "source_type": "pdf",
+    "document_class": "rap",
+    "primary_use": "trace_grade",
+    "note": "Best public route-map packet for HDDTL; includes overview map figure and detailed corridor description."
+  },
+  {
+    "source_id": "rpgcl_transmission_network_map_revised1",
+    "title": "RPGCL Nepal Transmission Network Map Revised 2021",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "exists_local": true,
+    "url": "https://www.rpgcl.com/storage/listies/November2021/nepal-tranmission-network-map-revised1.pdf",
+    "source_type": "pdf",
+    "document_class": "geospatial_vector_map",
+    "primary_use": "trace_grade",
+    "note": "Official ArcMap geospatial PDF with extractable vector transmission linework and layer metadata. This is now the main extraction source for the four traced corridor outputs committed in the repo."
+  },
+  {
+    "source_id": "mca_project_summary_report",
+    "title": "MCA-Nepal Project Summary Report",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_project_summary_report.pdf",
+    "exists_local": true,
+    "url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FFeasibilityStudiesReports%2FVolume-8-Project-Summary-Report.pdf&section=FeasibilityStudiesReports&guid=02f6a408-fd36-4732-a580-0ae2af8b35ae",
+    "source_type": "pdf",
+    "document_class": "feasibility_summary",
+    "primary_use": "naming_reference",
+    "note": "Useful for reconciling older Naubise-based nomenclature against the current Ratmate-centered MCA corridor naming."
+  },
+  {
+    "source_id": "moewri_ipsdp_exec_summary_2025",
+    "title": "MoEWRI IPSDP Executive Summary 2025",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
+    "exists_local": true,
+    "url": "https://giwmscdnone.gov.np/media/pdf_upload/01%20Executive%20Summary%20Project%20on%20Integrated%20Power%20System%20Development%20Plan%20in%20Nepal%202025.06.09_g8l5n0c.pdf",
+    "source_type": "pdf",
+    "document_class": "master_plan_summary",
+    "primary_use": "reference_only",
+    "note": "Useful for current and future interconnection framing, not detailed route tracing."
+  },
+  {
+    "source_id": "adb_sasec_operational_plan_update",
+    "title": "ADB SASEC Operational Plan 2016-2025 Update",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/adb_sasec_operational_plan_update.pdf",
+    "exists_local": true,
+    "url": "https://www.adb.org/sites/default/files/institutional-document/551061/sasec-operational-plan-2016-2025-update.pdf",
+    "source_type": "pdf",
+    "document_class": "regional_plan",
+    "primary_use": "planning_reference",
+    "note": "Useful for corridor grouping and MCA project framing, not exact tracing."
+  },
+  {
+    "source_id": "jica_ipsdp_report_part2",
+    "title": "JICA IPSDP Report Part 2",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/jica/jica_ipsdp_report_part2.pdf",
+    "exists_local": true,
+    "url": "https://openjicareport.jica.go.jp/pdf/12387999_02.pdf",
+    "source_type": "pdf",
+    "document_class": "master_plan_report",
+    "primary_use": "basin_grouping_reference",
+    "note": "Good for corridor family grouping and planning context, not exact routing."
+  },
+  {
+    "source_id": "nea_annual_report_2024_2025",
+    "title": "NEA Annual Report FY 2024/25",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "exists_local": true,
+    "url": "",
+    "source_type": "pdf",
+    "document_class": "annual_report",
+    "primary_use": "status_reference",
+    "note": "Best local source for current operational and under-construction line lists; not a route atlas."
+  },
+  {
+    "source_id": "nea_transmission_annual_book_2077",
+    "title": "NEA Transmission Annual Book 2077 (FY 2019/20)",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+    "exists_local": true,
+    "url": "https://neasite.dryicesolutions.net/uploads/shares/annual_report/Annual_book_2077.pdf",
+    "source_type": "pdf",
+    "document_class": "annual_book",
+    "primary_use": "manual_route_basis",
+    "note": "Recovered from the live NEA dryicesolutions mirror on 2026-04-18. Useful for Solu corridor narrative evidence, especially the Tingla substation page and the Maruwa rerouting note."
+  },
+  {
+    "source_id": "nea_marsyangdi_rap",
+    "title": "NEA Marsyangdi Corridor RAP / route packet",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf",
+    "exists_local": true,
+    "url": "https://neasite.dryicesolutions.net/uploads/shares/publication/17560727.pdf",
+    "source_type": "pdf",
+    "document_class": "rap",
+    "primary_use": "trace_grade",
+    "note": "Recovered from the live NEA dryicesolutions mirror on 2026-04-18. This is the main route-grade packet for Udipur-Markichowk-Bharatpur."
+  },
+  {
+    "source_id": "nea_kabeli_iee",
+    "title": "NEA Kabeli Corridor IEE",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_kabeli_iee.pdf",
+    "exists_local": true,
+    "url": "https://web.archive.org/web/20120216232653/http://www.nea.org.np/images/supportive_docs/Initial%20Environmental%20Examination%20_IEE_%20Study%20Vol-I%20of%20Kabeli%20Corridor%20TL%20Project.pdf",
+    "source_type": "pdf",
+    "document_class": "iee",
+    "primary_use": "trace_grade",
+    "note": "Recovered from Wayback on 2026-04-18 using the original NEA /images/supportive_docs path. This is now the primary route-grade source for the Kabeli corridor family."
+  },
+  {
+    "source_id": "nea_kabeli_smef",
+    "title": "NEA Kabeli Corridor SMEF",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_kabeli_smef.pdf",
+    "exists_local": true,
+    "url": "https://web.archive.org/web/20120216232653/http://www.nea.org.np/images/supportive_docs/SOCIAL%20MANAGEMENT%20and%20ENTITLEMENT%20FRAMEWORK%20-%20Kabeli%20TL.pdf",
+    "source_type": "pdf",
+    "document_class": "smef",
+    "primary_use": "supporting_alignment_context",
+    "note": "Recovered from Wayback on 2026-04-18. Useful for project description, location, substation references, and impact-area framing around the Kabeli line."
+  },
+  {
+    "source_id": "nea_marsyangdi_rap_upper",
+    "title": "NEA Marsyangdi Corridor RAP (Manang-Khudi-Udipur)",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap_upper.pdf",
+    "exists_local": true,
+    "url": "https://neasite.dryicesolutions.net/uploads/shares/publication/52182611.pdf",
+    "source_type": "pdf",
+    "document_class": "rap",
+    "primary_use": "trace_grade",
+    "note": "Recovered from the live NEA dryicesolutions mirror on 2026-04-18. Companion route-grade source for the upper Marsyangdi section."
+  },
+  {
+    "source_id": "eib_marsyangdi_cia",
+    "title": "EIB Marsyangdi Corridor CIA",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/eib_marsyangdi_cia.pdf",
+    "exists_local": true,
+    "url": "https://www.eib.org/attachments/registers/168770873.pdf",
+    "source_type": "pdf",
+    "document_class": "cia",
+    "primary_use": "supporting_alignment_context",
+    "note": "Companion source recovered on 2026-04-18. Useful for updated corridor context, cumulative impact framing, and segment lengths."
+  }
+]

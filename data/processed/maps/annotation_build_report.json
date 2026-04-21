@@ -1,0 +1,28 @@
+{
+  "basin_seasonality": {
+    "feature_count": 8,
+    "skipped": [
+      {
+        "basin": "Kankai",
+        "reason": "no_anchor"
+      }
+    ]
+  },
+  "top_capacity_projects": {
+    "feature_count": 10,
+    "limit": 10
+  },
+  "priority_watchlist": {
+    "feature_count": 12,
+    "skipped": []
+  },
+  "storage_shortlist": {
+    "feature_count": 11,
+    "skipped": [
+      {
+        "project": "Chera-1",
+        "reason": "no_reliable_anchor"
+      }
+    ]
+  }
+}

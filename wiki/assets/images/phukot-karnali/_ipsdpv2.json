@@ -1,0 +1,25 @@
+{
+  "slug": "phukot-karnali",
+  "entries": [
+    {
+      "src": "phukot-karnali/ipsdpv2-p064-img00.png",
+      "filename": "ipsdpv2-p064-img00.png",
+      "caption": "Figure 2.1-3 Location of VUCL’s Projects",
+      "credit": "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+      "source_page": 64,
+      "image_index": 0,
+      "action": "filmstrip",
+      "bbox": [
+        58.8,
+        400.55,
+        507.7,
+        673.39
+      ],
+      "width": 1247,
+      "height": 758,
+      "fetched_at": 1776768021
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "tanahu-hydropower",
+    "title": "Tanahu Hydropower Project",
+    "top_strip_priority": [
+      "project_photo"
+    ],
+    "inline_wiki_priority": [
+      "official_figure",
+      "document_layout"
+    ],
+    "resources": [
+      {
+        "kind": "project_photo",
+        "status": "lead_found",
+        "source_type": "official_flickr_album",
+        "title": "ADB Tanahu project album",
+        "url": "https://www.flickr.com/photos/asiandevelopmentbank/albums/72177720309846180/",
+        "license_status": "all_rights_reserved",
+        "fit_for_top_strip": false,
+        "notes": "Strong construction and substation imagery, but Flickr pages indicate all-rights-reserved. Good editorial reference, not safe default repo asset."
+      },
+      {
+        "kind": "project_photo",
+        "status": "lead_found",
+        "source_type": "official_flickr_photo",
+        "title": "Workers work outside the ongoing construction of the 140MW Tanahun Hydropower Project",
+        "url": "https://www.flickr.com/photos/asiandevelopmentbank/53054542035",
+        "license_status": "all_rights_reserved",
+        "fit_for_top_strip": false,
+        "notes": "Actual construction image. Worth replacing with a licensable equivalent if one exists."
+      },
+      {
+        "kind": "project_photo",
+        "status": "lead_found",
+        "source_type": "contractor_news_page",
+        "title": "PECC1 Tanahu main dam concreting update",
+        "url": "https://www.pecc1.com.vn/d4/news/Concreting-of-Tanahu-hydropower-project-main-dam-Nepal-8-2388.aspx",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Published March 21, 2025 and includes multiple current construction photos from the Tanahu main dam works."
+      }
+    ],
+    "next_step": "Search for NEA, contractor, or lender photos with reusable licensing; otherwise keep official figures inline and do not import ADB Flickr images."
+  },
+  {
+    "slug": "dudhkoshi-storage",
+    "title": "Dudhkoshi Storage Hydroelectric Project",
+    "top_strip_priority": [
+      "project_photo"
+    ],
+    "inline_wiki_priority": [
+      "official_figure",
+      "document_layout"
+    ],
+    "resources": [
+      {
+        "kind": "project_photo",
+        "status": "lead_found",
+        "source_type": "official_project_site",
+        "title": "DKJVCL home page with photo gallery and project updates",
+        "url": "https://dkjvcl.org.np/",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Official project site clearly advertises a photo gallery. Direct fetch from local shell returned HTTP 406, but web search shows the gallery exists."
+      },
+      {
+        "kind": "project_photo",
+        "status": "lead_found",
+        "source_type": "official_gallery_image",
+        "title": "DKJVCL gallery dam-site image",
+        "url": "https://dkjvcl.org.np/wp-content/uploads/2025/03/01-Dam-Site-1024x530.jpg",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Direct image endpoint discovered through browser automation on the official gallery page."
+      },
+      {
+        "kind": "official_figure",
+        "status": "usable_now",
+        "source_type": "official_project_site",
+        "title": "DKJVCL study report page",
+        "url": "https://dkjvcl.org.np/project/study-report/",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "High-value technical reference for inline wiki sections and layout descriptions."
+      },
+      {
+        "kind": "official_figure",
+        "status": "usable_now",
+        "source_type": "official_pdf",
+        "title": "Dudhkoshi market-sounding teaser PDF",
+        "url": "https://dkjvcl.org.np/wp-content/uploads/2026/02/20260202-Teaser-for-Market-Sounding-Final-2.pdf",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Contains project photos and figures such as land-use mapping. Better suited to inline wiki sections than the top filmstrip."
+      }
+    ],
+    "next_step": "Manually access the DKJVCL gallery through browser tooling or web results, identify whether individual images have reusable terms, and extract the best document figures for inline sections."
+  },
+  {
+    "slug": "arun-3",
+    "title": "Arun 3",
+    "top_strip_priority": [
+      "project_photo"
+    ],
+    "inline_wiki_priority": [
+      "official_figure",
+      "document_layout"
+    ],
+    "resources": [
+      {
+        "kind": "project_photo",
+        "status": "lead_found",
+        "source_type": "official_gallery",
+        "title": "SAPDC photo gallery",
+        "url": "https://www.sapdc.com.np/public/photo-gallery.html",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Best current official photo lead. Public gallery exposes project-faithful dam-site and powerhouse excavation images, but reuse terms still need manual verification before importing."
+      },
+      {
+        "kind": "official_figure",
+        "status": "usable_now",
+        "source_type": "official_pdf",
+        "title": "SAPDC monthly progress report up to 28 February 2023",
+        "url": "https://www.sapdc.com.np/public/uploads/doc/mpr-february-2023-640eb396c8a6d.pdf",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Contains a clean cover-page project schematic that now works well as an inline wiki figure."
+      },
+      {
+        "kind": "official_figure",
+        "status": "lead_found",
+        "source_type": "official_project_page",
+        "title": "Arun III HEP project page",
+        "url": "https://sjvn.nic.in/en/arun-iii-hep",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Still useful for specifications and status, but the public page surface is mostly text rather than image-rich figures."
+      }
+    ],
+    "next_step": "Verify reuse terms on the SAPDC gallery, then replace the weak top-strip placeholder with a true project-work photo instead of generic Arun valley context."
+  },
+  {
+    "slug": "upper-karnali",
+    "title": "Upper Karnali",
+    "top_strip_priority": [
+      "project_photo"
+    ],
+    "inline_wiki_priority": [
+      "official_figure",
+      "document_layout"
+    ],
+    "resources": [
+      {
+        "kind": "official_figure",
+        "status": "blocked_live_link",
+        "source_type": "official_project_page",
+        "title": "Investment Board Nepal Upper Karnali page",
+        "url": "https://www.ibn.gov.np/projects/details/upper-karnali-hydropower-3835",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Search indexes still show project metadata and an image placeholder, but the live page currently resolves to a 404 and cannot be treated as a stable figure source."
+      },
+      {
+        "kind": "official_figure",
+        "status": "blocked_live_link",
+        "source_type": "official_factsheet_page",
+        "title": "Investment Board Nepal Upper Karnali factsheet page",
+        "url": "https://ibn.gov.np/resources/details/upper-karnali-factsheet-english-version-3751",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Indexed as a downloadable factsheet, but the live resource page also resolves to a 404 from direct fetch."
+      },
+      {
+        "kind": "official_figure",
+        "status": "weak_lead_only",
+        "source_type": "official_project_page",
+        "title": "GMR Upper Karnali project page",
+        "url": "https://www.gmrgroup.in/energy/upper-karnali/",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Active official page with project basics, but no durable layout plate or site figure exposed in the public surface."
+      },
+      {
+        "kind": "project_photo",
+        "status": "missing",
+        "source_type": "official",
+        "title": "",
+        "url": "",
+        "license_status": "not_found",
+        "fit_for_top_strip": false,
+        "notes": "No clear project-faithful and reusable public photo source identified yet."
+      }
+    ],
+    "next_step": "Search environmental and social disclosure packets, lender documents, or archived project brochures for a stable layout or site figure; keep the page image-free rather than falling back to generic Karnali scenery."
+  },
+  {
+    "slug": "uttarganga-storage-hydropower-project",
+    "title": "Uttarganga Storage Hydropower Project",
+    "top_strip_priority": [
+      "project_photo"
+    ],
+    "inline_wiki_priority": [
+      "official_figure",
+      "document_layout"
+    ],
+    "resources": [
+      {
+        "kind": "official_figure",
+        "status": "usable_now",
+        "source_type": "official_annual_report",
+        "title": "NEA transmission annual book 2077",
+        "url": "../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Now converted into clean inline wiki figures, including a project-company page and a page showing the proposed reservoir area."
+      },
+      {
+        "kind": "official_figure",
+        "status": "lead_found",
+        "source_type": "official_pdf",
+        "title": "Uttar Ganga Storage Hydroelectric Project EOI document",
+        "url": "https://www.nea.org.np/admin/assets/uploads/supportive_docs/1555390265_Final%20EOI%20Document_PPMO.pdf",
+        "license_status": "unknown",
+        "fit_for_top_strip": false,
+        "notes": "Still a useful technical lead, but the public PDF endpoint is not reliably retrievable from the shell and has not yet yielded a cleaner plate than the annual-book pages."
+      },
+      {
+        "kind": "project_photo",
+        "status": "missing",
+        "source_type": "official",
+        "title": "",
+        "url": "",
+        "license_status": "not_found",
+        "fit_for_top_strip": false,
+        "notes": "No credible project-faithful photo source found in the current public stack."
+      }
+    ],
+    "next_step": "Keep mining NEA project-company and EOI material for a cleaner layout drawing, but leave the top strip empty until an actual project-faithful photo source is recovered."
+  }
+]

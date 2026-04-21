@@ -1,0 +1,65 @@
+{
+  "slug": "chainpur-seti",
+  "entries": [
+    {
+      "src": "chainpur-seti/nea2077-p124-img01.png",
+      "filename": "nea2077-p124-img01.png",
+      "caption": "Powerhouse Area of Chainpur Seti",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 124,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        318.67,
+        116.84,
+        547.28,
+        254.33
+      ],
+      "width": 635,
+      "height": 382,
+      "fetched_at": 1776686312
+    },
+    {
+      "src": "chainpur-seti/nea2077-p129-img01.png",
+      "filename": "nea2077-p129-img01.png",
+      "caption": "SD/ToR approved by MoFE",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 129,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        180.0,
+        547.09,
+        320.12
+      ],
+      "width": 634,
+      "height": 389,
+      "fetched_at": 1776686313
+    },
+    {
+      "src": "chainpur-seti/nea2077-p129-img02.png",
+      "filename": "nea2077-p129-img02.png",
+      "caption": "Public hearing of Ghorahi Madichaur 132kV",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 129,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        369.92,
+        547.27,
+        489.87
+      ],
+      "width": 634,
+      "height": 333,
+      "fetched_at": 1776686313
+    }
+  ]
+}

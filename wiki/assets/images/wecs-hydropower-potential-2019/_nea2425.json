@@ -1,0 +1,25 @@
+{
+  "slug": "wecs-hydropower-potential-2019",
+  "entries": [
+    {
+      "src": "wecs-hydropower-potential-2019/nea2425-p099-img01.png",
+      "filename": "nea2425-p099-img01.png",
+      "caption": "Site Inspection during Safeguards",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 99,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        335.62,
+        221.53,
+        547.09,
+        380.15
+      ],
+      "width": 587,
+      "height": 440,
+      "fetched_at": 1776764006
+    }
+  ]
+}

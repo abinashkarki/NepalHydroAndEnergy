@@ -1,0 +1,74 @@
+---
+title: Dana–Kushma–New Butwal 220 kV Corridor
+type: entity
+category: transmission-corridor
+created: 2026-04-20
+updated: 2026-04-20
+sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
+tags: [transmission, 220kv, kali-gandaki-basin, west-central, ipp]
+images:
+  - src: dana-kushma-butwal-corridor/nea2077-p131-img01.png
+    caption: "each at Rautahat and Saptari."
+    credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
+    license: gov-permissive
+    source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+  - src: dana-kushma-butwal-corridor/nea2077-p131-img02.png
+    caption: "On-site Awareness Training at Rautahat"
+    credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
+    license: gov-permissive
+    source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+  - src: dana-kushma-butwal-corridor/nea2077-p147-img01.png
+    caption: "220 kV Kushma Substation"
+    credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
+    license: gov-permissive
+    source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+  - src: dana-kushma-butwal-corridor/nea2077-p147-img02.png
+    caption: "be commissioned by December 2020."
+    credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
+    license: gov-permissive
+    source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+---
+
+# Dana–Kushma–New Butwal 220 kV Corridor
+
+The west-central hydropower evacuation corridor — running from the
+upper **Kali Gandaki** valley (Dana, Kushma, Parbat) down to **New Butwal**.
+Built to pick up the cluster of IPPs in the Modi and Kaligandaki
+tributaries and tie them into the growing western grid.
+
+## Key Facts
+
+| Parameter | Value |
+|-----------|-------|
+| Voltage | 220 kV |
+| Status | Operational |
+| Length | ~135 km |
+| Owner | [[nea]] |
+| Terminals | Dana (Myagdi) · Kushma (Parbat) · New Butwal (Rupandehi) |
+| Commissioned | 2022–2023 (segmented) |
+| Corridor ID | `dana_kushma_butwal_220` |
+
+## Significance
+
+- **Unlocks a trapped basin.** Before this corridor, the Modi / upper
+  Kali Gandaki IPP cluster had to evacuate through congested 132 kV
+  toward Pokhara. Dana–Kushma–New Butwal gave the basin its own exit.
+- **Pre-positions for 400 kV.** Terminates at New Butwal, the same
+  substation that will host the [[mca-central-400]] terminus and the
+  [[gorakhpur-butwal-interconnection]].
+- **Significance for [[kali-gandaki-a]]'s downstream cascade.** The
+  corridor accommodates future cascade additions in the basin.
+
+## Limitations & Open Questions
+
+- **Terrain risk.** Myagdi-Parbat segment climbs steep, landslide-prone
+  terrain; 2023 monsoon damage required emergency tower reinforcement.
+- **Still 220 kV.** As the [[gandaki-basin]] pipeline grows, 220 kV may
+  again become the bottleneck; a 400 kV overlay has been sketched but
+  not scheduled.
+
+## See also
+
+- [[kali-gandaki-a]] — the basin anchor
+- [[mca-central-400]] — the 400 kV it links to
+- [[gorakhpur-butwal-interconnection]] — the cross-border at New Butwal

@@ -1,0 +1,45 @@
+{
+  "slug": "wb-water-sector-diagnostic",
+  "entries": [
+    {
+      "src": "wb-water-sector-diagnostic/nea2077-p036-img01.png",
+      "filename": "nea2077-p036-img01.png",
+      "caption": "Power Transformer in the Switchyard",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 36,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        318.9,
+        70.87,
+        547.09,
+        251.94
+      ],
+      "width": 634,
+      "height": 503,
+      "fetched_at": 1776686294
+    },
+    {
+      "src": "wb-water-sector-diagnostic/nea2077-p036-img02.png",
+      "filename": "nea2077-p036-img02.png",
+      "caption": "New Control Room",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 36,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        68.6,
+        70.87,
+        299.06,
+        235.77
+      ],
+      "width": 640,
+      "height": 458,
+      "fetched_at": 1776686294
+    }
+  ]
+}

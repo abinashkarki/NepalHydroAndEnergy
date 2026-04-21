@@ -1,0 +1,45 @@
+{
+  "slug": "bangladesh-trade-route",
+  "entries": [
+    {
+      "src": "bangladesh-trade-route/nea2077-p062-img01.png",
+      "filename": "nea2077-p062-img01.png",
+      "caption": "Stringing work under progress at Chitre, Dhankuta District.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 62,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        67.77,
+        70.87,
+        544.98,
+        317.89
+      ],
+      "width": 1325,
+      "height": 686,
+      "fetched_at": 1776686299
+    },
+    {
+      "src": "bangladesh-trade-route/nea2077-p062-img02.png",
+      "filename": "nea2077-p062-img02.png",
+      "caption": "Constructional activities at Tumlingtar Substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+      "source_page": 62,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        317.87,
+        469.52,
+        548.12,
+        638.41
+      ],
+      "width": 639,
+      "height": 469,
+      "fetched_at": 1776686299
+    }
+  ]
+}

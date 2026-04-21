@@ -1,0 +1,65 @@
+{
+  "slug": "upper-tamakoshi",
+  "entries": [
+    {
+      "src": "upper-tamakoshi/nea2425-p073-img01.png",
+      "filename": "nea2425-p073-img01.png",
+      "caption": "approach road and boundary wall in progress.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 73,
+      "image_index": 1,
+      "action": "filmstrip",
+      "bbox": [
+        76.54,
+        229.56,
+        304.13,
+        380.15
+      ],
+      "width": 632,
+      "height": 418,
+      "fetched_at": 1776764004
+    },
+    {
+      "src": "upper-tamakoshi/nea2425-p073-img02.png",
+      "filename": "nea2425-p073-img02.png",
+      "caption": "400kV GIS Building and Transformer Banks at New Khimti Substation",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 73,
+      "image_index": 2,
+      "action": "filmstrip",
+      "bbox": [
+        316.19,
+        109.44,
+        548.45,
+        255.07
+      ],
+      "width": 645,
+      "height": 404,
+      "fetched_at": 1776764004
+    },
+    {
+      "src": "upper-tamakoshi/nea2425-p093-img01.png",
+      "filename": "nea2425-p093-img01.png",
+      "caption": "Permanent Camp Facility",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 93,
+      "image_index": 1,
+      "action": "inline_figure",
+      "bbox": [
+        317.81,
+        443.36,
+        545.62,
+        553.69
+      ],
+      "width": 632,
+      "height": 306,
+      "fetched_at": 1776764005
+    }
+  ]
+}
