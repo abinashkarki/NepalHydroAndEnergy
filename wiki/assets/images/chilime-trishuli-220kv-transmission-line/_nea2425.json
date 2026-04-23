@@ -1,0 +1,25 @@
+{
+  "slug": "chilime-trishuli-220kv-transmission-line",
+  "entries": [
+    {
+      "src": "chilime-trishuli-220kv-transmission-line/nea2425-p001-front-cover.png",
+      "filename": "nea2425-p001-front-cover.png",
+      "caption": "Front cover of the NEA FY 2024/25 annual report, identified in the contents page as Chilime-Trishuli 220 kV TL.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 1,
+      "image_index": 0,
+      "action": "page_render",
+      "bbox": [
+        0.0,
+        0.0,
+        610.56,
+        837.26
+      ],
+      "width": 1016,
+      "height": 1394,
+      "fetched_at": 1776822935
+    }
+  ]
+}

@@ -2,14 +2,14 @@
 title: Index
 type: overview
 created: 2026-04-14
-updated: 2026-04-21
+updated: 2026-04-23
 ---
 
 # Index
 
-Catalog of all wiki pages. 204 pages across 6 categories.
+Catalog of all wiki pages. 214 pages across 6 categories.
 
-## Sources (24)
+## Sources (25)
 
 - [[adb-hydropower-growth-nepal]] — ADB Hydropower Growth Nepal Study
 - [[arun-3-project-status-2025]] — Arun-3 Project Status & PDA Summary (2025)
@@ -19,6 +19,7 @@ Catalog of all wiki pages. 204 pages across 6 categories.
 - [[icimod-koshi-basin]] — ICIMOD Koshi Basin Programme
 - [[icimod-koshi-sediment-threats]] — ICIMOD Threats to the Koshi River Basin
 - [[india-cbte-2018]] — India Cross-Border Trade in Electricity Guidelines (2018)
+- [[jica-ipsdp-main-report-vol2]] — JICA IPSDP Final Report Annexes (Vol. 2)
 - [[kali-gandaki-a-adb-evaluation]] — Kali Gandaki A — ADB Performance Evaluation & Wikipedia
 - [[moewri-ipsdp-exec-summary-2025]] — MoEWRI IPSDP Executive Summary
 - [[mugu-karnali-feasibility-2025]] — Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)
@@ -36,7 +37,7 @@ Catalog of all wiki pages. 204 pages across 6 categories.
 - [[wecs-hydropower-potential-2019]] — WECS Assessment of Hydropower Potential of Nepal (2019)
 - [[wecs-river-basin-plan-2024]] — WECS River Basin Plans and Hydropower Development Master Plan (2024)
 
-## Entities (135)
+## Entities (138)
 
 - [[andhi-khola]] — Andhi Khola
 - [[ankhu-khola]] — Ankhu Khola
@@ -55,6 +56,7 @@ Catalog of all wiki pages. 204 pages across 6 categories.
 - [[chameliya-jauljibi-interconnection]] — Chameliya–Jauljibi 220 kV Cross-Border Interconnection
 - [[chameliya-khola]] — Chameliya Khola
 - [[chilime]] — Chilime
+- [[chilime-trishuli-220kv-transmission-line]] — Chilime-Trishuli 220 kV Transmission Line
 - [[damak-godak-phidim-132kv]] — Damak–Godak–Phidim 132 kV Corridor
 - [[dana-kushma-butwal-corridor]] — Dana–Kushma–New Butwal 220 kV Corridor
 - [[dhalkebar-muzaffarpur]] — Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection
@@ -84,6 +86,7 @@ Catalog of all wiki pages. 204 pages across 6 categories.
 - [[khani-khola-1]] — Khani Khola - 1
 - [[khani-khola-dolakha]] — Khani Khola (Dolakha)
 - [[khare-hydropower-project]] — Khare Hydropower Project
+- [[khudi-220-132kv-substation]] — Khudi 220/132 kV Substation
 - [[khimti-dhalkebar-corridor]] — Khimti–Dhalkebar 220 kV Hydropower Corridor
 - [[khimti-i]] — Khimti -I
 - [[khimti-ii]] — Khimti II
@@ -109,6 +112,7 @@ Catalog of all wiki pages. 204 pages across 6 categories.
 - [[mahakali-basin]] — Mahakali Basin
 - [[mai]] — Mai
 - [[main-load-dispatch-centre]] — Main Load Dispatch Centre
+- [[markichowk-220-132kv-substation]] — Markichowk 220/132 kV Substation
 - [[marsyangdi-besi]] — Marsyangdi Besi
 - [[marsyangdi]] — Marsyangdi
 - [[mca-central-400]] — MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)
@@ -174,16 +178,19 @@ Catalog of all wiki pages. 204 pages across 6 categories.
 - [[wecs]] — Water and Energy Commission Secretariat (WECS)
 - [[west-seti]] — West Seti Hydroelectric Project
 
-## Concepts (16)
+## Concepts (19)
 
 - [[buildability]] — Buildability
 - [[domestic-led-hydro-strategy]] — Domestic-Led Hydro Strategy
+- [[energy-substitution-pathway]] — Energy Substitution Pathway
+- [[environmental-flow-policy]] — Environmental Flow Policy
 - [[firm-power]] — Firm Power
 - [[ganges-contribution]] — Nepal's Contribution to the Ganges
 - [[glof-risk]] — GLOF Risk
 - [[green-hydrogen-nepal]] — Green Hydrogen Nepal
 - [[hydro-geopolitics]] — Hydro-Geopolitics
 - [[hydropower-potential-categories]] — Hydropower Potential Categories
+- [[nepal-power-trade-schemes]] — Nepal Power Trade Schemes
 - [[peak-water]] — Peak Water
 - [[project-roadmap]] — Project Roadmap
 - [[run-of-river-hydropower]] — Run-of-River Hydropower
@@ -193,9 +200,10 @@ Catalog of all wiki pages. 204 pages across 6 categories.
 - [[storage-deficit]] — Storage Deficit
 - [[stranded-generation]] — Stranded Generation
 
-## Syntheses (5)
+## Syntheses (6)
 
 - [[bottleneck-hierarchy]] — Bottleneck Hierarchy
+- [[ipsdp-2025-vs-wiki-claims]] — IPSDP 2025 vs Wiki Claims
 - [[master-thesis]] — Master Thesis
 - [[provider-comparison]] — Provider Comparison
 - [[twenty-year-strategy]] — Twenty-Year Strategy
@@ -216,11 +224,13 @@ Catalog of all wiki pages. 204 pages across 6 categories.
 - [[claim-timing-not-volume]] — Nepal's Core Hydro Problem Is Timing, Not Annual Volume
 - [[claim-transmission-immediate-blocker]] — Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck
 
-## Data (12)
+## Data (14)
 
 - [[data-basin-discharge]] — Basin Discharge Data
 - [[data-domestic-demand]] — Domestic Electricity Demand Distribution
+- [[data-final-energy-mix]] — Nepal Final Energy Mix
 - [[data-fleet-composition]] — Hydropower Fleet Composition
+- [[data-ipsdp-milestone-ladder-2022-2040]] — IPSDP Milestone Ladder 2022-2040
 - [[data-map-inventory]] — Map Inventory
 - [[data-mountain-hydro-comparison]] — Mountain Hydro System Comparison
 - [[data-nea-substation-capacity-fy2076-77]] — NEA Substation Capacity FY 2076/77

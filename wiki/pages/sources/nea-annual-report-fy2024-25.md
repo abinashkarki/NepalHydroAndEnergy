@@ -2,11 +2,12 @@
 title: NEA Annual Report FY 2024/25
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-22
 source_type: report
 source_author: Nepal Electricity Authority
 source_date: 2025-07-15
 source_url: https://neasite.dryicesolutions.net/uploads/shares/publication/77022320.pdf
+sources: []
 tags: [nea, generation, capacity, trade, grid, official]
 ---
 
@@ -39,7 +40,6 @@ Primary source for current installed capacity, fleet composition, generation spl
 - Seasonal monthly breakdown of generation and trade
 - Plant-level curtailment data
 - Audited financial statements (separate document)
-- Demand-side load shape
 
 > [!note]
 > The World Bank's 2025 Economic Memo cites ~2,990 MW by end-2024. The difference from 3,591 MW reflects the date gap — NEA's report covers through mid-2025. Both are correct at their respective cutoff dates.

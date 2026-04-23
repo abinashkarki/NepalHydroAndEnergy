@@ -77,6 +77,57 @@
   }
   .seg button.active { background: var(--panel); color: var(--ink); font-weight: 600; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
   .seg button:hover:not(.active) { color: var(--ink); }
+  .tour-toggle {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: var(--panel);
+    padding: 7px 8px;
+  }
+  .tour-toggle .tt-label {
+    font-size: 12px;
+    color: var(--ink);
+    line-height: 1.2;
+  }
+  .tour-toggle .tt-hint {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+  }
+  .tour-toggle .tt-text { display: grid; gap: 2px; }
+  .tour-switch {
+    position: relative;
+    width: 34px;
+    height: 20px;
+    border-radius: 999px;
+    border: 1px solid var(--rule);
+    background: #e5e7eb;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+  .tour-switch::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+    transition: transform 0.2s ease;
+  }
+  .tour-switch.on {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+  .tour-switch.on::after {
+    transform: translateX(14px);
+  }
 
   /* Semantic indexing status row */
   .sem-status {
@@ -461,6 +512,278 @@
   }
   .nav-link:hover .stub-chip { opacity: 1; }
   .nav-link.active .stub-chip { color: var(--accent); border-color: var(--accent-soft); background: white; }
+
+  /* Tour rail + variants */
+  .tour-rail {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    max-width: none;
+    border: 1px solid var(--rule);
+    border-radius: 0;
+    background: var(--panel);
+    box-shadow: none;
+    overflow: hidden;
+  }
+  .tour-rail.hidden { display: none; }
+  .tour-rail .tr-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--rule);
+    background: var(--panel-2);
+  }
+  .tour-rail .tr-title {
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .tour-rail .tr-body { padding: 10px; display: grid; gap: 8px; }
+  .tour-rail .tr-row { display: grid; gap: 5px; }
+  .tour-rail label {
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .tour-rail select, .tour-rail button {
+    font: inherit;
+    font-size: 12px;
+  }
+  .tour-rail select {
+    width: 100%;
+    border: 1px solid var(--rule);
+    border-radius: 5px;
+    background: var(--panel);
+    color: var(--ink);
+    padding: 6px 7px;
+  }
+  .tour-rail .tr-seg {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: var(--panel-2);
+    padding: 2px;
+    gap: 2px;
+  }
+  .tour-rail .tr-seg button {
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
+    color: var(--ink-soft);
+    padding: 4px 3px;
+    cursor: pointer;
+  }
+  .tour-rail .tr-seg button.active {
+    background: var(--panel);
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .tour-rail .tr-step {
+    font-size: 12px;
+    color: var(--ink);
+    line-height: 1.4;
+    padding: 7px 8px;
+    border: 1px dashed var(--rule);
+    border-radius: 6px;
+    background: rgba(255,255,255,0.55);
+  }
+  .tour-rail .tr-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .tour-rail .tr-controls .left,
+  .tour-rail .tr-controls .right {
+    display: flex;
+    gap: 6px;
+  }
+  .tour-rail .tr-controls button {
+    border: 1px solid var(--rule);
+    border-radius: 5px;
+    background: var(--panel);
+    color: var(--ink);
+    padding: 6px 5px;
+    cursor: pointer;
+  }
+  .tour-rail .tr-controls button.primary {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: #fff;
+  }
+  .tour-rail .tr-controls button[disabled] {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+  .tour-note {
+    margin-bottom: 10px;
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    border-radius: 7px;
+    background: rgba(239,246,255,0.6);
+    padding: 9px 10px;
+  }
+  .tour-note .tn-kicker {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 4px;
+  }
+  .tour-note .tn-kicker .tn-floor {
+    padding: 1px 7px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--ink);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .tour-note .tn-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 5px;
+  }
+  .tour-note .tn-hero {
+    font-size: 15px;
+    line-height: 1.45;
+    color: var(--ink);
+    font-style: italic;
+    border-left: 2px solid var(--accent);
+    padding-left: 9px;
+    margin: 6px 0 8px;
+  }
+  .tour-note .tn-copy {
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--ink);
+  }
+  .tour-counters {
+    margin-top: 9px;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: #fff;
+  }
+  .tour-counters summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 7px 9px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+    user-select: none;
+  }
+  .tour-counters summary::-webkit-details-marker { display: none; }
+  .tour-counters[open] summary {
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink);
+  }
+  .tour-counters .tc-body {
+    padding: 8px 10px 10px;
+    display: grid;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .tour-counters .tc-item {
+    border-left: 2px solid var(--rule);
+    padding: 2px 0 2px 9px;
+  }
+  .tour-counters .tc-k {
+    display: inline-block;
+    font-size: 9.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-right: 6px;
+  }
+  .tour-counters .tc-claim {
+    color: #6b7280;
+    text-decoration: line-through;
+    text-decoration-color: rgba(148,163,184,0.7);
+    line-height: 1.5;
+    margin-bottom: 3px;
+  }
+  .tour-counters .tc-reality {
+    color: var(--ink);
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  .tour-counters .tc-conf {
+    margin-top: 4px;
+    font-size: 10px;
+    color: var(--ink-soft);
+    letter-spacing: 0.04em;
+  }
+  .tour-note .tn-q {
+    margin-top: 7px;
+    color: var(--ink-soft);
+    font-size: 12px;
+  }
+  .tour-note .tn-next {
+    margin-top: 8px;
+    padding-top: 7px;
+    border-top: 1px dashed var(--rule);
+    font-size: 12px;
+    color: #334155;
+    line-height: 1.45;
+  }
+  .tour-note .tn-next b {
+    color: var(--ink-soft);
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-right: 6px;
+  }
+  .tour-evidence {
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: #fff;
+  }
+  .tour-evidence summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 7px 9px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+    user-select: none;
+  }
+  .tour-evidence summary::-webkit-details-marker { display: none; }
+  .tour-evidence[open] summary {
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink);
+  }
+  .tour-evidence .te-body {
+    padding: 8px 10px 10px;
+    display: grid;
+    gap: 6px;
+    font-size: 12px;
+  }
+  .tour-evidence .te-k {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+  }
+  .tour-evidence .te-v { color: var(--ink); line-height: 1.45; }
+  .tour-evidence .te-list {
+    margin: 0;
+    padding-left: 16px;
+    color: var(--ink);
+  }
+  .tour-evidence .te-list li { margin: 2px 0; }
 </style>
 </head>
 <body>
@@ -486,6 +809,13 @@
         <button data-mode="content" title="BM25 ranking over body text (instant)">Content</button>
         <button data-mode="semantic" title="Embedding similarity (~25 MB on first use, then offline)">Semantic</button>
       </div>
+      <div class="tour-toggle" id="tour-mode-toggle" role="button" tabindex="0" aria-pressed="false">
+        <div class="tt-text">
+          <div class="tt-label" id="tour-toggle-label">Guided tour</div>
+          <div class="tt-hint" id="tour-toggle-hint">off</div>
+        </div>
+        <div class="tour-switch" id="tour-switch" aria-hidden="true"></div>
+      </div>
     </div>
     <div class="sem-status" id="sem-status">
       <div class="msg">…</div>
@@ -497,6 +827,7 @@
   <div class="splitter" id="split-1" aria-label="Resize left pane"></div>
 
   <main class="pane center">
+    <div class="tour-rail" id="tour-rail"></div>
     <div class="markdown" id="page">
       <div class="placeholder">
         Pick any page on the left, or click any feature on the map.<br/><br/>
@@ -554,6 +885,8 @@ let collapsedGroups = new Set(JSON.parse(localStorage.getItem("explorer.collapse
 let semanticReady = false;
 let semanticLoading = null;
 let suppressUrlSync = false;
+let tourManifest = null;
+let tourState = { enabled: false, active: false, tourId: null, mode: "short", stepIndex: 0 };
 
 const ENTITY_SUB_ORDER = ["basins", "projects", "institutions", "geopolitics", "profiles", "other"];
 const ENTITY_SUB_LABEL = {
@@ -777,6 +1110,236 @@ function renderResults(results, q, scoreLabel) {
 
 function escapeHtml(s) {
   return String(s).replace(/[<>&"']/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+// ============================================================
+// Guided tour (short / deep / expansive)
+// ============================================================
+function tourSteps() {
+  if (!tourManifest || !tourState.tourId) return [];
+  const t = tourManifest.tours && tourManifest.tours[tourState.tourId];
+  return (t && t.steps) || [];
+}
+
+function clearTourNote() {
+  document.querySelectorAll(".tour-note").forEach((el) => el.remove());
+}
+
+function updateTourToggleButton() {
+  const toggle = document.getElementById("tour-mode-toggle");
+  const sw = document.getElementById("tour-switch");
+  const hint = document.getElementById("tour-toggle-hint");
+  if (!toggle || !sw || !hint) return;
+  const on = !!tourState.enabled;
+  sw.classList.toggle("on", on);
+  hint.textContent = on ? "on" : "off";
+  toggle.setAttribute("aria-pressed", on ? "true" : "false");
+}
+
+function applyTourEnabledState() {
+  const rail = document.getElementById("tour-rail");
+  if (!rail) return;
+  rail.classList.toggle("hidden", !tourState.enabled);
+  updateTourToggleButton();
+  if (!tourState.enabled) {
+    tourState.active = false;
+    clearTourNote();
+  }
+  buildTourRail();
+  syncUrl();
+}
+
+function activeTourStep() {
+  const steps = tourSteps();
+  return steps[tourState.stepIndex] || null;
+}
+
+function resolveCounterNarratives(step) {
+  if (!tourManifest || !Array.isArray(tourManifest.counter_narratives)) return [];
+  const all = tourManifest.counter_narratives;
+  const ids = step && Array.isArray(step.counter_narratives) ? step.counter_narratives : [];
+  const byId = Object.fromEntries(all.map((c) => [c.id, c]));
+  return ids.map((id) => byId[id]).filter(Boolean);
+}
+
+function renderTourNote(step) {
+  const page = document.getElementById("page");
+  const modeCopy = (step.mode_copy && step.mode_copy[tourState.mode]) || "";
+  const q = (step.questions || []).slice(0, 2);
+  const ev = step.evidence || {};
+  const metrics = (ev.metrics || []).slice(0, 4);
+  const sources = (ev.sources || []).slice(0, 5);
+  const transition = step.transition_to_next || "";
+  const hero = step.hero_moment || "";
+  const floorKey = step.floor || "";
+  const floorMeta = (tourManifest && tourManifest.floors && tourManifest.floors[floorKey]) || null;
+  const floorLabel = floorMeta ? floorMeta.label : "";
+  const counters = resolveCounterNarratives(step);
+  const note = `<section class="tour-note">
+    <div class="tn-kicker">
+      <span>${escapeHtml((tourState.mode || "short").toUpperCase())} TOUR</span>
+      ${floorLabel ? `<span class="tn-floor">Floor · ${escapeHtml(floorLabel)}</span>` : ""}
+    </div>
+    <div class="tn-title">${escapeHtml(step.title || step.id || "")}</div>
+    ${hero ? `<div class="tn-hero">${escapeHtml(hero)}</div>` : ""}
+    <div class="tn-copy">${escapeHtml(modeCopy)}</div>
+    ${q.length ? `<div class="tn-q">Key question${q.length > 1 ? "s" : ""}: ${escapeHtml(q.join(" · "))}</div>` : ""}
+    <details class="tour-evidence">
+      <summary>Evidence</summary>
+      <div class="te-body">
+        ${metrics.length ? `<div><div class="te-k">Metrics</div><ul class="te-list">${metrics.map((m) => `<li>${escapeHtml(m)}</li>`).join("")}</ul></div>` : ""}
+        ${sources.length ? `<div><div class="te-k">Source pages</div><div class="te-v">${sources.map((s) => escapeHtml(s)).join(" · ")}</div></div>` : ""}
+        ${ev.confidence ? `<div><div class="te-k">Confidence</div><div class="te-v">${escapeHtml(String(ev.confidence).toUpperCase())}</div></div>` : ""}
+      </div>
+    </details>
+    ${counters.length ? `
+    <details class="tour-counters" open>
+      <summary>Common claim vs what the data says</summary>
+      <div class="tc-body">
+        ${counters.map((c) => `
+          <div class="tc-item">
+            <div class="tc-claim"><span class="tc-k">Claim</span>${escapeHtml(c.claim || "")}</div>
+            <div class="tc-reality"><span class="tc-k">Reality</span>${escapeHtml(c.reality || "")}</div>
+            ${c.confidence ? `<div class="tc-conf">Confidence · ${escapeHtml(String(c.confidence).toUpperCase())}</div>` : ""}
+          </div>
+        `).join("")}
+      </div>
+    </details>` : ""}
+    ${transition ? `<div class="tn-next"><b>Next</b>${escapeHtml(transition)}</div>` : ""}
+  </section>`;
+  if (!page) return;
+  page.insertAdjacentHTML("afterbegin", note);
+}
+
+async function activateTourStep(index, opts = {}) {
+  const steps = tourSteps();
+  if (!steps.length) return;
+  tourState.stepIndex = Math.max(0, Math.min(index, steps.length - 1));
+  const step = steps[tourState.stepIndex];
+  if (!step) return;
+
+  if (step.preset && presetsCfg.presets[step.preset]) {
+    await applyPreset(step.preset, { fly: false });
+  }
+  for (const key of (step.layers_on || [])) {
+    if (!lm.has(key)) await lm.add(key);
+  }
+  if (step.page) await window.openWikiPage(step.page, { fromTour: true });
+  if (step.focus && Array.isArray(step.focus.center)) {
+    map.flyTo(step.focus.center, step.focus.zoom || 7, { duration: 0.9 });
+  }
+  renderTourNote(step);
+  buildTourRail();
+  if (opts.sync !== false) syncUrl();
+}
+
+function startTour(tourId, mode, stepId) {
+  if (!tourManifest || !tourManifest.tours[tourId]) return;
+  tourState.active = true;
+  tourState.tourId = tourId;
+  tourState.mode = (tourManifest.modes && tourManifest.modes[mode]) ? mode : (tourManifest.default_mode || "short");
+  const steps = tourManifest.tours[tourId].steps || [];
+  const idx = stepId ? Math.max(0, steps.findIndex((s) => s.id === stepId)) : 0;
+  tourState.stepIndex = idx < 0 ? 0 : idx;
+  localStorage.setItem("explorer.tour", tourId);
+  localStorage.setItem("explorer.tourMode", tourState.mode);
+  activateTourStep(tourState.stepIndex);
+}
+
+function exitTour() {
+  tourState.active = false;
+  clearTourNote();
+  buildTourRail();
+  syncUrl();
+}
+
+function nextTourStep() { activateTourStep(tourState.stepIndex + 1); }
+function prevTourStep() { activateTourStep(tourState.stepIndex - 1); }
+
+function buildTourRail() {
+  const rail = document.getElementById("tour-rail");
+  if (!rail || !tourManifest) return;
+  if (!tourState.enabled) {
+    rail.innerHTML = "";
+    return;
+  }
+  const tours = Object.entries(tourManifest.tours || {});
+  if (!tourState.tourId && tours.length) tourState.tourId = tours[0][0];
+  const steps = tourSteps();
+  const step = activeTourStep();
+  const modeBtns = Object.entries(tourManifest.modes || {}).map(([id, meta]) =>
+    `<button data-tour-mode="${id}" class="${tourState.mode === id ? "active" : ""}" title="${escapeAttr(meta.description || "")}">${escapeHtml(meta.label || id)}</button>`
+  ).join("");
+  const isActive = !!tourState.active;
+  const atStart = !isActive || tourState.stepIndex === 0;
+  const atEnd = !isActive || tourState.stepIndex >= Math.max(steps.length - 1, 0);
+  const startLabel = tourState.active ? "Restart" : "Start";
+  const nextLabel = tourState.active && atEnd ? "Finish" : "Next";
+  const exitLabel = tourState.active ? "Pause" : "Exit";
+  rail.innerHTML = `
+    <div class="tr-head">
+      <div class="tr-title">Guided Tour</div>
+      <div style="font-size:11px; color: var(--ink-soft);">${tourState.active ? "active" : "idle"}</div>
+    </div>
+    <div class="tr-body">
+      <div class="tr-row">
+        <label>Tour</label>
+        <select id="tour-select">
+          ${tours.map(([id, t]) => `<option value="${id}" ${tourState.tourId === id ? "selected" : ""}>${escapeHtml(t.title || id)}</option>`).join("")}
+        </select>
+      </div>
+      <div class="tr-row">
+        <label>Length</label>
+        <div class="tr-seg">${modeBtns}</div>
+      </div>
+      <div class="tr-row">
+        <label>Jump to step</label>
+        <select id="tour-step-select">
+          ${steps.map((s, i) => `<option value="${i}" ${i === tourState.stepIndex ? "selected" : ""}>${i + 1}. ${escapeHtml(s.title || s.id || ("Step " + (i + 1)))}</option>`).join("")}
+        </select>
+      </div>
+      <div class="tr-step">${step ? `Step ${tourState.stepIndex + 1}/${steps.length} · <b>${escapeHtml(step.title || step.id)}</b>` : "No step selected."}</div>
+      <div class="tr-controls">
+        <div class="left">
+          <button id="tour-prev" ${atStart ? "disabled" : ""}>Prev</button>
+          <button id="tour-next" class="primary" ${!isActive ? "disabled" : ""}>${nextLabel}</button>
+        </div>
+        <div class="right">
+          <button id="tour-start">${startLabel}</button>
+          <button id="tour-exit" ${!isActive ? "disabled" : ""}>${exitLabel}</button>
+        </div>
+      </div>
+    </div>
+  `;
+  document.getElementById("tour-select").addEventListener("change", (e) => {
+    tourState.tourId = e.target.value;
+    localStorage.setItem("explorer.tour", tourState.tourId);
+    buildTourRail();
+  });
+  const stepSelect = document.getElementById("tour-step-select");
+  if (stepSelect) {
+    stepSelect.addEventListener("change", (e) => {
+      const idx = Number(e.target.value);
+      if (Number.isFinite(idx)) activateTourStep(idx);
+    });
+  }
+  rail.querySelectorAll("[data-tour-mode]").forEach((b) => b.addEventListener("click", () => {
+    tourState.mode = b.dataset.tourMode;
+    localStorage.setItem("explorer.tourMode", tourState.mode);
+    if (tourState.active) activateTourStep(tourState.stepIndex);
+    else buildTourRail();
+  }));
+  document.getElementById("tour-prev").addEventListener("click", prevTourStep);
+  document.getElementById("tour-next").addEventListener("click", () => {
+    if (!tourState.active) return;
+    if (atEnd) { exitTour(); return; }
+    nextTourStep();
+  });
+  document.getElementById("tour-start").addEventListener("click", () => startTour(tourState.tourId, tourState.mode));
+  document.getElementById("tour-exit").addEventListener("click", () => {
+    if (!tourState.active) return;
+    exitTour();
+  });
 }
 
 // ============================================================
@@ -1170,13 +1733,27 @@ function syncUrl() {
   const params = new URLSearchParams();
   if (currentPreset) params.set("preset", currentPreset);
   if (currentSlug) params.set("page", currentSlug);
+  if (tourState.enabled) params.set("guided", "1");
+  if (tourState.enabled && tourState.active && tourState.tourId) {
+    params.set("tour", tourState.tourId);
+    params.set("mode", tourState.mode);
+    const step = activeTourStep();
+    if (step && step.id) params.set("step", step.id);
+  }
   const url = params.toString() ? "?" + params.toString() : location.pathname;
   history.replaceState(null, "", url);
 }
 
 function readUrlState() {
   const params = new URLSearchParams(location.search);
-  return { preset: params.get("preset"), page: params.get("page") };
+  return {
+    preset: params.get("preset"),
+    page: params.get("page"),
+    guided: params.get("guided"),
+    tour: params.get("tour"),
+    mode: params.get("mode"),
+    step: params.get("step"),
+  };
 }
 
 // ============================================================
@@ -1186,6 +1763,7 @@ async function init() {
   manifest = await loadJSON("shared/layer-manifest.json");
   bindings = await loadJSON("shared/bindings.json");
   presetsCfg = await loadJSON("shared/presets.json");
+  tourManifest = await loadJSON("shared/tour-manifest.json");
   hydropowerSlugAliases = await loadJSON("shared/hydropower-slug-aliases.json");
   pageIndex = await window.NepalExplorer.buildPageIndex();
   spatialSlugs = new Set(Object.keys(bindings.pages || {}));
@@ -1205,6 +1783,20 @@ async function init() {
     document.getElementById("q").value = "";
     applySearch();
     document.getElementById("q").focus();
+  });
+  const toggleTourMode = () => {
+    tourState.enabled = !tourState.enabled;
+    localStorage.setItem("explorer.guidedEnabled", tourState.enabled ? "1" : "0");
+    applyTourEnabledState();
+    if (tourState.enabled) startTour(tourState.tourId, tourState.mode);
+  };
+  const tourModeToggle = document.getElementById("tour-mode-toggle");
+  tourModeToggle.addEventListener("click", toggleTourMode);
+  tourModeToggle.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      toggleTourMode();
+    }
   });
 
   buildNav();
@@ -1235,6 +1827,9 @@ async function init() {
 
   // Resolve initial state: URL > localStorage > config default
   const url = readUrlState();
+  tourState.enabled = (url.guided === "1") || (localStorage.getItem("explorer.guidedEnabled") === "1");
+  tourState.tourId = url.tour || localStorage.getItem("explorer.tour") || tourManifest.default_tour || Object.keys(tourManifest.tours || {})[0] || null;
+  tourState.mode = (tourManifest.modes && tourManifest.modes[url.mode]) ? url.mode : (localStorage.getItem("explorer.tourMode") || tourManifest.default_mode || "short");
   const savedPreset = localStorage.getItem("explorer.preset");
   const initialPreset = url.preset || savedPreset || presetsCfg.default_preset;
 
@@ -1246,6 +1841,10 @@ async function init() {
     await window.openWikiPage(url.page);
   } else {
     syncUrl();
+  }
+  applyTourEnabledState();
+  if (tourState.enabled && url.tour && tourManifest.tours[url.tour]) {
+    startTour(url.tour, tourState.mode, url.step || null);
   }
 
   // Persist preset choice

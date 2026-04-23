@@ -2,12 +2,12 @@
 title: JICA IPSDP Final Report Annexes (Vol. 2)
 type: source
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 source_type: report
 source_author: JICA Study Team (prepared for Ministry of Energy, Water Resources and Irrigation, Government of Nepal)
 source_date: 2024-12-09
 source_url: data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf
-sources: [jica-ipsdp-main-report-vol2]
+sources: []
 tags: [jica, ipsdp, moewri, hydropower, demand-forecast, planning, official]
 ---
 

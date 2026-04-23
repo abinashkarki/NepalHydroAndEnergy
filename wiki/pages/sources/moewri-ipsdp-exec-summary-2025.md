@@ -2,23 +2,18 @@
 title: MoEWRI IPSDP Executive Summary
 type: source
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 source_type: report
 source_author: Ministry of Energy, Water Resources and Irrigation (MoEWRI), Government of Nepal, prepared with JICA Study Team
 source_date: 2024-12-01
 source_url: data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf
-sources: [moewri-ipsdp-exec-summary-2025]
+sources: []
 tags: [moewri, ipsdp, power-trade, planning, hydropower, official]
 ---
 
 # MoEWRI IPSDP Executive Summary
 
 ## Summary
-
-<figure class="wiki-inline-figure">
-  <img src="../assets/images/moewri-ipsdp-exec-summary-2025/ipsdp2025-p010-img01.png" alt="Figure 2.2-2 Outline of Hydropower Database">
-  <figcaption>Figure 2.2-2 Outline of Hydropower Database</figcaption>
-</figure>
 
 This executive summary is the clearest compact statement of the current MoEWRI/JICA planning logic for Nepal's long-horizon power buildout through 2040. It ties together demand growth, hydropower sequencing, 400 kV backbone and interconnection expansion, export strategy, and financing needs in one document instead of scattering them across older [[nea]] or donor studies. The report is especially valuable because page 39 turns the plan into a milestone ladder with explicit dates for export crossover, self-sufficiency, the 28 GW government target, and a later clean-export role in South Asia. Section 2.4 then links those milestones to concrete trade channels, grid buildout, and wholesale arrangements with India and Bangladesh rather than treating exports as an abstract objective. Section 3 adds the guardrails the plan says must shape buildability, including environmental-flow management, protected-area restrictions, and the need to package hydropower with transmission and institutional reform. For this wiki, the document is a backbone source for [[india-energy-relationship]], [[bangladesh-trade-route]], [[niettp]], and project-sequencing questions that depend on an official state planning frame rather than a single project promoter's view.
 
@@ -56,21 +51,6 @@ This executive summary is the clearest compact statement of the current MoEWRI/J
 
 ## Key claims
 
-<figure class="wiki-inline-figure">
-  <img src="../assets/images/moewri-ipsdp-exec-summary-2025/ipsdp2025-p039-img01.png" alt="2040 :Contribution to South">
-  <figcaption>2040 :Contribution to South</figcaption>
-</figure>
-
-<figure class="wiki-inline-figure">
-  <img src="../assets/images/moewri-ipsdp-exec-summary-2025/ipsdp2025-p030-img02.png" alt="Figure 2.4-10 Relationship between available investment amount from cash on hand and capital">
-  <figcaption>Figure 2.4-10 Relationship between available investment amount from cash on hand and capital</figcaption>
-</figure>
-
-<figure class="wiki-inline-figure">
-  <img src="../assets/images/moewri-ipsdp-exec-summary-2025/ipsdp2025-p028-img02.png" alt="Figure 2.4-9 Basic Funding Flows in Nepal's Electricity Sector">
-  <figcaption>Figure 2.4-9 Basic Funding Flows in Nepal's Electricity Sector</figcaption>
-</figure>
-
 - Figure 3.1-1 on page 39 marks `2025` as the year when power exports surpass imports.
 - The same milestone ladder marks `2033` as the point when self-sufficiency in electricity supply is achieved.
 - The ladder marks `2035` as the year when the government's 28,000 MW development target is achieved.
@@ -90,5 +70,11 @@ Local workspace copy:
 ## What this source does not cover
 
 - project-by-project construction progress after the study cutoff
-- a reconciled page explaining where IPSDP targets diverge from older wiki narratives
 - plant-level monthly generation or trade data
+
+## See also
+
+- [[data-ipsdp-milestone-ladder-2022-2040]]
+- [[nepal-power-trade-schemes]]
+- [[environmental-flow-policy]]
+- [[ipsdp-2025-vs-wiki-claims]]

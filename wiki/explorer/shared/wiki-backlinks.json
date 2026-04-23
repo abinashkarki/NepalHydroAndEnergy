@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 101,
-  "total_refs": 730,
+  "total_targets": 110,
+  "total_refs": 794,
   "backlinks": {
     "buildability": [
       {
@@ -159,6 +159,13 @@
         "target_exists": true
       },
       {
+        "slug": "environmental-flow-policy",
+        "title": "Environmental Flow Policy",
+        "category": "concepts",
+        "context": "…developable. That makes this page a direct bridge between buildability, [[hydropower-potential-categories]], and [[glof-risk]]: th…",
+        "target_exists": true
+      },
+      {
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
@@ -191,6 +198,13 @@
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
         "context": "…[claim-transmission-immediate-blocker]] | | 3 | Execution / buildability | Persistent | — | ## Tier 2 — Shaping Constraints | Rank…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipsdp-2025-vs-wiki-claims",
+        "title": "IPSDP 2025 vs Wiki Claims",
+        "category": "syntheses",
+        "context": "…lign on schedule. - The wiki's more skeptical pages such as buildability, [[stranded-generation]], and [[seasonal-arbitrage-trap]]…",
         "target_exists": true
       },
       {
@@ -234,7 +248,7 @@
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…-hydro-strategy]] and demand-creation arguments. Feeds into nepal-energy-profile. Codex [S5].",
+        "context": "…strategy]], and [[energy-substitution-pathway]]. Feeds into nepal-energy-profile and [[data-final-energy-mix]]. Codex [S5].",
         "target_exists": true
       },
       {
@@ -270,6 +284,13 @@
         "title": "Hydropower Potential Pyramid",
         "category": "data",
         "context": "…licensing-registry operating tally | DoED registry used in nepal-energy-profile | ## Basin Distribution of Gross Potential (WECS 2019) |…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…> [!note] Correction to older wiki pages > Earlier pages (nepal-energy-profile, [[data-domestic-demand]], [[domestic-led-hydro-strategy]])…",
         "target_exists": true
       }
     ],
@@ -713,6 +734,13 @@
         "target_exists": true
       },
       {
+        "slug": "ipsdp-2025-vs-wiki-claims",
+        "title": "IPSDP 2025 vs Wiki Claims",
+        "category": "syntheses",
+        "context": "…The wiki's more skeptical pages such as [[buildability]], stranded-generation, and [[seasonal-arbitrage-trap]] focus on the reasons tho…",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -766,6 +794,13 @@
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
         "context": "…[[domestic-led-hydro-strategy]] — the strategic response - stranded-generation — monsoon surplus that domestic load could absorb - [[nea]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…cess heat. A direct reliability cost of the grid, linked to stranded-generation. - **Electricity 12.9 PJ (11.6%)** — the grid touches only…",
         "target_exists": true
       }
     ],
@@ -889,6 +924,13 @@
         "title": "Koshi Basin",
         "category": "entities",
         "context": "…fts. The 2008 Koshi breach displaced 2+ million people. - **glof-risk** — the 2024 Thame Valley GLOF traveled >80 km down the Dud…",
+        "target_exists": true
+      },
+      {
+        "slug": "environmental-flow-policy",
+        "title": "Environmental Flow Policy",
+        "category": "concepts",
+        "context": "…[[buildability]], [[hydropower-potential-categories]], and glof-risk: those concepts are all about why paper potential collapses…",
         "target_exists": true
       },
       {
@@ -1083,6 +1125,13 @@
         "target_exists": true
       },
       {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…rage/pondage investments. This is the demand-side mirror of storage-deficit. 3. **Foreign-exchange value is higher than export value.*…",
+        "target_exists": true
+      },
+      {
         "slug": "run-of-river-hydropower",
         "title": "Run-of-River Hydropower",
         "category": "concepts",
@@ -1176,6 +1225,13 @@
         "target_exists": true
       },
       {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…a health/environmental win. It is also the entry point for green-hydrogen-nepal: the first credible industrial hydrogen offtake is cement +…",
+        "target_exists": true
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -1195,6 +1251,13 @@
         "category": "data",
         "context": "…[[nea]] — the utility that must enable this demand growth - green-hydrogen-nepal — industrial-scale demand creation from surplus",
         "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…tion: displace biomass + fossil with hydro-electric loads - green-hydrogen-nepal — one of the few paths to displace industrial coal (brick k…",
+        "target_exists": true
       }
     ],
     "domestic-led-hydro-strategy": [
@@ -1209,7 +1272,7 @@
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…more advanced than its total energy transition. Central to domestic-led-hydro-strategy and demand-creation arguments. Feeds into [[nepal-energy-pr…",
+        "context": "…and-petroleum energy system.\" Central to [[master-thesis]], domestic-led-hydro-strategy, and [[energy-substitution-pathway]]. Feeds into [[nepal-en…",
         "target_exists": true
       },
       {
@@ -1230,7 +1293,14 @@
         "slug": "nepal-energy-profile",
         "title": "Nepal Energy Profile",
         "category": "entities",
-        "context": "…tory is more advanced than its total energy transition. See domestic-led-hydro-strategy. ## Related - [[data-fleet-composition]] — fleet breakdow…",
+        "context": "…x]]; strategic frame at [[energy-substitution-pathway]] and domestic-led-hydro-strategy. ## Related - [[data-fleet-composition]] — fleet breakdow…",
+        "target_exists": true
+      },
+      {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…roleum — barely shifts. This is the strategic complement to domestic-led-hydro-strategy: where that page argues *why* domestic load matters more th…",
         "target_exists": true
       },
       {
@@ -1245,6 +1315,13 @@
         "title": "Seasonal Arbitrage Trap",
         "category": "concepts",
         "context": "…tion depth to turn hydropower into broad-based wealth.\"* A domestic-led-hydro-strategy reframes the objective: build and price for **domestic dry-…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipsdp-2025-vs-wiki-claims",
+        "title": "IPSDP 2025 vs Wiki Claims",
+        "category": "syntheses",
+        "context": "…n, interconnection, and financing in one place. - Against domestic-led-hydro-strategy, the ladder is notable because self-sufficiency comes **b…",
         "target_exists": true
       },
       {
@@ -1280,6 +1357,20 @@
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
         "context": "…ntry is from its own potential demand. Central evidence for domestic-led-hydro-strategy and the [[seasonal-arbitrage-trap]] value-capture argument.…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ipsdp-milestone-ladder-2022-2040",
+        "title": "IPSDP Milestone Ladder 2022-2040",
+        "category": "data",
+        "context": "…ipsdp-exec-summary-2025]] - [[nepal-power-trade-schemes]] - domestic-led-hydro-strategy - [[twenty-year-strategy]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…enominator for every serious claim in [[master-thesis]] and domestic-led-hydro-strategy. ## Headline numbers (FY 2079/80 / ~2022–23) | Metric | V…",
         "target_exists": true
       }
     ],
@@ -1832,10 +1923,24 @@
         "target_exists": true
       },
       {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…l. - **Connected wiki pages:** [[seasonal-arbitrage-trap]], india-energy-relationship. ## The secondary sinks Smaller in volume but strategical…",
+        "target_exists": true
+      },
+      {
         "slug": "hydro-geopolitics",
         "title": "Hydro-Geopolitics",
         "category": "concepts",
         "context": "…ge**. ## India as decisive actor; China as absent partner india-energy-relationship is decisive for **cross-border trade**, **transmission corr…",
+        "target_exists": true
+      },
+      {
+        "slug": "nepal-power-trade-schemes",
+        "title": "Nepal Power Trade Schemes",
+        "category": "concepts",
+        "context": "…PSDP is imagining a mixed commercial stack. - It sharpens india-energy-relationship and [[bangladesh-trade-route]] by showing that cross-bord…",
         "target_exists": true
       },
       {
@@ -1904,10 +2009,24 @@
         "target_exists": true
       },
       {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…fact), [[domestic-led-hydro-strategy]] (strategic framing), seasonal-arbitrage-trap (value capture). Cooking also has an ideal load-shape matc…",
+        "target_exists": true
+      },
+      {
         "slug": "green-hydrogen-nepal",
         "title": "Green Hydrogen Nepal",
         "category": "concepts",
         "context": "…then ammonia or other carriers), reshaping the economics of seasonal-arbitrage-trap by **absorbing energy when the system is long** and deliver…",
+        "target_exists": true
+      },
+      {
+        "slug": "nepal-power-trade-schemes",
+        "title": "Nepal Power Trade Schemes",
+        "category": "concepts",
+        "context": "…-relationship]] - [[bangladesh-trade-route]] - [[niettp]] - seasonal-arbitrage-trap",
         "target_exists": true
       },
       {
@@ -1929,6 +2048,13 @@
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
         "context": "…--------| | 4 | Market design / offtake / demand weakness | seasonal-arbitrage-trap | | 5 | Climate / hazard / sediment non-stationarity | [[cl…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipsdp-2025-vs-wiki-claims",
+        "title": "IPSDP 2025 vs Wiki Claims",
+        "category": "syntheses",
+        "context": "…es such as [[buildability]], [[stranded-generation]], and seasonal-arbitrage-trap focus on the reasons those alignments often fail in pract…",
         "target_exists": true
       },
       {
@@ -1981,6 +2107,34 @@
         "category": "sources",
         "context": "…same study whose compact policy conclusions are captured in moewri-ipsdp-exec-summary-2025. The executive summary is where the headline numbers and mi…",
         "target_exists": true
+      },
+      {
+        "slug": "environmental-flow-policy",
+        "title": "Environmental Flow Policy",
+        "category": "concepts",
+        "context": "…not as side notes. In the SEA mitigation table on page 37, moewri-ipsdp-exec-summary-2025 says hydropower planning must evaluate and manage environme…",
+        "target_exists": true
+      },
+      {
+        "slug": "nepal-power-trade-schemes",
+        "title": "Nepal Power Trade Schemes",
+        "category": "concepts",
+        "context": "# Nepal Power Trade Schemes In Section 2.4 of moewri-ipsdp-exec-summary-2025, the IPSDP does two different but related things. It names…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipsdp-2025-vs-wiki-claims",
+        "title": "IPSDP 2025 vs Wiki Claims",
+        "category": "syntheses",
+        "context": "…is a narrow comparison between the state-planning frame in moewri-ipsdp-exec-summary-2025 and the wiki's higher-level strategic claims. It only recor…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ipsdp-milestone-ladder-2022-2040",
+        "title": "IPSDP Milestone Ladder 2022-2040",
+        "category": "data",
+        "context": "…Pathways in IPSDP.</figcaption> </figure> Figure 3.1-1 in moewri-ipsdp-exec-summary-2025 is the most compact official statement of Nepal's state-pla…",
+        "target_exists": true
       }
     ],
     "nea": [
@@ -2010,6 +2164,13 @@
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
         "context": "…ality:** 70% debt / 30% equity. Government holds 80% stake, nea holds 20%, through Budhigandaki Company Limited - **Total c…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime-trishuli-220kv-transmission-line",
+        "title": "Chilime-Trishuli 220 kV Transmission Line",
+        "category": "entities",
+        "context": "…matching. ## Related - [[nea-annual-report-fy2024-25]] - nea - [[chilime]] - [[trishuli]]",
         "target_exists": true
       },
       {
@@ -2062,10 +2223,24 @@
         "target_exists": true
       },
       {
+        "slug": "khudi-220-132kv-substation",
+        "title": "Khudi 220/132 kV Substation",
+        "category": "entities",
+        "context": "…er page. ## Related - [[nea-annual-report-fy2024-25]] - nea - [[nepal-transmission-landscape-2025]]",
+        "target_exists": true
+      },
+      {
         "slug": "main-load-dispatch-centre",
         "title": "Main Load Dispatch Centre",
         "category": "entities",
         "context": "…em. - It is one of the clearest institutional links between nea as owner and the real-time grid described in [[nepal-tran…",
+        "target_exists": true
+      },
+      {
+        "slug": "markichowk-220-132kv-substation",
+        "title": "Markichowk 220/132 kV Substation",
+        "category": "entities",
+        "context": "…er page. ## Related - [[nea-annual-report-fy2024-25]] - nea - [[nepal-transmission-landscape-2025]]",
         "target_exists": true
       },
       {
@@ -2129,6 +2304,13 @@
         "title": "Water and Energy Commission Secretariat (WECS)",
         "category": "entities",
         "context": "…## Role in Sector WECS handles theoretical planning while nea handles operational execution. The Department of Electricit…",
+        "target_exists": true
+      },
+      {
+        "slug": "nepal-power-trade-schemes",
+        "title": "Nepal Power Trade Schemes",
+        "category": "concepts",
+        "context": "…---------|-------|------------------------| | NEA default | nea | Conventional domestic trade. NEA buys power, serves the d…",
         "target_exists": true
       },
       {
@@ -2834,6 +3016,13 @@
         "target_exists": true
       },
       {
+        "slug": "nepal-power-trade-schemes",
+        "title": "Nepal Power Trade Schemes",
+        "category": "concepts",
+        "context": "…stack. - It sharpens [[india-energy-relationship]] and bangladesh-trade-route by showing that cross-border trade is not just a transmis…",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -2857,10 +3046,60 @@
         "target_exists": true
       },
       {
+        "slug": "nepal-power-trade-schemes",
+        "title": "Nepal Power Trade Schemes",
+        "category": "concepts",
+        "context": "…ructure and contract-structure problem. - It explains why niettp and other interconnection corridors are enabling infrastr…",
+        "target_exists": true
+      },
+      {
         "slug": "data-nea-substation-capacity-fy2076-77",
         "title": "NEA Substation Capacity FY 2076/77",
         "category": "data",
         "context": "…The named queue also foreshadows later entity pages such as niettp, [[tingla-132-33kv-substation]], [[dhungesangu-basantapur…",
+        "target_exists": true
+      }
+    ],
+    "data-ipsdp-milestone-ladder-2022-2040": [
+      {
+        "slug": "moewri-ipsdp-exec-summary-2025",
+        "title": "MoEWRI IPSDP Executive Summary",
+        "category": "sources",
+        "context": "…lant-level monthly generation or trade data ## See also - data-ipsdp-milestone-ladder-2022-2040 - [[nepal-power-trade-schemes]] - [[environmental-flow-poli…",
+        "target_exists": true
+      }
+    ],
+    "nepal-power-trade-schemes": [
+      {
+        "slug": "moewri-ipsdp-exec-summary-2025",
+        "title": "MoEWRI IPSDP Executive Summary",
+        "category": "sources",
+        "context": "…## See also - [[data-ipsdp-milestone-ladder-2022-2040]] - nepal-power-trade-schemes - [[environmental-flow-policy]] - [[ipsdp-2025-vs-wiki-clai…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ipsdp-milestone-ladder-2022-2040",
+        "title": "IPSDP Milestone Ladder 2022-2040",
+        "category": "data",
+        "context": "…data. ## Related - [[moewri-ipsdp-exec-summary-2025]] - nepal-power-trade-schemes - [[domestic-led-hydro-strategy]] - [[twenty-year-strategy]…",
+        "target_exists": true
+      }
+    ],
+    "environmental-flow-policy": [
+      {
+        "slug": "moewri-ipsdp-exec-summary-2025",
+        "title": "MoEWRI IPSDP Executive Summary",
+        "category": "sources",
+        "context": "…estone-ladder-2022-2040]] - [[nepal-power-trade-schemes]] - environmental-flow-policy - [[ipsdp-2025-vs-wiki-claims]]",
+        "target_exists": true
+      }
+    ],
+    "ipsdp-2025-vs-wiki-claims": [
+      {
+        "slug": "moewri-ipsdp-exec-summary-2025",
+        "title": "MoEWRI IPSDP Executive Summary",
+        "category": "sources",
+        "context": "…pal-power-trade-schemes]] - [[environmental-flow-policy]] - ipsdp-2025-vs-wiki-claims",
         "target_exists": true
       }
     ],
@@ -3273,6 +3512,27 @@
         "target_exists": true
       },
       {
+        "slug": "chilime-trishuli-220kv-transmission-line",
+        "title": "Chilime-Trishuli 220 kV Transmission Line",
+        "category": "entities",
+        "context": "…an a full technical corridor brief. On the contents page of nea-annual-report-fy2024-25, NEA explicitly labels the annual report's front cover imag…",
+        "target_exists": true
+      },
+      {
+        "slug": "khudi-220-132kv-substation",
+        "title": "Khudi 220/132 kV Substation",
+        "category": "entities",
+        "context": "…n This page currently records **back-cover evidence** from nea-annual-report-fy2024-25. On the report's contents page, NEA labels the upper back-c…",
+        "target_exists": true
+      },
+      {
+        "slug": "markichowk-220-132kv-substation",
+        "title": "Markichowk 220/132 kV Substation",
+        "category": "entities",
+        "context": "…n This page currently records **back-cover evidence** from nea-annual-report-fy2024-25. On the report's contents page, NEA labels the lower back-c…",
+        "target_exists": true
+      },
+      {
         "slug": "data-trade-time-series",
         "title": "Electricity Trade Time Series",
         "category": "data",
@@ -3491,6 +3751,13 @@
         "target_exists": true
       },
       {
+        "slug": "environmental-flow-policy",
+        "title": "Environmental Flow Policy",
+        "category": "concepts",
+        "context": "…t makes this page a direct bridge between [[buildability]], hydropower-potential-categories, and [[glof-risk]]: those concepts are all about why paper…",
+        "target_exists": true
+      },
+      {
         "slug": "firm-power",
         "title": "Firm Power",
         "category": "concepts",
@@ -3509,6 +3776,138 @@
         "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
         "category": "claims",
         "context": "…sible) attaches to which public numbers, with citations per hydropower-potential-categories and [[data-potential-pyramid]]. - **Transmission and spill*…",
+        "target_exists": true
+      }
+    ],
+    "data-final-energy-mix": [
+      {
+        "slug": "wecs-energy-synopsis-2024",
+        "title": "WECS Energy Sector Synopsis Report 2024",
+        "category": "sources",
+        "context": "…ects real electrification growth. Full cross-tab decoded at data-final-energy-mix. ## Local PDF status > [!warning] > The file at…",
+        "target_exists": true
+      },
+      {
+        "slug": "nepal-energy-profile",
+        "title": "Nepal Energy Profile",
+        "category": "entities",
+        "context": "…ergy | 7.23% (FY 2079/80) — up from 4.96% (FY 2078/79). See data-final-energy-mix | | Net trade position | Seasonal exporter (since 2023); FY…",
+        "target_exists": true
+      },
+      {
+        "slug": "domestic-led-hydro-strategy",
+        "title": "Domestic-Led Hydro Strategy",
+        "category": "concepts",
+        "context": "…*7.23% in FY 2079/80**, up from 4.96% the year before — see data-final-energy-mix) — so electrification of cooking, heat, mobility, and proce…",
+        "target_exists": true
+      },
+      {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…y when they displace something Nepal currently burns. From data-final-energy-mix, Nepal's FY 2079/80 final energy is: - **Biomass 68.7%** (…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…RoR output) — highlight the mismatch window. ## Related - data-final-energy-mix — the total-energy denominator (this page is the electricit…",
+        "target_exists": true
+      }
+    ],
+    "master-thesis": [
+      {
+        "slug": "wecs-energy-synopsis-2024",
+        "title": "WECS Energy Sector Synopsis Report 2024",
+        "category": "sources",
+        "context": "…m inside a biomass-and-petroleum energy system.\" Central to master-thesis, [[domestic-led-hydro-strategy]], and [[energy-substitution…",
+        "target_exists": true
+      },
+      {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…loads* to build. ## Why the substitution frame exists The master-thesis treats hydropower as a *conversion* problem: turning hydrol…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…ming; adds demand creation as third pillar | ## Related - master-thesis — the overarching argument - [[twenty-year-strategy]] — how…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipsdp-2025-vs-wiki-claims",
+        "title": "IPSDP 2025 vs Wiki Claims",
+        "category": "syntheses",
+        "context": "…t in 2035, and clean-export contribution in 2040. - Against master-thesis, the IPSDP gives the most current state-authored sequenci…",
+        "target_exists": true
+      },
+      {
+        "slug": "provider-comparison",
+        "title": "Provider Comparison",
+        "category": "syntheses",
+        "context": "…gineering, pricing, hydrogen, grid spillage) ## Related - master-thesis — what all providers agree on - [[unresolved-questions]] —…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…ck-hierarchy]] — what this strategy addresses in sequence - master-thesis — why this approach, not \"build more hydro\"",
+        "target_exists": true
+      },
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…[[provider-comparison]] — what each provider covered well - master-thesis — the argument these gaps could strengthen or challenge - […",
+        "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…ne quotes. It is the denominator for every serious claim in master-thesis and [[domestic-led-hydro-strategy]]. ## Headline numbers (…",
+        "target_exists": true
+      }
+    ],
+    "energy-substitution-pathway": [
+      {
+        "slug": "wecs-energy-synopsis-2024",
+        "title": "WECS Energy Sector Synopsis Report 2024",
+        "category": "sources",
+        "context": "…to [[master-thesis]], [[domestic-led-hydro-strategy]], and energy-substitution-pathway. Feeds into [[nepal-energy-profile]] and [[data-final-energ…",
+        "target_exists": true
+      },
+      {
+        "slug": "nepal-energy-profile",
+        "title": "Nepal Energy Profile",
+        "category": "entities",
+        "context": "…cross-tab at [[data-final-energy-mix]]; strategic frame at energy-substitution-pathway and [[domestic-led-hydro-strategy]]. ## Related - [[data-…",
+        "target_exists": true
+      },
+      {
+        "slug": "domestic-led-hydro-strategy",
+        "title": "Domestic-Led Hydro Strategy",
+        "category": "concepts",
+        "context": "…ecific sinks to target, ranked by volume, are worked out in energy-substitution-pathway. The sectoral breakdown (FY 2020/21, NEA) reveals a critic…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…rgy denominator (this page is the electricity slice only) - energy-substitution-pathway — what non-electric flows electrification would displace -…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…ectric because wood still does the cooking and heating. See energy-substitution-pathway for the implications. ### 5. The \"hydro share\" of Nepal's…",
         "target_exists": true
       }
     ],
@@ -4102,10 +4501,24 @@
         "target_exists": true
       },
       {
+        "slug": "khudi-220-132kv-substation",
+        "title": "Khudi 220/132 kV Substation",
+        "category": "entities",
+        "context": "…## Related - [[nea-annual-report-fy2024-25]] - [[nea]] - nepal-transmission-landscape-2025",
+        "target_exists": true
+      },
+      {
         "slug": "main-load-dispatch-centre",
         "title": "Main Load Dispatch Centre",
         "category": "entities",
         "context": "…ween [[nea]] as owner and the real-time grid described in nepal-transmission-landscape-2025. ## See also - [[nea]] - [[hetauda-dhalkebar-inaruwa-back…",
+        "target_exists": true
+      },
+      {
+        "slug": "markichowk-220-132kv-substation",
+        "title": "Markichowk 220/132 kV Substation",
+        "category": "entities",
+        "context": "…## Related - [[nea-annual-report-fy2024-25]] - [[nea]] - nepal-transmission-landscape-2025",
         "target_exists": true
       },
       {
@@ -4359,6 +4772,24 @@
         "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
         "category": "entities",
         "context": "…ry basin served | [[mahakali-basin]] | | Driving projects | chameliya-khola (30 MW operational), future Mahakali cascade | | Interconne…",
+        "target_exists": true
+      }
+    ],
+    "chilime": [
+      {
+        "slug": "chilime-trishuli-220kv-transmission-line",
+        "title": "Chilime-Trishuli 220 kV Transmission Line",
+        "category": "entities",
+        "context": "…## Related - [[nea-annual-report-fy2024-25]] - [[nea]] - chilime - [[trishuli]]",
+        "target_exists": true
+      }
+    ],
+    "trishuli": [
+      {
+        "slug": "chilime-trishuli-220kv-transmission-line",
+        "title": "Chilime-Trishuli 220 kV Transmission Line",
+        "category": "entities",
+        "context": "…- [[nea-annual-report-fy2024-25]] - [[nea]] - [[chilime]] - trishuli",
         "target_exists": true
       }
     ],
@@ -4678,10 +5109,24 @@
         "target_exists": true
       },
       {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…any plausible export contract. - **Connected wiki pages:** data-domestic-demand (the <1% household electric-cooking fact), [[domestic-led-h…",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
         "context": "…curve not public but structural pattern now documented. See data-domestic-demand | | 7 | Post-2024 Bangladesh trade route status | Scale-up…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…older wiki pages > Earlier pages ([[nepal-energy-profile]], data-domestic-demand, [[domestic-led-hydro-strategy]]) cite grid electricity as…",
         "target_exists": true
       }
     ],
@@ -4823,7 +5268,7 @@
         "slug": "nepal-energy-profile",
         "title": "Nepal Energy Profile",
         "category": "entities",
-        "context": "…sition. See [[domestic-led-hydro-strategy]]. ## Related - data-fleet-composition — fleet breakdown - [[data-trade-time-series]] — import/exp…",
+        "context": "…thway]] and [[domestic-led-hydro-strategy]]. ## Related - data-fleet-composition — fleet breakdown - [[data-trade-time-series]] — import/exp…",
         "target_exists": true
       },
       {
@@ -4852,6 +5297,13 @@
         "title": "Mountain Hydro System Comparison",
         "category": "data",
         "context": "…per-capita figure. > [!note] > Nepal's row now aligns with data-fleet-composition by using the NEA FY 2024/25 **hydro-only** installed figure…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…stalled electricity capacity (see [[nepal-energy-profile]], data-fleet-composition). Electricity is **7.23%** of final energy. So: **Hydro ≈…",
         "target_exists": true
       }
     ],
@@ -4942,6 +5394,13 @@
         "category": "entities",
         "context": "…r potential (72,544 MW gross / 32,680 MW techno-economic) - wecs-energy-synopsis-2024 — Full energy balance showing grid electricity as only 4.96…",
         "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…2022/23 (FY 2079/80)** | **532** | **57.22%** | **7.23%** | wecs-energy-synopsis-2024 | The 16.81% drop in total consumption in FY 2079/80 vs FY…",
+        "target_exists": true
       }
     ],
     "twenty-year-strategy": [
@@ -4953,6 +5412,13 @@
         "target_exists": true
       },
       {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…ide reason to build the storage stack already prescribed in twenty-year-strategy. ### Sink 2 — Coal in brick kilns, cement, and steel rerol…",
+        "target_exists": true
+      },
+      {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
@@ -4960,10 +5426,49 @@
         "target_exists": true
       },
       {
+        "slug": "ipsdp-2025-vs-wiki-claims",
+        "title": "IPSDP 2025 vs Wiki Claims",
+        "category": "syntheses",
+        "context": "…e without guesswork. ## What the IPSDP sharpens - Against twenty-year-strategy, the IPSDP adds a dated official ladder: export crossover…",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "…Evidence - [[bottleneck-hierarchy]] — ranked constraints - twenty-year-strategy — phased implementation - [[data-potential-pyramid]] — the…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ipsdp-milestone-ladder-2022-2040",
+        "title": "IPSDP Milestone Ladder 2022-2040",
+        "category": "data",
+        "context": "…l-power-trade-schemes]] - [[domestic-led-hydro-strategy]] - twenty-year-strategy",
+        "target_exists": true
+      }
+    ],
+    "claim-domestic-led-strategy": [
+      {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…ected wiki pages:** [[green-hydrogen-nepal]] (the pathway), claim-domestic-led-strategy (the value-capture argument). ### Sink 3 — Diesel, petrol,…",
+        "target_exists": true
+      },
+      {
+        "slug": "provider-comparison",
+        "title": "Provider Comparison",
+        "category": "syntheses",
+        "context": "…ssion-immediate-blocker]]) - Domestic use > export worship (claim-domestic-led-strategy) - India is decisive ([[claim-india-decisive-actor]]) - Gov…",
+        "target_exists": true
+      }
+    ],
+    "claim-mw-not-equal-value": [
+      {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…an the value of export trade, for the same physical energy. claim-mw-not-equal-value applies directly here. 4. **The \"two-step\" mistake to avoi…",
         "target_exists": true
       }
     ],
@@ -5099,36 +5604,6 @@
         "target_exists": true
       }
     ],
-    "master-thesis": [
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…ming; adds demand creation as third pillar | ## Related - master-thesis — the overarching argument - [[twenty-year-strategy]] — how…",
-        "target_exists": true
-      },
-      {
-        "slug": "provider-comparison",
-        "title": "Provider Comparison",
-        "category": "syntheses",
-        "context": "…gineering, pricing, hydrogen, grid spillage) ## Related - master-thesis — what all providers agree on - [[unresolved-questions]] —…",
-        "target_exists": true
-      },
-      {
-        "slug": "twenty-year-strategy",
-        "title": "Twenty-Year Strategy",
-        "category": "syntheses",
-        "context": "…ck-hierarchy]] — what this strategy addresses in sequence - master-thesis — why this approach, not \"build more hydro\"",
-        "target_exists": true
-      },
-      {
-        "slug": "unresolved-questions",
-        "title": "Unresolved Questions",
-        "category": "syntheses",
-        "context": "…[[provider-comparison]] — what each provider covered well - master-thesis — the argument these gaps could strengthen or challenge - […",
-        "target_exists": true
-      }
-    ],
     "claim-systems-conversion-failure": [
       {
         "slug": "bottleneck-hierarchy",
@@ -5165,15 +5640,6 @@
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
         "context": "…out that, the engineering plans are fiction. ## Related - bottleneck-hierarchy — what this strategy addresses in sequence - [[master-thesi…",
-        "target_exists": true
-      }
-    ],
-    "claim-domestic-led-strategy": [
-      {
-        "slug": "provider-comparison",
-        "title": "Provider Comparison",
-        "category": "syntheses",
-        "context": "…ssion-immediate-blocker]]) - Domestic use > export worship (claim-domestic-led-strategy) - India is decisive ([[claim-india-decisive-actor]]) - Gov…",
         "target_exists": true
       }
     ],

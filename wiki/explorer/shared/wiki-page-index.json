@@ -168,6 +168,10 @@
         "title": "Chameliya Khola"
       },
       {
+        "slug": "chilime-trishuli-220kv-transmission-line",
+        "title": "Chilime-Trishuli 220 kV Transmission Line"
+      },
+      {
         "slug": "chilime",
         "title": "Chilime"
       },
@@ -300,6 +304,10 @@
         "title": "Khimti II"
       },
       {
+        "slug": "khudi-220-132kv-substation",
+        "title": "Khudi 220/132 kV Substation"
+      },
+      {
         "slug": "kimathanka-arun-hep",
         "title": "Kimathanka Arun HEP"
       },
@@ -386,6 +394,10 @@
       {
         "slug": "main-load-dispatch-centre",
         "title": "Main Load Dispatch Centre"
+      },
+      {
+        "slug": "markichowk-220-132kv-substation",
+        "title": "Markichowk 220/132 kV Substation"
       },
       {
         "slug": "marsyangdi-besi",
@@ -654,6 +666,14 @@
         "title": "Domestic-Led Hydro Strategy"
       },
       {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway"
+      },
+      {
+        "slug": "environmental-flow-policy",
+        "title": "Environmental Flow Policy"
+      },
+      {
         "slug": "firm-power",
         "title": "Firm Power"
       },
@@ -676,6 +696,10 @@
       {
         "slug": "hydropower-potential-categories",
         "title": "Hydropower Potential Categories"
+      },
+      {
+        "slug": "nepal-power-trade-schemes",
+        "title": "Nepal Power Trade Schemes"
       },
       {
         "slug": "peak-water",
@@ -714,6 +738,10 @@
       {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy"
+      },
+      {
+        "slug": "ipsdp-2025-vs-wiki-claims",
+        "title": "IPSDP 2025 vs Wiki Claims"
       },
       {
         "slug": "master-thesis",
@@ -792,8 +820,16 @@
         "title": "Domestic Electricity Demand Distribution"
       },
       {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix"
+      },
+      {
         "slug": "data-fleet-composition",
         "title": "Hydropower Fleet Composition"
+      },
+      {
+        "slug": "data-ipsdp-milestone-ladder-2022-2040",
+        "title": "IPSDP Milestone Ladder 2022-2040"
       },
       {
         "slug": "data-map-inventory",
@@ -875,6 +911,7 @@
     "chainpur-seti",
     "chameliya-jauljibi-interconnection",
     "chameliya-khola",
+    "chilime-trishuli-220kv-transmission-line",
     "chilime",
     "damak-godak-phidim-132kv",
     "dana-kushma-butwal-corridor",
@@ -908,6 +945,7 @@
     "khimti-dhalkebar-corridor",
     "khimti-i",
     "khimti-ii",
+    "khudi-220-132kv-substation",
     "kimathanka-arun-hep",
     "kokhajor-1",
     "koshi-basin",
@@ -930,6 +968,7 @@
     "mahakali-basin",
     "mai",
     "main-load-dispatch-centre",
+    "markichowk-220-132kv-substation",
     "marsyangdi-besi",
     "marsyangdi",
     "mca-central-400",
@@ -996,12 +1035,15 @@
     "west-seti",
     "buildability",
     "domestic-led-hydro-strategy",
+    "energy-substitution-pathway",
+    "environmental-flow-policy",
     "firm-power",
     "ganges-contribution",
     "glof-risk",
     "green-hydrogen-nepal",
     "hydro-geopolitics",
     "hydropower-potential-categories",
+    "nepal-power-trade-schemes",
     "peak-water",
     "project-roadmap",
     "run-of-river-hydropower",
@@ -1011,6 +1053,7 @@
     "storage-deficit",
     "stranded-generation",
     "bottleneck-hierarchy",
+    "ipsdp-2025-vs-wiki-claims",
     "master-thesis",
     "provider-comparison",
     "twenty-year-strategy",
@@ -1029,7 +1072,9 @@
     "claim-transmission-immediate-blocker",
     "data-basin-discharge",
     "data-domestic-demand",
+    "data-final-energy-mix",
     "data-fleet-composition",
+    "data-ipsdp-milestone-ladder-2022-2040",
     "data-map-inventory",
     "data-mountain-hydro-comparison",
     "data-nea-substation-capacity-fy2076-77",
@@ -1082,6 +1127,7 @@
     "chainpur-seti": "entities",
     "chameliya-jauljibi-interconnection": "entities",
     "chameliya-khola": "entities",
+    "chilime-trishuli-220kv-transmission-line": "entities",
     "chilime": "entities",
     "damak-godak-phidim-132kv": "entities",
     "dana-kushma-butwal-corridor": "entities",
@@ -1115,6 +1161,7 @@
     "khimti-dhalkebar-corridor": "entities",
     "khimti-i": "entities",
     "khimti-ii": "entities",
+    "khudi-220-132kv-substation": "entities",
     "kimathanka-arun-hep": "entities",
     "kokhajor-1": "entities",
     "koshi-basin": "entities",
@@ -1137,6 +1184,7 @@
     "mahakali-basin": "entities",
     "mai": "entities",
     "main-load-dispatch-centre": "entities",
+    "markichowk-220-132kv-substation": "entities",
     "marsyangdi-besi": "entities",
     "marsyangdi": "entities",
     "mca-central-400": "entities",
@@ -1203,12 +1251,15 @@
     "west-seti": "entities",
     "buildability": "concepts",
     "domestic-led-hydro-strategy": "concepts",
+    "energy-substitution-pathway": "concepts",
+    "environmental-flow-policy": "concepts",
     "firm-power": "concepts",
     "ganges-contribution": "concepts",
     "glof-risk": "concepts",
     "green-hydrogen-nepal": "concepts",
     "hydro-geopolitics": "concepts",
     "hydropower-potential-categories": "concepts",
+    "nepal-power-trade-schemes": "concepts",
     "peak-water": "concepts",
     "project-roadmap": "concepts",
     "run-of-river-hydropower": "concepts",
@@ -1218,6 +1269,7 @@
     "storage-deficit": "concepts",
     "stranded-generation": "concepts",
     "bottleneck-hierarchy": "syntheses",
+    "ipsdp-2025-vs-wiki-claims": "syntheses",
     "master-thesis": "syntheses",
     "provider-comparison": "syntheses",
     "twenty-year-strategy": "syntheses",
@@ -1236,7 +1288,9 @@
     "claim-transmission-immediate-blocker": "claims",
     "data-basin-discharge": "data",
     "data-domestic-demand": "data",
+    "data-final-energy-mix": "data",
     "data-fleet-composition": "data",
+    "data-ipsdp-milestone-ladder-2022-2040": "data",
     "data-map-inventory": "data",
     "data-mountain-hydro-comparison": "data",
     "data-nea-substation-capacity-fy2076-77": "data",
@@ -1289,6 +1343,7 @@
     "chainpur-seti": "Chainpur Seti",
     "chameliya-jauljibi-interconnection": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection",
     "chameliya-khola": "Chameliya Khola",
+    "chilime-trishuli-220kv-transmission-line": "Chilime-Trishuli 220 kV Transmission Line",
     "chilime": "Chilime",
     "damak-godak-phidim-132kv": "Damak\u2013Godak\u2013Phidim 132 kV Corridor",
     "dana-kushma-butwal-corridor": "Dana\u2013Kushma\u2013New Butwal 220 kV Corridor",
@@ -1322,6 +1377,7 @@
     "khimti-dhalkebar-corridor": "Khimti\u2013Dhalkebar 220 kV Hydropower Corridor",
     "khimti-i": "Khimti -I",
     "khimti-ii": "Khimti II",
+    "khudi-220-132kv-substation": "Khudi 220/132 kV Substation",
     "kimathanka-arun-hep": "Kimathanka Arun HEP",
     "kokhajor-1": "Kokhajor-1",
     "koshi-basin": "Koshi Basin",
@@ -1344,6 +1400,7 @@
     "mahakali-basin": "Mahakali Basin",
     "mai": "Mai",
     "main-load-dispatch-centre": "Main Load Dispatch Centre",
+    "markichowk-220-132kv-substation": "Markichowk 220/132 kV Substation",
     "marsyangdi-besi": "Marsyangdi Besi",
     "marsyangdi": "Marsyangdi",
     "mca-central-400": "MCA Central 400 kV Corridor (Lapsiphedi\u2013Ratmate\u2013Hetauda\u2013Damauli\u2013Butwal)",
@@ -1410,12 +1467,15 @@
     "west-seti": "West Seti Hydroelectric Project",
     "buildability": "Buildability",
     "domestic-led-hydro-strategy": "Domestic-Led Hydro Strategy",
+    "energy-substitution-pathway": "Energy Substitution Pathway",
+    "environmental-flow-policy": "Environmental Flow Policy",
     "firm-power": "Firm Power",
     "ganges-contribution": "Nepal's Contribution to the Ganges",
     "glof-risk": "GLOF Risk",
     "green-hydrogen-nepal": "Green Hydrogen Nepal",
     "hydro-geopolitics": "Hydro-Geopolitics",
     "hydropower-potential-categories": "Hydropower Potential Categories",
+    "nepal-power-trade-schemes": "Nepal Power Trade Schemes",
     "peak-water": "Peak Water",
     "project-roadmap": "Project Roadmap",
     "run-of-river-hydropower": "Run-of-River Hydropower",
@@ -1425,6 +1485,7 @@
     "storage-deficit": "Storage Deficit",
     "stranded-generation": "Stranded Generation",
     "bottleneck-hierarchy": "Bottleneck Hierarchy",
+    "ipsdp-2025-vs-wiki-claims": "IPSDP 2025 vs Wiki Claims",
     "master-thesis": "Master Thesis",
     "provider-comparison": "Provider Comparison",
     "twenty-year-strategy": "Twenty-Year Strategy",
@@ -1443,7 +1504,9 @@
     "claim-transmission-immediate-blocker": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
     "data-basin-discharge": "Basin Discharge Data",
     "data-domestic-demand": "Domestic Electricity Demand Distribution",
+    "data-final-energy-mix": "Nepal Final Energy Mix",
     "data-fleet-composition": "Hydropower Fleet Composition",
+    "data-ipsdp-milestone-ladder-2022-2040": "IPSDP Milestone Ladder 2022-2040",
     "data-map-inventory": "Map Inventory",
     "data-mountain-hydro-comparison": "Mountain Hydro System Comparison",
     "data-nea-substation-capacity-fy2076-77": "NEA Substation Capacity FY 2076/77",
@@ -1454,5 +1517,5 @@
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series"
   },
-  "totalPages": 205
+  "totalPages": 214
 }

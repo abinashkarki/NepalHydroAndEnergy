@@ -19,7 +19,7 @@ DeepResearch Part 7's "brutal answer" frames the current failure plainly: *"The 
 
 ## Why domestic demand is not a small story
 
-[[nepal-energy-profile]] makes clear that "low consumption" is better read as **headroom** than as lack of need. Per-capita electricity use is ~**370–465 kWh/year** — roughly **5–7x below** a middle-income norm of 2,000–3,000 kWh/year. Electricity's share of **final energy** is tiny (**grid electricity ~5%**) — so electrification of cooking, heat, mobility, and process heat is a multi-decade demand builder.
+[[nepal-energy-profile]] makes clear that "low consumption" is better read as **headroom** than as lack of need. Per-capita electricity use is ~**370–465 kWh/year** — roughly **5–7x below** a middle-income norm of 2,000–3,000 kWh/year. Electricity's share of **final energy** is small (**7.23% in FY 2079/80**, up from 4.96% the year before — see [[data-final-energy-mix]]) — so electrification of cooking, heat, mobility, and process heat is a multi-decade demand builder. The specific sinks to target, ranked by volume, are worked out in [[energy-substitution-pathway]].
 
 The sectoral breakdown (FY 2020/21, NEA) reveals a critical structure (see [[data-domestic-demand]]):
 - **Residential: 43%** of electricity sales (~3,138 GWh)

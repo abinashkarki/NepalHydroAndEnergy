@@ -36,7 +36,7 @@ Energy-specific profile of Nepal. On merge with the personal wiki, this content 
 | National peak demand | 2,409 MW |
 | Monsoon surplus | ~850 MW exported during peak production |
 | Per-capita electricity use | 370–465 kWh/yr |
-| Grid electricity share of final energy | 4.96% |
+| Grid electricity share of final energy | 7.23% (FY 2079/80) — up from 4.96% (FY 2078/79). See [[data-final-energy-mix]] |
 | Net trade position | Seasonal exporter (since 2023); FY 2024/25 net exports: 699 GWh |
 | Export revenue | NPR 17.46B (India + Bangladesh) |
 | Approved export capacity | 941 MW (400 MW bilateral + 540 MW IEX) |
@@ -65,7 +65,7 @@ That history matters because today's system should be read as a transition from 
 
 ## Energy Beyond Electricity
 
-Nepal's broader energy system is **not electricity-centered**. Biomass still dominates. In the 2022 WECS balance, residential use was 60.75% of final energy, grid electricity only 4.96%. Nepal's electricity story is more advanced than its total energy transition. See [[domestic-led-hydro-strategy]].
+Nepal's broader energy system is **not electricity-centered**. Biomass still dominates. In the FY 2079/80 WECS balance, residential use was **60.75%** of final energy, grid electricity **7.23%** (up from 4.96% the prior year — a real jump driven by +21.2% electricity consumption against −41.5% coal and −16.1% petroleum). Hydro's share of *total* final energy is about **6.8%**. Nepal's electricity story is more advanced than its total energy transition. Full cross-tab at [[data-final-energy-mix]]; strategic frame at [[energy-substitution-pathway]] and [[domestic-led-hydro-strategy]].
 
 ## Related
 

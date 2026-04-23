@@ -1,0 +1,25 @@
+{
+  "slug": "markichowk-220-132kv-substation",
+  "entries": [
+    {
+      "src": "markichowk-220-132kv-substation/nea2425-p194-back-cover-lower.png",
+      "filename": "nea2425-p194-back-cover-lower.png",
+      "caption": "Lower back-cover photo from the NEA FY 2024/25 annual report, identified in the contents page as Markichowk 220/132 kV Substation.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 194,
+      "image_index": 0,
+      "action": "manual_back_cover_crop",
+      "bbox": [
+        0.0,
+        367.12,
+        610.56,
+        667.36
+      ],
+      "width": 1016,
+      "height": 500,
+      "fetched_at": 1776822935
+    }
+  ]
+}

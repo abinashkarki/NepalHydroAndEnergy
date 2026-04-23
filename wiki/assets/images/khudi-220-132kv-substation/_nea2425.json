@@ -1,0 +1,25 @@
+{
+  "slug": "khudi-220-132kv-substation",
+  "entries": [
+    {
+      "src": "khudi-220-132kv-substation/nea2425-p194-back-cover-upper.png",
+      "filename": "nea2425-p194-back-cover-upper.png",
+      "caption": "Upper back-cover photo from the NEA FY 2024/25 annual report, identified in the contents page as Khudi 220/132 kV Substation.",
+      "credit": "Nepal Electricity Authority, A Year in Review FY 2024/25",
+      "license": "gov-permissive",
+      "source_url": "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+      "source_page": 194,
+      "image_index": 0,
+      "action": "manual_back_cover_crop",
+      "bbox": [
+        0.0,
+        0.0,
+        610.56,
+        360.23
+      ],
+      "width": 1016,
+      "height": 600,
+      "fetched_at": 1776822935
+    }
+  ]
+}

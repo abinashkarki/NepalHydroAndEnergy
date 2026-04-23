@@ -2,7 +2,7 @@
 title: Domestic Electricity Demand Distribution
 type: data
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-04-23
 figure_type: chart-spec
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024]
 tags: [demand, consumption, residential, industrial, load-profile, nepal]
@@ -106,6 +106,8 @@ Third panel: load profile curve (daily MW demand, showing 18:30–19:25 evening 
 
 ## Related
 
+- [[data-final-energy-mix]] — the total-energy denominator (this page is the electricity slice only)
+- [[energy-substitution-pathway]] — what non-electric flows electrification would displace
 - [[seasonal-arbitrage-trap]] — the trade cost of not building domestic demand
 - [[domestic-led-hydro-strategy]] — the strategic response
 - [[stranded-generation]] — monsoon surplus that domestic load could absorb
