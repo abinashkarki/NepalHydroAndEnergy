@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ghi_eastern_terai",
+        "label_title": "Eastern Terai solar belt",
+        "ghi_class": "high",
+        "winter_value": "high",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.7,
+              26.35
+            ],
+            [
+              88.2,
+              26.35
+            ],
+            [
+              88.2,
+              26.95
+            ],
+            [
+              86.7,
+              26.95
+            ],
+            [
+              86.7,
+              26.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ghi_madhesh_central_terai",
+        "label_title": "Madhesh / central Terai solar belt",
+        "ghi_class": "high",
+        "winter_value": "high",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.3,
+              26.45
+            ],
+            [
+              86.8,
+              26.45
+            ],
+            [
+              86.8,
+              27.15
+            ],
+            [
+              84.3,
+              27.15
+            ],
+            [
+              84.3,
+              26.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ghi_lumbini_western_terai",
+        "label_title": "Lumbini / western Terai solar belt",
+        "ghi_class": "high",
+        "winter_value": "high",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81,
+              27.35
+            ],
+            [
+              84.4,
+              27.35
+            ],
+            [
+              84.4,
+              28.25
+            ],
+            [
+              81,
+              28.25
+            ],
+            [
+              81,
+              27.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ghi_far_west_terai",
+        "label_title": "Far-west Terai solar belt",
+        "ghi_class": "high",
+        "winter_value": "high",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80,
+              28.4
+            ],
+            [
+              81.4,
+              28.4
+            ],
+            [
+              81.4,
+              29.25
+            ],
+            [
+              80,
+              29.25
+            ],
+            [
+              80,
+              28.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ghi_mid_hill_hybrid",
+        "label_title": "Mid-hill hydro co-location belt",
+        "ghi_class": "moderate",
+        "winter_value": "medium-high",
+        "confidence": "low-medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.2,
+              27.4
+            ],
+            [
+              86.6,
+              27.4
+            ],
+            [
+              86.6,
+              28.7
+            ],
+            [
+              82.2,
+              28.7
+            ],
+            [
+              82.2,
+              27.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ghi_mustang_rain_shadow",
+        "label_title": "Mustang / trans-Himalayan rain-shadow zone",
+        "ghi_class": "high-altitude niche",
+        "winter_value": "high",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4,
+              28.55
+            ],
+            [
+              84.45,
+              28.55
+            ],
+            [
+              84.45,
+              29.45
+            ],
+            [
+              83.4,
+              29.45
+            ],
+            [
+              83.4,
+              28.55
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

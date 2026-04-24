@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suit_eastern_terai",
+        "label_title": "Eastern Terai substation-adjacent solar",
+        "suitability_class": "high",
+        "constraint_note": "Land assembly and distribution-grid headroom",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.75,
+              26.4
+            ],
+            [
+              88.1,
+              26.4
+            ],
+            [
+              88.1,
+              26.9
+            ],
+            [
+              86.75,
+              26.9
+            ],
+            [
+              86.75,
+              26.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suit_madhesh_central_terai",
+        "label_title": "Madhesh / central Terai short-cycle solar",
+        "suitability_class": "very high",
+        "constraint_note": "Land politics and DCS saturation",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5,
+              26.5
+            ],
+            [
+              86.55,
+              26.5
+            ],
+            [
+              86.55,
+              27.05
+            ],
+            [
+              84.5,
+              27.05
+            ],
+            [
+              84.5,
+              26.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suit_lumbini_western_terai",
+        "label_title": "Lumbini / western Terai grid solar",
+        "suitability_class": "high",
+        "constraint_note": "Hetauda-Bharatpur-Bardaghat and New Butwal grid headroom",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81.1,
+              27.45
+            ],
+            [
+              84.25,
+              27.45
+            ],
+            [
+              84.25,
+              28.15
+            ],
+            [
+              81.1,
+              28.15
+            ],
+            [
+              81.1,
+              27.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suit_far_west_terai",
+        "label_title": "Far-west Terai solar access belt",
+        "suitability_class": "medium-high",
+        "constraint_note": "Longer grid distances and thinner local load",
+        "confidence": "low-medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.05,
+              28.55
+            ],
+            [
+              81.35,
+              28.55
+            ],
+            [
+              81.35,
+              29.15
+            ],
+            [
+              80.05,
+              29.15
+            ],
+            [
+              80.05,
+              28.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suit_hydro_colocation",
+        "label_title": "Mid-hill hydro co-location pockets",
+        "suitability_class": "medium",
+        "constraint_note": "Terrain limits land, but substations and access roads exist",
+        "confidence": "low-medium",
+        "source_note": "Curated from hybrid-siting logic and existing hydropower corridors"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.4,
+              27.65
+            ],
+            [
+              85.95,
+              27.65
+            ],
+            [
+              85.95,
+              28.45
+            ],
+            [
+              82.4,
+              28.45
+            ],
+            [
+              82.4,
+              27.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suit_mustang_rain_shadow",
+        "label_title": "Mustang rain-shadow niche",
+        "suitability_class": "medium-high niche",
+        "constraint_note": "High irradiance but weak evacuation and terrain constraints",
+        "confidence": "medium",
+        "source_note": "ESMAP Nepal Solar Resource and Photovoltaic Potential report; Global Solar Atlas; curated wiki synthesis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.55,
+              28.65
+            ],
+            [
+              84.35,
+              28.65
+            ],
+            [
+              84.35,
+              29.35
+            ],
+            [
+              83.55,
+              29.35
+            ],
+            [
+              83.55,
+              28.65
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

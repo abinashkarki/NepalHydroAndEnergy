@@ -260,6 +260,78 @@
       }
     },
 
+    "solar_ghi_zones": {
+      "path": "../../../data/processed/maps/solar_ghi_zones.geojson",
+      "kind": "polygon",
+      "label": "Solar GHI zones",
+      "style": { "color": "#ca8a04", "weight": 1.3, "fillColor": "#fde047", "fillOpacity": 0.18 },
+      "popup_fields": ["label_title", "ghi_class", "winter_value", "confidence", "source_note"],
+      "tooltip_fields": ["label_title", "ghi_class"],
+      "card_fields": {
+        "title": "label_title",
+        "lead_template": "${ghi_class} GHI · winter value: ${winter_value}",
+        "body": [
+          { "label": "Confidence", "field": "confidence" },
+          { "label": "Source", "field": "source_note" }
+        ]
+      }
+    },
+    "solar_plants": {
+      "path": "../../../data/processed/maps/solar_plants.geojson",
+      "kind": "point",
+      "label": "Solar plants + NEA 960 MW awards",
+      "style": {
+        "color": "#854d0e", "weight": 1.4, "fillColor": "#f59e0b", "fillOpacity": 0.82,
+        "radius_field": "capacity_mw", "radius_min": 3, "radius_max": 13, "radius_scale": "sqrt"
+      },
+      "popup_fields": ["label_title", "status", "capacity_mw", "district", "tariff_npr_kwh", "precision_label", "location_basis"],
+      "tooltip_fields": ["label_title", "capacity_mw"],
+      "name_field": "label_title",
+      "card_fields": {
+        "title": "label_title",
+        "lead_field": "label_subtitle",
+        "body": [
+          { "label": "Status", "field": "status" },
+          { "label": "District", "field": "district" },
+          { "label": "Precision", "field": "precision_label" },
+          { "label": "Source", "field": "source_note" }
+        ]
+      }
+    },
+    "solar_suitability": {
+      "path": "../../../data/processed/maps/solar_suitability.geojson",
+      "kind": "polygon",
+      "label": "Solar strategic suitability",
+      "style": { "color": "#b45309", "weight": 1.2, "fillColor": "#fb923c", "fillOpacity": 0.12, "dashArray": "5,4" },
+      "popup_fields": ["label_title", "suitability_class", "constraint_note", "confidence", "source_note"],
+      "tooltip_fields": ["label_title", "suitability_class"],
+      "card_fields": {
+        "title": "label_title",
+        "lead_template": "Suitability: ${suitability_class}",
+        "body": [
+          { "label": "Constraint", "field": "constraint_note" },
+          { "label": "Confidence", "field": "confidence" }
+        ]
+      }
+    },
+    "floating_pv_candidates": {
+      "path": "../../../data/processed/maps/floating_pv_candidates.geojson",
+      "kind": "point",
+      "label": "Floating PV candidates",
+      "style": { "radius": 7, "color": "#0f766e", "weight": 2, "fillColor": "#2dd4bf", "fillOpacity": 0.82 },
+      "popup_fields": ["label_title", "candidate_status", "capacity_band_mw", "confidence", "precision_label", "source_note"],
+      "tooltip_fields": ["label_title", "candidate_status"],
+      "card_fields": {
+        "title": "label_title",
+        "lead_template": "${candidate_status} · ${capacity_band_mw} MW band",
+        "body": [
+          { "label": "Confidence", "field": "confidence" },
+          { "label": "Precision", "field": "precision_label" },
+          { "label": "Source", "field": "source_note" }
+        ]
+      }
+    },
+
     "basin_seasonality": {
       "path": "../../../data/processed/maps/basin_seasonality_annotations.geojson",
       "kind": "point",

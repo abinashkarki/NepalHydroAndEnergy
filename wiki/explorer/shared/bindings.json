@@ -228,12 +228,15 @@
         "cross_border"
       ]
     },
-
     "hetauda-dhalkebar-inaruwa-backbone": {
       "type": "entity",
       "category": "transmission-corridor",
       "features": [
-        { "layer": "transmission_corridors", "id": "hddi_400", "primary": true }
+        {
+          "layer": "transmission_corridors",
+          "id": "hddi_400",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -246,7 +249,11 @@
       "type": "entity",
       "category": "transmission-corridor",
       "features": [
-        { "layer": "transmission_corridors", "id": "mca_central_400", "primary": true }
+        {
+          "layer": "transmission_corridors",
+          "id": "mca_central_400",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -259,7 +266,11 @@
       "type": "entity",
       "category": "transmission-corridor",
       "features": [
-        { "layer": "transmission_corridors", "id": "khimti_dhalkebar_220", "primary": true }
+        {
+          "layer": "transmission_corridors",
+          "id": "khimti_dhalkebar_220",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -271,7 +282,11 @@
       "type": "entity",
       "category": "transmission-corridor",
       "features": [
-        { "layer": "transmission_corridors", "id": "hetauda_bharatpur_bardaghat_220", "primary": true }
+        {
+          "layer": "transmission_corridors",
+          "id": "hetauda_bharatpur_bardaghat_220",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -283,7 +298,11 @@
       "type": "entity",
       "category": "transmission-corridor",
       "features": [
-        { "layer": "transmission_corridors", "id": "dana_kushma_butwal_220", "primary": true }
+        {
+          "layer": "transmission_corridors",
+          "id": "dana_kushma_butwal_220",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -295,7 +314,11 @@
       "type": "entity",
       "category": "cross-border",
       "features": [
-        { "layer": "cross_border", "id": "dhalkebar_muzaffarpur", "primary": true }
+        {
+          "layer": "cross_border",
+          "id": "dhalkebar_muzaffarpur",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -307,7 +330,11 @@
       "type": "entity",
       "category": "cross-border",
       "features": [
-        { "layer": "cross_border", "id": "gorakhpur_new_butwal", "primary": true }
+        {
+          "layer": "cross_border",
+          "id": "gorakhpur_new_butwal",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -319,7 +346,11 @@
       "type": "entity",
       "category": "cross-border",
       "features": [
-        { "layer": "cross_border", "id": "inaruwa_purnea", "primary": true }
+        {
+          "layer": "cross_border",
+          "id": "inaruwa_purnea",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -331,7 +362,11 @@
       "type": "entity",
       "category": "cross-border",
       "features": [
-        { "layer": "cross_border", "id": "kataiya_kushaha", "primary": true }
+        {
+          "layer": "cross_border",
+          "id": "kataiya_kushaha",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -342,7 +377,11 @@
       "type": "entity",
       "category": "cross-border",
       "features": [
-        { "layer": "cross_border", "id": "chameliya_jauljibi", "primary": true }
+        {
+          "layer": "cross_border",
+          "id": "chameliya_jauljibi",
+          "primary": true
+        }
       ],
       "layers_on": [
         "country_outline",
@@ -2372,6 +2411,512 @@
         "tributaries",
         "hydropower_construction"
       ]
+    },
+    "data-nepal-solar-resource-zones": {
+      "type": "data",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_ghi_zones"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "data-solar-fleet-inventory": {
+      "type": "data",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_plants"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "data-solar-hydro-lcoe": {
+      "type": "data",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "match": {
+            "field": "status",
+            "value_contains": "Tender"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "data-solar-hydro-complementarity-profile": {
+      "type": "data",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_ghi_zones"
+        },
+        {
+          "layer": "storage_shortlist"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_ghi_zones",
+        "solar_plants",
+        "storage_shortlist"
+      ]
+    },
+    "data-rooftop-shs-deployment": {
+      "type": "data",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_suitability"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_suitability",
+        "solar_ghi_zones"
+      ]
+    },
+    "solar-resource-geography-nepal": {
+      "type": "concept",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_ghi_zones"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_ghi_zones",
+        "solar_suitability"
+      ]
+    },
+    "solar-hydro-complementarity": {
+      "type": "concept",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_ghi_zones"
+        },
+        {
+          "layer": "storage_shortlist"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_ghi_zones",
+        "solar_plants",
+        "storage_shortlist",
+        "hydropower_operating"
+      ]
+    },
+    "solar-lcoe-crossover": {
+      "type": "concept",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "match": {
+            "field": "status",
+            "value_contains": "Tender"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "hybrid-siting-logic": {
+      "type": "concept",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_suitability",
+          "id": "suit_hydro_colocation"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_suitability",
+        "solar_plants",
+        "hydropower_operating",
+        "hydropower_construction"
+      ]
+    },
+    "agrivoltaics-and-land": {
+      "type": "concept",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_suitability",
+          "id": "suit_madhesh_central_terai"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_suitability",
+        "solar_ghi_zones",
+        "solar_plants"
+      ]
+    },
+    "rooftop-minigrid-offgrid": {
+      "type": "concept",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_suitability"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_suitability",
+        "solar_ghi_zones"
+      ]
+    },
+    "bidur-trishuli-solar-25mwp": {
+      "type": "entity",
+      "category": "solar-project",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "id": "nuwakot_block_1",
+          "primary": true
+        },
+        {
+          "layer": "solar_plants",
+          "id": "nuwakot_block_2"
+        },
+        {
+          "layer": "solar_plants",
+          "id": "nuwakot_block_4"
+        },
+        {
+          "layer": "solar_plants",
+          "id": "nuwakot_grid_tied"
+        },
+        {
+          "layer": "solar_plants",
+          "id": "nuwakot_block_5"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "butwal-solar-ridi-8-5mwp": {
+      "type": "entity",
+      "category": "solar-project",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "id": "butwal_solar",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "mithila-solar-dhanusha-10mwp": {
+      "type": "entity",
+      "category": "solar-project",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "id": "mithila_solar",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "bishnu-priya-nawalparasi": {
+      "type": "entity",
+      "category": "solar-project",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "id": "bishnu_priya_solar",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "khungri-solar-hybrid-50mw": {
+      "type": "entity",
+      "category": "solar-project",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "id": "nea_960mw_loi_04",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_plants",
+        "solar_suitability",
+        "hydropower_construction"
+      ]
+    },
+    "mustang-high-altitude-solar-zone": {
+      "type": "entity",
+      "category": "solar-zone",
+      "features": [
+        {
+          "layer": "solar_ghi_zones",
+          "id": "ghi_mustang_rain_shadow",
+          "primary": true
+        },
+        {
+          "layer": "solar_suitability",
+          "id": "suit_mustang_rain_shadow"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "transmission_traced"
+      ]
+    },
+    "nea-960mw-solar-tender": {
+      "type": "entity",
+      "category": "solar-program",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "match": {
+            "field": "status",
+            "value_contains": "Tender"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "nea-solar": {
+      "type": "entity",
+      "category": "institution",
+      "features": [
+        {
+          "layer": "solar_plants"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "aepc": {
+      "type": "entity",
+      "category": "institution",
+      "features": [
+        {
+          "layer": "solar_suitability"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_suitability",
+        "solar_ghi_zones"
+      ]
+    },
+    "karnali-solar-energy-project": {
+      "type": "entity",
+      "category": "solar-project",
+      "features": [
+        {
+          "layer": "solar_suitability",
+          "id": "suit_hydro_colocation"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_suitability",
+        "solar_ghi_zones",
+        "storage_shortlist"
+      ]
+    },
+    "solar-role-in-winter-deficit": {
+      "type": "synthesis",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_ghi_zones"
+        },
+        {
+          "layer": "storage_shortlist"
+        },
+        {
+          "layer": "floating_pv_candidates"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_ghi_zones",
+        "solar_plants",
+        "storage_shortlist",
+        "floating_pv_candidates"
+      ]
+    },
+    "solar-in-the-master-narrative": {
+      "type": "synthesis",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_ghi_zones"
+        },
+        {
+          "layer": "solar_plants"
+        },
+        {
+          "layer": "storage_shortlist"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants",
+        "storage_shortlist"
+      ]
+    },
+    "claim-solar-cheaper-than-small-hydro": {
+      "type": "claim",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_plants",
+          "match": {
+            "field": "status",
+            "value_contains": "Tender"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "claim-solar-terai-only-short-cycle-build": {
+      "type": "claim",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_suitability",
+          "id": "suit_madhesh_central_terai"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants"
+      ]
+    },
+    "claim-floating-pv-leverage": {
+      "type": "claim",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "floating_pv_candidates",
+          "id": "fpv_kulekhani",
+          "primary": true
+        },
+        {
+          "layer": "floating_pv_candidates"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "floating_pv_candidates",
+        "storage_shortlist",
+        "solar_plants"
+      ]
+    },
+    "claim-solar-political-coalition-is-rural": {
+      "type": "claim",
+      "category": "solar",
+      "features": [
+        {
+          "layer": "solar_suitability"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "solar_suitability",
+        "solar_ghi_zones"
+      ]
     }
   },
   "tours": {
@@ -2388,8 +2933,8 @@
           ],
           "focus": {
             "center": [
-              28.0,
-              84.0
+              28,
+              84
             ],
             "zoom": 7
           }

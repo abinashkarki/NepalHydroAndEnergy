@@ -6,12 +6,24 @@
         "title": "ADB Hydropower Growth Nepal Study"
       },
       {
+        "slug": "aepc-renewable-framework",
+        "title": "AEPC Renewable Framework and Progress Reports"
+      },
+      {
         "slug": "arun-3-project-status-2025",
         "title": "Arun-3 Project Status & PDA Summary (2025)"
       },
       {
         "slug": "dudhkoshi-nea-proposal-2024",
         "title": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record"
+      },
+      {
+        "slug": "eib-rural-solar-phase2",
+        "title": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II"
+      },
+      {
+        "slug": "global-solar-atlas-nepal",
+        "title": "Global Solar Atlas (Nepal coverage)"
       },
       {
         "slug": "green-hydrogen-roadmap-nepal",
@@ -32,6 +44,10 @@
       {
         "slug": "india-cbte-2018",
         "title": "India Cross-Border Trade in Electricity Guidelines (2018)"
+      },
+      {
+        "slug": "irena-remap-nepal",
+        "title": "IRENA Renewable Readiness Assessment and REmap Nepal"
       },
       {
         "slug": "jica-ipsdp-main-report-vol2",
@@ -78,8 +94,16 @@
         "title": "World Bank Nepal Country Economic Memorandum (2025)"
       },
       {
+        "slug": "wb-esmap-solar-resource-assessment",
+        "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement"
+      },
+      {
         "slug": "wb-ganges-strategic-basin-assessment",
         "title": "World Bank Ganges Strategic Basin Assessment"
+      },
+      {
+        "slug": "wb-grid-solar-ee-project",
+        "title": "World Bank Grid Solar and Energy Efficiency Project"
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
@@ -103,6 +127,10 @@
       }
     ],
     "entities": [
+      {
+        "slug": "aepc",
+        "title": "Alternative Energy Promotion Centre (AEPC)"
+      },
       {
         "slug": "andhi-khola",
         "title": "Andhi Khola"
@@ -152,8 +180,20 @@
         "title": "Bhutan Hydropower Model"
       },
       {
+        "slug": "bidur-trishuli-solar-25mwp",
+        "title": "Bidur / Trishuli 25 MWp Solar Farm"
+      },
+      {
+        "slug": "bishnu-priya-nawalparasi",
+        "title": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)"
+      },
+      {
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project"
+      },
+      {
+        "slug": "butwal-solar-ridi-8-5mwp",
+        "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)"
       },
       {
         "slug": "chainpur-seti",
@@ -268,6 +308,10 @@
         "title": "Karnali Chisapani Project"
       },
       {
+        "slug": "karnali-solar-energy-project",
+        "title": "Karnali Solar Energy Project"
+      },
+      {
         "slug": "kasuwa-khola-hpp",
         "title": "Kasuwa Khola HPP"
       },
@@ -306,6 +350,10 @@
       {
         "slug": "khudi-220-132kv-substation",
         "title": "Khudi 220/132 kV Substation"
+      },
+      {
+        "slug": "khungri-solar-hybrid-50mw",
+        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)"
       },
       {
         "slug": "kimathanka-arun-hep",
@@ -420,6 +468,10 @@
         "title": "Middle Tamor"
       },
       {
+        "slug": "mithila-solar-dhanusha-10mwp",
+        "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+      },
+      {
         "slug": "modi-lekhnath-132kv",
         "title": "New Modi\u2013Lekhnath 132 kV Transmission Line"
       },
@@ -430,6 +482,10 @@
       {
         "slug": "mugu-karnali-storage-hep",
         "title": "Mugu Karnali Storage HEP"
+      },
+      {
+        "slug": "mustang-high-altitude-solar-zone",
+        "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone"
       },
       {
         "slug": "nalsyau-gad-storage-hep",
@@ -446,6 +502,14 @@
       {
         "slug": "nawalpur-132kv-substation",
         "title": "Nawalpur 132 kV Substation"
+      },
+      {
+        "slug": "nea-960mw-solar-tender",
+        "title": "NEA 960 MW National Solar Tender"
+      },
+      {
+        "slug": "nea-solar",
+        "title": "NEA Solar Programme"
       },
       {
         "slug": "nea",
@@ -658,6 +722,10 @@
     ],
     "concepts": [
       {
+        "slug": "agrivoltaics-and-land",
+        "title": "Agrivoltaics and Land"
+      },
+      {
         "slug": "buildability",
         "title": "Buildability"
       },
@@ -690,6 +758,10 @@
         "title": "Green Hydrogen Nepal"
       },
       {
+        "slug": "hybrid-siting-logic",
+        "title": "Hybrid Siting Logic"
+      },
+      {
         "slug": "hydro-geopolitics",
         "title": "Hydro-Geopolitics"
       },
@@ -710,6 +782,10 @@
         "title": "Project Roadmap"
       },
       {
+        "slug": "rooftop-minigrid-offgrid",
+        "title": "Rooftop, Mini-Grid, and Off-Grid Solar"
+      },
+      {
         "slug": "run-of-river-hydropower",
         "title": "Run-of-River Hydropower"
       },
@@ -724,6 +800,18 @@
       {
         "slug": "sediment-as-design-constraint",
         "title": "Sediment as Design Constraint"
+      },
+      {
+        "slug": "solar-hydro-complementarity",
+        "title": "Solar\u2013Hydro Complementarity"
+      },
+      {
+        "slug": "solar-lcoe-crossover",
+        "title": "Solar LCOE Crossover"
+      },
+      {
+        "slug": "solar-resource-geography-nepal",
+        "title": "Solar Resource Geography of Nepal"
       },
       {
         "slug": "storage-deficit",
@@ -752,6 +840,14 @@
         "title": "Provider Comparison"
       },
       {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative"
+      },
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit"
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy"
       },
@@ -768,6 +864,10 @@
       {
         "slug": "claim-domestic-led-strategy",
         "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support"
+      },
+      {
+        "slug": "claim-floating-pv-leverage",
+        "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar"
       },
       {
         "slug": "claim-governance-binding",
@@ -792,6 +892,18 @@
       {
         "slug": "claim-sediment-core-issue",
         "title": "Sediment Is a Central Design and Economics Constraint, Not an O&M Footnote"
+      },
+      {
+        "slug": "claim-solar-cheaper-than-small-hydro",
+        "title": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal"
+      },
+      {
+        "slug": "claim-solar-political-coalition-is-rural",
+        "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale"
+      },
+      {
+        "slug": "claim-solar-terai-only-short-cycle-build",
+        "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030"
       },
       {
         "slug": "claim-storage-physical-fix",
@@ -852,12 +964,32 @@
         "title": "Nepal Peak Load Curve FY 2024/25"
       },
       {
+        "slug": "data-nepal-solar-resource-zones",
+        "title": "Nepal Solar Resource Zones"
+      },
+      {
         "slug": "data-pipeline-readme",
         "title": "Data Pipeline Readme"
       },
       {
         "slug": "data-potential-pyramid",
         "title": "Hydropower Potential Pyramid"
+      },
+      {
+        "slug": "data-rooftop-shs-deployment",
+        "title": "Rooftop and Solar Home System Deployment"
+      },
+      {
+        "slug": "data-solar-fleet-inventory",
+        "title": "Solar Fleet Inventory"
+      },
+      {
+        "slug": "data-solar-hydro-complementarity-profile",
+        "title": "Solar\u2013Hydro Complementarity Profile"
+      },
+      {
+        "slug": "data-solar-hydro-lcoe",
+        "title": "Solar and Hydro LCOE"
       },
       {
         "slug": "data-storage-comparison",
@@ -871,13 +1003,17 @@
   },
   "allSlugs": [
     "adb-hydropower-growth-nepal",
+    "aepc-renewable-framework",
     "arun-3-project-status-2025",
     "dudhkoshi-nea-proposal-2024",
+    "eib-rural-solar-phase2",
+    "global-solar-atlas-nepal",
     "green-hydrogen-roadmap-nepal",
     "icimod-hkh-glacier-change",
     "icimod-koshi-basin",
     "icimod-koshi-sediment-threats",
     "india-cbte-2018",
+    "irena-remap-nepal",
     "jica-ipsdp-main-report-vol2",
     "kali-gandaki-a-adb-evaluation",
     "moewri-ipsdp-exec-summary-2025",
@@ -889,12 +1025,15 @@
     "tanahu-adb-status-2025",
     "upper-karnali-pda-record",
     "wb-country-economic-memo-2025",
+    "wb-esmap-solar-resource-assessment",
     "wb-ganges-strategic-basin-assessment",
+    "wb-grid-solar-ee-project",
     "wb-nepal-power-sector-reform-2022",
     "wb-water-sector-diagnostic",
     "wecs-energy-synopsis-2024",
     "wecs-hydropower-potential-2019",
     "wecs-river-basin-plan-2024",
+    "aepc",
     "andhi-khola",
     "ankhu-khola",
     "arun-3",
@@ -907,7 +1046,10 @@
     "bheri-4",
     "bheri-corridor-400kv",
     "bhutan-hydropower-model",
+    "bidur-trishuli-solar-25mwp",
+    "bishnu-priya-nawalparasi",
     "budhigandaki",
+    "butwal-solar-ridi-8-5mwp",
     "chainpur-seti",
     "chameliya-jauljibi-interconnection",
     "chameliya-khola",
@@ -936,6 +1078,7 @@
     "kaligandaki-upper",
     "karnali-basin",
     "karnali-chisapani",
+    "karnali-solar-energy-project",
     "kasuwa-khola-hpp",
     "kataiya-kushaha-interconnection",
     "kathmandu-valley-underground-cabling",
@@ -946,6 +1089,7 @@
     "khimti-i",
     "khimti-ii",
     "khudi-220-132kv-substation",
+    "khungri-solar-hybrid-50mw",
     "kimathanka-arun-hep",
     "kokhajor-1",
     "koshi-basin",
@@ -974,13 +1118,17 @@
     "mca-central-400",
     "mewa-khola-hydropower-project",
     "middle-tamor",
+    "mithila-solar-dhanusha-10mwp",
     "modi-lekhnath-132kv",
     "mristi-khola",
     "mugu-karnali-storage-hep",
+    "mustang-high-altitude-solar-zone",
     "nalsyau-gad-storage-hep",
     "nalsyau-gad",
     "naumure-w-rapti",
     "nawalpur-132kv-substation",
+    "nea-960mw-solar-tender",
+    "nea-solar",
     "nea",
     "nepal-energy-profile",
     "niettp",
@@ -1033,6 +1181,7 @@
     "uttarganga-storage-hydropower-project",
     "wecs",
     "west-seti",
+    "agrivoltaics-and-land",
     "buildability",
     "domestic-led-hydro-strategy",
     "energy-substitution-pathway",
@@ -1041,31 +1190,42 @@
     "ganges-contribution",
     "glof-risk",
     "green-hydrogen-nepal",
+    "hybrid-siting-logic",
     "hydro-geopolitics",
     "hydropower-potential-categories",
     "nepal-power-trade-schemes",
     "peak-water",
     "project-roadmap",
+    "rooftop-minigrid-offgrid",
     "run-of-river-hydropower",
     "seasonal-arbitrage-trap",
     "seasonal-mismatch",
     "sediment-as-design-constraint",
+    "solar-hydro-complementarity",
+    "solar-lcoe-crossover",
+    "solar-resource-geography-nepal",
     "storage-deficit",
     "stranded-generation",
     "bottleneck-hierarchy",
     "ipsdp-2025-vs-wiki-claims",
     "master-thesis",
     "provider-comparison",
+    "solar-in-the-master-narrative",
+    "solar-role-in-winter-deficit",
     "twenty-year-strategy",
     "unresolved-questions",
     "claim-climate-harder-not-easier",
     "claim-domestic-led-strategy",
+    "claim-floating-pv-leverage",
     "claim-governance-binding",
     "claim-india-decisive-actor",
     "claim-mw-not-equal-value",
     "claim-pror-not-storage",
     "claim-ror-dominance",
     "claim-sediment-core-issue",
+    "claim-solar-cheaper-than-small-hydro",
+    "claim-solar-political-coalition-is-rural",
+    "claim-solar-terai-only-short-cycle-build",
     "claim-storage-physical-fix",
     "claim-systems-conversion-failure",
     "claim-timing-not-volume",
@@ -1080,20 +1240,29 @@
     "data-nea-substation-capacity-fy2076-77",
     "data-nea-transmission-length-fy2076-77",
     "data-nepal-peak-load-curve-fy2024-25",
+    "data-nepal-solar-resource-zones",
     "data-pipeline-readme",
     "data-potential-pyramid",
+    "data-rooftop-shs-deployment",
+    "data-solar-fleet-inventory",
+    "data-solar-hydro-complementarity-profile",
+    "data-solar-hydro-lcoe",
     "data-storage-comparison",
     "data-trade-time-series"
   ],
   "slugToCategory": {
     "adb-hydropower-growth-nepal": "sources",
+    "aepc-renewable-framework": "sources",
     "arun-3-project-status-2025": "sources",
     "dudhkoshi-nea-proposal-2024": "sources",
+    "eib-rural-solar-phase2": "sources",
+    "global-solar-atlas-nepal": "sources",
     "green-hydrogen-roadmap-nepal": "sources",
     "icimod-hkh-glacier-change": "sources",
     "icimod-koshi-basin": "sources",
     "icimod-koshi-sediment-threats": "sources",
     "india-cbte-2018": "sources",
+    "irena-remap-nepal": "sources",
     "jica-ipsdp-main-report-vol2": "sources",
     "kali-gandaki-a-adb-evaluation": "sources",
     "moewri-ipsdp-exec-summary-2025": "sources",
@@ -1105,12 +1274,15 @@
     "tanahu-adb-status-2025": "sources",
     "upper-karnali-pda-record": "sources",
     "wb-country-economic-memo-2025": "sources",
+    "wb-esmap-solar-resource-assessment": "sources",
     "wb-ganges-strategic-basin-assessment": "sources",
+    "wb-grid-solar-ee-project": "sources",
     "wb-nepal-power-sector-reform-2022": "sources",
     "wb-water-sector-diagnostic": "sources",
     "wecs-energy-synopsis-2024": "sources",
     "wecs-hydropower-potential-2019": "sources",
     "wecs-river-basin-plan-2024": "sources",
+    "aepc": "entities",
     "andhi-khola": "entities",
     "ankhu-khola": "entities",
     "arun-3": "entities",
@@ -1123,7 +1295,10 @@
     "bheri-4": "entities",
     "bheri-corridor-400kv": "entities",
     "bhutan-hydropower-model": "entities",
+    "bidur-trishuli-solar-25mwp": "entities",
+    "bishnu-priya-nawalparasi": "entities",
     "budhigandaki": "entities",
+    "butwal-solar-ridi-8-5mwp": "entities",
     "chainpur-seti": "entities",
     "chameliya-jauljibi-interconnection": "entities",
     "chameliya-khola": "entities",
@@ -1152,6 +1327,7 @@
     "kaligandaki-upper": "entities",
     "karnali-basin": "entities",
     "karnali-chisapani": "entities",
+    "karnali-solar-energy-project": "entities",
     "kasuwa-khola-hpp": "entities",
     "kataiya-kushaha-interconnection": "entities",
     "kathmandu-valley-underground-cabling": "entities",
@@ -1162,6 +1338,7 @@
     "khimti-i": "entities",
     "khimti-ii": "entities",
     "khudi-220-132kv-substation": "entities",
+    "khungri-solar-hybrid-50mw": "entities",
     "kimathanka-arun-hep": "entities",
     "kokhajor-1": "entities",
     "koshi-basin": "entities",
@@ -1190,13 +1367,17 @@
     "mca-central-400": "entities",
     "mewa-khola-hydropower-project": "entities",
     "middle-tamor": "entities",
+    "mithila-solar-dhanusha-10mwp": "entities",
     "modi-lekhnath-132kv": "entities",
     "mristi-khola": "entities",
     "mugu-karnali-storage-hep": "entities",
+    "mustang-high-altitude-solar-zone": "entities",
     "nalsyau-gad-storage-hep": "entities",
     "nalsyau-gad": "entities",
     "naumure-w-rapti": "entities",
     "nawalpur-132kv-substation": "entities",
+    "nea-960mw-solar-tender": "entities",
+    "nea-solar": "entities",
     "nea": "entities",
     "nepal-energy-profile": "entities",
     "niettp": "entities",
@@ -1249,6 +1430,7 @@
     "uttarganga-storage-hydropower-project": "entities",
     "wecs": "entities",
     "west-seti": "entities",
+    "agrivoltaics-and-land": "concepts",
     "buildability": "concepts",
     "domestic-led-hydro-strategy": "concepts",
     "energy-substitution-pathway": "concepts",
@@ -1257,31 +1439,42 @@
     "ganges-contribution": "concepts",
     "glof-risk": "concepts",
     "green-hydrogen-nepal": "concepts",
+    "hybrid-siting-logic": "concepts",
     "hydro-geopolitics": "concepts",
     "hydropower-potential-categories": "concepts",
     "nepal-power-trade-schemes": "concepts",
     "peak-water": "concepts",
     "project-roadmap": "concepts",
+    "rooftop-minigrid-offgrid": "concepts",
     "run-of-river-hydropower": "concepts",
     "seasonal-arbitrage-trap": "concepts",
     "seasonal-mismatch": "concepts",
     "sediment-as-design-constraint": "concepts",
+    "solar-hydro-complementarity": "concepts",
+    "solar-lcoe-crossover": "concepts",
+    "solar-resource-geography-nepal": "concepts",
     "storage-deficit": "concepts",
     "stranded-generation": "concepts",
     "bottleneck-hierarchy": "syntheses",
     "ipsdp-2025-vs-wiki-claims": "syntheses",
     "master-thesis": "syntheses",
     "provider-comparison": "syntheses",
+    "solar-in-the-master-narrative": "syntheses",
+    "solar-role-in-winter-deficit": "syntheses",
     "twenty-year-strategy": "syntheses",
     "unresolved-questions": "syntheses",
     "claim-climate-harder-not-easier": "claims",
     "claim-domestic-led-strategy": "claims",
+    "claim-floating-pv-leverage": "claims",
     "claim-governance-binding": "claims",
     "claim-india-decisive-actor": "claims",
     "claim-mw-not-equal-value": "claims",
     "claim-pror-not-storage": "claims",
     "claim-ror-dominance": "claims",
     "claim-sediment-core-issue": "claims",
+    "claim-solar-cheaper-than-small-hydro": "claims",
+    "claim-solar-political-coalition-is-rural": "claims",
+    "claim-solar-terai-only-short-cycle-build": "claims",
     "claim-storage-physical-fix": "claims",
     "claim-systems-conversion-failure": "claims",
     "claim-timing-not-volume": "claims",
@@ -1296,20 +1489,29 @@
     "data-nea-substation-capacity-fy2076-77": "data",
     "data-nea-transmission-length-fy2076-77": "data",
     "data-nepal-peak-load-curve-fy2024-25": "data",
+    "data-nepal-solar-resource-zones": "data",
     "data-pipeline-readme": "data",
     "data-potential-pyramid": "data",
+    "data-rooftop-shs-deployment": "data",
+    "data-solar-fleet-inventory": "data",
+    "data-solar-hydro-complementarity-profile": "data",
+    "data-solar-hydro-lcoe": "data",
     "data-storage-comparison": "data",
     "data-trade-time-series": "data"
   },
   "slugToTitle": {
     "adb-hydropower-growth-nepal": "ADB Hydropower Growth Nepal Study",
+    "aepc-renewable-framework": "AEPC Renewable Framework and Progress Reports",
     "arun-3-project-status-2025": "Arun-3 Project Status & PDA Summary (2025)",
     "dudhkoshi-nea-proposal-2024": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record",
+    "eib-rural-solar-phase2": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
+    "global-solar-atlas-nepal": "Global Solar Atlas (Nepal coverage)",
     "green-hydrogen-roadmap-nepal": "Green Hydrogen Roadmap for Nepal",
     "icimod-hkh-glacier-change": "ICIMOD HKH Glacier Change Summary",
     "icimod-koshi-basin": "ICIMOD Koshi Basin Programme",
     "icimod-koshi-sediment-threats": "ICIMOD Threats to the Koshi River Basin",
     "india-cbte-2018": "India Cross-Border Trade in Electricity Guidelines (2018)",
+    "irena-remap-nepal": "IRENA Renewable Readiness Assessment and REmap Nepal",
     "jica-ipsdp-main-report-vol2": "JICA IPSDP Final Report Annexes (Vol. 2)",
     "kali-gandaki-a-adb-evaluation": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia",
     "moewri-ipsdp-exec-summary-2025": "MoEWRI IPSDP Executive Summary",
@@ -1321,12 +1523,15 @@
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)",
     "upper-karnali-pda-record": "Upper Karnali \u2014 PDA, Financial Closure & Court Record",
     "wb-country-economic-memo-2025": "World Bank Nepal Country Economic Memorandum (2025)",
+    "wb-esmap-solar-resource-assessment": "World Bank ESMAP Nepal Solar and Wind Resource Measurement",
     "wb-ganges-strategic-basin-assessment": "World Bank Ganges Strategic Basin Assessment",
+    "wb-grid-solar-ee-project": "World Bank Grid Solar and Energy Efficiency Project",
     "wb-nepal-power-sector-reform-2022": "World Bank Nepal Power Sector Reform Roadmap (2022)",
     "wb-water-sector-diagnostic": "World Bank Nepal Water Sector Diagnostic",
     "wecs-energy-synopsis-2024": "WECS Energy Sector Synopsis Report 2024",
     "wecs-hydropower-potential-2019": "WECS Assessment of Hydropower Potential of Nepal (2019)",
     "wecs-river-basin-plan-2024": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+    "aepc": "Alternative Energy Promotion Centre (AEPC)",
     "andhi-khola": "Andhi Khola",
     "ankhu-khola": "Ankhu Khola",
     "arun-3": "Arun 3",
@@ -1339,7 +1544,10 @@
     "bheri-4": "Bheri 4",
     "bheri-corridor-400kv": "Bheri Corridor 400 kV Transmission Line",
     "bhutan-hydropower-model": "Bhutan Hydropower Model",
+    "bidur-trishuli-solar-25mwp": "Bidur / Trishuli 25 MWp Solar Farm",
+    "bishnu-priya-nawalparasi": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)",
     "budhigandaki": "Budhigandaki Hydroelectric Project",
+    "butwal-solar-ridi-8-5mwp": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
     "chainpur-seti": "Chainpur Seti",
     "chameliya-jauljibi-interconnection": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection",
     "chameliya-khola": "Chameliya Khola",
@@ -1368,6 +1576,7 @@
     "kaligandaki-upper": "Kaligandaki Upper",
     "karnali-basin": "Karnali Basin",
     "karnali-chisapani": "Karnali Chisapani Project",
+    "karnali-solar-energy-project": "Karnali Solar Energy Project",
     "kasuwa-khola-hpp": "Kasuwa Khola HPP",
     "kataiya-kushaha-interconnection": "Kataiya\u2013Kushaha 132 kV Cross-Border Interconnection",
     "kathmandu-valley-underground-cabling": "Kathmandu Valley Underground Cabling",
@@ -1378,6 +1587,7 @@
     "khimti-i": "Khimti -I",
     "khimti-ii": "Khimti II",
     "khudi-220-132kv-substation": "Khudi 220/132 kV Substation",
+    "khungri-solar-hybrid-50mw": "Khungri Solar Hybrid (50 MW, Pyuthan)",
     "kimathanka-arun-hep": "Kimathanka Arun HEP",
     "kokhajor-1": "Kokhajor-1",
     "koshi-basin": "Koshi Basin",
@@ -1406,13 +1616,17 @@
     "mca-central-400": "MCA Central 400 kV Corridor (Lapsiphedi\u2013Ratmate\u2013Hetauda\u2013Damauli\u2013Butwal)",
     "mewa-khola-hydropower-project": "Mewa Khola Hydropower Project",
     "middle-tamor": "Middle Tamor",
+    "mithila-solar-dhanusha-10mwp": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
     "modi-lekhnath-132kv": "New Modi\u2013Lekhnath 132 kV Transmission Line",
     "mristi-khola": "Mristi Khola",
     "mugu-karnali-storage-hep": "Mugu Karnali Storage HEP",
+    "mustang-high-altitude-solar-zone": "Mustang / Trans-Himalayan High-Altitude Solar Zone",
     "nalsyau-gad-storage-hep": "Nalsyau Gad Storage HEP",
     "nalsyau-gad": "Nalsyau Gad",
     "naumure-w-rapti": "Naumure (W. Rapti)",
     "nawalpur-132kv-substation": "Nawalpur 132 kV Substation",
+    "nea-960mw-solar-tender": "NEA 960 MW National Solar Tender",
+    "nea-solar": "NEA Solar Programme",
     "nea": "Nepal Electricity Authority (NEA)",
     "nepal-energy-profile": "Nepal Energy Profile",
     "niettp": "Nepal\u2013India Electricity Transmission and Trade Project (NIETTP)",
@@ -1465,6 +1679,7 @@
     "uttarganga-storage-hydropower-project": "Uttarganga Storage Hydropower Project",
     "wecs": "Water and Energy Commission Secretariat (WECS)",
     "west-seti": "West Seti Hydroelectric Project",
+    "agrivoltaics-and-land": "Agrivoltaics and Land",
     "buildability": "Buildability",
     "domestic-led-hydro-strategy": "Domestic-Led Hydro Strategy",
     "energy-substitution-pathway": "Energy Substitution Pathway",
@@ -1473,31 +1688,42 @@
     "ganges-contribution": "Nepal's Contribution to the Ganges",
     "glof-risk": "GLOF Risk",
     "green-hydrogen-nepal": "Green Hydrogen Nepal",
+    "hybrid-siting-logic": "Hybrid Siting Logic",
     "hydro-geopolitics": "Hydro-Geopolitics",
     "hydropower-potential-categories": "Hydropower Potential Categories",
     "nepal-power-trade-schemes": "Nepal Power Trade Schemes",
     "peak-water": "Peak Water",
     "project-roadmap": "Project Roadmap",
+    "rooftop-minigrid-offgrid": "Rooftop, Mini-Grid, and Off-Grid Solar",
     "run-of-river-hydropower": "Run-of-River Hydropower",
     "seasonal-arbitrage-trap": "Seasonal Arbitrage Trap",
     "seasonal-mismatch": "Seasonal Mismatch",
     "sediment-as-design-constraint": "Sediment as Design Constraint",
+    "solar-hydro-complementarity": "Solar\u2013Hydro Complementarity",
+    "solar-lcoe-crossover": "Solar LCOE Crossover",
+    "solar-resource-geography-nepal": "Solar Resource Geography of Nepal",
     "storage-deficit": "Storage Deficit",
     "stranded-generation": "Stranded Generation",
     "bottleneck-hierarchy": "Bottleneck Hierarchy",
     "ipsdp-2025-vs-wiki-claims": "IPSDP 2025 vs Wiki Claims",
     "master-thesis": "Master Thesis",
     "provider-comparison": "Provider Comparison",
+    "solar-in-the-master-narrative": "Solar in the Master Narrative",
+    "solar-role-in-winter-deficit": "Solar's Role in the Winter Deficit",
     "twenty-year-strategy": "Twenty-Year Strategy",
     "unresolved-questions": "Unresolved Questions",
     "claim-climate-harder-not-easier": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
     "claim-domestic-led-strategy": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+    "claim-floating-pv-leverage": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
     "claim-governance-binding": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives",
     "claim-india-decisive-actor": "India Is the Decisive External Actor in Nepal's Hydro Future",
     "claim-mw-not-equal-value": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
     "claim-pror-not-storage": "PRoR Is Not Seasonal Storage",
     "claim-ror-dominance": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
     "claim-sediment-core-issue": "Sediment Is a Central Design and Economics Constraint, Not an O&M Footnote",
+    "claim-solar-cheaper-than-small-hydro": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal",
+    "claim-solar-political-coalition-is-rural": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
+    "claim-solar-terai-only-short-cycle-build": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
     "claim-storage-physical-fix": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
     "claim-systems-conversion-failure": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
     "claim-timing-not-volume": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
@@ -1512,10 +1738,15 @@
     "data-nea-substation-capacity-fy2076-77": "NEA Substation Capacity FY 2076/77",
     "data-nea-transmission-length-fy2076-77": "NEA Transmission Length FY 2076/77",
     "data-nepal-peak-load-curve-fy2024-25": "Nepal Peak Load Curve FY 2024/25",
+    "data-nepal-solar-resource-zones": "Nepal Solar Resource Zones",
     "data-pipeline-readme": "Data Pipeline Readme",
     "data-potential-pyramid": "Hydropower Potential Pyramid",
+    "data-rooftop-shs-deployment": "Rooftop and Solar Home System Deployment",
+    "data-solar-fleet-inventory": "Solar Fleet Inventory",
+    "data-solar-hydro-complementarity-profile": "Solar\u2013Hydro Complementarity Profile",
+    "data-solar-hydro-lcoe": "Solar and Hydro LCOE",
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series"
   },
-  "totalPages": 214
+  "totalPages": 247
 }

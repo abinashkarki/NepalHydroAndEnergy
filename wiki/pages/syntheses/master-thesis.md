@@ -2,7 +2,7 @@
 title: Master Thesis
 type: synthesis
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-24
 sources: []
 tags: [thesis, synthesis, core-argument]
 ---
@@ -13,7 +13,7 @@ The central argument of the Nepal Energy & Hydropower research, supported by all
 
 ## The Thesis
 
-**Nepal is not failing because it lacks hydropower potential. It is failing to convert hydrological advantage into firm, deliverable, resilient, financeable, politically executable power.**
+**Nepal is not failing because it lacks hydropower potential. It is failing to convert hydrological advantage - and now cheap solar complementarity - into firm, deliverable, resilient, financeable, politically executable power.**
 
 See [[claim-systems-conversion-failure]].
 
@@ -24,11 +24,12 @@ The conversion failure is not one bottleneck. It is a stack:
 1. **[[seasonal-mismatch]]** — 75%+ of water in four months; hydrology delivers a monsoon pulse, not year-round firm power
 2. **[[run-of-river-hydropower]]** — fleet is >90% RoR/PRoR; structurally produces wet-season surplus and dry-season weakness
 3. **[[storage-deficit]]** — 5 m³/capita vs global average 900; the country cannot hold and regulate its water
-4. **[[sediment-as-design-constraint]]** and climate penalties — the Himalayas are young, active, and abrasive
-5. **[[buildability]]** — brutal terrain, geology, access, and execution constraints
-6. **[[stranded-generation]]** — grid and transmission built slower than generation
-7. **[[seasonal-arbitrage-trap]]** — selling cheap monsoon, buying expensive winter; value destroyed by timing
-8. **[[hydro-geopolitics]]** and governance — corridor dependence on India, institutional fragmentation, political churn
+4. **[[solar-hydro-complementarity]]** — solar is the first scalable resource whose seasonal profile helps rather than worsens the dry-season problem
+5. **[[sediment-as-design-constraint]]** and climate penalties — the Himalayas are young, active, and abrasive
+6. **[[buildability]]** — brutal terrain, geology, access, and execution constraints
+7. **[[stranded-generation]]** — grid and transmission built slower than generation, now including solar interconnection readiness
+8. **[[seasonal-arbitrage-trap]]** — selling cheap monsoon, buying expensive winter; value destroyed by timing
+9. **[[hydro-geopolitics]]** and governance — corridor dependence on India, institutional fragmentation, political churn
 
 ## What the Thesis Is Not
 
@@ -39,7 +40,7 @@ The conversion failure is not one bottleneck. It is a stack:
 
 ## The Strategic Prescription
 
-**[[domestic-led-hydro-strategy]]** — build for domestic dry-season reliability and productive demand first, use exports to monetize surplus. Grounded in storage, transmission, demand shaping, and institutional repair. Not in headline MW worship.
+**[[domestic-led-hydro-strategy]]** plus [[solar-in-the-master-narrative]] — build for domestic dry-season reliability and productive demand first, use exports to monetize surplus. Grounded in storage, solar, BESS, transmission, demand shaping, and institutional repair. Not in headline MW worship.
 
 ## Supporting Evidence
 
@@ -48,6 +49,8 @@ The conversion failure is not one bottleneck. It is a stack:
 - [[data-potential-pyramid]] — the 83,000 to 3,591 reduction
 - [[data-storage-comparison]] — the storage gap in numbers
 - [[data-trade-time-series]] — the seasonal trade pattern
+- [[solar-role-in-winter-deficit]] — why solar is now a core winter-deficit lever
+- [[claim-solar-cheaper-than-small-hydro]] — the new marginal-cost benchmark
 
 ## Framing Lines for Video Essay
 

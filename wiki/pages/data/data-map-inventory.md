@@ -2,7 +2,7 @@
 title: Map Inventory
 type: data
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-24
 figure_type: map-spec
 sources: [wecs-river-basin-plan-2024, nea-annual-report-fy2024-25]
 tags: [maps, geojson, layers, inventory, multimodal]
@@ -37,6 +37,10 @@ Catalog of the merged map stack imported from the code workspace. This page is t
 | Origin/control callouts | [river_influence_callouts.geojson](../../assets/maps/layers/river_influence_callouts.geojson) | 8 | Basin-level interpretive labels and Nepal-share metadata |
 | Downstream hydrology markers | [downstream_hydrology_markers.geojson](../../assets/maps/layers/downstream_hydrology_markers.geojson) | 4 | Discharge / monsoon-share marker points for main downstream systems |
 | Nepal outline | [nepal_country_outline.geojson](../../assets/maps/layers/nepal_country_outline.geojson) | 1 | Base national boundary geometry |
+| Solar GHI zones | `data/processed/maps/solar_ghi_zones.geojson` | 6 | Coarse resource-zone polygons from ESMAP / Global Solar Atlas interpretation |
+| Solar plants and tender nodes | `data/processed/maps/solar_plants.geojson` | curated | Operating DoED plants plus NEA 960 MW LoI tender anchors |
+| Solar suitability zones | `data/processed/maps/solar_suitability.geojson` | 6 | Strategic suitability bands, not parcel screening |
+| Floating PV candidates | `data/processed/maps/floating_pv_candidates.geojson` | 5+ | Reservoir / future-reservoir candidates with explicit confidence fields |
 
 ## Coverage Notes
 
@@ -52,6 +56,7 @@ Catalog of the merged map stack imported from the code workspace. This page is t
 - Exact OSM linework was **not** recovered for **West Seti River**, **Chameliya River**, and **West Rapti River**; they are flagged in the fetch report rather than invented.
 - No transmission-corridor layer exists yet for the seven segments documented in [[claim-transmission-immediate-blocker]].
 - No cross-border interconnection-point layer yet exists for Dhalkebar-Muzaffarpur, New Butwal-Gorakhpur, or other trade chokepoints.
+- Solar layers are curated evidence layers, not engineering-grade GIS. Exact-looking points are used only where DoED coordinates exist; tender markers use substation or district anchors with `precision_label` and `location_basis`.
 
 ## Next Annotation Layers
 
@@ -63,6 +68,7 @@ These are the clearest upgrades if the map stack is pushed further toward infogr
 - **Sediment / GLOF hazard markers** for [[koshi-basin]] and key Gandaki corridors
 - **Basin popup sparklines** showing monsoon vs dry share directly inside the map
 - **System-scale Ganges contribution arrows** to reinforce [[ganges-contribution]]
+- **Solar system preset** tying [[data-nepal-solar-resource-zones]], [[data-solar-fleet-inventory]], [[nea-960mw-solar-tender]], and [[claim-floating-pv-leverage]] to the explorer
 
 ## Related
 
@@ -71,3 +77,6 @@ These are the clearest upgrades if the map stack is pushed further toward infogr
 - [[karnali-basin]]
 - [[mahakali-basin]]
 - [[claim-transmission-immediate-blocker]]
+- [[data-nepal-solar-resource-zones]]
+- [[data-solar-fleet-inventory]]
+- [[claim-floating-pv-leverage]]
