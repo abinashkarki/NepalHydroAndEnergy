@@ -35,6 +35,7 @@ build/
 # Playwright / browser testing artifacts
 # ==========================================================================
 .playwright-cli/
+output/
 test-results/
 playwright-report/
 
@@ -42,6 +43,8 @@ playwright-report/
 # Scratch / derived intermediates (regenerate on demand)
 # ==========================================================================
 tmp/
+wiki/explorer/shots/
+*.404-stub.bak
 
 # ==========================================================================
 # Heavy raw data — re-download from original sources.
