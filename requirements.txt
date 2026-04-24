@@ -1,0 +1,9 @@
+folium
+matplotlib
+pandas
+Pillow
+PyMuPDF
+pypdf
+pyshp
+requests
+shapely
