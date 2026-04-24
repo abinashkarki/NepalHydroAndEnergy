@@ -2,14 +2,14 @@
 title: Domestic-Led Hydro Strategy
 type: concept
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-24
 sources: [wb-country-economic-memo-2025, wecs-energy-synopsis-2024, adb-hydropower-growth-nepal]
 tags: [strategy, demand, industrial-policy, electrification, nepal, hydro]
 ---
 
 # Domestic-Led Hydro Strategy
 
-**Domestic-led hydro** means planning the power system around **Nepal's own load growth, reliability, and productivity** — using exports to **monetize surplus**, not to **define the investment program**. It is the inverse of an **export-first** model that treats the domestic grid as a **residual sink** for whatever capacity IPPs can sell abroad.
+**Domestic-led hydro** means planning the power system around **Nepal's own load growth, reliability, and productivity** — using exports to **monetize surplus**, not to **define the investment program**. After the solar audit, the better operational phrase is **domestic-led power strategy with a hydro backbone**: hydropower remains central, but [[solar-hydro-complementarity]], BESS, and demand shaping now belong inside the strategy rather than beside it.
 
 ## The consensus across analytical lines
 
@@ -42,10 +42,14 @@ Nepal is improving its exchange-linked value capture: the IEX price spread flipp
 
 When surplus is structural in the monsoon, **domestic absorption** can be engineered — not only through wires but through **electrolysis and ammonia**. [[green-hydrogen-nepal]] is the most ambitious demand-creation path: it turns **seasonal glut** into **chemical industry and food security inputs** instead of **low-priced spill**.
 
+Solar adds a second supply-side innovation: it lets Nepal build dry-season daytime energy on a short cycle while reservoir hydro moves slowly through buildability and finance constraints. The domestic strategy should therefore treat [[nea-960mw-solar-tender]] as a bridge, not a distraction: solar buys time for storage hydro, and storage hydro makes solar useful after sunset.
+
 ## Related
 
 - [[data-domestic-demand]] — demand distribution data, cooking gap, load profile
 - [[seasonal-arbitrage-trap]] — the cost of not building domestic demand
 - [[stranded-generation]] — monsoon surplus that domestic load could absorb
 - [[green-hydrogen-nepal]] — industrial-scale demand from surplus
+- [[solar-in-the-master-narrative]] — how solar changes the strategy without replacing hydro
+- [[claim-solar-terai-only-short-cycle-build]] — why solar is the short-cycle bridge
 - [[twenty-year-strategy]] — how demand-building fits the phased strategy

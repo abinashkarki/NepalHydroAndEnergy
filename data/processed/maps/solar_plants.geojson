@@ -1,0 +1,2294 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "solar_energy_lalitpur",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Solar Energy",
+        "label_subtitle": "0.68 MW · operating",
+        "capacity_mw": 0.68,
+        "district": "Lalitpur",
+        "owner": "Kathmandu Upatyaka Khanepani Byawasthapan Board",
+        "tariff_npr_kwh": null,
+        "confidence": "low",
+        "precision_label": "municipality anchor",
+        "location_basis": "DoED table has zero coordinates; municipality anchor at Bungamati/Lalitpur",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3,
+          27.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bishnu_priya_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Bishnu Priya Solar Farm Project",
+        "label_subtitle": "1 MW · operating",
+        "capacity_mw": 1,
+        "district": "Nawalparasi",
+        "owner": "Surya Power Company P. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6869,
+          27.5556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "butwal_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Grid-Connected Solar Power Project, Butwal 33 kV S/S",
+        "label_subtitle": "8.5 MW · operating",
+        "capacity_mw": 8.5,
+        "district": "Rupandehi",
+        "owner": "Ridi Power Company Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4539,
+          27.6319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nuwakot_block_1",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Block No 1 Solar Farms Project",
+        "label_subtitle": "5.1 MW · operating",
+        "capacity_mw": 5.1,
+        "district": "Nuwakot",
+        "owner": "Nepal Electricity Authority",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1261,
+          27.8837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nuwakot_block_2",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Block No 2 Solar Farms Project",
+        "label_subtitle": "8.3 MW · operating",
+        "capacity_mw": 8.3,
+        "district": "Nuwakot",
+        "owner": "Nepal Electricity Authority",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1393,
+          27.8928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bel_chautara_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Bel Chautara Solar Farm Project",
+        "label_subtitle": "5 MW · operating",
+        "capacity_mw": 5,
+        "district": "Tanahu",
+        "owner": "Solar Farm Pvt. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0828,
+          28.0328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mithila_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Mithila Solar PV Power Project, Dhanusa",
+        "label_subtitle": "10 MW · operating",
+        "capacity_mw": 10,
+        "district": "Dhanusha",
+        "owner": "Eco Power Development Pvt. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.9431,
+          26.9361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "som_radha_krishna",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Som Radha Krishna Solar Farm Project",
+        "label_subtitle": "4.4 MW · operating",
+        "capacity_mw": 4.4,
+        "district": "Kaski",
+        "owner": "Nepal Solar Farm Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1297,
+          28.1496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pratappur_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Solar PV Pratappur",
+        "label_subtitle": "5 MW · operating",
+        "capacity_mw": 5,
+        "district": "Nawalparasi",
+        "owner": "National Solar Power Company Pvt. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8133,
+          27.4144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chandranigahpur_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Chandranigahpur Solar Project",
+        "label_subtitle": "4 MW · operating",
+        "capacity_mw": 4,
+        "district": "Rautahat",
+        "owner": "Api Power Company Pvt. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3744,
+          27.1211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nuwakot_block_4",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Grid Connected Solar Project Block 4, Nuwakot",
+        "label_subtitle": "1.37 MW · operating",
+        "capacity_mw": 1.37,
+        "district": "Nuwakot",
+        "owner": "Nepal Electricity Authority",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1361,
+          27.9099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dhalkebar_solar_3mw",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S",
+        "label_subtitle": "3 MW · operating",
+        "capacity_mw": 3,
+        "district": "Dhanusha",
+        "owner": "Sagarmatha Energy & Construction Pvt. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.9846,
+          26.9329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ramgram_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Grid Connected Solar PV Project, Ramgram",
+        "label_subtitle": "2 MW · operating",
+        "capacity_mw": 2,
+        "district": "Nawalparasi",
+        "owner": "Saurya Bidhyut Power Pvt. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6917,
+          27.5549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "morang_utility_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Utility Scale Solar PV, Grid Connected Solar Project, Morang",
+        "label_subtitle": "6.8 MW · operating",
+        "capacity_mw": 6.8,
+        "district": "Morang",
+        "owner": "G I Solar Pvt. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.2913,
+          26.5517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "banke_block_2",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Solar PV Project Banke, block-2",
+        "label_subtitle": "10 MW · operating",
+        "capacity_mw": 10,
+        "district": "Banke",
+        "owner": "Pure Energy Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5833,
+          28.1583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "raniyapur_block_1",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Solar PV Project, Raniyapur, Block 1",
+        "label_subtitle": "10 MW · operating",
+        "capacity_mw": 10,
+        "district": "Banke",
+        "owner": "Pure Energy Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5927,
+          28.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dhalkebar_solar_1mw",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Solar Power Project, Dhalkebar 11 kV S/S",
+        "label_subtitle": "1 MW · operating",
+        "capacity_mw": 1,
+        "district": "Dhanusha",
+        "owner": "Api Power Company Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.9464,
+          26.9242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "simara_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Solar Power Project, Simara 11 kV S/S",
+        "label_subtitle": "1 MW · operating",
+        "capacity_mw": 1,
+        "district": "Bara",
+        "owner": "Api Power Company Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0128,
+          27.1507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dharamnagar_solar",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Dharamnagar Solar Farm Project",
+        "label_subtitle": "10 MW · operating",
+        "capacity_mw": 10,
+        "district": "Kapilbastu",
+        "owner": "Pashupati Renewables Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8487,
+          27.6196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nuwakot_grid_tied",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Grid Tied Solar Farm Project",
+        "label_subtitle": "3.09 MW · operating",
+        "capacity_mw": 3.09,
+        "district": "Nuwakot",
+        "owner": "Nepal Electricity Authority",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1321,
+          27.887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nuwakot_block_5",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Grid Tied Solar Farm Project Block No. 5",
+        "label_subtitle": "6.5 MW · operating",
+        "capacity_mw": 6.5,
+        "district": "Nuwakot",
+        "owner": "Nepal Electricity Authority",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1406,
+          27.9049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "shivasatakshi_jhapa",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Grid Connected Solar Project, Shivasatakshi Jhapa",
+        "label_subtitle": "10 MW · operating",
+        "capacity_mw": 10,
+        "district": "Jhapa",
+        "owner": "Jhapa Energy Limited",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.801,
+          26.5493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jira_bhawani_sedawa",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Jira Bhawani Sedawa PV Project",
+        "label_subtitle": "7.7 MW · operating",
+        "capacity_mw": 7.7,
+        "district": "Parsa",
+        "owner": "Tarai Solar Pvt. Ltd.",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.7269,
+          27.2014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dharamnagar_solar_ii",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "Dharamnagar Solar Farm Project - II Kapilbastu",
+        "label_subtitle": "15 MW · operating",
+        "capacity_mw": 15,
+        "district": "Kapilbastu",
+        "owner": "Pashupati Renewables Private Limited",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8507,
+          27.622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ddb_saurya",
+        "theme": "solar_plants",
+        "status": "Operating",
+        "label_title": "DDB Saurya Vidyut Aayojana",
+        "label_subtitle": "2.3 MW · operating",
+        "capacity_mw": 2.3,
+        "district": "Parsa",
+        "owner": "Tarai Energy Private Limited",
+        "tariff_npr_kwh": null,
+        "confidence": "high",
+        "precision_label": "DoED coordinate midpoint",
+        "location_basis": "DoED operating solar table coordinate midpoint",
+        "source_note": "DoED Power Plants :: Solar table, updated Mar 29 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.7269,
+          27.2036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_01",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Rakathum solar award",
+        "label_subtitle": "10 MW · NPR 4.99/kWh",
+        "bidder": "Annapurna Clean Energy Pvt Ltd",
+        "substation": "Rakathum",
+        "district": "Ramechhap",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 4.99,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.03,
+          27.384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_02",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Sangutar solar award",
+        "label_subtitle": "5 MW · NPR 5/kWh",
+        "bidder": "Annapurna Clean Energy Pvt Ltd",
+        "substation": "Sangutar",
+        "district": "Ramechhap",
+        "capacity_mw": 5,
+        "tariff_npr_kwh": 5,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.05499999999999,
+          27.384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_03",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Aurahi solar award",
+        "label_subtitle": "5 MW · NPR 5.21/kWh",
+        "bidder": "Sun Light Renewable Energy Private Limited",
+        "substation": "Aurahi",
+        "district": "Mahottari",
+        "capacity_mw": 5,
+        "tariff_npr_kwh": 5.21,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.88,
+          26.944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_04",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Khungri solar award",
+        "label_subtitle": "50 MW · NPR 5.21/kWh",
+        "bidder": "Rapti Urja Pvt. Ltd.",
+        "substation": "Khungri",
+        "district": "Rolpa",
+        "capacity_mw": 50,
+        "tariff_npr_kwh": 5.21,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.805,
+          28.144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_05",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Bardibas solar award",
+        "label_subtitle": "9.5 MW · NPR 5.24/kWh",
+        "bidder": "Kushal Projects Nepal Pvt. Ltd.",
+        "substation": "Bardibas",
+        "district": "Mahottari",
+        "capacity_mw": 9.5,
+        "tariff_npr_kwh": 5.24,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.92999999999999,
+          26.944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_06",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Maulapur solar award",
+        "label_subtitle": "4.5 MW · NPR 5.27/kWh",
+        "bidder": "Sun Light Renewable Energy Private Limited",
+        "substation": "Maulapur",
+        "district": "Rautahat",
+        "capacity_mw": 4.5,
+        "tariff_npr_kwh": 5.27,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3,
+          26.932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_07",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Pokhariya solar award",
+        "label_subtitle": "10 MW · NPR 5.28/kWh",
+        "bidder": "Methi Solar JV",
+        "substation": "Pokhariya",
+        "district": "Parsa",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.28,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.79499999999999,
+          27.082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_08",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Gadhawa solar award",
+        "label_subtitle": "1 MW · NPR 5.3/kWh",
+        "bidder": "J.B.N. Surya Urja Private Limited",
+        "substation": "Gadhawa",
+        "district": "Dang",
+        "capacity_mw": 1,
+        "tariff_npr_kwh": 5.3,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.42,
+          28.012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_09",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Manpur solar award",
+        "label_subtitle": "5 MW · NPR 5.31/kWh",
+        "bidder": "Sun Light Renewable Energy Private Limited",
+        "substation": "Manpur",
+        "district": "Rautahat",
+        "capacity_mw": 5,
+        "tariff_npr_kwh": 5.31,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.375,
+          26.932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_10",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Palpa/Batasa solar award",
+        "label_subtitle": "10 MW · NPR 5.37/kWh",
+        "bidder": "Bhusal Investment Pvt Ltd",
+        "substation": "Palpa/Batasa",
+        "district": "Palpa",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.37,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6,
+          27.842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_11",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Dhangadhi solar award",
+        "label_subtitle": "15 MW · NPR 5.38/kWh",
+        "bidder": "Golyan Power - Pure Energy JV",
+        "substation": "Dhangadhi",
+        "district": "Kailali",
+        "capacity_mw": 15,
+        "tariff_npr_kwh": 5.38,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.55,
+          28.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_12",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Kolabhi solar award",
+        "label_subtitle": "10 MW · NPR 5.38/kWh",
+        "bidder": "Methi Solar JV",
+        "substation": "Kolabhi",
+        "district": "Bara",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.38,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.02499999999999,
+          27.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_13",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "New Nepalgunj solar award",
+        "label_subtitle": "30 MW · NPR 5.38/kWh",
+        "bidder": "Golyan Power - Pure Energy JV",
+        "substation": "New Nepalgunj",
+        "district": "Banke",
+        "capacity_mw": 30,
+        "tariff_npr_kwh": 5.38,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.62,
+          28.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_14",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Dhalkebar solar award",
+        "label_subtitle": "30 MW · NPR 5.39/kWh",
+        "bidder": "Asian Hydropower Ltd",
+        "substation": "Dhalkebar",
+        "district": "Dhanusha",
+        "capacity_mw": 30,
+        "tariff_npr_kwh": 5.39,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.97500000000001,
+          26.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_15",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Sunawal solar award",
+        "label_subtitle": "50 MW · NPR 5.39/kWh",
+        "bidder": "Gogreen Energy Pvt. Ltd.",
+        "substation": "Sunawal",
+        "district": "Nawalparasi",
+        "capacity_mw": 50,
+        "tariff_npr_kwh": 5.39,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.78,
+          27.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_16",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Dhalkebar solar award",
+        "label_subtitle": "20 MW · NPR 5.4/kWh",
+        "bidder": "Terra Sol Energy Company Private Limited",
+        "substation": "Dhalkebar",
+        "district": "Dhanusha",
+        "capacity_mw": 20,
+        "tariff_npr_kwh": 5.4,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.9,
+          26.918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_17",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Kushaha solar award",
+        "label_subtitle": "50 MW · NPR 5.4/kWh",
+        "bidder": "Solaeris Energy Private Limited",
+        "substation": "Kushaha",
+        "district": "Sunsari",
+        "capacity_mw": 50,
+        "tariff_npr_kwh": 5.4,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.13499999999999,
+          26.668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_18",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Syaule solar award",
+        "label_subtitle": "10 MW · NPR 5.4/kWh",
+        "bidder": "TDR-Natural Energy-Nature Energy",
+        "substation": "Syaule",
+        "district": "Dadeldhura",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.4,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.58,
+          29.318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_19",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Aurahi solar award",
+        "label_subtitle": "5 MW · NPR 5.41/kWh",
+        "bidder": "Eco Global Power Development Private Limited",
+        "substation": "Aurahi",
+        "district": "Mahottari",
+        "capacity_mw": 5,
+        "tariff_npr_kwh": 5.41,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.905,
+          26.998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_20",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Birendrabazzar solar award",
+        "label_subtitle": "9.5 MW · NPR 5.41/kWh",
+        "bidder": "Eco Global Power Development Private Limited",
+        "substation": "Birendrabazzar",
+        "district": "Dhanusha",
+        "capacity_mw": 9.5,
+        "tariff_npr_kwh": 5.41,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86,
+          26.918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_21",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Dhanusha Dham solar award",
+        "label_subtitle": "9.5 MW · NPR 5.41/kWh",
+        "bidder": "Eco Global Power Development Private Limited",
+        "substation": "Dhanusha Dham",
+        "district": "Dhanusha",
+        "capacity_mw": 9.5,
+        "tariff_npr_kwh": 5.41,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.9,
+          26.936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_22",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Bhurigaon solar award",
+        "label_subtitle": "25 MW · NPR 5.42/kWh",
+        "bidder": "Golyan Power - Pure Energy JV",
+        "substation": "Bhurigaon",
+        "district": "Bardiya",
+        "capacity_mw": 25,
+        "tariff_npr_kwh": 5.42,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.375,
+          28.436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_23",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Chanauta solar award",
+        "label_subtitle": "10 MW · NPR 5.42/kWh",
+        "bidder": "Positive Energy Pvt. Ltd.",
+        "substation": "Chanauta",
+        "district": "Kapilvastu",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.42,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9,
+          27.656000000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_24",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Chanauta solar award",
+        "label_subtitle": "10 MW · NPR 5.42/kWh",
+        "bidder": "Positive Energy Pvt. Ltd.",
+        "substation": "Chanauta",
+        "district": "Kapilvastu",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.42,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.92500000000001,
+          27.656000000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_25",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Lahan solar award",
+        "label_subtitle": "10 MW · NPR 5.42/kWh",
+        "bidder": "Helio Spark Energy Private Limited",
+        "substation": "Lahan",
+        "district": "Siraha",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.42,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.39999999999999,
+          26.786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_26",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Nawalpur solar award",
+        "label_subtitle": "10 MW · NPR 5.42/kWh",
+        "bidder": "Helio Spark Energy Private Limited",
+        "substation": "Nawalpur",
+        "district": "Sarlahi",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.42,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5,
+          26.913999999999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_27",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "New Butwal solar award",
+        "label_subtitle": "15 MW · NPR 5.42/kWh",
+        "bidder": "Golyan Power - Pure Energy JV",
+        "substation": "New Butwal",
+        "district": "Nawalparasi",
+        "capacity_mw": 15,
+        "tariff_npr_kwh": 5.42,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.705,
+          27.514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_28",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Lamahi solar award",
+        "label_subtitle": "30 MW · NPR 5.44/kWh",
+        "bidder": "Gogreen Energy Pvt. Ltd.",
+        "substation": "Lamahi",
+        "district": "Dang",
+        "capacity_mw": 30,
+        "tariff_npr_kwh": 5.44,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.42,
+          27.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_29",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Nawalpur solar award",
+        "label_subtitle": "10 MW · NPR 5.45/kWh",
+        "bidder": "Eco Gham Power Company Pvt. Ltd.",
+        "substation": "Nawalpur",
+        "district": "Sarlahi",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.45,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.575,
+          26.913999999999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_30",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Haripur solar award",
+        "label_subtitle": "10 MW · NPR 5.47/kWh",
+        "bidder": "Asian Hydropower Ltd",
+        "substation": "Haripur",
+        "district": "Sarlahi",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.47,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.6,
+          26.913999999999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_31",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Gandak solar award",
+        "label_subtitle": "25 MW · NPR 5.49/kWh",
+        "bidder": "Mountain-Dordi Consortium",
+        "substation": "Gandak",
+        "district": "Nawalparasi",
+        "capacity_mw": 25,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.68,
+          27.532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_32",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Barju solar award",
+        "label_subtitle": "20 MW · NPR 5.49/kWh",
+        "bidder": "Pashupati Energy Pvt. Ltd.",
+        "substation": "Barju",
+        "district": "Sunsari",
+        "capacity_mw": 20,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.13499999999999,
+          26.631999999999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_33",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Markichowk solar award",
+        "label_subtitle": "20 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Markichowk",
+        "district": "Tanahu",
+        "capacity_mw": 20,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.18,
+          27.942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_34",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Paudi solar award",
+        "label_subtitle": "20 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Paudi",
+        "district": "Gulmi",
+        "capacity_mw": 20,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.275,
+          28.061999999999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_35",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Sandikharka solar award",
+        "label_subtitle": "20 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Sandikharka",
+        "district": "Arghakhanchi",
+        "capacity_mw": 20,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.17,
+          27.912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_36",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Burtibang solar award",
+        "label_subtitle": "20 MW · NPR 5.49/kWh",
+        "bidder": "Mountain-Dordi Consortium",
+        "substation": "Burtibang",
+        "district": "Baglung",
+        "capacity_mw": 20,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.53,
+          28.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_37",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Kushma solar award",
+        "label_subtitle": "20 MW · NPR 5.49/kWh",
+        "bidder": "Mountain-Dordi Consortium",
+        "substation": "Kushma",
+        "district": "Parbat",
+        "capacity_mw": 20,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.655,
+          28.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_38",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Sitalpati solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "Himalayan Solar Power Pvt. Ltd.",
+        "substation": "Sitalpati",
+        "district": "Sankhuwasabha",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.27,
+          27.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_39",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Chanauta solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Chanauta",
+        "district": "Kapilvastu",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.92500000000001,
+          27.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_40",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Gulariya solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Gulariya",
+        "district": "Bardiya",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.45,
+          28.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_41",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Hapure solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Hapure",
+        "district": "Dang",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.37,
+          28.048000000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_42",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Machhagad solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Machhagad",
+        "district": "Bardiya",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.375,
+          28.418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_43",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "New Nepalgunj solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "New Nepalgunj",
+        "district": "Banke",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.62,
+          28.068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_44",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Taulihawa solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Taulihawa",
+        "district": "Kapilvastu",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.92500000000001,
+          27.638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_45",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Gorusinge solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "Mountain-Dordi Consortium",
+        "substation": "Gorusinge",
+        "district": "Kapilvastu",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.95,
+          27.638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_46",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Krishnanagar solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "Mountain-Dordi Consortium",
+        "substation": "Krishnanagar",
+        "district": "Kapilvastu",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.85000000000001,
+          27.656000000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_47",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Kusum solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "Mountain-Dordi Consortium",
+        "substation": "Kusum",
+        "district": "Banke",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.595,
+          28.086000000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_48",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Mainapokhar solar award",
+        "label_subtitle": "10 MW · NPR 5.49/kWh",
+        "bidder": "Mountain-Dordi Consortium",
+        "substation": "Mainapokhar",
+        "district": "Bardiya",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.4,
+          28.436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_49",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Maharajgunj solar award",
+        "label_subtitle": "5 MW · NPR 5.49/kWh",
+        "bidder": "GEPPERT-RAPTI Consortium",
+        "substation": "Maharajgunj",
+        "district": "Kapilvastu",
+        "capacity_mw": 5,
+        "tariff_npr_kwh": 5.49,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.92500000000001,
+          27.656000000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_50",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Mainahiya solar award",
+        "label_subtitle": "40 MW · NPR 5.5/kWh",
+        "bidder": "Solar Farm Ltd.",
+        "substation": "Mainahiya",
+        "district": "Rupandehi",
+        "capacity_mw": 40,
+        "tariff_npr_kwh": 5.5,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.5,
+          27.636000000000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_51",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Motipur solar award",
+        "label_subtitle": "30 MW · NPR 5.5/kWh",
+        "bidder": "Solar Farm Ltd.",
+        "substation": "Motipur",
+        "district": "Kapilvastu",
+        "capacity_mw": 30,
+        "tariff_npr_kwh": 5.5,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.85000000000001,
+          27.584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_52",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Barju solar award",
+        "label_subtitle": "25 MW · NPR 5.51/kWh",
+        "bidder": "Anand Solar Pvt. Ltd.",
+        "substation": "Barju",
+        "district": "Sunsari",
+        "capacity_mw": 25,
+        "tariff_npr_kwh": 5.51,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.13499999999999,
+          26.613999999999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_53",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Mukundapur solar award",
+        "label_subtitle": "10 MW · NPR 5.51/kWh",
+        "bidder": "Kalika Sun Light Power Pvt Ltd.",
+        "substation": "Mukundapur",
+        "district": "Nawalpur",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.51,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.05,
+          27.644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_54",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "New Nepalgunj solar award",
+        "label_subtitle": "5 MW · NPR 5.51/kWh",
+        "bidder": "Kalika Sun Power Pvt. Ltd.",
+        "substation": "New Nepalgunj",
+        "district": "Banke",
+        "capacity_mw": 5,
+        "tariff_npr_kwh": 5.51,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.64500000000001,
+          28.014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_55",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Parasi solar award",
+        "label_subtitle": "15 MW · NPR 5.51/kWh",
+        "bidder": "Golyan Power - Pure Energy JV",
+        "substation": "Parasi",
+        "district": "Nawalparasi",
+        "capacity_mw": 15,
+        "tariff_npr_kwh": 5.51,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.78,
+          27.514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_56",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Baniyani solar award",
+        "label_subtitle": "9.5 MW · NPR 5.52/kWh",
+        "bidder": "Eco sun power development Pvt. Ltd.",
+        "substation": "Baniyani",
+        "district": "Jhapa",
+        "capacity_mw": 9.5,
+        "tariff_npr_kwh": 5.52,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.8,
+          26.532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_57",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Belauri solar award",
+        "label_subtitle": "9 MW · NPR 5.52/kWh",
+        "bidder": "Eco sun power development Pvt. Ltd.",
+        "substation": "Belauri",
+        "district": "Kanchanpur",
+        "capacity_mw": 9,
+        "tariff_npr_kwh": 5.52,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.225,
+          28.822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_58",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Dhulabari solar award",
+        "label_subtitle": "9.5 MW · NPR 5.52/kWh",
+        "bidder": "Eco sun power development Pvt. Ltd.",
+        "substation": "Dhulabari",
+        "district": "Jhapa",
+        "capacity_mw": 9.5,
+        "tariff_npr_kwh": 5.52,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.85,
+          26.532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_59",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Lahan solar award",
+        "label_subtitle": "10 MW · NPR 5.52/kWh",
+        "bidder": "Eco sun power development Pvt. Ltd.",
+        "substation": "Lahan",
+        "district": "Siraha",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.52,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.375,
+          26.732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_60",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Chandrapur solar award",
+        "label_subtitle": "10 MW · NPR 5.53/kWh",
+        "bidder": "Baidehi Energy Pvt. Ltd.",
+        "substation": "Chandrapur",
+        "district": "Rautahat",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.53,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.39999999999999,
+          26.932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_61",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Loharpatti solar award",
+        "label_subtitle": "20 MW · NPR 5.54/kWh",
+        "bidder": "Kantipur Energy Investment and Construction Pvt Ltd",
+        "substation": "Loharpatti",
+        "district": "Mahottari",
+        "capacity_mw": 20,
+        "tariff_npr_kwh": 5.54,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.83,
+          26.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_62",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Simaraungadh solar award",
+        "label_subtitle": "10 MW · NPR 5.54/kWh",
+        "bidder": "Methi Solar JV",
+        "substation": "Simaraungadh",
+        "district": "Bara",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.54,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.02499999999999,
+          27.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_63",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Tumlingtar solar award",
+        "label_subtitle": "10 MW · NPR 5.54/kWh",
+        "bidder": "Himalayan Solar Power Pvt. Ltd.",
+        "substation": "Tumlingtar",
+        "district": "Sankhuwasabha",
+        "capacity_mw": 10,
+        "tariff_npr_kwh": 5.54,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.27,
+          27.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nea_960mw_loi_64",
+        "theme": "solar_plants",
+        "status": "Tender award / pre-PPA",
+        "label_title": "Ghorahi solar award",
+        "label_subtitle": "8 MW · NPR 5.55/kWh",
+        "bidder": "Sanvi Energy Limited",
+        "substation": "Ghorahi",
+        "district": "Dang",
+        "capacity_mw": 8,
+        "tariff_npr_kwh": 5.55,
+        "confidence": "low-medium",
+        "precision_label": "District/substation anchor, not parcel coordinate",
+        "location_basis": "NEA LoI row geocoded to named district or substation anchor with jitter for display",
+        "source_note": "NEA Notice of Intent to Award Solar Projects, Nov 11 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.44500000000001,
+          28.03
+        ]
+      }
+    }
+  ]
+}

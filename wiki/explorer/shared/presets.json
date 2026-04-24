@@ -69,6 +69,24 @@
       "bounds": [[25.4, 80.5], [30.6, 88.6]]
     },
 
+    "solar_system": {
+      "label": "Solar system",
+      "short": "Solar",
+      "subtitle": "GHI zones, plants, tender awards, suitability, floating PV",
+      "description": "Curated solar evidence layers: coarse GHI zones, strategic suitability bands, operating DoED solar plants, NEA's 960 MW tender-award anchors, floating-PV candidates, storage shortlist, and the grid hubs needed to read interconnection pressure. Approximate geometries are labelled as such.",
+      "layers_on": [
+        "country_outline",
+        "transmission_traced",
+        "place_anchors",
+        "solar_ghi_zones",
+        "solar_suitability",
+        "solar_plants",
+        "floating_pv_candidates",
+        "storage_shortlist"
+      ],
+      "bounds": [[25.9, 79.8], [30.0, 88.4]]
+    },
+
     "wiki": {
       "label": "Wiki minimal",
       "short": "Minimal",

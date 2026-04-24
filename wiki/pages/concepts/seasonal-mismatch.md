@@ -2,7 +2,7 @@
 title: Seasonal Mismatch
 type: concept
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-24
 sources: [wecs-river-basin-plan-2024, wb-water-sector-diagnostic, nea-annual-report-fy2024-25]
 tags: [seasonality, monsoon, dry-season, grid, nepal, RoR, demand]
 ---
@@ -23,12 +23,14 @@ The result is a recurring annual pattern: **large monsoon surplus** paired with 
 
 Adding RoR capacity is not neutral: it increases energy when the system is already long, and it does little to change the **dry-season floor** unless accompanied by storage, diversified winter resources, or imports/exports that are **actually available** when domestic rivers are low. This is why debates about “potential MW” often miss the point captured in [[claim-timing-not-volume]]: **timing** can dominate **volume** in value.
 
+Solar changes this page's implication. It does not abolish the mismatch, but it attacks the dry-season daytime component directly: [[solar-hydro-complementarity]] shows why Nepal's clear winter sky is a physical complement to its weak winter river flow. The remaining hard problem is the evening peak, which is why solar must be paired with [[storage-deficit]]-class water storage, BESS, or demand shifting rather than sold as a stand-alone cure.
+
 ## Fixes are physical, financial, or institutional—often all three
 
 Only a small set of interventions change the mismatch itself rather than reshuffling who suffers it:
 
 - **Storage** that shifts water across seasons (Nepal’s gap is stark: [[storage-deficit]])
-- **Alternative winter sources** (imports, gas, solar+storage at scale, industrial demand response—each with constraints)
+- **Alternative winter sources** (imports, [[solar-hydro-complementarity|solar plus storage]], industrial demand response - each with constraints)
 - **Market and dispatch design** that prices scarcity and curtailment honestly—without pretending PRoR pondage is seasonal banking (see [[seasonal-arbitrage-trap]])
 
 Basin-scale discharge framing and indicators belong in [[data-basin-discharge]]. The analytical lens that separates “installed capacity” from what the system can *depend* on is [[firm-power]].

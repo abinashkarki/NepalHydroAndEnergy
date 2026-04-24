@@ -65,7 +65,7 @@ section · Limitations/Controversies · 2+ primary sources · 3+ inline
 - [x] wiki-loader renders grouped "Referenced by" footer with context
       snippets
 - [x] Chained into `gen_wiki_stubs.py --write` regeneration pipeline
-- [x] Code-span-aware scanner (skips `` `[[foo]]` `` in templates)
+- [x] Code-span-aware scanner (skips wikilink-like examples in templates)
 
 ### Step 5. Transmission corridor ↔ wiki bindings ✅
 

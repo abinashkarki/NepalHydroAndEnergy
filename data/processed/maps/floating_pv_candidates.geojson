@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fpv_kulekhani",
+        "theme": "floating_pv_candidates",
+        "label_title": "Kulekhani Reservoir",
+        "candidate_status": "near-term pilot candidate",
+        "capacity_band_mw": "10-100",
+        "confidence": "medium",
+        "precision_label": "Reservoir anchor",
+        "location_basis": "Operating storage reservoir vicinity",
+        "source_note": "NEA storage cascade plus floating-PV literature; candidate layer, not feasibility design"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.15,
+          27.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fpv_tanahu",
+        "theme": "floating_pv_candidates",
+        "label_title": "Tanahu reservoir",
+        "candidate_status": "conditional future reservoir",
+        "capacity_band_mw": "10-80",
+        "confidence": "low-medium",
+        "precision_label": "Project anchor",
+        "location_basis": "Under-construction storage project anchor from existing storage shortlist",
+        "source_note": "Conditional on reservoir completion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.18,
+          27.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fpv_budhigandaki",
+        "theme": "floating_pv_candidates",
+        "label_title": "Budhigandaki reservoir",
+        "candidate_status": "conditional future reservoir",
+        "capacity_band_mw": "50-300",
+        "confidence": "low",
+        "precision_label": "Project corridor anchor",
+        "location_basis": "Planned reservoir project approximate anchor",
+        "source_note": "Conditional on long-delayed reservoir execution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.86,
+          28.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fpv_dudhkoshi",
+        "theme": "floating_pv_candidates",
+        "label_title": "Dudhkoshi Storage reservoir",
+        "candidate_status": "conditional future reservoir",
+        "capacity_band_mw": "50-250",
+        "confidence": "low",
+        "precision_label": "Project anchor",
+        "location_basis": "Existing storage shortlist anchor",
+        "source_note": "Conditional on reservoir execution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.68125,
+          27.3714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fpv_nalsyau_gad",
+        "theme": "floating_pv_candidates",
+        "label_title": "Nalsyau Gad reservoir",
+        "candidate_status": "conditional future reservoir",
+        "capacity_band_mw": "20-120",
+        "confidence": "low",
+        "precision_label": "Project anchor",
+        "location_basis": "Existing storage shortlist anchor",
+        "source_note": "Conditional on storage project execution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.28958,
+          28.87792
+        ]
+      }
+    }
+  ]
+}
