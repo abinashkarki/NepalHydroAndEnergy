@@ -806,36 +806,6 @@
       display: none !important;
     }
 
-    /* Mode toggle — Circles | Badges — as a bottom-right Leaflet control */
-    .np-mode-control {
-      background: var(--panel);
-      border: 1px solid var(--rule);
-      box-shadow: var(--shadow);
-      border-radius: 6px;
-      padding: 2px;
-      display: flex;
-      gap: 3px;
-    }
-    .np-mode-control button {
-      border: 0;
-      background: transparent;
-      color: var(--ink-soft);
-      font: inherit;
-      font-size: 11px;
-      font-weight: 600;
-      padding: 4px 8px;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background 0.12s, color 0.12s;
-    }
-    .np-mode-control button.active {
-      background: var(--accent);
-      color: #fff;
-    }
-    .np-mode-control button:hover:not(.active) {
-      color: var(--ink);
-    }
-
     .leaflet-control-zoom a {
       text-decoration: none;
     }
@@ -868,10 +838,6 @@
       }
 
       .leaflet-control-zoom {
-        display: none;
-      }
-
-      .np-mode-control {
         display: none;
       }
     }
@@ -2013,7 +1979,7 @@
     (function () {
       const { makeMap, LayerManager, buildReverseIndex, loadJSON } = window.NepalExplorer;
 
-      let bindings, manifest, presetsCfg, lm, map, baseLayers, layerControl, labelsLayer, txLabelsLayer, modeControl, pageIndex, spatialSlugs, pageMeta, bm25, hydropowerSlugAliases;
+      let bindings, manifest, presetsCfg, lm, map, baseLayers, layerControl, labelsLayer, txLabelsLayer, pageIndex, spatialSlugs, pageMeta, bm25, hydropowerSlugAliases;
       let currentSlug = null;
       let currentPreset = null;
       let currentBaseLayer = "Carto Positron";
@@ -2025,7 +1991,6 @@
       let suppressUrlSync = false;
       let tourManifest = null;
       let tourState = { enabled: false, active: false, tourId: null, mode: "short", stepIndex: 0 };
-      let markerMode = localStorage.getItem("explorer.markerMode") || "badges";
 
       const ENTITY_SUB_ORDER = ["basins", "projects", "institutions", "geopolitics", "profiles", "other"];
       const ENTITY_SUB_LABEL = {
@@ -2790,20 +2755,6 @@
         if (!p) return;
         currentPreset = key;
         if (lm) lm.setPreset(key);
-        // Auto-switch marker mode per preset recommendation (brief §11)
-        const presetMarkerModes = {
-          tributaries: "circles",
-          wiki: "circles",
-        };
-        const recommendedMode = presetMarkerModes[key] || "badges";
-        if (markerMode !== recommendedMode) {
-          markerMode = recommendedMode;
-          localStorage.setItem("explorer.markerMode", recommendedMode);
-          lm.setMarkerMode(recommendedMode);
-          if (modeControl && modeControl._container) {
-            modeControl._container.querySelectorAll("button").forEach((b) => b.classList.toggle("active", b.dataset.mode === recommendedMode));
-          }
-        }
         document.querySelectorAll("#preset-bar button[data-preset]").forEach((b) => {
           b.classList.toggle("active", b.dataset.preset === key);
         });
@@ -3074,19 +3025,6 @@
         syncLayerPanel();
       }
 
-      window.setMarkerMode = function (mode) {
-        markerMode = mode;
-        localStorage.setItem("explorer.markerMode", mode);
-        if (modeControl && modeControl._container) {
-          modeControl._container.querySelectorAll("button").forEach((b) => b.classList.toggle("active", b.dataset.mode === mode));
-        }
-        if (lm) {
-          lm.setMarkerMode(mode);
-          lm.rebuildPointLayers().then(() => {
-            syncLayerPanel();
-          });
-        }
-      };
 
       // Strip kV suffix and normalize whitespace/case so the same corridor matches across layers.
       function normalizeCorridorName(s) {
@@ -3579,25 +3517,8 @@
           preset: currentPreset,
           basemap: currentBaseLayer,
         });
-        lm.setMarkerMode(markerMode);
+        lm.setMarkerMode("badges");
         lm.setBasemap(currentBaseLayer);
-
-        // Mode toggle — Circles | Badges — as a Leaflet control at bottom-right
-        {
-          const ModeToggle = L.Control.extend({
-            options: { position: "bottomright" },
-            onAdd: function() {
-              const div = L.DomUtil.create("div", "np-mode-control");
-              div.innerHTML = `<button type="button" data-mode="circles" class="${markerMode === "circles" ? "active" : ""}">Circles</button><button type="button" data-mode="badges" class="${markerMode === "badges" ? "active" : ""}">Badges</button>`;
-              L.DomEvent.disableClickPropagation(div);
-              div.querySelectorAll("button").forEach((b) => {
-                b.addEventListener("click", () => window.setMarkerMode(b.dataset.mode));
-              });
-              return div;
-            },
-          });
-          modeControl = new ModeToggle().addTo(map);
-        }
 
         // Zoom-aware label visibility — only simplify at national zoom.
         // Never force-add labels; that would override explicit user toggles.

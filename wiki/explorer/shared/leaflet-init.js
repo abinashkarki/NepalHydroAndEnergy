@@ -505,7 +505,6 @@ class LayerManager {
         }
         const opts = Object.assign({}, styleForFeature(styleWithPane, def, feat.properties || {}), { className: classes.join(" ") });
         const r = radiusFn ? radiusFn(feat.properties || {}) : (opts.radius || 8);
-        const mode = this._markerMode || "circles";
         // Look up the icon key from layer panel sections (symbol field)
         const iconKey = (() => {
           try {
@@ -527,12 +526,7 @@ class LayerManager {
           } catch (e) {}
           return "";
         })();
-        if (mode === "circles" || !iconKey) {
-          const circleOpts = Object.assign({}, opts, { className: classes.join(" ") });
-          if (radiusFn) circleOpts.radius = r;
-          return L.circleMarker(latlng, circleOpts);
-        }
-        // Badge mode (default): colored circle + white SVG icon
+        // Badge mode: colored circle + white SVG icon
         const badgeR = Math.max(r, 8);
         const borderColor = opts.color || "#666";
         const fillColor = opts.fillColor || opts.color || "#999";
