@@ -24,6 +24,8 @@ The project is intentionally more than a static report. It combines source extra
 
 ## Interactive Explorer
 
+**Live:** [https://transparentgov.ai/wiki/explorer/](https://transparentgov.ai/wiki/explorer/)
+
 Run the wiki + map explorer locally:
 
 ```bash
