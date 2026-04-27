@@ -58,7 +58,7 @@ Nepal has ~200,000 households served by AEPC-supported solar home systems and ~3
 | Variable | Utility | Rooftop | Off-grid |
 |---|---|---|---|
 | Capex per MWp | NPR 55–75m | NPR 75–95m | NPR 120–180m (+BESS) |
-| Effective tariff earned | NPR ~5.43/kWh (960 MW LoI weighted avg.) | NPR 7–10/kWh (retail displaced) | NPR 60–90/kWh (diesel displaced) |
+| Effective tariff earned | NPR 5.94/kWh | NPR 7–10/kWh (retail displaced) | NPR 60–90/kWh (diesel displaced) |
 | Who pays | NEA tariff base | Rooftop owner | Grant / concessional + user |
 | Bottleneck | Land (Terai) | Net-metering speed | Capex finance + community O&M |
 | Political constituency | NEA + big IPPs | Urban middle class + commerce | Rural poor + remote districts |

@@ -21,6 +21,14 @@ LINEWORK_OUT = PROCESSED / "rpgcl_transmission_official_linework.geojson"
 LABELS_OUT = PROCESSED / "rpgcl_transmission_official_labels.geojson"
 TRACED_OUT = PROCESSED / "transmission_corridor_traced_segments.geojson"
 REPORT_OUT = PROCESSED / "rpgcl_transmission_trace_report.json"
+MCA_ATLAS_TRACE = RAW / "mca" / "mca_central_400_atlas_trace.geojson"
+UDIPUR_RAP_TRACE = RAW / "nea" / "udipur_damauli_bharatpur_220_rap_trace.geojson"
+HBB_SOURCE_TRACE = RAW / "nea" / "hetauda_bharatpur_bardaghat_220_source_trace.geojson"
+HDDI_RAP_TRACE = RAW / "world_bank" / "hddi_400_rap_trace.geojson"
+DANA_KUSHMA_BUTWAL_CORRIDOR_ID = "dana_kushma_butwal_220"
+WESTERN_132_BACKBONE_CORRIDOR_ID = "western_132_backbone"
+CHAMELIYA_ATTARIYA_132_CORRIDOR_ID = "chameliya_attariya_132"
+KARNALI_GRID_REACH_CORRIDOR_ID = "kohalpur_surkhet_dailekh_132"
 
 TRANSMISSION_LAYERS = {
     "132 kV HTLS",
@@ -668,6 +676,426 @@ def build_manual_corridor_segments() -> tuple[list[dict[str, Any]], dict[str, An
     return traced_features, report
 
 
+def load_mca_atlas_trace() -> tuple[list[dict[str, Any]], dict[str, Any] | None]:
+    if not MCA_ATLAS_TRACE.exists():
+        return [], None
+    feature_collection = json.loads(MCA_ATLAS_TRACE.read_text())
+    features = feature_collection.get("features", [])
+    return features, {
+        "status": "ok_manual_atlas_trace",
+        "source_path": str(MCA_ATLAS_TRACE),
+        "source_id": "mca_annex_d1_alignment_maps",
+        "source_pdf": "mca_annex_d1_alignment_maps.pdf",
+        "output_segment_count": len(features),
+        "coverage": "full_project_segments",
+        "confidence": "high",
+        "trace_method": "manual_atlas_trace",
+        "replaces": "RPGCL overview-derived mca_central_400 fragments in the public traced segment layer",
+    }
+
+
+def load_udipur_rap_trace() -> tuple[list[dict[str, Any]], dict[str, Any] | None]:
+    if not UDIPUR_RAP_TRACE.exists():
+        return [], None
+    feature_collection = json.loads(UDIPUR_RAP_TRACE.read_text())
+    features = feature_collection.get("features", [])
+    return features, {
+        "status": "ok_manual_rap_trace",
+        "source_path": str(UDIPUR_RAP_TRACE),
+        "source_id": "nea_marsyangdi_rap",
+        "source_pdf": "nea_marsyangdi_rap.pdf",
+        "output_segment_count": len(features),
+        "coverage": "full_route_segment",
+        "confidence": "medium",
+        "trace_method": "manual_rap_trace",
+        "replaces": "RPGCL overview-derived udipur_damauli_bharatpur_220 fragments in the public traced segment layer",
+    }
+
+
+def load_hbb_source_trace() -> tuple[list[dict[str, Any]], dict[str, Any] | None]:
+    if not HBB_SOURCE_TRACE.exists():
+        return [], None
+    feature_collection = json.loads(HBB_SOURCE_TRACE.read_text())
+    features = feature_collection.get("features", [])
+    return features, {
+        "status": "ok_manual_source_trace",
+        "source_path": str(HBB_SOURCE_TRACE),
+        "source_id": "rpgcl_transmission_network_map_revised1+nea_bharatpur_bardaghat_sia",
+        "source_pdf": "nepal_transmission_network_map_revised1.pdf; SIA-Bharatpur-Bardghat.pdf",
+        "output_segment_count": len(features),
+        "coverage": "two_project_segments",
+        "confidence": "medium",
+        "trace_method": "manual_source_trace",
+        "replaces": "Over-selected RPGCL overview-derived hetauda_bharatpur_bardaghat_220 fragments in the public traced segment layer",
+    }
+
+
+def load_hddi_rap_trace() -> tuple[list[dict[str, Any]], dict[str, Any] | None]:
+    if not HDDI_RAP_TRACE.exists():
+        return [], None
+    feature_collection = json.loads(HDDI_RAP_TRACE.read_text())
+    features = feature_collection.get("features", [])
+    return features, {
+        "status": "ok_manual_rap_trace",
+        "source_path": str(HDDI_RAP_TRACE),
+        "source_id": "world_bank_hddtl_rap",
+        "source_pdf": "world_bank_hddtl_rap.pdf",
+        "output_segment_count": len(features),
+        "coverage": "two_project_segments",
+        "confidence": "medium",
+        "trace_method": "manual_rap_trace",
+        "replaces": "Oversimplified RPGCL overview-derived hddi_400 fragments in the public traced segment layer",
+    }
+
+
+def build_dana_kushma_butwal_source_trace(linework: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Promote the official-vector Kali Gandaki 220 kV linework as named corridor segments."""
+
+    guide = LineString(
+        [
+            (83.6520159781521, 28.42186786278833),
+            (83.65060885791756, 28.1280642459853),
+            (83.69052298786728, 27.460784986382116),
+        ]
+    )
+    selected: list[LineString] = []
+    selected_source_ids: list[str] = []
+    for feature in linework:
+        props = feature["properties"]
+        if props.get("layer") != "EXISTING/UNDERCONSTRUCTION 220 kV":
+            continue
+        if props.get("viewport_name") != "Layers":
+            continue
+        geom = LineString(feature["geometry"]["coordinates"])
+        if geom.length < 1.0 and geom.intersects(guide.buffer(0.08)):
+            selected.append(geom)
+            selected_source_ids.append(props["id"])
+
+    selected.sort(key=lambda geom: geom.coords[0][1], reverse=True)
+    segment_specs = [
+        {
+            "segment_id": "dana_kushma_220_rpgcl_trace",
+            "segment_name": "Dana-Kushma 220 kV line",
+            "official_length_km": 39.57,
+            "source_page_or_sheet": (
+                "RPGCL 2021 geospatial PDF existing/under-construction 220 kV layer; "
+                "NEA Transmission Annual Book 2077 pp. 144-145 route-length control"
+            ),
+            "geometry_basis": (
+                "Manual selection of the official-vector Dana-Kushma 220 kV trace from the RPGCL geospatial "
+                "transmission map, cross-checked against NEA FY2019/20 route length and FY2024/25 existing-line inventory."
+            ),
+            "notes": (
+                "NEA FY2019/20 states 39.57 route-km for Dana-Kushma; NEA FY2024/25 lists 79.6 circuit-km, "
+                "consistent with double-circuit accounting."
+            ),
+        },
+        {
+            "segment_id": "kushma_new_butwal_220_rpgcl_trace",
+            "segment_name": "Kushma-New Butwal 220 kV line",
+            "official_length_km": 88.0,
+            "source_page_or_sheet": (
+                "RPGCL 2021 geospatial PDF existing/under-construction 220 kV layer; "
+                "NEA Transmission Annual Book 2077 pp. 144-145 and NEA FY2024/25 p. 59 status text"
+            ),
+            "geometry_basis": (
+                "Manual selection of the official-vector Kushma-New Butwal 220 kV trace from the RPGCL geospatial "
+                "transmission map, cross-checked against NEA FY2019/20 route length and FY2024/25 commissioning/status text."
+            ),
+            "notes": (
+                "NEA FY2019/20 states 88 route-km for Kushma-New Butwal; NEA FY2024/25 lists 176 circuit-km "
+                "and says New Butwal became fully operational after this line was finished."
+            ),
+        },
+    ]
+
+    if len(selected) != 2:
+        return [], {
+            "status": "skipped_unexpected_source_selection",
+            "selected_count": len(selected),
+            "selected_source_ids": selected_source_ids,
+            "expected": "exactly two official-vector 220 kV line strings for Dana-Kushma and Kushma-New Butwal",
+        }
+
+    features: list[dict[str, Any]] = []
+    for geom, segment in zip(selected, segment_specs):
+        features.append(
+            {
+                "type": "Feature",
+                "geometry": mapping(geom),
+                "properties": {
+                    "corridor_id": DANA_KUSHMA_BUTWAL_CORRIDOR_ID,
+                    "segment_id": segment["segment_id"],
+                    "segment_name": segment["segment_name"],
+                    "name": "Dana-Kushma-New Butwal 220 kV corridor",
+                    "voltage_kv": "220",
+                    "status": "Operational",
+                    "trace_method": "manual_source_trace",
+                    "trace_confidence": "high",
+                    "trace_coverage": "segment",
+                    "source_id": "rpgcl_transmission_network_map_revised1+nea_transmission_annual_book_2077+nea_annual_report_2024_2025",
+                    "source_pdf": "nepal_transmission_network_map_revised1.pdf; nea_transmission_annual_book_2077.pdf; nea_annual_report_2024_2025.pdf",
+                    "source_page_or_sheet": segment["source_page_or_sheet"],
+                    "official_length_km": segment["official_length_km"],
+                    "geometry_basis": segment["geometry_basis"],
+                    "selected_source_ids": selected_source_ids,
+                    "notes": segment["notes"],
+                },
+            }
+        )
+
+    return features, {
+        "status": "ok_manual_source_trace",
+        "source_id": "rpgcl_transmission_network_map_revised1+nea_transmission_annual_book_2077+nea_annual_report_2024_2025",
+        "source_pdf": "nepal_transmission_network_map_revised1.pdf; nea_transmission_annual_book_2077.pdf; nea_annual_report_2024_2025.pdf",
+        "output_segment_count": len(features),
+        "coverage": "two_project_segments",
+        "confidence": "high",
+        "trace_method": "manual_source_trace",
+        "selected_source_ids": selected_source_ids,
+        "official_route_km": 127.57,
+        "official_circuit_km": 255.6,
+        "replaces": "Context-sketch-only Dana-Kushma-New Butwal corridor in the public major-network layer",
+    }
+
+
+def line_length_km(coords: list[tuple[float, float]]) -> float:
+    radius_km = 6371.0088
+    total = 0.0
+    for a, b in zip(coords, coords[1:]):
+        lon1, lat1 = map(math.radians, a)
+        lon2, lat2 = map(math.radians, b)
+        dlon = lon2 - lon1
+        dlat = lat2 - lat1
+        h = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
+        total += 2 * radius_km * math.asin(min(1.0, math.sqrt(h)))
+    return total
+
+
+def merged_drawing_parts(
+    page: fitz.Page,
+    point_to_geo: Any,
+    drawing_indexes: list[int],
+    min_part_km: float = 0.5,
+) -> list[LineString]:
+    parts: list[LineString] = []
+    drawings = page.get_drawings()
+    for drawing_index in drawing_indexes:
+        drawing = drawings[drawing_index - 1]
+        segments = []
+        for item in drawing["items"]:
+            if item[0] != "l":
+                continue
+            p1, p2 = item[1], item[2]
+            segments.append(LineString([point_to_geo(p1.x, p1.y), point_to_geo(p2.x, p2.y)]))
+        if not segments:
+            continue
+        merged = linemerge(unary_union(segments))
+        raw_parts = list(merged.geoms) if isinstance(merged, MultiLineString) else [merged]
+        parts.extend(part for part in raw_parts if line_length_km(list(part.coords)) >= min_part_km)
+    return parts
+
+
+def chain_route_parts(
+    parts: list[LineString],
+    start_hint: tuple[float, float],
+    end_hint: tuple[float, float],
+) -> LineString:
+    remaining = [list(part.coords) for part in parts if len(part.coords) >= 2]
+    if not remaining:
+        raise ValueError("No route parts to chain")
+
+    def dist(a: tuple[float, float], b: tuple[float, float]) -> float:
+        return math.hypot(a[0] - b[0], a[1] - b[1])
+
+    endpoint_choices = [(i, False) for i in range(len(remaining))] + [(i, True) for i in range(len(remaining))]
+    start_index, reverse = min(
+        endpoint_choices,
+        key=lambda item: dist(tuple(remaining[item[0]][-1 if item[1] else 0]), start_hint),
+    )
+    coords = list(reversed(remaining.pop(start_index))) if reverse else remaining.pop(start_index)
+    while remaining:
+        current = tuple(coords[-1])
+        candidates = []
+        for i, part in enumerate(remaining):
+            candidates.append((dist(current, tuple(part[0])), i, False))
+            candidates.append((dist(current, tuple(part[-1])), i, True))
+        _, index, should_reverse = min(candidates, key=lambda item: item[0])
+        next_part = remaining.pop(index)
+        if should_reverse:
+            next_part = list(reversed(next_part))
+        if dist(tuple(coords[-1]), tuple(next_part[0])) < 1e-8:
+            coords.extend(next_part[1:])
+        else:
+            coords.extend(next_part)
+
+    if dist(tuple(coords[-1]), end_hint) > dist(tuple(coords[0]), end_hint):
+        coords = list(reversed(coords))
+    return LineString(coords)
+
+
+def build_western_132_source_trace(
+    page: fitz.Page,
+    point_to_geo: Any,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Promote the operational western 132 kV backbone from RPGCL vector linework and NEA inventory control."""
+
+    source_id = "rpgcl_transmission_network_map_revised1+nea_annual_report_2024_2025"
+    source_pdf = "nepal_transmission_network_map_revised1.pdf; nea_annual_report_2024_2025.pdf"
+    specs = [
+        {
+            "segment_id": "butwal_shivapur_lamahi_kohalpur_132_rpgcl_trace",
+            "segment_name": "Butwal-Shivapur-Lamahi-Kohalpur 132 kV line",
+            "drawing_indexes": [34, 35, 36, 37],
+            "start_hint": (83.47321851682389, 27.556542431092055),
+            "end_hint": (81.6886043769513, 28.09132093292611),
+            "anchor_chain": "Butwal -> Shivapur -> Lamahi -> Kohalpur",
+            "official_length_km": 215.0,
+            "official_circuit_km": 430.0,
+            "notes": "NEA FY2024/25 existing-line inventory lists Butwal-Shivapur-Lamahi-Kohalpur as a 430 circuit-km double-circuit 132 kV line, equivalent to about 215 route-km.",
+        },
+        {
+            "segment_id": "kohalpur_bhurigaun_lamki_132_rpgcl_trace",
+            "segment_name": "Kohalpur-Bhurigaun-Lamki 132 kV line",
+            "drawing_indexes": [42, 47],
+            "start_hint": (81.6886043769513, 28.09132093292611),
+            "end_hint": (81.15880776919326, 28.54114421639382),
+            "anchor_chain": "Kohalpur -> Bhurigaun -> Lamki",
+            "official_length_km": 88.33,
+            "official_circuit_km": 176.66,
+            "notes": "NEA FY2024/25 existing-line inventory lists Kohalpur-Bhurigaun-Lumki as a 176.66 circuit-km double-circuit 132 kV line, equivalent to about 88.33 route-km.",
+        },
+        {
+            "segment_id": "lamki_pahalwanpur_attariya_mahendranagar_132_rpgcl_trace",
+            "segment_name": "Lamki-Pahalwanpur-Attariya-Mahendranagar 132 kV line",
+            "drawing_indexes": [48, 43, 44, 45],
+            "start_hint": (81.15880776919326, 28.54114421639382),
+            "end_hint": (80.09452366380923, 28.946220417499394),
+            "anchor_chain": "Lamki -> Pahalwanpur -> Attariya -> Mahendranagar",
+            "official_length_km": 101.56,
+            "official_circuit_km": 203.12,
+            "notes": "NEA FY2024/25 existing-line inventory lists Lamki-Pahalwanpur-Attariya-Mahendranagar (Lalpur) as a 203.12 circuit-km double-circuit 132 kV line, equivalent to about 101.56 route-km.",
+        },
+        {
+            "segment_id": "chameliya_syaule_attariya_132_rpgcl_trace",
+            "segment_name": "Chameliya-Syaule-Attariya 132 kV line",
+            "corridor_id": CHAMELIYA_ATTARIYA_132_CORRIDOR_ID,
+            "name": "Chameliya-Syaule-Attariya 132 kV line",
+            "drawing_indexes": [7, 8],
+            "start_hint": (80.55398409703626, 28.735364655748388),
+            "end_hint": (80.64439891503855, 29.613418786265093),
+            "anchor_chain": "Attariya -> Syaule -> Chameliya",
+            "official_length_km": 131.0,
+            "official_circuit_km": 262.0,
+            "notes": "NEA FY2024/25 existing-line inventory lists Chameliya-Syaule-Attariya as a 262 circuit-km double-circuit 132 kV line, equivalent to about 131 route-km.",
+        },
+    ]
+    features: list[dict[str, Any]] = []
+    report_segments = []
+    for spec in specs:
+        parts = merged_drawing_parts(page, point_to_geo, spec["drawing_indexes"])
+        geom = chain_route_parts(parts, spec["start_hint"], spec["end_hint"])
+        length_km = round(line_length_km(list(geom.coords)), 3)
+        features.append(
+            {
+                "type": "Feature",
+                "geometry": mapping(geom),
+                "properties": {
+                    "corridor_id": spec.get("corridor_id", WESTERN_132_BACKBONE_CORRIDOR_ID),
+                    "segment_id": spec["segment_id"],
+                    "segment_name": spec["segment_name"],
+                    "name": spec.get("name", "Western Nepal 132 kV backbone"),
+                    "voltage_kv": "132",
+                    "status": "Operational",
+                    "trace_method": "manual_source_trace",
+                    "trace_confidence": "medium",
+                    "trace_coverage": "segment",
+                    "source_id": source_id,
+                    "source_pdf": source_pdf,
+                    "source_page_or_sheet": "RPGCL 2021 geospatial PDF existing 132 kV layer; NEA FY2024/25 pp. 162-163 existing high-voltage line inventory",
+                    "official_length_km": spec["official_length_km"],
+                    "official_circuit_km": spec["official_circuit_km"],
+                    "geometry_basis": "Reconstructed route from official RPGCL 2021 geospatial vector strokes, controlled against NEA FY2024/25 operational 132 kV inventory names and circuit-km lengths.",
+                    "anchor_chain": spec["anchor_chain"],
+                    "matched_anchor_count": len(spec["anchor_chain"].split(" -> ")),
+                    "selected_drawing_count": len(spec["drawing_indexes"]),
+                    "selected_source_ids": [f"rpgcl_drawing_{idx:05d}" for idx in spec["drawing_indexes"]],
+                    "notes": spec["notes"],
+                },
+            }
+        )
+        report_segments.append(
+            {
+                "segment_id": spec["segment_id"],
+                "selected_drawing_indexes": spec["drawing_indexes"],
+                "official_route_km": spec["official_length_km"],
+                "traced_length_km": length_km,
+            }
+        )
+
+    return features, {
+        "status": "ok_manual_source_trace",
+        "source_id": source_id,
+        "source_pdf": source_pdf,
+        "output_segment_count": len(features),
+        "coverage": "western_operational_132_backbone",
+        "confidence": "medium",
+        "trace_method": "manual_source_trace",
+        "official_route_km": 404.89,
+        "official_circuit_km": 809.78,
+        "segments": report_segments,
+    }
+
+
+def build_karnali_grid_reach_trace() -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Add the under-construction Kohalpur-Surkhet-Dailekh 132 kV grid-reach corridor."""
+
+    coords = [
+        (81.6886043769513, 28.09132093292611),
+        (81.5850, 28.2650),
+        (81.6520, 28.4516),
+        (81.7100, 28.7400),
+    ]
+    geom = LineString(coords)
+    feature = {
+        "type": "Feature",
+        "geometry": mapping(geom),
+        "properties": {
+            "corridor_id": KARNALI_GRID_REACH_CORRIDOR_ID,
+            "segment_id": "kohalpur_surkhet_dailekh_132_manual_trace",
+            "segment_name": "Kohalpur-Surkhet-Dailekh 132 kV line",
+            "name": "Kohalpur-Surkhet-Dailekh 132 kV grid reach",
+            "voltage_kv": "132",
+            "status": "Under construction",
+            "trace_method": "manual_route_trace",
+            "trace_confidence": "medium",
+            "trace_coverage": "full_route_segment",
+            "source_id": "nea_annual_report_2024_2025+rpgcl_transmission_network_map_revised1",
+            "source_pdf": "nea_annual_report_2024_2025.pdf; nepal_transmission_network_map_revised1.pdf",
+            "source_page_or_sheet": "NEA FY2024/25 p. 35 project status narrative and p. 175 under-construction line table; RPGCL 2021 place labels",
+            "official_length_km": 84.0,
+            "official_circuit_km": 168.0,
+            "geometry_basis": "Manual route trace through RPGCL-labeled Kohalpur, Surkhet, and Dailekh anchors, controlled by NEA FY2024/25 project narrative: 52 km Kohalpur-Surkhet plus 32 km Surkhet-Dailekh.",
+            "anchor_chain": "Kohalpur -> Surkhet -> Dailekh",
+            "matched_anchor_count": 3,
+            "selected_drawing_count": 0,
+            "selected_source_ids": ["nea_annual_report_2024_2025"],
+            "notes": "Shown as under construction, not operational. NEA FY2024/25 reports advanced Kohalpur-Surkhet tower/foundation progress and partial Surkhet-Dailekh foundation progress.",
+        },
+    }
+    return [feature], {
+        "status": "ok_manual_route_trace",
+        "source_id": "nea_annual_report_2024_2025+rpgcl_transmission_network_map_revised1",
+        "source_pdf": "nea_annual_report_2024_2025.pdf; nepal_transmission_network_map_revised1.pdf",
+        "output_segment_count": 1,
+        "coverage": "under_construction_karnali_grid_reach",
+        "confidence": "medium",
+        "trace_method": "manual_route_trace",
+        "official_route_km": 84.0,
+        "official_circuit_km": 168.0,
+    }
+
+
 def main() -> None:
     PROCESSED.mkdir(parents=True, exist_ok=True)
 
@@ -693,6 +1121,73 @@ def main() -> None:
         point_to_geo=point_to_geo_factory(main_view),
     )
     traced_segments, corridor_report = build_corridor_segments(linework, anchors)
+    hddi_rap_segments, hddi_rap_report = load_hddi_rap_trace()
+    if hddi_rap_segments:
+        traced_segments = [feature for feature in traced_segments if feature["properties"].get("corridor_id") != "hddi_400"]
+        traced_segments.extend(hddi_rap_segments)
+        corridor_report["hddi_400"] = hddi_rap_report
+    mca_atlas_segments, mca_atlas_report = load_mca_atlas_trace()
+    if mca_atlas_segments:
+        traced_segments = [feature for feature in traced_segments if feature["properties"].get("corridor_id") != "mca_central_400"]
+        traced_segments.extend(mca_atlas_segments)
+        corridor_report["mca_central_400"] = mca_atlas_report
+    udipur_rap_segments, udipur_rap_report = load_udipur_rap_trace()
+    if udipur_rap_segments:
+        traced_segments = [
+            feature
+            for feature in traced_segments
+            if feature["properties"].get("corridor_id") != "udipur_damauli_bharatpur_220"
+        ]
+        traced_segments.extend(udipur_rap_segments)
+        corridor_report["udipur_damauli_bharatpur_220"] = udipur_rap_report
+    hbb_source_segments, hbb_source_report = load_hbb_source_trace()
+    if hbb_source_segments:
+        traced_segments = [
+            feature
+            for feature in traced_segments
+            if feature["properties"].get("corridor_id") != "hetauda_bharatpur_bardaghat_220"
+        ]
+        traced_segments.extend(hbb_source_segments)
+        corridor_report["hetauda_bharatpur_bardaghat_220"] = hbb_source_report
+    dana_source_segments, dana_source_report = build_dana_kushma_butwal_source_trace(linework)
+    if dana_source_segments:
+        traced_segments = [
+            feature
+            for feature in traced_segments
+            if feature["properties"].get("corridor_id") != DANA_KUSHMA_BUTWAL_CORRIDOR_ID
+        ]
+        traced_segments.extend(dana_source_segments)
+        corridor_report[DANA_KUSHMA_BUTWAL_CORRIDOR_ID] = dana_source_report
+    else:
+        corridor_report[DANA_KUSHMA_BUTWAL_CORRIDOR_ID] = dana_source_report
+    western_132_segments, western_132_report = build_western_132_source_trace(page, point_to_geo_factory(main_view))
+    traced_segments = [
+        feature
+        for feature in traced_segments
+        if feature["properties"].get("corridor_id")
+        not in {WESTERN_132_BACKBONE_CORRIDOR_ID, CHAMELIYA_ATTARIYA_132_CORRIDOR_ID}
+    ]
+    traced_segments.extend(western_132_segments)
+    corridor_report[WESTERN_132_BACKBONE_CORRIDOR_ID] = western_132_report
+    corridor_report[CHAMELIYA_ATTARIYA_132_CORRIDOR_ID] = {
+        "status": "ok_manual_source_trace",
+        "source_id": "rpgcl_transmission_network_map_revised1+nea_annual_report_2024_2025",
+        "source_pdf": "nepal_transmission_network_map_revised1.pdf; nea_annual_report_2024_2025.pdf",
+        "output_segment_count": 1,
+        "coverage": "far_west_hydro_evacuating_132_line",
+        "confidence": "medium",
+        "trace_method": "manual_source_trace",
+        "official_route_km": 131.0,
+        "official_circuit_km": 262.0,
+    }
+    karnali_grid_segments, karnali_grid_report = build_karnali_grid_reach_trace()
+    traced_segments = [
+        feature
+        for feature in traced_segments
+        if feature["properties"].get("corridor_id") != KARNALI_GRID_REACH_CORRIDOR_ID
+    ]
+    traced_segments.extend(karnali_grid_segments)
+    corridor_report[KARNALI_GRID_REACH_CORRIDOR_ID] = karnali_grid_report
     manual_segments, manual_report = build_manual_corridor_segments()
     all_traced_segments = traced_segments + manual_segments
 

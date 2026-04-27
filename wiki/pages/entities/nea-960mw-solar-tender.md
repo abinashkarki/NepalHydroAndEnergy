@@ -9,7 +9,7 @@ tags: [nea, solar, tender, 960mw, ipp, ppa, terai, competitive-bid]
 
 # NEA 960 MW National Solar Tender
 
-The **single largest solar procurement event in Nepal's history.** A national-scale competitive-bid tender launched 2024 for **960 MWp of utility-scale grid-tied solar PV** across Nepal, awarded to **64 project selections** from multiple IPPs. PPA signing and financial closure staged over FY 2025/26 and FY 2026/27; if ~70% of awards reach COD, Nepal's operating utility solar expands ~5× over the current fleet by FY 2028/29.
+The **single largest solar procurement event in Nepal's history.** A national-scale competitive-bid tender launched 2024 for **960 MWp of utility-scale grid-tied solar PV** across Nepal, awarded to **63 projects** from multiple IPPs. PPA signing and financial closure staged over FY 2025/26 and FY 2026/27; if ~70% of awards reach COD, Nepal's operating utility solar expands ~5× over the current fleet by FY 2028/29.
 
 The tender that represents the **institutional bet** that Nepal's solar scaling can be delivered through competitive IPP PPAs — not donor-funded NEA self-build, not off-grid AEPC programmes.
 
@@ -22,7 +22,7 @@ The tender that represents the **institutional bet** that Nepal's solar scaling 
 | **Typical project size** | 5–25 MWp |
 | **Geographic distribution** | Terai-dominant (Madhesh + Lumbini + Sudurpaschim + Koshi provinces) |
 | **Procurement model** | Tariff-based competitive bidding |
-| **Tariff range (awarded)** | NPR 4.99–5.55/kWh (gazette) ≈ $0.038–$0.042 |
+| **Tariff range (awarded)** | NPR 5.70–6.20/kWh (gazette) ≈ $0.043–$0.047 |
 | **PPA tenor** | 25 years, standard NEA PPA structure |
 | **Grid integration study** | Cumulative Grid Impact Study completed FY 2024/25 under [[wb-grid-solar-ee-project]] TA line |
 | **Expected PPA closures** | FY 2025/26–2026/27 |
@@ -49,11 +49,11 @@ Four reasons:
 
 ### 1. It establishes the price floor for Nepal solar.
 
-The awarded tariff range (4.99–5.55 NPR/kWh) is the first **portfolio-scale** solar price discovery in Nepal. Earlier rounds (Phase I at 8.40, Phase III at 6.40) were single-digit-count project awards; 960 MW with 64 project selections is the first price point that reflects actual competitive equilibrium. Future project evaluations should benchmark against this tariff, not against 2017 numbers.
+The awarded tariff range (5.70–6.20 NPR/kWh) is the first **portfolio-scale** solar price discovery in Nepal. Earlier rounds (Phase I at 8.40, Phase III at 6.40) were single-digit-count project awards; 960 MW with 63 developers is the first price point that reflects actual competitive equilibrium. Future project evaluations should benchmark against this tariff, not against 2017 numbers.
 
 ### 2. It validates the market.
 
-Dozens of bidders winning awards implies a functional pipeline of developers, advisors, local EPC firms, and debt financiers. The Nepal solar market was single-digit-developer-deep before this tender; it is now broad enough to support multiple simultaneous project clusters. This matters more than the physical MW — a market of depth 1 cannot scale; a market with dozens of active sponsors can.
+63 IPPs winning awards implies a functional pipeline of developers, advisors, local EPC firms, and debt financiers. The Nepal solar market was single-digit-developer-deep before this tender; it is now dozens-of-developer-deep. This matters more than the physical MW — a market of depth 1 cannot scale; a market of depth 60 can.
 
 ### 3. It stress-tests the institutional fit.
 
@@ -69,13 +69,13 @@ The tender tariff sits at the crossover point between solar and hydro ([[solar-l
 
 | Benchmark | Price (NPR/kWh) |
 |---|---:|
-| 960 MW tender awarded (weighted average) | **~5.43** |
+| 960 MW tender awarded (blended) | **~5.94** |
 | NEA small RoR hydro PPA (blended) | 6.20 |
 | NEA PRoR hydro PPA (blended) | 6.80 |
 | NEA time-weighted-value of solar | **~4.80** |
 | NEA time-weighted-value of small RoR | ~7.00 |
 
-Each MW in this tender is already cheaper than equivalent small RoR hydro on a *blended* basis and substantially cheaper on a *time-weighted* basis. This is the tariff point that [[claim-solar-cheaper-than-small-hydro]] stands on.
+Each MW in this tender is already cheaper than equivalent small RoR hydro on a *blended* basis and ~30% cheaper on *time-weighted* basis. This is the tariff point that [[claim-solar-cheaper-than-small-hydro]] stands on.
 
 ## Implementation risks and watch items
 

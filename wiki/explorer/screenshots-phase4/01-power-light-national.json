@@ -1,0 +1,20 @@
+{
+  "name": "01-power-light-national",
+  "preset": "power_system",
+  "basemap": "Carto Positron",
+  "zoom": 6,
+  "desc": "Power preset \u2014 light \u2014 national zoom",
+  "markerMode": "badges",
+  "badgeCount": 153,
+  "activeLayers": [
+    "country_outline",
+    "transmission_traced_network",
+    "place_anchors",
+    "cross_border",
+    "cross_border_lines",
+    "priority_watchlist",
+    "storage_shortlist",
+    "hydropower_operating",
+    "hydropower_construction"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 147,
-  "total_refs": 1128,
+  "total_targets": 185,
+  "total_refs": 1415,
   "backlinks": {
     "buildability": [
       {
@@ -29,7 +29,7 @@
         "slug": "betan-karnali-hp",
         "title": "Betan Karnali HP",
         "category": "entities",
-        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability",
+        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability - [[upper-karnali]] - [[data-ipsdp-milestone-ladder-2022-20…",
         "target_exists": true
       },
       {
@@ -43,7 +43,7 @@
         "slug": "bheri-1-hep",
         "title": "Bheri-1 HEP",
         "category": "entities",
-        "context": "…ropower project dataset ## See also - [[karnali-basin]] - buildability",
+        "context": "…ropower project dataset ## See also - [[karnali-basin]] - buildability - [[claim-mw-not-equal-value]] - [[data-ipsdp-milestone-lad…",
         "target_exists": true
       },
       {
@@ -99,7 +99,7 @@
         "slug": "kimathanka-arun-hep",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
-        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability",
+        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability - [[arun-3]] - [[data-ipsdp-milestone-ladder-2022-2040]] -…",
         "target_exists": true
       },
       {
@@ -127,14 +127,14 @@
         "slug": "phukot-karnali",
         "title": "Phukot Karnali",
         "category": "entities",
-        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability",
+        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability - [[data-ipsdp-milestone-ladder-2022-2040]] - [[data-layer-…",
         "target_exists": true
       },
       {
         "slug": "tamakoshi-3",
         "title": "Tamakoshi 3",
         "category": "entities",
-        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability",
+        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability - [[upper-tamakoshi]] - [[data-ipsdp-milestone-ladder-2022-…",
         "target_exists": true
       },
       {
@@ -155,7 +155,7 @@
         "slug": "uttarganga-storage-hydropower-project",
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
-        "context": "…/nea/nea_transmission_annual_book_2077.pdf) ## See also - buildability",
+        "context": "…/nea/nea_transmission_annual_book_2077.pdf) ## See also - buildability - [[storage-deficit]] - [[data-ipsdp-milestone-ladder-2022-…",
         "target_exists": true
       },
       {
@@ -248,6 +248,27 @@
         "category": "claims",
         "context": "…r]] - [[hybrid-siting-logic]] - [[agrivoltaics-and-land]] - buildability - [[claim-solar-cheaper-than-small-hydro]]",
         "target_exists": true
+      },
+      {
+        "slug": "data-layer-carto-positron",
+        "title": "Layer: Carto Positron Basemap",
+        "category": "data",
+        "context": "…lf is the evidence. ## Related - [[data-map-inventory]] - buildability - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-satellite-basemap",
+        "title": "Layer: Satellite Basemap",
+        "category": "data",
+        "context": "…anned or underground feature does not exist. ## Related - buildability - [[hybrid-siting-logic]] - [[data-map-inventory]] - [[dat…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-topographic-basemap",
+        "title": "Layer: Topographic Basemap",
+        "category": "data",
+        "context": "…ment, gradient, or construction feasibility. ## Related - buildability - [[gandaki-basin]] - [[koshi-basin]] - [[sediment-as-desig…",
+        "target_exists": true
       }
     ],
     "nepal-energy-profile": [
@@ -298,6 +319,13 @@
         "title": "Hydropower Potential Pyramid",
         "category": "data",
         "context": "…licensing-registry operating tally | DoED registry used in nepal-energy-profile | ## Basin Distribution of Gross Potential (WECS 2019) |…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-operating",
+        "title": "Layer: Hydropower - Operating",
+        "category": "data",
+        "context": "…y constraints. ## Related - [[run-of-river-hydropower]] - nepal-energy-profile - [[nea-annual-report-fy2024-25]] - [[claim-mw-not-equal-va…",
         "target_exists": true
       },
       {
@@ -793,6 +821,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-hydropower-operating",
+        "title": "Layer: Hydropower - Operating",
+        "category": "data",
+        "context": "…- [[run-of-river-hydropower]] - [[nepal-energy-profile]] - nea-annual-report-fy2024-25 - [[claim-mw-not-equal-value]] - [[data-map-layer-labels]]…",
+        "target_exists": true
+      },
+      {
         "slug": "data-nepal-peak-load-curve-fy2024-25",
         "title": "Nepal Peak Load Curve FY 2024/25",
         "category": "data",
@@ -862,6 +897,13 @@
         "title": "Kali Gandaki A",
         "category": "entities",
         "context": "…er and also Nepali-developed, but pure RoR without pondage. arun-3 (900 MW, under construction) will be nameplate-bigger but p…",
+        "target_exists": true
+      },
+      {
+        "slug": "kimathanka-arun-hep",
+        "title": "Kimathanka Arun HEP",
+        "category": "entities",
+        "context": "…e display set and part of the same Arun corridor that makes arun-3 nationally important. <!-- generated:specs:start --> ## S…",
         "target_exists": true
       },
       {
@@ -1103,6 +1145,41 @@
         "category": "claims",
         "context": "…ed-generation]]) → fragile offtake and trade architecture → hydro-geopolitics and governance frictions. - **Hermes / Claude / Gemini:** E…",
         "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-basins",
+        "title": "Layer: India Comparison Basins",
+        "category": "data",
+        "context": "…nt infrastructure. ## Related - [[ganges-contribution]] - hydro-geopolitics - [[india-energy-relationship]] - [[data-map-layer-labels]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-rivers",
+        "title": "Layer: India Comparison Rivers",
+        "category": "data",
+        "context": "…an basin planning. ## Related - [[ganges-contribution]] - hydro-geopolitics - [[india-energy-relationship]] - [[data-map-layer-labels]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons",
+        "category": "data",
+        "context": "…li-basin]] - [[mahakali-basin]] - [[ganges-contribution]] - hydro-geopolitics - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-downstream-systems",
+        "title": "Layer: Nepal-Origin Downstream Systems",
+        "category": "data",
+        "context": "…ity in the plains. ## Related - [[ganges-contribution]] - hydro-geopolitics - [[india-energy-relationship]] - [[seasonal-mismatch]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-origin-control-callouts",
+        "title": "Layer: Origin / Control Callouts",
+        "category": "data",
+        "context": "…ontrol over downstream water infrastructure. ## Related - hydro-geopolitics - [[ganges-contribution]] - [[india-energy-relationship]]…",
+        "target_exists": true
       }
     ],
     "stranded-generation": [
@@ -1138,7 +1215,7 @@
         "slug": "andhi-khola",
         "title": "Andhi Khola",
         "category": "entities",
-        "context": "…river-hydropower]] - [[storage-deficit]] - [[firm-power]] - stranded-generation",
+        "context": "…river-hydropower]] - [[storage-deficit]] - [[firm-power]] - stranded-generation - [[data-layer-storage-shortlist]] - [[data-layer-priority-…",
         "target_exists": true
       },
       {
@@ -1152,7 +1229,7 @@
         "slug": "betan-karnali-hp",
         "title": "Betan Karnali HP",
         "category": "entities",
-        "context": "…ropower project dataset ## See also - [[karnali-basin]] - stranded-generation - [[buildability]]",
+        "context": "…aldaily.com/news/71448) ## See also - [[karnali-basin]] - stranded-generation - [[buildability]] - [[upper-karnali]] - [[data-ipsdp-miles…",
         "target_exists": true
       },
       {
@@ -1201,14 +1278,14 @@
         "slug": "phukot-karnali",
         "title": "Phukot Karnali",
         "category": "entities",
-        "context": "…urrent project registry ## See also - [[karnali-basin]] - stranded-generation - [[buildability]]",
+        "context": "…20Project%20Status.pdf) ## See also - [[karnali-basin]] - stranded-generation - [[buildability]] - [[data-ipsdp-milestone-ladder-2022-204…",
         "target_exists": true
       },
       {
         "slug": "upper-bhotekoshi",
         "title": "Upper Bhotekoshi",
         "category": "entities",
-        "context": "…See also - [[koshi-basin]] - [[run-of-river-hydropower]] - stranded-generation",
+        "context": "…See also - [[koshi-basin]] - [[run-of-river-hydropower]] - stranded-generation - [[data-layer-priority-watchlist]]",
         "target_exists": true
       },
       {
@@ -1222,7 +1299,7 @@
         "slug": "upper-trishuli-1",
         "title": "Upper Trishuli-1",
         "category": "entities",
-        "context": "…ropower project dataset ## See also - [[gandaki-basin]] - stranded-generation",
+        "context": "…ropower project dataset ## See also - [[gandaki-basin]] - stranded-generation - [[data-ipsdp-milestone-ladder-2022-2040]] - [[data-layer-…",
         "target_exists": true
       },
       {
@@ -1317,6 +1394,20 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-transmission-corridors-curated",
+        "title": "Layer: Context Corridor Sketch",
+        "category": "data",
+        "context": "…mediate-blocker]] - [[nepal-transmission-landscape-2025]] - stranded-generation - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-construction",
+        "title": "Layer: Hydropower - Construction",
+        "category": "data",
+        "context": "…and option value, not delivered electricity. ## Related - stranded-generation - [[claim-transmission-immediate-blocker]] - [[claim-mw-not…",
+        "target_exists": true
+      },
+      {
         "slug": "data-final-energy-mix",
         "title": "Nepal Final Energy Mix",
         "category": "data",
@@ -1358,6 +1449,13 @@
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…[[storage-deficit]] and [[firm-power]] picture — more than dudhkoshi-storage, [[budhigandaki]] or any combination of smaller reservoirs…",
+        "target_exists": true
+      },
+      {
+        "slug": "sun-koshi-no-3",
+        "title": "Sun Koshi No.3",
+        "category": "entities",
+        "context": "…ry-share efficiency. This makes it a useful comparator for dudhkoshi-storage. Both are Koshi-basin storage candidates, but they occupy d…",
         "target_exists": true
       },
       {
@@ -1550,7 +1648,7 @@
         "slug": "andhi-khola",
         "title": "Andhi Khola",
         "category": "entities",
-        "context": "…e also - [[gandaki-basin]] - [[run-of-river-hydropower]] - storage-deficit - [[firm-power]] - [[stranded-generation]]",
+        "context": "…e also - [[gandaki-basin]] - [[run-of-river-hydropower]] - storage-deficit - [[firm-power]] - [[stranded-generation]] - [[data-layer-s…",
         "target_exists": true
       },
       {
@@ -1592,7 +1690,7 @@
         "slug": "kokhajor-1",
         "title": "Kokhajor-1",
         "category": "entities",
-        "context": "…rage master plan volume 2 ## See also - [[koshi-basin]] - storage-deficit - [[firm-power]]",
+        "context": "…rage master plan volume 2 ## See also - [[koshi-basin]] - storage-deficit - [[firm-power]] - [[data-layer-storage-shortlist]]",
         "target_exists": true
       },
       {
@@ -1606,21 +1704,21 @@
         "slug": "lower-badigad",
         "title": "Lower Badigad",
         "category": "entities",
-        "context": "…ge master plan volume 2 ## See also - [[gandaki-basin]] - storage-deficit - [[firm-power]]",
+        "context": "…ge master plan volume 2 ## See also - [[gandaki-basin]] - storage-deficit - [[firm-power]] - [[tanahu-hydropower]] - [[data-ipsdp-mil…",
         "target_exists": true
       },
       {
         "slug": "lower-jhimruk",
         "title": "Lower Jhimruk",
         "category": "entities",
-        "context": "…ge master plan volume 2 ## See also - [[karnali-basin]] - storage-deficit - [[firm-power]]",
+        "context": "…ge master plan volume 2 ## See also - [[karnali-basin]] - storage-deficit - [[firm-power]] - [[naumure-w-rapti]] - [[data-layer-stora…",
         "target_exists": true
       },
       {
         "slug": "madi",
         "title": "Madi",
         "category": "entities",
-        "context": "…ge master plan volume 2 ## See also - [[karnali-basin]] - storage-deficit - [[firm-power]]",
+        "context": "…ge master plan volume 2 ## See also - [[karnali-basin]] - storage-deficit - [[firm-power]] - [[naumure-w-rapti]] - [[data-ipsdp-miles…",
         "target_exists": true
       },
       {
@@ -1634,21 +1732,21 @@
         "slug": "nalsyau-gad",
         "title": "Nalsyau Gad",
         "category": "entities",
-        "context": "…ge master plan volume 2 ## See also - [[karnali-basin]] - storage-deficit - [[firm-power]]",
+        "context": "…one of the few project records that directly addresses the storage-deficit rather than only adding wet-season energy. This is why it…",
         "target_exists": true
       },
       {
         "slug": "naumure-w-rapti",
         "title": "Naumure (W. Rapti)",
         "category": "entities",
-        "context": "…ge master plan volume 2 ## See also - [[karnali-basin]] - storage-deficit - [[firm-power]]",
+        "context": "…ge master plan volume 2 ## See also - [[karnali-basin]] - storage-deficit - [[firm-power]] - [[data-ipsdp-milestone-ladder-2022-2040]…",
         "target_exists": true
       },
       {
         "slug": "sun-koshi-no-3",
         "title": "Sun Koshi No.3",
         "category": "entities",
-        "context": "…rage master plan volume 2 ## See also - [[koshi-basin]] - storage-deficit - [[firm-power]]",
+        "context": "…rage master plan volume 2 ## See also - [[koshi-basin]] - storage-deficit - [[firm-power]] - [[dudhkoshi-storage]] - [[data-ipsdp-mil…",
         "target_exists": true
       },
       {
@@ -1656,6 +1754,13 @@
         "title": "Tanahu Hydropower Project",
         "category": "entities",
         "context": "…ost important test case for whether the country can execute storage-deficit-closing assets at all. ADB-financed, NEA-owned, ~67% comple…",
+        "target_exists": true
+      },
+      {
+        "slug": "uttarganga-storage-hydropower-project",
+        "title": "Uttarganga Storage Hydropower Project",
+        "category": "entities",
+        "context": "…g run-of-river concepts. Uttarganga is a direct part of the storage-deficit question. Its location in Gandaki Province also makes it a…",
         "target_exists": true
       },
       {
@@ -1782,6 +1887,55 @@
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
         "context": "…losures. ## Related - [[stranded-generation]] - [[nea]] - storage-deficit - [[seasonal-mismatch]] ### Corridor pages - [[hetauda-dh…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-basin-seasonality",
+        "title": "Layer: Basin Seasonality",
+        "category": "data",
+        "context": "…ed - [[seasonal-mismatch]] - [[seasonal-arbitrage-trap]] - storage-deficit - [[firm-power]] - [[data-map-layer-labels]] - [[data-map-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-impact-markers",
+        "title": "Layer: Downstream Impact Markers",
+        "category": "data",
+        "context": "…lated - [[data-basin-discharge]] - [[seasonal-mismatch]] - storage-deficit - [[ganges-contribution]] - [[data-map-layer-labels]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-floating-pv-candidates",
+        "title": "Layer: Floating PV Candidates",
+        "category": "data",
+        "context": "…[[claim-floating-pv-leverage]] - [[hybrid-siting-logic]] - storage-deficit - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…ventory. It links the project geography to articles such as storage-deficit, [[claim-mw-not-equal-value]], [[claim-transmission-immedia…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…orage-gap and dry-energy comparison context. ## Related - storage-deficit - [[firm-power]] - [[seasonal-arbitrage-trap]] - [[claim-st…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…- [[claim-mw-not-equal-value]] - [[twenty-year-strategy]] - storage-deficit - [[claim-transmission-immediate-blocker]] - [[data-layer-b…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ject-roadmap]] - [[claim-transmission-immediate-blocker]] - storage-deficit - [[ganges-contribution]]",
         "target_exists": true
       },
       {
@@ -1913,6 +2067,20 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-solar-ghi-zones",
+        "title": "Layer: Solar GHI Zones",
+        "category": "data",
+        "context": "…t design matter as much as resource quality. ## Related - solar-resource-geography-nepal - [[data-nepal-solar-resource-zones]] - [[solar-hydro-compl…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-strategic-suitability",
+        "title": "Layer: Solar Strategic Suitability",
+        "category": "data",
+        "context": "…[[hybrid-siting-logic]] - [[solar-hydro-complementarity]] - solar-resource-geography-nepal - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
@@ -1960,7 +2128,7 @@
         "slug": "nea-solar",
         "title": "NEA Solar Programme",
         "category": "entities",
-        "context": "…PP portfolio | **960 MWp awarded (64 project selections)** (nea-960mw-solar-tender) | | Phase V (emerging) | 2025– | Hybrid / floating / grid-…",
+        "context": "…al-scale IPP portfolio | **960 MWp awarded (63 projects)** (nea-960mw-solar-tender) | | Phase V (emerging) | 2025– | Hybrid / floating / grid-…",
         "target_exists": true
       },
       {
@@ -2003,6 +2171,13 @@
         "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
         "category": "claims",
         "context": "…r demand shifting to cover the evening peak. ## Related - nea-960mw-solar-tender - [[hybrid-siting-logic]] - [[agrivoltaics-and-land]] - [[b…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-plants-nea-awards",
+        "title": "Layer: Solar Plants + NEA 960 MW Awards",
+        "category": "data",
+        "context": "…before treating a point as a site boundary. ## Related - nea-960mw-solar-tender - [[data-solar-fleet-inventory]] - [[claim-floating-pv-leve…",
         "target_exists": true
       },
       {
@@ -2103,6 +2278,27 @@
         "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
         "category": "claims",
         "context": "…the geography where build cycle compression is possible. - hybrid-siting-logic and [[solar-resource-geography-nepal]] show why the strateg…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-floating-pv-candidates",
+        "title": "Layer: Floating PV Candidates",
+        "category": "data",
+        "context": "…all matter. ## Related - [[claim-floating-pv-leverage]] - hybrid-siting-logic - [[storage-deficit]] - [[data-map-layer-labels]] - [[data…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-satellite-basemap",
+        "title": "Layer: Satellite Basemap",
+        "category": "data",
+        "context": "…d feature does not exist. ## Related - [[buildability]] - hybrid-siting-logic - [[data-map-inventory]] - [[data-map-layer-labels]] - [[d…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-strategic-suitability",
+        "title": "Layer: Solar Strategic Suitability",
+        "category": "data",
+        "context": "…grid, environmental, or procurement studies. ## Related - hybrid-siting-logic - [[solar-hydro-complementarity]] - [[solar-resource-geogra…",
         "target_exists": true
       },
       {
@@ -2287,6 +2483,230 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-transmission-raw-traced-segments",
+        "title": "Internal Data: Source Trace Fragments",
+        "category": "data",
+        "context": "…k]]. ## Related - [[nepal-transmission-landscape-2025]] - data-map-inventory - [[claim-transmission-immediate-blocker]] - [[data-map-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-network-nodes",
+        "title": "Internal Data: Transmission Topology Nodes",
+        "category": "data",
+        "context": "…ndscape-2025]] - [[claim-transmission-immediate-blocker]] - data-map-inventory - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-trace-gaps-qa",
+        "title": "Internal Data: Transmission Trace Gaps",
+        "category": "data",
+        "context": "…structed map evidence or tracing confidence. ## Related - data-map-inventory - [[project-roadmap]] - [[nepal-transmission-landscape-2025…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-basin-seasonality",
+        "title": "Layer: Basin Seasonality",
+        "category": "data",
+        "context": "…e-deficit]] - [[firm-power]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-carto-positron",
+        "title": "Layer: Carto Positron Basemap",
+        "category": "data",
+        "context": "…llite when geography itself is the evidence. ## Related - data-map-inventory - [[buildability]] - [[data-map-layer-labels]] - [[data-ma…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-corridors-curated",
+        "title": "Layer: Context Corridor Sketch",
+        "category": "data",
+        "context": "…]] - [[stranded-generation]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnections",
+        "title": "Layer: Cross-Border Gateways",
+        "category": "data",
+        "context": "…[nepal-power-trade-schemes]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnection-lines",
+        "title": "Layer: Cross-Border Links",
+        "category": "data",
+        "context": "…smission-immediate-blocker]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-impact-markers",
+        "title": "Layer: Downstream Impact Markers",
+        "category": "data",
+        "context": "…]] - [[ganges-contribution]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-floating-pv-candidates",
+        "title": "Layer: Floating PV Candidates",
+        "category": "data",
+        "context": "…ogic]] - [[storage-deficit]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-grid-hubs-place-anchors",
+        "title": "Layer: Grid Hubs and Substations",
+        "category": "data",
+        "context": "…use the popup basis when precision matters. ## Related - data-map-inventory - [[project-roadmap]] - [[nepal-transmission-landscape-2025…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-construction",
+        "title": "Layer: Hydropower - Construction",
+        "category": "data",
+        "context": "…] - [[twenty-year-strategy]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-operating",
+        "title": "Layer: Hydropower - Operating",
+        "category": "data",
+        "context": "…[[claim-mw-not-equal-value]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-survey-study",
+        "title": "Layer: Hydropower - Survey/Study",
+        "category": "data",
+        "context": "…systems-conversion-failure]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-basins",
+        "title": "Layer: India Comparison Basins",
+        "category": "data",
+        "context": "…[india-energy-relationship]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-rivers",
+        "title": "Layer: India Comparison Rivers",
+        "category": "data",
+        "context": "…[india-energy-relationship]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…ers. ## Related - [[nepal-transmission-landscape-2025]] - data-map-inventory - [[claim-transmission-immediate-blocker]] - [[hetauda-dhal…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-map-text-labels",
+        "title": "Layer: Map Text Labels",
+        "category": "data",
+        "context": "…rs or linework need to be inspected closely. ## Related - data-map-inventory - [[ganges-contribution]] - [[data-map-layer-labels]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-tributaries",
+        "title": "Layer: Nepal Tributaries (HydroRIVERS)",
+        "category": "data",
+        "context": "…] - [[data-basin-discharge]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons",
+        "category": "data",
+        "context": "…on]] - [[hydro-geopolitics]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-downstream-systems",
+        "title": "Layer: Nepal-Origin Downstream Systems",
+        "category": "data",
+        "context": "…ip]] - [[seasonal-mismatch]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-origin-control-callouts",
+        "title": "Layer: Origin / Control Callouts",
+        "category": "data",
+        "context": "…[india-energy-relationship]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…cker]] - [[project-roadmap]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-satellite-basemap",
+        "title": "Layer: Satellite Basemap",
+        "category": "data",
+        "context": "…## Related - [[buildability]] - [[hybrid-siting-logic]] - data-map-inventory - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-ghi-zones",
+        "title": "Layer: Solar GHI Zones",
+        "category": "data",
+        "context": "…olar-hydro-complementarity]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-plants-nea-awards",
+        "title": "Layer: Solar Plants + NEA 960 MW Awards",
+        "category": "data",
+        "context": "…rai-only-short-cycle-build]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-strategic-suitability",
+        "title": "Layer: Solar Strategic Suitability",
+        "category": "data",
+        "context": "…r-resource-geography-nepal]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…ta-layer-basin-seasonality]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…ta-layer-basin-seasonality]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-topographic-basemap",
+        "title": "Layer: Topographic Basemap",
+        "category": "data",
+        "context": "…iment-as-design-constraint]] - [[data-map-layer-labels]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-labels",
+        "title": "Layer: Transmission Labels",
+        "category": "data",
+        "context": "…ndscape-2025]] - [[claim-transmission-immediate-blocker]] - data-map-inventory - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…radius by a numeric field, such as capacity. ## Related - data-map-inventory - [[project-roadmap]] - [[claim-transmission-immediate-bloc…",
+        "target_exists": true
+      },
+      {
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
@@ -2321,6 +2741,13 @@
         "title": "Solar Resource Geography of Nepal",
         "category": "concepts",
         "context": "…d-offgrid]] — where Zone C and Zone A actually make sense - data-nepal-solar-resource-zones — the numbers by district - [[wb-esmap-solar-resource-asses…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-ghi-zones",
+        "title": "Layer: Solar GHI Zones",
+        "category": "data",
+        "context": "…uality. ## Related - [[solar-resource-geography-nepal]] - data-nepal-solar-resource-zones - [[solar-hydro-complementarity]] - [[data-map-layer-label…",
         "target_exists": true
       },
       {
@@ -2831,6 +3258,20 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons",
+        "category": "data",
+        "context": "…daries, not as claims of unilateral control. ## Related - koshi-basin - [[gandaki-basin]] - [[karnali-basin]] - [[mahakali-basin]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-topographic-basemap",
+        "title": "Layer: Topographic Basemap",
+        "category": "data",
+        "context": "…lity. ## Related - [[buildability]] - [[gandaki-basin]] - koshi-basin - [[sediment-as-design-constraint]] - [[data-map-layer-lab…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
@@ -2882,10 +3323,66 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-downstream-impact-markers",
+        "title": "Layer: Downstream Impact Markers",
+        "category": "data",
+        "context": "…discharge]] - [[seasonal-mismatch]] - [[storage-deficit]] - ganges-contribution - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-basins",
+        "title": "Layer: India Comparison Basins",
+        "category": "data",
+        "context": "…ydrology or water-management infrastructure. ## Related - ganges-contribution - [[hydro-geopolitics]] - [[india-energy-relationship]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-rivers",
+        "title": "Layer: India Comparison Rivers",
+        "category": "data",
+        "context": "…horitative source for Indian basin planning. ## Related - ganges-contribution - [[hydro-geopolitics]] - [[india-energy-relationship]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-map-text-labels",
+        "title": "Layer: Map Text Labels",
+        "category": "data",
+        "context": "…inspected closely. ## Related - [[data-map-inventory]] - ganges-contribution - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons",
+        "category": "data",
+        "context": "…[gandaki-basin]] - [[karnali-basin]] - [[mahakali-basin]] - ganges-contribution - [[hydro-geopolitics]] - [[data-map-layer-labels]] - [[da…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-downstream-systems",
+        "title": "Layer: Nepal-Origin Downstream Systems",
+        "category": "data",
+        "context": "…, or local channel complexity in the plains. ## Related - ganges-contribution - [[hydro-geopolitics]] - [[india-energy-relationship]] - […",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-origin-control-callouts",
+        "title": "Layer: Origin / Control Callouts",
+        "category": "data",
+        "context": "…ater infrastructure. ## Related - [[hydro-geopolitics]] - ganges-contribution - [[india-energy-relationship]] - [[data-map-layer-labels]…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
         "context": "…- **System-scale Ganges contribution arrows** to reinforce ganges-contribution - **Solar system preset** tying [[data-nepal-solar-resource…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…im-transmission-immediate-blocker]] - [[storage-deficit]] - ganges-contribution",
         "target_exists": true
       }
     ],
@@ -2986,6 +3483,13 @@
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
         "context": "…limate** shift the economic lifespan curves for storage—see sediment-as-design-constraint and [[peak-water]]. ## Related - [[storage-deficit]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-topographic-basemap",
+        "title": "Layer: Topographic Basemap",
+        "category": "data",
+        "context": "…- [[buildability]] - [[gandaki-basin]] - [[koshi-basin]] - sediment-as-design-constraint - [[data-map-layer-labels]] - [[data-map-inventory]]",
         "target_exists": true
       }
     ],
@@ -3114,6 +3618,48 @@
         "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
         "category": "claims",
         "context": "…paths somewhat, but cannot erase geography. ## Related - india-energy-relationship - [[hydro-geopolitics]] - [[pancheshwar]] - [[bhutan-hydrop…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnections",
+        "title": "Layer: Cross-Border Gateways",
+        "category": "data",
+        "context": "…and approvals still determine what can flow. ## Related - india-energy-relationship - [[dhalkebar-muzaffarpur]] - [[gorakhpur-butwal-interconne…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnection-lines",
+        "title": "Layer: Cross-Border Links",
+        "category": "data",
+        "context": "…and do not claim the full India-side route. ## Related - india-energy-relationship - [[data-trade-time-series]] - [[nepal-power-trade-schemes]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-basins",
+        "title": "Layer: India Comparison Basins",
+        "category": "data",
+        "context": "…elated - [[ganges-contribution]] - [[hydro-geopolitics]] - india-energy-relationship - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-rivers",
+        "title": "Layer: India Comparison Rivers",
+        "category": "data",
+        "context": "…elated - [[ganges-contribution]] - [[hydro-geopolitics]] - india-energy-relationship - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-downstream-systems",
+        "title": "Layer: Nepal-Origin Downstream Systems",
+        "category": "data",
+        "context": "…elated - [[ganges-contribution]] - [[hydro-geopolitics]] - india-energy-relationship - [[seasonal-mismatch]] - [[data-map-layer-labels]] - [[da…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-origin-control-callouts",
+        "title": "Layer: Origin / Control Callouts",
+        "category": "data",
+        "context": "…elated - [[hydro-geopolitics]] - [[ganges-contribution]] - india-energy-relationship - [[data-map-layer-labels]] - [[data-map-inventory]]",
         "target_exists": true
       }
     ],
@@ -3263,6 +3809,20 @@
         "title": "Electricity Trade Time Series",
         "category": "data",
         "context": "…rom net importer to seasonal exporter. Central evidence for seasonal-arbitrage-trap and [[seasonal-mismatch]]. ## Annual Import/Export Volumes…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-basin-seasonality",
+        "title": "Layer: Basin Seasonality",
+        "category": "data",
+        "context": "…ydrological studies. ## Related - [[seasonal-mismatch]] - seasonal-arbitrage-trap - [[storage-deficit]] - [[firm-power]] - [[data-map-layer-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…text. ## Related - [[storage-deficit]] - [[firm-power]] - seasonal-arbitrage-trap - [[claim-storage-physical-fix]] - [[claim-mw-not-equal-val…",
         "target_exists": true
       },
       {
@@ -3434,7 +3994,7 @@
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
-        "context": "…**Award tariff range:** ~NPR 4.99–5.55 /kWh (gazette — see solar-lcoe-crossover) | Province | Approximate MW in tender | Notes | |---|---:…",
+        "context": "…**Award tariff range:** ~NPR 5.70–6.20 /kWh (gazette — see solar-lcoe-crossover) | Province | Approximate MW in tender | Notes | |---|---:…",
         "target_exists": true
       }
     ],
@@ -3472,6 +4032,13 @@
         "title": "Hydropower Potential Pyramid",
         "category": "data",
         "context": "…19) | 72,544 | Updated screening with revised methodology | wecs-hydropower-potential-2019 | | Technical | ~42,000–46,000 | Apply realistic efficiency…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-tributaries",
+        "title": "Layer: Nepal Tributaries (HydroRIVERS)",
+        "category": "data",
+        "context": "…ss sources. ## Related - [[wecs-river-basin-plan-2024]] - wecs-hydropower-potential-2019 - [[run-of-river-hydropower]] - [[data-basin-discharge]] -…",
         "target_exists": true
       }
     ],
@@ -3570,6 +4137,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-solar-plants-nea-awards",
+        "title": "Layer: Solar Plants + NEA 960 MW Awards",
+        "category": "data",
+        "context": "…site boundary. ## Related - [[nea-960mw-solar-tender]] - data-solar-fleet-inventory - [[claim-floating-pv-leverage]] - [[claim-solar-terai-only…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
@@ -3624,7 +4198,7 @@
         "slug": "nea-960mw-solar-tender",
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…r on a *time-weighted* basis. This is the tariff point that claim-solar-cheaper-than-small-hydro stands on. ## Implementation risks and watch items | Risk…",
+        "context": "…per on *time-weighted* basis. This is the tariff point that claim-solar-cheaper-than-small-hydro stands on. ## Implementation risks and watch items | Risk…",
         "target_exists": true
       },
       {
@@ -3851,7 +4425,7 @@
         "slug": "dana-kushma-butwal-corridor",
         "title": "Dana–Kushma–New Butwal 220 kV Corridor",
         "category": "entities",
-        "context": "…V | | Status | Operational | | Length | ~135 km | | Owner | nea | | Terminals | Dana (Myagdi) · Kushma (Parbat) · New Butwa…",
+        "context": "…ngth basis | 127.57 route-km / 255.6 circuit-km | | Owner | nea | | Terminals | Dana (Myagdi) · Kushma (Parbat) · New Butwa…",
         "target_exists": true
       },
       {
@@ -3865,14 +4439,14 @@
         "slug": "hetauda-bharatpur-bardaghat-corridor",
         "title": "Hetauda–Bharatpur–Bardaghat 220 kV Corridor",
         "category": "entities",
-        "context": "…) | | Status | Operational | | Length | ~180 km | | Owner | nea | | Terminals | Hetauda (Makwanpur) · Bharatpur (Chitwan) ·…",
+        "context": "…ength basis | 146.5 route-km / 293.0 circuit-km | | Owner | nea | | Terminals | Hetauda (Makwanpur) · Bharatpur (Chitwan) ·…",
         "target_exists": true
       },
       {
         "slug": "hetauda-dhalkebar-inaruwa-backbone",
         "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone",
         "category": "entities",
-        "context": "…perational | | Total spine length | ~290–300 km | | Owner | nea (Nepal Electricity Authority) | | Key substations | Hetauda…",
+        "context": "…on | | Total spine length | ~288 km route basis | | Owner | nea (Nepal Electricity Authority) | | Key substations | Hetauda…",
         "target_exists": true
       },
       {
@@ -3921,7 +4495,7 @@
         "slug": "mca-central-400",
         "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)",
         "category": "entities",
-        "context": "…l energisation 2025) | | Spine length | ~315 km | | Owner | nea (construction by MCA-Nepal contractors) | | Terminal substa…",
+        "context": "…-km | | Circuit-length basis | 617.3 circuit-km | | Owner | nea (construction by MCA-Nepal contractors) | | Terminal substa…",
         "target_exists": true
       },
       {
@@ -4095,6 +4669,13 @@
         "target_exists": true
       },
       {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…hanges the dry-season balance, especially in a system where kulekhani-cascade is still the only operating seasonal-storage anchor and [[t…",
+        "target_exists": true
+      },
+      {
         "slug": "nepal-energy-profile",
         "title": "Nepal Energy Profile",
         "category": "entities",
@@ -4161,7 +4742,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…to [[data-trade-time-series]] - **Storage annotations** for kulekhani-cascade, [[tanahu-hydropower]], [[budhigandaki]], and [[dudhkoshi-s…",
+        "context": "…o [[data-trade-time-series]]. - **Storage annotations** for kulekhani-cascade, [[tanahu-hydropower]], [[budhigandaki]], and [[dudhkoshi-s…",
         "target_exists": true
       },
       {
@@ -4223,6 +4804,13 @@
         "target_exists": true
       },
       {
+        "slug": "lower-badigad",
+        "title": "Lower Badigad",
+        "category": "entities",
+        "context": "…cause it is a credible comparator to [[tanahu-hydropower]], kali-gandaki-a, and other Gandaki assets. ## Status And Timing Lower Bad…",
+        "target_exists": true
+      },
+      {
         "slug": "hybrid-siting-logic",
         "title": "Hybrid Siting Logic",
         "category": "concepts",
@@ -4267,10 +4855,24 @@
         "target_exists": true
       },
       {
+        "slug": "lower-badigad",
+        "title": "Lower Badigad",
+        "category": "entities",
+        "context": "…belongs in the wiki because it is a credible comparator to tanahu-hydropower, [[kali-gandaki-a]], and other Gandaki assets. ## Status A…",
+        "target_exists": true
+      },
+      {
         "slug": "mugu-karnali-storage-hep",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…now and 2034 has to be managed without it — by imports, by tanahu-hydropower and [[kulekhani-cascade]] augmentation, by demand response,…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…e]] is still the only operating seasonal-storage anchor and tanahu-hydropower is the only large storage project in active construction.…",
         "target_exists": true
       },
       {
@@ -4312,7 +4914,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…ries]] - **Storage annotations** for [[kulekhani-cascade]], tanahu-hydropower, [[budhigandaki]], and [[dudhkoshi-storage]] - **Sediment /…",
+        "context": "…ies]]. - **Storage annotations** for [[kulekhani-cascade]], tanahu-hydropower, [[budhigandaki]], and [[dudhkoshi-storage]] - **Sediment /…",
         "target_exists": true
       },
       {
@@ -4345,6 +4947,13 @@
         "title": "Upper Karnali — PDA, Financial Closure & Court Record",
         "category": "sources",
         "context": "…committee raised and never fully resolved ## See also - upper-karnali - [[hydro-geopolitics]] - [[karnali-basin]]",
+        "target_exists": true
+      },
+      {
+        "slug": "betan-karnali-hp",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…alue, institutional Nepali financing, and dependency on how upper-karnali is finally resolved upstream. <!-- generated:specs:start -…",
         "target_exists": true
       },
       {
@@ -4409,7 +5018,7 @@
         "slug": "dana-kushma-butwal-corridor",
         "title": "Dana–Kushma–New Butwal 220 kV Corridor",
         "category": "entities",
-        "context": "…d emergency tower reinforcement. - **Still 220 kV.** As the gandaki-basin pipeline grows, 220 kV may again become the bottleneck; a…",
+        "context": "…d emergency tower reinforcement. - **Still 220 kV.** As the gandaki-basin pipeline grows, 220 kV may again become the bottleneck; t…",
         "target_exists": true
       },
       {
@@ -4588,6 +5197,20 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons",
+        "category": "data",
+        "context": "…ims of unilateral control. ## Related - [[koshi-basin]] - gandaki-basin - [[karnali-basin]] - [[mahakali-basin]] - [[ganges-contrib…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-topographic-basemap",
+        "title": "Layer: Topographic Basemap",
+        "category": "data",
+        "context": "…construction feasibility. ## Related - [[buildability]] - gandaki-basin - [[koshi-basin]] - [[sediment-as-design-constraint]] - [[…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
@@ -4691,7 +5314,7 @@
         "slug": "upper-bhotekoshi",
         "title": "Upper Bhotekoshi",
         "category": "entities",
-        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - run-of-river-hydropower - [[stranded-generation]]",
+        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - run-of-river-hydropower - [[stranded-generation]] - [[data-layer-priority-watchlist…",
         "target_exists": true
       },
       {
@@ -4770,6 +5393,20 @@
         "category": "claims",
         "context": "…this claim only blocks a false equivalence. ## Related - run-of-river-hydropower - [[storage-deficit]] - [[firm-power]]",
         "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-operating",
+        "title": "Layer: Hydropower - Operating",
+        "category": "data",
+        "context": "…facing evacuation or hydrology constraints. ## Related - run-of-river-hydropower - [[nepal-energy-profile]] - [[nea-annual-report-fy2024-25]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-tributaries",
+        "title": "Layer: Nepal Tributaries (HydroRIVERS)",
+        "category": "data",
+        "context": "…er-basin-plan-2024]] - [[wecs-hydropower-potential-2019]] - run-of-river-hydropower - [[data-basin-discharge]] - [[data-map-layer-labels]] - […",
+        "target_exists": true
       }
     ],
     "bangladesh-trade-route": [
@@ -4839,6 +5476,90 @@
         "category": "sources",
         "context": "…lant-level monthly generation or trade data ## See also - data-ipsdp-milestone-ladder-2022-2040 - [[nepal-power-trade-schemes]] - [[environmental-flow-poli…",
         "target_exists": true
+      },
+      {
+        "slug": "betan-karnali-hp",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…anded-generation]] - [[buildability]] - [[upper-karnali]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-priority-watchlist]] - [[data-layer-top-10-c…",
+        "target_exists": true
+      },
+      {
+        "slug": "bheri-1-hep",
+        "title": "Bheri-1 HEP",
+        "category": "entities",
+        "context": "…basin]] - [[buildability]] - [[claim-mw-not-equal-value]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
+        "target_exists": true
+      },
+      {
+        "slug": "kimathanka-arun-hep",
+        "title": "Kimathanka Arun HEP",
+        "category": "entities",
+        "context": "…e also - [[koshi-basin]] - [[buildability]] - [[arun-3]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-badigad",
+        "title": "Lower Badigad",
+        "category": "entities",
+        "context": "…torage-deficit]] - [[firm-power]] - [[tanahu-hydropower]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-storage-shortlist]]",
+        "target_exists": true
+      },
+      {
+        "slug": "madi",
+        "title": "Madi",
+        "category": "entities",
+        "context": "…[storage-deficit]] - [[firm-power]] - [[naumure-w-rapti]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-storage-shortlist]]",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…[[karnali-basin]] - [[storage-deficit]] - [[firm-power]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-storage-shortlist]] - [[data-layer-priority-…",
+        "target_exists": true
+      },
+      {
+        "slug": "naumure-w-rapti",
+        "title": "Naumure (W. Rapti)",
+        "category": "entities",
+        "context": "…[[karnali-basin]] - [[storage-deficit]] - [[firm-power]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-storage-shortlist]]",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…nali-basin]] - [[stranded-generation]] - [[buildability]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-priority-watchlist]] - [[data-layer-top-10-c…",
+        "target_exists": true
+      },
+      {
+        "slug": "sun-koshi-no-3",
+        "title": "Sun Koshi No.3",
+        "category": "entities",
+        "context": "…torage-deficit]] - [[firm-power]] - [[dudhkoshi-storage]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-storage-shortlist]]",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-3",
+        "title": "Tamakoshi 3",
+        "category": "entities",
+        "context": "…[[koshi-basin]] - [[buildability]] - [[upper-tamakoshi]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-1",
+        "title": "Upper Trishuli-1",
+        "category": "entities",
+        "context": "…# See also - [[gandaki-basin]] - [[stranded-generation]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-priority-watchlist]]",
+        "target_exists": true
+      },
+      {
+        "slug": "uttarganga-storage-hydropower-project",
+        "title": "Uttarganga Storage Hydropower Project",
+        "category": "entities",
+        "context": "…f) ## See also - [[buildability]] - [[storage-deficit]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
+        "target_exists": true
       }
     ],
     "nepal-power-trade-schemes": [
@@ -4861,6 +5582,20 @@
         "title": "IPSDP Milestone Ladder 2022-2040",
         "category": "data",
         "context": "…data. ## Related - [[moewri-ipsdp-exec-summary-2025]] - nepal-power-trade-schemes - [[domestic-led-hydro-strategy]] - [[twenty-year-strategy]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnections",
+        "title": "Layer: Cross-Border Gateways",
+        "category": "data",
+        "context": "…ebar-muzaffarpur]] - [[gorakhpur-butwal-interconnection]] - nepal-power-trade-schemes - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnection-lines",
+        "title": "Layer: Cross-Border Links",
+        "category": "data",
+        "context": "…[india-energy-relationship]] - [[data-trade-time-series]] - nepal-power-trade-schemes - [[claim-transmission-immediate-blocker]] - [[data-map-la…",
         "target_exists": true
       }
     ],
@@ -4888,6 +5623,13 @@
         "title": "Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)",
         "category": "sources",
         "context": "…bility and no full EIA has been disclosed ## See also - mugu-karnali-storage-hep - [[karnali-basin]] - [[storage-deficit]]",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…s a medium-large Karnali project, not a mega-reservoir like mugu-karnali-storage-hep. That makes it strategically different: it is big enough to…",
         "target_exists": true
       },
       {
@@ -5019,6 +5761,13 @@
         "target_exists": true
       },
       {
+        "slug": "kohalpur-surkhet-dailekh-132",
+        "title": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
+        "category": "entities",
+        "context": "…he two sections. ## See also - [[western-132-backbone]] - karnali-basin - [[data-layer-transmission-connected-traced-network]]",
+        "target_exists": true
+      },
+      {
         "slug": "lower-jhimruk",
         "title": "Lower Jhimruk",
         "category": "entities",
@@ -5124,6 +5873,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons",
+        "category": "data",
+        "context": "…ntrol. ## Related - [[koshi-basin]] - [[gandaki-basin]] - karnali-basin - [[mahakali-basin]] - [[ganges-contribution]] - [[hydro-ge…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
@@ -5192,7 +5948,7 @@
         "slug": "mca-central-400",
         "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)",
         "category": "entities",
-        "context": "…| ## Significance - **Second 400 kV spine.** Parallels hetauda-dhalkebar-inaruwa-backbone via an entirely different geographic axis (Kathmandu → We…",
+        "context": "…sis. ## Significance - **Second 400 kV spine.** Parallels hetauda-dhalkebar-inaruwa-backbone via an entirely different geographic axis (Kathmandu → We…",
         "target_exists": true
       },
       {
@@ -5242,6 +5998,13 @@
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
         "context": "…ge-deficit]] - [[seasonal-mismatch]] ### Corridor pages - hetauda-dhalkebar-inaruwa-backbone — the only operational 400 kV backbone - [[mca-central-400]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…ap-inventory]] - [[claim-transmission-immediate-blocker]] - hetauda-dhalkebar-inaruwa-backbone - [[hetauda-bharatpur-bardaghat-corridor]] - [[mca-central-…",
         "target_exists": true
       },
       {
@@ -5357,6 +6120,13 @@
         "category": "claims",
         "context": "…— 220 kV west-central evacuation ### Cross-border pages - dhalkebar-muzaffarpur — the only operational 400 kV cross-border - [[gorakhpur-bu…",
         "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnections",
+        "title": "Layer: Cross-Border Gateways",
+        "category": "data",
+        "context": "…at can flow. ## Related - [[india-energy-relationship]] - dhalkebar-muzaffarpur - [[gorakhpur-butwal-interconnection]] - [[nepal-power-trad…",
+        "target_exists": true
       }
     ],
     "mca-central-400": [
@@ -5396,10 +6166,24 @@
         "target_exists": true
       },
       {
+        "slug": "marsyangdi-upper-220",
+        "title": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
+        "category": "entities",
+        "context": "…also - [[udipur-damauli-bharatpur-220]] - [[marsyangdi]] - mca-central-400 - [[data-layer-transmission-connected-traced-network]]",
+        "target_exists": true
+      },
+      {
         "slug": "ratmate-rasuwagadhi-kerung-400kv",
         "title": "Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line",
         "category": "entities",
         "context": "…. ## See also - [[rasuwagadhi]] - [[hydro-geopolitics]] - mca-central-400 - [[nepal-transmission-landscape-2025]]",
+        "target_exists": true
+      },
+      {
+        "slug": "udipur-damauli-bharatpur-220",
+        "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
+        "category": "entities",
+        "context": "…syangdi package. ## See also - [[marsyangdi-upper-220]] - mca-central-400 - [[data-layer-transmission-connected-traced-network]] - [[…",
         "target_exists": true
       },
       {
@@ -5414,6 +6198,13 @@
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
         "context": "…inaruwa-backbone]] — the only operational 400 kV backbone - mca-central-400 — the parallel 400 kV under construction - [[khimti-dhalkeb…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…uwa-backbone]] - [[hetauda-bharatpur-bardaghat-corridor]] - mca-central-400 - [[dana-kushma-butwal-corridor]] - [[western-132-backbone]…",
         "target_exists": true
       }
     ],
@@ -5468,10 +6259,17 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-cross-border-interconnection-lines",
+        "title": "Layer: Cross-Border Links",
+        "category": "data",
+        "context": "…-side route. ## Related - [[india-energy-relationship]] - data-trade-time-series - [[nepal-power-trade-schemes]] - [[claim-transmission-imme…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…-blocker]] - **Cross-border interconnection nodes** tied to data-trade-time-series - **Storage annotations** for [[kulekhani-cascade]], [[tana…",
+        "context": "…oss-border interconnection capacity and utilization back to data-trade-time-series. - **Storage annotations** for [[kulekhani-cascade]], [[tan…",
         "target_exists": true
       }
     ],
@@ -5544,6 +6342,20 @@
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
         "context": "…[solar-in-the-master-narrative]] — the parallel synthesis - solar-hydro-complementarity — the physical basis - [[storage-deficit]], [[seasonal-mism…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-ghi-zones",
+        "title": "Layer: Solar GHI Zones",
+        "category": "data",
+        "context": "…e-geography-nepal]] - [[data-nepal-solar-resource-zones]] - solar-hydro-complementarity - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-strategic-suitability",
+        "title": "Layer: Solar Strategic Suitability",
+        "category": "data",
+        "context": "…ocurement studies. ## Related - [[hybrid-siting-logic]] - solar-hydro-complementarity - [[solar-resource-geography-nepal]] - [[data-map-layer-la…",
         "target_exists": true
       },
       {
@@ -5649,6 +6461,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…on map geometry. The shortlist has 11 map features, while data-storage-comparison also discusses Chera-1 in the broader 12-project table. Che…",
+        "target_exists": true
+      },
+      {
         "slug": "data-mountain-hydro-comparison",
         "title": "Mountain Hydro System Comparison",
         "category": "data",
@@ -5743,6 +6562,13 @@
         "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
         "category": "claims",
         "context": "…sible) attaches to which public numbers, with citations per hydropower-potential-categories and [[data-potential-pyramid]]. - **Transmission and spill*…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-survey-study",
+        "title": "Layer: Hydropower - Survey/Study",
+        "category": "data",
+        "context": "…pipeline if read without status discipline. ## Related - hydropower-potential-categories - [[project-roadmap]] - [[claim-systems-conversion-failure]…",
         "target_exists": true
       }
     ],
@@ -5995,7 +6821,7 @@
         "slug": "solar-lcoe-crossover",
         "title": "Solar LCOE Crossover",
         "category": "concepts",
-        "context": "…hose production profile is **worst-matched** to demand (the seasonal-mismatch pattern), while the November 2024 solar LoI clears a 960 MW…",
+        "context": "…hose production profile is **worst-matched** to demand (the seasonal-mismatch pattern), and ~5.94 NPR/kWh for solar energy whose producti…",
         "target_exists": true
       },
       {
@@ -6104,6 +6930,27 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-basin-seasonality",
+        "title": "Layer: Basin Seasonality",
+        "category": "data",
+        "context": "…ng or climate-adjusted hydrological studies. ## Related - seasonal-mismatch - [[seasonal-arbitrage-trap]] - [[storage-deficit]] - [[fir…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-impact-markers",
+        "title": "Layer: Downstream Impact Markers",
+        "category": "data",
+        "context": "…logical analysis. ## Related - [[data-basin-discharge]] - seasonal-mismatch - [[storage-deficit]] - [[ganges-contribution]] - [[data-m…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-downstream-systems",
+        "title": "Layer: Nepal-Origin Downstream Systems",
+        "category": "data",
+        "context": "…] - [[hydro-geopolitics]] - [[india-energy-relationship]] - seasonal-mismatch - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
         "slug": "data-mountain-hydro-comparison",
         "title": "Mountain Hydro System Comparison",
         "category": "data",
@@ -6162,12 +7009,149 @@
         "target_exists": true
       }
     ],
+    "data-layer-priority-watchlist": [
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola",
+        "category": "entities",
+        "context": "…operating project in Syangja, but it is pinned in both the data-layer-priority-watchlist and [[data-layer-storage-shortlist]] because the same river…",
+        "target_exists": true
+      },
+      {
+        "slug": "betan-karnali-hp",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…-licence / investment-approval project. It is pinned in the data-layer-priority-watchlist and [[data-layer-top-10-capacity-projects]] because it sits…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…. It is pinned in both [[data-layer-storage-shortlist]] and data-layer-priority-watchlist because it contributes the kind of dry-season energy Nepal'…",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…y Vidhyut Utpadan Company Limited. It is pinned in both the data-layer-priority-watchlist and [[data-layer-top-10-capacity-projects]] because it is o…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-bhotekoshi",
+        "title": "Upper Bhotekoshi",
+        "category": "entities",
+        "context": "…ct on the Bhote Koshi in Sindhupalchok. It is pinned in the data-layer-priority-watchlist not because it is large, but because it is a useful reality…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-1",
+        "title": "Upper Trishuli-1",
+        "category": "entities",
+        "context": "…tage project on the Trishuli in Rasuwa. It is pinned in the data-layer-priority-watchlist because it sits in the central-north Trishuli corridor, whe…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…It should be read beside [[data-layer-storage-shortlist]], data-layer-priority-watchlist, basin seasonality, and transmission layers. Large MW can b…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…e, basin leverage, financing, or transmission dependence. | data-layer-priority-watchlist | | Storage shortlist | 11 | Storage and storage-like proje…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-storage-shortlist": [
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola",
+        "category": "entities",
+        "context": "…is pinned in both the [[data-layer-priority-watchlist]] and data-layer-storage-shortlist because the same river/site family appears in JICA's promis…",
+        "target_exists": true
+      },
+      {
+        "slug": "kokhajor-1",
+        "title": "Kokhajor-1",
+        "category": "entities",
+        "context": "…ising-storage candidate in the Koshi basin. It is pinned in data-layer-storage-shortlist because it has a high dry-energy share for a relatively sma…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-badigad",
+        "title": "Lower Badigad",
+        "category": "entities",
+        "context": "…ing-storage candidate in the Gandaki basin. It is pinned in data-layer-storage-shortlist because it pairs large carryover storage with meaningful dr…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-jhimruk",
+        "title": "Lower Jhimruk",
+        "category": "entities",
+        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist as a medium-basin storage option, with the important caveat…",
+        "target_exists": true
+      },
+      {
+        "slug": "madi",
+        "title": "Madi",
+        "category": "entities",
+        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist because its dry-energy ratio is useful even though it is no…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…omising-storage set used by this wiki. It is pinned in both data-layer-storage-shortlist and [[data-layer-priority-watchlist]] because it contribute…",
+        "target_exists": true
+      },
+      {
+        "slug": "naumure-w-rapti",
+        "title": "Naumure (W. Rapti)",
+        "category": "entities",
+        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist because its effective storage is unusually large for its in…",
+        "target_exists": true
+      },
+      {
+        "slug": "sun-koshi-no-3",
+        "title": "Sun Koshi No.3",
+        "category": "entities",
+        "context": "…ising-storage candidate in the Koshi basin. It is pinned in data-layer-storage-shortlist because it combines large reservoir scale with meaningful d…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…ojson) - 12-feature watchlist layer used by the explorer. - data-layer-storage-shortlist - overlapping storage and storage-like candidates. - [[data…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…arator, not a recommendation list. It should be read beside data-layer-storage-shortlist, [[data-layer-priority-watchlist]], basin seasonality, and…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ghted for dry-season energy value, not just installed MW. | data-layer-storage-shortlist | | Top-10 capacity projects | 10 | Largest hydropower proj…",
+        "target_exists": true
+      }
+    ],
     "firm-power": [
       {
         "slug": "andhi-khola",
         "title": "Andhi Khola",
         "category": "entities",
-        "context": "…sin]] - [[run-of-river-hydropower]] - [[storage-deficit]] - firm-power - [[stranded-generation]]",
+        "context": "…sin]] - [[run-of-river-hydropower]] - [[storage-deficit]] - firm-power - [[stranded-generation]] - [[data-layer-storage-shortlist]…",
         "target_exists": true
       },
       {
@@ -6202,7 +7186,7 @@
         "slug": "kokhajor-1",
         "title": "Kokhajor-1",
         "category": "entities",
-        "context": "…e 2 ## See also - [[koshi-basin]] - [[storage-deficit]] - firm-power",
+        "context": "…e 2 ## See also - [[koshi-basin]] - [[storage-deficit]] - firm-power - [[data-layer-storage-shortlist]]",
         "target_exists": true
       },
       {
@@ -6216,21 +7200,21 @@
         "slug": "lower-badigad",
         "title": "Lower Badigad",
         "category": "entities",
-        "context": "…2 ## See also - [[gandaki-basin]] - [[storage-deficit]] - firm-power",
+        "context": "…2 ## See also - [[gandaki-basin]] - [[storage-deficit]] - firm-power - [[tanahu-hydropower]] - [[data-ipsdp-milestone-ladder-202…",
         "target_exists": true
       },
       {
         "slug": "lower-jhimruk",
         "title": "Lower Jhimruk",
         "category": "entities",
-        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power",
+        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power - [[naumure-w-rapti]] - [[data-layer-storage-shortlist]]",
         "target_exists": true
       },
       {
         "slug": "madi",
         "title": "Madi",
         "category": "entities",
-        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power",
+        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power - [[naumure-w-rapti]] - [[data-ipsdp-milestone-ladder-2022-…",
         "target_exists": true
       },
       {
@@ -6244,21 +7228,21 @@
         "slug": "nalsyau-gad",
         "title": "Nalsyau Gad",
         "category": "entities",
-        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power",
+        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power - [[data-ipsdp-milestone-ladder-2022-2040]] - [[data-layer-…",
         "target_exists": true
       },
       {
         "slug": "naumure-w-rapti",
         "title": "Naumure (W. Rapti)",
         "category": "entities",
-        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power",
+        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power - [[data-ipsdp-milestone-ladder-2022-2040]] - [[data-layer-…",
         "target_exists": true
       },
       {
         "slug": "sun-koshi-no-3",
         "title": "Sun Koshi No.3",
         "category": "entities",
-        "context": "…e 2 ## See also - [[koshi-basin]] - [[storage-deficit]] - firm-power",
+        "context": "…e 2 ## See also - [[koshi-basin]] - [[storage-deficit]] - firm-power - [[dudhkoshi-storage]] - [[data-ipsdp-milestone-ladder-202…",
         "target_exists": true
       },
       {
@@ -6367,6 +7351,20 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-basin-seasonality",
+        "title": "Layer: Basin Seasonality",
+        "category": "data",
+        "context": "…tch]] - [[seasonal-arbitrage-trap]] - [[storage-deficit]] - firm-power - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…gy comparison context. ## Related - [[storage-deficit]] - firm-power - [[seasonal-arbitrage-trap]] - [[claim-storage-physical-fi…",
+        "target_exists": true
+      },
+      {
         "slug": "data-solar-hydro-complementarity-profile",
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
@@ -6394,6 +7392,13 @@
         "title": "Koshi Basin",
         "category": "entities",
         "context": "…]]. Contains the [[dudhkoshi-storage]] project (670 MW) and upper-tamakoshi (456 MW, largest operating plant). The Arun corridor hosts…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-3",
+        "title": "Tamakoshi 3",
+        "category": "entities",
+        "context": "…sits in the same high-head eastern hydropower geography as upper-tamakoshi. <!-- generated:specs:start --> ## Specifications | Para…",
         "target_exists": true
       },
       {
@@ -6452,6 +7457,122 @@
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
         "context": "…wal-interconnection]] — second 400 kV, under construction - inaruwa-purnea-interconnection — third 400 kV, tied to [[arun-3]] - [[kataiya-kushaha-inte…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-top-10-capacity-projects": [
+      {
+        "slug": "betan-karnali-hp",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…. It is pinned in the [[data-layer-priority-watchlist]] and data-layer-top-10-capacity-projects because it sits directly in the Karnali buildout story: lar…",
+        "target_exists": true
+      },
+      {
+        "slug": "bheri-1-hep",
+        "title": "Bheri-1 HEP",
+        "category": "entities",
+        "context": "…t is not on the priority watchlist, but it is pinned by the data-layer-top-10-capacity-projects layer because it is one of the ten largest capacity records…",
+        "target_exists": true
+      },
+      {
+        "slug": "kimathanka-arun-hep",
+        "title": "Kimathanka Arun HEP",
+        "category": "entities",
+        "context": "…stage project on the Arun in Sankhuwasabha. It is pinned in data-layer-top-10-capacity-projects because it is the eighth-largest marker in the display set…",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…is pinned in both the [[data-layer-priority-watchlist]] and data-layer-top-10-capacity-projects because it is one of the few large Karnali projects with a…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-3",
+        "title": "Tamakoshi 3",
+        "category": "entities",
+        "context": "…stage project on the Tama Koshi in Dolakha. It is pinned in data-layer-top-10-capacity-projects because it is the sixth-largest capacity marker in the disp…",
+        "target_exists": true
+      },
+      {
+        "slug": "uttarganga-storage-hydropower-project",
+        "title": "Uttarganga Storage Hydropower Project",
+        "category": "entities",
+        "context": "…wer project in Baglung promoted by NEA. It is pinned in the data-layer-top-10-capacity-projects layer because it is the fourth-largest capacity marker in t…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…list]] - overlapping storage and storage-like candidates. - data-layer-top-10-capacity-projects - pure capacity-rank comparator. ## Related - [[twenty-ye…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…for separating headline MW from deliverable system value. | data-layer-top-10-capacity-projects | ## Transmission and trade layers | Label | Features | S…",
+        "target_exists": true
+      }
+    ],
+    "claim-mw-not-equal-value": [
+      {
+        "slug": "bheri-1-hep",
+        "title": "Bheri-1 HEP",
+        "category": "entities",
+        "context": "…comparison. This is exactly the kind of project that tests claim-mw-not-equal-value. A 440 MW survey marker can look decisive on a map, but the…",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…ate survives detailed contracting. It also matters for the claim-mw-not-equal-value argument. A 426-480 MW Karnali project can be valuable, but…",
+        "target_exists": true
+      },
+      {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
+        "category": "concepts",
+        "context": "…an the value of export trade, for the same physical energy. claim-mw-not-equal-value applies directly here. 4. **The \"two-step\" mistake to avoi…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-construction",
+        "title": "Layer: Hydropower - Construction",
+        "category": "data",
+        "context": "…d-generation]] - [[claim-transmission-immediate-blocker]] - claim-mw-not-equal-value - [[twenty-year-strategy]] - [[data-map-layer-labels]] - […",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-operating",
+        "title": "Layer: Hydropower - Operating",
+        "category": "data",
+        "context": "…[nepal-energy-profile]] - [[nea-annual-report-fy2024-25]] - claim-mw-not-equal-value - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…project geography to articles such as [[storage-deficit]], claim-mw-not-equal-value, [[claim-transmission-immediate-blocker]], and [[twenty-yea…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…easonal-arbitrage-trap]] - [[claim-storage-physical-fix]] - claim-mw-not-equal-value - [[data-layer-basin-seasonality]] - [[data-map-layer-labe…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…e-shortlist]] - dry-season value comparator. ## Related - claim-mw-not-equal-value - [[twenty-year-strategy]] - [[storage-deficit]] - [[claim-…",
         "target_exists": true
       }
     ],
@@ -6515,6 +7636,13 @@
         "target_exists": true
       },
       {
+        "slug": "kabeli-132",
+        "title": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
+        "category": "entities",
+        "context": "…o - [[data-layer-transmission-connected-traced-network]] - claim-transmission-immediate-blocker - [[nepal-transmission-landscape-2025]]",
+        "target_exists": true
+      },
+      {
         "slug": "mca-central-400",
         "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)",
         "category": "entities",
@@ -6522,10 +7650,24 @@
         "target_exists": true
       },
       {
+        "slug": "solu-tingla-mirchaiya-132",
+        "title": "Solu Corridor Tingla-Mirchaiya 132 kV",
+        "category": "entities",
+        "context": "…-traced-network]] - [[nea-transmission-annual-book-2077]] - claim-transmission-immediate-blocker",
+        "target_exists": true
+      },
+      {
         "slug": "tingla-132-33kv-substation",
         "title": "Tingla 132/33 kV Substation",
         "category": "entities",
         "context": "…belongs in the same “transmission before value” story as claim-transmission-immediate-blocker and the later [[nepal-transmission-landscape-2025]] synth…",
+        "target_exists": true
+      },
+      {
+        "slug": "udipur-damauli-bharatpur-220",
+        "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
+        "category": "entities",
+        "context": "…]] - [[data-layer-transmission-connected-traced-network]] - claim-transmission-immediate-blocker",
         "target_exists": true
       },
       {
@@ -6550,10 +7692,80 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-transmission-raw-traced-segments",
+        "title": "Internal Data: Source Trace Fragments",
+        "category": "data",
+        "context": "…al-transmission-landscape-2025]] - [[data-map-inventory]] - claim-transmission-immediate-blocker - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-network-nodes",
+        "title": "Internal Data: Transmission Topology Nodes",
+        "category": "data",
+        "context": "…set. ## Related - [[nepal-transmission-landscape-2025]] - claim-transmission-immediate-blocker - [[data-map-inventory]] - [[data-map-layer-labels]] - [[d…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-corridors-curated",
+        "title": "Layer: Context Corridor Sketch",
+        "category": "data",
+        "context": "…comes the authoritative reader-facing layer. ## Related - claim-transmission-immediate-blocker - [[nepal-transmission-landscape-2025]] - [[stranded-genera…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnection-lines",
+        "title": "Layer: Cross-Border Links",
+        "category": "data",
+        "context": "…[data-trade-time-series]] - [[nepal-power-trade-schemes]] - claim-transmission-immediate-blocker - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-construction",
+        "title": "Layer: Hydropower - Construction",
+        "category": "data",
+        "context": "…vered electricity. ## Related - [[stranded-generation]] - claim-transmission-immediate-blocker - [[claim-mw-not-equal-value]] - [[twenty-year-strategy]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…al-transmission-landscape-2025]] - [[data-map-inventory]] - claim-transmission-immediate-blocker - [[hetauda-dhalkebar-inaruwa-backbone]] - [[hetauda-bharat…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…such as [[storage-deficit]], [[claim-mw-not-equal-value]], claim-transmission-immediate-blocker, and [[twenty-year-strategy]]. ## Included Projects | Pro…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…-value]] - [[twenty-year-strategy]] - [[storage-deficit]] - claim-transmission-immediate-blocker - [[data-layer-basin-seasonality]] - [[data-map-layer-labe…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-labels",
+        "title": "Layer: Transmission Labels",
+        "category": "data",
+        "context": "…nce. ## Related - [[nepal-transmission-landscape-2025]] - claim-transmission-immediate-blocker - [[data-map-inventory]] - [[data-map-layer-labels]] - [[d…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…ridor layer exists yet for the seven segments documented in claim-transmission-immediate-blocker. - No cross-border interconnection-point layer yet exists f…",
+        "context": "…[gandaki-basin]] - [[karnali-basin]] - [[mahakali-basin]] - claim-transmission-immediate-blocker - [[data-nepal-solar-resource-zones]] - [[data-solar-fleet-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…# Related - [[data-map-inventory]] - [[project-roadmap]] - claim-transmission-immediate-blocker - [[storage-deficit]] - [[ganges-contribution]]",
         "target_exists": true
       }
     ],
@@ -6584,6 +7796,13 @@
         "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone",
         "category": "entities",
         "context": "…route off HDDI - [[claim-transmission-immediate-blocker]] - nepal-transmission-landscape-2025",
+        "target_exists": true
+      },
+      {
+        "slug": "kabeli-132",
+        "title": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
+        "category": "entities",
+        "context": "…aced-network]] - [[claim-transmission-immediate-blocker]] - nepal-transmission-landscape-2025",
         "target_exists": true
       },
       {
@@ -6675,6 +7894,55 @@
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
         "context": "…liya-jauljibi-interconnection]] — planned 220 kV far-west - nepal-transmission-landscape-2025 — source compilation",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-raw-traced-segments",
+        "title": "Internal Data: Source Trace Fragments",
+        "category": "data",
+        "context": "…yer-transmission-connected-traced-network]]. ## Related - nepal-transmission-landscape-2025 - [[data-map-inventory]] - [[claim-transmission-immediate-b…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-network-nodes",
+        "title": "Internal Data: Transmission Topology Nodes",
+        "category": "data",
+        "context": "…o not read every marker as a surveyed asset. ## Related - nepal-transmission-landscape-2025 - [[claim-transmission-immediate-blocker]] - [[data-map-inv…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-trace-gaps-qa",
+        "title": "Internal Data: Transmission Trace Gaps",
+        "category": "data",
+        "context": "…# Related - [[data-map-inventory]] - [[project-roadmap]] - nepal-transmission-landscape-2025 - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-corridors-curated",
+        "title": "Layer: Context Corridor Sketch",
+        "category": "data",
+        "context": "…. ## Related - [[claim-transmission-immediate-blocker]] - nepal-transmission-landscape-2025 - [[stranded-generation]] - [[data-map-layer-labels]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-grid-hubs-place-anchors",
+        "title": "Layer: Grid Hubs and Substations",
+        "category": "data",
+        "context": "…# Related - [[data-map-inventory]] - [[project-roadmap]] - nepal-transmission-landscape-2025 - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…fields in the popup when precision matters. ## Related - nepal-transmission-landscape-2025 - [[data-map-inventory]] - [[claim-transmission-immediate-b…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-labels",
+        "title": "Layer: Transmission Labels",
+        "category": "data",
+        "context": "…they do not add new geometry or confidence. ## Related - nepal-transmission-landscape-2025 - [[claim-transmission-immediate-blocker]] - [[data-map-inv…",
         "target_exists": true
       },
       {
@@ -6930,10 +8198,135 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…ediate-blocker]] - [[hetauda-dhalkebar-inaruwa-backbone]] - hetauda-bharatpur-bardaghat-corridor - [[mca-central-400]] - [[dana-kushma-butwal-corridor]] - […",
+        "target_exists": true
+      },
+      {
         "slug": "data-nea-substation-capacity-fy2076-77",
         "title": "NEA Substation Capacity FY 2076/77",
         "category": "data",
         "context": "…ic bottlenecks in [[hetauda-dhalkebar-inaruwa-backbone]], hetauda-bharatpur-bardaghat-corridor, and [[nepal-transmission-landscape-2025]]. - The named que…",
+        "target_exists": true
+      }
+    ],
+    "chameliya-jauljibi-interconnection": [
+      {
+        "slug": "chameliya-attariya-132",
+        "title": "Chameliya-Syaule-Attariya 132 kV Line",
+        "category": "entities",
+        "context": "…cuation context. It should not be confused with the planned chameliya-jauljibi-interconnection, which is a separate future cross-border link. ## See also…",
+        "target_exists": true
+      },
+      {
+        "slug": "project-roadmap",
+        "title": "Project Roadmap",
+        "category": "concepts",
+        "context": "…rconnection]], [[kataiya-kushaha-interconnection]], chameliya-jauljibi-interconnection - [x] Source compilation page [[nepal-transmission-landscap…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-transmission-immediate-blocker",
+        "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
+        "category": "claims",
+        "context": "…ushaha-interconnection]] — the historic 132 kV first link - chameliya-jauljibi-interconnection — planned 220 kV far-west - [[nepal-transmission-landscape-…",
+        "target_exists": true
+      }
+    ],
+    "western-132-backbone": [
+      {
+        "slug": "chameliya-attariya-132",
+        "title": "Chameliya-Syaule-Attariya 132 kV Line",
+        "category": "entities",
+        "context": "…ich is a separate future cross-border link. ## See also - western-132-backbone - [[chameliya-jauljibi-interconnection]] - [[data-layer-tra…",
+        "target_exists": true
+      },
+      {
+        "slug": "kohalpur-surkhet-dailekh-132",
+        "title": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
+        "category": "entities",
+        "context": "…on progress uneven across the two sections. ## See also - western-132-backbone - [[karnali-basin]] - [[data-layer-transmission-connected-t…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…] - [[mca-central-400]] - [[dana-kushma-butwal-corridor]] - western-132-backbone - [[chameliya-attariya-132]] - [[kohalpur-surkhet-dailekh-1…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-transmission-connected-traced-network": [
+      {
+        "slug": "chameliya-attariya-132",
+        "title": "Chameliya-Syaule-Attariya 132 kV Line",
+        "category": "entities",
+        "context": "…n-132-backbone]] - [[chameliya-jauljibi-interconnection]] - data-layer-transmission-connected-traced-network",
+        "target_exists": true
+      },
+      {
+        "slug": "dana-kushma-butwal-corridor",
+        "title": "Dana–Kushma–New Butwal 220 kV Corridor",
+        "category": "entities",
+        "context": "…butwal-interconnection]] — the cross-border at New Butwal - data-layer-transmission-connected-traced-network — the public layer where this corridor now appears",
+        "target_exists": true
+      },
+      {
+        "slug": "kabeli-132",
+        "title": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
+        "category": "entities",
+        "context": "…Phidim branch as separate network features. ## See also - data-layer-transmission-connected-traced-network - [[claim-transmission-immediate-blocker]] - [[nepal-transm…",
+        "target_exists": true
+      },
+      {
+        "slug": "kohalpur-surkhet-dailekh-132",
+        "title": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
+        "category": "entities",
+        "context": "…See also - [[western-132-backbone]] - [[karnali-basin]] - data-layer-transmission-connected-traced-network",
+        "target_exists": true
+      },
+      {
+        "slug": "marsyangdi-upper-220",
+        "title": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
+        "category": "entities",
+        "context": "…li-bharatpur-220]] - [[marsyangdi]] - [[mca-central-400]] - data-layer-transmission-connected-traced-network",
+        "target_exists": true
+      },
+      {
+        "slug": "solu-tingla-mirchaiya-132",
+        "title": "Solu Corridor Tingla-Mirchaiya 132 kV",
+        "category": "entities",
+        "context": "…should keep the confidence caveat visible. ## See also - data-layer-transmission-connected-traced-network - [[nea-transmission-annual-book-2077]] - [[claim-transmiss…",
+        "target_exists": true
+      },
+      {
+        "slug": "udipur-damauli-bharatpur-220",
+        "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
+        "category": "entities",
+        "context": "…ee also - [[marsyangdi-upper-220]] - [[mca-central-400]] - data-layer-transmission-connected-traced-network - [[claim-transmission-immediate-blocker]]",
+        "target_exists": true
+      },
+      {
+        "slug": "western-132-backbone",
+        "title": "Western Nepal 132 kV Backbone",
+        "category": "entities",
+        "context": "…ighter visual weight than 220/400 kV lines. ## See also - data-layer-transmission-connected-traced-network - [[chameliya-attariya-132]] - [[kohalpur-surkhet-dailekh-1…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-raw-traced-segments",
+        "title": "Internal Data: Source Trace Fragments",
+        "category": "data",
+        "context": "…e, or source-map dependent. The reader-facing grid layer is data-layer-transmission-connected-traced-network. ## Related - [[nepal-transmission-landscape-2025]] - [[d…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…corridors, with status and provenance visible in popups. | data-layer-transmission-connected-traced-network | | Grid hubs and substations | 39 | Named grid hubs and su…",
         "target_exists": true
       }
     ],
@@ -6971,6 +8364,13 @@
         "title": "Basin Discharge Data",
         "category": "data",
         "context": "…9.6 | 65–72% | 15–20:1 | [[wecs-river-basin-plan-2024]] | | mahakali-basin | — | ~600 | — | ~73% | — | [[wecs-river-basin-plan-2024]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons",
+        "category": "data",
+        "context": "…- [[koshi-basin]] - [[gandaki-basin]] - [[karnali-basin]] - mahakali-basin - [[ganges-contribution]] - [[hydro-geopolitics]] - [[data…",
         "target_exists": true
       },
       {
@@ -7047,6 +8447,13 @@
         "target_exists": true
       },
       {
+        "slug": "western-132-backbone",
+        "title": "Western Nepal 132 kV Backbone",
+        "category": "entities",
+        "context": "…r-surkhet-dailekh-132]] - [[dana-kushma-butwal-corridor]] - gorakhpur-butwal-interconnection",
+        "target_exists": true
+      },
+      {
         "slug": "project-roadmap",
         "title": "Project Roadmap",
         "category": "concepts",
@@ -7065,6 +8472,13 @@
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
         "context": "…-muzaffarpur]] — the only operational 400 kV cross-border - gorakhpur-butwal-interconnection — second 400 kV, under construction - [[inaruwa-purnea-inte…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnections",
+        "title": "Layer: Cross-Border Gateways",
+        "category": "data",
+        "context": "…[[india-energy-relationship]] - [[dhalkebar-muzaffarpur]] - gorakhpur-butwal-interconnection - [[nepal-power-trade-schemes]] - [[data-map-layer-labels]…",
         "target_exists": true
       }
     ],
@@ -7219,6 +8633,13 @@
         "target_exists": true
       },
       {
+        "slug": "western-132-backbone",
+        "title": "Western Nepal 132 kV Backbone",
+        "category": "entities",
+        "context": "…ameliya-attariya-132]] - [[kohalpur-surkhet-dailekh-132]] - dana-kushma-butwal-corridor - [[gorakhpur-butwal-interconnection]]",
+        "target_exists": true
+      },
+      {
         "slug": "hybrid-siting-logic",
         "title": "Hybrid Siting Logic",
         "category": "concepts",
@@ -7245,6 +8666,13 @@
         "category": "claims",
         "context": "…a-bharatpur-bardaghat-corridor]] — 220 kV east–west spine - dana-kushma-butwal-corridor — 220 kV west-central evacuation ### Cross-border pages -…",
         "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…auda-bharatpur-bardaghat-corridor]] - [[mca-central-400]] - dana-kushma-butwal-corridor - [[western-132-backbone]] - [[chameliya-attariya-132]] - […",
+        "target_exists": true
       }
     ],
     "khimti-dhalkebar-corridor": [
@@ -7252,7 +8680,7 @@
         "slug": "hetauda-dhalkebar-inaruwa-backbone",
         "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone",
         "category": "entities",
-        "context": "…ne. - **Aggregation point for IPP clusters.** Evacuates the khimti-dhalkebar-corridor, Sunkoshi, Tamakoshi and (once online) [[arun-3]] blocks…",
+        "context": "…ry. - **Aggregation point for IPP clusters.** Evacuates the khimti-dhalkebar-corridor, Sunkoshi, Tamakoshi and (once online) [[arun-3]] blocks…",
         "target_exists": true
       },
       {
@@ -7466,6 +8894,52 @@
         "category": "entities",
         "context": "…idur-trishuli-solar-25mwp]] — precedent, if unintentional - naumure-w-rapti — nearby hydro developments that could inform future hybrid…",
         "target_exists": true
+      },
+      {
+        "slug": "lower-jhimruk",
+        "title": "Lower Jhimruk",
+        "category": "entities",
+        "context": "…shortlist notes that Lower Jhimruk's layout conflicts with naumure-w-rapti in the current design. That means the project should not be…",
+        "target_exists": true
+      },
+      {
+        "slug": "madi",
+        "title": "Madi",
+        "category": "entities",
+        "context": "…ith or complements other West Rapti storage options such as naumure-w-rapti. ## Map Interpretation The marker is a river anchor suita…",
+        "target_exists": true
+      }
+    ],
+    "udipur-damauli-bharatpur-220": [
+      {
+        "slug": "marsyangdi-upper-220",
+        "title": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
+        "category": "entities",
+        "context": "…romoting this to a higher-confidence route. ## See also - udipur-damauli-bharatpur-220 - [[marsyangdi]] - [[mca-central-400]] - [[data-layer-trans…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…ameliya-attariya-132]] - [[kohalpur-surkhet-dailekh-132]] - udipur-damauli-bharatpur-220 - [[marsyangdi-upper-220]] - [[kabeli-132]] - [[solu-tingla…",
+        "target_exists": true
+      }
+    ],
+    "marsyangdi": [
+      {
+        "slug": "marsyangdi-upper-220",
+        "title": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
+        "category": "entities",
+        "context": "…e route. ## See also - [[udipur-damauli-bharatpur-220]] - marsyangdi - [[mca-central-400]] - [[data-layer-transmission-connected…",
+        "target_exists": true
+      },
+      {
+        "slug": "hybrid-siting-logic",
+        "title": "Hybrid Siting Logic",
+        "category": "concepts",
+        "context": "…MW IPP; headrace-adjacent terraces, 10–15 MWp candidate. - marsyangdi / [[madhya-marsyangdi]] — cascade co-location, 20–40 MWp co…",
+        "target_exists": true
       }
     ],
     "lower-modi-khola": [
@@ -7537,7 +9011,7 @@
         "slug": "nea-solar",
         "title": "NEA Solar Programme",
         "category": "entities",
-        "context": "…~10 (pilot) | Planned/implementation | NEA / AEPC hybrid | karnali-solar-energy-project | | **960 MW tender portfolio** | 960 (64 project selection…",
+        "context": "…~10 (pilot) | Planned/implementation | NEA / AEPC hybrid | karnali-solar-energy-project | | **960 MW tender portfolio** | 960 (63 projects) | PPA i…",
         "target_exists": true
       }
     ],
@@ -7575,6 +9049,13 @@
         "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
         "category": "claims",
         "context": "…[[solar-role-in-winter-deficit]] - [[data-map-inventory]] - claim-solar-terai-only-short-cycle-build",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-plants-nea-awards",
+        "title": "Layer: Solar Plants + NEA 960 MW Awards",
+        "category": "data",
+        "context": "…-solar-fleet-inventory]] - [[claim-floating-pv-leverage]] - claim-solar-terai-only-short-cycle-build - [[data-map-layer-labels]] - [[data-map-inventory]]",
         "target_exists": true
       }
     ],
@@ -7698,6 +9179,15 @@
         "target_exists": true
       }
     ],
+    "nea-transmission-annual-book-2077": [
+      {
+        "slug": "solu-tingla-mirchaiya-132",
+        "title": "Solu Corridor Tingla-Mirchaiya 132 kV",
+        "category": "entities",
+        "context": "…o - [[data-layer-transmission-connected-traced-network]] - nea-transmission-annual-book-2077 - [[claim-transmission-immediate-blocker]]",
+        "target_exists": true
+      }
+    ],
     "solu-hydropower-project": [
       {
         "slug": "tingla-132-33kv-substation",
@@ -7716,6 +9206,22 @@
         "target_exists": true
       }
     ],
+    "marsyangdi-upper-220": [
+      {
+        "slug": "udipur-damauli-bharatpur-220",
+        "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
+        "category": "entities",
+        "context": "…ather than in the upper Marsyangdi package. ## See also - marsyangdi-upper-220 - [[mca-central-400]] - [[data-layer-transmission-connected…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…-surkhet-dailekh-132]] - [[udipur-damauli-bharatpur-220]] - marsyangdi-upper-220 - [[kabeli-132]] - [[solu-tingla-mirchaiya-132]] - [[data-…",
+        "target_exists": true
+      }
+    ],
     "wecs-river-basin-plan-2024": [
       {
         "slug": "wecs",
@@ -7729,6 +9235,45 @@
         "title": "Basin Discharge Data",
         "category": "data",
         "context": "…koshi-basin]] | 27,818 | 1,827 | ~57.6 | 67–78% | 25–50:1 | wecs-river-basin-plan-2024 | | [[gandaki-basin]] | 32,148 | 1,952 | ~61.6 | 74–80% | 2…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-tributaries",
+        "title": "Layer: Nepal Tributaries (HydroRIVERS)",
+        "category": "data",
+        "context": "…lified, or named differently across sources. ## Related - wecs-river-basin-plan-2024 - [[wecs-hydropower-potential-2019]] - [[run-of-river-hydro…",
+        "target_exists": true
+      }
+    ],
+    "chameliya-attariya-132": [
+      {
+        "slug": "western-132-backbone",
+        "title": "Western Nepal 132 kV Backbone",
+        "category": "entities",
+        "context": "…o - [[data-layer-transmission-connected-traced-network]] - chameliya-attariya-132 - [[kohalpur-surkhet-dailekh-132]] - [[dana-kushma-butwal-c…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…[dana-kushma-butwal-corridor]] - [[western-132-backbone]] - chameliya-attariya-132 - [[kohalpur-surkhet-dailekh-132]] - [[udipur-damauli-bhara…",
+        "target_exists": true
+      }
+    ],
+    "kohalpur-surkhet-dailekh-132": [
+      {
+        "slug": "western-132-backbone",
+        "title": "Western Nepal 132 kV Backbone",
+        "category": "entities",
+        "context": "…n-connected-traced-network]] - [[chameliya-attariya-132]] - kohalpur-surkhet-dailekh-132 - [[dana-kushma-butwal-corridor]] - [[gorakhpur-butwal-inte…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…] - [[western-132-backbone]] - [[chameliya-attariya-132]] - kohalpur-surkhet-dailekh-132 - [[udipur-damauli-bharatpur-220]] - [[marsyangdi-upper-220…",
         "target_exists": true
       }
     ],
@@ -7811,6 +9356,27 @@
         "category": "data",
         "context": "…l-power-trade-schemes]] - [[domestic-led-hydro-strategy]] - twenty-year-strategy",
         "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-construction",
+        "title": "Layer: Hydropower - Construction",
+        "category": "data",
+        "context": "…ission-immediate-blocker]] - [[claim-mw-not-equal-value]] - twenty-year-strategy - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…qual-value]], [[claim-transmission-immediate-blocker]], and twenty-year-strategy. ## Included Projects | Project | MW | River / Basin Sign…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…e comparator. ## Related - [[claim-mw-not-equal-value]] - twenty-year-strategy - [[storage-deficit]] - [[claim-transmission-immediate-bloc…",
+        "target_exists": true
       }
     ],
     "claim-domestic-led-strategy": [
@@ -7829,15 +9395,6 @@
         "target_exists": true
       }
     ],
-    "claim-mw-not-equal-value": [
-      {
-        "slug": "energy-substitution-pathway",
-        "title": "Energy Substitution Pathway",
-        "category": "concepts",
-        "context": "…an the value of export trade, for the same physical energy. claim-mw-not-equal-value applies directly here. 4. **The \"two-step\" mistake to avoi…",
-        "target_exists": true
-      }
-    ],
     "national-water-plan-nepal": [
       {
         "slug": "ganges-contribution",
@@ -7853,15 +9410,6 @@
         "title": "Green Hydrogen Nepal",
         "category": "concepts",
         "context": "…solved. Detailed citations and program structure belong in green-hydrogen-roadmap-nepal.",
-        "target_exists": true
-      }
-    ],
-    "marsyangdi": [
-      {
-        "slug": "hybrid-siting-logic",
-        "title": "Hybrid Siting Logic",
-        "category": "concepts",
-        "context": "…MW IPP; headrace-adjacent terraces, 10–15 MWp candidate. - marsyangdi / [[madhya-marsyangdi]] — cascade co-location, 20–40 MWp co…",
         "target_exists": true
       }
     ],
@@ -7906,22 +9454,6 @@
         "target_exists": true
       }
     ],
-    "chameliya-jauljibi-interconnection": [
-      {
-        "slug": "project-roadmap",
-        "title": "Project Roadmap",
-        "category": "concepts",
-        "context": "…rconnection]], [[kataiya-kushaha-interconnection]], chameliya-jauljibi-interconnection - [x] Source compilation page [[nepal-transmission-landscap…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-transmission-immediate-blocker",
-        "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
-        "category": "claims",
-        "context": "…ushaha-interconnection]] — the historic 132 kV first link - chameliya-jauljibi-interconnection — planned 220 kV far-west - [[nepal-transmission-landscape-…",
-        "target_exists": true
-      }
-    ],
     "data-basin-discharge": [
       {
         "slug": "seasonal-mismatch",
@@ -7942,6 +9474,20 @@
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
         "context": "…he physical problem. ## Related - [[seasonal-mismatch]] - data-basin-discharge - [[firm-power]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-impact-markers",
+        "title": "Layer: Downstream Impact Markers",
+        "category": "data",
+        "context": "…ute for station-level hydrological analysis. ## Related - data-basin-discharge - [[seasonal-mismatch]] - [[storage-deficit]] - [[ganges-co…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-tributaries",
+        "title": "Layer: Nepal Tributaries (HydroRIVERS)",
+        "category": "data",
+        "context": "…hydropower-potential-2019]] - [[run-of-river-hydropower]] - data-basin-discharge - [[data-map-layer-labels]] - [[data-map-inventory]]",
         "target_exists": true
       }
     ],
@@ -8012,6 +9558,13 @@
         "category": "syntheses",
         "context": "…nism:** Shift monsoon water into dry-season generation. The claim-storage-physical-fix answer. **Realistic 2035 contribution:** [[tanahu-hydropow…",
         "target_exists": true
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…-deficit]] - [[firm-power]] - [[seasonal-arbitrage-trap]] - claim-storage-physical-fix - [[claim-mw-not-equal-value]] - [[data-layer-basin-seasona…",
+        "target_exists": true
       }
     ],
     "claim-climate-harder-not-easier": [
@@ -8059,6 +9612,13 @@
         "title": "Provider Comparison",
         "category": "syntheses",
         "context": "…74 sources | ## Thesis Convergence All four converge on: claim-systems-conversion-failure Sub-theses also converge: - Timing > volume ([[claim-timin…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-survey-study",
+        "title": "Layer: Hydropower - Survey/Study",
+        "category": "data",
+        "context": "…[[hydropower-potential-categories]] - [[project-roadmap]] - claim-systems-conversion-failure - [[data-map-layer-labels]] - [[data-map-inventory]]",
         "target_exists": true
       }
     ],
@@ -8130,12 +9690,537 @@
         "target_exists": true
       }
     ],
+    "data-map-layer-labels": [
+      {
+        "slug": "data-layer-transmission-raw-traced-segments",
+        "title": "Internal Data: Source Trace Fragments",
+        "category": "data",
+        "context": "…p-inventory]] - [[claim-transmission-immediate-blocker]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-network-nodes",
+        "title": "Internal Data: Transmission Topology Nodes",
+        "category": "data",
+        "context": "…ransmission-immediate-blocker]] - [[data-map-inventory]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-trace-gaps-qa",
+        "title": "Internal Data: Transmission Trace Gaps",
+        "category": "data",
+        "context": "…roject-roadmap]] - [[nepal-transmission-landscape-2025]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-basin-seasonality",
+        "title": "Layer: Basin Seasonality",
+        "category": "data",
+        "context": "…-arbitrage-trap]] - [[storage-deficit]] - [[firm-power]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-carto-positron",
+        "title": "Layer: Carto Positron Basemap",
+        "category": "data",
+        "context": "…## Related - [[data-map-inventory]] - [[buildability]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-corridors-curated",
+        "title": "Layer: Context Corridor Sketch",
+        "category": "data",
+        "context": "…-transmission-landscape-2025]] - [[stranded-generation]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnections",
+        "title": "Layer: Cross-Border Gateways",
+        "category": "data",
+        "context": "…butwal-interconnection]] - [[nepal-power-trade-schemes]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-cross-border-interconnection-lines",
+        "title": "Layer: Cross-Border Links",
+        "category": "data",
+        "context": "…ade-schemes]] - [[claim-transmission-immediate-blocker]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-impact-markers",
+        "title": "Layer: Downstream Impact Markers",
+        "category": "data",
+        "context": "…smatch]] - [[storage-deficit]] - [[ganges-contribution]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-floating-pv-candidates",
+        "title": "Layer: Floating PV Candidates",
+        "category": "data",
+        "context": "…verage]] - [[hybrid-siting-logic]] - [[storage-deficit]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-grid-hubs-place-anchors",
+        "title": "Layer: Grid Hubs and Substations",
+        "category": "data",
+        "context": "…roject-roadmap]] - [[nepal-transmission-landscape-2025]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-construction",
+        "title": "Layer: Hydropower - Construction",
+        "category": "data",
+        "context": "…[[claim-mw-not-equal-value]] - [[twenty-year-strategy]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-operating",
+        "title": "Layer: Hydropower - Operating",
+        "category": "data",
+        "context": "…annual-report-fy2024-25]] - [[claim-mw-not-equal-value]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-survey-study",
+        "title": "Layer: Hydropower - Survey/Study",
+        "category": "data",
+        "context": "…project-roadmap]] - [[claim-systems-conversion-failure]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-basins",
+        "title": "Layer: India Comparison Basins",
+        "category": "data",
+        "context": "…- [[hydro-geopolitics]] - [[india-energy-relationship]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-india-comparison-rivers",
+        "title": "Layer: India Comparison Rivers",
+        "category": "data",
+        "context": "…- [[hydro-geopolitics]] - [[india-energy-relationship]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…r-220]] - [[kabeli-132]] - [[solu-tingla-mirchaiya-132]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-map-text-labels",
+        "title": "Layer: Map Text Labels",
+        "category": "data",
+        "context": "…ated - [[data-map-inventory]] - [[ganges-contribution]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-tributaries",
+        "title": "Layer: Nepal Tributaries (HydroRIVERS)",
+        "category": "data",
+        "context": "…- [[run-of-river-hydropower]] - [[data-basin-discharge]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons",
+        "category": "data",
+        "context": "…asin]] - [[ganges-contribution]] - [[hydro-geopolitics]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-downstream-systems",
+        "title": "Layer: Nepal-Origin Downstream Systems",
+        "category": "data",
+        "context": "…- [[india-energy-relationship]] - [[seasonal-mismatch]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-origin-control-callouts",
+        "title": "Layer: Origin / Control Callouts",
+        "category": "data",
+        "context": "…[[ganges-contribution]] - [[india-energy-relationship]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…m-transmission-immediate-blocker]] - [[project-roadmap]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-satellite-basemap",
+        "title": "Layer: Satellite Basemap",
+        "category": "data",
+        "context": "…ity]] - [[hybrid-siting-logic]] - [[data-map-inventory]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-ghi-zones",
+        "title": "Layer: Solar GHI Zones",
+        "category": "data",
+        "context": "…solar-resource-zones]] - [[solar-hydro-complementarity]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-plants-nea-awards",
+        "title": "Layer: Solar Plants + NEA 960 MW Awards",
+        "category": "data",
+        "context": "…everage]] - [[claim-solar-terai-only-short-cycle-build]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-strategic-suitability",
+        "title": "Layer: Solar Strategic Suitability",
+        "category": "data",
+        "context": "…o-complementarity]] - [[solar-resource-geography-nepal]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…-mw-not-equal-value]] - [[data-layer-basin-seasonality]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…n-immediate-blocker]] - [[data-layer-basin-seasonality]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-topographic-basemap",
+        "title": "Layer: Topographic Basemap",
+        "category": "data",
+        "context": "…]] - [[koshi-basin]] - [[sediment-as-design-constraint]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-transmission-labels",
+        "title": "Layer: Transmission Labels",
+        "category": "data",
+        "context": "…ransmission-immediate-blocker]] - [[data-map-inventory]] - data-map-layer-labels - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory",
+        "category": "data",
+        "context": "…For the reader-facing legend and layer-control wording, see data-map-layer-labels. ## Interactive Maps - [Nepal Tributary Explorer](../../a…",
+        "target_exists": true
+      }
+    ],
     "claim-floating-pv-leverage": [
+      {
+        "slug": "data-layer-floating-pv-candidates",
+        "title": "Layer: Floating PV Candidates",
+        "category": "data",
+        "context": "…ion, and institutional ownership all matter. ## Related - claim-floating-pv-leverage - [[hybrid-siting-logic]] - [[storage-deficit]] - [[data-m…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-plants-nea-awards",
+        "title": "Layer: Solar Plants + NEA 960 MW Awards",
+        "category": "data",
+        "context": "…nea-960mw-solar-tender]] - [[data-solar-fleet-inventory]] - claim-floating-pv-leverage - [[claim-solar-terai-only-short-cycle-build]] - [[data-ma…",
+        "target_exists": true
+      },
       {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
         "context": "…ta-solar-fleet-inventory]], [[nea-960mw-solar-tender]], and claim-floating-pv-leverage to the explorer ## Related - [[koshi-basin]] - [[gandaki-…",
+        "target_exists": true
+      }
+    ],
+    "project-roadmap": [
+      {
+        "slug": "data-layer-transmission-trace-gaps-qa",
+        "title": "Internal Data: Transmission Trace Gaps",
+        "category": "data",
+        "context": "…tracing confidence. ## Related - [[data-map-inventory]] - project-roadmap - [[nepal-transmission-landscape-2025]] - [[data-map-layer…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-grid-hubs-place-anchors",
+        "title": "Layer: Grid Hubs and Substations",
+        "category": "data",
+        "context": "…precision matters. ## Related - [[data-map-inventory]] - project-roadmap - [[nepal-transmission-landscape-2025]] - [[data-map-layer…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-hydropower-survey-study",
+        "title": "Layer: Hydropower - Survey/Study",
+        "category": "data",
+        "context": "…pline. ## Related - [[hydropower-potential-categories]] - project-roadmap - [[claim-systems-conversion-failure]] - [[data-map-layer-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…-equal-value]] - [[claim-transmission-immediate-blocker]] - project-roadmap - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…, such as capacity. ## Related - [[data-map-inventory]] - project-roadmap - [[claim-transmission-immediate-blocker]] - [[storage-defi…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-basin-seasonality": [
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…aim-storage-physical-fix]] - [[claim-mw-not-equal-value]] - data-layer-basin-seasonality - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…rage-deficit]] - [[claim-transmission-immediate-blocker]] - data-layer-basin-seasonality - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…centration, winter weakness, and dry-season implications. | data-layer-basin-seasonality | ## Hydropower layers | Label | Features | Short meaning…",
+        "target_exists": true
+      }
+    ],
+    "kabeli-132": [
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…udipur-damauli-bharatpur-220]] - [[marsyangdi-upper-220]] - kabeli-132 - [[solu-tingla-mirchaiya-132]] - [[data-map-layer-labels]…",
+        "target_exists": true
+      }
+    ],
+    "solu-tingla-mirchaiya-132": [
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network",
+        "category": "data",
+        "context": "…aratpur-220]] - [[marsyangdi-upper-220]] - [[kabeli-132]] - solu-tingla-mirchaiya-132 - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      }
+    ],
+    "data-layer-carto-positron": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…and transmission overlays without heavy terrain shading. | data-layer-carto-positron | | Topographic | basemap | Terrain-oriented basemap useful…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-topographic-basemap": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…valleys, ridge crossings, and Himalayan project context. | data-layer-topographic-basemap | | Satellite | basemap | Imagery basemap for visual checki…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-satellite-basemap": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…, reservoirs, roads, river valleys, and corridor anchors. | data-layer-satellite-basemap | ## Hydrology and basin layers | Label | Features | Shor…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-nepal-linked-basin-polygons": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…eam basin polygons, with Nepal share and monsoon context. | data-layer-nepal-linked-basin-polygons | | India comparison basins | 4 | Comparison basins outside…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-india-comparison-basins": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ol, included to keep Nepal-origin leverage in proportion. | data-layer-india-comparison-basins | | Nepal tributaries (HydroRIVERS) | 22 | HydroRIVERS-deri…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-nepal-tributaries": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…nd basin story, including WECS potential where available. | data-layer-nepal-tributaries | | Nepal-origin downstream systems | 4 | Main Nepal-origin…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-nepal-origin-downstream-systems": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…o show where upstream control becomes regional influence. | data-layer-nepal-origin-downstream-systems | | India comparison rivers | 11 | Reference rivers outside…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-india-comparison-rivers": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…not overstate Nepal's share of northern India hydrology. | data-layer-india-comparison-rivers | | Downstream impact markers | 4 | Point markers carrying…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-downstream-impact-markers": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…unoff, monsoon share, and impact notes for major systems. | data-layer-downstream-impact-markers | | Origin / control callouts | 8 | Interpretive callouts f…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-origin-control-callouts": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…al share, and downstream identity across the basin stack. | data-layer-origin-control-callouts | | Basin seasonality | 8 | Basin annotations focused on mo…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-hydropower-operating": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…a scales by capacity, and wiki counts show page coverage. | data-layer-hydropower-operating | | Hydropower - Construction | 180 | Generation/constructi…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-hydropower-construction": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…m capacity pressure on basins and transmission corridors. | data-layer-hydropower-construction | | Hydropower - Survey/study | 311 | Survey-stage hydropow…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-hydropower-survey-study": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…wer licenses: early pipeline signals, not built capacity. | data-layer-hydropower-survey-study | | Priority watchlist | 12 | Curated strategically importa…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-grid-hubs-place-anchors": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…and substation/place anchors used to orient the network. | data-layer-grid-hubs-place-anchors | | Cross-border links | 10 | Conservative line/stub geomet…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-cross-border-interconnection-lines": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…on, implementation-stage, and planned cross-border links. | data-layer-cross-border-interconnection-lines | | Cross-border gateways | 10 | Nepal-side gateway points…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-cross-border-interconnections": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…border interconnections with status and timeline context. | data-layer-cross-border-interconnections | | Context · corridor sketch | 7 | Simplified substation s…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-transmission-corridors-curated": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ch for orientation and not-yet-promoted corridor context. | data-layer-transmission-corridors-curated | ## Solar layers | Label | Features | Short meaning | Pa…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-solar-ghi-zones": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…e are strategic zones, not parcel-level siting decisions. | data-layer-solar-ghi-zones | | Solar plants + NEA 960 MW awards | 89 | Operating solar…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-solar-plants-nea-awards": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…rd anchors, with approximate-location flags where needed. | data-layer-solar-plants-nea-awards | | Solar strategic suitability | 6 | Strategic suitability…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-solar-strategic-suitability": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ity bands combining resource value with constraint notes. | data-layer-solar-strategic-suitability | | Floating PV candidates | 5 | Reservoir or future-reserv…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-floating-pv-candidates": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…g PV candidates with confidence and capacity-band fields. | data-layer-floating-pv-candidates | ## Text label overlays | Label | Features | Short meani…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-map-text-labels": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…n these on when geography matters more than raw features. | data-layer-map-text-labels | | Transmission labels | text overlay | Permanent corridor…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-transmission-labels": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…, separated from river labels to reduce low-zoom clutter. | data-layer-transmission-labels | ## Reading The Counts - A plain feature count is the nu…",
         "target_exists": true
       }
     ],

@@ -200,6 +200,10 @@
         "title": "Chainpur Seti"
       },
       {
+        "slug": "chameliya-attariya-132",
+        "title": "Chameliya-Syaule-Attariya 132 kV Line"
+      },
+      {
         "slug": "chameliya-jauljibi-interconnection",
         "title": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection"
       },
@@ -280,6 +284,10 @@
         "title": "Jagdulla HEP"
       },
       {
+        "slug": "kabeli-132",
+        "title": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor"
+      },
+      {
         "slug": "kabeli-a",
         "title": "Kabeli-A"
       },
@@ -358,6 +366,10 @@
       {
         "slug": "kimathanka-arun-hep",
         "title": "Kimathanka Arun HEP"
+      },
+      {
+        "slug": "kohalpur-surkhet-dailekh-132",
+        "title": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach"
       },
       {
         "slug": "kokhajor-1",
@@ -450,6 +462,10 @@
       {
         "slug": "marsyangdi-besi",
         "title": "Marsyangdi Besi"
+      },
+      {
+        "slug": "marsyangdi-upper-220",
+        "title": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV"
       },
       {
         "slug": "marsyangdi",
@@ -584,6 +600,10 @@
         "title": "Solu Khola (Dudha Koshi)"
       },
       {
+        "slug": "solu-tingla-mirchaiya-132",
+        "title": "Solu Corridor Tingla-Mirchaiya 132 kV"
+      },
+      {
         "slug": "sun-koshi-no-3",
         "title": "Sun Koshi No.3"
       },
@@ -630,6 +650,10 @@
       {
         "slug": "trishuli",
         "title": "Trishuli"
+      },
+      {
+        "slug": "udipur-damauli-bharatpur-220",
+        "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement"
       },
       {
         "slug": "upper-arun",
@@ -718,6 +742,10 @@
       {
         "slug": "west-seti",
         "title": "West Seti Hydroelectric Project"
+      },
+      {
+        "slug": "western-132-backbone",
+        "title": "Western Nepal 132 kV Backbone"
       }
     ],
     "concepts": [
@@ -944,8 +972,136 @@
         "title": "IPSDP Milestone Ladder 2022-2040"
       },
       {
+        "slug": "data-layer-basin-seasonality",
+        "title": "Layer: Basin Seasonality"
+      },
+      {
+        "slug": "data-layer-carto-positron",
+        "title": "Layer: Carto Positron Basemap"
+      },
+      {
+        "slug": "data-layer-cross-border-interconnection-lines",
+        "title": "Layer: Cross-Border Links"
+      },
+      {
+        "slug": "data-layer-cross-border-interconnections",
+        "title": "Layer: Cross-Border Gateways"
+      },
+      {
+        "slug": "data-layer-downstream-impact-markers",
+        "title": "Layer: Downstream Impact Markers"
+      },
+      {
+        "slug": "data-layer-floating-pv-candidates",
+        "title": "Layer: Floating PV Candidates"
+      },
+      {
+        "slug": "data-layer-grid-hubs-place-anchors",
+        "title": "Layer: Grid Hubs and Substations"
+      },
+      {
+        "slug": "data-layer-hydropower-construction",
+        "title": "Layer: Hydropower - Construction"
+      },
+      {
+        "slug": "data-layer-hydropower-operating",
+        "title": "Layer: Hydropower - Operating"
+      },
+      {
+        "slug": "data-layer-hydropower-survey-study",
+        "title": "Layer: Hydropower - Survey/Study"
+      },
+      {
+        "slug": "data-layer-india-comparison-basins",
+        "title": "Layer: India Comparison Basins"
+      },
+      {
+        "slug": "data-layer-india-comparison-rivers",
+        "title": "Layer: India Comparison Rivers"
+      },
+      {
+        "slug": "data-layer-map-text-labels",
+        "title": "Layer: Map Text Labels"
+      },
+      {
+        "slug": "data-layer-nepal-linked-basin-polygons",
+        "title": "Layer: Nepal-Linked Basin Polygons"
+      },
+      {
+        "slug": "data-layer-nepal-origin-downstream-systems",
+        "title": "Layer: Nepal-Origin Downstream Systems"
+      },
+      {
+        "slug": "data-layer-nepal-tributaries",
+        "title": "Layer: Nepal Tributaries (HydroRIVERS)"
+      },
+      {
+        "slug": "data-layer-origin-control-callouts",
+        "title": "Layer: Origin / Control Callouts"
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist"
+      },
+      {
+        "slug": "data-layer-satellite-basemap",
+        "title": "Layer: Satellite Basemap"
+      },
+      {
+        "slug": "data-layer-solar-ghi-zones",
+        "title": "Layer: Solar GHI Zones"
+      },
+      {
+        "slug": "data-layer-solar-plants-nea-awards",
+        "title": "Layer: Solar Plants + NEA 960 MW Awards"
+      },
+      {
+        "slug": "data-layer-solar-strategic-suitability",
+        "title": "Layer: Solar Strategic Suitability"
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist"
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects"
+      },
+      {
+        "slug": "data-layer-topographic-basemap",
+        "title": "Layer: Topographic Basemap"
+      },
+      {
+        "slug": "data-layer-transmission-connected-traced-network",
+        "title": "Layer: Major Transmission Network"
+      },
+      {
+        "slug": "data-layer-transmission-corridors-curated",
+        "title": "Layer: Context Corridor Sketch"
+      },
+      {
+        "slug": "data-layer-transmission-labels",
+        "title": "Layer: Transmission Labels"
+      },
+      {
+        "slug": "data-layer-transmission-network-nodes",
+        "title": "Internal Data: Transmission Topology Nodes"
+      },
+      {
+        "slug": "data-layer-transmission-raw-traced-segments",
+        "title": "Internal Data: Source Trace Fragments"
+      },
+      {
+        "slug": "data-layer-transmission-trace-gaps-qa",
+        "title": "Internal Data: Transmission Trace Gaps"
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory"
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels"
       },
       {
         "slug": "data-mountain-hydro-comparison",
@@ -1051,6 +1207,7 @@
     "budhigandaki",
     "butwal-solar-ridi-8-5mwp",
     "chainpur-seti",
+    "chameliya-attariya-132",
     "chameliya-jauljibi-interconnection",
     "chameliya-khola",
     "chilime-trishuli-220kv-transmission-line",
@@ -1071,6 +1228,7 @@
     "inaruwa-purnea-interconnection",
     "india-energy-relationship",
     "jagdulla-hep",
+    "kabeli-132",
     "kabeli-a",
     "kabeli-b-1",
     "kali-gandaki-a",
@@ -1091,6 +1249,7 @@
     "khudi-220-132kv-substation",
     "khungri-solar-hybrid-50mw",
     "kimathanka-arun-hep",
+    "kohalpur-surkhet-dailekh-132",
     "kokhajor-1",
     "koshi-basin",
     "kulekhani-cascade",
@@ -1114,6 +1273,7 @@
     "main-load-dispatch-centre",
     "markichowk-220-132kv-substation",
     "marsyangdi-besi",
+    "marsyangdi-upper-220",
     "marsyangdi",
     "mca-central-400",
     "mewa-khola-hydropower-project",
@@ -1147,6 +1307,7 @@
     "singati-khola-hydropower-project",
     "solu-hydropower-project",
     "solu-khola-dudha-koshi",
+    "solu-tingla-mirchaiya-132",
     "sun-koshi-no-3",
     "super-dordi-kha-hydropower-project",
     "super-madi",
@@ -1159,6 +1320,7 @@
     "tingla-132-33kv-substation",
     "trishuli-galchhi",
     "trishuli",
+    "udipur-damauli-bharatpur-220",
     "upper-arun",
     "upper-balephi-a",
     "upper-bhotekoshi",
@@ -1181,6 +1343,7 @@
     "uttarganga-storage-hydropower-project",
     "wecs",
     "west-seti",
+    "western-132-backbone",
     "agrivoltaics-and-land",
     "buildability",
     "domestic-led-hydro-strategy",
@@ -1235,7 +1398,39 @@
     "data-final-energy-mix",
     "data-fleet-composition",
     "data-ipsdp-milestone-ladder-2022-2040",
+    "data-layer-basin-seasonality",
+    "data-layer-carto-positron",
+    "data-layer-cross-border-interconnection-lines",
+    "data-layer-cross-border-interconnections",
+    "data-layer-downstream-impact-markers",
+    "data-layer-floating-pv-candidates",
+    "data-layer-grid-hubs-place-anchors",
+    "data-layer-hydropower-construction",
+    "data-layer-hydropower-operating",
+    "data-layer-hydropower-survey-study",
+    "data-layer-india-comparison-basins",
+    "data-layer-india-comparison-rivers",
+    "data-layer-map-text-labels",
+    "data-layer-nepal-linked-basin-polygons",
+    "data-layer-nepal-origin-downstream-systems",
+    "data-layer-nepal-tributaries",
+    "data-layer-origin-control-callouts",
+    "data-layer-priority-watchlist",
+    "data-layer-satellite-basemap",
+    "data-layer-solar-ghi-zones",
+    "data-layer-solar-plants-nea-awards",
+    "data-layer-solar-strategic-suitability",
+    "data-layer-storage-shortlist",
+    "data-layer-top-10-capacity-projects",
+    "data-layer-topographic-basemap",
+    "data-layer-transmission-connected-traced-network",
+    "data-layer-transmission-corridors-curated",
+    "data-layer-transmission-labels",
+    "data-layer-transmission-network-nodes",
+    "data-layer-transmission-raw-traced-segments",
+    "data-layer-transmission-trace-gaps-qa",
     "data-map-inventory",
+    "data-map-layer-labels",
     "data-mountain-hydro-comparison",
     "data-nea-substation-capacity-fy2076-77",
     "data-nea-transmission-length-fy2076-77",
@@ -1300,6 +1495,7 @@
     "budhigandaki": "entities",
     "butwal-solar-ridi-8-5mwp": "entities",
     "chainpur-seti": "entities",
+    "chameliya-attariya-132": "entities",
     "chameliya-jauljibi-interconnection": "entities",
     "chameliya-khola": "entities",
     "chilime-trishuli-220kv-transmission-line": "entities",
@@ -1320,6 +1516,7 @@
     "inaruwa-purnea-interconnection": "entities",
     "india-energy-relationship": "entities",
     "jagdulla-hep": "entities",
+    "kabeli-132": "entities",
     "kabeli-a": "entities",
     "kabeli-b-1": "entities",
     "kali-gandaki-a": "entities",
@@ -1340,6 +1537,7 @@
     "khudi-220-132kv-substation": "entities",
     "khungri-solar-hybrid-50mw": "entities",
     "kimathanka-arun-hep": "entities",
+    "kohalpur-surkhet-dailekh-132": "entities",
     "kokhajor-1": "entities",
     "koshi-basin": "entities",
     "kulekhani-cascade": "entities",
@@ -1363,6 +1561,7 @@
     "main-load-dispatch-centre": "entities",
     "markichowk-220-132kv-substation": "entities",
     "marsyangdi-besi": "entities",
+    "marsyangdi-upper-220": "entities",
     "marsyangdi": "entities",
     "mca-central-400": "entities",
     "mewa-khola-hydropower-project": "entities",
@@ -1396,6 +1595,7 @@
     "singati-khola-hydropower-project": "entities",
     "solu-hydropower-project": "entities",
     "solu-khola-dudha-koshi": "entities",
+    "solu-tingla-mirchaiya-132": "entities",
     "sun-koshi-no-3": "entities",
     "super-dordi-kha-hydropower-project": "entities",
     "super-madi": "entities",
@@ -1408,6 +1608,7 @@
     "tingla-132-33kv-substation": "entities",
     "trishuli-galchhi": "entities",
     "trishuli": "entities",
+    "udipur-damauli-bharatpur-220": "entities",
     "upper-arun": "entities",
     "upper-balephi-a": "entities",
     "upper-bhotekoshi": "entities",
@@ -1430,6 +1631,7 @@
     "uttarganga-storage-hydropower-project": "entities",
     "wecs": "entities",
     "west-seti": "entities",
+    "western-132-backbone": "entities",
     "agrivoltaics-and-land": "concepts",
     "buildability": "concepts",
     "domestic-led-hydro-strategy": "concepts",
@@ -1484,7 +1686,39 @@
     "data-final-energy-mix": "data",
     "data-fleet-composition": "data",
     "data-ipsdp-milestone-ladder-2022-2040": "data",
+    "data-layer-basin-seasonality": "data",
+    "data-layer-carto-positron": "data",
+    "data-layer-cross-border-interconnection-lines": "data",
+    "data-layer-cross-border-interconnections": "data",
+    "data-layer-downstream-impact-markers": "data",
+    "data-layer-floating-pv-candidates": "data",
+    "data-layer-grid-hubs-place-anchors": "data",
+    "data-layer-hydropower-construction": "data",
+    "data-layer-hydropower-operating": "data",
+    "data-layer-hydropower-survey-study": "data",
+    "data-layer-india-comparison-basins": "data",
+    "data-layer-india-comparison-rivers": "data",
+    "data-layer-map-text-labels": "data",
+    "data-layer-nepal-linked-basin-polygons": "data",
+    "data-layer-nepal-origin-downstream-systems": "data",
+    "data-layer-nepal-tributaries": "data",
+    "data-layer-origin-control-callouts": "data",
+    "data-layer-priority-watchlist": "data",
+    "data-layer-satellite-basemap": "data",
+    "data-layer-solar-ghi-zones": "data",
+    "data-layer-solar-plants-nea-awards": "data",
+    "data-layer-solar-strategic-suitability": "data",
+    "data-layer-storage-shortlist": "data",
+    "data-layer-top-10-capacity-projects": "data",
+    "data-layer-topographic-basemap": "data",
+    "data-layer-transmission-connected-traced-network": "data",
+    "data-layer-transmission-corridors-curated": "data",
+    "data-layer-transmission-labels": "data",
+    "data-layer-transmission-network-nodes": "data",
+    "data-layer-transmission-raw-traced-segments": "data",
+    "data-layer-transmission-trace-gaps-qa": "data",
     "data-map-inventory": "data",
+    "data-map-layer-labels": "data",
     "data-mountain-hydro-comparison": "data",
     "data-nea-substation-capacity-fy2076-77": "data",
     "data-nea-transmission-length-fy2076-77": "data",
@@ -1549,6 +1783,7 @@
     "budhigandaki": "Budhigandaki Hydroelectric Project",
     "butwal-solar-ridi-8-5mwp": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
     "chainpur-seti": "Chainpur Seti",
+    "chameliya-attariya-132": "Chameliya-Syaule-Attariya 132 kV Line",
     "chameliya-jauljibi-interconnection": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection",
     "chameliya-khola": "Chameliya Khola",
     "chilime-trishuli-220kv-transmission-line": "Chilime-Trishuli 220 kV Transmission Line",
@@ -1569,6 +1804,7 @@
     "inaruwa-purnea-interconnection": "Inaruwa\u2013Purnea 400 kV Cross-Border Interconnection",
     "india-energy-relationship": "India \u2014 Energy Relationship with Nepal",
     "jagdulla-hep": "Jagdulla HEP",
+    "kabeli-132": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
     "kabeli-a": "Kabeli-A",
     "kabeli-b-1": "Kabeli B - 1",
     "kali-gandaki-a": "Kali Gandaki A",
@@ -1589,6 +1825,7 @@
     "khudi-220-132kv-substation": "Khudi 220/132 kV Substation",
     "khungri-solar-hybrid-50mw": "Khungri Solar Hybrid (50 MW, Pyuthan)",
     "kimathanka-arun-hep": "Kimathanka Arun HEP",
+    "kohalpur-surkhet-dailekh-132": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
     "kokhajor-1": "Kokhajor-1",
     "koshi-basin": "Koshi Basin",
     "kulekhani-cascade": "Kulekhani Cascade",
@@ -1612,6 +1849,7 @@
     "main-load-dispatch-centre": "Main Load Dispatch Centre",
     "markichowk-220-132kv-substation": "Markichowk 220/132 kV Substation",
     "marsyangdi-besi": "Marsyangdi Besi",
+    "marsyangdi-upper-220": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
     "marsyangdi": "Marsyangdi",
     "mca-central-400": "MCA Central 400 kV Corridor (Lapsiphedi\u2013Ratmate\u2013Hetauda\u2013Damauli\u2013Butwal)",
     "mewa-khola-hydropower-project": "Mewa Khola Hydropower Project",
@@ -1645,6 +1883,7 @@
     "singati-khola-hydropower-project": "Singati Khola Hydropower Project",
     "solu-hydropower-project": "Solu Hydropower Project",
     "solu-khola-dudha-koshi": "Solu Khola (Dudha Koshi)",
+    "solu-tingla-mirchaiya-132": "Solu Corridor Tingla-Mirchaiya 132 kV",
     "sun-koshi-no-3": "Sun Koshi No.3",
     "super-dordi-kha-hydropower-project": "Super Dordi Kha Hydropower Project",
     "super-madi": "Super Madi",
@@ -1657,6 +1896,7 @@
     "tingla-132-33kv-substation": "Tingla 132/33 kV Substation",
     "trishuli-galchhi": "Trishuli Galchhi",
     "trishuli": "Trishuli",
+    "udipur-damauli-bharatpur-220": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
     "upper-arun": "Upper Arun Hydroelectric Project",
     "upper-balephi-a": "Upper Balephi A",
     "upper-bhotekoshi": "Upper Bhotekoshi",
@@ -1679,6 +1919,7 @@
     "uttarganga-storage-hydropower-project": "Uttarganga Storage Hydropower Project",
     "wecs": "Water and Energy Commission Secretariat (WECS)",
     "west-seti": "West Seti Hydroelectric Project",
+    "western-132-backbone": "Western Nepal 132 kV Backbone",
     "agrivoltaics-and-land": "Agrivoltaics and Land",
     "buildability": "Buildability",
     "domestic-led-hydro-strategy": "Domestic-Led Hydro Strategy",
@@ -1733,7 +1974,39 @@
     "data-final-energy-mix": "Nepal Final Energy Mix",
     "data-fleet-composition": "Hydropower Fleet Composition",
     "data-ipsdp-milestone-ladder-2022-2040": "IPSDP Milestone Ladder 2022-2040",
+    "data-layer-basin-seasonality": "Layer: Basin Seasonality",
+    "data-layer-carto-positron": "Layer: Carto Positron Basemap",
+    "data-layer-cross-border-interconnection-lines": "Layer: Cross-Border Links",
+    "data-layer-cross-border-interconnections": "Layer: Cross-Border Gateways",
+    "data-layer-downstream-impact-markers": "Layer: Downstream Impact Markers",
+    "data-layer-floating-pv-candidates": "Layer: Floating PV Candidates",
+    "data-layer-grid-hubs-place-anchors": "Layer: Grid Hubs and Substations",
+    "data-layer-hydropower-construction": "Layer: Hydropower - Construction",
+    "data-layer-hydropower-operating": "Layer: Hydropower - Operating",
+    "data-layer-hydropower-survey-study": "Layer: Hydropower - Survey/Study",
+    "data-layer-india-comparison-basins": "Layer: India Comparison Basins",
+    "data-layer-india-comparison-rivers": "Layer: India Comparison Rivers",
+    "data-layer-map-text-labels": "Layer: Map Text Labels",
+    "data-layer-nepal-linked-basin-polygons": "Layer: Nepal-Linked Basin Polygons",
+    "data-layer-nepal-origin-downstream-systems": "Layer: Nepal-Origin Downstream Systems",
+    "data-layer-nepal-tributaries": "Layer: Nepal Tributaries (HydroRIVERS)",
+    "data-layer-origin-control-callouts": "Layer: Origin / Control Callouts",
+    "data-layer-priority-watchlist": "Layer: Priority Watchlist",
+    "data-layer-satellite-basemap": "Layer: Satellite Basemap",
+    "data-layer-solar-ghi-zones": "Layer: Solar GHI Zones",
+    "data-layer-solar-plants-nea-awards": "Layer: Solar Plants + NEA 960 MW Awards",
+    "data-layer-solar-strategic-suitability": "Layer: Solar Strategic Suitability",
+    "data-layer-storage-shortlist": "Layer: Storage Shortlist",
+    "data-layer-top-10-capacity-projects": "Layer: Top-10 Capacity Projects",
+    "data-layer-topographic-basemap": "Layer: Topographic Basemap",
+    "data-layer-transmission-connected-traced-network": "Layer: Major Transmission Network",
+    "data-layer-transmission-corridors-curated": "Layer: Context Corridor Sketch",
+    "data-layer-transmission-labels": "Layer: Transmission Labels",
+    "data-layer-transmission-network-nodes": "Internal Data: Transmission Topology Nodes",
+    "data-layer-transmission-raw-traced-segments": "Internal Data: Source Trace Fragments",
+    "data-layer-transmission-trace-gaps-qa": "Internal Data: Transmission Trace Gaps",
     "data-map-inventory": "Map Inventory",
+    "data-map-layer-labels": "Map Layer Labels",
     "data-mountain-hydro-comparison": "Mountain Hydro System Comparison",
     "data-nea-substation-capacity-fy2076-77": "NEA Substation Capacity FY 2076/77",
     "data-nea-transmission-length-fy2076-77": "NEA Transmission Length FY 2076/77",
@@ -1748,5 +2021,5 @@
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series"
   },
-  "totalPages": 247
+  "totalPages": 286
 }

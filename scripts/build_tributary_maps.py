@@ -24,6 +24,9 @@ RAW = ROOT / "data" / "raw"
 PROCESSED = ROOT / "data" / "processed" / "maps"
 DOCS = ROOT / "docs" / "maps"
 TRACED_SEGMENTS_PATH = PROCESSED / "transmission_corridor_traced_segments.geojson"
+TRACED_NETWORK_PATH = PROCESSED / "transmission_corridor_traced_network.geojson"
+CROSS_BORDER_LINES_PATH = PROCESSED / "cross_border_interconnection_lines.geojson"
+TRACE_GAP_PATH = PROCESSED / "transmission_trace_gap_report.geojson"
 CLIP_BOUNDS = (78.0, 24.0, 89.5, 31.5)
 CLIP_BOX = box(*CLIP_BOUNDS)
 GEOPOLITICS_BOUNDS = (77.0, 22.0, 90.5, 31.8)
@@ -328,6 +331,7 @@ PROJECT_DISPLAY_OVERRIDES = {
 
 GRID_STATUS_STYLES = {
     "Operational": {"color": "#166534", "dash_array": None},
+    "Partially operational": {"color": "#a16207", "dash_array": "8 6"},
     "Under construction": {"color": "#c2410c", "dash_array": "10 6"},
     "Implementation setup": {"color": "#1d4ed8", "dash_array": "8 8"},
     "Planned": {"color": "#7c3aed", "dash_array": "4 10"},
@@ -335,6 +339,7 @@ GRID_STATUS_STYLES = {
 
 TRANSMISSION_LINE_STYLES = {
     "Operational": {"color": "#2f343b", "weight": 2.2, "opacity": 0.52, "dash_array": "12 7"},
+    "Partially operational": {"color": "#3f3f46", "weight": 2.25, "opacity": 0.58, "dash_array": "8 6"},
     "Under construction": {"color": "#3f3f46", "weight": 2.3, "opacity": 0.6, "dash_array": "6 8"},
     "Implementation setup": {"color": "#52525b", "weight": 2.2, "opacity": 0.56, "dash_array": "3 8"},
     "Planned": {"color": "#71717a", "weight": 2.0, "opacity": 0.42, "dash_array": "2 10"},
@@ -355,9 +360,62 @@ PLACE_ANCHORS = {
     "khimti": {"label": "Khimti", "queries": ["Khimti Nepal"]},
     "tingla": {"label": "Tingla", "queries": ["Tingla Nepal"]},
     "mirchaiya": {"label": "Mirchaiya", "queries": ["Mirchaiya Nepal"]},
-    "dana": {"label": "Dana", "queries": ["Dana Myagdi Nepal"]},
-    "kushma": {"label": "Kushma", "queries": ["Kushma Nepal"]},
-    "butwal": {"label": "Butwal", "queries": ["Butwal Nepal"]},
+    "dana": {
+        "label": "Dana substation",
+        "lat": 28.42186786278833,
+        "lon": 83.6520159781521,
+        "basis": "RPGCL 2021 official-vector Dana-Kushma 220 kV terminal; NEA FY2019/20 and FY2024/25 source control.",
+        "queries": ["Dana Myagdi Nepal"],
+    },
+    "kushma": {
+        "label": "Kushma substation",
+        "lat": 28.1280642459853,
+        "lon": 83.65060885791756,
+        "basis": "RPGCL 2021 official-vector Dana-Kushma/Kushma-New Butwal 220 kV junction; NEA FY2019/20 and FY2024/25 source control.",
+        "queries": ["Kushma Nepal"],
+    },
+    "butwal": {
+        "label": "New Butwal substation",
+        "lat": 27.460784986382116,
+        "lon": 83.69052298786728,
+        "basis": "RPGCL 2021 official-vector Kushma-New Butwal 220 kV terminal; NEA FY2024/25 identifies New Butwal at Sunwal-13, Nawalparasi.",
+        "queries": ["Butwal Nepal"],
+    },
+    "butwal_132": {
+        "label": "Butwal 132 kV hub",
+        "lat": 27.556542431092055,
+        "lon": 83.47321851682389,
+        "basis": "RPGCL 2021 map label on the existing western 132 kV backbone; NEA FY2024/25 existing-line inventory names Butwal-Shivapur-Lamahi-Kohalpur.",
+        "queries": ["Butwal Nepal"],
+    },
+    "shivapur": {
+        "label": "Shivapur",
+        "lat": 27.514,
+        "lon": 82.8646,
+        "basis": "RPGCL 2021 map label on the Butwal-Shivapur-Lamahi-Kohalpur 132 kV backbone.",
+        "queries": ["Shivapur Nepal"],
+    },
+    "lamahi": {
+        "label": "Lamahi",
+        "lat": 27.7536,
+        "lon": 82.5599,
+        "basis": "RPGCL 2021 map label on the Butwal-Shivapur-Lamahi-Kohalpur 132 kV backbone.",
+        "queries": ["Lamahi Nepal"],
+    },
+    "kohalpur": {
+        "label": "Kohalpur",
+        "lat": 28.0743,
+        "lon": 81.6741,
+        "basis": "RPGCL 2021 map label; NEA FY2024/25 identifies Kohalpur as a grid branch office and western 132 kV hub.",
+        "queries": ["Kohalpur Nepal"],
+    },
+    "bhurigaun": {
+        "label": "Bhurigaun",
+        "lat": 28.388423153007594,
+        "lon": 81.318370969382,
+        "basis": "RPGCL 2021 official-vector junction on the Kohalpur-Bhurigaun-Lamki 132 kV line; NEA FY2024/25 existing-line inventory names Kohalpur-Bhurigaun-Lumki.",
+        "queries": ["Bhurigaun Nepal"],
+    },
     "ratmate": {"label": "Ratmate", "queries": ["Ratmate Nuwakot Nepal"]},
     "lapsiphedi": {"label": "Lapsiphedi", "queries": ["Lapsiphedi Nepal"]},
     "damauli": {"label": "Damauli", "queries": ["Damauli Nepal"]},
@@ -369,12 +427,65 @@ PLACE_ANCHORS = {
     "gaddachauki": {"label": "Gaddachauki", "queries": ["Gaddachauki Nepal"]},
     "jamunaha": {"label": "Jamunaha", "queries": ["Jamunaha Nepal"]},
     "belahiya": {"label": "Belahiya", "queries": ["Belahiya Nepal"]},
-    "lamki": {"label": "Lamki / Dododhara", "queries": ["Lamki Nepal", "Dododhara Nepal"]},
+    "lamki": {
+        "label": "Lamki / Dododhara",
+        "lat": 28.54114421639382,
+        "lon": 81.15880776919326,
+        "basis": "RPGCL 2021 official-vector junction for the western 132 kV backbone and Lamki/Dododhara export planning area.",
+        "queries": ["Lamki Nepal", "Dododhara Nepal"],
+    },
+    "pahalwanpur": {
+        "label": "Pahalwanpur",
+        "lat": 28.6145,
+        "lon": 80.8777,
+        "basis": "RPGCL 2021 map label on the Lamki-Pahalwanpur-Attariya-Mahendranagar 132 kV line.",
+        "queries": ["Pahalwanpur Nepal"],
+    },
+    "attariya": {
+        "label": "Attariya",
+        "lat": 28.735364655748388,
+        "lon": 80.55398409703626,
+        "basis": "RPGCL 2021 official-vector junction for the western 132 kV backbone and Chameliya-Syaule-Attariya line.",
+        "queries": ["Attariya Nepal"],
+    },
     "purnea": {"label": "Purnea", "queries": ["Purnea Bihar India"]},
     "bareilly": {"label": "Bareilly", "queries": ["Bareilly India", "Bareli India"]},
-    "chameliya": {"label": "Chameliya", "queries": ["Chameliya Nepal"]},
+    "chameliya": {
+        "label": "Chameliya",
+        "lat": 29.613418786265093,
+        "lon": 80.64439891503855,
+        "basis": "RPGCL 2021 official-vector northern terminal of the Chameliya-Syaule-Attariya 132 kV line.",
+        "queries": ["Chameliya Nepal"],
+    },
+    "syaule": {
+        "label": "Syaule",
+        "lat": 29.2367,
+        "lon": 80.662,
+        "basis": "RPGCL 2021 map label on the Chameliya-Syaule-Attariya 132 kV line.",
+        "queries": ["Syaule Darchula Nepal"],
+    },
     "jauljibi": {"label": "Jauljibi", "queries": ["Jauljibi India"]},
-    "mahendranagar": {"label": "Mahendranagar", "queries": ["Mahendranagar Kanchanpur Nepal", "Bhimdatta Nepal"]},
+    "mahendranagar": {
+        "label": "Mahendranagar",
+        "lat": 28.946220417499394,
+        "lon": 80.09452366380923,
+        "basis": "RPGCL 2021 official-vector western terminal of the Lamki-Pahalwanpur-Attariya-Mahendranagar 132 kV line.",
+        "queries": ["Mahendranagar Kanchanpur Nepal", "Bhimdatta Nepal"],
+    },
+    "surkhet": {
+        "label": "Surkhet",
+        "lat": 28.4516,
+        "lon": 81.652,
+        "basis": "RPGCL 2021 map label and NEA FY2024/25 Kohalpur-Surkhet-Dailekh 132 kV project narrative.",
+        "queries": ["Surkhet Nepal"],
+    },
+    "dailekh": {
+        "label": "Dailekh",
+        "lat": 28.74,
+        "lon": 81.71,
+        "basis": "RPGCL 2021 map label and NEA FY2024/25 Kohalpur-Surkhet-Dailekh 132 kV project narrative.",
+        "queries": ["Dailekh Nepal"],
+    },
     "nautanwa": {"label": "New Nautanwa / Sunauli", "queries": ["Sunauli India"]},
 }
 
@@ -383,12 +494,12 @@ TRANSMISSION_CORRIDORS = [
         "id": "hddi_400",
         "name": "Hetauda-Dhalkebar-Inaruwa 400 kV backbone",
         "short_label": "Hetauda-Dhalkebar-Inaruwa 400 kV",
-        "status": "Operational",
+        "status": "Partially operational",
         "category": "Domestic backbone",
         "voltage_kv": "400",
         "anchor_ids": ["hetauda", "dhalkebar", "inaruwa"],
         "components": ["Hetauda-Dhalkebar", "Dhalkebar-Inaruwa"],
-        "source_note": "NEA annual report FY 2024/25 line inventory; World Bank HDDTL RAP Figure 1.",
+        "source_note": "NEA annual report FY 2024/25 line inventory and project status; World Bank HDDTL RAP route description and Figure 1.",
         "importance": "Core 400 kV east-west transfer spine and the backbone behind large-scale export readiness.",
         "geometry_basis": "Indicative substation spine using official line names and geocoded grid nodes.",
     },
@@ -1329,6 +1440,26 @@ def build_place_anchor_index() -> tuple[dict[str, dict[str, Any]], list[dict[str
     report: list[dict[str, Any]] = []
 
     for anchor_id, definition in PLACE_ANCHORS.items():
+        if "lat" in definition and "lon" in definition:
+            anchors[anchor_id] = {
+                "id": anchor_id,
+                "label": definition["label"],
+                "lat": definition["lat"],
+                "lon": definition["lon"],
+                "display_name": definition["label"],
+                "query": "; ".join(definition.get("queries", [])),
+                "basis": definition.get("basis", "Manual source-controlled grid anchor"),
+            }
+            report.append(
+                {
+                    "id": anchor_id,
+                    "label": definition["label"],
+                    "status": "ok_manual_source_anchor",
+                    "query": anchors[anchor_id]["query"],
+                    "display_name": definition["label"],
+                }
+            )
+            continue
         found = None
         for query in definition["queries"]:
             found = fetch_nominatim_point(query, cache, headers)
@@ -1921,6 +2052,42 @@ def transmission_style_for_status(status: str, traced: bool = False) -> dict[str
         base["weight"] = round(base["weight"] + 0.5, 2)
         base["opacity"] = min(0.82, base["opacity"] + 0.12)
     return base
+
+
+def connected_transmission_style(props: dict[str, Any]) -> dict[str, Any]:
+    style = transmission_style_for_status(props.get("status", "Planned"), traced=True)
+    role = props.get("geometry_role")
+    voltage = parse_voltage_kv(props.get("voltage_kv"))
+    if voltage is not None and voltage <= 132:
+        style["weight"] = max(1.6, style["weight"] - 0.45)
+        style["opacity"] = min(style["opacity"], 0.58)
+    if role == "manual_trace":
+        style["weight"] = max(1.8, style["weight"] - 0.2)
+        style["opacity"] = min(style["opacity"], 0.68)
+    elif role == "inferred_connector":
+        style["weight"] = 1.4
+        style["opacity"] = 0.38
+        style["dash_array"] = "2 6"
+    elif role == "gateway_stub":
+        style["weight"] = 1.6
+        style["opacity"] = 0.42
+        style["dash_array"] = "3 8"
+    return style
+
+
+def cross_border_line_style(props: dict[str, Any]) -> dict[str, Any]:
+    status = props.get("status", "Planned")
+    base = GRID_STATUS_STYLES.get(status, GRID_STATUS_STYLES["Planned"]).copy()
+    role = props.get("connection_scope")
+    opacity = 0.82 if status == "Operational" else 0.55
+    if role == "gateway_stub":
+        opacity = min(opacity, 0.42)
+    return {
+        "color": base["color"],
+        "weight": 2.4 if status == "Operational" else 2.0,
+        "opacity": opacity,
+        "dash_array": base["dash_array"] if status != "Operational" or role == "gateway_stub" else None,
+    }
 
 
 def parse_voltage_kv(value: Any) -> int | None:
@@ -3560,6 +3727,7 @@ def interconnection_popup_html(props: dict[str, Any]) -> str:
 def status_rank(status: str) -> int:
     order = {
         "Operational": 4,
+        "Partially operational": 3,
         "Under construction": 3,
         "Implementation setup": 2,
         "Planned": 1,
@@ -3677,8 +3845,8 @@ def add_transmission_corridors(
     show_labels: bool = False,
     min_label_voltage_kv: int | None = None,
 ) -> None:
-    group = folium.FeatureGroup(name="Transmission corridors", show=show_lines)
-    label_group = folium.FeatureGroup(name="Transmission corridor labels", show=show_labels)
+    group = folium.FeatureGroup(name="Context · corridor sketch", show=show_lines)
+    label_group = folium.FeatureGroup(name="Transmission labels", show=show_labels)
     for feature in corridors["features"]:
         props = feature["properties"]
         line_style = transmission_style_for_status(props["status"], traced=False)
@@ -3715,23 +3883,41 @@ def add_transmission_corridors(
     label_group.add_to(m)
 
 
-def add_traced_transmission_corridors(
+def connected_transmission_popup_html(props: dict[str, Any]) -> str:
+    notes = props.get("notes") or ""
+    return (
+        f"<div style='width:330px'>"
+        f"<h4 style='margin:0 0 6px 0'>{html.escape(props.get('segment_name') or props.get('name') or '')}</h4>"
+        f"<b>Corridor:</b> {html.escape(props.get('corridor_id', ''))}<br>"
+        f"<b>Status:</b> {html.escape(props.get('status', 'Unknown'))}<br>"
+        f"<b>Voltage:</b> {html.escape(str(props.get('voltage_kv', '')))} kV<br>"
+        f"<b>Geometry role:</b> {html.escape(props.get('geometry_role', ''))}<br>"
+        f"<b>Trace confidence:</b> {html.escape(props.get('trace_confidence', ''))}<br>"
+        f"<b>Source:</b> {html.escape(props.get('source_id', ''))}<br>"
+        f"<b>Length:</b> {float(props.get('length_km') or 0):,.1f} km<br>"
+        f"<b>Basis:</b> {html.escape(props.get('geometry_basis', ''))}<br>"
+        f"{'<b>Notes:</b> ' + html.escape(notes) if notes else ''}"
+        f"</div>"
+    )
+
+
+def add_connected_transmission_network(
     m: folium.Map,
-    traced_segments: dict[str, Any] | None,
-    show_lines: bool = False,
+    network: dict[str, Any] | None,
+    show_lines: bool = True,
     show_labels: bool = False,
 ) -> None:
-    if not traced_segments or not traced_segments.get("features"):
+    if not network or not network.get("features"):
         return
 
-    group = folium.FeatureGroup(name="Transmission corridors (traced)", show=show_lines)
-    label_group = folium.FeatureGroup(name="Transmission corridor labels (traced)", show=show_labels)
+    group = folium.FeatureGroup(name="Major transmission network", show=show_lines)
+    label_group = folium.FeatureGroup(name="Transmission labels", show=show_labels)
     by_corridor: dict[str, list[dict[str, Any]]] = {}
-    for feature in traced_segments["features"]:
+    for feature in network["features"]:
         props = feature["properties"]
         by_corridor.setdefault(props["corridor_id"], []).append(feature)
-        line_style = transmission_style_for_status(props.get("status", "Planned"), traced=True)
-
+        line_style = connected_transmission_style(props)
+        tooltip_role = props.get("geometry_role", "network")
         folium.GeoJson(
             feature,
             style_function=lambda _, line_style=line_style: {
@@ -3740,44 +3926,70 @@ def add_traced_transmission_corridors(
                 "opacity": line_style["opacity"],
                 "dashArray": line_style["dash_array"],
             },
-            tooltip=f"{props['segment_name']} | traced",
-            popup=folium.Popup(
-                (
-                    f"<div style='width:320px'>"
-                    f"<h4 style='margin:0 0 6px 0'>{html.escape(props['segment_name'])}</h4>"
-                    f"<b>Corridor:</b> {html.escape(props['corridor_id'])}<br>"
-                    f"<b>Status:</b> {html.escape(props.get('status', 'Unknown'))}<br>"
-                    f"<b>Voltage:</b> {html.escape(str(props.get('voltage_kv', '')))} kV<br>"
-                    f"<b>Trace method:</b> {html.escape(props.get('trace_method', 'manual'))}<br>"
-                    f"<b>Trace confidence:</b> {html.escape(props.get('trace_confidence', 'unspecified'))}<br>"
-                    f"<b>Source:</b> {html.escape(props.get('source_id', 'Unknown'))}<br>"
-                    f"<b>Pages:</b> {html.escape(str(props.get('page_start', '')))}"
-                    f"{'-' + str(props.get('page_end')) if props.get('page_end') and props.get('page_end') != props.get('page_start') else ''}<br>"
-                    f"<b>Geometry basis:</b> {html.escape(props.get('geometry_basis', 'traced segment'))}"
-                    f"</div>"
-                ),
-                max_width=340,
-            ),
+            tooltip=f"{props.get('segment_name', props.get('corridor_id'))} | {tooltip_role}",
+            popup=folium.Popup(connected_transmission_popup_html(props), max_width=360),
         ).add_to(group)
 
     for corridor_id, features in by_corridor.items():
-        geometries = [shape(feature["geometry"]) for feature in features]
+        source_features = [feature for feature in features if feature["properties"].get("geometry_role") != "inferred_connector"]
+        geometries = [shape(feature["geometry"]) for feature in source_features or features]
         merged = unary_union(geometries)
         label_lat, label_lon = midpoint_for_label(merged)
         first_props = features[0]["properties"]
         folium.Marker(
             location=[label_lat, label_lon],
             icon=build_box_label_icon(
-                first_props.get("corridor_label", corridor_id),
-                "traced route",
+                first_props.get("name", corridor_id),
+                f"{first_props.get('voltage_kv', '')} kV · connected trace",
                 TRANSMISSION_LABEL_ACCENT,
                 8,
                 -10,
+                width=160,
             ),
+            popup=folium.Popup(connected_transmission_popup_html(first_props), max_width=360),
         ).add_to(label_group)
 
     group.add_to(m)
     label_group.add_to(m)
+
+
+def add_cross_border_interconnection_lines(
+    m: folium.Map,
+    linework: dict[str, Any] | None,
+    show_lines: bool = True,
+) -> None:
+    if not linework or not linework.get("features"):
+        return
+    group = folium.FeatureGroup(name="Cross-border links", show=show_lines)
+    for feature in linework["features"]:
+        props = feature["properties"]
+        line_style = cross_border_line_style(props)
+        folium.GeoJson(
+            feature,
+            style_function=lambda _, line_style=line_style: {
+                "color": line_style["color"],
+                "weight": line_style["weight"],
+                "opacity": line_style["opacity"],
+                "dashArray": line_style["dash_array"],
+            },
+            tooltip=f"{props.get('name')} | {props.get('status')} | {props.get('connection_scope')}",
+            popup=folium.Popup(
+                (
+                    f"<div style='width:320px'>"
+                    f"<h4 style='margin:0 0 6px 0'>{html.escape(props.get('name', ''))}</h4>"
+                    f"<b>Status:</b> {html.escape(props.get('status', 'Unknown'))}<br>"
+                    f"<b>Voltage:</b> {html.escape(str(props.get('voltage_kv', '')))} kV<br>"
+                    f"<b>Connection scope:</b> {html.escape(props.get('connection_scope', ''))}<br>"
+                    f"<b>Source:</b> {html.escape(props.get('source_id', ''))}<br>"
+                    f"<b>Length shown:</b> {float(props.get('length_km') or 0):,.1f} km<br>"
+                    f"<b>Basis:</b> {html.escape(props.get('geometry_basis', ''))}<br>"
+                    f"{html.escape(props.get('notes', ''))}"
+                    f"</div>"
+                ),
+                max_width=350,
+            ),
+        ).add_to(group)
+    group.add_to(m)
 
 
 def add_cross_border_interconnections(
@@ -3786,8 +3998,8 @@ def add_cross_border_interconnections(
     show_points: bool = False,
     show_labels: bool = False,
 ) -> None:
-    group = folium.FeatureGroup(name="India cross-border interconnections", show=show_points)
-    label_group = folium.FeatureGroup(name="India interconnection labels", show=show_labels)
+    group = folium.FeatureGroup(name="Cross-border gateways", show=show_points)
+    label_group = folium.FeatureGroup(name="Cross-border gateway labels", show=show_labels)
     for feature in interconnections["features"]:
         props = feature["properties"]
         lon, lat = feature["geometry"]["coordinates"]
@@ -4468,7 +4680,6 @@ def make_explorer_map(
     storage_annotations: dict[str, Any],
     place_anchors: dict[str, dict[str, Any]],
     transmission_corridors: dict[str, Any],
-    traced_corridors: dict[str, Any] | None,
     interconnections: dict[str, Any],
     projects: list[dict[str, Any]],
     include_hydro: bool,
@@ -4491,7 +4702,6 @@ def make_explorer_map(
     add_annotation_layer(m, priority_watchlist, "Priority projects + radar surveys", show=False)
     add_annotation_layer(m, storage_annotations, "Storage shortlist annotations", show=False)
     add_transmission_corridors(m, transmission_corridors, show_lines=False, show_labels=False)
-    add_traced_transmission_corridors(m, traced_corridors, show_lines=False, show_labels=False)
     add_transmission_nodes(m, place_anchors, show_nodes=False, show_labels=False)
     add_cross_border_interconnections(m, interconnections, show_points=False, show_labels=False)
     if include_hydro:
@@ -4526,7 +4736,6 @@ def make_geopolitics_map(
     storage_annotations: dict[str, Any],
     place_anchors: dict[str, dict[str, Any]],
     transmission_corridors: dict[str, Any],
-    traced_corridors: dict[str, Any] | None,
     interconnections: dict[str, Any],
     out_path: Path,
 ) -> None:
@@ -4546,7 +4755,6 @@ def make_geopolitics_map(
     add_annotation_layer(m, priority_watchlist, "Priority projects + radar surveys", show=False)
     add_annotation_layer(m, storage_annotations, "Storage shortlist annotations", show=False)
     add_transmission_corridors(m, transmission_corridors, show_lines=False, show_labels=False)
-    add_traced_transmission_corridors(m, traced_corridors, show_lines=False, show_labels=False)
     add_transmission_nodes(m, place_anchors, show_nodes=False, show_labels=False)
     add_cross_border_interconnections(m, interconnections, show_points=False, show_labels=False)
     add_ganga_receiver_trunk(m, india_rivers, show=True)
@@ -4577,8 +4785,9 @@ def make_power_system_map(
     storage_annotations: dict[str, Any],
     place_anchors: dict[str, dict[str, Any]],
     transmission_corridors: dict[str, Any],
-    traced_corridors: dict[str, Any] | None,
+    traced_network: dict[str, Any] | None,
     interconnections: dict[str, Any],
+    cross_border_lines: dict[str, Any] | None,
     projects: list[dict[str, Any]],
     out_path: Path,
 ) -> None:
@@ -4603,17 +4812,19 @@ def make_power_system_map(
         show_labels=True,
         min_label_voltage_kv=220,
     )
-    add_traced_transmission_corridors(m, traced_corridors, show_lines=True, show_labels=False)
+    add_connected_transmission_network(m, traced_network, show_lines=True, show_labels=False)
     add_transmission_nodes(m, place_anchors, show_nodes=True, show_labels=False)
+    add_cross_border_interconnection_lines(m, cross_border_lines, show_lines=True)
     add_cross_border_interconnections(m, interconnections, show_points=True, show_labels=False)
     add_hydropower_overlay(m, projects, show_sites=True, show_references=True, show_raw_references=False)
     add_annotation_layer(m, top_project_annotations, "Top capacity projects (top 10 MW)", show=False)
 
     title_html = "<div style='font-size:18px;font-weight:700'>Nepal Power System Explorer</div>"
     body_html = (
-        "This view makes the grid the main subject. Traced transmission corridors, grid hubs, cross-border gateways, "
-        "the curated priority/radar project watchlist, and storage shortlist markers are on first; river layers "
-        "remain available but start muted so the network reads as a power system rather than another hydro trace."
+        "This view makes the grid the main subject. The major transmission network, grid hubs and substations, cross-border "
+        "gateways and conservative cross-border links, the priority/radar project watchlist, and storage shortlist markers "
+        "are on first; river layers remain available but start muted. Source trace fragments and QA gaps stay available as "
+        "audit layers."
     )
     add_layout_enhancements(m, title_html, body_html)
     folium.LayerControl(collapsed=False).add_to(m)
@@ -4640,6 +4851,9 @@ def main() -> None:
     place_anchors, place_anchor_report = build_place_anchor_index()
     transmission_corridors, transmission_report = build_transmission_corridors(place_anchors)
     traced_corridors = read_geojson_if_exists(TRACED_SEGMENTS_PATH)
+    traced_network = read_geojson_if_exists(TRACED_NETWORK_PATH)
+    cross_border_lines = read_geojson_if_exists(CROSS_BORDER_LINES_PATH)
+    trace_gaps = read_geojson_if_exists(TRACE_GAP_PATH)
     interconnections, interconnection_report = build_cross_border_interconnections(place_anchors)
 
     (PROCESSED / "nepal_relevant_tributaries.geojson").write_text(json.dumps(tributaries))
@@ -4729,6 +4943,18 @@ def main() -> None:
                     "feature_count": len(traced_corridors["features"]) if traced_corridors else 0,
                     "path": str(TRACED_SEGMENTS_PATH),
                 },
+                "connected_transmission_network": {
+                    "feature_count": len(traced_network["features"]) if traced_network else 0,
+                    "path": str(TRACED_NETWORK_PATH),
+                },
+                "cross_border_interconnection_lines": {
+                    "feature_count": len(cross_border_lines["features"]) if cross_border_lines else 0,
+                    "path": str(CROSS_BORDER_LINES_PATH),
+                },
+                "transmission_trace_gaps": {
+                    "feature_count": len(trace_gaps["features"]) if trace_gaps else 0,
+                    "path": str(TRACE_GAP_PATH),
+                },
             },
             indent=2,
         )
@@ -4750,7 +4976,6 @@ def main() -> None:
         storage_annotations,
         place_anchors,
         transmission_corridors,
-        traced_corridors,
         interconnections,
         projects,
         include_hydro=True,
@@ -4773,7 +4998,6 @@ def main() -> None:
         storage_annotations,
         place_anchors,
         transmission_corridors,
-        traced_corridors,
         interconnections,
         projects,
         include_hydro=False,
@@ -4795,7 +5019,6 @@ def main() -> None:
         storage_annotations,
         place_anchors,
         transmission_corridors,
-        traced_corridors,
         interconnections,
         out_path=DOCS / "nepal_geopolitics_river_influence.html",
     )
@@ -4812,8 +5035,9 @@ def main() -> None:
         storage_annotations,
         place_anchors,
         transmission_corridors,
-        traced_corridors,
+        traced_network,
         interconnections,
+        cross_border_lines,
         projects,
         out_path=DOCS / "nepal_power_system_explorer.html",
     )

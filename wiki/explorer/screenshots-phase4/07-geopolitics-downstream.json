@@ -1,0 +1,19 @@
+{
+  "name": "07-geopolitics-downstream",
+  "preset": "geopolitics",
+  "basemap": "Carto Positron",
+  "zoom": 7,
+  "desc": "Geopolitics \u2014 downstream India view",
+  "markerMode": "badges",
+  "badgeCount": 12,
+  "activeLayers": [
+    "country_outline",
+    "tributaries",
+    "downstream_systems",
+    "india_rivers",
+    "basin_polygons",
+    "india_basins",
+    "callouts",
+    "hydrology_markers"
+  ]
+}

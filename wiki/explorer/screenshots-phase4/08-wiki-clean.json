@@ -1,0 +1,13 @@
+{
+  "name": "08-wiki-clean",
+  "preset": "wiki",
+  "basemap": "Carto Positron",
+  "zoom": 7,
+  "desc": "Wiki preset \u2014 clean orientation",
+  "markerMode": "circles",
+  "badgeCount": 0,
+  "activeLayers": [
+    "country_outline",
+    "basin_polygons"
+  ]
+}

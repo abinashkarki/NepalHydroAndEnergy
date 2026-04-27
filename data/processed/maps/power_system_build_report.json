@@ -1,6 +1,6 @@
 {
   "place_anchors": {
-    "feature_count": 29,
+    "feature_count": 39,
     "matches": [
       {
         "id": "hetauda",
@@ -60,24 +60,59 @@
       },
       {
         "id": "dana",
-        "label": "Dana",
-        "status": "ok",
+        "label": "Dana substation",
+        "status": "ok_manual_source_anchor",
         "query": "Dana Myagdi Nepal",
-        "display_name": "Dana, Beni - Jomsom Road, D\u0101na, Annapurna-03, Ligma, Annapurna, \u092e\u094d\u092f\u093e\u0917\u094d\u0926\u0940, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+        "display_name": "Dana substation"
       },
       {
         "id": "kushma",
-        "label": "Kushma",
-        "status": "ok",
+        "label": "Kushma substation",
+        "status": "ok_manual_source_anchor",
         "query": "Kushma Nepal",
-        "display_name": "Kushma, \u092a\u0930\u094d\u0935\u0924, \u0917\u0923\u094d\u0921\u0915\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 33400, \u0928\u0947\u092a\u093e\u0932"
+        "display_name": "Kushma substation"
       },
       {
         "id": "butwal",
-        "label": "Butwal",
-        "status": "ok",
+        "label": "New Butwal substation",
+        "status": "ok_manual_source_anchor",
         "query": "Butwal Nepal",
-        "display_name": "\u092c\u0941\u091f\u0935\u0932, \u0930\u0941\u092a\u0928\u094d\u0926\u0947\u0939\u0940, \u0932\u0941\u092e\u094d\u092c\u093f\u0928\u0940 \u092a\u094d\u0930\u0926\u0947\u0936, 32907, \u0928\u0947\u092a\u093e\u0932"
+        "display_name": "New Butwal substation"
+      },
+      {
+        "id": "butwal_132",
+        "label": "Butwal 132 kV hub",
+        "status": "ok_manual_source_anchor",
+        "query": "Butwal Nepal",
+        "display_name": "Butwal 132 kV hub"
+      },
+      {
+        "id": "shivapur",
+        "label": "Shivapur",
+        "status": "ok_manual_source_anchor",
+        "query": "Shivapur Nepal",
+        "display_name": "Shivapur"
+      },
+      {
+        "id": "lamahi",
+        "label": "Lamahi",
+        "status": "ok_manual_source_anchor",
+        "query": "Lamahi Nepal",
+        "display_name": "Lamahi"
+      },
+      {
+        "id": "kohalpur",
+        "label": "Kohalpur",
+        "status": "ok_manual_source_anchor",
+        "query": "Kohalpur Nepal",
+        "display_name": "Kohalpur"
+      },
+      {
+        "id": "bhurigaun",
+        "label": "Bhurigaun",
+        "status": "ok_manual_source_anchor",
+        "query": "Bhurigaun Nepal",
+        "display_name": "Bhurigaun"
       },
       {
         "id": "ratmate",
@@ -159,9 +194,23 @@
       {
         "id": "lamki",
         "label": "Lamki / Dododhara",
-        "status": "ok",
-        "query": "Lamki Nepal",
-        "display_name": "Lamki Chuha, Lamkichuha, \u0915\u0948\u0932\u093e\u0932\u0940, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+        "status": "ok_manual_source_anchor",
+        "query": "Lamki Nepal; Dododhara Nepal",
+        "display_name": "Lamki / Dododhara"
+      },
+      {
+        "id": "pahalwanpur",
+        "label": "Pahalwanpur",
+        "status": "ok_manual_source_anchor",
+        "query": "Pahalwanpur Nepal",
+        "display_name": "Pahalwanpur"
+      },
+      {
+        "id": "attariya",
+        "label": "Attariya",
+        "status": "ok_manual_source_anchor",
+        "query": "Attariya Nepal",
+        "display_name": "Attariya"
       },
       {
         "id": "purnea",
@@ -180,9 +229,16 @@
       {
         "id": "chameliya",
         "label": "Chameliya",
-        "status": "ok",
+        "status": "ok_manual_source_anchor",
         "query": "Chameliya Nepal",
-        "display_name": "Chameliya Khola, \u0926\u093e\u0930\u094d\u091a\u0941\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, \u0928\u0947\u092a\u093e\u0932"
+        "display_name": "Chameliya"
+      },
+      {
+        "id": "syaule",
+        "label": "Syaule",
+        "status": "ok_manual_source_anchor",
+        "query": "Syaule Darchula Nepal",
+        "display_name": "Syaule"
       },
       {
         "id": "jauljibi",
@@ -194,9 +250,23 @@
       {
         "id": "mahendranagar",
         "label": "Mahendranagar",
-        "status": "ok",
-        "query": "Mahendranagar Kanchanpur Nepal",
-        "display_name": "\u092d\u093f\u092e\u0926\u0924\u094d\u0924, \u0915\u091e\u094d\u091a\u0928\u092a\u0941\u0930 \u091c\u093f\u0932\u094d\u0932\u093e, \u0938\u0941\u0926\u0942\u0930\u092a\u0936\u094d\u091a\u093f\u092e \u092a\u094d\u0930\u0926\u0947\u0936, 10400, \u0928\u0947\u092a\u093e\u0932"
+        "status": "ok_manual_source_anchor",
+        "query": "Mahendranagar Kanchanpur Nepal; Bhimdatta Nepal",
+        "display_name": "Mahendranagar"
+      },
+      {
+        "id": "surkhet",
+        "label": "Surkhet",
+        "status": "ok_manual_source_anchor",
+        "query": "Surkhet Nepal",
+        "display_name": "Surkhet"
+      },
+      {
+        "id": "dailekh",
+        "label": "Dailekh",
+        "status": "ok_manual_source_anchor",
+        "query": "Dailekh Nepal",
+        "display_name": "Dailekh"
       },
       {
         "id": "nautanwa",
@@ -369,7 +439,19 @@
     ]
   },
   "traced_transmission_segments": {
-    "feature_count": 45,
+    "feature_count": 22,
     "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_segments.geojson"
+  },
+  "connected_transmission_network": {
+    "feature_count": 22,
+    "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_network.geojson"
+  },
+  "cross_border_interconnection_lines": {
+    "feature_count": 10,
+    "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/cross_border_interconnection_lines.geojson"
+  },
+  "transmission_trace_gaps": {
+    "feature_count": 0,
+    "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_trace_gap_report.geojson"
   }
 }

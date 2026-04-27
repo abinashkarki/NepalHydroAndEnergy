@@ -46,86 +46,48 @@
   ],
   "corridors": {
     "hddi_400": {
-      "status": "ok",
-      "matched_anchors": [
-        "Hetauda",
-        "New Dhalkebar-",
-        "Inaruwa"
-      ],
-      "expected_anchors": [
-        "Hetauda",
-        "Dhalkebar",
-        "Inaruwa"
-      ],
-      "selected_count": 10,
-      "output_segment_count": 4,
-      "layer": "EXISTING/UNDERCONSTRUCTION 400 kV",
-      "viewport_name": "Layers",
-      "coverage": "full",
-      "confidence": "high"
+      "status": "ok_manual_rap_trace",
+      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/hddi_400_rap_trace.geojson",
+      "source_id": "world_bank_hddtl_rap",
+      "source_pdf": "world_bank_hddtl_rap.pdf",
+      "output_segment_count": 2,
+      "coverage": "two_project_segments",
+      "confidence": "medium",
+      "trace_method": "manual_rap_trace",
+      "replaces": "Oversimplified RPGCL overview-derived hddi_400 fragments in the public traced segment layer"
     },
     "hetauda_bharatpur_bardaghat_220": {
-      "status": "ok",
-      "matched_anchors": [
-        "Hetauda",
-        "New Bharatpur",
-        "Bardaghat"
-      ],
-      "expected_anchors": [
-        "Hetauda",
-        "Bharatpur",
-        "Bardaghat"
-      ],
-      "selected_count": 6,
-      "output_segment_count": 5,
-      "layer": "EXISTING/UNDERCONSTRUCTION 220 kV",
-      "viewport_name": "Layers",
-      "coverage": "full",
-      "confidence": "high"
+      "status": "ok_manual_source_trace",
+      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/hetauda_bharatpur_bardaghat_220_source_trace.geojson",
+      "source_id": "rpgcl_transmission_network_map_revised1+nea_bharatpur_bardaghat_sia",
+      "source_pdf": "nepal_transmission_network_map_revised1.pdf; SIA-Bharatpur-Bardghat.pdf",
+      "output_segment_count": 2,
+      "coverage": "two_project_segments",
+      "confidence": "medium",
+      "trace_method": "manual_source_trace",
+      "replaces": "Over-selected RPGCL overview-derived hetauda_bharatpur_bardaghat_220 fragments in the public traced segment layer"
     },
     "mca_central_400": {
-      "status": "ok",
-      "matched_anchors": [
-        "Lapsephedi",
-        "Ratmate",
-        "Hetauda",
-        "Damauli",
-        "Butwal"
-      ],
-      "expected_anchors": [
-        "Lapsephedi",
-        "Ratmate",
-        "Hetauda",
-        "Damauli",
-        "Butwal"
-      ],
-      "selected_count": 158,
-      "output_segment_count": 15,
-      "layer": "PROPOSED 400kV",
-      "viewport_name": "Layers",
-      "coverage": "full",
-      "confidence": "high"
+      "status": "ok_manual_atlas_trace",
+      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson",
+      "source_id": "mca_annex_d1_alignment_maps",
+      "source_pdf": "mca_annex_d1_alignment_maps.pdf",
+      "output_segment_count": 5,
+      "coverage": "full_project_segments",
+      "confidence": "high",
+      "trace_method": "manual_atlas_trace",
+      "replaces": "RPGCL overview-derived mca_central_400 fragments in the public traced segment layer"
     },
     "udipur_damauli_bharatpur_220": {
-      "status": "ok",
-      "matched_anchors": [
-        "Khudi",
-        "Udipur",
-        "Damauli",
-        "New Bharatpur"
-      ],
-      "expected_anchors": [
-        "Khudi",
-        "Udipur",
-        "Damauli",
-        "Bharatpur"
-      ],
-      "selected_count": 54,
-      "output_segment_count": 16,
-      "layer": "PROPOSED 220kV",
-      "viewport_name": "Layers",
-      "coverage": "full",
-      "confidence": "medium"
+      "status": "ok_manual_rap_trace",
+      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/udipur_damauli_bharatpur_220_rap_trace.geojson",
+      "source_id": "nea_marsyangdi_rap",
+      "source_pdf": "nea_marsyangdi_rap.pdf",
+      "output_segment_count": 1,
+      "coverage": "full_route_segment",
+      "confidence": "medium",
+      "trace_method": "manual_rap_trace",
+      "replaces": "RPGCL overview-derived udipur_damauli_bharatpur_220 fragments in the public traced segment layer"
     },
     "solu_tingla_mirchaiya_132": {
       "status": "skipped_missing_anchors",
@@ -143,6 +105,97 @@
         "Dhungesanu",
         "Soyak"
       ]
+    },
+    "dana_kushma_butwal_220": {
+      "status": "ok_manual_source_trace",
+      "source_id": "rpgcl_transmission_network_map_revised1+nea_transmission_annual_book_2077+nea_annual_report_2024_2025",
+      "source_pdf": "nepal_transmission_network_map_revised1.pdf; nea_transmission_annual_book_2077.pdf; nea_annual_report_2024_2025.pdf",
+      "output_segment_count": 2,
+      "coverage": "two_project_segments",
+      "confidence": "high",
+      "trace_method": "manual_source_trace",
+      "selected_source_ids": [
+        "rpgcl_line_00064",
+        "rpgcl_line_00067"
+      ],
+      "official_route_km": 127.57,
+      "official_circuit_km": 255.6,
+      "replaces": "Context-sketch-only Dana-Kushma-New Butwal corridor in the public major-network layer"
+    },
+    "western_132_backbone": {
+      "status": "ok_manual_source_trace",
+      "source_id": "rpgcl_transmission_network_map_revised1+nea_annual_report_2024_2025",
+      "source_pdf": "nepal_transmission_network_map_revised1.pdf; nea_annual_report_2024_2025.pdf",
+      "output_segment_count": 4,
+      "coverage": "western_operational_132_backbone",
+      "confidence": "medium",
+      "trace_method": "manual_source_trace",
+      "official_route_km": 404.89,
+      "official_circuit_km": 809.78,
+      "segments": [
+        {
+          "segment_id": "butwal_shivapur_lamahi_kohalpur_132_rpgcl_trace",
+          "selected_drawing_indexes": [
+            34,
+            35,
+            36,
+            37
+          ],
+          "official_route_km": 215.0,
+          "traced_length_km": 210.988
+        },
+        {
+          "segment_id": "kohalpur_bhurigaun_lamki_132_rpgcl_trace",
+          "selected_drawing_indexes": [
+            42,
+            47
+          ],
+          "official_route_km": 88.33,
+          "traced_length_km": 89.781
+        },
+        {
+          "segment_id": "lamki_pahalwanpur_attariya_mahendranagar_132_rpgcl_trace",
+          "selected_drawing_indexes": [
+            48,
+            43,
+            44,
+            45
+          ],
+          "official_route_km": 101.56,
+          "traced_length_km": 117.379
+        },
+        {
+          "segment_id": "chameliya_syaule_attariya_132_rpgcl_trace",
+          "selected_drawing_indexes": [
+            7,
+            8
+          ],
+          "official_route_km": 131.0,
+          "traced_length_km": 129.506
+        }
+      ]
+    },
+    "chameliya_attariya_132": {
+      "status": "ok_manual_source_trace",
+      "source_id": "rpgcl_transmission_network_map_revised1+nea_annual_report_2024_2025",
+      "source_pdf": "nepal_transmission_network_map_revised1.pdf; nea_annual_report_2024_2025.pdf",
+      "output_segment_count": 1,
+      "coverage": "far_west_hydro_evacuating_132_line",
+      "confidence": "medium",
+      "trace_method": "manual_source_trace",
+      "official_route_km": 131.0,
+      "official_circuit_km": 262.0
+    },
+    "kohalpur_surkhet_dailekh_132": {
+      "status": "ok_manual_route_trace",
+      "source_id": "nea_annual_report_2024_2025+rpgcl_transmission_network_map_revised1",
+      "source_pdf": "nea_annual_report_2024_2025.pdf; nepal_transmission_network_map_revised1.pdf",
+      "output_segment_count": 1,
+      "coverage": "under_construction_karnali_grid_reach",
+      "confidence": "medium",
+      "trace_method": "manual_route_trace",
+      "official_route_km": 84.0,
+      "official_circuit_km": 168.0
     }
   },
   "manual_corridors": {
@@ -180,5 +233,5 @@
       "trace_method": "manual_route_trace"
     }
   },
-  "traced_feature_count": 45
+  "traced_feature_count": 22
 }

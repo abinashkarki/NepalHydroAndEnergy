@@ -2,20 +2,19 @@
 title: Sun Koshi No.3
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
-sources: []
+updated: 2026-04-25
+sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, storage, koshi]
 images:
   - src: sun-koshi-no-3/jica-layout-page.png
     caption: Official JICA storage master plan figure page showing Sun Koshi No.3 location and general layout.
     credit: JICA / EPDC, Nationwide Master Plan Study on Storage-type Hydroelectric Power Development in Nepal
     source_url: "../../../data/raw/lead1_sources/jica_storage_master_plan_vol_2.pdf"
-generator: auto-stub
 ---
 
 # Sun Koshi No.3
 
-536 MW · jica promising storage · in the Koshi basin.
+Sun Koshi No.3 is a 536 MW JICA promising-storage candidate in the Koshi basin. It is pinned in [[data-layer-storage-shortlist]] because it combines large reservoir scale with meaningful dry-season output in Nepal's eastern-central hydro corridor.
 
 <!-- generated:specs:start -->
 
@@ -34,12 +33,21 @@ generator: auto-stub
 
 <!-- generated:specs:end -->
 
-## Notes
+## Why It Matters
 
-> [!gap] This page is an auto-generated stub. Capacity, location and
-> licence status come straight from the Ministry of Energy registry
-> mirrored in the map manifest. Add narrative, citations and images
-> here; the spec table above will refresh on rerun.
+Sun Koshi No.3 has **1,220 MCM** total storage, **555 MCM** effective storage, and **335.9 GWh** of dry-season energy in the storage-shortlist table. Its dry share, **17.8%**, is lower than Nalsyau Gad, Dudhkoshi, or Kokhajor-1, so the case for the project rests more on total reservoir block and basin position than on dry-share efficiency.
+
+This makes it a useful comparator for [[dudhkoshi-storage]]. Both are Koshi-basin storage candidates, but they occupy different strategic roles: Dudhkoshi is the stronger quantified dry-season block, while Sun Koshi No.3 is a large east-central storage option with different location and transmission implications.
+
+## Status And Timing
+
+Sun Koshi No.3 is a planning candidate, not an active construction project in the current wiki evidence set. The IPSDP milestone ladder groups **Sunkoshi 3 STO** in the **2031-2035** window.
+
+Watch for updated feasibility, developer structure, environmental approvals, financing, and how the project is treated in relation to downstream river regulation and cross-border hydrology concerns.
+
+## Map Interpretation
+
+The current map marker is a river anchor. Use it for basin and strategic comparison, not for final dam-axis or reservoir-boundary analysis.
 
 ## Registry note
 
@@ -50,3 +58,6 @@ generator: auto-stub
 - [[koshi-basin]]
 - [[storage-deficit]]
 - [[firm-power]]
+- [[dudhkoshi-storage]]
+- [[data-ipsdp-milestone-ladder-2022-2040]]
+- [[data-layer-storage-shortlist]]

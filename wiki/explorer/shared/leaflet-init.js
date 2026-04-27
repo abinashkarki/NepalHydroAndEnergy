@@ -11,6 +11,68 @@ const HYDROPOWER_FALLBACK_LAYERS = new Set([
   "hydropower_survey",
 ]);
 
+// ---- Warm Technical / Living Atlas: style resolver ----
+
+const ROLE_STYLES = {
+  primary:    { visible: true, opacity: 1,    fillOpacity: 0.95, strokeOpacity: 1,    labelOpacity: 1,    zIndex: 500 },
+  secondary:  { visible: true, opacity: 0.72, fillOpacity: 0.65, strokeOpacity: 0.75, labelOpacity: 0.65, zIndex: 400 },
+  context:    { visible: true, opacity: 0.42, fillOpacity: 0.25, strokeOpacity: 0.45, labelOpacity: 0.4,  zIndex: 300 },
+  annotation: { visible: true, opacity: 0.85, fillOpacity: 0.8,  strokeOpacity: 0.85, labelOpacity: 0.9,  zIndex: 600 },
+  muted:      { visible: true, opacity: 0.22, fillOpacity: 0.14, strokeOpacity: 0.25, labelOpacity: 0,    zIndex: 200 },
+  off:        { visible: false },
+};
+
+const BASEMAP_ADJUSTMENTS = {
+  "Carto Positron": { badgeHalo: "none",   iconHalo: "subtle", lineContrastBoost: 0 },
+  "Topographic":     { badgeHalo: "medium", iconHalo: "medium", lineContrastBoost: 0.15 },
+  "Satellite":       { badgeHalo: "strong", iconHalo: "strong", lineContrastBoost: 0.25 },
+};
+
+function resolveLayerStyle(layerDef, preset, basemap, zoom, key) {
+  const role = (layerDef.roleByPreset && layerDef.roleByPreset[preset]) || "off";
+
+  // Zoom discipline: at national zoom, demote dense secondary layers
+  let effectiveRole = role;
+  if (zoom != null && zoom < 7) {
+    // Dense survey/pipeline layers become OFF at national zoom (don't render at all)
+    if (key === "hydropower_survey" && (role === "secondary" || role === "context")) {
+      effectiveRole = "off";
+    }
+  }
+  // Construction projects: keep OFF longer (2 extra zoom levels) so they only
+  // appear when there's enough space and clearance.
+  if (zoom != null && zoom < 9 && preset === "power_system" && key === "hydropower_construction" && role === "primary") {
+    effectiveRole = "off";
+  }
+  // Regional zoom: construction is visible but secondary (not competing with operating)
+  if (zoom != null && zoom >= 9 && zoom < 11 && preset === "power_system" && key === "hydropower_construction" && role === "primary") {
+    effectiveRole = "secondary";
+  }
+  // Tributaries preset: operating plants follow same zoom discipline as construction in power
+  // (hidden until zoom 9 so national view stays clean)
+  if (zoom != null && zoom < 9 && preset === "tributaries" && key === "hydropower_operating") {
+    effectiveRole = "off";
+  }
+
+  const roleStyle = ROLE_STYLES[effectiveRole] || ROLE_STYLES.off;
+  const basemapStyle = BASEMAP_ADJUSTMENTS[basemap] || BASEMAP_ADJUSTMENTS["Carto Positron"];
+  return { role: effectiveRole, roleStyle, basemapStyle };
+}
+
+function getZoomBehavior(zoom) {
+  if (zoom < 7)  return "national";
+  if (zoom < 10) return "regional";
+  return "local";
+}
+
+
+// Called by L.geoJSON style option and pointToLayer. Returns a Leaflet
+// style object. Role-aware adjustments are applied post-render by
+// _applyRoleVisibility(); this function keeps the base style intact so
+// the map doesn't throw when rendering lines/polygons/points.
+function styleForFeature(baseStyle, layerDef, props) {
+  return baseStyle;
+}
 // App-level cache buster. A single value derived from the page-load time
 // means every JSON fetched during one session sees consistent data, but a
 // reload after scripts/gen_wiki_stubs.py always busts the browser cache.
@@ -69,7 +131,7 @@ function makeMap(elId, opts = {}) {
   const map = L.map(elId, {
     center: opts.center || NEPAL_VIEW.center,
     zoom: opts.zoom || NEPAL_VIEW.zoom,
-    zoomControl: true,
+    zoomControl: false,
     // SVG, not canvas. With canvas every layer shares one hit-test surface and
     // priority becomes "last-added wins" — fragile across toggle paths. With
     // SVG we can additionally give polygons / lines / points their own panes
@@ -90,12 +152,13 @@ function makeMap(elId, opts = {}) {
   const baseLayers = makeBaseLayers();
   const defaultBase = opts.defaultBase || "Carto Positron";
   baseLayers[defaultBase].addTo(map);
+  L.control.zoom({ position: "bottomright" }).addTo(map);
   L.control.scale({ imperial: false }).addTo(map);
   return { map, baseLayers };
 }
 
 function popupHTML(props, popupFields, opts = {}) {
-  const title = props.label_title || props.name || props.project || props.short_label || props.id || "Feature";
+  const title = props.label_title || props.name || props.project || props.short_label || props.label || props.display_name || props.id || "Feature";
   const rows = (popupFields || []).map((f) => {
     const v = props[f];
     if (v === undefined || v === null || v === "") return "";
@@ -317,6 +380,53 @@ class LayerManager {
     // a polygon on after a point would put the polygon on top in the canvas
     // hit-test order and steal the point's clicks.
     map.on("overlayadd", () => this.normalizeZOrder());
+    this._markerMode = "badges";
+    this._preset = options.preset || "";
+    this._basemap = options.basemap || "Carto Positron";
+    this._activeSet = new Set();
+
+    // Zoom-aware simplification
+    map.on("zoomend", () => {
+      const zoom = map.getZoom();
+      const behavior = getZoomBehavior(zoom);
+      this._zoomBehavior = behavior;
+      // Re-evaluate role visibility (layers may get hidden/shown at national zoom)
+      this._applyRoleVisibility();
+      // At national zoom: reduce marker radius for non-primary layers
+      // At regional zoom: slightly reduce secondary layers so they don't compete with primary
+      for (const [key, layer] of Object.entries(this.layers)) {
+        if (!this.has(key)) continue;
+        const def = this.manifest.layers[key];
+        if (!def) continue;
+        const { role } = resolveLayerStyle(def, this._preset, this._basemap, zoom, key);
+        if (def.kind !== "point") continue;
+        let scale = 1;
+        if (behavior === "national" && role !== "primary" && role !== "annotation") {
+          scale = 0.55;
+        } else if (behavior === "regional" && role === "secondary") {
+          scale = 0.82;
+        }
+        if (scale === 1) continue;
+        try {
+          if (layer.eachLayer) {
+            layer.eachLayer((m) => {
+              if (typeof m.setRadius === "function") {
+                const origR = m.options.radius || 8;
+                m.setRadius(Math.max(origR * scale, 2.5));
+              }
+            });
+          }
+        } catch (e) {}
+        // Gradual reveal: re-apply capacity filter on zoom change
+        if (key === "hydropower_construction" && this._preset === "power_system") {
+          this._applyConstructionFilter(layer, zoom);
+        }
+        // National zoom density guard: re-apply top-10 filter on zoom change
+        if (key === "hydropower_operating" && this._preset === "power_system") {
+          this._applyOperatingFilter(layer, zoom);
+        }
+      }
+    });
   }
 
   async _data(key) {
@@ -367,7 +477,7 @@ class LayerManager {
       return interactive ? lookupSlug(reverseIdx, key, props, aliases, hydropowerSlugAliases, knownSlugs) : null;
     };
     const layer = L.geoJSON(data, {
-      style: styleWithPane,
+      style: (feat) => styleForFeature(styleWithPane, def, (feat && feat.properties) || {}),
       interactive: interactive,
       pane: pane,
       pointToLayer: (feat, latlng) => {
@@ -393,12 +503,51 @@ class LayerManager {
           classes.push("np-marker-curated");
           if (hasImages)     classes.push("np-marker-hasimg");
         }
-        const opts = Object.assign({}, styleWithPane, { className: classes.join(" ") });
-        if (radiusFn) {
-          const r = radiusFn(feat.properties || {});
-          return L.circleMarker(latlng, Object.assign({}, opts, { radius: r }));
+        const opts = Object.assign({}, styleForFeature(styleWithPane, def, feat.properties || {}), { className: classes.join(" ") });
+        const r = radiusFn ? radiusFn(feat.properties || {}) : (opts.radius || 8);
+        const mode = this._markerMode || "circles";
+        // Look up the icon key from layer panel sections (symbol field)
+        const iconKey = (() => {
+          try {
+            const secs = window.NepalExplorer && window.NepalExplorer.LAYER_PANEL_SECTIONS;
+            if (!secs) return "";
+            for (const s of secs) {
+              if (s.isGroup) {
+                for (const sub of s.sections || []) {
+                  for (const row of sub.rows || []) {
+                    if (row.key === key && row.symbol) return row.symbol;
+                  }
+                }
+              } else {
+                for (const row of s.rows || []) {
+                  if (row.key === key && row.symbol) return row.symbol;
+                }
+              }
+            }
+          } catch (e) {}
+          return "";
+        })();
+        if (mode === "circles" || !iconKey) {
+          const circleOpts = Object.assign({}, opts, { className: classes.join(" ") });
+          if (radiusFn) circleOpts.radius = r;
+          return L.circleMarker(latlng, circleOpts);
         }
-        return L.circleMarker(latlng, opts);
+        // Badge mode (default): colored circle + white SVG icon
+        const badgeR = Math.max(r, 8);
+        const borderColor = opts.color || "#666";
+        const fillColor = opts.fillColor || opts.color || "#999";
+        const svgSize = Math.max(Math.round(badgeR * 1.2), 10);  // icon ≈ 60% of badge diameter per brief §5.3
+        const iconBody = this._svgIconHtml(iconKey);
+        const basemapClass = (this._basemap === "Topographic") ? "np-badge-terrain" : (this._basemap === "Satellite") ? "np-badge-satellite" : "np-badge-light";
+        const divHtml = `<div class="np-marker-badge ${basemapClass}" style="width:${badgeR*2}px;height:${badgeR*2}px;background:${fillColor};border-color:${borderColor};"><svg viewBox="0 0 24 24" width="${svgSize}" height="${svgSize}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${iconBody}</svg></div>`;
+        const divIcon = L.divIcon({
+          html: divHtml,
+          className: classes.join(" ") + " np-marker-badge-wrap",
+          iconSize: [badgeR*2, badgeR*2],
+          iconAnchor: [badgeR, badgeR],
+          popupAnchor: [0, -badgeR],
+        });
+        return L.marker(latlng, { icon: divIcon, pane: opts.pane, interactive: interactive });
       },
       onEachFeature: (feat, lyr) => {
         const props = feat.properties || {};
@@ -439,6 +588,27 @@ class LayerManager {
       },
     });
     layer._npCoverage = { bound: coverageBound, total: coverageTotal };
+    // Gradual reveal: compute 75th-percentile capacity for construction layer
+    // so only the largest projects show at the zoom threshold where the layer
+    // first becomes visible (zoom 9–10); all appear at zoom 11+.
+    if (key === "hydropower_construction" && data.features && data.features.length) {
+      const caps = data.features
+        .map((f) => Number(f.properties && f.properties.capacity_mw) || 0)
+        .sort((a, b) => a - b);
+      const idx = Math.floor(caps.length * 0.75);
+      layer._topCapacityThreshold = caps[idx] || 0;
+    }
+    // National zoom density guard: compute the 10th-largest capacity for
+    // operating plants so only the biggest 10 show at zoom <= 6 in the power preset.
+    if (key === "hydropower_operating" && data.features && data.features.length) {
+      const caps = data.features
+        .map((f) => Number(f.properties && f.properties.capacity_mw) || 0)
+        .filter((c) => c > 0)
+        .sort((a, b) => b - a);
+      // caps is descending; index 9 = 10th largest (or last element if fewer than 10)
+      const idx = Math.min(9, caps.length - 1);
+      layer._top10Threshold = caps[idx] || 0;
+    }
     this.layers[key] = layer;
     return layer;
   }
@@ -446,6 +616,172 @@ class LayerManager {
   coverageFor(key) {
     const l = this.layers[key];
     return l && l._npCoverage;
+  }
+
+  _applyConstructionFilter(layer, zoom) {
+    // Gradual reveal for construction projects in power preset:
+    // at zoom 9–10 only the top-quartile by capacity are shown;
+    // zoom 11+ shows all.
+    if (!layer || !layer.eachLayer) return;
+    const threshold = layer._topCapacityThreshold;
+    if (threshold == null) return;
+    const showAll = zoom >= 11;
+    layer.eachLayer((m) => {
+      const cap = m.feature && m.feature.properties && m.feature.properties.capacity_mw;
+      const show = showAll || (cap != null && cap >= threshold);
+      const opacity = show ? 1 : 0;
+      try {
+        if (typeof m.setOpacity === "function") {
+          m.setOpacity(opacity);
+        } else if (m.getElement) {
+          m.getElement().style.opacity = String(opacity);
+        }
+      } catch (e) {}
+    });
+  }
+
+  _applyOperatingFilter(layer, zoom) {
+    // National zoom density guard for operating plants in power preset:
+    // at zoom <= 6 only the top-10 largest plants are shown;
+    // zoom 7+ shows all 81.
+    if (!layer || !layer.eachLayer) return;
+    const threshold = layer._top10Threshold;
+    if (threshold == null) return;
+    const showAll = zoom >= 7;
+    layer.eachLayer((m) => {
+      const cap = m.feature && m.feature.properties && m.feature.properties.capacity_mw;
+      const show = showAll || (cap != null && cap >= threshold);
+      const opacity = show ? 1 : 0;
+      try {
+        if (typeof m.setOpacity === "function") {
+          m.setOpacity(opacity);
+        } else if (m.getElement) {
+          m.getElement().style.opacity = String(opacity);
+        }
+      } catch (e) {}
+    });
+  }
+
+  _svgIconHtml(iconKey) {
+    if (!this._iconsCache) this._iconsCache = {};
+    if (this._iconsCache[iconKey]) return this._iconsCache[iconKey];
+    // Warm Technical / Living Atlas — point-layer icon family (Phase 3)
+    // All: 24×24 viewBox, single-stroke, fill="none", round caps+joins.
+    const byKey = {
+      live:      `<path d="M12.5 2.5 6 10h4L7 20l6.5-9.5h-3.5L12.5 2.5z"/><path d="M4 21c2.5-1 4.5 1 6.5 0s4 1 6.5 0"/>`,
+      build:     `<path d="M12 20V5"/><path d="M6 6h12"/><path d="M18 6V3.5"/>`,
+      pipeline:  `<path d="M5.5 3.5h8l5 5V20.5H5.5z"/><path d="M13.5 3.5v5h5"/><path d="M9 12.5l2.5-1.5 2.5 1.5"/><path d="M9 15.5c2-.5 3.5.8 5 0"/>`,
+      watch:     `<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="2.8"/>`,
+      storage:   `<path d="M4 6.5h16v3H4z"/><path d="M7 9.5l5 8 5-8z"/>`,
+      big:       `<path d="M12 2.5l2.8 5.6 6.2.8-4.5 4.3 1 6.3-5.5-2.8-5.5 2.8 1-6.3-4.5-4.3 6.2-.8z"/><circle cx="12" cy="12" r="1.2"/>`,
+      solar:     `<path d="M6 5h10v8.5H6z"/><path d="M8 7.5h6M8 10h6"/><circle cx="18.5" cy="6" r="2.2"/>`,
+      floating:  `<path d="M7 4.5h11v7H7z"/><path d="M8.5 6.5h8M8.5 8.5h8"/><path d="M4 14c2.5-1.5 4 .8 6 0s4 .8 6 0 4 .8 6 0"/><path d="M4 17c2.5-1.5 4 .8 6 0s4 .8 6 0 4 .8 6 0"/>`,
+      gateway:   `<circle cx="4" cy="12" r="2.2"/><path d="M6.2 12h5"/><path d="M11.2 10l3 2-3 2"/><path d="M14.2 12h4"/><circle cx="20" cy="12" r="2.2"/>`,
+      substation:`<path d="M12 2.5l6.5 6.5-6.5 6.5-6.5-6.5z"/><path d="M9 9h6"/><path d="M12 5.5v7"/><path d="M12 13v3"/>`,
+      impact:    `<circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="4"/>`,
+      source:    `<path d="M12 2.5l5.5 4-5.5 4-5.5-4z"/><path d="M12 6.5v4"/><circle cx="12" cy="11.5" r="1.5"/>`,
+      season:    `<circle cx="12" cy="6" r="2.8"/><path d="M12 2v1.2"/><path d="M6 13.5c3-1.5 4 1 5 0s4 1 5 0"/><path d="M7 17c2.5-1.5 3.5 1 5 0s3.5 1 5 0"/>`,
+    };
+    const body = byKey[iconKey] || "";
+    this._iconsCache[iconKey] = body;
+    return body;
+  }
+
+  setMarkerMode(mode) {
+    this._markerMode = mode;
+  }
+
+  setPreset(preset) {
+    if (this._preset === preset) return;
+    this._preset = preset;
+    this._applyRoleVisibility();
+  }
+
+  setBasemap(basemap) {
+    if (this._basemap === basemap) return;
+    this._basemap = basemap;
+    this._applyBasemapToMarkers();
+  }
+
+  _applyRoleVisibility() {
+    // Update layer visibility/opacity based on role in current preset + zoom + basemap.
+    // Iterate over the user-selected set so layers removed for zoom discipline
+    // are still re-evaluated when zoom changes.
+    for (const key of this._activeSet) {
+      const layer = this.layers[key];
+      if (!layer) continue;
+      const def = this.manifest.layers[key];
+      if (!def) continue;
+      const { role, roleStyle } = resolveLayerStyle(def, this._preset, this._basemap, this.map.getZoom(), key);
+      if (!roleStyle.visible) {
+        try { this.map.removeLayer(layer); } catch (e) {}
+        continue;
+      }
+      // Re-add if removed
+      if (!this.map.hasLayer(layer)) {
+        try { layer.addTo(this.map); } catch (e) {}
+      }
+      // Apply opacity to line/polygon layers (points handled at marker level)
+      if (def.kind !== "point") {
+        try {
+          const orig = def.style || {};
+          const isPolygon = def.kind === "polygon";
+          // Geometry-aware: polygons get softer fill so they don't dominate
+          // Light/terrain: moderate softness; Satellite: even softer (dark bg)
+          const isSat = this._basemap === "Satellite";
+          const fillMult = isPolygon ? (isSat ? 0.22 : 0.32) : 1;
+          const strokeMult = isPolygon ? (isSat ? 0.42 : 0.55) : 1;
+          layer.setStyle({
+            opacity: (orig.opacity || 1) * roleStyle.opacity * strokeMult,
+            fillOpacity: (orig.fillOpacity != null ? orig.fillOpacity : 0.2) * roleStyle.fillOpacity * fillMult,
+          });
+        } catch (e) {}
+      }
+      // Adjust zIndex
+      try {
+        const pane = layer.options && layer.options.pane;
+        if (pane && layer.setZIndex) {
+          layer.setZIndex(roleStyle.zIndex);
+        }
+      } catch (e) {}
+      // Gradual reveal: construction projects show top-quartile only at zoom 9–10
+      if (key === "hydropower_construction" && this._preset === "power_system" && def.kind === "point") {
+        this._applyConstructionFilter(layer, this.map.getZoom());
+      }
+      // National zoom density guard: operating plants show top-10 only at zoom <= 6
+      if (key === "hydropower_operating" && this._preset === "power_system" && def.kind === "point") {
+        this._applyOperatingFilter(layer, this.map.getZoom());
+      }
+    }
+    this.normalizeZOrder();
+  }
+
+  _applyBasemapToMarkers() {
+    // Update data-basemap attribute on map container so CSS can scope
+    const container = this.map.getContainer();
+    if (!container) return;
+    container.setAttribute("data-basemap", this._basemap
+      .replace("Carto Positron", "light")
+      .replace("Topographic", "terrain")
+      .replace("Satellite", "satellite"));
+  }
+
+  async rebuildPointLayers() {
+    const active = this.activeKeys();
+    for (const key of active) {
+      const def = this.manifest.layers[key];
+      if (!def || def.kind !== "point") continue;
+      if (this.map.hasLayer(this.layers[key])) {
+        this.map.removeLayer(this.layers[key]);
+      }
+      delete this.layers[key];
+    }
+    for (const key of active) {
+      const def = this.manifest.layers[key];
+      if (!def || def.kind !== "point") continue;
+      await this.add(key);
+    }
+    this.normalizeZOrder();
   }
 
   _featureKey(key, feat) {
@@ -459,6 +795,7 @@ class LayerManager {
       layer.addTo(this.map);
       if (this.options.onLayerToggle) this.options.onLayerToggle(key, true);
     }
+    this._activeSet.add(key);
     this.normalizeZOrder();
     return layer;
   }
@@ -469,6 +806,7 @@ class LayerManager {
       this.map.removeLayer(layer);
       if (this.options.onLayerToggle) this.options.onLayerToggle(key, false);
     }
+    this._activeSet.delete(key);
   }
 
   has(key) {
@@ -477,17 +815,21 @@ class LayerManager {
   }
 
   activeKeys() {
-    return Object.keys(this.layers).filter((k) => this.has(k));
+    // Return user-selected / preset keys, regardless of current zoom visibility
+    return [...this._activeSet];
   }
 
   async setActive(keys) {
-    const desired = new Set(keys);
+    // Remove layers that are no longer in the desired set
+    this._activeSet = new Set(keys);
     for (const k of Object.keys(this.layers)) {
-      if (!desired.has(k)) this.remove(k);
+      if (!this._activeSet.has(k)) this.remove(k);
     }
+    // Preload / add all desired layers so they're available for zoom toggling
     for (const k of keys) {
       await this.add(k);
     }
+    this._applyRoleVisibility();
     this.normalizeZOrder();
   }
 
@@ -920,6 +1262,7 @@ Object.assign(window.NepalExplorer, {
   loadJSON, makeMap, makeBaseLayers, popupHTML, tooltipHTML,
   buildReverseIndex, lookupSlug, LayerManager, NEPAL_VIEW,
   buildLabelsOverlay,
+  getZoomBehavior, ROLE_STYLES, BASEMAP_ADJUSTMENTS, resolveLayerStyle,
 });
 window.NepalExplorer._leafletInitLoaded = true;
 })();

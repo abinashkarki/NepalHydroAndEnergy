@@ -2,16 +2,15 @@
 title: Lower Jhimruk
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
-sources: []
+updated: 2026-04-25
+sources: [jica-ipsdp-main-report-vol2]
 tags: [project, storage, karnali]
 images: []
-generator: auto-stub
 ---
 
 # Lower Jhimruk
 
-142.5 MW · jica promising storage · in the West Rapti basin.
+Lower Jhimruk is a 142.5 MW JICA promising-storage candidate in the West Rapti basin. It is pinned in [[data-layer-storage-shortlist]] as a medium-basin storage option, with the important caveat that its layout conflicts with Naumure in the current design set.
 
 <!-- generated:specs:start -->
 
@@ -30,12 +29,21 @@ generator: auto-stub
 
 <!-- generated:specs:end -->
 
-## Notes
+## Why It Matters
 
-> [!gap] This page is an auto-generated stub. Capacity, location and
-> licence status come straight from the Ministry of Energy registry
-> mirrored in the map manifest. Add narrative, citations and images
-> here; the spec table above will refresh on rerun.
+Lower Jhimruk contributes **94.4 GWh** of dry-season energy, with **386 MCM** total storage and **211.6 MCM** effective storage. It is not a top-capacity project, but it belongs in the storage shortlist because it helps illustrate the range of medium-basin options.
+
+The caveat is central: the shortlist notes that Lower Jhimruk's layout conflicts with [[naumure-w-rapti]] in the current design. That means the project should not be counted naively alongside Naumure as if both could necessarily be built in the same configuration.
+
+## Status And Timing
+
+Lower Jhimruk is a planning candidate from the JICA/NEA storage material. The current wiki evidence set does not confirm construction start, financing, or a COD target.
+
+The next question is scheme selection: if Naumure advances, Lower Jhimruk may become less relevant or need redesign. If Naumure stalls, Lower Jhimruk remains a smaller West Rapti storage comparator.
+
+## Map Interpretation
+
+The marker uses an operating-project registry point near a mapped river reach as a reference. It is a planning-layer marker, not a final site boundary.
 
 ## Registry note
 
@@ -46,3 +54,5 @@ generator: auto-stub
 - [[karnali-basin]]
 - [[storage-deficit]]
 - [[firm-power]]
+- [[naumure-w-rapti]]
+- [[data-layer-storage-shortlist]]

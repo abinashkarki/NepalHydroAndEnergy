@@ -46,8 +46,7 @@ A pill bar at the top of the map flips between five named layer sets:
 
 | Preset | What it shows | Mirrors |
 |---|---|---|
-| **Tributaries** (default) | rivers + downstream + all 572 hydropower projects | `nepal_tributary_explorer.html` |
-| **Rivers** | rivers + downstream only | `nepal_tributary_network.html` |
+| **Tributaries** (default) | rivers + downstream + operating / under-construction hydro | `nepal_tributary_explorer.html` |
 | **Geopolitics** | basin polygons (Nepal + India), comparison rivers, origin/control callouts, downstream impact markers | `nepal_geopolitics_river_influence.html` |
 | **Power** | traced corridors, grid hubs, cross-border gateways, priority watchlist, storage shortlist, project cloud | `nepal_power_system_explorer.html` |
 | **Minimal** | country outline + basin polygons | — |

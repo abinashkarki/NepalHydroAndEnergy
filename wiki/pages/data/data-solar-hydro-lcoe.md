@@ -40,7 +40,7 @@ Weighted global average, levelized, 2024 US dollars.
 | NEA Grid Solar & EE Project EPC | 2019–20 | 25 | NEA self-build (capex-based) | — | Bidur / Trishuli 25 MWp |
 | IPP rounds FY 2080/81 | 2023 | 45 | 6.40–6.50 | $0.048–$0.049 | — |
 | IPP rounds FY 2081/82 | 2024 | ~170 (8 plants) | **5.94–6.50** | **$0.044–$0.049** | PPA signed, COD 2026–27 |
-| **960 MW national tender** | 2024–25 | 960 (64 project selections) | **4.99–5.55** | **$0.038–$0.042** | NEA LoI weighted average ~5.43 NPR/kWh |
+| **960 MW national tender** | 2024–25 | 960 (63 projects) | **5.70–6.20** | **$0.043–$0.047** | Multi-year staged PPA |
 
 Nepal's price discovery is following the global auction curve with a ~3–5 year lag; the 960 MW tender tariff is ~40% higher than Gulf-region 2024 lows ($0.030–$0.035) and ~20% above India 2024 lows (₹2.4–2.6/kWh ≈ $0.029–$0.031).
 
@@ -63,13 +63,13 @@ NEA-standard PPA structure for IPPs (all figures NPR/kWh; effective since 2016 s
 |---|---:|---:|---|
 | Small RoR hydro PPA (blended, current) | **6.20** | $0.047 | Time-un-weighted |
 | PRoR hydro PPA (blended, current) | 6.80 | $0.052 | |
-| Solar 2024/25 NEA tender (blended) | **~5.43** | ~$0.041 | 960 MW LoI weighted average |
+| Solar 2024/25 NEA tender (blended) | **5.94** | $0.045 | 960 MW batch avg |
 | Solar 2018 NEA auction (blended) | 7.80 | $0.070 | First round |
 | Solar 2030 projected (Nepal) | **~4.50–5.20** | $0.034–$0.039 | With 4h BESS: ~6.50–7.50 |
 | Global solar LCOE 2024 | 3.8 (NPR eq) | $0.044 | IRENA weighted |
 | Gulf 2024 record-low | 2.6 | $0.020 | AEDNRM, UAE |
 
-The Nepal hydro-solar crossover happened between the **2018 (7.80)** and **2023 (6.40)** solar auction rounds. By the 2024 NEA LoI round, **solar is roughly 12% cheaper than small RoR on a blended tariff basis and materially cheaper on a time-weighted-value basis** (see next section).
+The Nepal hydro-solar crossover happened between the **2018 (7.80)** and **2023 (6.40)** solar auction rounds. By 2024, **solar is 4–6% cheaper than small RoR on a blended tariff basis and ~22% cheaper on a time-weighted-value basis** (see next section).
 
 ## Time-weighted value adjustment
 

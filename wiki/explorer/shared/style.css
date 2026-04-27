@@ -387,3 +387,61 @@ code, pre, .mono { font-family: var(--mono); }
 .coverage-list .row .dot { width: 10px; height: 10px; border-radius: 50%; }
 .coverage-list .row .dot.has { background: var(--accent); }
 .coverage-list .row .dot.miss { background: white; border: 1.5px dashed var(--warn); }
+
+/* ================================================================
+   Warm Technical / Living Atlas — Badge Marker System (v0)
+   ================================================================
+   Scoped via [data-basemap] on the Leaflet map container.
+   Inline background + border-color carry semantic layer colors.
+*/
+
+.np-marker-badge {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid currentColor;  /* overridden by inline border-color */
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.24);
+}
+
+.np-marker-badge svg {
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+/* ---- Basemap-aware halos ---- */
+
+/* Light basemap: subtle — no extra halo, just the base shadow */
+[data-basemap="light"] .np-marker-badge {
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.24);
+}
+
+/* Terrain basemap: medium halo — pop markers off relief texture */
+[data-basemap="terrain"] .np-marker-badge {
+  box-shadow:
+    0 0 0 1.5px rgba(255, 255, 255, 0.55),
+    0 2px 4px rgba(15, 23, 42, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
+/* Satellite basemap: strong halo — legibility over imagery */
+[data-basemap="satellite"] .np-marker-badge {
+  box-shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.72),
+    0 2px 6px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
+/* ---- Badge wrappers (Leaflet divIcon chrome) ---- */
+.np-marker-badge-wrap {
+  background: transparent !important;
+  border: none !important;
+}
+

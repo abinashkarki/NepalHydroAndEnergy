@@ -49,8 +49,23 @@ Useful when you want a single self-contained file to share, embed, or open offli
 - [Official transmission linework from RPGCL geospatial PDF](/Users/hi/projects/nepalEnergy/data/processed/maps/rpgcl_transmission_official_linework.geojson)
 - [Official transmission map labels from RPGCL geospatial PDF](/Users/hi/projects/nepalEnergy/data/processed/maps/rpgcl_transmission_official_labels.geojson)
 - [Traced transmission corridor segments](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_segments.geojson)
+- [Connected traced transmission network](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_network.geojson)
+- [Internal topology nodes](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_network_nodes.geojson)
+- [Internal transmission trace gap report GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_trace_gap_report.geojson)
+- [Transmission corridor validation report](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_validation_report.json)
+- [Transmission network build report](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_network_build_report.json)
+- [Transmission corridor dossiers](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_dossiers.json)
+- [Cross-border interconnection dossiers](/Users/hi/projects/nepalEnergy/data/processed/maps/cross_border_interconnection_dossiers.json)
+- [Grid confidence report](/Users/hi/projects/nepalEnergy/docs/maps/grid_confidence_report.md)
+- [Transmission warning burn-down](/Users/hi/projects/nepalEnergy/docs/maps/transmission_warning_burndown.md)
+- [MCA Annex D-1 atlas index](/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/mca_annex_d1/mca_annex_d1_atlas_index.json)
+- [MCA Central atlas trace](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson)
+- [Hetauda-Dhalkebar-Inaruwa RAP trace](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/hddi_400_rap_trace.geojson)
+- [Hetauda-Bharatpur-Bardaghat source trace](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/hetauda_bharatpur_bardaghat_220_source_trace.geojson)
+- [Udipur-Markichowk-Bharatpur RAP trace](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/udipur_damauli_bharatpur_220_rap_trace.geojson)
 - [Transmission tracing report](/Users/hi/projects/nepalEnergy/data/processed/maps/rpgcl_transmission_trace_report.json)
 - [India cross-border interconnections GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/cross_border_interconnections.geojson)
+- [India cross-border interconnection lines](/Users/hi/projects/nepalEnergy/data/processed/maps/cross_border_interconnection_lines.geojson)
 - [Place anchor index GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/place_anchor_index.geojson)
 - [Annotation build report](/Users/hi/projects/nepalEnergy/data/processed/maps/annotation_build_report.json)
 - [Power-system build report](/Users/hi/projects/nepalEnergy/data/processed/maps/power_system_build_report.json)
@@ -80,7 +95,9 @@ The explorer now combines:
 - a storage shortlist annotation layer with dry-energy callouts where a defensible point or river anchor exists
 - 7 source-backed transmission corridor spines built from NEA, MCA-Nepal, ADB, and World Bank project references
 - 7 traced transmission corridor families combining official RPGCL vector extraction and recovered/manual NEA corridor tracing
+- a connected traced-network layer that preserves raw source/manual traces, adds explicit threshold-bounded inferred connectors, and emits gap diagnostics where the evidence is still too weak
 - 10 Nepal-India interconnection nodes split by operational, under-construction, implementation-setup, and planned status
+- 10 conservative cross-border connector/stub lines, with non-operational links styled as dashed/fainter features
 - dedicated transmission hub and cross-border gateway node layers for the power-system view
 
 The public river layer now uses HydroRIVERS Asia as the published geometry source and keeps OSM waterway names only as corridor hints, label context, and sanity checks. Rivers that do not pass the automated topology gates or explicit manual review are withheld from the public GeoJSON rather than drawn as fragmented placeholders.
@@ -93,7 +110,7 @@ The annotation build currently skips one storage-shortlist project because it do
 
 The default explorer now keeps the denser India labels, detailed tributary labels, basin polygons, callouts, hydropower project layers, and all transmission/network overlays switched off so the hydrology remains readable. Turn them on from the layer control when you want basin geometry, plains-river detail, project context, or grid context.
 
-The new power-system map flips that emphasis. It keeps the traced transmission layer, grid hubs, cross-border gateways, top-capacity projects, and storage shortlist on first, while river layers stay available but switched off by default.
+The new power-system map flips that emphasis. It keeps the major transmission network, grid hubs and substations, cross-border gateways and conservative cross-border links, priority watchlist, hydropower build/operating cloud, and storage shortlist on first, while river layers stay available but switched off by default.
 
 Hydropower markers now use a precision-aware display model rather than treating every registry point as an exact site. Operating projects stay as higher-confidence site points. Most survey and generation licenses are displayed as river-aligned references when a plausible mapped river can be matched nearby, and only the residual weak matches remain as raw registry references. The matching stack now uses reviewed tributary geometry first, then exact-name OSM waterway fallback for local reaches that the published tributary layer does not carry cleanly, and finally HydroRIVERS reach context. An optional dashed offset layer shows where the displayed reference point differs materially from the raw registry coordinate.
 
@@ -105,15 +122,21 @@ The seasonal overlay is an interpretation layer built from the basin-level monso
 
 The new annotation layers are also interpretation layers. Basin seasonality labels are grounded in the WECS basin-plan table, but storage-shortlist markers mix exact project points, clustered existing project points, and river or basin anchors depending on source availability. The popup for each annotation states the anchor basis explicitly.
 
-The map now contains two transmission geometry tiers. `Transmission corridors` is still the curated fallback spine layer. `Transmission corridors (traced)` is the higher-quality layer built from a mix of official RPGCL vector extraction and recovered NEA PDF tracing. It now covers `hddi_400`, `hetauda_bharatpur_bardaghat_220`, `mca_central_400`, `udipur_damauli_bharatpur_220`, `kabeli_132`, `marsyangdi_upper_220`, and `solu_tingla_mirchaiya_132`. The Solu trace is source-grounded but lower-confidence than the route-atlas corridors because it is reconstructed from narrative pages and anchored place names rather than a published alignment sheet.
+The map now contains one public transmission layer and a small set of context/support layers:
+
+- `Major transmission network` is the public-facing default. It carries source/manual traces plus explicitly marked `inferred_connector` segments where traced endpoints fall inside conservative snap thresholds. Any bigger break stays in the internal validation reports rather than being hidden by a guessed line.
+- `Context · corridor sketch` is a simplified substation-to-substation sketch. It is useful for orientation and for corridors that do not have route-grade public geometry, but it is off by default. If it shows a connection missing from the major network, that is a promotion candidate, not confirmed route geometry.
+- Internal topology nodes and trace gaps are still generated for checking joins, endpoints, and evidence gaps, but they are not exposed as public map layers.
+
+The major transmission network covers `hddi_400`, `hetauda_bharatpur_bardaghat_220`, `dana_kushma_butwal_220`, `mca_central_400`, `udipur_damauli_bharatpur_220`, `western_132_backbone`, `chameliya_attariya_132`, `kohalpur_surkhet_dailekh_132`, `kabeli_132`, `marsyangdi_upper_220`, and `solu_tingla_mirchaiya_132`. HDDI is split into mixed-status sections so Hetauda-Dhalkebar remains under construction while Dhalkebar-Inaruwa is operational. The western 132 kV additions explain the operational grid reach beyond Butwal without pretending those lines are 220/400 kV transfer assets.
 
 Transmission is now styled as a neutral dashed network overlay rather than another colored hydro path. Grid hubs are shown with circle nodes and cross-border gateways with diamond nodes so the power system reads differently from rivers.
 
-Those traced corridors are still national-scale routes, not tower-by-tower engineering alignments. Some come from official vector linework, while `kabeli_132` and `marsyangdi_upper_220` are manual traces from recovered NEA corridor packets. All of them are a major upgrade from the old substation-spine approximation, but they should still be read as corridor geometry rather than final cadastral alignment.
+Those traced corridors are still national-scale routes, not tower-by-tower engineering alignments. Some come from official vector linework, while `hddi_400`, `kabeli_132`, and `marsyangdi_upper_220` are manual/document-grounded traces from recovered corridor packets. All of them are a major upgrade from the old substation-spine approximation, but they should still be read as corridor geometry rather than final cadastral alignment.
 
-The cross-border interconnection layer uses Nepal-side interconnection nodes or border-gate nodes rather than guessed route geometry inside India. This keeps the map honest while still showing where Nepal's export and import gateways sit.
+The cross-border interconnection point layer uses Nepal-side interconnection nodes or border-gate nodes. The new line layer connects to a defensible India-side place anchor where one is present; otherwise it draws only a short gateway stub. It does not guess full Indian-side routes, and planned / implementation-stage links are dashed and fainter than operational links.
 
-The eastern 132 kV corridors are still the weakest traced set. `kabeli_132` and `solu_tingla_mirchaiya_132` are now present in traced form from recovered NEA material, but both remain manual/document-grounded traces rather than official vector extraction or full alignment-sheet digitization.
+The 132 kV corridors should be read as grid-reach and evacuation context, not bulk-transfer equivalents to 220/400 kV. Western operational 132 kV lines now use RPGCL official vector linework controlled by NEA FY2024/25 inventory lengths. The eastern `kabeli_132` and `solu_tingla_mirchaiya_132` traces remain weaker because they are reconstructed from recovered NEA documents rather than official vector extraction or full alignment-sheet digitization.
 
 The basin polygons are derived from HydroBASINS Asia level 6, aggregated upstream from selected outlet points on the relevant river trunks. They are hydrologic polygons, not administrative river-basin plan boundaries.
 

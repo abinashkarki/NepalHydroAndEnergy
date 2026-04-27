@@ -1,0 +1,99 @@
+{
+  "network_features": 22,
+  "source_trace_features": 0,
+  "manual_trace_features": 22,
+  "inferred_connector_features": 0,
+  "network_nodes": 56,
+  "cross_border_line_features": 10,
+  "trace_gap_features": 0,
+  "corridor_source_coverage": {
+    "chameliya_attariya_132": {
+      "manifest_source_ids": [
+        "nea_annual_report_2024_2025",
+        "rpgcl_transmission_network_map_revised1"
+      ],
+      "curated_corridor_present": false
+    },
+    "dana_kushma_butwal_220": {
+      "manifest_source_ids": [
+        "nea_annual_report_2024_2025",
+        "nea_transmission_annual_book_2077",
+        "rpgcl_transmission_network_map_revised1"
+      ],
+      "curated_corridor_present": true
+    },
+    "hddi_400": {
+      "manifest_source_ids": [
+        "nea_annual_report_2024_2025",
+        "world_bank_hddtl_rap"
+      ],
+      "curated_corridor_present": true
+    },
+    "hetauda_bharatpur_bardaghat_220": {
+      "manifest_source_ids": [
+        "nea_annual_report_2024_2025",
+        "nea_bharatpur_bardaghat_sia",
+        "rpgcl_transmission_network_map_revised1"
+      ],
+      "curated_corridor_present": true
+    },
+    "kabeli_132": {
+      "manifest_source_ids": [
+        "nea_annual_report_2024_2025",
+        "nea_kabeli_iee",
+        "nea_kabeli_smef"
+      ],
+      "curated_corridor_present": false
+    },
+    "kohalpur_surkhet_dailekh_132": {
+      "manifest_source_ids": [
+        "nea_annual_report_2024_2025",
+        "rpgcl_transmission_network_map_revised1"
+      ],
+      "curated_corridor_present": false
+    },
+    "marsyangdi_upper_220": {
+      "manifest_source_ids": [
+        "nea_marsyangdi_rap_upper"
+      ],
+      "curated_corridor_present": false
+    },
+    "mca_central_400": {
+      "manifest_source_ids": [
+        "mca_annex_d1_alignment_maps",
+        "mca_project_summary_report",
+        "nea_annual_report_2024_2025"
+      ],
+      "curated_corridor_present": true
+    },
+    "solu_tingla_mirchaiya_132": {
+      "manifest_source_ids": [
+        "nea_annual_report_2024_2025",
+        "nea_transmission_annual_book_2077"
+      ],
+      "curated_corridor_present": true
+    },
+    "udipur_damauli_bharatpur_220": {
+      "manifest_source_ids": [
+        "eib_marsyangdi_cia",
+        "nea_annual_report_2024_2025",
+        "nea_marsyangdi_rap"
+      ],
+      "curated_corridor_present": true
+    },
+    "western_132_backbone": {
+      "manifest_source_ids": [
+        "nea_annual_report_2024_2025",
+        "rpgcl_transmission_network_map_revised1"
+      ],
+      "curated_corridor_present": false
+    }
+  },
+  "official_source_urls": {
+    "pib_lok_sabha_2026_04_02": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3",
+    "cea_nep_volume_ii": "https://cea.nic.in/wp-content/uploads/notification/2024/10/National_Electricity_Plan_Volume_II_Transmission.pdf",
+    "mcc_fy2025_annual_report": "https://www.mcc.gov/resources/doc/annual-report-2025/",
+    "mcc_nepal_compact": "https://assets.mcc.gov/content/uploads/compact-nepal.pdf"
+  },
+  "warnings": []
+}

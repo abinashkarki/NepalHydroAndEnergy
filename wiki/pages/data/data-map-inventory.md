@@ -2,7 +2,7 @@
 title: Map Inventory
 type: data
 created: 2026-04-15
-updated: 2026-04-24
+updated: 2026-04-25
 figure_type: map-spec
 sources: [wecs-river-basin-plan-2024, nea-annual-report-fy2024-25]
 tags: [maps, geojson, layers, inventory, multimodal]
@@ -12,11 +12,14 @@ tags: [maps, geojson, layers, inventory, multimodal]
 
 Catalog of the merged map stack imported from the code workspace. This page is the bridge between the wiki's analytical pages and the interactive / geospatial asset layer.
 
+For the reader-facing legend and layer-control wording, see [[data-map-layer-labels]].
+
 ## Interactive Maps
 
 - [Nepal Tributary Explorer](../../assets/maps/html/nepal_tributary_explorer.html)
 - [Nepal Tributary Network](../../assets/maps/html/nepal_tributary_network.html)
 - [Nepal River Geopolitics Explorer](../../assets/maps/html/nepal_geopolitics_river_influence.html)
+- [Nepal Power System Explorer](../../assets/maps/html/nepal_power_system_explorer.html)
 
 ## Preview Images
 
@@ -41,6 +44,9 @@ Catalog of the merged map stack imported from the code workspace. This page is t
 | Solar plants and tender nodes | `data/processed/maps/solar_plants.geojson` | curated | Operating DoED plants plus NEA 960 MW LoI tender anchors |
 | Solar suitability zones | `data/processed/maps/solar_suitability.geojson` | 6 | Strategic suitability bands, not parcel screening |
 | Floating PV candidates | `data/processed/maps/floating_pv_candidates.geojson` | 5+ | Reservoir / future-reservoir candidates with explicit confidence fields |
+| Major transmission network | `data/processed/maps/transmission_corridor_traced_network.geojson` | 22 | Source-controlled corridor geometry for the public grid layer |
+| Cross-border links | `data/processed/maps/cross_border_interconnection_lines.geojson` | 10 | Conservative operational/planned interconnection lines and stubs |
+| Grid hubs and substations | `data/processed/maps/place_anchor_index.geojson` | 39 | Named grid anchors used to orient the transmission network |
 
 ## Coverage Notes
 
@@ -54,16 +60,16 @@ Catalog of the merged map stack imported from the code workspace. This page is t
 ## Known Gaps
 
 - Exact OSM linework was **not** recovered for **West Seti River**, **Chameliya River**, and **West Rapti River**; they are flagged in the fetch report rather than invented.
-- No transmission-corridor layer exists yet for the seven segments documented in [[claim-transmission-immediate-blocker]].
-- No cross-border interconnection-point layer yet exists for Dhalkebar-Muzaffarpur, New Butwal-Gorakhpur, or other trade chokepoints.
+- Some transmission corridors remain corridor-grade rather than tower-by-tower alignments; the public network exposes status, confidence, and source provenance instead of hiding that uncertainty.
+- Cross-border interconnections are now mapped conservatively as gateway lines/stubs, with operational and planned links styled distinctly.
 - Solar layers are curated evidence layers, not engineering-grade GIS. Exact-looking points are used only where DoED coordinates exist; tender markers use substation or district anchors with `precision_label` and `location_basis`.
 
 ## Next Annotation Layers
 
 These are the clearest upgrades if the map stack is pushed further toward infographic use:
 
-- **Transmission corridors** from [[claim-transmission-immediate-blocker]]
-- **Cross-border interconnection nodes** tied to [[data-trade-time-series]]
+- Continue promoting high-value transmission corridors from conceptual context into the major transmission network as route-grade evidence is recovered.
+- Tie cross-border interconnection capacity and utilization back to [[data-trade-time-series]].
 - **Storage annotations** for [[kulekhani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], and [[dudhkoshi-storage]]
 - **Sediment / GLOF hazard markers** for [[koshi-basin]] and key Gandaki corridors
 - **Basin popup sparklines** showing monsoon vs dry share directly inside the map
@@ -80,3 +86,4 @@ These are the clearest upgrades if the map stack is pushed further toward infogr
 - [[data-nepal-solar-resource-zones]]
 - [[data-solar-fleet-inventory]]
 - [[claim-floating-pv-leverage]]
+- [[data-map-layer-labels]]

@@ -115,6 +115,11 @@
           "id": "storage_kulekhani_i_iii"
         },
         {
+          "layer": "floating_pv_candidates",
+          "id": "fpv_kulekhani",
+          "primary": true
+        },
+        {
           "layer": "hydropower_points",
           "match": {
             "field": "project",
@@ -130,6 +135,11 @@
         {
           "layer": "storage_shortlist",
           "id": "storage_tanahu"
+        },
+        {
+          "layer": "floating_pv_candidates",
+          "id": "fpv_tanahu",
+          "primary": true
         },
         {
           "layer": "priority_watchlist",
@@ -151,6 +161,11 @@
         {
           "layer": "storage_shortlist",
           "id": "storage_dudhkoshi"
+        },
+        {
+          "layer": "floating_pv_candidates",
+          "id": "fpv_dudhkoshi",
+          "primary": true
         }
       ]
     },
@@ -171,6 +186,11 @@
             "field": "project",
             "value_contains": "Budhi Gandaki"
           }
+        },
+        {
+          "layer": "floating_pv_candidates",
+          "id": "fpv_budhigandaki",
+          "primary": true
         }
       ]
     },
@@ -224,7 +244,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "cross_border"
       ]
     },
@@ -233,15 +253,14 @@
       "category": "transmission-corridor",
       "features": [
         {
-          "layer": "transmission_corridors",
+          "layer": "transmission_traced_network",
           "id": "hddi_400",
           "primary": true
         }
       ],
       "layers_on": [
         "country_outline",
-        "transmission_corridors",
-        "transmission_traced",
+        "transmission_traced_network",
         "cross_border"
       ]
     },
@@ -250,15 +269,15 @@
       "category": "transmission-corridor",
       "features": [
         {
-          "layer": "transmission_corridors",
+          "layer": "transmission_traced_network",
           "id": "mca_central_400",
           "primary": true
         }
       ],
       "layers_on": [
         "country_outline",
-        "transmission_corridors",
-        "transmission_traced",
+        "transmission_traced_network",
+        "cross_border_lines",
         "cross_border"
       ]
     },
@@ -275,7 +294,7 @@
       "layers_on": [
         "country_outline",
         "transmission_corridors",
-        "transmission_traced"
+        "transmission_traced_network"
       ]
     },
     "hetauda-bharatpur-bardaghat-corridor": {
@@ -283,15 +302,74 @@
       "category": "transmission-corridor",
       "features": [
         {
-          "layer": "transmission_corridors",
+          "layer": "transmission_traced_network",
           "id": "hetauda_bharatpur_bardaghat_220",
           "primary": true
         }
       ],
       "layers_on": [
         "country_outline",
-        "transmission_corridors",
-        "transmission_traced"
+        "transmission_traced_network"
+      ]
+    },
+    "udipur-damauli-bharatpur-220": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        {
+          "layer": "transmission_traced_network",
+          "id": "udipur_damauli_bharatpur_220",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced_network"
+      ]
+    },
+    "marsyangdi-upper-220": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        {
+          "layer": "transmission_traced_network",
+          "id": "marsyangdi_upper_220",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced_network"
+      ]
+    },
+    "kabeli-132": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        {
+          "layer": "transmission_traced_network",
+          "id": "kabeli_132",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced_network"
+      ]
+    },
+    "solu-tingla-mirchaiya-132": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        {
+          "layer": "transmission_traced_network",
+          "id": "solu_tingla_mirchaiya_132",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced_network"
       ]
     },
     "dana-kushma-butwal-corridor": {
@@ -307,7 +385,7 @@
       "layers_on": [
         "country_outline",
         "transmission_corridors",
-        "transmission_traced"
+        "transmission_traced_network"
       ]
     },
     "dhalkebar-muzaffarpur": {
@@ -392,7 +470,7 @@
       "type": "claim",
       "features": [
         {
-          "layer": "transmission_traced",
+          "layer": "transmission_traced_network",
           "all": true
         },
         {
@@ -406,7 +484,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "transmission_corridors",
         "cross_border"
       ],
@@ -458,7 +536,7 @@
         "country_outline",
         "tributaries",
         "priority_watchlist",
-        "transmission_traced"
+        "transmission_traced_network"
       ],
       "narrative": "Monsoon 2025 spilled 700–800 MW daily — energy that exists but cannot be moved or sold."
     },
@@ -506,7 +584,7 @@
         "country_outline",
         "tributaries",
         "priority_watchlist",
-        "transmission_traced"
+        "transmission_traced_network"
       ]
     },
     "run-of-river-hydropower": {
@@ -805,6 +883,11 @@
         {
           "layer": "storage_shortlist",
           "id": "storage_nalsyau_gad",
+          "primary": true
+        },
+        {
+          "layer": "floating_pv_candidates",
+          "id": "fpv_nalsyau_gad",
           "primary": true
         }
       ],
@@ -2437,7 +2520,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2458,7 +2541,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2544,7 +2627,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2562,7 +2645,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_suitability",
         "solar_plants",
@@ -2628,7 +2711,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2647,7 +2730,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2666,7 +2749,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2685,7 +2768,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2704,7 +2787,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_plants",
         "solar_suitability",
@@ -2729,7 +2812,7 @@
         "country_outline",
         "solar_ghi_zones",
         "solar_suitability",
-        "transmission_traced"
+        "transmission_traced_network"
       ]
     },
     "nea-960mw-solar-tender": {
@@ -2747,7 +2830,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2764,7 +2847,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2859,7 +2942,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2877,7 +2960,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2916,6 +2999,54 @@
         "country_outline",
         "solar_suitability",
         "solar_ghi_zones"
+      ]
+    },
+    "western-132-backbone": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        {
+          "layer": "transmission_traced_network",
+          "id": "western_132_backbone",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced_network",
+        "place_anchors"
+      ]
+    },
+    "chameliya-attariya-132": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        {
+          "layer": "transmission_traced_network",
+          "id": "chameliya_attariya_132",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced_network",
+        "place_anchors"
+      ]
+    },
+    "kohalpur-surkhet-dailekh-132": {
+      "type": "entity",
+      "category": "transmission-corridor",
+      "features": [
+        {
+          "layer": "transmission_traced_network",
+          "id": "kohalpur_surkhet_dailekh_132",
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "transmission_traced_network",
+        "place_anchors"
       ]
     }
   },
@@ -2962,7 +3093,7 @@
           "subtitle": "4. And the wires lag behind the megawatts. Spill is now a transmission story.",
           "layers_on": [
             "country_outline",
-            "transmission_traced",
+            "transmission_traced_network",
             "cross_border"
           ]
         },

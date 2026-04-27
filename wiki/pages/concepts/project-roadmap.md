@@ -78,8 +78,8 @@ section · Limitations/Controversies · 2+ primary sources · 3+ inline
         [[chameliya-jauljibi-interconnection]]
 - [x] Source compilation page [[nepal-transmission-landscape-2025]]
 - [x] Bindings in `bindings.json` for all ten features
-- [x] Alias `transmission_corridors` added to `transmission_traced` so
-      clicks on traced segments resolve to the parent corridor page
+- [x] Alias `transmission_corridors` added to `transmission_traced_network` so
+      clicks on major-network segments resolve to the parent corridor page
 - [x] Cross-links from `claim-transmission-immediate-blocker`, `arun-3`,
       `khimti-i` and `bangladesh-trade-route` to the new corridor pages
 - [x] Makes the "Power" preset actually narrate

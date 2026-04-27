@@ -1,37 +1,29 @@
 {
   "_doc": "Map lenses. Each preset = a named layer set + initial fit_bounds, mirroring the four Folium HTMLs in docs/maps/. Choosing a preset replaces the active layer set; opening a wiki page after that ADDS the page's needed layers without unloading the preset.",
-
-  "default_preset": "tributary_explorer",
-
+  "default_preset": "tributaries",
   "presets": {
-    "tributary_explorer": {
-      "label": "Tributary explorer",
+    "tributaries": {
+      "label": "Tributaries",
       "short": "Tributaries",
-      "subtitle": "Rivers + downstream + built / under-construction hydro",
-      "description": "The general-purpose Nepal river view: tributaries, Nepal-origin downstream systems extending beyond the border, and the 261 hydropower projects that are operating or licensed to build. The 311 survey-only sites stay one toggle away in the layer panel. Mirrors docs/maps/nepal_tributary_explorer.html.",
+      "subtitle": "Rivers + downstream + operating / under-construction hydro",
+      "description": "The unified Nepal river view: tributaries, Nepal-origin downstream systems, and the 261 hydropower projects that are operating or licensed to build. The 311 survey-only sites stay one toggle away in the layer panel.",
       "layers_on": [
         "country_outline",
         "tributaries",
         "downstream_systems",
-        "hydropower_operating",
-        "hydropower_construction"
+        "hydropower_operating"
       ],
-      "bounds": [[24.2, 78.0], [31.3, 89.5]]
+      "bounds": [
+        [
+          24.2,
+          78.0
+        ],
+        [
+          31.3,
+          89.5
+        ]
+      ]
     },
-
-    "tributary_network": {
-      "label": "River network",
-      "short": "Rivers",
-      "subtitle": "Rivers + downstream, no project clutter",
-      "description": "Same hydrology as the explorer but without the 572-project cloud. Use when you want to read the river geometry on its own. Mirrors docs/maps/nepal_tributary_network.html.",
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "downstream_systems"
-      ],
-      "bounds": [[24.2, 78.0], [31.3, 89.5]]
-    },
-
     "geopolitics": {
       "label": "Geopolitics",
       "short": "Geopolitics",
@@ -47,46 +39,69 @@
         "callouts",
         "hydrology_markers"
       ],
-      "bounds": [[24.0, 77.5], [31.5, 90.0]]
+      "bounds": [
+        [
+          24.0,
+          77.5
+        ],
+        [
+          31.5,
+          90.0
+        ]
+      ]
     },
-
     "power_system": {
       "label": "Power system",
       "short": "Power",
       "subtitle": "Grid, gateways, priority projects, storage",
-      "description": "Traced transmission corridors, grid hubs, cross-border interconnections, the curated priority watchlist, the storage shortlist, and the full hydropower cloud. River layers stay available but start off so the network reads as a power system rather than another hydro trace. Mirrors docs/maps/nepal_power_system_explorer.html.",
+      "description": "The reader-facing grid view: major transmission network, grid hubs and substations, cross-border gateways and conservative cross-border links, the priority watchlist, storage shortlist, and the operating/build hydropower cloud. QA trace fragments, topology nodes, and the conceptual corridor spine stay available but off by default.",
       "layers_on": [
         "country_outline",
-        "transmission_traced",
-        "transmission_corridors",
+        "transmission_traced_network",
         "place_anchors",
         "cross_border",
+        "cross_border_lines",
         "priority_watchlist",
         "storage_shortlist",
         "hydropower_operating",
         "hydropower_construction"
       ],
-      "bounds": [[25.4, 80.5], [30.6, 88.6]]
+      "bounds": [
+        [
+          25.4,
+          80.5
+        ],
+        [
+          30.6,
+          88.6
+        ]
+      ]
     },
-
     "solar_system": {
       "label": "Solar system",
       "short": "Solar",
       "subtitle": "GHI zones, plants, tender awards, suitability, floating PV",
-      "description": "Curated solar evidence layers: coarse GHI zones, strategic suitability bands, operating DoED solar plants, NEA's 960 MW tender-award anchors, floating-PV candidates, storage shortlist, and the grid hubs needed to read interconnection pressure. Approximate geometries are labelled as such.",
+      "description": "Solar evidence layers: coarse GHI zones, strategic suitability bands, operating DoED solar plants, NEA's 960 MW tender-award anchors, floating-PV candidates, storage shortlist, and the grid hubs needed to read interconnection pressure. Approximate geometries are labelled as such.",
       "layers_on": [
         "country_outline",
-        "transmission_traced",
+        "transmission_traced_network",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
         "solar_plants",
-        "floating_pv_candidates",
-        "storage_shortlist"
+        "floating_pv_candidates"
       ],
-      "bounds": [[25.9, 79.8], [30.0, 88.4]]
+      "bounds": [
+        [
+          25.9,
+          79.8
+        ],
+        [
+          30.0,
+          88.4
+        ]
+      ]
     },
-
     "wiki": {
       "label": "Wiki minimal",
       "short": "Minimal",
@@ -96,7 +111,16 @@
         "country_outline",
         "basin_polygons"
       ],
-      "bounds": [[26.0, 80.0], [30.7, 88.5]]
+      "bounds": [
+        [
+          26.0,
+          80.0
+        ],
+        [
+          30.7,
+          88.5
+        ]
+      ]
     }
   }
 }

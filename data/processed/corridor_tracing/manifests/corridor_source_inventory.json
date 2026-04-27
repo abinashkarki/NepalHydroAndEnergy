@@ -99,6 +99,17 @@
     "note": "Recovered from the live NEA dryicesolutions mirror on 2026-04-18. Useful for Solu corridor narrative evidence, especially the Tingla substation page and the Maruwa rerouting note."
   },
   {
+    "source_id": "nea_bharatpur_bardaghat_sia",
+    "title": "NEA Bharatpur-Bardaghat 220 kV Transmission Line SIA",
+    "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_bharatpur_bardaghat_sia.pdf",
+    "exists_local": false,
+    "url": "https://www.nea.org.np/admin/assets/uploads/supportive_docs/SIA-Bharatpur-Bardghat.pdf",
+    "source_type": "pdf",
+    "document_class": "environmental_study",
+    "primary_use": "manual_route_basis",
+    "note": "Official NEA SIA source identified during the HBB repair pass. The live NEA file endpoint rejected direct download in this environment, but the indexed text states the Bharatpur-Bardaghat alignment, affected VDC corridor, and 73.5 km route length."
+  },
+  {
     "source_id": "nea_marsyangdi_rap",
     "title": "NEA Marsyangdi Corridor RAP / route packet",
     "path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf",

@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "hetauda_bharatpur_bardaghat_220_source_trace",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "hetauda_bharatpur_bardaghat_220",
+        "segment_id": "hetauda_new_bharatpur_220_rpgcl_trace",
+        "segment_name": "Hetauda-New Bharatpur 220 kV line",
+        "name": "Hetauda-Bharatpur-Bardaghat 220 kV corridor",
+        "voltage_kv": "220",
+        "status": "Operational",
+        "trace_method": "manual_source_trace",
+        "trace_confidence": "medium",
+        "trace_coverage": "segment",
+        "source_id": "rpgcl_transmission_network_map_revised1",
+        "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+        "source_page_or_sheet": "RPGCL 2021 geospatial PDF, existing/under-construction 220 kV layer",
+        "official_length_km": 73.0,
+        "geometry_basis": "Manual selection of the Hetauda-New Bharatpur 220 kV official-vector trace from the RPGCL geospatial transmission map, cross-checked against NEA reporting that states the Hetauda-Bharatpur section is about 73 km.",
+        "notes": "This feature replaces over-selected public RPGCL fragments for the HBB corridor. It is source-vector geometry selected at corridor level, not tower-level survey."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.00804353920867, 27.318771594312356],
+          [85.00343981582655, 27.329672570569784],
+          [84.99971355457618, 27.333866855575756],
+          [84.96596196498385, 27.349823265348434],
+          [84.95982904675823, 27.34857152514514],
+          [84.95229940642318, 27.348997417051155],
+          [84.94852842465058, 27.34858172927934],
+          [84.94006779886445, 27.350265954215164],
+          [84.93300138347065, 27.349853029068942],
+          [84.9086244349337, 27.362448270687302],
+          [84.90065445916184, 27.366646619157223],
+          [84.89548454725083, 27.36790878424493],
+          [84.89124267261947, 27.367493523394316],
+          [84.8856157643705, 27.370432263625958],
+          [84.88279014354109, 27.370434816967695],
+          [84.8649898999693, 27.38218595994121],
+          [84.86029663213726, 27.384285672893345],
+          [84.84202046546757, 27.396037262017778],
+          [84.83406233331561, 27.40233087536544],
+          [84.82566448268528, 27.41281626099024],
+          [84.81676779768628, 27.419949133537102],
+          [84.81589033796075, 27.428332033487052],
+          [84.8130950000342, 27.432525511059296],
+          [84.76880762392958, 27.43382311389456],
+          [84.73472523803338, 27.479536898877818],
+          [84.72861360574797, 27.482057016524436],
+          [84.69796560187501, 27.481665719733762],
+          [84.6532993976308, 27.501404206160565],
+          [84.65001375112915, 27.50392198213469],
+          [84.64342761633335, 27.506442754787322],
+          [84.6199670800523, 27.5265811419766],
+          [84.59973820901384, 27.53582008762087],
+          [84.57947541399929, 27.53961037937369],
+          [84.57288990536807, 27.542969146433265],
+          [84.56213111258857, 27.560162578677343],
+          [84.56121426166, 27.56519280063898],
+          [84.56314888196302, 27.57399230980279],
+          [84.55658891603817, 27.582799549101388],
+          [84.54158211506474, 27.601254166166385],
+          [84.45001192872166, 27.600499359495355]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "hetauda_bharatpur_bardaghat_220",
+        "segment_id": "new_bharatpur_bardaghat_220_sia_trace",
+        "segment_name": "New Bharatpur-Bardaghat 220 kV line",
+        "name": "Hetauda-Bharatpur-Bardaghat 220 kV corridor",
+        "voltage_kv": "220",
+        "status": "Operational",
+        "trace_method": "manual_sia_trace",
+        "trace_confidence": "medium",
+        "trace_coverage": "segment",
+        "source_id": "nea_bharatpur_bardaghat_sia",
+        "source_pdf": "SIA-Bharatpur-Bardghat.pdf",
+        "source_page_or_sheet": "NEA Bharatpur-Bardaghat SIA chapter 1 and 3; route length and affected VDC corridor",
+        "official_length_km": 73.5,
+        "geometry_basis": "Manual corridor-level trace from New Bharatpur/Aaptari to Bardaghat using NEA SIA route length and affected VDC corridor: Bharatpur, Gaindakot/Mukundapur, Devchuli/Rajahar, Kawasoti, Dumkibas/Binayi-Tribeni, and Bardaghat.",
+        "notes": "This is a source-bounded corridor trace, not an engineering alignment. It replaces over-selected RPGCL fragments while preserving the raw RPGCL linework for audit."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [84.45001192872166, 27.600499359495355],
+          [84.39, 27.69],
+          [84.22, 27.71],
+          [84.03, 27.66],
+          [83.88, 27.60],
+          [83.7993104, 27.5514632]
+        ]
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@ title: Dana–Kushma–New Butwal 220 kV Corridor
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-25
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [transmission, 220kv, kali-gandaki-basin, west-central, ipp]
 images:
@@ -42,11 +42,17 @@ tributaries and tie them into the growing western grid.
 |-----------|-------|
 | Voltage | 220 kV |
 | Status | Operational |
-| Length | ~135 km |
+| Length basis | 127.57 route-km / 255.6 circuit-km |
 | Owner | [[nea]] |
 | Terminals | Dana (Myagdi) · Kushma (Parbat) · New Butwal (Rupandehi) |
-| Commissioned | 2022–2023 (segmented) |
+| Commissioned | Dana-Kushma and Kushma-New Butwal sections now operational; New Butwal fully operational since October 2023 |
 | Corridor ID | `dana_kushma_butwal_220` |
+
+## Map Interpretation
+
+The major transmission network now represents this corridor as two source-backed 220 kV double-circuit features: Dana-Kushma and Kushma-New Butwal. The geometry comes from RPGCL official vector linework, while the length/status basis comes from NEA transmission and annual reports.
+
+Current validation result: 2 features, 0 inferred connectors, 0 remaining endpoint gaps, and 128.027 km traced length against a 127.57 route-km basis. Public decision: default-visible, operational, high confidence.
 
 ## Significance
 
@@ -64,11 +70,13 @@ tributaries and tie them into the growing western grid.
 - **Terrain risk.** Myagdi-Parbat segment climbs steep, landslide-prone
   terrain; 2023 monsoon damage required emergency tower reinforcement.
 - **Still 220 kV.** As the [[gandaki-basin]] pipeline grows, 220 kV may
-  again become the bottleneck; a 400 kV overlay has been sketched but
-  not scheduled.
+  again become the bottleneck; the [[mca-central-400]] and
+  [[gorakhpur-butwal-interconnection]] make New Butwal the reinforcement
+  point to watch.
 
 ## See also
 
 - [[kali-gandaki-a]] — the basin anchor
 - [[mca-central-400]] — the 400 kV it links to
 - [[gorakhpur-butwal-interconnection]] — the cross-border at New Butwal
+- [[data-layer-transmission-connected-traced-network]] — the public layer where this corridor now appears

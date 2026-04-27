@@ -2,16 +2,15 @@
 title: Upper Bhotekoshi
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-25
 sources: []
 tags: [project, watchlist, operating, koshi, sindhupalchok]
 images: []
-generator: auto-stub
 ---
 
 # Upper Bhotekoshi
 
-45 MW · operating · on the Bhote Koshi · in Sindhupalchok district.
+Upper Bhotekoshi is a 45 MW operating project on the Bhote Koshi in Sindhupalchok. It is pinned in the [[data-layer-priority-watchlist]] not because it is large, but because it is a useful reality-check marker: an existing high-gradient Koshi-basin plant where the river valley, operating status, and project geography are legible.
 
 <!-- generated:specs:start -->
 
@@ -27,12 +26,19 @@ generator: auto-stub
 
 <!-- generated:specs:end -->
 
-## Notes
+## Why It Matters
 
-> [!gap] This page is an auto-generated stub. Capacity, location and
-> licence status come straight from the Ministry of Energy registry
-> mirrored in the map manifest. Add narrative, citations and images
-> here; the spec table above will refresh on rerun.
+Upper Bhotekoshi is part of the operating hydro fleet that grounds the wiki's map layers in real assets rather than only future projects. It shows the classic Himalayan run-of-river logic: steep relief, compact valley geometry, and generation that depends on river flow rather than large seasonal storage.
+
+Its watchlist role is therefore methodological. When the map displays dozens of survey-stage records, Upper Bhotekoshi is one of the markers that helps calibrate what an operating point looks like in the source data.
+
+## Status And Timing
+
+The project is already operating. There is no construction-start or finish-date issue to track in this layer context. The relevant updates are operational performance, outage history, flood/sediment exposure, and how Bhote Koshi valley generation connects into the eastern grid.
+
+## Map Interpretation
+
+The marker is an operating-project registry point near the mapped river and is labeled as a higher-confidence site point in the priority-watchlist layer.
 
 ## Registry note
 
@@ -43,3 +49,4 @@ generator: auto-stub
 - [[koshi-basin]]
 - [[run-of-river-hydropower]]
 - [[stranded-generation]]
+- [[data-layer-priority-watchlist]]

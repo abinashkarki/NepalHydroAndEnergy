@@ -20,12 +20,30 @@
     }
   },
   "floors": {
-    "hydrology": { "label": "Hydrology", "subtitle": "What Nepal actually has" },
-    "infrastructure": { "label": "Infrastructure", "subtitle": "What Nepal has built" },
-    "storage": { "label": "Storage", "subtitle": "What Nepal is missing" },
-    "transmission-trade": { "label": "Transmission and Trade", "subtitle": "Where Nepal loses value" },
-    "geopolitics": { "label": "Geopolitics", "subtitle": "Where Nepal is strategic" },
-    "synthesis": { "label": "Synthesis", "subtitle": "What Nepal should do" }
+    "hydrology": {
+      "label": "Hydrology",
+      "subtitle": "What Nepal actually has"
+    },
+    "infrastructure": {
+      "label": "Infrastructure",
+      "subtitle": "What Nepal has built"
+    },
+    "storage": {
+      "label": "Storage",
+      "subtitle": "What Nepal is missing"
+    },
+    "transmission-trade": {
+      "label": "Transmission and Trade",
+      "subtitle": "Where Nepal loses value"
+    },
+    "geopolitics": {
+      "label": "Geopolitics",
+      "subtitle": "Where Nepal is strategic"
+    },
+    "synthesis": {
+      "label": "Synthesis",
+      "subtitle": "What Nepal should do"
+    }
   },
   "counter_narratives": [
     {
@@ -33,35 +51,52 @@
       "claim": "Nepal has about 83 GW of hydropower potential.",
       "reality": "That number is theoretical. Technical potential is much smaller, and economically developable capacity — once grid, storage, finance, and social constraints are applied — is a fraction of it.",
       "confidence": "high",
-      "floors": ["hydrology", "infrastructure", "synthesis"]
+      "floors": [
+        "hydrology",
+        "infrastructure",
+        "synthesis"
+      ]
     },
     {
       "id": "cn-generation-bottleneck",
       "claim": "Nepal's energy problem is that it doesn't generate enough electricity.",
       "reality": "Generation has grown sharply. The binding constraints have shifted to storage (reshaping the year) and transmission (moving what is already generated).",
       "confidence": "high",
-      "floors": ["infrastructure", "storage", "transmission-trade"]
+      "floors": [
+        "infrastructure",
+        "storage",
+        "transmission-trade"
+      ]
     },
     {
       "id": "cn-run-of-river-sufficient",
       "claim": "Run-of-river hydropower is enough to meet Nepal's needs.",
       "reality": "Run-of-river mirrors the hydrograph; it cannot reschedule the monsoon. Without storage, firm dry-season supply and dispatch flexibility stay structurally constrained.",
       "confidence": "high",
-      "floors": ["infrastructure", "storage"]
+      "floors": [
+        "infrastructure",
+        "storage"
+      ]
     },
     {
       "id": "cn-export-is-the-prize",
       "claim": "Exporting power to India is Nepal's biggest energy opportunity.",
       "reality": "Timing mismatch tends to push cheap monsoon surplus out and pull expensive dry-season power back in. Domestic industrial use may capture more value per MWh than seasonal trade does.",
       "confidence": "medium",
-      "floors": ["transmission-trade", "synthesis"]
+      "floors": [
+        "transmission-trade",
+        "synthesis"
+      ]
     },
     {
       "id": "cn-upstream-leverage",
       "claim": "Sitting upstream of 500 million people gives Nepal major geopolitical leverage.",
       "reality": "Upstream geography is real but often overstated. Realized leverage depends on infrastructure, institutions, and treaties — not just on being upstream.",
       "confidence": "medium",
-      "floors": ["geopolitics", "synthesis"]
+      "floors": [
+        "geopolitics",
+        "synthesis"
+      ]
     }
   ],
   "tours": {
@@ -82,7 +117,7 @@
           "focus": {
             "center": [
               28.3,
-              84.0
+              84
             ],
             "zoom": 7
           },
@@ -114,7 +149,7 @@
           "floor": "hydrology",
           "hero_moment": "Nepal holds a year's worth of rivers, but delivers most of it in three monsoon months.",
           "page": "seasonal-mismatch",
-          "preset": "tributary_explorer",
+          "preset": "tributaries",
           "layers_on": [
             "country_outline",
             "tributaries",
@@ -138,7 +173,9 @@
             ],
             "confidence": "high"
           },
-          "counter_narratives": ["cn-potential-inflation"],
+          "counter_narratives": [
+            "cn-potential-inflation"
+          ],
           "transition_to_next": "Once the flow profile is clear, the next question is how Nepal's project fleet converts that water into electricity.",
           "questions": [
             "Which basins stay resilient in dry season?",
@@ -151,7 +188,7 @@
           "floor": "infrastructure",
           "hero_moment": "Nepal's hydropower fleet is a mirror of its rivers: it rises and falls with the monsoon, by design.",
           "page": "run-of-river-hydropower",
-          "preset": "tributary_explorer",
+          "preset": "tributaries",
           "layers_on": [
             "country_outline",
             "tributaries",
@@ -176,7 +213,10 @@
             ],
             "confidence": "high"
           },
-          "counter_narratives": ["cn-run-of-river-sufficient", "cn-generation-bottleneck"],
+          "counter_narratives": [
+            "cn-run-of-river-sufficient",
+            "cn-generation-bottleneck"
+          ],
           "transition_to_next": "If generation follows river timing, storage becomes the key mechanism for reshaping seasonal energy into firm supply.",
           "questions": [
             "Where is the fleet concentrated relative to river quality?",
@@ -212,7 +252,9 @@
             ],
             "confidence": "medium"
           },
-          "counter_narratives": ["cn-run-of-river-sufficient"],
+          "counter_narratives": [
+            "cn-run-of-river-sufficient"
+          ],
           "transition_to_next": "Even with better storage planning, value is still lost if the grid cannot evacuate and route power when available.",
           "questions": [
             "How much instability is a storage problem?",
@@ -228,7 +270,7 @@
           "preset": "power_system",
           "layers_on": [
             "country_outline",
-            "transmission_traced",
+            "transmission_traced_network",
             "transmission_corridors",
             "cross_border",
             "place_anchors"
@@ -250,7 +292,9 @@
             ],
             "confidence": "high"
           },
-          "counter_narratives": ["cn-generation-bottleneck"],
+          "counter_narratives": [
+            "cn-generation-bottleneck"
+          ],
           "transition_to_next": "Grid constraints are not only technical; they shape trade timing, contract value, and where electricity creates economic return.",
           "questions": [
             "What share of underperformance is network-limited?",
@@ -266,7 +310,7 @@
           "layers_on": [
             "country_outline",
             "priority_watchlist",
-            "transmission_traced",
+            "transmission_traced_network",
             "cross_border"
           ],
           "mode_copy": {
@@ -286,7 +330,9 @@
             ],
             "confidence": "medium"
           },
-          "counter_narratives": ["cn-export-is-the-prize"],
+          "counter_narratives": [
+            "cn-export-is-the-prize"
+          ],
           "transition_to_next": "Economic timing links directly to regional power politics, where geography and interconnection determine bargaining space.",
           "questions": [
             "Where is value lost: contracts, timing, or infrastructure?",
@@ -326,7 +372,9 @@
             ],
             "confidence": "medium"
           },
-          "counter_narratives": ["cn-upstream-leverage"],
+          "counter_narratives": [
+            "cn-upstream-leverage"
+          ],
           "transition_to_next": "The final step ranks bottlenecks and turns this evidence chain into a concrete strategic sequence.",
           "questions": [
             "How much leverage is geographic vs institutional?",
@@ -344,7 +392,7 @@
             "country_outline",
             "basin_polygons",
             "storage_shortlist",
-            "transmission_traced"
+            "transmission_traced_network"
           ],
           "mode_copy": {
             "short": "Conclusion: the first unlock is system design, not more slogans about raw potential.",
@@ -363,7 +411,11 @@
             ],
             "confidence": "medium"
           },
-          "counter_narratives": ["cn-potential-inflation", "cn-export-is-the-prize", "cn-upstream-leverage"],
+          "counter_narratives": [
+            "cn-potential-inflation",
+            "cn-export-is-the-prize",
+            "cn-upstream-leverage"
+          ],
           "questions": [
             "If only one bottleneck is solved first, which unlocks the most progress?",
             "What sequence best converts geography into dependable national value?"

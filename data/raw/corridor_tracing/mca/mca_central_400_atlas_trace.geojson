@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "mca_central_400",
+        "segment_id": "mca_lapsiphedi_ratmate_400",
+        "segment_name": "Lapsiphedi-Ratmate 400 kV line",
+        "name": "MCA Central 400 kV: Lapsiphedi-Ratmate",
+        "voltage_kv": "400",
+        "status": "Under construction",
+        "trace_method": "manual_atlas_trace",
+        "trace_confidence": "high",
+        "trace_coverage": "segment",
+        "source_id": "mca_annex_d1_alignment_maps",
+        "source_pdf": "mca_annex_d1_alignment_maps.pdf",
+        "source_page_or_sheet": "Annex D-1 atlas pages 157-193",
+        "page_start": 157,
+        "page_end": 193,
+        "official_length_km": 57.83,
+        "geometry_basis": "Manual route-level trace from MCA Annex D-1 baseline alignment atlas, cross-checked against MCC Compact segment topology and RPGCL map labels.",
+        "notes": "One of five MCA Central 400 kV project segments. Sheet range is assigned from atlas page order and official segment proportions; contact-sheet review outputs retain page-level audit context."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.50809046470464, 27.62450594436347],
+          [85.43, 27.72],
+          [85.31, 27.83],
+          [85.18, 27.82],
+          [85.05157214902081, 27.719220636161673]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "mca_central_400",
+        "segment_id": "mca_ratmate_new_hetauda_400",
+        "segment_name": "Ratmate-New Hetauda 400 kV line",
+        "name": "MCA Central 400 kV: Ratmate-New Hetauda",
+        "voltage_kv": "400",
+        "status": "Under construction",
+        "trace_method": "manual_atlas_trace",
+        "trace_confidence": "high",
+        "trace_coverage": "segment",
+        "source_id": "mca_annex_d1_alignment_maps",
+        "source_pdf": "mca_annex_d1_alignment_maps.pdf",
+        "source_page_or_sheet": "Annex D-1 atlas pages 122-156",
+        "page_start": 122,
+        "page_end": 156,
+        "official_length_km": 55.59,
+        "geometry_basis": "Manual route-level trace from MCA Annex D-1 baseline alignment atlas, cross-checked against MCC Compact segment topology and RPGCL map labels.",
+        "notes": "This segment branches south from Ratmate to New Hetauda. It shares the exact Ratmate coordinate with the Lapsiphedi and New Damauli segments to preserve topology."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.05157214902081, 27.719220636161673],
+          [85.18, 27.66],
+          [85.22, 27.55],
+          [85.16, 27.45],
+          [85.09581292680514, 27.354013735666634]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "mca_central_400",
+        "segment_id": "mca_ratmate_new_damauli_400",
+        "segment_name": "Ratmate-New Damauli 400 kV line",
+        "name": "MCA Central 400 kV: Ratmate-New Damauli",
+        "voltage_kv": "400",
+        "status": "Under construction",
+        "trace_method": "manual_atlas_trace",
+        "trace_confidence": "high",
+        "trace_coverage": "segment",
+        "source_id": "mca_annex_d1_alignment_maps",
+        "source_pdf": "mca_annex_d1_alignment_maps.pdf",
+        "source_page_or_sheet": "Annex D-1 atlas pages 67-121",
+        "page_start": 67,
+        "page_end": 121,
+        "official_length_km": 88.23,
+        "geometry_basis": "Manual route-level trace from MCA Annex D-1 baseline alignment atlas, cross-checked against MCC Compact segment topology and RPGCL map labels.",
+        "notes": "This segment is the westward Ratmate branch toward New Damauli. It shares the exact Ratmate and New Damauli coordinates with adjacent MCA segments."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.05157214902081, 27.719220636161673],
+          [84.88, 27.84],
+          [84.64, 27.92],
+          [84.42, 27.91],
+          [84.27857932425039, 27.834345516420797]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "mca_central_400",
+        "segment_id": "mca_new_damauli_new_butwal_400",
+        "segment_name": "New Damauli-New Butwal 400 kV line",
+        "name": "MCA Central 400 kV: New Damauli-New Butwal",
+        "voltage_kv": "400",
+        "status": "Under construction",
+        "trace_method": "manual_atlas_trace",
+        "trace_confidence": "high",
+        "trace_coverage": "segment",
+        "source_id": "mca_annex_d1_alignment_maps",
+        "source_pdf": "mca_annex_d1_alignment_maps.pdf",
+        "source_page_or_sheet": "Annex D-1 atlas pages 15-66",
+        "page_start": 15,
+        "page_end": 66,
+        "official_length_km": 84.0,
+        "geometry_basis": "Manual route-level trace from MCA Annex D-1 baseline alignment atlas, cross-checked against MCC Compact segment topology and RPGCL map labels.",
+        "notes": "This segment continues the western MCA corridor from New Damauli to New Butwal. It shares exact endpoint coordinates with the adjacent New Damauli and border-link segments."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [84.27857932425039, 27.834345516420797],
+          [84.1, 27.89],
+          [83.88, 27.76],
+          [83.73, 27.59],
+          [83.690571862707, 27.44216805764509]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "mca_central_400",
+        "segment_id": "mca_new_butwal_india_border_400",
+        "segment_name": "New Butwal-India border 400 kV link",
+        "name": "MCA Central 400 kV: New Butwal-India border",
+        "voltage_kv": "400",
+        "status": "Under construction",
+        "trace_method": "manual_atlas_trace",
+        "trace_confidence": "high",
+        "trace_coverage": "segment",
+        "source_id": "mca_annex_d1_alignment_maps",
+        "source_pdf": "mca_annex_d1_alignment_maps.pdf",
+        "source_page_or_sheet": "Annex D-1 atlas pages 1-14",
+        "page_start": 1,
+        "page_end": 14,
+        "official_length_km": 23.0,
+        "geometry_basis": "Manual route-level trace from MCA Annex D-1 baseline alignment atlas, cross-checked against MCC Compact segment topology, RPGCL map labels, and the processed Gorakhpur-New Butwal border gateway.",
+        "notes": "Nepal-side border link only. This segment ends at the processed Belahiya/New Butwal border-corridor gateway and does not guess the Indian-side route."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [83.690571862707, 27.44216805764509],
+          [83.4668199, 27.4787449]
+        ]
+      }
+    }
+  ]
+}

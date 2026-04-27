@@ -3,8 +3,8 @@ title: MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–B
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-20
-sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
+updated: 2026-04-25
+sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, mca_annex_d1_alignment_maps]
 tags: [transmission, 400kv, mca, central-corridor, under-construction]
 ---
 
@@ -23,12 +23,21 @@ ends the single-point-of-failure problem on the eastern backbone.
 |-----------|-------|
 | Voltage | 400 kV |
 | Status | Under construction (partial energisation 2025) |
-| Spine length | ~315 km |
+| Route-length basis | 308.65 route-km |
+| Circuit-length basis | 617.3 circuit-km |
 | Owner | [[nea]] (construction by MCA-Nepal contractors) |
 | Terminal substations | Lapsiphedi · Ratmate · Hetauda · Damauli · New Butwal |
 | Financing | US MCC grant (~US$500M corridor share) + Government of Nepal |
 | Target full commissioning | 2026–2027 |
 | Corridor ID | `mca_central_400` |
+
+## Map Interpretation
+
+The connected transmission layer now uses a source-aware MCA atlas trace rather than the older RPGCL overview fragments. It is modeled as five project segments: Lapsiphedi-Ratmate, Ratmate-New Hetauda, Ratmate-New Damauli, New Damauli-New Butwal, and New Butwal-India border.
+
+Public decision: **default-visible, high confidence**.
+
+Validation shows 5 atlas-derived features, no inferred connectors, no endpoint gaps, and a -1.32% delta against the 308.65 route-km compact basis.
 
 ## Significance
 
@@ -55,6 +64,9 @@ ends the single-point-of-failure problem on the eastern backbone.
   Damauli and New Butwal.
 - **Dependent on cross-border terminal.** Full value is unlocked only
   when [[gorakhpur-butwal-interconnection]] also commissions.
+- **Atlas trace, not tower survey.** The public geometry is route-grade
+  for map and topology use, with sheet-level provenance, but it should
+  not be read as a cadastral tower alignment.
 
 ## See also
 

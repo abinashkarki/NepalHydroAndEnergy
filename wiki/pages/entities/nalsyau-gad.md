@@ -2,16 +2,15 @@
 title: Nalsyau Gad
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
-sources: []
-tags: [project, storage, karnali]
+updated: 2026-04-25
+sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
+tags: [project, storage, watchlist, karnali]
 images: []
-generator: auto-stub
 ---
 
 # Nalsyau Gad
 
-410 MW · jica promising storage · in the Karnali basin.
+Nalsyau Gad is a 410 MW storage candidate in the Karnali basin and the best dry-energy performer in the JICA promising-storage set used by this wiki. It is pinned in both [[data-layer-storage-shortlist]] and [[data-layer-priority-watchlist]] because it contributes the kind of dry-season energy Nepal's run-of-river-heavy system is missing.
 
 <!-- generated:specs:start -->
 
@@ -30,12 +29,21 @@ generator: auto-stub
 
 <!-- generated:specs:end -->
 
-## Notes
+## Why It Matters
 
-> [!gap] This page is an auto-generated stub. Capacity, location and
-> licence status come straight from the Ministry of Energy registry
-> mirrored in the map manifest. Add narrative, citations and images
-> here; the spec table above will refresh on rerun.
+Nalsyau Gad's value is not just its 410 MW nameplate. The JICA/NEA storage-screening figures give it **581.8 GWh** of dry-season energy, equal to **41.4%** of annual energy. That is the strongest dry-energy output in the promising-storage shortlist and one of the few project records that directly addresses the [[storage-deficit]] rather than only adding wet-season energy.
+
+This is why it appears in the priority watchlist despite being survey-stage. A project can be strategically important before it is construction-ready if it changes the dry-season balance, especially in a system where [[kulekhani-cascade]] is still the only operating seasonal-storage anchor and [[tanahu-hydropower]] is the only large storage project in active construction.
+
+## Status And Timing
+
+Nalsyau Gad should be read as a **planning / promising-storage candidate**, not a confirmed near-term build. The IPSDP milestone ladder groups **Nalsyau Gad STO** in the **2031-2035** project window. That is a planning sequence, not a construction contract.
+
+Key watch items are feasibility update, developer assignment, environmental and social screening, financing structure, and evacuation planning from the western hill grid into the larger transmission backbone.
+
+## Map Interpretation
+
+The map marker is a river-aligned project reference derived from the registry/project point. It is suitable for basin-level and corridor-level comparison, but it should not be treated as a final dam-axis coordinate.
 
 ## Registry note
 
@@ -46,3 +54,6 @@ generator: auto-stub
 - [[karnali-basin]]
 - [[storage-deficit]]
 - [[firm-power]]
+- [[data-ipsdp-milestone-ladder-2022-2040]]
+- [[data-layer-storage-shortlist]]
+- [[data-layer-priority-watchlist]]

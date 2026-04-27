@@ -2,20 +2,19 @@
 title: Lower Badigad
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
-sources: []
+updated: 2026-04-25
+sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, storage, gandaki]
 images:
   - src: lower-badigad/jica-layout-page.png
     caption: Official JICA storage master plan figure page showing Lower Badigad location and general layout.
     credit: JICA / EPDC, Nationwide Master Plan Study on Storage-type Hydroelectric Power Development in Nepal
     source_url: "../../../data/raw/lead1_sources/jica_storage_master_plan_vol_2.pdf"
-generator: auto-stub
 ---
 
 # Lower Badigad
 
-380.3 MW · jica promising storage · in the Gandaki basin.
+Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basin. It is pinned in [[data-layer-storage-shortlist]] because it pairs large carryover storage with meaningful dry-season output, making it more relevant to system value than many larger wet-season-heavy projects.
 
 <!-- generated:specs:start -->
 
@@ -34,12 +33,21 @@ generator: auto-stub
 
 <!-- generated:specs:end -->
 
-## Notes
+## Why It Matters
 
-> [!gap] This page is an auto-generated stub. Capacity, location and
-> licence status come straight from the Ministry of Energy registry
-> mirrored in the map manifest. Add narrative, citations and images
-> here; the spec table above will refresh on rerun.
+Lower Badigad is one of the stronger Gandaki storage candidates in the shortlist: **995.9 MCM** total storage, **505.5 MCM** effective storage, and **354.7 GWh** of dry-season energy. Its dry share is lower than Nalsyau Gad or Dudhkoshi, but the reservoir scale is large enough that it remains important for seasonal regulation.
+
+Its strategic role is also geographic. The Gandaki basin is already a central hydropower corridor, and storage in that basin has a different grid value than remote far-western storage. Lower Badigad belongs in the wiki because it is a credible comparator to [[tanahu-hydropower]], [[kali-gandaki-a]], and other Gandaki assets.
+
+## Status And Timing
+
+Lower Badigad is a planning candidate from the JICA/NEA storage material, not an under-construction project. The IPSDP milestone ladder groups **Lower Badigad STO** in the **2031-2035** window. Treat that as a planning horizon rather than a confirmed construction-start date.
+
+The next evidence to watch is whether the project advances from storage-master-plan candidate to a named developer, updated feasibility package, environmental assessment, financing plan, and grid-connection commitment.
+
+## Map Interpretation
+
+The map marker is a river-aligned project reference. It is appropriate for comparing storage candidates and basin leverage, but not for property-level impact analysis.
 
 ## Registry note
 
@@ -50,3 +58,6 @@ generator: auto-stub
 - [[gandaki-basin]]
 - [[storage-deficit]]
 - [[firm-power]]
+- [[tanahu-hydropower]]
+- [[data-ipsdp-milestone-ladder-2022-2040]]
+- [[data-layer-storage-shortlist]]

@@ -1,0 +1,335 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dhalkebar_muzaffarpur_line",
+        "interconnection_id": "dhalkebar_muzaffarpur",
+        "name": "Dhalkebar-Muzaffarpur",
+        "voltage_kv": "400",
+        "status": "Operational",
+        "geometry_role": "inferred_connector",
+        "connection_scope": "endpoint_connector",
+        "trace_confidence": "medium",
+        "source_id": "pib_lok_sabha_2026_04_02",
+        "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3",
+        "nepal_node": "Dhalkebar",
+        "india_node": "Muzaffarpur",
+        "length_km": 106.773,
+        "geometry_basis": "Nepal-side point to processed India-side place anchor.",
+        "notes": "Endpoint connector only; Indian-side route is not drawn."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.95488,
+            26.930012
+          ],
+          [
+            85.3316097,
+            26.1482548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kataiya_kushaha_line",
+        "interconnection_id": "kataiya_kushaha",
+        "name": "Kataiya-Kushaha",
+        "voltage_kv": "132",
+        "status": "Operational",
+        "geometry_role": "gateway_stub",
+        "connection_scope": "gateway_stub",
+        "trace_confidence": "low",
+        "source_id": "pib_lok_sabha_2026_04_02",
+        "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3",
+        "nepal_node": "Kushaha",
+        "india_node": "Kataiya",
+        "length_km": 22.202,
+        "geometry_basis": "Conservative gateway stub toward named India-side endpoint; not a route alignment.",
+        "notes": "Short gateway stub only; full Indian-side route is intentionally not guessed."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            86.5399036,
+            26.6848442
+          ],
+          [
+            86.73,
+            26.58
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "raxaul_parwanipur_line",
+        "interconnection_id": "raxaul_parwanipur",
+        "name": "Raxaul-Parwanipur",
+        "voltage_kv": "132",
+        "status": "Operational",
+        "geometry_role": "gateway_stub",
+        "connection_scope": "gateway_stub",
+        "trace_confidence": "low",
+        "source_id": "pib_lok_sabha_2026_04_02",
+        "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3",
+        "nepal_node": "Parwanipur",
+        "india_node": "Raxaul",
+        "length_km": 11.546,
+        "geometry_basis": "Conservative gateway stub toward named India-side endpoint; not a route alignment.",
+        "notes": "Short gateway stub only; full Indian-side route is intentionally not guessed."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            84.9303298,
+            27.0552387
+          ],
+          [
+            84.85,
+            26.98
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nautanwa_mainahiya_line",
+        "interconnection_id": "nautanwa_mainahiya",
+        "name": "New Nautanwa-Mainahiya",
+        "voltage_kv": "132",
+        "status": "Operational",
+        "geometry_role": "inferred_connector",
+        "connection_scope": "endpoint_connector",
+        "trace_confidence": "medium",
+        "source_id": "pib_lok_sabha_2026_04_02",
+        "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3",
+        "nepal_node": "Mainahiya",
+        "india_node": "New Nautanwa / Sunauli",
+        "length_km": 10.058,
+        "geometry_basis": "Nepal-side point to processed India-side place anchor.",
+        "notes": "Endpoint connector only; Indian-side route is not drawn."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            83.3909065,
+            27.5329041
+          ],
+          [
+            83.4662018,
+            27.4719014
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tanakpur_mahendranagar_line",
+        "interconnection_id": "tanakpur_mahendranagar",
+        "name": "Tanakpur-Mahendranagar",
+        "voltage_kv": "132",
+        "status": "Operational",
+        "geometry_role": "gateway_stub",
+        "connection_scope": "gateway_stub",
+        "trace_confidence": "low",
+        "source_id": "pib_lok_sabha_2026_04_02",
+        "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3",
+        "nepal_node": "Mahendranagar / Gaddachauki",
+        "india_node": "Tanakpur",
+        "length_km": 8.543,
+        "geometry_basis": "Conservative gateway stub toward named India-side endpoint; not a route alignment.",
+        "notes": "Short gateway stub only; full Indian-side route is intentionally not guessed."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1223078,
+            28.9931995
+          ],
+          [
+            80.12,
+            29.07
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nepalgunj_nanpara_line",
+        "interconnection_id": "nepalgunj_nanpara",
+        "name": "Nepalgunj-Nanpara",
+        "voltage_kv": "132",
+        "status": "Under construction",
+        "geometry_role": "gateway_stub",
+        "connection_scope": "gateway_stub",
+        "trace_confidence": "low",
+        "source_id": "pib_lok_sabha_2026_04_02",
+        "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3",
+        "nepal_node": "Nepalgunj / Jamunaha",
+        "india_node": "Nanpara",
+        "length_km": 31.664,
+        "geometry_basis": "Conservative gateway stub toward named India-side endpoint; not a route alignment.",
+        "notes": "Short gateway stub only; full Indian-side route is intentionally not guessed."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            81.8167742,
+            27.9118922
+          ],
+          [
+            81.5,
+            27.86
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gorakhpur_new_butwal_line",
+        "interconnection_id": "gorakhpur_new_butwal",
+        "name": "Gorakhpur-New Butwal",
+        "voltage_kv": "400",
+        "status": "Under construction",
+        "geometry_role": "gateway_stub",
+        "connection_scope": "gateway_stub",
+        "trace_confidence": "low",
+        "source_id": "mcc_fy2025_annual_report",
+        "source_url": "https://www.mcc.gov/resources/doc/annual-report-2025/",
+        "nepal_node": "New Butwal / Belahiya border corridor",
+        "india_node": "Gorakhpur",
+        "length_km": 17.999,
+        "geometry_basis": "Conservative gateway stub toward named India-side endpoint; not a route alignment.",
+        "notes": "Short gateway stub only; full Indian-side route is intentionally not guessed."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            83.4668199,
+            27.4787449
+          ],
+          [
+            83.4451689216947,
+            27.318018332042907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "inaruwa_purnea_line",
+        "interconnection_id": "inaruwa_purnea",
+        "name": "Inaruwa-Purnea",
+        "voltage_kv": "400",
+        "status": "Implementation setup",
+        "geometry_role": "inferred_connector",
+        "connection_scope": "endpoint_connector",
+        "trace_confidence": "medium",
+        "source_id": "cea_nep_volume_ii",
+        "source_url": "https://cea.nic.in/wp-content/uploads/notification/2024/10/National_Electricity_Plan_Volume_II_Transmission.pdf",
+        "nepal_node": "Inaruwa",
+        "india_node": "New Purnea / Purnia",
+        "length_km": 98.985,
+        "geometry_basis": "Nepal-side point to processed India-side place anchor.",
+        "notes": "Endpoint connector only; Indian-side route is not drawn."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            87.1218153,
+            26.6098699
+          ],
+          [
+            87.4731227,
+            25.7773601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lamki_bareilly_line",
+        "interconnection_id": "lamki_bareilly",
+        "name": "Lamki-Bareilly",
+        "voltage_kv": "400",
+        "status": "Implementation setup",
+        "geometry_role": "inferred_connector",
+        "connection_scope": "endpoint_connector",
+        "trace_confidence": "medium",
+        "source_id": "cea_nep_volume_ii",
+        "source_url": "https://cea.nic.in/wp-content/uploads/notification/2024/10/National_Electricity_Plan_Volume_II_Transmission.pdf",
+        "nepal_node": "Lamki / Dododhara",
+        "india_node": "Bareilly",
+        "length_km": 171.654,
+        "geometry_basis": "Nepal-side point to processed India-side place anchor.",
+        "notes": "Endpoint connector only; Indian-side route is not drawn."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            81.15880776919326,
+            28.54114421639382
+          ],
+          [
+            79.4047452,
+            28.4582345
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chameliya_jauljibi_line",
+        "interconnection_id": "chameliya_jauljibi",
+        "name": "Chameliya-Jauljibi",
+        "voltage_kv": "220",
+        "status": "Planned",
+        "geometry_role": "inferred_connector",
+        "connection_scope": "endpoint_connector",
+        "trace_confidence": "medium",
+        "source_id": "cea_nep_volume_ii",
+        "source_url": "https://cea.nic.in/wp-content/uploads/notification/2024/10/National_Electricity_Plan_Volume_II_Transmission.pdf",
+        "nepal_node": "Chameliya",
+        "india_node": "Jauljibi",
+        "length_km": 30.161,
+        "geometry_basis": "Nepal-side point to processed India-side place anchor.",
+        "notes": "Endpoint connector only; Indian-side route is not drawn."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.64439891503855,
+            29.613418786265093
+          ],
+          [
+            80.376287,
+            29.7524071
+          ]
+        ]
+      }
+    }
+  ]
+}

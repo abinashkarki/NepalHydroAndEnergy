@@ -1,0 +1,20 @@
+{
+  "name": "04-power-satellite-regional",
+  "preset": "power_system",
+  "basemap": "Satellite",
+  "zoom": 8,
+  "desc": "Power preset \u2014 satellite \u2014 regional zoom",
+  "markerMode": "badges",
+  "badgeCount": 333,
+  "activeLayers": [
+    "country_outline",
+    "transmission_traced_network",
+    "place_anchors",
+    "cross_border",
+    "cross_border_lines",
+    "priority_watchlist",
+    "storage_shortlist",
+    "hydropower_operating",
+    "hydropower_construction"
+  ]
+}

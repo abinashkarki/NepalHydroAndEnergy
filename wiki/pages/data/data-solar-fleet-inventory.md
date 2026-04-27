@@ -16,14 +16,14 @@ The utility-scale solar analogue of [[data-fleet-composition]]. The full "what i
 
 | Status | Capacity (MWp) | Count | Share of current generation |
 |---|---:|---:|---:|
-| **Operating (grid-tied utility)** | **~141.74** | 25 licensed plants (mixed NEA + IPP) | 3.95% of installed generation |
+| **Operating (grid-tied utility)** | **~141.94** | ~35 plants (mixed NEA + IPP) | 3.95% of installed generation |
 | **Operating (rooftop, estimated)** | ~70–90 | ~10,000+ sites | Not in NEA installed-capacity figures |
 | **Operating (off-grid / mini-grid, AEPC)** | ~20–35 | ~30 village systems + 1 M SHS | Not in NEA installed-capacity figures |
 | **PPA signed, not yet commissioned** | **170** | 8 plants | Expected COD FY 2026/27–2027/28 |
-| **Tender awarded, pre-PPA (960 MW round)** | **~585–790** | 38–64 project selections | 960 MW gross tender; net awards in progress |
+| **Tender awarded, pre-PPA (960 MW round)** | **~585–790** | 38–63 projects | 960 MW gross tender; net awards in progress |
 | **Total grid-tied pipeline (3-year)** | **~900–1,100** | — | On track to ~1 GW grid-tied operating by FY 2028/29 |
 
-Source: DoED's current solar power-plant table cross-referenced with NEA Annual Report FY 2024/25 and AEPC programme data. NEA reports 141.940 MW of installed solar in its generation-capacity mix; DoED's operating solar license table totals 141.74 MW across 25 plants, close enough for system-scale planning and more useful for plant-level mapping.
+Source: NEA Annual Report FY 2024/25 cross-referenced with AEPC programme data.
 
 ## Operating utility-scale plants (partial list, FY 2024/25)
 
@@ -39,7 +39,7 @@ Source: DoED's current solar power-plant table cross-referenced with NEA Annual 
 | **Grid Solar & EE Project (WB) — additional components** | — | various | NEA | — | — | Also includes distribution upgrades |
 | **Solar-Hydro co-location (Khungri / Madi–Lungri substation)** | **50 (planned)** | Pyuthan | NEA + IPP | 2026 target | Khungri 33/132 kV | First at-scale hybrid site |
 
-The total of the named plants + smaller listed IPP plants + NEA self-build reaches the **141.74 MWp** DoED operating-plant total for FY 2024/25, which reconciles with NEA's 141.940 MW system figure after rounding and reporting-boundary differences.
+The total of the named plants + small unlisted IPP plants + NEA self-build + AEPC-programme grid-tied installations reaches the **141.94 MWp** NEA-reported total for FY 2024/25.
 
 **Of which:**
 - NEA-owned: **~25 MWp**
@@ -67,11 +67,11 @@ The **largest single solar tender in Nepal's history**, launched 2024 ([[nea-960
 
 Tender structure:
 - **Total award target:** 960 MWp (national, split across provinces)
-- **Number of project selections:** 64 (initial cut-down from wider bidding)
+- **Number of projects selected:** 63 (initial cut-down from wider bidding)
 - **Cumulative Grid Impact Study:** completed FY 2024/25
 - **Typical project size:** 5–25 MWp
 - **Typical location:** Terai districts with 132 kV or 220 kV substation proximity (<10 km)
-- **Award tariff range:** ~NPR 4.99–5.55 /kWh (gazette — see [[solar-lcoe-crossover]])
+- **Award tariff range:** ~NPR 5.70–6.20 /kWh (gazette — see [[solar-lcoe-crossover]])
 
 | Province | Approximate MW in tender | Notes |
 |---|---:|---|
@@ -112,7 +112,7 @@ The "theoretical to operating" ratio for solar (~500×) is *less* severe than fo
 
 ## Notes on data quality
 
-- Operating MW figure (141.74) is the **NEA official installed-capacity** figure FY 2024/25; it captures all grid-tied solar that NEA recognises, but excludes rooftop (behind-the-meter) and most AEPC off-grid systems.
+- Operating MW figure (141.94) is the **NEA official installed-capacity** figure FY 2024/25; it captures all grid-tied solar that NEA recognises, but excludes rooftop (behind-the-meter) and most AEPC off-grid systems.
 - Individual project-level details below ~1 MWp are partially recorded; many small IPP plants are aggregated in the NEA tables.
 - The 960 MW tender has **63 selected projects** mentioned in the report but publicly named lists are partial; full list will need to be compiled from NEA PPA gazette post award.
 - Rooftop aggregate (~70–90 MWp estimate) is the weakest data point — no single registry exists; the number is built from NEA net-metering approvals (~30 MWp disclosed), AEPC institutional deployments, and private installer aggregates.

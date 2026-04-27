@@ -1,0 +1,19 @@
+{
+  "name": "05-solar-light-regional",
+  "preset": "solar_system",
+  "basemap": "Carto Positron",
+  "zoom": 8,
+  "desc": "Solar preset \u2014 light \u2014 regional zoom",
+  "markerMode": "badges",
+  "badgeCount": 144,
+  "activeLayers": [
+    "country_outline",
+    "transmission_traced_network",
+    "place_anchors",
+    "solar_ghi_zones",
+    "solar_suitability",
+    "solar_plants",
+    "floating_pv_candidates",
+    "storage_shortlist"
+  ]
+}

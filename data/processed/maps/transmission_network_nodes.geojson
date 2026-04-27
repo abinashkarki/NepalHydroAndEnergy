@@ -1,0 +1,1125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0001",
+        "label": "Hetauda-Dhalkebar 400 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.008401,
+          27.4309935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0002",
+        "label": "hddi_400 junction",
+        "node_type": "inferred_junction",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.95488,
+          26.930012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0003",
+        "label": "Dhalkebar-Inaruwa 400 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.1218153,
+          26.6098699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0004",
+        "label": "Lapsiphedi-Ratmate 400 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.50809046470464,
+          27.62450594436347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0005",
+        "label": "mca_central_400 junction",
+        "node_type": "inferred_junction",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05157214902081,
+          27.719220636161673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0006",
+        "label": "Ratmate-New Hetauda 400 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.09581292680514,
+          27.354013735666634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0007",
+        "label": "mca_central_400 junction",
+        "node_type": "inferred_junction",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.27857932425039,
+          27.834345516420797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0008",
+        "label": "mca_central_400 junction",
+        "node_type": "inferred_junction",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.690571862707,
+          27.44216805764509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0009",
+        "label": "New Butwal-India border 400 kV link",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4668199,
+          27.4787449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0010",
+        "label": "udipur_damauli_bharatpur_220 junction",
+        "node_type": "inferred_junction",
+        "status": "Under construction",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.431168,
+          28.176794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0011",
+        "label": "Udipur-Markichowk-Bharatpur 220 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4301652,
+          27.6811896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0012",
+        "label": "Hetauda-New Bharatpur 220 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.00804353920867,
+          27.318771594312356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0013",
+        "label": "hetauda_bharatpur_bardaghat_220 junction",
+        "node_type": "inferred_junction",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.45001192872166,
+          27.600499359495355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0014",
+        "label": "New Bharatpur-Bardaghat 220 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.7993104,
+          27.5514632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0015",
+        "label": "Dana-Kushma 220 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6520159781521,
+          28.42186786278833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0016",
+        "label": "dana_kushma_butwal_220 junction",
+        "node_type": "inferred_junction",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.65060885791756,
+          28.1280642459853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0017",
+        "label": "Kushma-New Butwal 220 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "high",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.69052298786728,
+          27.460784986382116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0018",
+        "label": "Butwal-Shivapur-Lamahi-Kohalpur 132 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.47321851682389,
+          27.556542431092055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0019",
+        "label": "western_132_backbone junction",
+        "node_type": "inferred_junction",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6886043769513,
+          28.09132093292611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0020",
+        "label": "western_132_backbone junction",
+        "node_type": "inferred_junction",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.15880776919326,
+          28.54114421639382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0021",
+        "label": "Lamki-Pahalwanpur-Attariya-Mahendranagar 132 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.09452366380923,
+          28.946220417499394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0022",
+        "label": "Chameliya-Syaule-Attariya 132 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.55398409703626,
+          28.735364655748388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0023",
+        "label": "Chameliya-Syaule-Attariya 132 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.64439891503855,
+          29.613418786265093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0024",
+        "label": "Kohalpur-Surkhet-Dailekh 132 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.71,
+          28.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0025",
+        "label": "Kabeli 132 kV southern trunk (Lakhanpur-Soyak)",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.7161407,
+          26.6564208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0026",
+        "label": "kabeli_132 junction",
+        "node_type": "inferred_junction",
+        "status": "Under construction",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.8794803,
+          26.8681639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0027",
+        "label": "Kabeli 132 kV Godak branch",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.9748807,
+          26.8782363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0028",
+        "label": "Kabeli 132 kV Phidim-Amarpur branch",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.7479409,
+          27.2587964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0029",
+        "label": "Marsyangdi Upper 220 kV main route",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "220",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.3583825,
+          28.5189984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0030",
+        "label": "Solu Corridor 132 kV main route",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "low",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.2448435,
+          26.8321962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0031",
+        "label": "Solu Corridor 132 kV main route",
+        "node_type": "trace_endpoint",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "low",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.607529,
+          27.41565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_hetauda",
+        "label": "Hetauda",
+        "node_type": "grid_hub",
+        "status": "Partially operational",
+        "voltage_kv": "400",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "hetauda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.008401,
+          27.4309935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_dhalkebar",
+        "label": "Dhalkebar",
+        "node_type": "grid_hub",
+        "status": "Partially operational",
+        "voltage_kv": "400",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "dhalkebar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.95488,
+          26.930012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_inaruwa",
+        "label": "Inaruwa",
+        "node_type": "grid_hub",
+        "status": "Partially operational",
+        "voltage_kv": "400",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "inaruwa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.1218153,
+          26.6098699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_bharatpur",
+        "label": "Bharatpur",
+        "node_type": "grid_hub",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "bharatpur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4301652,
+          27.6811896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_bardaghat",
+        "label": "Bardaghat",
+        "node_type": "grid_hub",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "bardaghat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.7993104,
+          27.5514632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_khimti",
+        "label": "Khimti",
+        "node_type": "grid_hub",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "khimti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.1016008,
+          27.4920323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_tingla",
+        "label": "Tingla",
+        "node_type": "grid_hub",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "tingla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.607529,
+          27.41565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_mirchaiya",
+        "label": "Mirchaiya",
+        "node_type": "grid_hub",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "mirchaiya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.2448435,
+          26.8321962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_dana",
+        "label": "Dana substation",
+        "node_type": "grid_hub",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "dana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6520159781521,
+          28.42186786278833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_kushma",
+        "label": "Kushma substation",
+        "node_type": "grid_hub",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "kushma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.65060885791756,
+          28.1280642459853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_butwal",
+        "label": "New Butwal substation",
+        "node_type": "grid_hub",
+        "status": "Operational",
+        "voltage_kv": "220",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "butwal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.69052298786728,
+          27.460784986382116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_udipur",
+        "label": "Udipur",
+        "node_type": "grid_hub",
+        "status": "Under construction",
+        "voltage_kv": "220",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "udipur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.431168,
+          28.176794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_damauli",
+        "label": "Damauli",
+        "node_type": "grid_hub",
+        "status": "Under construction",
+        "voltage_kv": "220",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "damauli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.2655773,
+          27.9828293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_lapsiphedi",
+        "label": "Lapsiphedi",
+        "node_type": "grid_hub",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "lapsiphedi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.494789,
+          27.7518193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "grid_ratmate",
+        "label": "Ratmate",
+        "node_type": "grid_hub",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "processed place anchor referenced by curated transmission corridor",
+        "confidence": "medium",
+        "place_anchor_id": "ratmate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0613809,
+          27.8530224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_dhalkebar_muzaffarpur",
+        "label": "Dhalkebar-Muzaffarpur",
+        "node_type": "border_gateway",
+        "status": "Operational",
+        "voltage_kv": "400",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.95488,
+          26.930012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_kataiya_kushaha",
+        "label": "Kataiya-Kushaha",
+        "node_type": "border_gateway",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.5399036,
+          26.6848442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_raxaul_parwanipur",
+        "label": "Raxaul-Parwanipur",
+        "node_type": "border_gateway",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9303298,
+          27.0552387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_nautanwa_mainahiya",
+        "label": "New Nautanwa-Mainahiya",
+        "node_type": "border_gateway",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3909065,
+          27.5329041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_tanakpur_mahendranagar",
+        "label": "Tanakpur-Mahendranagar",
+        "node_type": "border_gateway",
+        "status": "Operational",
+        "voltage_kv": "132",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1223078,
+          28.9931995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_nepalgunj_nanpara",
+        "label": "Nepalgunj-Nanpara",
+        "node_type": "border_gateway",
+        "status": "Under construction",
+        "voltage_kv": "132",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8167742,
+          27.9118922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_gorakhpur_new_butwal",
+        "label": "Gorakhpur-New Butwal",
+        "node_type": "border_gateway",
+        "status": "Under construction",
+        "voltage_kv": "400",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4668199,
+          27.4787449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_inaruwa_purnea",
+        "label": "Inaruwa-Purnea",
+        "node_type": "border_gateway",
+        "status": "Implementation setup",
+        "voltage_kv": "400",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.1218153,
+          26.6098699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_lamki_bareilly",
+        "label": "Lamki-Bareilly",
+        "node_type": "border_gateway",
+        "status": "Implementation setup",
+        "voltage_kv": "400",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.15880776919326,
+          28.54114421639382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "border_gateway_chameliya_jauljibi",
+        "label": "Chameliya-Jauljibi",
+        "node_type": "border_gateway",
+        "status": "Planned",
+        "voltage_kv": "220",
+        "source_basis": "cross_border_interconnections.geojson Nepal-side point",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.64439891503855,
+          29.613418786265093
+        ]
+      }
+    }
+  ]
+}

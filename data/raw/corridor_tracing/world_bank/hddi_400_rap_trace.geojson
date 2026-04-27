@@ -1,0 +1,92 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "hddi_400",
+        "segment_id": "hddi_hetauda_dhalkebar_400_rap_trace",
+        "segment_name": "Hetauda-Dhalkebar 400 kV line",
+        "name": "Hetauda-Dhalkebar-Inaruwa 400 kV backbone",
+        "voltage_kv": "400",
+        "status": "Under construction",
+        "source_id": "world_bank_hddtl_rap",
+        "source_pdf": "world_bank_hddtl_rap.pdf",
+        "source_layer": "manual_recovered_rap_trace",
+        "source_page_or_sheet": "pages 2, 16-20",
+        "viewport_name": "manual_rap_trace",
+        "page_start": 2,
+        "page_end": 20,
+        "official_length_km": 134.0,
+        "geometry_basis": "Manual corridor trace derived from the World Bank HDDTL RAP route description, affected municipality/VDC corridor, and route-location figure, with source-named place anchors geocoded from OSM/Nominatim where local grid anchors were unavailable.",
+        "trace_method": "manual_rap_trace",
+        "trace_confidence": "medium",
+        "trace_coverage": "source_bounded_corridor",
+        "anchor_chain": "Hetauda -> Harnamadi -> Dhiyal -> Nijgadh -> Chandrapur -> Karmaiya -> Lalbandi -> Khayarmara -> Bardibas -> Dhalkebar",
+        "matched_anchor_count": 10,
+        "selected_drawing_count": 1,
+        "selected_source_ids": ["world_bank_hddtl_rap"],
+        "notes": "Replaces the oversimplified RPGCL overview-vector selection for the public connected layer. This is a document-grounded corridor trace, not a tower-by-tower alignment. The RAP states the first 18.6 km is hill section, the next 23.4 km is hill-to-Terai, and the remaining route follows the Terai corridor. NEA FY2024/25 still lists Hetauda-Dhalkebar under construction."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.008401, 27.4309935],
+          [85.1508279, 27.3672768],
+          [85.2782065, 27.2624689],
+          [85.1864273, 27.1787176],
+          [85.3559137, 27.1190444],
+          [85.4823855, 27.1309268],
+          [85.6299701, 27.0534361],
+          [85.7992935, 27.0669098],
+          [85.8933142, 26.9904442],
+          [85.95488, 26.930012]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "hddi_400",
+        "segment_id": "hddi_dhalkebar_inaruwa_400_rap_trace",
+        "segment_name": "Dhalkebar-Inaruwa 400 kV line",
+        "name": "Hetauda-Dhalkebar-Inaruwa 400 kV backbone",
+        "voltage_kv": "400",
+        "status": "Operational",
+        "source_id": "world_bank_hddtl_rap",
+        "source_pdf": "world_bank_hddtl_rap.pdf",
+        "source_layer": "manual_recovered_rap_trace",
+        "source_page_or_sheet": "pages 2, 16-20",
+        "viewport_name": "manual_rap_trace",
+        "page_start": 2,
+        "page_end": 20,
+        "official_length_km": 154.0,
+        "geometry_basis": "Manual corridor trace derived from the World Bank HDDTL RAP route description, affected municipality/VDC corridor, and route-location figure, with source-named place anchors geocoded from OSM/Nominatim where local grid anchors were unavailable.",
+        "trace_method": "manual_rap_trace",
+        "trace_confidence": "medium",
+        "trace_coverage": "source_bounded_corridor",
+        "anchor_chain": "Dhalkebar -> Dhanushadham -> Mirchaiya -> Golbazar -> Lahan -> Shambhunath -> Kanchanrup -> Saptakoshi -> Koshi crossing / Tapeshwari -> Bhokraha -> Inaruwa",
+        "matched_anchor_count": 11,
+        "selected_drawing_count": 1,
+        "selected_source_ids": ["world_bank_hddtl_rap"],
+        "notes": "Replaces the oversimplified RPGCL overview-vector selection for the public connected layer. This is a document-grounded corridor trace, not a tower-by-tower alignment. The RAP terminates the line at the new Duhabi substation at Hanif Tole/Bhokraha; the public map labels the modern terminal as Inaruwa 400 kV substation."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.95488, 26.930012],
+          [86.0580606, 26.830795],
+          [86.2448435, 26.8321962],
+          [86.3326545, 26.8033415],
+          [86.481247, 26.7143868],
+          [86.664645, 26.633529],
+          [86.9147697, 26.6416032],
+          [86.9391093, 26.724749],
+          [87.1050939, 26.777586],
+          [87.125895, 26.6069849],
+          [87.1218153, 26.6098699]
+        ]
+      }
+    }
+  ]
+}

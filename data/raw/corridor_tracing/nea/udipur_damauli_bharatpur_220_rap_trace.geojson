@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "name": "udipur_damauli_bharatpur_220_rap_trace",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "corridor_id": "udipur_damauli_bharatpur_220",
+        "segment_id": "udipur_markichowk_bharatpur_220_rap_trace",
+        "segment_name": "Udipur-Markichowk-Bharatpur 220 kV line",
+        "name": "Marsyangdi Corridor Udipur-Markichowk-Bharatpur 220 kV",
+        "voltage_kv": "220",
+        "status": "Under construction",
+        "trace_method": "manual_rap_trace",
+        "trace_confidence": "medium",
+        "trace_coverage": "full",
+        "source_id": "nea_marsyangdi_rap",
+        "source_pdf": "nea_marsyangdi_rap.pdf",
+        "source_page_or_sheet": "NEA Marsyangdi RAP pages 22-24; Figure 2.1 and project salient features",
+        "page_start": 22,
+        "page_end": 24,
+        "official_length_km": 64.45,
+        "geometry_basis": "Manual route-level trace from the RAP location map and text. The RAP gives 64.45 route-km in text and labels the Udipur-Markichowk-Bharatpur line as 67 km on Figure 2.1.",
+        "notes": "Schematic corridor trace for the Udipur-Markichowk-Bharatpur/Aptari line, not tower-level alignment. Khudi-Udipur should remain a separate scope item unless a route-grade source confirms it belongs in this segment."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            84.431168,
+            28.176794
+          ],
+          [
+            84.34,
+            28.08
+          ],
+          [
+            84.33,
+            27.98
+          ],
+          [
+            84.42,
+            27.93
+          ],
+          [
+            84.37,
+            27.82
+          ],
+          [
+            84.4301652,
+            27.6811896
+          ]
+        ]
+      }
+    }
+  ]
+}

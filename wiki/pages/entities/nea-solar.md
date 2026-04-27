@@ -19,16 +19,16 @@ The **utility-scale grid-tied solar programme** operated by Nepal Electricity Au
 | Phase I — first IPP auctions | 2016–2018 | 5-developer competitive bid | 24 MWp awarded, 3 plants commissioned 2019–20 |
 | Phase II — NEA self-build | 2019–2022 | WB Grid Solar & EE Project | **25 MWp Bidur/Trishuli commissioned 2022** |
 | Phase III — IPP rounds | 2023–2024 | Competitive-bid IPP PPAs | **170 MWp PPAs signed (8 plants)** |
-| Phase IV — the 960 MW tender | 2024–2025 | National-scale IPP portfolio | **960 MWp awarded (64 project selections)** ([[nea-960mw-solar-tender]]) |
+| Phase IV — the 960 MW tender | 2024–2025 | National-scale IPP portfolio | **960 MWp awarded (63 projects)** ([[nea-960mw-solar-tender]]) |
 | Phase V (emerging) | 2025– | Hybrid / floating / grid-impact | Khungri 50 MW hybrid, reservoir floating PV, ~585 MW additional study-stage |
 
 ## Key Facts (FY 2024/25)
 
-- **Operating utility-scale solar:** 141.74 MWp (all grid-tied; NEA-owned + IPP-owned combined)
+- **Operating utility-scale solar:** 141.94 MWp (all grid-tied; NEA-owned + IPP-owned combined)
 - **NEA-owned share:** ~25 MWp (Bidur/Trishuli + smaller pilots)
 - **IPP-owned share:** ~117 MWp (commissioned under Phase I / III)
 - **PPA-signed, pre-COD:** 170 MWp (8 plants, FY 2024/25 signings)
-- **Tender-awarded, pre-PPA:** 960 MWp (64 project selections from 2024/25 tender)
+- **Tender-awarded, pre-PPA:** 960 MWp (63 projects from 2024/25 tender)
 - **Under grid-impact study, beyond 960 MW:** ~585 MWp
 - **Annual PV generation (FY 2024/25):** ~220 GWh (CF ~18%)
 
@@ -38,7 +38,7 @@ NEA's **tariff-based competitive bidding** framework for utility solar:
 
 - **Phase I (2016–18):** NPR 7.30–8.40/kWh, single-round competitive
 - **Phase III (2023–24):** NPR 5.94–6.50/kWh, competitive bidding with ceiling
-- **Phase IV (960 MW, 2024–25):** NPR 4.99–5.55/kWh, national tender with province-balanced allocation
+- **Phase IV (960 MW, 2024–25):** NPR 5.70–6.20/kWh, national tender with province-balanced allocation
 
 See [[data-solar-hydro-lcoe]] for the full time-series and [[solar-lcoe-crossover]] for the cross-over narrative.
 
@@ -64,7 +64,7 @@ No single dedicated "solar cell" exists at senior-management level. The 960 MW t
 | **Bishnu Priya Solar Farm** | ~0.96 | Operating (2018) | Surya Power Company | [[bishnu-priya-nawalparasi]] |
 | **Khungri Solar Hybrid** | 50 | Planned (2026) | NEA + IPP | [[khungri-solar-hybrid-50mw]] |
 | **Karnali Solar Energy Project** | ~10 (pilot) | Planned/implementation | NEA / AEPC hybrid | [[karnali-solar-energy-project]] |
-| **960 MW tender portfolio** | 960 (64 project selections) | PPA in progress | Various IPPs | [[nea-960mw-solar-tender]] |
+| **960 MW tender portfolio** | 960 (63 projects) | PPA in progress | Various IPPs | [[nea-960mw-solar-tender]] |
 | Other small IPP plants (~17 plants) | ~90 (combined) | Operating | Various IPPs | From Phase I + III rounds |
 
 ## Institutional challenges
