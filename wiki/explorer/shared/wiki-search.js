@@ -114,39 +114,43 @@ class StaticFactIndex {
 
   seek(query, opts = {}) {
     const intent = this.classify(query);
-    if (!["fact_superlative", "fact_filter"].includes(intent.intent)) return null;
+    if (intent.constraints.noFacts) return [];
     const facts = this.rankFacts(intent).slice(0, opts.limit ?? 8);
-    if (!facts.length) return null;
-    return {
-      intent,
-      answer: this.answerFor(intent, facts),
-      results: facts.map((fact, i) => this.resultForFact(fact, i)).filter(Boolean),
-    };
+    if (!facts.length) return [];
+    return facts.map((fact, i) => this.resultForFact(fact, i)).filter(Boolean);
   }
 
   classify(query) {
     const q = String(query || "").toLowerCase();
     const terms = tokenize(q);
     const has = (...words) => words.some((word) => q.includes(word));
-    const superlative = has("biggest", "largest", "highest", "top ", "most mw", "capacity");
     const domain = has("solar", "pv") ? "solar" : "hydro";
     let status = "any";
-    if (has("operating", "operation", "existing", "generation", "built", "commissioned")) status = "operating";
-    if (has("construction", "under construction", "buildout")) status = "construction";
-    if (has("survey", "planned", "proposed", "pipeline")) status = "survey";
+    if (has("operating", "operation", "existing", "generation", "built", "commissioned", "working", "active", "running", "producing")) status = "operating";
+    if (has("construction", "under construction", "buildout", "building")) status = "construction";
+    if (has("survey", "planned", "proposed", "pipeline", "licence", "license")) status = "survey";
     const storage = has("storage", "reservoir", "dry season", "firm", "peaking");
-    const factish = superlative || (terms.includes("projects") && (terms.includes("karnali") || storage));
+    const superlative = has("biggest", "largest", "highest", "top ", "most mw", "second", "third");
+
+    const hasDomainTerm = terms.some((t) => ["hydro", "hydropower", "solar", "pv", "ror", "run-of-river", "storage", "projects"].includes(t));
+    const factish = superlative || (has("projects") && (has("karnali") || storage || has("hydro"))) || (hasDomainTerm && superlative);
     return {
-      intent: factish ? "fact_superlative" : "concept_seek",
-      confidence: factish ? 0.92 : 0.25,
-      domains: storage ? [domain, "storage"] : [domain],
-      constraints: { status, metric: "capacity_mw", sort: "desc", limit: 5 },
+      relevant: factish,
+      constraints: {
+        noFacts: !factish,
+        domains: storage ? [domain, "storage"] : [domain],
+        status,
+        metric: "capacity_mw",
+        sort: "desc",
+        limit: 5,
+      },
     };
   }
 
   rankFacts(intent) {
-    const domains = new Set(intent.domains || []);
-    const status = intent.constraints?.status || "any";
+    const c = intent.constraints || intent;
+    const domains = new Set(c.domains || []);
+    const status = c.status || "any";
     return this.facts
       .filter((fact) => {
         const facets = new Set(fact.facets || [fact.domain]);
@@ -155,30 +159,6 @@ class StaticFactIndex {
         return Number.isFinite(Number(fact.capacity_mw));
       })
       .sort((a, b) => Number(b.capacity_mw || 0) - Number(a.capacity_mw || 0));
-  }
-
-  answerFor(intent, facts) {
-    const top = facts[0];
-    const status = intent.constraints?.status || "any";
-    const domainLabel = intent.domains?.includes("solar") ? "solar plant" : "hydropower project";
-    const scope = status === "any" ? "Largest" : `Largest ${status}`;
-    const rows = [top, ...this.interpretations(intent, top)].filter(Boolean);
-    return {
-      title: `${scope} ${domainLabel} by capacity`,
-      primary: `${top.name} · ${formatMw(top.capacity_mw)}`,
-      detail: [top.status_raw || top.status, top.river, top.district].filter(Boolean).join(" · "),
-      source: top.source_note || top.source_layer,
-      rows,
-      relatedSlugs: top.related_slugs || [],
-    };
-  }
-
-  interpretations(intent, primary) {
-    if ((intent.constraints?.status || "any") !== "any") return [];
-    const facts = this.rankFacts({ ...intent, constraints: { ...intent.constraints, status: "operating" } });
-    const operating = facts.find((fact) => fact.id !== primary.id);
-    if (!operating) return [];
-    return [{ ...operating, interpretation: "Largest operating" }];
   }
 
   resultForFact(fact, i) {
@@ -193,7 +173,6 @@ class StaticFactIndex {
       type: page?.y || "fact",
       subcategory: page?.u || "",
       score: 1 - i * 0.04,
-      reason: slug ? "answer" : "data record",
       chip: fact.status || "fact",
       snippetHtml: escapeHtml(`${formatMw(fact.capacity_mw)} · ${fact.status_raw || fact.status}${fact.river ? " · " + fact.river : ""}${fact.district ? " · " + fact.district : ""}`),
     };

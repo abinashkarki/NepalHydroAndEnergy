@@ -2794,21 +2794,23 @@
         if (searchMode === "search") {
           filterNavInPlace(q);
         } else if (searchMode === "seek") {
-          const factual = factIndex && factIndex.seek(q, { limit: 8 });
-          if (factual) {
-            renderResults(factual.results, q, "Answer + sources", factual.answer);
+          const lexical = searchIndex.seek(q, { limit: 30 });
+          const facts = factIndex ? factIndex.seek(q, { limit: 8 }) : [];
+          let results = mergeFactResults(facts, lexical);
+          if (!results.length) {
+            document.getElementById("nav").innerHTML = `<div class="results-empty">no matches for <b>${escapeHtml(q)}</b></div>`;
             hideSeekStatus();
             return;
           }
-          const lexical = searchIndex.seek(q, { limit: 30 });
-          renderResults(lexical, q, "Seek");
-          if (vectorBoost) {
+          renderResults(results, q, "Seek");
+          if (vectorBoost && results.length < 30) {
             showSeekStatus("loading", "Fast results shown. Adding meaning boost...");
             try {
               const vectorHits = await vectorBoost.search(q, { limit: 45 });
               if (seq !== seekSeq || searchMode !== "seek") return;
               const merged = mergeSeekResults(lexical, vectorHits, 30);
-              renderResults(merged, q, "Seek + meaning");
+              results = mergeFactResults(facts, merged);
+              renderResults(results, q, "Seek + meaning");
               showSeekStatus("ready", "Meaning boost applied.");
               setTimeout(() => { if (seq === seekSeq) hideSeekStatus(); }, 2200);
             } catch (err) {
@@ -2817,6 +2819,20 @@
             }
           }
         }
+      }
+
+      function mergeFactResults(facts, textResults) {
+        const seen = new Set();
+        const out = [];
+        for (const fr of facts) {
+          if (fr.slug) seen.add(fr.slug);
+          out.push(fr);
+        }
+        for (const tr of textResults) {
+          if (tr.slug && seen.has(tr.slug)) continue;
+          out.push(tr);
+        }
+        return out;
       }
 
       function runSeekQuery(query) {
@@ -2911,15 +2927,14 @@
         });
       }
 
-      function renderResults(results, q, scoreLabel, answer) {
+      function renderResults(results, q, scoreLabel) {
         const nav = document.getElementById("nav");
         nav.className = "nav-list";
         if (!results.length) {
           nav.innerHTML = `<div class="results-empty">no matches for <b>${escapeHtml(q)}</b></div>`;
           return;
         }
-        let html = answer ? renderAnswerCard(answer) : "";
-        html += `<div class="results-summary">${results.length} result${results.length === 1 ? "" : "s"} · ${scoreLabel}</div><div class="results">`;
+        let html = `<div class="results-summary">${results.length} result${results.length === 1 ? "" : "s"} · ${scoreLabel}</div><div class="results">`;
         for (const r of results) {
           const sp = spatialSlugs.has(r.slug) ? " spatial" : "";
           const meaning = r.chip === "meaning" || r.chip === "hybrid" || r.chip === "text + meaning" ? " meaning" : "";
@@ -2938,27 +2953,6 @@
         html += `</div>`;
         nav.innerHTML = html;
         setActiveNav(currentSlug);
-      }
-
-      function renderAnswerCard(answer) {
-        const options = (answer.rows || []).slice(1).map((row) => {
-          const label = row.interpretation || row.status_raw || row.status || "Also";
-          const value = `${row.name} · ${formatMw(row.capacity_mw)}`;
-          return `<span class="answer-option">${escapeHtml(label)}: ${escapeHtml(value)}</span>`;
-        }).join("");
-        const related = (answer.relatedSlugs || []).map((slug) => {
-          const page = pageMeta && pageMeta.bySlug && pageMeta.bySlug[slug];
-          const title = page ? page.title : slug;
-          return `<a href="javascript:void(0)" onclick="openWikiPage('${slug}')">${escapeHtml(title)}</a>`;
-        }).join("");
-        return `<div class="answer-card">
-          <div class="answer-kicker">${escapeHtml(answer.title || "Answer")}</div>
-          <div class="answer-primary">${escapeHtml(answer.primary || "")}</div>
-          ${answer.detail ? `<div class="answer-detail">${escapeHtml(answer.detail)}</div>` : ""}
-          ${options ? `<div class="answer-options">${options}</div>` : ""}
-          ${related ? `<div class="answer-related">${related}</div>` : ""}
-          ${answer.source ? `<div class="answer-source">${escapeHtml(answer.source)}</div>` : ""}
-        </div>`;
       }
 
       function formatMw(value) {
