@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 192,
-  "total_refs": 1485,
+  "total_targets": 208,
+  "total_refs": 1610,
   "backlinks": {
     "buildability": [
       {
@@ -1112,6 +1112,13 @@
         "target_exists": true
       },
       {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…[downstream-river-geopolitics]] - [[ganges-contribution]] - hydro-geopolitics - [[data-layer-nepal-origin-ocean-routes]] - [[data-layer-d…",
+        "target_exists": true
+      },
+      {
         "slug": "ganges-contribution",
         "title": "Nepal's Contribution to the Ganges",
         "category": "concepts",
@@ -1200,6 +1207,13 @@
         "title": "Layer: Nepal-Origin Downstream Systems",
         "category": "data",
         "context": "…ity in the plains. ## Related - [[ganges-contribution]] - hydro-geopolitics - [[india-energy-relationship]] - [[seasonal-mismatch]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…[downstream-river-geopolitics]] - [[ganges-contribution]] - hydro-geopolitics",
         "target_exists": true
       },
       {
@@ -1957,6 +1971,13 @@
         "title": "Layer: Basin Seasonality",
         "category": "data",
         "context": "…ed - [[seasonal-mismatch]] - [[seasonal-arbitrage-trap]] - storage-deficit - [[firm-power]] - [[data-map-layer-labels]] - [[data-map-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…[downstream-river-geopolitics]] - [[ganges-contribution]] - storage-deficit",
         "target_exists": true
       },
       {
@@ -2824,7 +2845,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…cean-routes]] route traces. - **Solar system preset** tying data-nepal-solar-resource-zones, [[data-solar-fleet-inventory]], [[nea-960mw-solar-tender]]…",
+        "context": "…nstream-dependency-zones]]. - **Solar system preset** tying data-nepal-solar-resource-zones, [[data-solar-fleet-inventory]], [[nea-960mw-solar-tender]]…",
         "target_exists": true
       }
     ],
@@ -3307,10 +3328,24 @@
         "target_exists": true
       },
       {
+        "slug": "kosi-ganges-merge",
+        "title": "Kosi-Ganges Merge",
+        "category": "concepts",
+        "context": "# Kosi-Ganges Merge This marker explains where the koshi-basin route reaches the Ganges trunk after crossing the North Bih…",
+        "target_exists": true
+      },
+      {
         "slug": "ganges-contribution",
         "title": "Nepal's Contribution to the Ganges",
         "category": "concepts",
         "context": "…s** shaped by transboundary storms and sediment pulses (see koshi-basin for the extreme case). - **Drought resilience** when monsoo…",
+        "target_exists": true
+      },
+      {
+        "slug": "north-bihar-kosi-gandak-floodplain",
+        "title": "North Bihar Kosi-Gandak Floodplain",
+        "category": "concepts",
+        "context": "…ugh a high-sensitivity downstream geography. ## Related - koshi-basin - [[gandaki-basin]] - [[kosi-ganges-merge]] - [[gandak-gang…",
         "target_exists": true
       },
       {
@@ -3331,7 +3366,7 @@
         "slug": "downstream-river-geopolitics",
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
-        "context": "…nes rather than political infrastructure. ## Basin Read **koshi-basin** is the clearest hazard case: large glacier and sediment e…",
+        "context": "…ty make the route politically meaningful. ## Basin Read **koshi-basin** is the clearest hazard case: large glacier and sediment e…",
         "target_exists": true
       },
       {
@@ -3414,6 +3449,27 @@
         "target_exists": true
       },
       {
+        "slug": "bihar-ganges-trunk-zone",
+        "title": "Bihar Ganges Trunk Zone",
+        "category": "concepts",
+        "context": "…- [[ghaghara-ganges-merge]] - [[ganges-padma-transition]] - ganges-contribution",
+        "target_exists": true
+      },
+      {
+        "slug": "ganges-padma-transition",
+        "title": "Ganges-Padma Transition",
+        "category": "concepts",
+        "context": "…[padma-meghna-delta]] - [[padma-meghna-delta-dependency]] - ganges-contribution - [[bangladesh-trade-route]]",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…ate time. ## Related - [[downstream-river-geopolitics]] - ganges-contribution - [[hydro-geopolitics]] - [[data-layer-nepal-origin-ocean-r…",
+        "target_exists": true
+      },
+      {
         "slug": "hydro-geopolitics",
         "title": "Hydro-Geopolitics",
         "category": "concepts",
@@ -3421,10 +3477,24 @@
         "target_exists": true
       },
       {
+        "slug": "kosi-ganges-merge",
+        "title": "Kosi-Ganges Merge",
+        "category": "concepts",
+        "context": "…[[koshi-basin]] - [[north-bihar-kosi-gandak-floodplain]] - ganges-contribution - [[how-to-read-geopolitics-map]]",
+        "target_exists": true
+      },
+      {
         "slug": "downstream-river-geopolitics",
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
-        "context": "…beyond its borders. ## Related - [[hydro-geopolitics]] - ganges-contribution - [[india-energy-relationship]] - [[bangladesh-trade-route]…",
+        "context": "…rclaiming precision. ## Related - [[hydro-geopolitics]] - ganges-contribution - [[india-energy-relationship]] - [[bangladesh-trade-route]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…m-population-anchors]] - [[downstream-river-geopolitics]] - ganges-contribution - [[storage-deficit]]",
         "target_exists": true
       },
       {
@@ -3432,6 +3502,13 @@
         "title": "Layer: Downstream Impact Markers",
         "category": "data",
         "context": "…discharge]] - [[seasonal-mismatch]] - [[storage-deficit]] - ganges-contribution - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-population-anchors",
+        "title": "Layer: Downstream Population Anchors",
+        "category": "data",
+        "context": "…-origin-ocean-routes]] - [[downstream-river-geopolitics]] - ganges-contribution - [[india-energy-relationship]]",
         "target_exists": true
       },
       {
@@ -3474,6 +3551,13 @@
         "title": "Layer: Nepal-Origin Downstream Systems",
         "category": "data",
         "context": "…, or local channel complexity in the plains. ## Related - ganges-contribution - [[hydro-geopolitics]] - [[india-energy-relationship]] - […",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…eam-dependency-zones]] - [[downstream-river-geopolitics]] - ganges-contribution - [[hydro-geopolitics]]",
         "target_exists": true
       },
       {
@@ -3758,6 +3842,13 @@
         "title": "Layer: Cross-Border Links",
         "category": "data",
         "context": "…and do not claim the full India-side route. ## Related - india-energy-relationship - [[data-trade-time-series]] - [[nepal-power-trade-schemes]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-population-anchors",
+        "title": "Layer: Downstream Population Anchors",
+        "category": "data",
+        "context": "…[downstream-river-geopolitics]] - [[ganges-contribution]] - india-energy-relationship",
         "target_exists": true
       },
       {
@@ -5302,10 +5393,24 @@
         "target_exists": true
       },
       {
+        "slug": "gandak-ganges-merge",
+        "title": "Gandak-Ganges Merge",
+        "category": "concepts",
+        "context": "# Gandak-Ganges Merge This marker explains where the gandaki-basin route enters the Ganges trunk through the Narayani/Gandak d…",
+        "target_exists": true
+      },
+      {
         "slug": "hydropower-potential-categories",
         "title": "Hydropower Potential Categories",
         "category": "concepts",
         "context": "…or basins—**[[koshi-basin]]**, **[[karnali-basin]]**, and **gandaki-basin**—often cited on the order of **~94%** of national potentia…",
+        "target_exists": true
+      },
+      {
+        "slug": "north-bihar-kosi-gandak-floodplain",
+        "title": "North Bihar Kosi-Gandak Floodplain",
+        "category": "concepts",
+        "context": "…vity downstream geography. ## Related - [[koshi-basin]] - gandaki-basin - [[kosi-ganges-merge]] - [[gandak-ganges-merge]] - [[data-…",
         "target_exists": true
       },
       {
@@ -5572,6 +5677,13 @@
         "target_exists": true
       },
       {
+        "slug": "ganges-padma-transition",
+        "title": "Ganges-Padma Transition",
+        "category": "concepts",
+        "context": "…padma-meghna-delta-dependency]] - [[ganges-contribution]] - bangladesh-trade-route",
+        "target_exists": true
+      },
+      {
         "slug": "nepal-power-trade-schemes",
         "title": "Nepal Power Trade Schemes",
         "category": "concepts",
@@ -5579,10 +5691,17 @@
         "target_exists": true
       },
       {
+        "slug": "padma-meghna-delta-dependency",
+        "title": "Padma-Meghna Delta Dependency",
+        "category": "concepts",
+        "context": "…- [[padma-meghna-delta]] - [[lower-delta-bay-interface]] - bangladesh-trade-route - [[how-to-read-geopolitics-map]]",
+        "target_exists": true
+      },
+      {
         "slug": "downstream-river-geopolitics",
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
-        "context": "…- [[ganges-contribution]] - [[india-energy-relationship]] - bangladesh-trade-route - [[storage-deficit]] - [[environmental-flow-policy]]",
+        "context": "…- [[ganges-contribution]] - [[india-energy-relationship]] - bangladesh-trade-route - [[storage-deficit]] - [[environmental-flow-policy]] - [[h…",
         "target_exists": true
       },
       {
@@ -5989,6 +6108,13 @@
         "title": "Buildability",
         "category": "concepts",
         "context": "…the dam never reaches COD) and to basin-scale complexity in karnali-basin megaproject corridors. Megaprojects such as [[budhigandaki…",
+        "target_exists": true
+      },
+      {
+        "slug": "ghaghara-ganges-merge",
+        "title": "Ghaghara-Ganges Merge",
+        "category": "concepts",
+        "context": "…Merge This marker explains the downstream handoff for the karnali-basin route. Nepal's Karnali becomes the Ghaghara system downstre…",
         "target_exists": true
       },
       {
@@ -6646,7 +6772,7 @@
         "slug": "data-layer-future-regulation-scenario",
         "title": "Layer: Future Regulation Scenario",
         "category": "data",
-        "context": "…before treating a point as a site-grade location. data-storage-comparison includes Chera-1 in the tabular research workspace, but Che…",
+        "context": "…fields before treating a point as a site-grade location. data-storage-comparison includes Chera-1 in the tabular research workspace, but Che…",
         "target_exists": true
       },
       {
@@ -7294,7 +7420,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…e, basin leverage, financing, or transmission dependence. | data-layer-priority-watchlist | | Storage shortlist | 11 | Storage and storage-like proje…",
+        "context": "…e, basin leverage, financing, or transmission dependence. | data-layer-priority-watchlist | | Storage reservoirs | 11 | Storage and storage-like proj…",
         "target_exists": true
       }
     ],
@@ -7380,7 +7506,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…ghted for dry-season energy value, not just installed MW. | data-layer-storage-shortlist | | Future regulation scenario | 11 | Storage-first scenari…",
+        "context": "…ghted for dry-season energy value, not just installed MW. | data-layer-storage-shortlist | | Flow regulation | 11 | Storage-first scenario markers s…",
         "target_exists": true
       }
     ],
@@ -8585,7 +8711,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…corridors, with status and provenance visible in popups. | data-layer-transmission-connected-traced-network | | Grid hubs and substations | 39 | Named grid hubs and su…",
+        "context": "…corridors, with status and provenance visible in popups. | data-layer-transmission-connected-traced-network | | Power hubs & substations | 39 | Named grid hubs and sub…",
         "target_exists": true
       }
     ],
@@ -8609,6 +8735,13 @@
         "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
         "context": "…war Multipurpose Project A bi-national mega-project on the mahakali-basin river forming the Nepal-India border. The largest proposed…",
+        "target_exists": true
+      },
+      {
+        "slug": "mahakali-sharda-handoff",
+        "title": "Mahakali/Sharda Handoff",
+        "category": "concepts",
+        "context": "…wider downstream Ganges geography. ## Why It Matters The mahakali-basin is already politically sensitive because it is a border riv…",
         "target_exists": true
       },
       {
@@ -9592,6 +9725,407 @@
         "target_exists": true
       }
     ],
+    "data-layer-nepal-origin-ocean-routes": [
+      {
+        "slug": "bay-of-bengal-terminal",
+        "title": "Bay Of Bengal Terminal",
+        "category": "concepts",
+        "context": "…rine channels, or coastal sediment dynamics. ## Related - data-layer-nepal-origin-ocean-routes - [[padma-meghna-delta]] - [[lower-delta-bay-interface]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…itics]] - [[ganges-contribution]] - [[hydro-geopolitics]] - data-layer-nepal-origin-ocean-routes - [[data-layer-downstream-dependency-zones]]",
+        "target_exists": true
+      },
+      {
+        "slug": "mahakali-sharda-handoff",
+        "title": "Mahakali/Sharda Handoff",
+        "category": "concepts",
+        "context": "…How To Read The Marker Use it as an orientation point for data-layer-nepal-origin-ocean-routes, not as a surveyed confluence coordinate. Its job is to sho…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…ent explorer now separates that story into readable layers: data-layer-nepal-origin-ocean-routes traces Koshi, Gandaki, Karnali, and Mahakali/Sharda to the…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…meghna-delta-dependency]] - [[lower-delta-bay-interface]] - data-layer-nepal-origin-ocean-routes - [[data-layer-nepal-origin-route-callouts]] - [[data-layer…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-population-anchors",
+        "title": "Layer: Downstream Population Anchors",
+        "category": "data",
+        "context": "…litics-map]] - [[data-layer-downstream-dependency-zones]] - data-layer-nepal-origin-ocean-routes - [[downstream-river-geopolitics]] - [[ganges-contribution]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…It Represents This layer adds strategic reading points to data-layer-nepal-origin-ocean-routes. It marks where individual Nepal-linked systems enter large…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory",
+        "category": "data",
+        "context": "…rrows** to reinforce [[ganges-contribution]] beyond the new data-layer-nepal-origin-ocean-routes route traces and [[data-layer-downstream-dependency-zones]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…rough the Ganges/Padma/Meghna route to the Bay of Bengal. | data-layer-nepal-origin-ocean-routes | | Route merge / delta callouts | 7 | Merge, transition, a…",
+        "target_exists": true
+      }
+    ],
+    "padma-meghna-delta": [
+      {
+        "slug": "bay-of-bengal-terminal",
+        "title": "Bay Of Bengal Terminal",
+        "category": "concepts",
+        "context": "…. ## Related - [[data-layer-nepal-origin-ocean-routes]] - padma-meghna-delta - [[lower-delta-bay-interface]] - [[how-to-read-geopolitics…",
+        "target_exists": true
+      },
+      {
+        "slug": "ganges-padma-transition",
+        "title": "Ganges-Padma Transition",
+        "category": "concepts",
+        "context": "…Marker Use it as a hinge between the Ganges trunk and the padma-meghna-delta. It helps readers understand why the Nepal-origin route-to-…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…4. [[kosi-ganges-merge]] 5. [[ganges-padma-transition]] 6. padma-meghna-delta 7. [[bay-of-bengal-terminal]] Then read the exposure zones…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-delta-bay-interface",
+        "title": "Lower Delta And Bay Interface",
+        "category": "concepts",
+        "context": "…et, storm-surge model, or tidal channel map. ## Related - padma-meghna-delta - [[padma-meghna-delta-dependency]] - [[bay-of-bengal-termi…",
+        "target_exists": true
+      },
+      {
+        "slug": "padma-meghna-delta-dependency",
+        "title": "Padma-Meghna Delta Dependency",
+        "category": "concepts",
+        "context": "…Read The Zone Read it with [[ganges-padma-transition]] and padma-meghna-delta. The transition marker explains route naming and border geo…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…rom India Ganges framing into Bangladesh Padma framing. | | padma-meghna-delta | The river story becomes lower-delta geography. | | [[bay-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…e]] - [[kosi-ganges-merge]] - [[ganges-padma-transition]] - padma-meghna-delta - [[bay-of-bengal-terminal]] - [[data-layer-nepal-origin-oc…",
+        "target_exists": true
+      }
+    ],
+    "lower-delta-bay-interface": [
+      {
+        "slug": "bay-of-bengal-terminal",
+        "title": "Bay Of Bengal Terminal",
+        "category": "concepts",
+        "context": "…ayer-nepal-origin-ocean-routes]] - [[padma-meghna-delta]] - lower-delta-bay-interface - [[how-to-read-geopolitics-map]]",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…r-ganges-trunk-zone]] - [[padma-meghna-delta-dependency]] - lower-delta-bay-interface ## Why India And Bangladesh Marks Are Here The downstream…",
+        "target_exists": true
+      },
+      {
+        "slug": "padma-meghna-delta",
+        "title": "Padma-Meghna Delta",
+        "category": "concepts",
+        "context": "…arker Read this with [[padma-meghna-delta-dependency]] and lower-delta-bay-interface. The point shows route convergence; the zones show why the…",
+        "target_exists": true
+      },
+      {
+        "slug": "padma-meghna-delta-dependency",
+        "title": "Padma-Meghna Delta Dependency",
+        "category": "concepts",
+        "context": "…d - [[ganges-padma-transition]] - [[padma-meghna-delta]] - lower-delta-bay-interface - [[bangladesh-trade-route]] - [[how-to-read-geopolitics-ma…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…ganges-trunk-zone]], [[padma-meghna-delta-dependency]], and lower-delta-bay-interface are not claims of control. They are where population, agric…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…r-ganges-trunk-zone]] - [[padma-meghna-delta-dependency]] - lower-delta-bay-interface - [[data-layer-nepal-origin-ocean-routes]] - [[data-layer-n…",
+        "target_exists": true
+      }
+    ],
+    "how-to-read-geopolitics-map": [
+      {
+        "slug": "bay-of-bengal-terminal",
+        "title": "Bay Of Bengal Terminal",
+        "category": "concepts",
+        "context": "…- [[padma-meghna-delta]] - [[lower-delta-bay-interface]] - how-to-read-geopolitics-map",
+        "target_exists": true
+      },
+      {
+        "slug": "eastern-up-ghaghara-gandak-belt",
+        "title": "Eastern UP Ghaghara-Gandak Belt",
+        "category": "concepts",
+        "context": "…[gandak-ganges-merge]] - [[downstream-river-geopolitics]] - how-to-read-geopolitics-map",
+        "target_exists": true
+      },
+      {
+        "slug": "kosi-ganges-merge",
+        "title": "Kosi-Ganges Merge",
+        "category": "concepts",
+        "context": "…-bihar-kosi-gandak-floodplain]] - [[ganges-contribution]] - how-to-read-geopolitics-map",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-delta-bay-interface",
+        "title": "Lower Delta And Bay Interface",
+        "category": "concepts",
+        "context": "…ma-meghna-delta-dependency]] - [[bay-of-bengal-terminal]] - how-to-read-geopolitics-map",
+        "target_exists": true
+      },
+      {
+        "slug": "mahakali-sharda-handoff",
+        "title": "Mahakali/Sharda Handoff",
+        "category": "concepts",
+        "context": "…haghara-ganges-merge]] - [[downstream-river-geopolitics]] - how-to-read-geopolitics-map",
+        "target_exists": true
+      },
+      {
+        "slug": "padma-meghna-delta-dependency",
+        "title": "Padma-Meghna Delta Dependency",
+        "category": "concepts",
+        "context": "…[lower-delta-bay-interface]] - [[bangladesh-trade-route]] - how-to-read-geopolitics-map",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…cts could alter timing. For first-time reading, start with how-to-read-geopolitics-map. It explains why the map has India and Bangladesh marks, wh…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…system. For the non-technical reading sequence, start with how-to-read-geopolitics-map. For the main synthesis, use [[downstream-river-geopolitics…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-population-anchors",
+        "title": "Layer: Downstream Population Anchors",
+        "category": "data",
+        "context": "…ose city encyclopedia. The points are orientation marks for how-to-read-geopolitics-map and [[downstream-river-geopolitics]]. ## How To Read It U…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…model. For the non-technical reading sequence, start with how-to-read-geopolitics-map. ## How To Read It Use the callouts as handoff markers:…",
+        "target_exists": true
+      }
+    ],
+    "ganges-padma-transition": [
+      {
+        "slug": "bihar-ganges-trunk-zone",
+        "title": "Bihar Ganges Trunk Zone",
+        "category": "concepts",
+        "context": "…it as the bridge between the upstream route merges and the ganges-padma-transition. It is where individual Nepal-linked routes become a shared…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…ge]] 3. [[gandak-ganges-merge]] 4. [[kosi-ganges-merge]] 5. ganges-padma-transition 6. [[padma-meghna-delta]] 7. [[bay-of-bengal-terminal]] Th…",
+        "target_exists": true
+      },
+      {
+        "slug": "padma-meghna-delta",
+        "title": "Padma-Meghna Delta",
+        "category": "concepts",
+        "context": "…ronts. The marker is a route-reading device. ## Related - ganges-padma-transition - [[padma-meghna-delta-dependency]] - [[lower-delta-bay-int…",
+        "target_exists": true
+      },
+      {
+        "slug": "padma-meghna-delta-dependency",
+        "title": "Padma-Meghna Delta Dependency",
+        "category": "concepts",
+        "context": "…Padma/Meghna system. ## How To Read The Zone Read it with ganges-padma-transition and [[padma-meghna-delta]]. The transition marker explains…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…the North Bihar floodplain and enters the lower Ganges. | | ganges-padma-transition | The route shifts from India Ganges framing into Banglades…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…merge]] - [[gandak-ganges-merge]] - [[kosi-ganges-merge]] - ganges-padma-transition - [[padma-meghna-delta]] - [[bay-of-bengal-terminal]] - [[d…",
+        "target_exists": true
+      }
+    ],
+    "kosi-ganges-merge": [
+      {
+        "slug": "bihar-ganges-trunk-zone",
+        "title": "Bihar Ganges Trunk Zone",
+        "category": "concepts",
+        "context": "…river operations, or local water allocation. ## Related - kosi-ganges-merge - [[gandak-ganges-merge]] - [[ghaghara-ganges-merge]] - [[g…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…2. [[ghaghara-ganges-merge]] 3. [[gandak-ganges-merge]] 4. kosi-ganges-merge 5. [[ganges-padma-transition]] 6. [[padma-meghna-delta]] 7.…",
+        "target_exists": true
+      },
+      {
+        "slug": "north-bihar-kosi-gandak-floodplain",
+        "title": "North Bihar Kosi-Gandak Floodplain",
+        "category": "concepts",
+        "context": "…inked river systems. ## How To Read The Zone Read it with kosi-ganges-merge and [[gandak-ganges-merge]]. The zone explains exposure; th…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…| Gandaki/Narayani/Gandak reaches the Ganges corridor. | | kosi-ganges-merge | Koshi/Kosi crosses the North Bihar floodplain and enters…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…f]] - [[ghaghara-ganges-merge]] - [[gandak-ganges-merge]] - kosi-ganges-merge - [[ganges-padma-transition]] - [[padma-meghna-delta]] - [[…",
+        "target_exists": true
+      }
+    ],
+    "gandak-ganges-merge": [
+      {
+        "slug": "bihar-ganges-trunk-zone",
+        "title": "Bihar Ganges Trunk Zone",
+        "category": "concepts",
+        "context": "…al water allocation. ## Related - [[kosi-ganges-merge]] - gandak-ganges-merge - [[ghaghara-ganges-merge]] - [[ganges-padma-transition]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "eastern-up-ghaghara-gandak-belt",
+        "title": "Eastern UP Ghaghara-Gandak Belt",
+        "category": "concepts",
+        "context": "…w To Read The Zone Read it with [[ghaghara-ganges-merge]], gandak-ganges-merge, and [[data-layer-future-regulation-scenario]]. The questio…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…[[mahakali-sharda-handoff]] 2. [[ghaghara-ganges-merge]] 3. gandak-ganges-merge 4. [[kosi-ganges-merge]] 5. [[ganges-padma-transition]] 6.…",
+        "target_exists": true
+      },
+      {
+        "slug": "north-bihar-kosi-gandak-floodplain",
+        "title": "North Bihar Kosi-Gandak Floodplain",
+        "category": "concepts",
+        "context": "…ow To Read The Zone Read it with [[kosi-ganges-merge]] and gandak-ganges-merge. The zone explains exposure; the merge markers explain rout…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…arnali/Ghaghara becomes part of the Ganges trunk story. | | gandak-ganges-merge | Gandaki/Narayani/Gandak reaches the Ganges corridor. | |…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…- [[mahakali-sharda-handoff]] - [[ghaghara-ganges-merge]] - gandak-ganges-merge - [[kosi-ganges-merge]] - [[ganges-padma-transition]] - [[p…",
+        "target_exists": true
+      }
+    ],
+    "ghaghara-ganges-merge": [
+      {
+        "slug": "bihar-ganges-trunk-zone",
+        "title": "Bihar Ganges Trunk Zone",
+        "category": "concepts",
+        "context": "…elated - [[kosi-ganges-merge]] - [[gandak-ganges-merge]] - ghaghara-ganges-merge - [[ganges-padma-transition]] - [[ganges-contribution]]",
+        "target_exists": true
+      },
+      {
+        "slug": "eastern-up-ghaghara-gandak-belt",
+        "title": "Eastern UP Ghaghara-Gandak Belt",
+        "category": "concepts",
+        "context": "…water-control area. ## How To Read The Zone Read it with ghaghara-ganges-merge, [[gandak-ganges-merge]], and [[data-layer-future-regulatio…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…follow the route notes: 1. [[mahakali-sharda-handoff]] 2. ghaghara-ganges-merge 3. [[gandak-ganges-merge]] 4. [[kosi-ganges-merge]] 5. [[ga…",
+        "target_exists": true
+      },
+      {
+        "slug": "mahakali-sharda-handoff",
+        "title": "Mahakali/Sharda Handoff",
+        "category": "concepts",
+        "context": "…xact flow contribution. ## Related - [[mahakali-basin]] - ghaghara-ganges-merge - [[downstream-river-geopolitics]] - [[how-to-read-geopolit…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…r route enters the wider Sharda-Ghaghara-Ganges system. | | ghaghara-ganges-merge | Karnali/Ghaghara becomes part of the Ganges trunk story.…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…w-to-read-geopolitics-map]] - [[mahakali-sharda-handoff]] - ghaghara-ganges-merge - [[gandak-ganges-merge]] - [[kosi-ganges-merge]] - [[gange…",
+        "target_exists": true
+      }
+    ],
     "data-industrial-electricity-consumers": [
       {
         "slug": "consumption-trajectory-outlook",
@@ -9814,6 +10348,122 @@
         "target_exists": true
       }
     ],
+    "data-layer-future-regulation-scenario": [
+      {
+        "slug": "eastern-up-ghaghara-gandak-belt",
+        "title": "Eastern UP Ghaghara-Gandak Belt",
+        "category": "concepts",
+        "context": "…ith [[ghaghara-ganges-merge]], [[gandak-ganges-merge]], and data-layer-future-regulation-scenario. The question is how future upstream storage and river timi…",
+        "target_exists": true
+      },
+      {
+        "slug": "ghaghara-ganges-merge",
+        "title": "Ghaghara-Ganges Merge",
+        "category": "concepts",
+        "context": "…n-up-ghaghara-gandak-belt]] - [[bihar-ganges-trunk-zone]] - data-layer-future-regulation-scenario",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…iability of dry-season releases. That is why the map keeps data-layer-future-regulation-scenario visible with the downstream layers. The political value of…",
+        "target_exists": true
+      },
+      {
+        "slug": "north-bihar-kosi-gandak-floodplain",
+        "title": "North Bihar Kosi-Gandak Floodplain",
+        "category": "concepts",
+        "context": "…basin]] - [[kosi-ganges-merge]] - [[gandak-ganges-merge]] - data-layer-future-regulation-scenario",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…eam-population-anchors]] places city and delta context; and data-layer-future-regulation-scenario asks which storage projects could alter timing. For first-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory",
+        "category": "data",
+        "context": "…torage]] - **Future regulation scenario** is now exposed as data-layer-future-regulation-scenario, using mapped storage candidates as a strategic timing laye…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ter timing, downstream sensitivity, and cooperation risk. | data-layer-future-regulation-scenario | | Top 10 largest | 10 | Largest hydropower projects in th…",
+        "target_exists": true
+      }
+    ],
+    "downstream-river-geopolitics": [
+      {
+        "slug": "eastern-up-ghaghara-gandak-belt",
+        "title": "Eastern UP Ghaghara-Gandak Belt",
+        "category": "concepts",
+        "context": "…ed - [[ghaghara-ganges-merge]] - [[gandak-ganges-merge]] - downstream-river-geopolitics - [[how-to-read-geopolitics-map]]",
+        "target_exists": true
+      },
+      {
+        "slug": "gandak-ganges-merge",
+        "title": "Gandak-Ganges Merge",
+        "category": "concepts",
+        "context": "…ar-kosi-gandak-floodplain]] - [[bihar-ganges-trunk-zone]] - downstream-river-geopolitics",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…can matter politically. ## How To Click Around Start with downstream-river-geopolitics. Then follow the route notes: 1. [[mahakali-sharda-handoff…",
+        "target_exists": true
+      },
+      {
+        "slug": "mahakali-sharda-handoff",
+        "title": "Mahakali/Sharda Handoff",
+        "category": "concepts",
+        "context": "…Related - [[mahakali-basin]] - [[ghaghara-ganges-merge]] - downstream-river-geopolitics - [[how-to-read-geopolitics-map]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…[how-to-read-geopolitics-map]]. For the main synthesis, use downstream-river-geopolitics. The five v1 zones are: | Zone | Main read | |------|----…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-population-anchors",
+        "title": "Layer: Downstream Population Anchors",
+        "category": "data",
+        "context": "…e orientation marks for [[how-to-read-geopolitics-map]] and downstream-river-geopolitics. ## How To Read It Use the points to locate the human geo…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "….csv) - storage and dry-energy source table. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[stora…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…ean-routes]] - [[data-layer-downstream-dependency-zones]] - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "Layer: Nepal-Origin Routes To Ocean",
+        "category": "data",
+        "context": "…_ocean_route_report.json) - route QA report. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[data-…",
+        "target_exists": true
+      }
+    ],
     "claim-domestic-led-strategy": [
       {
         "slug": "energy-substitution-pathway",
@@ -9830,6 +10480,80 @@
         "target_exists": true
       }
     ],
+    "north-bihar-kosi-gandak-floodplain": [
+      {
+        "slug": "gandak-ganges-merge",
+        "title": "Gandak-Ganges Merge",
+        "category": "concepts",
+        "context": "…local water allocation. ## Related - [[gandaki-basin]] - north-bihar-kosi-gandak-floodplain - [[bihar-ganges-trunk-zone]] - [[downstream-river-geopolit…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…he exposure zones: - [[eastern-up-ghaghara-gandak-belt]] - north-bihar-kosi-gandak-floodplain - [[bihar-ganges-trunk-zone]] - [[padma-meghna-delta-depend…",
+        "target_exists": true
+      },
+      {
+        "slug": "kosi-ganges-merge",
+        "title": "Kosi-Ganges Merge",
+        "category": "concepts",
+        "context": "…r Ganges. ## How To Read The Marker Read it together with north-bihar-kosi-gandak-floodplain. The merge point is the route handoff; the floodplain zone…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…those handoffs matter: [[eastern-up-ghaghara-gandak-belt]], north-bihar-kosi-gandak-floodplain, [[bihar-ganges-trunk-zone]], [[padma-meghna-delta-dependen…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…d-geopolitics-map]] - [[eastern-up-ghaghara-gandak-belt]] - north-bihar-kosi-gandak-floodplain - [[bihar-ganges-trunk-zone]] - [[padma-meghna-delta-depend…",
+        "target_exists": true
+      }
+    ],
+    "bihar-ganges-trunk-zone": [
+      {
+        "slug": "gandak-ganges-merge",
+        "title": "Gandak-Ganges Merge",
+        "category": "concepts",
+        "context": "…[gandaki-basin]] - [[north-bihar-kosi-gandak-floodplain]] - bihar-ganges-trunk-zone - [[downstream-river-geopolitics]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ghaghara-ganges-merge",
+        "title": "Ghaghara-Ganges Merge",
+        "category": "concepts",
+        "context": "…- [[karnali-basin]] - [[eastern-up-ghaghara-gandak-belt]] - bihar-ganges-trunk-zone - [[data-layer-future-regulation-scenario]]",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…ra-gandak-belt]] - [[north-bihar-kosi-gandak-floodplain]] - bihar-ganges-trunk-zone - [[padma-meghna-delta-dependency]] - [[lower-delta-bay-int…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…hara-gandak-belt]], [[north-bihar-kosi-gandak-floodplain]], bihar-ganges-trunk-zone, [[padma-meghna-delta-dependency]], and [[lower-delta-bay-i…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…ra-gandak-belt]] - [[north-bihar-kosi-gandak-floodplain]] - bihar-ganges-trunk-zone - [[padma-meghna-delta-dependency]] - [[lower-delta-bay-int…",
+        "target_exists": true
+      }
+    ],
     "national-water-plan-nepal": [
       {
         "slug": "ganges-contribution",
@@ -9839,12 +10563,197 @@
         "target_exists": true
       }
     ],
+    "padma-meghna-delta-dependency": [
+      {
+        "slug": "ganges-padma-transition",
+        "title": "Ganges-Padma Transition",
+        "category": "concepts",
+        "context": "…tributary behavior. ## Related - [[padma-meghna-delta]] - padma-meghna-delta-dependency - [[ganges-contribution]] - [[bangladesh-trade-route]]",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…ar-kosi-gandak-floodplain]] - [[bihar-ganges-trunk-zone]] - padma-meghna-delta-dependency - [[lower-delta-bay-interface]] ## Why India And Banglades…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-delta-bay-interface",
+        "title": "Lower Delta And Bay Interface",
+        "category": "concepts",
+        "context": "…far outside Nepal. ## How To Read The Zone Read it after padma-meghna-delta-dependency and before [[bay-of-bengal-terminal]]. The route reaches th…",
+        "target_exists": true
+      },
+      {
+        "slug": "padma-meghna-delta",
+        "title": "Padma-Meghna Delta",
+        "category": "concepts",
+        "context": "…ng conversation. ## How To Read The Marker Read this with padma-meghna-delta-dependency and [[lower-delta-bay-interface]]. The point shows route co…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…ihar-kosi-gandak-floodplain]], [[bihar-ganges-trunk-zone]], padma-meghna-delta-dependency, and [[lower-delta-bay-interface]] are not claims of contro…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…ar-kosi-gandak-floodplain]] - [[bihar-ganges-trunk-zone]] - padma-meghna-delta-dependency - [[lower-delta-bay-interface]] - [[data-layer-nepal-origin…",
+        "target_exists": true
+      }
+    ],
+    "mahakali-sharda-handoff": [
+      {
+        "slug": "ghaghara-ganges-merge",
+        "title": "Ghaghara-Ganges Merge",
+        "category": "concepts",
+        "context": "…Read The Marker The marker connects [[karnali-basin]] and mahakali-sharda-handoff to the shared Ganges trunk. It is a map-reading handoff, no…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…tream-river-geopolitics]]. Then follow the route notes: 1. mahakali-sharda-handoff 2. [[ghaghara-ganges-merge]] 3. [[gandak-ganges-merge]] 4.…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…| Step | What It Explains | |------|------------------| | mahakali-sharda-handoff | The far-western border-river route enters the wider Shard…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…port.json) ## Related - [[how-to-read-geopolitics-map]] - mahakali-sharda-handoff - [[ghaghara-ganges-merge]] - [[gandak-ganges-merge]] - [[k…",
+        "target_exists": true
+      }
+    ],
+    "eastern-up-ghaghara-gandak-belt": [
+      {
+        "slug": "ghaghara-ganges-merge",
+        "title": "Ghaghara-Ganges Merge",
+        "category": "concepts",
+        "context": "…eam political geography. ## Related - [[karnali-basin]] - eastern-up-ghaghara-gandak-belt - [[bihar-ganges-trunk-zone]] - [[data-layer-future-regulat…",
+        "target_exists": true
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…[bay-of-bengal-terminal]] Then read the exposure zones: - eastern-up-ghaghara-gandak-belt - [[north-bihar-kosi-gandak-floodplain]] - [[bihar-ganges-t…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…The dependency zones add the reason those handoffs matter: eastern-up-ghaghara-gandak-belt, [[north-bihar-kosi-gandak-floodplain]], [[bihar-ganges-tru…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…port.json) ## Related - [[how-to-read-geopolitics-map]] - eastern-up-ghaghara-gandak-belt - [[north-bihar-kosi-gandak-floodplain]] - [[bihar-ganges-t…",
+        "target_exists": true
+      }
+    ],
     "green-hydrogen-roadmap-nepal": [
       {
         "slug": "green-hydrogen-nepal",
         "title": "Green Hydrogen Nepal",
         "category": "concepts",
         "context": "…solved. Detailed citations and program structure belong in green-hydrogen-roadmap-nepal.",
+        "target_exists": true
+      }
+    ],
+    "bay-of-bengal-terminal": [
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…5. [[ganges-padma-transition]] 6. [[padma-meghna-delta]] 7. bay-of-bengal-terminal Then read the exposure zones: - [[eastern-up-ghaghara-gan…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-delta-bay-interface",
+        "title": "Lower Delta And Bay Interface",
+        "category": "concepts",
+        "context": "…Read it after [[padma-meghna-delta-dependency]] and before bay-of-bengal-terminal. The route reaches the ocean; the dependency zone explains…",
+        "target_exists": true
+      },
+      {
+        "slug": "padma-meghna-delta",
+        "title": "Padma-Meghna Delta",
+        "category": "concepts",
+        "context": "…meghna-delta-dependency]] - [[lower-delta-bay-interface]] - bay-of-bengal-terminal",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…elta]] | The river story becomes lower-delta geography. | | bay-of-bengal-terminal | The strategic route trace reaches the ocean endpoint. |…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…]] - [[ganges-padma-transition]] - [[padma-meghna-delta]] - bay-of-bengal-terminal - [[data-layer-nepal-origin-ocean-routes]] - [[data-layer-d…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-downstream-dependency-zones": [
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map",
+        "category": "concepts",
+        "context": "…-geopolitics]] - [[data-layer-nepal-origin-ocean-routes]] - data-layer-downstream-dependency-zones",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…rigin-route-callouts]] marks the major downstream handoffs; data-layer-downstream-dependency-zones shows broad exposure zones; [[data-layer-downstream-populat…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-population-anchors",
+        "title": "Layer: Downstream Population Anchors",
+        "category": "data",
+        "context": "…port.json) ## Related - [[how-to-read-geopolitics-map]] - data-layer-downstream-dependency-zones - [[data-layer-nepal-origin-ocean-routes]] - [[downstream-r…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts",
+        "category": "data",
+        "context": "…gal-terminal]] - [[data-layer-nepal-origin-ocean-routes]] - data-layer-downstream-dependency-zones - [[downstream-river-geopolitics]] - [[ganges-contribution]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory",
+        "category": "data",
+        "context": "…w [[data-layer-nepal-origin-ocean-routes]] route traces and data-layer-downstream-dependency-zones. - **Solar system preset** tying [[data-nepal-solar-resourc…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…floods, dry-season flow, sediment, and delta sensitivity. | data-layer-downstream-dependency-zones | | Downstream population anchors | 10 | City and delta anc…",
         "target_exists": true
       }
     ],
@@ -10054,6 +10963,52 @@
         "title": "Layer: Hydropower - Survey/Study",
         "category": "data",
         "context": "…[[hydropower-potential-categories]] - [[project-roadmap]] - claim-systems-conversion-failure - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      }
+    ],
+    "data-layer-nepal-origin-route-callouts": [
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…Gandaki, Karnali, and Mahakali/Sharda to the Bay of Bengal; data-layer-nepal-origin-route-callouts marks the major downstream handoffs; [[data-layer-downstrea…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…ay-interface]] - [[data-layer-nepal-origin-ocean-routes]] - data-layer-nepal-origin-route-callouts - [[data-layer-downstream-population-anchors]] - [[downstre…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…hat make the Nepal-origin route-to-ocean traces readable. | data-layer-nepal-origin-route-callouts | | Downstream dependency zones | 5 | Strategic downstream…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-downstream-population-anchors": [
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…r-downstream-dependency-zones]] shows broad exposure zones; data-layer-downstream-population-anchors places city and delta context; and [[data-layer-future-regu…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones",
+        "category": "data",
+        "context": "…ean-routes]] - [[data-layer-nepal-origin-route-callouts]] - data-layer-downstream-population-anchors - [[downstream-river-geopolitics]] - [[ganges-contribution]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…opulation geography along Nepal-linked downstream routes. | data-layer-downstream-population-anchors | | India comparison rivers | 11 | Reference rivers outside…",
         "target_exists": true
       }
     ],
@@ -10390,22 +11345,6 @@
         "target_exists": true
       }
     ],
-    "downstream-river-geopolitics": [
-      {
-        "slug": "data-layer-future-regulation-scenario",
-        "title": "Layer: Future Regulation Scenario",
-        "category": "data",
-        "context": "….csv) - storage and dry-energy source table. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[stora…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-nepal-origin-ocean-routes",
-        "title": "Layer: Nepal-Origin Routes To Ocean",
-        "category": "data",
-        "context": "…_ocean_route_report.json) - route QA report. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[data-…",
-        "target_exists": true
-      }
-    ],
     "project-roadmap": [
       {
         "slug": "data-layer-transmission-trace-gaps-qa",
@@ -10455,7 +11394,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…o show where upstream control becomes regional influence. | data-layer-nepal-origin-downstream-systems | | Nepal-origin routes to ocean | 4 | HydroRIVERS downstre…",
+        "context": "…o show where upstream control becomes regional influence. | data-layer-nepal-origin-downstream-systems | | Ocean route | 4 | HydroRIVERS downstream traces continu…",
         "target_exists": true
       }
     ],
@@ -10471,7 +11410,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…unoff, monsoon share, and impact notes for major systems. | data-layer-downstream-impact-markers | | Origin / control callouts | 8 | Interpretive callouts f…",
+        "context": "…unoff, monsoon share, and impact notes for major systems. | data-layer-downstream-impact-markers | | River influence | 8 | Interpretive callouts for origin,…",
         "target_exists": true
       }
     ],
@@ -10516,38 +11455,6 @@
         "target_exists": true
       }
     ],
-    "data-layer-future-regulation-scenario": [
-      {
-        "slug": "data-map-inventory",
-        "title": "Map Inventory",
-        "category": "data",
-        "context": "…torage]] - **Future regulation scenario** is now exposed as data-layer-future-regulation-scenario, using mapped storage candidates as a strategic timing laye…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…ter timing, downstream sensitivity, and cooperation risk. | data-layer-future-regulation-scenario | | Top-10 capacity projects | 10 | Largest hydropower proj…",
-        "target_exists": true
-      }
-    ],
-    "data-layer-nepal-origin-ocean-routes": [
-      {
-        "slug": "data-map-inventory",
-        "title": "Map Inventory",
-        "category": "data",
-        "context": "…rrows** to reinforce [[ganges-contribution]] beyond the new data-layer-nepal-origin-ocean-routes route traces. - **Solar system preset** tying [[data-nepal-…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…rough the Ganges/Padma/Meghna route to the Bay of Bengal. | data-layer-nepal-origin-ocean-routes | | India comparison rivers | 11 | Reference rivers outside…",
-        "target_exists": true
-      }
-    ],
     "data-layer-carto-positron": [
       {
         "slug": "data-map-layer-labels",
@@ -10580,7 +11487,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…eam basin polygons, with Nepal share and monsoon context. | data-layer-nepal-linked-basin-polygons | | India comparison basins | 4 | Comparison basins outside…",
+        "context": "…eam basin polygons, with Nepal share and monsoon context. | data-layer-nepal-linked-basin-polygons | | India basins | 4 | Comparison basins outside Nepal-orig…",
         "target_exists": true
       }
     ],
@@ -10589,7 +11496,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…ol, included to keep Nepal-origin leverage in proportion. | data-layer-india-comparison-basins | | Nepal tributaries (HydroRIVERS) | 22 | HydroRIVERS-deri…",
+        "context": "…ol, included to keep Nepal-origin leverage in proportion. | data-layer-india-comparison-basins | | Nepal rivers | 22 | HydroRIVERS-derived Nepal tributari…",
         "target_exists": true
       }
     ],
@@ -10598,7 +11505,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…nd basin story, including WECS potential where available. | data-layer-nepal-tributaries | | Nepal-origin downstream systems | 4 | Main Nepal-origin…",
+        "context": "…nd basin story, including WECS potential where available. | data-layer-nepal-tributaries | | Downstream rivers | 4 | Main Nepal-origin systems trace…",
         "target_exists": true
       }
     ],
@@ -10607,7 +11514,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…not overstate Nepal's share of northern India hydrology. | data-layer-india-comparison-rivers | | Downstream impact markers | 4 | Point markers carrying…",
+        "context": "…not overstate Nepal's share of northern India hydrology. | data-layer-india-comparison-rivers | | Flow measurements | 4 | Point markers carrying discharg…",
         "target_exists": true
       }
     ],
@@ -10616,7 +11523,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…al share, and downstream identity across the basin stack. | data-layer-origin-control-callouts | | Basin seasonality | 8 | Basin annotations focused on mo…",
+        "context": "…al share, and downstream identity across the basin stack. | data-layer-origin-control-callouts | | Wet/dry season flow | 8 | Basin annotations focused on…",
         "target_exists": true
       }
     ],
@@ -10625,7 +11532,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…a scales by capacity, and wiki counts show page coverage. | data-layer-hydropower-operating | | Hydropower - Construction | 180 | Generation/constructi…",
+        "context": "…a scales by capacity, and wiki counts show page coverage. | data-layer-hydropower-operating | | Hydro — building | 180 | Generation/construction-licens…",
         "target_exists": true
       }
     ],
@@ -10634,7 +11541,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…m capacity pressure on basins and transmission corridors. | data-layer-hydropower-construction | | Hydropower - Survey/study | 311 | Survey-stage hydropow…",
+        "context": "…m capacity pressure on basins and transmission corridors. | data-layer-hydropower-construction | | Hydro — planned | 311 | Survey-stage hydropower license…",
         "target_exists": true
       }
     ],
@@ -10643,7 +11550,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…wer licenses: early pipeline signals, not built capacity. | data-layer-hydropower-survey-study | | Priority watchlist | 12 | Curated strategically importa…",
+        "context": "…wer licenses: early pipeline signals, not built capacity. | data-layer-hydropower-survey-study | | Priority projects | 12 | Curated strategically importan…",
         "target_exists": true
       }
     ],
@@ -10652,7 +11559,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…and substation/place anchors used to orient the network. | data-layer-grid-hubs-place-anchors | | Cross-border links | 10 | Conservative line/stub geomet…",
+        "context": "…and substation/place anchors used to orient the network. | data-layer-grid-hubs-place-anchors | | Cross-border lines | 10 | Conservative line/stub geomet…",
         "target_exists": true
       }
     ],
@@ -10661,7 +11568,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…on, implementation-stage, and planned cross-border links. | data-layer-cross-border-interconnection-lines | | Cross-border gateways | 10 | Nepal-side gateway points…",
+        "context": "…on, implementation-stage, and planned cross-border links. | data-layer-cross-border-interconnection-lines | | International gateways | 10 | Nepal-side gateway points…",
         "target_exists": true
       }
     ],
@@ -10670,7 +11577,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…border interconnections with status and timeline context. | data-layer-cross-border-interconnections | | Context · corridor sketch | 7 | Simplified substation s…",
+        "context": "…border interconnections with status and timeline context. | data-layer-cross-border-interconnections | | Corridor sketch | 7 | Simplified substation sketch for…",
         "target_exists": true
       }
     ],
@@ -10688,7 +11595,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…e are strategic zones, not parcel-level siting decisions. | data-layer-solar-ghi-zones | | Solar plants + NEA 960 MW awards | 89 | Operating solar…",
+        "context": "…e are strategic zones, not parcel-level siting decisions. | data-layer-solar-ghi-zones | | Solar plants | 89 | Operating solar plants plus NEA 960…",
         "target_exists": true
       }
     ],
@@ -10697,7 +11604,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…rd anchors, with approximate-location flags where needed. | data-layer-solar-plants-nea-awards | | Solar strategic suitability | 6 | Strategic suitability…",
+        "context": "…rd anchors, with approximate-location flags where needed. | data-layer-solar-plants-nea-awards | | Best solar locations | 6 | Strategic suitability bands…",
         "target_exists": true
       }
     ],
@@ -10706,7 +11613,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…ity bands combining resource value with constraint notes. | data-layer-solar-strategic-suitability | | Floating PV candidates | 5 | Reservoir or future-reserv…",
+        "context": "…ity bands combining resource value with constraint notes. | data-layer-solar-strategic-suitability | | Floating solar | 5 | Reservoir or future-reservoir floa…",
         "target_exists": true
       }
     ],
@@ -10724,7 +11631,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…n these on when geography matters more than raw features. | data-layer-map-text-labels | | Transmission labels | text overlay | Permanent corridor…",
+        "context": "…n these on when geography matters more than raw features. | data-layer-map-text-labels | | Grid line labels | text overlay | Permanent corridor la…",
         "target_exists": true
       }
     ],

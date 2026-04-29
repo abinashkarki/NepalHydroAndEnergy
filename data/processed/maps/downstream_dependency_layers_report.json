@@ -1,0 +1,12 @@
+{
+  "route_callout_count": 7,
+  "dependency_zone_count": 5,
+  "population_anchor_count": 10,
+  "scope": "strategic_dependency_context",
+  "precision_note": "Curated v1 overlays for route legibility and downstream exposure; not hydrodynamic modeling.",
+  "outputs": [
+    "data/processed/maps/nepal_origin_route_callouts.geojson",
+    "data/processed/maps/downstream_dependency_zones.geojson",
+    "data/processed/maps/downstream_population_anchors.geojson"
+  ]
+}

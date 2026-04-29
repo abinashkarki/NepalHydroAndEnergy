@@ -351,6 +351,9 @@
             "tributaries",
             "downstream_systems",
             "ocean_routes",
+            "route_callouts",
+            "dependency_zones",
+            "population_anchors",
             "india_rivers",
             "basin_polygons",
             "india_basins",
@@ -359,13 +362,14 @@
             "future_regulation_scenario"
           ],
           "mode_copy": {
-            "short": "Nepal's upstream rivers matter downstream through timing, dry-season flow, flood risk, and storage choices.",
-            "deep": "Differentiate real leverage from overstated narratives using basin routing, contribution, and downstream dependence.",
-            "expansive": "Add future storage-buildout scenarios under climate stress and regional water politics."
+            "short": "Nepal's upstream rivers can now be followed through downstream dependency zones to the Bay of Bengal.",
+            "deep": "Differentiate real leverage from overstated narratives using basin routing, merge points, population anchors, and downstream exposure.",
+            "expansive": "Add future storage-buildout scenarios against floodplain, dry-season, sediment, and delta sensitivity."
           },
           "evidence": {
             "metrics": [
               "Nepal-linked rivers are widely cited as a large share of Ganges dry-season flow",
+              "The route-to-ocean layer traces Koshi, Gandaki, Karnali, and Mahakali into the Ganges/Padma/Meghna system",
               "Leverage depends on storage, institutions, treaties, and credible downstream cooperation"
             ],
             "sources": [

@@ -1,0 +1,320 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eastern_up_ghaghara_gandak_belt",
+        "name": "Eastern Uttar Pradesh Ghaghara-Gandak belt",
+        "country": "India",
+        "dependency_type": "agriculture_population_floodplain",
+        "related_origin_routes": [
+          "karnali_ocean_route",
+          "mahakali_ocean_route",
+          "gandaki_ocean_route"
+        ],
+        "river_systems": [
+          "Ghaghara",
+          "Gandak",
+          "Ganges"
+        ],
+        "population_pressure": "high",
+        "agriculture_importance": "high",
+        "dry_season_sensitivity": "medium",
+        "flood_sensitivity": "high",
+        "sediment_sensitivity": "medium",
+        "delta_sensitivity": "low",
+        "strategic_read": "Dense agricultural plains tied to the western and central Nepal-linked downstream routes.",
+        "confidence": "medium",
+        "geometry_basis": "Curated broad dependency polygon around major downstream river corridors.",
+        "theme": "downstream_dependency_zone",
+        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.3,
+              28.2
+            ],
+            [
+              84.7,
+              27.65
+            ],
+            [
+              84.9,
+              25.55
+            ],
+            [
+              82.3,
+              25.05
+            ],
+            [
+              80.0,
+              26.0
+            ],
+            [
+              80.3,
+              28.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "north_bihar_kosi_gandak_floodplain",
+        "name": "North Bihar Kosi-Gandak floodplain",
+        "country": "India",
+        "dependency_type": "floodplain_agriculture_population",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route"
+        ],
+        "river_systems": [
+          "Kosi",
+          "Gandak",
+          "Ganges"
+        ],
+        "population_pressure": "very_high",
+        "agriculture_importance": "very_high",
+        "dry_season_sensitivity": "medium_high",
+        "flood_sensitivity": "very_high",
+        "sediment_sensitivity": "high",
+        "delta_sensitivity": "low",
+        "strategic_read": "One of the clearest downstream exposure zones for Nepal-origin river timing, floods, sediment, and dry-season support.",
+        "confidence": "medium",
+        "geometry_basis": "Curated broad dependency polygon around Kosi-Gandak floodplain geography.",
+        "theme": "downstream_dependency_zone",
+        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.1,
+              26.85
+            ],
+            [
+              88.75,
+              26.65
+            ],
+            [
+              88.8,
+              25.05
+            ],
+            [
+              86.7,
+              24.75
+            ],
+            [
+              84.25,
+              25.15
+            ],
+            [
+              83.75,
+              26.1
+            ],
+            [
+              84.1,
+              26.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bihar_ganges_trunk_zone",
+        "name": "Bihar Ganges trunk zone",
+        "country": "India",
+        "dependency_type": "shared_trunk_population_agriculture",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "river_systems": [
+          "Ganges",
+          "Kosi",
+          "Gandak",
+          "Ghaghara"
+        ],
+        "population_pressure": "very_high",
+        "agriculture_importance": "high",
+        "dry_season_sensitivity": "high",
+        "flood_sensitivity": "high",
+        "sediment_sensitivity": "medium_high",
+        "delta_sensitivity": "low",
+        "strategic_read": "Shared Ganges corridor where separate Nepal-linked routes become a common downstream political geography.",
+        "confidence": "medium",
+        "geometry_basis": "Curated broad dependency polygon around the lower Bihar Ganges corridor.",
+        "theme": "downstream_dependency_zone",
+        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8,
+              25.85
+            ],
+            [
+              88.35,
+              25.55
+            ],
+            [
+              88.55,
+              24.45
+            ],
+            [
+              85.7,
+              24.1
+            ],
+            [
+              83.7,
+              24.65
+            ],
+            [
+              83.8,
+              25.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "padma_meghna_delta_dependency",
+        "name": "Padma-Meghna delta dependency zone",
+        "country": "Bangladesh",
+        "dependency_type": "delta_population_agriculture_floodplain",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "river_systems": [
+          "Padma",
+          "Meghna",
+          "Lower Ganges"
+        ],
+        "population_pressure": "very_high",
+        "agriculture_importance": "very_high",
+        "dry_season_sensitivity": "high",
+        "flood_sensitivity": "very_high",
+        "sediment_sensitivity": "high",
+        "delta_sensitivity": "very_high",
+        "strategic_read": "Lower delta zone where upstream timing, flood pulses, sediment, and dry-season availability become Bangladesh-scale concerns.",
+        "confidence": "medium",
+        "geometry_basis": "Curated broad dependency polygon around Padma-Meghna delta geography.",
+        "theme": "downstream_dependency_zone",
+        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.05,
+              24.85
+            ],
+            [
+              92.15,
+              24.55
+            ],
+            [
+              92.15,
+              22.2
+            ],
+            [
+              90.85,
+              21.75
+            ],
+            [
+              88.65,
+              22.0
+            ],
+            [
+              87.95,
+              23.3
+            ],
+            [
+              88.05,
+              24.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lower_delta_bay_interface",
+        "name": "Lower delta and Bay interface",
+        "country": "Bangladesh/India",
+        "dependency_type": "coastal_delta_sediment_salinity",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "river_systems": [
+          "Lower Padma-Meghna",
+          "Bay of Bengal"
+        ],
+        "population_pressure": "high",
+        "agriculture_importance": "high",
+        "dry_season_sensitivity": "high",
+        "flood_sensitivity": "high",
+        "sediment_sensitivity": "very_high",
+        "delta_sensitivity": "very_high",
+        "strategic_read": "Coastal interface where river timing, sediment, salinity, storm surge exposure, and delta stability meet.",
+        "confidence": "low_medium",
+        "geometry_basis": "Curated broad coastal-delta context polygon; not a distributary or salinity model.",
+        "theme": "downstream_dependency_zone",
+        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.35,
+              22.75
+            ],
+            [
+              91.9,
+              22.55
+            ],
+            [
+              91.6,
+              20.8
+            ],
+            [
+              89.2,
+              20.7
+            ],
+            [
+              88.35,
+              21.6
+            ],
+            [
+              88.35,
+              22.75
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

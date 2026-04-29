@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "varanasi",
+        "theme": "downstream_population_anchor",
+        "name": "Varanasi",
+        "country": "India",
+        "anchor_type": "city",
+        "nearby_river_system": "Ganges",
+        "related_origin_routes": [
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "population_class": "major_city",
+        "dependency_note": "Ganges trunk anchor upstream of the Bihar convergence zone.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9739,
+          25.3176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gorakhpur",
+        "theme": "downstream_population_anchor",
+        "name": "Gorakhpur",
+        "country": "India",
+        "anchor_type": "city",
+        "nearby_river_system": "Rapti-Ghaghara",
+        "related_origin_routes": [
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "population_class": "major_city",
+        "dependency_note": "Eastern Uttar Pradesh anchor near the Ghaghara/Rapti plains.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3732,
+          26.7606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "patna",
+        "theme": "downstream_population_anchor",
+        "name": "Patna",
+        "country": "India",
+        "anchor_type": "city",
+        "nearby_river_system": "Ganges-Gandak",
+        "related_origin_routes": [
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "population_class": "metro_region",
+        "dependency_note": "Bihar Ganges anchor near Gandak and downstream trunk convergence.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1376,
+          25.5941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "muzaffarpur",
+        "theme": "downstream_population_anchor",
+        "name": "Muzaffarpur",
+        "country": "India",
+        "anchor_type": "city",
+        "nearby_river_system": "Gandak-Bagmati-Kosi plains",
+        "related_origin_routes": [
+          "gandaki_ocean_route",
+          "koshi_ocean_route"
+        ],
+        "population_class": "major_city",
+        "dependency_note": "North Bihar floodplain anchor between Gandak and Kosi influence zones.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.391,
+          26.1209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "purnia",
+        "theme": "downstream_population_anchor",
+        "name": "Purnia",
+        "country": "India",
+        "anchor_type": "city",
+        "nearby_river_system": "Kosi-Mahananda plains",
+        "related_origin_routes": [
+          "koshi_ocean_route"
+        ],
+        "population_class": "major_city",
+        "dependency_note": "Eastern Bihar anchor near the Kosi downstream corridor.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4753,
+          25.7771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bhagalpur",
+        "theme": "downstream_population_anchor",
+        "name": "Bhagalpur",
+        "country": "India",
+        "anchor_type": "city",
+        "nearby_river_system": "Ganges-Kosi trunk",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "population_class": "major_city",
+        "dependency_note": "Lower Bihar Ganges anchor downstream of the main Nepal-linked merges.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.9842,
+          25.2425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rajshahi",
+        "theme": "downstream_population_anchor",
+        "name": "Rajshahi",
+        "country": "Bangladesh",
+        "anchor_type": "city",
+        "nearby_river_system": "Padma",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "population_class": "major_city",
+        "dependency_note": "Bangladesh Padma anchor after the Ganges-Padma transition.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.6042,
+          24.3745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dhaka",
+        "theme": "downstream_population_anchor",
+        "name": "Dhaka",
+        "country": "Bangladesh",
+        "anchor_type": "metro",
+        "nearby_river_system": "Padma-Meghna delta",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "population_class": "megacity",
+        "dependency_note": "Delta megacity context for downstream flood and dry-season sensitivity.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.4125,
+          23.8103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "khulna",
+        "theme": "downstream_population_anchor",
+        "name": "Khulna",
+        "country": "Bangladesh",
+        "anchor_type": "city",
+        "nearby_river_system": "Lower delta",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "population_class": "major_city",
+        "dependency_note": "Lower delta anchor near coastal sediment and salinity concerns.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.5403,
+          22.8456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chandpur",
+        "theme": "downstream_population_anchor",
+        "name": "Chandpur",
+        "country": "Bangladesh",
+        "anchor_type": "river_port",
+        "nearby_river_system": "Padma-Meghna",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "population_class": "delta_anchor",
+        "dependency_note": "Delta merge anchor near the generated ocean-route terminal reach.",
+        "floodplain_context": "Strategic downstream context marker; city point does not imply direct attribution of total water supply to Nepal-origin rivers.",
+        "confidence": "medium",
+        "source_note": "Curated city/river-context anchor for explorer readability."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.645,
+          23.233
+        ]
+      }
+    }
+  ]
+}

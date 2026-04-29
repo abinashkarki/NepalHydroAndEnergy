@@ -754,6 +754,14 @@
         "title": "Agrivoltaics and Land"
       },
       {
+        "slug": "bay-of-bengal-terminal",
+        "title": "Bay Of Bengal Terminal"
+      },
+      {
+        "slug": "bihar-ganges-trunk-zone",
+        "title": "Bihar Ganges Trunk Zone"
+      },
+      {
         "slug": "buildability",
         "title": "Buildability"
       },
@@ -764,6 +772,10 @@
       {
         "slug": "domestic-led-hydro-strategy",
         "title": "Domestic-Led Hydro Strategy"
+      },
+      {
+        "slug": "eastern-up-ghaghara-gandak-belt",
+        "title": "Eastern UP Ghaghara-Gandak Belt"
       },
       {
         "slug": "energy-substitution-pathway",
@@ -778,8 +790,20 @@
         "title": "Firm Power"
       },
       {
+        "slug": "gandak-ganges-merge",
+        "title": "Gandak-Ganges Merge"
+      },
+      {
         "slug": "ganges-contribution",
         "title": "Nepal's Contribution to the Ganges"
+      },
+      {
+        "slug": "ganges-padma-transition",
+        "title": "Ganges-Padma Transition"
+      },
+      {
+        "slug": "ghaghara-ganges-merge",
+        "title": "Ghaghara-Ganges Merge"
       },
       {
         "slug": "glof-risk",
@@ -788,6 +812,10 @@
       {
         "slug": "green-hydrogen-nepal",
         "title": "Green Hydrogen Nepal"
+      },
+      {
+        "slug": "how-to-read-geopolitics-map",
+        "title": "How To Read The Geopolitics Map"
       },
       {
         "slug": "hybrid-siting-logic",
@@ -802,8 +830,32 @@
         "title": "Hydropower Potential Categories"
       },
       {
+        "slug": "kosi-ganges-merge",
+        "title": "Kosi-Ganges Merge"
+      },
+      {
+        "slug": "lower-delta-bay-interface",
+        "title": "Lower Delta And Bay Interface"
+      },
+      {
+        "slug": "mahakali-sharda-handoff",
+        "title": "Mahakali/Sharda Handoff"
+      },
+      {
         "slug": "nepal-power-trade-schemes",
         "title": "Nepal Power Trade Schemes"
+      },
+      {
+        "slug": "north-bihar-kosi-gandak-floodplain",
+        "title": "North Bihar Kosi-Gandak Floodplain"
+      },
+      {
+        "slug": "padma-meghna-delta-dependency",
+        "title": "Padma-Meghna Delta Dependency"
+      },
+      {
+        "slug": "padma-meghna-delta",
+        "title": "Padma-Meghna Delta"
       },
       {
         "slug": "peak-water",
@@ -1008,8 +1060,16 @@
         "title": "Layer: Cross-Border Gateways"
       },
       {
+        "slug": "data-layer-downstream-dependency-zones",
+        "title": "Layer: Downstream Dependency Zones"
+      },
+      {
         "slug": "data-layer-downstream-impact-markers",
         "title": "Layer: Downstream Impact Markers"
+      },
+      {
+        "slug": "data-layer-downstream-population-anchors",
+        "title": "Layer: Downstream Population Anchors"
       },
       {
         "slug": "data-layer-floating-pv-candidates",
@@ -1058,6 +1118,10 @@
       {
         "slug": "data-layer-nepal-origin-ocean-routes",
         "title": "Layer: Nepal-Origin Routes To Ocean"
+      },
+      {
+        "slug": "data-layer-nepal-origin-route-callouts",
+        "title": "Layer: Nepal-Origin Route Callouts"
       },
       {
         "slug": "data-layer-nepal-tributaries",
@@ -1373,19 +1437,32 @@
     "west-seti",
     "western-132-backbone",
     "agrivoltaics-and-land",
+    "bay-of-bengal-terminal",
+    "bihar-ganges-trunk-zone",
     "buildability",
     "consumption-trajectory-outlook",
     "domestic-led-hydro-strategy",
+    "eastern-up-ghaghara-gandak-belt",
     "energy-substitution-pathway",
     "environmental-flow-policy",
     "firm-power",
+    "gandak-ganges-merge",
     "ganges-contribution",
+    "ganges-padma-transition",
+    "ghaghara-ganges-merge",
     "glof-risk",
     "green-hydrogen-nepal",
+    "how-to-read-geopolitics-map",
     "hybrid-siting-logic",
     "hydro-geopolitics",
     "hydropower-potential-categories",
+    "kosi-ganges-merge",
+    "lower-delta-bay-interface",
+    "mahakali-sharda-handoff",
     "nepal-power-trade-schemes",
+    "north-bihar-kosi-gandak-floodplain",
+    "padma-meghna-delta-dependency",
+    "padma-meghna-delta",
     "peak-water",
     "project-roadmap",
     "rooftop-minigrid-offgrid",
@@ -1435,7 +1512,9 @@
     "data-layer-carto-positron",
     "data-layer-cross-border-interconnection-lines",
     "data-layer-cross-border-interconnections",
+    "data-layer-downstream-dependency-zones",
     "data-layer-downstream-impact-markers",
+    "data-layer-downstream-population-anchors",
     "data-layer-floating-pv-candidates",
     "data-layer-future-regulation-scenario",
     "data-layer-grid-hubs-place-anchors",
@@ -1448,6 +1527,7 @@
     "data-layer-nepal-linked-basin-polygons",
     "data-layer-nepal-origin-downstream-systems",
     "data-layer-nepal-origin-ocean-routes",
+    "data-layer-nepal-origin-route-callouts",
     "data-layer-nepal-tributaries",
     "data-layer-origin-control-callouts",
     "data-layer-priority-watchlist",
@@ -1668,19 +1748,32 @@
     "west-seti": "entities",
     "western-132-backbone": "entities",
     "agrivoltaics-and-land": "concepts",
+    "bay-of-bengal-terminal": "concepts",
+    "bihar-ganges-trunk-zone": "concepts",
     "buildability": "concepts",
     "consumption-trajectory-outlook": "concepts",
     "domestic-led-hydro-strategy": "concepts",
+    "eastern-up-ghaghara-gandak-belt": "concepts",
     "energy-substitution-pathway": "concepts",
     "environmental-flow-policy": "concepts",
     "firm-power": "concepts",
+    "gandak-ganges-merge": "concepts",
     "ganges-contribution": "concepts",
+    "ganges-padma-transition": "concepts",
+    "ghaghara-ganges-merge": "concepts",
     "glof-risk": "concepts",
     "green-hydrogen-nepal": "concepts",
+    "how-to-read-geopolitics-map": "concepts",
     "hybrid-siting-logic": "concepts",
     "hydro-geopolitics": "concepts",
     "hydropower-potential-categories": "concepts",
+    "kosi-ganges-merge": "concepts",
+    "lower-delta-bay-interface": "concepts",
+    "mahakali-sharda-handoff": "concepts",
     "nepal-power-trade-schemes": "concepts",
+    "north-bihar-kosi-gandak-floodplain": "concepts",
+    "padma-meghna-delta-dependency": "concepts",
+    "padma-meghna-delta": "concepts",
     "peak-water": "concepts",
     "project-roadmap": "concepts",
     "rooftop-minigrid-offgrid": "concepts",
@@ -1730,7 +1823,9 @@
     "data-layer-carto-positron": "data",
     "data-layer-cross-border-interconnection-lines": "data",
     "data-layer-cross-border-interconnections": "data",
+    "data-layer-downstream-dependency-zones": "data",
     "data-layer-downstream-impact-markers": "data",
+    "data-layer-downstream-population-anchors": "data",
     "data-layer-floating-pv-candidates": "data",
     "data-layer-future-regulation-scenario": "data",
     "data-layer-grid-hubs-place-anchors": "data",
@@ -1743,6 +1838,7 @@
     "data-layer-nepal-linked-basin-polygons": "data",
     "data-layer-nepal-origin-downstream-systems": "data",
     "data-layer-nepal-origin-ocean-routes": "data",
+    "data-layer-nepal-origin-route-callouts": "data",
     "data-layer-nepal-tributaries": "data",
     "data-layer-origin-control-callouts": "data",
     "data-layer-priority-watchlist": "data",
@@ -1963,19 +2059,32 @@
     "west-seti": "West Seti Hydroelectric Project",
     "western-132-backbone": "Western Nepal 132 kV Backbone",
     "agrivoltaics-and-land": "Agrivoltaics and Land",
+    "bay-of-bengal-terminal": "Bay Of Bengal Terminal",
+    "bihar-ganges-trunk-zone": "Bihar Ganges Trunk Zone",
     "buildability": "Buildability",
     "consumption-trajectory-outlook": "Consumption Trajectory Outlook",
     "domestic-led-hydro-strategy": "Domestic-Led Hydro Strategy",
+    "eastern-up-ghaghara-gandak-belt": "Eastern UP Ghaghara-Gandak Belt",
     "energy-substitution-pathway": "Energy Substitution Pathway",
     "environmental-flow-policy": "Environmental Flow Policy",
     "firm-power": "Firm Power",
+    "gandak-ganges-merge": "Gandak-Ganges Merge",
     "ganges-contribution": "Nepal's Contribution to the Ganges",
+    "ganges-padma-transition": "Ganges-Padma Transition",
+    "ghaghara-ganges-merge": "Ghaghara-Ganges Merge",
     "glof-risk": "GLOF Risk",
     "green-hydrogen-nepal": "Green Hydrogen Nepal",
+    "how-to-read-geopolitics-map": "How To Read The Geopolitics Map",
     "hybrid-siting-logic": "Hybrid Siting Logic",
     "hydro-geopolitics": "Hydro-Geopolitics",
     "hydropower-potential-categories": "Hydropower Potential Categories",
+    "kosi-ganges-merge": "Kosi-Ganges Merge",
+    "lower-delta-bay-interface": "Lower Delta And Bay Interface",
+    "mahakali-sharda-handoff": "Mahakali/Sharda Handoff",
     "nepal-power-trade-schemes": "Nepal Power Trade Schemes",
+    "north-bihar-kosi-gandak-floodplain": "North Bihar Kosi-Gandak Floodplain",
+    "padma-meghna-delta-dependency": "Padma-Meghna Delta Dependency",
+    "padma-meghna-delta": "Padma-Meghna Delta",
     "peak-water": "Peak Water",
     "project-roadmap": "Project Roadmap",
     "rooftop-minigrid-offgrid": "Rooftop, Mini-Grid, and Off-Grid Solar",
@@ -2025,7 +2134,9 @@
     "data-layer-carto-positron": "Layer: Carto Positron Basemap",
     "data-layer-cross-border-interconnection-lines": "Layer: Cross-Border Links",
     "data-layer-cross-border-interconnections": "Layer: Cross-Border Gateways",
+    "data-layer-downstream-dependency-zones": "Layer: Downstream Dependency Zones",
     "data-layer-downstream-impact-markers": "Layer: Downstream Impact Markers",
+    "data-layer-downstream-population-anchors": "Layer: Downstream Population Anchors",
     "data-layer-floating-pv-candidates": "Layer: Floating PV Candidates",
     "data-layer-future-regulation-scenario": "Layer: Future Regulation Scenario",
     "data-layer-grid-hubs-place-anchors": "Layer: Grid Hubs and Substations",
@@ -2038,6 +2149,7 @@
     "data-layer-nepal-linked-basin-polygons": "Layer: Nepal-Linked Basin Polygons",
     "data-layer-nepal-origin-downstream-systems": "Layer: Nepal-Origin Downstream Systems",
     "data-layer-nepal-origin-ocean-routes": "Layer: Nepal-Origin Routes To Ocean",
+    "data-layer-nepal-origin-route-callouts": "Layer: Nepal-Origin Route Callouts",
     "data-layer-nepal-tributaries": "Layer: Nepal Tributaries (HydroRIVERS)",
     "data-layer-origin-control-callouts": "Layer: Origin / Control Callouts",
     "data-layer-priority-watchlist": "Layer: Priority Watchlist",
@@ -2070,5 +2182,5 @@
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series"
   },
-  "totalPages": 293
+  "totalPages": 309
 }

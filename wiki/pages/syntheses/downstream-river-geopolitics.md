@@ -28,6 +28,26 @@ The geopolitics map should keep four relationships visible at once:
 
 Without all four, the map under-explains the issue. Rivers become blue lines rather than political infrastructure.
 
+The current explorer now separates that story into readable layers: [[data-layer-nepal-origin-ocean-routes]] traces Koshi, Gandaki, Karnali, and Mahakali/Sharda to the Bay of Bengal; [[data-layer-nepal-origin-route-callouts]] marks the major downstream handoffs; [[data-layer-downstream-dependency-zones]] shows broad exposure zones; [[data-layer-downstream-population-anchors]] places city and delta context; and [[data-layer-future-regulation-scenario]] asks which storage projects could alter timing.
+
+For first-time reading, start with [[how-to-read-geopolitics-map]]. It explains why the map has India and Bangladesh marks, what each visual layer means, and how to avoid the main misread: downstream exposure is not the same thing as Nepal controlling downstream water security.
+
+## Route Reading Sequence
+
+The downstream route is easiest to read as a chain of handoffs:
+
+| Step | What It Explains |
+|------|------------------|
+| [[mahakali-sharda-handoff]] | The far-western border-river route enters the wider Sharda-Ghaghara-Ganges system. |
+| [[ghaghara-ganges-merge]] | Karnali/Ghaghara becomes part of the Ganges trunk story. |
+| [[gandak-ganges-merge]] | Gandaki/Narayani/Gandak reaches the Ganges corridor. |
+| [[kosi-ganges-merge]] | Koshi/Kosi crosses the North Bihar floodplain and enters the lower Ganges. |
+| [[ganges-padma-transition]] | The route shifts from India Ganges framing into Bangladesh Padma framing. |
+| [[padma-meghna-delta]] | The river story becomes lower-delta geography. |
+| [[bay-of-bengal-terminal]] | The strategic route trace reaches the ocean endpoint. |
+
+The dependency zones add the reason those handoffs matter: [[eastern-up-ghaghara-gandak-belt]], [[north-bihar-kosi-gandak-floodplain]], [[bihar-ganges-trunk-zone]], [[padma-meghna-delta-dependency]], and [[lower-delta-bay-interface]] are not claims of control. They are where population, agriculture, flood timing, dry-season flow, sediment, and delta sensitivity make the route politically meaningful.
+
 ## Basin Read
 
 **[[koshi-basin]]** is the clearest hazard case: large glacier and sediment exposure, major downstream flood memory in Bihar, and high sensitivity to embankments, barrages, and extreme events.
@@ -59,6 +79,10 @@ In a more nationalist regional order, unclear water facts become dangerous. Nepa
 
 The useful claim is not that Nepal controls South Asian water security. The useful claim is sharper: Nepal is a major upstream timing actor in the Ganges system, and its future storage, grid, treaty, and climate decisions will matter far beyond its borders.
 
+## Layer Caveat
+
+The dependency zones are strategic context, not attribution. They do not say Nepal supplies all water to a downstream region, nor do they model irrigation withdrawals, embankments, barrage operations, tidal distributaries, or flood hydraulics. They show where Nepal-linked river routes pass through sensitive downstream geographies so the reader can connect routing, population, agriculture, flood risk, sediment, and future regulation without overclaiming precision.
+
 ## Related
 
 - [[hydro-geopolitics]]
@@ -67,3 +91,7 @@ The useful claim is not that Nepal controls South Asian water security. The usef
 - [[bangladesh-trade-route]]
 - [[storage-deficit]]
 - [[environmental-flow-policy]]
+- [[how-to-read-geopolitics-map]]
+- [[data-layer-nepal-origin-ocean-routes]]
+- [[data-layer-nepal-origin-route-callouts]]
+- [[data-layer-downstream-dependency-zones]]

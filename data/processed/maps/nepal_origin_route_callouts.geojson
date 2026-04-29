@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mahakali_sharda_handoff",
+        "name": "Mahakali/Sharda downstream handoff",
+        "label_title": "Mahakali/Sharda joins the western Ganges logic",
+        "label_subtitle": "Western Nepal-origin route enters the Sharda-Ghaghara-Ganges path",
+        "callout_type": "origin_handoff",
+        "related_origin_routes": [
+          "mahakali_ocean_route"
+        ],
+        "river_system": "Sharda-Ghaghara-Ganges",
+        "country": "India",
+        "strategic_note": "Shows where the western Nepal-origin route becomes part of the wider downstream plains system.",
+        "map_read_note": "Use as an approximate reading marker for route continuity, not as a surveyed confluence point.",
+        "confidence": "medium",
+        "source_method": "Curated strategic marker aligned to the generated HydroRIVERS downstream route.",
+        "theme": "nepal_origin_route_callout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.55,
+          27.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ghaghara_ganges_merge",
+        "name": "Ghaghara-Ganges merge",
+        "label_title": "Karnali/Ghaghara enters the Ganges trunk",
+        "label_subtitle": "Karnali's downstream route becomes a major Ganges tributary path",
+        "callout_type": "major_merge",
+        "related_origin_routes": [
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "river_system": "Ghaghara-Ganges",
+        "country": "India",
+        "strategic_note": "Marks the western and far-western Nepal-linked routes joining the main Ganges downstream story.",
+        "map_read_note": "Approximate confluence callout used for narrative legibility.",
+        "confidence": "medium_high",
+        "source_method": "Curated strategic marker aligned to the generated HydroRIVERS downstream route.",
+        "theme": "nepal_origin_route_callout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.75,
+          25.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gandak_ganges_merge",
+        "name": "Gandak-Ganges merge",
+        "label_title": "Gandaki/Gandak enters the Ganges trunk",
+        "label_subtitle": "Central Nepal-origin flow path meets the lower Ganges corridor",
+        "callout_type": "major_merge",
+        "related_origin_routes": [
+          "gandaki_ocean_route"
+        ],
+        "river_system": "Gandak-Ganges",
+        "country": "India",
+        "strategic_note": "Connects the Gandaki-Narayani-Gandak system to the dense Bihar/Ganges corridor.",
+        "map_read_note": "Approximate confluence callout used for narrative legibility.",
+        "confidence": "medium_high",
+        "source_method": "Curated strategic marker aligned to the generated HydroRIVERS downstream route.",
+        "theme": "nepal_origin_route_callout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.18,
+          25.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kosi_ganges_merge",
+        "name": "Kosi-Ganges merge",
+        "label_title": "Koshi/Kosi enters the Ganges trunk",
+        "label_subtitle": "Eastern Nepal-origin route reaches the lower Ganges corridor",
+        "callout_type": "major_merge",
+        "related_origin_routes": [
+          "koshi_ocean_route"
+        ],
+        "river_system": "Kosi-Ganges",
+        "country": "India",
+        "strategic_note": "Frames the Kosi as the eastern Nepal-origin system entering the shared Ganges path.",
+        "map_read_note": "Approximate confluence callout used for narrative legibility.",
+        "confidence": "medium_high",
+        "source_method": "Curated strategic marker aligned to the generated HydroRIVERS downstream route.",
+        "theme": "nepal_origin_route_callout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.25,
+          25.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ganges_padma_transition",
+        "name": "Ganges-Padma transition",
+        "label_title": "Ganges becomes Padma",
+        "label_subtitle": "The shared downstream trunk enters Bangladesh naming and delta logic",
+        "callout_type": "system_transition",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "river_system": "Ganges-Padma",
+        "country": "India/Bangladesh",
+        "strategic_note": "Shows the transition from northern India river politics into Bangladesh delta dependence.",
+        "map_read_note": "Approximate transition marker for reading the route across the border.",
+        "confidence": "medium",
+        "source_method": "Curated strategic marker aligned to the generated HydroRIVERS downstream route.",
+        "theme": "nepal_origin_route_callout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.05,
+          24.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "padma_meghna_delta_merge",
+        "name": "Padma-Meghna delta merge",
+        "label_title": "Padma and Meghna converge in the delta",
+        "label_subtitle": "The Nepal-linked routes are now part of the lower delta system",
+        "callout_type": "delta_merge",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "river_system": "Padma-Meghna",
+        "country": "Bangladesh",
+        "strategic_note": "Marks the delta convergence where upstream timing, sediment, flood, and dry-season stories accumulate.",
+        "map_read_note": "Approximate delta merge marker; v1 does not map dense distributaries.",
+        "confidence": "medium",
+        "source_method": "Curated strategic marker aligned to the generated HydroRIVERS downstream terminal reach.",
+        "theme": "nepal_origin_route_callout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.64,
+          23.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bay_of_bengal_terminal",
+        "name": "Bay of Bengal terminal reach",
+        "label_title": "Bay of Bengal outlet",
+        "label_subtitle": "HydroRIVERS terminal reach for the strategic route trace",
+        "callout_type": "ocean_endpoint",
+        "related_origin_routes": [
+          "koshi_ocean_route",
+          "gandaki_ocean_route",
+          "karnali_ocean_route",
+          "mahakali_ocean_route"
+        ],
+        "river_system": "Lower Padma-Meghna-Bay of Bengal",
+        "country": "Bangladesh",
+        "strategic_note": "Final mapped terminal for the route-to-ocean layer.",
+        "map_read_note": "Represents the generated terminal reach, not detailed tidal or distributary geography.",
+        "confidence": "medium_high",
+        "source_method": "HydroRIVERS terminal coordinate from nepal_origin_ocean_routes.geojson.",
+        "theme": "nepal_origin_route_callout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.63125,
+          23.22292
+        ]
+      }
+    }
+  ]
+}
