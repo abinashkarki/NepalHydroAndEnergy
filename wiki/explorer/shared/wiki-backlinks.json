@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 188,
-  "total_refs": 1444,
+  "total_targets": 192,
+  "total_refs": 1485,
   "backlinks": {
     "buildability": [
       {
@@ -308,6 +308,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-consumption-geographic-distribution",
+        "title": "Electricity Consumption Geographic Distribution",
+        "category": "data",
+        "context": "…t in Terai provinces - [[nea]] — the distribution utility - nepal-energy-profile — country-level system snapshot",
+        "target_exists": true
+      },
+      {
         "slug": "data-fleet-composition",
         "title": "Hydropower Fleet Composition",
         "category": "data",
@@ -363,6 +370,13 @@
         "title": "Rooftop, Mini-Grid, and Off-Grid Solar",
         "category": "concepts",
         "context": "…cs-and-land]] — the political condition for utility scale - data-rooftop-shs-deployment — the numbers for tracks 2 and 3 - [[claim-solar-political-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…lar irrigation pumps under alternative energy programs (see data-rooftop-shs-deployment for the off-grid solar context) Key barriers: - **Capital…",
         "target_exists": true
       }
     ],
@@ -1154,13 +1168,6 @@
         "target_exists": true
       },
       {
-        "slug": "data-layer-nepal-origin-ocean-routes",
-        "title": "data-layer-nepal-origin-ocean-routes",
-        "category": "data",
-        "context": "…[downstream-river-geopolitics]] - [[ganges-contribution]] - hydro-geopolitics - [[data-layer-nepal-origin-downstream-systems]] - [[data-l…",
-        "target_exists": true
-      },
-      {
         "slug": "data-layer-future-regulation-scenario",
         "title": "Layer: Future Regulation Scenario",
         "category": "data",
@@ -1193,6 +1200,13 @@
         "title": "Layer: Nepal-Origin Downstream Systems",
         "category": "data",
         "context": "…ity in the plains. ## Related - [[ganges-contribution]] - hydro-geopolitics - [[india-energy-relationship]] - [[seasonal-mismatch]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "Layer: Nepal-Origin Routes To Ocean",
+        "category": "data",
+        "context": "…[downstream-river-geopolitics]] - [[ganges-contribution]] - hydro-geopolitics - [[data-layer-nepal-origin-downstream-systems]] - [[data-l…",
         "target_exists": true
       },
       {
@@ -1412,6 +1426,13 @@
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
         "context": "…[[domestic-led-hydro-strategy]] — the strategic response - stranded-generation — monsoon surplus that domestic load could absorb - [[nea]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…t]] — what industrial consumers need for 24/7 reliability - stranded-generation — monsoon surplus that could power additional industrial sh…",
         "target_exists": true
       },
       {
@@ -1915,6 +1936,20 @@
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
         "context": "…losures. ## Related - [[stranded-generation]] - [[nea]] - storage-deficit - [[seasonal-mismatch]] ### Corridor pages - [[hetauda-dh…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…t currently can't be scheduled without reservoirs — linking storage-deficit to food security The [[budhigandaki]], [[west-seti]], and…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…he dry-season reliability gap and are the economic case for storage-deficit and [[solar-hydro-complementarity]] build-out. ## Chart Sp…",
         "target_exists": true
       },
       {
@@ -2825,6 +2860,13 @@
         "target_exists": true
       },
       {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…coal-fired, hydrogen co-firing still in concept stage (see green-hydrogen-nepal) - **LPG-to-induction cooking at scale:** 0.5% household pe…",
+        "target_exists": true
+      },
+      {
         "slug": "domestic-led-hydro-strategy",
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
@@ -2853,10 +2895,10 @@
         "target_exists": true
       },
       {
-        "slug": "data-domestic-demand",
-        "title": "Domestic Electricity Demand Distribution",
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
         "category": "data",
-        "context": "…[[nea]] — the utility that must enable this demand growth - green-hydrogen-nepal — industrial-scale demand creation from surplus",
+        "context": "…— why domestic industrial load matters more than exports - green-hydrogen-nepal — the pathway to displace coal in high-temperature industri…",
         "target_exists": true
       },
       {
@@ -2901,6 +2943,13 @@
         "title": "Nepal Energy Profile",
         "category": "entities",
         "context": "…x]]; strategic frame at [[energy-substitution-pathway]] and domestic-led-hydro-strategy. ## Related - [[data-fleet-composition]] — fleet breakdow…",
+        "target_exists": true
+      },
+      {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…nt 11,288 GWh. This is the domestic demand ceiling that the domestic-led-hydro-strategy is designed to capture. ### Displacement already underway…",
         "target_exists": true
       },
       {
@@ -2970,7 +3019,14 @@
         "slug": "data-domestic-demand",
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
-        "context": "…ntry is from its own potential demand. Central evidence for domestic-led-hydro-strategy and the [[seasonal-arbitrage-trap]] value-capture argument.…",
+        "context": "…r category, and how fast it's growing. Central evidence for domestic-led-hydro-strategy and the [[seasonal-arbitrage-trap]] value-capture argument.…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…kWh/tonne); yields 8–10× domestic value vs export sale. See domestic-led-hydro-strategy | | **Chemical / pharmaceutical / plastic** | ~100–250 | Ph…",
         "target_exists": true
       },
       {
@@ -3372,13 +3428,6 @@
         "target_exists": true
       },
       {
-        "slug": "data-layer-nepal-origin-ocean-routes",
-        "title": "data-layer-nepal-origin-ocean-routes",
-        "category": "data",
-        "context": "…A report. ## Related - [[downstream-river-geopolitics]] - ganges-contribution - [[hydro-geopolitics]] - [[data-layer-nepal-origin-downstr…",
-        "target_exists": true
-      },
-      {
         "slug": "data-layer-downstream-impact-markers",
         "title": "Layer: Downstream Impact Markers",
         "category": "data",
@@ -3425,6 +3474,13 @@
         "title": "Layer: Nepal-Origin Downstream Systems",
         "category": "data",
         "context": "…, or local channel complexity in the plains. ## Related - ganges-contribution - [[hydro-geopolitics]] - [[india-energy-relationship]] - […",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "Layer: Nepal-Origin Routes To Ocean",
+        "category": "data",
+        "context": "…A report. ## Related - [[downstream-river-geopolitics]] - ganges-contribution - [[hydro-geopolitics]] - [[data-layer-nepal-origin-downstr…",
         "target_exists": true
       },
       {
@@ -3770,6 +3826,13 @@
         "target_exists": true
       },
       {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…rices while winter imports at high peak rates persist → the seasonal-arbitrage-trap institutionalizes. ## What the Data Cannot Yet Answer 1.…",
+        "target_exists": true
+      },
+      {
         "slug": "domestic-led-hydro-strategy",
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
@@ -3871,7 +3934,7 @@
         "slug": "data-domestic-demand",
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
-        "context": "…entral evidence for [[domestic-led-hydro-strategy]] and the seasonal-arbitrage-trap value-capture argument. ## Sectoral Demand Split (FY 2020/…",
+        "context": "…entral evidence for [[domestic-led-hydro-strategy]] and the seasonal-arbitrage-trap value-capture argument. ## Sectoral Demand Split — FY 2024…",
         "target_exists": true
       },
       {
@@ -4691,7 +4754,14 @@
         "slug": "data-domestic-demand",
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
-        "context": "…ation]] — monsoon surplus that domestic load could absorb - nea — the utility that must enable this demand growth - [[green…",
+        "context": "…ation]] — monsoon surplus that domestic load could absorb - nea — the utility that must enable this demand growth",
+        "target_exists": true
+      },
+      {
+        "slug": "data-consumption-geographic-distribution",
+        "title": "Electricity Consumption Geographic Distribution",
+        "category": "data",
+        "context": "…— agricultural consumption, important in Terai provinces - nea — the distribution utility - [[nepal-energy-profile]] — cou…",
         "target_exists": true
       },
       {
@@ -6450,6 +6520,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…y gap and are the economic case for [[storage-deficit]] and solar-hydro-complementarity build-out. ## Chart Specification 1. **Sankey for industr…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-solar-ghi-zones",
         "title": "Layer: Solar GHI Zones",
         "category": "data",
@@ -6700,6 +6777,13 @@
         "target_exists": true
       },
       {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…phic-distribution]] — where consumption is geographically - data-final-energy-mix — the total-energy denominator - [[energy-substitution-path…",
+        "target_exists": true
+      },
+      {
         "slug": "domestic-led-hydro-strategy",
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
@@ -6721,10 +6805,24 @@
         "target_exists": true
       },
       {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…by district, showing the Terai concentration ## Related - data-final-energy-mix — the full energy balance with the agricultural row - [[dat…",
+        "target_exists": true
+      },
+      {
         "slug": "data-domestic-demand",
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
-        "context": "…RoR output) — highlight the mismatch window. ## Related - data-final-energy-mix — the total-energy denominator (this page is the electricit…",
+        "context": "…ltural-energy-consumption]] — agricultural energy profile - data-final-energy-mix — the total-energy denominator - [[energy-substitution-path…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…data-domestic-demand]] — the full sectoral demand picture - data-final-energy-mix — the total-energy denominator with sector × fuel cross-tab…",
         "target_exists": true
       }
     ],
@@ -6816,6 +6914,13 @@
         "target_exists": true
       },
       {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…ning 10% demand growth requires the substitution pathway in energy-substitution-pathway to actually happen — cooking electrification, industrial fu…",
+        "target_exists": true
+      },
+      {
         "slug": "domestic-led-hydro-strategy",
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
@@ -6823,10 +6928,24 @@
         "target_exists": true
       },
       {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…ibution]] — where agricultural demand sits geographically - energy-substitution-pathway — diesel displacement strategy - [[storage-deficit]] — mult…",
+        "target_exists": true
+      },
+      {
         "slug": "data-domestic-demand",
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
-        "context": "…rgy denominator (this page is the electricity slice only) - energy-substitution-pathway — what non-electric flows electrification would displace -…",
+        "context": "…ion. That is bigger than any plausible export contract. See energy-substitution-pathway for the full substitution logic. ### Residential electrici…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…[[data-domestic-demand]] and the industrial-demand half of energy-substitution-pathway. ## Headline Numbers | Metric | Value | Source | |-------…",
         "target_exists": true
       },
       {
@@ -8262,6 +8381,13 @@
         "category": "claims",
         "context": "…n is not independent. - **Treaty politics:** Shared basins (pancheshwar-class deadlocks) can stall or unlock multi-gigawatt-scale p…",
         "target_exists": true
+      },
+      {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…to food security The [[budhigandaki]], [[west-seti]], and pancheshwar projects all have irrigation components in their design man…",
+        "target_exists": true
       }
     ],
     "bishnu-priya-nawalparasi": [
@@ -8729,6 +8855,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…ervoirs — linking [[storage-deficit]] to food security The budhigandaki, [[west-seti]], and [[pancheshwar]] projects all have irrig…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
@@ -8946,6 +9079,13 @@
         "target_exists": true
       },
       {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…succeeds or fails on its own terms. This page synthesizes data-domestic-demand, [[data-industrial-electricity-consumers]], [[data-agricult…",
+        "target_exists": true
+      },
+      {
         "slug": "domestic-led-hydro-strategy",
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
@@ -8985,6 +9125,27 @@
         "title": "Unresolved Questions",
         "category": "syntheses",
         "context": "…curve not public but structural pattern now documented. See data-domestic-demand | | 7 | Post-2024 Bangladesh trade route status | Scale-up…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…mix]] — the full energy balance with the agricultural row - data-domestic-demand — the electricity-only sectoral demand picture - [[data-ind…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-consumption-geographic-distribution",
+        "title": "Electricity Consumption Geographic Distribution",
+        "category": "data",
+        "context": "…if provincial-level splits become available ## Related - data-domestic-demand — national sectoral demand split - [[data-industrial-electr…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…h ones burn coal and biomass instead. The companion page to data-domestic-demand and the industrial-demand half of [[energy-substitution-pat…",
         "target_exists": true
       },
       {
@@ -9120,6 +9281,13 @@
         "title": "Unresolved Questions",
         "category": "syntheses",
         "context": "…, NHPC now), Budhigandaki (Gezhouba blocked, domestic). See west-seti, [[budhigandaki]] | | 9 | Environmental/social impact data…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…[[storage-deficit]] to food security The [[budhigandaki]], west-seti, and [[pancheshwar]] projects all have irrigation component…",
         "target_exists": true
       }
     ],
@@ -9275,6 +9443,13 @@
         "target_exists": true
       },
       {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…bsorb roughly the output of the planned hydro pipeline (see data-potential-pyramid) without needing massive export growth. But sustaining 10%…",
+        "target_exists": true
+      },
+      {
         "slug": "firm-power",
         "title": "Firm Power",
         "category": "concepts",
@@ -9417,44 +9592,104 @@
         "target_exists": true
       }
     ],
-    "solar-in-the-master-narrative": [
+    "data-industrial-electricity-consumers": [
       {
-        "slug": "domestic-led-hydro-strategy",
-        "title": "Domestic-Led Hydro Strategy",
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
         "category": "concepts",
-        "context": "…n-hydrogen-nepal]] — industrial-scale demand from surplus - solar-in-the-master-narrative — how solar changes the strategy without replacing hydro -…",
+        "context": "…own terms. This page synthesizes [[data-domestic-demand]], data-industrial-electricity-consumers, [[data-agricultural-energy-consumption]], and [[data-consu…",
         "target_exists": true
       },
       {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…in-winter-deficit]] — the solar correction to the ranking - solar-in-the-master-narrative — the master-frame update",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "…egic Prescription **[[domestic-led-hydro-strategy]]** plus solar-in-the-master-narrative — build for domestic dry-season reliability and productive…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…hole. ## Related - [[master-thesis]] — the master frame - solar-in-the-master-narrative — the parallel synthesis - [[solar-hydro-complementarity]]…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-final-energy-mix",
-        "title": "Nepal Final Energy Mix",
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
         "category": "data",
-        "context": "…he binding season and can be built faster than large hydro. solar-in-the-master-narrative is therefore not a claim that solar dominates Nepal's energ…",
+        "context": "…luding agro-processing would roughly double the figure. See data-industrial-electricity-consumers for the agro-processing component. ## Agricultural Energy…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…w large industrial users has an outsized system effect. See data-industrial-electricity-consumers for the sub-sector breakdown. ## Sectoral Shift — FY 2020/…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-consumption-geographic-distribution",
+        "title": "Electricity Consumption Geographic Distribution",
+        "category": "data",
+        "context": "…[[data-domestic-demand]] — national sectoral demand split - data-industrial-electricity-consumers — which industries are the top consumers - [[data-agricultu…",
+        "target_exists": true
+      }
+    ],
+    "data-agricultural-energy-consumption": [
+      {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…mestic-demand]], [[data-industrial-electricity-consumers]], data-agricultural-energy-consumption, and [[data-consumption-geographic-distribution]] into a fo…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…city-consumers]] — which industries are the top consumers - data-agricultural-energy-consumption — agricultural energy profile - [[data-final-energy-mix]] —…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-consumption-geographic-distribution",
+        "title": "Electricity Consumption Geographic Distribution",
+        "category": "data",
+        "context": "…city-consumers]] — which industries are the top consumers - data-agricultural-energy-consumption — agricultural consumption, important in Terai provinces -…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…soon surplus that could power additional industrial shift - data-agricultural-energy-consumption — agro-processing and irrigation",
+        "target_exists": true
+      }
+    ],
+    "data-consumption-geographic-distribution": [
+      {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…-consumers]], [[data-agricultural-energy-consumption]], and data-consumption-geographic-distribution into a forward view. The companion supply-side analysis is…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…processing (sugar, tea, food) classified under industrial - data-consumption-geographic-distribution — where agricultural demand sits geographically - [[energy-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…wing 18:30–19:25 peak vs flat-ish RoR output ## Related - data-consumption-geographic-distribution — provincial/regional breakdown - [[data-industrial-electri…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-industrial-electricity-consumers",
+        "title": "Industrial Electricity Consumers in Nepal",
+        "category": "data",
+        "context": "…the total-energy denominator with sector × fuel cross-tab - data-consumption-geographic-distribution — where industrial clusters are located - [[energy-substitu…",
         "target_exists": true
       }
     ],
     "twenty-year-strategy": [
+      {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…into a forward view. The companion supply-side analysis is twenty-year-strategy. ## The Consumption Story in One Sentence Nepal's electri…",
+        "target_exists": true
+      },
       {
         "slug": "domestic-led-hydro-strategy",
         "title": "Domestic-Led Hydro Strategy",
@@ -9516,6 +9751,66 @@
         "title": "Layer: Top-10 Capacity Projects",
         "category": "data",
         "context": "…e comparator. ## Related - [[claim-mw-not-equal-value]] - twenty-year-strategy - [[storage-deficit]] - [[claim-transmission-immediate-bloc…",
+        "target_exists": true
+      }
+    ],
+    "unresolved-questions": [
+      {
+        "slug": "consumption-trajectory-outlook",
+        "title": "Consumption Trajectory Outlook",
+        "category": "concepts",
+        "context": "…nal-arbitrage-trap]] — what happens if demand lags supply - unresolved-questions — data gaps this page inherits",
+        "target_exists": true
+      },
+      {
+        "slug": "provider-comparison",
+        "title": "Provider Comparison",
+        "category": "syntheses",
+        "context": "…elated - [[master-thesis]] — what all providers agree on - unresolved-questions — what none of them resolved",
+        "target_exists": true
+      },
+      {
+        "slug": "data-pipeline-readme",
+        "title": "Data Pipeline Readme",
+        "category": "data",
+        "context": "…]] - [[data-map-inventory]] - [[data-storage-comparison]] - unresolved-questions",
+        "target_exists": true
+      }
+    ],
+    "solar-in-the-master-narrative": [
+      {
+        "slug": "domestic-led-hydro-strategy",
+        "title": "Domestic-Led Hydro Strategy",
+        "category": "concepts",
+        "context": "…n-hydrogen-nepal]] — industrial-scale demand from surplus - solar-in-the-master-narrative — how solar changes the strategy without replacing hydro -…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…in-winter-deficit]] — the solar correction to the ranking - solar-in-the-master-narrative — the master-frame update",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…egic Prescription **[[domestic-led-hydro-strategy]]** plus solar-in-the-master-narrative — build for domestic dry-season reliability and productive…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…hole. ## Related - [[master-thesis]] — the master frame - solar-in-the-master-narrative — the parallel synthesis - [[solar-hydro-complementarity]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-final-energy-mix",
+        "title": "Nepal Final Energy Mix",
+        "category": "data",
+        "context": "…he binding season and can be built faster than large hydro. solar-in-the-master-narrative is therefore not a claim that solar dominates Nepal's energ…",
         "target_exists": true
       }
     ],
@@ -9771,22 +10066,6 @@
         "target_exists": true
       }
     ],
-    "unresolved-questions": [
-      {
-        "slug": "provider-comparison",
-        "title": "Provider Comparison",
-        "category": "syntheses",
-        "context": "…elated - [[master-thesis]] — what all providers agree on - unresolved-questions — what none of them resolved",
-        "target_exists": true
-      },
-      {
-        "slug": "data-pipeline-readme",
-        "title": "Data Pipeline Readme",
-        "category": "data",
-        "context": "…]] - [[data-map-inventory]] - [[data-storage-comparison]] - unresolved-questions",
-        "target_exists": true
-      }
-    ],
     "data-mountain-hydro-comparison": [
       {
         "slug": "unresolved-questions",
@@ -9827,6 +10106,31 @@
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
         "context": "…rrative: **75%+** of annual flow in the monsoon window (per wecs / WECS 2024 framing), which implies limited dry-season firm…",
+        "target_exists": true
+      }
+    ],
+    "data-nepal-peak-load-curve-fy2024-25": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…age + solar the physical complement to the hydro fleet. See data-nepal-peak-load-curve-fy2024-25 for the annual load shape. ## The Electrification Gaps — W…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-solar-hydro-complementarity-profile",
+        "title": "Solar–Hydro Complementarity Profile",
+        "category": "data",
+        "context": "…complementarity]] — the concept page this operationalises - data-nepal-peak-load-curve-fy2024-25 — the demand-side pattern - [[firm-power]] — the capacity-c…",
+        "target_exists": true
+      }
+    ],
+    "consumption-trajectory-outlook": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…e electricity is the backbone of economic productivity. See consumption-trajectory-outlook for the forward view. ## Linked Data - [nea_monthly_energ…",
         "target_exists": true
       }
     ],
@@ -10088,17 +10392,17 @@
     ],
     "downstream-river-geopolitics": [
       {
-        "slug": "data-layer-nepal-origin-ocean-routes",
-        "title": "data-layer-nepal-origin-ocean-routes",
-        "category": "data",
-        "context": "…_ocean_route_report.json) - route QA report. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[data-…",
-        "target_exists": true
-      },
-      {
         "slug": "data-layer-future-regulation-scenario",
         "title": "Layer: Future Regulation Scenario",
         "category": "data",
         "context": "….csv) - storage and dry-energy source table. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[stora…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "Layer: Nepal-Origin Routes To Ocean",
+        "category": "data",
+        "context": "…_ocean_route_report.json) - route QA report. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[data-…",
         "target_exists": true
       }
     ],
@@ -10142,7 +10446,7 @@
     "data-layer-nepal-origin-downstream-systems": [
       {
         "slug": "data-layer-nepal-origin-ocean-routes",
-        "title": "data-layer-nepal-origin-ocean-routes",
+        "title": "Layer: Nepal-Origin Routes To Ocean",
         "category": "data",
         "context": "…al. ## What It Represents This layer extends the existing data-layer-nepal-origin-downstream-systems beyond the northern plains. It lets the reader follow each…",
         "target_exists": true
@@ -10158,7 +10462,7 @@
     "data-layer-downstream-impact-markers": [
       {
         "slug": "data-layer-nepal-origin-ocean-routes",
-        "title": "data-layer-nepal-origin-ocean-routes",
+        "title": "Layer: Nepal-Origin Routes To Ocean",
         "category": "data",
         "context": "…litics]] - [[data-layer-nepal-origin-downstream-systems]] - data-layer-downstream-impact-markers",
         "target_exists": true
@@ -10234,14 +10538,14 @@
         "title": "Map Inventory",
         "category": "data",
         "context": "…rrows** to reinforce [[ganges-contribution]] beyond the new data-layer-nepal-origin-ocean-routes route traces. - **Solar system preset** tying [[data-nepal-…",
-        "target_exists": false
+        "target_exists": true
       },
       {
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…rough the Ganges/Padma/Meghna route to the Bay of Bengal. | data-layer-nepal-origin-ocean-routes | | India comparison rivers | 11 | Reference rivers outside…",
-        "target_exists": false
+        "target_exists": true
       }
     ],
     "data-layer-carto-positron": [
@@ -10466,15 +10770,6 @@
         "title": "Nepal Peak Load Curve FY 2024/25",
         "category": "data",
         "context": "…argument. - The daily shape on the FY peak day explains why main-load-dispatch-centre sequencing of reservoir draw (Kulekhani) matters so much…",
-        "target_exists": true
-      }
-    ],
-    "data-nepal-peak-load-curve-fy2024-25": [
-      {
-        "slug": "data-solar-hydro-complementarity-profile",
-        "title": "Solar–Hydro Complementarity Profile",
-        "category": "data",
-        "context": "…complementarity]] — the concept page this operationalises - data-nepal-peak-load-curve-fy2024-25 — the demand-side pattern - [[firm-power]] — the capacity-c…",
         "target_exists": true
       }
     ],
