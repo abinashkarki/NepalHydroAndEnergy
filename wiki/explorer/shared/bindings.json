@@ -1,6 +1,154 @@
 {
   "_doc": "Maps wiki page slugs to map features. Stand-in for per-page frontmatter; same shape works either way. 'features' = list of {layer, id?, match?}. 'focus' = optional override for fly-to. 'layers_on' = preferred default layer set when this page is the focus.",
   "pages": {
+    "downstream-river-geopolitics": {
+      "type": "synthesis",
+      "category": "geopolitics",
+      "features": [
+        {
+          "layer": "basin_polygons",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "basin_polygons",
+          "id": "gandaki_system"
+        },
+        {
+          "layer": "basin_polygons",
+          "id": "karnali_system"
+        },
+        {
+          "layer": "basin_polygons",
+          "id": "mahakali_system"
+        },
+        {
+          "layer": "downstream_systems",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "downstream_systems",
+          "id": "gandaki_system"
+        },
+        {
+          "layer": "downstream_systems",
+          "id": "karnali_system"
+        },
+        {
+          "layer": "downstream_systems",
+          "id": "mahakali_system"
+        },
+        {
+          "layer": "ocean_routes"
+        },
+        {
+          "layer": "future_regulation_scenario"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "downstream_systems",
+        "ocean_routes",
+        "india_rivers",
+        "basin_polygons",
+        "india_basins",
+        "callouts",
+        "hydrology_markers",
+        "future_regulation_scenario"
+      ],
+      "focus": {
+        "bounds": [
+          [
+            20.5,
+            77.5
+          ],
+          [
+            31.5,
+            92.8
+          ]
+        ]
+      }
+    },
+    "hydro-geopolitics": {
+      "type": "concept",
+      "category": "geopolitics",
+      "features": [
+        {
+          "layer": "basin_polygons",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "downstream_systems",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "ocean_routes",
+          "id": "koshi_ocean_route"
+        },
+        {
+          "layer": "callouts",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "hydrology_markers",
+          "id": "koshi_system"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "downstream_systems",
+        "ocean_routes",
+        "india_rivers",
+        "basin_polygons",
+        "india_basins",
+        "callouts",
+        "hydrology_markers"
+      ]
+    },
+    "ganges-contribution": {
+      "type": "concept",
+      "category": "geopolitics",
+      "features": [
+        {
+          "layer": "downstream_systems",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "downstream_systems",
+          "id": "gandaki_system"
+        },
+        {
+          "layer": "downstream_systems",
+          "id": "karnali_system"
+        },
+        {
+          "layer": "ocean_routes"
+        },
+        {
+          "layer": "hydrology_markers",
+          "id": "koshi_system"
+        },
+        {
+          "layer": "hydrology_markers",
+          "id": "gandaki_system"
+        },
+        {
+          "layer": "hydrology_markers",
+          "id": "karnali_system"
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "downstream_systems",
+        "ocean_routes",
+        "india_rivers",
+        "basin_polygons",
+        "india_basins",
+        "hydrology_markers"
+      ]
+    },
     "koshi-basin": {
       "type": "entity",
       "category": "basin",

@@ -344,31 +344,36 @@
           "title": "Geopolitical Layer",
           "floor": "geopolitics",
           "hero_moment": "Nepal sits upstream of half a billion people and often acts downstream of its own geography.",
-          "page": "bangladesh-trade-route",
+          "page": "downstream-river-geopolitics",
           "preset": "geopolitics",
           "layers_on": [
             "country_outline",
             "tributaries",
             "downstream_systems",
+            "ocean_routes",
             "india_rivers",
             "basin_polygons",
             "india_basins",
-            "cross_border"
+            "callouts",
+            "hydrology_markers",
+            "future_regulation_scenario"
           ],
           "mode_copy": {
-            "short": "Nepal's upstream geography creates strategic relevance beyond its economic size.",
-            "deep": "Differentiate real leverage from overstated narratives using basin-level context.",
-            "expansive": "Add scenario analysis under climate stress and regional water politics."
+            "short": "Nepal's upstream rivers matter downstream through timing, dry-season flow, flood risk, and storage choices.",
+            "deep": "Differentiate real leverage from overstated narratives using basin routing, contribution, and downstream dependence.",
+            "expansive": "Add future storage-buildout scenarios under climate stress and regional water politics."
           },
           "evidence": {
             "metrics": [
-              "Upstream basin position creates regional influence pathways",
-              "Leverage depends on infrastructure readiness and institutional coordination"
+              "Nepal-linked rivers are widely cited as a large share of Ganges dry-season flow",
+              "Leverage depends on storage, institutions, treaties, and credible downstream cooperation"
             ],
             "sources": [
-              "bangladesh-trade-route",
+              "downstream-river-geopolitics",
+              "ganges-contribution",
+              "hydro-geopolitics",
               "koshi-basin",
-              "gandaki-basin"
+              "karnali-basin"
             ],
             "confidence": "medium"
           },

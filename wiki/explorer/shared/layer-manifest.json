@@ -151,6 +151,38 @@
         "wiki": "off"
       }
     },
+    "ocean_routes": {
+      "path": "../../../data/processed/maps/nepal_origin_ocean_routes.geojson",
+      "kind": "line",
+      "label": "Nepal-origin routes to ocean",
+      "style": {
+        "color": "#0f766e",
+        "weight": 1.6,
+        "opacity": 0.72,
+        "dashArray": "6,4"
+      },
+      "popup_fields": [
+        "name",
+        "basin",
+        "merge_system",
+        "ocean_endpoint",
+        "route_confidence",
+        "snap_distance_km",
+        "route_length_km",
+        "impact_note"
+      ],
+      "tooltip_fields": [
+        "name",
+        "route_confidence"
+      ],
+      "roleByPreset": {
+        "tributaries": "off",
+        "geopolitics": "secondary",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off"
+      }
+    },
     "india_rivers": {
       "path": "../../../data/processed/maps/india_reference_rivers.geojson",
       "kind": "line",
@@ -519,6 +551,63 @@
         "geopolitics": "secondary",
         "power_system": "secondary",
         "solar_system": "muted",
+        "wiki": "off"
+      }
+    },
+    "future_regulation_scenario": {
+      "path": "../../../data/processed/maps/future_regulation_scenario.geojson",
+      "kind": "point",
+      "label": "Future regulation scenario",
+      "style": {
+        "radius": 8,
+        "color": "#064e3b",
+        "weight": 2,
+        "fillColor": "#14b8a6",
+        "fillOpacity": 0.82
+      },
+      "popup_fields": [
+        "label_title",
+        "scenario_horizon",
+        "regulation_potential",
+        "downstream_name",
+        "downstream_sensitivity",
+        "treaty_sensitivity",
+        "cooperation_potential",
+        "downstream_effect_note"
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "regulation_potential",
+        "downstream_name"
+      ],
+      "card_fields": {
+        "title": "label_title",
+        "lead_template": "${regulation_potential} regulation · ${downstream_name}",
+        "body": [
+          {
+            "label": "Horizon",
+            "field": "scenario_horizon"
+          },
+          {
+            "label": "Dry energy",
+            "field": "dry_energy_gwh",
+            "suffix": " GWh"
+          },
+          {
+            "label": "Downstream sensitivity",
+            "field": "downstream_sensitivity"
+          },
+          {
+            "label": "Scenario read",
+            "field": "scenario_read"
+          }
+        ]
+      },
+      "roleByPreset": {
+        "tributaries": "off",
+        "geopolitics": "secondary",
+        "power_system": "muted",
+        "solar_system": "off",
         "wiki": "off"
       }
     },

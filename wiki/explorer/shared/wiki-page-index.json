@@ -856,6 +856,10 @@
         "title": "Bottleneck Hierarchy"
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics"
+      },
+      {
         "slug": "ipsdp-2025-vs-wiki-claims",
         "title": "IPSDP 2025 vs Wiki Claims"
       },
@@ -996,6 +1000,10 @@
         "title": "Layer: Floating PV Candidates"
       },
       {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario"
+      },
+      {
         "slug": "data-layer-grid-hubs-place-anchors",
         "title": "Layer: Grid Hubs and Substations"
       },
@@ -1030,6 +1038,10 @@
       {
         "slug": "data-layer-nepal-origin-downstream-systems",
         "title": "Layer: Nepal-Origin Downstream Systems"
+      },
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "Layer: Nepal-Origin Routes To Ocean"
       },
       {
         "slug": "data-layer-nepal-tributaries",
@@ -1370,6 +1382,7 @@
     "storage-deficit",
     "stranded-generation",
     "bottleneck-hierarchy",
+    "downstream-river-geopolitics",
     "ipsdp-2025-vs-wiki-claims",
     "master-thesis",
     "provider-comparison",
@@ -1404,6 +1417,7 @@
     "data-layer-cross-border-interconnections",
     "data-layer-downstream-impact-markers",
     "data-layer-floating-pv-candidates",
+    "data-layer-future-regulation-scenario",
     "data-layer-grid-hubs-place-anchors",
     "data-layer-hydropower-construction",
     "data-layer-hydropower-operating",
@@ -1413,6 +1427,7 @@
     "data-layer-map-text-labels",
     "data-layer-nepal-linked-basin-polygons",
     "data-layer-nepal-origin-downstream-systems",
+    "data-layer-nepal-origin-ocean-routes",
     "data-layer-nepal-tributaries",
     "data-layer-origin-control-callouts",
     "data-layer-priority-watchlist",
@@ -1658,6 +1673,7 @@
     "storage-deficit": "concepts",
     "stranded-generation": "concepts",
     "bottleneck-hierarchy": "syntheses",
+    "downstream-river-geopolitics": "syntheses",
     "ipsdp-2025-vs-wiki-claims": "syntheses",
     "master-thesis": "syntheses",
     "provider-comparison": "syntheses",
@@ -1692,6 +1708,7 @@
     "data-layer-cross-border-interconnections": "data",
     "data-layer-downstream-impact-markers": "data",
     "data-layer-floating-pv-candidates": "data",
+    "data-layer-future-regulation-scenario": "data",
     "data-layer-grid-hubs-place-anchors": "data",
     "data-layer-hydropower-construction": "data",
     "data-layer-hydropower-operating": "data",
@@ -1701,6 +1718,7 @@
     "data-layer-map-text-labels": "data",
     "data-layer-nepal-linked-basin-polygons": "data",
     "data-layer-nepal-origin-downstream-systems": "data",
+    "data-layer-nepal-origin-ocean-routes": "data",
     "data-layer-nepal-tributaries": "data",
     "data-layer-origin-control-callouts": "data",
     "data-layer-priority-watchlist": "data",
@@ -1946,6 +1964,7 @@
     "storage-deficit": "Storage Deficit",
     "stranded-generation": "Stranded Generation",
     "bottleneck-hierarchy": "Bottleneck Hierarchy",
+    "downstream-river-geopolitics": "Downstream River Geopolitics",
     "ipsdp-2025-vs-wiki-claims": "IPSDP 2025 vs Wiki Claims",
     "master-thesis": "Master Thesis",
     "provider-comparison": "Provider Comparison",
@@ -1980,6 +1999,7 @@
     "data-layer-cross-border-interconnections": "Layer: Cross-Border Gateways",
     "data-layer-downstream-impact-markers": "Layer: Downstream Impact Markers",
     "data-layer-floating-pv-candidates": "Layer: Floating PV Candidates",
+    "data-layer-future-regulation-scenario": "Layer: Future Regulation Scenario",
     "data-layer-grid-hubs-place-anchors": "Layer: Grid Hubs and Substations",
     "data-layer-hydropower-construction": "Layer: Hydropower - Construction",
     "data-layer-hydropower-operating": "Layer: Hydropower - Operating",
@@ -1989,6 +2009,7 @@
     "data-layer-map-text-labels": "Layer: Map Text Labels",
     "data-layer-nepal-linked-basin-polygons": "Layer: Nepal-Linked Basin Polygons",
     "data-layer-nepal-origin-downstream-systems": "Layer: Nepal-Origin Downstream Systems",
+    "data-layer-nepal-origin-ocean-routes": "Layer: Nepal-Origin Routes To Ocean",
     "data-layer-nepal-tributaries": "Layer: Nepal Tributaries (HydroRIVERS)",
     "data-layer-origin-control-callouts": "Layer: Origin / Control Callouts",
     "data-layer-priority-watchlist": "Layer: Priority Watchlist",
@@ -2021,5 +2042,5 @@
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series"
   },
-  "totalPages": 286
+  "totalPages": 289
 }

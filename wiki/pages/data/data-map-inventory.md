@@ -35,6 +35,7 @@ For the reader-facing legend and layer-control wording, see [[data-map-layer-lab
 | Nepal tributaries | [nepal_relevant_tributaries.geojson](../../assets/maps/layers/nepal_relevant_tributaries.geojson) | 30 | Named hydropower-relevant Nepal rivers and tributaries |
 | India comparison rivers | [india_reference_rivers.geojson](../../assets/maps/layers/india_reference_rivers.geojson) | 11 | Northern plains comparison rivers with no Nepal-origin control |
 | Nepal-origin downstream systems | [nepal_origin_downstream_systems.geojson](../../assets/maps/layers/nepal_origin_downstream_systems.geojson) | 4 | Koshi, Gandaki, Karnali, Mahakali traced beyond Nepal |
+| Nepal-origin routes to ocean | `data/processed/maps/nepal_origin_ocean_routes.geojson` | 4 | HydroRIVERS route extensions from Nepal-linked systems to the Bay of Bengal |
 | Nepal-linked basin polygons | [nepal_linked_basin_polygons.geojson](../../assets/maps/layers/nepal_linked_basin_polygons.geojson) | 4 | Upstream hydrologic polygons for Nepal-linked systems |
 | India-origin comparison basins | [india_comparison_basin_polygons.geojson](../../assets/maps/layers/india_comparison_basin_polygons.geojson) | 4 | Comparison basins with zero Nepal-origin control |
 | Origin/control callouts | [river_influence_callouts.geojson](../../assets/maps/layers/river_influence_callouts.geojson) | 8 | Basin-level interpretive labels and Nepal-share metadata |
@@ -44,6 +45,7 @@ For the reader-facing legend and layer-control wording, see [[data-map-layer-lab
 | Solar plants and tender nodes | `data/processed/maps/solar_plants.geojson` | curated | Operating DoED plants plus NEA 960 MW LoI tender anchors |
 | Solar suitability zones | `data/processed/maps/solar_suitability.geojson` | 6 | Strategic suitability bands, not parcel screening |
 | Floating PV candidates | `data/processed/maps/floating_pv_candidates.geojson` | 5+ | Reservoir / future-reservoir candidates with explicit confidence fields |
+| Future regulation scenario | `data/processed/maps/future_regulation_scenario.geojson` | 11 | Storage-first scenario layer for timing, downstream sensitivity, and cooperation potential |
 | Major transmission network | `data/processed/maps/transmission_corridor_traced_network.geojson` | 22 | Source-controlled corridor geometry for the public grid layer |
 | Cross-border links | `data/processed/maps/cross_border_interconnection_lines.geojson` | 10 | Conservative operational/planned interconnection lines and stubs |
 | Grid hubs and substations | `data/processed/maps/place_anchor_index.geojson` | 39 | Named grid anchors used to orient the transmission network |
@@ -71,9 +73,10 @@ These are the clearest upgrades if the map stack is pushed further toward infogr
 - Continue promoting high-value transmission corridors from conceptual context into the major transmission network as route-grade evidence is recovered.
 - Tie cross-border interconnection capacity and utilization back to [[data-trade-time-series]].
 - **Storage annotations** for [[kulekhani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], and [[dudhkoshi-storage]]
+- **Future regulation scenario** is now exposed as [[data-layer-future-regulation-scenario]], using mapped storage candidates as a strategic timing layer.
 - **Sediment / GLOF hazard markers** for [[koshi-basin]] and key Gandaki corridors
 - **Basin popup sparklines** showing monsoon vs dry share directly inside the map
-- **System-scale Ganges contribution arrows** to reinforce [[ganges-contribution]]
+- **System-scale Ganges contribution arrows** to reinforce [[ganges-contribution]] beyond the new [[data-layer-nepal-origin-ocean-routes]] route traces.
 - **Solar system preset** tying [[data-nepal-solar-resource-zones]], [[data-solar-fleet-inventory]], [[nea-960mw-solar-tender]], and [[claim-floating-pv-leverage]] to the explorer
 
 ## Related

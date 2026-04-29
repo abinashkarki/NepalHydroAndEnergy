@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 185,
-  "total_refs": 1415,
+  "total_targets": 188,
+  "total_refs": 1444,
   "backlinks": {
     "buildability": [
       {
@@ -1112,6 +1112,13 @@
         "target_exists": true
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…ficit]], [[firm-power]], [[environmental-flow-policy]], and hydro-geopolitics meet. Hydropower becomes geopolitical only when it can regu…",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -1144,6 +1151,20 @@
         "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
         "category": "claims",
         "context": "…ed-generation]]) → fragile offtake and trade architecture → hydro-geopolitics and governance frictions. - **Hermes / Claude / Gemini:** E…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "data-layer-nepal-origin-ocean-routes",
+        "category": "data",
+        "context": "…[downstream-river-geopolitics]] - [[ganges-contribution]] - hydro-geopolitics - [[data-layer-nepal-origin-downstream-systems]] - [[data-l…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…[downstream-river-geopolitics]] - [[ganges-contribution]] - hydro-geopolitics - [[storage-deficit]] - [[firm-power]] - [[environmental-fl…",
         "target_exists": true
       },
       {
@@ -1518,7 +1539,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…ani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], and dudhkoshi-storage - **Sediment / GLOF hazard markers** for [[koshi-basin]] an…",
+        "context": "…ani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], and dudhkoshi-storage - **Future regulation scenario** is now exposed as [[data-l…",
         "target_exists": true
       },
       {
@@ -1827,6 +1848,13 @@
         "target_exists": true
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…e value of upstream storage and forecasting? This is where storage-deficit, [[firm-power]], [[environmental-flow-policy]], and [[hydro…",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -1908,6 +1936,13 @@
         "title": "Layer: Floating PV Candidates",
         "category": "data",
         "context": "…[[claim-floating-pv-leverage]] - [[hybrid-siting-logic]] - storage-deficit - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…itics]] - [[ganges-contribution]] - [[hydro-geopolitics]] - storage-deficit - [[firm-power]] - [[environmental-flow-policy]] - [[data-l…",
         "target_exists": true
       },
       {
@@ -2754,7 +2789,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…rce [[ganges-contribution]] - **Solar system preset** tying data-nepal-solar-resource-zones, [[data-solar-fleet-inventory]], [[nea-960mw-solar-tender]]…",
+        "context": "…cean-routes]] route traces. - **Solar system preset** tying data-nepal-solar-resource-zones, [[data-solar-fleet-inventory]], [[nea-960mw-solar-tender]]…",
         "target_exists": true
       }
     ],
@@ -3237,6 +3272,13 @@
         "target_exists": true
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…nes rather than political infrastructure. ## Basin Read **koshi-basin** is the clearest hazard case: large glacier and sediment e…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-sediment-core-issue",
         "title": "Sediment Is a Central Design and Economics Constraint, Not an O&M Footnote",
         "category": "claims",
@@ -3275,7 +3317,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…udhkoshi-storage]] - **Sediment / GLOF hazard markers** for koshi-basin and key Gandaki corridors - **Basin popup sparklines** show…",
+        "context": "…egic timing layer. - **Sediment / GLOF hazard markers** for koshi-basin and key Gandaki corridors - **Basin popup sparklines** show…",
         "target_exists": true
       },
       {
@@ -3323,10 +3365,31 @@
         "target_exists": true
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…beyond its borders. ## Related - [[hydro-geopolitics]] - ganges-contribution - [[india-energy-relationship]] - [[bangladesh-trade-route]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "data-layer-nepal-origin-ocean-routes",
+        "category": "data",
+        "context": "…A report. ## Related - [[downstream-river-geopolitics]] - ganges-contribution - [[hydro-geopolitics]] - [[data-layer-nepal-origin-downstr…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-downstream-impact-markers",
         "title": "Layer: Downstream Impact Markers",
         "category": "data",
         "context": "…discharge]] - [[seasonal-mismatch]] - [[storage-deficit]] - ganges-contribution - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…ce table. ## Related - [[downstream-river-geopolitics]] - ganges-contribution - [[hydro-geopolitics]] - [[storage-deficit]] - [[firm-powe…",
         "target_exists": true
       },
       {
@@ -3375,7 +3438,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…- **System-scale Ganges contribution arrows** to reinforce ganges-contribution - **Solar system preset** tying [[data-nepal-solar-resource…",
+        "context": "…- **System-scale Ganges contribution arrows** to reinforce ganges-contribution beyond the new [[data-layer-nepal-origin-ocean-routes]] rou…",
         "target_exists": true
       },
       {
@@ -3611,6 +3674,13 @@
         "title": "Seasonal Arbitrage Trap",
         "category": "concepts",
         "context": "…-border capacity is usable and at what effective price; see india-energy-relationship. ## Two price realities: IEX vs whole-system The trap ope…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…elated - [[hydro-geopolitics]] - [[ganges-contribution]] - india-energy-relationship - [[bangladesh-trade-route]] - [[storage-deficit]] - [[envi…",
         "target_exists": true
       },
       {
@@ -4914,7 +4984,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…ies]]. - **Storage annotations** for [[kulekhani-cascade]], tanahu-hydropower, [[budhigandaki]], and [[dudhkoshi-storage]] - **Sediment /…",
+        "context": "…ies]]. - **Storage annotations** for [[kulekhani-cascade]], tanahu-hydropower, [[budhigandaki]], and [[dudhkoshi-storage]] - **Future reg…",
         "target_exists": true
       },
       {
@@ -5176,6 +5246,13 @@
         "target_exists": true
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…ensitivity to embankments, barrages, and extreme events. **gandaki-basin** is a strong flow and irrigation case: it links Nepal's ce…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-sediment-core-issue",
         "title": "Sediment Is a Central Design and Economics Constraint, Not an O&M Footnote",
         "category": "claims",
@@ -5432,6 +5509,13 @@
         "target_exists": true
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…- [[ganges-contribution]] - [[india-energy-relationship]] - bangladesh-trade-route - [[storage-deficit]] - [[environmental-flow-policy]]",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -5605,6 +5689,20 @@
         "title": "MoEWRI IPSDP Executive Summary",
         "category": "sources",
         "context": "…estone-ladder-2022-2040]] - [[nepal-power-trade-schemes]] - environmental-flow-policy - [[ipsdp-2025-vs-wiki-claims]]",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…asting? This is where [[storage-deficit]], [[firm-power]], environmental-flow-policy, and [[hydro-geopolitics]] meet. Hydropower becomes geopoli…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…ydro-geopolitics]] - [[storage-deficit]] - [[firm-power]] - environmental-flow-policy - [[data-layer-storage-shortlist]] - [[data-map-layer-label…",
         "target_exists": true
       }
     ],
@@ -5849,6 +5947,13 @@
         "title": "Rooftop, Mini-Grid, and Off-Grid Solar",
         "category": "concepts",
         "context": "…% of households** not yet on the NEA grid — concentrated in karnali-basin and [[mahakali-basin]] districts where grid extension is ei…",
+        "target_exists": true
+      },
+      {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…yani downstream system and large canal-command politics. **karnali-basin** is the strategic future case: large undeveloped storage a…",
         "target_exists": true
       },
       {
@@ -6458,6 +6563,13 @@
         "title": "Data Pipeline Readme",
         "category": "data",
         "context": "…ed - [[data-trade-time-series]] - [[data-map-inventory]] - data-storage-comparison - [[unresolved-questions]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…before treating a point as a site-grade location. data-storage-comparison includes Chera-1 in the tabular research workspace, but Che…",
         "target_exists": true
       },
       {
@@ -7125,6 +7237,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…ation risk. ## What It Represents This layer reframes the data-layer-storage-shortlist for the geopolitics preset. The question is not only how ma…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-priority-watchlist",
         "title": "Layer: Priority Watchlist",
         "category": "data",
@@ -7142,7 +7261,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…ghted for dry-season energy value, not just installed MW. | data-layer-storage-shortlist | | Top-10 capacity projects | 10 | Largest hydropower proj…",
+        "context": "…ghted for dry-season energy value, not just installed MW. | data-layer-storage-shortlist | | Future regulation scenario | 11 | Storage-first scenari…",
         "target_exists": true
       }
     ],
@@ -7295,6 +7414,13 @@
         "target_exists": true
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…torage and forecasting? This is where [[storage-deficit]], firm-power, [[environmental-flow-policy]], and [[hydro-geopolitics]] m…",
+        "target_exists": true
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -7355,6 +7481,13 @@
         "title": "Layer: Basin Seasonality",
         "category": "data",
         "context": "…tch]] - [[seasonal-arbitrage-trap]] - [[storage-deficit]] - firm-power - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…tribution]] - [[hydro-geopolitics]] - [[storage-deficit]] - firm-power - [[environmental-flow-policy]] - [[data-layer-storage-shor…",
         "target_exists": true
       },
       {
@@ -8360,6 +8493,13 @@
         "target_exists": true
       },
       {
+        "slug": "downstream-river-geopolitics",
+        "title": "Downstream River Geopolitics",
+        "category": "syntheses",
+        "context": "…opment stakes, and Ghaghara-system relevance downstream. **mahakali-basin** is the treaty case: a border river where hydropower, irri…",
+        "target_exists": true
+      },
+      {
         "slug": "data-basin-discharge",
         "title": "Basin Discharge Data",
         "category": "data",
@@ -8592,7 +8732,7 @@
         "slug": "data-map-inventory",
         "title": "Map Inventory",
         "category": "data",
-        "context": "…tations** for [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki, and [[dudhkoshi-storage]] - **Sediment / GLOF hazard marke…",
+        "context": "…tations** for [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki, and [[dudhkoshi-storage]] - **Future regulation scenario**…",
         "target_exists": true
       },
       {
@@ -9762,6 +9902,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…onmental-flow-policy]] - [[data-layer-storage-shortlist]] - data-map-layer-labels",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-grid-hubs-place-anchors",
         "title": "Layer: Grid Hubs and Substations",
         "category": "data",
@@ -9939,6 +10086,22 @@
         "target_exists": true
       }
     ],
+    "downstream-river-geopolitics": [
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "data-layer-nepal-origin-ocean-routes",
+        "category": "data",
+        "context": "…_ocean_route_report.json) - route QA report. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[data-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "….csv) - storage and dry-energy source table. ## Related - downstream-river-geopolitics - [[ganges-contribution]] - [[hydro-geopolitics]] - [[stora…",
+        "target_exists": true
+      }
+    ],
     "project-roadmap": [
       {
         "slug": "data-layer-transmission-trace-gaps-qa",
@@ -9973,6 +10136,38 @@
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…, such as capacity. ## Related - [[data-map-inventory]] - project-roadmap - [[claim-transmission-immediate-blocker]] - [[storage-defi…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-nepal-origin-downstream-systems": [
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "data-layer-nepal-origin-ocean-routes",
+        "category": "data",
+        "context": "…al. ## What It Represents This layer extends the existing data-layer-nepal-origin-downstream-systems beyond the northern plains. It lets the reader follow each…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…o show where upstream control becomes regional influence. | data-layer-nepal-origin-downstream-systems | | Nepal-origin routes to ocean | 4 | HydroRIVERS downstre…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-downstream-impact-markers": [
+      {
+        "slug": "data-layer-nepal-origin-ocean-routes",
+        "title": "data-layer-nepal-origin-ocean-routes",
+        "category": "data",
+        "context": "…litics]] - [[data-layer-nepal-origin-downstream-systems]] - data-layer-downstream-impact-markers",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…unoff, monsoon share, and impact notes for major systems. | data-layer-downstream-impact-markers | | Origin / control callouts | 8 | Interpretive callouts f…",
         "target_exists": true
       }
     ],
@@ -10015,6 +10210,38 @@
         "category": "data",
         "context": "…aratpur-220]] - [[marsyangdi-upper-220]] - [[kabeli-132]] - solu-tingla-mirchaiya-132 - [[data-map-layer-labels]] - [[data-map-inventory]]",
         "target_exists": true
+      }
+    ],
+    "data-layer-future-regulation-scenario": [
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory",
+        "category": "data",
+        "context": "…torage]] - **Future regulation scenario** is now exposed as data-layer-future-regulation-scenario, using mapped storage candidates as a strategic timing laye…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ter timing, downstream sensitivity, and cooperation risk. | data-layer-future-regulation-scenario | | Top-10 capacity projects | 10 | Largest hydropower proj…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-nepal-origin-ocean-routes": [
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory",
+        "category": "data",
+        "context": "…rrows** to reinforce [[ganges-contribution]] beyond the new data-layer-nepal-origin-ocean-routes route traces. - **Solar system preset** tying [[data-nepal-…",
+        "target_exists": false
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…rough the Ganges/Padma/Meghna route to the Bay of Bengal. | data-layer-nepal-origin-ocean-routes | | India comparison rivers | 11 | Reference rivers outside…",
+        "target_exists": false
       }
     ],
     "data-layer-carto-positron": [
@@ -10071,30 +10298,12 @@
         "target_exists": true
       }
     ],
-    "data-layer-nepal-origin-downstream-systems": [
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…o show where upstream control becomes regional influence. | data-layer-nepal-origin-downstream-systems | | India comparison rivers | 11 | Reference rivers outside…",
-        "target_exists": true
-      }
-    ],
     "data-layer-india-comparison-rivers": [
       {
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…not overstate Nepal's share of northern India hydrology. | data-layer-india-comparison-rivers | | Downstream impact markers | 4 | Point markers carrying…",
-        "target_exists": true
-      }
-    ],
-    "data-layer-downstream-impact-markers": [
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…unoff, monsoon share, and impact notes for major systems. | data-layer-downstream-impact-markers | | Origin / control callouts | 8 | Interpretive callouts f…",
         "target_exists": true
       }
     ],

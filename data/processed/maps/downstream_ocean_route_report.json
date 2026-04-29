@@ -1,0 +1,56 @@
+{
+  "route_count": 4,
+  "bounds": [
+    77.0,
+    20.5,
+    92.8,
+    31.8
+  ],
+  "routes": [
+    {
+      "id": "koshi_ocean_route",
+      "origin_system_id": "koshi_system",
+      "start_reach_id": 40950960,
+      "snap_distance_km": 0.41,
+      "reach_count": 183,
+      "route_length_km": 529.0,
+      "reached_terminal": true,
+      "terminal_lon": 90.63124999999954,
+      "terminal_lat": 23.222916666666286
+    },
+    {
+      "id": "gandaki_ocean_route",
+      "origin_system_id": "gandaki_system",
+      "start_reach_id": 40935734,
+      "snap_distance_km": 0.19,
+      "reach_count": 244,
+      "route_length_km": 806.7,
+      "reached_terminal": true,
+      "terminal_lon": 90.63124999999954,
+      "terminal_lat": 23.222916666666286
+    },
+    {
+      "id": "karnali_ocean_route",
+      "origin_system_id": "karnali_system",
+      "start_reach_id": 40929485,
+      "snap_distance_km": 0.42,
+      "reach_count": 252,
+      "route_length_km": 859.9,
+      "reached_terminal": true,
+      "terminal_lon": 90.63124999999954,
+      "terminal_lat": 23.222916666666286
+    },
+    {
+      "id": "mahakali_ocean_route",
+      "origin_system_id": "mahakali_system",
+      "start_reach_id": 40799238,
+      "snap_distance_km": 0.26,
+      "reach_count": 409,
+      "route_length_km": 1438.8,
+      "reached_terminal": true,
+      "terminal_lon": 90.63124999999954,
+      "terminal_lat": 23.222916666666286
+    }
+  ],
+  "skipped": []
+}

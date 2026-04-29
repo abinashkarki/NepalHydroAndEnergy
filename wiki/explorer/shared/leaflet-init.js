@@ -384,6 +384,7 @@ class LayerManager {
     this._preset = options.preset || "";
     this._basemap = options.basemap || "Carto Positron";
     this._activeSet = new Set();
+    this._manualSet = new Set();
 
     // Zoom-aware simplification
     map.on("zoomend", () => {
@@ -395,7 +396,7 @@ class LayerManager {
       // At national zoom: reduce marker radius for non-primary layers
       // At regional zoom: slightly reduce secondary layers so they don't compete with primary
       for (const [key, layer] of Object.entries(this.layers)) {
-        if (!this.has(key)) continue;
+        if (!this._activeSet.has(key)) continue;
         const def = this.manifest.layers[key];
         if (!def) continue;
         const { role } = resolveLayerStyle(def, this._preset, this._basemap, zoom, key);
@@ -418,11 +419,11 @@ class LayerManager {
           }
         } catch (e) {}
         // Gradual reveal: re-apply capacity filter on zoom change
-        if (key === "hydropower_construction" && this._preset === "power_system") {
+        if (key === "hydropower_construction" && this._preset === "power_system" && !this._manualSet.has(key)) {
           this._applyConstructionFilter(layer, zoom);
         }
         // National zoom density guard: re-apply top-10 filter on zoom change
-        if (key === "hydropower_operating" && this._preset === "power_system") {
+        if (key === "hydropower_operating" && this._preset === "power_system" && !this._manualSet.has(key)) {
           this._applyOperatingFilter(layer, zoom);
         }
       }
@@ -656,6 +657,19 @@ class LayerManager {
     });
   }
 
+  _resetPointOpacity(layer) {
+    if (!layer || !layer.eachLayer) return;
+    layer.eachLayer((m) => {
+      try {
+        if (typeof m.setOpacity === "function") {
+          m.setOpacity(1);
+        } else if (m.getElement) {
+          m.getElement().style.opacity = "1";
+        }
+      } catch (e) {}
+    });
+  }
+
   _svgIconHtml(iconKey) {
     if (!this._iconsCache) this._iconsCache = {};
     if (this._iconsCache[iconKey]) return this._iconsCache[iconKey];
@@ -706,7 +720,11 @@ class LayerManager {
       if (!layer) continue;
       const def = this.manifest.layers[key];
       if (!def) continue;
-      const { role, roleStyle } = resolveLayerStyle(def, this._preset, this._basemap, this.map.getZoom(), key);
+      let { role, roleStyle } = resolveLayerStyle(def, this._preset, this._basemap, this.map.getZoom(), key);
+      if (!roleStyle.visible && this._manualSet.has(key)) {
+        role = "primary";
+        roleStyle = ROLE_STYLES.primary;
+      }
       if (!roleStyle.visible) {
         try { this.map.removeLayer(layer); } catch (e) {}
         continue;
@@ -714,6 +732,9 @@ class LayerManager {
       // Re-add if removed
       if (!this.map.hasLayer(layer)) {
         try { layer.addTo(this.map); } catch (e) {}
+      }
+      if (def.kind === "point" && this._manualSet.has(key)) {
+        this._resetPointOpacity(layer);
       }
       // Apply opacity to line/polygon layers (points handled at marker level)
       if (def.kind !== "point") {
@@ -739,11 +760,11 @@ class LayerManager {
         }
       } catch (e) {}
       // Gradual reveal: construction projects show top-quartile only at zoom 9–10
-      if (key === "hydropower_construction" && this._preset === "power_system" && def.kind === "point") {
+      if (key === "hydropower_construction" && this._preset === "power_system" && def.kind === "point" && !this._manualSet.has(key)) {
         this._applyConstructionFilter(layer, this.map.getZoom());
       }
       // National zoom density guard: operating plants show top-10 only at zoom <= 6
-      if (key === "hydropower_operating" && this._preset === "power_system" && def.kind === "point") {
+      if (key === "hydropower_operating" && this._preset === "power_system" && def.kind === "point" && !this._manualSet.has(key)) {
         this._applyOperatingFilter(layer, this.map.getZoom());
       }
     }
@@ -783,18 +804,21 @@ class LayerManager {
     return `${key}:${p.id || p.corridor_id || p.segment_id || p.project || p.name}`;
   }
 
-  async add(key) {
+  async add(key, opts = {}) {
     const layer = await this.preload(key);
+    if (opts.manual) this._manualSet.add(key);
+    this._activeSet.add(key);
     if (layer && !this.map.hasLayer(layer)) {
       layer.addTo(this.map);
       if (this.options.onLayerToggle) this.options.onLayerToggle(key, true);
     }
-    this._activeSet.add(key);
+    this._applyRoleVisibility();
     this.normalizeZOrder();
     return layer;
   }
 
   remove(key) {
+    this._manualSet.delete(key);
     const layer = this.layers[key];
     if (layer && this.map.hasLayer(layer)) {
       this.map.removeLayer(layer);
@@ -808,12 +832,17 @@ class LayerManager {
     return !!(layer && this.map.hasLayer(layer));
   }
 
+  isManual(key) {
+    return this._manualSet.has(key);
+  }
+
   activeKeys() {
     // Return user-selected / preset keys, regardless of current zoom visibility
     return [...this._activeSet];
   }
 
   async setActive(keys) {
+    this._manualSet.clear();
     // Remove layers that are no longer in the desired set
     this._activeSet = new Set(keys);
     for (const k of Object.keys(this.layers)) {

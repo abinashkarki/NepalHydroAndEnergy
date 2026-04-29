@@ -3438,6 +3438,188 @@ def build_storage_shortlist_annotations(
     return {"type": "FeatureCollection", "features": features}, {"skipped": skipped}
 
 
+DOWNSTREAM_SYSTEM_BY_BASIN = {
+    "Koshi": ("koshi_system", "Kosi / Ganges"),
+    "Gandaki": ("gandaki_system", "Narayani-Gandak / Ganges"),
+    "Karnali": ("karnali_system", "Ghaghara / Ganges"),
+    "Mahakali": ("mahakali_system", "Mahakali-Sharda / Ganges"),
+    "West Rapti": ("west_rapti_system", "Rapti-Ghaghara / Ganges"),
+    "Bagmati": ("bagmati_system", "Bagmati / Bihar plains"),
+}
+
+
+def scenario_role_for_storage_project(project: str, category: str) -> str:
+    if project == "Kulekhani I-III":
+        return "operating_baseline"
+    if project == "Tanahu":
+        return "near_term_storage"
+    if project == "Dudhkoshi Storage":
+        return "advanced_planned_storage"
+    if category == "jica_promising_storage":
+        return "promising_storage_candidate"
+    return category
+
+
+def scenario_horizon_for_role(role: str) -> str:
+    return {
+        "operating_baseline": "current",
+        "near_term_storage": "near_term",
+        "advanced_planned_storage": "planned",
+        "promising_storage_candidate": "long_run_candidate",
+    }.get(role, "candidate")
+
+
+def regulation_potential_for_storage(props: dict[str, Any], role: str) -> str:
+    dry_energy = props.get("dry_energy_gwh")
+    total_storage = props.get("total_storage_mcm")
+    effective_storage = props.get("effective_storage_mcm")
+    if role == "operating_baseline" and dry_energy is None:
+        return "baseline"
+    if (
+        (dry_energy is not None and dry_energy >= 500)
+        or (total_storage is not None and total_storage >= 1200)
+        or (effective_storage is not None and effective_storage >= 500)
+    ):
+        return "very_high"
+    if (dry_energy is not None and dry_energy >= 300) or (effective_storage is not None and effective_storage >= 300):
+        return "high"
+    if (dry_energy is not None and dry_energy >= 100) or (effective_storage is not None and effective_storage >= 150):
+        return "medium"
+    return "baseline" if role == "operating_baseline" else "low"
+
+
+def downstream_sensitivity_for_basin(basin: str) -> str:
+    if basin in {"Koshi", "Gandaki", "Karnali"}:
+        return "high"
+    if basin in {"Mahakali", "West Rapti", "Bagmati"}:
+        return "medium"
+    return "low"
+
+
+def treaty_sensitivity_for_basin(basin: str) -> str:
+    if basin in {"Koshi", "Gandaki", "Mahakali"}:
+        return "high"
+    if basin in {"Karnali", "West Rapti"}:
+        return "medium"
+    if basin == "Bagmati":
+        return "low_medium"
+    return "low"
+
+
+def cooperation_potential_for_project(regulation: str, downstream_sensitivity: str) -> str:
+    if regulation == "baseline":
+        return "baseline"
+    if regulation in {"high", "very_high"} and downstream_sensitivity == "high":
+        return "high"
+    if regulation == "medium" or downstream_sensitivity == "medium":
+        return "medium"
+    return "low"
+
+
+def scenario_confidence_for_location(location_basis: str | None) -> str:
+    basis = (location_basis or "").lower()
+    if "exact" in basis or "cluster centroid" in basis:
+        return "medium_high"
+    if "river" in basis or "anchor" in basis:
+        return "medium"
+    return "medium_low"
+
+
+def build_downstream_effect_note(
+    props: dict[str, Any],
+    regulation: str,
+    downstream_name: str,
+    downstream_sensitivity: str,
+) -> str:
+    dry_energy = props.get("dry_energy_gwh")
+    storage = props.get("effective_storage_mcm") or props.get("total_storage_mcm")
+    basis = []
+    if dry_energy is not None:
+        basis.append(f"{dry_energy:,.0f} GWh dry-season energy")
+    if storage is not None:
+        basis.append(f"{storage:,.0f} MCM storage scale")
+    metric_text = " and ".join(basis) if basis else "current/near-term storage role"
+    return (
+        f"{regulation.replace('_', ' ').title()} regulation signal for the {downstream_name} system, "
+        f"based on {metric_text}; downstream sensitivity is {downstream_sensitivity}."
+    )
+
+
+def build_future_regulation_scenario_annotations(
+    storage_annotations: dict[str, Any],
+    storage_skipped: list[dict[str, str]],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    features: list[dict[str, Any]] = []
+    skipped = [dict(row, source="storage_shortlist") for row in storage_skipped]
+
+    for index, feature in enumerate(storage_annotations["features"]):
+        props = feature["properties"]
+        project = props["project"]
+        basin = props["basin"]
+        role = scenario_role_for_storage_project(project, props["category"])
+        horizon = scenario_horizon_for_role(role)
+        regulation = regulation_potential_for_storage(props, role)
+        downstream_sensitivity = downstream_sensitivity_for_basin(basin)
+        treaty_sensitivity = treaty_sensitivity_for_basin(basin)
+        cooperation_potential = cooperation_potential_for_project(regulation, downstream_sensitivity)
+        downstream_system_id, downstream_name = DOWNSTREAM_SYSTEM_BY_BASIN.get(
+            basin, (f"{normalize_project_name(basin).replace(' ', '_')}_system", basin)
+        )
+        dx, dy = ANNOTATION_OFFSETS[index % len(ANNOTATION_OFFSETS)]
+        dry_energy = props.get("dry_energy_gwh")
+        capacity = props.get("installed_mw")
+        subtitle = (
+            f"{regulation.replace('_', ' ')} · {dry_energy:,.0f} dry GWh"
+            if dry_energy is not None
+            else f"{regulation.replace('_', ' ')} · {capacity:,.0f} MW" if capacity is not None else regulation
+        )
+        downstream_effect_note = build_downstream_effect_note(
+            props, regulation, downstream_name, downstream_sensitivity
+        )
+
+        features.append(
+            {
+                "type": "Feature",
+                "properties": {
+                    "id": f"future_regulation_{normalize_project_name(project).replace(' ', '_')}",
+                    "theme": "future_regulation_scenario",
+                    "name": project,
+                    "label_title": props["label_title"],
+                    "label_subtitle": subtitle,
+                    "basin": basin,
+                    "downstream_system_id": downstream_system_id,
+                    "downstream_name": downstream_name,
+                    "scenario_role": role,
+                    "scenario_horizon": horizon,
+                    "capacity_mw": capacity,
+                    "annual_energy_gwh": props.get("annual_energy_gwh"),
+                    "dry_energy_gwh": dry_energy,
+                    "dry_share_pct": props.get("dry_share_pct"),
+                    "total_storage_mcm": props.get("total_storage_mcm"),
+                    "effective_storage_mcm": props.get("effective_storage_mcm"),
+                    "regulation_potential": regulation,
+                    "downstream_sensitivity": downstream_sensitivity,
+                    "treaty_sensitivity": treaty_sensitivity,
+                    "cooperation_potential": cooperation_potential,
+                    "downstream_effect_note": downstream_effect_note,
+                    "scenario_read": (
+                        f"{props['priority_read']} Read as a {horizon.replace('_', ' ')} "
+                        f"regulation scenario, not as a hydrodynamic forecast."
+                    ),
+                    "source_note": props.get("source_note"),
+                    "location_basis": props.get("location_basis"),
+                    "confidence": scenario_confidence_for_location(props.get("location_basis")),
+                    "marker_color": "#0f766e",
+                    "dx": dx,
+                    "dy": dy,
+                },
+                "geometry": feature["geometry"],
+            }
+        )
+
+    return {"type": "FeatureCollection", "features": features}, {"skipped": skipped}
+
+
 def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     radius_km = 6371.0
     phi1 = math.radians(lat1)
@@ -4847,6 +5029,10 @@ def main() -> None:
     basin_annotations, basin_annotation_report = build_basin_seasonality_annotations(tributaries)
     top_project_annotations = build_top_capacity_project_annotations(projects)
     storage_annotations, storage_annotation_report = build_storage_shortlist_annotations(projects, tributaries)
+    future_regulation_scenario, future_regulation_report = build_future_regulation_scenario_annotations(
+        storage_annotations,
+        storage_annotation_report["skipped"],
+    )
     priority_watchlist, priority_watchlist_report = build_priority_project_watchlist(projects, storage_annotations)
     place_anchors, place_anchor_report = build_place_anchor_index()
     transmission_corridors, transmission_report = build_transmission_corridors(place_anchors)
@@ -4873,6 +5059,7 @@ def main() -> None:
     (PROCESSED / "top_capacity_project_annotations.geojson").write_text(json.dumps(top_project_annotations))
     (PROCESSED / "priority_project_watchlist.geojson").write_text(json.dumps(priority_watchlist))
     (PROCESSED / "storage_shortlist_annotations.geojson").write_text(json.dumps(storage_annotations))
+    (PROCESSED / "future_regulation_scenario.geojson").write_text(json.dumps(future_regulation_scenario))
     (PROCESSED / "place_anchor_index.geojson").write_text(
         json.dumps(
             {
@@ -4914,6 +5101,10 @@ def main() -> None:
                 "storage_shortlist": {
                     "feature_count": len(storage_annotations["features"]),
                     "skipped": storage_annotation_report["skipped"],
+                },
+                "future_regulation_scenario": {
+                    "feature_count": len(future_regulation_scenario["features"]),
+                    "skipped": future_regulation_report["skipped"],
                 },
             },
             indent=2,

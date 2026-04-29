@@ -24,5 +24,15 @@
         "reason": "no_reliable_anchor"
       }
     ]
+  },
+  "future_regulation_scenario": {
+    "feature_count": 11,
+    "skipped": [
+      {
+        "project": "Chera-1",
+        "reason": "no_reliable_anchor",
+        "source": "storage_shortlist"
+      }
+    ]
   }
 }

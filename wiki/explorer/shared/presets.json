@@ -33,20 +33,22 @@
         "country_outline",
         "tributaries",
         "downstream_systems",
+        "ocean_routes",
         "india_rivers",
         "basin_polygons",
         "india_basins",
         "callouts",
-        "hydrology_markers"
+        "hydrology_markers",
+        "future_regulation_scenario"
       ],
       "bounds": [
         [
-          24.0,
+          20.5,
           77.5
         ],
         [
           31.5,
-          90.0
+          92.8
         ]
       ]
     },
