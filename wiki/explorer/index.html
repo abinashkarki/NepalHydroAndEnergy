@@ -2540,6 +2540,9 @@
         tributaries: "data-layer-nepal-tributaries",
         downstream_systems: "data-layer-nepal-origin-downstream-systems",
         ocean_routes: "data-layer-nepal-origin-ocean-routes",
+        route_callouts: "data-layer-nepal-origin-route-callouts",
+        dependency_zones: "data-layer-downstream-dependency-zones",
+        population_anchors: "data-layer-downstream-population-anchors",
         india_rivers: "data-layer-india-comparison-rivers",
         hydrology_markers: "data-layer-downstream-impact-markers",
         callouts: "data-layer-origin-control-callouts",
@@ -2594,7 +2597,19 @@
         },
         ocean_routes: {
           summary: "Strategic HydroRIVERS traces that continue Nepal-linked systems through the Ganges/Padma/Meghna route to the Bay of Bengal.",
-          related: ["downstream-river-geopolitics", "ganges-contribution", "hydro-geopolitics"],
+          related: ["how-to-read-geopolitics-map", "downstream-river-geopolitics", "ganges-contribution"],
+        },
+        route_callouts: {
+          summary: "Merge, transition, and delta markers that make the Nepal-origin route-to-ocean traces readable.",
+          related: ["how-to-read-geopolitics-map", "downstream-river-geopolitics", "ganges-padma-transition"],
+        },
+        dependency_zones: {
+          summary: "Strategic downstream exposure zones. These show sensitivity along Nepal-linked routes, not Nepal control of downstream water.",
+          related: ["how-to-read-geopolitics-map", "downstream-river-geopolitics", "north-bihar-kosi-gandak-floodplain"],
+        },
+        population_anchors: {
+          summary: "City and delta anchors for orientation. They locate population geography; they are not water-supply attribution points.",
+          related: ["how-to-read-geopolitics-map", "downstream-river-geopolitics", "data-layer-downstream-population-anchors"],
         },
         india_rivers: {
           summary: "Reference rivers outside Nepal-origin control, included so the map does not overstate Nepal's share of northern India hydrology.",
@@ -3357,7 +3372,13 @@
 
         setTimeout(async () => {
           const feats = lm.findFeaturesForSlug(slug, bindings);
-          if (feats.length) {
+          if (binding.focus && Array.isArray(binding.focus.bounds)) {
+            map.flyToBounds(binding.focus.bounds, { padding: [40, 40], duration: 0.9, maxZoom: binding.focus.maxZoom || 9 });
+            if (feats.length) lm.highlight(feats, { revertAfterMs: 4000 });
+          } else if (binding.focus && Array.isArray(binding.focus.center)) {
+            map.flyTo(binding.focus.center, binding.focus.zoom || 8, { duration: 0.9 });
+            if (feats.length) lm.highlight(feats, { revertAfterMs: 4000 });
+          } else if (feats.length) {
             const card = lm.pickCardFeature(feats);
             if (card) {
               // Direct hit: ensure the focal feature's layer is actually on the map,
@@ -3566,6 +3587,9 @@
             { key: "tributaries", label: "Nepal rivers", symbol: "river" },
             { key: "downstream_systems", label: "Downstream rivers", symbol: "river-deep" },
             { key: "ocean_routes", label: "Ocean route", symbol: "river-deep" },
+            { key: "route_callouts", label: "Route notes", symbol: "source" },
+            { key: "dependency_zones", label: "Dependency zones", symbol: "poly-muted" },
+            { key: "population_anchors", label: "Population anchors", symbol: "city" },
             { key: "hydrology_markers", label: "Flow measurements", symbol: "impact" },
             { key: "callouts", label: "River influence", symbol: "source" },
             { special: "labels", label: "River name labels", symbol: "text" },
@@ -3634,6 +3658,7 @@
           gateway: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="4" cy="12" r="2.2"/><path d="M6.2 12h5"/><path d="M11.2 10l3 2-3 2"/><path d="M14.2 12h4"/><circle cx="20" cy="12" r="2.2"/></svg>`,
           substation: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l6.5 6.5-6.5 6.5-6.5-6.5z"/><path d="M9 9h6"/><path d="M12 5.5v7"/><path d="M12 13v3"/></svg>`,
           season: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="2.8"/><path d="M12 2v1.2"/><path d="M6 13.5c3-1.5 4 1 5 0s4 1 5 0"/><path d="M7 17c2.5-1.5 3.5 1 5 0s3.5 1 5 0"/></svg>`,
+          city: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 20V8.5h5V20"/><path d="M9.5 20V4h6V20"/><path d="M15.5 20v-9h4V20"/><path d="M7 11h.1M7 14h.1M12 7h.1M12 10h.1M12 13h.1M18 14h.1"/></svg>`,
           text: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h9"/><path d="M8.5 6v12"/><path d="M5.5 18h6"/><path d="M14 18l3-8 3 8"/><path d="M15.3 15h3.4"/></svg>`,
         };
         return icons[kind] || icons.text;
@@ -3660,6 +3685,7 @@
           solar: `<span class="lp-project-icon" style="color:#d97706;background:#fff7ed;border-color:#d97706">${svgIcon("solar")}</span>`,
           "solar-band": `<span class="lp-line dashed" style="--c:#ea580c"></span>`,
           floating: `<span class="lp-project-icon" style="color:#0f766e;background:#ccfbf1;border-color:#0f766e">${svgIcon("floating")}</span>`,
+          city: `<span class="lp-project-icon" style="color:#312e81;background:#e0e7ff;border-color:#4f46e5">${svgIcon("city")}</span>`,
           gateway: `<span class="lp-project-icon" style="color:#dc2626;background:#fee2e2;border-color:#b91c1c">${svgIcon("gateway")}</span>`,
           substation: `<span class="lp-project-icon" style="color:#475569;background:#f8fafc;border-color:#64748b">${svgIcon("substation")}</span>`,
           season: `<span class="lp-dot" style="--fill:#facc15;--stroke:#a16207"></span>`,

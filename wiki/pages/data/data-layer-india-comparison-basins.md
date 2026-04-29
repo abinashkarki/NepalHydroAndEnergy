@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: India Comparison Basins
 
-**Explorer label:** India comparison basins  
+**Explorer label:** India basins  
 **Layer group:** Hydrology and basin layers  
 **Feature count:** 4
 

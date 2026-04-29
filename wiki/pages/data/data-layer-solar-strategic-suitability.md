@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Solar Strategic Suitability
 
-**Explorer label:** Solar strategic suitability  
+**Explorer label:** Best solar locations  
 **Layer group:** Solar layers  
 **Feature count:** 6
 

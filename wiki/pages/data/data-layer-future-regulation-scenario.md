@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend, geopolitics, storage]
 
 # Layer: Future Regulation Scenario
 
-**Explorer label:** Future regulation scenario  
+**Explorer label:** Flow regulation  
 **Layer group:** Hydropower layers  
 **Feature count:** 11
 
@@ -35,11 +35,11 @@ Use this layer with Nepal-origin downstream systems, basin polygons, downstream 
 
 | Field | How To Use It |
 |-------|---------------|
-| `scenario_horizon` | Separates current, near-term, planned, and long-run candidate projects. |
-| `regulation_potential` | Indicates whether the project has baseline, medium, high, or very-high timing-regulation signal. |
+| Timing (`scenario_horizon`) | Separates Already operating, Under construction, Planned, and Long-term candidate projects. |
+| Flow impact (`regulation_potential`) | Indicates whether the project has baseline (no storage), low, medium, high, or very-high timing-regulation signal. |
 | `downstream_name` | Names the downstream river system affected by the basin. |
-| `downstream_sensitivity` | Flags whether the linked basin is geopolitically sensitive downstream. |
-| `cooperation_potential` | Identifies where regulation could create cooperative surplus rather than only unilateral leverage. |
+| Downstream risk (`downstream_sensitivity`) | Flags whether the linked basin is geopolitically sensitive downstream. |
+| Cooperation needed (`cooperation_potential`) | Identifies where regulation could create cooperative surplus rather than only unilateral leverage. |
 
 The deterministic regulation classes are based on dry-season energy, total storage, and effective storage where available. They are scenario labels, not hydrodynamic model results.
 
@@ -47,7 +47,7 @@ The deterministic regulation classes are based on dry-season energy, total stora
 
 This is a strategic interpretation layer. It does not model reservoir operations, treaty entitlements, flood-routing hydraulics, sediment trapping, irrigation withdrawals, or environmental-flow compliance.
 
-Several projects are planning candidates rather than committed assets. Location precision varies by marker; use `location_basis` and `confidence` before treating a point as a site-grade location.
+Several projects are planning candidates rather than committed assets. Location precision varies by marker; use the Location source (`location_basis`) and `confidence` fields before treating a point as a site-grade location.
 
 [[data-storage-comparison]] includes Chera-1 in the tabular research workspace, but Chera-1 is not exposed here because it does not currently have a reliable map anchor.
 

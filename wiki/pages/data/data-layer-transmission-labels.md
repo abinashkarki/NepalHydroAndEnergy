@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Transmission Labels
 
-**Explorer label:** Transmission labels  
+**Explorer label:** Grid line labels  
 **Layer group:** Text label overlays  
 **Feature count:** text overlay
 

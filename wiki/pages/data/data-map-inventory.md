@@ -36,6 +36,9 @@ For the reader-facing legend and layer-control wording, see [[data-map-layer-lab
 | India comparison rivers | [india_reference_rivers.geojson](../../assets/maps/layers/india_reference_rivers.geojson) | 11 | Northern plains comparison rivers with no Nepal-origin control |
 | Nepal-origin downstream systems | [nepal_origin_downstream_systems.geojson](../../assets/maps/layers/nepal_origin_downstream_systems.geojson) | 4 | Koshi, Gandaki, Karnali, Mahakali traced beyond Nepal |
 | Nepal-origin routes to ocean | `data/processed/maps/nepal_origin_ocean_routes.geojson` | 4 | HydroRIVERS route extensions from Nepal-linked systems to the Bay of Bengal |
+| Route merge / delta callouts | `data/processed/maps/nepal_origin_route_callouts.geojson` | 7 | Strategic merge, transition, and delta markers for route readability |
+| Downstream dependency zones | `data/processed/maps/downstream_dependency_zones.geojson` | 5 | Broad downstream exposure zones for agriculture, population, flood, dry-season, sediment, and delta sensitivity |
+| Downstream population anchors | `data/processed/maps/downstream_population_anchors.geojson` | 10 | City and delta anchors along Nepal-linked downstream routes |
 | Nepal-linked basin polygons | [nepal_linked_basin_polygons.geojson](../../assets/maps/layers/nepal_linked_basin_polygons.geojson) | 4 | Upstream hydrologic polygons for Nepal-linked systems |
 | India-origin comparison basins | [india_comparison_basin_polygons.geojson](../../assets/maps/layers/india_comparison_basin_polygons.geojson) | 4 | Comparison basins with zero Nepal-origin control |
 | Origin/control callouts | [river_influence_callouts.geojson](../../assets/maps/layers/river_influence_callouts.geojson) | 8 | Basin-level interpretive labels and Nepal-share metadata |
@@ -64,7 +67,7 @@ For the reader-facing legend and layer-control wording, see [[data-map-layer-lab
 - Exact OSM linework was **not** recovered for **West Seti River**, **Chameliya River**, and **West Rapti River**; they are flagged in the fetch report rather than invented.
 - Some transmission corridors remain corridor-grade rather than tower-by-tower alignments; the public network exposes status, confidence, and source provenance instead of hiding that uncertainty.
 - Cross-border interconnections are now mapped conservatively as gateway lines/stubs, with operational and planned links styled distinctly.
-- Solar layers are curated evidence layers, not engineering-grade GIS. Exact-looking points are used only where DoED coordinates exist; tender markers use substation or district anchors with `precision_label` and `location_basis`.
+- Solar layers are curated evidence layers, not engineering-grade GIS. Exact-looking points are used only where DoED coordinates exist; tender markers use substation or district anchors with Location source (`location_basis`) and `precision_label`.
 
 ## Next Annotation Layers
 
@@ -76,7 +79,7 @@ These are the clearest upgrades if the map stack is pushed further toward infogr
 - **Future regulation scenario** is now exposed as [[data-layer-future-regulation-scenario]], using mapped storage candidates as a strategic timing layer.
 - **Sediment / GLOF hazard markers** for [[koshi-basin]] and key Gandaki corridors
 - **Basin popup sparklines** showing monsoon vs dry share directly inside the map
-- **System-scale Ganges contribution arrows** to reinforce [[ganges-contribution]] beyond the new [[data-layer-nepal-origin-ocean-routes]] route traces.
+- **System-scale Ganges contribution arrows** to reinforce [[ganges-contribution]] beyond the new [[data-layer-nepal-origin-ocean-routes]] route traces and [[data-layer-downstream-dependency-zones]].
 - **Solar system preset** tying [[data-nepal-solar-resource-zones]], [[data-solar-fleet-inventory]], [[nea-960mw-solar-tender]], and [[claim-floating-pv-leverage]] to the explorer
 
 ## Related

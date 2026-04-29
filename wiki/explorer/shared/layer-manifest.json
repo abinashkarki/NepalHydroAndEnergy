@@ -31,11 +31,10 @@
         "fillColor": "#3b82f6"
       },
       "popup_fields": [
-        "name",
-        "upstream_area_km2",
-        "nepal_share_pct",
-        "monsoon_share_pct",
-        "annual_discharge_m3s"
+        {"field": "upstream_area_km2", "label": "Upstream area"},
+        {"field": "nepal_share_pct", "label": "Nepal's share"},
+        {"field": "monsoon_share_pct", "label": "Monsoon share"},
+        {"field": "annual_discharge_m3s", "label": "Annual flow"}
       ],
       "tooltip_fields": [
         "name",
@@ -77,11 +76,10 @@
         "dashArray": "4,3"
       },
       "popup_fields": [
-        "name",
-        "upstream_area_km2",
-        "nepal_share_pct",
-        "monsoon_share_pct",
-        "annual_discharge_m3s"
+        {"field": "upstream_area_km2", "label": "Upstream area"},
+        {"field": "nepal_share_pct", "label": "Nepal's share"},
+        {"field": "monsoon_share_pct", "label": "Monsoon share"},
+        {"field": "annual_discharge_m3s", "label": "Annual flow"}
       ],
       "tooltip_fields": [
         "name",
@@ -105,10 +103,9 @@
         "opacity": 0.85
       },
       "popup_fields": [
-        "name",
         "basin",
-        "wecs_mw",
-        "note"
+        {"field": "wecs_mw", "label": "Hydropower potential"},
+        {"field": "note", "label": "Notes"}
       ],
       "tooltip_fields": [
         "name",
@@ -132,12 +129,11 @@
         "opacity": 0.9
       },
       "popup_fields": [
-        "name",
         "downstream_name",
         "basin",
-        "annual_discharge_m3s",
-        "annual_runoff_bcm",
-        "impact_note"
+        {"field": "annual_discharge_m3s", "label": "Annual flow"},
+        {"field": "annual_runoff_bcm", "label": "Annual runoff"},
+        {"field": "impact_note", "label": "Downstream impact"}
       ],
       "tooltip_fields": [
         "name",
@@ -162,18 +158,116 @@
         "dashArray": "6,4"
       },
       "popup_fields": [
-        "name",
         "basin",
-        "merge_system",
+        {"field": "merge_system", "label": "River path"},
         "ocean_endpoint",
-        "route_confidence",
-        "snap_distance_km",
+        {"field": "route_confidence", "label": "Route certainty"},
+        {"field": "snap_distance_km", "label": "Route accuracy"},
         "route_length_km",
-        "impact_note"
+        {"field": "impact_note", "label": "Downstream impact"}
       ],
       "tooltip_fields": [
         "name",
         "route_confidence"
+      ],
+      "roleByPreset": {
+        "tributaries": "off",
+        "geopolitics": "secondary",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off"
+      }
+    },
+    "route_callouts": {
+      "path": "../../../data/processed/maps/nepal_origin_route_callouts.geojson",
+      "kind": "point",
+      "label": "Route merge / delta callouts",
+      "style": {
+        "radius": 5,
+        "color": "#0f766e",
+        "weight": 2,
+        "fillColor": "#ccfbf1",
+        "fillOpacity": 0.92
+      },
+      "popup_fields": [
+        "label_title",
+        "label_subtitle",
+        {"field": "callout_type", "label": "Callout type"},
+        {"field": "river_system", "label": "River system"},
+        "country",
+        {"field": "strategic_note", "label": "Strategic read"},
+        {"field": "map_read_note", "label": "Map note"},
+        "confidence"
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "river_system"
+      ],
+      "roleByPreset": {
+        "tributaries": "off",
+        "geopolitics": "annotation",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off"
+      }
+    },
+    "dependency_zones": {
+      "path": "../../../data/processed/maps/downstream_dependency_zones.geojson",
+      "kind": "polygon",
+      "label": "Downstream dependency zones",
+      "style": {
+        "color": "#b45309",
+        "weight": 1.1,
+        "fillColor": "#f59e0b",
+        "fillOpacity": 0.08,
+        "dashArray": "5,4"
+      },
+      "popup_fields": [
+        "name",
+        "country",
+        {"field": "dependency_type", "label": "Dependency type"},
+        {"field": "population_pressure", "label": "Population pressure"},
+        {"field": "agriculture_importance", "label": "Agriculture importance"},
+        {"field": "dry_season_sensitivity", "label": "Dry-season sensitivity"},
+        {"field": "flood_sensitivity", "label": "Flood sensitivity"},
+        {"field": "strategic_read", "label": "Strategic read"},
+        {"field": "source_note", "label": "Caveat"}
+      ],
+      "tooltip_fields": [
+        "name",
+        "dependency_type"
+      ],
+      "roleByPreset": {
+        "tributaries": "off",
+        "geopolitics": "context",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off"
+      }
+    },
+    "population_anchors": {
+      "path": "../../../data/processed/maps/downstream_population_anchors.geojson",
+      "kind": "point",
+      "label": "Downstream population anchors",
+      "style": {
+        "radius": 4,
+        "color": "#312e81",
+        "weight": 1.6,
+        "fillColor": "#818cf8",
+        "fillOpacity": 0.78
+      },
+      "popup_fields": [
+        "name",
+        "country",
+        {"field": "anchor_type", "label": "Anchor type"},
+        {"field": "nearby_river_system", "label": "Nearby river system"},
+        {"field": "population_class", "label": "Population class"},
+        {"field": "dependency_note", "label": "Dependency note"},
+        {"field": "floodplain_context", "label": "Caveat"}
+      ],
+      "tooltip_fields": [
+        "name",
+        "nearby_river_system"
       ],
       "roleByPreset": {
         "tributaries": "off",
@@ -220,12 +314,11 @@
         "fillOpacity": 0.85
       },
       "popup_fields": [
-        "name",
         "basin",
-        "annual_discharge_m3s",
-        "annual_runoff_bcm",
-        "monsoon_share_pct",
-        "impact_note"
+        {"field": "annual_discharge_m3s", "label": "Annual flow"},
+        {"field": "annual_runoff_bcm", "label": "Annual runoff"},
+        {"field": "monsoon_share_pct", "label": "Monsoon share"},
+        {"field": "impact_note", "label": "Downstream impact"}
       ],
       "tooltip_fields": [
         "name",
@@ -251,11 +344,10 @@
         "fillOpacity": 0.85
       },
       "popup_fields": [
-        "name",
         "basin",
-        "control_class",
-        "nepal_share_pct",
-        "monsoon_share_pct",
+        {"field": "control_class", "label": "Water control"},
+        {"field": "nepal_share_pct", "label": "Nepal's share"},
+        {"field": "monsoon_share_pct", "label": "Monsoon share"},
         "downstream_name"
       ],
       "tooltip_fields": [
@@ -293,9 +385,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        "project",
-        "license_type",
-        "capacity_mw",
+        {"field": "license_type", "label": "Status"},
+        {"field": "capacity_mw", "label": "Capacity"},
         "river",
         "district",
         "province"
@@ -354,9 +445,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        "project",
-        "license_type",
-        "capacity_mw",
+        {"field": "license_type", "label": "Status"},
+        {"field": "capacity_mw", "label": "Capacity"},
         "river",
         "district",
         "province"
@@ -415,9 +505,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        "project",
-        "license_type",
-        "capacity_mw",
+        {"field": "license_type", "label": "Status"},
+        {"field": "capacity_mw", "label": "Capacity"},
         "river",
         "district",
         "province"
@@ -465,11 +554,9 @@
         "fillOpacity": 0.85
       },
       "popup_fields": [
-        "label_title",
-        "label_subtitle",
         "river",
         "district",
-        "priority_read"
+        {"field": "priority_read", "label": "Why it matters"}
       ],
       "tooltip_fields": [
         "label_title",
@@ -513,13 +600,12 @@
         "fillOpacity": 0.85
       },
       "popup_fields": [
-        "label_title",
         "category",
         "basin",
-        "installed_mw",
-        "annual_energy_gwh",
-        "dry_energy_gwh",
-        "dry_share_pct"
+        {"field": "installed_mw", "label": "Installed capacity"},
+        {"field": "annual_energy_gwh", "label": "Annual energy"},
+        {"field": "dry_energy_gwh", "label": "Dry-season energy"},
+        {"field": "dry_share_pct", "label": "Dry-season share"}
       ],
       "tooltip_fields": [
         "label_title",
@@ -566,18 +652,73 @@
         "fillOpacity": 0.82
       },
       "popup_fields": [
-        "label_title",
-        "scenario_horizon",
-        "regulation_potential",
+        {
+          "field": "scenario_horizon",
+          "label": "Timing",
+          "value_map": {
+            "current": "Already operating",
+            "near_term": "Under construction",
+            "planned": "Planned",
+            "long_run_candidate": "Long-term candidate",
+            "candidate": "Candidate"
+          }
+        },
+        {
+          "field": "regulation_potential",
+          "label": "Flow impact",
+          "value_map": {
+            "baseline": "Baseline (no storage)",
+            "very_high": "Very high",
+            "high": "High",
+            "medium": "Medium",
+            "low": "Low"
+          }
+        },
         "downstream_name",
-        "downstream_sensitivity",
-        "treaty_sensitivity",
-        "cooperation_potential",
-        "downstream_effect_note"
+        {
+          "field": "downstream_sensitivity",
+          "label": "Downstream risk",
+          "value_map": {
+            "high": "High",
+            "medium": "Medium",
+            "low": "Low"
+          }
+        },
+        {
+          "field": "treaty_sensitivity",
+          "label": "Treaty exposure",
+          "value_map": {
+            "high": "High",
+            "medium": "Medium",
+            "low_medium": "Low to medium",
+            "low": "Low"
+          }
+        },
+        {
+          "field": "cooperation_potential",
+          "label": "Cooperation needed",
+          "value_map": {
+            "baseline": "Baseline (no change)",
+            "high": "High",
+            "medium": "Medium",
+            "low": "Low"
+          }
+        },
+        {"field": "downstream_effect_note", "label": "Downstream effect"}
       ],
       "tooltip_fields": [
         "label_title",
-        "regulation_potential",
+        {
+          "field": "regulation_potential",
+          "label": "Flow impact",
+          "value_map": {
+            "baseline": "Baseline (no storage)",
+            "very_high": "Very high",
+            "high": "High",
+            "medium": "Medium",
+            "low": "Low"
+          }
+        },
         "downstream_name"
       ],
       "card_fields": {
@@ -623,8 +764,6 @@
         "fillOpacity": 0.85
       },
       "popup_fields": [
-        "label_title",
-        "label_subtitle",
         "river",
         "district",
         "license_type",
@@ -675,8 +814,7 @@
         "opacity": 0.85
       },
       "popup_fields": [
-        "name",
-        "voltage_kv",
+        {"field": "voltage_kv", "label": "Voltage"},
         "status",
         "category",
         "importance"
@@ -744,14 +882,13 @@
         }
       },
       "popup_fields": [
-        "name",
         "segment_name",
-        "voltage_kv",
+        {"field": "voltage_kv", "label": "Voltage"},
         "status",
-        "geometry_role",
-        "trace_confidence",
+        {"field": "geometry_role", "label": "Line source"},
+        {"field": "trace_confidence", "label": "Certainty"},
         "source_id",
-        "source_page_or_sheet",
+        {"field": "source_page_or_sheet", "label": "Source reference"},
         "length_km",
         "notes"
       ],
@@ -802,7 +939,7 @@
         "fillOpacity": 0.8
       },
       "popup_fields": [
-        "query",
+        {"field": "query", "label": "Location source"},
         "basis"
       ],
       "tooltip_fields": [
@@ -836,8 +973,7 @@
         "fillOpacity": 0.85
       },
       "popup_fields": [
-        "name",
-        "voltage_kv",
+        {"field": "voltage_kv", "label": "Voltage"},
         "status",
         "nepal_node",
         "india_node",
@@ -911,12 +1047,11 @@
         }
       },
       "popup_fields": [
-        "name",
-        "voltage_kv",
+        {"field": "voltage_kv", "label": "Voltage"},
         "status",
-        "connection_scope",
-        "geometry_role",
-        "trace_confidence",
+        {"field": "connection_scope", "label": "Connection type"},
+        {"field": "geometry_role", "label": "Line source"},
+        {"field": "trace_confidence", "label": "Certainty"},
         "source_id",
         "length_km",
         "notes"
@@ -969,9 +1104,8 @@
         "fillOpacity": 0.18
       },
       "popup_fields": [
-        "label_title",
-        "ghi_class",
-        "winter_value",
+        {"field": "ghi_class", "label": "Solar class"},
+        {"field": "winter_value", "label": "Winter solar"},
         "confidence",
         "source_note"
       ],
@@ -1016,11 +1150,10 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        "label_title",
         "status",
         "capacity_mw",
         "district",
-        "tariff_npr_kwh",
+        {"field": "tariff_npr_kwh", "label": "Tariff"},
         "precision_label",
         "location_basis"
       ],
@@ -1073,7 +1206,6 @@
         "dashArray": "5,4"
       },
       "popup_fields": [
-        "label_title",
         "suitability_class",
         "constraint_note",
         "confidence",
@@ -1119,9 +1251,8 @@
         "fillOpacity": 0.82
       },
       "popup_fields": [
-        "label_title",
         "candidate_status",
-        "capacity_band_mw",
+        {"field": "capacity_band_mw", "label": "Capacity band"},
         "confidence",
         "precision_label",
         "source_note"
@@ -1168,12 +1299,10 @@
         "fillOpacity": 0.85
       },
       "popup_fields": [
-        "label_title",
-        "label_subtitle",
-        "annual_discharge_or_runoff",
-        "monsoon_metric",
-        "winter_metric",
-        "dry_season_note"
+        {"field": "annual_discharge_or_runoff", "label": "Annual flow summary"},
+        {"field": "monsoon_metric", "label": "Monsoon pattern"},
+        {"field": "winter_metric", "label": "Winter pattern"},
+        {"field": "dry_season_note", "label": "Dry season"}
       ],
       "tooltip_fields": [
         "label_title",

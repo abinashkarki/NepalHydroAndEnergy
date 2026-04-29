@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Floating PV Candidates
 
-**Explorer label:** Floating PV candidates  
+**Explorer label:** Floating solar  
 **Layer group:** Solar layers  
 **Feature count:** 5
 

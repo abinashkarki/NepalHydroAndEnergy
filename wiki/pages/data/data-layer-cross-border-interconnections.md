@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Cross-Border Gateways
 
-**Explorer label:** Cross-border gateways  
+**Explorer label:** International gateways  
 **Layer group:** Transmission and trade layers  
 **Feature count:** 10
 

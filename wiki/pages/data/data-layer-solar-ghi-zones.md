@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Solar GHI Zones
 
-**Explorer label:** Solar GHI zones  
+**Explorer label:** Solar resource zones  
 **Layer group:** Solar layers  
 **Feature count:** 6
 

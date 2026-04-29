@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Solar Plants + NEA 960 MW Awards
 
-**Explorer label:** Solar plants + NEA 960 MW awards  
+**Explorer label:** Solar plants  
 **Layer group:** Solar layers  
 **Feature count:** 89
 

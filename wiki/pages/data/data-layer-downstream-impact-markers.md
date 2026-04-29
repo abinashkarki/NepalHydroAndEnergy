@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Downstream Impact Markers
 
-**Explorer label:** Downstream impact markers  
+**Explorer label:** Flow measurements  
 **Layer group:** Hydrology and basin layers  
 **Feature count:** 4
 

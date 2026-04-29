@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Basin Seasonality
 
-**Explorer label:** Basin seasonality  
+**Explorer label:** Wet/dry season flow  
 **Layer group:** Hydrology and basin layers  
 **Feature count:** 8
 

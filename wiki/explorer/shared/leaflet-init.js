@@ -160,9 +160,14 @@ function makeMap(elId, opts = {}) {
 function popupHTML(props, popupFields, opts = {}) {
   const title = props.label_title || props.name || props.project || props.short_label || props.label || props.display_name || props.id || "Feature";
   const rows = (popupFields || []).map((f) => {
-    const v = props[f];
+    const field = typeof f === "string" ? f : f.field;
+    const label = typeof f === "string" ? humanizeField(f) : (f.label || humanizeField(f.field));
+    let v = props[field];
     if (v === undefined || v === null || v === "") return "";
-    return `<div class="popup-row"><b>${f.replace(/_/g, " ")}:</b> ${v}</div>`;
+    if (typeof f !== "string" && f.value_map && f.value_map[v] !== undefined) {
+      v = f.value_map[v];
+    }
+    return `<div class="popup-row"><b>${label}:</b> ${v}</div>`;
   }).join("");
   let cta = "";
   if (opts.wikiSlug) {
@@ -175,7 +180,7 @@ function popupHTML(props, popupFields, opts = {}) {
                title="Reopen / scroll to top"
                onclick="window.openWikiPage && window.openWikiPage('${opts.wikiSlug}')">✓ Showing in reader</a>`;
     } else {
-      cta = `<a class="popup-cta" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${opts.wikiSlug}')">Open wiki page →</a>`;
+      cta = `<a class="popup-cta" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${opts.wikiSlug}')">Open explanation →</a>`;
     }
   } else if (opts.allowDraft) {
     cta = `<span class="popup-no-page" title="This feature is in the data layer but doesn't have a narrative wiki page yet.">Data-only · no wiki page</span>`;
@@ -190,9 +195,14 @@ function tooltipHTML(props, tooltipFields) {
   }
   const rows = tooltipFields
     .map((f) => {
-      const v = props[f];
+      const field = typeof f === "string" ? f : f.field;
+      const label = typeof f === "string" ? humanizeField(f) : (f.label || humanizeField(f.field));
+      let v = props[field];
       if (v === undefined || v === null || v === "") return null;
-      return `<tr><th>${escapeHtml(f.replace(/_/g, " "))}</th><td>${escapeHtml(String(v))}</td></tr>`;
+      if (typeof f !== "string" && f.value_map && f.value_map[v] !== undefined) {
+        v = f.value_map[v];
+      }
+      return `<tr><th>${escapeHtml(label)}</th><td>${escapeHtml(String(v))}</td></tr>`;
     })
     .filter(Boolean)
     .join("");

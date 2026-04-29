@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Origin / Control Callouts
 
-**Explorer label:** Origin / control callouts  
+**Explorer label:** River influence  
 **Layer group:** Hydrology and basin layers  
 **Feature count:** 8
 

@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Hydropower - Operating
 
-**Explorer label:** Hydropower - Operating  
+**Explorer label:** Hydro — operating  
 **Layer group:** Hydropower layers  
 **Feature count:** 81
 

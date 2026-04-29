@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Map Text Labels
 
-**Explorer label:** Labels  
+**Explorer label:** River name labels  
 **Layer group:** Text label overlays  
 **Feature count:** text overlay
 

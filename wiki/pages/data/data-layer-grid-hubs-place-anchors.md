@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Grid Hubs and Substations
 
-**Explorer label:** Grid hubs and substations  
+**Explorer label:** Power hubs & substations  
 **Layer group:** Transmission and trade layers  
 **Feature count:** 39
 

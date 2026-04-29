@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Context Corridor Sketch
 
-**Explorer label:** Context · corridor sketch  
+**Explorer label:** Corridor sketch  
 **Layer group:** Transmission and trade layers  
 **Feature count:** 7
 

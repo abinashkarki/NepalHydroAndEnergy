@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend, geopolitics, ganges, bangladesh]
 
 # Layer: Nepal-Origin Routes To Ocean
 
-**Explorer label:** Nepal-origin routes to ocean  
+**Explorer label:** Ocean route  
 **Layer group:** Hydrology and basin layers  
 **Feature count:** 4
 

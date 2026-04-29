@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Nepal Tributaries (HydroRIVERS)
 
-**Explorer label:** Nepal tributaries (HydroRIVERS)  
+**Explorer label:** Nepal rivers  
 **Layer group:** Hydrology and basin layers  
 **Feature count:** 22
 

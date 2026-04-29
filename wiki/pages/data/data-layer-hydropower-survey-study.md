@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Hydropower - Survey/Study
 
-**Explorer label:** Hydropower - Survey/study  
+**Explorer label:** Hydro — planned  
 **Layer group:** Hydropower layers  
 **Feature count:** 311
 

@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Hydropower - Construction
 
-**Explorer label:** Hydropower - Construction  
+**Explorer label:** Hydro — building  
 **Layer group:** Hydropower layers  
 **Feature count:** 180
 

@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Nepal-Linked Basin Polygons
 
-**Explorer label:** Nepal-linked basin polygons  
+**Explorer label:** Basin areas  
 **Layer group:** Hydrology and basin layers  
 **Feature count:** 4
 

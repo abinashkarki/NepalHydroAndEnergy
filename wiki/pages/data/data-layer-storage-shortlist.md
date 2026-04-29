@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Storage Shortlist
 
-**Explorer label:** Storage shortlist  
+**Explorer label:** Storage reservoirs  
 **Layer group:** Hydropower layers  
 **Feature count:** 11
 
@@ -55,12 +55,12 @@ The key fields are:
 | Field | How To Use It |
 |-------|---------------|
 | `category` | Distinguishes operating, under-construction, advanced planned, and JICA promising-storage records. |
-| `installed_mw` | Nameplate capacity; useful but secondary to seasonal output. |
-| `annual_energy_gwh` | Total expected generation where available. |
-| `dry_energy_gwh` | The most important value field for the storage argument. |
-| `dry_share_pct` | Dry-season output as a share of annual energy; useful for comparing differently sized projects. |
+| Installed capacity (`installed_mw`) | Nameplate capacity; useful but secondary to seasonal output. |
+| Annual energy (`annual_energy_gwh`) | Total expected generation where available. |
+| Dry-season energy (`dry_energy_gwh`) | The most important value field for the storage argument. |
+| Dry-season share (`dry_share_pct`) | Dry-season output as a share of annual energy; useful for comparing differently sized projects. |
 | `total_storage_mcm` / `effective_storage_mcm` | Reservoir scale where the source provides it. |
-| `priority_read` | Plain-language reason the project was included. |
+| Why it matters (`priority_read`) | Plain-language reason the project was included. |
 | `source_note` | Shows whether the record comes from NEA annual reporting, NEA-linked project notes, or the JICA/NEA storage master plan. |
 
 The layer works best as a filter over Nepal's broader hydro portfolio. It keeps the storage question visible while the user inspects large projects, transmission corridors, and seasonal trade behavior.

@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Priority Watchlist
 
-**Explorer label:** Priority watchlist  
+**Explorer label:** Priority projects  
 **Layer group:** Hydropower layers  
 **Feature count:** 12
 
@@ -55,10 +55,10 @@ The most important fields are:
 | Field | How To Use It |
 |-------|---------------|
 | `group` / `group_label` | Separates current-system anchors from long-run radar projects. |
-| `capacity_mw` | Shows scale, but should be read against storage, dry energy, and evacuation context. |
-| `license_type` | Distinguishes operating or generation-stage assets from survey-stage possibilities. |
-| `priority_read` | Gives the editorial reason the project was promoted into the watchlist. |
-| `location_basis` | Explains whether the marker comes from a registry point, a document-backed anchor, or a river-aligned reference. |
+| Capacity (`capacity_mw`) | Shows scale, but should be read against storage, dry energy, and evacuation context. |
+| Status (`license_type`) | Distinguishes operating or generation-stage assets from survey-stage possibilities. |
+| Why it matters (`priority_read`) | Gives the editorial reason the project was promoted into the watchlist. |
+| Location source (`location_basis`) | Explains whether the marker comes from a registry point, a document-backed anchor, or a river-aligned reference. |
 | `precision_label` | Tells the reader how much locational confidence to attach to the marker. |
 
 The watchlist is also a navigation device. If a marker raises a question, the next step is usually an entity page, a corridor page, or a concept page rather than another marker layer.
@@ -67,7 +67,7 @@ The watchlist is also a navigation device. If a marker raises a question, the ne
 
 The watchlist is editorial. It is not a ranking by commercial readiness, social acceptability, government priority, benefit-cost ratio, or environmental acceptability. It reflects the analytical frame of this wiki: winter value, system bottlenecks, geopolitical leverage, and delivery risk.
 
-Survey-stage markers should not be read as precise dam coordinates unless the `location_basis` says so. Several records are river-aligned references built from public project data, not site-grade engineering linework. That is intentional: the layer is for strategic map reading, while project-level due diligence still requires the underlying feasibility, EIA, RAP, licensing, and transmission documents.
+Survey-stage markers should not be read as precise dam coordinates unless the Location source (`location_basis`) says so. Several records are river-aligned references built from public project data, not site-grade engineering linework. That is intentional: the layer is for strategic map reading, while project-level due diligence still requires the underlying feasibility, EIA, RAP, licensing, and transmission documents.
 
 ## Linked Data
 

@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Major Transmission Network
 
-**Explorer label:** Major transmission network  
+**Explorer label:** Main network  
 **Layer group:** Transmission and trade layers  
 **Feature count:** 22
 

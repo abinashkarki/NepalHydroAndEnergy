@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Nepal-Origin Downstream Systems
 
-**Explorer label:** Nepal-origin downstream systems  
+**Explorer label:** Downstream rivers  
 **Layer group:** Hydrology and basin layers  
 **Feature count:** 4
 

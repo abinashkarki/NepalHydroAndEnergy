@@ -26,53 +26,56 @@ The layer stack mixes three kinds of controls: basemaps, evidence layers, and te
 
 | Label | Features | Short meaning | Page |
 |-------|---------:|---------------|------|
-| Nepal-linked basin polygons | 4 | Koshi, Gandaki, Karnali, and Mahakali upstream basin polygons, with Nepal share and monsoon context. | [[data-layer-nepal-linked-basin-polygons]] |
-| India comparison basins | 4 | Comparison basins outside Nepal-origin control, included to keep Nepal-origin leverage in proportion. | [[data-layer-india-comparison-basins]] |
-| Nepal tributaries (HydroRIVERS) | 22 | HydroRIVERS-derived Nepal tributaries relevant to the power and basin story, including WECS potential where available. | [[data-layer-nepal-tributaries]] |
-| Nepal-origin downstream systems | 4 | Main Nepal-origin systems traced downstream toward the Ganges plain to show where upstream control becomes regional influence. | [[data-layer-nepal-origin-downstream-systems]] |
-| Nepal-origin routes to ocean | 4 | HydroRIVERS downstream traces continuing Nepal-linked systems through the Ganges/Padma/Meghna route to the Bay of Bengal. | [[data-layer-nepal-origin-ocean-routes]] |
+| Basin areas | 4 | Koshi, Gandaki, Karnali, and Mahakali upstream basin polygons, with Nepal share and monsoon context. | [[data-layer-nepal-linked-basin-polygons]] |
+| India basins | 4 | Comparison basins outside Nepal-origin control, included to keep Nepal-origin leverage in proportion. | [[data-layer-india-comparison-basins]] |
+| Nepal rivers | 22 | HydroRIVERS-derived Nepal tributaries relevant to the power and basin story, including WECS potential where available. | [[data-layer-nepal-tributaries]] |
+| Downstream rivers | 4 | Main Nepal-origin systems traced downstream toward the Ganges plain to show where upstream control becomes regional influence. | [[data-layer-nepal-origin-downstream-systems]] |
+| Ocean route | 4 | HydroRIVERS downstream traces continuing Nepal-linked systems through the Ganges/Padma/Meghna route to the Bay of Bengal. | [[data-layer-nepal-origin-ocean-routes]] |
+| Route merge / delta callouts | 7 | Merge, transition, and delta markers that make the Nepal-origin route-to-ocean traces readable. | [[data-layer-nepal-origin-route-callouts]] |
+| Downstream dependency zones | 5 | Strategic downstream exposure zones for agriculture, population, floods, dry-season flow, sediment, and delta sensitivity. | [[data-layer-downstream-dependency-zones]] |
+| Downstream population anchors | 10 | City and delta anchors that locate the population geography along Nepal-linked downstream routes. | [[data-layer-downstream-population-anchors]] |
 | India comparison rivers | 11 | Reference rivers outside Nepal-origin control, included so the map does not overstate Nepal's share of northern India hydrology. | [[data-layer-india-comparison-rivers]] |
-| Downstream impact markers | 4 | Point markers carrying discharge, annual runoff, monsoon share, and impact notes for major systems. | [[data-layer-downstream-impact-markers]] |
-| Origin / control callouts | 8 | Interpretive callouts for origin, control class, Nepal share, and downstream identity across the basin stack. | [[data-layer-origin-control-callouts]] |
-| Basin seasonality | 8 | Basin annotations focused on monsoon concentration, winter weakness, and dry-season implications. | [[data-layer-basin-seasonality]] |
+| Flow measurements | 4 | Point markers carrying discharge, annual runoff, monsoon share, and impact notes for major systems. | [[data-layer-downstream-impact-markers]] |
+| River influence | 8 | Interpretive callouts for origin, control class, Nepal share, and downstream identity across the basin stack. | [[data-layer-origin-control-callouts]] |
+| Wet/dry season flow | 8 | Basin annotations focused on monsoon concentration, winter weakness, and dry-season implications. | [[data-layer-basin-seasonality]] |
 
 ## Hydropower layers
 
 | Label | Features | Short meaning | Page |
 |-------|---------:|---------------|------|
-| Hydropower - Operating | 81 | Operating hydropower projects from the project registry. Marker area scales by capacity, and wiki counts show page coverage. | [[data-layer-hydropower-operating]] |
-| Hydropower - Construction | 180 | Generation/construction-license projects, useful for seeing near-term capacity pressure on basins and transmission corridors. | [[data-layer-hydropower-construction]] |
-| Hydropower - Survey/study | 311 | Survey-stage hydropower licenses: early pipeline signals, not built capacity. | [[data-layer-hydropower-survey-study]] |
-| Priority watchlist | 12 | Curated strategically important projects by size, storage value, basin leverage, financing, or transmission dependence. | [[data-layer-priority-watchlist]] |
-| Storage shortlist | 11 | Storage and storage-like projects highlighted for dry-season energy value, not just installed MW. | [[data-layer-storage-shortlist]] |
-| Future regulation scenario | 11 | Storage-first scenario markers showing which projects could alter timing, downstream sensitivity, and cooperation risk. | [[data-layer-future-regulation-scenario]] |
-| Top-10 capacity projects | 10 | Largest hydropower projects in the display set, useful for separating headline MW from deliverable system value. | [[data-layer-top-10-capacity-projects]] |
+| Hydro — operating | 81 | Operating hydropower projects from the project registry. Marker area scales by capacity, and wiki counts show page coverage. | [[data-layer-hydropower-operating]] |
+| Hydro — building | 180 | Generation/construction-license projects, useful for seeing near-term capacity pressure on basins and transmission corridors. | [[data-layer-hydropower-construction]] |
+| Hydro — planned | 311 | Survey-stage hydropower licenses: early pipeline signals, not built capacity. | [[data-layer-hydropower-survey-study]] |
+| Priority projects | 12 | Curated strategically important projects by size, storage value, basin leverage, financing, or transmission dependence. | [[data-layer-priority-watchlist]] |
+| Storage reservoirs | 11 | Storage and storage-like projects highlighted for dry-season energy value, not just installed MW. | [[data-layer-storage-shortlist]] |
+| Flow regulation | 11 | Storage-first scenario markers showing which projects could alter timing, downstream sensitivity, and cooperation risk. | [[data-layer-future-regulation-scenario]] |
+| Top 10 largest | 10 | Largest hydropower projects in the display set, useful for separating headline MW from deliverable system value. | [[data-layer-top-10-capacity-projects]] |
 
 ## Transmission and trade layers
 
 | Label | Features | Short meaning | Page |
 |-------|---------:|---------------|------|
-| Major transmission network | 22 | Public-facing source-controlled transmission corridors, with status and provenance visible in popups. | [[data-layer-transmission-connected-traced-network]] |
-| Grid hubs and substations | 39 | Named grid hubs and substation/place anchors used to orient the network. | [[data-layer-grid-hubs-place-anchors]] |
-| Cross-border links | 10 | Conservative line/stub geometries for operational, under-construction, implementation-stage, and planned cross-border links. | [[data-layer-cross-border-interconnection-lines]] |
-| Cross-border gateways | 10 | Nepal-side gateway points for cross-border interconnections with status and timeline context. | [[data-layer-cross-border-interconnections]] |
-| Context · corridor sketch | 7 | Simplified substation sketch for orientation and not-yet-promoted corridor context. | [[data-layer-transmission-corridors-curated]] |
+| Main network | 22 | Public-facing source-controlled transmission corridors, with status and provenance visible in popups. | [[data-layer-transmission-connected-traced-network]] |
+| Power hubs & substations | 39 | Named grid hubs and substation/place anchors used to orient the network. | [[data-layer-grid-hubs-place-anchors]] |
+| Cross-border lines | 10 | Conservative line/stub geometries for operational, under-construction, implementation-stage, and planned cross-border links. | [[data-layer-cross-border-interconnection-lines]] |
+| International gateways | 10 | Nepal-side gateway points for cross-border interconnections with status and timeline context. | [[data-layer-cross-border-interconnections]] |
+| Corridor sketch | 7 | Simplified substation sketch for orientation and not-yet-promoted corridor context. | [[data-layer-transmission-corridors-curated]] |
 
 ## Solar layers
 
 | Label | Features | Short meaning | Page |
 |-------|---------:|---------------|------|
-| Solar GHI zones | 6 | Coarse solar resource zones. These are strategic zones, not parcel-level siting decisions. | [[data-layer-solar-ghi-zones]] |
-| Solar plants + NEA 960 MW awards | 89 | Operating solar plants plus NEA 960 MW award anchors, with approximate-location flags where needed. | [[data-layer-solar-plants-nea-awards]] |
-| Solar strategic suitability | 6 | Strategic suitability bands combining resource value with constraint notes. | [[data-layer-solar-strategic-suitability]] |
-| Floating PV candidates | 5 | Reservoir or future-reservoir floating PV candidates with confidence and capacity-band fields. | [[data-layer-floating-pv-candidates]] |
+| Solar resource zones | 6 | Coarse solar resource zones. These are strategic zones, not parcel-level siting decisions. | [[data-layer-solar-ghi-zones]] |
+| Solar plants | 89 | Operating solar plants plus NEA 960 MW award anchors, with approximate-location flags where needed. | [[data-layer-solar-plants-nea-awards]] |
+| Best solar locations | 6 | Strategic suitability bands combining resource value with constraint notes. | [[data-layer-solar-strategic-suitability]] |
+| Floating solar | 5 | Reservoir or future-reservoir floating PV candidates with confidence and capacity-band fields. | [[data-layer-floating-pv-candidates]] |
 
 ## Text label overlays
 
 | Label | Features | Short meaning | Page |
 |-------|---------:|---------------|------|
-| Labels | text overlay | Permanent river and basin text labels. Turn these on when geography matters more than raw features. | [[data-layer-map-text-labels]] |
-| Transmission labels | text overlay | Permanent corridor labels for grid overlays, separated from river labels to reduce low-zoom clutter. | [[data-layer-transmission-labels]] |
+| River name labels | text overlay | Permanent river and basin text labels. Turn these on when geography matters more than raw features. | [[data-layer-map-text-labels]] |
+| Grid line labels | text overlay | Permanent corridor labels for grid overlays, separated from river labels to reduce low-zoom clutter. | [[data-layer-transmission-labels]] |
 
 ## Reading The Counts
 

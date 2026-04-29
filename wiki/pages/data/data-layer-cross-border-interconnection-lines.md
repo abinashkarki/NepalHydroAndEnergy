@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Cross-Border Links
 
-**Explorer label:** Cross-border links  
+**Explorer label:** Cross-border lines  
 **Layer group:** Transmission and trade layers  
 **Feature count:** 10
 

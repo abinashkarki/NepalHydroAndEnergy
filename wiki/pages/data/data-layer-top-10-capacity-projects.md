@@ -10,7 +10,7 @@ tags: [maps, geojson, layers, explorer, legend]
 
 # Layer: Top-10 Capacity Projects
 
-**Explorer label:** Top-10 capacity projects  
+**Explorer label:** Top 10 largest  
 **Layer group:** Hydropower layers  
 **Feature count:** 10
 
@@ -58,10 +58,10 @@ The key fields are:
 | Field | How To Use It |
 |-------|---------------|
 | `rank` | Capacity rank within this display set. |
-| `capacity_mw` | Installed capacity used for ranking. |
-| `license_type` | Indicates whether the marker is survey-stage or generation-stage. |
+| Capacity (`capacity_mw`) | Installed capacity used for ranking. |
+| Status (`license_type`) | Indicates whether the marker is survey-stage or generation-stage. |
 | `promoter` | Helps connect the project to public, private, foreign, or mixed delivery structures. |
-| `location_basis` | Explains how the map point was anchored. |
+| Location source (`location_basis`) | Explains how the map point was anchored. |
 | `precision_label` | Distinguishes stronger river-aligned references from lower-confidence registry references. |
 
 ## Caveats
