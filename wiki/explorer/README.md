@@ -25,13 +25,17 @@ explorer/
     style.css                         # base stylesheet
     leaflet-init.js                   # makeMap, LayerManager, popupHTML, slug lookup
     wiki-loader.js                    # markdown loader, frontmatter split, wikilink rewriter
-    wiki-bm25.js                      # tiny BM25 index for "Content" search
-    wiki-semantic.js                  # transformers.js loader + IndexedDB embedding cache
+    wiki-search.js                    # fast static Search / Seek runtime
+    wiki-vector-search.js             # lazy query-vector boost for Seek
     layer-manifest.json               # declarative layer definitions (all 16 layers)
     presets.json                      # named map lenses (mirrors docs/maps/*.html)
     bindings.json                     # slug ↔ feature(s) mapping (stand-in for frontmatter)
     wiki-page-index.json              # built by scripts/build_wiki_page_index.py
     wiki-page-meta.json               # built by scripts/build_wiki_page_meta.py
+    wiki-fact-index.json              # structured facts for factual Seek answers
+    wiki-search-index.json            # built by scripts/build_wiki_search_index.py
+    wiki-vector-index.json            # quantized chunks built by scripts/build_wiki_vector_index.py
+    wiki-search-aliases.json          # curated Seek query expansion terms
 ```
 
 ## Data sources (live, not duplicated)
@@ -72,23 +76,26 @@ anchoring is shown via the leading dot: ● = mapped, ○ = no spatial binding.
 Click a category header to collapse/expand it. State is persisted.
 
 ### Search modes
-- **Filter** — substring match on titles. Instant. Best when you know the title.
-- **Content** — BM25 ranking over the full wiki body (with title boost). Instant.
-  Snippets show matched terms `<mark>`-highlighted. Powered by `wiki-bm25.js`
-  reading `wiki-page-meta.json`.
-- **Semantic** — cosine similarity over embeddings produced in-browser by
-  [`Xenova/all-MiniLM-L6-v2`](https://huggingface.co/Xenova/all-MiniLM-L6-v2)
-  via [transformers.js](https://huggingface.co/docs/transformers.js).
-  First activation downloads the model (~25 MB) and embeds all 74 pages
-  (≈ 10 s on this corpus). Both the model weights and the embeddings are
-  cached in IndexedDB; subsequent loads are instant and fully offline.
-  Try queries like *"why is Nepal not exporting more electricity to India?"*
-  or *"monsoon flooding and dam safety"* — the right pages surface even when
-  the literal words aren't present.
+- **Search** — substring match on page titles. Instant. Best when you know the
+  page or project name.
+- **Seek** — routed discovery. Factual/superlative questions use the structured
+  fact index first, then show supporting wiki pages. Facts without narrative
+  wiki pages open generated data-record details and fly to the exact map feature,
+  keeping the wiki curated without hiding complete map inventory. Conceptual
+  questions search page text, tags, headings, phrase-aware aliases, and
+  precomputed chunk vectors. It shows fast static results immediately, then may
+  lazily load a small browser embedding model to add a meaning-based boost for
+  the query. It never embeds the page corpus in the browser. Try queries like
+  *"what is the biggest hydro plant"*, *"biggest solar project"*,
+  *"winter deficit"*, *"firm power"*, *"India export risk"*, or
+  *"storage projects Karnali"*.
 
-To rebuild semantic embeddings (e.g. after editing pages), open the browser
-devtools and run `await window.NepalExplorer.semantic.clearCache()`, then
-re-activate Semantic mode.
+Seek is rebuilt by `scripts/build_wiki_fact_index.py` from local processed map
+datasets, by `scripts/build_wiki_search_index.py` from `wiki-page-meta.json`
+plus `wiki-search-aliases.json`, and by `scripts/build_wiki_vector_index.py`
+from local markdown chunks. The vector index uses
+`mixedbread-ai/mxbai-embed-xsmall-v1` and ships normalized int8 vectors so the
+hosted profile stays small.
 
 ## Adding a spatial page
 
@@ -118,4 +125,7 @@ Run any time pages are added, removed, or retagged:
 ```bash
 python3 scripts/build_wiki_page_index.py    # nav structure
 python3 scripts/build_wiki_page_meta.py     # search corpus + subcategories
+python3 scripts/build_wiki_fact_index.py    # factual Seek answers
+python3 scripts/build_wiki_search_index.py  # static Search / Seek index
+.venv/bin/python scripts/build_wiki_vector_index.py --local-files-only
 ```

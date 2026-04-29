@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="shared/style.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="shared/leaflet-init.js"></script>
-  <script src="shared/wiki-loader.js"></script>
-  <script src="shared/wiki-bm25.js"></script>
+  <script src="shared/leaflet-init.js?v=seek-facts-3"></script>
+  <script src="shared/wiki-loader.js?v=seek-facts-3"></script>
+  <script src="shared/wiki-search.js?v=seek-facts-3"></script>
+  <script src="shared/wiki-vector-search.js?v=seek-facts-3"></script>
   <style>
     /* Layout: resizable three-pane grid. */
     .layout {
@@ -76,6 +77,28 @@
 
     .pane.right #map {
       height: 100%;
+    }
+
+    .compact-tabs {
+      display: none;
+    }
+
+    .compact-tabs button {
+      border: 1px solid var(--rule);
+      background: var(--panel);
+      color: var(--ink-soft);
+      border-radius: 4px;
+      padding: 4px 9px;
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .compact-tabs button.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      font-weight: 600;
     }
 
     /* Left-pane header */
@@ -171,6 +194,35 @@
       color: var(--ink);
     }
 
+    .seek-suggestions {
+      display: none;
+      gap: 5px;
+      flex-wrap: wrap;
+      padding-top: 8px;
+    }
+
+    .seek-suggestions.show {
+      display: flex;
+    }
+
+    .seek-suggestions button {
+      border: 1px solid var(--rule);
+      background: var(--panel);
+      color: var(--ink-soft);
+      border-radius: 999px;
+      padding: 4px 7px;
+      font: inherit;
+      font-size: 10.5px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .seek-suggestions button:hover {
+      color: var(--ink);
+      border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
+      background: var(--accent-soft);
+    }
+
     .tour-toggle {
       margin-top: 6px;
       display: flex;
@@ -186,6 +238,26 @@
       font-size: 12px;
       color: var(--ink);
       line-height: 1.2;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .tour-toggle .tt-beta {
+      display: inline-flex;
+      align-items: center;
+      min-height: 15px;
+      padding: 0 5px;
+      border: 1px solid var(--rule);
+      border-radius: 999px;
+      background: var(--panel-2);
+      color: var(--ink-soft);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      opacity: 0.72;
     }
 
     .tour-toggle .tt-hint {
@@ -231,34 +303,6 @@
 
     .tour-switch.on::after {
       transform: translateX(14px);
-    }
-
-    /* Semantic indexing status row */
-    .sem-status {
-      display: none;
-      padding: 6px 10px;
-      background: #fef3c7;
-      border-bottom: 1px solid var(--rule);
-      font-size: 11px;
-      color: #78350f;
-    }
-
-    .sem-status.show {
-      display: block;
-    }
-
-    .sem-status .bar {
-      height: 3px;
-      background: rgba(0, 0, 0, 0.08);
-      border-radius: 2px;
-      margin-top: 4px;
-      overflow: hidden;
-    }
-
-    .sem-status .bar-fill {
-      height: 100%;
-      background: var(--accent);
-      transition: width 0.2s ease;
     }
 
     /* Nav: stacked + collapsible categories with sub-grouping for entities */
@@ -378,6 +422,10 @@
       line-height: 1.45;
     }
 
+    .result.meaning {
+      background: linear-gradient(90deg, rgba(14, 165, 233, 0.11), transparent 68%);
+    }
+
     .result:hover {
       background: var(--panel-2);
       text-decoration: none;
@@ -419,6 +467,10 @@
       padding: 0 1px;
     }
 
+    .r-chip {
+      color: var(--accent);
+    }
+
     .result.spatial .r-meta::before {
       content: "● spatial";
       color: var(--accent);
@@ -433,6 +485,59 @@
       font-style: italic;
     }
 
+    .seek-landing {
+      padding: 22px 18px;
+      max-width: 680px;
+    }
+
+    .seek-landing .sl-kicker {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-bottom: 7px;
+    }
+
+    .seek-landing .sl-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.25;
+      margin-bottom: 6px;
+    }
+
+    .seek-landing .sl-copy {
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.45;
+      max-width: 520px;
+      margin-bottom: 14px;
+    }
+
+    .seek-landing .sl-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .seek-landing .sl-chip {
+      border: 1px solid var(--rule);
+      background: var(--panel);
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .seek-landing .sl-chip:hover {
+      border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
     .results-summary {
       padding: 6px 10px;
       font-size: 10px;
@@ -440,6 +545,148 @@
       letter-spacing: 0.06em;
       color: var(--ink-soft);
       border-bottom: 1px solid var(--rule);
+    }
+
+    .answer-card {
+      margin: 10px 10px 8px;
+      padding: 14px 14px;
+      background: linear-gradient(135deg, #f7fbff 0%, #eef7f3 100%);
+      border: 1px solid #cfe4df;
+      border-radius: 8px;
+    }
+
+    .answer-kicker {
+      color: #44615c;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .answer-primary {
+      margin-top: 7px;
+      color: var(--ink);
+      font-size: 19px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .answer-detail,
+    .answer-source {
+      margin-top: 6px;
+      color: #58625f;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .answer-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .answer-option {
+      padding: 5px 7px;
+      background: rgba(255,255,255,.72);
+      border: 1px solid rgba(73, 120, 112, .22);
+      border-radius: 6px;
+      color: #31433f;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .answer-related {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .answer-related a {
+      padding: 5px 7px;
+      background: rgba(255,255,255,.58);
+      border: 1px solid rgba(37, 99, 235, .16);
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .fact-page h1 {
+      margin-bottom: 4px;
+    }
+
+    .fact-kicker {
+      color: var(--ink-soft);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .fact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 8px;
+      margin: 16px 0;
+    }
+
+    .fact-cell {
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      padding: 9px 10px;
+      background: var(--panel-2);
+    }
+
+    .fact-cell b {
+      display: block;
+      color: var(--ink-soft);
+      font-size: 10px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .seek-status {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 10px;
+      border-bottom: 1px solid var(--rule);
+      background: color-mix(in srgb, var(--accent-soft) 55%, var(--panel));
+      color: var(--ink-soft);
+      font-size: 11px;
+      line-height: 1.35;
+    }
+
+    .seek-status.show {
+      display: flex;
+    }
+
+    .seek-status .pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.35);
+      animation: seekPulse 1.45s ease-out infinite;
+      flex: 0 0 auto;
+    }
+
+    .seek-status.ready .pulse {
+      animation: none;
+      box-shadow: none;
+    }
+
+    .seek-status.failed .pulse {
+      background: #d97706;
+      animation: none;
+    }
+
+    @keyframes seekPulse {
+      0% { box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.35); }
+      70% { box-shadow: 0 0 0 8px rgba(14, 165, 233, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(14, 165, 233, 0); }
     }
 
     .map-overlay-info {
@@ -1878,6 +2125,203 @@
     .leaflet-container[data-basemap="terrain"] .leaflet-tile-pane img {
       filter: saturate(0.85) contrast(0.92) brightness(1.04);
     }
+
+    @media (max-width: 1150px) {
+      html,
+      body {
+        overflow: hidden;
+      }
+
+      .app-bar {
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 8px;
+        padding: 8px 10px;
+      }
+
+      .app-bar .spacer,
+      .app-bar .pill {
+        display: none;
+      }
+
+      .app-bar .title {
+        font-size: 13px;
+        line-height: 1.25;
+      }
+
+      .app-bar .crumb {
+        display: none;
+      }
+
+      .compact-tabs {
+        display: grid;
+        grid-template-columns: repeat(3, 78px);
+        gap: 4px;
+        width: auto;
+        margin-left: auto;
+      }
+
+      .compact-tabs button {
+        min-height: 30px;
+        padding: 4px 6px;
+      }
+
+      .reset-btn {
+        flex: 0 0 auto;
+        padding: 4px 8px;
+      }
+
+      .left-head {
+        display: grid;
+        grid-template-columns: minmax(220px, 1fr) minmax(190px, 280px);
+        gap: 8px;
+        align-items: center;
+        padding: 8px 12px;
+      }
+
+      .left-head .tour-toggle {
+        grid-column: 1 / -1;
+      }
+
+      .left-head .seg,
+      .left-head .tour-toggle {
+        margin-top: 0;
+      }
+
+      .left-head .tour-toggle {
+        min-height: 38px;
+        padding: 6px 8px;
+      }
+
+      .left-head .tour-toggle .tt-hint {
+        font-size: 9.5px;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        height: calc(100dvh - var(--app-bar-height, 88px));
+        min-height: 0;
+        overflow: hidden;
+      }
+
+      .splitter {
+        display: none;
+      }
+
+      .pane {
+        grid-column: 1;
+        grid-row: 1;
+        display: none;
+        width: 100%;
+        min-width: 0;
+        height: 100%;
+        border: 0;
+      }
+
+      .layout[data-compact-view="find"] .pane.left,
+      .layout[data-compact-view="read"] .pane.center,
+      .layout[data-compact-view="map"] .pane.right {
+        display: block;
+      }
+
+      .pane.right {
+        position: relative;
+      }
+
+      .markdown {
+        max-width: none;
+        padding: 18px 16px 42px;
+        font-size: 15.5px;
+      }
+
+      .markdown h1 {
+        font-size: 25px;
+        line-height: 1.15;
+      }
+
+      .markdown table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      .markdown .wiki-filmstrip .wiki-thumb {
+        width: 150px;
+      }
+
+      .markdown .wiki-filmstrip .wiki-thumb img {
+        height: 100px;
+      }
+
+      .preset-bar {
+        bottom: 16px;
+        max-width: calc(100% - 20px);
+      }
+
+      .preset-meta {
+        display: none;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .app-bar {
+        flex-wrap: wrap;
+      }
+
+      .compact-tabs {
+        order: 5;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: 100%;
+        margin-left: 0;
+      }
+
+      .left-head {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .left-head .search-input-wrap {
+        grid-column: auto;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .app-bar .title {
+        flex: 1 1 auto;
+        max-width: none;
+      }
+
+      .reset-btn {
+        padding: 3px 7px;
+      }
+
+      .app-bar .crumb {
+        display: none;
+      }
+
+      .left-head {
+        padding: 8px;
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .left-head .search-input-wrap {
+        grid-column: auto;
+      }
+
+      .nav-link {
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+
+      .wiki-lightbox {
+        padding: 18px;
+      }
+
+      .wiki-lightbox-stage {
+        max-height: 72vh;
+      }
+    }
   </style>
 </head>
 
@@ -1889,35 +2333,42 @@
     <span class="spacer"></span>
     <button class="reset-btn" id="reset-layout" title="Reset pane widths and view preferences">Reset layout</button>
     <span class="crumb" id="now-page" style="margin-left: 10px">no page selected</span>
+    <div class="compact-tabs" id="compact-tabs" role="group" aria-label="Compact wiki views">
+      <button type="button" data-view="find">Find</button>
+      <button type="button" data-view="read">Read</button>
+      <button type="button" data-view="map">Map</button>
+    </div>
   </div>
 
   <div class="layout" id="layout">
     <aside class="pane left">
       <div class="left-head">
-        <div class="search-input-wrap" id="search-wrap">
-          <span class="si">⌕</span>
-          <input id="q" placeholder="filter pages…" autocomplete="off" />
-          <button class="clear-btn" id="clear-q" title="clear">×</button>
-        </div>
-        <div class="seg" id="search-mode">
-          <button data-mode="filter" class="active" title="Substring match on titles (instant)">Filter</button>
-          <button data-mode="content" title="BM25 ranking over body text (instant)">Content</button>
-          <button data-mode="semantic"
-            title="Embedding similarity (~25 MB on first use, then offline)">Semantic</button>
-        </div>
         <div class="tour-toggle" id="tour-mode-toggle" role="button" tabindex="0" aria-pressed="false">
           <div class="tt-text">
-            <div class="tt-label" id="tour-toggle-label">Guided tour</div>
+            <div class="tt-label" id="tour-toggle-label">Guided tour <span class="tt-beta">experimental</span></div>
             <div class="tt-hint" id="tour-toggle-hint">off</div>
           </div>
           <div class="tour-switch" id="tour-switch" aria-hidden="true"></div>
         </div>
-      </div>
-      <div class="sem-status" id="sem-status">
-        <div class="msg">…</div>
-        <div class="bar">
-          <div class="bar-fill" id="sem-bar" style="width: 0%"></div>
+        <div class="search-input-wrap" id="search-wrap">
+          <span class="si">⌕</span>
+          <input id="q" placeholder="search page titles…" autocomplete="off" />
+          <button class="clear-btn" id="clear-q" title="clear">×</button>
         </div>
+        <div class="seg" id="search-mode">
+          <button data-mode="search" class="active" title="Direct title lookup">Search</button>
+          <button data-mode="seek" title="Broader topic discovery across content and related pages">Seek</button>
+        </div>
+        <div class="seek-suggestions" id="seek-suggestions" aria-label="Suggested Seek queries">
+          <button type="button" data-query="why does Nepal export in monsoon but import in winter">winter imports</button>
+          <button type="button" data-query="firm power not just megawatts">firm power</button>
+          <button type="button" data-query="India approval risk for power exports">India export risk</button>
+          <button type="button" data-query="storage projects in Karnali">Karnali storage</button>
+        </div>
+      </div>
+      <div class="seek-status" id="seek-status" aria-live="polite">
+        <span class="pulse" aria-hidden="true"></span>
+        <span class="seek-status-msg">Seek is ready.</span>
       </div>
       <div id="nav" class="nav-list"></div>
     </aside>
@@ -1936,8 +2387,7 @@
           <a href="javascript:void(0)"
             onclick="openWikiPage('claim-transmission-immediate-blocker')">claim-transmission-immediate-blocker</a>.<br /><br />
           <span style="font-size: 13px; color: var(--ink-soft)">
-            Search modes: <em>Filter</em> (titles only), <em>Content</em> (full-text BM25), or <em>Semantic</em>
-            (embeddings — first run downloads ~25 MB then runs offline).
+            Search looks up page titles. Seek finds topics, questions, and tradeoffs across the wiki.
           </span>
         </div>
       </div>
@@ -1979,18 +2429,21 @@
     (function () {
       const { makeMap, LayerManager, buildReverseIndex, loadJSON } = window.NepalExplorer;
 
-      let bindings, manifest, presetsCfg, lm, map, baseLayers, layerControl, labelsLayer, txLabelsLayer, pageIndex, spatialSlugs, pageMeta, bm25, hydropowerSlugAliases;
+      let bindings, manifest, presetsCfg, lm, map, baseLayers, layerControl, labelsLayer, txLabelsLayer, pageIndex, spatialSlugs, pageMeta, searchIndex, factIndex, vectorBoost, hydropowerSlugAliases;
       let currentSlug = null;
+      let currentFactId = null;
       let currentPreset = null;
       let currentBaseLayer = "Carto Positron";
       let layerFeatureCounts = {};
-      let searchMode = localStorage.getItem("explorer.searchMode") || "filter";
+      let searchMode = localStorage.getItem("explorer.searchMode") || "search";
+      if (!["search", "seek"].includes(searchMode)) searchMode = "search";
+      let seekSeq = 0;
       let collapsedGroups = new Set(JSON.parse(localStorage.getItem("explorer.collapsedGroups") || "[]"));
-      let semanticReady = false;
-      let semanticLoading = null;
       let suppressUrlSync = false;
       let tourManifest = null;
       let tourState = { enabled: false, active: false, tourId: null, mode: "short", stepIndex: 0 };
+      let compactView = "find";
+      const compactMql = window.matchMedia("(max-width: 1150px)");
 
       const ENTITY_SUB_ORDER = ["basins", "projects", "institutions", "geopolitics", "profiles", "other"];
       const ENTITY_SUB_LABEL = {
@@ -2145,6 +2598,57 @@
         },
       };
 
+      function isCompactLayout() {
+        return compactMql.matches;
+      }
+
+      function updateAppBarHeight() {
+        const bar = document.querySelector(".app-bar");
+        if (!bar) return;
+        document.documentElement.style.setProperty("--app-bar-height", Math.ceil(bar.getBoundingClientRect().height) + "px");
+      }
+
+      function setCompactView(view, opts = {}) {
+        if (!["find", "read", "map"].includes(view)) view = "find";
+        compactView = view;
+        const layout = document.getElementById("layout");
+        if (layout) layout.dataset.compactView = view;
+        document.querySelectorAll("#compact-tabs button").forEach((button) => {
+          const active = button.dataset.view === view;
+          button.classList.toggle("active", active);
+          button.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+        if (opts.persist !== false) localStorage.setItem("explorer.compactView", view);
+        updateAppBarHeight();
+        if (view === "map" && map) {
+          setTimeout(() => map.invalidateSize(), 80);
+        }
+      }
+
+      function initialCompactView(url) {
+        if (url && url.page) return "read";
+        const saved = localStorage.getItem("explorer.compactView");
+        return ["find", "read", "map"].includes(saved) ? saved : "find";
+      }
+
+      function setupCompactShell() {
+        document.querySelectorAll("#compact-tabs button").forEach((button) => {
+          button.addEventListener("click", () => setCompactView(button.dataset.view));
+        });
+        const onViewportChange = () => {
+          updateAppBarHeight();
+          if (isCompactLayout()) {
+            setCompactView(compactView || (currentSlug ? "read" : "find"), { persist: false });
+          } else if (map) {
+            setTimeout(() => map.invalidateSize(), 80);
+          }
+        };
+        if (compactMql.addEventListener) compactMql.addEventListener("change", onViewportChange);
+        else compactMql.addListener(onViewportChange);
+        window.addEventListener("resize", updateAppBarHeight);
+        updateAppBarHeight();
+      }
+
       // ============================================================
       // Resizable panes
       // ============================================================
@@ -2257,73 +2761,145 @@
       };
 
       // ============================================================
-      // Search modes: filter / content / semantic
+      // Search modes: Search / Seek
       // ============================================================
       function setSearchMode(mode) {
+        if (!["search", "seek"].includes(mode)) mode = "search";
         searchMode = mode;
         localStorage.setItem("explorer.searchMode", mode);
         document.querySelectorAll("#search-mode button").forEach((b) => b.classList.toggle("active", b.dataset.mode === mode));
         const input = document.getElementById("q");
-        input.placeholder = mode === "filter" ? "filter pages…" : mode === "content" ? "search page contents…" : "ask anything (semantic)…";
-        if (mode === "semantic" && !semanticReady && !semanticLoading) primeSemantic();
+        input.placeholder = mode === "search" ? "search page titles…" : "seek topics, questions, tradeoffs…";
+        updateSeekSuggestions();
+        if (mode !== "seek") hideSeekStatus();
         applySearch();
       }
 
-      async function primeSemantic() {
-        if (semanticReady || semanticLoading) return;
-        if (!window.NepalExplorer.semantic) {
-          showSemStatus("loading semantic search module…", 0.05);
-          await new Promise((res, rej) => {
-            const s = document.createElement("script");
-            s.src = "shared/wiki-semantic.js";
-            s.onload = res;
-            s.onerror = rej;
-            document.head.appendChild(s);
-          });
+      function updateSeekSuggestions() {
+        const el = document.getElementById("seek-suggestions");
+        if (el) el.classList.remove("show");
+      }
+
+      async function applySearch() {
+        const seq = ++seekSeq;
+        const q = document.getElementById("q").value.trim();
+        document.getElementById("search-wrap").classList.toggle("has-text", !!q);
+        updateSeekSuggestions();
+        if (!q) {
+          hideSeekStatus();
+          if (searchMode === "seek") renderSeekLanding();
+          else buildNav();
+          return;
         }
-        semanticLoading = window.NepalExplorer.semantic.ensureIndex(pageMeta, (p) => {
-          showSemStatus(p.message, p.progress);
-        }).then(() => {
-          semanticReady = true;
-          semanticLoading = null;
-          setTimeout(() => hideSemStatus(), 1500);
-          applySearch();
-        }).catch((err) => {
-          showSemStatus("semantic search failed: " + err.message + " — falling back to content mode", 1);
-          semanticLoading = null;
-          setSearchMode("content");
+        if (searchMode === "search") {
+          filterNavInPlace(q);
+        } else if (searchMode === "seek") {
+          const factual = factIndex && factIndex.seek(q, { limit: 8 });
+          if (factual) {
+            renderResults(factual.results, q, "Answer + sources", factual.answer);
+            hideSeekStatus();
+            return;
+          }
+          const lexical = searchIndex.seek(q, { limit: 30 });
+          renderResults(lexical, q, "Seek");
+          if (vectorBoost) {
+            showSeekStatus("loading", "Fast results shown. Adding meaning boost...");
+            try {
+              const vectorHits = await vectorBoost.search(q, { limit: 45 });
+              if (seq !== seekSeq || searchMode !== "seek") return;
+              const merged = mergeSeekResults(lexical, vectorHits, 30);
+              renderResults(merged, q, "Seek + meaning");
+              showSeekStatus("ready", "Meaning boost applied.");
+              setTimeout(() => { if (seq === seekSeq) hideSeekStatus(); }, 2200);
+            } catch (err) {
+              if (seq !== seekSeq || searchMode !== "seek") return;
+              showSeekStatus("failed", "Meaning boost unavailable. Fast Seek remains active.");
+            }
+          }
+        }
+      }
+
+      function runSeekQuery(query) {
+        setSearchMode("seek");
+        const input = document.getElementById("q");
+        input.value = query;
+        applySearch();
+        input.focus();
+      }
+
+      function renderSeekLanding() {
+        const nav = document.getElementById("nav");
+        nav.className = "nav-list";
+        const prompts = [
+          ["Winter deficit", "why does Nepal export in monsoon but import in winter"],
+          ["Firm power", "firm power not just megawatts"],
+          ["India export risk", "India approval risk for power exports"],
+          ["Karnali storage", "storage projects in Karnali"],
+          ["Transmission blocker", "why is transmission the immediate blocker"],
+        ];
+        nav.innerHTML = `<div class="seek-landing">
+          <div class="sl-kicker">Seek</div>
+          <div class="sl-title">Ask across the wiki.</div>
+          <div class="sl-copy">Use this for questions, comparisons, and tradeoffs. Switch back to Find when you want the page directory.</div>
+          <div class="sl-chips">
+            ${prompts.map(([label, query]) => `<button type="button" class="sl-chip" data-seek-query="${escapeAttr(query)}">${escapeHtml(label)}</button>`).join("")}
+          </div>
+        </div>`;
+        nav.querySelectorAll("[data-seek-query]").forEach((button) => {
+          button.addEventListener("click", () => runSeekQuery(button.dataset.seekQuery || ""));
         });
       }
 
-      function showSemStatus(msg, pct) {
-        const el = document.getElementById("sem-status");
+      function showSeekStatus(state, message) {
+        const el = document.getElementById("seek-status");
         el.classList.add("show");
-        el.querySelector(".msg").textContent = msg;
-        document.getElementById("sem-bar").style.width = (pct * 100).toFixed(1) + "%";
+        el.classList.toggle("ready", state === "ready");
+        el.classList.toggle("failed", state === "failed");
+        el.querySelector(".seek-status-msg").textContent = message;
       }
-      function hideSemStatus() { document.getElementById("sem-status").classList.remove("show"); }
 
-      let lastQuery = "";
-      async function applySearch() {
-        const q = document.getElementById("q").value.trim();
-        document.getElementById("search-wrap").classList.toggle("has-text", !!q);
-        if (!q) { buildNav(); return; }
-        if (searchMode === "filter") {
-          filterNavInPlace(q);
-        } else if (searchMode === "content") {
-          renderResults(bm25.search(q, { limit: 30 }), q, "BM25");
-        } else if (searchMode === "semantic") {
-          if (!semanticReady) {
-            const nav = document.getElementById("nav");
-            nav.className = "nav-list";
-            nav.innerHTML = `<div class="results-empty">building semantic index…<br/><br/>(this happens once; cached after)</div>`;
-            return;
+      function hideSeekStatus() {
+        const el = document.getElementById("seek-status");
+        el.classList.remove("show", "ready", "failed");
+      }
+
+      function mergeSeekResults(lexical, vectorHits, limit) {
+        const rows = new Map();
+        lexical.forEach((r, i) => {
+          rows.set(r.slug, {
+            ...r,
+            combined: 1 / (60 + i + 1),
+            reason: r.reason || "text match",
+            source: "text",
+          });
+        });
+        vectorHits.forEach((hit, i) => {
+          const page = searchIndex.pages[hit.pageId];
+          if (!page) return;
+          const base = searchIndex.resultForPage(page, hit.score, hit.heading ? "meaning · " + hit.heading : "meaning", hit.snippet);
+          const current = rows.get(base.slug);
+          const contribution = 1.35 / (60 + i + 1);
+          if (current) {
+            current.combined += contribution;
+            current.source = "hybrid";
+            if (hit.score > (current.vectorScore || 0)) {
+              current.vectorScore = hit.score;
+              current.reason = base.reason;
+              current.snippetHtml = base.snippetHtml || current.snippetHtml;
+            }
+          } else {
+            rows.set(base.slug, {
+              ...base,
+              combined: contribution,
+              source: "meaning",
+              vectorScore: hit.score,
+            });
           }
-          lastQuery = q;
-          const results = await window.NepalExplorer.semantic.search(q, { limit: 20 });
-          if (lastQuery !== q) return;
-          renderResults(results, q, "cosine");
-        }
+        });
+        return Array.from(rows.values())
+          .sort((a, b) => b.combined - a.combined)
+          .slice(0, limit)
+          .map((r) => ({ ...r, score: r.vectorScore || r.score || r.combined, chip: r.source === "hybrid" ? "text + meaning" : r.source }));
       }
 
       function filterNavInPlace(q) {
@@ -2335,26 +2911,60 @@
         });
       }
 
-      function renderResults(results, q, scoreLabel) {
+      function renderResults(results, q, scoreLabel, answer) {
         const nav = document.getElementById("nav");
         nav.className = "nav-list";
         if (!results.length) {
           nav.innerHTML = `<div class="results-empty">no matches for <b>${escapeHtml(q)}</b></div>`;
           return;
         }
-        let html = `<div class="results-summary">${results.length} result${results.length === 1 ? "" : "s"} · ${scoreLabel}</div><div class="results">`;
+        let html = answer ? renderAnswerCard(answer) : "";
+        html += `<div class="results-summary">${results.length} result${results.length === 1 ? "" : "s"} · ${scoreLabel}</div><div class="results">`;
         for (const r of results) {
           const sp = spatialSlugs.has(r.slug) ? " spatial" : "";
+          const meaning = r.chip === "meaning" || r.chip === "hybrid" || r.chip === "text + meaning" ? " meaning" : "";
           const score = (r.score >= 1 ? r.score.toFixed(2) : (r.score * 100).toFixed(0) + "%");
-          html += `<a class="result${sp}" data-slug="${r.slug}" href="javascript:void(0)" onclick="openWikiPage('${r.slug}')">
+          const snippet = r.snippetHtml || escapeHtml(r.snippet || "");
+          const chip = r.chip ? ` · <span class="r-chip">${escapeHtml(r.chip)}</span>` : "";
+          const isFact = r.kind === "fact" && r.factId;
+          const action = isFact ? `openFactDetail('${r.factId}')` : `openWikiPage('${r.slug}')`;
+          const dataAttr = isFact ? `data-fact-id="${escapeHtml(r.factId)}"` : `data-slug="${escapeHtml(r.slug)}"`;
+          html += `<a class="result${sp}${meaning}" ${dataAttr} href="javascript:void(0)" onclick="${action}">
       <div class="r-title">${escapeHtml(r.title)}</div>
-      <div class="r-meta"><span>${r.category}${r.subcategory ? " · " + r.subcategory : ""}</span><span class="score">${score}</span></div>
-      <div class="r-snippet">${r.snippet || ""}</div>
+      <div class="r-meta"><span>${r.category}${r.subcategory ? " · " + r.subcategory : ""}${r.reason ? " · " + escapeHtml(r.reason) : ""}${chip}</span><span class="score">${score}</span></div>
+      <div class="r-snippet">${snippet}</div>
     </a>`;
         }
         html += `</div>`;
         nav.innerHTML = html;
         setActiveNav(currentSlug);
+      }
+
+      function renderAnswerCard(answer) {
+        const options = (answer.rows || []).slice(1).map((row) => {
+          const label = row.interpretation || row.status_raw || row.status || "Also";
+          const value = `${row.name} · ${formatMw(row.capacity_mw)}`;
+          return `<span class="answer-option">${escapeHtml(label)}: ${escapeHtml(value)}</span>`;
+        }).join("");
+        const related = (answer.relatedSlugs || []).map((slug) => {
+          const page = pageMeta && pageMeta.bySlug && pageMeta.bySlug[slug];
+          const title = page ? page.title : slug;
+          return `<a href="javascript:void(0)" onclick="openWikiPage('${slug}')">${escapeHtml(title)}</a>`;
+        }).join("");
+        return `<div class="answer-card">
+          <div class="answer-kicker">${escapeHtml(answer.title || "Answer")}</div>
+          <div class="answer-primary">${escapeHtml(answer.primary || "")}</div>
+          ${answer.detail ? `<div class="answer-detail">${escapeHtml(answer.detail)}</div>` : ""}
+          ${options ? `<div class="answer-options">${options}</div>` : ""}
+          ${related ? `<div class="answer-related">${related}</div>` : ""}
+          ${answer.source ? `<div class="answer-source">${escapeHtml(answer.source)}</div>` : ""}
+        </div>`;
+      }
+
+      function formatMw(value) {
+        const n = Number(value);
+        if (!Number.isFinite(n)) return "";
+        return `${n.toLocaleString(undefined, { maximumFractionDigits: n >= 100 ? 0 : 2 })} MW`;
       }
 
       function escapeHtml(s) {
@@ -2624,7 +3234,9 @@
           return;
         }
         currentSlug = slug;
+        currentFactId = null;
         setActiveNav(slug);
+        if (isCompactLayout()) setCompactView("read");
         // If a feature popup is currently open, refresh it so its CTA reflects the
         // new current page (e.g., the just-opened slug becomes "Already open").
         if (map) {
@@ -2696,6 +3308,69 @@
 
         syncUrl();
       };
+
+      window.openFactDetail = async function (factId, opts = {}) {
+        const fact = factIndex && factIndex.getFact(factId);
+        if (!fact) return;
+        currentFactId = factId;
+        currentSlug = null;
+        setActiveNav(null);
+        document.getElementById("now-page").textContent = "data record";
+        const page = document.getElementById("page");
+        page.innerHTML = renderFactDetail(fact);
+        if (isCompactLayout()) setCompactView("read");
+
+        const ref = fact.feature_ref || {};
+        if (ref.layer && !lm.has(ref.layer)) await lm.add(ref.layer);
+        const feature = ref.layer ? lm.findFeatureByRef(ref) : null;
+        document.getElementById("map-info").innerHTML =
+          `<b>${escapeHtml(fact.name)}</b><br/>` +
+          `<span class="muted">Data record · ${escapeHtml(fact.source_layer || "fact index")}</span>`;
+
+        if (feature) {
+          const single = L.featureGroup([feature.layer]);
+          const b = single.getBounds();
+          if (b.isValid()) {
+            map.flyToBounds(b, { padding: [80, 80], duration: 0.9, maxZoom: 12 });
+          } else if (typeof feature.layer.getLatLng === "function") {
+            map.flyTo(feature.layer.getLatLng(), 12, { duration: 0.9 });
+          }
+          lm.highlight([feature], { revertAfterMs: 4500 });
+          setTimeout(() => {
+            const spec = lm.buildCardSpec(feature, { pageHref: `?fact=${encodeURIComponent(factId)}`, linkLabel: "Open data record →" });
+            if (spec) lm.flashCard(feature, spec, { dismissAfterMs: 7000 });
+          }, 950);
+        }
+        syncUrl();
+      };
+
+      function renderFactDetail(fact) {
+        const rows = [
+          ["Capacity", formatMw(fact.capacity_mw)],
+          ["Status", fact.status_raw || fact.status],
+          ["District", fact.district],
+          ["River / basin", fact.river || fact.basin],
+          ["Province", fact.province],
+          ["Promoter / owner", fact.promoter],
+          ["Source", fact.source_note || fact.source_layer],
+        ].filter((row) => row[1]);
+        const cells = rows.map(([label, value]) => `<div class="fact-cell"><b>${escapeHtml(label)}</b>${escapeHtml(value)}</div>`).join("");
+        const related = (fact.related_slugs || []).map((slug) => {
+          const page = pageMeta && pageMeta.bySlug && pageMeta.bySlug[slug];
+          const title = page ? page.title : slug;
+          return `<li><a href="javascript:void(0)" onclick="openWikiPage('${slug}')">${escapeHtml(title)}</a></li>`;
+        }).join("");
+        const wikiLink = fact.wiki_slug
+          ? `<p><a href="javascript:void(0)" onclick="openWikiPage('${fact.wiki_slug}')">Open narrative wiki page →</a></p>`
+          : `<p class="muted">Data record · no narrative wiki page yet.</p>`;
+        return `<article class="page fact-page">
+          <div class="fact-kicker">${escapeHtml(fact.domain || "fact")} data record</div>
+          <h1>${escapeHtml(fact.name)}</h1>
+          ${wikiLink}
+          <div class="fact-grid">${cells}</div>
+          ${related ? `<h2>Related wiki reading</h2><ul>${related}</ul>` : ""}
+        </article>`;
+      }
 
       function onFeatureClick({ key, props, slug, layer }) {
         if (slug) {
@@ -3430,7 +4105,8 @@
         if (suppressUrlSync) return;
         const params = new URLSearchParams();
         if (currentPreset) params.set("preset", currentPreset);
-        if (currentSlug) params.set("page", currentSlug);
+        if (currentFactId) params.set("fact", currentFactId);
+        else if (currentSlug) params.set("page", currentSlug);
         if (tourState.enabled) params.set("guided", "1");
         if (tourState.enabled && tourState.active && tourState.tourId) {
           params.set("tour", tourState.tourId);
@@ -3447,6 +4123,7 @@
         return {
           preset: params.get("preset"),
           page: params.get("page"),
+          fact: params.get("fact"),
           guided: params.get("guided"),
           tour: params.get("tour"),
           mode: params.get("mode"),
@@ -3467,12 +4144,29 @@
         spatialSlugs = new Set(Object.keys(bindings.pages || {}));
         pageMeta = await loadJSON("shared/wiki-page-meta.json");
         pageMeta.bySlug = Object.fromEntries(pageMeta.pages.map((p) => [p.slug, p]));
-        bm25 = new window.NepalExplorer.BM25Index(pageMeta);
+        searchIndex = new window.NepalExplorer.StaticSearchIndex(await loadJSON("shared/wiki-search-index.json"));
+        factIndex = new window.NepalExplorer.StaticFactIndex(await loadJSON("shared/wiki-fact-index.json"), searchIndex);
+        try {
+          vectorBoost = new window.NepalExplorer.VectorSeekBoost(await loadJSON("shared/wiki-vector-index.json"), {
+            onStatus: (s) => showSeekStatus(s.state, s.message),
+          });
+        } catch (err) {
+          vectorBoost = null;
+        }
 
         setupSplitters();
+        setupCompactShell();
 
         document.querySelectorAll("#search-mode button").forEach((b) => {
           b.addEventListener("click", () => setSearchMode(b.dataset.mode));
+        });
+        document.querySelectorAll("#seek-suggestions button").forEach((b) => {
+          b.addEventListener("click", () => {
+            setSearchMode("seek");
+            document.getElementById("q").value = b.dataset.query || "";
+            applySearch();
+            document.getElementById("q").focus();
+          });
         });
         setSearchMode(searchMode);
 
@@ -3558,6 +4252,7 @@
 
         // Resolve initial state: URL > localStorage > config default
         const url = readUrlState();
+        setCompactView(initialCompactView(url), { persist: false });
         tourState.enabled = (url.guided === "1") || (localStorage.getItem("explorer.guidedEnabled") === "1");
         tourState.tourId = url.tour || localStorage.getItem("explorer.tour") || tourManifest.default_tour || Object.keys(tourManifest.tours || {})[0] || null;
         tourState.mode = (tourManifest.modes && tourManifest.modes[url.mode]) ? url.mode : (localStorage.getItem("explorer.tourMode") || tourManifest.default_mode || "short");
@@ -3565,10 +4260,12 @@
         const initialPreset = url.preset || savedPreset || presetsCfg.default_preset;
 
         suppressUrlSync = true;
-        await applyPreset(initialPreset in presetsCfg.presets ? initialPreset : presetsCfg.default_preset, { fly: !url.page });
+        await applyPreset(initialPreset in presetsCfg.presets ? initialPreset : presetsCfg.default_preset, { fly: !url.page && !url.fact });
         suppressUrlSync = false;
 
-        if (url.page && bindings.pages[url.page]) {
+        if (url.fact && factIndex.getFact(url.fact)) {
+          await window.openFactDetail(url.fact);
+        } else if (url.page && bindings.pages[url.page]) {
           await window.openWikiPage(url.page);
         } else {
           syncUrl();
@@ -3585,7 +4282,7 @@
           if (currentPreset) localStorage.setItem("explorer.preset", currentPreset);
         });
 
-        window._explorer = { lm, map, baseLayers, openWikiPage, setSearchMode, buildNav, primeSemantic, applyPreset, presetsCfg };
+        window._explorer = { lm, map, baseLayers, openWikiPage, setSearchMode, buildNav, applyPreset, presetsCfg, setCompactView };
         syncLayerPanel();
 
         // --- Wiki-page image lightbox -------------------------------------------

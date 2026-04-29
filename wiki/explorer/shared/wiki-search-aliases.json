@@ -1,0 +1,13 @@
+{
+  "_doc": "Curated query expansion terms for static Seek search. Keys and values are tokenized again by the search-index builder.",
+  "firm power": ["dry-season", "peaking", "storage", "capacity value", "firm energy"],
+  "winter deficit": ["dry-season", "seasonal mismatch", "storage deficit", "winter scarcity", "imports"],
+  "india export risk": ["cross-border", "electricity trade", "export approval", "market access", "india energy relationship"],
+  "storage projects karnali": ["karnali basin", "storage shortlist", "nalsyau gad", "phukot karnali", "mugu karnali", "west seti"],
+  "solar hydro complementarity": ["dry-season solar", "hybrid siting", "solar role", "seasonal complementarity"],
+  "transmission bottleneck": ["grid constraint", "evacuation", "corridor", "stranded generation", "transmission immediate blocker"],
+  "monsoon surplus": ["seasonal arbitrage", "wet season", "export", "spill", "run-of-river"],
+  "dry season": ["winter", "storage", "firm power", "imports", "seasonal mismatch"],
+  "ror": ["run-of-river", "hydropower", "seasonal mismatch"],
+  "pror": ["peaking run-of-river", "firm power", "hydropower"]
+}

@@ -11,6 +11,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WIKI_PAGES = ROOT / "wiki" / "pages"
 INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-page-index.json"
+SEARCH_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-search-index.json"
+FACT_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-fact-index.json"
+VECTOR_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-vector-index.json"
 BACKLINKS = ROOT / "wiki" / "explorer" / "shared" / "wiki-backlinks.json"
 MANIFEST = ROOT / "wiki" / "explorer" / "shared" / "layer-manifest.json"
 
@@ -72,6 +75,38 @@ def validate_caches(slugs: set[str]) -> None:
     index = load_json(INDEX)
     if index.get("totalPages") != len(slugs):
         fail(f"wiki-page-index totalPages={index.get('totalPages')} but found {len(slugs)} pages")
+
+    search = load_json(SEARCH_INDEX)
+    search_slugs = {p.get("s") for p in search.get("pages", [])}
+    if search_slugs != slugs:
+        missing = sorted(slugs - search_slugs)
+        extra = sorted(search_slugs - slugs)
+        msg = []
+        if missing:
+            msg.append("missing: " + ", ".join(missing[:20]))
+        if extra:
+            msg.append("extra: " + ", ".join(extra[:20]))
+        fail("wiki-search-index slugs do not match wiki pages (" + "; ".join(msg) + ")")
+    if search.get("version") != 1 or not search.get("postings") or not search.get("neighbors"):
+        fail("wiki-search-index is missing required static search fields")
+
+    facts = load_json(FACT_INDEX)
+    if facts.get("version") != 1 or not facts.get("facts"):
+        fail("wiki-fact-index is missing required fact fields")
+    for fact in facts.get("facts", []):
+        slug = fact.get("slug")
+        if slug and slug not in slugs:
+            fail(f"wiki-fact-index points to missing slug: {slug}")
+
+    vector = load_json(VECTOR_INDEX)
+    if vector.get("version") != 1 or not vector.get("chunks"):
+        fail("wiki-vector-index is missing required vector fields")
+    if vector.get("model", {}).get("dtype") != "int8_unit":
+        fail("wiki-vector-index must ship quantized int8 unit vectors")
+    vector_pages = {search["pages"][chunk.get("p", -1)]["s"] for chunk in vector.get("chunks", []) if 0 <= chunk.get("p", -1) < len(search["pages"])}
+    if not slugs.issubset(vector_pages):
+        missing = sorted(slugs - vector_pages)
+        fail("wiki-vector-index has no chunks for pages: " + ", ".join(missing[:20]))
 
     backlinks = load_json(BACKLINKS).get("backlinks", {})
     broken_refs = [

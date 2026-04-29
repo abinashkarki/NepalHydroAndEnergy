@@ -890,6 +890,30 @@ class LayerManager {
     return out;
   }
 
+  findFeatureByRef(ref) {
+    if (!ref || !ref.layer) return null;
+    const keys = this._resolveLayerKeys(ref.layer);
+    for (const key of keys) {
+      const lyr = this.layers[key];
+      if (!lyr) continue;
+      let found = null;
+      lyr.eachLayer((sub) => {
+        if (found) return;
+        const p = sub.feature && sub.feature.properties ? sub.feature.properties : {};
+        if (ref.id && (p.id === ref.id || p.corridor_id === ref.id || p.segment_id === ref.id || p.project === ref.id || p.name === ref.id || p.label_title === ref.id)) {
+          found = { key, layer: sub, props: p, primary: true };
+          return;
+        }
+        if (ref.match_field && ref.match_value != null) {
+          const value = String(p[ref.match_field] || "").toLowerCase();
+          if (value === String(ref.match_value).toLowerCase()) found = { key, layer: sub, props: p, primary: true };
+        }
+      });
+      if (found) return found;
+    }
+    return null;
+  }
+
   // Choose the best feature to flash a card on. Returns null when the hit is
   // too broad to warrant a card (e.g., a basin polygon, or 8 transmission segments).
   pickCardFeature(features) {
@@ -975,7 +999,7 @@ class LayerManager {
         .filter(Boolean);
     }
 
-    return { title: String(title || "Feature"), lead: String(lead || ""), body, pageHref: opts.pageHref };
+    return { title: String(title || "Feature"), lead: String(lead || ""), body, pageHref: opts.pageHref, linkLabel: opts.linkLabel };
   }
 
   flyToFeatures(features, opts = {}) {
@@ -1069,7 +1093,7 @@ class LayerManager {
         .join("") + `</dl>`;
     }
     const footerHtml = cardSpec.pageHref
-      ? `<div class="np-card-footer"><a class="np-card-link" href="${cardSpec.pageHref}">Open page →</a></div>`
+      ? `<div class="np-card-footer"><a class="np-card-link" href="${cardSpec.pageHref}">${escapeHtml(cardSpec.linkLabel || "Open page →")}</a></div>`
       : "";
     const html = `<div class="np-card">${titleHtml}${leadHtml}${bodyHtml}${footerHtml}</div>`;
 
