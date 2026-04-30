@@ -75,7 +75,7 @@ This is where [[storage-deficit]], [[firm-power]], [[environmental-flow-policy]]
 
 ## Strategic Risk
 
-In a more nationalist regional order, unclear water facts become dangerous. Nepal can overstate its leverage, India can understate Nepal's contribution, and downstream communities can interpret upstream infrastructure as threat rather than shared resilience. The research system should therefore make the hydrology legible before the politics harden around slogans.
+In a more nationalist regional order, unclear water facts become dangerous. Nepal can overstate its leverage, India can understate Nepal's contribution, and downstream communities can interpret upstream infrastructure as threat rather than shared resilience. The public hub should therefore make the hydrology legible before the politics harden around slogans.
 
 The useful claim is not that Nepal controls South Asian water security. The useful claim is sharper: Nepal is a major upstream timing actor in the Ganges system, and its future storage, grid, treaty, and climate decisions will matter far beyond its borders.
 

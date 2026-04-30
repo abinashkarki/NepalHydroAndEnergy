@@ -6,7 +6,6 @@ updated: 2026-04-24
 claim_id: C-014
 confidence: medium
 status: stable
-providers: [codex]
 sources: [nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment, global-solar-atlas-nepal]
 tags: [solar, terai, buildability, transmission, winter, short-cycle]
 ---

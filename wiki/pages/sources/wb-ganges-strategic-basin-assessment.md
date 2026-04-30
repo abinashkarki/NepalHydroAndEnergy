@@ -15,7 +15,7 @@ tags: [world-bank, ganges, geopolitics, storage, regional]
 
 ## Summary
 
-Regional-scale analysis of the Ganges basin covering water storage, flood management, and transboundary dynamics. Provides the valley-shape storage paradox that Gemini highlighted.
+Regional-scale analysis of the Ganges basin covering water storage, flood management, and transboundary dynamics. Provides the valley-shape storage paradox that Public source review highlighted.
 
 ## Key Data Points
 
@@ -26,4 +26,4 @@ Regional-scale analysis of the Ganges basin covering water storage, flood manage
 
 ## Relevance to Project
 
-The valley-shape paradox (same dam height, 180x less storage) is one of the most powerful visualizations for explaining why Nepal's geography simultaneously enables hydropower and prevents easy storage. Central to [[storage-deficit]] and [[data-storage-comparison]]. Gemini ref 18.
+The valley-shape paradox (same dam height, 180x less storage) is one of the most powerful visualizations for explaining why Nepal's geography simultaneously enables hydropower and prevents easy storage. Central to [[storage-deficit]] and [[data-storage-comparison]].

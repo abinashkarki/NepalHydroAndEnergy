@@ -25,4 +25,4 @@ Detailed assessment of sediment dynamics, erosion, and environmental threats in 
 
 ## Relevance to Project
 
-Supports [[sediment-as-design-constraint]], [[glof-risk]], and the hazard dimension of [[buildability]]. Codex [S10].
+Supports [[sediment-as-design-constraint]], [[glof-risk]], and the hazard dimension of [[buildability]]. .

@@ -35,7 +35,7 @@ The revised national hydropower potential assessment. Supersedes the older 83,00
 
 ## Relevance to Project
 
-The definitive source for [[hydropower-potential-categories]]. Only Codex [S3] surfaced the revised 72,544 MW figure — other providers used the legacy 83,000 MW. The basin concentration data (94% in three basins) is central to the strategic argument.
+The definitive source for [[hydropower-potential-categories]]. Only  surfaced the revised 72,544 MW figure — public summaries used the legacy 83,000 MW. The basin concentration data (94% in three basins) is central to the strategic argument.
 
 > [!note]
 > The legacy 83,000 MW figure remains politically prominent. The 2019 assessment's 72,544 MW is the more defensible current number, and 32,680 MW techno-economic is the more honest planning baseline.

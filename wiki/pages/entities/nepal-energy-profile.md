@@ -20,7 +20,7 @@ images:
 
 # Nepal Energy Profile
 
-Energy-specific profile of Nepal. On merge with the personal wiki, this content integrates into the existing `[[nepal]]` entity page.
+Energy-specific profile of Nepal for electricity-system context.
 
 ## System Snapshot (FY 2024/25)
 

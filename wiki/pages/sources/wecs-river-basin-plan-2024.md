@@ -28,7 +28,7 @@ The 2024 master planning document for Nepal's river basins. Provides basin-level
 
 ## Relevance to Project
 
-Foundation for Domain A (hydrology) across all providers. Hermes extracted it into working files. Codex cites as [S2]. Provides the basin-level evidence for [[seasonal-mismatch]] and [[claim-timing-not-volume]].
+Foundation for the hydrology evidence base. Provides the basin-level evidence for [[seasonal-mismatch]] and [[claim-timing-not-volume]].
 
 > [!warning]
 > WECS explicitly warns that atlas flow numbers are model-derived (MIKE SHE / MIKE Hydro Basin) and may differ from DHM observations or project-specific studies.

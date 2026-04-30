@@ -35,7 +35,7 @@ That revised scale still matters. A 439 MW semi-reservoir plant with peaking val
 
 ## Status And Timing
 
-The page should no longer be read as a simple "survey stub." Public reporting in July 2025 said Nepal's energy ministry granted a generation licence for the **439 MW** Betan Karnali project and that the company aimed to start construction immediately and complete within five years. The Rising Nepal then reported in November 2025 that the Investment Board Nepal approved investment for the **439 MW** Betan Karnali Semi-Reservoir Hydropower Project and formed a negotiation committee for the Project Development Agreement.
+This page should be read as a current project record, not only as a survey-stage registry entry. Public reporting in July 2025 said Nepal's energy ministry granted a generation licence for the **439 MW** Betan Karnali project and that the company aimed to start construction immediately and complete within five years. The Rising Nepal then reported in November 2025 that the Investment Board Nepal approved investment for the **439 MW** Betan Karnali Semi-Reservoir Hydropower Project and formed a negotiation committee for the Project Development Agreement.
 
 The wiki still preserves the 688 MW generated spec because the map layer is derived from the DoED-linked registry snapshot. The analytical status is:
 

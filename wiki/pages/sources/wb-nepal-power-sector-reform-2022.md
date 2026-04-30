@@ -15,7 +15,7 @@ tags: [world-bank, reform, policy, institutional, official]
 
 ## Summary
 
-Policy-oriented assessment of Nepal's power sector institutions and reform needs. Used by Hermes in Wave 1 as part of the source base for hydropower potential labeling and institutional analysis.
+Policy-oriented assessment of Nepal's power sector institutions and reform needs. Used as part of the source base for hydropower potential labeling and institutional analysis.
 
 ## Key Data Points
 
@@ -24,4 +24,4 @@ Policy-oriented assessment of Nepal's power sector institutions and reform needs
 
 ## Relevance to Project
 
-Provides the 42,000 MW economically feasible figure used alongside WECS numbers. Important for [[hydropower-potential-categories]] provenance. Hermes Wave 1 source.
+Provides the 42,000 MW economically feasible figure used alongside WECS numbers. Important for [[hydropower-potential-categories]] provenance. source-review note.

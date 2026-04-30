@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Nepal Energy · Wiki & Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="shared/style.css" />
+  <link rel="stylesheet" href="shared/style.css?v=public-launch-3" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="shared/leaflet-init.js?v=seek-facts-3"></script>
-  <script src="shared/wiki-loader.js?v=seek-facts-3"></script>
-  <script src="shared/wiki-search.js?v=seek-facts-3"></script>
-  <script src="shared/wiki-vector-search.js?v=seek-facts-3"></script>
+  <script src="shared/leaflet-init.js?v=public-launch-3"></script>
+  <script src="shared/wiki-loader.js?v=public-launch-3"></script>
+  <script src="shared/wiki-search.js?v=public-launch-3"></script>
+  <script src="shared/wiki-vector-search.js?v=public-launch-3"></script>
   <style>
     /* Layout: resizable three-pane grid. */
     .layout {
@@ -1767,7 +1767,7 @@
 
     /* Three tiers of page-backing for map markers:
        · orphan    — no wiki page (data-only)     : dashed stroke, 55% opacity
-       · stub      — auto-generated placeholder   : solid thin stroke, reduced fill (hollow look)
+       · project record — registry-backed page     : solid thin stroke, reduced fill (hollow look)
        · narrated  — hand-written page            : solid stroke, full fill (current default)
      Pages that also carry images get a subtle gold drop-shadow on top of the tier. */
     .leaflet-pane .np-marker-orphan {
@@ -2423,19 +2423,19 @@
       <div class="left-head">
         <div class="tour-toggle" id="tour-mode-toggle" role="button" tabindex="0" aria-pressed="false">
           <div class="tt-text">
-            <div class="tt-label" id="tour-toggle-label">Guided tour <span class="tt-beta">experimental</span></div>
+            <div class="tt-label" id="tour-toggle-label">Guided tour <span class="tt-beta">beta</span></div>
             <div class="tt-hint" id="tour-toggle-hint">off</div>
           </div>
           <div class="tour-switch" id="tour-switch" aria-hidden="true"></div>
         </div>
         <div class="search-input-wrap" id="search-wrap">
           <span class="si">⌕</span>
-          <input id="q" placeholder="search page titles…" autocomplete="off" />
+          <input id="q" placeholder="Find pages…" autocomplete="off" />
           <button class="clear-btn" id="clear-q" title="clear">×</button>
         </div>
         <div class="seg" id="search-mode">
-          <button data-mode="search" class="active" title="Direct title lookup">Search</button>
-          <button data-mode="seek" title="Broader topic discovery across content and related pages">Seek</button>
+          <button data-mode="search" class="active" title="Find a page by title">Find</button>
+          <button data-mode="seek" title="Ask across topics, sources, and related pages">Explore</button>
         </div>
         <div class="seek-suggestions" id="seek-suggestions" aria-label="Suggested Seek queries">
           <button type="button" data-query="why does Nepal export in monsoon but import in winter">winter imports</button>
@@ -2457,15 +2457,15 @@
       <div class="tour-rail" id="tour-rail"></div>
       <div class="markdown" id="page">
         <div class="placeholder">
-          Pick any page on the left, or click any feature on the map.<br /><br />
-          Pages with the <span style="color: var(--accent)">●</span> dot are spatially anchored — opening one will fly
-          the map there and scope the layers.<br /><br />
+          Explore Nepal's electricity system through linked public notes and map layers.<br /><br />
+          Start with a page on the left, use Explore for questions, or click any map feature to open its record.
+          Pages marked with <span style="color: var(--accent)">●</span> are spatially anchored and move the map with the article.<br /><br />
           Try <a href="javascript:void(0)" onclick="openWikiPage('koshi-basin')">koshi-basin</a> ·
           <a href="javascript:void(0)" onclick="openWikiPage('upper-tamakoshi')">upper-tamakoshi</a> ·
           <a href="javascript:void(0)"
             onclick="openWikiPage('claim-transmission-immediate-blocker')">claim-transmission-immediate-blocker</a>.<br /><br />
           <span style="font-size: 13px; color: var(--ink-soft)">
-            Search looks up page titles. Seek finds topics, questions, and tradeoffs across the wiki.
+            Find looks up page titles. Explore searches topics, questions, and tradeoffs across the wiki.
           </span>
         </div>
       </div>
@@ -2513,8 +2513,9 @@
       let currentPreset = null;
       let currentBaseLayer = "Carto Positron";
       let layerFeatureCounts = {};
-      let searchMode = localStorage.getItem("explorer.searchMode") || "search";
-      if (!["search", "seek"].includes(searchMode)) searchMode = "search";
+      const DEFAULT_PAGE = "start-here";
+      let searchMode = localStorage.getItem("explorer.searchMode") || "seek";
+      if (!["search", "seek"].includes(searchMode)) searchMode = "seek";
       let seekSeq = 0;
       let collapsedGroups = new Set(JSON.parse(localStorage.getItem("explorer.collapsedGroups") || "[]"));
       let suppressUrlSync = false;
@@ -2824,7 +2825,7 @@
       function navItem(it) {
         const sp = spatialSlugs.has(it.slug) ? " spatial" : "";
         const meta = pageMeta.bySlug[it.slug];
-        const stub = meta && meta.is_stub ? ` <span class="stub-chip" title="Auto-generated stub — data only, no narrative yet">stub</span>` : "";
+        const stub = meta && meta.is_stub ? ` <span class="stub-chip" title="Registry-backed project record">record</span>` : "";
         return `<a class="nav-link${sp}" data-slug="${it.slug}" href="javascript:void(0)" onclick="openWikiPage('${it.slug}')"><span>${it.title}</span>${stub}</a>`;
       }
 
@@ -2872,7 +2873,7 @@
         localStorage.setItem("explorer.searchMode", mode);
         document.querySelectorAll("#search-mode button").forEach((b) => b.classList.toggle("active", b.dataset.mode === mode));
         const input = document.getElementById("q");
-        input.placeholder = mode === "search" ? "search page titles…" : "seek topics, questions, tradeoffs…";
+        input.placeholder = mode === "search" ? "Find pages…" : "Ask about topics, questions, tradeoffs…";
         updateSeekSuggestions();
         if (mode !== "seek") hideSeekStatus();
         applySearch();
@@ -2905,7 +2906,7 @@
             hideSeekStatus();
             return;
           }
-          renderResults(results, q, "Seek");
+          renderResults(results, q, "Explore");
           if (vectorBoost && results.length < 30) {
             showSeekStatus("loading", "Fast results shown. Adding meaning boost...");
             try {
@@ -2913,7 +2914,7 @@
               if (seq !== seekSeq || searchMode !== "seek") return;
               const merged = mergeSeekResults(lexical, vectorHits, 30);
               results = mergeFactResults(facts, merged);
-              renderResults(results, q, "Seek + meaning");
+              renderResults(results, q, "Explore + meaning");
               showSeekStatus("ready", "Meaning boost applied.");
               setTimeout(() => { if (seq === seekSeq) hideSeekStatus(); }, 2200);
             } catch (err) {
@@ -2951,14 +2952,17 @@
         nav.className = "nav-list";
         const prompts = [
           ["Winter deficit", "why does Nepal export in monsoon but import in winter"],
-          ["Firm power", "firm power not just megawatts"],
-          ["India export risk", "India approval risk for power exports"],
-          ["Karnali storage", "storage projects in Karnali"],
+          ["Firm power vs MW", "why is firm power more important than installed megawatts"],
           ["Transmission blocker", "why is transmission the immediate blocker"],
+          ["Storage shortlist", "which storage projects matter most for dry season power"],
+          ["Solar complement", "how can solar help Nepal's winter electricity deficit"],
+          ["Export risk", "how do India export approvals shape Nepal hydropower projects"],
+          ["River geopolitics", "how do Nepal's rivers connect downstream to India and Bangladesh"],
+          ["83,000 MW claim", "what does Nepal's 83000 MW hydropower potential mean in practice"],
         ];
         nav.innerHTML = `<div class="seek-landing">
-          <div class="sl-kicker">Seek</div>
-          <div class="sl-title">Ask across the wiki.</div>
+          <div class="sl-kicker">Explore</div>
+          <div class="sl-title">Ask across the hub.</div>
           <div class="sl-copy">Use this for questions, comparisons, and tradeoffs. Switch back to Find when you want the page directory.</div>
           <div class="sl-chips">
             ${prompts.map(([label, query]) => `<button type="button" class="sl-chip" data-seek-query="${escapeAttr(query)}">${escapeHtml(label)}</button>`).join("")}
@@ -3347,7 +3351,7 @@
 
         const binding = bindings.pages[slug];
         if (!binding) {
-          document.getElementById("map-info").innerHTML = "<b>" + slug + "</b><br/>No spatial binding for this page.";
+          document.getElementById("map-info").innerHTML = "<b>" + slug + "</b><br/>Reader page · map stays on the current lens.";
           syncUrl();
           return;
         }
@@ -3418,7 +3422,7 @@
         currentFactId = factId;
         currentSlug = null;
         setActiveNav(null);
-        document.getElementById("now-page").textContent = "data record";
+        document.getElementById("now-page").textContent = "project record";
         const page = document.getElementById("page");
         page.innerHTML = renderFactDetail(fact);
         if (isCompactLayout()) setCompactView("read");
@@ -3428,7 +3432,7 @@
         const feature = ref.layer ? lm.findFeatureByRef(ref) : null;
         document.getElementById("map-info").innerHTML =
           `<b>${escapeHtml(fact.name)}</b><br/>` +
-          `<span class="muted">Data record · ${escapeHtml(fact.source_layer || "fact index")}</span>`;
+          `<span class="muted">Project record · ${escapeHtml(fact.source_layer || "fact index")}</span>`;
 
         if (feature) {
           const single = L.featureGroup([feature.layer]);
@@ -3440,7 +3444,7 @@
           }
           lm.highlight([feature], { revertAfterMs: 4500 });
           setTimeout(() => {
-            const spec = lm.buildCardSpec(feature, { pageHref: `?fact=${encodeURIComponent(factId)}`, linkLabel: "Open data record →" });
+            const spec = lm.buildCardSpec(feature, { pageHref: `?fact=${encodeURIComponent(factId)}`, linkLabel: "Open project record →" });
             if (spec) lm.flashCard(feature, spec, { dismissAfterMs: 7000 });
           }, 950);
         }
@@ -3465,9 +3469,9 @@
         }).join("");
         const wikiLink = fact.wiki_slug
           ? `<p><a href="javascript:void(0)" onclick="openWikiPage('${fact.wiki_slug}')">Open narrative wiki page →</a></p>`
-          : `<p class="muted">Data record · no narrative wiki page yet.</p>`;
+          : `<p class="muted">Project record · no narrative wiki page yet.</p>`;
         return `<article class="page fact-page">
-          <div class="fact-kicker">${escapeHtml(fact.domain || "fact")} data record</div>
+          <div class="fact-kicker">${escapeHtml(fact.domain || "fact")} project record</div>
           <h1>${escapeHtml(fact.name)}</h1>
           ${wikiLink}
           <div class="fact-grid">${cells}</div>
@@ -4149,14 +4153,14 @@
             foot.innerHTML = `
         <div class="lc-tierseg" role="group" aria-label="Filter markers by wiki-page tier">
           <button data-tier="all"       title="Show every marker">All</button>
-          <button data-tier="bound"     title="Hide data-only markers (keep stubs + narrated)">Wiki</button>
-          <button data-tier="narrated"  title="Show only hand-written narrative pages">Narrated</button>
+          <button data-tier="bound"     title="Hide data-only markers and keep pages with wiki records">Wiki pages</button>
+          <button data-tier="narrated"  title="Show only pages with public narrative context">Narrative</button>
         </div>
         <div class="lc-dotcap" style="margin-top:6px; line-height:1.5">
           <div>Dot size ∝ √capacity (MW)</div>
           <div style="margin-top:3px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-            <span title="Hand-written narrative"><span class="lc-legend-dot lc-legend-narrated"></span> narrated</span>
-            <span title="Auto-generated stub page"><span class="lc-legend-dot lc-legend-stub"></span> stub</span>
+            <span title="Page with public narrative context"><span class="lc-legend-dot lc-legend-narrated"></span> narrative</span>
+            <span title="Registry-backed project record"><span class="lc-legend-dot lc-legend-stub"></span> project record</span>
             <span title="No wiki page"><span class="lc-legend-dot lc-legend-orphan"></span> data only</span>
           </div>
         </div>
@@ -4210,7 +4214,7 @@
             return;
           }
           const label = tier === "narrated"
-            ? "Showing narrated pages only — stubs &amp; data-only markers hidden."
+            ? "Showing narrative pages only — project records &amp; data-only markers hidden."
             : "Showing wiki-bound markers only — data-only markers hidden.";
           if (!banner) {
             banner = document.createElement("div");
@@ -4308,8 +4312,6 @@
             document.getElementById("q").focus();
           });
         });
-        setSearchMode(searchMode);
-
         document.getElementById("q").addEventListener("input", applySearch);
         document.getElementById("clear-q").addEventListener("click", () => {
           document.getElementById("q").value = "";
@@ -4331,7 +4333,7 @@
           }
         });
 
-        buildNav();
+        setSearchMode(searchMode);
 
         ({ map, baseLayers } = makeMap("map"));
         const reverseIdx = buildReverseIndex(bindings);
@@ -4405,8 +4407,10 @@
 
         if (url.fact && factIndex.getFact(url.fact)) {
           await window.openFactDetail(url.fact);
-        } else if (url.page && bindings.pages[url.page]) {
+        } else if (url.page && pageIndex.slugToCategory[url.page]) {
           await window.openWikiPage(url.page);
+        } else if (pageIndex.slugToCategory[DEFAULT_PAGE]) {
+          await window.openWikiPage(DEFAULT_PAGE);
         } else {
           syncUrl();
         }

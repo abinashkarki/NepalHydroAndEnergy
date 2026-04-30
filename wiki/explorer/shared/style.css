@@ -82,6 +82,29 @@ code, pre, .mono { font-family: var(--mono); }
 .markdown th, .markdown td { border-bottom: 1px solid var(--rule); padding: 6px 10px; text-align: left; vertical-align: top; }
 .markdown th { background: var(--panel-2); font-weight: 600; }
 .markdown blockquote { border-left: 3px solid var(--accent-soft); padding: 4px 14px; margin: 12px 0; color: var(--ink-soft); }
+.wiki-callout {
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent-soft) 55%, transparent);
+  padding: 10px 13px;
+  margin: 14px 0;
+  color: var(--ink);
+}
+.wiki-callout-label {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+.wiki-callout-body p:last-child,
+.wiki-callout-body :last-child { margin-bottom: 0; }
+.wiki-callout-warning { border-left-color: #b7791f; }
+.wiki-callout-contradiction { border-left-color: #b83280; }
+.wiki-callout-gap { border-left-color: #718096; }
+.wiki-callout-cite { border-left-color: #2b6cb0; }
+.wiki-callout-finding { border-left-color: #2f855a; }
 .markdown .wiki-inline-figure {
   margin: 16px auto 18px;
   max-width: 560px;
@@ -444,4 +467,3 @@ code, pre, .mono { font-family: var(--mono); }
   background: transparent !important;
   border: none !important;
 }
-

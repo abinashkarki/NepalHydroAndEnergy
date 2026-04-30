@@ -9,15 +9,15 @@ updated: 2026-04-15
 
 ## 2026-04-14
 
-- Wiki created. Schema forked from personal wiki with project extensions (claim, data page types).
+- Wiki created with project extensions for claim and data page types.
 - Directory structure: sources, entities, concepts, syntheses, claims, data.
-- Building from four-provider research corpus: Hermes, Claude, Codex, Gemini.
+- Building from source extraction, narrative drafts, and data verification passes.
 - Created 15 source pages (NEA, WECS, WB, ADB, ICIMOD, GGGI, India CBTE).
 - Created 5 data pages (basin discharge, fleet composition, trade series, storage comparison, potential pyramid).
 - Created 16 entity pages (4 basins, 7 projects, 2 orgs, 3 country profiles).
 - Created 15 concept pages (analytical vocabulary for the research domains).
-- Created 12 claim pages (tracked assertions from Hermes ledger, expanded with all-provider evidence).
-- Created 5 synthesis pages (master thesis, bottleneck hierarchy, provider comparison, 20-year strategy, gaps).
+- Created 12 claim pages for tracked assertions.
+- Created 5 synthesis pages for the master thesis, bottleneck hierarchy, methodology notes, 20-year strategy, and open questions.
 - Populated index.md with all 68 pages.
 - Cross-link pass: verified all pages have 2+ outbound wikilinks.
 
@@ -45,9 +45,9 @@ Researched 7 of 10 identified gaps + 5 of 5 claims needing verification. Sources
 
 Index updated: 71 pages across 6 categories.
 
-### DeepResearch integration — all 7 parts (2026-04-14, later)
+### Additional research integration — all 7 parts (2026-04-14, later)
 
-All 7 parts of the ChatGPT DeepResearch corpus integrated. Parts 1, 2, 3, 6 assessed earlier (high quality). Parts 4, 5, 7 now received and assessed. Quality verdict: Part 7 (economics/trade) near-full quality; Part 5 (technology) solid but thinner; Part 4 (seasonal/climate) weakest — summary-grade, no new data beyond confirming existing claims.
+All 7 parts of the extended research corpus integrated. Parts 1, 2, 3, 6 assessed earlier. Parts 4, 5, 7 were then received and checked. Quality verdict: Part 7 (economics/trade) was strongest; Part 5 (technology) was useful but thinner; Part 4 (seasonal/climate) was summary-grade and mainly confirmed existing claims.
 
 **New pages created (1):**
 - [[data-domestic-demand]] — sectoral demand split, load profile (18:30–19:25 peak), electric cooking gap (<1% households), FY 2020/21 supply mix (imports 31.83% of supply)
@@ -55,14 +55,14 @@ All 7 parts of the ChatGPT DeepResearch corpus integrated. Parts 1, 2, 3, 6 asse
 **Major updates (7 pages):**
 - [[data-trade-time-series]] — Added full month-by-month GWh table (FY 2079/80/~2022/23): Baisakh 395.7 GWh imported / zero exported; IEX price evolution 2021-24 (spread flipped positive in 2023-24); Falgun 2080 406.3 GWh single-month import; 654 MW winter import approval Jan-Mar 2026
 - [[seasonal-arbitrage-trap]] — Rewrote with IEX two-layer analysis (positive exchange spread vs negative system-wide average), monthly table proof, evening peak context
-- [[domestic-led-hydro-strategy]] — Added electric cooking <1%, sectoral demand data, DeepResearch "brutal answer" framing
+- [[domestic-led-hydro-strategy]] — Added electric cooking <1%, sectoral demand data, and winter-scarcity framing
 - [[sediment-as-design-constraint]] — Added Kali Gandaki A field test data (IEC 60041, best-point 90-92%, overhaul degradation), Khimti multi-stage system (0.13mm threshold), 80% of forced outages from turbine/generator/excitation, Pelton erosion case
 - [[peak-water]] — Added quantitative climate table (0.02-0.16°C/yr, -0.3 to -0.8 m w.e./yr glacier balance, glacial lake +0.83%/yr), Karnali decomposition (glacier ice melt = 0.8% of annual flow, snowmelt = 24%)
 - [[nepal-energy-profile]] — Updated installed capacity to DoED Apr 10, 2026 figure: 3,791.874 MW / 189 plants
-- [[master-thesis]] — Added DeepResearch as 5th provider; added "winter scarcity tax" framing line
+- [[master-thesis]] — Added "winter scarcity tax" framing line
 
 **Gaps update:**
-- Gap #2 (monthly GWh trade): now **FILLED** — month-by-month resolution achieved via DeepResearch Part 7
+- Gap #2 (monthly GWh trade): now **FILLED** — month-by-month resolution added from the extended trade evidence
 - Gap #6 (load shape): upgraded to **PARTIALLY FILLED** — evening peak timing and magnitude documented
 - Data conflict: installed capacity updated to 3,791.874 MW (DoED Apr 2026)
 

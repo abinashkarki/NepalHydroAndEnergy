@@ -26,4 +26,4 @@ ICIMOD's research programme on the [[koshi-basin]], covering downstream impacts,
 
 ## Relevance to Project
 
-Central to [[hydro-geopolitics]] and [[ganges-contribution]]. Also relevant to [[sediment-as-design-constraint]] given extreme sediment loads. Codex [S9].
+Central to [[hydro-geopolitics]] and [[ganges-contribution]]. Also relevant to [[sediment-as-design-constraint]] given extreme sediment loads. .

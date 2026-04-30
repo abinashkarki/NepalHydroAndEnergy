@@ -9,7 +9,7 @@ tags: [synthesis, bottlenecks, ranking, strategy]
 
 # Bottleneck Hierarchy
 
-Ranked bottlenecks for Nepal's hydropower system, synthesized across all providers. The ranking carries an important nuance: the answer changes depending on whether you ask about deep structural cause or immediate practical blocker.
+Ranked bottlenecks for Nepal's hydropower system, synthesized across the source notes, data pages, and system-analysis pages. The ranking carries an important nuance: the answer changes depending on whether you ask about deep structural cause or immediate practical blocker.
 
 ## Tier 1 — Binding Constraints
 
@@ -43,14 +43,14 @@ Ranked bottlenecks for Nepal's hydropower system, synthesized across all provide
 
 This is not a contradiction. It is a more serious systems view.
 
-## Provider Divergence
+## Why Rankings Differ
 
-| Provider | Single biggest bottleneck | Notable difference |
+| Lens | Single biggest bottleneck | Notable difference |
 |----------|-------------------------|-------------------|
-| Hermes | Storage (deep) / Transmission (immediate) | Explicit nuance between deep vs immediate |
-| Claude | Transmission & market access | Argues grid is 2024's binding constraint; ~40/35/25% split |
-| Codex | Storage + grid depth together | Less willing to rank one above the other |
-| Gemini | Storage → Grid → Demand creation | Tripartite framing; adds demand creation as third pillar |
+| Physical system | Storage (deep) / transmission (immediate) | Separates the seasonal timing problem from the delivery bottleneck |
+| Market access | Transmission and trade corridors | Emphasizes that new MW only matters if it reaches buyers at the right time |
+| Grid reliability | Storage + grid depth together | Treats dispatchability and network capacity as coupled constraints |
+| Economic transformation | Storage, grid, then demand creation | Adds domestic productive use as a third pillar |
 
 ## Related
 

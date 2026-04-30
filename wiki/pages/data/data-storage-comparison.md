@@ -16,11 +16,11 @@ Nepal's water storage infrastructure compared to regional and global peers. This
 
 | Country | Per-Capita Storage (m³/person) | Notes | Source |
 |---------|-------------------------------|-------|--------|
-| Norway | ~15,100 | Wide glacial valleys, stable geology, hydro model | Claude |
-| China | ~664 | Massive dam-building programme | Claude |
-| Global average | ~900 | | Claude |
-| India | ~180 | Itself criticized as inadequate | Claude |
-| **Nepal** | **~5** | Almost entirely [[kulekhani-cascade]] | Claude |
+| Norway | ~15,100 | Wide glacial valleys, stable geology, hydro model | Source review |
+| China | ~664 | Massive dam-building programme | Source review |
+| Global average | ~900 | | Source review |
+| India | ~180 | Itself criticized as inadequate | Source review |
+| **Nepal** | **~5** | Almost entirely [[kulekhani-cascade]] | Source review |
 
 Nepal has **1/36th** of India's per-capita storage, which is itself well below global average.
 
@@ -34,7 +34,7 @@ Nepal has **1/36th** of India's per-capita storage, which is itself well below g
 | **Total** | **106** | **~85–150 MCM** | **279.8 GWh** |
 
 > [!contradiction]
-> World Bank Water Diagnostic cites 85 MCM active storage. Claude cites 130–150 MCM total. Likely different boundaries (active vs gross reservoir volume). Both are negligible relative to need.
+> World Bank Water Diagnostic cites 85 MCM active storage. Other source-review summaries cite 130–150 MCM total. Likely different boundaries (active vs gross reservoir volume). Both are negligible relative to need.
 
 ## Storage Need
 

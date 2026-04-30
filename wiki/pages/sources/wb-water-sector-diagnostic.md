@@ -37,7 +37,7 @@ A water-sector-wide diagnostic covering storage requirements, irrigation, and th
 
 ## Relevance to Project
 
-The 29.86 km³ requirement vs near-zero actual storage is the single most dramatic number for the [[storage-deficit]] argument. JICA's MW requirements give a concrete planning target. Data feeds into [[data-storage-comparison]]. Codex [S7].
+The 29.86 km³ requirement vs near-zero actual storage is the single most dramatic number for the [[storage-deficit]] argument. JICA's MW requirements give a concrete planning target. Data feeds into [[data-storage-comparison]]. .
 
 > [!note]
-> The 85 MCM active storage figure (Gemini/WB) and the 130-150 MCM total figure (Claude) likely differ in boundary — active vs total reservoir volume. Both are vanishingly small relative to the 29.86 km³ need.
+> The 85 MCM active storage figure and the 130-150 MCM total figure likely differ in boundary — active vs total reservoir volume. Both are vanishingly small relative to the 29.86 km³ need.

@@ -6,7 +6,6 @@ updated: 2026-04-24
 claim_id: C-016
 confidence: medium
 status: stable
-providers: [codex]
 sources: [aepc-renewable-framework, eib-rural-solar-phase2]
 tags: [solar, politics, rural-electrification, aepc, rooftop, minigrid]
 ---

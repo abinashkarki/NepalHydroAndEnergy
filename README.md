@@ -1,12 +1,12 @@
-# Nepal Hydro & Energy Knowledge System
+# Nepal Hydro & Energy Public Knowledge Hub
 
-Research-grade data, map, and wiki system for understanding Nepal's electricity transition: hydropower seasonality, storage scarcity, transmission bottlenecks, India-facing trade, and the emerging solar complement to run-of-river hydro.
+Public wiki, map, and data source for understanding Nepal's electricity transition: hydropower seasonality, storage scarcity, transmission bottlenecks, India-facing trade, and the emerging solar complement to run-of-river hydro.
 
-The project is intentionally more than a static report. It combines source extraction, derived datasets, interactive maps, and a 247-page linked research wiki that can be searched and explored spatially.
+The project combines source notes, derived datasets, interactive maps, and a 309-page linked wiki that can be searched and explored spatially.
 
 ## Highlights
 
-- **247-page research wiki** covering sources, entities, concepts, data tables, tracked claims, and syntheses.
+- **309-page public wiki** covering sources, entities, concepts, data tables, tracked claims, and syntheses.
 - **Interactive Leaflet explorer** that links wiki pages to map layers, page bindings, backlinks, search metadata, and curated presets.
 - **Geospatial data pipeline** for Nepal-linked river basins, hydropower projects, transmission corridors, grid hubs, storage candidates, solar zones, and floating-PV candidates.
 - **Seasonality and trade analysis** using NEA annual/daily reports to connect wet-season export surplus, dry-season imports, and storage scarcity.
@@ -93,7 +93,7 @@ python scripts/build_research_figures.py
 
 ## Data And Source Caveats
 
-- This is an active research system, not a packaged production application.
+- This is an active public knowledge base. Pages distinguish between narrative analysis, source notes, data tables, and registry-backed project records.
 - Some official Nepal electricity tables disagree internally; the wiki keeps those tensions visible instead of smoothing them away.
 - Map layers are research visualizations, not hydrological or engineering-grade models.
 - Several raw PDFs and large GIS bundles are ignored to keep the repository reviewable; derived artifacts and source notes remain tracked.

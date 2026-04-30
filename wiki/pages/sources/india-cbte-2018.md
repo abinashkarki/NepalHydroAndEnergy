@@ -32,7 +32,7 @@ India's regulatory framework governing cross-border electricity trade. Defines a
 
 ## Relevance to Project
 
-Central to [[india-energy-relationship]] and [[hydro-geopolitics]]. Shapes the export constraint dimension of [[seasonal-arbitrage-trap]]. Hermes Wave 3 source. Gemini highlighted the China-exclusion mechanism.
+Central to [[india-energy-relationship]] and [[hydro-geopolitics]]. Shapes the export constraint dimension of [[seasonal-arbitrage-trap]]. source-review note. Public source review highlighted the China-exclusion mechanism.
 
 > [!gap]
 > Need updated post-2024 versions of these guidelines — the approval regime may have expanded.

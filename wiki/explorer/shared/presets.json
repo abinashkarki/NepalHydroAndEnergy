@@ -1,7 +1,36 @@
 {
   "_doc": "Map lenses. Each preset = a named layer set + initial fit_bounds, mirroring the four Folium HTMLs in docs/maps/. Choosing a preset replaces the active layer set; opening a wiki page after that ADDS the page's needed layers without unloading the preset.",
-  "default_preset": "tributaries",
+  "default_preset": "overview",
   "presets": {
+    "overview": {
+      "label": "Overview",
+      "short": "Overview",
+      "subtitle": "Rivers, power assets, grid, storage, solar",
+      "description": "The public starting lens: Nepal's basin geography, major rivers, operating hydropower, storage candidates, transmission backbone, cross-border gateways, and solar resource context in one readable national view.",
+      "layers_on": [
+        "country_outline",
+        "basin_polygons",
+        "tributaries",
+        "downstream_systems",
+        "hydropower_operating",
+        "storage_shortlist",
+        "transmission_traced_network",
+        "cross_border",
+        "cross_border_lines",
+        "solar_ghi_zones",
+        "solar_plants"
+      ],
+      "bounds": [
+        [
+          25.4,
+          79.7
+        ],
+        [
+          30.7,
+          88.8
+        ]
+      ]
+    },
     "tributaries": {
       "label": "Tributaries",
       "short": "Tributaries",

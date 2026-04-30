@@ -6,7 +6,6 @@ updated: 2026-04-24
 claim_id: C-015
 confidence: medium
 status: needs-narrowing
-providers: [codex]
 sources: [nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment]
 tags: [solar, floating-pv, reservoirs, storage, kulekhani, land]
 ---

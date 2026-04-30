@@ -47,4 +47,4 @@ Earlier wiki pages cite grid electricity as **4.96%** of final energy. That figu
 
 ## Relevance to Project
 
-The 7.23% grid-electricity share — and the fact that hydro is only ~6.8% of Nepal's total final energy — is one of the most revealing data points in the entire project. It collapses the "Nepal is a hydropower country" framing into the more honest "Nepal has a hydropower electricity system inside a biomass-and-petroleum energy system." Central to [[master-thesis]], [[domestic-led-hydro-strategy]], and [[energy-substitution-pathway]]. Feeds into [[nepal-energy-profile]] and [[data-final-energy-mix]]. Codex [S5].
+The 7.23% grid-electricity share — and the fact that hydro is only ~6.8% of Nepal's total final energy — is one of the most revealing data points in the entire project. It collapses the "Nepal is a hydropower country" framing into the more honest "Nepal has a hydropower electricity system inside a biomass-and-petroleum energy system." Central to [[master-thesis]], [[domestic-led-hydro-strategy]], and [[energy-substitution-pathway]]. Feeds into [[nepal-energy-profile]] and [[data-final-energy-mix]]. .

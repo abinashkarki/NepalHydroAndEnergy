@@ -98,7 +98,7 @@ Beyond the 960 MW tender:
 
 Total non-firm pipeline: **~1,400–2,700 MWp beyond the 960 MW tender**, of which ~50–70% may realistically convert on a 10-year horizon.
 
-## Solar potential pyramid (for internal consistency with [[data-potential-pyramid]])
+## Solar potential pyramid (for consistency with [[data-potential-pyramid]])
 
 | Tier | Solar capacity (MWp) | What it represents |
 |---|---:|---|

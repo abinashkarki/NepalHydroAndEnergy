@@ -33,7 +33,7 @@ This run is ingesting roughly 130 images from the FY 2024/25 annual report; the 
 
 ## Relevance to Project
 
-Primary source for current installed capacity, fleet composition, generation split, and trade volumes. Used heavily by Codex [S4] and Gemini [ref 20]. Supersedes older NEA FY 2022/23 data used by Hermes.
+Primary source for current installed capacity, fleet composition, generation split, and trade volumes. Supersedes older NEA FY 2022/23 data in several legacy summaries.
 
 ## What This Source Does Not Cover
 

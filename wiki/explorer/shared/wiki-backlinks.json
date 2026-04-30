@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 208,
-  "total_refs": 1610,
+  "total_refs": 1637,
   "backlinks": {
     "buildability": [
       {
@@ -15,7 +15,7 @@
         "slug": "icimod-koshi-sediment-threats",
         "title": "ICIMOD Threats to the Koshi River Basin",
         "category": "sources",
-        "context": "…gn-constraint]], [[glof-risk]], and the hazard dimension of buildability. Codex [S10].",
+        "context": "…gn-constraint]], [[glof-risk]], and the hazard dimension of buildability. .",
         "target_exists": true
       },
       {
@@ -36,7 +36,7 @@
         "slug": "bheri-4",
         "title": "Bheri 4",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[karnali-basin]] - buildability",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
         "target_exists": true
       },
       {
@@ -50,7 +50,7 @@
         "slug": "bheri-2-hep",
         "title": "Bheri-2 HEP",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[karnali-basin]] - buildability",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
         "target_exists": true
       },
       {
@@ -64,28 +64,28 @@
         "slug": "chainpur-seti",
         "title": "Chainpur Seti",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[gandaki-basin]] - buildability",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - buildability",
         "target_exists": true
       },
       {
         "slug": "humla-karnali-1-hpp",
         "title": "Humla Karnali 1 HPP",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[karnali-basin]] - buildability",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
         "target_exists": true
       },
       {
         "slug": "humla-karnali-2-hpp",
         "title": "Humla Karnali 2 HPP",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[karnali-basin]] - buildability",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
         "target_exists": true
       },
       {
         "slug": "jagdulla-hep",
         "title": "Jagdulla HEP",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[karnali-basin]] - buildability",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
         "target_exists": true
       },
       {
@@ -113,7 +113,7 @@
         "slug": "lantang-khola-reservoir-hydropower-project",
         "title": "Lantang Khola Reservoir Hydropower Project",
         "category": "entities",
-        "context": "…the spec table above will refresh on rerun. ## See also - buildability",
+        "context": "…on table is > maintained from the registry. ## See also - buildability",
         "target_exists": true
       },
       {
@@ -141,7 +141,7 @@
         "slug": "tamor-storage",
         "title": "Tamor Storage",
         "category": "entities",
-        "context": "…ve will refresh on rerun. ## See also - [[koshi-basin]] - buildability",
+        "context": "…tained from the registry. ## See also - [[koshi-basin]] - buildability",
         "target_exists": true
       },
       {
@@ -283,7 +283,7 @@
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…strategy]], and [[energy-substitution-pathway]]. Feeds into nepal-energy-profile and [[data-final-energy-mix]]. Codex [S5].",
+        "context": "…strategy]], and [[energy-substitution-pathway]]. Feeds into nepal-energy-profile and [[data-final-energy-mix]]. .",
         "target_exists": true
       },
       {
@@ -297,7 +297,7 @@
         "slug": "wecs",
         "title": "Water and Energy Commission Secretariat (WECS)",
         "category": "entities",
-        "context": "…ce weakness identified across all providers. ## Related - nepal-energy-profile — the system WECS plans for - [[hydropower-potential-catego…",
+        "context": "…eakness identified across the evidence base. ## Related - nepal-energy-profile — the system WECS plans for - [[hydropower-potential-catego…",
         "target_exists": true
       },
       {
@@ -305,6 +305,13 @@
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
         "context": "…sed wealth.\"* ## Why domestic demand is not a small story nepal-energy-profile makes clear that \"low consumption\" is better read as **head…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…larger downstream systems. ## System Snapshot Start with nepal-energy-profile for the country-level electricity profile. The short versio…",
         "target_exists": true
       },
       {
@@ -817,7 +824,7 @@
         "slug": "data-trade-time-series",
         "title": "Electricity Trade Time Series",
         "category": "data",
-        "context": "…) | | FY 2024/25 | 1,681 | 2,380 | Net exporter (699 GWh) | nea-annual-report-fy2024-25 | ## Data Reconciliation Notes The merged code workspace…",
+        "context": "…y | | FY 2024/25 | 1,681 | 2,380 | Net exporter (699 GWh) | nea-annual-report-fy2024-25 | ## Data Reconciliation Notes The merged code workspace…",
         "target_exists": true
       },
       {
@@ -982,7 +989,7 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…l providers. Codex [S1]. The 40%/70% figures are central to hydro-geopolitics and [[india-energy-relationship]]. > [!warning] > These fi…",
+        "context": "…oss the evidence base. . The 40%/70% figures are central to hydro-geopolitics and [[india-energy-relationship]]. > [!warning] > These fi…",
         "target_exists": true
       },
       {
@@ -1171,7 +1178,7 @@
         "slug": "claim-systems-conversion-failure",
         "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
         "category": "claims",
-        "context": "…ed-generation]]) → fragile offtake and trade architecture → hydro-geopolitics and governance frictions. - **Hermes / Claude / Gemini:** E…",
+        "context": "…ed-generation]]) → fragile offtake and trade architecture → hydro-geopolitics and governance frictions. - **Cross-source finding:** Echo…",
         "target_exists": true
       },
       {
@@ -1243,7 +1250,7 @@
         "slug": "green-hydrogen-roadmap-nepal",
         "title": "Green Hydrogen Roadmap for Nepal",
         "category": "sources",
-        "context": "…tion argument in [[domestic-led-hydro-strategy]]. Addresses stranded-generation by creating domestic demand for surplus monsoon power. Only…",
+        "context": "…tion argument in [[domestic-led-hydro-strategy]]. Addresses stranded-generation by creating domestic demand for surplus monsoon power.",
         "target_exists": true
       },
       {
@@ -1391,6 +1398,13 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "…al terrain, geology, access, and execution constraints 7. **stranded-generation** — grid and transmission built slower than generation, now…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…rage-deficit]] -> [[firm-power]]. - For delivery and trade: stranded-generation -> [[claim-transmission-immediate-blocker]] -> [[india-ener…",
         "target_exists": true
       },
       {
@@ -1611,7 +1625,7 @@
         "slug": "icimod-koshi-sediment-threats",
         "title": "ICIMOD Threats to the Koshi River Basin",
         "category": "sources",
-        "context": "…nce to Project Supports [[sediment-as-design-constraint]], glof-risk, and the hazard dimension of [[buildability]]. Codex [S10].…",
+        "context": "…nce to Project Supports [[sediment-as-design-constraint]], glof-risk, and the hazard dimension of [[buildability]]. .",
         "target_exists": true
       },
       {
@@ -1690,7 +1704,7 @@
         "slug": "wb-ganges-strategic-basin-assessment",
         "title": "World Bank Ganges Strategic Basin Assessment",
         "category": "sources",
-        "context": "…ly enables hydropower and prevents easy storage. Central to storage-deficit and [[data-storage-comparison]]. Gemini ref 18.",
+        "context": "…ly enables hydropower and prevents easy storage. Central to storage-deficit and [[data-storage-comparison]].",
         "target_exists": true
       },
       {
@@ -1908,6 +1922,13 @@
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
         "context": "…ing treats Nepal's winter deficit as a **storage problem** (storage-deficit, [[seasonal-mismatch]]). The honest 2026 framing is: **part…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…is now an immediate constraint on monetizing generation. - storage-deficit - why Nepal has very little seasonal storage relative to it…",
         "target_exists": true
       },
       {
@@ -3016,6 +3037,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…ta-final-energy-mix]] -> [[energy-substitution-pathway]] -> domestic-led-hydro-strategy. - For solar's role: [[solar-in-the-master-narrative]] -> […",
+        "target_exists": true
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -3431,7 +3459,7 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…e highest on earth ## Relevance to Project Source for the ganges-contribution numbers used across all providers. Codex [S1]. The 40%/70%…",
+        "context": "…e highest on earth ## Relevance to Project Source for the ganges-contribution numbers used across the evidence base. . The 40%/70% figure…",
         "target_exists": true
       },
       {
@@ -3594,7 +3622,7 @@
         "slug": "icimod-koshi-basin",
         "title": "ICIMOD Koshi Basin Programme",
         "category": "sources",
-        "context": "…geopolitics]] and [[ganges-contribution]]. Also relevant to sediment-as-design-constraint given extreme sediment loads. Codex [S9].",
+        "context": "…geopolitics]] and [[ganges-contribution]]. Also relevant to sediment-as-design-constraint given extreme sediment loads. .",
         "target_exists": true
       },
       {
@@ -3824,6 +3852,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…hough hydropower dominates the installed electricity mix. - india-energy-relationship - how India's market rules, corridors, and approvals shape…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-india-decisive-actor",
         "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
         "category": "claims",
@@ -3885,7 +3920,7 @@
         "slug": "india-cbte-2018",
         "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
         "category": "sources",
-        "context": "…ro-geopolitics]]. Shapes the export constraint dimension of seasonal-arbitrage-trap. Hermes Wave 3 source. Gemini highlighted the China-exclusi…",
+        "context": "…ro-geopolitics]]. Shapes the export constraint dimension of seasonal-arbitrage-trap. source-review note. Public source review highlighted the C…",
         "target_exists": true
       },
       {
@@ -4004,7 +4039,7 @@
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
-        "context": "…cess | | 2 | Monthly import-export time series | Strengthen seasonal-arbitrage-trap argument beyond annual aggregates | **FILLED** — DeepResear…",
+        "context": "…cess | | 2 | Monthly import-export time series | Strengthen seasonal-arbitrage-trap argument beyond annual aggregates | **FILLED** — month-by-m…",
         "target_exists": true
       },
       {
@@ -4296,6 +4331,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…rting Routes - For the main argument: [[master-thesis]] -> bottleneck-hierarchy -> [[twenty-year-strategy]]. - For the hydropower system: […",
+        "target_exists": true
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -4436,7 +4478,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…-deficit]] — why solar is now a core winter-deficit lever - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark ## Framing Lines for Vid…",
+        "context": "…-deficit]] — why solar is now a core winter-deficit lever - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark ## Public Framing Lines…",
         "target_exists": true
       },
       {
@@ -4554,7 +4596,7 @@
         "slug": "data-fleet-composition",
         "title": "Hydropower Fleet Composition",
         "category": "data",
-        "context": "…dex/Gemini use the broader \"**>90% RoR+PRoR**\" framing from wb-country-economic-memo-2025. Both framings are consistent. The Hermes breakdown is the…",
+        "context": "…summaries use the broader \"**>90% RoR+PRoR**\" framing from wb-country-economic-memo-2025. Both framings are consistent. The granular breakdown is th…",
         "target_exists": true
       }
     ],
@@ -4966,7 +5008,7 @@
         "slug": "data-fleet-composition",
         "title": "Hydropower Fleet Composition",
         "category": "data",
-        "context": "…| | Reservoir / Storage | ~3.7% | Seasonal regulation; only kulekhani-cascade | Hermes (NEA FY 2022/23) | > [!note] > Codex/Gemini use t…",
+        "context": "…| | Reservoir / Storage | ~3.7% | Seasonal regulation; only kulekhani-cascade | NEA FY 2022/23 review | > [!note] > Public summaries use…",
         "target_exists": true
       },
       {
@@ -5008,7 +5050,7 @@
         "slug": "data-storage-comparison",
         "title": "Storage Capacity Comparison",
         "category": "data",
-        "context": "…nadequate | Claude | | **Nepal** | **~5** | Almost entirely kulekhani-cascade | Claude | Nepal has **1/36th** of India's per-capita stor…",
+        "context": "…te | Source review | | **Nepal** | **~5** | Almost entirely kulekhani-cascade | Source review | Nepal has **1/36th** of India's per-capi…",
         "target_exists": true
       }
     ],
@@ -5496,14 +5538,14 @@
         "slug": "chameliya-khola",
         "title": "Chameliya Khola",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[mahakali-basin]] - run-of-river-hydropower",
+        "context": "…ned from the registry. ## See also - [[mahakali-basin]] - run-of-river-hydropower",
         "target_exists": true
       },
       {
         "slug": "chilime",
         "title": "Chilime",
         "category": "entities",
-        "context": "…the spec table above will refresh on rerun. ## See also - run-of-river-hydropower",
+        "context": "…on table is > maintained from the registry. ## See also - run-of-river-hydropower",
         "target_exists": true
       },
       {
@@ -5517,7 +5559,7 @@
         "slug": "khimti-i",
         "title": "Khimti -I",
         "category": "entities",
-        "context": "…the spec table above will refresh on rerun. ## See also - run-of-river-hydropower - [[khimti-dhalkebar-corridor]] — the 220 kV line built to…",
+        "context": "…on table is > maintained from the registry. ## See also - run-of-river-hydropower - [[khimti-dhalkebar-corridor]] — the 220 kV line built to…",
         "target_exists": true
       },
       {
@@ -5531,21 +5573,21 @@
         "slug": "madhya-marsyangdi",
         "title": "Madhya Marsyangdi",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
         "target_exists": true
       },
       {
         "slug": "mai",
         "title": "Mai",
         "category": "entities",
-        "context": "…the spec table above will refresh on rerun. ## See also - run-of-river-hydropower",
+        "context": "…on table is > maintained from the registry. ## See also - run-of-river-hydropower",
         "target_exists": true
       },
       {
         "slug": "marsyangdi",
         "title": "Marsyangdi",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
         "target_exists": true
       },
       {
@@ -5559,7 +5601,7 @@
         "slug": "trishuli",
         "title": "Trishuli",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
         "target_exists": true
       },
       {
@@ -5580,14 +5622,14 @@
         "slug": "upper-madi",
         "title": "Upper Madi",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
         "target_exists": true
       },
       {
         "slug": "upper-marsyangdi-a",
         "title": "Upper Marsyangdi A",
         "category": "entities",
-        "context": "…will refresh on rerun. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - run-of-river-hydropower",
         "target_exists": true
       },
       {
@@ -5623,6 +5665,13 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "…gy delivers a monsoon pulse, not year-round firm power 2. **run-of-river-hydropower** — fleet is >90% RoR/PRoR; structurally produces wet-seaso…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…] -> [[twenty-year-strategy]]. - For the hydropower system: run-of-river-hydropower -> [[seasonal-mismatch]] -> [[storage-deficit]] -> [[firm-p…",
         "target_exists": true
       },
       {
@@ -5708,7 +5757,7 @@
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
-        "context": "…ctory for buyer diversification | **FILLED** — full page at bangladesh-trade-route | | 8 | Chinese-linked project status | All providers flag…",
+        "context": "…ctory for buyer diversification | **FILLED** — full page at bangladesh-trade-route | | 8 | Chinese-linked project status | Earlier public summ…",
         "target_exists": true
       },
       {
@@ -6549,7 +6598,7 @@
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
-        "context": "…NPR monthly revenue data, both dimensions now covered. See data-trade-time-series | | 3 | Plant-level curtailment and outage data | Quantify…",
+        "context": "…23), combined with FY 2025/26 NPR monthly revenue data. See data-trade-time-series | | 3 | Plant-level curtailment and outage data | Quantify…",
         "target_exists": true
       },
       {
@@ -6646,6 +6695,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…tle seasonal storage relative to its hydropower ambition. - solar-hydro-complementarity - why solar is valuable even though hydropower dominates th…",
+        "target_exists": true
+      },
+      {
         "slug": "data-industrial-electricity-consumers",
         "title": "Industrial Electricity Consumers in Nepal",
         "category": "data",
@@ -6684,7 +6740,7 @@
         "slug": "data-solar-hydro-complementarity-profile",
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
-        "context": "…file The hour-by-hour and month-by-month numbers that make solar-hydro-complementarity visible. Two figures the video essay should render literall…",
+        "context": "…file The hour-by-hour and month-by-month numbers that make solar-hydro-complementarity visible. Two figures should make this profile visible as ti…",
         "target_exists": true
       }
     ],
@@ -6730,14 +6786,14 @@
         "slug": "wb-ganges-strategic-basin-assessment",
         "title": "World Bank Ganges Strategic Basin Assessment",
         "category": "sources",
-        "context": "…d prevents easy storage. Central to [[storage-deficit]] and data-storage-comparison. Gemini ref 18.",
+        "context": "…d prevents easy storage. Central to [[storage-deficit]] and data-storage-comparison.",
         "target_exists": true
       },
       {
         "slug": "wb-water-sector-diagnostic",
         "title": "World Bank Nepal Water Sector Diagnostic",
         "category": "sources",
-        "context": "…quirements give a concrete planning target. Data feeds into data-storage-comparison. Codex [S7]. > [!note] > The 85 MCM active storage figure…",
+        "context": "…quirements give a concrete planning target. Data feeds into data-storage-comparison. . > [!note] > The 85 MCM active storage figure and the 13…",
         "target_exists": true
       },
       {
@@ -6834,14 +6890,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…basins ## Relevance to Project The definitive source for hydropower-potential-categories. Only Codex [S3] surfaced the revised 72,544 MW figure — ot…",
+        "context": "…basins ## Relevance to Project The definitive source for hydropower-potential-categories. Only surfaced the revised 72,544 MW figure — public summa…",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…feasible figure used alongside WECS numbers. Important for hydropower-potential-categories provenance. Hermes Wave 1 source.",
+        "context": "…feasible figure used alongside WECS numbers. Important for hydropower-potential-categories provenance. source-review note.",
         "target_exists": true
       },
       {
@@ -6931,6 +6987,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…energy-relationship]]. - For the broader energy transition: data-final-energy-mix -> [[energy-substitution-pathway]] -> [[domestic-led-hydro-…",
+        "target_exists": true
+      },
+      {
         "slug": "data-agricultural-energy-consumption",
         "title": "Agricultural Energy Consumption",
         "category": "data",
@@ -6971,7 +7034,14 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…ming; adds demand creation as third pillar | ## Related - master-thesis — the overarching argument - [[twenty-year-strategy]] — how…",
+        "context": "…domestic productive use as a third pillar | ## Related - master-thesis — the overarching argument - [[twenty-year-strategy]] — how…",
+        "target_exists": true
+      },
+      {
+        "slug": "provider-comparison",
+        "title": "Evidence Review Notes",
+        "category": "syntheses",
+        "context": "…the page contains fuller narrative analysis. ## Related - master-thesis — the central public argument - [[unresolved-questions]] —…",
         "target_exists": true
       },
       {
@@ -6979,13 +7049,6 @@
         "title": "IPSDP 2025 vs Wiki Claims",
         "category": "syntheses",
         "context": "…t in 2035, and clean-export contribution in 2040. - Against master-thesis, the IPSDP gives the most current state-authored sequenci…",
-        "target_exists": true
-      },
-      {
-        "slug": "provider-comparison",
-        "title": "Provider Comparison",
-        "category": "syntheses",
-        "context": "…gineering, pricing, hydrogen, grid spillage) ## Related - master-thesis — what all providers agree on - [[unresolved-questions]] —…",
         "target_exists": true
       },
       {
@@ -7003,6 +7066,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…article. ## Good Starting Routes - For the main argument: master-thesis -> [[bottleneck-hierarchy]] -> [[twenty-year-strategy]]. -…",
+        "target_exists": true
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -7013,7 +7083,7 @@
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
-        "context": "…[[provider-comparison]] — what each provider covered well - master-thesis — the argument these gaps could strengthen or challenge - […",
+        "context": "…ider-comparison]] — methodology and evidence review notes - master-thesis — the argument these gaps could strengthen or challenge - […",
         "target_exists": true
       },
       {
@@ -7054,6 +7124,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…the broader energy transition: [[data-final-energy-mix]] -> energy-substitution-pathway -> [[domestic-led-hydro-strategy]]. - For solar's role: [[s…",
+        "target_exists": true
+      },
+      {
         "slug": "data-agricultural-energy-consumption",
         "title": "Agricultural Energy Consumption",
         "category": "data",
@@ -7087,7 +7164,7 @@
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…Codex cites as [S2]. Provides the basin-level evidence for seasonal-mismatch and [[claim-timing-not-volume]]. > [!warning] > WECS expli…",
+        "context": "…rology evidence base. Provides the basin-level evidence for seasonal-mismatch and [[claim-timing-not-volume]]. > [!warning] > WECS expli…",
         "target_exists": true
       },
       {
@@ -7231,6 +7308,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…g map into a specialist layer stack. ## First Questions - seasonal-mismatch - why Nepal can export electricity in the monsoon and impor…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-systems-conversion-failure",
         "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
         "category": "claims",
@@ -7346,7 +7430,7 @@
       },
       {
         "slug": "provider-comparison",
-        "title": "Provider Comparison",
+        "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "…ion-failure]] Sub-theses also converge: - Timing > volume (claim-timing-not-volume) - Storage is the physical fix ([[claim-storage-physical-fi…",
         "target_exists": true
@@ -7479,6 +7563,13 @@
         "title": "Sun Koshi No.3",
         "category": "entities",
         "context": "…ising-storage candidate in the Koshi basin. It is pinned in data-layer-storage-shortlist because it combines large reservoir scale with meaningful d…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…to see the public-facing transmission corridor layer. - Use data-layer-storage-shortlist for storage and storage-like projects with dry-season syste…",
         "target_exists": true
       },
       {
@@ -7666,6 +7757,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…electricity in the monsoon and import in the dry season. - firm-power - why dependable timing matters more than nameplate megawat…",
+        "target_exists": true
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -7676,7 +7774,7 @@
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
-        "context": "…load shape (hourly/daily) | Critical for system design and firm-power analysis | **PARTIALLY FILLED** — DeepResearch Part 7 provi…",
+        "context": "…load shape (hourly/daily) | Critical for system design and firm-power analysis | **PARTIALLY FILLED** — evening peak timing (18:3…",
         "target_exists": true
       },
       {
@@ -7919,6 +8017,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…from sources: - **Claims** are compact arguments, such as claim-mw-not-equal-value and [[claim-storage-physical-fix]]. - **Data pages** explai…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-hydropower-construction",
         "title": "Layer: Hydropower - Construction",
         "category": "data",
@@ -8057,9 +8162,16 @@
       },
       {
         "slug": "provider-comparison",
-        "title": "Provider Comparison",
+        "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "…ge-physical-fix]]) - Transmission is the immediate blocker (claim-transmission-immediate-blocker) - Domestic use > export worship ([[claim-domestic-led-stra…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…dependable timing matters more than nameplate megawatts. - claim-transmission-immediate-blocker - why grid delivery is now an immediate constraint on monet…",
         "target_exists": true
       },
       {
@@ -8701,6 +8813,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…operating projects from the wider licensing pipeline. - Use data-layer-transmission-connected-traced-network to see the public-facing transmission corridor layer. - Use…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-transmission-raw-traced-segments",
         "title": "Internal Data: Source Trace Fragments",
         "category": "data",
@@ -9093,7 +9212,7 @@
         "slug": "khimti-i",
         "title": "Khimti -I",
         "category": "entities",
-        "context": "…esh on rerun. ## See also - [[run-of-river-hydropower]] - khimti-dhalkebar-corridor — the 220 kV line built to evacuate this plant",
+        "context": "…the registry. ## See also - [[run-of-river-hydropower]] - khimti-dhalkebar-corridor — the 220 kV line built to evacuate this plant",
         "target_exists": true
       },
       {
@@ -9257,7 +9376,7 @@
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
-        "context": "…curve not public but structural pattern now documented. See data-domestic-demand | | 7 | Post-2024 Bangladesh trade route status | Scale-up…",
+        "context": "…s are documented. Full hourly load curve is not public. See data-domestic-demand | | 7 | Post-2024 Bangladesh trade route status | Scale-up…",
         "target_exists": true
       },
       {
@@ -9614,7 +9733,7 @@
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
-        "context": "…## Solar potential pyramid (for internal consistency with data-potential-pyramid) | Tier | Solar capacity (MWp) | What it represents | |---…",
+        "context": "…horizon. ## Solar potential pyramid (for consistency with data-potential-pyramid) | Tier | Solar capacity (MWp) | What it represents | |---…",
         "target_exists": true
       }
     ],
@@ -10260,6 +10379,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…argument: [[master-thesis]] -> [[bottleneck-hierarchy]] -> twenty-year-strategy. - For the hydropower system: [[run-of-river-hydropower]] -…",
+        "target_exists": true
+      },
+      {
         "slug": "data-ipsdp-milestone-ladder-2022-2040",
         "title": "IPSDP Milestone Ladder 2022-2040",
         "category": "data",
@@ -10298,9 +10424,9 @@
       },
       {
         "slug": "provider-comparison",
-        "title": "Provider Comparison",
+        "title": "Evidence Review Notes",
         "category": "syntheses",
-        "context": "…elated - [[master-thesis]] — what all providers agree on - unresolved-questions — what none of them resolved",
+        "context": "…elated - [[master-thesis]] — the central public argument - unresolved-questions — remaining evidence gaps and data conflicts",
         "target_exists": true
       },
       {
@@ -10338,6 +10464,13 @@
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
         "context": "…hole. ## Related - [[master-thesis]] — the master frame - solar-in-the-master-narrative — the parallel synthesis - [[solar-hydro-complementarity]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…y]] -> [[domestic-led-hydro-strategy]]. - For solar's role: solar-in-the-master-narrative -> [[solar-hydro-complementarity]] -> [[solar-role-in-winte…",
         "target_exists": true
       },
       {
@@ -10429,6 +10562,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…ket rules, corridors, and approvals shape export options. - downstream-river-geopolitics - how Nepal's rivers connect into larger downstream systems…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-downstream-dependency-zones",
         "title": "Layer: Downstream Dependency Zones",
         "category": "data",
@@ -10474,7 +10614,7 @@
       },
       {
         "slug": "provider-comparison",
-        "title": "Provider Comparison",
+        "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "…ssion-immediate-blocker]]) - Domestic use > export worship (claim-domestic-led-strategy) - India is decisive ([[claim-india-decisive-actor]]) - Gov…",
         "target_exists": true
@@ -10874,6 +11014,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…he-master-narrative]] -> [[solar-hydro-complementarity]] -> solar-role-in-winter-deficit.",
+        "target_exists": true
+      },
+      {
         "slug": "claim-floating-pv-leverage",
         "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
         "category": "claims",
@@ -10891,7 +11038,7 @@
       },
       {
         "slug": "provider-comparison",
-        "title": "Provider Comparison",
+        "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "…[[claim-timing-not-volume]]) - Storage is the physical fix (claim-storage-physical-fix) - Transmission is the immediate blocker ([[claim-transmiss…",
         "target_exists": true
@@ -10901,6 +11048,13 @@
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
         "context": "…nism:** Shift monsoon water into dry-season generation. The claim-storage-physical-fix answer. **Realistic 2035 contribution:** [[tanahu-hydropow…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…compact arguments, such as [[claim-mw-not-equal-value]] and claim-storage-physical-fix. - **Data pages** explain tables, figures, map layers, and…",
         "target_exists": true
       },
       {
@@ -10930,9 +11084,9 @@
       },
       {
         "slug": "provider-comparison",
-        "title": "Provider Comparison",
+        "title": "Evidence Review Notes",
         "category": "syntheses",
-        "context": "…e ([[claim-india-decisive-actor]]) - Governance is binding (claim-governance-binding) ## Source Quality | Provider | Sources cited | Currency…",
+        "context": "…e ([[claim-india-decisive-actor]]) - Governance is binding (claim-governance-binding) ## Source Quality | Evidence type | Best use | Caveat |…",
         "target_exists": true
       }
     ],
@@ -10945,17 +11099,17 @@
         "target_exists": true
       },
       {
+        "slug": "provider-comparison",
+        "title": "Evidence Review Notes",
+        "category": "syntheses",
+        "context": "…pages | ## Thesis Convergence The evidence converges on: claim-systems-conversion-failure Sub-theses also converge: - Timing > volume ([[claim-timin…",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "…esilient, financeable, politically executable power.** See claim-systems-conversion-failure. ## The Failure Stack The conversion failure is not one b…",
-        "target_exists": true
-      },
-      {
-        "slug": "provider-comparison",
-        "title": "Provider Comparison",
-        "category": "syntheses",
-        "context": "…74 sources | ## Thesis Convergence All four converge on: claim-systems-conversion-failure Sub-theses also converge: - Timing > volume ([[claim-timin…",
         "target_exists": true
       },
       {
@@ -11015,81 +11169,20 @@
     "claim-india-decisive-actor": [
       {
         "slug": "provider-comparison",
-        "title": "Provider Comparison",
+        "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "…ship ([[claim-domestic-led-strategy]]) - India is decisive (claim-india-decisive-actor) - Governance is binding ([[claim-governance-binding]]) ##…",
         "target_exists": true
       }
     ],
-    "data-mountain-hydro-comparison": [
-      {
-        "slug": "unresolved-questions",
-        "title": "Unresolved Questions",
-        "category": "syntheses",
-        "context": "…an-hydropower-model]], Laos with actual data | **FILLED** — data-mountain-hydro-comparison created with IHA/StatRanker/Oxford data | ## Data Conflict…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-storage-comparison",
-        "title": "Storage Capacity Comparison",
-        "category": "data",
-        "context": "…, governance, and institutional will, not geology. See also data-mountain-hydro-comparison. ## Linked Data - [nepal_storage_dry_energy_shortlist.csv…",
-        "target_exists": true
-      }
-    ],
-    "provider-comparison": [
-      {
-        "slug": "unresolved-questions",
-        "title": "Unresolved Questions",
-        "category": "syntheses",
-        "context": "…olitics]], [[west-seti]], [[budhigandaki]] | ## Related - provider-comparison — what each provider covered well - [[master-thesis]] — the…",
-        "target_exists": true
-      }
-    ],
-    "data-pipeline-readme": [
-      {
-        "slug": "unresolved-questions",
-        "title": "Unresolved Questions",
-        "category": "syntheses",
-        "context": "…] — the argument these gaps could strengthen or challenge - data-pipeline-readme — copied scripts and dataset pipeline inventory",
-        "target_exists": true
-      }
-    ],
-    "wecs": [
-      {
-        "slug": "claim-timing-not-volume",
-        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
-        "category": "claims",
-        "context": "…rrative: **75%+** of annual flow in the monsoon window (per wecs / WECS 2024 framing), which implies limited dry-season firm…",
-        "target_exists": true
-      }
-    ],
-    "data-nepal-peak-load-curve-fy2024-25": [
-      {
-        "slug": "data-domestic-demand",
-        "title": "Domestic Electricity Demand Distribution",
-        "category": "data",
-        "context": "…age + solar the physical complement to the hydro fleet. See data-nepal-peak-load-curve-fy2024-25 for the annual load shape. ## The Electrification Gaps — W…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-complementarity-profile",
-        "title": "Solar–Hydro Complementarity Profile",
-        "category": "data",
-        "context": "…complementarity]] — the concept page this operationalises - data-nepal-peak-load-curve-fy2024-25 — the demand-side pattern - [[firm-power]] — the capacity-c…",
-        "target_exists": true
-      }
-    ],
-    "consumption-trajectory-outlook": [
-      {
-        "slug": "data-domestic-demand",
-        "title": "Domestic Electricity Demand Distribution",
-        "category": "data",
-        "context": "…e electricity is the backbone of economic productivity. See consumption-trajectory-outlook for the forward view. ## Linked Data - [nea_monthly_energ…",
-        "target_exists": true
-      }
-    ],
     "data-map-layer-labels": [
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…nceable, domestically useful power. ## Use The Map - Open data-map-layer-labels when you want to know what each map layer means. - Use [[da…",
+        "target_exists": true
+      },
       {
         "slug": "data-layer-transmission-raw-traced-segments",
         "title": "Internal Data: Source Trace Fragments",
@@ -11322,6 +11415,138 @@
         "target_exists": true
       }
     ],
+    "data-layer-nepal-tributaries": [
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…ls]] when you want to know what each map layer means. - Use data-layer-nepal-tributaries for basin and river context. - Use [[data-layer-hydropower-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…nd basin story, including WECS potential where available. | data-layer-nepal-tributaries | | Downstream rivers | 4 | Main Nepal-origin systems trace…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-hydropower-operating": [
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…ayer-nepal-tributaries]] for basin and river context. - Use data-layer-hydropower-operating to separate operating projects from the wider licensing pip…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…a scales by capacity, and wiki counts show page coverage. | data-layer-hydropower-operating | | Hydro — building | 180 | Generation/construction-licens…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-solar-plants-nea-awards": [
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…d storage-like projects with dry-season system value. - Use data-layer-solar-plants-nea-awards and [[data-layer-solar-ghi-zones]] for solar assets and res…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…rd anchors, with approximate-location flags where needed. | data-layer-solar-plants-nea-awards | | Best solar locations | 6 | Strategic suitability bands…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-solar-ghi-zones": [
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…tem value. - Use [[data-layer-solar-plants-nea-awards]] and data-layer-solar-ghi-zones for solar assets and resource geography. ## Follow The Evi…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…e are strategic zones, not parcel-level siting decisions. | data-layer-solar-ghi-zones | | Solar plants | 89 | Operating solar plants plus NEA 960…",
+        "target_exists": true
+      }
+    ],
+    "data-mountain-hydro-comparison": [
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…an-hydropower-model]], Laos with actual data | **FILLED** — data-mountain-hydro-comparison created with IHA/StatRanker/Oxford data | ## Data Conflict…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-storage-comparison",
+        "title": "Storage Capacity Comparison",
+        "category": "data",
+        "context": "…, governance, and institutional will, not geology. See also data-mountain-hydro-comparison. ## Linked Data - [nepal_storage_dry_energy_shortlist.csv…",
+        "target_exists": true
+      }
+    ],
+    "provider-comparison": [
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…olitics]], [[west-seti]], [[budhigandaki]] | ## Related - provider-comparison — methodology and evidence review notes - [[master-thesis]]…",
+        "target_exists": true
+      }
+    ],
+    "data-pipeline-readme": [
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…] — the argument these gaps could strengthen or challenge - data-pipeline-readme — copied scripts and dataset pipeline inventory",
+        "target_exists": true
+      }
+    ],
+    "wecs": [
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "…rrative: **75%+** of annual flow in the monsoon window (per wecs / WECS 2024 framing), which implies limited dry-season firm…",
+        "target_exists": true
+      }
+    ],
+    "data-nepal-peak-load-curve-fy2024-25": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…age + solar the physical complement to the hydro fleet. See data-nepal-peak-load-curve-fy2024-25 for the annual load shape. ## The Electrification Gaps — W…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-solar-hydro-complementarity-profile",
+        "title": "Solar–Hydro Complementarity Profile",
+        "category": "data",
+        "context": "…complementarity]] — the concept page this operationalises - data-nepal-peak-load-curve-fy2024-25 — the demand-side pattern - [[firm-power]] — the capacity-c…",
+        "target_exists": true
+      }
+    ],
+    "consumption-trajectory-outlook": [
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…e electricity is the backbone of economic productivity. See consumption-trajectory-outlook for the forward view. ## Linked Data - [nea_monthly_energ…",
+        "target_exists": true
+      }
+    ],
     "claim-floating-pv-leverage": [
       {
         "slug": "data-layer-floating-pv-candidates",
@@ -11500,15 +11725,6 @@
         "target_exists": true
       }
     ],
-    "data-layer-nepal-tributaries": [
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…nd basin story, including WECS potential where available. | data-layer-nepal-tributaries | | Downstream rivers | 4 | Main Nepal-origin systems trace…",
-        "target_exists": true
-      }
-    ],
     "data-layer-india-comparison-rivers": [
       {
         "slug": "data-map-layer-labels",
@@ -11524,15 +11740,6 @@
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…al share, and downstream identity across the basin stack. | data-layer-origin-control-callouts | | Wet/dry season flow | 8 | Basin annotations focused on…",
-        "target_exists": true
-      }
-    ],
-    "data-layer-hydropower-operating": [
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…a scales by capacity, and wiki counts show page coverage. | data-layer-hydropower-operating | | Hydro — building | 180 | Generation/construction-licens…",
         "target_exists": true
       }
     ],
@@ -11587,24 +11794,6 @@
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…ch for orientation and not-yet-promoted corridor context. | data-layer-transmission-corridors-curated | ## Solar layers | Label | Features | Short meaning | Pa…",
-        "target_exists": true
-      }
-    ],
-    "data-layer-solar-ghi-zones": [
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…e are strategic zones, not parcel-level siting decisions. | data-layer-solar-ghi-zones | | Solar plants | 89 | Operating solar plants plus NEA 960…",
-        "target_exists": true
-      }
-    ],
-    "data-layer-solar-plants-nea-awards": [
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…rd anchors, with approximate-location flags where needed. | data-layer-solar-plants-nea-awards | | Best solar locations | 6 | Strategic suitability bands…",
         "target_exists": true
       }
     ],

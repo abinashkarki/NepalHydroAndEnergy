@@ -10,7 +10,7 @@ tags: [solar, hydro, complementarity, diurnal, seasonal, hourly, monthly, dispat
 
 # Solar–Hydro Complementarity Profile
 
-The hour-by-hour and month-by-month numbers that make [[solar-hydro-complementarity]] visible. Two figures the video essay should render literally as animated curves.
+The hour-by-hour and month-by-month numbers that make [[solar-hydro-complementarity]] visible. Two figures should make this profile visible as time curves.
 
 ## Monthly complementarity (normalised output)
 

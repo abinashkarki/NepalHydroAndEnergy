@@ -1,28 +1,28 @@
 ---
-title: Provider Comparison
+title: Evidence Review Notes
 type: synthesis
 created: 2026-04-14
 updated: 2026-04-14
 sources: []
-tags: [synthesis, methodology, providers, assessment]
+tags: [synthesis, methodology, evidence, assessment]
 ---
 
-# Provider Comparison
+# Evidence Review Notes
 
-Condensed assessment of the four AI providers' research outputs. Full assessment at `PROVIDER_ASSESSMENT.md` in project root.
+Condensed notes on how the wiki's argument was assembled and checked. This page is a methodology aid for readers who want to understand which parts of the hub are source summaries, which parts are synthesis, and where confidence is strongest or weakest.
 
-## Summary Table
+## Evidence Streams
 
-| Provider | Approach | Key Strength | Key Weakness | Unique Contribution |
-|----------|----------|-------------|--------------|---------------------|
-| **Hermes** | Multi-wave research program | Process discipline, claim tracking | Weaker on hard numbers; no narrative report | Claim ledger, confidence ratings, wave methodology |
-| **Claude** | Two DOCX deliverables (QA + report) | Best narrative prose; strongest comparisons | No source citations | Bhutan comparison, treaty specifics, industrial value multiplier |
-| **Codex** | Two markdown deliverables with sourcing | Best-sourced; most current data | More restrained interpretation | FY 2024/25 NEA data, 15 verified URLs, "dispatch-poor" framing |
-| **Gemini** | Single 22-page PDF report | Deepest engineering + economics detail | Occasional editorial overreach | Kali Gandaki turbine case, green hydrogen, PPA pricing, 74 sources |
+| Stream | Role | Strength | Limitation |
+|----------|----------|-------------|--------------|
+| **Primary-source notes** | Official reports, policy documents, and project records | Strongest basis for figures, dates, and institutional claims | Sources sometimes disagree or use different definitions |
+| **Data tables** | Normalized figures and map-ready records | Makes comparisons searchable and reproducible | Some values remain model-derived or registry-dependent |
+| **Map layers** | Spatial context for rivers, projects, transmission, trade, and solar | Reveals geography and bottleneck patterns quickly | Not engineering-grade design drawings |
+| **Synthesis pages** | Cross-cutting interpretation | Connects hydrology, grid, trade, finance, and policy | Should be read with the linked source and data pages |
 
 ## Thesis Convergence
 
-All four converge on: [[claim-systems-conversion-failure]]
+The evidence converges on: [[claim-systems-conversion-failure]]
 
 Sub-theses also converge:
 - Timing > volume ([[claim-timing-not-volume]])
@@ -34,21 +34,21 @@ Sub-theses also converge:
 
 ## Source Quality
 
-| Provider | Sources cited | Currency |
+| Evidence type | Best use | Caveat |
 |----------|-------------|----------|
-| Hermes | ~8 primary (extracted to files) | FY 2022/23–2024 |
-| Claude | None cited inline | Up to ~2024 |
-| Codex | 15 numbered with URLs | FY 2024/25 (most current) |
-| Gemini | 74 works cited with URLs | Up to early 2026 |
+| Official annual reports | Installed capacity, generation, trade, project status | Tables can disagree internally by directorate or reporting purpose |
+| Policy and planning documents | Strategy, corridor plans, regulatory constraints | Timelines may age quickly |
+| Project records and licenses | Registry-backed project inventory | License status is not the same as construction progress |
+| Derived map data | Spatial exploration and pattern-finding | Approximate geometries are labelled and should not be treated as survey drawings |
 
-## Recommendation for Master Document
+## How To Read The Hub
 
-- **Hermes** as analytical backbone (claim ledger, confidence tracking)
-- **Codex** as primary data layer (most current, best-sourced)
-- **Claude** as narrative and comparative layer (best prose, unique framings)
-- **Gemini** as specialist depth layer (engineering, pricing, hydrogen, grid spillage)
+- Start with synthesis pages for the argument.
+- Open linked data pages when a number matters.
+- Open source pages when provenance matters.
+- Treat concise project records as map-backed registry entries unless the page contains fuller narrative analysis.
 
 ## Related
 
-- [[master-thesis]] — what all providers agree on
-- [[unresolved-questions]] — what none of them resolved
+- [[master-thesis]] — the central public argument
+- [[unresolved-questions]] — remaining evidence gaps and data conflicts

@@ -20,8 +20,8 @@ The reduction from theoretical potential to actually installed capacity. The 28x
 | Gross (WECS 2019) | 72,544 | Updated screening with revised methodology | [[wecs-hydropower-potential-2019]] |
 | Technical | ~42,000–46,000 | Apply realistic efficiency, environmental minimums | [[wb-nepal-power-sector-reform-2022]], WECS |
 | Techno-economic (WECS 2019) | 32,680 | Screened for development realism | [[wecs-hydropower-potential-2019]] |
-| Economically viable (range) | 25,000–35,000 | Add transmission, terrain, social, financial constraints | Claude estimate |
-| Realistically developable by 2040 | 10,000–15,000 | Add financing limits, institutional capacity, geopolitics | Claude estimate |
+| Economically viable (range) | 25,000–35,000 | Add transmission, terrain, social, financial constraints | source-review estimate |
+| Realistically developable by 2040 | 10,000–15,000 | Add financing limits, institutional capacity, geopolitics | source-review estimate |
 | Actually installed (FY 2024/25 NEA cut-off) | 3,591 | Annual-report installed generation snapshot | [[nea-annual-report-fy2024-25]] |
 | **DoED registry (>1 MW plants, Apr 10 2026)** | **3,791.874** | More current licensing-registry operating tally | DoED registry used in [[nepal-energy-profile]] |
 
@@ -62,4 +62,4 @@ These categories are routinely conflated in Nepal's public discourse:
 
 ## Chart Specification
 
-Inverted pyramid / funnel chart showing the progressive reduction from 83,000 to 3,591 MW. Each level labeled with the filter that reduces it. This is one of the most important single graphics for the video essay — it demolishes the "83,000 MW" slogan.
+Inverted pyramid / funnel chart showing the progressive reduction from 83,000 to 3,591 MW. Each level labeled with the filter that reduces it. This is one of the clearest public graphics for this topic — it demolishes the "83,000 MW" slogan.

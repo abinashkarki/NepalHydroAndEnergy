@@ -9,7 +9,7 @@ tags: [synthesis, strategy, phased, planning]
 
 # Twenty-Year Strategy
 
-A rational 20-year water-and-energy strategy for Nepal, synthesized from Claude's phased framework and cross-referenced with all providers.
+A rational 20-year water-and-energy strategy for Nepal, synthesized from the strategy and evidence pages.
 
 ## Phase 1: 2024–2030 — Complete and Connect
 

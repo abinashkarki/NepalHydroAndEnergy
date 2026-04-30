@@ -492,6 +492,9 @@ class LayerManager {
       interactive: interactive,
       pane: pane,
       pointToLayer: (feat, latlng) => {
+        if (!latlng || !Number.isFinite(latlng.lat) || !Number.isFinite(latlng.lng)) {
+          return L.layerGroup();
+        }
         const slug = slugFor(feat);
         coverageTotal++;
         if (slug) coverageBound++;
@@ -1242,7 +1245,9 @@ function buildLabelsOverlay(lm, manifest, specs) {
           const c = approxCentroid(f.geometry);
           if (c) { lat = c[0]; lon = c[1]; }
         }
-        if (!lat || !lon) continue;
+        lat = Number(lat);
+        lon = Number(lon);
+        if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue;
         const icon = L.divIcon({
           html: `<div class="np-label np-label-${spec.tier || "river"}">${escapeHtml(text)}</div>`,
           className: "np-label-wrap",

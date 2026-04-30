@@ -16,12 +16,12 @@ Nepal's installed hydropower fleet, broken down by technology type. The RoR domi
 
 | Type | Share of Installed Capacity | Characteristics | Source |
 |------|----------------------------|-----------------|--------|
-| Run-of-River (RoR) | ~85.7% | No storage; output mirrors river flow | Hermes (NEA FY 2022/23) |
-| Peaking Run-of-River (PRoR) | ~9.9% | Small daily pondage; 2–6 hrs peaking | Hermes (NEA FY 2022/23) |
-| Reservoir / Storage | ~3.7% | Seasonal regulation; only [[kulekhani-cascade]] | Hermes (NEA FY 2022/23) |
+| Run-of-River (RoR) | ~85.7% | No storage; output mirrors river flow | NEA FY 2022/23 review |
+| Peaking Run-of-River (PRoR) | ~9.9% | Small daily pondage; 2–6 hrs peaking | NEA FY 2022/23 review |
+| Reservoir / Storage | ~3.7% | Seasonal regulation; only [[kulekhani-cascade]] | NEA FY 2022/23 review |
 
 > [!note]
-> Codex/Gemini use the broader "**>90% RoR+PRoR**" framing from [[wb-country-economic-memo-2025]]. Both framings are consistent. The Hermes breakdown is the most granular.
+> Public summaries use the broader "**>90% RoR+PRoR**" framing from [[wb-country-economic-memo-2025]]. Both framings are consistent. The granular breakdown is the most granular.
 
 ## Installed Capacity Timeline
 
@@ -40,7 +40,7 @@ Nepal's installed hydropower fleet, broken down by technology type. The RoR domi
 | Wet season | 6,533 | ~73% |
 | **Wet/dry ratio** | **2.68x** | |
 
-> [!cite] Hermes progress log
+> [!cite] fleet composition review
 > "RoR alone delivered only about 24.5% of its annual generation in dry season."
 
 ## Ownership Split

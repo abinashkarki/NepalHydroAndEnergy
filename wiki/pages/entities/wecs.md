@@ -19,7 +19,7 @@ Nepal's government planning body for water and energy. Produces the authoritativ
 
 ## Role in Sector
 
-WECS handles theoretical planning while [[nea]] handles operational execution. The Department of Electricity Development (DoED) manages licensing between them. This fragmented institutional structure is part of the governance weakness identified across all providers.
+WECS handles theoretical planning while [[nea]] handles operational execution. The Department of Electricity Development (DoED) manages licensing between them. This fragmented institutional structure is part of the governance weakness identified across the evidence base.
 
 ## Related
 

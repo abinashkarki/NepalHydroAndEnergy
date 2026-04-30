@@ -36,9 +36,9 @@ Solar does not solve evening peak by itself. The winter shortage has two parts:
 
 That distinction prevents the argument from becoming naive. Solar is not a replacement for [[storage-deficit]]. It changes the storage job from "seasonally replace missing winter energy" to "shift cheaper winter-day energy into the evening peak." That is still hard, but it is a smaller and more modular problem.
 
-## Narrative consequence
+## Strategic Consequence
 
-The video essay should stop treating solar as a late chapter. Solar belongs inside the main causal chain:
+Solar belongs inside the main causal chain, not as a late add-on:
 
 1. Nepal's problem is timing, not annual water volume.
 2. RoR hydro worsens timing by adding monsoon energy faster than dry-season firm energy.

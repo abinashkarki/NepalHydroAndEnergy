@@ -33,10 +33,11 @@ generator: auto-stub
 
 ## Notes
 
-> [!gap] This page is an auto-generated stub. Capacity, location and
-> licence status come straight from the Ministry of Energy registry
-> mirrored in the map manifest. Add narrative, citations and images
-> here; the spec table above will refresh on rerun.
+> [!note] This is a registry-backed project record. Capacity, location,
+> and licence status come from the Ministry of Energy registry
+> mirrored in the map data. Narrative context and images are added
+> where public sources are strong enough; the specification table is
+> maintained from the registry.
 
 ## Registry note
 

@@ -6,7 +6,6 @@ updated: 2026-04-14
 claim_id: C-034
 confidence: high
 status: stable
-providers: [hermes, claude, codex, gemini]
 sources: [wb-country-economic-memo-2025, nea-annual-report-fy2024-25, green-hydrogen-roadmap-nepal]
 tags: [industrial-policy, electrification, exports, value-add]
 ---
@@ -17,7 +16,7 @@ Nepal should pursue a **domestic-led** hydro strategy (electrification + product
 
 ## Evidence
 
-- **All four providers:** Converge that domestic electrification and absorption pathways are underdeveloped relative to nameplate ambition, while export narratives dominate political speech.
+- **Cross-source finding:** Converge that domestic electrification and absorption pathways are underdeveloped relative to nameplate ambition, while export narratives dominate political speech.
 - **Domestic headroom:** Per-capita electricity consumption remains low in international comparison (**~370–465 kWh/capita** band in synthesis), and electricity is a small share of final energy (**grid ~4.96%** framing in provider logs)—implying large space for efficient demand growth if supply can be made **firm** and **affordable**.
 - **Value-add asymmetry:** Ferrosilicon (and similar electro-intensives) can embed **~8–10×** value multiples vs raw export spot energy narratives—when governance and logistics permit (not automatic).
 - **Bankability vs national optimality:** Projects that are **export-bankable** under narrow PPA logic are not necessarily **nationally optimal** when externalities, seasonality, and domestic job creation are included.

@@ -6,7 +6,6 @@ updated: 2026-04-14
 claim_id: C-012
 confidence: high
 status: stable
-providers: [hermes, claude, codex, gemini]
 sources: [wecs-river-basin-plan-2024, icimod-hkh-glacier-change, wb-ganges-strategic-basin-assessment]
 tags: [climate, cmip6, runoff, hazards, resilience]
 ---
@@ -24,7 +23,7 @@ Climate change does **not** make Nepal's hydro story straightforwardly **easier*
 
 ## Confidence rationale
 
-**High** because the "volatility and uncertainty dominate naive averages" framing is consistent with IPCC HKH literature and with provider convergence; numeric bands should always be presented as **model-dependent** and basin-specific.
+**High** because the "volatility and uncertainty dominate naive averages" framing is consistent with IPCC HKH literature and with source convergence; numeric bands should always be presented as **model-dependent** and basin-specific.
 
 ## Unresolved issues
 

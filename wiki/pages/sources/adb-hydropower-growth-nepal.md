@@ -15,7 +15,7 @@ tags: [adb, hydropower, growth, development]
 
 ## Summary
 
-ADB assessment of Nepal's hydropower development trajectory, covering growth patterns, project pipeline, and development constraints. Extracted by Hermes in Wave 2.
+ADB assessment of Nepal's hydropower development trajectory, covering growth patterns, project pipeline, and development constraints.
 
 ## Key Data Points
 
@@ -25,4 +25,4 @@ ADB assessment of Nepal's hydropower development trajectory, covering growth pat
 
 ## Relevance to Project
 
-Background source for Hermes Wave 2 engineering and [[buildability]] analysis. Extracted text stored in `hermes/research/wave2/adb_hydropower_growth_nepal.txt`. Provides context for understanding why [[nepal-energy-profile]] grew through IPPs rather than state-led mega-projects.
+Background source for engineering and [[buildability]] analysis. Extracted text stored in `hermes/research/wave2/adb_hydropower_growth_nepal.txt`. Provides context for understanding why [[nepal-energy-profile]] grew through IPPs rather than state-led mega-projects.

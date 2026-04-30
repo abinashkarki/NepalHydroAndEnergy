@@ -127,7 +127,7 @@ The 16.81% drop in total consumption in FY 2079/80 vs FY 2078/79 is striking. WE
 
 ## Chart Specification
 
-Three panels, built for the video essay:
+Three public-facing chart panels:
 
 1. **Sankey** — sources → sectors, widths in TJ. The single fattest stream is "Fuelwood → Residential" (257 PJ). "Coal → Industrial" (33.6 PJ) and "Diesel → Transportation" (30.5 PJ) are the next two fattest. Hydro/electricity threads are visually thin across the whole diagram. This is the single most powerful image for the essay's pivot from "hydro story" to "energy story."
 2. **Stacked 100% bar per sector** — show that residential is dominated by biomass, industrial by coal+biomass, transport by petroleum, while only construction/mining and (to a lesser extent) agriculture are electricity-majority.

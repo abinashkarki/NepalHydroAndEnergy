@@ -26,4 +26,4 @@ Regional glacier change assessment for the Hindu Kush Himalaya. Documents the sc
 
 ## Relevance to Project
 
-Underpins [[peak-water]] concept and [[glof-risk]]. Relevant to [[koshi-basin]] (278 glaciers, 51 km³ ice). The 12% area loss and 65% volume projection are key numbers for the climate dimension of the video essay. Codex [S13], also used by Claude for the peak-water framing (2040–2070 build window).
+Underpins [[peak-water]] concept and [[glof-risk]]. Relevant to [[koshi-basin]] (278 glaciers, 51 km³ ice). The 12% area loss and 65% volume projection are key numbers for the climate dimension of the public energy-system story, including the peak-water framing for the 2040–2070 build window.

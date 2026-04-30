@@ -105,7 +105,7 @@ Legend palette:
 
 ## Chart / infographic call-outs
 
-Three figures that should anchor the zone story in the video essay:
+Three public-facing figures that should anchor the zone story:
 
 1. **Nepal GHI map with overlay of 132 kV grid.** Shows the Terai zone's coincidence with grid density.
 2. **Monthly GHI + hydro output stacked bars.** The cleanest visual of [[solar-hydro-complementarity]].

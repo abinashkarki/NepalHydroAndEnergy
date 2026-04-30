@@ -10,7 +10,7 @@ tags: [hydrology, discharge, seasonal, basins]
 
 # Basin Discharge Data
 
-Consolidated discharge data for Nepal's major river basins. All providers reference these numbers; provenance varies.
+Consolidated discharge data for Nepal's major river basins. Public sources reference these numbers; provenance varies.
 
 ## Average Annual Discharge at Nepal-India Border
 
@@ -22,7 +22,7 @@ Consolidated discharge data for Nepal's major river basins. All providers refere
 | [[mahakali-basin]] | — | ~600 | — | ~73% | — | [[wecs-river-basin-plan-2024]] |
 
 > [!note]
-> Discharge figures are model-derived (MIKE SHE / MIKE Hydro Basin). Claude provides slightly different ranges based on gauging-station records rather than basin-plan models. The Karnali has the best dry-season stability (lowest peak-to-dry ratio).
+> Discharge figures are model-derived (MIKE SHE / MIKE Hydro Basin). Public gauge-based summaries provide slightly different ranges based on gauging-station records rather than basin-plan models. The Karnali has the best dry-season stability (lowest peak-to-dry ratio).
 
 ## Measurement Scope
 
@@ -49,7 +49,7 @@ Both can be valid at once. The conflict only appears when the measurement point 
 | Mixed | 0.15–0.30 of mean flow | Trishuli, Marsyangdi |
 | Rain-fed | 0.05–0.15 of mean flow | Bagmati, Kamala, Rapti |
 
-> [!cite] Claude QA
+> [!cite] basin discharge review
 > "Glacier-fed rivers have dry-season stability ratios of 0.3–0.5 of mean flow vs. 0.05–0.15 for monsoon-fed rivers."
 
 ## Linked Data

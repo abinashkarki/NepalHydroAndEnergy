@@ -6,7 +6,6 @@ updated: 2026-04-24
 claim_id: C-013
 confidence: high
 status: stable
-providers: [codex]
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, irena-remap-nepal]
 tags: [solar, hydro, economics, LCOE, PPA, tariff, nepal]
 ---

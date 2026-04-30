@@ -41,6 +41,6 @@ Power purchase and tariff design are beginning to **encode scarcity by season**.
 
 ## Strategic implication
 
-Nepal is currently **resource-rich but value-poor** because timing destroys the margin. The cleanest formulation (DeepResearch Part 7): *"The system is getting better at monetizing surplus, but it still pays a winter scarcity tax, and it has not yet built enough domestic electrification depth to turn hydropower into broad-based wealth."*
+Nepal is currently **resource-rich but value-poor** because timing destroys the margin. The cleanest formulation: *"The system is getting better at monetizing surplus, but it still pays a winter scarcity tax, and it has not yet built enough domestic electrification depth to turn hydropower into broad-based wealth."*
 
 A [[domestic-led-hydro-strategy]] reframes the objective: build and price for **domestic dry-season reliability first**, then use exports to monetize **true surplus** — rather than exporting because the alternative is curtailment at bad prices. Empirical trade dynamics belong in [[data-trade-time-series]].

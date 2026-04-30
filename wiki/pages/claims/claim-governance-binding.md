@@ -6,7 +6,6 @@ updated: 2026-04-14
 claim_id: C-029
 confidence: high
 status: stable
-providers: [hermes, claude, codex, gemini]
 sources: [wb-nepal-power-sector-reform-2022, national-water-plan-nepal, adb-hydropower-growth-nepal]
 tags: [governance, permitting, nea, institutions]
 ---
@@ -19,9 +18,9 @@ tags: [governance, permitting, nea, institutions]
 
 - **Market design gaps:** Weak **wheeling** and **open access** (in provider synthesis) limit competitive offtake and efficient dispatch experiments—locking the system into slower learning and politicized allocation.
 - **Institutional conflicts of interest:** [[nea]] described across threads as carrying conflicting mandates (system operator, buyer, policy actor)—distorting signals for IPPs and slowing transparent grid planning.
-- **Land, forest, ROW:** Right-of-way and environmental clearance fragmentation causes multi-year stalls; providers cite **inter-agency disputes** as binding more often than pure technical unknowns.
+- **Land, forest, ROW:** Right-of-way and environmental clearance fragmentation causes multi-year stalls; public sources cite **inter-agency disputes** as binding more often than pure technical unknowns.
 - **Political churn:** **18+ governments in 30 years** (synthesis statistic) undermines multi-decade continuity for storage, transmission, and treaty-linked portfolios.
-- **Claude:** "Without institutional capacity, engineering plans are **blueprints that age on shelves**."
+- **Narrative review:** "Without institutional capacity, engineering plans are **blueprints that age on shelves**."
 
 ## Confidence rationale
 

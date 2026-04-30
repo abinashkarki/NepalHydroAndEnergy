@@ -925,7 +925,7 @@
       },
       {
         "slug": "provider-comparison",
-        "title": "Provider Comparison"
+        "title": "Evidence Review Notes"
       },
       {
         "slug": "solar-in-the-master-narrative",
@@ -934,6 +934,10 @@
       {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit"
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here"
       },
       {
         "slug": "twenty-year-strategy",
@@ -1482,6 +1486,7 @@
     "provider-comparison",
     "solar-in-the-master-narrative",
     "solar-role-in-winter-deficit",
+    "start-here",
     "twenty-year-strategy",
     "unresolved-questions",
     "claim-climate-harder-not-easier",
@@ -1793,6 +1798,7 @@
     "provider-comparison": "syntheses",
     "solar-in-the-master-narrative": "syntheses",
     "solar-role-in-winter-deficit": "syntheses",
+    "start-here": "syntheses",
     "twenty-year-strategy": "syntheses",
     "unresolved-questions": "syntheses",
     "claim-climate-harder-not-easier": "claims",
@@ -2101,9 +2107,10 @@
     "downstream-river-geopolitics": "Downstream River Geopolitics",
     "ipsdp-2025-vs-wiki-claims": "IPSDP 2025 vs Wiki Claims",
     "master-thesis": "Master Thesis",
-    "provider-comparison": "Provider Comparison",
+    "provider-comparison": "Evidence Review Notes",
     "solar-in-the-master-narrative": "Solar in the Master Narrative",
     "solar-role-in-winter-deficit": "Solar's Role in the Winter Deficit",
+    "start-here": "Start Here",
     "twenty-year-strategy": "Twenty-Year Strategy",
     "unresolved-questions": "Unresolved Questions",
     "claim-climate-harder-not-easier": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
@@ -2182,5 +2189,5 @@
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series"
   },
-  "totalPages": 309
+  "totalPages": 310
 }

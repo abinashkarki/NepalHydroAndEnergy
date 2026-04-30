@@ -32,7 +32,7 @@ Older but widely cited national planning document for Nepal's water resources. P
 
 ## Relevance to Project
 
-Source for the [[ganges-contribution]] numbers used across all providers. Codex [S1]. The 40%/70% figures are central to [[hydro-geopolitics]] and [[india-energy-relationship]].
+Source for the [[ganges-contribution]] numbers used across the evidence base. . The 40%/70% figures are central to [[hydro-geopolitics]] and [[india-energy-relationship]].
 
 > [!warning]
 > These figures are historical estimates. The exact percentages should be treated cautiously — the underlying hydrology predates recent climate shifts — but the strategic direction remains intact.

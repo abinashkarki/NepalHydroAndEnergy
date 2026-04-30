@@ -32,4 +32,4 @@ The World Bank's comprehensive economic assessment of Nepal with a significant e
 
 ## Relevance to Project
 
-Key source for the IPP-driven growth story, the trade transformation timeline, and the reliability gap (load shedding gone but outages persist). Codex [S6]. The firm-level outage data (76%) is uniquely valuable for the reliability argument in [[stranded-generation]]. Trade shift data central to [[data-trade-time-series]].
+Key source for the IPP-driven growth story, the trade transformation timeline, and the reliability gap (load shedding gone but outages persist). . The firm-level outage data (76%) is uniquely valuable for the reliability argument in [[stranded-generation]]. Trade shift data central to [[data-trade-time-series]].

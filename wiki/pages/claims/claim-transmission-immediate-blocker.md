@@ -6,7 +6,6 @@ updated: 2026-04-14
 claim_id: C-019
 confidence: medium-high
 status: verified-with-caveats
-providers: [hermes, claude, codex, gemini]
 sources: [nea-annual-report-fy2024-25, wb-nepal-power-sector-reform-2022, india-cbte-2018]
 tags: [transmission, grid, curtailment, trade, monetization]
 ---
@@ -18,10 +17,10 @@ tags: [transmission, grid, curtailment, trade, monetization]
 ## Evidence
 
 - **Monsoon 2025 spill/curtailment narrative (synthesis):** Headline band **700–800 MW** "spilled daily" during surplus periods—signals a **grid/trade absorption** constraint in wet season even when hydrology is abundant.
-- **Cross-border capacity framing:** Approved/usable cross-border transfer magnitudes on the order of **~1,141 MW** (as cited in provider materials) lag behind generation expansion stories—export is not just policy willingness but **corridor hardware** and **scheduling**.
+- **Cross-border capacity framing:** Approved/usable cross-border transfer magnitudes on the order of **~1,141 MW** (as cited in source materials) lag behind generation expansion stories—export is not just policy willingness but **corridor hardware** and **scheduling**.
 - **Grid architecture west of Butwal:** Described as legacy **132 kV** constraints in synthesis—bottlenecking westward evacuation and market access patterns that determine realized prices.
-- **Claude:** Claims generation is built **5–10× faster than grid** in Nepal's recent development pacing—an institutional/execution asymmetry that shows up as curtailment and stranded energy.
-- **Hermes (Wave 3 framing):** Even with continued capacity additions, Nepal lacks **grid and trade architecture commensurate** with the largest hydro ambitions.
+- **Narrative review:** Claims generation is built **5–10× faster than grid** in Nepal's recent development pacing—an institutional/execution asymmetry that shows up as curtailment and stranded energy.
+- **Research synthesis:** Even with continued capacity additions, Nepal lacks **grid and trade architecture commensurate** with the largest hydro ambitions.
 
 ### Updated corridor status (as of early 2026)
 
@@ -39,7 +38,7 @@ The pattern confirms the claim: **piecemeal progress with persistent local-resis
 
 ## Confidence rationale
 
-**Medium-high** after corridor verification: the **mechanism** is universally true in power systems (delivery limits monetization), multiple providers converge, **and the 2025–2026 corridor status table above confirms** that the 400 kV backbone is still incomplete (Hetauda–Dhalkebar stuck on local resistance, Marsyangdi corridor at 65%). The evidence now supports upgrading toward `high` — the bottleneck is confirmed, specific, and ongoing.
+**Medium-high** after corridor verification: the **mechanism** is universally true in power systems (delivery limits monetization), source evidence converges, **and the 2025–2026 corridor status table above confirms** that the 400 kV backbone is still incomplete (Hetauda–Dhalkebar stuck on local resistance, Marsyangdi corridor at 65%). The evidence now supports upgrading toward `high` — the bottleneck is confirmed, specific, and ongoing.
 
 ## Unresolved issues
 

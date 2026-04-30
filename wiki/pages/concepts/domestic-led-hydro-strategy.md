@@ -15,7 +15,7 @@ tags: [strategy, demand, industrial-policy, electrification, nepal, hydro]
 
 Across multiple research threads in this project, the **core strategic recommendation** converges: Nepal should pursue **domestic-led hydro with export support**, not **export-led hydro with domestic leftovers**. The distinction is not anti-export; it is about **sequencing and the objective function**. Exports are valuable when they absorb **genuine surplus** at acceptable prices; they are costly when they **institutionalize** the [[seasonal-arbitrage-trap]] — cheap monsoon sales and expensive winter imports on the same national balance sheet.
 
-DeepResearch Part 7's "brutal answer" frames the current failure plainly: *"The system is getting better at monetizing surplus, but it still pays a winter scarcity tax, and it has not yet built enough domestic electrification depth to turn hydropower into broad-based wealth."*
+Recent trade and demand evidence frames the current failure plainly: *"The system is getting better at monetizing surplus, but it still pays a winter scarcity tax, and it has not yet built enough domestic electrification depth to turn hydropower into broad-based wealth."*
 
 ## Why domestic demand is not a small story
 
@@ -32,7 +32,7 @@ Industrialization, urbanization, and replacement of costly fossil inputs add con
 
 ## The constraint is not "can Nepal export?" — it can
 
-Nepal is improving its exchange-linked value capture: the IEX price spread flipped positive in 2023-24 (Nepal sold at ₹5.61/kWh, bought at ₹4.43/kWh). But the whole-system average was still negative (sold Rs 8.72/unit, bought Rs 9.17/unit) because structural winter imports at peak-hour rates wash out the monsoon gains. The brutal constraint, per DeepResearch Part 7, is *"whether Nepal can build domestic demand and system efficiency fast enough that exports become a high-value optimization layer, not the primary story."*
+Nepal is improving its exchange-linked value capture: the IEX price spread flipped positive in 2023-24 (Nepal sold at ₹5.61/kWh, bought at ₹4.43/kWh). But the whole-system average was still negative (sold Rs 8.72/unit, bought Rs 9.17/unit) because structural winter imports at peak-hour rates wash out the monsoon gains. The hard constraint is *"whether Nepal can build domestic demand and system efficiency fast enough that exports become a high-value optimization layer, not the primary story."*
 
 ## Exports as complement, not compass
 

@@ -57,7 +57,7 @@ This is the corrective to the "glacier-fed = reliable" assumption. Glacier *ice 
 
 ## Climate change and seasonal amplification
 
-Part 4 (DeepResearch) synthesizes the directional consensus:
+Recent climate synthesis points to this directional consensus:
 - **Monsoon precipitation:** likely to intensify (heavier events, more flood risk), while total annual rainfall shows mixed regional trends
 - **Snowpack:** declining as warming shifts precipitation from snow to rain at progressively higher elevations
 - **Net seasonal effect:** wetter wet seasons, drier dry seasons — amplifying [[seasonal-mismatch]] over time

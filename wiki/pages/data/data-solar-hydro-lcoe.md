@@ -103,7 +103,7 @@ Solar + 4h-BESS reaches **NPR 10/kWh equivalence with new reservoir-hydro around
 
 ## Chart specifications
 
-Three charts for the video essay:
+Three public-facing chart options:
 
 1. **Time-series line chart** — global solar LCOE 2010–2030 (solid), Nepal solar auction tariffs 2017–2025 (dashed with points), Nepal small-RoR PPA (horizontal band). Crossover point annotated.
 2. **Stacked-bar per-technology** — current LCOE bars for RoR, PRoR, new storage hydro, solar (auction), solar (LCOE), solar+4h BESS. With time-weighted-value adjustment as a second panel.

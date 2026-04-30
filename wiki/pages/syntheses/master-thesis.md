@@ -9,7 +9,7 @@ tags: [thesis, synthesis, core-argument]
 
 # Master Thesis
 
-The central argument of the Nepal Energy & Hydropower research, supported by all five providers (Hermes, Claude, Codex, Gemini, DeepResearch/ChatGPT).
+The central argument of the Nepal Energy & Hydropower knowledge hub, supported by the source notes, data pages, and synthesis pages linked below.
 
 ## The Thesis
 
@@ -52,14 +52,14 @@ The conversion failure is not one bottleneck. It is a stack:
 - [[solar-role-in-winter-deficit]] — why solar is now a core winter-deficit lever
 - [[claim-solar-cheaper-than-small-hydro]] — the new marginal-cost benchmark
 
-## Framing Lines for Video Essay
+## Public Framing Lines
 
-> "Nepal is not energy-poor. It is dispatch-poor." — Codex
+> "Nepal is not energy-poor. It is dispatch-poor."
 
-> "Water becomes electricity only when it is timed. Electricity becomes wealth only when it is delivered. And hydropower becomes strategy only when it is regulated." — Codex report
+> "Water becomes electricity only when it is timed. Electricity becomes wealth only when it is delivered. And hydropower becomes strategy only when it is regulated."
 
-> "Nepal's greatest missed opportunity is not selling electricity to India at USD 0.04/kWh — it is using that electricity to manufacture goods worth USD 0.40/kWh." — Claude
+> "Nepal's greatest missed opportunity is not selling electricity to India at USD 0.04/kWh; it is using that electricity to manufacture goods worth USD 0.40/kWh."
 
-> "The system is getting better at monetizing surplus, but it still pays a winter scarcity tax, and it has not yet built enough domestic electrification depth to turn hydropower into broad-based wealth." — DeepResearch Part 7
+> "The system is getting better at monetizing surplus, but it still pays a winter scarcity tax, and it has not yet built enough domestic electrification depth to turn hydropower into broad-based wealth."
 
-> "Nepal is not failing because it lacks hydropower potential. It is failing to convert hydrological advantage into firm, deliverable, resilient, financeable, politically executable power." — This project's synthesis
+> "Nepal is not failing because it lacks hydropower potential. It is failing to convert hydrological advantage into firm, deliverable, resilient, financeable, politically executable power."

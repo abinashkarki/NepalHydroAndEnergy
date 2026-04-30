@@ -13,6 +13,7 @@
       },
       "interactive": false,
       "roleByPreset": {
+        "overview": "context",
         "tributaries": "context",
         "geopolitics": "context",
         "power_system": "context",
@@ -57,6 +58,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "context",
         "tributaries": "primary",
         "geopolitics": "context",
         "power_system": "context",
@@ -112,6 +114,7 @@
         "basin"
       ],
       "roleByPreset": {
+        "overview": "secondary",
         "tributaries": "primary",
         "geopolitics": "secondary",
         "power_system": "context",
@@ -140,6 +143,7 @@
         "downstream_name"
       ],
       "roleByPreset": {
+        "overview": "context",
         "tributaries": "primary",
         "geopolitics": "primary",
         "power_system": "muted",
@@ -415,6 +419,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "secondary",
         "tributaries": "muted",
         "geopolitics": "secondary",
         "power_system": "primary",
@@ -581,6 +586,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "primary",
         "tributaries": "off",
         "geopolitics": "secondary",
         "power_system": "secondary",
@@ -843,6 +849,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "primary",
         "tributaries": "off",
         "geopolitics": "context",
         "power_system": "secondary",
@@ -920,6 +927,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "secondary",
         "tributaries": "off",
         "geopolitics": "context",
         "power_system": "primary",
@@ -1002,6 +1010,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "secondary",
         "tributaries": "off",
         "geopolitics": "primary",
         "power_system": "secondary",
@@ -1084,6 +1093,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "secondary",
         "tributaries": "off",
         "geopolitics": "secondary",
         "power_system": "secondary",
@@ -1128,6 +1138,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "muted",
         "tributaries": "off",
         "geopolitics": "off",
         "power_system": "off",
@@ -1185,6 +1196,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "secondary",
         "tributaries": "off",
         "geopolitics": "off",
         "power_system": "muted",

@@ -7,9 +7,9 @@ updated: 2026-04-14
 
 # Wiki Schema
 
-Project-scoped wiki for the Nepal Energy & Hydropower research. Mirrors the
-personal wiki schema at `/Users/hi/projects/mypersonalpedia/wiki/` so pages
-can be copied over after video essay work is complete.
+Public wiki schema for the Nepal Energy & Hydropower knowledge hub. The schema
+keeps source notes, entity records, concepts, claims, data pages, and synthesis
+pages separate so readers can tell analysis from evidence and registry records.
 
 ## Page Types
 
@@ -57,7 +57,6 @@ Claim pages add:
 ```yaml
 confidence: high | medium | low
 status: stable | needs-update | needs-narrowing | contested
-providers: [hermes, claude, codex, gemini]
 claim_id: C-NNN
 ```
 
@@ -82,7 +81,7 @@ images:
 - `src` is relative to `wiki/assets/images/`.
 - `caption` is required and is shown under the thumbnail.
 - `credit` + `license` are required for any image not in the public domain.
-- Empty list `images: []` is valid (placeholder for auto-stubs).
+- Empty list `images: []` is valid for registry-backed pages without public images yet.
 
 Auto-stub entity pages include `generator: auto-stub` in frontmatter so the
 stub generator can safely refresh their spec tables without touching prose.
@@ -111,16 +110,9 @@ Reference sources inline with callout blocks:
 | `> [!gap]` | Known missing information worth investigating |
 | `> [!cite]` | Inline source citation |
 
-## Provider Provenance
+## Evidence Provenance
 
-Where claims or data originate from the multi-provider research, note provenance:
-- **hermes** — multi-wave research program with source extraction
-- **claude** — narrative report + QA document
-- **codex** — sourced QA + report with 15 verified URLs
-- **gemini** — 22-page PDF with 74 works cited, deepest engineering detail
-
-## Migration to Personal Wiki
-
-After the video essay, durable pages (mostly concepts, entities, syntheses)
-copy straight into the personal wiki. Claims and data pages stay here as
-project archive.
+Where claims or data depend on a specific source family, note the public source
+page in `sources:` and use cite callouts in the body. Internal drafting
+provenance should stay out of public-facing narrative unless it is necessary to
+explain a data conflict.

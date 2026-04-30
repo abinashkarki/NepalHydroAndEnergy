@@ -19,7 +19,7 @@ Nepal's electricity trade transformation from net importer to seasonal exporter.
 | 2018 | ~2,582 | ~3 | Heavy importer | [[wb-country-economic-memo-2025]] |
 | FY 2020/21 | ~2,330 | — | Heavy importer; imports 31.83% of supply | NEA annual report (Part 7) |
 | FY 2079/80 (~2022/23) | 1,854.5 | 1,333.1 | Net importer (~521 GWh) | NEA System Operation Dept (Part 7) |
-| FY 2023/24 | 1,845 | 1,946 | **First full net exporter year** | NEA (Gemini) |
+| FY 2023/24 | 1,845 | 1,946 | **First full net exporter year** | NEA summary |
 | FY 2024/25 | 1,681 | 2,380 | Net exporter (699 GWh) | [[nea-annual-report-fy2024-25]] |
 
 ## Data Reconciliation Notes
@@ -104,8 +104,8 @@ Source: India Central Electricity Authority / IEX market monitoring report. Trad
 | Export to India | IEX (2023-24 weighted avg) | ₹5.61/kWh (~NPR 7.11) | IEX market monitoring |
 | Export to Bangladesh | Bilateral (fixed) | 6.40 US cents/unit | Tripartite PSA |
 | Import from India | IEX (2023-24 weighted avg) | ₹4.43/kWh | IEX market monitoring |
-| Import from India | Dry season average (broader) | ~NPR 9.17–11.50/unit | NEA / Gemini |
-| Import from India | Peak hour (dry) | up to NPR 16.00/unit | Gemini |
+| Import from India | Dry season average (broader) | ~NPR 9.17–11.50/unit | NEA / source review |
+| Import from India | Peak hour (dry) | up to NPR 16.00/unit | Source review |
 | Domestic PPA (storage, winter) | Regulated | capped at NPR 14.80/unit | ERC/NEA |
 | Domestic PPA (storage, monsoon) | Regulated | capped at NPR 8.45/unit | ERC/NEA |
 | Industrial ToD tariff (domestic) | Peak (17:00–23:00) | ~NPR 10.00–10.20/unit | NEA tariff schedule |

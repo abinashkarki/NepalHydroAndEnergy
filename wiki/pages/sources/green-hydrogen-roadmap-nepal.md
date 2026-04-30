@@ -28,4 +28,4 @@ Strategic roadmap for producing green hydrogen from Nepal's surplus monsoon hydr
 
 ## Relevance to Project
 
-Central to [[green-hydrogen-nepal]] and the demand-creation argument in [[domestic-led-hydro-strategy]]. Addresses [[stranded-generation]] by creating domestic demand for surplus monsoon power. Only Gemini covered this in depth. Gemini ref 10.
+Central to [[green-hydrogen-nepal]] and the demand-creation argument in [[domestic-led-hydro-strategy]]. Addresses [[stranded-generation]] by creating domestic demand for surplus monsoon power.

@@ -64,8 +64,8 @@ class WikiSearchIndexTests(unittest.TestCase):
         self.assertNotIn("wiki-semantic.js", html)
         self.assertNotIn("Semantic", html)
         self.assertNotIn("sem-status", html)
-        self.assertIn("Search", html)
-        self.assertIn("Seek", html)
+        self.assertIn("Find", html)
+        self.assertIn("Explore", html)
         self.assertIn("wiki-vector-search.js", html)
         self.assertIn("wiki-fact-index.json", html)
 

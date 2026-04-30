@@ -173,6 +173,24 @@ function rewriteWikilinks(html, slugIndex, spatialSlugs, onClickAttr = "openWiki
   });
 }
 
+function renderCallouts(html) {
+  const labels = {
+    note: "Note",
+    warning: "Caution",
+    contradiction: "Conflicting sources",
+    gap: "Evidence gap",
+    cite: "Source note",
+    finding: "Finding",
+  };
+  return html.replace(
+    /<blockquote>\s*<p>\[!(note|warning|contradiction|gap|cite|finding)\]\s*([\s\S]*?)<\/p>\s*<\/blockquote>/gi,
+    (_, typeRaw, body) => {
+      const type = String(typeRaw).toLowerCase();
+      return `<aside class="wiki-callout wiki-callout-${type}"><div class="wiki-callout-label">${labels[type] || "Note"}</div><div class="wiki-callout-body">${body.trim()}</div></aside>`;
+    }
+  );
+}
+
 async function renderPage(slug, opts = {}) {
   // opts.spatialSlugs Set, opts.bindings, opts.showFrontmatter
   const [idx] = await Promise.all([buildPageIndex(), loadBacklinks()]);
@@ -183,7 +201,7 @@ async function renderPage(slug, opts = {}) {
   const { frontmatter, body } = splitFrontmatter(raw);
   const images = parseImagesFromFrontmatter(frontmatter);
   const html = window.marked ? marked.parse(body) : `<pre>${body}</pre>`;
-  const linked = rewriteWikilinks(html, idx, opts.spatialSlugs);
+  const linked = renderCallouts(rewriteWikilinks(html, idx, opts.spatialSlugs));
   const fm = opts.showFrontmatter ? `<pre class="frontmatter show">${frontmatter}</pre>` : "";
   const cat = `<div style="font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;">${category} · ${slug}</div>`;
   // Stash images on the page element via a data attribute so the lightbox
@@ -197,6 +215,6 @@ async function renderPage(slug, opts = {}) {
 }
 
 window.NepalExplorer = window.NepalExplorer || {};
-Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, parseImagesFromFrontmatter, loadBacklinks });
+Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, loadBacklinks });
 window.NepalExplorer._wikiLoaderLoaded = true;
 })();
