@@ -48,6 +48,13 @@ function resolveLayerStyle(layerDef, preset, basemap, zoom, key) {
   if (zoom != null && zoom >= 9 && zoom < 11 && preset === "power_system" && key === "hydropower_construction" && role === "primary") {
     effectiveRole = "secondary";
   }
+  // Overview preset: same zoom discipline, construction hidden until zoom 9
+  if (zoom != null && zoom < 9 && preset === "overview" && key === "hydropower_construction") {
+    effectiveRole = "off";
+  }
+  if (zoom != null && zoom >= 9 && zoom < 11 && preset === "overview" && key === "hydropower_construction") {
+    effectiveRole = "muted";
+  }
   // Tributaries preset: operating plants follow same zoom discipline as construction in power
   // (hidden until zoom 9 so national view stays clean)
   if (zoom != null && zoom < 9 && preset === "tributaries" && key === "hydropower_operating") {

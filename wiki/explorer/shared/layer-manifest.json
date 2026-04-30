@@ -480,6 +480,7 @@
         ]
       },
       "roleByPreset": {
+        "overview": "context",
         "tributaries": "muted",
         "geopolitics": "muted",
         "power_system": "primary",

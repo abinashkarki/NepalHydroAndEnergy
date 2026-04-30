@@ -5,20 +5,15 @@
     "overview": {
       "label": "Overview",
       "short": "Overview",
-      "subtitle": "Rivers, power assets, grid, storage, solar",
-      "description": "The public starting lens: Nepal's basin geography, major rivers, operating hydropower, storage candidates, transmission backbone, cross-border gateways, and solar resource context in one readable national view.",
+      "subtitle": "Basins, rivers, operating hydro, grid backbone",
+      "description": "The public starting lens: Nepal's four river basins, major tributaries, operating hydropower plants, construction-stage projects (visible when zoomed in), and the main transmission network in one readable national view.",
       "layers_on": [
         "country_outline",
         "basin_polygons",
         "tributaries",
-        "downstream_systems",
         "hydropower_operating",
-        "storage_shortlist",
-        "transmission_traced_network",
-        "cross_border",
-        "cross_border_lines",
-        "solar_ghi_zones",
-        "solar_plants"
+        "hydropower_construction",
+        "transmission_traced_network"
       ],
       "bounds": [
         [
