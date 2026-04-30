@@ -102,5 +102,3 @@ python scripts/build_research_figures.py
 ## Portfolio Note
 
 This repo demonstrates end-to-end research engineering: source ingestion, PDF/image extraction, data normalization, geospatial layer construction, interactive map UX, linked knowledge-base design, and evidence-backed energy-system analysis.
-
-For a concise project summary, see [docs/portfolio.md](docs/portfolio.md).
