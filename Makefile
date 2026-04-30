@@ -13,7 +13,7 @@ validate:
 	git diff --check
 
 test:
-	python -m unittest scripts.test_wiki_search_index scripts.test_extract_pdf_images
+	python -m unittest scripts.test_wiki_search_index scripts.test_extract_pdf_images scripts.test_explorer_performance
 
 serve:
 	./wiki/explorer/serve.sh 8765

@@ -80,15 +80,14 @@ function getZoomBehavior(zoom) {
 function styleForFeature(baseStyle, layerDef, props) {
   return baseStyle;
 }
-// App-level cache buster. A single value derived from the page-load time
-// means every JSON fetched during one session sees consistent data, but a
-// reload after scripts/gen_wiki_stubs.py always busts the browser cache.
+// App-level cache buster. Keep this stable within a release so production
+// browsers can reuse JSON/GeoJSON across reloads.
 const _APP_CB = (() => {
   try {
     const m = document.querySelector('meta[name="np-build"]');
     if (m && m.content) return m.content;
   } catch (e) {}
-  return String(Date.now());
+  return "public-launch-5";
 })();
 
 function bustify(path) {
@@ -389,6 +388,7 @@ class LayerManager {
     this.manifest = manifest;
     this.reverseIdx = reverseIdx || {};
     this.cache = {};        // key → geojson data
+    this.sourceCache = {};  // source path → geojson data promise
     this.layers = {};       // key → L.GeoJSON layer (persistent reference)
     this.featureLookup = {};
     this.options = options; // { onFeatureClick(slug, props), onLayerToggle(key, on) }
@@ -451,7 +451,9 @@ class LayerManager {
 
   async _data(key) {
     if (!this.cache[key]) {
-      this.cache[key] = await loadJSON(this.manifest.layers[key].path);
+      const path = this.manifest.layers[key].path;
+      if (!this.sourceCache[path]) this.sourceCache[path] = loadJSON(path);
+      this.cache[key] = this.sourceCache[path];
     }
     return this.cache[key];
   }
@@ -870,10 +872,9 @@ class LayerManager {
     for (const k of Object.keys(this.layers)) {
       if (!this._activeSet.has(k)) this.remove(k);
     }
-    // Preload / add all desired layers so they're available for zoom toggling
-    for (const k of keys) {
-      await this.add(k);
-    }
+    // Preload / add desired layers together; startup should not serialize
+    // independent GeoJSON requests.
+    await Promise.all(keys.map((k) => this.add(k)));
     this._applyRoleVisibility();
     this.normalizeZOrder();
   }

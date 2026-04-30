@@ -4,15 +4,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="np-build" content="public-launch-5" />
   <title>Nepal Energy · Wiki & Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="shared/style.css?v=public-launch-4" />
+  <link rel="stylesheet" href="shared/style.css?v=public-launch-5" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="shared/leaflet-init.js?v=public-launch-4"></script>
-  <script src="shared/wiki-loader.js?v=public-launch-4"></script>
-  <script src="shared/wiki-search.js?v=public-launch-4"></script>
-  <script src="shared/wiki-vector-search.js?v=public-launch-4"></script>
+  <script src="shared/leaflet-init.js?v=public-launch-5"></script>
+  <script src="shared/wiki-loader.js?v=public-launch-5"></script>
+  <script src="shared/wiki-search.js?v=public-launch-5"></script>
+  <script src="shared/wiki-vector-search.js?v=public-launch-5"></script>
   <style>
     /* Layout: resizable three-pane grid. */
     .layout {
@@ -2574,6 +2575,8 @@
       const { makeMap, LayerManager, buildReverseIndex, loadJSON } = window.NepalExplorer;
 
       let bindings, manifest, presetsCfg, lm, map, baseLayers, layerControl, labelsLayer, txLabelsLayer, pageIndex, spatialSlugs, pageMeta, searchIndex, factIndex, vectorBoost, hydropowerSlugAliases;
+      let overlayPlaceholders = {};
+      let syncingLayerControl = false;
       let currentSlug = null;
       let currentFactId = null;
       let currentPreset = null;
@@ -3617,6 +3620,7 @@
         setTimeout(() => meta.classList.remove("show"), 3500);
 
         await lm.setActive(p.layers_on || []);
+        syncLayerControlPlaceholders();
         if (opts.fly !== false && p.bounds) {
           map.flyToBounds(p.bounds, { padding: [40, 40], duration: 0.9, maxZoom: 9 });
         }
@@ -3926,14 +3930,19 @@
         if (!key || !manifest.layers[key]) return;
         if (lm.has(key) || lm.isManual(key)) lm.remove(key);
         else await lm.add(key, { manual: true });
+        syncLayerControlPlaceholders();
         syncLayerPanel();
       }
 
-      function toggleSpecialLayer(which) {
+      async function toggleSpecialLayer(which) {
         const layer = which === "labels" ? labelsLayer : txLabelsLayer;
         if (!layer) return;
         if (map.hasLayer(layer)) map.removeLayer(layer);
-        else layer.addTo(map);
+        else {
+          await ensureSpecialLayerBuilt(layer);
+          layer.addTo(map);
+        }
+        syncLayerControlPlaceholders();
         syncLayerPanel();
       }
 
@@ -4176,7 +4185,38 @@
         });
       }
 
-      // Build the native L.control.layers (basemaps + every overlay + Labels).
+      function setLayerControlPlaceholder(key, on) {
+        const placeholder = overlayPlaceholders[key];
+        if (!placeholder || !map) return;
+        syncingLayerControl = true;
+        try {
+          if (on && !map.hasLayer(placeholder)) placeholder.addTo(map);
+          else if (!on && map.hasLayer(placeholder)) map.removeLayer(placeholder);
+        } finally {
+          syncingLayerControl = false;
+        }
+      }
+
+      function syncLayerControlPlaceholders() {
+        if (!layerControl || !map || !lm) return;
+        const active = new Set(lm.activeKeys ? lm.activeKeys() : []);
+        for (const key of Object.keys(overlayPlaceholders)) {
+          const placeholder = overlayPlaceholders[key];
+          if (placeholder._npSpecialKey) {
+            const specialLayer = placeholder._npSpecialKey === "labels" ? labelsLayer : txLabelsLayer;
+            setLayerControlPlaceholder(key, !!(specialLayer && map.hasLayer(specialLayer)));
+          } else {
+            setLayerControlPlaceholder(key, active.has(key));
+          }
+        }
+      }
+
+      async function ensureSpecialLayerBuilt(layer) {
+        if (!layer || !layer._npRebuild || (layer._npLabels && layer._npLabels.built)) return;
+        await layer._npRebuild();
+      }
+
+      // Build the native L.control.layers (basemaps + lazy overlay placeholders).
       async function buildLayerControl() {
         const baseLayerRows = {};
         const baseHelpKeys = {
@@ -4191,22 +4231,27 @@
           })] = layer;
         }
 
-        // Pre-create every overlay so we have stable references for the control.
+        // Use empty placeholders in the native Leaflet control. The real
+        // GeoJSON is built only when a preset, custom panel row, or native
+        // checkbox asks for that layer.
         const overlays = {};
+        overlayPlaceholders = {};
         for (const key of Object.keys(manifest.layers)) {
           const def = manifest.layers[key];
           if (def.interactive === false) continue; // omit non-interactive base shapes (country outline) from the picker
-          await lm.preload(key);
           const group = key.startsWith("hydropower_") ? "hydropower" : null;
-          const cov = lm.coverageFor(key);
-          const showCount = !!cov && cov.total >= 5; // skip counts for small curated lists; overkill
-          overlays[overlayLabelHtml(def, key, { group, count: showCount ? cov : null })] = lm.layers[key];
+          const placeholder = L.layerGroup();
+          placeholder._npLayerKey = key;
+          overlayPlaceholders[key] = placeholder;
+          overlays[overlayLabelHtml(def, key, { group })] = placeholder;
         }
 
         // River + basin labels — Folium-style permanent annotations
         labelsLayer = window.NepalExplorer.buildLabelsOverlay(lm, manifest, manifest.labels_overlay || []);
-        await labelsLayer._npRebuild();
-        overlays[overlayLabelHtml(null, "Labels", { key: "labels", swatch: `<span class="lc-swatch lc-muted">Aa</span>` })] = labelsLayer;
+        const labelsPlaceholder = L.layerGroup();
+        labelsPlaceholder._npSpecialKey = "labels";
+        overlayPlaceholders.__labels = labelsPlaceholder;
+        overlays[overlayLabelHtml(null, "Labels", { key: "labels", swatch: `<span class="lc-swatch lc-muted">Aa</span>` })] = labelsPlaceholder;
 
         // Transmission labels — separate toggle so they don't compete with river labels at low zoom.
         // Labels come only from the public connected network. QA/source layers stay unlabeled.
@@ -4219,8 +4264,10 @@
           },
         }));
         txLabelsLayer = window.NepalExplorer.buildLabelsOverlay(lm, manifest, txSpecs);
-        await txLabelsLayer._npRebuild();
-        overlays[overlayLabelHtml(null, "Transmission labels", { key: "transmission_labels", swatch: `<span class="lc-swatch lc-muted">Aa</span>` })] = txLabelsLayer;
+        const txLabelsPlaceholder = L.layerGroup();
+        txLabelsPlaceholder._npSpecialKey = "transmission_labels";
+        overlayPlaceholders.__transmission_labels = txLabelsPlaceholder;
+        overlays[overlayLabelHtml(null, "Transmission labels", { key: "transmission_labels", swatch: `<span class="lc-swatch lc-muted">Aa</span>` })] = txLabelsPlaceholder;
 
         layerControl = L.control.layers(baseLayerRows, overlays, {
           position: "topright",
@@ -4229,6 +4276,35 @@
           autoZIndex: true,
         }).addTo(map);
         installLayerControlHelp(layerControl.getContainer());
+        map.on("overlayadd", async (e) => {
+          if (syncingLayerControl) return;
+          const key = e.layer && e.layer._npLayerKey;
+          const special = e.layer && e.layer._npSpecialKey;
+          if (key) {
+            await lm.add(key, { manual: true });
+            syncLayerPanel();
+            syncLayerControlPlaceholders();
+          } else if (special) {
+            const layer = special === "labels" ? labelsLayer : txLabelsLayer;
+            await ensureSpecialLayerBuilt(layer);
+            if (layer && !map.hasLayer(layer)) layer.addTo(map);
+            syncLayerPanel();
+            syncLayerControlPlaceholders();
+          }
+        });
+        map.on("overlayremove", (e) => {
+          if (syncingLayerControl) return;
+          const key = e.layer && e.layer._npLayerKey;
+          const special = e.layer && e.layer._npSpecialKey;
+          if (key) {
+            lm.remove(key);
+            syncLayerPanel();
+          } else if (special) {
+            const layer = special === "labels" ? labelsLayer : txLabelsLayer;
+            if (layer && map.hasLayer(layer)) map.removeLayer(layer);
+            syncLayerPanel();
+          }
+        });
 
         // Sync pass: (1) mark each row .lc-on iff its checkbox is checked so the
         // swatch only appears for active layers, and (2) show the size-encoding
@@ -4372,24 +4448,53 @@
       // Init
       // ============================================================
       async function init() {
-        manifest = await loadJSON("shared/layer-manifest.json");
-        bindings = await loadJSON("shared/bindings.json");
-        presetsCfg = await loadJSON("shared/presets.json");
-        tourManifest = await loadJSON("shared/tour-manifest.json");
-        hydropowerSlugAliases = await loadJSON("shared/hydropower-slug-aliases.json");
-        pageIndex = await window.NepalExplorer.buildPageIndex();
+        const [
+          manifestData,
+          bindingsData,
+          presetsData,
+          tourData,
+          aliasesData,
+          pageIndexData,
+          pageMetaData,
+          searchData,
+          factData,
+        ] = await Promise.all([
+          loadJSON("shared/layer-manifest.json"),
+          loadJSON("shared/bindings.json"),
+          loadJSON("shared/presets.json"),
+          loadJSON("shared/tour-manifest.json"),
+          loadJSON("shared/hydropower-slug-aliases.json"),
+          window.NepalExplorer.buildPageIndex(),
+          loadJSON("shared/wiki-page-meta.json"),
+          loadJSON("shared/wiki-search-index.json"),
+          loadJSON("shared/wiki-fact-index.json"),
+        ]);
+        manifest = manifestData;
+        bindings = bindingsData;
+        presetsCfg = presetsData;
+        tourManifest = tourData;
+        hydropowerSlugAliases = aliasesData;
+        pageIndex = pageIndexData;
         spatialSlugs = new Set(Object.keys(bindings.pages || {}));
-        pageMeta = await loadJSON("shared/wiki-page-meta.json");
+        pageMeta = pageMetaData;
         pageMeta.bySlug = Object.fromEntries(pageMeta.pages.map((p) => [p.slug, p]));
-        searchIndex = new window.NepalExplorer.StaticSearchIndex(await loadJSON("shared/wiki-search-index.json"));
-        factIndex = new window.NepalExplorer.StaticFactIndex(await loadJSON("shared/wiki-fact-index.json"), searchIndex);
-        try {
-          vectorBoost = new window.NepalExplorer.VectorSeekBoost(await loadJSON("shared/wiki-vector-index.json"), {
-            onStatus: (s) => showSeekStatus(s.state, s.message),
-          });
-        } catch (err) {
-          vectorBoost = null;
-        }
+        searchIndex = new window.NepalExplorer.StaticSearchIndex(searchData);
+        factIndex = new window.NepalExplorer.StaticFactIndex(factData, searchIndex);
+        vectorBoost = null;
+        const loadVectorBoost = async () => {
+          if (vectorBoost) return;
+          try {
+            vectorBoost = new window.NepalExplorer.VectorSeekBoost(await loadJSON("shared/wiki-vector-index.json"), {
+              onStatus: (s) => showSeekStatus(s.state, s.message),
+            });
+          } catch (err) {
+            vectorBoost = null;
+          }
+        };
+        const scheduleVectorBoost = () => {
+          if ("requestIdleCallback" in window) window.requestIdleCallback(loadVectorBoost, { timeout: 4000 });
+          else setTimeout(loadVectorBoost, 1500);
+        };
 
         setupSplitters();
         setupCompactShell();
@@ -4522,6 +4627,7 @@
 
         window._explorer = { lm, map, baseLayers, openWikiPage, setSearchMode, buildNav, applyPreset, presetsCfg, setCompactView };
         syncLayerPanel();
+        scheduleVectorBoost();
 
         // --- Wiki-page image lightbox -------------------------------------------
         // The wiki renderer embeds a <script type="application/json"> payload with

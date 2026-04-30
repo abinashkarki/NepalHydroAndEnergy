@@ -54,6 +54,7 @@ RIVER_ENDPOINT_SNAP_DEG = 0.12
 RIVER_PARENT_JOIN_DEG = 0.05
 RIVER_PROJECT_SANITY_DEG = 0.15
 RIVER_LINE_JOIN_TOLERANCE_DEG = 0.0025
+COUNTRY_OUTLINE_SIMPLIFY_DEG = 0.005
 MAP_ZOOM = 7
 LABEL_SAMPLE_FRACTIONS = [0.30, 0.40, 0.50, 0.60, 0.70]
 LABEL_OFFSETS = [(0, -12), (0, 12), (12, -10), (-12, -10), (16, 0), (-16, 0), (18, 8), (-18, 8)]
@@ -3070,7 +3071,7 @@ def build_downstream_systems(
 
 def build_country_outline(provinces: dict[str, Any]) -> dict[str, Any]:
     province_shapes = [shape(feature["geometry"]) for feature in provinces["features"]]
-    union = unary_union(province_shapes)
+    union = unary_union(province_shapes).simplify(COUNTRY_OUTLINE_SIMPLIFY_DEG, preserve_topology=True)
     return {"type": "Feature", "properties": {"name": "Nepal"}, "geometry": union.__geo_interface__}
 
 

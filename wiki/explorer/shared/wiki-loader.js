@@ -8,14 +8,14 @@ const PAGE_DIRS = ["sources", "entities", "concepts", "syntheses", "claims", "da
 const PAGE_INDEX_CACHE = { built: false, byCategory: {}, allSlugs: [], slugToCategory: {}, slugToTitle: {} };
 const BACKLINKS_CACHE = { built: false, map: {} };
 
-// Cache-bust JSON fetches so stub regeneration (which rewrites
-// wiki-page-index.json) propagates without requiring a hard reload.
+// Cache-bust JSON fetches with the release token instead of per-page-load
+// timestamps so production browsers can reuse wiki metadata across reloads.
 const _WL_CB = (() => {
   try {
     const m = document.querySelector('meta[name="np-build"]');
     if (m && m.content) return m.content;
   } catch (e) {}
-  return String(Date.now());
+  return "public-launch-5";
 })();
 const loadJSON = (path) => {
   const url = path + (path.includes("?") ? "&" : "?") + "cb=" + _WL_CB;
