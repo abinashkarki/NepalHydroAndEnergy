@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "965a81e1a3f08c44",
+        "id": "b1d92086046930e6",
         "type": "tabs",
         "children": [
           {
-            "id": "3f4b661ef562d298",
+            "id": "4e4b23f014e7c6d8",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -176,13 +176,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "3f4b661ef562d298",
+  "active": "4e4b23f014e7c6d8",
   "lastOpenFiles": [
+    "pages/data/data-map-inventory.md",
+    "pages/concepts/seasonal-mismatch.md",
+    "pages/syntheses/start-here.md",
+    "index.md",
     "pages/entities/arun-3.md",
     "pages/claims/claim-domestic-led-strategy.md",
     "pages/syntheses/master-thesis.md",
     "pages/data/data-pipeline-readme.md",
-    "pages/data/data-map-inventory.md",
     "assets/maps/previews/nepal_geopolitics_river_influence.png",
     "assets/maps/previews/nepal_cross_border_with_projects.png",
     "assets/maps/previews/nepal_cross_border_hydrology.png",
