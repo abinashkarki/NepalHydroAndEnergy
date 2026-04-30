@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Nepal Energy · Wiki & Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="shared/style.css?v=public-launch-3" />
+  <link rel="stylesheet" href="shared/style.css?v=public-launch-4" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="shared/leaflet-init.js?v=public-launch-3"></script>
-  <script src="shared/wiki-loader.js?v=public-launch-3"></script>
-  <script src="shared/wiki-search.js?v=public-launch-3"></script>
-  <script src="shared/wiki-vector-search.js?v=public-launch-3"></script>
+  <script src="shared/leaflet-init.js?v=public-launch-4"></script>
+  <script src="shared/wiki-loader.js?v=public-launch-4"></script>
+  <script src="shared/wiki-search.js?v=public-launch-4"></script>
+  <script src="shared/wiki-vector-search.js?v=public-launch-4"></script>
   <style>
     /* Layout: resizable three-pane grid. */
     .layout {
@@ -758,12 +758,33 @@
     }
 
     .layer-panel:not(.collapsed) .lp-mini {
-      justify-content: space-between;
+      justify-content: flex-start;
       width: 100%;
       font-size: 12px;
       padding: 0 0 6px;
       margin-bottom: 6px;
       border-bottom: 1px solid rgba(203, 213, 225, 0.78);
+    }
+
+    .lp-pin {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      color: #94a3b8;
+      transition: color .15s ease;
+    }
+    .lp-pin svg {
+      width: 14px;
+      height: 14px;
+    }
+    .lp-pin.on {
+      color: #d97706;
+    }
+    .lp-pin:hover {
+      color: #64748b;
     }
 
     .lp-section {
@@ -777,6 +798,64 @@
 
     .lp-section:last-child {
       margin-bottom: 0;
+    }
+
+    /* Collapsible Advanced section */
+    .lp-section .lp-title {
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .lp-section .lp-title::after {
+      content: "";
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 5px solid var(--ink-soft);
+      transition: transform 0.15s ease;
+      opacity: 0.55;
+    }
+
+    .lp-section.collapsed .lp-title::after {
+      transform: rotate(-90deg);
+    }
+
+    .lp-section.collapsed .lp-rows {
+      display: none;
+    }
+
+    .lp-section.collapsed .lp-num {
+      opacity: 0.45;
+    }
+
+    .lp-sticky {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 8px;
+      margin: 0 0 8px;
+      border-bottom: 1px solid rgba(203, 213, 225, 0.78);
+      font-size: 11px;
+      color: var(--ink-soft);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .lp-sticky input {
+      width: 14px;
+      height: 14px;
+      margin: 0;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    .lp-sticky:hover {
+      color: var(--ink);
     }
 
     .lp-presets {
@@ -2437,11 +2516,11 @@
           <button data-mode="search" class="active" title="Find a page by title">Find</button>
           <button data-mode="seek" title="Ask across topics, sources, and related pages">Explore</button>
         </div>
-        <div class="seek-suggestions" id="seek-suggestions" aria-label="Suggested Seek queries">
-          <button type="button" data-query="why does Nepal export in monsoon but import in winter">winter imports</button>
-          <button type="button" data-query="firm power not just megawatts">firm power</button>
-          <button type="button" data-query="India approval risk for power exports">India export risk</button>
-          <button type="button" data-query="storage projects in Karnali">Karnali storage</button>
+        <div class="seek-suggestions" id="seek-suggestions" aria-label="Suggested Explore queries">
+          <button type="button" data-query="how does transmission bottleneck block Nepal hydropower delivery">transmission bottleneck</button>
+          <button type="button" data-query="why does dry season cause winter electricity deficit">dry season deficit</button>
+          <button type="button" data-query="what is the largest storage project in Karnali basin">largest Karnali storage</button>
+          <button type="button" data-query="how can solar hydro complementarity help firm power">solar + hydro</button>
         </div>
       </div>
       <div class="seek-status" id="seek-status" aria-live="polite">
@@ -2951,14 +3030,14 @@
         const nav = document.getElementById("nav");
         nav.className = "nav-list";
         const prompts = [
-          ["Winter deficit", "why does Nepal export in monsoon but import in winter"],
-          ["Firm power vs MW", "why is firm power more important than installed megawatts"],
-          ["Transmission blocker", "why is transmission the immediate blocker"],
-          ["Storage shortlist", "which storage projects matter most for dry season power"],
-          ["Solar complement", "how can solar help Nepal's winter electricity deficit"],
-          ["Export risk", "how do India export approvals shape Nepal hydropower projects"],
-          ["River geopolitics", "how do Nepal's rivers connect downstream to India and Bangladesh"],
-          ["83,000 MW claim", "what does Nepal's 83000 MW hydropower potential mean in practice"],
+          ["Transmission bottleneck", "how does transmission bottleneck block Nepal hydropower delivery"],
+          ["Dry season deficit", "why does dry season cause winter electricity deficit"],
+          ["Largest Karnali storage", "what is the largest storage project in Karnali basin"],
+          ["Solar hydro fit", "how can solar hydro complementarity help firm power"],
+          ["Monsoon export surplus", "what does monsoon surplus mean for electricity export"],
+          ["India cross-border trade", "how does India cross-border electricity trade shape project viability"],
+          ["Sediment in the Koshi", "how does sediment shorten reservoir life in the Koshi"],
+          ["Winter energy security", "why does Nepal need storage for winter energy security"],
         ];
         nav.innerHTML = `<div class="seek-landing">
           <div class="sl-kicker">Explore</div>
@@ -3583,62 +3662,59 @@
           ],
         },
         {
-          id: "water",
-          title: "Water",
+          id: "basics",
+          title: "Basics",
           rows: [
             { key: "basin_polygons", label: "Basin areas", symbol: "poly" },
-            { key: "india_basins", label: "India basins", symbol: "poly-muted" },
             { key: "tributaries", label: "Nepal rivers", symbol: "river" },
-            { key: "downstream_systems", label: "Downstream rivers", symbol: "river-deep" },
-            { key: "ocean_routes", label: "Ocean route", symbol: "river-deep" },
-            { key: "route_callouts", label: "Route notes", symbol: "source" },
-            { key: "dependency_zones", label: "Dependency zones", symbol: "poly-muted" },
-            { key: "population_anchors", label: "Population anchors", symbol: "city" },
-            { key: "hydrology_markers", label: "Flow measurements", symbol: "impact" },
-            { key: "callouts", label: "River influence", symbol: "source" },
             { special: "labels", label: "River name labels", symbol: "text" },
           ],
         },
         {
-          id: "projects",
-          title: "Projects",
+          id: "power",
+          title: "Power Plants",
           rows: [
             { key: "hydropower_operating", label: "Hydro — operating", symbol: "live" },
             { key: "hydropower_construction", label: "Hydro — building", symbol: "build" },
             { key: "hydropower_survey", label: "Hydro — planned", symbol: "pipeline" },
             { key: "priority_watchlist", label: "Priority projects", symbol: "watch" },
-            { key: "storage_shortlist", label: "Storage reservoirs", symbol: "storage" },
-            { key: "future_regulation_scenario", label: "Flow regulation", symbol: "storage" },
-            { key: "top_capacity", label: "Top 10 largest", symbol: "big" },
-          ],
-        },
-        {
-          id: "grid",
-          title: "Grid",
-          rows: [
-            { key: "cross_border_lines", label: "Cross-border lines", symbol: "grid-dotted" },
-            { key: "transmission_corridors", label: "Corridor sketch", symbol: "grid-trace" },
-            { key: "transmission_traced_network", label: "Main network", symbol: "grid-network" },
-            { special: "transmission_labels", label: "Grid line labels", symbol: "text-grid" },
-          ],
-        },
-        {
-          id: "solar",
-          title: "Solar",
-          rows: [
-            { key: "solar_ghi_zones", label: "Solar resource zones", symbol: "solar-poly" },
             { key: "solar_plants", label: "Solar plants", symbol: "solar" },
-            { key: "solar_suitability", label: "Best solar locations", symbol: "solar-band" },
             { key: "floating_pv_candidates", label: "Floating solar", symbol: "floating" },
           ],
         },
         {
-          id: "context",
-          title: "Context",
+          id: "grid",
+          title: "Grid & Trade",
           rows: [
+            { key: "transmission_traced_network", label: "Main network", symbol: "grid-network" },
+            { key: "cross_border_lines", label: "Cross-border lines", symbol: "grid-dotted" },
             { key: "cross_border", label: "International gateways", symbol: "gateway" },
-            { key: "place_anchors", label: "Power hubs & substations", symbol: "substation" },
+            { special: "transmission_labels", label: "Grid line labels", symbol: "text-grid" },
+          ],
+        },
+        {
+          id: "downstream",
+          title: "Downstream Influence",
+          rows: [
+            { key: "downstream_systems", label: "Downstream rivers", symbol: "river-deep" },
+            { key: "ocean_routes", label: "Ocean route", symbol: "river-deep" },
+            { key: "india_basins", label: "India basins", symbol: "poly-muted" },
+            { key: "dependency_zones", label: "Dependency zones", symbol: "poly-muted" },
+            { key: "population_anchors", label: "Population anchors", symbol: "city" },
+            { key: "callouts", label: "River influence", symbol: "source" },
+            { key: "route_callouts", label: "Route notes", symbol: "route" },
+          ],
+        },
+        {
+          id: "advanced",
+          title: "Advanced",
+          rows: [
+            { key: "storage_shortlist", label: "Storage reservoirs", symbol: "storage" },
+            { key: "top_capacity", label: "Top 10 largest", symbol: "big" },
+            { key: "future_regulation_scenario", label: "Flow regulation", symbol: "storage" },
             { key: "basin_seasonality", label: "Wet/dry season flow", symbol: "season" },
+            { key: "place_anchors", label: "Power hubs & substations", symbol: "substation" },
+            { key: "hydrology_markers", label: "Flow measurements", symbol: "impact" },
           ],
         },
       ];
@@ -3663,6 +3739,9 @@
           substation: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l6.5 6.5-6.5 6.5-6.5-6.5z"/><path d="M9 9h6"/><path d="M12 5.5v7"/><path d="M12 13v3"/></svg>`,
           season: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="2.8"/><path d="M12 2v1.2"/><path d="M6 13.5c3-1.5 4 1 5 0s4 1 5 0"/><path d="M7 17c2.5-1.5 3.5 1 5 0s3.5 1 5 0"/></svg>`,
           city: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 20V8.5h5V20"/><path d="M9.5 20V4h6V20"/><path d="M15.5 20v-9h4V20"/><path d="M7 11h.1M7 14h.1M12 7h.1M12 10h.1M12 13h.1M18 14h.1"/></svg>`,
+          source: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5c-3.5 0-6 2.5-6 5.5 0 4.5 6 10 6 10s6-5.5 6-10c0-3-2.5-5.5-6-5.5z"/><circle cx="12" cy="8" r="2"/></svg>`,
+          route: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>`,
+          pin: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3v4h-2l-3 10H9L6 7H4V3h12z"/><path d="M12 17v4"/></svg>`,
           text: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h9"/><path d="M8.5 6v12"/><path d="M5.5 18h6"/><path d="M14 18l3-8 3 8"/><path d="M15.3 15h3.4"/></svg>`,
         };
         return icons[kind] || icons.text;
@@ -3676,6 +3755,7 @@
           "river-deep": `<span class="lp-line" style="--c:#1747d8"></span>`,
           impact: `<span class="lp-dot" style="--fill:#fff;--stroke:#d97706"></span>`,
           source: `<span class="lp-dot" style="--fill:#dc3545;--stroke:#a8212d;width:10px;height:10px"></span>`,
+          route: `<span class="lp-dot" style="--fill:#5eead4;--stroke:#0f766e;width:10px;height:10px;border-radius:50% 50% 50% 0;transform:rotate(-45deg)"></span>`,
           live: `<span class="lp-project-icon live">${svgIcon("live")}</span>`,
           build: `<span class="lp-project-icon build">${svgIcon("build")}</span>`,
           pipeline: `<span class="lp-project-icon pipeline">${svgIcon("pipeline")}</span>`,
@@ -3745,7 +3825,9 @@
         panel.classList.toggle("collapsed", isCollapsed);
         panel.innerHTML = `
     <button class="lp-mini" type="button" data-lp-toggle>
-      <span class="lp-sliders">${svgIcon("text")}</span>
+      <span class="lp-pin" title="Pin panel open">
+        ${svgIcon("pin")}
+      </span>
       <span>Layers</span>
     </button>
     <div class="lp-body">
@@ -3761,15 +3843,16 @@
         </summary>
         <div class="lp-preset-options" id="layer-preset-options" aria-label="Map presets"></div>
       </details>
-      ${LAYER_PANEL_SECTIONS.map((section, idx) => `
-        <section class="lp-section" data-section="${escapeAttr(section.id)}">
+      ${LAYER_PANEL_SECTIONS.map((section, idx) => {
+        const isAdvanced = section.id === "advanced";
+        return `<section class="lp-section ${isAdvanced ? "collapsed" : ""}" data-section="${escapeAttr(section.id)}" data-collapsible="${isAdvanced ? "1" : "0"}">
           <div class="lp-num">${idx + 1}</div>
           <div>
             <div class="lp-title">${escapeHtml(section.title)}</div>
             <div class="lp-rows">${section.rows.map(layerPanelRowHtml).join("")}</div>
           </div>
-        </section>
-      `).join("")}
+        </section>`;
+      }).join("")}
     </div>
   `;
         panel.querySelectorAll("[data-base]").forEach((btn) => {
@@ -3791,6 +3874,29 @@
             localStorage.setItem("explorer.layerPanelCollapsed", "1");
           }
         });
+
+        // Collapsible section toggle
+        panel.querySelectorAll('.lp-section[data-collapsible="1"]').forEach((section) => {
+          const title = section.querySelector('.lp-title');
+          if (title) {
+            title.addEventListener('click', () => {
+              section.classList.toggle('collapsed');
+            });
+          }
+        });
+
+        // Pin panel toggle
+        const pinBtn = panel.querySelector('.lp-pin');
+        if (pinBtn) {
+          const savedPin = localStorage.getItem('explorer.panelPinned') === '1';
+          pinBtn.classList.toggle('on', savedPin);
+          pinBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const on = !pinBtn.classList.contains('on');
+            localStorage.setItem('explorer.panelPinned', on ? '1' : '0');
+            pinBtn.classList.toggle('on', on);
+          });
+        }
       }
 
       function syncLayerPanel() {
@@ -4384,7 +4490,8 @@
         buildLayerPanel();
         document.addEventListener("mousedown", (e) => {
           const panel = document.getElementById("layer-panel");
-          if (panel && !panel.classList.contains("collapsed") && !panel.contains(e.target)) {
+          const pinned = localStorage.getItem("explorer.panelPinned") === "1";
+          if (!pinned && panel && !panel.classList.contains("collapsed") && !panel.contains(e.target)) {
             panel.classList.add("collapsed");
             localStorage.setItem("explorer.layerPanelCollapsed", "1");
           }
