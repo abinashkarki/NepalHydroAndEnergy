@@ -98,7 +98,3 @@ python scripts/build_research_figures.py
 - Map layers are research visualizations, not hydrological or engineering-grade models.
 - Several raw PDFs and large GIS bundles are ignored to keep the repository reviewable; derived artifacts and source notes remain tracked.
 - A few external endpoints are unstable or protected, so not every raw download can be re-fetched reliably.
-
-## Portfolio Note
-
-This repo demonstrates end-to-end research engineering: source ingestion, PDF/image extraction, data normalization, geospatial layer construction, interactive map UX, linked knowledge-base design, and evidence-backed energy-system analysis.

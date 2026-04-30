@@ -32,10 +32,10 @@
         "fillColor": "#3b82f6"
       },
       "popup_fields": [
-        {"field": "upstream_area_km2", "label": "Upstream area"},
-        {"field": "nepal_share_pct", "label": "Nepal's share"},
-        {"field": "monsoon_share_pct", "label": "Monsoon share"},
-        {"field": "annual_discharge_m3s", "label": "Annual flow"}
+        {"field": "upstream_area_km2", "label": "Upstream area", "suffix": " km²"},
+        {"field": "nepal_share_pct", "label": "Nepal's share", "suffix": " %"},
+        {"field": "monsoon_share_pct", "label": "Monsoon share", "suffix": " %"},
+        {"field": "annual_discharge_m3s", "label": "Annual flow", "suffix": " m³/s"}
       ],
       "tooltip_fields": [
         "name",
@@ -78,10 +78,10 @@
         "dashArray": "4,3"
       },
       "popup_fields": [
-        {"field": "upstream_area_km2", "label": "Upstream area"},
-        {"field": "nepal_share_pct", "label": "Nepal's share"},
-        {"field": "monsoon_share_pct", "label": "Monsoon share"},
-        {"field": "annual_discharge_m3s", "label": "Annual flow"}
+        {"field": "upstream_area_km2", "label": "Upstream area", "suffix": " km²"},
+        {"field": "nepal_share_pct", "label": "Nepal's share", "suffix": " %"},
+        {"field": "monsoon_share_pct", "label": "Monsoon share", "suffix": " %"},
+        {"field": "annual_discharge_m3s", "label": "Annual flow", "suffix": " m³/s"}
       ],
       "tooltip_fields": [
         "name",
@@ -106,7 +106,7 @@
       },
       "popup_fields": [
         "basin",
-        {"field": "wecs_mw", "label": "Hydropower potential"},
+        {"field": "wecs_mw", "label": "Hydropower potential", "suffix": " MW"},
         {"field": "note", "label": "Notes"}
       ],
       "tooltip_fields": [
@@ -134,8 +134,8 @@
       "popup_fields": [
         "downstream_name",
         "basin",
-        {"field": "annual_discharge_m3s", "label": "Annual flow"},
-        {"field": "annual_runoff_bcm", "label": "Annual runoff"},
+        {"field": "annual_discharge_m3s", "label": "Annual flow", "suffix": " m³/s"},
+        {"field": "annual_runoff_bcm", "label": "Annual runoff", "suffix": " BCM"},
         {"field": "impact_note", "label": "Downstream impact"}
       ],
       "tooltip_fields": [
@@ -166,8 +166,8 @@
         {"field": "merge_system", "label": "River path"},
         "ocean_endpoint",
         {"field": "route_confidence", "label": "Route certainty"},
-        {"field": "snap_distance_km", "label": "Route accuracy"},
-        "route_length_km",
+        {"field": "snap_distance_km", "label": "Route accuracy", "suffix": " km"},
+        {"field": "route_length_km", "label": "Route length", "suffix": " km"},
         {"field": "impact_note", "label": "Downstream impact"}
       ],
       "tooltip_fields": [
@@ -319,9 +319,9 @@
       },
       "popup_fields": [
         "basin",
-        {"field": "annual_discharge_m3s", "label": "Annual flow"},
-        {"field": "annual_runoff_bcm", "label": "Annual runoff"},
-        {"field": "monsoon_share_pct", "label": "Monsoon share"},
+        {"field": "annual_discharge_m3s", "label": "Annual flow", "suffix": " m³/s"},
+        {"field": "annual_runoff_bcm", "label": "Annual runoff", "suffix": " BCM"},
+        {"field": "monsoon_share_pct", "label": "Monsoon share", "suffix": " %"},
         {"field": "impact_note", "label": "Downstream impact"}
       ],
       "tooltip_fields": [
@@ -350,8 +350,8 @@
       "popup_fields": [
         "basin",
         {"field": "control_class", "label": "Water control"},
-        {"field": "nepal_share_pct", "label": "Nepal's share"},
-        {"field": "monsoon_share_pct", "label": "Monsoon share"},
+        {"field": "nepal_share_pct", "label": "Nepal's share", "suffix": " %"},
+        {"field": "monsoon_share_pct", "label": "Monsoon share", "suffix": " %"},
         "downstream_name"
       ],
       "tooltip_fields": [
@@ -390,7 +390,7 @@
       },
       "popup_fields": [
         {"field": "license_type", "label": "Status"},
-        {"field": "capacity_mw", "label": "Capacity"},
+        {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         "river",
         "district",
         "province"
@@ -451,7 +451,7 @@
       },
       "popup_fields": [
         {"field": "license_type", "label": "Status"},
-        {"field": "capacity_mw", "label": "Capacity"},
+        {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         "river",
         "district",
         "province"
@@ -512,7 +512,7 @@
       },
       "popup_fields": [
         {"field": "license_type", "label": "Status"},
-        {"field": "capacity_mw", "label": "Capacity"},
+        {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         "river",
         "district",
         "province"
@@ -609,10 +609,10 @@
       "popup_fields": [
         "category",
         "basin",
-        {"field": "installed_mw", "label": "Installed capacity"},
-        {"field": "annual_energy_gwh", "label": "Annual energy"},
-        {"field": "dry_energy_gwh", "label": "Dry-season energy"},
-        {"field": "dry_share_pct", "label": "Dry-season share"}
+        {"field": "installed_mw", "label": "Installed capacity", "suffix": " MW"},
+        {"field": "annual_energy_gwh", "label": "Annual energy", "suffix": " GWh"},
+        {"field": "dry_energy_gwh", "label": "Dry-season energy", "suffix": " GWh"},
+        {"field": "dry_share_pct", "label": "Dry-season share", "suffix": " %"}
       ],
       "tooltip_fields": [
         "label_title",
@@ -821,7 +821,7 @@
         "opacity": 0.85
       },
       "popup_fields": [
-        {"field": "voltage_kv", "label": "Voltage"},
+        {"field": "voltage_kv", "label": "Voltage", "suffix": " kV"},
         "status",
         "category",
         "importance"
@@ -891,13 +891,13 @@
       },
       "popup_fields": [
         "segment_name",
-        {"field": "voltage_kv", "label": "Voltage"},
+        {"field": "voltage_kv", "label": "Voltage", "suffix": " kV"},
         "status",
         {"field": "geometry_role", "label": "Line source"},
         {"field": "trace_confidence", "label": "Certainty"},
         "source_id",
         {"field": "source_page_or_sheet", "label": "Source reference"},
-        "length_km",
+        {"field": "length_km", "label": "Length", "suffix": " km"},
         "notes"
       ],
       "tooltip_fields": [
@@ -982,7 +982,7 @@
         "fillOpacity": 0.85
       },
       "popup_fields": [
-        {"field": "voltage_kv", "label": "Voltage"},
+        {"field": "voltage_kv", "label": "Voltage", "suffix": " kV"},
         "status",
         "nepal_node",
         "india_node",
@@ -1057,13 +1057,13 @@
         }
       },
       "popup_fields": [
-        {"field": "voltage_kv", "label": "Voltage"},
+        {"field": "voltage_kv", "label": "Voltage", "suffix": " kV"},
         "status",
         {"field": "connection_scope", "label": "Connection type"},
         {"field": "geometry_role", "label": "Line source"},
         {"field": "trace_confidence", "label": "Certainty"},
         "source_id",
-        "length_km",
+        {"field": "length_km", "label": "Length", "suffix": " km"},
         "notes"
       ],
       "tooltip_fields": [
@@ -1163,9 +1163,9 @@
       },
       "popup_fields": [
         "status",
-        "capacity_mw",
+        {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         "district",
-        {"field": "tariff_npr_kwh", "label": "Tariff"},
+        {"field": "tariff_npr_kwh", "label": "Tariff", "suffix": " NPR/kWh"},
         "precision_label",
         "location_basis"
       ],
@@ -1265,7 +1265,7 @@
       },
       "popup_fields": [
         "candidate_status",
-        {"field": "capacity_band_mw", "label": "Capacity band"},
+        {"field": "capacity_band_mw", "label": "Capacity band", "suffix": " MW"},
         "confidence",
         "precision_label",
         "source_note"

@@ -171,8 +171,9 @@ function popupHTML(props, popupFields, opts = {}) {
     const label = typeof f === "string" ? humanizeField(f) : (f.label || humanizeField(f.field));
     let v = props[field];
     if (v === undefined || v === null || v === "") return "";
-    if (typeof f !== "string" && f.value_map && f.value_map[v] !== undefined) {
-      v = f.value_map[v];
+    if (typeof f !== "string") {
+      if (f.value_map && f.value_map[v] !== undefined) v = f.value_map[v];
+      if (f.suffix) v = String(v) + f.suffix;
     }
     return `<div class="popup-row"><b>${label}:</b> ${v}</div>`;
   }).join("");
@@ -206,8 +207,9 @@ function tooltipHTML(props, tooltipFields) {
       const label = typeof f === "string" ? humanizeField(f) : (f.label || humanizeField(f.field));
       let v = props[field];
       if (v === undefined || v === null || v === "") return null;
-      if (typeof f !== "string" && f.value_map && f.value_map[v] !== undefined) {
-        v = f.value_map[v];
+      if (typeof f !== "string") {
+        if (f.value_map && f.value_map[v] !== undefined) v = f.value_map[v];
+        if (f.suffix) v = String(v) + f.suffix;
       }
       return `<tr><th>${escapeHtml(label)}</th><td>${escapeHtml(String(v))}</td></tr>`;
     })
