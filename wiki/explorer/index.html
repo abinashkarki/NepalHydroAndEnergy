@@ -2448,6 +2448,20 @@
         font-size: 15.5px;
       }
 
+      .page-back {
+        display: block;
+        font-family: var(--sans);
+        font-size: 13px;
+        color: var(--accent);
+        text-decoration: none;
+        padding: 0 0 12px;
+        margin-bottom: 14px;
+        border-bottom: 1px solid var(--rule);
+      }
+      .page-back:hover {
+        color: var(--ink);
+      }
+
       .markdown h1 {
         font-size: 25px;
         line-height: 1.15;
@@ -2633,6 +2647,7 @@
       let syncingLayerControl = false;
       let currentSlug = null;
       let currentFactId = null;
+      let pageHistory = [];
       let currentPreset = null;
       let currentBaseLayer = "Carto Positron";
       let layerFeatureCounts = {};
@@ -3489,8 +3504,27 @@
           // state so the user doesn't lose their place.
           return;
         }
+        const prevSlug = currentSlug;
         currentSlug = slug;
         currentFactId = null;
+
+        // Breadcrumb history
+        if (prevSlug && prevSlug !== slug) {
+          const histIdx = pageHistory.findIndex(p => p.slug === slug);
+          if (histIdx >= 0) {
+            pageHistory = pageHistory.slice(0, histIdx);
+          } else {
+            const idx = await window.NepalExplorer.buildPageIndex();
+            const title = idx.slugToTitle[prevSlug] || prevSlug;
+            pageHistory.push({ slug: prevSlug, title });
+          }
+        }
+        // Prepend breadcrumb
+        if (pageHistory.length) {
+          const prev = pageHistory[pageHistory.length - 1];
+          page.innerHTML = `<a class="page-back" href="javascript:void(0)" onclick="window._breadcrumbBack && window._breadcrumbBack()">← ${escapeHtml(prev.title)}</a>` + page.innerHTML;
+        }
+
         setActiveNav(slug);
         if (isCompactLayout()) setCompactView("readmap");
         // If a feature popup is currently open, refresh it so its CTA reflects the
@@ -3569,6 +3603,12 @@
         }, 250);
 
         syncUrl();
+      };
+
+      window._breadcrumbBack = function () {
+        if (!pageHistory.length) return;
+        const prev = pageHistory.pop();
+        window.openWikiPage(prev.slug);
       };
 
       window.openFactDetail = async function (factId, opts = {}) {
