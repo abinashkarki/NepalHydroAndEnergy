@@ -38,6 +38,11 @@ function resolveLayerStyle(layerDef, preset, basemap, zoom, key) {
     if (key === "hydropower_survey" && (role === "secondary" || role === "context")) {
       effectiveRole = "off";
     }
+    // Keep grid infrastructure out of the national overview until operating
+    // hydro has expanded beyond its top-10 density guard.
+    if (key === "transmission_traced_network" || key === "cross_border_lines" || key === "place_anchors") {
+      effectiveRole = "off";
+    }
   }
   // Construction projects: keep OFF longer (2 extra zoom levels) so they only
   // appear when there's enough space and clearance.
@@ -700,16 +705,17 @@ class LayerManager {
     // Warm Technical / Living Atlas — point-layer icon family (Phase 3)
     // All: 24×24 viewBox, single-stroke, fill="none", round caps+joins.
     const byKey = {
-      live:      `<path d="M12.5 2.5 6 10h4L7 20l6.5-9.5h-3.5L12.5 2.5z"/><path d="M4 21c2.5-1 4.5 1 6.5 0s4 1 6.5 0"/>`,
-      build:     `<path d="M12 20V5"/><path d="M6 6h12"/><path d="M18 6V3.5"/>`,
+      live:      `<path d="M10.8 2.8 8.2 7h2.1L8.6 12l4.6-6.3h-2.1l1.7-2.9"/><path d="M5.5 10.2v5.2l2.2-1.1 2.1 1.1 2.2-1.1 2.2 1.1 2.1-1.1 2.2 1.1v-5.2"/><path d="M7 10.2h10"/><path d="M4.5 18.5c2.2-1 3.7 1 5.5 0s3.7 1 5.5 0 3.3 1 5 0"/>`,
+      build:     `<path d="M5 18.5h14"/><path d="M6 18.5V9.2l3.3-1.6v10.9"/><path d="M9.3 12.2 14 14.1v4.4"/><path d="M14 14.1l4-1.6v6"/><path d="M6.2 8.9l2.9-1.4"/><path d="M4.2 18.5h15.6"/>`,
       pipeline:  `<path d="M5.5 3.5h8l5 5V20.5H5.5z"/><path d="M13.5 3.5v5h5"/><path d="M9 12.5l2.5-1.5 2.5 1.5"/><path d="M9 15.5c2-.5 3.5.8 5 0"/>`,
-      watch:     `<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="2.8"/>`,
-      storage:   `<path d="M4 6.5h16v3H4z"/><path d="M7 9.5l5 8 5-8z"/>`,
+      survey:    `<circle cx="10.5" cy="10.5" r="6.3"/><path d="m15.2 15.2 4.3 4.3"/><path d="M7.5 12.5h6"/><path d="M8.1 12.5 8.7 8h3.6l.6 4.5"/><path d="M8.2 14.6c1-.5 1.7.5 2.6 0s1.7.5 2.7 0"/>`,
+      watch:     `<path d="M4.5 8V5.5H7"/><path d="M17 5.5h2.5V8"/><path d="M19.5 16v2.5H17"/><path d="M7 18.5H4.5V16"/><path d="M6.8 12s2-4 5.2-4 5.2 4 5.2 4-2 4-5.2 4-5.2-4-5.2-4z"/><circle cx="12" cy="12" r="2.1"/>`,
+      storage:   `<path d="M5 7.5v9.2c0 1.2 1 2.1 2.2 2.1h9.6c1.2 0 2.2-.9 2.2-2.1V7.5"/><path d="M5 7.5h3l1 3h6l1-3h3"/><path d="M8.2 13c1.3-.8 2.2.8 3.7 0 1.3-.8 2.2.8 3.9 0"/><path d="M8.2 16c1.3-.8 2.2.8 3.7 0 1.3-.8 2.2.8 3.9 0"/>`,
       big:       `<path d="M12 2.5l2.8 5.6 6.2.8-4.5 4.3 1 6.3-5.5-2.8-5.5 2.8 1-6.3-4.5-4.3 6.2-.8z"/><circle cx="12" cy="12" r="1.2"/>`,
       solar:     `<path d="M6 5h10v8.5H6z"/><path d="M8 7.5h6M8 10h6"/><circle cx="18.5" cy="6" r="2.2"/>`,
       floating:  `<path d="M7 4.5h11v7H7z"/><path d="M8.5 6.5h8M8.5 8.5h8"/><path d="M4 14c2.5-1.5 4 .8 6 0s4 .8 6 0 4 .8 6 0"/><path d="M4 17c2.5-1.5 4 .8 6 0s4 .8 6 0 4 .8 6 0"/>`,
       gateway:   `<circle cx="4" cy="12" r="2.2"/><path d="M6.2 12h5"/><path d="M11.2 10l3 2-3 2"/><path d="M14.2 12h4"/><circle cx="20" cy="12" r="2.2"/>`,
-      substation:`<path d="M12 2.5l6.5 6.5-6.5 6.5-6.5-6.5z"/><path d="M9 9h6"/><path d="M12 5.5v7"/><path d="M12 13v3"/>`,
+      substation:`<path d="M4 8h16"/><path d="M6.5 8v7"/><path d="M12 8v7"/><path d="M17.5 8v7"/><circle cx="6.5" cy="17" r="1.3"/><circle cx="12" cy="17" r="1.3"/><circle cx="17.5" cy="17" r="1.3"/>`,
       impact:    `<circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="4"/>`,
       source:    `<path d="M12 2.5l5.5 4-5.5 4-5.5-4z"/><path d="M12 6.5v4"/><circle cx="12" cy="11.5" r="1.5"/>`,
       season:    `<circle cx="12" cy="6" r="2.8"/><path d="M12 2v1.2"/><path d="M6 13.5c3-1.5 4 1 5 0s4 1 5 0"/><path d="M7 17c2.5-1.5 3.5 1 5 0s3.5 1 5 0"/>`,
@@ -744,8 +750,14 @@ class LayerManager {
       if (!layer) continue;
       const def = this.manifest.layers[key];
       if (!def) continue;
-      let { role, roleStyle } = resolveLayerStyle(def, this._preset, this._basemap, this.map.getZoom(), key);
-      if (!roleStyle.visible && this._manualSet.has(key)) {
+      const zoom = this.map.getZoom();
+      const zoomLockedGrid = zoom < 7 && (
+        key === "transmission_traced_network" ||
+        key === "cross_border_lines" ||
+        key === "place_anchors"
+      );
+      let { role, roleStyle } = resolveLayerStyle(def, this._preset, this._basemap, zoom, key);
+      if (!roleStyle.visible && this._manualSet.has(key) && !zoomLockedGrid) {
         role = "primary";
         roleStyle = ROLE_STYLES.primary;
       }
@@ -785,11 +797,11 @@ class LayerManager {
       } catch (e) {}
       // Gradual reveal: construction projects show top-quartile only at zoom 9–10
       if (key === "hydropower_construction" && this._preset === "power_system" && def.kind === "point" && !this._manualSet.has(key)) {
-        this._applyConstructionFilter(layer, this.map.getZoom());
+        this._applyConstructionFilter(layer, zoom);
       }
       // National zoom density guard: operating plants show top-10 only at zoom <= 6
       if (key === "hydropower_operating" && this._preset === "power_system" && def.kind === "point" && !this._manualSet.has(key)) {
-        this._applyOperatingFilter(layer, this.map.getZoom());
+        this._applyOperatingFilter(layer, zoom);
       }
     }
     this.normalizeZOrder();

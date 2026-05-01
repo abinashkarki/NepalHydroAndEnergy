@@ -29,6 +29,7 @@
       position: relative;
       border-left: 1px solid var(--rule);
       border-right: 1px solid var(--rule);
+      touch-action: none;
       transition: background 0.15s ease;
     }
 
@@ -59,6 +60,10 @@
     body.resizing {
       cursor: col-resize !important;
       user-select: none;
+    }
+
+    body.resizing-vertical {
+      cursor: row-resize !important;
     }
 
     body.resizing iframe,
@@ -771,21 +776,30 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 20px;
-      height: 20px;
+      width: 26px;
+      height: 24px;
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      border-radius: 7px;
+      background: rgba(248, 250, 252, 0.9);
       cursor: pointer;
-      color: #94a3b8;
-      transition: color .15s ease;
+      color: #475569;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+      transition: background .15s ease, border-color .15s ease, color .15s ease, box-shadow .15s ease;
     }
     .lp-pin svg {
-      width: 14px;
-      height: 14px;
+      width: 15px;
+      height: 15px;
     }
     .lp-pin.on {
-      color: #d97706;
+      color: #0f766e;
+      background: #ccfbf1;
+      border-color: #0f766e;
+      box-shadow: 0 0 0 2px rgba(15, 118, 110, 0.18);
     }
     .lp-pin:hover {
-      color: #64748b;
+      color: #0f172a;
+      border-color: #64748b;
+      background: #fff;
     }
 
     .lp-section {
@@ -2313,7 +2327,7 @@
 
       .compact-tabs {
         display: grid;
-        grid-template-columns: repeat(3, 78px);
+        grid-template-columns: 78px minmax(112px, 132px);
         gap: 4px;
         width: auto;
         margin-left: auto;
@@ -2358,6 +2372,7 @@
       .layout {
         display: grid;
         grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: minmax(0, 1fr);
         height: calc(100dvh - var(--app-bar-height, 88px));
         min-height: 0;
         overflow: hidden;
@@ -2377,10 +2392,50 @@
         border: 0;
       }
 
-      .layout[data-compact-view="find"] .pane.left,
-      .layout[data-compact-view="read"] .pane.center,
-      .layout[data-compact-view="map"] .pane.right {
+      .layout[data-compact-view="find"] .pane.left {
         display: block;
+      }
+
+      .layout[data-compact-view="readmap"] {
+        grid-template-rows:
+          minmax(180px, var(--compact-reader-height, 58%))
+          9px
+          minmax(150px, 1fr);
+      }
+
+      .layout[data-compact-view="readmap"] .pane.center,
+      .layout[data-compact-view="readmap"] .pane.right {
+        display: block;
+      }
+
+      .layout[data-compact-view="readmap"] .pane.center {
+        grid-row: 1;
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .layout[data-compact-view="readmap"] #split-2 {
+        display: block;
+        grid-row: 2;
+        height: 9px;
+        border: 0;
+        border-top: 1px solid var(--rule);
+        border-bottom: 1px solid var(--rule);
+        cursor: row-resize;
+      }
+
+      .layout[data-compact-view="readmap"] #split-2::before {
+        width: 34px;
+        height: 2px;
+      }
+
+      .layout[data-compact-view="readmap"] #split-2:hover::before,
+      .layout[data-compact-view="readmap"] #split-2.dragging::before {
+        width: 56px;
+        height: 2px;
+      }
+
+      .layout[data-compact-view="readmap"] .pane.right {
+        grid-row: 3;
       }
 
       .pane.right {
@@ -2493,8 +2548,7 @@
     <span class="crumb" id="now-page" style="margin-left: 10px">no page selected</span>
     <div class="compact-tabs" id="compact-tabs" role="group" aria-label="Compact wiki views">
       <button type="button" data-view="find">Find</button>
-      <button type="button" data-view="read">Read</button>
-      <button type="button" data-view="map">Map</button>
+      <button type="button" data-view="readmap">Read + Map</button>
     </div>
   </div>
 
@@ -2782,7 +2836,8 @@
       }
 
       function setCompactView(view, opts = {}) {
-        if (!["find", "read", "map"].includes(view)) view = "find";
+        if (view === "read" || view === "map") view = "readmap";
+        if (!["find", "readmap"].includes(view)) view = "find";
         compactView = view;
         const layout = document.getElementById("layout");
         if (layout) layout.dataset.compactView = view;
@@ -2793,15 +2848,16 @@
         });
         if (opts.persist !== false) localStorage.setItem("explorer.compactView", view);
         updateAppBarHeight();
-        if (view === "map" && map) {
+        if (view === "readmap" && map) {
           setTimeout(() => map.invalidateSize(), 80);
         }
       }
 
       function initialCompactView(url) {
-        if (url && url.page) return "read";
+        if (url && url.page) return "readmap";
         const saved = localStorage.getItem("explorer.compactView");
-        return ["find", "read", "map"].includes(saved) ? saved : "find";
+        if (saved === "read" || saved === "map") return "readmap";
+        return ["find", "readmap"].includes(saved) ? saved : "find";
       }
 
       function setupCompactShell() {
@@ -2811,7 +2867,7 @@
         const onViewportChange = () => {
           updateAppBarHeight();
           if (isCompactLayout()) {
-            setCompactView(compactView || (currentSlug ? "read" : "find"), { persist: false });
+            setCompactView(compactView || (currentSlug ? "readmap" : "find"), { persist: false });
           } else if (map) {
             setTimeout(() => map.invalidateSize(), 80);
           }
@@ -2829,22 +2885,48 @@
         const layout = document.getElementById("layout");
         const savedLeft = localStorage.getItem("explorer.colLeft") || "260px";
         const savedRight = localStorage.getItem("explorer.colRight") || "460px";
+        const savedCompactReader = localStorage.getItem("explorer.compactReaderHeight") || "58%";
         layout.style.setProperty("--col-left", savedLeft);
         layout.style.setProperty("--col-right", savedRight);
+        layout.style.setProperty("--compact-reader-height", savedCompactReader);
+
+        function compactReaderHeightPx(value, totalHeight) {
+          const raw = String(value || "").trim();
+          if (raw.endsWith("%")) {
+            const pct = parseFloat(raw);
+            return Number.isFinite(pct) ? totalHeight * pct / 100 : totalHeight * 0.58;
+          }
+          const px = parseFloat(raw);
+          return Number.isFinite(px) ? px : totalHeight * 0.58;
+        }
 
         function startDrag(splitter, kind) {
-          splitter.addEventListener("mousedown", (e) => {
+          if (!splitter) return;
+          splitter.addEventListener("pointerdown", (e) => {
             e.preventDefault();
             splitter.classList.add("dragging");
             document.body.classList.add("resizing");
+            if (isCompactLayout() && kind === "right") document.body.classList.add("resizing-vertical");
             const startX = e.clientX;
+            const startY = e.clientY;
             const layoutRect = layout.getBoundingClientRect();
             const startLeft = parseInt(getComputedStyle(layout).getPropertyValue("--col-left"));
             const startRight = parseInt(getComputedStyle(layout).getPropertyValue("--col-right"));
+            const startCompactReader = compactReaderHeightPx(getComputedStyle(layout).getPropertyValue("--compact-reader-height"), layoutRect.height);
+            if (splitter.setPointerCapture && e.pointerId != null) {
+              try { splitter.setPointerCapture(e.pointerId); } catch (_) {}
+            }
 
             function onMove(ev) {
               const dx = ev.clientX - startX;
-              if (kind === "left") {
+              const dy = ev.clientY - startY;
+              if (isCompactLayout() && kind === "right") {
+                const minReader = Math.min(220, Math.max(150, layoutRect.height * 0.32));
+                const minMap = Math.min(240, Math.max(150, layoutRect.height * 0.30));
+                const maxReader = Math.max(minReader, layoutRect.height - minMap - 9);
+                const h = Math.max(minReader, Math.min(maxReader, startCompactReader + dy));
+                layout.style.setProperty("--compact-reader-height", h + "px");
+              } else if (kind === "left") {
                 const w = Math.max(180, Math.min(layoutRect.width - 400, startLeft + dx));
                 layout.style.setProperty("--col-left", w + "px");
               } else {
@@ -2854,16 +2936,20 @@
               if (map) map.invalidateSize();
             }
             function onUp() {
-              document.removeEventListener("mousemove", onMove);
-              document.removeEventListener("mouseup", onUp);
+              document.removeEventListener("pointermove", onMove);
+              document.removeEventListener("pointerup", onUp);
+              document.removeEventListener("pointercancel", onUp);
               splitter.classList.remove("dragging");
               document.body.classList.remove("resizing");
+              document.body.classList.remove("resizing-vertical");
               localStorage.setItem("explorer.colLeft", getComputedStyle(layout).getPropertyValue("--col-left").trim());
               localStorage.setItem("explorer.colRight", getComputedStyle(layout).getPropertyValue("--col-right").trim());
+              localStorage.setItem("explorer.compactReaderHeight", getComputedStyle(layout).getPropertyValue("--compact-reader-height").trim());
               if (map) map.invalidateSize();
             }
-            document.addEventListener("mousemove", onMove);
-            document.addEventListener("mouseup", onUp);
+            document.addEventListener("pointermove", onMove);
+            document.addEventListener("pointerup", onUp);
+            document.addEventListener("pointercancel", onUp);
           });
         }
         startDrag(document.getElementById("split-1"), "left");
@@ -3406,7 +3492,7 @@
         currentSlug = slug;
         currentFactId = null;
         setActiveNav(slug);
-        if (isCompactLayout()) setCompactView("read");
+        if (isCompactLayout()) setCompactView("readmap");
         // If a feature popup is currently open, refresh it so its CTA reflects the
         // new current page (e.g., the just-opened slug becomes "Already open").
         if (map) {
@@ -3494,7 +3580,7 @@
         document.getElementById("now-page").textContent = "project record";
         const page = document.getElementById("page");
         page.innerHTML = renderFactDetail(fact);
-        if (isCompactLayout()) setCompactView("read");
+        if (isCompactLayout()) setCompactView("readmap");
 
         const ref = fact.feature_ref || {};
         if (ref.layer && !lm.has(ref.layer)) await lm.add(ref.layer);
@@ -3666,8 +3752,8 @@
           title: "Power Plants",
           rows: [
             { key: "hydropower_operating", label: "Hydro — operating", symbol: "live" },
-            { key: "hydropower_construction", label: "Hydro — building", symbol: "build" },
-            { key: "hydropower_survey", label: "Hydro — planned", symbol: "pipeline" },
+            { key: "hydropower_construction", label: "Hydro — under construction", symbol: "build" },
+            { key: "hydropower_survey", label: "Hydro — surveyed sites", symbol: "survey" },
             { key: "priority_watchlist", label: "Priority projects", symbol: "watch" },
             { key: "solar_plants", label: "Solar plants", symbol: "solar" },
             { key: "floating_pv_candidates", label: "Floating solar", symbol: "floating" },
@@ -3718,21 +3804,22 @@
           sun: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.2M12 19.8V22M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2 12h2.2M19.8 12H22M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"/></svg>`,
           terrain: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 18 6.2-8 4.3 5.2 2.2-3.2L21 18H3z"/><path d="m9.2 10 2.1 2.4"/></svg>`,
           satellite: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 13 4 4"/><path d="m13.5 4.5 6 6"/><path d="m4 16 4-4 4 4-4 4z"/><path d="m12 8 4-4 4 4-4 4z"/></svg>`,
-          live: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.5 2.5 6 10h4L7 20l6.5-9.5h-3.5L12.5 2.5z"/><path d="M4 21c2.5-1 4.5 1 6.5 0s4 1 6.5 0"/></svg>`,
-          build: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V5"/><path d="M6 6h12"/><path d="M18 6V3.5"/></svg>`,
+          live: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.8 2.8 8.2 7h2.1L8.6 12l4.6-6.3h-2.1l1.7-2.9"/><path d="M5.5 10.2v5.2l2.2-1.1 2.1 1.1 2.2-1.1 2.2 1.1 2.1-1.1 2.2 1.1v-5.2"/><path d="M7 10.2h10"/><path d="M4.5 18.5c2.2-1 3.7 1 5.5 0s3.7 1 5.5 0 3.3 1 5 0"/></svg>`,
+          build: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 18.5h14"/><path d="M6 18.5V9.2l3.3-1.6v10.9"/><path d="M9.3 12.2 14 14.1v4.4"/><path d="M14 14.1l4-1.6v6"/><path d="M6.2 8.9l2.9-1.4"/><path d="M4.2 18.5h15.6"/></svg>`,
           pipeline: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 3.5h8l5 5V20.5H5.5z"/><path d="M13.5 3.5v5h5"/><path d="M9 12.5l2.5-1.5 2.5 1.5"/><path d="M9 15.5c2-.5 3.5.8 5 0"/></svg>`,
-          watch: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="2.8"/></svg>`,
-          storage: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6.5h16v3H4z"/><path d="M7 9.5l5 8 5-8z"/></svg>`,
+          survey: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.3"/><path d="m15.2 15.2 4.3 4.3"/><path d="M7.5 12.5h6"/><path d="M8.1 12.5 8.7 8h3.6l.6 4.5"/><path d="M8.2 14.6c1-.5 1.7.5 2.6 0s1.7.5 2.7 0"/></svg>`,
+          watch: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 8V5.5H7"/><path d="M17 5.5h2.5V8"/><path d="M19.5 16v2.5H17"/><path d="M7 18.5H4.5V16"/><path d="M6.8 12s2-4 5.2-4 5.2 4 5.2 4-2 4-5.2 4-5.2-4-5.2-4z"/><circle cx="12" cy="12" r="2.1"/></svg>`,
+          storage: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7.5v9.2c0 1.2 1 2.1 2.2 2.1h9.6c1.2 0 2.2-.9 2.2-2.1V7.5"/><path d="M5 7.5h3l1 3h6l1-3h3"/><path d="M8.2 13c1.3-.8 2.2.8 3.7 0 1.3-.8 2.2.8 3.9 0"/><path d="M8.2 16c1.3-.8 2.2.8 3.7 0 1.3-.8 2.2.8 3.9 0"/></svg>`,
           big: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.8 5.6 6.2.8-4.5 4.3 1 6.3-5.5-2.8-5.5 2.8 1-6.3-4.5-4.3 6.2-.8z"/><circle cx="12" cy="12" r="1.2"/></svg>`,
           solar: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 5h10v8.5H6z"/><path d="M8 7.5h6M8 10h6"/><circle cx="18.5" cy="6" r="2.2"/></svg>`,
           floating: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4.5h11v7H7z"/><path d="M8.5 6.5h8M8.5 8.5h8"/><path d="M4 14c2.5-1.5 4 .8 6 0s4 .8 6 0 4 .8 6 0"/><path d="M4 17c2.5-1.5 4 .8 6 0s4 .8 6 0 4 .8 6 0"/></svg>`,
           gateway: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="4" cy="12" r="2.2"/><path d="M6.2 12h5"/><path d="M11.2 10l3 2-3 2"/><path d="M14.2 12h4"/><circle cx="20" cy="12" r="2.2"/></svg>`,
-          substation: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l6.5 6.5-6.5 6.5-6.5-6.5z"/><path d="M9 9h6"/><path d="M12 5.5v7"/><path d="M12 13v3"/></svg>`,
+          substation: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16"/><path d="M6.5 8v7"/><path d="M12 8v7"/><path d="M17.5 8v7"/><circle cx="6.5" cy="17" r="1.3"/><circle cx="12" cy="17" r="1.3"/><circle cx="17.5" cy="17" r="1.3"/></svg>`,
           season: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="2.8"/><path d="M12 2v1.2"/><path d="M6 13.5c3-1.5 4 1 5 0s4 1 5 0"/><path d="M7 17c2.5-1.5 3.5 1 5 0s3.5 1 5 0"/></svg>`,
           city: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 20V8.5h5V20"/><path d="M9.5 20V4h6V20"/><path d="M15.5 20v-9h4V20"/><path d="M7 11h.1M7 14h.1M12 7h.1M12 10h.1M12 13h.1M18 14h.1"/></svg>`,
           source: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5c-3.5 0-6 2.5-6 5.5 0 4.5 6 10 6 10s6-5.5 6-10c0-3-2.5-5.5-6-5.5z"/><circle cx="12" cy="8" r="2"/></svg>`,
           route: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>`,
-          pin: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3v4h-2l-3 10H9L6 7H4V3h12z"/><path d="M12 17v4"/></svg>`,
+          pin: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3h8l-1 5 3 3v2H6v-2l3-3z"/><path d="M12 13v8"/><path d="m9.5 17 2.5-4 2.5 4"/></svg>`,
           text: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h9"/><path d="M8.5 6v12"/><path d="M5.5 18h6"/><path d="M14 18l3-8 3 8"/><path d="M15.3 15h3.4"/></svg>`,
         };
         return icons[kind] || icons.text;
@@ -3750,6 +3837,7 @@
           live: `<span class="lp-project-icon live">${svgIcon("live")}</span>`,
           build: `<span class="lp-project-icon build">${svgIcon("build")}</span>`,
           pipeline: `<span class="lp-project-icon pipeline">${svgIcon("pipeline")}</span>`,
+          survey: `<span class="lp-project-icon pipeline">${svgIcon("survey")}</span>`,
           watch: `<span class="lp-project-icon watch">${svgIcon("watch")}</span>`,
           storage: `<span class="lp-project-icon storage">${svgIcon("storage")}</span>`,
           big: `<span class="lp-project-icon big">${svgIcon("big")}</span>`,
@@ -3815,12 +3903,12 @@
         const isCollapsed = localStorage.getItem("explorer.layerPanelCollapsed") !== "0";
         panel.classList.toggle("collapsed", isCollapsed);
         panel.innerHTML = `
-    <button class="lp-mini" type="button" data-lp-toggle>
-      <span class="lp-pin" title="Pin panel open">
+    <div class="lp-mini" role="button" tabindex="0" aria-label="Toggle layer panel" data-lp-toggle>
+      <span class="lp-pin" role="button" tabindex="0" aria-label="Keep layer panel open" aria-pressed="false" title="Keep layer panel open">
         ${svgIcon("pin")}
       </span>
       <span>Layers</span>
-    </button>
+    </div>
     <div class="lp-body">
       <details class="lp-presets" id="layer-presets">
         <summary class="lp-preset-summary">
@@ -3855,7 +3943,8 @@
         panel.querySelectorAll("[data-special]").forEach((btn) => {
           btn.addEventListener("click", () => toggleSpecialLayer(btn.dataset.special));
         });
-        panel.querySelector("[data-lp-toggle]").addEventListener("click", () => {
+        const panelToggle = panel.querySelector("[data-lp-toggle]");
+        panelToggle.addEventListener("click", () => {
           const wasCollapsed = panel.classList.contains("collapsed");
           if (wasCollapsed) {
             panel.classList.remove("collapsed");
@@ -3864,6 +3953,11 @@
             panel.classList.add("collapsed");
             localStorage.setItem("explorer.layerPanelCollapsed", "1");
           }
+        });
+        panelToggle.addEventListener("keydown", (e) => {
+          if (e.key !== 'Enter' && e.key !== ' ') return;
+          e.preventDefault();
+          panelToggle.click();
         });
 
         // Collapsible section toggle
@@ -3881,11 +3975,21 @@
         if (pinBtn) {
           const savedPin = localStorage.getItem('explorer.panelPinned') === '1';
           pinBtn.classList.toggle('on', savedPin);
+          pinBtn.setAttribute('aria-pressed', savedPin ? 'true' : 'false');
+          pinBtn.title = savedPin ? 'Layer panel stays open' : 'Keep layer panel open';
           pinBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             const on = !pinBtn.classList.contains('on');
             localStorage.setItem('explorer.panelPinned', on ? '1' : '0');
             pinBtn.classList.toggle('on', on);
+            pinBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+            pinBtn.title = on ? 'Layer panel stays open' : 'Keep layer panel open';
+          });
+          pinBtn.addEventListener('keydown', (e) => {
+            if (e.key !== 'Enter' && e.key !== ' ') return;
+            e.preventDefault();
+            e.stopPropagation();
+            pinBtn.click();
           });
         }
       }
