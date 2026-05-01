@@ -3508,8 +3508,9 @@
         currentSlug = slug;
         currentFactId = null;
 
-        // Breadcrumb history
-        if (prevSlug && prevSlug !== slug) {
+        // Reader-local breadcrumb history. Back navigation must not record the
+        // page it just left, otherwise the stack collapses into a two-page loop.
+        if (!opts.fromBreadcrumb && prevSlug && prevSlug !== slug) {
           const histIdx = pageHistory.findIndex(p => p.slug === slug);
           if (histIdx >= 0) {
             pageHistory = pageHistory.slice(0, histIdx);
@@ -3608,7 +3609,7 @@
       window._breadcrumbBack = function () {
         if (!pageHistory.length) return;
         const prev = pageHistory.pop();
-        window.openWikiPage(prev.slug);
+        window.openWikiPage(prev.slug, { fromBreadcrumb: true });
       };
 
       window.openFactDetail = async function (factId, opts = {}) {
