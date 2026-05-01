@@ -19,7 +19,7 @@
     .layout {
       display: grid;
       grid-template-columns: var(--col-left, 260px) 6px var(--col-center, 1fr) 6px var(--col-right, 460px);
-      height: calc(100vh - 39px);
+      height: calc(var(--viewport-height, 100vh) - 39px);
       overflow: hidden;
     }
 
@@ -2373,7 +2373,7 @@
         display: grid;
         grid-template-columns: minmax(0, 1fr);
         grid-template-rows: minmax(0, 1fr);
-        height: calc(100dvh - var(--app-bar-height, 88px));
+        height: calc(var(--viewport-height, 100dvh) - var(--app-bar-height, 88px));
         min-height: 0;
         overflow: hidden;
       }
@@ -2844,7 +2844,16 @@
         return compactMql.matches;
       }
 
+      function updateViewportHeight() {
+        const vv = window.visualViewport;
+        const h = vv && vv.height ? vv.height : window.innerHeight;
+        if (Number.isFinite(h) && h > 0) {
+          document.documentElement.style.setProperty("--viewport-height", Math.ceil(h) + "px");
+        }
+      }
+
       function updateAppBarHeight() {
+        updateViewportHeight();
         const bar = document.querySelector(".app-bar");
         if (!bar) return;
         document.documentElement.style.setProperty("--app-bar-height", Math.ceil(bar.getBoundingClientRect().height) + "px");
@@ -2890,6 +2899,10 @@
         if (compactMql.addEventListener) compactMql.addEventListener("change", onViewportChange);
         else compactMql.addListener(onViewportChange);
         window.addEventListener("resize", updateAppBarHeight);
+        if (window.visualViewport) {
+          window.visualViewport.addEventListener("resize", updateAppBarHeight);
+          window.visualViewport.addEventListener("scroll", updateAppBarHeight);
+        }
         updateAppBarHeight();
       }
 
