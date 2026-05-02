@@ -1,22 +1,28 @@
 ---
-title: Kali Gandaki-Kowan
+title: Kali Gandaki Kowan
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
-sources: [jica-ipsdp-main-report-vol2]
-tags: [project, under-construction, gandaki, mustang]
-images:
-  - src: kali-gandaki-kowan/ipsdpv2-p263-img00.png
-    caption: "Table 6.3-7 Hydropower Development Projects on the Kali Gandaki River"
-    credit: "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)"
-    license: gov-permissive
-    source_url: "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf"
-generator: auto-stub
+updated: 2026-05-02
+sources: []
+tags: [project, under-construction, gandaki]
+images: ['- src: kali-gandaki-kowan/ipsdpv2-p263-img00.png']
 ---
 
 # Kali Gandaki-Kowan
 
-400 MW · under construction (generation licence) · on the Kali Gandaki · in Mustang district.
+Kali Gandaki-Kowan is a 400 MW hydropower project under construction on the Kali Gandaki River — one of the largest projects in Nepal's active construction pipeline.
+
+## Kali Gandaki Basin
+
+The Kali Gandaki is one of Nepal's three major river systems, draining the region between Dhaulagiri and Annapurna — the deepest gorge in the world. The river's steep gradient and substantial dry-season baseflow (fed by glacial and snow melt) make it one of Nepal's most attractive hydropower corridors. Existing projects in the basin include Kali Gandaki A (144 MW, operating), Upper Modi A, and multiple projects across the Marsyangdi and Seti tributaries.
+
+## Transmission Context
+
+A 400 MW project requires significant transmission infrastructure for power evacuation. The Kali Gandaki corridor is served by the Dana-Kushma-Butwal 220 kV corridor and connects into the national east-west backbone. However, evacuation capacity at this scale remains a binding constraint — projects in the Kali Gandaki and Marsyangdi valleys compete for limited transmission slots toward the Butwal and Kathmandu load centers. See [[claim-transmission-immediate-blocker]].
+
+## Construction Risk at Scale
+
+Projects in this capacity range face proportionally higher execution risk. The Kali Gandaki valley's complex geology, combined with the logistical challenges of moving heavy equipment through narrow mountain roads, has historically pushed build costs well above the NPR 200 million/MW mark for comparable large projects. Whether Kali Gandaki-Kowan can achieve competitive per-MW costs will determine whether it becomes a debt-burdened asset or a genuinely viable generator.
 
 <!-- generated:specs:start -->
 
@@ -32,20 +38,7 @@ generator: auto-stub
 
 <!-- generated:specs:end -->
 
-## Notes
+## See Also
 
-> [!note] This is a registry-backed project record. Capacity, location,
-> and licence status come from the Ministry of Energy registry
-> mirrored in the map data. Narrative context and images are added
-> where public sources are strong enough; the specification table is
-> maintained from the registry.
-
-<figure class="wiki-inline-figure">
-  <img src="../assets/images/kali-gandaki-kowan/ipsdpv2-p264-img00.png" alt="Figure 6.3-10 River Longitudinal Profile of the Kali Gandaki River (Upstream)">
-  <figcaption>Figure 6.3-10 River Longitudinal Profile of the Kali Gandaki River (Upstream)</figcaption>
-</figure>
-
-
-## See also
-
-- [[gandaki-basin]]
+- [[run-of-river-hydropower]]
+- [[buildability]]

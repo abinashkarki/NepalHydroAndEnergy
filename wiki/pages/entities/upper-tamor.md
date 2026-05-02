@@ -2,21 +2,27 @@
 title: Upper Tamor
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
-sources: [jica-ipsdp-main-report-vol2]
-tags: [project, under-construction, koshi, taplejung]
+updated: 2026-05-02
+sources: []
+tags: [project, under-construction, koshi, top-capacity]
 images: []
-generator: auto-stub
 ---
 
 # Upper Tamor
 
-<figure class="wiki-inline-figure">
-  <img src="../assets/images/upper-tamor/ipsdpv2-p282-img00.png" alt="Figure 6.3-26 River Longitudinal Profile of the Tamor River">
-  <figcaption>Figure 6.3-26 River Longitudinal Profile of the Tamor River</figcaption>
-</figure>
+Upper Tamor is a 285 MW hydropower project under construction on the Tamor River in eastern Nepal — one of the largest private/IPP projects in the under-construction pipeline.
 
-285 MW · under construction (generation licence) · on the Tamor · in Taplejung district.
+## Tamor Basin Significance
+
+The Tamor River is a major tributary of the Koshi system, draining the eastern Himalayan slopes of the Kanchenjunga massif. Unlike the Bhote Koshi and Trishuli corridors closer to Kathmandu, the Tamor basin has historically seen less hydropower development due to its distance from load centers and transmission constraints. Upper Tamor, at 285 MW, represents a step-change in eastern Nepal's generation capacity.
+
+## Development Context
+
+The Tamor River system has attracted attention for both run-of-river and storage development potential. Upper Tamor sits alongside Tamor Storage (200 MW, survey stage) in the project pipeline. Together, these projects would fundamentally reshape the eastern grid — but also require significant transmission investment to evacuate power from the Tamor valley to the national backbone.
+
+## Financing Challenge
+
+At 285 MW, Upper Tamor's capital requirements place it in the top tier of Nepali private hydro projects. The project's financial viability will depend on achieving competitive build costs, managing construction risk in a relatively remote location, and securing transmission evacuation — all within the standard NPR 4.80/8.40 PPA framework.
 
 <!-- generated:specs:start -->
 
@@ -32,14 +38,7 @@ generator: auto-stub
 
 <!-- generated:specs:end -->
 
-## Notes
+## See Also
 
-> [!note] This is a registry-backed project record. Capacity, location,
-> and licence status come from the Ministry of Energy registry
-> mirrored in the map data. Narrative context and images are added
-> where public sources are strong enough; the specification table is
-> maintained from the registry.
-
-## See also
-
-- [[koshi-basin]]
+- [[run-of-river-hydropower]]
+- [[buildability]]

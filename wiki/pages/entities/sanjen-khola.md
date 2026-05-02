@@ -2,16 +2,23 @@
 title: Sanjen Khola
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-02
 sources: []
 tags: [project, under-construction, rasuwa]
 images: []
-generator: auto-stub
 ---
 
 # Sanjen Khola
 
-78 MW · under construction (generation licence) · on the Sanjen · in Rasuwa district.
+Sanjen Khola is a 78 MW run-of-river hydropower project under construction on the Sanjen Khola in Rasuwa district. At nearly double the capacity of the adjacent Sanjen project (42.5 MW), it is the larger of the two Sanjen River developments.
+
+## Sanjen Cluster
+
+The Sanjen River valley in Rasuwa hosts two closely-related projects: Sanjen (42.5 MW, Chilime subsidiary) and Sanjen Khola (78 MW). Together, they represent ~120 MW of capacity from a relatively small catchment, raising questions about optimized water use, cumulative environmental impact, and whether both projects can simultaneously achieve their contracted energy yields from the same river system.
+
+## Development Context
+
+Both Sanjen projects benefit from the Chilime-Trishuli transmission corridor infrastructure that connects Rasuwa district generation to the national grid. The corridor's capacity to evacuate the combined output of Chilime (22.1 MW), Sanjen, Sanjen Khola, Rasuwagadhi (111 MW), and other projects in the Trishuli-Bhote Koshi system is a binding operational constraint — not just an abstract planning concern.
 
 <!-- generated:specs:start -->
 
@@ -27,10 +34,7 @@ generator: auto-stub
 
 <!-- generated:specs:end -->
 
-## Notes
+## See Also
 
-> [!note] This is a registry-backed project record. Capacity, location,
-> and licence status come from the Ministry of Energy registry
-> mirrored in the map data. Narrative context and images are added
-> where public sources are strong enough; the specification table is
-> maintained from the registry.
+- [[run-of-river-hydropower]]
+- [[buildability]]

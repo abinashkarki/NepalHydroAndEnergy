@@ -82,6 +82,18 @@
         "title": "Nepal Transmission System \u2014 400 kV Landscape & Cross-Border Plan (2025)"
       },
       {
+        "slug": "ppa-data-retrieval-icra-care-2026",
+        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\""
+      },
+      {
+        "slug": "sahas-urja-benchmark-icra-2026",
+        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) \u2014 Benchmark IPP Success\""
+      },
+      {
+        "slug": "sector-financial-analysis-triple-authority-2026",
+        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\""
+      },
+      {
         "slug": "tanahu-adb-status-2025",
         "title": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)"
       },
@@ -309,7 +321,7 @@
       },
       {
         "slug": "kali-gandaki-kowan",
-        "title": "Kali Gandaki-Kowan"
+        "title": "Kali Gandaki Kowan"
       },
       {
         "slug": "kaligandaki-upper",
@@ -513,7 +525,7 @@
       },
       {
         "slug": "nalsyau-gad-storage-hep",
-        "title": "Nalsyau Gad Storage HEP"
+        "title": "Nalsyau Gad Storage Hep"
       },
       {
         "slug": "nalsyau-gad",
@@ -1310,6 +1322,9 @@
     "nea-annual-report-fy2024-25",
     "nea-transmission-annual-book-2077",
     "nepal-transmission-landscape-2025",
+    "ppa-data-retrieval-icra-care-2026",
+    "sahas-urja-benchmark-icra-2026",
+    "sector-financial-analysis-triple-authority-2026",
     "tanahu-adb-status-2025",
     "upper-karnali-pda-record",
     "wb-country-economic-memo-2025",
@@ -1631,6 +1646,9 @@
     "nea-annual-report-fy2024-25": "sources",
     "nea-transmission-annual-book-2077": "sources",
     "nepal-transmission-landscape-2025": "sources",
+    "ppa-data-retrieval-icra-care-2026": "sources",
+    "sahas-urja-benchmark-icra-2026": "sources",
+    "sector-financial-analysis-triple-authority-2026": "sources",
     "tanahu-adb-status-2025": "sources",
     "upper-karnali-pda-record": "sources",
     "wb-country-economic-memo-2025": "sources",
@@ -1952,6 +1970,9 @@
     "nea-annual-report-fy2024-25": "NEA Annual Report FY 2024/25",
     "nea-transmission-annual-book-2077": "NEA Transmission Annual Book 2077",
     "nepal-transmission-landscape-2025": "Nepal Transmission System \u2014 400 kV Landscape & Cross-Border Plan (2025)",
+    "ppa-data-retrieval-icra-care-2026": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+    "sahas-urja-benchmark-icra-2026": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) \u2014 Benchmark IPP Success\"",
+    "sector-financial-analysis-triple-authority-2026": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)",
     "upper-karnali-pda-record": "Upper Karnali \u2014 PDA, Financial Closure & Court Record",
     "wb-country-economic-memo-2025": "World Bank Nepal Country Economic Memorandum (2025)",
@@ -2008,7 +2029,7 @@
     "kabeli-a": "Kabeli-A",
     "kabeli-b-1": "Kabeli B - 1",
     "kali-gandaki-a": "Kali Gandaki A",
-    "kali-gandaki-kowan": "Kali Gandaki-Kowan",
+    "kali-gandaki-kowan": "Kali Gandaki Kowan",
     "kaligandaki-upper": "Kaligandaki Upper",
     "karnali-basin": "Karnali Basin",
     "karnali-chisapani": "Karnali Chisapani Project",
@@ -2059,7 +2080,7 @@
     "mristi-khola": "Mristi Khola",
     "mugu-karnali-storage-hep": "Mugu Karnali Storage HEP",
     "mustang-high-altitude-solar-zone": "Mustang / Trans-Himalayan High-Altitude Solar Zone",
-    "nalsyau-gad-storage-hep": "Nalsyau Gad Storage HEP",
+    "nalsyau-gad-storage-hep": "Nalsyau Gad Storage Hep",
     "nalsyau-gad": "Nalsyau Gad",
     "naumure-w-rapti": "Naumure (W. Rapti)",
     "nawalpur-132kv-substation": "Nawalpur 132 kV Substation",
@@ -2252,5 +2273,5 @@
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series"
   },
-  "totalPages": 319
+  "totalPages": 322
 }
