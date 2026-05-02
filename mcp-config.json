@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "nepal-energy-wiki": {
+      "command": "python3",
+      "args": ["scripts/wiki_mcp_server.py"],
+      "cwd": "/Users/hi/projects/nepalEnergy",
+      "env": {}
+    }
+  }
+}

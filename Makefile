@@ -1,4 +1,4 @@
-.PHONY: wiki-index validate serve figures test
+.PHONY: wiki-index validate serve figures test mcp
 
 wiki-index:
 	python scripts/build_wiki_page_index.py
@@ -17,6 +17,9 @@ test:
 
 serve:
 	./wiki/explorer/serve.sh 8765
+
+mcp:
+	python scripts/wiki_mcp_server.py
 
 figures:
 	python scripts/build_research_figures.py
