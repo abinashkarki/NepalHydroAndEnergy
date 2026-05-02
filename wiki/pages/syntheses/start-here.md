@@ -51,7 +51,15 @@ Start with [[nepal-energy-profile]] for the country-level electricity profile. T
 
 The wiki separates interpretation from sources:
 
-- **Claims** are compact arguments, such as [[claim-mw-not-equal-value]] and [[claim-storage-physical-fix]].
+- **Claim pages** make investigative arguments backed by evidence. Key claims include:
+  - [[claim-transmission-immediate-blocker]] — grid delivery is now the binding constraint on monetization.
+  - [[claim-storage-physical-fix]] — storage, not more RoR, is the physical solution to the seasonal mismatch.
+  - [[claim-mw-not-equal-value]] — installed capacity numbers overstate what the system can actually deliver.
+  - [[claim-timing-not-volume]] — Nepal does not have an energy shortage; it has a timing problem.
+  - [[claim-solar-cheaper-than-small-hydro]] — solar now undercuts small-hydro PPA rates on an LCOE basis.
+  - [[claim-climate-harder-not-easier]] — climate change increases hydrological volatility and tail risks.
+  - [[claim-governance-binding]] — institutional failures are now the binding constraint, not engineering or finance.
+  - [[claim-sediment-core-issue]] — sediment is not an O&M footnote; it is a design constraint that determines project viability.
 - **Data pages** explain tables, figures, map layers, and caveats.
 - **Source pages** summarize public reports, regulations, and project records.
 - **Entity pages** cover projects, basins, institutions, and country-level system actors.

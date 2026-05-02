@@ -35,6 +35,8 @@ TYPE_RE = re.compile(r"^type:\s*(.+?)\s*$", re.MULTILINE)
 IMAGES_BLOCK_RE = re.compile(r"^images:\s*\n((?:\s+-\s.*\n?|\s{2,}.*\n?)+)", re.MULTILINE)
 IMAGE_ITEM_RE = re.compile(r"-\s*src\s*:\s*(\S+)")
 GENERATOR_RE = re.compile(r"^generator:\s*(.+?)\s*$", re.MULTILINE)
+UPDATED_RE = re.compile(r"^updated:\s*(.+?)\s*$", re.MULTILINE)
+SUPERSEDED_RE = re.compile(r"<!--\s*superseded-by:\s*(\S+)\s*-->")
 HEADING_RE = re.compile(r"^#{1,4}\s+(.+?)\s*$", re.MULTILINE)
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+?)(?:\|[^\]]+)?\]\]")
 MD_LINK_RE = re.compile(r"\[([^\]]+)\]\([^)]+\)")
@@ -137,6 +139,8 @@ def main() -> None:
             if img_block_m:
                 image_count = len(IMAGE_ITEM_RE.findall(img_block_m.group(1)))
             gen_m = GENERATOR_RE.search(fm)
+            up_m = UPDATED_RE.search(fm)
+            sup_m = SUPERSEDED_RE.search(body)
             pages.append({
                 "slug": slug,
                 "title": title_m.group(1).strip() if title_m else slug,
@@ -150,6 +154,8 @@ def main() -> None:
                 "token_freq": dict(Counter(tokens)),
                 "image_count": image_count,
                 "is_stub": (gen_m.group(1).strip() == "auto-stub") if gen_m else False,
+                "updated": up_m.group(1).strip() if up_m else None,
+                "superseded_by": sup_m.group(1).strip() if sup_m else None,
             })
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -162,6 +168,25 @@ def main() -> None:
     # Quick subcategory report.
     sub = Counter(p["subcategory"] for p in pages if p["category"] == "entities")
     print(f"  entities subcategories: {dict(sub)}")
+
+    # Write slim version for explorer startup — slug-indexed, ~50KB not ~2MB.
+    slim = {}
+    for p in pages:
+        entry = {
+            "t": p["title"],
+            "c": p["category"],
+            "e": p["excerpt"],
+            "g": p["tags"],
+            "s": p["is_stub"],
+            "u": p["updated"],
+            "b": p["superseded_by"],
+            "sc": p.get("subcategory", ""),
+        }
+        # Strip None values and empty strings to save bytes
+        slim[p["slug"]] = {k: v for k, v in entry.items() if v is not None and v != ""}
+    slim_out = OUT.parent / "wiki-page-meta-slim.json"
+    slim_out.write_text(json.dumps(slim, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+    print(f"wrote {slim_out.relative_to(ROOT)} ({len(slim)} slugs, {slim_out.stat().st_size} bytes)")
 
 
 if __name__ == "__main__":

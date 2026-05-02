@@ -67,7 +67,9 @@
     "mega-projects": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "aepc-renewable-framework",
@@ -364,7 +366,9 @@
     "utility-side": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "arun-3-project-status-2025",
@@ -533,7 +537,9 @@
     "stranded-generation": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "dudhkoshi-nea-proposal-2024",
@@ -714,7 +720,9 @@
     "storage-deficit": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "eib-rural-solar-phase2",
@@ -1008,7 +1016,9 @@
     "public-disclosure": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "global-solar-atlas-nepal",
@@ -1255,7 +1265,9 @@
     "use": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "green-hydrogen-roadmap-nepal",
@@ -1363,7 +1375,9 @@
     "demand": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "icimod-hkh-glacier-change",
@@ -1461,7 +1475,9 @@
     "window": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "icimod-koshi-basin",
@@ -1539,7 +1555,9 @@
     "extreme": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "icimod-koshi-sediment-threats",
@@ -1611,7 +1629,9 @@
     "buildability": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "india-cbte-2018",
@@ -1713,7 +1733,9 @@
     "expanded": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "irena-remap-nepal",
@@ -1997,7 +2019,9 @@
     "context": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "jica-ipsdp-main-report-vol2",
@@ -2294,7 +2318,9 @@
     "cutoff": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "kali-gandaki-a-adb-evaluation",
@@ -2445,7 +2471,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "moewri-ipsdp-exec-summary-2025",
@@ -2782,7 +2810,9 @@
     "ipsdp-2025-vs-wiki-claims": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "mugu-karnali-feasibility-2025",
@@ -2951,7 +2981,9 @@
     "storage-deficit": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "national-water-plan-nepal",
@@ -3044,7 +3076,9 @@
     "intact": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "nea-annual-report-fy2024-25",
@@ -3198,7 +3232,9 @@
     "dates": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "nea-transmission-annual-book-2077",
@@ -3357,7 +3393,9 @@
     "modelling": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "nepal-transmission-landscape-2025",
@@ -3585,7 +3623,9 @@
     "stranded-generation": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "tanahu-adb-status-2025",
@@ -3747,7 +3787,9 @@
     "buildability": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-karnali-pda-record",
@@ -3930,7 +3972,9 @@
     "hydro-geopolitics": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "wb-country-economic-memo-2025",
@@ -4051,7 +4095,9 @@
     "data-trade-time-series": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "wb-esmap-solar-resource-assessment",
@@ -4363,7 +4409,9 @@
     "table": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "wb-ganges-strategic-basin-assessment",
@@ -4465,7 +4513,9 @@
     "data-storage-comparison": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "wb-grid-solar-ee-project",
@@ -4774,7 +4824,9 @@
     "sector-reform": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "wb-nepal-power-sector-reform-2022",
@@ -4846,7 +4898,9 @@
     "note": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "wb-water-sector-diagnostic",
@@ -4946,7 +5000,9 @@
     "relative": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "wecs-energy-synopsis-2024",
@@ -5135,7 +5191,9 @@
     "nepal-energy-profile": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "wecs-hydropower-potential-2019",
@@ -5229,7 +5287,9 @@
     "baseline": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "wecs-river-basin-plan-2024",
@@ -5354,7 +5414,9 @@
     "studies": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "aepc",
@@ -5701,7 +5763,9 @@
     "anchors": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "andhi-khola",
@@ -5842,7 +5906,9 @@
     "stranded-generation": 1
    },
    "image_count": 3,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "ankhu-khola",
@@ -5906,7 +5972,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "arun-3",
@@ -6186,7 +6254,9 @@
     "evacuate": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "bagmati-nadi",
@@ -6253,7 +6323,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "balephi",
@@ -6326,7 +6398,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "bangladesh-trade-route",
@@ -6559,7 +6633,9 @@
     "carries": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "barahi-hydropower",
@@ -6706,7 +6782,9 @@
     "anchors": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "betan-karnali-hp",
@@ -6971,7 +7049,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "bheri-1-hep",
@@ -7177,7 +7257,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "bheri-2-hep",
@@ -7247,7 +7329,9 @@
     "buildability": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "bheri-4",
@@ -7315,7 +7399,9 @@
     "buildability": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "bheri-corridor-400kv",
@@ -7423,7 +7509,9 @@
     "stranded-generation": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "bhutan-hydropower-model",
@@ -7570,7 +7658,9 @@
     "alternative": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "bidur-trishuli-solar-25mwp",
@@ -7879,7 +7969,9 @@
     "anchors": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "bishnu-priya-nawalparasi",
@@ -8018,7 +8110,9 @@
     "data-solar-fleet-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "budhigandaki",
@@ -8260,7 +8354,9 @@
     "data-map-inventory": 1
    },
    "image_count": 4,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "butwal-solar-ridi-8-5mwp",
@@ -8401,7 +8497,9 @@
     "data-solar-fleet-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "chainpur-seti",
@@ -8474,7 +8572,9 @@
     "buildability": 1
    },
    "image_count": 2,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "chameliya-attariya-132",
@@ -8585,7 +8685,9 @@
     "data-layer-transmission-connected-traced-network": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "chameliya-hydropower",
@@ -8959,7 +9061,9 @@
     "status": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "chameliya-jauljibi-interconnection",
@@ -9096,7 +9200,9 @@
     "india-energy-relationship": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "chameliya-khola",
@@ -9168,7 +9274,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": "chameliya-hydropower"
   },
   {
    "slug": "chilime-trishuli-220kv-transmission-line",
@@ -9242,7 +9350,9 @@
     "trishuli": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "chilime",
@@ -9630,7 +9740,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 5,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "damak-godak-phidim-132kv",
@@ -9725,7 +9837,9 @@
     "nepal-transmission-landscape-2025": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "dana-kushma-butwal-corridor",
@@ -9897,7 +10011,9 @@
     "appears": 1
    },
    "image_count": 4,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "dhalkebar-muzaffarpur",
@@ -10057,7 +10173,9 @@
     "hydro-geopolitics": 1
    },
    "image_count": 3,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "dhungesangu-basantapur-220-132kv",
@@ -10158,7 +10276,9 @@
     "stranded-generation": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "dordi-khola",
@@ -10222,7 +10342,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "dudhkoshi-storage",
@@ -10542,7 +10664,9 @@
     "data-map-inventory": 1
    },
    "image_count": 3,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "durbang-myagdi-khola",
@@ -10606,7 +10730,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "gandaki-basin",
@@ -10763,7 +10889,9 @@
     "data-map-inventory": 1
    },
    "image_count": 4,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "gorakhpur-butwal-interconnection",
@@ -10907,7 +11035,9 @@
     "hydro-geopolitics": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "hetauda-bharatpur-bardaghat-corridor",
@@ -11090,7 +11220,9 @@
     "hetauda-dhalkebar-inaruwa-backbone": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "hetauda-dhalkebar-inaruwa-backbone",
@@ -11331,7 +11463,9 @@
     "nepal-transmission-landscape-2025": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "humla-karnali-1-hpp",
@@ -11399,7 +11533,9 @@
     "buildability": 1
    },
    "image_count": 2,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "humla-karnali-2-hpp",
@@ -11467,7 +11603,9 @@
     "buildability": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "inaruwa-purnea-interconnection",
@@ -11629,7 +11767,9 @@
     "feeder": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "india-energy-relationship",
@@ -11800,7 +11940,9 @@
     "case": 1
    },
    "image_count": 9,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "jagdulla-hep",
@@ -11870,7 +12012,9 @@
     "buildability": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "kabeli-132",
@@ -11999,7 +12143,9 @@
     "nepal-transmission-landscape-2025": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "kabeli-a",
@@ -12062,7 +12208,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "kabeli-b-1",
@@ -12124,7 +12272,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "kali-gandaki-a",
@@ -12357,7 +12507,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 5,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "kali-gandaki-kowan",
@@ -12431,7 +12583,9 @@
     "upstream": 1
    },
    "image_count": 1,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "kaligandaki-upper",
@@ -12500,7 +12654,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "karnali-basin",
@@ -12694,7 +12850,9 @@
     "data-map-inventory": 1
    },
    "image_count": 3,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "karnali-chisapani",
@@ -12800,7 +12958,9 @@
     "hydro-geopolitics": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "karnali-solar-energy-project",
@@ -13030,7 +13190,9 @@
     "builds": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "kasuwa-khola-hpp",
@@ -13093,7 +13255,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "kataiya-kushaha-interconnection",
@@ -13234,7 +13398,9 @@
     "hydro-geopolitics": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "kathmandu-valley-underground-cabling",
@@ -13324,7 +13490,9 @@
     "data-domestic-demand": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "khani-khola-1",
@@ -13388,7 +13556,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "khani-khola-dolakha",
@@ -13452,7 +13622,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "khare-hydropower-project",
@@ -13516,7 +13688,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "khimti-dhalkebar-corridor",
@@ -13676,7 +13850,9 @@
     "hands": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "khimti-i",
@@ -13747,7 +13923,9 @@
     "plant": 1
    },
    "image_count": 1,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "khimti-ii",
@@ -13811,7 +13989,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "khudi-220-132kv-substation",
@@ -13878,7 +14058,9 @@
     "nepal-transmission-landscape-2025": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "khungri-solar-hybrid-50mw",
@@ -14117,7 +14299,9 @@
     "data-solar-fleet-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "kimathanka-arun-hep",
@@ -14250,7 +14434,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "kohalpur-surkhet-dailekh-132",
@@ -14358,7 +14544,9 @@
     "data-layer-transmission-connected-traced-network": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "kokhajor-1",
@@ -14495,7 +14683,9 @@
     "firm-power": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "koshi-basin",
@@ -14656,7 +14846,9 @@
     "data-map-inventory": 1
    },
    "image_count": 4,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "kulekhani-cascade",
@@ -14763,7 +14955,9 @@
     "data-map-inventory": 1
    },
    "image_count": 4,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "lantang-khola-reservoir-hydropower-project",
@@ -14833,7 +15027,9 @@
     "buildability": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "lapche-khola",
@@ -14898,7 +15094,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "likhu-1",
@@ -14966,7 +15164,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "likhu-2",
@@ -15034,7 +15234,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "likhu-4",
@@ -15105,7 +15307,9 @@
     "maintained": 1
    },
    "image_count": 1,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "likhu-khola-a",
@@ -15173,7 +15377,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "lower-badigad",
@@ -15327,7 +15533,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "lower-hewa",
@@ -15390,7 +15598,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "lower-jhimruk",
@@ -15526,7 +15736,9 @@
     "firm-power": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "lower-likhu",
@@ -15597,7 +15809,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "lower-modi-khola",
@@ -15666,7 +15880,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "lower-solu-hydropower-project",
@@ -15730,7 +15946,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "madhya-bhotekoshi",
@@ -15802,7 +16020,9 @@
     "maintained": 1
    },
    "image_count": 1,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "madhya-marsyangdi",
@@ -15869,7 +16089,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "madi",
@@ -16012,7 +16234,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "mahakali-basin",
@@ -16115,7 +16339,9 @@
     "data-map-inventory": 1
    },
    "image_count": 4,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "mai",
@@ -16178,7 +16404,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "main-load-dispatch-centre",
@@ -16255,7 +16483,9 @@
     "nepal-transmission-landscape-2025": 2
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "markichowk-220-132kv-substation",
@@ -16322,7 +16552,9 @@
     "nepal-transmission-landscape-2025": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "marsyangdi-besi",
@@ -16390,7 +16622,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "marsyangdi-upper-220",
@@ -16526,7 +16760,9 @@
     "data-layer-transmission-connected-traced-network": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "marsyangdi",
@@ -16626,7 +16862,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 1,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "mca-central-400",
@@ -16849,7 +17087,9 @@
     "relieves": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "mewa-khola-hydropower-project",
@@ -16912,7 +17152,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "middle-tamor",
@@ -16980,7 +17222,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "mithila-solar-dhanusha-10mwp",
@@ -17123,7 +17367,9 @@
     "data-solar-fleet-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "modi-lekhnath-132kv",
@@ -17219,7 +17465,9 @@
     "nepal-transmission-landscape-2025": 1
    },
    "image_count": 3,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "mristi-khola",
@@ -17283,7 +17531,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "mugu-karnali-storage-hep",
@@ -17552,7 +17802,9 @@
     "hydro-geopolitics": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "mustang-high-altitude-solar-zone",
@@ -17849,7 +18101,9 @@
     "cross-reference": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "nalsyau-gad-storage-hep",
@@ -17928,7 +18182,9 @@
     "buildability": 1
    },
    "image_count": 1,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "nalsyau-gad",
@@ -18095,7 +18351,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "naumure-w-rapti",
@@ -18247,7 +18505,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "nawalpur-132kv-substation",
@@ -18330,7 +18590,9 @@
     "data-domestic-demand": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "nea-960mw-solar-tender",
@@ -18695,7 +18957,9 @@
     "evidences": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "nea-solar",
@@ -18995,7 +19259,9 @@
     "take": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "nea",
@@ -19248,7 +19514,9 @@
     "arrangements": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "nepal-energy-profile",
@@ -19515,7 +19783,9 @@
     "center": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "niettp",
@@ -19627,7 +19897,9 @@
     "part": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "nilgiri-khola",
@@ -19691,7 +19963,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "nyadi-khola",
@@ -19755,7 +20029,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "pancheshwar",
@@ -19957,7 +20233,9 @@
     "data-map-inventory": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "phukot-karnali",
@@ -20230,7 +20508,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 3,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "purbi-chitwan-132kv-substation",
@@ -20305,7 +20585,9 @@
     "nea": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "rahughat-mangale",
@@ -20369,7 +20651,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "rahughat",
@@ -20432,7 +20716,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "rasuwa-bhotekoshi",
@@ -20503,7 +20789,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "rasuwagadhi",
@@ -20574,7 +20862,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "ratmate-rasuwagadhi-kerung-400kv",
@@ -20676,7 +20966,9 @@
     "nepal-transmission-landscape-2025": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "sahas-urja",
@@ -21080,7 +21372,9 @@
     "architecture": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "sanjen-khola",
@@ -21144,7 +21438,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "sanjen",
@@ -21207,7 +21503,9 @@
     "maintained": 1
    },
    "image_count": 2,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "singati-khola-hydropower-project",
@@ -21272,7 +21570,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "solu-hydropower-project",
@@ -21335,7 +21635,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "solu-khola-dudha-koshi",
@@ -21399,7 +21701,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": "sahas-urja"
   },
   {
    "slug": "solu-tingla-mirchaiya-132",
@@ -21538,7 +21842,9 @@
     "claim-transmission-immediate-blocker": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "sun-koshi-no-3",
@@ -21688,7 +21994,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "super-dordi-kha-hydropower-project",
@@ -21754,7 +22062,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "super-madi",
@@ -21823,7 +22133,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "super-nyadi-hydropower-project",
@@ -21888,7 +22200,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "super-trishuli",
@@ -21957,7 +22271,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "tamakoshi-3",
@@ -22088,7 +22404,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "tamakoshi-v",
@@ -22158,7 +22476,9 @@
     "maintained": 1
    },
    "image_count": 2,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "tamor-storage",
@@ -22227,7 +22547,9 @@
     "buildability": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "tanahu-hydropower",
@@ -22506,7 +22828,9 @@
     "data-map-inventory": 1
    },
    "image_count": 9,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "tingla-132-33kv-substation",
@@ -22601,7 +22925,9 @@
     "solu-khola-dudha-koshi": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "trishuli-galchhi",
@@ -22670,7 +22996,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "trishuli",
@@ -22747,7 +23075,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 3,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "udipur-damauli-bharatpur-220",
@@ -22877,7 +23207,9 @@
     "claim-transmission-immediate-blocker": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "upper-arun",
@@ -22969,7 +23301,9 @@
     "line": 1
    },
    "image_count": 5,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-balephi-a",
@@ -23039,7 +23373,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-bhotekoshi",
@@ -23175,7 +23511,9 @@
     "stranded-generation": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "upper-chaku-a",
@@ -23239,7 +23577,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-dordi-a-hep",
@@ -23304,7 +23644,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-kalangad",
@@ -23370,7 +23712,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-karnali",
@@ -23682,7 +24026,9 @@
     "mugu-karnali-storage-hep": 1
    },
    "image_count": 1,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-khudi",
@@ -23746,7 +24092,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-lapche-khola",
@@ -23811,7 +24159,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-madi",
@@ -23879,7 +24229,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-marsyangdi-a",
@@ -23946,7 +24298,9 @@
     "run-of-river-hydropower": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-modi-a",
@@ -24015,7 +24369,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-myagdi",
@@ -24087,7 +24443,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-nyasim-khola",
@@ -24153,7 +24511,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-tamakoshi",
@@ -24397,7 +24757,9 @@
     "comparison": 1
    },
    "image_count": 6,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "upper-tamor",
@@ -24470,7 +24832,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-trishuli-1",
@@ -24621,7 +24985,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "upper-trishuli-3a",
@@ -24693,7 +25059,9 @@
     "maintained": 1
    },
    "image_count": 2,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "upper-trishuli-3b",
@@ -24762,7 +25130,9 @@
     "maintained": 1
    },
    "image_count": 0,
-   "is_stub": true
+   "is_stub": true,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "uttarganga-storage-hydropower-project",
@@ -24938,7 +25308,9 @@
     "data-ipsdp-milestone-ladder-2022-2040": 1
    },
    "image_count": 2,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "wecs",
@@ -25035,7 +25407,9 @@
     "numbers": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "west-seti",
@@ -25246,7 +25620,9 @@
     "reasons": 1
    },
    "image_count": 3,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "western-132-backbone",
@@ -25377,7 +25753,9 @@
     "gorakhpur-butwal-interconnection": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "ad-penalties",
@@ -25678,7 +26056,9 @@
     "periods": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "agrivoltaics-and-land",
@@ -26101,7 +26481,9 @@
     "operationalises": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "bay-of-bengal-terminal",
@@ -26180,7 +26562,9 @@
     "how-to-read-geopolitics-map": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "bihar-ganges-trunk-zone",
@@ -26262,7 +26646,9 @@
     "ganges-contribution": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "buildability",
@@ -26446,7 +26832,9 @@
     "operation": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "consumption-trajectory-outlook",
@@ -26929,7 +27317,9 @@
     "inherits": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "domestic-led-hydro-strategy",
@@ -27300,7 +27690,9 @@
     "phased": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "eastern-up-ghaghara-gandak-belt",
@@ -27392,7 +27784,9 @@
     "how-to-read-geopolitics-map": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "energy-substitution-pathway",
@@ -27638,7 +28032,9 @@
     "argument": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "environmental-flow-policy",
@@ -27785,7 +28181,9 @@
     "states": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "firm-power",
@@ -27955,7 +28353,9 @@
     "problem": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "gandak-ganges-merge",
@@ -28035,7 +28435,9 @@
     "downstream-river-geopolitics": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "ganges-contribution",
@@ -28289,7 +28691,9 @@
     "unavoidable": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "ganges-padma-transition",
@@ -28382,7 +28786,9 @@
     "bangladesh-trade-route": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "ghaghara-ganges-merge",
@@ -28468,7 +28874,9 @@
     "data-layer-future-regulation-scenario": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "glof-risk",
@@ -28725,7 +29133,9 @@
     "solvency": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "green-hydrogen-nepal",
@@ -28946,7 +29356,9 @@
     "green-hydrogen-roadmap-nepal": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "how-to-read-geopolitics-map",
@@ -29115,7 +29527,9 @@
     "data-layer-downstream-dependency-zones": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "hybrid-siting-logic",
@@ -29576,7 +29990,9 @@
     "test": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "hydro-geopolitics",
@@ -29876,7 +30292,9 @@
     "operated": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "hydro-insurance",
@@ -30208,7 +30626,9 @@
     "administrator": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "hydropower-potential-categories",
@@ -30388,7 +30808,9 @@
     "wecs-hydropower-potential-2019": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "ipo-hydropower-bailout",
@@ -30628,7 +31050,9 @@
     "machine-readable": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "kosi-ganges-merge",
@@ -30712,7 +31136,9 @@
     "how-to-read-geopolitics-map": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "lower-delta-bay-interface",
@@ -30798,7 +31224,9 @@
     "how-to-read-geopolitics-map": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "mahakali-sharda-handoff",
@@ -30894,7 +31322,9 @@
     "how-to-read-geopolitics-map": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "nea-triple-authority",
@@ -31326,7 +31756,9 @@
     "gaps": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "nepal-power-trade-schemes",
@@ -31509,7 +31941,9 @@
     "seasonal-arbitrage-trap": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "north-bihar-kosi-gandak-floodplain",
@@ -31600,7 +32034,9 @@
     "data-layer-future-regulation-scenario": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "padma-meghna-delta-dependency",
@@ -31684,7 +32120,9 @@
     "how-to-read-geopolitics-map": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "padma-meghna-delta",
@@ -31778,7 +32216,9 @@
     "bay-of-bengal-terminal": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "peak-water",
@@ -32139,7 +32579,9 @@
     "valuable": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "ppa-pricing",
@@ -32751,7 +33193,9 @@
     "disadvantage": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "project-roadmap",
@@ -33078,7 +33522,9 @@
     "firm-power": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "q-design-discharge",
@@ -33810,7 +34256,9 @@
     "unachievable": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "rooftop-minigrid-offgrid",
@@ -34247,7 +34695,9 @@
     "lives": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "run-of-river-hydropower",
@@ -34444,7 +34894,9 @@
     "storage-deficit": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "seasonal-arbitrage-trap",
@@ -34777,7 +35229,9 @@
     "belong": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "seasonal-mismatch",
@@ -35011,7 +35465,9 @@
     "firm-power": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "sediment-as-design-constraint",
@@ -35444,7 +35900,9 @@
     "add": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "solar-hydro-complementarity",
@@ -35817,7 +36275,9 @@
     "actually": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "solar-lcoe-crossover",
@@ -36190,7 +36650,9 @@
     "data": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "solar-resource-geography-nepal",
@@ -36516,7 +36978,9 @@
     "cross-reference": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "storage-deficit",
@@ -36759,7 +37223,9 @@
     "scrutiny": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "stranded-generation",
@@ -36991,7 +37457,9 @@
     "mwh": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-05-02",
+   "superseded_by": null
   },
   {
    "slug": "bottleneck-hierarchy",
@@ -37183,7 +37651,9 @@
     "update": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "downstream-river-geopolitics",
@@ -37562,7 +38032,9 @@
     "bangladesh-trade-route": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-29",
+   "superseded_by": null
   },
   {
    "slug": "ipsdp-2025-vs-wiki-claims",
@@ -37736,7 +38208,9 @@
     "political": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "master-thesis",
@@ -37973,7 +38447,9 @@
     "broad-based": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "provider-comparison",
@@ -38166,7 +38642,9 @@
     "conflicts": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "solar-in-the-master-narrative",
@@ -38433,7 +38911,9 @@
     "claim-solar-terai-only-short-cycle-build": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "solar-role-in-winter-deficit",
@@ -38855,7 +39335,9 @@
     "extends": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "start-here",
@@ -38878,7 +39360,7 @@
     "Good Starting Routes"
    ],
    "excerpt": "This wiki is a public guide to Nepal's electricity system: where power is generated, why the system can have monsoon surplus and winter scarcity at the same time, how transmission and trade shape project value, and why solar, storage, and domestic demand matter alongside hydropow",
-   "body_text": "Start Here This wiki is a public guide to Nepal's electricity system: where power is generated, why the system can have monsoon surplus and winter scarcity at the same time, how transmission and trade shape project value, and why solar, storage, and domestic demand matter alongside hydropower. The explorer has two ways in: Explore is for questions. Try it when you want to compare topics, follow a tradeoff, or ask how pieces of the system connect. Find is the page directory. Use it when you already know the page, project, source, or map layer you want. The map is not just decoration. It links basins, projects, corridors, solar zones, storage candidates, downstream river systems, and source-backed records to the notes in this wiki. The default map lens is Overview. It keeps the first view broad on purpose: basin geography, major rivers, operating hydropower, storage candidates, transmission corridors, cross-border gateways, and solar context are all visible enough to orient the reader without turning the opening map into a specialist layer stack. # First Questions seasonal-mismatch - why Nepal can export electricity in the monsoon and import in the dry season. firm-power - why dependable timing matters more than nameplate megawatts. claim-transmission-immediate-blocker - why grid delivery is now an immediate constraint on monetizing generation. storage-deficit - why Nepal has very little seasonal storage relative to its hydropower ambition. solar-hydro-complementarity - why solar is valuable even though hydropower dominates the installed electricity mix. india-energy-relationship - how India's market rules, corridors, and approvals shape export options. downstream-river-geopolitics - how Nepal's rivers connect into larger downstream systems. # System Snapshot Start with nepal-energy-profile for the country-level electricity profile. The short version is: Nepal's electricity fleet is dominated by hydropower, and most hydropower is run-of-river or peaking run-of-river. The system has moved past chronic load-shedding, but it is still not a firm year-round surplus system. Grid electricity is growing quickly, but it remains a small share of Nepal's total final energy. Biomass and imported petroleum still dominate the broader energy balance. The strategic problem is not simply \"build more MW.\" It is to turn resource potential into firm, connected, financeable, domestically useful power. # Use The Map Open data-map-layer-labels when you want to know what each map layer means. Use data-layer-nepal-tributaries for basin and river context. Use data-layer-hydropower-operating to separate operating projects from the wider licensing pipeline. Use data-layer-transmission-connected-traced-network to see the public-facing transmission corridor layer. Use data-layer-storage-shortlist for storage and storage-like projects with dry-season system value. Use data-layer-solar-plants-nea-awards and data-layer-solar-ghi-zones for solar assets and resource geography. # Follow The Evidence The wiki separates interpretation from sources: Claims are compact arguments, such as claim-mw-not-equal-value and claim-storage-physical-fix. Data pages explain tables, figures, map layers, and caveats. Source pages summarize public reports, regulations, and project records. Entity pages cover projects, basins, institutions, and country-level system actors. Some project pages are registry-backed project records. They preserve capacity, status, location, and map coverage even when there is not yet enough public material for a fuller narrative article. # Good Starting Routes For the main argument: master-thesis -> bottleneck-hierarchy -> twenty-year-strategy. For the hydropower system: run-of-river-hydropower -> seasonal-mismatch -> storage-deficit -> firm-power. For delivery and trade: stranded-generation -> claim-transmission-immediate-blocker -> india-energy-relationship. For the broader energy transition: data-final-energy-mix -> energy-substitution-pathway -> domestic-led-hydro-strategy. For solar's role: solar-in-the-master-narrative -> solar-hydro-complementarity -> solar-role-in-winter-deficit.",
+   "body_text": "Start Here This wiki is a public guide to Nepal's electricity system: where power is generated, why the system can have monsoon surplus and winter scarcity at the same time, how transmission and trade shape project value, and why solar, storage, and domestic demand matter alongside hydropower. The explorer has two ways in: Explore is for questions. Try it when you want to compare topics, follow a tradeoff, or ask how pieces of the system connect. Find is the page directory. Use it when you already know the page, project, source, or map layer you want. The map is not just decoration. It links basins, projects, corridors, solar zones, storage candidates, downstream river systems, and source-backed records to the notes in this wiki. The default map lens is Overview. It keeps the first view broad on purpose: basin geography, major rivers, operating hydropower, storage candidates, transmission corridors, cross-border gateways, and solar context are all visible enough to orient the reader without turning the opening map into a specialist layer stack. # First Questions seasonal-mismatch - why Nepal can export electricity in the monsoon and import in the dry season. firm-power - why dependable timing matters more than nameplate megawatts. claim-transmission-immediate-blocker - why grid delivery is now an immediate constraint on monetizing generation. storage-deficit - why Nepal has very little seasonal storage relative to its hydropower ambition. solar-hydro-complementarity - why solar is valuable even though hydropower dominates the installed electricity mix. india-energy-relationship - how India's market rules, corridors, and approvals shape export options. downstream-river-geopolitics - how Nepal's rivers connect into larger downstream systems. # System Snapshot Start with nepal-energy-profile for the country-level electricity profile. The short version is: Nepal's electricity fleet is dominated by hydropower, and most hydropower is run-of-river or peaking run-of-river. The system has moved past chronic load-shedding, but it is still not a firm year-round surplus system. Grid electricity is growing quickly, but it remains a small share of Nepal's total final energy. Biomass and imported petroleum still dominate the broader energy balance. The strategic problem is not simply \"build more MW.\" It is to turn resource potential into firm, connected, financeable, domestically useful power. # Use The Map Open data-map-layer-labels when you want to know what each map layer means. Use data-layer-nepal-tributaries for basin and river context. Use data-layer-hydropower-operating to separate operating projects from the wider licensing pipeline. Use data-layer-transmission-connected-traced-network to see the public-facing transmission corridor layer. Use data-layer-storage-shortlist for storage and storage-like projects with dry-season system value. Use data-layer-solar-plants-nea-awards and data-layer-solar-ghi-zones for solar assets and resource geography. # Follow The Evidence The wiki separates interpretation from sources: Claim pages make investigative arguments backed by evidence. Key claims include: - claim-transmission-immediate-blocker — grid delivery is now the binding constraint on monetization. - claim-storage-physical-fix — storage, not more RoR, is the physical solution to the seasonal mismatch. - claim-mw-not-equal-value — installed capacity numbers overstate what the system can actually deliver. - claim-timing-not-volume — Nepal does not have an energy shortage; it has a timing problem. - claim-solar-cheaper-than-small-hydro — solar now undercuts small-hydro PPA rates on an LCOE basis. - claim-climate-harder-not-easier — climate change increases hydrological volatility and tail risks. - claim-governance-binding — institutional failures are now the binding constraint, not engineering or finance. - claim-sediment-core-issue — sediment is not an O&M footnote; it is a design constraint that determines project viability. Data pages explain tables, figures, map layers, and caveats. Source pages summarize public reports, regulations, and project records. Entity pages cover projects, basins, institutions, and country-level system actors. Some project pages are registry-backed project records. They preserve capacity, status, location, and map coverage even when there is not yet enough public material for a fuller narrative article. # Good Starting Routes For the main argument: master-thesis -> bottleneck-hierarchy -> twenty-year-strategy. For the hydropower system: run-of-river-hydropower -> seasonal-mismatch -> storage-deficit -> firm-power. For delivery and trade: stranded-generation -> claim-transmission-immediate-blocker -> india-energy-relationship. For the broader energy transition: data-final-energy-mix -> energy-substitution-pathway -> domestic-led-hydro-strategy. For solar's role: solar-in-the-master-narrative -> solar-hydro-complementarity -> solar-role-in-winter-deficit.",
    "token_freq": {
     "start": 4,
     "overview": 2,
@@ -38886,16 +39368,16 @@
     "public": 4,
     "navigation": 1,
     "questions": 3,
-    "system": 10,
+    "system": 11,
     "snapshot": 2,
     "use": 8,
     "map": 9,
     "follow": 3,
-    "evidence": 2,
+    "evidence": 3,
     "starting": 2,
     "routes": 2,
     "wiki": 3,
-    "nepal": 6,
+    "nepal": 7,
     "electricity": 6,
     "power": 2,
     "generated": 1,
@@ -38907,10 +39389,10 @@
     "transmission": 3,
     "trade": 2,
     "shape": 2,
-    "project": 5,
+    "project": 6,
     "value": 2,
-    "solar": 6,
-    "storage": 5,
+    "solar": 7,
+    "storage": 6,
     "domestic": 1,
     "demand": 1,
     "matter": 1,
@@ -38977,28 +39459,28 @@
     "season": 1,
     "firm-power": 2,
     "dependable": 1,
-    "timing": 1,
+    "timing": 2,
     "matters": 1,
     "nameplate": 1,
     "megawatts": 1,
-    "claim-transmission-immediate-blocker": 2,
-    "grid": 2,
-    "delivery": 2,
-    "now": 1,
+    "claim-transmission-immediate-blocker": 3,
+    "grid": 3,
+    "delivery": 3,
+    "now": 4,
     "immediate": 1,
-    "constraint": 1,
+    "constraint": 4,
     "monetizing": 1,
     "generation": 1,
     "storage-deficit": 2,
     "little": 1,
-    "seasonal": 1,
+    "seasonal": 2,
     "relative": 1,
     "ambition": 1,
     "solar-hydro-complementarity": 2,
     "valuable": 1,
     "though": 1,
     "dominates": 1,
-    "installed": 1,
+    "installed": 2,
     "mix": 1,
     "india-energy-relationship": 2,
     "india": 1,
@@ -39029,7 +39511,7 @@
     "share": 1,
     "total": 1,
     "final": 1,
-    "energy": 3,
+    "energy": 4,
     "biomass": 1,
     "imported": 1,
     "petroleum": 1,
@@ -39037,7 +39519,7 @@
     "broader": 2,
     "balance": 1,
     "strategic": 1,
-    "problem": 1,
+    "problem": 2,
     "simply": 1,
     "build": 1,
     "turn": 1,
@@ -39069,13 +39551,57 @@
     "separates": 1,
     "interpretation": 1,
     "sources": 1,
-    "claims": 1,
-    "compact": 1,
+    "claim": 1,
+    "pages": 5,
+    "make": 1,
+    "investigative": 1,
     "arguments": 1,
-    "claim-mw-not-equal-value": 1,
+    "backed": 1,
+    "key": 1,
+    "claims": 1,
+    "include": 1,
+    "binding": 2,
+    "monetization": 1,
     "claim-storage-physical-fix": 1,
+    "ror": 1,
+    "physical": 1,
+    "solution": 1,
+    "mismatch": 1,
+    "claim-mw-not-equal-value": 1,
+    "capacity": 2,
+    "numbers": 1,
+    "overstate": 1,
+    "actually": 1,
+    "deliver": 1,
+    "claim-timing-not-volume": 1,
+    "shortage": 1,
+    "claim-solar-cheaper-than-small-hydro": 1,
+    "undercuts": 1,
+    "small-hydro": 1,
+    "ppa": 1,
+    "rates": 1,
+    "lcoe": 1,
+    "basis": 1,
+    "claim-climate-harder-not-easier": 1,
+    "climate": 1,
+    "change": 1,
+    "increases": 1,
+    "hydrological": 1,
+    "volatility": 1,
+    "tail": 1,
+    "risks": 1,
+    "claim-governance-binding": 1,
+    "institutional": 1,
+    "failures": 1,
+    "engineering": 1,
+    "finance": 1,
+    "claim-sediment-core-issue": 1,
+    "sediment": 1,
+    "footnote": 1,
+    "design": 1,
+    "determines": 1,
+    "viability": 1,
     "data": 1,
-    "pages": 4,
     "explain": 1,
     "tables": 1,
     "figures": 1,
@@ -39090,7 +39616,6 @@
     "actors": 1,
     "registry-backed": 1,
     "preserve": 1,
-    "capacity": 1,
     "status": 1,
     "location": 1,
     "coverage": 1,
@@ -39114,7 +39639,9 @@
     "solar-role-in-winter-deficit": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "twenty-year-strategy",
@@ -39312,7 +39839,9 @@
     "hydro": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "unresolved-questions",
@@ -39686,7 +40215,9 @@
     "inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "claim-climate-harder-not-easier",
@@ -39867,7 +40398,9 @@
     "sediment-as-design-constraint": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-domestic-led-strategy",
@@ -40052,7 +40585,9 @@
     "bhutan-hydropower-model": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-floating-pv-leverage",
@@ -40186,7 +40721,9 @@
     "claim-solar-terai-only-short-cycle-build": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "claim-governance-binding",
@@ -40357,7 +40894,9 @@
     "stranded-generation": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-india-decisive-actor",
@@ -40523,7 +41062,9 @@
     "bhutan-hydropower-model": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-mw-not-equal-value",
@@ -40679,7 +41220,9 @@
     "firm-power": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-pror-not-storage",
@@ -40826,7 +41369,9 @@
     "firm-power": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-ror-dominance",
@@ -40977,7 +41522,9 @@
     "data-fleet-composition": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-sediment-core-issue",
@@ -41156,7 +41703,9 @@
     "sediment-as-design-constraint": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-solar-cheaper-than-small-hydro",
@@ -41286,7 +41835,9 @@
     "seasonal-mismatch": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "claim-solar-political-coalition-is-rural",
@@ -41413,7 +41964,9 @@
     "eib-rural-solar-phase2": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "claim-solar-terai-only-short-cycle-build",
@@ -41553,7 +42106,9 @@
     "claim-solar-cheaper-than-small-hydro": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "claim-storage-physical-fix",
@@ -41721,7 +42276,9 @@
     "storage-deficit": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-systems-conversion-failure",
@@ -41887,7 +42444,9 @@
     "domestic-led-hydro-strategy": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-timing-not-volume",
@@ -42059,7 +42618,9 @@
     "firm-power": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "claim-transmission-immediate-blocker",
@@ -42338,7 +42899,9 @@
     "compilation": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-14",
+   "superseded_by": null
   },
   {
    "slug": "data-agricultural-energy-consumption",
@@ -42774,7 +43337,9 @@
     "major": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "data-basin-discharge",
@@ -43011,7 +43576,9 @@
     "carelessly": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "data-consumption-geographic-distribution",
@@ -43283,7 +43850,9 @@
     "snapshot": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "data-domestic-demand",
@@ -43756,7 +44325,9 @@
     "enable": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "data-final-energy-mix",
@@ -44227,7 +44798,9 @@
     "provides": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-24",
+   "superseded_by": null
   },
   {
    "slug": "data-fleet-composition",
@@ -44405,7 +44978,9 @@
     "clear": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "data-industrial-electricity-consumers",
@@ -44933,7 +45508,9 @@
     "irrigation": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "data-ipsdp-milestone-ladder-2022-2040",
@@ -45124,7 +45701,9 @@
     "twenty-year-strategy": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-22",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-basin-seasonality",
@@ -45229,7 +45808,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-carto-positron",
@@ -45350,7 +45931,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-cross-border-interconnection-lines",
@@ -45444,7 +46027,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-cross-border-interconnections",
@@ -45544,7 +46129,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-downstream-dependency-zones",
@@ -45733,7 +46320,9 @@
     "storage-deficit": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-downstream-impact-markers",
@@ -45842,7 +46431,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-downstream-population-anchors",
@@ -45975,7 +46566,9 @@
     "india-energy-relationship": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-floating-pv-candidates",
@@ -46072,7 +46665,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-future-regulation-scenario",
@@ -46271,7 +46866,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-29",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-grid-hubs-place-anchors",
@@ -46355,7 +46952,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-hydropower-construction",
@@ -46458,7 +47057,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-hydropower-operating",
@@ -46565,7 +47166,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-hydropower-survey-study",
@@ -46669,7 +47272,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-india-comparison-basins",
@@ -46773,7 +47378,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-india-comparison-rivers",
@@ -46867,7 +47474,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-map-text-labels",
@@ -46962,7 +47571,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-nepal-linked-basin-polygons",
@@ -47082,7 +47693,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-nepal-origin-downstream-systems",
@@ -47199,7 +47812,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-nepal-origin-ocean-routes",
@@ -47369,7 +47984,9 @@
     "data-layer-downstream-impact-markers": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-29",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-nepal-origin-route-callouts",
@@ -47534,7 +48151,9 @@
     "hydro-geopolitics": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-30",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-nepal-tributaries",
@@ -47641,7 +48260,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-origin-control-callouts",
@@ -47736,7 +48357,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-priority-watchlist",
@@ -48060,7 +48683,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-satellite-basemap",
@@ -48170,7 +48795,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-solar-ghi-zones",
@@ -48270,7 +48897,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-solar-plants-nea-awards",
@@ -48369,7 +48998,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-solar-strategic-suitability",
@@ -48463,7 +49094,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-storage-shortlist",
@@ -48783,7 +49416,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-top-10-capacity-projects",
@@ -49083,7 +49718,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-topographic-basemap",
@@ -49205,7 +49842,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-transmission-connected-traced-network",
@@ -49319,7 +49958,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-transmission-corridors-curated",
@@ -49434,7 +50075,9 @@
     "data-map-inventory": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-transmission-labels",
@@ -49519,7 +50162,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-transmission-network-nodes",
@@ -49621,7 +50266,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-transmission-raw-traced-segments",
@@ -49717,7 +50364,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-layer-transmission-trace-gaps-qa",
@@ -49819,7 +50468,9 @@
     "data-map-layer-labels": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-map-inventory",
@@ -50152,7 +50803,9 @@
     "claim-transmission-immediate-blocker": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-map-layer-labels",
@@ -50542,7 +51195,9 @@
     "ganges-contribution": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-25",
+   "superseded_by": null
   },
   {
    "slug": "data-mountain-hydro-comparison",
@@ -50899,7 +51554,9 @@
     "matters": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "data-nea-substation-capacity-fy2076-77",
@@ -51100,7 +51757,9 @@
     "modi-lekhnath-132kv": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "data-nea-transmission-length-fy2076-77",
@@ -51209,7 +51868,9 @@
     "story": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-20",
+   "superseded_by": null
   },
   {
    "slug": "data-nepal-peak-load-curve-fy2024-25",
@@ -51324,7 +51985,9 @@
     "kulekhani-cascade": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-21",
+   "superseded_by": null
   },
   {
    "slug": "data-nepal-solar-resource-zones",
@@ -51789,7 +52452,9 @@
     "plugs": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "data-pipeline-readme",
@@ -51938,7 +52603,9 @@
     "unresolved-questions": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "data-potential-pyramid",
@@ -52148,7 +52815,9 @@
     "slogan": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "data-rooftop-shs-deployment",
@@ -52563,7 +53232,9 @@
     "frame": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "data-solar-fleet-inventory",
@@ -52983,7 +53654,9 @@
     "primary": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "data-solar-hydro-complementarity-profile",
@@ -53352,7 +54025,9 @@
     "applies": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "data-solar-hydro-lcoe",
@@ -53718,7 +54393,9 @@
     "assessment": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-23",
+   "superseded_by": null
   },
   {
    "slug": "data-storage-comparison",
@@ -54002,7 +54679,9 @@
     "ratio": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   },
   {
    "slug": "data-trade-time-series",
@@ -54494,7 +55173,9 @@
     "bangladesh-trade-route": 1
    },
    "image_count": 0,
-   "is_stub": false
+   "is_stub": false,
+   "updated": "2026-04-15",
+   "superseded_by": null
   }
  ],
  "doc_freq": {
@@ -54510,7 +55191,7 @@
   "data": 157,
   "development": 38,
   "documents": 17,
-  "engineering": 37,
+  "engineering": 38,
   "expansion": 15,
   "extracted": 2,
   "financing": 46,
@@ -54518,10 +55199,10 @@
   "growth": 20,
   "hydropower": 134,
   "identifies": 5,
-  "institutional": 50,
+  "institutional": 51,
   "ipp-driven": 2,
   "ipps": 25,
-  "key": 77,
+  "key": 78,
   "mega-projects": 3,
   "model": 43,
   "nepal": 188,
@@ -54551,7 +55232,7 @@
   "2024": 50,
   "700": 12,
   "900": 25,
-  "actually": 26,
+  "actually": 27,
   "adder": 3,
   "additions": 7,
   "adjacent": 11,
@@ -54630,7 +55311,7 @@
   "extension": 8,
   "feasibility": 23,
   "fidelity": 1,
-  "finance": 23,
+  "finance": 24,
   "financier": 3,
   "fits": 4,
   "fleet": 45,
@@ -54676,7 +55357,7 @@
   "linkages": 2,
   "locations": 8,
   "look": 9,
-  "make": 25,
+  "make": 26,
   "map": 155,
   "matters": 102,
   "micro-grid": 1,
@@ -54827,7 +55508,7 @@
   "dam": 26,
   "december": 6,
   "decide": 2,
-  "design": 48,
+  "design": 49,
   "developer": 24,
   "electricity": 58,
   "equivalent": 12,
@@ -54870,7 +55551,7 @@
   "pda": 4,
   "peaking": 23,
   "phaksinda": 1,
-  "physical": 33,
+  "physical": 34,
   "power": 76,
   "powerhouse": 14,
   "pukhuwa": 1,
@@ -54925,7 +55606,7 @@
   "aiib": 2,
   "authority": 17,
   "axes": 2,
-  "basis": 26,
+  "basis": 27,
   "conversations": 1,
   "dam-toe": 2,
   "detailed": 12,
@@ -54959,7 +55640,7 @@
   "modelling": 4,
   "note": 115,
   "npr": 43,
-  "numbers": 37,
+  "numbers": 38,
   "okhaldhunga": 5,
   "operation": 24,
   "page": 59,
@@ -55404,8 +56085,8 @@
   "affecting": 5,
   "area": 38,
   "build": 33,
-  "change": 21,
-  "climate": 21,
+  "change": 22,
+  "climate": 22,
   "climate-change": 1,
   "concept": 13,
   "cryosphere": 3,
@@ -55440,7 +56121,7 @@
   "show": 18,
   "substantial": 3,
   "underpins": 1,
-  "viability": 1,
+  "viability": 2,
   "water": 59,
   "agricultural": 18,
   "basin": 74,
@@ -55465,7 +56146,7 @@
   "loads": 10,
   "people": 9,
   "research": 30,
-  "sediment": 39,
+  "sediment": 40,
   "sediment-as-design-constraint": 15,
   "shifting": 13,
   "significance": 30,
@@ -55481,7 +56162,7 @@
   "intensifying": 1,
   "interconnected": 3,
   "landslide": 5,
-  "risks": 12,
+  "risks": 13,
   "sediment-pulse": 1,
   "threats": 1,
   "treating": 10,
@@ -55558,7 +56239,7 @@
   "capacity-weighted": 2,
   "caveats": 49,
   "citation": 9,
-  "claim-solar-cheaper-than-small-hydro": 8,
+  "claim-solar-cheaper-than-small-hydro": 9,
   "coherence": 1,
   "compatible": 2,
   "complement": 10,
@@ -55600,7 +56281,7 @@
   "kwh": 21,
   "land/permitting": 1,
   "language": 3,
-  "lcoe": 17,
+  "lcoe": 18,
   "local-currency": 2,
   "long-tenor": 3,
   "macroeconomic": 3,
@@ -55626,7 +56307,7 @@
   "permits": 1,
   "plus": 16,
   "potential": 40,
-  "ppa": 42,
+  "ppa": 43,
   "predictions": 1,
   "price": 19,
   "priority": 19,
@@ -55696,10 +56377,10 @@
   "carried": 7,
   "chera-1": 3,
   "cite": 27,
-  "claim": 39,
+  "claim": 40,
   "claims": 18,
   "codifies": 1,
-  "compact": 8,
+  "compact": 7,
   "companion": 8,
   "composition": 6,
   "conclusions": 1,
@@ -55811,7 +56492,7 @@
   "reaching": 3,
   "reform": 9,
   "rest": 4,
-  "ror": 37,
+  "ror": 38,
   "sales": 14,
   "scorecard": 1,
   "scorecards": 1,
@@ -56841,7 +57522,7 @@
   "952": 4,
   "assessments": 9,
   "babai": 2,
-  "claim-timing-not-volume": 6,
+  "claim-timing-not-volume": 7,
   "cumec": 1,
   "deficit": 18,
   "described": 7,
@@ -57165,7 +57846,7 @@
   "routed": 2,
   "routes": 16,
   "sheikh": 1,
-  "solution": 3,
+  "solution": 4,
   "supplying": 1,
   "symbolic": 2,
   "transits": 2,
@@ -57428,7 +58109,7 @@
   "decision": 15,
   "default": 10,
   "degradation": 3,
-  "deliver": 5,
+  "deliver": 6,
   "easier": 7,
   "extended": 4,
   "fixed-tilt": 4,
@@ -57561,7 +58242,7 @@
   "pride": 1,
   "produced": 5,
   "ratios": 4,
-  "shortage": 4,
+  "shortage": 5,
   "slowly": 3,
   "stability": 10,
   "structured": 4,
@@ -57702,7 +58383,7 @@
   "faced": 2,
   "facing": 4,
   "failure": 17,
-  "failures": 6,
+  "failures": 7,
   "favorable": 4,
   "force": 5,
   "fy2016/17": 2,
@@ -57735,7 +58416,7 @@
   "parliamentary": 2,
   "post": 2,
   "ppa-pricing": 5,
-  "rates": 13,
+  "rates": 14,
   "re-excavation": 1,
   "reality": 4,
   "regulating": 1,
@@ -57876,7 +58557,7 @@
   "hemorrhaging": 2,
   "holding": 5,
   "https": 3,
-  "hydrological": 17,
+  "hydrological": 18,
   "indeed": 3,
   "independently": 6,
   "invoked": 2,
@@ -57947,7 +58628,7 @@
   "university": 4,
   "urja": 4,
   "url": 3,
-  "volatility": 4,
+  "volatility": 5,
   "wet/dry": 5,
   "year-round": 10,
   "amarpur": 1,
@@ -58127,7 +58808,7 @@
   "gorge": 1,
   "highways": 1,
   "hosts": 3,
-  "include": 10,
+  "include": 11,
   "landmark": 2,
   "mature": 3,
   "measures": 1,
@@ -58234,7 +58915,7 @@
   "khimti-dhalkebar-corridor": 5,
   "lender": 2,
   "loading": 3,
-  "overstate": 5,
+  "overstate": 6,
   "pane": 1,
   "publishes": 2,
   "rap-controlled": 1,
@@ -59011,7 +59692,7 @@
   "backlash": 1,
   "banke": 6,
   "bet": 2,
-  "binding": 13,
+  "binding": 14,
   "blending": 1,
   "claim-solar-terai-only-short-cycle-build": 6,
   "closures": 1,
@@ -59553,7 +60234,7 @@
   "stator": 1,
   "unit-2": 1,
   "22-24": 1,
-  "backed": 1,
+  "backed": 2,
   "bharatpur/aptari": 1,
   "checks": 2,
   "confirms": 3,
@@ -60101,7 +60782,7 @@
   "demand-led": 1,
   "demand-side": 5,
   "depopulation": 1,
-  "determines": 5,
+  "determines": 6,
   "differentials": 1,
   "dispatched": 1,
   "displace": 6,
@@ -60329,7 +61010,7 @@
   "substitute": 7,
   "succeeded": 1,
   "turning": 7,
-  "undercuts": 1,
+  "undercuts": 2,
   "value-capture": 2,
   "2029/1973": 1,
   "adverse": 1,
@@ -60524,7 +61205,7 @@
   "spreadsheets": 1,
   "sudden": 1,
   "supraglacial": 1,
-  "tail": 5,
+  "tail": 6,
   "textbook": 1,
   "unconsolidated": 1,
   "understate": 2,
@@ -61038,7 +61719,7 @@
   "high-resolution": 2,
   "hypsometry": 1,
   "icimod-hkh-glacier-change": 2,
-  "increases": 3,
+  "increases": 4,
   "indicator": 2,
   "intensify": 2,
   "inter-annual": 1,
@@ -61627,7 +62308,7 @@
   "hydropower-heavy": 1,
   "imports/exports": 1,
   "interventions": 1,
-  "mismatch": 10,
+  "mismatch": 11,
   "miss": 2,
   "property": 1,
   "reshuffling": 1,
@@ -61978,8 +62659,8 @@
   "throttle": 1,
   "uncompensated": 1,
   "ask": 4,
-  "claim-climate-harder-not-easier": 1,
-  "claim-governance-binding": 2,
+  "claim-climate-harder-not-easier": 2,
+  "claim-governance-binding": 3,
   "claim-storage-physical-fix": 5,
   "claim-systems-conversion-failure": 4,
   "creation": 2,
@@ -62176,6 +62857,7 @@
   "virtual": 2,
   "actors": 1,
   "article": 1,
+  "claim-sediment-core-issue": 1,
   "data-layer-hydropower-operating": 2,
   "data-layer-nepal-tributaries": 2,
   "data-layer-solar-ghi-zones": 2,
@@ -62183,9 +62865,13 @@
   "data-map-layer-labels": 34,
   "decoration": 1,
   "explore": 1,
+  "footnote": 3,
   "gateways": 5,
+  "investigative": 1,
+  "monetization": 2,
   "pieces": 3,
   "regulations": 1,
+  "small-hydro": 1,
   "specialist": 1,
   "topics": 1,
   "tradeoff": 1,
@@ -62413,7 +63099,6 @@
   "design/finance": 1,
   "episode": 1,
   "exemplars": 1,
-  "footnote": 2,
   "fouling": 1,
   "high-sediment": 1,
   "hydrometeorology": 1,
@@ -62512,7 +63197,6 @@
   "local-resistance": 1,
   "markichoke": 1,
   "marking": 1,
-  "monetization": 1,
   "non-curtailed": 1,
   "pacing": 1,
   "piecemeal": 1,

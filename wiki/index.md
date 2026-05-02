@@ -40,6 +40,17 @@ The explorer now opens with [[start-here]], a public entry page designed for fir
 - [[hydro-geopolitics]] - why river geography matters, but does not automatically create leverage
 - [[energy-substitution-pathway]] - how electricity can displace imported petroleum and biomass in the broader energy system
 
+## Investigative Claims
+
+- [[claim-transmission-immediate-blocker]] - grid delivery is now the binding constraint
+- [[claim-storage-physical-fix]] - storage, not more RoR, is the physical solution
+- [[claim-timing-not-volume]] - Nepal has a timing problem, not an energy shortage
+- [[claim-solar-cheaper-than-small-hydro]] - solar now undercuts small-hydro PPAs
+- [[claim-climate-harder-not-easier]] - climate change increases tail risks
+- [[claim-governance-binding]] - institutional failures are the binding constraint
+- [[claim-systems-conversion-failure]] - the system cannot convert potential into delivery
+- [[claim-sediment-core-issue]] - sediment is a design constraint, not an O&M footnote
+
 ## Reading Notes
 
 Some project pages are concise data-backed records rather than finished narrative articles. They preserve map coverage and registry facts for public navigation. Pages with fuller interpretation link out to source notes, claims, and data pages so readers can follow the evidence trail.

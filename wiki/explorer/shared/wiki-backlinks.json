@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 217,
-  "total_refs": 1686,
+  "total_targets": 218,
+  "total_refs": 1691,
   "backlinks": {
     "buildability": [
       {
@@ -4517,6 +4517,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…s not have an energy shortage; it has a timing problem. - claim-solar-cheaper-than-small-hydro — solar now undercuts small-hydro PPA rates on an LCOE basi…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-solar-terai-only-short-cycle-build",
         "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
         "category": "claims",
@@ -7478,6 +7485,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…numbers overstate what the system can actually deliver. - claim-timing-not-volume — Nepal does not have an energy shortage; it has a timing p…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-solar-cheaper-than-small-hydro",
         "title": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal",
         "category": "claims",
@@ -8192,7 +8206,7 @@
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…from sources: - **Claims** are compact arguments, such as claim-mw-not-equal-value and [[claim-storage-physical-fix]]. - **Data pages** explai…",
+        "context": "…RoR, is the physical solution to the seasonal mismatch. - claim-mw-not-equal-value — installed capacity numbers overstate what the system can…",
         "target_exists": true
       },
       {
@@ -11415,7 +11429,7 @@
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…compact arguments, such as [[claim-mw-not-equal-value]] and claim-storage-physical-fix. - **Data pages** explain tables, figures, map layers, and…",
+        "context": "…delivery is now the binding constraint on monetization. - claim-storage-physical-fix — storage, not more RoR, is the physical solution to the se…",
         "target_exists": true
       },
       {
@@ -11433,6 +11447,13 @@
         "category": "syntheses",
         "context": "…ap]] | | 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | | 7 | Project finance / institutional coordination | [[cl…",
         "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…r now undercuts small-hydro PPA rates on an LCOE basis. - claim-climate-harder-not-easier — climate change increases hydrological volatility and tail…",
+        "target_exists": true
       }
     ],
     "claim-governance-binding": [
@@ -11448,6 +11469,13 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "…e ([[claim-india-decisive-actor]]) - Governance is binding (claim-governance-binding) ## Source Quality | Evidence type | Best use | Caveat |…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…hange increases hydrological volatility and tail risks. - claim-governance-binding — institutional failures are now the binding constraint, no…",
         "target_exists": true
       }
     ],
@@ -11837,6 +11865,15 @@
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…e are strategic zones, not parcel-level siting decisions. | data-layer-solar-ghi-zones | | Solar plants | 89 | Operating solar plants plus NEA 960…",
+        "target_exists": true
+      }
+    ],
+    "claim-sediment-core-issue": [
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…now the binding constraint, not engineering or finance. - claim-sediment-core-issue — sediment is not an O&M footnote; it is a design constrain…",
         "target_exists": true
       }
     ],

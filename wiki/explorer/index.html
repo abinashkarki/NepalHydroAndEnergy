@@ -4623,7 +4623,7 @@
           loadJSON("shared/tour-manifest.json"),
           loadJSON("shared/hydropower-slug-aliases.json"),
           window.NepalExplorer.buildPageIndex(),
-          loadJSON("shared/wiki-page-meta.json"),
+          loadJSON("shared/wiki-page-meta-slim.json"),
           loadJSON("shared/wiki-search-index.json"),
           loadJSON("shared/wiki-fact-index.json"),
         ]);
@@ -4635,6 +4635,19 @@
         pageIndex = pageIndexData;
         spatialSlugs = new Set(Object.keys(bindings.pages || {}));
         pageMeta = pageMetaData;
+        // Slim format: {slug: {t, c, e, g, s, u, b}} — build pages array + bySlug lookup.
+        pageMeta.pages = Object.entries(pageMeta).map(([slug, v]) => ({
+          slug,
+          title: v.t,
+          category: v.c,
+          subcategory: v.sc || "",
+          excerpt: v.e,
+          tags: v.g || [],
+          is_stub: v.s || false,
+          updated: v.u || null,
+          superseded_by: v.b || null,
+          image_count: 0,
+        }));
         pageMeta.bySlug = Object.fromEntries(pageMeta.pages.map((p) => [p.slug, p]));
         searchIndex = new window.NepalExplorer.StaticSearchIndex(searchData);
         factIndex = new window.NepalExplorer.StaticFactIndex(factData, searchIndex);

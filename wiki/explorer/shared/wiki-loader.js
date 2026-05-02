@@ -204,6 +204,31 @@ async function renderPage(slug, opts = {}) {
   const linked = renderCallouts(rewriteWikilinks(html, idx, opts.spatialSlugs));
   const fm = opts.showFrontmatter ? `<pre class="frontmatter show">${frontmatter}</pre>` : "";
   const cat = `<div style="font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;">${category} · ${slug}</div>`;
+
+  // Superseded-by banner — points readers to the richer page.
+  const supMatch = body.match(/<!--\s*superseded-by:\s*(\S+)\s*-->/);
+  let supersededBanner = "";
+  if (supMatch) {
+    const target = supMatch[1];
+    const targetTitle = (idx.slugToTitle && idx.slugToTitle[target]) || target;
+    supersededBanner = `<aside class="wiki-callout wiki-callout-note" style="margin-bottom:16px">
+      <div class="wiki-callout-label">Updated page available</div>
+      <div class="wiki-callout-body">A more detailed page for this project exists: <a class="wikilink" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${target}')">${targetTitle}</a></div>
+    </aside>`;
+  }
+
+  // Updated date and auto-stub badge.
+  const upMatch = frontmatter.match(/^updated:\s*(.+?)\s*$/m);
+  const genMatch = frontmatter.match(/^generator:\s*(.+?)\s*$/m);
+  let freshness = "";
+  if (upMatch) {
+    freshness = `<span style="font-family:var(--sans);font-size:11px;color:var(--ink-soft);margin-left:8px">· Updated ${upMatch[1]}</span>`;
+  }
+  if (genMatch && genMatch[1].trim() === "auto-stub") {
+    freshness += `<span style="font-family:var(--sans);font-size:11px;background:var(--accent-light,#fff3cd);color:var(--accent,#856404);padding:2px 6px;border-radius:3px;margin-left:8px">Registry record — no narrative analysis yet</span>`;
+  }
+
+  const catWithFreshness = `<div style="font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;">${category} · ${slug}${freshness}</div>`;
   // Stash images on the page element via a data attribute so the lightbox
   // handler can read them without a global.
   const filmstrip = renderFilmstrip(images);
@@ -211,7 +236,7 @@ async function renderPage(slug, opts = {}) {
     ? `<script type="application/json" id="wiki-images-data">${JSON.stringify(images).replace(/</g, "\\u003c")}</script>`
     : "";
   const backlinks = renderBacklinks(slug, idx, opts.spatialSlugs);
-  return cat + fm + filmstrip + imageData + linked + backlinks;
+  return catWithFreshness + supersededBanner + fm + filmstrip + imageData + linked + backlinks;
 }
 
 window.NepalExplorer = window.NepalExplorer || {};
