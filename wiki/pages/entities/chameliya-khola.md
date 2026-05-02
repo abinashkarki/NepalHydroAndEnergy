@@ -9,6 +9,8 @@ images: []
 generator: auto-stub
 ---
 
+<!-- superseded-by: chameliya-hydropower -->
+
 # Chameliya Khola
 
 <figure class="wiki-inline-figure">

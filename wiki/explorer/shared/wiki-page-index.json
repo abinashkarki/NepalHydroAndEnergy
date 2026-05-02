@@ -156,6 +156,10 @@
         "title": "Nepal\u2013Bangladesh Electricity Trade Route"
       },
       {
+        "slug": "barahi-hydropower",
+        "title": "Barahi Hydropower"
+      },
+      {
         "slug": "betan-karnali-hp",
         "title": "Betan Karnali HP"
       },
@@ -202,6 +206,10 @@
       {
         "slug": "chameliya-attariya-132",
         "title": "Chameliya-Syaule-Attariya 132 kV Line"
+      },
+      {
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower"
       },
       {
         "slug": "chameliya-jauljibi-interconnection",
@@ -580,6 +588,10 @@
         "title": "Ratmate\u2013Rasuwagadhi\u2013Kerung 400 kV Transmission Line"
       },
       {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja \u2014 Solu Khola (Dudh Koshi) Hydroelectric Project"
+      },
+      {
         "slug": "sanjen-khola",
         "title": "Sanjen Khola"
       },
@@ -750,6 +762,10 @@
     ],
     "concepts": [
       {
+        "slug": "ad-penalties",
+        "title": "AD Penalties"
+      },
+      {
         "slug": "agrivoltaics-and-land",
         "title": "Agrivoltaics and Land"
       },
@@ -826,8 +842,16 @@
         "title": "Hydro-Geopolitics"
       },
       {
+        "slug": "hydro-insurance",
+        "title": "Hydro Insurance"
+      },
+      {
         "slug": "hydropower-potential-categories",
         "title": "Hydropower Potential Categories"
+      },
+      {
+        "slug": "ipo-hydropower-bailout",
+        "title": "IPO Hydropower Bailout"
       },
       {
         "slug": "kosi-ganges-merge",
@@ -840,6 +864,10 @@
       {
         "slug": "mahakali-sharda-handoff",
         "title": "Mahakali/Sharda Handoff"
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict"
       },
       {
         "slug": "nepal-power-trade-schemes",
@@ -862,8 +890,16 @@
         "title": "Peak Water"
       },
       {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing"
+      },
+      {
         "slug": "project-roadmap",
         "title": "Project Roadmap"
+      },
+      {
+        "slug": "q-design-discharge",
+        "title": "Q-Design Discharge"
       },
       {
         "slug": "rooftop-minigrid-offgrid",
@@ -1292,6 +1328,7 @@
     "bagmati-nadi",
     "balephi",
     "bangladesh-trade-route",
+    "barahi-hydropower",
     "betan-karnali-hp",
     "bheri-1-hep",
     "bheri-2-hep",
@@ -1304,6 +1341,7 @@
     "butwal-solar-ridi-8-5mwp",
     "chainpur-seti",
     "chameliya-attariya-132",
+    "chameliya-hydropower",
     "chameliya-jauljibi-interconnection",
     "chameliya-khola",
     "chilime-trishuli-220kv-transmission-line",
@@ -1398,6 +1436,7 @@
     "rasuwa-bhotekoshi",
     "rasuwagadhi",
     "ratmate-rasuwagadhi-kerung-400kv",
+    "sahas-urja",
     "sanjen-khola",
     "sanjen",
     "singati-khola-hydropower-project",
@@ -1440,6 +1479,7 @@
     "wecs",
     "west-seti",
     "western-132-backbone",
+    "ad-penalties",
     "agrivoltaics-and-land",
     "bay-of-bengal-terminal",
     "bihar-ganges-trunk-zone",
@@ -1459,16 +1499,21 @@
     "how-to-read-geopolitics-map",
     "hybrid-siting-logic",
     "hydro-geopolitics",
+    "hydro-insurance",
     "hydropower-potential-categories",
+    "ipo-hydropower-bailout",
     "kosi-ganges-merge",
     "lower-delta-bay-interface",
     "mahakali-sharda-handoff",
+    "nea-triple-authority",
     "nepal-power-trade-schemes",
     "north-bihar-kosi-gandak-floodplain",
     "padma-meghna-delta-dependency",
     "padma-meghna-delta",
     "peak-water",
+    "ppa-pricing",
     "project-roadmap",
+    "q-design-discharge",
     "rooftop-minigrid-offgrid",
     "run-of-river-hydropower",
     "seasonal-arbitrage-trap",
@@ -1604,6 +1649,7 @@
     "bagmati-nadi": "entities",
     "balephi": "entities",
     "bangladesh-trade-route": "entities",
+    "barahi-hydropower": "entities",
     "betan-karnali-hp": "entities",
     "bheri-1-hep": "entities",
     "bheri-2-hep": "entities",
@@ -1616,6 +1662,7 @@
     "butwal-solar-ridi-8-5mwp": "entities",
     "chainpur-seti": "entities",
     "chameliya-attariya-132": "entities",
+    "chameliya-hydropower": "entities",
     "chameliya-jauljibi-interconnection": "entities",
     "chameliya-khola": "entities",
     "chilime-trishuli-220kv-transmission-line": "entities",
@@ -1710,6 +1757,7 @@
     "rasuwa-bhotekoshi": "entities",
     "rasuwagadhi": "entities",
     "ratmate-rasuwagadhi-kerung-400kv": "entities",
+    "sahas-urja": "entities",
     "sanjen-khola": "entities",
     "sanjen": "entities",
     "singati-khola-hydropower-project": "entities",
@@ -1752,6 +1800,7 @@
     "wecs": "entities",
     "west-seti": "entities",
     "western-132-backbone": "entities",
+    "ad-penalties": "concepts",
     "agrivoltaics-and-land": "concepts",
     "bay-of-bengal-terminal": "concepts",
     "bihar-ganges-trunk-zone": "concepts",
@@ -1771,16 +1820,21 @@
     "how-to-read-geopolitics-map": "concepts",
     "hybrid-siting-logic": "concepts",
     "hydro-geopolitics": "concepts",
+    "hydro-insurance": "concepts",
     "hydropower-potential-categories": "concepts",
+    "ipo-hydropower-bailout": "concepts",
     "kosi-ganges-merge": "concepts",
     "lower-delta-bay-interface": "concepts",
     "mahakali-sharda-handoff": "concepts",
+    "nea-triple-authority": "concepts",
     "nepal-power-trade-schemes": "concepts",
     "north-bihar-kosi-gandak-floodplain": "concepts",
     "padma-meghna-delta-dependency": "concepts",
     "padma-meghna-delta": "concepts",
     "peak-water": "concepts",
+    "ppa-pricing": "concepts",
     "project-roadmap": "concepts",
+    "q-design-discharge": "concepts",
     "rooftop-minigrid-offgrid": "concepts",
     "run-of-river-hydropower": "concepts",
     "seasonal-arbitrage-trap": "concepts",
@@ -1916,6 +1970,7 @@
     "bagmati-nadi": "Bagmati Nadi",
     "balephi": "Balephi",
     "bangladesh-trade-route": "Nepal\u2013Bangladesh Electricity Trade Route",
+    "barahi-hydropower": "Barahi Hydropower",
     "betan-karnali-hp": "Betan Karnali HP",
     "bheri-1-hep": "Bheri-1 HEP",
     "bheri-2-hep": "Bheri-2 HEP",
@@ -1928,6 +1983,7 @@
     "butwal-solar-ridi-8-5mwp": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
     "chainpur-seti": "Chainpur Seti",
     "chameliya-attariya-132": "Chameliya-Syaule-Attariya 132 kV Line",
+    "chameliya-hydropower": "Chameliya Hydropower",
     "chameliya-jauljibi-interconnection": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection",
     "chameliya-khola": "Chameliya Khola",
     "chilime-trishuli-220kv-transmission-line": "Chilime-Trishuli 220 kV Transmission Line",
@@ -2022,6 +2078,7 @@
     "rasuwa-bhotekoshi": "Rasuwa Bhotekoshi",
     "rasuwagadhi": "Rasuwagadhi",
     "ratmate-rasuwagadhi-kerung-400kv": "Ratmate\u2013Rasuwagadhi\u2013Kerung 400 kV Transmission Line",
+    "sahas-urja": "Sahas Urja \u2014 Solu Khola (Dudh Koshi) Hydroelectric Project",
     "sanjen-khola": "Sanjen Khola",
     "sanjen": "Sanjen",
     "singati-khola-hydropower-project": "Singati Khola Hydropower Project",
@@ -2064,6 +2121,7 @@
     "wecs": "Water and Energy Commission Secretariat (WECS)",
     "west-seti": "West Seti Hydroelectric Project",
     "western-132-backbone": "Western Nepal 132 kV Backbone",
+    "ad-penalties": "AD Penalties",
     "agrivoltaics-and-land": "Agrivoltaics and Land",
     "bay-of-bengal-terminal": "Bay Of Bengal Terminal",
     "bihar-ganges-trunk-zone": "Bihar Ganges Trunk Zone",
@@ -2083,16 +2141,21 @@
     "how-to-read-geopolitics-map": "How To Read The Geopolitics Map",
     "hybrid-siting-logic": "Hybrid Siting Logic",
     "hydro-geopolitics": "Hydro-Geopolitics",
+    "hydro-insurance": "Hydro Insurance",
     "hydropower-potential-categories": "Hydropower Potential Categories",
+    "ipo-hydropower-bailout": "IPO Hydropower Bailout",
     "kosi-ganges-merge": "Kosi-Ganges Merge",
     "lower-delta-bay-interface": "Lower Delta And Bay Interface",
     "mahakali-sharda-handoff": "Mahakali/Sharda Handoff",
+    "nea-triple-authority": "NEA Triple-Authority Conflict",
     "nepal-power-trade-schemes": "Nepal Power Trade Schemes",
     "north-bihar-kosi-gandak-floodplain": "North Bihar Kosi-Gandak Floodplain",
     "padma-meghna-delta-dependency": "Padma-Meghna Delta Dependency",
     "padma-meghna-delta": "Padma-Meghna Delta",
     "peak-water": "Peak Water",
+    "ppa-pricing": "PPA Pricing",
     "project-roadmap": "Project Roadmap",
+    "q-design-discharge": "Q-Design Discharge",
     "rooftop-minigrid-offgrid": "Rooftop, Mini-Grid, and Off-Grid Solar",
     "run-of-river-hydropower": "Run-of-River Hydropower",
     "seasonal-arbitrage-trap": "Seasonal Arbitrage Trap",
@@ -2189,5 +2252,5 @@
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series"
   },
-  "totalPages": 310
+  "totalPages": 319
 }

@@ -2,7 +2,7 @@
 title: Stranded Generation
 type: concept
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-02
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, adb-hydropower-growth-nepal]
 tags: [curtailment, transmission, grid, monsoon, IPP, nepal]
 ---
@@ -20,6 +20,22 @@ Illustrative orders of magnitude from recent public reporting cycles include **~
 ## Small IPPs at the knife-edge
 
 Curtailment is socially and financially asymmetric. Large plants negotiate visibility; **small IPPs (<10 MW)** can be ordered to halt by the **Load Dispatch Center** when operators judge stability margins are threatened. For a leveraged rural RoR project, **zero-generation weeks** are not a cash-flow smoothing problem—they are **covenant-breaking** events. That dynamic links stranded energy to **[[buildability]]** in the financial sense: a “cheap” project that cannot run in the season it was built for is expensive.
+
+### Documented curtailment cases
+
+Industry and credit rating reports name specific projects forced into contingency or severely curtailed. No official NEA/NLDC master list has been published; the cases below are sourced from media reporting and rating agency surveillance. [UNVERIFIED: media-sourced; no NEA/NLDC primary confirmation.]
+
+| Project | Capacity (MW) | Curtailment severity | Detail |
+|---|---|---|---|
+| Super Madi | 44 | 70–73% curtailed | NEA buying only 12–15 of 44 MW. Not on any published contingency list — suggests discretionary curtailment. |
+| Nilgiri II | 71 | ~43% curtailed | Only ~40 MW generated out of 71 MW under NEA instructions. |
+| Tallo | 28.1 | ~50% curtailed | Only ~14 MW generated out of 28.1 MW. |
+| Super Dordi | 54 | ~87% curtailed | Cut to 5–7 MW after large industrial loads were disconnected. On published contingency list. |
+| Rahughat | 84 | ~100% curtailed | Operator reports all generation “completely wasted due to NEA’s dispatch restrictions” during off-peak season. |
+| Iwa Khola | 9.9 | ~100% curtailed | “Completely wasted” — zero output taken by NEA during curtailment. |
+| Upper Mardi | 7 | On contingency | Placed on NEA contingency plan, only evacuated via alternate line through 2024 monsoon. Removed from list October 2024. |
+
+In total, industry sources allege tens of projects (>500 MW aggregate) have been ordered off-line or severely limited during surplus periods. These curtailments occur under PPA and Grid Code provisions granting NEA/NLDC authority to restrict generation for “system security” — but with no guaranteed compensation for the curtailed producer. See [[nea-triple-authority]] for the institutional structure that enables uncompensated curtailment and [[ad-penalties]] for the penalty mechanism that may compound the loss.
 
 ## Transmission as national economic infrastructure
 

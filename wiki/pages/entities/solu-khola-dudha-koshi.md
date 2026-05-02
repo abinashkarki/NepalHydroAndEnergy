@@ -9,6 +9,8 @@ images: []
 generator: auto-stub
 ---
 
+<!-- superseded-by: sahas-urja -->
+
 # Solu Khola (Dudha Koshi)
 
 86 MW · under construction (generation licence) · on the Solu Khola · in Solukhumbu district.
