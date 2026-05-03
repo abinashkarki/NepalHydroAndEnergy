@@ -3089,21 +3089,38 @@ def province_name_lookup(provinces: dict[str, Any]) -> dict[str, str]:
 def load_projects() -> list[dict[str, Any]]:
     data = read_geojson(RAW / "projects_storage" / "naxa_hydropower_projects.geojson")
     province_lookup = province_name_lookup(read_geojson(RAW / "maps" / "nepal_provinces.geojson"))
+
+    # Load license type overrides for projects whose status has changed
+    # since the Naxa dataset was last refreshed (e.g. COD reached).
+    overrides: dict[str, str] = {}
+    override_path = ROOT / "data" / "license_type_overrides.csv"
+    if override_path.exists():
+        for row in read_csv_rows(override_path):
+            name = str(row.get("project", "")).strip()
+            corrected = str(row.get("corrected_license_type", "")).strip()
+            if name and corrected:
+                overrides[name] = corrected
+
     rows: list[dict[str, Any]] = []
     for feature in data["features"]:
         props = feature["properties"]
         lon, lat = feature["geometry"]["coordinates"]
         province_code = str(props.get("province_name") or props.get("province") or "")
         province_name = province_lookup.get(province_code, province_code or "Unknown")
+        license_type = props["license_type"]
+        project_name = props["project"]
+        # Apply override if this project's status has changed
+        if project_name in overrides:
+            license_type = overrides[project_name]
         rows.append(
             {
-                "project": props["project"],
+                "project": project_name,
                 "capacity_mw": props["capacity"],
                 "river": props["river"],
                 "district": props["district_name"],
                 "municipality": props.get("gapanapa_name"),
                 "province": province_name,
-                "license_type": props["license_type"],
+                "license_type": license_type,
                 "promoter": props["promoter"],
                 "lat": lat,
                 "lon": lon,

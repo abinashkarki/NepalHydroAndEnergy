@@ -291,8 +291,8 @@
   },
   "hydropower_project_anchors": {
     "tier_counts": {
-      "site": 81,
-      "river_reference": 427,
+      "site": 84,
+      "river_reference": 424,
       "raw_reference": 64
     },
     "snap_examples": [
