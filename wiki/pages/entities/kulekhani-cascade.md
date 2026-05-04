@@ -54,12 +54,12 @@ Nepal's **only operational reservoir hydropower system**. A cascade of three pla
 
 ## Specifications
 
-| Plant | Capacity (MW) | Type |
-|-------|--------------|------|
-| Kulekhani I | 60 | Reservoir |
-| Kulekhani II | 32 | Cascade |
-| Kulekhani III | 14 | Cascade |
-| **Total** | **106** | |
+| Plant | Capacity (MW) | Type | Page |
+|-------|--------------|------|------|
+| Kulekhani I | 60 | Reservoir | [[kulekhani-i]] |
+| Kulekhani II | 32 | Cascade | [[kulekhani-ii]] |
+| Kulekhani III | 14 | Cascade | |
+| **Total** | **106** | | |
 
 - Combined generation in FY 2024/25: **279.8 GWh**
 - Storage volume: ~85–150 MCM (see [[data-storage-comparison]])
@@ -70,6 +70,8 @@ Kulekhani is the outlier that proves the rule. It is the only facility in Nepal 
 
 ## Related
 
+- [[kulekhani-i]] — the upper reservoir plant (60 MW)
+- [[kulekhani-ii]] — the second cascade plant (32 MW)
 - [[data-storage-comparison]] — Nepal's storage in international context
 - [[storage-deficit]] — why this matters
 - [[firm-power]] — what Kulekhani can provide that RoR cannot

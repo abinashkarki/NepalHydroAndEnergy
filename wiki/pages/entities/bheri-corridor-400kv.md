@@ -11,7 +11,7 @@ tags: [transmission, 400kv, bheri, uttarganga, corridor]
 # Bheri Corridor 400 kV Transmission Line
 
 A planned 400 kV evacuation corridor for the western Bheri system, centred in
-the annual book on [[uttarganga-storage-hydropower-project]] and the wider
+the annual book on [[uttarganga-storage]] and the wider
 Sani Bheri IPP pipeline. In 2020 it was still a land, survey, and substation
 preparation story rather than a built line.
 
@@ -34,7 +34,7 @@ preparation story rather than a built line.
 ## Why It Matters
 
 - This is the transmission expression of the western buildability problem:
-  large projects such as [[uttarganga-storage-hydropower-project]] do not have
+  large projects such as [[uttarganga-storage]] do not have
   value without a corresponding evacuation corridor.
 - The corridor sits squarely inside the wiki's
   [[claim-transmission-immediate-blocker]] logic and is one more example of
@@ -42,7 +42,7 @@ preparation story rather than a built line.
 
 ## See also
 
-- [[uttarganga-storage-hydropower-project]]
+- [[uttarganga-storage]]
 - [[claim-transmission-immediate-blocker]]
 - [[nepal-transmission-landscape-2025]]
 - [[stranded-generation]]

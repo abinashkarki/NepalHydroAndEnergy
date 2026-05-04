@@ -84,7 +84,7 @@ The wiki explorer is intended to carry **four solar map layers**, indexed in [[d
 1. **`solar_ghi_zones`** — polygon layer, Zone A/B/C/D/E as classed polygons colored by mean GHI. Country-scale infographic.
 2. **`solar_plants`** — point layer of operating + PPA-signed + tendered utility plants (status-coded symbology). See [[data-solar-fleet-inventory]].
 3. **`solar_suitability`** — derived polygon combining Zone B + slope < 3° + <10 km to 132+ kV substation. The "where to build the next 5 GW" overlay.
-4. **`floating_pv_candidates`** — point/polygon for [[kulekhani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], [[dudhkoshi-storage]], [[mugu-karnali-storage-hep]], [[uttarganga-storage-hydropower-project]].
+4. **`floating_pv_candidates`** — point/polygon for [[kulekhani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], [[dudhkoshi-storage]], [[mugu-karnali-storage]], [[uttarganga-storage]].
 
 ### Zone polygons — classification scheme for `solar_ghi_zones`
 

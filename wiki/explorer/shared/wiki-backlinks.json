@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 255,
-  "total_refs": 1893,
+  "total_refs": 1871,
   "backlinks": {
     "buildability": [
       {
@@ -33,17 +33,10 @@
         "target_exists": true
       },
       {
-        "slug": "betan-karnali-hp",
-        "title": "Betan Karnali HP",
-        "category": "entities",
-        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability - [[upper-karnali]] - [[data-ipsdp-milestone-ladder-2022-20…",
-        "target_exists": true
-      },
-      {
         "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
-        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability",
+        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability - [[upper-karnali]] - [[data-ipsdp-milestone-ladder-2022-20…",
         "target_exists": true
       },
       {
@@ -54,24 +47,10 @@
         "target_exists": true
       },
       {
-        "slug": "bheri-1-hep",
-        "title": "Bheri-1 HEP",
-        "category": "entities",
-        "context": "…ropower project dataset ## See also - [[karnali-basin]] - buildability - [[claim-mw-not-equal-value]] - [[data-ipsdp-milestone-lad…",
-        "target_exists": true
-      },
-      {
         "slug": "bheri-1",
         "title": "Bheri-1 HEP",
         "category": "entities",
-        "context": "…ropower project dataset ## See also - [[karnali-basin]] - buildability",
-        "target_exists": true
-      },
-      {
-        "slug": "bheri-2-hep",
-        "title": "Bheri-2 HEP",
-        "category": "entities",
-        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
+        "context": "…ropower project dataset ## See also - [[karnali-basin]] - buildability - [[claim-mw-not-equal-value]] - [[data-ipsdp-milestone-lad…",
         "target_exists": true
       },
       {
@@ -117,13 +96,6 @@
         "target_exists": true
       },
       {
-        "slug": "humla-karnali-1-hpp",
-        "title": "Humla Karnali 1 HPP",
-        "category": "entities",
-        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
-        "target_exists": true
-      },
-      {
         "slug": "humla-karnali-1",
         "title": "Humla Karnali 1 HPP",
         "category": "entities",
@@ -131,22 +103,8 @@
         "target_exists": true
       },
       {
-        "slug": "humla-karnali-2-hpp",
-        "title": "Humla Karnali 2 HPP",
-        "category": "entities",
-        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
-        "target_exists": true
-      },
-      {
         "slug": "humla-karnali-2",
         "title": "Humla Karnali 2 HPP",
-        "category": "entities",
-        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
-        "target_exists": true
-      },
-      {
-        "slug": "jagdulla-hep",
-        "title": "Jagdulla HEP",
         "category": "entities",
         "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
         "target_exists": true
@@ -173,17 +131,10 @@
         "target_exists": true
       },
       {
-        "slug": "kimathanka-arun-hep",
-        "title": "Kimathanka Arun HEP",
-        "category": "entities",
-        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability - [[arun-3]] - [[data-ipsdp-milestone-ladder-2022-2040]] -…",
-        "target_exists": true
-      },
-      {
         "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
-        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability",
+        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability - [[arun-3]] - [[data-ipsdp-milestone-ladder-2022-2040]] -…",
         "target_exists": true
       },
       {
@@ -194,13 +145,6 @@
         "target_exists": true
       },
       {
-        "slug": "lantang-khola-reservoir-hydropower-project",
-        "title": "Lantang Khola Reservoir Hydropower Project",
-        "category": "entities",
-        "context": "…on table is > maintained from the registry. ## See also - buildability",
-        "target_exists": true
-      },
-      {
         "slug": "lantang-khola-reservoir",
         "title": "Lantang Khola Reservoir Hydropower Project",
         "category": "entities",
@@ -208,7 +152,7 @@
         "target_exists": true
       },
       {
-        "slug": "lower-solu-hydropower-project",
+        "slug": "lower-solu",
         "title": "Lower Solu Hydropower Project",
         "category": "entities",
         "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability - [[sahas-urja-benchmark-icra-2026]]",
@@ -219,20 +163,6 @@
         "title": "Madhya Bhotekoshi",
         "category": "entities",
         "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability - [[chilime]] - [[sector-financial-analysis-triple-authorit…",
-        "target_exists": true
-      },
-      {
-        "slug": "mugu-karnali-storage",
-        "title": "Mugu Karnali Storage HEP",
-        "category": "entities",
-        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability",
-        "target_exists": true
-      },
-      {
-        "slug": "nalsyau-gad-storage",
-        "title": "Nalsyau Gad Storage HEP",
-        "category": "entities",
-        "context": "…project registry ## See also - [[stranded-generation]] - buildability",
         "target_exists": true
       },
       {
@@ -320,17 +250,10 @@
         "target_exists": true
       },
       {
-        "slug": "uttarganga-storage-hydropower-project",
-        "title": "Uttarganga Storage Hydropower Project",
-        "category": "entities",
-        "context": "…/nea/nea_transmission_annual_book_2077.pdf) ## See also - buildability - [[storage-deficit]] - [[data-ipsdp-milestone-ladder-2022-…",
-        "target_exists": true
-      },
-      {
         "slug": "uttarganga-storage",
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
-        "context": "…ED-linked public hydropower project dataset ## See also - buildability",
+        "context": "…/nea/nea_transmission_annual_book_2077.pdf) ## See also - buildability - [[storage-deficit]] - [[data-ipsdp-milestone-ladder-2022-…",
         "target_exists": true
       },
       {
@@ -1103,14 +1026,14 @@
         "target_exists": true
       },
       {
-        "slug": "kimathanka-arun-hep",
+        "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
         "context": "…e display set and part of the same Arun corridor that makes arun-3 nationally important. <!-- generated:specs:start --> ## S…",
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…EOI reflects the India-developer pattern that runs through arun-3, [[upper-karnali]] and [[west-seti]]. Chowdhury Group's for…",
@@ -1259,7 +1182,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…eficit]] - [[upper-karnali]] - [[west-seti]] - [[arun-3]] - hydro-geopolitics - [[seasonal-mismatch]] - [[stranded-generation]]",
@@ -1471,17 +1394,10 @@
         "target_exists": true
       },
       {
-        "slug": "betan-karnali-hp",
-        "title": "Betan Karnali HP",
-        "category": "entities",
-        "context": "…aldaily.com/news/71448) ## See also - [[karnali-basin]] - stranded-generation - [[buildability]] - [[upper-karnali]] - [[data-ipsdp-miles…",
-        "target_exists": true
-      },
-      {
         "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
-        "context": "…ropower project dataset ## See also - [[karnali-basin]] - stranded-generation - [[buildability]]",
+        "context": "…aldaily.com/news/71448) ## See also - [[karnali-basin]] - stranded-generation - [[buildability]] - [[upper-karnali]] - [[data-ipsdp-miles…",
         "target_exists": true
       },
       {
@@ -1506,24 +1422,10 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
-        "title": "Mugu Karnali Storage HEP",
-        "category": "entities",
-        "context": "…ansmission masterplan at scale. Without it, Mugu Karnali is stranded-generation by construction. **Feasibility depth.** The project is at…",
-        "target_exists": true
-      },
-      {
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…urrent project registry ## See also - [[karnali-basin]] - stranded-generation - [[buildability]]",
-        "target_exists": true
-      },
-      {
-        "slug": "nalsyau-gad-storage",
-        "title": "Nalsyau Gad Storage HEP",
-        "category": "entities",
-        "context": "…plan volume 2 plus current project registry ## See also - stranded-generation - [[buildability]]",
+        "context": "…ansmission masterplan at scale. Without it, Mugu Karnali is stranded-generation by construction. **Feasibility depth.** The project is at…",
         "target_exists": true
       },
       {
@@ -1551,7 +1453,7 @@
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…- [[karnali-basin]] - [[arun-3]] - [[hydro-geopolitics]] - stranded-generation - [[run-of-river-hydropower]] - [[mugu-karnali-storage-hep]…",
+        "context": "…- [[karnali-basin]] - [[arun-3]] - [[hydro-geopolitics]] - stranded-generation - [[run-of-river-hydropower]] - [[mugu-karnali-storage]]",
         "target_exists": true
       },
       {
@@ -1746,7 +1648,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…[[storage-deficit]] and [[firm-power]] picture — more than dudhkoshi-storage, [[budhigandaki]] or any combination of smaller reservoirs…",
@@ -1791,7 +1693,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…) + [[budhigandaki]] (1,200 MW, COD speculative ~2032–35) + dudhkoshi-storage (~635 MW, COD speculative ~2033+) + [[uttarganga-storage-hy…",
+        "context": "…) + [[budhigandaki]] (1,200 MW, COD speculative ~2032–35) + dudhkoshi-storage (~635 MW, COD speculative ~2033+) + [[uttarganga-storage]]…",
         "target_exists": true
       },
       {
@@ -1826,7 +1728,7 @@
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
-        "context": "…lekhani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], dudhkoshi-storage, [[mugu-karnali-storage-hep]], [[uttarganga-storage-hydropo…",
+        "context": "…lekhani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], dudhkoshi-storage, [[mugu-karnali-storage]], [[uttarganga-storage]]. ### Zon…",
         "target_exists": true
       },
       {
@@ -1921,7 +1823,7 @@
         "slug": "mugu-karnali-feasibility-2025",
         "title": "Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)",
         "category": "sources",
-        "context": "…also - [[mugu-karnali-storage-hep]] - [[karnali-basin]] - storage-deficit",
+        "context": "…See also - [[mugu-karnali-storage]] - [[karnali-basin]] - storage-deficit",
         "target_exists": true
       },
       {
@@ -2037,7 +1939,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…ct whose success or failure genuinely rewrites the national storage-deficit and [[firm-power]] picture — more than [[dudhkoshi-storage]…",
@@ -2051,7 +1953,7 @@
         "target_exists": true
       },
       {
-        "slug": "nalsyau-gad-storage-hep",
+        "slug": "nalsyau-gad-storage",
         "title": "Nalsyau Gad Storage Hep",
         "category": "entities",
         "context": "…irm, dispatchable generation that Nepal's system lacks. See storage-deficit. The project appears on the **priority watchlist** and **t…",
@@ -2086,7 +1988,7 @@
         "target_exists": true
       },
       {
-        "slug": "uttarganga-storage-hydropower-project",
+        "slug": "uttarganga-storage",
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
         "context": "…g run-of-river concepts. Uttarganga is a direct part of the storage-deficit question. Its location in Gandaki Province also makes it a…",
@@ -3507,13 +3409,6 @@
         "title": "Khimti Cascade",
         "category": "entities",
         "context": "…e Khimti Khola is a tributary of the Tamakoshi River in the koshi-basin. The broader Khimti-Tamakoshi corridor in Dolakha includes…",
-        "target_exists": true
-      },
-      {
-        "slug": "kimathanka-arun-hep",
-        "title": "Kimathanka Arun HEP",
-        "category": "entities",
-        "context": "…50 MW | | Status | Survey / study | | River | Arun (eastern koshi-basin) | | District | Sankhuwasabha | | Province | Province No 1…",
         "target_exists": true
       },
       {
@@ -5320,7 +5215,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…naged without it — by imports, by [[tanahu-hydropower]] and kulekhani-cascade augmentation, by demand response, or by accepting unserved…",
@@ -5520,7 +5415,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…now and 2034 has to be managed without it — by imports, by tanahu-hydropower and [[kulekhani-cascade]] augmentation, by demand response,…",
@@ -5608,7 +5503,7 @@
         "target_exists": true
       },
       {
-        "slug": "betan-karnali-hp",
+        "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
         "context": "…alue, institutional Nepali financing, and dependency on how upper-karnali is finally resolved upstream. <!-- generated:specs:start -…",
@@ -5622,7 +5517,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…s the India-developer pattern that runs through [[arun-3]], upper-karnali and [[west-seti]]. Chowdhury Group's formal bid represents…",
@@ -6004,7 +5899,7 @@
         "target_exists": true
       },
       {
-        "slug": "lower-solu-hydropower-project",
+        "slug": "lower-solu",
         "title": "Lower Solu Hydropower Project",
         "category": "entities",
         "context": "…ovince No 1 | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] - [[sahas-urja-benchmark-icra-2026]]",
@@ -6039,7 +5934,7 @@
         "target_exists": true
       },
       {
-        "slug": "nalsyau-gad-storage-hep",
+        "slug": "nalsyau-gad-storage",
         "title": "Nalsyau Gad Storage Hep",
         "category": "entities",
         "context": "…ali Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[storage-deficit]] - [[firm-power]]",
@@ -6112,7 +6007,7 @@
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…run-3]] - [[hydro-geopolitics]] - [[stranded-generation]] - run-of-river-hydropower - [[mugu-karnali-storage-hep]]",
+        "context": "…run-3]] - [[hydro-geopolitics]] - [[stranded-generation]] - run-of-river-hydropower - [[mugu-karnali-storage]]",
         "target_exists": true
       },
       {
@@ -6311,21 +6206,21 @@
         "target_exists": true
       },
       {
-        "slug": "betan-karnali-hp",
+        "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
         "context": "…anded-generation]] - [[buildability]] - [[upper-karnali]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-priority-watchlist]] - [[data-layer-top-10-c…",
         "target_exists": true
       },
       {
-        "slug": "bheri-1-hep",
+        "slug": "bheri-1",
         "title": "Bheri-1 HEP",
         "category": "entities",
         "context": "…basin]] - [[buildability]] - [[claim-mw-not-equal-value]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
         "target_exists": true
       },
       {
-        "slug": "kimathanka-arun-hep",
+        "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
         "context": "…e also - [[koshi-basin]] - [[buildability]] - [[arun-3]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
@@ -6388,7 +6283,7 @@
         "target_exists": true
       },
       {
-        "slug": "uttarganga-storage-hydropower-project",
+        "slug": "uttarganga-storage",
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
         "context": "…f) ## See also - [[buildability]] - [[storage-deficit]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
@@ -6464,47 +6359,47 @@
         "target_exists": true
       }
     ],
-    "mugu-karnali-storage-hep": [
+    "mugu-karnali-storage": [
       {
         "slug": "mugu-karnali-feasibility-2025",
         "title": "Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)",
         "category": "sources",
-        "context": "…bility and no full EIA has been disclosed ## See also - mugu-karnali-storage-hep - [[karnali-basin]] - [[storage-deficit]]",
+        "context": "…bility and no full EIA has been disclosed ## See also - mugu-karnali-storage - [[karnali-basin]] - [[storage-deficit]]",
         "target_exists": true
       },
       {
         "slug": "phukot-karnali",
         "title": "Phukot Karnali",
         "category": "entities",
-        "context": "…s a medium-large Karnali project, not a mega-reservoir like mugu-karnali-storage-hep. That makes it strategically different: it is big enough to…",
+        "context": "…s a medium-large Karnali project, not a mega-reservoir like mugu-karnali-storage. That makes it strategically different: it is big enough to…",
         "target_exists": true
       },
       {
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…] - [[stranded-generation]] - [[run-of-river-hydropower]] - mugu-karnali-storage-hep",
+        "context": "…] - [[stranded-generation]] - [[run-of-river-hydropower]] - mugu-karnali-storage",
         "target_exists": true
       },
       {
         "slug": "hybrid-siting-logic",
         "title": "Hybrid Siting Logic",
         "category": "concepts",
-        "context": "…oshi-storage]] | ~1,800 | 180 | **~144 MWp** | Proposed | | mugu-karnali-storage-hep | ~9,000 | 900 | **~720 MWp** | Proposed | | [[uttarganga-s…",
+        "context": "…oshi-storage]] | ~1,800 | 180 | **~144 MWp** | Proposed | | mugu-karnali-storage | ~9,000 | 900 | **~720 MWp** | Proposed | | [[uttarganga-s…",
         "target_exists": true
       },
       {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…ative ~2033+) + [[uttarganga-storage-hydropower-project]] + mugu-karnali-storage-hep. Aggregate new dry-season generation ~2,000–3,500 GWh/winte…",
+        "context": "…~635 MW, COD speculative ~2033+) + [[uttarganga-storage]] + mugu-karnali-storage. Aggregate new dry-season generation ~2,000–3,500 GWh/winte…",
         "target_exists": true
       },
       {
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
-        "context": "…nahu-hydropower]], [[budhigandaki]], [[dudhkoshi-storage]], mugu-karnali-storage-hep, [[uttarganga-storage-hydropower-project]]. ### Zone polyg…",
+        "context": "…nahu-hydropower]], [[budhigandaki]], [[dudhkoshi-storage]], mugu-karnali-storage, [[uttarganga-storage]]. ### Zone polygons — classificatio…",
         "target_exists": true
       }
     ],
@@ -6513,7 +6408,7 @@
         "slug": "mugu-karnali-feasibility-2025",
         "title": "Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)",
         "category": "sources",
-        "context": "…en disclosed ## See also - [[mugu-karnali-storage-hep]] - karnali-basin - [[storage-deficit]]",
+        "context": "…s been disclosed ## See also - [[mugu-karnali-storage]] - karnali-basin - [[storage-deficit]]",
         "target_exists": true
       },
       {
@@ -6538,13 +6433,6 @@
         "target_exists": true
       },
       {
-        "slug": "betan-karnali-hp",
-        "title": "Betan Karnali HP",
-        "category": "entities",
-        "context": "…y | 688 MW | | Status | Survey / study | | River | Karnali (karnali-basin) | | District | Achham | | Province | Sudurpashchim Pradesh…",
-        "target_exists": true
-      },
-      {
         "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
@@ -6559,24 +6447,10 @@
         "target_exists": true
       },
       {
-        "slug": "bheri-1-hep",
-        "title": "Bheri-1 HEP",
-        "category": "entities",
-        "context": "…ity | 440 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Rukum_W | | Province | Karnali Pradesh | |…",
-        "target_exists": true
-      },
-      {
         "slug": "bheri-1",
         "title": "Bheri-1 HEP",
         "category": "entities",
         "context": "…ity | 440 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Rukum_W | | Province | Karnali Pradesh | |…",
-        "target_exists": true
-      },
-      {
-        "slug": "bheri-2-hep",
-        "title": "Bheri-2 HEP",
-        "category": "entities",
-        "context": "…ity | 256 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
         "target_exists": true
       },
       {
@@ -6594,22 +6468,8 @@
         "target_exists": true
       },
       {
-        "slug": "humla-karnali-1-hpp",
-        "title": "Humla Karnali 1 HPP",
-        "category": "entities",
-        "context": "…5 MW | | Status | Survey / study | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
-        "target_exists": true
-      },
-      {
         "slug": "humla-karnali-1",
         "title": "Humla Karnali 1 HPP",
-        "category": "entities",
-        "context": "…5 MW | | Status | Survey / study | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
-        "target_exists": true
-      },
-      {
-        "slug": "humla-karnali-2-hpp",
-        "title": "Humla Karnali 2 HPP",
         "category": "entities",
         "context": "…5 MW | | Status | Survey / study | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
         "target_exists": true
@@ -6619,13 +6479,6 @@
         "title": "Humla Karnali 2 HPP",
         "category": "entities",
         "context": "…5 MW | | Status | Survey / study | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
-        "target_exists": true
-      },
-      {
-        "slug": "jagdulla-hep",
-        "title": "Jagdulla HEP",
-        "category": "entities",
-        "context": "…ity | 307 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
         "target_exists": true
       },
       {
@@ -6671,17 +6524,10 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
-        "title": "Mugu Karnali Storage HEP",
-        "category": "entities",
-        "context": "…Pre-feasibility; PPP bidding underway | | River | Karnali (karnali-basin) | | District | Mugu (registry primary); Bajura referenced…",
-        "target_exists": true
-      },
-      {
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…| 1902 MW | | Status | Survey / study | | River | Karnali (karnali-basin) | | District | Bajura | | Province | Sudurpashchim Pradesh…",
+        "context": "…Pre-feasibility; PPP bidding underway | | River | Karnali (karnali-basin) | | District | Mugu (registry primary); Bajura referenced…",
         "target_exists": true
       },
       {
@@ -8401,7 +8247,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…RoR under-generation in the dry season are the two faces of seasonal-mismatch; a 1,900 MW asset that can time-shift energy across days an…",
@@ -8706,7 +8552,7 @@
         "target_exists": true
       },
       {
-        "slug": "betan-karnali-hp",
+        "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
         "context": "…-licence / investment-approval project. It is pinned in the data-layer-priority-watchlist and [[data-layer-top-10-capacity-projects]] because it sits…",
@@ -8927,7 +8773,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…ure genuinely rewrites the national [[storage-deficit]] and firm-power picture — more than [[dudhkoshi-storage]], [[budhigandaki]]…",
@@ -8941,7 +8787,7 @@
         "target_exists": true
       },
       {
-        "slug": "nalsyau-gad-storage-hep",
+        "slug": "nalsyau-gad-storage",
         "title": "Nalsyau Gad Storage Hep",
         "category": "entities",
         "context": "…Also - [[run-of-river-hydropower]] - [[storage-deficit]] - firm-power",
@@ -9227,21 +9073,21 @@
     ],
     "data-layer-top-10-capacity-projects": [
       {
-        "slug": "betan-karnali-hp",
+        "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
         "context": "…. It is pinned in the [[data-layer-priority-watchlist]] and data-layer-top-10-capacity-projects because it sits directly in the Karnali buildout story: lar…",
         "target_exists": true
       },
       {
-        "slug": "bheri-1-hep",
+        "slug": "bheri-1",
         "title": "Bheri-1 HEP",
         "category": "entities",
         "context": "…t is not on the priority watchlist, but it is pinned by the data-layer-top-10-capacity-projects layer because it is one of the ten largest capacity records…",
         "target_exists": true
       },
       {
-        "slug": "kimathanka-arun-hep",
+        "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
         "context": "…stage project on the Arun in Sankhuwasabha. It is pinned in data-layer-top-10-capacity-projects because it is the eighth-largest marker in the display set…",
@@ -9262,7 +9108,7 @@
         "target_exists": true
       },
       {
-        "slug": "uttarganga-storage-hydropower-project",
+        "slug": "uttarganga-storage",
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
         "context": "…wer project in Baglung promoted by NEA. It is pinned in the data-layer-top-10-capacity-projects layer because it is the fourth-largest capacity marker in t…",
@@ -9285,7 +9131,7 @@
     ],
     "claim-mw-not-equal-value": [
       {
-        "slug": "bheri-1-hep",
+        "slug": "bheri-1",
         "title": "Bheri-1 HEP",
         "category": "entities",
         "context": "…comparison. This is exactly the kind of project that tests claim-mw-not-equal-value. A 440 MW survey marker can look decisive on a map, but the…",
@@ -9348,33 +9194,33 @@
         "target_exists": true
       }
     ],
-    "uttarganga-storage-hydropower-project": [
+    "uttarganga-storage": [
       {
         "slug": "bheri-corridor-400kv",
         "title": "Bheri Corridor 400 kV Transmission Line",
         "category": "entities",
-        "context": "…for the western Bheri system, centred in the annual book on uttarganga-storage-hydropower-project and the wider Sani Bheri IPP pipeline. In 2020 it was still…",
+        "context": "…for the western Bheri system, centred in the annual book on uttarganga-storage and the wider Sani Bheri IPP pipeline. In 2020 it was still…",
         "target_exists": true
       },
       {
         "slug": "hybrid-siting-logic",
         "title": "Hybrid Siting Logic",
         "category": "concepts",
-        "context": "…-storage-hep]] | ~9,000 | 900 | **~720 MWp** | Proposed | | uttarganga-storage-hydropower-project | ~2,400 | 240 | **~192 MWp** | Proposed | Even at conserv…",
+        "context": "…nali-storage]] | ~9,000 | 900 | **~720 MWp** | Proposed | | uttarganga-storage | ~2,400 | 240 | **~192 MWp** | Proposed | Even at conserv…",
         "target_exists": true
       },
       {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…+ [[dudhkoshi-storage]] (~635 MW, COD speculative ~2033+) + uttarganga-storage-hydropower-project + [[mugu-karnali-storage-hep]]. Aggregate new dry-season ge…",
+        "context": "…+ [[dudhkoshi-storage]] (~635 MW, COD speculative ~2033+) + uttarganga-storage + [[mugu-karnali-storage]]. Aggregate new dry-season genera…",
         "target_exists": true
       },
       {
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
-        "context": "…aki]], [[dudhkoshi-storage]], [[mugu-karnali-storage-hep]], uttarganga-storage-hydropower-project. ### Zone polygons — classification scheme for…",
+        "context": "…gandaki]], [[dudhkoshi-storage]], [[mugu-karnali-storage]], uttarganga-storage. ### Zone polygons — classification scheme for…",
         "target_exists": true
       }
     ],
@@ -9574,7 +9420,7 @@
         "slug": "bheri-corridor-400kv",
         "title": "Bheri Corridor 400 kV Transmission Line",
         "category": "entities",
-        "context": "…ower-project]] - [[claim-transmission-immediate-blocker]] - nepal-transmission-landscape-2025 - [[stranded-generation]]",
+        "context": "…anga-storage]] - [[claim-transmission-immediate-blocker]] - nepal-transmission-landscape-2025 - [[stranded-generation]]",
         "target_exists": true
       },
       {
@@ -9665,7 +9511,7 @@
         "slug": "tingla-132-33kv-substation",
         "title": "Tingla 132/33 kV Substation",
         "category": "entities",
-        "context": "…[[claim-transmission-immediate-blocker]] and the later nepal-transmission-landscape-2025 synthesis. ## See also - [[solu-hydropower-project]] - [[…",
+        "context": "…[[claim-transmission-immediate-blocker]] and the later nepal-transmission-landscape-2025 synthesis. ## See also - [[solu]] - [[solu-khola-dudha-ko…",
         "target_exists": true
       },
       {
@@ -10345,7 +10191,7 @@
         "target_exists": true
       },
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…d [[firm-power]] picture — more than [[dudhkoshi-storage]], budhigandaki or any combination of smaller reservoirs in the current pip…",
@@ -10453,7 +10299,7 @@
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
-        "context": "…t/polygon for [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki, [[dudhkoshi-storage]], [[mugu-karnali-storage-hep]], [[utt…",
+        "context": "…t/polygon for [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki, [[dudhkoshi-storage]], [[mugu-karnali-storage]], [[uttarga…",
         "target_exists": true
       }
     ],
@@ -10924,7 +10770,7 @@
     ],
     "sahas-urja-benchmark-icra-2026": [
       {
-        "slug": "lower-solu-hydropower-project",
+        "slug": "lower-solu",
         "title": "Lower Solu Hydropower Project",
         "category": "entities",
         "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - sahas-urja-benchmark-icra-2026",
@@ -10983,7 +10829,7 @@
     ],
     "west-seti": [
       {
-        "slug": "mugu-karnali-storage-hep",
+        "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…pattern that runs through [[arun-3]], [[upper-karnali]] and west-seti. Chowdhury Group's formal bid represents Bangladeshi develo…",
@@ -11214,12 +11060,12 @@
         "target_exists": true
       }
     ],
-    "upper-dordi-a-hep": [
+    "upper-dordi-a": [
       {
         "slug": "super-dordi-kha-hydropower-project",
         "title": "Super Dordi Kha Hydropower Project",
         "category": "entities",
-        "context": "…stry tier — distinct from \"Upper\". On the same Dordi river, upper-dordi-a-hep (25 MW) and [[dordi-khola]] (27 MW) are separate projects.…",
+        "context": "…stry tier — distinct from \"Upper\". On the same Dordi river, upper-dordi-a (25 MW) and [[dordi-khola]] (27 MW) are separate projects.…",
         "target_exists": true
       }
     ],
@@ -11228,7 +11074,7 @@
         "slug": "super-dordi-kha-hydropower-project",
         "title": "Super Dordi Kha Hydropower Project",
         "category": "entities",
-        "context": "…On the same Dordi river, [[upper-dordi-a-hep]] (25 MW) and dordi-khola (27 MW) are separate projects. Super Dordi Kha (49.6 MW) is…",
+        "context": "…er\". On the same Dordi river, [[upper-dordi-a]] (25 MW) and dordi-khola (27 MW) are separate projects. Super Dordi Kha (49.6 MW) is…",
         "target_exists": true
       }
     ],
@@ -11352,12 +11198,12 @@
         "target_exists": true
       }
     ],
-    "solu-hydropower-project": [
+    "solu": [
       {
         "slug": "tingla-132-33kv-substation",
         "title": "Tingla 132/33 kV Substation",
         "category": "entities",
-        "context": "…al-transmission-landscape-2025]] synthesis. ## See also - solu-hydropower-project - [[solu-khola-dudha-koshi]] - [[claim-transmission-immedia…",
+        "context": "…al-transmission-landscape-2025]] synthesis. ## See also - solu - [[solu-khola-dudha-koshi]] - [[claim-transmission-immedia…",
         "target_exists": true
       }
     ],
@@ -11366,7 +11212,7 @@
         "slug": "tingla-132-33kv-substation",
         "title": "Tingla 132/33 kV Substation",
         "category": "entities",
-        "context": "…]] synthesis. ## See also - [[solu-hydropower-project]] - solu-khola-dudha-koshi - [[claim-transmission-immediate-blocker]] - [[nepal-transm…",
+        "context": "…sion-landscape-2025]] synthesis. ## See also - [[solu]] - solu-khola-dudha-koshi - [[claim-transmission-immediate-blocker]] - [[nepal-transm…",
         "target_exists": true
       }
     ],

@@ -31,7 +31,7 @@ On any realistic load-growth scenario, the **dry-season gap triples by 2035 if n
 
 **Mechanism:** Shift monsoon water into dry-season generation. The [[claim-storage-physical-fix]] answer.
 
-**Realistic 2035 contribution:** [[tanahu-hydropower]] (140 MW, COD ~2027–28) + [[budhigandaki]] (1,200 MW, COD speculative ~2032–35) + [[dudhkoshi-storage]] (~635 MW, COD speculative ~2033+) + [[uttarganga-storage-hydropower-project]] + [[mugu-karnali-storage-hep]]. Aggregate new dry-season generation ~2,000–3,500 GWh/winter-season if schedule holds.
+**Realistic 2035 contribution:** [[tanahu-hydropower]] (140 MW, COD ~2027–28) + [[budhigandaki]] (1,200 MW, COD speculative ~2032–35) + [[dudhkoshi-storage]] (~635 MW, COD speculative ~2033+) + [[uttarganga-storage]] + [[mugu-karnali-storage]]. Aggregate new dry-season generation ~2,000–3,500 GWh/winter-season if schedule holds.
 
 **Physical advantage:** Dispatchable; provides capacity credit for evening peak; non-intermittent.
 

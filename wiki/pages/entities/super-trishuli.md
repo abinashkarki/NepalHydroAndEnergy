@@ -12,6 +12,9 @@ images: []
 
 Super Trishuli is a 100 MW run-of-river hydropower project under construction on the Trishuli River — the largest project in the Trishuli cascade's current development pipeline.
 
+> [!note] **Disambiguation**
+> "Super" is the official Nepal DoED/MoE registry tier — distinct from "Upper". The Trishuli corridor hosts multiple named tiers: [[upper-trishuli-3a]] (60 MW), [[upper-trishuli-3b]] (37 MW), [[upper-trishuli-1]] (216 MW), [[trishuli]] (Devighat), and Super Trishuli (100 MW). Each is a separate asset with its own promoter, PPA, and status. See [[trishuli-cascade]] for the corridor overview.
+
 ## Trishuli System
 
 The Trishuli River is Nepal's most heavily developed hydropower corridor, benefiting from proximity to Kathmandu's load center and established transmission infrastructure. The cascade includes multiple projects at various stages: the original Trishuli Devighat plant, Upper Trishuli 3A (60 MW, NEA-owned, operating), Upper Trishuli 3B (37 MW, subsidiary, under construction), and Super Trishuli (100 MW). Together, these projects extract significant energy from the Trishuli's flow, but also concentrate risk — geological events, sediment surges, or flow alterations from upstream projects cascade through the entire system.

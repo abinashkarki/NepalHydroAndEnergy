@@ -6,12 +6,12 @@ updated: 2026-04-25
 sources: [nea-transmission-annual-book-2077, moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, baglung]
 images:
-  - src: uttarganga-storage-hydropower-project/nea2077-p192-img01.png
+  - src: uttarganga-storage/nea2077-p192-img01.png
     caption: "High level visit at the Project Site"
     credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
-  - src: uttarganga-storage-hydropower-project/nea2077-p193-img01.png
+  - src: uttarganga-storage/nea2077-p193-img01.png
     caption: "Proposed Reservoir Area"
     credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
     license: gov-permissive
@@ -65,12 +65,12 @@ both a site-visit image and a second page showing the proposed
 reservoir area alongside core dam, tunnel and powerhouse parameters.
 
 <figure class="wiki-inline-figure">
-  <img src="../assets/images/uttarganga-storage-hydropower-project/nea-site-visit-page.png" alt="Uttarganga project company page">
+  <img src="../assets/images/uttarganga-storage/nea-site-visit-page.png" alt="Uttarganga project company page">
   <figcaption>NEA annual-book page covering the project company and a high-level visit to the site.</figcaption>
 </figure>
 
 <figure class="wiki-inline-figure">
-  <img src="../assets/images/uttarganga-storage-hydropower-project/nea-proposed-reservoir-area-page.png" alt="Uttarganga proposed reservoir area">
+  <img src="../assets/images/uttarganga-storage/nea-proposed-reservoir-area-page.png" alt="Uttarganga proposed reservoir area">
   <figcaption>NEA annual-book page showing the proposed reservoir area and project description.</figcaption>
 </figure>
 

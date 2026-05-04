@@ -43,7 +43,7 @@ Phukot Karnali is a 426-480 MW peaking run-of-river project on the Karnali in Ka
 
 ## Why It Matters
 
-Phukot is a medium-large Karnali project, not a mega-reservoir like [[mugu-karnali-storage-hep]]. That makes it strategically different: it is big enough to matter for the western generation stack, but small enough that its buildability, access, and evacuation questions are less extreme than the very largest Karnali schemes.
+Phukot is a medium-large Karnali project, not a mega-reservoir like [[mugu-karnali-storage]]. That makes it strategically different: it is big enough to matter for the western generation stack, but small enough that its buildability, access, and evacuation questions are less extreme than the very largest Karnali schemes.
 
 VUCL's project-status material describes a project in Kalikot using Karnali River flow, feeding the integrated power system at the proposed Regil grid substation. The same status document lists a 474 MW main underground powerhouse, six 79 MW Francis units, an additional 6 MW environmental-release powerhouse, a 400 kV double-circuit evacuation line of about 2.3 km to Regil, and an estimated construction duration of about five years once full construction starts.
 

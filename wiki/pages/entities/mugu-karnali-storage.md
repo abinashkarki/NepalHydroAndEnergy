@@ -6,11 +6,11 @@ updated: 2026-04-20
 sources: [mugu-karnali-feasibility-2025]
 tags: [project, watchlist, top-capacity, survey, karnali, mugu, bajura, storage, pumped-storage, vuc, ppp]
 images:
-  - src: mugu-karnali-storage-hep/official-layout.jpg
+  - src: mugu-karnali-storage/official-layout.jpg
     caption: Official project layout image published on the VUCL Mugu Karnali Storage HEP page.
     credit: Vidhyut Utpadan Company Limited (VUCL)
     source_url: "https://www.vucl.org/projects/mugu-karnali-storage-hep"
-  - src: mugu-karnali-storage-hep/valley-mugu-karnali-river-near-gangadhi-panoramio.jpg
+  - src: mugu-karnali-storage/valley-mugu-karnali-river-near-gangadhi-panoramio.jpg
     caption: Valley Mugu Karnali river near Gangadhi.
     credit: Sergey Pashko
     license: CC BY 3.0

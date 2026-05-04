@@ -12,6 +12,9 @@ images: []
 
 Super Madi is a 44 MW run-of-river hydropower project under construction on the Madi Khola in Kaski district, Gandaki Province.
 
+> [!note] **Disambiguation**
+> "Super" is the official tier designation in the Nepal DoED/MoE registry — distinct from "Upper". On the same Madi Khola, [[upper-madi]] (25 MW) is an upstream operating plant, while Super Madi (44 MW) is a larger downstream project under construction. These are separate assets with different promoters and PPAs.
+
 ## Significance
 
 At 44 MW, Super Madi is a mid-sized project by Nepal's under-construction standards, but noteworthy for its location in the Madi River system — a tributary of the Seti Gandaki/Narayani system in western Nepal's hydropower-rich Gandaki basin. The Madi Khola valley in Kaski has seen successive rounds of hydropower development, with multiple projects operating or under construction in close proximity.

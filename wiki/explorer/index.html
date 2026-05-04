@@ -3552,6 +3552,9 @@
           });
         }
 
+        // Clear any persistent cascade marker glow from the previous page.
+        if (lm && typeof lm.clearCascadeGlow === "function") lm.clearCascadeGlow();
+
         const binding = bindings.pages[slug];
         if (!binding) {
           document.getElementById("map-info").innerHTML = "<b>" + slug + "</b><br/>Reader page · map stays on the current lens.";
@@ -3600,6 +3603,8 @@
                 map.flyTo(card.layer.getLatLng(), 12, { duration: 0.9 });
               }
               lm.highlight([card], { revertAfterMs: 4500 });
+              // Cascade overview pages: persistent glimmer even on single-card hit.
+              if (slug.endsWith("-cascade")) lm.glowCascadeMarkers(feats);
               // Wait for the flyTo animation before opening the card so autoPan
               // doesn't fight the camera.
               setTimeout(() => {
@@ -3610,6 +3615,8 @@
               // Broad hit (basin polygon, multi-segment corridor): keep current behavior.
               lm.flyToFeatures(feats, { duration: 0.9, maxZoom: 9 });
               lm.highlight(feats, { revertAfterMs: 4000 });
+              // Cascade overview pages: persistent glimmer on matched badge markers.
+              if (slug.endsWith("-cascade")) lm.glowCascadeMarkers(feats);
             }
           } else if (binding.focus) {
             map.flyTo(binding.focus.center, binding.focus.zoom || 8, { duration: 0.9 });

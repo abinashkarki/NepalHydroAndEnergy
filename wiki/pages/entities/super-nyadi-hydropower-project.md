@@ -13,6 +13,9 @@ generator: auto-stub
 
 40.27 MW · under construction (generation licence) · on the Nyadi · in Lamjung district.
 
+> [!note] **Disambiguation**
+> "Super" is the official Nepal DoED/MoE registry tier — distinct from "Upper". On the same Nyadi river, [[nyadi-khola]] (30 MW) is a separate under-construction project. Super Nyadi is the larger downstream plant in the Nyadi cascade.
+
 <!-- generated:specs:start -->
 
 ## Specifications

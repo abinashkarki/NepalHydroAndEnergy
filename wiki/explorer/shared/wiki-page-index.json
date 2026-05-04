@@ -172,24 +172,12 @@
         "title": "Barahi Hydropower"
       },
       {
-        "slug": "betan-karnali-hp",
-        "title": "Betan Karnali HP"
-      },
-      {
         "slug": "betan-karnali",
         "title": "Betan Karnali HP"
       },
       {
-        "slug": "bheri-1-hep",
-        "title": "Bheri-1 HEP"
-      },
-      {
         "slug": "bheri-1",
         "title": "Bheri-1 HEP"
-      },
-      {
-        "slug": "bheri-2-hep",
-        "title": "Bheri-2 HEP"
       },
       {
         "slug": "bheri-2",
@@ -308,16 +296,8 @@
         "title": "Hetauda\u2013Dhalkebar\u2013Inaruwa 400 kV Backbone"
       },
       {
-        "slug": "humla-karnali-1-hpp",
-        "title": "Humla Karnali 1 HPP"
-      },
-      {
         "slug": "humla-karnali-1",
         "title": "Humla Karnali 1 HPP"
-      },
-      {
-        "slug": "humla-karnali-2-hpp",
-        "title": "Humla Karnali 2 HPP"
       },
       {
         "slug": "humla-karnali-2",
@@ -330,10 +310,6 @@
       {
         "slug": "india-energy-relationship",
         "title": "India \u2014 Energy Relationship with Nepal"
-      },
-      {
-        "slug": "jagdulla-hep",
-        "title": "Jagdulla HEP"
       },
       {
         "slug": "jagdulla",
@@ -376,10 +352,6 @@
         "title": "Karnali Solar Energy Project"
       },
       {
-        "slug": "kasuwa-khola-hpp",
-        "title": "Kasuwa Khola HPP"
-      },
-      {
         "slug": "kasuwa-khola",
         "title": "Kasuwa Khola HPP"
       },
@@ -398,10 +370,6 @@
       {
         "slug": "khani-khola-dolakha",
         "title": "Khani Khola (Dolakha)"
-      },
-      {
-        "slug": "khare-hydropower-project",
-        "title": "Khare Hydropower Project"
       },
       {
         "slug": "khare",
@@ -432,10 +400,6 @@
         "title": "Khungri Solar Hybrid (50 MW, Pyuthan)"
       },
       {
-        "slug": "kimathanka-arun-hep",
-        "title": "Kimathanka Arun HEP"
-      },
-      {
         "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP"
       },
@@ -462,10 +426,6 @@
       {
         "slug": "kulekhani-ii",
         "title": "Kulekhani II"
-      },
-      {
-        "slug": "lantang-khola-reservoir-hydropower-project",
-        "title": "Lantang Khola Reservoir Hydropower Project"
       },
       {
         "slug": "lantang-khola-reservoir",
@@ -514,10 +474,6 @@
       {
         "slug": "lower-modi-khola",
         "title": "Lower Modi Khola"
-      },
-      {
-        "slug": "lower-solu-hydropower-project",
-        "title": "Lower Solu Hydropower Project"
       },
       {
         "slug": "lower-solu",
@@ -588,10 +544,6 @@
         "title": "Mristi Khola"
       },
       {
-        "slug": "mugu-karnali-storage-hep",
-        "title": "Mugu Karnali Storage HEP"
-      },
-      {
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP"
       },
@@ -600,12 +552,8 @@
         "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone"
       },
       {
-        "slug": "nalsyau-gad-storage-hep",
-        "title": "Nalsyau Gad Storage Hep"
-      },
-      {
         "slug": "nalsyau-gad-storage",
-        "title": "Nalsyau Gad Storage HEP"
+        "title": "Nalsyau Gad Storage Hep"
       },
       {
         "slug": "nalsyau-gad",
@@ -694,10 +642,6 @@
       {
         "slug": "singati-khola-hydropower-project",
         "title": "Singati Khola Hydropower Project"
-      },
-      {
-        "slug": "solu-hydropower-project",
-        "title": "Solu Hydropower Project"
       },
       {
         "slug": "solu-khola-dudha-koshi",
@@ -804,10 +748,6 @@
         "title": "Upper Chaku A"
       },
       {
-        "slug": "upper-dordi-a-hep",
-        "title": "Upper Dordi A HEP"
-      },
-      {
         "slug": "upper-dordi-a",
         "title": "Upper Dordi A HEP"
       },
@@ -866,10 +806,6 @@
       {
         "slug": "upper-trishuli-3b",
         "title": "Upper Trishuli 3B"
-      },
-      {
-        "slug": "uttarganga-storage-hydropower-project",
-        "title": "Uttarganga Storage Hydropower Project"
       },
       {
         "slug": "uttarganga-storage",
@@ -1482,11 +1418,8 @@
     "balephi",
     "bangladesh-trade-route",
     "barahi-hydropower",
-    "betan-karnali-hp",
     "betan-karnali",
-    "bheri-1-hep",
     "bheri-1",
-    "bheri-2-hep",
     "bheri-2",
     "bheri-4",
     "bheri-corridor-400kv",
@@ -1516,13 +1449,10 @@
     "gorakhpur-butwal-interconnection",
     "hetauda-bharatpur-bardaghat-corridor",
     "hetauda-dhalkebar-inaruwa-backbone",
-    "humla-karnali-1-hpp",
     "humla-karnali-1",
-    "humla-karnali-2-hpp",
     "humla-karnali-2",
     "inaruwa-purnea-interconnection",
     "india-energy-relationship",
-    "jagdulla-hep",
     "jagdulla",
     "kabeli-132",
     "kabeli-a",
@@ -1533,13 +1463,11 @@
     "karnali-basin",
     "karnali-chisapani",
     "karnali-solar-energy-project",
-    "kasuwa-khola-hpp",
     "kasuwa-khola",
     "kataiya-kushaha-interconnection",
     "kathmandu-valley-underground-cabling",
     "khani-khola-1",
     "khani-khola-dolakha",
-    "khare-hydropower-project",
     "khare",
     "khimti-cascade",
     "khimti-dhalkebar-corridor",
@@ -1547,7 +1475,6 @@
     "khimti-ii",
     "khudi-220-132kv-substation",
     "khungri-solar-hybrid-50mw",
-    "kimathanka-arun-hep",
     "kimathanka-arun",
     "kohalpur-surkhet-dailekh-132",
     "kokhajor-1",
@@ -1555,7 +1482,6 @@
     "kulekhani-cascade",
     "kulekhani-i",
     "kulekhani-ii",
-    "lantang-khola-reservoir-hydropower-project",
     "lantang-khola-reservoir",
     "lapche-khola",
     "likhu-1",
@@ -1568,7 +1494,6 @@
     "lower-jhimruk",
     "lower-likhu",
     "lower-modi-khola",
-    "lower-solu-hydropower-project",
     "lower-solu",
     "madhya-bhotekoshi",
     "madhya-marsyangdi",
@@ -1586,10 +1511,8 @@
     "mithila-solar-dhanusha-10mwp",
     "modi-lekhnath-132kv",
     "mristi-khola",
-    "mugu-karnali-storage-hep",
     "mugu-karnali-storage",
     "mustang-high-altitude-solar-zone",
-    "nalsyau-gad-storage-hep",
     "nalsyau-gad-storage",
     "nalsyau-gad",
     "naumure-w-rapti",
@@ -1613,7 +1536,6 @@
     "sanjen-khola",
     "sanjen",
     "singati-khola-hydropower-project",
-    "solu-hydropower-project",
     "solu-khola-dudha-koshi",
     "solu-tingla-mirchaiya-132",
     "solu",
@@ -1640,7 +1562,6 @@
     "upper-bhotekoshi",
     "upper-budhigandaki",
     "upper-chaku-a",
-    "upper-dordi-a-hep",
     "upper-dordi-a",
     "upper-kalangad",
     "upper-karnali",
@@ -1656,7 +1577,6 @@
     "upper-trishuli-1",
     "upper-trishuli-3a",
     "upper-trishuli-3b",
-    "uttarganga-storage-hydropower-project",
     "uttarganga-storage",
     "wecs",
     "west-seti",
@@ -1840,11 +1760,8 @@
     "balephi": "entities",
     "bangladesh-trade-route": "entities",
     "barahi-hydropower": "entities",
-    "betan-karnali-hp": "entities",
     "betan-karnali": "entities",
-    "bheri-1-hep": "entities",
     "bheri-1": "entities",
-    "bheri-2-hep": "entities",
     "bheri-2": "entities",
     "bheri-4": "entities",
     "bheri-corridor-400kv": "entities",
@@ -1874,13 +1791,10 @@
     "gorakhpur-butwal-interconnection": "entities",
     "hetauda-bharatpur-bardaghat-corridor": "entities",
     "hetauda-dhalkebar-inaruwa-backbone": "entities",
-    "humla-karnali-1-hpp": "entities",
     "humla-karnali-1": "entities",
-    "humla-karnali-2-hpp": "entities",
     "humla-karnali-2": "entities",
     "inaruwa-purnea-interconnection": "entities",
     "india-energy-relationship": "entities",
-    "jagdulla-hep": "entities",
     "jagdulla": "entities",
     "kabeli-132": "entities",
     "kabeli-a": "entities",
@@ -1891,13 +1805,11 @@
     "karnali-basin": "entities",
     "karnali-chisapani": "entities",
     "karnali-solar-energy-project": "entities",
-    "kasuwa-khola-hpp": "entities",
     "kasuwa-khola": "entities",
     "kataiya-kushaha-interconnection": "entities",
     "kathmandu-valley-underground-cabling": "entities",
     "khani-khola-1": "entities",
     "khani-khola-dolakha": "entities",
-    "khare-hydropower-project": "entities",
     "khare": "entities",
     "khimti-cascade": "entities",
     "khimti-dhalkebar-corridor": "entities",
@@ -1905,7 +1817,6 @@
     "khimti-ii": "entities",
     "khudi-220-132kv-substation": "entities",
     "khungri-solar-hybrid-50mw": "entities",
-    "kimathanka-arun-hep": "entities",
     "kimathanka-arun": "entities",
     "kohalpur-surkhet-dailekh-132": "entities",
     "kokhajor-1": "entities",
@@ -1913,7 +1824,6 @@
     "kulekhani-cascade": "entities",
     "kulekhani-i": "entities",
     "kulekhani-ii": "entities",
-    "lantang-khola-reservoir-hydropower-project": "entities",
     "lantang-khola-reservoir": "entities",
     "lapche-khola": "entities",
     "likhu-1": "entities",
@@ -1926,7 +1836,6 @@
     "lower-jhimruk": "entities",
     "lower-likhu": "entities",
     "lower-modi-khola": "entities",
-    "lower-solu-hydropower-project": "entities",
     "lower-solu": "entities",
     "madhya-bhotekoshi": "entities",
     "madhya-marsyangdi": "entities",
@@ -1944,10 +1853,8 @@
     "mithila-solar-dhanusha-10mwp": "entities",
     "modi-lekhnath-132kv": "entities",
     "mristi-khola": "entities",
-    "mugu-karnali-storage-hep": "entities",
     "mugu-karnali-storage": "entities",
     "mustang-high-altitude-solar-zone": "entities",
-    "nalsyau-gad-storage-hep": "entities",
     "nalsyau-gad-storage": "entities",
     "nalsyau-gad": "entities",
     "naumure-w-rapti": "entities",
@@ -1971,7 +1878,6 @@
     "sanjen-khola": "entities",
     "sanjen": "entities",
     "singati-khola-hydropower-project": "entities",
-    "solu-hydropower-project": "entities",
     "solu-khola-dudha-koshi": "entities",
     "solu-tingla-mirchaiya-132": "entities",
     "solu": "entities",
@@ -1998,7 +1904,6 @@
     "upper-bhotekoshi": "entities",
     "upper-budhigandaki": "entities",
     "upper-chaku-a": "entities",
-    "upper-dordi-a-hep": "entities",
     "upper-dordi-a": "entities",
     "upper-kalangad": "entities",
     "upper-karnali": "entities",
@@ -2014,7 +1919,6 @@
     "upper-trishuli-1": "entities",
     "upper-trishuli-3a": "entities",
     "upper-trishuli-3b": "entities",
-    "uttarganga-storage-hydropower-project": "entities",
     "uttarganga-storage": "entities",
     "wecs": "entities",
     "west-seti": "entities",
@@ -2198,11 +2102,8 @@
     "balephi": "Balephi",
     "bangladesh-trade-route": "Nepal\u2013Bangladesh Electricity Trade Route",
     "barahi-hydropower": "Barahi Hydropower",
-    "betan-karnali-hp": "Betan Karnali HP",
     "betan-karnali": "Betan Karnali HP",
-    "bheri-1-hep": "Bheri-1 HEP",
     "bheri-1": "Bheri-1 HEP",
-    "bheri-2-hep": "Bheri-2 HEP",
     "bheri-2": "Bheri-2 HEP",
     "bheri-4": "Bheri 4",
     "bheri-corridor-400kv": "Bheri Corridor 400 kV Transmission Line",
@@ -2232,13 +2133,10 @@
     "gorakhpur-butwal-interconnection": "Gorakhpur\u2013New Butwal 400 kV Cross-Border Interconnection",
     "hetauda-bharatpur-bardaghat-corridor": "Hetauda\u2013Bharatpur\u2013Bardaghat 220 kV Corridor",
     "hetauda-dhalkebar-inaruwa-backbone": "Hetauda\u2013Dhalkebar\u2013Inaruwa 400 kV Backbone",
-    "humla-karnali-1-hpp": "Humla Karnali 1 HPP",
     "humla-karnali-1": "Humla Karnali 1 HPP",
-    "humla-karnali-2-hpp": "Humla Karnali 2 HPP",
     "humla-karnali-2": "Humla Karnali 2 HPP",
     "inaruwa-purnea-interconnection": "Inaruwa\u2013Purnea 400 kV Cross-Border Interconnection",
     "india-energy-relationship": "India \u2014 Energy Relationship with Nepal",
-    "jagdulla-hep": "Jagdulla HEP",
     "jagdulla": "Jagdulla HEP",
     "kabeli-132": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
     "kabeli-a": "Kabeli-A",
@@ -2249,13 +2147,11 @@
     "karnali-basin": "Karnali Basin",
     "karnali-chisapani": "Karnali Chisapani Project",
     "karnali-solar-energy-project": "Karnali Solar Energy Project",
-    "kasuwa-khola-hpp": "Kasuwa Khola HPP",
     "kasuwa-khola": "Kasuwa Khola HPP",
     "kataiya-kushaha-interconnection": "Kataiya\u2013Kushaha 132 kV Cross-Border Interconnection",
     "kathmandu-valley-underground-cabling": "Kathmandu Valley Underground Cabling",
     "khani-khola-1": "Khani Khola - 1",
     "khani-khola-dolakha": "Khani Khola (Dolakha)",
-    "khare-hydropower-project": "Khare Hydropower Project",
     "khare": "Khare Hydropower Project",
     "khimti-cascade": "Khimti Cascade",
     "khimti-dhalkebar-corridor": "Khimti\u2013Dhalkebar 220 kV Hydropower Corridor",
@@ -2263,7 +2159,6 @@
     "khimti-ii": "Khimti II",
     "khudi-220-132kv-substation": "Khudi 220/132 kV Substation",
     "khungri-solar-hybrid-50mw": "Khungri Solar Hybrid (50 MW, Pyuthan)",
-    "kimathanka-arun-hep": "Kimathanka Arun HEP",
     "kimathanka-arun": "Kimathanka Arun HEP",
     "kohalpur-surkhet-dailekh-132": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
     "kokhajor-1": "Kokhajor-1",
@@ -2271,7 +2166,6 @@
     "kulekhani-cascade": "Kulekhani Cascade",
     "kulekhani-i": "Kulekhani I",
     "kulekhani-ii": "Kulekhani II",
-    "lantang-khola-reservoir-hydropower-project": "Lantang Khola Reservoir Hydropower Project",
     "lantang-khola-reservoir": "Lantang Khola Reservoir Hydropower Project",
     "lapche-khola": "Lapche Khola",
     "likhu-1": "Likhu -1",
@@ -2284,7 +2178,6 @@
     "lower-jhimruk": "Lower Jhimruk",
     "lower-likhu": "Lower Likhu",
     "lower-modi-khola": "Lower Modi Khola",
-    "lower-solu-hydropower-project": "Lower Solu Hydropower Project",
     "lower-solu": "Lower Solu Hydropower Project",
     "madhya-bhotekoshi": "Madhya Bhotekoshi",
     "madhya-marsyangdi": "Madhya Marsyangdi",
@@ -2302,11 +2195,9 @@
     "mithila-solar-dhanusha-10mwp": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
     "modi-lekhnath-132kv": "New Modi\u2013Lekhnath 132 kV Transmission Line",
     "mristi-khola": "Mristi Khola",
-    "mugu-karnali-storage-hep": "Mugu Karnali Storage HEP",
     "mugu-karnali-storage": "Mugu Karnali Storage HEP",
     "mustang-high-altitude-solar-zone": "Mustang / Trans-Himalayan High-Altitude Solar Zone",
-    "nalsyau-gad-storage-hep": "Nalsyau Gad Storage Hep",
-    "nalsyau-gad-storage": "Nalsyau Gad Storage HEP",
+    "nalsyau-gad-storage": "Nalsyau Gad Storage Hep",
     "nalsyau-gad": "Nalsyau Gad",
     "naumure-w-rapti": "Naumure (W. Rapti)",
     "nawalpur-132kv-substation": "Nawalpur 132 kV Substation",
@@ -2329,7 +2220,6 @@
     "sanjen-khola": "Sanjen Khola",
     "sanjen": "Sanjen",
     "singati-khola-hydropower-project": "Singati Khola Hydropower Project",
-    "solu-hydropower-project": "Solu Hydropower Project",
     "solu-khola-dudha-koshi": "Solu Khola (Dudha Koshi)",
     "solu-tingla-mirchaiya-132": "Solu Corridor Tingla-Mirchaiya 132 kV",
     "solu": "Solu Hydropower Project",
@@ -2356,7 +2246,6 @@
     "upper-bhotekoshi": "Upper Bhotekoshi",
     "upper-budhigandaki": "Upper Budhigandaki HEP",
     "upper-chaku-a": "Upper Chaku A",
-    "upper-dordi-a-hep": "Upper Dordi A HEP",
     "upper-dordi-a": "Upper Dordi A HEP",
     "upper-kalangad": "Upper Kalangad",
     "upper-karnali": "Upper Karnali",
@@ -2372,7 +2261,6 @@
     "upper-trishuli-1": "Upper Trishuli-1",
     "upper-trishuli-3a": "Upper Trishuli 3A",
     "upper-trishuli-3b": "Upper Trishuli 3B",
-    "uttarganga-storage-hydropower-project": "Uttarganga Storage Hydropower Project",
     "uttarganga-storage": "Uttarganga Storage Hydropower Project",
     "wecs": "Water and Energy Commission Secretariat (WECS)",
     "west-seti": "West Seti Hydroelectric Project",
@@ -2513,5 +2401,5 @@
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 356
+  "totalPages": 340
 }

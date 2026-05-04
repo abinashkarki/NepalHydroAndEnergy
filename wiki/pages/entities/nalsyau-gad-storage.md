@@ -5,7 +5,7 @@ created: 2026-04-20
 updated: 2026-05-02
 sources: []
 tags: [project, survey, storage, watchlist, top-capacity]
-images: ['- src: nalsyau-gad-storage-hep/jica-layout-page.png']
+images: ['- src: nalsyau-gad-storage/jica-layout-page.png']
 ---
 
 # Nalsyau Gad Storage HEP

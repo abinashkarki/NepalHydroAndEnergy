@@ -55,6 +55,6 @@ current operating hydropower fleet.
 
 ## See also
 
-- [[mugu-karnali-storage-hep]]
+- [[mugu-karnali-storage]]
 - [[karnali-basin]]
 - [[storage-deficit]]

@@ -125,6 +125,24 @@ SPEC_END = "<!-- generated:specs:end -->"
 # --------------------------------------------------------------------------- #
 #  Helpers                                                                     #
 # --------------------------------------------------------------------------- #
+# Common suffixes that bloat slug names when they come from verbose registry
+# project titles. Stripped BEFORE slugification so that "Super Nyadi
+# Hydropower Project" → "super-nyadi" rather than "super-nyadi-hydropower-project".
+PROJECT_SUFFIXES = [
+    " Hydropower Project", " Hydroelectric Project", " Hydro-Electric Project",
+    " Hydropower Project cascade project",
+    "HEP", "HPP", "SHP", "HP",
+]
+
+def clean_project_name(name: str) -> str:
+    """Strip verbose registry suffixes from project names for cleaner slugs."""
+    result = (name or "").strip()
+    for suffix in PROJECT_SUFFIXES:
+        if result.endswith(suffix) and len(result) - len(suffix) >= 3:
+            result = result[: -len(suffix)].rstrip()
+            break
+    return result
+
 def slugify(name: str) -> str:
     """Matches explorer's slug rule for map 'would-be slug'."""
     return re.sub(r"[^a-z0-9]+", "-", (name or "").lower()).strip("-")
@@ -247,7 +265,7 @@ def collect_targets(manifest: dict) -> dict[str, dict]:
                         continue
                 except (TypeError, ValueError):
                     continue
-            slug = slugify(name)
+            slug = slugify(clean_project_name(name))
             if not slug:
                 continue
             entry = bundle.setdefault(slug, {

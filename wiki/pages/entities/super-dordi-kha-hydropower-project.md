@@ -13,6 +13,9 @@ generator: auto-stub
 
 49.6 MW · under construction (generation licence) · on the Dordi · in Lamjung district.
 
+> [!note] **Disambiguation**
+> "Super" is the official Nepal DoED/MoE registry tier — distinct from "Upper". On the same Dordi river, [[upper-dordi-a]] (25 MW) and [[dordi-khola]] (27 MW) are separate projects. Super Dordi Kha (49.6 MW) is the largest plant on the Dordi. These are distinct assets with different promoters and PPAs.
+
 <!-- generated:specs:start -->
 
 ## Specifications

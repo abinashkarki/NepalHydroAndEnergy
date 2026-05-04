@@ -467,3 +467,23 @@ code, pre, .mono { font-family: var(--mono); }
   background: transparent !important;
   border: none !important;
 }
+
+/* ---- Cascade page persistent glow ---- */
+.np-marker-cascade-active {
+  animation: cascade-glimmer 2s ease-in-out infinite;
+}
+
+@keyframes cascade-glimmer {
+  0%, 100% {
+    filter: drop-shadow(0 0 1.5px rgba(96, 165, 250, 0.55));
+  }
+  25% {
+    filter: drop-shadow(0 0 6px rgba(96, 165, 250, 0.75));
+  }
+  50% {
+    filter: drop-shadow(0 0 2px rgba(96, 165, 250, 0.45));
+  }
+  75% {
+    filter: drop-shadow(0 0 8px rgba(96, 165, 250, 0.65));
+  }
+}

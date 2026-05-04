@@ -246,8 +246,24 @@ function humanizeField(f) {
   return String(f).replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+// Common suffixes stripped from registry project names for cleaner slugs.
+// Must match Python gen_wiki_stubs.py's PROJECT_SUFFIXES.
+var PROJECT_SUFFIXES = [
+  " Hydropower Project", " Hydroelectric Project", " Hydro-Electric Project",
+  " HEP", " HPP", " SHP", " HP"
+];
+
 function slugifyWikiCandidate(name) {
-  return String(name || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  var clean = String(name || "");
+  // Strip trailing verbose suffixes
+  for (var i = 0; i < PROJECT_SUFFIXES.length; i++) {
+    var sfx = PROJECT_SUFFIXES[i];
+    if (clean.endsWith(sfx) && clean.length - sfx.length >= 3) {
+      clean = clean.slice(0, -sfx.length).trim();
+      break;
+    }
+  }
+  return clean.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
 // Reverse index: feature → wiki slug. Built once from bindings.
@@ -409,6 +425,7 @@ class LayerManager {
     this._basemap = options.basemap || "Carto Positron";
     this._activeSet = new Set();
     this._manualSet = new Set();
+    this.cascadeGlowMarkers = new Set();  // DOM elements currently glowing for cascade pages
 
     // Zoom-aware simplification
     map.on("zoomend", () => {
@@ -1097,6 +1114,31 @@ class LayerManager {
         }
       } catch (e) { /* swallow — best-effort visual */ }
     });
+  }
+
+  // Persistent glow for cascade overview pages. Adds a CSS class to the badge
+  // DOM elements of all matched features so they glimmer as long as the cascade
+  // page is open. Call clearCascadeGlow() when navigating away.
+  glowCascadeMarkers(features) {
+    this.clearCascadeGlow();
+    for (const { layer } of features) {
+      try {
+        const el = layer.getElement ? layer.getElement() : null;
+        if (!el) continue;
+        const badge = el.querySelector(".np-marker-badge");
+        if (badge) {
+          badge.classList.add("np-marker-cascade-active");
+          this.cascadeGlowMarkers.add(badge);
+        }
+      } catch (e) { /* best-effort */ }
+    }
+  }
+
+  clearCascadeGlow() {
+    for (const badge of this.cascadeGlowMarkers) {
+      try { badge.classList.remove("np-marker-cascade-active"); } catch (e) {}
+    }
+    this.cascadeGlowMarkers.clear();
   }
 
   // For circleMarker: scale radius up and back down, plus a fading halo ring.

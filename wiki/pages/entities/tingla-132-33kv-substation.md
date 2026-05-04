@@ -46,7 +46,7 @@ is complete.
 
 ## See also
 
-- [[solu-hydropower-project]]
+- [[solu]]
 - [[solu-khola-dudha-koshi]]
 - [[claim-transmission-immediate-blocker]]
 - [[nepal-transmission-landscape-2025]]

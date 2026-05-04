@@ -85,8 +85,8 @@ The highest-leverage single lever in Nepal's solar portfolio, by an uncomfortabl
 | [[tanahu-hydropower]] | ~700 | 70 | **~56 MWp** | Under construction; **design in now** |
 | [[budhigandaki]] | ~6,300 | 630 | **~500 MWp** | Proposed; 10+ year horizon |
 | [[dudhkoshi-storage]] | ~1,800 | 180 | **~144 MWp** | Proposed |
-| [[mugu-karnali-storage-hep]] | ~9,000 | 900 | **~720 MWp** | Proposed |
-| [[uttarganga-storage-hydropower-project]] | ~2,400 | 240 | **~192 MWp** | Proposed |
+| [[mugu-karnali-storage]] | ~9,000 | 900 | **~720 MWp** | Proposed |
+| [[uttarganga-storage]] | ~2,400 | 240 | **~192 MWp** | Proposed |
 
 Even at conservative 5% coverage and discounting the long-dated projects, the near-term-buildable floating PV at Kulekhani + Tanahu is ~70–90 MWp — more than the entire operating utility-scale solar fleet as of FY 2024/25. The design move that matters most: **require floating-PV integration in the tender documents for every new reservoir project, starting with Tanahu.** Retrofitting is ~2× more expensive than designing it in.
 

@@ -119,4 +119,4 @@ Tracked official references:
 - [[hydro-geopolitics]]
 - [[stranded-generation]]
 - [[run-of-river-hydropower]]
-- [[mugu-karnali-storage-hep]]
+- [[mugu-karnali-storage]]
