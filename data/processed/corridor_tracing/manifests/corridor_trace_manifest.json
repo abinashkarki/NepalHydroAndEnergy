@@ -15,7 +15,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "World Bank RAP is the main public route-map source for HDDTL. Candidate map page confirmed as image-heavy and trace-worthy; exact figure caption still needs page-image review.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/world_bank_hddtl_rap.pdf",
+    "source_path": "./data/raw/corridor_tracing/world_bank/world_bank_hddtl_rap.pdf",
     "source_exists_local": true
   },
   {
@@ -34,7 +34,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "Text summary explicitly states start, end, districts crossed, and total alignment length.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/world_bank_hddtl_rap.pdf",
+    "source_path": "./data/raw/corridor_tracing/world_bank/world_bank_hddtl_rap.pdf",
     "source_exists_local": true
   },
   {
@@ -53,7 +53,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Useful for current project status and NEA naming, not precise route tracing.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -72,7 +72,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Manual selection of the official-vector Hetauda-New Bharatpur line from the RPGCL geospatial PDF, cross-checked against NEA/current public status references that state about 73 route-km.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "source_path": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
     "source_exists_local": true
   },
   {
@@ -91,7 +91,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_web_source",
     "notes": "Official NEA SIA establishes the Bharatpur-Bardaghat route length as 73.5 km and lists the affected Bharatpur/Nawalparasi corridor. Used as a source-bounded manual corridor trace, not tower-level alignment.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_bharatpur_bardaghat_sia.pdf",
+    "source_path": "./data/raw/corridor_tracing/nea/nea_bharatpur_bardaghat_sia.pdf",
     "source_exists_local": false
   },
   {
@@ -110,7 +110,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Confirms completion under World Bank additional funding, but no route map on this page.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -129,7 +129,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "Official-vector route selected from the RPGCL geospatial PDF and controlled against NEA Transmission Annual Book 2077 route length.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "source_path": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
     "source_exists_local": true
   },
   {
@@ -148,7 +148,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "Official-vector route selected from the RPGCL geospatial PDF and controlled against NEA Transmission Annual Book 2077 route length.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "source_path": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
     "source_exists_local": true
   },
   {
@@ -167,7 +167,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "Confirms the corridor is operational: New Butwal became fully operational after Kushma-New Butwal was finished; the existing-line inventory lists Dana-Kushma and Kushma-New Butwal as double-circuit 220 kV lines.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -186,7 +186,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "States 127.57 km for Dana-Kushma-New Butwal, with 39.57 km for Dana-Kushma and 88 km for Kushma-New Butwal.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+    "source_path": "./data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
     "source_exists_local": true
   },
   {
@@ -205,7 +205,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Official-vector route reconstructed from RPGCL drawing strokes and controlled by NEA FY2024/25 existing-line inventory, which lists this double-circuit 132 kV line as 430 circuit-km.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "source_path": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
     "source_exists_local": true
   },
   {
@@ -224,7 +224,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Official-vector route reconstructed from RPGCL drawing strokes and controlled by NEA FY2024/25 existing-line inventory, which lists this double-circuit 132 kV line as 176.66 circuit-km.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "source_path": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
     "source_exists_local": true
   },
   {
@@ -243,7 +243,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Official-vector route reconstructed from RPGCL drawing strokes and controlled by NEA FY2024/25 existing-line inventory, which lists this double-circuit 132 kV line as 203.12 circuit-km.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "source_path": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
     "source_exists_local": true
   },
   {
@@ -262,7 +262,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Official-vector route reconstructed from RPGCL drawing strokes and controlled by NEA FY2024/25 existing-line inventory, which lists this double-circuit 132 kV line as 262 circuit-km.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "source_path": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
     "source_exists_local": true
   },
   {
@@ -281,7 +281,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Confirms the operational Butwal-Kohalpur-Lamki-Attariya-Mahendranagar 132 kV Terai backbone line names and circuit-km values used to control route length.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -300,7 +300,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Confirms Chameliya-Syaule-Attariya as an operational double-circuit 132 kV line with 262 circuit-km, equivalent to about 131 route-km.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -319,7 +319,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Used for route anchor placement only. NEA FY2024/25 controls status and length for the under-construction line.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+    "source_path": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
     "source_exists_local": true
   },
   {
@@ -338,7 +338,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "NEA FY2024/25 states the project builds 52 km from Kohalpur to Surkhet and 32 km from Surkhet to Dailekh, with significant construction progress by July 2025.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -357,7 +357,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Under-construction table lists the double-circuit package as 168 circuit-km with a 2026/27 target.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -376,7 +376,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "Best route-grade source for the MCA corridor. Exact corridor sheet numbers still need OCR or manual sheet-title identification.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf",
+    "source_path": "./data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf",
     "source_exists_local": true
   },
   {
@@ -395,7 +395,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Confirms Galchhi-Ratmate and Lapang-Ratmate in NEA tables, but the main MCA corridor still requires the alignment atlas.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -414,7 +414,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Use for naming reconciliation only. This document reflects the earlier Naubise-centered planning vocabulary rather than the current Ratmate-centered MCA hub naming.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_project_summary_report.pdf",
+    "source_path": "./data/raw/corridor_tracing/mca/mca_project_summary_report.pdf",
     "source_exists_local": true
   },
   {
@@ -433,7 +433,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "Primary route-grade source recovered from the live NEA dryicesolutions mirror. Page 23 contains the main project location map with Udipur, Markichowk, and New Bharatpur substations labeled.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf",
+    "source_path": "./data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf",
     "source_exists_local": true
   },
   {
@@ -452,7 +452,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Companion context source. Page 45 shows the CIA study-area location map, and page 47 shows a corridor-wide landuse map with major Marsyangdi substations labeled.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/eib_marsyangdi_cia.pdf",
+    "source_path": "./data/raw/corridor_tracing/nea/eib_marsyangdi_cia.pdf",
     "source_exists_local": true
   },
   {
@@ -471,7 +471,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Useful for project status and official segment names Khudi-Udipur and Udipur-Bharatpur.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -490,7 +490,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "Primary route-grade source for the Kabeli corridor family, recovered from Wayback using the original NEA supportive_docs path. Page 25 shows the national location map, page 26 shows the district/VDC corridor map, and page 27 gives the alignment narrative and references Figure 2.3 sheets 1 to 15.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_kabeli_iee.pdf",
+    "source_path": "./data/raw/corridor_tracing/nea/nea_kabeli_iee.pdf",
     "source_exists_local": true
   },
   {
@@ -509,7 +509,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Supporting context source. The SMEF contains an additional project location map and social-impact framing around the Kabeli alignment.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_kabeli_smef.pdf",
+    "source_path": "./data/raw/corridor_tracing/nea/nea_kabeli_smef.pdf",
     "source_exists_local": true
   },
   {
@@ -528,7 +528,7 @@
     "geometry_confidence": "high",
     "status": "confirmed_doc_local",
     "notes": "Recovered companion route-grade source for the upper Marsyangdi section. Page 33 has the national location map, page 34 has district and project-area maps, and page 36 has the accessibility map.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap_upper.pdf",
+    "source_path": "./data/raw/corridor_tracing/nea/nea_marsyangdi_rap_upper.pdf",
     "source_exists_local": true
   },
   {
@@ -547,7 +547,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Confirms the Kabeli (Amarpur)-Dhungesangu and Godak-Soyak packages in current NEA nomenclature.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -566,7 +566,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Confirms current line presence and nominal length; still needs a route-grade NEA corridor packet for accurate tracing.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+    "source_path": "./data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
     "source_exists_local": true
   },
   {
@@ -585,7 +585,7 @@
     "geometry_confidence": "low",
     "status": "confirmed_doc_local",
     "notes": "Page 47 confirms the Mirchaiya-Tingla 132 kV double-circuit line as a 90 km corridor feeding the Solu basin into Tingla. Page 52 confirms the same project scope and records the rerouting dispute at Maruwa in Katari municipality, which is the key mid-corridor anchor for the current manual trace.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
+    "source_path": "./data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
     "source_exists_local": true
   },
   {
@@ -604,7 +604,7 @@
     "geometry_confidence": "medium",
     "status": "confirmed_doc_local",
     "notes": "Planning reference for future interconnections and associated domestic 400 kV grids; not route-grade geometry.",
-    "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
+    "source_path": "./data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
     "source_exists_local": true
   }
 ]

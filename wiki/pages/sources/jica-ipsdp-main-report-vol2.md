@@ -63,7 +63,7 @@ Annexes 7–16 listed in the front-matter TOC (Power Generation Development Plan
 ## Local source
 
 Local workspace copy:
-[jica_ipsdp_main_report_vol2.pdf](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf)
+[jica_ipsdp_main_report_vol2.pdf](./data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf)
 
 > [!cite] jica-ipsdp-main-report-vol2
 > PDF created `2024-12-09` via Word → Adobe PDF. File is byte-identical to `jica_ipsdp_report_part2.pdf` in the same directory (verified via SHA-256); the canonical path used by the wiki is `jica_ipsdp_main_report_vol2.pdf`.

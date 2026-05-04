@@ -6,8 +6,8 @@ The operating system is still overwhelmingly hydro-dominant and still mostly run
 
 The public hydropower-portal dataset exposes **572 projects**: **311 survey**, **180 generation**, and **81 operation** licenses. That is a pipeline inventory, not an operating-capacity ledger, but it is useful for seeing where the next wave of projects is concentrated.
 
-![Installed capacity mix](/Users/hi/projects/nepalEnergy/figures/nea_capacity_mix.png)
-![Hydropower portal license mix](/Users/hi/projects/nepalEnergy/figures/license_type_mix.png)
+![Installed capacity mix](./figures/nea_capacity_mix.png)
+![Hydropower portal license mix](./figures/license_type_mix.png)
 
 ## Existing Footprint
 
@@ -27,7 +27,7 @@ Largest operational projects visible in the public portal dataset include:
 | Kulekhani II | 32.0 | Kulekhani |
 | Chameliya Khola | 30.0 | Chameliya Khola |
 
-![Largest operational projects](/Users/hi/projects/nepalEnergy/figures/top_operational_projects.png)
+![Largest operational projects](./figures/top_operational_projects.png)
 
 ## Storage and Regulation
 
@@ -58,7 +58,7 @@ Gross potential by basin in WECS 2019:
 | Bakaiya | 84 |
 | Mechi | 62 |
 
-![Gross potential by basin](/Users/hi/projects/nepalEnergy/figures/wecs_basin_potential.png)
+![Gross potential by basin](./figures/wecs_basin_potential.png)
 
 Key tributary concentrations in the three big basins:
 
@@ -103,7 +103,7 @@ Nepal is not short of hydropower resource. It is short of storage, regulated dis
 
 ## Raw Files Saved
 
-- `/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf`
-- `/Users/hi/projects/nepalEnergy/data/raw/projects_storage/wecs_hydropower_potential_2019.pdf`
-- `/Users/hi/projects/nepalEnergy/data/raw/projects_storage/hydro_naxa_datasets.csv`
-- `/Users/hi/projects/nepalEnergy/data/raw/projects_storage/naxa_hydropower_projects.geojson`
+- `./data/raw/projects_storage/nea_annual_report_2024_2025.pdf`
+- `./data/raw/projects_storage/wecs_hydropower_potential_2019.pdf`
+- `./data/raw/projects_storage/hydro_naxa_datasets.csv`
+- `./data/raw/projects_storage/naxa_hydropower_projects.geojson`

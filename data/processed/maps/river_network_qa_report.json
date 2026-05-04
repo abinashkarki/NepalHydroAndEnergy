@@ -5,12 +5,12 @@
     "qa_pass_count": 23,
     "review_pass_count": 22,
     "preview_pages": [
-      "/Users/hi/projects/nepalEnergy/tmp/river_review/river_review_page_01.png",
-      "/Users/hi/projects/nepalEnergy/tmp/river_review/river_review_page_02.png",
-      "/Users/hi/projects/nepalEnergy/tmp/river_review/river_review_page_03.png",
-      "/Users/hi/projects/nepalEnergy/tmp/river_review/river_review_page_04.png",
-      "/Users/hi/projects/nepalEnergy/tmp/river_review/river_review_page_05.png",
-      "/Users/hi/projects/nepalEnergy/tmp/river_review/river_review_page_06.png"
+      "./tmp/river_review/river_review_page_01.png",
+      "./tmp/river_review/river_review_page_02.png",
+      "./tmp/river_review/river_review_page_03.png",
+      "./tmp/river_review/river_review_page_04.png",
+      "./tmp/river_review/river_review_page_05.png",
+      "./tmp/river_review/river_review_page_06.png"
     ]
   },
   "rivers": [

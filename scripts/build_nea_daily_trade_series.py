@@ -4,6 +4,7 @@ import argparse
 import csv
 import html
 import json
+import os
 import re
 import subprocess
 import sys
@@ -12,6 +13,8 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+
+ROOT = Path(os.environ.get("NEPAL_ENERGY_ROOT", Path(__file__).resolve().parent.parent))
 
 
 ARCHIVE_URL = "https://td.neasite.dryicesolutions.net/en/category/daily-operational-reports-1"
@@ -38,12 +41,12 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--output-dir",
-        default="/Users/hi/projects/nepalEnergy/data/processed/lead1_trade",
+        default=None,
         help="Directory for manifest, parsed CSVs, and summary JSON.",
     )
     parser.add_argument(
         "--pdf-cache-dir",
-        default="/Users/hi/projects/nepalEnergy/data/raw/lead1_sources/nea_daily_reports",
+        default=None,
         help="Cache directory for downloaded daily report PDFs.",
     )
     parser.add_argument(
@@ -343,8 +346,8 @@ def aggregate_monthly(rows: list[dict]) -> list[dict]:
 
 def main() -> int:
     args = parse_args()
-    output_dir = Path(args.output_dir)
-    pdf_cache_dir = Path(args.pdf_cache_dir)
+    output_dir = Path(args.output_dir or ROOT / "data/processed/lead1_trade")
+    pdf_cache_dir = Path(args.pdf_cache_dir or ROOT / "data/raw/lead1_sources/nea_daily_reports")
     ensure_dir(output_dir)
     ensure_dir(pdf_cache_dir)
 

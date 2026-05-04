@@ -1,9 +1,25 @@
 #!/usr/bin/env python3
 """MCP server exposing the Nepal Energy Wiki as tools for AI agents.
 
-Loads static pre-built JSON indices and Markdown pages from the repo.
-No external APIs, no network calls — everything is local.
+Trust model: This is a read-only public-data server with no authentication by design.
+- All 10 tools are read-only (no write/delete/modify operations).
+- Stdio transport only — the server is accessible only to local processes
+  with filesystem access to this repo. It is NOT a network service.
+- Input slugs are validated through pre-built dictionary lookups (no
+  filesystem path traversal possible).
+- No secrets, API keys, credentials, or environment variable reads.
+- All wiki content served is already public at transparentgov.ai.
+- Rate limiting is not implemented (unnecessary for single-process stdio).
+- No audit trail or request logging exists.
+
+If you add draft/private wiki pages, gate them behind a "public" field in
+the page index to avoid accidental exposure through these tools.
 """
+
+# ---------------------------------------------------------------------------
+# Trust domain: read-only local server, no auth.
+# ---------------------------------------------------------------------------
+TRUST_DOMAIN = "public-read-only"  # all wiki content is public by design
 
 from __future__ import annotations
 

@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 
 
-ROOT = Path("/Users/hi/projects/nepalEnergy")
+ROOT = Path(os.environ.get("NEPAL_ENERGY_ROOT", Path(__file__).resolve().parent.parent))
 PROCESSED = ROOT / "data" / "processed" / "maps"
 MANIFEST_DIR = ROOT / "data" / "processed" / "corridor_tracing" / "manifests"
 DOCS = ROOT / "docs" / "maps"

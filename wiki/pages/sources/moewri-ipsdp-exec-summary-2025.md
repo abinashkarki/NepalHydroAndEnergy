@@ -65,7 +65,7 @@ This executive summary is the clearest compact statement of the current MoEWRI/J
 ## Local source
 
 Local workspace copy:
-[moewri_ipsdp_exec_summary_2025.pdf](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf)
+[moewri_ipsdp_exec_summary_2025.pdf](./data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf)
 
 ## What this source does not cover
 

@@ -9,7 +9,7 @@ from typing import Any
 from pypdf import PdfReader
 
 
-ROOT = Path("/Users/hi/projects/nepalEnergy")
+ROOT = Path(os.environ.get("NEPAL_ENERGY_ROOT", Path(__file__).resolve().parent.parent))
 RAW = ROOT / "data" / "raw" / "corridor_tracing"
 PROCESSED = ROOT / "data" / "processed" / "corridor_tracing" / "manifests"
 

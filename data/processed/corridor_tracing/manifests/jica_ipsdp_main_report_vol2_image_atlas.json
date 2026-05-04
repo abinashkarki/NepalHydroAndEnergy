@@ -10,7 +10,7 @@
     ],
     "area_pct": 18.55,
     "nearest_caption": "Source: Prepared by JICA Study Team based on World Development Indicators (World Bank)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_009.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_009.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -86,7 +86,7 @@
     ],
     "area_pct": 18.91,
     "nearest_caption": "Annex 1; General Information of Nepal in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_010.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_010.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -161,7 +161,7 @@
     ],
     "area_pct": 13.48,
     "nearest_caption": "Annex 1; General Information of Nepal in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_012.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_012.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -237,7 +237,7 @@
     ],
     "area_pct": 17.41,
     "nearest_caption": "Figure 1.1-3 GDP Growth by Industry",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_012.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_012.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -313,7 +313,7 @@
     ],
     "area_pct": 21.9,
     "nearest_caption": "Figure 1.1-5 Remittances to Nepal and GDP Ratio",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_014.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_014.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -384,7 +384,7 @@
     ],
     "area_pct": 15.19,
     "nearest_caption": "Source: modified after R.K.Dahal and Hasegawa S., 2008",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_016.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_016.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -456,7 +456,7 @@
     ],
     "area_pct": 21.11,
     "nearest_caption": "Source: R.K.Dahal, 2012",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_017.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_017.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -531,7 +531,7 @@
     ],
     "area_pct": 24.18,
     "nearest_caption": "Source: English translation and some additions to Arita, 1988",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_021.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_021.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -604,7 +604,7 @@
     ],
     "area_pct": 22.66,
     "nearest_caption": "in Nepal Annex 1; General Information of Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_023.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_023.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -675,7 +675,7 @@
     ],
     "area_pct": 8.8,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_023.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_023.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -746,7 +746,7 @@
     ],
     "area_pct": 6.72,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_023.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_023.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -817,7 +817,7 @@
     ],
     "area_pct": 21.84,
     "nearest_caption": "Source: Nepal Seismological Centre, 2002",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_025.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_025.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -889,7 +889,7 @@
     ],
     "area_pct": 15.49,
     "nearest_caption": "within one degree of latitude.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_026.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_026.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -964,7 +964,7 @@
     ],
     "area_pct": 6.12,
     "nearest_caption": "causing a front to develop, which results in rainfall mainly over western Nepal.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_027.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_027.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1040,7 +1040,7 @@
     ],
     "area_pct": 6.12,
     "nearest_caption": "from the north and passes over the southern foothills of the Himalayas in western Nepal,",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_027.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_027.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1116,7 +1116,7 @@
     ],
     "area_pct": 6.12,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_027.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_027.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1192,7 +1192,7 @@
     ],
     "area_pct": 6.12,
     "nearest_caption": "Source: Department of Hydrology and Meteorology, 2015",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_027.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_027.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1268,7 +1268,7 @@
     ],
     "area_pct": 24.08,
     "nearest_caption": "to strong winds (Ushiyama, 1995).",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_028.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_028.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1341,7 +1341,7 @@
     ],
     "area_pct": 17.42,
     "nearest_caption": "Annex 1; General Information of Nepal in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_030.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_030.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1413,7 +1413,7 @@
     ],
     "area_pct": 16.09,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_030.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_030.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1485,7 +1485,7 @@
     ],
     "area_pct": 27.34,
     "nearest_caption": "between latitude 29°07 and 30°04N and longitude 80°08’ and 81°07’ E.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_032.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_032.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1561,7 +1561,7 @@
     ],
     "area_pct": 22.96,
     "nearest_caption": "Source: MP2014",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_033.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_033.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1637,7 +1637,7 @@
     ],
     "area_pct": 16.94,
     "nearest_caption": "Middle Mountain Zone and Siwalik Zone.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_036.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_036.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1713,7 +1713,7 @@
     ],
     "area_pct": 23.06,
     "nearest_caption": "Source: Glacial Lakes and Glacial Lake Outburst Floods in Nepal, ICIMOD, 2011",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_037.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_037.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -1788,7 +1788,7 @@
     ],
     "area_pct": 19.23,
     "nearest_caption": "Source: Prepared by JICA Study Team, based on Department of Environment, MoFE (https://pollution.gov.np/portal/#/home?_k=1r7ytt)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_039.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_039.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1859,7 +1859,7 @@
     ],
     "area_pct": 24.05,
     "nearest_caption": "Source: Population Atlas of Nepal (2014; Central Bureau of Statistics)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_043.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_043.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1931,7 +1931,7 @@
     ],
     "area_pct": 18.04,
     "nearest_caption": "Rara Lake Phoksundo Lake",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_044.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_044.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2004,7 +2004,7 @@
     ],
     "area_pct": 22.21,
     "nearest_caption": "Source: Central Bureau of Statistics, National Planning Commissions",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_049.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_049.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2075,7 +2075,7 @@
     ],
     "area_pct": 13.14,
     "nearest_caption": "Figure 1.3-2 Population Growth Rate in Nepal (2001- 2011)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_050.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_050.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2149,7 +2149,7 @@
     ],
     "area_pct": 11.26,
     "nearest_caption": "Social Affairs estimated that the population would decline after 2050.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_050.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_050.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2223,7 +2223,7 @@
     ],
     "area_pct": 41.54,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_061.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_061.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2296,7 +2296,7 @@
     ],
     "area_pct": 24.44,
     "nearest_caption": "Figure 2.1-3 Location of VUCL’s Projects",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_064.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_064.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2372,7 +2372,7 @@
     ],
     "area_pct": 18.53,
     "nearest_caption": "Source: NEA “Corporate Development Plan 2019/20 - 2023/24”",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_067.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_067.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2448,7 +2448,7 @@
     ],
     "area_pct": 22.71,
     "nearest_caption": "power sector reform is, and Figure 2.1-6 shows the time frame to reach that point.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_068.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_068.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2523,7 +2523,7 @@
     ],
     "area_pct": 19.01,
     "nearest_caption": "Source: NEA “Corporate Development Plan 2019/20-2023/24”",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_069.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_069.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2594,7 +2594,7 @@
     ],
     "area_pct": 8.75,
     "nearest_caption": "electricity consumption low.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_108.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_108.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2670,7 +2670,7 @@
     ],
     "area_pct": 7.43,
     "nearest_caption": "After 2020, the peak demand began to increase again.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_108.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_108.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2746,7 +2746,7 @@
     ],
     "area_pct": 9.1,
     "nearest_caption": "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2022/2023",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_109.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_109.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2822,7 +2822,7 @@
     ],
     "area_pct": 8.69,
     "nearest_caption": "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2018/2019 ~ 2022/2023",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_109.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_109.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2898,7 +2898,7 @@
     ],
     "area_pct": 11.37,
     "nearest_caption": "of loss control.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_110.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_110.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -2971,7 +2971,7 @@
     ],
     "area_pct": 15.31,
     "nearest_caption": "Annex 2; Current Status of the Power Sector in Nepal in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_112.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_112.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3044,7 +3044,7 @@
     ],
     "area_pct": 16.69,
     "nearest_caption": "Figure 2.7-1 IRRP Working Group",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_121.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_121.png",
     "page_classification": {
       "has_photo": false,
       "has_table": false,
@@ -3120,7 +3120,7 @@
     ],
     "area_pct": 21.48,
     "nearest_caption": "Figure 2.7-2 Location Map of NHDP Priority Projects",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_125.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_125.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3194,7 +3194,7 @@
     ],
     "area_pct": 54.5,
     "nearest_caption": "Figure 2.7-3 Outline of NHDP",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_127.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_127.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -3266,7 +3266,7 @@
     ],
     "area_pct": 21.54,
     "nearest_caption": "Table 2.7-2 Project Scope (Transmission Line and Substation Facilities)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_129.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_129.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -3339,7 +3339,7 @@
     ],
     "area_pct": 21.66,
     "nearest_caption": "Source: Detailed Feasibility Studies: Transmission Projects in Nepal Volume 8: Project Summary, March 2017",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_129.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_129.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -3412,7 +3412,7 @@
     ],
     "area_pct": 4.71,
     "nearest_caption": "in Nepal Annex 2; Current Status of the Power Sector in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_129.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_129.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -3485,7 +3485,7 @@
     ],
     "area_pct": 25.85,
     "nearest_caption": "(Source: Environmental Monitoring Report, July 2022, PTDEEP)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_135.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_135.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -3560,7 +3560,7 @@
     ],
     "area_pct": 23.68,
     "nearest_caption": "Source: Social Monitoring Report, July 2023 (January – June 2023), EGMP",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_137.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_137.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -3634,7 +3634,7 @@
     ],
     "area_pct": 3.64,
     "nearest_caption": "ROR: Run of River This method involves diverting river water directly to the",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_146.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_146.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3710,7 +3710,7 @@
     ],
     "area_pct": 3.41,
     "nearest_caption": "PROR: Peak Run of River This method involves storing water in a regulating pond to",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_146.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_146.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3786,7 +3786,7 @@
     ],
     "area_pct": 3.43,
     "nearest_caption": "STO: Storage This method involves storing water in a large reservoir for",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_146.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_146.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3862,7 +3862,7 @@
     ],
     "area_pct": 3.67,
     "nearest_caption": "PS: Pumped Storage This method utilizing the head between two regulating pond.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_146.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_146.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3938,7 +3938,7 @@
     ],
     "area_pct": 28.5,
     "nearest_caption": "Source: NEA Annual Report 2022/2023",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_155.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_155.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4010,7 +4010,7 @@
     ],
     "area_pct": 14.84,
     "nearest_caption": "Source: NEA Annual Report 2022/2023",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_155.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_155.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4082,7 +4082,7 @@
     ],
     "area_pct": 52.7,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_158.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_158.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4152,7 +4152,7 @@
     ],
     "area_pct": 51.94,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_159.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_159.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4221,7 +4221,7 @@
     ],
     "area_pct": 24.09,
     "nearest_caption": "Figure 4.1-1 Image of National Power Policy 2013",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_176.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_176.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4297,7 +4297,7 @@
     ],
     "area_pct": 23.55,
     "nearest_caption": "Source: Data Collection Survey on Hydropower Development Project (JICA2018)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_177.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_177.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4372,7 +4372,7 @@
     ],
     "area_pct": 22.5,
     "nearest_caption": "Source: Transmission System Development Plan of Nepal (July 2018, RPGCL)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_183.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_183.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4448,7 +4448,7 @@
     ],
     "area_pct": 15.74,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_188.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_188.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4520,7 +4520,7 @@
     ],
     "area_pct": 10.16,
     "nearest_caption": "Annex 4; Review of Existing Development Plans in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_190.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_190.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4591,7 +4591,7 @@
     ],
     "area_pct": 12.21,
     "nearest_caption": "Figure 4.2-7 Birauta substation construction site",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_190.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_190.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4662,7 +4662,7 @@
     ],
     "area_pct": 17.22,
     "nearest_caption": "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2021/2022",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_195.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_195.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4738,7 +4738,7 @@
     ],
     "area_pct": 16.28,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_196.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_196.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4812,7 +4812,7 @@
     ],
     "area_pct": 24.47,
     "nearest_caption": "number of consumers is forcasted to increase in the future.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_196.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_196.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4886,7 +4886,7 @@
     ],
     "area_pct": 17.31,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_198.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_198.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -4961,7 +4961,7 @@
     ],
     "area_pct": 17.94,
     "nearest_caption": "Figure 5.1-5 Daily Load Curve",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_198.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_198.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5036,7 +5036,7 @@
     ],
     "area_pct": 18.4,
     "nearest_caption": "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2020/2021",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_199.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_199.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5110,7 +5110,7 @@
     ],
     "area_pct": 18.62,
     "nearest_caption": "Source: Prepared by JICA Study Team based on Annual Report of Nepal Electricity Authority 2021/2022",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_199.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_199.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5184,7 +5184,7 @@
     ],
     "area_pct": 18.98,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_200.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_200.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5256,7 +5256,7 @@
     ],
     "area_pct": 14.65,
     "nearest_caption": "It declined slightly in 2020 but is still at 69.0% in 2021.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_200.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_200.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5328,7 +5328,7 @@
     ],
     "area_pct": 13.89,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_204.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_204.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5403,7 +5403,7 @@
     ],
     "area_pct": 16.04,
     "nearest_caption": "growth rates as variables. Figure 5.2-3 shows the power demand forecast by NEA.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_204.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_204.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5478,7 +5478,7 @@
     ],
     "area_pct": 19.38,
     "nearest_caption": "Source: Prepared by JICA Study Team based on Power demand Forecast Report (2015-2040), Annual Report 2021/2022",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_205.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_205.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5551,7 +5551,7 @@
     ],
     "area_pct": 15.58,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_206.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_206.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5621,7 +5621,7 @@
     ],
     "area_pct": 12.85,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_208.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_208.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5694,7 +5694,7 @@
     ],
     "area_pct": 18.29,
     "nearest_caption": "Source: Prepared by JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_209.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_209.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5767,7 +5767,7 @@
     ],
     "area_pct": 11.96,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_210.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_210.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5842,7 +5842,7 @@
     ],
     "area_pct": 9.39,
     "nearest_caption": "Table 5.3-2.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_210.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_210.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5917,7 +5917,7 @@
     ],
     "area_pct": 12.62,
     "nearest_caption": "(a) GDP Transition",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_211.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_211.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -5991,7 +5991,7 @@
     ],
     "area_pct": 11.31,
     "nearest_caption": "(a) GDP Transition",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_211.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_211.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -6065,7 +6065,7 @@
     ],
     "area_pct": 12.37,
     "nearest_caption": "(a) Industrial GDP",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_212.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_212.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -6140,7 +6140,7 @@
     ],
     "area_pct": 12.27,
     "nearest_caption": "(b) Commercial GDP",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_212.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_212.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -6215,7 +6215,7 @@
     ],
     "area_pct": 12.27,
     "nearest_caption": "(b) Commercial GDP",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_212.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_212.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -6290,7 +6290,7 @@
     ],
     "area_pct": 10.98,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_216.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_216.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6366,7 +6366,7 @@
     ],
     "area_pct": 14.01,
     "nearest_caption": "Source: Prepared by JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_217.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_217.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6442,7 +6442,7 @@
     ],
     "area_pct": 14.86,
     "nearest_caption": "times more than the value in 2021.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_218.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_218.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6517,7 +6517,7 @@
     ],
     "area_pct": 14.56,
     "nearest_caption": "Source: Prepared by JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_219.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_219.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6593,7 +6593,7 @@
     ],
     "area_pct": 8.7,
     "nearest_caption": "Figure 5.4-5 Results of Electricity Demand Forecast",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_220.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_220.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6666,7 +6666,7 @@
     ],
     "area_pct": 17.29,
     "nearest_caption": "Source: Prepared by JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_229.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_229.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6739,7 +6739,7 @@
     ],
     "area_pct": 16.39,
     "nearest_caption": "2021.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_230.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_230.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6812,7 +6812,7 @@
     ],
     "area_pct": 21.09,
     "nearest_caption": "were considered.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_232.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_232.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -6887,7 +6887,7 @@
     ],
     "area_pct": 16.8,
     "nearest_caption": "Source: Prepared by JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_233.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_233.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6959,7 +6959,7 @@
     ],
     "area_pct": 15.65,
     "nearest_caption": "Annex 5; Power Demand Forecast in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_234.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_234.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7032,7 +7032,7 @@
     ],
     "area_pct": 13.49,
     "nearest_caption": "Source: Prepared by JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_235.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_235.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7106,7 +7106,7 @@
     ],
     "area_pct": 17.49,
     "nearest_caption": "Source: Prepared by JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_235.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_235.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7180,7 +7180,7 @@
     ],
     "area_pct": 5.94,
     "nearest_caption": "Figure 5.6-6 Calculation Point for Peak Demand",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_236.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_236.png",
     "page_classification": {
       "has_photo": false,
       "has_table": true,
@@ -7251,7 +7251,7 @@
     ],
     "area_pct": 16.71,
     "nearest_caption": "Source: Prepared by JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_237.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_237.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -7324,7 +7324,7 @@
     ],
     "area_pct": 49.89,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_246.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_246.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -7397,7 +7397,7 @@
     ],
     "area_pct": 23.46,
     "nearest_caption": "Figure 6.2-1 Example of Hydropower Development Database (1): Watershed Map of Karnali",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_250.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_250.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7470,7 +7470,7 @@
     ],
     "area_pct": 26.51,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_251.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_251.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -7541,7 +7541,7 @@
     ],
     "area_pct": 15.37,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_251.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_251.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -7612,7 +7612,7 @@
     ],
     "area_pct": 15.38,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_251.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_251.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -7683,7 +7683,7 @@
     ],
     "area_pct": 15.38,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_251.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_251.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -7754,7 +7754,7 @@
     ],
     "area_pct": 21.9,
     "nearest_caption": "*: Colored boxes indicates the areas of issued/applying projects (information from DoED web site)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_252.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_252.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7827,7 +7827,7 @@
     ],
     "area_pct": 28.88,
     "nearest_caption": "STO: Storage, ROR : Run-of-River, PROR : Peak Run-of-River : Canceled",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_254.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_254.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7903,7 +7903,7 @@
     ],
     "area_pct": 20.69,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_255.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_255.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7979,7 +7979,7 @@
     ],
     "area_pct": 26.3,
     "nearest_caption": "Figure 6.3-3 River Longitudinal Profile of the Tila River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_256.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_256.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8055,7 +8055,7 @@
     ],
     "area_pct": 26.4,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_257.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_257.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8131,7 +8131,7 @@
     ],
     "area_pct": 45.76,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_258.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_258.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -8202,7 +8202,7 @@
     ],
     "area_pct": 26.33,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_260.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_260.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -8274,7 +8274,7 @@
     ],
     "area_pct": 26.43,
     "nearest_caption": "Figure 6.3-6 River Longitudinal Profile of the Bheri River (downstream) and Sani Bheri River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_260.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_260.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -8346,7 +8346,7 @@
     ],
     "area_pct": 43.45,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_262.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_262.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -8417,7 +8417,7 @@
     ],
     "area_pct": 26.16,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_263.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_263.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8493,7 +8493,7 @@
     ],
     "area_pct": 26.31,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_264.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_264.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -8569,7 +8569,7 @@
     ],
     "area_pct": 21.03,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_265.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_265.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8645,7 +8645,7 @@
     ],
     "area_pct": 21.91,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_266.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_266.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -8721,7 +8721,7 @@
     ],
     "area_pct": 44.8,
     "nearest_caption": "m a Te y d u St A C JI e: c ur o S",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_267.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_267.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -8792,7 +8792,7 @@
     ],
     "area_pct": 24.42,
     "nearest_caption": "Figure 6.3-14 River Longitudinal Profile of the Trishuli River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_268.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_268.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8868,7 +8868,7 @@
     ],
     "area_pct": 26.25,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_270.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_270.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -8942,7 +8942,7 @@
     ],
     "area_pct": 26.44,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_271.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_271.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9018,7 +9018,7 @@
     ],
     "area_pct": 25.69,
     "nearest_caption": "Figure 6.3-17 River Longitudinal Profile of the Budhi Gandaki River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_272.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_272.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9094,7 +9094,7 @@
     ],
     "area_pct": 44.95,
     "nearest_caption": "m a Te y d u St A C JI e: c ur o S",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_273.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_273.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -9167,7 +9167,7 @@
     ],
     "area_pct": 26.0,
     "nearest_caption": "Figure 6.3-19 River Longitudinal Profile of the Sun Koshi River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_274.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_274.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9243,7 +9243,7 @@
     ],
     "area_pct": 23.93,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_275.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_275.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9319,7 +9319,7 @@
     ],
     "area_pct": 25.05,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_277.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_277.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9395,7 +9395,7 @@
     ],
     "area_pct": 26.53,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_278.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_278.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -9470,7 +9470,7 @@
     ],
     "area_pct": 26.47,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_279.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_279.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9546,7 +9546,7 @@
     ],
     "area_pct": 45.0,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_280.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_280.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -9617,7 +9617,7 @@
     ],
     "area_pct": 26.5,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_281.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_281.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9691,7 +9691,7 @@
     ],
     "area_pct": 26.32,
     "nearest_caption": "Figure 6.3-26 River Longitudinal Profile of the Tamor River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_282.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_282.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9767,7 +9767,7 @@
     ],
     "area_pct": 46.26,
     "nearest_caption": "m a Te y d u St A C JI e: c ur o S",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_283.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_283.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -9838,7 +9838,7 @@
     ],
     "area_pct": 26.38,
     "nearest_caption": "Figure 6.3-28 River Longitudinal Profile of the Chameliya River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_284.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_284.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9914,7 +9914,7 @@
     ],
     "area_pct": 16.78,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_285.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_285.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9989,7 +9989,7 @@
     ],
     "area_pct": 25.59,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_286.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_286.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10064,7 +10064,7 @@
     ],
     "area_pct": 43.95,
     "nearest_caption": "y d u St A C JI e: c ur o S",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_287.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_287.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10135,7 +10135,7 @@
     ],
     "area_pct": 26.2,
     "nearest_caption": "Figure 6.3-32 River Longitudinal Profile of the Bagmati River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_288.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_288.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -10211,7 +10211,7 @@
     ],
     "area_pct": 48.0,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_289.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_289.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10282,7 +10282,7 @@
     ],
     "area_pct": 21.74,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_296.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_296.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10354,7 +10354,7 @@
     ],
     "area_pct": 22.67,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_297.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_297.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10427,7 +10427,7 @@
     ],
     "area_pct": 23.1,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_298.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_298.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10496,7 +10496,7 @@
     ],
     "area_pct": 23.34,
     "nearest_caption": "Figure 6.5-4 Evaluation Results of Screening: (1) Economy - LCOE [cent/kWh]",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_298.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_298.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10565,7 +10565,7 @@
     ],
     "area_pct": 23.19,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_299.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_299.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10638,7 +10638,7 @@
     ],
     "area_pct": 22.45,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_299.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_299.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10711,7 +10711,7 @@
     ],
     "area_pct": 21.01,
     "nearest_caption": "large-scale reservoir-type hydropower plants located downstream of each river.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_300.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_300.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10783,7 +10783,7 @@
     ],
     "area_pct": 21.99,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_301.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_301.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10855,7 +10855,7 @@
     ],
     "area_pct": 23.3,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_301.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_301.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10927,7 +10927,7 @@
     ],
     "area_pct": 22.26,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_303.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_303.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -10996,7 +10996,7 @@
     ],
     "area_pct": 22.89,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_303.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_303.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -11065,7 +11065,7 @@
     ],
     "area_pct": 23.08,
     "nearest_caption": "Annex 6; Hydropower Development Plan in Nepal",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_304.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_304.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -11134,7 +11134,7 @@
     ],
     "area_pct": 23.11,
     "nearest_caption": "Figure 6.5-13 Evaluation Results of Screening: (5) Environment – Forest Area [%]",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_304.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_304.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -11203,7 +11203,7 @@
     ],
     "area_pct": 23.15,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_305.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_305.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -11274,7 +11274,7 @@
     ],
     "area_pct": 23.76,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_305.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_305.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -11345,7 +11345,7 @@
     ],
     "area_pct": 22.11,
     "nearest_caption": "Figure 6.5-16 Evaluation Results of Screening: (6) Progress – Progress of Project",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_306.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_306.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -11421,7 +11421,7 @@
     ],
     "area_pct": 23.14,
     "nearest_caption": "Above results are summarized as Figure 6.5-17 and Table 6.5-4.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_306.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_306.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -11497,7 +11497,7 @@
     ],
     "area_pct": 16.62,
     "nearest_caption": "Source: JICA Study Team",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/jica_ipsdp_main_report_vol2/page_307.png",
+    "rendered_page_png": "./tmp/pdf_render/jica_ipsdp_main_report_vol2/page_307.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,

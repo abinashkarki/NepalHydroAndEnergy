@@ -1,8 +1,8 @@
 {
   "generated_from": {
-    "traced_segments": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_segments.geojson",
-    "curated_corridors": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridors.geojson",
-    "manifest": "/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/manifests/corridor_trace_manifest.json"
+    "traced_segments": "./data/processed/maps/transmission_corridor_traced_segments.geojson",
+    "curated_corridors": "./data/processed/maps/transmission_corridors.geojson",
+    "manifest": "./data/processed/corridor_tracing/manifests/corridor_trace_manifest.json"
   },
   "snap_thresholds_km": {
     "high": 2.0,

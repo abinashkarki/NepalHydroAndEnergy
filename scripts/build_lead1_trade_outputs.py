@@ -185,7 +185,7 @@ def plot_fy2081_panel(panel_rows: list[dict], output_path: Path) -> None:
 
 
 def main() -> int:
-    project_root = Path("/Users/hi/projects/nepalEnergy")
+    project_root = Path(os.environ.get("NEPAL_ENERGY_ROOT", Path(__file__).resolve().parent.parent))
     trade_chart_path = project_root / "data/processed/tables/nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv"
     energy_balance_path = project_root / "data/processed/tables/nea_monthly_energy_balance_fy2024_2025.csv"
     daily_monthly_path = project_root / "data/processed/lead1_trade/nea_daily_trade_monthly_aggregated.csv"

@@ -169,7 +169,7 @@ function makeMap(elId, opts = {}) {
 }
 
 function popupHTML(props, popupFields, opts = {}) {
-  const title = props.label_title || props.name || props.project || props.short_label || props.label || props.display_name || props.id || "Feature";
+  const title = escapeHtml(props.label_title || props.name || props.project || props.short_label || props.label || props.display_name || props.id || "Feature");
   const rows = (popupFields || []).map((f) => {
     const field = typeof f === "string" ? f : f.field;
     const label = typeof f === "string" ? humanizeField(f) : (f.label || humanizeField(f.field));
@@ -179,20 +179,18 @@ function popupHTML(props, popupFields, opts = {}) {
       if (f.value_map && f.value_map[v] !== undefined) v = f.value_map[v];
       if (f.suffix) v = String(v) + f.suffix;
     }
-    return `<div class="popup-row"><b>${label}:</b> ${v}</div>`;
+    return `<div class="popup-row"><b>${escapeHtml(label)}:</b> ${escapeHtml(v)}</div>`;
   }).join("");
   let cta = "";
   if (opts.wikiSlug) {
+    const escSlug = escapeHtml(opts.wikiSlug);
     const isCurrent = opts.currentSlug && opts.currentSlug === opts.wikiSlug;
-    // Always keep the CTA actionable. When the page is already open we style
-    // it as a confirmation ("✓ Showing in reader") instead of a dead label
-    // so the click→navigate flow doesn't read as "no page for this marker".
     if (isCurrent) {
       cta = `<a class="popup-cta popup-cta-current" href="javascript:void(0)"
                title="Reopen / scroll to top"
-               onclick="window.openWikiPage && window.openWikiPage('${opts.wikiSlug}')">✓ Showing in reader</a>`;
+               onclick="window.openWikiPage && window.openWikiPage('${escSlug}')">✓ Showing in reader</a>`;
     } else {
-      cta = `<a class="popup-cta" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${opts.wikiSlug}')">Open explanation →</a>`;
+      cta = `<a class="popup-cta" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${escSlug}')">Open explanation →</a>`;
     }
   } else if (opts.allowDraft) {
     cta = `<span class="popup-no-page" title="This feature is in the data layer but doesn't have a narrative wiki page yet.">Data-only · no wiki page</span>`;

@@ -13,27 +13,27 @@ The key rule is simple:
 
 Best currently downloaded route-grade or near-route-grade sources:
 
-- [RPGCL Nepal Transmission Network Map Revised 2021](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf)
-- [MCA-Nepal Annex D-1 Alignment Maps](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf)
-- [MCA-Nepal Project Summary Report](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_project_summary_report.pdf)
-- [World Bank HDDTL RAP](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/world_bank_hddtl_rap.pdf)
-- [MoEWRI IPSDP Executive Summary 2025](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf)
-- [JICA IPSDP Report Part 2](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/jica/jica_ipsdp_report_part2.pdf)
-- [ADB SASEC Operational Plan Update](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/adb_sasec_operational_plan_update.pdf)
-- [NEA Annual Report FY 2024/25](/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf)
-- [NEA Marsyangdi RAP](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf)
-- [NEA Upper Marsyangdi RAP](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap_upper.pdf)
-- [NEA Kabeli IEE](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_kabeli_iee.pdf)
-- [NEA Kabeli SMEF](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_kabeli_smef.pdf)
+- [RPGCL Nepal Transmission Network Map Revised 2021](./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf)
+- [MCA-Nepal Annex D-1 Alignment Maps](./data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf)
+- [MCA-Nepal Project Summary Report](./data/raw/corridor_tracing/mca/mca_project_summary_report.pdf)
+- [World Bank HDDTL RAP](./data/raw/corridor_tracing/world_bank/world_bank_hddtl_rap.pdf)
+- [MoEWRI IPSDP Executive Summary 2025](./data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf)
+- [JICA IPSDP Report Part 2](./data/raw/corridor_tracing/jica/jica_ipsdp_report_part2.pdf)
+- [ADB SASEC Operational Plan Update](./data/raw/corridor_tracing/adb_sasec_operational_plan_update.pdf)
+- [NEA Annual Report FY 2024/25](./data/raw/projects_storage/nea_annual_report_2024_2025.pdf)
+- [NEA Marsyangdi RAP](./data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf)
+- [NEA Upper Marsyangdi RAP](./data/raw/corridor_tracing/nea/nea_marsyangdi_rap_upper.pdf)
+- [NEA Kabeli IEE](./data/raw/corridor_tracing/nea/nea_kabeli_iee.pdf)
+- [NEA Kabeli SMEF](./data/raw/corridor_tracing/nea/nea_kabeli_smef.pdf)
 
 ## Canonical files
 
 Source inventory and manifest:
 
-- [corridor_source_inventory.csv](/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/manifests/corridor_source_inventory.csv)
-- [corridor_trace_manifest.csv](/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/manifests/corridor_trace_manifest.csv)
-- [corridor_source_inventory.json](/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/manifests/corridor_source_inventory.json)
-- [corridor_trace_manifest.json](/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/manifests/corridor_trace_manifest.json)
+- [corridor_source_inventory.csv](./data/processed/corridor_tracing/manifests/corridor_source_inventory.csv)
+- [corridor_trace_manifest.csv](./data/processed/corridor_tracing/manifests/corridor_trace_manifest.csv)
+- [corridor_source_inventory.json](./data/processed/corridor_tracing/manifests/corridor_source_inventory.json)
+- [corridor_trace_manifest.json](./data/processed/corridor_tracing/manifests/corridor_trace_manifest.json)
 
 Page indexes:
 
@@ -70,31 +70,31 @@ Generated transmission geometry and QA outputs:
 Build source inventory and manifest:
 
 ```bash
-/Users/hi/projects/nepalEnergy/.venv/bin/python /Users/hi/projects/nepalEnergy/scripts/build_corridor_tracing_manifest.py
+./.venv/bin/python ./scripts/build_corridor_tracing_manifest.py
 ```
 
 Index PDF pages with pypdf text and OCR fallback:
 
 ```bash
-/Users/hi/projects/nepalEnergy/.venv/bin/python /Users/hi/projects/nepalEnergy/scripts/index_corridor_pdf_pages.py --source-id mca_annex_d1_alignment_maps --force-ocr
+./.venv/bin/python ./scripts/index_corridor_pdf_pages.py --source-id mca_annex_d1_alignment_maps --force-ocr
 ```
 
 Build the visual sheet index for the scanned MCA Annex D-1 atlas:
 
 ```bash
-/Users/hi/projects/nepalEnergy/.venv/bin/python /Users/hi/projects/nepalEnergy/scripts/build_mca_annex_atlas_index.py
+./.venv/bin/python ./scripts/build_mca_annex_atlas_index.py
 ```
 
 Render the manifest-listed pages:
 
 ```bash
-/Users/hi/projects/nepalEnergy/.venv/bin/python /Users/hi/projects/nepalEnergy/scripts/render_corridor_pdf_pages.py --corridor-id hddi_400
+./.venv/bin/python ./scripts/render_corridor_pdf_pages.py --corridor-id hddi_400
 ```
 
 Extract official vector linework and traced corridors from the RPGCL geospatial PDF:
 
 ```bash
-/Users/hi/projects/nepalEnergy/.venv/bin/python /Users/hi/projects/nepalEnergy/scripts/extract_rpgcl_transmission_vectors.py
+./.venv/bin/python ./scripts/extract_rpgcl_transmission_vectors.py
 ```
 
 For `mca_central_400`, the extraction step uses `data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson` when present. That atlas trace replaces the older RPGCL overview fragments in the public traced segment output while preserving the RPGCL linework files for audit.
@@ -108,13 +108,13 @@ For `udipur_damauli_bharatpur_220`, the extraction step uses `data/raw/corridor_
 Build the connected public network, conservative cross-border lines, nodes, validation report, and gap diagnostics:
 
 ```bash
-/Users/hi/projects/nepalEnergy/.venv/bin/python /Users/hi/projects/nepalEnergy/scripts/build_transmission_network_layers.py
+./.venv/bin/python ./scripts/build_transmission_network_layers.py
 ```
 
 Build the source-confidence dossiers and reader-facing grid confidence report:
 
 ```bash
-/Users/hi/projects/nepalEnergy/.venv/bin/python /Users/hi/projects/nepalEnergy/scripts/build_grid_confidence_report.py
+./.venv/bin/python ./scripts/build_grid_confidence_report.py
 ```
 
 ## Trace order

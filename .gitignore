@@ -40,6 +40,10 @@ test-results/
 playwright-report/
 
 # ==========================================================================
+# 3D terrain PoC — local-only, not production-ready (see AGENTS.md)
+wiki/explorer/3d-terrain.*
+wiki/explorer/lib/cesium/
+
 # Scratch / derived intermediates (regenerate on demand)
 # ==========================================================================
 tmp/
@@ -73,3 +77,4 @@ data/raw/**/*.html
 *.key
 credentials.json
 secrets.json
+mcp-config.json

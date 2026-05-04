@@ -14,7 +14,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 
-ROOT = Path("/Users/hi/projects/nepalEnergy")
+ROOT = Path(os.environ.get("NEPAL_ENERGY_ROOT", Path(__file__).resolve().parent.parent))
 PDF_PATH = ROOT / "data" / "raw" / "corridor_tracing" / "mca" / "mca_annex_d1_alignment_maps.pdf"
 OUT_DIR = ROOT / "data" / "processed" / "corridor_tracing" / "mca_annex_d1"
 THUMB_DIR = OUT_DIR / "thumbnails"

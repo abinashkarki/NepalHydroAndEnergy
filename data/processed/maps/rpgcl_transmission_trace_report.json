@@ -1,5 +1,5 @@
 {
-  "source_pdf": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+  "source_pdf": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
   "viewports": {
     "Layers": {
       "bbox": [
@@ -47,7 +47,7 @@
   "corridors": {
     "hddi_400": {
       "status": "ok_manual_rap_trace",
-      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/hddi_400_rap_trace.geojson",
+      "source_path": "./data/raw/corridor_tracing/world_bank/hddi_400_rap_trace.geojson",
       "source_id": "world_bank_hddtl_rap",
       "source_pdf": "world_bank_hddtl_rap.pdf",
       "output_segment_count": 2,
@@ -58,7 +58,7 @@
     },
     "hetauda_bharatpur_bardaghat_220": {
       "status": "ok_manual_source_trace",
-      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/hetauda_bharatpur_bardaghat_220_source_trace.geojson",
+      "source_path": "./data/raw/corridor_tracing/nea/hetauda_bharatpur_bardaghat_220_source_trace.geojson",
       "source_id": "rpgcl_transmission_network_map_revised1+nea_bharatpur_bardaghat_sia",
       "source_pdf": "nepal_transmission_network_map_revised1.pdf; SIA-Bharatpur-Bardghat.pdf",
       "output_segment_count": 2,
@@ -69,7 +69,7 @@
     },
     "mca_central_400": {
       "status": "ok_manual_atlas_trace",
-      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson",
+      "source_path": "./data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson",
       "source_id": "mca_annex_d1_alignment_maps",
       "source_pdf": "mca_annex_d1_alignment_maps.pdf",
       "output_segment_count": 5,
@@ -80,7 +80,7 @@
     },
     "udipur_damauli_bharatpur_220": {
       "status": "ok_manual_rap_trace",
-      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/udipur_damauli_bharatpur_220_rap_trace.geojson",
+      "source_path": "./data/raw/corridor_tracing/nea/udipur_damauli_bharatpur_220_rap_trace.geojson",
       "source_id": "nea_marsyangdi_rap",
       "source_pdf": "nea_marsyangdi_rap.pdf",
       "output_segment_count": 1,

@@ -62,7 +62,7 @@ transmission system. It is especially useful for:
 ## Local Source
 
 Local workspace copy:
-[nea_transmission_annual_book_2077.pdf](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf)
+[nea_transmission_annual_book_2077.pdf](./data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf)
 
 ## What This Source Does Not Cover
 

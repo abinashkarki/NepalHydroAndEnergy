@@ -6,7 +6,7 @@ import subprocess
 from pathlib import Path
 
 
-ROOT = Path("/Users/hi/projects/nepalEnergy")
+ROOT = Path(os.environ.get("NEPAL_ENERGY_ROOT", Path(__file__).resolve().parent.parent))
 MANIFEST = ROOT / "data" / "processed" / "corridor_tracing" / "manifests" / "corridor_trace_manifest.csv"
 OUTPUT = ROOT / "data" / "processed" / "corridor_tracing" / "rendered_pages"
 

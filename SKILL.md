@@ -8,7 +8,7 @@ The wiki lives at `transparentgov.ai/wiki/explorer/` and is backed by a local MC
 
 ## Setup
 
-Add this to your MCP client config:
+Add this to your MCP client config (adjust `cwd` to your local clone):
 
 ```json
 {
@@ -16,13 +16,13 @@ Add this to your MCP client config:
     "nepal-energy-wiki": {
       "command": "python3",
       "args": ["scripts/wiki_mcp_server.py"],
-      "cwd": "/Users/hi/projects/nepalEnergy"
+      "cwd": "."
     }
   }
 }
 ```
 
-Or run directly: `cd /Users/hi/projects/nepalEnergy && make mcp`
+Or run from the repo root: `make mcp`
 
 **Prerequisite:** `pip install mcp` — the server needs the `mcp` SDK. All wiki data is pre-built static JSON (no external services).
 

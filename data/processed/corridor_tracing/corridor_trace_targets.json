@@ -14,7 +14,7 @@
     "alias_notes": "Current grid documents often use Inaruwa as the eastern node; the 2017 RAP uses Duhabi / New Duhabi.",
     "trace_readiness": "ready_to_render",
     "local_status": "pdf_valid",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/worldbank_hddtl_rap.pdf",
+    "local_path": "./data/raw/corridor_tracing/world_bank/worldbank_hddtl_rap.pdf",
     "url": "https://documents1.worldbank.org/curated/en/522221483681808545/pdf/IPP476-v2-Box396344B-PUBLIC-disclosed-1-5-17.pdf",
     "notes": "First trace candidate. Best current local route map."
   },
@@ -33,7 +33,7 @@
     "alias_notes": "Page with text breakdown of the corridor by major stretches.",
     "trace_readiness": "context_only",
     "local_status": "pdf_valid",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/worldbank_hddtl_rap.pdf",
+    "local_path": "./data/raw/corridor_tracing/world_bank/worldbank_hddtl_rap.pdf",
     "url": "https://documents1.worldbank.org/curated/en/522221483681808545/pdf/IPP476-v2-Box396344B-PUBLIC-disclosed-1-5-17.pdf",
     "notes": "Use to cross-check traced route logic and length splits."
   },
@@ -52,7 +52,7 @@
     "alias_notes": "Historical planning nomenclature uses Naubise; current MCA / ADB naming uses Ratmate as the hub.",
     "trace_readiness": "context_only",
     "local_status": "pdf_valid",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_volume8_project_summary.pdf",
+    "local_path": "./data/raw/corridor_tracing/mca/mca_volume8_project_summary.pdf",
     "url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FFeasibilityStudiesReports%2FVolume-8-Project-Summary-Report.pdf&section=FeasibilityStudiesReports&guid=02f6a408-fd36-4732-a580-0ae2af8b35ae",
     "notes": "Use to map old-vs-current naming and substation coordinates before tracing Annex D-1 sheets."
   },
@@ -71,7 +71,7 @@
     "alias_notes": "Earlier feasibility documents use Naubise / New Damauli / New Butwal naming; current MCA pages use Ratmate.",
     "trace_readiness": "sheet_hunt_required",
     "local_status": "pdf_valid",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf",
+    "local_path": "./data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf",
     "url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FEIAReports%2FAnnexD_1_Alignment-Maps.pdf&section=EIAReports&guid=90d56f40-0b72-4cb0-9e2b-fa8eeaba72d3",
     "notes": "Primary trace source once the exact sheet range is locked."
   },
@@ -90,7 +90,7 @@
     "alias_notes": "Current map uses Udipur-Damauli-Bharatpur reinforcement as the display proxy.",
     "trace_readiness": "awaiting_exact_pages",
     "local_status": "invalid_non_pdf",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf",
+    "local_path": "./data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf",
     "url": "https://www.nea.org.np/admin/assets/uploads/supportive_docs/17560727.pdf",
     "notes": "Exact page references to be filled once the NEA PDF is locally accessible."
   },
@@ -109,7 +109,7 @@
     "alias_notes": "Spellings vary across NEA documents and later line inventories.",
     "trace_readiness": "awaiting_exact_pages",
     "local_status": "invalid_non_pdf",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_kabeli_iee_volume_iiia.pdf",
+    "local_path": "./data/raw/corridor_tracing/nea/nea_kabeli_iee_volume_iiia.pdf",
     "url": "https://www.nea.org.np/admin/assets/uploads/supportive_docs/1657536461_Volume%20IIIA%20--%20EIB-W2.pdf",
     "notes": "Exact page references to be filled once the NEA PDF is locally accessible."
   }

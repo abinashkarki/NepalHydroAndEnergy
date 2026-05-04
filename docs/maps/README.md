@@ -4,7 +4,7 @@
 
 The four HTML maps below are now available as **switchable lenses inside the wiki+map explorer**, alongside the wiki content. Open the explorer and use the preset bar at the top of the map to flip between the same four views; each preset is also deep-linkable via `?preset=…&page=…`.
 
-- [`/wiki/explorer/index.html`](/Users/hi/projects/nepalEnergy/wiki/explorer/index.html) — single-page viewer with all four lenses + the wiki
+- [`/wiki/explorer/index.html`](./wiki/explorer/index.html) — single-page viewer with all four lenses + the wiki
 
 | Folium HTML | Explorer preset | Deep link |
 |---|---|---|
@@ -19,61 +19,61 @@ Both the static HTMLs and the explorer presets render the same underlying GeoJSO
 
 Useful when you want a single self-contained file to share, embed, or open offline. They do not include the wiki side-pane, search, or layer-add behavior.
 
-- [Nepal Tributary Explorer](/Users/hi/projects/nepalEnergy/docs/maps/nepal_tributary_explorer.html)
-- [Nepal Tributary Network](/Users/hi/projects/nepalEnergy/docs/maps/nepal_tributary_network.html)
-- [Nepal River Geopolitics Explorer](/Users/hi/projects/nepalEnergy/docs/maps/nepal_geopolitics_river_influence.html)
-- [Nepal Power System Explorer](/Users/hi/projects/nepalEnergy/docs/maps/nepal_power_system_explorer.html)
+- [Nepal Tributary Explorer](./docs/maps/nepal_tributary_explorer.html)
+- [Nepal Tributary Network](./docs/maps/nepal_tributary_network.html)
+- [Nepal River Geopolitics Explorer](./docs/maps/nepal_geopolitics_river_influence.html)
+- [Nepal Power System Explorer](./docs/maps/nepal_power_system_explorer.html)
 
 ## Preview images
 
-- [Cross-border hydrology preview](/Users/hi/projects/nepalEnergy/docs/maps/nepal_cross_border_hydrology.png)
-- [Cross-border view with hydropower projects](/Users/hi/projects/nepalEnergy/docs/maps/nepal_cross_border_with_projects.png)
-- [Cross-border basin context preview](/Users/hi/projects/nepalEnergy/docs/maps/nepal_cross_border_basin_context.png)
-- [Geopolitics map preview](/Users/hi/projects/nepalEnergy/docs/maps/nepal_geopolitics_river_influence.png)
+- [Cross-border hydrology preview](./docs/maps/nepal_cross_border_hydrology.png)
+- [Cross-border view with hydropower projects](./docs/maps/nepal_cross_border_with_projects.png)
+- [Cross-border basin context preview](./docs/maps/nepal_cross_border_basin_context.png)
+- [Geopolitics map preview](./docs/maps/nepal_geopolitics_river_influence.png)
 
 ## Source layers
 
-- [Relevant tributaries GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/nepal_relevant_tributaries.geojson)
-- [Northern Indian comparison rivers GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/india_reference_rivers.geojson)
-- [Nepal-origin downstream systems GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/nepal_origin_downstream_systems.geojson)
-- [Nepal-linked basin polygons GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/nepal_linked_basin_polygons.geojson)
-- [India-origin comparison basin polygons GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/india_comparison_basin_polygons.geojson)
-- [Origin comparison callouts GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/river_influence_callouts.geojson)
-- [Downstream impact markers GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/downstream_hydrology_markers.geojson)
-- [Nepal country outline GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/nepal_country_outline.geojson)
-- [Basin seasonality annotations GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/basin_seasonality_annotations.geojson)
-- [Top capacity project annotations GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/top_capacity_project_annotations.geojson)
-- [Priority project watchlist GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/priority_project_watchlist.geojson)
-- [Storage shortlist annotations GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/storage_shortlist_annotations.geojson)
-- [Transmission corridors GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridors.geojson)
-- [Official transmission linework from RPGCL geospatial PDF](/Users/hi/projects/nepalEnergy/data/processed/maps/rpgcl_transmission_official_linework.geojson)
-- [Official transmission map labels from RPGCL geospatial PDF](/Users/hi/projects/nepalEnergy/data/processed/maps/rpgcl_transmission_official_labels.geojson)
-- [Traced transmission corridor segments](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_segments.geojson)
-- [Connected traced transmission network](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_network.geojson)
-- [Internal topology nodes](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_network_nodes.geojson)
-- [Internal transmission trace gap report GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_trace_gap_report.geojson)
-- [Transmission corridor validation report](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_validation_report.json)
-- [Transmission network build report](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_network_build_report.json)
-- [Transmission corridor dossiers](/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_dossiers.json)
-- [Cross-border interconnection dossiers](/Users/hi/projects/nepalEnergy/data/processed/maps/cross_border_interconnection_dossiers.json)
-- [Grid confidence report](/Users/hi/projects/nepalEnergy/docs/maps/grid_confidence_report.md)
-- [Transmission warning burn-down](/Users/hi/projects/nepalEnergy/docs/maps/transmission_warning_burndown.md)
-- [MCA Annex D-1 atlas index](/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/mca_annex_d1/mca_annex_d1_atlas_index.json)
-- [MCA Central atlas trace](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson)
-- [Hetauda-Dhalkebar-Inaruwa RAP trace](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/hddi_400_rap_trace.geojson)
-- [Hetauda-Bharatpur-Bardaghat source trace](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/hetauda_bharatpur_bardaghat_220_source_trace.geojson)
-- [Udipur-Markichowk-Bharatpur RAP trace](/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/udipur_damauli_bharatpur_220_rap_trace.geojson)
-- [Transmission tracing report](/Users/hi/projects/nepalEnergy/data/processed/maps/rpgcl_transmission_trace_report.json)
-- [India cross-border interconnections GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/cross_border_interconnections.geojson)
-- [India cross-border interconnection lines](/Users/hi/projects/nepalEnergy/data/processed/maps/cross_border_interconnection_lines.geojson)
-- [Place anchor index GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/place_anchor_index.geojson)
-- [Annotation build report](/Users/hi/projects/nepalEnergy/data/processed/maps/annotation_build_report.json)
-- [Power-system build report](/Users/hi/projects/nepalEnergy/data/processed/maps/power_system_build_report.json)
-- [Hydropower display points GeoJSON](/Users/hi/projects/nepalEnergy/data/processed/maps/hydropower_project_display_points.geojson)
-- [Hydropower anchor report](/Users/hi/projects/nepalEnergy/data/processed/maps/hydropower_project_anchor_report.json)
-- [River network QA report](/Users/hi/projects/nepalEnergy/data/processed/maps/river_network_qa_report.json)
-- [Tributary compatibility report](/Users/hi/projects/nepalEnergy/data/processed/maps/tributary_fetch_report.json)
-- [India river fetch report](/Users/hi/projects/nepalEnergy/data/processed/maps/india_reference_rivers_report.json)
+- [Relevant tributaries GeoJSON](./data/processed/maps/nepal_relevant_tributaries.geojson)
+- [Northern Indian comparison rivers GeoJSON](./data/processed/maps/india_reference_rivers.geojson)
+- [Nepal-origin downstream systems GeoJSON](./data/processed/maps/nepal_origin_downstream_systems.geojson)
+- [Nepal-linked basin polygons GeoJSON](./data/processed/maps/nepal_linked_basin_polygons.geojson)
+- [India-origin comparison basin polygons GeoJSON](./data/processed/maps/india_comparison_basin_polygons.geojson)
+- [Origin comparison callouts GeoJSON](./data/processed/maps/river_influence_callouts.geojson)
+- [Downstream impact markers GeoJSON](./data/processed/maps/downstream_hydrology_markers.geojson)
+- [Nepal country outline GeoJSON](./data/processed/maps/nepal_country_outline.geojson)
+- [Basin seasonality annotations GeoJSON](./data/processed/maps/basin_seasonality_annotations.geojson)
+- [Top capacity project annotations GeoJSON](./data/processed/maps/top_capacity_project_annotations.geojson)
+- [Priority project watchlist GeoJSON](./data/processed/maps/priority_project_watchlist.geojson)
+- [Storage shortlist annotations GeoJSON](./data/processed/maps/storage_shortlist_annotations.geojson)
+- [Transmission corridors GeoJSON](./data/processed/maps/transmission_corridors.geojson)
+- [Official transmission linework from RPGCL geospatial PDF](./data/processed/maps/rpgcl_transmission_official_linework.geojson)
+- [Official transmission map labels from RPGCL geospatial PDF](./data/processed/maps/rpgcl_transmission_official_labels.geojson)
+- [Traced transmission corridor segments](./data/processed/maps/transmission_corridor_traced_segments.geojson)
+- [Connected traced transmission network](./data/processed/maps/transmission_corridor_traced_network.geojson)
+- [Internal topology nodes](./data/processed/maps/transmission_network_nodes.geojson)
+- [Internal transmission trace gap report GeoJSON](./data/processed/maps/transmission_trace_gap_report.geojson)
+- [Transmission corridor validation report](./data/processed/maps/transmission_corridor_validation_report.json)
+- [Transmission network build report](./data/processed/maps/transmission_network_build_report.json)
+- [Transmission corridor dossiers](./data/processed/maps/transmission_corridor_dossiers.json)
+- [Cross-border interconnection dossiers](./data/processed/maps/cross_border_interconnection_dossiers.json)
+- [Grid confidence report](./docs/maps/grid_confidence_report.md)
+- [Transmission warning burn-down](./docs/maps/transmission_warning_burndown.md)
+- [MCA Annex D-1 atlas index](./data/processed/corridor_tracing/mca_annex_d1/mca_annex_d1_atlas_index.json)
+- [MCA Central atlas trace](./data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson)
+- [Hetauda-Dhalkebar-Inaruwa RAP trace](./data/raw/corridor_tracing/world_bank/hddi_400_rap_trace.geojson)
+- [Hetauda-Bharatpur-Bardaghat source trace](./data/raw/corridor_tracing/nea/hetauda_bharatpur_bardaghat_220_source_trace.geojson)
+- [Udipur-Markichowk-Bharatpur RAP trace](./data/raw/corridor_tracing/nea/udipur_damauli_bharatpur_220_rap_trace.geojson)
+- [Transmission tracing report](./data/processed/maps/rpgcl_transmission_trace_report.json)
+- [India cross-border interconnections GeoJSON](./data/processed/maps/cross_border_interconnections.geojson)
+- [India cross-border interconnection lines](./data/processed/maps/cross_border_interconnection_lines.geojson)
+- [Place anchor index GeoJSON](./data/processed/maps/place_anchor_index.geojson)
+- [Annotation build report](./data/processed/maps/annotation_build_report.json)
+- [Power-system build report](./data/processed/maps/power_system_build_report.json)
+- [Hydropower display points GeoJSON](./data/processed/maps/hydropower_project_display_points.geojson)
+- [Hydropower anchor report](./data/processed/maps/hydropower_project_anchor_report.json)
+- [River network QA report](./data/processed/maps/river_network_qa_report.json)
+- [Tributary compatibility report](./data/processed/maps/tributary_fetch_report.json)
+- [India river fetch report](./data/processed/maps/india_reference_rivers_report.json)
 
 ## Coverage
 
@@ -140,4 +140,4 @@ The 132 kV corridors should be read as grid-reach and evacuation context, not bu
 
 The basin polygons are derived from HydroBASINS Asia level 6, aggregated upstream from selected outlet points on the relevant river trunks. They are hydrologic polygons, not administrative river-basin plan boundaries.
 
-River QA now has an explicit internal review workflow. Review contact sheets are generated under `/Users/hi/projects/nepalEnergy/tmp/river_review/`, manual decisions and river-specific routing overrides live in `/Users/hi/projects/nepalEnergy/data/raw/maps/river_network_review_overrides.json`, and only rivers with both `qa_status=pass` and `review_status=pass` are published in `nepal_relevant_tributaries.geojson`.
+River QA now has an explicit internal review workflow. Review contact sheets are generated under `./tmp/river_review/`, manual decisions and river-specific routing overrides live in `./data/raw/maps/river_network_review_overrides.json`, and only rivers with both `qa_status=pass` and `review_status=pass` are published in `nepal_relevant_tributaries.geojson`.

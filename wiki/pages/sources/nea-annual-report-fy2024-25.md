@@ -19,7 +19,7 @@ The most current official snapshot of Nepal's electricity system. Covers install
 
 ## Image Catalog
 
-This run is ingesting roughly 130 images from the FY 2024/25 annual report; the current atlas pass surfaced 131 real-image candidates for review. The atlas manifest lives at [nea_annual_report_2024_2025_image_atlas.json](/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/manifests/nea_annual_report_2024_2025_image_atlas.json).
+This run is ingesting roughly 130 images from the FY 2024/25 annual report; the current atlas pass surfaced 131 real-image candidates for review. The atlas manifest lives at [nea_annual_report_2024_2025_image_atlas.json](./data/processed/corridor_tracing/manifests/nea_annual_report_2024_2025_image_atlas.json).
 
 ## Key Data Points
 

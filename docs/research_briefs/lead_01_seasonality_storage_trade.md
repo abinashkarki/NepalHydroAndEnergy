@@ -271,19 +271,19 @@ Use the sources in this order.
 
 ## Local files created for this brief
 
-- [lead_01_seasonality_storage_trade.md](/Users/hi/projects/nepalEnergy/docs/research_briefs/lead_01_seasonality_storage_trade.md)
-- [nea_monthly_energy_balance_fy2024_2025.csv](/Users/hi/projects/nepalEnergy/data/processed/tables/nea_monthly_energy_balance_fy2024_2025.csv)
-- [nea_monthly_capacity_balance_fy2024_2025.csv](/Users/hi/projects/nepalEnergy/data/processed/tables/nea_monthly_capacity_balance_fy2024_2025.csv)
-- [nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv](/Users/hi/projects/nepalEnergy/data/processed/tables/nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv)
+- [lead_01_seasonality_storage_trade.md](./docs/research_briefs/lead_01_seasonality_storage_trade.md)
+- [nea_monthly_energy_balance_fy2024_2025.csv](./data/processed/tables/nea_monthly_energy_balance_fy2024_2025.csv)
+- [nea_monthly_capacity_balance_fy2024_2025.csv](./data/processed/tables/nea_monthly_capacity_balance_fy2024_2025.csv)
+- [nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv](./data/processed/tables/nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv)
 
 ## High-value sources
 
-- NEA annual report FY `2024/25` local copy: [nea_annual_report_2024_2025.pdf](/Users/hi/projects/nepalEnergy/data/raw/projects_storage/nea_annual_report_2024_2025.pdf)
-- WECS hydropower potential local copy: [wecs_hydropower_potential_2019.pdf](/Users/hi/projects/nepalEnergy/data/raw/projects_storage/wecs_hydropower_potential_2019.pdf)
-- WECS River Basin Plan local copy: [wecs_river_basin_plan_2024.pdf](/Users/hi/projects/nepalEnergy/data/raw/lead1_sources/wecs_river_basin_plan_2024.pdf)
-- JICA storage master plan volume 1 local copy: [jica_storage_master_plan_vol_1.pdf](/Users/hi/projects/nepalEnergy/data/raw/lead1_sources/jica_storage_master_plan_vol_1.pdf)
-- JICA storage master plan volume 2 local copy: [jica_storage_master_plan_vol_2.pdf](/Users/hi/projects/nepalEnergy/data/raw/lead1_sources/jica_storage_master_plan_vol_2.pdf)
-- DHM hydrological data request form local copy: [dhm_hydrological_data_request_form.pdf](/Users/hi/projects/nepalEnergy/data/raw/lead1_sources/dhm_hydrological_data_request_form.pdf)
+- NEA annual report FY `2024/25` local copy: [nea_annual_report_2024_2025.pdf](./data/raw/projects_storage/nea_annual_report_2024_2025.pdf)
+- WECS hydropower potential local copy: [wecs_hydropower_potential_2019.pdf](./data/raw/projects_storage/wecs_hydropower_potential_2019.pdf)
+- WECS River Basin Plan local copy: [wecs_river_basin_plan_2024.pdf](./data/raw/lead1_sources/wecs_river_basin_plan_2024.pdf)
+- JICA storage master plan volume 1 local copy: [jica_storage_master_plan_vol_1.pdf](./data/raw/lead1_sources/jica_storage_master_plan_vol_1.pdf)
+- JICA storage master plan volume 2 local copy: [jica_storage_master_plan_vol_2.pdf](./data/raw/lead1_sources/jica_storage_master_plan_vol_2.pdf)
+- DHM hydrological data request form local copy: [dhm_hydrological_data_request_form.pdf](./data/raw/lead1_sources/dhm_hydrological_data_request_form.pdf)
 - DHM data service: [dhm.gov.np/data-service](https://www.dhm.gov.np/data-service)
 - DHM hydrological network page: [dhm.gov.np/hydology/hydrological-data-network](https://dhm.gov.np/hydology/hydrological-data-network)
 - DHM real-time streamflow: [dhm.gov.np/hydrology/realtime-stream](https://dhm.gov.np/hydrology/realtime-stream)

@@ -4,24 +4,24 @@
 
 Lead 01 now has three working research assets:
 
-1. [lead_01_seasonality_storage_trade.md](/Users/hi/projects/nepalEnergy/docs/research_briefs/lead_01_seasonality_storage_trade.md)
-2. [nepal_basin_seasonality_baseline.csv](/Users/hi/projects/nepalEnergy/data/processed/tables/nepal_basin_seasonality_baseline.csv)
-3. [nepal_storage_dry_energy_shortlist.csv](/Users/hi/projects/nepalEnergy/data/processed/tables/nepal_storage_dry_energy_shortlist.csv)
+1. [lead_01_seasonality_storage_trade.md](./docs/research_briefs/lead_01_seasonality_storage_trade.md)
+2. [nepal_basin_seasonality_baseline.csv](./data/processed/tables/nepal_basin_seasonality_baseline.csv)
+3. [nepal_storage_dry_energy_shortlist.csv](./data/processed/tables/nepal_storage_dry_energy_shortlist.csv)
 
 It also now has a real NEA daily-report ingestion pipeline:
 
-- [build_nea_daily_trade_series.py](/Users/hi/projects/nepalEnergy/scripts/build_nea_daily_trade_series.py)
-- [nea_daily_report_manifest.csv](/Users/hi/projects/nepalEnergy/data/processed/lead1_trade/nea_daily_report_manifest.csv)
-- [nea_daily_trade_parsed.csv](/Users/hi/projects/nepalEnergy/data/processed/lead1_trade/nea_daily_trade_parsed.csv)
-- [nea_daily_trade_monthly_aggregated.csv](/Users/hi/projects/nepalEnergy/data/processed/lead1_trade/nea_daily_trade_monthly_aggregated.csv)
+- [build_nea_daily_trade_series.py](./scripts/build_nea_daily_trade_series.py)
+- [nea_daily_report_manifest.csv](./data/processed/lead1_trade/nea_daily_report_manifest.csv)
+- [nea_daily_trade_parsed.csv](./data/processed/lead1_trade/nea_daily_trade_parsed.csv)
+- [nea_daily_trade_monthly_aggregated.csv](./data/processed/lead1_trade/nea_daily_trade_monthly_aggregated.csv)
 
 Lead 01 also now has a reusable monthly-series builder and first-pass visuals:
 
-- [build_lead1_trade_outputs.py](/Users/hi/projects/nepalEnergy/scripts/build_lead1_trade_outputs.py)
-- [nea_trade_chart_monthly_long.csv](/Users/hi/projects/nepalEnergy/data/processed/lead1_trade/nea_trade_chart_monthly_long.csv)
-- [lead1_monthly_import_export_storage_fy2081_82.csv](/Users/hi/projects/nepalEnergy/data/processed/lead1_trade/lead1_monthly_import_export_storage_fy2081_82.csv)
-- [lead1_monthly_trade_3year.png](/Users/hi/projects/nepalEnergy/figures/lead1_monthly_trade_3year.png)
-- [lead1_fy2081_82_trade_vs_storage.png](/Users/hi/projects/nepalEnergy/figures/lead1_fy2081_82_trade_vs_storage.png)
+- [build_lead1_trade_outputs.py](./scripts/build_lead1_trade_outputs.py)
+- [nea_trade_chart_monthly_long.csv](./data/processed/lead1_trade/nea_trade_chart_monthly_long.csv)
+- [lead1_monthly_import_export_storage_fy2081_82.csv](./data/processed/lead1_trade/lead1_monthly_import_export_storage_fy2081_82.csv)
+- [lead1_monthly_trade_3year.png](./figures/lead1_monthly_trade_3year.png)
+- [lead1_fy2081_82_trade_vs_storage.png](./figures/lead1_fy2081_82_trade_vs_storage.png)
 
 ## What was verified in this pass
 
@@ -102,7 +102,7 @@ That means the main lead remains intact: Nepal's energy bottleneck still looks m
 
 ## Immediate next task
 
-Finish the full daily parse and then rerun [build_lead1_trade_outputs.py](/Users/hi/projects/nepalEnergy/scripts/build_lead1_trade_outputs.py) so the figures and panel table reflect the full `2080-01-01` to `2081-09-27` operational archive.
+Finish the full daily parse and then rerun [build_lead1_trade_outputs.py](./scripts/build_lead1_trade_outputs.py) so the figures and panel table reflect the full `2080-01-01` to `2081-09-27` operational archive.
 
 In parallel, keep probing NEA monthly operational reports as a blocked-but-promising source:
 

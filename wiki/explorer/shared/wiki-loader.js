@@ -3,6 +3,17 @@
 (function () {
 if (window.NepalExplorer && window.NepalExplorer._wikiLoaderLoaded) return;
 
+function sanitizeHTML(html) {
+  return String(html)
+    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
+    .replace(/<iframe\b[^<]*(?:(?!<\/iframe>)<[^<]*)*<\/iframe>/gi, "")
+    .replace(/<object\b[^<]*(?:(?!<\/object>)<[^<]*)*<\/object>/gi, "")
+    .replace(/<embed\b[^<]*(?:(?!<\/embed>)<[^<]*)*<\/embed>/gi, "")
+    .replace(/\son\w+\s*=\s*"[^"]*"/gi, "")
+    .replace(/\son\w+\s*=\s*'[^']*'/gi, "")
+    .replace(/javascript\s*:/gi, "blocked:");
+}
+
 const PAGE_DIRS = ["sources", "entities", "concepts", "syntheses", "claims", "data"];
 
 const PAGE_INDEX_CACHE = { built: false, byCategory: {}, allSlugs: [], slugToCategory: {}, slugToTitle: {} };
@@ -200,7 +211,8 @@ async function renderPage(slug, opts = {}) {
   }
   const { frontmatter, body } = splitFrontmatter(raw);
   const images = parseImagesFromFrontmatter(frontmatter);
-  const html = window.marked ? marked.parse(body) : `<pre>${body}</pre>`;
+  const rawHtml = window.marked ? marked.parse(body) : `<pre>${body}</pre>`;
+  const html = sanitizeHTML(rawHtml);
   const linked = renderCallouts(rewriteWikilinks(html, idx, opts.spatialSlugs));
   const fm = opts.showFrontmatter ? `<pre class="frontmatter show">${frontmatter}</pre>` : "";
   const cat = `<div style="font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;">${category} · ${slug}</div>`;

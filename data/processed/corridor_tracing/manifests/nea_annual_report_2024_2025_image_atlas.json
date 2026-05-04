@@ -10,7 +10,7 @@
     ],
     "area_pct": 100.43,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_001.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_001.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -35,7 +35,7 @@
     ],
     "area_pct": 36.24,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_002.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_002.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -104,7 +104,7 @@
     ],
     "area_pct": 36.24,
     "nearest_caption": "Sanjen and Chilime HEP Site",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_002.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_002.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -173,7 +173,7 @@
     ],
     "area_pct": 75.62,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_004.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_004.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -198,7 +198,7 @@
     ],
     "area_pct": 75.62,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_005.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_005.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -223,7 +223,7 @@
     ],
     "area_pct": 68.67,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_006.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_006.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -248,7 +248,7 @@
     ],
     "area_pct": 68.16,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_007.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_007.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -273,7 +273,7 @@
     ],
     "area_pct": 25.94,
     "nearest_caption": "Timeline of Hydropower Development by NEA",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_019.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_019.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -347,7 +347,7 @@
     ],
     "area_pct": 20.05,
     "nearest_caption": "Comparison: % of designed vs % of Target (FY 2081/82)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_020.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_020.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -418,7 +418,7 @@
     ],
     "area_pct": 7.2,
     "nearest_caption": "Wet vs Dry Season Generation of last three fiscal years",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_020.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_020.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -489,7 +489,7 @@
     ],
     "area_pct": 14.9,
     "nearest_caption": "Monthly seasonal variation of last three fiscal years",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_020.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_020.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -560,7 +560,7 @@
     ],
     "area_pct": 19.65,
     "nearest_caption": "Energy generation pattern of PROR/ROR and storage (GWh)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_021.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_021.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -635,7 +635,7 @@
     ],
     "area_pct": 5.88,
     "nearest_caption": "storage use in Baisakh.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_021.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_021.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -710,7 +710,7 @@
     ],
     "area_pct": 8.67,
     "nearest_caption": "Unit No.1 overhauling works",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_022.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_022.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -784,7 +784,7 @@
     ],
     "area_pct": 6.41,
     "nearest_caption": "LDC communication.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_022.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_022.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -858,7 +858,7 @@
     ],
     "area_pct": 14.59,
     "nearest_caption": "seal, and sliding ring of Unit No. 3.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_022.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_022.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -932,7 +932,7 @@
     ],
     "area_pct": 8.02,
     "nearest_caption": "Lifting of upper bracket during overhauling",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_023.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_023.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1008,7 +1008,7 @@
     ],
     "area_pct": 5.24,
     "nearest_caption": "sea level (on 2082/02/30).",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_023.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_023.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1084,7 +1084,7 @@
     ],
     "area_pct": 12.27,
     "nearest_caption": "Machine floor of KL1",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_024.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_024.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1157,7 +1157,7 @@
     ],
     "area_pct": 13.74,
     "nearest_caption": "6.6 kV Bus conductor maintenance",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_024.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_024.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1230,7 +1230,7 @@
     ],
     "area_pct": 7.76,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_025.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_025.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1306,7 +1306,7 @@
     ],
     "area_pct": 7.66,
     "nearest_caption": "Repair of generator side covers during overhauling Stator of unit-2 during overhauling",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_025.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_025.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1382,7 +1382,7 @@
     ],
     "area_pct": 7.46,
     "nearest_caption": "Repair works on draft tube during overhauling",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_026.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_026.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1458,7 +1458,7 @@
     ],
     "area_pct": 5.1,
     "nearest_caption": "servicing.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_026.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_026.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1534,7 +1534,7 @@
     ],
     "area_pct": 7.7,
     "nearest_caption": "replacement.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_026.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_026.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1610,7 +1610,7 @@
     ],
     "area_pct": 4.5,
     "nearest_caption": "along the penstock and reservoir. damage in Asoj.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_027.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_027.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1686,7 +1686,7 @@
     ],
     "area_pct": 5.38,
     "nearest_caption": "completed to boost reliability and efficiency, and modification of hydraulic pipelines for the",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_027.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_027.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1762,7 +1762,7 @@
     ],
     "area_pct": 10.3,
     "nearest_caption": "• Landslide protection generation.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_028.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_028.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1837,7 +1837,7 @@
     ],
     "area_pct": 10.15,
     "nearest_caption": "Seti Hydropower Station achieving 51% of its target and 15% of design",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_028.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_028.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1912,7 +1912,7 @@
     ],
     "area_pct": 9.64,
     "nearest_caption": "reliability.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_028.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_028.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -1987,7 +1987,7 @@
     ],
     "area_pct": 15.56,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_029.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_029.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2061,7 +2061,7 @@
     ],
     "area_pct": 6.9,
     "nearest_caption": "and 138% of its design generation.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_029.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_029.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2135,7 +2135,7 @@
     ],
     "area_pct": 6.25,
     "nearest_caption": "May 1911 (B.S. 1968, 9th Jestha).",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_029.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_029.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2209,7 +2209,7 @@
     ],
     "area_pct": 11.05,
     "nearest_caption": "FISCAL YEAR 2024/2025 A YEAR IN REVIEW",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_030.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_030.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2283,7 +2283,7 @@
     ],
     "area_pct": 8.33,
     "nearest_caption": "Hetauda Diesel Plant and Multifuel Power Plant",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_030.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_030.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2357,7 +2357,7 @@
     ],
     "area_pct": 5.66,
     "nearest_caption": "planned after budget approval.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_030.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_030.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2431,7 +2431,7 @@
     ],
     "area_pct": 7.68,
     "nearest_caption": "Chilime Hub GIS SS day view.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_032.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_032.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2506,7 +2506,7 @@
     ],
     "area_pct": 5.77,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_032.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_032.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2581,7 +2581,7 @@
     ],
     "area_pct": 7.25,
     "nearest_caption": "KC-3: Transmission Line Stretch from Basantapur",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_032.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_032.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2656,7 +2656,7 @@
     ],
     "area_pct": 5.33,
     "nearest_caption": "supporting growing local energy demands.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_033.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_033.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2730,7 +2730,7 @@
     ],
     "area_pct": 7.77,
     "nearest_caption": "Malekhu Substation",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_033.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_033.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2804,7 +2804,7 @@
     ],
     "area_pct": 19.52,
     "nearest_caption": "Tamghas 132/33/11 kV Substation",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_034.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_034.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2877,7 +2877,7 @@
     ],
     "area_pct": 8.03,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_036.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_036.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -2952,7 +2952,7 @@
     ],
     "area_pct": 16.27,
     "nearest_caption": "First Erected Tower",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_037.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_037.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3026,7 +3026,7 @@
     ],
     "area_pct": 13.18,
     "nearest_caption": "First Erected Tower",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_037.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_037.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3100,7 +3100,7 @@
     ],
     "area_pct": 11.8,
     "nearest_caption": "to be energized within the next three months.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_038.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_038.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3176,7 +3176,7 @@
     ],
     "area_pct": 7.81,
     "nearest_caption": "industrial corridor.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_038.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_038.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3252,7 +3252,7 @@
     ],
     "area_pct": 23.12,
     "nearest_caption": "New Modi 132 kV Substation (with two Bay expansion & Foundation work)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_039.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_039.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3327,7 +3327,7 @@
     ],
     "area_pct": 20.86,
     "nearest_caption": "pending resolution of environmental approvals.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_041.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_041.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3403,7 +3403,7 @@
     ],
     "area_pct": 5.79,
     "nearest_caption": "400 kV Tower at Koshi River",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_042.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_042.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3479,7 +3479,7 @@
     ],
     "area_pct": 7.02,
     "nearest_caption": "Energy contribution scenario (2081/82)",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_045.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_045.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3553,7 +3553,7 @@
     ],
     "area_pct": 6.27,
     "nearest_caption": "Electrification in Rubi Valley, Dhading",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_056.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_056.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3628,7 +3628,7 @@
     ],
     "area_pct": 7.4,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_063.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_063.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3704,7 +3704,7 @@
     ],
     "area_pct": 9.9,
     "nearest_caption": "Syarpu Lake Pumped Storage Hydroelectric",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_063.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_063.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3780,7 +3780,7 @@
     ],
     "area_pct": 7.45,
     "nearest_caption": "awareness programs, skill development training,",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_065.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_065.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3854,7 +3854,7 @@
     ],
     "area_pct": 7.7,
     "nearest_caption": "Fisheries Study in Jawa-Tila HEP Area (70.37 MW), Public Consultation Meeting at Lekhnath-Damauli Jumla 220 kV TLP Area, Byas Municipality, Tanahu",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_065.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_065.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -3928,7 +3928,7 @@
     ],
     "area_pct": 5.03,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_065.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_065.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4002,7 +4002,7 @@
     ],
     "area_pct": 6.61,
     "nearest_caption": "Jumla 220 kV TLP Area, Byas Municipality, Tanahu",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_065.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_065.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4076,7 +4076,7 @@
     ],
     "area_pct": 7.58,
     "nearest_caption": "ERT survey at IkhuwaKhola HPP (IKHPP) Core Drilling at JawaTila",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_066.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_066.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4149,7 +4149,7 @@
     ],
     "area_pct": 9.51,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_066.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_066.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4222,7 +4222,7 @@
     ],
     "area_pct": 66.11,
     "nearest_caption": "56 |",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_066.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_066.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4295,7 +4295,7 @@
     ],
     "area_pct": 16.73,
     "nearest_caption": "with sloped roof and jhingati tile. The total built-",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_067.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_067.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4369,7 +4369,7 @@
     ],
     "area_pct": 8.02,
     "nearest_caption": "main function is to prepare training, allocate Rendered View of Office Building at Lainchaur",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_067.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_067.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4443,7 +4443,7 @@
     ],
     "area_pct": 6.94,
     "nearest_caption": "Central Workshop Hetauda",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_068.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_068.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4517,7 +4517,7 @@
     ],
     "area_pct": 7.98,
     "nearest_caption": "Maintenance work at Central Workshop Hetauda",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_068.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_068.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4591,7 +4591,7 @@
     ],
     "area_pct": 21.31,
     "nearest_caption": "Amlekhgunj Pole Plant",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_068.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_068.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4665,7 +4665,7 @@
     ],
     "area_pct": 6.01,
     "nearest_caption": "Strung Kusma- New Butwal Multi-circuit Line",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_070.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_070.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4740,7 +4740,7 @@
     ],
     "area_pct": 6.93,
     "nearest_caption": "28 April 2024.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_070.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_070.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4815,7 +4815,7 @@
     ],
     "area_pct": 5.79,
     "nearest_caption": "Markichowk Substation",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_070.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_070.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4890,7 +4890,7 @@
     ],
     "area_pct": 5.76,
     "nearest_caption": "line.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_070.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_070.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -4965,7 +4965,7 @@
     ],
     "area_pct": 6.23,
     "nearest_caption": "Samundratar Substation on 5 April 2025 and is fully operational.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_071.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_071.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5040,7 +5040,7 @@
     ],
     "area_pct": 6.83,
     "nearest_caption": "PROJECT MANAGEMENT DIRECTORATE FISCAL YEAR 2024/2025",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_071.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_071.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5115,7 +5115,7 @@
     ],
     "area_pct": 6.66,
     "nearest_caption": "serves 45–50 customers daily.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_071.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_071.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5190,7 +5190,7 @@
     ],
     "area_pct": 7.75,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_072.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_072.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5266,7 +5266,7 @@
     ],
     "area_pct": 13.61,
     "nearest_caption": "Final stringing at AP 44/0",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_072.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_072.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5342,7 +5342,7 @@
     ],
     "area_pct": 6.73,
     "nearest_caption": "approach road and boundary wall in progress.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_073.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_073.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5417,7 +5417,7 @@
     ],
     "area_pct": 6.64,
     "nearest_caption": "400kV GIS Building and Transformer Banks at New Khimti Substation",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_073.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_073.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5492,7 +5492,7 @@
     ],
     "area_pct": 8.92,
     "nearest_caption": "Phutung Substation",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_073.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_073.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5567,7 +5567,7 @@
     ],
     "area_pct": 7.74,
     "nearest_caption": "acquisition and right-of-way issues.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_075.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_075.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5643,7 +5643,7 @@
     ],
     "area_pct": 4.53,
     "nearest_caption": "132 kV Switchyard with CR Building at Dadakhet Substation",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_075.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_075.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5719,7 +5719,7 @@
     ],
     "area_pct": 5.88,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_077.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_077.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5794,7 +5794,7 @@
     ],
     "area_pct": 6.01,
     "nearest_caption": "Pangtang Substation Keraun 132/33 kV Substation",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_077.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_077.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5869,7 +5869,7 @@
     ],
     "area_pct": 8.19,
     "nearest_caption": "33 kV Switchyard",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_078.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_078.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -5944,7 +5944,7 @@
     ],
     "area_pct": 7.24,
     "nearest_caption": "Khungri Substation",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_078.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_078.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6019,7 +6019,7 @@
     ],
     "area_pct": 7.87,
     "nearest_caption": "Tower Erection at Dang District",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_078.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_078.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6094,7 +6094,7 @@
     ],
     "area_pct": 4.78,
     "nearest_caption": "the end of 2025.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_079.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_079.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6170,7 +6170,7 @@
     ],
     "area_pct": 6.84,
     "nearest_caption": "complete and already in successful operation.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_079.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_079.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6246,7 +6246,7 @@
     ],
     "area_pct": 14.25,
     "nearest_caption": "completion by the end of 2025.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_080.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_080.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6322,7 +6322,7 @@
     ],
     "area_pct": 7.6,
     "nearest_caption": "by the end of 2025.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_081.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_081.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6398,7 +6398,7 @@
     ],
     "area_pct": 7.64,
     "nearest_caption": "electricity to NEA consumers.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_081.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_081.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6474,7 +6474,7 @@
     ],
     "area_pct": 9.34,
     "nearest_caption": "Kathmandu Valley.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_082.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_082.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6549,7 +6549,7 @@
     ],
     "area_pct": 5.84,
     "nearest_caption": "HDPE laying with HDD machine in Pokhara",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_082.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_082.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6624,7 +6624,7 @@
     ],
     "area_pct": 7.76,
     "nearest_caption": "LT Feeder Pillar foundation in Pokhara",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_082.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_082.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6699,7 +6699,7 @@
     ],
     "area_pct": 7.63,
     "nearest_caption": "Equipment Testing at Manara SS",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_083.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_083.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6774,7 +6774,7 @@
     ],
     "area_pct": 21.99,
     "nearest_caption": "The project is near completion, with SCADA modernization efforts.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_084.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_084.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6847,7 +6847,7 @@
     ],
     "area_pct": 8.46,
     "nearest_caption": "phase of the RMS.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_084.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_084.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6920,7 +6920,7 @@
     ],
     "area_pct": 5.52,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_087.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_087.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -6992,7 +6992,7 @@
     ],
     "area_pct": 5.26,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_087.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_087.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7064,7 +7064,7 @@
     ],
     "area_pct": 5.63,
     "nearest_caption": "historical places of Nepal.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_087.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_087.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7136,7 +7136,7 @@
     ],
     "area_pct": 7.18,
     "nearest_caption": "• Calibration of Metering Units demand.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_088.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_088.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7210,7 +7210,7 @@
     ],
     "area_pct": 6.78,
     "nearest_caption": "Public Charging Station in Butwal, Rupandehi",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_088.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_088.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7284,7 +7284,7 @@
     ],
     "area_pct": 3.5,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_089.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_089.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7359,7 +7359,7 @@
     ],
     "area_pct": 3.51,
     "nearest_caption": "Photo showing Loss reduction activities carried out by Electricity Loss Reduction Division in Madhesh Province",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_089.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_089.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7434,7 +7434,7 @@
     ],
     "area_pct": 3.5,
     "nearest_caption": "Photo showing Loss reduction activities carried out by Electricity Loss Reduction Division in Madhesh Province",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_089.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_089.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7509,7 +7509,7 @@
     ],
     "area_pct": 14.09,
     "nearest_caption": "Share Structure",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_091.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_091.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7585,7 +7585,7 @@
     ],
     "area_pct": 4.93,
     "nearest_caption": "Permanent Camp Facility",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_093.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_093.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7661,7 +7661,7 @@
     ],
     "area_pct": 8.94,
     "nearest_caption": "Share structure:",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_094.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_094.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7734,7 +7734,7 @@
     ],
     "area_pct": 7.97,
     "nearest_caption": "Unit 1 Wet Testing",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_096.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_096.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7808,7 +7808,7 @@
     ],
     "area_pct": 8.2,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_097.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_097.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7882,7 +7882,7 @@
     ],
     "area_pct": 7.71,
     "nearest_caption": "began is 90.79 GWh as of Ashadh, 2082.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_097.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_097.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -7956,7 +7956,7 @@
     ],
     "area_pct": 7.78,
     "nearest_caption": "Switchyard",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_097.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_097.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8030,7 +8030,7 @@
     ],
     "area_pct": 6.58,
     "nearest_caption": "Site Inspection during Safeguards",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_099.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_099.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8105,7 +8105,7 @@
     ],
     "area_pct": 7.14,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_101.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_101.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8181,7 +8181,7 @@
     ],
     "area_pct": 7.29,
     "nearest_caption": "1) Lot 1 - Civil and Hydro-Mechanical Works:",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_103.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_103.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8255,7 +8255,7 @@
     ],
     "area_pct": 6.33,
     "nearest_caption": "Main Dam",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_104.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_104.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8331,7 +8331,7 @@
     ],
     "area_pct": 11.97,
     "nearest_caption": "within and outside the country.",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_108.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_108.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8405,7 +8405,7 @@
     ],
     "area_pct": 5.29,
     "nearest_caption": "NEA Hydro Generation Purchase NEA Subsidaries",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8481,7 +8481,7 @@
     ],
     "area_pct": 5.36,
     "nearest_caption": "19% MU) 12.26%",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8557,7 +8557,7 @@
     ],
     "area_pct": 8.26,
     "nearest_caption": "Domestic Industrial Export Others",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8633,7 +8633,7 @@
     ],
     "area_pct": 3.43,
     "nearest_caption": "Operating Income Finance Income Other Income",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8709,7 +8709,7 @@
     ],
     "area_pct": 3.93,
     "nearest_caption": "1.23%",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8785,7 +8785,7 @@
     ],
     "area_pct": 5.35,
     "nearest_caption": "5.53%",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_135.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8861,7 +8861,7 @@
     ],
     "area_pct": 27.73,
     "nearest_caption": "Annual System Peak Load Curve",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_143.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_143.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -8934,7 +8934,7 @@
     ],
     "area_pct": 28.55,
     "nearest_caption": "Jestha 27, 2082 (June 10, 2025) Tuesday",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_143.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_143.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9007,7 +9007,7 @@
     ],
     "area_pct": 26.92,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_144.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_144.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9081,7 +9081,7 @@
     ],
     "area_pct": 27.46,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_145.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_145.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9155,7 +9155,7 @@
     ],
     "area_pct": 37.56,
     "nearest_caption": "Nepal Electricity Authority",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_146.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_146.png",
     "page_classification": {
       "has_photo": false,
       "has_table": true,
@@ -9230,7 +9230,7 @@
     ],
     "area_pct": 41.27,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_147.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_147.png",
     "page_classification": {
       "has_photo": true,
       "has_table": true,
@@ -9305,7 +9305,7 @@
     ],
     "area_pct": 31.53,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_193.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_193.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -9381,7 +9381,7 @@
     ],
     "area_pct": 37.03,
     "nearest_caption": "Middle Bhotekoshi Dam Site",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_193.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_193.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,
@@ -9457,7 +9457,7 @@
     ],
     "area_pct": 100.43,
     "nearest_caption": "",
-    "rendered_page_png": "/Users/hi/projects/nepalEnergy/tmp/pdf_render/nea_annual_report_2024_2025/page_194.png",
+    "rendered_page_png": "./tmp/pdf_render/nea_annual_report_2024_2025/page_194.png",
     "page_classification": {
       "has_photo": true,
       "has_table": false,

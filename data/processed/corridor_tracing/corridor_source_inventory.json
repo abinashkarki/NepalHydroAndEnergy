@@ -5,7 +5,7 @@
     "owner": "World Bank",
     "source_type": "route_map_pdf",
     "url": "https://documents1.worldbank.org/curated/en/522221483681808545/pdf/IPP476-v2-Box396344B-PUBLIC-disclosed-1-5-17.pdf",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/worldbank_hddtl_rap.pdf",
+    "local_path": "./data/raw/corridor_tracing/world_bank/worldbank_hddtl_rap.pdf",
     "local_status": "pdf_valid",
     "page_count": 111,
     "notes": "Best currently downloaded route-map source for the Hetauda-Dhalkebar-Duhabi 400 kV corridor."
@@ -16,7 +16,7 @@
     "owner": "MCA-Nepal",
     "source_type": "alignment_atlas_pdf",
     "url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FEIAReports%2FAnnexD_1_Alignment-Maps.pdf&section=EIAReports&guid=90d56f40-0b72-4cb0-9e2b-fa8eeaba72d3",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf",
+    "local_path": "./data/raw/corridor_tracing/mca/mca_annex_d1_alignment_maps.pdf",
     "local_status": "pdf_valid",
     "page_count": 193,
     "notes": "Primary alignment atlas for the MCA central 400 kV corridor; sheet-level identification still required."
@@ -27,7 +27,7 @@
     "owner": "MCA-Nepal",
     "source_type": "summary_pdf",
     "url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FFeasibilityStudiesReports%2FVolume-8-Project-Summary-Report.pdf&section=FeasibilityStudiesReports&guid=02f6a408-fd36-4732-a580-0ae2af8b35ae",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_volume8_project_summary.pdf",
+    "local_path": "./data/raw/corridor_tracing/mca/mca_volume8_project_summary.pdf",
     "local_status": "pdf_valid",
     "page_count": 55,
     "notes": "Good for segment names, old Naubise nomenclature, and substation coordinates, but not for final route tracing."
@@ -38,7 +38,7 @@
     "owner": "JICA",
     "source_type": "system_plan_pdf",
     "url": "https://openjicareport.jica.go.jp/pdf/12387999_02.pdf",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
+    "local_path": "./data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf",
     "local_status": "pdf_valid",
     "page_count": 315,
     "notes": "Useful for system-level grouping and corridor context, not for route-faithful tracing."
@@ -49,7 +49,7 @@
     "owner": "NEA",
     "source_type": "route_map_pdf",
     "url": "https://www.nea.org.np/admin/assets/uploads/supportive_docs/17560727.pdf",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf",
+    "local_path": "./data/raw/corridor_tracing/nea/nea_marsyangdi_rap.pdf",
     "local_status": "invalid_non_pdf",
     "page_count": "",
     "notes": "Trace-grade source candidate for the Udipur-Markichowk-Bharatpur 220 kV corridor; direct download currently blocked from this environment."
@@ -60,7 +60,7 @@
     "owner": "NEA",
     "source_type": "route_map_pdf",
     "url": "https://www.nea.org.np/admin/assets/uploads/supportive_docs/1657536461_Volume%20IIIA%20--%20EIB-W2.pdf",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_kabeli_iee_volume_iiia.pdf",
+    "local_path": "./data/raw/corridor_tracing/nea/nea_kabeli_iee_volume_iiia.pdf",
     "local_status": "invalid_non_pdf",
     "page_count": "",
     "notes": "Trace-grade source candidate for the Kabeli / Godak-Amarpur-Soyak family; direct download currently blocked from this environment."
@@ -71,7 +71,7 @@
     "owner": "NEA",
     "source_type": "grid_yearbook_pdf",
     "url": "https://www.nea.org.np/admin/assets/uploads/annual_publications/Grid_2076.pdf",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_grid_2076.pdf",
+    "local_path": "./data/raw/corridor_tracing/nea/nea_grid_2076.pdf",
     "local_status": "invalid_non_pdf",
     "page_count": "",
     "notes": "Useful for named segments and system context; direct download currently blocked from this environment."
@@ -82,7 +82,7 @@
     "owner": "NEA",
     "source_type": "transmission_yearbook_pdf",
     "url": "https://www.nea.org.np/admin/assets/uploads/annual_publications/Transmission_2020.pdf",
-    "local_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/nea_transmission_2020.pdf",
+    "local_path": "./data/raw/corridor_tracing/nea/nea_transmission_2020.pdf",
     "local_status": "invalid_non_pdf",
     "page_count": "",
     "notes": "Useful for named segments and system context; direct download currently blocked from this environment."

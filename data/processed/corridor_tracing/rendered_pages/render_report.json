@@ -4,13 +4,13 @@
     "source_id": "worldbank_hddtl_rap",
     "page": 16,
     "status": "rendered",
-    "png_path": "/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/rendered_pages/hddi_400/worldbank_hddtl_rap/hddi_400_worldbank_fig1-16.png"
+    "png_path": "./data/processed/corridor_tracing/rendered_pages/hddi_400/worldbank_hddtl_rap/hddi_400_worldbank_fig1-16.png"
   },
   {
     "target_id": "hddi_400_worldbank_alignment_text",
     "source_id": "worldbank_hddtl_rap",
     "page": 20,
     "status": "rendered",
-    "png_path": "/Users/hi/projects/nepalEnergy/data/processed/corridor_tracing/rendered_pages/hddi_400/worldbank_hddtl_rap/hddi_400_worldbank_alignment_text-20.png"
+    "png_path": "./data/processed/corridor_tracing/rendered_pages/hddi_400/worldbank_hddtl_rap/hddi_400_worldbank_alignment_text-20.png"
   }
 ]
