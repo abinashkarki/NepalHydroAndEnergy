@@ -9,5 +9,8 @@
   "monsoon surplus": ["seasonal arbitrage", "wet season", "export", "spill", "run-of-river"],
   "dry season": ["winter", "storage", "firm power", "imports", "seasonal mismatch"],
   "ror": ["run-of-river", "hydropower", "seasonal mismatch"],
-  "pror": ["peaking run-of-river", "firm power", "hydropower"]
+  "pror": ["peaking run-of-river", "firm power", "hydropower"],
+  "middle bhotekoshi": ["madhya bhotekoshi"],
+  "middle marsyangdi": ["madhya marsyangdi"],
+  "madhya tamor": ["middle tamor"]
 }

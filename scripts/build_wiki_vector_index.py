@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 META = ROOT / "wiki" / "explorer" / "shared" / "wiki-page-meta.json"
 OUT = ROOT / "wiki" / "explorer" / "shared" / "wiki-vector-index.json"
 WIKI_PAGES = ROOT / "wiki" / "pages"
-CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data"]
+CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data", "interventions"]
 DEFAULT_MODEL = "mixedbread-ai/mxbai-embed-xsmall-v1"
 DEFAULT_BROWSER_MODEL = "mixedbread-ai/mxbai-embed-xsmall-v1"
 

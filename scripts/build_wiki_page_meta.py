@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WIKI_PAGES = ROOT / "wiki" / "pages"
 OUT = ROOT / "wiki" / "explorer" / "shared" / "wiki-page-meta.json"
 
-CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data"]
+CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data", "interventions"]
 
 # Light English stopword list -- enough for BM25 over a focused KB.
 STOPWORDS = set("""

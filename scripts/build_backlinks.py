@@ -34,7 +34,7 @@ WIKI_PAGES = ROOT / "wiki" / "pages"
 INDEX_PATH = ROOT / "wiki" / "explorer" / "shared" / "wiki-page-index.json"
 OUT = ROOT / "wiki" / "explorer" / "shared" / "wiki-backlinks.json"
 
-CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data"]
+CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data", "interventions"]
 
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
 CONTEXT_WINDOW = 60  # chars on each side

@@ -20,6 +20,8 @@ A rational 20-year water-and-energy strategy for Nepal, synthesized from the str
 - Pilot first pumped storage (200–500 MW)
 - Use cheap power to begin attracting energy-intensive industry
 
+**Key interventions:** [[intervention-transmission-completion]] (Hetauda–Dhalkebar, Butwal–Gorakhpur); [[intervention-nea-structural-separation]] (begin ISO and open-access work in this phase).
+
 **Priority:** Fix [[stranded-generation]] by building grid before licensing more generation.
 
 ## Phase 2: 2030–2037 — Store and Industrialize
@@ -31,6 +33,8 @@ A rational 20-year water-and-energy strategy for Nepal, synthesized from the str
 - Activate Bangladesh export contracts at scale
 - Use cheap reliable power to attract ferrosilicon, cement, and [[green-hydrogen-nepal]] investment
 
+**Key interventions:** [[intervention-electric-cooking-transition]] (build domestic demand to absorb monsoon surplus); [[intervention-q-design-climate-adjustment]] (mandate climate-adjusted hydrology before licensing the Phase 2 pipeline); [[intervention-sebon-data-transparency]] (ensure Phase 2 IPOs are transparently disclosed).
+
 **Priority:** Add [[storage-deficit]] relief. Convert from seasonal surplus to year-round system value.
 
 ## Phase 3: 2037–2044 — Leverage and Transform
@@ -41,6 +45,8 @@ A rational 20-year water-and-energy strategy for Nepal, synthesized from the str
 - Export revenue $500M+/year
 - Renegotiate Koshi and Gandak treaties from position of infrastructure strength
 - Design for [[peak-water]] post-peak decline
+
+**Key interventions:** All preceding interventions should be institutionalised by this phase. The domestic demand built through [[intervention-electric-cooking-transition]] should be absorbing 30–40% of generation. [[intervention-nea-structural-separation]] should be fully legislated, with an independent ISO operating the grid. [[intervention-q-design-climate-adjustment]] should be the licensing baseline for all projects, not just MDB-financed ones.
 
 **Priority:** Use energy as foundation for [[domestic-led-hydro-strategy]] economic transformation.
 
@@ -55,7 +61,7 @@ A rational 20-year water-and-energy strategy for Nepal, synthesized from the str
 
 ## Precondition
 
-All of this requires **political stability** enabling multi-decade commitment and **[[nea]] capability building** that matches ambition. Without that, the engineering plans are fiction.
+All of this requires **political stability** enabling multi-decade commitment and **[[nea]] capability building** that matches ambition. Without institutional reform — specifically [[intervention-nea-structural-separation]] and [[intervention-transmission-completion]] in Phase 1 — the engineering plans are fiction.
 
 ## Related
 

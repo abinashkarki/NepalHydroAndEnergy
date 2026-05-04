@@ -27,7 +27,7 @@ PUBLIC_TEXT_FILES = [
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
 FENCED_RE = re.compile(r"```.*?```", re.DOTALL)
 INLINE_CODE_RE = re.compile(r"`[^`\n]+`")
-PAGE_CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data"]
+PAGE_CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data", "interventions"]
 FORBIDDEN_TRACKED_PREFIXES = (
     ".playwright-cli/",
     "output/playwright/",

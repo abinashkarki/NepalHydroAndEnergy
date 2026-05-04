@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WIKI_PAGES = ROOT / "wiki" / "pages"
 OUT = ROOT / "wiki" / "explorer" / "shared" / "wiki-page-index.json"
 
-CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data"]
+CATEGORIES = ["sources", "entities", "concepts", "syntheses", "claims", "data", "interventions"]
 
 TITLE_RE = re.compile(r"^title:\s*(.+?)\s*$", re.MULTILINE)
 

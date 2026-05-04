@@ -52,6 +52,16 @@ The conversion failure is not one bottleneck. It is a stack:
 - [[solar-role-in-winter-deficit]] — why solar is now a core winter-deficit lever
 - [[claim-solar-cheaper-than-small-hydro]] — the new marginal-cost benchmark
 
+## Intervention Layer
+
+The wiki now includes a fifth category — **interventions** — representing the actionable prescription layer. These five pages translate the master thesis diagnosis into specific, institutionally-grounded reforms, each with a theory of change, current status assessment, political feasibility analysis, and honest research gaps. They are written to be useful to both a researcher and a policymaker.
+
+- [[intervention-transmission-completion]] — resolve community resistance on Hetauda–Dhalkebar 400 kV and complete cross-border corridors
+- [[intervention-nea-structural-separation]] — carve NLDC into an ISO, transfer AD penalty authority to ERC, create open access
+- [[intervention-sebon-data-transparency]] — mandate machine-readable financial disclosures and build civic hydro-IPO dataset
+- [[intervention-electric-cooking-transition]] — coordinated demand-creation: appliance financing, tariff redesign, LPG reform
+- [[intervention-q-design-climate-adjustment]] — mandate ICIMOD climate-adjusted hydrology in all new feasibility studies
+
 ## Public Framing Lines
 
 > "Nepal is not energy-poor. It is dispatch-poor."

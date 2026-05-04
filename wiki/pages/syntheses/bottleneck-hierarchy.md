@@ -13,20 +13,20 @@ Ranked bottlenecks for Nepal's hydropower system, synthesized across the source 
 
 ## Tier 1 — Binding Constraints
 
-| Rank | Bottleneck | Nature | Claim |
-|------|-----------|--------|-------|
-| 1 | Transmission + delivery readiness, including solar interconnection | Immediate practical | [[claim-transmission-immediate-blocker]] |
-| 2 | [[storage-deficit]] / [[seasonal-mismatch]] | Deep structural | [[claim-storage-physical-fix]] |
-| 3 | Solar land + short-cycle buildability | New binding solar constraint | [[claim-solar-terai-only-short-cycle-build]] |
+| Rank | Bottleneck | Nature | Claim | Intervention Page |
+|------|-----------|--------|-------|-------------------|
+| 1 | Transmission + delivery readiness, including solar interconnection | Immediate practical | [[claim-transmission-immediate-blocker]] | [[intervention-transmission-completion]] |
+| 2 | [[storage-deficit]] / [[seasonal-mismatch]] | Deep structural | [[claim-storage-physical-fix]] | [[intervention-electric-cooking-transition]] (demand-side); [[intervention-q-design-climate-adjustment]] (supply-side) |
+| 3 | Solar land + short-cycle buildability | New binding solar constraint | [[claim-solar-terai-only-short-cycle-build]] | — |
 
 ## Tier 2 — Shaping Constraints
 
-| Rank | Bottleneck | Nature |
-|------|-----------|--------|
-| 4 | Execution / [[buildability]] | Persistent |
-| 5 | Market design / offtake / demand weakness | [[seasonal-arbitrage-trap]] |
-| 6 | Climate / hazard / sediment non-stationarity | [[claim-climate-harder-not-easier]] |
-| 7 | Project finance / institutional coordination | [[claim-governance-binding]] |
+| Rank | Bottleneck | Nature | Intervention Page |
+|------|-----------|--------|-------------------|
+| 4 | Execution / [[buildability]] | Persistent | — |
+| 5 | Market design / offtake / demand weakness | [[seasonal-arbitrage-trap]] | [[intervention-nea-structural-separation]]; [[intervention-electric-cooking-transition]] |
+| 6 | Climate / hazard / sediment non-stationarity | [[claim-climate-harder-not-easier]] | [[intervention-q-design-climate-adjustment]] |
+| 7 | Project finance / institutional coordination | [[claim-governance-binding]] | [[intervention-nea-structural-separation]]; [[intervention-sebon-data-transparency]] |
 
 ## Tier 3 — Downstream Constraints
 

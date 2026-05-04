@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 222,
-  "total_refs": 1750,
+  "total_targets": 255,
+  "total_refs": 1893,
   "backlinks": {
     "buildability": [
       {
@@ -40,6 +40,13 @@
         "target_exists": true
       },
       {
+        "slug": "betan-karnali",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability",
+        "target_exists": true
+      },
+      {
         "slug": "bheri-4",
         "title": "Bheri 4",
         "category": "entities",
@@ -54,10 +61,45 @@
         "target_exists": true
       },
       {
+        "slug": "bheri-1",
+        "title": "Bheri-1 HEP",
+        "category": "entities",
+        "context": "…ropower project dataset ## See also - [[karnali-basin]] - buildability",
+        "target_exists": true
+      },
+      {
         "slug": "bheri-2-hep",
         "title": "Bheri-2 HEP",
         "category": "entities",
         "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "bheri-2",
+        "title": "Bheri-2 HEP",
+        "category": "entities",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "budhi-gandaki",
+        "title": "Budhi Gandaki Hydropower Project",
+        "category": "entities",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "budhi-gandaki-kha",
+        "title": "Budhi Gandaki Kha HEP",
+        "category": "entities",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "budhi-gandaki-prok-khola",
+        "title": "Budhi Gandaki Prok Khola HEP",
+        "category": "entities",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - buildability",
         "target_exists": true
       },
       {
@@ -82,6 +124,13 @@
         "target_exists": true
       },
       {
+        "slug": "humla-karnali-1",
+        "title": "Humla Karnali 1 HPP",
+        "category": "entities",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
+        "target_exists": true
+      },
+      {
         "slug": "humla-karnali-2-hpp",
         "title": "Humla Karnali 2 HPP",
         "category": "entities",
@@ -89,7 +138,21 @@
         "target_exists": true
       },
       {
+        "slug": "humla-karnali-2",
+        "title": "Humla Karnali 2 HPP",
+        "category": "entities",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
+        "target_exists": true
+      },
+      {
         "slug": "jagdulla-hep",
+        "title": "Jagdulla HEP",
+        "category": "entities",
+        "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "jagdulla",
         "title": "Jagdulla HEP",
         "category": "entities",
         "context": "…ined from the registry. ## See also - [[karnali-basin]] - buildability",
@@ -117,6 +180,13 @@
         "target_exists": true
       },
       {
+        "slug": "kimathanka-arun",
+        "title": "Kimathanka Arun HEP",
+        "category": "entities",
+        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability",
+        "target_exists": true
+      },
+      {
         "slug": "koshi-basin",
         "title": "Koshi Basin",
         "category": "entities",
@@ -125,6 +195,13 @@
       },
       {
         "slug": "lantang-khola-reservoir-hydropower-project",
+        "title": "Lantang Khola Reservoir Hydropower Project",
+        "category": "entities",
+        "context": "…on table is > maintained from the registry. ## See also - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "lantang-khola-reservoir",
         "title": "Lantang Khola Reservoir Hydropower Project",
         "category": "entities",
         "context": "…on table is > maintained from the registry. ## See also - buildability",
@@ -142,6 +219,20 @@
         "title": "Madhya Bhotekoshi",
         "category": "entities",
         "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability - [[chilime]] - [[sector-financial-analysis-triple-authorit…",
+        "target_exists": true
+      },
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad-storage",
+        "title": "Nalsyau Gad Storage HEP",
+        "category": "entities",
+        "context": "…project registry ## See also - [[stranded-generation]] - buildability",
         "target_exists": true
       },
       {
@@ -187,6 +278,13 @@
         "target_exists": true
       },
       {
+        "slug": "surke-dudhkoshi",
+        "title": "Surke Dudhkoshi HEP",
+        "category": "entities",
+        "context": "…tained from the registry. ## See also - [[koshi-basin]] - buildability",
+        "target_exists": true
+      },
+      {
         "slug": "tamakoshi-3",
         "title": "Tamakoshi 3",
         "category": "entities",
@@ -198,6 +296,13 @@
         "title": "Tanahu Hydropower Project",
         "category": "entities",
         "context": "…ed - [[storage-deficit]] — what Tanahu begins to address - buildability — Tanahu's progress suggests storage is difficult but not i…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-budhigandaki",
+        "title": "Upper Budhigandaki HEP",
+        "category": "entities",
+        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - buildability",
         "target_exists": true
       },
       {
@@ -219,6 +324,13 @@
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
         "context": "…/nea/nea_transmission_annual_book_2077.pdf) ## See also - buildability - [[storage-deficit]] - [[data-ipsdp-milestone-ladder-2022-…",
+        "target_exists": true
+      },
+      {
+        "slug": "uttarganga-storage",
+        "title": "Uttarganga Storage Hydropower Project",
+        "category": "entities",
+        "context": "…ED-linked public hydropower project dataset ## See also - buildability",
         "target_exists": true
       },
       {
@@ -267,7 +379,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…| Nature | |------|-----------|--------| | 4 | Execution / buildability | Persistent | | 5 | Market design / offtake / demand weakn…",
+        "context": "…-----------|--------|-------------------| | 4 | Execution / buildability | Persistent | — | | 5 | Market design / offtake / demand w…",
         "target_exists": true
       },
       {
@@ -1366,6 +1478,13 @@
         "target_exists": true
       },
       {
+        "slug": "betan-karnali",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…ropower project dataset ## See also - [[karnali-basin]] - stranded-generation - [[buildability]]",
+        "target_exists": true
+      },
+      {
         "slug": "bheri-corridor-400kv",
         "title": "Bheri Corridor 400 kV Transmission Line",
         "category": "entities",
@@ -1391,6 +1510,20 @@
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…ansmission masterplan at scale. Without it, Mugu Karnali is stranded-generation by construction. **Feasibility depth.** The project is at…",
+        "target_exists": true
+      },
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…urrent project registry ## See also - [[karnali-basin]] - stranded-generation - [[buildability]]",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad-storage",
+        "title": "Nalsyau Gad Storage HEP",
+        "category": "entities",
+        "context": "…plan volume 2 plus current project registry ## See also - stranded-generation - [[buildability]]",
         "target_exists": true
       },
       {
@@ -1488,7 +1621,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…gin attracting energy-intensive industry **Priority:** Fix stranded-generation by building grid before licensing more generation. ## Phas…",
+        "context": "…ISO and open-access work in this phase). **Priority:** Fix stranded-generation by building grid before licensing more generation. ## Phas…",
         "target_exists": true
       },
       {
@@ -1559,6 +1692,27 @@
         "title": "Nepal Final Energy Mix",
         "category": "data",
         "context": "…cess heat. A direct reliability cost of the grid, linked to stranded-generation. - **Electricity 12.9 PJ (11.6%)** — the grid touches only…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…nsoon surplus (700–800 MW of daily spill during wet season, stranded-generation) while importing expensive winter power and burning importe…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…ad-penalties]] — the penalty mechanism transferred to ERC - stranded-generation — the curtailment outcome structural separation prevents -…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…les export capacity. Without these corridors, the logic of stranded-generation continues: more RoR MW commissioned → more monsoon surplus…",
         "target_exists": true
       }
     ],
@@ -1844,7 +1998,21 @@
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…base — against 3,400+ MW of total hydro — encapsulates the storage-deficit. ## Related - [[data-storage-comparison]] — Nepal's stora…",
+        "context": "…base — against 3,400+ MW of total hydro — encapsulates the storage-deficit. ## Related - [[kulekhani-i]] — the upper reservoir plant…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-i",
+        "title": "Kulekhani I",
+        "category": "entities",
+        "context": "…--> ## Significance Kulekhani I is the anchor of Nepal's storage-deficit story: the largest plant in the country's only operating re…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-ii",
+        "title": "Kulekhani II",
+        "category": "entities",
+        "context": "…ade overview - [[kulekhani-i]] — upstream reservoir plant - storage-deficit",
         "target_exists": true
       },
       {
@@ -1984,7 +2152,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…ractical | [[claim-transmission-immediate-blocker]] | | 2 | storage-deficit / [[seasonal-mismatch]] | Deep structural | [[claim-storage…",
+        "context": "…locker]] | [[intervention-transmission-completion]] | | 2 | storage-deficit / [[seasonal-mismatch]] | Deep structural | [[claim-storage…",
         "target_exists": true
       },
       {
@@ -2026,7 +2194,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…and [[green-hydrogen-nepal]] investment **Priority:** Add storage-deficit relief. Convert from seasonal surplus to year-round system…",
+        "context": "…ase 2 IPOs are transparently disclosed). **Priority:** Add storage-deficit relief. Convert from seasonal surplus to year-round system…",
         "target_exists": true
       },
       {
@@ -2153,6 +2321,20 @@
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
         "context": "…g peak shifts the gap from energy to capacity. This is what storage-deficit and [[solar-hydro-complementarity]] identify as the \"solar…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…twenty-year-strategy]] — Phase 2 domestic demand building - storage-deficit — the physical complement to demand-side management",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…equate transmission worsens the value-destruction pattern - storage-deficit — the deeper structural fix that transmission complements -…",
         "target_exists": true
       }
     ],
@@ -3017,7 +3199,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…e cheap reliable power to attract ferrosilicon, cement, and green-hydrogen-nepal investment **Priority:** Add [[storage-deficit]] relief. C…",
+        "context": "…e cheap reliable power to attract ferrosilicon, cement, and green-hydrogen-nepal investment **Key interventions:** [[intervention-electric-…",
         "target_exists": true
       },
       {
@@ -3039,6 +3221,13 @@
         "title": "Nepal Final Energy Mix",
         "category": "data",
         "context": "…tion: displace biomass + fossil with hydro-electric loads - green-hydrogen-nepal — one of the few paths to displace industrial coal (brick k…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…— the export pattern cooking electrification helps escape - green-hydrogen-nepal — the industrial demand complement to cooking electrificati…",
         "target_exists": true
       }
     ],
@@ -3138,7 +3327,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…st-peak decline **Priority:** Use energy as foundation for domestic-led-hydro-strategy economic transformation. ## Six Principles 1. **Move from…",
+        "context": "…-financed ones. **Priority:** Use energy as foundation for domestic-led-hydro-strategy economic transformation. ## Six Principles 1. **Move from…",
         "target_exists": true
       },
       {
@@ -3182,6 +3371,13 @@
         "category": "data",
         "context": "…enominator for every serious claim in [[master-thesis]] and domestic-led-hydro-strategy. ## Headline numbers (FY 2079/80 / ~2022–23) | Metric | V…",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…surplus hours. - **Enables the domestic-led strategy.** The domestic-led-hydro-strategy argues that Nepal should build generation for domestic dry-…",
+        "target_exists": true
       }
     ],
     "peak-water": [
@@ -3217,7 +3413,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…aties from position of infrastructure strength - Design for peak-water post-peak decline **Priority:** Use energy as foundation f…",
+        "context": "…aties from position of infrastructure strength - Design for peak-water post-peak decline **Key interventions:** All preceding int…",
         "target_exists": true
       },
       {
@@ -3232,6 +3428,13 @@
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
         "context": "…urves for storage—see [[sediment-as-design-constraint]] and peak-water. ## Related - [[storage-deficit]] - [[seasonal-mismatch]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…GCM-driven estimates of declining dry-season baseflow (see peak-water and the Karnali decomposition showing snowmelt at 24% of an…",
         "target_exists": true
       }
     ],
@@ -3300,7 +3503,21 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…e Khimti Khola is a tributary of the Tamakoshi River in the koshi-basin. The broader Khimti-Tamakoshi corridor in Dolakha includes…",
+        "target_exists": true
+      },
+      {
         "slug": "kimathanka-arun-hep",
+        "title": "Kimathanka Arun HEP",
+        "category": "entities",
+        "context": "…50 MW | | Status | Survey / study | | River | Arun (eastern koshi-basin) | | District | Sankhuwasabha | | Province | Province No 1…",
+        "target_exists": true
+      },
+      {
+        "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
         "context": "…50 MW | | Status | Survey / study | | River | Arun (eastern koshi-basin) | | District | Sankhuwasabha | | Province | Province No 1…",
@@ -3325,6 +3542,13 @@
         "title": "Likhu -2",
         "category": "entities",
         "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…cade The Likhu Khola is a hydropower-rich tributary in the koshi-basin, straddling Solukhumbu and Ramechhap districts. The Likhu s…",
         "target_exists": true
       },
       {
@@ -3381,6 +3605,20 @@
         "title": "Sun Koshi No.3",
         "category": "entities",
         "context": "…MW | | Category | jica promising storage | | Basin | Koshi (koshi-basin) | | Annual energy | 1883.6 GWh | | Dry-season energy | 335…",
+        "target_exists": true
+      },
+      {
+        "slug": "super-tamor",
+        "title": "Super Tamor",
+        "category": "entities",
+        "context": "…00 MW) is a separate storage proposal. See also the broader koshi-basin development context. <!-- generated:specs:start --> ## Sp…",
+        "target_exists": true
+      },
+      {
+        "slug": "surke-dudhkoshi",
+        "title": "Surke Dudhkoshi HEP",
+        "category": "entities",
+        "context": "…| | Status | Survey / study | | River | Dudhkoshi (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
         "target_exists": true
       },
       {
@@ -4123,7 +4361,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…sistent | | 5 | Market design / offtake / demand weakness | seasonal-arbitrage-trap | | 6 | Climate / hazard / sediment non-stationarity | [[cl…",
+        "context": "…ent | — | | 5 | Market design / offtake / demand weakness | seasonal-arbitrage-trap | [[intervention-nea-structural-separation]]; [[interventio…",
         "target_exists": true
       },
       {
@@ -4208,6 +4446,20 @@
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
         "context": "…are double-surplus.** The export / demand-creation problem (seasonal-arbitrage-trap) becomes more pressing, not less, as solar scales. ## Diur…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…stitution value far exceeds the per-kWh export realisation (seasonal-arbitrage-trap). - **Creates baseload for the hydro fleet.** Cooking load…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…rade volumes and pricing that depend on corridor capacity - seasonal-arbitrage-trap — why inadequate transmission worsens the value-destruction…",
         "target_exists": true
       }
     ],
@@ -4446,7 +4698,14 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…out that, the engineering plans are fiction. ## Related - bottleneck-hierarchy — what this strategy addresses in sequence - [[master-thesi…",
+        "context": "…Phase 1 — the engineering plans are fiction. ## Related - bottleneck-hierarchy — what this strategy addresses in sequence - [[master-thesi…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…hase 1 priority: fix stranded generation by building grid - bottleneck-hierarchy — transmission as the #1 immediate binding constraint - [[h…",
         "target_exists": true
       }
     ],
@@ -4583,7 +4842,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…-deficit]] — why solar is now a core winter-deficit lever - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark ## Public Framing Lines…",
+        "context": "…-deficit]] — why solar is now a core winter-deficit lever - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark ## Intervention Layer T…",
         "target_exists": true
       },
       {
@@ -4957,7 +5216,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…olitical stability** enabling multi-decade commitment and **nea capability building** that matches ambition. Without that,…",
+        "context": "…olitical stability** enabling multi-decade commitment and **nea capability building** that matches ambition. Without instit…",
         "target_exists": true
       },
       {
@@ -5044,6 +5303,20 @@
         "title": "Gandaki Basin",
         "category": "entities",
         "context": "…Kali Gandaki A (144 MW), Middle Marsyangdi (70 MW), and the kulekhani-cascade (on a tributary). The corridor benefited from road access (…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-i",
+        "title": "Kulekhani I",
+        "category": "entities",
+        "context": "…n Nepal's only operational reservoir hydropower system. See kulekhani-cascade for the full three-plant system overview including [[kulekh…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-ii",
+        "title": "Kulekhani II",
+        "category": "entities",
+        "context": "…sing discharge from [[kulekhani-i]] (60 MW, reservoir). See kulekhani-cascade for the full three-plant system overview. Combined generati…",
         "target_exists": true
       },
       {
@@ -5386,6 +5659,27 @@
         "target_exists": true
       },
       {
+        "slug": "budhi-gandaki",
+        "title": "Budhi Gandaki Hydropower Project",
+        "category": "entities",
+        "context": "…1 MW | | Status | Survey / study | | River | Budhi Gandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
+        "target_exists": true
+      },
+      {
+        "slug": "budhi-gandaki-kha",
+        "title": "Budhi Gandaki Kha HEP",
+        "category": "entities",
+        "context": "…60 MW | | Status | Survey / study | | River | Budhigandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
+        "target_exists": true
+      },
+      {
+        "slug": "budhi-gandaki-prok-khola",
+        "title": "Budhi Gandaki Prok Khola HEP",
+        "category": "entities",
+        "context": "…0 MW | | Status | Survey / study | | River | Budhi Gandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
+        "target_exists": true
+      },
+      {
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
@@ -5498,10 +5792,24 @@
         "target_exists": true
       },
       {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…li River is a tributary of the Narayani/Gandaki system (see gandaki-basin). The adjacent Bhote Koshi corridor ([[rasuwagadhi]], [[mad…",
+        "target_exists": true
+      },
+      {
         "slug": "trishuli-galchhi",
         "title": "Trishuli Galchhi",
         "category": "entities",
         "context": "…der construction (Generation licence) | | River | Trishuli (gandaki-basin) | | District | Nuwakot | | Province | Bagmati Pradesh | <…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-budhigandaki",
+        "title": "Upper Budhigandaki HEP",
+        "category": "entities",
+        "context": "…3 MW | | Status | Survey / study | | River | Budhi Gandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
@@ -6237,6 +6545,13 @@
         "target_exists": true
       },
       {
+        "slug": "betan-karnali",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…y | 688 MW | | Status | Survey / study | | River | Karnali (karnali-basin) | | District | Achham | | Province | Sudurpashchim Pradesh…",
+        "target_exists": true
+      },
+      {
         "slug": "bheri-4",
         "title": "Bheri 4",
         "category": "entities",
@@ -6251,7 +6566,21 @@
         "target_exists": true
       },
       {
+        "slug": "bheri-1",
+        "title": "Bheri-1 HEP",
+        "category": "entities",
+        "context": "…ity | 440 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Rukum_W | | Province | Karnali Pradesh | |…",
+        "target_exists": true
+      },
+      {
         "slug": "bheri-2-hep",
+        "title": "Bheri-2 HEP",
+        "category": "entities",
+        "context": "…ity | 256 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
+        "target_exists": true
+      },
+      {
+        "slug": "bheri-2",
         "title": "Bheri-2 HEP",
         "category": "entities",
         "context": "…ity | 256 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
@@ -6272,6 +6601,13 @@
         "target_exists": true
       },
       {
+        "slug": "humla-karnali-1",
+        "title": "Humla Karnali 1 HPP",
+        "category": "entities",
+        "context": "…5 MW | | Status | Survey / study | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
+        "target_exists": true
+      },
+      {
         "slug": "humla-karnali-2-hpp",
         "title": "Humla Karnali 2 HPP",
         "category": "entities",
@@ -6279,7 +6615,21 @@
         "target_exists": true
       },
       {
+        "slug": "humla-karnali-2",
+        "title": "Humla Karnali 2 HPP",
+        "category": "entities",
+        "context": "…5 MW | | Status | Survey / study | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
+        "target_exists": true
+      },
+      {
         "slug": "jagdulla-hep",
+        "title": "Jagdulla HEP",
+        "category": "entities",
+        "context": "…ity | 307 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
+        "target_exists": true
+      },
+      {
+        "slug": "jagdulla",
         "title": "Jagdulla HEP",
         "category": "entities",
         "context": "…ity | 307 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
@@ -6325,6 +6675,13 @@
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…Pre-feasibility; PPP bidding underway | | River | Karnali (karnali-basin) | | District | Mugu (registry primary); Bajura referenced…",
+        "target_exists": true
+      },
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…| 1902 MW | | Status | Survey / study | | River | Karnali (karnali-basin) | | District | Bajura | | Province | Sudurpashchim Pradesh…",
         "target_exists": true
       },
       {
@@ -6572,6 +6929,13 @@
         "title": "NEA Transmission Length FY 2076/77",
         "category": "data",
         "context": "…national 400 kV mesh. That context matters when reading hetauda-dhalkebar-inaruwa-backbone as a singular asset rather than a redundant network. - Th…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…y]] — transmission as the #1 immediate binding constraint - hetauda-dhalkebar-inaruwa-backbone — the corridor entity page - [[gorakhpur-butwal-interconnec…",
         "target_exists": true
       }
     ],
@@ -6861,6 +7225,13 @@
         "category": "concepts",
         "context": "…]] — the penalty mechanics enforced through this conflict - ppa-pricing — rate-setting by the same entity that enforces performance…",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…dvantage documented in [[chilime]], standard IPP rates from ppa-pricing) - NEPSE trading suspensions and regulatory actions (e.g. U…",
+        "target_exists": true
       }
     ],
     "nea-triple-authority": [
@@ -6961,6 +7332,27 @@
         "category": "concepts",
         "context": "…no guaranteed compensation for the curtailed producer. See nea-triple-authority for the institutional structure that enables uncompensated…",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…A. ## Theory of Change The NEA Triple-Authority Conflict (nea-triple-authority) is not an edge-case governance flaw — it is the institutio…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…ot told their shares are PPA'd against obsolete hydrology - nea-triple-authority — the institutional framework that enforces unrealistic con…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…the IPO-to-bailout pattern this data intervention targets - nea-triple-authority — the institutional structure that AD penalty exposure refl…",
+        "target_exists": true
       }
     ],
     "sahas-urja": [
@@ -7056,6 +7448,20 @@
         "category": "concepts",
         "context": "…— perpetually skewing the market's competitive balance. See chilime for the full PPA billing architecture and [[nea-triple-auth…",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…rable private IPPs through its subsidiary PPA architecture (chilime) provides a directional benchmark: a 20-25% reduction in th…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…- PPA architecture (subsidiary rate advantage documented in chilime, standard IPP rates from [[ppa-pricing]]) - NEPSE trading s…",
+        "target_exists": true
       }
     ],
     "rasuwagadhi": [
@@ -7072,6 +7478,13 @@
         "category": "entities",
         "context": "…ssion frame. - Even as a survey-stage line, it belongs with rasuwagadhi and [[hydro-geopolitics]] because the point of the projec…",
         "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…(see [[gandaki-basin]]). The adjacent Bhote Koshi corridor (rasuwagadhi, [[madhya-bhotekoshi]], [[upper-bhotekoshi]]) shares transm…",
+        "target_exists": true
       }
     ],
     "upper-trishuli-3b": [
@@ -7080,6 +7493,20 @@
         "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
         "category": "sources",
         "context": "…hority]] - [[sahas-urja]] - [[chilime]] - [[rasuwagadhi]] - upper-trishuli-3b",
+        "target_exists": true
+      },
+      {
+        "slug": "super-trishuli",
+        "title": "Super Trishuli",
+        "category": "entities",
+        "context": "…hosts multiple named tiers: [[upper-trishuli-3a]] (60 MW), upper-trishuli-3b (37 MW), [[upper-trishuli-1]] (216 MW), [[trishuli]] (Devig…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…| [[upper-trishuli-3a]] | 60 | Under construction | NEA | | upper-trishuli-3b | 37 | Under construction | Subsidiary (Trishuli Jal Vidyut…",
         "target_exists": true
       }
     ],
@@ -7169,6 +7596,27 @@
         "category": "concepts",
         "context": "…why the standard IPP rate only works at exceptional scale - q-design-discharge — how design discharge determines contracted energy (the de…",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…e. At the DSCR break-point of ~82–84% of contracted energy (q-design-discharge), every percentage point of revenue protected from penalty…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…ds. ## Theory of Change The Q-design discharge parameter (q-design-discharge) mechanically determines both turbine sizing and the PPA co…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…ed energy vs. actual generation, from project-level data in q-design-discharge) - PPA architecture (subsidiary rate advantage documented i…",
+        "target_exists": true
       }
     ],
     "ipo-hydropower-bailout": [
@@ -7198,6 +7646,27 @@
         "title": "Q-Design Discharge",
         "category": "concepts",
         "context": "…ithin a year of listing. Modern IPOs float pre-revenue. See ipo-hydropower-bailout. ## The DSCR break-point Nepal Rastra Bank (NRB) requires…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…— the curtailment outcome structural separation prevents - ipo-hydropower-bailout — why retail investors are exposed to unresolvable disputes…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…al monsoon-winter asymmetry that climate change amplifies - ipo-hydropower-bailout — why investors are not told their shares are PPA'd against…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…closed AD penalty exposure — operates in a data vacuum. The ipo-hydropower-bailout page documents what is known: six companies, NPR billions r…",
         "target_exists": true
       }
     ],
@@ -7249,6 +7718,20 @@
         "title": "Stranded Generation",
         "category": "concepts",
         "context": "…tional structure that enables uncompensated curtailment and ad-penalties for the penalty mechanism that may compound the loss. ## T…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…PPA rate advantage that structural separation would level - ad-penalties — the penalty mechanism transferred to ERC - [[stranded-gen…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…penalty exposure (from audited financial statements and the ad-penalties mechanism) - Hydrological performance (contracted energy vs…",
         "target_exists": true
       }
     ],
@@ -7314,6 +7797,13 @@
         "title": "Map Inventory",
         "category": "data",
         "context": "…oss-border interconnection capacity and utilization back to data-trade-time-series. - **Storage annotations** for [[kulekhani-cascade]], [[tan…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…at makes transmission the binding monetisation constraint - data-trade-time-series — the trade volumes and pricing that depend on corridor cap…",
         "target_exists": true
       }
     ],
@@ -7544,6 +8034,13 @@
         "title": "Mountain Hydro System Comparison",
         "category": "data",
         "context": "…the valley-shape paradox of on-river reservoir storage (see data-storage-comparison). ## Chart Specification Grouped bar chart: renewable W/c…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…nal framework that enforces unrealistic contracted energy - data-storage-comparison — why storage is the physical complement to climate-adjuste…",
         "target_exists": true
       }
     ],
@@ -7858,6 +8355,13 @@
         "category": "data",
         "context": "…ectric because wood still does the cooking and heating. See energy-substitution-pathway for the implications. ### 5. The \"hydro share\" of Nepal's…",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…sive winter power and burning imported LPG for cooking. The energy-substitution-pathway identifies cooking electrification as the **single largest…",
+        "target_exists": true
       }
     ],
     "seasonal-mismatch": [
@@ -7998,7 +8502,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…nsmission-immediate-blocker]] | | 2 | [[storage-deficit]] / seasonal-mismatch | Deep structural | [[claim-storage-physical-fix]] | | 3 |…",
+        "context": "…ion-transmission-completion]] | | 2 | [[storage-deficit]] / seasonal-mismatch | Deep structural | [[claim-storage-physical-fix]] | [[inte…",
         "target_exists": true
       },
       {
@@ -8118,6 +8622,27 @@
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
         "context": "…side pattern - [[firm-power]] — the capacity-credit frame - seasonal-mismatch — the problem this profile solves - [[data-solar-hydro-lcoe…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…e industrial demand complement to cooking electrification - seasonal-mismatch — why absorbing monsoon surplus requires domestic load crea…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…-hydrological window that stationarity assumptions ignore - seasonal-mismatch — the structural monsoon-winter asymmetry that climate chan…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…daily curtailment that transmission completion eliminates - seasonal-mismatch — the generation pattern that makes transmission the bindin…",
         "target_exists": true
       }
     ],
@@ -8374,6 +8899,13 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-i",
+        "title": "Kulekhani I",
+        "category": "entities",
+        "context": "…. See [[kulekhani-cascade]] for the full system context and firm-power for why reservoir capacity matters. ## Notes > [!note] Th…",
+        "target_exists": true
+      },
+      {
         "slug": "lower-badigad",
         "title": "Lower Badigad",
         "category": "entities",
@@ -8604,6 +9136,13 @@
         "title": "Kali Gandaki A",
         "category": "entities",
         "context": "…ty spectrum. Compare [[kali-gandaki-a]] to two neighbours. upper-tamakoshi (456 MW, 2021) is larger, newer and also Nepali-developed,…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…in Dolakha includes multiple significant projects including upper-tamakoshi (456 MW), [[tamakoshi-v]] (99.8 MW), and [[tamakoshi-3]] (2…",
         "target_exists": true
       },
       {
@@ -8914,7 +9453,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…ss, including solar interconnection | Immediate practical | claim-transmission-immediate-blocker | | 2 | [[storage-deficit]] / [[seasonal-mismatch]] | Deep…",
+        "context": "…ss, including solar interconnection | Immediate practical | claim-transmission-immediate-blocker | [[intervention-transmission-completion]] | | 2 | [[storag…",
         "target_exists": true
       },
       {
@@ -9013,6 +9552,20 @@
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…# Related - [[data-map-inventory]] - [[project-roadmap]] - claim-transmission-immediate-blocker - [[storage-deficit]] - [[ganges-contribution]]",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…ed to unresolvable disputes without structural separation - claim-transmission-immediate-blocker — the transmission bottleneck that compounds governance fai…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…immediate monetisation bottleneck in Nepal's energy system (claim-transmission-immediate-blocker). The 400 kV east-west backbone — essential for moving powe…",
         "target_exists": true
       }
     ],
@@ -9205,6 +9758,13 @@
         "category": "data",
         "context": "…idors such as [[khimti-dhalkebar-corridor]] and the later nepal-transmission-landscape-2025 compilation are so central to the stranded-generation sto…",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…r-butwal-interconnection]] — the cross-border entity page - nepal-transmission-landscape-2025 — the full transmission source compilation",
+        "target_exists": true
       }
     ],
     "nea-solar": [
@@ -9271,6 +9831,20 @@
         "title": "Chilime-Trishuli 220 kV Transmission Line",
         "category": "entities",
         "context": "…- [[nea-annual-report-fy2024-25]] - [[nea]] - [[chilime]] - trishuli",
+        "target_exists": true
+      },
+      {
+        "slug": "super-trishuli",
+        "title": "Super Trishuli",
+        "category": "entities",
+        "context": "…upper-trishuli-3b]] (37 MW), [[upper-trishuli-1]] (216 MW), trishuli (Devighat), and Super Trishuli (100 MW). Each is a separate…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…| | [[super-trishuli]] | 100 | Under construction | IPP | | trishuli (Devighat) | 24 | Operating | NEA | | Trishuli Khola | 4.4…",
         "target_exists": true
       }
     ],
@@ -9746,6 +10320,13 @@
         "category": "data",
         "context": "…[[india-energy-relationship]] - [[dhalkebar-muzaffarpur]] - gorakhpur-butwal-interconnection - [[nepal-power-trade-schemes]] - [[data-map-layer-labels]…",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…a-dhalkebar-inaruwa-backbone]] — the corridor entity page - gorakhpur-butwal-interconnection — the cross-border entity page - [[nepal-transmission-lands…",
+        "target_exists": true
       }
     ],
     "budhigandaki": [
@@ -9964,6 +10545,20 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…epal's challenging Himalayan geology. ## Transmission The khimti-dhalkebar-corridor (220 kV) was purpose-built to evacuate power from the Khimt…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…sion corridors with the broader Khimti-Tamakoshi system via khimti-dhalkebar-corridor. ## See also - [[likhu-1]] - [[likhu-2]] - [[likhu-4]] -…",
+        "target_exists": true
+      },
+      {
         "slug": "project-roadmap",
         "title": "Project Roadmap",
         "category": "concepts",
@@ -10161,9 +10756,23 @@
         "category": "data",
         "context": "…institutional financing anchor for rooftop utility track - data-domestic-demand — the broader electrification frame",
         "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…cooking remains dominated by biomass and imported LPG. See data-domestic-demand. - Residential electricity is 42% of NEA sales (~4,742 GWh…",
+        "target_exists": true
       }
     ],
     "khimti-i": [
+      {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…Developer | |-------|--------------|--------|-----------| | khimti-i | 60 | Operating | Himal Power Limited | | [[khimti-ii]] |…",
+        "target_exists": true
+      },
       {
         "slug": "khimti-dhalkebar-corridor",
         "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor",
@@ -10181,10 +10790,35 @@
     ],
     "khimti-ii": [
       {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…| | [[khimti-i]] | 60 | Operating | Himal Power Limited | | khimti-ii | 48.8 | Under construction | — | | Upper Khimti | 12.0 | U…",
+        "target_exists": true
+      },
+      {
         "slug": "khimti-dhalkebar-corridor",
         "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor",
         "category": "entities",
         "context": "…# See also - [[khimti-i]] — the project it was built for - khimti-ii — the sister plant that shares the corridor - [[hetauda-dha…",
+        "target_exists": true
+      }
+    ],
+    "tamakoshi-v": [
+      {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…ignificant projects including [[upper-tamakoshi]] (456 MW), tamakoshi-v (99.8 MW), and [[tamakoshi-3]] (287 MW). ## See also - [[…",
+        "target_exists": true
+      }
+    ],
+    "tamakoshi-3": [
+      {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…[upper-tamakoshi]] (456 MW), [[tamakoshi-v]] (99.8 MW), and tamakoshi-3 (287 MW). ## See also - [[khimti-i]] - [[khimti-ii]] - [[…",
         "target_exists": true
       }
     ],
@@ -10208,6 +10842,83 @@
         "title": "Madi",
         "category": "entities",
         "context": "…ith or complements other West Rapti storage options such as naumure-w-rapti. ## Map Interpretation The marker is a river anchor suita…",
+        "target_exists": true
+      }
+    ],
+    "kulekhani-i": [
+      {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…-----------|------|------| | Kulekhani I | 60 | Reservoir | kulekhani-i | | Kulekhani II | 32 | Cascade | [[kulekhani-ii]] | | Kule…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-ii",
+        "title": "Kulekhani II",
+        "category": "entities",
+        "context": "…system. It operates as a cascade plant using discharge from kulekhani-i (60 MW, reservoir). See [[kulekhani-cascade]] for the full…",
+        "target_exists": true
+      }
+    ],
+    "kulekhani-ii": [
+      {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…servoir | [[kulekhani-i]] | | Kulekhani II | 32 | Cascade | kulekhani-ii | | Kulekhani III | 14 | Cascade | | | **Total** | **106**…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-i",
+        "title": "Kulekhani I",
+        "category": "entities",
+        "context": "…ascade]] for the full three-plant system overview including kulekhani-ii (32 MW) and Kulekhani III (14 MW). Combined generation in F…",
+        "target_exists": true
+      }
+    ],
+    "likhu-1": [
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…| District | |-------|--------------|--------|----------| | likhu-1 | 77.0 | Under construction | Solukhumbu | | [[likhu-2]] |…",
+        "target_exists": true
+      }
+    ],
+    "likhu-2": [
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…| [[likhu-1]] | 77.0 | Under construction | Solukhumbu | | likhu-2 | 55.0 | Under construction | Solukhumbu | | [[likhu-khola-…",
+        "target_exists": true
+      }
+    ],
+    "likhu-khola-a": [
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…| [[likhu-2]] | 55.0 | Under construction | Solukhumbu | | likhu-khola-a | 51.0 | Under construction | Solukhumbu | | [[likhu-4]] |…",
+        "target_exists": true
+      }
+    ],
+    "likhu-4": [
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…ikhu-khola-a]] | 51.0 | Under construction | Solukhumbu | | likhu-4 | 52.4 | Under construction | Ramechhap | | [[lower-likhu]]…",
+        "target_exists": true
+      }
+    ],
+    "lower-likhu": [
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…| | [[likhu-4]] | 52.4 | Under construction | Ramechhap | | lower-likhu | 28.1 | Under construction | Ramechhap | | Nupche Likhu HE…",
         "target_exists": true
       }
     ],
@@ -10351,7 +11062,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…+ short-cycle buildability | New binding solar constraint | claim-solar-terai-only-short-cycle-build | ## Tier 2 — Shaping Constraints | Rank | Bottleneck | N…",
+        "context": "…+ short-cycle buildability | New binding solar constraint | claim-solar-terai-only-short-cycle-build | — | ## Tier 2 — Shaping Constraints | Rank | Bottleneck…",
         "target_exists": true
       },
       {
@@ -10503,6 +11214,144 @@
         "target_exists": true
       }
     ],
+    "upper-dordi-a-hep": [
+      {
+        "slug": "super-dordi-kha-hydropower-project",
+        "title": "Super Dordi Kha Hydropower Project",
+        "category": "entities",
+        "context": "…stry tier — distinct from \"Upper\". On the same Dordi river, upper-dordi-a-hep (25 MW) and [[dordi-khola]] (27 MW) are separate projects.…",
+        "target_exists": true
+      }
+    ],
+    "dordi-khola": [
+      {
+        "slug": "super-dordi-kha-hydropower-project",
+        "title": "Super Dordi Kha Hydropower Project",
+        "category": "entities",
+        "context": "…On the same Dordi river, [[upper-dordi-a-hep]] (25 MW) and dordi-khola (27 MW) are separate projects. Super Dordi Kha (49.6 MW) is…",
+        "target_exists": true
+      }
+    ],
+    "upper-madi": [
+      {
+        "slug": "super-madi",
+        "title": "Super Madi",
+        "category": "entities",
+        "context": "…E registry — distinct from \"Upper\". On the same Madi Khola, upper-madi (25 MW) is an upstream operating plant, while Super Madi (4…",
+        "target_exists": true
+      }
+    ],
+    "mai": [
+      {
+        "slug": "super-mai",
+        "title": "Super Mai Hydropower Project",
+        "category": "entities",
+        "context": "…ier — distinct from \"Upper\". On the same Mai Khola in Ilam, mai (22 MW) is an operating plant, while Super Mai (7.8 MW) and…",
+        "target_exists": true
+      },
+      {
+        "slug": "super-mai-a",
+        "title": "Super Mai-A HPP",
+        "category": "entities",
+        "context": "…epal DoED/MoE registry tier. On the same Mai Khola in Ilam, mai (22 MW) is an operating plant, while [[super-mai]] (7.8 MW)…",
+        "target_exists": true
+      }
+    ],
+    "super-mai": [
+      {
+        "slug": "super-mai-a",
+        "title": "Super Mai-A HPP",
+        "category": "entities",
+        "context": "…Khola in Ilam, [[mai]] (22 MW) is an operating plant, while super-mai (7.8 MW) and Super Mai-A (9.6 MW) are smaller under-constru…",
+        "target_exists": true
+      }
+    ],
+    "super-mai-a": [
+      {
+        "slug": "super-mai",
+        "title": "Super Mai Hydropower Project",
+        "category": "entities",
+        "context": "…(22 MW) is an operating plant, while Super Mai (7.8 MW) and super-mai-a (9.6 MW) are smaller under-construction projects. These are…",
+        "target_exists": true
+      }
+    ],
+    "nyadi-khola": [
+      {
+        "slug": "super-nyadi-hydropower-project",
+        "title": "Super Nyadi Hydropower Project",
+        "category": "entities",
+        "context": "…stry tier — distinct from \"Upper\". On the same Nyadi river, nyadi-khola (30 MW) is a separate under-construction project. Super Nya…",
+        "target_exists": true
+      }
+    ],
+    "upper-tamor": [
+      {
+        "slug": "super-tamor",
+        "title": "Super Tamor",
+        "category": "entities",
+        "context": "…stry tier — distinct from \"Upper\". On the same Tamor River, upper-tamor (285 MW) and [[middle-tamor]] (54 MW) are under constructio…",
+        "target_exists": true
+      }
+    ],
+    "middle-tamor": [
+      {
+        "slug": "super-tamor",
+        "title": "Super Tamor",
+        "category": "entities",
+        "context": "…per\". On the same Tamor River, [[upper-tamor]] (285 MW) and middle-tamor (54 MW) are under construction, while Super Tamor (155 MW)…",
+        "target_exists": true
+      }
+    ],
+    "tamor-storage": [
+      {
+        "slug": "super-tamor",
+        "title": "Super Tamor",
+        "category": "entities",
+        "context": "…uction, while Super Tamor (155 MW) remains at survey stage. tamor-storage (200 MW) is a separate storage proposal. See also the broad…",
+        "target_exists": true
+      }
+    ],
+    "upper-trishuli-3a": [
+      {
+        "slug": "super-trishuli",
+        "title": "Super Trishuli",
+        "category": "entities",
+        "context": "…\"Upper\". The Trishuli corridor hosts multiple named tiers: upper-trishuli-3a (60 MW), [[upper-trishuli-3b]] (37 MW), [[upper-trishuli-1]…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…| [[upper-trishuli-1]] | 216 | Under construction | IPP | | upper-trishuli-3a | 60 | Under construction | NEA | | [[upper-trishuli-3b]] |…",
+        "target_exists": true
+      }
+    ],
+    "upper-trishuli-1": [
+      {
+        "slug": "super-trishuli",
+        "title": "Super Trishuli",
+        "category": "entities",
+        "context": "…upper-trishuli-3a]] (60 MW), [[upper-trishuli-3b]] (37 MW), upper-trishuli-1 (216 MW), [[trishuli]] (Devighat), and Super Trishuli (100…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…---| | Upper Trishuli-I Cascade HEP | 24.6 | Survey | — | | upper-trishuli-1 | 216 | Under construction | IPP | | [[upper-trishuli-3a]]…",
+        "target_exists": true
+      }
+    ],
+    "trishuli-cascade": [
+      {
+        "slug": "super-trishuli",
+        "title": "Super Trishuli",
+        "category": "entities",
+        "context": "…separate asset with its own promoter, PPA, and status. See trishuli-cascade for the corridor overview. ## Trishuli System The Trishul…",
+        "target_exists": true
+      }
+    ],
     "solu-hydropower-project": [
       {
         "slug": "tingla-132-33kv-substation",
@@ -10521,7 +11370,32 @@
         "target_exists": true
       }
     ],
+    "trishuli-galchhi": [
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…der construction | Subsidiary (Trishuli Jal Vidyut Co.) | | trishuli-galchhi | 75 | Under construction | IPP | | [[super-trishuli]] | 10…",
+        "target_exists": true
+      }
+    ],
+    "super-trishuli": [
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…| [[trishuli-galchhi]] | 75 | Under construction | IPP | | super-trishuli | 100 | Under construction | IPP | | [[trishuli]] (Devighat…",
+        "target_exists": true
+      }
+    ],
     "marsyangdi-upper-220": [
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…Highway) provides construction access, and the established marsyangdi-upper-220 and [[trishuli-galchhi]] transmission infrastructure provid…",
+        "target_exists": true
+      },
       {
         "slug": "udipur-damauli-bharatpur-220",
         "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
@@ -10534,6 +11408,33 @@
         "title": "Layer: Major Transmission Network",
         "category": "data",
         "context": "…-surkhet-dailekh-132]] - [[udipur-damauli-bharatpur-220]] - marsyangdi-upper-220 - [[kabeli-132]] - [[solu-tingla-mirchaiya-132]] - [[data-…",
+        "target_exists": true
+      }
+    ],
+    "madhya-bhotekoshi": [
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…sin]]). The adjacent Bhote Koshi corridor ([[rasuwagadhi]], madhya-bhotekoshi, [[upper-bhotekoshi]]) shares transmission infrastructure a…",
+        "target_exists": true
+      }
+    ],
+    "upper-bhotekoshi": [
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…ote Koshi corridor ([[rasuwagadhi]], [[madhya-bhotekoshi]], upper-bhotekoshi) shares transmission infrastructure and Chilime-group spons…",
+        "target_exists": true
+      }
+    ],
+    "chilime-trishuli-220kv-transmission-line": [
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…sponsorship patterns with several Trishuli projects via the chilime-trishuli-220kv-transmission-line. ## See also - [[upper-trishuli-3a]] - [[upper-trishuli-3…",
         "target_exists": true
       }
     ],
@@ -10605,6 +11506,20 @@
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
         "context": "…he off-taker. See [[ad-penalties]] for full case detail and barahi-hydropower for the entity page. ## The AD penalty formula The standa…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…ating as penalty administrator. The Barahi Hydropower case (barahi-hydropower) documents this double-bind operating even against an ERC s…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…ble success case that prospectuses invoke without context - barahi-hydropower — the case that proves penalties can override their own exe…",
         "target_exists": true
       }
     ],
@@ -11191,6 +12106,27 @@
         "title": "Layer: Top-10 Capacity Projects",
         "category": "data",
         "context": "…e comparator. ## Related - [[claim-mw-not-equal-value]] - twenty-year-strategy - [[storage-deficit]] - [[claim-transmission-immediate-bloc…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Electric Cooking Transition",
+        "category": "interventions",
+        "context": "…ed-generation]] — the surplus energy cooking could absorb - twenty-year-strategy — Phase 2 domestic demand building - [[storage-deficit]] —…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…the twenty-year strategy's Phase 2-3 buildout assumptions (twenty-year-strategy) become grounded in achievable output rather than stationar…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Transmission Completion",
+        "category": "interventions",
+        "context": "…s, removing a binding constraint on the Phase 2 pipeline in twenty-year-strategy - **Butwal–Gorakhpur completion:** - Roughly doubles Nep…",
         "target_exists": true
       }
     ],
@@ -11824,12 +12760,35 @@
         "target_exists": true
       }
     ],
+    "intervention-transmission-completion": [
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…iate practical | [[claim-transmission-immediate-blocker]] | intervention-transmission-completion | | 2 | [[storage-deficit]] / [[seasonal-mismatch]] | Deep…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…ten to be useful to both a researcher and a policymaker. - intervention-transmission-completion — resolve community resistance on Hetauda–Dhalkebar 400 kV…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…ttracting energy-intensive industry **Key interventions:** intervention-transmission-completion (Hetauda–Dhalkebar, Butwal–Gorakhpur); [[intervention-nea-s…",
+        "target_exists": true
+      }
+    ],
     "claim-storage-physical-fix": [
       {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…orage-deficit]] / [[seasonal-mismatch]] | Deep structural | claim-storage-physical-fix | | 3 | Solar land + short-cycle buildability | New binding…",
+        "context": "…orage-deficit]] / [[seasonal-mismatch]] | Deep structural | claim-storage-physical-fix | [[intervention-electric-cooking-transition]] (demand-side…",
         "target_exists": true
       },
       {
@@ -11861,12 +12820,81 @@
         "target_exists": true
       }
     ],
+    "intervention-electric-cooking-transition": [
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…atch]] | Deep structural | [[claim-storage-physical-fix]] | intervention-electric-cooking-transition (demand-side); [[intervention-q-design-climate-adjustment]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…e financial disclosures and build civic hydro-IPO dataset - intervention-electric-cooking-transition — coordinated demand-creation: appliance financing, tariff…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…[[green-hydrogen-nepal]] investment **Key interventions:** intervention-electric-cooking-transition (build domestic demand to absorb monsoon surplus); [[interv…",
+        "target_exists": true
+      }
+    ],
+    "intervention-q-design-climate-adjustment": [
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…[[intervention-electric-cooking-transition]] (demand-side); intervention-q-design-climate-adjustment (supply-side) | | 3 | Solar land + short-cycle buildability…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…reation: appliance financing, tariff redesign, LPG reform - intervention-q-design-climate-adjustment — mandate ICIMOD climate-adjusted hydrology in all new feas…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…sition]] (build domestic demand to absorb monsoon surplus); intervention-q-design-climate-adjustment (mandate climate-adjusted hydrology before licensing the Ph…",
+        "target_exists": true
+      }
+    ],
+    "intervention-nea-structural-separation": [
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…/ offtake / demand weakness | [[seasonal-arbitrage-trap]] | intervention-nea-structural-separation; [[intervention-electric-cooking-transition]] | | 6 | Clima…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…auda–Dhalkebar 400 kV and complete cross-border corridors - intervention-nea-structural-separation — carve NLDC into an ISO, transfer AD penalty authority to…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…mission-completion]] (Hetauda–Dhalkebar, Butwal–Gorakhpur); intervention-nea-structural-separation (begin ISO and open-access work in this phase). **Priority…",
+        "target_exists": true
+      }
+    ],
     "claim-climate-harder-not-easier": [
       {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…ap]] | | 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | | 7 | Project finance / institutional coordination | [[cl…",
+        "context": "…on]] | | 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | [[intervention-q-design-climate-adjustment]] | | 7 | Proj…",
         "target_exists": true
       },
       {
@@ -11882,7 +12910,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…er]] | | 7 | Project finance / institutional coordination | claim-governance-binding | ## Tier 3 — Downstream Constraints | Rank | Bottleneck…",
+        "context": "…nt]] | | 7 | Project finance / institutional coordination | claim-governance-binding | [[intervention-nea-structural-separation]]; [[interventio…",
         "target_exists": true
       },
       {
@@ -11897,6 +12925,36 @@
         "title": "Start Here",
         "category": "syntheses",
         "context": "…hange increases hydrological volatility and tail risks. - claim-governance-binding — institutional failures are now the binding constraint, no…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…] — the institutional conflict this intervention resolves - claim-governance-binding — governance as the meta-bottleneck - [[barahi-hydropower]]…",
+        "target_exists": true
+      }
+    ],
+    "intervention-sebon-data-transparency": [
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…nce-binding]] | [[intervention-nea-structural-separation]]; intervention-sebon-data-transparency | ## Tier 3 — Downstream Constraints | Rank | Bottleneck…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…transfer AD penalty authority to ERC, create open access - intervention-sebon-data-transparency — mandate machine-readable financial disclosures and build…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…-adjusted hydrology before licensing the Phase 2 pipeline); intervention-sebon-data-transparency (ensure Phase 2 IPOs are transparently disclosed). **Prior…",
         "target_exists": true
       }
     ],
@@ -12694,6 +13752,15 @@
         "title": "Storage Capacity Comparison",
         "category": "data",
         "context": "…torage Need - Seasonal storage requirement: **29.86 km³** (wb-water-sector-diagnostic) - Current storage: ~0.085–0.15 km³ - Gap: **~200x shortfal…",
+        "target_exists": true
+      }
+    ],
+    "icimod-koshi-basin": [
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…limate resilience fits in the phased strategy (Phase 2-3) - icimod-koshi-basin — ICIMOD source documentation",
         "target_exists": true
       }
     ]
