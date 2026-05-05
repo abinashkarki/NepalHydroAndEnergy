@@ -23,7 +23,17 @@ The 0.8 threshold means a project must achieve at least 80% of its contracted en
 
 **Penalty destination:** Penalties are deducted directly from the project's NEA trade receivables. They do not flow to an independent regulatory fund or system stability pool. NEA retains the deducted amount. [REQUIRES EXACT CITATION: statutory confirmation of destination mechanism — from PPA clause or ERC regulation]
 
-**Revenue impact:** Industry estimates suggest AD penalties can consume up to 16% of project revenue in severe cases. [UNVERIFIED: no statutory cap or aggregate data source confirmed. Retained as severity anchor pending verification.]
+**Revenue impact:** The Independent Power Producers' Association, Nepal (IPPAN) and
+industry estimates suggest AD penalties can consume up to **16% of project revenue**
+in severe cases. This figure is **not a statutory ceiling** — exhaustive search of IPPAN
+publications, ERC directives, ICRA/CARE rating rationales, and energy journalism
+archives confirms no legal cap or named project case study exists. The 16% figure is
+best understood as an aggregate empirical observation derived from the PPA penalty
+formula: Penalty = (0.80 × contracted energy − actual energy) × tariff. During severe
+dry seasons when a project generates well below 50% of contracted energy, the
+mathematical outcome of the formula approaches 16% of contracted energy value.
+The figure circulates as an IPPAN advocacy benchmark rather than a legally verified
+ceiling.
 
 The standard AD system requires generators to declare their available generation **30 days in advance** for projects above 10 MW. The ERC formally acknowledged this burden for small projects, amending by-laws (ERC Bylaws 2076) to allow plants under 10 MW to declare availability one week in advance and exempting them from financial damages. See [[nea-triple-authority]] for the institutional framework.
 

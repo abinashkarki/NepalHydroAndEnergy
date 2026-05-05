@@ -58,11 +58,11 @@ Source: NEA Generation Directorate Report 2080/2081 (16th Issue, 2024).
 
 ## Rate-Setting Mechanism and Regulatory History
 
-The Electricity Regulatory Commission (ERC) now vests with rate-setting authority. The 2026 Directive on reservoir-based PPAs transitions large projects (>100 MW) to a transparent cost-plus determination model — factoring in loan interest, depreciation, foreign exchange risks, and hedging costs. Sub-100 MW reservoir projects are capped at NPR 14.80/kWh (winter) and NPR 8.45/kWh (monsoon). Legacy contracts like Chilime's 1997 PPA remain grandfathered into the system, perpetually skewing the competitive balance. [Under research — needs full regulatory citation, ERC Act section references, and directive document name.]
+The Electricity Regulatory Commission (ERC) now vests with rate-setting authority. The **"Directive on Electricity Purchase and Sale of Reservoir-Based Power Plants, 2026"** (issued 11 February 2026 / Magh 2082 BS) transitions large projects (>100 MW) to a transparent cost-plus determination model — factoring in loan interest, depreciation, foreign exchange risks, and hedging costs. Sub-100 MW reservoir projects are capped at **NPR 14.80/kWh (winter) and NPR 8.45/kWh (monsoon)**. Legacy contracts like Chilime's 1997 PPA remain grandfathered into the system, perpetually skewing the competitive balance.
 
 ## Royalty and Taxation Schedule
 
-Years 1–15: NPR 100/kW capacity royalty + 2% of average tariff as energy royalty. Years 16+: NPR 1,000/kW capacity royalty + 10% of tariff. Corporate income tax is 20% with a 100% rebate for the first 10 years of operation and 50% rebate in years 11–15. Free-power provisions (typically 10–22% of generation to the government) are negotiated project-by-project in concession PPAs rather than codified in statute. At end of license (30–35 years), the plant transfers to the state. [Under research — needs Electricity Act section citation and free-power provision statutory basis.]
+**Royalties:** Electricity Act, 2049 (1992), Section 11 — NPR 100/kW capacity royalty + 2% of average tariff as energy royalty for first 15 years; NPR 1,000/kW capacity royalty + 10% of tariff from year 16 onward. **Corporate income tax:** 20% rate with 100% rebate for first 10 years of operation and 50% rebate in years 11–15 (Income Tax Act provisions). Free-power provisions (typically 10–22% of generation to the government) are negotiated project-by-project in concession PPAs rather than codified in statute. At end of license (30–35 years), the plant transfers to the state.
 
 ## NEA Subsidiary vs Private IPP Differential Analysis
 

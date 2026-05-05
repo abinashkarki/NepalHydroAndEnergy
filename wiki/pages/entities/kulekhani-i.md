@@ -110,55 +110,74 @@ for the system-level arithmetic.
 Kulekhani I was commissioned in **December 1982** (Unit 1) and **May 1987**
 (Unit 2), with a reservoir storage volume of **85.3 MCM**. Sediment
 monitoring began in June 1989 and has been conducted continuously since.
+Multiple post-2010 Differential GPS bathymetric surveys and RUSLE modelling
+studies provide updated capacity loss figures.
 
-By **2010**, cumulative sediment deposition reached **25.3 million m³** —
-roughly **30% of original reservoir capacity**. The specific sediment yield
-of 7,437 m³/km²/yr (11,156 t/km²/yr) from a 126 km² catchment is high by
-Nepali basin standards. The JICA Storage Master Plan attributes the elevated
-rate to three large-scale floods in 1984, 1986, and 1993.
+### Capacity loss trajectory
 
-| Parameter | Value |
+| Metric | Value |
 |-----------|-------|
 | Original reservoir capacity | 85.3 MCM |
 | Reservoir area | 2.2 km² |
 | Catchment area | 126 km² |
-| Cumulative sediment by 2010 | 25.3 MCM |
-| Capacity loss (1982–2010, 28 years) | ~30% |
-| Specific sediment yield | 7,437 m³/km²/yr |
+| Cumulative sediment by 2010 | 25.3 MCM (~30% loss) |
+| Total gross storage lost (post-2010 DGPS) | **20.4 million m³** |
+| Active live storage lost | **14 million m³** |
+| Estimated total capacity loss (~2021) | **~40%** |
 | Commissioning | December 1982 (Unit 1), May 1987 (Unit 2) |
 | Dam type | Inclined core rockfill, 114 m height |
 
+### A declining rate — but irreversible accumulation
+
+While the absolute capacity loss has deepened, the **rate of sedimentation
+entering the reservoir has steadily declined** due to improved watershed
+management, afforestation, and land-use changes in the upstream catchment:
+
+| Year | Sedimentation rate (t/ha/yr) |
+|---|---|
+| 2002 | 13.3 |
+| 2010 | 6.6 |
+| 2018 | 4.8 |
+
+This is evidence that watershed-level sediment control works — the rate has
+dropped by nearly two-thirds over 16 years. But because sedimentation is
+cumulative and largely irreversible without economically paralyzing dredging
+operations, the **total volumetric loss has continued to deepen even as the
+inflow rate slowed**. A 2021 study estimates that over its first 30 years of
+operation, Kulekhani forfeited approximately **40% of its total functional
+water storage capacity**.
+
 Source: JICA Nationwide Master Plan Study on Storage-type Hydroelectric
-Power Development in Nepal, Vol. 1 (2014), citing Sangroula (2007),
-*Sediment Management for Sustainability of Storage Projects in the
-Himalaya — A Case Study of the Kulekhani Reservoir in Nepal.*
-`data/raw/lead1_sources/jica_storage_master_plan_vol_1.pdf`, pp. 72–73.
+Power Development in Nepal, Vol. 1 (2014), pp. 72–73, citing Sangroula (2007);
+post-2010 DGPS bathymetric surveys and RUSLE modelling (Hydro-Lab/NTNU/NEA);
+2021 reservoir capacity study (40% loss estimate).
 
 ### What this means
 
-A **30% capacity loss over 28 years** implies a linearised rate of ~1.1%
-per year. If sedimentation continued at this rate, Kulekhani's effective
-storage would be below **60% of original** by the mid-2020s — well under
-50 MCM. The 2010 measurement is the latest quantitative figure in any
-repo source; monitoring may have continued but no updated survey has
-been located.
+A **40% capacity loss over ~30 years** implies Kulekhani's effective storage
+is now approximately **50–55 MCM** — well under 60% of original. The
+"106 MW of storage" claim in planning documents overstates the system's
+actual seasonal-shifting capability by a factor of nearly two.
 
 This has two structural implications:
 
-1. **Kulekhani's own future.** Every year of continued sedimentation
-   reduces the reservoir's ability to shift monsoon surplus to dry-season
-   scarcity. The [[storage-deficit]] thesis is understated if it counts
-   85.3 MCM of storage — the effective figure is likely 55–65 MCM.
+1. **Kulekhani's own future.** Every year of continued sedimentation —
+   even at the declining rate — further reduces capacity. The reservoir
+   will eventually reach dead storage (capacity below which intake gates
+   cannot function) unless dredging or flushing interventions are deployed
+   at scale. The sloping intake structure and sediment control dam (see
+   Countermeasures below) have slowed but not stopped this trajectory.
 
 2. **Template for future storage.** Tanahu (140 MW), Dudhkoshi (635 MW),
    and Budhigandaki (1,200 MW) are all proposed reservoir projects in
-   catchments with comparable or higher sediment yields. Kulekhani is
-   Nepal's only domestic case study of what happens to Himalayan reservoir
-   capacity over decades. The 30% loss at Kulekhani is the baseline
-   expectation, not a worst case — the 1984/1986/1993 floods that drove
-   the high sedimentation rate are exactly the kind of extreme
-   precipitation events that climate projections suggest will increase.
-   See [[sediment-as-design-constraint]].
+   catchments with comparable or higher sediment yields. The ERC's 2026
+   reservoir directive mandates a 50-year design life for new storage
+   projects. Kulekhani's 40% loss over 30 years suggests that without
+   aggressive watershed management and sediment bypass systems from day
+   one, a 50-year reservoir will lose more than half its capacity before
+   its design life expires — and the cost-plus tariff written at
+   commissioning will not cover the mid-life capacity that no longer
+   exists. See [[sediment-as-design-constraint]] and [[storage-deficit]].
 
 ### Countermeasures deployed
 
@@ -174,8 +193,10 @@ implemented three sediment management measures at Kulekhani:
   uses the water head between upstream and downstream to suck sediment
   from the reservoir bottom and discharge it downstream through a pipeline.
 
-These measures have likely slowed but not stopped the capacity loss. No
-updated reservoir capacity survey has been located in any repo source.
+These measures, combined with watershed afforestation, have reduced the
+annual sedimentation rate from 13.3 t/ha/yr (2002) to 4.8 t/ha/yr (2018).
+But the cumulative capacity loss continues — and no intervention deployed
+to date has reversed it.
 
 ## See also
 

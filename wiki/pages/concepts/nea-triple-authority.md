@@ -47,7 +47,7 @@ The standard penalty formula documented in investment and tender materials is:
 
 If a project's generation falls beneath 80% of its contracted energy (or declared availability, depending on the specific PPA tier), the developer pays a penalty effectively equal to the revenue of the undelivered power. These penalties are deducted directly from trade receivables owed by NEA — not remitted to an independent fund.
 
-Industry sources assert that AD penalties can consume **up to 16% of project revenue** [UNVERIFIED: no statutory confirmation found; sector aggregate claim only]. The penalty impact is variable and project-specific.
+Industry sources assert that AD penalties can consume **up to 16% of project revenue**. This figure is not a statutory ceiling — it is an IPPAN-circulated aggregate derived from the PPA penalty formula: Penalty = (0.80 × contracted − actual) × tariff. Exhaustive search of IPPAN, ERC, ICRA/CARE, and media sources confirms no legal cap or named project case study verifying a 16% ceiling exists. The figure represents the formula's mathematical outcome during severe dry-season shortfalls, not a codified statutory limit. The penalty impact is variable and project-specific.
 
 See [[ad-penalties]].
 

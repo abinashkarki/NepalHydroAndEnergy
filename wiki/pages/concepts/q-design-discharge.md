@@ -17,7 +17,7 @@ In hydrology, **Q_x** denotes the flow rate (m³/s) that is exceeded X% of the t
 
 ## The DoED licensing rule
 
-Nepal's Department of Electricity Development (DoED) mandates through its licensing directives that new hydropower projects size their design discharge on **Q45** exceedance — meaning a flow exceeded 45% of the time [REQUIRES EXACT CITATION: "Directive on Licensing of Electricity Projects-2075" (2018) cited in research; exact section and document name to be confirmed]. Earlier practices often used **Q40** or even **Q25**, which tend to overstate dependable flow.
+Nepal's Department of Electricity Development (DoED) mandates through its licensing directive — **"विद्युत आयोजनाको अनुमतिपत्र सम्बन्धी निर्देशिका, २०७५"** (Directive on Licensing of Electricity Projects, 2075 BS), issued Kartik 7, 2075 (October 2018) — that new hydropower projects size their design discharge on **Q45** exceedance ("Probability of Accident Q45 of Hydrological Time Series Data"). Earlier practices often used **Q40** or even **Q25**, which tend to overstate dependable flow. Projects ≤1 MW for rural electrification are exempt: they may use **Q80**. The Q45 clause has not been amended since issuance.
 
 The DoED initially charges licence fees on the basis of Q45 but has allowed Q40 if a PPA is ultimately signed. The government has deliberated removing the rigid Q-design cap entirely to allow site-specific optimization and reduce monsoon spillage risk.
 
@@ -35,7 +35,7 @@ In other words: **the PPA promises the river will deliver what the Q-design para
 
 ## The WECS/DHM 1990 methodology
 
-For Nepal's vast number of projects on ungauged tributaries, the regulatory compliance apparatus relies on the **WECS/DHM Method**, officially formulated in 1990 ("Methodologies for Estimating Hydrologic Characteristics of Ungauged Locations in Nepal"). This methodology uses empirical regionalization equations derived from meteorological and discharge datasets largely collected in the **1970s and 1980s**.
+For Nepal's vast number of projects on ungauged tributaries, the regulatory compliance apparatus relies on the **WECS/DHM Method**, officially formulated in 1990 — **"Methodology for Estimating Hydrological Characteristics of Ungauged Locations in Nepal"** (WECS/DHM, 1990, Seq. No. 331, Ministry of Water Resources). This methodology uses empirical regionalization equations derived from DHM gauging data collected **up to 1985**. DHM issued a partial update — **"Hydrological Estimation in Nepal"** (June 2016) — but the 1990 methodology remains the regulatory default for most feasibility studies.
 
 The equations are simplistic: for example, instantaneous flood flows for a 2-year return period are calculated using a regression equation based solely on the catchment area below 3,000 meters in elevation.
 

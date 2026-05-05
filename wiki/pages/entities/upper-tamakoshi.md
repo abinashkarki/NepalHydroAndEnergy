@@ -4,7 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-05-02
 generator: specs-refresh
-sources: [nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
+sources: [nea-annual-report-fy2024-25, nea-transmission-annual-book-2077, ukhl-financials-generation-fy2079-82]
 tags: [project, ror, operational, landmark, dolakha]
 images:
   - src: upper-tamakoshi/stupa-park-in-lambagar-dolakha-district-dolakha-nepal-rajesh-dhungana-2.jpg

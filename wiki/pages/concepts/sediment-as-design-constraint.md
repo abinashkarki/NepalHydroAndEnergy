@@ -42,20 +42,37 @@ The 60 MW Khimti RoR plant in Dolakha is documented (by a sediment engineering p
 
 Khimti demonstrates Nepal is **capable** of best practice. The problem is that best practice is **not consistently embedded** across the buildout, especially when intake land constraints and cost pressure force compromises.
 
-## Kulekhani — Nepal's only reservoir, 30% silted
+## Kulekhani — Nepal's only reservoir, ~40% silted
 
-Nepal's single reservoir storage system, [[kulekhani-cascade]], provides the country's only domestic case study of what sedimentation does to Himalayan reservoir capacity over decades. The JICA Storage Master Plan (Vol. 1, 2014), citing a sediment survey by Sangroula (2007), reports:
+Nepal's single reservoir storage system, [[kulekhani-cascade]], provides the country's only domestic case study of what sedimentation does to Himalayan reservoir capacity over decades. Multiple post-2010 Differential GPS bathymetric surveys and RUSLE modelling studies confirm a deepening trajectory:
 
 | Parameter | Value |
 |-----------|-------|
 | Original reservoir capacity | 85.3 MCM |
-| Cumulative sediment by 2010 | 25.3 MCM |
-| Capacity loss (28 years) | ~30% |
-| Specific sediment yield | 7,437 m³/km²/yr |
+| Cumulative sediment by 2010 | 25.3 MCM (~30% loss) |
+| Total gross storage lost (post-2010 DGPS) | 20.4 million m³ |
+| Active live storage lost | 14 million m³ |
+| Estimated total capacity loss (~2021) | **~40%** |
 
-The elevated rate is attributed to three large-scale floods in 1984, 1986, and 1993 — the kind of extreme precipitation events that climate projections suggest will intensify. Countermeasures (sediment control dam, sloping intake, proposed hydrosuction system) have been deployed, but no updated capacity survey has been located in any accessible source.
+The rate of sedimentation entering the watershed has **declined** — from
+13.3 t/ha/yr (2002) to 6.6 t/ha/yr (2010) to 4.8 t/ha/yr (2018) — due to
+watershed afforestation and upstream sediment control dams. But because
+accumulation is cumulative and largely irreversible without dredging, the
+total volumetric loss has continued to deepen even as the inflow rate
+slowed. A 2021 study estimates that over 30 years, Kulekhani forfeited
+approximately 40% of its total functional water storage capacity.
 
-Kulekhani's 30% loss is the **baseline expectation** for future reservoir projects in Himalayan catchments — not a worst case. Every storage proposal in Nepal's pipeline ([[tanahu-hydropower]], [[dudhkoshi-storage]], [[budhigandaki]]) will face the same physical reality. If Kulekhani's rate (~1.1%/yr linearised) applies, a reservoir with a 50-year design life needs to plan for losing half its original capacity. That means either building in excess capacity from day one, or accepting that the reservoir's economic life ends before the financial model assumes. See [[storage-deficit]].
+Kulekhani's ~40% loss is the **baseline expectation** for future reservoir
+projects in Himalayan catchments — not a worst case. Every storage
+proposal in Nepal's pipeline ([[tanahu-hydropower]], [[dudhkoshi-storage]],
+[[budhigandaki]]) will face the same physical reality. The ERC's 2026
+reservoir directive mandates a 50-year design life. Kulekhani's trajectory
+suggests that without aggressive watershed management and sediment bypass
+tunnels from day one, a 50-year reservoir will lose more than half its
+capacity before its design life expires. That means either building in
+excess capacity at commissioning, or accepting that the cost-plus tariff
+will need upward revision at mid-life as the storage that justified the
+original financial model shrinks. See [[storage-deficit]].
 
 ## Forced outages: sediment's operational footprint
 
