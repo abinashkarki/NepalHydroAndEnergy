@@ -3,6 +3,7 @@ title: Pancheshwar Multipurpose Project
 type: entity
 created: 2026-04-14
 updated: 2026-04-15
+generator: specs-refresh
 sources: [national-water-plan-nepal]
 tags: [project, storage, bilateral, treaty, mahakali, stalled]
 images:
@@ -21,11 +22,26 @@ A bi-national mega-project on the [[mahakali-basin]] river forming the Nepal-Ind
 
 | Parameter | Value |
 |-----------|-------|
-| Total capacity | 6,480 MW (divided equally between Nepal and India) |
-| Dam height | 315 m (proposed — would be world's largest rockfill dam) |
-| Type | Storage / Multipurpose |
+| Capacity | 6,480 MW (divided equally between Nepal and India) |
+| Status | Stalled — 30 years, zero construction |
 | Treaty basis | Mahakali Treaty (1996) |
 | DPR | Drafted by India's WAPCOS (2016) |
+
+### Engineering
+At 315 m, the proposed rockfill dam would be the world's largest of its type. But the engineering question is not whether it can be built — it is whether the bilateral governance structure can deliver it. 30 years after the Mahakali Treaty was signed, Nepal has received zero megawatts. This is the definitive case for [[buildability]] as a political construct, not an engineering one.
+
+| Parameter | Value |
+|-----------|-------|
+| Dam height | 315 m |
+| Dam type | Rockfill |
+| Type | Storage / Multipurpose |
+
+### Financial
+Nepal's share of the initial phase is estimated at NPR 126–130 billion, with total project cost projected at NPR 336 billion. Financing is unresolved. The revenue split on electricity is 50/50; the fight is over the non-electricity value: irrigation and flood control benefits that India values differently than Nepal.
+
+### Schedule
+The Mahakali Treaty was signed in 1996. The DPR was drafted in 2016 and remains unapproved. Core impasse: Nepal demands 50/50 sharing of irrigation and flood-control benefits; India insists on 75/25. Compare to [[budhigandaki]], which is also a large storage project but domestically controlled — and is actually advancing (slowly). The comparison supports the [[domestic-led-hydro-strategy]] thesis.
+
 
 ## Status (updated April 2026)
 

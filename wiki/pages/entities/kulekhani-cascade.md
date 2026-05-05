@@ -58,10 +58,10 @@ Nepal's **only operational reservoir hydropower system**. A cascade of three pla
 |-------|--------------|------|------|
 | Kulekhani I | 60 | Reservoir | [[kulekhani-i]] |
 | Kulekhani II | 32 | Cascade | [[kulekhani-ii]] |
-| Kulekhani III | 14 | Cascade | |
+| Kulekhani III | 14 | Cascade | [[kulekhani-iii]] |
 | **Total** | **106** | | |
 
-- Combined generation in FY 2024/25: **279.8 GWh**
+- Combined generation in FY 2081/82: **279.8 GWh** (KL-I: 170.56 + KL-II: 74.9 + KL-III: 34.3)
 - Storage volume: ~85–150 MCM (see [[data-storage-comparison]])
 
 ## Significance

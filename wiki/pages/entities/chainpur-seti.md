@@ -2,7 +2,7 @@
 title: Chainpur Seti
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-05
 sources: [nea-transmission-annual-book-2077]
 tags: [project, survey, gandaki, bajhang]
 images:

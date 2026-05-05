@@ -3,6 +3,7 @@ title: Kali Gandaki A
 type: entity
 created: 2026-04-20
 updated: 2026-04-20
+generator: specs-refresh
 sources: [kali-gandaki-a-adb-evaluation, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [project, watchlist, operating, gandaki, palpa, syangja, ror, nea-owned]
 images:
@@ -46,16 +47,38 @@ looks like — and also what two decades of wear do to one.
 
 | Parameter | Value |
 |-----------|-------|
-| Capacity | 144 MW (3 × 48 MW Toshiba Francis units) |
+| Capacity | 144 MW |
 | Status | Operating since 2002 |
-| Type | Run-of-river with pondage |
 | River | Kali Gandaki at Mirmi ([[gandaki-basin]]) |
-| District | Palpa / Syangja (powerhouse at Mirmi, Syangja; dam upstream in Palpa) |
-| Owner / Operator | [[nea]] |
+| District | Palpa / Syangja |
+
+### Engineering
+Three Toshiba Francis units in an above-ground powerhouse fed by a diversion dam with pondage. At 115 m gross head, Kali Gandaki A is a medium-head RoR design — less dramatic than [[upper-tamakoshi]] at 822 m, but with pondage that smooths daily load in a way pure RoR plants cannot. The pondage is not storage; it does not shift energy between seasons. See [[run-of-river-hydropower]].
+
+| Parameter | Value |
+|-----------|-------|
+| Units | 3 × 48 MW |
+| Turbine type | Francis (Toshiba) |
 | Gross head | 115 m |
-| Design energy | ~860 GWh / year |
-| Actual avg output | ~592 GWh / year |
-| Construction cost | USD 354.8 million (ADB + JBIC) |
+| Type | Run-of-river with pondage |
+| Owner / Operator | [[nea]] |
+
+### Output
+The project was designed for ~860 GWh/yr but has averaged closer to 592 GWh — a ~30% shortfall that the ADB's own performance evaluation attributes to sedimentation, variable hydrology, and aging electromechanical equipment. This design-energy gap is a real-world demonstration of the principle in [[claim-mw-not-equal-value]].
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 860 GWh |
+| Actual avg output | ~592 GWh |
+
+### Financial
+Built at USD 354.8 million with ADB and JBIC financing, Kali Gandaki A was for two decades Nepal's single largest plant — the reference case for multilaterally-financed domestic hydropower. Compare with [[upper-tamakoshi]] (NPR 87 billion, domestic) and [[chameliya-hydropower]] (USD 226 million for 30 MW, 11-year build) for the cost-efficiency spectrum.
+
+| Parameter | Value |
+|-----------|-------|
+| Construction cost | USD 354.8 million |
+| Lead financier | ADB + JBIC |
+
 
 ## Significance
 

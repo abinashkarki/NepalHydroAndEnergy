@@ -39,6 +39,25 @@ Phukot Karnali is a 426-480 MW peaking run-of-river project on the Karnali in Ka
 | Province | Karnali Pradesh |
 | Promoter | Vidhyut Utpadan Company Limited |
 
+### Engineering
+VUCL project-status material describes a 474 MW underground powerhouse with six 79 MW Francis units, an additional 6 MW environmental-release powerhouse, and a 400 kV double-circuit evacuation line of ~2.3 km to the proposed Regil grid substation. The wiki keeps the registry value of 426 MW in the spec table — the wider project literature (474–480 MW) reflects a more developed project view. Neither figure is yet locked down by a bankable feasibility study. See [[buildability]].
+
+| Parameter | Value |
+|-----------|-------|
+| Units | 6 × 79 MW |
+| Turbine type | Francis |
+| Underground powerhouse | Yes |
+| Type | PROR |
+| Evacuation | 400 kV double-circuit to Regil (~2.3 km) |
+
+### Schedule
+IPSDP places Phukot Karnali in the 2031–2035 milestone window. VUCL estimates roughly five years for construction once full construction starts. The binding questions are not about resource availability — the Karnali flow is the reason the project exists — but about delivery: financing, NHPC participation, Regil evacuation path readiness, and whether the five-year estimate survives contracting. Compare with [[upper-karnali]] (900 MW, same river, 18 years without a turbine) for the distinction between licence and execution.
+
+| Parameter | Value |
+|-----------|-------|
+| Construction estimate | ~5 years once started |
+| Planning window | 2031–2035 (IPSDP) |
+
 <!-- generated:specs:end -->
 
 ## Why It Matters

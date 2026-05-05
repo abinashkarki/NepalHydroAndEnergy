@@ -12,20 +12,48 @@ generator: manual
 
 86 MW run-of-river hydropower project on the Solu Khola, a tributary of the Dudh Koshi, in Solukhumbu District, Koshi Province. Nepal's most-cited private IPP success story — and the project that proves the standard PPA rate is only viable at exceptional scale.
 
-## Project Specifications
+## Specifications
 
 | Parameter | Value |
-|---|---|
+|-----------|-------|
 | Capacity | 86 MW |
-| Type | Run-of-River |
+| Status | Operating |
 | River | Solu Khola (tributary of Dudh Koshi) |
 | District | Solukhumbu, Koshi Province |
 | Entity type | Private IPP |
 | Incorporated | February 2014 (private limited), converted to public limited September 2014 |
-| COD | March 1, 2023 |
-| Q-design parameter | Q41 (41% probability of exceedance) |
 
-The Q41 design parameter is more aggressive than the DoED 2018 Q45 mandate. The developers accepted higher dry-season underutilization risk in exchange for maximizing monsoon energy capture — a calculated bet that only works at scale. Source: ICRA Nepal surveillance reports A.996 and B.119; Sahas Urja project disclosures.
+### Output
+Sahas Urja's Q41 design parameter is more aggressive than the DoED 2018 Q45 mandate — the developers accepted higher dry-season underutilization risk in exchange for maximizing monsoon energy capture. As documented in [[q-design-discharge]], this is a calculated bet that only works at scale. The 19.28% dry-season energy mix produces ~100 GWh of premium-priced winter generation, enough absolute volume to carry the project's debt load despite the wet-season rate.
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 520.20 GWh |
+| Dry-season energy | 100.27 GWh |
+| Dry-season share | 19.28 % |
+| Plant load factor | 69.05 % |
+| Q-design | Q41 |
+| Type | Run-of-River |
+| COD | March 1, 2023 |
+
+### Financial
+Sahas Urja operates on the identical NPR 4.80/8.40 PPA rate as every other private RoR IPP of its era. Its strong financial performance — NPR 2.648 billion revenue, NPR 902 million net profit in FY2023/24 — does not prove the rate is adequate; it proves the rate is only viable at exceptional scale and cost discipline. The median 10–30 MW IPP cannot replicate these economics. For a detailed breakdown, see the PPA Structure and Financial Performance sections below.
+
+| Parameter | Value |
+|-----------|-------|
+| PPA rate (wet) | NPR 4.80/kWh |
+| PPA rate (dry) | NPR 8.40/kWh |
+| Debt/equity | 76/24 |
+| Build cost | NPR 172–175 million/MW |
+
+### Governance
+Him Prasad Pathak, the founder-chairman, is a central figure in Nepal's energy landscape — a Secretary and Executive Committee member of IPPAN, giving him direct lobbying access to MoEWRI, ERC, and NEA. His acquisition of a 51% controlling stake in Times Energy (341 MW Budhi Gandaki PRoR) for ~NPR 2 billion extends the Sahas Urja playbook to a new scale. See the Promoters and Institutional Connections section for the full institutional mapping.
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Sahas Urja Limited |
+| Lead financier | Nepal Investment Bank (10-bank consortium) |
+
 
 ## PPA Structure
 

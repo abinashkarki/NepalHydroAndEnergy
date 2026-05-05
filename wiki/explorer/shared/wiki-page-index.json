@@ -428,6 +428,10 @@
         "title": "Kulekhani II"
       },
       {
+        "slug": "kulekhani-iii",
+        "title": "Kulekhani III"
+      },
+      {
         "slug": "lantang-khola-reservoir",
         "title": "Lantang Khola Reservoir Hydropower Project"
       },
@@ -550,10 +554,6 @@
       {
         "slug": "mustang-high-altitude-solar-zone",
         "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone"
-      },
-      {
-        "slug": "nalsyau-gad-storage",
-        "title": "Nalsyau Gad Storage Hep"
       },
       {
         "slug": "nalsyau-gad",
@@ -1482,6 +1482,7 @@
     "kulekhani-cascade",
     "kulekhani-i",
     "kulekhani-ii",
+    "kulekhani-iii",
     "lantang-khola-reservoir",
     "lapche-khola",
     "likhu-1",
@@ -1513,7 +1514,6 @@
     "mristi-khola",
     "mugu-karnali-storage",
     "mustang-high-altitude-solar-zone",
-    "nalsyau-gad-storage",
     "nalsyau-gad",
     "naumure-w-rapti",
     "nawalpur-132kv-substation",
@@ -1824,6 +1824,7 @@
     "kulekhani-cascade": "entities",
     "kulekhani-i": "entities",
     "kulekhani-ii": "entities",
+    "kulekhani-iii": "entities",
     "lantang-khola-reservoir": "entities",
     "lapche-khola": "entities",
     "likhu-1": "entities",
@@ -1855,7 +1856,6 @@
     "mristi-khola": "entities",
     "mugu-karnali-storage": "entities",
     "mustang-high-altitude-solar-zone": "entities",
-    "nalsyau-gad-storage": "entities",
     "nalsyau-gad": "entities",
     "naumure-w-rapti": "entities",
     "nawalpur-132kv-substation": "entities",
@@ -2166,6 +2166,7 @@
     "kulekhani-cascade": "Kulekhani Cascade",
     "kulekhani-i": "Kulekhani I",
     "kulekhani-ii": "Kulekhani II",
+    "kulekhani-iii": "Kulekhani III",
     "lantang-khola-reservoir": "Lantang Khola Reservoir Hydropower Project",
     "lapche-khola": "Lapche Khola",
     "likhu-1": "Likhu -1",
@@ -2197,7 +2198,6 @@
     "mristi-khola": "Mristi Khola",
     "mugu-karnali-storage": "Mugu Karnali Storage HEP",
     "mustang-high-altitude-solar-zone": "Mustang / Trans-Himalayan High-Altitude Solar Zone",
-    "nalsyau-gad-storage": "Nalsyau Gad Storage Hep",
     "nalsyau-gad": "Nalsyau Gad",
     "naumure-w-rapti": "Naumure (W. Rapti)",
     "nawalpur-132kv-substation": "Nawalpur 132 kV Substation",

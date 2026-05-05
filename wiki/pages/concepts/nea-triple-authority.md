@@ -31,7 +31,7 @@ This structural favoritism has been independently verified in academic audit. Th
 
 > "The major complaint of the rising IPPs is that the playing field is not level, that NEA as generator, transmitter and distributor gives preferential terms to its own projects compared to IPPs; and indeed, this is seen in the case of the Chilime hydropower company that is owned by the NEA and its staff."
 
-Citation: Fenner School of Environment and Society, ANU. URL: https://fennerschool.anu.edu.au/files/Nepal%20State%20of%20Knowledge%20Report%20-%20Renewables%20%26%20PSH.pdf. [REQUIRES EXACT CITATION: page number unconfirmed — quote verified by text extraction.]
+Citation: Fenner School of Environment and Society, ANU, *Nepal State of Knowledge Report — Renewables and PSH*, p. 20. URL: https://fennerschool.anu.edu.au/files/Nepal%20State%20of%20Knowledge%20Report%20-%20Renewables%20%26%20PSH.pdf.
 
 No published merit order or dispatch protocol exists. NLDC's curtailment decisions affecting billions of rupees in annual revenue are made without public criteria. Neither the Auditor General nor any parliamentary committee has formally investigated dispatch discrimination.
 

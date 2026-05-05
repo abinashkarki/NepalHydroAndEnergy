@@ -2,7 +2,7 @@
 title: Budhi Gandaki Hydropower Project
 type: entity
 created: 2026-05-04
-updated: 2026-05-04
+updated: 2026-05-05
 sources: []
 tags: [project, survey, gandaki, gorkha]
 images: []

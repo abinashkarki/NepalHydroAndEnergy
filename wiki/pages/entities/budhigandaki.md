@@ -3,6 +3,7 @@ title: Budhigandaki Hydroelectric Project
 type: entity
 created: 2026-04-14
 updated: 2026-04-15
+generator: specs-refresh
 sources: [wb-country-economic-memo-2025, jica-ipsdp-main-report-vol2]
 tags: [project, storage, proposed, gandaki, mega-project]
 images:
@@ -42,13 +43,56 @@ A 1,200 MW **reservoir storage** project on the border of Gorkha and Dhading dis
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 1,200 MW |
-| Type | Storage / Reservoir |
-| Dam height | 263 m (double-curvature arch) |
+| Status | Pre-construction (bids invited for permanent camps April 2026) |
+| River | Budhi Gandaki ([[gandaki-basin]]) |
+| Districts | Gorkha / Dhading |
+
+### Engineering
+A 263 m double-curvature arch dam — Nepal's largest planned dam structure — with a reservoir volume of ~3.3 km³. This is a different engineering class from every operating plant in Nepal's fleet. The reservoir area (~63 km²) and displacement footprint (8,117 households) make this as much a social infrastructure project as a hydropower one. See [[sediment-as-design-constraint]] for the engineering challenges of a dam on the sediment-heavy Gandaki system.
+
+| Parameter | Value |
+|-----------|-------|
+| Dam height | 263 m |
+| Dam type | Double-curvature Arch |
 | Reservoir area | ~63 km² |
-| Reservoir volume | 3.3 km³ |
-| Base cost | $2.77 billion (~NPR 374 billion) |
-| Total with interest | ~NPR 406 billion |
-| Resettlement | 3,560 fully displaced families |
+| Total storage | 3,300 MCM |
+| Type | Storage / Reservoir |
+
+### Output
+Budhigandaki's defining economic feature is its seasonal split: **42% of annual output comes in winter** (1.41 billion units of a total 3.38 billion). For comparison, the average RoR plant delivers 15–25% of its energy in the dry season. This makes Budhigandaki the single most important dry-season asset in Nepal's planned pipeline. See [[storage-deficit]] and [[seasonal-mismatch]].
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 3,380 GWh |
+| Dry-season energy | 1,410 GWh |
+| Dry-season share | 42 % |
+
+### Financial
+Structured as 70% debt / 30% equity, with the government holding 80% and [[nea]] 20%. The winter tariff (NPR 12.40/kWh) is nearly double the monsoon rate (NPR 7.10/kWh) — a pricing differential that reflects storage's value premium: shifting water from monsoon surplus to dry-season premium pricing. Revenue projection: ~NPR 31.48 billion/year.
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | ~USD 2.77 billion |
+| PPA rate (wet) | NPR 7.10/kWh |
+| PPA rate (dry) | NPR 12.40/kWh |
+| Debt/equity | 70/30 |
+
+### Governance
+After a politically blocked Chinese Gezhouba Group proposal, the project is now structured as a domestic investment. Government ownership (80%) plus NEA (20%) through Budhigandaki Company Limited. The proposed 50-year license term is longer than the standard 30-year concession — a recognition of the longer payback period for large storage.
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Budhigandaki Company Limited (80% govt, 20% NEA) |
+| License term | 50 years (proposed) |
+
+### Schedule
+After years of repeated modality formation, the investment framework was approved by Cabinet in January 2026. Bids for permanent camps and an access bridge were invited in April 2026 — the first concrete procurement. Construction is targeted from January 2028 with an 8-year build, placing commercial operation around 2036. The gap between "modality approved" and "COD" has been fatal for many storage projects in Nepal — see [[buildability]] and compare with [[pancheshwar]] (30 years, zero output).
+
+| Parameter | Value |
+|-----------|-------|
+| Construction start | 2028 (target) |
+| Commercial operation | 2036 (earliest) |
+
 
 ## Status (updated April 2026)
 

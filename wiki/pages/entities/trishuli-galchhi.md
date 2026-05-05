@@ -2,7 +2,7 @@
 title: Trishuli Galchhi
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-05
 sources: []
 tags: [project, under-construction, gandaki, nuwakot]
 images: []

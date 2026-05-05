@@ -3,6 +3,7 @@ title: West Seti Hydroelectric Project
 type: entity
 created: 2026-04-14
 updated: 2026-04-14
+generator: specs-refresh
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, storage, stalled, china, india, nhpc, far-west]
 images:
@@ -36,11 +37,33 @@ A long-stalled **reservoir storage** project in Sudurpashchim Province — the m
 
 | Parameter | Value |
 |-----------|-------|
-| Capacity | 750–800 MW (varying by source) |
-| Type | Conventional storage (reservoir) |
-| Dam | 195 m concrete-faced rockfill, 433 m long |
-| Location | Seti River, Bajhang/Baitadi/Doti/Dadeldhura districts |
-| Affected areas | 16 wards across 8 local units |
+| Capacity | 750 MW |
+| Status | Stalled — Chinese withdrawal 2018, NHPC takeover 2022, EIA hearings 2025 |
+| River | Seti River ([[karnali-basin]]) |
+| Districts | Bajhang / Baitadi / Doti / Dadeldhura |
+| Province | Sudurpashchim |
+
+### Engineering
+A 195 m concrete-faced rockfill dam (CFRD), 433 m long — the largest dam design in far-west Nepal. The project's political trajectory overshadows its engineering: conceived in the 1980s, awarded to China Three Gorges Corporation (2012), abandoned by CTG (2018), transferred to India's NHPC (2022). CTG's withdrawal was not purely technical — the commercial terms and geopolitical signaling (Indian sensitivity to Chinese infrastructure near the border) were likely decisive. See [[hydro-geopolitics]].
+
+| Parameter | Value |
+|-----------|-------|
+| Dam height | 195 m |
+| Dam type | Concrete-face Rockfill |
+| Dam length | 433 m |
+| Type | Storage |
+
+### Governance
+West Seti, alongside [[budhigandaki]]'s history of Chinese-then-domestic pivots, represents a pattern: Chinese entities engage with Nepal's large storage projects but do not complete them. India then steps in — but progress remains slow. The net result is decades lost on projects that would directly address [[storage-deficit]].
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | NHPC Limited (India, since 2022) |
+| Previous developer | China Three Gorges Corporation (2012–2018) |
+
+### Schedule
+No construction timeline. NHPC is conducting EIA public hearings and updating the detailed project report as of late 2025. An associated project — SR-6 (450 MW) — has been proposed. Neither has a committed construction start. See [[buildability]].
+
 
 ## Timeline of Stalling
 

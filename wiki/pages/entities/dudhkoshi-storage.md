@@ -3,6 +3,7 @@ title: Dudhkoshi Storage Hydroelectric Project
 type: entity
 created: 2026-04-14
 updated: 2026-04-20
+generator: specs-refresh
 sources: [dudhkoshi-nea-proposal-2024, nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2]
 tags: [project, storage, pumped-storage, aiib, koshi, solukhumbu, khotang, okhaldhunga, glof-exposed]
 images:
@@ -46,20 +47,55 @@ start, ~2031 commercial operation if the schedule holds.
 
 | Parameter | Value |
 |-----------|-------|
-| Total capacity | 635–670 MW (two design-basis figures in circulation) |
-| Main powerhouse | 600 MW (underground) |
-| Dam-toe powerhouse | 70 MW (ecological flow) |
-| Dam height | 200–220 m |
+| Capacity | 635–670 MW (two design-basis figures in circulation) |
+| Status | Pre-construction |
 | River | Dudh Koshi ([[koshi-basin]]) |
 | Districts | Okhaldhunga, Khotang, Solukhumbu |
-| Reservoir volume | ~1,581 MCM |
-| Design energy | 3,377–3,444 GWh / year |
-| Pumped storage component | 200 MW planned addition |
-| Owner | [[nea]] |
-| Financing | AIIB sovereign proposed |
-| Schedule | Construction from ~2027; COD target ~2031 |
-| Cost | ~USD 2.2 billion (NPR ~308 billion) |
+
+### Engineering
+Dudhkoshi's design pairs a 200–220 m dam with an underground main powerhouse (600 MW) and a dam-toe ecological flow powerhouse (70 MW). The 200 MW pumped-storage component — Nepal's first "water battery" — turns the reservoir into a grid-balancing asset. But a dam of this scale on a GLOF-exposed river demands conservative spillway design: the 2024 Thame Valley GLOF traveled down the Dudh Koshi mainstem. See [[glof-risk]] and [[sediment-as-design-constraint]].
+
+| Parameter | Value |
+|-----------|-------|
+| Dam height | 200–220 m |
+| Main powerhouse | 600 MW (underground) |
+| Dam-toe powerhouse | 70 MW (ecological flow) |
+| Underground powerhouse | Yes |
+| Type | Storage |
+
+### Storage
+The reservoir (~1,581 MCM) and 200 MW pumped-storage addition make Dudhkoshi the single largest dry-season lever in Nepal's planned pipeline. Compare with the current operating storage fleet: [[kulekhani-cascade]] at 106 MW combined, and [[tanahu-hydropower]] at 140 MW under construction.
+
+| Parameter | Value |
+|-----------|-------|
+| Total storage | 1,581 MCM |
+| Pumped storage component | 200 MW |
+
+### Output
+Design energy of ~3,377 GWh/yr from a storage plant — unlike RoR, this energy can be concentrated in dry-season months and peak hours, maximizing revenue from higher winter tariffs and evening peaking prices.
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 3,377 GWh |
+
+### Financial
+AIIB sovereign financing is proposed but not yet committed — the typical latency between "proposed" and "approved" for projects at this scale is several years. Nepal will need to demonstrate fiscal space, guarantee structures, and procurement readiness to move this from concept to commitment.
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | ~USD 2.2 billion |
+| Owner | NEA |
+| Lead financier | AIIB (sovereign proposed) |
+
+### Schedule
+Four decades of feasibility work (ADB-supported since the 1980s) with land acquisition restarting only in 2021. The current timeline targets construction from ~2027 and COD ~2031. This schedule carries a credibility tax that Nepali storage projects make full: compare [[tanahu-hydropower]] (67% complete after ~10 years) and [[pancheshwar]] (30 years, zero output).
+
+| Parameter | Value |
+|-----------|-------|
+| Construction start | 2027 (target) |
+| Commercial operation | 2031 (target) |
 | Displacement | ~162 households fully, ~988 partially |
+
 
 ## Significance
 

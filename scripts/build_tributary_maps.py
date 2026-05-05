@@ -4,6 +4,7 @@ import csv
 import html
 import json
 import math
+import os
 import re
 import time
 import zipfile
@@ -2962,27 +2963,42 @@ def build_project_display_anchors(
 
 def hydropower_display_points_geojson(projects: list[dict[str, Any]]) -> dict[str, Any]:
     features: list[dict[str, Any]] = []
+    # Fields from the specs CSV that should appear in GeoJSON properties.
+    spec_fields = [
+        "gross_head_m", "design_discharge_m3s", "headrace_tunnel_km", "dam_height_m",
+        "dam_type", "num_units", "unit_capacity_mw", "turbine_type",
+        "underground_powerhouse", "annual_design_energy_gwh", "dry_season_energy_gwh",
+        "dry_share_pct", "plant_load_factor_pct", "q_design", "project_type",
+        "total_storage_mcm", "effective_storage_mcm", "pumped_storage_mw",
+        "total_cost_usd_m", "ppa_rate_wet_npr_kwh", "ppa_rate_dry_npr_kwh",
+        "developer", "cod_year",
+    ]
     for row in projects:
+        props: dict[str, Any] = {
+            "project": row["project"],
+            "license_type": row["license_type"],
+            "capacity_mw": row["capacity_mw"],
+            "river": row["river"],
+            "district": row["district"],
+            "municipality": row.get("municipality"),
+            "province": row["province"],
+            "precision_tier": row["precision_tier"],
+            "precision_label": row["precision_label"],
+            "location_basis": row["location_basis"],
+            "map_match_basis": row.get("map_match_basis"),
+            "nearest_river_distance_m": row.get("nearest_river_distance_m"),
+            "display_offset_m": row.get("display_offset_m"),
+            "raw_lat": row["raw_lat"],
+            "raw_lon": row["raw_lon"],
+        }
+        for f in spec_fields:
+            v = row.get(f)
+            if v is not None and v != "":
+                props[f] = v
         features.append(
             {
                 "type": "Feature",
-                "properties": {
-                    "project": row["project"],
-                    "license_type": row["license_type"],
-                    "capacity_mw": row["capacity_mw"],
-                    "river": row["river"],
-                    "district": row["district"],
-                    "municipality": row.get("municipality"),
-                    "province": row["province"],
-                    "precision_tier": row["precision_tier"],
-                    "precision_label": row["precision_label"],
-                    "location_basis": row["location_basis"],
-                    "map_match_basis": row.get("map_match_basis"),
-                    "nearest_river_distance_m": row.get("nearest_river_distance_m"),
-                    "display_offset_m": row.get("display_offset_m"),
-                    "raw_lat": row["raw_lat"],
-                    "raw_lon": row["raw_lon"],
-                },
+                "properties": props,
                 "geometry": {"type": "Point", "coordinates": [row["display_lon"], row["display_lat"]]},
             }
         )
@@ -3086,6 +3102,67 @@ def province_name_lookup(provinces: dict[str, Any]) -> dict[str, str]:
     return lookup
 
 
+def _project_name_to_slug(name: str) -> str:
+    """Replicate the slug convention from gen_wiki_stubs.py."""
+    suffixes = [
+        " Hydropower Project", " Hydroelectric Project", " Hydro-Electric Project",
+        " Hydropower Project cascade project", "HEP", "HPP", "SHP", "HP",
+    ]
+    clean = (name or "").strip()
+    for sfx in suffixes:
+        if clean.endswith(sfx) and len(clean) - len(sfx) >= 3:
+            clean = clean[: -len(sfx)].rstrip()
+            break
+    return re.sub(r"[^a-z0-9]+", "-", clean.lower()).strip("-")
+
+
+def _merge_spec_fields(project_name: str, specs_lookup: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    """Return spec fields from the CSV for a project, matched by slug convention."""
+    if not specs_lookup:
+        return {}
+    slug = _project_name_to_slug(project_name)
+    row = specs_lookup.get(slug, {})
+    # Try alternate slugs for projects whose registry name differs from the
+    # canonical page slug (e.g. "Tanahu HEP" → registry slug "tanahu", wiki slug "tanahu-hydropower").
+    if not row:
+        aliases: dict[str, str] = {
+            "tanahu": "tanahu-hydropower",
+            "chameliya-khola": "chameliya-hydropower",
+            "solu-khola-dudha-koshi": "sahas-urja",
+        }
+        alt = aliases.get(slug)
+        if alt:
+            row = specs_lookup.get(alt, {})
+    # Only yield spec fields (skip slug/capacity_mw/river/status which duplicate registry).
+    skip = {"slug", "capacity_mw", "river", "status", "source_note", "last_updated"}
+    numeric_fields = {
+        "gross_head_m", "design_discharge_m3s", "headrace_tunnel_km", "dam_height_m",
+        "num_units", "unit_capacity_mw", "annual_design_energy_gwh", "dry_season_energy_gwh",
+        "dry_share_pct", "plant_load_factor_pct", "catchment_area_km2",
+        "environmental_release_m3s", "total_storage_mcm", "effective_storage_mcm",
+        "pumped_storage_mw", "total_cost_usd_m", "cost_per_mw_usd_m",
+        "ppa_rate_wet_npr_kwh", "ppa_rate_dry_npr_kwh", "concession_years",
+        "construction_start_year", "cod_year", "completion_pct",
+    }
+    out: dict[str, Any] = {}
+    for k, v in row.items():
+        if k is None or not isinstance(k, str):
+            continue
+        if k in skip:
+            continue
+        vs = str(v).strip()
+        if not vs:
+            continue
+        if k in numeric_fields:
+            try:
+                out[k] = float(vs) if "." in vs else int(vs)
+            except ValueError:
+                out[k] = vs
+        else:
+            out[k] = vs
+    return out
+
+
 def load_projects() -> list[dict[str, Any]]:
     data = read_geojson(RAW / "projects_storage" / "naxa_hydropower_projects.geojson")
     province_lookup = province_name_lookup(read_geojson(RAW / "maps" / "nepal_provinces.geojson"))
@@ -3100,6 +3177,15 @@ def load_projects() -> list[dict[str, Any]]:
             corrected = str(row.get("corrected_license_type", "")).strip()
             if name and corrected:
                 overrides[name] = corrected
+
+    # Load project technical specs from the curated CSV for enrichment.
+    specs_lookup: dict[str, dict[str, Any]] = {}
+    specs_path = ROOT / "data" / "project_specs.csv"
+    if specs_path.exists():
+        for row in read_csv_rows(specs_path):
+            slug = str(row.get("slug", "")).strip()
+            if slug:
+                specs_lookup[slug] = dict(row)
 
     rows: list[dict[str, Any]] = []
     for feature in data["features"]:
@@ -3126,6 +3212,7 @@ def load_projects() -> list[dict[str, Any]]:
                 "lon": lon,
                 "raw_lat": lat,
                 "raw_lon": lon,
+                **_merge_spec_fields(project_name, specs_lookup),
             }
         )
     return rows

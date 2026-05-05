@@ -195,6 +195,32 @@ def validate_tracked_hygiene() -> None:
         fail("tracked generated/clutter files:\n" + "\n".join(offenders[:50]))
 
 
+def validate_specs_csv(slugs: set[str]) -> None:
+    import csv as csv_module
+    specs_path = ROOT / "data" / "project_specs.csv"
+    if not specs_path.exists():
+        return
+    with specs_path.open(newline="", encoding="utf-8-sig") as f:
+        reader = csv_module.DictReader(f)
+        rows = list(reader)
+    if not rows:
+        fail("data/project_specs.csv is empty")
+    fieldnames = set(rows[0].keys())
+    if "slug" not in fieldnames:
+        fail("data/project_specs.csv missing required 'slug' column")
+    # Check required schema columns
+    required_cols = {"slug", "gross_head_m", "annual_design_energy_gwh", "project_type"}
+    missing = required_cols - fieldnames
+    if missing:
+        fail(f"data/project_specs.csv missing columns: {', '.join(sorted(missing))}")
+    # Collect referenced slugs and check against wiki pages
+    spec_slugs = {row.get("slug", "").strip() for row in rows if row.get("slug", "").strip()}
+    orphaned = spec_slugs - slugs
+    if orphaned:
+        print(f"WARNING: {len(orphaned)} specs CSV slugs with no wiki page: {', '.join(sorted(orphaned)[:20])}")
+    print(f"specs CSV: {len(spec_slugs)} project slugs, {len(fieldnames)} columns")
+
+
 def main() -> None:
     slugs = wiki_page_slugs()
     validate_wiki_links(slugs)
@@ -203,6 +229,7 @@ def main() -> None:
     validate_public_language()
     validate_map_manifest()
     validate_tracked_hygiene()
+    validate_specs_csv(slugs)
     print(f"OK: {len(slugs)} wiki pages, caches valid, map manifest valid, tracked hygiene clean")
 
 

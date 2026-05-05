@@ -3,6 +3,7 @@ title: Upper Tamakoshi
 type: entity
 created: 2026-04-14
 updated: 2026-05-02
+generator: specs-refresh
 sources: [nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [project, ror, operational, landmark, dolakha]
 images:
@@ -57,10 +58,45 @@ Nepal's **largest operating hydropower plant** at 456 MW. Located on the Tama Ko
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 456 MW |
-| Type | Run-of-River |
+| Status | Operating |
+| River | Tama Koshi (eastern [[koshi-basin]]) |
+| District | Dolakha |
+
+### Engineering
+With 822 m of gross head — among the highest in Nepal — Upper Tamakoshi concentrates one of the steepest river drops in the country through tunnels and penstocks to an underground powerhouse. This is the engineering archetype of Nepal's dominant hydro form: high-head diversion with no significant dam. See [[run-of-river-hydropower]].
+
+| Parameter | Value |
+|-----------|-------|
 | Gross head | 822 m |
 | Headrace tunnel | 7.2 km |
-| River | Tama Koshi (eastern [[koshi-basin]]) |
+| Underground powerhouse | Yes |
+| Type | Run-of-River |
+
+### Output
+Upper Tamakoshi's 2,281 GWh/yr design energy and 65% plant load factor set the benchmark for Nepal's RoR fleet. But actual generation has tracked below contracted levels — water flow in Spring 2023 collapsed to 45.12% of historical hydrological expectations, an example of the gap between design hydrology and operational reality explored in [[q-design-discharge]].
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 2,281 GWh |
+| Plant load factor | 65 % |
+
+### Financial
+Built at NPR 87 billion (~NPR 19–20 Cr/MW), financed 75/25 by debt, with first-year PPA at NPR 3.74/kWh wet and NPR 6.96/kWh dry — among the lowest tariffs in the sector. The structural gap between these rates and the project's debt service is the core of the [[nea-triple-authority]] problem. See the Financial Performance section below for the detailed breakdown.
+
+| Parameter | Value |
+|-----------|-------|
+| PPA rate (wet) | NPR 3.74/kWh |
+| PPA rate (dry) | NPR 6.96/kWh |
+| Debt/equity | 75/25 |
+
+### Schedule
+Commissioned in 2021 after roughly seven years of construction, Upper Tamakoshi was the plant that broke Nepal's load-shedding era. Compare with [[chameliya-hydropower]] — a 30 MW project that took 11 years — for a case study in execution risk.
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2021 |
+| Completion | 100 % |
+
 
 ## Significance
 

@@ -1323,59 +1323,6 @@
         "priority_watchlist"
       ]
     },
-    "nalsyau-gad-storage-hep": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "priority_watchlist",
-          "id": "nalsyau_gad_radar",
-          "primary": true
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Nalsyau Gad Storage HEP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "priority_watchlist"
-      ]
-    },
-    "mugu-karnali-storage-hep": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "priority_watchlist",
-          "id": "mugu_karnali_storage_radar",
-          "primary": true
-        },
-        {
-          "layer": "top_capacity",
-          "id": "top_project_1"
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Mugu Karnali Storage HEP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "priority_watchlist",
-        "top_capacity"
-      ]
-    },
     "arun-3": {
       "type": "entity",
       "category": "project",
@@ -1434,35 +1381,6 @@
         "top_capacity"
       ]
     },
-    "betan-karnali-hp": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "priority_watchlist",
-          "id": "betan_karnali_radar",
-          "primary": true
-        },
-        {
-          "layer": "top_capacity",
-          "id": "top_project_5"
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Betan Karnali HP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "priority_watchlist",
-        "top_capacity"
-      ]
-    },
     "phukot-karnali": {
       "type": "entity",
       "category": "project",
@@ -1505,12 +1423,26 @@
           "layer": "floating_pv_candidates",
           "id": "fpv_nalsyau_gad",
           "primary": true
+        },
+        {
+          "layer": "priority_watchlist",
+          "id": "nalsyau_gad_radar",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Nalsyau Gad Storage HEP"
+          }
         }
       ],
       "layers_on": [
         "country_outline",
         "tributaries",
-        "storage_shortlist"
+        "storage_shortlist",
+        "hydropower_survey",
+        "priority_watchlist"
       ]
     },
     "lower-badigad": {
@@ -1609,30 +1541,6 @@
         "storage_shortlist"
       ]
     },
-    "uttarganga-storage-hydropower-project": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "top_capacity",
-          "id": "top_project_4",
-          "primary": true
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Uttarganga Storage Hydropower Project"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "top_capacity"
-      ]
-    },
     "tamakoshi-3": {
       "type": "entity",
       "category": "project",
@@ -1647,54 +1555,6 @@
           "match": {
             "field": "project",
             "value": "Tamakoshi 3"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "top_capacity"
-      ]
-    },
-    "kimathanka-arun-hep": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "top_capacity",
-          "id": "top_project_8",
-          "primary": true
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Kimathanka Arun HEP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "top_capacity"
-      ]
-    },
-    "bheri-1-hep": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "top_capacity",
-          "id": "top_project_9",
-          "primary": true
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Bheri-1 HEP"
           }
         }
       ],
@@ -2009,25 +1869,6 @@
         "hydropower_construction"
       ]
     },
-    "lower-solu-hydropower-project": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Lower Solu Hydropower Project"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
     "madhya-bhotekoshi": {
       "type": "entity",
       "category": "project",
@@ -2313,25 +2154,6 @@
         "hydropower_survey"
       ]
     },
-    "bheri-2-hep": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Bheri-2 HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
     "chainpur-seti": {
       "type": "entity",
       "category": "project",
@@ -2341,82 +2163,6 @@
           "match": {
             "field": "project",
             "value": "Chainpur Seti"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "humla-karnali-1-hpp": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Humla Karnali 1 HPP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "humla-karnali-2-hpp": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Humla Karnali 2 HPP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "jagdulla-hep": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Jagdulla HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "lantang-khola-reservoir-hydropower-project": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Lantang Khola Reservoir Hydropower Project"
           },
           "primary": true
         }
@@ -2579,25 +2325,6 @@
         "hydropower_construction"
       ]
     },
-    "kasuwa-khola-hpp": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Kasuwa Khola HPP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
     "khani-khola-dolakha": {
       "type": "entity",
       "category": "project",
@@ -2626,25 +2353,6 @@
           "match": {
             "field": "project",
             "value": "Khani Khola - 1"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "khare-hydropower-project": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Khare Hydropower Project"
           },
           "primary": true
         }
@@ -2864,25 +2572,6 @@
         "hydropower_construction"
       ]
     },
-    "solu-hydropower-project": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Solu Hydropower Project"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
     "super-dordi-kha-hydropower-project": {
       "type": "entity",
       "category": "project",
@@ -2968,25 +2657,6 @@
           "match": {
             "field": "project",
             "value": "Upper Chaku A"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "upper-dordi-a-hep": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Upper Dordi A HEP"
           },
           "primary": true
         }
@@ -3663,30 +3333,6 @@
         "country_outline",
         "transmission_traced_network",
         "place_anchors"
-      ]
-    },
-    "nalsyau-gad-storage": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "priority_watchlist",
-          "id": "nalsyau_gad_radar",
-          "primary": true
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Nalsyau Gad Storage HEP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "priority_watchlist"
       ]
     },
     "mugu-karnali-storage": {

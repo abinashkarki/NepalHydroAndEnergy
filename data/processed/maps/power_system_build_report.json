@@ -440,18 +440,18 @@
   },
   "traced_transmission_segments": {
     "feature_count": 22,
-    "path": "./data/processed/maps/transmission_corridor_traced_segments.geojson"
+    "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_segments.geojson"
   },
   "connected_transmission_network": {
     "feature_count": 22,
-    "path": "./data/processed/maps/transmission_corridor_traced_network.geojson"
+    "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_corridor_traced_network.geojson"
   },
   "cross_border_interconnection_lines": {
     "feature_count": 10,
-    "path": "./data/processed/maps/cross_border_interconnection_lines.geojson"
+    "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/cross_border_interconnection_lines.geojson"
   },
   "transmission_trace_gaps": {
     "feature_count": 0,
-    "path": "./data/processed/maps/transmission_trace_gap_report.geojson"
+    "path": "/Users/hi/projects/nepalEnergy/data/processed/maps/transmission_trace_gap_report.geojson"
   }
 }

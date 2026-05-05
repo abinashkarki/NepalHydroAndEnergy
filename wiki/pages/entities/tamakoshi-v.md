@@ -2,7 +2,7 @@
 title: Tamakoshi V
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-05
 sources: [nea-transmission-annual-book-2077]
 tags: [project, under-construction, koshi, dolakha]
 images:

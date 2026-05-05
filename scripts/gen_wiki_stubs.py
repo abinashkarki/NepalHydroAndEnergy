@@ -120,6 +120,61 @@ BASIN_BY_RIVER: list[tuple[str, str]] = [
 
 SPEC_START = "<!-- generated:specs:start -->"
 SPEC_END = "<!-- generated:specs:end -->"
+SPECS_CSV = ROOT / "data" / "project_specs.csv"
+
+# Section → [(csv_column, display_label, suffix), ...]
+# Grouped by the user's chosen sections: Engineering / Output / Financial / Governance / Schedule.
+# Storage fields are a sub-section of Engineering (dam/reservoir specs).
+# Only sections with at least one non-empty value are rendered.
+SPEC_SECTIONS: list[tuple[str, list[tuple[str, str, str]]]] = [
+    ("Engineering", [
+        ("gross_head_m",            "Gross head",               " m"),
+        ("design_discharge_m3s",    "Design discharge",         " m³/s"),
+        ("headrace_tunnel_km",      "Headrace tunnel",          " km"),
+        ("dam_height_m",            "Dam height",               " m"),
+        ("dam_type",                "Dam type",                 ""),
+        ("num_units",               "Units",                    ""),
+        ("unit_capacity_mw",        "Unit capacity",            " MW"),
+        ("turbine_type",            "Turbine type",             ""),
+        ("underground_powerhouse",  "Underground powerhouse",   ""),
+        ("penstock_length_m",       "Penstock length",          " m"),
+        ("penstock_diameter_m",     "Penstock diameter",        " m"),
+        ("tailrace_length_m",       "Tailrace length",          " m"),
+    ]),
+    ("Storage", [
+        ("total_storage_mcm",       "Total storage",            " MCM"),
+        ("effective_storage_mcm",   "Effective storage",        " MCM"),
+        ("pumped_storage_mw",       "Pumped storage component", " MW"),
+    ]),
+    ("Output", [
+        ("annual_design_energy_gwh","Annual design energy",     " GWh"),
+        ("dry_season_energy_gwh",   "Dry-season energy",        " GWh"),
+        ("dry_share_pct",           "Dry-season share",         " %"),
+        ("plant_load_factor_pct",   "Plant load factor",        " %"),
+        ("q_design",                "Q-design",                 ""),
+        ("project_type",            "Type",                     ""),
+        ("catchment_area_km2",      "Catchment area",           " km²"),
+        ("environmental_release_m3s","Environmental release",   " m³/s"),
+    ]),
+    ("Financial", [
+        ("total_cost_usd_m",        "Total cost",               " million USD"),
+        ("cost_per_mw_usd_m",       "Cost per MW",              " million USD/MW"),
+        ("ppa_rate_wet_npr_kwh",    "PPA rate (wet)",           " NPR/kWh"),
+        ("ppa_rate_dry_npr_kwh",    "PPA rate (dry)",           " NPR/kWh"),
+        ("debt_equity_ratio",       "Debt/equity",              ""),
+    ]),
+    ("Governance", [
+        ("developer",               "Developer",                ""),
+        ("concession_type",         "Concession type",          ""),
+        ("lead_financier",          "Lead financier",           ""),
+        ("concession_years",        "Concession period",        " years"),
+    ]),
+    ("Schedule", [
+        ("construction_start_year", "Construction start",       ""),
+        ("cod_year",                "Commercial operation",     ""),
+        ("completion_pct",          "Completion",               " %"),
+    ]),
+]
 
 
 # --------------------------------------------------------------------------- #
@@ -302,7 +357,55 @@ def collect_targets(manifest: dict) -> dict[str, dict]:
 # --------------------------------------------------------------------------- #
 #  Stub rendering                                                              #
 # --------------------------------------------------------------------------- #
-def render_spec_block(entry: dict) -> str:
+def load_specs_csv() -> dict[str, dict[str, str]]:
+    """Read the project specs CSV and return {slug: {column: value}}."""
+    import csv as csv_module
+    if not SPECS_CSV.exists():
+        return {}
+    lookup: dict[str, dict[str, str]] = {}
+    with SPECS_CSV.open(newline="", encoding="utf-8-sig") as f:
+        reader = csv_module.DictReader(f)
+        for row in reader:
+            slug = (row.get("slug") or "").strip()
+            if slug:
+                # Filter out None keys (artifacts from trailing commas) and empty values.
+                lookup[slug] = {
+                    k.strip(): str(v).strip()
+                    for k, v in row.items()
+                    if k is not None and k.strip() and str(v).strip()
+                }
+    return lookup
+
+
+def _render_sectioned_specs(slug: str, specs_lookup: dict[str, dict[str, str]]) -> str | None:
+    """Return sectioned spec sub-tables for a slug, or None if no specs exist."""
+    if not specs_lookup or slug not in specs_lookup:
+        return None
+    row = specs_lookup[slug]
+    blocks: list[str] = []
+    for section_name, fields in SPEC_SECTIONS:
+        rows_out: list[str] = []
+        for col, label, suffix in fields:
+            val = row.get(col)
+            if val is None or val == "":
+                continue
+            # Format display value
+            display = val
+            try:
+                if suffix and "." in val:
+                    # Check if it looks like a number with decimal
+                    float(val)
+            except ValueError:
+                pass
+            if suffix:
+                display = f"{val}{suffix}"
+            rows_out.append(f"| {label} | {display} |")
+        if rows_out:
+            blocks.append(f"### {section_name}\n\n| Parameter | Value |\n|-----------|-------|\n" + "\n".join(rows_out))
+    return "\n\n".join(blocks) if blocks else None
+
+
+def render_spec_block(entry: dict, specs_lookup: dict[str, dict[str, str]] | None = None) -> str:
     p = entry["props"]
     rows: list[tuple[str, str]] = []
     cap = fmt_capacity(p.get("capacity_mw") or p.get("installed_mw"))
@@ -340,11 +443,20 @@ def render_spec_block(entry: dict) -> str:
     lines = [SPEC_START, "", "## Specifications", "", "| Parameter | Value |", "|-----------|-------|"]
     for k, v in rows:
         lines.append(f"| {k} | {v} |")
-    lines += ["", SPEC_END]
+    lines.append("")
+
+    # Append sectioned specs from the project_specs.csv if available.
+    slug = slugify(clean_project_name(entry["name"]))
+    sectioned = _render_sectioned_specs(slug, specs_lookup)
+    if sectioned:
+        lines.append(sectioned)
+        lines.append("")
+
+    lines.append(SPEC_END)
     return "\n".join(lines)
 
 
-def render_stub(slug: str, entry: dict) -> str:
+def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] | None = None) -> str:
     p = entry["props"]
     title = titlecase(entry["name"])
     today = dt.date.today().isoformat()
@@ -399,7 +511,7 @@ def render_stub(slug: str, entry: dict) -> str:
         "",
         lead,
         "",
-        render_spec_block(entry),
+        render_spec_block(entry, specs_lookup),
         "",
         "## Notes",
         "",
@@ -529,12 +641,12 @@ def is_auto_stub(md_path: Path) -> bool:
     end = text.find("\n---", 4)
     if end == -1:
         return False
-    return re.search(r"^generator:\s*auto-stub\s*$", text[4:end], re.MULTILINE) is not None
+    return re.search(r"^generator:\s*(auto-stub|specs-refresh)\s*$", text[4:end], re.MULTILINE) is not None
 
 
-def refresh_spec_block(md_path: Path, entry: dict) -> bool:
+def refresh_spec_block(md_path: Path, entry: dict, specs_lookup: dict[str, dict[str, str]] | None = None) -> bool:
     text = md_path.read_text(encoding="utf-8")
-    new_block = render_spec_block(entry)
+    new_block = render_spec_block(entry, specs_lookup)
     if SPEC_START in text and SPEC_END in text:
         pattern = re.compile(re.escape(SPEC_START) + r".*?" + re.escape(SPEC_END), re.DOTALL)
         new_text = pattern.sub(new_block, text, count=1)
@@ -556,10 +668,13 @@ def main():
     bindings = json.loads(BINDINGS.read_text(encoding="utf-8"))
     existing = existing_slug_set()
     targets = collect_targets(manifest)
+    specs_lookup = load_specs_csv()
 
     print(f"collected {len(targets)} target slugs across {len(TARGETS)} layers")
     print(f"existing wiki pages: {len(existing)}")
     print(f"existing bindings:   {len(bindings.get('pages', {}))}")
+    if specs_lookup:
+        print(f"specs CSV entries:   {len(specs_lookup)}")
 
     # Classify
     to_create, to_skip_alias, to_refresh, already_covered = [], [], [], []
@@ -591,7 +706,7 @@ def main():
     if to_create and args.write:
         for slug in to_create:
             path = ENTITIES / f"{slug}.md"
-            md = render_stub(slug, targets[slug])
+            md = render_stub(slug, targets[slug], specs_lookup)
             path.write_text(md, encoding="utf-8")
             created_count += 1
         print(f"wrote {created_count} new stubs -> wiki/pages/entities/")
@@ -605,7 +720,7 @@ def main():
     if args.refresh_specs and to_refresh:
         refreshed = 0
         for slug in to_refresh:
-            if refresh_spec_block(ENTITIES / f"{slug}.md", targets[slug]):
+            if refresh_spec_block(ENTITIES / f"{slug}.md", targets[slug], specs_lookup):
                 refreshed += 1
         print(f"refreshed spec block in {refreshed}/{len(to_refresh)} auto-stubs")
 

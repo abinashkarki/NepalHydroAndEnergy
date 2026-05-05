@@ -2,7 +2,7 @@
 title: Khimti -I
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-05
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, operating, dolakha]
 images:

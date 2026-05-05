@@ -42,6 +42,21 @@ The 60 MW Khimti RoR plant in Dolakha is documented (by a sediment engineering p
 
 Khimti demonstrates Nepal is **capable** of best practice. The problem is that best practice is **not consistently embedded** across the buildout, especially when intake land constraints and cost pressure force compromises.
 
+## Kulekhani — Nepal's only reservoir, 30% silted
+
+Nepal's single reservoir storage system, [[kulekhani-cascade]], provides the country's only domestic case study of what sedimentation does to Himalayan reservoir capacity over decades. The JICA Storage Master Plan (Vol. 1, 2014), citing a sediment survey by Sangroula (2007), reports:
+
+| Parameter | Value |
+|-----------|-------|
+| Original reservoir capacity | 85.3 MCM |
+| Cumulative sediment by 2010 | 25.3 MCM |
+| Capacity loss (28 years) | ~30% |
+| Specific sediment yield | 7,437 m³/km²/yr |
+
+The elevated rate is attributed to three large-scale floods in 1984, 1986, and 1993 — the kind of extreme precipitation events that climate projections suggest will intensify. Countermeasures (sediment control dam, sloping intake, proposed hydrosuction system) have been deployed, but no updated capacity survey has been located in any accessible source.
+
+Kulekhani's 30% loss is the **baseline expectation** for future reservoir projects in Himalayan catchments — not a worst case. Every storage proposal in Nepal's pipeline ([[tanahu-hydropower]], [[dudhkoshi-storage]], [[budhigandaki]]) will face the same physical reality. If Kulekhani's rate (~1.1%/yr linearised) applies, a reservoir with a 50-year design life needs to plan for losing half its original capacity. That means either building in excess capacity from day one, or accepting that the reservoir's economic life ends before the financial model assumes. See [[storage-deficit]].
+
 ## Forced outages: sediment's operational footprint
 
 A Nepal engineering study analyzing five years of operational data for four utility-owned PRoR plants identifies the distribution of forced outages by cause. **80% of forced outages** were driven by turbine, generator, and excitation system failures — exactly the components most exposed to sediment abrasion. Availability figures look high on paper (~99% range), but the recurring failure modes point to a fleet operating under chronic stress from its operating environment.

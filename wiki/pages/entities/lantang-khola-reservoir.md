@@ -2,7 +2,7 @@
 title: Lantang Khola Reservoir Hydropower Project
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-05
 sources: []
 tags: [project, survey, rasuwa]
 images: []

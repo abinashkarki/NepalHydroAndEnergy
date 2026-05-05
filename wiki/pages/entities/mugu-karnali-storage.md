@@ -3,6 +3,7 @@ title: Mugu Karnali Storage HEP
 type: entity
 created: 2026-04-20
 updated: 2026-04-20
+generator: specs-refresh
 sources: [mugu-karnali-feasibility-2025]
 tags: [project, watchlist, top-capacity, survey, karnali, mugu, bajura, storage, pumped-storage, vuc, ppp]
 images:
@@ -34,17 +35,43 @@ the other top-10 anchor projects.
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 1,902 MW |
-| Type | **Storage / pumped-storage** reservoir |
-| Turbines | 10 × Francis units |
-| Gross head | ~285 m |
 | Status | Pre-feasibility; PPP bidding underway |
 | River | Karnali ([[karnali-basin]]) |
 | District | Mugu (registry primary); Bajura referenced in early materials |
 | Province | Karnali Pradesh |
-| Developer | Vidhyut Utpadan Company Limited (VUCL / VUC) |
-| Design annual energy | ~5,883 GWh |
-| PPP structure | VUC seeking 51% partnership stake |
-| Schedule | Construction ~2030, COD target ~2034 |
+
+### Engineering
+At 1,902 MW with 10 Francis units and ~285 m gross head, Mugu Karnali would be Nepal's largest generation asset — by itself larger than the country's entire current operating fleet. The storage / pumped-storage design makes it a grid-scale balancing asset: it can time-shift energy across daily and seasonal scales, the structural answer to [[seasonal-mismatch]] that Nepal has not yet built. All parameters are screening-level estimates subject to bankable feasibility revision.
+
+| Parameter | Value |
+|-----------|-------|
+| Units | 10 × Francis |
+| Gross head | ~285 m |
+| Type | Storage / Pumped-storage |
+
+### Output
+Design annual energy of ~5,883 GWh — the largest single-project energy contribution in Nepal's planning universe. The storage design means this energy can be concentrated in dry-season months and peak hours. The transmission evacuation challenge for 1,902 MW from the head of the Karnali is not yet resolved: see [[stranded-generation]].
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 5,883 GWh |
+
+### Governance
+Vidhyut Utpadan Company Limited (VUCL), a state-owned developer, is seeking a 51% PPP partnership. Expressions of interest from India's Adani Group and Bangladesh's Chowdhury Group make this the project where "who builds Nepal's biggest reservoirs?" becomes concrete. See [[hydro-geopolitics]].
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Vidhyut Utpadan Company Limited (VUCL) |
+| Concession type | PPP (51% partnership sought) |
+
+### Schedule
+Targeted for construction from ~2030 with COD ~2034, Mugu Karnali sits outside the 5-year planning window most NEA decisions use. Every dry season until then must be managed without it.
+
+| Parameter | Value |
+|-----------|-------|
+| Construction start | 2030 (target) |
+| Commercial operation | 2034 (target) |
+
 
 ## Significance
 

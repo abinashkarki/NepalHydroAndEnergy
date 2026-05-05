@@ -2,7 +2,7 @@
 title: Chilime
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-05
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
 tags: [project, operating, rasuwa]
 images:
@@ -31,7 +31,7 @@ images:
     credit: "Nepal Electricity Authority, A Year in Review FY 2024/25"
     license: gov-permissive
     source_url: "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
-generator: auto-stub
+generator: specs-refresh
 ---
 
 # Chilime
@@ -59,6 +59,27 @@ generator: auto-stub
 | River | Chilime |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |
+
+### Output
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 132.9 GWh |
+| Q-design | Q65+ |
+| Type | RoR |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Chilime Hydropower Company Limited |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2003 |
+| Completion | 100 % |
 
 <!-- generated:specs:end -->
 
@@ -121,7 +142,7 @@ Despite being routinely invoked to justify mass public equity participation in h
 
    > "The major complaint of the rising IPPs is that the playing field is not level, that NEA as generator, transmitter and distributor gives preferential terms to its own projects compared to IPPs; and indeed, this is seen in the case of the Chilime hydropower company that is owned by the NEA and its staff."
 
-   Citation: Fenner School of Environment and Society, ANU. URL: https://fennerschool.anu.edu.au/files/Nepal%20State%20of%20Knowledge%20Report%20-%20Renewables%20%26%20PSH.pdf. [REQUIRES EXACT CITATION: page number unconfirmed — quote verified by text extraction.]
+   Citation: Fenner School of Environment and Society, ANU, *Nepal State of Knowledge Report — Renewables & PSH*, p. 20. URL: https://fennerschool.anu.edu.au/files/Nepal%20State%20of%20Knowledge%20Report%20-%20Renewables%20%26%20PSH.pdf.
 
    See [[ppa-pricing]] for the full rate comparison table and [[nea-triple-authority]] for the institutional framework.
 

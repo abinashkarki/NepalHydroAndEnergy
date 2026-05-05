@@ -3,6 +3,7 @@ title: Tanahu Hydropower Project
 type: entity
 created: 2026-04-14
 updated: 2026-04-20
+generator: specs-refresh
 sources: [tanahu-adb-status-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [project, storage, under-construction, gandaki, seti, adb-financed, tanahu]
 images:
@@ -68,14 +69,36 @@ buffer-zone compensation.
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 140 MW |
-| Type | **Reservoir (storage)** |
-| Status | ~67% complete (NEA FY 2024/25), Dec 2024 ADB monitoring ongoing |
+| Status | Under construction — ~67% complete (FY 2024/25) |
 | River | Seti ([[gandaki-basin]]) |
 | District | Tanahu |
-| Main dam | 140 m high roller-compacted concrete |
-| Powerhouse | Underground |
+
+### Engineering
+A 140 m RCC dam with an underground powerhouse — the only large dam-and-reservoir project actually in active construction in Nepal. Tanahu is proof-of-concept: if it completes, [[dudhkoshi-storage]] and [[budhigandaki]] become easier to finance because the conversation no longer begins "Nepal has never built a large reservoir since 1982."
+
+| Parameter | Value |
+|-----------|-------|
+| Dam height | 140 m |
+| Dam type | RCC |
+| Underground powerhouse | Yes |
+| Type | Storage |
 | Owner | [[nea]] |
+
+### Governance
+ADB-financed, NEA-owned, and shadowed by two Accountability Mechanism complaints (2024 and 2025) over land and buffer-zone compensation. The complaints flag untitled-land registration, free prior informed consent, and demarcation issues. See [[buildability]].
+
+| Parameter | Value |
+|-----------|-------|
 | Lead financier | Asian Development Bank |
+| Developer | NEA |
+
+### Schedule
+~67% complete after roughly ten years of construction — slower than comparable multilateral projects elsewhere. Each additional year of delay compounds NEA's dry-season exposure, since Tanahu is counted in medium-term planning to arrive before the [[seasonal-mismatch]] pressure peaks.
+
+| Parameter | Value |
+|-----------|-------|
+| Completion | ~67 % |
+
 
 ## Significance
 

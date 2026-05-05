@@ -12,21 +12,51 @@ generator: manual
 
 30 MW Peaking Run-of-River (PROR) project on the Chameliya River, Darchula District, Sudurpashchim Province. Directly owned and operated by the Nepal Electricity Authority — not an independent corporate entity. This page exists as the wiki's primary case study in state capital inefficiency and the structural asymmetry between NEA's internal cost accounting for its own assets versus the rigid PPA caps it imposes on private developers.
 
-## Project Specifications
+## Specifications
 
 | Parameter | Value |
-|---|---|
+|-----------|-------|
 | Capacity | 30 MW |
-| Type | Peaking Run-of-River (PROR) — 6-hour regulating pondage |
+| Status | Operating |
 | River | Chameliya River (Mahakali Basin) |
 | District | Darchula, Sudurpashchim Province |
+| Entity type | Direct NEA-owned generation asset |
+
+### Engineering
+A peaking run-of-river design with 6-hour regulating pondage. The 103.7 m gross head and 36 m³/s design discharge define its hydraulic envelope. But Chameliya's engineering significance is not in its design parameters — it is in the catastrophic failure of its headrace tunnel construction.
+
+| Parameter | Value |
+|-----------|-------|
 | Gross head | 103.7 m |
 | Design discharge | 36 m³/s |
-| Annual design generation | 184.2 GWh |
-| Entity type | Direct NEA-owned generation asset |
-| COD | February 10, 2018 |
+| Type | PROR (6-hour regulating pondage) |
 
-Source: NEA Generation Directorate Report 2080/2081 (16th Issue, 2024).
+### Output
+Annual design generation of 184.2 GWh. Actual generation for FY2080/81: 133,968 MWh. The gap is not a hydrological design issue — it is an operational reality of a plant built at extreme cost, commissioned a decade late.
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 184.2 GWh |
+| FY2080/81 actual | 133,968 MWh |
+
+### Financial
+Chameliya is the wiki's primary case study in state capital inefficiency. Built at USD 226 million for 30 MW — **$7.5 million/MW**, roughly 3–5× the global benchmark. For context, [[sahas-urja]] (86 MW, private IPP) was built at ~NPR 172–175 million/MW (~$1.3–1.4 million/MW). The headrace tunnel collapse and decade-long delay drove costs to levels no private developer could survive.
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | ~USD 226 million |
+| Cost per MW | ~$7.5 million/MW |
+| Lead financier | NEA (sovereign) + China Gezhouba Group (civil) + Korea Hydro (EM) |
+
+### Schedule
+Eleven years from civil works start (2007) to COD (2018), against an original target of June 2011. This is the definitive cautionary example for [[buildability]]. Compare with [[upper-tamakoshi]] (~7 years) and [[tanahu-hydropower]] (still incomplete after ~10 years).
+
+| Parameter | Value |
+|-----------|-------|
+| Construction start | 2007 |
+| COD | February 10, 2018 |
+| Original COD target | June 2011 |
+
 
 ## The Decade-Long Construction Crisis
 

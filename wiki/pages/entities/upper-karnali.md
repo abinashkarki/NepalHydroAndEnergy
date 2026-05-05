@@ -3,6 +3,7 @@ title: Upper Karnali
 type: entity
 created: 2026-04-20
 updated: 2026-04-20
+generator: specs-refresh
 sources: [upper-karnali-pda-record, jica-ipsdp-main-report-vol2]
 tags: [project, watchlist, top-capacity, survey, karnali, surkhet, dailekh, achham, india-developed, export-project, stalled]
 images:
@@ -30,16 +31,38 @@ in more than a decade.
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 900 MW |
-| Status | Survey / pre-construction (as of 2026, financial closure approaching) |
-| Type | Run-of-river |
+| Status | Survey / pre-construction (financial closure approaching 2026) |
 | River | Karnali ([[karnali-basin]]) |
-| Districts | Surkhet, Dailekh, Achham (registry lists Surkhet) |
+| Districts | Surkhet, Dailekh, Achham |
 | Province | Karnali Pradesh |
-| Sponsor | GMR Upper Karnali Hydropower Limited |
-| Design annual energy | ~3,466 GWh |
-| Planned export share | ~88% |
 | Licence awarded | 2008, via international competitive bidding |
+
+### Output
+Design annual energy of ~3,466 GWh with ~88% planned for export — primarily to India, with a Bangladesh PPA live since 2017 (quoted figures ranging from 200–500 MW). This is the canonical export-first model that [[arun-3]] is executing and Upper Karnali has not. The Bangladesh component makes Upper Karnali the test case for Nepal's "second neighbour" trade strategy — but no PPA has yet closed.
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 3,466 GWh |
+| Planned export share | ~88% |
+| Type | Run-of-River |
+
+### Governance
+The equity stack tells the project's evolution: GMR (original 2008 sponsor), plus SJVN, IREDA, and NEA — Indian state entities stepping into a project the original private sponsor could not alone finance. This is a structural change in what "India-developed" means in Nepal. See [[hydro-geopolitics]].
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | GMR Upper Karnali Hydropower Limited |
 | Equity (2026) | GMR + SJVN + IREDA + NEA |
+| Concession type | PDA (international competitive bidding, 2008) |
+
+### Schedule
+Eighteen years since the 2008 licence award. The Supreme Court ultimately ruled against open-ended extensions, granting only a 186-day allowance. Compare with [[arun-3]] (same era, 74.6% complete, COD 2026): the contract is not the product, execution is. See [[buildability]] and [[stranded-generation]].
+
+| Parameter | Value |
+|-----------|-------|
+| Completion | ~0% (financial closure not yet achieved) |
+| Construction | Not started |
+
 
 ## Significance
 

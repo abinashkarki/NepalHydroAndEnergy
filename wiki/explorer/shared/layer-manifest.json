@@ -391,6 +391,9 @@
       "popup_fields": [
         {"field": "license_type", "label": "Status"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
+        {"field": "project_type", "label": "Type"},
+        {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
+        {"field": "turbine_type", "label": "Turbine"},
         "river",
         "district",
         "province"
@@ -411,6 +414,28 @@
           {
             "label": "Province",
             "field": "province"
+          },
+          {
+            "label": "Type",
+            "field": "project_type"
+          },
+          {
+            "label": "Design energy",
+            "field": "annual_design_energy_gwh",
+            "suffix": " GWh"
+          },
+          {
+            "label": "Turbine",
+            "field": "turbine_type"
+          },
+          {
+            "label": "Gross head",
+            "field": "gross_head_m",
+            "suffix": " m"
+          },
+          {
+            "label": "Commercial operation",
+            "field": "cod_year"
           },
           {
             "label": "Match basis",
@@ -452,6 +477,9 @@
       "popup_fields": [
         {"field": "license_type", "label": "Status"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
+        {"field": "project_type", "label": "Type"},
+        {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
+        {"field": "turbine_type", "label": "Turbine"},
         "river",
         "district",
         "province"
@@ -472,6 +500,28 @@
           {
             "label": "Province",
             "field": "province"
+          },
+          {
+            "label": "Type",
+            "field": "project_type"
+          },
+          {
+            "label": "Design energy",
+            "field": "annual_design_energy_gwh",
+            "suffix": " GWh"
+          },
+          {
+            "label": "Turbine",
+            "field": "turbine_type"
+          },
+          {
+            "label": "Gross head",
+            "field": "gross_head_m",
+            "suffix": " m"
+          },
+          {
+            "label": "Commercial operation",
+            "field": "cod_year"
           },
           {
             "label": "Match basis",
@@ -513,6 +563,9 @@
       "popup_fields": [
         {"field": "license_type", "label": "Status"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
+        {"field": "project_type", "label": "Type"},
+        {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
+        {"field": "turbine_type", "label": "Turbine"},
         "river",
         "district",
         "province"
@@ -533,6 +586,28 @@
           {
             "label": "Province",
             "field": "province"
+          },
+          {
+            "label": "Type",
+            "field": "project_type"
+          },
+          {
+            "label": "Design energy",
+            "field": "annual_design_energy_gwh",
+            "suffix": " GWh"
+          },
+          {
+            "label": "Turbine",
+            "field": "turbine_type"
+          },
+          {
+            "label": "Gross head",
+            "field": "gross_head_m",
+            "suffix": " m"
+          },
+          {
+            "label": "Commercial operation",
+            "field": "cod_year"
           },
           {
             "label": "Match basis",
