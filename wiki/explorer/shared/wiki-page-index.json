@@ -18,6 +18,18 @@
         "title": "Arun-3 Project Status & PDA Summary (2025)"
       },
       {
+        "slug": "care-ratings-sanima-mai",
+        "title": "CARE Ratings Nepal \u2014 Sanima Mai Hydropower Credit Assessments"
+      },
+      {
+        "slug": "chilime-annual-report-fy2078-79",
+        "title": "Chilime Hydropower Company Limited Annual Report FY 2078/79"
+      },
+      {
+        "slug": "doed-licensing-directive-2075",
+        "title": "DoED Licensing Directive 2075 \u2014 Hydropower Project Licensing"
+      },
+      {
         "slug": "dudhkoshi-nea-proposal-2024",
         "title": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record"
       },
@@ -110,6 +122,10 @@
         "title": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)"
       },
       {
+        "slug": "ukhl-annual-report",
+        "title": "UKHLL Annual Reports \u2014 Upper Tamakoshi Hydropower Limited"
+      },
+      {
         "slug": "ukhl-financials-generation-fy2079-82",
         "title": "UKHLL Financials and Generation Data \u2014 FY 2079/80 to FY 2081/82"
       },
@@ -118,7 +134,7 @@
         "title": "Upper Karnali \u2014 PDA, Financial Closure & Court Record"
       },
       {
-        "slug": "urja-khabar-ipp-generation-audit",
+        "slug": "urja-khabar-generation-audit",
         "title": "Urja Khabar Generation Audit \u2014 IPP Generation vs Contracted"
       },
       {
@@ -144,6 +160,10 @@
       {
         "slug": "wb-water-sector-diagnostic",
         "title": "World Bank Nepal Water Sector Diagnostic"
+      },
+      {
+        "slug": "wecs-dhm-1990-methodology",
+        "title": "WECS/DHM Methodology \u2014 Hydrological Estimation for Ungauged Locations (1990)"
       },
       {
         "slug": "wecs-energy-synopsis-2024",
@@ -1400,6 +1420,9 @@
     "adb-hydropower-growth-nepal",
     "aepc-renewable-framework",
     "arun-3-project-status-2025",
+    "care-ratings-sanima-mai",
+    "chilime-annual-report-fy2078-79",
+    "doed-licensing-directive-2075",
     "dudhkoshi-nea-proposal-2024",
     "eib-rural-solar-phase2",
     "global-solar-atlas-nepal",
@@ -1423,15 +1446,17 @@
     "sahas-urja-benchmark-icra-2026",
     "sector-financial-analysis-triple-authority-2026",
     "tanahu-adb-status-2025",
+    "ukhl-annual-report",
     "ukhl-financials-generation-fy2079-82",
     "upper-karnali-pda-record",
-    "urja-khabar-ipp-generation-audit",
+    "urja-khabar-generation-audit",
     "wb-country-economic-memo-2025",
     "wb-esmap-solar-resource-assessment",
     "wb-ganges-strategic-basin-assessment",
     "wb-grid-solar-ee-project",
     "wb-nepal-power-sector-reform-2022",
     "wb-water-sector-diagnostic",
+    "wecs-dhm-1990-methodology",
     "wecs-energy-synopsis-2024",
     "wecs-hydropower-potential-2019",
     "wecs-river-basin-plan-2024",
@@ -1747,6 +1772,9 @@
     "adb-hydropower-growth-nepal": "sources",
     "aepc-renewable-framework": "sources",
     "arun-3-project-status-2025": "sources",
+    "care-ratings-sanima-mai": "sources",
+    "chilime-annual-report-fy2078-79": "sources",
+    "doed-licensing-directive-2075": "sources",
     "dudhkoshi-nea-proposal-2024": "sources",
     "eib-rural-solar-phase2": "sources",
     "global-solar-atlas-nepal": "sources",
@@ -1770,15 +1798,17 @@
     "sahas-urja-benchmark-icra-2026": "sources",
     "sector-financial-analysis-triple-authority-2026": "sources",
     "tanahu-adb-status-2025": "sources",
+    "ukhl-annual-report": "sources",
     "ukhl-financials-generation-fy2079-82": "sources",
     "upper-karnali-pda-record": "sources",
-    "urja-khabar-ipp-generation-audit": "sources",
+    "urja-khabar-generation-audit": "sources",
     "wb-country-economic-memo-2025": "sources",
     "wb-esmap-solar-resource-assessment": "sources",
     "wb-ganges-strategic-basin-assessment": "sources",
     "wb-grid-solar-ee-project": "sources",
     "wb-nepal-power-sector-reform-2022": "sources",
     "wb-water-sector-diagnostic": "sources",
+    "wecs-dhm-1990-methodology": "sources",
     "wecs-energy-synopsis-2024": "sources",
     "wecs-hydropower-potential-2019": "sources",
     "wecs-river-basin-plan-2024": "sources",
@@ -2094,6 +2124,9 @@
     "adb-hydropower-growth-nepal": "ADB Hydropower Growth Nepal Study",
     "aepc-renewable-framework": "AEPC Renewable Framework and Progress Reports",
     "arun-3-project-status-2025": "Arun-3 Project Status & PDA Summary (2025)",
+    "care-ratings-sanima-mai": "CARE Ratings Nepal \u2014 Sanima Mai Hydropower Credit Assessments",
+    "chilime-annual-report-fy2078-79": "Chilime Hydropower Company Limited Annual Report FY 2078/79",
+    "doed-licensing-directive-2075": "DoED Licensing Directive 2075 \u2014 Hydropower Project Licensing",
     "dudhkoshi-nea-proposal-2024": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record",
     "eib-rural-solar-phase2": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
     "global-solar-atlas-nepal": "Global Solar Atlas (Nepal coverage)",
@@ -2117,15 +2150,17 @@
     "sahas-urja-benchmark-icra-2026": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) \u2014 Benchmark IPP Success\"",
     "sector-financial-analysis-triple-authority-2026": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)",
+    "ukhl-annual-report": "UKHLL Annual Reports \u2014 Upper Tamakoshi Hydropower Limited",
     "ukhl-financials-generation-fy2079-82": "UKHLL Financials and Generation Data \u2014 FY 2079/80 to FY 2081/82",
     "upper-karnali-pda-record": "Upper Karnali \u2014 PDA, Financial Closure & Court Record",
-    "urja-khabar-ipp-generation-audit": "Urja Khabar Generation Audit \u2014 IPP Generation vs Contracted",
+    "urja-khabar-generation-audit": "Urja Khabar Generation Audit \u2014 IPP Generation vs Contracted",
     "wb-country-economic-memo-2025": "World Bank Nepal Country Economic Memorandum (2025)",
     "wb-esmap-solar-resource-assessment": "World Bank ESMAP Nepal Solar and Wind Resource Measurement",
     "wb-ganges-strategic-basin-assessment": "World Bank Ganges Strategic Basin Assessment",
     "wb-grid-solar-ee-project": "World Bank Grid Solar and Energy Efficiency Project",
     "wb-nepal-power-sector-reform-2022": "World Bank Nepal Power Sector Reform Roadmap (2022)",
     "wb-water-sector-diagnostic": "World Bank Nepal Water Sector Diagnostic",
+    "wecs-dhm-1990-methodology": "WECS/DHM Methodology \u2014 Hydrological Estimation for Ungauged Locations (1990)",
     "wecs-energy-synopsis-2024": "WECS Energy Sector Synopsis Report 2024",
     "wecs-hydropower-potential-2019": "WECS Assessment of Hydropower Potential of Nepal (2019)",
     "wecs-river-basin-plan-2024": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
@@ -2436,5 +2471,5 @@
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 345
+  "totalPages": 350
 }
