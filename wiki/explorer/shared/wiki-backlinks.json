@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 256,
-  "total_refs": 1956,
+  "total_refs": 1968,
   "backlinks": {
     "ad-penalties": [
       {
@@ -199,7 +199,7 @@
         "slug": "q-design-discharge",
         "title": "Q-Design Discharge",
         "category": "concepts",
-        "context": "…ct the subsidiary rate advantage documented conceptually in nea-triple-authority. Chilime's 2010 IPO occurred **after seven years of profit…",
+        "context": "…billing-architecture subsidy, documented in [[chilime]] and nea-triple-authority. Chilime's 2010 IPO occurred **after seven years of profit…",
         "target_exists": true
       },
       {
@@ -293,6 +293,13 @@
         "title": "Khimti -I",
         "category": "entities",
         "context": "…PPA regime structurally inadequate for long-tenor debt. See ppa-pricing. ## Generation — 103% of Contracted Over 25 Years HPL's c…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-1",
+        "title": "Likhu -1",
+        "category": "entities",
+        "context": "…ded-generation]] — the grid evacuation bottleneck problem - ppa-pricing — the take-and-pay revenue risk at the cascade level - [[ko…",
         "target_exists": true
       },
       {
@@ -501,10 +508,24 @@
         "target_exists": true
       },
       {
+        "slug": "likhu-1",
+        "title": "Likhu -1",
+        "category": "entities",
+        "context": "…spatch in dry season, Indian export in monsoon surplus. See buildability. ## See also - [[likhu-2]] — downstream 55 MW plant, stra…",
+        "target_exists": true
+      },
+      {
         "slug": "likhu-2",
         "title": "Likhu -2",
         "category": "entities",
         "context": "…s not ready for the private generation it had approved. See buildability. ## The Recovery — Grid Fixed, Plant Proved In late 2023,…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-4",
+        "title": "Likhu-4",
+        "category": "entities",
+        "context": "…he only completed project that has already absorbed it. See buildability and [[stranded-generation]]. ## The Desanding Basin Collap…",
         "target_exists": true
       },
       {
@@ -1431,6 +1452,13 @@
         "target_exists": true
       },
       {
+        "slug": "likhu-4",
+        "title": "Likhu-4",
+        "category": "entities",
+        "context": "…r-corridor]] — the 220 kV backbone the cascade depends on - arun-3 — the India-developed export archetype Likhu-4's original d…",
+        "target_exists": true
+      },
+      {
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
@@ -1824,6 +1852,20 @@
         "title": "Inaruwa–Purnea 400 kV Cross-Border Interconnection",
         "category": "entities",
         "context": "…he Indian market at rated capacity — a direct instance of stranded-generation. - **Third 400 kV cross-border.** Combined with [[dhalkeb…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-1",
+        "title": "Likhu -1",
+        "category": "entities",
+        "context": "…design-discharge]] — cascade performance vs design energy - stranded-generation — the grid evacuation bottleneck problem - [[ppa-pricing]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-4",
+        "title": "Likhu-4",
+        "category": "entities",
+        "context": "…ject that has already absorbed it. See [[buildability]] and stranded-generation. ## The Desanding Basin Collapse — Commissioning Catastrop…",
         "target_exists": true
       },
       {
@@ -3897,7 +3939,7 @@
         "slug": "likhu-1",
         "title": "Likhu -1",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
+        "context": "…MW | | Status | Operating | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
         "target_exists": true
       },
       {
@@ -3925,7 +3967,7 @@
         "slug": "likhu-4",
         "title": "Likhu-4",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Bagmati Pradesh |…",
+        "context": "…MW | | Status | Operating | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Bagmati Pradesh |…",
         "target_exists": true
       },
       {
@@ -6749,10 +6791,24 @@
         "target_exists": true
       },
       {
+        "slug": "likhu-1",
+        "title": "Likhu -1",
+        "category": "entities",
+        "context": "…]] — transmission planning failure as structural IPP risk - q-design-discharge — cascade performance vs design energy - [[stranded-generat…",
+        "target_exists": true
+      },
+      {
         "slug": "likhu-2",
         "title": "Likhu -2",
         "category": "entities",
         "context": "…rformance data, alongside projects genuinely failing due to q-design-discharge optimism. **This appearance is misleading.** CARE Ratings…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-4",
+        "title": "Likhu-4",
+        "category": "entities",
+        "context": "…] — when the grid cannot receive what the plant generates - q-design-discharge — Likhu-4's generation data in context - [[koshi-basin]] —…",
         "target_exists": true
       },
       {
@@ -6839,6 +6895,13 @@
         "title": "Likhu Cascade Research Compilation",
         "category": "sources",
         "context": "…, all sharing New Khimti evacuation corridor ## Used by - likhu-2 - [[q-design-discharge]] - [[buildability]] - [[stranded-ge…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-1",
+        "title": "Likhu -1",
+        "category": "entities",
+        "context": "…0% of contracted energy on take-or-pay terms (versus 75% at likhu-2). This means the developer carries less revenue risk from N…",
         "target_exists": true
       },
       {
@@ -7875,6 +7938,13 @@
         "title": "PPA Pricing",
         "category": "concepts",
         "context": "…— perpetually skewing the market's competitive balance. See chilime for the full PPA billing architecture and [[nea-triple-auth…",
+        "target_exists": true
+      },
+      {
+        "slug": "q-design-discharge",
+        "title": "Q-Design Discharge",
+        "category": "concepts",
+        "context": "…ariff gap but a billing-architecture subsidy, documented in chilime and [[nea-triple-authority]]. Chilime's 2010 IPO occurred…",
         "target_exists": true
       },
       {
@@ -10941,10 +11011,24 @@
         "target_exists": true
       },
       {
+        "slug": "likhu-1",
+        "title": "Likhu -1",
+        "category": "entities",
+        "context": "…[koshi-basin]] — basin context for the Likhu Khola system - khimti-dhalkebar-corridor — the 220 kV backbone the cascade depends on",
+        "target_exists": true
+      },
+      {
         "slug": "likhu-cascade",
         "title": "Likhu Cascade",
         "category": "entities",
         "context": "…sion corridors with the broader Khimti-Tamakoshi system via khimti-dhalkebar-corridor. ## See also - [[likhu-1]] - [[likhu-2]] - [[likhu-4]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-4",
+        "title": "Likhu-4",
+        "category": "entities",
+        "context": "…[koshi-basin]] — basin context for the Likhu Khola system - khimti-dhalkebar-corridor — the 220 kV backbone the cascade depends on - [[arun-3]] —…",
         "target_exists": true
       },
       {

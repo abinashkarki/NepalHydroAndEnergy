@@ -89,7 +89,7 @@ Chilime Hydropower (22.1 MW, commissioned 2003) consistently generates **above**
 - **Snow-fed basin:** Chilime operates on a highly reliable snow-fed river system with less seasonal volatility than monsoon-dominated RoR projects on ungauged tributaries.
 - **Pre-climate-shift commissioning:** Chilime entered operation before the acceleration of cryospheric melt and shifting monsoon patterns that now undermine the stationarity assumption.
 - **No modern leverage stress:** Built in an era of lower construction costs and lower debt leverage, Chilime's financial model was never subjected to the DSCR pressures facing post-2015 projects.
-- **NEA subsidiary status:** Chilime is an NEA subsidiary, and its PPA terms — including its actual tariff rate, which remains unverified [PPA RATE UNVERIFIED: targeted in parallel research pass] — may reflect the subsidiary rate advantage documented conceptually in [[nea-triple-authority]].
+- **NEA subsidiary status:** Chilime is an NEA subsidiary with a dual-tier billing architecture (Regular/Excess classification) yielding a blended rate of **NPR 7.57/kWh** — a **37.1% revenue advantage** over the standard private IPP blended rate of NPR 5.52/kWh. This is not a headline-tariff gap but a billing-architecture subsidy, documented in [[chilime]] and [[nea-triple-authority]].
 
 Chilime's 2010 IPO occurred **after seven years of profitable operations**, enabling it to distribute a 35% cash dividend within a year of listing. Modern IPOs float pre-revenue. See [[ipo-hydropower-bailout]].
 
