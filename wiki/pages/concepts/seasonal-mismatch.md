@@ -25,6 +25,8 @@ Adding RoR capacity is not neutral: it increases energy when the system is alrea
 
 Solar changes this page's implication. It does not abolish the mismatch, but it attacks the dry-season daytime component directly: [[solar-hydro-complementarity]] shows why Nepal's clear winter sky is a physical complement to its weak winter river flow. The remaining hard problem is the evening peak, which is why solar must be paired with [[storage-deficit]]-class water storage, BESS, or demand shifting rather than sold as a stand-alone cure.
 
+The seasonal generation pattern is visible across every NEA operating plant with multi-year data: [[marsyangdi|Marsyangdi]] (69 MW, seasonal variation charts from FY 2081/82 show the monsoon-to-drought collapse even at 97% of design annual generation), [[madhya-marsyangdi|Madhya Marsyangdi]] (70 MW, 107.6% of design), and [[upper-tamakoshi|Upper Tamakoshi]] (456 MW, 90.2% in a good year but 67% in a flood-shutdown year). The pattern is uniform — the amplitude varies, but the shape does not.
+
 ## Fixes are physical, financial, or institutional—often all three
 
 Only a small set of interventions change the mismatch itself rather than reshuffling who suffers it:

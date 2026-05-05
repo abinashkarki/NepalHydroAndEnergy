@@ -75,6 +75,9 @@ The Triple-Authority Conflict is the institutional mechanism underlying:
 - [[seasonal-arbitrage-trap]] — pricing structure that extracts value from IPPs
 - [[ad-penalties]] — the penalty mechanics enforced through this conflict
 - [[ppa-pricing]] — rate-setting by the same entity that enforces performance
+- [[upper-tamakoshi]] — Nepal's largest plant: NEA as regulator set the tariff, NEA as shareholder (41%) saw equity diluted by IDC, NEA as off-taker buys at rates that can't service the debt. Three roles, one institution, zero resolution mechanism.
+- [[khimti-i]] — the 1996 USD PPA that predates the triple-authority regime entirely
+- [[chilime]] — NEA subsidiary with legacy billing architecture yielding 37% revenue advantage
 - [[barahi-hydropower]] — primary audited case study of penalty enforcement
 - [[sahas-urja]] — why the standard IPP rate succeeds only at exceptional scale, not as a replicable model
 - [[chameliya-hydropower]] — state capital inefficiency absorbed off-balance sheet while private developers face rigid caps

@@ -93,6 +93,28 @@ Chilime Hydropower (22.1 MW, commissioned 2003) consistently generates **above**
 
 Chilime's 2010 IPO occurred **after seven years of profitable operations**, enabling it to distribute a 35% cash dividend within a year of listing. Modern IPOs float pre-revenue. See [[ipo-hydropower-bailout]].
 
+## Beyond the anomaly — the performance spectrum
+
+Chilime's overperformance is not unique; it shares a structural pattern with
+other conservative-design, glacier-fed plants. [[madhya-marsyangdi|Madhya
+Marsyangdi]] (70 MW, Tilicho-fed) achieves **107.6% of design** — the
+highest in the NEA fleet. [[khimti-i|Khimti-I]] (60 MW, Nepal's first
+private IPP, 1996 USD PPA) averages **103% of contracted energy** over
+25 years. Both are larger-scale cases of the same mechanism: accurate or
+conservative hydrology in relatively stable catchments produces generation
+above contracted levels.
+
+The opposite end of the spectrum — severe underperformance — includes
+the NEA fleet as well as private IPPs. [[upper-trishuli-3a|Upper Trishuli
+3A]] (60 MW, 72.7% of design) and [[trishuli|Trishuli]] (24 MW, 60% of
+design, 58 years old) demonstrate that public ownership does not guarantee
+design-energy delivery. And the Likhu-2 case is a categorical warning:
+[[likhu-2]]'s 60% PLF in FY 2023/24 appears in the performance table as
+underperformance but was caused by a **grid evacuation bottleneck** at the
+NEA New Khimti substation, not hydrology — a reminder that some "Q-design
+failure" signals in generation data are actually [[buildability]] signals
+masquerading as hydrology.
+
 ## The DSCR break-point
 
 Nepal Rastra Bank (NRB) requires a minimum Debt Service Coverage Ratio (DSCR) of 1.3x for hydro project financing, though competitive syndicates and multilateral lenders (ADB, IFC) may accept 1.2x.

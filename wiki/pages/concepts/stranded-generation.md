@@ -13,7 +13,9 @@ tags: [curtailment, transmission, grid, monsoon, IPP, nepal]
 
 ## Monsoon surpluses meet hard export and internal bottlenecks
 
-During wet-season peaks, domestic demand is insufficient to swallow RoR-heavy output (see [[seasonal-mismatch]]). Export is the obvious relief valve—but export is not “infinite outlet”: it is constrained by **cross-border approval**, **contracted corridors**, and **internal backbone capacity**.
+During wet-season peaks, domestic demand is insufficient to swallow RoR-heavy output (see [[seasonal-mismatch]]). Export is the obvious relief valve—but export is not "infinite outlet": it is constrained by **cross-border approval**, **contracted corridors**, and **internal backbone capacity**.
+
+The Likhu cascade provides the best-documented internal bottleneck case: [[likhu-2]] (55 MW) generated only 60% of contracted energy in FY 2023/24 because the New Khimti substation's 100 MVA transformer was saturated by 213 MW of cascade capacity — the plant was ready, the grid wasn't. [[likhu-4]] (52.4 MW) was originally designed as a 120 MW export project, completely redesigned and downscaled to domestic-only after a cross-border wheeling dispute with India. After a 200 MVA transformer upgrade in late 2023, Likhu-2 recovered to 91% of contracted energy — proving the assets were never the problem. See [[buildability]] for the full execution-risk context.
 
 Illustrative orders of magnitude from recent public reporting cycles include **~1,400 MW** of surplus conditions against only **~1,141 MW** approved for export, with internal constraints still producing **~700–800 MW** of daily spill/curtailment in severe weeks—even affecting **[[nea]]**’s own plants. Those numbers drift year to year; the structural point is stable: **without absorption, more RoR does not become more “used” electricity**.
 
