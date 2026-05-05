@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 257,
-  "total_refs": 2012,
+  "total_refs": 2021,
   "backlinks": {
     "ad-penalties": [
       {
@@ -638,6 +638,13 @@
         "title": "Tamakoshi 3",
         "category": "entities",
         "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability - [[upper-tamakoshi]] - [[data-ipsdp-milestone-ladder-2022-…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…NEA-subsidiary generation offline in a single event. See buildability and [[stranded-generation]]. ## See also - [[upper-tama…",
         "target_exists": true
       },
       {
@@ -1932,6 +1939,13 @@
         "target_exists": true
       },
       {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…ation offline in a single event. See [[buildability]] and stranded-generation. ## See also - [[upper-tamakoshi]] — upstream 456 MW anch…",
+        "target_exists": true
+      },
+      {
         "slug": "upper-bhotekoshi",
         "title": "Upper Bhotekoshi",
         "category": "entities",
@@ -2242,6 +2256,13 @@
         "target_exists": true
       },
       {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…stranded-generation]] — the evacuation bottleneck problem - q-design-discharge — design discharge and contracted energy - [[khimti-dhalkeb…",
+        "target_exists": true
+      },
+      {
         "slug": "upper-tamakoshi",
         "title": "Upper Tamakoshi",
         "category": "entities",
@@ -2367,6 +2388,13 @@
         "title": "Sanjen",
         "category": "entities",
         "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - chilime - [[sector-financial-analysis-triple-authority-2026]]",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…would have zeroed Tamakoshi V for the same period. Unlike chilime's snow-fed buffer, the Tama Koshi is a high-discharge mon…",
         "target_exists": true
       },
       {
@@ -6121,6 +6149,13 @@
         "target_exists": true
       },
       {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…ry generation. This is the same cascade principle as the kulekhani-cascade, but at 10× the scale. 2. **Shared transmission:** Tamakos…",
+        "target_exists": true
+      },
+      {
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
@@ -7149,6 +7184,13 @@
         "title": "Likhu Khola 'A'",
         "category": "entities",
         "context": "…commissioning on February 8, 2022 — nearly 18 months before likhu-2 (July 2023) and over two years before [[likhu-1]] (April 20…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…-transformer upgrade completed in late 2023 (which resolved likhu-2's stranded generation crisis) was a necessary but not suffi…",
         "target_exists": true
       },
       {
@@ -8312,6 +8354,13 @@
         "title": "Tamakoshi 3",
         "category": "entities",
         "context": "…sits in the same high-head eastern hydropower geography as upper-tamakoshi. <!-- generated:specs:start --> ## Specifications | Para…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…he Tama Koshi · in Dolakha district. A **cascade project of Upper Tamakoshi** (456 MW), designed to operate in tandem with Nepal's larg…",
         "target_exists": true
       },
       {
@@ -11235,6 +11284,13 @@
         "target_exists": true
       },
       {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…sign-discharge]] — design discharge and contracted energy - khimti-dhalkebar-corridor — shared 220/400 kV backbone - [[likhu-2]] — same corridor,…",
+        "target_exists": true
+      },
+      {
         "slug": "project-roadmap",
         "title": "Project Roadmap",
         "category": "concepts",
@@ -11516,6 +11572,13 @@
         "title": "Khimti Cascade",
         "category": "entities",
         "context": "…[upper-tamakoshi]] (456 MW), [[tamakoshi-v]] (99.8 MW), and tamakoshi-3 (287 MW). ## See also - [[khimti-i]] - [[khimti-ii]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…vidyut Company Ltd. (TKJVCL) | EPF | Under construction | | tamakoshi-3 | 650 MW | TBI Holding Co. Ltd. | — | Survey | The Tama Ko…",
         "target_exists": true
       }
     ],
