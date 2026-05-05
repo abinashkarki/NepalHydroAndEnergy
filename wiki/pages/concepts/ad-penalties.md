@@ -3,7 +3,7 @@ title: AD Penalties
 type: concept
 created: 2026-05-02
 updated: 2026-05-02
-sources: [erc-bylaws-2076, barahi-hydropower-audited-financials]
+sources: [erc-bylaws-2076, barahi-hydropower-audited-financials, ad-penalty-clause-research]
 tags: [AD-penalties, PPA, NEA, IPP, regulation, ERC]
 ---
 
@@ -54,9 +54,55 @@ For run-of-river projects without storage, predicting output 30 days in advance 
 
 The ERC acknowledged this by exempting projects under 10 MW from 30-day declarations and financial damages. The structural impossibility for larger projects remains unaddressed in regulatory or judicial rulings. [Under research — no primary regulatory or judicial source found yet.]
 
-## The Curtailment-Penalty Double-Bind
+## The Curtailment-Penalty Double-Bind — Confirmed
 
-This section covers the scenario where NEA, acting as dispatcher, orders a project off-line — and then, acting as penalty administrator, fines it for failing to meet its availability declaration. Whether the PPA contains an explicit exemption clause protecting IPPs from penalties when the root cause of the generation shortfall was an NEA/NLDC curtailment instruction is the most important unresolved legal question in the wiki. Research to date has found no such clause, but primary PPA text has not been accessed. See [[nea-triple-authority]] for the full institutional analysis. [Under research — awaiting PPA clause text.]
+The most consequential structural question about Nepal's AD penalty regime — whether
+any PPA version contains an exemption for shortfalls caused by NEA/NLDC curtailment
+orders — has now been confirmed by direct PPA text analysis.
+
+**The answer is no.**
+
+Article 10.2 of the standard PPA specifies the penalty formula:
+
+> Compensation = [0.80 × min(Monthly Contract Energy, Availability Declaration) −
+> (Actual Energy Delivered + Scheduled Outage Energy + Forced Outage Energy +
+> Force Majeure Energy)] × Purchase Rate
+
+The formula counts only **declared outages** and **force majeure** as excusable
+causes. Curtailment by the off-taker is not listed. No PPA clause carves out
+NLDC dispatch orders from the penalty trigger.
+
+This is the double-bind in contractual form: the off-taker controls dispatch *and*
+enforces availability penalties, with no mechanism for the generator to claim
+relief when the two obligations conflict.
+
+International standard (IFC model PPAs) treats off-taker curtailment as a
+compensable "deemed generation" event — the IPP is paid as if it had generated,
+because the shortfall was caused by the buyer's decision, not the seller's failure.
+Nepal's PPA contains no such provision. Analysts have explicitly recommended
+adding deemed-generation protection in renegotiations, confirming its current absence.
+
+Source: Parajuli, S. (2023), "What does a RoR PPA contain?" — direct PPA text analysis.
+
+## The 10% Reserve Margin — Zero Compensation
+
+Article 10.1(Ka) of the standard PPA explicitly permits NEA/NLDC to withhold up to
+**10% of peak-period Contract Energy** as a system reserve — with **zero compensation**
+to the IPP for that withheld energy. NEA can simultaneously:
+
+1. Order an IPP to reduce output (curtailment) or withhold up to 10% as reserve
+2. Apply a penalty for any shortfall below 80% of contracted energy
+3. Face no compensation obligation for the generation it prevented
+
+The 10% reserve withholding, combined with the Article 10.2 penalty formula that
+excludes curtailment from excusable causes, means NEA can legally reduce a
+project's actual generation below the 80% penalty threshold through its own
+dispatch decisions — and then fine the project for the resulting shortfall.
+
+This makes the [[nea-triple-authority]] conflict not just an institutional design
+problem but a **contractually encoded feature**: the same entity controls both
+dispatch and penalty enforcement, and the PPA's penalty formula treats off-taker
+curtailment identically to generator failure.
 
 ## Challenge Cases and Outcomes
 

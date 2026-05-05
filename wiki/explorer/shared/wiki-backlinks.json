@@ -1,8 +1,336 @@
 {
   "generated": "auto",
   "total_targets": 256,
-  "total_refs": 1930,
+  "total_refs": 1956,
   "backlinks": {
+    "ad-penalties": [
+      {
+        "slug": "sector-financial-analysis-triple-authority-2026",
+        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
+        "category": "sources",
+        "context": "…]] - [[ipo-hydropower-bailout]] - [[stranded-generation]] - ad-penalties",
+        "target_exists": true
+      },
+      {
+        "slug": "ad-penalty-clause-research",
+        "title": "AD Penalty Clause in Nepal's PPA — Research Compilation",
+        "category": "sources",
+        "context": "…urtailment as compensable deemed generation. ## Used by - ad-penalties - [[nea-triple-authority]] - [[ppa-pricing]]",
+        "target_exists": true
+      },
+      {
+        "slug": "barahi-hydropower",
+        "title": "Barahi Hydropower",
+        "category": "entities",
+        "context": "…thority]] — the institutional framework this case anchors - ad-penalties — the penalty mechanism at issue",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "…] — why Khimti's 103% matters against the sector baseline - ad-penalties — the penalty regime Khimti's PPA predates - [[nea-triple-a…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2",
+        "category": "entities",
+        "context": "…LF in FY23/24 should not be read as design-energy failure - ad-penalties — take-and-pay curtailment risk and the AD penalty interact…",
+        "target_exists": true
+      },
+      {
+        "slug": "hydro-insurance",
+        "title": "Hydro Insurance",
+        "category": "concepts",
+        "context": "…ement period is unresolved. This is the mirror image of the ad-penalties curtailment double-bind: a damaged project unable to genera…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipo-hydropower-bailout",
+        "title": "IPO Hydropower Bailout",
+        "category": "concepts",
+        "context": "…[nea-triple-authority]] for the institutional framework and ad-penalties for the penalty mechanism. ## What is missing The primary…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…\"receivable from NEA\" — a forced loan to the off-taker. See ad-penalties for full case detail and [[barahi-hydropower]] for the enti…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…contracted energy (the denominator of all PPA economics) - ad-penalties — the penalty mechanism that compounds the PPA rate disadva…",
+        "target_exists": true
+      },
+      {
+        "slug": "stranded-generation",
+        "title": "Stranded Generation",
+        "category": "concepts",
+        "context": "…tional structure that enables uncompensated curtailment and ad-penalties for the penalty mechanism that may compound the loss. ## T…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…PPA rate advantage that structural separation would level - ad-penalties — the penalty mechanism transferred to ERC - [[stranded-gen…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…penalty exposure (from audited financial statements and the ad-penalties mechanism) - Hydrological performance (contracted energy vs…",
+        "target_exists": true
+      }
+    ],
+    "nea-triple-authority": [
+      {
+        "slug": "ppa-data-retrieval-icra-care-2026",
+        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "category": "sources",
+        "context": "…ancial-analysis-triple-authority-2026]] - [[ppa-pricing]] - nea-triple-authority - [[sahas-urja]] - [[chilime]] - [[rasuwagadhi]] - [[upper-…",
+        "target_exists": true
+      },
+      {
+        "slug": "sector-financial-analysis-triple-authority-2026",
+        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
+        "category": "sources",
+        "context": "…- [[ppa-data-retrieval-icra-care-2026]] - [[ppa-pricing]] - nea-triple-authority - [[ipo-hydropower-bailout]] - [[stranded-generation]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "ad-penalty-clause-research",
+        "title": "AD Penalty Clause in Nepal's PPA — Research Compilation",
+        "category": "sources",
+        "context": "…nsable deemed generation. ## Used by - [[ad-penalties]] - nea-triple-authority - [[ppa-pricing]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ukhl-financials-generation-fy2079-82",
+        "title": "UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82",
+        "category": "sources",
+        "context": "…er-tamakoshi]] - [[q-design-discharge]] - [[ppa-pricing]] - nea-triple-authority",
+        "target_exists": true
+      },
+      {
+        "slug": "barahi-hydropower",
+        "title": "Barahi Hydropower",
+        "category": "entities",
+        "context": "…age exists as the wiki's primary audited case study for the nea-triple-authority conflict. ## The AD penalty conflict Barahi is protected…",
+        "target_exists": true
+      },
+      {
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower",
+        "category": "entities",
+        "context": "…ghly efficient projects** — is the quantitative core of the nea-triple-authority governance problem. The same institution that cannot delive…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…See [[ppa-pricing]] for the full rate comparison table and nea-triple-authority for the institutional framework. 6. **IPO after profitabil…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "…ad-penalties]] — the penalty regime Khimti's PPA predates - nea-triple-authority — NEA as regulator, shareholder (post-2020), and off-taker…",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…See [[ppa-pricing]] for the full rate comparison table and nea-triple-authority for the institutional framework. ## Promoters and Institut…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamor-storage",
+        "title": "Tamor Storage",
+        "category": "entities",
+        "context": "…loan interest, depreciation, and foreign exchange risk. See nea-triple-authority. ## System Context In a system increasingly saturated wit…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…ese rates and the project's debt service is the core of the nea-triple-authority problem. See the Financial Performance section below for th…",
+        "target_exists": true
+      },
+      {
+        "slug": "ad-penalties",
+        "title": "AD Penalties",
+        "category": "concepts",
+        "context": "…anism is the primary financial instrument through which the nea-triple-authority conflict operates. ## The Penalty Mechanism The Availabil…",
+        "target_exists": true
+      },
+      {
+        "slug": "hydro-insurance",
+        "title": "Hydro Insurance",
+        "category": "concepts",
+        "context": "…and debt service obligations. The central connection is to nea-triple-authority: when physical damage prevents generation, NEA may still ap…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipo-hydropower-bailout",
+        "title": "IPO Hydropower Bailout",
+        "category": "concepts",
+        "context": "…on of that revenue is clawed back through AD penalties. See nea-triple-authority for the institutional framework and [[ad-penalties]] for th…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…scretionary process. The central institutional framework is nea-triple-authority: the same entity that sets PPA rates (NEA as single buyer)…",
+        "target_exists": true
+      },
+      {
+        "slug": "q-design-discharge",
+        "title": "Q-Design Discharge",
+        "category": "concepts",
+        "context": "…ct the subsidiary rate advantage documented conceptually in nea-triple-authority. Chilime's 2010 IPO occurred **after seven years of profit…",
+        "target_exists": true
+      },
+      {
+        "slug": "stranded-generation",
+        "title": "Stranded Generation",
+        "category": "concepts",
+        "context": "…no guaranteed compensation for the curtailed producer. See nea-triple-authority for the institutional structure that enables uncompensated…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…A. ## Theory of Change The NEA Triple-Authority Conflict (nea-triple-authority) is not an edge-case governance flaw — it is the institutio…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…ot told their shares are PPA'd against obsolete hydrology - nea-triple-authority — the institutional framework that enforces unrealistic con…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…the IPO-to-bailout pattern this data intervention targets - nea-triple-authority — the institutional structure that AD penalty exposure refl…",
+        "target_exists": true
+      }
+    ],
+    "ppa-pricing": [
+      {
+        "slug": "ppa-data-retrieval-icra-care-2026",
+        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "category": "sources",
+        "context": "…so - [[sector-financial-analysis-triple-authority-2026]] - ppa-pricing - [[nea-triple-authority]] - [[sahas-urja]] - [[chilime]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja-benchmark-icra-2026",
+        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
+        "category": "sources",
+        "context": "…nancial-analysis-triple-authority-2026]] - [[sahas-urja]] - ppa-pricing - [[q-design-discharge]]",
+        "target_exists": true
+      },
+      {
+        "slug": "sector-financial-analysis-triple-authority-2026",
+        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
+        "category": "sources",
+        "context": "…udy ## See Also - [[ppa-data-retrieval-icra-care-2026]] - ppa-pricing - [[nea-triple-authority]] - [[ipo-hydropower-bailout]] - […",
+        "target_exists": true
+      },
+      {
+        "slug": "ad-penalty-clause-research",
+        "title": "AD Penalty Clause in Nepal's PPA — Research Compilation",
+        "category": "sources",
+        "context": "…## Used by - [[ad-penalties]] - [[nea-triple-authority]] - ppa-pricing",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i-project-research",
+        "title": "Khimti-I Project Research — PPA, Generation, Finance, Ownership",
+        "category": "sources",
+        "context": "…3 by BPC + Norwegian partners ## Used by - [[khimti-i]] - ppa-pricing - [[q-design-discharge]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ukhl-financials-generation-fy2079-82",
+        "title": "UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82",
+        "category": "sources",
+        "context": "…# Used by - [[upper-tamakoshi]] - [[q-design-discharge]] - ppa-pricing - [[nea-triple-authority]]",
+        "target_exists": true
+      },
+      {
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower",
+        "category": "entities",
+        "context": "…s to This Wiki Chameliya is the structural mirror-image of ppa-pricing: a state utility that tolerates $7.5M/MW capital costs on i…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…nowledge%20Report%20-%20Renewables%20%26%20PSH.pdf. See ppa-pricing for the full rate comparison table and [[nea-triple-authori…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "…PPA regime structurally inadequate for long-tenor debt. See ppa-pricing. ## Generation — 103% of Contracted Over 25 Years HPL's c…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2",
+        "category": "entities",
+        "context": "…e-and-pay curtailment risk and the AD penalty interaction - ppa-pricing — the wet/dry tariff structure and its effect on Likhu-2's…",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…-season revenue — insufficient to carry its debt load. See ppa-pricing for the full rate comparison table and [[nea-triple-authori…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…ve tariff roughly 2–3 times higher than current levels. See ppa-pricing. Upper Tamakoshi is the most prominent case of the structu…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…]] — the penalty mechanics enforced through this conflict - ppa-pricing — rate-setting by the same entity that enforces performance…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…dvantage documented in [[chilime]], standard IPP rates from ppa-pricing) - NEPSE trading suspensions and regulatory actions (e.g. U…",
+        "target_exists": true
+      }
+    ],
     "buildability": [
       {
         "slug": "adb-hydropower-growth-nepal",
@@ -16,6 +344,13 @@
         "title": "ICIMOD Threats to the Koshi River Basin",
         "category": "sources",
         "context": "…gn-constraint]], [[glof-risk]], and the hazard dimension of buildability. .",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade-research-compilation",
+        "title": "Likhu Cascade Research Compilation",
+        "category": "sources",
+        "context": "…ridor ## Used by - [[likhu-2]] - [[q-design-discharge]] - buildability - [[stranded-generation]]",
         "target_exists": true
       },
       {
@@ -138,6 +473,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "…t for Khimti-I's 60 MW was trying to carry over 300 MW. See buildability for the broader grid-planning failure pattern. ## Historic…",
+        "target_exists": true
+      },
+      {
         "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
@@ -156,6 +498,13 @@
         "title": "Lantang Khola Reservoir Hydropower Project",
         "category": "entities",
         "context": "…on table is > maintained from the registry. ## See also - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2",
+        "category": "entities",
+        "context": "…s not ready for the private generation it had approved. See buildability. ## The Recovery — Grid Fixed, Plant Proved In late 2023,…",
         "target_exists": true
       },
       {
@@ -261,6 +610,13 @@
         "title": "Upper Karnali",
         "category": "entities",
         "context": "…D 2026): the contract is not the product, execution is. See buildability and [[stranded-generation]]. | Parameter | Value | |------…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…atio across the hydropower portfolio. See [[glof-risk]] and buildability. Full dual-desander operations were not restored until mid…",
         "target_exists": true
       },
       {
@@ -1408,6 +1764,13 @@
         "target_exists": true
       },
       {
+        "slug": "likhu-cascade-research-compilation",
+        "title": "Likhu Cascade Research Compilation",
+        "category": "sources",
+        "context": "…- [[likhu-2]] - [[q-design-discharge]] - [[buildability]] - stranded-generation",
+        "target_exists": true
+      },
+      {
         "slug": "nepal-transmission-landscape-2025",
         "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
         "category": "sources",
@@ -1829,6 +2192,13 @@
         "title": "Koshi Basin",
         "category": "entities",
         "context": "…fts. The 2008 Koshi breach displaced 2+ million people. - **glof-risk** — the 2024 Thame Valley GLOF traveled >80 km down the Dud…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…nable ~210% loss ratio across the hydropower portfolio. See glof-risk and [[buildability]]. Full dual-desander operations were n…",
         "target_exists": true
       },
       {
@@ -3496,6 +3866,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "…corridor]] — the 220 kV line built to evacuate this plant - koshi-basin — basin context for the Khimti Khola / Sun Koshi system",
+        "target_exists": true
+      },
+      {
         "slug": "khimti-cascade",
         "title": "Khimti Cascade",
         "category": "entities",
@@ -3527,7 +3904,7 @@
         "slug": "likhu-2",
         "title": "Likhu -2",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
+        "context": "…MW | | Status | Operating | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Koshi Pradesh | <…",
         "target_exists": true
       },
       {
@@ -6053,13 +6430,6 @@
         "target_exists": true
       },
       {
-        "slug": "khimti-i",
-        "title": "Khimti -I",
-        "category": "entities",
-        "context": "…on table is > maintained from the registry. ## See also - run-of-river-hydropower - [[khimti-dhalkebar-corridor]] — the 220 kV line built to…",
-        "target_exists": true
-      },
-      {
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
@@ -6288,6 +6658,194 @@
         "title": "Layer: Nepal Tributaries (HydroRIVERS)",
         "category": "data",
         "context": "…er-basin-plan-2024]] - [[wecs-hydropower-potential-2019]] - run-of-river-hydropower - [[data-basin-discharge]] - [[data-map-layer-labels]] - […",
+        "target_exists": true
+      }
+    ],
+    "khimti-i": [
+      {
+        "slug": "khimti-i-project-research",
+        "title": "Khimti-I Project Research — PPA, Generation, Finance, Ownership",
+        "category": "sources",
+        "context": "…L), founded 1993 by BPC + Norwegian partners ## Used by - khimti-i - [[ppa-pricing]] - [[q-design-discharge]]",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…Developer | |-------|--------------|--------|-----------| | khimti-i | 60 | Operating | Himal Power Limited | | [[khimti-ii]] |…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-dhalkebar-corridor",
+        "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor",
+        "category": "entities",
+        "context": "…e original \"IPP-to-grid\" line in Nepal. Built to evacuate **khimti-i** — the country's first large IPP (1996 PPA, 2000 commissio…",
+        "target_exists": true
+      },
+      {
+        "slug": "hybrid-siting-logic",
+        "title": "Hybrid Siting Logic",
+        "category": "concepts",
+        "context": "…agship; dam-adjacent flats suited to 25–40 MWp ground PV. - khimti-i — 60 MW IPP; headrace-adjacent terraces, 10–15 MWp candidat…",
+        "target_exists": true
+      }
+    ],
+    "q-design-discharge": [
+      {
+        "slug": "sahas-urja-benchmark-icra-2026",
+        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
+        "category": "sources",
+        "context": "…riple-authority-2026]] - [[sahas-urja]] - [[ppa-pricing]] - q-design-discharge",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i-project-research",
+        "title": "Khimti-I Project Research — PPA, Generation, Finance, Ownership",
+        "category": "sources",
+        "context": "…an partners ## Used by - [[khimti-i]] - [[ppa-pricing]] - q-design-discharge",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade-research-compilation",
+        "title": "Likhu Cascade Research Compilation",
+        "category": "sources",
+        "context": "…New Khimti evacuation corridor ## Used by - [[likhu-2]] - q-design-discharge - [[buildability]] - [[stranded-generation]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ukhl-financials-generation-fy2079-82",
+        "title": "UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82",
+        "category": "sources",
+        "context": "…n to NPR 21.18 billion ## Used by - [[upper-tamakoshi]] - q-design-discharge - [[ppa-pricing]] - [[nea-triple-authority]]",
+        "target_exists": true
+      },
+      {
+        "slug": "urja-khabar-ipp-generation-audit",
+        "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted",
+        "category": "sources",
+        "context": "…REVIEW] flag on this figure is appropriate. ## Used by - q-design-discharge - [[claim-mw-not-equal-value]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ankhu-khola",
+        "title": "Ankhu Khola",
+        "category": "entities",
+        "context": "…ysis-triple-authority-2026]] - [[ipo-hydropower-bailout]] - q-design-discharge <!-- generated:specs:start --> ## Specifications | Para…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…nt Urja Khabar audit exceeded 80% of contracted energy. See q-design-discharge for the full generation performance comparison. ### Why Ch…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "…hydrologically characterized for the 1996 design study. See q-design-discharge. ## Ownership — Repatriation in September 2025 HPL was fo…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2",
+        "category": "entities",
+        "context": "…rformance data, alongside projects genuinely failing due to q-design-discharge optimism. **This appearance is misleading.** CARE Ratings…",
+        "target_exists": true
+      },
+      {
+        "slug": "madhya-marsyangdi",
+        "title": "Madhya Marsyangdi",
+        "category": "entities",
+        "context": "…6.0 | 72.7% | The divergence at the bottom of the table is q-design-discharge in action: the plants that underperform by 20–30% are the o…",
+        "target_exists": true
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "category": "entities",
+        "context": "…utperforms the median private IPP — where, as documented in q-design-discharge, zero of 100+ projects in a recent Urja Khabar audit exceed…",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…nge for maximizing monsoon energy capture. As documented in q-design-discharge, this is a calculated bet that only works at scale. The 19.…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…etween design hydrology and operational reality explored in q-design-discharge. | Parameter | Value | |-----------|-------| | Annual desi…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "…but dramatically below the design assumption. This is the q-design-discharge problem at NEA scale. A plant built on 70% POE hydrology wi…",
+        "target_exists": true
+      },
+      {
+        "slug": "ad-penalties",
+        "title": "AD Penalties",
+        "category": "concepts",
+        "context": "…thin - [[barahi-hydropower]] — primary audited case study - q-design-discharge — how design discharge sets the contracted energy threshold…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipo-hydropower-bailout",
+        "title": "IPO Hydropower Bailout",
+        "category": "concepts",
+        "context": "…. See [[chilime]] for the pre-IPO profitability context and q-design-discharge for why Chilime's overperformance is not replicable. ## Th…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…why the standard IPP rate only works at exceptional scale - q-design-discharge — how design discharge determines contracted energy (the de…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…e. At the DSCR break-point of ~82–84% of contracted energy (q-design-discharge), every percentage point of revenue protected from penalty…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…ds. ## Theory of Change The Q-design discharge parameter (q-design-discharge) mechanically determines both turbine sizing and the PPA co…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…ed energy vs. actual generation, from project-level data in q-design-discharge) - PPA architecture (subsidiary rate advantage documented i…",
+        "target_exists": true
+      }
+    ],
+    "likhu-2": [
+      {
+        "slug": "likhu-cascade-research-compilation",
+        "title": "Likhu Cascade Research Compilation",
+        "category": "sources",
+        "context": "…, all sharing New Khimti evacuation corridor ## Used by - likhu-2 - [[q-design-discharge]] - [[buildability]] - [[stranded-ge…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…| [[likhu-1]] | 77.0 | Under construction | Solukhumbu | | likhu-2 | 55.0 | Under construction | Solukhumbu | | [[likhu-khola-…",
         "target_exists": true
       }
     ],
@@ -7197,192 +7755,6 @@
         "target_exists": true
       }
     ],
-    "ppa-pricing": [
-      {
-        "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
-        "category": "sources",
-        "context": "…so - [[sector-financial-analysis-triple-authority-2026]] - ppa-pricing - [[nea-triple-authority]] - [[sahas-urja]] - [[chilime]] -…",
-        "target_exists": true
-      },
-      {
-        "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
-        "category": "sources",
-        "context": "…nancial-analysis-triple-authority-2026]] - [[sahas-urja]] - ppa-pricing - [[q-design-discharge]]",
-        "target_exists": true
-      },
-      {
-        "slug": "sector-financial-analysis-triple-authority-2026",
-        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
-        "category": "sources",
-        "context": "…udy ## See Also - [[ppa-data-retrieval-icra-care-2026]] - ppa-pricing - [[nea-triple-authority]] - [[ipo-hydropower-bailout]] - […",
-        "target_exists": true
-      },
-      {
-        "slug": "chameliya-hydropower",
-        "title": "Chameliya Hydropower",
-        "category": "entities",
-        "context": "…s to This Wiki Chameliya is the structural mirror-image of ppa-pricing: a state utility that tolerates $7.5M/MW capital costs on i…",
-        "target_exists": true
-      },
-      {
-        "slug": "chilime",
-        "title": "Chilime",
-        "category": "entities",
-        "context": "…nowledge%20Report%20-%20Renewables%20%26%20PSH.pdf. See ppa-pricing for the full rate comparison table and [[nea-triple-authori…",
-        "target_exists": true
-      },
-      {
-        "slug": "sahas-urja",
-        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
-        "category": "entities",
-        "context": "…-season revenue — insufficient to carry its debt load. See ppa-pricing for the full rate comparison table and [[nea-triple-authori…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-tamakoshi",
-        "title": "Upper Tamakoshi",
-        "category": "entities",
-        "context": "…ve tariff roughly 2–3 times higher than current levels. See ppa-pricing. Upper Tamakoshi is the most prominent case of the structu…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-triple-authority",
-        "title": "NEA Triple-Authority Conflict",
-        "category": "concepts",
-        "context": "…]] — the penalty mechanics enforced through this conflict - ppa-pricing — rate-setting by the same entity that enforces performance…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-sebon-data-transparency",
-        "title": "SEBON Data Transparency",
-        "category": "interventions",
-        "context": "…dvantage documented in [[chilime]], standard IPP rates from ppa-pricing) - NEPSE trading suspensions and regulatory actions (e.g. U…",
-        "target_exists": true
-      }
-    ],
-    "nea-triple-authority": [
-      {
-        "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
-        "category": "sources",
-        "context": "…ancial-analysis-triple-authority-2026]] - [[ppa-pricing]] - nea-triple-authority - [[sahas-urja]] - [[chilime]] - [[rasuwagadhi]] - [[upper-…",
-        "target_exists": true
-      },
-      {
-        "slug": "sector-financial-analysis-triple-authority-2026",
-        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
-        "category": "sources",
-        "context": "…- [[ppa-data-retrieval-icra-care-2026]] - [[ppa-pricing]] - nea-triple-authority - [[ipo-hydropower-bailout]] - [[stranded-generation]] - [[…",
-        "target_exists": true
-      },
-      {
-        "slug": "barahi-hydropower",
-        "title": "Barahi Hydropower",
-        "category": "entities",
-        "context": "…age exists as the wiki's primary audited case study for the nea-triple-authority conflict. ## The AD penalty conflict Barahi is protected…",
-        "target_exists": true
-      },
-      {
-        "slug": "chameliya-hydropower",
-        "title": "Chameliya Hydropower",
-        "category": "entities",
-        "context": "…ghly efficient projects** — is the quantitative core of the nea-triple-authority governance problem. The same institution that cannot delive…",
-        "target_exists": true
-      },
-      {
-        "slug": "chilime",
-        "title": "Chilime",
-        "category": "entities",
-        "context": "…See [[ppa-pricing]] for the full rate comparison table and nea-triple-authority for the institutional framework. 6. **IPO after profitabil…",
-        "target_exists": true
-      },
-      {
-        "slug": "sahas-urja",
-        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
-        "category": "entities",
-        "context": "…See [[ppa-pricing]] for the full rate comparison table and nea-triple-authority for the institutional framework. ## Promoters and Institut…",
-        "target_exists": true
-      },
-      {
-        "slug": "tamor-storage",
-        "title": "Tamor Storage",
-        "category": "entities",
-        "context": "…loan interest, depreciation, and foreign exchange risk. See nea-triple-authority. ## System Context In a system increasingly saturated wit…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-tamakoshi",
-        "title": "Upper Tamakoshi",
-        "category": "entities",
-        "context": "…ese rates and the project's debt service is the core of the nea-triple-authority problem. See the Financial Performance section below for th…",
-        "target_exists": true
-      },
-      {
-        "slug": "ad-penalties",
-        "title": "AD Penalties",
-        "category": "concepts",
-        "context": "…anism is the primary financial instrument through which the nea-triple-authority conflict operates. ## The Penalty Mechanism The Availabil…",
-        "target_exists": true
-      },
-      {
-        "slug": "hydro-insurance",
-        "title": "Hydro Insurance",
-        "category": "concepts",
-        "context": "…and debt service obligations. The central connection is to nea-triple-authority: when physical damage prevents generation, NEA may still ap…",
-        "target_exists": true
-      },
-      {
-        "slug": "ipo-hydropower-bailout",
-        "title": "IPO Hydropower Bailout",
-        "category": "concepts",
-        "context": "…on of that revenue is clawed back through AD penalties. See nea-triple-authority for the institutional framework and [[ad-penalties]] for th…",
-        "target_exists": true
-      },
-      {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "…scretionary process. The central institutional framework is nea-triple-authority: the same entity that sets PPA rates (NEA as single buyer)…",
-        "target_exists": true
-      },
-      {
-        "slug": "q-design-discharge",
-        "title": "Q-Design Discharge",
-        "category": "concepts",
-        "context": "…ct the subsidiary rate advantage documented conceptually in nea-triple-authority. Chilime's 2010 IPO occurred **after seven years of profit…",
-        "target_exists": true
-      },
-      {
-        "slug": "stranded-generation",
-        "title": "Stranded Generation",
-        "category": "concepts",
-        "context": "…no guaranteed compensation for the curtailed producer. See nea-triple-authority for the institutional structure that enables uncompensated…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-nea-structural-separation",
-        "title": "NEA Structural Separation",
-        "category": "interventions",
-        "context": "…A. ## Theory of Change The NEA Triple-Authority Conflict (nea-triple-authority) is not an edge-case governance flaw — it is the institutio…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-q-design-climate-adjustment",
-        "title": "Q-Design Climate Adjustment",
-        "category": "interventions",
-        "context": "…ot told their shares are PPA'd against obsolete hydrology - nea-triple-authority — the institutional framework that enforces unrealistic con…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-sebon-data-transparency",
-        "title": "SEBON Data Transparency",
-        "category": "interventions",
-        "context": "…the IPO-to-bailout pattern this data intervention targets - nea-triple-authority — the institutional structure that AD penalty exposure refl…",
-        "target_exists": true
-      }
-    ],
     "sahas-urja": [
       {
         "slug": "ppa-data-retrieval-icra-care-2026",
@@ -7596,106 +7968,6 @@
         "target_exists": true
       }
     ],
-    "q-design-discharge": [
-      {
-        "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
-        "category": "sources",
-        "context": "…riple-authority-2026]] - [[sahas-urja]] - [[ppa-pricing]] - q-design-discharge",
-        "target_exists": true
-      },
-      {
-        "slug": "ankhu-khola",
-        "title": "Ankhu Khola",
-        "category": "entities",
-        "context": "…ysis-triple-authority-2026]] - [[ipo-hydropower-bailout]] - q-design-discharge <!-- generated:specs:start --> ## Specifications | Para…",
-        "target_exists": true
-      },
-      {
-        "slug": "chilime",
-        "title": "Chilime",
-        "category": "entities",
-        "context": "…nt Urja Khabar audit exceeded 80% of contracted energy. See q-design-discharge for the full generation performance comparison. ### Why Ch…",
-        "target_exists": true
-      },
-      {
-        "slug": "madhya-marsyangdi",
-        "title": "Madhya Marsyangdi",
-        "category": "entities",
-        "context": "…6.0 | 72.7% | The divergence at the bottom of the table is q-design-discharge in action: the plants that underperform by 20–30% are the o…",
-        "target_exists": true
-      },
-      {
-        "slug": "marsyangdi",
-        "title": "Marsyangdi",
-        "category": "entities",
-        "context": "…utperforms the median private IPP — where, as documented in q-design-discharge, zero of 100+ projects in a recent Urja Khabar audit exceed…",
-        "target_exists": true
-      },
-      {
-        "slug": "sahas-urja",
-        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
-        "category": "entities",
-        "context": "…nge for maximizing monsoon energy capture. As documented in q-design-discharge, this is a calculated bet that only works at scale. The 19.…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-tamakoshi",
-        "title": "Upper Tamakoshi",
-        "category": "entities",
-        "context": "…etween design hydrology and operational reality explored in q-design-discharge. | Parameter | Value | |-----------|-------| | Annual desi…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-trishuli-3a",
-        "title": "Upper Trishuli 3A",
-        "category": "entities",
-        "context": "…but dramatically below the design assumption. This is the q-design-discharge problem at NEA scale. A plant built on 70% POE hydrology wi…",
-        "target_exists": true
-      },
-      {
-        "slug": "ad-penalties",
-        "title": "AD Penalties",
-        "category": "concepts",
-        "context": "…thin - [[barahi-hydropower]] — primary audited case study - q-design-discharge — how design discharge sets the contracted energy threshold…",
-        "target_exists": true
-      },
-      {
-        "slug": "ipo-hydropower-bailout",
-        "title": "IPO Hydropower Bailout",
-        "category": "concepts",
-        "context": "…. See [[chilime]] for the pre-IPO profitability context and q-design-discharge for why Chilime's overperformance is not replicable. ## Th…",
-        "target_exists": true
-      },
-      {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "…why the standard IPP rate only works at exceptional scale - q-design-discharge — how design discharge determines contracted energy (the de…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-nea-structural-separation",
-        "title": "NEA Structural Separation",
-        "category": "interventions",
-        "context": "…e. At the DSCR break-point of ~82–84% of contracted energy (q-design-discharge), every percentage point of revenue protected from penalty…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-q-design-climate-adjustment",
-        "title": "Q-Design Climate Adjustment",
-        "category": "interventions",
-        "context": "…ds. ## Theory of Change The Q-design discharge parameter (q-design-discharge) mechanically determines both turbine sizing and the PPA co…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-sebon-data-transparency",
-        "title": "SEBON Data Transparency",
-        "category": "interventions",
-        "context": "…ed energy vs. actual generation, from project-level data in q-design-discharge) - PPA architecture (subsidiary rate advantage documented i…",
-        "target_exists": true
-      }
-    ],
     "ipo-hydropower-bailout": [
       {
         "slug": "sector-financial-analysis-triple-authority-2026",
@@ -7747,68 +8019,168 @@
         "target_exists": true
       }
     ],
-    "ad-penalties": [
+    "upper-tamakoshi": [
       {
-        "slug": "sector-financial-analysis-triple-authority-2026",
-        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
+        "slug": "ukhl-financials-generation-fy2079-82",
+        "title": "UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82",
         "category": "sources",
-        "context": "…]] - [[ipo-hydropower-bailout]] - [[stranded-generation]] - ad-penalties",
+        "context": "…from NPR 10.59 billion to NPR 21.18 billion ## Used by - upper-tamakoshi - [[q-design-discharge]] - [[ppa-pricing]] - [[nea-triple-a…",
         "target_exists": true
       },
       {
-        "slug": "barahi-hydropower",
-        "title": "Barahi Hydropower",
+        "slug": "arun-3",
+        "title": "Arun 3",
         "category": "entities",
-        "context": "…thority]] — the institutional framework this case anchors - ad-penalties — the penalty mechanism at issue",
+        "context": "…nergy contribution than its capacity suggests. Compare with upper-tamakoshi (456 MW continuous RoR) for the contrast in fleet-shape imp…",
         "target_exists": true
       },
       {
-        "slug": "hydro-insurance",
-        "title": "Hydro Insurance",
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower",
+        "category": "entities",
+        "context": "…itive cautionary example for [[buildability]]. Compare with upper-tamakoshi (~7 years) and [[tanahu-hydropower]] (still incomplete afte…",
+        "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "…Gandaki A is a medium-head RoR design — less dramatic than upper-tamakoshi at 822 m, but with pondage that smooths daily load in a way…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…in Dolakha includes multiple significant projects including upper-tamakoshi (456 MW), [[tamakoshi-v]] (99.8 MW), and [[tamakoshi-3]] (2…",
+        "target_exists": true
+      },
+      {
+        "slug": "koshi-basin",
+        "title": "Koshi Basin",
+        "category": "entities",
+        "context": "…]]. Contains the [[dudhkoshi-storage]] project (670 MW) and upper-tamakoshi (456 MW, largest operating plant). The Arun corridor hosts…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2",
+        "category": "entities",
+        "context": "…[[koshi-basin]] — the Likhu Khola drains to the Sun Koshi - upper-tamakoshi — the 456 MW plant that shared the New Khimti bottleneck",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…in [[q-design-discharge]] and the debt service analysis in upper-tamakoshi. Sahas Urja's success is **structural arbitrage**: it capt…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-3",
+        "title": "Tamakoshi 3",
+        "category": "entities",
+        "context": "…sits in the same high-head eastern hydropower geography as upper-tamakoshi. <!-- generated:specs:start --> ## Specifications | Para…",
+        "target_exists": true
+      },
+      {
+        "slug": "run-of-river-hydropower",
+        "title": "Run-of-River Hydropower",
         "category": "concepts",
-        "context": "…ement period is unresolved. This is the mirror image of the ad-penalties curtailment double-bind: a damaged project unable to genera…",
+        "context": "…atch what physics never impounded. The rare counterexamples—upper-tamakoshi as a comparatively “wet-season heavy” large RoR story, and…",
+        "target_exists": true
+      }
+    ],
+    "claim-mw-not-equal-value": [
+      {
+        "slug": "urja-khabar-ipp-generation-audit",
+        "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted",
+        "category": "sources",
+        "context": "…ure is appropriate. ## Used by - [[q-design-discharge]] - claim-mw-not-equal-value",
         "target_exists": true
       },
       {
-        "slug": "ipo-hydropower-bailout",
-        "title": "IPO Hydropower Bailout",
+        "slug": "bheri-1",
+        "title": "Bheri-1 HEP",
+        "category": "entities",
+        "context": "…comparison. This is exactly the kind of project that tests claim-mw-not-equal-value. A 440 MW survey marker can look decisive on a map, but the…",
+        "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "…nergy gap is a real-world demonstration of the principle in claim-mw-not-equal-value. | Parameter | Value | |-----------|-------| | Annual desi…",
+        "target_exists": true
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "category": "entities",
+        "context": "…the performance divergence. See [[q-design-discharge]] and claim-mw-not-equal-value. The seasonal generation charts visible in the NEA FY 2024…",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…ate survives detailed contracting. It also matters for the claim-mw-not-equal-value argument. A 426-480 MW Karnali project can be valuable, but…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "…livers substantially below what the nameplate promises. See claim-mw-not-equal-value. ## See also - [[kali-gandaki-a]] — the next plant in the…",
+        "target_exists": true
+      },
+      {
+        "slug": "energy-substitution-pathway",
+        "title": "Energy Substitution Pathway",
         "category": "concepts",
-        "context": "…[nea-triple-authority]] for the institutional framework and ad-penalties for the penalty mechanism. ## What is missing The primary…",
+        "context": "…an the value of export trade, for the same physical energy. claim-mw-not-equal-value applies directly here. 4. **The \"two-step\" mistake to avoi…",
         "target_exists": true
       },
       {
-        "slug": "nea-triple-authority",
-        "title": "NEA Triple-Authority Conflict",
-        "category": "concepts",
-        "context": "…\"receivable from NEA\" — a forced loan to the off-taker. See ad-penalties for full case detail and [[barahi-hydropower]] for the enti…",
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…RoR, is the physical solution to the seasonal mismatch. - claim-mw-not-equal-value — installed capacity numbers overstate what the system can…",
         "target_exists": true
       },
       {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "…contracted energy (the denominator of all PPA economics) - ad-penalties — the penalty mechanism that compounds the PPA rate disadva…",
+        "slug": "data-layer-hydropower-construction",
+        "title": "Layer: Hydropower - Construction",
+        "category": "data",
+        "context": "…d-generation]] - [[claim-transmission-immediate-blocker]] - claim-mw-not-equal-value - [[twenty-year-strategy]] - [[data-map-layer-labels]] - […",
         "target_exists": true
       },
       {
-        "slug": "stranded-generation",
-        "title": "Stranded Generation",
-        "category": "concepts",
-        "context": "…tional structure that enables uncompensated curtailment and ad-penalties for the penalty mechanism that may compound the loss. ## T…",
+        "slug": "data-layer-hydropower-operating",
+        "title": "Layer: Hydropower - Operating",
+        "category": "data",
+        "context": "…[nepal-energy-profile]] - [[nea-annual-report-fy2024-25]] - claim-mw-not-equal-value - [[data-map-layer-labels]] - [[data-map-inventory]]",
         "target_exists": true
       },
       {
-        "slug": "intervention-nea-structural-separation",
-        "title": "NEA Structural Separation",
-        "category": "interventions",
-        "context": "…PPA rate advantage that structural separation would level - ad-penalties — the penalty mechanism transferred to ERC - [[stranded-gen…",
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…project geography to articles such as [[storage-deficit]], claim-mw-not-equal-value, [[claim-transmission-immediate-blocker]], and [[twenty-yea…",
         "target_exists": true
       },
       {
-        "slug": "intervention-sebon-data-transparency",
-        "title": "SEBON Data Transparency",
-        "category": "interventions",
-        "context": "…penalty exposure (from audited financial statements and the ad-penalties mechanism) - Hydrological performance (contracted energy vs…",
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "…easonal-arbitrage-trap]] - [[claim-storage-physical-fix]] - claim-mw-not-equal-value - [[data-layer-basin-seasonality]] - [[data-map-layer-labe…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…e-shortlist]] - dry-season value comparator. ## Related - claim-mw-not-equal-value - [[twenty-year-strategy]] - [[storage-deficit]] - [[claim-…",
         "target_exists": true
       }
     ],
@@ -8548,13 +8920,6 @@
         "target_exists": true
       },
       {
-        "slug": "upper-tamakoshi",
-        "title": "Upper Tamakoshi",
-        "category": "entities",
-        "context": "…why adding more RoR amplifies both surplus and deficit. See seasonal-mismatch. ## Financial Performance Upper Tamakoshi was built at a…",
-        "target_exists": true
-      },
-      {
         "slug": "upper-trishuli-3a",
         "title": "Upper Trishuli 3A",
         "category": "entities",
@@ -9109,13 +9474,6 @@
         "target_exists": true
       },
       {
-        "slug": "upper-tamakoshi",
-        "title": "Upper Tamakoshi",
-        "category": "entities",
-        "context": "…t contributes heavily to monsoon surplus but cannot provide firm-power in dry season. It exemplifies why adding more RoR amplifies…",
-        "target_exists": true
-      },
-      {
         "slug": "hydropower-potential-categories",
         "title": "Hydropower Potential Categories",
         "category": "concepts",
@@ -9249,64 +9607,6 @@
         "target_exists": true
       }
     ],
-    "upper-tamakoshi": [
-      {
-        "slug": "arun-3",
-        "title": "Arun 3",
-        "category": "entities",
-        "context": "…nergy contribution than its capacity suggests. Compare with upper-tamakoshi (456 MW continuous RoR) for the contrast in fleet-shape imp…",
-        "target_exists": true
-      },
-      {
-        "slug": "chameliya-hydropower",
-        "title": "Chameliya Hydropower",
-        "category": "entities",
-        "context": "…itive cautionary example for [[buildability]]. Compare with upper-tamakoshi (~7 years) and [[tanahu-hydropower]] (still incomplete afte…",
-        "target_exists": true
-      },
-      {
-        "slug": "kali-gandaki-a",
-        "title": "Kali Gandaki A",
-        "category": "entities",
-        "context": "…Gandaki A is a medium-head RoR design — less dramatic than upper-tamakoshi at 822 m, but with pondage that smooths daily load in a way…",
-        "target_exists": true
-      },
-      {
-        "slug": "khimti-cascade",
-        "title": "Khimti Cascade",
-        "category": "entities",
-        "context": "…in Dolakha includes multiple significant projects including upper-tamakoshi (456 MW), [[tamakoshi-v]] (99.8 MW), and [[tamakoshi-3]] (2…",
-        "target_exists": true
-      },
-      {
-        "slug": "koshi-basin",
-        "title": "Koshi Basin",
-        "category": "entities",
-        "context": "…]]. Contains the [[dudhkoshi-storage]] project (670 MW) and upper-tamakoshi (456 MW, largest operating plant). The Arun corridor hosts…",
-        "target_exists": true
-      },
-      {
-        "slug": "sahas-urja",
-        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
-        "category": "entities",
-        "context": "…in [[q-design-discharge]] and the debt service analysis in upper-tamakoshi. Sahas Urja's success is **structural arbitrage**: it capt…",
-        "target_exists": true
-      },
-      {
-        "slug": "tamakoshi-3",
-        "title": "Tamakoshi 3",
-        "category": "entities",
-        "context": "…sits in the same high-head eastern hydropower geography as upper-tamakoshi. <!-- generated:specs:start --> ## Specifications | Para…",
-        "target_exists": true
-      },
-      {
-        "slug": "run-of-river-hydropower",
-        "title": "Run-of-River Hydropower",
-        "category": "concepts",
-        "context": "…atch what physics never impounded. The rare counterexamples—upper-tamakoshi as a comparatively “wet-season heavy” large RoR story, and…",
-        "target_exists": true
-      }
-    ],
     "inaruwa-purnea-interconnection": [
       {
         "slug": "arun-3",
@@ -9413,92 +9713,6 @@
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…for separating headline MW from deliverable system value. | data-layer-top-10-capacity-projects | ## Transmission and trade layers | Label | Features | S…",
-        "target_exists": true
-      }
-    ],
-    "claim-mw-not-equal-value": [
-      {
-        "slug": "bheri-1",
-        "title": "Bheri-1 HEP",
-        "category": "entities",
-        "context": "…comparison. This is exactly the kind of project that tests claim-mw-not-equal-value. A 440 MW survey marker can look decisive on a map, but the…",
-        "target_exists": true
-      },
-      {
-        "slug": "kali-gandaki-a",
-        "title": "Kali Gandaki A",
-        "category": "entities",
-        "context": "…nergy gap is a real-world demonstration of the principle in claim-mw-not-equal-value. | Parameter | Value | |-----------|-------| | Annual desi…",
-        "target_exists": true
-      },
-      {
-        "slug": "marsyangdi",
-        "title": "Marsyangdi",
-        "category": "entities",
-        "context": "…the performance divergence. See [[q-design-discharge]] and claim-mw-not-equal-value. The seasonal generation charts visible in the NEA FY 2024…",
-        "target_exists": true
-      },
-      {
-        "slug": "phukot-karnali",
-        "title": "Phukot Karnali",
-        "category": "entities",
-        "context": "…ate survives detailed contracting. It also matters for the claim-mw-not-equal-value argument. A 426-480 MW Karnali project can be valuable, but…",
-        "target_exists": true
-      },
-      {
-        "slug": "trishuli",
-        "title": "Trishuli",
-        "category": "entities",
-        "context": "…livers substantially below what the nameplate promises. See claim-mw-not-equal-value. ## See also - [[kali-gandaki-a]] — the next plant in the…",
-        "target_exists": true
-      },
-      {
-        "slug": "energy-substitution-pathway",
-        "title": "Energy Substitution Pathway",
-        "category": "concepts",
-        "context": "…an the value of export trade, for the same physical energy. claim-mw-not-equal-value applies directly here. 4. **The \"two-step\" mistake to avoi…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Start Here",
-        "category": "syntheses",
-        "context": "…RoR, is the physical solution to the seasonal mismatch. - claim-mw-not-equal-value — installed capacity numbers overstate what the system can…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-hydropower-construction",
-        "title": "Layer: Hydropower - Construction",
-        "category": "data",
-        "context": "…d-generation]] - [[claim-transmission-immediate-blocker]] - claim-mw-not-equal-value - [[twenty-year-strategy]] - [[data-map-layer-labels]] - […",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-hydropower-operating",
-        "title": "Layer: Hydropower - Operating",
-        "category": "data",
-        "context": "…[nepal-energy-profile]] - [[nea-annual-report-fy2024-25]] - claim-mw-not-equal-value - [[data-map-layer-labels]] - [[data-map-inventory]]",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-priority-watchlist",
-        "title": "Layer: Priority Watchlist",
-        "category": "data",
-        "context": "…project geography to articles such as [[storage-deficit]], claim-mw-not-equal-value, [[claim-transmission-immediate-blocker]], and [[twenty-yea…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-storage-shortlist",
-        "title": "Layer: Storage Shortlist",
-        "category": "data",
-        "context": "…easonal-arbitrage-trap]] - [[claim-storage-physical-fix]] - claim-mw-not-equal-value - [[data-layer-basin-seasonality]] - [[data-map-layer-labe…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-top-10-capacity-projects",
-        "title": "Layer: Top-10 Capacity Projects",
-        "category": "data",
-        "context": "…e-shortlist]] - dry-season value comparator. ## Related - claim-mw-not-equal-value - [[twenty-year-strategy]] - [[storage-deficit]] - [[claim-…",
         "target_exists": true
       }
     ],
@@ -10716,7 +10930,7 @@
         "slug": "khimti-i",
         "title": "Khimti -I",
         "category": "entities",
-        "context": "…the registry. ## See also - [[run-of-river-hydropower]] - khimti-dhalkebar-corridor — the 220 kV line built to evacuate this plant",
+        "context": "…ti–Dhalkebar corridor congestion as grid planning failure - khimti-dhalkebar-corridor — the 220 kV line built to evacuate this plant - [[koshi-ba…",
         "target_exists": true
       },
       {
@@ -10977,29 +11191,6 @@
         "target_exists": true
       }
     ],
-    "khimti-i": [
-      {
-        "slug": "khimti-cascade",
-        "title": "Khimti Cascade",
-        "category": "entities",
-        "context": "…Developer | |-------|--------------|--------|-----------| | khimti-i | 60 | Operating | Himal Power Limited | | [[khimti-ii]] |…",
-        "target_exists": true
-      },
-      {
-        "slug": "khimti-dhalkebar-corridor",
-        "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor",
-        "category": "entities",
-        "context": "…e original \"IPP-to-grid\" line in Nepal. Built to evacuate **khimti-i** — the country's first large IPP (1996 PPA, 2000 commissio…",
-        "target_exists": true
-      },
-      {
-        "slug": "hybrid-siting-logic",
-        "title": "Hybrid Siting Logic",
-        "category": "concepts",
-        "context": "…agship; dam-adjacent flats suited to 25–40 MWp ground PV. - khimti-i — 60 MW IPP; headrace-adjacent terraces, 10–15 MWp candidat…",
-        "target_exists": true
-      }
-    ],
     "khimti-ii": [
       {
         "slug": "khimti-cascade",
@@ -11169,15 +11360,6 @@
         "title": "Likhu Cascade",
         "category": "entities",
         "context": "…| District | |-------|--------------|--------|----------| | likhu-1 | 77.0 | Under construction | Solukhumbu | | [[likhu-2]] |…",
-        "target_exists": true
-      }
-    ],
-    "likhu-2": [
-      {
-        "slug": "likhu-cascade",
-        "title": "Likhu Cascade",
-        "category": "entities",
-        "context": "…| [[likhu-1]] | 77.0 | Under construction | Solukhumbu | | likhu-2 | 55.0 | Under construction | Solukhumbu | | [[likhu-khola-…",
         "target_exists": true
       }
     ],

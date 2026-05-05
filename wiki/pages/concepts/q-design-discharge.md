@@ -53,18 +53,33 @@ The following table compares contracted energy against actual generation for pro
 |---|---|---|---|---|---|---|---|
 | **Chilime** | 22.1 | ~Q65 | 132.9 | 146.3 | **110.1%** | FY 2076/77 | CHCL annual report |
 | **Chilime** | 22.1 | ~Q65 | 132.9 | 153.7 | **115.6%** | FY 2075/76 | CHCL annual report |
-| **Upper Tamakoshi** | 456 | Q40–Q45 | 2,281 | ~1,340 [UNVERIFIED] | **~59%** [UNVERIFIED] | FY 2079/80 | Estimated from UKHLL revenues |
+| **Upper Tamakoshi** | 456 | Q40–Q45 | 2,281 | 1,945.83 | **85.3%** | FY 2079/80 | UKHLL audited accounts |
+| **Upper Tamakoshi** | 456 | Q40–Q45 | 2,281 | 2,058.36 | **90.2%** | FY 2080/81 | UKHLL audited accounts |
 | **Sanima Mai** | 22.0 | Q40 | 121.7 | 116.8 | **96.0%** | FY 2076/77 | CARE Ratings |
 | **Sanima Mai** | 22.0 | Q40 | 121.7 | 107.1 | **88.0%** | FY 2077/78 | CARE Ratings |
 | **Sanima Mai** | 22.0 | Q40 | 121.7 | 88.8 | **73.0%** | FY 2078/79 | CARE Ratings |
 | **Sanima Mai** | 22.0 | Q40 | 121.7 | 103.4 | **85.0%** | FY 2079/80 | CARE Ratings |
 | **Api Power (Upper Naugarh Gad)** | 8.0 | Q40 | 46.0 | 31.2 | **68.0%** | FY 2075/76 | ICRANP rating |
-| **Likhu-2** | 55 | RoR | 242.4 | ~146 [UNVERIFIED] | **~60%** [UNVERIFIED] | FY 2023/24 | Engineer's report |
-| **Likhu-2** | 55 | RoR | 242.4 | ~221 [UNVERIFIED] | **~91%** [UNVERIFIED] | FY 2024/25 | Engineer's report |
+| **Likhu-2** | 55 | RoR | 242.4 | ~146 | **~60%** ⚠ | FY 2023/24 | CARE Nepal — **exclude: stranded generation (NEA substation bottleneck), not a hydrology signal** |
+| **Likhu-2** | 55 | RoR | 242.4 | ~221 | **~91%** | FY 2024/25 | CARE Nepal — operationally valid baseline after 200 MVA transformer upgrade |
 
-A broader audit published by Urja Khabar, analyzing over 100 projects, found that **13 projects produced less than 50% of contracted energy, 40 produced less than 70%, and 50 hovered around 80%**. Strikingly, **zero projects evaluated in that dataset exceeded 80% of design energy** — except for Chilime.
+A broader audit published by Urja Khabar (January 2026, Kumar Pandey), citing a
+MoEWRI report from Ashad 2077 (mid-2020) on financially distressed small hydropower
+projects, found that **13 projects produced less than 50% of contracted energy,
+40 produced less than 70%, and 50 hovered around 80%**. Strikingly, **zero projects
+evaluated in that dataset exceeded 80% of design energy** — except for Chilime. The
+Urja Khabar article is secondary reporting of the MoEWRI assessment, not an
+independent data audit; no project-level dataset accompanies the publication.
 
-The claim that "the average small project produces only ~32% of its contracted energy" circulates in industry discussion. **This figure is [UNDER REVIEW: likely represents seasonal extreme (dry-month performance), not annual average].** If the sector-wide annual average were strictly 32%, the Nepalese banking system's hydro exposure would have triggered a systemic financial collapse. Annual averages for underperforming projects tend to float between 60% and 80%. The 32% figure is best understood as performance during the most critical dry-season months, when energy is most valuable and most heavily penalized.
+The claim that "the average small project produces only ~32% of its contracted
+energy" circulates in industry discussion. **This figure is not attributable to the
+Urja Khabar/MoEWRI source directly** — it likely represents a dry-season performance
+figure circulating in industry commentary, not an annual average. If the sector-wide
+annual average were strictly 32%, the Nepalese banking system's hydro exposure would
+have triggered a systemic financial collapse. Annual averages for underperforming
+projects tend to float between 60% and 80%. The 32% figure is best understood as
+performance during the most critical dry-season months, when energy is most valuable
+and most heavily penalized.
 
 ## The Chilime anomaly: why it overperforms and why it is not replicable
 

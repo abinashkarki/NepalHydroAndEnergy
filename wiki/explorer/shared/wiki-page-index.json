@@ -2,6 +2,10 @@
   "byCategory": {
     "sources": [
       {
+        "slug": "ad-penalty-clause-research",
+        "title": "AD Penalty Clause in Nepal's PPA \u2014 Research Compilation"
+      },
+      {
         "slug": "adb-hydropower-growth-nepal",
         "title": "ADB Hydropower Growth Nepal Study"
       },
@@ -58,6 +62,14 @@
         "title": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia"
       },
       {
+        "slug": "khimti-i-project-research",
+        "title": "Khimti-I Project Research \u2014 PPA, Generation, Finance, Ownership"
+      },
+      {
+        "slug": "likhu-cascade-research-compilation",
+        "title": "Likhu Cascade Research Compilation"
+      },
+      {
         "slug": "moewri-ipsdp-exec-summary-2025",
         "title": "MoEWRI IPSDP Executive Summary"
       },
@@ -98,8 +110,16 @@
         "title": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)"
       },
       {
+        "slug": "ukhl-financials-generation-fy2079-82",
+        "title": "UKHLL Financials and Generation Data \u2014 FY 2079/80 to FY 2081/82"
+      },
+      {
         "slug": "upper-karnali-pda-record",
         "title": "Upper Karnali \u2014 PDA, Financial Closure & Court Record"
+      },
+      {
+        "slug": "urja-khabar-ipp-generation-audit",
+        "title": "Urja Khabar Generation Audit \u2014 IPP Generation vs Contracted"
       },
       {
         "slug": "wb-country-economic-memo-2025",
@@ -1376,6 +1396,7 @@
     ]
   },
   "allSlugs": [
+    "ad-penalty-clause-research",
     "adb-hydropower-growth-nepal",
     "aepc-renewable-framework",
     "arun-3-project-status-2025",
@@ -1390,6 +1411,8 @@
     "irena-remap-nepal",
     "jica-ipsdp-main-report-vol2",
     "kali-gandaki-a-adb-evaluation",
+    "khimti-i-project-research",
+    "likhu-cascade-research-compilation",
     "moewri-ipsdp-exec-summary-2025",
     "mugu-karnali-feasibility-2025",
     "national-water-plan-nepal",
@@ -1400,7 +1423,9 @@
     "sahas-urja-benchmark-icra-2026",
     "sector-financial-analysis-triple-authority-2026",
     "tanahu-adb-status-2025",
+    "ukhl-financials-generation-fy2079-82",
     "upper-karnali-pda-record",
+    "urja-khabar-ipp-generation-audit",
     "wb-country-economic-memo-2025",
     "wb-esmap-solar-resource-assessment",
     "wb-ganges-strategic-basin-assessment",
@@ -1718,6 +1743,7 @@
     "intervention-transmission-completion"
   ],
   "slugToCategory": {
+    "ad-penalty-clause-research": "sources",
     "adb-hydropower-growth-nepal": "sources",
     "aepc-renewable-framework": "sources",
     "arun-3-project-status-2025": "sources",
@@ -1732,6 +1758,8 @@
     "irena-remap-nepal": "sources",
     "jica-ipsdp-main-report-vol2": "sources",
     "kali-gandaki-a-adb-evaluation": "sources",
+    "khimti-i-project-research": "sources",
+    "likhu-cascade-research-compilation": "sources",
     "moewri-ipsdp-exec-summary-2025": "sources",
     "mugu-karnali-feasibility-2025": "sources",
     "national-water-plan-nepal": "sources",
@@ -1742,7 +1770,9 @@
     "sahas-urja-benchmark-icra-2026": "sources",
     "sector-financial-analysis-triple-authority-2026": "sources",
     "tanahu-adb-status-2025": "sources",
+    "ukhl-financials-generation-fy2079-82": "sources",
     "upper-karnali-pda-record": "sources",
+    "urja-khabar-ipp-generation-audit": "sources",
     "wb-country-economic-memo-2025": "sources",
     "wb-esmap-solar-resource-assessment": "sources",
     "wb-ganges-strategic-basin-assessment": "sources",
@@ -2060,6 +2090,7 @@
     "intervention-transmission-completion": "interventions"
   },
   "slugToTitle": {
+    "ad-penalty-clause-research": "AD Penalty Clause in Nepal's PPA \u2014 Research Compilation",
     "adb-hydropower-growth-nepal": "ADB Hydropower Growth Nepal Study",
     "aepc-renewable-framework": "AEPC Renewable Framework and Progress Reports",
     "arun-3-project-status-2025": "Arun-3 Project Status & PDA Summary (2025)",
@@ -2074,6 +2105,8 @@
     "irena-remap-nepal": "IRENA Renewable Readiness Assessment and REmap Nepal",
     "jica-ipsdp-main-report-vol2": "JICA IPSDP Final Report Annexes (Vol. 2)",
     "kali-gandaki-a-adb-evaluation": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia",
+    "khimti-i-project-research": "Khimti-I Project Research \u2014 PPA, Generation, Finance, Ownership",
+    "likhu-cascade-research-compilation": "Likhu Cascade Research Compilation",
     "moewri-ipsdp-exec-summary-2025": "MoEWRI IPSDP Executive Summary",
     "mugu-karnali-feasibility-2025": "Mugu Karnali Storage \u2014 Feasibility, Bids & EOI Record (2024\u20132025)",
     "national-water-plan-nepal": "National Water Plan, Nepal",
@@ -2084,7 +2117,9 @@
     "sahas-urja-benchmark-icra-2026": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) \u2014 Benchmark IPP Success\"",
     "sector-financial-analysis-triple-authority-2026": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)",
+    "ukhl-financials-generation-fy2079-82": "UKHLL Financials and Generation Data \u2014 FY 2079/80 to FY 2081/82",
     "upper-karnali-pda-record": "Upper Karnali \u2014 PDA, Financial Closure & Court Record",
+    "urja-khabar-ipp-generation-audit": "Urja Khabar Generation Audit \u2014 IPP Generation vs Contracted",
     "wb-country-economic-memo-2025": "World Bank Nepal Country Economic Memorandum (2025)",
     "wb-esmap-solar-resource-assessment": "World Bank ESMAP Nepal Solar and Wind Resource Measurement",
     "wb-ganges-strategic-basin-assessment": "World Bank Ganges Strategic Basin Assessment",
@@ -2401,5 +2436,5 @@
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 340
+  "totalPages": 345
 }
