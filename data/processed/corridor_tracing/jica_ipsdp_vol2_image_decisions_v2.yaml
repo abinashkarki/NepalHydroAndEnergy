@@ -1262,7 +1262,7 @@
   source_page: 263
   note: "caption-rehabbed-from-page-text"
   raw_caption: "Source: JICA Study Team"
-  candidate_slugs: ["kali-gandaki-kowan", "kaligandaki-upper", "lower-badigad"]
+  candidate_slugs: ["kali-gandaki-kowan", "kali-gandaki-upper", "lower-badigad"]
 - page: 264
   image_index: 0
   action: inline_figure

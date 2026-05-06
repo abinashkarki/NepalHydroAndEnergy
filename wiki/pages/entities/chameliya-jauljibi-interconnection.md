@@ -26,7 +26,7 @@ expansion in far-western Nepal (including the long-dormant
 | Nepal terminal | Chameliya substation (Darchula) |
 | India terminal | Jauljibi (Pithoragarh, Uttarakhand) |
 | Primary basin served | [[mahakali-basin]] |
-| Driving projects | [[chameliya-khola]] (30 MW operational), future Mahakali cascade |
+| Driving projects | [[chameliya-hydropower]] (30 MW operational), future Mahakali cascade |
 | Interconnection ID | `chameliya_jauljibi` |
 
 ## Significance
@@ -53,7 +53,7 @@ expansion in far-western Nepal (including the long-dormant
 
 ## See also
 
-- [[chameliya-khola]] — the river and the existing 30 MW plant
+- [[chameliya-hydropower]] — the existing 30 MW plant
 - [[pancheshwar]] — the dormant anchor project
 - [[mahakali-basin]]
 - [[india-energy-relationship]]

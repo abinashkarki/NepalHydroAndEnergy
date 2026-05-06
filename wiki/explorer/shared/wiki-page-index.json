@@ -252,10 +252,6 @@
         "title": "Budhi Gandaki Prok Khola HEP"
       },
       {
-        "slug": "budhi-gandaki",
-        "title": "Budhi Gandaki Hydropower Project"
-      },
-      {
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project"
       },
@@ -280,8 +276,8 @@
         "title": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection"
       },
       {
-        "slug": "chameliya-khola",
-        "title": "Chameliya Khola"
+        "slug": "chera-1",
+        "title": "Chera-1"
       },
       {
         "slug": "chilime-trishuli-220kv-transmission-line",
@@ -376,7 +372,7 @@
         "title": "Kali Gandaki Kowan"
       },
       {
-        "slug": "kaligandaki-upper",
+        "slug": "kali-gandaki-upper",
         "title": "Kaligandaki Upper"
       },
       {
@@ -682,10 +678,6 @@
       {
         "slug": "singati-khola-hydropower-project",
         "title": "Singati Khola Hydropower Project"
-      },
-      {
-        "slug": "solu-khola-dudha-koshi",
-        "title": "Solu Khola (Dudha Koshi)"
       },
       {
         "slug": "solu-tingla-mirchaiya-132",
@@ -1478,14 +1470,13 @@
     "bishnu-priya-nawalparasi",
     "budhi-gandaki-kha",
     "budhi-gandaki-prok-khola",
-    "budhi-gandaki",
     "budhigandaki",
     "butwal-solar-ridi-8-5mwp",
     "chainpur-seti",
     "chameliya-attariya-132",
     "chameliya-hydropower",
     "chameliya-jauljibi-interconnection",
-    "chameliya-khola",
+    "chera-1",
     "chilime-trishuli-220kv-transmission-line",
     "chilime",
     "damak-godak-phidim-132kv",
@@ -1509,7 +1500,7 @@
     "kabeli-b-1",
     "kali-gandaki-a",
     "kali-gandaki-kowan",
-    "kaligandaki-upper",
+    "kali-gandaki-upper",
     "karnali-basin",
     "karnali-chisapani",
     "karnali-solar-energy-project",
@@ -1586,7 +1577,6 @@
     "sanjen-khola",
     "sanjen",
     "singati-khola-hydropower-project",
-    "solu-khola-dudha-koshi",
     "solu-tingla-mirchaiya-132",
     "solu",
     "sun-koshi-no-3",
@@ -1830,14 +1820,13 @@
     "bishnu-priya-nawalparasi": "entities",
     "budhi-gandaki-kha": "entities",
     "budhi-gandaki-prok-khola": "entities",
-    "budhi-gandaki": "entities",
     "budhigandaki": "entities",
     "butwal-solar-ridi-8-5mwp": "entities",
     "chainpur-seti": "entities",
     "chameliya-attariya-132": "entities",
     "chameliya-hydropower": "entities",
     "chameliya-jauljibi-interconnection": "entities",
-    "chameliya-khola": "entities",
+    "chera-1": "entities",
     "chilime-trishuli-220kv-transmission-line": "entities",
     "chilime": "entities",
     "damak-godak-phidim-132kv": "entities",
@@ -1861,7 +1850,7 @@
     "kabeli-b-1": "entities",
     "kali-gandaki-a": "entities",
     "kali-gandaki-kowan": "entities",
-    "kaligandaki-upper": "entities",
+    "kali-gandaki-upper": "entities",
     "karnali-basin": "entities",
     "karnali-chisapani": "entities",
     "karnali-solar-energy-project": "entities",
@@ -1938,7 +1927,6 @@
     "sanjen-khola": "entities",
     "sanjen": "entities",
     "singati-khola-hydropower-project": "entities",
-    "solu-khola-dudha-koshi": "entities",
     "solu-tingla-mirchaiya-132": "entities",
     "solu": "entities",
     "sun-koshi-no-3": "entities",
@@ -2182,14 +2170,13 @@
     "bishnu-priya-nawalparasi": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)",
     "budhi-gandaki-kha": "Budhi Gandaki Kha HEP",
     "budhi-gandaki-prok-khola": "Budhi Gandaki Prok Khola HEP",
-    "budhi-gandaki": "Budhi Gandaki Hydropower Project",
     "budhigandaki": "Budhigandaki Hydroelectric Project",
     "butwal-solar-ridi-8-5mwp": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
     "chainpur-seti": "Chainpur Seti",
     "chameliya-attariya-132": "Chameliya-Syaule-Attariya 132 kV Line",
     "chameliya-hydropower": "Chameliya Hydropower",
     "chameliya-jauljibi-interconnection": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection",
-    "chameliya-khola": "Chameliya Khola",
+    "chera-1": "Chera-1",
     "chilime-trishuli-220kv-transmission-line": "Chilime-Trishuli 220 kV Transmission Line",
     "chilime": "Chilime",
     "damak-godak-phidim-132kv": "Damak\u2013Godak\u2013Phidim 132 kV Corridor",
@@ -2213,7 +2200,7 @@
     "kabeli-b-1": "Kabeli B - 1",
     "kali-gandaki-a": "Kali Gandaki A",
     "kali-gandaki-kowan": "Kali Gandaki Kowan",
-    "kaligandaki-upper": "Kaligandaki Upper",
+    "kali-gandaki-upper": "Kaligandaki Upper",
     "karnali-basin": "Karnali Basin",
     "karnali-chisapani": "Karnali Chisapani Project",
     "karnali-solar-energy-project": "Karnali Solar Energy Project",
@@ -2290,7 +2277,6 @@
     "sanjen-khola": "Sanjen Khola",
     "sanjen": "Sanjen",
     "singati-khola-hydropower-project": "Singati Khola Hydropower Project",
-    "solu-khola-dudha-koshi": "Solu Khola (Dudha Koshi)",
     "solu-tingla-mirchaiya-132": "Solu Corridor Tingla-Mirchaiya 132 kV",
     "solu": "Solu Hydropower Project",
     "sun-koshi-no-3": "Sun Koshi No.3",
@@ -2471,5 +2457,5 @@
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 350
+  "totalPages": 348
 }

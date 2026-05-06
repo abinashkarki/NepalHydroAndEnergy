@@ -47,7 +47,7 @@ is complete.
 ## See also
 
 - [[solu]]
-- [[solu-khola-dudha-koshi]]
+- [[sahas-urja]]
 - [[claim-transmission-immediate-blocker]]
 - [[nepal-transmission-landscape-2025]]
 

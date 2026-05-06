@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 257,
-  "total_refs": 2021,
+  "total_refs": 2053,
   "backlinks": {
     "ad-penalties": [
       {
@@ -324,6 +324,13 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…ot in Kulekhani's revenue line. This is part of the broader ppa-pricing challenge: Nepal's tariff structure does not compensate sto…",
+        "target_exists": true
+      },
+      {
         "slug": "likhu-1",
         "title": "Likhu -1",
         "category": "entities",
@@ -431,13 +438,6 @@
         "target_exists": true
       },
       {
-        "slug": "budhi-gandaki",
-        "title": "Budhi Gandaki Hydropower Project",
-        "category": "entities",
-        "context": "…ined from the registry. ## See also - [[gandaki-basin]] - buildability",
-        "target_exists": true
-      },
-      {
         "slug": "budhi-gandaki-kha",
         "title": "Budhi Gandaki Kha HEP",
         "category": "entities",
@@ -504,7 +504,7 @@
         "slug": "karnali-chisapani",
         "title": "Karnali Chisapani Project",
         "category": "entities",
-        "context": "…d social displacement questions at unprecedented scale. See buildability and [[hydro-geopolitics]]. ## Significance If ever reali…",
+        "context": "…r progressed beyond basin-level reconnaissance studies. See buildability and [[hydro-geopolitics]]. | Parameter | Value | |--------…",
         "target_exists": true
       },
       {
@@ -1504,7 +1504,7 @@
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…EOI reflects the India-developer pattern that runs through arun-3, [[upper-karnali]] and [[west-seti]]. Chowdhury Group's for…",
+        "context": "…nsistent with the India-developer pattern that runs through arun-3 (SJVN), [[upper-karnali]] (GMR), and [[west-seti]] (NHPC).…",
         "target_exists": true
       },
       {
@@ -1525,7 +1525,7 @@
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…200–500 MW). This is the canonical export-first model that arun-3 is executing and Upper Karnali has not. The Bangladesh comp…",
+        "context": "…n the Karnali main stem — the same engineering archetype as arun-3 but in the western Karnali basin. At 900 MW, it would be th…",
         "target_exists": true
       },
       {
@@ -1625,7 +1625,7 @@
         "slug": "karnali-chisapani",
         "title": "Karnali Chisapani Project",
         "category": "entities",
-        "context": "…questions at unprecedented scale. See [[buildability]] and hydro-geopolitics. ## Significance If ever realized, Karnali Chisapani wou…",
+        "context": "…asin-level reconnaissance studies. See [[buildability]] and hydro-geopolitics. | Parameter | Value | |-----------|-------| | Current sta…",
         "target_exists": true
       },
       {
@@ -1653,7 +1653,14 @@
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…o builds Nepal's biggest reservoirs?\" becomes concrete. See hydro-geopolitics. | Parameter | Value | |-----------|-------| | Developer |…",
+        "context": "…eficit]] - [[upper-karnali]] - [[west-seti]] - [[arun-3]] - hydro-geopolitics - [[seasonal-mismatch]] - [[stranded-generation]] - [[solar…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…lly, cross-border flows into India's Ghaghara system. See hydro-geopolitics. ## Map Interpretation The map marker is a river-aligned…",
         "target_exists": true
       },
       {
@@ -1667,7 +1674,7 @@
         "slug": "pancheshwar",
         "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
-        "context": "…## Significance Pancheshwar is the ultimate case study for hydro-geopolitics. It shows how bilateral treaty structures, domestic politic…",
+        "context": "…ject in the region — and the most instructive case study in hydro-geopolitics anywhere in South Asia. Signed into a treaty in 1996, the p…",
         "target_exists": true
       },
       {
@@ -1681,7 +1688,7 @@
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…ctural change in what \"India-developed\" means in Nepal. See hydro-geopolitics. | Parameter | Value | |-----------|-------| | Developer |…",
+        "context": "…ctural change in what \"India-developed\" means in Nepal. See hydro-geopolitics. The 2008 international competitive bidding awarded the pr…",
         "target_exists": true
       },
       {
@@ -1921,7 +1928,7 @@
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…02 MW from the head of the Karnali is not yet resolved: see stranded-generation. | Parameter | Value | |-----------|-------| | Annual desi…",
+        "context": "…ansmission masterplan at scale. Without it, Mugu Karnali is stranded-generation by construction. The closest existing 400 kV infrastructure…",
         "target_exists": true
       },
       {
@@ -1956,7 +1963,7 @@
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…is not the product, execution is. See [[buildability]] and stranded-generation. | Parameter | Value | |-----------|-------| | Completion…",
+        "context": "…is not the product, execution is. See [[buildability]] and stranded-generation. | Parameter | Value | |-----------|-------| | Licence awa…",
         "target_exists": true
       },
       {
@@ -2477,6 +2484,13 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…: [[tanahu-hydropower]] (140 MW storage, ~67% complete) and dudhkoshi-storage (635 MW, pre-construction) are the next storage projects th…",
+        "target_exists": true
+      },
+      {
         "slug": "kulekhani-i",
         "title": "Kulekhani I",
         "category": "entities",
@@ -2487,7 +2501,7 @@
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…[[storage-deficit]] and [[firm-power]] picture — more than dudhkoshi-storage, [[budhigandaki]] or any combination of smaller reservoirs…",
+        "context": "…xists at the current pre-feasibility stage. As a reference: dudhkoshi-storage (635 MW) has an estimated cost of ~USD 2.2 billion (~USD 3.…",
         "target_exists": true
       },
       {
@@ -2726,6 +2740,13 @@
         "target_exists": true
       },
       {
+        "slug": "chera-1",
+        "title": "Chera-1",
+        "category": "entities",
+        "context": "…ge master plan volume 2 ## See also - [[karnali-basin]] - storage-deficit - [[firm-power]] - [[data-layer-storage-shortlist]] - [[dat…",
+        "target_exists": true
+      },
+      {
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
@@ -2757,7 +2778,7 @@
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…base — against 3,400+ MW of total hydro — encapsulates the storage-deficit. ## Related - [[kulekhani-i]] — the upper reservoir plant…",
+        "context": "…d instead became the only one. ## The Storage Paradox The storage-deficit page describes the arithmetic: Nepal's ~3,400+ MW of instal…",
         "target_exists": true
       },
       {
@@ -2820,7 +2841,7 @@
         "slug": "nalsyau-gad",
         "title": "Nalsyau Gad",
         "category": "entities",
-        "context": "…one of the few project records that directly addresses the storage-deficit rather than only adding wet-season energy. This is why it…",
+        "context": "…one of the few project records that directly addresses the storage-deficit rather than only adding wet-season energy. ### Shortlist C…",
         "target_exists": true
       },
       {
@@ -3585,6 +3606,13 @@
         "target_exists": true
       },
       {
+        "slug": "karnali-chisapani",
+        "title": "Karnali Chisapani Project",
+        "category": "entities",
+        "context": "…/assets/maps/html/nepal_geopolitics_river_influence.html) - data-map-inventory",
+        "target_exists": true
+      },
+      {
         "slug": "koshi-basin",
         "title": "Koshi Basin",
         "category": "entities",
@@ -3606,6 +3634,20 @@
         "target_exists": true
       },
       {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…olar-hydro-complementarity]] - [[bangladesh-trade-route]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…sign-constraint]] - [[nepal-transmission-landscape-2025]] - data-map-inventory",
+        "target_exists": true
+      },
+      {
         "slug": "nepal-energy-profile",
         "title": "Nepal Energy Profile",
         "category": "entities",
@@ -3624,6 +3666,13 @@
         "title": "Tanahu Hydropower Project",
         "category": "entities",
         "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-karnali",
+        "title": "Upper Karnali",
+        "category": "entities",
+        "context": "…[[nepal-transmission-landscape-2025]] - [[buildability]] - data-map-inventory",
         "target_exists": true
       },
       {
@@ -4051,7 +4100,7 @@
         "slug": "pancheshwar",
         "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
-        "context": "…is actually advancing (slowly). The comparison supports the domestic-led-hydro-strategy thesis. ## Status (updated April 2026) **Stalled. No con…",
+        "context": "…d storage project that is actually advancing — supports the domestic-led-hydro-strategy thesis: projects that Nepal can control unilaterally are sl…",
         "target_exists": true
       },
       {
@@ -4784,6 +4833,13 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…rating reservoir, Kulekhani is also the best data point for sediment-as-design-constraint. The Kulekhani catchment drains the Mahabharat range, and m…",
+        "target_exists": true
+      },
+      {
         "slug": "kulekhani-i",
         "title": "Kulekhani I",
         "category": "entities",
@@ -4795,6 +4851,13 @@
         "title": "Kulekhani II",
         "category": "entities",
         "context": "…al-mismatch]] — the cycle the cascade partially addresses - sediment-as-design-constraint — what decades of sedimentation mean for reservoir life",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…ntaining active storage volume over the project life. See sediment-as-design-constraint - **GLOF exposure** — lower than the Dudh Koshi or Arun bas…",
         "target_exists": true
       },
       {
@@ -4943,7 +5006,7 @@
         "slug": "pancheshwar",
         "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
-        "context": "…erializing. ## Related - [[mahakali-basin]] — the river - india-energy-relationship — the bilateral context - [[hydro-geopolitics]] — the analy…",
+        "context": "…impossible. ## Related - [[mahakali-basin]] — the river - india-energy-relationship — the bilateral context - [[hydro-geopolitics]] — the analy…",
         "target_exists": true
       },
       {
@@ -6138,7 +6201,7 @@
         "slug": "nalsyau-gad",
         "title": "Nalsyau Gad",
         "category": "entities",
-        "context": "…hanges the dry-season balance, especially in a system where kulekhani-cascade is still the only operating seasonal-storage anchor and [[t…",
+        "context": "…e of seasonal-storage projects with much larger reservoirs. kulekhani-cascade achieves ~50% dry share with only 106 MW. [[budhigandaki]]…",
         "target_exists": true
       },
       {
@@ -6284,6 +6347,13 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…model was never replicated. Every subsequent NEA project — kali-gandaki-a (144 MW, 2002), [[upper-tamakoshi]] (456 MW, 2021) — chose…",
+        "target_exists": true
+      },
+      {
         "slug": "lower-badigad",
         "title": "Lower Badigad",
         "category": "entities",
@@ -6360,6 +6430,13 @@
         "title": "Kali Gandaki A",
         "category": "entities",
         "context": "…hat problem still sits in pages like [[dudhkoshi-storage]], tanahu-hydropower and [[budhigandaki]] — not here. ## See also - [[gandaki-…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…not add new reservoir capacity. Compare with the pipeline: tanahu-hydropower (140 MW storage, ~67% complete) and [[dudhkoshi-storage]] (…",
         "target_exists": true
       },
       {
@@ -6496,7 +6573,14 @@
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…s the India-developer pattern that runs through [[arun-3]], upper-karnali and [[west-seti]]. Chowdhury Group's formal bid represents…",
+        "context": "…ndia-developer pattern that runs through [[arun-3]] (SJVN), upper-karnali (GMR), and [[west-seti]] (NHPC). Adani's interest signals t…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…he planned Karnali basin transmission backbone (linked to upper-karnali and [[mugu-karnali-storage]] evacuation plans) - Possibly a…",
         "target_exists": true
       },
       {
@@ -6534,13 +6618,6 @@
         "title": "Andhi Khola",
         "category": "entities",
         "context": "…Category | jica promising storage | | River | Andhi Khola (gandaki-basin) | | District | Syangja | | Province | Gandaki Pradesh | |…",
-        "target_exists": true
-      },
-      {
-        "slug": "budhi-gandaki",
-        "title": "Budhi Gandaki Hydropower Project",
-        "category": "entities",
-        "context": "…1 MW | | Status | Survey / study | | River | Budhi Gandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
@@ -6600,7 +6677,7 @@
         "target_exists": true
       },
       {
-        "slug": "kaligandaki-upper",
+        "slug": "kali-gandaki-upper",
         "title": "Kaligandaki Upper",
         "category": "entities",
         "context": "…construction (Generation licence) | | River | Kali Gandaki (gandaki-basin) | | District | Myagdi | | Province | Gandaki Pradesh | <!…",
@@ -6840,13 +6917,6 @@
         "target_exists": true
       },
       {
-        "slug": "chameliya-khola",
-        "title": "Chameliya Khola",
-        "category": "entities",
-        "context": "…ned from the registry. ## See also - [[mahakali-basin]] - run-of-river-hydropower",
-        "target_exists": true
-      },
-      {
         "slug": "chilime",
         "title": "Chilime",
         "category": "entities",
@@ -6871,7 +6941,7 @@
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…wet to dry season for power generation. Everything else is run-of-river-hydropower. The fact that 106 MW of storage represents Nepal's entire…",
+        "context": "…eased in another for power generation. Every other plant is run-of-river-hydropower. The cascade operation means KL-I releases become KL-II in…",
         "target_exists": true
       },
       {
@@ -6976,7 +7046,7 @@
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…run-3]] - [[hydro-geopolitics]] - [[stranded-generation]] - run-of-river-hydropower - [[mugu-karnali-storage]]",
+        "context": "…run-3]] - [[hydro-geopolitics]] - [[stranded-generation]] - run-of-river-hydropower - [[mugu-karnali-storage]] - [[nepal-transmission-landscape…",
         "target_exists": true
       },
       {
@@ -7231,6 +7301,13 @@
         "target_exists": true
       },
       {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…equence of Bangladesh's growing energy import strategy (see bangladesh-trade-route) and represents a structural expansion of the regional deve…",
+        "target_exists": true
+      },
+      {
         "slug": "ganges-padma-transition",
         "title": "Ganges-Padma Transition",
         "category": "concepts",
@@ -7316,6 +7393,13 @@
         "title": "Bheri-1 HEP",
         "category": "entities",
         "context": "…basin]] - [[buildability]] - [[claim-mw-not-equal-value]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
+        "target_exists": true
+      },
+      {
+        "slug": "chera-1",
+        "title": "Chera-1",
+        "category": "entities",
+        "context": "…cit]] - [[firm-power]] - [[data-layer-storage-shortlist]] - data-ipsdp-milestone-ladder-2022-2040",
         "target_exists": true
       },
       {
@@ -7467,6 +7551,13 @@
         "target_exists": true
       },
       {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…kely candidate given its mandate for Karnali-basin storage (mugu-karnali-storage, [[phukot-karnali]]) - **Environmental and social screening…",
+        "target_exists": true
+      },
+      {
         "slug": "phukot-karnali",
         "title": "Phukot Karnali",
         "category": "entities",
@@ -7477,7 +7568,7 @@
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…] - [[stranded-generation]] - [[run-of-river-hydropower]] - mugu-karnali-storage",
+        "context": "…] - [[stranded-generation]] - [[run-of-river-hydropower]] - mugu-karnali-storage - [[nepal-transmission-landscape-2025]] - [[buildability]]…",
         "target_exists": true
       },
       {
@@ -7560,6 +7651,13 @@
         "target_exists": true
       },
       {
+        "slug": "chera-1",
+        "title": "Chera-1",
+        "category": "entities",
+        "context": "…| | Category | jica promising storage | | Basin | Karnali (karnali-basin) | | Annual energy | 563.2 GWh | | Dry-season energy | 120.…",
+        "target_exists": true
+      },
+      {
         "slug": "gorakhpur-butwal-interconnection",
         "title": "Gorakhpur–New Butwal 400 kV Cross-Border Interconnection",
         "category": "entities",
@@ -7591,7 +7689,7 @@
         "slug": "karnali-chisapani",
         "title": "Karnali Chisapani Project",
         "category": "entities",
-        "context": "…ject ever proposed for Nepal** at 10,800 MW. Located on the karnali-basin main stem. Currently conceptual — requires massive downstre…",
+        "context": "…nd anything operating or under construction. Located on the karnali-basin main stem near the Chisapani gorge in the western Terai, th…",
         "target_exists": true
       },
       {
@@ -8144,6 +8242,13 @@
         "target_exists": true
       },
       {
+        "slug": "tingla-132-33kv-substation",
+        "title": "Tingla 132/33 kV Substation",
+        "category": "entities",
+        "context": "…sion-landscape-2025]] synthesis. ## See also - [[solu]] - sahas-urja - [[claim-transmission-immediate-blocker]] - [[nepal-transm…",
+        "target_exists": true
+      },
+      {
         "slug": "nea-triple-authority",
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
@@ -8336,10 +8441,24 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…subsequent NEA project — [[kali-gandaki-a]] (144 MW, 2002), upper-tamakoshi (456 MW, 2021) — chose the RoR engineering model. The reaso…",
+        "target_exists": true
+      },
+      {
         "slug": "likhu-2",
         "title": "Likhu -2",
         "category": "entities",
         "context": "…[[koshi-basin]] — the Likhu Khola drains to the Sun Koshi - upper-tamakoshi — the 456 MW plant that shared the New Khimti bottleneck",
+        "target_exists": true
+      },
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…For context: this is roughly 2.5x the annual generation of upper-tamakoshi (2,281 GWh) and approximately equal to Nepal's total curren…",
         "target_exists": true
       },
       {
@@ -8573,6 +8692,13 @@
         "target_exists": true
       },
       {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…am. In a system with growing variable solar generation (see solar-hydro-complementarity), pumped storage converts daytime solar surplus into evenin…",
+        "target_exists": true
+      },
+      {
         "slug": "mustang-high-altitude-solar-zone",
         "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone",
         "category": "entities",
@@ -8748,7 +8874,7 @@
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…II: 74.9 + KL-III: 34.3) - Storage volume: ~85–150 MCM (see data-storage-comparison) ## Significance Kulekhani is the outlier that proves the…",
+        "context": "…II: 74.9 + KL-III: 34.3) - Storage volume: ~85–150 MCM (see data-storage-comparison) - The Kulekhani I dam (Indra Sarobar) is a 114 m rockfill…",
         "target_exists": true
       },
       {
@@ -9158,6 +9284,13 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…400) is the number behind every argument in this wiki about seasonal-mismatch and [[firm-power]]. It means that in the driest months (Feb…",
+        "target_exists": true
+      },
+      {
         "slug": "kulekhani-i",
         "title": "Kulekhani I",
         "category": "entities",
@@ -9563,6 +9696,13 @@
         "target_exists": true
       },
       {
+        "slug": "chera-1",
+        "title": "Chera-1",
+        "category": "entities",
+        "context": "…ing-storage candidate in the Karnali basin. It is pinned in data-layer-storage-shortlist. <!-- generated:specs:start --> ## Specifications | Para…",
+        "target_exists": true
+      },
+      {
         "slug": "kokhajor-1",
         "title": "Kokhajor-1",
         "category": "entities",
@@ -9670,6 +9810,13 @@
         "target_exists": true
       },
       {
+        "slug": "chera-1",
+        "title": "Chera-1",
+        "category": "entities",
+        "context": "…2 ## See also - [[karnali-basin]] - [[storage-deficit]] - firm-power - [[data-layer-storage-shortlist]] - [[data-ipsdp-milestone…",
+        "target_exists": true
+      },
+      {
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
@@ -9694,7 +9841,7 @@
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…national context - [[storage-deficit]] — why this matters - firm-power — what Kulekhani can provide that RoR cannot ## Map Assets…",
+        "context": "…ntrated in the dry months and peak evening hours — provides firm-power that no RoR plant can match. | Parameter | Value | |------…",
         "target_exists": true
       },
       {
@@ -10310,6 +10457,13 @@
         "target_exists": true
       },
       {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…estern hill grid and ultimately to the 400 kV backbone. See nepal-transmission-landscape-2025 ## Transmission & Grid Integration Nalsyau Gad's location…",
+        "target_exists": true
+      },
+      {
         "slug": "nawalpur-132kv-substation",
         "title": "Nawalpur 132 kV Substation",
         "category": "entities",
@@ -10341,7 +10495,7 @@
         "slug": "tingla-132-33kv-substation",
         "title": "Tingla 132/33 kV Substation",
         "category": "entities",
-        "context": "…[[claim-transmission-immediate-blocker]] and the later nepal-transmission-landscape-2025 synthesis. ## See also - [[solu]] - [[solu-khola-dudha-ko…",
+        "context": "…[[claim-transmission-immediate-blocker]] and the later nepal-transmission-landscape-2025 synthesis. ## See also - [[solu]] - [[sahas-urja]] - [[cl…",
         "target_exists": true
       },
       {
@@ -10349,6 +10503,13 @@
         "title": "Upper Arun Hydroelectric Project",
         "category": "entities",
         "context": "…aching bankable execution. - It belongs with [[arun-3]] and nepal-transmission-landscape-2025 because any future Upper Arun build would need both proje…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-karnali",
+        "title": "Upper Karnali",
+        "category": "entities",
+        "context": "…ngladesh PPA is a promise without a delivery mechanism. See nepal-transmission-landscape-2025. ## Significance Upper Karnali is the twin case to [[arun…",
         "target_exists": true
       },
       {
@@ -10607,10 +10768,24 @@
         "target_exists": true
       },
       {
+        "slug": "karnali-chisapani",
+        "title": "Karnali Chisapani Project",
+        "category": "entities",
+        "context": "…iluodu | China | 13,860 MW | 285.5 m | Operating (2014) | | pancheshwar | Nepal/India | 6,480 MW | 315 m | Stalled (30 yrs) | Karn…",
+        "target_exists": true
+      },
+      {
         "slug": "mahakali-basin",
         "title": "Mahakali Basin",
         "category": "entities",
         "context": "…cance is primarily **geopolitical** — it is the site of the pancheshwar multipurpose project and the subject of the 1996 Mahakali T…",
+        "target_exists": true
+      },
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…nali-chisapani]] | 10,800 | Storage | Conceptual | None | | pancheshwar | 6,480 | Storage | Stalled (30 yrs) | Bilateral (Nepal/Ind…",
         "target_exists": true
       },
       {
@@ -10857,24 +11032,17 @@
     ],
     "mahakali-basin": [
       {
-        "slug": "chameliya-khola",
-        "title": "Chameliya Khola",
-        "category": "entities",
-        "context": "…| 30 MW | | Status | Operating | | River | Chameliya Khola (mahakali-basin) | | District | Darchula | | Province | Sudurpashchim Prade…",
-        "target_exists": true
-      },
-      {
         "slug": "chameliya-jauljibi-interconnection",
         "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
         "category": "entities",
-        "context": "…ljibi (Pithoragarh, Uttarakhand) | | Primary basin served | mahakali-basin | | Driving projects | [[chameliya-khola]] (30 MW operation…",
+        "context": "…ljibi (Pithoragarh, Uttarakhand) | | Primary basin served | mahakali-basin | | Driving projects | [[chameliya-hydropower]] (30 MW oper…",
         "target_exists": true
       },
       {
         "slug": "pancheshwar",
         "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
-        "context": "…war Multipurpose Project A bi-national mega-project on the mahakali-basin river forming the Nepal-India border. The largest proposed…",
+        "context": "…war Multipurpose Project A bi-national mega-project on the mahakali-basin river forming the Nepal-India border. At 6,480 MW, the larg…",
         "target_exists": true
       },
       {
@@ -10920,12 +11088,54 @@
         "target_exists": true
       }
     ],
-    "chameliya-khola": [
+    "chameliya-hydropower": [
       {
         "slug": "chameliya-jauljibi-interconnection",
         "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
         "category": "entities",
-        "context": "…ry basin served | [[mahakali-basin]] | | Driving projects | chameliya-khola (30 MW operational), future Mahakali cascade | | Interconne…",
+        "context": "…ry basin served | [[mahakali-basin]] | | Driving projects | chameliya-hydropower (30 MW operational), future Mahakali cascade | | Interconne…",
+        "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "…are with [[upper-tamakoshi]] (NPR 87 billion, domestic) and chameliya-hydropower (USD 226 million for 30 MW, 11-year build) for the cost-eff…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "…ulates surface wear and geometric erosion. The parallel is chameliya-hydropower: a plant built at extreme cost that underperforms due to en…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…he plant that broke Nepal's load-shedding era. Compare with chameliya-hydropower — a 30 MW project that took 11 years — for a case study in…",
+        "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…ics winter, and financing covenants that survive delay. See Chameliya (11-year build, $7.5M/MW, headrace tunnel collapse) and [[u…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…eeds only at exceptional scale, not as a replicable model - chameliya-hydropower — state capital inefficiency absorbed off-balance sheet whi…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…ration Directorate Report 2080/2081 (16th Issue, 2024). See chameliya-hydropower. **NOTE 2 — Sanima Mai promotional tariff expiry:** The Ma…",
         "target_exists": true
       }
     ],
@@ -11035,17 +11245,38 @@
         "target_exists": true
       },
       {
+        "slug": "karnali-chisapani",
+        "title": "Karnali Chisapani Project",
+        "category": "entities",
+        "context": "…e only project in a comparable bilateral/governance class - budhigandaki — the largest domestically-controlled storage advancing - […",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…nahu-hydropower]] (140 MW), [[dudhkoshi-storage]] (635 MW), budhigandaki (1,200 MW) — would bring the storage-to-RoR ratio from 1:32…",
+        "target_exists": true
+      },
+      {
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…d [[firm-power]] picture — more than [[dudhkoshi-storage]], budhigandaki or any combination of smaller reservoirs in the current pip…",
+        "context": "…MW could require USD 5–7 billion — roughly 2–3x the cost of budhigandaki (1,200 MW, ~USD 2.77 billion). The financing structure (sov…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…lekhani-cascade]] achieves ~50% dry share with only 106 MW. budhigandaki projects 42% at 1,200 MW with 3,300 MCM of total storage. N…",
         "target_exists": true
       },
       {
         "slug": "pancheshwar",
         "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
-        "context": "…flood-control benefits; India insists on 75/25. Compare to budhigandaki, which is also a large storage project but domestically con…",
+        "context": "…y obvious projects from materializing. The comparison with budhigandaki — a 1,200 MW domestically-controlled storage project that i…",
         "target_exists": true
       },
       {
@@ -11372,56 +11603,26 @@
         "target_exists": true
       }
     ],
-    "chameliya-hydropower": [
-      {
-        "slug": "kali-gandaki-a",
-        "title": "Kali Gandaki A",
-        "category": "entities",
-        "context": "…are with [[upper-tamakoshi]] (NPR 87 billion, domestic) and chameliya-hydropower (USD 226 million for 30 MW, 11-year build) for the cost-eff…",
-        "target_exists": true
-      },
-      {
-        "slug": "trishuli",
-        "title": "Trishuli",
-        "category": "entities",
-        "context": "…ulates surface wear and geometric erosion. The parallel is chameliya-hydropower: a plant built at extreme cost that underperforms due to en…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-tamakoshi",
-        "title": "Upper Tamakoshi",
-        "category": "entities",
-        "context": "…he plant that broke Nepal's load-shedding era. Compare with chameliya-hydropower — a 30 MW project that took 11 years — for a case study in…",
-        "target_exists": true
-      },
-      {
-        "slug": "buildability",
-        "title": "Buildability",
-        "category": "concepts",
-        "context": "…ics winter, and financing covenants that survive delay. See Chameliya (11-year build, $7.5M/MW, headrace tunnel collapse) and [[u…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-triple-authority",
-        "title": "NEA Triple-Authority Conflict",
-        "category": "concepts",
-        "context": "…eeds only at exceptional scale, not as a replicable model - chameliya-hydropower — state capital inefficiency absorbed off-balance sheet whi…",
-        "target_exists": true
-      },
-      {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "…ration Directorate Report 2080/2081 (16th Issue, 2024). See chameliya-hydropower. **NOTE 2 — Sanima Mai promotional tariff expiry:** The Ma…",
-        "target_exists": true
-      }
-    ],
     "karnali-chisapani": [
       {
         "slug": "karnali-basin",
         "title": "Karnali Basin",
         "category": "entities",
         "context": "…tterns systematically disadvantaged the west - The proposed karnali-chisapani (10,800 MW) alone would transform Nepal's energy posture, b…",
+        "target_exists": true
+      },
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…-karnali]] | 900 | RoR | Stalled (18 yrs) | GMR (India) | | karnali-chisapani | 10,800 | Storage | Conceptual | None | | [[pancheshwar]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "pancheshwar",
+        "title": "Pancheshwar Multipurpose Project",
+        "category": "entities",
+        "context": "…daki]] — the domestically-controlled storage counterpoint - karnali-chisapani — the other mega-project in the same governance class - [[d…",
         "target_exists": true
       }
     ],
@@ -11430,7 +11631,7 @@
         "slug": "karnali-chisapani",
         "title": "Karnali Chisapani Project",
         "category": "entities",
-        "context": "…for the Ghaghara system. The project also illustrates the wb-ganges-strategic-basin-assessment valley-shape paradox: despite the enormous dam, usable stor…",
+        "context": "…kely rockfill or RCC) | | Type | Storage | ### Storage The wb-ganges-strategic-basin-assessment describes a valley-shape paradox that constrains Karnali Ch…",
         "target_exists": true
       }
     ],
@@ -11867,7 +12068,14 @@
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…pattern that runs through [[arun-3]], [[upper-karnali]] and west-seti. Chowdhury Group's formal bid represents Bangladeshi develo…",
+        "context": "…uns through [[arun-3]] (SJVN), [[upper-karnali]] (GMR), and west-seti (NHPC). Adani's interest signals that Indian conglomerates…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-karnali",
+        "title": "Upper Karnali",
+        "category": "entities",
+        "context": "…nable. This has implications for: - **Other stalled PDAs:** west-seti (750 MW, NHPC), [[arun-3]] (already executing, less relevan…",
         "target_exists": true
       },
       {
@@ -11889,6 +12097,31 @@
         "title": "Agricultural Energy Consumption",
         "category": "data",
         "context": "…[[storage-deficit]] to food security The [[budhigandaki]], west-seti, and [[pancheshwar]] projects all have irrigation component…",
+        "target_exists": true
+      }
+    ],
+    "phukot-karnali": [
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…ransmission bandwidth: [[upper-karnali]] (900 MW, stalled), phukot-karnali (426 MW, survey), [[nalsyau-gad]] (410 MW, survey), [[karna…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…andate for Karnali-basin storage ([[mugu-karnali-storage]], phukot-karnali) - **Environmental and social screening** — the Nalsyau Gad…",
+        "target_exists": true
+      }
+    ],
+    "nalsyau-gad": [
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…i]] (900 MW, stalled), [[phukot-karnali]] (426 MW, survey), nalsyau-gad (410 MW, survey), [[karnali-chisapani]] (10,800 MW, concept…",
         "target_exists": true
       }
     ],
@@ -12252,16 +12485,7 @@
         "slug": "tingla-132-33kv-substation",
         "title": "Tingla 132/33 kV Substation",
         "category": "entities",
-        "context": "…al-transmission-landscape-2025]] synthesis. ## See also - solu - [[solu-khola-dudha-koshi]] - [[claim-transmission-immedia…",
-        "target_exists": true
-      }
-    ],
-    "solu-khola-dudha-koshi": [
-      {
-        "slug": "tingla-132-33kv-substation",
-        "title": "Tingla 132/33 kV Substation",
-        "category": "entities",
-        "context": "…sion-landscape-2025]] synthesis. ## See also - [[solu]] - solu-khola-dudha-koshi - [[claim-transmission-immediate-blocker]] - [[nepal-transm…",
+        "context": "…al-transmission-landscape-2025]] synthesis. ## See also - solu - [[sahas-urja]] - [[claim-transmission-immediate-blocker]]…",
         "target_exists": true
       }
     ],
