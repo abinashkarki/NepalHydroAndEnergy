@@ -3,7 +3,7 @@ title: Barahi Hydropower
 type: entity
 created: 2026-05-02
 updated: 2026-05-02
-sources: [barahi-hydropower-audited-financials, erc-bylaws-2076]
+sources: [ad-penalty-clause-research, sector-financial-analysis-triple-authority-2026]
 tags: [project, operating, case-study, AD-penalties, NEA, ERC, governance]
 generator: manual
 ---
@@ -35,6 +35,11 @@ Because NEA controls the cash disbursement, the IPP carries the deducted penalty
 ## Significance
 
 Barahi is the best-documented instance of the structural double-bind at the core of [[nea-triple-authority]]: a regulatory protection exists on paper, but the off-taker — who is also the dispatcher and penalty administrator — can deduct penalties regardless, because it controls the cash. The ERC can issue directives, but it cannot enforce them against the entity that holds the cheque book.
+
+## Sources
+
+- [[ad-penalty-clause-research]]
+- [[sector-financial-analysis-triple-authority-2026]]
 
 ## See also
 

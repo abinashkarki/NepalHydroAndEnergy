@@ -3,9 +3,10 @@ title: Kali Gandaki Kowan
 type: entity
 created: 2026-04-20
 updated: 2026-05-02
-sources: []
+sources: [kali-gandaki-a-adb-evaluation]
 tags: [project, under-construction, gandaki]
 images: ['- src: kali-gandaki-kowan/ipsdpv2-p263-img00.png']
+generator: manual
 ---
 
 # Kali Gandaki-Kowan
@@ -42,3 +43,7 @@ Projects in this capacity range face proportionally higher execution risk. The K
 
 - [[run-of-river-hydropower]]
 - [[buildability]]
+
+## Sources
+
+- [[kali-gandaki-a-adb-evaluation]]

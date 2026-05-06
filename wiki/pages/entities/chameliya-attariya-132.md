@@ -6,6 +6,7 @@ created: 2026-04-25
 updated: 2026-04-25
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 132kv, sudurpaschim, chameliya]
+generator: manual
 ---
 
 # Chameliya-Syaule-Attariya 132 kV Line

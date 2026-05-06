@@ -6,6 +6,7 @@ updated: 2026-04-25
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, watchlist, top-capacity, generation, karnali, achham, semi-reservoir]
 images: []
+generator: manual
 ---
 
 # Betan Karnali HP
@@ -64,6 +65,9 @@ The second question is finance and sequencing. Betan's institutional-investor mo
 - Current reporting: [Fiscal Nepal on generation licence, July 2025](https://www.fiscalnepal.com/2025/07/13/21301/)
 - Current reporting: [The Rising Nepal on IBN investment approval, November 2025](https://risingnepaldaily.com/news/71448)
 
+## Sources
+
+- [[moewri-ipsdp-exec-summary-2025]]
 ## See also
 
 - [[karnali-basin]]

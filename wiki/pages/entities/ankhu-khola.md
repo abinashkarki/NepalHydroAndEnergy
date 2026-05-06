@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, rights-issue, bailout-pattern]
 images: []
+generator: manual
 ---
 
 # Ankhu Khola
@@ -61,3 +62,7 @@ The pattern is consistent: pre-COD or immediately post-COD IPOs, followed by rig
 - [[q-design-discharge]]
 - [[run-of-river-hydropower]]
 - [[buildability]]
+
+## Sources
+
+- [[sector-financial-analysis-triple-authority-2026]]

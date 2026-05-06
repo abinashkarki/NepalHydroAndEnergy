@@ -3,9 +3,10 @@ title: Upper Tamor
 type: entity
 created: 2026-04-20
 updated: 2026-05-02
-sources: []
+sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, under-construction, koshi, top-capacity]
 images: []
+generator: manual
 ---
 
 # Upper Tamor
@@ -42,3 +43,7 @@ At 285 MW, Upper Tamor's capital requirements place it in the top tier of Nepali
 
 - [[run-of-river-hydropower]]
 - [[buildability]]
+
+## Sources
+
+- [[moewri-ipsdp-exec-summary-2025]]

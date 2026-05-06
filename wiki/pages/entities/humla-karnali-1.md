@@ -2,7 +2,7 @@
 title: Humla Karnali 1 HPP
 type: entity
 created: 2026-04-20
-updated: 2026-05-05
+updated: 2026-05-06
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, survey, karnali, humla]
 images:
@@ -36,6 +36,14 @@ generator: auto-stub
 | Province | Karnali Pradesh |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->
 
 ## Notes
 

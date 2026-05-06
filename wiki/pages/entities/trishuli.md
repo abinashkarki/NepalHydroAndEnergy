@@ -2,7 +2,7 @@
 title: Trishuli
 type: entity
 created: 2026-04-20
-updated: 2026-05-05
+updated: 2026-05-06
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
 tags: [project, operating, gandaki, nuwakot]
 images:
@@ -51,6 +51,16 @@ generator: specs-refresh
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->
 
 ## Specifications (NEA FY 2081/82)
 

@@ -6,6 +6,7 @@ updated: 2026-04-25
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, karnali, rukum_w]
 images: []
+generator: manual
 ---
 
 # Bheri-1 HEP
@@ -58,6 +59,9 @@ The open questions are basic: project design maturity, sponsor status, licence r
 
 - Naxa / DoED-linked public hydropower project dataset
 
+## Sources
+
+- [[moewri-ipsdp-exec-summary-2025]]
 ## See also
 
 - [[karnali-basin]]

@@ -110,6 +110,18 @@ Source: Sahas Urja corporate disclosures; ICRA Nepal; Annapurna Express; ShareSa
 
 **Political connections:** The company states no political affiliations. Independent verification of promoter PEP (Politically Exposed Person) status is not possible — the SEBON IPO prospectus exists but is in non-machine-readable scanned PDF format, frustrating automated accountability tracking. Local share distribution to **8,000+ promoters including 2,900 project-affected locals** required coordination with local political structures — a documented pattern per the IFC local shares report. [UNVERIFIED: political affiliation verification beyond IFC pattern documentation.]
 
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[icra-nepal-surveillance-a996-b119|"ICRA Nepal — Surveillance Rating A996/B119"]]
+- [[sahas-urja-progress-report-w010|"Sahas Urja — Progress Report W010"]]
+- [[clickmandu-financial-reporting|"Clickmandu — Sahas Urja Financial Reporting"]]
+- [[himalayan-capital-analysis|"Himalayan Capital — Sahas Urja Analysis"]]
+
+<!-- generated:sources:end -->
+
 ## See also
 
 - [[ppa-pricing]] — the rate comparison table placing Sahas Urja in context

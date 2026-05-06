@@ -16,12 +16,12 @@ If you add draft/private wiki pages, gate them behind a "public" field in
 the page index to avoid accidental exposure through these tools.
 """
 
+from __future__ import annotations
+
 # ---------------------------------------------------------------------------
 # Trust domain: read-only local server, no auth.
 # ---------------------------------------------------------------------------
 TRUST_DOMAIN = "public-read-only"  # all wiki content is public by design
-
-from __future__ import annotations
 
 import json
 import math

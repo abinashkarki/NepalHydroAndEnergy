@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [sahas-urja-benchmark-icra-2026]
 tags: [project, under-construction, koshi, solukhumbu]
 images: []
+generator: manual
 ---
 
 # Lower Solu Hydropower Project
@@ -44,4 +45,8 @@ The single most important variable determining Lower Solu's financial outcome is
 
 - [[run-of-river-hydropower]]
 - [[buildability]]
+- [[sahas-urja-benchmark-icra-2026]]
+
+## Sources
+
 - [[sahas-urja-benchmark-icra-2026]]

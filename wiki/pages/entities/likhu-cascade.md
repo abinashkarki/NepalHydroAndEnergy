@@ -3,9 +3,10 @@ title: Likhu Cascade
 type: entity
 created: 2026-05-04
 updated: 2026-05-04
-sources: []
+sources: [likhu-cascade-research-compilation]
 tags: [project, cascade, koshi, solukhumbu, ramechhap]
 images: []
+generator: manual
 ---
 
 # Likhu Cascade
@@ -30,6 +31,9 @@ The Likhu Khola is a hydropower-rich tributary in the [[koshi-basin]], straddlin
 
 The upper Likhu projects (1, 2, Likhu Khola A) cluster in the Solukhumbu highlands, while Likhu-4, Lower Likhu, and Nupche Likhu sit further downstream in Ramechhap. The Likhu is a tributary of the Sun Koshi, and its projects share transmission corridors with the broader Khimti-Tamakoshi system via [[khimti-dhalkebar-corridor]].
 
+## Sources
+
+- [[likhu-cascade-research-compilation]]
 ## See also
 
 - [[likhu-1]]

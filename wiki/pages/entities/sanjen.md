@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, rasuwa, chilime-group]
 images: ['- src: sanjen/nea2077-p181-img01.png']
+generator: manual
 ---
 
 # Sanjen
@@ -43,4 +44,8 @@ Sanjen and the nearby Sanjen Khola (78 MW) project are located in Rasuwa distric
 - [[run-of-river-hydropower]]
 - [[buildability]]
 - [[chilime]]
+- [[sector-financial-analysis-triple-authority-2026]]
+
+## Sources
+
 - [[sector-financial-analysis-triple-authority-2026]]

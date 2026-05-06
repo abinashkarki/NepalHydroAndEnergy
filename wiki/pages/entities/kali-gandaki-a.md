@@ -129,3 +129,13 @@ in pages like [[dudhkoshi-storage]], [[tanahu-hydropower]] and
 - [[run-of-river-hydropower]]
 - [[firm-power]]
 - [[nea]]
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[kali-gandaki-a-adb-evaluation|Kali Gandaki A — ADB Performance Evaluation & Wikipedia]]
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+
+<!-- generated:sources:end -->

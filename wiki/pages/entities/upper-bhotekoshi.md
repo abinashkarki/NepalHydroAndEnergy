@@ -3,9 +3,10 @@ title: Upper Bhotekoshi
 type: entity
 created: 2026-04-20
 updated: 2026-04-25
-sources: []
+sources: [nea-annual-report-fy2024-25]
 tags: [project, watchlist, operating, koshi, sindhupalchok]
 images: []
+generator: manual
 ---
 
 # Upper Bhotekoshi
@@ -44,6 +45,9 @@ The marker is an operating-project registry point near the mapped river and is l
 
 - Naxa / DoED-linked public hydropower project dataset
 
+## Sources
+
+- [[nea-annual-report-fy2024-25]]
 ## See also
 
 - [[koshi-basin]]

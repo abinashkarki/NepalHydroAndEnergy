@@ -102,6 +102,17 @@ Chameliya (30 MW, NEA-owned, COD 2018) must not be confused with **Upper Chameli
 
 Earlier research cycles carried an erroneous PPA rate of NPR 8.85/kWh (wet) and NPR 5.40/kWh (dry) for Chameliya. These figures are a **data hallucination** — they derive from misattributed retail consumer tariffs (NEA Annual Report FY2016/17: "Street Light" at NPR 8.80, "Other Water Supply" at NPR 5.40) and a growth metric text reference ("8.85% activities"). The figures were algorithmically stripped of context and assigned as PPA rates without understanding Nepal's hydro-economic framework, where the dry-season rate must always exceed the wet-season rate. Chameliya has no PPA and never did. These figures have been retracted from the wiki.
 
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-generation-directorate-2081|"NEA Generation Directorate Data — FY 2080/81"]]
+- [[kathmandu-post-chameliya|"Kathmandu Post — Chameliya Hydropower Coverage"]]
+- [[myrepublica-pac-chameliya|"My Republica — PAC Chameliya Investigation"]]
+
+<!-- generated:sources:end -->
+
 ## See also
 
 - [[ppa-pricing]] — the rate comparison table and internal generation cost analysis

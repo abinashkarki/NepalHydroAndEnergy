@@ -102,3 +102,11 @@ West Seti, alongside [[budhigandaki]]'s history of Chinese-then-domestic pivots,
 - [[storage-deficit]] — what West Seti would help solve
 - [[budhigandaki]] — parallel trajectory of Chinese withdrawal, domestic/Indian pivot
 - [[pancheshwar]] — another stalled storage mega-project, for different reasons
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->

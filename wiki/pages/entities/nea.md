@@ -11,6 +11,7 @@ images:
     credit: "JICA Study Team — Project on Integrated Power System Development Plan in Nepal, Final Report, Annexes (Vol. 2) (December 2024)"
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf"
+generator: manual
 ---
 
 # Nepal Electricity Authority (NEA)

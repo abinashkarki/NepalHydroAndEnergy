@@ -2,7 +2,7 @@
 title: Likhu Khola 'A'
 type: entity
 created: 2026-04-20
-updated: 2026-05-05
+updated: 2026-05-06
 sources: [likhu-cascade-research-compilation]
 tags: [project, operating, private-ipp, solukhumbu, koshi]
 images: []
@@ -26,6 +26,14 @@ generator: specs-refresh
 | Province | Province No 1 |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[likhu-cascade-research-compilation|Likhu Cascade Research Compilation]]
+
+<!-- generated:sources:end -->
 
 ## Specifications (CARE Nepal / DoED data)
 

@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [ppa-data-retrieval-icra-care-2026, sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, koshi, rasuwa, nea-subsidiary, chilime-group]
 images: []
+generator: manual
 ---
 
 # Rasuwagadhi
@@ -49,5 +50,10 @@ Located near Nepal's northern border with Tibet in Rasuwa district, Rasuwagadhi 
 - [[run-of-river-hydropower]]
 - [[buildability]]
 - [[chilime]]
+- [[ppa-data-retrieval-icra-care-2026]]
+- [[sector-financial-analysis-triple-authority-2026]]
+
+## Sources
+
 - [[ppa-data-retrieval-icra-care-2026]]
 - [[sector-financial-analysis-triple-authority-2026]]

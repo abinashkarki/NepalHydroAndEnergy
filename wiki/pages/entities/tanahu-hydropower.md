@@ -179,3 +179,13 @@ Source: [An Overview of Tanahu Hydropower Project (PDF)](https://edcnepal.org/wp
 - [Nepal Tributary Explorer](../../assets/maps/html/nepal_tributary_explorer.html)
 - [Cross-Border View With Projects](../../assets/maps/previews/nepal_cross_border_with_projects.png)
 - [[data-map-inventory]]
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[tanahu-adb-status-2025|Tanahu Hydropower Project Status (ADB, 2024–2025)]]
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+
+<!-- generated:sources:end -->

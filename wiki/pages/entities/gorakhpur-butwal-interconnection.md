@@ -6,6 +6,7 @@ created: 2026-04-20
 updated: 2026-04-20
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 400kv, cross-border, india, butwal, gorakhpur, under-construction]
+generator: manual
 ---
 
 # Gorakhpur–New Butwal 400 kV Interconnection

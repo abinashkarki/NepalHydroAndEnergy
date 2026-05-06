@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, koshi, sindhupalchok, chilime-group]
 images: ['- src: madhya-bhotekoshi/nea2425-p193-img01.png']
+generator: manual
 ---
 
 # Madhya Bhotekoshi
@@ -43,4 +44,8 @@ At 102 MW, Madhya Bhotekoshi represents a significant block of capacity in the u
 - [[run-of-river-hydropower]]
 - [[buildability]]
 - [[chilime]]
+- [[sector-financial-analysis-triple-authority-2026]]
+
+## Sources
+
 - [[sector-financial-analysis-triple-authority-2026]]

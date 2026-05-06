@@ -120,7 +120,10 @@ BASIN_BY_RIVER: list[tuple[str, str]] = [
 
 SPEC_START = "<!-- generated:specs:start -->"
 SPEC_END = "<!-- generated:specs:end -->"
+SOURCES_START = "<!-- generated:sources:start -->"
+SOURCES_END = "<!-- generated:sources:end -->"
 SPECS_CSV = ROOT / "data" / "project_specs.csv"
+PAGE_INDEX_JSON = ROOT / "wiki" / "explorer" / "shared" / "wiki-page-index.json"
 
 # Section → [(csv_column, display_label, suffix), ...]
 # Grouped by the user's chosen sections: Engineering / Output / Financial / Governance / Schedule.
@@ -456,6 +459,67 @@ def render_spec_block(entry: dict, specs_lookup: dict[str, dict[str, str]] | Non
     return "\n".join(lines)
 
 
+def load_source_titles() -> dict[str, str]:
+    page_index = PAGE_INDEX_JSON
+    if not page_index.exists():
+        return {}
+    idx = json.loads(page_index.read_text(encoding="utf-8"))
+    return idx.get("slugToTitle", {})
+
+
+def extract_sources_from_frontmatter(text: str) -> list[str]:
+    match = re.search(r"^sources:\s*\[(.*?)\]\s*$", text, re.MULTILINE)
+    if not match:
+        return []
+    raw = match.group(1).strip()
+    if not raw:
+        return []
+    slugs = [s.strip().strip("'\"") for s in raw.split(",")]
+    return [s for s in slugs if s]
+
+
+def render_source_block(source_slugs: list[str], source_titles: dict[str, str] | None = None) -> str:
+    titles = source_titles or {}
+    lines = [SOURCES_START, "", "## Sources", ""]
+    if source_slugs:
+        for slug in source_slugs:
+            title = titles.get(slug) or slug
+            if title != slug:
+                lines.append(f"- [[{slug}|{title}]]")
+            else:
+                lines.append(f"- {slug}")
+    else:
+        lines.append("_No primary sources have been linked yet._")
+    lines.append("")
+    lines.append(SOURCES_END)
+    return "\n".join(lines)
+
+
+def refresh_source_block(md_path: Path, source_titles: dict[str, str]) -> bool:
+    text = md_path.read_text(encoding="utf-8")
+    source_slugs = extract_sources_from_frontmatter(text)
+    new_block = render_source_block(source_slugs, source_titles)
+    if SOURCES_START in text and SOURCES_END in text:
+        pattern = re.compile(re.escape(SOURCES_START) + r".*?" + re.escape(SOURCES_END), re.DOTALL)
+        new_text = pattern.sub(new_block, text, count=1)
+        if new_text != text:
+            md_path.write_text(new_text, encoding="utf-8")
+            return True
+    else:
+        if SPEC_END in text:
+            insertion_point = text.index(SPEC_END) + len(SPEC_END)
+            new_text = text[:insertion_point] + "\n\n" + new_block + text[insertion_point:]
+        elif "## Notes" in text:
+            insertion_point = text.index("## Notes")
+            new_text = text[:insertion_point] + new_block + "\n\n" + text[insertion_point:]
+        else:
+            new_text = text.rstrip() + "\n\n" + new_block + "\n"
+        if new_text != text:
+            md_path.write_text(new_text, encoding="utf-8")
+            return True
+    return False
+
+
 def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] | None = None) -> str:
     p = entry["props"]
     title = titlecase(entry["name"])
@@ -512,6 +576,8 @@ def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] 
         lead,
         "",
         render_spec_block(entry, specs_lookup),
+        "",
+        render_source_block([]),
         "",
         "## Notes",
         "",
@@ -719,10 +785,16 @@ def main():
     # Refresh spec blocks in existing auto-stubs
     if args.refresh_specs and to_refresh:
         refreshed = 0
+        source_refreshed = 0
+        source_titles = load_source_titles()
         for slug in to_refresh:
             if refresh_spec_block(ENTITIES / f"{slug}.md", targets[slug], specs_lookup):
                 refreshed += 1
+            if refresh_source_block(ENTITIES / f"{slug}.md", source_titles):
+                source_refreshed += 1
         print(f"refreshed spec block in {refreshed}/{len(to_refresh)} auto-stubs")
+        if source_refreshed:
+            print(f"refreshed/inserted source block in {source_refreshed}/{len(to_refresh)} pages")
 
     # Update bindings (only for files that now exist)
     existing_after = existing_slug_set() if args.write else (existing | set(to_create))

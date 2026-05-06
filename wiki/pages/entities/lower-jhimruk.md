@@ -2,7 +2,8 @@
 title: Lower Jhimruk
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
+generator: specs-refresh
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, storage, karnali]
 images: []
@@ -27,7 +28,31 @@ Lower Jhimruk is a 142.5 MW JICA promising-storage candidate in the West Rapti b
 | Total storage | 386.0 MCM |
 | Effective storage | 211.6 MCM |
 
+### Storage
+
+| Parameter | Value |
+|-----------|-------|
+| Total storage | 386.0 MCM |
+| Effective storage | 211.6 MCM |
+
+### Output
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 454.7 GWh |
+| Dry-season energy | 94.4 GWh |
+| Dry-season share | 20.8 % |
+| Type | Storage |
+
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->
 
 ## Why It Matters
 

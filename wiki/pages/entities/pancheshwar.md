@@ -194,3 +194,12 @@ The comparison with [[budhigandaki]] — a 1,200 MW domestically-controlled stor
 - [[buildability]] — why governance matters as much as engineering
 - [Nepal River Geopolitics Explorer](../../assets/maps/html/nepal_geopolitics_river_influence.html)
 - [[data-map-inventory]]
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[national-water-plan-nepal|National Water Plan, Nepal]]
+- [[wb-ganges-strategic-basin-assessment|World Bank Ganges Strategic Basin Assessment]]
+
+<!-- generated:sources:end -->

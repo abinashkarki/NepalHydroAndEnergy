@@ -129,6 +129,11 @@ is the concrete endpoint: the last turbine in Nepal's only storage
 system, proving that reservoir-to-cascade generation works at every
 stage — and that Nepal has built exactly one such system.
 
+## Sources
+
+- [[nea-annual-report-fy2024-25]]
+- [[sangroula-ntnu-kulekhani-bathymetry]]
+
 ## See also
 
 - [[kulekhani-cascade]] — full cascade overview (106 MW total)

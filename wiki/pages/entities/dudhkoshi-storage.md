@@ -186,3 +186,13 @@ Source: [Dudhkoshi Storage Hydroelectric Project Development Teaser (PDF)](https
 - [Nepal Tributary Explorer](../../assets/maps/html/nepal_tributary_explorer.html)
 - [Cross-Border View With Projects](../../assets/maps/previews/nepal_cross_border_with_projects.png)
 - [[data-map-inventory]]
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[dudhkoshi-nea-proposal-2024|Dudhkoshi Storage — NEA Proposal & Feasibility Record]]
+- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->

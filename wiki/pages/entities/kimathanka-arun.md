@@ -6,6 +6,7 @@ updated: 2026-04-25
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, koshi, sankhuwasabha]
 images: []
+generator: manual
 ---
 
 # Kimathanka Arun HEP
@@ -45,6 +46,9 @@ The marker is a river-aligned project reference derived from a registry point. U
 
 - Naxa / DoED-linked public hydropower project dataset
 
+## Sources
+
+- [[moewri-ipsdp-exec-summary-2025]]
 ## See also
 
 - [[koshi-basin]]

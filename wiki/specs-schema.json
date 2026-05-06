@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transparentgov.ai/wiki/specs-schema.json",
+  "title": "Hydropower Project Technical Specifications",
+  "description": "Schema for the structured project_specs.csv — the authoritative source for per-project engineering, output, financial, governance, and schedule data.",
+  "type": "object",
+  "required": ["slug"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": "Wiki page slug matching the filesystem path (e.g. upper-tamakoshi)."
+    },
+    "capacity_mw": {
+      "type": "number",
+      "description": "Nameplate/installed capacity in MW. Duplicates registry for cross-reference."
+    },
+    "river": {
+      "type": "string",
+      "description": "River name. Duplicates registry for cross-reference."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["operating", "under-construction", "survey", "pre-construction", "stalled", "cancelled", "conceptual"],
+      "description": "Human-readable project status, may differ from registry license_type."
+    },
+    "source_note": {
+      "type": "string",
+      "description": "Provenance note for the spec data (e.g. 'UKHLL annual report FY 2024/25')."
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date when this row's data was last verified or updated."
+    },
+
+    "gross_head_m": {"type": "number", "description": "Gross head in meters."},
+    "design_discharge_m3s": {"type": "number", "description": "Design discharge in m³/s."},
+    "headrace_tunnel_km": {"type": "number", "description": "Headrace tunnel length in km."},
+    "dam_height_m": {"type": "number", "description": "Maximum dam height in meters."},
+    "dam_type": {
+      "type": "string",
+      "enum": ["RCC", "Earthfill", "Rockfill", "Arch", "Gravity", "CFRD", "Concrete-face Rockfill", "Double-curvature Arch", "Composite"],
+      "description": "Dam construction type."
+    },
+    "num_units": {"type": "integer", "description": "Number of generating units/turbines."},
+    "unit_capacity_mw": {"type": "number", "description": "Capacity per unit in MW."},
+    "turbine_type": {
+      "type": "string",
+      "enum": ["Francis", "Pelton", "Kaplan", "Crossflow", "Francis (Toshiba)"],
+      "description": "Turbine type."
+    },
+    "underground_powerhouse": {
+      "type": "string",
+      "enum": ["yes", "no", "partial"],
+      "description": "Whether the powerhouse is underground."
+    },
+    "penstock_length_m": {"type": "number", "description": "Penstock length in meters."},
+    "penstock_diameter_m": {"type": "number", "description": "Penstock diameter in meters."},
+    "tailrace_length_m": {"type": "number", "description": "Tailrace length in meters."},
+
+    "annual_design_energy_gwh": {"type": "number", "description": "Annual design energy in GWh."},
+    "dry_season_energy_gwh": {"type": "number", "description": "Dry-season energy in GWh."},
+    "dry_share_pct": {"type": "number", "description": "Dry-season energy share in percent."},
+    "plant_load_factor_pct": {"type": "number", "description": "Plant load factor in percent."},
+    "q_design": {
+      "type": "string",
+      "enum": ["Q40", "Q41", "Q45", "Q50", "Q65", "Q65+"],
+      "description": "Q-design exceedance percentile."
+    },
+    "project_type": {
+      "type": "string",
+      "enum": ["RoR", "PROR", "Peaking RoR", "RoR With Pondage", "Storage", "Pumped-storage", "Storage / Pumped-storage", "Storage / Multipurpose"],
+      "description": "Project type classification."
+    },
+    "catchment_area_km2": {"type": "number", "description": "Catchment area in km²."},
+    "environmental_release_m3s": {"type": "number", "description": "Environmental flow release in m³/s."},
+
+    "total_storage_mcm": {"type": "number", "description": "Gross/total reservoir storage in million cubic meters."},
+    "effective_storage_mcm": {"type": "number", "description": "Effective/usable live storage in million cubic meters."},
+    "pumped_storage_mw": {"type": "number", "description": "Pumped-storage component capacity in MW."},
+
+    "total_cost_usd_m": {"type": "number", "description": "Total project cost in millions USD."},
+    "cost_per_mw_usd_m": {"type": "number", "description": "Build cost per MW in millions USD/MW."},
+    "ppa_rate_wet_npr_kwh": {"type": "number", "description": "PPA rate for wet season in NPR/kWh."},
+    "ppa_rate_dry_npr_kwh": {"type": "number", "description": "PPA rate for dry season in NPR/kWh."},
+    "debt_equity_ratio": {"type": "string", "description": "Financing split (e.g. 70/30)."},
+
+    "developer": {"type": "string", "description": "Developer company/entity name."},
+    "concession_type": {"type": "string", "description": "Concession or development model (BOOT, PDA, PPP, NEA-owned, etc.)."},
+    "lead_financier": {"type": "string", "description": "Lead financing institution."},
+    "concession_years": {"type": "integer", "description": "Concession period in years."},
+
+    "construction_start_year": {"type": "integer", "description": "Year construction started or is expected to start."},
+    "cod_year": {"type": "integer", "description": "Year of commercial operation date (actual or target)."},
+    "completion_pct": {"type": "number", "description": "Construction completion percentage (0–100)."}
+  },
+  "additionalProperties": false
+}

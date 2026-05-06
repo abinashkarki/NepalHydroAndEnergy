@@ -153,3 +153,11 @@ But Kulekhani is also a demonstration that storage works in Nepal. A 40-year ope
 - [Nepal Tributary Explorer](../../assets/maps/html/nepal_tributary_explorer.html)
 - [Cross-Border View With Projects](../../assets/maps/previews/nepal_cross_border_with_projects.png)
 - [[data-map-inventory]]
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+
+<!-- generated:sources:end -->

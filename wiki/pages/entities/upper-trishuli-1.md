@@ -6,6 +6,7 @@ updated: 2026-04-25
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, watchlist, under-construction, gandaki, rasuwa]
 images: []
+generator: manual
 ---
 
 # Upper Trishuli-1
@@ -46,6 +47,9 @@ The marker is a river-aligned project reference derived from the registry point.
 
 - Naxa / DoED-linked public hydropower project dataset
 
+## Sources
+
+- [[moewri-ipsdp-exec-summary-2025]]
 ## See also
 
 - [[gandaki-basin]]

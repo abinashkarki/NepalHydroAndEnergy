@@ -6,6 +6,7 @@ created: 2026-04-20
 updated: 2026-04-20
 sources: [nea-transmission-annual-book-2077]
 tags: [transmission, 400kv, bheri, uttarganga, corridor]
+generator: manual
 ---
 
 # Bheri Corridor 400 kV Transmission Line

@@ -2,7 +2,7 @@
 title: Khimti -I
 type: entity
 created: 2026-04-20
-updated: 2026-05-05
+updated: 2026-05-06
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, operating, private-ipp, dolakha, ramechhap, first-ipp, koshi]
 images:
@@ -31,6 +31,14 @@ generator: specs-refresh
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->
 
 ## Specifications (HPL project data)
 

@@ -3,7 +3,7 @@ title: Khimti II
 type: entity
 created: 2026-04-20
 updated: 2026-05-06
-sources: []
+sources: [nea-annual-report-fy2024-25, icra-nepal-surveillance-a996-b119]
 tags: [project, under-construction, private-ipp, dolakha, koshi]
 images: []
 generator: specs-refresh
@@ -31,7 +31,8 @@ generator: specs-refresh
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[nea-annual-report-fy2024-25]]
+- [[icra-nepal-surveillance-a996-b119]]
 
 <!-- generated:sources:end -->
 

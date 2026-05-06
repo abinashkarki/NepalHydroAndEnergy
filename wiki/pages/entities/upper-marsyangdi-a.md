@@ -3,9 +3,10 @@ title: Upper Marsyangdi A
 type: entity
 created: 2026-04-20
 updated: 2026-05-02
-sources: []
+sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, gandaki]
 images: []
+generator: manual
 ---
 
 # Upper Marsyangdi A
@@ -115,6 +116,9 @@ and Nepal's cascade-heavy river systems generally — needs integrated
 water accounting rather than project-level licensing. See [[gandaki-basin]]
 and [[seasonal-mismatch]].
 
+## Sources
+
+- [[nea-annual-report-fy2024-25]]
 ## See also
 
 - [[madhya-marsyangdi]] — the downstream 70 MW plant, operating at 107.6% of design

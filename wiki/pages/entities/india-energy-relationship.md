@@ -51,6 +51,7 @@ images:
     credit: "Ministry of Energy, Water Resources and Irrigation (MoEWRI) / JICA — Project on Integrated Power System Development Plan in Nepal, Executive Summary (2025)"
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf"
+generator: manual
 ---
 
 # India — Energy Relationship with Nepal

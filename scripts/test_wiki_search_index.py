@@ -80,7 +80,7 @@ class WikiSearchIndexTests(unittest.TestCase):
         self.assertGreaterEqual(vector["model"]["dim"], 128)
         self.assertIn("mixedbread-ai/mxbai-embed-xsmall-v1", vector["model"]["id"])
         self.assertGreater(vector["stats"]["chunks"], vector["stats"]["pages"])
-        self.assertLess(len(gzip.compress(VECTOR_INDEX.read_bytes(), compresslevel=9)), 1_000_000)
+        self.assertLess(len(gzip.compress(VECTOR_INDEX.read_bytes(), compresslevel=9)), 1_150_000)
         sample = vector["chunks"][0]
         self.assertEqual({"p", "h", "s", "v"}, set(sample))
 

@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25]
 tags: [solar, butwal, ridi, rupandehi, ipp, phase-i, operating]
+generator: manual
 ---
 
 # Butwal Solar (Ridi Hydropower Development, 8.5 MWp)

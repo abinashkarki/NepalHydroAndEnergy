@@ -37,6 +37,15 @@ generator: specs-refresh
 
 <!-- generated:specs:end -->
 
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->
+
 ## Specifications (NEA / JICA IPSDP data)
 
 | Parameter | Value |

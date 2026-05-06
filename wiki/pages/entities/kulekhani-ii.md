@@ -2,7 +2,7 @@
 title: Kulekhani II
 type: entity
 created: 2026-05-04
-updated: 2026-05-05
+updated: 2026-05-06
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, cascade, makawanpur]
 images: []
@@ -29,6 +29,14 @@ generator: specs-refresh
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+
+<!-- generated:sources:end -->
 
 ## Specifications (NEA FY 2081/82)
 

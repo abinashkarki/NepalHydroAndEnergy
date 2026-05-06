@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [wb-esmap-solar-resource-assessment, global-solar-atlas-nepal, aepc-renewable-framework]
 tags: [solar, mustang, dolpa, trans-himalayan, high-altitude, DNI, rain-shadow, off-grid, resource-zone]
+generator: manual
 ---
 
 # Mustang / Trans-Himalayan High-Altitude Solar Zone

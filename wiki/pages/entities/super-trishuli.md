@@ -3,9 +3,10 @@ title: Super Trishuli
 type: entity
 created: 2026-04-20
 updated: 2026-05-02
-sources: []
+sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, gandaki, trishuli-cascade]
 images: []
+generator: manual
 ---
 
 # Super Trishuli
@@ -45,3 +46,7 @@ The 100 MW mark represents a significant threshold: projects at this scale are l
 
 - [[run-of-river-hydropower]]
 - [[buildability]]
+
+## Sources
+
+- [[nea-annual-report-fy2024-25]]

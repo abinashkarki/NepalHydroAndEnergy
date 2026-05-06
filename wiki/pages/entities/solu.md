@@ -2,7 +2,7 @@
 title: Solu Hydropower Project
 type: entity
 created: 2026-04-20
-updated: 2026-05-05
+updated: 2026-05-06
 sources: []
 tags: [project, under-construction, solukhumbu]
 images: []
@@ -26,6 +26,14 @@ generator: auto-stub
 | Province | Province No 1 |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+_No primary sources have been linked yet._
+
+<!-- generated:sources:end -->
 
 ## Notes
 

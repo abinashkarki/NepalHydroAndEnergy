@@ -26,6 +26,7 @@ images:
     credit: W. J. Webb, Survey of India
     license: Public domain
     source_url: "https://commons.wikimedia.org/wiki/File%3A1819-Kalapani-area-from-province-of-Kumaon-by-Webb.jpg"
+generator: manual
 ---
 
 # Mahakali Basin

@@ -6,6 +6,7 @@ created: 2026-04-20
 updated: 2026-04-20
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 220kv, ipp, khimti, dolakha, sindhuli]
+generator: manual
 ---
 
 # Khimti–Dhalkebar 220 kV Corridor

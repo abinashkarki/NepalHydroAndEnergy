@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project]
 tags: [nea, solar, tender, 960mw, ipp, ppa, terai, competitive-bid]
+generator: manual
 ---
 
 # NEA 960 MW National Solar Tender

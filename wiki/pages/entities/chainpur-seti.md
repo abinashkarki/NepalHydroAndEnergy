@@ -2,7 +2,7 @@
 title: Chainpur Seti
 type: entity
 created: 2026-04-20
-updated: 2026-05-05
+updated: 2026-05-06
 sources: [nea-transmission-annual-book-2077]
 tags: [project, survey, gandaki, bajhang]
 images:
@@ -41,6 +41,14 @@ generator: auto-stub
 | Province | Sudurpashchim Pradesh |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+
+<!-- generated:sources:end -->
 
 ## Notes
 

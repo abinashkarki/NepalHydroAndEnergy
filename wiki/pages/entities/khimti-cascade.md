@@ -6,6 +6,7 @@ updated: 2026-05-04
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, operating, under-construction, cascade, dolakha, koshi]
 images: []
+generator: manual
 ---
 
 # Khimti Cascade
@@ -35,6 +36,9 @@ The [[khimti-dhalkebar-corridor]] (220 kV) was purpose-built to evacuate power f
 
 The Khimti Khola is a tributary of the Tamakoshi River in the [[koshi-basin]]. The broader Khimti-Tamakoshi corridor in Dolakha includes multiple significant projects including [[upper-tamakoshi]] (456 MW), [[tamakoshi-v]] (99.8 MW), and [[tamakoshi-3]] (287 MW).
 
+## Sources
+
+- [[jica-ipsdp-main-report-vol2]]
 ## See also
 
 - [[khimti-i]]

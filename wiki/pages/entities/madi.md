@@ -2,7 +2,8 @@
 title: Madi
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
+generator: specs-refresh
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, storage, karnali]
 images: []
@@ -27,7 +28,32 @@ Madi is a 199.8 MW JICA promising-storage candidate in the West Rapti basin. It 
 | Total storage | 359.5 MCM |
 | Effective storage | 235.1 MCM |
 
+### Storage
+
+| Parameter | Value |
+|-----------|-------|
+| Total storage | 359.5 MCM |
+| Effective storage | 235.1 MCM |
+
+### Output
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 621.1 GWh |
+| Dry-season energy | 170.7 GWh |
+| Dry-season share | 27.5 % |
+| Type | Storage |
+
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+- [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive Summary]]
+
+<!-- generated:sources:end -->
 
 ## Why It Matters
 

@@ -3,9 +3,10 @@ title: Madhya Marsyangdi
 type: entity
 created: 2026-04-20
 updated: 2026-05-02
-sources: []
+sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, gandaki]
 images: []
+generator: manual
 ---
 
 # Madhya Marsyangdi
@@ -125,6 +126,9 @@ be done incrementally rather than as an emergency rehab — but it also
 means it is a test case for what that incremental path looks like.
 Every NEA plant eventually follows it.
 
+## Sources
+
+- [[nea-annual-report-fy2024-25]]
 ## See also
 
 - [[gandaki-basin]] — the Marsyangdi feeds the Narayani / Gandaki system

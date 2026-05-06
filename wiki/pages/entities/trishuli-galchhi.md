@@ -3,7 +3,7 @@ title: Trishuli Galchhi
 type: entity
 created: 2026-04-20
 updated: 2026-05-06
-sources: []
+sources: [nea-annual-report-fy2024-25, doed-licensing-directive-2075]
 tags: [project, under-construction, private-ipp, gandaki, nuwakot]
 images: []
 generator: specs-refresh
@@ -31,7 +31,8 @@ generator: specs-refresh
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[nea-annual-report-fy2024-25]]
+- [[doed-licensing-directive-2075]]
 
 <!-- generated:sources:end -->
 

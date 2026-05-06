@@ -2,9 +2,10 @@
 title: Andhi Khola
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
-sources: [nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2]
-tags: [project, watchlist, storage, operating, gandaki, syangja]
+updated: 2026-05-06
+generator: manual
+sources: [jica-ipsdp-main-report-vol2, wb-ganges-strategic-basin-assessment]
+tags: [project, storage, survey, gandaki, syangja, promising-storage]
 images:
   - src: andhi-khola/locator-map.png
     caption: Locator crop centered on the mapped project anchor for Andhi Khola.
@@ -24,46 +25,54 @@ images:
 
 # Andhi Khola
 
-Andhi Khola is a small operating project in Syangja, but it is pinned in both the [[data-layer-priority-watchlist]] and [[data-layer-storage-shortlist]] because the same river/site family appears in JICA's promising-storage comparison. It is a useful reminder that storage value is not the same as operating nameplate capacity.
-
-<!-- generated:specs:start -->
+This page tracks the **180 MW Andhi Khola storage candidate** from the JICA/MP2014 screening set, not the separate **9.4 MW operating plant** on the same river. The shared river name had been collapsing two different project objects into one page; this version keeps them distinct.
 
 ## Specifications
 
 | Parameter | Value |
 |-----------|-------|
-| Capacity | 9.4 MW |
-| Status | Operating |
-| Category | jica promising storage |
+| Capacity | 180 MW |
+| Status | Survey |
+| Category | JICA promising storage |
 | River | Andhi Khola ([[gandaki-basin]]) |
 | District | Syangja |
 | Province | Gandaki Pradesh |
-| Annual energy | 648.7 GWh |
+| Annual design energy | 648.7 GWh |
 | Dry-season energy | 137.1 GWh |
-| Dry share | 21.1% |
+| Dry-season share | 21.1 % |
+| Type | Storage |
 | Total storage | 336.5 MCM |
 | Effective storage | 238.7 MCM |
 
-<!-- generated:specs:end -->
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->
 
 ## Why It Matters
 
-The operating plant is only **9.4 MW**, but the storage-comparison record associated with Andhi Khola carries a much larger planning concept: **180 MW**, **648.7 GWh** annual energy, **137.1 GWh** dry-season energy, and **21.1%** dry share. The page therefore has to be read carefully: the current asset and the storage candidate are not the same kind of object.
+Andhi Khola matters because it is one of the smaller storage candidates that still looks systemically relevant in Nepal's dry-season problem. At **180 MW** and **137.1 GWh** of dry-season energy, it is not a mega-project like [[budhigandaki]] or [[dudhkoshi-storage]], but it is large enough to matter in a portfolio of medium storage assets.
 
-That distinction is exactly why Andhi Khola is useful in the wiki. It forces the reader to separate existing operating evidence from future storage-screening potential.
+It is also a useful discipline case for the wiki itself: river-name continuity does not mean project continuity. Nepal has many sites where an operating RoR plant, a survey licence, and a larger storage concept can all sit in the same corridor while representing different investment objects.
 
 ## Status And Timing
 
-The existing Andhi Khola plant is operating. The storage-candidate figures come from the JICA/NEA storage master-plan material and should be treated as planning-screening values, not a confirmed construction programme.
+The storage-candidate figures come from the JICA/NEA master-plan screening material and should be read as **planning-stage values**, not an active construction programme. The candidate remains a **survey-stage storage concept** in this wiki's project-specs dataset.
+
+The separate 9.4 MW operating plant on the river may still appear in some mapped operating inventories. That operating asset is evidence that the river already hosts generation; it is **not** the same project as this 180 MW storage candidate.
 
 ## Map Interpretation
 
-The marker is an operating-project registry point near the mapped river. For the current operating asset it is relatively useful; for the larger storage concept, it is only a planning anchor.
+The current map anchor for `andhi-khola` should be interpreted conservatively. It is a planning anchor for the storage candidate, not an engineering-grade location for a final dam/powerhouse layout.
 
 ## Registry note
 
-- JICA/NEA storage master plan volume 2
-- Naxa / DoED-linked public hydropower project dataset
+- JICA/NEA storage master plan volume 2 drives the storage metrics used here.
+- Public registry and operating-map records may refer to a smaller operating Andhi Khola plant; those records should not be read as describing this 180 MW storage candidate.
 
 ## See also
 

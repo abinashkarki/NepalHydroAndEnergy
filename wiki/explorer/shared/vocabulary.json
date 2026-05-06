@@ -1,0 +1,53 @@
+{
+  "_doc": "Controlled vocabularies for project spec fields. Used for schema validation, tag suggestion, and UI normalization.",
+  "project_type": {
+    "RoR": "Run-of-river — no storage, power follows flow",
+    "PROR": "Peaking run-of-river — limited pondage for daily peaking",
+    "Peaking RoR": "Peaking run-of-river (alternate label)",
+    "RoR With Pondage": "Run-of-river with pondage",
+    "Storage": "Reservoir storage — seasonal or multi-seasonal regulation",
+    "Pumped-storage": "Pumped-storage — reversible pump-turbine units",
+    "Storage / Pumped-storage": "Combined storage and pumped-storage",
+    "Storage / Multipurpose": "Storage for hydropower, irrigation, and flood control"
+  },
+  "status": {
+    "operating": "Commissioned and generating",
+    "under-construction": "Active construction underway",
+    "pre-construction": "Licensed, pre-construction activities (access roads, camps, detailed design)",
+    "survey": "Survey licence — feasibility studies only, no construction licence yet",
+    "stalled": "Licensed but stalled (financial, legal, or political barriers)",
+    "cancelled": "Licence cancelled or project abandoned",
+    "conceptual": "Identified as a potential site; no licence or formal development"
+  },
+  "dam_type": {
+    "RCC": "Roller-compacted concrete",
+    "Earthfill": "Earth-filled embankment",
+    "Rockfill": "Rock-filled embankment",
+    "CFRD": "Concrete-faced rockfill dam",
+    "Concrete-face Rockfill": "Concrete-faced rockfill dam",
+    "Arch": "Concrete arch dam",
+    "Double-curvature Arch": "Double-curvature (parabolic) arch dam",
+    "Gravity": "Concrete gravity dam",
+    "Composite": "Combination of two or more dam types"
+  },
+  "turbine_type": {
+    "Francis": "Francis turbine — medium to high head",
+    "Pelton": "Pelton wheel — very high head",
+    "Kaplan": "Kaplan turbine — low head, high flow",
+    "Crossflow": "Crossflow turbine — small hydro, low head",
+    "Francis (Toshiba)": "Francis turbine manufactured by Toshiba"
+  },
+  "q_design": {
+    "Q40": "40% exceedance flow — design for wetter conditions",
+    "Q41": "41% exceedance flow",
+    "Q45": "45% exceedance flow — DoED 2018 guideline mandate",
+    "Q50": "50% exceedance flow — median flow",
+    "Q65": "65% exceedance flow — conservative dry-season design",
+    "Q65+": "Higher than Q65 — unusually conservative design"
+  },
+  "license_type": {
+    "Operation": "Operating — commercial operation achieved",
+    "Generation": "Generation licence — permitted to construct",
+    "Survey": "Survey licence — feasibility study only"
+  }
+}

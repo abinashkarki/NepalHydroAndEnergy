@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25]
 tags: [solar, bishnu-priya, surya-power, nawalparasi, lumbini, ipp, phase-i, operating]
+generator: manual
 ---
 
 # Bishnu Priya Solar Farm (Surya Power, ~1 MWp)

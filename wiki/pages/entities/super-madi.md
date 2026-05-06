@@ -3,9 +3,10 @@ title: Super Madi
 type: entity
 created: 2026-04-20
 updated: 2026-05-02
-sources: []
+sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, gandaki, kaski]
 images: []
+generator: manual
 ---
 
 # Super Madi
@@ -41,3 +42,7 @@ Super Madi sits within the broader Gandaki basin development landscape, where pr
 
 - [[run-of-river-hydropower]]
 - [[buildability]]
+
+## Sources
+
+- [[nea-annual-report-fy2024-25]]

@@ -3,9 +3,10 @@ title: Trishuli Cascade
 type: entity
 created: 2026-05-04
 updated: 2026-05-04
-sources: []
+sources: [nea-annual-report-fy2024-25]
 tags: [project, cascade, gandaki, trishuli]
 images: []
+generator: manual
 ---
 
 # Trishuli Cascade
@@ -40,6 +41,9 @@ The corridor's density concentrates systemic risk: geological events, sediment s
 
 The Trishuli River is a tributary of the Narayani/Gandaki system (see [[gandaki-basin]]). The adjacent Bhote Koshi corridor ([[rasuwagadhi]], [[madhya-bhotekoshi]], [[upper-bhotekoshi]]) shares transmission infrastructure and Chilime-group sponsorship patterns with several Trishuli projects via the [[chilime-trishuli-220kv-transmission-line]].
 
+## Sources
+
+- [[nea-annual-report-fy2024-25]]
 ## See also
 
 - [[upper-trishuli-3a]]

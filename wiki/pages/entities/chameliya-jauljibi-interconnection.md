@@ -6,6 +6,7 @@ created: 2026-04-20
 updated: 2026-04-20
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 220kv, cross-border, india, chameliya, mahakali-basin, planned]
+generator: manual
 ---
 
 # Chameliya–Jauljibi 220 kV Interconnection

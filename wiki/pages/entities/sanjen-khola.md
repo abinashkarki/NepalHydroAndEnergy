@@ -3,9 +3,10 @@ title: Sanjen Khola
 type: entity
 created: 2026-04-20
 updated: 2026-05-02
-sources: []
+sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, rasuwa]
 images: []
+generator: manual
 ---
 
 # Sanjen Khola
@@ -38,3 +39,7 @@ Both Sanjen projects benefit from the Chilime-Trishuli transmission corridor inf
 
 - [[run-of-river-hydropower]]
 - [[buildability]]
+
+## Sources
+
+- [[nea-annual-report-fy2024-25]]

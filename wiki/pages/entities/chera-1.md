@@ -31,6 +31,15 @@ pinned in [[data-layer-storage-shortlist]].
 
 <!-- generated:specs:end -->
 
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+- [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive Summary]]
+
+<!-- generated:sources:end -->
+
 ## Why It Matters
 
 Chera-1 offers **563.2 GWh** of annual energy with **120.6 GWh** of dry-season output

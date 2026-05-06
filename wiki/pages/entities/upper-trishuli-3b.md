@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [ppa-data-retrieval-icra-care-2026]
 tags: [project, under-construction, gandaki, rasuwa, trishuli-cascade]
 images: []
+generator: manual
 ---
 
 # Upper Trishuli 3B
@@ -45,4 +46,8 @@ Industry analysis notes that projects in the Trishuli corridor, including Upper 
 
 - [[run-of-river-hydropower]]
 - [[buildability]]
+- [[ppa-data-retrieval-icra-care-2026]]
+
+## Sources
+
 - [[ppa-data-retrieval-icra-care-2026]]

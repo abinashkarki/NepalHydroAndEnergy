@@ -2,7 +2,7 @@
 title: Likhu -1
 type: entity
 created: 2026-04-20
-updated: 2026-05-05
+updated: 2026-05-06
 sources: [likhu-cascade-research-compilation]
 tags: [project, operating, private-ipp, ramechhap, solukhumbu, okhaldhunga, koshi]
 images: []
@@ -20,12 +20,20 @@ generator: specs-refresh
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 77 MW |
-| Status | Operating |
+| Status | Under construction (Generation licence) |
 | River | Likhu Khola (eastern [[koshi-basin]]) |
 | District | Solukhumbu |
 | Province | Province No 1 |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[likhu-cascade-research-compilation|Likhu Cascade Research Compilation]]
+
+<!-- generated:sources:end -->
 
 ## Specifications (CARE Nepal / DoED data)
 

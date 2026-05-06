@@ -145,3 +145,13 @@ Source: [SAPDC monthly progress report up to 28 February 2023 (PDF)](https://www
 - [[firm-power]]
 - [[seasonal-mismatch]]
 - [[inaruwa-purnea-interconnection]] — the 400 kV line being built to evacuate Arun-3
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[arun-3-project-status-2025|Arun-3 Project Status & PDA Summary (2025)]]
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->

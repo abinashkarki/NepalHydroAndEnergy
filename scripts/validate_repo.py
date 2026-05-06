@@ -2,6 +2,8 @@
 """Lightweight repository validation for portfolio-facing hygiene."""
 from __future__ import annotations
 
+import csv as csv_module
+import difflib
 import json
 import re
 import subprocess
@@ -195,14 +197,232 @@ def validate_tracked_hygiene() -> None:
         fail("tracked generated/clutter files:\n" + "\n".join(offenders[:50]))
 
 
-def validate_specs_csv(slugs: set[str]) -> None:
-    import csv as csv_module
-    specs_path = ROOT / "data" / "project_specs.csv"
-    if not specs_path.exists():
+SPECS_CSV_PATH = ROOT / "data" / "project_specs.csv"
+SCHEMA_PATH = ROOT / "wiki" / "specs-schema.json"
+
+STATUS_ENUM = [
+    "operating", "under-construction", "survey", "pre-construction",
+    "stalled", "cancelled", "conceptual",
+]
+
+STATUS_TABLE_RE = re.compile(r"\|\s*Status\s*\|\s*(.+?)\s*\|")
+STATUS_TO_ENUM: dict[str, str] = {
+    "operating": "operating", "operational": "operating", "commissioned": "operating",
+    "generating": "operating",
+    "under construction": "under-construction",
+    "under-construction": "under-construction",
+    "construction": "under-construction",
+    "survey": "survey", "survey licence": "survey", "feasibility": "survey",
+    "pre-construction": "pre-construction", "pre construction": "pre-construction",
+    "stalled": "stalled",
+    "cancelled": "cancelled", "canceled": "cancelled", "abandoned": "cancelled",
+    "conceptual": "conceptual",
+}
+
+ENTITY_FRONTMATTER_END_RE = re.compile(r"\n---\s*\n", re.MULTILINE)
+
+
+def normalized_token(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", value.lower())
+
+
+def entity_pages() -> list[Path]:
+    return sorted((WIKI_PAGES / "entities").glob("*.md"))
+
+
+def read_frontmatter_text(text: str) -> str:
+    if not text.startswith("---\n"):
+        return ""
+    match = ENTITY_FRONTMATTER_END_RE.search(text, 4)
+    if not match:
+        return ""
+    return text[4:match.start()]
+
+
+def extract_frontmatter_list(text: str, key: str) -> list[str]:
+    fm = read_frontmatter_text(text)
+    if not fm:
+        return []
+    match = re.search(rf"^{re.escape(key)}:\s*\[(.*?)\]\s*$", fm, re.MULTILINE)
+    if not match:
+        return []
+    raw = match.group(1).strip()
+    if not raw:
+        return []
+    return [s.strip().strip("'\"") for s in raw.split(",") if s.strip()]
+
+
+def extract_generator(text: str) -> str:
+    fm = read_frontmatter_text(text)
+    if not fm:
+        return ""
+    match = re.search(r"^generator:\s*(.+?)\s*$", fm, re.MULTILINE)
+    return match.group(1).strip() if match else ""
+
+
+def extract_title(text: str, fallback: str) -> str:
+    match = re.search(r"^title:\s*(.+?)\s*$", text, re.MULTILINE)
+    return match.group(1).strip().strip("'\"") if match else fallback
+
+
+def warn(message: str) -> None:
+    print(f"WARNING: {message}", file=sys.stderr)
+
+
+def read_specs_csv() -> list[dict[str, str]] | None:
+    if not SPECS_CSV_PATH.exists():
+        return None
+    with SPECS_CSV_PATH.open(newline="", encoding="utf-8-sig") as f:
+        return list(csv_module.DictReader(f))
+
+
+def validate_duplicate_entities(slugs: set[str]) -> None:
+    corpus_collisions: list[str] = []
+    title_index: dict[str, list[str]] = {}
+    for page in entity_pages():
+        text = page.read_text(encoding="utf-8")
+        title = extract_title(text, page.stem)
+        key = normalized_token(title)
+        if not key:
+            continue
+        title_index.setdefault(key, []).append(f"{page.stem} ({title})")
+    for key, items in sorted(title_index.items()):
+        if len(items) > 1:
+            corpus_collisions.append(" / ".join(items))
+    if corpus_collisions:
+        fail("duplicate/colliding entity titles in wiki/pages/entities:\n  "
+             + "\n  ".join(corpus_collisions[:25]))
+
+    rows = read_specs_csv()
+    if not rows:
         return
-    with specs_path.open(newline="", encoding="utf-8-sig") as f:
-        reader = csv_module.DictReader(f)
-        rows = list(reader)
+    # Check duplicate slugs
+    slug_counter: dict[str, int] = {}
+    for row in rows:
+        s = (row.get("slug") or "").strip()
+        if s:
+            slug_counter[s] = slug_counter.get(s, 0) + 1
+    dupes = {k: v for k, v in slug_counter.items() if v > 1}
+    if dupes:
+        fail("duplicate slugs in project_specs.csv: " + ", ".join(
+            f"{k} ({v}x)" for k, v in sorted(dupes.items())))
+    # Fuzzy-duplicate names
+    names = [(row.get("slug") or "").strip() for row in rows]
+    names = [n for n in names if n]
+    seen: list[str] = []
+    fuzzy_dupes: list[str] = []
+    for name in names:
+        close = difflib.get_close_matches(name, [s for s in seen if s != name], n=1, cutoff=0.75)
+        if close:
+            fuzzy_dupes.append(f"{name} ~ {close[0]}")
+        seen.append(name)
+    if fuzzy_dupes:
+        warn("fuzzy-duplicate entity names in CSV: " + ", ".join(fuzzy_dupes[:20]))
+
+
+def validate_page_generator(slugs: set[str]) -> None:
+    missing: list[str] = []
+    for page in entity_pages():
+        text = page.read_text(encoding="utf-8")
+        if not extract_generator(text):
+            missing.append(page.stem)
+    if missing:
+        fail(f"{len(missing)} entity pages missing 'generator:' frontmatter field: "
+             + ", ".join(missing[:30]))
+
+
+def validate_source_blocks() -> None:
+    source_pages = {
+        p.stem for p in (WIKI_PAGES / "sources").glob("*.md")
+    }
+
+    missing_section: list[str] = []
+    empty_frontmatter: list[str] = []
+    no_primary_source: list[str] = []
+    placeholder_blocks: list[str] = []
+
+    for path in entity_pages():
+        text = path.read_text(encoding="utf-8")
+        slug = path.stem
+        generator = extract_generator(text)
+        if generator not in {"specs-refresh", "manual"}:
+            continue
+        tags = set(extract_frontmatter_list(text, "tags"))
+        if "project" not in tags:
+            continue
+        # Check for ## Sources markdown section
+        if not re.search(r"^## Sources\s*$", text, re.MULTILINE):
+            missing_section.append(slug)
+        # Check sources: frontmatter is non-empty
+        source_slugs = extract_frontmatter_list(text, "sources")
+        if not source_slugs:
+            empty_frontmatter.append(slug)
+        elif not any(s in source_pages for s in source_slugs):
+            no_primary_source.append(slug)
+        if "_No primary sources have been linked yet._" in text:
+            placeholder_blocks.append(slug)
+
+    if missing_section:
+        fail(f"{len(missing_section)} flagship entities missing '## Sources' section: "
+             + ", ".join(missing_section[:25]))
+    if empty_frontmatter:
+        fail(f"{len(empty_frontmatter)} flagship entities have empty 'sources:' frontmatter: "
+             + ", ".join(empty_frontmatter[:25]))
+    if no_primary_source:
+        fail(f"{len(no_primary_source)} flagship entities have no primary source from "
+             f"wiki/pages/sources/: " + ", ".join(no_primary_source[:25]))
+    if placeholder_blocks:
+        fail(f"{len(placeholder_blocks)} flagship entities still show placeholder source blocks: "
+             + ", ".join(placeholder_blocks[:25]))
+
+
+def validate_status_consistency() -> None:
+    rows = read_specs_csv()
+    if not rows:
+        return
+    # Validate CSV status values match schema enum
+    invalid_status: list[str] = []
+    for row in rows:
+        slug = (row.get("slug") or "").strip()
+        status = (row.get("status") or "").strip()
+        if status and status not in STATUS_ENUM:
+            invalid_status.append(f"{slug}: '{status}'")
+    if invalid_status:
+        fail("invalid status values in project_specs.csv (must match schema enum):\n  "
+             + "\n  ".join(invalid_status[:25]))
+
+    # Check entity page spec tables for stale/inconsistent status declarations
+    mismatches: list[str] = []
+    for row in rows:
+        slug = (row.get("slug") or "").strip()
+        csv_status = (row.get("status") or "").strip().lower()
+        if not slug or not csv_status:
+            continue
+        path = WIKI_PAGES / "entities" / f"{slug}.md"
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        # Look for explicit Status table row: | Status | <value> |
+        for m in STATUS_TABLE_RE.finditer(text):
+            page_status_raw = m.group(1).strip().lower()
+            # Remove parenthetical notes like "(Generation licence)"
+            page_status_raw = re.sub(r"\(.*?\)", "", page_status_raw).strip()
+            page_status_enum = STATUS_TO_ENUM.get(page_status_raw)
+            if page_status_enum and page_status_enum != csv_status:
+                mismatches.append(
+                    f"{slug}: CSV says '{csv_status}' but spec table says "
+                    f"'{page_status_raw}' → maps to '{page_status_enum}'"
+                )
+                break  # One mismatch per page is enough
+    if mismatches:
+        fail(f"{len(mismatches)} entities with status mismatch between CSV and spec "
+             f"table:\n  " + "\n  ".join(mismatches[:30]))
+
+
+def validate_specs_csv(slugs: set[str]) -> None:
+    rows = read_specs_csv()
+    if not rows:
+        return
     if not rows:
         fail("data/project_specs.csv is empty")
     fieldnames = set(rows[0].keys())
@@ -230,6 +450,10 @@ def main() -> None:
     validate_map_manifest()
     validate_tracked_hygiene()
     validate_specs_csv(slugs)
+    validate_duplicate_entities(slugs)
+    validate_page_generator(slugs)
+    validate_source_blocks()
+    validate_status_consistency()
     print(f"OK: {len(slugs)} wiki pages, caches valid, map manifest valid, tracked hygiene clean")
 
 

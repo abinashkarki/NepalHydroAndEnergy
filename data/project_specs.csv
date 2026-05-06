@@ -1,0 +1,26 @@
+slug,capacity_mw,river,status,source_note,last_updated,gross_head_m,design_discharge_m3s,headrace_tunnel_km,dam_height_m,dam_type,num_units,unit_capacity_mw,turbine_type,underground_powerhouse,penstock_length_m,penstock_diameter_m,tailrace_length_m,annual_design_energy_gwh,dry_season_energy_gwh,dry_share_pct,plant_load_factor_pct,q_design,project_type,catchment_area_km2,environmental_release_m3s,total_storage_mcm,effective_storage_mcm,pumped_storage_mw,total_cost_usd_m,cost_per_mw_usd_m,ppa_rate_wet_npr_kwh,ppa_rate_dry_npr_kwh,debt_equity_ratio,developer,concession_type,lead_financier,concession_years,construction_start_year,cod_year,completion_pct
+upper-tamakoshi,456,Tama Koshi,operating,UKHLL annual report FY 2024/25,2026-05-05,822,,,,,,,,yes,,,,2281,,,65,,RoR,,,,,,,,3.74,6.96,75/25,Upper Tamakoshi Hydropower Limited (NEA subsidiary),,,,,2021,100
+arun-3,900,Arun,under-construction,SAPDC progress reports,2026-05-05,,,,,,4,225,Francis,,,,,3971,,,,,PROR,,,,,,1600,,,,,SJVN Arun-3 Power Development Company,BOOT,SJVN,30,,2026,74.6
+dudhkoshi-storage,635,Dudh Koshi,pre-construction,NEA/AIIB proposal documents,2026-05-05,,,,200,,,,,yes,,,,3377,,,,,Storage,,,1581,,200,2200,,,,,NEA,,AIIB,,2027,2031,
+kali-gandaki-a,144,Kali Gandaki,operating,ADB evaluation documents,2026-05-05,115,,,,,3,48,Francis (Toshiba),,,,,860,,,,,RoR With Pondage,,,,,,,,,,,NEA,,ADB + JBIC,,,2002,100
+tanahu-hydropower,140,Seti,under-construction,ADB Tanahu status 2025,2026-05-05,,,,140,RCC,,,,yes,,,,,,,,,Storage,,,,,,,,,,,NEA,,Asian Development Bank,,,,67
+chameliya-hydropower,30,Chameliya River,operating,NEA Generation Directorate report,2026-05-05,103.7,36,,,,,,,,,,,184.2,,,,,PROR,,,,,,226,7.5,,,,Nepal Electricity Authority,,China Gezhouba Group,,2007,2018,100
+sahas-urja,86,Solu Khola,operating,Sahas Urja progress reports,2026-05-05,,,,,,,,,,,,,520.2,100.27,19.28,69.05,Q41,RoR,,,,,,,,4.8,8.4,76/24,Sahas Urja Limited,,Nepal Investment Bank,,,2023,100
+chilime,22,Chilime,operating,Chilime Hydropower Company annual reports,2026-05-05,,,,,,,,,,,,,132.9,,,,Q65+,RoR,,,,,,,,,,,Chilime Hydropower Company Limited,,,,,2003,100
+mugu-karnali-storage,1902,Karnali,pre-construction,VUCL feasibility study,2026-05-05,285,,,,,10,,Francis,,,,,5883,,,,,Storage / Pumped-storage,,,,,,,,,,,Vidhyut Utpadan Company Limited,PPP,,,2030,2034,
+upper-karnali,900,Karnali,stalled,GMR documentation Supreme Court ruling,2026-05-05,,,,,,,,,,,,,3466,,,,,RoR,,,,,,,,,,,GMR Upper Karnali Hydropower Limited,PDA,IREDA SJVN Nepali banks,,,,0
+karnali-chisapani,10800,Karnali,conceptual,Historical planning documents,2026-05-05,,,,270,,,,,,,,,,,,,,Storage,,,28200,16200,,,,,,,,,,,,,
+budhigandaki,1200,Budhi Gandaki,pre-construction,NEA project documents,2026-05-05,,,,263,Double-curvature Arch,,,,,,,,3380,1410,42,,,Storage,,,3300,,,2770,,7.1,12.4,70/30,Budhigandaki Company Limited,,,50,2028,2036,
+pancheshwar,6480,Mahakali,stalled,Bilateral treaty documents,2026-05-05,,,,315,Rockfill,,,,,,,,,,,,,Storage / Multipurpose,,,,,,,,,,,,,,,,,
+phukot-karnali,426,Karnali,survey,VUCL project page,2026-05-05,,,,,,6,79,Francis,yes,,,,,,,,,PROR,,,,,,,,,,,Vidhyut Utpadan Company Limited,,,,,,
+west-seti,750,Seti River,stalled,NHPC documentation,2026-05-05,,,,195,Concrete-face Rockfill,,,,,,,,,,,,,Storage,,,,,,,,,,,NHPC Limited,,,,,,
+kulekhani-cascade,106,Kulekhani,operating,NEA annual report FY 2024/25,2026-05-05,,,,,,,,,,,,,279.8,,,,,Storage,,,,,,,,,,,,,,,,,
+nalsyau-gad,410,Nalsyau Gad,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,1406.1,581.8,41.4,,,Storage,,,419.6,296.3,,,,,,,,,,,,,
+lower-badigad,380.3,Badigad,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,1366.0,354.7,26.0,,,Storage,,,995.9,505.5,,,,,,,,,,,,,
+naumure-w-rapti,245,West Rapti,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,1157.5,309.9,26.8,,,Storage,,,1021.0,580.0,,,,,,,,,,,,,
+sun-koshi-no-3,536,Sun Koshi,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,1883.6,335.9,17.8,,,Storage,,,1220.0,555.0,,,,,,,,,,,,,
+madi,199.8,Madi,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,621.1,170.7,27.5,,,Storage,,,359.5,235.1,,,,,,,,,,,,,
+andhi-khola,180,Andhi Khola,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,648.7,137.1,21.1,,,Storage,,,336.5,238.7,,,,,,,,,,,,,
+chera-1,148.7,Chera,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,563.2,120.6,21.4,,,Storage,,,254.9,141.1,,,,,,,,,,,,,
+kokhajor-1,111.5,Kokhajor Khola,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,278.9,94.1,33.7,,,Storage,,,218.7,166.1,,,,,,,,,,,,,
+lower-jhimruk,142.5,Jhimruk,survey,JICA IPSDP Main Report Vol 2 (Dec 2024),2026-05-05,,,,,,,,,,,,,454.7,94.4,20.8,,,Storage,,,386.0,211.6,,,,,,,,,,,,,

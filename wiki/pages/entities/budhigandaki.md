@@ -124,3 +124,12 @@ If built, Budhigandaki would not just add generation — it would **change the e
 - [Nepal Tributary Explorer](../../assets/maps/html/nepal_tributary_explorer.html)
 - [Cross-Border View With Projects](../../assets/maps/previews/nepal_cross_border_with_projects.png)
 - [[data-map-inventory]]
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[wb-country-economic-memo-2025|World Bank Nepal Country Economic Memorandum (2025)]]
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->

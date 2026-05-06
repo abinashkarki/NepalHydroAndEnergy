@@ -11,6 +11,7 @@ images:
     credit: "Nepal Electricity Authority, A Year in Review FY 2024/25"
     license: gov-permissive
     source_url: "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
+generator: manual
 ---
 
 # Khudi 220/132 kV Substation

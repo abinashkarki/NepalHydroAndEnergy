@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [wecs-river-basin-plan-2024, wecs-hydropower-potential-2019, wecs-energy-synopsis-2024]
 tags: [organization, planning, government, data]
+generator: manual
 ---
 
 # Water and Energy Commission Secretariat (WECS)

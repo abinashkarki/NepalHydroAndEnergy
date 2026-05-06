@@ -26,6 +26,7 @@ images:
     credit: Vyacheslav Argenberg
     license: CC BY 4.0
     source_url: "https://commons.wikimedia.org/wiki/File%3AKali_Gandaki_Valley%2C_Gandaki_River%2C_Nepal%2C_Himalaya.jpg"
+generator: manual
 ---
 
 # Gandaki Basin

@@ -16,6 +16,7 @@ images:
     credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+generator: manual
 ---
 
 # Uttarganga Storage Hydropower Project
@@ -76,6 +77,10 @@ reservoir area alongside core dam, tunnel and powerhouse parameters.
 
 Source: [Local workspace copy of NEA transmission annual book 2077 (PDF)](../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf)
 
+## Sources
+
+- [[nea-transmission-annual-book-2077]]
+- [[moewri-ipsdp-exec-summary-2025]]
 ## See also
 
 - [[buildability]]

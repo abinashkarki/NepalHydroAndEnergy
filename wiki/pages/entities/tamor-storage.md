@@ -3,9 +3,10 @@ title: Tamor Storage
 type: entity
 created: 2026-04-20
 updated: 2026-05-02
-sources: []
+sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, survey, koshi, storage]
 images: []
+generator: manual
 ---
 
 # Tamor Storage
@@ -50,3 +51,7 @@ In a system increasingly saturated with monsoon-heavy run-of-river generation, T
 - [[run-of-river-hydropower]]
 - [[storage-deficit]]
 - [[firm-power]]
+
+## Sources
+
+- [[moewri-ipsdp-exec-summary-2025]]

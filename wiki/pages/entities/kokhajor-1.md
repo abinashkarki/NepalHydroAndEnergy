@@ -2,7 +2,8 @@
 title: Kokhajor-1
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
+generator: specs-refresh
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, storage, koshi]
 images: []
@@ -27,7 +28,31 @@ Kokhajor-1 is a 111.5 MW JICA promising-storage candidate in the Koshi basin. It
 | Total storage | 218.7 MCM |
 | Effective storage | 166.1 MCM |
 
+### Storage
+
+| Parameter | Value |
+|-----------|-------|
+| Total storage | 218.7 MCM |
+| Effective storage | 166.1 MCM |
+
+### Output
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 278.9 GWh |
+| Dry-season energy | 94.1 GWh |
+| Dry-season share | 33.7 % |
+| Type | Storage |
+
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->
 
 ## Why It Matters
 

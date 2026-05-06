@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project]
 tags: [solar, NEA, bidur, trishuli, nuwakot, 25mwp, grid-solar-ee, flagship]
+generator: manual
 ---
 
 # Bidur / Trishuli 25 MWp Solar Farm

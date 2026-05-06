@@ -127,3 +127,13 @@ More broadly, Karnali Chisapani is the limiting case for Nepal's hydropower stra
 - [[storage-deficit]] — what this project would address at scale
 - [Nepal River Geopolitics Explorer](../../assets/maps/html/nepal_geopolitics_river_influence.html)
 - [[data-map-inventory]]
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[wecs-hydropower-potential-2019|WECS Assessment of Hydropower Potential of Nepal (2019)]]
+- [[wb-ganges-strategic-basin-assessment|World Bank Ganges Strategic Basin Assessment]]
+- [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+
+<!-- generated:sources:end -->
