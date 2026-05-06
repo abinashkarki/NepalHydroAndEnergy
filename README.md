@@ -1,63 +1,149 @@
-# Nepal Hydro & Energy Public Knowledge Hub
+# Nepal Energy Wiki & Explorer
 
-Public wiki, map, and data source for understanding Nepal's electricity transition: hydropower seasonality, storage scarcity, transmission bottlenecks, India-facing trade, the emerging solar complement to run-of-river hydro, and a structured project technical-specifications database comparable across 25+ projects.
+Public wiki, map explorer, and structured data project for understanding Nepal's electricity system: hydropower seasonality, storage scarcity, transmission bottlenecks, India-facing trade, solar complementarity, and project-level technical records.
 
-The project combines source notes, derived datasets, interactive maps, a 339-page linked wiki, and a curated project-specs pipeline that feeds both the wiki and the map explorer from a single CSV.
+Live site: [transparentgov.ai/wiki/explorer](https://transparentgov.ai/wiki/explorer/)
 
-## Highlights
+## What this repo contains
 
-- **339-page public wiki** covering sources, entities, concepts, data tables, tracked claims, syntheses, and interventions.
-- **Structured project specs database** (`data/project_specs.csv`) — 25 hydropower projects, 41 fields across engineering, output, financial, governance, and schedule dimensions. Feeds wiki spec tables, map popups, and the fact index from a single source of truth.
-- **Completeness reporting** — `scripts/report_spec_completeness.py` surfaces data-quality gaps per project and per field, making the research frontier visible.
-- **Interactive Leaflet explorer** that links wiki pages to map layers, page bindings, backlinks, search metadata, and curated presets. Map popups now display turbine type, design energy, gross head, and other technical specs from the CSV.
-- **Geospatial data pipeline** for Nepal-linked river basins, hydropower projects, transmission corridors, grid hubs, storage candidates, solar zones, and floating-PV candidates.
-- **Seasonality and trade analysis** using NEA annual/daily reports to connect wet-season export surplus, dry-season imports, and storage scarcity.
-- **Solar subsystem** added as a first-class analytical layer: GHI zones, plant/tender inventory, LCOE crossover, hydro complementarity, rural/off-grid politics, and map layers.
+This repository combines four things:
 
-## Best Entry Points
+- a linked public wiki
+- a static Leaflet-based map explorer
+- a structured hydropower project-specifications database
+- Python build scripts that generate the explorer assets and wiki metadata
 
-- [Wiki index](wiki/index.md)
-- [Master thesis](wiki/pages/syntheses/master-thesis.md)
-- [Solar in the master narrative](wiki/pages/syntheses/solar-in-the-master-narrative.md)
-- [Narrative report](docs/nepal_energy_hydropower_report.md)
-- [Question-wise analysis](docs/nepal_energy_questionwise_analysis.md)
-- [Lead 01 seasonality/storage/trade brief](docs/research_briefs/lead_01_seasonality_storage_trade.md)
-- [Map explorer README](wiki/explorer/README.md)
+The repo is meant to be both a public-facing knowledge product and a working research system. Pages, map layers, and structured records are intentionally connected.
 
-## Project Technical Specifications
-
-A structured data pipeline powers per-project technical specs across the wiki and map:
+## Core architecture
 
 | Component | Path | Purpose |
 |---|---|---|
-| **Specs CSV** | `data/project_specs.csv` | Single source of truth — 25 projects, 41 columns across six sections |
-| **JSON Schema** | `wiki/specs-schema.json` | Schema with controlled enums for dam type, turbine type, Q-design, status |
-| **Vocabulary** | `wiki/explorer/shared/vocabulary.json` | Canonical vocabularies shared across schema, CSV, and UI |
-| **Completeness report** | `scripts/report_spec_completeness.py` | Per-project and per-field coverage scoring |
+| Wiki pages | `wiki/pages/` | Interlinked markdown pages across entities, concepts, claims, data, syntheses, interventions, and sources |
+| Explorer app | `wiki/explorer/` | Static HTML/JS app that combines the map and wiki reader |
+| Project specs database | `data/project_specs.csv` | Hand-curated structured project data used across the wiki and map |
+| Built map layers | `data/processed/maps/` | GeoJSON outputs for hydropower, transmission, basins, storage, solar, and scenarios |
+| Build scripts | `scripts/` | Python tooling for explorer data, wiki caches, search, backlinks, and stubs |
 
-**Data flow:**
+The deployable surfaces are primarily:
+
+- `wiki/`
+- `data/processed/maps/`
+
+The rest of the repository is development tooling, source material, documentation, and working research support.
+
+## Project specs pipeline
+
+`data/project_specs.csv` is the single structured source of truth for technical project records.
 
 ```text
-data/project_specs.csv  ← hand-curated, single source of truth
+data/project_specs.csv
        │
-       ├─→ build_tributary_maps.py   → GeoJSON display points (map popups/cards)
-       ├─→ gen_wiki_stubs.py         → wiki spec tables (auto-stubs refreshed)
-       ├─→ build_wiki_fact_index.py  → searchable structured facts
-       └─→ report_spec_completeness.py → data-quality dashboard
+       ├─→ scripts/build_tributary_maps.py
+       │     → GeoJSON display points and map popups/cards
+       ├─→ scripts/gen_wiki_stubs.py
+       │     → wiki stub/spec table generation
+       ├─→ scripts/build_wiki_fact_index.py
+       │     → searchable structured facts
+       └─→ scripts/report_spec_completeness.py
+             → data-quality reporting
 ```
 
-**Projects covered (25):** Upper Tamakoshi, Arun-3, Dudhkoshi Storage, Kali Gandaki A, Tanahu, Chameliya, Sahas Urja, Chilime, Mugu Karnali Storage, Upper Karnali, Karnali Chisapani, Budhigandaki, Pancheshwar, Phukot Karnali, West Seti, Kulekhani Cascade, Nalsyau Gad, Lower Badigad, Naumure (W. Rapti), Sun Koshi No.3, Madi, Andhi Khola, Chera-1, Kokhajor-1, Lower Jhimruk.
+Related files:
 
-Sources: JICA IPSDP Vol 2 (11 storage projects), NEA annual reports, UKHLL/SAPDC/CHCL project documents, VUCL feasibility studies, ADB evaluations, ICRA Nepal ratings.
+- Schema: `wiki/specs-schema.json`
+- Explorer vocabulary: `wiki/explorer/shared/vocabulary.json`
+- Validation: `scripts/validate_repo.py`
 
-## Interactive Explorer
+## Repo layout
 
-**Live:** [https://transparentgov.ai/wiki/explorer/](https://transparentgov.ai/wiki/explorer/)
+```text
+data/
+  project_specs.csv
+  license_type_overrides.csv
+  processed/
+    maps/
+    tables/
+    corridor_tracing/
+    text/
+  raw/
 
-Run the wiki + map explorer locally:
+docs/
+  maps/
+  research_briefs/
+
+scripts/
+  build_tributary_maps.py
+  gen_wiki_stubs.py
+  report_spec_completeness.py
+  validate_repo.py
+  build_wiki_*.py
+
+wiki/
+  explorer/
+    index.html
+    shared/
+  pages/
+  specs-schema.json
+```
+
+## Best entry points
+
+- [wiki/index.md](wiki/index.md)
+- [wiki/explorer/README.md](wiki/explorer/README.md)
+- [docs/maps/README.md](docs/maps/README.md)
+- [docs/agent-handoff-may-2026.md](docs/agent-handoff-may-2026.md)
+
+## Local setup
 
 ```bash
-./wiki/explorer/serve.sh 8765
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Common workflows
+
+Rebuild wiki metadata:
+
+```bash
+make wiki-index
+```
+
+Preview wiki stub/spec updates:
+
+```bash
+python scripts/gen_wiki_stubs.py
+```
+
+Apply wiki stub/spec updates:
+
+```bash
+python scripts/gen_wiki_stubs.py --write --refresh-specs
+```
+
+Rebuild map GeoJSON and explorer-facing layer data:
+
+```bash
+python scripts/build_tributary_maps.py
+```
+
+Generate the spec completeness report:
+
+```bash
+python scripts/report_spec_completeness.py --all
+```
+
+Validate the repository:
+
+```bash
+make validate
+```
+
+Run the explorer locally:
+
+```bash
+make serve
 ```
 
 Then open:
@@ -66,104 +152,53 @@ Then open:
 http://localhost:8765/wiki/explorer/
 ```
 
-Useful presets inside the explorer:
+## Working on the explorer
 
-- **Tributaries**: river systems plus operating and under-construction hydropower.
-- **Geopolitics**: Nepal-linked basins, downstream systems, comparison rivers, and control callouts.
-- **Power**: transmission corridors, grid hubs, cross-border interconnections, priority projects, and storage.
-- **Solar**: GHI zones, strategic suitability, operating plants, NEA 960 MW tender anchors, and floating-PV candidates.
+The explorer is configured declaratively through:
 
-## Repository Layout
+- `wiki/explorer/shared/layer-manifest.json`
+- `wiki/explorer/shared/presets.json`
+- `wiki/explorer/shared/bindings.json`
 
-```text
-docs/                 Narrative reports, research briefs, and exported map HTML.
-data/
-  project_specs.csv    Structured project specs — single source of truth (25 projects, 41 fields).
-  license_type_overrides.csv  Manual status corrections for 3 operating plants.
-  raw/                 Source PDFs and raw downloaded inputs. Heavy files are mostly ignored.
-  processed/
-    maps/              GeoJSON layers for all map features (hydropower, storage, solar, etc.).
-    tables/            Derived CSVs: storage shortlist, basin seasonality, NEA trade data, spec completeness.
-    corridor_tracing/  Source inventory, trace targets, corridor confidence dossiers.
-    text/              Extracted full-text versions of key source PDFs.
-figures/              Static charts used in reports and briefs.
-notes/                Working research notes by topic (hydrology, storage, grid economics, geopolitics).
-scripts/
-  build_tributary_maps.py     Main geo-data builder — rivers, basins, hydropower, annotations, scenarios.
-  gen_wiki_stubs.py           Auto-generates wiki entity stubs with CSV-driven spec tables.
-  report_spec_completeness.py Data-quality dashboard — per-project and per-field coverage scoring.
-  validate_repo.py            Wiki links, cache consistency, map manifest, and specs CSV validation.
-  build_wiki_*.py             Page index, metadata, backlinks, search, fact index, vector index.
-  *_trade*.py                 NEA daily trade data, monthly balances, cross-border series.
-  *_corridor*.py              Transmission corridor source and tracing manifests.
-  *_pdf*.py                   PDF image extraction and atlas generation.
-  *_solar*.py, *_figures*.py  Research figure builders.
-wiki/
-  spec-schema.json    JSON Schema for project_specs.csv with controlled enums.
-  pages/              339 interlinked markdown pages across 7 categories.
-  explorer/           Leaflet-based interactive map and wiki reader (static HTML + JS).
-    shared/           Layer manifest, presets, bindings, vocabulary, search indices, page metadata.
-```
+In practice, explorer changes usually touch one or more of:
 
-## Reproducible Commands
+- `wiki/explorer/index.html`
+- `wiki/explorer/shared/*.js`
+- `wiki/explorer/shared/*.json`
+- `data/processed/maps/*.geojson`
+- `scripts/build_tributary_maps.py`
 
-Install Python dependencies:
+If you change layer data or popup fields, rebuild the map outputs and run `make validate`.
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+## Wiki page types
 
-Regenerate wiki explorer caches (page index, metadata, backlinks, search, vector index):
+Wiki pages are not all maintained the same way. Frontmatter determines how some pages participate in generation pipelines.
 
-```bash
-make wiki-index
-```
+- `generator: auto-stub`
+  - registry-style page
+  - spec table can be refreshed automatically
+  - intentionally minimal narrative
+- `generator: specs-refresh`
+  - hand-curated page with structured sections that can be refreshed
+  - prose survives pipeline refreshes
+- `generator: manual`
+  - fully hand-maintained
+  - skipped by the specs refresh pipeline
 
-Regenerate wiki stubs and sync map bindings (dry-run first):
+## Data and quality notes
 
-```bash
-python scripts/gen_wiki_stubs.py                           # preview
-python scripts/gen_wiki_stubs.py --write --refresh-specs   # apply
-```
+- This is a public research system, not an engineering-grade plant database.
+- Some layers are approximate by design and should be interpreted as analytical map references, not surveyed coordinates.
+- Official power-sector documents often disagree internally; the project keeps those tensions visible instead of flattening them away.
+- Coverage in `data/project_specs.csv` is intentionally incomplete where sources are weak; `report_spec_completeness.py` exists to make that visible.
+- Some raw PDFs, GIS bundles, and extracted artifacts are too large or unstable to track or re-fetch reliably in a simple way.
 
-Regenerate the map GeoJSON layers including project specs enrichment:
+## Deployment note
 
-```bash
-python scripts/build_tributary_maps.py
-```
+The live site deploys from `main`. If work is done on a side branch, merging to `main` is the step that updates the deploy source.
 
-Generate the project specs completeness report:
+## Related docs
 
-```bash
-python scripts/report_spec_completeness.py          # terminal summary
-python scripts/report_spec_completeness.py --all    # also write CSV + markdown
-```
-
-Validate repo structure and generated metadata:
-
-```bash
-make validate
-```
-
-Serve the explorer:
-
-```bash
-make serve
-```
-
-Regenerate selected research figures:
-
-```bash
-python scripts/build_research_figures.py
-```
-
-## Data And Source Caveats
-
-- This is an active public knowledge base. Pages distinguish between narrative analysis, source notes, data tables, auto-generated registry records, and hand-curated project profiles (tagged `generator: auto-stub` or `specs-refresh` in frontmatter).
-- **Project specs.** The 25-project CSV is curated from multiple sources (JICA IPSDP, NEA reports, project documents, ICRA ratings). Coverage varies sharply — some projects have 14+ fields populated, most JICA-screened storage candidates have only 6. The completeness report surfaces these gaps explicitly. Spec values should be treated as "best available from cited source," not engineering-grade measurements.
-- Some official Nepal electricity tables disagree internally; the wiki keeps those tensions visible instead of smoothing them away.
-- Map layers are research visualizations, not hydrological or engineering-grade models. 10 of 25 spec-covered projects are enriched on the map; the remaining 15 either aren't in the DoED registry (conceptual/bilateral projects) or have slug mismatches with registry names.
-- Several raw PDFs and large GIS bundles are ignored to keep the repository reviewable; derived artifacts and source notes remain tracked.
-- A few external endpoints are unstable or protected, so not every raw download can be re-fetched reliably.
+- [wiki/explorer/README.md](wiki/explorer/README.md)
+- [docs/maps/README.md](docs/maps/README.md)
+- [AGENTS.md](AGENTS.md)
