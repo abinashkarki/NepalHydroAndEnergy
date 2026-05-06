@@ -4178,14 +4178,14 @@ def compute_node_metadata() -> dict[str, dict[str, Any]]:
     }
 
     _GATEWAY_ROLES: dict[str, str] = {
-        "dhalkebar": "Cross-border gateway for Nepal-India power exchange via the Dhalkebar-Muzaffarpur 400 kV interconnection.",
+        "dhalkebar": "Major 400 kV hub on the east-west backbone and cross-border gateway for power exchange via Dhalkebar-Muzaffarpur.",
         "kushaha": "Cross-border gateway for Nepal-India power exchange via the Kataiya-Kushaha 132 kV interconnection.",
         "parwanipur": "Cross-border gateway for Nepal-India power exchange via the Raxaul-Parwanipur 132 kV interconnection.",
         "mainahiya": "Cross-border gateway for Nepal-India power exchange via the New Nautanwa-Mainahiya 132 kV interconnection.",
         "gaddachauki": "Cross-border gateway for Nepal-India power exchange via the Tanakpur-Mahendranagar 132 kV interconnection.",
         "jamunaha": "Cross-border gateway for Nepal-India power exchange via the Nepalgunj-Nanpara 132 kV interconnection.",
         "belahiya": "Cross-border gateway for Nepal-India power exchange via the Gorakhpur-New Butwal 400 kV interconnection.",
-        "inaruwa": "Cross-border gateway for Nepal-India power exchange via the Inaruwa-Purnea 400 kV interconnection.",
+        "inaruwa": "Eastern 400 kV backbone terminus and cross-border gateway for power exchange via Inaruwa-Purnea.",
         "lamki": "Cross-border gateway for Nepal-India power exchange via the Lamki-Bareilly 400 kV interconnection.",
         "chameliya": "Cross-border gateway for Nepal-India power exchange via the Chameliya-Jauljibi 220 kV interconnection.",
     }
