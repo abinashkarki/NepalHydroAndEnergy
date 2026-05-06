@@ -204,9 +204,10 @@
         "confidence"
       ],
       "tooltip_fields": [
-        "label_title",
-        "river_system"
+        "label",
+        "node_type"
       ],
+      "name_field": "label",
       "roleByPreset": {
         "tributaries": "off",
         "geopolitics": "annotation",
@@ -238,9 +239,10 @@
         {"field": "source_note", "label": "Caveat"}
       ],
       "tooltip_fields": [
-        "name",
-        "dependency_type"
+        "label",
+        "node_type"
       ],
+      "name_field": "label",
       "roleByPreset": {
         "tributaries": "off",
         "geopolitics": "context",
@@ -653,7 +655,7 @@
     "priority_watchlist": {
       "path": "../../../data/processed/maps/priority_project_watchlist.geojson",
       "kind": "point",
-      "label": "Priority watchlist",
+      "label": "Key projects in context",
       "style": {
         "radius": 7,
         "color": "#14532d",
@@ -683,7 +685,7 @@
             "field": "district"
           },
           {
-            "label": "Why watch",
+            "label": "Why it matters",
             "field": "priority_read"
           }
         ]
@@ -1050,18 +1052,23 @@
         "fillOpacity": 0.8
       },
       "popup_fields": [
-        {"field": "query", "label": "Location source"},
-        "basis"
+        {"field": "node_type", "label": "Node type"},
+        {"field": "status", "label": "Status"},
+        {"field": "highest_voltage_kv", "label": "Voltage", "suffix": " kV"},
+        {"field": "grid_role", "label": "Role"},
+        {"field": "location_confidence", "label": "Location confidence"}
       ],
       "tooltip_fields": [
-        "query"
+        "label",
+        "node_type"
       ],
+      "name_field": "label",
       "card_fields": {
         "title": "label",
-        "lead_template": "${query}",
+        "lead_template": "${node_type} · ${status} · ${highest_voltage_kv} kV",
         "body": [
-          { "label": "Full address", "field": "display_name" },
-          { "label": "Source", "field": "basis" }
+          {"field": "grid_role", "label": "Role"},
+          {"field": "location_confidence", "label": "Location confidence"}
         ]
       },
       "roleByPreset": {
