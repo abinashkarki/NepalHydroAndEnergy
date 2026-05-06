@@ -6,6 +6,7 @@ updated: 2026-04-22
 figure_type: chart-spec
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [ipsdp, milestones, exports, self-sufficiency, planning, moewri]
+page_quality: analysis
 ---
 
 # IPSDP Milestone Ladder 2022-2040

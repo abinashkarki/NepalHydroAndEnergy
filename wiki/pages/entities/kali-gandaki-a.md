@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-04-20
 generator: specs-refresh
+page_quality: analysis
 sources: [kali-gandaki-a-adb-evaluation, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [project, watchlist, operating, gandaki, palpa, syangja, ror, nea-owned]
 images:

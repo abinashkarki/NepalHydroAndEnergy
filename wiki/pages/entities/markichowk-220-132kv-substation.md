@@ -12,6 +12,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
 generator: manual
+page_quality: analysis
 ---
 
 # Markichowk 220/132 kV Substation

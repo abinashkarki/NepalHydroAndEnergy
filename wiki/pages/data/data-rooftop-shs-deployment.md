@@ -6,6 +6,7 @@ updated: 2026-04-23
 figure_type: table
 sources: [aepc-renewable-framework, nea-annual-report-fy2024-25, eib-rural-solar-phase2]
 tags: [solar, rooftop, SHS, mini-grid, off-grid, AEPC, rural-electrification, district]
+page_quality: analysis
 ---
 
 # Rooftop and Solar Home System Deployment

@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, gandaki, lamjung]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Marsyangdi Besi
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 50 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Marsyangdi ([[gandaki-basin]]) |
 | District | Lamjung |
 | Province | Gandaki Pradesh |

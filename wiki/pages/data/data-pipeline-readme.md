@@ -6,6 +6,7 @@ updated: 2026-04-15
 figure_type: table
 sources: [nea-annual-report-fy2024-25]
 tags: [scripts, pipeline, regeneration, data, maps]
+page_quality: analysis
 ---
 
 # Data Pipeline Readme

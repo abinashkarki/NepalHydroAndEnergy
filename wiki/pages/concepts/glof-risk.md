@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [icimod-koshi-sediment-threats, icimod-koshi-basin, wecs-river-basin-plan-2024]
 tags: [GLOF, hazards, climate, nepal, infrastructure, koshi]
+page_quality: analysis
 ---
 
 # GLOF Risk

@@ -5,6 +5,7 @@ created: 2026-04-30
 updated: 2026-04-30
 sources: [data-layer-downstream-dependency-zones, downstream-river-geopolitics]
 tags: [geopolitics, downstream, bangladesh, delta, padma, meghna]
+page_quality: analysis
 ---
 
 # Padma-Meghna Delta Dependency

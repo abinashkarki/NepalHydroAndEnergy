@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [upper-karnali-pda-record, jica-ipsdp-main-report-vol2]
 tags: [project, watchlist, top-capacity, survey, karnali, surkhet, dailekh, achham, india-developed, export-project, stalled, geopolitics]
 images:

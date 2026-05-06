@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [aepc-renewable-framework, wb-country-economic-memo-2025]
 tags: [solar, agrivoltaics, land, terai, agriculture, dual-use, policy]
+page_quality: analysis
 ---
 
 # Agrivoltaics and Land

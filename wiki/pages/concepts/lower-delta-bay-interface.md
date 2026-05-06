@@ -5,6 +5,7 @@ created: 2026-04-30
 updated: 2026-04-30
 sources: [data-layer-downstream-dependency-zones, downstream-river-geopolitics]
 tags: [geopolitics, downstream, delta, sediment, bay-of-bengal]
+page_quality: analysis
 ---
 
 # Lower Delta And Bay Interface

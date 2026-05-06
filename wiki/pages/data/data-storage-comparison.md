@@ -6,6 +6,7 @@ updated: 2026-04-15
 figure_type: chart-spec
 sources: [wb-water-sector-diagnostic, wb-ganges-strategic-basin-assessment]
 tags: [storage, dams, per-capita, international-comparison]
+page_quality: analysis
 ---
 
 # Storage Capacity Comparison

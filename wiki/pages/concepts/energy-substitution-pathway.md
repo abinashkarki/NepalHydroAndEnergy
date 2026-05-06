@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [wecs-energy-synopsis-2024, wb-country-economic-memo-2025, green-hydrogen-roadmap-nepal]
 tags: [substitution, electrification, biomass, coal, petroleum, strategy, demand-creation, nepal]
+page_quality: analysis
 ---
 
 # Energy Substitution Pathway

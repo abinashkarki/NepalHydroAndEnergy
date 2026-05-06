@@ -5,6 +5,7 @@ created: 2026-04-22
 updated: 2026-04-22
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [trade, export, ppa, india, bangladesh, nea, ipsdp]
+page_quality: analysis
 ---
 
 # Nepal Power Trade Schemes

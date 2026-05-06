@@ -7,6 +7,7 @@ source_type: report
 source_url: https://www.urjakhabar.com/uploads/pdf/Pdf-202603181317333573.pdf
 source_author: Kumar Pandey, Urja Khabar (Year 5, Issue 8, January 2026)
 tags: [source, generation, ipp, q-design-discharge, stranded-generation, transmission, financial-distress]
+page_quality: analysis
 ---
 
 # Urja Khabar "Audit" of IPP Generation vs Contracted Energy

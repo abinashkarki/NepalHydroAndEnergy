@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-24
 sources: [wb-country-economic-memo-2025, wecs-energy-synopsis-2024, adb-hydropower-growth-nepal]
 tags: [strategy, demand, industrial-policy, electrification, nepal, hydro]
+page_quality: analysis
 ---
 
 # Domestic-Led Hydro Strategy

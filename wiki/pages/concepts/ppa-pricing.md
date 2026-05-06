@@ -5,6 +5,7 @@ created: 2026-05-02
 updated: 2026-05-02
 sources: [chilime-annual-report-fy2078-79, care-ratings-sanima-mai, care-ratings-nyadi, icra-nepal-sahas-urja, nea-generation-directorate-2081, ukhl-annual-report, fenner-school-nepal-state-of-knowledge-renewables-psh]
 tags: [PPA, pricing, tariff, NEA, IPP, ERC, regulation]
+page_quality: analysis
 ---
 
 # PPA Pricing

@@ -8,6 +8,7 @@ confidence: medium
 status: needs-narrowing
 sources: [nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment]
 tags: [solar, floating-pv, reservoirs, storage, kulekhani, land]
+page_quality: analysis
 ---
 
 ## Claim

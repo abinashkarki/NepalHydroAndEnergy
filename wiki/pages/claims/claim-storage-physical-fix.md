@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wb-water-sector-diagnostic, wecs-energy-synopsis-2024, data-storage-comparison]
 tags: [storage, seasonal-mismatch, infrastructure, tradeoffs]
+page_quality: analysis
 ---
 
 ## Claim

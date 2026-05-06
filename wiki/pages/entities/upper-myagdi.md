@@ -7,6 +7,7 @@ sources: [jica-ipsdp-main-report-vol2]
 tags: [project, under-construction, myagdi]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Upper Myagdi
@@ -30,7 +31,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 20 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Myagdi Khola |
 | District | Myagdi |
 | Province | Gandaki Pradesh |

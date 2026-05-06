@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [mugu-karnali-feasibility-2025]
 tags: [project, watchlist, top-capacity, survey, karnali, mugu, bajura, storage, pumped-storage, vuc, ppp, geopolitics]
 images:

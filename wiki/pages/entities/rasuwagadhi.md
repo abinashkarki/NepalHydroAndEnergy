@@ -2,11 +2,12 @@
 title: Rasuwagadhi
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [ppa-data-retrieval-icra-care-2026, sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, koshi, rasuwa, nea-subsidiary, chilime-group]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Rasuwagadhi
@@ -38,7 +39,8 @@ Located near Nepal's northern border with Tibet in Rasuwa district, Rasuwagadhi 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 111 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Bhote koshi (eastern [[koshi-basin]]) |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |

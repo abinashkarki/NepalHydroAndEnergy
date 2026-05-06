@@ -6,6 +6,7 @@ updated: 2026-05-05
 source_type: research-compilation
 source_url: "../../../data/raw/research/Khimti-I Hydropower Project (60 MW, Nepal) – PPA, Generation, Finance, Ownership.pdf"
 tags: [source, ppa, private-ipp, khimti, koshi]
+page_quality: analysis
 ---
 
 # Khimti-I Project Research — PPA, Generation, Finance, Ownership

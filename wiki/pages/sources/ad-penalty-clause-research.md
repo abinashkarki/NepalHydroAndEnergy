@@ -6,6 +6,7 @@ updated: 2026-05-05
 source_type: research-compilation
 source_url: "../../../data/raw/research/AD Penalty Clause in Nepal's PPA.pdf"
 tags: [source, ppa, legal, ad-penalties, nea]
+page_quality: analysis
 ---
 
 # AD Penalty Clause in Nepal's Standard PPA — Research Compilation

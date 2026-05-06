@@ -369,10 +369,10 @@
     "hydropower_operating": {
       "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
       "kind": "point",
-      "label": "Hydropower · Operating (81)",
+      "label": "Hydropower · Operating (83)",
       "filter": {
-        "field": "license_type",
-        "equals": "Operation"
+        "field": "hydropower_status_class",
+        "equals": "operating"
       },
       "aliases": [
         "hydropower_points"
@@ -389,7 +389,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        {"field": "license_type", "label": "Status"},
+        {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
         {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
@@ -405,8 +406,16 @@
       "name_field": "project",
       "card_fields": {
         "title": "project",
-        "lead_template": "${capacity_mw} MW · operating · ${river}",
+        "lead_template": "${capacity_mw} MW · ${hydropower_status_display} · ${river}",
         "body": [
+          {
+            "label": "Status",
+            "field": "hydropower_status_display"
+          },
+          {
+            "label": "Registry licence",
+            "field": "license_type"
+          },
           {
             "label": "District",
             "field": "district"
@@ -455,10 +464,10 @@
     "hydropower_construction": {
       "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
       "kind": "point",
-      "label": "Hydropower · Construction (180)",
+      "label": "Hydropower · Construction (178)",
       "filter": {
-        "field": "license_type",
-        "equals": "Generation"
+        "field": "hydropower_status_class",
+        "equals": "under-construction"
       },
       "aliases": [
         "hydropower_points"
@@ -475,7 +484,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        {"field": "license_type", "label": "Status"},
+        {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
         {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
@@ -491,8 +501,16 @@
       "name_field": "project",
       "card_fields": {
         "title": "project",
-        "lead_template": "${capacity_mw} MW · licensed to build · ${river}",
+        "lead_template": "${capacity_mw} MW · ${hydropower_status_display} · ${river}",
         "body": [
+          {
+            "label": "Status",
+            "field": "hydropower_status_display"
+          },
+          {
+            "label": "Registry licence",
+            "field": "license_type"
+          },
           {
             "label": "District",
             "field": "district"
@@ -543,8 +561,8 @@
       "kind": "point",
       "label": "Hydropower · Survey/study (311)",
       "filter": {
-        "field": "license_type",
-        "equals": "Survey"
+        "field": "hydropower_status_class",
+        "equals": "survey"
       },
       "aliases": [
         "hydropower_points"
@@ -561,7 +579,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        {"field": "license_type", "label": "Status"},
+        {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
         {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
@@ -577,8 +596,16 @@
       "name_field": "project",
       "card_fields": {
         "title": "project",
-        "lead_template": "${capacity_mw} MW · survey/study only · ${river}",
+        "lead_template": "${capacity_mw} MW · ${hydropower_status_display} · ${river}",
         "body": [
+          {
+            "label": "Status",
+            "field": "hydropower_status_display"
+          },
+          {
+            "label": "Registry licence",
+            "field": "license_type"
+          },
           {
             "label": "District",
             "field": "district"

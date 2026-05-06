@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, myagdi]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Mristi Khola
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 42 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Mristi |
 | District | Myagdi |
 | Province | Gandaki Pradesh |

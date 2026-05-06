@@ -9,6 +9,7 @@ source_date: 2016-01-01
 source_url: https://projects.worldbank.org/en/projects-operations/project-detail/P146344
 sources: []
 tags: [world-bank, IDA, solar, grid-tied, NEA, energy-efficiency, bidur-trishuli]
+page_quality: analysis
 ---
 
 # World Bank Grid Solar and Energy Efficiency Project

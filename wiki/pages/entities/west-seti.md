@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-04-14
 generator: specs-refresh
+page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, storage, stalled, china, india, nhpc, far-west]
 images:

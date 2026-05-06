@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [icra-nepal-surveillance-a996-b119, sahas-urja-progress-report-w010, clickmandu-financial-reporting, himalayan-capital-analysis]
 tags: [project, operating, private-IPP, solukhumbu, koshi]
 generator: manual
+page_quality: analysis
 ---
 
 # Sahas Urja Limited — Solu Khola (Dudh Koshi) Hydroelectric Project

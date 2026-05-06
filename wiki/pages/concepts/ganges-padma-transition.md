@@ -5,6 +5,7 @@ created: 2026-04-30
 updated: 2026-04-30
 sources: [data-layer-nepal-origin-route-callouts, downstream-river-geopolitics]
 tags: [geopolitics, downstream, ganges, padma, bangladesh]
+page_quality: analysis
 ---
 
 # Ganges-Padma Transition

@@ -6,6 +6,7 @@ updated: 2026-04-15
 figure_type: chart-spec
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [fleet, ror, pror, storage, capacity]
+page_quality: analysis
 ---
 
 # Hydropower Fleet Composition

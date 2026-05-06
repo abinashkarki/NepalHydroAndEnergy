@@ -8,6 +8,7 @@ confidence: medium
 status: stable
 sources: [aepc-renewable-framework, eib-rural-solar-phase2]
 tags: [solar, politics, rural-electrification, aepc, rooftop, minigrid]
+page_quality: analysis
 ---
 
 ## Claim

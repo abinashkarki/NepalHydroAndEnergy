@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-04-15
 generator: specs-refresh
+page_quality: analysis
 sources: [wb-country-economic-memo-2025, jica-ipsdp-main-report-vol2]
 tags: [project, storage, proposed, gandaki, mega-project]
 images:

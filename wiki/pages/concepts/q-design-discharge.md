@@ -5,6 +5,7 @@ created: 2026-05-02
 updated: 2026-05-02
 sources: [doed-licensing-directive-2075, wecs-dhm-1990-methodology, urja-khabar-generation-audit, chilime-annual-report-fy2078-79, care-ratings-sanima-mai, ukhl-annual-report]
 tags: [hydrology, Q-design, DoED, licensing, PPA, contracted-energy, generation, DSCR, climate, regulation]
+page_quality: analysis
 ---
 
 # Q-Design Discharge

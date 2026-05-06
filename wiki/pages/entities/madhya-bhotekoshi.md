@@ -2,11 +2,12 @@
 title: Madhya Bhotekoshi
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, koshi, sindhupalchok, chilime-group]
 images: ['- src: madhya-bhotekoshi/nea2425-p193-img01.png']
 generator: manual
+page_quality: analysis
 ---
 
 # Madhya Bhotekoshi
@@ -32,7 +33,8 @@ At 102 MW, Madhya Bhotekoshi represents a significant block of capacity in the u
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 102 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Bhote koshi (eastern [[koshi-basin]]) |
 | District | Sindhupalchok |
 | Province | Bagmati Pradesh |

@@ -8,6 +8,7 @@ confidence: medium-high
 status: verified-with-caveats
 sources: [nea-annual-report-fy2024-25, wb-nepal-power-sector-reform-2022, india-cbte-2018]
 tags: [transmission, grid, curtailment, trade, monetization]
+page_quality: analysis
 ---
 
 ## Claim

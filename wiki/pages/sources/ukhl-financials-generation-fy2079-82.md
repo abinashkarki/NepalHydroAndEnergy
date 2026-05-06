@@ -6,6 +6,7 @@ updated: 2026-05-05
 source_type: research-compilation
 source_url: "../../../data/raw/research/UKHLL Financials and Generation Data - Google Docs.pdf"
 tags: [source, financial, generation, upper-tamakoshi]
+page_quality: analysis
 ---
 
 # UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82

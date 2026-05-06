@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [green-hydrogen-roadmap-nepal, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [hydrogen, electrolysis, ammonia, fertilizer, industry, nepal]
+page_quality: analysis
 ---
 
 # Green Hydrogen Nepal

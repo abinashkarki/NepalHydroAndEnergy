@@ -9,6 +9,7 @@ source_date: 2023-01-01
 source_url: https://www.irena.org/publications
 sources: []
 tags: [irena, renewable, solar, nepal, lcoe, cost, policy, remap]
+page_quality: analysis
 ---
 
 # IRENA Renewable Readiness Assessment and REmap Nepal

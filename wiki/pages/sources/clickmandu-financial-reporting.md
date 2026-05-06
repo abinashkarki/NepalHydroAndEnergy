@@ -7,6 +7,7 @@ source_type: media
 source_author: Clickmandu
 sources: []
 tags: [source, media, sahas-urja, financial, reporting]
+page_quality: analysis
 ---
 
 # Clickmandu — Sahas Urja Financial Reporting

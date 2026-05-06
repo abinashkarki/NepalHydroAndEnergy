@@ -12,6 +12,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
 generator: manual
+page_quality: analysis
 ---
 
 # Chilime-Trishuli 220 kV Transmission Line

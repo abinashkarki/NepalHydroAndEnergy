@@ -6,6 +6,7 @@ updated: 2026-04-23
 figure_type: chart-spec
 sources: [wecs-river-basin-plan-2024, nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment]
 tags: [solar, hydro, complementarity, diurnal, seasonal, hourly, monthly, dispatch]
+page_quality: analysis
 ---
 
 # Solar–Hydro Complementarity Profile

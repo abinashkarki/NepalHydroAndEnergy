@@ -6,6 +6,7 @@ updated: 2026-04-15
 figure_type: chart-spec
 sources: [wecs-river-basin-plan-2024, national-water-plan-nepal]
 tags: [hydrology, discharge, seasonal, basins]
+page_quality: analysis
 ---
 
 # Basin Discharge Data

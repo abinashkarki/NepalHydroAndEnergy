@@ -5,6 +5,7 @@ created: 2026-05-02
 updated: 2026-05-02
 sources: [sharesansar-rasuwagadhi-ipo, icra-nepal-sahas-urja, ifc-local-shares-report, chilime-annual-report-fy2078-79]
 tags: [IPO, rights-shares, NEPSE, SEBON, retail-investors, debt, bailout, capital-markets]
+page_quality: analysis
 ---
 
 # IPO Hydropower Bailout

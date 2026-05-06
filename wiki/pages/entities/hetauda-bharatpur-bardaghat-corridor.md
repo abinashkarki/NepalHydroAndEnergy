@@ -7,6 +7,7 @@ updated: 2026-04-25
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [transmission, 220kv, east-west, central-nepal]
 generator: manual
+page_quality: analysis
 ---
 
 # Hetauda–Bharatpur–Bardaghat 220 kV Corridor

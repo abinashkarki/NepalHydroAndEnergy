@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, irena-remap-nepal]
 tags: [solar, hydro, economics, LCOE, PPA, tariff, nepal]
+page_quality: analysis
 ---
 
 ## Claim

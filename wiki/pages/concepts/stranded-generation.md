@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-05-02
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, adb-hydropower-growth-nepal]
 tags: [curtailment, transmission, grid, monsoon, IPP, nepal]
+page_quality: analysis
 ---
 
 # Stranded Generation

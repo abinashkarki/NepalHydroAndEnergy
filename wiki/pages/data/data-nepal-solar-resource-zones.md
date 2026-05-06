@@ -6,6 +6,7 @@ updated: 2026-04-23
 figure_type: map-spec
 sources: [wb-esmap-solar-resource-assessment, global-solar-atlas-nepal, aepc-renewable-framework]
 tags: [solar, GHI, DNI, resource, zones, district, elevation, map-spec]
+page_quality: analysis
 ---
 
 # Nepal Solar Resource Zones

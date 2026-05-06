@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [wecs-hydropower-potential-2019, wb-ganges-strategic-basin-assessment, jica-ipsdp-main-report-vol2]
 tags: [project, storage, conceptual, karnali, mega-project, bilateral]
 ---

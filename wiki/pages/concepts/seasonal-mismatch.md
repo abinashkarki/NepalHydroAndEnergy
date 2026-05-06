@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-24
 sources: [wecs-river-basin-plan-2024, wb-water-sector-diagnostic, nea-annual-report-fy2024-25]
 tags: [seasonality, monsoon, dry-season, grid, nepal, RoR, demand]
+page_quality: analysis
 ---
 
 # Seasonal Mismatch

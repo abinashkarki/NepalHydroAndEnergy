@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [ad-penalty-clause-research, sector-financial-analysis-triple-authority-2026]
 tags: [project, operating, case-study, AD-penalties, NEA, ERC, governance]
 generator: manual
+page_quality: analysis
 ---
 
 # Barahi Hydropower

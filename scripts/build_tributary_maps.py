@@ -189,7 +189,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Upper Bhotekoshi",
         "label_subtitle": "45 MW · operating",
-        "priority_read": "Existing Bhote Koshi valley plant; useful as a reality-check site where imagery and river geometry are both legible.",
+        "priority_read": "Operating Bhote Koshi valley project on a corridor shaped by river risk, imports, and Kathmandu-area demand.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -198,7 +198,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Kali Gandaki A",
         "label_subtitle": "144 MW · operating",
-        "priority_read": "One of Nepal's most important operating anchor plants and a good benchmark for marker honesty in the Gandaki corridor.",
+        "priority_read": "One of Nepal's most important operating plants and a core anchor of the Gandaki basin generation system.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -207,7 +207,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Andhi Khola",
         "label_subtitle": "9 MW · operating",
-        "priority_read": "Small plant, but the site is visible and it already anchors one of the promising-storage comparisons in the current narrative.",
+        "priority_read": "Small operating project in Gandaki that helps illustrate how local run-of-river assets sit alongside larger storage ambitions.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -216,7 +216,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Upper Tamakoshi",
         "label_subtitle": "456 MW · buildout",
-        "priority_read": "The largest commissioned domestic project in the current stack; deserves a dedicated watch-layer marker instead of only appearing in the top-MW list.",
+        "priority_read": "Nepal's largest domestically developed hydropower project and a major test of eastern evacuation capacity.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -226,7 +226,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Tanahu",
         "label_subtitle": "140 MW · storage build",
-        "priority_read": "Most practical near-term storage addition in the checked official set; this stays on the watch layer even when the broader project cloud is off.",
+        "priority_read": "Important near-term storage project because it could add firmer dry-season energy rather than only monsoon-heavy capacity.",
         "source_note": "NEA annual report FY 2024/25 and current project registry",
     },
     {
@@ -235,7 +235,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Upper Trishuli-1",
         "label_subtitle": "216 MW · buildout",
-        "priority_read": "High-value central-north project tied to the Trishuli evacuation corridor; worth keeping visible in the grid-first map.",
+        "priority_read": "High-value central-north project tied to the Trishuli evacuation corridor and the wider Kathmandu supply chain.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -245,7 +245,7 @@ PRIORITY_PROJECTS = [
         "group": "radar_survey",
         "label_title": "Nalsyau Gad",
         "label_subtitle": "410 MW · radar survey",
-        "priority_read": "Best dry-energy performer in the JICA promising-storage set, so it belongs on the survey radar even before a full site-grade document pass.",
+        "priority_read": "Prominent storage candidate in the JICA promising-project set because of its relatively strong dry-season energy profile.",
         "source_note": "JICA/NEA storage master plan volume 2 plus current project registry",
     },
     {
@@ -254,7 +254,7 @@ PRIORITY_PROJECTS = [
         "group": "radar_survey",
         "label_title": "Mugu Karnali Storage",
         "label_subtitle": "1,902 MW · radar survey",
-        "priority_read": "Largest survey-stage project in the registry; strategically important enough to stay visible despite lower locational confidence.",
+        "priority_read": "Very large survey-stage Karnali storage proposal with system-scale implications if it ever advances beyond concept stage.",
         "source_note": "VUCL MKHEP project page and current project registry",
     },
     {
@@ -263,7 +263,7 @@ PRIORITY_PROJECTS = [
         "group": "radar_survey",
         "label_title": "Arun 3",
         "label_subtitle": "900 MW · radar survey",
-        "priority_read": "National-scale eastern corridor project; included as an on-radar survey reference even though the registry point is still approximate.",
+        "priority_read": "National-scale eastern corridor project with major export and transmission implications for the Arun basin.",
         "source_note": "SAPDC resettlement plan and current project registry",
     },
     {
@@ -272,7 +272,7 @@ PRIORITY_PROJECTS = [
         "group": "radar_survey",
         "label_title": "Upper Karnali",
         "label_subtitle": "900 MW · radar survey",
-        "priority_read": "Too strategically important to bury inside the general survey cloud, even though the current public coordinate remains low-confidence.",
+        "priority_read": "Strategically important export-oriented Karnali project with long-running implications for basin use and cross-border power trade.",
         "source_note": "IBN Energy Sector Profile, DoED survey-license extent, and current project registry",
     },
     {
@@ -281,7 +281,7 @@ PRIORITY_PROJECTS = [
         "group": "radar_survey",
         "label_title": "Betan Karnali",
         "label_subtitle": "688 MW · radar survey",
-        "priority_read": "Large Karnali-basin survey project that matters for the storage-and-seasonality story; kept visible as a radar candidate.",
+        "priority_read": "Large Karnali-basin proposal relevant to the storage, seasonality, and west-to-east transmission story.",
         "source_note": "BKSHCL EOI document and current project registry",
     },
     {
@@ -290,7 +290,7 @@ PRIORITY_PROJECTS = [
         "group": "radar_survey",
         "label_title": "Phukot Karnali",
         "label_subtitle": "426 MW · radar survey",
-        "priority_read": "Another major Karnali-basin survey project worth tracking explicitly while the map still distinguishes approximate survey references from site points.",
+        "priority_read": "Major Karnali-basin proposal that helps show how much future capacity is still concentrated in approximate survey-stage projects.",
         "source_note": "VUCL PKHEP status report and current project registry",
     },
 ]
@@ -1451,6 +1451,8 @@ def build_place_anchor_index() -> tuple[dict[str, dict[str, Any]], list[dict[str
                 "display_name": definition["label"],
                 "query": "; ".join(definition.get("queries", [])),
                 "basis": definition.get("basis", "Manual source-controlled grid anchor"),
+                "source_method": "Document or manually placed anchor",
+                "location_hint": definition["label"],
             }
             report.append(
                 {
@@ -1474,6 +1476,8 @@ def build_place_anchor_index() -> tuple[dict[str, dict[str, Any]], list[dict[str
                     "display_name": found["display_name"],
                     "query": found["query"],
                     "basis": "Nominatim place match",
+                    "source_method": "Approximate place match from OpenStreetMap Nominatim",
+                    "location_hint": found["query"],
                 }
                 report.append(
                     {
@@ -2965,6 +2969,7 @@ def hydropower_display_points_geojson(projects: list[dict[str, Any]]) -> dict[st
     features: list[dict[str, Any]] = []
     # Fields from the specs CSV that should appear in GeoJSON properties.
     spec_fields = [
+        "status",
         "gross_head_m", "design_discharge_m3s", "headrace_tunnel_km", "dam_height_m",
         "dam_type", "num_units", "unit_capacity_mw", "turbine_type",
         "underground_powerhouse", "annual_design_energy_gwh", "dry_season_energy_gwh",
@@ -3133,8 +3138,9 @@ def _merge_spec_fields(project_name: str, specs_lookup: dict[str, dict[str, Any]
         alt = aliases.get(slug)
         if alt:
             row = specs_lookup.get(alt, {})
-    # Only yield spec fields (skip slug/capacity_mw/river/status which duplicate registry).
-    skip = {"slug", "capacity_mw", "river", "status", "source_note", "last_updated"}
+    # Only yield spec fields (skip slug/capacity_mw/river/source_note/last_updated which duplicate registry;
+    # status is NOT skipped — it is the curated human-readable status, distinct from registry license_type).
+    skip = {"slug", "capacity_mw", "river", "source_note", "last_updated"}
     numeric_fields = {
         "gross_head_m", "design_discharge_m3s", "headrace_tunnel_km", "dam_height_m",
         "num_units", "unit_capacity_mw", "annual_design_energy_gwh", "dry_season_energy_gwh",

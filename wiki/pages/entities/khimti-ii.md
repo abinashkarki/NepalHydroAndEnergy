@@ -7,6 +7,7 @@ sources: [nea-annual-report-fy2024-25, icra-nepal-surveillance-a996-b119]
 tags: [project, under-construction, private-ipp, dolakha, koshi]
 images: []
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Khimti II
@@ -20,7 +21,8 @@ generator: specs-refresh
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 48.8 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Khimti Khola |
 | District | Dolakha |
 | Province | Bagmati Pradesh |

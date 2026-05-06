@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project]
 tags: [solar, siting, hybrid, floating-pv, co-location, substation, hydro, kulekhani]
+page_quality: analysis
 ---
 
 # Hybrid Siting Logic

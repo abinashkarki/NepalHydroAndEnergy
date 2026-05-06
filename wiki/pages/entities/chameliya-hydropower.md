@@ -6,6 +6,7 @@ updated: 2026-05-02
 sources: [nea-generation-directorate-2081, kathmandu-post-chameliya, myrepublica-pac-chameliya]
 tags: [project, operating, NEA-owned, PROR, darchula, sudurpaschim, case-study]
 generator: manual
+page_quality: analysis
 ---
 
 # Chameliya Hydropower Project

@@ -4,6 +4,7 @@ Category: interventions
 Type: intervention
 Tags: [transmission, Hetauda-Dhalkebar, Butwal-Gorakhpur, community-resistance, curtailment, grid, backbone]
 Excerpt: Resolve the community resistance blocking the Hetauda–Dhalkebar 400 kV transmission line and complete the remaining cross-border corridors as the single highest-ROI near-term infrastructure action in Nepal's energy system.
+page_quality: analysis
 ---
 
 # Transmission Completion

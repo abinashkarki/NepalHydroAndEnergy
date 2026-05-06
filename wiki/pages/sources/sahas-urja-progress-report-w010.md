@@ -7,6 +7,7 @@ source_type: company-report
 source_author: Sahas Urja Limited
 sources: []
 tags: [source, sahas-urja, progress-report, company]
+page_quality: analysis
 ---
 
 # Sahas Urja — Progress Report W010

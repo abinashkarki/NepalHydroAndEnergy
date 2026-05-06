@@ -17,6 +17,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Tamakoshi V
@@ -30,7 +31,8 @@ generator: specs-refresh
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 87 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Tama Koshi (eastern [[koshi-basin]]) |
 | District | Dolakha |
 | Province | Bagmati Pradesh |

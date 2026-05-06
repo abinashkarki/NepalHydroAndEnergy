@@ -5,6 +5,7 @@ created: 2026-04-22
 updated: 2026-04-22
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [environment, e-flow, protected-areas, policy, hydropower, ipsdp]
+page_quality: analysis
 ---
 
 # Environmental Flow Policy

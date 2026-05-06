@@ -7,6 +7,7 @@ updated: 2026-04-25
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, mca_annex_d1_alignment_maps]
 tags: [transmission, 400kv, mca, central-corridor, under-construction]
 generator: manual
+page_quality: analysis
 ---
 
 # MCA Central 400 kV Corridor

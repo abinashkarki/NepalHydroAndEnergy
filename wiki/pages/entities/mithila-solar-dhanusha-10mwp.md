@@ -6,6 +6,7 @@ updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25]
 tags: [solar, mithila, eco-power, dhanusha, madhesh, ipp, phase-i, operating]
 generator: manual
+page_quality: analysis
 ---
 
 # Mithila Solar PV Electric Project (Eco Power, 10 MWp)

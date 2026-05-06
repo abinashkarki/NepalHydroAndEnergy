@@ -2,11 +2,12 @@
 title: Upper Tamor
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, under-construction, koshi, top-capacity]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Upper Tamor
@@ -32,7 +33,8 @@ At 285 MW, Upper Tamor's capital requirements place it in the top tier of Nepali
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 285 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Tamor (eastern [[koshi-basin]]) |
 | District | Taplejung |
 | Province | Province No 1 |

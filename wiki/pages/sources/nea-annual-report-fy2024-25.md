@@ -9,6 +9,7 @@ source_date: 2025-07-15
 source_url: https://neasite.dryicesolutions.net/uploads/shares/publication/77022320.pdf
 sources: []
 tags: [nea, generation, capacity, trade, grid, official]
+page_quality: analysis
 ---
 
 # NEA Annual Report FY 2024/25

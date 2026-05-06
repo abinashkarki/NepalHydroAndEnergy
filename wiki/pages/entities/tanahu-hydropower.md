@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-04-20
 generator: specs-refresh
+page_quality: analysis
 sources: [tanahu-adb-status-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [project, storage, under-construction, gandaki, seti, adb-financed, tanahu]
 images:

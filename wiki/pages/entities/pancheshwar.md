@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [national-water-plan-nepal, wb-ganges-strategic-basin-assessment]
 tags: [project, storage, bilateral, treaty, mahakali, stalled, geopolitics]
 images:

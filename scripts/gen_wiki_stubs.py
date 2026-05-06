@@ -272,19 +272,60 @@ def fmt_capacity(cap: float | int | None) -> str | None:
 
 
 def license_human(lt: str | None) -> str:
-    m = {"Operation": "Operating", "Generation": "Under construction (Generation licence)", "Survey": "Survey / study"}
+    m = {"Operation": "Operation", "Generation": "Generation", "Survey": "Survey"}
     return m.get(lt or "", lt or "—")
 
 
-def build_tags(layers_in: set[str], props: dict, basin: str | None) -> list[str]:
+def status_human(status: str | None) -> str:
+    """Normalized CSV status to human-readable display label."""
+    m = {
+        "operating": "Operating",
+        "under-construction": "Under construction",
+        "survey": "Survey / study",
+        "pre-construction": "Pre-construction",
+        "stalled": "Stalled",
+        "cancelled": "Cancelled",
+        "conceptual": "Conceptual",
+    }
+    return m.get((status or "").lower().strip(), status or "—")
+
+
+def status_normalized(raw: str | None) -> str | None:
+    """Map a CSV status value or license_type to the schema enum vocabulary."""
+    if not raw:
+        return None
+    s = raw.lower().strip()
+    if s in {"operating", "operational", "operation", "commissioned", "generating"}:
+        return "operating"
+    if s in {"under-construction", "under construction", "construction", "generation"}:
+        return "under-construction"
+    if s in {"survey", "survey licence", "feasibility"}:
+        return "survey"
+    if s in {"pre-construction", "pre construction"}:
+        return "pre-construction"
+    if s == "stalled":
+        return "stalled"
+    if s in {"cancelled", "canceled", "abandoned"}:
+        return "cancelled"
+    if s == "conceptual":
+        return "conceptual"
+    return s
+
+
+def build_tags(layers_in: set[str], props: dict, basin: str | None, csv_status: str | None = None) -> list[str]:
     tags = ["project"]
     if "priority_watchlist" in layers_in: tags.append("watchlist")
     if "storage_shortlist"  in layers_in: tags.append("storage")
     if "top_capacity"       in layers_in: tags.append("top-capacity")
-    lt = (props.get("license_type") or "").lower()
-    if lt == "operation":   tags.append("operating")
-    elif lt == "generation":tags.append("under-construction")
-    elif lt == "survey":    tags.append("survey")
+    # Use CSV status first for tag, fall back to license_type
+    norm = status_normalized(csv_status)
+    if not norm:
+        lt = (props.get("license_type") or "").lower()
+        if lt == "operation":   norm = "operating"
+        elif lt == "generation":norm = "under-construction"
+        elif lt == "survey":    norm = "survey"
+    if norm:
+        tags.append(norm)
     if basin:
         tags.append(basin.replace("-basin", ""))
     if props.get("district"):
@@ -413,8 +454,17 @@ def render_spec_block(entry: dict, specs_lookup: dict[str, dict[str, str]] | Non
     rows: list[tuple[str, str]] = []
     cap = fmt_capacity(p.get("capacity_mw") or p.get("installed_mw"))
     if cap: rows.append(("Capacity", cap))
+    # Status: use CSV curated status if available, otherwise derive from license_type
+    slug = slugify(clean_project_name(entry["name"]))
+    csv_row = (specs_lookup or {}).get(slug, {})
+    csv_status = csv_row.get("status", "").strip()
+    if csv_status:
+        rows.append(("Status", status_human(csv_status)))
+    elif p.get("license_type"):
+        derived_status = status_normalized(str(p.get("license_type")))
+        rows.append(("Status", status_human(derived_status) if derived_status else license_human(p.get("license_type"))))
     if p.get("license_type"):
-        rows.append(("Status", license_human(p.get("license_type"))))
+        rows.append(("Registry licence", str(p["license_type"])))
     if "storage_shortlist" in entry["layers"] and p.get("category"):
         rows.append(("Category", str(p["category"]).replace("_", " ")))
     if p.get("river"):
@@ -525,18 +575,25 @@ def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] 
     title = titlecase(entry["name"])
     today = dt.date.today().isoformat()
     basin = guess_basin(p.get("river"), p.get("basin"))
-    tags = build_tags(entry["layers"], p, basin)
+    csv_row = (specs_lookup or {}).get(slug, {})
+    csv_status = csv_row.get("status", "").strip() or None
+    tags = build_tags(entry["layers"], p, basin, csv_status)
 
     see_also: list[str] = []
     if basin: see_also.append(basin)
-    lt = (p.get("license_type") or "").lower()
-    if lt == "operation":
+    norm_status = status_normalized(csv_status)
+    if not norm_status:
+        lt = (p.get("license_type") or "").lower()
+        if lt == "operation": norm_status = "operating"
+        elif lt == "generation": norm_status = "under-construction"
+        elif lt == "survey": norm_status = "survey"
+    if norm_status == "operating":
         see_also.append("run-of-river-hydropower")
     if "storage_shortlist" in entry["layers"]:
         see_also += ["storage-deficit", "firm-power"]
     if "priority_watchlist" in entry["layers"]:
         see_also.append("stranded-generation")
-    if lt == "survey":
+    if norm_status == "survey" or norm_status == "pre-construction":
         see_also.append("buildability")
     # dedupe, keep order
     sa_seen, sa_ordered = set(), []
@@ -547,9 +604,14 @@ def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] 
     lead_bits = []
     cap = fmt_capacity(p.get("capacity_mw") or p.get("installed_mw"))
     if cap: lead_bits.append(cap)
-    lt = p.get("license_type")
-    if lt:
-        lead_bits.append(license_human(lt).lower())
+    if csv_status:
+        lead_bits.append(status_human(csv_status).lower())
+    elif p.get("license_type"):
+        derived_status = status_normalized(str(p.get("license_type")))
+        if derived_status:
+            lead_bits.append(status_human(derived_status).lower())
+        else:
+            lead_bits.append(license_human(p.get("license_type")).lower())
     elif "storage_shortlist" in entry["layers"]:
         cat = str(p.get("category") or "").replace("_", " ").strip()
         lead_bits.append(cat or "storage candidate")
@@ -569,6 +631,7 @@ def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] 
         f"tags: [{', '.join(tags)}]",
         "images: []",
         "generator: auto-stub",
+        "page_quality: record",
         "---",
         "",
         f"# {title}",
@@ -582,7 +645,7 @@ def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] 
         "## Notes",
         "",
         "> [!note] This is a registry-backed project record. Capacity, location,",
-        "> and licence status come from the Ministry of Energy registry",
+        "> and status come from the Ministry of Energy registry",
         "> mirrored in the map data. Narrative context and images are added",
         "> where public sources are strong enough; the specification table is",
         "> maintained from the registry.",

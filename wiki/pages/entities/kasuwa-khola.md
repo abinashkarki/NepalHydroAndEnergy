@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, sankhuwasabha]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Kasuwa Khola HPP
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 45 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Kasuwa |
 | District | Sankhuwasabha |
 | Province | Province No 1 |

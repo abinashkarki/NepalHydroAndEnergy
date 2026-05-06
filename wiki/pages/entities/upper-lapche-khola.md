@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, dolakha]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Upper Lapche Khola
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 52 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Lapche |
 | District | Dolakha |
 | Province | Bagmati Pradesh |

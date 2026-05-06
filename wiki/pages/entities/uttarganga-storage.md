@@ -2,7 +2,7 @@
 title: Uttarganga Storage Hydropower Project
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
 sources: [nea-transmission-annual-book-2077, moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, baglung]
 images:
@@ -17,6 +17,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
 generator: manual
+page_quality: analysis
 ---
 
 # Uttarganga Storage Hydropower Project
@@ -31,6 +32,7 @@ Uttarganga is an 828 MW storage hydropower project in Baglung promoted by NEA. I
 |-----------|-------|
 | Capacity | 828 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Uttar Ganga |
 | District | Baglung |
 | Province | Gandaki Pradesh |

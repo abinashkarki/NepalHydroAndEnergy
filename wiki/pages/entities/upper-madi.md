@@ -7,6 +7,7 @@ sources: []
 tags: [project, operating, gandaki, kaski]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Upper Madi
@@ -21,6 +22,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 25 MW |
 | Status | Operating |
+| Registry licence | Operation |
 | River | Madi Khola ([[gandaki-basin]]) |
 | District | Kaski |
 | Province | Gandaki Pradesh |

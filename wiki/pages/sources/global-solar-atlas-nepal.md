@@ -9,6 +9,7 @@ source_date: 2024-01-01
 source_url: https://globalsolaratlas.info/map?c=28.13,84.18,7
 sources: []
 tags: [solargis, global-solar-atlas, satellite, GHI, DNI, map-tile, nepal]
+page_quality: analysis
 ---
 
 # Global Solar Atlas (Nepal Coverage)

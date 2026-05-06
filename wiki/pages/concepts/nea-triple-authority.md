@@ -5,6 +5,7 @@ created: 2026-05-02
 updated: 2026-05-02
 sources: [nea-annual-report-fy2024-25, fenner-school-nepal-state-of-knowledge-renewables-psh]
 tags: [NEA, governance, PPA, dispatch, curtailment, AD-penalties, IPP, regulation, accountability]
+page_quality: analysis
 ---
 
 # NEA Triple-Authority Conflict

@@ -5,6 +5,7 @@ created: 2026-05-02
 updated: 2026-05-02
 sources: [erc-bylaws-2076, barahi-hydropower-audited-financials, ad-penalty-clause-research]
 tags: [AD-penalties, PPA, NEA, IPP, regulation, ERC]
+page_quality: analysis
 ---
 
 # AD Penalties

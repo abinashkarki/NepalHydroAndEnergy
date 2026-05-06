@@ -27,6 +27,7 @@ images:
     license: Public domain
     source_url: "https://commons.wikimedia.org/wiki/File%3A1819-Kalapani-area-from-province-of-Kumaon-by-Webb.jpg"
 generator: manual
+page_quality: analysis
 ---
 
 # Mahakali Basin

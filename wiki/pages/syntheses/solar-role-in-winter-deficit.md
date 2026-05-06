@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, irena-remap-nepal]
 tags: [solar, hydro, winter, deficit, seasonal, complementarity, strategy, storage, BESS, synthesis]
+page_quality: analysis
 ---
 
 # Solar's Role in the Winter Deficit

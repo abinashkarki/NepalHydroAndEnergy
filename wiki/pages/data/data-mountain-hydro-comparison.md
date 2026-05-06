@@ -6,6 +6,7 @@ updated: 2026-04-15
 figure_type: table
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, wb-water-sector-diagnostic]
 tags: [comparison, norway, bhutan, laos, nepal, storage, per-capita, benchmark]
+page_quality: analysis
 ---
 
 # Mountain Hydro System Comparison

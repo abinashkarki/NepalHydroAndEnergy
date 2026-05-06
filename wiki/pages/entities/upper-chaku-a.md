@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, sindhupalchok]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Upper Chaku A
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 22.2 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Chaku |
 | District | Sindhupalchok |
 | Province | Bagmati Pradesh |

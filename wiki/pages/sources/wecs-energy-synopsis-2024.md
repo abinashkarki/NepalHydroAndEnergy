@@ -9,6 +9,7 @@ source_date: 2024-01-01
 source_url: https://giwmscdnone.gov.np/media/pdf_upload/Energy%20Sector%20Synopsis%20Report%20(2024%20FY%202079-80)_qbbivka.pdf
 sources: []
 tags: [wecs, energy-balance, demand, consumption, official]
+page_quality: analysis
 ---
 
 # WECS Energy Sector Synopsis Report 2024

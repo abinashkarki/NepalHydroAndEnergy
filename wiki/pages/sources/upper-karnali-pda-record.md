@@ -9,6 +9,7 @@ source_date: 2026-03-01
 source_url: https://ekantipur.com/business/2026/03/01/en/the-government-has-opened-the-way-for-financial-management-in-upper-karnali-43-30.html
 sources: []
 tags: [upper-karnali, gmr, sjvn, ireda, bangladesh-ppa, pda, karnali, achham, dailekh, surkhet]
+page_quality: analysis
 ---
 
 # Upper Karnali — PDA, Financial Closure & Court Record

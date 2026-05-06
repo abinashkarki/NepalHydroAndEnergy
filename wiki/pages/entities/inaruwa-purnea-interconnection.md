@@ -7,6 +7,7 @@ updated: 2026-04-20
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, arun-3-project-status-2025]
 tags: [transmission, 400kv, cross-border, india, inaruwa, purnea, arun-3, implementation-setup]
 generator: manual
+page_quality: analysis
 ---
 
 # Inaruwa–Purnea 400 kV Interconnection

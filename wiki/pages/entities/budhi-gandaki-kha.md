@@ -7,6 +7,7 @@ sources: []
 tags: [project, survey, gandaki, gorkha]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Budhi Gandaki Kha HEP
@@ -21,6 +22,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 260 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Budhigandaki ([[gandaki-basin]]) |
 | District | Gorkha |
 | Province | Gandaki Pradesh |

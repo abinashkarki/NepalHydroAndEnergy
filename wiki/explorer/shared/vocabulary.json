@@ -49,5 +49,11 @@
     "Operation": "Operating — commercial operation achieved",
     "Generation": "Generation licence — permitted to construct",
     "Survey": "Survey licence — feasibility study only"
+  },
+  "page_quality": {
+    "record": "Basic factual page — registry-backed, limited narrative",
+    "brief": "Short interpretive page with key context",
+    "analysis": "Substantial narrative with evidence and sourcing",
+    "flagship": "Comprehensive core page for understanding the electricity system"
   }
 }

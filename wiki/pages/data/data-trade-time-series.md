@@ -6,6 +6,7 @@ updated: 2026-04-15
 figure_type: chart-spec
 sources: [wb-country-economic-memo-2025, nea-annual-report-fy2024-25]
 tags: [trade, import, export, india, pricing]
+page_quality: analysis
 ---
 
 # Electricity Trade Time Series

@@ -1854,16 +1854,36 @@
       border: 1px solid #2e7d32;
     }
 
+    .lc-legend-flagship {
+      background: #d4a017;
+      border: 1.3px solid #8b6914;
+    }
+
+    .lc-legend-analysis {
+      background: #2e7d32;
+      border: 1.3px solid #1b5e20;
+    }
+
+    .lc-legend-brief {
+      background: #3b82f6;
+      border: 1.3px solid #1d4ed8;
+    }
+
+    .lc-legend-record {
+      background: rgba(217, 182, 38, 0.28);
+      border: 1px solid #b8860b;
+    }
+
     .lc-legend-orphan {
       background: transparent;
-      border: 1px dashed #2e7d32;
+      border: 1px dashed #999;
       opacity: 0.55;
     }
 
     /* Three tiers of page-backing for map markers:
-       · orphan    — no wiki page (data-only)     : dashed stroke, 55% opacity
-       · project record — registry-backed page     : solid thin stroke, reduced fill (hollow look)
-       · narrated  — hand-written page            : solid stroke, full fill (current default)
+       · orphan    — no wiki page (map-only)      : dashed stroke, 55% opacity
+       · project record — factual wiki page       : solid thin stroke, reduced fill (hollow look)
+       · narrated  — substantial wiki page        : solid stroke, full fill (current default)
      Pages that also carry images get a subtle gold drop-shadow on top of the tier. */
     .leaflet-pane .np-marker-orphan {
       stroke-dasharray: 2 2.5;
@@ -1931,31 +1951,37 @@
       background: #1e40af;
     }
 
-    /* Stub badge in the left nav — low-key gray chip next to page title. */
-    .nav-link .stub-chip {
+    /* Page quality badge — reused in nav, fact pages, and other lightweight UI. */
+    .pq-chip {
       display: inline-block;
       margin-left: 6px;
-      padding: 0 5px;
-      font-size: 9px;
-      font-weight: 500;
+      padding: 1px 6px;
+      font-size: 10px;
+      font-weight: 600;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      color: var(--ink-soft);
-      background: var(--panel-2);
-      border: 1px solid var(--rule);
-      border-radius: 3px;
+      border-radius: 999px;
       vertical-align: 1px;
-      opacity: 0.7;
+      opacity: 0.92;
+      line-height: 1.35;
     }
 
-    .nav-link:hover .stub-chip {
+    .pq-record { color: var(--accent, #856404); background: var(--accent-light, #fff3cd); border: 1px solid #e5b87b; }
+    .pq-brief { color: #1e40af; background: #dbeafe; border: 1px solid #93c5fd; }
+    .pq-analysis { color: #065f46; background: #d1fae5; border: 1px solid #6ee7b7; }
+    .pq-flagship { color: #92400e; background: #fef3c7; border: 1px solid #fcd34d; }
+
+    .nav-link .pq-chip {
+      opacity: 0.82;
+    }
+
+    .nav-link:hover .pq-chip {
       opacity: 1;
     }
 
-    .nav-link.active .stub-chip {
-      color: var(--accent);
-      border-color: var(--accent-soft);
-      background: white;
+    .nav-link.active .pq-chip {
+      opacity: 1;
+      filter: brightness(0.95);
     }
 
     /* Tour rail + variants */
@@ -2670,6 +2696,13 @@
       };
       const CAT_ORDER = ["entities", "concepts", "claims", "syntheses", "data", "sources"];
       const CAT_LABEL = { entities: "Entities", concepts: "Concepts", claims: "Claims", syntheses: "Syntheses", data: "Data", sources: "Sources" };
+      const PQ_LABEL = { record: "Record", brief: "Brief", analysis: "Analysis", flagship: "Flagship" };
+      const PQ_TOOLTIP = {
+        record: "Basic factual page with limited narrative context",
+        brief: "Short interpretive page with essential context",
+        analysis: "Substantial narrative page with evidence and sourcing",
+        flagship: "Core guide page for understanding the electricity system",
+      };
       const LAYER_HELP_PAGE = "data-map-layer-labels";
       const LAYER_WIKI_SLUG = {
         "base:carto": "data-layer-carto-positron",
@@ -3009,8 +3042,9 @@
       function navItem(it) {
         const sp = spatialSlugs.has(it.slug) ? " spatial" : "";
         const meta = pageMeta.bySlug[it.slug];
-        const stub = meta && meta.is_stub ? ` <span class="stub-chip" title="Registry-backed project record">record</span>` : "";
-        return `<a class="nav-link${sp}" data-slug="${it.slug}" href="javascript:void(0)" onclick="openWikiPage('${it.slug}')"><span>${it.title}</span>${stub}</a>`;
+        const pq = meta && meta.page_quality ? meta.page_quality : "";
+        const badge = pq ? ` <span class="pq-chip pq-${pq}" title="${PQ_TOOLTIP[pq] || pq}">${PQ_LABEL[pq] || pq}</span>` : "";
+        return `<a class="nav-link${sp}" data-slug="${it.slug}" href="javascript:void(0)" onclick="openWikiPage('${it.slug}')"><span>${it.title}</span>${badge}</a>`;
       }
 
       function buildNav() {
@@ -3669,9 +3703,15 @@
       };
 
       function renderFactDetail(fact) {
+        const statusDisplay = fact.status_display || fact.status_raw || fact.status;
+        const pq = fact.wiki_slug && pageMeta && pageMeta.bySlug && pageMeta.bySlug[fact.wiki_slug]
+          ? (pageMeta.bySlug[fact.wiki_slug].page_quality || "record")
+          : "record";
+        const pqLabel = (PQ_LABEL[pq] || pq);
+        const domainLabel = ({ hydro: "Hydro", solar: "Solar", storage: "Storage" }[fact.domain] || "Fact");
         const rows = [
           ["Capacity", formatMw(fact.capacity_mw)],
-          ["Status", fact.status_raw || fact.status],
+          ["Status", statusDisplay],
           ["District", fact.district],
           ["River / basin", fact.river || fact.basin],
           ["Province", fact.province],
@@ -3685,10 +3725,10 @@
           return `<li><a href="javascript:void(0)" onclick="openWikiPage('${slug}')">${escapeHtml(title)}</a></li>`;
         }).join("");
         const wikiLink = fact.wiki_slug
-          ? `<p><a href="javascript:void(0)" onclick="openWikiPage('${fact.wiki_slug}')">Open narrative wiki page →</a></p>`
-          : `<p class="muted">Project record · no narrative wiki page yet.</p>`;
+          ? `<p><a href="javascript:void(0)" onclick="openWikiPage('${fact.wiki_slug}')">Open wiki page →</a> <span class="pq-chip pq-${pq}" title="${PQ_TOOLTIP[pq] || pqLabel}">${pqLabel}</span></p>`
+          : `<p class="muted">Map data only · no wiki page yet.</p>`;
         return `<article class="page fact-page">
-          <div class="fact-kicker">${escapeHtml(fact.domain || "fact")} project record</div>
+          <div class="fact-kicker">${escapeHtml(fact.wiki_slug ? `${domainLabel} · ${pqLabel} page` : `${domainLabel} · Map fact`)}</div>
           <h1>${escapeHtml(fact.name)}</h1>
           ${wikiLink}
           <div class="fact-grid">${cells}</div>
@@ -3716,7 +3756,7 @@
         const title = props.label_title || props.name || props.project || "(unnamed)";
         const info = [];
         const cap = props.capacity_mw != null ? `${props.capacity_mw} MW` : null;
-        const stat = props.license_type || props.status || props.category || null;
+        const stat = props.status || props.license_type || props.category || null;
         const river = props.river || props.basin || null;
         if (cap) info.push(cap);
         if (stat) info.push(stat);
@@ -3724,7 +3764,7 @@
         document.getElementById("map-info").innerHTML =
           `<b>${title}</b>` +
           (info.length ? ` <span class="muted">· ${info.join(" · ")}</span>` : "") +
-          `<br/><span class="muted">Data-only · no narrative wiki page yet for this feature.</span>`;
+          `<br/><span class="muted">Map data only — no wiki page yet for this feature.</span>`;
       }
 
       // ============================================================
@@ -4486,17 +4526,19 @@
             foot = document.createElement("div");
             foot.className = "lc-foot";
             foot.innerHTML = `
-        <div class="lc-tierseg" role="group" aria-label="Filter markers by wiki-page tier">
+        <div class="lc-tierseg" role="group" aria-label="Filter markers by page quality tier">
           <button data-tier="all"       title="Show every marker">All</button>
-          <button data-tier="bound"     title="Hide data-only markers and keep pages with wiki records">Wiki pages</button>
-          <button data-tier="narrated"  title="Show only pages with public narrative context">Narrative</button>
+          <button data-tier="bound"     title="Hide map-only markers and show features that already have wiki pages">Wiki Pages</button>
+          <button data-tier="narrated"  title="Show only pages with substantial narrative depth">Analysis+</button>
         </div>
         <div class="lc-dotcap" style="margin-top:6px; line-height:1.5">
           <div>Dot size ∝ √capacity (MW)</div>
           <div style="margin-top:3px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-            <span title="Page with public narrative context"><span class="lc-legend-dot lc-legend-narrated"></span> narrative</span>
-            <span title="Registry-backed project record"><span class="lc-legend-dot lc-legend-stub"></span> project record</span>
-            <span title="No wiki page"><span class="lc-legend-dot lc-legend-orphan"></span> data only</span>
+            <span title="Comprehensive core page"><span class="lc-legend-dot lc-legend-flagship"></span> Flagship</span>
+            <span title="Substantial narrative page"><span class="lc-legend-dot lc-legend-analysis"></span> Analysis</span>
+            <span title="Short interpretive page"><span class="lc-legend-dot lc-legend-brief"></span> Brief</span>
+            <span title="Basic factual page"><span class="lc-legend-dot lc-legend-record"></span> Record</span>
+            <span title="No wiki page"><span class="lc-legend-dot lc-legend-orphan"></span> Map only</span>
           </div>
         </div>
       `;
@@ -4643,7 +4685,7 @@
         pageIndex = pageIndexData;
         spatialSlugs = new Set(Object.keys(bindings.pages || {}));
         pageMeta = pageMetaData;
-        // Slim format: {slug: {t, c, e, g, s, u, b}} — build pages array + bySlug lookup.
+        // Slim format: {slug: {t, c, e, g, s, q, u, b}} — build pages array + bySlug lookup.
         pageMeta.pages = Object.entries(pageMeta).map(([slug, v]) => ({
           slug,
           title: v.t,
@@ -4652,6 +4694,7 @@
           excerpt: v.e,
           tags: v.g || [],
           is_stub: v.s || false,
+          page_quality: v.q || "",
           updated: v.u || null,
           superseded_by: v.b || null,
           image_count: 0,
@@ -4720,11 +4763,15 @@
         const stubSlugs = new Set(
           (pageMeta.pages || []).filter((p) => p.is_stub).map((p) => p.slug)
         );
+        const pageQualityBySlug = Object.fromEntries(
+          (pageMeta.pages || []).map((p) => [p.slug, p.page_quality || ""])
+        );
         lm = new LayerManager(map, manifest, reverseIdx, {
           onFeatureClick,
           getCurrentSlug: () => currentSlug,
           pagesWithImages,
           stubSlugs,
+          pageQualityBySlug,
           hydropowerSlugAliases,
           knownSlugs: new Set(pageIndex.allSlugs || []),
           preset: currentPreset,

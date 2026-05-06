@@ -17,6 +17,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
 generator: auto-stub
+page_quality: record
 ---
 
 # Chainpur Seti
@@ -36,6 +37,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 210 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Seti Khola ([[gandaki-basin]]) |
 | District | Bajhang |
 | Province | Sudurpashchim Pradesh |

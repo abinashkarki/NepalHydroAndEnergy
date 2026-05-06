@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wb-country-economic-memo-2025, nea-annual-report-fy2024-25, green-hydrogen-roadmap-nepal]
 tags: [industrial-policy, electrification, exports, value-add]
+page_quality: analysis
 ---
 
 ## Claim

@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wecs-hydropower-potential-2019, data-potential-pyramid, nea-annual-report-fy2024-25]
 tags: [discourse, economics, potential, firm-energy]
+page_quality: analysis
 ---
 
 ## Claim

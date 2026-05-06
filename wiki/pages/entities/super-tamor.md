@@ -7,6 +7,7 @@ sources: []
 tags: [project, survey, koshi, taplejung]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Super Tamor

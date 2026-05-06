@@ -2,11 +2,12 @@
 title: Upper Marsyangdi A
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, gandaki]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Upper Marsyangdi A
@@ -26,6 +27,7 @@ projects on the Marsyangdi system.
 |-----------|-------|
 | Capacity | 50 MW |
 | Status | Operating |
+| Registry licence | Operation |
 | River | Marsyangdi ([[gandaki-basin]]) |
 | District | Lamjung |
 | Province | Gandaki Pradesh |

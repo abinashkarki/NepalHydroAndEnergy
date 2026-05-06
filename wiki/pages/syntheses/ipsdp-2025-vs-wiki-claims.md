@@ -5,6 +5,7 @@ created: 2026-04-22
 updated: 2026-04-22
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [ipsdp, synthesis, planning, strategy, comparison]
+page_quality: analysis
 ---
 
 # IPSDP 2025 vs Wiki Claims

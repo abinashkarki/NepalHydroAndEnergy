@@ -2,11 +2,12 @@
 title: Upper Trishuli-1
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, watchlist, under-construction, gandaki, rasuwa]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Upper Trishuli-1
@@ -20,7 +21,8 @@ Upper Trishuli-1 is a 216 MW generation-licence / under-construction-stage proje
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 216 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |

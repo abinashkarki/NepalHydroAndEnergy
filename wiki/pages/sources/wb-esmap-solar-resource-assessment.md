@@ -9,6 +9,7 @@ source_date: 2019-01-01
 source_url: https://esmap.org/renewable_energy_resource_mapping
 sources: []
 tags: [esmap, world-bank, solar, wind, resource-assessment, pyranometer, GHI, DNI, measured-data]
+page_quality: analysis
 ---
 
 # World Bank ESMAP Nepal Solar and Wind Resource Measurement

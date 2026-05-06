@@ -7,6 +7,7 @@ source_type: utility-report
 source_author: Nepal Electricity Authority, Generation Directorate
 sources: []
 tags: [source, nea, generation, operating-fleet, chameliya]
+page_quality: analysis
 ---
 
 # NEA Generation Directorate Data — FY 2080/81

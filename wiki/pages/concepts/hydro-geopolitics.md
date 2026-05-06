@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [wb-ganges-strategic-basin-assessment, india-cbte-2018, national-water-plan-nepal]
 tags: [geopolitics, transboundary, treaties, india, nepal, water, power]
+page_quality: analysis
 ---
 
 # Hydro-Geopolitics

@@ -9,6 +9,7 @@ source_date: 2024-09-24
 source_url: https://giwmscdntwo.gov.np/media/pdf_upload/River%20Basin%20Plan_Final%20Main%20Report_Print%20version_corrected_20240924_vvcb7lm.pdf
 sources: []
 tags: [wecs, hydrology, basins, discharge, planning, official]
+page_quality: analysis
 ---
 
 # WECS River Basin Plans and Hydropower Development Master Plan (2024)

@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wecs-energy-synopsis-2024, data-fleet-composition, wb-nepal-power-sector-reform-2022]
 tags: [fleet-mix, run-of-river, storage, dispatch]
+page_quality: analysis
 ---
 
 ## Claim

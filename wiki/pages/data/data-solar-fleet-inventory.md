@@ -6,6 +6,7 @@ updated: 2026-04-23
 figure_type: table
 sources: [nea-annual-report-fy2024-25, aepc-renewable-framework, wb-grid-solar-ee-project]
 tags: [solar, fleet, capacity, inventory, operating, PPA, tendered, IPP, NEA]
+page_quality: analysis
 ---
 
 # Solar Fleet Inventory

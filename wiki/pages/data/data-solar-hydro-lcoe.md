@@ -6,6 +6,7 @@ updated: 2026-04-23
 figure_type: chart-spec
 sources: [nea-annual-report-fy2024-25, irena-remap-nepal, wb-grid-solar-ee-project]
 tags: [solar, hydro, LCOE, tariff, PPA, price, economics, crossover]
+page_quality: analysis
 ---
 
 # Solar and Hydro LCOE

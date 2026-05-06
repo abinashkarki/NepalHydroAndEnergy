@@ -6,6 +6,7 @@ updated: 2026-04-20
 figure_type: table
 sources: [nea-transmission-annual-book-2077]
 tags: [substations, transformer-capacity, nea, appendix, grid]
+page_quality: analysis
 ---
 
 # NEA Substation Capacity FY 2076/77

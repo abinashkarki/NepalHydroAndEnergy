@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [wecs-energy-synopsis-2024, nea-annual-report-fy2024-25, wecs-hydropower-potential-2019]
 tags: [hydropower, fleet, RoR, PRoR, storage, nepal, dispatch]
+page_quality: analysis
 ---
 
 # Run-of-River Hydropower

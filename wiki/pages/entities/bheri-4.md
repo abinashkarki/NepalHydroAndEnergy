@@ -7,6 +7,7 @@ sources: []
 tags: [project, survey, karnali, jajarkot]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Bheri 4
@@ -21,6 +22,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 300 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Bheri ([[karnali-basin]]) |
 | District | Jajarkot |
 | Province | Karnali Pradesh |

@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-24
 sources: []
 tags: [thesis, synthesis, core-argument]
+page_quality: analysis
 ---
 
 # Master Thesis

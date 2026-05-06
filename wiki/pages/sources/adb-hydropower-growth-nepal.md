@@ -9,6 +9,7 @@ source_date: 2020-01-01
 source_url:
 sources: []
 tags: [adb, hydropower, growth, development]
+page_quality: analysis
 ---
 
 # ADB Hydropower Growth Nepal Study

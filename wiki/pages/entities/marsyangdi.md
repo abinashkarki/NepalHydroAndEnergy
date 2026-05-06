@@ -12,6 +12,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Marsyangdi
@@ -66,6 +67,7 @@ generator: specs-refresh
 |-----------|-------|
 | Capacity | 69 MW |
 | Status | Operating |
+| Registry licence | Operation |
 | River | Marsyangdi ([[gandaki-basin]]) |
 | District | Gorkha |
 | Province | Gandaki Pradesh |

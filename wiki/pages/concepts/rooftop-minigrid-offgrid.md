@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [aepc-renewable-framework, eib-rural-solar-phase2, nea-annual-report-fy2024-25]
 tags: [solar, rooftop, mini-grid, off-grid, aepc, rural-electrification, SHS]
+page_quality: analysis
 ---
 
 # Rooftop, Mini-Grid, and Off-Grid Solar

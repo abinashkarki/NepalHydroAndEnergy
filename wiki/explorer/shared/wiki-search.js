@@ -127,7 +127,7 @@ class StaticFactIndex {
     const domain = has("solar", "pv") ? "solar" : "hydro";
     let status = "any";
     if (has("operating", "operation", "existing", "generation", "built", "commissioned", "working", "active", "running", "producing")) status = "operating";
-    if (has("construction", "under construction", "buildout", "building")) status = "construction";
+    if (has("construction", "under construction", "buildout", "building")) status = "under-construction";
     if (has("survey", "planned", "proposed", "pipeline", "licence", "license")) status = "survey";
     const storage = has("storage", "reservoir", "dry season", "firm", "peaking");
     const superlative = has("biggest", "largest", "highest", "top ", "most mw", "second", "third");

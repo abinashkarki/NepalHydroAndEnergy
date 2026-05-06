@@ -4,6 +4,7 @@ Category: interventions
 Type: intervention
 Tags: [Q-design, hydrology, climate, DoED, ICIMOD, PPA, licensing, GCM, stationarity]
 Excerpt: Mandate climate-adjusted hydrological decrement factors in all new hydropower feasibility studies submitted to DoED, replacing the WECS/DHM 1990 methodology with the ICIMOD Climate-Resilient Hydropower Guideline (published March 2024), to stop licensing projects against flow rates that no longer exist.
+page_quality: analysis
 ---
 
 # Q-Design Climate Adjustment

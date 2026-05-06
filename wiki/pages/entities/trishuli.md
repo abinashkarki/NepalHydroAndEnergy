@@ -22,6 +22,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf"
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Trishuli
@@ -46,6 +47,7 @@ generator: specs-refresh
 |-----------|-------|
 | Capacity | 24 MW |
 | Status | Operating |
+| Registry licence | Operation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Nuwakot |
 | Province | Bagmati Pradesh |

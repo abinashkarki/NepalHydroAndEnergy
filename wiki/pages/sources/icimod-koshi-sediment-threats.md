@@ -9,6 +9,7 @@ source_date: 2020-01-01
 source_url: https://lib.icimod.org/record/33718/files/icimodKoshiSediments.pdf
 sources: []
 tags: [icimod, koshi, sediment, hazard, erosion]
+page_quality: analysis
 ---
 
 # ICIMOD Threats to the Koshi River Basin

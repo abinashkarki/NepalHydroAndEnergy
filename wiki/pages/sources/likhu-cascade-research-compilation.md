@@ -6,6 +6,7 @@ updated: 2026-05-05
 source_type: research-compilation
 source_url: "../../../data/raw/research/Likhu Hydropower Cascade Data Request - Google Docs.pdf"
 tags: [source, financial, operational, likhu, transmission]
+page_quality: analysis
 ---
 
 # Likhu Cascade Research Compilation

@@ -7,6 +7,7 @@ source_type: market-analysis
 source_author: Himalayan Capital
 sources: []
 tags: [source, market-analysis, sahas-urja, financial]
+page_quality: analysis
 ---
 
 # Himalayan Capital — Sahas Urja Analysis

@@ -5,6 +5,7 @@ created: 2026-04-29
 updated: 2026-04-29
 sources: [national-water-plan-nepal, wb-ganges-strategic-basin-assessment, wecs-river-basin-plan-2024, icimod-koshi-basin, wb-water-sector-diagnostic]
 tags: [synthesis, geopolitics, downstream, ganges, india, bangladesh, storage, hydrology]
+page_quality: analysis
 ---
 
 # Downstream River Geopolitics

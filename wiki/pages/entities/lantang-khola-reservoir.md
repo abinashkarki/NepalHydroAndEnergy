@@ -7,6 +7,7 @@ sources: []
 tags: [project, survey, rasuwa]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Lantang Khola Reservoir Hydropower Project
@@ -21,6 +22,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 310 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Langtang |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |
