@@ -10,6 +10,14 @@ const HYDROPOWER_FALLBACK_LAYERS = new Set([
   "hydropower_construction",
   "hydropower_survey",
 ]);
+const ZOOM_GATED_LAYERS = new Set([
+  "hydropower_operating",
+  "hydropower_construction",
+  "hydropower_survey",
+  "transmission_traced_network",
+  "cross_border_lines",
+  "place_anchors",
+]);
 
 // ---- Warm Technical / Living Atlas: style resolver ----
 
@@ -75,6 +83,21 @@ function getZoomBehavior(zoom) {
   if (zoom < 7)  return "national";
   if (zoom < 10) return "regional";
   return "local";
+}
+
+function layerZoomGateReason(layerDef, preset, basemap, zoom, key, isManual) {
+  let { roleStyle } = resolveLayerStyle(layerDef, preset, basemap, zoom, key);
+  const zoomLockedGrid = zoom < 7 && (
+    key === "transmission_traced_network" ||
+    key === "cross_border_lines" ||
+    key === "place_anchors"
+  );
+  if (!roleStyle.visible && isManual && !zoomLockedGrid) {
+    roleStyle = ROLE_STYLES.primary;
+  }
+  if (roleStyle.visible) return "";
+  if (!ZOOM_GATED_LAYERS.has(key)) return "";
+  return "Zoom in more to view";
 }
 
 
@@ -868,6 +891,27 @@ class LayerManager {
       }
     }
     this.normalizeZOrder();
+  }
+
+  isSelected(key) {
+    return this._activeSet.has(key);
+  }
+
+  getLayerUiState(key) {
+    const def = this.manifest.layers[key];
+    if (!def) return { selected: false, visible: false, gated: false, hint: "" };
+    const selected = this._activeSet.has(key);
+    const visible = this.has(key);
+    const zoom = this.map.getZoom();
+    const hint = selected
+      ? layerZoomGateReason(def, this._preset, this._basemap, zoom, key, this._manualSet.has(key))
+      : "";
+    return {
+      selected,
+      visible,
+      gated: !!hint,
+      hint,
+    };
   }
 
   _applyBasemapToMarkers() {

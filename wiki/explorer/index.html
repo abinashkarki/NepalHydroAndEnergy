@@ -995,10 +995,10 @@
 
     .lp-row {
       display: grid;
-      grid-template-columns: 18px minmax(0, 1fr) 56px 36px;
+      grid-template-columns: 18px minmax(0, 1fr) 56px 52px;
       align-items: center;
       gap: 5px 6px;
-      min-height: 22px;
+      min-height: 24px;
       border: 0;
       background: transparent;
       color: #10172f;
@@ -1071,6 +1071,20 @@
       transition: color 0.12s ease;
     }
 
+    .lp-main {
+      min-width: 0;
+      display: grid;
+      gap: 2px;
+    }
+
+    .lp-hint {
+      font-size: 9.5px;
+      line-height: 1.15;
+      color: #92400e;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
     .lp-symbol {
       min-width: 0;
       display: flex;
@@ -1095,6 +1109,13 @@
     .lp-count.empty {
       border-color: transparent;
       background: transparent;
+    }
+
+    .lp-row.zoom-gated .lp-count {
+      border-color: #fed7aa;
+      background: #fff7ed;
+      color: #9a3412;
+      font-weight: 700;
     }
 
     .lp-base-icon {
@@ -3841,22 +3862,24 @@
           ],
         },
         {
-          id: "basics",
-          title: "Basics",
+          id: "overview",
+          title: "Overview",
           rows: [
             { key: "basin_polygons", label: "Basin areas", symbol: "poly" },
             { key: "tributaries", label: "Nepal rivers", symbol: "river" },
             { special: "labels", label: "River name labels", symbol: "text" },
+            { key: "priority_watchlist", label: "Key projects in context", symbol: "watch" },
           ],
         },
         {
-          id: "power",
-          title: "Power Plants",
+          id: "projects",
+          title: "Projects & Storage",
           rows: [
             { key: "hydropower_operating", label: "Hydro — operating", symbol: "live" },
             { key: "hydropower_construction", label: "Hydro — under construction", symbol: "build" },
             { key: "hydropower_survey", label: "Hydro — surveyed sites", symbol: "survey" },
-            { key: "priority_watchlist", label: "Priority projects", symbol: "watch" },
+            { key: "storage_shortlist", label: "Storage reservoirs", symbol: "storage" },
+            { key: "top_capacity", label: "Top 10 largest projects", symbol: "big" },
             { key: "solar_plants", label: "Solar plants", symbol: "solar" },
             { key: "floating_pv_candidates", label: "Floating solar", symbol: "floating" },
           ],
@@ -3868,12 +3891,13 @@
             { key: "transmission_traced_network", label: "Main network", symbol: "grid-network" },
             { key: "cross_border_lines", label: "Cross-border lines", symbol: "grid-dotted" },
             { key: "cross_border", label: "International gateways", symbol: "gateway" },
+            { key: "place_anchors", label: "Power hubs & substations", symbol: "substation" },
             { special: "transmission_labels", label: "Grid line labels", symbol: "text-grid" },
           ],
         },
         {
-          id: "downstream",
-          title: "Downstream Influence",
+          id: "rivers",
+          title: "Rivers & Downstream",
           rows: [
             { key: "downstream_systems", label: "Downstream rivers", symbol: "river-deep" },
             { key: "ocean_routes", label: "Ocean route", symbol: "river-deep" },
@@ -3882,18 +3906,15 @@
             { key: "population_anchors", label: "Population anchors", symbol: "city" },
             { key: "callouts", label: "River influence", symbol: "source" },
             { key: "route_callouts", label: "Route notes", symbol: "route" },
+            { key: "basin_seasonality", label: "Wet/dry season flow", symbol: "season" },
+            { key: "hydrology_markers", label: "Flow measurements", symbol: "impact" },
           ],
         },
         {
           id: "advanced",
-          title: "Advanced",
+          title: "Scenarios & Advanced",
           rows: [
-            { key: "storage_shortlist", label: "Storage reservoirs", symbol: "storage" },
-            { key: "top_capacity", label: "Top 10 largest", symbol: "big" },
             { key: "future_regulation_scenario", label: "Flow regulation", symbol: "storage" },
-            { key: "basin_seasonality", label: "Wet/dry season flow", symbol: "season" },
-            { key: "place_anchors", label: "Power hubs & substations", symbol: "substation" },
-            { key: "hydrology_markers", label: "Flow measurements", symbol: "impact" },
           ],
         },
       ];
@@ -3977,23 +3998,35 @@
         return layer && typeof layer.getLayers === "function" ? layer.getLayers().length : "";
       }
 
+      function layerUiState(row) {
+        if (!row.key || !lm || typeof lm.getLayerUiState !== "function") {
+          return { selected: false, visible: false, gated: false, hint: "" };
+        }
+        return lm.getLayerUiState(row.key);
+      }
+
       function rowIsOn(row) {
         if (row.base) return currentBaseLayer === row.base;
         if (row.special === "labels") return !!(labelsLayer && map.hasLayer(labelsLayer));
         if (row.special === "transmission_labels") return !!(txLabelsLayer && map.hasLayer(txLabelsLayer));
-        return !!(row.key && lm && (lm.has(row.key) || lm.isManual(row.key)));
+        return !!(row.key && lm && typeof lm.isSelected === "function" && lm.isSelected(row.key));
       }
 
       function layerPanelRowHtml(row) {
         const on = rowIsOn(row);
-        const count = layerCount(row);
+        const ui = layerUiState(row);
+        const count = ui.gated ? "Zoom in" : layerCount(row);
         const check = row.base ? `<span class="lp-radio"></span>` : `<span class="lp-check">✓</span>`;
         const symbol = row.base ? baseSymbolHtml(row.icon) : layerSymbolHtml(row.symbol);
         const idAttr = row.base ? `data-base="${escapeAttr(row.base)}"` : row.special ? `data-special="${escapeAttr(row.special)}"` : `data-layer="${escapeAttr(row.key)}"`;
-        const title = row.key && LAYER_HELP[row.key] ? LAYER_HELP[row.key].summary : row.label;
-        return `<button class="lp-row ${on ? "on" : ""}" type="button" ${idAttr} title="${escapeAttr(title)}">
+        const baseTitle = row.key && LAYER_HELP[row.key] ? LAYER_HELP[row.key].summary : row.label;
+        const title = ui.hint ? `${baseTitle} — ${ui.hint}` : baseTitle;
+        return `<button class="lp-row ${on ? "on" : ""} ${ui.gated ? "zoom-gated" : ""}" type="button" ${idAttr} title="${escapeAttr(title)}">
     ${check}
-    <span class="lp-name">${escapeHtml(row.label)}</span>
+    <span class="lp-main">
+      <span class="lp-name">${escapeHtml(row.label)}</span>
+      <span class="lp-hint">${escapeHtml(ui.hint || "")}</span>
+    </span>
     <span class="lp-symbol">${symbol}</span>
     <span class="lp-count ${count === "" ? "empty" : ""}">${escapeHtml(count)}</span>
   </button>`;
@@ -4106,15 +4139,26 @@
           const on = base ? currentBaseLayer === base
             : special === "labels" ? !!(labelsLayer && map.hasLayer(labelsLayer))
               : special === "transmission_labels" ? !!(txLabelsLayer && map.hasLayer(txLabelsLayer))
-                : key ? (lm.has(key) || lm.isManual(key))
+                : key ? (typeof lm.isSelected === "function" ? lm.isSelected(key) : (lm.has(key) || lm.isManual(key)))
                   : false;
           row.classList.toggle("on", on);
+          const ui = key ? layerUiState({ key }) : { gated: false, hint: "" };
+          row.classList.toggle("zoom-gated", !!ui.gated);
+          const specForTitle = key
+            ? LAYER_PANEL_SECTIONS.flatMap((s) => s.rows || []).find((r) => r.key === key)
+            : null;
+          if (key) {
+            const baseTitle = key && LAYER_HELP[key] ? LAYER_HELP[key].summary : (specForTitle ? specForTitle.label : key);
+            row.title = ui.hint ? `${baseTitle} — ${ui.hint}` : baseTitle;
+          }
+          const hintEl = row.querySelector(".lp-hint");
+          if (hintEl) hintEl.textContent = ui.hint || "";
           const countEl = row.querySelector(".lp-count");
           if (countEl) {
             const spec = LAYER_PANEL_SECTIONS.flatMap((s) => s.isGroup ? (s.sections || []).flatMap((sub) => sub.rows || []) : (s.rows || [])).find((r) =>
               (base && r.base === base) || (key && r.key === key) || (special && r.special === special)
             );
-            const count = spec ? layerCount(spec) : "";
+            const count = ui.gated ? "Zoom in" : (spec ? layerCount(spec) : "");
             countEl.textContent = count;
             countEl.classList.toggle("empty", count === "");
           }
