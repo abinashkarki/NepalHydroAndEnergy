@@ -997,33 +997,38 @@
         "segment_name",
         {"field": "voltage_kv", "label": "Voltage", "suffix": " kV"},
         "status",
-        {"field": "geometry_role", "label": "Line source"},
-        {"field": "trace_confidence", "label": "Certainty"},
+        {"field": "geometry_role", "label": "Geometry type", "value_map": {"source_trace": "Official alignment", "manual_trace": "Reconstructed route", "inferred_connector": "Estimated connection"}},
+        {"field": "trace_confidence", "label": "Confidence", "value_map": {"high": "High", "medium": "Medium", "low": "Low"}},
         "source_id",
-        {"field": "source_page_or_sheet", "label": "Source reference"},
+        {"field": "source_page_or_sheet", "label": "Map source"},
         {"field": "length_km", "label": "Length", "suffix": " km"},
         "notes"
       ],
       "tooltip_fields": [
         "segment_name",
-        "status",
-        "geometry_role"
+        "status"
       ],
       "card_fields": {
         "title": "name",
-        "lead_template": "${voltage_kv} kV · ${status} · ${geometry_role} · ${trace_confidence}",
+        "lead_template": "${voltage_kv} kV · ${status}",
         "body": [
           {
             "label": "Segment",
             "field": "segment_name"
           },
           {
-            "label": "Source",
-            "field": "source_id"
+            "label": "Geometry type",
+            "field": "geometry_role",
+            "value_map": {"source_trace": "Official alignment", "manual_trace": "Reconstructed route", "inferred_connector": "Estimated connection"}
           },
           {
-            "label": "Basis",
-            "field": "geometry_basis"
+            "label": "Confidence",
+            "field": "trace_confidence",
+            "value_map": {"high": "High", "medium": "Medium", "low": "Low"}
+          },
+          {
+            "label": "Map source",
+            "field": "source_id"
           },
           {
             "label": "Notes",
@@ -1168,22 +1173,26 @@
       "popup_fields": [
         {"field": "voltage_kv", "label": "Voltage", "suffix": " kV"},
         "status",
-        {"field": "connection_scope", "label": "Connection type"},
-        {"field": "geometry_role", "label": "Line source"},
-        {"field": "trace_confidence", "label": "Certainty"},
+        {"field": "connection_scope", "label": "Connection type", "value_map": {"endpoint_connector": "Endpoint connector", "gateway_stub": "Gateway stub", "cross_border_span": "Cross-border span"}},
+        {"field": "geometry_role", "label": "Geometry type", "value_map": {"source_trace": "Official alignment", "manual_trace": "Reconstructed route", "inferred_connector": "Estimated connection", "gateway_stub": "Gateway stub", "cross_border_span": "Cross-border span"}},
+        {"field": "trace_confidence", "label": "Confidence", "value_map": {"high": "High", "medium": "Medium", "low": "Low"}},
         "source_id",
         {"field": "length_km", "label": "Length", "suffix": " km"},
         "notes"
       ],
       "tooltip_fields": [
         "name",
-        "status",
-        "connection_scope"
+        "status"
       ],
       "card_fields": {
         "title": "name",
-        "lead_template": "${voltage_kv} kV · ${status} · ${connection_scope}",
+        "lead_template": "${voltage_kv} kV · ${status}",
         "body": [
+          {
+            "label": "Connection type",
+            "field": "connection_scope",
+            "value_map": {"endpoint_connector": "Endpoint connector", "gateway_stub": "Gateway stub", "cross_border_span": "Cross-border span"}
+          },
           {
             "label": "Nepal node",
             "field": "nepal_node"
@@ -1193,8 +1202,18 @@
             "field": "india_node"
           },
           {
-            "label": "Basis",
-            "field": "geometry_basis"
+            "label": "Geometry type",
+            "field": "geometry_role",
+            "value_map": {"source_trace": "Official alignment", "manual_trace": "Reconstructed route", "inferred_connector": "Estimated connection", "gateway_stub": "Gateway stub", "cross_border_span": "Cross-border span"}
+          },
+          {
+            "label": "Confidence",
+            "field": "trace_confidence",
+            "value_map": {"high": "High", "medium": "Medium", "low": "Low"}
+          },
+          {
+            "label": "Map source",
+            "field": "source_id"
           },
           {
             "label": "Notes",

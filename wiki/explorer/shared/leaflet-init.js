@@ -1110,8 +1110,9 @@ class LayerManager {
     if (cf && Array.isArray(cf.body)) {
       body = cf.body
         .map((row) => {
-          const v = resolveDerivedField(p, row.field);
+          let v = resolveDerivedField(p, row.field);
           if (v === undefined || v === null || v === "") return null;
+          if (row.value_map && row.value_map[v] !== undefined) v = row.value_map[v];
           const value = String(v) + (row.suffix || "");
           return { label: row.label, value };
         })
