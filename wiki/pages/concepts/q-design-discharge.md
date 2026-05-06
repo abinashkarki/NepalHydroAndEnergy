@@ -72,14 +72,19 @@ Urja Khabar article is secondary reporting of the MoEWRI assessment, not an
 independent data audit; no project-level dataset accompanies the publication.
 
 The claim that "the average small project produces only ~32% of its contracted
-energy" circulates in industry discussion. **This figure is not attributable to the
-Urja Khabar/MoEWRI source directly** — it likely represents a dry-season performance
-figure circulating in industry commentary, not an annual average. If the sector-wide
-annual average were strictly 32%, the Nepalese banking system's hydro exposure would
-have triggered a systemic financial collapse. Annual averages for underperforming
-projects tend to float between 60% and 80%. The 32% figure is best understood as
-performance during the most critical dry-season months, when energy is most valuable
-and most heavily penalized.
+energy" circulates in industry discussion. **This figure does not appear in the
+Urja Khabar/MoEWRI source at all** — a full-text review of the Kumar Pandey
+(January 2026) article confirms that the only ~33% figure in the publication
+refers to **administrative and operational costs consuming approximately 33%
+of revenue** for affected projects, not to generation output. The 32%
+generation figure likely represents a dry-season performance claim
+circulating independently in industry commentary, not an annual average. If
+the sector-wide annual average were strictly 32%, the Nepalese banking
+system's hydro exposure would have triggered a systemic financial collapse.
+Annual averages for underperforming projects tend to float between 60% and
+80%. The 32% figure is best understood as performance during the most
+critical dry-season months, when energy is most valuable and most heavily
+penalized.
 
 ## The Chilime anomaly: why it overperforms and why it is not replicable
 

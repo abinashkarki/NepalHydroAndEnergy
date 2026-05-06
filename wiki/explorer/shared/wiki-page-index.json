@@ -26,6 +26,10 @@
         "title": "Chilime Hydropower Company Limited Annual Report FY 2078/79"
       },
       {
+        "slug": "clickmandu-financial-reporting",
+        "title": "\"Clickmandu \u2014 Sahas Urja Financial Reporting\""
+      },
+      {
         "slug": "doed-licensing-directive-2075",
         "title": "DoED Licensing Directive 2075 \u2014 Hydropower Project Licensing"
       },
@@ -46,6 +50,10 @@
         "title": "Green Hydrogen Roadmap for Nepal"
       },
       {
+        "slug": "himalayan-capital-analysis",
+        "title": "\"Himalayan Capital \u2014 Sahas Urja Analysis\""
+      },
+      {
         "slug": "icimod-hkh-glacier-change",
         "title": "ICIMOD HKH Glacier Change Summary"
       },
@@ -56,6 +64,10 @@
       {
         "slug": "icimod-koshi-sediment-threats",
         "title": "ICIMOD Threats to the Koshi River Basin"
+      },
+      {
+        "slug": "icra-nepal-surveillance-a996-b119",
+        "title": "\"ICRA Nepal \u2014 Surveillance Rating A996/B119\""
       },
       {
         "slug": "india-cbte-2018",
@@ -74,6 +86,10 @@
         "title": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia"
       },
       {
+        "slug": "kathmandu-post-chameliya",
+        "title": "\"Kathmandu Post \u2014 Chameliya Hydropower Coverage\""
+      },
+      {
         "slug": "khimti-i-project-research",
         "title": "Khimti-I Project Research \u2014 PPA, Generation, Finance, Ownership"
       },
@@ -90,12 +106,24 @@
         "title": "Mugu Karnali Storage \u2014 Feasibility, Bids & EOI Record (2024\u20132025)"
       },
       {
+        "slug": "myrepublica-pac-chameliya",
+        "title": "\"My Republica \u2014 PAC Chameliya Investigation\""
+      },
+      {
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal"
       },
       {
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25"
+      },
+      {
+        "slug": "nea-generation-directorate-2081",
+        "title": "\"NEA Generation Directorate Data \u2014 FY 2080/81\""
+      },
+      {
+        "slug": "nea-standard-ppa-clauses",
+        "title": "NEA Standard Hydropower PPA Clauses \u2014 AD Penalty, Reserve Margin, and Curtailment"
       },
       {
         "slug": "nea-transmission-annual-book-2077",
@@ -112,6 +140,14 @@
       {
         "slug": "sahas-urja-benchmark-icra-2026",
         "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) \u2014 Benchmark IPP Success\""
+      },
+      {
+        "slug": "sahas-urja-progress-report-w010",
+        "title": "\"Sahas Urja \u2014 Progress Report W010\""
+      },
+      {
+        "slug": "sangroula-ntnu-kulekhani-bathymetry",
+        "title": "Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies"
       },
       {
         "slug": "sector-financial-analysis-triple-authority-2026",
@@ -666,6 +702,10 @@
       {
         "slug": "sahas-urja",
         "title": "Sahas Urja \u2014 Solu Khola (Dudh Koshi) Hydroelectric Project"
+      },
+      {
+        "slug": "sanima-mai",
+        "title": "Sanima Mai"
       },
       {
         "slug": "sanjen-khola",
@@ -1414,28 +1454,37 @@
     "arun-3-project-status-2025",
     "care-ratings-sanima-mai",
     "chilime-annual-report-fy2078-79",
+    "clickmandu-financial-reporting",
     "doed-licensing-directive-2075",
     "dudhkoshi-nea-proposal-2024",
     "eib-rural-solar-phase2",
     "global-solar-atlas-nepal",
     "green-hydrogen-roadmap-nepal",
+    "himalayan-capital-analysis",
     "icimod-hkh-glacier-change",
     "icimod-koshi-basin",
     "icimod-koshi-sediment-threats",
+    "icra-nepal-surveillance-a996-b119",
     "india-cbte-2018",
     "irena-remap-nepal",
     "jica-ipsdp-main-report-vol2",
     "kali-gandaki-a-adb-evaluation",
+    "kathmandu-post-chameliya",
     "khimti-i-project-research",
     "likhu-cascade-research-compilation",
     "moewri-ipsdp-exec-summary-2025",
     "mugu-karnali-feasibility-2025",
+    "myrepublica-pac-chameliya",
     "national-water-plan-nepal",
     "nea-annual-report-fy2024-25",
+    "nea-generation-directorate-2081",
+    "nea-standard-ppa-clauses",
     "nea-transmission-annual-book-2077",
     "nepal-transmission-landscape-2025",
     "ppa-data-retrieval-icra-care-2026",
     "sahas-urja-benchmark-icra-2026",
+    "sahas-urja-progress-report-w010",
+    "sangroula-ntnu-kulekhani-bathymetry",
     "sector-financial-analysis-triple-authority-2026",
     "tanahu-adb-status-2025",
     "ukhl-annual-report",
@@ -1574,6 +1623,7 @@
     "rasuwagadhi",
     "ratmate-rasuwagadhi-kerung-400kv",
     "sahas-urja",
+    "sanima-mai",
     "sanjen-khola",
     "sanjen",
     "singati-khola-hydropower-project",
@@ -1764,28 +1814,37 @@
     "arun-3-project-status-2025": "sources",
     "care-ratings-sanima-mai": "sources",
     "chilime-annual-report-fy2078-79": "sources",
+    "clickmandu-financial-reporting": "sources",
     "doed-licensing-directive-2075": "sources",
     "dudhkoshi-nea-proposal-2024": "sources",
     "eib-rural-solar-phase2": "sources",
     "global-solar-atlas-nepal": "sources",
     "green-hydrogen-roadmap-nepal": "sources",
+    "himalayan-capital-analysis": "sources",
     "icimod-hkh-glacier-change": "sources",
     "icimod-koshi-basin": "sources",
     "icimod-koshi-sediment-threats": "sources",
+    "icra-nepal-surveillance-a996-b119": "sources",
     "india-cbte-2018": "sources",
     "irena-remap-nepal": "sources",
     "jica-ipsdp-main-report-vol2": "sources",
     "kali-gandaki-a-adb-evaluation": "sources",
+    "kathmandu-post-chameliya": "sources",
     "khimti-i-project-research": "sources",
     "likhu-cascade-research-compilation": "sources",
     "moewri-ipsdp-exec-summary-2025": "sources",
     "mugu-karnali-feasibility-2025": "sources",
+    "myrepublica-pac-chameliya": "sources",
     "national-water-plan-nepal": "sources",
     "nea-annual-report-fy2024-25": "sources",
+    "nea-generation-directorate-2081": "sources",
+    "nea-standard-ppa-clauses": "sources",
     "nea-transmission-annual-book-2077": "sources",
     "nepal-transmission-landscape-2025": "sources",
     "ppa-data-retrieval-icra-care-2026": "sources",
     "sahas-urja-benchmark-icra-2026": "sources",
+    "sahas-urja-progress-report-w010": "sources",
+    "sangroula-ntnu-kulekhani-bathymetry": "sources",
     "sector-financial-analysis-triple-authority-2026": "sources",
     "tanahu-adb-status-2025": "sources",
     "ukhl-annual-report": "sources",
@@ -1924,6 +1983,7 @@
     "rasuwagadhi": "entities",
     "ratmate-rasuwagadhi-kerung-400kv": "entities",
     "sahas-urja": "entities",
+    "sanima-mai": "entities",
     "sanjen-khola": "entities",
     "sanjen": "entities",
     "singati-khola-hydropower-project": "entities",
@@ -2114,28 +2174,37 @@
     "arun-3-project-status-2025": "Arun-3 Project Status & PDA Summary (2025)",
     "care-ratings-sanima-mai": "CARE Ratings Nepal \u2014 Sanima Mai Hydropower Credit Assessments",
     "chilime-annual-report-fy2078-79": "Chilime Hydropower Company Limited Annual Report FY 2078/79",
+    "clickmandu-financial-reporting": "\"Clickmandu \u2014 Sahas Urja Financial Reporting\"",
     "doed-licensing-directive-2075": "DoED Licensing Directive 2075 \u2014 Hydropower Project Licensing",
     "dudhkoshi-nea-proposal-2024": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record",
     "eib-rural-solar-phase2": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
     "global-solar-atlas-nepal": "Global Solar Atlas (Nepal coverage)",
     "green-hydrogen-roadmap-nepal": "Green Hydrogen Roadmap for Nepal",
+    "himalayan-capital-analysis": "\"Himalayan Capital \u2014 Sahas Urja Analysis\"",
     "icimod-hkh-glacier-change": "ICIMOD HKH Glacier Change Summary",
     "icimod-koshi-basin": "ICIMOD Koshi Basin Programme",
     "icimod-koshi-sediment-threats": "ICIMOD Threats to the Koshi River Basin",
+    "icra-nepal-surveillance-a996-b119": "\"ICRA Nepal \u2014 Surveillance Rating A996/B119\"",
     "india-cbte-2018": "India Cross-Border Trade in Electricity Guidelines (2018)",
     "irena-remap-nepal": "IRENA Renewable Readiness Assessment and REmap Nepal",
     "jica-ipsdp-main-report-vol2": "JICA IPSDP Final Report Annexes (Vol. 2)",
     "kali-gandaki-a-adb-evaluation": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia",
+    "kathmandu-post-chameliya": "\"Kathmandu Post \u2014 Chameliya Hydropower Coverage\"",
     "khimti-i-project-research": "Khimti-I Project Research \u2014 PPA, Generation, Finance, Ownership",
     "likhu-cascade-research-compilation": "Likhu Cascade Research Compilation",
     "moewri-ipsdp-exec-summary-2025": "MoEWRI IPSDP Executive Summary",
     "mugu-karnali-feasibility-2025": "Mugu Karnali Storage \u2014 Feasibility, Bids & EOI Record (2024\u20132025)",
+    "myrepublica-pac-chameliya": "\"My Republica \u2014 PAC Chameliya Investigation\"",
     "national-water-plan-nepal": "National Water Plan, Nepal",
     "nea-annual-report-fy2024-25": "NEA Annual Report FY 2024/25",
+    "nea-generation-directorate-2081": "\"NEA Generation Directorate Data \u2014 FY 2080/81\"",
+    "nea-standard-ppa-clauses": "NEA Standard Hydropower PPA Clauses \u2014 AD Penalty, Reserve Margin, and Curtailment",
     "nea-transmission-annual-book-2077": "NEA Transmission Annual Book 2077",
     "nepal-transmission-landscape-2025": "Nepal Transmission System \u2014 400 kV Landscape & Cross-Border Plan (2025)",
     "ppa-data-retrieval-icra-care-2026": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
     "sahas-urja-benchmark-icra-2026": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) \u2014 Benchmark IPP Success\"",
+    "sahas-urja-progress-report-w010": "\"Sahas Urja \u2014 Progress Report W010\"",
+    "sangroula-ntnu-kulekhani-bathymetry": "Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies",
     "sector-financial-analysis-triple-authority-2026": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)",
     "ukhl-annual-report": "UKHLL Annual Reports \u2014 Upper Tamakoshi Hydropower Limited",
@@ -2274,6 +2343,7 @@
     "rasuwagadhi": "Rasuwagadhi",
     "ratmate-rasuwagadhi-kerung-400kv": "Ratmate\u2013Rasuwagadhi\u2013Kerung 400 kV Transmission Line",
     "sahas-urja": "Sahas Urja \u2014 Solu Khola (Dudh Koshi) Hydroelectric Project",
+    "sanima-mai": "Sanima Mai",
     "sanjen-khola": "Sanjen Khola",
     "sanjen": "Sanjen",
     "singati-khola-hydropower-project": "Singati Khola Hydropower Project",
@@ -2457,5 +2527,5 @@
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 348
+  "totalPages": 358
 }

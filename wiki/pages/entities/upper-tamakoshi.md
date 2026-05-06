@@ -81,7 +81,7 @@ Upper Tamakoshi's 2,281 GWh/yr design energy and 65% plant load factor set the b
 | Plant load factor | 65 % |
 
 ### Financial
-Built at NPR 87 billion (~NPR 19–20 Cr/MW), financed 75/25 by debt, with first-year PPA at NPR 3.74/kWh wet and NPR 6.96/kWh dry — among the lowest tariffs in the sector. The structural gap between these rates and the project's debt service is the core of the [[nea-triple-authority]] problem. See the Financial Performance section below for the detailed breakdown.
+Built at NPR 87–89 billion (~NPR 196 million/MW), financed with an effective 88:12 debt-to-equity ratio at COD (original 75:25 model was overwhelmed by NPR ~14 billion in Interest During Construction). First-year PPA at NPR 3.74/kWh wet and NPR 6.96/kWh dry — among the lowest tariffs in the sector. The structural gap between these rates and the project's debt service is the core of the [[nea-triple-authority]] problem. See the Financial Performance section below for the detailed breakdown.
 
 | Parameter | Value |
 |-----------|-------|
@@ -157,9 +157,20 @@ full reconstruction, knowing the financial cost of continued downtime.
 
 Physical damage was assessed at approximately **NPR 1.79 billion**. Business
 interruption losses reached approximately **NPR 1.43 billion**. Total insurance
-claim: NPR 2.0–3.22 billion — a claim so large it sent shockwaves through Nepal's
-reinsurance sector, which was already operating at an unsustainable ~210% loss ratio
-across the hydropower portfolio. See [[glof-risk]] and [[buildability]].
+claim submitted: NPR 2.0 billion — but the NPR 1.43 billion in business
+interruption losses are largely unrecoverable because the insurance policy's
+Loss of Profit (LOP) coverage explicitly excludes transmission infrastructure
+failures, and the destroyed 220 kV tower that cut grid evacuation was classified
+as a transmission asset rather than a generation asset.
+
+> [!warning] **Insurance claim NOT settled.** As of May 2026, the NPR 2.0 billion
+> claim remains submitted but unpaid. The gap between total losses (NPR 3.22B)
+> and the claim amount (NPR 2.0B) reflects the transmission exclusion. Domestic
+> insurers lack settlement authority — the risk was ceded to international
+> reinsurers who have deployed independent loss adjusters contesting coverage
+> under "maintenance period defects" and "foreign debris" clauses. Until the
+> claim is paid, UKHLL lacks the capital to fully rehabilitate the desander
+> basins. See [[glof-risk]] and [[buildability]].
 
 Full dual-desander operations were not restored until mid-2025.
 
@@ -195,7 +206,8 @@ almost entirely debt-funded at the moment it started generating revenue.
 | Actual generation | 1,945.83 GWh | 2,058.36 GWh | 1,529.07 GWh |
 | Total revenue | ~NPR 8.68 billion | ~NPR 9.3–9.5 billion | ~NPR 6.9 billion |
 | Interest expense | ~NPR 6.68 billion | Insufficient coverage | Insufficient coverage |
-| Net profit/(loss) | ~NPR (2.52) billion | Negative (DSCR <1.0x) | ~NPR (2.57) billion |
+| Net profit/(loss) | ~NPR (2.52) billion | ~NPR (1.39) billion | ~NPR (2.57) billion |
+| Accumulated losses | — | — | **NPR 12.18 billion** |
 | Total debt | ~NPR 78.6 billion | ~NPR 78.6 billion | Default |
 | DSCR | <1.0x | <1.0x | <1.0x |
 | ICRA rating | — | Distressed | **D (Default)** |
@@ -216,12 +228,23 @@ loan payments within 30 days of the outage triggered ICRA Nepal to downgrade
 UKHLL to **D** — formal default. Shareholders who had just doubled their exposure
 held equity in an insolvent entity.
 
-### The Rolwaling Diversion — The Only Organic Escape
+### The Rolwaling Diversion — Stalled
 
 UKHLL's only viable internal mechanism to improve its financial position is the
 **Rolwaling Khola diversion** (22 MW): infrastructure to redirect the adjacent
 Rolwaling river into the Upper Tamakoshi reservoir, adding approximately **212 GWh**
 of annual energy and extending dry-season peaking capacity from 4 hours to 6 hours.
+
+> [!warning] **Construction stalled.** As of May 2026, construction on the
+> Rolwaling Diversion — alongside the adjacent Tamakoshi-V project — has been
+> completely halted for several months. The project footprint intersects with the
+> **Gaurishankar Conservation Area**, and the Supreme Court of Nepal annulled a
+> 2024 government amendment to the National Parks Act that would have expedited
+> infrastructure in protected zones. The Ministry of Forests and Environment
+> has not finalized the policy guidelines required to implement the Court's
+> directive, and conservation area authorities have blockaded the construction
+> sites. The NPR ~10.59 billion raised through the 100% right share issuance for
+> this Phase II expansion is sitting idle while the company accumulates losses.
 
 The dry-season energy matters disproportionately: at NPR 6.96/kWh versus NPR
 3.74/kWh, an extra 212 GWh skewed toward the dry season could add NPR 1.2–1.5
@@ -274,3 +297,13 @@ capital. UKHLL's default signals to both domestic and foreign investors that the
 current risk-allocation framework — developer bears 100% of geological,
 hydrological, and construction delay risk at a non-escalating monopsony tariff —
 is uninvestable for complex mega-projects.
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+- [[ukhl-financials-generation-fy2079-82|UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82]]
+
+<!-- generated:sources:end -->

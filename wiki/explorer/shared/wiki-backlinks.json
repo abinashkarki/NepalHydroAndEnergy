@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 257,
-  "total_refs": 2053,
+  "total_targets": 267,
+  "total_refs": 2158,
   "backlinks": {
     "ad-penalties": [
       {
@@ -16,6 +16,13 @@
         "title": "AD Penalty Clause in Nepal's PPA — Research Compilation",
         "category": "sources",
         "context": "…urtailment as compensable deemed generation. ## Used by - ad-penalties - [[nea-triple-authority]] - [[ppa-pricing]]",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-standard-ppa-clauses",
+        "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment",
+        "category": "sources",
+        "context": "…-authority]] - [[buildability]] - [[stranded-generation]] - ad-penalties - [[ipo-hydropower-bailout]]",
         "target_exists": true
       },
       {
@@ -116,6 +123,13 @@
         "title": "Chilime Hydropower Company Limited Annual Report FY 2078/79",
         "category": "sources",
         "context": "…- [[chilime]] - [[q-design-discharge]] - [[ppa-pricing]] - nea-triple-authority",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-standard-ppa-clauses",
+        "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment",
+        "category": "sources",
+        "context": "…. ## Used by - [[q-design-discharge]] - [[ppa-pricing]] - nea-triple-authority - [[buildability]] - [[stranded-generation]] - [[ad-penalti…",
         "target_exists": true
       },
       {
@@ -289,6 +303,13 @@
         "target_exists": true
       },
       {
+        "slug": "nea-standard-ppa-clauses",
+        "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment",
+        "category": "sources",
+        "context": "…y secondary source. ## Used by - [[q-design-discharge]] - ppa-pricing - [[nea-triple-authority]] - [[buildability]] - [[stranded-…",
+        "target_exists": true
+      },
+      {
         "slug": "ukhl-annual-report",
         "title": "UKHLL Annual Reports — Upper Tamakoshi Hydropower Limited",
         "category": "sources",
@@ -321,6 +342,13 @@
         "title": "Khimti -I",
         "category": "entities",
         "context": "…PPA regime structurally inadequate for long-tenor debt. See ppa-pricing. ## Generation — 103% of Contracted Over 25 Years HPL's c…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…s developers were currency-hedged; Khimti-II's are not. See ppa-pricing. ## The PPA — Standard Post-2015 Structure Khimti-II's 30…",
         "target_exists": true
       },
       {
@@ -396,10 +424,24 @@
         "target_exists": true
       },
       {
+        "slug": "nea-standard-ppa-clauses",
+        "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment",
+        "category": "sources",
+        "context": "…-discharge]] - [[ppa-pricing]] - [[nea-triple-authority]] - buildability - [[stranded-generation]] - [[ad-penalties]] - [[ipo-hydrop…",
+        "target_exists": true
+      },
+      {
         "slug": "tanahu-adb-status-2025",
         "title": "Tanahu Hydropower Project Status (ADB, 2024–2025)",
         "category": "sources",
         "context": "…# See also - [[tanahu-hydropower]] - [[storage-deficit]] - buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "urja-khabar-generation-audit",
+        "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted",
+        "category": "sources",
+        "context": "…- [[q-design-discharge]] - [[claim-mw-not-equal-value]] - buildability - [[stranded-generation]] - [[middle-tamor]]",
         "target_exists": true
       },
       {
@@ -515,6 +557,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…e is a structural risk that no PPA provision addresses. See buildability and [[stranded-generation]]. ## IPO Connection — Pre-Reven…",
+        "target_exists": true
+      },
+      {
         "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
@@ -578,6 +627,13 @@
         "target_exists": true
       },
       {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…his is the classic Nepal hydropower timing failure that the buildability and [[stranded-generation]] pages document: private develop…",
+        "target_exists": true
+      },
+      {
         "slug": "pancheshwar",
         "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
@@ -588,7 +644,7 @@
         "slug": "phukot-karnali",
         "title": "Phukot Karnali",
         "category": "entities",
-        "context": "…ure is yet locked down by a bankable feasibility study. See buildability. | Parameter | Value | |-----------|-------| | Units | 6 ×…",
+        "context": "…# See also - [[karnali-basin]] - [[stranded-generation]] - buildability - [[data-ipsdp-milestone-ladder-2022-2040]] - [[data-layer-…",
         "target_exists": true
       },
       {
@@ -679,7 +735,7 @@
         "slug": "upper-tamakoshi",
         "title": "Upper Tamakoshi",
         "category": "entities",
-        "context": "…atio across the hydropower portfolio. See [[glof-risk]] and buildability. Full dual-desander operations were not restored until mid…",
+        "context": "…y rehabilitate the desander > basins. See [[glof-risk]] and buildability. Full dual-desander operations were not restored until mid…",
         "target_exists": true
       },
       {
@@ -1352,10 +1408,31 @@
         "target_exists": true
       },
       {
+        "slug": "arun-3",
+        "title": "Arun 3",
+        "category": "entities",
+        "context": "…-status-2025|Arun-3 Project Status & PDA Summary (2025)]] - NEA Annual Report FY 2024/25 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - NEA Annual Report FY 2024/25 <!-- generated:sources:end --> ## Notes > [!note] This i…",
+        "target_exists": true
+      },
+      {
         "slug": "chilime-trishuli-220kv-transmission-line",
         "title": "Chilime-Trishuli 220 kV Transmission Line",
         "category": "entities",
         "context": "…an a full technical corridor brief. On the contents page of nea-annual-report-fy2024-25, NEA explicitly labels the annual report's front cover imag…",
+        "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "…Kali Gandaki A — ADB Performance Evaluation & Wikipedia]] - NEA Annual Report FY 2024/25 - [[nea-transmission-annual-book-2077|NEA Transmission Annu…",
         "target_exists": true
       },
       {
@@ -1366,6 +1443,27 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - NEA Annual Report FY 2024/25 <!-- generated:sources:end -->",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-i",
+        "title": "Kulekhani I",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Annual Report FY 2024/25 <!-- generated:sources:end --> ## Specifications (NEA FY…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-ii",
+        "title": "Kulekhani II",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Annual Report FY 2024/25 <!-- generated:sources:end --> ## Specifications (NEA FY…",
+        "target_exists": true
+      },
+      {
         "slug": "markichowk-220-132kv-substation",
         "title": "Markichowk 220/132 kV Substation",
         "category": "entities",
@@ -1373,10 +1471,52 @@
         "target_exists": true
       },
       {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "category": "entities",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - NEA Annual Report FY 2024/25 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
         "slug": "nea-960mw-solar-tender",
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
         "context": "…arently | ## Related - [[nea-solar]] — programme parent - nea-annual-report-fy2024-25 — primary source - [[solar-lcoe-crossover]] — the price sto…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Annual Report FY 2024/25 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…-2025|Tanahu Hydropower Project Status (ADB, 2024–2025)]] - NEA Annual Report FY 2024/25 - [[nea-transmission-annual-book-2077|NEA Transmission Annu…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - NEA Annual Report FY 2024/25 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…-projects. <!-- generated:sources:start --> ## Sources - NEA Annual Report FY 2024/25 - [[nea-transmission-annual-book-2077|NEA Transmission Annu…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - NEA Annual Report FY 2024/25 <!-- generated:sources:end --> ## Specifications (NEA FY…",
         "target_exists": true
       },
       {
@@ -1848,10 +1988,24 @@
         "target_exists": true
       },
       {
+        "slug": "nea-standard-ppa-clauses",
+        "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment",
+        "category": "sources",
+        "context": "…a-pricing]] - [[nea-triple-authority]] - [[buildability]] - stranded-generation - [[ad-penalties]] - [[ipo-hydropower-bailout]]",
+        "target_exists": true
+      },
+      {
         "slug": "nepal-transmission-landscape-2025",
         "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
         "category": "sources",
         "context": "…zaffarpur]] - [[mca-central-400]] - [[hydro-geopolitics]] - stranded-generation",
+        "target_exists": true
+      },
+      {
+        "slug": "urja-khabar-generation-audit",
+        "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted",
+        "category": "sources",
+        "context": "…harge]] - [[claim-mw-not-equal-value]] - [[buildability]] - stranded-generation - [[middle-tamor]]",
         "target_exists": true
       },
       {
@@ -1904,6 +2058,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…k that no PPA provision addresses. See [[buildability]] and stranded-generation. ## IPO Connection — Pre-Revenue Fundraising Peoples Ener…",
+        "target_exists": true
+      },
+      {
         "slug": "likhu-1",
         "title": "Likhu -1",
         "category": "entities",
@@ -1922,6 +2083,13 @@
         "title": "Likhu-4",
         "category": "entities",
         "context": "…ject that has already absorbed it. See [[buildability]] and stranded-generation. ## The Desanding Basin Collapse — Commissioning Catastrop…",
+        "target_exists": true
+      },
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…pal hydropower timing failure that the [[buildability]] and stranded-generation pages document: private developers mobilise capital and con…",
         "target_exists": true
       },
       {
@@ -2172,6 +2340,13 @@
         "target_exists": true
       },
       {
+        "slug": "nea-standard-ppa-clauses",
+        "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment",
+        "category": "sources",
+        "context": "…li analysis is the primary secondary source. ## Used by - q-design-discharge - [[ppa-pricing]] - [[nea-triple-authority]] - [[buildabili…",
+        "target_exists": true
+      },
+      {
         "slug": "ukhl-annual-report",
         "title": "UKHLL Annual Reports — Upper Tamakoshi Hydropower Limited",
         "category": "sources",
@@ -2189,7 +2364,7 @@
         "slug": "urja-khabar-generation-audit",
         "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted",
         "category": "sources",
-        "context": "…REVIEW] flag on this figure is appropriate. ## Used by - q-design-discharge - [[claim-mw-not-equal-value]]",
+        "context": "…cted small projects — not generation output. ## Used by - q-design-discharge - [[claim-mw-not-equal-value]] - [[buildability]] - [[stran…",
         "target_exists": true
       },
       {
@@ -2253,6 +2428,13 @@
         "title": "Marsyangdi",
         "category": "entities",
         "context": "…utperforms the median private IPP — where, as documented in q-design-discharge, zero of 100+ projects in a recent Urja Khabar audit exceed…",
+        "target_exists": true
+      },
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…, which has published Q40 design discharge data used in the q-design-discharge analysis. The group's strategy mirrors the cluster-develop…",
         "target_exists": true
       },
       {
@@ -2636,7 +2818,7 @@
         "slug": "upper-tamakoshi",
         "title": "Upper Tamakoshi",
         "category": "entities",
-        "context": "…nable ~210% loss ratio across the hydropower portfolio. See glof-risk and [[buildability]]. Full dual-desander operations were n…",
+        "context": "…he capital to fully rehabilitate the desander > basins. See glof-risk and [[buildability]]. Full dual-desander operations were n…",
         "target_exists": true
       },
       {
@@ -2695,6 +2877,13 @@
         "title": "Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)",
         "category": "sources",
         "context": "…See also - [[mugu-karnali-storage]] - [[karnali-basin]] - storage-deficit",
+        "target_exists": true
+      },
+      {
+        "slug": "sangroula-ntnu-kulekhani-bathymetry",
+        "title": "Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies",
+        "category": "sources",
+        "context": "…by - [[kulekhani-i]] - [[sediment-as-design-constraint]] - storage-deficit",
         "target_exists": true
       },
       {
@@ -3581,14 +3770,14 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory",
+        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory <!-- generated:sources:start --> ## Sources - [[wb-count…",
         "target_exists": true
       },
       {
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory",
+        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory <!-- generated:sources:start --> ## Sources - [[dudhkosh…",
         "target_exists": true
       },
       {
@@ -3609,7 +3798,7 @@
         "slug": "karnali-chisapani",
         "title": "Karnali Chisapani Project",
         "category": "entities",
-        "context": "…/assets/maps/html/nepal_geopolitics_river_influence.html) - data-map-inventory",
+        "context": "…/assets/maps/html/nepal_geopolitics_river_influence.html) - data-map-inventory <!-- generated:sources:start --> ## Sources - [[wecs-hyd…",
         "target_exists": true
       },
       {
@@ -3623,7 +3812,7 @@
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory",
+        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory <!-- generated:sources:start --> ## Sources - [[nea-annu…",
         "target_exists": true
       },
       {
@@ -3637,7 +3826,7 @@
         "slug": "mugu-karnali-storage",
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
-        "context": "…olar-hydro-complementarity]] - [[bangladesh-trade-route]] - data-map-inventory",
+        "context": "…olar-hydro-complementarity]] - [[bangladesh-trade-route]] - data-map-inventory <!-- generated:sources:start --> ## Sources - [[mugu-kar…",
         "target_exists": true
       },
       {
@@ -3658,21 +3847,21 @@
         "slug": "pancheshwar",
         "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
-        "context": "…/assets/maps/html/nepal_geopolitics_river_influence.html) - data-map-inventory",
+        "context": "…/assets/maps/html/nepal_geopolitics_river_influence.html) - data-map-inventory <!-- generated:sources:start --> ## Sources - [[national…",
         "target_exists": true
       },
       {
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
-        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory",
+        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory <!-- generated:sources:start --> ## Sources - [[tanahu-a…",
         "target_exists": true
       },
       {
         "slug": "upper-karnali",
         "title": "Upper Karnali",
         "category": "entities",
-        "context": "…[[nepal-transmission-landscape-2025]] - [[buildability]] - data-map-inventory",
+        "context": "…[[nepal-transmission-landscape-2025]] - [[buildability]] - data-map-inventory <!-- generated:sources:start --> ## Sources - [[upper-ka…",
         "target_exists": true
       },
       {
@@ -4353,6 +4542,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…[[ipo-hydropower-bailout]] — the pre-revenue IPO pattern - koshi-basin — basin context",
+        "target_exists": true
+      },
+      {
         "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
@@ -4370,14 +4566,14 @@
         "slug": "likhu-1",
         "title": "Likhu -1",
         "category": "entities",
-        "context": "…MW | | Status | Operating | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
+        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
         "target_exists": true
       },
       {
         "slug": "likhu-2",
         "title": "Likhu -2",
         "category": "entities",
-        "context": "…MW | | Status | Operating | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Koshi Pradesh | <…",
+        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
         "target_exists": true
       },
       {
@@ -4398,7 +4594,7 @@
         "slug": "likhu-4",
         "title": "Likhu-4",
         "category": "entities",
-        "context": "…MW | | Status | Operating | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Bagmati Pradesh |…",
+        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Bagmati Pradesh |…",
         "target_exists": true
       },
       {
@@ -4802,6 +4998,13 @@
         "title": "ICIMOD Threats to the Koshi River Basin",
         "category": "sources",
         "context": "…and sediment-pulse risks ## Relevance to Project Supports sediment-as-design-constraint, [[glof-risk]], and the hazard dimension of [[buildability]…",
+        "target_exists": true
+      },
+      {
+        "slug": "sangroula-ntnu-kulekhani-bathymetry",
+        "title": "Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies",
+        "category": "sources",
+        "context": "…times since commissioning ## Used by - [[kulekhani-i]] - sediment-as-design-constraint - [[storage-deficit]]",
         "target_exists": true
       },
       {
@@ -5494,6 +5697,13 @@
         "target_exists": true
       },
       {
+        "slug": "karnali-chisapani",
+        "title": "Karnali Chisapani Project",
+        "category": "entities",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - WECS Assessment of Hydropower Potential of Nepal (2019) - [[wb-ganges-strategic-basin-assessment|World Bank Ganges…",
+        "target_exists": true
+      },
+      {
         "slug": "koshi-basin",
         "title": "Koshi Basin",
         "category": "entities",
@@ -5828,6 +6038,13 @@
         "target_exists": true
       },
       {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - World Bank Nepal Country Economic Memorandum (2025) - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
         "slug": "data-trade-time-series",
         "title": "Electricity Trade Time Series",
         "category": "data",
@@ -5848,6 +6065,55 @@
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
         "context": "…same study whose compact policy conclusions are captured in moewri-ipsdp-exec-summary-2025. The executive summary is where the headline numbers and mi…",
+        "target_exists": true
+      },
+      {
+        "slug": "chera-1",
+        "title": "Chera-1",
+        "category": "entities",
+        "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Chera-1…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-badigad",
+        "title": "Lower Badigad",
+        "category": "entities",
+        "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Lower B…",
+        "target_exists": true
+      },
+      {
+        "slug": "madi",
+        "title": "Madi",
+        "category": "entities",
+        "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Madi co…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Nalsyau…",
+        "target_exists": true
+      },
+      {
+        "slug": "naumure-w-rapti",
+        "title": "Naumure (W. Rapti)",
+        "category": "entities",
+        "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Naumure…",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Phukot…",
+        "target_exists": true
+      },
+      {
+        "slug": "sun-koshi-no-3",
+        "title": "Sun Koshi No.3",
+        "category": "entities",
+        "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Sun Kos…",
         "target_exists": true
       },
       {
@@ -6243,7 +6509,7 @@
         "slug": "sediment-as-design-constraint",
         "title": "Sediment as Design Constraint",
         "category": "concepts",
-        "context": "…voir, ~40% silted Nepal's single reservoir storage system, kulekhani-cascade, provides the country's only domestic case study of what se…",
+        "context": "…voir, ~24% silted Nepal's single reservoir storage system, kulekhani-cascade, provides the country's only domestic case study of what se…",
         "target_exists": true
       },
       {
@@ -6581,13 +6847,6 @@
         "title": "Nalsyau Gad",
         "category": "entities",
         "context": "…he planned Karnali basin transmission backbone (linked to upper-karnali and [[mugu-karnali-storage]] evacuation plans) - Possibly a…",
-        "target_exists": true
-      },
-      {
-        "slug": "phukot-karnali",
-        "title": "Phukot Karnali",
-        "category": "entities",
-        "context": "…r the five-year estimate survives contracting. Compare with upper-karnali (900 MW, same river, 18 years without a turbine) for the di…",
         "target_exists": true
       }
     ],
@@ -7185,6 +7444,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…t of the **RM Group** — sharing the Khimti Khola river with khimti-i but following an entirely different developer lineage and e…",
+        "target_exists": true
+      },
+      {
         "slug": "khimti-dhalkebar-corridor",
         "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor",
         "category": "entities",
@@ -7236,6 +7502,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…es Khimti-I (60 MW), the entire Likhu cascade ([[likhu-1]], likhu-2, [[likhu-4]], [[likhu-khola-a]] — combined ~213 MW), and Up…",
+        "target_exists": true
+      },
+      {
         "slug": "likhu-1",
         "title": "Likhu -1",
         "category": "entities",
@@ -7254,6 +7527,13 @@
         "title": "Likhu Khola 'A'",
         "category": "entities",
         "context": "…commissioning on February 8, 2022 — nearly 18 months before likhu-2 (July 2023) and over two years before [[likhu-1]] (April 20…",
+        "target_exists": true
+      },
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…in the basin. Its 73 MW places it at a scale comparable to likhu-2 (55 MW) and [[likhu-1]] (77 MW), but without the benefit of…",
         "target_exists": true
       },
       {
@@ -7854,6 +8134,71 @@
         "target_exists": true
       }
     ],
+    "ipo-hydropower-bailout": [
+      {
+        "slug": "sector-financial-analysis-triple-authority-2026",
+        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
+        "category": "sources",
+        "context": "…-care-2026]] - [[ppa-pricing]] - [[nea-triple-authority]] - ipo-hydropower-bailout - [[stranded-generation]] - [[ad-penalties]]",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-standard-ppa-clauses",
+        "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment",
+        "category": "sources",
+        "context": "…ildability]] - [[stranded-generation]] - [[ad-penalties]] - ipo-hydropower-bailout",
+        "target_exists": true
+      },
+      {
+        "slug": "ankhu-khola",
+        "title": "Ankhu Khola",
+        "category": "entities",
+        "context": "…so - [[sector-financial-analysis-triple-authority-2026]] - ipo-hydropower-bailout - [[q-design-discharge]] <!-- generated:specs:start -->…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…project is hemorrhaging cash from capitalized interest. See ipo-hydropower-bailout. Chilime's subsequent role as a holding company — spinning…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…eline for what public shareholders are actually buying. See ipo-hydropower-bailout. ## Credit Profile CARE Ratings Nepal assigned **CARE-NP…",
+        "target_exists": true
+      },
+      {
+        "slug": "q-design-discharge",
+        "title": "Q-Design Discharge",
+        "category": "concepts",
+        "context": "…ithin a year of listing. Modern IPOs float pre-revenue. See ipo-hydropower-bailout. ## Beyond the anomaly — the performance spectrum Chilime…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…— the curtailment outcome structural separation prevents - ipo-hydropower-bailout — why retail investors are exposed to unresolvable disputes…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…al monsoon-winter asymmetry that climate change amplifies - ipo-hydropower-bailout — why investors are not told their shares are PPA'd against…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…closed AD penalty exposure — operates in a data vacuum. The ipo-hydropower-bailout page documents what is known: six companies, NPR billions r…",
+        "target_exists": true
+      }
+    ],
     "hetauda-dhalkebar-inaruwa-backbone": [
       {
         "slug": "nea-transmission-annual-book-2077",
@@ -8307,6 +8652,13 @@
         "category": "entities",
         "context": "…| [[upper-trishuli-3a]] | 60 | Under construction | NEA | | upper-trishuli-3b | 37 | Under construction | Subsidiary (Trishuli Jal Vidyut…",
         "target_exists": true
+      },
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "…erating projects — including [[upper-trishuli-3a]] (60 MW), upper-trishuli-3b (37 MW), and multiple smaller plants. See [[trishuli-cascad…",
+        "target_exists": true
       }
     ],
     "ppa-data-retrieval-icra-care-2026": [
@@ -8339,54 +8691,40 @@
         "target_exists": true
       }
     ],
-    "ipo-hydropower-bailout": [
+    "kulekhani-i": [
       {
-        "slug": "sector-financial-analysis-triple-authority-2026",
-        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
+        "slug": "sangroula-ntnu-kulekhani-bathymetry",
+        "title": "Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies",
         "category": "sources",
-        "context": "…-care-2026]] - [[ppa-pricing]] - [[nea-triple-authority]] - ipo-hydropower-bailout - [[stranded-generation]] - [[ad-penalties]]",
+        "context": "…replaced multiple times since commissioning ## Used by - kulekhani-i - [[sediment-as-design-constraint]] - [[storage-deficit]]",
         "target_exists": true
       },
       {
-        "slug": "ankhu-khola",
-        "title": "Ankhu Khola",
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…so - [[sector-financial-analysis-triple-authority-2026]] - ipo-hydropower-bailout - [[q-design-discharge]] <!-- generated:specs:start -->…",
+        "context": "…-----------|------|------| | Kulekhani I | 60 | Reservoir | kulekhani-i | | Kulekhani II | 32 | Cascade | [[kulekhani-ii]] | | Kule…",
         "target_exists": true
       },
       {
-        "slug": "chilime",
-        "title": "Chilime",
+        "slug": "kulekhani-ii",
+        "title": "Kulekhani II",
         "category": "entities",
-        "context": "…project is hemorrhaging cash from capitalized interest. See ipo-hydropower-bailout. Chilime's subsequent role as a holding company — spinning…",
+        "context": "…system. It operates as a cascade plant using discharge from kulekhani-i (60 MW, reservoir). See [[kulekhani-cascade]] for the full…",
         "target_exists": true
       },
       {
-        "slug": "q-design-discharge",
-        "title": "Q-Design Discharge",
+        "slug": "kulekhani-iii",
+        "title": "Kulekhani III",
+        "category": "entities",
+        "context": "…W, it sits below [[kulekhani-ii]] (32 MW), which sits below kulekhani-i (60 MW) and its reservoir. The water Kulekhani III generate…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
         "category": "concepts",
-        "context": "…ithin a year of listing. Modern IPOs float pre-revenue. See ipo-hydropower-bailout. ## Beyond the anomaly — the performance spectrum Chilime…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-nea-structural-separation",
-        "title": "NEA Structural Separation",
-        "category": "interventions",
-        "context": "…— the curtailment outcome structural separation prevents - ipo-hydropower-bailout — why retail investors are exposed to unresolvable disputes…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-q-design-climate-adjustment",
-        "title": "Q-Design Climate Adjustment",
-        "category": "interventions",
-        "context": "…al monsoon-winter asymmetry that climate change amplifies - ipo-hydropower-bailout — why investors are not told their shares are PPA'd against…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-sebon-data-transparency",
-        "title": "SEBON Data Transparency",
-        "category": "interventions",
-        "context": "…closed AD penalty exposure — operates in a data vacuum. The ipo-hydropower-bailout page documents what is known: six companies, NPR billions r…",
+        "context": "…[[kulekhani-cascade]]** — three plants totaling **106 MW** (Kulekhani I 60 MW reservoir, [[kulekhani-ii|II]] 32 MW cascade, [[kulek…",
         "target_exists": true
       }
     ],
@@ -8523,7 +8861,7 @@
         "slug": "urja-khabar-generation-audit",
         "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted",
         "category": "sources",
-        "context": "…ure is appropriate. ## Used by - [[q-design-discharge]] - claim-mw-not-equal-value",
+        "context": "…generation output. ## Used by - [[q-design-discharge]] - claim-mw-not-equal-value - [[buildability]] - [[stranded-generation]] - [[middle-tam…",
         "target_exists": true
       },
       {
@@ -8608,6 +8946,22 @@
         "title": "Layer: Top-10 Capacity Projects",
         "category": "data",
         "context": "…e-shortlist]] - dry-season value comparator. ## Related - claim-mw-not-equal-value - [[twenty-year-strategy]] - [[storage-deficit]] - [[claim-…",
+        "target_exists": true
+      }
+    ],
+    "middle-tamor": [
+      {
+        "slug": "urja-khabar-generation-audit",
+        "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted",
+        "category": "sources",
+        "context": "…qual-value]] - [[buildability]] - [[stranded-generation]] - middle-tamor",
+        "target_exists": true
+      },
+      {
+        "slug": "super-tamor",
+        "title": "Super Tamor",
+        "category": "entities",
+        "context": "…per\". On the same Tamor River, [[upper-tamor]] (285 MW) and middle-tamor (54 MW) are under construction, while Super Tamor (155 MW)…",
         "target_exists": true
       }
     ],
@@ -9787,6 +10141,269 @@
         "target_exists": true
       }
     ],
+    "nea-transmission-annual-book-2077": [
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "chainpur-seti",
+        "title": "Chainpur Seti",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 <!-- generated:sources:end --> ## Notes > [!note] This i…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…4|Dudhkoshi Storage — NEA Proposal & Feasibility Record]] - NEA Transmission Annual Book 2077 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "…ea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] - NEA Transmission Annual Book 2077 <!-- generated:sources:end -->",
+        "target_exists": true
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "solu-tingla-mirchaiya-132",
+        "title": "Solu Corridor Tingla-Mirchaiya 132 kV",
+        "category": "entities",
+        "context": "…o - [[data-layer-transmission-connected-traced-network]] - nea-transmission-annual-book-2077 - [[claim-transmission-immediate-blocker]]",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…ea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] - NEA Transmission Annual Book 2077 <!-- generated:sources:end -->",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…ea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] - NEA Transmission Annual Book 2077 - [[ukhl-financials-generation-fy2079-82|UKHLL Financials a…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
+        "target_exists": true
+      }
+    ],
+    "jica-ipsdp-main-report-vol2": [
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola",
+        "category": "entities",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Why It Matters The ope…",
+        "target_exists": true
+      },
+      {
+        "slug": "arun-3",
+        "title": "Arun 3",
+        "category": "entities",
+        "context": "…ea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end -->",
+        "target_exists": true
+      },
+      {
+        "slug": "bagmati-nadi",
+        "title": "Bagmati Nadi",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Notes > [!note] This i…",
+        "target_exists": true
+      },
+      {
+        "slug": "balephi",
+        "title": "Balephi",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Notes > [!note] This i…",
+        "target_exists": true
+      },
+      {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…025|World Bank Nepal Country Economic Memorandum (2025)]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end -->",
+        "target_exists": true
+      },
+      {
+        "slug": "chera-1",
+        "title": "Chera-1",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) - [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive S…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end -->",
+        "target_exists": true
+      },
+      {
+        "slug": "humla-karnali-1",
+        "title": "Humla Karnali 1 HPP",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Notes > [!note] This i…",
+        "target_exists": true
+      },
+      {
+        "slug": "karnali-chisapani",
+        "title": "Karnali Chisapani Project",
+        "category": "entities",
+        "context": "…assessment|World Bank Ganges Strategic Basin Assessment]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end -->",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Specifications (HPL pro…",
+        "target_exists": true
+      },
+      {
+        "slug": "kokhajor-1",
+        "title": "Kokhajor-1",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Why It Matters Kokhajo…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-4",
+        "title": "Likhu-4",
+        "category": "entities",
+        "context": "…research-compilation|Likhu Cascade Research Compilation]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Specifications (CARE Ne…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-badigad",
+        "title": "Lower Badigad",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) - [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive S…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-jhimruk",
+        "title": "Lower Jhimruk",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Why It Matters Lower J…",
+        "target_exists": true
+      },
+      {
+        "slug": "madi",
+        "title": "Madi",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) - [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive S…",
+        "target_exists": true
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "category": "entities",
+        "context": "…ea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Specifications (NEA FY…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) - [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive S…",
+        "target_exists": true
+      },
+      {
+        "slug": "naumure-w-rapti",
+        "title": "Naumure (W. Rapti)",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) - [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive S…",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - JICA IPSDP Final Report Annexes (Vol. 2) - [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive S…",
+        "target_exists": true
+      },
+      {
+        "slug": "sun-koshi-no-3",
+        "title": "Sun Koshi No.3",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) - [[moewri-ipsdp-exec-summary-2025|MoEWRI IPSDP Executive S…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "…ea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Specifications (NEA / J…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "…ea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Specifications (NEA FY…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-karnali",
+        "title": "Upper Karnali",
+        "category": "entities",
+        "context": "…d|Upper Karnali — PDA, Financial Closure & Court Record]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end -->",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-myagdi",
+        "title": "Upper Myagdi",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Notes > [!note] This i…",
+        "target_exists": true
+      },
+      {
+        "slug": "west-seti",
+        "title": "West Seti Hydroelectric Project",
+        "category": "entities",
+        "context": "…nt reasons <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end -->",
+        "target_exists": true
+      }
+    ],
     "firm-power": [
       {
         "slug": "andhi-khola",
@@ -10067,7 +10684,7 @@
         "slug": "arun-3",
         "title": "Arun 3",
         "category": "entities",
-        "context": "…ded-generation]] - [[firm-power]] - [[seasonal-mismatch]] - inaruwa-purnea-interconnection — the 400 kV line being built to evacuate Arun-3",
+        "context": "…ded-generation]] - [[firm-power]] - [[seasonal-mismatch]] - inaruwa-purnea-interconnection — the 400 kV line being built to evacuate Arun-3 <!-- gene…",
         "target_exists": true
       },
       {
@@ -10110,6 +10727,15 @@
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
         "context": "…wal-interconnection]] — second 400 kV, under construction - inaruwa-purnea-interconnection — third 400 kV, tied to [[arun-3]] - [[kataiya-kushaha-inte…",
+        "target_exists": true
+      }
+    ],
+    "arun-3-project-status-2025": [
+      {
+        "slug": "arun-3",
+        "title": "Arun 3",
+        "category": "entities",
+        "context": "…ate Arun-3 <!-- generated:sources:start --> ## Sources - Arun-3 Project Status & PDA Summary (2025) - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
         "target_exists": true
       }
     ],
@@ -10685,6 +11311,13 @@
         "target_exists": true
       },
       {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "…st hydropower-dense river in Nepal. From the original 24 MW Trishuli plant (1967) to the 216 MW [[upper-trishuli-1]] upstream, t…",
+        "target_exists": true
+      },
+      {
         "slug": "q-design-discharge",
         "title": "Q-Design Discharge",
         "category": "concepts",
@@ -11229,6 +11862,15 @@
         "target_exists": true
       }
     ],
+    "dudhkoshi-nea-proposal-2024": [
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - Dudhkoshi Storage — NEA Proposal & Feasibility Record - [[nea-transmission-annual-book-2077|NEA Transmission Annu…",
+        "target_exists": true
+      }
+    ],
     "budhigandaki": [
       {
         "slug": "gandaki-basin",
@@ -11487,6 +12129,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…or on the same river (different developer, different era) - khimti-dhalkebar-corridor — the 220 kV backbone shared with the Likhu cascade - [[lik…",
+        "target_exists": true
+      },
+      {
         "slug": "likhu-1",
         "title": "Likhu -1",
         "category": "entities",
@@ -11512,6 +12161,13 @@
         "title": "Likhu-4",
         "category": "entities",
         "context": "…[koshi-basin]] — basin context for the Likhu Khola system - khimti-dhalkebar-corridor — the 220 kV backbone the cascade depends on - [[arun-3]] —…",
+        "target_exists": true
+      },
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…create single-point failure risks that the Likhu Cascade's khimti-dhalkebar-corridor also faces — but with less redundancy and no neighbouring p…",
         "target_exists": true
       },
       {
@@ -11603,6 +12259,15 @@
         "target_exists": true
       }
     ],
+    "kali-gandaki-a-adb-evaluation": [
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "…- [[nea]] <!-- generated:sources:start --> ## Sources - Kali Gandaki A — ADB Performance Evaluation & Wikipedia - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
+        "target_exists": true
+      }
+    ],
     "karnali-chisapani": [
       {
         "slug": "karnali-basin",
@@ -11632,6 +12297,13 @@
         "title": "Karnali Chisapani Project",
         "category": "entities",
         "context": "…kely rockfill or RCC) | | Type | Storage | ### Storage The wb-ganges-strategic-basin-assessment describes a valley-shape paradox that constrains Karnali Ch…",
+        "target_exists": true
+      },
+      {
+        "slug": "pancheshwar",
+        "title": "Pancheshwar Multipurpose Project",
+        "category": "entities",
+        "context": "…[[national-water-plan-nepal|National Water Plan, Nepal]] - World Bank Ganges Strategic Basin Assessment <!-- generated:sources:end -->",
         "target_exists": true
       }
     ],
@@ -11783,6 +12455,89 @@
         "target_exists": true
       }
     ],
+    "likhu-1": [
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…or that carries Khimti-I (60 MW), the entire Likhu cascade (likhu-1, [[likhu-2]], [[likhu-4]], [[likhu-khola-a]] — combined ~21…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…| District | |-------|--------------|--------|----------| | likhu-1 | 77.0 | Under construction | Solukhumbu | | [[likhu-2]] |…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-khola-a",
+        "title": "Likhu Khola 'A'",
+        "category": "entities",
+        "context": "…hs before [[likhu-2]] (July 2023) and over two years before likhu-1 (April 2024). For a conglomerate simultaneously developing…",
+        "target_exists": true
+      },
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…places it at a scale comparable to [[likhu-2]] (55 MW) and likhu-1 (77 MW), but without the benefit of shared corridor infrast…",
+        "target_exists": true
+      }
+    ],
+    "likhu-4": [
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…60 MW), the entire Likhu cascade ([[likhu-1]], [[likhu-2]], likhu-4, [[likhu-khola-a]] — combined ~213 MW), and Upper Tamakoshi…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…| | [[likhu-khola-a]] | 29.04 | Operating | Solukhumbu | | likhu-4 | 52.4 | Under construction | Ramechhap | | [[lower-likhu]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-khola-a",
+        "title": "Likhu Khola 'A'",
+        "category": "entities",
+        "context": "…ola A in the same CARE tier as [[likhu-2]] (BBB- Is), above likhu-4 (BB). The rating reflects the project's conservative levera…",
+        "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…what an early-generation negotiated PPA can deliver, while Likhu-4 (120→52 MW redesign after India wheeling dispute) shows bui…",
+        "target_exists": true
+      },
+      {
+        "slug": "stranded-generation",
+        "title": "Stranded Generation",
+        "category": "concepts",
+        "context": "…of cascade capacity — the plant was ready, the grid wasn't. likhu-4 (52.4 MW) was originally designed as a 120 MW export projec…",
+        "target_exists": true
+      }
+    ],
+    "likhu-khola-a": [
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…ntire Likhu cascade ([[likhu-1]], [[likhu-2]], [[likhu-4]], likhu-khola-a — combined ~213 MW), and Upper Tamakoshi (456 MW). The line…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…| [[likhu-2]] | 55.0 | Under construction | Solukhumbu | | likhu-khola-a | 29.04 | Operating | Solukhumbu | | [[likhu-4]] | 52.4 | U…",
+        "target_exists": true
+      }
+    ],
     "naumure-w-rapti": [
       {
         "slug": "khungri-solar-hybrid-50mw",
@@ -11803,36 +12558,6 @@
         "title": "Madi",
         "category": "entities",
         "context": "…ith or complements other West Rapti storage options such as naumure-w-rapti. ## Map Interpretation The marker is a river anchor suita…",
-        "target_exists": true
-      }
-    ],
-    "kulekhani-i": [
-      {
-        "slug": "kulekhani-cascade",
-        "title": "Kulekhani Cascade",
-        "category": "entities",
-        "context": "…-----------|------|------| | Kulekhani I | 60 | Reservoir | kulekhani-i | | Kulekhani II | 32 | Cascade | [[kulekhani-ii]] | | Kule…",
-        "target_exists": true
-      },
-      {
-        "slug": "kulekhani-ii",
-        "title": "Kulekhani II",
-        "category": "entities",
-        "context": "…system. It operates as a cascade plant using discharge from kulekhani-i (60 MW, reservoir). See [[kulekhani-cascade]] for the full…",
-        "target_exists": true
-      },
-      {
-        "slug": "kulekhani-iii",
-        "title": "Kulekhani III",
-        "category": "entities",
-        "context": "…W, it sits below [[kulekhani-ii]] (32 MW), which sits below kulekhani-i (60 MW) and its reservoir. The water Kulekhani III generate…",
-        "target_exists": true
-      },
-      {
-        "slug": "storage-deficit",
-        "title": "Storage Deficit",
-        "category": "concepts",
-        "context": "…[[kulekhani-cascade]]** — three plants totaling **106 MW** (Kulekhani I 60 MW reservoir, [[kulekhani-ii|II]] 32 MW cascade, [[kulek…",
         "target_exists": true
       }
     ],
@@ -11947,58 +12672,33 @@
         "target_exists": true
       }
     ],
-    "likhu-1": [
+    "likhu-cascade-research-compilation": [
       {
-        "slug": "likhu-cascade",
-        "title": "Likhu Cascade",
+        "slug": "likhu-1",
+        "title": "Likhu -1",
         "category": "entities",
-        "context": "…| District | |-------|--------------|--------|----------| | likhu-1 | 77.0 | Under construction | Solukhumbu | | [[likhu-2]] |…",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - Likhu Cascade Research Compilation <!-- generated:sources:end --> ## Specifications (CARE Ne…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - Likhu Cascade Research Compilation <!-- generated:sources:end --> ## Specifications (CARE Ne…",
         "target_exists": true
       },
       {
         "slug": "likhu-khola-a",
         "title": "Likhu Khola 'A'",
         "category": "entities",
-        "context": "…hs before [[likhu-2]] (July 2023) and over two years before likhu-1 (April 2024). For a conglomerate simultaneously developing…",
-        "target_exists": true
-      }
-    ],
-    "likhu-khola-a": [
-      {
-        "slug": "likhu-cascade",
-        "title": "Likhu Cascade",
-        "category": "entities",
-        "context": "…| [[likhu-2]] | 55.0 | Under construction | Solukhumbu | | likhu-khola-a | 29.04 | Operating | Solukhumbu | | [[likhu-4]] | 52.4 | U…",
-        "target_exists": true
-      }
-    ],
-    "likhu-4": [
-      {
-        "slug": "likhu-cascade",
-        "title": "Likhu Cascade",
-        "category": "entities",
-        "context": "…| | [[likhu-khola-a]] | 29.04 | Operating | Solukhumbu | | likhu-4 | 52.4 | Under construction | Ramechhap | | [[lower-likhu]]…",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - Likhu Cascade Research Compilation <!-- generated:sources:end --> ## Specifications (CARE Ne…",
         "target_exists": true
       },
       {
-        "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "slug": "likhu-4",
+        "title": "Likhu-4",
         "category": "entities",
-        "context": "…ola A in the same CARE tier as [[likhu-2]] (BBB- Is), above likhu-4 (BB). The rating reflects the project's conservative levera…",
-        "target_exists": true
-      },
-      {
-        "slug": "buildability",
-        "title": "Buildability",
-        "category": "concepts",
-        "context": "…what an early-generation negotiated PPA can deliver, while Likhu-4 (120→52 MW redesign after India wheeling dispute) shows bui…",
-        "target_exists": true
-      },
-      {
-        "slug": "stranded-generation",
-        "title": "Stranded Generation",
-        "category": "concepts",
-        "context": "…of cascade capacity — the plant was ready, the grid wasn't. likhu-4 (52.4 MW) was originally designed as a 120 MW export projec…",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - Likhu Cascade Research Compilation - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
         "target_exists": true
       }
     ],
@@ -12042,6 +12742,15 @@
         "title": "Layer: Major Transmission Network",
         "category": "data",
         "context": "…ameliya-attariya-132]] - [[kohalpur-surkhet-dailekh-132]] - udipur-damauli-bharatpur-220 - [[marsyangdi-upper-220]] - [[kabeli-132]] - [[solu-tingla…",
+        "target_exists": true
+      }
+    ],
+    "sanima-mai": [
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…hydropower developers. Sanima's growing portfolio includes sanima-mai (22 MW), which has published Q40 design discharge data used…",
         "target_exists": true
       }
     ],
@@ -12122,6 +12831,15 @@
         "title": "Mugu Karnali Storage HEP",
         "category": "entities",
         "context": "…i]] (900 MW, stalled), [[phukot-karnali]] (426 MW, survey), nalsyau-gad (410 MW, survey), [[karnali-chisapani]] (10,800 MW, concept…",
+        "target_exists": true
+      }
+    ],
+    "mugu-karnali-feasibility-2025": [
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025) <!-- generated:sources:end -->",
         "target_exists": true
       }
     ],
@@ -12319,12 +13037,19 @@
         "target_exists": true
       }
     ],
-    "nea-transmission-annual-book-2077": [
+    "national-water-plan-nepal": [
       {
-        "slug": "solu-tingla-mirchaiya-132",
-        "title": "Solu Corridor Tingla-Mirchaiya 132 kV",
+        "slug": "pancheshwar",
+        "title": "Pancheshwar Multipurpose Project",
         "category": "entities",
-        "context": "…o - [[data-layer-transmission-connected-traced-network]] - nea-transmission-annual-book-2077 - [[claim-transmission-immediate-blocker]]",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - National Water Plan, Nepal - [[wb-ganges-strategic-basin-assessment|World Bank Ganges…",
+        "target_exists": true
+      },
+      {
+        "slug": "ganges-contribution",
+        "title": "Nepal's Contribution to the Ganges",
+        "category": "concepts",
+        "context": "…parate them. Nepal’s **National Water Plan** discourse (see national-water-plan-nepal) is the domestic mirror—attempting to align **IWRM**, **ene…",
         "target_exists": true
       }
     ],
@@ -12407,15 +13132,6 @@
         "target_exists": true
       }
     ],
-    "middle-tamor": [
-      {
-        "slug": "super-tamor",
-        "title": "Super Tamor",
-        "category": "entities",
-        "context": "…per\". On the same Tamor River, [[upper-tamor]] (285 MW) and middle-tamor (54 MW) are under construction, while Super Tamor (155 MW)…",
-        "target_exists": true
-      }
-    ],
     "tamor-storage": [
       {
         "slug": "super-tamor",
@@ -12438,6 +13154,13 @@
         "title": "Trishuli Cascade",
         "category": "entities",
         "context": "…| [[upper-trishuli-1]] | 216 | Under construction | IPP | | upper-trishuli-3a | 60 | Under construction | NEA | | [[upper-trishuli-3b]] |…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "…sed, under-construction, and operating projects — including upper-trishuli-3a (60 MW), [[upper-trishuli-3b]] (37 MW), and multiple smalle…",
         "target_exists": true
       },
       {
@@ -12469,6 +13192,13 @@
         "category": "entities",
         "context": "…---| | Upper Trishuli-I Cascade HEP | 24.6 | Survey | — | | upper-trishuli-1 | 216 | Under construction | IPP | | [[upper-trishuli-3a]]…",
         "target_exists": true
+      },
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "…inal 24 MW [[trishuli|Trishuli]] plant (1967) to the 216 MW upper-trishuli-1 upstream, the Trishuli corridor now hosts roughly 540 MW of…",
+        "target_exists": true
       }
     ],
     "trishuli-cascade": [
@@ -12477,6 +13207,22 @@
         "title": "Super Trishuli",
         "category": "entities",
         "context": "…separate asset with its own promoter, PPA, and status. See trishuli-cascade for the corridor overview. ## Trishuli System The Trishul…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "…per-trishuli-3b]] (37 MW), and multiple smaller plants. See trishuli-cascade for the full corridor profile. The corridor's defining adv…",
+        "target_exists": true
+      }
+    ],
+    "tanahu-adb-status-2025": [
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - Tanahu Hydropower Project Status (ADB, 2024–2025) - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
         "target_exists": true
       }
     ],
@@ -12557,6 +13303,15 @@
         "target_exists": true
       }
     ],
+    "upper-karnali-pda-record": [
+      {
+        "slug": "upper-karnali",
+        "title": "Upper Karnali",
+        "category": "entities",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - Upper Karnali — PDA, Financial Closure & Court Record - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      }
+    ],
     "madhya-marsyangdi": [
       {
         "slug": "upper-marsyangdi-a",
@@ -12584,6 +13339,15 @@
         "title": "Seasonal Mismatch",
         "category": "concepts",
         "context": "…-drought collapse even at 97% of design annual generation), Madhya Marsyangdi (70 MW, 107.6% of design), and [[upper-tamakoshi|Upper Tama…",
+        "target_exists": true
+      }
+    ],
+    "ukhl-financials-generation-fy2079-82": [
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82 <!-- generated:sources:end -->",
         "target_exists": true
       }
     ],
@@ -13556,15 +14320,6 @@
         "title": "Layer: Downstream Dependency Zones",
         "category": "data",
         "context": "…ra-gandak-belt]] - [[north-bihar-kosi-gandak-floodplain]] - bihar-ganges-trunk-zone - [[padma-meghna-delta-dependency]] - [[lower-delta-bay-int…",
-        "target_exists": true
-      }
-    ],
-    "national-water-plan-nepal": [
-      {
-        "slug": "ganges-contribution",
-        "title": "Nepal's Contribution to the Ganges",
-        "category": "concepts",
-        "context": "…parate them. Nepal’s **National Water Plan** discourse (see national-water-plan-nepal) is the domestic mirror—attempting to align **IWRM**, **ene…",
         "target_exists": true
       }
     ],

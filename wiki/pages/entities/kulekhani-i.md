@@ -2,7 +2,7 @@
 title: Kulekhani I
 type: entity
 created: 2026-05-04
-updated: 2026-05-05
+updated: 2026-05-06
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, storage, reservoir, makawanpur]
 images: []
@@ -29,6 +29,14 @@ generator: specs-refresh
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+
+<!-- generated:sources:end -->
 
 ## Specifications (NEA FY 2081/82)
 
@@ -121,9 +129,9 @@ studies provide updated capacity loss figures.
 | Reservoir area | 2.2 km² |
 | Catchment area | 126 km² |
 | Cumulative sediment by 2010 | 25.3 MCM (~30% loss) |
-| Total gross storage lost (post-2010 DGPS) | **20.4 million m³** |
-| Active live storage lost | **14 million m³** |
-| Estimated total capacity loss (~2021) | **~40%** |
+| Total gross storage lost (post-2010 DGPS) | **20.4 million m³** (23.9%) |
+| Active live storage lost | **14 million m³** (19.1%) |
+| Estimated total capacity loss (DGPS bathymetry, 2009/2010) | **~24%** |
 | Commissioning | December 1982 (Unit 1), May 1987 (Unit 2) |
 | Dam type | Inclined core rockfill, 114 m height |
 
@@ -143,21 +151,30 @@ This is evidence that watershed-level sediment control works — the rate has
 dropped by nearly two-thirds over 16 years. But because sedimentation is
 cumulative and largely irreversible without economically paralyzing dredging
 operations, the **total volumetric loss has continued to deepen even as the
-inflow rate slowed**. A 2021 study estimates that over its first 30 years of
-operation, Kulekhani forfeited approximately **40% of its total functional
-water storage capacity**.
+inflow rate slowed**. Physical DGPS bathymetric surveys (Sangroula, NTNU/Hydro-Lab, 2009/2010)
+measured cumulative total storage loss at **20.4 MCM out of 85.3 MCM
+original — 23.9% gross loss, 19.1% active live storage loss.** Separate
+InVEST/RUSLE spatial catchment modeling (Bokan et al., 2021–2024) tracked
+the declining watershed sediment delivery rate (13.3→4.8 t/ha/yr) but does
+not directly measure reservoir volume.
 
 Source: JICA Nationwide Master Plan Study on Storage-type Hydroelectric
 Power Development in Nepal, Vol. 1 (2014), pp. 72–73, citing Sangroula (2007);
-post-2010 DGPS bathymetric surveys and RUSLE modelling (Hydro-Lab/NTNU/NEA);
-2021 reservoir capacity study (40% loss estimate).
+Sangroula, D.P., *Sedimentation and sustainability of the Kulekhani Reservoir:
+A Himalayan Case*, NTNU doctoral dissertation (2006, DGPS surveys 2009/2010);
+Bokan, L.T. et al., *Potential Sedimentation Rate and its Prioritization in
+Kulekhani Watershed Using InVEST Model* (2024, modeling 2002–2018 data).
 
 ### What this means
 
-A **40% capacity loss over ~30 years** implies Kulekhani's effective storage
-is now approximately **50–55 MCM** — well under 60% of original. The
-"106 MW of storage" claim in planning documents overstates the system's
-actual seasonal-shifting capability by a factor of nearly two.
+A **~24% gross capacity loss over ~30 years** (20.4 MCM of 85.3 MCM
+original, per DGPS bathymetry) means current total storage is approximately
+**~65 MCM**. However, the critical metric for generation is active live
+storage: with 14 MCM of live storage lost (19.1%), effective seasonal-shifting
+capability is reduced to roughly **~59 MCM**. The "106 MW of storage" claim
+in planning documents remains misleading — not because the absolute loss is
+higher, but because even a 19% active storage loss materially reduces the
+system's dry-season peaking capacity.
 
 This has two structural implications:
 
@@ -172,7 +189,7 @@ This has two structural implications:
    and Budhigandaki (1,200 MW) are all proposed reservoir projects in
    catchments with comparable or higher sediment yields. The ERC's 2026
    reservoir directive mandates a 50-year design life for new storage
-   projects. Kulekhani's 40% loss over 30 years suggests that without
+   projects. Kulekhani's ~19% live storage loss over 30 years — in a catchment with aggressive afforestation and sediment control dams — suggests that without
    aggressive watershed management and sediment bypass systems from day
    one, a 50-year reservoir will lose more than half its capacity before
    its design life expires — and the cost-plus tariff written at

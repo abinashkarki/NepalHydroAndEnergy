@@ -42,27 +42,32 @@ The 60 MW Khimti RoR plant in Dolakha is documented (by a sediment engineering p
 
 Khimti demonstrates Nepal is **capable** of best practice. The problem is that best practice is **not consistently embedded** across the buildout, especially when intake land constraints and cost pressure force compromises.
 
-## Kulekhani — Nepal's only reservoir, ~40% silted
+## Kulekhani — Nepal's only reservoir, ~24% silted
 
-Nepal's single reservoir storage system, [[kulekhani-cascade]], provides the country's only domestic case study of what sedimentation does to Himalayan reservoir capacity over decades. Multiple post-2010 Differential GPS bathymetric surveys and RUSLE modelling studies confirm a deepening trajectory:
+Nepal's single reservoir storage system, [[kulekhani-cascade]], provides the country's only domestic case study of what sedimentation does to Himalayan reservoir capacity over decades. Physical DGPS bathymetric surveys (Sangroula, NTNU/Hydro-Lab, 2009/2010) measured the definitive volumetric loss:
 
 | Parameter | Value |
 |-----------|-------|
 | Original reservoir capacity | 85.3 MCM |
 | Cumulative sediment by 2010 | 25.3 MCM (~30% loss) |
-| Total gross storage lost (post-2010 DGPS) | 20.4 million m³ |
-| Active live storage lost | 14 million m³ |
-| Estimated total capacity loss (~2021) | **~40%** |
+| Total gross storage lost (DGPS bathymetry, 2009/2010) | **20.4 million m³** (23.9%) |
+| Active live storage lost | **14 million m³** (19.1%) |
+| Estimated total capacity loss (DGPS bathymetry) | **~24%** |
 
 The rate of sedimentation entering the watershed has **declined** — from
 13.3 t/ha/yr (2002) to 6.6 t/ha/yr (2010) to 4.8 t/ha/yr (2018) — due to
 watershed afforestation and upstream sediment control dams. But because
 accumulation is cumulative and largely irreversible without dredging, the
 total volumetric loss has continued to deepen even as the inflow rate
-slowed. A 2021 study estimates that over 30 years, Kulekhani forfeited
-approximately 40% of its total functional water storage capacity.
+slowed. A 2021 InVEST/RUSLE spatial modeling study (Bokan et al., 2024) found
+that over 30 years, Kulekhani's total capacity declined to approximately 61.66 MCM
+— a gross loss of ~24%. The separate DGPS bathymetric survey (Sangroula/NTNU,
+2009/2010) independently confirmed 20.4 MCM total gross loss (23.9%) and 14 MCM
+active live storage loss (19.1%). These two independent measurements — physical
+bathymetry and spatial catchment modeling — converge on the same ~24% gross loss
+figure.
 
-Kulekhani's ~40% loss is the **baseline expectation** for future reservoir
+Kulekhani's ~24% loss is the **baseline expectation** for future reservoir
 projects in Himalayan catchments — not a worst case. Every storage
 proposal in Nepal's pipeline ([[tanahu-hydropower]], [[dudhkoshi-storage]],
 [[budhigandaki]]) will face the same physical reality. The ERC's 2026
