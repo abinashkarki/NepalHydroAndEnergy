@@ -7,6 +7,7 @@ sources: []
 tags: [project, survey, koshi, solukhumbu]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Surke Dudhkoshi HEP
@@ -21,6 +22,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 350 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Dudhkoshi (eastern [[koshi-basin]]) |
 | District | Solukhumbu |
 | Province | Province No 1 |

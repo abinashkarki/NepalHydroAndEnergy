@@ -6,6 +6,7 @@ updated: 2026-04-24
 figure_type: chart-spec
 sources: [wecs-energy-synopsis-2024]
 tags: [energy-balance, final-energy, biomass, petroleum, coal, electricity, sectoral, nepal]
+page_quality: analysis
 ---
 
 # Nepal Final Energy Mix

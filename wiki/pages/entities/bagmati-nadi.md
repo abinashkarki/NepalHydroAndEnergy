@@ -7,6 +7,7 @@ sources: [jica-ipsdp-main-report-vol2]
 tags: [project, under-construction, lalitpur]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Bagmati Nadi
@@ -25,7 +26,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 22 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Bagmati |
 | District | Lalitpur |
 | Province | Bagmati Pradesh |

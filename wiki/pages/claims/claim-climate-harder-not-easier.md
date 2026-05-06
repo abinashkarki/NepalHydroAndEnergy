@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wecs-river-basin-plan-2024, icimod-hkh-glacier-change, wb-ganges-strategic-basin-assessment]
 tags: [climate, cmip6, runoff, hazards, resilience]
+page_quality: analysis
 ---
 
 ## Claim

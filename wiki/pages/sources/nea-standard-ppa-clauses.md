@@ -7,6 +7,7 @@ source_type: legal-analysis
 source_author: Sushil Parajuli (secondary analysis of standard NEA PPA text)
 source_url: https://sushilparajuli.com/ror-ppa-bankability-in-nepal/
 tags: [source, ppa, legal, ad-penalties, curtailment, nea, regulation]
+page_quality: analysis
 ---
 
 # NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment

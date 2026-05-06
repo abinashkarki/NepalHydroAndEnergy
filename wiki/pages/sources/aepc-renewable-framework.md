@@ -9,6 +9,7 @@ source_date: 2024-01-01
 source_url: https://aepc.gov.np/
 sources: []
 tags: [aepc, renewable, solar, rural, SHS, off-grid, framework, policy]
+page_quality: analysis
 ---
 
 # AEPC Renewable Framework and Progress Reports

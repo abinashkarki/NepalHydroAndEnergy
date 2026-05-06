@@ -12,6 +12,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf"
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Khimti -I
@@ -26,6 +27,7 @@ generator: specs-refresh
 |-----------|-------|
 | Capacity | 60 MW |
 | Status | Operating |
+| Registry licence | Operation |
 | River | Khimti Khola |
 | District | Dolakha |
 | Province | Bagmati Pradesh |

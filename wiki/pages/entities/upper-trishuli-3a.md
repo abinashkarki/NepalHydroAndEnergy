@@ -17,6 +17,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Upper Trishuli 3A
@@ -35,7 +36,8 @@ generator: specs-refresh
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 60 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |

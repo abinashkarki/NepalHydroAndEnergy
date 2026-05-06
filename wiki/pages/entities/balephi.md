@@ -7,6 +7,7 @@ sources: [jica-ipsdp-main-report-vol2]
 tags: [project, under-construction, koshi, sindhupalchok]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Balephi
@@ -25,7 +26,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 23.52 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Balephi (eastern [[koshi-basin]]) |
 | District | Sindhupalchok |
 | Province | Bagmati Pradesh |

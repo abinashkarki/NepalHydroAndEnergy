@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [wb-esmap-solar-resource-assessment, global-solar-atlas-nepal, aepc-renewable-framework]
 tags: [solar, GHI, DNI, resource, geography, terai, himalaya, mustang, elevation]
+page_quality: analysis
 ---
 
 # Solar Resource Geography of Nepal

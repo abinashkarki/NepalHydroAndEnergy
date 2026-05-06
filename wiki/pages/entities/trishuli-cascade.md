@@ -7,6 +7,7 @@ sources: [nea-annual-report-fy2024-25]
 tags: [project, cascade, gandaki, trishuli]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Trishuli Cascade

@@ -168,12 +168,57 @@ function makeMap(elId, opts = {}) {
   return { map, baseLayers };
 }
 
+function normalizeHydropowerStatus(raw) {
+  const text = String(raw || "").toLowerCase();
+  if (text.includes("pre-construction") || text.includes("pre construction")) return "pre-construction";
+  if (text.includes("stalled")) return "stalled";
+  if (text.includes("cancelled") || text.includes("canceled") || text.includes("abandoned")) return "cancelled";
+  if (text.includes("conceptual")) return "conceptual";
+  if (text.includes("survey") || text.includes("planned") || text.includes("proposed") || text.includes("tender") || text.includes("pre-ppa") || text.includes("radar")) return "survey";
+  if (text.includes("operation") || text.includes("operating")) return "operating";
+  if (text.includes("construction") || text.includes("generation")) return "under-construction";
+  return "";
+}
+
+function hydropowerStatusClass(props) {
+  const curated = normalizeHydropowerStatus(props && props.status);
+  if (curated) {
+    if (curated === "operating" || curated === "under-construction") return curated;
+    return "survey";
+  }
+  const fallback = normalizeHydropowerStatus((props && props.license_type) || (props && props.category));
+  if (fallback === "operating" || fallback === "under-construction") return fallback;
+  return "survey";
+}
+
+function hydropowerStatusDisplay(props) {
+  const curated = normalizeHydropowerStatus(props && props.status);
+  const labels = {
+    operating: "Operating",
+    "under-construction": "Under construction",
+    survey: "Survey",
+    "pre-construction": "Pre-construction",
+    stalled: "Stalled",
+    cancelled: "Cancelled",
+    conceptual: "Conceptual",
+  };
+  if (curated) return labels[curated] || curated;
+  const fallback = normalizeHydropowerStatus((props && props.license_type) || (props && props.category));
+  return labels[fallback || "survey"] || "Survey";
+}
+
+function resolveDerivedField(props, field) {
+  if (field === "hydropower_status_class") return hydropowerStatusClass(props);
+  if (field === "hydropower_status_display") return hydropowerStatusDisplay(props);
+  return props ? props[field] : undefined;
+}
+
 function popupHTML(props, popupFields, opts = {}) {
   const title = escapeHtml(props.label_title || props.name || props.project || props.short_label || props.label || props.display_name || props.id || "Feature");
   const rows = (popupFields || []).map((f) => {
     const field = typeof f === "string" ? f : f.field;
     const label = typeof f === "string" ? humanizeField(f) : (f.label || humanizeField(f.field));
-    let v = props[field];
+    let v = resolveDerivedField(props, field);
     if (v === undefined || v === null || v === "") return "";
     if (typeof f !== "string") {
       if (f.value_map && f.value_map[v] !== undefined) v = f.value_map[v];
@@ -190,10 +235,10 @@ function popupHTML(props, popupFields, opts = {}) {
                title="Reopen / scroll to top"
                onclick="window.openWikiPage && window.openWikiPage('${escSlug}')">✓ Showing in reader</a>`;
     } else {
-      cta = `<a class="popup-cta" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${escSlug}')">Open explanation →</a>`;
+      cta = `<a class="popup-cta" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${escSlug}')">Open wiki page →</a>`;
     }
   } else if (opts.allowDraft) {
-    cta = `<span class="popup-no-page" title="This feature is in the data layer but doesn't have a narrative wiki page yet.">Data-only · no wiki page</span>`;
+    cta = `<span class="popup-no-page" title="This feature is available on the map but does not yet have a wiki page.">Map data only · no wiki page yet</span>`;
   }
   return `<div class="popup-title">${title}</div>${rows}${cta}`;
 }
@@ -207,7 +252,7 @@ function tooltipHTML(props, tooltipFields) {
     .map((f) => {
       const field = typeof f === "string" ? f : f.field;
       const label = typeof f === "string" ? humanizeField(f) : (f.label || humanizeField(f.field));
-      let v = props[field];
+      let v = resolveDerivedField(props, field);
       if (v === undefined || v === null || v === "") return null;
       if (typeof f !== "string") {
         if (f.value_map && f.value_map[v] !== undefined) v = f.value_map[v];
@@ -229,7 +274,7 @@ function escapeHtml(s) {
 // collapse the surrounding " · " separators so leads stay tidy.
 function renderTemplate(tpl, props) {
   let out = String(tpl).replace(/\$\{([\w.]+)\}/g, (_, k) => {
-    const v = props[k];
+    const v = resolveDerivedField(props, k);
     return (v === undefined || v === null || v === "") ? "\u0000" : String(v);
   });
   // Drop bullet-separated empty segments
@@ -367,7 +412,7 @@ function applyLayerFilter(data, spec) {
     : Array.isArray(spec.in)
       ? (v) => spec.in.includes(v)
       : () => true;
-  const filtered = data.features.filter((f) => test((f.properties || {})[field]));
+  const filtered = data.features.filter((f) => test(resolveDerivedField((f && f.properties) || {}, field)));
   return Object.assign({}, data, { features: filtered });
 }
 
@@ -486,7 +531,7 @@ class LayerManager {
     const rawData = await this._data(key);
     // Optional filter — lets multiple manifest entries share one source file
     // (e.g. hydropower_operating / _construction / _survey all read the same
-    // 572-feature GeoJSON and partition it by license_type).
+    // 572-feature GeoJSON and partition it by effective status class).
     const data = applyLayerFilter(rawData, def.filter);
     const reverseIdx = this.reverseIdx;
     const onFeatClick = this.options.onFeatureClick;
@@ -512,6 +557,7 @@ class LayerManager {
     let coverageTotal = 0;
     const pagesWithImages = this.options.pagesWithImages || new Set();
     const stubSlugs       = this.options.stubSlugs       || new Set();
+    const pageQualityBySlug = this.options.pageQualityBySlug || {};
     const hydropowerSlugAliases = this.options.hydropowerSlugAliases || {};
     const knownSlugs = this.options.knownSlugs || new Set();
     const slugFor = (feat) => {
@@ -531,6 +577,7 @@ class LayerManager {
         if (slug) coverageBound++;
         const hasImages = slug && pagesWithImages.has(slug);
         const isStub    = slug && stubSlugs.has(slug);
+        const pageQuality = slug ? (pageQualityBySlug[slug] || "") : "";
         // Tier classes drive both visual differentiation AND the "narrated /
         // wiki / all" filter. Only apply them to layers that opt in via
         // `tiered: true` in the manifest — i.e., the raw registry layers.
@@ -543,6 +590,7 @@ class LayerManager {
           if (!slug)         classes.push("np-marker-orphan");
           else if (isStub)   classes.push("np-marker-stub");
           else               classes.push("np-marker-narrated");
+          if (pageQuality)   classes.push("np-pq-" + pageQuality);
           if (hasImages)     classes.push("np-marker-hasimg");
         } else {
           classes.push("np-marker-curated");
@@ -1062,8 +1110,9 @@ class LayerManager {
     if (cf && Array.isArray(cf.body)) {
       body = cf.body
         .map((row) => {
-          const v = p[row.field];
+          let v = resolveDerivedField(p, row.field);
           if (v === undefined || v === null || v === "") return null;
+          if (row.value_map && row.value_map[v] !== undefined) v = row.value_map[v];
           const value = String(v) + (row.suffix || "");
           return { label: row.label, value };
         })
@@ -1071,7 +1120,7 @@ class LayerManager {
     } else if (Array.isArray(def.tooltip_fields)) {
       body = def.tooltip_fields
         .map((field) => {
-          const v = p[field];
+          const v = resolveDerivedField(p, field);
           if (v === undefined || v === null || v === "") return null;
           return { label: humanizeField(field), value: String(v) };
         })

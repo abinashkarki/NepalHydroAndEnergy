@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wecs-energy-synopsis-2024, wecs-river-basin-plan-2024, wb-water-sector-diagnostic]
 tags: [hydrology, seasonality, planning, energy-security]
+page_quality: analysis
 ---
 
 ## Claim

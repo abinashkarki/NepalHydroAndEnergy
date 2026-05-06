@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, lamjung]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Upper Khudi
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 26 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Khudi |
 | District | Lamjung |
 | Province | Gandaki Pradesh |

@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, ilam]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Super Mai-A HPP
@@ -23,7 +24,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 9.6 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Mai Khola |
 | District | Ilam |
 | Province | Province No 1 |

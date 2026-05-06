@@ -8,6 +8,7 @@ confidence: medium
 status: stable
 sources: [nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment, global-solar-atlas-nepal]
 tags: [solar, terai, buildability, transmission, winter, short-cycle]
+page_quality: analysis
 ---
 
 ## Claim

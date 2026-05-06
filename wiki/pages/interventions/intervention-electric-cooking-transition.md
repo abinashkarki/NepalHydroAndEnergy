@@ -4,6 +4,7 @@ Category: interventions
 Type: intervention
 Tags: [cooking, electrification, induction, demand-creation, LPG-subsidy, tariff, monsoon-surplus, peri-urban]
 Excerpt: A coordinated demand-creation programme targeting cooking electrification through appliance financing, time-of-day tariff redesign, LPG subsidy reform, and grid reliability improvement — with the goal of absorbing monsoon surplus domestically rather than exporting it at low prices.
+page_quality: analysis
 ---
 
 # Electric Cooking Transition

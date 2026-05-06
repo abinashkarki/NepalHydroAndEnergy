@@ -6,6 +6,7 @@ updated: 2026-04-25
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
+page_quality: analysis
 ---
 
 # Layer: India Comparison Basins

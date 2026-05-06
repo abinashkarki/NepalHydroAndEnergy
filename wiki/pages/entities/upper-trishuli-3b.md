@@ -2,11 +2,12 @@
 title: Upper Trishuli 3B
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [ppa-data-retrieval-icra-care-2026]
 tags: [project, under-construction, gandaki, rasuwa, trishuli-cascade]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Upper Trishuli 3B
@@ -35,7 +36,8 @@ Industry analysis notes that projects in the Trishuli corridor, including Upper 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 37 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |

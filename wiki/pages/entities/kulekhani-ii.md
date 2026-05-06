@@ -7,6 +7,7 @@ sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, cascade, makawanpur]
 images: []
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Kulekhani II
@@ -24,6 +25,7 @@ generator: specs-refresh
 |-----------|-------|
 | Capacity | 32 MW |
 | Status | Operating |
+| Registry licence | Operation |
 | River | Kulekhani |
 | District | Makawanpur |
 | Province | Bagmati Pradesh |

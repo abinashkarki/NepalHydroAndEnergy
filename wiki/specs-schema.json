@@ -92,7 +92,13 @@
 
     "construction_start_year": {"type": "integer", "description": "Year construction started or is expected to start."},
     "cod_year": {"type": "integer", "description": "Year of commercial operation date (actual or target)."},
-    "completion_pct": {"type": "number", "description": "Construction completion percentage (0–100)."}
+    "completion_pct": {"type": "number", "description": "Construction completion percentage (0–100)."},
+
+    "page_quality": {
+      "type": "string",
+      "enum": ["record", "brief", "analysis", "flagship"],
+      "description": "Page quality tier — how much narrative depth the wiki page provides. Editorial metadata, kept in frontmatter only (not in CSV)."
+    }
   },
   "additionalProperties": false
 }

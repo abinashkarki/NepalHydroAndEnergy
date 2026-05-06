@@ -2,11 +2,12 @@
 title: Tamakoshi 3
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, koshi, dolakha]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Tamakoshi 3
@@ -21,6 +22,7 @@ Tamakoshi 3 is a 650 MW survey-stage project on the Tama Koshi in Dolakha. It is
 |-----------|-------|
 | Capacity | 650 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Tama Koshi (eastern [[koshi-basin]]) |
 | District | Dolakha |
 | Province | Bagmati Pradesh |

@@ -9,6 +9,7 @@ source_date: 2023-01-01
 source_url: https://www.eib.org/en/projects/all/20210428
 sources: []
 tags: [eib, solar, ground-mounted, grid-connected, rural, aepc, nepal]
+page_quality: analysis
 ---
 
 # EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II (Phase II)

@@ -9,6 +9,7 @@ source_date: 2024-10-01
 source_url: http://www.nepalenergyforum.com/dudhkoshi-reservoir-project-gains-momentum-nea-submits-construction-proposal/
 sources: []
 tags: [dudhkoshi, storage, reservoir, aiib, koshi, solukhumbu, khotang, okhaldhunga]
+page_quality: analysis
 ---
 
 # Dudhkoshi Storage — NEA Proposal & Feasibility Record

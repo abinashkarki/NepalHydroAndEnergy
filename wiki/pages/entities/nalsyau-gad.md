@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, storage, watchlist, karnali, priority]
 images: []
@@ -23,6 +24,7 @@ contributes the kind of dry-season energy Nepal's run-of-river-heavy system is m
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 410 MW |
+| Status | Survey / study |
 | Category | jica promising storage |
 | Basin | Karnali ([[karnali-basin]]) |
 | Annual energy | 1406.1 GWh |

@@ -6,6 +6,7 @@ updated: 2026-04-30
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, geopolitics, ganges, bangladesh]
+page_quality: analysis
 ---
 
 # Layer: Nepal-Origin Route Callouts

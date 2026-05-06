@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, myagdi]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Durbang Myagdi Khola
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 25 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Myagdi Khola |
 | District | Myagdi |
 | Province | Gandaki Pradesh |

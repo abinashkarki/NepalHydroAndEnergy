@@ -32,6 +32,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Chilime
@@ -56,6 +57,7 @@ generator: specs-refresh
 |-----------|-------|
 | Capacity | 22 MW |
 | Status | Operating |
+| Registry licence | Operation |
 | River | Chilime |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |

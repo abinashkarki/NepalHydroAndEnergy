@@ -9,6 +9,7 @@ source_date: 2024-01-01
 source_url: https://gggi.org/report/green-hydrogen-roadmap-for-nepal/
 sources: []
 tags: [hydrogen, green-energy, industry, fertilizer, cement, demand-creation]
+page_quality: analysis
 ---
 
 # Green Hydrogen Roadmap for Nepal

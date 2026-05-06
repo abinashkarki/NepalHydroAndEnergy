@@ -7,6 +7,7 @@ updated: 2026-04-20
 sources: [nea-transmission-annual-book-2077]
 tags: [transmission, 132kv, damak, godak, phidim, kabeli]
 generator: manual
+page_quality: analysis
 ---
 
 # Damak–Godak–Phidim 132 kV Corridor

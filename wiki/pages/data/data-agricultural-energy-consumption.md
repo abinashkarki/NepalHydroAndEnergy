@@ -6,6 +6,7 @@ updated: 2026-04-30
 figure_type: table
 sources: [wecs-energy-synopsis-2024, nea-annual-report-fy2024-25, wb-water-sector-diagnostic]
 tags: [agriculture, irrigation, diesel, tubewell, agro-processing, nepal]
+page_quality: analysis
 ---
 
 # Agricultural Energy Consumption

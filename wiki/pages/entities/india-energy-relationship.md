@@ -52,6 +52,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf"
 generator: manual
+page_quality: analysis
 ---
 
 # India — Energy Relationship with Nepal

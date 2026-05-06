@@ -7,6 +7,7 @@ source_type: legal-framework
 source_author: Department of Electricity Development (DoED), Government of Nepal
 source_date: 2018-10-01
 tags: [source, doed, licensing, q-design, regulation, legal]
+page_quality: analysis
 ---
 
 # DoED Licensing Directive 2075

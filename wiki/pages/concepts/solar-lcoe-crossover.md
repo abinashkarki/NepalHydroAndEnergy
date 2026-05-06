@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, irena-remap-nepal, wb-grid-solar-ee-project]
 tags: [solar, LCOE, tariff, economics, PPA, module-price, crossover]
+page_quality: analysis
 ---
 
 # Solar LCOE Crossover

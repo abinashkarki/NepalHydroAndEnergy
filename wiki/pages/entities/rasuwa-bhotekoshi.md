@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, koshi, rasuwa]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Rasuwa Bhotekoshi
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 120 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Bhote koshi (eastern [[koshi-basin]]) |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |

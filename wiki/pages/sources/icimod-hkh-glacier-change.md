@@ -9,6 +9,7 @@ source_date: 2023-01-01
 source_url: https://lib.icimod.org/records/z2xka-9nz56
 sources: []
 tags: [icimod, glaciers, climate-change, hkh, cryosphere]
+page_quality: analysis
 ---
 
 # ICIMOD HKH Glacier Change Summary

@@ -5,6 +5,7 @@ created: 2026-05-02
 updated: 2026-05-02
 tags: [source, financial, capital-markets, ipo, rights-shares, nea, nepse]
 images: []
+page_quality: analysis
 ---
 
 # Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector

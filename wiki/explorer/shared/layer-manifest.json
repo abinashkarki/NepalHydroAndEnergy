@@ -204,9 +204,10 @@
         "confidence"
       ],
       "tooltip_fields": [
-        "label_title",
-        "river_system"
+        "label",
+        "node_type"
       ],
+      "name_field": "label",
       "roleByPreset": {
         "tributaries": "off",
         "geopolitics": "annotation",
@@ -238,9 +239,10 @@
         {"field": "source_note", "label": "Caveat"}
       ],
       "tooltip_fields": [
-        "name",
-        "dependency_type"
+        "label",
+        "node_type"
       ],
+      "name_field": "label",
       "roleByPreset": {
         "tributaries": "off",
         "geopolitics": "context",
@@ -369,10 +371,10 @@
     "hydropower_operating": {
       "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
       "kind": "point",
-      "label": "Hydropower · Operating (81)",
+      "label": "Hydropower · Operating (83)",
       "filter": {
-        "field": "license_type",
-        "equals": "Operation"
+        "field": "hydropower_status_class",
+        "equals": "operating"
       },
       "aliases": [
         "hydropower_points"
@@ -389,7 +391,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        {"field": "license_type", "label": "Status"},
+        {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
         {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
@@ -405,8 +408,16 @@
       "name_field": "project",
       "card_fields": {
         "title": "project",
-        "lead_template": "${capacity_mw} MW · operating · ${river}",
+        "lead_template": "${capacity_mw} MW · ${hydropower_status_display} · ${river}",
         "body": [
+          {
+            "label": "Status",
+            "field": "hydropower_status_display"
+          },
+          {
+            "label": "Registry licence",
+            "field": "license_type"
+          },
           {
             "label": "District",
             "field": "district"
@@ -455,10 +466,10 @@
     "hydropower_construction": {
       "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
       "kind": "point",
-      "label": "Hydropower · Construction (180)",
+      "label": "Hydropower · Construction (178)",
       "filter": {
-        "field": "license_type",
-        "equals": "Generation"
+        "field": "hydropower_status_class",
+        "equals": "under-construction"
       },
       "aliases": [
         "hydropower_points"
@@ -475,7 +486,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        {"field": "license_type", "label": "Status"},
+        {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
         {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
@@ -491,8 +503,16 @@
       "name_field": "project",
       "card_fields": {
         "title": "project",
-        "lead_template": "${capacity_mw} MW · licensed to build · ${river}",
+        "lead_template": "${capacity_mw} MW · ${hydropower_status_display} · ${river}",
         "body": [
+          {
+            "label": "Status",
+            "field": "hydropower_status_display"
+          },
+          {
+            "label": "Registry licence",
+            "field": "license_type"
+          },
           {
             "label": "District",
             "field": "district"
@@ -543,8 +563,8 @@
       "kind": "point",
       "label": "Hydropower · Survey/study (311)",
       "filter": {
-        "field": "license_type",
-        "equals": "Survey"
+        "field": "hydropower_status_class",
+        "equals": "survey"
       },
       "aliases": [
         "hydropower_points"
@@ -561,7 +581,8 @@
         "radius_scale": "sqrt"
       },
       "popup_fields": [
-        {"field": "license_type", "label": "Status"},
+        {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
         {"field": "annual_design_energy_gwh", "label": "Design energy", "suffix": " GWh"},
@@ -577,8 +598,16 @@
       "name_field": "project",
       "card_fields": {
         "title": "project",
-        "lead_template": "${capacity_mw} MW · survey/study only · ${river}",
+        "lead_template": "${capacity_mw} MW · ${hydropower_status_display} · ${river}",
         "body": [
+          {
+            "label": "Status",
+            "field": "hydropower_status_display"
+          },
+          {
+            "label": "Registry licence",
+            "field": "license_type"
+          },
           {
             "label": "District",
             "field": "district"
@@ -626,7 +655,7 @@
     "priority_watchlist": {
       "path": "../../../data/processed/maps/priority_project_watchlist.geojson",
       "kind": "point",
-      "label": "Priority watchlist",
+      "label": "Key projects in context",
       "style": {
         "radius": 7,
         "color": "#14532d",
@@ -656,7 +685,7 @@
             "field": "district"
           },
           {
-            "label": "Why watch",
+            "label": "Why it matters",
             "field": "priority_read"
           }
         ]
@@ -968,33 +997,38 @@
         "segment_name",
         {"field": "voltage_kv", "label": "Voltage", "suffix": " kV"},
         "status",
-        {"field": "geometry_role", "label": "Line source"},
-        {"field": "trace_confidence", "label": "Certainty"},
+        {"field": "geometry_role", "label": "Geometry type", "value_map": {"source_trace": "Official alignment", "manual_trace": "Reconstructed route", "inferred_connector": "Estimated connection"}},
+        {"field": "trace_confidence", "label": "Confidence", "value_map": {"high": "High", "medium": "Medium", "low": "Low"}},
         "source_id",
-        {"field": "source_page_or_sheet", "label": "Source reference"},
+        {"field": "source_page_or_sheet", "label": "Map source"},
         {"field": "length_km", "label": "Length", "suffix": " km"},
         "notes"
       ],
       "tooltip_fields": [
         "segment_name",
-        "status",
-        "geometry_role"
+        "status"
       ],
       "card_fields": {
         "title": "name",
-        "lead_template": "${voltage_kv} kV · ${status} · ${geometry_role} · ${trace_confidence}",
+        "lead_template": "${voltage_kv} kV · ${status}",
         "body": [
           {
             "label": "Segment",
             "field": "segment_name"
           },
           {
-            "label": "Source",
-            "field": "source_id"
+            "label": "Geometry type",
+            "field": "geometry_role",
+            "value_map": {"source_trace": "Official alignment", "manual_trace": "Reconstructed route", "inferred_connector": "Estimated connection"}
           },
           {
-            "label": "Basis",
-            "field": "geometry_basis"
+            "label": "Confidence",
+            "field": "trace_confidence",
+            "value_map": {"high": "High", "medium": "Medium", "low": "Low"}
+          },
+          {
+            "label": "Map source",
+            "field": "source_id"
           },
           {
             "label": "Notes",
@@ -1023,18 +1057,23 @@
         "fillOpacity": 0.8
       },
       "popup_fields": [
-        {"field": "query", "label": "Location source"},
-        "basis"
+        {"field": "node_type", "label": "Node type"},
+        {"field": "status", "label": "Status"},
+        {"field": "highest_voltage_kv", "label": "Voltage", "suffix": " kV"},
+        {"field": "grid_role", "label": "Role"},
+        {"field": "location_confidence", "label": "Location confidence"}
       ],
       "tooltip_fields": [
-        "query"
+        "label",
+        "node_type"
       ],
+      "name_field": "label",
       "card_fields": {
         "title": "label",
-        "lead_template": "${query}",
+        "lead_template": "${node_type} · ${status} · ${highest_voltage_kv} kV",
         "body": [
-          { "label": "Full address", "field": "display_name" },
-          { "label": "Source", "field": "basis" }
+          {"field": "grid_role", "label": "Role"},
+          {"field": "location_confidence", "label": "Location confidence"}
         ]
       },
       "roleByPreset": {
@@ -1134,22 +1173,26 @@
       "popup_fields": [
         {"field": "voltage_kv", "label": "Voltage", "suffix": " kV"},
         "status",
-        {"field": "connection_scope", "label": "Connection type"},
-        {"field": "geometry_role", "label": "Line source"},
-        {"field": "trace_confidence", "label": "Certainty"},
+        {"field": "connection_scope", "label": "Connection type", "value_map": {"endpoint_connector": "Endpoint connector", "gateway_stub": "Gateway stub", "cross_border_span": "Cross-border span"}},
+        {"field": "geometry_role", "label": "Geometry type", "value_map": {"source_trace": "Official alignment", "manual_trace": "Reconstructed route", "inferred_connector": "Estimated connection", "gateway_stub": "Gateway stub", "cross_border_span": "Cross-border span"}},
+        {"field": "trace_confidence", "label": "Confidence", "value_map": {"high": "High", "medium": "Medium", "low": "Low"}},
         "source_id",
         {"field": "length_km", "label": "Length", "suffix": " km"},
         "notes"
       ],
       "tooltip_fields": [
         "name",
-        "status",
-        "connection_scope"
+        "status"
       ],
       "card_fields": {
         "title": "name",
-        "lead_template": "${voltage_kv} kV · ${status} · ${connection_scope}",
+        "lead_template": "${voltage_kv} kV · ${status}",
         "body": [
+          {
+            "label": "Connection type",
+            "field": "connection_scope",
+            "value_map": {"endpoint_connector": "Endpoint connector", "gateway_stub": "Gateway stub", "cross_border_span": "Cross-border span"}
+          },
           {
             "label": "Nepal node",
             "field": "nepal_node"
@@ -1159,8 +1202,18 @@
             "field": "india_node"
           },
           {
-            "label": "Basis",
-            "field": "geometry_basis"
+            "label": "Geometry type",
+            "field": "geometry_role",
+            "value_map": {"source_trace": "Official alignment", "manual_trace": "Reconstructed route", "inferred_connector": "Estimated connection", "gateway_stub": "Gateway stub", "cross_border_span": "Cross-border span"}
+          },
+          {
+            "label": "Confidence",
+            "field": "trace_confidence",
+            "value_map": {"high": "High", "medium": "Medium", "low": "Low"}
+          },
+          {
+            "label": "Map source",
+            "field": "source_id"
           },
           {
             "label": "Notes",

@@ -64,13 +64,41 @@ def _safe_float(value, default=None):
 
 def status_norm(raw: str) -> str:
     text = str(raw or "").lower()
-    if any(term in text for term in ["generation", "operation", "operating"]):
-        return "operating"
-    if "construction" in text:
-        return "construction"
+    if any(term in text for term in ["pre-construction", "pre construction"]):
+        return "pre-construction"
+    if "stalled" in text:
+        return "stalled"
+    if any(term in text for term in ["cancelled", "canceled", "abandoned"]):
+        return "cancelled"
+    if "conceptual" in text:
+        return "conceptual"
     if any(term in text for term in ["survey", "planned", "proposed", "tender", "pre-ppa", "radar"]):
         return "survey"
+    # Check for operating first (explicit terms)
+    if any(term in text for term in ["operation", "operating"]):
+        return "operating"
+    # "construction" or "generation" (Generation licence = under construction)
+    if "construction" in text or "generation" in text:
+        return "under-construction"
     return "unknown"
+
+
+def status_display(value: str) -> str:
+    labels = {
+        "operating": "Operating",
+        "under-construction": "Under construction",
+        "survey": "Survey",
+        "pre-construction": "Pre-construction",
+        "stalled": "Stalled",
+        "cancelled": "Cancelled",
+        "conceptual": "Conceptual",
+        "unknown": "Unknown",
+    }
+    return labels.get(str(value or "").strip().lower(), str(value or "").strip())
+
+
+def status_priority(props: dict) -> int:
+    return 2 if props.get("status") else 1 if (props.get("license_type") or props.get("category")) else 0
 
 
 def title_slug_lookup() -> dict[str, str]:
@@ -125,7 +153,7 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
         capacity = float(capacity) if capacity is not None else None
     except (TypeError, ValueError):
         capacity = None
-    raw_status = props.get("license_type") or props.get("status") or props.get("category") or ""
+    raw_status = props.get("status") or props.get("license_type") or props.get("category") or ""
     status = status_norm(raw_status)
     key = norm_name(name)
     fact_domain = "hydro" if domain == "storage" else domain
@@ -139,7 +167,7 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
     if layer == "hydropower_project_display_points":
         layer_key = {
             "operating": "hydropower_operating",
-            "construction": "hydropower_construction",
+            "under-construction": "hydropower_construction",
             "survey": "hydropower_survey",
         }.get(status, "hydropower_survey")
     return {
@@ -153,6 +181,8 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
         "installed_mw": _safe_float(props.get("installed_mw"), capacity),
         "status": status,
         "status_raw": str(raw_status) if raw_status else "",
+        "status_display": status_display(props.get("status") or status),
+        "status_priority": status_priority(props),
         "river": props.get("river") or "",
         "basin": props.get("basin") or props.get("river") or "",
         "district": str(props.get("district") or "").replace("_", " ").title(),
@@ -193,7 +223,6 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
 
 def merge_fact(old: dict, new: dict) -> dict:
     merged = dict(old)
-    merged["sources"] = sorted(set(old.get("sources", [])) | set(new.get("sources", [])))
     source_score = {
         "top_capacity_project_annotations": 5,
         "priority_project_watchlist": 4,
@@ -201,6 +230,7 @@ def merge_fact(old: dict, new: dict) -> dict:
         "solar_plants": 3,
         "hydropower_project_display_points": 2,
     }
+    merged["sources"] = sorted(set(old.get("sources", [])) | set(new.get("sources", [])))
     if source_score.get(new["source_layer"], 0) > source_score.get(old["source_layer"], 0) or better_capacity(new, old):
         for field in ["capacity_mw", "installed_mw", "rank", "source_layer", "source_note", "confidence"]:
             if new.get(field) not in (None, ""):
@@ -210,8 +240,22 @@ def merge_fact(old: dict, new: dict) -> dict:
     for field in ["wiki_slug", "river", "basin", "district", "province", "promoter", "status_raw"]:
         if not merged.get(field) and new.get(field):
             merged[field] = new[field]
-    if merged.get("status") in {"unknown", ""} and new.get("status") != "unknown":
+    old_status_priority = int(merged.get("status_priority") or 0)
+    new_status_priority = int(new.get("status_priority") or 0)
+    old_source_score = source_score.get(merged.get("source_layer", ""), 0)
+    new_source_score = source_score.get(new.get("source_layer", ""), 0)
+    if (
+        new.get("status") != "unknown"
+        and (
+            merged.get("status") in {"unknown", ""}
+            or new_status_priority > old_status_priority
+            or (new_status_priority == old_status_priority and new_source_score > old_source_score)
+        )
+    ):
         merged["status"] = new["status"]
+        merged["status_raw"] = new.get("status_raw", merged.get("status_raw", ""))
+        merged["status_display"] = new.get("status_display", merged.get("status_display", ""))
+        merged["status_priority"] = new_status_priority
     merged["facets"] = sorted(set(merged.get("facets", [])) | set(new.get("facets", [])))
     return merged
 
@@ -232,6 +276,7 @@ def main() -> None:
         key=lambda f: (f.get("domain", ""), -(f.get("capacity_mw") or 0), f.get("name", "")),
     )
     for fact in facts:
+        fact.pop("status_priority", None)
         domains = [d for d in fact.get("facets", []) if d in RELATED_BY_DOMAIN]
         if fact.get("domain") in RELATED_BY_DOMAIN and fact["domain"] not in domains:
             domains.insert(0, fact["domain"])

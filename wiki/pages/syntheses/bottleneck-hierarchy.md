@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-24
 sources: []
 tags: [synthesis, bottlenecks, ranking, strategy]
+page_quality: analysis
 ---
 
 # Bottleneck Hierarchy

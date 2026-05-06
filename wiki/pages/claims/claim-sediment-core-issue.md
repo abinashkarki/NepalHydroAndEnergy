@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [icimod-koshi-sediment-threats, icimod-koshi-basin, wecs-river-basin-plan-2024]
 tags: [sediment, turbines, floods, maintenance, design]
+page_quality: analysis
 ---
 
 ## Claim

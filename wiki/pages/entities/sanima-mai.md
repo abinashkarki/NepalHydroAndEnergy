@@ -7,6 +7,7 @@ sources: []
 tags: [project, operating, koshi]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Sanima Mai

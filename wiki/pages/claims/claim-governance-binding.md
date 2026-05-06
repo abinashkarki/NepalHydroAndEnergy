@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wb-nepal-power-sector-reform-2022, national-water-plan-nepal, adb-hydropower-growth-nepal]
 tags: [governance, permitting, nea, institutions]
+page_quality: analysis
 ---
 
 ## Claim

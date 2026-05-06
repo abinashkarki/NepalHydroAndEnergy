@@ -2,11 +2,12 @@
 title: Ankhu Khola
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, rights-issue, bailout-pattern]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Ankhu Khola
@@ -50,7 +51,8 @@ The pattern is consistent: pre-COD or immediately post-COD IPOs, followed by rig
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 42.9 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Ankhu Khola |
 | District | Nuwakot |
 | Province | Bagmati Pradesh |

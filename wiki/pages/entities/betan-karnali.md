@@ -2,11 +2,12 @@
 title: Betan Karnali HP
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, watchlist, top-capacity, generation, karnali, achham, semi-reservoir]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Betan Karnali HP
@@ -21,6 +22,7 @@ Betan Karnali is a large semi-reservoir hydropower project on the Karnali, histo
 |-----------|-------|
 | Capacity | 688 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Karnali ([[karnali-basin]]) |
 | District | Achham |
 | Province | Sudurpashchim Pradesh |

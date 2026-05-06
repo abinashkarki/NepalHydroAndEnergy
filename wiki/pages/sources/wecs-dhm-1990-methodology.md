@@ -7,6 +7,7 @@ source_type: methodology
 source_author: Water and Energy Commission Secretariat (WECS) and Department of Hydrology and Meteorology (DHM)
 source_date: 1990-01-01
 tags: [source, wecs, dhm, hydrology, methodology, q-design, ungauged]
+page_quality: analysis
 ---
 
 # WECS/DHM Methodology — Hydrological Estimation for Ungauged Locations (1990)

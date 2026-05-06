@@ -10,6 +10,7 @@ source_url: ../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_
 license: gov-permissive
 sources: []
 tags: [nea, transmission, annual-book, grid, substations, official]
+page_quality: analysis
 ---
 
 # NEA Transmission Annual Book 2077

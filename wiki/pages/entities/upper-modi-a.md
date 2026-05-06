@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, gandaki, kaski]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Upper Modi A
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 42 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Modi Khola ([[gandaki-basin]]) |
 | District | Kaski |
 | Province | Gandaki Pradesh |

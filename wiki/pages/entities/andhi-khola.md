@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 generator: manual
+page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, wb-ganges-strategic-basin-assessment]
 tags: [project, storage, survey, gandaki, syangja, promising-storage]
 images:

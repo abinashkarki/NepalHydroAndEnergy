@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, storage, koshi]
 images:
@@ -24,6 +25,7 @@ Sun Koshi No.3 is a 536 MW JICA promising-storage candidate in the Koshi basin. 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 536 MW |
+| Status | Survey / study |
 | Category | jica promising storage |
 | Basin | Koshi ([[koshi-basin]]) |
 | Annual energy | 1883.6 GWh |

@@ -72,6 +72,7 @@ def compact_pages(pages: list[dict]) -> list[dict]:
             "e": p.get("excerpt", ""),
             "i": int(p.get("image_count", 0) or 0),
             "stub": bool(p.get("is_stub", False)),
+            "pq": p.get("page_quality", ""),
         }
         for p in pages
     ]

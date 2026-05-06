@@ -2,11 +2,12 @@
 title: Bheri-1 HEP
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, karnali, rukum_w]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Bheri-1 HEP
@@ -21,6 +22,7 @@ Bheri-1 HEP is a 440 MW survey-stage project on the Bheri in Rukum West, promote
 |-----------|-------|
 | Capacity | 440 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Bheri ([[karnali-basin]]) |
 | District | Rukum_W |
 | Province | Karnali Pradesh |

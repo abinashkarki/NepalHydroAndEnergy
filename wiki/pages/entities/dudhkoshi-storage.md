@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-04-20
 generator: specs-refresh
+page_quality: analysis
 sources: [dudhkoshi-nea-proposal-2024, nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2]
 tags: [project, storage, pumped-storage, aiib, koshi, solukhumbu, khotang, okhaldhunga, glof-exposed]
 images:

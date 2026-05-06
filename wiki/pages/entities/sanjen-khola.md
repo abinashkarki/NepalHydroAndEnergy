@@ -2,11 +2,12 @@
 title: Sanjen Khola
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, rasuwa]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Sanjen Khola
@@ -28,7 +29,8 @@ Both Sanjen projects benefit from the Chilime-Trishuli transmission corridor inf
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 78 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Sanjen |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |

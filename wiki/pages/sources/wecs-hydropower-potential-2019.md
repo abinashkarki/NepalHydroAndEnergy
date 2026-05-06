@@ -9,6 +9,7 @@ source_date: 2019-01-01
 source_url: https://wecs.gov.np/content/37/hydropower-potential-of-nepal-2019/
 sources: [nea-annual-report-fy2024-25]
 tags: [wecs, potential, basins, screening, official]
+page_quality: analysis
 ---
 
 # WECS Assessment of Hydropower Potential of Nepal (2019)

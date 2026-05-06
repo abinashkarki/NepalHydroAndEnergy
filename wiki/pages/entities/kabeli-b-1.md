@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, taplejung]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Kabeli B - 1
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 25 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Kabeli Khola |
 | District | Taplejung |
 | Province | Province No 1 |

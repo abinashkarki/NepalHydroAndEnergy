@@ -2,11 +2,12 @@
 title: Tamor Storage
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, survey, koshi, storage]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Tamor Storage
@@ -40,6 +41,7 @@ In a system increasingly saturated with monsoon-heavy run-of-river generation, T
 |-----------|-------|
 | Capacity | 200 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Tamor (eastern [[koshi-basin]]) |
 | District | Panchthar |
 | Province | Province No 1 |

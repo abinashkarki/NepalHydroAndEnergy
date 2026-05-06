@@ -6,6 +6,7 @@ updated: 2026-04-29
 figure_type: map-layer-label
 sources: [data-map-inventory, data-storage-comparison]
 tags: [maps, geojson, layers, explorer, legend, geopolitics, storage]
+page_quality: analysis
 ---
 
 # Layer: Future Regulation Scenario

@@ -9,6 +9,7 @@ source_date: 2025-01-12
 source_url: https://ekantipur.com/en/news/2025/01/12/chowdhury-group-is-the-only-competitor-for-the-1902-mw-reservoir-mugu-karnali-project-24-09.html
 sources: []
 tags: [mugu-karnali, vuc, chowdhury-group, adani, ppp, karnali, mugu, bajura, storage, pumped-storage]
+page_quality: analysis
 ---
 
 # Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)

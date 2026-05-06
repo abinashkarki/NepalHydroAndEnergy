@@ -9,6 +9,7 @@ source_date: 2025-12-01
 source_url: https://sapdc.com.np/page/latest-news.html
 sources: []
 tags: [arun-3, pda, nepal-india, sjvn, construction, koshi, sankhuwasabha]
+page_quality: analysis
 ---
 
 # Arun-3 Project Status & PDA Summary (2025)

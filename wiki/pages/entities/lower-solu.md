@@ -2,11 +2,12 @@
 title: Lower Solu Hydropower Project
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [sahas-urja-benchmark-icra-2026]
 tags: [project, under-construction, koshi, solukhumbu]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Lower Solu Hydropower Project
@@ -34,7 +35,8 @@ The single most important variable determining Lower Solu's financial outcome is
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 82 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Solu Khola |
 | District | Solukhumbu |
 | Province | Province No 1 |

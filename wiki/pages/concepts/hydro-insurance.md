@@ -5,6 +5,7 @@ created: 2026-05-02
 updated: 2026-05-02
 sources: [care-ratings-sanima-mai, sanima-reliance-life-disclosures, utkhpl-annual-report, insurance-khabar, ekantipur-ippan-april-2025, investopaper-shikhar-insurance]
 tags: [insurance, reinsurance, premiums, claims, hydropower, IPP, risk]
+page_quality: analysis
 ---
 
 # Hydro Insurance

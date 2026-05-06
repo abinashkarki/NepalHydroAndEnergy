@@ -12,6 +12,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf"
 generator: manual
+page_quality: analysis
 ---
 
 # Nepal Electricity Authority (NEA)

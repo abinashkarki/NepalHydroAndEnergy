@@ -12,6 +12,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf"
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Likhu-4
@@ -25,7 +26,8 @@ generator: specs-refresh
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 52.4 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Likhu Khola (eastern [[koshi-basin]]) |
 | District | Ramechhap |
 | Province | Bagmati Pradesh |

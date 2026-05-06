@@ -9,6 +9,7 @@ source_date: 2014-01-01
 source_url: https://documents.worldbank.org/curated/en/955751468000263739/pdf/103889-WP-Ganges-Strategic-Basin-Assessment-A-Discussion-of-Regional-Opportunities-and-Risks-PUBLIC.pdf
 sources: []
 tags: [world-bank, ganges, geopolitics, storage, regional]
+page_quality: analysis
 ---
 
 # World Bank Ganges Strategic Basin Assessment

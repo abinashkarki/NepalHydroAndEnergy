@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [india-cbte-2018, wb-ganges-strategic-basin-assessment, national-water-plan-nepal]
 tags: [geopolitics, trade, treaties, corridors]
+page_quality: analysis
 ---
 
 ## Claim

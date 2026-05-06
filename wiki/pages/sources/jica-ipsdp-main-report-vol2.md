@@ -9,6 +9,7 @@ source_date: 2024-12-09
 source_url: data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf
 sources: []
 tags: [jica, ipsdp, moewri, hydropower, demand-forecast, planning, official]
+page_quality: analysis
 ---
 
 # JICA IPSDP Final Report Annexes (Vol. 2)

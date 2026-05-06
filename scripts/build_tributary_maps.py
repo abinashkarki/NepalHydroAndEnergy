@@ -178,8 +178,8 @@ STORAGE_SHORTLIST_ANCHORS = {
 TOP_PROJECT_LIMIT = 10
 
 PRIORITY_PROJECT_GROUP_STYLES = {
-    "priority_operating": {"color": "#14532d", "label": "Priority operating / buildout"},
-    "radar_survey": {"color": "#9a3412", "label": "Radar survey"},
+    "priority_operating": {"color": "#14532d", "label": "Key operating and under-construction projects"},
+    "radar_survey": {"color": "#9a3412", "label": "Survey-stage proposals"},
 }
 
 PRIORITY_PROJECTS = [
@@ -189,7 +189,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Upper Bhotekoshi",
         "label_subtitle": "45 MW · operating",
-        "priority_read": "Existing Bhote Koshi valley plant; useful as a reality-check site where imagery and river geometry are both legible.",
+        "priority_read": "Operating Bhote Koshi project on the cross-border import corridor serving Kathmandu-area demand.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -198,7 +198,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Kali Gandaki A",
         "label_subtitle": "144 MW · operating",
-        "priority_read": "One of Nepal's most important operating anchor plants and a good benchmark for marker honesty in the Gandaki corridor.",
+        "priority_read": "One of Nepal's most important operating plants and a core anchor of the Gandaki basin generation system.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -207,7 +207,7 @@ PRIORITY_PROJECTS = [
         "group": "priority_operating",
         "label_title": "Andhi Khola",
         "label_subtitle": "9 MW · operating",
-        "priority_read": "Small plant, but the site is visible and it already anchors one of the promising-storage comparisons in the current narrative.",
+        "priority_read": "Small operating run-of-river plant in the Gandaki basin, contributing to local supply alongside larger storage developments in the same basin.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -215,8 +215,8 @@ PRIORITY_PROJECTS = [
         "project_name": "Upper Tamakoshi HPP",
         "group": "priority_operating",
         "label_title": "Upper Tamakoshi",
-        "label_subtitle": "456 MW · buildout",
-        "priority_read": "The largest commissioned domestic project in the current stack; deserves a dedicated watch-layer marker instead of only appearing in the top-MW list.",
+        "label_subtitle": "456 MW · operating",
+        "priority_read": "Nepal's largest domestically built hydropower project, driving eastern corridor transmission needs.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -225,8 +225,8 @@ PRIORITY_PROJECTS = [
         "storage_annotation_name": "Tanahu",
         "group": "priority_operating",
         "label_title": "Tanahu",
-        "label_subtitle": "140 MW · storage build",
-        "priority_read": "Most practical near-term storage addition in the checked official set; this stays on the watch layer even when the broader project cloud is off.",
+        "label_subtitle": "140 MW · under construction",
+        "priority_read": "Nepal's most advanced storage project outside Kulekhani, designed to add firm dry-season energy to the central grid.",
         "source_note": "NEA annual report FY 2024/25 and current project registry",
     },
     {
@@ -234,8 +234,8 @@ PRIORITY_PROJECTS = [
         "project_name": "Upper Trishuli-1",
         "group": "priority_operating",
         "label_title": "Upper Trishuli-1",
-        "label_subtitle": "216 MW · buildout",
-        "priority_read": "High-value central-north project tied to the Trishuli evacuation corridor; worth keeping visible in the grid-first map.",
+        "label_subtitle": "216 MW · under construction",
+        "priority_read": "Central Trishuli corridor project important for Kathmandu-area supply and evacuation capacity.",
         "source_note": "Naxa / DoED-linked public hydropower project dataset",
     },
     {
@@ -244,8 +244,8 @@ PRIORITY_PROJECTS = [
         "storage_annotation_name": "Nalsyau Gad",
         "group": "radar_survey",
         "label_title": "Nalsyau Gad",
-        "label_subtitle": "410 MW · radar survey",
-        "priority_read": "Best dry-energy performer in the JICA promising-storage set, so it belongs on the survey radar even before a full site-grade document pass.",
+        "label_subtitle": "410 MW · survey stage",
+        "priority_read": "Storage project with one of the strongest dry-season energy profiles among Karnali-basin proposals.",
         "source_note": "JICA/NEA storage master plan volume 2 plus current project registry",
     },
     {
@@ -253,8 +253,8 @@ PRIORITY_PROJECTS = [
         "project_name": "Mugu Karnali Storage HEP",
         "group": "radar_survey",
         "label_title": "Mugu Karnali Storage",
-        "label_subtitle": "1,902 MW · radar survey",
-        "priority_read": "Largest survey-stage project in the registry; strategically important enough to stay visible despite lower locational confidence.",
+        "label_subtitle": "1,902 MW · survey stage",
+        "priority_read": "Very large Karnali-basin storage proposal with system-scale implications for dry-season energy and west-to-east power transfer.",
         "source_note": "VUCL MKHEP project page and current project registry",
     },
     {
@@ -262,8 +262,8 @@ PRIORITY_PROJECTS = [
         "project_name": "Arun 3",
         "group": "radar_survey",
         "label_title": "Arun 3",
-        "label_subtitle": "900 MW · radar survey",
-        "priority_read": "National-scale eastern corridor project; included as an on-radar survey reference even though the registry point is still approximate.",
+        "label_subtitle": "900 MW · survey stage",
+        "priority_read": "National-scale eastern corridor project with major export and transmission implications for the Arun basin.",
         "source_note": "SAPDC resettlement plan and current project registry",
     },
     {
@@ -271,8 +271,8 @@ PRIORITY_PROJECTS = [
         "project_name": "Upper Karnali",
         "group": "radar_survey",
         "label_title": "Upper Karnali",
-        "label_subtitle": "900 MW · radar survey",
-        "priority_read": "Too strategically important to bury inside the general survey cloud, even though the current public coordinate remains low-confidence.",
+        "label_subtitle": "900 MW · survey stage",
+        "priority_read": "Strategically important export-oriented Karnali project with long-running implications for basin use and cross-border power trade.",
         "source_note": "IBN Energy Sector Profile, DoED survey-license extent, and current project registry",
     },
     {
@@ -280,8 +280,8 @@ PRIORITY_PROJECTS = [
         "project_name": "Betan Karnali HP",
         "group": "radar_survey",
         "label_title": "Betan Karnali",
-        "label_subtitle": "688 MW · radar survey",
-        "priority_read": "Large Karnali-basin survey project that matters for the storage-and-seasonality story; kept visible as a radar candidate.",
+        "label_subtitle": "688 MW · survey stage",
+        "priority_read": "Large Karnali-basin proposal with implications for storage strategy, seasonal balancing, and west-to-east transmission.",
         "source_note": "BKSHCL EOI document and current project registry",
     },
     {
@@ -289,8 +289,8 @@ PRIORITY_PROJECTS = [
         "project_name": "Phukot Karnali",
         "group": "radar_survey",
         "label_title": "Phukot Karnali",
-        "label_subtitle": "426 MW · radar survey",
-        "priority_read": "Another major Karnali-basin survey project worth tracking explicitly while the map still distinguishes approximate survey references from site points.",
+        "label_subtitle": "426 MW · survey stage",
+        "priority_read": "Major Karnali-basin proposal reflecting the high concentration of future generation potential in the Karnali region.",
         "source_note": "VUCL PKHEP status report and current project registry",
     },
 ]
@@ -1435,11 +1435,16 @@ def fetch_nominatim_point(
     return None
 
 
-def build_place_anchor_index() -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
+def build_place_anchor_index(
+    node_metadata: dict[str, dict[str, Any]] | None = None,
+) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
     cache = load_nominatim_place_cache()
     headers = {"User-Agent": USER_AGENT}
     anchors: dict[str, dict[str, Any]] = {}
     report: list[dict[str, Any]] = []
+
+    if node_metadata is None:
+        node_metadata = {}
 
     for anchor_id, definition in PLACE_ANCHORS.items():
         if "lat" in definition and "lon" in definition:
@@ -1451,6 +1456,8 @@ def build_place_anchor_index() -> tuple[dict[str, dict[str, Any]], list[dict[str
                 "display_name": definition["label"],
                 "query": "; ".join(definition.get("queries", [])),
                 "basis": definition.get("basis", "Manual source-controlled grid anchor"),
+                "source_method": "Document or manually placed anchor",
+                "location_hint": definition["label"],
             }
             report.append(
                 {
@@ -1461,6 +1468,15 @@ def build_place_anchor_index() -> tuple[dict[str, dict[str, Any]], list[dict[str
                     "display_name": definition["label"],
                 }
             )
+            # Merge reader-facing metadata
+            meta = node_metadata.get(anchor_id, {})
+            anchors[anchor_id]["node_type"] = meta.get("node_type", "Grid hub")
+            anchors[anchor_id]["status"] = meta.get("status", "Planned")
+            anchors[anchor_id]["highest_voltage_kv"] = meta.get("highest_voltage_kv", "")
+            anchors[anchor_id]["grid_role"] = meta.get(
+                "grid_role", "Transmission node in the Nepal grid."
+            )
+            anchors[anchor_id]["location_confidence"] = "Named grid node from official corridor mapping."
             continue
         found = None
         for query in definition["queries"]:
@@ -1474,6 +1490,8 @@ def build_place_anchor_index() -> tuple[dict[str, dict[str, Any]], list[dict[str
                     "display_name": found["display_name"],
                     "query": found["query"],
                     "basis": "Nominatim place match",
+                    "source_method": "Approximate place match from OpenStreetMap Nominatim",
+                    "location_hint": found["query"],
                 }
                 report.append(
                     {
@@ -1483,6 +1501,17 @@ def build_place_anchor_index() -> tuple[dict[str, dict[str, Any]], list[dict[str
                         "query": found["query"],
                         "display_name": found["display_name"],
                     }
+                )
+                # Merge reader-facing metadata
+                meta = node_metadata.get(anchor_id, {})
+                anchors[anchor_id]["node_type"] = meta.get("node_type", "Grid hub")
+                anchors[anchor_id]["status"] = meta.get("status", "Planned")
+                anchors[anchor_id]["highest_voltage_kv"] = meta.get("highest_voltage_kv", "")
+                anchors[anchor_id]["grid_role"] = meta.get(
+                    "grid_role", "Transmission node in the Nepal grid."
+                )
+                anchors[anchor_id]["location_confidence"] = (
+                    "Approximate area reference; exact substation coordinates not publicly confirmed."
                 )
                 break
         if found is None:
@@ -2965,6 +2994,7 @@ def hydropower_display_points_geojson(projects: list[dict[str, Any]]) -> dict[st
     features: list[dict[str, Any]] = []
     # Fields from the specs CSV that should appear in GeoJSON properties.
     spec_fields = [
+        "status",
         "gross_head_m", "design_discharge_m3s", "headrace_tunnel_km", "dam_height_m",
         "dam_type", "num_units", "unit_capacity_mw", "turbine_type",
         "underground_powerhouse", "annual_design_energy_gwh", "dry_season_energy_gwh",
@@ -3133,8 +3163,9 @@ def _merge_spec_fields(project_name: str, specs_lookup: dict[str, dict[str, Any]
         alt = aliases.get(slug)
         if alt:
             row = specs_lookup.get(alt, {})
-    # Only yield spec fields (skip slug/capacity_mw/river/status which duplicate registry).
-    skip = {"slug", "capacity_mw", "river", "status", "source_note", "last_updated"}
+    # Only yield spec fields (skip slug/capacity_mw/river/source_note/last_updated which duplicate registry;
+    # status is NOT skipped — it is the curated human-readable status, distinct from registry license_type).
+    skip = {"slug", "capacity_mw", "river", "source_note", "last_updated"}
     numeric_fields = {
         "gross_head_m", "design_discharge_m3s", "headrace_tunnel_km", "dam_height_m",
         "num_units", "unit_capacity_mw", "annual_design_energy_gwh", "dry_season_energy_gwh",
@@ -4020,6 +4051,171 @@ def status_rank(status: str) -> int:
         "Planned": 1,
     }
     return order.get(status, 0)
+
+
+def compute_node_metadata() -> dict[str, dict[str, Any]]:
+    """Derive reader-facing node_type, status, highest_voltage_kv, and grid_role
+    for each place anchor from explicit TRANSMISSION_CORRIDORS and
+    CROSS_BORDER_INTERCONNECTIONS membership.
+
+    Returns a lookup keyed by anchor_id (the same keys used in PLACE_ANCHORS).
+    Nodes that appear in no corridor or interconnection receive fallback
+    metadata for legacy 132 kV backbone nodes.
+    """
+    metadata: dict[str, dict[str, Any]] = {}
+
+    # ------------------------------------------------------------------ #
+    #  Identify India-side reference points from interconnections
+    # ------------------------------------------------------------------ #
+    india_refs: set[str] = set()
+    for inter in CROSS_BORDER_INTERCONNECTIONS:
+        if inter.get("india_anchor_id"):
+            india_refs.add(inter["india_anchor_id"])
+
+    # ------------------------------------------------------------------ #
+    #  Pass 1: TRANSMISSION_CORRIDORS  →  Grid hubs
+    # ------------------------------------------------------------------ #
+    for corr in TRANSMISSION_CORRIDORS:
+        for anchor_id in corr["anchor_ids"]:
+            candidate: dict[str, Any] = {
+                "node_type": "Grid hub",
+                "status": corr["status"],
+                "highest_voltage_kv": corr["voltage_kv"],
+            }
+            existing = metadata.get(anchor_id)
+            if existing is None:
+                metadata[anchor_id] = candidate
+            else:
+                if status_rank(candidate["status"]) > status_rank(existing["status"]):
+                    existing["status"] = candidate["status"]
+                if int(candidate["highest_voltage_kv"]) > int(existing.get("highest_voltage_kv", "0")):
+                    existing["highest_voltage_kv"] = candidate["highest_voltage_kv"]
+
+    # ------------------------------------------------------------------ #
+    #  Pass 2: CROSS_BORDER_INTERCONNECTIONS  →  Gateways override hubs
+    # ------------------------------------------------------------------ #
+    for inter in CROSS_BORDER_INTERCONNECTIONS:
+        anchor_id = inter["location_anchor_id"]
+        existing = metadata.get(anchor_id)
+        candidate = {
+            "node_type": "Cross-border gateway",
+            "status": inter["status"],
+            "highest_voltage_kv": inter["voltage_kv"],
+        }
+        if existing is None:
+            metadata[anchor_id] = candidate
+        else:
+            existing["node_type"] = "Cross-border gateway"
+            if status_rank(inter["status"]) > status_rank(existing["status"]):
+                existing["status"] = inter["status"]
+            if int(inter["voltage_kv"]) > int(existing.get("highest_voltage_kv", "0")):
+                existing["highest_voltage_kv"] = inter["voltage_kv"]
+
+    # ------------------------------------------------------------------ #
+    #  Pass 3: India-side reference points
+    # ------------------------------------------------------------------ #
+    for anchor_id in india_refs:
+        if anchor_id in metadata:
+            continue
+        best_status = "Planned"
+        best_kv = "0"
+        for inter in CROSS_BORDER_INTERCONNECTIONS:
+            if inter.get("india_anchor_id") == anchor_id:
+                if status_rank(inter["status"]) > status_rank(best_status):
+                    best_status = inter["status"]
+                if int(inter["voltage_kv"]) > int(best_kv):
+                    best_kv = inter["voltage_kv"]
+        metadata[anchor_id] = {
+            "node_type": "India reference point",
+            "status": best_status,
+            "highest_voltage_kv": best_kv,
+        }
+
+    # ------------------------------------------------------------------ #
+    #  Pass 4: Legacy 132 kV standalone nodes
+    # ------------------------------------------------------------------ #
+    _STANDALONE_132KV: dict[str, tuple[str, str]] = {
+        "butwal_132": ("Operational", "Legacy 132 kV hub on the existing western backbone."),
+        "shivapur": ("Operational", "Legacy 132 kV node on the existing western backbone."),
+        "lamahi": ("Operational", "Legacy 132 kV node on the existing western backbone."),
+        "kohalpur": ("Operational", "Legacy 132 kV hub and western grid branch office."),
+        "bhurigaun": ("Operational", "Legacy 132 kV junction on the western backbone."),
+        "pahalwanpur": ("Operational", "Legacy 132 kV node on the far-western backbone."),
+        "attariya": ("Operational", "Legacy 132 kV junction on the far-western backbone."),
+        "syaule": ("Operational", "Legacy 132 kV node on the far-western corridor."),
+        "mahendranagar": ("Operational", "Legacy 132 kV western terminus of the far-western backbone."),
+        "surkhet": ("Planned", "Planned 132 kV node on the mid-western extension."),
+        "dailekh": ("Planned", "Planned 132 kV terminus on the mid-western extension."),
+    }
+    for anchor_id, (status, role) in _STANDALONE_132KV.items():
+        if anchor_id not in metadata:
+            metadata[anchor_id] = {
+                "node_type": "Grid hub",
+                "status": status,
+                "highest_voltage_kv": "132",
+                "grid_role": role,
+            }
+
+    # ------------------------------------------------------------------ #
+    #  Pass 5: Assign grid_role text per node type
+    # ------------------------------------------------------------------ #
+    _HUB_ROLES: dict[str, str] = {
+        "hetauda": "Central backbone hub on the 400 kV east-west spine, linking the operational Hetauda-Dhalkebar-Inaruwa corridor with the planned MCA central 400 kV corridor.",
+        "dhalkebar": "Major hub on the 400 kV east-west backbone, connecting 220 kV hydro evacuation from Khimti and the Dhalkebar-Muzaffarpur cross-border export line.",
+        "inaruwa": "Eastern terminus of the 400 kV backbone and planned export gateway via the Inaruwa-Purnea cross-border link.",
+        "bharatpur": "Central operating hub on the Hetauda-Bharatpur-Bardaghat 220 kV backbone, also a node on the Udipur-Damauli-Bharatpur 220 kV reinforcement corridor.",
+        "bardaghat": "Western node on the operational Hetauda-Bharatpur-Bardaghat 220 kV backbone.",
+        "khimti": "Eastern hill hydropower hub on the Khimti-Dhalkebar 220 kV evacuation corridor.",
+        "tingla": "Eastern hill node on the Solu Corridor 132 kV evacuation line.",
+        "mirchaiya": "Terai endpoint of the Solu Corridor 132 kV evacuation line.",
+        "dana": "Upper Kali Gandaki node on the Dana-Kushma-New Butwal 220 kV hydro corridor.",
+        "kushma": "Junction node on the Dana-Kushma-New Butwal 220 kV corridor.",
+        "butwal": "Western terminus of the 220 kV Dana-Kushma-New Butwal hydro corridor and the planned MCA central 400 kV corridor.",
+        "udipur": "Eastern Gandaki node on the Udipur-Damauli-Bharatpur 220 kV reinforcement corridor.",
+        "damauli": "Junction node on the Udipur-Damauli-Bharatpur 220 kV corridor, also a 400 kV node on the MCA central corridor.",
+        "lapsiphedi": "Kathmandu Valley ring node on the planned MCA central 400 kV corridor.",
+        "ratmate": "Central node on the planned Lapsiphedi-Ratmate-Hetauda-Damauli-Butwal 400 kV backbone.",
+    }
+
+    _GATEWAY_ROLES: dict[str, str] = {
+        "dhalkebar": "Major 400 kV hub on the east-west backbone and cross-border gateway for power exchange via Dhalkebar-Muzaffarpur.",
+        "kushaha": "Cross-border gateway for Nepal-India power exchange via the Kataiya-Kushaha 132 kV interconnection.",
+        "parwanipur": "Cross-border gateway for Nepal-India power exchange via the Raxaul-Parwanipur 132 kV interconnection.",
+        "mainahiya": "Cross-border gateway for Nepal-India power exchange via the New Nautanwa-Mainahiya 132 kV interconnection.",
+        "gaddachauki": "Cross-border gateway for Nepal-India power exchange via the Tanakpur-Mahendranagar 132 kV interconnection.",
+        "jamunaha": "Cross-border gateway for Nepal-India power exchange via the Nepalgunj-Nanpara 132 kV interconnection.",
+        "belahiya": "Cross-border gateway for Nepal-India power exchange via the Gorakhpur-New Butwal 400 kV interconnection.",
+        "inaruwa": "Eastern 400 kV backbone terminus and cross-border gateway for power exchange via Inaruwa-Purnea.",
+        "lamki": "Cross-border gateway for Nepal-India power exchange via the Lamki-Bareilly 400 kV interconnection.",
+        "chameliya": "Cross-border gateway for Nepal-India power exchange via the Chameliya-Jauljibi 220 kV interconnection.",
+    }
+
+    _INDIA_REF_ROLES: dict[str, str] = {
+        "muzaffarpur": "India-side reference point for the Dhalkebar-Muzaffarpur cross-border connection.",
+        "purnea": "India-side reference point for the Inaruwa-Purnea cross-border connection.",
+        "bareilly": "India-side reference point for the Lamki-Bareilly cross-border connection.",
+        "jauljibi": "India-side reference point for the Chameliya-Jauljibi cross-border connection.",
+        "nautanwa": "India-side reference point for the New Nautanwa-Mainahiya cross-border connection.",
+    }
+
+    for anchor_id, meta in metadata.items():
+        if "grid_role" in meta:
+            continue  # already set (standalone nodes)
+
+        if meta["node_type"] == "Cross-border gateway":
+            meta["grid_role"] = _GATEWAY_ROLES.get(
+                anchor_id, "Cross-border gateway for Nepal-India power exchange."
+            )
+        elif meta["node_type"] == "India reference point":
+            meta["grid_role"] = _INDIA_REF_ROLES.get(
+                anchor_id, "India-side reference point for a cross-border connection."
+            )
+        elif meta["node_type"] == "Grid hub":
+            meta["grid_role"] = _HUB_ROLES.get(
+                anchor_id, "Transmission node in the Nepal grid."
+            )
+
+    return metadata
 
 
 def add_transmission_nodes(
@@ -4986,7 +5182,7 @@ def make_explorer_map(
     add_downstream_systems(m, downstream_systems, hydrology_markers, show_systems=True, show_impact_markers=True)
     add_basin_polygons(m, nepal_basins, comparison_basins, callouts, show_polygons=False, show_callouts=False)
     add_annotation_layer(m, basin_annotations, "Basin seasonality annotations", show=False)
-    add_annotation_layer(m, priority_watchlist, "Priority projects + radar surveys", show=False)
+    add_annotation_layer(m, priority_watchlist, "Key projects + survey-stage proposals", show=False)
     add_annotation_layer(m, storage_annotations, "Storage shortlist annotations", show=False)
     add_transmission_corridors(m, transmission_corridors, show_lines=False, show_labels=False)
     add_transmission_nodes(m, place_anchors, show_nodes=False, show_labels=False)
@@ -5039,7 +5235,7 @@ def make_geopolitics_map(
     add_downstream_systems(m, downstream_systems, hydrology_markers, show_systems=True, show_impact_markers=True)
     add_basin_polygons(m, nepal_basins, comparison_basins, callouts, show_polygons=True, show_callouts=True)
     add_annotation_layer(m, basin_annotations, "Basin seasonality annotations", show=False)
-    add_annotation_layer(m, priority_watchlist, "Priority projects + radar surveys", show=False)
+    add_annotation_layer(m, priority_watchlist, "Key projects + survey-stage proposals", show=False)
     add_annotation_layer(m, storage_annotations, "Storage shortlist annotations", show=False)
     add_transmission_corridors(m, transmission_corridors, show_lines=False, show_labels=False)
     add_transmission_nodes(m, place_anchors, show_nodes=False, show_labels=False)
@@ -5090,7 +5286,7 @@ def make_power_system_map(
     add_india_reference_rivers(m, india_rivers, show_lines=False, show_labels=False)
     add_downstream_systems(m, downstream_systems, hydrology_markers, show_systems=False, show_impact_markers=False)
     add_annotation_layer(m, basin_annotations, "Basin seasonality annotations", show=False)
-    add_annotation_layer(m, priority_watchlist, "Priority projects + radar surveys", show=True)
+    add_annotation_layer(m, priority_watchlist, "Key projects + survey-stage proposals", show=True)
     add_annotation_layer(m, storage_annotations, "Storage shortlist annotations", show=True)
     add_transmission_corridors(
         m,
@@ -5139,7 +5335,8 @@ def main() -> None:
         storage_annotation_report["skipped"],
     )
     priority_watchlist, priority_watchlist_report = build_priority_project_watchlist(projects, storage_annotations)
-    place_anchors, place_anchor_report = build_place_anchor_index()
+    node_metadata = compute_node_metadata()
+    place_anchors, place_anchor_report = build_place_anchor_index(node_metadata)
     transmission_corridors, transmission_report = build_transmission_corridors(place_anchors)
     traced_corridors = read_geojson_if_exists(TRACED_SEGMENTS_PATH)
     traced_network = read_geojson_if_exists(TRACED_NETWORK_PATH)
@@ -5178,6 +5375,11 @@ def main() -> None:
                             "display_name": anchor["display_name"],
                             "query": anchor["query"],
                             "basis": anchor["basis"],
+                            "node_type": anchor.get("node_type", "Grid hub"),
+                            "status": anchor.get("status", ""),
+                            "highest_voltage_kv": anchor.get("highest_voltage_kv", ""),
+                            "grid_role": anchor.get("grid_role", ""),
+                            "location_confidence": anchor.get("location_confidence", ""),
                         },
                         "geometry": {"type": "Point", "coordinates": [anchor["lon"], anchor["lat"]]},
                     }

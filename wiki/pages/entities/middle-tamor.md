@@ -7,6 +7,7 @@ sources: [nea-annual-report-fy2024-25, urja-khabar-generation-audit]
 tags: [project, under-construction, private-ipp, koshi, taplejung]
 images: []
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Middle Tamor
@@ -20,7 +21,8 @@ generator: specs-refresh
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 54 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Tamor (eastern [[koshi-basin]]) |
 | District | Taplejung |
 | Province | Province No 1 |

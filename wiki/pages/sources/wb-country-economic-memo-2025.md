@@ -9,6 +9,7 @@ source_date: 2025-03-01
 source_url: https://documents1.worldbank.org/curated/en/099032125103030263/pdf/P179761-430153ad-672c-4418-89c5-ef3740c65113.pdf
 sources: []
 tags: [world-bank, economics, trade, grid, ipp, official]
+page_quality: analysis
 ---
 
 # World Bank Nepal Country Economic Memorandum (2025)

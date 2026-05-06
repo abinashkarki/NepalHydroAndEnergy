@@ -4,6 +4,7 @@ type: entity
 created: 2026-05-06
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, storage, karnali]
 images: []

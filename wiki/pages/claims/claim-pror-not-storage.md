@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wecs-energy-synopsis-2024, wb-nepal-power-sector-reform-2022, data-fleet-composition]
 tags: [pror, peaking, storage, dispatch]
+page_quality: analysis
 ---
 
 ## Claim

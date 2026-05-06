@@ -9,6 +9,7 @@ source_date: 2024-06-01
 source_url: https://www.adb.org/documents/performance-evaluation-report-nepal-kali-gandaki-hydroelectric-project
 sources: []
 tags: [kali-gandaki-a, nea, adb, jbic, run-of-river, gandaki, syangja]
+page_quality: analysis
 ---
 
 # Kali Gandaki A — ADB Performance Evaluation & Wikipedia

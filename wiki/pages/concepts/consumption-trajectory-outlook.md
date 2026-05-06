@@ -5,6 +5,7 @@ created: 2026-04-30
 updated: 2026-04-30
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [consumption, trajectory, outlook, import-displacement, strategy, nepal]
+page_quality: analysis
 ---
 
 # Consumption Trajectory Outlook

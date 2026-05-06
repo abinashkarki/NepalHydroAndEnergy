@@ -229,15 +229,25 @@ async function renderPage(slug, opts = {}) {
     </aside>`;
   }
 
-  // Updated date and auto-stub badge.
+  // Updated date and page quality badge.
   const upMatch = frontmatter.match(/^updated:\s*(.+?)\s*$/m);
   const genMatch = frontmatter.match(/^generator:\s*(.+?)\s*$/m);
+  const pqMatch = frontmatter.match(/^page_quality:\s*(.+?)\s*$/m);
+  let pageQuality = pqMatch ? pqMatch[1].trim() : (genMatch && genMatch[1].trim() === "auto-stub" ? "record" : "");
+  const PQ_BADGE_STYLE = {
+    record: "background:var(--accent-light,#fff3cd);color:var(--accent,#856404);",
+    brief: "background:#dbeafe;color:#1e40af;",
+    analysis: "background:#d1fae5;color:#065f46;",
+    flagship: "background:#fef3c7;color:#92400e;",
+  };
+  const PQ_LABEL = { record: "Record", brief: "Brief", analysis: "Analysis", flagship: "Flagship" };
   let freshness = "";
   if (upMatch) {
     freshness = `<span style="font-family:var(--sans);font-size:11px;color:var(--ink-soft);margin-left:8px">· Updated ${upMatch[1]}</span>`;
   }
-  if (genMatch && genMatch[1].trim() === "auto-stub") {
-    freshness += `<span style="font-family:var(--sans);font-size:11px;background:var(--accent-light,#fff3cd);color:var(--accent,#856404);padding:2px 6px;border-radius:3px;margin-left:8px">Registry record — no narrative analysis yet</span>`;
+  if (pageQuality) {
+    const badgeStyle = PQ_BADGE_STYLE[pageQuality] || PQ_BADGE_STYLE.analysis;
+    freshness += `<span style="font-family:var(--sans);font-size:11px;${badgeStyle}padding:2px 6px;border-radius:3px;margin-left:8px">${PQ_LABEL[pageQuality] || pageQuality}</span>`;
   }
 
   const catWithFreshness = `<div style="font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;">${category} · ${slug}${freshness}</div>`;

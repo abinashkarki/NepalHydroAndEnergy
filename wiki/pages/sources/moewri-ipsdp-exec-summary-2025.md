@@ -9,6 +9,7 @@ source_date: 2024-12-01
 source_url: data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf
 sources: []
 tags: [moewri, ipsdp, power-trade, planning, hydropower, official]
+page_quality: analysis
 ---
 
 # MoEWRI IPSDP Executive Summary

@@ -4,6 +4,7 @@ Category: interventions
 Type: intervention
 Tags: [NEA, governance, ISO, ERC, PPA, open-access, IPP, reform]
 Excerpt: Carve NLDC into an independent system operator, transfer AD penalty authority to ERC, and create an open-access framework allowing IPPs to sell to third parties — resolving the triple-authority conflict that institutionalises curtailment without compensation.
+page_quality: analysis
 ---
 
 # NEA Structural Separation

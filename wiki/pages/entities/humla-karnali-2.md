@@ -7,6 +7,7 @@ sources: []
 tags: [project, survey, karnali, humla]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Humla Karnali 2 HPP
@@ -21,6 +22,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 335 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Humla Karnali ([[karnali-basin]]) |
 | District | Humla |
 | Province | Karnali Pradesh |

@@ -7,6 +7,7 @@ sources: [likhu-cascade-research-compilation]
 tags: [project, operating, private-ipp, solukhumbu, koshi]
 images: []
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Likhu Khola 'A'
@@ -20,7 +21,8 @@ generator: specs-refresh
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 51 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Likhu Khola (eastern [[koshi-basin]]) |
 | District | Solukhumbu |
 | Province | Province No 1 |

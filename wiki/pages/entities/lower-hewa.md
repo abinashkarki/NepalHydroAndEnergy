@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, panchthar]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Lower Hewa
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 21.6 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Hewa Khola |
 | District | Panchthar |
 | Province | Province No 1 |

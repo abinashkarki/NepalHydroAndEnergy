@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [nea-annual-report-fy2024-25]
 tags: [project, storage, reservoir, operational, kulekhani, landmark]
 images:

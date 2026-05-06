@@ -15,6 +15,7 @@ images:
     credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+page_quality: analysis
 ---
 
 # India Cross-Border Trade in Electricity Guidelines (2018)

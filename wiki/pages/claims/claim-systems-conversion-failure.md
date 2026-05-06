@@ -8,6 +8,7 @@ confidence: high
 status: stable
 sources: [wecs-energy-synopsis-2024, wb-water-sector-diagnostic, wb-nepal-power-sector-reform-2022]
 tags: [systems, synthesis, firm-power, institutions]
+page_quality: analysis
 ---
 
 ## Claim

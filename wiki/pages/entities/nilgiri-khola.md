@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, mustang]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Nilgiri Khola
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 38 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Nilgiri |
 | District | Mustang |
 | Province | Gandaki Pradesh |

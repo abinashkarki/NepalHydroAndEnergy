@@ -7,6 +7,7 @@ source_type: annual-report
 source_author: Chilime Hydropower Company Limited (CHCL)
 source_date: 2022-01-01
 tags: [source, chilime, ppa, tariff, generation, nea-subsidiary]
+page_quality: analysis
 ---
 
 # Chilime Hydropower Company Limited Annual Report FY 2078/79

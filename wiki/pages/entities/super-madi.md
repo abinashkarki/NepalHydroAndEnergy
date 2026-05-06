@@ -2,11 +2,12 @@
 title: Super Madi
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, gandaki, kaski]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Super Madi
@@ -31,7 +32,8 @@ Super Madi sits within the broader Gandaki basin development landscape, where pr
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 44 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Madi Khola ([[gandaki-basin]]) |
 | District | Kaski |
 | Province | Gandaki Pradesh |

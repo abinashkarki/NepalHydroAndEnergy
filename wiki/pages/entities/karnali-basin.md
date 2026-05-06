@@ -22,6 +22,7 @@ images:
     license: CC BY-SA 4.0
     source_url: "https://commons.wikimedia.org/wiki/File%3AKarnali_Bridge_Karnali_River_Chisapani_Kailali_Pradesh_7_Nepal_Rajesh_Dhungana_%2822%29.jpg"
 generator: manual
+page_quality: analysis
 ---
 
 # Karnali Basin

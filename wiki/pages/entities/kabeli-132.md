@@ -7,6 +7,7 @@ updated: 2026-04-25
 sources: [nepal-transmission-landscape-2025, nea_kabeli_iee]
 tags: [transmission, 132kv, kabeli, under-construction, traced-corridor]
 generator: manual
+page_quality: analysis
 ---
 
 # Kabeli / Godak-Soyak-Amarpur 132 kV Corridor

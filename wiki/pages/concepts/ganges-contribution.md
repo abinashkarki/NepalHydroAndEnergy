@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-15
 sources: [wb-ganges-strategic-basin-assessment, national-water-plan-nepal, wb-water-sector-diagnostic]
 tags: [ganges, transboundary, hydrology, nepal, india, bangladesh, leverage]
+page_quality: analysis
 ---
 
 # Nepal's Contribution to the Ganges

@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, dolakha]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Khani Khola (Dolakha)
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 30 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Khani Khola |
 | District | Dolakha |
 | Province | Bagmati Pradesh |

@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [wb-nepal-power-sector-reform-2022, nea-annual-report-fy2024-25, wecs-hydropower-potential-2019]
 tags: [reliability, dispatch, seasonality, planning, semantics]
+page_quality: analysis
 ---
 
 # Firm Power

@@ -7,6 +7,7 @@ sources: [jica-ipsdp-main-report-vol2]
 tags: [project, operating, under-construction, cascade, dolakha, koshi]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Khimti Cascade

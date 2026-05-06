@@ -9,6 +9,7 @@ source_date: 2025-04-04
 source_url: https://www.adb.org/who-we-are/accountability-mechanism/complaint/tanahu-hydropower-project
 sources: []
 tags: [tanahu, adb, seti, reservoir, storage, land-acquisition, accountability]
+page_quality: analysis
 ---
 
 # Tanahu Hydropower Project Status (ADB, 2024–2025)

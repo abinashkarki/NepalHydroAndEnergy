@@ -7,6 +7,7 @@ updated: 2026-04-25
 sources: [nepal-transmission-landscape-2025, nea-transmission-annual-book-2077]
 tags: [transmission, 132kv, solu, operational, traced-corridor]
 generator: manual
+page_quality: analysis
 ---
 
 # Solu Corridor Tingla-Mirchaiya 132 kV

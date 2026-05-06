@@ -6,6 +6,7 @@ updated: 2026-04-25
 figure_type: map-spec
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
+page_quality: analysis
 ---
 
 # Map Layer Labels

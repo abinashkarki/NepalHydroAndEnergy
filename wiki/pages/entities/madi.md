@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, storage, karnali]
 images: []
@@ -20,6 +21,7 @@ Madi is a 199.8 MW JICA promising-storage candidate in the West Rapti basin. It 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 199.8 MW |
+| Status | Survey / study |
 | Category | jica promising storage |
 | Basin | West Rapti ([[karnali-basin]]) |
 | Annual energy | 621.1 GWh |

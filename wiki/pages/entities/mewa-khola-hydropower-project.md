@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, taplejung]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Mewa Khola Hydropower Project
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 50 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Mewa Khola |
 | District | Taplejung |
 | Province | Province No 1 |

@@ -2,11 +2,12 @@
 title: Kimathanka Arun HEP
 type: entity
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-06
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, koshi, sankhuwasabha]
 images: []
 generator: manual
+page_quality: analysis
 ---
 
 # Kimathanka Arun HEP
@@ -21,6 +22,7 @@ Kimathanka Arun HEP is a 450 MW survey-stage project on the Arun in Sankhuwasabh
 |-----------|-------|
 | Capacity | 450 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Arun (eastern [[koshi-basin]]) |
 | District | Sankhuwasabha |
 | Province | Province No 1 |

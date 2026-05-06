@@ -7,6 +7,7 @@ sources: [nea-annual-report-fy2024-25, doed-licensing-directive-2075]
 tags: [project, under-construction, private-ipp, gandaki, nuwakot]
 images: []
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Trishuli Galchhi
@@ -20,7 +21,8 @@ generator: specs-refresh
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 75 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Nuwakot |
 | Province | Bagmati Pradesh |

@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, watchlist, top-capacity, survey, karnali, kalikot]
 images:
@@ -35,6 +36,7 @@ Phukot Karnali is a 426-480 MW peaking run-of-river project on the Karnali in Ka
 |-----------|-------|
 | Capacity | 426 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Karnali ([[karnali-basin]]) |
 | District | Kalikot |
 | Province | Karnali Pradesh |

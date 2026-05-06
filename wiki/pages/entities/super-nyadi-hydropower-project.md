@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, lamjung]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Super Nyadi Hydropower Project
@@ -23,7 +24,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 40.27 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Nyadi |
 | District | Lamjung |
 | Province | Gandaki Pradesh |

@@ -4,6 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 generator: specs-refresh
+page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
 tags: [project, storage, gandaki]
 images:
@@ -24,6 +25,7 @@ Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basi
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 380.3 MW |
+| Status | Survey / study |
 | Category | jica promising storage |
 | Basin | Gandaki ([[gandaki-basin]]) |
 | Annual energy | 1366.0 GWh |

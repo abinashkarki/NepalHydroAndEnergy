@@ -7,6 +7,7 @@ sources: []
 tags: [project, under-construction, solukhumbu]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Solu Hydropower Project
@@ -20,7 +21,8 @@ generator: auto-stub
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 23.5 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Solu Khola |
 | District | Solukhumbu |
 | Province | Province No 1 |

@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [wecs-hydropower-potential-2019, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [potential, methodology, WECS, planning, basins, nepal]
+page_quality: analysis
 ---
 
 # Hydropower Potential Categories

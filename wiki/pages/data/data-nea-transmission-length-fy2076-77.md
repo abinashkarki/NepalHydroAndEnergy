@@ -6,6 +6,7 @@ updated: 2026-04-20
 figure_type: table
 sources: [nea-transmission-annual-book-2077]
 tags: [transmission, line-length, 132kv, 220kv, 400kv, nea]
+page_quality: analysis
 ---
 
 # NEA Transmission Length FY 2076/77

@@ -6,6 +6,7 @@ updated: 2026-04-15
 figure_type: chart-spec
 sources: [wecs-hydropower-potential-2019, wb-nepal-power-sector-reform-2022, nea-annual-report-fy2024-25]
 tags: [potential, theoretical, technical, economic, installed]
+page_quality: analysis
 ---
 
 # Hydropower Potential Pyramid

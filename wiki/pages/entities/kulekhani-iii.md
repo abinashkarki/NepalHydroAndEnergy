@@ -7,6 +7,7 @@ sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, storage, cascade, makawanpur]
 images: []
 generator: specs-refresh
+page_quality: analysis
 ---
 
 # Kulekhani III

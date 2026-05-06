@@ -5,6 +5,7 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, wecs-energy-synopsis-2024]
 tags: [solar, hydro, seasonality, diurnal, complementarity, firm-power, dispatch]
+page_quality: analysis
 ---
 
 # Solar–Hydro Complementarity

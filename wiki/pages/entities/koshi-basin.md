@@ -27,6 +27,7 @@ images:
     license: CC BY-SA 4.0
     source_url: "https://commons.wikimedia.org/wiki/File%3AKoshi_River_Barrage.jpg"
 generator: manual
+page_quality: analysis
 ---
 
 # Koshi Basin

@@ -17,6 +17,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/jica/jica_ipsdp_main_report_vol2.pdf"
 generator: auto-stub
+page_quality: record
 ---
 
 # Humla Karnali 1 HPP
@@ -31,6 +32,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 235 MW |
 | Status | Survey / study |
+| Registry licence | Survey |
 | River | Humla Karnali ([[karnali-basin]]) |
 | District | Humla |
 | Province | Karnali Pradesh |

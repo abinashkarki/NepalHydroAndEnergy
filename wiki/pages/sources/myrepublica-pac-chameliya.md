@@ -7,6 +7,7 @@ source_type: media
 source_author: myRepublica
 sources: []
 tags: [source, media, chameliya, pac, investigation]
+page_quality: analysis
 ---
 
 # My Republica — PAC Chameliya Investigation

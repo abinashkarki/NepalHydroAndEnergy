@@ -9,6 +9,7 @@ source_date: 2022-01-01
 source_url: https://documents1.worldbank.org/curated/en/955751468000263739/pdf/103889-WP-Ganges-Strategic-Basin-Assessment-A-Discussion-of-Regional-Opportunities-and-Risks-PUBLIC.pdf
 sources: []
 tags: [world-bank, reform, policy, institutional, official]
+page_quality: analysis
 ---
 
 # World Bank Nepal Power Sector Reform Roadmap (2022)

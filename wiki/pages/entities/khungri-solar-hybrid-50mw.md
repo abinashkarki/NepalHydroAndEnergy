@@ -6,6 +6,7 @@ updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25]
 tags: [solar, khungri, pyuthan, lumbini, hybrid, hydro-solar, substation, planned]
 generator: manual
+page_quality: analysis
 ---
 
 # Khungri Solar Hybrid (50 MW, Pyuthan)

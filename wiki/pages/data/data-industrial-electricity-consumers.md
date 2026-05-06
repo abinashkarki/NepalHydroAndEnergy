@@ -6,6 +6,7 @@ updated: 2026-04-30
 figure_type: table
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [industry, consumption, manufacturing, brick, cement, steel, ferroalloy, nepal]
+page_quality: analysis
 ---
 
 # Industrial Electricity Consumers in Nepal

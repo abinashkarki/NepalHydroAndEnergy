@@ -5,6 +5,7 @@ created: 2026-04-30
 updated: 2026-04-30
 sources: [data-layer-nepal-origin-route-callouts, data-layer-nepal-origin-ocean-routes]
 tags: [geopolitics, downstream, bay-of-bengal, delta]
+page_quality: analysis
 ---
 
 # Bay Of Bengal Terminal

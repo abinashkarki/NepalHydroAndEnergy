@@ -7,6 +7,7 @@ source_type: rating-note
 source_author: ICRA Nepal
 sources: []
 tags: [source, financial, icra-nepal, rating, khimti-ii, sahas-urja]
+page_quality: analysis
 ---
 
 # ICRA Nepal — Surveillance Rating A996/B119

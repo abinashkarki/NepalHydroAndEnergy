@@ -6,6 +6,7 @@ updated: 2026-04-30
 figure_type: table
 sources: [nea-annual-report-fy2024-25]
 tags: [geography, province, distribution, consumption, regional, nepal]
+page_quality: analysis
 ---
 
 # Electricity Consumption Geographic Distribution

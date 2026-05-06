@@ -6,6 +6,7 @@ updated: 2026-05-06
 tags: [project, operating, ilam]
 images: []
 generator: auto-stub
+page_quality: record
 ---
 
 # Mai
@@ -20,6 +21,7 @@ generator: auto-stub
 |-----------|-------|
 | Capacity | 22 MW |
 | Status | Operating |
+| Registry licence | Operation |
 | River | Mai Khola |
 | District | Ilam |
 | Province | Province No 1 |

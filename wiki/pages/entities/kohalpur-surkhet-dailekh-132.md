@@ -7,6 +7,7 @@ updated: 2026-04-25
 sources: [nea-annual-report-fy2024-25]
 tags: [transmission, 132kv, karnali, under-construction]
 generator: manual
+page_quality: analysis
 ---
 
 # Kohalpur-Surkhet-Dailekh 132 kV Grid Reach

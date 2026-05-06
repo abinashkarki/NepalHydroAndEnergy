@@ -2,11 +2,12 @@
 title: Kali Gandaki Kowan
 type: entity
 created: 2026-04-20
-updated: 2026-05-02
+updated: 2026-05-06
 sources: [kali-gandaki-a-adb-evaluation]
 tags: [project, under-construction, gandaki]
 images: ['- src: kali-gandaki-kowan/ipsdpv2-p263-img00.png']
 generator: manual
+page_quality: analysis
 ---
 
 # Kali Gandaki-Kowan
@@ -32,7 +33,8 @@ Projects in this capacity range face proportionally higher execution risk. The K
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 400 MW |
-| Status | Under construction (Generation licence) |
+| Status | Under construction |
+| Registry licence | Generation |
 | River | Kali Gandaki ([[gandaki-basin]]) |
 | District | Mustang |
 | Province | Gandaki Pradesh |

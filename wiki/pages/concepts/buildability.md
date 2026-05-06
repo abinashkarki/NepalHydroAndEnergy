@@ -5,6 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [wecs-hydropower-potential-2019, adb-hydropower-growth-nepal, wb-nepal-power-sector-reform-2022]
 tags: [execution, risk, geology, transmission, nepal, screening]
+page_quality: analysis
 ---
 
 # Buildability

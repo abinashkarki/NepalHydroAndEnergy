@@ -6,6 +6,7 @@ updated: 2026-04-25
 figure_type: map-spec
 sources: [wecs-river-basin-plan-2024, nea-annual-report-fy2024-25]
 tags: [maps, geojson, layers, inventory, multimodal]
+page_quality: analysis
 ---
 
 # Map Inventory

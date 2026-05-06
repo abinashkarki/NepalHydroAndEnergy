@@ -6,6 +6,7 @@ updated: 2026-04-21
 figure_type: chart
 sources: [nea-annual-report-fy2024-25]
 tags: [load-curve, peak-demand, lddc, grid, nea]
+page_quality: analysis
 ---
 
 # Nepal Peak Load Curve FY 2024/25
