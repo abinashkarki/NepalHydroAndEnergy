@@ -449,9 +449,9 @@
     }
 
     .result .r-meta {
-      font-size: 10px;
+      font-size: 8px;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.03em;
       color: var(--ink-soft);
       margin-bottom: 4px;
       display: flex;
@@ -1975,15 +1975,15 @@
     /* Page quality badge — reused in nav, fact pages, and other lightweight UI. */
     .pq-chip {
       display: inline-block;
-      margin-left: 6px;
-      padding: 1px 6px;
-      font-size: 10px;
+      margin-left: 4px;
+      padding: 0 3px;
+      font-size: 8px;
       font-weight: 600;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.03em;
       text-transform: uppercase;
       border-radius: 999px;
       vertical-align: 1px;
-      opacity: 0.92;
+      opacity: 0.80;
       line-height: 1.35;
     }
 
@@ -3063,7 +3063,7 @@
       function navItem(it) {
         const sp = spatialSlugs.has(it.slug) ? " spatial" : "";
         const meta = pageMeta.bySlug[it.slug];
-        const pq = meta && meta.page_quality ? meta.page_quality : "";
+        const pq = (meta && meta.category === "entities" && meta.page_quality) ? meta.page_quality : "";
         const badge = pq ? ` <span class="pq-chip pq-${pq}" title="${PQ_TOOLTIP[pq] || pq}">${PQ_LABEL[pq] || pq}</span>` : "";
         return `<a class="nav-link${sp}" data-slug="${it.slug}" href="javascript:void(0)" onclick="openWikiPage('${it.slug}')"><span>${it.title}</span>${badge}</a>`;
       }
