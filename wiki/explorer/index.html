@@ -3307,6 +3307,12 @@
         return `${n.toLocaleString(undefined, { maximumFractionDigits: n >= 100 ? 0 : 2 })} MW`;
       }
 
+      function formatTariff(value) {
+        const n = Number(value);
+        if (!Number.isFinite(n)) return "";
+        return `NPR ${n.toLocaleString(undefined, { maximumFractionDigits: 2 })}/kWh`;
+      }
+
       function escapeHtml(s) {
         return String(s).replace(/[<>&"']/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;", "'": "&#39;" }[c]));
       }
@@ -3731,12 +3737,18 @@
         const pqLabel = (PQ_LABEL[pq] || pq);
         const domainLabel = ({ hydro: "Hydro", solar: "Solar", storage: "Storage" }[fact.domain] || "Fact");
         const rows = [
-          ["Capacity", formatMw(fact.capacity_mw)],
+          [fact.domain === "solar" ? "Capacity (MWp)" : "Capacity", formatMw(fact.capacity_mwp || fact.capacity_mw)],
           ["Status", statusDisplay],
+          ["Procurement", fact.procurement_stage],
           ["District", fact.district],
+          ["Substation", fact.substation],
           ["River / basin", fact.river || fact.basin],
           ["Province", fact.province],
           ["Promoter / owner", fact.promoter],
+          ["Bidder", fact.bidder],
+          ["Tariff", formatTariff(fact.tariff_npr_kwh)],
+          ["Precision", fact.precision_label],
+          ["Location basis", fact.location_basis],
           ["Source", fact.source_note || fact.source_layer],
         ].filter((row) => row[1]);
         const cells = rows.map(([label, value]) => `<div class="fact-cell"><b>${escapeHtml(label)}</b>${escapeHtml(value)}</div>`).join("");

@@ -3,12 +3,18 @@
 from __future__ import annotations
 
 import csv as csv_module
+import datetime as dt
 import difflib
 import json
 import re
 import subprocess
 import sys
 from pathlib import Path
+
+try:
+    import yaml
+except ImportError:
+    yaml = None  # type: ignore[assignment]
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI_PAGES = ROOT / "wiki" / "pages"
@@ -199,6 +205,8 @@ def validate_tracked_hygiene() -> None:
 
 SPECS_CSV_PATH = ROOT / "data" / "project_specs.csv"
 SCHEMA_PATH = ROOT / "wiki" / "specs-schema.json"
+SOLAR_SPECS_CSV_PATH = ROOT / "data" / "solar_project_specs.csv"
+SOLAR_SCHEMA_PATH = ROOT / "wiki" / "solar-specs-schema.json"
 
 STATUS_ENUM = [
     "operating", "under-construction", "survey", "pre-construction",
@@ -441,6 +449,380 @@ def validate_specs_csv(slugs: set[str]) -> None:
     print(f"specs CSV: {len(spec_slugs)} project slugs, {len(fieldnames)} columns")
 
 
+# ---------------------------------------------------------------------------
+# Solar specs validation
+# ---------------------------------------------------------------------------
+
+SOLAR_STATUS_ENUM = ["operating", "planned", "under-construction", "cancelled", "unknown"]
+SOLAR_PROCUREMENT_STAGE_ENUM = ["commissioned", "loi-awarded", "ppa-signed", "planned", "unknown"]
+SOLAR_IS_OPERATING_ENUM = ["TRUE", "FALSE"]
+SOLAR_DEVELOPER_TYPE_ENUM = ["NEA", "IPP", "public-utility", "unknown"]
+SOLAR_CONFIDENCE_ENUM = ["high", "medium", "low", "low-medium"]
+SOLAR_RESOURCE_ZONE_ENUM = ["A", "B1", "B2", "B3", "C1", "C2", "C3", "C4", "D", "E"]
+SOLAR_SITING_ARCHETYPE_ENUM = ["substation-adjacent", "hydro-co-location", "floating-pv", "rooftop-distributed", "off-grid-minigrid", "unknown"]
+
+SOLAR_REQUIRED_COLS = {"slug", "feature_id", "status", "capacity_mwp", "capacity_mw"}
+
+
+def read_solar_specs_csv() -> list[dict[str, str]] | None:
+    if not SOLAR_SPECS_CSV_PATH.exists():
+        return None
+    with SOLAR_SPECS_CSV_PATH.open(newline="", encoding="utf-8-sig") as f:
+        return list(csv_module.DictReader(f))
+
+
+def _validate_solar_schema_contract(fieldnames: set[str], rows: list[dict[str, str]]) -> list[str]:
+    """Small no-dependency validator for the solar CSV's JSON-schema contract."""
+    if not SOLAR_SCHEMA_PATH.exists():
+        return []
+    schema = load_json(SOLAR_SCHEMA_PATH)
+    props = schema.get("properties", {})
+    required = set(schema.get("required", []))
+    allowed_cols = set(props)
+    errs: list[str] = []
+
+    extra_cols = fieldnames - allowed_cols
+    missing_cols = allowed_cols - fieldnames
+    if schema.get("additionalProperties") is False and extra_cols:
+        errs.append("unexpected columns: " + ", ".join(sorted(extra_cols)))
+    if missing_cols:
+        errs.append("missing schema columns: " + ", ".join(sorted(missing_cols)))
+
+    for i, row in enumerate(rows, start=2):
+        label = (row.get("slug") or f"row {i}").strip()
+        for col, spec in props.items():
+            raw = (row.get(col) or "").strip()
+            if col in required and not raw:
+                errs.append(f"{label}: required field '{col}' is blank")
+                continue
+            if not raw:
+                continue
+            enum = spec.get("enum")
+            if enum is not None and raw not in enum:
+                errs.append(f"{label}: '{col}' value '{raw}' not in schema enum")
+                continue
+            typ = spec.get("type")
+            if typ == "number":
+                try:
+                    float(raw)
+                except ValueError:
+                    errs.append(f"{label}: '{col}' must be numeric, got '{raw}'")
+            elif typ == "string":
+                pass
+            else:
+                errs.append(f"{label}: unsupported schema type for '{col}': {typ!r}")
+            if spec.get("format") == "date":
+                try:
+                    dt.date.fromisoformat(raw)
+                except ValueError:
+                    errs.append(f"{label}: '{col}' must be ISO date YYYY-MM-DD, got '{raw}'")
+    return errs
+
+
+def validate_solar_specs_csv(slugs: set[str]) -> None:
+    rows = read_solar_specs_csv()
+    if not rows:
+        return
+    if not rows:
+        fail("data/solar_project_specs.csv is empty")
+    fieldnames = set(rows[0].keys())
+    if "slug" not in fieldnames:
+        fail("data/solar_project_specs.csv missing required 'slug' column")
+    if "feature_id" not in fieldnames:
+        fail("data/solar_project_specs.csv missing required 'feature_id' column")
+    missing = SOLAR_REQUIRED_COLS - fieldnames
+    if missing:
+        fail(f"data/solar_project_specs.csv missing columns: {', '.join(sorted(missing))}")
+
+    schema_errors = _validate_solar_schema_contract(fieldnames, rows)
+    if schema_errors:
+        fail("data/solar_project_specs.csv violates wiki/solar-specs-schema.json:\n  "
+             + "\n  ".join(schema_errors[:40]))
+
+    # Duplicate slugs
+    slug_counter: dict[str, int] = {}
+    for row in rows:
+        s = (row.get("slug") or "").strip()
+        if s:
+            slug_counter[s] = slug_counter.get(s, 0) + 1
+    dupes = {k: v for k, v in slug_counter.items() if v > 1}
+    if dupes:
+        fail("duplicate slugs in solar_project_specs.csv: " + ", ".join(
+            f"{k} ({v}x)" for k, v in sorted(dupes.items())))
+
+    # Duplicate feature_ids
+    fid_counter: dict[str, int] = {}
+    for row in rows:
+        fid = (row.get("feature_id") or "").strip()
+        if fid:
+            fid_counter[fid] = fid_counter.get(fid, 0) + 1
+    fid_dupes = {k: v for k, v in fid_counter.items() if v > 1}
+    if fid_dupes:
+        fail("duplicate feature_id in solar_project_specs.csv: " + ", ".join(
+            f"{k} ({v}x)" for k, v in sorted(fid_dupes.items())))
+
+    # Enum validation
+    errs: list[str] = []
+    for row in rows:
+        s = (row.get("slug") or "").strip()
+        v = (row.get("status") or "").strip().lower()
+        if v and v not in SOLAR_STATUS_ENUM:
+            errs.append(f"{s}: invalid status '{v}'")
+        v = (row.get("procurement_stage") or "").strip().lower()
+        if v and v not in SOLAR_PROCUREMENT_STAGE_ENUM:
+            errs.append(f"{s}: invalid procurement_stage '{v}'")
+        v = (row.get("is_operating") or "").strip()
+        if v and v not in SOLAR_IS_OPERATING_ENUM:
+            errs.append(f"{s}: invalid is_operating '{v}'")
+        v = (row.get("developer_type") or "").strip()
+        if v and v not in SOLAR_DEVELOPER_TYPE_ENUM:
+            errs.append(f"{s}: invalid developer_type '{v}'")
+        v = (row.get("confidence") or "").strip()
+        if v and v not in SOLAR_CONFIDENCE_ENUM:
+            errs.append(f"{s}: invalid confidence '{v}'")
+        v = (row.get("resource_zone") or "").strip()
+        if v and v not in SOLAR_RESOURCE_ZONE_ENUM:
+            errs.append(f"{s}: invalid resource_zone '{v}'")
+        v = (row.get("siting_archetype") or "").strip()
+        if v and v not in SOLAR_SITING_ARCHETYPE_ENUM:
+            errs.append(f"{s}: invalid siting_archetype '{v}'")
+    if errs:
+        fail("invalid solar CSV enum values:\n  " + "\n  ".join(errs[:30]))
+
+    # Orphaned source_slug
+    target_slugs: set[str] = set(slugs)
+    orphaned: list[str] = []
+    for row in rows:
+        source_slug = (row.get("source_slug") or "").strip()
+        if source_slug and source_slug not in target_slugs:
+            s = (row.get("slug") or "").strip()
+            orphaned.append(f"{s}: source_slug '{source_slug}' not found in wiki pages")
+    if orphaned:
+        fail("solar CSV references wiki pages that do not exist:\n  " + "\n  ".join(orphaned[:25]))
+
+    # Collect slugs and check against wiki pages
+    spec_slugs = {row.get("slug", "").strip() for row in rows if row.get("slug", "").strip()}
+    orphaned_pages = spec_slugs - slugs
+    if orphaned_pages:
+        print(f"WARNING: {len(orphaned_pages)} solar CSV slugs with no wiki page: {', '.join(sorted(orphaned_pages)[:20])}")
+    print(f"solar specs CSV: {len(spec_slugs)} project slugs, {len(fieldnames)} columns")
+
+
+# ---------------------------------------------------------------------------
+# Claim integrity
+# ---------------------------------------------------------------------------
+
+REGISTRY_PATH = ROOT / "data" / "claim_registry.yaml"
+
+DASH_NORMALIZE_TABLE = str.maketrans({
+    "\u2013": "-",   # en dash
+    "\u2014": "-",   # em dash
+    "\u2012": "-",   # figure dash
+    "\u2015": "-",   # horizontal bar
+})
+
+
+def _normalize_dashes(text: str) -> str:
+    return text.translate(DASH_NORMALIZE_TABLE)
+
+
+def _extract_frontmatter_field(text: str, field: str) -> str:
+    match = re.search(rf"^{re.escape(field)}:\s*(.+?)\s*$", text, re.MULTILINE)
+    return match.group(1).strip() if match else ""
+
+
+def _as_string_list(value: object, label: str) -> list[str]:
+    if value is None:
+        return []
+    if not isinstance(value, list):
+        fail(f"{label} must be a list")
+    out: list[str] = []
+    for item in value:
+        if not isinstance(item, str):
+            fail(f"{label} must contain only strings")
+        out.append(item)
+    return out
+
+
+def validate_claim_integrity(
+    slugs: set[str],
+    _registry: dict | None = None,
+    _claim_data: dict | None = None,
+    _source_dates: dict | None = None,
+) -> None:
+    if _registry is None:
+        if not REGISTRY_PATH.exists():
+            return
+        if yaml is None:
+            warn("skipping claim integrity because PyYAML is not installed; run with project dependencies to enforce it")
+            return
+        try:
+            _registry = yaml.safe_load(REGISTRY_PATH.read_text(encoding="utf-8"))
+        except yaml.YAMLError as exc:
+            fail(f"data/claim_registry.yaml is not valid YAML: {exc}")
+
+    registry = _registry
+    if not isinstance(registry, dict):
+        fail("data/claim_registry.yaml must be a YAML mapping")
+
+    if registry.get("version") != 1:
+        fail("data/claim_registry.yaml version must be 1")
+
+    metrics: dict[str, dict] = registry.get("metrics") or {}
+    claims: dict[str, dict] = registry.get("claims") or {}
+    if not isinstance(metrics, dict):
+        fail("data/claim_registry.yaml metrics must be a mapping")
+    if not isinstance(claims, dict):
+        fail("data/claim_registry.yaml claims must be a mapping")
+
+    normalized_metrics: dict[str, dict[str, object]] = {}
+    for metric_name, metric_entry in metrics.items():
+        if not isinstance(metric_entry, dict):
+            fail(f"data/claim_registry.yaml metric {metric_name} must be a mapping")
+        normalized_metrics[metric_name] = {
+            "source_slug": (metric_entry.get("source_slug") or "").strip(),
+            "canonical_text": _as_string_list(
+                metric_entry.get("canonical_text"),
+                f"metric {metric_name} canonical_text",
+            ),
+            "deprecated_text": _as_string_list(
+                metric_entry.get("deprecated_text"),
+                f"metric {metric_name} deprecated_text",
+            ),
+        }
+
+    if _claim_data is None:
+        claim_pages: dict[str, str] = {}
+        claim_texts: dict[str, str] = {}
+        claim_updated: dict[str, str] = {}
+        for page_path in sorted((WIKI_PAGES / "claims").glob("*.md")):
+            text = page_path.read_text(encoding="utf-8")
+            slug = page_path.stem
+            cid = _extract_frontmatter_field(text, "claim_id")
+            claim_texts[slug] = text
+            claim_updated[slug] = _extract_frontmatter_field(text, "updated")
+            if cid:
+                claim_pages[slug] = cid
+    else:
+        claim_pages = {slug: d["claim_id"] for slug, d in _claim_data.items() if d.get("claim_id")}
+        claim_texts = {slug: d["text"] for slug, d in _claim_data.items()}
+        claim_updated = {slug: d["updated"] for slug, d in _claim_data.items()}
+
+    cid_to_slugs: dict[str, list[str]] = {}
+    for slug, cid in claim_pages.items():
+        cid_to_slugs.setdefault(cid, []).append(slug)
+    for cid, slug_list in cid_to_slugs.items():
+        if len(slug_list) > 1:
+            fail(f"duplicate claim_id {cid} on pages: {', '.join(slug_list)}")
+
+    if _source_dates is not None:
+        _source_date_cache: dict[str, str] = dict(_source_dates)
+    else:
+        _source_date_cache = {}
+
+    def _source_updated(source_slug: str) -> str:
+        if source_slug in _source_date_cache:
+            return _source_date_cache[source_slug]
+        for category in PAGE_CATEGORIES:
+            path = WIKI_PAGES / category / f"{source_slug}.md"
+            if path.exists():
+                text = path.read_text(encoding="utf-8")
+                date = _extract_frontmatter_field(text, "updated")
+                _source_date_cache[source_slug] = date
+                return date
+        _source_date_cache[source_slug] = ""
+        return ""
+
+    registered_slugs: set[str] = set()
+    used_metrics: set[str] = set()
+
+    for claim_key, claim_entry in claims.items():
+        if not isinstance(claim_entry, dict):
+            fail(f"data/claim_registry.yaml claim {claim_key} must be a mapping")
+
+        slug: str = (claim_entry.get("slug") or "").strip()
+        tier: str = claim_entry.get("tier", "core")
+        if tier not in {"core", "supporting"}:
+            fail(f"data/claim_registry.yaml claim {claim_key} has invalid tier: {tier!r}")
+        depends_on = _as_string_list(claim_entry.get("depends_on"), f"claim {claim_key} depends_on")
+        required_text = _as_string_list(claim_entry.get("required_text"), f"claim {claim_key} required_text")
+        forbidden_text = _as_string_list(claim_entry.get("forbidden_text"), f"claim {claim_key} forbidden_text")
+
+        if not slug:
+            fail(f"data/claim_registry.yaml claim {claim_key} has no slug")
+        registered_slugs.add(slug)
+
+        if slug not in slugs:
+            fail(f"data/claim_registry.yaml claim {claim_key} points to missing slug: {slug}")
+
+        page_cid = claim_pages.get(slug, "")
+        if page_cid != claim_key:
+            fail(f"claim page {slug} has claim_id '{page_cid}' but registry expects '{claim_key}'")
+
+        is_core = tier == "core"
+
+        for metric_name in depends_on:
+            used_metrics.add(metric_name)
+            if metric_name not in normalized_metrics:
+                fail(f"claim {claim_key} depends on unknown metric: {metric_name}")
+            metric = normalized_metrics[metric_name]
+            source_slug = str(metric.get("source_slug") or "").strip()
+            if not source_slug:
+                fail(f"metric {metric_name} has no source_slug")
+            if source_slug not in slugs:
+                fail(f"metric {metric_name} source_slug '{source_slug}' does not exist in wiki")
+            required_text.extend(metric["canonical_text"])  # type: ignore[arg-type]
+            forbidden_text.extend(metric["deprecated_text"])  # type: ignore[arg-type]
+
+        page_text = claim_texts.get(slug, "")
+        normalized_text = _normalize_dashes(page_text)
+
+        for rt in required_text:
+            if _normalize_dashes(rt) not in normalized_text:
+                msg = f"governed claim {slug} missing required text: {rt!r}"
+                if is_core:
+                    fail(msg)
+                else:
+                    warn(msg)
+
+        for ft in forbidden_text:
+            if _normalize_dashes(ft) in normalized_text:
+                msg = f"governed claim {slug} contains forbidden text: {ft!r}"
+                if is_core:
+                    fail(msg)
+                else:
+                    warn(msg)
+
+        claim_date = claim_updated.get(slug, "")
+        if claim_date and depends_on:
+            for metric_name in depends_on:
+                source_slug = str(normalized_metrics[metric_name].get("source_slug") or "").strip()
+                if not source_slug:
+                    continue
+                source_date = _source_updated(source_slug)
+                if source_date and claim_date < source_date:
+                    msg = (
+                        f"governed claim {slug} (updated {claim_date}) is older than "
+                        f"metric source {source_slug} (updated {source_date})"
+                    )
+                    if is_core:
+                        fail(msg)
+                    else:
+                        warn(msg)
+
+    if _claim_data is None:
+        for page_path in sorted((WIKI_PAGES / "claims").glob("*.md")):
+            if page_path.stem not in registered_slugs:
+                warn(f"unregistered claim page: {page_path.stem}")
+    else:
+        for slug in sorted(_claim_data):
+            if slug not in registered_slugs:
+                warn(f"unregistered claim page: {slug}")
+
+    for mn in sorted(set(metrics) - used_metrics):
+        warn(f"metric defined but unused by any claim: {mn}")
+
+
 def main() -> None:
     slugs = wiki_page_slugs()
     validate_wiki_links(slugs)
@@ -450,10 +832,12 @@ def main() -> None:
     validate_map_manifest()
     validate_tracked_hygiene()
     validate_specs_csv(slugs)
+    validate_solar_specs_csv(slugs)
     validate_duplicate_entities(slugs)
     validate_page_generator(slugs)
     validate_source_blocks()
     validate_status_consistency()
+    validate_claim_integrity(slugs)
     print(f"OK: {len(slugs)} wiki pages, caches valid, map manifest valid, tracked hygiene clean")
 
 

@@ -133,6 +133,138 @@ code, pre, .mono { font-family: var(--mono); }
 .markdown .frontmatter.show { display: block; }
 .markdown .placeholder { padding: 50px 0; color: var(--ink-soft); text-align: center; font-family: var(--sans); }
 
+.claim-governance-card {
+  position: relative;
+  margin: 10px 0 20px;
+  padding: 12px 42px 13px 14px;
+  border: 1px solid #d7e3d2;
+  border-left: 4px solid #3f7d5c;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f7fbf5 0%, #ffffff 72%);
+  font-family: var(--sans);
+  color: var(--ink);
+}
+.claim-governance-card .cg-info {
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cbdcc7;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.84);
+  color: #315f46;
+  cursor: help;
+}
+.claim-governance-card .cg-info svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.claim-governance-card .cg-info:hover,
+.claim-governance-card .cg-info:focus {
+  background: #eaf6ed;
+  outline: none;
+}
+.claim-governance-card .cg-topline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.claim-governance-card .cg-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #e4f2e7;
+  color: #22543d;
+  font-weight: 700;
+}
+.claim-governance-card .cg-tooltip {
+  position: absolute;
+  right: -2px;
+  top: calc(100% + 8px);
+  z-index: 20;
+  width: min(340px, calc(100vw - 64px));
+  padding: 9px 11px;
+  border: 1px solid #cbdcc7;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-3px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+}
+.claim-governance-card .cg-info:hover .cg-tooltip,
+.claim-governance-card .cg-info:focus .cg-tooltip,
+.claim-governance-card .cg-info:focus-within .cg-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+.claim-governance-card .cg-title {
+  margin-top: 7px;
+  font-size: 13px;
+  font-weight: 650;
+}
+.claim-governance-card .cg-metrics {
+  list-style: none;
+  margin: 9px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+.claim-governance-card .cg-metrics li {
+  display: grid;
+  grid-template-columns: minmax(130px, 1fr) auto auto;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 0;
+  border-top: 1px solid rgba(63, 125, 92, 0.14);
+  font-size: 12px;
+}
+.claim-governance-card .cg-metric-name {
+  color: var(--ink-soft);
+}
+.claim-governance-card .cg-metric-value {
+  font-family: var(--mono);
+  font-weight: 700;
+  color: #1f5138;
+  text-align: right;
+}
+.claim-governance-card .cg-source {
+  border: 1px solid #cbdcc7;
+  border-radius: 999px;
+  background: #fff;
+  color: #315f46;
+  padding: 2px 7px;
+  font: inherit;
+  font-size: 11px;
+  cursor: pointer;
+}
+.claim-governance-card .cg-source:hover {
+  background: #eaf6ed;
+}
+
 /* Image filmstrip at the top of a wiki page. Compact, horizontally scrolling
    row of thumbs with caption + credit underneath. Click a thumb to open the
    lightbox. Empty/missing images are hidden silently via onerror. */

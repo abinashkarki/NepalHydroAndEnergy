@@ -2,6 +2,7 @@
 """Build structured facts for factual Seek queries in the wiki explorer."""
 from __future__ import annotations
 
+import csv
 import json
 import re
 from pathlib import Path
@@ -63,7 +64,9 @@ def _safe_float(value, default=None):
 
 
 def status_norm(raw: str) -> str:
-    text = str(raw or "").lower()
+    text = str(raw or "").lower().strip()
+    if text in {"operating", "under-construction", "survey", "pre-construction", "stalled", "cancelled", "conceptual", "planned", "unknown"}:
+        return text
     if any(term in text for term in ["pre-construction", "pre construction"]):
         return "pre-construction"
     if "stalled" in text:
@@ -92,6 +95,7 @@ def status_display(value: str) -> str:
         "stalled": "Stalled",
         "cancelled": "Cancelled",
         "conceptual": "Conceptual",
+        "planned": "Planned",
         "unknown": "Unknown",
     }
     return labels.get(str(value or "").strip().lower(), str(value or "").strip())
@@ -117,6 +121,21 @@ def title_slug_lookup() -> dict[str, str]:
 def existing_slugs() -> set[str]:
     meta = json.loads(META.read_text(encoding="utf-8"))
     return {page["slug"] for page in meta.get("pages", [])}
+
+
+SOLAR_SPECS_CSV = ROOT / "data" / "solar_project_specs.csv"
+
+
+def load_solar_specs_lookup() -> dict[str, dict[str, str]]:
+    if not SOLAR_SPECS_CSV.exists():
+        return {}
+    lookup: dict[str, dict[str, str]] = {}
+    with SOLAR_SPECS_CSV.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            fid = (row.get("feature_id") or "").strip()
+            if fid:
+                lookup[fid] = row
+    return lookup
 
 
 def load_features(path: Path) -> list[dict]:
@@ -170,15 +189,24 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
             "under-construction": "hydropower_construction",
             "survey": "hydropower_survey",
         }.get(status, "hydropower_survey")
+    fact_id = f"{domain}:{slugify(name)}"
+    wiki_slug = lookup.get(key) or lookup.get(norm_name(name.replace("HPP", "").replace("HEP", ""))) or ""
+    if layer == "solar_plants":
+        feature_id = str(props.get("id") or props.get("feature_id") or "").strip()
+        if feature_id:
+            key = f"solar:{feature_id}"
+            fact_id = f"solar:{feature_id}"
+        wiki_slug = props.get("_wiki_slug_override") or wiki_slug
     return {
-        "id": f"{domain}:{slugify(name)}",
+        "id": fact_id,
         "key": key,
         "domain": fact_domain,
         "facets": sorted({fact_domain, domain}),
         "name": name,
-        "wiki_slug": lookup.get(key) or lookup.get(norm_name(name.replace("HPP", "").replace("HEP", ""))) or "",
+        "wiki_slug": wiki_slug,
         "capacity_mw": capacity,
         "installed_mw": _safe_float(props.get("installed_mw"), capacity),
+        "capacity_mwp": _safe_float(props.get("capacity_mwp"), capacity),
         "status": status,
         "status_raw": str(raw_status) if raw_status else "",
         "status_display": status_display(props.get("status") or status),
@@ -218,6 +246,19 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
         "developer": props.get("developer") or "",
         "cod_year": props.get("cod_year"),
         "plant_load_factor_pct": _safe_float(props.get("plant_load_factor_pct")),
+        "tariff_npr_kwh": _safe_float(props.get("tariff_npr_kwh")),
+        "is_operating": props.get("is_operating"),
+        "procurement_stage": props.get("procurement_stage") or "",
+        "developer_type": props.get("developer_type") or "",
+        "substation": props.get("substation") or "",
+        "bidder": props.get("bidder") or "",
+        "resource_zone": props.get("resource_zone") or "",
+        "siting_archetype": props.get("siting_archetype") or "",
+        "precision_label": props.get("precision_label") or "",
+        "location_basis": props.get("location_basis") or "",
+        "project_group_slug": props.get("project_group_slug") or "",
+        "registry_slug": props.get("_csv_slug") or props.get("slug") or "",
+        "label_title": props.get("label_title") or "",
     }
 
 
@@ -232,7 +273,13 @@ def merge_fact(old: dict, new: dict) -> dict:
     }
     merged["sources"] = sorted(set(old.get("sources", [])) | set(new.get("sources", [])))
     if source_score.get(new["source_layer"], 0) > source_score.get(old["source_layer"], 0) or better_capacity(new, old):
-        for field in ["capacity_mw", "installed_mw", "rank", "source_layer", "source_note", "confidence"]:
+        for field in [
+            "capacity_mw", "capacity_mwp", "installed_mw", "rank", "source_layer",
+            "source_note", "confidence", "tariff_npr_kwh", "procurement_stage",
+            "developer_type", "substation", "bidder", "resource_zone",
+            "siting_archetype", "precision_label", "location_basis",
+            "project_group_slug", "registry_slug", "label_title",
+        ]:
             if new.get(field) not in (None, ""):
                 merged[field] = new[field]
         if new.get("feature_ref"):
@@ -263,9 +310,24 @@ def merge_fact(old: dict, new: dict) -> dict:
 def main() -> None:
     lookup = title_slug_lookup()
     slugs = existing_slugs()
+    solar_specs = load_solar_specs_lookup()  # feature_id -> CSV row
     facts_by_key: dict[str, dict] = {}
     for domain, layer, path in SOURCES:
         for props in load_features(path):
+            if layer == "solar_plants":
+                feature_id = props.get("id") or ""
+                csv_row = solar_specs.get(feature_id)
+                if csv_row:
+                    csv_slug = (csv_row.get("slug") or "").strip()
+                    group_slug = (csv_row.get("project_group_slug") or "").strip()
+                    props["_csv_slug"] = csv_slug
+                    if csv_slug in slugs:
+                        props["_wiki_slug_override"] = csv_slug
+                    elif group_slug in slugs:
+                        props["_wiki_slug_override"] = group_slug
+                    for field, val in csv_row.items():
+                        if val and field not in ("slug", "feature_id"):
+                            props[field] = val
             fact = fact_from_props(domain, layer, props, lookup)
             if not fact:
                 continue

@@ -67,7 +67,7 @@ The layer stack mixes three kinds of controls: basemaps, evidence layers, and te
 | Label | Features | Short meaning | Page |
 |-------|---------:|---------------|------|
 | Solar resource zones | 6 | Coarse solar resource zones. These are strategic zones, not parcel-level siting decisions. | [[data-layer-solar-ghi-zones]] |
-| Solar plants | 89 | Operating solar plants plus NEA 960 MW award anchors, with approximate-location flags where needed. | [[data-layer-solar-plants-nea-awards]] |
+| Solar plants | 88 | Operating solar plants plus NEA 960 MW award anchors, with approximate-location flags where needed. | [[data-layer-solar-plants-nea-awards]] |
 | Best solar locations | 6 | Strategic suitability bands combining resource value with constraint notes. | [[data-layer-solar-strategic-suitability]] |
 | Floating solar | 5 | Reservoir or future-reservoir floating PV candidates with confidence and capacity-band fields. | [[data-layer-floating-pv-candidates]] |
 

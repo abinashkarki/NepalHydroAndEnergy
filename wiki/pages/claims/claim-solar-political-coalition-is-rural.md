@@ -2,7 +2,7 @@
 title: Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale
 type: claim
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-07
 claim_id: C-016
 confidence: medium
 status: stable
@@ -17,7 +17,8 @@ Nepal's durable solar coalition is not only the utility-scale IPP market. It is 
 
 ## Evidence
 
-- AEPC's solar portfolio spans solar home systems, institutional PV, irrigation pumping, drinking-water pumping, mini-grids, rooftop systems, and solar thermal applications.
+- AEPC's solar portfolio spans solar home systems, institutional PV, irrigation pumping, drinking-water pumping, mini-grids, rooftop systems, and solar thermal applications, including roughly **~1.1 million** cumulative solar home systems.
+- AEPC's distributed base is institutionally large even when project-by-project MW is small: roughly **100+ MWp cumulative solar** spread across households/institutions, plus **~30** operational community mini-grid sites.
 - The AEPC mini-grid programme explicitly mobilizes private developers and ESCOs for renewable mini-grids in access-poor areas, not only central-grid generation.
 - [[rooftop-minigrid-offgrid]] shows that off-grid solar can displace diesel at far higher avoided-cost value than utility solar earns through a grid PPA.
 - [[agrivoltaics-and-land]] shows why a rural coalition matters even for utility solar: land politics is agricultural politics.

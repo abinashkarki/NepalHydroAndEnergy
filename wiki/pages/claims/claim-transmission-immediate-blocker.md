@@ -2,7 +2,7 @@
 title: Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck
 type: claim
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-07
 claim_id: C-019
 confidence: medium-high
 status: verified-with-caveats
@@ -18,7 +18,7 @@ page_quality: analysis
 ## Evidence
 
 - **Monsoon 2025 spill/curtailment narrative (synthesis):** Headline band **700–800 MW** "spilled daily" during surplus periods—signals a **grid/trade absorption** constraint in wet season even when hydrology is abundant.
-- **Cross-border capacity framing:** Approved/usable cross-border transfer magnitudes on the order of **~1,141 MW** (as cited in source materials) lag behind generation expansion stories—export is not just policy willingness but **corridor hardware** and **scheduling**.
+- **Cross-border capacity framing:** The wiki now separates **~1,141 MW** of broader approved cross-border transfer capacity from only **941 MW** of project-specific export approval into India; both still lag generation expansion stories, and both show that export is not just policy willingness but **corridor hardware**, **market approval**, and **scheduling**.
 - **Grid architecture west of Butwal:** Described as legacy **132 kV** constraints in synthesis—bottlenecking westward evacuation and market access patterns that determine realized prices.
 - **Narrative review:** Claims generation is built **5–10× faster than grid** in Nepal's recent development pacing—an institutional/execution asymmetry that shows up as curtailment and stranded energy.
 - **Research synthesis:** Even with continued capacity additions, Nepal lacks **grid and trade architecture commensurate** with the largest hydro ambitions.

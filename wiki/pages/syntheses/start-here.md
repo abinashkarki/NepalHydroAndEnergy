@@ -2,14 +2,14 @@
 title: Start Here
 type: synthesis
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-07
 tags: [overview, guide, public, navigation]
 page_quality: analysis
 ---
 
 # Start Here
 
-This wiki is a public guide to Nepal's electricity system: where power is generated, why the system can have monsoon surplus and winter scarcity at the same time, how transmission and trade shape project value, and why solar, storage, and domestic demand matter alongside hydropower.
+This wiki is a public guide to Nepal's electricity system: where power is generated, why the system can have monsoon surplus and winter scarcity at the same time, how transmission and trade shape project value, and why solar, storage, and domestic demand now sit inside the core hydropower story.
 
 The explorer has two ways in:
 
@@ -34,10 +34,11 @@ The default map lens is **Overview**. It keeps the first view broad on purpose: 
 
 Start with [[nepal-energy-profile]] for the country-level electricity profile. The short version is:
 
-- Nepal's electricity fleet is dominated by hydropower, and most hydropower is run-of-river or peaking run-of-river.
-- The system has moved past chronic load-shedding, but it is still not a firm year-round surplus system.
-- Grid electricity is growing quickly, but it remains a small share of Nepal's total final energy. Biomass and imported petroleum still dominate the broader energy balance.
-- The strategic problem is not simply "build more MW." It is to turn resource potential into firm, connected, financeable, domestically useful power.
+- Nepal's FY 2024/25 electricity system is roughly **3,591 MW total**, including **3,390 MW hydro**; the April 2026 DoED operating registry is higher at **3,792 MW** because it uses a different cut.
+- The fleet is hydropower-dominated, but most hydropower is run-of-river or peaking run-of-river, so annual capacity does not equal dry-season firm power.
+- Grid electricity reached **7.23%** of final energy in the FY 2079/80 WECS balance, but biomass and imported petroleum still dominate Nepal's broader energy system.
+- Export approval and corridor capacity are related but separate: about **941 MW** of project-specific India export approval sits inside a broader **~1,141 MW** cross-border transfer frame.
+- The strategic problem is not simply "build more MW." It is to turn resource potential into firm, connected, financeable, domestically useful power through a hydro + solar + storage + demand portfolio.
 
 ## Use The Map
 
@@ -50,14 +51,14 @@ Start with [[nepal-energy-profile]] for the country-level electricity profile. T
 
 ## Follow The Evidence
 
-The wiki separates interpretation from sources:
+The wiki separates interpretation from sources and data:
 
-- **Claim pages** make investigative arguments backed by evidence. Key claims include:
+- **Claim pages** make tracked arguments backed by source and data pages. The most important claims are now treated as part of the wiki's narrative spine, so their key numbers should match the canonical data pages. Key claims include:
   - [[claim-transmission-immediate-blocker]] — grid delivery is now the binding constraint on monetization.
   - [[claim-storage-physical-fix]] — storage, not more RoR, is the physical solution to the seasonal mismatch.
   - [[claim-mw-not-equal-value]] — installed capacity numbers overstate what the system can actually deliver.
   - [[claim-timing-not-volume]] — Nepal does not have an energy shortage; it has a timing problem.
-  - [[claim-solar-cheaper-than-small-hydro]] — solar now undercuts small-hydro PPA rates on an LCOE basis.
+  - [[claim-solar-cheaper-than-small-hydro]] — new utility solar is now below small RoR on blended tariff, with additional seasonal value.
   - [[claim-climate-harder-not-easier]] — climate change increases hydrological volatility and tail risks.
   - [[claim-governance-binding]] — institutional failures are now the binding constraint, not engineering or finance.
   - [[claim-sediment-core-issue]] — sediment is not an O&M footnote; it is a design constraint that determines project viability.
@@ -72,5 +73,6 @@ Some project pages are registry-backed project records. They preserve capacity, 
 - For the main argument: [[master-thesis]] -> [[bottleneck-hierarchy]] -> [[twenty-year-strategy]].
 - For the hydropower system: [[run-of-river-hydropower]] -> [[seasonal-mismatch]] -> [[storage-deficit]] -> [[firm-power]].
 - For delivery and trade: [[stranded-generation]] -> [[claim-transmission-immediate-blocker]] -> [[india-energy-relationship]].
+- For the data spine behind the claims: [[data-final-energy-mix]] -> [[data-domestic-demand]] -> [[data-trade-time-series]] -> [[data-solar-hydro-lcoe]].
 - For the broader energy transition: [[data-final-energy-mix]] -> [[energy-substitution-pathway]] -> [[domestic-led-hydro-strategy]].
 - For solar's role: [[solar-in-the-master-narrative]] -> [[solar-hydro-complementarity]] -> [[solar-role-in-winter-deficit]].

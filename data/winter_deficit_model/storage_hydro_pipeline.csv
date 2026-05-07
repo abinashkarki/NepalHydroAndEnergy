@@ -1,0 +1,6 @@
+project_slug,project_label,installed_mw,annual_energy_gwh,dry_energy_gwh,dry_share_pct,commission_year,post_2035,scenario_risk,status,source_note
+tanahu-hydropower,Tanahu,140,502.58,200,,2026,False,False,under-construction,"NEA annual report FY 2024/25; COD 2026 per Toshiba EPC confirmation; dry_energy estimated at ~40% of annual for 4-month winter window"
+dudhkoshi-storage,Dudhkoshi Storage,670,3377,1252,37.1,2035,False,True,pre-construction,"nepal_storage_dry_energy_shortlist.csv (1252 GWh dry at 37.1%); Global Energy Monitor planned COD 2031, AIIB docs suggest 2033-34; aggressive but plausible for 2035"
+budhigandaki,Budhigandaki,1200,3380,1410,42.0,2036,True,True,pre-construction,"project_specs.csv (1410 GWh dry at 42%, COD 2036); construction start 2028 per SpotlightNepal Jan 2026 report; post-2035 per current planning"
+uttarganga-storage,Uttarganga Storage,,,,,2036,True,True,survey,"solar-role-in-winter-deficit.md L35; early-stage survey, no definitive timeline"
+mugu-karnali-storage,Mugu Karnali Storage,,,,,2036,True,True,survey,"solar-role-in-winter-deficit.md L35; early-stage survey, no definitive timeline"

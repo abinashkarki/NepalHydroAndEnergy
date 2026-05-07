@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 267,
-  "total_refs": 2158,
+  "total_targets": 281,
+  "total_refs": 2294,
   "backlinks": {
     "ad-penalties": [
       {
@@ -448,7 +448,7 @@
         "slug": "ankhu-khola",
         "title": "Ankhu Khola",
         "category": "entities",
-        "context": "…]] - [[q-design-discharge]] - [[run-of-river-hydropower]] - buildability",
+        "context": "…]] - [[q-design-discharge]] - [[run-of-river-hydropower]] - buildability ## Sources - [[sector-financial-analysis-triple-authority…",
         "target_exists": true
       },
       {
@@ -469,7 +469,7 @@
         "slug": "bheri-1",
         "title": "Bheri-1 HEP",
         "category": "entities",
-        "context": "…ropower project dataset ## See also - [[karnali-basin]] - buildability - [[claim-mw-not-equal-value]] - [[data-ipsdp-milestone-lad…",
+        "context": "…psdp-exec-summary-2025]] ## See also - [[karnali-basin]] - buildability - [[claim-mw-not-equal-value]] - [[data-ipsdp-milestone-lad…",
         "target_exists": true
       },
       {
@@ -539,7 +539,7 @@
         "slug": "kali-gandaki-kowan",
         "title": "Kali Gandaki Kowan",
         "category": "entities",
-        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability",
+        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability ## Sources - [[kali-gandaki-a-adb-evaluation]]",
         "target_exists": true
       },
       {
@@ -567,7 +567,7 @@
         "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
-        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability - [[arun-3]] - [[data-ipsdp-milestone-ladder-2022-2040]] -…",
+        "context": "…-ipsdp-exec-summary-2025]] ## See also - [[koshi-basin]] - buildability - [[arun-3]] - [[data-ipsdp-milestone-ladder-2022-2040]] -…",
         "target_exists": true
       },
       {
@@ -616,7 +616,7 @@
         "slug": "lower-solu",
         "title": "Lower Solu Hydropower Project",
         "category": "entities",
-        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability - [[sahas-urja-benchmark-icra-2026]]",
+        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability - [[sahas-urja-benchmark-icra-2026]] ## Sources - [[sahas…",
         "target_exists": true
       },
       {
@@ -665,21 +665,21 @@
         "slug": "sanjen-khola",
         "title": "Sanjen Khola",
         "category": "entities",
-        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability",
+        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability ## Sources - [[nea-annual-report-fy2024-25]]",
         "target_exists": true
       },
       {
         "slug": "super-madi",
         "title": "Super Madi",
         "category": "entities",
-        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability",
+        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability ## Sources - [[nea-annual-report-fy2024-25]]",
         "target_exists": true
       },
       {
         "slug": "super-trishuli",
         "title": "Super Trishuli",
         "category": "entities",
-        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability",
+        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability ## Sources - [[nea-annual-report-fy2024-25]]",
         "target_exists": true
       },
       {
@@ -693,7 +693,7 @@
         "slug": "tamakoshi-3",
         "title": "Tamakoshi 3",
         "category": "entities",
-        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - buildability - [[upper-tamakoshi]] - [[data-ipsdp-milestone-ladder-2022-…",
+        "context": "…-ipsdp-exec-summary-2025]] ## See also - [[koshi-basin]] - buildability - [[upper-tamakoshi]] - [[data-ipsdp-milestone-ladder-2022-…",
         "target_exists": true
       },
       {
@@ -742,7 +742,7 @@
         "slug": "upper-tamor",
         "title": "Upper Tamor",
         "category": "entities",
-        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability",
+        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability ## Sources - [[moewri-ipsdp-exec-summary-2025]]",
         "target_exists": true
       },
       {
@@ -756,14 +756,14 @@
         "slug": "upper-trishuli-3b",
         "title": "Upper Trishuli 3B",
         "category": "entities",
-        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability - [[ppa-data-retrieval-icra-care-2026]]",
+        "context": "…specs:end --> ## See Also - [[run-of-river-hydropower]] - buildability - [[ppa-data-retrieval-icra-care-2026]] ## Sources - [[pp…",
         "target_exists": true
       },
       {
         "slug": "uttarganga-storage",
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
-        "context": "…/nea/nea_transmission_annual_book_2077.pdf) ## See also - buildability - [[storage-deficit]] - [[data-ipsdp-milestone-ladder-2022-…",
+        "context": "…-2077]] - [[moewri-ipsdp-exec-summary-2025]] ## See also - buildability - [[storage-deficit]] - [[data-ipsdp-milestone-ladder-2022-…",
         "target_exists": true
       },
       {
@@ -840,7 +840,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…d timelines. None of the named projects is COD before 2027; buildability concerns are severe ([[budhigandaki]] has been at \"planning…",
+        "context": "…none of the remaining storage projects has COD before 2035; buildability concerns are severe ([[budhigandaki]] has been at \"planning…",
         "target_exists": true
       },
       {
@@ -1436,6 +1436,13 @@
         "target_exists": true
       },
       {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - nea-annual-report-fy2024-25 - [[icra-nepal-surveillance-a996-b119]] <!-- generated:sou…",
+        "target_exists": true
+      },
+      {
         "slug": "khudi-220-132kv-substation",
         "title": "Khudi 220/132 kV Substation",
         "category": "entities",
@@ -1464,6 +1471,20 @@
         "target_exists": true
       },
       {
+        "slug": "kulekhani-iii",
+        "title": "Kulekhani III",
+        "category": "entities",
+        "context": "…hat Nepal has built exactly one such system. ## Sources - nea-annual-report-fy2024-25 - [[sangroula-ntnu-kulekhani-bathymetry]] ## See also - […",
+        "target_exists": true
+      },
+      {
+        "slug": "madhya-marsyangdi",
+        "title": "Madhya Marsyangdi",
+        "category": "entities",
+        "context": "…like. Every NEA plant eventually follows it. ## Sources - nea-annual-report-fy2024-25 ## See also - [[gandaki-basin]] — the Marsyangdi feeds the…",
+        "target_exists": true
+      },
+      {
         "slug": "markichowk-220-132kv-substation",
         "title": "Markichowk 220/132 kV Substation",
         "category": "entities",
@@ -1478,10 +1499,38 @@
         "target_exists": true
       },
       {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - nea-annual-report-fy2024-25 - [[urja-khabar-generation-audit]] <!-- generated:sources:…",
+        "target_exists": true
+      },
+      {
         "slug": "nea-960mw-solar-tender",
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…arently | ## Related - [[nea-solar]] — programme parent - nea-annual-report-fy2024-25 — primary source - [[solar-lcoe-crossover]] — the price sto…",
+        "context": "…a-solar-loi-2024]] — corrected row-level LoI award source - nea-annual-report-fy2024-25 — programme context - [[solar-lcoe-crossover]] — the price…",
+        "target_exists": true
+      },
+      {
+        "slug": "sanjen-khola",
+        "title": "Sanjen Khola",
+        "category": "entities",
+        "context": "…run-of-river-hydropower]] - [[buildability]] ## Sources - nea-annual-report-fy2024-25",
+        "target_exists": true
+      },
+      {
+        "slug": "super-madi",
+        "title": "Super Madi",
+        "category": "entities",
+        "context": "…run-of-river-hydropower]] - [[buildability]] ## Sources - nea-annual-report-fy2024-25",
+        "target_exists": true
+      },
+      {
+        "slug": "super-trishuli",
+        "title": "Super Trishuli",
+        "category": "entities",
+        "context": "…run-of-river-hydropower]] - [[buildability]] ## Sources - nea-annual-report-fy2024-25",
         "target_exists": true
       },
       {
@@ -1503,6 +1552,34 @@
         "title": "Trishuli",
         "category": "entities",
         "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - NEA Annual Report FY 2024/25 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…[chilime-trishuli-220kv-transmission-line]]. ## Sources - nea-annual-report-fy2024-25 ## See also - [[upper-trishuli-3a]] - [[upper-trishuli-3b]…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - nea-annual-report-fy2024-25 - [[doed-licensing-directive-2075]] <!-- generated:sources…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-bhotekoshi",
+        "title": "Upper Bhotekoshi",
+        "category": "entities",
+        "context": "…oED-linked public hydropower project dataset ## Sources - nea-annual-report-fy2024-25 ## See also - [[koshi-basin]] - [[run-of-river-hydropower]…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-marsyangdi-a",
+        "title": "Upper Marsyangdi A",
+        "category": "entities",
+        "context": "…[[gandaki-basin]] and [[seasonal-mismatch]]. ## Sources - nea-annual-report-fy2024-25 ## See also - [[madhya-marsyangdi]] — the downstream 70 MW…",
         "target_exists": true
       },
       {
@@ -1898,7 +1975,7 @@
         "slug": "claim-systems-conversion-failure",
         "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
         "category": "claims",
-        "context": "…ed-generation]]) → fragile offtake and trade architecture → hydro-geopolitics and governance frictions. - **Cross-source finding:** Echo…",
+        "context": "…ed-generation]]) → fragile offtake and trade architecture → hydro-geopolitics and governance frictions. - **Current numeric anchors:** th…",
         "target_exists": true
       },
       {
@@ -2033,7 +2110,7 @@
         "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
-        "context": "…aldaily.com/news/71448) ## See also - [[karnali-basin]] - stranded-generation - [[buildability]] - [[upper-karnali]] - [[data-ipsdp-miles…",
+        "context": "…psdp-exec-summary-2025]] ## See also - [[karnali-basin]] - stranded-generation - [[buildability]] - [[upper-karnali]] - [[data-ipsdp-miles…",
         "target_exists": true
       },
       {
@@ -2138,7 +2215,7 @@
         "slug": "upper-trishuli-1",
         "title": "Upper Trishuli-1",
         "category": "entities",
-        "context": "…ropower project dataset ## See also - [[gandaki-basin]] - stranded-generation - [[data-ipsdp-milestone-ladder-2022-2040]] - [[data-layer-…",
+        "context": "…psdp-exec-summary-2025]] ## See also - [[gandaki-basin]] - stranded-generation - [[data-ipsdp-milestone-ladder-2022-2040]] - [[data-layer-…",
         "target_exists": true
       },
       {
@@ -2548,7 +2625,7 @@
         "slug": "madhya-bhotekoshi",
         "title": "Madhya Bhotekoshi",
         "category": "entities",
-        "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - chilime - [[sector-financial-analysis-triple-authority-2026]]",
+        "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - chilime - [[sector-financial-analysis-triple-authority-2026]] ## S…",
         "target_exists": true
       },
       {
@@ -2576,7 +2653,7 @@
         "slug": "sanjen",
         "title": "Sanjen",
         "category": "entities",
-        "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - chilime - [[sector-financial-analysis-triple-authority-2026]]",
+        "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - chilime - [[sector-financial-analysis-triple-authority-2026]] ## S…",
         "target_exists": true
       },
       {
@@ -2636,12 +2713,657 @@
         "target_exists": true
       }
     ],
+    "sahas-urja": [
+      {
+        "slug": "clickmandu-financial-reporting",
+        "title": "\"Clickmandu — Sahas Urja Financial Reporting\"",
+        "category": "sources",
+        "context": "…Summary This page anchors Clickmandu reporting used in the sahas-urja profile for recent financial-performance claims and public-…",
+        "target_exists": true
+      },
+      {
+        "slug": "himalayan-capital-analysis",
+        "title": "\"Himalayan Capital — Sahas Urja Analysis\"",
+        "category": "sources",
+        "context": "…s page anchors secondary market-analysis references used in sahas-urja for investor-facing interpretation of the company's perform…",
+        "target_exists": true
+      },
+      {
+        "slug": "icra-nepal-surveillance-a996-b119",
+        "title": "\"ICRA Nepal — Surveillance Rating A996/B119\"",
+        "category": "sources",
+        "context": "…ly used for project-financial and performance claims around sahas-urja and [[khimti-ii]]. ## What It Is Used For - Sahas Urja re…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-data-retrieval-icra-care-2026",
+        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "category": "sources",
+        "context": "…ority-2026]] - [[ppa-pricing]] - [[nea-triple-authority]] - sahas-urja - [[chilime]] - [[rasuwagadhi]] - [[upper-trishuli-3b]]",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja-benchmark-icra-2026",
+        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
+        "category": "sources",
+        "context": "…6]] - [[sector-financial-analysis-triple-authority-2026]] - sahas-urja - [[ppa-pricing]] - [[q-design-discharge]]",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja-progress-report-w010",
+        "title": "\"Sahas Urja — Progress Report W010\"",
+        "category": "sources",
+        "context": "…is page anchors the company progress-report source cited in sahas-urja for project timeline, PPA structure, contracted-energy, and…",
+        "target_exists": true
+      },
+      {
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower",
+        "category": "entities",
+        "context": "…llion/MW**, roughly 3–5× the global benchmark. For context, sahas-urja (86 MW, private IPP) was built at ~NPR 172–175 million/MW (…",
+        "target_exists": true
+      },
+      {
+        "slug": "tingla-132-33kv-substation",
+        "title": "Tingla 132/33 kV Substation",
+        "category": "entities",
+        "context": "…sion-landscape-2025]] synthesis. ## See also - [[solu]] - sahas-urja - [[claim-transmission-immediate-blocker]] - [[nepal-transm…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…wer]] — primary audited case study of penalty enforcement - sahas-urja — why the standard IPP rate succeeds only at exceptional sc…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…ale and cost discipline unavailable to most developers. See sahas-urja. **NOTE 4 — Upper Chameliya seasonal modality:** Unlike th…",
+        "target_exists": true
+      }
+    ],
+    "data-solar-fleet-inventory": [
+      {
+        "slug": "doed-solar-power-plants-table",
+        "title": "DoED Power Plants: Solar Table",
+        "category": "sources",
+        "context": "…should not be used for parcel-level siting. ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "irena-remap-nepal",
+        "title": "IRENA Renewable Readiness Assessment and REmap Nepal",
+        "category": "sources",
+        "context": "…ction (~15,000–25,000 MWp) matters for real planning**; see data-solar-fleet-inventory potential pyramid. - IRENA REmap pathways are **normative s…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-solar-loi-2024",
+        "title": "NEA Notice of Intent to Award Solar Projects (2024)",
+        "category": "sources",
+        "context": "…erating plants. ## Related - [[nea-960mw-solar-tender]] - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]]",
+        "target_exists": true
+      },
+      {
+        "slug": "bel-chautara-solar",
+        "title": "\"Bel Chautara Solar Farm Project\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "chandranigahpur-solar",
+        "title": "\"Chandranigahpur Solar Project\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ddb-saurya",
+        "title": "\"DDB Saurya Vidyut Aayojana\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar",
+        "title": "\"Dharamnagar Solar Farm Project\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "shivasatakshi-jhapa",
+        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ramgram-solar",
+        "title": "\"Grid Connected Solar PV Project, Ramgram\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-3mw",
+        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "jira-bhawani-sedawa",
+        "title": "\"Jira Bhawani Sedawa PV Project\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-energy-lalitpur",
+        "title": "\"Solar Energy\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-1mw",
+        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "simara-solar",
+        "title": "\"Solar Power Project, Simara 11 kV S/S\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "pratappur-solar",
+        "title": "\"Solar PV Pratappur\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "banke-block-2",
+        "title": "\"Solar PV Project Banke, block-2\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "raniyapur-block-1",
+        "title": "\"Solar PV Project, Raniyapur, Block 1\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "som-radha-krishna",
+        "title": "\"Som Radha Krishna Solar Farm Project\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "morang-utility-solar",
+        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
+        "category": "entities",
+        "context": "…urce** | [[doed-solar-power-plants-table]] | ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "bidur-trishuli-solar-25mwp",
+        "title": "Bidur / Trishuli 25 MWp Solar Farm",
+        "category": "entities",
+        "context": "…on - [[nea-960mw-solar-tender]] — the successor programme - data-solar-fleet-inventory — the fleet this plant anchors",
+        "target_exists": true
+      },
+      {
+        "slug": "bishnu-priya-nawalparasi",
+        "title": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)",
+        "category": "entities",
+        "context": "…5mwp]], [[mithila-solar-dhanusha-10mwp]] — Phase I cohort - data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "butwal-solar-ridi-8-5mwp",
+        "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
+        "category": "entities",
+        "context": "…haratpur-bardaghat-corridor]] — grid the plant feeds into - data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "khungri-solar-hybrid-50mw",
+        "title": "Khungri Solar Award (50 MW, Rolpa)",
+        "category": "entities",
+        "context": "…idur-trishuli-solar-25mwp]] — precedent, if unintentional - data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "mithila-solar-dhanusha-10mwp",
+        "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
+        "category": "entities",
+        "context": "…kbone - [[dhalkebar-muzaffarpur]] — adjacent cross-border - data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-960mw-solar-tender",
+        "title": "NEA 960 MW National Solar Tender",
+        "category": "entities",
+        "context": "…ar-lcoe-crossover]] — the price story this tender anchors - data-solar-fleet-inventory — the fleet this tender expands - [[data-solar-hydro-lcoe]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-solar",
+        "title": "NEA Solar Programme",
+        "category": "entities",
+        "context": "…id-solar-ee-project]] — the financing anchor for Phase II - data-solar-fleet-inventory — the full portfolio - [[solar-lcoe-crossover]] — the tarif…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-solar-plants-nea-awards",
+        "title": "Layer: Solar Plants + NEA 960 MW Awards",
+        "category": "data",
+        "context": "…site boundary. ## Related - [[nea-960mw-solar-tender]] - data-solar-fleet-inventory - [[claim-floating-pv-leverage]] - [[claim-solar-terai-only…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory",
+        "category": "data",
+        "context": "…system preset** tying [[data-nepal-solar-resource-zones]], data-solar-fleet-inventory, [[nea-960mw-solar-tender]], and [[claim-floating-pv-levera…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-nepal-solar-resource-zones",
+        "title": "Nepal Solar Resource Zones",
+        "category": "data",
+        "context": "…ned + tendered utility plants (status-coded symbology). See data-solar-fleet-inventory. 3. ** ** — derived polygon combining Zon…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-rooftop-shs-deployment",
+        "title": "Rooftop and Solar Home System Deployment",
+        "category": "data",
+        "context": "…]] — concept companion - [[aepc]] — institutional context - data-solar-fleet-inventory — utility-scale analogue - [[eib-rural-solar-phase2]] — the…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-solar-hydro-lcoe",
+        "title": "Solar and Hydro LCOE",
+        "category": "data",
+        "context": "…onal-arbitrage-trap]] — the time-weighted valuation frame - data-solar-fleet-inventory — the MW this pricing is being applied to - [[data-solar-hy…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-solar-hydro-complementarity-profile",
+        "title": "Solar–Hydro Complementarity Profile",
+        "category": "data",
+        "context": "…[[data-solar-hydro-lcoe]] — the price driving deployment - data-solar-fleet-inventory — the MW this profile applies to",
+        "target_exists": true
+      }
+    ],
+    "data-layer-solar-plants-nea-awards": [
+      {
+        "slug": "doed-solar-power-plants-table",
+        "title": "DoED Power Plants: Solar Table",
+        "category": "sources",
+        "context": "…vel siting. ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-solar-loi-2024",
+        "title": "NEA Notice of Intent to Award Solar Projects (2024)",
+        "category": "sources",
+        "context": "…nea-960mw-solar-tender]] - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards",
+        "target_exists": true
+      },
+      {
+        "slug": "bel-chautara-solar",
+        "title": "\"Bel Chautara Solar Farm Project\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "chandranigahpur-solar",
+        "title": "\"Chandranigahpur Solar Project\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ddb-saurya",
+        "title": "\"DDB Saurya Vidyut Aayojana\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar",
+        "title": "\"Dharamnagar Solar Farm Project\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "shivasatakshi-jhapa",
+        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "ramgram-solar",
+        "title": "\"Grid Connected Solar PV Project, Ramgram\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-3mw",
+        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "jira-bhawani-sedawa",
+        "title": "\"Jira Bhawani Sedawa PV Project\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-energy-lalitpur",
+        "title": "\"Solar Energy\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-1mw",
+        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "simara-solar",
+        "title": "\"Solar Power Project, Simara 11 kV S/S\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "pratappur-solar",
+        "title": "\"Solar PV Pratappur\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "banke-block-2",
+        "title": "\"Solar PV Project Banke, block-2\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "raniyapur-block-1",
+        "title": "\"Solar PV Project, Raniyapur, Block 1\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "som-radha-krishna",
+        "title": "\"Som Radha Krishna Solar Farm Project\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "morang-utility-solar",
+        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
+        "category": "entities",
+        "context": "…s-table]] | ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…d storage-like projects with dry-season system value. - Use data-layer-solar-plants-nea-awards and [[data-layer-solar-ghi-zones]] for solar assets and res…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…rd anchors, with approximate-location flags where needed. | data-layer-solar-plants-nea-awards | | Best solar locations | 6 | Strategic suitability bands…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-solar-fleet-inventory",
+        "title": "Solar Fleet Inventory",
+        "category": "data",
+        "context": "…y is in and the mapped layer data-layer-solar-plants-nea-awards. **Of which:** - NEA-owned: **~24.36 MWp** in the Bidur /…",
+        "target_exists": true
+      }
+    ],
+    "nea-solar": [
+      {
+        "slug": "doed-solar-power-plants-table",
+        "title": "DoED Power Plants: Solar Table",
+        "category": "sources",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "bel-chautara-solar",
+        "title": "\"Bel Chautara Solar Farm Project\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "chandranigahpur-solar",
+        "title": "\"Chandranigahpur Solar Project\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "ddb-saurya",
+        "title": "\"DDB Saurya Vidyut Aayojana\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar",
+        "title": "\"Dharamnagar Solar Farm Project\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "shivasatakshi-jhapa",
+        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "ramgram-solar",
+        "title": "\"Grid Connected Solar PV Project, Ramgram\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-3mw",
+        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "jira-bhawani-sedawa",
+        "title": "\"Jira Bhawani Sedawa PV Project\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-energy-lalitpur",
+        "title": "\"Solar Energy\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-1mw",
+        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "simara-solar",
+        "title": "\"Solar Power Project, Simara 11 kV S/S\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "pratappur-solar",
+        "title": "\"Solar PV Pratappur\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "banke-block-2",
+        "title": "\"Solar PV Project Banke, block-2\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "raniyapur-block-1",
+        "title": "\"Solar PV Project, Raniyapur, Block 1\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "som-radha-krishna",
+        "title": "\"Som Radha Krishna Solar Farm Project\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "morang-utility-solar",
+        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
+        "category": "entities",
+        "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "bidur-trishuli-solar-25mwp",
+        "title": "Bidur / Trishuli 25 MWp Solar Farm",
+        "category": "entities",
+        "context": "…lt for the 960 MW tender is correctly Terai. ## Related - nea-solar — programme context - [[wb-grid-solar-ee-project]] — financ…",
+        "target_exists": true
+      },
+      {
+        "slug": "bishnu-priya-nawalparasi",
+        "title": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)",
+        "category": "entities",
+        "context": "…A FY 2024/25 annual report inventory tables. ## Related - nea-solar - [[butwal-solar-ridi-8-5mwp]], [[mithila-solar-dhanusha-10…",
+        "target_exists": true
+      },
+      {
+        "slug": "butwal-solar-ridi-8-5mwp",
+        "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
+        "category": "entities",
+        "context": "…are locked in and they continue to operate. ## Related - nea-solar — programme context - [[mithila-solar-dhanusha-10mwp]], [[b…",
+        "target_exists": true
+      },
+      {
+        "slug": "karnali-solar-energy-project",
+        "title": "Karnali Solar Energy Project",
+        "category": "entities",
+        "context": "…nitoring report for the programme ## Related - [[aepc]] - nea-solar - [[rooftop-minigrid-offgrid]] - [[karnali-basin]] — geogra…",
+        "target_exists": true
+      },
+      {
+        "slug": "khungri-solar-hybrid-50mw",
+        "title": "Khungri Solar Award (50 MW, Rolpa)",
+        "category": "entities",
+        "context": "…gic]] — related siting concept, pending stronger evidence - nea-solar — programme parent - [[bidur-trishuli-solar-25mwp]] — prece…",
+        "target_exists": true
+      },
+      {
+        "slug": "mithila-solar-dhanusha-10mwp",
+        "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
+        "category": "entities",
+        "context": "…ing the Phase IV tender at near-LCOE prices. ## Related - nea-solar - [[butwal-solar-ridi-8-5mwp]], [[bishnu-priya-nawalparasi]…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-960mw-solar-tender",
+        "title": "NEA 960 MW National Solar Tender",
+        "category": "entities",
+        "context": "…rice disclosure | Tender ran transparently | ## Related - nea-solar — programme parent - [[nea-solar-loi-2024]] — corrected row…",
+        "target_exists": true
+      }
+    ],
     "dudhkoshi-storage": [
       {
         "slug": "dudhkoshi-nea-proposal-2024",
         "title": "Dudhkoshi Storage — NEA Proposal & Feasibility Record",
         "category": "sources",
         "context": "…the same river system is directly relevant) ## See also - dudhkoshi-storage - [[glof-risk]] - [[storage-deficit]]",
+        "target_exists": true
+      },
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola",
+        "category": "entities",
+        "context": "…n energy, it is not a mega-project like [[budhigandaki]] or dudhkoshi-storage, but it is large enough to matter in a portfolio of medium…",
         "target_exists": true
       },
       {
@@ -2732,7 +3454,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…) + [[budhigandaki]] (1,200 MW, COD speculative ~2032–35) + dudhkoshi-storage (~635 MW, COD speculative ~2033+) + [[uttarganga-storage]]…",
+        "context": "…D 2026 — under construction, 67% complete as of mid-2025) + dudhkoshi-storage (670 MW, COD ambitious ~2035). ([[budhigandaki]] 1,200 MW e…",
         "target_exists": true
       },
       {
@@ -2775,6 +3497,13 @@
         "title": "Storage Capacity Comparison",
         "category": "data",
         "context": "…-------:|-----------------:|----------:|----------------| | dudhkoshi-storage | [[koshi-basin]] | 670 | **1,252.0** | **37.1%** | Stronge…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…igandaki]] — the 1,200 MW storage project quantified here - dudhkoshi-storage — the 670 MW storage project in the 2035 full portfolio - […",
         "target_exists": true
       }
     ],
@@ -3307,6 +4036,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…power]] — the 140 MW storage project, first to commission - storage-deficit — the framing page for Nepal's storage gap - [[seasonal-mis…",
+        "target_exists": true
+      },
+      {
         "slug": "intervention-electric-cooking-transition",
         "title": "Electric Cooking Transition",
         "category": "interventions",
@@ -3372,13 +4108,6 @@
         "target_exists": true
       },
       {
-        "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
-        "category": "entities",
-        "context": "…ed with Madi Khola and Lungri Khola hydropower) | | **Zone (solar-resource-geography-nepal)** | C4 — Western mid-hills (elevation ~1,300–1,800 m) | |…",
-        "target_exists": true
-      },
-      {
         "slug": "mithila-solar-dhanusha-10mwp",
         "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
         "category": "entities",
@@ -3431,7 +4160,7 @@
         "slug": "claim-solar-terai-only-short-cycle-build",
         "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
         "category": "claims",
-        "context": "…ycle compression is possible. - [[hybrid-siting-logic]] and solar-resource-geography-nepal show why the strategic variable is not just GHI; it is GHI…",
+        "context": "…, and **~5,000 MWp by 2035**. - [[hybrid-siting-logic]] and solar-resource-geography-nepal show why the strategic variable is not just GHI; it is GHI…",
         "target_exists": true
       },
       {
@@ -3465,6 +4194,13 @@
         "target_exists": true
       },
       {
+        "slug": "nea-solar-loi-2024",
+        "title": "NEA Notice of Intent to Award Solar Projects (2024)",
+        "category": "sources",
+        "context": "…records, not commissioned operating plants. ## Related - nea-960mw-solar-tender - [[data-solar-fleet-inventory]] - [[data-layer-solar-plant…",
+        "target_exists": true
+      },
+      {
         "slug": "wb-grid-solar-ee-project",
         "title": "World Bank Grid Solar and Energy Efficiency Project",
         "category": "sources",
@@ -3483,6 +4219,13 @@
         "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
         "category": "entities",
         "context": "…bstations, validating the siting logic later encoded in the nea-960mw-solar-tender. 3. **Phase I tariffs (~NPR 8/kWh) are now above market.**…",
+        "target_exists": true
+      },
+      {
+        "slug": "khungri-solar-hybrid-50mw",
+        "title": "Khungri Solar Award (50 MW, Rolpa)",
+        "category": "entities",
+        "context": "…Related - [[nea-solar-loi-2024]] — row-level LoI source - nea-960mw-solar-tender — procurement parent - [[hybrid-siting-logic]] — related si…",
         "target_exists": true
       },
       {
@@ -3587,9 +4330,9 @@
       },
       {
         "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
+        "title": "Khungri Solar Award (50 MW, Rolpa)",
         "category": "entities",
-        "context": "…onal implementation of the hybrid siting logic** encoded in hybrid-siting-logic, at a meaningful scale: ### 1. It is the template for Arch…",
+        "context": "…evacuation corridors can overlap. That makes it relevant to hybrid-siting-logic, but the LoI record alone does not prove shared hydro-solar…",
         "target_exists": true
       },
       {
@@ -3645,7 +4388,7 @@
         "slug": "claim-solar-terai-only-short-cycle-build",
         "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
         "category": "claims",
-        "context": "…the geography where build cycle compression is possible. - hybrid-siting-logic and [[solar-resource-geography-nepal]] show why the strateg…",
+        "context": "…28**, **~3,500 MWp by 2032**, and **~5,000 MWp by 2035**. - hybrid-siting-logic and [[solar-resource-geography-nepal]] show why the strateg…",
         "target_exists": true
       },
       {
@@ -4405,6 +5148,29 @@
         "target_exists": true
       }
     ],
+    "sahas-urja-benchmark-icra-2026": [
+      {
+        "slug": "himalayan-capital-analysis",
+        "title": "\"Himalayan Capital — Sahas Urja Analysis\"",
+        "category": "sources",
+        "context": "…ng market commentary against the deeper research notes in sahas-urja-benchmark-icra-2026 ## Caveat The exact article metadata and URL remain to be…",
+        "target_exists": true
+      },
+      {
+        "slug": "icra-nepal-surveillance-a996-b119",
+        "title": "\"ICRA Nepal — Surveillance Rating A996/B119\"",
+        "category": "sources",
+        "context": "…ing tariff and capital-efficiency claims reconstructed in sahas-urja-benchmark-icra-2026 and [[ppa-data-retrieval-icra-care-2026]] ## Caveat The…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-solu",
+        "title": "Lower Solu Hydropower Project",
+        "category": "entities",
+        "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - sahas-urja-benchmark-icra-2026 ## Sources - [[sahas-urja-benchmark-icra-2026]]",
+        "target_exists": true
+      }
+    ],
     "peak-water": [
       {
         "slug": "icimod-hkh-glacier-change",
@@ -4510,7 +5276,7 @@
         "slug": "balephi",
         "title": "Balephi",
         "category": "entities",
-        "context": "…struction (Generation licence) | | River | Balephi (eastern koshi-basin) | | District | Sindhupalchok | | Province | Bagmati Prades…",
+        "context": "…Registry licence | Generation | | River | Balephi (eastern koshi-basin) | | District | Sindhupalchok | | Province | Bagmati Prades…",
         "target_exists": true
       },
       {
@@ -4552,28 +5318,28 @@
         "slug": "kimathanka-arun",
         "title": "Kimathanka Arun HEP",
         "category": "entities",
-        "context": "…50 MW | | Status | Survey / study | | River | Arun (eastern koshi-basin) | | District | Sankhuwasabha | | Province | Province No 1…",
+        "context": "…udy | | Registry licence | Survey | | River | Arun (eastern koshi-basin) | | District | Sankhuwasabha | | Province | Province No 1…",
         "target_exists": true
       },
       {
         "slug": "kokhajor-1",
         "title": "Kokhajor-1",
         "category": "entities",
-        "context": "…MW | | Category | jica promising storage | | Basin | Koshi (koshi-basin) | | Annual energy | 278.9 GWh | | Dry-season energy | 94.1…",
+        "context": "…dy | | Category | jica promising storage | | Basin | Koshi (koshi-basin) | | Annual energy | 278.9 GWh | | Dry-season energy | 94.1…",
         "target_exists": true
       },
       {
         "slug": "likhu-1",
         "title": "Likhu -1",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
+        "context": "…istry licence | Generation | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
         "target_exists": true
       },
       {
         "slug": "likhu-2",
         "title": "Likhu -2",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
+        "context": "…istry licence | Generation | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
         "target_exists": true
       },
       {
@@ -4587,56 +5353,56 @@
         "slug": "likhu-khola-a",
         "title": "Likhu Khola 'A'",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
+        "context": "…istry licence | Generation | | River | Likhu Khola (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
         "target_exists": true
       },
       {
         "slug": "likhu-4",
         "title": "Likhu-4",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Bagmati Pradesh |…",
+        "context": "…istry licence | Generation | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Bagmati Pradesh |…",
         "target_exists": true
       },
       {
         "slug": "lower-likhu",
         "title": "Lower Likhu",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Bagmati Pradesh |…",
+        "context": "…istry licence | Generation | | River | Likhu Khola (eastern koshi-basin) | | District | Ramechhap | | Province | Bagmati Pradesh |…",
         "target_exists": true
       },
       {
         "slug": "madhya-bhotekoshi",
         "title": "Madhya Bhotekoshi",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Bhote koshi (eastern koshi-basin) | | District | Sindhupalchok | | Province | Bagmati Prades…",
+        "context": "…istry licence | Generation | | River | Bhote koshi (eastern koshi-basin) | | District | Sindhupalchok | | Province | Bagmati Prades…",
         "target_exists": true
       },
       {
         "slug": "middle-tamor",
         "title": "Middle Tamor",
         "category": "entities",
-        "context": "…onstruction (Generation licence) | | River | Tamor (eastern koshi-basin) | | District | Taplejung | | Province | Province No 1 | <…",
+        "context": "…| Registry licence | Generation | | River | Tamor (eastern koshi-basin) | | District | Taplejung | | Province | Province No 1 | <…",
         "target_exists": true
       },
       {
         "slug": "rasuwa-bhotekoshi",
         "title": "Rasuwa Bhotekoshi",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Bhote koshi (eastern koshi-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
+        "context": "…istry licence | Generation | | River | Bhote koshi (eastern koshi-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
         "target_exists": true
       },
       {
         "slug": "rasuwagadhi",
         "title": "Rasuwagadhi",
         "category": "entities",
-        "context": "…ction (Generation licence) | | River | Bhote koshi (eastern koshi-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
+        "context": "…istry licence | Generation | | River | Bhote koshi (eastern koshi-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
         "target_exists": true
       },
       {
         "slug": "sun-koshi-no-3",
         "title": "Sun Koshi No.3",
         "category": "entities",
-        "context": "…MW | | Category | jica promising storage | | Basin | Koshi (koshi-basin) | | Annual energy | 1883.6 GWh | | Dry-season energy | 335…",
+        "context": "…dy | | Category | jica promising storage | | Basin | Koshi (koshi-basin) | | Annual energy | 1883.6 GWh | | Dry-season energy | 335…",
         "target_exists": true
       },
       {
@@ -4650,42 +5416,42 @@
         "slug": "surke-dudhkoshi",
         "title": "Surke Dudhkoshi HEP",
         "category": "entities",
-        "context": "…| | Status | Survey / study | | River | Dudhkoshi (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
+        "context": "…| Registry licence | Survey | | River | Dudhkoshi (eastern koshi-basin) | | District | Solukhumbu | | Province | Province No 1 |…",
         "target_exists": true
       },
       {
         "slug": "tamakoshi-3",
         "title": "Tamakoshi 3",
         "category": "entities",
-        "context": "…| | Status | Survey / study | | River | Tama Koshi (eastern koshi-basin) | | District | Dolakha | | Province | Bagmati Pradesh | |…",
+        "context": "…| Registry licence | Survey | | River | Tama Koshi (eastern koshi-basin) | | District | Dolakha | | Province | Bagmati Pradesh | |…",
         "target_exists": true
       },
       {
         "slug": "tamakoshi-v",
         "title": "Tamakoshi V",
         "category": "entities",
-        "context": "…uction (Generation licence) | | River | Tama Koshi (eastern koshi-basin) | | District | Dolakha | | Province | Bagmati Pradesh | <…",
+        "context": "…gistry licence | Generation | | River | Tama Koshi (eastern koshi-basin) | | District | Dolakha | | Province | Bagmati Pradesh | <…",
         "target_exists": true
       },
       {
         "slug": "tamor-storage",
         "title": "Tamor Storage",
         "category": "entities",
-        "context": "…0 MW | | Status | Survey / study | | River | Tamor (eastern koshi-basin) | | District | Panchthar | | Province | Province No 1 | <…",
+        "context": "…dy | | Registry licence | Survey | | River | Tamor (eastern koshi-basin) | | District | Panchthar | | Province | Province No 1 | <…",
         "target_exists": true
       },
       {
         "slug": "upper-balephi-a",
         "title": "Upper Balephi A",
         "category": "entities",
-        "context": "…struction (Generation licence) | | River | Balephi (eastern koshi-basin) | | District | Sindhupalchok | | Province | Bagmati Prades…",
+        "context": "…Registry licence | Generation | | River | Balephi (eastern koshi-basin) | | District | Sindhupalchok | | Province | Bagmati Prades…",
         "target_exists": true
       },
       {
         "slug": "upper-bhotekoshi",
         "title": "Upper Bhotekoshi",
         "category": "entities",
-        "context": "…MW | | Status | Operating | | River | Bhote Koshi (eastern koshi-basin) | | District | Sindhupalchok | | Province | Bagmati Prades…",
+        "context": "…gistry licence | Operation | | River | Bhote Koshi (eastern koshi-basin) | | District | Sindhupalchok | | Province | Bagmati Prades…",
         "target_exists": true
       },
       {
@@ -4699,7 +5465,7 @@
         "slug": "upper-tamor",
         "title": "Upper Tamor",
         "category": "entities",
-        "context": "…onstruction (Generation licence) | | River | Tamor (eastern koshi-basin) | | District | Taplejung | | Province | Province No 1 | <…",
+        "context": "…| Registry licence | Generation | | River | Tamor (eastern koshi-basin) | | District | Taplejung | | Province | Province No 1 | <…",
         "target_exists": true
       },
       {
@@ -5131,6 +5897,66 @@
         "title": "Layer: Topographic Basemap",
         "category": "data",
         "context": "…- [[buildability]] - [[gandaki-basin]] - [[koshi-basin]] - sediment-as-design-constraint - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      }
+    ],
+    "khimti-ii": [
+      {
+        "slug": "icra-nepal-surveillance-a996-b119",
+        "title": "\"ICRA Nepal — Surveillance Rating A996/B119\"",
+        "category": "sources",
+        "context": "…-financial and performance claims around [[sahas-urja]] and khimti-ii. ## What It Is Used For - Sahas Urja revenue, profit, lev…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…| | [[khimti-i]] | 60 | Operating | Himal Power Limited | | khimti-ii | 48.8 | Under construction | — | | Upper Khimti | 12.0 | U…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-dhalkebar-corridor",
+        "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor",
+        "category": "entities",
+        "context": "…# See also - [[khimti-i]] — the project it was built for - khimti-ii — the sister plant that shares the corridor - [[hetauda-dha…",
+        "target_exists": true
+      }
+    ],
+    "ppa-data-retrieval-icra-care-2026": [
+      {
+        "slug": "icra-nepal-surveillance-a996-b119",
+        "title": "\"ICRA Nepal — Surveillance Rating A996/B119\"",
+        "category": "sources",
+        "context": "…reconstructed in [[sahas-urja-benchmark-icra-2026]] and ppa-data-retrieval-icra-care-2026 ## Caveat The full citation metadata and document URL sti…",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja-benchmark-icra-2026",
+        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
+        "category": "sources",
+        "context": "…*Prior projects**: Upper Hugdi Khola (5 MW) ## See Also - ppa-data-retrieval-icra-care-2026 - [[sector-financial-analysis-triple-authority-2026]] - [[s…",
+        "target_exists": true
+      },
+      {
+        "slug": "sector-financial-analysis-triple-authority-2026",
+        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
+        "category": "sources",
+        "context": "…eports, not a verified Nepal-specific study ## See Also - ppa-data-retrieval-icra-care-2026 - [[ppa-pricing]] - [[nea-triple-authority]] - [[ipo-hydrop…",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "…un-of-river-hydropower]] - [[buildability]] - [[chilime]] - ppa-data-retrieval-icra-care-2026 - [[sector-financial-analysis-triple-authority-2026]] ## S…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3b",
+        "title": "Upper Trishuli 3B",
+        "category": "entities",
+        "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - ppa-data-retrieval-icra-care-2026 ## Sources - [[ppa-data-retrieval-icra-care-2026]]",
         "target_exists": true
       }
     ],
@@ -5581,6 +6407,13 @@
         "target_exists": true
       },
       {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…then turned that logic into a market signal: the canonical data-solar-hydro-lcoe table treats the batch as 63 projects at **4.99-5.54 NPR/kW…",
+        "target_exists": true
+      },
+      {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
@@ -5588,10 +6421,17 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…> [[data-domestic-demand]] -> [[data-trade-time-series]] -> data-solar-hydro-lcoe. - For the broader energy transition: [[data-final-energy-m…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-solar-cheaper-than-small-hydro",
         "title": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal",
         "category": "claims",
-        "context": "…olar kWh, while RoR hydro's output remains monsoon-heavy. - data-solar-hydro-lcoe and [[solar-lcoe-crossover]] document the crossover, while…",
+        "context": "…. ## Evidence - The newer 960 MW national tender table in data-solar-hydro-lcoe treats the canonical batch as **63 projects** at **4.99-5.5…",
         "target_exists": true
       },
       {
@@ -5684,7 +6524,7 @@
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
-        "context": "…**Award tariff range:** ~NPR 5.70–6.20 /kWh (gazette — see solar-lcoe-crossover) | Province | Approximate MW in tender | Notes | |---|---:…",
+        "context": "…tariff range:** NPR 4.99–5.54 /kWh (corrected NEA LoI — see solar-lcoe-crossover) | Province | Approximate MW in tender | Notes | |---|---:…",
         "target_exists": true
       }
     ],
@@ -5790,106 +6630,6 @@
         "target_exists": true
       }
     ],
-    "data-solar-fleet-inventory": [
-      {
-        "slug": "irena-remap-nepal",
-        "title": "IRENA Renewable Readiness Assessment and REmap Nepal",
-        "category": "sources",
-        "context": "…ction (~15,000–25,000 MWp) matters for real planning**; see data-solar-fleet-inventory potential pyramid. - IRENA REmap pathways are **normative s…",
-        "target_exists": true
-      },
-      {
-        "slug": "bidur-trishuli-solar-25mwp",
-        "title": "Bidur / Trishuli 25 MWp Solar Farm",
-        "category": "entities",
-        "context": "…on - [[nea-960mw-solar-tender]] — the successor programme - data-solar-fleet-inventory — the fleet this plant anchors",
-        "target_exists": true
-      },
-      {
-        "slug": "bishnu-priya-nawalparasi",
-        "title": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)",
-        "category": "entities",
-        "context": "…5mwp]], [[mithila-solar-dhanusha-10mwp]] — Phase I cohort - data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "butwal-solar-ridi-8-5mwp",
-        "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
-        "category": "entities",
-        "context": "…haratpur-bardaghat-corridor]] — grid the plant feeds into - data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
-        "category": "entities",
-        "context": "…hydro developments that could inform future hybrid design - data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "mithila-solar-dhanusha-10mwp",
-        "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
-        "category": "entities",
-        "context": "…kbone - [[dhalkebar-muzaffarpur]] — adjacent cross-border - data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-960mw-solar-tender",
-        "title": "NEA 960 MW National Solar Tender",
-        "category": "entities",
-        "context": "…ar-lcoe-crossover]] — the price story this tender anchors - data-solar-fleet-inventory — the fleet this tender expands - [[data-solar-hydro-lcoe]]…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-solar",
-        "title": "NEA Solar Programme",
-        "category": "entities",
-        "context": "…id-solar-ee-project]] — the financing anchor for Phase II - data-solar-fleet-inventory — the full portfolio - [[solar-lcoe-crossover]] — the tarif…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-solar-plants-nea-awards",
-        "title": "Layer: Solar Plants + NEA 960 MW Awards",
-        "category": "data",
-        "context": "…site boundary. ## Related - [[nea-960mw-solar-tender]] - data-solar-fleet-inventory - [[claim-floating-pv-leverage]] - [[claim-solar-terai-only…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-map-inventory",
-        "title": "Map Inventory",
-        "category": "data",
-        "context": "…system preset** tying [[data-nepal-solar-resource-zones]], data-solar-fleet-inventory, [[nea-960mw-solar-tender]], and [[claim-floating-pv-levera…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-nepal-solar-resource-zones",
-        "title": "Nepal Solar Resource Zones",
-        "category": "data",
-        "context": "…ned + tendered utility plants (status-coded symbology). See data-solar-fleet-inventory. 3. ** ** — derived polygon combining Zon…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-rooftop-shs-deployment",
-        "title": "Rooftop and Solar Home System Deployment",
-        "category": "data",
-        "context": "…]] — concept companion - [[aepc]] — institutional context - data-solar-fleet-inventory — utility-scale analogue - [[eib-rural-solar-phase2]] — the…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-lcoe",
-        "title": "Solar and Hydro LCOE",
-        "category": "data",
-        "context": "…onal-arbitrage-trap]] — the time-weighted valuation frame - data-solar-fleet-inventory — the MW this pricing is being applied to - [[data-solar-hy…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-complementarity-profile",
-        "title": "Solar–Hydro Complementarity Profile",
-        "category": "data",
-        "context": "…[[data-solar-hydro-lcoe]] — the price driving deployment - data-solar-fleet-inventory — the MW this profile applies to",
-        "target_exists": true
-      }
-    ],
     "claim-solar-cheaper-than-small-hydro": [
       {
         "slug": "irena-remap-nepal",
@@ -5909,7 +6649,7 @@
         "slug": "nea-960mw-solar-tender",
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…per on *time-weighted* basis. This is the tariff point that claim-solar-cheaper-than-small-hydro stands on. ## Implementation risks and watch items | Risk…",
+        "context": "…r on a *time-weighted* basis. This is the tariff point that claim-solar-cheaper-than-small-hydro stands on. ## Implementation risks and watch items | Risk…",
         "target_exists": true
       },
       {
@@ -5937,7 +6677,7 @@
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…s not have an energy shortage; it has a timing problem. - claim-solar-cheaper-than-small-hydro — solar now undercuts small-hydro PPA rates on an LCOE basi…",
+        "context": "…s not have an energy shortage; it has a timing problem. - claim-solar-cheaper-than-small-hydro — new utility solar is now below small RoR on blended tarif…",
         "target_exists": true
       },
       {
@@ -6068,10 +6808,31 @@
         "target_exists": true
       },
       {
+        "slug": "betan-karnali",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…25](https://risingnepaldaily.com/news/71448) ## Sources - moewri-ipsdp-exec-summary-2025 ## See also - [[karnali-basin]] - [[stranded-generation]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "bheri-1",
+        "title": "Bheri-1 HEP",
+        "category": "entities",
+        "context": "…oED-linked public hydropower project dataset ## Sources - moewri-ipsdp-exec-summary-2025 ## See also - [[karnali-basin]] - [[buildability]] - [[cla…",
+        "target_exists": true
+      },
+      {
         "slug": "chera-1",
         "title": "Chera-1",
         "category": "entities",
         "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Chera-1…",
+        "target_exists": true
+      },
+      {
+        "slug": "kimathanka-arun",
+        "title": "Kimathanka Arun HEP",
+        "category": "entities",
+        "context": "…oED-linked public hydropower project dataset ## Sources - moewri-ipsdp-exec-summary-2025 ## See also - [[koshi-basin]] - [[buildability]] - [[arun-…",
         "target_exists": true
       },
       {
@@ -6114,6 +6875,41 @@
         "title": "Sun Koshi No.3",
         "category": "entities",
         "context": "…in-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]] - MoEWRI IPSDP Executive Summary <!-- generated:sources:end --> ## Why It Matters Sun Kos…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-3",
+        "title": "Tamakoshi 3",
+        "category": "entities",
+        "context": "…oED-linked public hydropower project dataset ## Sources - moewri-ipsdp-exec-summary-2025 ## See also - [[koshi-basin]] - [[buildability]] - [[upper…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamor-storage",
+        "title": "Tamor Storage",
+        "category": "entities",
+        "context": "…wer]] - [[storage-deficit]] - [[firm-power]] ## Sources - moewri-ipsdp-exec-summary-2025",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamor",
+        "title": "Upper Tamor",
+        "category": "entities",
+        "context": "…run-of-river-hydropower]] - [[buildability]] ## Sources - moewri-ipsdp-exec-summary-2025",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-1",
+        "title": "Upper Trishuli-1",
+        "category": "entities",
+        "context": "…oED-linked public hydropower project dataset ## Sources - moewri-ipsdp-exec-summary-2025 ## See also - [[gandaki-basin]] - [[stranded-generation]]…",
+        "target_exists": true
+      },
+      {
+        "slug": "uttarganga-storage",
+        "title": "Uttarganga Storage Hydropower Project",
+        "category": "entities",
+        "context": "…pdf) ## Sources - [[nea-transmission-annual-book-2077]] - moewri-ipsdp-exec-summary-2025 ## See also - [[buildability]] - [[storage-deficit]] - [[d…",
         "target_exists": true
       },
       {
@@ -6360,7 +7156,7 @@
         "slug": "claim-governance-binding",
         "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives",
         "category": "claims",
-        "context": "…ized allocation. - **Institutional conflicts of interest:** nea described across threads as carrying conflicting mandates (…",
+        "context": "…ized allocation. - **Institutional conflicts of interest:** nea is simultaneously the **primary generator, monopsony buyer,…",
         "target_exists": true
       },
       {
@@ -6537,7 +7333,7 @@
         "slug": "claim-ror-dominance",
         "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
         "category": "claims",
-        "context": "…on the dominant RoR/PRoR reality. - **Fleet fact pattern:** kulekhani-cascade (**106 MW**) is repeatedly singled out as the main **true s…",
+        "context": "…on the dominant RoR/PRoR reality. - **Fleet fact pattern:** kulekhani-cascade (**106 MW**, roughly **~85–150 MCM** depending on active vs…",
         "target_exists": true
       },
       {
@@ -6765,7 +7561,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…ge-physical-fix]] answer. **Realistic 2035 contribution:** tanahu-hydropower (140 MW, COD ~2027–28) + [[budhigandaki]] (1,200 MW, COD sp…",
+        "context": "…ge-physical-fix]] answer. **Realistic 2035 contribution:** tanahu-hydropower (140 MW, COD 2026 — under construction, 67% complete as of…",
         "target_exists": true
       },
       {
@@ -6794,6 +7590,13 @@
         "title": "Nepal Solar Resource Zones",
         "category": "data",
         "context": "…** — point/polygon for [[kulekhani-cascade]], tanahu-hydropower, [[budhigandaki]], [[dudhkoshi-storage]], [[mugu-karnali-st…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…] — the 670 MW storage project in the 2035 full portfolio - tanahu-hydropower — the 140 MW storage project, first to commission - [[stora…",
         "target_exists": true
       }
     ],
@@ -6876,21 +7679,21 @@
         "slug": "andhi-khola",
         "title": "Andhi Khola",
         "category": "entities",
-        "context": "…Category | jica promising storage | | River | Andhi Khola (gandaki-basin) | | District | Syangja | | Province | Gandaki Pradesh | |…",
+        "context": "…Category | JICA promising storage | | River | Andhi Khola (gandaki-basin) | | District | Syangja | | Province | Gandaki Pradesh | |…",
         "target_exists": true
       },
       {
         "slug": "budhi-gandaki-kha",
         "title": "Budhi Gandaki Kha HEP",
         "category": "entities",
-        "context": "…60 MW | | Status | Survey / study | | River | Budhigandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
+        "context": "…udy | | Registry licence | Survey | | River | Budhigandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
         "slug": "budhi-gandaki-prok-khola",
         "title": "Budhi Gandaki Prok Khola HEP",
         "category": "entities",
-        "context": "…0 MW | | Status | Survey / study | | River | Budhi Gandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
+        "context": "…dy | | Registry licence | Survey | | River | Budhi Gandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
@@ -6904,7 +7707,7 @@
         "slug": "chainpur-seti",
         "title": "Chainpur Seti",
         "category": "entities",
-        "context": "…210 MW | | Status | Survey / study | | River | Seti Khola (gandaki-basin) | | District | Bajhang | | Province | Sudurpashchim Prades…",
+        "context": "…study | | Registry licence | Survey | | River | Seti Khola (gandaki-basin) | | District | Bajhang | | Province | Sudurpashchim Prades…",
         "target_exists": true
       },
       {
@@ -6932,14 +7735,14 @@
         "slug": "kali-gandaki-kowan",
         "title": "Kali Gandaki Kowan",
         "category": "entities",
-        "context": "…construction (Generation licence) | | River | Kali Gandaki (gandaki-basin) | | District | Mustang | | Province | Gandaki Pradesh | <…",
+        "context": "…| | Registry licence | Generation | | River | Kali Gandaki (gandaki-basin) | | District | Mustang | | Province | Gandaki Pradesh | <…",
         "target_exists": true
       },
       {
         "slug": "kali-gandaki-upper",
         "title": "Kaligandaki Upper",
         "category": "entities",
-        "context": "…construction (Generation licence) | | River | Kali Gandaki (gandaki-basin) | | District | Myagdi | | Province | Gandaki Pradesh | <!…",
+        "context": "…| | Registry licence | Generation | | River | Kali Gandaki (gandaki-basin) | | District | Myagdi | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
@@ -6953,42 +7756,42 @@
         "slug": "lower-modi-khola",
         "title": "Lower Modi Khola",
         "category": "entities",
-        "context": "…r construction (Generation licence) | | River | Modi Khola (gandaki-basin) | | District | Parbat | | Province | Gandaki Pradesh | <!…",
+        "context": "…n | | Registry licence | Generation | | River | Modi Khola (gandaki-basin) | | District | Parbat | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
         "slug": "madhya-marsyangdi",
         "title": "Madhya Marsyangdi",
         "category": "entities",
-        "context": "…city | 70 MW | | Status | Operating | | River | Marsyangdi (gandaki-basin) | | District | Lamjung | | Province | Gandaki Pradesh | <…",
+        "context": "…ng | | Registry licence | Operation | | River | Marsyangdi (gandaki-basin) | | District | Lamjung | | Province | Gandaki Pradesh | <…",
         "target_exists": true
       },
       {
         "slug": "marsyangdi",
         "title": "Marsyangdi",
         "category": "entities",
-        "context": "…city | 69 MW | | Status | Operating | | River | Marsyangdi (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
+        "context": "…ng | | Registry licence | Operation | | River | Marsyangdi (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
         "slug": "marsyangdi-besi",
         "title": "Marsyangdi Besi",
         "category": "entities",
-        "context": "…r construction (Generation licence) | | River | Marsyangdi (gandaki-basin) | | District | Lamjung | | Province | Gandaki Pradesh | <…",
+        "context": "…n | | Registry licence | Generation | | River | Marsyangdi (gandaki-basin) | | District | Lamjung | | Province | Gandaki Pradesh | <…",
         "target_exists": true
       },
       {
         "slug": "super-madi",
         "title": "Super Madi",
         "category": "entities",
-        "context": "…r construction (Generation licence) | | River | Madi Khola (gandaki-basin) | | District | Kaski | | Province | Gandaki Pradesh | <!-…",
+        "context": "…n | | Registry licence | Generation | | River | Madi Khola (gandaki-basin) | | District | Kaski | | Province | Gandaki Pradesh | <!-…",
         "target_exists": true
       },
       {
         "slug": "super-trishuli",
         "title": "Super Trishuli",
         "category": "entities",
-        "context": "…der construction (Generation licence) | | River | Trishuli (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
+        "context": "…ion | | Registry licence | Generation | | River | Trishuli (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
@@ -7002,7 +7805,7 @@
         "slug": "trishuli",
         "title": "Trishuli",
         "category": "entities",
-        "context": "…pacity | 24 MW | | Status | Operating | | River | Trishuli (gandaki-basin) | | District | Nuwakot | | Province | Bagmati Pradesh | <…",
+        "context": "…ting | | Registry licence | Operation | | River | Trishuli (gandaki-basin) | | District | Nuwakot | | Province | Bagmati Pradesh | <…",
         "target_exists": true
       },
       {
@@ -7016,56 +7819,56 @@
         "slug": "trishuli-galchhi",
         "title": "Trishuli Galchhi",
         "category": "entities",
-        "context": "…der construction (Generation licence) | | River | Trishuli (gandaki-basin) | | District | Nuwakot | | Province | Bagmati Pradesh | <…",
+        "context": "…ion | | Registry licence | Generation | | River | Trishuli (gandaki-basin) | | District | Nuwakot | | Province | Bagmati Pradesh | <…",
         "target_exists": true
       },
       {
         "slug": "upper-budhigandaki",
         "title": "Upper Budhigandaki HEP",
         "category": "entities",
-        "context": "…3 MW | | Status | Survey / study | | River | Budhi Gandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
+        "context": "…dy | | Registry licence | Survey | | River | Budhi Gandaki (gandaki-basin) | | District | Gorkha | | Province | Gandaki Pradesh | <!…",
         "target_exists": true
       },
       {
         "slug": "upper-madi",
         "title": "Upper Madi",
         "category": "entities",
-        "context": "…city | 25 MW | | Status | Operating | | River | Madi Khola (gandaki-basin) | | District | Kaski | | Province | Gandaki Pradesh | <!-…",
+        "context": "…ng | | Registry licence | Operation | | River | Madi Khola (gandaki-basin) | | District | Kaski | | Province | Gandaki Pradesh | <!-…",
         "target_exists": true
       },
       {
         "slug": "upper-marsyangdi-a",
         "title": "Upper Marsyangdi A",
         "category": "entities",
-        "context": "…city | 50 MW | | Status | Operating | | River | Marsyangdi (gandaki-basin) | | District | Lamjung | | Province | Gandaki Pradesh | <…",
+        "context": "…ng | | Registry licence | Operation | | River | Marsyangdi (gandaki-basin) | | District | Lamjung | | Province | Gandaki Pradesh | <…",
         "target_exists": true
       },
       {
         "slug": "upper-modi-a",
         "title": "Upper Modi A",
         "category": "entities",
-        "context": "…r construction (Generation licence) | | River | Modi Khola (gandaki-basin) | | District | Kaski | | Province | Gandaki Pradesh | <!-…",
+        "context": "…n | | Registry licence | Generation | | River | Modi Khola (gandaki-basin) | | District | Kaski | | Province | Gandaki Pradesh | <!-…",
         "target_exists": true
       },
       {
         "slug": "upper-trishuli-3a",
         "title": "Upper Trishuli 3A",
         "category": "entities",
-        "context": "…der construction (Generation licence) | | River | Trishuli (gandaki-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
+        "context": "…ion | | Registry licence | Generation | | River | Trishuli (gandaki-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
         "target_exists": true
       },
       {
         "slug": "upper-trishuli-3b",
         "title": "Upper Trishuli 3B",
         "category": "entities",
-        "context": "…der construction (Generation licence) | | River | Trishuli (gandaki-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
+        "context": "…ion | | Registry licence | Generation | | River | Trishuli (gandaki-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
         "target_exists": true
       },
       {
         "slug": "upper-trishuli-1",
         "title": "Upper Trishuli-1",
         "category": "entities",
-        "context": "…der construction (Generation licence) | | River | Trishuli (gandaki-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
+        "context": "…ion | | Registry licence | Generation | | River | Trishuli (gandaki-basin) | | District | Rasuwa | | Province | Bagmati Pradesh | <!…",
         "target_exists": true
       },
       {
@@ -7165,14 +7968,14 @@
         "slug": "andhi-khola",
         "title": "Andhi Khola",
         "category": "entities",
-        "context": "…ropower project dataset ## See also - [[gandaki-basin]] - run-of-river-hydropower - [[storage-deficit]] - [[firm-power]] - [[stranded-generat…",
+        "context": "…0 MW storage candidate. ## See also - [[gandaki-basin]] - run-of-river-hydropower - [[storage-deficit]] - [[firm-power]] - [[stranded-generat…",
         "target_exists": true
       },
       {
         "slug": "ankhu-khola",
         "title": "Ankhu Khola",
         "category": "entities",
-        "context": "…6]] - [[ipo-hydropower-bailout]] - [[q-design-discharge]] - run-of-river-hydropower - [[buildability]]",
+        "context": "…6]] - [[ipo-hydropower-bailout]] - [[q-design-discharge]] - run-of-river-hydropower - [[buildability]] ## Sources - [[sector-financial-analys…",
         "target_exists": true
       },
       {
@@ -7193,7 +7996,7 @@
         "slug": "kali-gandaki-kowan",
         "title": "Kali Gandaki Kowan",
         "category": "entities",
-        "context": "…aki Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]]",
+        "context": "…aki Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] ## Sources - [[kali-gandaki-a-adb-eval…",
         "target_exists": true
       },
       {
@@ -7207,7 +8010,7 @@
         "slug": "lower-solu",
         "title": "Lower Solu Hydropower Project",
         "category": "entities",
-        "context": "…ovince No 1 | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] - [[sahas-urja-benchmark-icra-2026]]",
+        "context": "…ovince No 1 | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] - [[sahas-urja-benchmark-icra-2026]] ##…",
         "target_exists": true
       },
       {
@@ -7263,28 +8066,28 @@
         "slug": "sanjen-khola",
         "title": "Sanjen Khola",
         "category": "entities",
-        "context": "…ati Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]]",
+        "context": "…ati Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] ## Sources - [[nea-annual-report-fy202…",
         "target_exists": true
       },
       {
         "slug": "super-madi",
         "title": "Super Madi",
         "category": "entities",
-        "context": "…aki Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]]",
+        "context": "…aki Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] ## Sources - [[nea-annual-report-fy202…",
         "target_exists": true
       },
       {
         "slug": "super-trishuli",
         "title": "Super Trishuli",
         "category": "entities",
-        "context": "…aki Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]]",
+        "context": "…aki Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] ## Sources - [[nea-annual-report-fy202…",
         "target_exists": true
       },
       {
         "slug": "tamor-storage",
         "title": "Tamor Storage",
         "category": "entities",
-        "context": "…ovince No 1 | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[storage-deficit]] - [[firm-power]]",
+        "context": "…ovince No 1 | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[storage-deficit]] - [[firm-power]] ## Sources - [[moe…",
         "target_exists": true
       },
       {
@@ -7298,7 +8101,7 @@
         "slug": "upper-bhotekoshi",
         "title": "Upper Bhotekoshi",
         "category": "entities",
-        "context": "…ydropower project dataset ## See also - [[koshi-basin]] - run-of-river-hydropower - [[stranded-generation]] - [[data-layer-priority-watchlist…",
+        "context": "…-annual-report-fy2024-25]] ## See also - [[koshi-basin]] - run-of-river-hydropower - [[stranded-generation]] - [[data-layer-priority-watchlist…",
         "target_exists": true
       },
       {
@@ -7333,7 +8136,7 @@
         "slug": "upper-tamor",
         "title": "Upper Tamor",
         "category": "entities",
-        "context": "…ovince No 1 | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]]",
+        "context": "…ovince No 1 | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] ## Sources - [[moewri-ipsdp-exec-summa…",
         "target_exists": true
       },
       {
@@ -7347,7 +8150,7 @@
         "slug": "upper-trishuli-3b",
         "title": "Upper Trishuli 3B",
         "category": "entities",
-        "context": "…ati Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] - [[ppa-data-retrieval-icra-care-2026]]",
+        "context": "…ati Pradesh | <!-- generated:specs:end --> ## See Also - run-of-river-hydropower - [[buildability]] - [[ppa-data-retrieval-icra-care-2026]]…",
         "target_exists": true
       },
       {
@@ -7425,6 +8228,78 @@
         "title": "Layer: Nepal Tributaries (HydroRIVERS)",
         "category": "data",
         "context": "…er-basin-plan-2024]] - [[wecs-hydropower-potential-2019]] - run-of-river-hydropower - [[data-basin-discharge]] - [[data-map-layer-labels]] - […",
+        "target_exists": true
+      }
+    ],
+    "chameliya-hydropower": [
+      {
+        "slug": "kathmandu-post-chameliya",
+        "title": "\"Kathmandu Post — Chameliya Hydropower Coverage\"",
+        "category": "sources",
+        "context": "…Summary This page anchors Kathmandu Post reporting used in chameliya-hydropower for the project's construction crisis, cost-escalation narr…",
+        "target_exists": true
+      },
+      {
+        "slug": "myrepublica-pac-chameliya",
+        "title": "\"My Republica — PAC Chameliya Investigation\"",
+        "category": "sources",
+        "context": "…## Summary This page anchors myRepublica reporting used in chameliya-hydropower for the Public Accounts Committee angle on the project's ov…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-generation-directorate-2081",
+        "title": "\"NEA Generation Directorate Data — FY 2080/81\"",
+        "category": "sources",
+        "context": "…torate for FY 2080/81. It is currently used most heavily by chameliya-hydropower. ## What It Is Used For - Chameliya actual generation fig…",
+        "target_exists": true
+      },
+      {
+        "slug": "chameliya-jauljibi-interconnection",
+        "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
+        "category": "entities",
+        "context": "…ry basin served | [[mahakali-basin]] | | Driving projects | chameliya-hydropower (30 MW operational), future Mahakali cascade | | Interconne…",
+        "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "…are with [[upper-tamakoshi]] (NPR 87 billion, domestic) and chameliya-hydropower (USD 226 million for 30 MW, 11-year build) for the cost-eff…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "…ulates surface wear and geometric erosion. The parallel is chameliya-hydropower: a plant built at extreme cost that underperforms due to en…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…he plant that broke Nepal's load-shedding era. Compare with chameliya-hydropower — a 30 MW project that took 11 years — for a case study in…",
+        "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…ics winter, and financing covenants that survive delay. See Chameliya (11-year build, $7.5M/MW, headrace tunnel collapse) and [[u…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…eeds only at exceptional scale, not as a replicable model - chameliya-hydropower — state capital inefficiency absorbed off-balance sheet whi…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…ration Directorate Report 2080/2081 (16th Issue, 2024). See chameliya-hydropower. **NOTE 2 — Sanima Mai promotional tariff expiry:** The Ma…",
         "target_exists": true
       }
     ],
@@ -7749,7 +8624,7 @@
         "slug": "uttarganga-storage",
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
-        "context": "…f) ## See also - [[buildability]] - [[storage-deficit]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
+        "context": "…5]] ## See also - [[buildability]] - [[storage-deficit]] - data-ipsdp-milestone-ladder-2022-2040 - [[data-layer-top-10-capacity-projects]]",
         "target_exists": true
       }
     ],
@@ -7859,13 +8734,6 @@
         "target_exists": true
       },
       {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…~635 MW, COD speculative ~2033+) + [[uttarganga-storage]] + mugu-karnali-storage. Aggregate new dry-season generation ~2,000–3,500 GWh/winte…",
-        "target_exists": true
-      },
-      {
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
@@ -7906,28 +8774,28 @@
         "slug": "betan-karnali",
         "title": "Betan Karnali HP",
         "category": "entities",
-        "context": "…y | 688 MW | | Status | Survey / study | | River | Karnali (karnali-basin) | | District | Achham | | Province | Sudurpashchim Pradesh…",
+        "context": "…/ study | | Registry licence | Survey | | River | Karnali (karnali-basin) | | District | Achham | | Province | Sudurpashchim Pradesh…",
         "target_exists": true
       },
       {
         "slug": "bheri-4",
         "title": "Bheri 4",
         "category": "entities",
-        "context": "…ity | 300 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
+        "context": "…ey / study | | Registry licence | Survey | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
         "target_exists": true
       },
       {
         "slug": "bheri-1",
         "title": "Bheri-1 HEP",
         "category": "entities",
-        "context": "…ity | 440 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Rukum_W | | Province | Karnali Pradesh | |…",
+        "context": "…ey / study | | Registry licence | Survey | | River | Bheri (karnali-basin) | | District | Rukum_W | | Province | Karnali Pradesh | |…",
         "target_exists": true
       },
       {
         "slug": "bheri-2",
         "title": "Bheri-2 HEP",
         "category": "entities",
-        "context": "…ity | 256 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
+        "context": "…ey / study | | Registry licence | Survey | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
         "target_exists": true
       },
       {
@@ -7948,21 +8816,21 @@
         "slug": "humla-karnali-1",
         "title": "Humla Karnali 1 HPP",
         "category": "entities",
-        "context": "…5 MW | | Status | Survey / study | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
+        "context": "…dy | | Registry licence | Survey | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
         "target_exists": true
       },
       {
         "slug": "humla-karnali-2",
         "title": "Humla Karnali 2 HPP",
         "category": "entities",
-        "context": "…5 MW | | Status | Survey / study | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
+        "context": "…dy | | Registry licence | Survey | | River | Humla Karnali (karnali-basin) | | District | Humla | | Province | Karnali Pradesh | <!-…",
         "target_exists": true
       },
       {
         "slug": "jagdulla",
         "title": "Jagdulla HEP",
         "category": "entities",
-        "context": "…ity | 307 MW | | Status | Survey / study | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
+        "context": "…ey / study | | Registry licence | Survey | | River | Bheri (karnali-basin) | | District | Jajarkot | | Province | Karnali Pradesh |…",
         "target_exists": true
       },
       {
@@ -8025,7 +8893,7 @@
         "slug": "phukot-karnali",
         "title": "Phukot Karnali",
         "category": "entities",
-        "context": "…y | 426 MW | | Status | Survey / study | | River | Karnali (karnali-basin) | | District | Kalikot | | Province | Karnali Pradesh | |…",
+        "context": "…/ study | | Registry licence | Survey | | River | Karnali (karnali-basin) | | District | Kalikot | | Province | Karnali Pradesh | |…",
         "target_exists": true
       },
       {
@@ -8543,68 +9411,31 @@
         "target_exists": true
       },
       {
+        "slug": "barahi-hydropower",
+        "title": "Barahi Hydropower",
+        "category": "entities",
+        "context": "…heque book. ## Sources - [[ad-penalty-clause-research]] - sector-financial-analysis-triple-authority-2026 ## See also - [[nea-triple-authority]] — the institutiona…",
+        "target_exists": true
+      },
+      {
         "slug": "madhya-bhotekoshi",
         "title": "Madhya Bhotekoshi",
         "category": "entities",
-        "context": "…un-of-river-hydropower]] - [[buildability]] - [[chilime]] - sector-financial-analysis-triple-authority-2026",
+        "context": "…un-of-river-hydropower]] - [[buildability]] - [[chilime]] - sector-financial-analysis-triple-authority-2026 ## Sources - [[sector-financial-analysis-triple-authority…",
         "target_exists": true
       },
       {
         "slug": "rasuwagadhi",
         "title": "Rasuwagadhi",
         "category": "entities",
-        "context": "…y]] - [[chilime]] - [[ppa-data-retrieval-icra-care-2026]] - sector-financial-analysis-triple-authority-2026",
+        "context": "…y]] - [[chilime]] - [[ppa-data-retrieval-icra-care-2026]] - sector-financial-analysis-triple-authority-2026 ## Sources - [[ppa-data-retrieval-icra-care-2026]] - [[se…",
         "target_exists": true
       },
       {
         "slug": "sanjen",
         "title": "Sanjen",
         "category": "entities",
-        "context": "…un-of-river-hydropower]] - [[buildability]] - [[chilime]] - sector-financial-analysis-triple-authority-2026",
-        "target_exists": true
-      }
-    ],
-    "sahas-urja": [
-      {
-        "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
-        "category": "sources",
-        "context": "…ority-2026]] - [[ppa-pricing]] - [[nea-triple-authority]] - sahas-urja - [[chilime]] - [[rasuwagadhi]] - [[upper-trishuli-3b]]",
-        "target_exists": true
-      },
-      {
-        "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
-        "category": "sources",
-        "context": "…6]] - [[sector-financial-analysis-triple-authority-2026]] - sahas-urja - [[ppa-pricing]] - [[q-design-discharge]]",
-        "target_exists": true
-      },
-      {
-        "slug": "chameliya-hydropower",
-        "title": "Chameliya Hydropower",
-        "category": "entities",
-        "context": "…llion/MW**, roughly 3–5× the global benchmark. For context, sahas-urja (86 MW, private IPP) was built at ~NPR 172–175 million/MW (…",
-        "target_exists": true
-      },
-      {
-        "slug": "tingla-132-33kv-substation",
-        "title": "Tingla 132/33 kV Substation",
-        "category": "entities",
-        "context": "…sion-landscape-2025]] synthesis. ## See also - [[solu]] - sahas-urja - [[claim-transmission-immediate-blocker]] - [[nepal-transm…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-triple-authority",
-        "title": "NEA Triple-Authority Conflict",
-        "category": "concepts",
-        "context": "…wer]] — primary audited case study of penalty enforcement - sahas-urja — why the standard IPP rate succeeds only at exceptional sc…",
-        "target_exists": true
-      },
-      {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "…ale and cost discipline unavailable to most developers. See sahas-urja. **NOTE 4 — Upper Chameliya seasonal modality:** Unlike th…",
+        "context": "…un-of-river-hydropower]] - [[buildability]] - [[chilime]] - sector-financial-analysis-triple-authority-2026 ## Sources - [[sector-financial-analysis-triple-authority…",
         "target_exists": true
       }
     ],
@@ -8658,36 +9489,6 @@
         "title": "Trishuli Galchhi",
         "category": "entities",
         "context": "…erating projects — including [[upper-trishuli-3a]] (60 MW), upper-trishuli-3b (37 MW), and multiple smaller plants. See [[trishuli-cascad…",
-        "target_exists": true
-      }
-    ],
-    "ppa-data-retrieval-icra-care-2026": [
-      {
-        "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
-        "category": "sources",
-        "context": "…*Prior projects**: Upper Hugdi Khola (5 MW) ## See Also - ppa-data-retrieval-icra-care-2026 - [[sector-financial-analysis-triple-authority-2026]] - [[s…",
-        "target_exists": true
-      },
-      {
-        "slug": "sector-financial-analysis-triple-authority-2026",
-        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
-        "category": "sources",
-        "context": "…eports, not a verified Nepal-specific study ## See Also - ppa-data-retrieval-icra-care-2026 - [[ppa-pricing]] - [[nea-triple-authority]] - [[ipo-hydrop…",
-        "target_exists": true
-      },
-      {
-        "slug": "rasuwagadhi",
-        "title": "Rasuwagadhi",
-        "category": "entities",
-        "context": "…un-of-river-hydropower]] - [[buildability]] - [[chilime]] - ppa-data-retrieval-icra-care-2026 - [[sector-financial-analysis-triple-authority-2026]]",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-trishuli-3b",
-        "title": "Upper Trishuli 3B",
-        "category": "entities",
-        "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - ppa-data-retrieval-icra-care-2026",
         "target_exists": true
       }
     ],
@@ -9002,6 +9803,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…s: [[data-final-energy-mix]] -> [[data-domestic-demand]] -> data-trade-time-series -> [[data-solar-hydro-lcoe]]. - For the broader energy tran…",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -9207,6 +10015,13 @@
         "category": "data",
         "context": "…eet-inventory]] — the MW this pricing is being applied to - data-solar-hydro-complementarity-profile — the profile that drives the time-weighting - [[irena-rema…",
         "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…evening peak dispatch. The diurnal profile is sourced from data-solar-hydro-complementarity-profile lines 71–85: February weekday demand shape normalised to pe…",
+        "target_exists": true
       }
     ],
     "data-storage-comparison": [
@@ -9291,9 +10106,9 @@
       },
       {
         "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
+        "title": "Khungri Solar Award (50 MW, Rolpa)",
         "category": "entities",
-        "context": "…is the template for Archetype 1 scale-up. Bidur/Trishuli (bidur-trishuli-solar-25mwp) was near-hydro co-location by accident; Khungri is **desig…",
+        "context": "…ding stronger evidence - [[nea-solar]] — programme parent - bidur-trishuli-solar-25mwp — precedent, if unintentional - [[data-solar-fleet-inventor…",
         "target_exists": true
       },
       {
@@ -9425,7 +10240,7 @@
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…energy-relationship]]. - For the broader energy transition: data-final-energy-mix -> [[energy-substitution-pathway]] -> [[domestic-led-hydro-…",
+        "context": "…rgy-relationship]]. - For the data spine behind the claims: data-final-energy-mix -> [[data-domestic-demand]] -> [[data-trade-time-series]] -…",
         "target_exists": true
       },
       {
@@ -9711,7 +10526,7 @@
         "slug": "upper-marsyangdi-a",
         "title": "Upper Marsyangdi A",
         "category": "entities",
-        "context": "…her than project-level licensing. See [[gandaki-basin]] and seasonal-mismatch. ## See also - [[madhya-marsyangdi]] — the downstream 70…",
+        "context": "…her than project-level licensing. See [[gandaki-basin]] and seasonal-mismatch. ## Sources - [[nea-annual-report-fy2024-25]] ## See also…",
         "target_exists": true
       },
       {
@@ -9760,7 +10575,7 @@
         "slug": "solar-lcoe-crossover",
         "title": "Solar LCOE Crossover",
         "category": "concepts",
-        "context": "…hose production profile is **worst-matched** to demand (the seasonal-mismatch pattern), and ~5.94 NPR/kWh for solar energy whose producti…",
+        "context": "…hose production profile is **worst-matched** to demand (the seasonal-mismatch pattern), and ~5.43 NPR/kWh for solar energy whose producti…",
         "target_exists": true
       },
       {
@@ -9911,6 +10726,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…rage-deficit]] — the framing page for Nepal's storage gap - seasonal-mismatch — the structural problem this model quantifies - [[firm-pow…",
+        "target_exists": true
+      },
+      {
         "slug": "intervention-electric-cooking-transition",
         "title": "Electric Cooking Transition",
         "category": "interventions",
@@ -9965,7 +10787,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…numbers - [[bottleneck-hierarchy]] — the ranking to patch - claim-timing-not-volume, [[claim-storage-physical-fix]] — the claims this synthesis…",
+        "context": "…cible monthly energy-balance model backing this synthesis - claim-timing-not-volume, [[claim-storage-physical-fix]] — the claims this synthesis…",
         "target_exists": true
       },
       {
@@ -9983,170 +10805,12 @@
         "target_exists": true
       }
     ],
-    "data-layer-priority-watchlist": [
-      {
-        "slug": "andhi-khola",
-        "title": "Andhi Khola",
-        "category": "entities",
-        "context": "…operating project in Syangja, but it is pinned in both the data-layer-priority-watchlist and [[data-layer-storage-shortlist]] because the same river…",
-        "target_exists": true
-      },
-      {
-        "slug": "betan-karnali",
-        "title": "Betan Karnali HP",
-        "category": "entities",
-        "context": "…-licence / investment-approval project. It is pinned in the data-layer-priority-watchlist and [[data-layer-top-10-capacity-projects]] because it sits…",
-        "target_exists": true
-      },
-      {
-        "slug": "nalsyau-gad",
-        "title": "Nalsyau Gad",
-        "category": "entities",
-        "context": "…. It is pinned in both [[data-layer-storage-shortlist]] and data-layer-priority-watchlist because it contributes the kind of dry-season energy Nepal'…",
-        "target_exists": true
-      },
-      {
-        "slug": "phukot-karnali",
-        "title": "Phukot Karnali",
-        "category": "entities",
-        "context": "…y Vidhyut Utpadan Company Limited. It is pinned in both the data-layer-priority-watchlist and [[data-layer-top-10-capacity-projects]] because it is o…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-bhotekoshi",
-        "title": "Upper Bhotekoshi",
-        "category": "entities",
-        "context": "…ct on the Bhote Koshi in Sindhupalchok. It is pinned in the data-layer-priority-watchlist not because it is large, but because it is a useful reality…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-trishuli-1",
-        "title": "Upper Trishuli-1",
-        "category": "entities",
-        "context": "…tage project on the Trishuli in Rasuwa. It is pinned in the data-layer-priority-watchlist because it sits in the central-north Trishuli corridor, whe…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-top-10-capacity-projects",
-        "title": "Layer: Top-10 Capacity Projects",
-        "category": "data",
-        "context": "…It should be read beside [[data-layer-storage-shortlist]], data-layer-priority-watchlist, basin seasonality, and transmission layers. Large MW can b…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…e, basin leverage, financing, or transmission dependence. | data-layer-priority-watchlist | | Storage reservoirs | 11 | Storage and storage-like proj…",
-        "target_exists": true
-      }
-    ],
-    "data-layer-storage-shortlist": [
-      {
-        "slug": "andhi-khola",
-        "title": "Andhi Khola",
-        "category": "entities",
-        "context": "…is pinned in both the [[data-layer-priority-watchlist]] and data-layer-storage-shortlist because the same river/site family appears in JICA's promis…",
-        "target_exists": true
-      },
-      {
-        "slug": "chera-1",
-        "title": "Chera-1",
-        "category": "entities",
-        "context": "…ing-storage candidate in the Karnali basin. It is pinned in data-layer-storage-shortlist. <!-- generated:specs:start --> ## Specifications | Para…",
-        "target_exists": true
-      },
-      {
-        "slug": "kokhajor-1",
-        "title": "Kokhajor-1",
-        "category": "entities",
-        "context": "…ising-storage candidate in the Koshi basin. It is pinned in data-layer-storage-shortlist because it has a high dry-energy share for a relatively sma…",
-        "target_exists": true
-      },
-      {
-        "slug": "lower-badigad",
-        "title": "Lower Badigad",
-        "category": "entities",
-        "context": "…ing-storage candidate in the Gandaki basin. It is pinned in data-layer-storage-shortlist because it pairs large carryover storage with meaningful dr…",
-        "target_exists": true
-      },
-      {
-        "slug": "lower-jhimruk",
-        "title": "Lower Jhimruk",
-        "category": "entities",
-        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist as a medium-basin storage option, with the important caveat…",
-        "target_exists": true
-      },
-      {
-        "slug": "madi",
-        "title": "Madi",
-        "category": "entities",
-        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist because its dry-energy ratio is useful even though it is no…",
-        "target_exists": true
-      },
-      {
-        "slug": "nalsyau-gad",
-        "title": "Nalsyau Gad",
-        "category": "entities",
-        "context": "…omising-storage set used by this wiki. It is pinned in both data-layer-storage-shortlist and [[data-layer-priority-watchlist]] because it contribute…",
-        "target_exists": true
-      },
-      {
-        "slug": "naumure-w-rapti",
-        "title": "Naumure (W. Rapti)",
-        "category": "entities",
-        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist because its effective storage is unusually large for its in…",
-        "target_exists": true
-      },
-      {
-        "slug": "sun-koshi-no-3",
-        "title": "Sun Koshi No.3",
-        "category": "entities",
-        "context": "…ising-storage candidate in the Koshi basin. It is pinned in data-layer-storage-shortlist because it combines large reservoir scale with meaningful d…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Start Here",
-        "category": "syntheses",
-        "context": "…to see the public-facing transmission corridor layer. - Use data-layer-storage-shortlist for storage and storage-like projects with dry-season syste…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-future-regulation-scenario",
-        "title": "Layer: Future Regulation Scenario",
-        "category": "data",
-        "context": "…ation risk. ## What It Represents This layer reframes the data-layer-storage-shortlist for the geopolitics preset. The question is not only how ma…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-priority-watchlist",
-        "title": "Layer: Priority Watchlist",
-        "category": "data",
-        "context": "…ojson) - 12-feature watchlist layer used by the explorer. - data-layer-storage-shortlist - overlapping storage and storage-like candidates. - [[data…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-top-10-capacity-projects",
-        "title": "Layer: Top-10 Capacity Projects",
-        "category": "data",
-        "context": "…arator, not a recommendation list. It should be read beside data-layer-storage-shortlist, [[data-layer-priority-watchlist]], basin seasonality, and…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…ghted for dry-season energy value, not just installed MW. | data-layer-storage-shortlist | | Flow regulation | 11 | Storage-first scenario markers s…",
-        "target_exists": true
-      }
-    ],
     "nea-transmission-annual-book-2077": [
       {
         "slug": "andhi-khola",
         "title": "Andhi Khola",
         "category": "entities",
-        "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "context": "…38.7 MCM | <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
         "target_exists": true
       },
       {
@@ -10225,6 +10889,13 @@
         "category": "entities",
         "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - NEA Transmission Annual Book 2077 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
         "target_exists": true
+      },
+      {
+        "slug": "uttarganga-storage",
+        "title": "Uttarganga Storage Hydropower Project",
+        "category": "entities",
+        "context": "…g/nea/nea_transmission_annual_book_2077.pdf) ## Sources - nea-transmission-annual-book-2077 - [[moewri-ipsdp-exec-summary-2025]] ## See also - [[build…",
+        "target_exists": true
       }
     ],
     "jica-ipsdp-main-report-vol2": [
@@ -10232,7 +10903,7 @@
         "slug": "andhi-khola",
         "title": "Andhi Khola",
         "category": "entities",
-        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Why It Matters The ope…",
+        "context": "…sion-annual-book-2077|NEA Transmission Annual Book 2077]] - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Why It Matters Andhi K…",
         "target_exists": true
       },
       {
@@ -10296,6 +10967,13 @@
         "title": "Khimti -I",
         "category": "entities",
         "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end --> ## Specifications (HPL pro…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-cascade",
+        "title": "Khimti Cascade",
+        "category": "entities",
+        "context": "…v]] (99.8 MW), and [[tamakoshi-3]] (287 MW). ## Sources - jica-ipsdp-main-report-vol2 ## See also - [[khimti-i]] - [[khimti-ii]] - [[khimti-dhal…",
         "target_exists": true
       },
       {
@@ -10401,6 +11079,183 @@
         "title": "West Seti Hydroelectric Project",
         "category": "entities",
         "context": "…nt reasons <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end -->",
+        "target_exists": true
+      }
+    ],
+    "budhigandaki": [
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola",
+        "category": "entities",
+        "context": "…1 GWh** of dry-season energy, it is not a mega-project like budhigandaki or [[dudhkoshi-storage]], but it is large enough to matter…",
+        "target_exists": true
+      },
+      {
+        "slug": "gandaki-basin",
+        "title": "Gandaki Basin",
+        "category": "entities",
+        "context": "…ys) and historical institutional familiarity. The proposed budhigandaki (1,200 MW) would be the basin's first major storage project…",
+        "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "…pages like [[dudhkoshi-storage]], [[tanahu-hydropower]] and budhigandaki — not here. ## See also - [[gandaki-basin]] - [[upper-tam…",
+        "target_exists": true
+      },
+      {
+        "slug": "karnali-chisapani",
+        "title": "Karnali Chisapani Project",
+        "category": "entities",
+        "context": "…e only project in a comparable bilateral/governance class - budhigandaki — the largest domestically-controlled storage advancing - […",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…nahu-hydropower]] (140 MW), [[dudhkoshi-storage]] (635 MW), budhigandaki (1,200 MW) — would bring the storage-to-RoR ratio from 1:32…",
+        "target_exists": true
+      },
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "…MW could require USD 5–7 billion — roughly 2–3x the cost of budhigandaki (1,200 MW, ~USD 2.77 billion). The financing structure (sov…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…lekhani-cascade]] achieves ~50% dry share with only 106 MW. budhigandaki projects 42% at 1,200 MW with 3,300 MCM of total storage. N…",
+        "target_exists": true
+      },
+      {
+        "slug": "pancheshwar",
+        "title": "Pancheshwar Multipurpose Project",
+        "category": "entities",
+        "context": "…y obvious projects from materializing. The comparison with budhigandaki — a 1,200 MW domestically-controlled storage project that i…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…roof-of-concept: if it completes, [[dudhkoshi-storage]] and budhigandaki become easier to finance because the conversation no longer…",
+        "target_exists": true
+      },
+      {
+        "slug": "west-seti",
+        "title": "West Seti Hydroelectric Project",
+        "category": "entities",
+        "context": "…m | | Type | Storage | ### Governance West Seti, alongside budhigandaki's history of Chinese-then-domestic pivots, represents a pat…",
+        "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…arnali-basin]] megaproject corridors. Megaprojects such as budhigandaki are instructive case files: the controversy is not only \"ho…",
+        "target_exists": true
+      },
+      {
+        "slug": "hybrid-siting-logic",
+        "title": "Hybrid Siting Logic",
+        "category": "concepts",
+        "context": "…0 | **~56 MWp** | Under construction; **design in now** | | budhigandaki | ~6,300 | 630 | **~500 MWp** | Proposed; 10+ year horizon…",
+        "target_exists": true
+      },
+      {
+        "slug": "hydro-geopolitics",
+        "title": "Hydro-Geopolitics",
+        "category": "concepts",
+        "context": "…[[west-seti]] in 2018; China Gezhouba was **blocked** from budhigandaki on political grounds. No major Chinese-linked storage proje…",
+        "target_exists": true
+      },
+      {
+        "slug": "sediment-as-design-constraint",
+        "title": "Sediment as Design Constraint",
+        "category": "concepts",
+        "context": "…l's pipeline ([[tanahu-hydropower]], [[dudhkoshi-storage]], budhigandaki) will face the same physical reality. The ERC's 2026 reserv…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-hydro-complementarity",
+        "title": "Solar–Hydro Complementarity",
+        "category": "concepts",
+        "context": "…ing hydro** — [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki (the [[storage-deficit]] story). 2. **Battery storage** — g…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…low-conflict** reservoir geometries—see discussions around budhigandaki and [[dudhkoshi-storage]]. ## Why storage is politically h…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…25) + [[dudhkoshi-storage]] (670 MW, COD ambitious ~2035). (budhigandaki 1,200 MW excluded from pre-2036 scenarios — main EPC contra…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…on backbone - Add two more India cross-border lines - Build budhigandaki (1,200 MW storage) - Activate Bangladesh export contracts a…",
+        "target_exists": true
+      },
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…dhigandaki (Gezhouba blocked, domestic). See [[west-seti]], budhigandaki | | 9 | Environmental/social impact data on storage candida…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-floating-pv-leverage",
+        "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
+        "category": "claims",
+        "context": "…- Future storage reservoirs such as [[tanahu-hydropower]], budhigandaki, and [[dudhkoshi-storage]] could create floating-PV options…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-storage-physical-fix",
+        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+        "category": "claims",
+        "context": "…ental cost per firm MWh is **unsettled** and site-specific (budhigandaki, [[dudhkoshi-storage]]). - **Sediment and climate** shift t…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-agricultural-energy-consumption",
+        "title": "Agricultural Energy Consumption",
+        "category": "data",
+        "context": "…ervoirs — linking [[storage-deficit]] to food security The budhigandaki, [[west-seti]], and [[pancheshwar]] projects all have irrig…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-inventory",
+        "title": "Map Inventory",
+        "category": "data",
+        "context": "…tations** for [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki, and [[dudhkoshi-storage]] - **Future regulation scenario**…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-nepal-solar-resource-zones",
+        "title": "Nepal Solar Resource Zones",
+        "category": "data",
+        "context": "…t/polygon for [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki, [[dudhkoshi-storage]], [[mugu-karnali-storage]], [[uttarga…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…ty-profile]] — the diurnal profile the Phase 2 model uses - budhigandaki — the 1,200 MW storage project quantified here - [[dudhkosh…",
         "target_exists": true
       }
     ],
@@ -10677,6 +11532,171 @@
         "category": "data",
         "context": "…pal-peak-load-curve-fy2024-25]] — the demand-side pattern - firm-power — the capacity-credit frame - [[seasonal-mismatch]] — the p…",
         "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…mismatch]] — the structural problem this model quantifies - firm-power — the capacity-credit frame",
+        "target_exists": true
+      }
+    ],
+    "data-layer-storage-shortlist": [
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola",
+        "category": "entities",
+        "context": "…rage-deficit]] - [[firm-power]] - [[stranded-generation]] - data-layer-storage-shortlist - [[data-layer-priority-watchlist]]",
+        "target_exists": true
+      },
+      {
+        "slug": "chera-1",
+        "title": "Chera-1",
+        "category": "entities",
+        "context": "…ing-storage candidate in the Karnali basin. It is pinned in data-layer-storage-shortlist. <!-- generated:specs:start --> ## Specifications | Para…",
+        "target_exists": true
+      },
+      {
+        "slug": "kokhajor-1",
+        "title": "Kokhajor-1",
+        "category": "entities",
+        "context": "…ising-storage candidate in the Koshi basin. It is pinned in data-layer-storage-shortlist because it has a high dry-energy share for a relatively sma…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-badigad",
+        "title": "Lower Badigad",
+        "category": "entities",
+        "context": "…ing-storage candidate in the Gandaki basin. It is pinned in data-layer-storage-shortlist because it pairs large carryover storage with meaningful dr…",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-jhimruk",
+        "title": "Lower Jhimruk",
+        "category": "entities",
+        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist as a medium-basin storage option, with the important caveat…",
+        "target_exists": true
+      },
+      {
+        "slug": "madi",
+        "title": "Madi",
+        "category": "entities",
+        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist because its dry-energy ratio is useful even though it is no…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…omising-storage set used by this wiki. It is pinned in both data-layer-storage-shortlist and [[data-layer-priority-watchlist]] because it contribute…",
+        "target_exists": true
+      },
+      {
+        "slug": "naumure-w-rapti",
+        "title": "Naumure (W. Rapti)",
+        "category": "entities",
+        "context": "…-storage candidate in the West Rapti basin. It is pinned in data-layer-storage-shortlist because its effective storage is unusually large for its in…",
+        "target_exists": true
+      },
+      {
+        "slug": "sun-koshi-no-3",
+        "title": "Sun Koshi No.3",
+        "category": "entities",
+        "context": "…ising-storage candidate in the Koshi basin. It is pinned in data-layer-storage-shortlist because it combines large reservoir scale with meaningful d…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…to see the public-facing transmission corridor layer. - Use data-layer-storage-shortlist for storage and storage-like projects with dry-season syste…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-future-regulation-scenario",
+        "title": "Layer: Future Regulation Scenario",
+        "category": "data",
+        "context": "…ation risk. ## What It Represents This layer reframes the data-layer-storage-shortlist for the geopolitics preset. The question is not only how ma…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-priority-watchlist",
+        "title": "Layer: Priority Watchlist",
+        "category": "data",
+        "context": "…ojson) - 12-feature watchlist layer used by the explorer. - data-layer-storage-shortlist - overlapping storage and storage-like candidates. - [[data…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…arator, not a recommendation list. It should be read beside data-layer-storage-shortlist, [[data-layer-priority-watchlist]], basin seasonality, and…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ghted for dry-season energy value, not just installed MW. | data-layer-storage-shortlist | | Flow regulation | 11 | Storage-first scenario markers s…",
+        "target_exists": true
+      }
+    ],
+    "data-layer-priority-watchlist": [
+      {
+        "slug": "andhi-khola",
+        "title": "Andhi Khola",
+        "category": "entities",
+        "context": "…[stranded-generation]] - [[data-layer-storage-shortlist]] - data-layer-priority-watchlist",
+        "target_exists": true
+      },
+      {
+        "slug": "betan-karnali",
+        "title": "Betan Karnali HP",
+        "category": "entities",
+        "context": "…-licence / investment-approval project. It is pinned in the data-layer-priority-watchlist and [[data-layer-top-10-capacity-projects]] because it sits…",
+        "target_exists": true
+      },
+      {
+        "slug": "nalsyau-gad",
+        "title": "Nalsyau Gad",
+        "category": "entities",
+        "context": "…. It is pinned in both [[data-layer-storage-shortlist]] and data-layer-priority-watchlist because it contributes the kind of dry-season energy Nepal'…",
+        "target_exists": true
+      },
+      {
+        "slug": "phukot-karnali",
+        "title": "Phukot Karnali",
+        "category": "entities",
+        "context": "…y Vidhyut Utpadan Company Limited. It is pinned in both the data-layer-priority-watchlist and [[data-layer-top-10-capacity-projects]] because it is o…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-bhotekoshi",
+        "title": "Upper Bhotekoshi",
+        "category": "entities",
+        "context": "…ct on the Bhote Koshi in Sindhupalchok. It is pinned in the data-layer-priority-watchlist not because it is large, but because it is a useful reality…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-1",
+        "title": "Upper Trishuli-1",
+        "category": "entities",
+        "context": "…tage project on the Trishuli in Rasuwa. It is pinned in the data-layer-priority-watchlist because it sits in the central-north Trishuli corridor, whe…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-top-10-capacity-projects",
+        "title": "Layer: Top-10 Capacity Projects",
+        "category": "data",
+        "context": "…It should be read beside [[data-layer-storage-shortlist]], data-layer-priority-watchlist, basin seasonality, and transmission layers. Large MW can b…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…e, basin leverage, financing, or transmission dependence. | data-layer-priority-watchlist | | Storage reservoirs | 11 | Storage and storage-like proj…",
+        "target_exists": true
       }
     ],
     "inaruwa-purnea-interconnection": [
@@ -10736,6 +11756,136 @@
         "title": "Arun 3",
         "category": "entities",
         "context": "…ate Arun-3 <!-- generated:sources:start --> ## Sources - Arun-3 Project Status & PDA Summary (2025) - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
+        "target_exists": true
+      }
+    ],
+    "doed-solar-power-plants-table": [
+      {
+        "slug": "bel-chautara-solar",
+        "title": "\"Bel Chautara Solar Farm Project\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "chandranigahpur-solar",
+        "title": "\"Chandranigahpur Solar Project\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "ddb-saurya",
+        "title": "\"DDB Saurya Vidyut Aayojana\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar",
+        "title": "\"Dharamnagar Solar Farm Project\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "shivasatakshi-jhapa",
+        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "ramgram-solar",
+        "title": "\"Grid Connected Solar PV Project, Ramgram\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-3mw",
+        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "jira-bhawani-sedawa",
+        "title": "\"Jira Bhawani Sedawa PV Project\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-energy-lalitpur",
+        "title": "\"Solar Energy\"",
+        "category": "entities",
+        "context": "…municipality anchor at Bungamati/Lalitpur | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-1mw",
+        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "simara-solar",
+        "title": "\"Solar Power Project, Simara 11 kV S/S\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "pratappur-solar",
+        "title": "\"Solar PV Pratappur\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "banke-block-2",
+        "title": "\"Solar PV Project Banke, block-2\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "raniyapur-block-1",
+        "title": "\"Solar PV Project, Raniyapur, Block 1\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "som-radha-krishna",
+        "title": "\"Som Radha Krishna Solar Farm Project\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      },
+      {
+        "slug": "morang-utility-solar",
+        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
+        "category": "entities",
+        "context": "…operating solar table coordinate midpoint | | **Source** | doed-solar-power-plants-table | ## Related - [[data-solar-fleet-inventory]] - [[data-la…",
+        "target_exists": true
+      }
+    ],
+    "ad-penalty-clause-research": [
+      {
+        "slug": "barahi-hydropower",
+        "title": "Barahi Hydropower",
+        "category": "entities",
+        "context": "…ainst the entity that holds the cheque book. ## Sources - ad-penalty-clause-research - [[sector-financial-analysis-triple-authority-2026]] ## S…",
         "target_exists": true
       }
     ],
@@ -10810,13 +11960,6 @@
         "title": "Hybrid Siting Logic",
         "category": "concepts",
         "context": "…nali-storage]] | ~9,000 | 900 | **~720 MWp** | Proposed | | uttarganga-storage | ~2,400 | 240 | **~192 MWp** | Proposed | Even at conserv…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…+ [[dudhkoshi-storage]] (~635 MW, COD speculative ~2033+) + uttarganga-storage + [[mugu-karnali-storage]]. Aggregate new dry-season genera…",
         "target_exists": true
       },
       {
@@ -11230,57 +12373,6 @@
         "target_exists": true
       }
     ],
-    "nea-solar": [
-      {
-        "slug": "bidur-trishuli-solar-25mwp",
-        "title": "Bidur / Trishuli 25 MWp Solar Farm",
-        "category": "entities",
-        "context": "…lt for the 960 MW tender is correctly Terai. ## Related - nea-solar — programme context - [[wb-grid-solar-ee-project]] — financ…",
-        "target_exists": true
-      },
-      {
-        "slug": "bishnu-priya-nawalparasi",
-        "title": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)",
-        "category": "entities",
-        "context": "…A FY 2024/25 annual report inventory tables. ## Related - nea-solar - [[butwal-solar-ridi-8-5mwp]], [[mithila-solar-dhanusha-10…",
-        "target_exists": true
-      },
-      {
-        "slug": "butwal-solar-ridi-8-5mwp",
-        "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
-        "category": "entities",
-        "context": "…are locked in and they continue to operate. ## Related - nea-solar — programme context - [[mithila-solar-dhanusha-10mwp]], [[b…",
-        "target_exists": true
-      },
-      {
-        "slug": "karnali-solar-energy-project",
-        "title": "Karnali Solar Energy Project",
-        "category": "entities",
-        "context": "…nitoring report for the programme ## Related - [[aepc]] - nea-solar - [[rooftop-minigrid-offgrid]] - [[karnali-basin]] — geogra…",
-        "target_exists": true
-      },
-      {
-        "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
-        "category": "entities",
-        "context": "…siting-logic]] — the concept this project operationalises - nea-solar — programme parent - [[dana-kushma-butwal-corridor]] — tran…",
-        "target_exists": true
-      },
-      {
-        "slug": "mithila-solar-dhanusha-10mwp",
-        "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
-        "category": "entities",
-        "context": "…ing the Phase IV tender at near-LCOE prices. ## Related - nea-solar - [[butwal-solar-ridi-8-5mwp]], [[bishnu-priya-nawalparasi]…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-960mw-solar-tender",
-        "title": "NEA 960 MW National Solar Tender",
-        "category": "entities",
-        "context": "…rice disclosure | Tender ran transparently | ## Related - nea-solar — programme parent - [[nea-annual-report-fy2024-25]] — prim…",
-        "target_exists": true
-      }
-    ],
     "trishuli": [
       {
         "slug": "bidur-trishuli-solar-25mwp",
@@ -11446,7 +12538,7 @@
         "slug": "claim-india-decisive-actor",
         "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
         "category": "claims",
-        "context": "…n is not independent. - **Treaty politics:** Shared basins (pancheshwar-class deadlocks) can stall or unlock multi-gigawatt-scale p…",
+        "context": "…regime. - **Treaty and corridor politics:** Shared basins (pancheshwar-class deadlocks) can stall or unlock multi-gigawatt-scale p…",
         "target_exists": true
       },
       {
@@ -11476,7 +12568,7 @@
         "slug": "nea-solar",
         "title": "NEA Solar Programme",
         "category": "entities",
-        "context": "…r Farm** | ~0.96 | Operating (2018) | Surya Power Company | bishnu-priya-nawalparasi | | **Khungri Solar Hybrid** | 50 | Planned (2026) | NEA +…",
+        "context": "…r Farm** | ~0.96 | Operating (2018) | Surya Power Company | bishnu-priya-nawalparasi | | **Khungri solar award** | 50 | LoI-awarded / pre-PPA |…",
         "target_exists": true
       }
     ],
@@ -11663,6 +12755,33 @@
         "target_exists": true
       }
     ],
+    "nea-generation-directorate-2081": [
+      {
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower",
+        "category": "entities",
+        "context": "…the wiki. <!-- generated:sources:start --> ## Sources - \"NEA Generation Directorate Data — FY 2080/81\" - [[kathmandu-post-chameliya|\"Kathmandu Post — Chameliya Hy…",
+        "target_exists": true
+      }
+    ],
+    "kathmandu-post-chameliya": [
+      {
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower",
+        "category": "entities",
+        "context": "…ate-2081|\"NEA Generation Directorate Data — FY 2080/81\"]] - \"Kathmandu Post — Chameliya Hydropower Coverage\" - [[myrepublica-pac-chameliya|\"My Republica — PAC Chameliya…",
+        "target_exists": true
+      }
+    ],
+    "myrepublica-pac-chameliya": [
+      {
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower",
+        "category": "entities",
+        "context": "…meliya|\"Kathmandu Post — Chameliya Hydropower Coverage\"]] - \"My Republica — PAC Chameliya Investigation\" <!-- generated:sources:end --> ## See also - [[ppa-prici…",
+        "target_exists": true
+      }
+    ],
     "mahakali-basin": [
       {
         "slug": "chameliya-jauljibi-interconnection",
@@ -11718,57 +12837,6 @@
         "title": "Map Inventory",
         "category": "data",
         "context": "…- [[koshi-basin]] - [[gandaki-basin]] - [[karnali-basin]] - mahakali-basin - [[claim-transmission-immediate-blocker]] - [[data-nepal-s…",
-        "target_exists": true
-      }
-    ],
-    "chameliya-hydropower": [
-      {
-        "slug": "chameliya-jauljibi-interconnection",
-        "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
-        "category": "entities",
-        "context": "…ry basin served | [[mahakali-basin]] | | Driving projects | chameliya-hydropower (30 MW operational), future Mahakali cascade | | Interconne…",
-        "target_exists": true
-      },
-      {
-        "slug": "kali-gandaki-a",
-        "title": "Kali Gandaki A",
-        "category": "entities",
-        "context": "…are with [[upper-tamakoshi]] (NPR 87 billion, domestic) and chameliya-hydropower (USD 226 million for 30 MW, 11-year build) for the cost-eff…",
-        "target_exists": true
-      },
-      {
-        "slug": "trishuli",
-        "title": "Trishuli",
-        "category": "entities",
-        "context": "…ulates surface wear and geometric erosion. The parallel is chameliya-hydropower: a plant built at extreme cost that underperforms due to en…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-tamakoshi",
-        "title": "Upper Tamakoshi",
-        "category": "entities",
-        "context": "…he plant that broke Nepal's load-shedding era. Compare with chameliya-hydropower — a 30 MW project that took 11 years — for a case study in…",
-        "target_exists": true
-      },
-      {
-        "slug": "buildability",
-        "title": "Buildability",
-        "category": "concepts",
-        "context": "…ics winter, and financing covenants that survive delay. See Chameliya (11-year build, $7.5M/MW, headrace tunnel collapse) and [[u…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-triple-authority",
-        "title": "NEA Triple-Authority Conflict",
-        "category": "concepts",
-        "context": "…eeds only at exceptional scale, not as a replicable model - chameliya-hydropower — state capital inefficiency absorbed off-balance sheet whi…",
-        "target_exists": true
-      },
-      {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "…ration Directorate Report 2080/2081 (16th Issue, 2024). See chameliya-hydropower. **NOTE 2 — Sanima Mai promotional tariff expiry:** The Ma…",
         "target_exists": true
       }
     ],
@@ -11871,182 +12939,12 @@
         "target_exists": true
       }
     ],
-    "budhigandaki": [
-      {
-        "slug": "gandaki-basin",
-        "title": "Gandaki Basin",
-        "category": "entities",
-        "context": "…ys) and historical institutional familiarity. The proposed budhigandaki (1,200 MW) would be the basin's first major storage project…",
-        "target_exists": true
-      },
-      {
-        "slug": "kali-gandaki-a",
-        "title": "Kali Gandaki A",
-        "category": "entities",
-        "context": "…pages like [[dudhkoshi-storage]], [[tanahu-hydropower]] and budhigandaki — not here. ## See also - [[gandaki-basin]] - [[upper-tam…",
-        "target_exists": true
-      },
-      {
-        "slug": "karnali-chisapani",
-        "title": "Karnali Chisapani Project",
-        "category": "entities",
-        "context": "…e only project in a comparable bilateral/governance class - budhigandaki — the largest domestically-controlled storage advancing - […",
-        "target_exists": true
-      },
-      {
-        "slug": "kulekhani-cascade",
-        "title": "Kulekhani Cascade",
-        "category": "entities",
-        "context": "…nahu-hydropower]] (140 MW), [[dudhkoshi-storage]] (635 MW), budhigandaki (1,200 MW) — would bring the storage-to-RoR ratio from 1:32…",
-        "target_exists": true
-      },
-      {
-        "slug": "mugu-karnali-storage",
-        "title": "Mugu Karnali Storage HEP",
-        "category": "entities",
-        "context": "…MW could require USD 5–7 billion — roughly 2–3x the cost of budhigandaki (1,200 MW, ~USD 2.77 billion). The financing structure (sov…",
-        "target_exists": true
-      },
-      {
-        "slug": "nalsyau-gad",
-        "title": "Nalsyau Gad",
-        "category": "entities",
-        "context": "…lekhani-cascade]] achieves ~50% dry share with only 106 MW. budhigandaki projects 42% at 1,200 MW with 3,300 MCM of total storage. N…",
-        "target_exists": true
-      },
-      {
-        "slug": "pancheshwar",
-        "title": "Pancheshwar Multipurpose Project",
-        "category": "entities",
-        "context": "…y obvious projects from materializing. The comparison with budhigandaki — a 1,200 MW domestically-controlled storage project that i…",
-        "target_exists": true
-      },
-      {
-        "slug": "tanahu-hydropower",
-        "title": "Tanahu Hydropower Project",
-        "category": "entities",
-        "context": "…roof-of-concept: if it completes, [[dudhkoshi-storage]] and budhigandaki become easier to finance because the conversation no longer…",
-        "target_exists": true
-      },
-      {
-        "slug": "west-seti",
-        "title": "West Seti Hydroelectric Project",
-        "category": "entities",
-        "context": "…m | | Type | Storage | ### Governance West Seti, alongside budhigandaki's history of Chinese-then-domestic pivots, represents a pat…",
-        "target_exists": true
-      },
-      {
-        "slug": "buildability",
-        "title": "Buildability",
-        "category": "concepts",
-        "context": "…arnali-basin]] megaproject corridors. Megaprojects such as budhigandaki are instructive case files: the controversy is not only \"ho…",
-        "target_exists": true
-      },
-      {
-        "slug": "hybrid-siting-logic",
-        "title": "Hybrid Siting Logic",
-        "category": "concepts",
-        "context": "…0 | **~56 MWp** | Under construction; **design in now** | | budhigandaki | ~6,300 | 630 | **~500 MWp** | Proposed; 10+ year horizon…",
-        "target_exists": true
-      },
-      {
-        "slug": "hydro-geopolitics",
-        "title": "Hydro-Geopolitics",
-        "category": "concepts",
-        "context": "…[[west-seti]] in 2018; China Gezhouba was **blocked** from budhigandaki on political grounds. No major Chinese-linked storage proje…",
-        "target_exists": true
-      },
-      {
-        "slug": "sediment-as-design-constraint",
-        "title": "Sediment as Design Constraint",
-        "category": "concepts",
-        "context": "…l's pipeline ([[tanahu-hydropower]], [[dudhkoshi-storage]], budhigandaki) will face the same physical reality. The ERC's 2026 reserv…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-hydro-complementarity",
-        "title": "Solar–Hydro Complementarity",
-        "category": "concepts",
-        "context": "…ing hydro** — [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki (the [[storage-deficit]] story). 2. **Battery storage** — g…",
-        "target_exists": true
-      },
-      {
-        "slug": "storage-deficit",
-        "title": "Storage Deficit",
-        "category": "concepts",
-        "context": "…low-conflict** reservoir geometries—see discussions around budhigandaki and [[dudhkoshi-storage]]. ## Why storage is politically h…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…tribution:** [[tanahu-hydropower]] (140 MW, COD ~2027–28) + budhigandaki (1,200 MW, COD speculative ~2032–35) + [[dudhkoshi-storage]…",
-        "target_exists": true
-      },
-      {
-        "slug": "twenty-year-strategy",
-        "title": "Twenty-Year Strategy",
-        "category": "syntheses",
-        "context": "…on backbone - Add two more India cross-border lines - Build budhigandaki (1,200 MW storage) - Activate Bangladesh export contracts a…",
-        "target_exists": true
-      },
-      {
-        "slug": "unresolved-questions",
-        "title": "Unresolved Questions",
-        "category": "syntheses",
-        "context": "…dhigandaki (Gezhouba blocked, domestic). See [[west-seti]], budhigandaki | | 9 | Environmental/social impact data on storage candida…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-floating-pv-leverage",
-        "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
-        "category": "claims",
-        "context": "…- Future storage reservoirs such as [[tanahu-hydropower]], budhigandaki, and [[dudhkoshi-storage]] could create floating-PV options…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-storage-physical-fix",
-        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
-        "category": "claims",
-        "context": "…ental cost per firm MWh is **unsettled** and site-specific (budhigandaki, [[dudhkoshi-storage]]). - **Sediment and climate** shift t…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-agricultural-energy-consumption",
-        "title": "Agricultural Energy Consumption",
-        "category": "data",
-        "context": "…ervoirs — linking [[storage-deficit]] to food security The budhigandaki, [[west-seti]], and [[pancheshwar]] projects all have irrig…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-map-inventory",
-        "title": "Map Inventory",
-        "category": "data",
-        "context": "…tations** for [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki, and [[dudhkoshi-storage]] - **Future regulation scenario**…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-nepal-solar-resource-zones",
-        "title": "Nepal Solar Resource Zones",
-        "category": "data",
-        "context": "…t/polygon for [[kulekhani-cascade]], [[tanahu-hydropower]], budhigandaki, [[dudhkoshi-storage]], [[mugu-karnali-storage]], [[uttarga…",
-        "target_exists": true
-      }
-    ],
     "dana-kushma-butwal-corridor": [
       {
         "slug": "hetauda-bharatpur-bardaghat-corridor",
         "title": "Hetauda–Bharatpur–Bardaghat 220 kV Corridor",
         "category": "entities",
         "context": "…ee also - [[mca-central-400]] — the 400 kV reinforcement - dana-kushma-butwal-corridor — the 220 kV it links with in the west - [[hetauda-dhalkeba…",
-        "target_exists": true
-      },
-      {
-        "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
-        "category": "entities",
-        "context": "…near the Dana–Kushma–Butwal corridor. The site sits on the dana-kushma-butwal-corridor interconnection axis, so the plant's output is naturally ev…",
         "target_exists": true
       },
       {
@@ -12146,7 +13044,7 @@
         "slug": "likhu-cascade",
         "title": "Likhu Cascade",
         "category": "entities",
-        "context": "…sion corridors with the broader Khimti-Tamakoshi system via khimti-dhalkebar-corridor. ## See also - [[likhu-1]] - [[likhu-2]] - [[likhu-4]] -…",
+        "context": "…sion corridors with the broader Khimti-Tamakoshi system via khimti-dhalkebar-corridor. ## Sources - [[likhu-cascade-research-compilation]] ## S…",
         "target_exists": true
       },
       {
@@ -12266,6 +13164,13 @@
         "category": "entities",
         "context": "…- [[nea]] <!-- generated:sources:start --> ## Sources - Kali Gandaki A — ADB Performance Evaluation & Wikipedia - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/2…",
         "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-kowan",
+        "title": "Kali Gandaki Kowan",
+        "category": "entities",
+        "context": "…run-of-river-hydropower]] - [[buildability]] ## Sources - kali-gandaki-a-adb-evaluation",
+        "target_exists": true
       }
     ],
     "karnali-chisapani": [
@@ -12365,6 +13270,13 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…data spine behind the claims: [[data-final-energy-mix]] -> data-domestic-demand -> [[data-trade-time-series]] -> [[data-solar-hydro-lcoe]].…",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -12414,28 +13326,12 @@
         "target_exists": true
       }
     ],
-    "khimti-ii": [
-      {
-        "slug": "khimti-cascade",
-        "title": "Khimti Cascade",
-        "category": "entities",
-        "context": "…| | [[khimti-i]] | 60 | Operating | Himal Power Limited | | khimti-ii | 48.8 | Under construction | — | | Upper Khimti | 12.0 | U…",
-        "target_exists": true
-      },
-      {
-        "slug": "khimti-dhalkebar-corridor",
-        "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor",
-        "category": "entities",
-        "context": "…# See also - [[khimti-i]] — the project it was built for - khimti-ii — the sister plant that shares the corridor - [[hetauda-dha…",
-        "target_exists": true
-      }
-    ],
     "tamakoshi-v": [
       {
         "slug": "khimti-cascade",
         "title": "Khimti Cascade",
         "category": "entities",
-        "context": "…ignificant projects including [[upper-tamakoshi]] (456 MW), tamakoshi-v (99.8 MW), and [[tamakoshi-3]] (287 MW). ## See also - [[…",
+        "context": "…ignificant projects including [[upper-tamakoshi]] (456 MW), tamakoshi-v (99.8 MW), and [[tamakoshi-3]] (287 MW). ## Sources - [[j…",
         "target_exists": true
       }
     ],
@@ -12444,7 +13340,7 @@
         "slug": "khimti-cascade",
         "title": "Khimti Cascade",
         "category": "entities",
-        "context": "…[upper-tamakoshi]] (456 MW), [[tamakoshi-v]] (99.8 MW), and tamakoshi-3 (287 MW). ## See also - [[khimti-i]] - [[khimti-ii]] - [[…",
+        "context": "…[upper-tamakoshi]] (456 MW), [[tamakoshi-v]] (99.8 MW), and tamakoshi-3 (287 MW). ## Sources - [[jica-ipsdp-main-report-vol2]] ##…",
         "target_exists": true
       },
       {
@@ -12452,6 +13348,22 @@
         "title": "Tamakoshi V",
         "category": "entities",
         "context": "…vidyut Company Ltd. (TKJVCL) | EPF | Under construction | | tamakoshi-3 | 650 MW | TBI Holding Co. Ltd. | — | Survey | The Tama Ko…",
+        "target_exists": true
+      }
+    ],
+    "icra-nepal-surveillance-a996-b119": [
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "…:start --> ## Sources - [[nea-annual-report-fy2024-25]] - icra-nepal-surveillance-a996-b119 <!-- generated:sources:end --> ## Specifications (DOED /…",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…ntation.] <!-- generated:sources:start --> ## Sources - \"ICRA Nepal — Surveillance Rating A996/B119\" - [[sahas-urja-progress-report-w010|\"Sahas Urja — Progress…",
         "target_exists": true
       }
     ],
@@ -12538,26 +13450,19 @@
         "target_exists": true
       }
     ],
-    "naumure-w-rapti": [
+    "nea-solar-loi-2024": [
       {
         "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
+        "title": "Khungri Solar Award (50 MW, Rolpa)",
         "category": "entities",
-        "context": "…idur-trishuli-solar-25mwp]] — precedent, if unintentional - naumure-w-rapti — nearby hydro developments that could inform future hybrid…",
+        "context": "…ited as a **LoI-awarded IPP solar project**. ## Related - nea-solar-loi-2024 — row-level LoI source - [[nea-960mw-solar-tender]] — procu…",
         "target_exists": true
       },
       {
-        "slug": "lower-jhimruk",
-        "title": "Lower Jhimruk",
+        "slug": "nea-960mw-solar-tender",
+        "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…shortlist notes that Lower Jhimruk's layout conflicts with naumure-w-rapti in the current design. That means the project should not be…",
-        "target_exists": true
-      },
-      {
-        "slug": "madi",
-        "title": "Madi",
-        "category": "entities",
-        "context": "…ith or complements other West Rapti storage options such as naumure-w-rapti. ## Map Interpretation The marker is a river anchor suita…",
+        "context": "…arently | ## Related - [[nea-solar]] — programme parent - nea-solar-loi-2024 — corrected row-level LoI award source - [[nea-annual-repor…",
         "target_exists": true
       }
     ],
@@ -12672,6 +13577,15 @@
         "target_exists": true
       }
     ],
+    "sangroula-ntnu-kulekhani-bathymetry": [
+      {
+        "slug": "kulekhani-iii",
+        "title": "Kulekhani III",
+        "category": "entities",
+        "context": "…ch system. ## Sources - [[nea-annual-report-fy2024-25]] - sangroula-ntnu-kulekhani-bathymetry ## See also - [[kulekhani-cascade]] — full cascade overvi…",
+        "target_exists": true
+      }
+    ],
     "likhu-cascade-research-compilation": [
       {
         "slug": "likhu-1",
@@ -12685,6 +13599,13 @@
         "title": "Likhu -2",
         "category": "entities",
         "context": "…cs:end --> <!-- generated:sources:start --> ## Sources - Likhu Cascade Research Compilation <!-- generated:sources:end --> ## Specifications (CARE Ne…",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-cascade",
+        "title": "Likhu Cascade",
+        "category": "entities",
+        "context": "…hi system via [[khimti-dhalkebar-corridor]]. ## Sources - likhu-cascade-research-compilation ## See also - [[likhu-1]] - [[likhu-2]] - [[likhu-4]] - [[…",
         "target_exists": true
       },
       {
@@ -12720,12 +13641,19 @@
         "target_exists": true
       }
     ],
-    "sahas-urja-benchmark-icra-2026": [
+    "naumure-w-rapti": [
       {
-        "slug": "lower-solu",
-        "title": "Lower Solu Hydropower Project",
+        "slug": "lower-jhimruk",
+        "title": "Lower Jhimruk",
         "category": "entities",
-        "context": "…ee Also - [[run-of-river-hydropower]] - [[buildability]] - sahas-urja-benchmark-icra-2026",
+        "context": "…shortlist notes that Lower Jhimruk's layout conflicts with naumure-w-rapti in the current design. That means the project should not be…",
+        "target_exists": true
+      },
+      {
+        "slug": "madi",
+        "title": "Madi",
+        "category": "entities",
+        "context": "…ith or complements other West Rapti storage options such as naumure-w-rapti. ## Map Interpretation The marker is a river anchor suita…",
         "target_exists": true
       }
     ],
@@ -12742,6 +13670,15 @@
         "title": "Layer: Major Transmission Network",
         "category": "data",
         "context": "…ameliya-attariya-132]] - [[kohalpur-surkhet-dailekh-132]] - udipur-damauli-bharatpur-220 - [[marsyangdi-upper-220]] - [[kabeli-132]] - [[solu-tingla…",
+        "target_exists": true
+      }
+    ],
+    "urja-khabar-generation-audit": [
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…:start --> ## Sources - [[nea-annual-report-fy2024-25]] - urja-khabar-generation-audit <!-- generated:sources:end --> ## Specifications (NEA Lic…",
         "target_exists": true
       }
     ],
@@ -12924,7 +13861,7 @@
         "slug": "nea-solar",
         "title": "NEA Solar Programme",
         "category": "entities",
-        "context": "…*Khungri Solar Hybrid** | 50 | Planned (2026) | NEA + IPP | khungri-solar-hybrid-50mw | | **Karnali Solar Energy Project** | ~10 (pilot) | Planne…",
+        "context": "…ard** | 50 | LoI-awarded / pre-PPA | Rapti Urja Pvt. Ltd. | khungri-solar-hybrid-50mw | | **Karnali Solar Energy Project** | ~10 (pilot) | Planne…",
         "target_exists": true
       }
     ],
@@ -13050,6 +13987,33 @@
         "title": "Nepal's Contribution to the Ganges",
         "category": "concepts",
         "context": "…parate them. Nepal’s **National Water Plan** discourse (see national-water-plan-nepal) is the domestic mirror—attempting to align **IWRM**, **ene…",
+        "target_exists": true
+      }
+    ],
+    "sahas-urja-progress-report-w010": [
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…-a996-b119|\"ICRA Nepal — Surveillance Rating A996/B119\"]] - \"Sahas Urja — Progress Report W010\" - [[clickmandu-financial-reporting|\"Clickmandu — Sahas Urja…",
+        "target_exists": true
+      }
+    ],
+    "clickmandu-financial-reporting": [
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…rogress-report-w010|\"Sahas Urja — Progress Report W010\"]] - \"Clickmandu — Sahas Urja Financial Reporting\" - [[himalayan-capital-analysis|\"Himalayan Capital — Sahas U…",
+        "target_exists": true
+      }
+    ],
+    "himalayan-capital-analysis": [
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…reporting|\"Clickmandu — Sahas Urja Financial Reporting\"]] - \"Himalayan Capital — Sahas Urja Analysis\" <!-- generated:sources:end --> ## See also - [[ppa-prici…",
         "target_exists": true
       }
     ],
@@ -13299,7 +14263,16 @@
         "slug": "trishuli-cascade",
         "title": "Trishuli Cascade",
         "category": "entities",
-        "context": "…sponsorship patterns with several Trishuli projects via the chilime-trishuli-220kv-transmission-line. ## See also - [[upper-trishuli-3a]] - [[upper-trishuli-3…",
+        "context": "…sponsorship patterns with several Trishuli projects via the chilime-trishuli-220kv-transmission-line. ## Sources - [[nea-annual-report-fy2024-25]] ## See also…",
+        "target_exists": true
+      }
+    ],
+    "doed-licensing-directive-2075": [
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "…:start --> ## Sources - [[nea-annual-report-fy2024-25]] - doed-licensing-directive-2075 <!-- generated:sources:end --> ## Specifications (Develop…",
         "target_exists": true
       }
     ],
@@ -14529,7 +15502,7 @@
         "slug": "claim-climate-harder-not-easier",
         "title": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
         "category": "claims",
-        "context": "…even if average runoff rises. - **HKH cryosphere signal:** icimod-hkh-glacier-change context: glacier area decline on the order of **~12%** from…",
+        "context": "…even if average runoff rises. - **HKH cryosphere signal:** icimod-hkh-glacier-change context: glacier area decline on the order of **~12%** betw…",
         "target_exists": true
       }
     ],
@@ -14636,6 +15609,20 @@
         "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
         "category": "claims",
         "context": "…## Related - [[kulekhani-cascade]] - [[storage-deficit]] - solar-role-in-winter-deficit - [[data-map-inventory]] - [[claim-solar-terai-only-short-c…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-solar-terai-only-short-cycle-build",
+        "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
+        "category": "claims",
+        "context": "…cle compression is possible. - The working solar pathway in solar-role-in-winter-deficit uses a moderate-growth ladder of **~1,700 MWp by 2028**, **…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…and . ## Related - solar-role-in-winter-deficit — synthesis page for what the model implies for policy - [[…",
         "target_exists": true
       }
     ],
@@ -14780,7 +15767,7 @@
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…r now undercuts small-hydro PPA rates on an LCOE basis. - claim-climate-harder-not-easier — climate change increases hydrological volatility and tail…",
+        "context": "…RoR on blended tariff, with additional seasonal value. - claim-climate-harder-not-easier — climate change increases hydrological volatility and tail…",
         "target_exists": true
       }
     ],
@@ -14922,12 +15909,21 @@
         "target_exists": true
       }
     ],
+    "data-winter-deficit-model": [
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…numbers - [[bottleneck-hierarchy]] — the ranking to patch - data-winter-deficit-model — the reproducible monthly energy-balance model backing thi…",
+        "target_exists": true
+      }
+    ],
     "data-map-layer-labels": [
       {
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…nceable, domestically useful power. ## Use The Map - Open data-map-layer-labels when you want to know what each map layer means. - Use [[da…",
+        "context": "…solar + storage + demand portfolio. ## Use The Map - Open data-map-layer-labels when you want to know what each map layer means. - Use [[da…",
         "target_exists": true
       },
       {
@@ -15194,22 +16190,6 @@
         "target_exists": true
       }
     ],
-    "data-layer-solar-plants-nea-awards": [
-      {
-        "slug": "start-here",
-        "title": "Start Here",
-        "category": "syntheses",
-        "context": "…d storage-like projects with dry-season system value. - Use data-layer-solar-plants-nea-awards and [[data-layer-solar-ghi-zones]] for solar assets and res…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…rd anchors, with approximate-location flags where needed. | data-layer-solar-plants-nea-awards | | Best solar locations | 6 | Strategic suitability bands…",
-        "target_exists": true
-      }
-    ],
     "data-layer-solar-ghi-zones": [
       {
         "slug": "start-here",
@@ -15222,7 +16202,7 @@
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
-        "context": "…e are strategic zones, not parcel-level siting decisions. | data-layer-solar-ghi-zones | | Solar plants | 89 | Operating solar plants plus NEA 960…",
+        "context": "…e are strategic zones, not parcel-level siting decisions. | data-layer-solar-ghi-zones | | Solar plants | 88 | Operating solar plants plus NEA 960…",
         "target_exists": true
       }
     ],

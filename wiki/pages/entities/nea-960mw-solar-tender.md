@@ -3,7 +3,7 @@ title: NEA 960 MW National Solar Tender
 type: entity
 created: 2026-04-23
 updated: 2026-04-23
-sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project]
+sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, nea-solar-loi-2024]
 tags: [nea, solar, tender, 960mw, ipp, ppa, terai, competitive-bid]
 generator: manual
 page_quality: analysis
@@ -24,7 +24,7 @@ The tender that represents the **institutional bet** that Nepal's solar scaling 
 | **Typical project size** | 5–25 MWp |
 | **Geographic distribution** | Terai-dominant (Madhesh + Lumbini + Sudurpaschim + Koshi provinces) |
 | **Procurement model** | Tariff-based competitive bidding |
-| **Tariff range (awarded)** | NPR 5.70–6.20/kWh (gazette) ≈ $0.043–$0.047 |
+| **Tariff range (awarded)** | NPR 4.99–5.54/kWh (NEA corrected LoI) ≈ $0.037–$0.041 |
 | **PPA tenor** | 25 years, standard NEA PPA structure |
 | **Grid integration study** | Cumulative Grid Impact Study completed FY 2024/25 under [[wb-grid-solar-ee-project]] TA line |
 | **Expected PPA closures** | FY 2025/26–2026/27 |
@@ -51,7 +51,7 @@ Four reasons:
 
 ### 1. It establishes the price floor for Nepal solar.
 
-The awarded tariff range (5.70–6.20 NPR/kWh) is the first **portfolio-scale** solar price discovery in Nepal. Earlier rounds (Phase I at 8.40, Phase III at 6.40) were single-digit-count project awards; 960 MW with 63 developers is the first price point that reflects actual competitive equilibrium. Future project evaluations should benchmark against this tariff, not against 2017 numbers.
+The awarded tariff range (4.99–5.54 NPR/kWh) is the first **portfolio-scale** solar price discovery in Nepal. Earlier rounds (Phase I at 8.40, Phase III around the 6.40 band) were single-digit-count project awards; 960 MW with 63 awards is the first price point that reflects actual competitive equilibrium. Future project evaluations should benchmark against this tariff, not against 2017 numbers.
 
 ### 2. It validates the market.
 
@@ -71,13 +71,13 @@ The tender tariff sits at the crossover point between solar and hydro ([[solar-l
 
 | Benchmark | Price (NPR/kWh) |
 |---|---:|
-| 960 MW tender awarded (blended) | **~5.94** |
+| 960 MW tender awarded (capacity-weighted) | **~5.43** |
 | NEA small RoR hydro PPA (blended) | 6.20 |
 | NEA PRoR hydro PPA (blended) | 6.80 |
 | NEA time-weighted-value of solar | **~4.80** |
 | NEA time-weighted-value of small RoR | ~7.00 |
 
-Each MW in this tender is already cheaper than equivalent small RoR hydro on a *blended* basis and ~30% cheaper on *time-weighted* basis. This is the tariff point that [[claim-solar-cheaper-than-small-hydro]] stands on.
+Each MW in this tender is already materially cheaper than equivalent small RoR hydro on a *blended* basis and ~30% cheaper on a *time-weighted* basis. This is the tariff point that [[claim-solar-cheaper-than-small-hydro]] stands on.
 
 ## Implementation risks and watch items
 
@@ -93,7 +93,8 @@ Each MW in this tender is already cheaper than equivalent small RoR hydro on a *
 ## Related
 
 - [[nea-solar]] — programme parent
-- [[nea-annual-report-fy2024-25]] — primary source
+- [[nea-solar-loi-2024]] — corrected row-level LoI award source
+- [[nea-annual-report-fy2024-25]] — programme context
 - [[solar-lcoe-crossover]] — the price story this tender anchors
 - [[data-solar-fleet-inventory]] — the fleet this tender expands
 - [[data-solar-hydro-lcoe]] — the numerical crossover

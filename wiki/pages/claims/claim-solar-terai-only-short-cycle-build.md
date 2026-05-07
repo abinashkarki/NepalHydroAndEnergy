@@ -2,7 +2,7 @@
 title: Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030
 type: claim
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-07
 claim_id: C-014
 confidence: medium
 status: stable
@@ -17,9 +17,10 @@ For large new supply that can materially affect Nepal's pre-2030 winter balance,
 
 ## Evidence
 
-- Solar PV projects in the 5-50 MW range can move from award to COD on a 1.5-3 year cycle if land, grid connection, and financing are ready.
+- Solar PV projects in the 5-50 MW range can move from award to COD on a **2–3 year build cycle** if land, grid connection, and financing are ready. This is the only large supply lever that operates inside the **2026–2030 window**.
 - Comparable hydropower additions face longer development paths: survey, hydrology, geology, EIA, access roads, civil works, tunneling, sediment design, finance closure, and evacuation.
 - The NEA 960 MW LoI concentrates awards around substations and DCS/grid nodes, which is exactly the geography where build cycle compression is possible.
+- The working solar pathway in [[solar-role-in-winter-deficit]] uses a moderate-growth ladder of **~1,700 MWp by 2028**, **~3,500 MWp by 2032**, and **~5,000 MWp by 2035**.
 - [[hybrid-siting-logic]] and [[solar-resource-geography-nepal]] show why the strategic variable is not just GHI; it is GHI plus grid adjacency plus land feasibility.
 
 ## Confidence rationale

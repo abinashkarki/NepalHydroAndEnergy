@@ -1,0 +1,13 @@
+month_gregorian,month_order,days,index_terai,index_mustang,source_note
+Jan,7,31,75,95,"data-solar-hydro-complementarity-profile.md monthly complementarity table; index = monthly mean scaled so peak month = 100"
+Feb,8,28,82,100,""
+Mar,9,31,95,105,""
+Apr,10,30,100,105,""
+May,11,31,95,90,""
+Jun,12,30,70,80,""
+Jul,1,31,60,85,""
+Aug,2,31,62,90,""
+Sep,3,30,75,95,""
+Oct,4,31,92,100,""
+Nov,5,30,88,100,""
+Dec,6,31,80,98,""

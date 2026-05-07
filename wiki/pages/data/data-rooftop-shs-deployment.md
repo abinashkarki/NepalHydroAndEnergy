@@ -27,7 +27,7 @@ The volume-and-geography companion to [[rooftop-minigrid-offgrid]]. The numbers 
 
 *Warning:* these numbers do not appear in any single registry. They are compiled from AEPC yearbooks (cumulative figures to 2021, extrapolated to 2024), NEA net-metering records (partial disclosure), EIB / WB project completion reports, and private-installer estimates. The total MWp could be +/−20% in either direction.
 
-**Compared to NEA-registered utility solar of 141.94 MWp, rooftop + off-grid is ~135% of the utility fleet.** The "Nepal has 142 MW of solar" soundbite under-counts by a factor of ~2.3×.
+**Compared to DoED-registered utility solar of 141.74 MWp, rooftop + off-grid is ~135% of the utility fleet.** The "Nepal has 142 MW of solar" soundbite under-counts by a factor of ~2.3×.
 
 ## District-level SHS distribution (cumulative, ~2021 AEPC data, approximate)
 

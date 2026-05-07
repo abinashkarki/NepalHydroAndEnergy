@@ -1,0 +1,6 @@
+scenario_id,label,month,month_gregorian,days,peak_demand_mw,ror_hydro_mw,reservoir_dispatch_mw,solar_mw_at_peak,bess_discharge_mw,demand_shaping_mw,residual_mw,residual_pct_demand,peak_to_average_ratio,reservoir_dispatch_factor,peak_hour,post_2035_assumption
+2035_no_solar,2035 Storage Only (no new solar),Magh,Feb,29,4066,1504,729,0,0,0,1833,45.1,1.348,0.90,18.5,False
+2035_solar_only,2035 Solar Only (no new storage),Magh,Feb,29,4066,1504,126,0,0,0,2436,59.9,1.348,0.90,18.5,False
+2035_full,2035 Full Portfolio (excl. Budhigandaki),Magh,Feb,29,4066,1504,729,0,500,400,933,23.0,1.348,0.90,18.5,False
+2035_no_budhigandaki,2035 Excl. Budhigandaki (explicit),Magh,Feb,29,4066,1504,729,0,500,400,933,23.0,1.348,0.90,18.5,False
+2035_with_budhigandaki,2035 Incl. Budhigandaki (aspirational),Magh,Feb,29,4066,1504,1809,0,500,400,-147,-3.6,1.348,0.90,18.5,True

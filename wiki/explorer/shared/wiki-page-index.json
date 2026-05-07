@@ -34,6 +34,10 @@
         "title": "DoED Licensing Directive 2075 \u2014 Hydropower Project Licensing"
       },
       {
+        "slug": "doed-solar-power-plants-table",
+        "title": "DoED Power Plants: Solar Table"
+      },
+      {
         "slug": "dudhkoshi-nea-proposal-2024",
         "title": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record"
       },
@@ -120,6 +124,10 @@
       {
         "slug": "nea-generation-directorate-2081",
         "title": "\"NEA Generation Directorate Data \u2014 FY 2080/81\""
+      },
+      {
+        "slug": "nea-solar-loi-2024",
+        "title": "NEA Notice of Intent to Award Solar Projects (2024)"
       },
       {
         "slug": "nea-standard-ppa-clauses",
@@ -244,8 +252,16 @@
         "title": "Nepal\u2013Bangladesh Electricity Trade Route"
       },
       {
+        "slug": "banke-block-2",
+        "title": "\"Solar PV Project Banke, block-2\""
+      },
+      {
         "slug": "barahi-hydropower",
         "title": "Barahi Hydropower"
+      },
+      {
+        "slug": "bel-chautara-solar",
+        "title": "\"Bel Chautara Solar Farm Project\""
       },
       {
         "slug": "betan-karnali",
@@ -312,6 +328,10 @@
         "title": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection"
       },
       {
+        "slug": "chandranigahpur-solar",
+        "title": "\"Chandranigahpur Solar Project\""
+      },
+      {
         "slug": "chera-1",
         "title": "Chera-1"
       },
@@ -332,8 +352,28 @@
         "title": "Dana\u2013Kushma\u2013New Butwal 220 kV Corridor"
       },
       {
+        "slug": "ddb-saurya",
+        "title": "\"DDB Saurya Vidyut Aayojana\""
+      },
+      {
         "slug": "dhalkebar-muzaffarpur",
         "title": "Dhalkebar\u2013Muzaffarpur 400 kV Cross-Border Interconnection"
+      },
+      {
+        "slug": "dhalkebar-solar-1mw",
+        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\""
+      },
+      {
+        "slug": "dhalkebar-solar-3mw",
+        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\""
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\""
+      },
+      {
+        "slug": "dharamnagar-solar",
+        "title": "\"Dharamnagar Solar Farm Project\""
       },
       {
         "slug": "dhungesangu-basantapur-220-132kv",
@@ -386,6 +426,10 @@
       {
         "slug": "jagdulla",
         "title": "Jagdulla HEP"
+      },
+      {
+        "slug": "jira-bhawani-sedawa",
+        "title": "\"Jira Bhawani Sedawa PV Project\""
       },
       {
         "slug": "kabeli-132",
@@ -469,7 +513,7 @@
       },
       {
         "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)"
+        "title": "Khungri Solar Award (50 MW, Rolpa)"
       },
       {
         "slug": "kimathanka-arun",
@@ -616,6 +660,10 @@
         "title": "New Modi\u2013Lekhnath 132 kV Transmission Line"
       },
       {
+        "slug": "morang-utility-solar",
+        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\""
+      },
+      {
         "slug": "mristi-khola",
         "title": "Mristi Khola"
       },
@@ -676,6 +724,10 @@
         "title": "Phukot Karnali"
       },
       {
+        "slug": "pratappur-solar",
+        "title": "\"Solar PV Pratappur\""
+      },
+      {
         "slug": "purbi-chitwan-132kv-substation",
         "title": "Purbi Chitwan 132 kV Substation"
       },
@@ -686,6 +738,14 @@
       {
         "slug": "rahughat",
         "title": "Rahughat"
+      },
+      {
+        "slug": "ramgram-solar",
+        "title": "\"Grid Connected Solar PV Project, Ramgram\""
+      },
+      {
+        "slug": "raniyapur-block-1",
+        "title": "\"Solar PV Project, Raniyapur, Block 1\""
       },
       {
         "slug": "rasuwa-bhotekoshi",
@@ -716,8 +776,20 @@
         "title": "Sanjen"
       },
       {
+        "slug": "shivasatakshi-jhapa",
+        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\""
+      },
+      {
+        "slug": "simara-solar",
+        "title": "\"Solar Power Project, Simara 11 kV S/S\""
+      },
+      {
         "slug": "singati-khola-hydropower-project",
         "title": "Singati Khola Hydropower Project"
+      },
+      {
+        "slug": "solar-energy-lalitpur",
+        "title": "\"Solar Energy\""
       },
       {
         "slug": "solu-tingla-mirchaiya-132",
@@ -726,6 +798,10 @@
       {
         "slug": "solu",
         "title": "Solu Hydropower Project"
+      },
+      {
+        "slug": "som-radha-krishna",
+        "title": "\"Som Radha Krishna Solar Farm Project\""
       },
       {
         "slug": "sun-koshi-no-3",
@@ -1422,6 +1498,10 @@
       {
         "slug": "data-trade-time-series",
         "title": "Electricity Trade Time Series"
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model"
       }
     ],
     "interventions": [
@@ -1456,6 +1536,7 @@
     "chilime-annual-report-fy2078-79",
     "clickmandu-financial-reporting",
     "doed-licensing-directive-2075",
+    "doed-solar-power-plants-table",
     "dudhkoshi-nea-proposal-2024",
     "eib-rural-solar-phase2",
     "global-solar-atlas-nepal",
@@ -1478,6 +1559,7 @@
     "national-water-plan-nepal",
     "nea-annual-report-fy2024-25",
     "nea-generation-directorate-2081",
+    "nea-solar-loi-2024",
     "nea-standard-ppa-clauses",
     "nea-transmission-annual-book-2077",
     "nepal-transmission-landscape-2025",
@@ -1508,7 +1590,9 @@
     "bagmati-nadi",
     "balephi",
     "bangladesh-trade-route",
+    "banke-block-2",
     "barahi-hydropower",
+    "bel-chautara-solar",
     "betan-karnali",
     "bheri-1",
     "bheri-2",
@@ -1525,12 +1609,18 @@
     "chameliya-attariya-132",
     "chameliya-hydropower",
     "chameliya-jauljibi-interconnection",
+    "chandranigahpur-solar",
     "chera-1",
     "chilime-trishuli-220kv-transmission-line",
     "chilime",
     "damak-godak-phidim-132kv",
     "dana-kushma-butwal-corridor",
+    "ddb-saurya",
     "dhalkebar-muzaffarpur",
+    "dhalkebar-solar-1mw",
+    "dhalkebar-solar-3mw",
+    "dharamnagar-solar-ii",
+    "dharamnagar-solar",
     "dhungesangu-basantapur-220-132kv",
     "dordi-khola",
     "dudhkoshi-storage",
@@ -1544,6 +1634,7 @@
     "inaruwa-purnea-interconnection",
     "india-energy-relationship",
     "jagdulla",
+    "jira-bhawani-sedawa",
     "kabeli-132",
     "kabeli-a",
     "kabeli-b-1",
@@ -1601,6 +1692,7 @@
     "middle-tamor",
     "mithila-solar-dhanusha-10mwp",
     "modi-lekhnath-132kv",
+    "morang-utility-solar",
     "mristi-khola",
     "mugu-karnali-storage",
     "mustang-high-altitude-solar-zone",
@@ -1616,9 +1708,12 @@
     "nyadi-khola",
     "pancheshwar",
     "phukot-karnali",
+    "pratappur-solar",
     "purbi-chitwan-132kv-substation",
     "rahughat-mangale",
     "rahughat",
+    "ramgram-solar",
+    "raniyapur-block-1",
     "rasuwa-bhotekoshi",
     "rasuwagadhi",
     "ratmate-rasuwagadhi-kerung-400kv",
@@ -1626,9 +1721,13 @@
     "sanima-mai",
     "sanjen-khola",
     "sanjen",
+    "shivasatakshi-jhapa",
+    "simara-solar",
     "singati-khola-hydropower-project",
+    "solar-energy-lalitpur",
     "solu-tingla-mirchaiya-132",
     "solu",
+    "som-radha-krishna",
     "sun-koshi-no-3",
     "super-dordi-kha-hydropower-project",
     "super-madi",
@@ -1801,6 +1900,7 @@
     "data-solar-hydro-lcoe",
     "data-storage-comparison",
     "data-trade-time-series",
+    "data-winter-deficit-model",
     "intervention-electric-cooking-transition",
     "intervention-nea-structural-separation",
     "intervention-q-design-climate-adjustment",
@@ -1816,6 +1916,7 @@
     "chilime-annual-report-fy2078-79": "sources",
     "clickmandu-financial-reporting": "sources",
     "doed-licensing-directive-2075": "sources",
+    "doed-solar-power-plants-table": "sources",
     "dudhkoshi-nea-proposal-2024": "sources",
     "eib-rural-solar-phase2": "sources",
     "global-solar-atlas-nepal": "sources",
@@ -1838,6 +1939,7 @@
     "national-water-plan-nepal": "sources",
     "nea-annual-report-fy2024-25": "sources",
     "nea-generation-directorate-2081": "sources",
+    "nea-solar-loi-2024": "sources",
     "nea-standard-ppa-clauses": "sources",
     "nea-transmission-annual-book-2077": "sources",
     "nepal-transmission-landscape-2025": "sources",
@@ -1868,7 +1970,9 @@
     "bagmati-nadi": "entities",
     "balephi": "entities",
     "bangladesh-trade-route": "entities",
+    "banke-block-2": "entities",
     "barahi-hydropower": "entities",
+    "bel-chautara-solar": "entities",
     "betan-karnali": "entities",
     "bheri-1": "entities",
     "bheri-2": "entities",
@@ -1885,12 +1989,18 @@
     "chameliya-attariya-132": "entities",
     "chameliya-hydropower": "entities",
     "chameliya-jauljibi-interconnection": "entities",
+    "chandranigahpur-solar": "entities",
     "chera-1": "entities",
     "chilime-trishuli-220kv-transmission-line": "entities",
     "chilime": "entities",
     "damak-godak-phidim-132kv": "entities",
     "dana-kushma-butwal-corridor": "entities",
+    "ddb-saurya": "entities",
     "dhalkebar-muzaffarpur": "entities",
+    "dhalkebar-solar-1mw": "entities",
+    "dhalkebar-solar-3mw": "entities",
+    "dharamnagar-solar-ii": "entities",
+    "dharamnagar-solar": "entities",
     "dhungesangu-basantapur-220-132kv": "entities",
     "dordi-khola": "entities",
     "dudhkoshi-storage": "entities",
@@ -1904,6 +2014,7 @@
     "inaruwa-purnea-interconnection": "entities",
     "india-energy-relationship": "entities",
     "jagdulla": "entities",
+    "jira-bhawani-sedawa": "entities",
     "kabeli-132": "entities",
     "kabeli-a": "entities",
     "kabeli-b-1": "entities",
@@ -1961,6 +2072,7 @@
     "middle-tamor": "entities",
     "mithila-solar-dhanusha-10mwp": "entities",
     "modi-lekhnath-132kv": "entities",
+    "morang-utility-solar": "entities",
     "mristi-khola": "entities",
     "mugu-karnali-storage": "entities",
     "mustang-high-altitude-solar-zone": "entities",
@@ -1976,9 +2088,12 @@
     "nyadi-khola": "entities",
     "pancheshwar": "entities",
     "phukot-karnali": "entities",
+    "pratappur-solar": "entities",
     "purbi-chitwan-132kv-substation": "entities",
     "rahughat-mangale": "entities",
     "rahughat": "entities",
+    "ramgram-solar": "entities",
+    "raniyapur-block-1": "entities",
     "rasuwa-bhotekoshi": "entities",
     "rasuwagadhi": "entities",
     "ratmate-rasuwagadhi-kerung-400kv": "entities",
@@ -1986,9 +2101,13 @@
     "sanima-mai": "entities",
     "sanjen-khola": "entities",
     "sanjen": "entities",
+    "shivasatakshi-jhapa": "entities",
+    "simara-solar": "entities",
     "singati-khola-hydropower-project": "entities",
+    "solar-energy-lalitpur": "entities",
     "solu-tingla-mirchaiya-132": "entities",
     "solu": "entities",
+    "som-radha-krishna": "entities",
     "sun-koshi-no-3": "entities",
     "super-dordi-kha-hydropower-project": "entities",
     "super-madi": "entities",
@@ -2161,6 +2280,7 @@
     "data-solar-hydro-lcoe": "data",
     "data-storage-comparison": "data",
     "data-trade-time-series": "data",
+    "data-winter-deficit-model": "data",
     "intervention-electric-cooking-transition": "interventions",
     "intervention-nea-structural-separation": "interventions",
     "intervention-q-design-climate-adjustment": "interventions",
@@ -2176,6 +2296,7 @@
     "chilime-annual-report-fy2078-79": "Chilime Hydropower Company Limited Annual Report FY 2078/79",
     "clickmandu-financial-reporting": "\"Clickmandu \u2014 Sahas Urja Financial Reporting\"",
     "doed-licensing-directive-2075": "DoED Licensing Directive 2075 \u2014 Hydropower Project Licensing",
+    "doed-solar-power-plants-table": "DoED Power Plants: Solar Table",
     "dudhkoshi-nea-proposal-2024": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record",
     "eib-rural-solar-phase2": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
     "global-solar-atlas-nepal": "Global Solar Atlas (Nepal coverage)",
@@ -2198,6 +2319,7 @@
     "national-water-plan-nepal": "National Water Plan, Nepal",
     "nea-annual-report-fy2024-25": "NEA Annual Report FY 2024/25",
     "nea-generation-directorate-2081": "\"NEA Generation Directorate Data \u2014 FY 2080/81\"",
+    "nea-solar-loi-2024": "NEA Notice of Intent to Award Solar Projects (2024)",
     "nea-standard-ppa-clauses": "NEA Standard Hydropower PPA Clauses \u2014 AD Penalty, Reserve Margin, and Curtailment",
     "nea-transmission-annual-book-2077": "NEA Transmission Annual Book 2077",
     "nepal-transmission-landscape-2025": "Nepal Transmission System \u2014 400 kV Landscape & Cross-Border Plan (2025)",
@@ -2228,7 +2350,9 @@
     "bagmati-nadi": "Bagmati Nadi",
     "balephi": "Balephi",
     "bangladesh-trade-route": "Nepal\u2013Bangladesh Electricity Trade Route",
+    "banke-block-2": "\"Solar PV Project Banke, block-2\"",
     "barahi-hydropower": "Barahi Hydropower",
+    "bel-chautara-solar": "\"Bel Chautara Solar Farm Project\"",
     "betan-karnali": "Betan Karnali HP",
     "bheri-1": "Bheri-1 HEP",
     "bheri-2": "Bheri-2 HEP",
@@ -2245,12 +2369,18 @@
     "chameliya-attariya-132": "Chameliya-Syaule-Attariya 132 kV Line",
     "chameliya-hydropower": "Chameliya Hydropower",
     "chameliya-jauljibi-interconnection": "Chameliya\u2013Jauljibi 220 kV Cross-Border Interconnection",
+    "chandranigahpur-solar": "\"Chandranigahpur Solar Project\"",
     "chera-1": "Chera-1",
     "chilime-trishuli-220kv-transmission-line": "Chilime-Trishuli 220 kV Transmission Line",
     "chilime": "Chilime",
     "damak-godak-phidim-132kv": "Damak\u2013Godak\u2013Phidim 132 kV Corridor",
     "dana-kushma-butwal-corridor": "Dana\u2013Kushma\u2013New Butwal 220 kV Corridor",
+    "ddb-saurya": "\"DDB Saurya Vidyut Aayojana\"",
     "dhalkebar-muzaffarpur": "Dhalkebar\u2013Muzaffarpur 400 kV Cross-Border Interconnection",
+    "dhalkebar-solar-1mw": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
+    "dhalkebar-solar-3mw": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
+    "dharamnagar-solar-ii": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
+    "dharamnagar-solar": "\"Dharamnagar Solar Farm Project\"",
     "dhungesangu-basantapur-220-132kv": "Dhungesanghu\u2013Basantapur 220/132 kV Corridor",
     "dordi-khola": "Dordi Khola",
     "dudhkoshi-storage": "Dudhkoshi Storage Hydroelectric Project",
@@ -2264,6 +2394,7 @@
     "inaruwa-purnea-interconnection": "Inaruwa\u2013Purnea 400 kV Cross-Border Interconnection",
     "india-energy-relationship": "India \u2014 Energy Relationship with Nepal",
     "jagdulla": "Jagdulla HEP",
+    "jira-bhawani-sedawa": "\"Jira Bhawani Sedawa PV Project\"",
     "kabeli-132": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
     "kabeli-a": "Kabeli-A",
     "kabeli-b-1": "Kabeli B - 1",
@@ -2284,7 +2415,7 @@
     "khimti-i": "Khimti -I",
     "khimti-ii": "Khimti II",
     "khudi-220-132kv-substation": "Khudi 220/132 kV Substation",
-    "khungri-solar-hybrid-50mw": "Khungri Solar Hybrid (50 MW, Pyuthan)",
+    "khungri-solar-hybrid-50mw": "Khungri Solar Award (50 MW, Rolpa)",
     "kimathanka-arun": "Kimathanka Arun HEP",
     "kohalpur-surkhet-dailekh-132": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
     "kokhajor-1": "Kokhajor-1",
@@ -2321,6 +2452,7 @@
     "middle-tamor": "Middle Tamor",
     "mithila-solar-dhanusha-10mwp": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
     "modi-lekhnath-132kv": "New Modi\u2013Lekhnath 132 kV Transmission Line",
+    "morang-utility-solar": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
     "mristi-khola": "Mristi Khola",
     "mugu-karnali-storage": "Mugu Karnali Storage HEP",
     "mustang-high-altitude-solar-zone": "Mustang / Trans-Himalayan High-Altitude Solar Zone",
@@ -2336,9 +2468,12 @@
     "nyadi-khola": "Nyadi Khola",
     "pancheshwar": "Pancheshwar Multipurpose Project",
     "phukot-karnali": "Phukot Karnali",
+    "pratappur-solar": "\"Solar PV Pratappur\"",
     "purbi-chitwan-132kv-substation": "Purbi Chitwan 132 kV Substation",
     "rahughat-mangale": "Rahughat Mangale",
     "rahughat": "Rahughat",
+    "ramgram-solar": "\"Grid Connected Solar PV Project, Ramgram\"",
+    "raniyapur-block-1": "\"Solar PV Project, Raniyapur, Block 1\"",
     "rasuwa-bhotekoshi": "Rasuwa Bhotekoshi",
     "rasuwagadhi": "Rasuwagadhi",
     "ratmate-rasuwagadhi-kerung-400kv": "Ratmate\u2013Rasuwagadhi\u2013Kerung 400 kV Transmission Line",
@@ -2346,9 +2481,13 @@
     "sanima-mai": "Sanima Mai",
     "sanjen-khola": "Sanjen Khola",
     "sanjen": "Sanjen",
+    "shivasatakshi-jhapa": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
+    "simara-solar": "\"Solar Power Project, Simara 11 kV S/S\"",
     "singati-khola-hydropower-project": "Singati Khola Hydropower Project",
+    "solar-energy-lalitpur": "\"Solar Energy\"",
     "solu-tingla-mirchaiya-132": "Solu Corridor Tingla-Mirchaiya 132 kV",
     "solu": "Solu Hydropower Project",
+    "som-radha-krishna": "\"Som Radha Krishna Solar Farm Project\"",
     "sun-koshi-no-3": "Sun Koshi No.3",
     "super-dordi-kha-hydropower-project": "Super Dordi Kha Hydropower Project",
     "super-madi": "Super Madi",
@@ -2521,11 +2660,12 @@
     "data-solar-hydro-lcoe": "Solar and Hydro LCOE",
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series",
+    "data-winter-deficit-model": "Winter Deficit Model",
     "intervention-electric-cooking-transition": "Electric Cooking Transition",
     "intervention-nea-structural-separation": "NEA Structural Separation",
     "intervention-q-design-climate-adjustment": "Q-Design Climate Adjustment",
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 358
+  "totalPages": 378
 }

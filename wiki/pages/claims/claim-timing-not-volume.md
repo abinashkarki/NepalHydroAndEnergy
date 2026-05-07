@@ -2,7 +2,7 @@
 title: Nepal's Core Hydro Problem Is Timing, Not Annual Volume
 type: claim
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-07
 claim_id: C-001
 confidence: high
 status: stable
@@ -19,7 +19,7 @@ Nepal's core hydro problem is a **timing** problem (when water arrives and when 
 
 - **Research ledger:** Treats this as one of the core anchor claims for the project framing: the mismatch is structural in the hydrograph, not a misunderstanding of total runoff.
 - **Source review:** Argues the most important hydrological number for energy planning is not annual discharge but the **shape of the annual hydrograph**—peaking, shoulder months, and dry-season tails dominate dispatch and revenue logic.
-- **Narrative review:** Cites operational seasonality where generation peaks around August–September at roughly **2,200–2,500 MW** and collapses toward **600–900 MW** in January–February—an order-of-magnitude swing in *when* capacity is usable, not in whether Nepal "has water" in the year.
+- **Narrative review:** Older dry-season shorthand understated the current operating floor. The refreshed winter-balance pages put the current hydro dry-season floor closer to **~1,100–1,300 MW**, against monsoon production around **~3,000 MW** and export surpluses near **~850 MW**—still a major swing in *when* capacity is usable, not in whether Nepal "has water" in the year.
 - **Engineering review:** Aligns with the wet-season concentration narrative: **75%+** of annual flow in the monsoon window (per [[wecs]] / WECS 2024 framing), which implies limited dry-season firm energy from RoR-heavy fleets unless complemented by storage, imports, or demand flexibility.
 
 ## Confidence rationale

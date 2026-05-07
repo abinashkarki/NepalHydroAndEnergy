@@ -3,7 +3,7 @@ title: NEA Solar Programme
 type: entity
 created: 2026-04-23
 updated: 2026-04-23
-sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project]
+sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, doed-solar-power-plants-table, nea-solar-loi-2024]
 tags: [nea, solar, utility, programme, tender, bidur-trishuli, 960mw, ppa]
 generator: manual
 page_quality: analysis
@@ -22,13 +22,13 @@ The **utility-scale grid-tied solar programme** operated by Nepal Electricity Au
 | Phase II — NEA self-build | 2019–2022 | WB Grid Solar & EE Project | **25 MWp Bidur/Trishuli commissioned 2022** |
 | Phase III — IPP rounds | 2023–2024 | Competitive-bid IPP PPAs | **170 MWp PPAs signed (8 plants)** |
 | Phase IV — the 960 MW tender | 2024–2025 | National-scale IPP portfolio | **960 MWp awarded (63 projects)** ([[nea-960mw-solar-tender]]) |
-| Phase V (emerging) | 2025– | Hybrid / floating / grid-impact | Khungri 50 MW hybrid, reservoir floating PV, ~585 MW additional study-stage |
+| Phase V (emerging) | 2025– | Hybrid / floating / grid-impact | Reservoir floating PV, grid-impact studies, ~585 MW additional study-stage |
 
 ## Key Facts (FY 2024/25)
 
-- **Operating utility-scale solar:** 141.94 MWp (all grid-tied; NEA-owned + IPP-owned combined)
-- **NEA-owned share:** ~25 MWp (Bidur/Trishuli + smaller pilots)
-- **IPP-owned share:** ~117 MWp (commissioned under Phase I / III)
+- **Operating utility-scale solar:** 141.74 MWp across 25 DoED-listed plants (all grid-tied; NEA-owned + IPP-owned combined)
+- **NEA-owned share:** ~24.36 MWp (Bidur/Trishuli / Devighat blocks)
+- **IPP / public-utility-owned share:** ~117.38 MWp (commissioned under early IPP rounds and institutional utility plants)
 - **PPA-signed, pre-COD:** 170 MWp (8 plants, FY 2024/25 signings)
 - **Tender-awarded, pre-PPA:** 960 MWp (63 projects from 2024/25 tender)
 - **Under grid-impact study, beyond 960 MW:** ~585 MWp
@@ -40,7 +40,7 @@ NEA's **tariff-based competitive bidding** framework for utility solar:
 
 - **Phase I (2016–18):** NPR 7.30–8.40/kWh, single-round competitive
 - **Phase III (2023–24):** NPR 5.94–6.50/kWh, competitive bidding with ceiling
-- **Phase IV (960 MW, 2024–25):** NPR 5.70–6.20/kWh, national tender with province-balanced allocation
+- **Phase IV (960 MW, 2024–25):** NPR 4.99–5.54/kWh, national tender with province-balanced allocation
 
 See [[data-solar-hydro-lcoe]] for the full time-series and [[solar-lcoe-crossover]] for the cross-over narrative.
 
@@ -64,7 +64,7 @@ No single dedicated "solar cell" exists at senior-management level. The 960 MW t
 | **Butwal Solar** | 8.50 | Operating (2020) | Ridi HP Development | [[butwal-solar-ridi-8-5mwp]] |
 | **Mithila Solar PV** | 10.00 | Operating (2021) | Eco Power Development | [[mithila-solar-dhanusha-10mwp]] |
 | **Bishnu Priya Solar Farm** | ~0.96 | Operating (2018) | Surya Power Company | [[bishnu-priya-nawalparasi]] |
-| **Khungri Solar Hybrid** | 50 | Planned (2026) | NEA + IPP | [[khungri-solar-hybrid-50mw]] |
+| **Khungri solar award** | 50 | LoI-awarded / pre-PPA | Rapti Urja Pvt. Ltd. | [[khungri-solar-hybrid-50mw]] |
 | **Karnali Solar Energy Project** | ~10 (pilot) | Planned/implementation | NEA / AEPC hybrid | [[karnali-solar-energy-project]] |
 | **960 MW tender portfolio** | 960 (63 projects) | PPA in progress | Various IPPs | [[nea-960mw-solar-tender]] |
 | Other small IPP plants (~17 plants) | ~90 (combined) | Operating | Various IPPs | From Phase I + III rounds |
