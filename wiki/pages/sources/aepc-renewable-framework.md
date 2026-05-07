@@ -69,7 +69,7 @@ This is the anchor source for:
 - [[agrivoltaics-and-land]] — AEPC as natural programme host
 - [[claim-solar-political-coalition-is-rural]] — the rural-electrification politics
 
-And it is the first place to look when the question is "how much solar is actually deployed in Nepal *total* — utility + rooftop + off-grid?", because NEA's 141.94 MWp number captures only the first track.
+And it is the first place to look when the question is "how much solar is actually deployed in Nepal *total* — utility + rooftop + off-grid?", because the DoED / NEA utility-scale figure of roughly 142 MW captures only the first track.
 
 ## Data-quality notes
 

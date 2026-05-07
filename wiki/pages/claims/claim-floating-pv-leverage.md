@@ -2,7 +2,7 @@
 title: Floating PV Is a Leverage Play, Not a Core Supply Pillar
 type: claim
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-07
 claim_id: C-015
 confidence: medium
 status: needs-narrowing
@@ -17,7 +17,8 @@ In Nepal, **floating PV is a high-leverage niche rather than a core national sup
 
 ## Evidence
 
-- Nepal has very little operating seasonal reservoir surface today; [[kulekhani-cascade]] is the only proven national-scale operating storage cascade.
+- Nepal has very little operating seasonal reservoir surface today; [[kulekhani-cascade]] is the only proven national-scale operating storage cascade (**106 MW**, roughly **~85–150 MCM** depending on active vs gross storage framing).
+- The explorer currently treats floating solar as **5 mapped floating-PV candidates**, not as a broad national buildout class.
 - Floating PV gains are strongest where it can share evacuation infrastructure, reduce evaporation, and pair with reservoir or peaking operation.
 - Future storage reservoirs such as [[tanahu-hydropower]], [[budhigandaki]], and [[dudhkoshi-storage]] could create floating-PV options, but those are conditional on the reservoirs themselves being built.
 - [[agrivoltaics-and-land]] remains the larger land-politics answer for Terai solar; floating PV reduces conflict at specific sites but cannot substitute for a national land framework.

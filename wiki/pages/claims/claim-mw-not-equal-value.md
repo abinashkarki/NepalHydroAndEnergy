@@ -2,7 +2,7 @@
 title: Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated
 type: claim
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-07
 claim_id: C-006
 confidence: high
 status: stable
@@ -19,7 +19,7 @@ page_quality: analysis
 
 - **Research ledger:** Describes **category confusion** as the source of "a shocking amount of bad analysis"—especially when headline **potential** figures are read as if they were **dispatchable capacity** or near-term **delivery**.
 - **Source review:** Frames Nepal as **resource-rich but not yet dispatch-rich**—large theoretical endowment does not translate into firm, tradeable, time-targeted power without storage, grid, markets, and institutions.
-- **The slogan stack:** Public politics still tolerates juxtaposition of very large **~83,000 MW** "potential" rhetoric against **~3,591 MW** installed (order-of-magnitude gaps depending on definition) without clarifying that these belong to different accounting categories than **dry-season firm power** or **monetizable export capacity**.
+- **The slogan stack:** Public politics still tolerates juxtaposition of very large **~83,000 MW** "potential" rhetoric against multiple different "current capacity" figures—**3,591.262 MW total** in the NEA FY 2024/25 frame, **3,389.912 MW hydro** in that same cut, and **3,791.874 MW** in the DoED operating registry snapshot of April 10, 2026—without clarifying that these belong to different accounting categories, and are still different again from **dry-season firm power** or **monetizable export capacity**.
 - **Cross-source finding:** Reinforce that **nameplate** is not **energy**, and **energy** is not **firm power** at the times the grid needs it most.
 
 ## Confidence rationale

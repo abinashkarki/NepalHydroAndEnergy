@@ -1,0 +1,294 @@
+version: 1
+
+metrics:
+  grid_electricity_share_final_energy:
+    source_slug: data-final-energy-mix
+    canonical_text:
+      - "7.23%"
+    deprecated_text:
+      - "grid ~4.96%"
+    note: "FY 2079/80 WECS final-energy denominator."
+
+  dry_season_hydro_floor_current:
+    source_slug: solar-role-in-winter-deficit
+    canonical_text:
+      - "~1,100–1,300"
+    deprecated_text:
+      - "600–900"
+
+  monsoon_peak_production_current:
+    source_slug: data-trade-time-series
+    canonical_text:
+      - "~3,000 MW"
+    deprecated_text: []
+
+  monsoon_export_surplus_current:
+    source_slug: data-trade-time-series
+    canonical_text:
+      - "~850 MW"
+    deprecated_text: []
+
+  nea_total_capacity_fy2024_25:
+    source_slug: nepal-energy-profile
+    canonical_text:
+      - "3,591.262 MW"
+    deprecated_text: []
+
+  nea_hydro_capacity_fy2024_25:
+    source_slug: nepal-energy-profile
+    canonical_text:
+      - "3,389.912 MW"
+    deprecated_text: []
+
+  doed_operating_registry_apr_2026:
+    source_slug: nepal-energy-profile
+    canonical_text:
+      - "3,791.874 MW"
+    deprecated_text: []
+
+  solar_960mw_tender_tariff_band:
+    source_slug: data-solar-hydro-lcoe
+    canonical_text:
+      - "4.99–5.54"
+      - "5.43"
+    deprecated_text:
+      - "5.70–6.20"
+      - "5.94"
+
+  india_project_export_approval:
+    source_slug: nepal-energy-profile
+    canonical_text:
+      - "941 MW"
+    deprecated_text: []
+
+  cross_border_transfer_capacity:
+    source_slug: nepal-energy-profile
+    canonical_text:
+      - "~1,141 MW"
+    deprecated_text: []
+
+  fleet_ror_share:
+    source_slug: data-fleet-composition
+    canonical_text:
+      - "85.7%"
+    deprecated_text: []
+
+  fleet_pror_share:
+    source_slug: data-fleet-composition
+    canonical_text:
+      - "9.9%"
+    deprecated_text: []
+
+  fleet_storage_share:
+    source_slug: data-fleet-composition
+    canonical_text:
+      - "3.7%"
+    deprecated_text: []
+
+  kulekhani_storage_anchor:
+    source_slug: data-storage-comparison
+    canonical_text:
+      - "106"
+      - "~85–150 MCM"
+    deprecated_text: []
+
+  seasonal_storage_requirement:
+    source_slug: data-storage-comparison
+    canonical_text:
+      - "29.86 km³"
+      - "~200x shortfall"
+    deprecated_text: []
+
+  pror_daily_peaking_window:
+    source_slug: data-fleet-composition
+    canonical_text:
+      - "2–6 hrs peaking"
+    deprecated_text: []
+
+  governance_institutional_conflict:
+    source_slug: nea
+    canonical_text:
+      - "primary generator, monopsony buyer, and sole grid operator"
+      - "PPA liability exposure is growing"
+    deprecated_text: []
+
+  governance_financial_squeeze:
+    source_slug: nea
+    canonical_text:
+      - "NPR 77.1B"
+      - "11.73%"
+    deprecated_text: []
+
+  solar_short_cycle_window:
+    source_slug: solar-role-in-winter-deficit
+    canonical_text:
+      - "2–3 year build cycle"
+      - "2026–2030 window"
+    deprecated_text: []
+
+  solar_2035_pipeline_mwp:
+    source_slug: solar-role-in-winter-deficit
+    canonical_text:
+      - "~1,700 MWp by 2028"
+      - "~3,500 MWp by 2032"
+      - "~5,000 MWp by 2035"
+    deprecated_text: []
+
+  karnali_climate_seasonal_band:
+    source_slug: karnali-basin
+    canonical_text:
+      - "3–23% decrease"
+      - "18–51% increase"
+    deprecated_text: []
+
+  hkh_glacier_decline_1990_2020:
+    source_slug: icimod-hkh-glacier-change
+    canonical_text:
+      - "~12%"
+      - "1990 and 2020"
+    deprecated_text: []
+
+  floating_pv_candidate_count:
+    source_slug: data-layer-floating-pv-candidates
+    canonical_text:
+      - "5 mapped floating-PV candidates"
+    deprecated_text: []
+
+  india_market_corridor_roles:
+    source_slug: india-energy-relationship
+    canonical_text:
+      - "main practical export market"
+      - "transit state for Bangladesh sales"
+      - "India blocks Chinese equity/EPC projects"
+    deprecated_text: []
+
+  aepc_distributed_solar_base:
+    source_slug: aepc
+    canonical_text:
+      - "~1.1 million"
+      - "100+ MWp cumulative solar"
+      - "~30"
+    deprecated_text: []
+
+  conversion_thesis_portfolio:
+    source_slug: master-thesis
+    canonical_text:
+      - "cheap solar complementarity"
+      - "firm, deliverable, resilient, financeable, politically executable power"
+    deprecated_text: []
+
+claims:
+  C-001:
+    slug: claim-timing-not-volume
+    tier: core
+    depends_on:
+      - dry_season_hydro_floor_current
+      - monsoon_peak_production_current
+      - monsoon_export_surplus_current
+
+  C-006:
+    slug: claim-mw-not-equal-value
+    tier: core
+    depends_on:
+      - nea_total_capacity_fy2024_25
+      - nea_hydro_capacity_fy2024_25
+      - doed_operating_registry_apr_2026
+
+  C-013:
+    slug: claim-sediment-core-issue
+    tier: core
+    depends_on: []
+
+  C-014:
+    slug: claim-solar-terai-only-short-cycle-build
+    tier: core
+    depends_on:
+      - solar_short_cycle_window
+      - solar_2035_pipeline_mwp
+
+  C-017:
+    slug: claim-solar-cheaper-than-small-hydro
+    tier: core
+    depends_on:
+      - solar_960mw_tender_tariff_band
+
+  C-019:
+    slug: claim-transmission-immediate-blocker
+    tier: core
+    depends_on:
+      - india_project_export_approval
+      - cross_border_transfer_capacity
+
+  C-034:
+    slug: claim-domestic-led-strategy
+    tier: core
+    depends_on:
+      - grid_electricity_share_final_energy
+
+  C-005:
+    slug: claim-ror-dominance
+    tier: core
+    depends_on:
+      - fleet_ror_share
+      - fleet_pror_share
+      - fleet_storage_share
+      - kulekhani_storage_anchor
+
+  C-008:
+    slug: claim-storage-physical-fix
+    tier: core
+    depends_on:
+      - seasonal_storage_requirement
+      - dry_season_hydro_floor_current
+
+  C-009:
+    slug: claim-pror-not-storage
+    tier: core
+    depends_on:
+      - pror_daily_peaking_window
+      - dry_season_hydro_floor_current
+
+  C-029:
+    slug: claim-governance-binding
+    tier: core
+    depends_on:
+      - governance_institutional_conflict
+      - governance_financial_squeeze
+
+  C-012:
+    slug: claim-climate-harder-not-easier
+    tier: core
+    depends_on:
+      - karnali_climate_seasonal_band
+      - hkh_glacier_decline_1990_2020
+
+  C-015:
+    slug: claim-floating-pv-leverage
+    tier: supporting
+    depends_on:
+      - floating_pv_candidate_count
+      - kulekhani_storage_anchor
+
+  C-025:
+    slug: claim-india-decisive-actor
+    tier: core
+    depends_on:
+      - india_market_corridor_roles
+      - india_project_export_approval
+      - cross_border_transfer_capacity
+
+  C-016:
+    slug: claim-solar-political-coalition-is-rural
+    tier: supporting
+    depends_on:
+      - aepc_distributed_solar_base
+
+  C-032:
+    slug: claim-systems-conversion-failure
+    tier: core
+    depends_on:
+      - conversion_thesis_portfolio
+      - dry_season_hydro_floor_current
+      - fleet_ror_share
+      - fleet_pror_share
+      - fleet_storage_share

@@ -45,7 +45,7 @@ The interconnection loading pattern is *anti-phased* with the hydro plant. In th
 - [[marsyangdi]] / [[madhya-marsyangdi]] — cascade co-location, 20–40 MWp combined.
 - [[tanahu-hydropower]] — storage reservoir under construction; co-location should be designed in *before* impoundment.
 
-The 50 MW solar project at **Khungri village**, designed to integrate into the Khungri substation adjacent to Madi Khola and Lungri Khola hydropower, is the first operational example of the archetype at scale in Nepal (NEA annual report FY 2024/25).
+The 50 MW **Khungri** LoI award is a candidate to watch for this archetype, but the corrected NEA LoI establishes only a Rolpa IPP solar award anchored to the Khungri grid node. It should not be treated as a proven hydro-hybrid project until PPA, interconnection, or commissioning documents confirm shared hydro evacuation.
 
 ## Archetype 2 — Substation-adjacent greenfield (Terai)
 

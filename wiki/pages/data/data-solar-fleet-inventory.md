@@ -4,7 +4,7 @@ type: data
 created: 2026-04-23
 updated: 2026-04-23
 figure_type: table
-sources: [nea-annual-report-fy2024-25, aepc-renewable-framework, wb-grid-solar-ee-project]
+sources: [nea-annual-report-fy2024-25, aepc-renewable-framework, wb-grid-solar-ee-project, doed-solar-power-plants-table, nea-solar-loi-2024]
 tags: [solar, fleet, capacity, inventory, operating, PPA, tendered, IPP, NEA]
 page_quality: analysis
 ---
@@ -17,16 +17,16 @@ The utility-scale solar analogue of [[data-fleet-composition]]. The full "what i
 
 | Status | Capacity (MWp) | Count | Share of current generation |
 |---|---:|---:|---:|
-| **Operating (grid-tied utility)** | **~141.94** | ~35 plants (mixed NEA + IPP) | 3.95% of installed generation |
+| **Operating (grid-tied utility)** | **141.74** | 25 plants (mixed NEA + IPP) | ~3.95% of installed generation |
 | **Operating (rooftop, estimated)** | ~70–90 | ~10,000+ sites | Not in NEA installed-capacity figures |
 | **Operating (off-grid / mini-grid, AEPC)** | ~20–35 | ~30 village systems + 1 M SHS | Not in NEA installed-capacity figures |
 | **PPA signed, not yet commissioned** | **170** | 8 plants | Expected COD FY 2026/27–2027/28 |
-| **Tender awarded, pre-PPA (960 MW round)** | **~585–790** | 38–63 projects | 960 MW gross tender; net awards in progress |
+| **Tender awarded, pre-PPA (960 MW round)** | **960** | 63 projects | 960 MW gross tender; PPA signing staged over FY 2025/26–2026/27 |
 | **Total grid-tied pipeline (3-year)** | **~900–1,100** | — | On track to ~1 GW grid-tied operating by FY 2028/29 |
 
-Source: NEA Annual Report FY 2024/25 cross-referenced with AEPC programme data.
+Source: DoED solar power-plant registry cross-referenced with NEA Annual Report FY 2024/25 and AEPC programme data.
 
-## Operating utility-scale plants (partial list, FY 2024/25)
+## Operating utility-scale plants (DoED registry snapshot)
 
 | Plant | Capacity (MWp) | District | Owner | COD | Grid connection | Notes |
 |---|---:|---|---|---|---|---|
@@ -38,13 +38,12 @@ Source: NEA Annual Report FY 2024/25 cross-referenced with AEPC programme data.
 | **Sundari Hydro / Lumbini DC** | ~1.00 | Lumbini | Various | various | — | Demonstration scale |
 | **Other FY 2020–24 IPP round commissions** | ~15–20 | Various Terai districts | Various IPPs | 2022–24 | 11/33 kV | Aggregate from 5-developer 24 MW round |
 | **Grid Solar & EE Project (WB) — additional components** | — | various | NEA | — | — | Also includes distribution upgrades |
-| **Solar-Hydro co-location (Khungri / Madi–Lungri substation)** | **50 (planned)** | Pyuthan | NEA + IPP | 2026 target | Khungri 33/132 kV | First at-scale hybrid site |
 
-The total of the named plants + small unlisted IPP plants + NEA self-build + AEPC-programme grid-tied installations reaches the **141.94 MWp** NEA-reported total for FY 2024/25.
+The full DoED operating solar table has **25 commissioned grid-connected plants totaling 141.74 MW**. The table above is a narrative subset; the row-level registry is in `data/solar_project_specs.csv` and the mapped layer [[data-layer-solar-plants-nea-awards]].
 
 **Of which:**
-- NEA-owned: **~25 MWp**
-- IPP-owned (grid-tied): **~117 MWp**
+- NEA-owned: **~24.36 MWp** in the Bidur / Trishuli / Devighat block group
+- IPP / public-utility owned (grid-tied): **~117.38 MWp**
 
 ## PPA-signed, not yet commissioned (FY 2024/25)
 
@@ -72,7 +71,7 @@ Tender structure:
 - **Cumulative Grid Impact Study:** completed FY 2024/25
 - **Typical project size:** 5–25 MWp
 - **Typical location:** Terai districts with 132 kV or 220 kV substation proximity (<10 km)
-- **Award tariff range:** ~NPR 5.70–6.20 /kWh (gazette — see [[solar-lcoe-crossover]])
+- **Award tariff range:** NPR 4.99–5.54 /kWh (corrected NEA LoI — see [[solar-lcoe-crossover]])
 
 | Province | Approximate MW in tender | Notes |
 |---|---:|---|
@@ -113,9 +112,9 @@ The "theoretical to operating" ratio for solar (~500×) is *less* severe than fo
 
 ## Notes on data quality
 
-- Operating MW figure (141.94) is the **NEA official installed-capacity** figure FY 2024/25; it captures all grid-tied solar that NEA recognises, but excludes rooftop (behind-the-meter) and most AEPC off-grid systems.
+- Operating MW figure (141.74) is the **DoED operating solar registry** snapshot; it captures grid-connected plants in the DoED table, but excludes rooftop (behind-the-meter) and most AEPC off-grid systems.
 - Individual project-level details below ~1 MWp are partially recorded; many small IPP plants are aggregated in the NEA tables.
-- The 960 MW tender has **63 selected projects** mentioned in the report but publicly named lists are partial; full list will need to be compiled from NEA PPA gazette post award.
+- The 960 MW tender has **63 selected projects** in the corrected NEA LoI. These are tender / pre-PPA awards, not operating plants.
 - Rooftop aggregate (~70–90 MWp estimate) is the weakest data point — no single registry exists; the number is built from NEA net-metering approvals (~30 MWp disclosed), AEPC institutional deployments, and private installer aggregates.
 
 ## Related

@@ -2,7 +2,7 @@
 title: PRoR Is Not Seasonal Storage
 type: claim
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-07
 claim_id: C-009
 confidence: high
 status: stable
@@ -17,8 +17,8 @@ page_quality: analysis
 
 ## Evidence
 
-- **PRoR function:** Provider consensus describes PRoR as helping with **daily peaking** windows on the order of roughly **2–6 hours**—valuable for intraday shaping, not for carrying monsoon energy into dry-season months.
-- **Nepal's binding mismatch is multi-month:** Wet-season energy surplus vs dry-season scarcity is a **seasonal** problem; daily pondage does not re-time bulk energy across monsoon→winter unless paired with very large effective storage volumes or exogenous balancing (trade, demand migration, etc.).
+- **PRoR function:** Provider consensus describes PRoR as helping with **daily peaking** windows—roughly **2–6 hrs peaking** in the fleet-composition shorthand—valuable for intraday shaping, not for carrying monsoon energy into dry-season months.
+- **Nepal's binding mismatch is multi-month:** Wet-season energy surplus vs dry-season scarcity is a **seasonal** problem; current hydro dry-season output is closer to **~1,100–1,300 MW** even as monsoon capability is much higher. Daily pondage does not re-time bulk energy across monsoon→winter unless paired with very large effective storage volumes or exogenous balancing (trade, demand migration, etc.).
 - **Research ledger:** Calls the PRoR-as-storage substitution "analytically sloppy and strategically dangerous"—because it invites under-investment in true seasonal buffers and mis-prices firm capacity.
 - **Cross-source finding:** Align on separating **intraday flexibility** from **inter-seasonal energy inventory**.
 

@@ -2,7 +2,7 @@
 title: Climate Change Increases Volatility and Resilience Risk, Not a Simple "More Water" Win
 type: claim
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-07
 claim_id: C-012
 confidence: high
 status: stable
@@ -18,9 +18,9 @@ Climate change does **not** make Nepal's hydro story straightforwardly **easier*
 ## Evidence
 
 - **WECS-style projections:** Often show **higher annual and/or monsoon runoff** in some model ensembles while leaving **shoulder and dry seasons** more uncertain—net annual water can rise while **timing reliability** worsens.
-- **Karnali CMIP6 band (cited synthesis):** Wide spreads such as roughly **3–23% winter decrease** and **18–51% monsoon increase**—large uncertainty and asymmetric hazards (floods vs low-flow stress) matter more for planning than the central tendency alone.
+- **Karnali CMIP6 band (cited synthesis):** Wide spreads such as roughly **3–23% decrease** in winter/spring discharge and **18–51% increase** in monsoon/post-monsoon discharge—large uncertainty and asymmetric hazards (floods vs low-flow stress) matter more for planning than the central tendency alone.
 - **Extremes and sediment:** More intense rainfall episodes, landslides, and sediment pulses increase maintenance, outage risk, and design safety factors—raising LCOE and operational complexity even if average runoff rises.
-- **HKH cryosphere signal:** [[icimod-hkh-glacier-change]] context: glacier area decline on the order of **~12%** from **1990–2020** in regional assessments—relevant to long-term baseflow and GLOF risk dynamics, not a simple "more headwater release" bonus for all projects.
+- **HKH cryosphere signal:** [[icimod-hkh-glacier-change]] context: glacier area decline on the order of **~12%** between **1990 and 2020** in regional assessments—relevant to long-term baseflow and GLOF risk dynamics, not a simple "more headwater release" bonus for all projects.
 
 ## Confidence rationale
 

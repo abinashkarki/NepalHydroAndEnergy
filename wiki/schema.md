@@ -116,3 +116,71 @@ Where claims or data depend on a specific source family, note the public source
 page in `sources:` and use cite callouts in the body. Internal drafting
 provenance should stay out of public-facing narrative unless it is necessary to
 explain a data conflict.
+
+## Claim Governance
+
+High-impact core claims are governed through `data/claim_registry.yaml` — a
+hand-reviewable YAML registry that pins canonical numeric facts and protects
+claims from stale or contradictory data drift.
+
+### Registry Fields
+
+**Metrics** define canonical narrative facts and the wiki pages that serve as
+their single source of truth:
+
+```yaml
+metrics:
+  grid_electricity_share_final_energy:
+    source_slug: data-final-energy-mix
+    canonical_text:
+      - "7.23%"
+    deprecated_text:
+      - "grid ~4.96%"
+    note: "FY 2079/80 WECS final-energy denominator."
+```
+
+**Claims** declare which claim pages are governed, their tier, and the metrics
+they depend on. Dependent metric `canonical_text` entries are required in the
+claim page, and dependent metric `deprecated_text` entries are forbidden:
+
+```yaml
+claims:
+  C-034:
+    slug: claim-domestic-led-strategy
+    tier: core
+    depends_on:
+      - grid_electricity_share_final_energy
+```
+
+Claim entries may also add `required_text` or `forbidden_text` for extra
+claim-specific anchors that do not belong in a reusable metric.
+
+### Governance Tiers
+
+| Tier | Behavior |
+|------|----------|
+| `core` | Text-anchor and freshness issues **fail** validation. Resolve before merging. |
+| `supporting` | Text-anchor and freshness issues **warn** only. Structural integrity (duplicate IDs, missing slugs, unknown metrics) still fails. |
+
+### Validation
+
+Run `make validate` to check all governed claims. The check fails when:
+
+- A claim page has a duplicate `claim_id`
+- A `core` registry entry points to a missing claim slug
+- A governed claim page's frontmatter `claim_id` does not match the registry key
+- A governed claim depends on an unknown metric
+- A metric `source_slug` does not exist in the wiki
+- A registry metric, claim, tier, or text-anchor field is malformed
+- A governed `core` claim is missing any `required_text`
+- A governed `core` claim contains any `forbidden_text`
+- A governed `core` claim's `updated:` date is older than one of its metric source pages' `updated:` date
+
+Warnings are issued for unregistered claim pages and unused metrics.
+
+### Purpose
+
+The registry is not a full fact-governance system. It exists to preserve
+narrative integrity for the public argument by catching stale numeric anchors
+before they drift into contradiction with canonical data pages. Long-tail
+source notes and ordinary wiki prose remain editorial.

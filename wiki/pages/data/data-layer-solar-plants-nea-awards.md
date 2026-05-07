@@ -4,7 +4,7 @@ type: data
 created: 2026-04-25
 updated: 2026-04-25
 figure_type: map-layer-label
-sources: [data-map-inventory]
+sources: [data-map-inventory, doed-solar-power-plants-table, nea-solar-loi-2024]
 tags: [maps, geojson, layers, explorer, legend]
 page_quality: analysis
 ---
@@ -13,7 +13,7 @@ page_quality: analysis
 
 **Explorer label:** Solar plants  
 **Layer group:** Solar layers  
-**Feature count:** 89
+**Feature count:** 88
 
 Operating solar plants plus NEA 960 MW award anchors, with approximate-location flags where needed.
 

@@ -2,7 +2,7 @@
 title: Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage
 type: claim
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-07
 claim_id: C-005
 confidence: high
 status: stable
@@ -19,7 +19,7 @@ Nepal's **operating** hydro fleet is overwhelmingly **run-of-river (RoR)** and *
 
 - **Research ledger:** Composition snapshot cited in synthesis: **85.7% RoR**, **9.9% PRoR**, **3.7% storage**—a fleet structurally aligned with monsoon energy and misaligned with multi-month dry-season firm delivery.
 - **World Bank and source review:** Multiple threads describe **>90%** RoR+PRoR in operational or planning discourse, differing slightly by classification boundaries but agreeing on the dominant RoR/PRoR reality.
-- **Fleet fact pattern:** [[kulekhani-cascade]] (**106 MW**) is repeatedly singled out as the main **true storage** anchor in public summaries, underscoring how small true pondage/storage is relative to installed nameplate across the system.
+- **Fleet fact pattern:** [[kulekhani-cascade]] (**106 MW**, roughly **~85–150 MCM** depending on active vs gross storage framing) is repeatedly singled out as the main **true storage** anchor in public summaries, underscoring how small true pondage/storage is relative to installed nameplate across the system.
 
 ## Confidence rationale
 

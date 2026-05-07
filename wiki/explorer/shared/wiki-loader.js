@@ -18,6 +18,7 @@ const PAGE_DIRS = ["sources", "entities", "concepts", "syntheses", "claims", "da
 
 const PAGE_INDEX_CACHE = { built: false, byCategory: {}, allSlugs: [], slugToCategory: {}, slugToTitle: {} };
 const BACKLINKS_CACHE = { built: false, map: {} };
+const CLAIM_GOVERNANCE_CACHE = { built: false, bySlug: {} };
 
 // Cache-bust JSON fetches with the release token instead of per-page-load
 // timestamps so production browsers can reuse wiki metadata across reloads.
@@ -66,6 +67,19 @@ async function loadBacklinks() {
   return BACKLINKS_CACHE;
 }
 
+async function loadClaimGovernance() {
+  if (CLAIM_GOVERNANCE_CACHE.built) return CLAIM_GOVERNANCE_CACHE;
+  try {
+    const data = await loadJSON("shared/claim-governance.json");
+    CLAIM_GOVERNANCE_CACHE.bySlug = data.bySlug || {};
+  } catch (e) {
+    // Optional prototype metadata. Claim pages render normally without it.
+    CLAIM_GOVERNANCE_CACHE.bySlug = {};
+  }
+  CLAIM_GOVERNANCE_CACHE.built = true;
+  return CLAIM_GOVERNANCE_CACHE;
+}
+
 function renderBacklinks(slug, idx, spatialSlugs) {
   const refs = (BACKLINKS_CACHE.map || {})[slug] || [];
   if (!refs.length) return "";
@@ -98,6 +112,47 @@ function renderBacklinks(slug, idx, spatialSlugs) {
     );
   }
   return `<section class="backlinks-section"><h2 class="backlinks-heading">Referenced by <span class="backlinks-total">${refs.length}</span></h2>${parts.join("")}</section>`;
+}
+
+function escapeHtml(s) {
+  return String(s || "").replace(/[<>&"']/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function renderClaimGovernance(slug) {
+  const entry = (CLAIM_GOVERNANCE_CACHE.bySlug || {})[slug];
+  if (!entry) return "";
+  const metrics = Array.isArray(entry.metrics) ? entry.metrics.slice(0, 6) : [];
+  const metricRows = metrics.map((m) => {
+    const source = m.source_slug
+      ? `<button type="button" class="cg-source" onclick="window.openWikiPage && window.openWikiPage('${escapeHtml(m.source_slug)}')">${escapeHtml(m.source_slug)}</button>`
+      : "";
+    return `<li>
+      <span class="cg-metric-name">${escapeHtml(m.name || m.id || "Metric")}</span>
+      <span class="cg-metric-value">${escapeHtml(m.value || "")}</span>
+      ${source}
+    </li>`;
+  }).join("");
+  const tier = entry.tier === "core" ? "Core claim" : "Supporting claim";
+  const count = metrics.length === 1 ? "1 tracked metric" : `${metrics.length} tracked metrics`;
+  const summary = metrics.length
+    ? `${count} checked against the claim registry.`
+    : "Registered in the claim registry; no numeric metric anchors are required yet.";
+  return `<aside class="claim-governance-card">
+    <button type="button" class="cg-info" aria-label="What is a governed claim?">
+      <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+        <circle cx="10" cy="10" r="8.25"></circle>
+        <path d="M10 8.8v5"></path>
+        <path d="M10 5.9h.01"></path>
+      </svg>
+      <span class="cg-tooltip" role="tooltip">This claim is tied to a registry of load-bearing evidence. The listed metric values are checked by validation so stale or conflicting numbers are caught before publishing.</span>
+    </button>
+    <div class="cg-topline">
+      <span class="cg-badge">Governed claim</span>
+      <span>${escapeHtml(tier)} · ${escapeHtml(entry.claim_id || "")}</span>
+    </div>
+    <div class="cg-title">${escapeHtml(summary)}</div>
+    ${metricRows ? `<ul class="cg-metrics">${metricRows}</ul>` : ""}
+  </aside>`;
 }
 
 async function fetchPageMarkdown(slug) {
@@ -204,7 +259,7 @@ function renderCallouts(html) {
 
 async function renderPage(slug, opts = {}) {
   // opts.spatialSlugs Set, opts.bindings, opts.showFrontmatter
-  const [idx] = await Promise.all([buildPageIndex(), loadBacklinks()]);
+  const [idx] = await Promise.all([buildPageIndex(), loadBacklinks(), loadClaimGovernance()]);
   const { found, raw, category } = await fetchPageMarkdown(slug);
   if (!found) {
     return `<div class="placeholder">${raw}</div>`;
@@ -257,11 +312,12 @@ async function renderPage(slug, opts = {}) {
   const imageData = images.length
     ? `<script type="application/json" id="wiki-images-data">${JSON.stringify(images).replace(/</g, "\\u003c")}</script>`
     : "";
+  const claimGovernance = renderClaimGovernance(slug);
   const backlinks = renderBacklinks(slug, idx, opts.spatialSlugs);
-  return catWithFreshness + supersededBanner + fm + filmstrip + imageData + linked + backlinks;
+  return catWithFreshness + supersededBanner + fm + filmstrip + imageData + linked + claimGovernance + backlinks;
 }
 
 window.NepalExplorer = window.NepalExplorer || {};
-Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, loadBacklinks });
+Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, loadBacklinks, loadClaimGovernance });
 window.NepalExplorer._wikiLoaderLoaded = true;
 })();

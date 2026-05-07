@@ -2,7 +2,7 @@
 title: Index
 type: overview
 created: 2026-04-14
-updated: 2026-04-30
+updated: 2026-05-07
 ---
 
 # Nepal Energy Wiki
@@ -55,4 +55,4 @@ The explorer now opens with [[start-here]], a public entry page designed for fir
 
 Some project pages are concise data-backed records rather than finished narrative articles. They preserve map coverage and registry facts for public navigation. Pages with fuller interpretation link out to source notes, claims, and data pages so readers can follow the evidence trail.
 
-The explorer currently indexes 358 wiki pages across sources, entities, concepts, syntheses, claims, data, and interventions.
+The explorer currently indexes 378 wiki pages across sources, entities, concepts, syntheses, claims, data, and interventions.

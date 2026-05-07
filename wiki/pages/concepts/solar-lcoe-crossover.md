@@ -3,7 +3,7 @@ title: Solar LCOE Crossover
 type: concept
 created: 2026-04-23
 updated: 2026-04-23
-sources: [nea-annual-report-fy2024-25, irena-remap-nepal, wb-grid-solar-ee-project]
+sources: [nea-annual-report-fy2024-25, irena-remap-nepal, wb-grid-solar-ee-project, nea-solar-loi-2024]
 tags: [solar, LCOE, tariff, economics, PPA, module-price, crossover]
 page_quality: analysis
 ---
@@ -38,7 +38,7 @@ Nepal's NEA runs a **tariff-based competitive bidding** mechanism for grid-conne
 | First utility round | 2016–17 | 24 | 7.30–8.40 | ~$0.065–$0.075 | 5 developers; 3 × COD 2019–20 |
 | Bidur / Trishuli NEA EPC | 2020 | 25 | — (NEA self-build) | — | Grid Solar & EE Project |
 | IPP rounds (FY 2080/81–2081/82) | 2023–24 | ~170 | 5.94–6.50 | ~$0.044–$0.049 | 8 plants signed PPA |
-| 960 MW national tender | 2024–25 | **960** | tariffs in ~5.70–6.20 band (gazette) | ~$0.043–$0.047 | 63 project selections; PPA ongoing |
+| 960 MW national tender | 2024–25 | **960** | tariffs in 4.99–5.54 band | ~$0.037–$0.041 | 63 project selections; PPA ongoing |
 
 For comparison, the contracted prices NEA pays for recent **hydropower**:
 
@@ -48,7 +48,7 @@ For comparison, the contracted prices NEA pays for recent **hydropower**:
 | PRoR | 9.30 | 5.15 | ~6.80 |
 | Storage (large) | variable, ~9.00–12.00 | variable | ~8.00–10.00 |
 
-**The crossover point has already happened for run-of-river.** The NEA is paying ~6.20 NPR/kWh blended for RoR energy whose production profile is **worst-matched** to demand (the [[seasonal-mismatch]] pattern), and ~5.94 NPR/kWh for solar energy whose production profile is **best-matched** to the dry-season day.
+**The crossover point has already happened for run-of-river.** The NEA is paying ~6.20 NPR/kWh blended for RoR energy whose production profile is **worst-matched** to demand (the [[seasonal-mismatch]] pattern), and ~5.43 NPR/kWh for solar energy whose production profile is **best-matched** to the dry-season day.
 
 This is the single most important number in Nepal's energy economics right now.
 

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transparentgov.ai/wiki/solar-specs-schema.json",
+  "title": "Solar Project Technical Specifications",
+  "description": "Schema for the structured solar_project_specs.csv — the authoritative source for per-project identity, status, capacity, economic, geographic, ownership, and data-quality fields.",
+  "type": "object",
+  "required": ["slug", "feature_id"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": "Unique project slug. Existing wiki page slugs are preserved; unpaged records use stable feature IDs converted to kebab-case."
+    },
+    "feature_id": {
+      "type": "string",
+      "description": "GeoJSON feature ID linking this row to the solar_plants map layer."
+    },
+    "label_title": {
+      "type": "string",
+      "description": "Display title from the map popup/card."
+    },
+    "project_group_slug": {
+      "type": "string",
+      "description": "When multiple CSV rows represent blocks/units of the same project, this slug groups them (e.g. bidur-trishuli-solar-25mwp)."
+    },
+
+    "status": {
+      "type": "string",
+      "enum": ["operating", "planned", "under-construction", "cancelled", "unknown"],
+      "description": "Human-readable project lifecycle status."
+    },
+    "procurement_stage": {
+      "type": "string",
+      "enum": ["commissioned", "loi-awarded", "ppa-signed", "planned", "unknown"],
+      "description": "Where the project sits in the procurement pipeline."
+    },
+    "is_operating": {
+      "type": "string",
+      "enum": ["TRUE", "FALSE"],
+      "description": "Boolean flag for quick operating/non-operating filtering."
+    },
+
+    "capacity_mwp": {
+      "type": "number",
+      "description": "Nameplate/installed capacity in MWp (DC). Canonical solar unit."
+    },
+    "capacity_mw": {
+      "type": "number",
+      "description": "Nameplate/installed capacity in MW (AC where available). Compatibility/cross-reference field."
+    },
+    "tariff_npr_kwh": {
+      "type": "number",
+      "description": "Awarded or operating PPA tariff in NPR/kWh."
+    },
+    "expected_annual_generation_gwh": {
+      "type": "number",
+      "description": "Expected or design annual generation in GWh/year."
+    },
+
+    "district": {
+      "type": "string",
+      "description": "Nepal district name."
+    },
+    "province": {
+      "type": "string",
+      "description": "Nepal province name. Left blank in v1 pending authoritative derivation."
+    },
+    "substation": {
+      "type": "string",
+      "description": "Named grid substation for interconnection (tender awards primarily)."
+    },
+    "resource_zone": {
+      "type": "string",
+      "enum": ["", "A", "B1", "B2", "B3", "C1", "C2", "C3", "C4", "D", "E"],
+      "description": "Solar resource zone per solar-resource-geography-nepal framework. Blank when unassigned."
+    },
+    "siting_archetype": {
+      "type": "string",
+      "enum": ["", "substation-adjacent", "hydro-co-location", "floating-pv", "rooftop-distributed", "off-grid-minigrid", "unknown"],
+      "description": "Solar siting archetype. Blank when unassigned."
+    },
+
+    "owner": {
+      "type": "string",
+      "description": "Owner entity name (operating plants primarily)."
+    },
+    "bidder": {
+      "type": "string",
+      "description": "Bidder / award recipient (tender awards primarily)."
+    },
+    "developer_type": {
+      "type": "string",
+      "enum": ["NEA", "IPP", "public-utility", "unknown"],
+      "description": "Developer/investor category."
+    },
+
+    "precision_label": {
+      "type": "string",
+      "description": "Free-form precision label (e.g. 'DoED coordinate midpoint', 'District/substation anchor, not parcel coordinate')."
+    },
+    "location_basis": {
+      "type": "string",
+      "description": "Free-form explanation of how the display coordinates were derived."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "low-medium"],
+      "description": "Location and data confidence tier."
+    },
+    "source_note": {
+      "type": "string",
+      "description": "Provenance note for this row's data (e.g. 'DoED Power Plants :: Solar table, updated Mar 29 2026')."
+    },
+    "source_slug": {
+      "type": "string",
+      "description": "Optional reference to a wiki/pages/sources/ page slug. Blank where no clean source page match exists."
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date when this row's data was last verified or updated."
+    }
+  },
+  "additionalProperties": false
+}

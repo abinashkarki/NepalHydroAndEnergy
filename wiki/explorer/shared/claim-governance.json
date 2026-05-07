@@ -1,0 +1,310 @@
+{
+  "generated_from": "data/claim_registry.yaml",
+  "bySlug": {
+    "claim-climate-harder-not-easier": {
+      "claim_id": "C-012",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "karnali_climate_seasonal_band",
+          "name": "Karnali climate seasonal band",
+          "value": "3–23% decrease; 18–51% increase",
+          "source_slug": "karnali-basin"
+        },
+        {
+          "id": "hkh_glacier_decline_1990_2020",
+          "name": "HKH glacier decline",
+          "value": "~12%; 1990 and 2020",
+          "source_slug": "icimod-hkh-glacier-change"
+        }
+      ]
+    },
+    "claim-domestic-led-strategy": {
+      "claim_id": "C-034",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "grid_electricity_share_final_energy",
+          "name": "Grid electricity share of final energy",
+          "value": "7.23%",
+          "source_slug": "data-final-energy-mix"
+        }
+      ]
+    },
+    "claim-floating-pv-leverage": {
+      "claim_id": "C-015",
+      "tier": "supporting",
+      "metrics": [
+        {
+          "id": "floating_pv_candidate_count",
+          "name": "Floating PV candidate count",
+          "value": "5 mapped floating-PV candidates",
+          "source_slug": "data-layer-floating-pv-candidates"
+        },
+        {
+          "id": "kulekhani_storage_anchor",
+          "name": "Kulekhani storage anchor",
+          "value": "106; ~85–150 MCM",
+          "source_slug": "data-storage-comparison"
+        }
+      ]
+    },
+    "claim-governance-binding": {
+      "claim_id": "C-029",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "governance_institutional_conflict",
+          "name": "Institutional conflict",
+          "value": "primary generator, monopsony buyer, and sole grid operator; PPA liability exposure is growing",
+          "source_slug": "nea"
+        },
+        {
+          "id": "governance_financial_squeeze",
+          "name": "Governance financial squeeze",
+          "value": "NPR 77.1B; 11.73%",
+          "source_slug": "nea"
+        }
+      ]
+    },
+    "claim-india-decisive-actor": {
+      "claim_id": "C-025",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "india_market_corridor_roles",
+          "name": "India market/corridor roles",
+          "value": "main practical export market; transit state for Bangladesh sales; India blocks Chinese equity/EPC projects",
+          "source_slug": "india-energy-relationship"
+        },
+        {
+          "id": "india_project_export_approval",
+          "name": "India project export approval",
+          "value": "941 MW",
+          "source_slug": "nepal-energy-profile"
+        },
+        {
+          "id": "cross_border_transfer_capacity",
+          "name": "Cross-border transfer capacity",
+          "value": "~1,141 MW",
+          "source_slug": "nepal-energy-profile"
+        }
+      ]
+    },
+    "claim-mw-not-equal-value": {
+      "claim_id": "C-006",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "nea_total_capacity_fy2024_25",
+          "name": "NEA total capacity",
+          "value": "3,591.262 MW",
+          "source_slug": "nepal-energy-profile"
+        },
+        {
+          "id": "nea_hydro_capacity_fy2024_25",
+          "name": "NEA hydro capacity",
+          "value": "3,389.912 MW",
+          "source_slug": "nepal-energy-profile"
+        },
+        {
+          "id": "doed_operating_registry_apr_2026",
+          "name": "DoED operating registry",
+          "value": "3,791.874 MW",
+          "source_slug": "nepal-energy-profile"
+        }
+      ]
+    },
+    "claim-pror-not-storage": {
+      "claim_id": "C-009",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "pror_daily_peaking_window",
+          "name": "PRoR daily peaking window",
+          "value": "2–6 hrs peaking",
+          "source_slug": "data-fleet-composition"
+        },
+        {
+          "id": "dry_season_hydro_floor_current",
+          "name": "Dry-season hydro floor",
+          "value": "~1,100–1,300",
+          "source_slug": "solar-role-in-winter-deficit"
+        }
+      ]
+    },
+    "claim-ror-dominance": {
+      "claim_id": "C-005",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "fleet_ror_share",
+          "name": "RoR fleet share",
+          "value": "85.7%",
+          "source_slug": "data-fleet-composition"
+        },
+        {
+          "id": "fleet_pror_share",
+          "name": "PRoR fleet share",
+          "value": "9.9%",
+          "source_slug": "data-fleet-composition"
+        },
+        {
+          "id": "fleet_storage_share",
+          "name": "Storage fleet share",
+          "value": "3.7%",
+          "source_slug": "data-fleet-composition"
+        },
+        {
+          "id": "kulekhani_storage_anchor",
+          "name": "Kulekhani storage anchor",
+          "value": "106; ~85–150 MCM",
+          "source_slug": "data-storage-comparison"
+        }
+      ]
+    },
+    "claim-sediment-core-issue": {
+      "claim_id": "C-013",
+      "tier": "core",
+      "metrics": []
+    },
+    "claim-solar-cheaper-than-small-hydro": {
+      "claim_id": "C-017",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "solar_960mw_tender_tariff_band",
+          "name": "960 MW solar tender tariff band",
+          "value": "4.99–5.54; 5.43",
+          "source_slug": "data-solar-hydro-lcoe"
+        }
+      ]
+    },
+    "claim-solar-political-coalition-is-rural": {
+      "claim_id": "C-016",
+      "tier": "supporting",
+      "metrics": [
+        {
+          "id": "aepc_distributed_solar_base",
+          "name": "AEPC distributed solar base",
+          "value": "~1.1 million; 100+ MWp cumulative solar; ~30",
+          "source_slug": "aepc"
+        }
+      ]
+    },
+    "claim-solar-terai-only-short-cycle-build": {
+      "claim_id": "C-014",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "solar_short_cycle_window",
+          "name": "Solar short-cycle window",
+          "value": "2–3 year build cycle; 2026–2030 window",
+          "source_slug": "solar-role-in-winter-deficit"
+        },
+        {
+          "id": "solar_2035_pipeline_mwp",
+          "name": "Solar pipeline to 2035",
+          "value": "~1,700 MWp by 2028; ~3,500 MWp by 2032; ~5,000 MWp by 2035",
+          "source_slug": "solar-role-in-winter-deficit"
+        }
+      ]
+    },
+    "claim-storage-physical-fix": {
+      "claim_id": "C-008",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "seasonal_storage_requirement",
+          "name": "Seasonal storage requirement",
+          "value": "29.86 km³; ~200x shortfall",
+          "source_slug": "data-storage-comparison"
+        },
+        {
+          "id": "dry_season_hydro_floor_current",
+          "name": "Dry-season hydro floor",
+          "value": "~1,100–1,300",
+          "source_slug": "solar-role-in-winter-deficit"
+        }
+      ]
+    },
+    "claim-systems-conversion-failure": {
+      "claim_id": "C-032",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "conversion_thesis_portfolio",
+          "name": "Conversion thesis",
+          "value": "cheap solar complementarity; firm, deliverable, resilient, financeable, politically executable power",
+          "source_slug": "master-thesis"
+        },
+        {
+          "id": "dry_season_hydro_floor_current",
+          "name": "Dry-season hydro floor",
+          "value": "~1,100–1,300",
+          "source_slug": "solar-role-in-winter-deficit"
+        },
+        {
+          "id": "fleet_ror_share",
+          "name": "RoR fleet share",
+          "value": "85.7%",
+          "source_slug": "data-fleet-composition"
+        },
+        {
+          "id": "fleet_pror_share",
+          "name": "PRoR fleet share",
+          "value": "9.9%",
+          "source_slug": "data-fleet-composition"
+        },
+        {
+          "id": "fleet_storage_share",
+          "name": "Storage fleet share",
+          "value": "3.7%",
+          "source_slug": "data-fleet-composition"
+        }
+      ]
+    },
+    "claim-timing-not-volume": {
+      "claim_id": "C-001",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "dry_season_hydro_floor_current",
+          "name": "Dry-season hydro floor",
+          "value": "~1,100–1,300",
+          "source_slug": "solar-role-in-winter-deficit"
+        },
+        {
+          "id": "monsoon_peak_production_current",
+          "name": "Monsoon peak production",
+          "value": "~3,000 MW",
+          "source_slug": "data-trade-time-series"
+        },
+        {
+          "id": "monsoon_export_surplus_current",
+          "name": "Monsoon export surplus",
+          "value": "~850 MW",
+          "source_slug": "data-trade-time-series"
+        }
+      ]
+    },
+    "claim-transmission-immediate-blocker": {
+      "claim_id": "C-019",
+      "tier": "core",
+      "metrics": [
+        {
+          "id": "india_project_export_approval",
+          "name": "India project export approval",
+          "value": "941 MW",
+          "source_slug": "nepal-energy-profile"
+        },
+        {
+          "id": "cross_border_transfer_capacity",
+          "name": "Cross-border transfer capacity",
+          "value": "~1,141 MW",
+          "source_slug": "nepal-energy-profile"
+        }
+      ]
+    }
+  }
+}

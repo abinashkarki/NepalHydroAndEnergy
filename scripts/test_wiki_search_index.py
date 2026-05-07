@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import gzip
+import csv
 import json
 import re
 import subprocess
@@ -14,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-search-index.json"
 FACT_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-fact-index.json"
 VECTOR_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-vector-index.json"
+SOLAR_SPECS = ROOT / "data" / "solar_project_specs.csv"
 HTML = ROOT / "wiki" / "explorer" / "index.html"
 SEMANTIC_JS = ROOT / "wiki" / "explorer" / "shared" / "wiki-semantic.js"
 
@@ -103,17 +105,46 @@ class WikiSearchIndexTests(unittest.TestCase):
         self.assertEqual(operating[0]["name"], "Upper Tamakoshi HPP")
         self.assertEqual(operating[0]["capacity_mw"], 456.0)
 
-    def test_fact_index_answers_biggest_solar_without_wiki_page(self) -> None:
+    def test_fact_index_answers_biggest_solar_queries(self) -> None:
         solar = [f for f in self.fact_index["facts"] if f["domain"] == "solar" and f.get("capacity_mw")]
         any_status = sorted(solar, key=lambda f: f["capacity_mw"], reverse=True)
         operating = sorted([f for f in solar if f["status"] == "operating"], key=lambda f: f["capacity_mw"], reverse=True)
         self.assertEqual(any_status[0]["name"], "Khungri solar award")
         self.assertEqual(any_status[0]["capacity_mw"], 50.0)
-        self.assertEqual(any_status[0].get("wiki_slug", ""), "")
+        self.assertEqual(any_status[0].get("wiki_slug", ""), "khungri-solar-hybrid-50mw")
         self.assertEqual(any_status[0]["feature_ref"]["layer"], "solar_plants")
         self.assertTrue(any_status[0]["related_slugs"])
+        self.assertTrue(any(f.get("feature_ref", {}).get("id") == "nea_960mw_loi_16" for f in solar))
+        self.assertTrue(any(f.get("feature_ref", {}).get("id") == "nea_960mw_loi_19" for f in solar))
+        self.assertTrue(any(f.get("feature_ref", {}).get("id") == "nea_960mw_loi_24" for f in solar))
         self.assertEqual(operating[0]["name"], "Dharamnagar Solar Farm Project - II Kapilbastu")
         self.assertEqual(operating[0]["capacity_mw"], 15.0)
+
+    def test_solar_fact_index_matches_registry(self) -> None:
+        with SOLAR_SPECS.open(newline="", encoding="utf-8") as f:
+            registry = {
+                row["feature_id"]: row
+                for row in csv.DictReader(f)
+            }
+        solar = [f for f in self.fact_index["facts"] if f["domain"] == "solar"]
+        fact_by_feature = {f["feature_ref"]["id"]: f for f in solar}
+
+        self.assertEqual(len(registry), 88)
+        self.assertEqual(len(solar), 88)
+        self.assertEqual(set(fact_by_feature), set(registry))
+
+        page_slugs = {p.stem for p in (ROOT / "wiki" / "pages").rglob("*.md")}
+
+        for feature_id, row in registry.items():
+            fact = fact_by_feature[feature_id]
+            self.assertEqual(fact["capacity_mw"], float(row["capacity_mw"]))
+            self.assertEqual(fact["capacity_mwp"], float(row["capacity_mwp"]))
+            self.assertEqual(fact["status"], row["status"])
+            self.assertEqual(fact["procurement_stage"], row["procurement_stage"])
+            self.assertEqual(fact["developer_type"], row["developer_type"])
+            self.assertEqual(fact["registry_slug"], row["slug"])
+            expected_slug = row["slug"] if row["slug"] in page_slugs else row["project_group_slug"]
+            self.assertEqual(fact.get("slug", ""), expected_slug if expected_slug in page_slugs else "")
 
     def test_golden_query_terms_are_retrievable_from_static_index(self) -> None:
         postings = self.index["postings"]

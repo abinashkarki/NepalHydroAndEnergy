@@ -1,0 +1,13 @@
+hour,demand_pct_of_peak,ror_hydro_pct_of_peak,solar_pct_of_1gw_clear,month
+0,55,30,0,February
+3,45,30,0,February
+6,60,30,5,February
+8,72,30,30,February
+10,78,30,70,February
+12,80,30,90,February
+14,82,30,85,February
+16,85,30,50,February
+17.5,92,30,15,February
+18.5,100,30,0,February
+20,95,30,0,February
+22,75,30,0,February

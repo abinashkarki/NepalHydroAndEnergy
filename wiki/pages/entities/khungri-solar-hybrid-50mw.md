@@ -1,69 +1,65 @@
 ---
-title: Khungri Solar Hybrid (50 MW, Pyuthan)
+title: Khungri Solar Award (50 MW, Rolpa)
 type: entity
 created: 2026-04-23
-updated: 2026-04-23
-sources: [nea-annual-report-fy2024-25]
-tags: [solar, khungri, pyuthan, lumbini, hybrid, hydro-solar, substation, planned]
+updated: 2026-05-07
+sources: [nea-solar-loi-2024]
+tags: [solar, khungri, rolpa, lumbini, tender, loi, ipp, substation, planned]
 generator: manual
 page_quality: analysis
 ---
 
-# Khungri Solar Hybrid (50 MW, Pyuthan)
+# Khungri Solar Award (50 MW, Rolpa)
 
-Planned **50 MW solar project at Khungri, Pyuthan district**, designed to integrate into the **Khungri substation adjacent to Madi Khola and Lungri Khola hydropower**. The first at-scale **solar-hydro hybrid (Archetype 1)** configuration in Nepal, referenced in the NEA Annual Report FY 2024/25 as part of the Madhesh-Lumbini corridor reinforcement.
+Khungri is a **50 MW LoI-awarded solar project in Rolpa district**, selected in NEA's 960 MW national solar procurement round. The corrected NEA LoI identifies **Rapti Urja Pvt. Ltd.** as the bidder, **Khungri** as the substation / grid-node anchor, and **NPR 5.21/kWh** as the awarded tariff.
 
 ## Specifications
 
 | Item | Value |
 |---|---|
-| **Capacity (solar)** | 50 MW |
-| **Location** | Khungri village, Pyuthan District, Lumbini Province |
-| **Interconnection** | Khungri 33/132 kV substation (shared with Madi Khola and Lungri Khola hydropower) |
-| **Zone ([[solar-resource-geography-nepal]])** | C4 — Western mid-hills (elevation ~1,300–1,800 m) |
-| **Configuration** | Ground-mount PV integrated with existing hydro evacuation |
-| **Status** | Planned / early implementation (FY 2024/25 report) |
-| **Expected COD** | 2026 (subject to PPA and financial close) |
-| **Owner** | NEA + IPP (structure to be finalised) |
+| **Capacity** | 50 MW |
+| **District** | Rolpa |
+| **Substation / grid-node anchor** | Khungri |
+| **Bidder** | Rapti Urja Pvt. Ltd. |
+| **Developer type** | IPP |
+| **Awarded tariff** | NPR 5.21/kWh |
+| **Procurement stage** | LoI-awarded / pre-PPA |
+| **Location precision** | District / substation anchor, not parcel coordinate |
 
 ## Why this project matters
 
-Khungri is the **first operational implementation of the hybrid siting logic** encoded in [[hybrid-siting-logic]], at a meaningful scale:
+Khungri matters less as a proven hydro-hybrid project and more as a test of whether NEA's national tender can reach non-Terai grid nodes at portfolio scale:
 
-### 1. It is the template for Archetype 1 scale-up.
+### 1. It is one of the largest mid-hill awards in the LoI table.
 
-Bidur/Trishuli ([[bidur-trishuli-solar-25mwp]]) was near-hydro co-location by accident; Khungri is **designed** as hybrid from the start. If the project delivers on schedule, it validates:
+At 50 MW, Khungri is at the high end of the 960 MW tender's project-size distribution. Its award price of NPR 5.21/kWh is still inside the low end of the national tariff band, which makes it a useful check on whether mid-hill grid-adjacent solar can compete with Terai projects.
 
-- Shared substation loading between solar mid-day and hydro evening-peak.
-- Anti-phased transformer utilisation (solar loads midday, hydro loads evening-peak).
-- Reduced grid-reinforcement capex compared to greenfield 50 MW.
+### 2. It should be treated as an IPP LoI until PPA/COD evidence appears.
 
-### 2. Mid-hill siting with evacuation advantage.
+The corrected NEA source does not establish NEA ownership, COD, or a commissioned hybrid operating configuration. Until later PPA or commissioning records are available, the correct status is **planned / LoI-awarded**, not operating and not NEA-owned.
 
-Pyuthan is Zone C4 (western mid-hills, GHI ~4.4–4.8). This is *not* top-tier Nepal solar resource — Terai would produce ~10–15% more MWh per MWp. But the **shared substation with two hydropower plants** means the project's all-in LCOE (including grid costs) is likely lower than a Terai greenfield. The economics here are being driven by **grid cost**, not **GHI**, exactly as [[hybrid-siting-logic]] argues.
+### 3. It keeps the hybrid-siting question alive, but does not prove it.
 
-### 3. It is geographically near the Dana–Kushma–Butwal corridor.
-
-The site sits on the [[dana-kushma-butwal-corridor]] interconnection axis, so the plant's output is naturally evacuated to the NEA backbone via the Butwal hub. This gives Khungri an **evacuation headroom** that purely rural Zone C mid-hill solar sites do not have.
+Khungri sits in the same broad western mid-hill geography where solar, substations, and hydropower evacuation corridors can overlap. That makes it relevant to [[hybrid-siting-logic]], but the LoI record alone does not prove shared hydro-solar substation operation.
 
 ## Operational questions to watch
 
 | Question | Why it matters |
 |---|---|
-| Does the shared substation handle simultaneous hydro + solar peak days? | Validates (or breaks) the hybrid thesis at 50 MW scale |
-| What is the actual monsoon-day solar output relative to hydro output? | Tests whether Pyuthan zone solar is a net winter complement or a monsoon cannibaliser |
-| How is the PPA structured: joint for hydro + solar, or separate? | Precedent for future hybrid deals |
-| What is the specific GHI at Khungri vs the Pokhara reference station? | Tests the Zone C4 GHI assumption used in the resource map |
+| Does the project sign a PPA and reach financial close? | Tests conversion from LoI award to buildable project |
+| What exact parcel and interconnection point are confirmed? | Separates substation-anchor mapping from site-level siting |
+| Is any hydro co-location or shared evacuation formally documented? | Determines whether this remains a standard IPP solar project or becomes a hybrid precedent |
+| What is the actual output profile once commissioned? | Tests mid-hill solar performance relative to Terai alternatives |
 
 ## Lessons the project can teach
 
-If Khungri delivers successfully, it provides the precedent for rolling hybrid into the next NEA tender — mandating that any new hydropower project above ~20 MW include a co-located solar feasibility study, with capex sharing for the substation upgrade. This is the lowest-friction way to scale Archetype 1 from 50 MW (Khungri) to ~500–800 MW across the hydro fleet by 2030.
+If Khungri delivers successfully, it will show that the 960 MW tender can convert large, non-Terai awards into real projects. If later documentation confirms shared hydro evacuation, it can also become evidence for hybrid siting; until then, it should be cited as a **LoI-awarded IPP solar project**.
 
 ## Related
 
-- [[hybrid-siting-logic]] — the concept this project operationalises
+- [[nea-solar-loi-2024]] — row-level LoI source
+- [[nea-960mw-solar-tender]] — procurement parent
+- [[hybrid-siting-logic]] — related siting concept, pending stronger evidence
 - [[nea-solar]] — programme parent
-- [[dana-kushma-butwal-corridor]] — transmission axis
 - [[bidur-trishuli-solar-25mwp]] — precedent, if unintentional
-- [[naumure-w-rapti]] — nearby hydro developments that could inform future hybrid design
 - [[data-solar-fleet-inventory]]
