@@ -2,7 +2,7 @@
 title: Winter Deficit Model
 type: data
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024]
 tags: [winter-deficit, energy-balance, diurnal, evening-peak, dispatch, solar, storage, bess, budhigandaki, model]
 page_quality: analysis
@@ -33,6 +33,22 @@ Phase 1 reads NEA FY 2024/25 monthly energy data as baseline, applies scenario a
 
 **Assumptions:** WECS Low GDP demand CAGRs (8% 2025–30, 7% 2030–35). Terai solar CF 16.5% fixed-tilt. Storage pipeline: Tanahu 140 MW (COD 2026), Dudhkoshi 670 MW (COD 2035, scenario_risk), Budhigandaki 1,200 MW (COD 2036, post-2035). Hydro growth CAGR: 3% (2030), 4% (2035). Dry-season storage energy distributed across four winter months with triangular weights [1,2,2,1] peaking in Poush-Magh. Source: `data/processed/tables/winter_deficit_model/model_parameters.csv`.
 
+The 2035 full portfolio in the Phase 1 energy balance, visualised as a demand–supply stack:
+
+:::chart{winter-energy-balance-2035}
+
+## How the gap closes
+
+Between the FY 2025 baseline and the 2035 full portfolio, four sequential moves change the gap. Solar fills most of the current shortfall; demand growth then roughly doubles the problem; new storage hydro and BESS + demand-shaping close it again.
+
+:::chart{gap-closure-trajectory}
+
+## Portfolio composition
+
+The same full portfolio broken down by lever share of total supply:
+
+:::chart{four-lever-contribution}
+
 ## Phase 2 — Diurnal evening-peak dispatch (2035 scenarios)
 
 Phase 2 takes Magh (mid-Jan to mid-Feb, ≈February) as the canonical winter reference month and models the 18:30 evening peak dispatch. The diurnal profile is sourced from [[data-solar-hydro-complementarity-profile]] lines 71–85: February weekday demand shape normalised to peak=100 at 18:30, RoR hydro flat at 30, solar bell curve dropping to zero by 17:30. Interpolation to hourly resolution yields an implied peak-to-average demand ratio of 1.35.
@@ -48,6 +64,16 @@ Dispatch logic: RoR hydro flat at average monthly MW. Reservoir hydro dispatched
 | 2035_with_budhigandaki | 4,066 | 1,504 | 1,809 | 0 | 500 | 400 | −147 | −3.6% |
 
 Model parameters: Magh reference month, 29 days, profile-implied peak-to-average ratio 1.348, reservoir dispatch factor 0.9, solar_mw_at_peak always 0.0 at the default 18:30 target hour. Budhigandaki (1,200 MW × 0.9 = 1,080 MW effective) flips the 933 MW deficit to a 147 MW surplus. Source: `scripts/build_diurnal_peak_model.py`, 2035_with_budhigandaki scenario.
+
+The same scenarios at the 18:30 peak hour, when solar output is zero:
+
+:::chart{evening-peak-dispatch-2035}
+
+### Budhigandaki as a capacity asset
+
+Within the Phase 2 results, the Budhigandaki scenario is the only one that flips the evening residual from shortage to surplus:
+
+:::chart{evening-peak-budhigandaki}
 
 ## Scenario definitions
 

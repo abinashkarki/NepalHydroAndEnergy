@@ -40,7 +40,9 @@ class StaticSearchIndex {
 
   seek(query, opts = {}) {
     const limit = opts.limit ?? 30;
-    const terms = this.expandTerms(query, tokenize(query));
+    const origTerms = tokenize(query);
+    const origSet = new Set(origTerms);
+    const terms = this.expandTerms(query, origTerms);
     if (!terms.length) return [];
     const scores = new Map();
     const reasons = new Map();
@@ -50,9 +52,14 @@ class StaticSearchIndex {
       const df = this.docFreq[term] || rows.length || 0;
       if (!df) continue;
       const idf = Math.log(1 + (this.totalDocs - df + 0.5) / (df + 0.5));
+      const isOrig = origSet.has(term);
       for (const [docId, tf] of rows) {
         const denom = tf + 1.5 * (1 - 0.75 + 0.75 * ((this.docLen[docId] || this.avgDocLen) / this.avgDocLen));
-        const score = idf * ((tf * 2.5) / denom);
+        let score = idf * ((tf * 2.5) / denom);
+        const page = this.pages[docId];
+        if (isOrig && page && page.x && page.x.indexOf(term) >= 0) {
+          score *= 3;
+        }
         scores.set(docId, (scores.get(docId) || 0) + score);
         if (!reasons.has(docId)) reasons.set(docId, term);
       }
@@ -81,9 +88,14 @@ class StaticSearchIndex {
     for (const term of terms) {
       for (const alias of this.aliases[term] || []) expanded.add(alias);
     }
-    const q = String(query || "").toLowerCase();
     for (const item of this.aliasPhrases) {
-      if (!item.phrase || !q.includes(item.phrase)) continue;
+      if (!item.phrase) continue;
+      const pt = tokenize(item.phrase);
+      if (!pt.length) continue;
+      const match = pt.length <= terms.length && terms.some((_, i) =>
+        i + pt.length <= terms.length && pt.every((t, j) => terms[i + j] === t)
+      );
+      if (!match) continue;
       for (const term of item.expand || []) expanded.add(term);
     }
     return Array.from(expanded).filter((term) => this.postings[term]);

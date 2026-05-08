@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gap Closure Trajectory 2025 → 2035</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #f8f9fa;
+    color: #2d3436;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .subtitle {
+    font-size: 0.875rem;
+    color: #636e72;
+    margin-bottom: 1.5rem;
+  }
+  .annotation {
+    font-size: 0.8rem;
+    color: #636e72;
+    font-style: italic;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #f1f3f4;
+    border-radius: 6px;
+    border-left: 3px solid #0984e3;
+  }
+  svg { display: block; width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Gap Closure Trajectory</h1>
+  <p class="subtitle">How the Dec–Feb energy gap shrinks from 2025 baseline to 2035 full portfolio</p>
+  
+  <svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="640" height="420" fill="#ffffff"/>
+    
+    <!-- Y-axis labels -->
+    <text x="45" y="50" text-anchor="end" font-size="10" fill="#636e72">1,200</text>
+    <text x="45" y="110" text-anchor="end" font-size="10" fill="#636e72">800</text>
+    <text x="45" y="170" text-anchor="end" font-size="10" fill="#636e72">400</text>
+    <text x="45" y="230" text-anchor="end" font-size="10" fill="#636e72">0</text>
+    <text x="45" y="290" text-anchor="end" font-size="10" fill="#636e72">−400</text>
+    
+    <!-- Zero line -->
+    <line x1="55" y1="230" x2="580" y2="230" stroke="#2d3436" stroke-width="1.5"/>
+    <text x="585" y="234" font-size="10" fill="#2d3436" font-weight="600">Gap = 0</text>
+    
+    <!-- Grid lines -->
+    <line x1="55" y1="50" x2="580" y2="50" stroke="#dfe6e9" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="55" y1="110" x2="580" y2="110" stroke="#dfe6e9" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="55" y1="170" x2="580" y2="170" stroke="#dfe6e9" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="55" y1="290" x2="580" y2="290" stroke="#dfe6e9" stroke-width="1" stroke-dasharray="3,3"/>
+    
+    <!-- Bars -->
+    <!-- Step 0: Baseline 551 GWh -->
+    <rect x="70" y="159" width="70" height="71" rx="4" fill="#d63031" opacity="0.85"/>
+    <text x="105" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#d63031">551</text>
+    <text x="105" y="245" text-anchor="middle" font-size="9" fill="#636e72">FY 2025</text>
+    <text x="105" y="258" text-anchor="middle" font-size="8" fill="#b2bec3">baseline</text>
+    
+    <!-- Connector 0→1 -->
+    <line x1="140" y1="194" x2="165" y2="80" stroke="#636e72" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <polygon points="163,75 170,82 162,85" fill="#636e72"/>
+    
+    <!-- Step 1: +5 GW solar (gap goes to 0, then demand growth rebuilds it) -->
+    <!-- Actually waterfall: start at 551, add solar (-966), add demand growth (+810), add storage (-834), add BESS+shape (-1-400) -->
+    <!-- Let's do proper waterfall -->
+    
+    <!-- Step 1: Solar addition (-966 from gap perspective, but gap can't go negative in this framing) -->
+    <!-- Let's reframe: gap = demand - supply. Each lever changes gap. -->
+    <!-- 551 baseline. Add solar: 551 - 966 = -415 (surplus). But demand grows to 2035: -415 + 810 = 395. -->
+    <!-- This is messy for waterfall. Let's show the net gap at each stage. -->
+    
+    <!-- Revised: show gap magnitude at each step -->
+    <!-- Step 0: 551 -->
+    <!-- Step 1: with 5 GW solar on 2025 demand = 0 (surplus) -->
+    <!-- Step 2: 2035 demand, no new supply = 1,361 (but let's use 810 as the incremental gap from demand growth) -->
+    <!-- Actually let's just show the bars as: baseline gap, then each lever's impact -->
+    
+    <!-- Step 1 bar: Solar impact (negative = reduces gap) -->
+    <rect x="180" y="80" width="70" height="150" rx="4" fill="#fdcb6e"/>
+    <text x="215" y="73" text-anchor="middle" font-size="10" font-weight="600" fill="#fdcb6e">−966</text>
+    <text x="215" y="238" text-anchor="middle" font-size="9" fill="#636e72">+5 GW</text>
+    <text x="215" y="251" text-anchor="middle" font-size="8" fill="#b2bec3">solar</text>
+    
+    <!-- Connector -->
+    <line x1="250" y1="155" x2="275" y2="155" stroke="#636e72" stroke-width="1.5" stroke-dasharray="4,3"/>
+    
+    <!-- Step 2 bar: Demand growth (positive = increases gap) -->
+    <rect x="290" y="80" width="70" height="126" rx="4" fill="#d63031" opacity="0.6"/>
+    <text x="325" y="73" text-anchor="middle" font-size="10" font-weight="600" fill="#d63031">+810</text>
+    <text x="325" y="238" text-anchor="middle" font-size="9" fill="#636e72">Demand</text>
+    <text x="325" y="251" text-anchor="middle" font-size="8" fill="#b2bec3">growth</text>
+    
+    <!-- Running total annotation -->
+    <text x="325" y="92" text-anchor="middle" font-size="9" fill="#d63031" font-weight="600">395</text>
+    
+    <!-- Connector -->
+    <line x1="360" y1="143" x2="385" y2="143" stroke="#636e72" stroke-width="1.5" stroke-dasharray="4,3"/>
+    
+    <!-- Step 3 bar: Storage addition (negative) -->
+    <rect x="400" y="80" width="70" height="130" rx="4" fill="#00b894"/>
+    <text x="435" y="73" text-anchor="middle" font-size="10" font-weight="600" fill="#00b894">−834</text>
+    <text x="435" y="238" text-anchor="middle" font-size="9" fill="#636e72">Tanahu +</text>
+    <text x="435" y="251" text-anchor="middle" font-size="8" fill="#b2bec3">Dudhkoshi</text>
+    
+    <!-- Running total -->
+    <text x="435" y="92" text-anchor="middle" font-size="9" fill="#d63031" font-weight="600">−439</text>
+    
+    <!-- Connector -->
+    <line x1="470" y1="145" x2="495" y2="145" stroke="#636e72" stroke-width="1.5" stroke-dasharray="4,3"/>
+    
+    <!-- Step 4 bar: BESS + shaping (negative) -->
+    <rect x="510" y="80" width="70" height="66" rx="4" fill="#6c5ce7"/>
+    <text x="545" y="73" text-anchor="middle" font-size="10" font-weight="600" fill="#6c5ce7">−401</text>
+    <text x="545" y="238" text-anchor="middle" font-size="9" fill="#636e72">BESS +</text>
+    <text x="545" y="251" text-anchor="middle" font-size="8" fill="#b2bec3">shaping</text>
+    
+    <!-- Final total -->
+    <rect x="510" y="146" width="70" height="84" rx="4" fill="#00b894" opacity="0.3"/>
+    <rect x="510" y="146" width="70" height="84" rx="4" fill="none" stroke="#00b894" stroke-width="2"/>
+    <text x="545" y="140" text-anchor="middle" font-size="11" font-weight="700" fill="#00b894">−840</text>
+    <text x="545" y="196" text-anchor="middle" font-size="9" fill="#00b894" font-weight="600">Gap closed</text>
+    <text x="545" y="210" text-anchor="middle" font-size="9" fill="#00b894" font-weight="600">+ surplus</text>
+    
+    <!-- Arrows showing flow -->
+    <!-- Actually the bars above are each lever's individual contribution. Let me redo as a cleaner waterfall. -->
+    
+    <!-- Cover up and redo properly -->
+    <rect x="60" y="60" width="530" height="200" fill="#ffffff"/>
+    
+    <!-- Waterfall: start bar, then up/down steps, then end bar -->
+    <!-- Start: 551 -->
+    <rect x="75" y="150" width="65" height="80" rx="4" fill="#d63031" opacity="0.85"/>
+    <text x="107" y="140" text-anchor="middle" font-size="11" font-weight="700" fill="#d63031">551</text>
+    <text x="107" y="245" text-anchor="middle" font-size="9" fill="#636e72">Baseline</text>
+    <text x="107" y="258" text-anchor="middle" font-size="8" fill="#b2bec3">gap</text>
+    
+    <!-- Step 1: Solar (-966) -->
+    <line x1="140" y1="190" x2="170" y2="190" stroke="#636e72" stroke-width="1"/>
+    <line x1="170" y1="190" x2="170" y2="72" stroke="#636e72" stroke-width="1"/>
+    <line x1="170" y1="72" x2="185" y2="72" stroke="#636e72" stroke-width="1"/>
+    <rect x="185" y="72" width="55" height="40" rx="3" fill="#fdcb6e"/>
+    <text x="212" y="66" text-anchor="middle" font-size="10" font-weight="600" fill="#fdcb6e">−966</text>
+    <text x="212" y="95" text-anchor="middle" font-size="9" fill="#2d3436">Solar</text>
+    <text x="212" y="245" text-anchor="middle" font-size="9" fill="#636e72">Solar</text>
+    <text x="212" y="258" text-anchor="middle" font-size="8" fill="#b2bec3">5 GW</text>
+    
+    <!-- Running total line -->
+    <line x1="240" y1="92" x2="255" y2="92" stroke="#636e72" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="248" y="88" text-anchor="middle" font-size="8" fill="#636e72">−415</text>
+    
+    <!-- Step 2: Demand growth (+810) -->
+    <line x1="240" y1="92" x2="255" y2="92" stroke="#636e72" stroke-width="1"/>
+    <line x1="255" y1="92" x2="255" y2="165" stroke="#636e72" stroke-width="1"/>
+    <line x1="255" y1="165" x2="270" y2="165" stroke="#636e72" stroke-width="1"/>
+    <rect x="270" y="150" width="55" height="80" rx="3" fill="#d63031" opacity="0.6"/>
+    <text x="297" y="144" text-anchor="middle" font-size="10" font-weight="600" fill="#d63031">+810</text>
+    <text x="297" y="245" text-anchor="middle" font-size="9" fill="#636e72">Demand</text>
+    <text x="297" y="258" text-anchor="middle" font-size="8" fill="#b2bec3">growth</text>
+    
+    <line x1="325" y1="190" x2="340" y2="190" stroke="#636e72" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="332" y="186" text-anchor="middle" font-size="8" fill="#636e72">395</text>
+    
+    <!-- Step 3: Storage (-834) -->
+    <line x1="325" y1="190" x2="340" y2="190" stroke="#636e72" stroke-width="1"/>
+    <line x1="340" y1="190" x2="340" y2="78" stroke="#636e72" stroke-width="1"/>
+    <line x1="340" y1="78" x2="355" y2="78" stroke="#636e72" stroke-width="1"/>
+    <rect x="355" y="78" width="55" height="36" rx="3" fill="#00b894"/>
+    <text x="382" y="72" text-anchor="middle" font-size="10" font-weight="600" fill="#00b894">−834</text>
+    <text x="382" y="100" text-anchor="middle" font-size="9" fill="#2d3436">Storage</text>
+    <text x="382" y="245" text-anchor="middle" font-size="9" fill="#636e72">Storage</text>
+    <text x="382" y="258" text-anchor="middle" font-size="8" fill="#b2bec3">hydro</text>
+    
+    <line x1="410" y1="96" x2="425" y2="96" stroke="#636e72" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="417" y="92" text-anchor="middle" font-size="8" fill="#636e72">−439</text>
+    
+    <!-- Step 4: BESS + shaping (-401) -->
+    <line x1="410" y1="96" x2="425" y2="96" stroke="#636e72" stroke-width="1"/>
+    <line x1="425" y1="96" x2="425" y2="78" stroke="#636e72" stroke-width="1"/>
+    <line x1="425" y1="78" x2="440" y2="78" stroke="#636e72" stroke-width="1"/>
+    <rect x="440" y="78" width="55" height="18" rx="3" fill="#6c5ce7"/>
+    <text x="467" y="72" text-anchor="middle" font-size="10" font-weight="600" fill="#6c5ce7">−401</text>
+    <text x="467" y="100" text-anchor="middle" font-size="9" fill="#2d3436">BESS+Shape</text>
+    <text x="467" y="245" text-anchor="middle" font-size="9" fill="#636e72">BESS +</text>
+    <text x="467" y="258" text-anchor="middle" font-size="8" fill="#b2bec3">shaping</text>
+    
+    <!-- Final: gap closed -->
+    <line x1="495" y1="87" x2="510" y2="87" stroke="#636e72" stroke-width="1"/>
+    <line x1="510" y1="87" x2="510" y2="230" stroke="#636e72" stroke-width="1"/>
+    <line x1="510" y1="230" x2="525" y2="230" stroke="#636e72" stroke-width="1"/>
+    <rect x="525" y="210" width="55" height="20" rx="3" fill="#55efc4"/>
+    <rect x="525" y="210" width="55" height="20" rx="3" fill="none" stroke="#00b894" stroke-width="2"/>
+    <text x="552" y="205" text-anchor="middle" font-size="10" font-weight="700" fill="#00b894">Gap = 0</text>
+    <text x="552" y="245" text-anchor="middle" font-size="9" fill="#00b894" font-weight="600">Closed</text>
+    
+    <!-- Large annotation -->
+    <text x="320" y="300" text-anchor="middle" font-size="12" font-weight="600" fill="#2d3436">Solar alone turns the baseline gap into surplus.</text>
+    <text x="320" y="318" text-anchor="middle" font-size="11" fill="#636e72">But demand growth roughly doubles the problem by 2035.</text>
+    <text x="320" y="336" text-anchor="middle" font-size="11" fill="#636e72">Storage + BESS + shaping close it again. No single lever suffices.</text>
+  </svg>
+  
+  <div class="annotation">Red bars increase the gap (demand growth). Amber, teal, and purple bars decrease it (supply additions). The final bar at zero marks the portfolio success.</div>
+</div>
+</body>
+</html>

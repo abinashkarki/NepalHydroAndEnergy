@@ -265,6 +265,101 @@ code, pre, .mono { font-family: var(--mono); }
   background: #eaf6ed;
 }
 
+/* Chart embedding — injected inline by wiki-loader when a page uses
+   :::chart{name} directives. The chart HTML is extracted from standalone
+   chart files and inlined; these styles override .markdown defaults and
+   provide the visual framing so the chart blends into the wiki reading flow. */
+.wiki-chart-embed {
+  margin: 24px 0 26px;
+  padding: 18px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 13px;
+}
+.wiki-chart-embed h1 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: var(--ink);
+  border: none;
+  padding: 0;
+}
+.wiki-chart-embed .subtitle {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+.wiki-chart-embed svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.wiki-chart-embed .annotation {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: var(--panel-2);
+  border-radius: 5px;
+  border-left: 3px solid var(--accent-soft);
+}
+.wiki-chart-embed .legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: 12px;
+}
+.wiki-chart-embed .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+}
+.wiki-chart-embed .legend-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.wiki-chart-embed .callout {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink);
+  background: #fff8e1;
+  border-left: 3px solid #fdcb6e;
+  padding: 8px 12px;
+  border-radius: 0 5px 5px 0;
+  margin-bottom: 14px;
+}
+.wiki-chart-embed .big-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #006266;
+  gap: 6px;
+}
+.wiki-chart-embed .big-arrow svg {
+  width: 40px;
+  height: 24px;
+}
+.wiki-chart-embed.wiki-chart-missing {
+  color: var(--ink-soft);
+  font-style: italic;
+  padding: 16px;
+  text-align: center;
+  border-style: dashed;
+}
+
 /* Image filmstrip at the top of a wiki page. Compact, horizontally scrolling
    row of thumbs with caption + credit underneath. Click a thumb to open the
    lightbox. Empty/missing images are hidden silently via onerror. */

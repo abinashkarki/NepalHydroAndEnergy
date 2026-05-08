@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evening Peak Dispatch at 18:30 — 2035 Scenarios</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #f8f9fa;
+    color: #2d3436;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .subtitle {
+    font-size: 0.875rem;
+    color: #636e72;
+    margin-bottom: 1.5rem;
+  }
+  .callout {
+    font-size: 0.85rem;
+    color: #2d3436;
+    background: #fff3cd;
+    border-left: 4px solid #fdcb6e;
+    padding: 0.75rem 1rem;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 1.5rem;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    margin-top: 1.25rem;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .legend-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+  }
+  svg { display: block; width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Evening Peak Dispatch at 18:30</h1>
+  <p class="subtitle">Phase 2 model: four 2035 scenarios at the 6:30 pm winter peak hour</p>
+  <div class="callout">Budhigandaki flips the 933 MW evening gap into a 147 MW surplus. Solar contributes zero at 18:30 — this is a firm-capacity problem, not an energy problem.</div>
+  
+  <svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="420" fill="#ffffff"/>
+    
+    <!-- Constants -->
+    <!-- Scale: 4,066 MW demand = 500px width -->
+    <!-- 1 MW = 500/4066 ≈ 0.123 px -->
+    
+    <!-- Demand line (dashed, same for all) -->
+    <line x1="180" y1="35" x2="680" y2="35" stroke="#2d3436" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="180" y="30" font-size="10" fill="#2d3436" font-weight="600">Demand 4,066 MW</text>
+    
+    <!-- Row 1: 2035_no_solar -->
+    <text x="170" y="65" text-anchor="end" font-size="11" font-weight="600" fill="#2d3436">No new solar</text>
+    <text x="170" y="80" text-anchor="end" font-size="9" fill="#636e72">Storage only</text>
+    
+    <rect x="180" y="55" width="185" height="28" rx="3" fill="#0984e3"/> <!-- RoR 1,504 -->
+    <text x="272" y="73" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">RoR 1,504</text>
+    
+    <rect x="365" y="55" width="90" height="28" fill="#00b894"/> <!-- Reservoir 729 -->
+    <text x="410" y="73" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">Res. 729</text>
+    
+    <!-- Gap: 1,833 MW -->
+    <rect x="455" y="55" width="225" height="28" rx="0 3 3 0" fill="#d63031" opacity="0.2"/>
+    <rect x="455" y="55" width="225" height="28" rx="0 3 3 0" fill="none" stroke="#d63031" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="567" y="73" text-anchor="middle" font-size="10" font-weight="700" fill="#d63031">Gap 1,833 MW</text>
+    
+    <!-- Row 2: 2035_solar_only -->
+    <text x="170" y="120" text-anchor="end" font-size="11" font-weight="600" fill="#2d3436">Solar only</text>
+    <text x="170" y="135" text-anchor="end" font-size="9" fill="#636e72">No new storage</text>
+    
+    <rect x="180" y="110" width="185" height="28" rx="3" fill="#0984e3"/> <!-- RoR 1,504 -->
+    <text x="272" y="128" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">RoR 1,504</text>
+    
+    <rect x="365" y="110" width="15" height="28" fill="#00b894"/> <!-- Reservoir 126 (Tanahu only) -->
+    <text x="372" y="128" text-anchor="middle" font-size="8" fill="#fff" font-weight="600">126</text>
+    
+    <!-- Gap: 2,436 MW -->
+    <rect x="380" y="110" width="300" height="28" rx="0 3 3 0" fill="#d63031" opacity="0.25"/>
+    <rect x="380" y="110" width="300" height="28" rx="0 3 3 0" fill="none" stroke="#d63031" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="530" y="128" text-anchor="middle" font-size="10" font-weight="700" fill="#d63031">Gap 2,436 MW</text>
+    
+    <!-- Row 3: 2035_full -->
+    <text x="170" y="175" text-anchor="end" font-size="11" font-weight="600" fill="#2d3436">Full portfolio</text>
+    <text x="170" y="190" text-anchor="end" font-size="9" fill="#636e72">excl. Budhigandaki</text>
+    
+    <rect x="180" y="165" width="185" height="28" rx="3" fill="#0984e3"/> <!-- RoR 1,504 -->
+    <text x="272" y="183" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">RoR 1,504</text>
+    
+    <rect x="365" y="165" width="90" height="28" fill="#00b894"/> <!-- Reservoir 729 -->
+    <text x="410" y="183" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">Res. 729</text>
+    
+    <rect x="455" y="165" width="62" height="28" fill="#6c5ce7"/> <!-- BESS 500 -->
+    <text x="486" y="183" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">BESS 500</text>
+    
+    <rect x="517" y="165" width="49" height="28" fill="#00cec9"/> <!-- Shaping 400 -->
+    <text x="541" y="183" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">Shape 400</text>
+    
+    <!-- Gap: 933 MW -->
+    <rect x="566" y="165" width="114" height="28" rx="0 3 3 0" fill="#d63031" opacity="0.15"/>
+    <rect x="566" y="165" width="114" height="28" rx="0 3 3 0" fill="none" stroke="#d63031" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="623" y="183" text-anchor="middle" font-size="10" font-weight="700" fill="#d63031">Gap 933</text>
+    
+    <!-- Row 4: 2035_with_budhigandaki -->
+    <text x="170" y="230" text-anchor="end" font-size="11" font-weight="600" fill="#2d3436">With Budhigandaki</text>
+    <text x="170" y="245" text-anchor="end" font-size="9" fill="#636e72">Post-2035 aspirational</text>
+    
+    <rect x="180" y="220" width="185" height="28" rx="3" fill="#0984e3"/> <!-- RoR 1,504 -->
+    <text x="272" y="238" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">RoR 1,504</text>
+    
+    <rect x="365" y="220" width="90" height="28" fill="#00b894"/> <!-- Reservoir 729 -->
+    <text x="410" y="238" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">Res. 729</text>
+    
+    <rect x="455" y="220" width="62" height="28" fill="#6c5ce7"/> <!-- BESS 500 -->
+    <text x="486" y="238" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">BESS 500</text>
+    
+    <rect x="517" y="220" width="49" height="28" fill="#00cec9"/> <!-- Shaping 400 -->
+    <text x="541" y="238" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">Shape 400</text>
+    
+    <rect x="566" y="220" width="133" height="28" fill="#006266"/> <!-- Budhigandaki 1,080 -->
+    <text x="632" y="238" text-anchor="middle" font-size="9" fill="#fff" font-weight="600">Budhi 1,080</text>
+    
+    <!-- Surplus: 147 MW -->
+    <rect x="699" y="220" width="17" height="28" rx="0 3 3 0" fill="#00b894" opacity="0.6"/>
+    <rect x="699" y="220" width="17" height="28" rx="0 3 3 0" fill="none" stroke="#00b894" stroke-width="1.5"/>
+    <text x="707" y="238" text-anchor="middle" font-size="8" font-weight="700" fill="#00b894">+147</text>
+    
+    <!-- Annotation arrow -->
+    <path d="M 623 195 L 632 210" stroke="#d63031" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+    <defs>
+      <marker id="arrow-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#d63031"/>
+      </marker>
+    </defs>
+    
+    <!-- Bottom annotation -->
+    <text x="180" y="285" font-size="11" fill="#2d3436" font-weight="600">Key insight:</text>
+    <text x="180" y="302" font-size="10" fill="#636e72">Without Budhigandaki, the full portfolio still leaves a 933 MW evening shortage (23% of peak).</text>
+    <text x="180" y="317" font-size="10" fill="#636e72">Budhigandaki's 1,080 MW effective dispatch is what turns shortage into surplus.</text>
+    
+    <!-- Scale -->
+    <line x1="180" y1="345" x2="680" y2="345" stroke="#dfe6e9" stroke-width="1"/>
+    <line x1="180" y1="342" x2="180" y2="348" stroke="#b2bec3" stroke-width="1"/>
+    <text x="180" y="360" text-anchor="middle" font-size="9" fill="#636e72">0</text>
+    <line x1="430" y1="342" x2="430" y2="348" stroke="#b2bec3" stroke-width="1"/>
+    <text x="430" y="360" text-anchor="middle" font-size="9" fill="#636e72">2,000 MW</text>
+    <line x1="680" y1="342" x2="680" y2="348" stroke="#b2bec3" stroke-width="1"/>
+    <text x="680" y="360" text-anchor="middle" font-size="9" fill="#636e72">4,066 MW</text>
+  </svg>
+  
+  <div class="legend">
+    <div class="legend-item"><div class="legend-swatch" style="background:#0984e3"></div>RoR hydro</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#00b894"></div>Reservoir (Tanahu + Dudhkoshi)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#6c5ce7"></div>BESS</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#00cec9"></div>Demand-shaping</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#006266"></div>Budhigandaki</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#d63031; opacity:0.3"></div>Gap (shortage)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#00b894; opacity:0.6"></div>Surplus</div>
+  </div>
+</div>
+</body>
+</html>

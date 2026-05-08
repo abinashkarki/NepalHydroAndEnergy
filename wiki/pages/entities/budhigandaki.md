@@ -2,7 +2,7 @@
 title: Budhigandaki Hydroelectric Project
 type: entity
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-08
 generator: specs-refresh
 page_quality: analysis
 sources: [wb-country-economic-memo-2025, jica-ipsdp-main-report-vol2]
@@ -39,6 +39,23 @@ images:
 
 A 1,200 MW **reservoir storage** project on the border of Gorkha and Dhading districts, in the [[gandaki-basin]]. Considered a national pride initiative and the most important near-term storage intervention for grid stability.
 
+## In plain language
+
+If you are new to Nepal's power system, here is why Budhigandaki matters in one sentence: **it is the biggest "water battery" Nepal could build** — a dam that stores monsoon river water and releases it in the dry winter months when the rest of the system is short.
+
+There is a newer, sharper finding from the wiki's 2035 adequacy model that changes how to think about this project:
+
+- **Budhigandaki is not needed to close the total winter energy gap by 2035.** A portfolio of ~5 GW solar, Tanahu, Dudhkoshi, batteries, and demand-shaping already closes the Dec–Feb energy balance without it.
+- **But Budhigandaki is the decisive asset for the winter evening peak.** At 6:30 pm in winter, solar has set. Even with the full portfolio, the model shows a ~933 MW shortage. Budhigandaki's 1,200 MW (1,080 MW effective at evening dispatch) flips that shortage into a small surplus.
+
+In other words: Budhigandaki is less about "more total energy" and more about **firm evening capacity** — the ability to turn the lights on at 6:30 pm in January. That is a different, and more precise, reason to build it. See [[data-winter-deficit-model]] and [[solar-role-in-winter-deficit]] for the full numbers.
+
+The 2035 adequacy model quantifies this precisely. The chart below compares the evening peak (6:30 pm, Magh) with and without Budhigandaki in the portfolio:
+
+:::chart{evening-peak-budhigandaki}
+
+Without Budhigandaki, the full four-lever portfolio still leaves a 933 MW shortage. With it, the shortage becomes a 147 MW surplus.
+
 ## Specifications
 
 | Parameter | Value |
@@ -60,7 +77,9 @@ A 263 m double-curvature arch dam — Nepal's largest planned dam structure — 
 | Type | Storage / Reservoir |
 
 ### Output
-Budhigandaki's defining economic feature is its seasonal split: **42% of annual output comes in winter** (1.41 billion units of a total 3.38 billion). For comparison, the average RoR plant delivers 15–25% of its energy in the dry season. This makes Budhigandaki the single most important dry-season asset in Nepal's planned pipeline. See [[storage-deficit]] and [[seasonal-mismatch]].
+Budhigandaki's defining economic feature is its seasonal split: **42% of annual output comes in winter** (1.41 billion units of a total 3.38 billion). For comparison, the average run-of-river plant delivers 15–25% of its energy in the dry season. That seasonal shift is valuable, but the 2035 adequacy model shows it is **not the only way** to close the total winter energy gap — solar + Tanahu + Dudhkoshi + BESS + demand-shaping can do that too.
+
+What Budhigandaki uniquely adds is **evening firm capacity**: 1,200 MW that can be dispatched into the 6:00–9:00 pm peak window. At 0.9 dispatch factor that is 1,080 MW of reliable evening power — enough to turn the model's 933 MW residual shortage into a small surplus. See [[data-winter-deficit-model]] Phase 2 and [[firm-power]].
 
 | Parameter | Value |
 |-----------|-------|
@@ -117,8 +136,26 @@ After years of repeated modality formation, the investment framework was approve
 
 If built, Budhigandaki would not just add generation — it would **change the economic character of Nepal's electricity system**. It addresses [[storage-deficit]], [[seasonal-mismatch]], and [[firm-power]] simultaneously. The revenue difference from shifting monsoon water to dry-season generation at higher prices makes storage an economic optimization instrument, not just infrastructure.
 
+The 2035 adequacy model refines this claim. Budhigandaki is still critical, but for a narrower and more precise reason than "we need more storage":
+
+- **Total winter energy (Dec–Feb GWh):** can be closed without Budhigandaki if the other four levers execute.
+- **Winter evening peak (6:30 pm MW):** cannot be fully closed without Budhigandaki or an equivalent firm source.
+
+That reframes the debate. The question is no longer "do we need Budhigandaki for winter energy?" It is: "are we willing to pay the financial, social, and governance cost of Budhigandaki for **1,080 MW of evening firm capacity?"** That is a more honest product decision.
+
 > [!warning]
 > The project's repeated delays exemplify why [[buildability]] and governance matter as much as engineering. Nepal has no shortage of storage concepts — it has a shortage of executed storage.
+
+## Related
+
+- [[data-winter-deficit-model]] — the 2035 adequacy model that quantifies Budhigandaki's evening-peak role
+- [[solar-role-in-winter-deficit]] — the policy synthesis that reframes Budhigandaki as a capacity asset
+- [[storage-deficit]] — the broader storage gap
+- [[seasonal-mismatch]] — why winter shortages recur
+- [[firm-power]] — why dependable timing matters more than nameplate megawatts
+- [[buildability]] — why large projects in Nepal are hard to finish
+- [[tanahu-hydropower]] — the storage project Nepal is actually building now
+- [[dudhkoshi-storage]] — the next large storage project in the pipeline
 
 ## Map Assets
 

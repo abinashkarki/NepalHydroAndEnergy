@@ -239,6 +239,19 @@ function rewriteWikilinks(html, slugIndex, spatialSlugs, onClickAttr = "openWiki
   });
 }
 
+async function fetchChartContent(chartName) {
+  try {
+    const r = await fetch(`charts/${chartName}.html?cb=${_WL_CB}`);
+    if (!r.ok || r.status === 404) return null;
+    const raw = await r.text();
+    const m = raw.match(/<div class="container">([\s\S]*?)<\/div>\s*<\/body>/);
+    if (!m) return null;
+    return `<div class="wiki-chart-embed" data-chart="${chartName}">${m[1]}</div>`;
+  } catch (e) {
+    return null;
+  }
+}
+
 function renderCallouts(html) {
   const labels = {
     note: "Note",
@@ -266,8 +279,24 @@ async function renderPage(slug, opts = {}) {
   }
   const { frontmatter, body } = splitFrontmatter(raw);
   const images = parseImagesFromFrontmatter(frontmatter);
-  const rawHtml = window.marked ? marked.parse(body) : `<pre>${body}</pre>`;
-  const html = sanitizeHTML(rawHtml);
+
+  const chartRefs = [];
+  const processedBody = body.replace(/:::chart\{(\S+?)\}/g, (_, name) => {
+    chartRefs.push(name);
+    return `<!--CHART:${chartRefs.length - 1}-->`;
+  });
+  const rawHtml = window.marked ? marked.parse(processedBody) : `<pre>${processedBody}</pre>`;
+  let html = sanitizeHTML(rawHtml);
+  if (chartRefs.length > 0) {
+    const chartHtmls = await Promise.all(chartRefs.map((n) => fetchChartContent(n)));
+    for (let i = 0; i < chartRefs.length; i++) {
+      html = html.replace(
+        `<!--CHART:${i}-->`,
+        chartHtmls[i] || `<div class="wiki-chart-embed wiki-chart-missing"><p>Chart "${chartRefs[i]}" not available.</p></div>`
+      );
+    }
+  }
+
   const linked = renderCallouts(rewriteWikilinks(html, idx, opts.spatialSlugs));
   const fm = opts.showFrontmatter ? `<pre class="frontmatter show">${frontmatter}</pre>` : "";
   const cat = `<div style="font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;">${category} · ${slug}</div>`;
@@ -318,6 +347,6 @@ async function renderPage(slug, opts = {}) {
 }
 
 window.NepalExplorer = window.NepalExplorer || {};
-Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, loadBacklinks, loadClaimGovernance });
+Object.assign(window.NepalExplorer, { buildPageIndex, fetchChartContent, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, loadBacklinks, loadClaimGovernance });
 window.NepalExplorer._wikiLoaderLoaded = true;
 })();

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2035 Winter Energy Balance (Dec–Feb)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #f8f9fa;
+    color: #2d3436;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #2d3436;
+  }
+  .subtitle {
+    font-size: 0.875rem;
+    color: #636e72;
+    margin-bottom: 1.5rem;
+  }
+  .annotation {
+    font-size: 0.8rem;
+    color: #636e72;
+    font-style: italic;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #f1f3f4;
+    border-radius: 6px;
+    border-left: 3px solid #00b894;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    margin-top: 1.25rem;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: #2d3436;
+  }
+  .legend-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+  }
+  svg { display: block; width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>2035 Winter Energy Balance (Dec–Feb)</h1>
+  <p class="subtitle">Phase 1 model: demand vs. supply by source — 2035 full portfolio</p>
+  
+  <svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="320" fill="#ffffff"/>
+    
+    <!-- Margins -->
+    <!-- Left bar: Demand -->
+    <text x="80" y="55" text-anchor="end" font-size="13" font-weight="600" fill="#2d3436">Demand</text>
+    <text x="80" y="75" text-anchor="end" font-size="11" fill="#636e72">4,188 GWh</text>
+    
+    <!-- Demand bar -->
+    <rect x="100" y="40" width="420" height="50" rx="4" fill="#2d3436" opacity="0.15"/>
+    <rect x="100" y="40" width="420" height="50" rx="4" fill="none" stroke="#2d3436" stroke-width="2"/>
+    <text x="310" y="71" text-anchor="middle" font-size="14" font-weight="600" fill="#2d3436">4,188 GWh</text>
+    
+    <!-- Arrow -->
+    <path d="M 310 100 L 310 120" stroke="#636e72" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#636e72"/>
+      </marker>
+    </defs>
+    
+    <!-- Right bar: Supply stacked -->
+    <text x="80" y="155" text-anchor="end" font-size="13" font-weight="600" fill="#2d3436">Supply</text>
+    <text x="80" y="175" text-anchor="end" font-size="11" fill="#636e72">4,613 GWh</text>
+    
+    <!-- Supply segments -->
+    <!-- Existing RoR baseline: 2,412 GWh -->
+    <rect x="100" y="140" width="242" height="50" rx="4" fill="#0984e3"/>
+    <text x="221" y="171" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">RoR 2,412</text>
+    
+    <!-- New storage: 834 GWh -->
+    <rect x="342" y="140" width="84" height="50" fill="#00b894"/>
+    <text x="384" y="171" text-anchor="middle" font-size="10" font-weight="600" fill="#fff">Storage 834</text>
+    
+    <!-- Solar: 966 GWh -->
+    <rect x="426" y="140" width="97" height="50" fill="#fdcb6e"/>
+    <text x="474" y="171" text-anchor="middle" font-size="10" font-weight="600" fill="#2d3436">Solar 966</text>
+    
+    <!-- BESS: 1 GWh -->
+    <rect x="523" y="140" width="0.2" height="50" fill="#6c5ce7"/>
+    
+    <!-- Demand-shaping: 400 GWh -->
+    <rect x="523" y="140" width="40" height="50" fill="#00cec9"/>
+    <text x="543" y="171" text-anchor="middle" font-size="9" font-weight="600" fill="#fff">Shape 400</text>
+    
+    <!-- Surplus: 425 GWh -->
+    <rect x="563" y="140" width="43" height="50" rx="0 4 4 0" fill="#55efc4"/>
+    <text x="584" y="171" text-anchor="middle" font-size="9" font-weight="600" fill="#2d3436">+425</text>
+    
+    <!-- Demand reference line -->
+    <line x1="520" y1="130" x2="520" y2="200" stroke="#d63031" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="522" y="128" font-size="10" fill="#d63031" font-weight="600">Demand</text>
+    
+    <!-- Surplus bracket -->
+    <path d="M 563 210 L 606 210" stroke="#00b894" stroke-width="1.5" fill="none"/>
+    <path d="M 563 206 L 563 214" stroke="#00b894" stroke-width="1.5"/>
+    <path d="M 606 206 L 606 214" stroke="#00b894" stroke-width="1.5"/>
+    <text x="584" y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#00b894">Surplus headroom</text>
+    
+    <!-- Scale -->
+    <line x1="100" y1="255" x2="520" y2="255" stroke="#dfe6e9" stroke-width="1"/>
+    <line x1="100" y1="252" x2="100" y2="258" stroke="#b2bec3" stroke-width="1"/>
+    <text x="100" y="270" text-anchor="middle" font-size="9" fill="#636e72">0</text>
+    <line x1="310" y1="252" x2="310" y2="258" stroke="#b2bec3" stroke-width="1"/>
+    <text x="310" y="270" text-anchor="middle" font-size="9" fill="#636e72">2,000</text>
+    <line x1="520" y1="252" x2="520" y2="258" stroke="#b2bec3" stroke-width="1"/>
+    <text x="520" y="270" text-anchor="middle" font-size="9" fill="#636e72">4,188</text>
+  </svg>
+  
+  <div class="annotation">Solar is the largest single new lever (~966 GWh), but no single source closes the gap alone. The portfolio produces a +425 GWh surplus.</div>
+  
+  <div class="legend">
+    <div class="legend-item"><div class="legend-swatch" style="background:#0984e3"></div>Existing RoR baseline</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#00b894"></div>New storage (Tanahu + Dudhkoshi)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#fdcb6e"></div>Solar (5 GW Terai)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#6c5ce7"></div>BESS</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#00cec9"></div>Demand-shaping</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#55efc4"></div>Surplus headroom</div>
+  </div>
+</div>
+</body>
+</html>

@@ -2,7 +2,7 @@
 title: Start Here
 type: synthesis
 created: 2026-04-30
-updated: 2026-05-07
+updated: 2026-05-08
 tags: [overview, guide, public, navigation]
 page_quality: analysis
 ---
@@ -39,6 +39,7 @@ Start with [[nepal-energy-profile]] for the country-level electricity profile. T
 - Grid electricity reached **7.23%** of final energy in the FY 2079/80 WECS balance, but biomass and imported petroleum still dominate Nepal's broader energy system.
 - Export approval and corridor capacity are related but separate: about **941 MW** of project-specific India export approval sits inside a broader **~1,141 MW** cross-border transfer frame.
 - The strategic problem is not simply "build more MW." It is to turn resource potential into firm, connected, financeable, domestically useful power through a hydro + solar + storage + demand portfolio.
+- **New: we now have a 2035 adequacy model.** The short version: if Nepal builds ~5 GW of solar, finishes Tanahu and Dudhkoshi, adds some batteries, and shifts demand, it can close the total winter energy gap by 2035. But at 6:30 pm in winter — when solar has set — the system still faces a ~933 MW shortage unless Budhigandaki (or an equivalent firm source) is available. Solar fixes winter daytime energy; it does not fix winter evening power. See [[data-winter-deficit-model]] for the full model and [[solar-role-in-winter-deficit]] for what it means for policy.
 
 ## Use The Map
 
@@ -76,3 +77,4 @@ Some project pages are registry-backed project records. They preserve capacity, 
 - For the data spine behind the claims: [[data-final-energy-mix]] -> [[data-domestic-demand]] -> [[data-trade-time-series]] -> [[data-solar-hydro-lcoe]].
 - For the broader energy transition: [[data-final-energy-mix]] -> [[energy-substitution-pathway]] -> [[domestic-led-hydro-strategy]].
 - For solar's role: [[solar-in-the-master-narrative]] -> [[solar-hydro-complementarity]] -> [[solar-role-in-winter-deficit]].
+- For the 2035 winter adequacy model: [[data-winter-deficit-model]] -> [[solar-role-in-winter-deficit]] -> [[firm-power]] -> [[budhigandaki]].
