@@ -166,6 +166,10 @@
         "title": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)"
       },
       {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)"
+      },
+      {
         "slug": "ukhl-annual-report",
         "title": "UKHLL Annual Reports \u2014 Upper Tamakoshi Hydropower Limited"
       },
@@ -1070,6 +1074,10 @@
         "title": "Kosi-Ganges Merge"
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era"
+      },
+      {
         "slug": "lower-delta-bay-interface",
         "title": "Lower Delta And Bay Interface"
       },
@@ -1569,6 +1577,7 @@
     "sangroula-ntnu-kulekhani-bathymetry",
     "sector-financial-analysis-triple-authority-2026",
     "tanahu-adb-status-2025",
+    "timilsina-cge-load-shedding-2021",
     "ukhl-annual-report",
     "ukhl-financials-generation-fy2079-82",
     "upper-karnali-pda-record",
@@ -1794,6 +1803,7 @@
     "hydropower-potential-categories",
     "ipo-hydropower-bailout",
     "kosi-ganges-merge",
+    "load-shedding-era",
     "lower-delta-bay-interface",
     "mahakali-sharda-handoff",
     "nea-triple-authority",
@@ -1949,6 +1959,7 @@
     "sangroula-ntnu-kulekhani-bathymetry": "sources",
     "sector-financial-analysis-triple-authority-2026": "sources",
     "tanahu-adb-status-2025": "sources",
+    "timilsina-cge-load-shedding-2021": "sources",
     "ukhl-annual-report": "sources",
     "ukhl-financials-generation-fy2079-82": "sources",
     "upper-karnali-pda-record": "sources",
@@ -2174,6 +2185,7 @@
     "hydropower-potential-categories": "concepts",
     "ipo-hydropower-bailout": "concepts",
     "kosi-ganges-merge": "concepts",
+    "load-shedding-era": "concepts",
     "lower-delta-bay-interface": "concepts",
     "mahakali-sharda-handoff": "concepts",
     "nea-triple-authority": "concepts",
@@ -2329,6 +2341,7 @@
     "sangroula-ntnu-kulekhani-bathymetry": "Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies",
     "sector-financial-analysis-triple-authority-2026": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)",
+    "timilsina-cge-load-shedding-2021": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
     "ukhl-annual-report": "UKHLL Annual Reports \u2014 Upper Tamakoshi Hydropower Limited",
     "ukhl-financials-generation-fy2079-82": "UKHLL Financials and Generation Data \u2014 FY 2079/80 to FY 2081/82",
     "upper-karnali-pda-record": "Upper Karnali \u2014 PDA, Financial Closure & Court Record",
@@ -2554,6 +2567,7 @@
     "hydropower-potential-categories": "Hydropower Potential Categories",
     "ipo-hydropower-bailout": "IPO Hydropower Bailout",
     "kosi-ganges-merge": "Kosi-Ganges Merge",
+    "load-shedding-era": "Load Shedding Era",
     "lower-delta-bay-interface": "Lower Delta And Bay Interface",
     "mahakali-sharda-handoff": "Mahakali/Sharda Handoff",
     "nea-triple-authority": "NEA Triple-Authority Conflict",
@@ -2667,5 +2681,5 @@
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 378
+  "totalPages": 380
 }

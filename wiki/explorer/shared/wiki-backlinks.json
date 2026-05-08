@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 281,
-  "total_refs": 2294,
+  "total_targets": 283,
+  "total_refs": 2332,
   "backlinks": {
     "ad-penalties": [
       {
@@ -207,6 +207,13 @@
         "title": "IPO Hydropower Bailout",
         "category": "concepts",
         "context": "…on of that revenue is clawed back through AD penalties. See nea-triple-authority for the institutional framework and [[ad-penalties]] for th…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…rol scarcity. It has not yet learned to manage surplus. See nea-triple-authority. ## Related - [[nepal-energy-profile]] — the post-crisis…",
         "target_exists": true
       },
       {
@@ -819,7 +826,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…-----------|--------|-------------------| | 4 | Execution / buildability | Persistent | — | | 5 | Market design / offtake / demand w…",
+        "context": "…-----------|--------|-------------------| | 5 | Execution / buildability | Persistent | — | | 6 | Market design / offtake / demand w…",
         "target_exists": true
       },
       {
@@ -833,7 +840,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…alties — the Himalayas are young, active, and abrasive 6. **buildability** — brutal terrain, geology, access, and execution constrai…",
+        "context": "…alties — the Himalayas are young, active, and abrasive 7. **buildability** — brutal terrain, geology, access, and execution constrai…",
         "target_exists": true
       },
       {
@@ -902,6 +909,13 @@
         "target_exists": true
       },
       {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
+        "category": "sources",
+        "context": "…ry-economic-memo-2025]] for the World Bank's later framing; nepal-energy-profile for the system snapshot; [[upper-tamakoshi]] for the projec…",
+        "target_exists": true
+      },
+      {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
@@ -927,6 +941,13 @@
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
         "context": "…sed wealth.\"* ## Why domestic demand is not a small story nepal-energy-profile makes clear that \"low consumption\" is better read as **head…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…anage surplus. See [[nea-triple-authority]]. ## Related - nepal-energy-profile — the post-crisis system snapshot - [[upper-tamakoshi]] — t…",
         "target_exists": true
       },
       {
@@ -1597,6 +1618,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…shedding ended | 2018 | [[wb-country-economic-memo-2025]], nea-annual-report-fy2024-25 | The $11 billion cumulative GDP loss is roughly equivalen…",
+        "target_exists": true
+      },
+      {
         "slug": "solar-lcoe-crossover",
         "title": "Solar LCOE Crossover",
         "category": "concepts",
@@ -1679,7 +1707,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…]). Compare Dudhkoshi (670 MW, storage, AIIB, domestic) to arun-3 (900 MW, peaking RoR, SJVN, export-first). Both are in the…",
+        "context": "…es. Compare Dudhkoshi (670 MW, storage, AIIB, domestic) to arun-3 (900 MW, peaking RoR, SJVN, export-first). Both are in the…",
         "target_exists": true
       },
       {
@@ -1728,7 +1756,7 @@
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
-        "context": "…mium. Compare Tanahu (140 MW, reservoir, ADB, domestic) to arun-3 (900 MW, peaking RoR, SJVN-India, export-oriented). Both ar…",
+        "context": "…nset. Compare Tanahu (140 MW, reservoir, ADB, domestic) to arun-3 (900 MW, peaking RoR, SJVN-India, export-oriented). Both ar…",
         "target_exists": true
       },
       {
@@ -1947,7 +1975,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…on, buying expensive winter; value destroyed by timing 9. **hydro-geopolitics** and governance — corridor dependence on India, institutio…",
+        "context": "…n, buying expensive winter; value destroyed by timing 10. **hydro-geopolitics** and governance — corridor dependence on India, institutio…",
         "target_exists": true
       },
       {
@@ -2247,6 +2275,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…]] — the structural pattern that persists beyond shedding - stranded-generation — the surplus-era waste that replaced shortage-era cuts - […",
+        "target_exists": true
+      },
+      {
         "slug": "nea-triple-authority",
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
@@ -2264,7 +2299,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…al terrain, geology, access, and execution constraints 7. **stranded-generation** — grid and transmission built slower than generation, now…",
+        "context": "…al terrain, geology, access, and execution constraints 8. **stranded-generation** — grid and transmission built slower than generation, now…",
         "target_exists": true
       },
       {
@@ -2278,7 +2313,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ISO and open-access work in this phase). **Priority:** Fix stranded-generation by building grid before licensing more generation. ## Phas…",
+        "context": "…ISO and open-access work in this phase). **Priority:** Fix stranded-generation by building grid before licensing more generation. The 2035…",
         "target_exists": true
       },
       {
@@ -3367,6 +3402,13 @@
         "target_exists": true
       },
       {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…er]] — the storage project Nepal is actually building now - dudhkoshi-storage — the next large storage project in the pipeline ## Map As…",
+        "target_exists": true
+      },
+      {
         "slug": "inaruwa-purnea-interconnection",
         "title": "Inaruwa–Purnea 400 kV Cross-Border Interconnection",
         "category": "entities",
@@ -3419,7 +3461,7 @@
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
-        "context": "…tion in Nepal. Tanahu is proof-of-concept: if it completes, dudhkoshi-storage and [[budhigandaki]] become easier to finance because the c…",
+        "context": "…ry future storage project — including much larger ones like dudhkoshi-storage and [[budhigandaki]] — becomes harder to finance. **What t…",
         "target_exists": true
       },
       {
@@ -3458,6 +3500,13 @@
         "target_exists": true
       },
       {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…on backbone - Add two more India cross-border lines - Bring dudhkoshi-storage online (~670 MW storage + 200 MW pumped storage) - Build [[…",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -3475,7 +3524,7 @@
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…m MWh is **unsettled** and site-specific ([[budhigandaki]], dudhkoshi-storage). - **Sediment and climate** shift the economic lifespan cu…",
+        "context": "…m MWh is **unsettled** and site-specific ([[budhigandaki]], dudhkoshi-storage). The 2035 model treats this as a combination problem, not…",
         "target_exists": true
       },
       {
@@ -3582,7 +3631,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ter hydromet, [[sediment-as-design-constraint]] monitoring, glof-risk design standards 6. **Think in basins, not just projects**…",
+        "context": "…ter hydromet, [[sediment-as-design-constraint]] monitoring, glof-risk design standards 6. **Think in basins and portfolios, not j…",
         "target_exists": true
       },
       {
@@ -3654,7 +3703,7 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…important dry-season asset in Nepal's planned pipeline. See storage-deficit and [[seasonal-mismatch]]. | Parameter | Value | |--------…",
+        "context": "…mic character of Nepal's electricity system**. It addresses storage-deficit, [[seasonal-mismatch]], and [[firm-power]] simultaneously.…",
         "target_exists": true
       },
       {
@@ -3668,7 +3717,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…0202-Teaser-for-Market-Sounding-Final-2.pdf) ## Related - storage-deficit — what Dudhkoshi would begin to address - [[koshi-basin]] —…",
+        "context": "…— how Dudhkoshi fits into the four-lever winter strategy - storage-deficit — what Dudhkoshi would begin to address - [[koshi-basin]] —…",
         "target_exists": true
       },
       {
@@ -3861,13 +3910,6 @@
         "target_exists": true
       },
       {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…locker]] | [[intervention-transmission-completion]] | | 2 | storage-deficit / [[seasonal-mismatch]] | Deep structural | [[claim-storage…",
-        "target_exists": true
-      },
-      {
         "slug": "downstream-river-geopolitics",
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
@@ -3878,7 +3920,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…ly produces wet-season surplus and dry-season weakness 3. **storage-deficit** — 5 m³/capita vs global average 900; the country cannot h…",
+        "context": "…ly produces wet-season surplus and dry-season weakness 3. **storage-deficit** — ~5 m³ per person of storage versus reference magnitudes…",
         "target_exists": true
       },
       {
@@ -3906,7 +3948,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ase 2 IPOs are transparently disclosed). **Priority:** Add storage-deficit relief. Convert from seasonal surplus to year-round system…",
+        "context": "…ase 2 IPOs are transparently disclosed). **Priority:** Add storage-deficit relief and close the evening firm-capacity gap. The 2035 mo…",
         "target_exists": true
       },
       {
@@ -3934,7 +3976,7 @@
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…t-as-design-constraint]] and [[peak-water]]. ## Related - storage-deficit - [[seasonal-mismatch]] - [[budhigandaki]] - [[dudhkoshi-st…",
+        "context": "…t-as-design-constraint]] and [[peak-water]]. ## Related - storage-deficit - [[seasonal-mismatch]] - [[data-winter-deficit-model]] — t…",
         "target_exists": true
       },
       {
@@ -5847,14 +5889,14 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…ofile helps rather than worsens the dry-season problem 5. **sediment-as-design-constraint** and climate penalties — the Himalayas are young, active,…",
+        "context": "…t-model]] Phase 2 and [[solar-role-in-winter-deficit]] 6. **sediment-as-design-constraint** and climate penalties — the Himalayas are young, active,…",
         "target_exists": true
       },
       {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ar 5. **Upgrade for climate resilience** — better hydromet, sediment-as-design-constraint monitoring, [[glof-risk]] design standards 6. **Think in ba…",
+        "context": "…ty 5. **Upgrade for climate resilience** — better hydromet, sediment-as-design-constraint monitoring, [[glof-risk]] design standards 6. **Think in ba…",
         "target_exists": true
       },
       {
@@ -6261,7 +6303,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…ent | — | | 5 | Market design / offtake / demand weakness | seasonal-arbitrage-trap | [[intervention-nea-structural-separation]]; [[interventio…",
+        "context": "…ent | — | | 6 | Market design / offtake / demand weakness | seasonal-arbitrage-trap | [[intervention-nea-structural-separation]]; [[interventio…",
         "target_exists": true
       },
       {
@@ -6275,7 +6317,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…eration, now including solar interconnection readiness 8. **seasonal-arbitrage-trap** — selling cheap monsoon, buying expensive winter; value d…",
+        "context": "…eration, now including solar interconnection readiness 9. **seasonal-arbitrage-trap** — selling cheap monsoon, buying expensive winter; value d…",
         "target_exists": true
       },
       {
@@ -6591,7 +6633,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…air. Not in headline MW worship. ## Supporting Evidence - bottleneck-hierarchy — ranked constraints - [[twenty-year-strategy]] — phased im…",
+        "context": "…]]. Not in headline MW worship. ## Supporting Evidence - bottleneck-hierarchy — ranked constraints, updated by the 2035 model - [[twenty-…",
         "target_exists": true
       },
       {
@@ -6663,7 +6705,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…-deficit]] — why solar is now a core winter-deficit lever - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark ## Intervention Layer T…",
+        "context": "…ive]] — how solar changes the thesis without replacing it - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark - [[firm-power]] — why de…",
         "target_exists": true
       },
       {
@@ -6771,6 +6813,13 @@
         "target_exists": true
       },
       {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
+        "category": "sources",
+        "context": "…comprehensive than simple output-loss estimates. See also: wb-country-economic-memo-2025 for the World Bank's later framing; [[nepal-energy-profile]…",
+        "target_exists": true
+      },
+      {
         "slug": "wb-grid-solar-ee-project",
         "title": "World Bank Grid Solar and Energy Efficiency Project",
         "category": "sources",
@@ -6782,6 +6831,13 @@
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
         "context": "…nventory]] <!-- generated:sources:start --> ## Sources - World Bank Nepal Country Economic Memorandum (2025) - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…CGE model result | | Scheduled load shedding ended | 2018 | wb-country-economic-memo-2025, [[nea-annual-report-fy2024-25]] | The $11 billion cumulat…",
         "target_exists": true
       },
       {
@@ -7221,7 +7277,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…pipeline. Compare with the current operating storage fleet: kulekhani-cascade at 106 MW combined, and [[tanahu-hydropower]] at 140 MW und…",
+        "context": "…rs:** Nepal currently has only one operating storage plant: kulekhani-cascade at 106 MW. Dudhkoshi at 670 MW would be **six times larger*…",
         "target_exists": true
       },
       {
@@ -7474,6 +7530,13 @@
         "target_exists": true
       },
       {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…bility]] — why large projects in Nepal are hard to finish - tanahu-hydropower — the storage project Nepal is actually building now - [[du…",
+        "target_exists": true
+      },
+      {
         "slug": "chameliya-hydropower",
         "title": "Chameliya Hydropower",
         "category": "entities",
@@ -7484,7 +7547,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…torage fleet: [[kulekhani-cascade]] at 106 MW combined, and tanahu-hydropower at 140 MW under construction. | Parameter | Value | |-----…",
+        "context": "…portfolio, after the existing hydro baseline. Together with tanahu-hydropower, it provides roughly **~834 GWh of dry-season energy** abov…",
         "target_exists": true
       },
       {
@@ -7568,7 +7631,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…nect - Complete all projects under construction (including tanahu-hydropower) - Build Butwal-Gorakhpur cross-border line - Begin east-we…",
+        "context": "…nect - Complete all projects under construction (including tanahu-hydropower) - **Scale solar aggressively:** deliver the 960 MW tender,…",
         "target_exists": true
       },
       {
@@ -8185,7 +8248,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…gy delivers a monsoon pulse, not year-round firm power 2. **run-of-river-hydropower** — fleet is >90% RoR/PRoR; structurally produces wet-seaso…",
+        "context": "…gy delivers a monsoon pulse, not year-round firm power 2. **run-of-river-hydropower** — fleet is >90% run-of-river / peaking run-of-river; stru…",
         "target_exists": true
       },
       {
@@ -9529,7 +9592,23 @@
         "target_exists": true
       }
     ],
+    "load-shedding-era": [
+      {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
+        "category": "sources",
+        "context": "…ns (2009–2016) ## Relevance to Project Central source for load-shedding-era and the historical context that frames the entire wiki narr…",
+        "target_exists": true
+      }
+    ],
     "upper-tamakoshi": [
+      {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
+        "category": "sources",
+        "context": "…framing; [[nepal-energy-profile]] for the system snapshot; upper-tamakoshi for the project that ended the era.",
+        "target_exists": true
+      },
       {
         "slug": "ukhl-annual-report",
         "title": "UKHLL Annual Reports — Upper Tamakoshi Hydropower Limited",
@@ -9626,6 +9705,13 @@
         "title": "Buildability",
         "category": "concepts",
         "context": "…24 flood destroyed gates and control room, 88-day outage at Upper Tamakoshi). ## Strategic implication: rank system value, not headlin…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…dding hundreds of megawatts of new generation, most notably upper-tamakoshi (456 MW, commissioned 2021). 3. **Indian import access** —…",
         "target_exists": true
       },
       {
@@ -9789,6 +9875,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…— the industrial demand suppressed by a decade of outages - data-trade-time-series — the import-to-exporter transformation",
+        "target_exists": true
+      },
+      {
         "slug": "seasonal-arbitrage-trap",
         "title": "Seasonal Arbitrage Trap",
         "category": "concepts",
@@ -9799,7 +9892,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…[[data-storage-comparison]] — the storage gap in numbers - data-trade-time-series — the seasonal trade pattern - [[solar-role-in-winter-defic…",
+        "context": "…[[data-storage-comparison]] — the storage gap in numbers - data-trade-time-series — the seasonal trade pattern - [[solar-in-the-master-narrat…",
         "target_exists": true
       },
       {
@@ -9913,7 +10006,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…ge 900; the country cannot hold and regulate its water 4. **solar-hydro-complementarity** — solar is the first scalable resource whose seasonal pro…",
+        "context": "…a ~664; the country cannot hold and regulate its water 4. **solar-hydro-complementarity** — solar is the first scalable resource whose seasonal pro…",
         "target_exists": true
       },
       {
@@ -10284,7 +10377,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…domestic productive use as a third pillar | ## Related - master-thesis — the overarching argument - [[twenty-year-strategy]] — how…",
+        "context": "…; Budhigandaki is the firm-capacity option | ## Related - master-thesis — the overarching argument - [[twenty-year-strategy]] — how…",
         "target_exists": true
       },
       {
@@ -10326,7 +10419,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ck-hierarchy]] — what this strategy addresses in sequence - master-thesis — why this approach, not \"build more hydro\"",
+        "context": "…ck-hierarchy]] — what this strategy addresses in sequence - master-thesis — why this approach, not \"build more hydro\" - [[data-winter…",
         "target_exists": true
       },
       {
@@ -10371,6 +10464,13 @@
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
         "context": "…ecific sinks to target, ranked by volume, are worked out in energy-substitution-pathway. The sectoral breakdown (FY 2020/21, NEA) reveals a critic…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…outages). See [[data-industrial-electricity-consumers]] and energy-substitution-pathway. - **The \"reliability premium\" persists in political memory…",
         "target_exists": true
       },
       {
@@ -10435,14 +10535,14 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…et in Nepal's planned pipeline. See [[storage-deficit]] and seasonal-mismatch. | Parameter | Value | |-----------|-------| | Annual desi…",
+        "context": "…l's electricity system**. It addresses [[storage-deficit]], seasonal-mismatch, and [[firm-power]] simultaneously. The revenue difference…",
         "target_exists": true
       },
       {
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…counterpart to the growing RoR fleet that drives Nepal's seasonal-mismatch problem on the daily timescale. 3. **Climate-aware design.…",
+        "context": "…rt to the growing run-of-river fleet that drives Nepal's seasonal-mismatch problem on the daily timescale. 3. **Climate-aware design.…",
         "target_exists": true
       },
       {
@@ -10544,6 +10644,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…upper-tamakoshi]] — the plant that broke the shedding era - seasonal-mismatch — the structural pattern that persists beyond shedding - [[…",
+        "target_exists": true
+      },
+      {
         "slug": "peak-water",
         "title": "Peak Water",
         "category": "concepts",
@@ -10600,13 +10707,6 @@
         "target_exists": true
       },
       {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…ion-transmission-completion]] | | 2 | [[storage-deficit]] / seasonal-mismatch | Deep structural | [[claim-storage-physical-fix]] | [[inte…",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -10645,7 +10745,7 @@
         "slug": "claim-timing-not-volume",
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
-        "context": "…and); it only reframes the physical problem. ## Related - seasonal-mismatch - [[data-basin-discharge]] - [[firm-power]]",
+        "context": "…and); it only reframes the physical problem. ## Related - seasonal-mismatch - [[data-basin-discharge]] - [[firm-power]] - [[data-winter…",
         "target_exists": true
       },
       {
@@ -10659,7 +10759,7 @@
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…]] and [[peak-water]]. ## Related - [[storage-deficit]] - seasonal-mismatch - [[budhigandaki]] - [[dudhkoshi-storage]]",
+        "context": "…]] and [[peak-water]]. ## Related - [[storage-deficit]] - seasonal-mismatch - [[data-winter-deficit-model]] — the model that reframes s…",
         "target_exists": true
       },
       {
@@ -10774,6 +10874,13 @@
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
         "context": "…Complementarity Nepal's structural problem is **timing** (claim-timing-not-volume). The single most under-used lever for fixing timing is the…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…-shaping + electrification | Demand-side virtual capacity | claim-timing-not-volume | [[intervention-electric-cooking-transition]] | ## Tier 2…",
         "target_exists": true
       },
       {
@@ -11091,6 +11198,13 @@
         "target_exists": true
       },
       {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…y dependable timing matters more than nameplate megawatts - budhigandaki — the post-2035 storage option for evening firm capacity -…",
+        "target_exists": true
+      },
+      {
         "slug": "gandaki-basin",
         "title": "Gandaki Basin",
         "category": "entities",
@@ -11143,7 +11257,7 @@
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
-        "context": "…roof-of-concept: if it completes, [[dudhkoshi-storage]] and budhigandaki become easier to finance because the conversation no longer…",
+        "context": "…— including much larger ones like [[dudhkoshi-storage]] and budhigandaki — becomes harder to finance. **What the 2035 model says:**…",
         "target_exists": true
       },
       {
@@ -11196,6 +11310,13 @@
         "target_exists": true
       },
       {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…set and the lights still need to stay on. That is where the budhigandaki distinction matters: the model shows Nepal can close the to…",
+        "target_exists": true
+      },
+      {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
@@ -11203,10 +11324,17 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…]] -> [[solar-role-in-winter-deficit]] -> [[firm-power]] -> budhigandaki.",
+        "target_exists": true
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…on backbone - Add two more India cross-border lines - Build budhigandaki (1,200 MW storage) - Activate Bangladesh export contracts a…",
+        "context": "…]] online (~670 MW storage + 200 MW pumped storage) - Build budhigandaki (1,200 MW storage) — the firm-capacity option for the eveni…",
         "target_exists": true
       },
       {
@@ -11227,7 +11355,7 @@
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…ental cost per firm MWh is **unsettled** and site-specific (budhigandaki, [[dudhkoshi-storage]]). - **Sediment and climate** shift t…",
+        "context": "…ental cost per firm MWh is **unsettled** and site-specific (budhigandaki, [[dudhkoshi-storage]]). The 2035 model treats this as a co…",
         "target_exists": true
       },
       {
@@ -11278,7 +11406,7 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…t addresses [[storage-deficit]], [[seasonal-mismatch]], and firm-power simultaneously. The revenue difference from shifting monsoo…",
+        "context": "…mall surplus. See [[data-winter-deficit-model]] Phase 2 and firm-power. | Parameter | Value | |-----------|-------| | Annual desi…",
         "target_exists": true
       },
       {
@@ -11436,10 +11564,24 @@
         "target_exists": true
       },
       {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…el]] — the 2035 adequacy model that drives the re-ranking - firm-power — why dependable timing matters more than nameplate megawat…",
+        "target_exists": true
+      },
+      {
         "slug": "downstream-river-geopolitics",
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
         "context": "…torage and forecasting? This is where [[storage-deficit]], firm-power, [[environmental-flow-policy]], and [[hydro-geopolitics]] m…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…aper-than-small-hydro]] — the new marginal-cost benchmark - firm-power — why dependable timing matters more than nameplate megawat…",
         "target_exists": true
       },
       {
@@ -11453,7 +11595,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…## Six Principles 1. **Move from capacity maximization to firm-power maximization** 2. **Build storage deliberately, not symboli…",
+        "context": "…## Six Principles 1. **Move from capacity maximization to firm-power maximization** — megawatts do not matter if they arrive at…",
         "target_exists": true
       },
       {
@@ -11481,7 +11623,7 @@
         "slug": "claim-timing-not-volume",
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
-        "context": "…lated - [[seasonal-mismatch]] - [[data-basin-discharge]] - firm-power",
+        "context": "…lated - [[seasonal-mismatch]] - [[data-basin-discharge]] - firm-power - [[data-winter-deficit-model]] — the model that quantifies…",
         "target_exists": true
       },
       {
@@ -12045,7 +12187,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…ss, including solar interconnection | Immediate practical | claim-transmission-immediate-blocker | [[intervention-transmission-completion]] | | 2 | [[storag…",
+        "context": "…ss, including solar interconnection | Immediate practical | claim-transmission-immediate-blocker | [[intervention-transmission-completion]] | | 2 | Land + a…",
         "target_exists": true
       },
       {
@@ -12460,6 +12602,178 @@
         "title": "NEA Solar Programme",
         "category": "entities",
         "context": "…r PV** | 10.00 | Operating (2021) | Eco Power Development | mithila-solar-dhanusha-10mwp | | **Bishnu Priya Solar Farm** | ~0.96 | Operating (2018)…",
+        "target_exists": true
+      }
+    ],
+    "data-winter-deficit-model": [
+      {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…t is a different, and more precise, reason to build it. See data-winter-deficit-model and [[solar-role-in-winter-deficit]] for the full numbers.…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…— provided solar, BESS, and demand-shaping also arrive. See data-winter-deficit-model. ## Specifications | Parameter | Value | |-----------|---…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…ose the gap. It is one lever in a four-lever portfolio. See data-winter-deficit-model. ## Specifications | Parameter | Value | |-----------|---…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…ening peak gap without it or an equivalent firm source. See data-winter-deficit-model. ## Tier 1 — Binding Constraints | Rank | Bottleneck | Na…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…igandaki-scale firm capacity are needed for the second. See data-winter-deficit-model. See [[claim-systems-conversion-failure]]. ## The Failure…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…numbers - [[bottleneck-hierarchy]] — the ranking to patch - data-winter-deficit-model — the reproducible monthly energy-balance model backing thi…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…r daytime energy; it does not fix winter evening power. See data-winter-deficit-model for the full model and [[solar-role-in-winter-deficit]] for…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…ster-thesis]] — why this approach, not \"build more hydro\" - data-winter-deficit-model — the 2035 adequacy model that shapes the sequencing - [[so…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "…MW because solar has set and run-of-river cannot ramp. See data-winter-deficit-model. ## Confidence rationale **High** because four independen…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-storage-physical-fix",
+        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+        "category": "claims",
+        "context": "…evening peak** — the 6:30 pm moment when solar has set. See data-winter-deficit-model and [[solar-role-in-winter-deficit]]. - **Research ledger:*…",
+        "target_exists": true
+      }
+    ],
+    "solar-role-in-winter-deficit": [
+      {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…, reason to build it. See [[data-winter-deficit-model]] and solar-role-in-winter-deficit for the full numbers. The 2035 adequacy model quantifies t…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…odel that treats Dudhkoshi as a core 2035 portfolio lever - solar-role-in-winter-deficit — how Dudhkoshi fits into the four-lever winter strategy -…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…the model that includes Tanahu in the 2035 full portfolio - solar-role-in-winter-deficit — how Tanahu fits into the four-lever winter strategy - [[s…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…and power-firming terms. ## Solar changes the storage job solar-role-in-winter-deficit adds an important correction: not every dry-season kWh must…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…t to surplus. See [[data-winter-deficit-model]] Phase 2 and solar-role-in-winter-deficit. This is not a contradiction. It is a more serious systems…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…y gap cannot. See [[data-winter-deficit-model]] Phase 2 and solar-role-in-winter-deficit 6. **[[sediment-as-design-constraint]]** and climate penalt…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…large because it targets the binding season. ## Related - solar-role-in-winter-deficit - [[solar-hydro-complementarity]] - [[solar-lcoe-crossover]…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…r. See [[data-winter-deficit-model]] for the full model and solar-role-in-winter-deficit for what it means for policy. ## Use The Map - Open [[dat…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…el]] — the 2035 adequacy model that shapes the sequencing - solar-role-in-winter-deficit — the four-lever portfolio synthesis - [[solar-in-the-maste…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-floating-pv-leverage",
+        "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
+        "category": "claims",
+        "context": "…## Related - [[kulekhani-cascade]] - [[storage-deficit]] - solar-role-in-winter-deficit - [[data-map-inventory]] - [[claim-solar-terai-only-short-c…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "…— the model that quantifies the two-layer timing problem - solar-role-in-winter-deficit — how solar changes the timing equation",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-storage-physical-fix",
+        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+        "category": "claims",
+        "context": "…t when solar has set. See [[data-winter-deficit-model]] and solar-role-in-winter-deficit. - **Research ledger:** \"If you ask for the most direct **p…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-solar-terai-only-short-cycle-build",
+        "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
+        "category": "claims",
+        "context": "…cle compression is possible. - The working solar pathway in solar-role-in-winter-deficit uses a moderate-growth ladder of **~1,700 MWp by 2028**, **…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…and . ## Related - solar-role-in-winter-deficit — synthesis page for what the model implies for policy - [[…",
         "target_exists": true
       }
     ],
@@ -13831,7 +14145,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…+ short-cycle buildability | New binding solar constraint | claim-solar-terai-only-short-cycle-build | — | ## Tier 2 — Shaping Constraints | Rank | Bottleneck…",
+        "context": "…framework for Terai solar | New binding solar constraint | claim-solar-terai-only-short-cycle-build | — | | 3 | Storage build-out (hydro + BESS), re-framed as…",
         "target_exists": true
       },
       {
@@ -13956,7 +14270,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…raints - [[twenty-year-strategy]] — phased implementation - data-potential-pyramid — the 83,000 to 3,591 reduction - [[data-storage-comparison…",
+        "context": "…-in-winter-deficit]] — the four-lever portfolio synthesis - data-potential-pyramid — the 83,000 to 3,591 reduction - [[data-storage-comparison…",
         "target_exists": true
       },
       {
@@ -14835,6 +15149,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…was historically unreliable (14 hours/day of outages). See data-industrial-electricity-consumers and [[energy-substitution-pathway]]. - **The \"reliability p…",
+        "target_exists": true
+      },
+      {
         "slug": "data-agricultural-energy-consumption",
         "title": "Agricultural Energy Consumption",
         "category": "data",
@@ -14956,7 +15277,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…Evidence - [[bottleneck-hierarchy]] — ranked constraints - twenty-year-strategy — phased implementation - [[data-potential-pyramid]] — the…",
+        "context": "…erarchy]] — ranked constraints, updated by the 2035 model - twenty-year-strategy — phased implementation - [[data-winter-deficit-model]] — t…",
         "target_exists": true
       },
       {
@@ -15051,7 +15372,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…in-winter-deficit]] — the solar correction to the ranking - solar-in-the-master-narrative — the master-frame update",
+        "context": "…in-winter-deficit]] — the solar correction to the ranking - solar-in-the-master-narrative — the master-frame update - [[data-winter-deficit-model]] —…",
         "target_exists": true
       },
       {
@@ -15073,6 +15394,13 @@
         "title": "Start Here",
         "category": "syntheses",
         "context": "…y]] -> [[domestic-led-hydro-strategy]]. - For solar's role: solar-in-the-master-narrative -> [[solar-hydro-complementarity]] -> [[solar-role-in-winte…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…-in-winter-deficit]] — the four-lever portfolio synthesis - solar-in-the-master-narrative — how solar changes the strategy",
         "target_exists": true
       },
       {
@@ -15490,6 +15818,15 @@
         "target_exists": true
       }
     ],
+    "timilsina-cge-load-shedding-2021": [
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…dding | 14–18 hours/day (2009–2016) | World Bank CGE model (timilsina-cge-load-shedding-2021) | | Total GDP lost 2008–2016 | ~US$11 billion | Timilsina…",
+        "target_exists": true
+      }
+    ],
     "icimod-hkh-glacier-change": [
       {
         "slug": "peak-water",
@@ -15541,7 +15878,7 @@
         "slug": "claim-timing-not-volume",
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
-        "context": "…he physical problem. ## Related - [[seasonal-mismatch]] - data-basin-discharge - [[firm-power]]",
+        "context": "…he physical problem. ## Related - [[seasonal-mismatch]] - data-basin-discharge - [[firm-power]] - [[data-winter-deficit-model]] — the mode…",
         "target_exists": true
       },
       {
@@ -15568,70 +15905,12 @@
         "target_exists": true
       }
     ],
-    "solar-role-in-winter-deficit": [
-      {
-        "slug": "storage-deficit",
-        "title": "Storage Deficit",
-        "category": "concepts",
-        "context": "…and power-firming terms. ## Solar changes the storage job solar-role-in-winter-deficit adds an important correction: not every dry-season kWh must…",
-        "target_exists": true
-      },
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…s-conversion-failure]] — the integrated failure diagnosis - solar-role-in-winter-deficit — the solar correction to the ranking - [[solar-in-the-mast…",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "…- [[data-trade-time-series]] — the seasonal trade pattern - solar-role-in-winter-deficit — why solar is now a core winter-deficit lever - [[claim-so…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-in-the-master-narrative",
-        "title": "Solar in the Master Narrative",
-        "category": "syntheses",
-        "context": "…large because it targets the binding season. ## Related - solar-role-in-winter-deficit - [[solar-hydro-complementarity]] - [[solar-lcoe-crossover]…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Start Here",
-        "category": "syntheses",
-        "context": "…he-master-narrative]] -> [[solar-hydro-complementarity]] -> solar-role-in-winter-deficit.",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-floating-pv-leverage",
-        "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
-        "category": "claims",
-        "context": "…## Related - [[kulekhani-cascade]] - [[storage-deficit]] - solar-role-in-winter-deficit - [[data-map-inventory]] - [[claim-solar-terai-only-short-c…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-solar-terai-only-short-cycle-build",
-        "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
-        "category": "claims",
-        "context": "…cle compression is possible. - The working solar pathway in solar-role-in-winter-deficit uses a moderate-growth ladder of **~1,700 MWp by 2028**, **…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-winter-deficit-model",
-        "title": "Winter Deficit Model",
-        "category": "data",
-        "context": "…and . ## Related - solar-role-in-winter-deficit — synthesis page for what the model implies for policy - [[…",
-        "target_exists": true
-      }
-    ],
     "intervention-transmission-completion": [
       {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…iate practical | [[claim-transmission-immediate-blocker]] | intervention-transmission-completion | | 2 | [[storage-deficit]] / [[seasonal-mismatch]] | Deep…",
+        "context": "…iate practical | [[claim-transmission-immediate-blocker]] | intervention-transmission-completion | | 2 | Land + agrivoltaic framework for Terai solar | New…",
         "target_exists": true
       },
       {
@@ -15654,7 +15933,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…orage-deficit]] / [[seasonal-mismatch]] | Deep structural | claim-storage-physical-fix | [[intervention-electric-cooking-transition]] (demand-side…",
+        "context": "…re-framed as combined | Deep structural, but job changed | claim-storage-physical-fix | [[intervention-electric-cooking-transition]] (demand-side…",
         "target_exists": true
       },
       {
@@ -15691,7 +15970,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…atch]] | Deep structural | [[claim-storage-physical-fix]] | intervention-electric-cooking-transition (demand-side); [[intervention-q-design-climate-adjustment]]…",
+        "context": "…uctural, but job changed | [[claim-storage-physical-fix]] | intervention-electric-cooking-transition (demand-side); [[intervention-q-design-climate-adjustment]]…",
         "target_exists": true
       },
       {
@@ -15705,7 +15984,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…[[green-hydrogen-nepal]] investment **Key interventions:** intervention-electric-cooking-transition (build domestic demand to absorb monsoon surplus); [[interv…",
+        "context": "…[[green-hydrogen-nepal]] investment **Key interventions:** intervention-electric-cooking-transition (build domestic demand to absorb monsoon surplus and shift…",
         "target_exists": true
       }
     ],
@@ -15714,7 +15993,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…[[intervention-electric-cooking-transition]] (demand-side); intervention-q-design-climate-adjustment (supply-side) | | 3 | Solar land + short-cycle buildability…",
+        "context": "…[[intervention-electric-cooking-transition]] (demand-side); intervention-q-design-climate-adjustment (supply-side) | | 4 | Demand-shaping + electrification | De…",
         "target_exists": true
       },
       {
@@ -15728,7 +16007,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…sition]] (build domestic demand to absorb monsoon surplus); intervention-q-design-climate-adjustment (mandate climate-adjusted hydrology before licensing the Ph…",
+        "context": "…c demand to absorb monsoon surplus and shift evening peak); intervention-q-design-climate-adjustment (mandate climate-adjusted hydrology before licensing the Ph…",
         "target_exists": true
       }
     ],
@@ -15737,7 +16016,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…/ offtake / demand weakness | [[seasonal-arbitrage-trap]] | intervention-nea-structural-separation; [[intervention-electric-cooking-transition]] | | 6 | Clima…",
+        "context": "…/ offtake / demand weakness | [[seasonal-arbitrage-trap]] | intervention-nea-structural-separation; [[intervention-electric-cooking-transition]] | | 7 | Clima…",
         "target_exists": true
       },
       {
@@ -15760,7 +16039,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…on]] | | 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | [[intervention-q-design-climate-adjustment]] | | 7 | Proj…",
+        "context": "…on]] | | 7 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | [[intervention-q-design-climate-adjustment]] | | 8 | Proj…",
         "target_exists": true
       },
       {
@@ -15776,7 +16055,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…nt]] | | 7 | Project finance / institutional coordination | claim-governance-binding | [[intervention-nea-structural-separation]]; [[interventio…",
+        "context": "…nt]] | | 8 | Project finance / institutional coordination | claim-governance-binding | [[intervention-nea-structural-separation]]; [[interventio…",
         "target_exists": true
       },
       {
@@ -15843,7 +16122,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…esilient, financeable, politically executable power.** See claim-systems-conversion-failure. ## The Failure Stack The conversion failure is not one b…",
+        "context": "…ded for the second. See [[data-winter-deficit-model]]. See claim-systems-conversion-failure. ## The Failure Stack The conversion failure is not one b…",
         "target_exists": true
       },
       {
@@ -15909,21 +16188,12 @@
         "target_exists": true
       }
     ],
-    "data-winter-deficit-model": [
-      {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…numbers - [[bottleneck-hierarchy]] — the ranking to patch - data-winter-deficit-model — the reproducible monthly energy-balance model backing thi…",
-        "target_exists": true
-      }
-    ],
     "data-map-layer-labels": [
       {
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…solar + storage + demand portfolio. ## Use The Map - Open data-map-layer-labels when you want to know what each map layer means. - Use [[da…",
+        "context": "…cit]] for what it means for policy. ## Use The Map - Open data-map-layer-labels when you want to know what each map layer means. - Use [[da…",
         "target_exists": true
       },
       {
