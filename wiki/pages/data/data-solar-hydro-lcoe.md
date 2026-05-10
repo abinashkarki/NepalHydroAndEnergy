@@ -2,7 +2,7 @@
 title: Solar and Hydro LCOE
 type: data
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-10
 figure_type: chart-spec
 sources: [nea-annual-report-fy2024-25, irena-remap-nepal, wb-grid-solar-ee-project, nea-solar-loi-2024]
 tags: [solar, hydro, LCOE, tariff, PPA, price, economics, crossover]
@@ -11,6 +11,8 @@ page_quality: analysis
 
 # Solar and Hydro LCOE
 
+## Summary
+
 The numerical table behind [[solar-lcoe-crossover]]. Three time series — global solar LCOE, Nepal solar auction tariff, Nepal hydro PPA — plus a value-weighted adjustment.
 
 ## Global utility-scale solar LCOE (IRENA Renewable Cost Database)
@@ -18,7 +20,7 @@ The numerical table behind [[solar-lcoe-crossover]]. Three time series — globa
 Weighted global average, levelized, 2024 US dollars.
 
 | Year | Global LCOE ($/MWh) | Module price ($/W) | Capacity factor (weighted) | Notes |
-|---:|---:|---:|---:|---|
+|---|---:|---:|---:|---|
 | 2010 | 359 | ~2.00 | 15% | Crystalline Si, pre-scale |
 | 2012 | 240 | 1.20 | 16% | |
 | 2014 | 165 | 0.76 | 17% | First Chinese scale |
@@ -92,7 +94,7 @@ This is the single most important economic re-framing for the [[claim-solar-chea
 Utility-scale 4-hour battery system LCOE (Wood Mackenzie / BloombergNEF data):
 
 | Year | BESS LCOE ($/MWh, 4h) | Combined solar+4h-BESS ($/MWh) | Matches reservoir-hydro at (NPR/kWh) |
-|---:|---:|---:|---|
+|---|---:|---:|---|
 | 2020 | 190 | 240 | — (out of range) |
 | 2022 | 140 | 185 | — |
 | 2024 | **95** | **135–150** | — |
@@ -110,6 +112,14 @@ Three public-facing chart options:
 2. **Stacked-bar per-technology** — current LCOE bars for RoR, PRoR, new storage hydro, solar (auction), solar (LCOE), solar+4h BESS. With time-weighted-value adjustment as a second panel.
 3. **Projection fan** — solar LCOE + solar+BESS 2025–2035, with hydro-storage benchmark horizontal. The crossover year for firm-capacity equivalence is the climax.
 
+## Coverage / Method
+
+- **Global solar LCOE:** IRENA Renewable Cost Database, capacity-weighted global averages. Nepal-specific numbers should be adjusted for grid costs, land costs, and FX.
+- **Nepal solar auction tariffs:** NEA tender results, IPP PPA signings. Figures are nominal NPR with period FX approximations for USD equivalents.
+- **Nepal hydro PPA tariffs:** NEA standard PPA structure (2016 basis, with periodic revisions). Blended rates are calculated at 30% dry / 70% wet energy mix for small RoR; actual project mix varies.
+- **BESS LCOE:** Wood Mackenzie / BloombergNEF utility-scale 4-hour system projections. Assumes lithium-ion, no rare-material price shock.
+- **Time-weighted adjustment:** Based on seasonal generation profiles from [[data-solar-hydro-complementarity-profile]] and cross-border price differentials from [[data-trade-time-series]].
+
 ## Caveats and data hygiene
 
 - Nepal tariffs are **NPR-denominated and escalate 3%/yr for first 8 yrs** in standard PPA; USD conversions use period FX and are approximate.
@@ -126,3 +136,9 @@ Three public-facing chart options:
 - [[data-solar-fleet-inventory]] — the MW this pricing is being applied to
 - [[data-solar-hydro-complementarity-profile]] — the profile that drives the time-weighting
 - [[irena-remap-nepal]] — IRENA's Nepal-specific cost assessment
+
+## Sources
+
+- [[nea-annual-report-fy2024-25]]
+- [[irena-remap-nepal]]
+- [[wb-grid-solar-ee-project]]

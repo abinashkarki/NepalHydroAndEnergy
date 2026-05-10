@@ -50,6 +50,11 @@ tmp/
 wiki/explorer/shots/
 *.404-stub.bak
 
+# Agent/session handoffs — local working context, not publishable content
+docs/*handoff*.md
+docs/session-prompts*.md
+scripts/baseline_validation_output.txt
+
 # ==========================================================================
 # Heavy raw data — re-download from original sources.
 # Source URLs are tracked in data/processed/corridor_tracing/corridor_source_inventory.csv

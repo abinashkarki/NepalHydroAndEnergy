@@ -31,6 +31,12 @@ Nepal's core hydro problem is a **timing** problem (when water arrives and when 
 - Exact **month-by-month** firm-energy curves need periodic refresh against NEA operational statistics and new plant mix.
 - The claim does not specify optimal **policy** responses (storage vs trade vs demand); it only reframes the physical problem.
 
+## Boundary Conditions
+
+- This claim reframes the *nature* of the problem; it does not say timing is the *only* constraint. Financing, governance, buildability, and market access also bind.
+- It does not say Nepal has "enough" water in an absolute sense — only that annual volume is not the binding constraint relative to seasonal distribution.
+- It does not prescribe optimal policy responses (storage vs trade vs demand flexibility); see [[claim-storage-physical-fix]], [[seasonal-arbitrage-trap]], and relevant syntheses for solution arguments.
+
 ## Related
 
 - [[seasonal-mismatch]]

@@ -2,7 +2,7 @@
 title: Hydropower Potential Pyramid
 type: data
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-10
 figure_type: chart-spec
 sources: [wecs-hydropower-potential-2019, wb-nepal-power-sector-reform-2022, nea-annual-report-fy2024-25]
 tags: [potential, theoretical, technical, economic, installed]
@@ -11,7 +11,9 @@ page_quality: analysis
 
 # Hydropower Potential Pyramid
 
-The reduction from theoretical potential to actually installed capacity. The 28x gap is not primarily a resource failure — it is a systems failure.
+## Summary
+
+The reduction from theoretical potential to actually installed capacity. The 28x gap reflects successive filtering from theoretical potential to installed capacity, with each filter representing a systems constraint rather than a resource absence. For the interpretive framing of this gap as a systems-conversion failure, see [[master-thesis]] and [[bottleneck-hierarchy]].
 
 ## The Pyramid
 
@@ -36,7 +38,7 @@ The reduction from theoretical potential to actually installed capacity. The 28x
 | All other basins | ~4,551 | 6.3% |
 | **Total** | **72,544** | **100%** |
 
-**~94% of gross potential** is concentrated in the three major Himalayan basins. Nepal's energy future lives or dies on what it does with these three systems.
+**~94% of gross potential** is concentrated in the three major Himalayan basins.
 
 ## Key Distinctions
 
@@ -48,6 +50,23 @@ These categories are routinely conflated in Nepal's public discourse:
 | Annual GWh | Total generation over a year | Dry-season availability |
 | [[firm-power]] | Dependable year-round dispatchable output | Same as installed capacity |
 | Export-grade power | Firm, bankable, transmission-connected | Seasonal surplus dumped at spot prices |
+
+## Coverage / Method
+
+This pyramid is compiled from multiple sources with different methodologies:
+- **WECS 2019 gross potential:** Basin-scale GIS screening with revised hydrology and efficiency assumptions.
+- **Technical / techno-economic levels:** WECS screening plus World Bank power-sector reform assessment constraints.
+- **Economically viable / realistically developable:** Expert estimates from source-review synthesis; not hard thresholds.
+- **Installed / DoED registry:** Administrative counts from NEA annual reports and Department of Electricity Development licensing data.
+
+Intermediate levels (economically viable, realistically developable) are order-of-magnitude estimates, not precise cutoffs. They should not be cited as definitive ceilings.
+
+## Caveats
+
+- Intermediate levels (economically viable, realistically developable) are expert estimates, not hard thresholds.
+- The "realistically developable by 2040" figure depends on financing, institutional capacity, and geopolitical assumptions that are not model-derived.
+- Basin distribution reflects gross potential only; installed capacity distribution differs because buildability, transmission, and market access vary by basin.
+- The 83,000 MW legacy figure is politically durable but methodologically outdated.
 
 ## Linked Data
 
@@ -64,3 +83,9 @@ These categories are routinely conflated in Nepal's public discourse:
 ## Chart Specification
 
 Inverted pyramid / funnel chart showing the progressive reduction from 83,000 to 3,591 MW. Each level labeled with the filter that reduces it. This is one of the clearest public graphics for this topic — it demolishes the "83,000 MW" slogan.
+
+## Sources
+
+- [[wecs-hydropower-potential-2019]]
+- [[wb-nepal-power-sector-reform-2022]]
+- [[nea-annual-report-fy2024-25]]

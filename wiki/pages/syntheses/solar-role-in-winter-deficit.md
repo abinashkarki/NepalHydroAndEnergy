@@ -10,6 +10,8 @@ page_quality: analysis
 
 # Solar's Role in the Winter Deficit
 
+This page argues that Nepal's 2035 winter deficit is solvable not by storage hydro alone, but by a four-lever portfolio of storage hydro, utility solar, demand-shaping, and BESS — and it quantifies each lever's contribution.
+
 The wiki's existing framing treats Nepal's winter deficit as a **storage problem** ([[storage-deficit]], [[seasonal-mismatch]]). The honest 2026 framing is: **part-storage, part-solar, part-demand-shaping**. This synthesis is an argument for the updated framing, with quantified contribution shares for each lever.
 
 ## The problem, tightened
@@ -143,6 +145,10 @@ Creates the demand-side incentive for lever 3. Also structures the right price s
 This synthesis adds: **The fleet that delivers firm winter power in 2035 is not predominantly hydro. It is a hydro + solar + BESS + demand-shaping portfolio. The mastery Nepal needs is not in hydrological conversion alone; it is in sequencing a four-lever portfolio, and in the institutional capacity to deliver all four on overlapping timelines.**
 
 That is a more complex master strategy than "build reservoirs." But it is also a more achievable one — the four levers are partial substitutes, so slippage in any one does not collapse the whole.
+
+## Benchmarking context
+
+[[irena-remap-nepal]] provides an externally-credentialed normative benchmark against which to judge Nepal's actual solar trajectory. IRENA's REmap Accelerated Case targets >1 GW solar by 2030 — a target that Nepal's 960 MW tender + 170 MW PPA + 142 MW operating already approaches in installed capacity, but with important gaps in institutional readiness (no agrivoltaic framework, no BESS mandates, no time-of-use tariff). The IRENA barriers analysis (policy coherence, financing access, grid integration, institutional capacity, land and permits) overlaps with the [[bottleneck-hierarchy]] for hydro, with one addition specific to solar: the absence of a land/permitting framework for utility-scale ground-mount. Mapping these programme gaps against donor channels (AEPC, EIB, WB) is a remaining institutional task.
 
 ## Related
 

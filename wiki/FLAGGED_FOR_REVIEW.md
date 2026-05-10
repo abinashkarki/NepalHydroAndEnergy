@@ -1,0 +1,63 @@
+# Flagged for Review
+
+Running log of ontology conflicts, split/merge candidates, duplicate concepts, and unresolved agent flags.
+
+Review this file monthly. Resolve items by editing the wiki, merging pages, or updating `wiki/ONTOLOGY.md`.
+
+## Open Items
+
+- **[2026-05-10]** Content gap: ICIMOD Koshi sediment quantitative figures
+  - `sources/icimod-koshi-sediment-threats` lists directional findings only
+  - Specific suspended sediment concentration, annual load (Mt/yr), and design-relevant parameters not yet extracted
+  - Proposed action: Extract quantitative figures from PDF during a future sediment-focused session, or mark as permanently qualitative if the source does not provide them
+  - Flagged by: OpenCode
+
+- **[2026-05-10]** GOVERNANCE.md invariant added: concept/data page prescription boundary
+  - Invariant #9 added: "No policy prescriptions on concept or data pages. Concept pages may describe implications but may not prescribe responses. The line is 'this means X' versus 'Nepal should do X.'"
+  - Motivated by two hierarchy violations: `data-storage-comparison` (Week 2) and `buildability` (Week 6)
+  - Proposed action: No further action needed; invariant is now active. Review at monthly review for enforcement consistency.
+  - Flagged by: human operator
+
+- **[2026-05-10]** Exemplar fix: `data-storage-comparison` hierarchy violation still present
+  - Week 2 audit log recorded reframing of interpretive language on `data-storage-comparison`, but the language ("The bottleneck is capital, governance, and institutional will, not geology") was still present on disk at Week 7.
+  - Root cause: Week 2 edit was not committed or was subsequently reverted.
+  - Impact: All data-page edits since Week 2 used a non-compliant exemplar.
+  - Proposed action: Fixed during Week 7 pre-task. Verified downstream existence of the interpretive framing on [[master-thesis]] and [[bottleneck-hierarchy]] before reframing.
+  - Flagged by: human operator
+
+- **[2026-05-10]** GOVERNANCE.md standing note: data pages as highest-risk category for hierarchy violations
+  - Data pages have the highest hierarchy violation rate of any category (2 violations in 5 pages in Week 7, including the most severe found across 7 weeks).
+  - Pattern: data pages are where analysis gets parked when it hasn't found its synthesis home yet.
+  - Proposed action: Add standing note to GOVERNANCE.md calling out data pages as highest-risk category; consider including spot-check of recently edited data pages in monthly drift review.
+  - Flagged by: human operator
+
+## Resolved Items
+
+| Date | Item | Resolution |
+|---|---|---|
+| 2026-05-10 | Content migration: IRENA REmap Nepal strategic framing | Migrated to `syntheses/solar-role-in-winter-deficit` — added "## Benchmarking context" section. Updated `sources/irena-remap-nepal` with cross-reference. Closed. |
+| 2026-05-10 | Ontology confidence classification: `claim-climate-harder-not-easier` | Updated `wiki/ONTOLOGY.md` canonical claims table from `medium-high` to `high`. Page qualifier (IPCC HKH convergence) preserved. Closed. |
+| 2026-05-10 | Validator enhancement (HIGH PRIORITY): required section headings by page type | Built into `scripts/validate_repo.py` as `validate_required_sections()`. Warns (not hard-fail) on missing canonical headings per TEMPLATES.md. Closed. |
+
+## How to add an item
+
+```
+- **[DATE]** Term/concept: description of conflict or uncertainty
+  - Proposed action: merge, split, rename, add to ontology
+  - Flagged by: agent or human name
+```
+
+## Categories of items to flag
+
+- New term that may overlap with an existing canonical term
+- Page that feels like it belongs to two categories
+- Claim that contradicts another claim without explicit cross-reference
+- Source page that has become mini-analysis
+- Data page with interpretive language that should be in a synthesis
+- Entity page with no generator field or missing source attribution
+- Duplicate or near-duplicate slugs
+
+---
+
+*Last reviewed: 2026-05-10*
+*Next review: 2026-06-10*

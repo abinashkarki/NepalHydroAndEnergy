@@ -2,7 +2,7 @@
 title: Chilime
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-10
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
 tags: [project, operating, rasuwa]
 images:
@@ -47,6 +47,8 @@ page_quality: analysis
   <figcaption>HEP Headworks & Powerhouse</figcaption>
 </figure>
 
+## Summary
+
 22 MW · operating · on the Chilime · in Rasuwa district.
 
 <!-- generated:specs:start -->
@@ -85,26 +87,9 @@ page_quality: analysis
 
 <!-- generated:specs:end -->
 
-<!-- generated:sources:start -->
+## Significance / Why It Matters
 
-## Sources
-
-- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
-- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
-
-<!-- generated:sources:end -->
-
-## Notes
-
-> [!note] This is a registry-backed project record. Capacity, location,
-> and licence status come from the Ministry of Energy registry
-> mirrored in the map data. Narrative context and images are added
-> where public sources are strong enough; the specification table is
-> maintained from the registry.
-
-## Performance and Historical Context
-
-Chilime is the sector's most cited success case — and its performance metrics justify the reputation. However, the conditions that produced those metrics are not replicable for modern projects.
+Chilime is the sector's most cited success case — and its performance metrics justify the reputation. However, the conditions that produced those metrics are **not replicable** for modern projects. See Limitations & Controversies below.
 
 ### Generation overperformance
 
@@ -119,9 +104,9 @@ Source: Chilime Hydropower Company Limited annual reports.
 
 This overperformance places Chilime in stark contrast to modern IPPs, where zero of 100+ projects evaluated in a recent Urja Khabar audit exceeded 80% of contracted energy. See [[q-design-discharge]] for the full generation performance comparison.
 
-### Why Chilime is not a replicable baseline
+## Limitations & Controversies
 
-Despite being routinely invoked to justify mass public equity participation in hydropower, Chilime's success is a product of a different regulatory, financial, and climatic era:
+Chilime's success is **not a replicable baseline** for modern hydropower projects. The conditions that produced its performance are a product of a different regulatory, financial, and climatic era:
 
 1. **Conservative Q-design:** Chilime was commissioned in 2003 and likely designed on Q65 or higher — a more cautious flow percentile than the Q40–Q45 now permitted under current DoED guidelines. This means its contracted energy was set conservatively low relative to actual hydrology.
 
@@ -161,10 +146,27 @@ Despite being routinely invoked to justify mass public equity participation in h
 
 Chilime's subsequent role as a holding company — spinning off subsidiaries (Rasuwagadhi, Sanjen, Madhya Bhotekoshi) to bypass the terminal BOOT-model asset handover — further reflects a business environment that no longer exists for new entrants.
 
-## See also
+## Notes
+
+> [!note] This is a registry-backed project record. Capacity, location,
+> and licence status come from the Ministry of Energy registry
+> mirrored in the map data. Narrative context and images are added
+> where public sources are strong enough; the specification table is
+> maintained from the registry.
+
+## Related
 
 - [[run-of-river-hydropower]]
 - [[q-design-discharge]]
 - [[nea-triple-authority]]
 - [[ppa-pricing]]
 - [[ipo-hydropower-bailout]]
+
+<!-- generated:sources:start -->
+
+## Sources
+
+- [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+
+<!-- generated:sources:end -->

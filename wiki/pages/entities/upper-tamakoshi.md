@@ -2,7 +2,7 @@
 title: Upper Tamakoshi
 type: entity
 created: 2026-04-14
-updated: 2026-05-02
+updated: 2026-05-10
 generator: specs-refresh
 page_quality: analysis
 sources: [nea-annual-report-fy2024-25, nea-transmission-annual-book-2077, ukhl-financials-generation-fy2079-82]
@@ -51,6 +51,8 @@ images:
   <img src="../assets/images/upper-tamakoshi/nea2077-p190-img01.png" alt="Overall Project Layout">
   <figcaption>Overall Project Layout</figcaption>
 </figure>
+
+## Summary
 
 Nepal's **largest operating hydropower plant** at 456 MW. Located on the Tama Koshi River in Dolakha district. Commissioned in 2021.
 
@@ -252,6 +254,13 @@ The dry-season energy matters disproportionately: at NPR 6.96/kWh versus NPR
 billion in annual revenue. Whether that is sufficient to bring DSCR above 1.0x
 depends on the debt restructuring terms that accompany any resolution.
 
+## Limitations & Controversies
+
+- **Structural default at near-peak generation.** UKHLL was downgraded to ICRA **D (Default)** in FY 2081/82 despite achieving 90.2% of contracted energy in FY 2080/81. The crisis is a tariff-debt mismatch, not an engineering failure. See [[nea-triple-authority]] and [[ppa-pricing]] for the structural analysis.
+- **September 2024 flood damage.** 88-day forced shutdown, NPR 1.79 billion physical damage, NPR 1.43 billion business interruption. Insurance claim of NPR 2.0 billion remains unsettled as of May 2026 due to transmission-exclusion clauses. See Financial Performance section above for full detail.
+- **Rolwaling Diversion stalled.** Conservation-area blockade after Supreme Court annulment of National Parks Act amendment. NPR ~10.59 billion raised for Phase II expansion sits idle.
+- **Cascading systemic risk.** Default forces domestic banks (EPF, CIT, commercial banks) to reclassify loans as NPAs; hardens hydropower insurance market; signals to foreign investors that current risk-allocation framework may be uninvestable for mega-projects.
+
 ## Structural implication
 
 The gap between revenue and debt service at Upper Tamakoshi is not a
@@ -298,6 +307,17 @@ capital. UKHLL's default signals to both domestic and foreign investors that the
 current risk-allocation framework — developer bears 100% of geological,
 hydrological, and construction delay risk at a non-escalating monopsony tariff —
 is uninvestable for complex mega-projects.
+
+## Related
+
+- [[run-of-river-hydropower]] — the architecture Upper Tamakoshi exemplifies
+- [[q-design-discharge]] — why generation falls short of contracted energy
+- [[nea-triple-authority]] — the institutional conflict at the root of the tariff problem
+- [[ppa-pricing]] — the tariff structure that cannot service the debt
+- [[glof-risk]] — the flood hazard that triggered the 2024 shutdown
+- [[buildability]] — execution risk in Nepal's hydro sector
+- [[kulekhani-cascade]] — Nepal's only operational storage, for contrast
+- [[tanahu-hydropower]] — another Nepali-developed project with different financing
 
 <!-- generated:sources:start -->
 

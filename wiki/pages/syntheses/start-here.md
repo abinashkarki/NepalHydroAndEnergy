@@ -9,6 +9,8 @@ page_quality: analysis
 
 # Start Here
 
+This page is the public entry point to the Nepal Energy Wiki — it orients first-time readers, explains the page categories, and offers starting routes through the evidence.
+
 This wiki is a public guide to Nepal's electricity system: where power is generated, why the system can have monsoon surplus and winter scarcity at the same time, how transmission and trade shape project value, and why solar, storage, and domestic demand now sit inside the core hydropower story.
 
 The explorer has two ways in:

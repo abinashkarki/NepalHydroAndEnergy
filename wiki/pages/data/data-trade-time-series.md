@@ -2,7 +2,7 @@
 title: Electricity Trade Time Series
 type: data
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-10
 figure_type: chart-spec
 sources: [wb-country-economic-memo-2025, nea-annual-report-fy2024-25]
 tags: [trade, import, export, india, pricing]
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # Electricity Trade Time Series
+
+## Summary
 
 Nepal's electricity trade transformation from net importer to seasonal exporter. Central evidence for [[seasonal-arbitrage-trap]] and [[seasonal-mismatch]].
 
@@ -55,8 +57,8 @@ The first month-by-month import/export resolution in the entire research corpus.
 | Jestha | mid-May–mid-Jun | 184.4 | 24.2 | **+160.2** (net import) |
 | Ashar | mid-Jun–mid-Jul | 34.9 | 230.1 | **−195.2** (net export) |
 
-> [!finding] This is the structural proof
-> The table makes the [[seasonal-arbitrage-trap]] undeniable at monthly resolution. Nepal exports zero in Magh, Falgun, Chaitra, Baisakh — its four biggest import months. Baisakh alone (395.7 GWh import, 0 export) represents more import than the entire Ashwin monsoon export (281 GWh). A single peak winter month erases a full monsoon month of export earnings.
+> [!finding] Monthly resolution shows structural asymmetry
+> Nepal exports zero in Magh, Falgun, Chaitra, Baisakh — its four biggest import months. Baisakh alone (395.7 GWh import, 0 export) represents more import than the entire Ashwin monsoon export (281 GWh). A single peak winter month erases a full monsoon month of export earnings.
 
 **Dry season total** (Poush–Jestha, Dec–Jun): ~1,748 GWh imported, ~25 GWh exported — net import 1,723 GWh.
 **Monsoon total** (Shrawan–Mangsir + Ashar, Jul–Nov + Jun): ~106 GWh imported, ~1,308 GWh exported — net export 1,202 GWh.
@@ -168,3 +170,8 @@ The three linked figures above now cover most of this page's graphic needs. The 
 ## Bangladesh Trade Detail
 
 See [[bangladesh-trade-route]].
+
+## Sources
+
+- [[wb-country-economic-memo-2025]]
+- [[nea-annual-report-fy2024-25]]

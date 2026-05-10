@@ -6,6 +6,7 @@ import csv as csv_module
 import datetime as dt
 import difflib
 import json
+import os
 import re
 import subprocess
 import sys
@@ -382,6 +383,57 @@ def validate_source_blocks() -> None:
     if placeholder_blocks:
         fail(f"{len(placeholder_blocks)} flagship entities still show placeholder source blocks: "
              + ", ".join(placeholder_blocks[:25]))
+
+
+REQUIRED_SECTIONS: dict[str, list[str]] = {
+    "claims": ["## Boundary Conditions"],
+    "concepts": ["## Summary", "## Simple Explanation", "## Common Misunderstandings"],
+    "data": ["## Summary", "## Coverage / Method", "## Caveats"],
+    "entities": ["## Summary", "## Limitations & Controversies"],
+    "sources": ["## Summary", "## Limitations", "## Used By"],
+}
+
+
+def validate_required_sections() -> None:
+    """Warn when pages lack canonical section headings per TEMPLATES.md.
+
+    Emits a summary-by-category by default. Only lists individual pages when
+    the total warning count is low enough to be readable, or when WIKI_VERBOSE=1.
+    """
+    warnings: list[str] = []
+    category_counts: dict[str, dict[str, int]] = {}
+    for category, required in REQUIRED_SECTIONS.items():
+        category_counts[category] = {}
+        for page in sorted((WIKI_PAGES / category).glob("*.md")):
+            text = page.read_text(encoding="utf-8")
+            for heading in required:
+                if heading not in text:
+                    key = f"{category}: {heading}"
+                    category_counts[category][heading] = category_counts[category].get(heading, 0) + 1
+                    warnings.append(f"{category}/{page.name}: missing {heading}")
+    if not warnings:
+        return
+
+    verbose = os.environ.get("WIKI_VERBOSE", "") == "1"
+    total = len(warnings)
+
+    # Always print category-level summary
+    summary_lines: list[str] = []
+    for category, headings in category_counts.items():
+        for heading, count in headings.items():
+            summary_lines.append(f"  {category}: {count} pages missing {heading}")
+
+    if total <= 20 or verbose:
+        warn("missing required sections (warning only — not a hard fail):\n  "
+             + "\n  ".join(summary_lines)
+             + "\n  ---\n  "
+             + "\n  ".join(warnings[:100]))
+        if total > 100 and not verbose:
+            warn(f"  ... ({total - 100} more lines suppressed; set WIKI_VERBOSE=1 to show all)")
+    else:
+        warn("missing required sections (warning only — not a hard fail):\n  "
+             + "\n  ".join(summary_lines)
+             + f"\n  ---\n  ({total} total warnings; set WIKI_VERBOSE=1 to list individual pages)")
 
 
 def validate_status_consistency() -> None:
@@ -836,6 +888,7 @@ def main() -> None:
     validate_duplicate_entities(slugs)
     validate_page_generator(slugs)
     validate_source_blocks()
+    validate_required_sections()
     validate_status_consistency()
     validate_claim_integrity(slugs)
     print(f"OK: {len(slugs)} wiki pages, caches valid, map manifest valid, tracked hygiene clean")

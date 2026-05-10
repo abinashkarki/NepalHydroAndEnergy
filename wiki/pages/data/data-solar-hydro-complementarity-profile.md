@@ -2,7 +2,7 @@
 title: Solar–Hydro Complementarity Profile
 type: data
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-10
 figure_type: chart-spec
 sources: [wecs-river-basin-plan-2024, nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment]
 tags: [solar, hydro, complementarity, diurnal, seasonal, hourly, monthly, dispatch]
@@ -11,6 +11,8 @@ page_quality: analysis
 
 # Solar–Hydro Complementarity Profile
 
+## Summary
+
 The hour-by-hour and month-by-month numbers that make [[solar-hydro-complementarity]] visible. Two figures should make this profile visible as time curves.
 
 ## Monthly complementarity (normalised output)
@@ -18,7 +20,7 @@ The hour-by-hour and month-by-month numbers that make [[solar-hydro-complementar
 Index: monthly mean = 100 for each technology at its own annual peak. Shows *shape*, not absolute magnitude.
 
 | Month | RoR hydro (system-weighted) | Solar Terai (4.9 GHI mean) | Solar Mustang (6.2 GHI mean) | System demand (NEA FY 2024/25) |
-|---|---:|---:|---:|---:|
+|---|---|---:|---:|---:|
 | January | **32** | 75 | 95 | 95 |
 | February | 30 | 82 | 100 | 96 |
 | March | 38 | 95 | 105 | 94 |
@@ -43,7 +45,7 @@ Observations the numbers force:
 Converting the shape into volumes, with NEA FY 2024/25 actual generation as the base:
 
 | Month | Hydro output (GWh) | Current solar (MWp: 142, CF 18%) | With 3 GW Terai solar | Demand met | Gap / (surplus) |
-|---|---:|---:|---:|---:|---:|
+|---|---|---:|---:|---:|---:|
 | Jan | 350 | 18 | **380** | 850 | **(102)** deficit |
 | Feb | 330 | 17 | 360 | 780 | (90) deficit |
 | Mar | 420 | 19 | 420 | 770 | 71 marginal |
@@ -59,10 +61,13 @@ Converting the shape into volumes, with NEA FY 2024/25 actual generation as the 
 
 (Numbers are illustrative, not ledger-exact; Terai 3 GW solar assumed at CF 16–18% with winter uplift, using monthly shape from table above.)
 
-**Policy read:**
+## System Balance Observations
+
 - **January–February remain net-deficit** even with 3 GW solar, because evening peak shifts the gap from energy to capacity. This is what [[storage-deficit]] and [[solar-hydro-complementarity]] identify as the "solar closes energy gap but not evening capacity gap" problem.
 - **March–April nearly balance**, a dramatic improvement over current state.
-- **Monsoon months are double-surplus.** The export / demand-creation problem ([[seasonal-arbitrage-trap]]) becomes more pressing, not less, as solar scales.
+- **Monsoon months are double-surplus.** The export / demand-creation challenge ([[seasonal-arbitrage-trap]]) intensifies as solar scales.
+
+For the strategic argument that solar-plus-BESS should be sequenced ahead of additional RoR for the evening-peak problem, see [[solar-role-in-winter-deficit]].
 
 ## Diurnal complementarity — a typical winter weekday
 
@@ -83,13 +88,7 @@ A February Friday in Kathmandu region, demand shape from NEA Load Dispatch Cente
 | 20:00 | 95 | 30 | 0 | 65 |
 | 22:00 | 75 | 30 | 0 | 45 |
 
-**The reason BESS is the obvious next thing, in one chart:**
-- Mid-day (10:00–15:00) has **~30 units of surplus capacity** under solar-forward operation.
-- Evening (17:30–21:00) has **~50–70 units of deficit**.
-- A **4-hour battery** charged 10:00–14:00 and discharged 17:30–21:30 bridges the gap exactly.
-- A **reservoir-hydro peaker** (Kulekhani-cascade style, [[kulekhani-cascade]]) held through midday and released in evening does the same thing using water as the battery.
-
-This is the cleanest argument in the wiki for why **Nepal's next priority after Terai solar is 4-hour BESS + reservoir-hydro peaking**, not more RoR.
+The data suggests that 4-hour BESS paired with reservoir-hydro peaking would bridge the evening gap shown in the winter diurnal profile, while additional RoR would not address the evening capacity shortfall. For the strategic argument that this combination should be prioritized over more RoR, see [[solar-role-in-winter-deficit]].
 
 ## Rainy-day / partial-monsoon day profile
 
@@ -116,7 +115,7 @@ System-operator burden grows non-linearly past ~35% solar penetration. Nepal's c
 A widely misquoted number: "solar has zero capacity credit." This is misleading for Nepal specifically.
 
 | Technology | Capacity credit for winter-day peak | Capacity credit for winter-evening peak |
-|---|---:|---:|
+|---|---|---:|
 | Solar (standalone) | **~60%** (daytime clear-sky reliable) | **~0%** (sun is down) |
 | Solar + 4h BESS | ~60% | **~45–55%** (BESS discharges into evening) |
 | RoR hydro | ~35% (dry-season floor) | ~35% (flat output) |
@@ -124,6 +123,20 @@ A widely misquoted number: "solar has zero capacity credit." This is misleading 
 | Pumped hydro | >95% | >95% |
 
 The honest read: standalone solar does not replace reservoir hydro on capacity. Solar + BESS does, roughly half, at current BESS costs. By 2030 ([[data-solar-hydro-lcoe]]) the replacement is near-complete for the 4-hour evening peak window.
+
+## Coverage / Method
+
+- **Monthly shape indices:** Derived from NEA FY 2024/25 system operation data (hydro output, demand) and satellite-based GHI modeling (solar). Normalized to 100 = annual peak for shape comparison.
+- **Volume projections (GWh):** Illustrative only. Applied monthly shape indices to NEA FY 2024/25 actual generation totals, then scaled to hypothetical 3 GW Terai solar at CF 16–18% with winter uplift.
+- **Diurnal profile:** Based on NEA Load Dispatch Center winter weekday demand shape and clear-sky solar generation model. RoR hydro assumed flat at dry-season floor.
+- **Capacity credit:** Derived from dry-season output share and BESS discharge duration. Not from formal reliability analysis.
+
+## Caveats
+
+- Monthly GWh numbers are illustrative projections, not ledger-exact operational data.
+- Diurnal profile assumes clear-sky conditions; overcast days reduce solar contribution significantly.
+- Capacity credit estimates are order-of-magnitude approximations based on seasonal output share, not formal loss-of-load-probability analysis.
+- Forecast error assumptions are based on published atmospheric model skill for the Terai; actual Nepal grid-operator experience may differ.
 
 ## Chart specifications
 
@@ -141,3 +154,10 @@ Three figures, in order of priority:
 - [[seasonal-mismatch]] — the problem this profile solves
 - [[data-solar-hydro-lcoe]] — the price driving deployment
 - [[data-solar-fleet-inventory]] — the MW this profile applies to
+- [[solar-role-in-winter-deficit]] — the strategic argument for solar + BESS sequencing
+
+## Sources
+
+- [[wecs-river-basin-plan-2024]]
+- [[nea-annual-report-fy2024-25]]
+- [[wb-esmap-solar-resource-assessment]]

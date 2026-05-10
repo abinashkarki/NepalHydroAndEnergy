@@ -2,7 +2,7 @@
 title: Budhigandaki Hydroelectric Project
 type: entity
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-10
 generator: specs-refresh
 page_quality: analysis
 sources: [wb-country-economic-memo-2025, jica-ipsdp-main-report-vol2]
@@ -36,6 +36,8 @@ images:
   <img src="../assets/images/budhigandaki/ipsdpv2-p272-img00.png" alt="Figure 6.3-17 River Longitudinal Profile of the Budhi Gandaki River">
   <figcaption>Figure 6.3-17 River Longitudinal Profile of the Budhi Gandaki River</figcaption>
 </figure>
+
+## Summary
 
 A 1,200 MW **reservoir storage** project on the border of Gorkha and Dhading districts, in the [[gandaki-basin]]. Considered a national pride initiative and the most important near-term storage intervention for grid stability.
 
@@ -95,6 +97,16 @@ After years of repeated modality formation, the investment framework was approve
 | Commercial operation | 2036 (earliest) |
 
 
+## Limitations & Controversies
+
+- **Repeated modality changes.** Years of repeated modality formation before Cabinet approval in January 2026. Each cycle consumed political capital and delayed procurement.
+- **Long build horizon.** 8-year construction from 2028 places earliest COD around 2036. The 2027–2035 window remains uncovered for storage if Budhigandaki is the only large reservoir in the pipeline.
+- **Massive displacement.** 8,117 households in Gorkha and Dhading will be physically and economically displaced. NPR 42.65 billion distributed as compensation. ~90% land acquisition complete as of April 2026.
+- **Seismic and sediment risks.** The Gandaki system carries high Himalayan sediment loads. A 263 m arch dam in seismic zone 4 requires conservative design for MCE scenarios and GLOF cascades. See [[sediment-as-design-constraint]].
+- **Chinese involvement blocked.** A previous proposal to award to China Gezhouba Group was politically blocked (Nepali Congress opposition). Project now structured as domestic investment, but this history adds political fragility.
+- **Financing uncertainty.** Total cost with interest estimated at NPR 406–460 billion. Government holds 80% equity, NEA 20%. Sovereign balance-sheet exposure is significant if cost overruns materialize.
+- **Long payback period.** 50-year license term reflects the extended payback for large storage — but also the political risk that a future government may seek to renegotiate terms.
+
 ## Status (updated April 2026)
 
 **Moving forward — but still pre-construction.**
@@ -125,6 +137,16 @@ If built, Budhigandaki would not just add generation — it would **change the e
 - [Nepal Tributary Explorer](../../assets/maps/html/nepal_tributary_explorer.html)
 - [Cross-Border View With Projects](../../assets/maps/previews/nepal_cross_border_with_projects.png)
 - [[data-map-inventory]]
+
+## Related
+
+- [[storage-deficit]] — the gap Budhigandaki would address
+- [[seasonal-mismatch]] — the problem its winter output solves
+- [[firm-power]] — what 42% dry-season share means for reliability
+- [[pancheshwar]] — the bilateral mega-project that hasn't moved
+- [[domestic-led-hydro-strategy]] — the thesis Budhigandaki supports
+- [[sediment-as-design-constraint]] — the engineering challenge of Gandaki sediment
+- [[buildability]] — why modality approval ≠ operational dam
 
 <!-- generated:sources:start -->
 

@@ -1,12 +1,11 @@
 ---
 title: SEBON Data Transparency
-Category: interventions
-Type: intervention
-Tags: [SEBON, NEPSE, data, IPO, rights-shares, transparency, retail-investors, civic-tech]
-Excerpt: Mandate machine-readable financial disclosures from SEBON for all listed hydropower companies, and independently build a public dataset of Nepal's hydro IPO/rights share history cross-referenced against AD penalty exposure and hydrological performance.
+category: interventions
+type: intervention
+tags: [SEBON, NEPSE, data, IPO, rights-shares, transparency, retail-investors, civic-tech]
+excerpt: Mandate machine-readable financial disclosures from SEBON for all listed hydropower companies, and independently build a public dataset of Nepal's hydro IPO/rights share history cross-referenced against AD penalty exposure and hydrological performance.
 page_quality: analysis
 ---
-
 # SEBON Data Transparency
 
 ## The Intervention

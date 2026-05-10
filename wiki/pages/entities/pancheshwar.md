@@ -2,7 +2,7 @@
 title: Pancheshwar Multipurpose Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-06
+updated: 2026-05-10
 generator: specs-refresh
 page_quality: analysis
 sources: [national-water-plan-nepal, wb-ganges-strategic-basin-assessment]
@@ -16,6 +16,8 @@ images:
 ---
 
 # Pancheshwar Multipurpose Project
+
+## Summary
 
 A bi-national mega-project on the [[mahakali-basin]] river forming the Nepal-India border. At 6,480 MW, the largest proposed hydropower project in the region — and the most instructive case study in [[hydro-geopolitics]] anywhere in South Asia. Signed into a treaty in 1996, the project has produced zero megawatts, zero construction, and zero approved DPR in 30 years. Every delay reason that can exist exists here.
 
@@ -78,6 +80,15 @@ The Mahakali Treaty was signed in 1996. The DPR was drafted by India's WAPCOS in
 | Construction start | No date |
 | Time since treaty (no output) | **30 years** |
 
+
+## Limitations & Controversies
+
+- **30-year stall with zero construction.** The Mahakali Treaty was signed in 1996; the DPR drafted in 2016 remains unapproved. No construction has started. This is a governance failure, not an engineering one.
+- **Benefit-sharing impasse.** The 50/50 electricity split is accepted. The fight is over non-electricity benefits (irrigation, flood control). Nepal demands 50/50 on all benefits; India insists on 75/25 for non-power benefits. No valuation mechanism exists in the treaty.
+- **Displacement at unprecedented scale.** ~50,000 people would be affected across both sides of the border. A binational resettlement plan across two legal systems has no precedent in Nepal.
+- **Seismic zone 4–5 risk.** Near the Main Central Thrust, within the influence zone of the 1505 Lo Mustang earthquake (M~8.2) and the 2015 Gorkha earthquake (M7.8). A 315 m rockfill dam in this environment requires conservative MCE design.
+- **Financing unresolved.** Initial phase estimated at NPR 126–130 billion for Nepal's share. No sovereign guarantee or joint project entity exists to borrow against.
+- **No joint project entity.** Contrast with Itaipu Binacional (Brazil/Paraguay), which had a single binational entity with clear governance and Brazilian debt guarantee. Pancheshwar has none of these.
 
 ## The DPR: What WAPCOS Drafted in 2016
 

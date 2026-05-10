@@ -2,7 +2,7 @@
 title: NEA 960 MW National Solar Tender
 type: entity
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-10
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, nea-solar-loi-2024]
 tags: [nea, solar, tender, 960mw, ipp, ppa, terai, competitive-bid]
 generator: manual
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # NEA 960 MW National Solar Tender
+
+## Summary
 
 The **single largest solar procurement event in Nepal's history.** A national-scale competitive-bid tender launched 2024 for **960 MWp of utility-scale grid-tied solar PV** across Nepal, awarded to **63 projects** from multiple IPPs. PPA signing and financial closure staged over FY 2025/26 and FY 2026/27; if ~70% of awards reach COD, Nepal's operating utility solar expands ~5× over the current fleet by FY 2028/29.
 
@@ -34,7 +36,7 @@ The tender that represents the **institutional bet** that Nepal's solar scaling 
 ## Tender structure by province (approximate)
 
 | Province | MW in tender (approx.) | Notes |
-|---|---:|---|
+|---|---|---:|
 | **Madhesh** (Bara, Parsa, Rautahat, Sarlahi, Dhanusha) | ~350–400 | Densest Terai grid; most bids received |
 | **Lumbini** (Nawalparasi, Rupandehi, Kapilvastu, Banke) | ~200–250 | Hetauda-Bharatpur-Bardaghat corridor access |
 | **Sudurpaschim** (Kailali, Kanchanpur) | ~80–120 | Far-west Terai |
@@ -79,6 +81,15 @@ The tender tariff sits at the crossover point between solar and hydro ([[solar-l
 
 Each MW in this tender is already materially cheaper than equivalent small RoR hydro on a *blended* basis and ~30% cheaper on a *time-weighted* basis. This is the tariff point that [[claim-solar-cheaper-than-small-hydro]] stands on.
 
+## Limitations & Controversies
+
+- **Land acquisition delays.** Terai agricultural land politics may stall >30% of awards if fee-simple purchase proves contentious. Agrivoltaic lease templates are not yet in tender documents.
+- **Grid integration at scale.** Cumulative Grid Impact Study completed, but actual penetration levels and forecast management at 960 MW+ are untested in Nepal's grid.
+- **Financial close risk.** Local-currency long-tenor debt availability remains partial; FX risk persists for imported components.
+- **PPA settlement delays.** NEA single-buyer liability creates counterparty risk; standard PPA mechanisms (escrow, performance guarantees) are untested at this portfolio scale.
+- **Weather and monsoon COD delays.** Grid-extension coordination and schedule discipline are developer-by-developer variables.
+- **Tariff-crash political backlash risk.** The transparent bidding process mitigates this, but a future tariff revision or policy reversal could chill investor confidence.
+
 ## Implementation risks and watch items
 
 | Risk | Mitigation | Status |
@@ -101,3 +112,9 @@ Each MW in this tender is already materially cheaper than equivalent small RoR h
 - [[agrivoltaics-and-land]] — the next-round institutional enhancement
 - [[hybrid-siting-logic]] — the siting logic this tender operationalises
 - [[claim-solar-cheaper-than-small-hydro]], [[claim-solar-terai-only-short-cycle-build]] — the tracked claims this tender evidences
+
+## Sources
+
+- [[nea-annual-report-fy2024-25]]
+- [[wb-grid-solar-ee-project]]
+- [[nea-solar-loi-2024]]

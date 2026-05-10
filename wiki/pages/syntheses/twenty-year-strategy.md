@@ -10,6 +10,8 @@ page_quality: analysis
 
 # Twenty-Year Strategy
 
+This page lays out a rational 20-year phased strategy for Nepal's water-and-energy system, prioritizing transmission, storage, solar, and institutional reform in sequence.
+
 A rational 20-year water-and-energy strategy for Nepal, synthesized from the strategy and evidence pages.
 
 ## Phase 1: 2024–2030 — Complete and Connect

@@ -32,6 +32,13 @@ page_quality: analysis
 - Which **portfolio** of storage (large reservoirs, pumped hydro, multi-basin cascades, import-backed virtual storage) minimizes social/environmental cost per firm MWh is **unsettled** and site-specific ([[budhigandaki]], [[dudhkoshi-storage]]).
 - **Sediment and climate** shift the economic lifespan curves for storage—see [[sediment-as-design-constraint]] and [[peak-water]].
 
+## Boundary Conditions
+
+- "Physical answer" does not mean cheapest, fastest, or most politically viable answer. Financial, social, and geopolitical constraints remain binding.
+- This claim does not endorse any specific storage project (e.g., [[budhigandaki]], [[dudhkoshi-storage]]) as optimal; portfolio choice is unsettled and site-specific.
+- It does not say storage eliminates the need for grid expansion, demand-side measures, or import-backed virtual storage.
+- It addresses **seasonal** inter-month shifting, not intra-day peaking (which PRoR or battery storage can address).
+
 ## Related
 
 - [[storage-deficit]]

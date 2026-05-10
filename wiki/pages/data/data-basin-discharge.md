@@ -2,7 +2,7 @@
 title: Basin Discharge Data
 type: data
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-10
 figure_type: chart-spec
 sources: [wecs-river-basin-plan-2024, national-water-plan-nepal]
 tags: [hydrology, discharge, seasonal, basins]
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # Basin Discharge Data
+
+## Summary
 
 Consolidated discharge data for Nepal's major river basins. Public sources reference these numbers; provenance varies.
 
@@ -36,6 +38,12 @@ These basin numbers need a scope label every time they are reused:
 
 Both can be valid at once. The conflict only appears when the measurement point is omitted.
 
+## Coverage / Method
+
+- **WECS river basin plan 2024:** MIKE SHE / MIKE Hydro Basin model-derived discharge at Nepal-India border for major basins. Includes climate-adjusted hydrology and sediment-transport coupling.
+- **National Water Plan:** Older gauge-based baseline with different measurement points and methodologies.
+- **Peak-to-dry ratios:** Basin-scale approximations derived from modeled monthly hydrographs. Individual tributaries and gauge stations may show different ratios.
+
 ## National Aggregate
 
 - Total average annual runoff: ~**225 BCM** (National Water Plan estimate)
@@ -53,6 +61,13 @@ Both can be valid at once. The conflict only appears when the measurement point 
 > [!cite] basin discharge review
 > "Glacier-fed rivers have dry-season stability ratios of 0.3–0.5 of mean flow vs. 0.05–0.15 for monsoon-fed rivers."
 
+## Caveats
+
+- Discharge figures are model-derived; gauge-based records may differ by basin and measurement point.
+- Peak-to-dry ratios are basin-scale approximations; individual tributaries may vary.
+- Monsoon share percentages reflect long-term averages; inter-annual variability (ENSO, IOD) can shift these bands.
+- The Karnali basin has the best dry-season stability but also the most remote infrastructure, so hydrological advantage does not translate directly to buildable projects.
+
 ## Linked Data
 
 - [nepal_basin_seasonality_baseline.csv](../../../data/processed/tables/nepal_basin_seasonality_baseline.csv) — merged 9-basin seasonality table with basin type, seasonal splits, source notes, and caution flags.
@@ -69,3 +84,8 @@ Both can be valid at once. The conflict only appears when the measurement point 
 ## Chart Specification
 
 A useful next visualization would overlay seasonal flow profiles for all four major basins plus one medium-basin comparator on a single 12-month chart, with the monsoon window shaded. This makes [[seasonal-mismatch]] visually obvious and shows why border-basin averages and gauge means should not be mixed carelessly.
+
+## Sources
+
+- [[wecs-river-basin-plan-2024]]
+- [[national-water-plan-nepal]]

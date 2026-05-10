@@ -10,6 +10,8 @@ page_quality: analysis
 
 # Bottleneck Hierarchy
 
+This page ranks Nepal's energy system bottlenecks by bindingness, showing that the answer changes depending on whether you ask about deep structural cause or immediate practical blocker.
+
 Ranked bottlenecks for Nepal's hydropower system, synthesized across the source notes, data pages, and system-analysis pages. The ranking carries an important nuance: the answer changes depending on whether you ask about deep structural cause or immediate practical blocker.
 
 ## Tier 1 — Binding Constraints

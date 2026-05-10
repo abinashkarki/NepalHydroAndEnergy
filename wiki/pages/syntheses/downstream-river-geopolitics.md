@@ -10,6 +10,8 @@ page_quality: analysis
 
 # Downstream River Geopolitics
 
+This page explains how Nepal-origin rivers connect to downstream life-support systems across the Ganges basin — and why upstream storage, regulation, and climate decisions matter far beyond Nepal's borders.
+
 The geopolitics preset should answer a larger question than "where do the rivers go?" It should show how Nepal-origin rivers connect Himalayan water, future hydropower buildout, downstream agriculture, flood risk, dry-season scarcity, and regional bargaining power.
 
 Nepal is not the sole author of the Ganges system, but it is an unusually important upstream contributor. Strategic basin literature commonly frames Nepal as only about **13% of the Ganges basin area**, while contributing roughly **40-45% of mean annual flow** and **70-80% of dry-season flow** in older Farakka-style accounting. Those figures need careful sourcing and caveats, but the strategic direction is clear: Nepal matters most when timing matters most.

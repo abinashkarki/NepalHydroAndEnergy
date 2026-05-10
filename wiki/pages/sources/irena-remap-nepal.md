@@ -2,7 +2,7 @@
 title: IRENA Renewable Readiness Assessment and REmap Nepal
 type: source
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-10
 source_type: report
 source_author: International Renewable Energy Agency (IRENA)
 source_date: 2023-01-01
@@ -13,6 +13,8 @@ page_quality: analysis
 ---
 
 # IRENA Renewable Readiness Assessment and REmap Nepal
+
+## Summary
 
 Primary international source for **solar and renewable cost benchmarking** against Nepal specifics. Two IRENA document streams are relevant:
 
@@ -61,28 +63,29 @@ The RRA identifies five priority barriers:
 
 Most of these overlap with the [[bottleneck-hierarchy]] for hydro, with one addition specific to solar: **absence of land/permitting framework** for utility-scale ground-mount.
 
-## Why this source matters to the project
+## Relevance
 
 - Provides the **global LCOE benchmarks** the [[solar-lcoe-crossover]] and [[data-solar-hydro-lcoe]] pages rely on.
 - Gives an **externally-credentialed estimate of Nepal solar potential** without the over-promise of some national documents.
-- Frames the **barriers analysis** in language compatible with donor programs — useful for mapping AEPC / EIB / WB programme gaps.
-- The REmap pathway is a reasonable benchmark against which to judge the NEA/MoEWRI 2024/25 actual trajectory (960 MW tender + 170 MW PPA + 142 MW operating).
+- Frames the **barriers analysis** in language compatible with donor programs.
+- The REmap pathway is a normative scenario against which the NEA/MoEWRI 2024/25 actual trajectory (960 MW tender + 170 MW PPA + 142 MW operating) can be compared. For the interpretive use of this benchmark in portfolio planning, see [[solar-role-in-winter-deficit]].
 
-## Data-quality and caveats
+## Limitations
 
 - IRENA's Nepal "technical potential" estimates vary widely (50,000–100,000+ MWp) depending on whether high-mountain inaccessible land is counted. **Only the Zone A trans-Himalayan + Zone B Terai + Zone C mid-hill deployable fraction (~15,000–25,000 MWp) matters for real planning**; see [[data-solar-fleet-inventory]] potential pyramid.
 - IRENA REmap pathways are **normative scenarios, not forecasts.** Use for direction of travel, not for calendar-year predictions.
 - Global LCOE benchmarks reflect **weighted averages**; Nepal-specific numbers should always be context-adjusted for grid costs, land costs, and FX.
 
-## Relevance to project
+## Used By
 
-Anchor citation for:
+Verified via grep. Pages that cite this source:
 
+- [[claim-solar-cheaper-than-small-hydro]]
 - [[solar-lcoe-crossover]]
 - [[data-solar-hydro-lcoe]]
-- [[data-solar-fleet-inventory]] (potential pyramid)
-- [[solar-resource-geography-nepal]]
-- [[claim-solar-cheaper-than-small-hydro]]
+- [[global-solar-atlas-nepal]]
+- [[wb-esmap-solar-resource-assessment]]
+- [[solar-role-in-winter-deficit]]
 
 ## Related
 

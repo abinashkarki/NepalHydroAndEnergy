@@ -2,7 +2,7 @@
 title: "Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal"
 type: source
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-10
 tags: [source, financial, ppa, icra-nepal, care-ratings, tariff]
 images: []
 page_quality: analysis
@@ -17,9 +17,9 @@ page_quality: analysis
 
 This investigation targets data gaps in Nepal's hydropower financial landscape, reconstructed from primary credit rating agency reports. It covers:
 
-- **Mission 1**: Forensic reconstruction of Sahas Urja Limited (86 MW Solu Khola) — the benchmark private IPP success story
+- **Mission 1**: Forensic reconstruction of Sahas Urja Limited (86 MW Solu Khola) — a documented private IPP financial profile
 - **Mission 2**: Comparative PPA tariff matrix for five priority projects (Chilime, Sanima Mai, Rasuwagadhi, Trishuli 3A, Nyadi)
-- **Mission 3**: Mathematical proof of NEA subsidiary vs. private IPP rate differential (37.1% revenue advantage via Chilime anomaly)
+- **Mission 3**: Mathematical reconstruction of NEA subsidiary vs. private IPP rate differential (37.1% revenue advantage via Chilime anomaly)
 - **Mission 4**: Insurance market quantitative verification (Sanima Mai pays 1.80% of gross revenue in non-life premiums)
 
 ## Key Findings
@@ -36,7 +36,7 @@ This investigation targets data gaps in Nepal's hydropower financial landscape, 
 | Upper Trishuli 3B | 37.0 | 4.80 | 8.40 | Subsidiary Corp | — |
 | Nyadi | 30.0 | 4.80 | 8.40 | Private IPP | 2015 |
 
-### Sahas Urja (Solu Khola, 86 MW) — The Benchmark
+### Sahas Urja (Solu Khola, 86 MW) — Financial Profile
 
 - **Final build cost**: NPR 172–175 million/MW (industry average often exceeds NPR 200–250M)
 - **FY 2080/81 revenue**: NPR 2.648 billion
@@ -47,7 +47,7 @@ This investigation targets data gaps in Nepal's hydropower financial landscape, 
 - **10-bank syndicate** led by Nepal Investment Bank, 76% debt-financed
 - **Promoter**: Him Prasad Pathak — also controls Times Energy (341 MW Budhi Gandaki), Secretary at IPPAN
 
-### Subsidiary vs. IPP Rate Differential (Proven)
+### Subsidiary vs. IPP Rate Differential (Document finding)
 
 Chilime's "Regular/Excess" billing architecture produces an effective blended rate of **NPR 7.57/kWh** vs. a typical private IPP's **NPR 5.52/kWh** — a **37.1% revenue advantage**. Chilime classified 85% of its 156 GWh generation as "Regular" at NPR 8.17/kWh.
 
@@ -60,6 +60,24 @@ Sanima Mai Hydropower paid NPR 13.77 million in non-life premiums against NPR 76
 - SEBON IPO prospectuses are scanned-image PDFs — no automated parsing possible
 - IPPAN's "800% premium surge" claim source inaccessible (server timeout)
 - Specific OAGN paragraph condemning PPA favoritism for subsidiaries not isolated
+
+## Limitations
+
+- **Compilation nature:** This is a reconstructed investigative report, not a primary rating agency publication. Individual claims should be traced to the underlying ICRA / CARE documents where possible.
+- **Scanned sources:** SEBON prospectuses referenced are image-based PDFs; figures were manually transcribed and may contain transcription errors.
+- **Single-promoter focus:** The Sahas Urja profile, while detailed, represents one successful promoter. It is not necessarily representative of average private IPP performance.
+- **Snapshot date:** Financial data reflects FY 2080/81 or earlier; market conditions (tariffs, interest rates, construction costs) may have shifted.
+- **Inaccessible sources:** Some referenced documents (e.g., IPPAN premium surge claim) were not retrievable at time of compilation.
+
+## Used By
+
+Verified via grep. Pages that cite this source:
+
+- [[rasuwagadhi]]
+- [[upper-trishuli-3b]]
+- [[icra-nepal-surveillance-a996-b119]]
+- [[sahas-urja-benchmark-icra-2026]]
+- [[sector-financial-analysis-triple-authority-2026]]
 
 ## See Also
 

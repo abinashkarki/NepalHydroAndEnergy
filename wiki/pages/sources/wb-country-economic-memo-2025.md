@@ -31,6 +31,19 @@ The World Bank's comprehensive economic assessment of Nepal with a significant e
 - System losses: ~**12.7%** in 2024
 - September 2024 floods/landslides damaged 11 operational projects with >600 MW combined capacity
 
-## Relevance to Project
+## Relevance
 
-Key source for the IPP-driven growth story, the trade transformation timeline, and the reliability gap (load shedding gone but outages persist). . The firm-level outage data (76%) is uniquely valuable for the reliability argument in [[stranded-generation]]. Trade shift data central to [[data-trade-time-series]].
+Key source for the IPP-driven growth story, the trade transformation timeline, and the reliability gap (load shedding gone but outages persist). The firm-level outage data (76%) is uniquely valuable for the reliability argument in [[stranded-generation]]. Trade shift data central to [[data-trade-time-series]].
+
+## Limitations
+
+- **Snapshot date:** Published March 2025; covers data through end-2024. Does not capture 2025 capacity additions or trade shifts.
+- **Firm-level data:** The 76% outage figure and 13% sales-loss figure are from a World Bank enterprise survey (2022) — representative but not annual-update series.
+- **Trade data:** The 2023 import/export figures are calendar-year approximations from the report narrative, not identical to NEA fiscal-year accounting.
+
+## Used By
+
+- [[claim-mw-not-equal-value]]
+- [[stranded-generation]]
+- [[data-trade-time-series]]
+- [[bottleneck-hierarchy]]

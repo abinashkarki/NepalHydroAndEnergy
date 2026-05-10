@@ -69,7 +69,7 @@ Same dam height, **180x less storage**. Nepal's topography simultaneously enable
 
 A 2021 Oxford University study (Blakers et al., *Clean Energy*) identified **~2,800 off-river pumped hydro energy storage sites** in Nepal with combined storage capacity of **~50 TWh**. To balance a 100% renewable Nepal at advanced-economy consumption levels (~500 TWh/yr), only **~1.5 TWh** of storage is needed. Nepal has **17x more pumped-hydro potential than it would ever need** — entirely off-river, avoiding the valley-shape paradox.
 
-This reframes the storage deficit: Nepal is not storage-poor in potential — it is storage-poor in **executed infrastructure**. The bottleneck is capital, governance, and institutional will, not geology. See also [[data-mountain-hydro-comparison]].
+This reframes the storage deficit observationally: Nepal has significant off-river pumped-hydro potential (~50 TWh) but very little executed seasonal storage infrastructure. The gap between potential and execution is documented in [[master-thesis]] and [[bottleneck-hierarchy]] as a systems-conversion failure, not a geological absence. See also [[data-mountain-hydro-comparison]].
 
 ## Linked Data
 

@@ -2,7 +2,7 @@
 title: Storage Deficit
 type: concept
 created: 2026-04-14
-updated: 2026-04-24
+updated: 2026-05-10
 sources: [wb-water-sector-diagnostic, national-water-plan-nepal, nea-annual-report-fy2024-25]
 tags: [reservoir, water-security, seasonality, infrastructure, nepal]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # Storage Deficit
 
+## Summary
+
 Nepal’s energy crisis is often narrated as a shortage of projects. At the water–energy interface, the sharper truth is often a shortage of **seasonal inventory**: **storage deficit**—the gap between the impoundment capacity needed to re-time monsoon water to dry-season scarcity and what actually exists on the ground.
+
+## Simple Explanation
+
+Nepal gets most of its river water in the monsoon but needs electricity year-round. Storage means holding monsoon water in reservoirs to release it in dry months. Nepal has almost none compared to other countries, so even though it has lots of rivers, it cannot shift energy from wet to dry season.
 
 ## Orders of magnitude
 
@@ -41,3 +47,24 @@ Nepal’s steep gradients are good for **head** and therefore for RoR hydropower
 ## Why storage is politically hard even when physically “obvious”
 
 Seasonal mismatch ([[seasonal-mismatch]]) makes storage the clearest physical answer for evening and multi-week scarcity, but projects collide with **sedimentation**, **seismic hazard**, **resettlement**, **financing**, and **treaty-dependent** downstream politics. That is why [[buildability]] matters as much as MW: a reservoir is not a line on a map until the whole engineering–social–finance package survives scrutiny. [[tanahu-hydropower|Tanahu]] (140 MW, 67% complete after ~10 years) is the test case for whether Nepal can deliver a reservoir at all — and [[kulekhani-i|Kulekhani's]] ~24% gross / ~19% live sedimentation loss is the warning for what happens after commissioning.
+
+## Common Misunderstandings
+
+- **"More dams automatically solve the problem"** — Nepal's narrow V-shaped valleys make large reservoirs hard to build. Storage is physically obvious but geologically and socially constrained.
+- **"Storage means more total energy"** — storage re-times energy; it does not create new energy. The monsoon inflow is the same with or without a dam.
+- **"Kulekhani proves Nepal can build storage"** — Kulekhani is small (60 MW + cascade) and has lost ~24% of gross storage to sediment. It is the exception that proves the scale of the gap, not a template for replication.
+
+## Related
+
+- [[seasonal-mismatch]] — the problem storage addresses
+- [[firm-power]] — what storage actually delivers
+- [[budhigandaki]] — the largest proposed reservoir
+- [[dudhkoshi-storage]] — multi-basin storage concept
+- [[data-storage-comparison]] — international storage comparison table
+- [[kulekhani-cascade]] — Nepal's only operational storage
+
+## Sources
+
+- [[wb-water-sector-diagnostic]]
+- [[national-water-plan-nepal]]
+- [[nea-annual-report-fy2024-25]]

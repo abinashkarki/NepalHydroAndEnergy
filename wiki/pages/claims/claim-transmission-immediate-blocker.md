@@ -62,6 +62,12 @@ The pattern confirms the claim: **piecemeal progress with persistent local-resis
 - [[hetauda-bharatpur-bardaghat-corridor]] — 220 kV east–west spine
 - [[dana-kushma-butwal-corridor]] — 220 kV west-central evacuation
 
+## Boundary Conditions
+
+- This claim is about **immediate monetization** bottlenecks, not the only system bottleneck. It does not claim transmission alone solves seasonal mismatch or storage deficit.
+- It does not claim all curtailment is transmission-caused; market-absorption limits and scheduling failures also strand energy.
+- It does not claim the 400 kV backbone completion eliminates all west/east evacuation constraints; distribution and substation capacity may remain binding.
+
 ### Cross-border pages
 
 - [[dhalkebar-muzaffarpur]] — the only operational 400 kV cross-border
