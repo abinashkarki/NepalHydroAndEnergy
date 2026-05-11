@@ -2,7 +2,7 @@
 title: Tanahu Hydropower Project
 type: entity
 created: 2026-04-14
-updated: 2026-04-20
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [tanahu-adb-status-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
@@ -56,6 +56,8 @@ images:
 ---
 
 # Tanahu Hydropower Project
+
+## Summary
 
 A 140 MW **storage-type** reservoir scheme on the Seti River — the
 only large dam-and-reservoir project actually in active construction

@@ -3,7 +3,7 @@ title: Kataiya–Kushaha 132 kV Cross-Border Interconnection
 type: entity
 category: cross-border
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 132kv, cross-border, india, historic, kataiya, kushaha]
 generator: manual
@@ -42,7 +42,7 @@ politics.
   arrangements (e.g. the Radhika energy exchange protocol) were
   framed around this single link.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Legacy voltage.** 132 kV thermal capacity is small relative to the
   region's modern load. During load growth spikes it has required

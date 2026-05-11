@@ -2,7 +2,7 @@
 title: Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale
 type: claim
 created: 2026-04-24
-updated: 2026-05-07
+updated: 2026-05-11
 claim_id: C-016
 confidence: medium
 status: stable

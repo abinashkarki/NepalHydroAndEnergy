@@ -3,7 +3,7 @@ title: Khimti–Dhalkebar 220 kV Hydropower Corridor
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 220kv, ipp, khimti, dolakha, sindhuli]
 generator: manual
@@ -11,6 +11,8 @@ page_quality: analysis
 ---
 
 # Khimti–Dhalkebar 220 kV Corridor
+
+## Summary
 
 The original "IPP-to-grid" line in Nepal. Built to evacuate **[[khimti-i]]** —
 the country's first large IPP (1996 PPA, 2000 commissioning) — toward
@@ -45,7 +47,7 @@ that surround it.
   [[dhalkebar-muzaffarpur]]. Roughly half of Nepal's exportable
   hydropower still routes through it.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Capacity is effectively full.** Contracted flow from Khimti-I +
   downstream IPPs exceeds 300 MW in peak monsoon; a second 220 kV

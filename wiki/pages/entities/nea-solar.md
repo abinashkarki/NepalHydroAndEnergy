@@ -2,7 +2,7 @@
 title: NEA Solar Programme
 type: entity
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-11
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, doed-solar-power-plants-table, nea-solar-loi-2024]
 tags: [nea, solar, utility, programme, tender, bidur-trishuli, 960mw, ppa]
 generator: manual
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # NEA Solar Programme
+
+## Summary
 
 The **utility-scale grid-tied solar programme** operated by Nepal Electricity Authority. Sits inside NEA as a distinct programme line that has grown from a single 25 MWp NEA-EPC plant (Bidur/Trishuli, 2022) to a ~1.1 GWp pipeline as of FY 2024/25.
 
@@ -77,7 +79,7 @@ Phase I–III plants were small enough (0.5–25 MWp) that land was project-spec
 
 ### 2. Grid integration at 1+ GW solar
 
-The cumulative grid impact study NEA completed under Phase IV anticipates **4–6% instantaneous-penetration events by 2027** when 960 MW is partially commissioned. Forecast management, BESS requirements, and reactive-power compensation need to be designed in now.
+The cumulative grid impact study NEA completed under Phase IV anticipates **4–6% instantaneous-penetration events by 2027** when 960 MW is partially commissioned. Forecast management, BESS requirements, and reactive-power compensation remain pre-commissioning design dependencies.
 
 ### 3. PPA exposure balance
 
@@ -86,6 +88,18 @@ NEA's PPA liability has grown to **NPR 77.1B annual electricity purchase cost** 
 ### 4. Talent depth
 
 NEA's solar engineering depth is thin; the Grid Solar & EE Project invested in training but the talent base for an additional 1 GW programme is a 3–5 year capacity-build, not a tender-cycle fix.
+
+## Limitations & Controversies
+
+**No dedicated solar directorate.** The programme is scattered across five NEA directorates (Generation, Project Management, Transmission, Distribution, Engineering Services). The 960 MW tender exposed coordination friction; a consolidated Renewable Energy Directorate does not yet exist.
+
+**Land acquisition at scale untested.** Phase IV (960 MW) triggers land-at-scale questions that NEA has no office to answer. Fee-simple purchase in the Terai is politically contentious; agrivoltaic lease templates are not yet in tender documents.
+
+**Grid integration at 1+ GW untested.** The cumulative grid impact study anticipates 4–6% instantaneous-penetration events by 2027. Forecast management, BESS requirements, and reactive-power compensation remain pre-commissioning design dependencies.
+
+**PPA liability exposure growing.** Solar PPAs add ~NPR 6–8B/year to NEA's NPR 77.1B annual electricity purchase cost. The single-buyer model plus fixed-price solar PPAs creates a structural interest-rate-sensitive liability.
+
+**Talent depth gap.** NEA's solar engineering capacity is thin for a 1 GW+ programme. The Grid Solar & EE Project invested in training, but the talent base for portfolio-scale solar is a 3–5 year build, not a tender-cycle fix.
 
 ## Related
 

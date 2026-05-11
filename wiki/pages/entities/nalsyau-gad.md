@@ -2,7 +2,7 @@
 title: Nalsyau Gad
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -161,7 +161,7 @@ Key geological considerations include:
 - **GLOF exposure** — lower than the Dudh Koshi or Arun basins, but the upper Karnali
   has glacially-fed tributaries that require assessment
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Survey-stage data only.** The JICA IPSDP figures are screening-level, not bankable.
   A full feasibility study could shift capacity, energy, or storage numbers materially.

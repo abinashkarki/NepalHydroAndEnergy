@@ -3,7 +3,7 @@ title: Upper Arun Hydroelectric Project
 type: entity
 category: hydropower-project
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
 tags: [hydropower, arun, storage-study, upper-arun]
 images:
@@ -43,6 +43,8 @@ page_quality: analysis
   <figcaption>ERT survey at IkhuwaKhola HPP (IKHPP) Core Drilling at JawaTila</figcaption>
 </figure>
 
+## Summary
+
 An Upper Arun scheme in Sankhuwasabha that the FY 2019/20 annual book presents
 as one of NEA's major study-to-development priorities, with route access,
 geology, detailed engineering preparation, and 3D scheme visualization all
@@ -60,6 +62,14 @@ still in progress.
 - It belongs with [[arun-3]] and [[nepal-transmission-landscape-2025]] because
   any future Upper Arun build would need both project delivery and corridor
   evacuation to line up.
+
+## Limitations & Controversies
+
+**Study-to-development pipeline gap.** As of FY 2019/20, route access, geology, detailed engineering preparation, and 3D scheme visualization were all still in progress. No capacity figure, design energy estimate, or committed construction timeline has been published.
+
+**Corridor dependency.** Any future Upper Arun build would need both project delivery and corridor evacuation to line up with [[arun-3]] infrastructure and the [[nepal-transmission-landscape-2025]] backbone. The project cannot advance independently of these larger system decisions.
+
+**No bankable parameters.** Unlike Arun-3 (900 MW, 30-year BOOT, September 2026 COD target), Upper Arun lacks quantified specifications in public sources. This limits its usefulness in system planning and financing discussions.
 
 ## See also
 

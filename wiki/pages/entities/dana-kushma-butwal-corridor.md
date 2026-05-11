@@ -3,7 +3,7 @@ title: Dana–Kushma–New Butwal 220 kV Corridor
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [transmission, 220kv, kali-gandaki-basin, west-central, ipp]
 images:
@@ -32,6 +32,8 @@ page_quality: analysis
 ---
 
 # Dana–Kushma–New Butwal 220 kV Corridor
+
+## Summary
 
 The west-central hydropower evacuation corridor — running from the
 upper **Kali Gandaki** valley (Dana, Kushma, Parbat) down to **New Butwal**.
@@ -67,7 +69,7 @@ Current validation result: 2 features, 0 inferred connectors, 0 remaining endpoi
 - **Significance for [[kali-gandaki-a]]'s downstream cascade.** The
   corridor accommodates future cascade additions in the basin.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Terrain risk.** Myagdi-Parbat segment climbs steep, landslide-prone
   terrain; 2023 monsoon damage required emergency tower reinforcement.

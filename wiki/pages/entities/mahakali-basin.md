@@ -2,7 +2,7 @@
 title: Mahakali Basin
 type: entity
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-11
 sources: [wecs-river-basin-plan-2024]
 tags: [basin, river, border, treaty, pancheshwar]
 images:
@@ -32,7 +32,7 @@ page_quality: analysis
 
 # Mahakali Basin
 
-## Overview
+## Summary
 
 The Mahakali river forms Nepal's far-western border with India. It is a transboundary basin with far smaller current development than the three major eastern systems. The basin's significance is primarily **geopolitical** — it is the site of the [[pancheshwar]] multipurpose project and the subject of the 1996 Mahakali Treaty.
 
@@ -49,6 +49,16 @@ The Mahakali river forms Nepal's far-western border with India. It is a transbou
 The Mahakali Treaty (1996) entitles Nepal to 50% of [[pancheshwar]]'s output (6,480 MW total, or ~3,240 MW for Nepal). After 28+ years, Nepal has received **zero megawatts** from this treaty. See [[hydro-geopolitics]].
 
 The Mahakali already supports irrigation via the Mahakali irrigation system on the Indian side.
+
+## Limitations & Controversies
+
+**Zero megawatts after 28+ years.** The Mahakali Treaty (1996) entitles Nepal to 50% of [[pancheshwar]]'s output (~3,240 MW). After nearly three decades, Nepal has received zero megawatts. This is one of the most instructive cases of treaty promise without implementation in South Asia.
+
+**Data scarcity.** Average discharge (~600 m³/s), monsoon share (~73%), and lake count (16) are the only basin-scale figures in public sources. No detailed hydropower potential study, no sediment load data, and no climate projection specific to the Mahakali appear in the cited WECS basin plan.
+
+**Geopolitical concentration.** The basin's significance is almost entirely tied to the Nepal-India bilateral relationship. Unlike the Koshi, Gandaki, or Karnali basins — which host multiple projects and diverse financing — the Mahakali has one project (Pancheshwar) and one treaty. The basin cannot be analyzed independently of bilateral politics.
+
+**No current operating large hydropower.** Unlike the other three major basins, the Mahakali has no operating plant above a few megawatts. The basin is entirely prospective, with no operational data to ground planning assumptions.
 
 ## Strategic Notes
 

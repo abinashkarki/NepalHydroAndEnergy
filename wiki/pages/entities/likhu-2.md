@@ -2,7 +2,7 @@
 title: Likhu -2
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-11
 sources: [likhu-cascade-research-compilation]
 tags: [project, operating, private-ipp, ramechhap, okhaldhunga, koshi]
 images: []
@@ -11,6 +11,8 @@ page_quality: analysis
 ---
 
 # Likhu -2
+
+## Summary
 
 55 MW · operating · on the Likhu Khola · in Ramechhap and Okhaldhunga districts. Part of the **Likhu Cascade** (213 MW combined across 4 plants).
 
@@ -178,6 +180,16 @@ desanding basin wall on the eve of production testing (May 2021), publicly blame
 on the Indian civil contractor SSNR Projects. Green Ventures currently carries a
 CARE-NP BB rating, constrained by high capital costs and the legacy of its
 commissioning failures. See [[buildability]].
+
+## Limitations & Controversies
+
+**Grid evacuation bottleneck.** Likhu-2 generated only ~60% of contracted energy in FY 2023/24 because the New Khimti substation transformer was undersized (100 MVA) for the cascade load. This is a state transmission planning failure, not a project failure — but the revenue loss fell entirely on the private developer.
+
+**Take-and-pay exposure.** ~25% of contracted energy is on take-and-pay terms, exposed to NEA curtailment during monsoon peaks when export channels are saturated. This structural revenue leakage persists even after the transformer upgrade.
+
+**Thin interest coverage.** A 1.66x interest coverage ratio is serviceable but vulnerable to Nepal's floating interest rate environment. With NPR 8.5 billion in variable-rate debt, base rate movements can quickly erode the cushion.
+
+**Single-corridor dependency.** All four Likhu cascade plants share the New Khimti → Khimti–Dhalkebar 220 kV evacuation route. A single substation or line failure returns all four plants to stranded-generation status.
 
 ## See also
 

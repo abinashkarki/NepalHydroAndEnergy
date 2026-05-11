@@ -2,7 +2,7 @@
 title: Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project
 type: entity
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-11
 sources: [icra-nepal-surveillance-a996-b119, sahas-urja-progress-report-w010, clickmandu-financial-reporting, himalayan-capital-analysis]
 tags: [project, operating, private-IPP, solukhumbu, koshi]
 generator: manual
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # Sahas Urja Limited — Solu Khola (Dudh Koshi) Hydroelectric Project
+
+## Summary
 
 86 MW run-of-river hydropower project on the Solu Khola, a tributary of the Dudh Koshi, in Solukhumbu District, Koshi Province. Nepal's most-cited private IPP success story — and the project that proves the standard PPA rate is only viable at exceptional scale.
 
@@ -111,6 +113,16 @@ Source: Sahas Urja corporate disclosures; ICRA Nepal; Annapurna Express; ShareSa
 
 **Political connections:** The company states no political affiliations. Independent verification of promoter PEP (Politically Exposed Person) status is not possible — the SEBON IPO prospectus exists but is in non-machine-readable scanned PDF format, frustrating automated accountability tracking. Local share distribution to **8,000+ promoters including 2,900 project-affected locals** required coordination with local political structures — a documented pattern per the IFC local shares report. [UNVERIFIED: political affiliation verification beyond IFC pattern documentation.]
 
+
+## Limitations & Controversies
+
+**Non-replicable economics.** Sahas Urja's financial performance does not prove the standard NPR 4.80/8.40 PPA rate is adequate — it proves the opposite. The rate is only viable at exceptional scale (86 MW) and cost discipline (NPR 172–175M/MW) that the median 10–30 MW IPP cannot replicate.
+
+**Interest-rate leverage.** The 114.66% profit growth in FY2023/24 was driven by interest cost reduction, not operational improvement. Even the sector's strongest IPP remains heavily leveraged to macroeconomic rate cycles.
+
+**Aggressive Q41 design.** The Q41 design parameter accepts higher dry-season underutilization risk than the DoED Q45 mandate. This is a calculated bet that only works at scale; smaller projects with the same design would face worse dry-season revenue shortfalls.
+
+**Political connection opacity.** Promoter PEP status is not independently verifiable. The SEBON IPO prospectus exists only in non-machine-readable scanned PDF format, frustrating automated accountability tracking.
 
 <!-- generated:sources:start -->
 

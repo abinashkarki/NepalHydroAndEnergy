@@ -2,7 +2,7 @@
 title: Arun 3
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [arun-3-project-status-2025, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
@@ -15,6 +15,8 @@ tags: [project, watchlist, top-capacity, under-construction, koshi, sankhuwasabh
   <img src="../assets/images/arun-3/ipsdpv2-p281-img00.png" alt="Figure 6.3-25 River Longitudinal Profile of the Arun River">
   <figcaption>Figure 6.3-25 River Longitudinal Profile of the Arun River</figcaption>
 </figure>
+
+## Summary
 
 Nepal's **single largest project under construction** — a 900 MW
 peaking run-of-river scheme on the Arun River in Sankhuwasabha,

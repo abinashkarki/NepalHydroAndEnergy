@@ -2,7 +2,7 @@
 title: Karnali Basin
 type: entity
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-11
 sources: [wecs-river-basin-plan-2024, wecs-hydropower-potential-2019]
 tags: [basin, river, western-nepal, underused, stable, strategic]
 images:
@@ -27,7 +27,7 @@ page_quality: analysis
 
 # Karnali Basin
 
-## Overview
+## Summary
 
 The Karnali basin is Nepal's western major river system and the **largest by area** at ~43,153 km² within Nepal. Its tributaries include Bheri, West Seti, Humla Karnali, Mugu Karnali, and Tila. The Karnali feeds the Ghaghara, which contributes ~40% of the Ganges' baseflow at Varanasi.
 
@@ -59,6 +59,16 @@ The Karnali has the **best dry-season flow stability** of any major Nepali syste
 CMIP6 modeling projects the Karnali will experience **3–23% decrease in winter/spring discharge** by end of century, alongside **18–51% increase in monsoon/post-monsoon discharge**. Temporal concentration of water will become even more extreme. See [[peak-water]].
 
 A useful basin-specific warning from ICIMOD: over **1981–2012**, average precipitation in the Karnali study basin trended downward by **4.91 mm/year**, yet discharge stayed broadly constant over the observed record. That is exactly the kind of rainfall-flow decoupling that makes annual averages misleading for energy planning.
+
+## Limitations & Controversies
+
+**Remoteness and infrastructure gap.** Western Nepal has historically had fewer roads, less political attention, and less financing reach than the central and eastern corridors. The grid west of Butwal relies on legacy 132 kV lines incapable of handling large generation, creating a chicken-and-egg problem: no transmission, no projects; no projects, no transmission justification.
+
+**Political neglect.** Eastern-centric development patterns have systematically disadvantaged the west. Every national hydropower master plan since the 1960s has identified Karnali as a priority; none has funded the pre-feasibility or transmission backbone to make it actionable.
+
+**Climate uncertainty.** CMIP6 projects a 3–23% decrease in winter/spring discharge by end of century, alongside 18–51% increase in monsoon/post-monsoon discharge. The basin's current advantage — the best dry-season stability in Nepal — may erode, making long-lead-time investments riskier.
+
+**Karnali Chisapani remains conceptual.** At 10,800 MW, the basin's signature project has no DPR, no timeline, and no institutional champion. Four decades of appearing in master plans without advancing is a credibility tax on the entire basin.
 
 ## Downstream Significance
 

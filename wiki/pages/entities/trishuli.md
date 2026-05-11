@@ -2,7 +2,7 @@
 title: Trishuli
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-11
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
 tags: [project, operating, gandaki, nuwakot]
 images:
@@ -36,6 +36,8 @@ page_quality: analysis
   <img src="../assets/images/trishuli/nea2077-p144-img02.png" alt="Samundratar 132/33 kV Substation">
   <figcaption>Samundratar 132/33 kV Substation</figcaption>
 </figure>
+
+## Summary
 
 24 MW · operating · on the Trishuli · in Nuwakot district.
 
@@ -143,6 +145,16 @@ a plant built at low cost for its era that is now underperforming due to
 decades of normal wear. Both end up in the same place: a generation asset
 that delivers substantially below what the nameplate promises. See
 [[claim-mw-not-equal-value]].
+
+## Limitations & Controversies
+
+**Aging-fleet extreme case.** At 58 years, Trishuli is Nepal's oldest operating hydropower plant. The 1995 rehabilitation raised capacity from 21 to 24 MW, but FY 2081/82 generation was only 60% of design (97.7 GWh vs 163 GWh). The current rehab addresses electrical infrastructure but not the hydraulic core — turbine runners, guide vanes, penstock lining — where 58 years of sediment-laden Himalayan flow accumulates wear.
+
+**End-of-economic-life uncertainty.** The question is not whether Trishuli needs another rehab but whether the electromechanical core can sustain another upgrade cycle. At some point, replacement becomes cheaper than continued rehabilitation, but no public replacement strategy exists.
+
+**Progressive output decline.** The 17% year-over-year drop (FY 2080/81 to 2081/82) suggests the decline is continuing. Even after rehab, Trishuli's 60% PLF is the lowest in the NEA fleet and compares unfavorably with the private IPP median.
+
+**Rehab does not address hydraulic wear.** New transformers, switchgear, and digital governors improve reliability and safety but do not restore the turbine hydraulic efficiency lost to decades of sediment abrasion. This is a fundamental limitation of electrical-only rehabilitation on aging Himalayan plants.
 
 ## See also
 

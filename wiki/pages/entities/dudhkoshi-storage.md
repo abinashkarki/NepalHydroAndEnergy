@@ -2,7 +2,7 @@
 title: Dudhkoshi Storage Hydroelectric Project
 type: entity
 created: 2026-04-14
-updated: 2026-04-20
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [dudhkoshi-nea-proposal-2024, nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2]
@@ -36,6 +36,8 @@ images:
   <img src="../assets/images/dudhkoshi-storage/nea2077-p113-img01.png" alt="Project area of Dudhkoshi Storage">
   <figcaption>Project area of Dudhkoshi Storage</figcaption>
 </figure>
+
+## Summary
 
 A 635–670 MW **storage reservoir** scheme straddling Okhaldhunga,
 Khotang and Solukhumbu in the eastern [[koshi-basin]] — on paper, the

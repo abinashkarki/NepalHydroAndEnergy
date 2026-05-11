@@ -2,7 +2,7 @@
 title: Nepal–Bangladesh Electricity Trade Route
 type: entity
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-11
 sources: [nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [trade, bangladesh, india, trilateral, export, cross-border]
 images:
@@ -21,6 +21,8 @@ page_quality: analysis
 ---
 
 # Nepal–Bangladesh Electricity Trade Route
+
+## Summary
 
 Nepal's first electricity export to a country other than India. A trilateral arrangement routed through India's grid — making India simultaneously Nepal's competitor, buyer, and logistics gatekeeper.
 
@@ -58,6 +60,16 @@ NEA currently allocates output from **Trishuli (25 MW)** and **Chilime (22 MW)**
 - **Alternative routes under study:** Barapukuria, Panchagarh/Thakurgaon, Bheramara, Comilla corridors through India
 - **Sunkoshi III (683 MW):** Expert committee formed to evaluate this project specifically for Bangladesh supply
 - **Upper Karnali (900 MW):** GMR-developed project had a planned 500 MW PPA to Bangladesh — status uncertain after Sheikh Hasina's fall (Aug 2024)
+
+## Limitations & Controversies
+
+**India retains structural veto.** Every MW to Bangladesh requires India's Central Electricity Authority approval and transits Indian lines. India is simultaneously competitor, buyer, and logistics gatekeeper — market diversification does not reduce political dependence.
+
+**Seasonal limitation.** Exports only run June–November, perfectly overlapping Nepal's surplus window. The arrangement does nothing for dry-season revenue and is complementary to the [[seasonal-arbitrage-trap]], not a solution.
+
+**Small scale.** At 40 MW (expanding to 60 MW), Bangladesh trade is a marginal share of Nepal's export portfolio. Bangladesh's ambition of 9,000 MW by 2040 is aspirational; no committed transmission corridor or financing exists for scale beyond the current trilateral arrangement.
+
+**Political fragility.** Bangladesh's post-Hasina transition has stalled larger pipeline projects (Upper Karnali PPA, direct transmission studies). The 5-year PSA term (until October 2029) may not survive a major bilateral rupture.
 
 ## Strategic Significance
 

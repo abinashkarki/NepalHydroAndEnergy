@@ -2,7 +2,7 @@
 title: Gandaki Basin
 type: entity
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-11
 sources: [wecs-river-basin-plan-2024, wecs-hydropower-potential-2019]
 tags: [basin, river, central-nepal, developed, gorge]
 images:
@@ -32,7 +32,7 @@ page_quality: analysis
 
 # Gandaki Basin
 
-## Overview
+## Summary
 
 The Gandaki (Narayani) basin is Nepal's central major river system, draining ~32,148 km² within Nepal. Its tributaries include Kali Gandaki, Marsyangdi, Budhi Gandaki, Trishuli, Seti, Madi, and East Rapti. The Kali Gandaki gorge between Annapurna and Dhaulagiri drops >5,500 vertical meters — by some measures the world's deepest.
 
@@ -62,6 +62,14 @@ The proposed [[budhigandaki]] (1,200 MW) would be the basin's first major storag
 ## Downstream Significance
 
 The Gandak system irrigates ~1.5–2 million ha in Bihar and eastern Uttar Pradesh. The Gandak Treaty (1959) gave Nepal only 15 MW from a major barrage — one of the most cited examples of treaty asymmetry. See [[hydro-geopolitics]].
+
+## Limitations & Controversies
+
+**Sediment as design constraint.** The Kali Gandaki A plant is the definitive case study for turbine erosion. Suspended sediment spikes from 20 ppm (dry) to 50,000 ppm (monsoon), with 65 million tonnes/year passing the dam site. Abrasive silt is a first-order design constraint across the basin, not just an implementation detail after head and flow are set.
+
+**Treaty asymmetry.** The Gandak Treaty (1959) gave Nepal only 15 MW from a major barrage — one of the most cited examples of treaty inequity in South Asian water governance. Future projects in this basin carry the memory of that history.
+
+**Most developed does not mean fully tapped.** Road access and institutional familiarity have concentrated development on the main stem and larger tributaries. Significant untapped potential remains on smaller tributaries, but the financing and grid-access gaps that blocked them historically persist.
 
 ## Map Assets
 

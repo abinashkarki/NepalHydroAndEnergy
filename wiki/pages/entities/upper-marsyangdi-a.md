@@ -2,7 +2,7 @@
 title: Upper Marsyangdi A
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-11
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, gandaki]
 images: []
@@ -11,6 +11,8 @@ page_quality: analysis
 ---
 
 # Upper Marsyangdi A
+
+## Summary
 
 Upper Marsyangdi A is a **50 MW operating run-of-river** plant on the
 Marsyangdi River in Lamjung District — the **upstream anchor** of the
@@ -117,6 +119,14 @@ This makes Upper Marsyangdi A a case study in why the Marsyangdi basin —
 and Nepal's cascade-heavy river systems generally — needs integrated
 water accounting rather than project-level licensing. See [[gandaki-basin]]
 and [[seasonal-mismatch]].
+
+## Limitations & Controversies
+
+**Regulatory gap in cascade water allocation.** Nepal's water allocation framework does not cascade-bind PPA obligations. When Upper Marsyangdi A diverts river flow through its headrace, the downstream plant ([[madhya-marsyangdi]]) has no contractual remedy against reduced dry-season inflow — a problem the current licensing structure does not address.
+
+**Opaque operational data.** NEA annual reports cover NEA-owned plants in detail but do not publish private IPP generation data. Upper Marsyangdi A's actual performance — PLF, maintenance cost trajectory, and sediment wear rates — is not publicly available, limiting its usefulness as a benchmark for downstream projects.
+
+**Sediment management externality.** As the uppermost plant in the cascade, Upper Marsyangdi A's intake desander performance and headrace sediment passage directly affect turbine wear at Madhya Marsyangdi downstream. This operational interdependence is not priced or regulated across project boundaries.
 
 ## Sources
 

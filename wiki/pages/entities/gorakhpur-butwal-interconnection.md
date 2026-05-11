@@ -3,7 +3,7 @@ title: Gorakhpur–New Butwal 400 kV Cross-Border Interconnection
 type: entity
 category: cross-border
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 400kv, cross-border, india, butwal, gorakhpur, under-construction]
 generator: manual
@@ -11,6 +11,8 @@ page_quality: analysis
 ---
 
 # Gorakhpur–New Butwal 400 kV Interconnection
+
+## Summary
 
 Nepal's second 400 kV cross-border link, under construction. When
 commissioned it will double Nepal's 400 kV export capacity and break
@@ -44,7 +46,7 @@ substation.
   little export value without this link — the two projects are
   schedule-linked in NEA's integrated resource plan.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Schedule slippage.** The Indian side has slipped repeatedly since
   the 2018 MoU; completion dates have moved from 2022 → 2024 → 2026.

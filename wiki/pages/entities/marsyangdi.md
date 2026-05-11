@@ -2,7 +2,7 @@
 title: Marsyangdi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-11
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
 tags: [project, operating, gandaki, gorkha]
 images:
@@ -57,6 +57,8 @@ page_quality: analysis
   <figcaption>Radial Gates 2 and 3</figcaption>
 </figure>
 
+## Summary
+
 69 MW · operating · on the Marsyangdi · in Gorkha district.
 
 <!-- generated:specs:start -->
@@ -108,7 +110,7 @@ accumulated over **15,000 GWh** of lifetime generation.
 > registry and the auto-generated spec table list the district as
 > Gorkha. The NEA's own FY 2024/25 report places Marsyangdi in
 > **Tanahun district**, Gandaki Province. The map data reflects
-> the registry and likely needs correction. The narrative here
+> the registry. The narrative here
 > follows the NEA source.
 
 This fiscal year, Marsyangdi completed overhaul of Unit No. 2 and
@@ -160,6 +162,16 @@ scope is expanding. Radial gates, desander basin components, gantry
 crane wire rope, shaft seals — these are not routine wear items. They
 are the visible surface of an aging electromechanical fleet that NEA's
 capital budget will eventually need to confront at scale.
+
+## Limitations & Controversies
+
+**Aging fleet anchor.** At 36 years, Marsyangdi is the second-oldest large NEA plant still in regular service. The Unit 2 overhaul completed in FY 2081/82 is routine, but the plant approaches an age where full electromechanical replacement becomes a binary decision. Every rehab introduces outage risk during dry season — precisely when [[storage-deficit]] exposure peaks.
+
+**Registry data error.** The Ministry of Energy registry lists the district as Gorkha; the NEA FY 2024/25 report places Marsyangdi in Tanahun. The map data currently reflects the registry; this remains a reconciliation item. This kind of slug-location mismatch is a recurring data-quality issue across NEA's multi-source reporting.
+
+**Non-replicable performance context.** Marsyangdi's 97% of design energy is exceptional against the private IPP baseline, but it was built as an NEA plant in the 1980s with conservative Q-design, pre-climate-shift hydrology, and sovereign financing. The conditions that produced this performance are not replicable for modern private IPPs operating under the current PPA regime.
+
+**Cannot escape seasonal mismatch.** Even at 97% annual performance, Marsyangdi undergoes the classic RoR seasonal collapse — monsoon surplus tapering to a fraction of nameplate in January–February. The plant is a benchmark for design discipline, not a solution to [[seasonal-mismatch]].
 
 ## See also
 

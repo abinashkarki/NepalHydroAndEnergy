@@ -2,7 +2,7 @@
 title: Karnali Chisapani Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-06
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [wecs-hydropower-potential-2019, wb-ganges-strategic-basin-assessment, jica-ipsdp-main-report-vol2]
@@ -10,6 +10,8 @@ tags: [project, storage, conceptual, karnali, mega-project, bilateral]
 ---
 
 # Karnali Chisapani Project
+
+## Summary
 
 The **largest single hydropower project ever proposed for Nepal** at 10,800 MW — an order of magnitude beyond anything operating or under construction. Located on the [[karnali-basin]] main stem near the Chisapani gorge in the western Terai, this is the project that would transform Nepal into one of Asia's major power producers. It is also the most purely conceptual project in the wiki: no DPR, no timeline, and no single institution driving it forward.
 
@@ -62,6 +64,18 @@ No timeline exists. The project has never progressed beyond basin-level reconnai
 | Treaty framework | None |
 | Earliest conceivable COD | 2040s (optimistic) |
 
+
+## Limitations & Controversies
+
+**Scale far exceeds Nepal's fiscal capacity.** At an estimated USD 10–15 billion (roughly one-third of annual GDP), the project requires co-investment at a scale Nepal has never attempted. Even a fractional commitment would strain sovereign balance sheets.
+
+**No institutional champion.** Unlike Budhigandaki (Budhigandaki Company Limited), Dudhkoshi (NEA/AIIB), or Arun-3 (SJVN India), Karnali Chisapani has no developer, no lead financier, and no project office. It exists only in basin-scale assessments.
+
+**Valley-shape dead-storage constraint.** Despite a ~270 m dam height, steep Karnali valley walls mean ~12,000 MCM of the 28,200 MCM total is dead storage below the lowest outlet level. This caps flood-control and irrigation-regulation value regardless of dam height.
+
+**Bilateral dependency with no treaty framework.** The project requires India as co-investor and primary buyer (no other market can absorb 10,800 MW), but no bilateral treaty or joint project entity exists. The Pancheshwar precedent — 30 years, zero output — does not inspire confidence.
+
+**Displacement at unprecedented scale.** A 270 m dam on the Karnali main stem would displace tens of thousands across multiple districts. Nepal's largest displacement to date (Budhigandaki, ~8,117 households) is domestic; a binational resettlement plan has no precedent.
 
 ## Historical Context
 

@@ -2,7 +2,7 @@
 title: Koshi Basin
 type: entity
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-11
 sources: [wecs-river-basin-plan-2024, icimod-koshi-basin, icimod-koshi-sediment-threats, wecs-hydropower-potential-2019]
 tags: [basin, river, eastern-nepal, glacier, sediment, flood]
 images:
@@ -32,7 +32,7 @@ page_quality: analysis
 
 # Koshi Basin
 
-## Overview
+## Summary
 
 The Koshi (Sapta Koshi) basin is Nepal's eastern major river system. It drains ~27,818 km² within Nepal through seven major tributaries, including the Arun, Tamor, and Sunkoshi. The Arun is one of Nepal's oldest rivers — older than the Himalayas themselves, predating the mountain uplift.
 
@@ -64,6 +64,16 @@ Largest gross potential of any basin in Nepal per [[wecs-hydropower-potential-20
 ## Downstream Significance
 
 Koshi irrigates ~500,000–600,000 ha in Bihar. Supports >40 million people downstream. Contributes disproportionate sediment to the Ganges system. Central to [[hydro-geopolitics]] and [[ganges-contribution]].
+
+## Limitations & Controversies
+
+**Extreme sediment loads.** The basin carries ~120 Mt/yr into the Ganges system — nearly 25% of the total sediment load. This makes every project in the basin a [[sediment-as-design-constraint]] case study, with turbine erosion and reservoir siltation as permanent operating risks.
+
+**Flood hazard.** Known as the "River of Sorrow" in Bihar due to catastrophic flooding and course shifts. The 2008 Koshi breach displaced 2+ million people. A dam or barrage failure in this basin would have cross-border consequences an order of magnitude beyond any single project.
+
+**GLOF exposure.** The 2024 Thame Valley GLOF traveled >80 km down the Dudh Koshi, destroying hydropower facilities. With 278 glaciers and 51 km³ of ice volume, the basin has the highest GLOF frequency risk in Nepal.
+
+**Peak-to-dry ratio of 25–50:1.** The most extreme seasonal flow variation of any major basin, making run-of-river projects structurally winter-poor and concentrating value in the monsoon months when prices are lowest.
 
 ## Map Assets
 

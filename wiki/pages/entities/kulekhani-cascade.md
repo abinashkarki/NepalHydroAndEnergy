@@ -2,7 +2,7 @@
 title: Kulekhani Cascade
 type: entity
 created: 2026-04-14
-updated: 2026-05-06
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [nea-annual-report-fy2024-25]
@@ -51,6 +51,8 @@ images:
   <img src="../assets/images/kulekhani-cascade/nea2425-p021-img01.png" alt="Energy generation pattern of PROR/ROR and storage (GWh)">
   <figcaption>Energy generation pattern of PROR/ROR and storage (GWh)</figcaption>
 </figure>
+
+## Summary
 
 Nepal's **only operating reservoir hydropower system**. A cascade of three plants on the Kulekhani River, approximately 50 km south of Kathmandu in Makwanpur district. Built with World Bank support in the 1970s–1980s, it remains — 40+ years later — the single operational counterexample to Nepal's otherwise entirely run-of-river fleet.
 
@@ -135,6 +137,14 @@ If this assumption holds, Kulekhani I's active storage has declined from ~85 MCM
 Kulekhani is the outlier that proves the rule. It is the only facility in Nepal that can shift water from wet to dry season for power generation. Everything else is [[run-of-river-hydropower]]. The fact that 106 MW of storage represents Nepal's entire reservoir base — against 3,400+ MW of total hydro — encapsulates the [[storage-deficit]].
 
 But Kulekhani is also a demonstration that storage works in Nepal. A 40-year operating history with World Bank financing, on-time construction, and continuous dry-season service proves the model is viable. The question is not whether Nepal can build storage — it already did. The question is why it stopped.
+
+## Limitations & Controversies
+
+**Sedimentation.** As Nepal's oldest operating reservoir, Kulekhani I has gradually lost active storage volume to monsoon sediment inflow from the Mahabharat range catchment. If the original 50-year sediment-life assumption holds, active storage has declined from ~85 MCM at commissioning to approximately 50–60 MCM today — a loss of roughly one-third of its original regulation capacity.
+
+**Single-point-of-failure risk.** At 106 MW and 40+ years of operation, Kulekhani is the only facility in Nepal providing seasonal water storage for power generation. Equipment aging and the absence of any backup reservoir create concentrated grid-reliance risk.
+
+**Scale ceiling.** Even at full original capacity, Kulekhani's storage volume is insufficient to close the national dry-season gap on its own. It provides roughly 3% of national generation but must carry the entire seasonal time-shifting burden for the grid.
 
 ## Related
 

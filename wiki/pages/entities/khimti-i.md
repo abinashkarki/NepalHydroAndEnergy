@@ -2,7 +2,7 @@
 title: Khimti -I
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-11
 sources: [jica-ipsdp-main-report-vol2]
 tags: [project, operating, private-ipp, dolakha, ramechhap, first-ipp, koshi]
 images:
@@ -16,6 +16,8 @@ page_quality: analysis
 ---
 
 # Khimti -I
+
+## Summary
 
 60 MW · operating · on the Khimti Khola · in Dolakha and Ramechhap districts. **Nepal's first large private IPP.** Commissioned July 2000 under a January 15, 1996 BOOT PPA.
 
@@ -162,6 +164,16 @@ across the full contract, no seasonal rate differential — it may have over-cor
 The current NPR flat-rate structure with 3% escalation for eight years leaves projects
 exposed to exactly the long-tenor financial risks that Khimti's currency indexing
 and demand-charge structure protected against. See [[ppa-pricing]].
+
+## Limitations & Controversies
+
+**PPA expired — post-2020 commercial structure unclear.** The 20-year BOOT PPA expired in July 2020. NEA acquired 50% equity for NPR 1. BPC then bought out Norwegian partners in September 2025. Whether BPC now operates under the original terms, a renegotiated PPA, or a new standard-form agreement is not confirmed in public sources.
+
+**Corridor congestion.** The Khimti–Dhalkebar 220 kV line that was built for Khimti-I's 60 MW is now trying to carry over 300 MW from the Likhu cascade. Likhu-2 lost ~40% of its generation in FY 2023/24 to this bottleneck. The line built for one plant has become a shared chokepoint.
+
+**Non-replicable PPA terms.** The USD-denominated, CPI-indexed 1996 PPA was a product of a specific era — before standardized tariffs, before the ERC, before the current NPR regime. No modern IPP can replicate these terms, making Khimti-I a historical outlier rather than a sector benchmark.
+
+**Post-BOOT governance ambiguity.** With NEA holding 50% equity and BPC holding the remaining 50%, the plant's governance straddles the public-private boundary. How NEA's triple-authority role interacts with BPC's private ownership of a strategic corridor asset is not documented in public sources.
 
 ## See also
 

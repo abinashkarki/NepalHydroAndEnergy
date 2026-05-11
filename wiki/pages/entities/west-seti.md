@@ -2,7 +2,7 @@
 title: West Seti Hydroelectric Project
 type: entity
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2]
@@ -31,6 +31,8 @@ images:
   <img src="../assets/images/west-seti/ipsdpv2-p255-img00.png" alt="Figure 6.3-2 River Longitudinal Profile of the West Seti River">
   <figcaption>Figure 6.3-2 River Longitudinal Profile of the West Seti River</figcaption>
 </figure>
+
+## Summary
 
 A long-stalled **reservoir storage** project in Sudurpashchim Province — the most prominent example of how **Chinese withdrawal** and **project handoff** have shaped Nepal's hydro-geopolitics.
 
@@ -65,6 +67,16 @@ West Seti, alongside [[budhigandaki]]'s history of Chinese-then-domestic pivots,
 ### Schedule
 No construction timeline. NHPC is conducting EIA public hearings and updating the detailed project report as of late 2025. An associated project — SR-6 (450 MW) — has been proposed. Neither has a committed construction start. See [[buildability]].
 
+
+## Limitations & Controversies
+
+**Four decades of modality changes with zero construction.** Conceived in the 1980s, held by SMEC for 17 years, awarded to CTG (2012), abandoned (2018), transferred to NHPC (2022), and still in EIA hearings as of late 2025. Each handoff resets the timeline.
+
+**Chinese withdrawal pattern.** CTG's 2018 withdrawal — citing geological issues, altitude, and resettlement — fits a broader pattern where Chinese entities engage Nepal's large storage projects but do not complete them. The net result is decades lost on storage that would directly address [[storage-deficit]].
+
+**No committed construction timeline.** NHPC is updating the DPR and conducting EIA hearings, but no construction start has been announced. The associated SR-6 project (450 MW) is similarly undated.
+
+**Geopolitical sensitivity.** India's sensitivity to Chinese infrastructure near the border contributed to CTG's unfavorable operating environment. The NHPC takeover resolves the China problem but does not resolve the engineering, resettlement, or financing challenges.
 
 ## Timeline of Stalling
 

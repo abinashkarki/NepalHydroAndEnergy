@@ -2,7 +2,7 @@
 title: Nepal Energy Profile
 type: entity
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-11
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025, nea-transmission-annual-book-2077]
 tags: [country, energy, system, overview]
 images:
@@ -21,6 +21,8 @@ page_quality: analysis
 ---
 
 # Nepal Energy Profile
+
+## Summary
 
 Energy-specific profile of Nepal for electricity-system context.
 
@@ -68,6 +70,16 @@ That history matters because today's system should be read as a transition from 
 ## Energy Beyond Electricity
 
 Nepal's broader energy system is **not electricity-centered**. Biomass still dominates. In the FY 2079/80 WECS balance, residential use was **60.75%** of final energy, grid electricity **7.23%** (up from 4.96% the prior year — a real jump driven by +21.2% electricity consumption against −41.5% coal and −16.1% petroleum). Hydro's share of *total* final energy is about **6.8%**. Nepal's electricity story is more advanced than its total energy transition. Full cross-tab at [[data-final-energy-mix]]; strategic frame at [[energy-substitution-pathway]] and [[domestic-led-hydro-strategy]].
+
+## Limitations & Controversies
+
+**Data reconciliation gaps.** NEA reports 3,591.262 MW total / 3,389.912 MW hydro (FY 2024/25); the DoED operating registry lists 3,791.874 MW. The discrepancy (~200 MW) reflects different cut-off dates, sub-MW plant inclusion rules, and NEA vs DoED accounting boundaries. System-scale claims are source-dependent unless the source boundary is stated explicitly.
+
+**Supreme Court protected-area halt.** The early 2025 ruling halting development in all protected areas could affect ~300 projects and up to 20 GW of potential capacity. This is a live constraint on "developable potential" claims that existing capacity figures do not yet reflect.
+
+**Fragile seasonal surplus.** The transition from chronic shortage to seasonal surplus is recent (since 2023). The system still imports 400–500 MW daily in winter. Framing Nepal as "energy sufficient" ignores the dry-season dependency.
+
+**Per-capita electricity use is low.** At 370–465 kWh/yr, Nepal's per-capita consumption is a fraction of regional peers. The electrification rate (91.41%) measures connection, not consumption intensity.
 
 ## Related
 

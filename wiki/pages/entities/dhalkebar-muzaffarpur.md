@@ -3,7 +3,7 @@ title: Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection
 type: entity
 category: cross-border
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [transmission, 400kv, cross-border, india, dhalkebar, muzaffarpur]
 images:
@@ -27,6 +27,8 @@ page_quality: analysis
 ---
 
 # Dhalkebar–Muzaffarpur 400 kV Interconnection
+
+## Summary
 
 Nepal's first and — at the time of writing — only operational 400 kV
 cross-border link. Every exported MWh, including the
@@ -61,7 +63,7 @@ linchpin of Nepal's current export strategy.
   [[bangladesh-trade-route]], which then transits through India on
   the Baharampur–Bheramara link.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Single point of failure.** No 400 kV backup cross-border exists yet.
   An outage collapses export revenue immediately.

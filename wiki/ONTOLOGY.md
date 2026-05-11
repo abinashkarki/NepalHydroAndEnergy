@@ -188,5 +188,5 @@ This list is intentionally incomplete. New terms will be added through use. The 
 4. If it is a near-synonym, the page is redirected or merged.
 5. If it is a disallowed alias, it is listed in the disallowed table.
 
-**Last updated:** 2026-05-10
+**Last updated:** 2026-05-11
 **Next review:** 2026-06-10

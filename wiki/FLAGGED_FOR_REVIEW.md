@@ -49,6 +49,12 @@ Review this file monthly. Resolve items by editing the wiki, merging pages, or u
   - Proposed action: Fixed during Week 7 pre-task. Verified downstream existence of the interpretive framing on [[master-thesis]] and [[bottleneck-hierarchy]] before reframing.
   - Flagged by: human operator
 
+- **[2026-05-11]** Tier mismatch: `entities/upper-arun` under-built for `analysis` tier
+  - Page is short for an `analysis` page and has no quantified parameters (capacity, status, timeline). Declared `analysis` but closer to `brief`.
+  - Proposed action: Deep-research session with actual project data (NEA annual report, DoED registry) to bring to `analysis` minimum. Do not attempt structural template fill alone.
+  - Affects: `entities/upper-arun`
+  - Flagged by: OpenCode (Session 9)
+
 - **[2026-05-10]** GOVERNANCE.md standing note: data pages as highest-risk category for hierarchy violations
   - Data pages have the highest hierarchy violation rate of any category (2 violations in 5 pages in Week 7, including the most severe found across 7 weeks).
   - Pattern: data pages are where analysis gets parked when it hasn't found its synthesis home yet.

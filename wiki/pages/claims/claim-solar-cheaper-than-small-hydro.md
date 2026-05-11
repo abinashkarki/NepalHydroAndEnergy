@@ -2,7 +2,7 @@
 title: New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal
 type: claim
 created: 2026-04-24
-updated: 2026-05-07
+updated: 2026-05-11
 claim_id: C-017
 confidence: high
 status: stable

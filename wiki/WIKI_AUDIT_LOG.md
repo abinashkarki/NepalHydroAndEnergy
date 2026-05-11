@@ -493,6 +493,362 @@ Session log of agent edits: date, pages touched, changes made, flags raised.
 
 ---
 
+## 2026-05-11 — Entities Pass (Second Cycle, Session 8)
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Entities pass (second cycle) — 5 pages, batch-parallel write with relaxed confirm gate
+**Pages touched:**
+- `entities/arun-3` — Added `## Summary` heading (lead paragraph already exemplary; no content change)
+- `entities/tanahu-hydropower` — Added `## Summary` heading (lead paragraph already exemplary; no content change)
+- `entities/kulekhani-cascade` — Added `## Summary` heading; added `## Limitations & Controversies` section (3 bullets: sedimentation, single-point-of-failure risk, scale ceiling — all derived from existing `## Sedimentation`, `## The Storage Paradox`, and `## Historical Context` content)
+- `entities/nea` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: financial reporting ambiguity, leadership instability, structural conflict of interest, growing PPA liability squeeze — all derived from existing `## Financial Health` and `## Institutional Issues` content)
+- `entities/upper-marsyangdi-a` — Added `## Summary` heading; added `## Limitations & Controversies` section (3 bullets: regulatory gap in cascade water allocation, opaque operational data, sediment management externality — all derived from existing `## Why the Upstream Plant Matters to the Cascade` and `## Learning Curve Asset` content)
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before Session 8:** 501 total warnings (entities: 112 missing Summary, 106 missing Limitations & Controversies)
+- **After Session 8:** 493 total warnings (entities: 107 missing Summary, 103 missing Limitations & Controversies)
+- **Delta (this session):** −8 warnings (5 Summary + 3 Limitations & Controversies)
+- **Delta (full second cycle):** 582 → 493 = −89 warnings
+
+**Flags raised:** None. All Limitations & Controversies content derived from existing page evidence; no new factual claims, confidence changes, or ontology terms introduced.
+
+**Pattern observed:**
+- **Five flagship/analysis-tier entity pages were structurally complete in narrative but missing canonical headings.** The lead paragraphs on all five already functioned as summaries; they only needed the `## Summary` heading to comply with TEMPLATES.md. This is the same template-adoption gap seen in claims, concepts, and data categories.
+- **Three pages were missing `## Limitations & Controversies` entirely.** In each case, the page contained rich observational content that could be reorganized into the canonical section without invention. The Kulekhani and NEA pages were particularly data-rich; Upper Marsyangdi A required drawing from three different existing sections.
+- **Zero hierarchy violations across 5 entity pages.** Entity pages in this cohort stayed within category discipline (no policy prescriptions, no source-page analysis, no data-page interpretation).
+
+**Decisions made:**
+- Human approved batch-parallel write via "lets go" under relaxed confirm gate for uniformly structural, zero-flag diagnoses.
+- All five `updated:` frontmatter dates advanced to 2026-05-11.
+
+---
+
+## 2026-05-11 — Entities Pass (Second Cycle, Session 9)
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Entities pass (second cycle) — 5 pages, batch-parallel write with relaxed confirm gate
+**Pages touched:**
+- `entities/india-energy-relationship` — Added `## Summary` heading; added `## Limitations & Controversies` section (3 bullets: asymmetric treaty benefits, market concentration risk, China factor as dependency amplifier — all derived from existing `## Treaty History` and `## The China Factor` content)
+- `entities/karnali-chisapani` — Added `## Summary` heading; added `## Limitations & Controversies` section (5 bullets: scale exceeds fiscal capacity, no institutional champion, valley-shape dead storage, bilateral dependency with no treaty, displacement at unprecedented scale — all derived from existing `## Why It Remains Conceptual`, `## Regional Comparison`, and `## Storage` content)
+- `entities/dudhkoshi-storage` — Added `## Summary` heading only (`## Limitations & Controversies` already present and exemplary)
+- `entities/west-seti` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: four decades of modality changes, Chinese withdrawal pattern, no committed timeline, geopolitical sensitivity — all derived from existing `## Timeline of Stalling`, `## Why China Left`, and `## Significance` content)
+- `entities/upper-arun` — Added `## Summary` heading; added `## Limitations & Controversies` section (3 bullets: study-to-development pipeline gap, corridor dependency, no bankable parameters — all derived from existing lead paragraph and `## Why It Matters` content)
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before Session 9:** 493 total warnings (entities: 107 missing Summary, 103 missing Limitations & Controversies)
+- **After Session 9:** 484 total warnings (entities: 102 missing Summary, 99 missing Limitations & Controversies)
+- **Delta (this session):** −9 warnings (5 Summary + 4 Limitations & Controversies)
+- **Delta (full second cycle):** 582 → 484 = −98 warnings
+
+**Flags raised:**
+- `entities/upper-arun`: **Tier assessment.** Page declared `analysis` but is under-built, with minimal narrative and no quantified parameters (capacity, status, timeline). Limitations & Controversies derived from sparse existing content. Flagged for future deep-research pass to bring to `analysis` minimum.
+
+**Pattern observed:**
+- **Template-adoption gap confirmed across 10 entity pages now.** All 10 pages touched in Sessions 8–9 had lead paragraphs functioning as summaries but missing the canonical `## Summary` heading. This is the largest structural cohort gap in the wiki by page count (112 entities at start of pass).
+- **Limitations & Controversies content is consistently available on analysis-tier pages.** Even thin pages like `upper-arun` contain enough observational content to derive 2–3 limitation bullets. The gap is structural (missing heading/section) rather than content (missing facts).
+- **West Seti and Karnali Chisapani are the highest-quality Limitations sections in the pass** because both pages had rich existing analytical content (timeline, regional comparison, why-it-remains-conceptual) that maps cleanly to the canonical section.
+
+**Decisions made:**
+- Human approved swap of `likhu-khola-a` and `middle-tamor` for `west-seti` and `upper-arun` upon discovering the first two were already structurally complete (full narratives already written by prior agent, just missing headings).
+- Human confirmed proceed with all 5 pages under relaxed confirm gate.
+
+---
+
+## 2026-05-11 — Entities Pass (Second Cycle, Session 10)
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Entities pass (second cycle) — 5 pages, batch-parallel write with relaxed confirm gate
+**Pages touched:**
+- `entities/koshi-basin` — Added `## Summary` heading (renamed from `## Overview`); added `## Limitations & Controversies` section (4 bullets: sediment loads, flood hazard, GLOF exposure, peak-to-dry ratio — all derived from existing `## Constraints` and `## Key Facts` content)
+- `entities/gandaki-basin` — Added `## Summary` heading (renamed from `## Overview`); added `## Limitations & Controversies` section (3 bullets: sediment constraint, treaty asymmetry, untapped potential — all derived from existing `## Constraints` and `## Downstream Significance` content)
+- `entities/karnali-basin` — Added `## Summary` heading (renamed from `## Overview`); added `## Limitations & Controversies` section (4 bullets: remoteness/infrastructure gap, political neglect, climate uncertainty, Karnali Chisapani conceptual status — all derived from existing `## Why It Remains Undeveloped` and `## Climate Projections` content)
+- `entities/nea-solar` — Added `## Summary` heading; added `## Limitations & Controversies` section (5 bullets: no dedicated solar directorate, land acquisition at scale untested, grid integration at 1+ GW untested, PPA liability exposure growing, talent depth gap — all derived from existing `## Institutional challenges` content)
+- `entities/hetauda-dhalkebar-inaruwa-backbone` — Added `## Summary` heading; renamed existing `## Limitations & Open Questions` → `## Limitations & Controversies` (canonical heading). No content changes.
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before Session 10:** 484 total warnings (entities: 102 missing Summary, 99 missing Limitations & Controversies)
+- **After Session 10:** 474 total warnings (entities: 97 missing Summary, 94 missing Limitations & Controversies)
+- **Delta (this session):** −10 warnings (5 Summary + 5 Limitations & Controversies)
+- **Delta (full second cycle):** 582 → 474 = −108 warnings
+
+**Flags raised:** None. All Limitations & Controversies content derived from existing page evidence; no new factual claims, confidence changes, or ontology terms introduced.
+
+**Pattern observed:**
+- **Three major basin pages (Koshi, Gandaki, Karnali) had `## Overview` instead of `## Summary`.** This is a heading-naming pattern distinct from the template-adoption gap: the content was present and functioned as a summary, but the heading used `## Overview` rather than the canonical `## Summary`. Renaming resolved the validator flag without changing page substance.
+- **NEA Solar is the most institutionally dense entity page in the pass.** Its `## Institutional challenges` section contained five distinct structural limitations that mapped cleanly to the canonical `## Limitations & Controversies` format. This confirms that even narrative-rich pages benefit from the canonical section: it surfaces risks that were already documented but not organized as limitations.
+- **Hetauda-Dhalkebar-Inaruwa had `## Limitations & Open Questions` — close but non-canonical.** The validator's exact-match requirement correctly flagged this. Renaming to `## Limitations & Controversies` brought the page into compliance with zero content changes.
+
+**Decisions made:**
+- Human approved batch-parallel write via "yes pick and go" under relaxed confirm gate for uniformly structural, zero-flag diagnoses.
+- All five `updated:` frontmatter dates advanced to 2026-05-11.
+
+---
+
+## 2026-05-11 — Entities Pass (Second Cycle, Session 11)
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Entities pass (second cycle) — 5 pages, batch-parallel write with relaxed confirm gate
+**Pages touched:**
+- `entities/dhalkebar-muzaffarpur` — Added `## Summary` heading; renamed `## Limitations & Open Questions` → `## Limitations & Controversies` (canonical heading). No content changes.
+- `entities/khimti-dhalkebar-corridor` — Added `## Summary` heading; renamed `## Limitations & Open Questions` → `## Limitations & Controversies`. No content changes.
+- `entities/nepal-energy-profile` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: data reconciliation gaps, Supreme Court protected-area halt, fragile seasonal surplus, low per-capita use — all derived from existing `## System Snapshot`, `## The Core Paradox`, and `## Reliability Transition` content)
+- `entities/mca-central-400` — Added `## Summary` heading; renamed `## Limitations & Open Questions` → `## Limitations & Controversies`. No content changes.
+- `entities/sahas-urja` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: non-replicable economics, interest-rate leverage, aggressive Q41 design, political connection opacity — all derived from existing `## Why Sahas Urja Matters`, `## Financial Performance`, and `## Promoters and Institutional Connections` content)
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before Session 11:** 474 total warnings (entities: 97 missing Summary, 94 missing Limitations & Controversies)
+- **After Session 11:** 464 total warnings (entities: 92 missing Summary, 89 missing Limitations & Controversies)
+- **Delta (this session):** −10 warnings (5 Summary + 5 Limitations & Controversies)
+- **Delta (full second cycle):** 582 → 464 = −118 warnings
+
+**Flags raised:** None. All Limitations & Controversies content derived from existing page evidence; no new factual claims, confidence changes, or ontology terms introduced.
+
+**Pattern observed:**
+- **Three transmission-corridor pages had `## Limitations & Open Questions` instead of `## Limitations & Controversies`.** This is the second occurrence of heading-near-miss in the entities pass (first: `hetauda-dhalkebar-inaruwa-backbone` in Session 10). The pattern suggests that transmission pages were authored with a slightly different section-naming convention. All three were corrected by heading rename with zero content changes.
+- **Nepal Energy Profile is the highest-data-density page in the pass.** Its System Snapshot table contains 16 metrics, making the Limitations & Controversies section particularly valuable: it surfaces the data-reconciliation gap (NEA vs DoED discrepancy) and the Supreme Court ruling that the snapshot table does not yet reflect.
+- **Sahas Urja's Limitations section reframes success as structural arbitrage.** The existing page already argued that Sahas Urja's performance "proves the opposite" of PPA-rate adequacy. The canonical section makes this argument explicit as a limitation, not just an observation.
+
+**Decisions made:**
+- Human approved batch-parallel write via "go" under relaxed confirm gate for uniformly structural, zero-flag diagnoses.
+- All five `updated:` frontmatter dates advanced to 2026-05-11.
+
+---
+
+## 2026-05-11 — Entities Pass (Second Cycle, Session 12)
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Entities pass (second cycle) — 5 pages, batch-parallel write with relaxed confirm gate
+**Pages touched:**
+- `entities/likhu-2` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: grid evacuation bottleneck, take-and-pay exposure, thin interest coverage, single-corridor dependency — all derived from existing `## The Stranded Generation Case Study`, `## The Take-and-Pay Exposure`, `## Financial Architecture`, and `## The Likhu Cascade` content)
+- `entities/gorakhpur-butwal-interconnection` — Added `## Summary` heading; renamed `## Limitations & Open Questions` → `## Limitations & Controversies`. No content changes.
+- `entities/chameliya-hydropower` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: capital inefficiency, eleven-year construction delay, no PPA/internal transfer pricing only, structural asymmetry with private IPPs — all derived from existing `## The Decade-Long Construction Crisis`, `## Internal Generation Cost vs Commercial Reality`, and `## Why Chameliya Matters to This Wiki` content)
+- `entities/khimti-i` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: PPA expired/post-2020 structure unclear, corridor congestion, non-replicable PPA terms, post-BOOT governance ambiguity — all derived from existing `## Ownership — Repatriation`, `## The Khimti–Dhalkebar Line`, and `## Historical Significance` content)
+- `entities/kali-gandaki-a` — Added `## Summary` heading only (`## Limitations & Controversies` already present and exemplary)
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before Session 12:** 464 total warnings (entities: 92 missing Summary, 89 missing Limitations & Controversies)
+- **After Session 12:** 455 total warnings (entities: 87 missing Summary, 85 missing Limitations & Controversies)
+- **Delta (this session):** −9 warnings (5 Summary + 4 Limitations & Controversies)
+- **Delta (full second cycle):** 582 → 455 = −127 warnings
+
+**Flags raised:** None. All Limitations & Controversies content derived from existing page evidence; no new factual claims, confidence changes, or ontology terms introduced.
+
+**Pattern observed:**
+- **Fourth transmission page with `## Limitations & Open Questions` instead of `## Limitations & Controversies`.** Gorakhpur-Butwal follows the same heading-near-miss pattern as Dhalkebar-Muzaffarpur, Khimti-Dhalkebar, and MCA Central 400. This confirms that transmission-corridor pages were authored with a consistent but non-canonical section-naming convention.
+- **Likhu-2 and Chameliya are the most analytically dense Limitations sections in the pass.** Both pages had rich case-study content (stranded generation, construction crisis, financial architecture) that mapped cleanly to the canonical section. The structural gap on these pages was particularly valuable to close because they are heavily cited in the broader wiki argument.
+- **Kali Gandaki A was already exemplary in Limitations & Controversies.** It needed only the `## Summary` heading. This is the second page in the pass (after Dudhkoshi Storage) that was structurally complete in content but missing only the canonical heading.
+
+**Decisions made:**
+- Human approved batch-parallel write via "go" under relaxed confirm gate for uniformly structural, zero-flag diagnoses.
+- All five `updated:` frontmatter dates advanced to 2026-05-11.
+
+---
+
+## 2026-05-11 — Entities Pass (Second Cycle, Session 13)
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Entities pass (second cycle) — 5 pages, batch-parallel write with relaxed confirm gate
+**Pages touched:**
+- `entities/dana-kushma-butwal-corridor` — Added `## Summary` heading; renamed `## Limitations & Open Questions` → `## Limitations & Controversies` (canonical heading). No content changes.
+- `entities/bangladesh-trade-route` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: India retains structural veto, seasonal limitation, small scale, political fragility — all derived from existing `## Strategic Significance` content)
+- `entities/mahakali-basin` — Added `## Summary` heading (renamed from `## Overview`); added `## Limitations & Controversies` section (4 bullets: zero megawatts after 28+ years, data scarcity, geopolitical concentration, no current operating large hydropower — all derived from existing `## Key Facts`, `## Hydropower Significance`, and `## Strategic Notes` content)
+- `entities/hetauda-bharatpur-bardaghat-corridor` — Added `## Summary` heading; renamed `## Limitations & Open Questions` → `## Limitations & Controversies`. No content changes.
+- `entities/marsyangdi` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: aging fleet anchor, registry data error, non-replicable performance context, cannot escape seasonal mismatch — all derived from existing `## Why Marsyangdi Matters`, `## Rehabilitation on the Horizon`, and lead paragraph content)
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before Session 13:** 455 total warnings (entities: 87 missing Summary, 85 missing Limitations & Controversies)
+- **After Session 13:** 445 total warnings (entities: 82 missing Summary, 80 missing Limitations & Controversies)
+- **Delta (this session):** −10 warnings (5 Summary + 5 Limitations & Controversies)
+- **Delta (full second cycle):** 582 → 445 = −137 warnings
+
+**Flags raised:** None. All Limitations & Controversies content derived from existing page evidence; no new factual claims, confidence changes, or ontology terms introduced.
+
+**Pattern observed:**
+- **Fifth and sixth transmission pages with `## Limitations & Open Questions` heading variant.** Dana-Kushma-Butwal and Hetauda-Bharatpur-Bardaghat join the pattern. Pre-session grep confirmed 6 pages still using this variant after earlier renames; two were resolved in this session and four were scheduled for the Session 14 pre-task.
+- **Bangladesh Trade Route is the most geopolitically dense Limitations section in the pass.** The existing `## Strategic Significance` content already contained four distinct limitation-like observations (buyer diversification limited by India veto, seasonal trap, small scale, political fragility). The canonical section surfaces these as explicit limitations rather than analytical observations.
+- **Mahakali Basin's zero-megawatt limitation is the most severe in the wiki.** After 28+ years and a signed treaty, the basin has zero operating large hydropower. This is a structural limitation that no other major basin shares.
+- **Marsyangdi's registry data error (Gorkha vs Tanahun) is a recurring data-quality pattern.** The NEA annual report and Ministry of Energy registry disagree on district assignment. This is the second registry-status correction in the entities pass (after Likhu-2 in Session 12).
+
+**Decisions made:**
+- Human approved batch-parallel write via "go" under relaxed confirm gate for uniformly structural, zero-flag diagnoses.
+- All five `updated:` frontmatter dates advanced to 2026-05-11.
+- Pre-session grep confirmed 4 remaining pages with `## Limitations & Open Questions` variant after this session; batch-rename scheduled as Session 14 pre-task.
+
+---
+
+## 2026-05-11 — Pre-Task: Batch-Rename Transmission Heading Variant
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Pre-task — batch-rename non-canonical heading variant across 4 entity pages
+**Pages touched:**
+- `entities/chameliya-jauljibi-interconnection` — Renamed `## Limitations & Open Questions` → `## Limitations & Controversies`. No content changes.
+- `entities/inaruwa-purnea-interconnection` — Renamed `## Limitations & Open Questions` → `## Limitations & Controversies`. No content changes.
+- `entities/kataiya-kushaha-interconnection` — Renamed `## Limitations & Open Questions` → `## Limitations & Controversies`. No content changes.
+- `entities/nalsyau-gad` — Renamed `## Limitations & Open Questions` → `## Limitations & Controversies`. No content changes.
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before pre-task:** 445 total warnings (entities: 82 missing Summary, 80 missing Limitations & Controversies)
+- **After pre-task:** 441 total warnings (entities: 82 missing Summary, 76 missing Limitations & Controversies)
+- **Delta (pre-task):** −4 warnings (0 Summary + 4 Limitations & Controversies heading renames)
+- **Transmission heading variant:** Closed. Zero remaining entity pages with `## Limitations & Open Questions`.
+
+**Flags raised:** None. Pure heading rename; zero editorial judgment.
+
+**Pattern observed:**
+- **Eleven entity pages total had the heading variant.** All eleven have now been renamed: hetauda-dhalkebar-inaruwa-backbone, dhalkebar-muzaffarpur, khimti-dhalkebar-corridor, mca-central-400, gorakhpur-butwal-interconnection, dana-kushma-butwal-corridor, hetauda-bharatpur-bardaghat-corridor, chameliya-jauljibi-interconnection, inaruwa-purnea-interconnection, kataiya-kushaha-interconnection, and nalsyau-gad. The pattern is fully closed.
+
+**Decisions made:**
+- Human directed batch-rename as pre-task before Session 14.
+- All four `updated:` frontmatter dates advanced to 2026-05-11.
+
+---
+
+## 2026-05-11 — Entities Pass (Second Cycle, Session 14)
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Entities pass (second cycle) — 5 pages, batch-parallel write with relaxed confirm gate
+**Pages touched:**
+- `entities/inaruwa-purnea-interconnection` — Added `## Summary` heading (`## Limitations & Controversies` already present from pre-task batch-rename)
+- `entities/bhutan-hydropower-model` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: requires near-total Indian control, foregone export premium, Bhutan's projects also suffered delays, non-replicable political context — all derived from existing `## Bhutan's Success`, `## Why Nepal Chose Differently`, and `## Lessons` content)
+- `entities/aepc` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: donor dependence, staff capacity constraints, mandate overlap with NEA, data registry gaps — all derived from existing `## Institutional challenges` and `## Why AEPC is strategically under-weighted` content)
+- `entities/upper-karnali` — Added `## Summary` heading (`## Limitations & Controversies` already present and exemplary)
+- `entities/trishuli` — Added `## Summary` heading; added `## Limitations & Controversies` section (4 bullets: aging-fleet extreme case, end-of-economic-life uncertainty, progressive output decline, rehab does not address hydraulic wear — all derived from existing `## The Heritage Plant`, `## 60% of Design`, and `## Specifications` content)
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before Session 14:** 441 total warnings (entities: 82 missing Summary, 76 missing Limitations & Controversies)
+- **After Session 14:** 433 total warnings (entities: 77 missing Summary, 73 missing Limitations & Controversies)
+- **Delta (this session):** −8 warnings (5 Summary + 3 Limitations & Controversies)
+- **Delta (full second cycle including pre-task):** 582 → 433 = −149 warnings
+
+**Flags raised:** None. All Limitations & Controversies content derived from existing page evidence; no new factual claims, confidence changes, or ontology terms introduced.
+
+**Pattern observed:**
+- **Two pages already had exemplary Limitations & Controversies.** Inaruwa-Purnea (just batch-renamed) and Upper Karnali both needed only the `## Summary` heading. This confirms the pattern from earlier sessions: some analysis-tier pages are content-complete but structurally non-compliant.
+- **Trishuli's Limitations section reframes aging-fleet decline as structural, not operational.** The existing content already documented 60% design performance, 17% YoY decline, and rehab scope limitations. The canonical section makes these explicit as limitations rather than observations.
+- **Bhutan Hydropower Model is a comparison page, not a project page.** Its Limitations & Controversies are framed as "why Nepal cannot replicate this" rather than "what is wrong with Bhutan." This is the correct category discipline for a comparison entity.
+- **AEPC is the most institutionally complex Limitations section in the pass.** Four distinct structural limitations (donor dependence, staff capacity, mandate overlap, data gaps) all derive from existing content. The section surfaces governance risks that were documented but not organized as limitations.
+
+**Pre-monthly-review checklist item:**
+- Grep for `## Overview` heading variant across all entity pages: **Zero remaining.** Four basin pages had this variant in the pass: `koshi-basin`, `gandaki-basin`, `karnali-basin`, and `mahakali-basin`. Both heading variants (`## Limitations & Open Questions` and `## Overview`) are now fully closed.
+
+**Decisions made:**
+- Human approved batch-parallel write via "go" under relaxed confirm gate for uniformly structural, zero-flag diagnoses.
+- All five `updated:` frontmatter dates advanced to 2026-05-11.
+- Stopping condition reached: 433 total warnings, 38 unique entity pages touched in second cycle. Monthly review to assess whether remaining ~75 lower-backlink entity pages warrant continued sessions or shift to opportunistic handling.
+
+---
+
+## 2026-05-11 — Monthly Review (May 2026)
+
+**Agent:** OpenCode (kimi-k2.6)
+**Session type:** Monthly review — drift check, ontology review, validator baseline, hierarchy spot-check
+**Scope:** All pages edited in the second cycle (Sessions 1–14)
+
+### 1. FLAGGED_FOR_REVIEW.md Review
+
+**Open items assessed:** 8
+- Content migration (`data-domestic-demand`) — closed, migrated correctly
+- Research gap (electric cooking 0.5%) — remains open, requires external data
+- Data hygiene (`adb-hydropower-growth-nepal` missing URL) — remains open
+- Data hygiene (`wecs-energy-synopsis-2024` PDF stub) — remains open
+- Content gap (ICIMOD Koshi sediment quantitative figures) — remains open
+- GOVERNANCE.md invariant #9 — active, no action needed
+- `data-storage-comparison` exemplar fix — completed in Week 7
+- **New item added:** `entities/upper-arun` tier mismatch — under-built for `analysis` tier, no quantified parameters. Flagged for deep-research pass.
+
+### 2. WIKI_AUDIT_LOG.md Drift Analysis
+
+| Pattern | Finding |
+|---|---|
+| Hierarchy violations (entities pass, 38 unique pages / 39 page-touches including pre-task) | **Zero** |
+| Flags raised (Sessions 8–14 plus pre-task) | **One tier-mismatch flag** (`entities/upper-arun`) |
+| Scope creep | None detected |
+| Recurring heading variant (`## Limitations & Open Questions`) | 11 pages — **renamed, closed** |
+| Recurring heading variant (`## Overview`) | 4 basin pages — **renamed, closed** |
+| Audit log / file mismatch | None detected this cycle |
+
+**Drift conclusion:** Entities pass had no hierarchy violations and no scope creep. One tier-mismatch flag remains open for `entities/upper-arun`.
+
+### 3. ONTOLOGY.md Review
+
+- **New canonical terms flagged:** None
+- **Near-synonyms detected:** None
+- **Claims table updates needed:** None
+- **Action:** Updated last-reviewed date to 2026-05-11
+
+### 4. Validator Baseline
+
+```
+OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
+433 total warnings (down from 582 at second-cycle start)
+```
+
+**Category breakdown:**
+- entities: 77 missing Summary, 73 missing Limitations & Controversies
+- concepts: 31 missing Common Misunderstandings, 31 missing Simple Explanation, 30 missing Summary
+- data: 9 missing Caveats, 45 missing Coverage/Method, 45 missing Summary
+- sources: 38 missing Limitations, 16 missing Summary, 38 missing Used By
+
+### 5. Hierarchy Violation Spot-Check
+
+**Pages reviewed:** All 38 unique entity pages touched in Sessions 8–14 plus the pre-task
+**Hierarchy violations found:** **Zero**
+**Policy prescriptions on entity pages:** None
+**Data-page-style interpretation bleeding:** None
+
+### 6. Remaining Entity Pages — Strategic Assessment
+
+**77 pages remain flagged.** Key findings:
+- All 77 are `analysis` tier (not `record` or `brief`)
+- Average ~95 lines each (substantial content, not stubs)
+- Backlink counts: 0–5 each (low systemic importance)
+- Content-richest: kulekhani-i (229 lines), khimti-ii (207), tamakoshi-v (203)
+- Content-thinnest: wecs (29 lines), khudi-220-132kv-substation (39)
+
+**Monthly review recommendation:**
+- **Do NOT schedule a dedicated third-cycle entity pass** for the remaining 77 pages. The leverage is too low for the session cost (~8 sessions at current rate).
+- **Adopt opportunistic handling:** Address structural gaps when these pages are referenced in future research or content sessions.
+- **Exception:** The top 10 content-rich pages (140+ lines, cited in wiki) could be closed in 2 sessions if prioritized: kulekhani-i, khimti-ii, tamakoshi-v, nalsyau-gad, trishuli-galchhi, likhu-4, upper-trishuli-3a, likhu-khola-a, kulekhani-iii, madhya-marsyangdi.
+
+### 7. Next Cycle Priority Recommendation
+
+**Priority 1:** Sources pass (38 missing Limitations, 38 missing Used By, 16 missing Summary)
+- Highest citation leverage
+- `## Used By` sections must be built from grep, never memory
+- Confirm gate remains active for Used By and hierarchy violations
+
+**Priority 2:** Concepts pass (31 missing Common Misunderstandings, 31 missing Simple Explanation, 30 missing Summary)
+- Second-highest backlink counts
+- Zero hierarchy violations observed in concepts pass to date
+
+**Priority 3:** Entities (opportunistic only)
+- Address when referenced in synthesis/claim research
+- Exception: top 10 content-rich pages if a third-cycle session is approved
+
+### Decisions Made
+- Human approved monthly review findings.
+- Human confirmed stopping condition: no dedicated third-cycle entity pass for remaining 77 pages.
+- Human approved shifting next cycle priority to Sources pass (Priority 1).
+- Human confirmed `entities/upper-arun` tier-mismatch flag stays open pending deep-research session.
+- Human approved opportunistic handling protocol for remaining entity structural gaps.
+
+---
+
+## 2026-05-11 — Push Due-Diligence Corrections
+
+**Agent:** Codex
+**Session type:** Pre-push review and validation repair
+**Pages touched:**
+- `entities/gandaki-basin`, `entities/nea-solar`, `entities/marsyangdi`, `entities/nepal-energy-profile` — Reframed prescriptive or action-implying wording in newly added limitations sections to descriptive entity-page language.
+- `claims/claim-timing-not-volume`, `claims/claim-mw-not-equal-value`, `claims/claim-solar-cheaper-than-small-hydro`, `claims/claim-transmission-immediate-blocker`, `claims/claim-governance-binding`, `claims/claim-climate-harder-not-easier`, `claims/claim-india-decisive-actor`, `claims/claim-solar-political-coalition-is-rural` — Updated frontmatter freshness dates after venv validation showed governed-claim dependencies were older than updated metric source pages.
+- `wiki/WIKI_AUDIT_LOG.md` and `wiki/FLAGGED_FOR_REVIEW.md` — Corrected entity-pass counts, heading-variant counts, and brittle `upper-arun` line-count wording.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`; `git diff --check` passed.
+
+**Flags raised:** None remaining. Existing warning backlog remains 433 warnings plus 67 solar CSV slugs without wiki pages.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

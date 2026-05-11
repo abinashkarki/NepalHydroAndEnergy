@@ -2,7 +2,7 @@
 title: India — Energy Relationship with Nepal
 type: entity
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-11
 sources: [india-cbte-2018, wb-country-economic-memo-2025, nea-transmission-annual-book-2077, moewri-ipsdp-exec-summary-2025]
 tags: [country, india, trade, market, geopolitics, treaty]
 images:
@@ -62,6 +62,8 @@ page_quality: analysis
   <figcaption>Energy Balance (GWh) in FY 2076/77 (2019/20)</figcaption>
 </figure>
 
+## Summary
+
 India is the **decisive external actor** in Nepal's hydropower future. Not just as a neighbor, but as the main practical export market, balancing supplier in dry periods, transit state for Bangladesh sales, and counterpart in major treaty-linked water and power projects.
 
 ## India's Multiple Roles
@@ -91,6 +93,14 @@ India views Nepal strictly as its strategic sphere of influence. It has **explic
 ## Bangladesh Diversification
 
 Bangladesh entered as a buyer (FY 2024/25: NPR 266.7 million initial export). But the route depends on Indian transit, Indian approval, and Indian grid. Bangladesh diversifies the **buyer set** more than it diversifies the **corridor and political dependence structure**.
+
+## Limitations & Controversies
+
+**Asymmetric treaty benefits.** After 70 years of treaties (Koshi 1954, Gandak 1959, Mahakali 1996), Nepal has received 15 MW of firm capacity — a fraction of the irrigation and flood-control infrastructure India has built on Nepali soil. The structural imbalance in what each side values and extracts remains unresolved.
+
+**Market concentration risk.** India is the only viable large-scale export market, the dry-season supplier, the transit state for Bangladesh sales, and the approval gatekeeper for cross-border trade. This multi-role dependence creates a single-point-of-exposure that diversification to Bangladesh cannot materially reduce.
+
+**China factor as dependency amplifier.** India's explicit blocking of Chinese-equity/EPC projects from the cross-border market forces Nepali developers to align with Indian interests for market access, narrowing the developer pool and potentially inflating costs.
 
 ## Related
 

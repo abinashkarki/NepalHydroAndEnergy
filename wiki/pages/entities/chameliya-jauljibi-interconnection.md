@@ -3,7 +3,7 @@ title: Chameliya–Jauljibi 220 kV Cross-Border Interconnection
 type: entity
 category: cross-border
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 220kv, cross-border, india, chameliya, mahakali-basin, planned]
 generator: manual
@@ -43,7 +43,7 @@ expansion in far-western Nepal (including the long-dormant
   India–Nepal–Tibet trijunction; long-horizon planners have flagged
   it as a potential node in a broader Himalayan grid.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **No construction schedule.** Remains in planning documents; neither
   side has committed capex.

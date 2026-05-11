@@ -3,7 +3,7 @@ title: Hetauda–Bharatpur–Bardaghat 220 kV Corridor
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [transmission, 220kv, east-west, central-nepal]
 generator: manual
@@ -11,6 +11,8 @@ page_quality: analysis
 ---
 
 # Hetauda–Bharatpur–Bardaghat 220 kV Corridor
+
+## Summary
 
 The 220 kV east–west spine across central Nepal, running through the
 **Hetauda → Bharatpur → Bardaghat** load corridor. This is the line
@@ -46,7 +48,7 @@ Public decision: **default-visible, caveated**.
   Kali Gandaki-basin output to the central grid before the
   [[mca-central-400]] fully commissions.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Legacy capacity.** 220 kV thermal limits constrain the amount of
   surplus generation the corridor can absorb; during monsoon peak,

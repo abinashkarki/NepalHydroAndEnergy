@@ -2,7 +2,7 @@
 title: Upper Karnali
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [upper-karnali-pda-record, jica-ipsdp-main-report-vol2]
@@ -16,6 +16,8 @@ images:
 ---
 
 # Upper Karnali
+
+## Summary
 
 A 900 MW run-of-river scheme on the Karnali, licensed to India's GMR Group since 2008 and **still in survey / pre-construction 18 years later**. Upper Karnali is the canonical example of an India-developed Nepali hydropower project that has not been built: repeatedly extended PDA deadlines, stalled financial closure, a Supreme Court that finally refused open-ended extensions, and a Bangladesh export PPA that has never actually closed. In 2026 the government cleared a new path for financial closure — the first credible forward motion in more than a decade.
 

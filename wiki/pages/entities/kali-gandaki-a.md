@@ -2,7 +2,7 @@
 title: Kali Gandaki A
 type: entity
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 generator: specs-refresh
 page_quality: analysis
 sources: [kali-gandaki-a-adb-evaluation, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
@@ -36,6 +36,8 @@ images:
 ---
 
 # Kali Gandaki A
+
+## Summary
 
 Nepal's **largest operating power plant of any kind** (144 MW), the
 Kali Gandaki A run-of-river scheme at Mirmi has anchored the national

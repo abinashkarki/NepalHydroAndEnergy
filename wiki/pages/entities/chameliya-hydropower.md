@@ -2,7 +2,7 @@
 title: Chameliya Hydropower
 type: entity
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-11
 sources: [nea-generation-directorate-2081, kathmandu-post-chameliya, myrepublica-pac-chameliya]
 tags: [project, operating, NEA-owned, PROR, darchula, sudurpaschim, case-study]
 generator: manual
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # Chameliya Hydropower Project
+
+## Summary
 
 30 MW Peaking Run-of-River (PROR) project on the Chameliya River, Darchula District, Sudurpashchim Province. Directly owned and operated by the Nepal Electricity Authority — not an independent corporate entity. This page exists as the wiki's primary case study in state capital inefficiency and the structural asymmetry between NEA's internal cost accounting for its own assets versus the rigid PPA caps it imposes on private developers.
 
@@ -94,6 +96,16 @@ Chameliya is the structural mirror-image of [[ppa-pricing]]: a state utility tha
 If a private developer faced the geological squeezing and multi-year delays seen at Chameliya, the inflexible PPA structure would force immediate bankruptcy. The private sector bears 100% of construction risk while the NEA's own construction failures are absorbed into the sovereign ledger.
 
 This duality — **socializing the massive capital failures of public projects while strictly capping the revenue potential of private, highly efficient projects** — is the quantitative core of the [[nea-triple-authority]] governance problem. The same institution that cannot deliver a 30 MW project on budget in a decade sets the revenue terms for the entire private sector.
+
+## Limitations & Controversies
+
+**Capital inefficiency.** Built at USD 226 million for 30 MW — $7.5 million/MW, roughly 3–5× the global benchmark and 5× [[sahas-urja]]'s ~$1.3–1.4M/MW. The headrace tunnel collapse and decade-long delay drove costs to levels no private developer could survive.
+
+**Eleven-year construction delay.** Original COD target was June 2011; actual COD was February 2018. The primary failure was an 843-meter headrace tunnel section where geological squeezing deformed walls, requiring extensive re-excavation. Contractual disputes and PAC corruption allegations followed.
+
+**No PPA — internal transfer pricing only.** As a direct NEA asset, Chameliya has no commercial PPA. The NPR 3.04/kWh internal generation cost is an accounting artifact with mathematically insufficient depreciation to amortize a ~NPR 15 billion asset over 25–30 years.
+
+**Structural asymmetry with private IPPs.** NEA tolerates $7.5M/MW capital costs on its own projects while enforcing NPR 4.80/8.40 PPA caps on private IPPs that must amortize commercial debt at double-digit rates. This duality is the quantitative core of [[nea-triple-authority]].
 
 ## Disambiguation from Upper Chameliya
 

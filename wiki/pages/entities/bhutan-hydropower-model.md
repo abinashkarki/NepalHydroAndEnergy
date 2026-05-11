@@ -2,7 +2,7 @@
 title: Bhutan Hydropower Model
 type: entity
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-11
 sources: [wb-country-economic-memo-2025]
 tags: [country, bhutan, comparison, export, india]
 generator: manual
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # Bhutan Hydropower Model
+
+## Summary
 
 Bhutan is the most frequent regional comparison for Nepal's hydropower trajectory. The comparison is instructive and somewhat brutal.
 
@@ -36,6 +38,16 @@ This is a defensible policy choice, but it costs money: approximately **$80–12
 - But Bhutan's model requires granting India near-total control
 - Bhutan's projects have also suffered massive delays and cost overruns under Indian management
 - Nepal cannot replicate Bhutan without fundamentally changing its foreign policy posture
+
+## Limitations & Controversies
+
+**Requires near-total Indian control.** Bhutan's model works because India is co-investor with direct economic interest in project success. Nepal's strategic desire to preserve sovereignty means it cannot replicate this model without fundamentally changing its foreign policy posture.
+
+**Foregone export premium.** Nepal's sovereignty-preserving approach costs approximately $80–120 million per year in foregone export premium at current volumes — a real economic trade-off that the Bhutan comparison makes visible.
+
+**Bhutan's projects also suffered delays.** Chukha, Tala, and Mangdechhu all experienced massive delays and cost overruns under Indian management. The Bhutan model guarantees market access but does not guarantee execution discipline.
+
+**Non-replicable political context.** Bhutan is a constitutional monarchy with a different civil society structure and Indian relationship. Nepal's more vibrant democracy and critical civil society make the "grant India control" approach politically infeasible, regardless of its economic merits.
 
 ## Related
 

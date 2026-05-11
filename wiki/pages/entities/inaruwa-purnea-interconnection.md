@@ -3,7 +3,7 @@ title: Inaruwa–Purnea 400 kV Cross-Border Interconnection
 type: entity
 category: cross-border
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, arun-3-project-status-2025]
 tags: [transmission, 400kv, cross-border, india, inaruwa, purnea, arun-3, implementation-setup]
 generator: manual
@@ -11,6 +11,8 @@ page_quality: analysis
 ---
 
 # Inaruwa–Purnea 400 kV Interconnection
+
+## Summary
 
 The planned third 400 kV Nepal–India link, critical to evacuating
 the **[[arun-3]]** export block (900 MW) and later
@@ -45,7 +47,7 @@ bilateral MoU record, but construction has not begun.
   the [[koshi-basin]] directly, opening the door to future eastern
   storage (e.g. [[dudhkoshi-storage]]).
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Schedule tied to Arun-3.** Each slip in Arun-3 construction pushes
   the cross-border line as well — and vice versa.

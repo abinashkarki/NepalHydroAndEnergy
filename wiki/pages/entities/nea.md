@@ -2,7 +2,7 @@
 title: Nepal Electricity Authority (NEA)
 type: entity
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-11
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, jica-ipsdp-main-report-vol2]
 tags: [organization, utility, grid, buyer, generator]
 images:
@@ -26,6 +26,8 @@ page_quality: analysis
   <img src="../assets/images/nea/nea2425-p019-img01.png" alt="Timeline of Hydropower Development by NEA">
   <figcaption>Timeline of Hydropower Development by NEA</figcaption>
 </figure>
+
+## Summary
 
 Nepal's central electricity institution. Simultaneously serves as **primary generator, monopsony buyer, and sole grid operator** — a combination that creates structural conflicts of interest.
 
@@ -72,6 +74,16 @@ Nepal's central electricity institution. Simultaneously serves as **primary gene
 - The single-buyer model limits market flexibility and creates PPA liability risk
 - **PPA liability exposure is growing:** electricity purchase costs rose 11.73% in one year to NPR 77.1B, while export prices (the revenue relief valve) are falling — creating a **structural squeeze** between obligated payments to IPPs and realized market income
 - **Leadership instability:** MD changeover (Ghising to Shakya, April 2025) resulted in dueling public narratives about NEA's financial health
+
+## Limitations & Controversies
+
+**Financial reporting ambiguity.** The May 2025 white paper by new MD Hitendra Dev Shakya revealed a NPR 5.26B loss and NPR 385 billion in total liabilities, contradicting the previous management's claimed NPR 8B profit. The discrepancy signals that NEA's true fiscal position may be worse than public-facing reports suggest.
+
+**Leadership instability.** The April 2025 MD changeover (Ghising to Shakya) produced dueling public narratives about financial health, creating policy uncertainty and complicating long-term planning.
+
+**Structural conflict of interest.** NEA simultaneously serves as primary generator, monopsony buyer, and sole grid operator — a combination that limits market flexibility, sidelines the Electricity Regulatory Commission, and creates concentrated PPA liability risk.
+
+**Growing PPA liability squeeze.** Electricity purchase costs rose 11.73% in one year to NPR 77.1B, while export prices (the revenue relief valve) are falling — creating a structural squeeze between obligated payments to IPPs and realized market income.
 
 ## Related
 

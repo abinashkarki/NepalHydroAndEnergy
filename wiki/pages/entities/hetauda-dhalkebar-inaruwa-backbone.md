@@ -3,7 +3,7 @@ title: Hetauda–Dhalkebar–Inaruwa 400 kV Backbone
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [transmission, 400kv, backbone, hddi, internal-grid]
 images:
@@ -27,6 +27,8 @@ page_quality: analysis
   <img src="../assets/images/hetauda-dhalkebar-inaruwa-backbone/nea2077-p069-img01.png" alt="220 kV Substation at Dhalkebar">
   <figcaption>220 kV Substation at Dhalkebar</figcaption>
 </figure>
+
+## Summary
 
 Nepal's first — and, until the MCA corridor finishes, only — 400 kV transmission line. The
 eastern spine that carries the country's aggregated hydropower output from central Nepal to
@@ -67,7 +69,7 @@ The current validation result has 0 inferred connectors, 0 remaining gaps, and a
   while Hetauda-Dhalkebar remains in the build queue. Treating the whole
   backbone as operational would overstate current transfer readiness.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Single-point of failure for exports.** With no parallel 400 kV inside
   Nepal until the MCA corridor commissions, any HDDI outage collapses

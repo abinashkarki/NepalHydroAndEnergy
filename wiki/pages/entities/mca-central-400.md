@@ -3,7 +3,7 @@ title: MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–B
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-25
+updated: 2026-05-11
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25, mca_annex_d1_alignment_maps]
 tags: [transmission, 400kv, mca, central-corridor, under-construction]
 generator: manual
@@ -11,6 +11,8 @@ page_quality: analysis
 ---
 
 # MCA Central 400 kV Corridor
+
+## Summary
 
 The second 400 kV spine Nepal is building — the Millennium Challenge
 Account (MCA-Nepal) compact's headline infrastructure, running from
@@ -56,7 +58,7 @@ Validation shows 5 atlas-derived features, no inferred connectors, no endpoint g
   its progress is read as a proxy for Nepal's willingness to diversify
   foreign partners beyond India and China.
 
-## Limitations & Open Questions
+## Limitations & Controversies
 
 - **Right-of-way disputes.** Sections through Nuwakot and Kavre saw
   protracted community opposition over tower siting and compensation.
