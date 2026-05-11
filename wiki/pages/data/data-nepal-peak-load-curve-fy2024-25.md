@@ -11,6 +11,22 @@ page_quality: analysis
 
 # Nepal Peak Load Curve FY 2024/25
 
+## Summary
+
+The NEA annual report for FY 2024/25 publishes the integrated Nepal power system's annual system peak-load curve and a representative daily load curve for the FY's peak day (27 Jestha 2082 / 10 June 2025). Together they are the canonical reference shape for Nepal's seasonal and intraday demand profile for the year.
+
+## Coverage / Method
+
+- **Data source:** NEA Annual Report FY 2024/25, System Operation Department — published peak-load curve and daily load curve for peak day.
+- **Method:** Chart images extracted from NEA annual report PDF via image atlas pipeline. No underlying hourly data table is published; the curves are graphical representations only.
+- **Known gaps:** Hourly load shape is read visually from the published chart, not from a downloadable data table. Historical load curves for prior years are not consistently published in the same format.
+
+## Caveats
+
+- **Graphical extraction:** The load curve is extracted as an image, not as a machine-readable time series. Quantitative readings (e.g., exact MW at each hour) are approximate.
+- **Single-year snapshot:** FY 2024/25 peak day (10 June 2025) is a pre-monsoon peak; the winter peak shape may differ.
+- **No hourly data table:** NEA does not publish the underlying hourly MW values that produced the curve.
+
 <figure class="wiki-inline-figure">
   <img src="../assets/images/data-nepal-peak-load-curve-fy2024-25/nea2425-p143-img01.png" alt="Annual System Peak Load Curve">
   <figcaption>Annual System Peak Load Curve</figcaption>

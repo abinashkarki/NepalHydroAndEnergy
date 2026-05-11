@@ -46,6 +46,21 @@ Earlier wiki pages cite grid electricity as **4.96%** of final energy. That figu
 > [!warning]
 > The file at `data/raw/core/wecs_energy_sector_synopsis_2024.pdf` in this repo is a **404 HTML stub** from a failed download, not the actual report. The real PDF lives at the `source_url` above (giwmscdnone.gov.np). Re-download before attempting any further text extraction.
 
+## Limitations
+
+- **Single-year snapshot:** FY 2079/80 data; YoY comparisons (e.g., −16.81% total final energy) are sensitive to single-year anomalies such as fuel price shocks or demand disruptions.
+- **Repository stub:** The PDF copy in `data/raw/core/` is a 404 HTML stub; the live document lives at the external `source_url` only.
+- **Biomass estimates:** The 63.87% traditional biomass share relies on survey assumptions and stock-flow models, not metered consumption data.
+- **Grid-electricity share jump:** The 4.96% → 7.23% jump in one year may reflect both real electrification growth and improvements in measurement coverage.
+
+## Used By
+
+- [[run-of-river-hydropower]]
+- [[solar-hydro-complementarity]]
+- [[data-final-energy-mix]]
+- [[wecs]]
+- [[irena-remap-nepal]]
+
 ## Relevance to Project
 
 The 7.23% grid-electricity share — and the fact that hydro is only ~6.8% of Nepal's total final energy — is one of the most revealing data points in the entire project. It collapses the "Nepal is a hydropower country" framing into the more honest "Nepal has a hydropower electricity system inside a biomass-and-petroleum energy system." Central to [[master-thesis]], [[domestic-led-hydro-strategy]], and [[energy-substitution-pathway]]. Feeds into [[nepal-energy-profile]] and [[data-final-energy-mix]]. .

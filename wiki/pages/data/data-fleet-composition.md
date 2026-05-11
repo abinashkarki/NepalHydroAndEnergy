@@ -11,6 +11,23 @@ page_quality: analysis
 
 # Hydropower Fleet Composition
 
+## Summary
+
+Nepal's installed hydropower fleet, broken down by technology type. The RoR dominance is the structural cause of [[seasonal-mismatch]] in generation.
+
+## Coverage / Method
+
+- **Data sources:** NEA Annual Report FY 2024/25 (installed capacity, generation mix); NEA FY 2022/23 review (fleet-type percentages); WECS Energy Synopsis 2024 (generation data); World Bank Country Economic Memo 2025 (capacity timeline).
+- **Method:** Fleet-type shares from NEA review documents. Generation seasonal split from NEA operating statistics. Ownership split from NEA annual report generation-directorate data. Capacity timeline assembled from multiple source cutoffs (note date gaps).
+- **Known gaps:** Fleet-type percentages (85.7% RoR, 9.9% PRoR, 3.7% storage) are from FY 2022/23 review and may shift slightly as new projects commission. The DoED registry snapshot (3,791 MW, Apr 2026) includes projects >1 MW but classification boundaries vary by source.
+
+## Caveats
+
+- **Classification sensitivity:** What counts as PRoR vs daily pondage vs "storage" varies by license, design, and reporting line in NEA statistics. Headline percentages should be tied to an explicit taxonomy when used in formal models.
+- **Date gaps in capacity timeline:** The 2,800 MW (FY 2022/23), 2,990 MW (end-2024), and 3,591 MW (FY 2024/25) figures reflect different cutoff dates and accounting scopes — not error.
+- **Generation split is single-year:** FY 2022/23 wet/dry ratio (2.68x) may vary year-to-year with hydrology.
+- **Pipeline vs operating:** The 572-project CSV includes licensed but not-yet-operating projects; do not conflate with installed-capacity accounting.
+
 Nepal's installed hydropower fleet, broken down by technology type. The RoR dominance is the structural cause of [[seasonal-mismatch]] in generation.
 
 ## Fleet by Type

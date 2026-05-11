@@ -65,6 +65,29 @@ transmission system. It is especially useful for:
 Local workspace copy:
 [nea_transmission_annual_book_2077.pdf](./data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf)
 
+## Limitations
+
+- **FY 2019/20 snapshot:** Post-2020 commissioning outcomes for projects listed as under-construction are not covered.
+- **Superseded for totals:** Later FY 2024/25 system totals in [[nea-annual-report-fy2024-25]] replace the aggregate figures here.
+- **No technical modelling:** Does not contain detailed load-flow or dispatch modelling.
+- **Mixed genre:** Directorates narrative, project status notes, and appendix tables may include promotional framing alongside raw data.
+
+## Used By
+
+- [[andhi-khola]]
+- [[chainpur-seti]]
+- [[chilime]]
+- [[dudhkoshi-storage]]
+- [[kali-gandaki-a]]
+- [[marsyangdi]]
+- [[phukot-karnali]]
+- [[solu-tingla-mirchaiya-132]]
+- [[tanahu-hydropower]]
+- [[trishuli]]
+- [[upper-tamakoshi]]
+- [[upper-trishuli-3a]]
+- [[uttarganga-storage]]
+
 ## What This Source Does Not Cover
 
 - post-2020 commissioning outcomes for projects still under construction here

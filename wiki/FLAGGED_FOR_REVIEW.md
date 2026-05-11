@@ -6,6 +6,30 @@ Review this file monthly. Resolve items by editing the wiki, merging pages, or u
 
 ## Open Items
 
+- **[2026-05-11]** Content migration: `data-domestic-demand` value-capture framing
+  - Interpretive content ("electrifying cooking, industrial heat, and transport at scale") reframed on data page to observation-level
+  - Migrated to `syntheses/twenty-year-strategy.md` under Phase 2 (Store and Industrialize) as "Value capture: domestic electrification outranks export optimization" section
+  - Downstream-check confirmed the argument did not exist on any claim/synthesis/intervention page before migration
+  - Flagged by: human operator (during Data Pages Pass Session 6)
+
+- **[2026-05-11]** Research gap: Electric cooking statistic (0.5% of households)
+  - Figure is from 2021 WB estimate; no annual update series exists
+  - AEPC or WB 2025 Economic Memo may have more recent data
+  - Proposed action: Replace 0.5% figure if a more recent estimate is found from AEPC or WB 2025 CEM
+  - Affects: `data-domestic-demand`, `concepts/domestic-led-hydro-strategy`, `syntheses/twenty-year-strategy`
+  - Flagged by: human operator (during Data Pages Pass Session 6)
+
+- **[2026-05-11]** Data hygiene: `adb-hydropower-growth-nepal` missing source URL
+  - No live URL in frontmatter; verification path is local extracted text file only
+  - Proposed action: Locate live ADB document URL and add to frontmatter, or mark as archive-only source
+  - Flagged by: human operator (during Sources Pass Session 3)
+
+- **[2026-05-11]** Data hygiene: `wecs-energy-synopsis-2024` PDF stub in raw/core/
+  - `data/raw/core/wecs_energy_sector_synopsis_2024.pdf` is a 404 HTML stub, not the actual report
+  - Live document exists only at external `source_url` (giwmscdnone.gov.np)
+  - Proposed action: Replace with live document download, or permanently mark as external-only source with no local copy
+  - Flagged by: human operator (during Sources Pass Session 2)
+
 - **[2026-05-10]** Content gap: ICIMOD Koshi sediment quantitative figures
   - `sources/icimod-koshi-sediment-threats` lists directional findings only
   - Specific suspended sediment concentration, annual load (Mt/yr), and design-relevant parameters not yet extracted
@@ -59,5 +83,5 @@ Review this file monthly. Resolve items by editing the wiki, merging pages, or u
 
 ---
 
-*Last reviewed: 2026-05-10*
+*Last reviewed: 2026-05-11*
 *Next review: 2026-06-10*

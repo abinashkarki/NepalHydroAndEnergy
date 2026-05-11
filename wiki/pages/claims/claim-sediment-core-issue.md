@@ -31,6 +31,13 @@ page_quality: analysis
 - Need consistent wiki sourcing for **event lists** (which plants, verified MW offline, duration) vs headline aggregates.
 - **Reservoir trap efficiency** and climate-driven landslide supply are active research fronts—design factors should be basin-specific ([[gandaki-basin]], [[koshi-basin]]).
 
+## Boundary Conditions
+
+- This claim does not say sediment is the only constraint. It says sediment is central, not secondary.
+- It does not say every basin has identical sediment risk. Basin-specific design factors remain necessary.
+- It does not say sediment makes projects unbuildable. It says sediment must be in the design and finance model.
+- It does not say every ppm/load figure is exact. Specific numbers should be treated as indicative unless pinned to primary measurement.
+
 ## Related
 
 - [[sediment-as-design-constraint]]

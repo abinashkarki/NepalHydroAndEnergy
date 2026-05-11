@@ -26,7 +26,7 @@ For Nepal's next marginal MW of non-firm generation, **utility-scale solar is no
 
 **High** for the narrow tariff claim, because the NEA LoI and standard hydro PPA structure are public and directly comparable at the blended level. **Medium-high** for the time-weighted advantage, because it depends on assumptions about seasonal market value and plant output profile, but the direction is robust.
 
-## Boundary conditions
+## Boundary Conditions
 
 This claim does **not** say solar replaces storage hydro or peaking hydro. It says solar beats small RoR as the default marginal non-firm energy source when the system needs dry-season daytime kWh quickly.
 

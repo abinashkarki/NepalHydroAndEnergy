@@ -30,6 +30,13 @@ Nepal's **operating** hydro fleet is overwhelmingly **run-of-river (RoR)** and *
 - **Definition sensitivity:** What counts as PRoR vs daily pondage vs "storage" varies by license, design, and reporting line in [[nea]] statistics—headline percentages should be tied to an explicit taxonomy when used in formal models.
 - **Under-construction vs operating:** The claim is about the **operating** fleet; pipeline projects could change the mix slowly unless large storage comes online.
 
+## Boundary Conditions
+
+- This claim is about the operating fleet, not the pipeline. Under-construction projects could change the mix over time.
+- It does not say RoR/PRoR is inherently bad. It says the fleet is structurally dominated by it, which amplifies seasonal mismatch.
+- It does not say true storage is impossible to build. It says current operating storage share is tiny relative to installed capacity.
+- Headline percentages vary by taxonomy (what counts as PRoR vs pondage vs storage). The structural point is robust across definitions.
+
 ## Related
 
 - [[run-of-river-hydropower]]

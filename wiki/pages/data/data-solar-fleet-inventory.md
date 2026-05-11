@@ -11,6 +11,23 @@ page_quality: analysis
 
 # Solar Fleet Inventory
 
+## Summary
+
+The utility-scale solar analogue of [[data-fleet-composition]]. The full "what is on the ground, what has PPA, what is being built, what is tendered" picture for Nepal solar — the frame for every capacity-planning argument in the wiki.
+
+## Coverage / Method
+
+- **Data sources:** DoED solar power-plant registry (operating plants); NEA Annual Report FY 2024/25 (PPA-signed, tender totals); AEPC programme data (off-grid/mini-grid); NEA 960 MW LoI (tender award details).
+- **Method:** Operating capacity from DoED registry snapshot cross-referenced with NEA annual report. Tender and pipeline totals from NEA official announcements and LoI documents. Off-grid estimates from AEPC programme reports and donor disclosures. Provincial tender allocation from NEA press releases.
+- **Known gaps:** Rooftop aggregate (~70–90 MWp) is the weakest data point — no single registry exists. Provincial tender allocations are approximate (NEA disclosed ranges, not exact per-province MW). Post-960 MW pipeline (~585 MW in grid-impact queue) is referenced but not itemized.
+
+## Caveats
+
+- **Registry scope:** DoED operating registry captures grid-connected plants only; excludes rooftop (behind-the-meter) and most AEPC off-grid systems.
+- **Tender ≠ operating:** The 960 MW tender has 63 selected projects at pre-PPA stage; actual COD depends on financial closure, land acquisition, and grid connection timelines.
+- **Rooftop estimate is weak:** Built from NEA net-metering approvals (~30 MWp), AEPC institutional deployments, and private installer aggregates — not a verified census.
+- **Pipeline conversion rates:** The ~1,400–2,700 MWp non-firm pipeline assumes 50–70% conversion on a 10-year horizon; this is a planning assumption, not a forecast.
+
 The utility-scale solar analogue of [[data-fleet-composition]]. The full "what is on the ground, what has PPA, what is being built, what is tendered" picture for Nepal solar — the frame for every capacity-planning argument in the wiki.
 
 ## Headline numbers (FY 2024/25)

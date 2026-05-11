@@ -10,6 +10,20 @@ page_quality: analysis
 
 # Stranded Generation
 
+## Summary
+
+Stranded generation is the condition where hydropower plants could produce but the grid cannot absorb or move the energy — so operators spill water, throttle output, or receive dispatch orders to stop. In Nepal, this is increasingly a monsoon phenomenon: generation buildout has raced ahead of transmission and market access.
+
+## Simple Explanation
+
+Nepal builds hydro plants faster than it builds power lines to carry the electricity away. During monsoon, when rivers are full and plants want to generate at maximum, the grid hits its limits. The plants must then "spill" water (let it flow past the turbines unused) or shut down. The energy is "stranded" — available but unusable.
+
+## Common Misunderstandings
+
+- **"Stranded generation means the plants are broken."** It does not. The plants are operational; the bottleneck is the grid or market access.
+- **"More generation always helps."** Adding RoR capacity without transmission or demand growth increases stranded energy, not usable energy.
+- **"Curtailment only hurts small IPPs."** While small IPPs are most vulnerable, NEA's own plants also face curtailment during severe surplus weeks.
+
 **Stranded generation** is the condition where **plants could produce** but **the grid cannot absorb or move** the energy—so operators spill water, throttle output, or receive dispatch orders to stop. In Nepal, this is increasingly a **monsoon** phenomenon tied to a simple mismatch: **generation buildout has raced ahead of transmission and market access**.
 
 ## Monsoon surpluses meet hard export and internal bottlenecks

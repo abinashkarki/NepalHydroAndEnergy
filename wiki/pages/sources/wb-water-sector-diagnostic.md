@@ -36,6 +36,18 @@ A water-sector-wide diagnostic covering storage requirements, irrigation, and th
 - JICA estimates Nepal will need at least **1,993 MW** of storage hydropower by 2032 (BAU) or **3,154 MW** (high demand)
 - Nepal's active dam storage: ~**85 MCM** (one of the lowest in Asia)
 
+## Limitations
+
+- **Storage-gap framing:** The 29.86 km³ requirement is a water-sector-wide estimate (irrigation + energy + other uses), not an electricity-only storage target.
+- **Active vs total storage ambiguity:** The ~85 MCM active storage and 130–150 MCM total figures differ by boundary definition. Both are vanishingly small relative to need.
+- **2023 cutoff:** Post-2023 project progress, policy changes, and new studies (e.g., JICA IPSDP) may update the storage requirement estimates.
+- **JICA MW targets:** The 1,993 MW (BAU) and 3,154 MW (high demand) storage hydropower figures are JICA study outputs, not verified construction plans.
+
+## Used By
+
+- [[storage-deficit]]
+- [[data-storage-comparison]]
+
 ## Relevance to Project
 
 The 29.86 km³ requirement vs near-zero actual storage is the single most dramatic number for the [[storage-deficit]] argument. JICA's MW requirements give a concrete planning target. Data feeds into [[data-storage-comparison]]. .

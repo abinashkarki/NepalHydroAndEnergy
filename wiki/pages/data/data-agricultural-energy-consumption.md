@@ -11,6 +11,23 @@ page_quality: analysis
 
 # Agricultural Energy Consumption
 
+## Summary
+
+Agricultural energy use in Nepal — small in total volume, but strategically central to food security, diesel displacement, and rural electrification outcomes. Agriculture employs ~60% of the workforce but accounts for only 0.95% of final energy — because most farm work is manual and most farm energy is human and animal labour, not fuel.
+
+## Coverage / Method
+
+- **Data sources:** WECS Energy Sector Synopsis FY 2079/80 (agricultural energy balance by fuel); NEA Annual Report FY 2024/25 ("Others" category sales, agricultural feeder references); World Bank Water Sector Diagnostic (irrigation coverage, water demand projections).
+- **Method:** Agricultural energy from WECS sectoral energy balance (on-farm only, excluding agro-processing classified under industrial). Diesel displacement calculation assumes 3× electric motor efficiency advantage over diesel engines. Tubewell counts are estimated from WB Water Sector Diagnostic and NEA rural electrification references.
+- **Known gaps:** NEA does not report agricultural electricity separately (falls under "Others"). Tubewell count (~100,000+) is an estimate, not a registry. Agro-processing energy is classified under industrial, so agricultural energy balance understates total farm-sector energy use.
+
+## Caveats
+
+- **Agro-processing excluded:** WECS classifies sugar mills, tea dryers, and food processing under "Industrial," not "Agriculture." Including agro-processing would roughly double the agricultural energy figure.
+- **Tubewell count is estimated:** ~100,000+ shallow tubewells is an order-of-magnitude estimate, not a verified census.
+- **Diesel displacement calculation is stylized:** Assumes full electrification of all diesel pumps; actual electrification is constrained by grid extension, capital cost, and reliability.
+- **Single-year snapshot:** FY 2079/80 data; agricultural energy mix may shift as electrification and mechanization advance.
+
 Agricultural energy use in Nepal — small in total volume, but strategically central to food security, diesel displacement, and rural electrification outcomes. Agriculture employs ~60% of the workforce but accounts for only 0.95% of final energy — because most farm work is manual and most farm energy is human and animal labour, not fuel.
 
 ## Headline Numbers (FY 2079/80, WECS)

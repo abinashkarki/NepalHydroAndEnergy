@@ -10,6 +10,20 @@ page_quality: analysis
 
 # GLOF Risk
 
+## Summary
+
+Glacial Lake Outburst Floods (GLOFs) are rapid releases of water from moraine-dammed or ice-dammed lakes, capable of producing high-energy sediment slurries that exceed historical design flood bases. In Nepal, they are a first-order constraint on hydropower siting in trans-Himalayan basins.
+
+## Simple Explanation
+
+As glaciers retreat, they leave behind unstable lakes held back by loose rock and ice. When these dams break, the flood isn't just water — it's a fast-moving mix of water, rock, and mud that can travel hundreds of kilometers. For hydropower projects downstream, this means design assumptions based on historical river floods may be inadequate.
+
+## Common Misunderstandings
+
+- **"A GLOF is just a big flood."** It is not. GLOFs can produce flow patterns and sediment loads that have no historical precedent at a given site.
+- **"GLOF risk is an environmental side issue."** It is an infrastructure solvency issue — projects that ignore tail risks can fail non-market tests once those risks are priced honestly.
+- **"Only projects near glaciers are at risk."** GLOF flow paths can extend hundreds of kilometers, affecting tributaries and mainstems far downstream.
+
 **Glacial Lake Outburst Floods (GLOFs)** are rapid releases of water from moraine-dammed or ice-dammed lakes, often triggered by **avalanches**, **seismicity**, or **hydrostatic/overpressure failure**. In Nepal’s context, they are a **first-order constraint** on how confidently one can site **run-of-river** corridors, **headworks**, and **storage** in transboundary basins—because a GLOF is not a “flood” in the sense of a predictable monsoon stage; it can arrive as a **high-energy sediment slurry** with **invented hydrographs** that exceed historical design bases.
 
 ## Process: from lake instability to basin-scale impact

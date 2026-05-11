@@ -31,6 +31,13 @@ page_quality: analysis
 - Some PRoR designs couple with **upstream regulation** or **cascades** in ways that blur public labeling—taxonomy needs care in [[data-fleet-composition]].
 - Optimal **mixed portfolio** (PRoR + storage + trade) is an open planning question; this claim only blocks a false equivalence.
 
+## Boundary Conditions
+
+- This claim does not say PRoR is useless. It says PRoR is not seasonal storage.
+- It does not say daily peaking has no operational value. It says intraday flexibility is different from inter-seasonal energy inventory.
+- It does not reject mixed portfolios. Optimal combinations of PRoR, storage, and trade remain open planning questions.
+- It does not say every PRoR project is mislabeled. It says taxonomy needs care when PRoR is coupled with upstream regulation.
+
 ## Related
 
 - [[run-of-river-hydropower]]

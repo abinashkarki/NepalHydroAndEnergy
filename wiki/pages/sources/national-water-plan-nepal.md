@@ -31,6 +31,20 @@ Older but widely cited national planning document for Nepal's water resources. P
 - Nepal-origin rivers contribute ~**70%** of Ganges dry-season flow at Farakka
 - Per-unit-area freshwater output among the highest on earth
 
+## Limitations
+
+- **Historical estimates:** The 40%/70% Ganges contribution figures and 225 BCM runoff estimate predate recent climate shifts and may not reflect current hydrology.
+- **2005 cutoff:** Does not account for post-2005 basin development, irrigation expansion, or transboundary treaty changes.
+- **Strategic vs precise:** The directional conclusion (Nepal is a major Ganges contributor) is robust; the exact percentages should be treated as indicative.
+- **Single planning document:** Represents one national planning frame; other studies may use different baselines or boundaries.
+
+## Used By
+
+- [[ganges-contribution]]
+- [[storage-deficit]]
+- [[data-basin-discharge]]
+- [[pancheshwar]]
+
 ## Relevance to Project
 
 Source for the [[ganges-contribution]] numbers used across the evidence base. . The 40%/70% figures are central to [[hydro-geopolitics]] and [[india-energy-relationship]].

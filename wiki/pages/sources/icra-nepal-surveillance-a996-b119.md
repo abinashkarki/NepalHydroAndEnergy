@@ -27,8 +27,14 @@ for project-financial and performance claims around [[sahas-urja]] and
   [[sahas-urja-benchmark-icra-2026]] and
   [[ppa-data-retrieval-icra-care-2026]]
 
-## Caveat
+## Limitations
 
-The full citation metadata and document URL still need to be expanded. Until
-then, this page should be treated as a source anchor for a reviewed rating note,
-not a finished bibliographic entry.
+- **Incomplete citation:** Full document metadata and URL still need expansion. Treated as a reviewed rating-note anchor, not a finished bibliographic entry.
+- **Surveillance rating:** Reflects a point-in-time assessment; financial conditions may have changed since issuance.
+- **Single-source dependency:** Revenue, profit, and leverage claims for Sahas Urja and Khimti II trace to this one document — cross-check against audited financials where possible.
+
+## Used By
+
+- [[khimti-ii]]
+- [[sahas-urja]]
+- [[ppa-data-retrieval-icra-care-2026]]

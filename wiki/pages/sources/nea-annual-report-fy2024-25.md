@@ -36,14 +36,18 @@ This run is ingesting roughly 130 images from the FY 2024/25 annual report; the 
 
 Primary source for current installed capacity, fleet composition, generation split, and trade volumes. Supersedes older NEA FY 2022/23 data in several legacy summaries.
 
+## Limitations
+
+- **Snapshot date:** FY 2024/25 (through mid-2025). Post-mid-2025 capacity additions, trade shifts, and commissioning outcomes are not covered.
+- **NEA-only perspective:** Does not capture IPP financials, non-NEA grid data, or private developer construction timelines.
+- **Reconciliation gap with World Bank:** The World Bank 2025 Economic Memo cites ~2,990 MW by end-2024 vs this report's 3,591 MW. The difference reflects date gaps, not error — both are correct at their respective cutoff dates.
+- **Missing granularity:** No monthly generation/trade breakdown, no plant-level curtailment data, no audited financial statements (those live in a separate document).
+
 ## What This Source Does Not Cover
 
 - Seasonal monthly breakdown of generation and trade
 - Plant-level curtailment data
 - Audited financial statements (separate document)
-
-> [!note]
-> The World Bank's 2025 Economic Memo cites ~2,990 MW by end-2024. The difference from 3,591 MW reflects the date gap — NEA's report covers through mid-2025. Both are correct at their respective cutoff dates.
 
 ## Used By
 

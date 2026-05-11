@@ -11,6 +11,23 @@ page_quality: analysis
 
 # Storage Capacity Comparison
 
+## Summary
+
+Nepal's water storage infrastructure compared to regional and global peers. This is the single most dramatic infrastructure gap in the entire analysis.
+
+## Coverage / Method
+
+- **Data sources:** World Bank Water Sector Diagnostic (storage requirement, active storage); World Bank Ganges Strategic Basin Assessment (regional comparisons); JICA IPSDP (storage hydropower MW targets); Oxford University Blakers et al. 2021 (off-river pumped hydro screening).
+- **Method:** Per-capita storage from global dam databases and country-specific assessments, normalized to population. Nepal storage from Kulekhani cascade operational data. Storage requirement (29.86 km³) from WB water-sector-wide estimate. Pumped-hydro potential from GIS-based off-river site screening using 3-arc-second DEM and 500 ha reservoir threshold.
+- **Known gaps:** Active vs total reservoir volume boundaries differ across sources (85 MCM active vs 130–150 MCM total). Off-river pumped-hydro screening is GIS-based theoretical potential, not feasibility-assessed projects.
+
+## Caveats
+
+- **Storage-gap framing:** The 29.86 km³ requirement is a water-sector-wide estimate (irrigation + energy + other uses), not an electricity-only storage target.
+- **Active vs total ambiguity:** The ~85 MCM active storage and 130–150 MCM total figures differ by boundary definition. Both are negligible relative to need.
+- **Off-river potential is theoretical:** The ~2,800 sites / 50 TWh figure is a GIS screening result, not a bankable project pipeline. Site-specific feasibility studies would reduce the realizable fraction.
+- **Regional comparisons are illustrative:** Per-capita storage varies by geography, climate, and measurement methodology; direct Nepal-vs-Norway comparison is valid for scale but not for policy prescription.
+
 Nepal's water storage infrastructure compared to regional and global peers. This is the single most dramatic infrastructure gap in the entire analysis.
 
 ## Per-Capita Dam Storage

@@ -10,6 +10,20 @@ page_quality: analysis
 
 # Nepal's Contribution to the Ganges
 
+## Summary
+
+Nepal occupies about 13% of the Ganges basin area yet contributes roughly 40–45% of mean annual flow and 70–80% of dry-season flow. This hydrological asymmetry — small footprint, large leverage on timing — is the physical basis for Nepal's upstream role in South Asian water security.
+
+## Simple Explanation
+
+Nepal is a small country in a huge river basin. But the rivers that start in Nepal's Himalayas feed almost half the Ganges' water — and even more of its dry-season flow. This means what Nepal does with its rivers (dams, storage, diversions) affects hundreds of millions of people downstream, mostly in India and Bangladesh.
+
+## Common Misunderstandings
+
+- **"Nepal's contribution is proportional to its land area."** It is not. Nepal's Himalayan geography concentrates precipitation and meltwater into a small area, producing outsized downstream contributions.
+- **"High contribution means Nepal has unlimited bargaining power."** Contribution creates leverage, but leverage without institutional capacity and enforceable agreements does not translate into durable benefit.
+- **"The 40%/70% figures are exact and current."** They are historical estimates from the 2005 National Water Plan that predate recent climate shifts; the directional conclusion is robust but the exact percentages should be treated cautiously.
+
 Nepal occupies only about **13%** of the **Ganges basin area**, yet contributes roughly **40–45%** of **mean annual flow** and on the order of **70–80%** of **dry-season flow** measured at **Farakka**-style accounting points in strategic basin literature. This **hydrological asymmetry**—small footprint, large leverage on timing—is the physical basis for Nepal’s **upstream role** in South Asian water security.
 
 ## Underused abundance

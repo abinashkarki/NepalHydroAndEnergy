@@ -34,6 +34,26 @@ The revised national hydropower potential assessment. Supersedes the older 83,00
   - All remaining basins: ~4,551 MW
 - **~94%** of gross potential is in the three major Himalayan basins
 
+## Limitations
+
+- **Screening opacity:** Full Multi-Criteria Analysis methodology and sensitivity parameters are not transparent in the public version.
+- **Gross vs techno-economic:** The 72,544 MW gross potential is a theoretical ceiling; the 32,680 MW techno-economic potential is the more honest planning baseline.
+- **Legacy figure persistence:** The older 83,000 MW figure remains politically prominent despite this revision.
+- **Exclusions:** Does not account for climate-adjusted hydrology, sediment risk, or buildability constraints that would reduce realisable potential below techno-economic estimates.
+
+## Used By
+
+- [[buildability]]
+- [[firm-power]]
+- [[hydropower-potential-categories]]
+- [[run-of-river-hydropower]]
+- [[data-layer-nepal-tributaries]]
+- [[data-potential-pyramid]]
+- [[karnali-chisapani]]
+- [[koshi-basin]]
+- [[wecs]]
+- [[irena-remap-nepal]]
+
 ## Relevance to Project
 
 The definitive source for [[hydropower-potential-categories]]. Only  surfaced the revised 72,544 MW figure — public summaries used the legacy 83,000 MW. The basin concentration data (94% in three basins) is central to the strategic argument.

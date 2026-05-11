@@ -269,6 +269,14 @@ def extract_generator(text: str) -> str:
     return match.group(1).strip() if match else ""
 
 
+def extract_page_quality(text: str) -> str:
+    fm = read_frontmatter_text(text)
+    if not fm:
+        return ""
+    match = re.search(r"^page_quality:\s*(.+?)\s*$", fm, re.MULTILINE)
+    return match.group(1).strip().strip("'\"") if match else ""
+
+
 def extract_title(text: str, fallback: str) -> str:
     match = re.search(r"^title:\s*(.+?)\s*$", text, re.MULTILINE)
     return match.group(1).strip().strip("'\"") if match else fallback
@@ -397,21 +405,37 @@ REQUIRED_SECTIONS: dict[str, list[str]] = {
 def validate_required_sections() -> None:
     """Warn when pages lack canonical section headings per TEMPLATES.md.
 
+    Tier-aware: record-tier pages in entities/sources/data are exempt, since
+    they are correctly minimal per QUALITY_RUBRIC.md. brief-tier entities are
+    exempt from ## Limitations & Controversies.
+
     Emits a summary-by-category by default. Only lists individual pages when
     the total warning count is low enough to be readable, or when WIKI_VERBOSE=1.
     """
     warnings: list[str] = []
     category_counts: dict[str, dict[str, int]] = {}
+    skipped_record = 0
     for category, required in REQUIRED_SECTIONS.items():
         category_counts[category] = {}
         for page in sorted((WIKI_PAGES / category).glob("*.md")):
             text = page.read_text(encoding="utf-8")
-            for heading in required:
+            tier = extract_page_quality(text)
+            # Tier-aware filtering
+            headings_to_check = list(required)
+            if tier == "record" and category in ("entities", "sources", "data"):
+                skipped_record += 1
+                continue  # record-tier pages are correctly minimal
+            if tier == "brief" and category == "entities":
+                # brief-tier entities need Summary but not Limitations & Controversies
+                headings_to_check = [h for h in headings_to_check if "Limitations & Controversies" not in h]
+            for heading in headings_to_check:
                 if heading not in text:
                     key = f"{category}: {heading}"
                     category_counts[category][heading] = category_counts[category].get(heading, 0) + 1
                     warnings.append(f"{category}/{page.name}: missing {heading}")
     if not warnings:
+        if skipped_record:
+            print(f"INFO: skipped {skipped_record} record-tier pages (correctly minimal)")
         return
 
     verbose = os.environ.get("WIKI_VERBOSE", "") == "1"
@@ -420,18 +444,23 @@ def validate_required_sections() -> None:
     # Always print category-level summary
     summary_lines: list[str] = []
     for category, headings in category_counts.items():
-        for heading, count in headings.items():
-            summary_lines.append(f"  {category}: {count} pages missing {heading}")
+        for heading, count in sorted(headings.items()):
+            if count:
+                summary_lines.append(f"  {category}: {count} pages missing {heading}")
+
+    header = "missing required sections (warning only — not a hard fail)"
+    if skipped_record:
+        header += f" — skipped {skipped_record} record-tier pages"
 
     if total <= 20 or verbose:
-        warn("missing required sections (warning only — not a hard fail):\n  "
+        warn(f"{header}:\n  "
              + "\n  ".join(summary_lines)
              + "\n  ---\n  "
              + "\n  ".join(warnings[:100]))
         if total > 100 and not verbose:
             warn(f"  ... ({total - 100} more lines suppressed; set WIKI_VERBOSE=1 to show all)")
     else:
-        warn("missing required sections (warning only — not a hard fail):\n  "
+        warn(f"{header}:\n  "
              + "\n  ".join(summary_lines)
              + f"\n  ---\n  ({total} total warnings; set WIKI_VERBOSE=1 to list individual pages)")
 

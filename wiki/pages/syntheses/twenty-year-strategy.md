@@ -38,6 +38,14 @@ A rational 20-year water-and-energy strategy for Nepal, synthesized from the str
 
 **Key interventions:** [[intervention-electric-cooking-transition]] (build domestic demand to absorb monsoon surplus); [[intervention-q-design-climate-adjustment]] (mandate climate-adjusted hydrology before licensing the Phase 2 pipeline); [[intervention-sebon-data-transparency]] (ensure Phase 2 IPOs are transparently disclosed).
 
+### Value capture: domestic electrification outranks export optimization
+
+The deepest value-capture move in Phase 2 is not better export contracts. It is electrifying cooking, industrial heat, and transport at scale — turning Nepal from a seasonal kWh exporter into a country where electricity is the backbone of economic productivity.
+
+The evidence from [[data-domestic-demand]] is stark: only **0.5% of Nepali households** use electricity for cooking. Shifting even 20–30% of cooking to electricity would create roughly **50–75 PJ** of new electric demand — a magnitude larger than any plausible export contract. The per-unit economics favour domestic absorption: dry-season firm power earns NPR 14.80/unit at regulated storage PPA rates, while exports average NPR 7.11–8.72/unit in monsoon. The system captures more value per kWh when it serves high-productivity domestic uses during scarcity hours than when it exports surplus during glut hours.
+
+This does not mean exports are unimportant. Bangladesh contracts, IEX real-time sales, and bilateral arrangements remain valuable revenue sources. But the sequencing matters: **domestic demand first, export optimization second.** A grid that electrifies cooking, industrial heat, and transport creates a tax base, jobs, and foreign-exchange savings that dwarf the marginal gain from negotiating slightly better export terms. See [[domestic-led-hydro-strategy]] for the structural argument and [[energy-substitution-pathway]] for the full substitution logic.
+
 **Priority:** Add [[storage-deficit]] relief. Convert from seasonal surplus to year-round system value.
 
 ## Phase 3: 2037–2044 — Leverage and Transform

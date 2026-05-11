@@ -10,6 +10,20 @@ page_quality: analysis
 
 # Domestic-Led Hydro Strategy
 
+## Summary
+
+Domestic-led hydro strategy means planning Nepal's power system around its own load growth, reliability, and productivity — using exports to monetize surplus rather than defining the investment program around export markets. Hydropower remains central, but solar complementarity, BESS, and demand shaping now belong inside the strategy.
+
+## Simple Explanation
+
+Nepal could build dams mainly to sell electricity to India. A "domestic-led" strategy says: build dams (and solar) mainly to power Nepali homes, factories, and transport first. Sell any leftover electricity abroad. The sequencing matters because domestic demand creates jobs and tax revenue that exports alone do not.
+
+## Common Misunderstandings
+
+- **"Domestic-led means anti-export."** It does not. Exports are valuable; the strategy says they should follow domestic need, not lead it.
+- **"Nepal lacks enough domestic demand."** Per-capita electricity use is ~370–465 kWh/year — 5–7× below middle-income norms — indicating large headroom for efficient demand growth.
+- **"Domestic-led is only about hydro."** The better operational phrase is domestic-led power strategy with a hydro backbone: solar, BESS, and demand shaping are integral.
+
 **Domestic-led hydro** means planning the power system around **Nepal's own load growth, reliability, and productivity** — using exports to **monetize surplus**, not to **define the investment program**. After the solar audit, the better operational phrase is **domestic-led power strategy with a hydro backbone**: hydropower remains central, but [[solar-hydro-complementarity]], BESS, and demand shaping now belong inside the strategy rather than beside it.
 
 ## The consensus across analytical lines

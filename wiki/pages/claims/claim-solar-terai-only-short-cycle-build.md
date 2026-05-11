@@ -27,9 +27,12 @@ For large new supply that can materially affect Nepal's pre-2030 winter balance,
 
 **Medium** because individual solar projects can still stall on land and grid impact, and hydropower schedules vary widely. The claim is not that every Terai solar project is fast; it is that no other large resource class has the same national-scale, pre-2030 deployment path.
 
-## Boundary conditions
+## Boundary Conditions
 
-The claim is about **short-cycle buildability**, not full firm capacity. Solar needs BESS, peaking hydro, or demand shifting to cover the evening peak.
+- This claim is about build cycle speed, not full firm capacity. Solar still needs BESS, peaking hydro, or demand shifting.
+- It does not say every Terai solar project will be fast. Individual projects can still stall on land and grid.
+- It does not say hydropower is unnecessary. It says no other large resource class matches the pre-2030 deployment path.
+- It does not say solar alone solves winter balance. It says solar is the only large short-cycle build lever.
 
 ## Related
 

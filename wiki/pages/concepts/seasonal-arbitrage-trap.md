@@ -10,6 +10,20 @@ page_quality: analysis
 
 # Seasonal Arbitrage Trap
 
+## Summary
+
+The seasonal arbitrage trap describes how Nepal systematically sells cheap wet-season surplus electricity and buys expensive dry-season power, so headline trade balances mask destroyed margin on timing. The country can be a net exporter in energy terms while losing value on every unit traded.
+
+## Simple Explanation
+
+Nepal sells electricity to India during monsoon when its rivers are full and prices are low. It buys electricity back during winter when its rivers are low and prices are high. Even if the total GWh exported roughly equals GWh imported, the money lost on expensive winter imports outweighs the money earned on cheap monsoon exports. The "trap" is that the timing of trade destroys value.
+
+## Common Misunderstandings
+
+- **"Positive net exports mean Nepal is winning on trade."** Not necessarily. Net energy volume and net revenue are different metrics; timing can make a net exporter a net payer.
+- **"The IEX spread proves the trap is resolving."** The IEX channel shows improvement, but whole-system averages still reflect negative spreads because non-exchange winter imports at peak-hour rates wash out exchange gains.
+- **"Better negotiation with India would fix this."** The trap is structural — it reflects Nepal's generation profile, not bargaining skill. Domestic storage or demand growth are the physical fixes.
+
 The **seasonal arbitrage trap** describes how Nepal can appear to "win" on electricity trade while **losing on economic value**: the country systematically **sells cheap wet-season surplus** and **buys expensive dry-season power**, so headline trade balances mask a **destroyed margin on timing**.
 
 ## The numbers that look like success

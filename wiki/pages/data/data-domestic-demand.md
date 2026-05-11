@@ -11,6 +11,27 @@ page_quality: analysis
 
 # Domestic Electricity Demand Distribution
 
+## Summary
+
+Where Nepal's electricity actually goes — by sector, by consumer category, and how fast it's growing. Central evidence for [[domestic-led-hydro-strategy]] and the [[seasonal-arbitrage-trap]] value-capture argument.
+
+## Simple Explanation
+
+Nepal sells roughly 11,000 GWh of electricity per year. Over 90% of customers are households, but they use only 42% of the power. Industry — just 1.2% of customers — uses 37%. The grid is growing fast (+55% in 4 years) but per-person use is still tiny by global standards: 465 kWh per year vs 2,000–3,000 in middle-income countries. The biggest untapped demand is cooking: fewer than 1% of households cook with electricity.
+
+## Coverage / Method
+
+- **Data sources:** NEA Annual Report FY 2024/25, Distribution and Consumer Services Directorate (sectoral sales, consumer counts, provincial breakdowns); WECS Energy Sector Synopsis FY 2079/80 (per-capita consumption, agricultural energy cross-tab); World Bank Country Economic Memo 2025 (cooking electrification baseline).
+- **Method:** Sectoral shares from NEA DCSD sales tables. FY 2020/21 vs FY 2024/25 comparison uses same source methodology across both years. Per-capita consumption calculated from total sales and population estimates.
+- **Known gaps:** NEA does not report agricultural electricity separately (falls under "Others"); electric cooking figure (0.5%) is from 2021 WB estimate, not annually updated; load profile is from monthly operational reports, not continuous metering.
+
+## Caveats
+
+- **Single-fiscal-year snapshot:** FY 2024/25 data; sectoral shares may shift as industrial load grows.
+- **Cooking statistic is old:** 0.5% electric cooking from 2021 WB estimate; no annual update series exists.
+- **"Others" category is heterogeneous:** Agricultural, street lighting, temporary, and water supply are combined; agriculture-only slice is estimated at 200–350 GWh.
+- **Per-capita figures are approximate:** Based on national population estimates, not metered consumer counts.
+
 Where Nepal's electricity actually goes — by sector, by consumer category, and how fast it's growing. Central evidence for [[domestic-led-hydro-strategy]] and the [[seasonal-arbitrage-trap]] value-capture argument.
 
 ## Sectoral Demand Split — FY 2024/25 (NEA)
@@ -126,14 +147,13 @@ The strategic implication: if Nepal could shift even 20–30% of cooking to elec
 
 ## Value-Capture Framing
 
-Electricity "captures value" when:
-1. It sells scarce kWh at high value (dry-season firm power, peak hours)
-2. It buys deficit kWh at low cost (off-peak imports when available)
-3. It uses the bulk of output domestically in **high-productivity activities**
+Electricity captures higher value when it serves scarce periods (dry-season firm power, peak hours) and high-productivity uses. Nepal's current position:
 
-Nepal currently does (1) partially (improving IEX spreads) and (2) adequately in monsoon (exports at NPR 7.11/unit average) but still pays a winter scarcity tax. On (3) — the domestic transformation pathway — the electric cooking statistic (0.5% of households) captures the scale of the gap.
+- Dry-season firm power: partially priced (storage PPA winter rate NPR 14.80/unit)
+- Export revenue: averaging NPR 7.11–8.72/unit in monsoon
+- Domestic industrial tariff: peak hours NPR 10.00–10.20/unit
 
-The deepest value-capture move is not better export contracts. It is **electrifying cooking, industrial heat, and transport** at scale — turning Nepal from a seasonal kWh exporter into a country where electricity is the backbone of economic productivity. See [[consumption-trajectory-outlook]] for the forward view.
+The electric cooking gap (0.5% of households) represents the largest unrealized demand pool. Shifting 20–30% of cooking to electricity would create ~50–75 PJ of new electric demand — a magnitude larger than current export contracts. See [[energy-substitution-pathway]] for substitution logic and [[consumption-trajectory-outlook]] for forward growth. The interpretive payoff (why domestic electrification outranks export optimization) lives in [[twenty-year-strategy]] and [[domestic-led-hydro-strategy]].
 
 ## Linked Data
 

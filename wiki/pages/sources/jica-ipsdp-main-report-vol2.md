@@ -69,6 +69,41 @@ Local workspace copy:
 > [!cite] jica-ipsdp-main-report-vol2
 > PDF created `2024-12-09` via Word → Adobe PDF. File is byte-identical to `jica_ipsdp_report_part2.pdf` in the same directory (verified via SHA-256); the canonical path used by the wiki is `jica_ipsdp_main_report_vol2.pdf`.
 
+## Limitations
+
+- **Incomplete volume:** This PDF contains only Annexes 1–6. Annexes 7–16 (power generation development planning, cross-border trade status, power system planning, SEA, economic and financial analysis, financing, surplus utilisation, governance, milestones, capacity development) are in companion volumes not currently in the wiki raw-source set.
+- **Study assumptions, not verified outcomes:** Demand forecasts, scorecards, and sequencing logic are JICA/MoEWRI study outputs — not post-implementation verification.
+- **2024 cutoff:** Post-study construction progress and policy changes after 2024 are not reflected.
+
+## Used By
+
+- [[andhi-khola]]
+- [[arun-3]]
+- [[bagmati-nadi]]
+- [[balephi]]
+- [[budhigandaki]]
+- [[chera-1]]
+- [[dudhkoshi-storage]]
+- [[humla-karnali-1]]
+- [[karnali-chisapani]]
+- [[khimti-cascade]]
+- [[khimti-i]]
+- [[kokhajor-1]]
+- [[likhu-4]]
+- [[lower-badigad]]
+- [[lower-jhimruk]]
+- [[madi]]
+- [[marsyangdi]]
+- [[nalsyau-gad]]
+- [[naumure-w-rapti]]
+- [[phukot-karnali]]
+- [[sun-koshi-no-3]]
+- [[tamakoshi-v]]
+- [[trishuli]]
+- [[upper-karnali]]
+- [[upper-myagdi]]
+- [[west-seti]]
+
 ## What this source does not cover
 
 - Annexes 7–16 of the IPSDP final report (power system planning, cross-border trade, SEA, financing, surplus-electricity utilisation, governance, milestone ladder, capacity development). Use [[moewri-ipsdp-exec-summary-2025]] for the compact statement of those or queue companion JICA volumes when available.

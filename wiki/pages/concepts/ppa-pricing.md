@@ -10,6 +10,20 @@ page_quality: analysis
 
 # PPA Pricing
 
+## Summary
+
+Power Purchase Agreement (PPA) pricing in Nepal is set project-by-project through bilateral negotiation between developers and NEA, without a publicly disclosed cost-reflective formula (prior to the 2026 ERC Directive). Rates are differentiated by season (wet/dry) and project type, with significant structural divergence between NEA subsidiaries and private IPPs.
+
+## Simple Explanation
+
+When a private company builds a hydropower plant in Nepal, NEA signs a contract to buy the electricity at a fixed rate. That rate is different in the wet season (when rivers are full) and the dry season (when they're low). But the rate isn't set by a public formula — it's negotiated bilaterally. And NEA's own subsidiary companies often get better terms than private developers, creating a two-tier market.
+
+## Common Misunderstandings
+
+- **"PPA rates are market prices."** They are regulated, negotiated tariffs — not set by competitive auction or spot market dynamics.
+- **"All projects get the same rate."** NEA subsidiaries (like Chilime) use different billing architectures that produce structurally higher blended rates than private IPPs.
+- **"Lower PPA rates are always better for consumers."** Rates below cost of capital deter investment, lengthen project timelines, and can increase system risk.
+
 How Power Purchase Agreement rates are set for hydropower projects in Nepal — and whether rate-setting follows an economic formula or a discretionary process. The central institutional framework is [[nea-triple-authority]]: the same entity that sets PPA rates (NEA as single buyer) is also the penalty enforcer and dispatcher.
 
 ## PPA Rate Comparison Table

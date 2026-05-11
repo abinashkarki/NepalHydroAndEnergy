@@ -167,6 +167,20 @@ Source: India Central Electricity Authority / IEX market monitoring report. Trad
 
 The three linked figures above now cover most of this page's graphic needs. The missing chart is a clean monthly revenue curve for FY 2025/26 plotted directly against import resumption, which would make the winter scarcity tax legible in one line.
 
+## Coverage / Method
+
+- **Data sources:** NEA System Operation Department operational reports (monthly GWh, FY 2079/80 through FY 2024/25); NEA Annual Report FY 2024/25 trade tables; India CEA / IEX market monitoring reports (exchange pricing, 2021–2024).
+- **Method:** Monthly import/export volumes from NEA energy-balance tables. IEX spreads calculated as weighted-average buy vs sell prices across Day-Ahead and Real-Time markets for cross-border transactions. Revenue figures from NEA annual report trade revenue statements.
+- **Reconciliation:** Three NEA views of FY 2024/25 trade are preserved (narrative summary 1,681/2,380; monthly table 1,712/2,380; multi-year chart 1,711.5/2,331.7) because they serve different analytical purposes. The wiki does not silently pick one.
+- **Known gaps:** Daily report parsing covers only 40 of 639 available daily reports (BS 2081/08/18–2081/09/27). Early FY 2079/80 months rely on annual-report trade chart, not daily data. IEX spread is exchange-channel only; non-exchange bilateral and peak-hour procurement are not captured in the exchange dataset.
+
+## Caveats
+
+- **Single-year anomaly risk:** FY 2024/25 was Nepal's first sustained net-export year; the monthly revenue pattern may not be stable as export volumes grow.
+- **IEX ≠ whole system:** Positive IEX spread (+₹1.18/kWh in 2023-24) does not imply positive system-wide average (still negative at Rs 0.45/unit) because non-exchange winter imports at peak-hour rates are excluded from IEX data.
+- **Reconciliation noise:** The three NEA totals for FY 2024/25 differ by ~30 GWh (imports) and ~48 GWh (exports). These are material for precision modeling but minor for directional analysis.
+- **Daily data incomplete:** The parsed daily subset is <7% of the known archive depth. Early-month daily patterns are not yet available.
+
 ## Bangladesh Trade Detail
 
 See [[bangladesh-trade-route]].

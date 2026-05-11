@@ -11,6 +11,23 @@ page_quality: analysis
 
 # Electricity Consumption Geographic Distribution
 
+## Summary
+
+Where Nepal's electricity is consumed — by province, by NEA distribution office, showing the stark development gradient from Terai industrial corridors to remote Karnali valleys. Data from the NEA Annual Report FY 2024/25, Distribution and Consumer Services Directorate provincial office reports.
+
+## Coverage / Method
+
+- **Data source:** NEA Annual Report FY 2024/25, Distribution and Consumer Services Directorate — provincial office reports with consumer counts, sales (GWh), revenue (NRs), and distribution loss percentages.
+- **Method:** Provincial totals assembled from nine NEA distribution/division office reports. Revenue per kWh and sales per consumer calculated from reported totals. Loss figures from NEA distribution-level reporting.
+- **Known gaps:** Lumbini Nepalgunj Division consumer count is approximated (report appears to carry over the Butwal figure). Provincial consumer total (~5.64M) is slightly below national total (5.708M) due to this duplication issue. Provincial-level sectoral splits (domestic/industrial/commercial) are not published.
+
+## Caveats
+
+- **Consumer count duplication:** Lumbini Nepalgunj Division consumer count may overlap with Butwal Division; the NEA report text appears to carry over the Butwal figure.
+- **Provincial totals ≠ national total:** The nine office aggregates sum to ~11,283 GWh vs national DCSD total of 11,288 GWh (<0.1% gap, rounding). Consumer count gap is larger (~68,000 consumers) due to the Lumbini duplication.
+- **Loss figures are distribution-level only:** System-wide losses include transmission and technical losses not captured in provincial distribution-office reports.
+- **Single-year snapshot:** FY 2024/25; the Terai-Karnali gradient is structural but year-to-year ratios may shift with grid extension.
+
 Where Nepal's electricity is consumed — by province, by NEA distribution office, showing the stark development gradient from Terai industrial corridors to remote Karnali valleys. Data from the NEA Annual Report FY 2024/25, Distribution and Consumer Services Directorate provincial office reports.
 
 ## Provincial Distribution — FY 2024/25

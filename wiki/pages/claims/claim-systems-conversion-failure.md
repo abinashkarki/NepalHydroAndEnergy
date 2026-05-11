@@ -32,6 +32,13 @@ Nepal is **not** failing because its rivers are "fake" or because annual water i
 - Needs explicit **metrics dashboard** for "conversion" (dry-season firm energy, curtailment hours, delivered industrial load, realized export revenue, outage rates, project SLA compliance).
 - Risk of sounding totalizing—**progress exists**; the claim is about the **dominant margin** still being conversion, not zero achievement.
 
+## Boundary Conditions
+
+- This claim does not say Nepal has made zero progress. Progress exists; the claim is about the dominant margin still being conversion.
+- It does not say the conversion failure is irreversible. Each layer of the failure stack is addressable.
+- It does not say every project suffers from all failure modes listed. The stack is a diagnostic menu, not a universal indictment.
+- It does not say hydrological advantage guarantees success. It says the resource is real and the delivery chain is where the gap lives.
+
 ## Related
 
 - [[seasonal-mismatch]]

@@ -10,6 +10,20 @@ page_quality: analysis
 
 # Q-Design Discharge
 
+## Summary
+
+Q-design discharge is the regulatory parameter that determines a hydropower project's installed capacity and its Power Purchase Agreement contracted energy obligation. Nepal's Department of Electricity Development mandates Q45 exceedance for licensing — the flow rate exceeded 45% of the time — which sets both turbine size and the annual generation promise.
+
+## Simple Explanation
+
+When a developer proposes a hydro plant, regulators require them to pick a river flow rate that the river will exceed for a certain percentage of days. That flow rate determines how big the turbines are and how much electricity the developer promises to produce. If the flow estimate is too optimistic, the plant cannot physically meet its promise — and the developer may default on loans.
+
+## Common Misunderstandings
+
+- **"Q-design is just a technical detail."** It is not. It is the regulatory parameter that mechanically links hydrology assumptions to financial viability.
+- **"Higher Q-design always means a better project."** Higher Q-design (e.g., Q40 vs Q65) means larger turbines and higher contracted energy — but also higher risk of underperformance if the river does not deliver.
+- **"Q-design failure is always the developer's fault."** The WECS/DHM 1990 methodology used for ungauged rivers assumes hydrological stationarity that climate change has invalidated. Some "failures" are methodological, not fraudulent.
+
 **Q-design discharge** is the regulatory parameter that mechanically determines a hydropower project's installed capacity and its Power Purchase Agreement (PPA) contracted energy obligation. A design discharge set too high — based on optimistic or outdated hydrology — inflates both the turbine size and the annual generation promise, locking the developer into performance targets that the river cannot sustain.
 
 ## What Q_x means
