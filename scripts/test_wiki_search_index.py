@@ -56,8 +56,12 @@ class WikiSearchIndexTests(unittest.TestCase):
 
     def test_aliases_cover_expected_discovery_language(self) -> None:
         aliases = self.index["aliases"]
-        for key in ["firm", "winter", "deficit", "india", "export", "risk", "storage", "karnali"]:
-            self.assertIn(key, aliases)
+        phrases = {item["phrase"]: set(item["expand"]) for item in self.index["alias_phrases"]}
+        for phrase in ["firm power", "winter deficit", "india export risk", "storage projects karnali", "transmission bottleneck"]:
+            self.assertIn(phrase, phrases)
+            self.assertTrue(phrases[phrase])
+        self.assertNotIn("storage", aliases, "bare storage must not expand to a project shortlist")
+        self.assertNotIn("karnali", aliases, "bare Karnali must not expand to every storage shortlist project")
         self.assertNotIn("solar", aliases.get("hydro", []), "bare hydro must not expand into solar concepts")
         self.assertNotIn("hybrid", aliases.get("hydro", []), "bare hydro must not expand into hybrid siting")
 
@@ -155,6 +159,10 @@ class WikiSearchIndexTests(unittest.TestCase):
             expanded = set(terms)
             for term in terms:
                 expanded.update(aliases.get(term, []))
+            q = query.lower()
+            for item in self.index["alias_phrases"]:
+                if item.get("phrase") and item["phrase"] in q:
+                    expanded.update(item.get("expand", []))
             return {term for term in expanded if term in postings}
 
         checks = {

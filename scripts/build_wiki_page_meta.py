@@ -44,6 +44,7 @@ MD_LINK_RE = re.compile(r"\[([^\]]+)\]\([^)]+\)")
 INLINE_CODE_RE = re.compile(r"`[^`]+`")
 HTML_RE = re.compile(r"<[^>]+>")
 TOKEN_RE = re.compile(r"[a-z0-9][a-z0-9\-_/]+")
+TOKEN_SPLIT_RE = re.compile(r"[-_/]+")
 
 
 def split_frontmatter(text: str) -> tuple[str, str]:
@@ -78,8 +79,19 @@ def first_paragraph(body: str) -> str:
     return ""
 
 
+def is_search_token(token: str) -> bool:
+    return token not in STOPWORDS and (len(token) > 2 or token.isdigit())
+
+
 def tokenize(text: str) -> list[str]:
-    return [t for t in TOKEN_RE.findall(text.lower()) if t not in STOPWORDS and len(t) > 2]
+    tokens: list[str] = []
+    for raw in TOKEN_RE.findall(text.lower()):
+        if is_search_token(raw):
+            tokens.append(raw)
+        for part in TOKEN_SPLIT_RE.split(raw):
+            if part != raw and is_search_token(part):
+                tokens.append(part)
+    return tokens
 
 
 def infer_subcategory(slug: str, category: str, tags: list[str]) -> str:

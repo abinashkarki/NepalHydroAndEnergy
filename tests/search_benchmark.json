@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "description": "Blind benchmark expectations for the wiki explorer's Explore search mode. These expectations describe user intent and acceptable rank tiers, not implementation details.",
+  "rank_tiers": {
+    "top_1": 1,
+    "top_3": 3,
+    "top_5": 5,
+    "top_10": 10
+  },
+  "cases": [
+    {
+      "id": "upper-tamakoshi-title",
+      "query": "upper tamakoshi",
+      "intent": "Find the project page for the operating Upper Tamakoshi hydropower plant.",
+      "expect": [{"slug": "upper-tamakoshi", "rank_le": 1}]
+    },
+    {
+      "id": "upper-tamakoshi-operating-largest",
+      "query": "largest operating hydro plant in Nepal",
+      "intent": "Find the operating-project answer, with Upper Tamakoshi as the expected primary page.",
+      "expect": [{"slug": "upper-tamakoshi", "rank_le": 3}]
+    },
+    {
+      "id": "arun3-title",
+      "query": "arun 3",
+      "intent": "Find the Arun 3 project page.",
+      "expect": [{"slug": "arun-3", "rank_le": 1}]
+    },
+    {
+      "id": "arun3-india-developed",
+      "query": "india developed peaking ror koshi project",
+      "intent": "Find Arun 3 when a user remembers its Indian developer, basin, and peaking RoR character.",
+      "expect": [{"slug": "arun-3", "rank_le": 5}]
+    },
+    {
+      "id": "dudhkoshi-title",
+      "query": "dudhkoshi storage",
+      "intent": "Find the Dudhkoshi Storage project page.",
+      "expect": [{"slug": "dudhkoshi-storage", "rank_le": 1}]
+    },
+    {
+      "id": "dudhkoshi-financing",
+      "query": "aiib reservoir storage project dudh koshi",
+      "intent": "Find Dudhkoshi by financing/status and storage concept terms.",
+      "expect": [{"slug": "dudhkoshi-storage", "rank_le": 3}]
+    },
+    {
+      "id": "mugu-karnali-largest-storage",
+      "query": "largest storage project in Karnali basin",
+      "intent": "Find Mugu Karnali Storage HEP as the largest Karnali storage project.",
+      "expect": [{"slug": "mugu-karnali-storage", "rank_le": 3}]
+    },
+    {
+      "id": "mugu-karnali-1902",
+      "query": "1902 MW Mugu Karnali storage HEP",
+      "intent": "Find Mugu Karnali from capacity and name fragments.",
+      "expect": [{"slug": "mugu-karnali-storage", "rank_le": 1}]
+    },
+    {
+      "id": "pancheshwar-bilateral",
+      "query": "bilateral mahakali treaty storage project",
+      "intent": "Find Pancheshwar as the Nepal-India Mahakali treaty storage project.",
+      "expect": [{"slug": "pancheshwar", "rank_le": 3}]
+    },
+    {
+      "id": "tanahu-storage-construction",
+      "query": "large storage hydropower under construction seti adb",
+      "intent": "Find Tanahu as the active ADB-backed storage project under construction.",
+      "expect": [{"slug": "tanahu-hydropower", "rank_le": 3}]
+    },
+    {
+      "id": "kulekhani-reservoir",
+      "query": "kulekhani reservoir cascade",
+      "intent": "Find the Kulekhani Cascade page.",
+      "expect": [{"slug": "kulekhani-cascade", "rank_le": 1}]
+    },
+    {
+      "id": "dhalkebar-muzaffarpur-title",
+      "query": "dhalkebar muzaffarpur",
+      "intent": "Find the Dhalkebar-Muzaffarpur cross-border interconnection.",
+      "expect": [{"slug": "dhalkebar-muzaffarpur", "rank_le": 1}]
+    },
+    {
+      "id": "dhalkebar-export-linchpin",
+      "query": "only operational 400 kV cross border export line India",
+      "intent": "Find the Dhalkebar-Muzaffarpur line from its role in export routing.",
+      "expect": [{"slug": "dhalkebar-muzaffarpur", "rank_le": 3}]
+    },
+    {
+      "id": "hddi-backbone",
+      "query": "hetauda dhalkebar inaruwa 400 kv backbone",
+      "intent": "Find the internal Hetauda-Dhalkebar-Inaruwa backbone page.",
+      "expect": [{"slug": "hetauda-dhalkebar-inaruwa-backbone", "rank_le": 1}]
+    },
+    {
+      "id": "mca-central-ratmate",
+      "query": "ratmate hetauda damauli butwal mca corridor",
+      "intent": "Find the MCA Central 400 kV corridor by named nodes.",
+      "expect": [{"slug": "mca-central-400", "rank_le": 1}]
+    },
+    {
+      "id": "mca-compact",
+      "query": "millennium challenge compact transmission spine",
+      "intent": "Find the MCA transmission spine without typing MCA.",
+      "expect": [{"slug": "mca-central-400", "rank_le": 3}]
+    },
+    {
+      "id": "bangladesh-trade-route",
+      "query": "bangladesh electricity export route through india",
+      "intent": "Find the Nepal-Bangladesh electricity trade route.",
+      "expect": [{"slug": "bangladesh-trade-route", "rank_le": 1}]
+    },
+    {
+      "id": "india-gatekeeper",
+      "query": "india gatekeeper nepal electricity trade",
+      "intent": "Find the India energy relationship page for market/geopolitical dependency.",
+      "expect": [{"slug": "india-energy-relationship", "rank_le": 3}]
+    },
+    {
+      "id": "koshi-basin-sediment",
+      "query": "koshi basin sediment flood glacier hydropower constraints",
+      "intent": "Find the Koshi Basin page.",
+      "expect": [{"slug": "koshi-basin", "rank_le": 3}]
+    },
+    {
+      "id": "karnali-basin-underused",
+      "query": "underused western basin ghaghara baseflow karnali",
+      "intent": "Find the Karnali Basin page.",
+      "expect": [{"slug": "karnali-basin", "rank_le": 3}]
+    },
+    {
+      "id": "seasonal-mismatch",
+      "query": "monsoon surplus dry season shortage",
+      "intent": "Find the seasonal mismatch concept.",
+      "expect": [{"slug": "seasonal-mismatch", "rank_le": 3}]
+    },
+    {
+      "id": "storage-deficit",
+      "query": "storage deficit retime monsoon water to dry season",
+      "intent": "Find the storage deficit concept.",
+      "expect": [{"slug": "storage-deficit", "rank_le": 1}]
+    },
+    {
+      "id": "firm-power",
+      "query": "firm power dependable February capacity not installed MW",
+      "intent": "Find the firm power concept.",
+      "expect": [{"slug": "firm-power", "rank_le": 3}]
+    },
+    {
+      "id": "solar-hydro-complementarity",
+      "query": "solar hydro complementarity winter dry season",
+      "intent": "Find the solar-hydro complementarity concept.",
+      "expect": [{"slug": "solar-hydro-complementarity", "rank_le": 1}]
+    },
+    {
+      "id": "solar-hydro-data-profile",
+      "query": "hourly monthly solar hydro complementarity profile",
+      "intent": "Find the data page behind the solar-hydro complementarity curves.",
+      "expect": [{"slug": "data-solar-hydro-complementarity-profile", "rank_le": 3}]
+    },
+    {
+      "id": "transmission-immediate-blocker",
+      "query": "transmission delivery immediate monetization bottleneck curtailment",
+      "intent": "Find the claim that transmission is the immediate monetization bottleneck.",
+      "expect": [{"slug": "claim-transmission-immediate-blocker", "rank_le": 3}]
+    },
+    {
+      "id": "intervention-transmission-completion",
+      "query": "complete transmission corridors intervention evacuation bottleneck",
+      "intent": "Find the intervention page for transmission completion.",
+      "expect": [{"slug": "intervention-transmission-completion", "rank_le": 5}]
+    },
+    {
+      "id": "ror-dominance",
+      "query": "operating fleet overwhelmingly run of river not true storage",
+      "intent": "Find the RoR-dominance claim.",
+      "expect": [{"slug": "claim-ror-dominance", "rank_le": 3}]
+    },
+    {
+      "id": "fleet-composition-data",
+      "query": "hydropower fleet composition ror pror storage capacity",
+      "intent": "Find the fleet-composition data page.",
+      "expect": [{"slug": "data-fleet-composition", "rank_le": 3}]
+    },
+    {
+      "id": "ad-penalties",
+      "query": "available declaration penalty ppa curtailment deemed generation",
+      "intent": "Find the AD penalties concept.",
+      "expect": [{"slug": "ad-penalties", "rank_le": 3}]
+    },
+    {
+      "id": "q-design",
+      "query": "q design discharge ppa contracted energy obligation",
+      "intent": "Find the Q-design discharge concept.",
+      "expect": [{"slug": "q-design-discharge", "rank_le": 1}]
+    },
+    {
+      "id": "nea-annual-report",
+      "query": "official electricity system snapshot fy 2024 25 installed capacity trade grid",
+      "intent": "Find the NEA Annual Report source page.",
+      "expect": [{"slug": "nea-annual-report-fy2024-25", "rank_le": 3}]
+    },
+    {
+      "id": "wecs-energy-synopsis",
+      "query": "full energy balance fy 2079 80 wecs electricity denominator",
+      "intent": "Find the WECS Energy Sector Synopsis source page.",
+      "expect": [{"slug": "wecs-energy-synopsis-2024", "rank_le": 3}]
+    },
+    {
+      "id": "aepc-framework",
+      "query": "aepc off grid rural solar renewable framework",
+      "intent": "Find the AEPC renewable framework source page.",
+      "expect": [{"slug": "aepc-renewable-framework", "rank_le": 3}]
+    },
+    {
+      "id": "dudhkoshi-no-space-title",
+      "query": "dudhkoshi",
+      "intent": "Check whether the exact single-token project name can find Dudhkoshi.",
+      "expect": [{"slug": "dudhkoshi-storage", "rank_le": 1}]
+    },
+    {
+      "id": "dudh-koshi-spaced-title",
+      "query": "dudh koshi",
+      "intent": "Check whether the common spaced spelling can find Dudhkoshi.",
+      "expect": [{"slug": "dudhkoshi-storage", "rank_le": 3}]
+    },
+    {
+      "id": "mugu-karnali-title",
+      "query": "mugu karnali",
+      "intent": "Check whether the exact project-name fragment can find Mugu Karnali.",
+      "expect": [{"slug": "mugu-karnali-storage", "rank_le": 1}]
+    },
+    {
+      "id": "tanahu-title",
+      "query": "tanahu",
+      "intent": "Check whether the exact Tanahu project name works without broad storage terms.",
+      "expect": [{"slug": "tanahu-hydropower", "rank_le": 1}]
+    },
+    {
+      "id": "tanahu-seti",
+      "query": "tanahu seti storage",
+      "intent": "Check whether adding river and storage terms still keeps Tanahu high.",
+      "expect": [{"slug": "tanahu-hydropower", "rank_le": 3}]
+    },
+    {
+      "id": "nalsyau-gad-title",
+      "query": "nalsyau gad",
+      "intent": "Check whether the current storage-dominant project is also correctly found by exact name.",
+      "expect": [{"slug": "nalsyau-gad", "rank_le": 1}]
+    },
+    {
+      "id": "storage-shortlist-title",
+      "query": "storage shortlist",
+      "intent": "Check whether the data-layer storage shortlist is correct when explicitly requested.",
+      "expect": [{"slug": "data-layer-storage-shortlist", "rank_le": 1}]
+    },
+    {
+      "id": "upper-arun-title",
+      "query": "upper arun",
+      "intent": "Check exact title behavior for another Arun-family project.",
+      "expect": [{"slug": "upper-arun", "rank_le": 1}]
+    },
+    {
+      "id": "kimathanka-arun-title",
+      "query": "kimathanka arun",
+      "intent": "Check exact title behavior for the top-ranking Arun-family project.",
+      "expect": [{"slug": "kimathanka-arun", "rank_le": 1}]
+    },
+    {
+      "id": "bangladesh-trade-route-title",
+      "query": "bangladesh trade route",
+      "intent": "Check whether the Bangladesh route wins when the query is less India-heavy.",
+      "expect": [{"slug": "bangladesh-trade-route", "rank_le": 1}]
+    },
+    {
+      "id": "india-cbte-guidelines",
+      "query": "cross border trade electricity guidelines 2018",
+      "intent": "Check whether the India CBTE source is found for a source-like guidelines query.",
+      "expect": [{"slug": "india-cbte-2018", "rank_le": 3}]
+    },
+    {
+      "id": "run-of-river-concept",
+      "query": "run of river hydropower",
+      "intent": "Check whether the general RoR concept wins for an exact concept query.",
+      "expect": [{"slug": "run-of-river-hydropower", "rank_le": 1}]
+    },
+    {
+      "id": "storage-concept-not-project",
+      "query": "why storage deficit matters in Nepal",
+      "intent": "Check whether a conceptual storage query can beat project/data-layer pages.",
+      "expect": [{"slug": "storage-deficit", "rank_le": 3}]
+    },
+    {
+      "id": "project-roadmap",
+      "query": "project roadmap search explorer priorities",
+      "intent": "Check whether a lower-frequency concept page can be found by title and purpose terms.",
+      "expect": [{"slug": "project-roadmap", "rank_le": 3}]
+    },
+    {
+      "id": "hydro-seasonality-cluster",
+      "query": "why more run of river hydro worsens dry season deficit",
+      "intent": "Find the conceptual cluster around seasonal mismatch, run-of-river mechanics, and dry-season storage deficit.",
+      "expect": [
+        {"slug": "seasonal-mismatch", "rank_le": 5},
+        {"slug": "run-of-river-hydropower", "rank_le": 5},
+        {"slug": "storage-deficit", "rank_le": 10}
+      ]
+    },
+    {
+      "id": "india-bangladesh-cluster",
+      "query": "trilateral bangladesh power export india grid gatekeeper",
+      "intent": "Find both the Bangladesh route and India relationship pages for trilateral trade.",
+      "expect": [
+        {"slug": "bangladesh-trade-route", "rank_le": 3},
+        {"slug": "india-energy-relationship", "rank_le": 10}
+      ]
+    }
+  ]
+}

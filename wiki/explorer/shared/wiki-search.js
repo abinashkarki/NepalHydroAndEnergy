@@ -4,9 +4,30 @@ if (window.NepalExplorer && window.NepalExplorer._staticSearchLoaded) return;
 
 const STOPWORDS = new Set("a an the and or but if else for of in on at to from by with as is are was were be been being have has had do does did not no nor so very can could should would may might must will shall this that these those it its i you he she they we us them his her him their our your my me one two three some any all most more less than then also too here there when where why how which what who whom whose into onto over under between within across about against amongst per via while during after before since until also although still yet only just even ever never really often always sometimes maybe perhaps because however therefore thus hence such each both either neither many few several other another same different new old high low big small large great good bad first second next last own out up down off above below near far inside outside through throughout off through s t d m re ve ll".split(/\s+/));
 const TOKEN_RE = /[a-z0-9][a-z0-9\-_/]+/g;
+const TOKEN_SPLIT_RE = /[-_/]+/g;
+const SOURCE_INTENT_TERMS = new Set(["annual", "data", "feasibility", "fy", "guideline", "guidelines", "proposal", "record", "report", "source", "status", "study", "summary", "table"]);
 
 function tokenize(text) {
-  return (String(text).toLowerCase().match(TOKEN_RE) || []).filter((t) => t.length > 2 && !STOPWORDS.has(t));
+  const tokens = [];
+  for (const raw of String(text).toLowerCase().match(TOKEN_RE) || []) {
+    if (isSearchToken(raw)) tokens.push(raw);
+    for (const part of raw.split(TOKEN_SPLIT_RE)) {
+      if (part !== raw && isSearchToken(part)) tokens.push(part);
+    }
+  }
+  return tokens;
+}
+
+function isSearchToken(token) {
+  return !STOPWORDS.has(token) && (token.length > 2 || /^\d+$/.test(token));
+}
+
+function normalizeSearchText(text) {
+  return String(text || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().replace(/\s+/g, " ");
+}
+
+function compactSearchText(text) {
+  return normalizeSearchText(text).replace(/\s+/g, "");
 }
 
 function escapeHtml(s) {
@@ -40,7 +61,8 @@ class StaticSearchIndex {
 
   seek(query, opts = {}) {
     const limit = opts.limit ?? 30;
-    const terms = this.expandTerms(query, tokenize(query));
+    const queryTerms = tokenize(query);
+    const terms = this.expandTerms(query, queryTerms);
     if (!terms.length) return [];
     const scores = new Map();
     const reasons = new Map();
@@ -69,6 +91,7 @@ class StaticSearchIndex {
         scores.set(neighborId, (scores.get(neighborId) || 0) + boost);
       }
     }
+    this.applyTitleBoost(query, queryTerms, scores, reasons);
 
     return Array.from(scores.entries())
       .sort((a, b) => b[1] - a[1])
@@ -87,6 +110,43 @@ class StaticSearchIndex {
       for (const term of item.expand || []) expanded.add(term);
     }
     return Array.from(expanded).filter((term) => this.postings[term]);
+  }
+
+  applyTitleBoost(query, queryTerms, scores, reasons) {
+    const qNorm = normalizeSearchText(query);
+    const qCompact = compactSearchText(query);
+    const qTermSet = new Set(queryTerms);
+    if (!qNorm || !qTermSet.size) return;
+    const sourceIntent = queryTerms.some((term) => SOURCE_INTENT_TERMS.has(term));
+
+    for (let docId = 0; docId < this.pages.length; docId++) {
+      const page = this.pages[docId];
+      const titleNorm = normalizeSearchText(page.t);
+      const slugNorm = normalizeSearchText(page.s);
+      const titleCompact = compactSearchText(page.t);
+      const slugCompact = compactSearchText(page.s);
+      const titleTerms = new Set([...tokenize(page.t), ...tokenize(page.s)]);
+      const covered = [...qTermSet].filter((term) => titleTerms.has(term)).length;
+      const compactContains = qCompact.length >= 5 && (titleCompact.includes(qCompact) || slugCompact.includes(qCompact));
+      const titleInQuery = titleNorm.length >= 5 && qNorm.includes(titleNorm);
+      const slugInQuery = slugNorm.length >= 5 && qNorm.includes(slugNorm);
+      if (!covered && !titleNorm.includes(qNorm) && !slugNorm.includes(qNorm) && !compactContains && !titleInQuery && !slugInQuery) continue;
+
+      let boost = 0;
+      if (titleNorm === qNorm || slugNorm === qNorm || titleCompact === qCompact || slugCompact === qCompact) boost += 30;
+      else if (titleNorm.includes(qNorm) || slugNorm.includes(qNorm)) boost += 18;
+      if (titleInQuery || slugInQuery) boost += 18;
+      if (compactContains) boost += 14;
+      if (qCompact.length >= 5 && (titleCompact.startsWith(qCompact) || slugCompact.startsWith(qCompact))) boost += 8;
+      if (covered) boost += 9 * (covered / qTermSet.size);
+      if (covered === qTermSet.size) boost += 12;
+      if (!sourceIntent && page.c === "entities" && boost > 0) boost += 4;
+      if (sourceIntent && page.c === "sources" && boost > 0) boost += 3;
+      if (!sourceIntent && page.c === "sources" && boost > 0) boost -= 2;
+      if (boost <= 0) continue;
+      scores.set(docId, (scores.get(docId) || 0) + boost);
+      if (!reasons.has(docId) || boost >= 18) reasons.set(docId, "title");
+    }
   }
 
   resultForPage(p, score, reason, snippet) {

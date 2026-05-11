@@ -29,10 +29,22 @@ each both either neither many few several other another same different new old h
 own out up down off above below near far inside outside through throughout off through s t d m re ve ll
 """.split())
 TOKEN_RE = re.compile(r"[a-z0-9][a-z0-9\-_/]+")
+TOKEN_SPLIT_RE = re.compile(r"[-_/]+")
+
+
+def is_search_token(token: str) -> bool:
+    return token not in STOPWORDS and (len(token) > 2 or token.isdigit())
 
 
 def tokenize(text: str) -> list[str]:
-    return [t for t in TOKEN_RE.findall(text.lower()) if len(t) > 2 and t not in STOPWORDS]
+    tokens: list[str] = []
+    for raw in TOKEN_RE.findall(text.lower()):
+        if is_search_token(raw):
+            tokens.append(raw)
+        for part in TOKEN_SPLIT_RE.split(raw):
+            if part != raw and is_search_token(part):
+                tokens.append(part)
+    return tokens
 
 
 def load_aliases() -> tuple[dict[str, list[str]], list[dict]]:
@@ -54,9 +66,8 @@ def load_aliases() -> tuple[dict[str, list[str]], list[dict]]:
             "expand": sorted(value_terms),
             "weight": 0.8,
         })
-        if key.lower() == "solar hydro complementarity":
-            continue
-        for term in key_terms:
+        if len(set(key_terms)) == 1:
+            term = key_terms[0]
             expanded[term].update(value_terms)
     return {k: sorted(v - {k}) for k, v in sorted(expanded.items()) if v}, phrase_aliases
 
