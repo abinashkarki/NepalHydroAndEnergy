@@ -11,6 +11,23 @@ page_quality: analysis
 
 # Nepal Final Energy Mix
 
+## Summary
+
+The full fuel × sector matrix of Nepal's final energy consumption, straight from the WECS Energy Sector Synopsis 2024 (FY 2079/80). This is the page that answers "how much of Nepal's total energy is actually hydro?" with a number other than the one everyone quotes. It is the denominator for every serious claim in [[master-thesis]] and [[domestic-led-hydro-strategy]].
+
+## Coverage / Method
+
+- **Data source:** WECS Energy Sector Synopsis Report 2024 (FY 2079/80), Chapter 4.2.2 and Appendix Table 4.
+- **Method:** Fuel × sector cross-tab decoded from WECS published tables. All rows summed to within rounding of published sector totals. Historical trajectory assembled from prior WECS synopses (2010, 2019, 2020, 2021, 2022/23).
+- **Known gaps:** FY 2079/80 is a single-year snapshot. The 16.81% YoY drop in total consumption may reflect one-off import compression from 2022's FX crisis; FY 2080/81 balance needed to confirm trend. Agro-processing energy is classified under "Industrial," not "Agriculture," in WECS framing.
+
+## Caveats
+
+- **Single-year snapshot:** FY 2079/80 data; the post-COVID, post-FX-crisis year may not be representative of long-term trajectory.
+- **Biomass estimates rely on survey assumptions:** The 63.87% traditional biomass share relies on household fuel-use surveys and stock-flow models, not metered consumption.
+- **Classification boundary:** Agro-processing (sugar mills, tea dryers, food processing) is classified under "Industrial" in WECS, not "Agriculture." Total farm-sector energy is understated if agro-processing is excluded.
+- **Historical comparisons are approximate:** Earlier WECS reports used slightly different boundaries and survey years; the trajectory table should be read as indicative, not precisely comparable.
+
 The full fuel × sector matrix of Nepal's final energy consumption, straight from the WECS Energy Sector Synopsis 2024 (FY 2079/80). This is the page that answers "how much of Nepal's total energy is actually hydro?" with a number other than the one everyone quotes. It is the denominator for every serious claim in [[master-thesis]] and [[domestic-led-hydro-strategy]].
 
 ## Headline numbers (FY 2079/80 / ~2022–23)

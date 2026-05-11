@@ -11,6 +11,23 @@ page_quality: analysis
 
 # Industrial Electricity Consumers in Nepal
 
+## Summary
+
+Which industries consume Nepal's electricity — and which ones burn coal and biomass instead. The companion page to [[data-domestic-demand]] and the industrial-demand half of [[energy-substitution-pathway]].
+
+## Coverage / Method
+
+- **Data sources:** NEA Annual Report FY 2024/25 (industrial electricity sales, consumer count, revenue, dues); WECS Energy Sector Synopsis 2024 (industrial total-energy cross-tab by fuel); World Bank Country Economic Memo 2025 (manufacturing analysis, captive diesel data).
+- **Method:** Industrial electricity from NEA DCSD sales tables. Industrial total-energy fuel mix from WECS sector × fuel cross-tab. Sub-sector electricity estimates constructed from (a) WECS total-energy cross-tab, (b) known process-energy ratios per industry, (c) rough plant counts and output volumes. **No NEA sub-sector electricity breakdown exists in public documents.**
+- **Known gaps:** NEA does not publish industrial electricity sales by sub-sector. Captive diesel consumption is estimated from WECS diesel-in-industry figure, not metered. The sub-sector GWh table is indicative, not verified.
+
+## Caveats
+
+- **Sub-sector estimates are constructed, not primary:** The Tier 1/2/3 electricity estimates are built from process-energy ratios and plant counts; actual NEA sub-sector sales data would significantly sharpen or revise these figures.
+- **Single-year snapshot:** FY 2024/25 for electricity; FY 2079/80 for total-energy fuel mix. Different years may not align perfectly.
+- **Industrial dues are structural:** NPR 29.42 billion outstanding (~74% of annual industrial revenue) suggests legacy arrears or ongoing payment difficulties that complicate demand-growth assumptions.
+- **Captive diesel displacement is stylized:** Assumes full reliability and grid availability; actual diesel displacement is constrained by outage frequency, grid extension, and industrial tariff structure.
+
 Which industries consume Nepal's electricity — and which ones burn coal and biomass instead. The companion page to [[data-domestic-demand]] and the industrial-demand half of [[energy-substitution-pathway]].
 
 ## Headline Numbers
