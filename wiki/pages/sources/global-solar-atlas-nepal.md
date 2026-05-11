@@ -2,7 +2,7 @@
 title: Global Solar Atlas (Nepal coverage)
 type: source
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-11
 source_type: dataset
 source_author: Solargis / World Bank Group (ESMAP)
 source_date: 2024-01-01
@@ -13,6 +13,8 @@ page_quality: analysis
 ---
 
 # Global Solar Atlas (Nepal Coverage)
+
+## Summary
 
 The **primary satellite-derived solar resource dataset** for Nepal's explorer map layer and the reference cross-check for every GHI / DNI number used elsewhere in the wiki. Provided as a free-to-use web-tile and downloadable-data service by **Solargis** under the **World Bank Group ESMAP** programme.
 
@@ -71,6 +73,22 @@ Global Solar Atlas vs measured (from [[wb-esmap-solar-resource-assessment]]):
 | **Jomsom** | **5.5** | **6.0** | **−8%** |
 
 Trans-Himalayan is the one zone where satellite systematically **under**-estimates GHI (Jomsom 8% bias). This is the most important caveat: for Mustang / Dolpa / upper Manang planning, field measurement should be used where available, and the "Zone A 5.8–6.5" range cited in the wiki is calibrated to measurement rather than to the satellite layer.
+
+## Limitations
+
+- **Trans-Himalayan underestimation.** The Jomsom station shows an 8% satellite underestimation bias against ground measurements — the most significant known error. Error bands are wider in untested high-mountain terrain.
+- **Spatial resolution.** ~250 m (~9 arc-second) resolution is adequate for regional and district-level planning but insufficient for micro-siting individual solar plants — local shadowing, slope, and access constraints are not captured.
+- **Satellite-derived, not ground-measured.** GHI/DNI values are modelled from satellite data, not from a dense ground-pyranometer network. The 14-station ESMAP calibration provides validation points but does not cover all terrain types.
+- **Static climatology.** The dataset represents long-term average climatology and does not capture interannual variability, monsoon onset shifts, or trends under climate change.
+
+## Used By
+
+- [[mustang-high-altitude-solar-zone]]
+- [[bishnu-priya-nawalparasi]]
+- [[data-nepal-solar-resource-zones]]
+- [[irena-remap-nepal]]
+- [[solar-resource-geography-nepal]]
+- [[wb-esmap-solar-resource-assessment]]
 
 ## Related
 

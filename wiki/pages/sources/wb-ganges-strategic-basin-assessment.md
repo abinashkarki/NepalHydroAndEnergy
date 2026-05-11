@@ -2,7 +2,7 @@
 title: World Bank Ganges Strategic Basin Assessment
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-11
 source_type: report
 source_author: World Bank
 source_date: 2014-01-01
@@ -28,3 +28,14 @@ Regional-scale analysis of the Ganges basin covering water storage, flood manage
 ## Relevance to Project
 
 The valley-shape paradox (same dam height, 180x less storage) is one of the most powerful visualizations for explaining why Nepal's geography simultaneously enables hydropower and prevents easy storage. Central to [[storage-deficit]] and [[data-storage-comparison]].
+
+## Limitations
+
+- **2014 publication.** Pre-dates the 2015 earthquake, post-earthquake hydrological assessments, and the 2021 Melamchi flood. Basin conditions, sedimentation rates, and infrastructure assumptions may have shifted.
+- **Regional focus, not Nepal-specific.** The assessment covers the entire Ganges basin across four countries; Nepal-specific storage figures are extracted from a broader regional frame and may lack the granularity of a Nepal-only study.
+- **Karnali Chisapani figures are study-era estimates.** The 28.2 BCM gross / 16.2 BCM live figures predate the most recent project feasibility iterations.
+
+## Used By
+
+- [[karnali-chisapani]]
+- [[pancheshwar]]

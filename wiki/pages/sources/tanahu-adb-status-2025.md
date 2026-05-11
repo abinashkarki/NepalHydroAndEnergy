@@ -2,7 +2,7 @@
 title: Tanahu Hydropower Project Status (ADB, 2024–2025)
 type: source
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 source_type: compilation
 source_author: ADB project monitoring reports; Accountability Mechanism complaint filings
 source_date: 2025-04-04
@@ -55,6 +55,16 @@ transparency layer.
 - Plant-level cost escalation numbers (ADB figures redact subsidiary
   contractor detail)
 - Coordination with downstream irrigation users on the Seti
+
+## Limitations
+
+- **Compilation, not primary project documents.** Drawn from ADB monitoring reports and Accountability Mechanism filings — does not include the full PAD, EIA, or contractor progress reports.
+- **Construction progress is a single NEA datapoint.** The ~67% completion figure is from the NEA annual report; ADB monitoring reports may report different progress metrics.
+- **Accountability Mechanism complaints are unresolved.** Two complaints (2024 and 2025) are filed and eligible for review but not yet adjudicated. Their resolution may affect project timeline and cost.
+
+## Used By
+
+- [[tanahu-hydropower]]
 
 ## See also
 

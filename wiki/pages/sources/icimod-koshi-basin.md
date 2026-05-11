@@ -2,7 +2,7 @@
 title: ICIMOD Koshi Basin Programme
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-12
 source_type: report
 source_author: ICIMOD
 source_date: 2023-01-01
@@ -28,3 +28,14 @@ ICIMOD's research programme on the [[koshi-basin]], covering downstream impacts,
 ## Relevance to Project
 
 Central to [[hydro-geopolitics]] and [[ganges-contribution]]. Also relevant to [[sediment-as-design-constraint]] given extreme sediment loads. .
+
+## Limitations
+
+- **Programme page, not a single technical report.** The source summarizes ICIMOD's Koshi Basin Programme rather than providing one citable methods document.
+- **Directional sediment framing.** The page supports high-level sediment and flood-risk context but does not provide design-grade suspended-sediment parameters.
+- **Downstream aggregate scale.** Population and irrigation figures are basin-scale context; they do not allocate impacts by project, district, or season.
+- **Programme date ambiguity.** The page uses a 2023 source date, but the programme spans multiple outputs with different publication dates.
+
+## Used By
+
+- [[intervention-q-design-climate-adjustment]]

@@ -2,7 +2,7 @@
 title: Upper Karnali — PDA, Financial Closure & Court Record
 type: source
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 source_type: compilation
 source_author: NepalEnergyForum; Kantipur; EnergyTransitionBD; Nepal Supreme Court rulings
 source_date: 2026-03-01
@@ -64,6 +64,16 @@ building; Upper Karnali has been paperwork since 2008.
 - GMR Group's own financial condition and its effect on equity pace
 - The downstream-irrigation objections that a 2014 high-level
   committee raised and never fully resolved
+
+## Limitations
+
+- **Paperwork since 2008.** Despite repeated PDA extensions and the 2026 financial-closure path announcement, Upper Karnali has zero construction progress after 18 years. The source captures the paper trail, not operational reality.
+- **Financial commitments are announced, not disbursed.** The INR 65 billion IREDA and NPR 20 billion Nepali bank commitments are investment proposals, not disbursed funds. Financial closure has been announced before without follow-through.
+- **Bangladesh PPA gap unaddressed.** The source documents the history of Bangladesh PPA discussions without resolving whether the transmission corridor and tripartite agreements can actually deliver the promised 500/300/200 MW.
+
+## Used By
+
+- [[upper-karnali]]
 
 ## See also
 

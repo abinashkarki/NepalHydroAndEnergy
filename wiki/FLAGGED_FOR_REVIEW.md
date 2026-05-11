@@ -6,6 +6,21 @@ Review this file monthly. Resolve items by editing the wiki, merging pages, or u
 
 ## Open Items
 
+- **[2026-05-12]** Data hygiene: `doed-licensing-directive-2075` missing source URL
+  - No verified public URL is present in frontmatter for the DoED Licensing Directive 2075 source page
+  - Proposed action: Locate the DoED directive PDF or official page and add `source_url`
+  - Flagged by: Codex — tightly scoped source batch
+
+- **[2026-05-12]** Data hygiene: `himalayan-capital-analysis` incomplete citation
+  - Exact article metadata and URL are not yet in frontmatter
+  - Proposed action: Locate the Himalayan Capital source URL / publication metadata and update the source page
+  - Flagged by: Codex — tightly scoped source batch
+
+- **[2026-05-11]** Data hygiene: `wb-nepal-power-sector-reform-2022` source URL missing
+  - A previous `source_url` pointed to the Ganges Strategic Basin Assessment PDF, not the Power Sector Reform Roadmap; the false URL has been cleared
+  - Proposed action: Locate the correct live URL for the Power Sector Reform Roadmap and update frontmatter
+  - Flagged by: deepseek-v4-pro (hermes) — Sources Pass Batch B
+
 - **[2026-05-11]** Content migration: `data-domestic-demand` value-capture framing
   - Interpretive content ("electrifying cooking, industrial heat, and transport at scale") reframed on data page to observation-level
   - Migrated to `syntheses/twenty-year-strategy.md` under Phase 2 (Store and Industrialize) as "Value capture: domestic electrification outranks export optimization" section

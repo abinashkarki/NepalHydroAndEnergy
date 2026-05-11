@@ -2,7 +2,7 @@
 title: "Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success"
 type: source
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-11
 tags: [source, financial, sahas-urja, solu-khola, icra-nepal, benchmark]
 images: []
 page_quality: analysis
@@ -54,6 +54,21 @@ Sahas Urja Limited is the critical **positive benchmark** in Nepal's private IPP
 - **Also controls**: 51% stake in Times Energy (341 MW Budhi Gandaki PRoR, NPR 52.5B syndication)
 - **IPPAN**: Secretary, Executive Committee — direct lobbying access to MoEWRI, ERC, NEA
 - **Prior projects**: Upper Hugdi Khola (5 MW)
+
+## Limitations
+
+- **Single-project deep-dive.** This compilation covers only Sahas Urja / Solu Khola. Findings on capital efficiency, escalation retention, and promoter profile are not necessarily representative of the broader IPP sector.
+- **Research compilation, not peer-reviewed.** Assembled from ICRA Nepal surveillance reports and corporate disclosures — has not undergone independent verification or institutional fact-checking.
+- **Financial snapshot.** Data reflects FY 2080/81 performance; does not capture subsequent operational or financial developments, deleveraging progress, or PPA rate adjustments.
+- **Promoter profile from public sources only.** Promoter relationships and institutional connections are inferred from publicly available corporate disclosures and IPPAN listings, not from direct interviews.
+
+## Used By
+
+- [[lower-solu]]
+- [[ppa-data-retrieval-icra-care-2026]]
+- [[sector-financial-analysis-triple-authority-2026]]
+- [[himalayan-capital-analysis]]
+- [[icra-nepal-surveillance-a996-b119]]
 
 ## See Also
 

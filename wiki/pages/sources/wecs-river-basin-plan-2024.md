@@ -2,7 +2,7 @@
 title: WECS River Basin Plans and Hydropower Development Master Plan (2024)
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-11
 source_type: report
 source_author: Water and Energy Commission Secretariat (WECS)
 source_date: 2024-09-24
@@ -33,3 +33,17 @@ Foundation for the hydrology evidence base. Provides the basin-level evidence fo
 
 > [!warning]
 > WECS explicitly warns that atlas flow numbers are model-derived (MIKE SHE / MIKE Hydro Basin) and may differ from DHM observations or project-specific studies.
+
+## Limitations
+
+- **Model-derived, not measured.** Basin flow numbers are MIKE SHE / MIKE Hydro Basin model outputs, not DHM gauge observations. Values may differ from project-specific hydrological studies.
+- **Single planning document.** The master plan represents WECS's planning framework at a point in time; it does not reflect subsequent basin-level developments, project-specific feasibility studies, or post-2024 hydrological events.
+- **Dry-season flow estimates are model projections.** The ~10x wet-to-dry flow reduction cited for Koshi is a model estimate, not a multi-decadal gauge average. Interannual variability may be wider than implied.
+
+## Used By
+
+- [[solar-hydro-complementarity]]
+- [[data-solar-hydro-complementarity-profile]]
+- [[wecs]]
+- [[data-basin-discharge]]
+- [[data-layer-nepal-tributaries]]

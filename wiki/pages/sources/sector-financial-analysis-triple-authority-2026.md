@@ -2,7 +2,7 @@
 title: "Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector"
 type: source
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-11
 tags: [source, financial, capital-markets, ipo, rights-shares, nea, nepse]
 images: []
 page_quality: analysis
@@ -48,6 +48,23 @@ Hydropower equities grew from ~6% to ~16% of NEPSE total market capitalization. 
 
 - "Promoters injected 2–6 Crore NPR/MW out-of-pocket to cover loan repayments" — based on regulatory corpus, not verified primary data
 - "103 MW of small projects required NPR 2.5 billion of additional equity to stop foreclosure" — parameters align with global reports, not a verified Nepal-specific study
+
+## Limitations
+
+- **Research compilation, not peer-reviewed.** This is a Google Docs export (17 pages) that assembles findings from regulatory filings, NEPSE data, and secondary sources. It has not undergone peer review or institutional fact-checking.
+- **Data gaps propagate.** Two key quantitative claims (promoter out-of-pocket estimates and the 103 MW equity-rescue figure) are flagged as unverified, so they remain provisional until backed by primary-source confirmation.
+- **No primary interviews.** The analysis draws from published regulatory sources and market data but does not include direct interviews with NEA officials, promoters, or investors. Motivational claims about promoter behaviour are inferred, not directly attested.
+- **Snapshot date.** Compiled in early 2026; does not capture any SEBON regulatory changes, NEPSE market movements, or NEA PPA revisions after that date.
+
+## Used By
+
+- [[ankhu-khola]]
+- [[barahi-hydropower]]
+- [[rasuwagadhi]]
+- [[madhya-bhotekoshi]]
+- [[sanjen]]
+- [[ppa-data-retrieval-icra-care-2026]]
+- [[sahas-urja-benchmark-icra-2026]]
 
 ## See Also
 

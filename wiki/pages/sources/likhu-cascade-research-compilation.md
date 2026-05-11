@@ -2,7 +2,7 @@
 title: Likhu Cascade Research Compilation
 type: source
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-11
 source_type: research-compilation
 source_url: "../../../data/raw/research/Likhu Hydropower Cascade Data Request - Google Docs.pdf"
 tags: [source, financial, operational, likhu, transmission]
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # Likhu Cascade Research Compilation
+
+## Summary
 
 Comprehensive research compilation covering the 213 MW Likhu hydropower cascade (Likhu-1, Likhu-2, Likhu-4, Likhu Khola A). Compiled from CARE Ratings Nepal issuer ratings, developer disclosures, and NEA transmission data.
 
@@ -21,9 +23,18 @@ Comprehensive research compilation covering the 213 MW Likhu hydropower cascade 
 - **Financial**: Likhu-2 NPR 10,968-11,246 million cost (~NPR 204M/MW), 78:22 D/E, CARE-NP BBB- (Is) March 2026
 - **Cascade**: 213 MW cumulative across 4 plants, all sharing New Khimti evacuation corridor
 
-## Used by
+## Limitations
 
+- **Research compilation, not peer-reviewed.** Assembled from CARE ratings, developer disclosures, and NEA transmission data — has not undergone independent verification or peer review.
+- **Single-cascade scope.** Covers only the Likhu cascade; findings on stranded generation, corridor dependency, and redesign dynamics are not necessarily representative of other Nepal cascades.
+- **Snapshot date.** Ratings and financial data reflect March 2026 CARE-NP assessment; does not capture subsequent operational or financial developments.
+
+## Used By
+
+- [[likhu-1]]
 - [[likhu-2]]
-- [[q-design-discharge]]
-- [[buildability]]
-- [[stranded-generation]]
+- [[likhu-4]]
+- [[likhu-cascade]]
+- [[likhu-khola-a]]
+
+## See also

@@ -2,7 +2,7 @@
 title: Urja Khabar Generation Audit — IPP Generation vs Contracted
 type: source
 created: 2026-05-05
-updated: 2026-05-06
+updated: 2026-05-11
 source_type: report
 source_url: https://www.urjakhabar.com/uploads/pdf/Pdf-202603181317333573.pdf
 source_author: Kumar Pandey, Urja Khabar (Year 5, Issue 8, January 2026)
@@ -11,6 +11,8 @@ page_quality: analysis
 ---
 
 # Urja Khabar "Audit" of IPP Generation vs Contracted Energy
+
+## Summary
 
 Kumar Pandey article in the January 2026 issue (Year 5, Issue 8) of Urja Khabar magazine. This is **secondary reporting** of a primary MoEWRI government study — not an independent Urja Khabar dataset. The source document is: **"Statistics financially distressed hydropower projects operated by IPP, Asadh 31, 2077"** (mid-2020, Ministry of Energy, Water Resources and Irrigation). By republishing this historical data in 2026, Pandey argues that the conditions producing mass IPP financial distress in 2020 have calcified rather than resolved.
 
@@ -78,10 +80,13 @@ An additional 40 projects under 10 MW (191 MW total) were not included in this c
 ### The "32% claim"
 The "32% average generation" figure widely circulated in industry discussion **does not appear in this article**. The only ~33% figure in the Pandey article refers to administrative and operational costs consuming approximately 33% of revenue for affected small projects — not generation output.
 
-## Used by
+## Limitations
 
-- [[q-design-discharge]]
-- [[claim-mw-not-equal-value]]
-- [[buildability]]
-- [[stranded-generation]]
+- **Secondary reporting of a 2020 primary source.** The underlying MoEWRI dataset is from mid-2020 (Asadh 2077); the January 2026 article republishes this data without a refreshed dataset. Conditions may have shifted substantially in the intervening period.
+- **No independent data collection.** Urja Khabar did not conduct its own generation audit; it republished and interpreted a government study. The framing ("conditions have calcified") is Pandey's editorial argument, not a verified finding.
+- **Transmission bottleneck table may be partial.** The 18 named projects represent Pandey's selection, not necessarily an exhaustive listing of all transmission-bottlenecked projects.
+- **The "32% generation" figure is a misconception.** This widely circulated industry figure does not appear in the article; the article's ~33% figure refers to cost ratios, not generation output.
+
+## Used By
+
 - [[middle-tamor]]

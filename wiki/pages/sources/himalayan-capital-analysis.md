@@ -2,7 +2,7 @@
 title: "Himalayan Capital — Sahas Urja Analysis"
 type: source
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-12
 source_type: market-analysis
 source_author: Himalayan Capital
 sources: []
@@ -25,7 +25,14 @@ performance, valuation framing, and balance-sheet trajectory.
 - Cross-checking market commentary against the deeper research notes in
   [[sahas-urja-benchmark-icra-2026]]
 
-## Caveat
+## Limitations
 
-The exact article metadata and URL remain to be added. Treat this as a reviewed
-analysis-source anchor, not a finished bibliography record.
+- **Incomplete citation.** The exact article metadata and URL remain to be added, so this is a reviewed analysis-source anchor rather than a finished bibliography record.
+- **Market-analysis lens.** Himalayan Capital's analysis is investor-facing and may emphasize valuation, earnings, and balance-sheet interpretation over project-engineering detail.
+- **Secondary interpretation.** The page anchors market commentary used alongside ICRA/corporate disclosures; it is not a primary audited financial statement.
+- **Single-company scope.** The analysis applies to Sahas Urja and does not establish sector-wide IPP performance.
+
+## Used By
+
+- [[sahas-urja]]
+- [[sahas-urja-benchmark-icra-2026]]

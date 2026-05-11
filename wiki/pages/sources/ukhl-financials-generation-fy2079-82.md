@@ -2,7 +2,7 @@
 title: UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82
 type: source
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-11
 source_type: research-compilation
 source_url: "../../../data/raw/research/UKHLL Financials and Generation Data - Google Docs.pdf"
 tags: [source, financial, generation, upper-tamakoshi]
@@ -10,6 +10,8 @@ page_quality: analysis
 ---
 
 # UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82
+
+## Summary
 
 Comprehensive research compilation covering Upper Tamakoshi Hydroelectric Limited (UKHLL) financial and operational data for FY 2079/80 through FY 2081/82. Compiled from NEA Annual Reports, UKHLL audited accounts, ICRA Nepal credit assessments, and ShareSansar disclosures.
 
@@ -21,9 +23,12 @@ Comprehensive research compilation covering Upper Tamakoshi Hydroelectric Limite
 - **Rolwaling diversion**: 212 GWh addition, dry-season peaking 4→6 hours
 - **Right share**: 100% right share from NPR 10.59 billion to NPR 21.18 billion
 
-## Used by
+## Limitations
+
+- **Research compilation, not primary audited accounts.** Assembled from NEA reports, ICRA assessments, and ShareSansar disclosures — has not undergone independent verification.
+- **Flood damage estimates are provisional.** Insurance claims (NPR 2.0-3.22 billion) span a range; final settlement figures may differ.
+- **Financial snapshot.** Data reflects FY 2081/82 performance; does not capture subsequent deleveraging, right-share execution, or operational recovery post-flood.
+
+## Used By
 
 - [[upper-tamakoshi]]
-- [[q-design-discharge]]
-- [[ppa-pricing]]
-- [[nea-triple-authority]]

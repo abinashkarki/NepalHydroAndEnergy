@@ -1,6 +1,7 @@
 ---
 title: Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies
 type: source
+updated: 2026-05-11
 source_type: academic
 source_author: Durga Prasad Sangroula (NTNU / Hydro Lab Nepal)
 source_date: 2006-01-01 (doctoral dissertation), DGPS bathymetric surveys 2009/2010
@@ -9,6 +10,10 @@ page_quality: analysis
 ---
 
 # Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies
+
+## Summary
+
+Multi-study compilation covering Kulekhani Reservoir sedimentation, including the primary DGPS bathymetric survey by Sangroula (NTNU/Hydro-Lab, 2009/2010), InVEST/RUSLE catchment modeling by Bokan et al. (2021–2024), the ADB/World Bank post-completion review, and Mandal's (2021) hydro-mechanical degradation study. Together these provide the most complete sedimentation evidence base for any single Nepali reservoir.
 
 ## Primary DGPS Bathymetric Survey (Sangroula, NTNU/Hydro-Lab, 2009/2010)
 
@@ -47,8 +52,13 @@ A DISTINCT study using spatial modeling, not physical bathymetry. Uses InVEST SD
 - Altered blade geometries trigger secondary cavitation — efficiency deteriorates even under low sediment concentrations
 - Main inlet valves replaced multiple times since commissioning
 
-## Used by
+## Limitations
 
-- [[kulekhani-i]]
-- [[sediment-as-design-constraint]]
-- [[storage-deficit]]
+- **Bathymetric survey date.** The primary Sangroula DGPS survey is from 2009/2010 — sedimentation rates may have shifted in the subsequent 15+ years of operation.
+- **Multi-study compilation with different rigor levels.** Combines a doctoral dissertation, spatial modeling (InVEST/RUSLE), an ADB/WB post-completion review, and a turbine-degradation case study — each with different methodologies and confidence levels.
+- **InVEST/RUSLE modeled, not measured.** The Bokan et al. sedimentation rates (13.3 → 6.6 → 4.8 t/ha/yr) are model outputs, not physical sediment trap measurements. The declining trend is directionally consistent with the bathymetric survey but the absolute rates are model-derived.
+- **No post-2018 bathymetry.** The most recent reservoir capacity measurement (61.66 MCM) is from April 2018. Current storage volume is uncertain.
+
+## Used By
+
+- [[kulekhani-iii]]

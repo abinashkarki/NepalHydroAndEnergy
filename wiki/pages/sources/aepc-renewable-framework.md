@@ -2,7 +2,7 @@
 title: AEPC Renewable Framework and Progress Reports
 type: source
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-11
 source_type: report
 source_author: Alternative Energy Promotion Centre (AEPC), Government of Nepal
 source_date: 2024-01-01
@@ -13,6 +13,8 @@ page_quality: analysis
 ---
 
 # AEPC Renewable Framework and Progress Reports
+
+## Summary
 
 Primary source for Nepal's off-grid and distributed solar story. AEPC ("Alternative Energy Promotion Centre") is the government institution responsible for **rural electrification through renewables**, standing alongside (not inside) NEA. It is the operator and financier of the solar-home-system (SHS) programme, community mini-grids, institutional rooftop systems, and the subsidy / concessional-finance channel that rural solar rides on.
 
@@ -83,6 +85,22 @@ And it is the first place to look when the question is "how much solar is actual
 - **A proper 2024 district-level registry** — ideal source for the map layer in [[data-rooftop-shs-deployment]].
 - **Operational-status snapshot** of the ~30 mini-grids (how many are actually running as of 2024?).
 - **AEPC–NEA integration agreement** — the grid-edge protocol for when grid reaches an off-grid site.
+
+## Limitations
+
+- **Publication lag.** AEPC yearbooks lag by 1–2 years; the most recent public yearbook does not capture the current operational fleet.
+- **Operational vs. cumulative count.** The ~1.1M cumulative SHS figure includes decommissioned and replaced systems; the operational fleet is likely 700,000–900,000 at any time.
+- **Mini-grid reliability data uneven.** Some mini-grids have been dormant between donor-project cycles; continuous-operation data is not systematically published.
+- **Composite source.** This page synthesizes multiple AEPC documents (yearbooks, NREF, subsidy policy, donor reports) rather than representing a single published document at a fixed date.
+
+## Used By
+
+- [[claim-solar-political-coalition-is-rural]]
+- [[aepc]]
+- [[wb-grid-solar-ee-project]]
+- [[wb-esmap-solar-resource-assessment]]
+- [[eib-rural-solar-phase2]]
+- [[agrivoltaics-and-land]]
 
 ## Related
 

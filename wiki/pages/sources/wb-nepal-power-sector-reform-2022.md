@@ -2,11 +2,11 @@
 title: World Bank Nepal Power Sector Reform Roadmap (2022)
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-11
 source_type: report
 source_author: World Bank
 source_date: 2022-01-01
-source_url: https://documents1.worldbank.org/curated/en/955751468000263739/pdf/103889-WP-Ganges-Strategic-Basin-Assessment-A-Discussion-of-Regional-Opportunities-and-Risks-PUBLIC.pdf
+source_url:
 sources: []
 tags: [world-bank, reform, policy, institutional, official]
 page_quality: analysis
@@ -26,3 +26,16 @@ Policy-oriented assessment of Nepal's power sector institutions and reform needs
 ## Relevance to Project
 
 Provides the 42,000 MW economically feasible figure used alongside WECS numbers. Important for [[hydropower-potential-categories]] provenance. source-review note.
+
+## Limitations
+
+- **Thin extraction.** This page captures only the key data points relevant to wiki use; the full report contains significantly more institutional analysis and reform sequencing detail.
+- **2022 cutoff.** Published 2022; does not reflect post-2022 reform developments, NEA restructuring proposals, or the ERC's evolving regulatory posture.
+- **Missing live URL.** The previous frontmatter URL pointed to the Ganges Strategic Basin Assessment, not the Power Sector Reform Roadmap. The live URL for this document needs verification.
+
+## Used By
+
+- [[data-potential-pyramid]]
+- [[wb-grid-solar-ee-project]]
+- [[buildability]]
+- [[firm-power]]

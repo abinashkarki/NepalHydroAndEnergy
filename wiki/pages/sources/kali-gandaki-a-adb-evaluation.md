@@ -2,7 +2,7 @@
 title: Kali Gandaki A — ADB Performance Evaluation & Wikipedia
 type: source
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-11
 source_type: compilation
 source_author: Asian Development Bank Performance Evaluation Report; Wikipedia; Renewable Energy World
 source_date: 2024-06-01
@@ -48,6 +48,17 @@ India-developed export projects like [[arun-3]] and [[upper-karnali]].
 - Full seasonal generation shape
 - Detailed explanation of the >250 GWh gap between design energy
   (~860 GWh) and average actual output (~592 GWh)
+
+## Limitations
+
+- **Compilation, not primary field data.** Combines ADB post-project evaluation, Wikipedia operational history, and Renewable Energy World reporting — different levels of rigor across sources.
+- **Design-vs-actual gap unresolved.** The >250 GWh/year shortfall between design (~860 GWh) and average actual output (~592 GWh) is documented but not diagnostically explained.
+- **Rehabilitation snapshot only.** Covers the 2024 rehabilitation tender announcement but not the subsequent procurement, contractor selection, or scope finalization.
+
+## Used By
+
+- [[kali-gandaki-a]]
+- [[kali-gandaki-kowan]]
 
 ## See also
 

@@ -2,7 +2,7 @@
 title: MoEWRI IPSDP Executive Summary
 type: source
 created: 2026-04-21
-updated: 2026-04-22
+updated: 2026-05-11
 source_type: report
 source_author: Ministry of Energy, Water Resources and Irrigation (MoEWRI), Government of Nepal, prepared with JICA Study Team
 source_date: 2024-12-01
@@ -72,6 +72,36 @@ Local workspace copy:
 
 - project-by-project construction progress after the study cutoff
 - plant-level monthly generation or trade data
+
+## Limitations
+
+- **Planning document, not commitments.** The milestone ladder (page 39) and project-era buckets represent MoEWRI/JICA planning targets — not COD-guaranteed projects. The 28 GW target and 2033 self-sufficiency date are aspirational government framing, not contracted timelines.
+- **Executive summary scope.** This is the 39-page executive summary, not the full IPSDP main report. Technical annexes, cost tables, and scenario sensitivity analyses live in the main report volumes (see [[jica-ipsdp-main-report-vol2]]).
+- **Date discrepancy.** Cover date is December 2024, but the local filename uses 2025. Citation precision depends on distinguishing the report cover date from the local filename.
+- **Cutoff limitation.** The study predates significant 2025 events (e.g., September 2024 flood damage to 600+ MW of capacity, post-flood recovery timelines, and any PPA or trade-agreement developments after the study cutoff).
+
+## Used By
+
+- [[betan-karnali]]
+- [[bheri-1]]
+- [[chera-1]]
+- [[data-ipsdp-milestone-ladder-2022-2040]]
+- [[environmental-flow-policy]]
+- [[ipsdp-2025-vs-wiki-claims]]
+- [[jica-ipsdp-main-report-vol2]]
+- [[kimathanka-arun]]
+- [[lower-badigad]]
+- [[madi]]
+- [[nalsyau-gad]]
+- [[naumure-w-rapti]]
+- [[nepal-power-trade-schemes]]
+- [[phukot-karnali]]
+- [[sun-koshi-no-3]]
+- [[tamakoshi-3]]
+- [[tamor-storage]]
+- [[upper-tamor]]
+- [[upper-trishuli-1]]
+- [[uttarganga-storage]]
 
 ## See also
 
