@@ -1229,6 +1229,44 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-13 — Final Data Pages Pass
+
+**Agent:** Codex
+**Session type:** Data-page structural cleanup — final 15 data pages
+**Pages touched:**
+- `data/data-layer-map-text-labels`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-nepal-linked-basin-polygons`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-nepal-origin-downstream-systems`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-nepal-origin-ocean-routes`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-nepal-origin-route-callouts`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-nepal-tributaries`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-origin-control-callouts`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-priority-watchlist`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-satellite-basemap`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-top-10-capacity-projects`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-topographic-basemap`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-transmission-labels`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-transmission-network-nodes`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-transmission-raw-traced-segments`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-transmission-trace-gaps-qa`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean`.
+- **Before:** 180 total warnings.
+- **After:** 150 total warnings.
+- **Delta:** -30 warnings, closing all remaining data-page section warnings.
+- `git diff --check`: clean.
+- data/source hierarchy phrase scan: no hits.
+- `make test`: passed, including source Used By integrity and strict search benchmark 50/50.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Completed the remaining 15 data-page section warnings in one final data pass at human request.
+- Did not touch sources, entities, concepts, claims, explorer runtime, map data, or generated indexes.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

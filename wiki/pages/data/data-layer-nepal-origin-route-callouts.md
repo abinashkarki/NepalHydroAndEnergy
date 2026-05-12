@@ -2,7 +2,7 @@
 title: Layer: Nepal-Origin Route Callouts
 type: data
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, geopolitics, ganges, bangladesh]
@@ -16,6 +16,10 @@ page_quality: analysis
 **Feature count:** 7
 
 Merge, transition, and delta markers that make the Nepal-origin route-to-ocean traces readable.
+
+## Summary
+
+This layer contains merge, transition, delta, and endpoint callouts for the Nepal-origin route-to-ocean traces. It is a map-reading layer that helps users follow where Nepal-linked routes enter larger downstream systems.
 
 ## What It Represents
 
@@ -46,6 +50,10 @@ Important fields:
 | `strategic_note` | Explains why this marker matters to the geopolitics story. |
 | `map_read_note` | States the precision caveat for the point. |
 | `confidence` | Flags how strongly to read the marker position. |
+
+## Coverage / Method
+
+The layer covers 7 callout features documented in `nepal_origin_route_callouts.geojson` and `downstream_dependency_layers_report.json`. Points are approximate explorer-scale markers classified by callout type, related origin routes, river system, strategic note, map-read note, and confidence.
 
 ## Caveats
 

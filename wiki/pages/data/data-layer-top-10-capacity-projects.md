@@ -2,7 +2,7 @@
 title: Layer: Top-10 Capacity Projects
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -16,6 +16,10 @@ page_quality: analysis
 **Feature count:** 10
 
 Largest hydropower projects in the display set, useful for separating headline MW from deliverable system value.
+
+## Summary
+
+This layer highlights the ten largest hydropower projects in the explorer display set by installed capacity. It is a capacity-rank comparator for testing headline MW against storage, seasonality, transmission, and delivery context.
 
 ## What It Represents
 
@@ -64,6 +68,10 @@ The key fields are:
 | `promoter` | Helps connect the project to public, private, foreign, or mixed delivery structures. |
 | Location source (`location_basis`) | Explains how the map point was anchored. |
 | `precision_label` | Distinguishes stronger river-aligned references from lower-confidence registry references. |
+
+## Coverage / Method
+
+The layer covers 10 project features in `top_capacity_project_annotations.geojson`. Projects are ranked by installed capacity within the display set, with fields for rank, capacity, river, district, status, promoter, location basis, and precision label.
 
 ## Caveats
 

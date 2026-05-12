@@ -2,7 +2,7 @@
 title: Layer: Transmission Labels
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -17,6 +17,10 @@ page_quality: analysis
 
 Permanent corridor labels for the public grid overlay, separated from river labels to reduce low-zoom clutter.
 
+## Summary
+
+This layer provides permanent text labels for major transmission corridors in the public grid overlay. It is separated from river labels so grid-oriented map views can retain their own visual hierarchy.
+
 ## What It Represents
 
 This overlay labels the major transmission network directly on the map. It is separated from river labels because the grid story needs its own visual hierarchy.
@@ -24,6 +28,10 @@ This overlay labels the major transmission network directly on the map. It is se
 ## How To Read It
 
 Use it when the map is being used to explain grid bottlenecks rather than hydrology. Labels are sourced from the major transmission network only, not from QA fragments or the conceptual spine.
+
+## Coverage / Method
+
+The layer is a text overlay documented in [[data-map-inventory]]. Labels are derived from the major transmission network presentation layer and are not generated from internal QA fragments or conceptual-spine layers.
 
 ## Caveats
 

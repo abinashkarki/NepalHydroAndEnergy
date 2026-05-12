@@ -2,7 +2,7 @@
 title: Layer: Topographic Basemap
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -17,6 +17,10 @@ page_quality: analysis
 
 Terrain-oriented basemap useful for checking river corridors, valleys, ridge crossings, and Himalayan project context.
 
+## Summary
+
+This data page describes the Topographic basemap option in the explorer. It provides terrain context for reading river corridors, valleys, ridge crossings, and Himalayan project geography.
+
 ## What It Represents
 
 The topographic basemap adds relief, contours, and landform cues to the explorer. It helps translate dots and lines into actual Himalayan terrain, especially where hydropower projects, river valleys, and transmission alignments depend on elevation and corridor geometry.
@@ -24,6 +28,10 @@ The topographic basemap adds relief, contours, and landform cues to the explorer
 ## How To Read It
 
 Use it when the map question is physical: why a project sits in a particular valley, whether a line appears to cross steep country, how a tributary relates to a basin, or where storage candidates sit relative to mountain terrain. It makes more sense than Positron for buildability and routing questions.
+
+## Coverage / Method
+
+The layer is a basemap option documented in [[data-map-inventory]]. It supplies terrain background for visual interpretation but does not add surveyed project, hydrology, or transmission geometry.
 
 ## Caveats
 

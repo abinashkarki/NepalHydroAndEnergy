@@ -2,7 +2,7 @@
 title: Layer: Priority Watchlist
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -16,6 +16,10 @@ page_quality: analysis
 **Feature count:** 12
 
 Curated strategically important projects by size, storage value, basin leverage, financing, or transmission dependence.
+
+## Summary
+
+This layer contains a curated watchlist of hydropower projects that remain visible as strategic map anchors. It is a reading layer for projects with disproportionate relevance to seasonal value, grid constraints, basin position, delivery risk, or export context.
 
 ## What It Represents
 
@@ -63,6 +67,10 @@ The most important fields are:
 | `precision_label` | Tells the reader how much locational confidence to attach to the marker. |
 
 The watchlist is also a navigation device. If a marker raises a question, the next step is usually an entity page, a corridor page, or a concept page rather than another marker layer.
+
+## Coverage / Method
+
+The layer covers 12 project features in `priority_project_watchlist.geojson`. Projects were selected from operating, generation-stage, and survey-stage records based on the layer's stated analytical criteria: size, storage value, basin leverage, financing relevance, transmission dependence, and map-reading value.
 
 ## Caveats
 

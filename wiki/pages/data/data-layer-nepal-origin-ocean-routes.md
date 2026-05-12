@@ -2,7 +2,7 @@
 title: Layer: Nepal-Origin Routes To Ocean
 type: data
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend, geopolitics, ganges, bangladesh]
@@ -16,6 +16,10 @@ page_quality: analysis
 **Feature count:** 4
 
 HydroRIVERS downstream traces continuing Nepal-linked systems through the Ganges/Padma/Meghna route to the Bay of Bengal.
+
+## Summary
+
+This layer extends Nepal-linked downstream-system traces through the Ganges, Padma, and Meghna route toward the Bay of Bengal. It is a topology layer for following Nepal-origin systems beyond the northern plains.
 
 ## What It Represents
 
@@ -43,6 +47,10 @@ Important fields:
 | `snap_distance_km` | Shows the distance between the existing mapped endpoint and the HydroRIVERS route start. |
 | `route_length_km` | Approximate downstream route length in the generated trace. |
 | `source_method` | Records the HydroRIVERS `NEXT_DOWN` tracing method. |
+
+## Coverage / Method
+
+The layer covers 4 generated route features. Routes are traced from existing Nepal-linked downstream-system endpoints using HydroRIVERS `NEXT_DOWN` topology, with route confidence, snap distance, route length, and method fields documented in `downstream_ocean_route_report.json`.
 
 ## Caveats
 

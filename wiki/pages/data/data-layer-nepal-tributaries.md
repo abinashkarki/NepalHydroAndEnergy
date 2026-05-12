@@ -2,7 +2,7 @@
 title: Layer: Nepal Tributaries (HydroRIVERS)
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -17,6 +17,10 @@ page_quality: analysis
 
 HydroRIVERS-derived Nepal tributaries relevant to the power and basin story, including WECS potential where available.
 
+## Summary
+
+This layer contains HydroRIVERS-derived Nepal tributary linework curated around hydropower-relevant rivers. It connects project clusters, basins, and downstream systems to named river corridors in the explorer.
+
 ## What It Represents
 
 This layer turns the basin story into named river corridors. It uses HydroRIVERS-derived linework curated around hydropower-relevant Nepal tributaries, so the map can connect projects, basins, and downstream systems to specific rivers rather than only broad polygons.
@@ -24,6 +28,10 @@ This layer turns the basin story into named river corridors. It uses HydroRIVERS
 ## How To Read It
 
 Use it to orient project clusters by river, to see which tributaries feed each basin, and to connect wiki pages about projects to the hydrological system they depend on. It is most useful with hydropower or basin-seasonality layers turned on.
+
+## Coverage / Method
+
+The layer covers 22 Nepal tributary features listed in [[data-map-inventory]]. It uses HydroRIVERS-derived linework with hydropower-relevant curation and includes WECS potential context where available.
 
 ## Caveats
 

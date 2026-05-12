@@ -2,7 +2,7 @@
 title: Layer: Satellite Basemap
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -17,6 +17,10 @@ page_quality: analysis
 
 Imagery basemap for visual checking of settlements, reservoirs, roads, river valleys, and corridor anchors.
 
+## Summary
+
+This data page describes the Satellite basemap option in the explorer. It provides imagery context for visually checking settlements, reservoirs, roads, river valleys, project anchors, and corridor surroundings.
+
 ## What It Represents
 
 The satellite basemap provides imagery behind the explorer overlays. It is useful when a map feature needs to be checked against visible land cover, settlements, river channels, reservoirs, road access, or grid-hub surroundings.
@@ -24,6 +28,10 @@ The satellite basemap provides imagery behind the explorer overlays. It is usefu
 ## How To Read It
 
 Use it for visual sanity checks: whether a point appears to sit on a plausible river reach, whether a corridor anchor is near a settlement or substation area, or whether a floating-PV candidate corresponds to a visible water body. It is the best basemap for visual inspection rather than schematic comparison.
+
+## Coverage / Method
+
+The layer is a basemap option documented in [[data-map-inventory]]. It supplies imagery background for visual inspection but does not add project, hydrology, or transmission features of its own.
 
 ## Caveats
 

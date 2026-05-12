@@ -2,7 +2,7 @@
 title: Layer: Nepal-Linked Basin Polygons
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -17,6 +17,10 @@ page_quality: analysis
 
 Koshi, Gandaki, Karnali, and Mahakali upstream basin polygons, with Nepal share and monsoon context.
 
+## Summary
+
+This layer contains the Koshi, Gandaki, Karnali, and Mahakali upstream basin polygons used by the explorer. It gives the map broad hydrological boundaries for reading Nepal's upstream position, basin shares, and monsoon context.
+
 ## What It Represents
 
 This layer frames Nepal as an upstream hydrological actor. The polygons show the major Himalayan systems whose water, sediment, and seasonal flows pass through or originate in Nepal before entering the wider Ganges plain. The layer is not just a geography overlay; it is the base for understanding where Nepal has physical leverage and where that leverage is limited.
@@ -24,6 +28,10 @@ This layer frames Nepal as an upstream hydrological actor. The polygons show the
 ## How To Read It
 
 Read basin area together with Nepal share and monsoon share. A large basin with high Nepal share indicates stronger upstream relevance for Nepal planning; a shared or border basin requires more geopolitical caution. The layer is especially useful before turning on project or downstream-impact overlays.
+
+## Coverage / Method
+
+The layer covers 4 basin polygon features listed in [[data-map-inventory]]. It packages basin geometry with contextual fields such as Nepal share and monsoon share for explorer-scale comparison rather than sub-basin modeling.
 
 ## Caveats
 

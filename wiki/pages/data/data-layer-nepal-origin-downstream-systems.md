@@ -2,7 +2,7 @@
 title: Layer: Nepal-Origin Downstream Systems
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -17,6 +17,10 @@ page_quality: analysis
 
 Main Nepal-origin systems traced downstream toward the Ganges plain to show where upstream control becomes regional influence.
 
+## Summary
+
+This layer traces the main Nepal-linked river systems downstream toward the Ganges plain. It provides a system-scale map view of where Nepal-origin water routes continue beyond national borders.
+
 ## What It Represents
 
 This layer follows the major Nepal-linked river systems beyond the national boundary. It makes explicit that hydropower planning, sediment, flood timing, and dry-season flow questions do not stop at Nepal border lines.
@@ -24,6 +28,10 @@ This layer follows the major Nepal-linked river systems beyond the national boun
 ## How To Read It
 
 Use it with basin polygons and downstream impact markers. The layer is strongest when the question is geopolitical or system-scale: where Nepal-origin water goes, which downstream names correspond to Nepal basins, and why India-facing transmission and water relationships matter.
+
+## Coverage / Method
+
+The layer covers 4 downstream-system features listed in [[data-map-inventory]]. It is a schematic downstream trace for explorer interpretation, linking Nepal-origin basin systems to their wider downstream river names.
 
 ## Caveats
 
