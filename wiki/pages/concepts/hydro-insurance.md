@@ -2,7 +2,7 @@
 title: Hydro Insurance
 type: concept
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-12
 sources: [care-ratings-sanima-mai, sanima-reliance-life-disclosures, utkhpl-annual-report, insurance-khabar, ekantipur-ippan-april-2025, investopaper-shikhar-insurance]
 tags: [insurance, reinsurance, premiums, claims, hydropower, IPP, risk]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # Hydro Insurance
 
+## Summary
+
 The insurance market for Nepal's hydropower sector — mandatory coverage requirements, premium escalation, claim settlement failures, and the systemic interaction with AD penalties and debt service obligations. The central connection is to [[nea-triple-authority]]: when physical damage prevents generation, NEA may still apply AD penalties while the insurer delays settlement, draining the developer's working capital from both sides.
+
+## Simple Explanation
+
+Hydropower projects need insurance because floods, landslides, GLOFs, and equipment failures can stop generation. The concept matters because insurance is not just a safety net: rising premiums, delayed claims, and lender requirements can become a major financial stress for IPPs.
 
 ## Premium Burden — Verified Project-Level Data
 
@@ -57,3 +63,9 @@ Whether the PPA contains force majeure or physical damage exemption from AD pena
 
 - [[ad-penalties]] — the penalty mechanism that may compound insurance gaps
 - [[nea-triple-authority]] — the institutional framework of NEA as off-taker and penalty administrator
+
+## Common Misunderstandings
+
+- **Insurance does not remove project risk.** It can shift some losses, but premium cost, exclusions, and settlement delays still affect cash flow.
+- **A claim is not the same as cash in hand.** Delayed settlement can matter as much as the covered amount.
+- **Hydro insurance is not separate from PPA risk.** Physical damage can interact with AD penalties, debt service, and off-taker receivables.

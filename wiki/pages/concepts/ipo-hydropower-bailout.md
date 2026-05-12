@@ -2,7 +2,7 @@
 title: IPO Hydropower Bailout
 type: concept
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-12
 sources: [sharesansar-rasuwagadhi-ipo, icra-nepal-sahas-urja, ifc-local-shares-report, chilime-annual-report-fy2078-79]
 tags: [IPO, rights-shares, NEPSE, SEBON, retail-investors, debt, bailout, capital-markets]
 page_quality: analysis
@@ -10,9 +10,15 @@ page_quality: analysis
 
 # IPO Hydropower Bailout
 
+## Summary
+
 How Initial Public Offerings (IPOs) and rights share issuances in Nepal's hydropower sector are used to transfer project debt risk onto retail investors — and why the "Chilime success model" is not replicable.
 
 **This page is under research.** Verifiable data on IPO use-of-funds is blocked by SEBON's systemic use of non-machine-readable scanned PDFs for critical financial disclosures — frustrating automated accountability tracking.
+
+## Simple Explanation
+
+The concept describes a pattern where stressed hydropower companies raise money from public investors after project delays, weak generation, or debt pressure. The concern is that public equity can become a rescue channel for projects whose risks were not clearly priced or disclosed.
 
 ## What is known
 
@@ -47,3 +53,9 @@ The primary blocker is **SEBON's non-machine-readable PDF filing system**. Key q
 - What is NRB's specialized hydro loan book — the true extent of off-balance-sheet restructuring and informal forbearance?
 
 [Under research — awaiting SEBON prospectus data extraction or regulatory reform mandating machine-readable disclosures.]
+
+## Common Misunderstandings
+
+- **An IPO is not automatically a growth investment.** In distressed hydro cases, proceeds or later rights shares may function as balance-sheet repair.
+- **The Chilime example is not automatically replicable.** Chilime listed after profitable operations; many newer projects list before stable earnings.
+- **Retail participation does not prove risk transparency.** Non-machine-readable filings and weak use-of-funds data limit independent scrutiny.

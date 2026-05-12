@@ -2,7 +2,7 @@
 title: Hydropower Potential Categories
 type: concept
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-12
 sources: [wecs-hydropower-potential-2019, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [potential, methodology, WECS, planning, basins, nepal]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # Hydropower Potential Categories
 
+## Summary
+
 “Nepal has 83,000 MW” is a political slogan and a methodological landmine. **Hydropower potential categories** exist precisely because **theoretical river power** is not the same as **financeable capacity**, **buildable projects**, or **firm winter electricity** (see [[firm-power]]).
+
+## Simple Explanation
+
+Hydropower potential is a stack of increasingly strict filters. A river may have theoretical energy, but that does not mean a project can be engineered, financed, permitted, connected to the grid, or depended on in the dry season.
 
 ## The reduction pyramid (conceptual chain)
 
@@ -32,3 +38,9 @@ A large share of gross potential concentrates in three major basins—**[[koshi-
 ## Why this matters for analysis
 
 Potential-category discipline prevents two common failures: inflating creditworthiness with theoretical MW, and confusing **annual energy** with **dry-season dependability**. Primary methodology and citations live under [[wecs-hydropower-potential-2019]].
+
+## Common Misunderstandings
+
+- **Theoretical MW is not a build plan.** It is the least filtered number in the chain.
+- **Technical potential is not the same as bankable potential.** Financing, transmission, social license, and market value still apply.
+- **Installed MW is not firm winter power.** Seasonal output and dispatchability determine how much capacity actually helps in dry months.

@@ -2,13 +2,15 @@
 title: NEA Triple-Authority Conflict
 type: concept
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-12
 sources: [nea-annual-report-fy2024-25, fenner-school-nepal-state-of-knowledge-renewables-psh]
 tags: [NEA, governance, PPA, dispatch, curtailment, AD-penalties, IPP, regulation, accountability]
 page_quality: analysis
 ---
 
 # NEA Triple-Authority Conflict
+
+## Summary
 
 The **NEA Triple-Authority Conflict** describes how the Nepal Electricity Authority simultaneously holds three powers over private hydropower producers (IPPs) that, in a well-designed market, would be separated across independent institutions:
 
@@ -17,6 +19,10 @@ The **NEA Triple-Authority Conflict** describes how the Nepal Electricity Author
 3. **Penalty Administrator** — NEA calculates, levies, and deducts Availability Declaration (AD) penalties from IPP receivables.
 
 The same entity controls the physical flow of electrons, the commercial flow of money, and the enforcement flow of penalties. No independent arbiter exists between these roles.
+
+## Simple Explanation
+
+NEA is not only a buyer of electricity. It also decides dispatch and can deduct penalties from project payments. The conflict arises because one institution can tell a private generator not to run, buy all of its power under the PPA system, and then enforce penalties when generation falls short.
 
 ## The structural double-bind
 
@@ -83,3 +89,9 @@ The Triple-Authority Conflict is the institutional mechanism underlying:
 - [[sahas-urja]] — why the standard IPP rate succeeds only at exceptional scale, not as a replicable model
 - [[chameliya-hydropower]] — state capital inefficiency absorbed off-balance sheet while private developers face rigid caps
 - [[hydro-insurance]] — the insurance market failure that compounds the financial squeeze when NEA applies penalties during claim settlement gaps
+
+## Common Misunderstandings
+
+- **The conflict is structural, not just a claim of bad intent.** The same institution holds roles that would normally be separated.
+- **Curtailment and AD penalties are linked.** A generator can lose output because of dispatch decisions and still face penalty exposure if the contract does not carve out that cause.
+- **NEA ownership matters because dispatch has cash consequences.** Dispatching an NEA plant and dispatching an IPP have different institutional cash-flow effects.

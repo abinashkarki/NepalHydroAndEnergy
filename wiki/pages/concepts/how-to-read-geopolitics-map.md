@@ -2,7 +2,7 @@
 title: How To Read The Geopolitics Map
 type: concept
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-12
 sources: [data-map-layer-labels, downstream-river-geopolitics]
 tags: [geopolitics, maps, guide, downstream, ganges]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # How To Read The Geopolitics Map
 
+## Summary
+
 The geopolitics preset is not a Nepal-only map. It follows Nepal-linked rivers into the northern Indian plains, Bangladesh, and the Bay of Bengal because the political question is about downstream exposure, not just upstream origin.
+
+## Simple Explanation
+
+Read the map as a route-and-exposure guide. It shows how rivers that begin in or pass through Nepal continue into downstream regions where timing, floods, sediment, dry-season flows, and future storage choices can become political.
 
 ## Visual Grammar
 
@@ -57,6 +63,12 @@ Then read the exposure zones:
 The downstream marks exist because Nepal's hydropower and storage choices are also timing choices. A run-of-river project mostly follows the hydrograph. A storage project can shift water across time, trap sediment, attenuate floods, or change the reliability of dry-season releases.
 
 That is why the map keeps [[data-layer-future-regulation-scenario]] visible with the downstream layers. The political value of storage is not just megawatts. It is the ability to regulate time.
+
+## Common Misunderstandings
+
+- **The map is not a claim of Nepalese control downstream.** It shows exposure pathways, not authority.
+- **Dependency zones are not hydrological models.** They are interpretive map layers for reading geography.
+- **Storage markers are not policy prescriptions.** They show where timing regulation could matter if projects are built.
 
 ## Related
 
