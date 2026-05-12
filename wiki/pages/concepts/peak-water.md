@@ -2,7 +2,7 @@
 title: Peak Water
 type: concept
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-12
 sources: [icimod-hkh-glacier-change, wecs-river-basin-plan-2024, wb-water-sector-diagnostic]
 tags: [climate, glaciers, HKH, hydrology, planning, nepal, windows]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # Peak Water
 
+## Summary
+
 **Peak water** (in the glacio-hydrological sense used across Hindu Kush-Himalaya work) is the period when a glacierized catchment reaches **maximum annual meltwater yield** before **long-term decline** sets in. It is not "peak" in the oil-depletion sense of a single day; it is a **multi-decade phase** where retreat temporarily **increases** exposed ice area and melt efficiency, then yields to **shrinking ice volume** and **lower dry-season baseflows**.
+
+## Simple Explanation
+
+As glaciers shrink, they can temporarily release more meltwater before the stored ice is depleted. For hydropower planning, that means some basins may look strong for a few decades while the long-term dry-season buffer is actually weakening.
 
 ## Mechanism: more melt before less water
 
@@ -65,3 +71,9 @@ Recent climate synthesis points to this directional consensus:
 - **Hydropower implication:** more extreme flood risk in monsoon (structural and safety design), more acute lean-season deficit (reliability design) — both costs rise simultaneously
 
 The [[seasonal-mismatch]] that already defines Nepal's energy problem today will structurally worsen over the planning horizon. Storage becomes more valuable, not less, as climate instability increases.
+
+## Common Misunderstandings
+
+- **Peak water is not one peak day or one flood.** It is a multi-decade hydrological phase.
+- **Glacier-fed does not mean permanently reliable.** Snowmelt, baseflow, and seasonal precipitation matter more than glacier ice volume in many annual-flow budgets.
+- **Higher near-term melt does not remove long-term risk.** The same warming that can raise meltwater for a period also depletes the storage that supports future dry-season flows.

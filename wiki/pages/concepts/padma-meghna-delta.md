@@ -2,7 +2,7 @@
 title: Padma-Meghna Delta
 type: concept
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-12
 sources: [data-layer-nepal-origin-route-callouts, downstream-river-geopolitics]
 tags: [geopolitics, downstream, padma, meghna, delta, bangladesh]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # Padma-Meghna Delta
 
+## Summary
+
 This marker explains where the shared downstream route becomes a lower-delta system rather than a single clean river line.
+
+## Simple Explanation
+
+The marker helps readers follow the map from a river route into a delta geography. At this point the story is no longer only about a channel; it is about distributaries, sediment, salinity, flood timing, and coastal exposure.
 
 ## Why It Matters
 
@@ -23,6 +29,12 @@ Read this with [[padma-meghna-delta-dependency]] and [[lower-delta-bay-interface
 ## Caveat
 
 The v1 map does not model dense delta distributaries, tidal hydraulics, embankments, or salinity fronts. The marker is a route-reading device.
+
+## Common Misunderstandings
+
+- **This is not a detailed delta map.** It does not show the full distributary network or tidal hydraulics.
+- **It is not a claim of upstream control.** It marks where Nepal-linked route tracing enters a lower-delta context.
+- **It should be paired with the dependency zone.** The marker shows route position; [[padma-meghna-delta-dependency]] explains why the area matters.
 
 ## Related
 

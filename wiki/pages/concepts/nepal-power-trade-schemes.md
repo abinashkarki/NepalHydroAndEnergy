@@ -2,7 +2,7 @@
 title: Nepal Power Trade Schemes
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-12
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [trade, export, ppa, india, bangladesh, nea, ipsdp]
 page_quality: analysis
@@ -10,10 +10,16 @@ page_quality: analysis
 
 # Nepal Power Trade Schemes
 
+## Summary
+
 In Section 2.4 of [[moewri-ipsdp-exec-summary-2025]], the IPSDP does two
 different but related things. It names **three generator-facing wholesale
 customer categories**, and it separately describes the **commercial modes**
 those channels may use, including exchange-market sales and long-term PPAs.
+
+## Simple Explanation
+
+Nepal power trade is not one single export mechanism. The IPSDP describes a mixed structure where power can move through NEA, trading companies, or direct overseas buyers, and those channels can use either long-term PPAs or more market-linked sales.
 
 ## Generator-facing wholesale channels named in the IPSDP
 
@@ -55,6 +61,12 @@ price-setting and dispatch arrangements inside them.
 This page sticks to what the executive summary says explicitly on pages 24-26.
 It does **not** claim that Nepal has already implemented this market structure.
 The document is a planning frame, not proof of execution.
+
+## Common Misunderstandings
+
+- **Trade schemes are not the same as transmission corridors.** Lines enable trade, but buyer structure and contract mode determine how trade works.
+- **Direct overseas trade is not already normal practice.** In this page it is an IPSDP planning category, not proof of implementation.
+- **Market-linked sales and long-term PPAs are different commercial modes.** They should not be collapsed into one generic export bucket.
 
 ## Related
 

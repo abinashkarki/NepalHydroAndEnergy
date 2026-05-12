@@ -2,7 +2,7 @@
 title: Rooftop, Mini-Grid, and Off-Grid Solar
 type: concept
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-12
 sources: [aepc-renewable-framework, eib-rural-solar-phase2, nea-annual-report-fy2024-25]
 tags: [solar, rooftop, mini-grid, off-grid, aepc, rural-electrification, SHS]
 page_quality: analysis
@@ -10,9 +10,15 @@ page_quality: analysis
 
 # Rooftop, Mini-Grid, and Off-Grid Solar
 
+## Summary
+
 The utility-scale solar story ([[hybrid-siting-logic]], [[agrivoltaics-and-land]]) is one of three tracks. The other two — **behind-the-meter rooftop** and **off-grid / mini-grid distributed PV** — operate under different institutions, different financing, and a different political coalition. They together carry roughly **700,000 MWh/year** of current generation, comparable to a 200 MW mid-sized hydro plant running flat, and they reach populations NEA's grid does not.
 
 Treating them as a single track is the most common analytical error in Nepal-solar discourse. They are not.
+
+## Simple Explanation
+
+Nepal solar is not only large utility plants. Rooftop systems and off-grid mini-grids serve different users, use different financing channels, and often displace expensive diesel or missing grid service rather than competing with wholesale hydropower.
 
 ## The three-track structure
 
@@ -75,6 +81,12 @@ Rooftop + off-grid solar needs AEPC capacity (exists), a consumer-finance channe
 The strategic consequence is that the **"solar in Nepal" number** that matters to the energy balance is not the utility line item in [[data-fleet-composition]]. It is **utility + rooftop + off-grid**, and the latter two are currently under-counted by a factor of 2–3× in most published tables.
 
 This is also the link to [[claim-solar-political-coalition-is-rural]]: if solar policy is designed only for utility, the coalition that makes it survive is narrower than the coalition that actually uses it.
+
+## Common Misunderstandings
+
+- **Rooftop, mini-grid, and utility solar are not one market.** They differ by institution, customer, tariff logic, and financing.
+- **Small MW does not mean low value.** Off-grid solar can displace very expensive diesel or kerosene service.
+- **Grid arrival does not automatically make mini-grids useless.** Integration design determines whether they become stranded assets or grid-edge resources.
 
 ## Related
 

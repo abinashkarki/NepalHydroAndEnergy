@@ -2,7 +2,7 @@
 title: Project Roadmap
 type: concept
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-12
 sources: []
 tags: [meta, roadmap, planning]
 page_quality: analysis
@@ -10,9 +10,15 @@ page_quality: analysis
 
 # Project Roadmap
 
+## Summary
+
 Live checklist for the Nepal Energy wiki-map explorer. Updated as each
 item lands. Persists across agent sessions so either of us can pick up
 where the other stopped.
+
+## Simple Explanation
+
+This page is the project-management concept for the wiki itself. It tracks what has been built, what remains open, and which workstreams matter next for the explorer, content graph, and validation system.
 
 Status legend: `[x]` done · `[~]` in progress · `[ ]` open · `[→]` deferred.
 
@@ -139,3 +145,9 @@ section · Limitations/Controversies · 2+ primary sources · 3+ inline
 - [[hydropower-potential-categories]]
 - [[run-of-river-hydropower]]
 - [[firm-power]]
+
+## Common Misunderstandings
+
+- **This is not an energy-system claim page.** It is a living roadmap for the wiki/explorer project.
+- **Open checklist items are not validated findings.** They are implementation tasks or editorial targets.
+- **Completed milestones are archived context.** They explain project history but do not replace current validation checks.

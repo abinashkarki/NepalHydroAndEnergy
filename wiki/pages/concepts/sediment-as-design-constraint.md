@@ -2,7 +2,7 @@
 title: Sediment as Design Constraint
 type: concept
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-12
 sources: [icimod-koshi-sediment-threats, wecs-river-basin-plan-2024, adb-hydropower-growth-nepal]
 tags: [sediment, turbines, O&M, design, nepal, rivers]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # Sediment as Design Constraint
 
+## Summary
+
 In Nepal, sediment is often discussed as an operations headache — rakers, flushes, lost efficiency. That understates the issue. **Sediment is a core design constraint**: it determines what kind of plant you can build, what turbine you can credibly run, how fast maintenance capital is consumed, and whether a reservoir's economic life matches its financial model.
+
+## Simple Explanation
+
+Himalayan rivers carry abrasive sediment, especially during the monsoon. That sediment can wear turbines, fill reservoirs, force outages, and shorten asset life, so it belongs in project design and finance from the start rather than being treated as routine maintenance.
 
 ## Orders-of-magnitude swings are normal, not exceptional
 
@@ -100,3 +106,9 @@ Basin context matters: sediment regimes differ systematically across [[gandaki-b
 ## The technology roadmap implication
 
 Nepal should treat **abrasion control as an efficiency program, not merely a maintenance program**. The field data show measurable efficiency degradation over time and link it to leakage and erosion — meaning abrasion control is "recoverable generation" expressed in NPR/year per plant, not just O&M cost lines. At scale across 189 plants, systematic sediment-fit upgrading could recover generation that exceeds what several new RoR plants would add.
+
+## Common Misunderstandings
+
+- **Sediment is not only an O&M issue.** It affects turbine choice, intake design, reservoir life, financing, and outage risk.
+- **Reservoirs do not solve sediment by default.** They can trap sediment and lose storage unless bypass, flushing, and watershed management are designed in.
+- **High installed MW does not guarantee durable output.** Abrasion and storage loss can reduce efficiency and firm value over time.
