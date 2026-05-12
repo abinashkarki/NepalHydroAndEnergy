@@ -4,17 +4,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="np-build" content="public-launch-5" />
+  <meta name="np-build" content="public-launch-6" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' unpkg.com; img-src 'self' data: *.cartocdn.com *.opentopomap.org server.arcgisonline.com *.tile.openstreetmap.org tile.openstreetmap.org *.basemaps.cartocdn.com; connect-src 'self' cdn.jsdelivr.net unpkg.com; frame-src 'none';" />
   <title>Nepal Energy · Wiki & Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" />
-  <link rel="stylesheet" href="shared/style.css?v=public-launch-5" />
+  <link rel="stylesheet" href="shared/style.css?v=public-launch-6" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" integrity="sha384-948ahk4ZmxYVYOc+rxN1H2gM1EJ2Duhp7uHtZ4WSLkV4Vtx5MUqnV+l7u9B+jFv+" crossorigin="anonymous"></script>
-  <script src="shared/leaflet-init.js?v=public-launch-5"></script>
-  <script src="shared/wiki-loader.js?v=public-launch-5"></script>
-  <script src="shared/wiki-search.js?v=public-launch-5"></script>
-  <script src="shared/wiki-vector-search.js?v=public-launch-5"></script>
+  <script src="shared/leaflet-init.js?v=public-launch-6"></script>
+  <script src="shared/wiki-loader.js?v=public-launch-6"></script>
+  <script src="shared/wiki-search.js?v=public-launch-6"></script>
+  <script src="shared/wiki-vector-search.js?v=public-launch-6"></script>
   <style>
     /* Layout: resizable three-pane grid. */
     .layout {
@@ -3632,8 +3632,15 @@
 
         const onCount = lm.activeKeys().length;
         const featCount = (binding.features || []).length;
+        const selectionNote =
+          binding.selection === "overview"
+            ? "<br/> <span class=\"muted\">Context view: related map layers are shown together.</span>"
+            : binding.selection === "focus"
+              ? "<br/> <span class=\"muted\">Selected feature highlighted with related context layers on.</span>"
+              : "";
         document.getElementById("map-info").innerHTML =
-          `<b>${slug}</b><br/>${featCount} feature(s) · ${onCount} layer(s) on${needed.length ? ` · added <i>${needed.join(", ")}</i>` : ""}.`;
+          `<b>${slug}</b><br/>${featCount} feature(s) · ${onCount} layer(s) on${needed.length ? ` · added <i>${needed.join(", ")}</i>` : ""}.` +
+          selectionNote;
 
         // If the page was already current, the user is just being routed back to
         // the same place — keep the camera put. Layers are already on; the bound
@@ -3650,7 +3657,7 @@
             const overlay = lm.showFocusOverlay(featureRef);
             if (overlay) {
               const info = document.getElementById("map-info");
-              if (info) info.innerHTML += "<br/><span class=\"muted\">Showing selected feature only; source layer remains off.</span>";
+              if (info) info.innerHTML += "<br/> <span class=\"muted\">Showing selected feature only; source layer remains off.</span>";
             }
             return overlay;
           };

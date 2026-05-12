@@ -115,7 +115,7 @@ const _APP_CB = (() => {
     const m = document.querySelector('meta[name="np-build"]');
     if (m && m.content) return m.content;
   } catch (e) {}
-  return "public-launch-5";
+  return "public-launch-6";
 })();
 
 function bustify(path) {

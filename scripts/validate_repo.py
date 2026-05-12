@@ -25,6 +25,7 @@ FACT_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-fact-index.json"
 VECTOR_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-vector-index.json"
 BACKLINKS = ROOT / "wiki" / "explorer" / "shared" / "wiki-backlinks.json"
 MANIFEST = ROOT / "wiki" / "explorer" / "shared" / "layer-manifest.json"
+BINDINGS = ROOT / "wiki" / "explorer" / "shared" / "bindings.json"
 WIKI_INDEX_MD = ROOT / "wiki" / "index.md"
 PUBLIC_TEXT_FILES = [
     ROOT / "README.md",
@@ -189,6 +190,84 @@ def validate_map_manifest() -> None:
             fail(f"manifest layer {layer_id} points to missing file {target.relative_to(ROOT)}")
         if target.suffix in {".json", ".geojson"}:
             load_json(target)
+
+
+def resolve_binding_layers(layer_id: str, layers: dict) -> list[str]:
+    out: list[str] = []
+    if layer_id in layers:
+        out.append(layer_id)
+    for key, layer in layers.items():
+        if key == layer_id:
+            continue
+        if layer_id in (layer.get("aliases") or []):
+            out.append(key)
+    return out
+
+
+def layer_feature_ids(layer_id: str, layers: dict) -> set[str]:
+    layer = layers.get(layer_id) or {}
+    rel = layer.get("path")
+    if not rel or not rel.startswith("../../../"):
+        return set()
+    target = ROOT / rel.replace("../../../", "")
+    data = load_json(target)
+    ids: set[str] = set()
+    for feature in data.get("features", []):
+        props = feature.get("properties") or {}
+        for key in ("id", "corridor_id", "segment_id", "project", "name", "label_title"):
+            value = props.get(key)
+            if value is not None:
+                ids.add(str(value))
+    return ids
+
+
+def validate_map_bindings() -> None:
+    manifest = load_json(MANIFEST)
+    layers = manifest.get("layers", {})
+    bindings = load_json(BINDINGS)
+    valid_selection = {None, "focus", "overview"}
+    id_cache: dict[str, set[str]] = {}
+
+    for slug, page in (bindings.get("pages") or {}).items():
+        selection = page.get("selection")
+        if selection not in valid_selection:
+            fail(f"binding {slug} has invalid selection={selection!r}; expected focus or overview")
+
+        for key in page.get("layers_on") or []:
+            if key not in layers:
+                fail(f"binding {slug} layers_on references missing layer: {key}")
+
+        features = page.get("features") or []
+        primaries = [feature for feature in features if feature.get("primary")]
+        if len(primaries) > 1:
+            fail(f"binding {slug} has multiple primary features")
+        if selection == "focus" and len(primaries) != 1:
+            fail(f"binding {slug} selection=focus requires exactly one primary feature")
+        if selection == "overview" and primaries:
+            fail(f"binding {slug} selection=overview must not mark a primary feature")
+        if page.get("category") == "geopolitics" and len(features) > 1 and selection is None:
+            fail(f"binding {slug} geopolitics multi-feature page must declare selection=focus or selection=overview")
+        if len(features) > 1 and not primaries and selection != "overview":
+            fail(f"binding {slug} has multiple features but no primary feature or selection=overview")
+
+        for feature in features:
+            layer_ref = feature.get("layer")
+            if not layer_ref:
+                fail(f"binding {slug} has a feature without a layer")
+            resolved = resolve_binding_layers(layer_ref, layers)
+            if not resolved:
+                fail(f"binding {slug} feature references missing layer or alias: {layer_ref}")
+            feature_id = feature.get("id")
+            if feature_id is not None:
+                found = False
+                for resolved_key in resolved:
+                    if resolved_key not in id_cache:
+                        id_cache[resolved_key] = layer_feature_ids(resolved_key, layers)
+                    if str(feature_id) in id_cache[resolved_key]:
+                        found = True
+                        break
+                if not found:
+                    fail(f"binding {slug} feature id {feature_id!r} not found in layer {layer_ref}")
 
 
 def validate_tracked_hygiene() -> None:
@@ -911,6 +990,7 @@ def main() -> None:
     validate_public_index(slugs)
     validate_public_language()
     validate_map_manifest()
+    validate_map_bindings()
     validate_tracked_hygiene()
     validate_specs_csv(slugs)
     validate_solar_specs_csv(slugs)

@@ -1,9 +1,10 @@
 {
-  "_doc": "Maps wiki page slugs to map features. Stand-in for per-page frontmatter; same shape works either way. 'features' = list of {layer, id?, match?}. 'focus' = optional override for fly-to. 'layers_on' = preferred default layer set when this page is the focus.",
+  "_doc": "Maps wiki page slugs to map features. Stand-in for per-page frontmatter; same shape works either way. 'features' = list of {layer, id?, match?, primary?}. 'selection' is 'focus' for one selected geography or 'overview' for context pages. 'focus' = optional override for fly-to. 'layers_on' = preferred default layer set when this page is the focus.",
   "pages": {
     "downstream-river-geopolitics": {
       "type": "synthesis",
       "category": "geopolitics",
+      "selection": "overview",
       "features": [
         {
           "layer": "basin_polygons",
@@ -84,6 +85,7 @@
     "hydro-geopolitics": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "overview",
       "features": [
         {
           "layer": "basin_polygons",
@@ -132,6 +134,7 @@
     "ganges-contribution": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "overview",
       "features": [
         {
           "layer": "downstream_systems",
@@ -187,6 +190,7 @@
     "how-to-read-geopolitics-map": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "overview",
       "features": [
         {
           "layer": "ocean_routes"
@@ -233,10 +237,12 @@
     "mahakali-sharda-handoff": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "route_callouts",
-          "id": "mahakali_sharda_handoff"
+          "id": "mahakali_sharda_handoff",
+          "primary": true
         },
         {
           "layer": "ocean_routes",
@@ -260,10 +266,12 @@
     "ghaghara-ganges-merge": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "route_callouts",
-          "id": "ghaghara_ganges_merge"
+          "id": "ghaghara_ganges_merge",
+          "primary": true
         },
         {
           "layer": "ocean_routes",
@@ -287,10 +295,12 @@
     "gandak-ganges-merge": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "route_callouts",
-          "id": "gandak_ganges_merge"
+          "id": "gandak_ganges_merge",
+          "primary": true
         },
         {
           "layer": "ocean_routes",
@@ -314,10 +324,12 @@
     "kosi-ganges-merge": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "route_callouts",
-          "id": "kosi_ganges_merge"
+          "id": "kosi_ganges_merge",
+          "primary": true
         },
         {
           "layer": "ocean_routes",
@@ -341,10 +353,12 @@
     "ganges-padma-transition": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "route_callouts",
-          "id": "ganges_padma_transition"
+          "id": "ganges_padma_transition",
+          "primary": true
         },
         {
           "layer": "dependency_zones",
@@ -366,10 +380,12 @@
     "padma-meghna-delta": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "route_callouts",
-          "id": "padma_meghna_delta_merge"
+          "id": "padma_meghna_delta_merge",
+          "primary": true
         },
         {
           "layer": "dependency_zones",
@@ -392,10 +408,12 @@
     "bay-of-bengal-terminal": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "route_callouts",
-          "id": "bay_of_bengal_terminal"
+          "id": "bay_of_bengal_terminal",
+          "primary": true
         },
         {
           "layer": "dependency_zones",
@@ -417,10 +435,12 @@
     "eastern-up-ghaghara-gandak-belt": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "dependency_zones",
-          "id": "eastern_up_ghaghara_gandak_belt"
+          "id": "eastern_up_ghaghara_gandak_belt",
+          "primary": true
         },
         {
           "layer": "route_callouts",
@@ -444,10 +464,12 @@
     "north-bihar-kosi-gandak-floodplain": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "dependency_zones",
-          "id": "north_bihar_kosi_gandak_floodplain"
+          "id": "north_bihar_kosi_gandak_floodplain",
+          "primary": true
         },
         {
           "layer": "route_callouts",
@@ -471,10 +493,12 @@
     "bihar-ganges-trunk-zone": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "dependency_zones",
-          "id": "bihar_ganges_trunk_zone"
+          "id": "bihar_ganges_trunk_zone",
+          "primary": true
         },
         {
           "layer": "route_callouts",
@@ -496,10 +520,12 @@
     "padma-meghna-delta-dependency": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "dependency_zones",
-          "id": "padma_meghna_delta_dependency"
+          "id": "padma_meghna_delta_dependency",
+          "primary": true
         },
         {
           "layer": "route_callouts",
@@ -522,10 +548,12 @@
     "lower-delta-bay-interface": {
       "type": "concept",
       "category": "geopolitics",
+      "selection": "focus",
       "features": [
         {
           "layer": "dependency_zones",
-          "id": "lower_delta_bay_interface"
+          "id": "lower_delta_bay_interface",
+          "primary": true
         },
         {
           "layer": "route_callouts",
@@ -548,6 +576,7 @@
     "data-layer-downstream-population-anchors": {
       "type": "data",
       "category": "data",
+      "selection": "overview",
       "features": [
         {
           "layer": "population_anchors",
@@ -614,10 +643,12 @@
     "koshi-basin": {
       "type": "entity",
       "category": "basin",
+      "selection": "focus",
       "features": [
         {
           "layer": "basin_polygons",
-          "id": "koshi_system"
+          "id": "koshi_system",
+          "primary": true
         },
         {
           "layer": "basin_seasonality",
@@ -635,10 +666,12 @@
     "gandaki-basin": {
       "type": "entity",
       "category": "basin",
+      "selection": "focus",
       "features": [
         {
           "layer": "basin_polygons",
-          "id": "gandaki_system"
+          "id": "gandaki_system",
+          "primary": true
         },
         {
           "layer": "basin_seasonality",
@@ -656,10 +689,12 @@
     "karnali-basin": {
       "type": "entity",
       "category": "basin",
+      "selection": "focus",
       "features": [
         {
           "layer": "basin_polygons",
-          "id": "karnali_system"
+          "id": "karnali_system",
+          "primary": true
         },
         {
           "layer": "basin_seasonality",
@@ -677,10 +712,12 @@
     "mahakali-basin": {
       "type": "entity",
       "category": "basin",
+      "selection": "focus",
       "features": [
         {
           "layer": "basin_polygons",
-          "id": "mahakali_system"
+          "id": "mahakali_system",
+          "primary": true
         },
         {
           "layer": "basin_seasonality",
@@ -719,10 +756,12 @@
     "kulekhani-cascade": {
       "type": "entity",
       "category": "project",
+      "selection": "focus",
       "features": [
         {
           "layer": "storage_shortlist",
-          "id": "storage_kulekhani_i_iii"
+          "id": "storage_kulekhani_i_iii",
+          "primary": true
         },
         {
           "layer": "floating_pv_candidates",
@@ -1084,6 +1123,7 @@
     },
     "claim-transmission-immediate-blocker": {
       "type": "claim",
+      "selection": "overview",
       "features": [
         {
           "layer": "transmission_traced_network",
@@ -1123,6 +1163,7 @@
     },
     "claim-sediment-core-issue": {
       "type": "claim",
+      "selection": "overview",
       "features": [
         {
           "layer": "basin_polygons",
@@ -1158,6 +1199,7 @@
     },
     "seasonal-mismatch": {
       "type": "concept",
+      "selection": "overview",
       "features": [
         {
           "layer": "basin_seasonality",
@@ -1421,13 +1463,11 @@
         },
         {
           "layer": "floating_pv_candidates",
-          "id": "fpv_nalsyau_gad",
-          "primary": true
+          "id": "fpv_nalsyau_gad"
         },
         {
           "layer": "priority_watchlist",
-          "id": "nalsyau_gad_radar",
-          "primary": true
+          "id": "nalsyau_gad_radar"
         },
         {
           "layer": "hydropower_points",
@@ -2837,6 +2877,7 @@
     "data-solar-hydro-complementarity-profile": {
       "type": "data",
       "category": "solar",
+      "selection": "overview",
       "features": [
         {
           "layer": "solar_ghi_zones"
@@ -2883,6 +2924,7 @@
     "solar-hydro-complementarity": {
       "type": "concept",
       "category": "solar",
+      "selection": "overview",
       "features": [
         {
           "layer": "solar_ghi_zones"
@@ -3173,6 +3215,7 @@
     "solar-role-in-winter-deficit": {
       "type": "synthesis",
       "category": "solar",
+      "selection": "overview",
       "features": [
         {
           "layer": "solar_ghi_zones"
@@ -3195,6 +3238,7 @@
     "solar-in-the-master-narrative": {
       "type": "synthesis",
       "category": "solar",
+      "selection": "overview",
       "features": [
         {
           "layer": "solar_ghi_zones"
