@@ -2,7 +2,7 @@
 title: Storage Deficit
 type: concept
 created: 2026-04-14
-updated: 2026-05-10
+updated: 2026-05-12
 sources: [wb-water-sector-diagnostic, national-water-plan-nepal, nea-annual-report-fy2024-25]
 tags: [reservoir, water-security, seasonality, infrastructure, nepal]
 page_quality: analysis
@@ -17,6 +17,10 @@ Nepal’s energy crisis is often narrated as a shortage of projects. At the wate
 ## Simple Explanation
 
 Nepal gets most of its river water in the monsoon but needs electricity year-round. Storage means holding monsoon water in reservoirs to release it in dry months. Nepal has almost none compared to other countries, so even though it has lots of rivers, it cannot shift energy from wet to dry season.
+
+## Run-of-river hydro and dry-season deficit
+
+This is why adding more run-of-river hydro can worsen the dry-season deficit if the new MW arrives mainly in monsoon months and does not create storage or firm winter capacity.
 
 ## Orders of magnitude
 

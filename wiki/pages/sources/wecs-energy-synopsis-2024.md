@@ -2,7 +2,7 @@
 title: WECS Energy Sector Synopsis Report 2024
 type: source
 created: 2026-04-14
-updated: 2026-04-23
+updated: 2026-05-12
 source_type: report
 source_author: Water and Energy Commission Secretariat (WECS)
 source_date: 2024-01-01
@@ -43,13 +43,12 @@ Earlier wiki pages cite grid electricity as **4.96%** of final energy. That figu
 
 ## Local PDF status
 
-> [!warning]
-> The file at `data/raw/core/wecs_energy_sector_synopsis_2024.pdf` in this repo is a **404 HTML stub** from a failed download, not the actual report. The real PDF lives at the `source_url` above (giwmscdnone.gov.np). Re-download before attempting any further text extraction.
+The local file at `data/raw/core/wecs_energy_sector_synopsis_2024.pdf` is now a real PDF copy of the report, verified locally as a 167-page PDF. The external `source_url` above remains the canonical public URL.
 
 ## Limitations
 
 - **Single-year snapshot:** FY 2079/80 data; YoY comparisons (e.g., −16.81% total final energy) are sensitive to single-year anomalies such as fuel price shocks or demand disruptions.
-- **Repository stub:** The PDF copy in `data/raw/core/` is a 404 HTML stub; the live document lives at the external `source_url` only.
+- **Local copy status:** The repository copy has been verified as a 167-page PDF, but future extraction should still cross-check against the external `source_url`.
 - **Biomass estimates:** The 63.87% traditional biomass share relies on survey assumptions and stock-flow models, not metered consumption data.
 - **Grid-electricity share jump:** The 4.96% → 7.23% jump in one year may reflect both real electrification growth and improvements in measurement coverage.
 

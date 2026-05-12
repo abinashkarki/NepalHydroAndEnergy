@@ -1162,6 +1162,38 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-12 — Flagged Review Cleanup
+
+**Agent:** Codex
+**Session type:** Flagged review cleanup — local verification, source hygiene, and targeted research
+**Pages touched:**
+- `FLAGGED_FOR_REVIEW`: moved all resolvable items to resolved; left `wb-nepal-power-sector-reform-2022` source URL open because no exact standalone roadmap URL was verified.
+- `data/data-nepal-peak-load-curve-fy2024-25`, `data/data-layer-storage-shortlist`, `data/data-final-energy-mix`, `sources/sahas-urja-benchmark-icra-2026`, `data/data-storage-comparison`, `data/data-layer-transmission-trace-gaps-qa`: neutralized data/source hierarchy-scan wording hits.
+- `sources/doed-licensing-directive-2075`: added verified DoED URL; corrected amendment-status wording.
+- `sources/himalayan-capital-analysis`: added Himalayan Capital *The Pulse* Shrawan 2081 PDF URL and metadata.
+- `sources/adb-hydropower-growth-nepal`: added verified ADB PDF URL.
+- `sources/wecs-energy-synopsis-2024`: verified local PDF is now a real 167-page PDF and updated local-copy status.
+- `sources/icimod-koshi-sediment-threats`: corrected ICIMOD record URL/date and added extracted sediment-load and soil-loss figures from the current ICIMOD PDF.
+- `sources/wb-household-electric-cooking-nepal-2025`: new source page for the 2025 household electric-cooking report.
+- `data/data-domestic-demand`: added the 2025 cooking source and clarified that 0.5% remains the 2021 baseline, corroborated only as sub-1% in the 2025 source.
+- `sources/uahel-upper-arun-project`: new source page for the official UAHEL Upper Arun project page.
+- `entities/upper-arun`: added official capacity, energy, peaking, evacuation, and schedule parameters; revised limitations.
+- `sources/nea-annual-report-fy2024-25`, `sources/nea-transmission-annual-book-2077`: updated exact `## Used By` backlinks after adding source links to `upper-arun`.
+- `claims/claim-domestic-led-strategy`, `claims/claim-ror-dominance`, `claims/claim-storage-physical-fix`, `claims/claim-floating-pv-leverage`: updated frontmatter dates only to satisfy claim-governance dependency freshness after source data pages were refreshed.
+- `concepts/storage-deficit`: added query-relevant explanatory heading/sentence so strict search keeps the storage-deficit concept in the hydro-seasonality cluster.
+- `wiki/index.md` and explorer shared indexes: regenerated to reflect 380 pages after adding two source pages.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean` with 200 warning baseline; `.venv/bin/python scripts/check_source_used_by.py` returned `OK: 57 source Used By sections match exact backlinks`; `git diff --check` passed; `make test` passed, including strict search benchmark 50/50.
+
+**Flags raised:**
+- None new. One item intentionally remains open: `wb-nepal-power-sector-reform-2022` source URL missing.
+
+**Decisions made:**
+- Did not attach related World Bank PSRSHD project documents to `wb-nepal-power-sector-reform-2022` because they are not verified as the exact roadmap source page.
+- Did not stage unrelated local explorer/runtime or validator changes unless final review shows they belong to this cleanup.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

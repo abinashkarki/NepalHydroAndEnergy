@@ -5,6 +5,8 @@ created: 2026-05-06
 updated: 2026-05-12
 source_type: market-analysis
 source_author: Himalayan Capital
+source_date: 2024-07-16
+source_url: https://himalayancapital.com/public/uploads/source/the_pulse-_shrawan_2081.pdf
 sources: []
 tags: [source, market-analysis, sahas-urja, financial]
 page_quality: analysis
@@ -14,9 +16,7 @@ page_quality: analysis
 
 ## Summary
 
-This page anchors secondary market-analysis references used in
-[[sahas-urja]] for investor-facing interpretation of the company's
-performance, valuation framing, and balance-sheet trajectory.
+This page anchors the Himalayan Capital *The Pulse* Shrawan 2081 scrip analysis of Sahas Urja Limited, used in [[sahas-urja]] for investor-facing interpretation of the company's performance, valuation framing, and balance-sheet trajectory.
 
 ## What It Is Used For
 
@@ -27,7 +27,7 @@ performance, valuation framing, and balance-sheet trajectory.
 
 ## Limitations
 
-- **Incomplete citation.** The exact article metadata and URL remain to be added, so this is a reviewed analysis-source anchor rather than a finished bibliography record.
+- **Monthly-market publication.** The Sahas Urja analysis is one section inside Himalayan Capital's broader *The Pulse* market report for Shrawan 2081, not a standalone company report.
 - **Market-analysis lens.** Himalayan Capital's analysis is investor-facing and may emphasize valuation, earnings, and balance-sheet interpretation over project-engineering detail.
 - **Secondary interpretation.** The page anchors market commentary used alongside ICRA/corporate disclosures; it is not a primary audited financial statement.
 - **Single-company scope.** The analysis applies to Sahas Urja and does not establish sector-wide IPP performance.

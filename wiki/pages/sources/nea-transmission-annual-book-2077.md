@@ -84,6 +84,7 @@ Local workspace copy:
 - [[solu-tingla-mirchaiya-132]]
 - [[tanahu-hydropower]]
 - [[trishuli]]
+- [[upper-arun]]
 - [[upper-tamakoshi]]
 - [[upper-trishuli-3a]]
 - [[uttarganga-storage]]

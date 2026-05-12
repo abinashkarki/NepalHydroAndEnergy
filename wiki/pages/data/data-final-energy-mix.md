@@ -2,7 +2,7 @@
 title: Nepal Final Energy Mix
 type: data
 created: 2026-04-23
-updated: 2026-04-24
+updated: 2026-05-12
 figure_type: chart-spec
 sources: [wecs-energy-synopsis-2024]
 tags: [energy-balance, final-energy, biomass, petroleum, coal, electricity, sectoral, nepal]
@@ -128,7 +128,7 @@ Hydro is **94.4%** of installed electricity capacity (see [[nepal-energy-profile
 
 This number collapses the "Nepal is a hydropower country" frame into something more honest: Nepal has a hydropower *electricity* system. Its total energy system is still a biomass-and-petroleum system with an electric overlay that is growing fast but starts from ~7%.
 
-The solar section should be read against this denominator. Today's solar fleet is too small to move final-energy shares by itself, but its marginal value is high because it lands in the binding season and can be built faster than large hydro. [[solar-in-the-master-narrative]] is therefore not a claim that solar dominates Nepal's energy balance; it is a claim that solar changes the next marginal investment decision.
+The solar section is best read against this denominator. Today's solar fleet is too small to move final-energy shares by itself, but its marginal value is high because it lands in the binding season and can be built faster than large hydro. [[solar-in-the-master-narrative]] frames this as a marginal-investment argument, not a claim that solar dominates Nepal's energy balance.
 
 ## Historical trajectory
 

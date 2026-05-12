@@ -2,7 +2,7 @@
 title: "Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success"
 type: source
 created: 2026-05-02
-updated: 2026-05-11
+updated: 2026-05-12
 tags: [source, financial, sahas-urja, solu-khola, icra-nepal, benchmark]
 images: []
 page_quality: analysis
@@ -15,7 +15,7 @@ page_quality: analysis
 
 ## Summary
 
-Sahas Urja Limited is the critical **positive benchmark** in Nepal's private IPP landscape. It demonstrates that profitability in a fixed-tariff environment is dictated by capital efficiency and operational optimization, not anomalous PPA rates.
+Sahas Urja Limited is the critical **positive benchmark** in Nepal's private IPP landscape. The compilation presents profitability in a fixed-tariff environment as a function of capital efficiency and operational optimization, not anomalous PPA rates.
 
 ## Corporate Details
 

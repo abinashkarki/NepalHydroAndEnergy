@@ -2,7 +2,7 @@
 title: Nepal Peak Load Curve FY 2024/25
 type: data
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-05-12
 figure_type: chart
 sources: [nea-annual-report-fy2024-25]
 tags: [load-curve, peak-demand, lddc, grid, nea]
@@ -47,7 +47,7 @@ underlying PDF is the [[nea-annual-report-fy2024-25]] source page.
 - Nepal's winter peak sits in the evenings, when hydro availability is lowest and
   imports from India are most expensive. The shape of the curve is what binds the
   [[seasonal-arbitrage-trap]] argument.
-- The daily shape on the FY peak day explains why [[main-load-dispatch-centre]]
+- The daily shape on the FY peak day shows why [[main-load-dispatch-centre]]
   sequencing of reservoir draw (Kulekhani) matters so much in the evening block.
 - Anyone reading the FY 2024/25 NEA numbers without the load curve can make the
   mistake of treating the 15,641 GWh annual energy balance as if it flows evenly.

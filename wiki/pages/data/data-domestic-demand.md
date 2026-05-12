@@ -4,7 +4,7 @@ type: data
 created: 2026-04-14
 updated: 2026-05-12
 figure_type: chart-spec
-sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
+sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025, wb-household-electric-cooking-nepal-2025]
 tags: [demand, consumption, residential, industrial, load-profile, nepal, sectoral]
 page_quality: analysis
 ---
@@ -21,14 +21,14 @@ Nepal sells roughly 11,000 GWh of electricity per year. Over 90% of customers ar
 
 ## Coverage / Method
 
-- **Data sources:** NEA Annual Report FY 2024/25, Distribution and Consumer Services Directorate (sectoral sales, consumer counts, provincial breakdowns); WECS Energy Sector Synopsis FY 2079/80 (per-capita consumption, agricultural energy cross-tab); World Bank Country Economic Memo 2025 (cooking electrification baseline).
+- **Data sources:** NEA Annual Report FY 2024/25, Distribution and Consumer Services Directorate (sectoral sales, consumer counts, provincial breakdowns); WECS Energy Sector Synopsis FY 2079/80 (per-capita consumption, agricultural energy cross-tab); World Bank Country Economic Memo 2025 and [[wb-household-electric-cooking-nepal-2025]] (cooking electrification baseline).
 - **Method:** Sectoral shares from NEA DCSD sales tables. FY 2020/21 vs FY 2024/25 comparison uses same source methodology across both years. Per-capita consumption calculated from total sales and population estimates.
-- **Known gaps:** NEA does not report agricultural electricity separately (falls under "Others"); electric cooking figure (0.5%) is from 2021 WB estimate, not annually updated; load profile is from monthly operational reports, not continuous metering.
+- **Known gaps:** NEA does not report agricultural electricity separately (falls under "Others"); electric cooking figure (0.5%) is from the 2021 baseline and is corroborated only as "less than one percent" in the 2025 cooking-economics source, not annually updated; load profile is from monthly operational reports, not continuous metering.
 
 ## Caveats
 
 - **Single-fiscal-year snapshot:** FY 2024/25 data; sectoral shares may shift as industrial load grows.
-- **Cooking statistic is old:** 0.5% electric cooking from 2021 WB estimate; no annual update series exists.
+- **Cooking statistic remains a baseline:** 0.5% electric cooking comes from the 2021 baseline. A 2025 World Bank-linked cooking-economics report still describes electric cooking as below one percent but does not provide a newer annual national share.
 - **"Others" category is heterogeneous:** Agricultural, street lighting, temporary, and water supply are combined; agriculture-only slice is estimated at 200–350 GWh.
 - **Per-capita figures are approximate:** Based on national population estimates, not metered consumer counts.
 
@@ -133,11 +133,11 @@ This evening peak pattern is what makes storage + solar the physical complement 
 
 ### Electric cooking: the largest untapped demand
 
-- Electric cooking used by **0.5% of households** (2021 WB estimate, up from 0.1% in 2011)
+- Electric cooking used by **0.5% of households** in the 2021 baseline; [[wb-household-electric-cooking-nepal-2025]] still describes adoption as below one percent rather than replacing the baseline with a newer annual share.
 - Biomass (firewood) and **imported LPG** dominate cooking energy
 - NEA's FY 2024/25 report explicitly flags government policy to "encourage the use of electricity for cooking, transportation, and industry to reduce reliance on fossil fuels"
 
-The strategic implication: if Nepal could shift even 20–30% of cooking to electricity, it would create ~50–75 PJ of new electric demand — roughly **doubling** current electricity consumption. That is bigger than any plausible export contract. See [[energy-substitution-pathway]] for the full substitution logic.
+As an order-of-magnitude data point, shifting 20–30% of cooking to electricity would create ~50–75 PJ of new electric demand. See [[energy-substitution-pathway]] for the substitution logic and [[twenty-year-strategy]] for the strategic interpretation.
 
 ### Residential electricity still dominated by lighting
 

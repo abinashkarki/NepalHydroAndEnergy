@@ -166,6 +166,10 @@
         "title": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)"
       },
       {
+        "slug": "uahel-upper-arun-project",
+        "title": "UAHEL Upper Arun Hydroelectric Project Page"
+      },
+      {
         "slug": "ukhl-annual-report",
         "title": "UKHLL Annual Reports \u2014 Upper Tamakoshi Hydropower Limited"
       },
@@ -196,6 +200,10 @@
       {
         "slug": "wb-grid-solar-ee-project",
         "title": "World Bank Grid Solar and Energy Efficiency Project"
+      },
+      {
+        "slug": "wb-household-electric-cooking-nepal-2025",
+        "title": "World Bank / CCAC Economics of Household Cooking Using Electricity in Nepal"
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
@@ -1569,6 +1577,7 @@
     "sangroula-ntnu-kulekhani-bathymetry",
     "sector-financial-analysis-triple-authority-2026",
     "tanahu-adb-status-2025",
+    "uahel-upper-arun-project",
     "ukhl-annual-report",
     "ukhl-financials-generation-fy2079-82",
     "upper-karnali-pda-record",
@@ -1577,6 +1586,7 @@
     "wb-esmap-solar-resource-assessment",
     "wb-ganges-strategic-basin-assessment",
     "wb-grid-solar-ee-project",
+    "wb-household-electric-cooking-nepal-2025",
     "wb-nepal-power-sector-reform-2022",
     "wb-water-sector-diagnostic",
     "wecs-dhm-1990-methodology",
@@ -1949,6 +1959,7 @@
     "sangroula-ntnu-kulekhani-bathymetry": "sources",
     "sector-financial-analysis-triple-authority-2026": "sources",
     "tanahu-adb-status-2025": "sources",
+    "uahel-upper-arun-project": "sources",
     "ukhl-annual-report": "sources",
     "ukhl-financials-generation-fy2079-82": "sources",
     "upper-karnali-pda-record": "sources",
@@ -1957,6 +1968,7 @@
     "wb-esmap-solar-resource-assessment": "sources",
     "wb-ganges-strategic-basin-assessment": "sources",
     "wb-grid-solar-ee-project": "sources",
+    "wb-household-electric-cooking-nepal-2025": "sources",
     "wb-nepal-power-sector-reform-2022": "sources",
     "wb-water-sector-diagnostic": "sources",
     "wecs-dhm-1990-methodology": "sources",
@@ -2329,6 +2341,7 @@
     "sangroula-ntnu-kulekhani-bathymetry": "Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies",
     "sector-financial-analysis-triple-authority-2026": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132025)",
+    "uahel-upper-arun-project": "UAHEL Upper Arun Hydroelectric Project Page",
     "ukhl-annual-report": "UKHLL Annual Reports \u2014 Upper Tamakoshi Hydropower Limited",
     "ukhl-financials-generation-fy2079-82": "UKHLL Financials and Generation Data \u2014 FY 2079/80 to FY 2081/82",
     "upper-karnali-pda-record": "Upper Karnali \u2014 PDA, Financial Closure & Court Record",
@@ -2337,6 +2350,7 @@
     "wb-esmap-solar-resource-assessment": "World Bank ESMAP Nepal Solar and Wind Resource Measurement",
     "wb-ganges-strategic-basin-assessment": "World Bank Ganges Strategic Basin Assessment",
     "wb-grid-solar-ee-project": "World Bank Grid Solar and Energy Efficiency Project",
+    "wb-household-electric-cooking-nepal-2025": "World Bank / CCAC Economics of Household Cooking Using Electricity in Nepal",
     "wb-nepal-power-sector-reform-2022": "World Bank Nepal Power Sector Reform Roadmap (2022)",
     "wb-water-sector-diagnostic": "World Bank Nepal Water Sector Diagnostic",
     "wecs-dhm-1990-methodology": "WECS/DHM Methodology \u2014 Hydrological Estimation for Ungauged Locations (1990)",
@@ -2667,5 +2681,5 @@
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 378
+  "totalPages": 380
 }

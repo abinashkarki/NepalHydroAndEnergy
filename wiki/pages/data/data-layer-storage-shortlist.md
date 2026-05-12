@@ -23,7 +23,7 @@ Storage and storage-like projects highlighted for dry-season energy value, not j
 
 ## What It Represents
 
-This layer isolates projects that matter for seasonal balancing. Nepal's core hydro problem is not annual water volume alone; it is the mismatch between wet-season abundance and dry-season scarcity. Storage and storage-like projects are therefore treated differently from ordinary run-of-river MW.
+This layer isolates projects that matter for seasonal balancing. Nepal's core hydro problem is not annual water volume alone; it is the mismatch between wet-season abundance and dry-season scarcity. Storage and storage-like projects are treated differently from ordinary run-of-river MW because they can affect dry-season firmness.
 
 The shortlist combines three evidence types:
 
@@ -78,7 +78,7 @@ The layer is built from the storage shortlist annotations and the related dry-en
 
 Storage labels do not settle design, resettlement, environmental, financing, treaty, or procurement questions. Some projects are storage-like or proposed rather than confirmed deliverable storage assets.
 
-Several records are planning candidates from the JICA/NEA storage master-plan material rather than committed projects. Dry-energy values are therefore analytical anchors, not delivery forecasts. Location precision also varies: some markers use project or operating-plant points, while others use river anchors because the public source is stronger on project concept than on map geometry.
+Several records are planning candidates from the JICA/NEA storage master-plan material rather than committed projects. Dry-energy values are analytical anchors, not delivery forecasts. Location precision also varies: some markers use project or operating-plant points, while others use river anchors because the public source is stronger on project concept than on map geometry.
 
 The shortlist has 11 map features, while [[data-storage-comparison]] also discusses Chera-1 in the broader 12-project table. Chera-1 is retained in the tabular research workspace but is not currently exposed as a map marker in this layer.
 

@@ -90,6 +90,7 @@ Primary source for current installed capacity, fleet composition, generation spl
 - [[trishuli]]
 - [[trishuli-cascade]]
 - [[trishuli-galchhi]]
+- [[upper-arun]]
 - [[upper-bhotekoshi]]
 - [[upper-marsyangdi-a]]
 - [[upper-tamakoshi]]

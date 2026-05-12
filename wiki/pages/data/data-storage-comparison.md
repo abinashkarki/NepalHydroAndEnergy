@@ -2,7 +2,7 @@
 title: Storage Capacity Comparison
 type: data
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-12
 figure_type: chart-spec
 sources: [wb-water-sector-diagnostic, wb-ganges-strategic-basin-assessment]
 tags: [storage, dams, per-capita, international-comparison]
@@ -59,7 +59,7 @@ Nepal has **1/36th** of India's per-capita storage, which is itself well below g
 - Seasonal storage requirement: **29.86 km³** ([[wb-water-sector-diagnostic]])
 - Current storage: ~0.085–0.15 km³
 - Gap: **~200x shortfall**
-- JICA estimate: Nepal needs **1,993–3,154 MW** of storage hydropower by 2032
+- JICA estimate: **1,993–3,154 MW** of storage hydropower by 2032
 
 ## Dry-Energy Shortlist From The Merged Research Workspace
 
@@ -84,7 +84,7 @@ Same dam height, **180x less storage**. Nepal's topography simultaneously enable
 
 ## Off-River Pumped Hydro: The Bypass Route
 
-A 2021 Oxford University study (Blakers et al., *Clean Energy*) identified **~2,800 off-river pumped hydro energy storage sites** in Nepal with combined storage capacity of **~50 TWh**. To balance a 100% renewable Nepal at advanced-economy consumption levels (~500 TWh/yr), only **~1.5 TWh** of storage is needed. Nepal has **17x more pumped-hydro potential than it would ever need** — entirely off-river, avoiding the valley-shape paradox.
+A 2021 Oxford University study (Blakers et al., *Clean Energy*) identified **~2,800 off-river pumped hydro energy storage sites** in Nepal with combined storage capacity of **~50 TWh**. In the comparison used here, balancing a 100% renewable Nepal at advanced-economy consumption levels (~500 TWh/yr) uses **~1.5 TWh** as the storage scale. The cited off-river pumped-hydro potential is roughly **17x** that modeled balancing requirement — entirely off-river, avoiding the valley-shape paradox.
 
 This reframes the storage deficit observationally: Nepal has significant off-river pumped-hydro potential (~50 TWh) but very little executed seasonal storage infrastructure. The gap between potential and execution is documented in [[master-thesis]] and [[bottleneck-hierarchy]] as a systems-conversion failure, not a geological absence. See also [[data-mountain-hydro-comparison]].
 

@@ -2,7 +2,7 @@
 title: Internal Data: Transmission Trace Gaps
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -23,7 +23,7 @@ This dataset is the pipeline's honesty layer for transmission tracing. It record
 
 ## How To Read It
 
-Use it when validating the grid layers or deciding where source recovery should improve next. It explains why a corridor may appear disconnected or why a connected-network layer includes inferred segments.
+Use it when validating the grid layers or reviewing where source recovery remains incomplete. It records why a corridor may appear disconnected or why a connected-network layer includes inferred segments.
 
 ## Caveats
 
