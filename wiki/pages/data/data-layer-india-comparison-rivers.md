@@ -2,7 +2,7 @@
 title: Layer: India Comparison Rivers
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -17,6 +17,10 @@ page_quality: analysis
 
 Reference rivers outside Nepal-origin control, included so the map does not overstate Nepal's share of northern India hydrology.
 
+## Summary
+
+This layer shows selected Indian reference rivers outside Nepal-origin control. It gives the explorer hydrological context for distinguishing Nepal-linked downstream routes from the wider northern Indian river network.
+
 ## What It Represents
 
 This reference layer shows Indian rivers that help calibrate the Nepal-origin network. It adds visible context for nearby systems that are hydrologically important but not controlled by Nepal-origin basins.
@@ -24,6 +28,10 @@ This reference layer shows Indian rivers that help calibrate the Nepal-origin ne
 ## How To Read It
 
 Use it when telling the difference between a Nepal-linked downstream path and the wider northern Indian river network. It is also useful for explaining why downstream influence is real but bounded.
+
+## Coverage / Method
+
+The layer covers 11 reference river features listed in [[data-map-inventory]]. It is intentionally selective and is used for explorer context rather than as an authoritative Indian river inventory.
 
 ## Caveats
 

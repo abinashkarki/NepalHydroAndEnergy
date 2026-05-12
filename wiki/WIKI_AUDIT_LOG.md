@@ -1162,6 +1162,41 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-13 — Data Pages Batch 3
+
+**Agent:** Codex
+**Session type:** Data-page structural cleanup — 10 pages
+**Pages touched:**
+- `data/data-layer-carto-positron`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-cross-border-interconnection-lines`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-cross-border-interconnections`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-downstream-impact-markers`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-downstream-population-anchors`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-floating-pv-candidates`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-future-regulation-scenario`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-grid-hubs-place-anchors`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-india-comparison-basins`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-india-comparison-rivers`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `claims/claim-floating-pv-leverage`: updated frontmatter date only because the governed claim depends on refreshed `data-layer-floating-pv-candidates`.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean`.
+- **Before:** 200 total warnings.
+- **After:** 180 total warnings.
+- **Delta:** -20 warnings, all data-page section warnings.
+- `git diff --check`: clean.
+- data/source hierarchy phrase scan: no hits.
+- `make test`: passed, including source Used By integrity and strict search benchmark 50/50.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Limited batch to 10 data pages.
+- Did not touch sources, entities, concepts, explorer runtime, map data, or generated indexes.
+- Updated one claim date only to clear the direct claim-governance freshness warning caused by the data-page date refresh.
+
+---
+
 ## 2026-05-12 — Flagged Review Cleanup
 
 **Agent:** Codex

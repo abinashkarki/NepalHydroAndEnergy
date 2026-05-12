@@ -2,7 +2,7 @@
 title: Layer: Downstream Population Anchors
 type: data
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, geopolitics, population, cities]
@@ -16,6 +16,10 @@ page_quality: analysis
 **Feature count:** 10
 
 City and delta anchors that locate the population geography along Nepal-linked downstream routes.
+
+## Summary
+
+This layer contains city and delta anchors used to orient readers along Nepal-linked downstream river routes. The points are context markers for population geography, floodplain exposure, and route legibility rather than a city database.
 
 ## What It Represents
 
@@ -34,6 +38,10 @@ Use the points to locate the human geography around the river system:
 | `population_class` | Qualitative city/metro/delta class. |
 | `dependency_note` | Plain-language reason the point is included. |
 | `floodplain_context` | Caveat against over-attribution. |
+
+## Coverage / Method
+
+The layer covers 10 anchor features along Nepal-linked downstream routes. It is generated as `downstream_population_anchors.geojson` and documented with `downstream_dependency_layers_report.json`; the fields emphasize nearby river systems, related origin routes, qualitative population class, and floodplain context.
 
 ## Caveats
 

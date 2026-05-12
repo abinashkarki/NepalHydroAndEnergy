@@ -2,7 +2,7 @@
 title: Layer: Future Regulation Scenario
 type: data
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory, data-storage-comparison]
 tags: [maps, geojson, layers, explorer, legend, geopolitics, storage]
@@ -16,6 +16,10 @@ page_quality: analysis
 **Feature count:** 11
 
 Storage-first scenario markers showing which projects could alter river timing, dry-season support, downstream sensitivity, and cooperation risk.
+
+## Summary
+
+This layer is a scenario view of storage or storage-like projects that could affect river timing, dry-season support, downstream sensitivity, and cooperation context. It translates the storage shortlist into map fields for the geopolitics preset.
 
 ## What It Represents
 
@@ -43,6 +47,10 @@ Use this layer with Nepal-origin downstream systems, basin polygons, downstream 
 | Cooperation needed (`cooperation_potential`) | Identifies where regulation could create cooperative surplus rather than only unilateral leverage. |
 
 The deterministic regulation classes are based on dry-season energy, total storage, and effective storage where available. They are scenario labels, not hydrodynamic model results.
+
+## Coverage / Method
+
+The layer covers 11 scenario marker features derived from [[data-layer-storage-shortlist]], `storage_shortlist_annotations.geojson`, and `nepal_storage_dry_energy_shortlist.csv`. Scenario fields classify timing, regulation potential, downstream river system, downstream sensitivity, and cooperation context from available storage, dry-energy, and status fields.
 
 ## Caveats
 
