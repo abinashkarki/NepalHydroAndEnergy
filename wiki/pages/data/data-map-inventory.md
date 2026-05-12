@@ -2,7 +2,7 @@
 title: Map Inventory
 type: data
 created: 2026-04-15
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-spec
 sources: [wecs-river-basin-plan-2024, nea-annual-report-fy2024-25]
 tags: [maps, geojson, layers, inventory, multimodal]
@@ -11,9 +11,17 @@ page_quality: analysis
 
 # Map Inventory
 
+## Summary
+
+This data page catalogs the wiki's merged interactive map stack: HTML map outputs, preview images, GeoJSON layers, feature counts, source context, and known layer gaps.
+
 Catalog of the merged map stack imported from the code workspace. This page is the bridge between the wiki's analytical pages and the interactive / geospatial asset layer.
 
 For the reader-facing legend and layer-control wording, see [[data-map-layer-labels]].
+
+## Coverage / Method
+
+The inventory is compiled from checked-in map assets, processed GeoJSON outputs, and the explorer layer stack. It records layer purpose, file paths, feature counts where available, and notes on which layers are evidence-grade outputs versus basemaps, labels, previews, or context sketches.
 
 ## Interactive Maps
 
@@ -63,7 +71,7 @@ For the reader-facing legend and layer-control wording, see [[data-map-layer-lab
   - **Gandaki-Narayani-Gandak:** ~42,541 km², ~75.5% Nepal area share, **74%** monsoon share.
   - **Karnali-Ghaghara:** ~22,732 km², ~86.1% Nepal area share, **72%** monsoon share.
 
-## Known Gaps
+## Caveats
 
 - Exact OSM linework was **not** recovered for **West Seti River**, **Chameliya River**, and **West Rapti River**; they are flagged in the fetch report rather than invented.
 - Some transmission corridors remain corridor-grade rather than tower-by-tower alignments; the public network exposes status, confidence, and source provenance instead of hiding that uncertainty.

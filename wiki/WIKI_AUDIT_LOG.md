@@ -1126,6 +1126,42 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-12 — Data Cleanup Pass 2
+
+**Agent:** Codex
+**Session type:** Data pages pass — 10 pages + scoped hierarchy wording fixes
+**Pages touched:**
+- `data/data-map-inventory`: +`## Summary`; +`## Coverage / Method`; renamed `## Known Gaps` to `## Caveats`; updated frontmatter date.
+- `data/data-map-layer-labels`: +`## Summary`; +`## Coverage / Method`; +`## Caveats`; updated frontmatter date.
+- `data/data-mountain-hydro-comparison`: +`## Summary`; +`## Coverage / Method`; +`## Caveats`; neutralized "Nepal needs" wording; updated frontmatter date.
+- `data/data-nea-substation-capacity-fy2076-77`: +`## Summary`; +`## Coverage / Method`; +`## Caveats`; updated frontmatter date.
+- `data/data-nea-transmission-length-fy2076-77`: +`## Summary`; +`## Coverage / Method`; +`## Caveats`; neutralized "explains why" wording; updated frontmatter date.
+- `data/data-nepal-solar-resource-zones`: +`## Summary`; +`## Coverage / Method`; +`## Caveats`; neutralized solar-targeting wording; updated frontmatter date.
+- `data/data-pipeline-readme`: +`## Summary`; +`## Coverage / Method`; +`## Caveats`; updated frontmatter date.
+- `data/data-rooftop-shs-deployment`: +`## Summary`; +`## Coverage / Method`; +`## Caveats`; neutralized next-step ingestion wording; updated frontmatter date.
+- `data/data-winter-deficit-model`: +`## Summary`; +`## Coverage / Method`; renamed `## Known limitations` to `## Caveats`; updated frontmatter date.
+- `data/data-layer-basin-seasonality`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-domestic-demand`: neutralized `[!finding]` wording flagged by the audit handoff; updated frontmatter date.
+- `data/data-trade-time-series`: neutralized `[!finding]` wording flagged by the audit handoff; updated frontmatter date.
+- `claims/claim-timing-not-volume`: updated frontmatter date only because the governed claim depends on refreshed `data-trade-time-series` metrics.
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before:** 229 total warnings (data: 79; sources: 0; concepts: 0; entities: 150)
+- **After:** 200 total warnings (data: 50; sources: 0; concepts: 0; entities: 150)
+- **Delta:** -29 warnings, all data-page section warnings.
+- `git diff --check`: clean.
+- `make test`: passed before audit-log entry; rerun after final audit-log entry before commit.
+
+**Flags raised:**
+- Added `FLAGGED_FOR_REVIEW.md` item for remaining broader data/source hierarchy-scan hits outside this batch.
+
+**Decisions made:**
+- Ignored user-owned dirty explorer files (`wiki/explorer/index.html`, `wiki/explorer/shared/leaflet-init.js`) and staged only governance/data/claim files from this cleanup.
+- No `Used By` sections touched.
+- Did not add automated hierarchy-scan enforcement yet because the broader repository still has unresolved candidate hits that need review before a hard gate is fair.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

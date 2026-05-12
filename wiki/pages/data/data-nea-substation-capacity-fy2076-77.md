@@ -2,7 +2,7 @@
 title: NEA Substation Capacity FY 2076/77
 type: data
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-12
 figure_type: table
 sources: [nea-transmission-annual-book-2077]
 tags: [substations, transformer-capacity, nea, appendix, grid]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # NEA Substation Capacity FY 2076/77
+
+## Summary
+
+This data page records NEA's FY 2076/77 high-voltage transformer capacity and named under-construction substation queue from the Transmission Directorate annual-book appendix.
 
 The annual book's appendix gives a rare structured view of both the installed
 high-voltage transformer base and the next wave of substation expansion under
@@ -97,9 +101,16 @@ as generation was accelerating.
   [[tingla-132-33kv-substation]], [[dhungesangu-basantapur-220-132kv]], and
   [[modi-lekhnath-132kv]].
 
+## Coverage / Method
+
+The installed-capacity table and under-construction queue are drawn from the NEA Transmission Directorate annual-book appendix for FY 2076/77. The page preserves voltage ratios, transformer counts, MVA capacity, year-over-year increment where reported, project/substation names, and expected completion years from that source.
+
+## Caveats
+
+The annual-book appendix is a historical snapshot and should not be read as current substation capacity. Under-construction entries are pipeline records from the source year, not confirmation that every substation was commissioned on the expected schedule or at the listed capacity.
+
 ## Related
 
 - [[hetauda-dhalkebar-inaruwa-backbone]]
 - [[hetauda-bharatpur-bardaghat-corridor]]
 - [[nepal-transmission-landscape-2025]]
-

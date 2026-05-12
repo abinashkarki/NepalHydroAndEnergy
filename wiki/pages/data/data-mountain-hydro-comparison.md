@@ -2,7 +2,7 @@
 title: Mountain Hydro System Comparison
 type: data
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-05-12
 figure_type: table
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, wb-water-sector-diagnostic]
 tags: [comparison, norway, bhutan, laos, nepal, storage, per-capita, benchmark]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Mountain Hydro System Comparison
+
+## Summary
+
+This data page benchmarks Nepal's hydropower system against mountain and hydro-dominant peers, comparing installed capacity, renewable power per capita, hydropower potential, storage, grid structure, market design, and institutional context.
 
 Nepal's hydropower system benchmarked against relevant mountain/hydro-dominant peers. The comparison exposes what separates "having rivers" from "having a functional hydro economy."
 
@@ -74,7 +78,15 @@ Laos has expanded aggressively (9,760 MW installed) through Chinese and Thai inv
 
 ## Off-River Pumped Hydro Opportunity
 
-A 2021 Oxford study identified **~2,800 off-river pumped hydro sites** in Nepal with combined storage capacity of **~50 TWh**. Nepal needs only **~1.5 TWh** of storage to balance a 100% renewable system at advanced-economy consumption levels. This means Nepal has **17x more pumped-hydro potential than it will ever need** — an option that bypasses the valley-shape paradox of on-river reservoir storage (see [[data-storage-comparison]]).
+A 2021 Oxford study identified **~2,800 off-river pumped hydro sites** in Nepal with combined storage capacity of **~50 TWh**. The same comparison uses **~1.5 TWh** as the storage scale for balancing a 100% renewable system at advanced-economy consumption levels. That makes the cited off-river pumped-hydro potential roughly **17x** the modeled balancing requirement — an option that bypasses the valley-shape paradox of on-river reservoir storage (see [[data-storage-comparison]]).
+
+## Coverage / Method
+
+The comparison assembles peer-country hydro, storage, and renewable-power-per-capita figures from the cited source pages and related benchmark material. Nepal's installed-capacity row is aligned with [[data-fleet-composition]] using the NEA FY 2024/25 hydro-only installed figure, while peer rows provide context for scale, storage, market structure, and institutional maturity.
+
+## Caveats
+
+The rows combine countries with different reporting years, market designs, geologies, and ownership structures, so the table is a benchmark rather than a like-for-like project pipeline model. Potential figures, installed capacity, and per-capita indicators should be read as scale comparisons, not as direct evidence that one country's hydro model can be copied by another.
 
 ## Chart Specification
 

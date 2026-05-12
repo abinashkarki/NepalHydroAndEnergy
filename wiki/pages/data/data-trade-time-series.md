@@ -2,7 +2,7 @@
 title: Electricity Trade Time Series
 type: data
 created: 2026-04-14
-updated: 2026-05-10
+updated: 2026-05-12
 figure_type: chart-spec
 sources: [wb-country-economic-memo-2025, nea-annual-report-fy2024-25]
 tags: [trade, import, export, india, pricing]
@@ -96,7 +96,7 @@ Source: India Central Electricity Authority / IEX market monitoring report. Trad
 | 2023-24 | 4.43 | 5.61 | **+1.18** | **Spread flips positive** |
 
 > [!finding] The spread flipped in 2023-24
-> For the first time, Nepal sold electricity on the IEX at a *higher* weighted average price than it bought. This is progress — but see the caveat below.
+> For the first time, Nepal sold electricity on the IEX at a *higher* weighted average price than it bought. This is a positive exchange-channel spread, but see the caveat below.
 
 **Caveat: whole-system average still negative in FY 2023/24.** Even with a positive IEX spread, Nepal's system-wide average for FY 2023/24 was: **sold at Rs 8.72/unit, purchased at Rs 9.17/unit** — a negative spread of ~Rs 0.45/unit across the full portfolio. This gap reveals that non-IEX procurement (winter peak imports outside the exchange, bilateral arrangements, constrained hours) drives overall costs above what the market data alone would suggest. Nepal is improving its exchange-linked value capture, but the broader portfolio problem persists.
 

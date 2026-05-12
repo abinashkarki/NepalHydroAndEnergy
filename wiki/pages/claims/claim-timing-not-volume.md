@@ -2,7 +2,7 @@
 title: Nepal's Core Hydro Problem Is Timing, Not Annual Volume
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-12
 claim_id: C-001
 confidence: high
 status: stable

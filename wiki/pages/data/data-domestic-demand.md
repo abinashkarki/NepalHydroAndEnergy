@@ -2,7 +2,7 @@
 title: Domestic Electricity Demand Distribution
 type: data
 created: 2026-04-14
-updated: 2026-04-30
+updated: 2026-05-12
 figure_type: chart-spec
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [demand, consumption, residential, industrial, load-profile, nepal, sectoral]
@@ -47,7 +47,7 @@ Total electricity sales: **11,288 GWh** (including internal consumption). Total 
 | Others (streetlight, irrigation, temp, etc.) | 6.21% | 10.48% | 8.62% | ~1,183 |
 
 > [!finding] Industry is 1.23% of customers, 36.64% of consumption
-> The revenue and sales shares are nearly identical (36.64% vs 36.52%), indicating industrial customers face average tariffs close to the system average (~NRs 9.44/kWh). Combined, commercial + industrial = 44.43% of sales from only 1.99% of customers. This concentration makes industrial load the highest-leverage demand lever: winning or losing a few large industrial users has an outsized system effect. See [[data-industrial-electricity-consumers]] for the sub-sector breakdown.
+> The revenue and sales shares are nearly identical (36.64% vs 36.52%), indicating industrial customers face average tariffs close to the system average (~NRs 9.44/kWh). Combined, commercial + industrial = 44.43% of sales from only 1.99% of customers. This concentration means changes among a small number of large industrial users can have an outsized effect on system sales. See [[data-industrial-electricity-consumers]] for the sub-sector breakdown.
 
 ## Sectoral Shift — FY 2020/21 vs FY 2024/25
 

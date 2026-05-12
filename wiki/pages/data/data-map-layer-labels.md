@@ -2,7 +2,7 @@
 title: Map Layer Labels
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-spec
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -11,9 +11,21 @@ page_quality: analysis
 
 # Map Layer Labels
 
+## Summary
+
+This data page indexes the explorer layer-control labels, feature counts, short meanings, and wiki pages that provide deeper context for each basemap, evidence layer, and text-label overlay.
+
 This page is the index for the explorer layer-control labels. Each row below links to an individual wiki page with deeper context, interpretation notes, caveats, and related pages. The hover popups in the map use the same labels and open these pages directly.
 
 The layer stack mixes three kinds of controls: basemaps, evidence layers, and text-label overlays. Evidence layers are usually GeoJSON-backed. Basemaps and text labels change how the map reads, but they are still listed here because they shape interpretation.
+
+## Coverage / Method
+
+The label index is derived from the explorer layer stack and map inventory. It groups controls by map role, records the displayed label and feature count used in the layer control, and links each entry to a dedicated wiki page where available.
+
+## Caveats
+
+Feature counts are display counts after layer filtering or manifest handling, not independent source-record totals. Basemaps and text-label overlays are included because they affect map reading, even when they are not GeoJSON evidence layers.
 
 ## Basemaps
 

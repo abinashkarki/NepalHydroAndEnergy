@@ -2,7 +2,7 @@
 title: NEA Transmission Length FY 2076/77
 type: data
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-12
 figure_type: table
 sources: [nea-transmission-annual-book-2077]
 tags: [transmission, line-length, 132kv, 220kv, 400kv, nea]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # NEA Transmission Length FY 2076/77
+
+## Summary
+
+This data page records NEA's FY 2076/77 transmission-line length by voltage class, preserving a pre-build-out snapshot of the legacy 66/132/220 kV system and the first operational 400 kV segment.
 
 NEA's FY 2076/77 transmission-length table captures the grid just before the
 full 400 kV build-out visible in later years. It is the cleanest single-book
@@ -33,7 +37,7 @@ segment.
 
 ## Why It Matters
 
-- The 132 kV system still dominated the physical grid, which explains why
+- The 132 kV system still dominated the physical grid, which is one reason
   evacuation bottlenecks remained structurally a 132/220 kV problem even after
   the first 400 kV assets appeared.
 - The `78` circuit-km at 400 kV is the early backbone era rather than a mature
@@ -45,9 +49,16 @@ segment.
   [[nepal-transmission-landscape-2025]] compilation are so central to the
   stranded-generation story.
 
+## Coverage / Method
+
+The table is transcribed from the NEA Transmission Directorate line-length comparison table in the FY 2076/77 transmission annual book. It covers reported circuit-kilometres by voltage level for 66 kV, 132 kV, 220 kV, and 400 kV transmission lines in that fiscal-year snapshot.
+
+## Caveats
+
+The source is a historical annual-book snapshot and does not represent later 400 kV build-out, project commissioning, or route-level corridor status. Circuit-kilometres measure line length by voltage class, not available transfer capacity, congestion, redundancy, or substation readiness.
+
 ## Related
 
 - [[hetauda-dhalkebar-inaruwa-backbone]]
 - [[khimti-dhalkebar-corridor]]
 - [[nepal-transmission-landscape-2025]]
-

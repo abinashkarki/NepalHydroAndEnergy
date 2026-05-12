@@ -6,6 +6,17 @@ Review this file monthly. Resolve items by editing the wiki, merging pages, or u
 
 ## Open Items
 
+- **[2026-05-12]** Hierarchy scan: remaining prohibited-term hits in data/source pages
+  - Manual scan after the second data batch still finds candidate hierarchy-review hits outside the active batch:
+    - `data/data-nepal-peak-load-curve-fy2024-25`: "explains why"
+    - `data/data-layer-storage-shortlist`: two uses of "therefore"
+    - `data/data-final-energy-mix`: "should" / "therefore" in solar interpretation paragraph
+    - `sources/sahas-urja-benchmark-icra-2026`: "demonstrates that" in source summary
+    - `data/data-storage-comparison`: "Nepal needs"
+    - `data/data-layer-transmission-trace-gaps-qa`: "should improve next" and "explains why"
+  - Proposed action: Review each hit for whether it is a true hierarchy violation or acceptable bounded wording; neutralize simple wording drift before adding this scan as an automated validator/test gate.
+  - Flagged by: Codex — data cleanup batch 2 QA scan
+
 - **[2026-05-12]** Data hygiene: `doed-licensing-directive-2075` missing source URL
   - No verified public URL is present in frontmatter for the DoED Licensing Directive 2075 source page
   - Proposed action: Locate the DoED directive PDF or official page and add `source_url`

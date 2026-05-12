@@ -2,7 +2,7 @@
 title: Data Pipeline Readme
 type: data
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-12
 figure_type: table
 sources: [nea-annual-report-fy2024-25]
 tags: [scripts, pipeline, regeneration, data, maps]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Data Pipeline Readme
+
+## Summary
+
+This data page documents the copied data-build scripts, the processed products they generate, what dependencies are present in the merged workspace, and which regeneration paths still require fuller raw inputs.
 
 Reference page for the copied scripts and the data products they generate. The scripts now live in the merged workspace under `scripts/`, but not all raw dependencies were copied over.
 
@@ -28,6 +32,14 @@ Reference page for the copied scripts and the data products they generate. The s
 - Static figures under `figures/`
 - Interactive HTML maps and preview PNGs under `wiki/assets/maps/`
 - The copied scripts themselves under `scripts/`
+
+## Coverage / Method
+
+The inventory is based on the scripts checked into `scripts/`, the processed outputs under `data/processed/`, the figure directory, and the copied map assets under `wiki/assets/maps/`. It distinguishes scripts that are close to runnable from scripts that still depend on raw source libraries or fuller geospatial inputs not present in this workspace.
+
+## Caveats
+
+This page is a regeneration guide for the merged workspace, not a guarantee that every pipeline can be fully rerun from checked-in files alone.
 
 ## What Is Not Fully Present
 

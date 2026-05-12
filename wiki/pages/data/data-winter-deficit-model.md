@@ -2,13 +2,17 @@
 title: Winter Deficit Model
 type: data
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-12
 sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024]
 tags: [winter-deficit, energy-balance, diurnal, evening-peak, dispatch, solar, storage, bess, budhigandaki, model]
 page_quality: analysis
 ---
 
 # Winter Deficit Model
+
+## Summary
+
+This data page documents a two-phase winter deficit model that estimates Nepal's Dec-Feb monthly energy balance and the 18:30 winter evening peak dispatch gap under parameterised 2025, 2030, and 2035 scenarios.
 
 A two-phase reproducible model quantifying Nepal's winter electricity gap at both monthly energy (GWh) and sub-daily capacity (MW) resolution. Phase 1 (`scripts/build_winter_deficit_model.py`) models Dec–Feb monthly energy balances under parameterised 2030/2035 scenarios. Phase 2 (`scripts/build_diurnal_peak_model.py`) models the evening peak hour (18:30) dispatch to answer whether the portfolio that closes the energy gap also delivers evening firm capacity — the 6pm–10pm winter window where solar is zero.
 
@@ -61,9 +65,13 @@ Scenario names are inherited from Phase 1 energy-balance design. Note that `2035
 | 2035_no_budhigandaki | 5,000 | Tanahu + Dudhkoshi (810 MW) | Yes (2 GWh) | Yes (400 GWh Dec–Feb) | No |
 | 2035_with_budhigandaki | 5,000 | Tanahu + Dudhkoshi + Budhi (2,010 MW) | Yes (2 GWh) | Yes (400 GWh Dec–Feb) | Yes (1,200 MW) |
 
-The counterintuitive result — `2035_solar_only` has a worse evening peak (2,436 MW residual) than `2035_no_solar` (1,833 MW) — is correct given these definitions. Both have zero solar at 18:30. The difference is 670 MW of Dudhkoshi reservoir dispatch, excluded from `2035_solar_only` by the Phase 1 design. The 603 MW residual gap between them (2,436 − 1,833) equals Dudhkoshi's dispatch contribution (670 × 0.9 = 603 MW).
+The counterintuitive result — `2035_solar_only` has a worse evening peak (2,436 MW residual) than `2035_no_solar` (1,833 MW) — follows from these definitions. Both have zero solar at 18:30. The difference is 670 MW of Dudhkoshi reservoir dispatch, excluded from `2035_solar_only` by the Phase 1 design. The 603 MW residual gap between them (2,436 − 1,833) equals Dudhkoshi's dispatch contribution (670 × 0.9 = 603 MW).
 
-## Known limitations
+## Coverage / Method
+
+Phase 1 reads NEA FY 2024/25 monthly energy data, applies scenario assumptions for solar deployment, storage hydro additions, demand growth, BESS, and demand shaping, and outputs Dec-Feb balances. Phase 2 uses the February weekday diurnal profile from [[data-solar-hydro-complementarity-profile]] and the scenario definitions to estimate 18:30 dispatch capacity by resource class.
+
+## Caveats
 
 - **Import overcount:** Phase 1 overcounts annual imports by ~282 GWh/year because it does not model shoulder-month simultaneous import/export or NEA curtailment. Winter Dec–Feb figures (Poush-Magh) are more reliable than annual totals. Source: `data/processed/tables/winter_deficit_model/model_parameters.csv` import_accounting_note.
 - **BESS sizing:** Phase 1 models BESS as a placeholder ~1 GWh Dec–Feb seasonal contribution (2 GWh distributed evenly across four winter months). Phase 2 diurnal model uses the full 500 MW / 2 GWh BESS power rating for evening dispatch, which is more realistic for the 4-hour evening window. The Phase 1 seasonal GWh understates BESS energy contribution; Phase 2 MW capacity is the correct metric for evening firm capacity analysis.

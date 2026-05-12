@@ -2,7 +2,7 @@
 title: Nepal Solar Resource Zones
 type: data
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-12
 figure_type: map-spec
 sources: [wb-esmap-solar-resource-assessment, global-solar-atlas-nepal, aepc-renewable-framework]
 tags: [solar, GHI, DNI, resource, zones, district, elevation, map-spec]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Nepal Solar Resource Zones
+
+## Summary
+
+This data page summarizes Nepal's solar resource zones using GHI, DNI, elevation, clear-sky days, monsoon penalties, operating-zone tables, and map-spec classification rules.
 
 The quantitative companion to [[solar-resource-geography-nepal]]. Table-first; map-spec at the end.
 
@@ -65,7 +69,15 @@ Winter-month GHI in the Terai is **4.0–4.5 kWh/m²/day**. A fixed-tilt ground-
 
 The Nepal system's January dry-month hydropower shortfall is ~250–400 GWh/month (back-calculated from NEA monthly generation records FY 2024/25). **~3 GW of Terai solar closes the January shortfall by 100% on a monthly-energy basis** (not on a 6 pm peak basis — that's the BESS / reservoir-peaking problem per [[solar-hydro-complementarity]]).
 
-This is the single number that should lead any national solar targeting document.
+This is the key quantitative row for comparing solar targeting assumptions against winter hydro shortfall estimates.
+
+## Coverage / Method
+
+The page combines WB ESMAP solar-resource assessment material, Global Solar Atlas cross-reference values, AEPC framework context, and zone classifications used by the map specification. Districts are aggregated into representative operating zones for readability, while the map-spec section defines the class logic used by the explorer-facing solar zone layer.
+
+## Caveats
+
+The zone rows are planning-scale summaries, not parcel screening or engineering siting results. Several higher-resolution inputs listed below are not yet ingested into the workspace, and district aggregation can hide local slope, grid, land, conservation, haze, and social constraints.
 
 ## Coverage gaps / data we'd like
 
@@ -84,7 +96,7 @@ The wiki explorer is intended to carry **four solar map layers**, indexed in [[d
 
 1. **`solar_ghi_zones`** — polygon layer, Zone A/B/C/D/E as classed polygons colored by mean GHI. Country-scale infographic.
 2. **`solar_plants`** — point layer of operating + PPA-signed + tendered utility plants (status-coded symbology). See [[data-solar-fleet-inventory]].
-3. **`solar_suitability`** — derived polygon combining Zone B + slope < 3° + <10 km to 132+ kV substation. The "where to build the next 5 GW" overlay.
+3. **`solar_suitability`** — derived polygon combining Zone B + slope < 3° + <10 km to 132+ kV substation. This is the utility-scale suitability overlay, not a parcel-level siting decision.
 4. **`floating_pv_candidates`** — point/polygon for [[kulekhani-cascade]], [[tanahu-hydropower]], [[budhigandaki]], [[dudhkoshi-storage]], [[mugu-karnali-storage]], [[uttarganga-storage]].
 
 ### Zone polygons — classification scheme for `solar_ghi_zones`
