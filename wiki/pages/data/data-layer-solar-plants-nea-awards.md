@@ -2,7 +2,7 @@
 title: Layer: Solar Plants + NEA 960 MW Awards
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory, doed-solar-power-plants-table, nea-solar-loi-2024]
 tags: [maps, geojson, layers, explorer, legend]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Layer: Solar Plants + NEA 960 MW Awards
+
+## Summary
+
+This explorer layer combines operating solar plant records with NEA 960 MW tender award anchors so solar projects and procurement awards can be viewed as mapped locations.
 
 **Explorer label:** Solar plants  
 **Layer group:** Solar layers  
@@ -24,6 +28,10 @@ This layer combines known solar plants with NEA 960 MW tender award anchors. It 
 ## How To Read It
 
 Use it to see whether solar is spatially concentrated, how close it sits to demand or grid infrastructure, and how utility-scale solar relates to the Terai and existing hydro system.
+
+## Coverage / Method
+
+The layer combines DoED solar plant records with NEA 960 MW award anchors listed in the cited source pages and exposed through the explorer map inventory. Location precision varies by record: some points use exact coordinates, while others use district, substation, or place anchors.
 
 ## Caveats
 

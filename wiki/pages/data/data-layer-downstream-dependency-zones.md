@@ -2,7 +2,7 @@
 title: Layer: Downstream Dependency Zones
 type: data
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, geopolitics, agriculture, floodplains, delta]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Layer: Downstream Dependency Zones
+
+## Summary
+
+This explorer layer marks broad downstream exposure zones connected to Nepal-origin river routes, covering agriculture, population, flood, dry-season-flow, sediment, and delta-sensitivity context.
 
 **Explorer label:** Downstream dependency zones  
 **Layer group:** Hydrology and basin layers  
@@ -49,6 +53,10 @@ Important fields:
 | `sediment_sensitivity` | Whether sediment behavior should be part of the strategic read. |
 | `delta_sensitivity` | Whether the zone is part of lower-delta vulnerability. |
 | `strategic_read` | Plain-language interpretation for popups. |
+
+## Coverage / Method
+
+The layer is built as a five-zone polygon context layer in the downstream dependency map outputs. It links each zone to related Nepal-origin route traces and uses qualitative fields for population pressure, agriculture importance, dry-season sensitivity, flood sensitivity, sediment sensitivity, delta sensitivity, and popup reading context.
 
 ## Caveats
 

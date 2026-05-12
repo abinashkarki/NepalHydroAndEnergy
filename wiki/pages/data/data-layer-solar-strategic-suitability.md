@@ -2,7 +2,7 @@
 title: Layer: Solar Strategic Suitability
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Layer: Solar Strategic Suitability
+
+## Summary
+
+This explorer layer shows broad solar suitability bands that combine resource value with constraint notes for high-level map reading.
 
 **Explorer label:** Best solar locations  
 **Layer group:** Solar layers  
@@ -24,6 +28,10 @@ This layer moves beyond sunshine alone. It frames broad areas by strategic suita
 ## How To Read It
 
 Use it when comparing solar build logic against hydropower and transmission geography. It is particularly useful for understanding why quick-cycle solar is a different kind of planning lever than large hydro.
+
+## Coverage / Method
+
+The layer is a strategic suitability overlay exposed through the explorer map inventory. It covers broad areas rather than project parcels and should be read with the solar GHI zones, solar plant points, and related solar-resource pages.
 
 ## Caveats
 

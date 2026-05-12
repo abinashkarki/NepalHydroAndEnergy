@@ -2,7 +2,7 @@
 title: Layer: Solar GHI Zones
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Layer: Solar GHI Zones
+
+## Summary
+
+This explorer layer shows coarse solar-resource zones based on GHI interpretation, giving the map a broad resource-geography layer rather than parcel-level siting output.
 
 **Explorer label:** Solar resource zones  
 **Layer group:** Solar layers  
@@ -24,6 +28,10 @@ This layer maps broad solar resource geography using GHI interpretation. It plac
 ## How To Read It
 
 Use it with solar plants, solar suitability, and hydropower seasonality. The question is not simply where sun exists, but where solar can be built quickly enough to help winter deficits and reduce over-dependence on hydro timing.
+
+## Coverage / Method
+
+The layer is a coarse map-layer interpretation of solar GHI zones exposed through the explorer map inventory. It covers broad resource zones and is intended to be read alongside the related solar resource data page, solar plant layer, and suitability layer.
 
 ## Caveats
 

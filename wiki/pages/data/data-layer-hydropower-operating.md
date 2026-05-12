@@ -2,7 +2,7 @@
 title: Layer: Hydropower - Operating
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Layer: Hydropower - Operating
+
+## Summary
+
+This explorer layer shows operating hydropower projects from the display registry, with marker area scaled by capacity and wiki-page coverage visible in the map interface.
 
 **Explorer label:** Hydro — operating  
 **Layer group:** Hydropower layers  
@@ -24,6 +28,10 @@ This layer shows projects that are in operation in the display registry. It is t
 ## How To Read It
 
 Use it to understand the geography of existing generation. Marker size scales with capacity, so large stations stand out visually, but the map should be read together with technology type, river basin, seasonality, and transmission access.
+
+## Coverage / Method
+
+The layer is derived from the project registry and exposed through the explorer map inventory. It covers projects classified as operating in the display registry and excludes construction, survey, and study-stage hydropower projects that appear in separate status layers.
 
 ## Caveats
 

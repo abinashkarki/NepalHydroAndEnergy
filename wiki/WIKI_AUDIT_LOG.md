@@ -1095,6 +1095,37 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-12 — Data Layer Cleanup Pass
+
+**Agent:** Codex
+**Session type:** Data pages pass — 10 map-layer pages, user-scoped batch
+**Pages touched:**
+- `data/data-layer-hydropower-operating`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-hydropower-construction`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-hydropower-survey-study`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-solar-plants-nea-awards`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-solar-ghi-zones`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-solar-strategic-suitability`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-storage-shortlist`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-transmission-connected-traced-network`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-transmission-corridors-curated`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+- `data/data-layer-downstream-dependency-zones`: +`## Summary`; +`## Coverage / Method`; updated frontmatter date.
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before:** 249 total warnings (data: 99; sources: 0; concepts: 0; entities: 150)
+- **After:** 229 total warnings (data: 79; sources: 0; concepts: 0; entities: 150)
+- **Delta:** -20 warnings, all data-page section warnings.
+- `git diff --check`: clean.
+- `make test`: passed; source Used By integrity passed 55/55; strict search benchmark passed 50/50.
+
+**Flags raised:** None. Added only canonical section scaffolding derived from existing page text, frontmatter, linked data/source context, and map-layer metadata.
+
+**Decisions made:**
+- User handoff explicitly scoped this batch to 10 data pages, overriding the older 5-page bounded-session default for this session.
+- No `Used By` sections touched.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

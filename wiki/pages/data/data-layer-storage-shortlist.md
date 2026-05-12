@@ -2,7 +2,7 @@
 title: Layer: Storage Shortlist
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory, data-storage-comparison]
 tags: [maps, geojson, layers, explorer, legend]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Layer: Storage Shortlist
+
+## Summary
+
+This explorer layer highlights storage and storage-like hydropower projects selected for dry-season energy relevance, separating seasonal value from ordinary nameplate-capacity map reading.
 
 **Explorer label:** Storage reservoirs  
 **Layer group:** Hydropower layers  
@@ -65,6 +69,10 @@ The key fields are:
 | `source_note` | Shows whether the record comes from NEA annual reporting, NEA-linked project notes, or the JICA/NEA storage master plan. |
 
 The layer works best as a filter over Nepal's broader hydro portfolio. It keeps the storage question visible while the user inspects large projects, transmission corridors, and seasonal trade behavior.
+
+## Coverage / Method
+
+The layer is built from the storage shortlist annotations and the related dry-energy comparison table. It includes operating storage, under-construction storage, and advanced or promising planned storage records where the cited project context provides enough storage or dry-energy information to support inclusion.
 
 ## Caveats
 

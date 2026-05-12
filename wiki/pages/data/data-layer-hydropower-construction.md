@@ -2,7 +2,7 @@
 title: Layer: Hydropower - Construction
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Layer: Hydropower - Construction
+
+## Summary
+
+This explorer layer maps hydropower projects in the generation or construction-license category, showing the near-term development pipeline separately from operating plants and survey-stage prospects.
 
 **Explorer label:** Hydro — building  
 **Layer group:** Hydropower layers  
@@ -24,6 +28,10 @@ This layer maps projects licensed to build or generate, which makes it a pipelin
 ## How To Read It
 
 Use it beside transmission corridors and basin seasonality. Dense construction clusters can indicate where evacuation pressure, financing risk, and winter-output limitations will matter before the projects become useful system capacity.
+
+## Coverage / Method
+
+The layer is derived from the project registry and exposed through the explorer map inventory. It covers projects classified as licensed to build or generate, while operating projects and survey or study-stage projects are handled in their own hydropower layers.
 
 ## Caveats
 

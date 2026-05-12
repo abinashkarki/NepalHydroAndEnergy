@@ -2,7 +2,7 @@
 title: Layer: Major Transmission Network
 type: data
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Layer: Major Transmission Network
+
+## Summary
+
+This explorer layer is the main reader-facing transmission network layer, combining public source-controlled corridor traces with status, provenance, geometry role, and confidence fields.
 
 **Explorer label:** Main network  
 **Layer group:** Transmission and trade layers  
@@ -24,6 +28,10 @@ This is the main transmission layer readers should use. It combines source trace
 ## How To Read It
 
 Use it to read Nepal's major domestic grid corridors: which are operational, under construction, partially operational, or lower-confidence, and how they relate to hydropower clusters and cross-border gateways. The western 132 kV backbone is now represented here so western Nepal no longer reads as empty just because its existing grid is lower voltage than the 220/400 kV corridors.
+
+## Coverage / Method
+
+The layer combines source traces and manual document-grounded traces into the connected major network exposed through the explorer map inventory. It covers selected public-facing corridors and preserves popup fields for geometry role, source, status, and confidence rather than treating every line as equally precise.
 
 ## Caveats
 
