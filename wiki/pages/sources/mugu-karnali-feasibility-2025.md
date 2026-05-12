@@ -46,13 +46,17 @@ the India-vs-Bangladesh developer interest that makes it politically
 visible. Notable because 1,902 MW is larger than Nepal's entire
 current operating hydropower fleet.
 
-## What This Source Does Not Cover
+## Limitations
 
-- Detailed hydrology / sediment / seismic study outcomes
-- Transmission evacuation plan — a project this size implies new
-  400 kV or higher corridor infrastructure that does not yet exist
-- Environmental / social scoping; project is at pre-feasibility and
-  no full EIA has been disclosed
+- **Pre-feasibility stage:** The project is at pre-feasibility; no detailed hydrology, sediment, or seismic study outcomes are published.
+- **Transmission gap:** A project of this scale implies new 400 kV or higher corridor infrastructure that does not yet exist; no evacuation plan is disclosed.
+- **Environmental/social scoping absent:** No full EIA has been disclosed; the project is at the expression-of-interest stage.
+- **Bid landscape fluid:** Only one formal bid (Chowdhury Group) is on record as of January 2025; the competitive landscape may shift.
+- **Schedule aspirational:** The 2030 construction / 2034 COD timeline is a Power Technology projection, not a committed project schedule.
+
+## Used By
+
+- [[mugu-karnali-storage]]
 
 ## See also
 

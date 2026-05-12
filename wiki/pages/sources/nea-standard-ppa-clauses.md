@@ -12,6 +12,8 @@ page_quality: analysis
 
 # NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment
 
+## Summary
+
 Secondary legal analysis by Sushil Parajuli of the standard NEA hydropower Power Purchase Agreement text, covering Availability Declaration penalties, reserve margin, curtailment risk, and force majeure constraints.
 
 ## Key provisions
@@ -48,12 +50,13 @@ ERC Notice (Rule 2076/2019, Schedule 5) requires hydropower sellers to submit mo
 
 NEA maintains a standard template but PPAs are negotiated individually. No publicly available PPA document was found. The Parajuli analysis is the primary secondary source.
 
-## Used by
+## Limitations
 
-- [[q-design-discharge]]
-- [[ppa-pricing]]
-- [[nea-triple-authority]]
-- [[buildability]]
-- [[stranded-generation]]
-- [[ad-penalties]]
-- [[ipo-hydropower-bailout]]
+- **Secondary analysis only:** This is Parajuli's interpretation of the standard PPA text, not the primary legal document itself. No publicly available PPA document was located to verify the analysis against.
+- **Analyst's framing:** The "16% Curtailment" debunking is a correction of industry lore, not a positive textual finding. The analysis may emphasize clauses relevant to its bankability argument.
+- **ERC evolution:** ERC regulatory context reflects the Commission's authority as understood at the time of analysis; ERC by-laws and interpretations continue to evolve.
+- **Negotiated variation:** NEA maintains a standard template but PPAs are negotiated individually. Clause language and enforcement may vary across projects.
+
+## Used By
+
+*No pages currently reference this source.*

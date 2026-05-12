@@ -48,13 +48,17 @@ buildability will actually be judged. Note: two self-consistent but
 divergent capacity numbers (635 MW vs 670 MW) are present in
 respected secondary sources; this page records both.
 
-## What This Source Does Not Cover
+## Limitations
 
-- Detailed seismic design basis (the project sits adjacent to Everest-
-  region fault systems)
-- Reservoir-induced seismicity modelling
-- GLOF integration into the dam's design flood (the 2024 Thame GLOF
-  in the same river system is directly relevant)
+- **Capacity ambiguity:** Two self-consistent but divergent capacity figures (635 MW vs 670 MW) exist across respected secondary sources; the design basis for each is not fully reconciled.
+- **Seismic gaps:** Detailed seismic design basis is not covered despite the project's proximity to Everest-region fault systems. Reservoir-induced seismicity modelling is absent.
+- **GLOF integration unverified:** The 2024 Thame GLOF in the same river system is directly relevant, but GLOF integration into the dam's design flood is not addressed.
+- **Self-reported data:** Cost, schedule, and social impact figures are drawn from secondary compilations of NEA/AIIB materials, not independent audit.
+- **Pre-financing status:** The AIIB sovereign funding is proposed, not committed; financing is not closed.
+
+## Used By
+
+- [[dudhkoshi-storage]]
 
 ## See also
 

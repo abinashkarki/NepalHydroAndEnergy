@@ -11,6 +11,8 @@ page_quality: analysis
 
 # CARE Ratings Nepal — Sanima Mai Hydropower Credit Assessments
 
+## Summary
+
 CARE Ratings Nepal surveillance reports and rating rationales for Sanima Mai Hydropower Limited, a 22 MW private IPP on the Mai Khola (eastern Nepal). The Sanima Mai generation data provides one of the most complete multi-year time series for tracking Q-design discharge performance against contracted energy.
 
 ## Key data extracted
@@ -33,7 +35,14 @@ The declining trajectory from 96% to 73%, followed by partial recovery to 85%, e
 - 3% annual escalation for 5 years
 - PPA year: 2010
 
-## Used by
+## Limitations
 
-- [[q-design-discharge]]
-- [[ppa-pricing]]
+- **Single-project scope:** Sanima Mai is one 22 MW RoR IPP on the Mai Khola; its generation and financial patterns are not representative of all RoR projects across Nepal's diverse river basins.
+- **Data recency:** Generation data covers through FY 2079/80 only; more recent fiscal years are not included. The partial recovery to 85% may have continued or reversed.
+- **Q40 design context:** The Q40 exceedance design is less conservative than the Q65+ designs common on glacially-fed rivers; hydrological variability observations apply to Q40-configured projects specifically.
+- **PPA vintage:** The PPA terms described (2010, 3% escalation, NPR 4.80/8.40 wet/dry) are specific to this project's 2010-vintage PPA and do not represent current NEA PPA terms.
+- **Credit rating source:** CARE Ratings surveillance reports prioritize creditworthiness metrics; they may not capture all technical or hydrological operating conditions in detail.
+
+## Used By
+
+*No pages currently reference this source.*

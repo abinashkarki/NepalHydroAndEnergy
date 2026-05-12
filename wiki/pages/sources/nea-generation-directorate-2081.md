@@ -29,3 +29,13 @@ heavily by [[chameliya-hydropower]].
 The exact report title, issue metadata, and document URL still need to be added.
 Until that is done, this page should be treated as a reviewed internal-report
 anchor rather than a complete bibliographic record.
+
+## Limitations
+
+- **Missing citation metadata:** The exact report title, issue metadata, and document URL are not recorded, limiting verifiability.
+- **Internal NEA data:** Data is attributed to the NEA Generation Directorate but the specific publication vehicle is not identified. Cross-referencing against NEA annual reports is not yet completed.
+- **Thin extraction:** The page is currently used most heavily by one entity page; broader plant-level data coverage may exist in the source that is not yet extracted.
+
+## Used By
+
+- [[chameliya-hydropower]]

@@ -11,6 +11,8 @@ page_quality: analysis
 
 # UKHLL Annual Reports — Upper Tamakoshi Hydropower Limited
 
+## Summary
+
 The audited annual reports of Upper Tamakoshi Hydropower Limited (UKHLL), the NEA subsidiary that owns and operates the 456 MW Upper Tamakoshi Hydroelectric Project — Nepal's largest operating hydropower plant. The reports are available at utkhpl.org.np and provide the primary-source generation and financial data for the project.
 
 ## Key data extracted (from research compilation of audited accounts)
@@ -32,8 +34,13 @@ The audited annual reports of Upper Tamakoshi Hydropower Limited (UKHLL), the NE
 - Insurance claim: NPR 2.0–3.22 billion
 - Rolwaling diversion: 212 GWh addition, dry-season peaking from 4 to 6 hours
 
-## Used by
+## Limitations
 
-- [[upper-tamakoshi]]
-- [[q-design-discharge]]
-- [[ppa-pricing]]
+- **Audit firm unconfirmed:** The reports are described as "audited" but the specific audit firm and qualification opinions are not extracted.
+- **Post-flood data recency:** The FY 2081/82 data (flood shutdown, ICRA D rating, insurance claim) is the most recent extracted; later fiscal-year data is not included.
+- **D/E ratio caveat:** The effective 88:12 D/E ratio at COD is from UKHLL annual reports but cross-referencing against external debt-registrar data is not done.
+- **Insurance range:** The insurance claim figure is reported as a range (NPR 2.0–3.22 billion) indicating uncertainty in the claim resolution.
+
+## Used By
+
+*No pages currently reference this source.*

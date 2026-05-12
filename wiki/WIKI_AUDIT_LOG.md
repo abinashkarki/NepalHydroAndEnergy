@@ -1032,6 +1032,48 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-12 — Sources Pass (Second Cycle, Sessions 9-11 — 15-Page Batch)
+
+**Agent:** Hermes (deepseek-v4-pro)
+**Session type:** Sources governance-cleanup — 3 batches of 5 pages (15 total)
+**Pages touched:**
+- `sources/doed-solar-power-plants-table` — +`## Summary`; +`## Limitations` (snapshot date, coordinate precision, coverage scope, capacity reporting); +`## Used By` (17 verified backlinks from entity solar pages).
+- `sources/nea-solar-loi-2024` — +`## Summary`; +`## Limitations` (pre-commissioning status, snapshot date, coordinate precision, tariff data); +`## Used By` (2 verified backlinks).
+- `sources/india-cbte-2018` — +`## Limitations` (snapshot date, bilateral scope, one-sided perspective, coverage gaps); +`## Used By` (1 verified backlink).
+- `sources/care-ratings-sanima-mai` — +`## Summary`; +`## Limitations` (single-project scope, data recency, Q40 context, PPA vintage, credit-rating source bias); replaced memory-built `## Used by` with grep-verified `## Used By` (0 backlinks).
+- `sources/nea-standard-ppa-clauses` — +`## Summary`; +`## Limitations` (secondary analysis only, analyst's framing, ERC evolution, negotiated variation); replaced memory-built `## Used by` with grep-verified `## Used By` (0 backlinks).
+- `sources/arun-3-project-status-2025` — renamed `## What This Source Does Not Cover` → `## Limitations` (self-reported data, social impact gap, seasonal profile incomplete, grid absorption unknown, schedule fluidity); +`## Used By` (1 verified backlink).
+- `sources/clickmandu-financial-reporting` — +`## Limitations` (missing citation metadata, single-source media, thin extraction); +`## Used By` (1 verified backlink).
+- `sources/dudhkoshi-nea-proposal-2024` — renamed `## What This Source Does Not Cover` → `## Limitations` (capacity ambiguity, seismic gaps, GLOF integration unverified, self-reported data, pre-financing status); +`## Used By` (1 verified backlink).
+- `sources/kathmandu-post-chameliya` — +`## Limitations` (missing citation metadata, single-source media, thin extraction); +`## Used By` (1 verified backlink).
+- `sources/khimti-i-project-research` — +`## Summary`; +`## Limitations` (USD-denominated PPA vintage, single-project scope, ownership transition, compilation source); replaced memory-built `## Used by` with grep-verified `## Used By` (0 backlinks).
+- `sources/mugu-karnali-feasibility-2025` — renamed `## What This Source Does Not Cover` → `## Limitations` (pre-feasibility stage, transmission gap, environmental/social scoping absent, bid landscape fluid, schedule aspirational); +`## Used By` (1 verified backlink).
+- `sources/myrepublica-pac-chameliya` — +`## Limitations` (missing citation metadata, single-source media, thin extraction); +`## Used By` (1 verified backlink).
+- `sources/nea-generation-directorate-2081` — +`## Limitations` (missing citation metadata, internal NEA data, thin extraction); +`## Used By` (1 verified backlink).
+- `sources/ukhl-annual-report` — +`## Summary`; +`## Limitations` (audit firm unconfirmed, post-flood data recency, D/E ratio caveat, insurance range); replaced memory-built `## Used by` with grep-verified `## Used By` (0 backlinks).
+- `sources/wecs-dhm-1990-methodology` — +`## Summary`; +`## Limitations` (data age, stationarity assumption, simplistic regression, proprietary dependence, partial update); replaced memory-built `## Used by` with grep-verified `## Used By` (0 backlinks).
+
+**Validation result:** `OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean`
+- **Before:** 372 total warnings (sources: 13 missing Limitations, 5 missing Summary, 13 missing Used By)
+- **After:** 341 total warnings (sources: 0 missing Limitations, 0 missing Summary, 0 missing Used By)
+- **Delta:** -31 warnings (all source-related, matching 15 pages × ≈2 sections each)
+- `git diff --check`: clean
+
+**Flags raised:** None. All Limitations derived from existing page content; no new factual claims invented.
+
+**Pattern observed:**
+- **Memory-based Used By rate: 5/15 pages (33%).** `care-ratings-sanima-mai`, `nea-standard-ppa-clauses`, `khimti-i-project-research`, `ukhl-annual-report`, and `wecs-dhm-1990-methodology` all had inflated or incorrect `## Used by` lists built from memory. All five had 0 actual backlinks. All were replaced with grep-verified results, consistent with the previously observed ~30% rate.
+- **Lowercase heading variants: 5 pages** (`care-ratings-sanima-mai`, `nea-standard-ppa-clauses`, `khimti-i-project-research`, `ukhl-annual-report`, `wecs-dhm-1990-methodology`) had `## Used by` (lowercase) — all corrected to canonical `## Used By`.
+- **"What This Source Does Not Cover" → "Limitations" migration: 3 pages** (`arun-3-project-status-2025`, `dudhkoshi-nea-proposal-2024`, `mugu-karnali-feasibility-2025`) used the non-canonical heading. Content was already limitation-level; heading normalized.
+- **Zero-backlink concentration: 5 of 15 pages (33%)** had zero actual backlinks after due-diligence correction. These are primarily analysis/compilation anchors that exist in the wiki as reference material but are not yet actively cited by other pages.
+- **Thin media-source anchor pattern:** `clickmandu-financial-reporting`, `kathmandu-post-chameliya`, and `myrepublica-pac-chameliya` are all reviewed media-source anchors with missing citation metadata. This is a known pattern; each already carries an explicit caveat noting the gap.
+
+**Decisions made:**
+- All 15 changes approved in batch by human operator ("another 15").
+- No new flags added to `wiki/FLAGGED_FOR_REVIEW.md`; no unresolved issues requiring human review beyond existing open items.
+
+---
+
 ## 2026-05-12 — Source Cleanup Pre-Push Backlink Correction
 
 **Agent:** Codex

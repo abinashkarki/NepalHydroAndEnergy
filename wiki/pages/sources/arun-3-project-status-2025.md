@@ -52,12 +52,17 @@ Primary source for Arun-3's capacity, schedule, cost, and the
 Nepal–India free-power / export structure that makes Arun-3 a flagship
 example of India-developed, India-dispatched hydropower inside Nepal.
 
-## What This Source Does Not Cover
+## Limitations
 
-- Independent cost audit (SJVN figures are self-reported)
-- Social / resettlement impact assessment outside SAPDC's own materials
-- Seasonal generation shape beyond the 3.4-hour peaking design number
-- Grid-side absorption constraints on the Indian side
+- **Self-reported data:** SJVN cost and progress figures are self-reported; no independent audit is cited.
+- **Social impact gap:** Social, resettlement, and environmental impact data is sourced from SAPDC's own materials, not independent assessment.
+- **Seasonal profile incomplete:** The 3.4-hour/day peaking design is noted but the full seasonal generation shape is not provided.
+- **Grid absorption unknown:** India-side grid absorption constraints for the exported power are not addressed.
+- **Schedule fluidity:** COD target has already been missed; the September 2026 extension is under review and not assured.
+
+## Used By
+
+- [[arun-3]]
 
 ## See also
 

@@ -14,6 +14,8 @@ page_quality: record
 
 # NEA Notice of Intent to Award Solar Projects (2024)
 
+## Summary
+
 NEA's November 11, 2024 notice of intent to award solar projects under the national utility-scale solar procurement round, using the corrected November 12 amendment as the row-level source for the mapped 960 MW tender / pre-PPA award anchors.
 
 ## Data Extracted
@@ -28,6 +30,18 @@ NEA's November 11, 2024 notice of intent to award solar projects under the natio
 ## Data-Quality Notes
 
 The corrected NEA table lists 63 awards totaling 960 MW, with awarded tariffs from NPR 4.99/kWh to NPR 5.54/kWh and a capacity-weighted average of about NPR 5.43/kWh. The map uses district or substation anchors with jitter for display. These locations are not parcel coordinates and should not be interpreted as site boundaries. The rows represent tender awards / pre-PPA records, not commissioned operating plants.
+
+## Limitations
+
+- **Pre-commissioning status:** The rows represent tender awards and pre-PPA records, not commissioned operating plants. Awarded projects may be modified, canceled, or stalled.
+- **Snapshot date:** November 2024 — the award landscape and tariff figures may have shifted since publication.
+- **Coordinate precision:** District or substation anchors with jitter are display positions, not parcel coordinates. Not suitable for site boundary or land-use analysis.
+- **Tariff data:** Awarded tariffs (NPR 4.99–5.54/kWh) may not reflect final PPA rates or as-constructed costs.
+
+## Used By
+
+- [[khungri-solar-hybrid-50mw]]
+- [[nea-960mw-solar-tender]]
 
 ## Related
 

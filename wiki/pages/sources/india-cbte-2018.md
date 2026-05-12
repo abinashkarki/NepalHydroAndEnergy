@@ -35,5 +35,16 @@ India's regulatory framework governing cross-border electricity trade. Defines a
 
 Central to [[india-energy-relationship]] and [[hydro-geopolitics]]. Shapes the export constraint dimension of [[seasonal-arbitrage-trap]]. source-review note. Public source review highlighted the China-exclusion mechanism.
 
+## Limitations
+
+- **Snapshot date:** 2018 guidelines — the regulatory framework may have changed significantly. The page itself flags the gap: *"Need updated post-2024 versions of these guidelines — the approval regime may have expanded."*
+- **Bilateral scope:** Does not cover bilateral agreements or protocols signed after 2018, including the 2024 long-term power trade agreement.
+- **One-sided perspective:** The document represents Indian regulatory requirements only; Nepal's reciprocal conditions and regulatory framework are not captured.
+- **Coverage:** Focused on approval mechanisms for trade; does not address transmission capacity allocation, pricing formulas, or dispute resolution in depth.
+
+## Used By
+
+- [[india-energy-relationship]]
+
 > [!gap]
 > Need updated post-2024 versions of these guidelines — the approval regime may have expanded.
