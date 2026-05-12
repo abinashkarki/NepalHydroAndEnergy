@@ -78,14 +78,10 @@ Most of these overlap with the [[bottleneck-hierarchy]] for hydro, with one addi
 
 ## Used By
 
-Verified via grep. Pages that cite this source:
-
-- [[claim-solar-cheaper-than-small-hydro]]
-- [[solar-lcoe-crossover]]
 - [[data-solar-hydro-lcoe]]
 - [[global-solar-atlas-nepal]]
-- [[wb-esmap-solar-resource-assessment]]
 - [[solar-role-in-winter-deficit]]
+- [[wb-esmap-solar-resource-assessment]]
 
 ## Related
 

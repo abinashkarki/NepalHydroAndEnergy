@@ -111,15 +111,14 @@ Cross-references:
 
 ## Used By
 
-- [[bidur-trishuli-solar-25mwp]]
-- [[nea-960mw-solar-tender]]
-- [[nea-solar]]
 - [[aepc-renewable-framework]]
 - [[agrivoltaics-and-land]]
+- [[bidur-trishuli-solar-25mwp]]
 - [[data-rooftop-shs-deployment]]
 - [[data-solar-hydro-lcoe]]
 - [[eib-rural-solar-phase2]]
-- [[wb-nepal-power-sector-reform-2022]]
+- [[nea-960mw-solar-tender]]
+- [[nea-solar]]
 
 ## Related
 

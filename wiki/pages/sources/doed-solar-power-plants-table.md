@@ -2,7 +2,7 @@
 title: DoED Power Plants: Solar Table
 type: source
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-12
 source_type: registry
 source_author: Department of Electricity Development
 source_date: 2026-01-09

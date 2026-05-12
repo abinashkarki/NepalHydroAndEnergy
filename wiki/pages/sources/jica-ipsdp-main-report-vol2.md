@@ -94,6 +94,7 @@ Local workspace copy:
 - [[lower-jhimruk]]
 - [[madi]]
 - [[marsyangdi]]
+- [[moewri-ipsdp-exec-summary-2025]]
 - [[nalsyau-gad]]
 - [[naumure-w-rapti]]
 - [[phukot-karnali]]

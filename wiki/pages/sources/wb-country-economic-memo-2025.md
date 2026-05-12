@@ -43,7 +43,8 @@ Key source for the IPP-driven growth story, the trade transformation timeline, a
 
 ## Used By
 
-- [[claim-mw-not-equal-value]]
-- [[stranded-generation]]
+- [[budhigandaki]]
+- [[data-fleet-composition]]
 - [[data-trade-time-series]]
-- [[bottleneck-hierarchy]]
+- [[irena-remap-nepal]]
+- [[wb-grid-solar-ee-project]]

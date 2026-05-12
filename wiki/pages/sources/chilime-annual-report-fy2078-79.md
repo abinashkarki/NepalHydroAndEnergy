@@ -44,8 +44,4 @@ In FY2078/79, **85.4%** of total generation (133.24 of 156.06 GWh) was classifie
 
 ## Used By
 
-Verified via grep. Pages that cite this source:
-
-- [[ipo-hydropower-bailout]]
-- [[ppa-pricing]]
-- [[q-design-discharge]]
+*No pages currently reference this source.*

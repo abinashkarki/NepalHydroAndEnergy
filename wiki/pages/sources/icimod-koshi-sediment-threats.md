@@ -36,9 +36,4 @@ Detailed assessment of sediment dynamics, erosion, and environmental threats in 
 
 ## Used By
 
-Verified via grep. Pages that cite this source:
-
-- [[claim-sediment-core-issue]]
-- [[glof-risk]]
-- [[sediment-as-design-constraint]]
-- [[koshi-basin]]
+*No pages currently reference this source.*

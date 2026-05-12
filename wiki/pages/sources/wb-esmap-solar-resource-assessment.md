@@ -111,7 +111,6 @@ Validation source for:
 ## Used By
 
 - [[data-solar-hydro-complementarity-profile]]
-- [[aepc-renewable-framework]]
 - [[mustang-high-altitude-solar-zone]]
 - [[data-nepal-solar-resource-zones]]
 - [[irena-remap-nepal]]

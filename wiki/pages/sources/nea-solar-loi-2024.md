@@ -2,7 +2,7 @@
 title: NEA Notice of Intent to Award Solar Projects (2024)
 type: source
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-12
 source_type: procurement
 source_author: Nepal Electricity Authority
 source_date: 2024-11-12

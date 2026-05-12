@@ -2,7 +2,7 @@
 title: "NEA Generation Directorate Data — FY 2080/81"
 type: source
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-12
 source_type: utility-report
 source_author: Nepal Electricity Authority, Generation Directorate
 sources: []

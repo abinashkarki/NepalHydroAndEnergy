@@ -2,7 +2,7 @@
 title: CARE Ratings Nepal — Sanima Mai Hydropower Credit Assessments
 type: source
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-12
 source_type: rating-report
 source_author: CARE Ratings Nepal
 tags: [source, care-ratings, sanima-mai, generation, q-design, ppa, private-ipp]

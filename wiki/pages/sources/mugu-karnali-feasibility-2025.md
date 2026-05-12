@@ -2,7 +2,7 @@
 title: Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)
 type: source
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-12
 source_type: compilation
 source_author: Kantipur; Fiscal Nepal; NepalEnergyForum; Global Energy Monitor; Power Technology
 source_date: 2025-01-12

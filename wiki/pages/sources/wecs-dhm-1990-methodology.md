@@ -2,7 +2,7 @@
 title: WECS/DHM Methodology — Hydrological Estimation for Ungauged Locations (1990)
 type: source
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-12
 source_type: methodology
 source_author: Water and Energy Commission Secretariat (WECS) and Department of Hydrology and Meteorology (DHM)
 source_date: 1990-01-01

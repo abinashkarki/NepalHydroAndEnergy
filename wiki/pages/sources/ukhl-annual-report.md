@@ -2,7 +2,7 @@
 title: UKHLL Annual Reports — Upper Tamakoshi Hydropower Limited
 type: source
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-12
 source_type: annual-report
 source_author: Upper Tamakoshi Hydropower Limited (UKHLL)
 tags: [source, ukhl, upper-tamakoshi, generation, financial, annual-report]

@@ -35,4 +35,3 @@ performance, valuation framing, and balance-sheet trajectory.
 ## Used By
 
 - [[sahas-urja]]
-- [[sahas-urja-benchmark-icra-2026]]

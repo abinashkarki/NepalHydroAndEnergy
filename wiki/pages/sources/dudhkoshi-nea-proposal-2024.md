@@ -2,7 +2,7 @@
 title: Dudhkoshi Storage — NEA Proposal & Feasibility Record
 type: source
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-12
 source_type: compilation
 source_author: Kathmandu Post; NepalEnergyForum; Investopaper; ELC Electroconsult; Power Technology
 source_date: 2024-10-01

@@ -2,7 +2,7 @@
 title: Arun-3 Project Status & PDA Summary (2025)
 type: source
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-12
 source_type: compilation
 source_author: Multiple (SJVN SAPDC, NepalEnergyForum, Kathmandu Post, Project Development Agreement 2014)
 source_date: 2025-12-01

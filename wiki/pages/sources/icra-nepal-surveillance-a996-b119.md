@@ -37,4 +37,3 @@ for project-financial and performance claims around [[sahas-urja]] and
 
 - [[khimti-ii]]
 - [[sahas-urja]]
-- [[ppa-data-retrieval-icra-care-2026]]

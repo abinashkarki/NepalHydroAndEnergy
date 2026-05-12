@@ -2,7 +2,7 @@
 title: India Cross-Border Trade in Electricity Guidelines (2018)
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-12
 source_type: policy
 source_author: Government of India / Ministry of Power
 source_date: 2018-12-01
