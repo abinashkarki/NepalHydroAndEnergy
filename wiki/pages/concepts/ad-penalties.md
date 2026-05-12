@@ -2,7 +2,7 @@
 title: AD Penalties
 type: concept
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-12
 sources: [erc-bylaws-2076, barahi-hydropower-audited-financials, ad-penalty-clause-research]
 tags: [AD-penalties, PPA, NEA, IPP, regulation, ERC]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # AD Penalties
 
+## Summary
+
 **Availability Declaration (AD) penalties** are financial deductions levied by NEA against hydropower producers when actual generation falls below the availability the producer declared in advance. The AD penalty mechanism is the primary financial instrument through which the [[nea-triple-authority]] conflict operates.
+
+## Simple Explanation
+
+AD penalties are the contractual fine a generator can face when it says it will produce one amount of electricity but delivers less. In Nepal, the problem is not only the fine itself. The same buyer that receives the power, controls dispatch, and pays invoices can also deduct the penalty, which makes the mechanism central to the IPP cash-flow and regulatory-conflict story.
 
 ## The Penalty Mechanism
 
@@ -118,6 +124,12 @@ curtailment identically to generator failure.
 ## Challenge Cases and Outcomes
 
 Beyond Barahi, no documented ERC arbitration rulings or court judgments on AD penalty disputes have been found in research passes to date. Any IPPAN legal challenges, ERC proceedings, or judicial outcomes concerning AD penalties should be documented here when located. [Under research.]
+
+## Common Misunderstandings
+
+- **AD penalties are not the same as ordinary project underperformance.** The penalty is tied to declared and contracted energy, not simply to whether a plant is badly built.
+- **The 16% figure is not a verified legal cap.** It is an advocacy/empirical benchmark derived from how the penalty formula behaves in severe shortfall cases.
+- **Curtailment relief is not currently documented in the standard PPA text reviewed here.** The double-bind exists because off-taker curtailment is not carved out as an excusable cause in the analyzed formula.
 
 ## Analytical links
 

@@ -2,7 +2,7 @@
 title: Environmental Flow Policy
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-12
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [environment, e-flow, protected-areas, policy, hydropower, ipsdp]
 page_quality: analysis
@@ -10,11 +10,17 @@ page_quality: analysis
 
 # Environmental Flow Policy
 
+## Summary
+
 The IPSDP executive summary treats **environmental flow** and
 **protected-area restrictions** as buildability constraints, not as side notes.
 In the SEA mitigation table on page 37, [[moewri-ipsdp-exec-summary-2025]]
 says hydropower planning must evaluate and manage environmental flows and must
 respect statutory restrictions in protected areas.
+
+## Simple Explanation
+
+Environmental flow policy is the rule-of-thumb that a hydropower project cannot treat the whole river as available for diversion. Some flow must remain for downstream ecology, communities, legal requirements, and protected-area constraints.
 
 ## What the IPSDP says directly
 
@@ -46,6 +52,12 @@ about why paper potential collapses when real-world constraints are applied.
 This page is limited to the policy and mitigation language stated in the IPSDP
 executive summary. It does **not** attempt to summarize Nepal's whole EIA or
 hydropower-permitting regime beyond what that table states.
+
+## Common Misunderstandings
+
+- **Environmental flow is not only an environmental side issue.** It changes buildable energy, project design, and licensing risk.
+- **Protected-area restrictions are not captured by MW potential alone.** A technically attractive site can still be constrained by law and mitigation requirements.
+- **This page is not a full legal guide.** It summarizes the IPSDP signal, not the entire permitting regime.
 
 ## Related
 

@@ -2,7 +2,7 @@
 title: Energy Substitution Pathway
 type: concept
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-12
 sources: [wecs-energy-synopsis-2024, wb-country-economic-memo-2025, green-hydrogen-roadmap-nepal]
 tags: [substitution, electrification, biomass, coal, petroleum, strategy, demand-creation, nepal]
 page_quality: analysis
@@ -10,7 +10,13 @@ page_quality: analysis
 
 # Energy Substitution Pathway
 
+## Summary
+
 **Energy substitution pathway** names the specific question a hydro build-out must answer if it is to transform Nepal's energy system and not just its export ledger: **which non-electric energy flows are being displaced, in what order, by what policy and infrastructure?** Without this lens, "more hydro MW" and "more electricity consumption" can both rise while Nepal's overall energy system — dominated by fuelwood, coal, and imported petroleum — barely shifts. This is the strategic complement to [[domestic-led-hydro-strategy]]: where that page argues *why* domestic load matters more than exports, this one argues *which specific loads* to build.
+
+## Simple Explanation
+
+The substitution pathway is the bridge between electricity supply and actual energy transition. It asks which existing fuels Nepal stops burning when it adds clean electricity: fuelwood in kitchens, diesel in transport and pumps, LPG in cooking, or coal in industry.
 
 ## Why the substitution frame exists
 
@@ -84,6 +90,12 @@ The right single indicator for whether Nepal's energy transition is working is n
 Today that share is ~92.8% (68.7% biomass + 19.4% petroleum + 6.4% coal − small overlap). A serious transition by 2040 should bring that share below 70%, implying ~25–30 PJ of net biomass+fossil displacement per year. That in turn implies specific quantities of induction cookers deployed, kilns retrofitted, EVs sold, and industrial processes electrified — all measurable, all currently unmeasured at the system level.
 
 If Nepal builds 20,000 MW of hydro and the biomass+fossil share in 2040 is still 85%, the build-out has failed on its own terms. If Nepal builds only 10,000 MW but the share falls to 65%, the strategy has succeeded.
+
+## Common Misunderstandings
+
+- **More hydropower is not automatically substitution.** New electricity must connect to a real end use that replaces biomass or fossil fuel.
+- **More domestic consumption is not automatically better.** The quality of demand matters: displacing imported diesel or LPG has different value from adding low-value discretionary load.
+- **Exports and substitution are not interchangeable.** A kWh exported earns revenue; a kWh used domestically can avoid imported-fuel spending and change the energy mix.
 
 ## Related
 

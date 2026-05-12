@@ -2,7 +2,7 @@
 title: Consumption Trajectory Outlook
 type: concept
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-12
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [consumption, trajectory, outlook, import-displacement, strategy, nepal]
 page_quality: analysis
@@ -10,9 +10,15 @@ page_quality: analysis
 
 # Consumption Trajectory Outlook
 
+## Summary
+
 What Nepal's electricity consumption growth trajectory implies for the country's energy strategy — the import-displacement opportunity, the growth risks, and the metric that determines whether the hydro build-out succeeds or fails on its own terms.
 
 This page synthesizes [[data-domestic-demand]], [[data-industrial-electricity-consumers]], [[data-agricultural-energy-consumption]], and [[data-consumption-geographic-distribution]] into a forward view. The companion supply-side analysis is [[twenty-year-strategy]].
+
+## Simple Explanation
+
+Nepal is using much more electricity than it did a few years ago, but electricity is still a small share of total energy use. The concept asks whether new hydropower will be absorbed by domestic cooking, transport, industry, and agriculture, or whether weak domestic demand leaves Nepal dependent on low-value seasonal exports.
 
 ## The Consumption Story in One Sentence
 
@@ -135,6 +141,12 @@ The nightmare scenario is the "Supply-led" one: large monsoon surplus with weak 
 3. **Captive generation inventory** — how much diesel generation capacity exists behind industrial meters, and how much is actually dispatched, is unmeasured. This is the hidden consumption layer.
 4. **Province-level sectoral splits** — we have provincial totals but not the domestic/industrial/commercial breakdown within each province.
 5. **Price elasticity of demand** — how sensitive is each consumer category to tariff changes? Essential for demand-side policy design but unresearched for Nepal.
+
+## Common Misunderstandings
+
+- **Fast electricity-demand growth does not mean the whole energy system is electrified.** Electricity is still a small share of final energy consumption.
+- **Export surplus is not automatically a sign of success.** It can reflect weak domestic absorption, especially if monsoon exports coexist with winter imports.
+- **Per-capita electricity growth is not the same as fuel substitution.** The transition test is whether biomass, LPG, diesel, petrol, and coal are actually displaced.
 
 ## Related
 
