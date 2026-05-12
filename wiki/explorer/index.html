@@ -3614,7 +3614,8 @@
           });
         }
 
-        // Clear any persistent cascade marker glow from the previous page.
+        // Clear any page-scoped map affordances from the previous page.
+        if (!wasAlreadyCurrent && lm && typeof lm.clearFocusOverlay === "function") lm.clearFocusOverlay();
         if (lm && typeof lm.clearCascadeGlow === "function") lm.clearCascadeGlow();
 
         const binding = bindings.pages[slug];
@@ -3644,35 +3645,83 @@
 
         setTimeout(async () => {
           const feats = lm.findFeaturesForSlug(slug, bindings);
+          const useFocusOverlay = async (featureRef) => {
+            if (!featureRef || !lm || typeof lm.showFocusOverlay !== "function") return null;
+            const overlay = lm.showFocusOverlay(featureRef);
+            if (overlay) {
+              const info = document.getElementById("map-info");
+              if (info) info.innerHTML += "<br/><span class=\"muted\">Showing selected feature only; source layer remains off.</span>";
+            }
+            return overlay;
+          };
+          const hiddenFeatureOverlay = async () => {
+            if (!lm || typeof lm.findFeatureDataForSlug !== "function") return null;
+            const raw = await lm.findFeatureDataForSlug(slug, bindings);
+            if (!raw.length) return null;
+            const selected = raw.find((f) => f.primary) || (raw.length === 1 ? raw[0] : null);
+            return selected ? useFocusOverlay(selected) : null;
+          };
+          const focusCard = (card) => {
+            const single = L.featureGroup([card.layer]);
+            const b = single.getBounds();
+            if (b.isValid()) {
+              map.flyToBounds(b, { padding: [80, 80], duration: 0.9, maxZoom: 12 });
+            } else if (typeof card.layer.getLatLng === "function") {
+              map.flyTo(card.layer.getLatLng(), 12, { duration: 0.9 });
+            }
+            lm.highlight([card], { revertAfterMs: 4500 });
+            setTimeout(() => {
+              const spec = lm.buildCardSpec(card, { pageHref: `?page=${slug}` });
+              if (spec) lm.flashCard(card, spec, { dismissAfterMs: 7000 });
+            }, 950);
+          };
           if (binding.focus && Array.isArray(binding.focus.bounds)) {
             map.flyToBounds(binding.focus.bounds, { padding: [40, 40], duration: 0.9, maxZoom: binding.focus.maxZoom || 9 });
-            if (feats.length) lm.highlight(feats, { revertAfterMs: 4000 });
+            if (feats.length) {
+              lm.highlight(feats, { revertAfterMs: 4000 });
+            } else {
+              const card = await hiddenFeatureOverlay();
+              if (card) {
+                lm.highlight([card], { revertAfterMs: 4500 });
+                setTimeout(() => {
+                  const spec = lm.buildCardSpec(card, { pageHref: `?page=${slug}` });
+                  if (spec) lm.flashCard(card, spec, { dismissAfterMs: 7000 });
+                }, 950);
+              }
+            }
           } else if (binding.focus && Array.isArray(binding.focus.center)) {
             map.flyTo(binding.focus.center, binding.focus.zoom || 8, { duration: 0.9 });
-            if (feats.length) lm.highlight(feats, { revertAfterMs: 4000 });
-          } else if (feats.length) {
-            const card = lm.pickCardFeature(feats);
-            if (card) {
-              // Direct hit: ensure the focal feature's layer is actually on the map,
-              // then tight-zoom + pulse + flash card.
-              if (!lm.has(card.key)) await lm.add(card.key);
-
-              const single = L.featureGroup([card.layer]);
-              const b = single.getBounds();
-              if (b.isValid()) {
-                map.flyToBounds(b, { padding: [80, 80], duration: 0.9, maxZoom: 12 });
-              } else if (typeof card.layer.getLatLng === "function") {
-                map.flyTo(card.layer.getLatLng(), 12, { duration: 0.9 });
+            if (feats.length) {
+              lm.highlight(feats, { revertAfterMs: 4000 });
+            } else {
+              const card = await hiddenFeatureOverlay();
+              if (card) {
+                lm.highlight([card], { revertAfterMs: 4500 });
+                setTimeout(() => {
+                  const spec = lm.buildCardSpec(card, { pageHref: `?page=${slug}` });
+                  if (spec) lm.flashCard(card, spec, { dismissAfterMs: 7000 });
+                }, 950);
               }
-              lm.highlight([card], { revertAfterMs: 4500 });
+            }
+          } else if (feats.length) {
+            let card = lm.pickCardFeature(feats);
+            if (card) {
+              // Direct hit: if the source layer is hidden/off/gated, clone just
+              // this feature into a temporary focus overlay instead of toggling
+              // the whole dense layer on.
+              if (!lm.has(card.key)) {
+                card = await useFocusOverlay({
+                  key: card.key,
+                  feature: card.layer && card.layer.feature,
+                  props: card.props,
+                  primary: card.primary,
+                });
+              }
+              if (!card) return;
+
+              focusCard(card);
               // Cascade overview pages: persistent glimmer even on single-card hit.
               if (slug.endsWith("-cascade")) lm.glowCascadeMarkers(feats);
-              // Wait for the flyTo animation before opening the card so autoPan
-              // doesn't fight the camera.
-              setTimeout(() => {
-                const spec = lm.buildCardSpec(card, { pageHref: `?page=${slug}` });
-                if (spec) lm.flashCard(card, spec, { dismissAfterMs: 7000 });
-              }, 950);
             } else {
               // Broad hit (basin polygon, multi-segment corridor): keep current behavior.
               lm.flyToFeatures(feats, { duration: 0.9, maxZoom: 9 });
@@ -3680,8 +3729,13 @@
               // Cascade overview pages: persistent glimmer on matched badge markers.
               if (slug.endsWith("-cascade")) lm.glowCascadeMarkers(feats);
             }
-          } else if (binding.focus) {
-            map.flyTo(binding.focus.center, binding.focus.zoom || 8, { duration: 0.9 });
+          } else {
+            const card = await hiddenFeatureOverlay();
+            if (card) {
+              focusCard(card);
+            } else if (binding.focus) {
+              map.flyTo(binding.focus.center, binding.focus.zoom || 8, { duration: 0.9 });
+            }
           }
         }, 250);
 

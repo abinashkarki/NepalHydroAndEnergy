@@ -492,6 +492,7 @@ class LayerManager {
     this._activeSet = new Set();
     this._manualSet = new Set();
     this.cascadeGlowMarkers = new Set();  // DOM elements currently glowing for cascade pages
+    this.focusOverlay = null; // temporary selected-feature layer, independent of normal layer toggles
 
     // Zoom-aware simplification
     map.on("zoomend", () => {
@@ -1020,6 +1021,12 @@ class LayerManager {
     }
   }
 
+  clearFocusOverlay() {
+    if (!this.focusOverlay) return;
+    try { this.map.removeLayer(this.focusOverlay); } catch (e) {}
+    this.focusOverlay = null;
+  }
+
   // Expand a binding's layer key into the set of actual manifest keys to
   // search. A binding may reference an alias (e.g. "hydropower_points"); any
   // manifest layer whose `aliases` includes that alias also gets searched.
@@ -1034,6 +1041,31 @@ class LayerManager {
     return out;
   }
 
+  // Same expansion, but across all manifest keys rather than only layers that
+  // have already been preloaded. Used for focus overlays on hidden layers.
+  _resolveManifestLayerKeys(bindingLayer) {
+    const out = [];
+    if (this.manifest.layers[bindingLayer]) out.push(bindingLayer);
+    for (const k of Object.keys(this.manifest.layers)) {
+      if (k === bindingLayer) continue;
+      const aliases = (this.manifest.layers[k] || {}).aliases || [];
+      if (aliases.includes(bindingLayer)) out.push(k);
+    }
+    return out;
+  }
+
+  _featureMatchesBindingSpec(props, spec) {
+    if (!props || !spec) return false;
+    if (spec.id && (props.id === spec.id || props.corridor_id === spec.id || props.segment_id === spec.id)) return true;
+    if (spec.all) return true;
+    if (spec.match && spec.match.field) {
+      const v = (props[spec.match.field] || "").toString().toLowerCase();
+      if (spec.match.value != null && v === String(spec.match.value).toLowerCase()) return true;
+      if (spec.match.value_contains && v.includes(spec.match.value_contains.toLowerCase())) return true;
+    }
+    return false;
+  }
+
   findFeaturesForSlug(slug, bindings) {
     const page = (bindings.pages || {})[slug];
     if (!page) return [];
@@ -1046,19 +1078,84 @@ class LayerManager {
         if (!lyr) continue;
         lyr.eachLayer((sub) => {
           const p = sub.feature.properties || {};
-          let hit = false;
-          if (f.id && (p.id === f.id || p.corridor_id === f.id || p.segment_id === f.id)) hit = true;
-          else if (f.all) hit = true;
-          else if (f.match && f.match.field) {
-            const v = (p[f.match.field] || "").toString().toLowerCase();
-            if (f.match.value != null && v === String(f.match.value).toLowerCase()) hit = true;
-            if (f.match.value_contains && v.includes(f.match.value_contains.toLowerCase())) hit = true;
-          }
+          const hit = this._featureMatchesBindingSpec(p, f);
           if (hit) out.push({ key, layer: sub, props: p, primary });
         });
       }
     }
     return out;
+  }
+
+  async findFeatureDataForSlug(slug, bindings) {
+    const page = (bindings.pages || {})[slug];
+    if (!page) return [];
+    const out = [];
+    for (const f of page.features || []) {
+      const keys = this._resolveManifestLayerKeys(f.layer);
+      const primary = !!f.primary;
+      for (const key of keys) {
+        const def = this.manifest.layers[key];
+        if (!def) continue;
+        const rawData = await this._data(key);
+        const data = applyLayerFilter(rawData, def.filter);
+        for (const feat of data.features || []) {
+          const props = feat.properties || {};
+          if (this._featureMatchesBindingSpec(props, f)) {
+            out.push({ key, feature: feat, props, primary });
+          }
+        }
+      }
+    }
+    return out;
+  }
+
+  showFocusOverlay(featureRef, opts = {}) {
+    if (!featureRef || !featureRef.feature) return null;
+    this.clearFocusOverlay();
+    const def = this.manifest.layers[featureRef.key] || {};
+    const baseStyle = def.style || {};
+    const focusStyle = {
+      pane: def.kind === "point" ? "np-points" : (def.kind === "line" ? "np-lines" : "np-polygons"),
+      color: opts.color || "#2563eb",
+      weight: Math.max(4, Number(baseStyle.weight || 2) + 2),
+      opacity: 0.98,
+      fillColor: opts.fillColor || baseStyle.fillColor || "#60a5fa",
+      fillOpacity: def.kind === "polygon" ? 0.22 : 0.85,
+      dashArray: null,
+      interactive: true,
+      className: "np-focus-overlay",
+    };
+    let selected = null;
+    const overlay = L.geoJSON(featureRef.feature, {
+      style: () => focusStyle,
+      pointToLayer: (feat, latlng) => L.circleMarker(latlng, {
+        pane: "np-points",
+        radius: Math.max(11, Number((baseStyle && baseStyle.radius) || 8) + 4),
+        color: opts.color || "#2563eb",
+        weight: 3,
+        opacity: 0.98,
+        fillColor: opts.fillColor || "#60a5fa",
+        fillOpacity: 0.86,
+        className: "np-focus-overlay",
+      }),
+      onEachFeature: (feat, layer) => {
+        selected = layer;
+        layer.feature = feat;
+      },
+    }).addTo(this.map);
+    this.focusOverlay = overlay;
+    const layer = selected || (overlay.getLayers && overlay.getLayers()[0]);
+    if (!layer) {
+      this.clearFocusOverlay();
+      return null;
+    }
+    return {
+      key: featureRef.key,
+      layer,
+      props: featureRef.props || (featureRef.feature.properties || {}),
+      primary: !!featureRef.primary,
+      focusOverlay: true,
+    };
   }
 
   findFeatureByRef(ref) {
