@@ -2,7 +2,7 @@
 title: Kimathanka Arun HEP
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, koshi, sankhuwasabha]
 images: []
@@ -13,6 +13,10 @@ page_quality: analysis
 # Kimathanka Arun HEP
 
 Kimathanka Arun HEP is a 450 MW survey-stage project on the Arun in Sankhuwasabha. It is pinned in [[data-layer-top-10-capacity-projects]] because it is the eighth-largest marker in the display set and part of the same Arun corridor that makes [[arun-3]] nationally important.
+
+## Summary
+
+**Kimathanka Arun HEP is a 450 MW survey-stage project in the upper Arun/Koshi corridor.** The page tracks it as a later-horizon top-10 capacity marker linked to the same eastern basin logic as Arun-3.
 
 <!-- generated:specs:start -->
 
@@ -40,9 +44,11 @@ That makes it important for transmission and sequencing. A 450 MW project in upp
 
 The current layer treats Kimathanka Arun as survey-stage. The IPSDP milestone ladder groups **Kimathanka Arun** in the **2036-2040** project window. There is no confirmed construction start in the current wiki evidence set.
 
-## Map Interpretation
+## Limitations & Controversies
 
 The marker is a river-aligned project reference derived from a registry point. Use it for corridor and top-10 comparison, not final site analysis.
+
+The current wiki evidence does not confirm construction start, final design, financing, environmental and social approvals, evacuation arrangements, or COD timing. IPSDP places the project in a later 2036-2040 window, so it should not be treated as near-term supply.
 
 ## Registry note
 

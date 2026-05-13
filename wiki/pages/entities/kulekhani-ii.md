@@ -2,7 +2,7 @@
 title: Kulekhani II
 type: entity
 created: 2026-05-04
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, cascade, makawanpur]
 images: []
@@ -16,6 +16,10 @@ page_quality: analysis
 
 > [!note] **Cascade context**
 > Kulekhani II is the second plant in Nepal's only operational reservoir hydropower system. It operates as a cascade plant using discharge from [[kulekhani-i]] (60 MW, reservoir). See [[kulekhani-cascade]] for the full three-plant system overview including [[kulekhani-iii]] (14 MW). Combined generation in FY 2081/82: 279.8 GWh.
+
+## Summary
+
+**Kulekhani II is the 32 MW middle plant in Nepal's only operating reservoir-fed hydropower cascade.** The page tracks its dependence on Kulekhani I releases, supplementary inflows, FY 2081/82 performance, and aging-infrastructure role.
 
 <!-- generated:specs:start -->
 
@@ -99,6 +103,10 @@ requires a major dam or turbine overhaul, KL2's generation suspends
 automatically — it has no independent water source. Both plants are
 vintage, both have NEA as sole owner/operator, and both are essential
 to the dry-season grid. There is no redundancy. See [[storage-deficit]].
+
+## Limitations & Controversies
+
+Kulekhani II's performance cannot be evaluated independently of Kulekhani I reservoir operation. The page relies on NEA annual-report operating data and does not separately verify plant-level outage history, remaining equipment life, Rapti/Mandu supplementary-flow reliability, or rehabilitation needs.
 
 ## See also
 

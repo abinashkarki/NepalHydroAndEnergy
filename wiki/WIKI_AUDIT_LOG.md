@@ -1229,6 +1229,39 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-13 — Entity Pages Batch 3
+
+**Agent:** Codex
+**Session type:** Entity-page structural cleanup — 10 pages
+**Pages touched:**
+- `entities/khimti-cascade`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/khimti-ii`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/khudi-220-132kv-substation`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/khungri-solar-hybrid-50mw`: +`## Summary`; renamed `## Operational questions to watch` to `## Limitations & Controversies`; updated frontmatter date.
+- `entities/kimathanka-arun`: +`## Summary`; canonicalized map/caveat material under `## Limitations & Controversies`; updated frontmatter date.
+- `entities/kohalpur-surkhet-dailekh-132`: +`## Summary`; renamed `## Caveats` to `## Limitations & Controversies`; updated frontmatter date.
+- `entities/kokhajor-1`: +`## Summary`; canonicalized map/caveat material under `## Limitations & Controversies`; updated frontmatter date.
+- `entities/kulekhani-i`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/kulekhani-ii`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/kulekhani-iii`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean`.
+- **Before:** 112 total warnings.
+- **After:** 92 total warnings.
+- **Delta:** -20 warnings, all entity-page section warnings.
+- `git diff --check`: clean.
+- `make test`: passed, including source Used By integrity and strict search benchmark 50/50.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Limited batch to 10 entity pages.
+- Did not touch sources, concepts, claims, data pages, explorer runtime, map data, or generated indexes.
+- Kept Kulekhani additions bounded to existing operating/sedimentation/cascade context rather than adding new research.
+
+---
+
 ## 2026-05-13 — Entity Pages Batch 2
 
 **Agent:** Codex

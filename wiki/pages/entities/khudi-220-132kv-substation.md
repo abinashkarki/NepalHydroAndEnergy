@@ -2,7 +2,7 @@
 title: Khudi 220/132 kV Substation
 type: entity
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [substation, cover-evidence, nea, 220kv, 132kv]
 images:
@@ -25,12 +25,20 @@ That is enough to treat the image as a reliable official visual reference for
 the substation, even though the annual report does not provide a fuller
 equipment or commissioning note in the same cover caption.
 
+## Summary
+
+**Khudi 220/132 kV Substation is recorded here through official NEA FY 2024/25 back-cover evidence.** The page is a visual-evidence stub, not a full substation technical profile.
+
 ## What is confirmed here
 
 - The annual report's upper back-cover photo is explicitly assigned to Khudi
   220/132 kV Substation.
 - The crop on this page isolates that upper photo from the combined back-cover
   page.
+
+## Limitations & Controversies
+
+The page confirms the official image attribution but does not yet verify transformer capacity, bays, commissioning date, connected lines, loading, contractor package, or operational status from a detailed substation source. It should not be used as a complete asset record.
 
 ## Related
 

@@ -2,7 +2,7 @@
 title: Kokhajor-1
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2]
@@ -13,6 +13,10 @@ images: []
 # Kokhajor-1
 
 Kokhajor-1 is a 111.5 MW JICA promising-storage candidate in the Koshi basin. It is pinned in [[data-layer-storage-shortlist]] because it has a high dry-energy share for a relatively small project.
+
+## Summary
+
+**Kokhajor-1 is a 111.5 MW JICA promising-storage candidate in the Koshi basin.** The page records its high dry-season share and storage metrics as part of the storage-shortlist portfolio.
 
 <!-- generated:specs:start -->
 
@@ -68,9 +72,11 @@ Kokhajor-1 is a planning candidate from the JICA/NEA storage material. The curre
 
 The next useful evidence would be an updated feasibility package, project sponsor, environmental review, grid-interconnection plan, and whether it remains in the preferred storage portfolio after newer screening.
 
-## Map Interpretation
+## Limitations & Controversies
 
 The marker uses a Kokhajor Khola river anchor from Nominatim. It is suitable for orientation, not final engineering geography.
+
+The current record is planning-stage. It does not verify a developer award, active licence conversion, feasibility update, environmental review, grid-interconnection plan, final dam location, or COD target beyond the JICA/NEA storage-screening context.
 
 ## Registry note
 

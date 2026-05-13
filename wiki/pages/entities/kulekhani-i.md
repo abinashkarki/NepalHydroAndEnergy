@@ -2,7 +2,7 @@
 title: Kulekhani I
 type: entity
 created: 2026-05-04
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, storage, reservoir, makawanpur]
 images: []
@@ -16,6 +16,10 @@ page_quality: analysis
 
 > [!note] **Cascade context**
 > Kulekhani I is the upper reservoir plant in Nepal's only operational reservoir hydropower system. See [[kulekhani-cascade]] for the full three-plant system overview including [[kulekhani-ii]] (32 MW) and [[kulekhani-iii]] (14 MW). Combined generation in FY 2081/82: 279.8 GWh across all three plants.
+
+## Summary
+
+**Kulekhani I is Nepal's 60 MW upper reservoir hydropower plant and the anchor of the country's only operating storage cascade.** The page documents its seasonal-shifting role, FY 2081/82 operating data, and sedimentation evidence.
 
 <!-- generated:specs:start -->
 
@@ -216,6 +220,10 @@ These measures, combined with watershed afforestation, have reduced the
 annual sedimentation rate from 13.3 t/ha/yr (2002) to 4.8 t/ha/yr (2018).
 But the cumulative capacity loss continues — and no intervention deployed
 to date has reversed it.
+
+## Limitations & Controversies
+
+Kulekhani I is well documented relative to many entity pages, but its storage-loss figures come from multiple measurement and modeling frames that should not be casually merged. Current live storage, sedimentation rate, operating rule curves, dredging feasibility, and climate-era inflow reliability require updated technical verification before using the page for project-design benchmarking.
 
 ## See also
 

@@ -2,7 +2,7 @@
 title: Khimti II
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25, icra-nepal-surveillance-a996-b119]
 tags: [project, under-construction, private-ipp, dolakha, koshi]
 images: []
@@ -13,6 +13,10 @@ page_quality: analysis
 # Khimti II
 
 48.8 MW · under construction (generation licence) · on the Khimti Khola · in Dolakha district. A **Peoples Energy Limited (PEL)** project — part of the **RM Group** — sharing the Khimti Khola river with [[khimti-i]] but following an entirely different developer lineage and era.
+
+## Summary
+
+**Khimti II is a 48.8 MW under-construction run-of-river project on the Khimti Khola in Dolakha.** The page distinguishes it from Khimti-I, documents its PEL/RM Group ownership, and tracks its construction, PPA, financing, credit, and corridor-dependency risks.
 
 <!-- generated:specs:start -->
 
@@ -193,6 +197,10 @@ assigned to [[likhu-4]] (under construction). The ratings reflect:
   the 10-bank consortium diversifies refinancing risk, and the Pelton
   turbine configuration on a high-head site implies strong operating
   margins once commissioned
+
+## Limitations & Controversies
+
+Several fields depend on rating reports and source snapshots rather than post-COD operating evidence. RCOD, target COD, construction progress, final cost, IPO status, and corridor congestion exposure should be refreshed against current project disclosures before financial or delivery conclusions are treated as settled.
 
 ## See also
 

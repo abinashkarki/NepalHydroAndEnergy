@@ -2,7 +2,7 @@
 title: Khungri Solar Award (50 MW, Rolpa)
 type: entity
 created: 2026-04-23
-updated: 2026-05-07
+updated: 2026-05-13
 sources: [nea-solar-loi-2024]
 tags: [solar, khungri, rolpa, lumbini, tender, loi, ipp, substation, planned]
 generator: manual
@@ -12,6 +12,10 @@ page_quality: analysis
 # Khungri Solar Award (50 MW, Rolpa)
 
 Khungri is a **50 MW LoI-awarded solar project in Rolpa district**, selected in NEA's 960 MW national solar procurement round. The corrected NEA LoI identifies **Rapti Urja Pvt. Ltd.** as the bidder, **Khungri** as the substation / grid-node anchor, and **NPR 5.21/kWh** as the awarded tariff.
+
+## Summary
+
+**Khungri is a 50 MW LoI-awarded IPP solar project anchored to the Khungri grid node in Rolpa.** The page treats it as a planned tender award from NEA's 960 MW solar procurement round, not as an operating or confirmed hybrid project.
 
 ## Specifications
 
@@ -42,7 +46,7 @@ The corrected NEA source does not establish NEA ownership, COD, or a commissione
 
 Khungri sits in the same broad western mid-hill geography where solar, substations, and hydropower evacuation corridors can overlap. That makes it relevant to [[hybrid-siting-logic]], but the LoI record alone does not prove shared hydro-solar substation operation.
 
-## Operational questions to watch
+## Limitations & Controversies
 
 | Question | Why it matters |
 |---|---|

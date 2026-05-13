@@ -2,7 +2,7 @@
 title: Kulekhani III
 type: entity
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, storage, cascade, makawanpur]
 images: []
@@ -20,6 +20,10 @@ page_quality: analysis
 > natural flow of the Khani Khola. See [[kulekhani-cascade]] for the
 > full three-plant system overview. Combined generation in FY 2081/82:
 > 279.8 GWh across all three plants.
+
+## Summary
+
+**Kulekhani III is the 14 MW tail-end plant in Nepal's only operating reservoir-fed cascade.** The page tracks its role as the downstream efficiency link that depends on Kulekhani I and II dispatch as well as Khani Khola natural flow.
 
 <!-- generated:specs:start -->
 
@@ -129,6 +133,10 @@ The [[storage-deficit]] page frames the broader argument. Kulekhani III
 is the concrete endpoint: the last turbine in Nepal's only storage
 system, proving that reservoir-to-cascade generation works at every
 stage — and that Nepal has built exactly one such system.
+
+## Limitations & Controversies
+
+Kulekhani III's output is second-order dependent on upstream reservoir and cascade dispatch, so target achievement should not be read as standalone hydrological strength. The page does not independently verify unit availability, rehabilitation needs, Khani Khola contribution, or future performance under lower reservoir-fill years.
 
 ## Sources
 
