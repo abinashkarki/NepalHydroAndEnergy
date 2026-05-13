@@ -2617,13 +2617,6 @@
   <div class="layout" id="layout">
     <aside class="pane left">
       <div class="left-head">
-        <div class="tour-toggle" id="tour-mode-toggle" role="button" tabindex="0" aria-pressed="false">
-          <div class="tt-text">
-            <div class="tt-label" id="tour-toggle-label">Guided tour <span class="tt-beta">beta</span></div>
-            <div class="tt-hint" id="tour-toggle-hint">off</div>
-          </div>
-          <div class="tour-switch" id="tour-switch" aria-hidden="true"></div>
-        </div>
         <div class="search-input-wrap" id="search-wrap">
           <span class="si">⌕</span>
           <input id="q" placeholder="Find pages…" autocomplete="off" />
@@ -2650,7 +2643,6 @@
     <div class="splitter" id="split-1" aria-label="Resize left pane"></div>
 
     <main class="pane center">
-      <div class="tour-rail" id="tour-rail"></div>
       <div class="markdown" id="page"></div>
     </main>
 
@@ -2705,6 +2697,7 @@
       let seekSeq = 0;
       let collapsedGroups = new Set(JSON.parse(localStorage.getItem("explorer.collapsedGroups") || "[]"));
       let suppressUrlSync = false;
+      const TOURS_ENABLED = false;
       let tourManifest = null;
       let tourState = { enabled: false, active: false, tourId: null, mode: "short", stepIndex: 0 };
       let compactView = "find";
@@ -4745,8 +4738,8 @@
         if (currentPreset) params.set("preset", currentPreset);
         if (currentFactId) params.set("fact", currentFactId);
         else if (currentSlug) params.set("page", currentSlug);
-        if (tourState.enabled) params.set("guided", "1");
-        if (tourState.enabled && tourState.active && tourState.tourId) {
+        if (TOURS_ENABLED && tourState.enabled) params.set("guided", "1");
+        if (TOURS_ENABLED && tourState.enabled && tourState.active && tourState.tourId) {
           params.set("tour", tourState.tourId);
           params.set("mode", tourState.mode);
           const step = activeTourStep();
@@ -4787,7 +4780,7 @@
           loadJSON("shared/layer-manifest.json"),
           loadJSON("shared/bindings.json"),
           loadJSON("shared/presets.json"),
-          loadJSON("shared/tour-manifest.json"),
+          Promise.resolve(null),
           loadJSON("shared/hydropower-slug-aliases.json"),
           window.NepalExplorer.buildPageIndex(),
           loadJSON("shared/wiki-page-meta-slim.json"),
@@ -4797,7 +4790,7 @@
         manifest = manifestData;
         bindings = bindingsData;
         presetsCfg = presetsData;
-        tourManifest = tourData;
+        tourManifest = TOURS_ENABLED ? tourData : null;
         hydropowerSlugAliases = aliasesData;
         pageIndex = pageIndexData;
         spatialSlugs = new Set(Object.keys(bindings.pages || {}));
@@ -4862,13 +4855,15 @@
           if (tourState.enabled) startTour(tourState.tourId, tourState.mode);
         };
         const tourModeToggle = document.getElementById("tour-mode-toggle");
-        tourModeToggle.addEventListener("click", toggleTourMode);
-        tourModeToggle.addEventListener("keydown", (e) => {
-          if (e.key === "Enter" || e.key === " ") {
-            e.preventDefault();
-            toggleTourMode();
-          }
-        });
+        if (TOURS_ENABLED && tourModeToggle) {
+          tourModeToggle.addEventListener("click", toggleTourMode);
+          tourModeToggle.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              toggleTourMode();
+            }
+          });
+        }
 
         setSearchMode(searchMode);
 
@@ -4937,9 +4932,14 @@
         // Resolve initial state: URL > localStorage > config default
         const url = readUrlState();
         setCompactView(initialCompactView(url), { persist: false });
-        tourState.enabled = (url.guided === "1") || (localStorage.getItem("explorer.guidedEnabled") === "1");
-        tourState.tourId = url.tour || localStorage.getItem("explorer.tour") || tourManifest.default_tour || Object.keys(tourManifest.tours || {})[0] || null;
-        tourState.mode = (tourManifest.modes && tourManifest.modes[url.mode]) ? url.mode : (localStorage.getItem("explorer.tourMode") || tourManifest.default_mode || "short");
+        if (TOURS_ENABLED && tourManifest) {
+          tourState.enabled = (url.guided === "1") || (localStorage.getItem("explorer.guidedEnabled") === "1");
+          tourState.tourId = url.tour || localStorage.getItem("explorer.tour") || tourManifest.default_tour || Object.keys(tourManifest.tours || {})[0] || null;
+          tourState.mode = (tourManifest.modes && tourManifest.modes[url.mode]) ? url.mode : (localStorage.getItem("explorer.tourMode") || tourManifest.default_mode || "short");
+        } else {
+          tourState = { enabled: false, active: false, tourId: null, mode: "short", stepIndex: 0 };
+          localStorage.removeItem("explorer.guidedEnabled");
+        }
         const savedPreset = localStorage.getItem("explorer.preset");
         const initialPreset = url.preset || savedPreset || presetsCfg.default_preset;
 
@@ -4956,8 +4956,9 @@
         } else {
           syncUrl();
         }
-        applyTourEnabledState();
-        if (tourState.enabled && url.tour && tourManifest.tours[url.tour]) {
+        if (TOURS_ENABLED) applyTourEnabledState();
+        else clearTourNote();
+        if (TOURS_ENABLED && tourState.enabled && url.tour && tourManifest.tours[url.tour]) {
           startTour(url.tour, tourState.mode, url.step || null);
         }
 
