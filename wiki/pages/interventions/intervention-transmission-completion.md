@@ -5,8 +5,39 @@ type: intervention
 tags: [transmission, Hetauda-Dhalkebar, Butwal-Gorakhpur, community-resistance, curtailment, grid, backbone]
 excerpt: Resolve the community resistance blocking the Hetauda–Dhalkebar 400 kV transmission line and complete the remaining cross-border corridors as the single highest-ROI near-term infrastructure action in Nepal's energy system.
 page_quality: analysis
+brief:
+  headline: "Complete the last 14 towers on Hetauda–Dhalkebar 400 kV plus the second cross-border line at Butwal–Gorakhpur — the closest thing to a sure win in Nepal's grid."
+  what: "April 2026 ministerial mediation resolved compensation; construction resumed under police security with a mid-July 2026 target. Cumulative delay cost runs into tens of billions of NPR — vastly larger than the cost of the line itself."
+  metrics:
+    - { label: "Hetauda–Dhalkebar built",  value: "98.24% (781/795)" }
+    - { label: "Towers remaining",         value: "14 (Wards 15–17)" }
+    - { label: "Annual avoided loss",      value: "NPR 5–6 billion" }
+    - { label: "Stranded MW daily",        value: "700–800 MW" }
+    - { label: "Backbone length",          value: "134 km" }
+    - { label: "Target completion",        value: "Mid-July 2026" }
+  signal: green
+  signal_note: "Resolution mechanism in execution; main risk is re-escalation if compensation evaluation stalls."
+  why_it_matters: "This is the rare intervention where the engineering, finance, and political work are already done — it is purely an execution problem with quantified cost of delay."
+  audiences: [policymakers, investors, journalists]
 ---
 # Transmission Completion
+
+<!-- generated:brief:start -->
+
+## Brief
+
+<p class="wiki-brief-signal" data-signal="green"><strong>Signal: Green.</strong> Resolution mechanism in execution; main risk is re-escalation if compensation evaluation stalls.</p>
+
+**Complete the last 14 towers on Hetauda–Dhalkebar 400 kV plus the second cross-border line at Butwal–Gorakhpur — the closest thing to a sure win in Nepal's grid.** April 2026 ministerial mediation resolved compensation; construction resumed under police security with a mid-July 2026 target. Cumulative delay cost runs into tens of billions of NPR — vastly larger than the cost of the line itself.
+
+| Hetauda–Dhalkebar built | Towers remaining | Annual avoided loss | Stranded MW daily | Backbone length | Target completion |
+|---|---|---|---|---|---|
+| 98.24% (781/795) | 14 (Wards 15–17) | NPR 5–6 billion | 700–800 MW | 134 km | Mid-July 2026 |
+
+_Why it matters: This is the rare intervention where the engineering, finance, and political work are already done — it is purely an execution problem with quantified cost of delay._
+
+<!-- generated:brief:end -->
+
 
 ## The Intervention
 

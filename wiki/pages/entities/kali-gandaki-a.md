@@ -2,7 +2,7 @@
 title: Kali Gandaki A
 type: entity
 created: 2026-04-20
-updated: 2026-05-11
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [kali-gandaki-a-adb-evaluation, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
@@ -33,9 +33,40 @@ images:
     credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+brief:
+  headline: "Nepal's largest single plant for two decades — 144 MW NEA workhorse running ~30% under design energy."
+  what: "Run-of-river-with-pondage at Mirmi (Syangja/Palpa), commissioned 2002 with ADB and JBIC financing. The reference case for what a multilaterally-financed, NEA-operated fleet anchor looks like at age 20+."
+  metrics:
+    - { label: "Capacity",       value: "144 MW" }
+    - { label: "Commissioned",   value: "2002" }
+    - { label: "Design energy",  value: "860 GWh/yr" }
+    - { label: "Avg actual",     value: "~592 GWh/yr (−30%)" }
+    - { label: "Units",          value: "3 × 48 MW Francis" }
+    - { label: "Owner",          value: "NEA (Nepali state)" }
+  signal: amber
+  signal_note: "Sediment, aging electromechanicals, rehab overhang; firm but declining."
+  why_it_matters: "The cleanest real-world demonstration of the gap between nameplate MW and delivered energy — the analytical core of the wiki's installed-vs-firm distinction."
+  audiences: [policymakers, investors, journalists]
 ---
 
 # Kali Gandaki A
+
+<!-- generated:brief:start -->
+
+## Brief
+
+<p class="wiki-brief-signal" data-signal="amber"><strong>Signal: Amber.</strong> Sediment, aging electromechanicals, rehab overhang; firm but declining.</p>
+
+**Nepal's largest single plant for two decades — 144 MW NEA workhorse running ~30% under design energy.** Run-of-river-with-pondage at Mirmi (Syangja/Palpa), commissioned 2002 with ADB and JBIC financing. The reference case for what a multilaterally-financed, NEA-operated fleet anchor looks like at age 20+.
+
+| Capacity | Commissioned | Design energy | Avg actual | Units | Owner |
+|---|---|---|---|---|---|
+| 144 MW | 2002 | 860 GWh/yr | ~592 GWh/yr (−30%) | 3 × 48 MW Francis | NEA (Nepali state) |
+
+_Why it matters: The cleanest real-world demonstration of the gap between nameplate MW and delivered energy — the analytical core of the wiki's installed-vs-firm distinction._
+
+<!-- generated:brief:end -->
+
 
 ## Summary
 

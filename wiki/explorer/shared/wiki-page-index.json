@@ -1172,6 +1172,18 @@
         "title": "Downstream River Geopolitics"
       },
       {
+        "slug": "for-investors",
+        "title": "For Investors"
+      },
+      {
+        "slug": "for-journalists",
+        "title": "For Journalists"
+      },
+      {
+        "slug": "for-policymakers",
+        "title": "For Policymakers"
+      },
+      {
         "slug": "ipsdp-2025-vs-wiki-claims",
         "title": "IPSDP 2025 vs Wiki Claims"
       },
@@ -1827,6 +1839,9 @@
     "stranded-generation",
     "bottleneck-hierarchy",
     "downstream-river-geopolitics",
+    "for-investors",
+    "for-journalists",
+    "for-policymakers",
     "ipsdp-2025-vs-wiki-claims",
     "master-thesis",
     "provider-comparison",
@@ -2209,6 +2224,9 @@
     "stranded-generation": "concepts",
     "bottleneck-hierarchy": "syntheses",
     "downstream-river-geopolitics": "syntheses",
+    "for-investors": "syntheses",
+    "for-journalists": "syntheses",
+    "for-policymakers": "syntheses",
     "ipsdp-2025-vs-wiki-claims": "syntheses",
     "master-thesis": "syntheses",
     "provider-comparison": "syntheses",
@@ -2591,6 +2609,9 @@
     "stranded-generation": "Stranded Generation",
     "bottleneck-hierarchy": "Bottleneck Hierarchy",
     "downstream-river-geopolitics": "Downstream River Geopolitics",
+    "for-investors": "For Investors",
+    "for-journalists": "For Journalists",
+    "for-policymakers": "For Policymakers",
     "ipsdp-2025-vs-wiki-claims": "IPSDP 2025 vs Wiki Claims",
     "master-thesis": "Master Thesis",
     "provider-comparison": "Evidence Review Notes",
@@ -2681,5 +2702,5 @@
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 380
+  "totalPages": 383
 }

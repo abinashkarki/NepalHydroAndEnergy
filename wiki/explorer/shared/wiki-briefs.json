@@ -1,0 +1,508 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-13T06:12:01Z",
+  "authored": [
+    {
+      "slug": "kali-gandaki-a",
+      "title": "Kali Gandaki A",
+      "category": "entities",
+      "type": "entity",
+      "source": "authored",
+      "headline": "Nepal's largest single plant for two decades — 144 MW NEA workhorse running ~30% under design energy.",
+      "what": "Run-of-river-with-pondage at Mirmi (Syangja/Palpa), commissioned 2002 with ADB and JBIC financing. The reference case for what a multilaterally-financed, NEA-operated fleet anchor looks like at age 20+.",
+      "metrics": [
+        {
+          "label": "Capacity",
+          "value": "144 MW"
+        },
+        {
+          "label": "Commissioned",
+          "value": "2002"
+        },
+        {
+          "label": "Design energy",
+          "value": "860 GWh/yr"
+        },
+        {
+          "label": "Avg actual",
+          "value": "~592 GWh/yr (−30%)"
+        },
+        {
+          "label": "Units",
+          "value": "3 × 48 MW Francis"
+        },
+        {
+          "label": "Owner",
+          "value": "NEA (Nepali state)"
+        }
+      ],
+      "signal": "amber",
+      "signal_note": "Sediment, aging electromechanicals, rehab overhang; firm but declining.",
+      "why_it_matters": "The cleanest real-world demonstration of the gap between nameplate MW and delivered energy — the analytical core of the wiki's installed-vs-firm distinction.",
+      "audiences": [
+        "policymakers",
+        "investors",
+        "journalists"
+      ]
+    },
+    {
+      "slug": "upper-tamakoshi",
+      "title": "Upper Tamakoshi",
+      "category": "entities",
+      "type": "entity",
+      "source": "authored",
+      "headline": "Nepal's flagship 456 MW plant is generating near its design — and is in formal financial default.",
+      "what": "RoR archetype on the Tama Koshi (Dolakha), 822 m head, NEA-subsidiary UKHLL. ICRA downgraded to D in FY 2081/82 after the September 2024 flood. The structural cause is a tariff that cannot service post-IDC debt even at 90% generation.",
+      "metrics": [
+        {
+          "label": "Capacity",
+          "value": "456 MW"
+        },
+        {
+          "label": "COD",
+          "value": "2021"
+        },
+        {
+          "label": "Design energy",
+          "value": "2,281 GWh/yr"
+        },
+        {
+          "label": "FY 80/81 actual",
+          "value": "2,058 GWh (90.2%)"
+        },
+        {
+          "label": "PPA wet/dry",
+          "value": "NPR 3.74 / 6.96 per kWh"
+        },
+        {
+          "label": "ICRA rating",
+          "value": "D (default)"
+        }
+      ],
+      "signal": "red",
+      "signal_note": "Formal default; NPR 2bn insurance claim unsettled; Rolwaling diversion blocked by conservation area dispute.",
+      "why_it_matters": "If Nepal's flagship project cannot service its debt at 90% generation, the country's risk-allocation framework for mega-projects is structurally exposed.",
+      "audiences": [
+        "policymakers",
+        "investors",
+        "journalists"
+      ]
+    },
+    {
+      "slug": "seasonal-mismatch",
+      "title": "Seasonal Mismatch",
+      "category": "concepts",
+      "type": "concept",
+      "source": "authored",
+      "headline": "Nepal's rivers flood for four months and shrink the rest of the year; demand stays flat. The hydropower fleet inherits both surpluses and shortfalls.",
+      "what": "Structural property of RoR hydro in a monsoon climate, not a temporary drought. 75%+ of annual river discharge arrives June–September. System generation swings from a monsoon peak to a winter trough by about 60–65%; demand barely moves.",
+      "metrics": [
+        {
+          "label": "Monsoon discharge share",
+          "value": "~75% in Jun–Sep"
+        },
+        {
+          "label": "Generation peak",
+          "value": "~2,200–2,500 MW"
+        },
+        {
+          "label": "Generation trough",
+          "value": "~600–900 MW"
+        },
+        {
+          "label": "Decline magnitude",
+          "value": "~60–65%"
+        },
+        {
+          "label": "RoR / PRoR fleet share",
+          "value": ">90%"
+        },
+        {
+          "label": "Reservoir storage share",
+          "value": "<5%"
+        }
+      ],
+      "signal": "green",
+      "signal_note": "Hydrologically and physically settled; debates are about portfolio response, not the underlying pattern.",
+      "why_it_matters": "Every other concept in the wiki — storage deficit, stranded generation, solar complementarity, India trade — is downstream of this one.",
+      "audiences": [
+        "policymakers",
+        "journalists"
+      ]
+    },
+    {
+      "slug": "for-investors",
+      "title": "For Investors",
+      "category": "syntheses",
+      "type": "synthesis",
+      "source": "authored",
+      "headline": "Per-project and system-level briefs covering capacity, generation, tariff, financing, and current signal — public knowledge, not investment advice.",
+      "what": "An entry door for developers, IPP CFOs, DFIs, and analysts. The wiki is a public research surface, not a project-finance overlay; use it for context and verify project-level financials in audited filings.",
+      "metrics": [
+        {
+          "label": "Project briefs (operating)",
+          "value": "2 (Kali Gandaki A, Upper Tamakoshi)"
+        },
+        {
+          "label": "System-level claim briefs",
+          "value": "3"
+        },
+        {
+          "label": "Intervention briefs",
+          "value": "1"
+        },
+        {
+          "label": "Hydro projects in spec CSV",
+          "value": "25"
+        },
+        {
+          "label": "Solar projects in spec CSV",
+          "value": "88"
+        },
+        {
+          "label": "Unverified flags",
+          "value": "0"
+        }
+      ],
+      "signal": "green",
+      "signal_note": "Public source discipline; not a substitute for due diligence or audited disclosures.",
+      "why_it_matters": "If you need a fast read on the system-level constraints behind any project — tariff, transmission, storage, India interface — this is the starting page.",
+      "audiences": []
+    },
+    {
+      "slug": "for-journalists",
+      "title": "For Journalists",
+      "category": "syntheses",
+      "type": "synthesis",
+      "source": "authored",
+      "headline": "Story-ready evidence. Every brief has six numbers, a traffic-light signal, and a source one click away.",
+      "what": "An entry door for reporters working a Nepal energy story on a deadline. The briefs are written to be verifiable in under five minutes; the underlying source pages list the primary documents the numbers come from.",
+      "metrics": [
+        {
+          "label": "Briefs (verified)",
+          "value": "8"
+        },
+        {
+          "label": "Source pages",
+          "value": "57"
+        },
+        {
+          "label": "Interventions tracked",
+          "value": "5"
+        },
+        {
+          "label": "Unverified flags",
+          "value": "0"
+        },
+        {
+          "label": "Refresh cadence",
+          "value": "monthly"
+        },
+        {
+          "label": "License",
+          "value": "see LICENSE"
+        }
+      ],
+      "signal": "green",
+      "signal_note": "Public, source-disciplined; cite the underlying claim/source pages, not this landing.",
+      "why_it_matters": "If you have an hour before deadline, this page is the route from a Nepal energy headline back to a primary document.",
+      "audiences": []
+    },
+    {
+      "slug": "for-policymakers",
+      "title": "For Policymakers",
+      "category": "syntheses",
+      "type": "synthesis",
+      "source": "authored",
+      "headline": "Briefing-pack entry door for policy advisors, ministry staff, and donor sector leads — eight system-spine briefs, all source-linked.",
+      "what": "Curated reading paths, the eight cross-linked briefs that anchor the wiki's narrative spine, and a downloadable markdown pack you can hand to a minister before a meeting.",
+      "metrics": [
+        {
+          "label": "Briefs in pack",
+          "value": "8"
+        },
+        {
+          "label": "Major claims (sourced)",
+          "value": "16"
+        },
+        {
+          "label": "Interventions",
+          "value": "5"
+        },
+        {
+          "label": "Wiki pages",
+          "value": "380"
+        },
+        {
+          "label": "Unverified flags",
+          "value": "0"
+        },
+        {
+          "label": "Refresh cadence",
+          "value": "monthly"
+        }
+      ],
+      "signal": "green",
+      "signal_note": "Public, source-disciplined; cite the underlying claim/data pages, not this landing.",
+      "why_it_matters": "If you have fifteen minutes before a meeting, this is the start. If you have an hour, follow one of the reading paths below.",
+      "audiences": []
+    },
+    {
+      "slug": "master-thesis",
+      "title": "Master Thesis",
+      "category": "syntheses",
+      "type": "synthesis",
+      "source": "authored",
+      "headline": "Nepal is not failing because it lacks hydropower potential — it is failing to convert that potential into firm, deliverable, financeable, politically-executable power.",
+      "what": "The conversion failure is a stack: seasonal mismatch, RoR dominance, storage deficit, stranded generation, sediment, buildability, governance. Solar-hydro complementarity is the first scalable resource that helps rather than worsens the dry-season problem.",
+      "metrics": [
+        {
+          "label": "Theoretical potential",
+          "value": "~83,000 MW"
+        },
+        {
+          "label": "Installed (FY 24/25)",
+          "value": "3,591 MW"
+        },
+        {
+          "label": "Dry-season firm hydro",
+          "value": "~1,100–1,300 MW"
+        },
+        {
+          "label": "Storage shortfall (order)",
+          "value": "~200×"
+        },
+        {
+          "label": "RoR fleet share",
+          "value": ">90%"
+        },
+        {
+          "label": "Solar-hydro LCOE crossover",
+          "value": "~2023"
+        }
+      ],
+      "signal": "amber",
+      "signal_note": "Diagnosis is settled in the wiki; the prescription (domestic-led hydro + solar + storage) is partially adopted in IPSDP 2025.",
+      "why_it_matters": "This is the wiki's top-level frame: every claim, intervention, and data page traces back to whether it accelerates or obstructs the conversion.",
+      "audiences": [
+        "policymakers",
+        "investors",
+        "journalists"
+      ]
+    },
+    {
+      "slug": "claim-mw-not-equal-value",
+      "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+      "category": "claims",
+      "type": "claim",
+      "source": "authored",
+      "headline": "Installed MW, annual generation, seasonal shape, and firm power are routinely conflated — producing misleading 'potential' and 'solved' narratives.",
+      "what": "Headline 83,000 MW potential is theoretical. Installed numbers disagree between NEA (3,591 MW FY 24/25) and the DoED operating registry (3,792 MW April 2026). Dry-season firm power is much smaller still. These are different accounting categories.",
+      "metrics": [
+        {
+          "label": "Theoretical potential",
+          "value": "~83,000 MW"
+        },
+        {
+          "label": "Installed (NEA FY24/25)",
+          "value": "3,591 MW"
+        },
+        {
+          "label": "Installed (DoED Apr 26)",
+          "value": "3,792 MW"
+        },
+        {
+          "label": "Hydro share",
+          "value": "3,390 MW"
+        },
+        {
+          "label": "Dry-season firm",
+          "value": "~1,100–1,300 MW"
+        },
+        {
+          "label": "Monsoon peak",
+          "value": "~2,200–2,500 MW"
+        }
+      ],
+      "signal": "green",
+      "signal_note": "Standard power-systems literacy; the corrective distinction is universally accepted.",
+      "why_it_matters": "Every public energy debate that treats nameplate MW as if it were firm or dispatchable produces a category error. Naming the categories is half the analytical work.",
+      "audiences": [
+        "policymakers",
+        "investors",
+        "journalists"
+      ]
+    },
+    {
+      "slug": "claim-storage-physical-fix",
+      "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+      "category": "claims",
+      "type": "claim",
+      "source": "authored",
+      "headline": "Seasonal storage is the clearest physical answer to Nepal's seasonal mismatch — even though it is not the easiest financial, social, or geopolitical answer.",
+      "what": "RoR-heavy systems reproduce wet-season surplus and dry-season scarcity by physics. Inter-seasonal energy shifting requires real reservoirs (multi-week to multi-month), not pondage. The implementation question is portfolio choice and sequencing, not whether storage works.",
+      "metrics": [
+        {
+          "label": "Current storage",
+          "value": "0.085–0.15 km³"
+        },
+        {
+          "label": "WB diagnostic framing",
+          "value": "29.86 km³"
+        },
+        {
+          "label": "Order-of-magnitude gap",
+          "value": "~200×"
+        },
+        {
+          "label": "Dry-season hydro floor",
+          "value": "~1,100–1,300 MW"
+        },
+        {
+          "label": "Monsoon capability",
+          "value": "~2,200–2,500 MW"
+        },
+        {
+          "label": "Decline from peak",
+          "value": "~60–65%"
+        }
+      ],
+      "signal": "green",
+      "signal_note": "Settled in physics and power-systems logic; portfolio choice remains open.",
+      "why_it_matters": "Without storage, every additional RoR MW makes the wet-season surplus larger while the dry-season floor barely lifts — the system grows lopsidedly.",
+      "audiences": [
+        "policymakers",
+        "investors",
+        "journalists"
+      ]
+    },
+    {
+      "slug": "claim-transmission-immediate-blocker",
+      "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
+      "category": "claims",
+      "type": "claim",
+      "source": "authored",
+      "headline": "Transmission and delivery readiness is now the #1 immediate monetization bottleneck — 700–800 MW spill daily in monsoon despite 3,500+ MW installed.",
+      "what": "The 400 kV east-west backbone remains incomplete (Hetauda–Dhalkebar at 98.24%, 14 towers blocked). Cross-border export capacity (~1,141 MW) lags installed generation (3,591 MW). Curtailment is the structural symptom.",
+      "metrics": [
+        {
+          "label": "Daily monsoon spill",
+          "value": "700–800 MW"
+        },
+        {
+          "label": "Annual NEA loss",
+          "value": "NPR 5–6 billion"
+        },
+        {
+          "label": "Hetauda–Dhalkebar built",
+          "value": "98.24% (781/795 towers)"
+        },
+        {
+          "label": "Towers blocked",
+          "value": "14 in Hetauda Wards 15–17"
+        },
+        {
+          "label": "Cross-border export cap.",
+          "value": "~1,141 MW"
+        },
+        {
+          "label": "Installed generation",
+          "value": "3,591 MW"
+        }
+      ],
+      "signal": "amber",
+      "signal_note": "Mechanism confirmed; April 2026 ministerial mediation in execution; upgrading toward high confidence.",
+      "why_it_matters": "Storage is the deeper physical answer to seasonal mismatch, but until the grid is built, no amount of generation translates into delivered power.",
+      "audiences": [
+        "policymakers",
+        "investors",
+        "journalists"
+      ]
+    },
+    {
+      "slug": "intervention-transmission-completion",
+      "title": "Transmission Completion",
+      "category": "interventions",
+      "type": "intervention",
+      "source": "authored",
+      "headline": "Complete the last 14 towers on Hetauda–Dhalkebar 400 kV plus the second cross-border line at Butwal–Gorakhpur — the closest thing to a sure win in Nepal's grid.",
+      "what": "April 2026 ministerial mediation resolved compensation; construction resumed under police security with a mid-July 2026 target. Cumulative delay cost runs into tens of billions of NPR — vastly larger than the cost of the line itself.",
+      "metrics": [
+        {
+          "label": "Hetauda–Dhalkebar built",
+          "value": "98.24% (781/795)"
+        },
+        {
+          "label": "Towers remaining",
+          "value": "14 (Wards 15–17)"
+        },
+        {
+          "label": "Annual avoided loss",
+          "value": "NPR 5–6 billion"
+        },
+        {
+          "label": "Stranded MW daily",
+          "value": "700–800 MW"
+        },
+        {
+          "label": "Backbone length",
+          "value": "134 km"
+        },
+        {
+          "label": "Target completion",
+          "value": "Mid-July 2026"
+        }
+      ],
+      "signal": "green",
+      "signal_note": "Resolution mechanism in execution; main risk is re-escalation if compensation evaluation stalls.",
+      "why_it_matters": "This is the rare intervention where the engineering, finance, and political work are already done — it is purely an execution problem with quantified cost of delay.",
+      "audiences": [
+        "policymakers",
+        "investors",
+        "journalists"
+      ]
+    }
+  ],
+  "auto_derived": [
+    {
+      "slug": "sahas-urja",
+      "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+      "category": "entities",
+      "type": "entity",
+      "source": "auto-derived",
+      "_auto_derived": true,
+      "headline": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project — 86 MW, operating.",
+      "what": "Auto-derived registry summary. See the page for engineering, governance, and source context.",
+      "metrics": [
+        {
+          "label": "Capacity",
+          "value": "86 MW"
+        },
+        {
+          "label": "Design energy",
+          "value": "520.2 GWh/yr"
+        },
+        {
+          "label": "PLF",
+          "value": "69.05%"
+        },
+        {
+          "label": "Dry share",
+          "value": "19.28%"
+        },
+        {
+          "label": "PPA wet/dry (NPR/kWh)",
+          "value": "4.8 / 8.4"
+        },
+        {
+          "label": "COD",
+          "value": "2023"
+        }
+      ],
+      "signal": null,
+      "signal_note": null,
+      "why_it_matters": null,
+      "audiences": []
+    }
+  ]
+}

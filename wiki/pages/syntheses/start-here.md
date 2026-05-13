@@ -18,6 +18,12 @@ The explorer has two ways in:
 - **Explore** is for questions. Try it when you want to compare topics, follow a tradeoff, or ask how pieces of the system connect.
 - **Find** is the page directory. Use it when you already know the page, project, source, or map layer you want.
 
+If you already know who you are, three reader doors will save you time:
+
+- [[for-policymakers]] — briefing-pack entry door for policy advisors, ministry staff, and donor sector leads.
+- [[for-investors]] — per-project and system-level briefs for developers, IPP CFOs, and DFI analysts. Public knowledge, not investment advice.
+- [[for-journalists]] — story-ready evidence: every brief has six numbers, a traffic-light signal, and a source one click away.
+
 The map is not just decoration. It links basins, projects, corridors, solar zones, storage candidates, downstream river systems, and source-backed records to the notes in this wiki.
 
 The default map lens is **Overview**. It keeps the first view broad on purpose: basin geography, major rivers, operating hydropower, storage candidates, transmission corridors, cross-border gateways, and solar context are all visible enough to orient the reader without turning the opening map into a specialist layer stack.

@@ -94,3 +94,7 @@ When assessing a page, ask:
 2. Is it trying to do more than one category's job? If so, split it.
 3. Does every claim trace to a source? If not, flag it.
 4. Is the purpose statement clear in the first 2-4 sentences? If not, add it.
+
+## Brief Block (orthogonal to tier)
+
+Independent of the tier above, every operating-project entity, major claim, intervention, and synthesis-referenced concept should carry a top-of-page **brief block**: one headline, one short "what this is" paragraph, six metrics, one traffic-light signal, one "why it matters" line. See `wiki/TEMPLATES.md` for the schema. The brief block is the unit of content that powers the persona briefing packs and the explorer's signal badges. A page can be at any tier and still have a brief; conversely, a stub may not carry a brief if there is not yet enough public evidence to fill the six metrics honestly.

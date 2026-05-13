@@ -2,15 +2,44 @@
 title: Storage Is the Clearest Physical Answer to Seasonal Mismatch
 type: claim
 created: 2026-04-14
-updated: 2026-05-12
+updated: 2026-05-13
 claim_id: C-008
 confidence: high
 status: stable
 sources: [wb-water-sector-diagnostic, wecs-energy-synopsis-2024, data-storage-comparison]
 tags: [storage, seasonal-mismatch, infrastructure, tradeoffs]
 page_quality: analysis
+brief:
+  headline: "Seasonal storage is the clearest physical answer to Nepal's seasonal mismatch — even though it is not the easiest financial, social, or geopolitical answer."
+  what: "RoR-heavy systems reproduce wet-season surplus and dry-season scarcity by physics. Inter-seasonal energy shifting requires real reservoirs (multi-week to multi-month), not pondage. The implementation question is portfolio choice and sequencing, not whether storage works."
+  metrics:
+    - { label: "Current storage",          value: "0.085–0.15 km³" }
+    - { label: "WB diagnostic framing",    value: "29.86 km³" }
+    - { label: "Order-of-magnitude gap",   value: "~200×" }
+    - { label: "Dry-season hydro floor",   value: "~1,100–1,300 MW" }
+    - { label: "Monsoon capability",       value: "~2,200–2,500 MW" }
+    - { label: "Decline from peak",        value: "~60–65%" }
+  signal: green
+  signal_note: "Settled in physics and power-systems logic; portfolio choice remains open."
+  why_it_matters: "Without storage, every additional RoR MW makes the wet-season surplus larger while the dry-season floor barely lifts — the system grows lopsidedly."
+  audiences: [policymakers, investors, journalists]
 ---
 
+<!-- generated:brief:start -->
+
+## Brief
+
+<p class="wiki-brief-signal" data-signal="green"><strong>Signal: Green.</strong> Settled in physics and power-systems logic; portfolio choice remains open.</p>
+
+**Seasonal storage is the clearest physical answer to Nepal's seasonal mismatch — even though it is not the easiest financial, social, or geopolitical answer.** RoR-heavy systems reproduce wet-season surplus and dry-season scarcity by physics. Inter-seasonal energy shifting requires real reservoirs (multi-week to multi-month), not pondage. The implementation question is portfolio choice and sequencing, not whether storage works.
+
+| Current storage | WB diagnostic framing | Order-of-magnitude gap | Dry-season hydro floor | Monsoon capability | Decline from peak |
+|---|---|---|---|---|---|
+| 0.085–0.15 km³ | 29.86 km³ | ~200× | ~1,100–1,300 MW | ~2,200–2,500 MW | ~60–65% |
+
+_Why it matters: Without storage, every additional RoR MW makes the wet-season surplus larger while the dry-season floor barely lifts — the system grows lopsidedly._
+
+<!-- generated:brief:end -->
 ## Claim
 
 **Seasonal storage** (multi-week to multi-month energy shifting) is the clearest **physical** answer to Nepal's **seasonal power mismatch**—even though it is not the easiest **financial, social, or geopolitical** answer.

@@ -38,9 +38,40 @@ images:
     credit: "Nepal Electricity Authority, A Year in Review FY 2024/25"
     license: gov-permissive
     source_url: "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
+brief:
+  headline: "Nepal's flagship 456 MW plant is generating near its design — and is in formal financial default."
+  what: "RoR archetype on the Tama Koshi (Dolakha), 822 m head, NEA-subsidiary UKHLL. ICRA downgraded to D in FY 2081/82 after the September 2024 flood. The structural cause is a tariff that cannot service post-IDC debt even at 90% generation."
+  metrics:
+    - { label: "Capacity",          value: "456 MW" }
+    - { label: "COD",               value: "2021" }
+    - { label: "Design energy",     value: "2,281 GWh/yr" }
+    - { label: "FY 80/81 actual",   value: "2,058 GWh (90.2%)" }
+    - { label: "PPA wet/dry",       value: "NPR 3.74 / 6.96 per kWh" }
+    - { label: "ICRA rating",       value: "D (default)" }
+  signal: red
+  signal_note: "Formal default; NPR 2bn insurance claim unsettled; Rolwaling diversion blocked by conservation area dispute."
+  why_it_matters: "If Nepal's flagship project cannot service its debt at 90% generation, the country's risk-allocation framework for mega-projects is structurally exposed."
+  audiences: [policymakers, investors, journalists]
 ---
 
 # Upper Tamakoshi
+
+<!-- generated:brief:start -->
+
+## Brief
+
+<p class="wiki-brief-signal" data-signal="red"><strong>Signal: Red.</strong> Formal default; NPR 2bn insurance claim unsettled; Rolwaling diversion blocked by conservation area dispute.</p>
+
+**Nepal's flagship 456 MW plant is generating near its design — and is in formal financial default.** RoR archetype on the Tama Koshi (Dolakha), 822 m head, NEA-subsidiary UKHLL. ICRA downgraded to D in FY 2081/82 after the September 2024 flood. The structural cause is a tariff that cannot service post-IDC debt even at 90% generation.
+
+| Capacity | COD | Design energy | FY 80/81 actual | PPA wet/dry | ICRA rating |
+|---|---|---|---|---|---|
+| 456 MW | 2021 | 2,281 GWh/yr | 2,058 GWh (90.2%) | NPR 3.74 / 6.96 per kWh | D (default) |
+
+_Why it matters: If Nepal's flagship project cannot service its debt at 90% generation, the country's risk-allocation framework for mega-projects is structurally exposed._
+
+<!-- generated:brief:end -->
+
 
 <figure class="wiki-inline-figure">
   <img src="../assets/images/upper-tamakoshi/nea2425-p093-img01.png" alt="Permanent Camp Facility">

@@ -2,15 +2,44 @@
 title: Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-13
 claim_id: C-019
 confidence: medium-high
 status: verified-with-caveats
 sources: [nea-annual-report-fy2024-25, wb-nepal-power-sector-reform-2022, india-cbte-2018]
 tags: [transmission, grid, curtailment, trade, monetization]
 page_quality: analysis
+brief:
+  headline: "Transmission and delivery readiness is now the #1 immediate monetization bottleneck — 700–800 MW spill daily in monsoon despite 3,500+ MW installed."
+  what: "The 400 kV east-west backbone remains incomplete (Hetauda–Dhalkebar at 98.24%, 14 towers blocked). Cross-border export capacity (~1,141 MW) lags installed generation (3,591 MW). Curtailment is the structural symptom."
+  metrics:
+    - { label: "Daily monsoon spill",      value: "700–800 MW" }
+    - { label: "Annual NEA loss",          value: "NPR 5–6 billion" }
+    - { label: "Hetauda–Dhalkebar built",  value: "98.24% (781/795 towers)" }
+    - { label: "Towers blocked",           value: "14 in Hetauda Wards 15–17" }
+    - { label: "Cross-border export cap.", value: "~1,141 MW" }
+    - { label: "Installed generation",     value: "3,591 MW" }
+  signal: amber
+  signal_note: "Mechanism confirmed; April 2026 ministerial mediation in execution; upgrading toward high confidence."
+  why_it_matters: "Storage is the deeper physical answer to seasonal mismatch, but until the grid is built, no amount of generation translates into delivered power."
+  audiences: [policymakers, investors, journalists]
 ---
 
+<!-- generated:brief:start -->
+
+## Brief
+
+<p class="wiki-brief-signal" data-signal="amber"><strong>Signal: Amber.</strong> Mechanism confirmed; April 2026 ministerial mediation in execution; upgrading toward high confidence.</p>
+
+**Transmission and delivery readiness is now the #1 immediate monetization bottleneck — 700–800 MW spill daily in monsoon despite 3,500+ MW installed.** The 400 kV east-west backbone remains incomplete (Hetauda–Dhalkebar at 98.24%, 14 towers blocked). Cross-border export capacity (~1,141 MW) lags installed generation (3,591 MW). Curtailment is the structural symptom.
+
+| Daily monsoon spill | Annual NEA loss | Hetauda–Dhalkebar built | Towers blocked | Cross-border export cap. | Installed generation |
+|---|---|---|---|---|---|
+| 700–800 MW | NPR 5–6 billion | 98.24% (781/795 towers) | 14 in Hetauda Wards 15–17 | ~1,141 MW | 3,591 MW |
+
+_Why it matters: Storage is the deeper physical answer to seasonal mismatch, but until the grid is built, no amount of generation translates into delivered power._
+
+<!-- generated:brief:end -->
 ## Claim
 
 **Transmission and delivery readiness** may be the **#1 immediate monetization bottleneck**—turning available energy into **paid**, **moved**, **non-curtailed** deliveries—even if **seasonal storage** remains the deeper **physical** bottleneck for firm domestic and strategic export shape.

@@ -22,6 +22,14 @@ The explorer now opens with [[start-here]], a public entry page designed for fir
 - [[solar-hydro-complementarity]] - why solar changes the power-system portfolio
 - [[seasonal-arbitrage-trap]] - how wet-season exports and dry-season imports can destroy value
 
+## Reader doors
+
+Persona-specific entry pages, each with a curated reading path and a downloadable briefing pack.
+
+- [[for-policymakers]] - briefing-pack entry door for policy advisors, ministry staff, and donor sector leads
+- [[for-investors]] - per-project and system-level briefs for developers, IPP CFOs, and DFI analysts
+- [[for-journalists]] - story-ready evidence with six numbers, one signal, and a source one click away
+
 ## Map Lenses
 
 - [[data-map-layer-labels]] - guide to every explorer layer and what each layer should, and should not, be used to infer
@@ -55,4 +63,4 @@ The explorer now opens with [[start-here]], a public entry page designed for fir
 
 Some project pages are concise data-backed records rather than finished narrative articles. They preserve map coverage and registry facts for public navigation. Pages with fuller interpretation link out to source notes, claims, and data pages so readers can follow the evidence trail.
 
-The explorer currently indexes 380 wiki pages across sources, entities, concepts, syntheses, claims, data, and interventions.
+The explorer currently indexes 383 wiki pages across sources, entities, concepts, syntheses, claims, data, and interventions.
