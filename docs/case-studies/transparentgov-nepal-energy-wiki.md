@@ -1,4 +1,6 @@
-# TransparentGov AI Nepal Energy Wiki: Public Energy Knowledge Infrastructure
+# Nepal Energy Wiki — a TransparentGov project
+
+> The first content vertical of TransparentGov, a citizen-led civic knowledge platform. This document describes the design, architecture, and engineering decisions of the Nepal Energy Wiki — and the patterns they establish for future TransparentGov verticals.
 
 ## Summary
 
@@ -144,6 +146,7 @@ The highest-leverage next moves are:
 
 ## Further reading
 
+- [Governance as code-adjacent infrastructure](governance-as-code-adjacent-infrastructure.md) — research artifact on validators, audit logs, and multi-session LLM editing (repo as control surface).
 - [Knowledge Pipeline](../architecture/transparentgov-knowledge-pipeline.md) — input-to-output view of the build system.
 - [Agent Workflow](../architecture/transparentgov-agent-workflow.md) — how AI editing agents are constrained against the governance model above.
 - [Production Architecture](../architecture/transparentgov-production-architecture.md) — static deployment, generated assets, and pre-push gates.

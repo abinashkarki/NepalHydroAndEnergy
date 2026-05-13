@@ -1,6 +1,6 @@
-# Nepal Energy Wiki & Explorer
+# Nepal Energy Wiki — a TransparentGov project
 
-Public wiki, map explorer, and structured data project for understanding Nepal's electricity system: hydropower seasonality, storage scarcity, transmission bottlenecks, India-facing trade, solar complementarity, and project-level technical records.
+Part of [TransparentGov](https://transparentgov.ai/), a citizen-led project to turn scattered public records into navigable, source-linked civic knowledge. The Nepal Energy Wiki is TransparentGov's first content vertical, covering Nepal's electricity system: hydropower seasonality, storage scarcity, transmission bottlenecks, India-facing trade, solar complementarity, and project-level technical records.
 
 Live site: [transparentgov.ai/wiki/explorer](https://transparentgov.ai/wiki/explorer/)
 

@@ -1,5 +1,7 @@
 # TransparentGov Production Architecture
 
+> A TransparentGov platform pattern, illustrated by the Nepal Energy Wiki — the first content vertical.
+
 ## Context
 
 The public site is a static wiki and map explorer. The production goal is not high-concurrency transactional application behavior. It is reproducible publication of a research artifact: pages, JSON indexes, GeoJSON layers, images, and map configuration should build locally and deploy predictably from `main`.

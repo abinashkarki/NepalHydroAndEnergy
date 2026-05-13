@@ -1,10 +1,10 @@
-# AGENTS.md — nepalEnergy
+# AGENTS.md — Nepal Energy Wiki (TransparentGov)
 
 Project overview for AI agents and contributors working in this repository.
 
 ## What this repo is
 
-A public wiki and interactive map explorer covering Nepal's electricity system — hydropower projects, transmission corridors, storage, solar complementarity, seasonal mismatch, electricity trade, and system-level energy analysis. Now includes a structured project technical-specifications database (25 projects, 41 fields) that feeds both the wiki and map from a single CSV. The live site is at [transparentgov.ai/wiki/explorer](https://transparentgov.ai/wiki/explorer/).
+The Nepal Energy Wiki — the first content vertical of [TransparentGov](https://transparentgov.ai/), a citizen-led civic knowledge platform. This repo is a public wiki and interactive map explorer covering Nepal's electricity system: hydropower projects, transmission corridors, storage, solar complementarity, seasonal mismatch, electricity trade, and system-level energy analysis. It includes a structured project technical-specifications database (25 projects, 41 fields) that feeds both the wiki and map from a single CSV. The live site is at [transparentgov.ai/wiki/explorer](https://transparentgov.ai/wiki/explorer/).
 
 ## Architecture
 

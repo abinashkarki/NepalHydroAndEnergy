@@ -1,5 +1,7 @@
 # TransparentGov Knowledge Pipeline
 
+> A TransparentGov platform pattern, illustrated by the Nepal Energy Wiki — the first content vertical.
+
 ## Context
 
 The Nepal Energy Wiki turns scattered energy-sector evidence into a navigable public research system. Inputs include PDFs, annual reports, project registries, structured CSVs, map sources, and hand-reviewed notes. Outputs include wiki pages, GeoJSON layers, search indexes, fact indexes, backlinks, claim-governance metadata, and data-quality reports.

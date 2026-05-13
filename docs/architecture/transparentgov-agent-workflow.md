@@ -1,5 +1,7 @@
 # TransparentGov Agent Workflow
 
+> A TransparentGov platform pattern, illustrated by the Nepal Energy Wiki — the first content vertical.
+
 ## Context
 
 This repository uses AI agents for research cleanup, wiki maintenance, documentation, and validation. The main risk is not syntax errors. It is epistemic drift: agents can add confident prose, inconsistent terminology, inflated backlinks, or unsourced quantitative claims unless the repo gives them explicit constraints and automated checks.
