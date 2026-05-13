@@ -2,7 +2,7 @@
 title: Chera-1
 type: entity
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -14,6 +14,10 @@ images: []
 
 Chera-1 is a 149 MW JICA promising-storage candidate in the Karnali basin. It is
 pinned in [[data-layer-storage-shortlist]].
+
+## Summary
+
+**Chera-1 is a 149 MW planning-stage storage candidate in the Karnali basin.** The page records its JICA/NEA shortlist metrics, including annual energy, dry-season energy, and storage volume, for comparison with other storage candidates.
 
 <!-- generated:specs:start -->
 
@@ -55,10 +59,12 @@ JICA/NEA storage master plan. The IPSDP milestone ladder may place it in a later
 windows (2031–2040). There is no confirmed construction start in the current wiki
 evidence set.
 
-## Map Interpretation
+## Limitations & Controversies
 
 The map marker is a river-aligned project reference. Use it for basin-level and
 strategic comparison, not for final dam-axis coordinates.
+
+The current evidence supports planning-stage comparison, not a confirmed construction programme. Design maturity, licensing status, financing, social/environmental review, final location, and COD timing require source-level verification before project-specific analysis.
 
 ## Registry note
 

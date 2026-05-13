@@ -3,7 +3,7 @@ title: Chameliya–Jauljibi 220 kV Cross-Border Interconnection
 type: entity
 category: cross-border
 created: 2026-04-20
-updated: 2026-05-11
+updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 220kv, cross-border, india, chameliya, mahakali-basin, planned]
 generator: manual
@@ -18,6 +18,10 @@ Uttarakhand). This would be the first 220 kV interconnection in the
 Mahakali basin and the gateway link for any future hydropower
 expansion in far-western Nepal (including the long-dormant
 [[pancheshwar]] prospect).
+
+## Summary
+
+**The Chameliya-Jauljibi 220 kV interconnection is a planned far-western Nepal-India cross-border link in the Mahakali basin.** The page tracks it as a proposed gateway for future far-west hydropower expansion rather than as a committed or operating interconnection.
 
 ## Key Facts
 

@@ -3,7 +3,7 @@ title: Damak–Godak–Phidim 132 kV Corridor
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077]
 tags: [transmission, 132kv, damak, godak, phidim, kabeli]
 generator: manual
@@ -16,6 +16,10 @@ The eastern 132 kV evacuation chain that the annual book describes in three
 stages: Damak–Godak, Godak–Phidim, and onward Phidim–Amarpur (Kabeli). It is
 the practical corridor through which the Mai/Kabeli-side hill projects were
 being tied back into the national system.
+
+## Summary
+
+**The Damak-Godak-Phidim 132 kV corridor is an eastern Nepal evacuation chain documented in the NEA 2077 annual book.** The page tracks the Damak-Godak, Godak-Phidim, and Phidim-Amarpur/Kabeli sections as a corridor-scale grid asset for Mai/Kabeli-side projects.
 
 > [!cite] nea-transmission-annual-book-2077
 > Book page 45 states that the first **Damak–Godak** section was already in
@@ -39,10 +43,13 @@ being tied back into the national system.
   [[kabeli-b-1]], and the broader [[claim-transmission-immediate-blocker]]
   argument.
 
+## Limitations & Controversies
+
+The page relies on the annual-book corridor description and does not provide a full route-grade GIS alignment, tower list, updated asset condition, or post-commissioning loading record. Segment lengths should be read as source-reported corridor context rather than independently surveyed geometry.
+
 ## See also
 
 - [[kabeli-a]]
 - [[kabeli-b-1]]
 - [[claim-transmission-immediate-blocker]]
 - [[nepal-transmission-landscape-2025]]
-

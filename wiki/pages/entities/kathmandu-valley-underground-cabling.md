@@ -3,7 +3,7 @@ title: Kathmandu Valley Underground Cabling
 type: entity
 category: distribution-modernization
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077]
 tags: [distribution, kathmandu, underground-cabling, grid-modernization]
 images:
@@ -28,6 +28,10 @@ FY 2019/20 annual book: a public-facing modernization project aimed at moving
 parts of the capital's medium- and low-voltage network underground while
 expanding associated urban distribution capacity.
 
+## Summary
+
+**Kathmandu Valley Underground Cabling is NEA's urban distribution-modernization programme for parts of the capital's medium- and low-voltage network.** The page records the programme as presented in the FY 2019/20 annual book, including ceremonial and cable-laying evidence.
+
 > [!cite] nea-transmission-annual-book-2077
 > The annual book shows the program both as a ceremonial milestone on the
 > opening pages and again in the project-management chapter, where cable-laying
@@ -41,9 +45,12 @@ expanding associated urban distribution capacity.
 - It links directly to [[nea]]'s distribution-reliability mandate and to the
   broader network-upgrade frame captured in [[nepal-transmission-landscape-2025]].
 
+## Limitations & Controversies
+
+The current page is based on annual-book evidence of the programme and does not provide a full package-by-package implementation record. Coverage area, completion status, outage impact, cost, contractor performance, and current operational benefits need newer distribution-project records before detailed evaluation.
+
 ## See also
 
 - [[nea]]
 - [[nepal-transmission-landscape-2025]]
 - [[data-domestic-demand]]
-

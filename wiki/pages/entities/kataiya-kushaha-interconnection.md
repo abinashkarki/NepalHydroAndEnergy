@@ -3,7 +3,7 @@ title: Kataiya–Kushaha 132 kV Cross-Border Interconnection
 type: entity
 category: cross-border
 created: 2026-04-20
-updated: 2026-05-11
+updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 132kv, cross-border, india, historic, kataiya, kushaha]
 generator: manual
@@ -17,6 +17,10 @@ historic first link that defined the Nepal–India power trade template.
 Originally energised in 1971 at 33 kV, upgraded to 132 kV, it has
 been through five decades of bilateral tariff and exchange-rate
 politics.
+
+## Summary
+
+**The Kataiya-Kushaha 132 kV interconnection is the oldest operating Nepal-India grid link.** The page tracks its historic role as the first Nepal-India interconnection and its continued eastern Terai import function.
 
 ## Key Facts
 

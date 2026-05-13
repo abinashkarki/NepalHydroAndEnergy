@@ -2,7 +2,7 @@
 title: Chilime-Trishuli 220 kV Transmission Line
 type: entity
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [transmission, line, cover-evidence, nea, 220kv]
 images:
@@ -26,12 +26,20 @@ That makes the line editorially important inside NEA's own FY 2024/25 framing,
 even though the annual report does not give a dense technical profile of the
 line in the cover note itself.
 
+## Summary
+
+**The Chilime-Trishuli 220 kV Transmission Line page currently records NEA FY 2024/25 cover-photo evidence for the line.** It is a source-evidence stub rather than a full technical corridor profile.
+
 ## What is confirmed here
 
 - The FY 2024/25 annual report uses this transmission line as its front-cover
   visual.
 - The confirmation comes from the contents page caption, not from inferred
   image matching.
+
+## Limitations & Controversies
+
+This page does not yet provide route length, voltage configuration beyond the title, commissioning status, construction history, substation endpoints, or corridor role beyond the annual-report image evidence. It should not be used as a full project profile until those fields are verified from source material.
 
 ## Related
 

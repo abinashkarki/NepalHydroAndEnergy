@@ -1229,6 +1229,39 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-13 — Entity Pages Batch 2
+
+**Agent:** Codex
+**Session type:** Entity-page structural cleanup — 10 pages
+**Pages touched:**
+- `entities/chameliya-jauljibi-interconnection`: +`## Summary`; updated frontmatter date.
+- `entities/chera-1`: +`## Summary`; canonicalized map/caveat material under `## Limitations & Controversies`; updated frontmatter date.
+- `entities/chilime-trishuli-220kv-transmission-line`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/damak-godak-phidim-132kv`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/dhungesangu-basantapur-220-132kv`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/kabeli-132`: +`## Summary`; canonicalized confidence/caveat material under `## Limitations & Controversies`; updated frontmatter date.
+- `entities/kali-gandaki-kowan`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/karnali-solar-energy-project`: +`## Summary`; renamed `## Gaps / next data` to `## Limitations & Controversies`; updated frontmatter date.
+- `entities/kataiya-kushaha-interconnection`: +`## Summary`; updated frontmatter date.
+- `entities/kathmandu-valley-underground-cabling`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean`.
+- **Before:** 130 total warnings.
+- **After:** 112 total warnings.
+- **Delta:** -18 warnings; two pages already had `## Limitations & Controversies` and only needed `## Summary`.
+- `git diff --check`: clean.
+- `make test`: passed, including source Used By integrity and strict search benchmark 50/50.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Limited batch to 10 entity pages.
+- Did not touch sources, concepts, claims, data pages, explorer runtime, map data, or generated indexes.
+- Preserved existing caveat/risk content by renaming equivalent headings where appropriate.
+
+---
+
 ## 2026-05-13 — Entity Pages Batch 1
 
 **Agent:** Codex

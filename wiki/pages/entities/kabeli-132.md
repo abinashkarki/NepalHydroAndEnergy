@@ -3,7 +3,7 @@ title: Kabeli / Godak-Soyak-Amarpur 132 kV Corridor
 type: entity
 category: transmission-corridor
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea_kabeli_iee]
 tags: [transmission, 132kv, kabeli, under-construction, traced-corridor]
 generator: manual
@@ -13,6 +13,10 @@ page_quality: analysis
 # Kabeli / Godak-Soyak-Amarpur 132 kV Corridor
 
 The Kabeli 132 kV corridor is an eastern Nepal branch network around the Soyak-Godak-Amarpur/Phidim area. It is represented as a branch corridor because the recovered NEA Kabeli IEE describes a bifurcated route rather than a single linear line.
+
+## Summary
+
+**The Kabeli / Godak-Soyak-Amarpur 132 kV corridor is a source-supported branch network in eastern Nepal.** The page tracks the corridor as a bifurcated 132 kV system rather than a single forced line, based on the NEA Kabeli IEE route description.
 
 ## Key Facts
 
@@ -33,13 +37,11 @@ The connected network keeps Kabeli as a branch system: a southern trunk up to So
 
 This matters for reader trust. A single forced line would look cleaner, but it would misrepresent the project structure.
 
-## Confidence
+## Limitations & Controversies
 
 Public decision: **default-visible, caveated**.
 
 The branch topology is source-supported and has no remaining endpoint gaps. The caveat is route precision: the current manual trace is still a document-grounded reconstruction, not a digitized alignment sheet.
-
-## Caveats
 
 The highest-value improvement is to digitize the branch geometry more carefully from the Kabeli IEE route figures while preserving the trunk, Godak branch, and Amarpur/Phidim branch as separate network features.
 

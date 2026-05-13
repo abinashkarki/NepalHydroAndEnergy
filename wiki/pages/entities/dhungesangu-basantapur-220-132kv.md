@@ -3,7 +3,7 @@ title: Dhungesanghu–Basantapur 220/132 kV Corridor
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
 tags: [transmission, 220kv, 132kv, koshi, basantapur, dhungesanghu]
 images:
@@ -37,6 +37,10 @@ An eastern Koshi-corridor buildout piece anchored on the Dhungesanghu and
 Basantapur substations. In the annual book it appears as part of the broader
 220 kV Koshi corridor work needed to collect and move eastern hill generation.
 
+## Summary
+
+**The Dhungesanghu-Basantapur 220/132 kV corridor is an eastern Koshi-corridor grid buildout asset.** The page records substation capacities and annual-book evidence for the Dhungesanghu and Basantapur works within the broader Koshi Corridor programme.
+
 > [!cite] nea-transmission-annual-book-2077
 > The appendix under-construction list names **Dhungesanghu** (132/33 kV,
 > 30 MVA) and **Basantapur** (220/132 + 132/33 kV, 230 MVA) as active
@@ -58,10 +62,13 @@ Basantapur substations. In the annual book it appears as part of the broader
   later in [[nepal-transmission-landscape-2025]] and structurally linked to
   [[inaruwa-purnea-interconnection]].
 
+## Limitations & Controversies
+
+The page is strongest on annual-book evidence for substation works and corridor context. It does not yet provide a complete line alignment, final commissioning history, current loading, or a separate verification of how each asset now operates within the Koshi Corridor.
+
 ## See also
 
 - [[inaruwa-purnea-interconnection]]
 - [[arun-3]]
 - [[nepal-transmission-landscape-2025]]
 - [[stranded-generation]]
-

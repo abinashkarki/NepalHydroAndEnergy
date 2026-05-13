@@ -2,7 +2,7 @@
 title: Kali Gandaki Kowan
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [kali-gandaki-a-adb-evaluation]
 tags: [project, under-construction, gandaki]
 images: ['- src: kali-gandaki-kowan/ipsdpv2-p263-img00.png']
@@ -13,6 +13,10 @@ page_quality: analysis
 # Kali Gandaki-Kowan
 
 Kali Gandaki-Kowan is a 400 MW hydropower project under construction on the Kali Gandaki River — one of the largest projects in Nepal's active construction pipeline.
+
+## Summary
+
+**Kali Gandaki-Kowan is tracked as a 400 MW under-construction hydropower project on the Kali Gandaki River.** The page situates it in the Gandaki basin and frames its main analytical questions around evacuation capacity, construction scale, and project-delivery risk.
 
 ## Kali Gandaki Basin
 
@@ -40,6 +44,10 @@ Projects in this capacity range face proportionally higher execution risk. The K
 | Province | Gandaki Pradesh |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page is currently strongest on basin context, capacity, and broad transmission/buildability concerns. It does not yet verify final project cost, financing, detailed design, construction progress, COD target, environmental/social risk, or dedicated evacuation arrangements from project-level source documents.
 
 ## See Also
 
