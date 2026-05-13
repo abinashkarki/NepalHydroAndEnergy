@@ -3,7 +3,7 @@ title: Chameliya-Syaule-Attariya 132 kV Line
 type: entity
 category: transmission-corridor
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 132kv, sudurpaschim, chameliya]
 generator: manual
@@ -13,6 +13,10 @@ page_quality: analysis
 # Chameliya-Syaule-Attariya 132 kV Line
 
 The operational far-west north-south 132 kV line connecting the Chameliya hydropower area through Syaule into the Attariya grid node.
+
+## Summary
+
+**The Chameliya-Syaule-Attariya 132 kV line is an operational far-west transmission corridor connecting the Chameliya hydropower area to Attariya.** The page tracks its status, route-length basis, and role as a domestic evacuation branch rather than a cross-border interconnection.
 
 ## Key Facts
 
@@ -31,7 +35,7 @@ This is modeled separately from the west-east Terai 132 kV backbone because it i
 
 Current validation result: 1 feature, 0 inferred connectors, 0 remaining endpoint gaps, and 129.506 km traced length against a 131.0 route-km basis. Public decision: default-visible, caveated.
 
-## Caveats
+## Limitations & Controversies
 
 This is domestic 132 kV evacuation context. It should not be confused with the planned [[chameliya-jauljibi-interconnection]], which is a separate future cross-border link.
 

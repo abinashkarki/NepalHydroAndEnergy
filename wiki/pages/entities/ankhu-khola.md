@@ -2,7 +2,7 @@
 title: Ankhu Khola
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, rights-issue, bailout-pattern]
 images: []
@@ -13,6 +13,10 @@ page_quality: analysis
 # Ankhu Khola
 
 Ankhu Khola Jalvidhyut Company Limited (AKJCL) is a 42.9 MW run-of-river hydropower project. Beyond its generation capacity, Ankhu Khola is a **textbook example of the hydropower rights-share bailout pattern** documented in Nepal's capital markets.
+
+## Summary
+
+**Ankhu Khola is a 42.9 MW under-construction run-of-river hydropower project used here as a capital-market case study.** The page focuses on the project's rights-share issuance and debt-repayment pattern alongside its registry specifications.
 
 ## The Bailout Pattern
 
@@ -58,6 +62,10 @@ The pattern is consistent: pre-COD or immediately post-COD IPOs, followed by rig
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page is strongest on the rights-share and debt-repayment pattern documented in [[sector-financial-analysis-triple-authority-2026]]. It does not independently verify construction progress, hydrology, final project cost, COD timing, or the downstream cascade investment beyond the existing source set.
 
 - [[sector-financial-analysis-triple-authority-2026]]
 - [[ipo-hydropower-bailout]]

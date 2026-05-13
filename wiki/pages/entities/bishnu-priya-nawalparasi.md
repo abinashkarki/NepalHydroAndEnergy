@@ -2,7 +2,7 @@
 title: Bishnu Priya Solar Farm (Surya Power, ~1 MWp)
 type: entity
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [solar, bishnu-priya, surya-power, nawalparasi, lumbini, ipp, phase-i, operating]
 generator: manual
@@ -12,6 +12,10 @@ page_quality: analysis
 # Bishnu Priya Solar Farm (Surya Power, ~1 MWp)
 
 Small demonstration-scale IPP solar plant developed by **Surya Power Company Pvt. Ltd.**, commissioned ~2018 in Nawalparasi district, Lumbini Province. The **earliest Phase I IPP plant to reach COD** and historically significant as Nepal's first grid-tied commercial IPP solar plant.
+
+## Summary
+
+**Bishnu Priya is a roughly 1 MWp operating IPP solar plant in Nawalparasi.** The page tracks it as an early Phase I proof-of-concept for Nepal's grid-tied commercial IPP solar programme.
 
 ## Specifications
 
@@ -38,6 +42,10 @@ Its specific contribution to the learning curve:
 - **Demonstrated the Central Terai GHI numbers** at operational scale, confirming satellite estimates from [[global-solar-atlas-nepal]].
 
 Bishnu Priya's <1 MWp scale limits its current significance operationally — it contributes <0.1% of the solar fleet — but its place in the institutional timeline is the reason it appears in the NEA FY 2024/25 annual report inventory tables.
+
+## Limitations & Controversies
+
+The page is strongest on programme-timeline context and NEA inventory presence. Detailed plant-level performance, exact COD documentation, land records, PPA terms, and operational availability are not independently built out here.
 
 ## Related
 

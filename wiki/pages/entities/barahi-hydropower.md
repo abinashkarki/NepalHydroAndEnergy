@@ -2,7 +2,7 @@
 title: Barahi Hydropower
 type: entity
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-05-13
 sources: [ad-penalty-clause-research, sector-financial-analysis-triple-authority-2026]
 tags: [project, operating, case-study, AD-penalties, NEA, ERC, governance]
 generator: manual
@@ -12,6 +12,10 @@ page_quality: analysis
 # Barahi Hydropower
 
 Sub-10 MW run-of-river hydropower project, operational. This page exists as the wiki's primary audited case study for the [[nea-triple-authority]] conflict.
+
+## Summary
+
+**Barahi Hydropower is an operational sub-10 MW run-of-river project used as the wiki's audited case study for AD-penalty governance.** The page centers on the conflict between the ERC small-project exemption and NEA invoice deductions reported in the source record.
 
 ## The AD penalty conflict
 
@@ -36,6 +40,10 @@ Because NEA controls the cash disbursement, the IPP carries the deducted penalty
 ## Significance
 
 Barahi is the best-documented instance of the structural double-bind at the core of [[nea-triple-authority]]: a regulatory protection exists on paper, but the off-taker — who is also the dispatcher and penalty administrator — can deduct penalties regardless, because it controls the cash. The ERC can issue directives, but it cannot enforce them against the entity that holds the cheque book.
+
+## Limitations & Controversies
+
+The current record still carries explicit verification gaps: the exact fiscal year, report date, and detailed accounting context for the Rs 14.9 million receivables need confirmation from the audited financial statements. The page should be used as a documented case study of the AD-penalty conflict, not as a complete financial history of Barahi.
 
 ## Sources
 

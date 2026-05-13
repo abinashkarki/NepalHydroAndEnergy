@@ -2,7 +2,7 @@
 title: Betan Karnali HP
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, watchlist, top-capacity, generation, karnali, achham, semi-reservoir]
 images: []
@@ -13,6 +13,10 @@ page_quality: analysis
 # Betan Karnali HP
 
 Betan Karnali is a large semi-reservoir hydropower project on the Karnali, historically carried in the registry as a 688 MW survey-stage project and more recently advanced in public reporting as a 439 MW generation-licence / investment-approval project. It is pinned in the [[data-layer-priority-watchlist]] and [[data-layer-top-10-capacity-projects]] because it sits directly in the Karnali buildout story: large western capacity, storage-like peaking value, institutional Nepali financing, and dependency on how [[upper-karnali]] is finally resolved upstream.
+
+## Summary
+
+**Betan Karnali is a large Karnali-basin semi-reservoir hydropower project with competing 688 MW registry and 439 MW current-development references.** The page preserves the registry basis used by map layers while documenting the more recent public reporting around generation licensing and investment approval.
 
 <!-- generated:specs:start -->
 
@@ -54,7 +58,7 @@ The wiki still preserves the 688 MW generated spec because the map layer is deri
 
 The watchlist marker uses a document-backed powerhouse-village vicinity at Tatalighat, snapped to the named Karnali reach. That makes it more useful than a raw registry point for strategic reading, but the marker is still an approximate project anchor. It should not be used as a final dam or powerhouse survey coordinate.
 
-## Risks And Open Questions
+## Limitations & Controversies
 
 The first open question is the **688 MW versus 439 MW** basis. The map ranking follows the older registry value; the project-development story now appears to have moved to the smaller semi-reservoir configuration. Any downstream analysis should state which number it is using.
 

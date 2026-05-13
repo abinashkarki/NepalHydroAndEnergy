@@ -2,7 +2,7 @@
 title: Bheri-1 HEP
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, karnali, rukum_w]
 images: []
@@ -13,6 +13,10 @@ page_quality: analysis
 # Bheri-1 HEP
 
 Bheri-1 HEP is a 440 MW survey-stage project on the Bheri in Rukum West, promoted in the registry by Gezhouba Group Power Investment Nepal Pvt. Ltd. It is not on the priority watchlist, but it is pinned by the [[data-layer-top-10-capacity-projects]] layer because it is one of the ten largest capacity records in the display set.
+
+## Summary
+
+**Bheri-1 HEP is a 440 MW survey-stage Bheri/Karnali project carried in the top-10 capacity layer.** The page treats it as a capacity-ranking and basin-context marker rather than as a near-term construction project.
 
 <!-- generated:specs:start -->
 
@@ -53,7 +57,7 @@ The practical read is therefore conservative:
 
 Bheri-1 has the weakest locational confidence among the top-10 capacity records: the layer labels it a **low-confidence registry reference**, even though the registry point sits close to the mapped Bheri reach. The marker is good enough to show that a large Bheri candidate exists in the project inventory. It is not good enough for site-grade analysis.
 
-## Risks And Open Questions
+## Limitations & Controversies
 
 The open questions are basic: project design maturity, sponsor status, licence renewal or conversion, grid evacuation, environmental and social impact, and offtake. Until those are documented, Bheri-1 should be treated as a later-horizon planning candidate rather than a near-term capacity addition.
 

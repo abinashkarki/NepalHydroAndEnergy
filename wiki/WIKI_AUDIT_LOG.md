@@ -1229,6 +1229,39 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-13 — Entity Pages Batch 1
+
+**Agent:** Codex
+**Session type:** Entity-page structural cleanup — 10 pages
+**Pages touched:**
+- `entities/andhi-khola`: +`## Summary`; renamed map-interpretation caveat section to `## Limitations & Controversies`; updated frontmatter date.
+- `entities/ankhu-khola`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/barahi-hydropower`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/betan-karnali`: +`## Summary`; renamed `## Risks And Open Questions` to `## Limitations & Controversies`; updated frontmatter date.
+- `entities/bheri-1`: +`## Summary`; renamed `## Risks And Open Questions` to `## Limitations & Controversies`; updated frontmatter date.
+- `entities/bheri-corridor-400kv`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/bidur-trishuli-solar-25mwp`: +`## Summary`; +`## Limitations & Controversies`; neutralized one pre-existing siting prescription into descriptive wording; updated frontmatter date.
+- `entities/bishnu-priya-nawalparasi`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/butwal-solar-ridi-8-5mwp`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/chameliya-attariya-132`: +`## Summary`; renamed `## Caveats` to `## Limitations & Controversies`; updated frontmatter date.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean`.
+- **Before:** 150 total warnings.
+- **After:** 130 total warnings.
+- **Delta:** -20 warnings, all entity-page section warnings.
+- `git diff --check`: clean.
+- `make test`: passed, including source Used By integrity and strict search benchmark 50/50.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Limited batch to 10 entity pages.
+- Did not touch sources, concepts, claims, data pages, explorer runtime, map data, or generated indexes.
+- Kept additions bounded to existing page text, spec tables, and source context.
+
+---
+
 ## 2026-05-13 — Final Data Pages Pass
 
 **Agent:** Codex

@@ -2,7 +2,7 @@
 title: Andhi Khola
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 generator: manual
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, wb-ganges-strategic-basin-assessment]
@@ -27,6 +27,10 @@ images:
 # Andhi Khola
 
 This page tracks the **180 MW Andhi Khola storage candidate** from the JICA/MP2014 screening set, not the separate **9.4 MW operating plant** on the same river. The shared river name had been collapsing two different project objects into one page; this version keeps them distinct.
+
+## Summary
+
+**Andhi Khola is tracked here as a 180 MW survey-stage storage candidate in the Gandaki basin.** The page distinguishes that planning-stage storage concept from the separate 9.4 MW operating plant on the same river.
 
 ## Specifications
 
@@ -66,7 +70,7 @@ The storage-candidate figures come from the JICA/NEA master-plan screening mater
 
 The separate 9.4 MW operating plant on the river may still appear in some mapped operating inventories. That operating asset is evidence that the river already hosts generation; it is **not** the same project as this 180 MW storage candidate.
 
-## Map Interpretation
+## Limitations & Controversies
 
 The current map anchor for `andhi-khola` should be interpreted conservatively. It is a planning anchor for the storage candidate, not an engineering-grade location for a final dam/powerhouse layout.
 

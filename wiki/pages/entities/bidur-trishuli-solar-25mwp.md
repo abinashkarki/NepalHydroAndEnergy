@@ -2,7 +2,7 @@
 title: Bidur / Trishuli 25 MWp Solar Farm
 type: entity
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project]
 tags: [solar, NEA, bidur, trishuli, nuwakot, 25mwp, grid-solar-ee, flagship]
 generator: manual
@@ -14,6 +14,10 @@ page_quality: analysis
 Nepal's **first utility-scale NEA-EPC, NEA-owned, NEA-operated solar plant.** 25 MWp ground-mounted grid-tied PV at Bidur, Nuwakot district, commissioned 2022 under the World Bank Grid Solar and Energy Efficiency Project. Interconnected to the Trishuli 33 kV grid.
 
 The plant that moved Nepal from "solar demonstration" to "utility solar." Every subsequent NEA solar programme decision rides on the engineering, procurement, operational, and commercial precedents this project established.
+
+## Summary
+
+**Bidur / Trishuli is a 25 MWp NEA-owned utility-scale solar plant in Nuwakot commissioned in 2022.** The page tracks its role as Nepal's first NEA-EPC utility solar precedent and as an early near-hydro, grid-adjacent solar siting case.
 
 ## Specifications
 
@@ -80,7 +84,11 @@ Shared substation utilisation, shared access road, shared O&M community, no meas
 
 ### 3. Mid-hill solar is workable but sub-optimal.
 
-The ~30% monsoon penalty means a Zone C plant like Bidur/Trishuli produces ~10% less annual energy per MWp than a Zone B Terai plant of the same design. For new-build, Terai should be first priority. Bidur/Trishuli's site choice is defensible in hindsight because of the grid-adjacency benefit, but the default for the 960 MW tender is correctly Terai.
+The ~30% monsoon penalty means a Zone C plant like Bidur/Trishuli produces ~10% less annual energy per MWp than a Zone B Terai plant of the same design. Bidur/Trishuli's site choice is best read as a grid-adjacency case, while the 960 MW tender reflects a Terai-weighted utility-solar siting model.
+
+## Limitations & Controversies
+
+The page combines published source context with internal or aggregate operating references, so plant-level generation, availability, and O&M performance should be checked against NEA project records before citation. The mid-hill siting discussion is useful as a precedent but should not be read as a full least-cost siting analysis.
 
 ## Related
 
