@@ -2,7 +2,7 @@
 title: Sanjen Khola
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, rasuwa]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Sanjen Khola
+
+## Summary
+
+Sanjen Khola is a 78 MW run-of-river hydropower project under construction in Rasuwa and part of the same Sanjen valley development context as the smaller Sanjen project.
 
 Sanjen Khola is a 78 MW run-of-river hydropower project under construction on the Sanjen Khola in Rasuwa district. At nearly double the capacity of the adjacent Sanjen project (42.5 MW), it is the larger of the two Sanjen River developments.
 
@@ -36,6 +40,10 @@ Both Sanjen projects benefit from the Chilime-Trishuli transmission corridor inf
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page is based on annual-report and registry context and does not verify final commissioning timing, current construction percentage, dry-season energy performance, or cumulative environmental effects across the Sanjen River projects.
 
 ## See Also
 

@@ -2,7 +2,7 @@
 title: Upper Tamakoshi
 type: entity
 created: 2026-04-14
-updated: 2026-05-10
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [nea-annual-report-fy2024-25, nea-transmission-annual-book-2077, ukhl-financials-generation-fy2079-82]
@@ -135,7 +135,7 @@ This result kills one version of the Upper Tamakoshi story — that it is a vict
 hydrological forecasting error or [[q-design-discharge]] optimism. It is not. The
 turbines spin as designed when the river flows as modelled.
 
-What it proves instead is that the financial distress is **structurally inevitable**
+What it shows instead is that the financial distress is **structurally inevitable**
 even at near-peak generation. At 2,058 GWh and NPR 3.74/6.96 blended tariff,
 maximum gross revenue is approximately NPR 9.3–9.5 billion. Interest expense alone
 (~NPR 6.7 billion) consumes over 70% of that ceiling. Principal amortization takes

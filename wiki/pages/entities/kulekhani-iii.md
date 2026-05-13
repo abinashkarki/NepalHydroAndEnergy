@@ -148,6 +148,6 @@ Kulekhani III's output is second-order dependent on upstream reservoir and casca
 - [[kulekhani-cascade]] — full cascade overview (106 MW total)
 - [[kulekhani-i]] — the reservoir plant that determines everything downstream
 - [[kulekhani-ii]] — the middle cascade link
-- [[storage-deficit]] — why Nepal needs more of what this cascade represents
+- [[storage-deficit]] — the storage gap this cascade represents
 - [[firm-power]] — what dispatchable reservoir generation provides
 - [[seasonal-mismatch]] — the system problem this cascade partially addresses

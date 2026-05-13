@@ -3,7 +3,7 @@ title: Solu Corridor Tingla-Mirchaiya 132 kV
 type: entity
 category: transmission-corridor
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea-transmission-annual-book-2077]
 tags: [transmission, 132kv, solu, operational, traced-corridor]
 generator: manual
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Solu Corridor Tingla-Mirchaiya 132 kV
+
+## Summary
+
+The Solu Corridor Tingla-Mirchaiya 132 kV line is an operational 132 kV evacuation route whose public map geometry is reconstructed from NEA narrative and anchor points.
 
 The Solu Corridor Tingla-Mirchaiya 132 kV line evacuates generation from the Solu/Okhaldhunga area south toward Mirchaiya. It is operational, but the public route geometry is still lower-confidence than the main 220 kV and 400 kV corridors because the current trace is reconstructed from NEA narrative and anchor points rather than an alignment atlas.
 
@@ -39,7 +43,7 @@ Public decision: **default-visible with explicit QA warning**.
 
 The line is important and operational, so it remains visible. The warning exists because the geometry is low-confidence and because NEA sources appear to mix route-km and circuit-km: the older yearbook describes a 90 km route, while later inventory-style reporting lists 180 km, likely double-circuit conductor accounting.
 
-## Caveats
+## Limitations & Controversies
 
 This corridor needs a true route-grade IEE/RAP/alignment source before it can be promoted. Until then, the map should keep the confidence caveat visible.
 

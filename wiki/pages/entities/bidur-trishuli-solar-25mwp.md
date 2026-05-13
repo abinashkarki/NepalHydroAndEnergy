@@ -80,7 +80,7 @@ Bidur/Trishuli was delivered within the planned window and within the WB-project
 
 ### 2. Near-hydro siting works operationally.
 
-Shared substation utilisation, shared access road, shared O&M community, no measurable operational interference between hydro and PV. Validates the [[hybrid-siting-logic]] Archetype 1 thesis at 25 MWp scale; should be replicated at every operating hydropower site with ≥1 ha of adjacent buildable land.
+Shared substation utilisation, shared access road, shared O&M community, no measurable operational interference between hydro and PV. This supports the [[hybrid-siting-logic]] Archetype 1 thesis at 25 MWp scale and provides a comparator for operating hydropower sites with adjacent buildable land.
 
 ### 3. Mid-hill solar is workable but sub-optimal.
 

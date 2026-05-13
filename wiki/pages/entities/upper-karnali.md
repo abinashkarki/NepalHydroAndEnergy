@@ -2,7 +2,7 @@
 title: Upper Karnali
 type: entity
 created: 2026-04-20
-updated: 2026-05-11
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [upper-karnali-pda-record, jica-ipsdp-main-report-vol2]
@@ -149,7 +149,7 @@ The comparison isolates the variables: same basin (Koshi vs Karnali), same era (
 
 Upper Karnali is still unusually thin on stable public document figures. The Investment Board Nepal project and factsheet pages remain visible in search indexes, but the live page and factsheet download currently resolve to 404s, while the active GMR project page exposes basic project text without a reusable layout plate or site figure.
 
-This page therefore avoids generic valley scenery in both the top strip and body until a durable brochure, E&S disclosure, or layout PDF is recovered from the official source stack.
+This page avoids generic valley scenery in both the top strip and body until a durable brochure, E&S disclosure, or layout PDF is recovered from the official source stack.
 
 Tracked official references:
 

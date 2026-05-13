@@ -2,7 +2,7 @@
 title: Kulekhani Cascade
 type: entity
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [nea-annual-report-fy2024-25]
@@ -116,7 +116,7 @@ Kulekhani was built with World Bank financing in the late 1970s as part of Nepal
 
 The project was completed on time and on budget, and has operated continuously for over 40 years. But the model was never replicated. Every subsequent NEA project — [[kali-gandaki-a]] (144 MW, 2002), [[upper-tamakoshi]] (456 MW, 2021) — chose the RoR engineering model. The reasons are instructive: storage dams require larger upfront capital, longer construction timelines, resettlement programs, and environmental approvals that RoR diversion schemes avoid. In a system where NEA's capital budget was always constrained and political cycles are short, the RoR model won every time after Kulekhani.
 
-The result: 106 MW of storage in 1982, 106 MW of storage in 2026. Four decades of hydropower expansion added ~3,300 MW of RoR capacity with zero additional reservoir storage. Kulekhani is not the exception that proves the rule — it is the exception that **became** the rule, a data point that should have been the first of many and instead became the only one.
+The result: 106 MW of storage in 1982, 106 MW of storage in 2026. Four decades of hydropower expansion added ~3,300 MW of RoR capacity with zero additional reservoir storage. Kulekhani is not simply an exception to Nepal's RoR-heavy pattern; it is the exception that **became** the rule, a data point that could have become the first of many and instead became the only one.
 
 ## The Storage Paradox
 
@@ -134,9 +134,9 @@ If this assumption holds, Kulekhani I's active storage has declined from ~85 MCM
 
 ## Significance
 
-Kulekhani is the outlier that proves the rule. It is the only facility in Nepal that can shift water from wet to dry season for power generation. Everything else is [[run-of-river-hydropower]]. The fact that 106 MW of storage represents Nepal's entire reservoir base — against 3,400+ MW of total hydro — encapsulates the [[storage-deficit]].
+Kulekhani is the outlier in Nepal's generation fleet. It is the only facility in Nepal that can shift water from wet to dry season for power generation. Everything else is [[run-of-river-hydropower]]. The fact that 106 MW of storage represents Nepal's entire reservoir base — against 3,400+ MW of total hydro — encapsulates the [[storage-deficit]].
 
-But Kulekhani is also a demonstration that storage works in Nepal. A 40-year operating history with World Bank financing, on-time construction, and continuous dry-season service proves the model is viable. The question is not whether Nepal can build storage — it already did. The question is why it stopped.
+Kulekhani is also evidence that storage can operate in Nepal. A 40-year operating history with World Bank financing, on-time construction, and continuous dry-season service shows that the model has a domestic precedent. The question is not whether Nepal has built storage — it already did. The question is why it stopped.
 
 ## Limitations & Controversies
 

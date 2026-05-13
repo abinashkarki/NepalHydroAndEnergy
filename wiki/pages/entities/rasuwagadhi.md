@@ -2,7 +2,7 @@
 title: Rasuwagadhi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [ppa-data-retrieval-icra-care-2026, sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, koshi, rasuwa, nea-subsidiary, chilime-group]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Rasuwagadhi
+
+## Summary
+
+Rasuwagadhi is a 111 MW Bhote Koshi run-of-river project in Rasuwa, developed within the Chilime/NEA subsidiary structure and still treated here as under construction.
 
 Rasuwagadhi is a 111 MW run-of-river hydropower project under construction on the Bhote Koshi River in Rasuwa district — one of the larger projects in Nepal's under-construction pipeline and a key asset in the **Chilime Hydropower group** portfolio.
 
@@ -46,6 +50,10 @@ Located near Nepal's northern border with Tibet in Rasuwa district, Rasuwagadhi 
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page describes the project from PPA, financial-analysis, and registry context, but it does not independently verify the latest COD, physical completion percentage, post-delay cost position, or any revised tariff treatment after the cited sources.
 
 ## See Also
 

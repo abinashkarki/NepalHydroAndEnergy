@@ -58,7 +58,7 @@ Incumbent energy source is mostly: (a) no electricity at all, (b) diesel generat
 
 ### 3. It is the long-dated solar export corridor.
 
-The [[ratmate-rasuwagadhi-kerung-400kv]] line, if completed, opens a trans-Himalayan interconnection to Tibet. Zone A solar, transmitted northward, becomes relevant to China's western-grid imports. This is a 15–20 year story, not a near-term strategy, but Nepal's **long-dated Zone A solar optionality** is real and should be preserved through conservation-compatible land zoning.
+The [[ratmate-rasuwagadhi-kerung-400kv]] line, if completed, opens a trans-Himalayan interconnection to Tibet. Zone A solar, transmitted northward, becomes relevant to China's western-grid imports. This is a 15–20 year story, not a near-term strategy; the page treats **long-dated Zone A solar optionality** as conditional on conservation-compatible land zoning.
 
 ## Near-term constraints
 

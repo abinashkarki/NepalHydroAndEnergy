@@ -2,7 +2,7 @@
 title: NEA 960 MW National Solar Tender
 type: entity
 created: 2026-04-23
-updated: 2026-05-10
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, nea-solar-loi-2024]
 tags: [nea, solar, tender, 960mw, ipp, ppa, terai, competitive-bid]
 generator: manual
@@ -53,7 +53,7 @@ Four reasons:
 
 ### 1. It establishes the price floor for Nepal solar.
 
-The awarded tariff range (4.99–5.54 NPR/kWh) is the first **portfolio-scale** solar price discovery in Nepal. Earlier rounds (Phase I at 8.40, Phase III around the 6.40 band) were single-digit-count project awards; 960 MW with 63 awards is the first price point that reflects actual competitive equilibrium. Future project evaluations should benchmark against this tariff, not against 2017 numbers.
+The awarded tariff range (4.99–5.54 NPR/kWh) is the first **portfolio-scale** solar price discovery in Nepal. Earlier rounds (Phase I at 8.40, Phase III around the 6.40 band) were single-digit-count project awards; 960 MW with 63 awards is the first price point that reflects actual competitive equilibrium. The tariff is a current benchmark for comparing future project evaluations against older 2017-era numbers.
 
 ### 2. It validates the market.
 
@@ -83,7 +83,7 @@ Each MW in this tender is already materially cheaper than equivalent small RoR h
 
 ## Limitations & Controversies
 
-- **Land acquisition delays.** Terai agricultural land politics may stall >30% of awards if fee-simple purchase proves contentious. Agrivoltaic lease templates are not yet in tender documents.
+- **Land acquisition delays.** Terai agricultural land politics may stall >30% of awards if fee-simple purchase becomes contentious. Agrivoltaic lease templates are not yet in tender documents.
 - **Grid integration at scale.** Cumulative Grid Impact Study completed, but actual penetration levels and forecast management at 960 MW+ are untested in Nepal's grid.
 - **Financial close risk.** Local-currency long-tenor debt availability remains partial; FX risk persists for imported components.
 - **PPA settlement delays.** NEA single-buyer liability creates counterparty risk; standard PPA mechanisms (escrow, performance guarantees) are untested at this portfolio scale.

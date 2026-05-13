@@ -2,7 +2,7 @@
 title: Sanjen
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, rasuwa, chilime-group]
 images: ['- src: sanjen/nea2077-p181-img01.png']
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Sanjen
+
+## Summary
+
+Sanjen is a 42.5 MW run-of-river project in Rasuwa developed within the Chilime subsidiary network and treated here as under construction.
 
 Sanjen is a 42.5 MW run-of-river hydropower project under construction on the Sanjen River in Rasuwa district, promoted as part of the **Chilime Hydropower Company Limited (CHCL) subsidiary network**.
 
@@ -40,6 +44,10 @@ Sanjen and the nearby Sanjen Khola (78 MW) project are located in Rasuwa distric
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page describes Sanjen from subsidiary, PPA, and registry context, but does not independently confirm latest COD, current physical progress, cost escalation, or realized operating performance.
 
 ## See Also
 

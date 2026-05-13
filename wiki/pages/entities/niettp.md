@@ -3,7 +3,7 @@ title: Nepal–India Electricity Transmission and Trade Project (NIETTP)
 type: entity
 category: transmission-program
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
 tags: [transmission, program, india, world-bank, cross-border, niettp]
 images:
@@ -22,6 +22,10 @@ page_quality: analysis
 ---
 
 # Nepal–India Electricity Transmission and Trade Project (NIETTP)
+
+## Summary
+
+NIETTP is a World Bank-backed transmission and trade program linking Nepal-India exchange-capacity expansion with domestic 220/400 kV reinforcement works.
 
 <figure class="wiki-inline-figure">
   <img src="../assets/images/niettp/nea2425-p042-img00.png" alt="400 kV Tower at Koshi River">
@@ -59,10 +63,13 @@ and the [[hetauda-bharatpur-bardaghat-corridor]] reinforcement works.
   The domestic substations and 220/400 kV reinforcements were part of the same
   reliability package.
 
+## Limitations & Controversies
+
+This page summarizes NIETTP from NEA annual-book framing and does not independently reconcile each linked asset's latest completion status, financing closeout, commissioning history, or realized transfer capacity.
+
 ## See also
 
 - [[dhalkebar-muzaffarpur]]
 - [[india-energy-relationship]]
 - [[hetauda-dhalkebar-inaruwa-backbone]]
 - [[hetauda-bharatpur-bardaghat-corridor]]
-

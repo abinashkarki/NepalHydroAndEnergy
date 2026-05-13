@@ -2,7 +2,7 @@
 title: Water and Energy Commission Secretariat (WECS)
 type: entity
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-13
 sources: [wecs-river-basin-plan-2024, wecs-hydropower-potential-2019, wecs-energy-synopsis-2024]
 tags: [organization, planning, government, data]
 generator: manual
@@ -10,6 +10,10 @@ page_quality: analysis
 ---
 
 # Water and Energy Commission Secretariat (WECS)
+
+## Summary
+
+WECS is Nepal's government planning body for water and energy, and its basin plans, hydropower-potential assessments, and energy balances are core sources for this wiki.
 
 Nepal's government planning body for water and energy. Produces the authoritative basin plans, potential assessments, and energy balances that form the data backbone of this research.
 
@@ -22,6 +26,10 @@ Nepal's government planning body for water and energy. Produces the authoritativ
 ## Role in Sector
 
 WECS handles theoretical planning while [[nea]] handles operational execution. The Department of Electricity Development (DoED) manages licensing between them. This fragmented institutional structure is part of the governance weakness identified across the evidence base.
+
+## Limitations & Controversies
+
+This page is an institutional orientation page, not a full governance history of WECS; it does not independently assess mandate changes, staffing, budget authority, publication delays, or how WECS recommendations are implemented by operating agencies.
 
 ## Related
 

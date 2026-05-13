@@ -2,7 +2,7 @@
 title: Trishuli Cascade
 type: entity
 created: 2026-05-04
-updated: 2026-05-04
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, cascade, gandaki, trishuli]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Trishuli Cascade
+
+## Summary
+
+Trishuli Cascade is a corridor overview page for operating, under-construction, and survey-stage hydropower projects along the Trishuli River.
 
 The Trishuli River is Nepal's most heavily developed hydropower corridor, benefiting from proximity to Kathmandu's load center and well-established transmission infrastructure. Starting from the original 1967 Trishuli plant, the corridor has accumulated layers of development across different licensing eras, sponsors, and ownership models (NEA-owned, subsidiary, and private IPP).
 
@@ -41,6 +45,10 @@ The corridor's density concentrates systemic risk: geological events, sediment s
 ## Related Corridors
 
 The Trishuli River is a tributary of the Narayani/Gandaki system (see [[gandaki-basin]]). The adjacent Bhote Koshi corridor ([[rasuwagadhi]], [[madhya-bhotekoshi]], [[upper-bhotekoshi]]) shares transmission infrastructure and Chilime-group sponsorship patterns with several Trishuli projects via the [[chilime-trishuli-220kv-transmission-line]].
+
+## Limitations & Controversies
+
+The cascade table combines projects at different evidence levels and status stages, so it should be treated as a corridor orientation page rather than a reconciled hydrology, licensing, or cumulative-impact assessment.
 
 ## Sources
 

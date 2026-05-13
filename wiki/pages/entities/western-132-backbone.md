@@ -3,7 +3,7 @@ title: Western Nepal 132 kV Backbone
 type: entity
 category: transmission-corridor
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 132kv, western-nepal, lumbini, sudurpaschim]
 generator: manual
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Western Nepal 132 kV Backbone
+
+## Summary
+
+Western Nepal 132 kV Backbone is the operational 132 kV Terai-side grid chain represented in the map to show western grid reach beyond Butwal.
 
 The operational 132 kV Terai-side grid chain that carries the map west of Butwal: Butwal-Shivapur-Lamahi-Kohalpur, Kohalpur-Bhurigaun-Lamki, and Lamki-Pahalwanpur-Attariya-Mahendranagar.
 
@@ -31,7 +35,7 @@ This corridor is now in the major transmission network because otherwise western
 
 Current validation result: 3 features, 0 inferred connectors, 0 remaining endpoint gaps, and 418.149 km traced length against a 404.89 route-km basis. Public decision: default-visible, caveated.
 
-## Caveats
+## Limitations & Controversies
 
 The route is source-backed but national-scale. It comes from RPGCL vector linework and NEA inventory control, not a tower-by-tower alignment sheet. It should be read as the western grid-reach backbone, with lighter visual weight than 220/400 kV lines.
 

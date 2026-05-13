@@ -2,7 +2,7 @@
 title: Super Trishuli
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, gandaki, trishuli-cascade]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Super Trishuli
+
+## Summary
+
+Super Trishuli is a 100 MW under-construction run-of-river project in the Trishuli cascade and is distinct from the Upper Trishuli project tiers.
 
 Super Trishuli is a 100 MW run-of-river hydropower project under construction on the Trishuli River — the largest project in the Trishuli cascade's current development pipeline.
 
@@ -43,6 +47,10 @@ The 100 MW mark represents a significant threshold: projects at this scale are l
 | Province | Gandaki Pradesh |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page frames Super Trishuli within the Trishuli cascade and standard IPP model, but does not independently confirm latest construction progress, COD, project cost, hydrological energy split, or downstream coordination arrangements.
 
 ## See Also
 

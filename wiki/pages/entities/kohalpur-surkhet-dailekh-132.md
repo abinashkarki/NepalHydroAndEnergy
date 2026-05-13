@@ -31,7 +31,7 @@ The under-construction 132 kV line extending the western grid north from Kohalpu
 
 ## Map Interpretation
 
-This line is the key Karnali grid-reach story. It explains why the map should not treat the western hills as simply disconnected, while still showing the corridor as under construction rather than operational.
+This line is the key Karnali grid-reach story. It shows why the map treats the western hills as grid-reach territory while still showing the corridor as under construction rather than operational.
 
 Current validation result: 1 feature, 0 inferred connectors, 0 remaining endpoint gaps, and 76.144 km traced length against an 84.0 route-km basis. Public decision: default-visible, caveated.
 

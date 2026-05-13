@@ -2,7 +2,7 @@
 title: Sun Koshi No.3
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -15,6 +15,10 @@ images:
 ---
 
 # Sun Koshi No.3
+
+## Summary
+
+Sun Koshi No.3 is a 536 MW Koshi basin storage candidate with large reservoir volume and a 2031-2035 planning-window placement in the current IPSDP milestone layer.
 
 Sun Koshi No.3 is a 536 MW JICA promising-storage candidate in the Koshi basin. It is pinned in [[data-layer-storage-shortlist]] because it combines large reservoir scale with meaningful dry-season output in Nepal's eastern-central hydro corridor.
 
@@ -76,6 +80,10 @@ Watch for updated feasibility, developer structure, environmental approvals, fin
 ## Map Interpretation
 
 The current map marker is a river anchor. Use it for basin and strategic comparison, not for final dam-axis or reservoir-boundary analysis.
+
+## Limitations & Controversies
+
+The page treats Sun Koshi No.3 as a planning candidate and does not confirm updated feasibility design, developer structure, financing, environmental approvals, dam-axis coordinates, or reservoir-boundary impacts.
 
 ## Registry note
 

@@ -2,7 +2,7 @@
 title: Bhutan Hydropower Model
 type: entity
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-13
 sources: [wb-country-economic-memo-2025]
 tags: [country, bhutan, comparison, export, india]
 generator: manual
@@ -34,7 +34,7 @@ This is a defensible policy choice, but it costs money: approximately **$80–12
 
 ## Lessons
 
-- Bhutan proves Himalayan hydropower can generate national wealth
+- Bhutan shows that Himalayan hydropower can generate national wealth
 - But Bhutan's model requires granting India near-total control
 - Bhutan's projects have also suffered massive delays and cost overruns under Indian management
 - Nepal cannot replicate Bhutan without fundamentally changing its foreign policy posture

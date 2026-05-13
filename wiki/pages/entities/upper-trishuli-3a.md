@@ -2,7 +2,7 @@
 title: Upper Trishuli 3A
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
 tags: [project, operating, gandaki, rasuwa, nuwakot]
 images:
@@ -21,6 +21,10 @@ page_quality: analysis
 ---
 
 # Upper Trishuli 3A
+
+## Summary
+
+Upper Trishuli 3A is a 60 MW operating NEA run-of-river plant on the Trishuli, with NEA generation data showing performance below its high design-energy assumption.
 
 <figure class="wiki-inline-figure">
   <img src="../assets/images/upper-trishuli-3a/nea2425-p023-img01.png" alt="Lifting of upper bracket during overhauling">
@@ -147,11 +151,15 @@ from a catchment that drains the Langtang-Helambu massif. At 356 GWh
 actual, it still delivers more energy per MW than any other NEA RoR
 plant — a function of basin hydrology, not engineering superiority.
 
-But the plant also demonstrates that no RoR asset, regardless of basin
+But the plant also shows that no RoR asset, regardless of basin
 quality, can guarantee its design energy. The 489.76 GWh target is the
 high-end assumption; 356 GWh is reality. The gap between them is the
 structural reason Nepal's RoR-heavy fleet cannot close the
 [[seasonal-mismatch]] without storage — even in its best basins.
+
+## Limitations & Controversies
+
+The page corrects stale registry status using NEA operating data, but its analysis is still bounded by the FY 2024/25 annual-report snapshot and does not include a full hydrology series, post-flood recovery data, or independent engineering review of the early-warning gap.
 
 ## See also
 

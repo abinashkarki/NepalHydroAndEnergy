@@ -2,7 +2,7 @@
 title: Alternative Energy Promotion Centre (AEPC)
 type: entity
 created: 2026-04-23
-updated: 2026-05-11
+updated: 2026-05-13
 sources: [aepc-renewable-framework, eib-rural-solar-phase2]
 tags: [aepc, institution, renewable, solar, SHS, mini-grid, off-grid]
 generator: manual
@@ -68,7 +68,7 @@ The wiki argues that AEPC, not NEA, is the natural home for three emerging solar
 
 ### 2. Off-grid to grid-edge integration
 
-As NEA grid reaches former off-grid villages (~8.6% of households still grid-absent, [[nea]]), each AEPC mini-grid becomes a grid-edge asset. AEPC-NEA integration protocol (who owns what, tariff structure, BESS-sharing) is currently ad-hoc and should be formalized. [[rooftop-minigrid-offgrid]].
+As NEA grid reaches former off-grid villages (~8.6% of households still grid-absent, [[nea]]), each AEPC mini-grid becomes a grid-edge asset. AEPC-NEA integration protocol (who owns what, tariff structure, BESS-sharing) is currently ad-hoc, making ownership, tariff, and BESS-sharing rules a documented institutional gap. [[rooftop-minigrid-offgrid]].
 
 ### 3. Solar + BESS rural hybrids
 

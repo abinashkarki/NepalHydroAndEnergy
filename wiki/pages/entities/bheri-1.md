@@ -44,7 +44,7 @@ This is exactly the kind of project that tests [[claim-mw-not-equal-value]]. A 4
 
 The DoED-linked registry snapshot carries Bheri-1 as a survey-stage project. The IPSDP milestone ladder groups **Bheri-1** in the **2036-2040** project window, alongside Betan Karnali, Mugu Karnali STO, Tamakoshi 3, Naumure STO, and other later-stage projects.
 
-The practical read is therefore conservative:
+The practical read is conservative:
 
 | Question | Current Read |
 |----------|--------------|

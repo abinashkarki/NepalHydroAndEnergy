@@ -2,7 +2,7 @@
 title: Tamor Storage
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, survey, koshi, storage]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Tamor Storage
+
+## Summary
+
+Tamor Storage is a 200 MW survey-stage storage hydropower project on the Tamor River in eastern Nepal.
 
 Tamor Storage is a proposed 200 MW storage hydropower project on the Tamor River in eastern Nepal, currently at the survey/study stage.
 
@@ -47,6 +51,10 @@ In a system increasingly saturated with monsoon-heavy run-of-river generation, T
 | Province | Province No 1 |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page describes the project from registry and IPSDP context and does not confirm a final dam design, reservoir boundary, resettlement footprint, financing model, tariff treatment, or construction timeline.
 
 ## See Also
 

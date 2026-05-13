@@ -2,7 +2,7 @@
 title: Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project
 type: entity
 created: 2026-05-02
-updated: 2026-05-11
+updated: 2026-05-13
 sources: [icra-nepal-surveillance-a996-b119, sahas-urja-progress-report-w010, clickmandu-financial-reporting, himalayan-capital-analysis]
 tags: [project, operating, private-IPP, solukhumbu, koshi]
 generator: manual
@@ -13,7 +13,7 @@ page_quality: analysis
 
 ## Summary
 
-86 MW run-of-river hydropower project on the Solu Khola, a tributary of the Dudh Koshi, in Solukhumbu District, Koshi Province. Nepal's most-cited private IPP success story — and the project that proves the standard PPA rate is only viable at exceptional scale.
+86 MW run-of-river hydropower project on the Solu Khola, a tributary of the Dudh Koshi, in Solukhumbu District, Koshi Province. Nepal's most-cited private IPP success story — and the project that shows the standard PPA rate is only viable at exceptional scale.
 
 ## Specifications
 
@@ -40,7 +40,7 @@ Sahas Urja's Q41 design parameter is more aggressive than the DoED 2018 Q45 mand
 | COD | March 1, 2023 |
 
 ### Financial
-Sahas Urja operates on the identical NPR 4.80/8.40 PPA rate as every other private RoR IPP of its era. Its strong financial performance — NPR 2.648 billion revenue, NPR 902 million net profit in FY2023/24 — does not prove the rate is adequate; it proves the rate is only viable at exceptional scale and cost discipline. The median 10–30 MW IPP cannot replicate these economics. For a detailed breakdown, see the PPA Structure and Financial Performance sections below.
+Sahas Urja operates on the identical NPR 4.80/8.40 PPA rate as every other private RoR IPP of its era. Its strong financial performance — NPR 2.648 billion revenue, NPR 902 million net profit in FY2023/24 — does not establish that the rate is broadly adequate; it shows the rate is only viable at exceptional scale and cost discipline. The median 10–30 MW IPP cannot replicate these economics. For a detailed breakdown, see the PPA Structure and Financial Performance sections below.
 
 | Parameter | Value |
 |-----------|-------|
@@ -85,11 +85,11 @@ Source: Sahas Urja Progress Report W010; ICRA Nepal.
 
 Source: ICRA Nepal B.119 (April 2026); ClickMandu financial reporting; Himalayan Capital analysis.
 
-The company's 114.66% profit growth was driven fundamentally by interest cost reduction — base rates fell between FY2022/23 and FY2023/24, dropping interest expense from NPR 1.165 billion to NPR 805.9 million. This demonstrates that even the sector's strongest IPP remains heavily leveraged to macroeconomic rate cycles, not just hydrological performance.
+The company's 114.66% profit growth was driven fundamentally by interest cost reduction — base rates fell between FY2022/23 and FY2023/24, dropping interest expense from NPR 1.165 billion to NPR 805.9 million. This shows that even the sector's strongest IPP remains heavily leveraged to macroeconomic rate cycles, not just hydrological performance.
 
 ## Why Sahas Urja Matters to This Wiki
 
-Sahas Urja is Nepal's most-cited private IPP success story. It operates on the **identical NPR 4.80/8.40 PPA rate** as every other private run-of-river IPP of its era. Its strong financial performance does not prove the standard IPP rate is adequate — it proves the opposite: **the rate is only viable at exceptional scale and cost discipline that the overwhelming majority of Nepal's hydro project pipeline cannot replicate.**
+Sahas Urja is Nepal's most-cited private IPP success story. It operates on the **identical NPR 4.80/8.40 PPA rate** as every other private run-of-river IPP of its era. Its strong financial performance does not establish that the standard IPP rate is broadly adequate; it indicates the opposite: **the rate is only viable at exceptional scale and cost discipline that the overwhelming majority of Nepal's hydro project pipeline cannot replicate.**
 
 The median Nepal IPP is 10–30 MW. At that scale and at industry-average build costs of NPR 200–300 million/MW, the NPR 4.80/8.40 rate does not generate sufficient revenue to service debt and cover operating costs — as documented across the generation performance data in [[q-design-discharge]] and the debt service analysis in [[upper-tamakoshi]].
 
@@ -116,7 +116,7 @@ Source: Sahas Urja corporate disclosures; ICRA Nepal; Annapurna Express; ShareSa
 
 ## Limitations & Controversies
 
-**Non-replicable economics.** Sahas Urja's financial performance does not prove the standard NPR 4.80/8.40 PPA rate is adequate — it proves the opposite. The rate is only viable at exceptional scale (86 MW) and cost discipline (NPR 172–175M/MW) that the median 10–30 MW IPP cannot replicate.
+**Non-replicable economics.** Sahas Urja's financial performance does not establish that the standard NPR 4.80/8.40 PPA rate is broadly adequate. It points in the opposite direction: the rate is only viable at exceptional scale (86 MW) and cost discipline (NPR 172–175M/MW) that the median 10–30 MW IPP cannot replicate.
 
 **Interest-rate leverage.** The 114.66% profit growth in FY2023/24 was driven by interest cost reduction, not operational improvement. Even the sector's strongest IPP remains heavily leveraged to macroeconomic rate cycles.
 

@@ -2,7 +2,7 @@
 title: Tanahu Hydropower Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [tanahu-adb-status-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
@@ -61,7 +61,7 @@ images:
 
 A 140 MW **storage-type** reservoir scheme on the Seti River — the
 only large dam-and-reservoir project actually in active construction
-in Nepal, and therefore the single most important test case for
+in Nepal, making it the single most important test case for
 whether the country can execute [[storage-deficit]]-closing assets at
 all. ADB-financed, NEA-owned, ~67% complete as of FY 2024/25, and
 shadowed by two Accountability Mechanism complaints over land and

@@ -2,7 +2,7 @@
 title: Uttarganga Storage Hydropower Project
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077, moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, baglung]
 images:
@@ -21,6 +21,10 @@ page_quality: analysis
 ---
 
 # Uttarganga Storage Hydropower Project
+
+## Summary
+
+Uttarganga is an 828 MW survey-stage storage hydropower project in Baglung and one of the largest storage records in the top-capacity layer.
 
 Uttarganga is an 828 MW storage hydropower project in Baglung promoted by NEA. It is pinned in the [[data-layer-top-10-capacity-projects]] layer because it is the fourth-largest capacity marker in the display set and one of the few top-10 records that is explicitly a storage project.
 
@@ -55,6 +59,10 @@ The IPSDP milestone ladder groups **Uttarganga STO** in the **2031-2035** projec
 ## Map Interpretation
 
 The marker is a river-aligned project reference derived from the registry point. Use it for strategic comparison, not for final dam-axis or reservoir-boundary analysis.
+
+## Limitations & Controversies
+
+The page documents Uttarganga as a storage candidate with official visual references, but does not establish final dam design, reservoir boundary, resettlement footprint, financing, tariff structure, construction start, or current environmental-approval status.
 
 ## Registry note
 

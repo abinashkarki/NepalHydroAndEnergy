@@ -3,7 +3,7 @@ title: Nawalpur 132 kV Substation
 type: entity
 category: substation
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077]
 tags: [substation, 132kv, nawalpur, transmission]
 images:
@@ -17,6 +17,10 @@ page_quality: analysis
 ---
 
 # Nawalpur 132 kV Substation
+
+## Summary
+
+Nawalpur 132 kV Substation is a planned 132/33 kV, 63 MVA node intended to improve local supply reliability in Nawalpur through new substation and 33 kV sub-transmission works.
 
 A planned 132/33 kV substation project intended to improve supply reliability
 in Nawalpur and connect back into the Haripur 33/11 kV node through new
@@ -33,9 +37,12 @@ in Nawalpur and connect back into the Haripur 33/11 kV node through new
 - It adds detail to the broader story of [[nea]] trying to convert bulk power
   growth into local reliability improvements.
 
+## Limitations & Controversies
+
+The page is based on the FY 2019/20 NEA annual-book description and does not establish the current construction status, final equipment configuration, commissioning date, or measured reliability effect after completion.
+
 ## See also
 
 - [[nea]]
 - [[nepal-transmission-landscape-2025]]
 - [[data-domestic-demand]]
-

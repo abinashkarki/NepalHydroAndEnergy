@@ -2,7 +2,7 @@
 title: Phukot Karnali
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -25,6 +25,10 @@ images:
 ---
 
 # Phukot Karnali
+
+## Summary
+
+Phukot Karnali is a 426-480 MW Karnali basin peaking run-of-river project promoted by VUCL and currently treated in the wiki as a survey-stage, pre-construction project.
 
 Phukot Karnali is a 426-480 MW peaking run-of-river project on the Karnali in Kalikot district, promoted by Vidhyut Utpadan Company Limited. It is pinned in both the [[data-layer-priority-watchlist]] and [[data-layer-top-10-capacity-projects]] because it is one of the few large Karnali projects with a stronger document-backed project-area anchor, a state developer, and a plausible place in Nepal's 2030s buildout sequence.
 
@@ -87,7 +91,7 @@ The wiki keeps the registry value of 426 MW in the generated spec table because 
 
 As of the current wiki evidence set, Phukot should be read as **pre-construction / survey-stage**, not an operating or under-construction plant. A 2025 news item reported renewed ministerial direction to take Karnali projects forward with NHPC collaboration, but the stronger planning anchor for this wiki is the IPSDP milestone ladder, which places Phukot Karnali in the **2031-2035** project window.
 
-The practical read is therefore:
+The practical read is:
 
 | Question | Current Read |
 |----------|--------------|
@@ -100,7 +104,7 @@ The practical read is therefore:
 
 The map point is based on an official project-area center from the VUCL status report and is already close to the mapped Karnali reach. That makes it more defensible than a plain registry coordinate, but it still should not be treated as a final dam-axis coordinate. The project includes a dam, underground powerhouse, tunnel system, and grid connection; the marker is a project reference, not a detailed engineering layout.
 
-## Risks And Open Questions
+## Limitations & Controversies
 
 Phukot's main risk is not the absence of hydropower resource. The Karnali flow is the reason the project exists. The binding questions are delivery questions: who finances it, whether NHPC participation becomes a final investment structure, whether the Regil evacuation path advances on time, and whether the five-year construction estimate survives detailed contracting.
 

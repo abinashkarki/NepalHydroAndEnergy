@@ -3,7 +3,7 @@ title: Purbi Chitwan 132 kV Substation
 type: entity
 category: substation
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077]
 tags: [substation, 132kv, chitwan, transmission]
 images:
@@ -17,6 +17,10 @@ page_quality: analysis
 ---
 
 # Purbi Chitwan 132 kV Substation
+
+## Summary
+
+Purbi Chitwan 132 kV Substation is a proposed 132/33 kV, 2x30 MVA local-grid reinforcement for the eastern Chitwan load pocket.
 
 A proposed eastern Chitwan 132/33 kV substation intended to strengthen supply
 for the Chitwan load pocket and reduce the dependence on the Bharatpur-side
@@ -34,9 +38,12 @@ single-circuit connection described in the FY 2019/20 annual book.
   [[hetauda-bharatpur-bardaghat-corridor]] and the wider
   [[nepal-transmission-landscape-2025]].
 
+## Limitations & Controversies
+
+The page relies on NEA annual-book project framing and does not confirm current construction progress, commissioning, final bay configuration, or measured reliability improvements in the Chitwan load area.
+
 ## See also
 
 - [[hetauda-bharatpur-bardaghat-corridor]]
 - [[nepal-transmission-landscape-2025]]
 - [[nea]]
-

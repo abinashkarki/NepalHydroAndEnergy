@@ -2,7 +2,7 @@
 title: Upper Marsyangdi A
 type: entity
 created: 2026-04-20
-updated: 2026-05-11
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, gandaki]
 images: []
@@ -85,7 +85,7 @@ Key questions a full analysis would answer:
 
 2. **PLF vs contracted energy.** Madhya Marsyangdi achieves 107.6% of
    design from the same river system. If Upper Marsyangdi A performs
-   similarly, the Marsyangdi basin proves to be systematically
+   similarly, the Marsyangdi basin may be systematically
    under-designed relative to actual hydrology — the [[chilime]]
    pattern at cascade scale.
 

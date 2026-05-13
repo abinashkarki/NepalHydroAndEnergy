@@ -2,7 +2,7 @@
 title: Upper Trishuli-1
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, watchlist, under-construction, gandaki, rasuwa]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Upper Trishuli-1
+
+## Summary
+
+Upper Trishuli-1 is a 216 MW under-construction Trishuli River project in Rasuwa, included in the priority-watchlist layer for corridor and grid-buildout relevance.
 
 Upper Trishuli-1 is a 216 MW generation-licence / under-construction-stage project on the Trishuli in Rasuwa. It is pinned in the [[data-layer-priority-watchlist]] because it sits in the central-north Trishuli corridor, where hydropower value depends directly on evacuation capacity into the Kathmandu and wider national grid.
 
@@ -44,6 +48,10 @@ The practical watch items are physical progress, commissioning schedule, grid-co
 ## Map Interpretation
 
 The marker is a river-aligned project reference derived from the registry point. It is suitable for corridor reading, but not a final engineering coordinate.
+
+## Limitations & Controversies
+
+The page uses registry and IPSDP timing context and does not independently verify latest physical progress, final commissioning schedule, financing status, offtake terms, or grid-connection readiness.
 
 ## Registry note
 

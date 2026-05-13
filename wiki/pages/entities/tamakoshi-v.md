@@ -2,7 +2,7 @@
 title: Tamakoshi V
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
 tags: [project, under-construction, nea-subsidiary, koshi, dolakha, cascade]
 images:
@@ -21,6 +21,10 @@ page_quality: analysis
 ---
 
 # Tamakoshi V
+
+## Summary
+
+Tamakoshi V is a downstream cascade project of Upper Tamakoshi, developed as an under-construction NEA-linked asset with revised capacity figures across registry and NEA/JICA sources.
 
 99.8 MW · under construction · on the Tama Koshi · in Dolakha district. A **cascade project of [[upper-tamakoshi|Upper Tamakoshi]]** (456 MW), designed to operate in tandem with Nepal's largest power plant.
 
@@ -190,6 +194,10 @@ tailwater — is hydrologically elegant but operationally fragile:
   strands both plants simultaneously — 555.8 MW of combined NEA-subsidiary
   generation offline in a single event. See [[buildability]] and
   [[stranded-generation]].
+
+## Limitations & Controversies
+
+The page reconciles multiple public capacity figures but still depends on source snapshots for progress, RCOD, corridor loading, and cascade-operation risk; it does not replace updated project-company disclosures, lender reporting, or dispatch data.
 
 ## See also
 

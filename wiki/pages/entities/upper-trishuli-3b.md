@@ -2,7 +2,7 @@
 title: Upper Trishuli 3B
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [ppa-data-retrieval-icra-care-2026]
 tags: [project, under-construction, gandaki, rasuwa, trishuli-cascade]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Upper Trishuli 3B
+
+## Summary
+
+Upper Trishuli 3B is a 37 MW under-construction Trishuli cascade project developed through a subsidiary company and distinct from NEA-owned Upper Trishuli 3A.
 
 Upper Trishuli 3B is a 37 MW run-of-river hydropower project in the Trishuli cascade, developed under Trishuli Jal Vidyut Company Limited — a subsidiary corporate model distinct from the NEA's directly-owned Trishuli assets.
 
@@ -43,6 +47,10 @@ Industry analysis notes that projects in the Trishuli corridor, including Upper 
 | Province | Bagmati Pradesh |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page resolves the 3A/3B distinction and PPA context, but does not verify the latest construction percentage, COD, cost escalation, or hydrological coordination with adjacent Trishuli cascade assets.
 
 ## See Also
 

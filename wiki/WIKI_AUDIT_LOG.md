@@ -1434,6 +1434,61 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-13 — Entity Closure and Quality Hardening
+
+**Agent:** Codex
+**Session type:** Final entity structural closure plus focused governance wording scan
+**Pages touched:**
+- `entities/nawalpur-132kv-substation`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/niettp`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/phukot-karnali`: +`## Summary`; renamed `## Risks And Open Questions` to `## Limitations & Controversies`; neutralized one "therefore" phrase; updated frontmatter date.
+- `entities/purbi-chitwan-132kv-substation`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/rasuwagadhi`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/ratmate-rasuwagadhi-kerung-400kv`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/sanjen-khola`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/sanjen`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/solu-tingla-mirchaiya-132`: +`## Summary`; renamed `## Caveats` to `## Limitations & Controversies`; updated frontmatter date.
+- `entities/sun-koshi-no-3`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/super-madi`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/super-trishuli`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/tamakoshi-3`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/tamakoshi-v`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/tamor-storage`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/tingla-132-33kv-substation`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/trishuli-cascade`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/trishuli-galchhi`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/udipur-damauli-bharatpur-220`: +`## Summary`; renamed `## Caveats` to `## Limitations & Controversies`; updated frontmatter date.
+- `entities/upper-bhotekoshi`: +`## Summary`; +`## Limitations & Controversies`; neutralized one "therefore" phrase; updated frontmatter date.
+- `entities/upper-tamor`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/upper-trishuli-1`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/upper-trishuli-3a`: +`## Summary`; +`## Limitations & Controversies`; neutralized one "demonstrates that" phrase; updated frontmatter date.
+- `entities/upper-trishuli-3b`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/uttarganga-storage`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/wecs`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/western-132-backbone`: +`## Summary`; renamed `## Caveats` to `## Limitations & Controversies`; updated frontmatter date.
+- Quality-hardening edits only: `entities/aepc`, `entities/bheri-1`, `entities/bhutan-hydropower-model`, `entities/bidur-trishuli-solar-25mwp`, `entities/kohalpur-surkhet-dailekh-132`, `entities/kulekhani-cascade`, `entities/kulekhani-iii`, `entities/mustang-high-altitude-solar-zone`, `entities/nea-960mw-solar-tender`, `entities/sahas-urja`, `entities/tanahu-hydropower`, `entities/upper-karnali`, `entities/upper-marsyangdi-a`, `entities/upper-tamakoshi`.
+- `claims/claim-solar-political-coalition-is-rural`: updated frontmatter date only to satisfy governed-claim recency validation after the `aepc` metadata update.
+- Removed stale untracked `HANDOFF.md` from the workspace.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` and `WIKI_VERBOSE=1 .venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean`.
+- **Before:** 54 total warnings (entities: 27 missing Summary, 27 missing Limitations & Controversies).
+- **After:** 0 template warnings across sources, concepts, data, and entities.
+- The validator still reports the known solar CSV slug warning, which is outside the wiki-page template warning baseline.
+- Focused entity hierarchy phrase scan returned no hits for the prohibited/risky phrase set.
+- `git diff --check`: clean.
+- `make test`: passed, including source Used By integrity and strict search benchmark 50/50.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Closed the remaining entity-page section warnings in one final pass at human request.
+- Kept additions bounded to existing page text, spec tables, frontmatter, and source context.
+- Did not touch sources, concepts, claims, data pages, explorer runtime, map data, generated indexes, or Used By sections.
+- Neutralized obvious prescriptive/proof-language risks in entity prose without changing substantive claims.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

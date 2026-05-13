@@ -3,7 +3,7 @@ title: Tingla 132/33 kV Substation
 type: entity
 category: substation
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077]
 tags: [substation, 132kv, solu, tingla, transmission]
 images:
@@ -17,6 +17,10 @@ page_quality: analysis
 ---
 
 # Tingla 132/33 kV Substation
+
+## Summary
+
+Tingla 132/33 kV Substation is a commissioned 30 MVA Solu Corridor node that connects Solu basin generation into the 132 kV system.
 
 A 132/33 kV, 30 MVA substation commissioned as part of the Solu corridor build.
 In the annual-book snapshot, Tingla is the bridge intended to connect Solu
@@ -46,10 +50,13 @@ is complete.
   [[claim-transmission-immediate-blocker]] and the later
   [[nepal-transmission-landscape-2025]] synthesis.
 
+## Limitations & Controversies
+
+The page confirms the annual-book commissioning record and basic rating, but it does not establish current transformer loading, bay configuration, outage history, or subsequent upgrades after the 2020 source snapshot.
+
 ## See also
 
 - [[solu]]
 - [[sahas-urja]]
 - [[claim-transmission-immediate-blocker]]
 - [[nepal-transmission-landscape-2025]]
-

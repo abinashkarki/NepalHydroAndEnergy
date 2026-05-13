@@ -2,7 +2,7 @@
 title: Tamakoshi 3
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, koshi, dolakha]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Tamakoshi 3
+
+## Summary
+
+Tamakoshi 3 is a 650 MW survey-stage Tama Koshi project in Dolakha, used in the wiki as a top-capacity and basin-concentration comparator.
 
 Tamakoshi 3 is a 650 MW survey-stage project on the Tama Koshi in Dolakha. It is pinned in [[data-layer-top-10-capacity-projects]] because it is the sixth-largest capacity marker in the display set and sits in the same high-head eastern hydropower geography as [[upper-tamakoshi]].
 
@@ -43,6 +47,10 @@ The current layer treats Tamakoshi 3 as survey-stage. The IPSDP milestone ladder
 ## Map Interpretation
 
 The marker is a river-aligned project reference derived from a registry point. It is suitable for top-10 capacity comparison, not final project engineering.
+
+## Limitations & Controversies
+
+The current evidence set identifies Tamakoshi 3 as survey-stage and does not confirm a construction start, final design, financing, offtake structure, environmental approvals, or route-ready evacuation plan.
 
 ## Registry note
 

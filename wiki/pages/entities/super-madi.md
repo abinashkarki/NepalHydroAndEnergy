@@ -2,7 +2,7 @@
 title: Super Madi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, gandaki, kaski]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Super Madi
+
+## Summary
+
+Super Madi is a 44 MW Madi Khola run-of-river project under construction in Kaski district, separate from the upstream Upper Madi project.
 
 Super Madi is a 44 MW run-of-river hydropower project under construction on the Madi Khola in Kaski district, Gandaki Province.
 
@@ -39,6 +43,10 @@ Super Madi sits within the broader Gandaki basin development landscape, where pr
 | Province | Gandaki Pradesh |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page distinguishes the asset and its basin context, but it does not verify current construction progress, commissioning schedule, final offtake arrangements, or cumulative flow and environmental constraints in the Madi Khola valley.
 
 ## See Also
 

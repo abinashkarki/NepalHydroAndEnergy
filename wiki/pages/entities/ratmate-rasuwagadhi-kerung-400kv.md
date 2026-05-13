@@ -3,7 +3,7 @@ title: Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line
 type: entity
 category: cross-border
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077]
 tags: [transmission, 400kv, china, rasuwagadhi, ratmate, cross-border]
 images:
@@ -17,6 +17,10 @@ page_quality: analysis
 ---
 
 # Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line
+
+## Summary
+
+Ratmate-Rasuwagadhi-Kerung is a proposed 400 kV Nepal-China interconnection concept linking Ratmate to the Rasuwagadhi/Kerung border axis.
 
 Nepal's planned first grid interconnection with China in the annual-book 2020
 planning frame. The project is both a power-trade idea and a geopolitical
@@ -47,10 +51,13 @@ Rasuwagadhi/Kerung border axis.
   [[hydro-geopolitics]] because the point of the project was energy-security
   optionality, not just another domestic corridor.
 
+## Limitations & Controversies
+
+The available page evidence establishes the 2020 planning frame, route concept, and survey/feasibility status; it does not confirm a final alignment, implementation agreement, financing, construction start, or operating exchange arrangement with China.
+
 ## See also
 
 - [[rasuwagadhi]]
 - [[hydro-geopolitics]]
 - [[mca-central-400]]
 - [[nepal-transmission-landscape-2025]]
-

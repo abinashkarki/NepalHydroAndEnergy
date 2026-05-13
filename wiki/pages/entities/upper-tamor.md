@@ -2,7 +2,7 @@
 title: Upper Tamor
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, under-construction, koshi, top-capacity]
 images: []
@@ -11,6 +11,10 @@ page_quality: analysis
 ---
 
 # Upper Tamor
+
+## Summary
+
+Upper Tamor is a 285 MW under-construction Tamor River hydropower project in eastern Nepal and one of the larger private/IPP projects in the current pipeline.
 
 Upper Tamor is a 285 MW hydropower project under construction on the Tamor River in eastern Nepal — one of the largest private/IPP projects in the under-construction pipeline.
 
@@ -40,6 +44,10 @@ At 285 MW, Upper Tamor's capital requirements place it in the top tier of Nepali
 | Province | Province No 1 |
 
 <!-- generated:specs:end -->
+
+## Limitations & Controversies
+
+The page frames Upper Tamor's scale, basin position, and financing challenge, but does not verify current construction progress, final COD, project cost, dry-season energy share, or transmission evacuation readiness.
 
 ## See Also
 
