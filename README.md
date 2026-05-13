@@ -55,6 +55,8 @@ Related files:
 - Explorer vocabulary: `wiki/explorer/shared/vocabulary.json`
 - Validation: `scripts/validate_repo.py`
 
+Solar projects have a parallel pipeline using `data/solar_project_specs.csv` and `scripts/report_solar_spec_completeness.py`. Coverage is currently lighter than hydropower; see [docs/case-studies/transparentgov-nepal-energy-wiki.md](docs/case-studies/transparentgov-nepal-energy-wiki.md) for context.
+
 ## Repo layout
 
 ```text
@@ -87,10 +89,22 @@ wiki/
   specs-schema.json
 ```
 
-## Best entry points
+## Start here
 
-- [wiki/index.md](wiki/index.md)
-- [wiki/explorer/README.md](wiki/explorer/README.md)
+- Live site: [transparentgov.ai/wiki/explorer](https://transparentgov.ai/wiki/explorer/)
+- Project overview / case study: [docs/case-studies/transparentgov-nepal-energy-wiki.md](docs/case-studies/transparentgov-nepal-energy-wiki.md)
+- Wiki index: [wiki/index.md](wiki/index.md)
+- Explorer guide: [wiki/explorer/README.md](wiki/explorer/README.md)
+
+## Architecture deep-dives
+
+- [docs/architecture/transparentgov-knowledge-pipeline.md](docs/architecture/transparentgov-knowledge-pipeline.md) — inputs, build pipelines, and outputs
+- [docs/architecture/transparentgov-agent-workflow.md](docs/architecture/transparentgov-agent-workflow.md) — how AI editing agents are constrained
+- [docs/architecture/transparentgov-production-architecture.md](docs/architecture/transparentgov-production-architecture.md) — static deployment model
+
+## For contributors
+
+- [AGENTS.md](AGENTS.md)
 - [docs/maps/README.md](docs/maps/README.md)
 - [docs/agent-handoff-may-2026.md](docs/agent-handoff-may-2026.md)
 

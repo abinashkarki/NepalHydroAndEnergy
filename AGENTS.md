@@ -10,7 +10,7 @@ A public wiki and interactive map explorer covering Nepal's electricity system �
 
 | Component | Description |
 |---|---|
-| `wiki/pages/` | 339 interlinked markdown pages — entities, concepts, claims, sources, data, syntheses, interventions |
+| `wiki/pages/` | 380 interlinked markdown pages — entities, concepts, claims, sources, data, syntheses, interventions |
 | `wiki/explorer/` | Leaflet-based interactive map + wiki reader, served as static HTML |
 | `data/project_specs.csv` | Structured project specs — single source of truth for technical data |
 | `data/processed/maps/` | GeoJSON layers (hydropower, transmission, basins, scenarios) |
