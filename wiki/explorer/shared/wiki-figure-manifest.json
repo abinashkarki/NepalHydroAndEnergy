@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "_doc": "Published wiki figure registry. Figure paths resolve relative to wiki/explorer/.",
+  "generated_at": "2026-05-13",
+  "default_license": "CC-BY 4.0",
+  "figures": {
+    "monthly_trade_3y": {
+      "figure_id": "monthly_trade_3y",
+      "title": "Monthly cross-border trade, FY 2079/80 to 2081/82",
+      "path": "../assets/figures/monthly_trade_3y.svg",
+      "source_files": [
+        "data/processed/tables/nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2024-25"
+      ],
+      "target_pages": [
+        "data-trade-time-series"
+      ],
+      "caption": "Three-year monthly net-trade seasonality from NEA annual-report trade comparison tables.",
+      "caveat": "Annual-report comparison chart totals differ slightly from NEA narrative totals.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "fleet_capacity_mix": {
+      "figure_id": "fleet_capacity_mix",
+      "title": "Hydropower fleet capacity mix and seasonal generation split",
+      "path": "../assets/figures/fleet_capacity_mix.svg",
+      "source_files": [
+        "wiki/pages/data/data-fleet-composition.md"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2024-25",
+        "wecs-energy-synopsis-2024"
+      ],
+      "target_pages": [
+        "data-fleet-composition"
+      ],
+      "caption": "Installed hydropower is dominated by RoR/PRoR, while annual generation remains strongly wet-season weighted.",
+      "caveat": "Fleet taxonomy varies by reporting source; FY 2022/23 seasonal split is single-year.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "basin_seasonality_compare": {
+      "figure_id": "basin_seasonality_compare",
+      "title": "Basin monsoon concentration comparison",
+      "path": "../assets/figures/basin_seasonality_compare.svg",
+      "source_files": [
+        "data/processed/tables/nepal_basin_seasonality_baseline.csv"
+      ],
+      "source_slugs": [
+        "wecs-river-basin-plan-2024",
+        "national-water-plan-nepal"
+      ],
+      "target_pages": [
+        "data-basin-discharge"
+      ],
+      "caption": "Basin-level monsoon concentration from the checked public source stack.",
+      "caveat": "Metrics mix runoff, surface flow, and rainfall depending on available public source.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "storage_gap": {
+      "figure_id": "storage_gap",
+      "title": "Current storage capacity versus JICA-estimated storage need",
+      "path": "../assets/figures/storage_gap.svg",
+      "source_files": [
+        "data/processed/tables/nepal_storage_dry_energy_shortlist.csv",
+        "wiki/pages/data/data-storage-comparison.md"
+      ],
+      "source_slugs": [
+        "wb-water-sector-diagnostic",
+        "jica-ipsdp-main-report-vol2"
+      ],
+      "target_pages": [
+        "data-storage-comparison"
+      ],
+      "caption": "Nepal's current operational storage hydro is tiny relative to the 2032 storage need cited in planning literature.",
+      "caveat": "JICA storage-need estimates are electricity-system planning needs; current storage uses Kulekhani operational capacity.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "electricity_trade_shift": {
+      "figure_id": "electricity_trade_shift",
+      "title": "Electricity trade shift from net import to seasonal export",
+      "path": "../assets/figures/electricity_trade_shift.svg",
+      "source_files": [
+        "wiki/pages/data/data-trade-time-series.md"
+      ],
+      "source_slugs": [
+        "wb-country-economic-memo-2025",
+        "nea-annual-report-fy2024-25"
+      ],
+      "target_pages": [
+        "data-trade-time-series"
+      ],
+      "caption": "Annual trade volumes show Nepal's transition from heavy importer to seasonal exporter.",
+      "caveat": "Annual totals hide the wet-export and dry-import monthly structure shown in monthly_trade_3y.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "lead1_fy2081_82_trade_vs_storage": {
+      "figure_id": "lead1_fy2081_82_trade_vs_storage",
+      "title": "FY 2081/82 trade versus storage generation",
+      "path": "../assets/figures/lead1_fy2081_82_trade_vs_storage.svg",
+      "source_files": [
+        "data/processed/lead1_trade/lead1_monthly_import_export_storage_fy2081_82.csv"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2024-25"
+      ],
+      "target_pages": [
+        "data-trade-time-series"
+      ],
+      "caption": "Imports, exports, and storage generation in the same FY 2081/82 monthly frame.",
+      "caveat": "Compact wiki figure excludes daily-report parsed points; see the lead-1 table for daily subset coverage.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "license_type_mix": {
+      "figure_id": "license_type_mix",
+      "title": "Hydropower license-stage mix",
+      "path": "../assets/figures/license_type_mix.svg",
+      "source_files": [
+        "data/processed/naxa_hydropower_projects.csv"
+      ],
+      "source_slugs": [
+        "doed-licensing-directive-2075"
+      ],
+      "target_pages": [
+        "data-fleet-composition"
+      ],
+      "caption": "Pipeline split by license stage in the public hydropower project dataset.",
+      "caveat": "Licensing-stage counts are administrative status snapshots, not financing readiness.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "top_operational_projects": {
+      "figure_id": "top_operational_projects",
+      "title": "Largest operational hydropower projects",
+      "path": "../assets/figures/top_operational_projects.svg",
+      "source_files": [
+        "data/processed/naxa_hydropower_projects.csv"
+      ],
+      "source_slugs": [
+        "doed-licensing-directive-2075"
+      ],
+      "target_pages": [
+        "data-fleet-composition"
+      ],
+      "caption": "Operating MW are concentrated in a small set of larger plants.",
+      "caveat": "Public-portal operating status and capacity values can lag commissioning updates.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "wecs_basin_potential": {
+      "figure_id": "wecs_basin_potential",
+      "title": "WECS basin distribution of gross hydropower potential",
+      "path": "../assets/figures/wecs_basin_potential.svg",
+      "source_files": [
+        "data/processed/wecs_hydropower_potential_2019.txt"
+      ],
+      "source_slugs": [
+        "wecs-hydropower-potential-2019"
+      ],
+      "target_pages": [
+        "data-basin-discharge",
+        "data-potential-pyramid"
+      ],
+      "caption": "Gross hydropower potential is concentrated in the Koshi, Karnali, and Gandaki basins.",
+      "caveat": "Gross potential is not equivalent to economically developable or transmission-ready capacity.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "capacity_balance_fy2024_25": {
+      "figure_id": "capacity_balance_fy2024_25",
+      "title": "FY 2024/25 monthly capacity balance",
+      "path": "../assets/figures/capacity_balance_fy2024_25.svg",
+      "source_files": [
+        "data/processed/tables/nea_monthly_capacity_balance_fy2024_2025.csv"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2024-25"
+      ],
+      "target_pages": [
+        "data-domestic-demand",
+        "data-fleet-composition"
+      ],
+      "caption": "Monthly capacity contribution by IPPs, NEA plants, imports, and storage against national and system peak demand.",
+      "caveat": "Monthly capacity-balance rows do not replace hourly dispatch or adequacy modeling.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "export_revenue_fy2025_26": {
+      "figure_id": "export_revenue_fy2025_26",
+      "title": "FY 2025/26 first-five-month export revenue",
+      "path": "../assets/figures/export_revenue_fy2025_26.svg",
+      "source_files": [
+        "wiki/pages/data/data-trade-time-series.md"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2024-25"
+      ],
+      "target_pages": [
+        "data-trade-time-series"
+      ],
+      "caption": "First-five-month FY 2025/26 export revenue peaks in Ashoj and collapses by Mangsir as dry-season conditions return.",
+      "caveat": "First five months only; this is not a full-year revenue curve.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "potential_pyramid_funnel": {
+      "figure_id": "potential_pyramid_funnel",
+      "title": "Hydropower potential pyramid",
+      "path": "../assets/figures/potential_pyramid_funnel.svg",
+      "source_files": [
+        "wiki/pages/data/data-potential-pyramid.md"
+      ],
+      "source_slugs": [
+        "wecs-hydropower-potential-2019",
+        "wb-nepal-power-sector-reform-2022",
+        "nea-annual-report-fy2024-25"
+      ],
+      "target_pages": [
+        "data-potential-pyramid"
+      ],
+      "caption": "The headline theoretical hydropower number narrows sharply as physical, technical, economic, and delivery filters are applied.",
+      "caveat": "Intermediate levels are compiled order-of-magnitude estimates, not definitive ceilings.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13"
+    },
+    "hydropower_license_map": {
+      "figure_id": "hydropower_license_map",
+      "title": "Hydropower project licensing map",
+      "path": "../assets/figures/hydropower_license_map.png",
+      "source_files": [
+        "figures/hydropower_license_map.png"
+      ],
+      "source_slugs": [
+        "doed-licensing-directive-2075"
+      ],
+      "target_pages": [
+        "data-potential-pyramid"
+      ],
+      "caption": "Licensed project locations cluster along Nepal's Himalayan hydropower arc.",
+      "caveat": "Static map is a portfolio snapshot; use the explorer map for current interactive filtering.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-05-13",
+      "format": "png",
+      "legacy_source": "figures/hydropower_license_map.png",
+      "raster_ok": true
+    }
+  }
+}

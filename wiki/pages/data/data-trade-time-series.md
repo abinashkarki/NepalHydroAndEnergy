@@ -2,8 +2,8 @@
 title: Electricity Trade Time Series
 type: data
 created: 2026-04-14
-updated: 2026-05-12
-figure_type: chart-spec
+updated: 2026-05-13
+figure_type: chart
 sources: [wb-country-economic-memo-2025, nea-annual-report-fy2024-25]
 tags: [trade, import, export, india, pricing]
 page_quality: analysis
@@ -14,6 +14,13 @@ page_quality: analysis
 ## Summary
 
 Nepal's electricity trade transformation from net importer to seasonal exporter. Central evidence for [[seasonal-arbitrage-trap]] and [[seasonal-mismatch]].
+
+## Key Figure
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/monthly_trade_3y.svg" alt="Three-year monthly electricity net-trade seasonality">
+  <figcaption>Monthly net trade shows the same seasonal structure across three fiscal years: Nepal exports in wet months and returns to imports in the dry season.</figcaption>
+</figure>
 
 ## Annual Import/Export Volumes
 
@@ -132,6 +139,11 @@ Source: India Central Electricity Authority / IEX market monitoring report. Trad
 
 ## FY 2025/26 First Five Months (Jul–Dec 2025)
 
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/export_revenue_fy2025_26.svg" alt="FY 2025/26 first five months export revenue curve">
+  <figcaption>Export revenue peaks in Ashoj and falls sharply by Mangsir, before dry-season imports resume.</figcaption>
+</figure>
+
 | Month (Nepali) | Period | Export Revenue (NPR B) |
 |----------------|--------|----------------------|
 | Shrawan | Jul 17–Aug 16 | 3.87 |
@@ -159,13 +171,14 @@ Source: India Central Electricity Authority / IEX market monitoring report. Trad
 
 ## Linked Figures
 
-- [electricity_trade_shift.png](../../../figures/electricity_trade_shift.png) — pre/post trade-regime crossover graphic.
-- [lead1_monthly_trade_3year.png](../../../figures/lead1_monthly_trade_3year.png) — three-year monthly import/export seasonality.
-- [lead1_fy2081_82_trade_vs_storage.png](../../../figures/lead1_fy2081_82_trade_vs_storage.png) — imports, exports, and storage in the same FY 2081/82 frame.
+- [electricity_trade_shift.svg](../../../wiki/assets/figures/electricity_trade_shift.svg) — pre/post trade-regime crossover graphic.
+- [monthly_trade_3y.svg](../../../wiki/assets/figures/monthly_trade_3y.svg) — canonical three-year monthly net-trade seasonality figure.
+- [lead1_fy2081_82_trade_vs_storage.svg](../../../wiki/assets/figures/lead1_fy2081_82_trade_vs_storage.svg) — imports, exports, and storage in the same FY 2081/82 frame.
+- [export_revenue_fy2025_26.svg](../../../wiki/assets/figures/export_revenue_fy2025_26.svg) — first-five-month FY 2025/26 export-revenue curve.
 
 ## Chart Specification
 
-The three linked figures above now cover most of this page's graphic needs. The missing chart is a clean monthly revenue curve for FY 2025/26 plotted directly against import resumption, which would make the winter scarcity tax legible in one line.
+The linked figures now cover the core annual, monthly net-trade, trade/storage, and first-five-month revenue views. A future full-year revenue curve should replace the current five-month revenue figure once the complete FY 2025/26 series is available.
 
 ## Coverage / Method
 

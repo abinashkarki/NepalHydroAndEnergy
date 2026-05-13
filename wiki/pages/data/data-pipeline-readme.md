@@ -2,7 +2,7 @@
 title: Data Pipeline Readme
 type: data
 created: 2026-04-15
-updated: 2026-05-12
+updated: 2026-05-13
 figure_type: table
 sources: [nea-annual-report-fy2024-25]
 tags: [scripts, pipeline, regeneration, data, maps]
@@ -21,7 +21,8 @@ Reference page for the copied scripts and the data products they generate. The s
 
 | Script | Purpose | Main inputs | Main outputs |
 |--------|---------|-------------|--------------|
-| [build_research_figures.py](../../../scripts/build_research_figures.py) | Static research figures | processed project table, Nepal boundary | files in `figures/` |
+| [build_wiki_figures.py](../../../scripts/build_wiki_figures.py) | Published wiki figures and figure manifest | processed tables, curated legacy figures | `wiki/assets/figures/`, `wiki/explorer/shared/wiki-figure-manifest.json` |
+| [build_research_figures.py](../../../scripts/build_research_figures.py) | Legacy static research figures | processed project table, Nepal boundary | files in `figures/` |
 | [build_tributary_maps.py](../../../scripts/build_tributary_maps.py) | Tributary/basin HTML maps and GeoJSON layers | raw waterways, HydroBASINS, project geodata | `data/processed/maps/`, `wiki/assets/maps/html/` |
 | [build_lead1_trade_outputs.py](../../../scripts/build_lead1_trade_outputs.py) | Lead-1 monthly trade panels | monthly trade and NEA balance CSVs | `data/processed/lead1_trade/`, `figures/lead1_*.png` |
 | [build_nea_daily_trade_series.py](../../../scripts/build_nea_daily_trade_series.py) | NEA daily-report crawl and parse pipeline | NEA archive pages + cached PDFs | `data/processed/lead1_trade/` manifest, parsed CSVs, summary JSON |
@@ -29,7 +30,8 @@ Reference page for the copied scripts and the data products they generate. The s
 ## What Is Present In This Merged Workspace
 
 - Processed tables and lead-1 outputs under `data/processed/`
-- Static figures under `figures/`
+- Published wiki figures under `wiki/assets/figures/`
+- Legacy research figures under `figures/`
 - Interactive HTML maps and preview PNGs under `wiki/assets/maps/`
 - The copied scripts themselves under `scripts/`
 
@@ -59,6 +61,7 @@ Run from the workspace root:
 
 ```bash
 python scripts/build_lead1_trade_outputs.py
+python scripts/build_wiki_figures.py
 python scripts/build_research_figures.py
 python scripts/build_tributary_maps.py
 python scripts/build_nea_daily_trade_series.py --max-pages 4 --max-reports 40 --refresh

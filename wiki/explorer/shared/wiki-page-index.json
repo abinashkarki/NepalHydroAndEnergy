@@ -1510,6 +1510,10 @@
       {
         "slug": "data-winter-deficit-model",
         "title": "Winter Deficit Model"
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index"
       }
     ],
     "interventions": [
@@ -1911,6 +1915,7 @@
     "data-storage-comparison",
     "data-trade-time-series",
     "data-winter-deficit-model",
+    "figure-index",
     "intervention-electric-cooking-transition",
     "intervention-nea-structural-separation",
     "intervention-q-design-climate-adjustment",
@@ -2293,6 +2298,7 @@
     "data-storage-comparison": "data",
     "data-trade-time-series": "data",
     "data-winter-deficit-model": "data",
+    "figure-index": "data",
     "intervention-electric-cooking-transition": "interventions",
     "intervention-nea-structural-separation": "interventions",
     "intervention-q-design-climate-adjustment": "interventions",
@@ -2675,11 +2681,12 @@
     "data-storage-comparison": "Storage Capacity Comparison",
     "data-trade-time-series": "Electricity Trade Time Series",
     "data-winter-deficit-model": "Winter Deficit Model",
+    "figure-index": "Figure Index",
     "intervention-electric-cooking-transition": "Electric Cooking Transition",
     "intervention-nea-structural-separation": "NEA Structural Separation",
     "intervention-q-design-climate-adjustment": "Q-Design Climate Adjustment",
     "intervention-sebon-data-transparency": "SEBON Data Transparency",
     "intervention-transmission-completion": "Transmission Completion"
   },
-  "totalPages": 380
+  "totalPages": 381
 }

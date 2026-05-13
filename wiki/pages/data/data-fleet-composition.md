@@ -2,8 +2,8 @@
 title: Hydropower Fleet Composition
 type: data
 created: 2026-04-14
-updated: 2026-04-15
-figure_type: chart-spec
+updated: 2026-05-13
+figure_type: chart
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [fleet, ror, pror, storage, capacity]
 page_quality: analysis
@@ -14,6 +14,13 @@ page_quality: analysis
 ## Summary
 
 Nepal's installed hydropower fleet, broken down by technology type. The RoR dominance is the structural cause of [[seasonal-mismatch]] in generation.
+
+## Key Figure
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/fleet_capacity_mix.svg" alt="Hydropower fleet capacity mix and seasonal generation split">
+  <figcaption>Installed hydro capacity is dominated by RoR and PRoR projects, while generation remains heavily weighted toward the wet season.</figcaption>
+</figure>
 
 ## Coverage / Method
 
@@ -77,9 +84,10 @@ Nepal's installed hydropower fleet, broken down by technology type. The RoR domi
 
 ## Linked Figures
 
-- [nea_capacity_mix.png](../../../figures/nea_capacity_mix.png) — capacity mix visual.
-- [license_type_mix.png](../../../figures/license_type_mix.png) — pipeline split by license stage.
-- [top_operational_projects.png](../../../figures/top_operational_projects.png) — concentration of operating MW in a small set of plants.
+- [fleet_capacity_mix.svg](../../../wiki/assets/figures/fleet_capacity_mix.svg) — canonical fleet capacity mix and seasonal generation figure.
+- [capacity_balance_fy2024_25.svg](../../../wiki/assets/figures/capacity_balance_fy2024_25.svg) — monthly capacity stack against national and system peak demand.
+- [license_type_mix.svg](../../../wiki/assets/figures/license_type_mix.svg) — pipeline split by license stage.
+- [top_operational_projects.svg](../../../wiki/assets/figures/top_operational_projects.svg) — concentration of operating MW in a small set of plants.
 
 ## Chart Specification
 

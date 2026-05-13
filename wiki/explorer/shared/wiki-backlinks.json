@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 338,
-  "total_refs": 2509,
+  "total_refs": 2525,
   "backlinks": {
     "barahi-hydropower": [
       {
@@ -1382,6 +1382,13 @@
         "title": "Electricity Trade Time Series",
         "category": "data",
         "context": "…y | | FY 2024/25 | 1,681 | 2,380 | Net exporter (699 GWh) | nea-annual-report-fy2024-25 | ## Data Reconciliation Notes The merged code workspace…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…/monthly_trade_3y.svg) | SVG | [[data-trade-time-series]] | nea-annual-report-fy2024-25 | Annual-report comparison chart totals differ slightly fro…",
         "target_exists": true
       },
       {
@@ -6173,7 +6180,7 @@
         "slug": "data-domestic-demand",
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
-        "context": "…entral evidence for [[domestic-led-hydro-strategy]] and the seasonal-arbitrage-trap value-capture argument. ## Simple Explanation Nepal sells…",
+        "context": "…entral evidence for [[domestic-led-hydro-strategy]] and the seasonal-arbitrage-trap value-capture argument. ## Key Figure <figure class=\"wiki…",
         "target_exists": true
       },
       {
@@ -6484,6 +6491,13 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…VG | [[data-basin-discharge]], [[data-potential-pyramid]] | wecs-hydropower-potential-2019 | Gross potential is not equivalent to economically develop…",
+        "target_exists": true
+      },
+      {
         "slug": "data-potential-pyramid",
         "title": "Hydropower Potential Pyramid",
         "category": "data",
@@ -6545,7 +6559,7 @@
         "slug": "data-potential-pyramid",
         "title": "Hydropower Potential Pyramid",
         "category": "data",
-        "context": "…as a systems-conversion failure, see [[master-thesis]] and bottleneck-hierarchy. ## The Pyramid | Level | Capacity (MW) | What It Means |…",
+        "context": "…as a systems-conversion failure, see [[master-thesis]] and bottleneck-hierarchy. ## Key Figure <figure class=\"wiki-inline-figure\"> <img…",
         "target_exists": true
       },
       {
@@ -6709,6 +6723,13 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…data-fleet-composition]] | [[nea-annual-report-fy2024-25]], wecs-energy-synopsis-2024 | Fleet taxonomy varies by reporting source; FY 2022/23 sea…",
+        "target_exists": true
+      },
+      {
         "slug": "data-final-energy-mix",
         "title": "Nepal Final Energy Mix",
         "category": "data",
@@ -6743,6 +6764,13 @@
         "title": "Electricity Trade Time Series",
         "category": "data",
         "context": "…---------|--------| | 2018 | ~2,582 | ~3 | Heavy importer | wb-country-economic-memo-2025 | | FY 2020/21 | ~2,330 | — | Heavy importer; imports 31.83…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…icity_trade_shift.svg) | SVG | [[data-trade-time-series]] | wb-country-economic-memo-2025, [[nea-annual-report-fy2024-25]] | Annual totals hide the w…",
         "target_exists": true
       },
       {
@@ -9577,6 +9605,13 @@
         "category": "entities",
         "context": "…nt reasons <!-- generated:sources:start --> ## Sources - JICA IPSDP Final Report Annexes (Vol. 2) <!-- generated:sources:end -->",
         "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…data-storage-comparison]] | [[wb-water-sector-diagnostic]], jica-ipsdp-main-report-vol2 | JICA storage-need estimates are electricity-system planni…",
+        "target_exists": true
       }
     ],
     "betan-karnali": [
@@ -10239,6 +10274,13 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…/wiki/assets/figures/basin_seasonality_compare.svg) | SVG | data-basin-discharge | [[wecs-river-basin-plan-2024]], [[national-water-plan-nep…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-downstream-impact-markers",
         "title": "Layer: Downstream Impact Markers",
         "category": "data",
@@ -10555,6 +10597,13 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…./../../wiki/assets/figures/fleet_capacity_mix.svg) | SVG | data-fleet-composition | [[nea-annual-report-fy2024-25]], [[wecs-energy-synopsis-2…",
+        "target_exists": true
+      },
+      {
         "slug": "data-mountain-hydro-comparison",
         "title": "Mountain Hydro System Comparison",
         "category": "data",
@@ -10687,6 +10736,13 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…wecs_basin_potential.svg) | SVG | [[data-basin-discharge]], data-potential-pyramid | [[wecs-hydropower-potential-2019]] | Gross potential is n…",
+        "target_exists": true
+      },
+      {
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
@@ -10814,6 +10870,13 @@
         "title": "Data Pipeline Readme",
         "category": "data",
         "context": "…of full historical completeness. The archive-depth note in data-trade-time-series remains the authoritative caveat. ## Related - [[data-tra…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…(../../../wiki/assets/figures/monthly_trade_3y.svg) | SVG | data-trade-time-series | [[nea-annual-report-fy2024-25]] | Annual-report compariso…",
         "target_exists": true
       },
       {
@@ -13580,6 +13643,13 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…_gap](../../../wiki/assets/figures/storage_gap.svg) | SVG | data-storage-comparison | [[wb-water-sector-diagnostic]], [[jica-ipsdp-main-report-…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-future-regulation-scenario",
         "title": "Layer: Future Regulation Scenario",
         "category": "data",
@@ -13651,6 +13721,13 @@
         "title": "Firm Power",
         "category": "concepts",
         "context": "…] — the definitions that matter for planning ## Sources - wb-nepal-power-sector-reform-2022 - [[nea-annual-report-fy2024-25]] - [[wecs-hydropower-poten…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…a-potential-pyramid]] | [[wecs-hydropower-potential-2019]], wb-nepal-power-sector-reform-2022, [[nea-annual-report-fy2024-25]] | Intermediate levels are…",
         "target_exists": true
       },
       {
@@ -13758,6 +13835,13 @@
         "title": "Electricity Consumption Geographic Distribution",
         "category": "data",
         "context": "…if provincial-level splits become available ## Related - data-domestic-demand — national sectoral demand split - [[data-industrial-electr…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…wiki/assets/figures/capacity_balance_fy2024_25.svg) | SVG | data-domestic-demand, [[data-fleet-composition]] | [[nea-annual-report-fy2024-25…",
         "target_exists": true
       },
       {
@@ -14024,7 +14108,7 @@
         "slug": "data-potential-pyramid",
         "title": "Hydropower Potential Pyramid",
         "category": "data",
-        "context": "…ve framing of this gap as a systems-conversion failure, see master-thesis and [[bottleneck-hierarchy]]. ## The Pyramid | Level | Ca…",
+        "context": "…ve framing of this gap as a systems-conversion failure, see master-thesis and [[bottleneck-hierarchy]]. ## Key Figure <figure class…",
         "target_exists": true
       },
       {
@@ -16062,6 +16146,13 @@
         "category": "data",
         "context": "…percentage. ## Sources - [[wecs-river-basin-plan-2024]] - national-water-plan-nepal",
         "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…[[data-basin-discharge]] | [[wecs-river-basin-plan-2024]], national-water-plan-nepal | Metrics mix runoff, surface flow, and rainfall depending…",
+        "target_exists": true
       }
     ],
     "sahas-urja-progress-report-w010": [
@@ -16200,6 +16291,13 @@
         "category": "entities",
         "context": "…:start --> ## Sources - [[nea-annual-report-fy2024-25]] - doed-licensing-directive-2075 <!-- generated:sources:end --> ## Specifications (Develop…",
         "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…/license_type_mix.svg) | SVG | [[data-fleet-composition]] | doed-licensing-directive-2075 | Licensing-stage counts are administrative status snapshot…",
+        "target_exists": true
       }
     ],
     "uahel-upper-arun-project": [
@@ -16249,6 +16347,13 @@
         "title": "Basin Discharge Data",
         "category": "data",
         "context": "…koshi-basin]] | 27,818 | 1,827 | ~57.6 | 67–78% | 25–50:1 | wecs-river-basin-plan-2024 | | [[gandaki-basin]] | 32,148 | 1,952 | ~61.6 | 74–80% | 2…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…seasonality_compare.svg) | SVG | [[data-basin-discharge]] | wecs-river-basin-plan-2024, [[national-water-plan-nepal]] | Metrics mix runoff, surfac…",
         "target_exists": true
       },
       {
@@ -16840,7 +16945,7 @@
         "slug": "data-domestic-demand",
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
-        "context": "…wing 18:30–19:25 peak vs flat-ish RoR output ## Related - data-consumption-geographic-distribution — provincial/regional breakdown - [[data-industrial-electri…",
+        "context": "…tion line against a middle-income benchmark. ## Related - data-consumption-geographic-distribution — provincial/regional breakdown - [[data-industrial-electri…",
         "target_exists": true
       },
       {
@@ -17495,6 +17600,13 @@
         "title": "Storage Deficit",
         "category": "concepts",
         "context": "…cascade]] — Nepal's only operational storage ## Sources - wb-water-sector-diagnostic - [[national-water-plan-nepal]] - [[nea-annual-report-fy202…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…ures/storage_gap.svg) | SVG | [[data-storage-comparison]] | wb-water-sector-diagnostic, [[jica-ipsdp-main-report-vol2]] | JICA storage-need estima…",
         "target_exists": true
       },
       {

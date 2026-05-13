@@ -2,7 +2,7 @@
 title: Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage
 type: claim
 created: 2026-04-14
-updated: 2026-05-12
+updated: 2026-05-13
 claim_id: C-005
 confidence: high
 status: stable

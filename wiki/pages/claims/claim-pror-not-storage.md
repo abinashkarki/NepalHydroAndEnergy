@@ -2,7 +2,7 @@
 title: PRoR Is Not Seasonal Storage
 type: claim
 created: 2026-04-14
-updated: 2026-05-07
+updated: 2026-05-13
 claim_id: C-009
 confidence: high
 status: stable

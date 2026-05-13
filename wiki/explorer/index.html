@@ -5021,7 +5021,7 @@
         }
         function resolveLightboxSrc(src) {
           if (/^(https?:)?\/\//.test(src) || src.startsWith("data:")) return src;
-          if (src.startsWith("../assets/images/")) return src;
+          if (src.startsWith("../assets/")) return src;
           return `../assets/images/${src}`;
         }
         function applyLightboxZoom() {

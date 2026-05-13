@@ -2,8 +2,8 @@
 title: Storage Capacity Comparison
 type: data
 created: 2026-04-14
-updated: 2026-05-12
-figure_type: chart-spec
+updated: 2026-05-13
+figure_type: chart
 sources: [wb-water-sector-diagnostic, wb-ganges-strategic-basin-assessment]
 tags: [storage, dams, per-capita, international-comparison]
 page_quality: analysis
@@ -14,6 +14,13 @@ page_quality: analysis
 ## Summary
 
 Nepal's water storage infrastructure compared to regional and global peers. This is the single most dramatic infrastructure gap in the entire analysis.
+
+## Key Figure
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/storage_gap.svg" alt="Current operational storage hydro versus estimated 2032 storage need">
+  <figcaption>Current operational storage hydro is tiny relative to the 2032 storage need cited in planning literature.</figcaption>
+</figure>
 
 ## Coverage / Method
 
@@ -94,7 +101,7 @@ This reframes the storage deficit observationally: Nepal has significant off-riv
 
 ## Linked Figures
 
-- [storage_gap.png](../../../figures/storage_gap.png) — current storage versus JICA-estimated storage need.
+- [storage_gap.svg](../../../wiki/assets/figures/storage_gap.svg) — canonical current storage versus JICA-estimated storage need figure.
 
 ## Chart Specification
 

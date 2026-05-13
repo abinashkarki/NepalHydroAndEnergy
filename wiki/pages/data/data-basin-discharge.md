@@ -2,8 +2,8 @@
 title: Basin Discharge Data
 type: data
 created: 2026-04-14
-updated: 2026-05-10
-figure_type: chart-spec
+updated: 2026-05-13
+figure_type: chart
 sources: [wecs-river-basin-plan-2024, national-water-plan-nepal]
 tags: [hydrology, discharge, seasonal, basins]
 page_quality: analysis
@@ -14,6 +14,13 @@ page_quality: analysis
 ## Summary
 
 Consolidated discharge data for Nepal's major river basins. Public sources reference these numbers; provenance varies.
+
+## Key Figure
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/basin_seasonality_compare.svg" alt="Basin monsoon concentration comparison">
+  <figcaption>Checked public basin sources consistently show strong monsoon concentration, even though the exact metric varies by source.</figcaption>
+</figure>
 
 ## Average Annual Discharge at Nepal-India Border
 
@@ -79,11 +86,12 @@ Both can be valid at once. The conflict only appears when the measurement point 
 
 ## Linked Figures
 
-- [wecs_basin_potential.png](../../../figures/wecs_basin_potential.png) — basin-weighted potential graphic; useful as the geographic companion to this discharge table.
+- [basin_seasonality_compare.svg](../../../wiki/assets/figures/basin_seasonality_compare.svg) — canonical basin monsoon-concentration comparison.
+- [wecs_basin_potential.svg](../../../wiki/assets/figures/wecs_basin_potential.svg) — basin-weighted potential graphic; useful as the geographic companion to this discharge table.
 
 ## Chart Specification
 
-A useful next visualization would overlay seasonal flow profiles for all four major basins plus one medium-basin comparator on a single 12-month chart, with the monsoon window shaded. This makes [[seasonal-mismatch]] visually obvious and shows why border-basin averages and gauge means should not be mixed carelessly.
+The current inline figure compares checked monsoon-concentration metrics across basins. A useful next visualization would overlay monthly flow profiles for all four major basins plus one medium-basin comparator on a single 12-month chart, with the monsoon window shaded. That would make [[seasonal-mismatch]] visible as a shape, not only a percentage.
 
 ## Sources
 

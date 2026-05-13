@@ -25,6 +25,7 @@ FACT_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-fact-index.json"
 VECTOR_INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-vector-index.json"
 BACKLINKS = ROOT / "wiki" / "explorer" / "shared" / "wiki-backlinks.json"
 MANIFEST = ROOT / "wiki" / "explorer" / "shared" / "layer-manifest.json"
+FIGURE_MANIFEST = ROOT / "wiki" / "explorer" / "shared" / "wiki-figure-manifest.json"
 BINDINGS = ROOT / "wiki" / "explorer" / "shared" / "bindings.json"
 WIKI_INDEX_MD = ROOT / "wiki" / "index.md"
 PUBLIC_TEXT_FILES = [
@@ -190,6 +191,66 @@ def validate_map_manifest() -> None:
             fail(f"manifest layer {layer_id} points to missing file {target.relative_to(ROOT)}")
         if target.suffix in {".json", ".geojson"}:
             load_json(target)
+
+
+def resolve_explorer_path(path: str) -> Path:
+    return (ROOT / "wiki" / "explorer" / path).resolve()
+
+
+def validate_figure_manifest() -> None:
+    if not FIGURE_MANIFEST.exists():
+        return
+    manifest = load_json(FIGURE_MANIFEST)
+    if manifest.get("version") != 1:
+        fail("wiki-figure-manifest version must be 1")
+    figures = manifest.get("figures")
+    if not isinstance(figures, dict):
+        fail("wiki-figure-manifest must contain a figures object")
+
+    for figure_id, entry in figures.items():
+        if not isinstance(entry, dict):
+            fail(f"figure manifest entry {figure_id} must be an object")
+        if entry.get("figure_id") != figure_id:
+            fail(f"figure manifest key {figure_id} does not match figure_id field")
+        rel_path = entry.get("path")
+        if not isinstance(rel_path, str) or not rel_path:
+            fail(f"figure manifest entry {figure_id} missing path")
+        figure_path = resolve_explorer_path(rel_path)
+        if not figure_path.exists():
+            fail(f"figure manifest entry {figure_id} points to missing file: {rel_path}")
+        if figure_path.suffix.lower() != ".svg" and not entry.get("raster_ok"):
+            warn(f"figure {figure_id} is not SVG: {rel_path}")
+
+        source_files = entry.get("source_files") or []
+        if not isinstance(source_files, list):
+            fail(f"figure manifest entry {figure_id} source_files must be a list")
+        for source_file in source_files:
+            if not isinstance(source_file, str):
+                fail(f"figure manifest entry {figure_id} source_files contains a non-string")
+            source_path = ROOT / source_file
+            if not source_path.exists():
+                fail(f"figure manifest entry {figure_id} source file is missing: {source_file}")
+            if source_path.stat().st_mtime > figure_path.stat().st_mtime:
+                warn(
+                    f"figure {figure_id} may be stale: {source_file} is newer than "
+                    f"{figure_path.relative_to(ROOT)}"
+                )
+
+
+def validate_wiki_figure_paths() -> None:
+    offenders: list[str] = []
+    pattern = re.compile(r"\]\(\.\./\.\./\.\./figures/|\bsrc=[\"']\.\./\.\./\.\./figures/")
+    for category in PAGE_CATEGORIES:
+        for page in sorted((WIKI_PAGES / category).glob("*.md")):
+            text = page.read_text(encoding="utf-8")
+            for match in pattern.finditer(text):
+                line_no = text.count("\n", 0, match.start()) + 1
+                offenders.append(f"{page.relative_to(ROOT)}:{line_no}")
+    if offenders:
+        fail(
+            "wiki pages must reference published figures under wiki/assets/figures, "
+            "not root figures/:\n" + "\n".join(offenders[:50])
+        )
 
 
 def resolve_binding_layers(layer_id: str, layers: dict) -> list[str]:
@@ -990,6 +1051,8 @@ def main() -> None:
     validate_public_index(slugs)
     validate_public_language()
     validate_map_manifest()
+    validate_figure_manifest()
+    validate_wiki_figure_paths()
     validate_map_bindings()
     validate_tracked_hygiene()
     validate_specs_csv(slugs)

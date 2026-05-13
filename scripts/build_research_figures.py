@@ -1,7 +1,11 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
+
+os.environ.setdefault("MPLBACKEND", "Agg")
+os.environ.setdefault("MPLCONFIGDIR", "/private/tmp/nepal-energy-matplotlib")
 
 import matplotlib.pyplot as plt
 from urllib.request import urlopen

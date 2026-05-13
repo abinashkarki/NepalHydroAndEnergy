@@ -2,8 +2,8 @@
 title: Domestic Electricity Demand Distribution
 type: data
 created: 2026-04-14
-updated: 2026-05-12
-figure_type: chart-spec
+updated: 2026-05-13
+figure_type: chart
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025, wb-household-electric-cooking-nepal-2025]
 tags: [demand, consumption, residential, industrial, load-profile, nepal, sectoral]
 page_quality: analysis
@@ -14,6 +14,13 @@ page_quality: analysis
 ## Summary
 
 Where Nepal's electricity actually goes — by sector, by consumer category, and how fast it's growing. Central evidence for [[domestic-led-hydro-strategy]] and the [[seasonal-arbitrage-trap]] value-capture argument.
+
+## Key Figure
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/capacity_balance_fy2024_25.svg" alt="FY 2024/25 monthly capacity stack against national and system peak demand">
+  <figcaption>Monthly capacity balance shows that dry-season imports persist even after the annual system becomes a net exporter.</figcaption>
+</figure>
 
 ## Simple Explanation
 
@@ -160,12 +167,13 @@ The electric cooking gap (0.5% of households) represents the largest unrealized 
 - [nea_monthly_energy_balance_fy2024_2025.csv](../../../data/processed/tables/nea_monthly_energy_balance_fy2024_2025.csv) — monthly demand, imports, storage generation, and supply composition.
 - [nea_monthly_capacity_balance_fy2024_2025.csv](../../../data/processed/tables/nea_monthly_capacity_balance_fy2024_2025.csv) — monthly capacity-side view of imports, storage MW, and peak demand.
 
+## Linked Figures
+
+- [capacity_balance_fy2024_25.svg](../../../wiki/assets/figures/capacity_balance_fy2024_25.svg) — canonical monthly capacity stack against national and system peak demand.
+
 ## Chart Specification
 
-1. **Pie chart** — sectoral sales split FY 2024/25 (domestic 42% / industrial 37% / commercial 8% / other 13%)
-2. **Time-series bar chart** — sectoral consumption 2020/21 vs 2024/25, showing absolute growth and share shift
-3. **Per-capita line chart** — Nepal 2012 → 2025 (100 → 465 kWh), with middle-income benchmark line at 2,500 kWh
-4. **Load profile curve** — daily MW demand showing 18:30–19:25 peak vs flat-ish RoR output
+The inline capacity-balance chart covers the monthly peak-demand view. Remaining useful visuals would be: sectoral sales split, sectoral consumption growth from FY 2020/21 to FY 2024/25, and a per-capita consumption line against a middle-income benchmark.
 
 ## Related
 

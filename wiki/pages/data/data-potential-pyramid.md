@@ -2,8 +2,8 @@
 title: Hydropower Potential Pyramid
 type: data
 created: 2026-04-14
-updated: 2026-05-10
-figure_type: chart-spec
+updated: 2026-05-13
+figure_type: chart
 sources: [wecs-hydropower-potential-2019, wb-nepal-power-sector-reform-2022, nea-annual-report-fy2024-25]
 tags: [potential, theoretical, technical, economic, installed]
 page_quality: analysis
@@ -14,6 +14,13 @@ page_quality: analysis
 ## Summary
 
 The reduction from theoretical potential to actually installed capacity. The 28x gap reflects successive filtering from theoretical potential to installed capacity, with each filter representing a systems constraint rather than a resource absence. For the interpretive framing of this gap as a systems-conversion failure, see [[master-thesis]] and [[bottleneck-hierarchy]].
+
+## Key Figure
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/potential_pyramid_funnel.svg" alt="Hydropower potential pyramid from theoretical potential to installed capacity">
+  <figcaption>The headline theoretical hydropower number narrows sharply as physical, technical, economic, and delivery filters are applied.</figcaption>
+</figure>
 
 ## The Pyramid
 
@@ -77,12 +84,13 @@ Intermediate levels (economically viable, realistically developable) are order-o
 
 ## Linked Figures
 
-- [wecs_basin_potential.png](../../../figures/wecs_basin_potential.png) — basin distribution of gross potential.
-- [hydropower_license_map.png](../../../figures/hydropower_license_map.png) — geographic spread of licensed projects.
+- [potential_pyramid_funnel.svg](../../../wiki/assets/figures/potential_pyramid_funnel.svg) — canonical potential-to-installed-capacity funnel.
+- [wecs_basin_potential.svg](../../../wiki/assets/figures/wecs_basin_potential.svg) — canonical basin distribution of gross potential.
+- [hydropower_license_map.png](../../../wiki/assets/figures/hydropower_license_map.png) — geographic spread of licensed projects.
 
 ## Chart Specification
 
-Inverted pyramid / funnel chart showing the progressive reduction from 83,000 to 3,591 MW. Each level labeled with the filter that reduces it. This is one of the clearest public graphics for this topic — it demolishes the "83,000 MW" slogan.
+The inline funnel chart now shows the progressive reduction from 83,000 MW to 3,591 MW. The basin-potential figure remains the geographic companion to this page.
 
 ## Sources
 
