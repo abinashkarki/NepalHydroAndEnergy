@@ -2,7 +2,7 @@
 title: Mustang / Trans-Himalayan High-Altitude Solar Zone
 type: entity
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-13
 sources: [wb-esmap-solar-resource-assessment, global-solar-atlas-nepal, aepc-renewable-framework]
 tags: [solar, mustang, dolpa, trans-himalayan, high-altitude, DNI, rain-shadow, off-grid, resource-zone]
 generator: manual
@@ -14,6 +14,10 @@ page_quality: analysis
 Not a project, an **entity classification** of the geographic zone with Nepal's best solar resource. Covers the trans-Himalayan rain-shadow valleys of **Mustang, Dolpa, upper Manang, upper Humla, Mugu (upper), and parts of Jumla** — a band of high-elevation (2,500–4,500 m) valleys shielded from the monsoon by the Greater Himalaya.
 
 This zone has **world-class GHI and DNI** (5.8–6.5 kWh/m²/day, 6.0–6.8 kWh/m²/day respectively) with ~260–290 clear-sky days per year. It is also, for the foreseeable future, the **hardest solar zone in Nepal to monetise** because of grid distance, low local demand, and terrain-induced transmission costs.
+
+## Summary
+
+**Mustang / Trans-Himalayan High-Altitude Solar Zone is a geographic entity classification** covering the trans-Himalayan rain-shadow valleys of Mustang, Dolpa, upper Manang, upper Humla, and Mugu — Nepal's best solar resource zone by GHI and DNI. The page tracks it as a resource-zone archetype using the WB ESMAP, Global Solar Atlas, and AEPC source set.
 
 ## Resource characteristics
 
@@ -74,6 +78,10 @@ In order of near-term deployability:
 4. **Long-dated grid export optionality** via trans-Himalayan interconnection.
 
 Utility-scale GW-class solar in Mustang is not a 2030 project. It is a 2040 project and the value is in preserving the land zoning and interconnection optionality now.
+
+## Limitations & Controversies
+
+The current page is strongest on resource-assessment and zoning context from satellite and pyranometer sources. It does not independently verify site-grade coordinates, parcel-level land availability, conservation-area boundary precision, or current grid-distance measurements beyond the existing source set. Utility-scale GW-class deployment is characterised as a 2040 option, not a near-term project. Representative district and site data are indicative, not exhaustive.
 
 ## Related
 

@@ -2,7 +2,7 @@
 title: Middle Tamor
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25, urja-khabar-generation-audit]
 tags: [project, under-construction, private-ipp, koshi, taplejung]
 images: []
@@ -15,6 +15,10 @@ page_quality: analysis
 73 MW · under construction · on the Tamor River · in Taplejung district. A **Sanima Group** private IPP stranded pending completion of evacuation infrastructure in Nepal's easternmost Koshi basin development corridor.
 
 <!-- generated:specs:start -->
+
+## Summary
+
+**Middle Tamor is a 73 MW run-of-river hydropower project under construction on the Tamor River in Taplejung district, Koshi basin.** It is a Sanima Group private IPP stranded pending completion of the Dhunge-Sanghu substation and Basantapur–Dhungesanghu 220 kV evacuation line. The page tracks it as a stranded-generation case study using the NEA licence and Urja Khabar/MoEWRI source set.
 
 ## Specifications
 
@@ -124,6 +128,10 @@ For the full structural analysis of how transmission planning failures create
 systemic IPP risk, see [[buildability]]. For the growing inventory of projects
 that commissioned into a grid that could not take their power, see
 [[stranded-generation]].
+
+## Limitations & Controversies
+
+The current page is strongest on licence and stranded-generation context from NEA and MoEWRI disclosures. It does not independently verify current construction progress, final cost, commissioning date, financing closure, or environmental/social compliance status beyond the existing source set. The 54 MW vs 73 MW registry discrepancy is noted but not resolved. Hydrological and transmission risk is documented at the corridor level but not quantified for this specific project site.
 
 ## See also
 

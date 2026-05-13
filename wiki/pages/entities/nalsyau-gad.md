@@ -2,7 +2,7 @@
 title: Nalsyau Gad
 type: entity
 created: 2026-04-20
-updated: 2026-05-11
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -18,6 +18,10 @@ performer in the JICA promising-storage set used by this wiki. It is pinned in b
 contributes the kind of dry-season energy Nepal's run-of-river-heavy system is missing.
 
 <!-- generated:specs:start -->
+
+## Summary
+
+**Nalsyau Gad is a 410 MW JICA promising-storage candidate in the Karnali basin** and the best dry-energy performer in the JICA shortlist used by this wiki, with 581.8 GWh dry-season energy (41.4% dry share). It is pinned in both the storage shortlist and priority watchlist. The page tracks it as a dry-season portfolio option using the JICA/NEA source set.
 
 ## Specifications
 

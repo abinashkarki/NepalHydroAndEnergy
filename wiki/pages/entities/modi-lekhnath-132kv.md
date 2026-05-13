@@ -3,7 +3,7 @@ title: New Modi–Lekhnath 132 kV Transmission Line
 type: entity
 category: transmission-corridor
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
 tags: [transmission, 132kv, modi, lekhnath, pokhara]
 images:
@@ -38,6 +38,10 @@ substation works were still under construction.
 > 132 kV double-circuit line intended to evacuate power from hydropower
 > projects in the Modi basin and improve supply in the Pokhara area.
 
+## Summary
+
+**The New Modi–Lekhnath 132 kV transmission line is a ~42.2 km double-circuit western-hill evacuation project** aimed at improving supply in the Pokhara/Lekhnath zone while collecting power from the Modi-side hydropower cluster. The page tracks it as a documented transmission build using the NEA transmission annual book and NEA annual report source set.
+
 ## Key Facts
 
 | Parameter | Value |
@@ -53,6 +57,10 @@ substation works were still under construction.
   including pages such as [[lower-modi-khola]] and [[upper-modi-a]].
 - It also shows how even relatively short 132 kV lines were carrying both
   evacuation and reliability roles at the same time.
+
+## Limitations & Controversies
+
+The current page is strongest on annual-book snapshot context. It does not independently verify current construction status, commissioning date, line loading, current operational performance, or associated substation completion beyond the existing source set. The FY 2019/20 snapshot shows Lahachowk works as under construction; later status would require additional verification.
 
 ## See also
 

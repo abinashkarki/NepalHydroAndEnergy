@@ -1366,6 +1366,40 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-13 — Entity Cleanup (Batch 5)
+
+**Agent:** Hermes (kimi-k2.6)
+**Session type:** Entity-page structural cleanup — 10 pages
+**Pages touched:**
+- `entities/main-load-dispatch-centre`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/markichowk-220-132kv-substation`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/marsyangdi-upper-220`: +`## Summary`; renamed `## Caveats` → `## Limitations & Controversies`; updated frontmatter date.
+- `entities/middle-tamor`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/mithila-solar-dhanusha-10mwp`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/modi-lekhnath-132kv`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/mugu-karnali-storage`: +`## Summary` only (`## Limitations & Controversies` already present and exemplary); updated frontmatter date.
+- `entities/mustang-high-altitude-solar-zone`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/nalsyau-gad`: +`## Summary` only (`## Limitations & Controversies` already present); updated frontmatter date.
+- `entities/naumure-w-rapti`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean`.
+- **Before:** 72 total warnings (entities: 35 missing Limitations & Controversies, 37 missing Summary).
+- **After:** 54 total warnings (entities: 27 missing Limitations & Controversies, 27 missing Summary).
+- **Delta:** −18 warnings (8 pages × 2 sections + 2 pages × 1 section).
+- `git diff --check`: clean.
+- `make test`: passed, including source Used By integrity and strict search benchmark 50/50.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Limited batch to 10 entity pages.
+- Did not touch sources, concepts, claims, data pages, explorer runtime, map data, or generated indexes.
+- Kept additions bounded to existing page text, spec tables, frontmatter, and source context.
+- No new factual claims, confidence changes, or ontology terms introduced.
+
+---
+
 ## 2026-05-13 — Entity Cleanup (Batch 4)
 
 **Agent:** Hermes (kimi-k2.6)

@@ -3,7 +3,7 @@ title: Marsyangdi Corridor Manang-Khudi-Udipur 220 kV
 type: entity
 category: transmission-corridor
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea_marsyangdi_rap_upper]
 tags: [transmission, 220kv, marsyangdi, under-construction, traced-corridor]
 generator: manual
@@ -13,6 +13,10 @@ page_quality: analysis
 # Marsyangdi Corridor Manang-Khudi-Udipur 220 kV
 
 The Marsyangdi upper 220 kV corridor is the upstream evacuation path from the Manang/upper Marsyangdi area south through Khudi and Besishahar toward Udipur. It matters because western and central hydropower build-out depends on moving generation out of the Marsyangdi basin without overloading older lower-voltage paths.
+
+## Summary
+
+**The Marsyangdi upper 220 kV corridor is the upstream evacuation path from the Manang/upper Marsyangdi area south through Khudi and Besishahar toward Udipur.** It is a western and central hydropower build-out enabler, designed to move generation out of the Marsyangdi basin without overloading older lower-voltage paths. The page tracks it as a traced transmission corridor using the upper Marsyangdi RAP and NEA source set.
 
 ## Key Facts
 
@@ -39,7 +43,7 @@ Public decision: **default-visible, caveated**.
 
 The feature has no endpoint gaps in the connected network. The caveat is precision: the current trace is manual/document-grounded and about 12% short against the working 46 km route basis.
 
-## Caveats
+## Limitations & Controversies
 
 The next improvement is source triangulation rather than topology repair. The branch endpoints and route length should be checked against the upper Marsyangdi RAP and the EIB/NEA companion material before promoting this to a higher-confidence route.
 

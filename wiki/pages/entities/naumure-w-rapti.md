@@ -2,7 +2,7 @@
 title: Naumure (W. Rapti)
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -19,6 +19,10 @@ images:
 Naumure is a 245 MW JICA promising-storage candidate in the West Rapti basin. It is pinned in [[data-layer-storage-shortlist]] because its effective storage is unusually large for its installed capacity, giving it strong seasonal-regulation value in a water-deficit medium basin.
 
 <!-- generated:specs:start -->
+
+## Summary
+
+**Naumure is a 245 MW JICA promising-storage candidate in the West Rapti basin (Karnali basin).** It is pinned in the storage shortlist for its unusually large effective storage (580 MCM) relative to installed capacity, giving it strong seasonal-regulation value in a water-deficit medium basin. The page tracks it as a planning-layer storage comparator using the JICA/NEA source set.
 
 ## Specifications
 
@@ -80,6 +84,10 @@ The map marker uses a named West Rapti / Rapti River anchor near Dang. It is a b
 ## Registry note
 
 - JICA/NEA storage master plan volume 2
+
+## Limitations & Controversies
+
+The current page is strongest on master-plan and shortlist context. It does not independently verify feasibility-study details, environmental and social assessment, financing plan, grid-connection commitment, or construction timeline beyond the existing source set. The IPSDP milestone window (2036–2040) is a planning horizon, not a confirmed construction-start date. The layout conflict with Lower Jhimruk in the current design set means the project should not be counted naively alongside it. Map markers are basin-level references, not final site coordinates.
 
 ## See also
 

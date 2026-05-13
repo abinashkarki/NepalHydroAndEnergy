@@ -2,7 +2,7 @@
 title: Mugu Karnali Storage HEP
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [mugu-karnali-feasibility-2025]
@@ -22,6 +22,10 @@ images:
 # Mugu Karnali Storage HEP
 
 At a proposed **1,902 MW**, Mugu Karnali would be the single largest generation asset Nepal has ever planned — by itself larger than the country's entire current operating hydropower fleet. Still at pre-feasibility stage under state-owned Vidhyut Utpadan Company (VUCL), open to public–private partnership bidding, and attracting expressions of interest from India's Adani Group and Bangladesh's Chowdhury Group. Its schedule (construction from ~2030, commissioning ~2034) and transmission dependencies place it on a longer horizon than any of the other top-10 anchor projects.
+
+## Summary
+
+**Mugu Karnali Storage HEP is a proposed 1,902 MW storage/pumped-storage hydropower project in the Karnali basin**, at pre-feasibility stage under state-owned VUCL with PPP bidding underway. At 1,902 MW and ~5,883 GWh design annual energy, it would be Nepal's largest single generation asset. The page tracks it as a top-capacity planning candidate using the VUCL feasibility and bid-record source set.
 
 ## Specifications
 

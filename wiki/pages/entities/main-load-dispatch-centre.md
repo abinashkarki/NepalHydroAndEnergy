@@ -3,7 +3,7 @@ title: Main Load Dispatch Centre
 type: entity
 category: system-operations
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-13
 sources: [nea-transmission-annual-book-2077]
 tags: [dispatch, control-centre, system-operations, ldc]
 images:
@@ -32,6 +32,10 @@ grid dispatch and contingency management.
 > center and the Hetauda ECC building as the backup center for transmission
 > system control during emergencies.
 
+## Summary
+
+**The Main Load Dispatch Centre is NEA's primary system-operations node in Kathmandu**, paired with the Emergency Control Center at Hetauda as the backup facility for national grid dispatch and contingency management. The page tracks it as a system-operations entity using the NEA transmission annual book source set.
+
 ## Why It Matters
 
 - The dispatch center is the operational layer behind every corridor page:
@@ -39,6 +43,10 @@ grid dispatch and contingency management.
   rest only matter if NEA can actually control them as one system.
 - It is one of the clearest institutional links between [[nea]] as owner and
   the real-time grid described in [[nepal-transmission-landscape-2025]].
+
+## Limitations & Controversies
+
+The current page is strongest on institutional context from a single NEA annual-book snapshot (FY 2019/20). It does not independently verify current operational status, staffing, real-time control capability, SCADA/EMS system details, or backup-facility readiness beyond the existing source set. The link to corridor-level dispatch is noted but not quantified.
 
 ## See also
 
