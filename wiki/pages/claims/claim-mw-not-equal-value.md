@@ -2,44 +2,15 @@
 title: Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated
 type: claim
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-05-11
 claim_id: C-006
 confidence: high
 status: stable
 sources: [wecs-hydropower-potential-2019, data-potential-pyramid, nea-annual-report-fy2024-25]
 tags: [discourse, economics, potential, firm-energy]
 page_quality: analysis
-brief:
-  headline: "Installed MW, annual generation, seasonal shape, and firm power are routinely conflated — producing misleading 'potential' and 'solved' narratives."
-  what: "Headline 83,000 MW potential is theoretical. Installed numbers disagree between NEA (3,591 MW FY 24/25) and the DoED operating registry (3,792 MW April 2026). Dry-season firm power is much smaller still. These are different accounting categories."
-  metrics:
-    - { label: "Theoretical potential",   value: "~83,000 MW" }
-    - { label: "Installed (NEA FY24/25)", value: "3,591 MW" }
-    - { label: "Installed (DoED Apr 26)", value: "3,792 MW" }
-    - { label: "Hydro share",             value: "3,390 MW" }
-    - { label: "Dry-season firm",         value: "~1,100–1,300 MW" }
-    - { label: "Monsoon peak",            value: "~2,200–2,500 MW" }
-  signal: green
-  signal_note: "Standard power-systems literacy; the corrective distinction is universally accepted."
-  why_it_matters: "Every public energy debate that treats nameplate MW as if it were firm or dispatchable produces a category error. Naming the categories is half the analytical work."
-  audiences: [policymakers, investors, journalists]
 ---
 
-<!-- generated:brief:start -->
-
-## Brief
-
-<p class="wiki-brief-signal" data-signal="green"><strong>Signal: Green.</strong> Standard power-systems literacy; the corrective distinction is universally accepted.</p>
-
-**Installed MW, annual generation, seasonal shape, and firm power are routinely conflated — producing misleading 'potential' and 'solved' narratives.** Headline 83,000 MW potential is theoretical. Installed numbers disagree between NEA (3,591 MW FY 24/25) and the DoED operating registry (3,792 MW April 2026). Dry-season firm power is much smaller still. These are different accounting categories.
-
-| Theoretical potential | Installed (NEA FY24/25) | Installed (DoED Apr 26) | Hydro share | Dry-season firm | Monsoon peak |
-|---|---|---|---|---|---|
-| ~83,000 MW | 3,591 MW | 3,792 MW | 3,390 MW | ~1,100–1,300 MW | ~2,200–2,500 MW |
-
-_Why it matters: Every public energy debate that treats nameplate MW as if it were firm or dispatchable produces a category error. Naming the categories is half the analytical work._
-
-<!-- generated:brief:end -->
 ## Claim
 
 **Installed megawatts**, **annual generation**, **seasonal output shape**, and **firm (dependable) power** are routinely **conflated** in Nepal's hydro discourse—producing misleading narratives about both "potential" and "solved" energy security.

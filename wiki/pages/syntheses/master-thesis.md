@@ -2,44 +2,13 @@
 title: Master Thesis
 type: synthesis
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-04-24
 sources: []
 tags: [thesis, synthesis, core-argument]
 page_quality: analysis
-brief:
-  headline: "Nepal is not failing because it lacks hydropower potential — it is failing to convert that potential into firm, deliverable, financeable, politically-executable power."
-  what: "The conversion failure is a stack: seasonal mismatch, RoR dominance, storage deficit, stranded generation, sediment, buildability, governance. Solar-hydro complementarity is the first scalable resource that helps rather than worsens the dry-season problem."
-  metrics:
-    - { label: "Theoretical potential",      value: "~83,000 MW" }
-    - { label: "Installed (FY 24/25)",       value: "3,591 MW" }
-    - { label: "Dry-season firm hydro",      value: "~1,100–1,300 MW" }
-    - { label: "Storage shortfall (order)",  value: "~200×" }
-    - { label: "RoR fleet share",            value: ">90%" }
-    - { label: "Solar-hydro LCOE crossover", value: "~2023" }
-  signal: amber
-  signal_note: "Diagnosis is settled in the wiki; the prescription (domestic-led hydro + solar + storage) is partially adopted in IPSDP 2025."
-  why_it_matters: "This is the wiki's top-level frame: every claim, intervention, and data page traces back to whether it accelerates or obstructs the conversion."
-  audiences: [policymakers, investors, journalists]
 ---
 
 # Master Thesis
-
-<!-- generated:brief:start -->
-
-## Brief
-
-<p class="wiki-brief-signal" data-signal="amber"><strong>Signal: Amber.</strong> Diagnosis is settled in the wiki; the prescription (domestic-led hydro + solar + storage) is partially adopted in IPSDP 2025.</p>
-
-**Nepal is not failing because it lacks hydropower potential — it is failing to convert that potential into firm, deliverable, financeable, politically-executable power.** The conversion failure is a stack: seasonal mismatch, RoR dominance, storage deficit, stranded generation, sediment, buildability, governance. Solar-hydro complementarity is the first scalable resource that helps rather than worsens the dry-season problem.
-
-| Theoretical potential | Installed (FY 24/25) | Dry-season firm hydro | Storage shortfall (order) | RoR fleet share | Solar-hydro LCOE crossover |
-|---|---|---|---|---|---|
-| ~83,000 MW | 3,591 MW | ~1,100–1,300 MW | ~200× | >90% | ~2023 |
-
-_Why it matters: This is the wiki's top-level frame: every claim, intervention, and data page traces back to whether it accelerates or obstructs the conversion._
-
-<!-- generated:brief:end -->
-
 
 The central argument of the Nepal Energy & Hydropower knowledge hub, supported by the source notes, data pages, and synthesis pages linked below.
 

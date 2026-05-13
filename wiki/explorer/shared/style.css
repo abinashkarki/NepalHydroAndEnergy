@@ -105,26 +105,6 @@ code, pre, .mono { font-family: var(--mono); }
 .wiki-callout-gap { border-left-color: #718096; }
 .wiki-callout-cite { border-left-color: #2b6cb0; }
 .wiki-callout-finding { border-left-color: #2f855a; }
-.wiki-brief-signal {
-  display: block;
-  border-left: 3px solid var(--rule);
-  padding: 6px 10px;
-  margin: 8px 0 12px;
-  font-size: 13px;
-  background: color-mix(in srgb, var(--rule) 18%, transparent);
-}
-.wiki-brief-signal[data-signal="green"] {
-  border-left-color: #2f855a;
-  background: color-mix(in srgb, #2f855a 10%, transparent);
-}
-.wiki-brief-signal[data-signal="amber"] {
-  border-left-color: #b7791f;
-  background: color-mix(in srgb, #b7791f 10%, transparent);
-}
-.wiki-brief-signal[data-signal="red"] {
-  border-left-color: #c53030;
-  background: color-mix(in srgb, #c53030 10%, transparent);
-}
 .markdown .wiki-inline-figure {
   margin: 16px auto 18px;
   max-width: 560px;

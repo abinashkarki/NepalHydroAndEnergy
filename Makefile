@@ -1,4 +1,4 @@
-.PHONY: wiki-index validate serve figures wiki-figures lead1-outputs test mcp deficit-model briefs wiki-build
+.PHONY: wiki-index validate serve figures test mcp deficit-model
 
 wiki-index:
 	python scripts/build_wiki_page_index.py
@@ -8,9 +8,6 @@ wiki-index:
 	python scripts/build_claim_governance.py
 	python scripts/build_wiki_search_index.py
 	.venv/bin/python scripts/build_wiki_vector_index.py --local-files-only
-
-briefs:
-	python scripts/build_briefs.py --write --inject --packs
 
 validate:
 	python scripts/validate_repo.py
@@ -26,16 +23,8 @@ serve:
 mcp:
 	python scripts/wiki_mcp_server.py
 
-figures: wiki-figures
+figures:
 	python scripts/build_research_figures.py
-
-wiki-figures:
-	python scripts/build_wiki_figures.py
-
-lead1-outputs:
-	python scripts/build_lead1_trade_outputs.py
-
-wiki-build: briefs wiki-figures wiki-index
 
 .PHONY: deficit-model
 deficit-model: data/winter_deficit_model/solar_monthly_cf_profile.csv data/winter_deficit_model/storage_hydro_pipeline.csv

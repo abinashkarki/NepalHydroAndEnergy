@@ -2,44 +2,13 @@
 title: Seasonal Mismatch
 type: concept
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-04-24
 sources: [wecs-river-basin-plan-2024, wb-water-sector-diagnostic, nea-annual-report-fy2024-25]
 tags: [seasonality, monsoon, dry-season, grid, nepal, RoR, demand]
 page_quality: analysis
-brief:
-  headline: "Nepal's rivers flood for four months and shrink the rest of the year; demand stays flat. The hydropower fleet inherits both surpluses and shortfalls."
-  what: "Structural property of RoR hydro in a monsoon climate, not a temporary drought. 75%+ of annual river discharge arrives June–September. System generation swings from a monsoon peak to a winter trough by about 60–65%; demand barely moves."
-  metrics:
-    - { label: "Monsoon discharge share",  value: "~75% in Jun–Sep" }
-    - { label: "Generation peak",          value: "~2,200–2,500 MW" }
-    - { label: "Generation trough",        value: "~600–900 MW" }
-    - { label: "Decline magnitude",        value: "~60–65%" }
-    - { label: "RoR / PRoR fleet share",   value: ">90%" }
-    - { label: "Reservoir storage share",  value: "<5%" }
-  signal: green
-  signal_note: "Hydrologically and physically settled; debates are about portfolio response, not the underlying pattern."
-  why_it_matters: "Every other concept in the wiki — storage deficit, stranded generation, solar complementarity, India trade — is downstream of this one."
-  audiences: [policymakers, journalists]
 ---
 
 # Seasonal Mismatch
-
-<!-- generated:brief:start -->
-
-## Brief
-
-<p class="wiki-brief-signal" data-signal="green"><strong>Signal: Green.</strong> Hydrologically and physically settled; debates are about portfolio response, not the underlying pattern.</p>
-
-**Nepal's rivers flood for four months and shrink the rest of the year; demand stays flat. The hydropower fleet inherits both surpluses and shortfalls.** Structural property of RoR hydro in a monsoon climate, not a temporary drought. 75%+ of annual river discharge arrives June–September. System generation swings from a monsoon peak to a winter trough by about 60–65%; demand barely moves.
-
-| Monsoon discharge share | Generation peak | Generation trough | Decline magnitude | RoR / PRoR fleet share | Reservoir storage share |
-|---|---|---|---|---|---|
-| ~75% in Jun–Sep | ~2,200–2,500 MW | ~600–900 MW | ~60–65% | >90% | <5% |
-
-_Why it matters: Every other concept in the wiki — storage deficit, stranded generation, solar complementarity, India trade — is downstream of this one._
-
-<!-- generated:brief:end -->
-
 
 ## Summary
 
