@@ -2,7 +2,7 @@
 title: Madhya Bhotekoshi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, koshi, sindhupalchok, chilime-group]
 images: ['- src: madhya-bhotekoshi/nea2425-p193-img01.png']
@@ -13,6 +13,10 @@ page_quality: analysis
 # Madhya Bhotekoshi
 
 Madhya Bhotekoshi (Middle Bhotekoshi) is a 102 MW run-of-river hydropower project under construction on the Bhote Koshi River in Sindhupalchok district. It is one of the key capacity additions in the Bhote Koshi corridor, an area that has seen repeated geological setbacks including landslides and glacial lake outburst floods.
+
+## Summary
+
+**Madhya Bhotekoshi is a 102 MW run-of-river hydropower project under construction on the Bhote Koshi River in Sindhupalchok district.** It is part of the Chilime Hydropower Company Limited expansion strategy and one of three Chilime-promoted projects forming a ~256 MW cluster in the Trishuli–Bhote Koshi system. The page tracks it as a geologically exposed corridor build using the current NEA and sector-analysis source set.
 
 ## Chilime Group Strategy
 
@@ -47,6 +51,10 @@ At 102 MW, Madhya Bhotekoshi represents a significant block of capacity in the u
 - [[buildability]]
 - [[chilime]]
 - [[sector-financial-analysis-triple-authority-2026]]
+
+## Limitations & Controversies
+
+The current page is strongest on corporate-strategy and corridor-risk context. It does not independently verify current construction progress, final cost, commissioning date, financing closure, or geological event probability beyond the existing source set. The Bhote Koshi valley's landslide, flash-flood, and seismic risks are documented at the corridor level but not quantified for this specific project site.
 
 ## Sources
 

@@ -2,7 +2,7 @@
 title: Likhu -1
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [likhu-cascade-research-compilation]
 tags: [project, operating, private-ipp, ramechhap, solukhumbu, okhaldhunga, koshi]
 images: []
@@ -15,6 +15,10 @@ page_quality: analysis
 77 MW · operating · on the Likhu Khola · in Solukhumbu, Okhaldhunga, and Ramechhap districts. The **largest plant in the Likhu Cascade** (213 MW combined across 4 plants).
 
 <!-- generated:specs:start -->
+
+## Summary
+
+**Likhu-1 is a 77 MW operating run-of-river hydropower project on the Likhu Khola in Solukhumbu, Okhaldhunga, and Ramechhap districts.** It is the largest plant in the 213 MW Likhu Cascade and the first MV Dugar–Mogha Energy project to reach operational scale in this basin. The page tracks it as a cascade leader with an 80/20 take-or-pay PPA structure, using the current CARE Nepal credit-rating source set.
 
 ## Specifications
 
@@ -128,6 +132,10 @@ Muzaffarpur 400 kV interconnector into the Indian day-ahead market. This
 transformed the same corridor that caused stranded generation in 2023 into
 a dual-market export pathway — domestic dispatch in dry season, Indian
 export in monsoon surplus. See [[buildability]].
+
+## Limitations & Controversies
+
+The current page is strongest on credit-rating and cascade-level context from CARE Nepal disclosures. It does not independently verify final design parameters, construction-phase quality records, current operating performance month-by-month, or environmental/social compliance status beyond the existing source set. The single-corridor evacuation risk is documented at the cascade level but not quantified against real-time grid capacity.
 
 ## See also
 

@@ -2,7 +2,7 @@
 title: Madi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -15,6 +15,10 @@ images: []
 Madi is a 199.8 MW JICA promising-storage candidate in the West Rapti basin. It is pinned in [[data-layer-storage-shortlist]] because its dry-energy ratio is useful even though it is not a headline-MW project.
 
 <!-- generated:specs:start -->
+
+## Summary
+
+**Madi is a 199.8 MW JICA promising-storage candidate in the West Rapti basin (Karnali basin).** It contributes 170.7 GWh of dry-season energy with a 27.5% dry share and 359.5 MCM total storage (235.1 MCM effective). The page tracks it as a mid-tier storage portfolio option using the current JICA/NEA source set.
 
 ## Specifications
 
@@ -76,6 +80,10 @@ The marker is a river anchor suitable for map storytelling and basin comparison.
 ## Registry note
 
 - JICA/NEA storage master plan volume 2
+
+## Limitations & Controversies
+
+The current page is strongest on master-plan and shortlist context. It does not independently verify feasibility-study details, environmental and social assessment, financing plan, grid-connection commitment, or construction timeline beyond the existing source set. The IPSDP milestone window (2026–2030) is a planning horizon, not a confirmed construction-start date. Map markers are river anchors suitable for basin comparison, not site-grade coordinates.
 
 ## See also
 

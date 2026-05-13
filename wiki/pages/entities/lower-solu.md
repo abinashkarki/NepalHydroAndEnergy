@@ -2,7 +2,7 @@
 title: Lower Solu Hydropower Project
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [sahas-urja-benchmark-icra-2026]
 tags: [project, under-construction, koshi, solukhumbu]
 images: []
@@ -13,6 +13,10 @@ page_quality: analysis
 # Lower Solu Hydropower Project
 
 Lower Solu is an 82 MW run-of-river hydropower project under construction in the Solukhumbu district — part of the Dudh Koshi river system that includes the benchmark Sahas Urja (Solu Khola, 86 MW) project.
+
+## Summary
+
+**Lower Solu is an 82 MW run-of-river hydropower project under construction on the Solu Khola in Solukhumbu district, part of the Dudh Koshi river system.** It enters a corridor with an established capital-efficiency benchmark set by Sahas Urja's 86 MW Solu Khola project. The page tracks it as a build-cost-discipline case study using the current ICRA/Sahas Urja source set.
 
 ## Solu Corridor
 
@@ -48,6 +52,10 @@ The single most important variable determining Lower Solu's financial outcome is
 - [[run-of-river-hydropower]]
 - [[buildability]]
 - [[sahas-urja-benchmark-icra-2026]]
+
+## Limitations & Controversies
+
+The current page is strongest on corridor-benchmark and capital-efficiency context. It does not independently verify current construction progress, final cost per MW, commissioning date, financing closure, or environmental/social compliance status beyond the existing source set. The Sahas Urja benchmark creates comparative pressure, but Lower Solu's actual cost and performance will require project-level verification before detailed financial analysis.
 
 ## Sources
 

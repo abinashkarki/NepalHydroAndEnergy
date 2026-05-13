@@ -2,7 +2,7 @@
 title: Likhu-4
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [likhu-cascade-research-compilation, jica-ipsdp-main-report-vol2]
 tags: [project, operating, private-ipp, ramechhap, koshi]
 images:
@@ -20,6 +20,10 @@ page_quality: analysis
 52.4 MW · operating · on the Likhu Khola · in Ramechhap district. Originally designed as a **120 MW export-oriented project**, completely redesigned and downscaled after a cross-border transmission dispute. Part of the **Likhu Cascade** (213 MW combined).
 
 <!-- generated:specs:start -->
+
+## Summary
+
+**Likhu-4 is a 52.4 MW operating run-of-river hydropower project on the Likhu Khola in Ramechhap district.** It was originally designed as a 120 MW export-oriented plant and was completely redesigned and downscaled after a cross-border transmission wheeling-charge dispute. The page tracks it as a regulatory case study and stranded-generation recovery example using the current CARE Nepal and JICA source set.
 
 ## Specifications
 
@@ -155,6 +159,10 @@ evidence that cross-border transmission policy evolves faster than a
 RoR hydro project can be redesigned and built. A project conceived for
 one regulatory environment commissions into a different one. Likhu-4
 is the case study.
+
+## Limitations & Controversies
+
+The current page is strongest on regulatory-history and credit-rating context. It does not independently verify the desanding basin failure root cause, contractor liability adjudication, current month-by-month operating performance, or environmental/social compliance status beyond the existing source set. The redesign from 120 MW to 52.4 MW means some original-design data no longer reflects the built asset.
 
 ## See also
 

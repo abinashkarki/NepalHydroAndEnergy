@@ -2,7 +2,7 @@
 title: Madhya Marsyangdi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25]
 tags: [project, operating, gandaki]
 images: []
@@ -13,6 +13,10 @@ page_quality: analysis
 # Madhya Marsyangdi
 
 Madhya Marsyangdi (Middle Marsyangdi) is a 70 MW operating hydropower project on the Marsyangdi River — one of Nepal's established generation assets with a multi-decade operational track record.
+
+## Summary
+
+**Madhya Marsyangdi is a 70 MW peaking run-of-river hydropower project operating on the Marsyangdi River in Lamjung district, Gandaki Province.** Commissioned in December 2008, it is the middle anchor of the ~170 MW Marsyangdi cascade and recorded 107.6% of design generation in FY 2081/82. The page tracks it as an operating-plant performance benchmark using the current NEA annual report source set.
 
 ## Marsyangdi Cascade
 
@@ -131,6 +135,10 @@ Every NEA plant eventually follows it.
 ## Sources
 
 - [[nea-annual-report-fy2024-25]]
+## Limitations & Controversies
+
+The current page is strongest on NEA annual-report and cascade-level context. It does not independently verify long-term maintenance cost trends, remaining useful life estimates, environmental flow compliance, or sediment-management records beyond the existing source set. FY 2081/82 generation data is a single-year snapshot; multi-year performance trends would require additional verification. The renewal-cycle discussion is forward-looking and not yet grounded in completed rehabilitation data.
+
 ## See also
 
 - [[gandaki-basin]] — the Marsyangdi feeds the Narayani / Gandaki system

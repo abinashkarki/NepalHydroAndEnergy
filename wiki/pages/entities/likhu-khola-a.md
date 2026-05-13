@@ -2,7 +2,7 @@
 title: Likhu Khola 'A'
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 sources: [likhu-cascade-research-compilation]
 tags: [project, operating, private-ipp, solukhumbu, koshi]
 images: []
@@ -15,6 +15,10 @@ page_quality: analysis
 29.04 MW · operating · on the Likhu Khola · in Solukhumbu district. The **smallest plant in the Likhu Cascade** (213.44 MW combined across 4 plants) and the first MV Dugar project to commission.
 
 <!-- generated:specs:start -->
+
+## Summary
+
+**Likhu Khola A is a 29.04 MW operating run-of-river hydropower project on the Likhu Khola in Solukhumbu district.** It is the smallest plant in the Likhu Cascade and the first MV Dugar–Mogha Energy project to commission, in February 2022. The page tracks it as a cascade-financial benchmark with a two-tier PPA structure, using the current CARE Nepal credit-rating source set.
 
 ## Specifications
 
@@ -138,6 +142,10 @@ vulnerabilities:
   the entire cascade. The late-2023 upgrade to 300 MVA resolved the immediate
   crisis, but a single substation failure returns all four plants to
   stranded-generation status. See [[buildability]] and [[stranded-generation]].
+
+## Limitations & Controversies
+
+The current page is strongest on credit-rating and PPA-structure context from CARE Nepal disclosures. It does not independently verify final design parameters, construction-phase quality records, current operating performance month-by-month, or environmental/social compliance status beyond the existing source set. Hydrological interdependence with downstream cascade plants is noted but not quantified.
 
 ## See also
 

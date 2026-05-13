@@ -2,7 +2,7 @@
 title: Lower Badigad
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
+updated: 2026-05-13
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -19,6 +19,10 @@ images:
 Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basin. It is pinned in [[data-layer-storage-shortlist]] because it pairs large carryover storage with meaningful dry-season output, making it more relevant to system value than many larger wet-season-heavy projects.
 
 <!-- generated:specs:start -->
+
+## Summary
+
+**Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basin.** It is pinned in the storage shortlist for its large carryover storage (995.9 MCM total, 505.5 MCM effective) and meaningful dry-season output (354.7 GWh, 26.0% dry share). The page tracks it as a planning-layer storage comparator using the current JICA/NEA source set.
 
 ## Specifications
 
@@ -80,6 +84,10 @@ The map marker is a river-aligned project reference. It is appropriate for compa
 ## Registry note
 
 - JICA/NEA storage master plan volume 2
+
+## Limitations & Controversies
+
+The current page is strongest on master-plan and shortlist context. It does not independently verify feasibility-study details, environmental and social assessment, financing plan, grid-connection commitment, or construction timeline beyond the existing source set. The IPSDP milestone window (2031–2035) is a planning horizon, not a confirmed construction-start date. Map markers are river-aligned references, not site-grade boundaries.
 
 ## See also
 

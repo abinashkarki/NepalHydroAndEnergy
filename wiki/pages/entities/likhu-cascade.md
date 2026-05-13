@@ -2,7 +2,7 @@
 title: Likhu Cascade
 type: entity
 created: 2026-05-04
-updated: 2026-05-04
+updated: 2026-05-13
 sources: [likhu-cascade-research-compilation]
 tags: [project, cascade, koshi, solukhumbu, ramechhap]
 images: []
@@ -13,6 +13,10 @@ page_quality: analysis
 # Likhu Cascade
 
 The Likhu Khola is a hydropower-rich tributary in the [[koshi-basin]], straddling Solukhumbu and Ramechhap districts. The Likhu system has attracted significant IPP investment with multiple generation-licence projects across the upper and lower reaches.
+
+## Summary
+
+**The Likhu Cascade is a 213 MW cluster of four run-of-river hydropower plants on the Likhu Khola in the Koshi basin, spanning Solukhumbu and Ramechhap districts.** The page tracks the cascade as a single-corridor generation cluster with shared transmission infrastructure and mixed developer equity, using the current wiki source set.
 
 ## Plants in the Cascade
 
@@ -35,6 +39,10 @@ The upper Likhu projects (1, 2, Likhu Khola A) cluster in the Solukhumbu highlan
 ## Sources
 
 - [[likhu-cascade-research-compilation]]
+## Limitations & Controversies
+
+The current page is strongest on aggregate registry context and corridor-level narrative. It does not independently verify individual plant construction status, commissioning dates, current generation, or financing terms beyond the existing source set. Plant-level details should be checked against the respective entity pages and their source links before detailed use. The aggregate capacity figure includes projects at varying stages of development.
+
 ## See also
 
 - [[likhu-1]]

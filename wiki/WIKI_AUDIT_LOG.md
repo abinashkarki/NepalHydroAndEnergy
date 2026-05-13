@@ -1366,6 +1366,40 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-13 — Entity Cleanup (Batch 4)
+
+**Agent:** Hermes (kimi-k2.6)
+**Session type:** Entity-page structural cleanup — 10 pages
+**Pages touched:**
+- `entities/likhu-1`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/likhu-4`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/likhu-cascade`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/likhu-khola-a`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/lower-badigad`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/lower-jhimruk`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/lower-solu`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/madhya-bhotekoshi`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/madhya-marsyangdi`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+- `entities/madi`: +`## Summary`; +`## Limitations & Controversies`; updated frontmatter date.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 380 wiki pages, caches valid, map manifest valid, tracked hygiene clean`.
+- **Before:** 92 total warnings (entities: 45 missing Limitations & Controversies, 47 missing Summary).
+- **After:** 72 total warnings (entities: 35 missing Limitations & Controversies, 37 missing Summary).
+- **Delta:** −20 warnings, all entity-page section warnings (10 pages × 2 sections each).
+- `git diff --check`: clean.
+- `make test`: passed, including source Used By integrity and strict search benchmark 50/50.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Limited batch to 10 entity pages.
+- Did not touch sources, concepts, claims, data pages, explorer runtime, map data, or generated indexes.
+- Kept additions bounded to existing page text, spec tables, frontmatter, and source context.
+- No new factual claims, confidence changes, or ontology terms introduced.
+
+---
+
 ## Log Format for Future Sessions
 
 ```
