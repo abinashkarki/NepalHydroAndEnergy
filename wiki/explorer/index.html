@@ -108,6 +108,10 @@
       font-weight: 600;
     }
 
+    .mobile-context-bar {
+      display: none;
+    }
+
     /* Left-pane header */
     .left-head {
       position: sticky;
@@ -762,6 +766,20 @@
       font-size: 11px;
       font-weight: 700;
       cursor: pointer;
+    }
+
+    .lp-mini-preset {
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--ink-soft);
+      font-weight: 650;
+    }
+
+    .lp-mini-preset:not(:empty)::before {
+      content: "· ";
+      color: #94a3b8;
     }
 
     .layer-panel:not(.collapsed) .lp-mini {
@@ -2375,7 +2393,7 @@
 
       .compact-tabs {
         display: grid;
-        grid-template-columns: 78px minmax(112px, 132px);
+        grid-template-columns: repeat(3, minmax(72px, 1fr));
         gap: 4px;
         width: auto;
         margin-left: auto;
@@ -2444,24 +2462,24 @@
         display: block;
       }
 
-      .layout[data-compact-view="readmap"] {
+      .layout[data-compact-view="read"] {
         grid-template-rows:
           minmax(180px, var(--compact-reader-height, 58%))
           9px
           minmax(150px, 1fr);
       }
 
-      .layout[data-compact-view="readmap"] .pane.center,
-      .layout[data-compact-view="readmap"] .pane.right {
+      .layout[data-compact-view="read"] .pane.center,
+      .layout[data-compact-view="read"] .pane.right {
         display: block;
       }
 
-      .layout[data-compact-view="readmap"] .pane.center {
+      .layout[data-compact-view="read"] .pane.center {
         grid-row: 1;
         border-bottom: 1px solid var(--rule);
       }
 
-      .layout[data-compact-view="readmap"] #split-2 {
+      .layout[data-compact-view="read"] #split-2 {
         display: block;
         grid-row: 2;
         height: 9px;
@@ -2471,19 +2489,23 @@
         cursor: row-resize;
       }
 
-      .layout[data-compact-view="readmap"] #split-2::before {
+      .layout[data-compact-view="read"] #split-2::before {
         width: 34px;
         height: 2px;
       }
 
-      .layout[data-compact-view="readmap"] #split-2:hover::before,
-      .layout[data-compact-view="readmap"] #split-2.dragging::before {
+      .layout[data-compact-view="read"] #split-2:hover::before,
+      .layout[data-compact-view="read"] #split-2.dragging::before {
         width: 56px;
         height: 2px;
       }
 
-      .layout[data-compact-view="readmap"] .pane.right {
+      .layout[data-compact-view="read"] .pane.right {
         grid-row: 3;
+      }
+
+      .layout[data-compact-view="map"] .pane.right {
+        display: block;
       }
 
       .pane.right {
@@ -2559,6 +2581,190 @@
       .left-head .search-input-wrap {
         grid-column: auto;
       }
+
+      .layout[data-compact-view="read"],
+      .layout[data-compact-view="map"] {
+        grid-template-rows: minmax(0, 1fr);
+      }
+
+      .layout[data-compact-view="read"] .pane.center {
+        display: block;
+        grid-row: 1;
+        border-bottom: 0;
+      }
+
+      .layout[data-compact-view="read"] .pane.right,
+      .layout[data-compact-view="read"] #split-2 {
+        display: none;
+      }
+
+      .layout[data-compact-view="map"] .pane.right {
+        display: block;
+        grid-row: 1;
+      }
+
+      .layout[data-compact-view="map"] .pane.center,
+      .layout[data-compact-view="map"] #split-2 {
+        display: none;
+      }
+
+      .markdown {
+        padding-bottom: 92px;
+      }
+
+      .results {
+        padding: 0;
+      }
+
+      .result {
+        margin-bottom: 0;
+        padding: 11px 16px 12px;
+        border-radius: 0;
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .result .r-title {
+        font-size: 14px;
+        line-height: 1.25;
+        margin-bottom: 4px;
+      }
+
+      .result .r-meta {
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 4px;
+        overflow: hidden;
+      }
+
+      .result .r-meta span:first-child {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .result .r-snippet {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 12.5px;
+        line-height: 1.35;
+      }
+
+      .result.spatial .r-meta::before {
+        flex: 0 0 auto;
+        margin-right: 2px;
+      }
+
+      .mobile-context-bar {
+        position: fixed;
+        left: 12px;
+        right: 12px;
+        bottom: max(12px, env(safe-area-inset-bottom));
+        z-index: 760;
+        display: none;
+        align-items: center;
+        gap: 8px;
+        padding: 9px;
+        border: 1px solid rgba(226, 232, 240, 0.92);
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.94);
+        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18), 0 2px 8px rgba(15, 23, 42, 0.08);
+        backdrop-filter: blur(16px) saturate(1.08);
+        -webkit-backdrop-filter: blur(16px) saturate(1.08);
+      }
+
+      .mobile-context-bar.show {
+        display: flex;
+      }
+
+      .mobile-context-label {
+        min-width: 0;
+        flex: 1;
+        color: var(--ink-soft);
+        font-size: 11px;
+        line-height: 1.25;
+      }
+
+      .mobile-context-label b {
+        display: block;
+        color: var(--ink);
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .mobile-context-bar button {
+        min-height: 34px;
+        border: 1px solid var(--rule);
+        border-radius: 7px;
+        background: var(--panel);
+        color: var(--ink);
+        font: inherit;
+        font-size: 12px;
+        font-weight: 650;
+        padding: 7px 10px;
+      }
+
+      .mobile-context-bar .primary {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: #fff;
+      }
+
+      .layout[data-compact-view="map"] + .mobile-context-bar {
+        top: calc(var(--app-bar-height, 88px) + 10px);
+        bottom: auto;
+      }
+
+      .layout[data-compact-view="map"] + .mobile-context-bar ~ .wiki-lightbox {
+        z-index: 900;
+      }
+
+      .layer-panel {
+        left: 10px;
+        right: 10px;
+        top: auto;
+        bottom: 12px;
+        width: auto;
+        max-width: none;
+        max-height: min(70vh, calc(100% - 112px));
+        border-radius: 16px 16px 12px 12px;
+        padding: 10px 12px max(10px, env(safe-area-inset-bottom));
+      }
+
+      .layer-panel.collapsed {
+        left: 12px;
+        right: auto;
+        bottom: 12px;
+        width: auto;
+        max-width: calc(100% - 24px);
+      }
+
+      .layer-panel:not(.collapsed) .lp-body {
+        max-height: calc(min(70vh, 100%) - 48px);
+        overflow: auto;
+        padding-bottom: 4px;
+      }
+
+      .lp-pin {
+        display: none;
+      }
+
+      .lp-row {
+        grid-template-columns: 22px minmax(0, 1fr) 48px 34px;
+        min-height: 34px;
+      }
+
+      .lp-name {
+        font-size: 12px;
+      }
+
+      .leaflet-control-zoom {
+        display: none;
+      }
     }
 
     @media (max-width: 520px) {
@@ -2610,7 +2816,8 @@
     <span class="crumb" id="now-page" style="margin-left: 10px">no page selected</span>
     <div class="compact-tabs" id="compact-tabs" role="group" aria-label="Compact wiki views">
       <button type="button" data-view="find">Find</button>
-      <button type="button" data-view="readmap">Read + Map</button>
+      <button type="button" data-view="read">Read</button>
+      <button type="button" data-view="map">Map</button>
     </div>
   </div>
 
@@ -2659,6 +2866,8 @@
     </aside>
   </div>
 
+  <div class="mobile-context-bar" id="mobile-context-bar" aria-live="polite"></div>
+
   <!-- Lightbox for wiki-page filmstrip images. Hidden until openWikiLightbox. -->
   <div class="wiki-lightbox" id="wiki-lightbox" role="dialog" aria-modal="true" aria-hidden="true">
     <button class="wiki-lightbox-close" aria-label="Close" id="wiki-lightbox-close">&times;</button>
@@ -2700,7 +2909,8 @@
       const TOURS_ENABLED = false;
       let tourManifest = null;
       let tourState = { enabled: false, active: false, tourId: null, mode: "short", stepIndex: 0 };
-      let compactView = "find";
+      let compactView = "read";
+      let pendingMapFocus = null;
       const compactMql = window.matchMedia("(max-width: 1150px)");
 
       const ENTITY_SUB_ORDER = ["basins", "projects", "institutions", "geopolitics", "profiles", "other"];
@@ -2892,6 +3102,11 @@
         return compactMql.matches;
       }
 
+      function normalizeCompactView(view) {
+        if (view === "readmap") return "read";
+        return ["find", "read", "map"].includes(view) ? view : "find";
+      }
+
       function updateViewportHeight() {
         const vv = window.visualViewport;
         const h = vv && vv.height ? vv.height : window.innerHeight;
@@ -2908,8 +3123,7 @@
       }
 
       function setCompactView(view, opts = {}) {
-        if (view === "read" || view === "map") view = "readmap";
-        if (!["find", "readmap"].includes(view)) view = "find";
+        view = normalizeCompactView(view);
         compactView = view;
         const layout = document.getElementById("layout");
         if (layout) layout.dataset.compactView = view;
@@ -2918,28 +3132,110 @@
           button.classList.toggle("active", active);
           button.setAttribute("aria-pressed", active ? "true" : "false");
         });
-        if (opts.persist !== false) localStorage.setItem("explorer.compactView", view);
         updateAppBarHeight();
-        if (view === "readmap" && map) {
+        updateMobileContextBar();
+        if ((view === "read" || view === "map") && map) {
           setTimeout(() => map.invalidateSize(), 80);
         }
+        if (view === "map") flushPendingMapFocus();
       }
 
       function initialCompactView(url) {
-        if (url && url.page) return "readmap";
-        const saved = localStorage.getItem("explorer.compactView");
-        if (saved === "read" || saved === "map") return "readmap";
-        return ["find", "readmap"].includes(saved) ? saved : "find";
+        if (url && (url.page || url.fact)) return "read";
+        return "read";
+      }
+
+      function currentReaderTitle() {
+        if (currentSlug) return (pageIndex && pageIndex.slugToTitle && pageIndex.slugToTitle[currentSlug]) || currentSlug;
+        if (currentFactId && factIndex && typeof factIndex.getFact === "function") {
+          const fact = factIndex.getFact(currentFactId);
+          return fact ? fact.name : "Project record";
+        }
+        return "";
+      }
+
+      function currentHasMapTarget() {
+        if (currentSlug && bindings && bindings.pages && bindings.pages[currentSlug]) return true;
+        if (currentFactId && factIndex && typeof factIndex.getFact === "function") {
+          const fact = factIndex.getFact(currentFactId);
+          return !!(fact && fact.feature_ref && fact.feature_ref.layer);
+        }
+        return false;
+      }
+
+      function updateMobileContextBar() {
+        const bar = document.getElementById("mobile-context-bar");
+        if (!bar) return;
+        bar.classList.remove("show");
+        bar.innerHTML = "";
+        if (!isCompactLayout() || compactView === "find") return;
+
+        const title = currentReaderTitle();
+        const hasTarget = currentHasMapTarget();
+        if (compactView === "map") {
+          if (!title) return;
+          bar.innerHTML = `
+            <div class="mobile-context-label"><b>${escapeHtml(title)}</b>Synced map view</div>
+            <button type="button" data-mobile-action="find">Find</button>
+            <button type="button" class="primary" data-mobile-action="read">Open article</button>
+          `;
+          bar.classList.add("show");
+          return;
+        }
+
+        if (compactView === "read") {
+          const label = title || "Start reading";
+          const hint = hasTarget ? "Spatial page" : "Reader page";
+          const secondary = hasTarget ? `<button type="button" data-mobile-action="find">Find</button>` : "";
+          const primary = hasTarget
+            ? `<button type="button" class="primary" data-mobile-action="map">View on map</button>`
+            : `<button type="button" class="primary" data-mobile-action="find">Find pages</button>`;
+          bar.innerHTML = `
+            <div class="mobile-context-label"><b>${escapeHtml(label)}</b>${hint}</div>
+            ${secondary}
+            ${primary}
+          `;
+          bar.classList.add("show");
+        }
+      }
+
+      function isMapPaneVisible() {
+        const pane = document.querySelector(".pane.right");
+        return !!(pane && getComputedStyle(pane).display !== "none" && pane.getBoundingClientRect().width > 0);
+      }
+
+      function scheduleMapFocus(fn) {
+        if (isCompactLayout() && !isMapPaneVisible()) {
+          pendingMapFocus = fn;
+          return;
+        }
+        setTimeout(fn, 250);
+      }
+
+      function flushPendingMapFocus() {
+        if (!pendingMapFocus || !isMapPaneVisible()) return;
+        const fn = pendingMapFocus;
+        pendingMapFocus = null;
+        setTimeout(fn, 180);
       }
 
       function setupCompactShell() {
         document.querySelectorAll("#compact-tabs button").forEach((button) => {
           button.addEventListener("click", () => setCompactView(button.dataset.view));
         });
+        const bar = document.getElementById("mobile-context-bar");
+        if (bar) {
+          bar.addEventListener("click", (e) => {
+            const button = e.target.closest("button[data-mobile-action]");
+            if (!button) return;
+            const action = button.dataset.mobileAction;
+            if (action === "find" || action === "read" || action === "map") setCompactView(action);
+          });
+        }
         const onViewportChange = () => {
           updateAppBarHeight();
           if (isCompactLayout()) {
-            setCompactView(compactView || (currentSlug ? "readmap" : "find"), { persist: false });
+            setCompactView(compactView || (currentSlug || currentFactId ? "read" : "read"), { persist: false });
           } else if (map) {
             setTimeout(() => map.invalidateSize(), 80);
           }
@@ -3595,7 +3891,7 @@
         }
 
         setActiveNav(slug);
-        if (isCompactLayout()) setCompactView("readmap");
+        if (isCompactLayout()) setCompactView("read");
         // If a feature popup is currently open, refresh it so its CTA reflects the
         // new current page (e.g., the just-opened slug becomes "Already open").
         if (map) {
@@ -3643,7 +3939,7 @@
           return;
         }
 
-        setTimeout(async () => {
+        scheduleMapFocus(async () => {
           const feats = lm.findFeaturesForSlug(slug, bindings);
           const useFocusOverlay = async (featureRef) => {
             if (!featureRef || !lm || typeof lm.showFocusOverlay !== "function") return null;
@@ -3737,7 +4033,7 @@
               map.flyTo(binding.focus.center, binding.focus.zoom || 8, { duration: 0.9 });
             }
           }
-        }, 250);
+        });
 
         syncUrl();
       };
@@ -3757,7 +4053,7 @@
         document.getElementById("now-page").textContent = "project record";
         const page = document.getElementById("page");
         page.innerHTML = renderFactDetail(fact);
-        if (isCompactLayout()) setCompactView("readmap");
+        if (isCompactLayout()) setCompactView("read");
 
         const ref = fact.feature_ref || {};
         if (ref.layer && !lm.has(ref.layer)) await lm.add(ref.layer);
@@ -3766,7 +4062,8 @@
           `<b>${escapeHtml(fact.name)}</b><br/>` +
           `<span class="muted">Project record · ${escapeHtml(fact.source_layer || "fact index")}</span>`;
 
-        if (feature) {
+        scheduleMapFocus(() => {
+          if (!feature) return;
           const single = L.featureGroup([feature.layer]);
           const b = single.getBounds();
           if (b.isValid()) {
@@ -3779,7 +4076,7 @@
             const spec = lm.buildCardSpec(feature, { pageHref: `?fact=${encodeURIComponent(factId)}`, linkLabel: "Open project record →" });
             if (spec) lm.flashCard(feature, spec, { dismissAfterMs: 7000 });
           }, 950);
-        }
+        });
         syncUrl();
       };
 
@@ -3914,6 +4211,8 @@
             ? escapeHtml(presetDisplayName(p))
             : "Choose a map lens";
         }
+        const mini = document.getElementById("layer-mini-preset");
+        if (mini) mini.textContent = p ? presetDisplayName(p) : "";
       }
 
       const LAYER_PANEL_SECTIONS = [
@@ -4109,6 +4408,7 @@
         ${svgIcon("pin")}
       </span>
       <span>Layers</span>
+      <span class="lp-mini-preset" id="layer-mini-preset"></span>
     </div>
     <div class="lp-body">
       <details class="lp-presets" id="layer-presets">
@@ -4931,7 +5231,8 @@
 
         // Resolve initial state: URL > localStorage > config default
         const url = readUrlState();
-        setCompactView(initialCompactView(url), { persist: false });
+        const initialView = initialCompactView(url);
+        if (isCompactLayout()) setCompactView("map", { persist: false });
         if (TOURS_ENABLED && tourManifest) {
           tourState.enabled = (url.guided === "1") || (localStorage.getItem("explorer.guidedEnabled") === "1");
           tourState.tourId = url.tour || localStorage.getItem("explorer.tour") || tourManifest.default_tour || Object.keys(tourManifest.tours || {})[0] || null;
@@ -4944,7 +5245,7 @@
         const initialPreset = url.preset || savedPreset || presetsCfg.default_preset;
 
         suppressUrlSync = true;
-        await applyPreset(initialPreset in presetsCfg.presets ? initialPreset : presetsCfg.default_preset, { fly: !url.page && !url.fact });
+        await applyPreset(initialPreset in presetsCfg.presets ? initialPreset : presetsCfg.default_preset, { fly: !isCompactLayout() && !url.page && !url.fact });
         suppressUrlSync = false;
 
         if (url.fact && factIndex.getFact(url.fact)) {
@@ -4954,6 +5255,7 @@
         } else if (pageIndex.slugToCategory[DEFAULT_PAGE]) {
           await window.openWikiPage(DEFAULT_PAGE);
         } else {
+          setCompactView(initialView, { persist: false });
           syncUrl();
         }
         if (TOURS_ENABLED) applyTourEnabledState();
