@@ -34,4 +34,5 @@ page_quality: analysis
 
 ## Used By
 
+- [[figure-index]]
 - [[trishuli-galchhi]]

@@ -45,8 +45,9 @@ A water-sector-wide diagnostic covering storage requirements, irrigation, and th
 
 ## Used By
 
-- [[storage-deficit]]
 - [[data-storage-comparison]]
+- [[figure-index]]
+- [[storage-deficit]]
 
 ## Relevance to Project
 

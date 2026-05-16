@@ -84,6 +84,7 @@ Local workspace copy:
 - [[budhigandaki]]
 - [[chera-1]]
 - [[dudhkoshi-storage]]
+- [[figure-index]]
 - [[humla-karnali-1]]
 - [[karnali-chisapani]]
 - [[khimti-cascade]]

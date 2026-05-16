@@ -40,10 +40,11 @@ Older but widely cited national planning document for Nepal's water resources. P
 
 ## Used By
 
-- [[ganges-contribution]]
-- [[storage-deficit]]
 - [[data-basin-discharge]]
+- [[figure-index]]
+- [[ganges-contribution]]
 - [[pancheshwar]]
+- [[storage-deficit]]
 
 ## Relevance to Project
 

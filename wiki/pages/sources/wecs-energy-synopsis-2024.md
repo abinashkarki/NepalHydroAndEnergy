@@ -54,11 +54,12 @@ The local file at `data/raw/core/wecs_energy_sector_synopsis_2024.pdf` is now a 
 
 ## Used By
 
+- [[data-final-energy-mix]]
+- [[figure-index]]
+- [[irena-remap-nepal]]
 - [[run-of-river-hydropower]]
 - [[solar-hydro-complementarity]]
-- [[data-final-energy-mix]]
 - [[wecs]]
-- [[irena-remap-nepal]]
 
 ## Relevance to Project
 

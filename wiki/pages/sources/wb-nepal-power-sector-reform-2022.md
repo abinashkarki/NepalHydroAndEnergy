@@ -35,7 +35,8 @@ Provides the 42,000 MW economically feasible figure used alongside WECS numbers.
 
 ## Used By
 
-- [[data-potential-pyramid]]
-- [[wb-grid-solar-ee-project]]
 - [[buildability]]
+- [[data-potential-pyramid]]
+- [[figure-index]]
 - [[firm-power]]
+- [[wb-grid-solar-ee-project]]

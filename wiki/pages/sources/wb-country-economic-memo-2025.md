@@ -46,5 +46,6 @@ Key source for the IPP-driven growth story, the trade transformation timeline, a
 - [[budhigandaki]]
 - [[data-fleet-composition]]
 - [[data-trade-time-series]]
+- [[figure-index]]
 - [[irena-remap-nepal]]
 - [[wb-grid-solar-ee-project]]

@@ -64,6 +64,7 @@ Primary source for current installed capacity, fleet composition, generation spl
 - [[data-solar-hydro-lcoe]]
 - [[data-trade-time-series]]
 - [[eib-rural-solar-phase2]]
+- [[figure-index]]
 - [[firm-power]]
 - [[kali-gandaki-a]]
 - [[khimti-ii]]

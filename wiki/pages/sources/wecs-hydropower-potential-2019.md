@@ -44,15 +44,16 @@ The revised national hydropower potential assessment. Supersedes the older 83,00
 ## Used By
 
 - [[buildability]]
-- [[firm-power]]
-- [[hydropower-potential-categories]]
-- [[run-of-river-hydropower]]
 - [[data-layer-nepal-tributaries]]
 - [[data-potential-pyramid]]
+- [[figure-index]]
+- [[firm-power]]
+- [[hydropower-potential-categories]]
+- [[irena-remap-nepal]]
 - [[karnali-chisapani]]
 - [[koshi-basin]]
+- [[run-of-river-hydropower]]
 - [[wecs]]
-- [[irena-remap-nepal]]
 
 ## Relevance to Project
 
