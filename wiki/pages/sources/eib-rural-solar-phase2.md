@@ -2,19 +2,16 @@
 title: EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II
 type: source
 created: 2026-04-23
-updated: 2026-05-11
+updated: 2026-04-23
 source_type: policy
 source_author: European Investment Bank / Government of Nepal / AEPC / NEA
 source_date: 2023-01-01
 source_url: https://www.eib.org/en/projects/all/20210428
 sources: []
 tags: [eib, solar, ground-mounted, grid-connected, rural, aepc, nepal]
-page_quality: analysis
 ---
 
 # EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II (Phase II)
-
-## Summary
 
 European Investment Bank line of up to **EUR 8 million** for the development of **ground-mounted, grid-connected solar PV installations at four locations** in Nepal. Implemented through the Government of Nepal with AEPC-facilitated site selection and NEA-grid interconnection.
 
@@ -88,22 +85,6 @@ Supporting source for:
 - Publication of the **four specific site locations** and their MWp, district, developer, and COD target.
 - AEPC implementation status reports at project-mid-point (likely 2026).
 - Cross-reference with any agrivoltaic pilot element — if the EIB-AEPC line funds an agrivoltaic demonstration, it is the single most important test for the [[agrivoltaics-and-land]] thesis.
-
-## Limitations
-
-- **Site-level opacity.** Specific site locations, MWp per site, operator selection, and COD targets have limited public-domain disclosure. Most project details are known only at the programme envelope level (EUR 8M, four sites, rural/semi-urban).
-- **Implementation timeline uncertain.** The 2023–2027 window is aspirational; actual delivery pace may diverge. The FY 2025/26 NEA annual report is the likely next source for implementation-status confirmation.
-- **AEPC institutional bridge untested.** This programme funds utility-scale grid-connected PV through AEPC rather than NEA's standard tender track — a novel institutional arrangement whose effectiveness is not yet demonstrated.
-- **No agrivoltaic element confirmed.** Despite the scale match for agrivoltaic pilots, there is no public confirmation that any of the four sites include an agrivoltaic component.
-
-## Used By
-
-- [[claim-solar-political-coalition-is-rural]]
-- [[aepc]]
-- [[wb-grid-solar-ee-project]]
-- [[agrivoltaics-and-land]]
-- [[data-rooftop-shs-deployment]]
-- [[aepc-renewable-framework]]
 
 ## Related
 

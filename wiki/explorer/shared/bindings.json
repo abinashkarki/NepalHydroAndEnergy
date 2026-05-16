@@ -1,660 +1,20 @@
 {
-  "_doc": "Maps wiki page slugs to map features. Stand-in for per-page frontmatter; same shape works either way. 'features' = list of {layer, id?, match?, primary?}. 'selection' is 'focus' for one selected geography or 'overview' for context pages. 'focus' = optional override for fly-to. 'layers_on' = preferred default layer set when this page is the focus.",
+  "_doc": "Maps wiki page slugs to map features. Stand-in for per-page frontmatter; same shape works either way. 'features' = list of {layer, id?, match?}. 'focus' = optional override for fly-to. 'layers_on' = preferred default layer set when this page is the focus.",
   "pages": {
-    "downstream-river-geopolitics": {
-      "type": "synthesis",
-      "category": "geopolitics",
-      "selection": "overview",
-      "features": [
-        {
-          "layer": "basin_polygons",
-          "id": "koshi_system"
-        },
-        {
-          "layer": "basin_polygons",
-          "id": "gandaki_system"
-        },
-        {
-          "layer": "basin_polygons",
-          "id": "karnali_system"
-        },
-        {
-          "layer": "basin_polygons",
-          "id": "mahakali_system"
-        },
-        {
-          "layer": "downstream_systems",
-          "id": "koshi_system"
-        },
-        {
-          "layer": "downstream_systems",
-          "id": "gandaki_system"
-        },
-        {
-          "layer": "downstream_systems",
-          "id": "karnali_system"
-        },
-        {
-          "layer": "downstream_systems",
-          "id": "mahakali_system"
-        },
-        {
-          "layer": "ocean_routes"
-        },
-        {
-          "layer": "route_callouts"
-        },
-        {
-          "layer": "dependency_zones"
-        },
-        {
-          "layer": "population_anchors"
-        },
-        {
-          "layer": "future_regulation_scenario"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers",
-        "basin_polygons",
-        "india_basins",
-        "callouts",
-        "hydrology_markers",
-        "future_regulation_scenario"
-      ],
-      "focus": {
-        "bounds": [
-          [
-            20.5,
-            77.5
-          ],
-          [
-            31.5,
-            92.8
-          ]
-        ]
-      }
-    },
-    "hydro-geopolitics": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "overview",
-      "features": [
-        {
-          "layer": "basin_polygons",
-          "id": "koshi_system"
-        },
-        {
-          "layer": "downstream_systems",
-          "id": "koshi_system"
-        },
-        {
-          "layer": "ocean_routes",
-          "id": "koshi_ocean_route"
-        },
-        {
-          "layer": "route_callouts",
-          "id": "kosi_ganges_merge"
-        },
-        {
-          "layer": "dependency_zones",
-          "id": "north_bihar_kosi_gandak_floodplain"
-        },
-        {
-          "layer": "callouts",
-          "id": "koshi_system"
-        },
-        {
-          "layer": "hydrology_markers",
-          "id": "koshi_system"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers",
-        "basin_polygons",
-        "india_basins",
-        "callouts",
-        "hydrology_markers"
-      ]
-    },
-    "ganges-contribution": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "overview",
-      "features": [
-        {
-          "layer": "downstream_systems",
-          "id": "koshi_system"
-        },
-        {
-          "layer": "downstream_systems",
-          "id": "gandaki_system"
-        },
-        {
-          "layer": "downstream_systems",
-          "id": "karnali_system"
-        },
-        {
-          "layer": "ocean_routes"
-        },
-        {
-          "layer": "route_callouts"
-        },
-        {
-          "layer": "dependency_zones"
-        },
-        {
-          "layer": "population_anchors"
-        },
-        {
-          "layer": "hydrology_markers",
-          "id": "koshi_system"
-        },
-        {
-          "layer": "hydrology_markers",
-          "id": "gandaki_system"
-        },
-        {
-          "layer": "hydrology_markers",
-          "id": "karnali_system"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers",
-        "basin_polygons",
-        "india_basins",
-        "hydrology_markers"
-      ]
-    },
-    "how-to-read-geopolitics-map": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "overview",
-      "features": [
-        {
-          "layer": "ocean_routes"
-        },
-        {
-          "layer": "route_callouts"
-        },
-        {
-          "layer": "dependency_zones"
-        },
-        {
-          "layer": "population_anchors"
-        },
-        {
-          "layer": "future_regulation_scenario"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers",
-        "basin_polygons",
-        "india_basins",
-        "future_regulation_scenario"
-      ],
-      "focus": {
-        "bounds": [
-          [
-            20.5,
-            77.5
-          ],
-          [
-            31.5,
-            92.8
-          ]
-        ]
-      }
-    },
-    "mahakali-sharda-handoff": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "route_callouts",
-          "id": "mahakali_sharda_handoff",
-          "primary": true
-        },
-        {
-          "layer": "ocean_routes",
-          "id": "mahakali_ocean_route"
-        },
-        {
-          "layer": "dependency_zones",
-          "id": "eastern_up_ghaghara_gandak_belt"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "ghaghara-ganges-merge": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "route_callouts",
-          "id": "ghaghara_ganges_merge",
-          "primary": true
-        },
-        {
-          "layer": "ocean_routes",
-          "id": "karnali_ocean_route"
-        },
-        {
-          "layer": "dependency_zones",
-          "id": "eastern_up_ghaghara_gandak_belt"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "gandak-ganges-merge": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "route_callouts",
-          "id": "gandak_ganges_merge",
-          "primary": true
-        },
-        {
-          "layer": "ocean_routes",
-          "id": "gandaki_ocean_route"
-        },
-        {
-          "layer": "dependency_zones",
-          "id": "north_bihar_kosi_gandak_floodplain"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "kosi-ganges-merge": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "route_callouts",
-          "id": "kosi_ganges_merge",
-          "primary": true
-        },
-        {
-          "layer": "ocean_routes",
-          "id": "koshi_ocean_route"
-        },
-        {
-          "layer": "dependency_zones",
-          "id": "north_bihar_kosi_gandak_floodplain"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "ganges-padma-transition": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "route_callouts",
-          "id": "ganges_padma_transition",
-          "primary": true
-        },
-        {
-          "layer": "dependency_zones",
-          "id": "padma_meghna_delta_dependency"
-        },
-        {
-          "layer": "ocean_routes"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "padma-meghna-delta": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "route_callouts",
-          "id": "padma_meghna_delta_merge",
-          "primary": true
-        },
-        {
-          "layer": "dependency_zones",
-          "id": "padma_meghna_delta_dependency"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "chandpur"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "bay-of-bengal-terminal": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "route_callouts",
-          "id": "bay_of_bengal_terminal",
-          "primary": true
-        },
-        {
-          "layer": "dependency_zones",
-          "id": "lower_delta_bay_interface"
-        },
-        {
-          "layer": "ocean_routes"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "eastern-up-ghaghara-gandak-belt": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "dependency_zones",
-          "id": "eastern_up_ghaghara_gandak_belt",
-          "primary": true
-        },
-        {
-          "layer": "route_callouts",
-          "id": "ghaghara_ganges_merge"
-        },
-        {
-          "layer": "route_callouts",
-          "id": "gandak_ganges_merge"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "north-bihar-kosi-gandak-floodplain": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "dependency_zones",
-          "id": "north_bihar_kosi_gandak_floodplain",
-          "primary": true
-        },
-        {
-          "layer": "route_callouts",
-          "id": "kosi_ganges_merge"
-        },
-        {
-          "layer": "route_callouts",
-          "id": "gandak_ganges_merge"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "downstream_systems",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "bihar-ganges-trunk-zone": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "dependency_zones",
-          "id": "bihar_ganges_trunk_zone",
-          "primary": true
-        },
-        {
-          "layer": "route_callouts",
-          "id": "ganges_padma_transition"
-        },
-        {
-          "layer": "ocean_routes"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "padma-meghna-delta-dependency": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "dependency_zones",
-          "id": "padma_meghna_delta_dependency",
-          "primary": true
-        },
-        {
-          "layer": "route_callouts",
-          "id": "padma_meghna_delta_merge"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "dhaka"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "lower-delta-bay-interface": {
-      "type": "concept",
-      "category": "geopolitics",
-      "selection": "focus",
-      "features": [
-        {
-          "layer": "dependency_zones",
-          "id": "lower_delta_bay_interface",
-          "primary": true
-        },
-        {
-          "layer": "route_callouts",
-          "id": "bay_of_bengal_terminal"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "khulna"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ]
-    },
-    "data-layer-downstream-population-anchors": {
-      "type": "data",
-      "category": "data",
-      "selection": "overview",
-      "features": [
-        {
-          "layer": "population_anchors",
-          "id": "varanasi"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "gorakhpur"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "patna"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "muzaffarpur"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "purnia"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "bhagalpur"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "rajshahi"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "dhaka"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "khulna"
-        },
-        {
-          "layer": "population_anchors",
-          "id": "chandpur"
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "ocean_routes",
-        "route_callouts",
-        "dependency_zones",
-        "population_anchors",
-        "india_rivers"
-      ],
-      "focus": {
-        "bounds": [
-          [
-            21.8,
-            82.5
-          ],
-          [
-            27.0,
-            91.2
-          ]
-        ]
-      }
-    },
     "koshi-basin": {
       "type": "entity",
       "category": "basin",
-      "selection": "focus",
       "features": [
         {
           "layer": "basin_polygons",
-          "id": "koshi_system",
-          "primary": true
+          "id": "koshi_system"
         },
         {
           "layer": "basin_seasonality",
           "id": "basin_koshi"
         }
       ],
+      "selection": "overview",
       "layers_on": [
         "country_outline",
         "basin_polygons",
@@ -666,12 +26,10 @@
     "gandaki-basin": {
       "type": "entity",
       "category": "basin",
-      "selection": "focus",
       "features": [
         {
           "layer": "basin_polygons",
-          "id": "gandaki_system",
-          "primary": true
+          "id": "gandaki_system"
         },
         {
           "layer": "basin_seasonality",
@@ -684,17 +42,16 @@
         "tributaries",
         "basin_seasonality",
         "priority_watchlist"
-      ]
+      ],
+      "selection": "overview"
     },
     "karnali-basin": {
       "type": "entity",
       "category": "basin",
-      "selection": "focus",
       "features": [
         {
           "layer": "basin_polygons",
-          "id": "karnali_system",
-          "primary": true
+          "id": "karnali_system"
         },
         {
           "layer": "basin_seasonality",
@@ -707,17 +64,16 @@
         "tributaries",
         "basin_seasonality",
         "priority_watchlist"
-      ]
+      ],
+      "selection": "overview"
     },
     "mahakali-basin": {
       "type": "entity",
       "category": "basin",
-      "selection": "focus",
       "features": [
         {
           "layer": "basin_polygons",
-          "id": "mahakali_system",
-          "primary": true
+          "id": "mahakali_system"
         },
         {
           "layer": "basin_seasonality",
@@ -729,7 +85,8 @@
         "basin_polygons",
         "tributaries",
         "basin_seasonality"
-      ]
+      ],
+      "selection": "overview"
     },
     "upper-tamakoshi": {
       "type": "entity",
@@ -756,16 +113,10 @@
     "kulekhani-cascade": {
       "type": "entity",
       "category": "project",
-      "selection": "focus",
       "features": [
         {
           "layer": "storage_shortlist",
-          "id": "storage_kulekhani_i_iii",
-          "primary": true
-        },
-        {
-          "layer": "floating_pv_candidates",
-          "id": "fpv_kulekhani"
+          "id": "storage_kulekhani_i_iii"
         },
         {
           "layer": "hydropower_points",
@@ -775,13 +126,7 @@
           }
         }
       ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_operating",
-        "storage_shortlist",
-        "floating_pv_candidates"
-      ]
+      "selection": "overview"
     },
     "tanahu-hydropower": {
       "type": "entity",
@@ -790,11 +135,6 @@
         {
           "layer": "storage_shortlist",
           "id": "storage_tanahu"
-        },
-        {
-          "layer": "floating_pv_candidates",
-          "id": "fpv_tanahu",
-          "primary": true
         },
         {
           "layer": "priority_watchlist",
@@ -807,7 +147,8 @@
             "value": "Tanahu HEP"
           }
         }
-      ]
+      ],
+      "selection": "overview"
     },
     "dudhkoshi-storage": {
       "type": "entity",
@@ -816,11 +157,6 @@
         {
           "layer": "storage_shortlist",
           "id": "storage_dudhkoshi"
-        },
-        {
-          "layer": "floating_pv_candidates",
-          "id": "fpv_dudhkoshi",
-          "primary": true
         }
       ]
     },
@@ -841,13 +177,9 @@
             "field": "project",
             "value_contains": "Budhi Gandaki"
           }
-        },
-        {
-          "layer": "floating_pv_candidates",
-          "id": "fpv_budhigandaki",
-          "primary": true
         }
-      ]
+      ],
+      "selection": "overview"
     },
     "pancheshwar": {
       "type": "entity",
@@ -899,7 +231,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "cross_border"
       ]
     },
@@ -908,14 +240,15 @@
       "category": "transmission-corridor",
       "features": [
         {
-          "layer": "transmission_traced_network",
+          "layer": "transmission_corridors",
           "id": "hddi_400",
           "primary": true
         }
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_corridors",
+        "transmission_traced",
         "cross_border"
       ]
     },
@@ -924,15 +257,15 @@
       "category": "transmission-corridor",
       "features": [
         {
-          "layer": "transmission_traced_network",
+          "layer": "transmission_corridors",
           "id": "mca_central_400",
           "primary": true
         }
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
-        "cross_border_lines",
+        "transmission_corridors",
+        "transmission_traced",
         "cross_border"
       ]
     },
@@ -949,7 +282,7 @@
       "layers_on": [
         "country_outline",
         "transmission_corridors",
-        "transmission_traced_network"
+        "transmission_traced"
       ]
     },
     "hetauda-bharatpur-bardaghat-corridor": {
@@ -957,74 +290,15 @@
       "category": "transmission-corridor",
       "features": [
         {
-          "layer": "transmission_traced_network",
+          "layer": "transmission_corridors",
           "id": "hetauda_bharatpur_bardaghat_220",
           "primary": true
         }
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network"
-      ]
-    },
-    "udipur-damauli-bharatpur-220": {
-      "type": "entity",
-      "category": "transmission-corridor",
-      "features": [
-        {
-          "layer": "transmission_traced_network",
-          "id": "udipur_damauli_bharatpur_220",
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "transmission_traced_network"
-      ]
-    },
-    "marsyangdi-upper-220": {
-      "type": "entity",
-      "category": "transmission-corridor",
-      "features": [
-        {
-          "layer": "transmission_traced_network",
-          "id": "marsyangdi_upper_220",
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "transmission_traced_network"
-      ]
-    },
-    "kabeli-132": {
-      "type": "entity",
-      "category": "transmission-corridor",
-      "features": [
-        {
-          "layer": "transmission_traced_network",
-          "id": "kabeli_132",
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "transmission_traced_network"
-      ]
-    },
-    "solu-tingla-mirchaiya-132": {
-      "type": "entity",
-      "category": "transmission-corridor",
-      "features": [
-        {
-          "layer": "transmission_traced_network",
-          "id": "solu_tingla_mirchaiya_132",
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "transmission_traced_network"
+        "transmission_corridors",
+        "transmission_traced"
       ]
     },
     "dana-kushma-butwal-corridor": {
@@ -1040,7 +314,7 @@
       "layers_on": [
         "country_outline",
         "transmission_corridors",
-        "transmission_traced_network"
+        "transmission_traced"
       ]
     },
     "dhalkebar-muzaffarpur": {
@@ -1123,10 +397,9 @@
     },
     "claim-transmission-immediate-blocker": {
       "type": "claim",
-      "selection": "overview",
       "features": [
         {
-          "layer": "transmission_traced_network",
+          "layer": "transmission_traced",
           "all": true
         },
         {
@@ -1140,11 +413,12 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "transmission_corridors",
         "cross_border"
       ],
-      "narrative": "Generation has outpaced wires. The 400 kV east–west backbone is incomplete; western evacuation is constrained by legacy 132 kV; cross-border capacity lags behind installed MW."
+      "narrative": "Generation has outpaced wires. The 400 kV east–west backbone is incomplete; western evacuation is constrained by legacy 132 kV; cross-border capacity lags behind installed MW.",
+      "selection": "overview"
     },
     "claim-storage-physical-fix": {
       "type": "claim",
@@ -1163,7 +437,6 @@
     },
     "claim-sediment-core-issue": {
       "type": "claim",
-      "selection": "overview",
       "features": [
         {
           "layer": "basin_polygons",
@@ -1179,7 +452,8 @@
         "basin_polygons",
         "priority_watchlist"
       ],
-      "narrative": "Sediment is a first-order design constraint, not a footnote. Koshi alone moves ~120 Mt/year; Kali Gandaki turbines erode within years."
+      "narrative": "Sediment is a first-order design constraint, not a footnote. Koshi alone moves ~120 Mt/year; Kali Gandaki turbines erode within years.",
+      "selection": "overview"
     },
     "claim-stranded-generation": {
       "type": "claim",
@@ -1193,13 +467,12 @@
         "country_outline",
         "tributaries",
         "priority_watchlist",
-        "transmission_traced_network"
+        "transmission_traced"
       ],
       "narrative": "Monsoon 2025 spilled 700–800 MW daily — energy that exists but cannot be moved or sold."
     },
     "seasonal-mismatch": {
       "type": "concept",
-      "selection": "overview",
       "features": [
         {
           "layer": "basin_seasonality",
@@ -1214,7 +487,8 @@
         "country_outline",
         "basin_polygons",
         "basin_seasonality"
-      ]
+      ],
+      "selection": "overview"
     },
     "storage-deficit": {
       "type": "concept",
@@ -1242,7 +516,7 @@
         "country_outline",
         "tributaries",
         "priority_watchlist",
-        "transmission_traced_network"
+        "transmission_traced"
       ]
     },
     "run-of-river-hydropower": {
@@ -1365,6 +639,59 @@
         "priority_watchlist"
       ]
     },
+    "nalsyau-gad-storage-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "nalsyau_gad_radar",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Nalsyau Gad Storage HEP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist"
+      ]
+    },
+    "mugu-karnali-storage-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "mugu_karnali_storage_radar",
+          "primary": true
+        },
+        {
+          "layer": "top_capacity",
+          "id": "top_project_1"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Mugu Karnali Storage HEP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist",
+        "top_capacity"
+      ]
+    },
     "arun-3": {
       "type": "entity",
       "category": "project",
@@ -1423,6 +750,35 @@
         "top_capacity"
       ]
     },
+    "betan-karnali-hp": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "priority_watchlist",
+          "id": "betan_karnali_radar",
+          "primary": true
+        },
+        {
+          "layer": "top_capacity",
+          "id": "top_project_5"
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Betan Karnali HP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "priority_watchlist",
+        "top_capacity"
+      ]
+    },
     "phukot-karnali": {
       "type": "entity",
       "category": "project",
@@ -1460,29 +816,12 @@
           "layer": "storage_shortlist",
           "id": "storage_nalsyau_gad",
           "primary": true
-        },
-        {
-          "layer": "floating_pv_candidates",
-          "id": "fpv_nalsyau_gad"
-        },
-        {
-          "layer": "priority_watchlist",
-          "id": "nalsyau_gad_radar"
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Nalsyau Gad Storage HEP"
-          }
         }
       ],
       "layers_on": [
         "country_outline",
         "tributaries",
-        "storage_shortlist",
-        "hydropower_survey",
-        "priority_watchlist"
+        "storage_shortlist"
       ]
     },
     "lower-badigad": {
@@ -1581,6 +920,30 @@
         "storage_shortlist"
       ]
     },
+    "uttarganga-storage-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "top_capacity",
+          "id": "top_project_4",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Uttarganga Storage Hydropower Project"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "top_capacity"
+      ]
+    },
     "tamakoshi-3": {
       "type": "entity",
       "category": "project",
@@ -1595,6 +958,54 @@
           "match": {
             "field": "project",
             "value": "Tamakoshi 3"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "top_capacity"
+      ]
+    },
+    "kimathanka-arun-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "top_capacity",
+          "id": "top_project_8",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kimathanka Arun HEP"
+          }
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey",
+        "top_capacity"
+      ]
+    },
+    "bheri-1-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "top_capacity",
+          "id": "top_project_9",
+          "primary": true
+        },
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Bheri-1 HEP"
           }
         }
       ],
@@ -1909,6 +1320,25 @@
         "hydropower_construction"
       ]
     },
+    "lower-solu-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Lower Solu Hydropower Project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
     "madhya-bhotekoshi": {
       "type": "entity",
       "category": "project",
@@ -2194,6 +1624,25 @@
         "hydropower_survey"
       ]
     },
+    "bheri-2-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Bheri-2 HEP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
     "chainpur-seti": {
       "type": "entity",
       "category": "project",
@@ -2203,6 +1652,82 @@
           "match": {
             "field": "project",
             "value": "Chainpur Seti"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "humla-karnali-1-hpp": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Humla Karnali 1 HPP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "humla-karnali-2-hpp": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Humla Karnali 2 HPP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "jagdulla-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Jagdulla HEP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_survey"
+      ]
+    },
+    "lantang-khola-reservoir-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Lantang Khola Reservoir Hydropower Project"
           },
           "primary": true
         }
@@ -2365,6 +1890,25 @@
         "hydropower_construction"
       ]
     },
+    "kasuwa-khola-hpp": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Kasuwa Khola HPP"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
     "khani-khola-dolakha": {
       "type": "entity",
       "category": "project",
@@ -2393,6 +1937,25 @@
           "match": {
             "field": "project",
             "value": "Khani Khola - 1"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "khare-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Khare Hydropower Project"
           },
           "primary": true
         }
@@ -2612,6 +2175,25 @@
         "hydropower_construction"
       ]
     },
+    "solu-hydropower-project": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Solu Hydropower Project"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
     "super-dordi-kha-hydropower-project": {
       "type": "entity",
       "category": "project",
@@ -2697,6 +2279,25 @@
           "match": {
             "field": "project",
             "value": "Upper Chaku A"
+          },
+          "primary": true
+        }
+      ],
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "hydropower_construction"
+      ]
+    },
+    "upper-dordi-a-hep": {
+      "type": "entity",
+      "category": "project",
+      "features": [
+        {
+          "layer": "hydropower_points",
+          "match": {
+            "field": "project",
+            "value": "Upper Dordi A HEP"
           },
           "primary": true
         }
@@ -2846,7 +2447,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2867,7 +2468,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2877,7 +2478,6 @@
     "data-solar-hydro-complementarity-profile": {
       "type": "data",
       "category": "solar",
-      "selection": "overview",
       "features": [
         {
           "layer": "solar_ghi_zones"
@@ -2891,7 +2491,8 @@
         "solar_ghi_zones",
         "solar_plants",
         "storage_shortlist"
-      ]
+      ],
+      "selection": "overview"
     },
     "data-rooftop-shs-deployment": {
       "type": "data",
@@ -2924,7 +2525,6 @@
     "solar-hydro-complementarity": {
       "type": "concept",
       "category": "solar",
-      "selection": "overview",
       "features": [
         {
           "layer": "solar_ghi_zones"
@@ -2939,7 +2539,8 @@
         "solar_plants",
         "storage_shortlist",
         "hydropower_operating"
-      ]
+      ],
+      "selection": "overview"
     },
     "solar-lcoe-crossover": {
       "type": "concept",
@@ -2955,7 +2556,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -2973,7 +2574,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_suitability",
         "solar_plants",
@@ -3039,7 +2640,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -3058,7 +2659,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -3077,7 +2678,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -3096,7 +2697,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -3115,7 +2716,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_plants",
         "solar_suitability",
@@ -3140,7 +2741,7 @@
         "country_outline",
         "solar_ghi_zones",
         "solar_suitability",
-        "transmission_traced_network"
+        "transmission_traced"
       ]
     },
     "nea-960mw-solar-tender": {
@@ -3158,7 +2759,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -3175,7 +2776,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -3215,7 +2816,6 @@
     "solar-role-in-winter-deficit": {
       "type": "synthesis",
       "category": "solar",
-      "selection": "overview",
       "features": [
         {
           "layer": "solar_ghi_zones"
@@ -3233,12 +2833,12 @@
         "solar_plants",
         "storage_shortlist",
         "floating_pv_candidates"
-      ]
+      ],
+      "selection": "overview"
     },
     "solar-in-the-master-narrative": {
       "type": "synthesis",
       "category": "solar",
-      "selection": "overview",
       "features": [
         {
           "layer": "solar_ghi_zones"
@@ -3256,7 +2856,8 @@
         "solar_suitability",
         "solar_plants",
         "storage_shortlist"
-      ]
+      ],
+      "selection": "overview"
     },
     "claim-solar-cheaper-than-small-hydro": {
       "type": "claim",
@@ -3272,7 +2873,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -3290,7 +2891,7 @@
       ],
       "layers_on": [
         "country_outline",
-        "transmission_traced_network",
+        "transmission_traced",
         "place_anchors",
         "solar_ghi_zones",
         "solar_suitability",
@@ -3329,657 +2930,6 @@
         "country_outline",
         "solar_suitability",
         "solar_ghi_zones"
-      ]
-    },
-    "western-132-backbone": {
-      "type": "entity",
-      "category": "transmission-corridor",
-      "features": [
-        {
-          "layer": "transmission_traced_network",
-          "id": "western_132_backbone",
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "transmission_traced_network",
-        "place_anchors"
-      ]
-    },
-    "chameliya-attariya-132": {
-      "type": "entity",
-      "category": "transmission-corridor",
-      "features": [
-        {
-          "layer": "transmission_traced_network",
-          "id": "chameliya_attariya_132",
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "transmission_traced_network",
-        "place_anchors"
-      ]
-    },
-    "kohalpur-surkhet-dailekh-132": {
-      "type": "entity",
-      "category": "transmission-corridor",
-      "features": [
-        {
-          "layer": "transmission_traced_network",
-          "id": "kohalpur_surkhet_dailekh_132",
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "transmission_traced_network",
-        "place_anchors"
-      ]
-    },
-    "mugu-karnali-storage": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "priority_watchlist",
-          "id": "mugu_karnali_storage_radar",
-          "primary": true
-        },
-        {
-          "layer": "top_capacity",
-          "id": "top_project_1"
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Mugu Karnali Storage HEP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "priority_watchlist",
-        "top_capacity"
-      ]
-    },
-    "betan-karnali": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "priority_watchlist",
-          "id": "betan_karnali_radar",
-          "primary": true
-        },
-        {
-          "layer": "top_capacity",
-          "id": "top_project_5"
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Betan Karnali HP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "priority_watchlist",
-        "top_capacity"
-      ]
-    },
-    "uttarganga-storage": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "top_capacity",
-          "id": "top_project_4",
-          "primary": true
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Uttarganga Storage Hydropower Project"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "top_capacity"
-      ]
-    },
-    "kimathanka-arun": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "top_capacity",
-          "id": "top_project_8",
-          "primary": true
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Kimathanka Arun HEP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "top_capacity"
-      ]
-    },
-    "bheri-1": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "top_capacity",
-          "id": "top_project_9",
-          "primary": true
-        },
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Bheri-1 HEP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey",
-        "top_capacity"
-      ]
-    },
-    "chameliya-hydropower": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Chameliya Khola"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_operating"
-      ]
-    },
-    "kulekhani-i": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Kulekhani-I"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_operating"
-      ]
-    },
-    "kulekhani-ii": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Kulekhani-II"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_operating"
-      ]
-    },
-    "sahas-urja": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Solu Khola (Dudha Koshi)"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_operating"
-      ]
-    },
-    "kasuwa-khola": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Kasuwa Khola HPP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "khare": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Khare Hydropower Project"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "lower-solu": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Lower Solu Hydropower Project"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "solu": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Solu Hydropower Project"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "upper-dordi-a": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Upper Dordi A HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "bheri-2": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Bheri-2 HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "budhi-gandaki": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Budhi Gandaki Hydropower Project"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "budhi-gandaki-kha": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Budhi Gandaki Kha HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "budhi-gandaki-prok-khola": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Budhi Gandaki Prok Khola HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "humla-karnali-1": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Humla Karnali 1 HPP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "humla-karnali-2": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Humla Karnali 2 HPP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "jagdulla": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Jagdulla HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "lantang-khola-reservoir": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Lantang Khola Reservoir Hydropower Project"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "surke-dudhkoshi": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Surke Dudhkoshi HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "upper-budhigandaki": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Upper Budhigandaki HEP"
-          },
-          "primary": true
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "super-mai": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Super Mai Hydropower Project"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "super-mai-a": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Super Mai-A HPP"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_construction"
-      ]
-    },
-    "super-tamor": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value": "Super Tamor"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_survey"
-      ]
-    },
-    "trishuli-cascade": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value_contains": "Trishuli"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_operating",
-        "hydropower_construction",
-        "hydropower_survey"
-      ]
-    },
-    "khimti-cascade": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value_contains": "Khimti"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_operating",
-        "hydropower_construction"
-      ]
-    },
-    "likhu-cascade": {
-      "type": "entity",
-      "category": "project",
-      "features": [
-        {
-          "layer": "hydropower_points",
-          "match": {
-            "field": "project",
-            "value_contains": "Likhu"
-          }
-        }
-      ],
-      "layers_on": [
-        "country_outline",
-        "tributaries",
-        "hydropower_operating",
-        "hydropower_construction"
       ]
     }
   },
@@ -4026,7 +2976,7 @@
           "subtitle": "4. And the wires lag behind the megawatts. Spill is now a transmission story.",
           "layers_on": [
             "country_outline",
-            "transmission_traced_network",
+            "transmission_traced",
             "cross_border"
           ]
         },

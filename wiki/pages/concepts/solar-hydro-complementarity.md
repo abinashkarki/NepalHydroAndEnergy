@@ -2,23 +2,16 @@
 title: Solar–Hydro Complementarity
 type: concept
 created: 2026-04-23
-updated: 2026-05-12
+updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, wecs-energy-synopsis-2024]
 tags: [solar, hydro, seasonality, diurnal, complementarity, firm-power, dispatch]
-page_quality: analysis
 ---
 
 # Solar–Hydro Complementarity
 
-## Summary
-
 Nepal's structural problem is **timing** ([[claim-timing-not-volume]]). The single most under-used lever for fixing timing is the one physical resource whose generation profile is a near-mirror of Nepal's RoR hydrograph: **utility-scale solar PV**.
 
 This page makes the complementarity argument in two dimensions — **seasonal** and **diurnal** — and then draws the honest consequences for fleet design.
-
-## Simple Explanation
-
-Solar and run-of-river hydro are useful together because their strongest seasons are different. Hydro is strongest in the monsoon, while solar is especially valuable during clear dry-season days when river flows are weak.
 
 ## Seasonal complementarity: strong and exploitable
 
@@ -76,12 +69,6 @@ Mid-day monsoon solar over-produces into a grid that is already long on monsoon 
 
 It says something narrower and more actionable: **for the specific problem of the dry-season-day deficit in a RoR-dominated system, solar is the cheapest, fastest, and physically best-matched resource Nepal has access to.**
 
-## Common Misunderstandings
-
-- **Solar does not replace hydro.** It fills part of the dry-season daytime gap while hydro remains the dominant energy source.
-- **Solar does not eliminate storage needs.** Evening peak still requires water storage, batteries, or demand shifting.
-- **Complementarity is not perfect.** Monsoon cloud cover and winter evening demand both limit what solar can do alone.
-
 ## Related
 
 - [[solar-resource-geography-nepal]] — where the resource is and why altitude beats latitude
@@ -92,9 +79,3 @@ It says something narrower and more actionable: **for the specific problem of th
 - [[seasonal-mismatch]] — the problem statement
 - [[storage-deficit]] — the adjacent lever
 - [[firm-power]] — what the system actually needs
-
-## Sources
-
-- [[nea-annual-report-fy2024-25]]
-- [[wecs-river-basin-plan-2024]]
-- [[wecs-energy-synopsis-2024]]

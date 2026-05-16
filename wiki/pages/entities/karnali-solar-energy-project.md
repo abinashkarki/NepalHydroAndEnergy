@@ -1,21 +1,16 @@
 ---
 title: Karnali Solar Energy Project
 type: entity
+generator: manual
 created: 2026-04-23
-updated: 2026-05-13
+updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, aepc-renewable-framework]
 tags: [solar, karnali, off-grid, BESS, nea, aepc, remote]
-generator: manual
-page_quality: analysis
 ---
 
 # Karnali Solar Energy Project
 
 A programme line referenced in the **NEA Annual Report FY 2024/25** (Distribution / Customer Service Directorate) covering **off-grid solar plants with Battery Energy Storage Systems (BESS) in Karnali**, with operation and maintenance support from NEA. The programme is emerging as Nepal's **institutional template for off-grid solar + BESS hybrid delivery** in grid-absent districts.
-
-## Summary
-
-**The Karnali Solar Energy Project is an off-grid solar plus BESS programme line referenced in NEA FY 2024/25.** The page tracks it as an emerging NEA/AEPC-style remote-energy delivery template for grid-absent Karnali districts.
 
 ## What the project is
 
@@ -52,7 +47,7 @@ Preliminary publication from NEA FY 2024/25 references the programme at aggregat
 - Operational template for solar + BESS economics beyond [[data-solar-hydro-lcoe]]'s utility frame
 - Institutional precedent for the AEPC–NEA integration protocol argued in [[aepc]]
 
-## Limitations & Controversies
+## Gaps / next data
 
 - Exact site list, MWp per site, BESS specification, developer / community partner
 - Cumulative CAPEX / CAPEX per kWp

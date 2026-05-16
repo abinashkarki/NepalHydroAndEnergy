@@ -2,7 +2,7 @@
 title: Floating PV Is a Leverage Play, Not a Core Supply Pillar
 type: claim
 created: 2026-04-24
-updated: 2026-05-07
+updated: 2026-05-13
 claim_id: C-015
 confidence: medium
 status: needs-narrowing

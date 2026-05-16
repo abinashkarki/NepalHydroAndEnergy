@@ -2,7 +2,7 @@
 title: India Is the Decisive External Actor in Nepal's Hydro Future
 type: claim
 created: 2026-04-14
-updated: 2026-05-07
+updated: 2026-05-11
 claim_id: C-025
 confidence: high
 status: stable

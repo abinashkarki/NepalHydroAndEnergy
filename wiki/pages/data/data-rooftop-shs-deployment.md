@@ -2,18 +2,13 @@
 title: Rooftop and Solar Home System Deployment
 type: data
 created: 2026-04-23
-updated: 2026-05-12
+updated: 2026-04-23
 figure_type: table
 sources: [aepc-renewable-framework, nea-annual-report-fy2024-25, eib-rural-solar-phase2]
 tags: [solar, rooftop, SHS, mini-grid, off-grid, AEPC, rural-electrification, district]
-page_quality: analysis
 ---
 
 # Rooftop and Solar Home System Deployment
-
-## Summary
-
-This data page compiles estimated rooftop, institutional, mini-grid, and solar home system deployment in Nepal, including capacity, annual generation, household reach, provincial SHS distribution, and known source gaps.
 
 The volume-and-geography companion to [[rooftop-minigrid-offgrid]]. The numbers for the two solar tracks that never appear on NEA installed-capacity tables but together move **~700 GWh/year** across more than a million households.
 
@@ -31,7 +26,7 @@ The volume-and-geography companion to [[rooftop-minigrid-offgrid]]. The numbers 
 
 *Warning:* these numbers do not appear in any single registry. They are compiled from AEPC yearbooks (cumulative figures to 2021, extrapolated to 2024), NEA net-metering records (partial disclosure), EIB / WB project completion reports, and private-installer estimates. The total MWp could be +/−20% in either direction.
 
-**Compared to DoED-registered utility solar of 141.74 MWp, rooftop + off-grid is ~135% of the utility fleet.** The "Nepal has 142 MW of solar" soundbite under-counts by a factor of ~2.3×.
+**Compared to NEA-registered utility solar of 141.74 MWp, rooftop + off-grid is ~135% of the utility fleet.** The "Nepal has 142 MW of solar" soundbite under-counts by a factor of ~2.3×.
 
 ## District-level SHS distribution (cumulative, ~2021 AEPC data, approximate)
 
@@ -90,23 +85,15 @@ The AEPC cumulative SHS distribution is heavily skewed toward rural districts no
 | 2028 | 700 | 220 | 170 | ~1,090 |
 | **2030** | **1,400** | **400** | **220** | **~2,020** |
 
-Rooftop + off-grid remains ~30% of total by 2030, while its **kWh value-weight** is higher because off-grid systems displace NPR 60–90/kWh diesel in the cited LCOE context (see [[data-solar-hydro-lcoe]]).
-
-## Coverage / Method
-
-The page combines AEPC cumulative solar home system and mini-grid material, partial NEA net-metering disclosure, EIB / WB project completion context, and private-installer estimates. Figures are grouped by deployment track and geography because rooftop, institutional, mini-grid, and SHS systems do not appear in a single unified registry.
-
-## Caveats
-
-The aggregate is an estimate rather than an official inventory. Some figures are extrapolated from AEPC data to 2024, NEA net-metering data are partially disclosed, private-installer estimates are not consolidated, and the total MWp could vary by roughly plus or minus 20%.
+Rooftop + off-grid remains ~30% of total by 2030 but its **kWh value-weight** (because off-grid displaces NPR 60–90/kWh diesel — see [[data-solar-hydro-lcoe]]) stays above 50% of the total solar value proposition.
 
 ## Data gaps and next-step ingestion
 
-- **AEPC Yearbook 2024** — needed for district-table verification.
+- **AEPC Yearbook 2024** — should be pulled and district tables verified.
 - **NEA net-metering cumulative MW** — currently disclosed only partially; full annual numbers are available in NEA distribution department reports.
 - **WB Grid Solar & EE Project completion report** — final deployment numbers.
 - **EIB Phase II monitoring report** — ground-mounted IPP rooftop MW specifically.
-- **Private-installer market survey** — no consolidated source exists in Nepal yet; a dedicated market survey would close this gap.
+- **Private-installer market survey** — no consolidated source exists in Nepal yet; a "Nepal solar market survey 2024" would fix this gap and is worth commissioning.
 
 ## Chart spec
 

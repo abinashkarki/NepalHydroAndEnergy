@@ -5,24 +5,9 @@ created: 2026-04-23
 updated: 2026-04-23
 sources: [aepc-renewable-framework, wb-country-economic-memo-2025]
 tags: [solar, agrivoltaics, land, terai, agriculture, dual-use, policy]
-page_quality: analysis
 ---
 
 # Agrivoltaics and Land
-
-## Summary
-
-Agrivoltaics — dual-use of land for crop production and solar PV generation — is the politically survivable path for scaling Terai utility solar beyond the ~2 GW that fee-simple land purchases can support. Nepal's binding constraint on the next 5–10 GW of solar is land, not technology or capital.
-
-## Simple Explanation
-
-Building 5 GW of solar needs ~12,500 hectares of flat, grid-adjacent land. Nepal has only ~5,000–15,000 hectares of publicly owned or non-permanently-cultivated land that fits. After that, solar must either buy farmland from smallholders — politically explosive — or share the land with agriculture. Agrivoltaics means raising solar panels high enough that farmers can still grow crops underneath, sharing both land and revenue.
-
-## Common Misunderstandings
-
-- **"Agrivoltaics is a nice-to-have bonus."** In Nepal's Terai, it is the only politically survivable configuration for multi-gigawatt ground-mount solar.
-- **"Every solar site must be agrivoltaic."** Government-owned parcels, degraded land, hydro co-location sites, and industrial-zone-adjacent land remain first-choice options for the first 1.5–2 GW.
-- **"Agrivoltaics is capex-free."** High-canopy configurations cost ~1.3–1.5× standard ground-mount; the capex multiplier is real and must be priced into tariffs.
 
 Module costs have collapsed, grid costs are middling, LCOE is already below small hydro ([[solar-lcoe-crossover]]). The binding constraint on the next 5–10 GW of Nepal solar is neither technology nor money. **It is land.** Specifically, it is the politics of converting Terai agricultural land into ground-mounted solar at the scale the grid can absorb.
 
@@ -79,16 +64,16 @@ It is also the structure most compatible with Nepal's cooperative-heavy rural ec
 - Not that agrivoltaics automatically solves all politics. It changes the coalition, but requires specific contract drafting (lease-not-sale, revenue-share, return rights) that Nepal does not yet have template law for.
 - Not that it is capex-free. The ~1.3–1.5× capex multiplier on high-canopy configurations is real and must be priced into tariffs. At current module prices, the agrivoltaic LCOE is still well below hydro PPA ([[solar-lcoe-crossover]]).
 
-## Structural conditions for scaling
+## The policy moves this concept implies
 
-Scaling agrivoltaics to national significance requires four institutional conditions that are not yet in place:
+If the argument holds, Nepal needs four things it does not yet have:
 
-1. **A lease-template framework for 20–25 year solar leases on agricultural land**, separating usufruct transfer from fee-simple conversion. Absent this, every agrivoltaic site is negotiated one-off, which constrains scaling.
-2. **An agrivoltaic tariff adder** — NPR 0.30–0.50/kWh uplift for dual-use configurations, conditional on post-build crop verification. This would offset the capex multiplier.
+1. **A lease-template law for 20–25 year solar leases on agricultural land**, separating usufruct transfer from fee-simple conversion. Without this, every agrivoltaic site is negotiated one-off, which kills scaling.
+2. **An agrivoltaic tariff adder** — NPR 0.30–0.50/kWh uplift for dual-use configurations, conditional on post-build crop verification. Creates the capex-offset incentive.
 3. **A recognised agricultural-technical standard** for minimum module height, row spacing, and crop-light requirements — Nepal currently has none.
 4. **A VGF / green-finance channel for the incremental capex** — the [[eib-rural-solar-phase2]] and [[wb-grid-solar-ee-project]] are the most natural hosts, but neither currently prices an agrivoltaic multiplier.
 
-Absent these four conditions, Terai utility solar hits the land wall at roughly 2 GW and stalls. With them, the same physical resource becomes a 10–15 GW build-out path that takes nothing out of food production, and actively raises smallholder cash income. See [[intervention-transmission-completion]] and [[claim-solar-terai-only-short-cycle-build]] for the policy implications.
+Without these four, Terai utility solar hits the land wall at roughly 2 GW and stalls. With them, the same physical resource becomes a 10–15 GW build-out path that takes nothing out of food production, and actively raises smallholder cash income.
 
 ## Related
 

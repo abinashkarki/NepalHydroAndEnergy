@@ -2,7 +2,7 @@
 title: Nepal Should Prioritize Domestic-Led Hydro With Export Support
 type: claim
 created: 2026-04-14
-updated: 2026-05-07
+updated: 2026-05-12
 claim_id: C-034
 confidence: high
 status: stable

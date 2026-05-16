@@ -2,7 +2,7 @@
 title: Climate Change Increases Volatility and Resilience Risk, Not a Simple "More Water" Win
 type: claim
 created: 2026-04-14
-updated: 2026-05-07
+updated: 2026-05-11
 claim_id: C-012
 confidence: high
 status: stable

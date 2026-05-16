@@ -2,19 +2,16 @@
 title: World Bank Grid Solar and Energy Efficiency Project
 type: source
 created: 2026-04-23
-updated: 2026-05-11
+updated: 2026-04-23
 source_type: policy
 source_author: World Bank / Government of Nepal / NEA (implementation)
 source_date: 2016-01-01
 source_url: https://projects.worldbank.org/en/projects-operations/project-detail/P146344
 sources: []
 tags: [world-bank, IDA, solar, grid-tied, NEA, energy-efficiency, bidur-trishuli]
-page_quality: analysis
 ---
 
 # World Bank Grid Solar and Energy Efficiency Project
-
-## Summary
 
 The **institutional anchor for Nepal's first utility-scale, grid-tied solar farm** and the financing channel that broke Nepal's "can we actually build solar at utility scale?" learning curve. IDA credit to the Government of Nepal, implemented by NEA under a World Bank project supervision framework.
 
@@ -101,24 +98,6 @@ Cross-references:
 - [[eib-rural-solar-phase2]] — parallel programme
 - [[aepc-renewable-framework]] — parallel programme on the off-grid side
 - [[nea-annual-report-fy2024-25]] — the implementation-side primary source
-
-## Limitations
-
-- **Credit amount imprecise.** The exact IDA credit figure is described as "in the hundreds of millions of USD" — the precise number requires the Project Appraisal Document or Implementation Completion Report.
-- **Document collection, not a single source.** This page synthesizes multiple underlying WB documents (PAD, ISRs, ICR, TA outputs) rather than representing a single published document at a fixed date.
-- **Generation data gap.** The Bidur/Trishuli 25 MWp plant's actual FY 2023/24 and FY 2024/25 generation figures are in NEA annual reports and internal operational statistics, not in the WB project documents accessed for this page.
-- **Implementation period estimates.** The ~2014–2023 window is approximate; precise approval, effectiveness, and closing dates are in the PAD and ICR.
-
-## Used By
-
-- [[aepc-renewable-framework]]
-- [[agrivoltaics-and-land]]
-- [[bidur-trishuli-solar-25mwp]]
-- [[data-rooftop-shs-deployment]]
-- [[data-solar-hydro-lcoe]]
-- [[eib-rural-solar-phase2]]
-- [[nea-960mw-solar-tender]]
-- [[nea-solar]]
 
 ## Related
 

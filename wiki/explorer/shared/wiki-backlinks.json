@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 324,
-  "total_refs": 2550,
+  "total_targets": 322,
+  "total_refs": 2530,
   "backlinks": {
     "barahi-hydropower": [
       {
@@ -472,7 +472,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…none of the remaining storage projects has COD before 2035; buildability concerns are severe ([[budhigandaki]] has been at \"planning…",
+        "context": "…d timelines. None of the named projects is COD before 2027; buildability concerns are severe ([[budhigandaki]] has been at \"planning…",
         "target_exists": true
       },
       {
@@ -627,20 +627,6 @@
         "target_exists": true
       },
       {
-        "slug": "eib-rural-solar-phase2",
-        "title": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
-        "category": "sources",
-        "context": "…[[wb-grid-solar-ee-project]] - [[agrivoltaics-and-land]] - data-rooftop-shs-deployment - [[aepc-renewable-framework]] ## Related - [[wb-grid-sol…",
-        "target_exists": true
-      },
-      {
-        "slug": "wb-grid-solar-ee-project",
-        "title": "World Bank Grid Solar and Energy Efficiency Project",
-        "category": "sources",
-        "context": "…[agrivoltaics-and-land]] - [[bidur-trishuli-solar-25mwp]] - data-rooftop-shs-deployment - [[data-solar-hydro-lcoe]] - [[eib-rural-solar-phase2]] -…",
-        "target_exists": true
-      },
-      {
         "slug": "aepc",
         "title": "Alternative Energy Promotion Centre (AEPC)",
         "category": "entities",
@@ -685,13 +671,6 @@
         "target_exists": true
       },
       {
-        "slug": "wb-grid-solar-ee-project",
-        "title": "World Bank Grid Solar and Energy Efficiency Project",
-        "category": "sources",
-        "context": "…PAD and ICR. ## Used By - [[aepc-renewable-framework]] - agrivoltaics-and-land - [[bidur-trishuli-solar-25mwp]] - [[data-rooftop-shs-deplo…",
-        "target_exists": true
-      },
-      {
         "slug": "aepc",
         "title": "Alternative Energy Promotion Centre (AEPC)",
         "category": "entities",
@@ -723,7 +702,7 @@
         "slug": "rooftop-minigrid-offgrid",
         "title": "Rooftop, Mini-Grid, and Off-Grid Solar",
         "category": "concepts",
-        "context": "…ry The utility-scale solar story ([[hybrid-siting-logic]], agrivoltaics-and-land) is one of three tracks. The other two — **behind-the-meter…",
+        "context": "…ar The utility-scale solar story ([[hybrid-siting-logic]], agrivoltaics-and-land) is one of three tracks. The other two — **behind-the-meter…",
         "target_exists": true
       },
       {
@@ -795,14 +774,14 @@
         "slug": "karnali-solar-energy-project",
         "title": "Karnali Solar Energy Project",
         "category": "entities",
-        "context": "…l precedent for the AEPC–NEA integration protocol argued in aepc ## Limitations & Controversies - Exact site list, MWp per…",
+        "context": "…l precedent for the AEPC–NEA integration protocol argued in aepc ## Gaps / next data - Exact site list, MWp per site, BESS…",
         "target_exists": true
       },
       {
         "slug": "rooftop-minigrid-offgrid",
         "title": "Rooftop, Mini-Grid, and Off-Grid Solar",
         "category": "concepts",
-        "context": "…come stranded assets or grid-edge resources. ## Related - aepc — the institution behind tracks 2 and 3 - [[solar-resource-…",
+        "context": "…er than the coalition that actually uses it. ## Related - aepc — the institution behind tracks 2 and 3 - [[solar-resource-…",
         "target_exists": true
       },
       {
@@ -853,7 +832,7 @@
         "slug": "aepc",
         "title": "Alternative Energy Promotion Centre (AEPC)",
         "category": "entities",
-        "context": "…iff, and BESS-sharing rules a documented institutional gap. rooftop-minigrid-offgrid. ### 3. Solar + BESS rural hybrids The NEA FY 2024/25 ann…",
+        "context": "…BESS-sharing) is currently ad-hoc and should be formalized. rooftop-minigrid-offgrid. ### 3. Solar + BESS rural hybrids The NEA FY 2024/25 ann…",
         "target_exists": true
       },
       {
@@ -902,7 +881,7 @@
         "slug": "data-rooftop-shs-deployment",
         "title": "Rooftop and Solar Home System Deployment",
         "category": "data",
-        "context": "…d known source gaps. The volume-and-geography companion to rooftop-minigrid-offgrid. The numbers for the two solar tracks that never appear on…",
+        "context": "…me System Deployment The volume-and-geography companion to rooftop-minigrid-offgrid. The numbers for the two solar tracks that never appear on…",
         "target_exists": true
       }
     ],
@@ -950,12 +929,63 @@
         "target_exists": true
       }
     ],
+    "eib-rural-solar-phase2": [
+      {
+        "slug": "aepc-renewable-framework",
+        "title": "AEPC Renewable Framework and Progress Reports",
+        "category": "sources",
+        "context": "…ftop-minigrid-offgrid]] - [[data-rooftop-shs-deployment]] - eib-rural-solar-phase2 — donor channel running through AEPC - [[wb-grid-solar-ee-p…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-annual-report-fy2024-25",
+        "title": "NEA Annual Report FY 2024/25",
+        "category": "sources",
+        "context": "…- [[data-solar-hydro-lcoe]] - [[data-trade-time-series]] - eib-rural-solar-phase2 - [[figure-index]] - [[firm-power]] - [[kali-gandaki-a]] -…",
+        "target_exists": true
+      },
+      {
+        "slug": "wb-grid-solar-ee-project",
+        "title": "World Bank Grid Solar and Energy Efficiency Project",
+        "category": "sources",
+        "context": "…touches both utility and distribution Cross-references: - eib-rural-solar-phase2 — parallel programme - [[aepc-renewable-framework]] — paral…",
+        "target_exists": true
+      },
+      {
+        "slug": "aepc",
+        "title": "Alternative Energy Promotion Centre (AEPC)",
+        "category": "entities",
+        "context": "…- [[rooftop-minigrid-offgrid]] — the tracks AEPC operates - eib-rural-solar-phase2 — expanding AEPC mandate into utility - [[nea]] — the insti…",
+        "target_exists": true
+      },
+      {
+        "slug": "agrivoltaics-and-land",
+        "title": "Agrivoltaics and Land",
+        "category": "concepts",
+        "context": "…F / green-finance channel for the incremental capex** — the eib-rural-solar-phase2 and [[wb-grid-solar-ee-project]] are the most natural hosts…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-solar-political-coalition-is-rural",
+        "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
+        "category": "claims",
+        "context": "…y. ## Related - [[aepc]] - [[aepc-renewable-framework]] - eib-rural-solar-phase2 - [[rooftop-minigrid-offgrid]] - [[agrivoltaics-and-land]]",
+        "target_exists": true
+      },
+      {
+        "slug": "data-rooftop-shs-deployment",
+        "title": "Rooftop and Solar Home System Deployment",
+        "category": "data",
+        "context": "…- [[data-solar-fleet-inventory]] — utility-scale analogue - eib-rural-solar-phase2 — the financing anchor for mini-grid - [[wb-grid-solar-ee-p…",
+        "target_exists": true
+      }
+    ],
     "wb-grid-solar-ee-project": [
       {
         "slug": "aepc-renewable-framework",
         "title": "AEPC Renewable Framework and Progress Reports",
         "category": "sources",
-        "context": "…- [[claim-solar-political-coalition-is-rural]] - [[aepc]] - wb-grid-solar-ee-project - [[wb-esmap-solar-resource-assessment]] - [[eib-rural-sola…",
+        "context": "…rural-solar-phase2]] — donor channel running through AEPC - wb-grid-solar-ee-project — adjacent donor channel (NEA-side) - [[nea-annual-report-f…",
         "target_exists": true
       },
       {
@@ -1019,115 +1049,6 @@
         "title": "Rooftop and Solar Home System Deployment",
         "category": "data",
         "context": "…rural-solar-phase2]] — the financing anchor for mini-grid - wb-grid-solar-ee-project — the institutional financing anchor for rooftop utility tr…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-lcoe",
-        "title": "Solar and Hydro LCOE",
-        "category": "data",
-        "context": "…- [[nea-annual-report-fy2024-25]] - [[irena-remap-nepal]] - wb-grid-solar-ee-project",
-        "target_exists": true
-      }
-    ],
-    "wb-esmap-solar-resource-assessment": [
-      {
-        "slug": "aepc-renewable-framework",
-        "title": "AEPC Renewable Framework and Progress Reports",
-        "category": "sources",
-        "context": "…tion-is-rural]] - [[aepc]] - [[wb-grid-solar-ee-project]] - wb-esmap-solar-resource-assessment - [[eib-rural-solar-phase2]] - [[agrivoltaics-and-land]] #…",
-        "target_exists": true
-      },
-      {
-        "slug": "global-solar-atlas-nepal",
-        "title": "Global Solar Atlas (Nepal coverage)",
-        "category": "sources",
-        "context": "…ESMAP** programme. Cross-validated against the **in-situ** wb-esmap-solar-resource-assessment pyranometer network (14 stations, 2015–2019), so the derive…",
-        "target_exists": true
-      },
-      {
-        "slug": "irena-remap-nepal",
-        "title": "IRENA Renewable Readiness Assessment and REmap Nepal",
-        "category": "sources",
-        "context": "…al-solar-atlas-nepal]] - [[solar-role-in-winter-deficit]] - wb-esmap-solar-resource-assessment ## Related - [[wb-esmap-solar-resource-assessment]] — the…",
-        "target_exists": true
-      },
-      {
-        "slug": "mustang-high-altitude-solar-zone",
-        "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone",
-        "category": "entities",
-        "context": "…e-rasuwagadhi-kerung-400kv]] — long-dated interconnection - wb-esmap-solar-resource-assessment — the measurement source - [[global-solar-atlas-nepal]] — t…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-resource-geography-nepal",
-        "title": "Solar Resource Geography of Nepal",
-        "category": "concepts",
-        "context": "…ta-nepal-solar-resource-zones]] — the numbers by district - wb-esmap-solar-resource-assessment — the underlying pyranometer data - [[global-solar-atlas-ne…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-nepal-solar-resource-zones",
-        "title": "Nepal Solar Resource Zones",
-        "category": "data",
-        "context": "…mplementarity-profile]] — hour-by-hour and month-by-month - wb-esmap-solar-resource-assessment — the underlying measured data - [[global-solar-atlas-nepal…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-complementarity-profile",
-        "title": "Solar–Hydro Complementarity Profile",
-        "category": "data",
-        "context": "…river-basin-plan-2024]] - [[nea-annual-report-fy2024-25]] - wb-esmap-solar-resource-assessment",
-        "target_exists": true
-      }
-    ],
-    "eib-rural-solar-phase2": [
-      {
-        "slug": "aepc-renewable-framework",
-        "title": "AEPC Renewable Framework and Progress Reports",
-        "category": "sources",
-        "context": "…lar-ee-project]] - [[wb-esmap-solar-resource-assessment]] - eib-rural-solar-phase2 - [[agrivoltaics-and-land]] ## Related - [[aepc]] - [[roo…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-annual-report-fy2024-25",
-        "title": "NEA Annual Report FY 2024/25",
-        "category": "sources",
-        "context": "…- [[data-solar-hydro-lcoe]] - [[data-trade-time-series]] - eib-rural-solar-phase2 - [[figure-index]] - [[firm-power]] - [[kali-gandaki-a]] -…",
-        "target_exists": true
-      },
-      {
-        "slug": "wb-grid-solar-ee-project",
-        "title": "World Bank Grid Solar and Energy Efficiency Project",
-        "category": "sources",
-        "context": "…touches both utility and distribution Cross-references: - eib-rural-solar-phase2 — parallel programme - [[aepc-renewable-framework]] — paral…",
-        "target_exists": true
-      },
-      {
-        "slug": "aepc",
-        "title": "Alternative Energy Promotion Centre (AEPC)",
-        "category": "entities",
-        "context": "…- [[rooftop-minigrid-offgrid]] — the tracks AEPC operates - eib-rural-solar-phase2 — expanding AEPC mandate into utility - [[nea]] — the insti…",
-        "target_exists": true
-      },
-      {
-        "slug": "agrivoltaics-and-land",
-        "title": "Agrivoltaics and Land",
-        "category": "concepts",
-        "context": "…F / green-finance channel for the incremental capex** — the eib-rural-solar-phase2 and [[wb-grid-solar-ee-project]] are the most natural hosts…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-solar-political-coalition-is-rural",
-        "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
-        "category": "claims",
-        "context": "…y. ## Related - [[aepc]] - [[aepc-renewable-framework]] - eib-rural-solar-phase2 - [[rooftop-minigrid-offgrid]] - [[agrivoltaics-and-land]]",
-        "target_exists": true
-      },
-      {
-        "slug": "data-rooftop-shs-deployment",
-        "title": "Rooftop and Solar Home System Deployment",
-        "category": "data",
-        "context": "…- [[data-solar-fleet-inventory]] — utility-scale analogue - eib-rural-solar-phase2 — the financing anchor for mini-grid - [[wb-grid-solar-ee-p…",
         "target_exists": true
       }
     ],
@@ -1262,7 +1183,7 @@
         "slug": "nea-960mw-solar-tender",
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…a-solar-loi-2024]] — corrected row-level LoI award source - nea-annual-report-fy2024-25 — programme context - [[solar-lcoe-crossover]] — the price…",
+        "context": "…arently | ## Related - [[nea-solar]] — programme parent - nea-annual-report-fy2024-25 — primary source - [[solar-lcoe-crossover]] — the price sto…",
         "target_exists": true
       },
       {
@@ -1385,13 +1306,6 @@
         "target_exists": true
       },
       {
-        "slug": "solar-hydro-complementarity",
-        "title": "Solar–Hydro Complementarity",
-        "category": "concepts",
-        "context": "…irm-power]] — what the system actually needs ## Sources - nea-annual-report-fy2024-25 - [[wecs-river-basin-plan-2024]] - [[wecs-energy-synopsis-2…",
-        "target_exists": true
-      },
-      {
         "slug": "storage-deficit",
         "title": "Storage Deficit",
         "category": "concepts",
@@ -1441,24 +1355,10 @@
         "target_exists": true
       },
       {
-        "slug": "data-solar-hydro-lcoe",
-        "title": "Solar and Hydro LCOE",
-        "category": "data",
-        "context": "…l]] — IRENA's Nepal-specific cost assessment ## Sources - nea-annual-report-fy2024-25 - [[irena-remap-nepal]] - [[wb-grid-solar-ee-project]]",
-        "target_exists": true
-      },
-      {
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
         "context": "…utional story - [[aepc]] — operator of the off-grid track - nea-annual-report-fy2024-25 — the primary source for these numbers",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-complementarity-profile",
-        "title": "Solar–Hydro Complementarity Profile",
-        "category": "data",
-        "context": "…sequencing ## Sources - [[wecs-river-basin-plan-2024]] - nea-annual-report-fy2024-25 - [[wb-esmap-solar-resource-assessment]]",
         "target_exists": true
       }
     ],
@@ -2634,9 +2534,9 @@
       },
       {
         "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Award (50 MW, Rolpa)",
+        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
         "category": "entities",
-        "context": "…idur-trishuli-solar-25mwp]] — precedent, if unintentional - data-solar-fleet-inventory",
+        "context": "…hydro developments that could inform future hybrid design - data-solar-fleet-inventory",
         "target_exists": true
       },
       {
@@ -2699,7 +2599,7 @@
         "slug": "data-solar-hydro-complementarity-profile",
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
-        "context": "…[[data-solar-hydro-lcoe]] — the price driving deployment - data-solar-fleet-inventory — the MW this profile applies to - [[solar-role-in-winter-d…",
+        "context": "…[[data-solar-hydro-lcoe]] — the price driving deployment - data-solar-fleet-inventory — the MW this profile applies to",
         "target_exists": true
       }
     ],
@@ -2850,13 +2750,6 @@
         "category": "data",
         "context": "…rd anchors, with approximate-location flags where needed. | data-layer-solar-plants-nea-awards | | Best solar locations | 6 | Strategic suitability bands…",
         "target_exists": true
-      },
-      {
-        "slug": "data-solar-fleet-inventory",
-        "title": "Solar Fleet Inventory",
-        "category": "data",
-        "context": "…y is in and the mapped layer data-layer-solar-plants-nea-awards. **Of which:** - NEA-owned: **~24.36 MWp** in the Bidur /…",
-        "target_exists": true
       }
     ],
     "nea-solar": [
@@ -2865,13 +2758,6 @@
         "title": "DoED Power Plants: Solar Table",
         "category": "sources",
         "context": "…leet-inventory]] - [[data-layer-solar-plants-nea-awards]] - nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "wb-grid-solar-ee-project",
-        "title": "World Bank Grid Solar and Energy Efficiency Project",
-        "category": "sources",
-        "context": "…- [[eib-rural-solar-phase2]] - [[nea-960mw-solar-tender]] - nea-solar ## Related - [[bidur-trishuli-solar-25mwp]] - [[nea-960mw…",
         "target_exists": true
       },
       {
@@ -2997,21 +2883,21 @@
         "slug": "bidur-trishuli-solar-25mwp",
         "title": "Bidur / Trishuli 25 MWp Solar Farm",
         "category": "entities",
-        "context": "…e read as a full least-cost siting analysis. ## Related - nea-solar — programme context - [[wb-grid-solar-ee-project]] — financ…",
+        "context": "…lt for the 960 MW tender is correctly Terai. ## Related - nea-solar — programme context - [[wb-grid-solar-ee-project]] — financ…",
         "target_exists": true
       },
       {
         "slug": "bishnu-priya-nawalparasi",
         "title": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)",
         "category": "entities",
-        "context": "…bility are not independently built out here. ## Related - nea-solar - [[butwal-solar-ridi-8-5mwp]], [[mithila-solar-dhanusha-10…",
+        "context": "…A FY 2024/25 annual report inventory tables. ## Related - nea-solar - [[butwal-solar-ridi-8-5mwp]], [[mithila-solar-dhanusha-10…",
         "target_exists": true
       },
       {
         "slug": "butwal-solar-ridi-8-5mwp",
         "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
         "category": "entities",
-        "context": "…efore detailed financial or performance use. ## Related - nea-solar — programme context - [[mithila-solar-dhanusha-10mwp]], [[b…",
+        "context": "…are locked in and they continue to operate. ## Related - nea-solar — programme context - [[mithila-solar-dhanusha-10mwp]], [[b…",
         "target_exists": true
       },
       {
@@ -3023,23 +2909,23 @@
       },
       {
         "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Award (50 MW, Rolpa)",
+        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
         "category": "entities",
-        "context": "…gic]] — related siting concept, pending stronger evidence - nea-solar — programme parent - [[bidur-trishuli-solar-25mwp]] — prece…",
+        "context": "…siting-logic]] — the concept this project operationalises - nea-solar — programme parent - [[dana-kushma-butwal-corridor]] — tran…",
         "target_exists": true
       },
       {
         "slug": "mithila-solar-dhanusha-10mwp",
         "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
         "category": "entities",
-        "context": "…l output. Phase I PPA tariff is approximate. ## Related - nea-solar - [[butwal-solar-ridi-8-5mwp]], [[bishnu-priya-nawalparasi]…",
+        "context": "…ing the Phase IV tender at near-LCOE prices. ## Related - nea-solar - [[butwal-solar-ridi-8-5mwp]], [[bishnu-priya-nawalparasi]…",
         "target_exists": true
       },
       {
         "slug": "nea-960mw-solar-tender",
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…rice disclosure | Tender ran transparently | ## Related - nea-solar — programme parent - [[nea-solar-loi-2024]] — corrected row…",
+        "context": "…rice disclosure | Tender ran transparently | ## Related - nea-solar — programme parent - [[nea-annual-report-fy2024-25]] — prim…",
         "target_exists": true
       }
     ],
@@ -3167,7 +3053,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…D 2026 — under construction, 67% complete as of mid-2025) + dudhkoshi-storage (670 MW, COD ambitious ~2035). ([[budhigandaki]] 1,200 MW e…",
+        "context": "…) + [[budhigandaki]] (1,200 MW, COD speculative ~2032–35) + dudhkoshi-storage (~635 MW, COD speculative ~2033+) + [[uttarganga-storage]]…",
         "target_exists": true
       },
       {
@@ -3789,7 +3675,14 @@
         "slug": "global-solar-atlas-nepal",
         "title": "Global Solar Atlas (Nepal coverage)",
         "category": "sources",
-        "context": "…data-nepal-solar-resource-zones]] - [[irena-remap-nepal]] - solar-resource-geography-nepal - [[wb-esmap-solar-resource-assessment]] ## Related - [[w…",
+        "context": "…smap-solar-resource-assessment]] — the calibration source - solar-resource-geography-nepal — the concept-page interpretation - [[data-nepal-solar-reso…",
+        "target_exists": true
+      },
+      {
+        "slug": "irena-remap-nepal",
+        "title": "IRENA Renewable Readiness Assessment and REmap Nepal",
+        "category": "sources",
+        "context": "…oe]] - [[data-solar-fleet-inventory]] (potential pyramid) - solar-resource-geography-nepal - [[claim-solar-cheaper-than-small-hydro]] ## Related - […",
         "target_exists": true
       },
       {
@@ -3821,6 +3714,13 @@
         "target_exists": true
       },
       {
+        "slug": "khungri-solar-hybrid-50mw",
+        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
+        "category": "entities",
+        "context": "…ed with Madi Khola and Lungri Khola hydropower) | | **Zone (solar-resource-geography-nepal)** | C4 — Western mid-hills (elevation ~1,300–1,800 m) | |…",
+        "target_exists": true
+      },
+      {
         "slug": "mithila-solar-dhanusha-10mwp",
         "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
         "category": "entities",
@@ -3845,7 +3745,7 @@
         "slug": "agrivoltaics-and-land",
         "title": "Agrivoltaics and Land",
         "category": "concepts",
-        "context": "…t-cycle-build]] for the policy implications. ## Related - solar-resource-geography-nepal — why Terai is the zone that matters here - [[hybrid-siting…",
+        "context": "…and actively raises smallholder cash income. ## Related - solar-resource-geography-nepal — why Terai is the zone that matters here - [[hybrid-siting…",
         "target_exists": true
       },
       {
@@ -3866,7 +3766,7 @@
         "slug": "solar-hydro-complementarity",
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
-        "context": "…g demand both limit what solar can do alone. ## Related - solar-resource-geography-nepal — where the resource is and why altitude beats latitude - […",
+        "context": "…best-matched resource Nepal has access to.** ## Related - solar-resource-geography-nepal — where the resource is and why altitude beats latitude - […",
         "target_exists": true
       },
       {
@@ -3894,7 +3794,7 @@
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
-        "context": "…p-spec classification rules. The quantitative companion to solar-resource-geography-nepal. Table-first; map-spec at the end. ## Country-weighted hea…",
+        "context": "…# Nepal Solar Resource Zones The quantitative companion to solar-resource-geography-nepal. Table-first; map-spec at the end. ## Country-weighted hea…",
         "target_exists": true
       }
     ],
@@ -3942,13 +3842,6 @@
         "target_exists": true
       },
       {
-        "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Award (50 MW, Rolpa)",
-        "category": "entities",
-        "context": "…Related - [[nea-solar-loi-2024]] — row-level LoI source - nea-960mw-solar-tender — procurement parent - [[hybrid-siting-logic]] — related si…",
-        "target_exists": true
-      },
-      {
         "slug": "mithila-solar-dhanusha-10mwp",
         "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
         "category": "entities",
@@ -3959,7 +3852,7 @@
         "slug": "nea-solar",
         "title": "NEA Solar Programme",
         "category": "entities",
-        "context": "…al-scale IPP portfolio | **960 MWp awarded (63 projects)** (nea-960mw-solar-tender) | | Phase V (emerging) | 2025– | Hybrid / floating / grid-…",
+        "context": "…PP portfolio | **960 MWp awarded (64 project selections)** (nea-960mw-solar-tender) | | Phase V (emerging) | 2025– | Hybrid / floating / grid-…",
         "target_exists": true
       },
       {
@@ -4050,9 +3943,9 @@
       },
       {
         "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Award (50 MW, Rolpa)",
+        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
         "category": "entities",
-        "context": "…evacuation corridors can overlap. That makes it relevant to hybrid-siting-logic, but the LoI record alone does not prove shared hydro-solar…",
+        "context": "…onal implementation of the hybrid siting logic** encoded in hybrid-siting-logic, at a meaningful scale: ### 1. It is the template for Arch…",
         "target_exists": true
       },
       {
@@ -4080,7 +3973,7 @@
         "slug": "rooftop-minigrid-offgrid",
         "title": "Rooftop, Mini-Grid, and Off-Grid Solar",
         "category": "concepts",
-        "context": "…Off-Grid Solar ## Summary The utility-scale solar story (hybrid-siting-logic, [[agrivoltaics-and-land]]) is one of three tracks. The oth…",
+        "context": "…ni-Grid, and Off-Grid Solar The utility-scale solar story (hybrid-siting-logic, [[agrivoltaics-and-land]]) is one of three tracks. The oth…",
         "target_exists": true
       },
       {
@@ -4145,7 +4038,7 @@
         "slug": "eib-rural-solar-phase2",
         "title": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
         "category": "sources",
-        "context": "…agrivoltaics-and-land]] - [[data-rooftop-shs-deployment]] - aepc-renewable-framework ## Related - [[wb-grid-solar-ee-project]] — parallel dono…",
+        "context": "…solar-ee-project]] — parallel donor programme (NEA-track) - aepc-renewable-framework — institutional home - [[nea-960mw-solar-tender]] — private…",
         "target_exists": true
       },
       {
@@ -4173,7 +4066,7 @@
         "slug": "aepc",
         "title": "Alternative Energy Promotion Centre (AEPC)",
         "category": "entities",
-        "context": "…fficult to verify claims about AEPC's reach. ## Related - aepc-renewable-framework — the source-page documentation - [[data-rooftop-shs-deploy…",
+        "context": "…rict-level registries are partial post-2021. ## Related - aepc-renewable-framework — the source-page documentation - [[data-rooftop-shs-deploy…",
         "target_exists": true
       },
       {
@@ -4188,6 +4081,43 @@
         "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
         "category": "claims",
         "context": "…nd and subsidy debates intensify. ## Related - [[aepc]] - aepc-renewable-framework - [[eib-rural-solar-phase2]] - [[rooftop-minigrid-offgrid]]…",
+        "target_exists": true
+      }
+    ],
+    "wb-esmap-solar-resource-assessment": [
+      {
+        "slug": "global-solar-atlas-nepal",
+        "title": "Global Solar Atlas (Nepal coverage)",
+        "category": "sources",
+        "context": "…ESMAP** programme. Cross-validated against the **in-situ** wb-esmap-solar-resource-assessment pyranometer network (14 stations, 2015–2019), so the derive…",
+        "target_exists": true
+      },
+      {
+        "slug": "irena-remap-nepal",
+        "title": "IRENA Renewable Readiness Assessment and REmap Nepal",
+        "category": "sources",
+        "context": "…] - [[claim-solar-cheaper-than-small-hydro]] ## Related - wb-esmap-solar-resource-assessment — the measured-resource complement - [[global-solar-atlas-n…",
+        "target_exists": true
+      },
+      {
+        "slug": "mustang-high-altitude-solar-zone",
+        "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone",
+        "category": "entities",
+        "context": "…e-rasuwagadhi-kerung-400kv]] — long-dated interconnection - wb-esmap-solar-resource-assessment — the measurement source - [[global-solar-atlas-nepal]] — t…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-resource-geography-nepal",
+        "title": "Solar Resource Geography of Nepal",
+        "category": "concepts",
+        "context": "…ta-nepal-solar-resource-zones]] — the numbers by district - wb-esmap-solar-resource-assessment — the underlying pyranometer data - [[global-solar-atlas-ne…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-nepal-solar-resource-zones",
+        "title": "Nepal Solar Resource Zones",
+        "category": "data",
+        "context": "…mplementarity-profile]] — hour-by-hour and month-by-month - wb-esmap-solar-resource-assessment — the underlying measured data - [[global-solar-atlas-nepal…",
         "target_exists": true
       }
     ],
@@ -4587,58 +4517,12 @@
         "target_exists": true
       }
     ],
-    "mustang-high-altitude-solar-zone": [
-      {
-        "slug": "global-solar-atlas-nepal",
-        "title": "Global Solar Atlas (Nepal coverage)",
-        "category": "sources",
-        "context": "…nset shifts, or trends under climate change. ## Used By - mustang-high-altitude-solar-zone - [[bishnu-priya-nawalparasi]] - [[data-nepal-solar-resourc…",
-        "target_exists": true
-      },
-      {
-        "slug": "wb-esmap-solar-resource-assessment",
-        "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement",
-        "category": "sources",
-        "context": "…# Used By - [[data-solar-hydro-complementarity-profile]] - mustang-high-altitude-solar-zone - [[data-nepal-solar-resource-zones]] - [[irena-remap-nepal…",
-        "target_exists": true
-      }
-    ],
-    "bishnu-priya-nawalparasi": [
-      {
-        "slug": "global-solar-atlas-nepal",
-        "title": "Global Solar Atlas (Nepal coverage)",
-        "category": "sources",
-        "context": "…ange. ## Used By - [[mustang-high-altitude-solar-zone]] - bishnu-priya-nawalparasi - [[data-nepal-solar-resource-zones]] - [[irena-remap-nepal…",
-        "target_exists": true
-      },
-      {
-        "slug": "butwal-solar-ridi-8-5mwp",
-        "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
-        "category": "entities",
-        "context": "…ached COD (the others: [[mithila-solar-dhanusha-10mwp]] and bishnu-priya-nawalparasi). Together they proved: 1. **IPP-delivered utility solar w…",
-        "target_exists": true
-      },
-      {
-        "slug": "mithila-solar-dhanusha-10mwp",
-        "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
-        "category": "entities",
-        "context": "…## Related - [[nea-solar]] - [[butwal-solar-ridi-8-5mwp]], bishnu-priya-nawalparasi — Phase I cohort - [[hetauda-dhalkebar-inaruwa-backbone]] —…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-solar",
-        "title": "NEA Solar Programme",
-        "category": "entities",
-        "context": "…r Farm** | ~0.96 | Operating (2018) | Surya Power Company | bishnu-priya-nawalparasi | | **Khungri solar award** | 50 | LoI-awarded / pre-PPA |…",
-        "target_exists": true
-      }
-    ],
     "irena-remap-nepal": [
       {
         "slug": "global-solar-atlas-nepal",
         "title": "Global Solar Atlas (Nepal coverage)",
         "category": "sources",
-        "context": "…priya-nawalparasi]] - [[data-nepal-solar-resource-zones]] - irena-remap-nepal - [[solar-resource-geography-nepal]] - [[wb-esmap-solar-res…",
+        "context": "…data-map-inventory]] — where this appears in the explorer - irena-remap-nepal — independent scenario use of the same data",
         "target_exists": true
       },
       {
@@ -4673,7 +4557,7 @@
         "slug": "data-solar-hydro-lcoe",
         "title": "Solar and Hydro LCOE",
         "category": "data",
-        "context": "…ty-profile]] — the profile that drives the time-weighting - irena-remap-nepal — IRENA's Nepal-specific cost assessment ## Sources - [[n…",
+        "context": "…ty-profile]] — the profile that drives the time-weighting - irena-remap-nepal — IRENA's Nepal-specific cost assessment",
         "target_exists": true
       }
     ],
@@ -6162,7 +6046,7 @@
         "slug": "data-solar-hydro-complementarity-profile",
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
-        "context": "…e double-surplus.** The export / demand-creation challenge (seasonal-arbitrage-trap) intensifies as solar scales. For the strategic argument t…",
+        "context": "…are double-surplus.** The export / demand-creation problem (seasonal-arbitrage-trap) becomes more pressing, not less, as solar scales. ## Diur…",
         "target_exists": true
       },
       {
@@ -6193,13 +6077,6 @@
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
         "context": "…nventory]] - [[data-solar-hydro-complementarity-profile]] - data-solar-hydro-lcoe - [[data-trade-time-series]] - [[eib-rural-solar-phase2]] -…",
-        "target_exists": true
-      },
-      {
-        "slug": "wb-grid-solar-ee-project",
-        "title": "World Bank Grid Solar and Energy Efficiency Project",
-        "category": "sources",
-        "context": "…-trishuli-solar-25mwp]] - [[data-rooftop-shs-deployment]] - data-solar-hydro-lcoe - [[eib-rural-solar-phase2]] - [[nea-960mw-solar-tender]] -…",
         "target_exists": true
       },
       {
@@ -6238,13 +6115,6 @@
         "target_exists": true
       },
       {
-        "slug": "solar-in-the-master-narrative",
-        "title": "Solar in the Master Narrative",
-        "category": "syntheses",
-        "context": "…then turned that logic into a market signal: the canonical data-solar-hydro-lcoe table treats the batch as 63 projects at **4.99-5.54 NPR/kW…",
-        "target_exists": true
-      },
-      {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
@@ -6269,7 +6139,7 @@
         "slug": "data-rooftop-shs-deployment",
         "title": "Rooftop and Solar Home System Deployment",
         "category": "data",
-        "context": "…isplace NPR 60–90/kWh diesel in the cited LCOE context (see data-solar-hydro-lcoe). ## Coverage / Method The page combines AEPC cumulative…",
+        "context": "…ht** (because off-grid displaces NPR 60–90/kWh diesel — see data-solar-hydro-lcoe) stays above 50% of the total solar value proposition. ##…",
         "target_exists": true
       },
       {
@@ -6362,14 +6232,14 @@
         "slug": "data-solar-hydro-lcoe",
         "title": "Solar and Hydro LCOE",
         "category": "data",
-        "context": "…olar and Hydro LCOE ## Summary The numerical table behind solar-lcoe-crossover. Three time series — global solar LCOE, Nepal solar auction…",
+        "context": "# Solar and Hydro LCOE The numerical table behind solar-lcoe-crossover. Three time series — global solar LCOE, Nepal solar auction…",
         "target_exists": true
       },
       {
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
-        "context": "…tariff range:** NPR 4.99–5.54 /kWh (corrected NEA LoI — see solar-lcoe-crossover) | Province | Approximate MW in tender | Notes | |---|---:…",
+        "context": "…**Award tariff range:** ~NPR 4.99–5.55 /kWh (gazette — see solar-lcoe-crossover) | Province | Approximate MW in tender | Notes | |---|---:…",
         "target_exists": true
       }
     ],
@@ -6517,117 +6387,68 @@
         "target_exists": true
       }
     ],
-    "solar-role-in-winter-deficit": [
+    "claim-solar-cheaper-than-small-hydro": [
       {
         "slug": "irena-remap-nepal",
         "title": "IRENA Renewable Readiness Assessment and REmap Nepal",
         "category": "sources",
-        "context": "…terpretive use of this benchmark in portfolio planning, see solar-role-in-winter-deficit. ## Limitations - IRENA's Nepal \"technical potential\" est…",
+        "context": "…(potential pyramid) - [[solar-resource-geography-nepal]] - claim-solar-cheaper-than-small-hydro ## Related - [[wb-esmap-solar-resource-assessment]] — the…",
         "target_exists": true
       },
       {
-        "slug": "budhigandaki",
-        "title": "Budhigandaki Hydroelectric Project",
+        "slug": "wb-esmap-solar-resource-assessment",
+        "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement",
+        "category": "sources",
+        "context": "…nd seasonal structure.\"** This is the empirical floor under claim-solar-cheaper-than-small-hydro and the LCOE arguments downstream. ## Data access - **Raw…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-960mw-solar-tender",
+        "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…, reason to build it. See [[data-winter-deficit-model]] and solar-role-in-winter-deficit for the full numbers. The 2035 adequacy model quantifies t…",
+        "context": "…r on a *time-weighted* basis. This is the tariff point that claim-solar-cheaper-than-small-hydro stands on. ## Implementation risks and watch items | Risk…",
         "target_exists": true
       },
       {
-        "slug": "dudhkoshi-storage",
-        "title": "Dudhkoshi Storage Hydroelectric Project",
-        "category": "entities",
-        "context": "…odel that treats Dudhkoshi as a core 2035 portfolio lever - solar-role-in-winter-deficit — how Dudhkoshi fits into the four-lever winter strategy -…",
-        "target_exists": true
-      },
-      {
-        "slug": "tanahu-hydropower",
-        "title": "Tanahu Hydropower Project",
-        "category": "entities",
-        "context": "…the model that includes Tanahu in the 2035 full portfolio - solar-role-in-winter-deficit — how Tanahu fits into the four-lever winter strategy - [[s…",
-        "target_exists": true
-      },
-      {
-        "slug": "storage-deficit",
-        "title": "Storage Deficit",
+        "slug": "solar-lcoe-crossover",
+        "title": "Solar LCOE Crossover",
         "category": "concepts",
-        "context": "…and power-firming terms. ## Solar changes the storage job solar-role-in-winter-deficit adds an important correction: not every dry-season kWh must…",
-        "target_exists": true
-      },
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…t to surplus. See [[data-winter-deficit-model]] Phase 2 and solar-role-in-winter-deficit. This is not a contradiction. It is a more serious systems…",
+        "context": "…brid-siting-logic]] — how to compound the price advantage - claim-solar-cheaper-than-small-hydro — the tracked claim - [[seasonal-arbitrage-trap]] — the tim…",
         "target_exists": true
       },
       {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…y gap cannot. See [[data-winter-deficit-model]] Phase 2 and solar-role-in-winter-deficit 6. **[[sediment-as-design-constraint]]** and climate penalt…",
+        "context": "…ive]] — how solar changes the thesis without replacing it - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark - [[firm-power]] — why de…",
         "target_exists": true
       },
       {
         "slug": "solar-in-the-master-narrative",
         "title": "Solar in the Master Narrative",
         "category": "syntheses",
-        "context": "…large because it targets the binding season. ## Related - solar-role-in-winter-deficit - [[solar-hydro-complementarity]] - [[solar-lcoe-crossover]…",
+        "context": "…[solar-hydro-complementarity]] - [[solar-lcoe-crossover]] - claim-solar-cheaper-than-small-hydro - [[claim-solar-terai-only-short-cycle-build]] - [[master-t…",
         "target_exists": true
       },
       {
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…r. See [[data-winter-deficit-model]] for the full model and solar-role-in-winter-deficit for what it means for policy. ## Use The Map - Open [[dat…",
-        "target_exists": true
-      },
-      {
-        "slug": "twenty-year-strategy",
-        "title": "Twenty-Year Strategy",
-        "category": "syntheses",
-        "context": "…el]] — the 2035 adequacy model that shapes the sequencing - solar-role-in-winter-deficit — the four-lever portfolio synthesis - [[solar-in-the-maste…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-floating-pv-leverage",
-        "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
-        "category": "claims",
-        "context": "…## Related - [[kulekhani-cascade]] - [[storage-deficit]] - solar-role-in-winter-deficit - [[data-map-inventory]] - [[claim-solar-terai-only-short-c…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-timing-not-volume",
-        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
-        "category": "claims",
-        "context": "…— the model that quantifies the two-layer timing problem - solar-role-in-winter-deficit — how solar changes the timing equation",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-storage-physical-fix",
-        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
-        "category": "claims",
-        "context": "…t when solar has set. See [[data-winter-deficit-model]] and solar-role-in-winter-deficit. - **Research ledger:** \"If you ask for the most direct **p…",
+        "context": "…s not have an energy shortage; it has a timing problem. - claim-solar-cheaper-than-small-hydro — new utility solar is now below small RoR on blended tarif…",
         "target_exists": true
       },
       {
         "slug": "claim-solar-terai-only-short-cycle-build",
         "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
         "category": "claims",
-        "context": "…cle compression is possible. - The working solar pathway in solar-role-in-winter-deficit uses a moderate-growth ladder of **~1,700 MWp by 2028**, **…",
+        "context": "…ng-logic]] - [[agrivoltaics-and-land]] - [[buildability]] - claim-solar-cheaper-than-small-hydro",
         "target_exists": true
       },
       {
-        "slug": "data-solar-hydro-complementarity-profile",
-        "title": "Solar–Hydro Complementarity Profile",
+        "slug": "data-solar-hydro-lcoe",
+        "title": "Solar and Hydro LCOE",
         "category": "data",
-        "context": "…d ahead of additional RoR for the evening-peak problem, see solar-role-in-winter-deficit. ## Diurnal complementarity — a typical winter weekday A…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-winter-deficit-model",
-        "title": "Winter Deficit Model",
-        "category": "data",
-        "context": "…and . ## Related - solar-role-in-winter-deficit — synthesis page for what the model implies for policy - [[…",
+        "context": "…is is the single most important economic re-framing for the claim-solar-cheaper-than-small-hydro claim. ## Solar + BESS crossover trajectory Utility-scale…",
         "target_exists": true
       }
     ],
@@ -6636,7 +6457,7 @@
         "slug": "irena-remap-nepal",
         "title": "IRENA Renewable Readiness Assessment and REmap Nepal",
         "category": "sources",
-        "context": "…d costs, and FX. ## Used By - [[data-solar-hydro-lcoe]] - global-solar-atlas-nepal - [[solar-role-in-winter-deficit]] - [[wb-esmap-solar-resou…",
+        "context": "…-resource-assessment]] — the measured-resource complement - global-solar-atlas-nepal — the satellite-derived complement - [[wecs-energy-synopsis…",
         "target_exists": true
       },
       {
@@ -6695,13 +6516,6 @@
         "title": "Run-of-River Hydropower",
         "category": "concepts",
         "context": "…e]] — why PRoR is often mistaken for storage ## Sources - wecs-energy-synopsis-2024 - [[nea-annual-report-fy2024-25]] - [[wecs-hydropower-poten…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-hydro-complementarity",
-        "title": "Solar–Hydro Complementarity",
-        "category": "concepts",
-        "context": "…nnual-report-fy2024-25]] - [[wecs-river-basin-plan-2024]] - wecs-energy-synopsis-2024",
         "target_exists": true
       },
       {
@@ -7346,7 +7160,7 @@
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
-        "context": "…cision. 4. ** ** — point/polygon for kulekhani-cascade, [[tanahu-hydropower]], [[budhigandaki]], [[dudhkoshi-stora…",
+        "context": "…verlay. 4. ** ** — point/polygon for kulekhani-cascade, [[tanahu-hydropower]], [[budhigandaki]], [[dudhkoshi-stora…",
         "target_exists": true
       },
       {
@@ -7354,6 +7168,13 @@
         "title": "Solar Fleet Inventory",
         "category": "data",
         "context": "…g-logic]] | | **Floating PV identified sites** | ~120–700 | kulekhani-cascade pilot + reservoir candidates | Total non-firm pipeline: **…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-solar-hydro-complementarity-profile",
+        "title": "Solar–Hydro Complementarity Profile",
+        "category": "data",
+        "context": "…y. - A **reservoir-hydro peaker** (Kulekhani-cascade style, kulekhani-cascade) held through midday and released in evening does the same…",
         "target_exists": true
       },
       {
@@ -7574,7 +7395,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…ge-physical-fix]] answer. **Realistic 2035 contribution:** tanahu-hydropower (140 MW, COD 2026 — under construction, 67% complete as of…",
+        "context": "…ge-physical-fix]] answer. **Realistic 2035 contribution:** tanahu-hydropower (140 MW, COD ~2027–28) + [[budhigandaki]] (1,200 MW, COD sp…",
         "target_exists": true
       },
       {
@@ -7829,7 +7650,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…25) + [[dudhkoshi-storage]] (670 MW, COD ambitious ~2035). (budhigandaki 1,200 MW excluded from pre-2036 scenarios — main EPC contra…",
+        "context": "…tribution:** [[tanahu-hydropower]] (140 MW, COD ~2027–28) + budhigandaki (1,200 MW, COD speculative ~2032–35) + [[dudhkoshi-storage]…",
         "target_exists": true
       },
       {
@@ -8255,6 +8076,13 @@
         "title": "MoEWRI IPSDP Executive Summary",
         "category": "sources",
         "context": "…a-arun]] - [[lower-badigad]] - [[madi]] - [[nalsyau-gad]] - naumure-w-rapti - [[nepal-power-trade-schemes]] - [[phukot-karnali]] - [[su…",
+        "target_exists": true
+      },
+      {
+        "slug": "khungri-solar-hybrid-50mw",
+        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
+        "category": "entities",
+        "context": "…idur-trishuli-solar-25mwp]] — precedent, if unintentional - naumure-w-rapti — nearby hydro developments that could inform future hybrid…",
         "target_exists": true
       },
       {
@@ -9949,6 +9777,13 @@
         "target_exists": true
       },
       {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…+ [[dudhkoshi-storage]] (~635 MW, COD speculative ~2033+) + uttarganga-storage + [[mugu-karnali-storage]]. Aggregate new dry-season genera…",
+        "target_exists": true
+      },
+      {
         "slug": "data-nepal-solar-resource-zones",
         "title": "Nepal Solar Resource Zones",
         "category": "data",
@@ -9990,6 +9825,13 @@
         "title": "Hybrid Siting Logic",
         "category": "concepts",
         "context": "…oshi-storage]] | ~1,800 | 180 | **~144 MWp** | Proposed | | mugu-karnali-storage | ~9,000 | 900 | **~720 MWp** | Proposed | | [[uttarganga-s…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…~635 MW, COD speculative ~2033+) + [[uttarganga-storage]] + mugu-karnali-storage. Aggregate new dry-season generation ~2,000–3,500 GWh/winte…",
         "target_exists": true
       },
       {
@@ -10645,7 +10487,7 @@
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
-        "context": "…Inventory ## Summary The utility-scale solar analogue of data-fleet-composition. The full \"what is on the ground, what has PPA, what is bei…",
+        "context": "…Solar Fleet Inventory The utility-scale solar analogue of data-fleet-composition. The full \"what is on the ground, what has PPA, what is bei…",
         "target_exists": true
       }
     ],
@@ -10770,7 +10612,7 @@
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
-        "context": "…horizon. ## Solar potential pyramid (for consistency with data-potential-pyramid) | Tier | Solar capacity (MWp) | What it represents | |---…",
+        "context": "…olar (~500×) is *less* severe than for hydropower (~24× per data-potential-pyramid), because the politically-feasible fraction is higher — lan…",
         "target_exists": true
       }
     ],
@@ -10821,7 +10663,7 @@
         "slug": "data-solar-hydro-lcoe",
         "title": "Solar and Hydro LCOE",
         "category": "data",
-        "context": "…ed adjustment:** Based on seasonal generation profiles from data-solar-hydro-complementarity-profile and cross-border price differentials from [[data-trade-time…",
+        "context": "…eet-inventory]] — the MW this pricing is being applied to - data-solar-hydro-complementarity-profile — the profile that drives the time-weighting - [[irena-rema…",
         "target_exists": true
       },
       {
@@ -10922,13 +10764,6 @@
         "title": "Map Inventory",
         "category": "data",
         "context": "…oss-border interconnection capacity and utilization back to data-trade-time-series. - **Storage annotations** for [[kulekhani-cascade]], [[tan…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-lcoe",
-        "title": "Solar and Hydro LCOE",
-        "category": "data",
-        "context": "…ntarity-profile]] and cross-border price differentials from data-trade-time-series. ## Caveats and data hygiene - Nepal tariffs are **NPR-de…",
         "target_exists": true
       },
       {
@@ -11133,7 +10968,7 @@
         "slug": "solar-hydro-complementarity",
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
-        "context": "…blem statement - [[storage-deficit]] — the adjacent lever - firm-power — what the system actually needs ## Sources - [[nea-annua…",
+        "context": "…blem statement - [[storage-deficit]] — the adjacent lever - firm-power — what the system actually needs",
         "target_exists": true
       },
       {
@@ -11678,7 +11513,7 @@
         "slug": "solar-resource-geography-nepal",
         "title": "Solar Resource Geography of Nepal",
         "category": "concepts",
-        "context": "…, with land politics as the main constraint. ## Related - solar-hydro-complementarity — what the seasonal profile does for the hydro fleet - [[hy…",
+        "context": "…istinct deployment stories stapled together. ## Related - solar-hydro-complementarity — what the seasonal profile does for the hydro fleet - [[hy…",
         "target_exists": true
       },
       {
@@ -11748,7 +11583,7 @@
         "slug": "data-solar-hydro-complementarity-profile",
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
-        "context": "…mary The hour-by-hour and month-by-month numbers that make solar-hydro-complementarity visible. Two figures should make this profile visible as ti…",
+        "context": "…file The hour-by-hour and month-by-month numbers that make solar-hydro-complementarity visible. Two useful figures are animated curves for daily d…",
         "target_exists": true
       }
     ],
@@ -12870,13 +12705,6 @@
         "target_exists": true
       },
       {
-        "slug": "agrivoltaics-and-land",
-        "title": "Agrivoltaics and Land",
-        "category": "concepts",
-        "context": "…roduction, and actively raises smallholder cash income. See intervention-transmission-completion and [[claim-solar-terai-only-short-cycle-build]] for the po…",
-        "target_exists": true
-      },
-      {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
@@ -13600,64 +13428,6 @@
         "target_exists": true
       }
     ],
-    "claim-solar-cheaper-than-small-hydro": [
-      {
-        "slug": "wb-esmap-solar-resource-assessment",
-        "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement",
-        "category": "sources",
-        "context": "…nd seasonal structure.\"** This is the empirical floor under claim-solar-cheaper-than-small-hydro and the LCOE arguments downstream. ## Data access - **Raw…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-960mw-solar-tender",
-        "title": "NEA 960 MW National Solar Tender",
-        "category": "entities",
-        "context": "…r on a *time-weighted* basis. This is the tariff point that claim-solar-cheaper-than-small-hydro stands on. ## Implementation risks and watch items | Risk…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-lcoe-crossover",
-        "title": "Solar LCOE Crossover",
-        "category": "concepts",
-        "context": "…brid-siting-logic]] — how to compound the price advantage - claim-solar-cheaper-than-small-hydro — the tracked claim - [[seasonal-arbitrage-trap]] — the tim…",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "…ive]] — how solar changes the thesis without replacing it - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark - [[firm-power]] — why de…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-in-the-master-narrative",
-        "title": "Solar in the Master Narrative",
-        "category": "syntheses",
-        "context": "…[solar-hydro-complementarity]] - [[solar-lcoe-crossover]] - claim-solar-cheaper-than-small-hydro - [[claim-solar-terai-only-short-cycle-build]] - [[master-t…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Start Here",
-        "category": "syntheses",
-        "context": "…s not have an energy shortage; it has a timing problem. - claim-solar-cheaper-than-small-hydro — new utility solar is now below small RoR on blended tarif…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-solar-terai-only-short-cycle-build",
-        "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
-        "category": "claims",
-        "context": "…ng-logic]] - [[agrivoltaics-and-land]] - [[buildability]] - claim-solar-cheaper-than-small-hydro",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-lcoe",
-        "title": "Solar and Hydro LCOE",
-        "category": "data",
-        "context": "…is is the single most important economic re-framing for the claim-solar-cheaper-than-small-hydro claim. ## Solar + BESS crossover trajectory Utility-scale…",
-        "target_exists": true
-      }
-    ],
     "data-storage-comparison": [
       {
         "slug": "wb-ganges-strategic-basin-assessment",
@@ -13747,9 +13517,9 @@
       },
       {
         "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Award (50 MW, Rolpa)",
+        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
         "category": "entities",
-        "context": "…ding stronger evidence - [[nea-solar]] — programme parent - bidur-trishuli-solar-25mwp — precedent, if unintentional - [[data-solar-fleet-inventor…",
+        "context": "…is the template for Archetype 1 scale-up. Bidur/Trishuli (bidur-trishuli-solar-25mwp) was near-hydro co-location by accident; Khungri is **desig…",
         "target_exists": true
       },
       {
@@ -14453,7 +14223,7 @@
         "slug": "solar-lcoe-crossover",
         "title": "Solar LCOE Crossover",
         "category": "concepts",
-        "context": "…hose production profile is **worst-matched** to demand (the seasonal-mismatch pattern), and ~5.43 NPR/kWh for solar energy whose producti…",
+        "context": "…hose production profile is **worst-matched** to demand (the seasonal-mismatch pattern), while the November 2024 solar LoI clears a 960 MW…",
         "target_exists": true
       },
       {
@@ -14644,7 +14414,7 @@
         "slug": "solar-hydro-complementarity",
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
-        "context": "…rity ## Summary Nepal's structural problem is **timing** (claim-timing-not-volume). The single most under-used lever for fixing timing is the…",
+        "context": "…Complementarity Nepal's structural problem is **timing** (claim-timing-not-volume). The single most under-used lever for fixing timing is the…",
         "target_exists": true
       },
       {
@@ -14665,7 +14435,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…cible monthly energy-balance model backing this synthesis - claim-timing-not-volume, [[claim-storage-physical-fix]] — the claims this synthesis…",
+        "context": "…numbers - [[bottleneck-hierarchy]] — the ranking to patch - claim-timing-not-volume, [[claim-storage-physical-fix]] — the claims this synthesis…",
         "target_exists": true
       },
       {
@@ -15406,7 +15176,7 @@
         "slug": "mithila-solar-dhanusha-10mwp",
         "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
         "category": "entities",
-        "context": "…I PPA tariff is approximate. ## Related - [[nea-solar]] - butwal-solar-ridi-8-5mwp, [[bishnu-priya-nawalparasi]] — Phase I cohort - [[hetauda-…",
+        "context": "…tender at near-LCOE prices. ## Related - [[nea-solar]] - butwal-solar-ridi-8-5mwp, [[bishnu-priya-nawalparasi]] — Phase I cohort - [[hetauda-…",
         "target_exists": true
       },
       {
@@ -15477,13 +15247,6 @@
         "target_exists": true
       },
       {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…numbers - [[bottleneck-hierarchy]] — the ranking to patch - data-winter-deficit-model — the reproducible monthly energy-balance model backing thi…",
-        "target_exists": true
-      },
-      {
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
@@ -15509,6 +15272,129 @@
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
         "context": "…evening peak** — the 6:30 pm moment when solar has set. See data-winter-deficit-model and [[solar-role-in-winter-deficit]]. - **Research ledger:*…",
+        "target_exists": true
+      }
+    ],
+    "solar-role-in-winter-deficit": [
+      {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…, reason to build it. See [[data-winter-deficit-model]] and solar-role-in-winter-deficit for the full numbers. The 2035 adequacy model quantifies t…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…odel that treats Dudhkoshi as a core 2035 portfolio lever - solar-role-in-winter-deficit — how Dudhkoshi fits into the four-lever winter strategy -…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…the model that includes Tanahu in the 2035 full portfolio - solar-role-in-winter-deficit — how Tanahu fits into the four-lever winter strategy - [[s…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…and power-firming terms. ## Solar changes the storage job solar-role-in-winter-deficit adds an important correction: not every dry-season kWh must…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…t to surplus. See [[data-winter-deficit-model]] Phase 2 and solar-role-in-winter-deficit. This is not a contradiction. It is a more serious systems…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…y gap cannot. See [[data-winter-deficit-model]] Phase 2 and solar-role-in-winter-deficit 6. **[[sediment-as-design-constraint]]** and climate penalt…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…large because it targets the binding season. ## Related - solar-role-in-winter-deficit - [[solar-hydro-complementarity]] - [[solar-lcoe-crossover]…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…r. See [[data-winter-deficit-model]] for the full model and solar-role-in-winter-deficit for what it means for policy. ## Use The Map - Open [[dat…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…el]] — the 2035 adequacy model that shapes the sequencing - solar-role-in-winter-deficit — the four-lever portfolio synthesis - [[solar-in-the-maste…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-floating-pv-leverage",
+        "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
+        "category": "claims",
+        "context": "…## Related - [[kulekhani-cascade]] - [[storage-deficit]] - solar-role-in-winter-deficit - [[data-map-inventory]] - [[claim-solar-terai-only-short-c…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "…— the model that quantifies the two-layer timing problem - solar-role-in-winter-deficit — how solar changes the timing equation",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-storage-physical-fix",
+        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+        "category": "claims",
+        "context": "…t when solar has set. See [[data-winter-deficit-model]] and solar-role-in-winter-deficit. - **Research ledger:** \"If you ask for the most direct **p…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-solar-terai-only-short-cycle-build",
+        "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030",
+        "category": "claims",
+        "context": "…cle compression is possible. - The working solar pathway in solar-role-in-winter-deficit uses a moderate-growth ladder of **~1,700 MWp by 2028**, **…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "…and . ## Related - solar-role-in-winter-deficit — synthesis page for what the model implies for policy - [[…",
+        "target_exists": true
+      }
+    ],
+    "bishnu-priya-nawalparasi": [
+      {
+        "slug": "butwal-solar-ridi-8-5mwp",
+        "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
+        "category": "entities",
+        "context": "…ached COD (the others: [[mithila-solar-dhanusha-10mwp]] and bishnu-priya-nawalparasi). Together they proved: 1. **IPP-delivered utility solar w…",
+        "target_exists": true
+      },
+      {
+        "slug": "mithila-solar-dhanusha-10mwp",
+        "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
+        "category": "entities",
+        "context": "…## Related - [[nea-solar]] - [[butwal-solar-ridi-8-5mwp]], bishnu-priya-nawalparasi — Phase I cohort - [[hetauda-dhalkebar-inaruwa-backbone]] —…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-solar",
+        "title": "NEA Solar Programme",
+        "category": "entities",
+        "context": "…r Farm** | ~0.96 | Operating (2018) | Surya Power Company | bishnu-priya-nawalparasi | | **Khungri Solar Hybrid** | 50 | Planned (2026) | NEA +…",
         "target_exists": true
       }
     ],
@@ -15809,6 +15695,13 @@
         "target_exists": true
       },
       {
+        "slug": "khungri-solar-hybrid-50mw",
+        "title": "Khungri Solar Hybrid (50 MW, Pyuthan)",
+        "category": "entities",
+        "context": "…near the Dana–Kushma–Butwal corridor. The site sits on the dana-kushma-butwal-corridor interconnection axis, so the plant's output is naturally ev…",
+        "target_exists": true
+      },
+      {
         "slug": "mca-central-400",
         "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)",
         "category": "entities",
@@ -16050,22 +15943,6 @@
         "target_exists": true
       }
     ],
-    "nea-solar-loi-2024": [
-      {
-        "slug": "khungri-solar-hybrid-50mw",
-        "title": "Khungri Solar Award (50 MW, Rolpa)",
-        "category": "entities",
-        "context": "…ited as a **LoI-awarded IPP solar project**. ## Related - nea-solar-loi-2024 — row-level LoI source - [[nea-960mw-solar-tender]] — procu…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-960mw-solar-tender",
-        "title": "NEA 960 MW National Solar Tender",
-        "category": "entities",
-        "context": "…arently | ## Related - [[nea-solar]] — programme parent - nea-solar-loi-2024 — corrected row-level LoI award source - [[nea-annual-repor…",
-        "target_exists": true
-      }
-    ],
     "sangroula-ntnu-kulekhani-bathymetry": [
       {
         "slug": "kulekhani-iii",
@@ -16194,7 +16071,7 @@
         "slug": "nea-solar",
         "title": "NEA Solar Programme",
         "category": "entities",
-        "context": "…~10 (pilot) | Planned/implementation | NEA / AEPC hybrid | karnali-solar-energy-project | | **960 MW tender portfolio** | 960 (63 projects) | PPA i…",
+        "context": "…~10 (pilot) | Planned/implementation | NEA / AEPC hybrid | karnali-solar-energy-project | | **960 MW tender portfolio** | 960 (64 project selection…",
         "target_exists": true
       }
     ],
@@ -16204,13 +16081,6 @@
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
         "context": "…operationalises - [[claim-solar-cheaper-than-small-hydro]], claim-solar-terai-only-short-cycle-build — the tracked claims this tender evidences",
-        "target_exists": true
-      },
-      {
-        "slug": "agrivoltaics-and-land",
-        "title": "Agrivoltaics and Land",
-        "category": "concepts",
-        "context": "…sh income. See [[intervention-transmission-completion]] and claim-solar-terai-only-short-cycle-build for the policy implications. ## Related - [[solar-resourc…",
         "target_exists": true
       },
       {
@@ -16254,7 +16124,7 @@
         "slug": "nea-solar",
         "title": "NEA Solar Programme",
         "category": "entities",
-        "context": "…ard** | 50 | LoI-awarded / pre-PPA | Rapti Urja Pvt. Ltd. | khungri-solar-hybrid-50mw | | **Karnali Solar Energy Project** | ~10 (pilot) | Planne…",
+        "context": "…*Khungri Solar Hybrid** | 50 | Planned (2026) | NEA + IPP | khungri-solar-hybrid-50mw | | **Karnali Solar Energy Project** | ~10 (pilot) | Planne…",
         "target_exists": true
       }
     ],
@@ -16476,13 +16346,6 @@
         "target_exists": true
       },
       {
-        "slug": "solar-hydro-complementarity",
-        "title": "Solar–Hydro Complementarity",
-        "category": "concepts",
-        "context": "…ally needs ## Sources - [[nea-annual-report-fy2024-25]] - wecs-river-basin-plan-2024 - [[wecs-energy-synopsis-2024]]",
-        "target_exists": true
-      },
-      {
         "slug": "data-basin-discharge",
         "title": "Basin Discharge Data",
         "category": "data",
@@ -16501,13 +16364,6 @@
         "title": "Layer: Nepal Tributaries (HydroRIVERS)",
         "category": "data",
         "context": "…lified, or named differently across sources. ## Related - wecs-river-basin-plan-2024 - [[wecs-hydropower-potential-2019]] - [[run-of-river-hydro…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-complementarity-profile",
-        "title": "Solar–Hydro Complementarity Profile",
-        "category": "data",
-        "context": "…rategic argument for solar + BESS sequencing ## Sources - wecs-river-basin-plan-2024 - [[nea-annual-report-fy2024-25]] - [[wb-esmap-solar-resour…",
         "target_exists": true
       }
     ],

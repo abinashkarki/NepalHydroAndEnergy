@@ -2,7 +2,7 @@
 title: Storage Is the Clearest Physical Answer to Seasonal Mismatch
 type: claim
 created: 2026-04-14
-updated: 2026-05-08
+updated: 2026-05-13
 claim_id: C-008
 confidence: high
 status: stable
@@ -18,7 +18,7 @@ page_quality: analysis
 ## Evidence
 
 - **Cross-source finding:** Converge that without large-scale shifting of energy across seasons, a run-of-river-heavy system will reproduce dry-season scarcity and wet-season surplus/stranding dynamics.
-- **World Bank Water Diagnostic (cited thread):** Uses a large-order storage need figure (**29.86 km³** in the diagnostic framing) against current storage of only ~0.085–0.15 km³, a **~200× shortfall**—useful as a "scale of the mismatch" anchor, not a literal procurement shopping list without engineering siting.
+- **World Bank Water Diagnostic (cited thread):** Uses a large-order storage need figure (**29.86 km³** in the diagnostic framing) against current storage of only ~0.085–0.15 km³, a **~200x shortfall**—useful as a "scale of the mismatch" anchor, not a literal procurement shopping list without engineering siting.
 - **Winter-balance framing:** Refreshed system pages put the current hydro dry-season floor around **~1,100–1,300 MW**, far below monsoon capability and consistent with the idea that **timing**, not annual energy, binds.
 - **2035 adequacy model update:** The model confirms storage is still essential, but reframes its job. Solar can close much of the winter **daytime** energy gap. Storage hydro, BESS, and demand-shaping are now needed for the **evening peak** — the 6:30 pm moment when solar has set. See [[data-winter-deficit-model]] and [[solar-role-in-winter-deficit]].
 - **Research ledger:** "If you ask for the most direct **physical** answer to Nepal's timing problem, **storage** is it."

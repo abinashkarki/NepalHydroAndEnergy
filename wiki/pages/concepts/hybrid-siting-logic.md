@@ -2,23 +2,16 @@
 title: Hybrid Siting Logic
 type: concept
 created: 2026-04-23
-updated: 2026-05-12
+updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project]
 tags: [solar, siting, hybrid, floating-pv, co-location, substation, hydro, kulekhani]
-page_quality: analysis
 ---
 
 # Hybrid Siting Logic
 
-## Summary
-
 Solar plants are not free-floating technology choices; they are three things co-located — **a module field**, **a land parcel**, and **an interconnection**. Cheap modules have collapsed the first; [[solar-lcoe-crossover]]. Land and interconnection are now the binding constraints on Nepal solar, and the siting archetypes that minimise *those* two costs beat the ones that optimise GHI alone.
 
 This page frames the three siting archetypes — **hydro co-location**, **substation-adjacent greenfield**, **floating PV on reservoirs** — and argues that the first and third together will carry most of the political coalition for utility-scale solar in Nepal through 2035.
-
-## Simple Explanation
-
-Hybrid siting asks where solar can be built without paying twice for land, roads, grid access, and local acceptance. In Nepal, the best solar sites are often not the sunniest places; they are places where hydropower, reservoirs, substations, or existing rights-of-way already solve the expensive parts of a project.
 
 ## Archetype 1 — Solar at existing hydropower sites ("hydro co-location")
 
@@ -51,7 +44,7 @@ The interconnection loading pattern is *anti-phased* with the hydro plant. In th
 - [[marsyangdi]] / [[madhya-marsyangdi]] — cascade co-location, 20–40 MWp combined.
 - [[tanahu-hydropower]] — storage reservoir under construction; co-location should be designed in *before* impoundment.
 
-The 50 MW **Khungri** LoI award is a candidate to watch for this archetype, but the corrected NEA LoI establishes only a Rolpa IPP solar award anchored to the Khungri grid node. It should not be treated as a proven hydro-hybrid project until PPA, interconnection, or commissioning documents confirm shared hydro evacuation.
+The 50 MW solar project at **Khungri village**, designed to integrate into the Khungri substation adjacent to Madi Khola and Lungri Khola hydropower, is the first operational example of the archetype at scale in Nepal (NEA annual report FY 2024/25).
 
 ## Archetype 2 — Substation-adjacent greenfield (Terai)
 
@@ -120,12 +113,6 @@ Over 2026–2035, roughly:
 - **~10%** as rooftop / distributed + off-grid mini-grids (see [[rooftop-minigrid-offgrid]]), which is a separate political track.
 
 This is the sort of portfolio a competent NEA + ERC could produce in a 10-year plan. Nothing in the 2024/25 annual report refutes it; the infrastructure for all four archetypes is under way. The missing piece is an explicit portfolio rule that treats the four archetypes as complements rather than competitors.
-
-## Common Misunderstandings
-
-- **Best solar resource does not automatically mean best project site.** Grid, land, roads, and permitting can dominate the economics.
-- **Hydro co-location does not mean solar replaces hydropower.** It uses existing infrastructure and dry-season spare evacuation to complement hydro output.
-- **Floating PV is not only a land-saving trick.** It also interacts with reservoir evaporation, interconnection, and storage-project design.
 
 ## Related
 

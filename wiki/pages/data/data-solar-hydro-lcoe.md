@@ -2,16 +2,13 @@
 title: Solar and Hydro LCOE
 type: data
 created: 2026-04-23
-updated: 2026-05-10
+updated: 2026-04-23
 figure_type: chart-spec
-sources: [nea-annual-report-fy2024-25, irena-remap-nepal, wb-grid-solar-ee-project, nea-solar-loi-2024]
+sources: [nea-annual-report-fy2024-25, irena-remap-nepal, wb-grid-solar-ee-project]
 tags: [solar, hydro, LCOE, tariff, PPA, price, economics, crossover]
-page_quality: analysis
 ---
 
 # Solar and Hydro LCOE
-
-## Summary
 
 The numerical table behind [[solar-lcoe-crossover]]. Three time series — global solar LCOE, Nepal solar auction tariff, Nepal hydro PPA — plus a value-weighted adjustment.
 
@@ -20,7 +17,7 @@ The numerical table behind [[solar-lcoe-crossover]]. Three time series — globa
 Weighted global average, levelized, 2024 US dollars.
 
 | Year | Global LCOE ($/MWh) | Module price ($/W) | Capacity factor (weighted) | Notes |
-|---|---:|---:|---:|---|
+|---:|---:|---:|---:|---|
 | 2010 | 359 | ~2.00 | 15% | Crystalline Si, pre-scale |
 | 2012 | 240 | 1.20 | 16% | |
 | 2014 | 165 | 0.76 | 17% | First Chinese scale |
@@ -43,9 +40,9 @@ Weighted global average, levelized, 2024 US dollars.
 | NEA Grid Solar & EE Project EPC | 2019–20 | 25 | NEA self-build (capex-based) | — | Bidur / Trishuli 25 MWp |
 | IPP rounds FY 2080/81 | 2023 | 45 | 6.40–6.50 | $0.048–$0.049 | — |
 | IPP rounds FY 2081/82 | 2024 | ~170 (8 plants) | **5.94–6.50** | **$0.044–$0.049** | PPA signed, COD 2026–27 |
-| **960 MW national tender** | 2024–25 | 960 (63 projects) | **4.99–5.54** | **$0.037–$0.041** | LoI awards; multi-year staged PPA |
+| **960 MW national tender** | 2024–25 | 960 (64 project selections) | **4.99–5.55** | **$0.038–$0.042** | NEA LoI weighted average ~5.43 NPR/kWh |
 
-Nepal's price discovery is following the global auction curve with a ~3–5 year lag; the 960 MW tender tariff is roughly comparable to India 2024 low bids after currency conversion, while still above the lowest Gulf-region 2024 outcomes.
+Nepal's price discovery is following the global auction curve with a ~3–5 year lag; the 960 MW tender tariff is ~40% higher than Gulf-region 2024 lows ($0.030–$0.035) and ~20% above India 2024 lows (₹2.4–2.6/kWh ≈ $0.029–$0.031).
 
 ## Nepal hydropower PPA tariffs
 
@@ -66,13 +63,13 @@ NEA-standard PPA structure for IPPs (all figures NPR/kWh; effective since 2016 s
 |---|---:|---:|---|
 | Small RoR hydro PPA (blended, current) | **6.20** | $0.047 | Time-un-weighted |
 | PRoR hydro PPA (blended, current) | 6.80 | $0.052 | |
-| Solar 2024/25 NEA tender (blended) | **~5.43** | $0.040 | 960 MW batch capacity-weighted avg |
+| Solar 2024/25 NEA tender (blended) | **~5.43** | ~$0.041 | 960 MW LoI weighted average |
 | Solar 2018 NEA auction (blended) | 7.80 | $0.070 | First round |
 | Solar 2030 projected (Nepal) | **~4.50–5.20** | $0.034–$0.039 | With 4h BESS: ~6.50–7.50 |
 | Global solar LCOE 2024 | 3.8 (NPR eq) | $0.044 | IRENA weighted |
 | Gulf 2024 record-low | 2.6 | $0.020 | AEDNRM, UAE |
 
-The Nepal hydro-solar crossover happened between the **2018 (7.80)** and **2023 (6.40)** solar auction rounds. By 2024, **solar is roughly 12% cheaper than small RoR on a blended tariff basis and more than 20% cheaper on a time-weighted-value basis** (see next section).
+The Nepal hydro-solar crossover happened between the **2018 (7.80)** and **2023 (6.40)** solar auction rounds. By the 2024 NEA LoI round, **solar is roughly 12% cheaper than small RoR on a blended tariff basis and materially cheaper on a time-weighted-value basis** (see next section).
 
 ## Time-weighted value adjustment
 
@@ -94,7 +91,7 @@ This is the single most important economic re-framing for the [[claim-solar-chea
 Utility-scale 4-hour battery system LCOE (Wood Mackenzie / BloombergNEF data):
 
 | Year | BESS LCOE ($/MWh, 4h) | Combined solar+4h-BESS ($/MWh) | Matches reservoir-hydro at (NPR/kWh) |
-|---|---:|---:|---|
+|---:|---:|---:|---|
 | 2020 | 190 | 240 | — (out of range) |
 | 2022 | 140 | 185 | — |
 | 2024 | **95** | **135–150** | — |
@@ -106,19 +103,11 @@ Solar + 4h-BESS reaches **NPR 10/kWh equivalence with new reservoir-hydro around
 
 ## Chart specifications
 
-Three public-facing chart options:
+Three charts for the public explainer:
 
 1. **Time-series line chart** — global solar LCOE 2010–2030 (solid), Nepal solar auction tariffs 2017–2025 (dashed with points), Nepal small-RoR PPA (horizontal band). Crossover point annotated.
 2. **Stacked-bar per-technology** — current LCOE bars for RoR, PRoR, new storage hydro, solar (auction), solar (LCOE), solar+4h BESS. With time-weighted-value adjustment as a second panel.
 3. **Projection fan** — solar LCOE + solar+BESS 2025–2035, with hydro-storage benchmark horizontal. The crossover year for firm-capacity equivalence is the climax.
-
-## Coverage / Method
-
-- **Global solar LCOE:** IRENA Renewable Cost Database, capacity-weighted global averages. Nepal-specific numbers should be adjusted for grid costs, land costs, and FX.
-- **Nepal solar auction tariffs:** NEA tender results, IPP PPA signings. Figures are nominal NPR with period FX approximations for USD equivalents.
-- **Nepal hydro PPA tariffs:** NEA standard PPA structure (2016 basis, with periodic revisions). Blended rates are calculated at 30% dry / 70% wet energy mix for small RoR; actual project mix varies.
-- **BESS LCOE:** Wood Mackenzie / BloombergNEF utility-scale 4-hour system projections. Assumes lithium-ion, no rare-material price shock.
-- **Time-weighted adjustment:** Based on seasonal generation profiles from [[data-solar-hydro-complementarity-profile]] and cross-border price differentials from [[data-trade-time-series]].
 
 ## Caveats and data hygiene
 
@@ -136,9 +125,3 @@ Three public-facing chart options:
 - [[data-solar-fleet-inventory]] — the MW this pricing is being applied to
 - [[data-solar-hydro-complementarity-profile]] — the profile that drives the time-weighting
 - [[irena-remap-nepal]] — IRENA's Nepal-specific cost assessment
-
-## Sources
-
-- [[nea-annual-report-fy2024-25]]
-- [[irena-remap-nepal]]
-- [[wb-grid-solar-ee-project]]

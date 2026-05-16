@@ -2,7 +2,7 @@
 title: Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives
 type: claim
 created: 2026-04-14
-updated: 2026-05-07
+updated: 2026-05-11
 claim_id: C-029
 confidence: high
 status: stable

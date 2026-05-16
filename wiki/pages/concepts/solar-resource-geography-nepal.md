@@ -2,15 +2,12 @@
 title: Solar Resource Geography of Nepal
 type: concept
 created: 2026-04-23
-updated: 2026-05-12
+updated: 2026-04-23
 sources: [wb-esmap-solar-resource-assessment, global-solar-atlas-nepal, aepc-renewable-framework]
 tags: [solar, GHI, DNI, resource, geography, terai, himalaya, mustang, elevation]
-page_quality: analysis
 ---
 
 # Solar Resource Geography of Nepal
-
-## Summary
 
 Three sentences to lead with, because they invert most people's priors:
 
@@ -19,10 +16,6 @@ Three sentences to lead with, because they invert most people's priors:
 3. **The resource variation across Nepal is driven by altitude, aspect, and monsoon cloud cover — not latitude.** Kathmandu Valley is the *worst* solar region in the country, because of a combination of monsoon cloud cover, mid-hill fog, aerosol pollution, and topographic shading. Terai is middling. Mustang is world-class.
 
 This page maps that variation and draws the siting consequences.
-
-## Simple Explanation
-
-Nepal has good solar resource almost everywhere, but the best buildable sites are determined by grid access, land, slope, cloud cover, and altitude. The sunniest places are not always the places where utility-scale solar can be built cheaply.
 
 ## The four resource zones
 
@@ -79,12 +72,6 @@ Siting decisions that rank latitude above transmission distance are making a ~20
 **For the next 10 GW of Nepal solar: build on the Terai flats within 10 km of the 132 kV spine, with a secondary tier at hydropower co-location sites, a rooftop track in Kathmandu Valley / Pokhara, and a long-dated Zone A option held in reserve for when the trans-Himalayan interconnection exists.**
 
 That sentence should be the base layer of every Nepal solar strategy document. Almost none of them write it this explicitly because "solar" is treated as a single technology rather than four distinct deployment stories stapled together.
-
-## Common Misunderstandings
-
-- **Latitude is not the main solar variable inside Nepal.** Altitude, cloud cover, terrain, and grid distance matter more.
-- **The highest GHI zones are not automatically the best utility sites.** Remote high-altitude areas can lose on transmission and access costs.
-- **Terai solar is not just about sunlight.** Flat land and grid proximity are the decisive advantages, with land politics as the main constraint.
 
 ## Related
 

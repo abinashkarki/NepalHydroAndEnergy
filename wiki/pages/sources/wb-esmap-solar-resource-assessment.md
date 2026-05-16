@@ -2,19 +2,16 @@
 title: World Bank ESMAP Nepal Solar and Wind Resource Measurement
 type: source
 created: 2026-04-23
-updated: 2026-05-11
+updated: 2026-04-23
 source_type: dataset
 source_author: World Bank ESMAP Energy Sector Management Assistance Program, with AEPC implementation
 source_date: 2019-01-01
 source_url: https://esmap.org/renewable_energy_resource_mapping
 sources: []
 tags: [esmap, world-bank, solar, wind, resource-assessment, pyranometer, GHI, DNI, measured-data]
-page_quality: analysis
 ---
 
 # World Bank ESMAP Nepal Solar and Wind Resource Measurement
-
-## Summary
 
 The **ground-measured solar and wind resource dataset for Nepal**. Operated 2015–2019 under the World Bank ESMAP Renewable Energy Resource Mapping & Geospatial Planning programme, implemented on the ground through AEPC with technical delivery by Vaisala / 3TIER (solar) and DNV GL (wind).
 
@@ -100,22 +97,6 @@ Validation source for:
 - A 2024/25 refresh campaign across at least 8 of the original 14 stations, to capture atmospheric-aerosol evolution.
 - Publication of **a per-station 10-year climatology** with percentile bands (not just 10-year mean).
 - Integration with **cloud-cover indices** (MODIS, Himawari) for operational forecasting value.
-
-## Limitations
-
-- **Spatial coverage thin.** 14 stations across Nepal's terrain complexity leaves substantial interpolation gaps. Satellite products fill the gap but with systematic biases in high-mountain terrain.
-- **Temporal cutoff at 2019.** The measurement campaign ended in 2019, pre-dating the 2021–2024 atmospheric-aerosol shifts. Terai stations in particular may now face dust-aerosol conditions not captured in the dataset.
-- **Post-2019 data patchy.** Some stations continued under AEPC operation after 2019; others were decommissioned. There is no uniform post-campaign dataset.
-- **Station values are representative, not precise.** The GHI means in the station table are approximate; exact values require cross-reference with the ESMAP final report tables.
-
-## Used By
-
-- [[data-solar-hydro-complementarity-profile]]
-- [[mustang-high-altitude-solar-zone]]
-- [[data-nepal-solar-resource-zones]]
-- [[irena-remap-nepal]]
-- [[global-solar-atlas-nepal]]
-- [[solar-resource-geography-nepal]]
 
 ## Related
 

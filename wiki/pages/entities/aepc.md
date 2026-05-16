@@ -1,17 +1,14 @@
 ---
 title: Alternative Energy Promotion Centre (AEPC)
 type: entity
+generator: manual
 created: 2026-04-23
-updated: 2026-05-13
+updated: 2026-04-23
 sources: [aepc-renewable-framework, eib-rural-solar-phase2]
 tags: [aepc, institution, renewable, solar, SHS, mini-grid, off-grid]
-generator: manual
-page_quality: analysis
 ---
 
 # Alternative Energy Promotion Centre (AEPC)
-
-## Summary
 
 Government of Nepal institution responsible for **rural electrification through renewables**. Technically a semi-autonomous body under the Ministry of Energy, Water Resources & Irrigation (MoEWRI); operationally the country's primary administrator of the off-grid solar, biogas, improved cookstove, and community mini-grid programmes. Standing alongside (not inside) NEA.
 
@@ -68,7 +65,7 @@ The wiki argues that AEPC, not NEA, is the natural home for three emerging solar
 
 ### 2. Off-grid to grid-edge integration
 
-As NEA grid reaches former off-grid villages (~8.6% of households still grid-absent, [[nea]]), each AEPC mini-grid becomes a grid-edge asset. AEPC-NEA integration protocol (who owns what, tariff structure, BESS-sharing) is currently ad-hoc, making ownership, tariff, and BESS-sharing rules a documented institutional gap. [[rooftop-minigrid-offgrid]].
+As NEA grid reaches former off-grid villages (~8.6% of households still grid-absent, [[nea]]), each AEPC mini-grid becomes a grid-edge asset. AEPC-NEA integration protocol (who owns what, tariff structure, BESS-sharing) is currently ad-hoc and should be formalized. [[rooftop-minigrid-offgrid]].
 
 ### 3. Solar + BESS rural hybrids
 
@@ -80,16 +77,6 @@ The NEA FY 2024/25 annual report explicitly references off-grid solar + BESS dep
 - **Staff capacity.** Rural technical staff are overstretched; each engineer covers multiple districts in Karnali / Sudurpaschim. Community mini-grid O&M quality varies with staffing continuity.
 - **Mandate overlap.** AEPC's mandate edges into MoEWRI rural electrification and NEA distribution; interagency coordination has historically been ad-hoc.
 - **Data / registry infrastructure.** Cumulative deployment numbers are known at the national roll-up but district-level registries are partial post-2021.
-
-## Limitations & Controversies
-
-**Donor dependence.** AEPC's budget oscillates with donor cycles; the 2017–2020 SREP cycle had ~2× the budget of the 2022–2024 period. Programme continuity depends on donor pipeline management, not sovereign budget stability.
-
-**Staff capacity constraints.** Rural technical staff are overstretched; each engineer covers multiple districts in Karnali / Sudurpaschim. Community mini-grid O&M quality varies with staffing continuity.
-
-**Mandate overlap with NEA.** AEPC's mandate edges into MoEWRI rural electrification and NEA distribution; interagency coordination has historically been ad-hoc. The absence of a formal AEPC-NEA integration protocol for grid-edge mini-grids creates stranded assets as NEA grid reaches former off-grid villages.
-
-**Data registry gaps.** Cumulative deployment numbers are known at the national roll-up but district-level registries are partial post-2021. This limits evidence-based planning and makes it difficult to verify claims about AEPC's reach.
 
 ## Related
 
