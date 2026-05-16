@@ -31,4 +31,3 @@ Research compilation covering Nepal's first large private IPP: 60 MW Khimti-I on
 
 ## Used By
 
-*No pages currently reference this source.*

@@ -91,3 +91,12 @@ And it is the first place to look when the question is "how much solar is actual
 - [[eib-rural-solar-phase2]] — donor channel running through AEPC
 - [[wb-grid-solar-ee-project]] — adjacent donor channel (NEA-side)
 - [[nea-annual-report-fy2024-25]] — the complementary utility-side primary source
+
+## Used By
+
+- [[aepc]]
+- [[agrivoltaics-and-land]]
+- [[claim-solar-political-coalition-is-rural]]
+- [[eib-rural-solar-phase2]]
+- [[wb-esmap-solar-resource-assessment]]
+- [[wb-grid-solar-ee-project]]

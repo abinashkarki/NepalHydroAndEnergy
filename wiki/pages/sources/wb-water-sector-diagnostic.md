@@ -48,7 +48,6 @@ A water-sector-wide diagnostic covering storage requirements, irrigation, and th
 - [[data-storage-comparison]]
 - [[figure-index]]
 - [[storage-deficit]]
-
 ## Relevance to Project
 
 The 29.86 km³ requirement vs near-zero actual storage is the single most dramatic number for the [[storage-deficit]] argument. JICA's MW requirements give a concrete planning target. Data feeds into [[data-storage-comparison]]. .

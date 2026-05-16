@@ -93,3 +93,12 @@ Supporting source for:
 - [[nea-960mw-solar-tender]] — private-finance counterpart
 - [[rooftop-minigrid-offgrid]] — the track this programme belongs to
 - [[nea-annual-report-fy2024-25]] — the public-disclosure anchor
+
+## Used By
+
+- [[aepc]]
+- [[aepc-renewable-framework]]
+- [[agrivoltaics-and-land]]
+- [[claim-solar-political-coalition-is-rural]]
+- [[data-rooftop-shs-deployment]]
+- [[wb-grid-solar-ee-project]]

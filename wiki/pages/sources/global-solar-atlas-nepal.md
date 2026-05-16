@@ -78,3 +78,12 @@ Trans-Himalayan is the one zone where satellite systematically **under**-estimat
 - [[data-nepal-solar-resource-zones]] — the classification used in the map layer
 - [[data-map-inventory]] — where this appears in the explorer
 - [[irena-remap-nepal]] — independent scenario use of the same data
+
+## Used By
+
+- [[bishnu-priya-nawalparasi]]
+- [[data-nepal-solar-resource-zones]]
+- [[irena-remap-nepal]]
+- [[mustang-high-altitude-solar-zone]]
+- [[solar-resource-geography-nepal]]
+- [[wb-esmap-solar-resource-assessment]]

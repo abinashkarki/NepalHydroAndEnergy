@@ -54,7 +54,6 @@ The revised national hydropower potential assessment. Supersedes the older 83,00
 - [[koshi-basin]]
 - [[run-of-river-hydropower]]
 - [[wecs]]
-
 ## Relevance to Project
 
 The definitive source for [[hydropower-potential-categories]]. Only  surfaced the revised 72,544 MW figure — public summaries used the legacy 83,000 MW. The basin concentration data (94% in three basins) is central to the strategic argument.

@@ -59,7 +59,6 @@ India-developed export projects like [[arun-3]] and [[upper-karnali]].
 
 - [[kali-gandaki-a]]
 - [[kali-gandaki-kowan]]
-
 ## See also
 
 - [[kali-gandaki-a]]

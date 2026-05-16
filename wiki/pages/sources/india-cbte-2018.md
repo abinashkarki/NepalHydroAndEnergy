@@ -45,6 +45,3 @@ Central to [[india-energy-relationship]] and [[hydro-geopolitics]]. Shapes the e
 ## Used By
 
 - [[india-energy-relationship]]
-
-> [!gap]
-> Need updated post-2024 versions of these guidelines — the approval regime may have expanded.

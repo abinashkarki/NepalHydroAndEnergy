@@ -106,3 +106,13 @@ Cross-references:
 - [[nea]]
 - [[wb-country-economic-memo-2025]] — macro frame
 - [[wb-nepal-power-sector-reform-2022]] — sector-reform frame this project sits inside
+
+## Used By
+
+- [[aepc-renewable-framework]]
+- [[agrivoltaics-and-land]]
+- [[bidur-trishuli-solar-25mwp]]
+- [[data-rooftop-shs-deployment]]
+- [[eib-rural-solar-phase2]]
+- [[nea-960mw-solar-tender]]
+- [[nea-solar]]

@@ -93,9 +93,9 @@ per-corridor entity pages.
 
 ## Used By
 
+- [[bheri-corridor-400kv]]
 - [[claim-transmission-immediate-blocker]]
-- [[project-roadmap]]
-- [[solar-lcoe-crossover]]
+- [[damak-godak-phidim-132kv]]
 - [[data-layer-grid-hubs-place-anchors]]
 - [[data-layer-transmission-connected-traced-network]]
 - [[data-layer-transmission-corridors-curated]]
@@ -105,10 +105,9 @@ per-corridor entity pages.
 - [[data-layer-transmission-trace-gaps-qa]]
 - [[data-nea-substation-capacity-fy2076-77]]
 - [[data-nea-transmission-length-fy2076-77]]
-- [[bheri-corridor-400kv]]
-- [[damak-godak-phidim-132kv]]
 - [[dhungesangu-basantapur-220-132kv]]
 - [[hetauda-dhalkebar-inaruwa-backbone]]
+- [[intervention-transmission-completion]]
 - [[kabeli-132]]
 - [[kathmandu-valley-underground-cabling]]
 - [[khudi-220-132kv-substation]]
@@ -117,13 +116,13 @@ per-corridor entity pages.
 - [[modi-lekhnath-132kv]]
 - [[nalsyau-gad]]
 - [[nawalpur-132kv-substation]]
+- [[project-roadmap]]
 - [[purbi-chitwan-132kv-substation]]
 - [[ratmate-rasuwagadhi-kerung-400kv]]
+- [[solar-lcoe-crossover]]
 - [[tingla-132-33kv-substation]]
 - [[upper-arun]]
 - [[upper-karnali]]
-- [[intervention-transmission-completion]]
-
 ## What This Source Does Not Cover
 
 - Actual segment-level substation capacities (published only in

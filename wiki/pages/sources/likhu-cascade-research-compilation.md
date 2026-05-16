@@ -36,5 +36,4 @@ Comprehensive research compilation covering the 213 MW Likhu hydropower cascade 
 - [[likhu-4]]
 - [[likhu-cascade]]
 - [[likhu-khola-a]]
-
 ## See also

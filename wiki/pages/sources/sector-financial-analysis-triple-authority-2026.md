@@ -60,12 +60,11 @@ Hydropower equities grew from ~6% to ~16% of NEPSE total market capitalization. 
 
 - [[ankhu-khola]]
 - [[barahi-hydropower]]
-- [[rasuwagadhi]]
 - [[madhya-bhotekoshi]]
-- [[sanjen]]
 - [[ppa-data-retrieval-icra-care-2026]]
+- [[rasuwagadhi]]
 - [[sahas-urja-benchmark-icra-2026]]
-
+- [[sanjen]]
 ## See Also
 
 - [[ppa-data-retrieval-icra-care-2026]]

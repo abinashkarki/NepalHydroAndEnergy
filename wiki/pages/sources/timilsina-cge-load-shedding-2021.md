@@ -32,3 +32,7 @@ Peer-reviewed computable general equilibrium (CGE) study quantifying the macroec
 Central source for [[load-shedding-era]] and the historical context that frames the entire wiki narrative. The CGE methodology captures not just direct outage costs (lost industrial output) but indirect losses (investment deterrence, firm entry suppression, substitution to costly diesel backup). This makes the $11 billion figure more comprehensive than simple output-loss estimates.
 
 See also: [[wb-country-economic-memo-2025]] for the World Bank's later framing; [[nepal-energy-profile]] for the system snapshot; [[upper-tamakoshi]] for the project that ended the era.
+
+## Used By
+
+- [[load-shedding-era]]

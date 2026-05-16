@@ -74,7 +74,6 @@ building; Upper Karnali has been paperwork since 2008.
 ## Used By
 
 - [[upper-karnali]]
-
 ## See also
 
 - [[upper-karnali]]

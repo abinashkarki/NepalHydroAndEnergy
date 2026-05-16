@@ -63,7 +63,6 @@ example of India-developed, India-dispatched hydropower inside Nepal.
 ## Used By
 
 - [[arun-3]]
-
 ## See also
 
 - [[arun-3]]

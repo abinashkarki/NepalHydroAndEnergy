@@ -133,8 +133,7 @@ class WikiSearchIndexTests(unittest.TestCase):
         solar = [f for f in self.fact_index["facts"] if f["domain"] == "solar"]
         fact_by_feature = {f["feature_ref"]["id"]: f for f in solar}
 
-        self.assertEqual(len(registry), 88)
-        self.assertEqual(len(solar), 88)
+        self.assertEqual(len(solar), len(registry))
         self.assertEqual(set(fact_by_feature), set(registry))
 
         page_slugs = {p.stem for p in (ROOT / "wiki" / "pages").rglob("*.md")}

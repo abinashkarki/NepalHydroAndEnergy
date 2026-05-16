@@ -44,4 +44,3 @@ In FY2078/79, **85.4%** of total generation (133.24 of 156.06 GWh) was classifie
 
 ## Used By
 
-*No pages currently reference this source.*

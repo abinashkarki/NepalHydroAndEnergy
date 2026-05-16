@@ -33,7 +33,6 @@ ADB assessment of Nepal's hydropower development trajectory, covering growth pat
 ## Used By
 
 - [[buildability]]
-
 ## Relevance to Project
 
 Background source for engineering and [[buildability]] analysis. Extracted text stored in `hermes/research/wave2/adb_hydropower_growth_nepal.txt`. Provides context for understanding why [[nepal-energy-profile]] grew through IPPs rather than state-led mega-projects.

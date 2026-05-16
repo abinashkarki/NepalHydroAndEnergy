@@ -48,4 +48,6 @@ Key source for the IPP-driven growth story, the trade transformation timeline, a
 - [[data-trade-time-series]]
 - [[figure-index]]
 - [[irena-remap-nepal]]
+- [[load-shedding-era]]
+- [[timilsina-cge-load-shedding-2021]]
 - [[wb-grid-solar-ee-project]]

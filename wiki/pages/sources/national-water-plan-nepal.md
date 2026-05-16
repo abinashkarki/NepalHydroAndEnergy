@@ -45,7 +45,6 @@ Older but widely cited national planning document for Nepal's water resources. P
 - [[ganges-contribution]]
 - [[pancheshwar]]
 - [[storage-deficit]]
-
 ## Relevance to Project
 
 Source for the [[ganges-contribution]] numbers used across the evidence base. . The 40%/70% figures are central to [[hydro-geopolitics]] and [[india-energy-relationship]].

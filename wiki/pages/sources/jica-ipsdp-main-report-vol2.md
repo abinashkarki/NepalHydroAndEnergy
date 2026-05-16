@@ -105,7 +105,6 @@ Local workspace copy:
 - [[upper-karnali]]
 - [[upper-myagdi]]
 - [[west-seti]]
-
 ## What this source does not cover
 
 - Annexes 7–16 of the IPSDP final report (power system planning, cross-border trade, SEA, financing, surplus-electricity utilisation, governance, milestone ladder, capacity development). Use [[moewri-ipsdp-exec-summary-2025]] for the compact statement of those or queue companion JICA volumes when available.

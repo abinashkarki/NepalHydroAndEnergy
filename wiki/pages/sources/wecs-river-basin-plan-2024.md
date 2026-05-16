@@ -44,7 +44,5 @@ Foundation for the hydrology evidence base. Provides the basin-level evidence fo
 
 - [[data-basin-discharge]]
 - [[data-layer-nepal-tributaries]]
-- [[data-solar-hydro-complementarity-profile]]
 - [[figure-index]]
-- [[solar-hydro-complementarity]]
 - [[wecs]]

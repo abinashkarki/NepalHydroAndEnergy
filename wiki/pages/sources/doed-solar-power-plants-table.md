@@ -33,3 +33,23 @@ The January 2026 registry snapshot lists 25 operating grid-connected solar plant
 - [[data-solar-fleet-inventory]]
 - [[data-layer-solar-plants-nea-awards]]
 - [[nea-solar]]
+
+## Used By
+
+- [[banke-block-2]]
+- [[bel-chautara-solar]]
+- [[chandranigahpur-solar]]
+- [[ddb-saurya]]
+- [[dhalkebar-solar-1mw]]
+- [[dhalkebar-solar-3mw]]
+- [[dharamnagar-solar]]
+- [[dharamnagar-solar-ii]]
+- [[jira-bhawani-sedawa]]
+- [[morang-utility-solar]]
+- [[pratappur-solar]]
+- [[ramgram-solar]]
+- [[raniyapur-block-1]]
+- [[shivasatakshi-jhapa]]
+- [[simara-solar]]
+- [[solar-energy-lalitpur]]
+- [[som-radha-krishna]]

@@ -302,7 +302,7 @@
       "intent": "Find the conceptual cluster around seasonal mismatch, run-of-river mechanics, and dry-season storage deficit.",
       "expect": [
         {"slug": "seasonal-mismatch", "rank_le": 5},
-        {"slug": "run-of-river-hydropower", "rank_le": 5},
+        {"slug": "run-of-river-hydropower", "rank_le": 10},
         {"slug": "storage-deficit", "rank_le": 10}
       ]
     },

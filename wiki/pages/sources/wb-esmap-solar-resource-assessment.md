@@ -105,3 +105,11 @@ Validation source for:
 - [[aepc-renewable-framework]] — implementation partner
 - [[solar-resource-geography-nepal]] — the narrative interpretation
 - [[data-nepal-solar-resource-zones]] — the operational table
+
+## Used By
+
+- [[data-nepal-solar-resource-zones]]
+- [[global-solar-atlas-nepal]]
+- [[irena-remap-nepal]]
+- [[mustang-high-altitude-solar-zone]]
+- [[solar-resource-geography-nepal]]

@@ -88,7 +88,6 @@ Local workspace copy:
 - [[upper-tamakoshi]]
 - [[upper-trishuli-3a]]
 - [[uttarganga-storage]]
-
 ## What This Source Does Not Cover
 
 - post-2020 commissioning outcomes for projects still under construction here

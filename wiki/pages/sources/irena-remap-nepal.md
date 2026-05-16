@@ -89,3 +89,9 @@ Anchor citation for:
 - [[global-solar-atlas-nepal]] — the satellite-derived complement
 - [[wecs-energy-synopsis-2024]] — the domestic energy-balance frame
 - [[wb-country-economic-memo-2025]] — macroeconomic context
+
+## Used By
+
+- [[data-solar-hydro-lcoe]]
+- [[global-solar-atlas-nepal]]
+- [[wb-esmap-solar-resource-assessment]]
