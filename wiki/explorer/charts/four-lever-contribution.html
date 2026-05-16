@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Four-Lever Contribution to 2035 Winter Supply</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #f8f9fa;
+    color: #2d3436;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .subtitle {
+    font-size: 0.875rem;
+    color: #636e72;
+    margin-bottom: 1.5rem;
+  }
+  .annotation {
+    font-size: 0.8rem;
+    color: #636e72;
+    font-style: italic;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #f1f3f4;
+    border-radius: 6px;
+    border-left: 3px solid #fdcb6e;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    margin-top: 1.25rem;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .legend-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+  }
+  svg { display: block; width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Four-Lever Contribution to 2035 Winter Supply</h1>
+  <p class="subtitle">How each new lever contributes to the ~4,188 GWh Dec–Feb demand</p>
+  
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="700" height="280" fill="#ffffff"/>
+    
+    <!-- Single stacked bar -->
+    <!-- Total width: 4,613 GWh -->
+    <!-- Scale: 500px for ~4,600 GWh -->
+    
+    <!-- Existing RoR baseline: 2,412 -->
+    <rect x="80" y="60" width="262" height="50" rx="4" fill="#0984e3"/>
+    <text x="211" y="88" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">RoR baseline 2,412</text>
+    
+    <!-- New storage: 834 -->
+    <rect x="342" y="60" width="91" height="50" fill="#00b894"/>
+    <text x="387" y="88" text-anchor="middle" font-size="10" font-weight="600" fill="#fff">Storage 834</text>
+    
+    <!-- Solar: 966 -->
+    <rect x="433" y="60" width="105" height="50" fill="#fdcb6e"/>
+    <text x="485" y="88" text-anchor="middle" font-size="10" font-weight="600" fill="#2d3436">Solar 966</text>
+    
+    <!-- Demand-shaping: 400 -->
+    <rect x="538" y="60" width="43" height="50" fill="#00cec9"/>
+    <text x="559" y="88" text-anchor="middle" font-size="9" font-weight="600" fill="#fff">Shape 400</text>
+    
+    <!-- Demand reference line -->
+    <line x1="518" y1="50" x2="518" y2="125" stroke="#d63031" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="520" y="46" font-size="10" fill="#d63031" font-weight="600">Demand 4,188</text>
+    <text x="520" y="58" font-size="9" fill="#d63031">GWh</text>
+    
+    <!-- Surplus bracket -->
+    <path d="M 581 118 L 623 118" stroke="#00b894" stroke-width="1.5" fill="none"/>
+    <path d="M 581 114 L 581 122" stroke="#00b894" stroke-width="1.5"/>
+    <path d="M 623 114 L 623 122" stroke="#00b894" stroke-width="1.5"/>
+    <text x="602" y="136" text-anchor="middle" font-size="10" font-weight="600" fill="#00b894">+425 surplus</text>
+    
+    <!-- Percentage labels -->
+    <text x="211" y="108" text-anchor="middle" font-size="9" fill="#0984e3">52%</text>
+    <text x="387" y="108" text-anchor="middle" font-size="9" fill="#00b894">18%</text>
+    <text x="485" y="108" text-anchor="middle" font-size="9" fill="#b28900">21%</text>
+    <text x="559" y="108" text-anchor="middle" font-size="9" fill="#00b894">9%</text>
+    
+    <!-- Annotation -->
+    <text x="80" y="165" font-size="11" font-weight="600" fill="#2d3436">Key insight:</text>
+    <text x="80" y="182" font-size="10" fill="#636e72">Solar is the largest single new lever (~21% of total supply), but the existing RoR baseline</text>
+    <text x="80" y="197" font-size="10" fill="#636e72">still carries more than half the load. No single new source dominates — the portfolio works as a portfolio.</text>
+    
+    <!-- Scale -->
+    <line x1="80" y1="220" x2="580" y2="220" stroke="#dfe6e9" stroke-width="1"/>
+    <line x1="80" y1="217" x2="80" y2="223" stroke="#b2bec3" stroke-width="1"/>
+    <text x="80" y="235" text-anchor="middle" font-size="9" fill="#636e72">0</text>
+    <line x1="330" y1="217" x2="330" y2="223" stroke="#b2bec3" stroke-width="1"/>
+    <text x="330" y="235" text-anchor="middle" font-size="9" fill="#636e72">2,000</text>
+    <line x1="518" y1="217" x2="518" y2="223" stroke="#b2bec3" stroke-width="1"/>
+    <text x="518" y="235" text-anchor="middle" font-size="9" fill="#636e72">4,188</text>
+    <line x1="580" y1="217" x2="580" y2="223" stroke="#b2bec3" stroke-width="1"/>
+    <text x="580" y="235" text-anchor="middle" font-size="9" fill="#636e72">4,613</text>
+    
+    <!-- BESS note (too small to show as segment) -->
+    <text x="80" y="255" font-size="9" fill="#6c5ce7">* BESS (~1 GWh seasonal) is visible in the evening-peak model, not in this energy-balance view.</text>
+  </svg>
+  
+  <div class="annotation">The existing RoR baseline remains the backbone (~52%). Solar adds the largest new share (~21%). Storage adds dispatchable reliability (~18%). Demand-shaping is the cheapest virtual capacity (~9%).</div>
+  
+  <div class="legend">
+    <div class="legend-item"><div class="legend-swatch" style="background:#0984e3"></div>Existing RoR baseline (~2,412 GWh)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#00b894"></div>New storage hydro (~834 GWh)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#fdcb6e"></div>Solar 5 GW Terai (~966 GWh)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#00cec9"></div>Demand-shaping (~400 GWh)</div>
+  </div>
+</div>
+</body>
+</html>

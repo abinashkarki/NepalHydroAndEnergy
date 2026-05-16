@@ -2,7 +2,7 @@
 title: Floating PV Is a Leverage Play, Not a Core Supply Pillar
 type: claim
 created: 2026-04-24
-updated: 2026-05-13
+updated: 2026-05-07
 claim_id: C-015
 confidence: medium
 status: needs-narrowing
@@ -27,12 +27,9 @@ In Nepal, **floating PV is a high-leverage niche rather than a core national sup
 
 **Medium** because exact reservoir-surface potential needs GIS-grade waterbody screening. The strategic direction is robust: Nepal's current reservoir base is too small for floating PV to become the main solar pathway.
 
-## Boundary Conditions
+## Boundary conditions
 
-- This claim does not say floating PV is useless. It says it is niche given current reservoir stock.
-- It does not say no new reservoirs will be built. It says floating PV scales with reservoir surface, which is small today.
-- It does not say land-based solar is superior in all cases. It says floating PV cannot substitute for a national land framework.
-- It does not preclude floating PV becoming more important by the mid-2030s if large reservoirs are built.
+The claim should be revised if Nepal builds multiple large reservoirs or pumped-storage schemes by the mid-2030s. Floating PV becomes more important as reservoir surface area grows.
 
 ## Related
 

@@ -2,7 +2,7 @@
 title: Solar LCOE Crossover
 type: concept
 created: 2026-04-23
-updated: 2026-05-12
+updated: 2026-04-23
 sources: [nea-annual-report-fy2024-25, irena-remap-nepal, wb-grid-solar-ee-project, nea-solar-loi-2024]
 tags: [solar, LCOE, tariff, economics, PPA, module-price, crossover]
 page_quality: analysis
@@ -10,15 +10,9 @@ page_quality: analysis
 
 # Solar LCOE Crossover
 
-## Summary
-
 The single most-out-of-date assumption in Nepal's public energy discourse is that **solar is expensive relative to hydro**. It was true in 2014. It was marginal in 2019. By the NEA's 2081/82 (2024/25) competitive-bid awards, **solar had become the cheapest new-build generation in Nepal, by a wide and widening margin** — cheaper than small run-of-river, cheaper than medium run-of-river with long transmission legs, and roughly on par with the *levelized* cost of reservoir storage hydro (before counting hydro's locational premium).
 
 This concept page documents the crossover and draws out what it means for a fleet strategy that was designed under obsolete price assumptions.
-
-## Simple Explanation
-
-Solar used to be treated as a costly add-on to hydropower. The cost curve has moved so far that new solar bids in Nepal now compete below many new hydro options, especially when dry-season timing and transmission costs are considered.
 
 ## The global price collapse
 
@@ -85,12 +79,6 @@ Three dynamics keep compressing solar costs through 2030:
 - **It does not say solar is a free lunch.** Land, imports (modules are 95%+ Chinese), and interconnection remain real frictions ([[hybrid-siting-logic]], [[agrivoltaics-and-land]]).
 
 What it says is narrower: **on the margin, for the next MW of new capacity to satisfy next winter's peak — solar is now the default answer, and every planning document should default-choose solar unless it has a specific reason (firm capacity, evening peak, location) to choose otherwise.**
-
-## Common Misunderstandings
-
-- **Cheap solar does not mean hydro is obsolete.** Hydro still supplies energy, peaking, and seasonal/storage value that solar alone cannot provide.
-- **LCOE is not the whole system value.** Timing, transmission, and firm-capacity contribution change the comparison.
-- **Old solar assumptions age quickly.** Planning documents using pre-2024 module or battery costs can materially overstate solar cost.
 
 ## Related
 

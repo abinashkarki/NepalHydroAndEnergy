@@ -2,7 +2,7 @@
 title: Nepal Should Prioritize Domestic-Led Hydro With Export Support
 type: claim
 created: 2026-04-14
-updated: 2026-05-12
+updated: 2026-05-07
 claim_id: C-034
 confidence: high
 status: stable
@@ -31,13 +31,6 @@ Nepal should pursue a **domestic-led** hydro strategy (electrification + product
 
 - Which industrial paths are **credible at grid cost and reliability** (electrolysis, minerals, data centers) needs sector-by-sector due diligence—not all "value-add" stories survive transmission and logistics filters.
 - Export remains important for **foreign exchange**; the claim is about **priority ordering**, not autarky.
-
-## Boundary Conditions
-
-- This claim does not reject exports. It says exports should support a domestic-led strategy, not lead it.
-- It does not say every industrial path is viable. Sector-by-sector due diligence is still needed.
-- It does not say domestic demand is currently unmet. It says absorption pathways are underdeveloped relative to potential.
-- It does not prescribe a specific policy sequence. It frames a strategic priority ordering.
 
 ## Related
 

@@ -2,15 +2,13 @@
 title: Solar's Role in the Winter Deficit
 type: synthesis
 created: 2026-04-23
-updated: 2026-05-07
+updated: 2026-05-08
 sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, irena-remap-nepal]
 tags: [solar, hydro, winter, deficit, seasonal, complementarity, strategy, storage, BESS, synthesis]
 page_quality: analysis
 ---
 
 # Solar's Role in the Winter Deficit
-
-This page argues that Nepal's 2035 winter deficit is solvable not by storage hydro alone, but by a four-lever portfolio of storage hydro, utility solar, demand-shaping, and BESS — and it quantifies each lever's contribution.
 
 The wiki's existing framing treats Nepal's winter deficit as a **storage problem** ([[storage-deficit]], [[seasonal-mismatch]]). The honest 2026 framing is: **part-storage, part-solar, part-demand-shaping**. This synthesis is an argument for the updated framing, with quantified contribution shares for each lever.
 
@@ -92,9 +90,17 @@ Assuming all four levers work at realistic-ambition (not best-case) levels:
 
 Source: `scripts/build_winter_deficit_model.py`, 2035_full scenario. Demand CAGR 7% (2030–35), solar CF 16.5% Terai fixed-tilt, storage pipeline excludes Budhigandaki.
 
+The same portfolio as a single supply stack:
+
+:::chart{four-lever-contribution}
+
 ## The Budhigandaki distinction
 
 The model clarifies a distinction the narrative math obscured: Budhigandaki is not necessary to close the 2035 energy gap, but it is the decisive asset for evening firm capacity. At 8%/7% CAGR, the four-lever portfolio closes the Dec–Feb energy balance without Budhigandaki — the 2035_full and 2035_no_budhigandaki scenarios are identical at 0 GWh deficit. But the Phase 2 diurnal model shows a 933 MW residual evening-peak gap at 18:30 in the 2035_full scenario (23% of peak demand) — covered today by imports, and in 2035 still requiring either Budhigandaki or a combination of additional BESS, explicit peak demand-shaping, and cross-border capacity. Budhigandaki's 1,200 MW at 0.9 dispatch factor contributes 1,080 MW to the evening peak, flipping the 933 MW gap to a 147 MW surplus. It is not an energy asset for 2035 — it is a capacity asset, and the most important one in the pipeline. Source: `scripts/build_diurnal_peak_model.py`, 2035_with_budhigandaki scenario.
+
+The Phase 2 model makes this concrete:
+
+:::chart{evening-peak-budhigandaki}
 
 The combined portfolio **closes the 2035 winter deficit if all four levers execute.** No single lever closes it alone.
 
@@ -145,10 +151,6 @@ Creates the demand-side incentive for lever 3. Also structures the right price s
 This synthesis adds: **The fleet that delivers firm winter power in 2035 is not predominantly hydro. It is a hydro + solar + BESS + demand-shaping portfolio. The mastery Nepal needs is not in hydrological conversion alone; it is in sequencing a four-lever portfolio, and in the institutional capacity to deliver all four on overlapping timelines.**
 
 That is a more complex master strategy than "build reservoirs." But it is also a more achievable one — the four levers are partial substitutes, so slippage in any one does not collapse the whole.
-
-## Benchmarking context
-
-[[irena-remap-nepal]] provides an externally-credentialed normative benchmark against which to judge Nepal's actual solar trajectory. IRENA's REmap Accelerated Case targets >1 GW solar by 2030 — a target that Nepal's 960 MW tender + 170 MW PPA + 142 MW operating already approaches in installed capacity, but with important gaps in institutional readiness (no agrivoltaic framework, no BESS mandates, no time-of-use tariff). The IRENA barriers analysis (policy coherence, financing access, grid integration, institutional capacity, land and permits) overlaps with the [[bottleneck-hierarchy]] for hydro, with one addition specific to solar: the absence of a land/permitting framework for utility-scale ground-mount. Mapping these programme gaps against donor channels (AEPC, EIB, WB) is a remaining institutional task.
 
 ## Related
 

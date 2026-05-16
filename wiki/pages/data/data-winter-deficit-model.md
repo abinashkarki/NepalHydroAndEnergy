@@ -2,17 +2,13 @@
 title: Winter Deficit Model
 type: data
 created: 2026-05-07
-updated: 2026-05-12
+updated: 2026-05-08
 sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024]
 tags: [winter-deficit, energy-balance, diurnal, evening-peak, dispatch, solar, storage, bess, budhigandaki, model]
 page_quality: analysis
 ---
 
 # Winter Deficit Model
-
-## Summary
-
-This data page documents a two-phase winter deficit model that estimates Nepal's Dec-Feb monthly energy balance and the 18:30 winter evening peak dispatch gap under parameterised 2025, 2030, and 2035 scenarios.
 
 A two-phase reproducible model quantifying Nepal's winter electricity gap at both monthly energy (GWh) and sub-daily capacity (MW) resolution. Phase 1 (`scripts/build_winter_deficit_model.py`) models Dec–Feb monthly energy balances under parameterised 2030/2035 scenarios. Phase 2 (`scripts/build_diurnal_peak_model.py`) models the evening peak hour (18:30) dispatch to answer whether the portfolio that closes the energy gap also delivers evening firm capacity — the 6pm–10pm winter window where solar is zero.
 
@@ -37,6 +33,22 @@ Phase 1 reads NEA FY 2024/25 monthly energy data as baseline, applies scenario a
 
 **Assumptions:** WECS Low GDP demand CAGRs (8% 2025–30, 7% 2030–35). Terai solar CF 16.5% fixed-tilt. Storage pipeline: Tanahu 140 MW (COD 2026), Dudhkoshi 670 MW (COD 2035, scenario_risk), Budhigandaki 1,200 MW (COD 2036, post-2035). Hydro growth CAGR: 3% (2030), 4% (2035). Dry-season storage energy distributed across four winter months with triangular weights [1,2,2,1] peaking in Poush-Magh. Source: `data/processed/tables/winter_deficit_model/model_parameters.csv`.
 
+The 2035 full portfolio in the Phase 1 energy balance, visualised as a demand–supply stack:
+
+:::chart{winter-energy-balance-2035}
+
+## How the gap closes
+
+Between the FY 2025 baseline and the 2035 full portfolio, four sequential moves change the gap. Solar fills most of the current shortfall; demand growth then roughly doubles the problem; new storage hydro and BESS + demand-shaping close it again.
+
+:::chart{gap-closure-trajectory}
+
+## Portfolio composition
+
+The same full portfolio broken down by lever share of total supply:
+
+:::chart{four-lever-contribution}
+
 ## Phase 2 — Diurnal evening-peak dispatch (2035 scenarios)
 
 Phase 2 takes Magh (mid-Jan to mid-Feb, ≈February) as the canonical winter reference month and models the 18:30 evening peak dispatch. The diurnal profile is sourced from [[data-solar-hydro-complementarity-profile]] lines 71–85: February weekday demand shape normalised to peak=100 at 18:30, RoR hydro flat at 30, solar bell curve dropping to zero by 17:30. Interpolation to hourly resolution yields an implied peak-to-average demand ratio of 1.35.
@@ -53,6 +65,16 @@ Dispatch logic: RoR hydro flat at average monthly MW. Reservoir hydro dispatched
 
 Model parameters: Magh reference month, 29 days, profile-implied peak-to-average ratio 1.348, reservoir dispatch factor 0.9, solar_mw_at_peak always 0.0 at the default 18:30 target hour. Budhigandaki (1,200 MW × 0.9 = 1,080 MW effective) flips the 933 MW deficit to a 147 MW surplus. Source: `scripts/build_diurnal_peak_model.py`, 2035_with_budhigandaki scenario.
 
+The same scenarios at the 18:30 peak hour, when solar output is zero:
+
+:::chart{evening-peak-dispatch-2035}
+
+### Budhigandaki as a capacity asset
+
+Within the Phase 2 results, the Budhigandaki scenario is the only one that flips the evening residual from shortage to surplus:
+
+:::chart{evening-peak-budhigandaki}
+
 ## Scenario definitions
 
 Scenario names are inherited from Phase 1 energy-balance design. Note that `2035_solar_only` excludes risky storage (Dudhkoshi) and `2035_no_solar` includes it — the labels describe the *additional* resource being tested, not what is excluded.
@@ -65,13 +87,9 @@ Scenario names are inherited from Phase 1 energy-balance design. Note that `2035
 | 2035_no_budhigandaki | 5,000 | Tanahu + Dudhkoshi (810 MW) | Yes (2 GWh) | Yes (400 GWh Dec–Feb) | No |
 | 2035_with_budhigandaki | 5,000 | Tanahu + Dudhkoshi + Budhi (2,010 MW) | Yes (2 GWh) | Yes (400 GWh Dec–Feb) | Yes (1,200 MW) |
 
-The counterintuitive result — `2035_solar_only` has a worse evening peak (2,436 MW residual) than `2035_no_solar` (1,833 MW) — follows from these definitions. Both have zero solar at 18:30. The difference is 670 MW of Dudhkoshi reservoir dispatch, excluded from `2035_solar_only` by the Phase 1 design. The 603 MW residual gap between them (2,436 − 1,833) equals Dudhkoshi's dispatch contribution (670 × 0.9 = 603 MW).
+The counterintuitive result — `2035_solar_only` has a worse evening peak (2,436 MW residual) than `2035_no_solar` (1,833 MW) — is correct given these definitions. Both have zero solar at 18:30. The difference is 670 MW of Dudhkoshi reservoir dispatch, excluded from `2035_solar_only` by the Phase 1 design. The 603 MW residual gap between them (2,436 − 1,833) equals Dudhkoshi's dispatch contribution (670 × 0.9 = 603 MW).
 
-## Coverage / Method
-
-Phase 1 reads NEA FY 2024/25 monthly energy data, applies scenario assumptions for solar deployment, storage hydro additions, demand growth, BESS, and demand shaping, and outputs Dec-Feb balances. Phase 2 uses the February weekday diurnal profile from [[data-solar-hydro-complementarity-profile]] and the scenario definitions to estimate 18:30 dispatch capacity by resource class.
-
-## Caveats
+## Known limitations
 
 - **Import overcount:** Phase 1 overcounts annual imports by ~282 GWh/year because it does not model shoulder-month simultaneous import/export or NEA curtailment. Winter Dec–Feb figures (Poush-Magh) are more reliable than annual totals. Source: `data/processed/tables/winter_deficit_model/model_parameters.csv` import_accounting_note.
 - **BESS sizing:** Phase 1 models BESS as a placeholder ~1 GWh Dec–Feb seasonal contribution (2 GWh distributed evenly across four winter months). Phase 2 diurnal model uses the full 500 MW / 2 GWh BESS power rating for evening dispatch, which is more realistic for the 4-hour evening window. The Phase 1 seasonal GWh understates BESS energy contribution; Phase 2 MW capacity is the correct metric for evening firm capacity analysis.

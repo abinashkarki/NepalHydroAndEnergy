@@ -2,7 +2,7 @@
 title: Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-07
 claim_id: C-029
 confidence: high
 status: stable
@@ -32,13 +32,6 @@ page_quality: analysis
 
 - Quantify delays with a standardized **event database** (per project milestone) rather than anecdote aggregation.
 - Separate **federalism coordination** issues from utility governance issues—different remedies.
-
-## Boundary Conditions
-
-- This claim does not say governance is the only binding constraint. Engineering, finance, and geography also matter.
-- It does not say every delay is caused by governance failure. Some delays are hydrological, geological, or market-driven.
-- It does not say Nepal should adopt any specific institutional model. It says the current structure produces predictable inefficiencies.
-- It does not say reform is easy or fast. It says the bottleneck is institutional enough that technical fixes alone will not suffice.
 
 ## Related
 

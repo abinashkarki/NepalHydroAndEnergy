@@ -2,7 +2,7 @@
 title: Climate Change Increases Volatility and Resilience Risk, Not a Simple "More Water" Win
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-07
 claim_id: C-012
 confidence: high
 status: stable
@@ -26,20 +26,10 @@ Climate change does **not** make Nepal's hydro story straightforwardly **easier*
 
 **High** because the "volatility and uncertainty dominate naive averages" framing is consistent with IPCC HKH literature and with source convergence; numeric bands should always be presented as **model-dependent** and basin-specific.
 
-> [!note]
-> The canonical claims table in `wiki/ONTOLOGY.md` registers this claim at `medium-high`, reflecting the model-dependent nature of specific numeric bands. The page-level `high` rating is justified by the directional convergence of IPCC HKH literature across model ensembles, which is stronger than any single projection. See `wiki/FLAGGED_FOR_REVIEW.md` for the monthly-review item to reconcile this discrepancy.
-
 ## Unresolved issues
 
 - Downscaling and **bias correction** choices swing winter low-flow outcomes—claims should cite specific basin + scenario set when used in finance models.
 - **Compound events** (sediment + heat + low flow) need explicit stress testing beyond mean runoff shifts.
-
-## Boundary Conditions
-
-- This claim does not say climate change will reduce Nepal's *total* annual water availability. Net annual runoff may rise in some model ensembles while reliability worsens.
-- It does not say every project will face worse conditions; basin-specific downscaling and bias-correction choices matter.
-- It does not reject all climate-adaptive design approaches; it says naive "more water" narratives are insufficient.
-- It focuses on **volatility and tail risk**, not mean-outcome pessimism.
 
 ## Related
 

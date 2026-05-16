@@ -2,7 +2,7 @@
 title: New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal
 type: claim
 created: 2026-04-24
-updated: 2026-05-11
+updated: 2026-05-07
 claim_id: C-017
 confidence: high
 status: stable
@@ -26,7 +26,7 @@ For Nepal's next marginal MW of non-firm generation, **utility-scale solar is no
 
 **High** for the narrow tariff claim, because the NEA LoI and standard hydro PPA structure are public and directly comparable at the blended level. **Medium-high** for the time-weighted advantage, because it depends on assumptions about seasonal market value and plant output profile, but the direction is robust.
 
-## Boundary Conditions
+## Boundary conditions
 
 This claim does **not** say solar replaces storage hydro or peaking hydro. It says solar beats small RoR as the default marginal non-firm energy source when the system needs dry-season daytime kWh quickly.
 

@@ -2,7 +2,7 @@
 title: India Is the Decisive External Actor in Nepal's Hydro Future
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-07
 claim_id: C-025
 confidence: high
 status: stable
@@ -32,13 +32,6 @@ page_quality: analysis
 
 - **Bangladesh transit** and trilateral commercial rules remain moving targets; "decisive" does not imply static tactics.
 - Domestic reform ([[nea]], open access) can expand **non-Indian** valorization paths somewhat, but cannot erase geography.
-
-## Boundary Conditions
-
-- This claim does not say Nepal has no agency. Nepal's agency operates through a structure in which India is dominant, not absent.
-- It does not say India controls every Nepali decision. It says India's market, corridor, and treaty role shapes the feasible set.
-- It does not say cooperation is impossible or that India is purely obstructive. It says the relationship is structurally asymmetrical.
-- It does not say every project requires Indian involvement. It says bankable export stories and shared-basin portfolios currently do.
 
 ## Related
 

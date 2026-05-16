@@ -2,7 +2,7 @@
 title: Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-07
 claim_id: C-006
 confidence: high
 status: stable
@@ -30,13 +30,6 @@ page_quality: analysis
 
 - Need a pinned wiki normalization: **which "potential" definition** (theoretical, technical, economic, feasible) attaches to which public numbers, with citations per [[hydropower-potential-categories]] and [[data-potential-pyramid]].
 - **Transmission and spill** interact with "value of MW" in ways pure hydrology tables miss—see [[stranded-generation]].
-
-## Boundary Conditions
-
-- This claim does not say Nepal has "enough" installed capacity. It says installed capacity is routinely misread as if it were dispatchable or dependable.
-- It does not say all "potential" figures are wrong. It says the 83,000 MW rhetoric is often presented without clarifying which definition applies.
-- It does not say every project is a bad investment. It says the value of MW depends on when and how dependably it arrives.
-- It does not say Nepal has no energy shortage. It says the shortage is not primarily a volume problem.
 
 ## Related
 

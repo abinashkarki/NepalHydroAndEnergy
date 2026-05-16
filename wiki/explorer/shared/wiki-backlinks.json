@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 338,
-  "total_refs": 2525,
+  "total_targets": 324,
+  "total_refs": 2550,
   "backlinks": {
     "barahi-hydropower": [
       {
@@ -66,14 +66,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…e potential below techno-economic estimates. ## Used By - buildability - [[firm-power]] - [[hydropower-potential-categories]] - [[…",
+        "context": "…e potential below techno-economic estimates. ## Used By - buildability - [[data-layer-nepal-tributaries]] - [[data-potential-pyram…",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…[[data-potential-pyramid]] - [[wb-grid-solar-ee-project]] - buildability - [[firm-power]]",
+        "context": "…ve URL for this document needs verification. ## Used By - buildability - [[data-potential-pyramid]] - [[figure-index]] - [[firm-po…",
         "target_exists": true
       },
       {
@@ -451,7 +451,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…-----------|--------|-------------------| | 4 | Execution / buildability | Persistent | — | | 5 | Market design / offtake / demand w…",
+        "context": "…-----------|--------|-------------------| | 5 | Execution / buildability | Persistent | — | | 6 | Market design / offtake / demand w…",
         "target_exists": true
       },
       {
@@ -465,7 +465,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…alties — the Himalayas are young, active, and abrasive 6. **buildability** — brutal terrain, geology, access, and execution constrai…",
+        "context": "…alties — the Himalayas are young, active, and abrasive 7. **buildability** — brutal terrain, geology, access, and execution constrai…",
         "target_exists": true
       },
       {
@@ -479,7 +479,7 @@
         "slug": "claim-governance-binding",
         "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives",
         "category": "claims",
-        "context": "…ical fixes alone will not suffice. ## Related - [[nea]] - buildability - [[hydro-geopolitics]] - [[stranded-generation]]",
+        "context": "…ernance issues—different remedies. ## Related - [[nea]] - buildability - [[hydro-geopolitics]] - [[stranded-generation]]",
         "target_exists": true
       },
       {
@@ -534,6 +534,13 @@
         "target_exists": true
       },
       {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
+        "category": "sources",
+        "context": "…ry-economic-memo-2025]] for the World Bank's later framing; nepal-energy-profile for the system snapshot; [[upper-tamakoshi]] for the projec…",
+        "target_exists": true
+      },
+      {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
@@ -559,6 +566,13 @@
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
         "context": "…sed wealth.\"* ## Why domestic demand is not a small story nepal-energy-profile makes clear that \"low consumption\" is better read as **head…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…anage surplus. See [[nea-triple-authority]]. ## Related - nepal-energy-profile — the post-crisis system snapshot - [[upper-tamakoshi]] — t…",
         "target_exists": true
       },
       {
@@ -795,7 +809,7 @@
         "slug": "claim-solar-political-coalition-is-rural",
         "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
         "category": "claims",
-        "context": "…y solar policy has institutional resilience. ## Related - aepc - [[aepc-renewable-framework]] - [[eib-rural-solar-phase2]]…",
+        "context": "…needs if land and subsidy debates intensify. ## Related - aepc - [[aepc-renewable-framework]] - [[eib-rural-solar-phase2]]…",
         "target_exists": true
       },
       {
@@ -962,14 +976,14 @@
         "slug": "wb-country-economic-memo-2025",
         "title": "World Bank Nepal Country Economic Memorandum (2025)",
         "category": "sources",
-        "context": "…on]] - [[data-trade-time-series]] - [[irena-remap-nepal]] - wb-grid-solar-ee-project",
+        "context": "…-time-series]] - [[figure-index]] - [[irena-remap-nepal]] - wb-grid-solar-ee-project",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…s verification. ## Used By - [[data-potential-pyramid]] - wb-grid-solar-ee-project - [[buildability]] - [[firm-power]]",
+        "context": "…a-potential-pyramid]] - [[figure-index]] - [[firm-power]] - wb-grid-solar-ee-project",
         "target_exists": true
       },
       {
@@ -1078,7 +1092,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…- [[data-solar-hydro-lcoe]] - [[data-trade-time-series]] - eib-rural-solar-phase2 - [[firm-power]] - [[kali-gandaki-a]] - [[khimti-ii]] - [[k…",
+        "context": "…- [[data-solar-hydro-lcoe]] - [[data-trade-time-series]] - eib-rural-solar-phase2 - [[figure-index]] - [[firm-power]] - [[kali-gandaki-a]] -…",
         "target_exists": true
       },
       {
@@ -1106,7 +1120,7 @@
         "slug": "claim-solar-political-coalition-is-rural",
         "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
         "category": "claims",
-        "context": "…e. ## Related - [[aepc]] - [[aepc-renewable-framework]] - eib-rural-solar-phase2 - [[rooftop-minigrid-offgrid]] - [[agrivoltaics-and-land]]",
+        "context": "…y. ## Related - [[aepc]] - [[aepc-renewable-framework]] - eib-rural-solar-phase2 - [[rooftop-minigrid-offgrid]] - [[agrivoltaics-and-land]]",
         "target_exists": true
       },
       {
@@ -1350,6 +1364,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…shedding ended | 2018 | [[wb-country-economic-memo-2025]], nea-annual-report-fy2024-25 | The $11 billion cumulative GDP loss is roughly equivalen…",
+        "target_exists": true
+      },
+      {
         "slug": "run-of-river-hydropower",
         "title": "Run-of-River Hydropower",
         "category": "concepts",
@@ -1488,7 +1509,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…]). Compare Dudhkoshi (670 MW, storage, AIIB, domestic) to arun-3 (900 MW, peaking RoR, SJVN, export-first). Both are in the…",
+        "context": "…es. Compare Dudhkoshi (670 MW, storage, AIIB, domestic) to arun-3 (900 MW, peaking RoR, SJVN, export-first). Both are in the…",
         "target_exists": true
       },
       {
@@ -1537,7 +1558,7 @@
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
-        "context": "…mium. Compare Tanahu (140 MW, reservoir, ADB, domestic) to arun-3 (900 MW, peaking RoR, SJVN-India, export-oriented). Both ar…",
+        "context": "…nset. Compare Tanahu (140 MW, reservoir, ADB, domestic) to arun-3 (900 MW, peaking RoR, SJVN-India, export-oriented). Both ar…",
         "target_exists": true
       },
       {
@@ -1756,7 +1777,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…on, buying expensive winter; value destroyed by timing 9. **hydro-geopolitics** and governance — corridor dependence on India, institutio…",
+        "context": "…n, buying expensive winter; value destroyed by timing 10. **hydro-geopolitics** and governance — corridor dependence on India, institutio…",
         "target_exists": true
       },
       {
@@ -1770,14 +1791,14 @@
         "slug": "claim-governance-binding",
         "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives",
         "category": "claims",
-        "context": "…ll not suffice. ## Related - [[nea]] - [[buildability]] - hydro-geopolitics - [[stranded-generation]]",
+        "context": "…erent remedies. ## Related - [[nea]] - [[buildability]] - hydro-geopolitics - [[stranded-generation]]",
         "target_exists": true
       },
       {
         "slug": "claim-india-decisive-actor",
         "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
         "category": "claims",
-        "context": "…urrently do. ## Related - [[india-energy-relationship]] - hydro-geopolitics - [[pancheshwar]] - [[bhutan-hydropower-model]]",
+        "context": "…e geography. ## Related - [[india-energy-relationship]] - hydro-geopolitics - [[pancheshwar]] - [[bhutan-hydropower-model]]",
         "target_exists": true
       },
       {
@@ -2035,6 +2056,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…]] — the structural pattern that persists beyond shedding - stranded-generation — the surplus-era waste that replaced shortage-era cuts - […",
+        "target_exists": true
+      },
+      {
         "slug": "nea-triple-authority",
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
@@ -2052,7 +2080,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…al terrain, geology, access, and execution constraints 7. **stranded-generation** — grid and transmission built slower than generation, now…",
+        "context": "…al terrain, geology, access, and execution constraints 8. **stranded-generation** — grid and transmission built slower than generation, now…",
         "target_exists": true
       },
       {
@@ -2066,7 +2094,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ISO and open-access work in this phase). **Priority:** Fix stranded-generation by building grid before licensing more generation. ## Phas…",
+        "context": "…ISO and open-access work in this phase). **Priority:** Fix stranded-generation by building grid before licensing more generation. The 2035…",
         "target_exists": true
       },
       {
@@ -2087,7 +2115,7 @@
         "slug": "claim-mw-not-equal-value",
         "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
         "category": "claims",
-        "context": "…t with \"value of MW\" in ways pure hydrology tables miss—see stranded-generation. ## Boundary Conditions - This claim does not say Nepal h…",
+        "context": "…t with \"value of MW\" in ways pure hydrology tables miss—see stranded-generation. ## Related - [[firm-power]] - [[hydropower-potential-cat…",
         "target_exists": true
       },
       {
@@ -2340,12 +2368,84 @@
         "target_exists": true
       }
     ],
+    "figure-index": [
+      {
+        "slug": "doed-licensing-directive-2075",
+        "title": "DoED Licensing Directive 2075 — Hydropower Project Licensing",
+        "category": "sources",
+        "context": "…checked against the specific version cited. ## Used By - figure-index - [[trishuli-galchhi]]",
+        "target_exists": true
+      },
+      {
+        "slug": "jica-ipsdp-main-report-vol2",
+        "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
+        "category": "sources",
+        "context": "…- [[budhigandaki]] - [[chera-1]] - [[dudhkoshi-storage]] - figure-index - [[humla-karnali-1]] - [[karnali-chisapani]] - [[khimti-ca…",
+        "target_exists": true
+      },
+      {
+        "slug": "national-water-plan-nepal",
+        "title": "National Water Plan, Nepal",
+        "category": "sources",
+        "context": "…es or boundaries. ## Used By - [[data-basin-discharge]] - figure-index - [[ganges-contribution]] - [[pancheshwar]] - [[storage-def…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-annual-report-fy2024-25",
+        "title": "NEA Annual Report FY 2024/25",
+        "category": "sources",
+        "context": "…- [[data-trade-time-series]] - [[eib-rural-solar-phase2]] - figure-index - [[firm-power]] - [[kali-gandaki-a]] - [[khimti-ii]] - [[k…",
+        "target_exists": true
+      },
+      {
+        "slug": "wecs-hydropower-potential-2019",
+        "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
+        "category": "sources",
+        "context": "…ta-layer-nepal-tributaries]] - [[data-potential-pyramid]] - figure-index - [[firm-power]] - [[hydropower-potential-categories]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "wecs-energy-synopsis-2024",
+        "title": "WECS Energy Sector Synopsis Report 2024",
+        "category": "sources",
+        "context": "…rement coverage. ## Used By - [[data-final-energy-mix]] - figure-index - [[irena-remap-nepal]] - [[run-of-river-hydropower]] - [[s…",
+        "target_exists": true
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "category": "sources",
+        "context": "…butaries]] - [[data-solar-hydro-complementarity-profile]] - figure-index - [[solar-hydro-complementarity]] - [[wecs]]",
+        "target_exists": true
+      },
+      {
+        "slug": "wb-country-economic-memo-2025",
+        "title": "World Bank Nepal Country Economic Memorandum (2025)",
+        "category": "sources",
+        "context": "…- [[data-fleet-composition]] - [[data-trade-time-series]] - figure-index - [[irena-remap-nepal]] - [[wb-grid-solar-ee-project]]",
+        "target_exists": true
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "category": "sources",
+        "context": "…Used By - [[buildability]] - [[data-potential-pyramid]] - figure-index - [[firm-power]] - [[wb-grid-solar-ee-project]]",
+        "target_exists": true
+      },
+      {
+        "slug": "wb-water-sector-diagnostic",
+        "title": "World Bank Nepal Water Sector Diagnostic",
+        "category": "sources",
+        "context": "…ruction plans. ## Used By - [[data-storage-comparison]] - figure-index - [[storage-deficit]] ## Relevance to Project The 29.86 k…",
+        "target_exists": true
+      }
+    ],
     "trishuli-galchhi": [
       {
         "slug": "doed-licensing-directive-2075",
         "title": "DoED Licensing Directive 2075 — Hydropower Project Licensing",
         "category": "sources",
-        "context": "…checked against the specific version cited. ## Used By - trishuli-galchhi",
+        "context": "…e specific version cited. ## Used By - [[figure-index]] - trishuli-galchhi",
         "target_exists": true
       },
       {
@@ -2363,165 +2463,12 @@
         "target_exists": true
       }
     ],
-    "dhalkebar-solar-1mw": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…from other registries or reporting periods. ## Used By - dhalkebar-solar-1mw - [[raniyapur-block-1]] - [[dharamnagar-solar]] - [[chandra…",
-        "target_exists": true
-      }
-    ],
-    "raniyapur-block-1": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…reporting periods. ## Used By - [[dhalkebar-solar-1mw]] - raniyapur-block-1 - [[dharamnagar-solar]] - [[chandranigahpur-solar]] - [[sol…",
-        "target_exists": true
-      }
-    ],
-    "dharamnagar-solar": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…sed By - [[dhalkebar-solar-1mw]] - [[raniyapur-block-1]] - dharamnagar-solar - [[chandranigahpur-solar]] - [[solar-energy-lalitpur]] - […",
-        "target_exists": true
-      }
-    ],
-    "chandranigahpur-solar": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…lar-1mw]] - [[raniyapur-block-1]] - [[dharamnagar-solar]] - chandranigahpur-solar - [[solar-energy-lalitpur]] - [[ddb-saurya]] - [[morang-uti…",
-        "target_exists": true
-      }
-    ],
-    "solar-energy-lalitpur": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…k-1]] - [[dharamnagar-solar]] - [[chandranigahpur-solar]] - solar-energy-lalitpur - [[ddb-saurya]] - [[morang-utility-solar]] - [[bel-chautar…",
-        "target_exists": true
-      }
-    ],
-    "ddb-saurya": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…] - [[chandranigahpur-solar]] - [[solar-energy-lalitpur]] - ddb-saurya - [[morang-utility-solar]] - [[bel-chautara-solar]] - [[pra…",
-        "target_exists": true
-      }
-    ],
-    "morang-utility-solar": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…hpur-solar]] - [[solar-energy-lalitpur]] - [[ddb-saurya]] - morang-utility-solar - [[bel-chautara-solar]] - [[pratappur-solar]] - [[simara-s…",
-        "target_exists": true
-      }
-    ],
-    "bel-chautara-solar": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…gy-lalitpur]] - [[ddb-saurya]] - [[morang-utility-solar]] - bel-chautara-solar - [[pratappur-solar]] - [[simara-solar]] - [[dharamnagar-so…",
-        "target_exists": true
-      }
-    ],
-    "pratappur-solar": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…rya]] - [[morang-utility-solar]] - [[bel-chautara-solar]] - pratappur-solar - [[simara-solar]] - [[dharamnagar-solar-ii]] - [[banke-blo…",
-        "target_exists": true
-      }
-    ],
-    "simara-solar": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…ty-solar]] - [[bel-chautara-solar]] - [[pratappur-solar]] - simara-solar - [[dharamnagar-solar-ii]] - [[banke-block-2]] - [[dhalkeba…",
-        "target_exists": true
-      }
-    ],
-    "dharamnagar-solar-ii": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…chautara-solar]] - [[pratappur-solar]] - [[simara-solar]] - dharamnagar-solar-ii - [[banke-block-2]] - [[dhalkebar-solar-3mw]] - [[ramgram-s…",
-        "target_exists": true
-      }
-    ],
-    "banke-block-2": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…pur-solar]] - [[simara-solar]] - [[dharamnagar-solar-ii]] - banke-block-2 - [[dhalkebar-solar-3mw]] - [[ramgram-solar]] - [[jira-bhaw…",
-        "target_exists": true
-      }
-    ],
-    "dhalkebar-solar-3mw": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…ra-solar]] - [[dharamnagar-solar-ii]] - [[banke-block-2]] - dhalkebar-solar-3mw - [[ramgram-solar]] - [[jira-bhawani-sedawa]] - [[som-radha…",
-        "target_exists": true
-      }
-    ],
-    "ramgram-solar": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…-solar-ii]] - [[banke-block-2]] - [[dhalkebar-solar-3mw]] - ramgram-solar - [[jira-bhawani-sedawa]] - [[som-radha-krishna]] - [[shiva…",
-        "target_exists": true
-      }
-    ],
-    "jira-bhawani-sedawa": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…e-block-2]] - [[dhalkebar-solar-3mw]] - [[ramgram-solar]] - jira-bhawani-sedawa - [[som-radha-krishna]] - [[shivasatakshi-jhapa]] ## Relat…",
-        "target_exists": true
-      }
-    ],
-    "som-radha-krishna": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…solar-3mw]] - [[ramgram-solar]] - [[jira-bhawani-sedawa]] - som-radha-krishna - [[shivasatakshi-jhapa]] ## Related - [[data-solar-fleet…",
-        "target_exists": true
-      }
-    ],
-    "shivasatakshi-jhapa": [
-      {
-        "slug": "doed-solar-power-plants-table",
-        "title": "DoED Power Plants: Solar Table",
-        "category": "sources",
-        "context": "…solar]] - [[jira-bhawani-sedawa]] - [[som-radha-krishna]] - shivasatakshi-jhapa ## Related - [[data-solar-fleet-inventory]] - [[data-laye…",
-        "target_exists": true
-      }
-    ],
     "data-solar-fleet-inventory": [
       {
         "slug": "doed-solar-power-plants-table",
         "title": "DoED Power Plants: Solar Table",
         "category": "sources",
-        "context": "…om-radha-krishna]] - [[shivasatakshi-jhapa]] ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
+        "context": "…should not be used for parcel-level siting. ## Related - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]] - [[nea-solar]]",
         "target_exists": true
       },
       {
@@ -2542,7 +2489,7 @@
         "slug": "nea-solar-loi-2024",
         "title": "NEA Notice of Intent to Award Solar Projects (2024)",
         "category": "sources",
-        "context": "…-solar-tender]] ## Related - [[nea-960mw-solar-tender]] - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]]",
+        "context": "…erating plants. ## Related - [[nea-960mw-solar-tender]] - data-solar-fleet-inventory - [[data-layer-solar-plants-nea-awards]]",
         "target_exists": true
       },
       {
@@ -2761,7 +2708,7 @@
         "slug": "doed-solar-power-plants-table",
         "title": "DoED Power Plants: Solar Table",
         "category": "sources",
-        "context": "…shi-jhapa]] ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
+        "context": "…vel siting. ## Related - [[data-solar-fleet-inventory]] - data-layer-solar-plants-nea-awards - [[nea-solar]]",
         "target_exists": true
       },
       {
@@ -3108,7 +3055,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…ati-nadi]] - [[balephi]] - [[budhigandaki]] - [[chera-1]] - dudhkoshi-storage - [[humla-karnali-1]] - [[karnali-chisapani]] - [[khimti-ca…",
+        "context": "…ati-nadi]] - [[balephi]] - [[budhigandaki]] - [[chera-1]] - dudhkoshi-storage - [[figure-index]] - [[humla-karnali-1]] - [[karnali-chisap…",
         "target_exists": true
       },
       {
@@ -3123,6 +3070,13 @@
         "title": "Andhi Khola",
         "category": "entities",
         "context": "…n energy, it is not a mega-project like [[budhigandaki]] or dudhkoshi-storage, but it is large enough to matter in a portfolio of medium…",
+        "target_exists": true
+      },
+      {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…er]] — the storage project Nepal is actually building now - dudhkoshi-storage — the next large storage project in the pipeline ## Map As…",
         "target_exists": true
       },
       {
@@ -3178,7 +3132,7 @@
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
-        "context": "…tion in Nepal. Tanahu is proof-of-concept: if it completes, dudhkoshi-storage and [[budhigandaki]] become easier to finance because the c…",
+        "context": "…ry future storage project — including much larger ones like dudhkoshi-storage and [[budhigandaki]] — becomes harder to finance. **What t…",
         "target_exists": true
       },
       {
@@ -3217,6 +3171,13 @@
         "target_exists": true
       },
       {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…on backbone - Add two more India cross-border lines - Bring dudhkoshi-storage online (~670 MW storage + 200 MW pumped storage) - Build [[…",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -3234,7 +3195,7 @@
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…m MWh is **unsettled** and site-specific ([[budhigandaki]], dudhkoshi-storage). - **Sediment and climate** shift the economic lifespan cu…",
+        "context": "…m MWh is **unsettled** and site-specific ([[budhigandaki]], dudhkoshi-storage). The 2035 model treats this as a combination problem, not…",
         "target_exists": true
       },
       {
@@ -3334,14 +3295,14 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ter hydromet, [[sediment-as-design-constraint]] monitoring, glof-risk design standards 6. **Think in basins, not just projects**…",
+        "context": "…ter hydromet, [[sediment-as-design-constraint]] monitoring, glof-risk design standards 6. **Think in basins and portfolios, not j…",
         "target_exists": true
       },
       {
         "slug": "claim-climate-harder-not-easier",
         "title": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
         "category": "claims",
-        "context": "…not mean-outcome pessimism. ## Related - [[peak-water]] - glof-risk - [[sediment-as-design-constraint]] - [[icimod-hkh-glacier-…",
+        "context": "…beyond mean runoff shifts. ## Related - [[peak-water]] - glof-risk - [[sediment-as-design-constraint]] - [[icimod-hkh-glacier-…",
         "target_exists": true
       }
     ],
@@ -3364,7 +3325,7 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…nes or boundaries. ## Used By - [[ganges-contribution]] - storage-deficit - [[data-basin-discharge]] - [[pancheshwar]] ## Relevance…",
+        "context": "…igure-index]] - [[ganges-contribution]] - [[pancheshwar]] - storage-deficit ## Relevance to Project Source for the [[ganges-contribut…",
         "target_exists": true
       },
       {
@@ -3392,7 +3353,7 @@
         "slug": "wb-water-sector-diagnostic",
         "title": "World Bank Nepal Water Sector Diagnostic",
         "category": "sources",
-        "context": "…dy outputs, not verified construction plans. ## Used By - storage-deficit - [[data-storage-comparison]] ## Relevance to Project The…",
+        "context": "…Used By - [[data-storage-comparison]] - [[figure-index]] - storage-deficit ## Relevance to Project The 29.86 km³ requirement vs near…",
         "target_exists": true
       },
       {
@@ -3413,7 +3374,7 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…important dry-season asset in Nepal's planned pipeline. See storage-deficit and [[seasonal-mismatch]]. | Parameter | Value | |--------…",
+        "context": "…mic character of Nepal's electricity system**. It addresses storage-deficit, [[seasonal-mismatch]], and [[firm-power]] simultaneously.…",
         "target_exists": true
       },
       {
@@ -3427,7 +3388,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…0202-Teaser-for-Market-Sounding-Final-2.pdf) ## Related - storage-deficit — what Dudhkoshi would begin to address - [[koshi-basin]] —…",
+        "context": "…— how Dudhkoshi fits into the four-lever winter strategy - storage-deficit — what Dudhkoshi would begin to address - [[koshi-basin]] —…",
         "target_exists": true
       },
       {
@@ -3627,13 +3588,6 @@
         "target_exists": true
       },
       {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…locker]] | [[intervention-transmission-completion]] | | 2 | storage-deficit / [[seasonal-mismatch]] | Deep structural | [[claim-storage…",
-        "target_exists": true
-      },
-      {
         "slug": "downstream-river-geopolitics",
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
@@ -3644,7 +3598,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…ly produces wet-season surplus and dry-season weakness 3. **storage-deficit** — 5 m³/capita vs global average 900; the country cannot h…",
+        "context": "…ly produces wet-season surplus and dry-season weakness 3. **storage-deficit** — ~5 m³ per person of storage versus reference magnitudes…",
         "target_exists": true
       },
       {
@@ -3672,14 +3626,14 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…thway]] for the full substitution logic. **Priority:** Add storage-deficit relief. Convert from seasonal surplus to year-round system…",
+        "context": "…ase 2 IPOs are transparently disclosed). **Priority:** Add storage-deficit relief and close the evening firm-capacity gap. The 2035 mo…",
         "target_exists": true
       },
       {
         "slug": "claim-floating-pv-leverage",
         "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
         "category": "claims",
-        "context": "…eservoirs are built. ## Related - [[kulekhani-cascade]] - storage-deficit - [[solar-role-in-winter-deficit]] - [[data-map-inventory]]…",
+        "context": "…surface area grows. ## Related - [[kulekhani-cascade]] - storage-deficit - [[solar-role-in-winter-deficit]] - [[data-map-inventory]]…",
         "target_exists": true
       },
       {
@@ -3693,14 +3647,14 @@
         "slug": "claim-pror-not-storage",
         "title": "PRoR Is Not Seasonal Storage",
         "category": "claims",
-        "context": "…am regulation. ## Related - [[run-of-river-hydropower]] - storage-deficit - [[firm-power]]",
+        "context": "…e equivalence. ## Related - [[run-of-river-hydropower]] - storage-deficit - [[firm-power]]",
         "target_exists": true
       },
       {
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…(which PRoR or battery storage can address). ## Related - storage-deficit - [[seasonal-mismatch]] - [[budhigandaki]] - [[dudhkoshi-st…",
+        "context": "…t-as-design-constraint]] and [[peak-water]]. ## Related - storage-deficit - [[seasonal-mismatch]] - [[data-winter-deficit-model]] — t…",
         "target_exists": true
       },
       {
@@ -3963,7 +3917,7 @@
         "slug": "nea-solar-loi-2024",
         "title": "NEA Notice of Intent to Award Solar Projects (2024)",
         "category": "sources",
-        "context": "…ucted costs. ## Used By - [[khungri-solar-hybrid-50mw]] - nea-960mw-solar-tender ## Related - [[nea-960mw-solar-tender]] - [[data-solar-fl…",
+        "context": "…records, not commissioned operating plants. ## Related - nea-960mw-solar-tender - [[data-solar-fleet-inventory]] - [[data-layer-solar-plant…",
         "target_exists": true
       },
       {
@@ -4233,7 +4187,7 @@
         "slug": "claim-solar-political-coalition-is-rural",
         "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
         "category": "claims",
-        "context": "…icy has institutional resilience. ## Related - [[aepc]] - aepc-renewable-framework - [[eib-rural-solar-phase2]] - [[rooftop-minigrid-offgrid]]…",
+        "context": "…nd and subsidy debates intensify. ## Related - [[aepc]] - aepc-renewable-framework - [[eib-rural-solar-phase2]] - [[rooftop-minigrid-offgrid]]…",
         "target_exists": true
       }
     ],
@@ -4249,7 +4203,7 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory ## Related - [[storage-deficit]] — the gap Budhigandaki w…",
+        "context": "…ssets/maps/previews/nepal_cross_border_with_projects.png) - data-map-inventory <!-- generated:sources:start --> ## Sources - [[wb-count…",
         "target_exists": true
       },
       {
@@ -4691,14 +4645,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…id]] - [[karnali-chisapani]] - [[koshi-basin]] - [[wecs]] - irena-remap-nepal ## Relevance to Project The definitive source for [[hydro…",
+        "context": "…]] - [[firm-power]] - [[hydropower-potential-categories]] - irena-remap-nepal - [[karnali-chisapani]] - [[koshi-basin]] - [[run-of-river-…",
         "target_exists": true
       },
       {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…-complementarity]] - [[data-final-energy-mix]] - [[wecs]] - irena-remap-nepal ## Relevance to Project The 7.23% grid-electricity share…",
+        "context": "…# Used By - [[data-final-energy-mix]] - [[figure-index]] - irena-remap-nepal - [[run-of-river-hydropower]] - [[solar-hydro-complementari…",
         "target_exists": true
       },
       {
@@ -4712,14 +4666,7 @@
         "slug": "wb-country-economic-memo-2025",
         "title": "World Bank Nepal Country Economic Memorandum (2025)",
         "category": "sources",
-        "context": "…- [[data-fleet-composition]] - [[data-trade-time-series]] - irena-remap-nepal - [[wb-grid-solar-ee-project]]",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…one does not collapse the whole. ## Benchmarking context irena-remap-nepal provides an externally-credentialed normative benchmark aga…",
+        "context": "…osition]] - [[data-trade-time-series]] - [[figure-index]] - irena-remap-nepal - [[wb-grid-solar-ee-project]]",
         "target_exists": true
       },
       {
@@ -4905,7 +4852,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…nal gain from negotiating slightly better export terms. See domestic-led-hydro-strategy for the structural argument and [[energy-substitution-pathw…",
+        "context": "…-financed ones. **Priority:** Use energy as foundation for domestic-led-hydro-strategy economic transformation. ## Six Principles 1. **Move from…",
         "target_exists": true
       },
       {
@@ -4919,7 +4866,7 @@
         "slug": "claim-domestic-led-strategy",
         "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
         "category": "claims",
-        "context": "…ce. It frames a strategic priority ordering. ## Related - domestic-led-hydro-strategy - [[seasonal-arbitrage-trap]] - [[green-hydrogen-nepal]] -…",
+        "context": "…is about **priority ordering**, not autarky. ## Related - domestic-led-hydro-strategy - [[seasonal-arbitrage-trap]] - [[green-hydrogen-nepal]] -…",
         "target_exists": true
       },
       {
@@ -5035,14 +4982,14 @@
         "slug": "claim-climate-harder-not-easier",
         "title": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
         "category": "claims",
-        "context": "…and tail risk**, not mean-outcome pessimism. ## Related - peak-water - [[glof-risk]] - [[sediment-as-design-constraint]] - [[ici…",
+        "context": "…it stress testing beyond mean runoff shifts. ## Related - peak-water - [[glof-risk]] - [[sediment-as-design-constraint]] - [[ici…",
         "target_exists": true
       },
       {
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…urves for storage—see [[sediment-as-design-constraint]] and peak-water. ## Boundary Conditions - \"Physical answer\" does not mean…",
+        "context": "…urves for storage—see [[sediment-as-design-constraint]] and peak-water. ## Related - [[storage-deficit]] - [[seasonal-mismatch]]…",
         "target_exists": true
       },
       {
@@ -5417,7 +5364,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…on]] | | 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | [[intervention-q-design-climate-adjustment]] | | 7 | Proj…",
+        "context": "…on]] | | 7 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | [[intervention-q-design-climate-adjustment]] | | 8 | Proj…",
         "target_exists": true
       },
       {
@@ -5440,7 +5387,7 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…s may use different baselines or boundaries. ## Used By - ganges-contribution - [[storage-deficit]] - [[data-basin-discharge]] - [[panche…",
+        "context": "…## Used By - [[data-basin-discharge]] - [[figure-index]] - ganges-contribution - [[pancheshwar]] - [[storage-deficit]] ## Relevance to Pr…",
         "target_exists": true
       },
       {
@@ -5680,14 +5627,14 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…ofile helps rather than worsens the dry-season problem 5. **sediment-as-design-constraint** and climate penalties — the Himalayas are young, active,…",
+        "context": "…t-model]] Phase 2 and [[solar-role-in-winter-deficit]] 6. **sediment-as-design-constraint** and climate penalties — the Himalayas are young, active,…",
         "target_exists": true
       },
       {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ar 5. **Upgrade for climate resilience** — better hydromet, sediment-as-design-constraint monitoring, [[glof-risk]] design standards 6. **Think in ba…",
+        "context": "…ty 5. **Upgrade for climate resilience** — better hydromet, sediment-as-design-constraint monitoring, [[glof-risk]] design standards 6. **Think in ba…",
         "target_exists": true
       },
       {
@@ -5701,7 +5648,7 @@
         "slug": "claim-climate-harder-not-easier",
         "title": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
         "category": "claims",
-        "context": "…pessimism. ## Related - [[peak-water]] - [[glof-risk]] - sediment-as-design-constraint - [[icimod-hkh-glacier-change]]",
+        "context": "…off shifts. ## Related - [[peak-water]] - [[glof-risk]] - sediment-as-design-constraint - [[icimod-hkh-glacier-change]]",
         "target_exists": true
       },
       {
@@ -5722,7 +5669,7 @@
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…limate** shift the economic lifespan curves for storage—see sediment-as-design-constraint and [[peak-water]]. ## Boundary Conditions - \"Physical an…",
+        "context": "…limate** shift the economic lifespan curves for storage—see sediment-as-design-constraint and [[peak-water]]. ## Related - [[storage-deficit]] - [[…",
         "target_exists": true
       },
       {
@@ -5745,7 +5692,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…[[intervention-electric-cooking-transition]] (demand-side); intervention-q-design-climate-adjustment (supply-side) | | 3 | Solar land + short-cycle buildability…",
+        "context": "…[[intervention-electric-cooking-transition]] (demand-side); intervention-q-design-climate-adjustment (supply-side) | | 4 | Demand-shaping + electrification | De…",
         "target_exists": true
       },
       {
@@ -5759,7 +5706,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…sition]] (build domestic demand to absorb monsoon surplus); intervention-q-design-climate-adjustment (mandate climate-adjusted hydrology before licensing the Ph…",
+        "context": "…c demand to absorb monsoon surplus and shift evening peak); intervention-q-design-climate-adjustment (mandate climate-adjusted hydrology before licensing the Ph…",
         "target_exists": true
       }
     ],
@@ -5775,7 +5722,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…ural-solar-phase2]] - [[firm-power]] - [[kali-gandaki-a]] - khimti-ii - [[khudi-220-132kv-substation]] - [[kulekhani-cascade]] -…",
+        "context": "…- [[figure-index]] - [[firm-power]] - [[kali-gandaki-a]] - khimti-ii - [[khudi-220-132kv-substation]] - [[kulekhani-cascade]] -…",
         "target_exists": true
       },
       {
@@ -5968,7 +5915,7 @@
         "slug": "claim-india-decisive-actor",
         "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
         "category": "claims",
-        "context": "…es and shared-basin portfolios currently do. ## Related - india-energy-relationship - [[hydro-geopolitics]] - [[pancheshwar]] - [[bhutan-hydrop…",
+        "context": "…paths somewhat, but cannot erase geography. ## Related - india-energy-relationship - [[hydro-geopolitics]] - [[pancheshwar]] - [[bhutan-hydrop…",
         "target_exists": true
       },
       {
@@ -6131,7 +6078,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…ent | — | | 5 | Market design / offtake / demand weakness | seasonal-arbitrage-trap | [[intervention-nea-structural-separation]]; [[interventio…",
+        "context": "…ent | — | | 6 | Market design / offtake / demand weakness | seasonal-arbitrage-trap | [[intervention-nea-structural-separation]]; [[interventio…",
         "target_exists": true
       },
       {
@@ -6145,7 +6092,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…eration, now including solar interconnection readiness 8. **seasonal-arbitrage-trap** — selling cheap monsoon, buying expensive winter; value d…",
+        "context": "…eration, now including solar interconnection readiness 9. **seasonal-arbitrage-trap** — selling cheap monsoon, buying expensive winter; value d…",
         "target_exists": true
       },
       {
@@ -6159,14 +6106,7 @@
         "slug": "claim-domestic-led-strategy",
         "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
         "category": "claims",
-        "context": "…ordering. ## Related - [[domestic-led-hydro-strategy]] - seasonal-arbitrage-trap - [[green-hydrogen-nepal]] - [[bhutan-hydropower-model]]",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-timing-not-volume",
-        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
-        "category": "claims",
-        "context": "…vs demand flexibility); see [[claim-storage-physical-fix]], seasonal-arbitrage-trap, and relevant syntheses for solution arguments. ## Related…",
+        "context": "…t autarky. ## Related - [[domestic-led-hydro-strategy]] - seasonal-arbitrage-trap - [[green-hydrogen-nepal]] - [[bhutan-hydropower-model]]",
         "target_exists": true
       },
       {
@@ -6524,7 +6464,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…air. Not in headline MW worship. ## Supporting Evidence - bottleneck-hierarchy — ranked constraints - [[twenty-year-strategy]] — phased im…",
+        "context": "…]]. Not in headline MW worship. ## Supporting Evidence - bottleneck-hierarchy — ranked constraints, updated by the 2035 model - [[twenty-…",
         "target_exists": true
       },
       {
@@ -6586,6 +6526,27 @@
         "target_exists": true
       },
       {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…, reason to build it. See [[data-winter-deficit-model]] and solar-role-in-winter-deficit for the full numbers. The 2035 adequacy model quantifies t…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…odel that treats Dudhkoshi as a core 2035 portfolio lever - solar-role-in-winter-deficit — how Dudhkoshi fits into the four-lever winter strategy -…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…the model that includes Tanahu in the 2035 full portfolio - solar-role-in-winter-deficit — how Tanahu fits into the four-lever winter strategy - [[s…",
+        "target_exists": true
+      },
+      {
         "slug": "storage-deficit",
         "title": "Storage Deficit",
         "category": "concepts",
@@ -6596,14 +6557,14 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…s-conversion-failure]] — the integrated failure diagnosis - solar-role-in-winter-deficit — the solar correction to the ranking - [[solar-in-the-mast…",
+        "context": "…t to surplus. See [[data-winter-deficit-model]] Phase 2 and solar-role-in-winter-deficit. This is not a contradiction. It is a more serious systems…",
         "target_exists": true
       },
       {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…- [[data-trade-time-series]] — the seasonal trade pattern - solar-role-in-winter-deficit — why solar is now a core winter-deficit lever - [[claim-so…",
+        "context": "…y gap cannot. See [[data-winter-deficit-model]] Phase 2 and solar-role-in-winter-deficit 6. **[[sediment-as-design-constraint]]** and climate penalt…",
         "target_exists": true
       },
       {
@@ -6617,7 +6578,14 @@
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…he-master-narrative]] -> [[solar-hydro-complementarity]] -> solar-role-in-winter-deficit.",
+        "context": "…r. See [[data-winter-deficit-model]] for the full model and solar-role-in-winter-deficit for what it means for policy. ## Use The Map - Open [[dat…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…el]] — the 2035 adequacy model that shapes the sequencing - solar-role-in-winter-deficit — the four-lever portfolio synthesis - [[solar-in-the-maste…",
         "target_exists": true
       },
       {
@@ -6625,6 +6593,20 @@
         "title": "Floating PV Is a Leverage Play, Not a Core Supply Pillar",
         "category": "claims",
         "context": "…## Related - [[kulekhani-cascade]] - [[storage-deficit]] - solar-role-in-winter-deficit - [[data-map-inventory]] - [[claim-solar-terai-only-short-c…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "…— the model that quantifies the two-layer timing problem - solar-role-in-winter-deficit — how solar changes the timing equation",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-storage-physical-fix",
+        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+        "category": "claims",
+        "context": "…t when solar has set. See [[data-winter-deficit-model]] and solar-role-in-winter-deficit. - **Research ledger:** \"If you ask for the most direct **p…",
         "target_exists": true
       },
       {
@@ -6746,6 +6728,13 @@
         "target_exists": true
       },
       {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
+        "category": "sources",
+        "context": "…comprehensive than simple output-loss estimates. See also: wb-country-economic-memo-2025 for the World Bank's later framing; [[nepal-energy-profile]…",
+        "target_exists": true
+      },
+      {
         "slug": "wb-grid-solar-ee-project",
         "title": "World Bank Grid Solar and Energy Efficiency Project",
         "category": "sources",
@@ -6756,7 +6745,14 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…tional dam <!-- generated:sources:start --> ## Sources - World Bank Nepal Country Economic Memorandum (2025) - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "context": "…nventory]] <!-- generated:sources:start --> ## Sources - World Bank Nepal Country Economic Memorandum (2025) - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Ann…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…CGE model result | | Scheduled load shedding ended | 2018 | wb-country-economic-memo-2025, [[nea-annual-report-fy2024-25]] | The $11 billion cumulat…",
         "target_exists": true
       },
       {
@@ -7203,7 +7199,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…pipeline. Compare with the current operating storage fleet: kulekhani-cascade at 106 MW combined, and [[tanahu-hydropower]] at 140 MW und…",
+        "context": "…rs:** Nepal currently has only one operating storage plant: kulekhani-cascade at 106 MW. Dudhkoshi at 670 MW would be **six times larger*…",
         "target_exists": true
       },
       {
@@ -7387,7 +7383,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…me-series]] - [[eib-rural-solar-phase2]] - [[firm-power]] - kali-gandaki-a - [[khimti-ii]] - [[khudi-220-132kv-substation]] - [[kulekh…",
+        "context": "…-rural-solar-phase2]] - [[figure-index]] - [[firm-power]] - kali-gandaki-a - [[khimti-ii]] - [[khudi-220-132kv-substation]] - [[kulekh…",
         "target_exists": true
       },
       {
@@ -7477,6 +7473,13 @@
         "target_exists": true
       },
       {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…bility]] — why large projects in Nepal are hard to finish - tanahu-hydropower — the storage project Nepal is actually building now - [[du…",
+        "target_exists": true
+      },
+      {
         "slug": "chameliya-hydropower",
         "title": "Chameliya Hydropower",
         "category": "entities",
@@ -7487,7 +7490,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…torage fleet: [[kulekhani-cascade]] at 106 MW combined, and tanahu-hydropower at 140 MW under construction. | Parameter | Value | |-----…",
+        "context": "…portfolio, after the existing hydro baseline. Together with tanahu-hydropower, it provides roughly **~834 GWh of dry-season energy** abov…",
         "target_exists": true
       },
       {
@@ -7578,7 +7581,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…nect - Complete all projects under construction (including tanahu-hydropower) - Build Butwal-Gorakhpur cross-border line - Begin east-we…",
+        "context": "…nect - Complete all projects under construction (including tanahu-hydropower) - **Scale solar aggressively:** deliver the 960 MW tender,…",
         "target_exists": true
       },
       {
@@ -7686,7 +7689,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…dhi-khola]] - [[arun-3]] - [[bagmati-nadi]] - [[balephi]] - budhigandaki - [[chera-1]] - [[dudhkoshi-storage]] - [[humla-karnali-1]]…",
+        "context": "…dhi-khola]] - [[arun-3]] - [[bagmati-nadi]] - [[balephi]] - budhigandaki - [[chera-1]] - [[dudhkoshi-storage]] - [[figure-index]] -…",
         "target_exists": true
       },
       {
@@ -7701,6 +7704,13 @@
         "title": "Andhi Khola",
         "category": "entities",
         "context": "…1 GWh** of dry-season energy, it is not a mega-project like budhigandaki or [[dudhkoshi-storage]], but it is large enough to matter…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…y dependable timing matters more than nameplate megawatts - budhigandaki — the post-2035 storage option for evening firm capacity -…",
         "target_exists": true
       },
       {
@@ -7756,7 +7766,7 @@
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
-        "context": "…roof-of-concept: if it completes, [[dudhkoshi-storage]] and budhigandaki become easier to finance because the conversation no longer…",
+        "context": "…— including much larger ones like [[dudhkoshi-storage]] and budhigandaki — becomes harder to finance. **What the 2035 model says:**…",
         "target_exists": true
       },
       {
@@ -7809,6 +7819,13 @@
         "target_exists": true
       },
       {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…set and the lights still need to stay on. That is where the budhigandaki distinction matters: the model shows Nepal can close the to…",
+        "target_exists": true
+      },
+      {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
@@ -7816,10 +7833,17 @@
         "target_exists": true
       },
       {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…]] -> [[solar-role-in-winter-deficit]] -> [[firm-power]] -> budhigandaki.",
+        "target_exists": true
+      },
+      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…on backbone - Add two more India cross-border lines - Build budhigandaki (1,200 MW storage) - Activate Bangladesh export contracts a…",
+        "context": "…]] online (~670 MW storage + 200 MW pumped storage) - Build budhigandaki (1,200 MW storage) — the firm-capacity option for the eveni…",
         "target_exists": true
       },
       {
@@ -7840,7 +7864,7 @@
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…ental cost per firm MWh is **unsettled** and site-specific (budhigandaki, [[dudhkoshi-storage]]). - **Sediment and climate** shift t…",
+        "context": "…ental cost per firm MWh is **unsettled** and site-specific (budhigandaki, [[dudhkoshi-storage]]). The 2035 model treats this as a co…",
         "target_exists": true
       },
       {
@@ -7877,7 +7901,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…n-3]] - [[bagmati-nadi]] - [[balephi]] - [[budhigandaki]] - chera-1 - [[dudhkoshi-storage]] - [[humla-karnali-1]] - [[karnali-c…",
+        "context": "…n-3]] - [[bagmati-nadi]] - [[balephi]] - [[budhigandaki]] - chera-1 - [[dudhkoshi-storage]] - [[figure-index]] - [[humla-karnal…",
         "target_exists": true
       },
       {
@@ -7893,7 +7917,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…- [[budhigandaki]] - [[chera-1]] - [[dudhkoshi-storage]] - humla-karnali-1 - [[karnali-chisapani]] - [[khimti-cascade]] - [[khimti-i]]…",
+        "context": "…- [[chera-1]] - [[dudhkoshi-storage]] - [[figure-index]] - humla-karnali-1 - [[karnali-chisapani]] - [[khimti-cascade]] - [[khimti-i]]…",
         "target_exists": true
       }
     ],
@@ -7902,14 +7926,14 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…[[chera-1]] - [[dudhkoshi-storage]] - [[humla-karnali-1]] - karnali-chisapani - [[khimti-cascade]] - [[khimti-i]] - [[kokhajor-1]] - [[li…",
+        "context": "…hkoshi-storage]] - [[figure-index]] - [[humla-karnali-1]] - karnali-chisapani - [[khimti-cascade]] - [[khimti-i]] - [[kokhajor-1]] - [[li…",
         "target_exists": true
       },
       {
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…ta-layer-nepal-tributaries]] - [[data-potential-pyramid]] - karnali-chisapani - [[koshi-basin]] - [[wecs]] - [[irena-remap-nepal]] ## Re…",
+        "context": "…hydropower-potential-categories]] - [[irena-remap-nepal]] - karnali-chisapani - [[koshi-basin]] - [[run-of-river-hydropower]] - [[wecs]]…",
         "target_exists": true
       },
       {
@@ -7946,7 +7970,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…i-storage]] - [[humla-karnali-1]] - [[karnali-chisapani]] - khimti-cascade - [[khimti-i]] - [[kokhajor-1]] - [[likhu-4]] - [[lower-bad…",
+        "context": "…ure-index]] - [[humla-karnali-1]] - [[karnali-chisapani]] - khimti-cascade - [[khimti-i]] - [[kokhajor-1]] - [[likhu-4]] - [[lower-bad…",
         "target_exists": true
       }
     ],
@@ -8831,14 +8855,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…]] - [[firm-power]] - [[hydropower-potential-categories]] - run-of-river-hydropower - [[data-layer-nepal-tributaries]] - [[data-potential-pyram…",
+        "context": "…a-remap-nepal]] - [[karnali-chisapani]] - [[koshi-basin]] - run-of-river-hydropower - [[wecs]] ## Relevance to Project The definitive source…",
         "target_exists": true
       },
       {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…th and improvements in measurement coverage. ## Used By - run-of-river-hydropower - [[solar-hydro-complementarity]] - [[data-final-energy-mix…",
+        "context": "…l-energy-mix]] - [[figure-index]] - [[irena-remap-nepal]] - run-of-river-hydropower - [[solar-hydro-complementarity]] - [[wecs]] ## Relevance…",
         "target_exists": true
       },
       {
@@ -9062,7 +9086,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…gy delivers a monsoon pulse, not year-round firm power 2. **run-of-river-hydropower** — fleet is >90% RoR/PRoR; structurally produces wet-seaso…",
+        "context": "…gy delivers a monsoon pulse, not year-round firm power 2. **run-of-river-hydropower** — fleet is >90% run-of-river / peaking run-of-river; stru…",
         "target_exists": true
       },
       {
@@ -9083,14 +9107,14 @@
         "slug": "claim-ror-dominance",
         "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
         "category": "claims",
-        "context": "…ructural point is robust across definitions. ## Related - run-of-river-hydropower - [[data-fleet-composition]] - [[kulekhani-cascade]]",
+        "context": "…ix slowly unless large storage comes online. ## Related - run-of-river-hydropower - [[data-fleet-composition]] - [[kulekhani-cascade]]",
         "target_exists": true
       },
       {
         "slug": "claim-pror-not-storage",
         "title": "PRoR Is Not Seasonal Storage",
         "category": "claims",
-        "context": "…en PRoR is coupled with upstream regulation. ## Related - run-of-river-hydropower - [[storage-deficit]] - [[firm-power]]",
+        "context": "…this claim only blocks a false equivalence. ## Related - run-of-river-hydropower - [[storage-deficit]] - [[firm-power]]",
         "target_exists": true
       },
       {
@@ -10242,14 +10266,14 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…Used By - [[ganges-contribution]] - [[storage-deficit]] - data-basin-discharge - [[pancheshwar]] ## Relevance to Project Source for the…",
+        "context": "…s may use different baselines or boundaries. ## Used By - data-basin-discharge - [[figure-index]] - [[ganges-contribution]] - [[pancheshwa…",
         "target_exists": true
       },
       {
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…- [[data-solar-hydro-complementarity-profile]] - [[wecs]] - data-basin-discharge - [[data-layer-nepal-tributaries]]",
+        "context": "…nnual variability may be wider than implied. ## Used By - data-basin-discharge - [[data-layer-nepal-tributaries]] - [[data-solar-hydro-com…",
         "target_exists": true
       },
       {
@@ -10270,7 +10294,7 @@
         "slug": "claim-timing-not-volume",
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
-        "context": "…solution arguments. ## Related - [[seasonal-mismatch]] - data-basin-discharge - [[firm-power]]",
+        "context": "…he physical problem. ## Related - [[seasonal-mismatch]] - data-basin-discharge - [[firm-power]] - [[data-winter-deficit-model]] — the mode…",
         "target_exists": true
       },
       {
@@ -10300,7 +10324,7 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…bution]] - [[storage-deficit]] - [[data-basin-discharge]] - pancheshwar ## Relevance to Project Source for the [[ganges-contribut…",
+        "context": "…-discharge]] - [[figure-index]] - [[ganges-contribution]] - pancheshwar - [[storage-deficit]] ## Relevance to Project Source for…",
         "target_exists": true
       },
       {
@@ -10558,7 +10582,7 @@
         "slug": "wb-country-economic-memo-2025",
         "title": "World Bank Nepal Country Economic Memorandum (2025)",
         "category": "sources",
-        "context": "…A fiscal-year accounting. ## Used By - [[budhigandaki]] - data-fleet-composition - [[data-trade-time-series]] - [[irena-remap-nepal]] - [[wb…",
+        "context": "…A fiscal-year accounting. ## Used By - [[budhigandaki]] - data-fleet-composition - [[data-trade-time-series]] - [[figure-index]] - [[irena-r…",
         "target_exists": true
       },
       {
@@ -10586,7 +10610,7 @@
         "slug": "claim-ror-dominance",
         "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
         "category": "claims",
-        "context": "…s definitions. ## Related - [[run-of-river-hydropower]] - data-fleet-composition - [[kulekhani-cascade]]",
+        "context": "…comes online. ## Related - [[run-of-river-hydropower]] - data-fleet-composition - [[kulekhani-cascade]]",
         "target_exists": true
       },
       {
@@ -10683,14 +10707,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…-of-river-hydropower]] - [[data-layer-nepal-tributaries]] - data-potential-pyramid - [[karnali-chisapani]] - [[koshi-basin]] - [[wecs]] - [[ir…",
+        "context": "…By - [[buildability]] - [[data-layer-nepal-tributaries]] - data-potential-pyramid - [[figure-index]] - [[firm-power]] - [[hydropower-potentia…",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…ve URL for this document needs verification. ## Used By - data-potential-pyramid - [[wb-grid-solar-ee-project]] - [[buildability]] - [[firm-…",
+        "context": "…ument needs verification. ## Used By - [[buildability]] - data-potential-pyramid - [[figure-index]] - [[firm-power]] - [[wb-grid-solar-ee-pr…",
         "target_exists": true
       },
       {
@@ -10725,7 +10749,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…raints - [[twenty-year-strategy]] — phased implementation - data-potential-pyramid — the 83,000 to 3,591 reduction - [[data-storage-comparison…",
+        "context": "…-in-winter-deficit]] — the four-lever portfolio synthesis - data-potential-pyramid — the 83,000 to 3,591 reduction - [[data-storage-comparison…",
         "target_exists": true
       },
       {
@@ -10762,7 +10786,7 @@
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…n implied. ## Used By - [[solar-hydro-complementarity]] - data-solar-hydro-complementarity-profile - [[wecs]] - [[data-basin-discharge]] - [[data-layer-nepal-…",
+        "context": "…data-basin-discharge]] - [[data-layer-nepal-tributaries]] - data-solar-hydro-complementarity-profile - [[figure-index]] - [[solar-hydro-complementarity]] - [[we…",
         "target_exists": true
       },
       {
@@ -10813,7 +10837,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…dro-complementarity-profile]] - [[data-solar-hydro-lcoe]] - data-trade-time-series - [[eib-rural-solar-phase2]] - [[firm-power]] - [[kali-gand…",
+        "context": "…dro-complementarity-profile]] - [[data-solar-hydro-lcoe]] - data-trade-time-series - [[eib-rural-solar-phase2]] - [[figure-index]] - [[firm-po…",
         "target_exists": true
       },
       {
@@ -10838,6 +10862,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…— the industrial demand suppressed by a decade of outages - data-trade-time-series — the import-to-exporter transformation",
+        "target_exists": true
+      },
+      {
         "slug": "seasonal-arbitrage-trap",
         "title": "Seasonal Arbitrage Trap",
         "category": "concepts",
@@ -10848,7 +10879,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…[[data-storage-comparison]] — the storage gap in numbers - data-trade-time-series — the seasonal trade pattern - [[solar-role-in-winter-defic…",
+        "context": "…[[data-storage-comparison]] — the storage gap in numbers - data-trade-time-series — the seasonal trade pattern - [[solar-in-the-master-narrat…",
         "target_exists": true
       },
       {
@@ -10913,21 +10944,21 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…- [[data-trade-time-series]] - [[eib-rural-solar-phase2]] - firm-power - [[kali-gandaki-a]] - [[khimti-ii]] - [[khudi-220-132kv-su…",
+        "context": "…-series]] - [[eib-rural-solar-phase2]] - [[figure-index]] - firm-power - [[kali-gandaki-a]] - [[khimti-ii]] - [[khudi-220-132kv-su…",
         "target_exists": true
       },
       {
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…echno-economic estimates. ## Used By - [[buildability]] - firm-power - [[hydropower-potential-categories]] - [[run-of-river-hydr…",
+        "context": "…utaries]] - [[data-potential-pyramid]] - [[figure-index]] - firm-power - [[hydropower-potential-categories]] - [[irena-remap-nepal…",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…ramid]] - [[wb-grid-solar-ee-project]] - [[buildability]] - firm-power",
+        "context": "…ability]] - [[data-potential-pyramid]] - [[figure-index]] - firm-power - [[wb-grid-solar-ee-project]]",
         "target_exists": true
       },
       {
@@ -10948,7 +10979,7 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…t addresses [[storage-deficit]], [[seasonal-mismatch]], and firm-power simultaneously. The revenue difference from shifting monsoo…",
+        "context": "…mall surplus. See [[data-winter-deficit-model]] Phase 2 and firm-power. | Parameter | Value | |-----------|-------| | Annual desi…",
         "target_exists": true
       },
       {
@@ -11113,10 +11144,24 @@
         "target_exists": true
       },
       {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…el]] — the 2035 adequacy model that drives the re-ranking - firm-power — why dependable timing matters more than nameplate megawat…",
+        "target_exists": true
+      },
+      {
         "slug": "downstream-river-geopolitics",
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
         "context": "…torage and forecasting? This is where [[storage-deficit]], firm-power, [[environmental-flow-policy]], and [[hydro-geopolitics]] m…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…aper-than-small-hydro]] — the new marginal-cost benchmark - firm-power — why dependable timing matters more than nameplate megawat…",
         "target_exists": true
       },
       {
@@ -11130,7 +11175,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…## Six Principles 1. **Move from capacity maximization to firm-power maximization** 2. **Build storage deliberately, not symboli…",
+        "context": "…## Six Principles 1. **Move from capacity maximization to firm-power maximization** — megawatts do not matter if they arrive at…",
         "target_exists": true
       },
       {
@@ -11144,7 +11189,7 @@
         "slug": "claim-mw-not-equal-value",
         "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
         "category": "claims",
-        "context": "…shortage is not primarily a volume problem. ## Related - firm-power - [[hydropower-potential-categories]] - [[data-potential-py…",
+        "context": "…ogy tables miss—see [[stranded-generation]]. ## Related - firm-power - [[hydropower-potential-categories]] - [[data-potential-py…",
         "target_exists": true
       },
       {
@@ -11158,7 +11203,7 @@
         "slug": "claim-timing-not-volume",
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
-        "context": "…lated - [[seasonal-mismatch]] - [[data-basin-discharge]] - firm-power",
+        "context": "…lated - [[seasonal-mismatch]] - [[data-basin-discharge]] - firm-power - [[data-winter-deficit-model]] — the model that quantifies…",
         "target_exists": true
       },
       {
@@ -11223,7 +11268,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…2]] - [[firm-power]] - [[kali-gandaki-a]] - [[khimti-ii]] - khudi-220-132kv-substation - [[kulekhani-cascade]] - [[kulekhani-i]] - [[kulekhani-ii]…",
+        "context": "…x]] - [[firm-power]] - [[kali-gandaki-a]] - [[khimti-ii]] - khudi-220-132kv-substation - [[kulekhani-cascade]] - [[kulekhani-i]] - [[kulekhani-ii]…",
         "target_exists": true
       },
       {
@@ -11563,14 +11608,14 @@
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…ment coverage. ## Used By - [[run-of-river-hydropower]] - solar-hydro-complementarity - [[data-final-energy-mix]] - [[wecs]] - [[irena-remap-nepa…",
+        "context": "…x]] - [[irena-remap-nepal]] - [[run-of-river-hydropower]] - solar-hydro-complementarity - [[wecs]] ## Relevance to Project The 7.23% grid-electri…",
         "target_exists": true
       },
       {
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…nnual variability may be wider than implied. ## Used By - solar-hydro-complementarity - [[data-solar-hydro-complementarity-profile]] - [[wecs]] -…",
+        "context": "…-solar-hydro-complementarity-profile]] - [[figure-index]] - solar-hydro-complementarity - [[wecs]]",
         "target_exists": true
       },
       {
@@ -11626,7 +11671,7 @@
         "slug": "solar-lcoe-crossover",
         "title": "Solar LCOE Crossover",
         "category": "concepts",
-        "context": "…y costs can materially overstate solar cost. ## Related - solar-hydro-complementarity — why the price argument matters differently in Nepal than…",
+        "context": "…ening peak, location) to choose otherwise.** ## Related - solar-hydro-complementarity — why the price argument matters differently in Nepal than…",
         "target_exists": true
       },
       {
@@ -11640,7 +11685,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…ge 900; the country cannot hold and regulate its water 4. **solar-hydro-complementarity** — solar is the first scalable resource whose seasonal pro…",
+        "context": "…a ~664; the country cannot hold and regulate its water 4. **solar-hydro-complementarity** — solar is the first scalable resource whose seasonal pro…",
         "target_exists": true
       },
       {
@@ -11796,6 +11841,13 @@
         "target_exists": true
       },
       {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
+        "category": "sources",
+        "context": "…framing; [[nepal-energy-profile]] for the system snapshot; upper-tamakoshi for the project that ended the era.",
+        "target_exists": true
+      },
+      {
         "slug": "ukhl-financials-generation-fy2079-82",
         "title": "UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82",
         "category": "sources",
@@ -11887,6 +11939,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…dding hundreds of megawatts of new generation, most notably upper-tamakoshi (456 MW, commissioned 2021). 3. **Indian import access** —…",
+        "target_exists": true
+      },
+      {
         "slug": "nea-triple-authority",
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
@@ -11963,22 +12022,6 @@
         "title": "Q-Design Discharge",
         "category": "concepts",
         "context": "…rformance — includes the NEA fleet as well as private IPPs. Upper Trishuli 3A (60 MW, 72.7% of design) and [[trishuli|Trishuli]] (24 MW,…",
-        "target_exists": true
-      }
-    ],
-    "khungri-solar-hybrid-50mw": [
-      {
-        "slug": "nea-solar-loi-2024",
-        "title": "NEA Notice of Intent to Award Solar Projects (2024)",
-        "category": "sources",
-        "context": "…ect final PPA rates or as-constructed costs. ## Used By - khungri-solar-hybrid-50mw - [[nea-960mw-solar-tender]] ## Related - [[nea-960mw-sol…",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-solar",
-        "title": "NEA Solar Programme",
-        "category": "entities",
-        "context": "…ard** | 50 | LoI-awarded / pre-PPA | Rapti Urja Pvt. Ltd. | khungri-solar-hybrid-50mw | | **Karnali Solar Energy Project** | ~10 (pilot) | Planne…",
         "target_exists": true
       }
     ],
@@ -12213,7 +12256,7 @@
         "slug": "claim-transmission-immediate-blocker",
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
-        "context": "…ion capacity may remain binding. ### Cross-border pages - dhalkebar-muzaffarpur — the only operational 400 kV cross-border - [[gorakhpur-bu…",
+        "context": "…— 220 kV west-central evacuation ### Cross-border pages - dhalkebar-muzaffarpur — the only operational 400 kV cross-border - [[gorakhpur-bu…",
         "target_exists": true
       },
       {
@@ -12331,7 +12374,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…ss, including solar interconnection | Immediate practical | claim-transmission-immediate-blocker | [[intervention-transmission-completion]] | | 2 | [[storag…",
+        "context": "…ss, including solar interconnection | Immediate practical | claim-transmission-immediate-blocker | [[intervention-transmission-completion]] | | 2 | Land + a…",
         "target_exists": true
       },
       {
@@ -12837,7 +12880,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…iate practical | [[claim-transmission-immediate-blocker]] | intervention-transmission-completion | | 2 | [[storage-deficit]] / [[seasonal-mismatch]] | Deep…",
+        "context": "…iate practical | [[claim-transmission-immediate-blocker]] | intervention-transmission-completion | | 2 | Land + agrivoltaic framework for Terai solar | New…",
         "target_exists": true
       },
       {
@@ -13158,6 +13201,13 @@
         "title": "IPO Hydropower Bailout",
         "category": "concepts",
         "context": "…on of that revenue is clawed back through AD penalties. See nea-triple-authority for the institutional framework and [[ad-penalties]] for th…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…rol scarcity. It has not yet learned to manage surplus. See nea-triple-authority. ## Related - [[nepal-energy-profile]] — the post-crisis…",
         "target_exists": true
       },
       {
@@ -13541,6 +13591,15 @@
         "target_exists": true
       }
     ],
+    "load-shedding-era": [
+      {
+        "slug": "timilsina-cge-load-shedding-2021",
+        "title": "Timilsina et al. CGE Load Shedding Cost Study (2021)",
+        "category": "sources",
+        "context": "…ns (2009–2016) ## Relevance to Project Central source for load-shedding-era and the historical context that frames the entire wiki narr…",
+        "target_exists": true
+      }
+    ],
     "claim-solar-cheaper-than-small-hydro": [
       {
         "slug": "wb-esmap-solar-resource-assessment",
@@ -13553,7 +13612,7 @@
         "slug": "nea-960mw-solar-tender",
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…r on a *time-weighted* basis. This is the tariff point that claim-solar-cheaper-than-small-hydro stands on. ## Limitations & Controversies - **Land acquis…",
+        "context": "…r on a *time-weighted* basis. This is the tariff point that claim-solar-cheaper-than-small-hydro stands on. ## Implementation risks and watch items | Risk…",
         "target_exists": true
       },
       {
@@ -13567,7 +13626,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…-deficit]] — why solar is now a core winter-deficit lever - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark ## Intervention Layer T…",
+        "context": "…ive]] — how solar changes the thesis without replacing it - claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark - [[firm-power]] — why de…",
         "target_exists": true
       },
       {
@@ -13611,7 +13670,7 @@
         "slug": "wb-water-sector-diagnostic",
         "title": "World Bank Nepal Water Sector Diagnostic",
         "category": "sources",
-        "context": "…ed construction plans. ## Used By - [[storage-deficit]] - data-storage-comparison ## Relevance to Project The 29.86 km³ requirement vs near…",
+        "context": "…dy outputs, not verified construction plans. ## Used By - data-storage-comparison - [[figure-index]] - [[storage-deficit]] ## Relevance to P…",
         "target_exists": true
       },
       {
@@ -13810,13 +13869,6 @@
         "target_exists": true
       },
       {
-        "slug": "twenty-year-strategy",
-        "title": "Twenty-Year Strategy",
-        "category": "syntheses",
-        "context": "…s the backbone of economic productivity. The evidence from data-domestic-demand is stark: only **0.5% of Nepali households** use electricit…",
-        "target_exists": true
-      },
-      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -13878,7 +13930,7 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…timates. ## Used By - [[buildability]] - [[firm-power]] - hydropower-potential-categories - [[run-of-river-hydropower]] - [[data-layer-nepal-tributar…",
+        "context": "…a-potential-pyramid]] - [[figure-index]] - [[firm-power]] - hydropower-potential-categories - [[irena-remap-nepal]] - [[karnali-chisapani]] - [[koshi-b…",
         "target_exists": true
       },
       {
@@ -14008,21 +14060,21 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…ntial-pyramid]] - [[karnali-chisapani]] - [[koshi-basin]] - wecs - [[irena-remap-nepal]] ## Relevance to Project The defin…",
+        "context": "…isapani]] - [[koshi-basin]] - [[run-of-river-hydropower]] - wecs ## Relevance to Project The definitive source for [[hydro…",
         "target_exists": true
       },
       {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…solar-hydro-complementarity]] - [[data-final-energy-mix]] - wecs - [[irena-remap-nepal]] ## Relevance to Project The 7.23%…",
+        "context": "…n-of-river-hydropower]] - [[solar-hydro-complementarity]] - wecs ## Relevance to Project The 7.23% grid-electricity share…",
         "target_exists": true
       },
       {
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…entarity]] - [[data-solar-hydro-complementarity-profile]] - wecs - [[data-basin-discharge]] - [[data-layer-nepal-tributaries…",
+        "context": "…le]] - [[figure-index]] - [[solar-hydro-complementarity]] - wecs",
         "target_exists": true
       },
       {
@@ -14052,7 +14104,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…domestic productive use as a third pillar | ## Related - master-thesis — the overarching argument - [[twenty-year-strategy]] — how…",
+        "context": "…; Budhigandaki is the firm-capacity option | ## Related - master-thesis — the overarching argument - [[twenty-year-strategy]] — how…",
         "target_exists": true
       },
       {
@@ -14094,7 +14146,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…ck-hierarchy]] — what this strategy addresses in sequence - master-thesis — why this approach, not \"build more hydro\"",
+        "context": "…ck-hierarchy]] — what this strategy addresses in sequence - master-thesis — why this approach, not \"build more hydro\" - [[data-winter…",
         "target_exists": true
       },
       {
@@ -14156,17 +14208,17 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…outages). See [[data-industrial-electricity-consumers]] and energy-substitution-pathway. - **The \"reliability premium\" persists in political memory…",
+        "target_exists": true
+      },
+      {
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
         "context": "…the broader energy transition: [[data-final-energy-mix]] -> energy-substitution-pathway -> [[domestic-led-hydro-strategy]]. - For solar's role: [[s…",
-        "target_exists": true
-      },
-      {
-        "slug": "twenty-year-strategy",
-        "title": "Twenty-Year Strategy",
-        "category": "syntheses",
-        "context": "…mestic-led-hydro-strategy]] for the structural argument and energy-substitution-pathway for the full substitution logic. **Priority:** Add [[stora…",
         "target_exists": true
       },
       {
@@ -14210,14 +14262,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…ower-potential-categories]] - [[run-of-river-hydropower]] - data-layer-nepal-tributaries - [[data-potential-pyramid]] - [[karnali-chisapani]] - [[ko…",
+        "context": "…echno-economic estimates. ## Used By - [[buildability]] - data-layer-nepal-tributaries - [[data-potential-pyramid]] - [[figure-index]] - [[firm-po…",
         "target_exists": true
       },
       {
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…mentarity-profile]] - [[wecs]] - [[data-basin-discharge]] - data-layer-nepal-tributaries",
+        "context": "…der than implied. ## Used By - [[data-basin-discharge]] - data-layer-nepal-tributaries - [[data-solar-hydro-complementarity-profile]] - [[figure-i…",
         "target_exists": true
       },
       {
@@ -14254,14 +14306,14 @@
         "slug": "budhigandaki",
         "title": "Budhigandaki Hydroelectric Project",
         "category": "entities",
-        "context": "…et in Nepal's planned pipeline. See [[storage-deficit]] and seasonal-mismatch. | Parameter | Value | |-----------|-------| | Annual desi…",
+        "context": "…l's electricity system**. It addresses [[storage-deficit]], seasonal-mismatch, and [[firm-power]] simultaneously. The revenue difference…",
         "target_exists": true
       },
       {
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…counterpart to the growing RoR fleet that drives Nepal's seasonal-mismatch problem on the daily timescale. 3. **Climate-aware design.…",
+        "context": "…rt to the growing run-of-river fleet that drives Nepal's seasonal-mismatch problem on the daily timescale. 3. **Climate-aware design.…",
         "target_exists": true
       },
       {
@@ -14363,6 +14415,13 @@
         "target_exists": true
       },
       {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…upper-tamakoshi]] — the plant that broke the shedding era - seasonal-mismatch — the structural pattern that persists beyond shedding - [[…",
+        "target_exists": true
+      },
+      {
         "slug": "peak-water",
         "title": "Peak Water",
         "category": "concepts",
@@ -14419,13 +14478,6 @@
         "target_exists": true
       },
       {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…ion-transmission-completion]] | | 2 | [[storage-deficit]] / seasonal-mismatch | Deep structural | [[claim-storage-physical-fix]] | [[inte…",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -14464,7 +14516,7 @@
         "slug": "claim-timing-not-volume",
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
-        "context": "…d relevant syntheses for solution arguments. ## Related - seasonal-mismatch - [[data-basin-discharge]] - [[firm-power]]",
+        "context": "…and); it only reframes the physical problem. ## Related - seasonal-mismatch - [[data-basin-discharge]] - [[firm-power]] - [[data-winter…",
         "target_exists": true
       },
       {
@@ -14478,7 +14530,7 @@
         "slug": "claim-storage-physical-fix",
         "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
         "category": "claims",
-        "context": "…storage can address). ## Related - [[storage-deficit]] - seasonal-mismatch - [[budhigandaki]] - [[dudhkoshi-storage]]",
+        "context": "…]] and [[peak-water]]. ## Related - [[storage-deficit]] - seasonal-mismatch - [[data-winter-deficit-model]] — the model that reframes s…",
         "target_exists": true
       },
       {
@@ -14593,6 +14645,13 @@
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
         "context": "…rity ## Summary Nepal's structural problem is **timing** (claim-timing-not-volume). The single most under-used lever for fixing timing is the…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…-shaping + electrification | Demand-side virtual capacity | claim-timing-not-volume | [[intervention-electric-cooking-transition]] | ## Tier 2…",
         "target_exists": true
       },
       {
@@ -15381,6 +15440,78 @@
         "target_exists": true
       }
     ],
+    "data-winter-deficit-model": [
+      {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…t is a different, and more precise, reason to build it. See data-winter-deficit-model and [[solar-role-in-winter-deficit]] for the full numbers.…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "…— provided solar, BESS, and demand-shaping also arrive. See data-winter-deficit-model. ## Specifications | Parameter | Value | |-----------|---…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "…ose the gap. It is one lever in a four-lever portfolio. See data-winter-deficit-model. ## Specifications | Parameter | Value | |-----------|---…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…ening peak gap without it or an equivalent firm source. See data-winter-deficit-model. ## Tier 1 — Binding Constraints | Rank | Bottleneck | Na…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…igandaki-scale firm capacity are needed for the second. See data-winter-deficit-model. See [[claim-systems-conversion-failure]]. ## The Failure…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…numbers - [[bottleneck-hierarchy]] — the ranking to patch - data-winter-deficit-model — the reproducible monthly energy-balance model backing thi…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here",
+        "category": "syntheses",
+        "context": "…r daytime energy; it does not fix winter evening power. See data-winter-deficit-model for the full model and [[solar-role-in-winter-deficit]] for…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…ster-thesis]] — why this approach, not \"build more hydro\" - data-winter-deficit-model — the 2035 adequacy model that shapes the sequencing - [[so…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "…MW because solar has set and run-of-river cannot ramp. See data-winter-deficit-model. ## Confidence rationale **High** because four independen…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-storage-physical-fix",
+        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+        "category": "claims",
+        "context": "…evening peak** — the 6:30 pm moment when solar has set. See data-winter-deficit-model and [[solar-role-in-winter-deficit]]. - **Research ledger:*…",
+        "target_exists": true
+      }
+    ],
     "hetauda-bharatpur-bardaghat-corridor": [
       {
         "slug": "butwal-solar-ridi-8-5mwp",
@@ -15723,7 +15854,7 @@
         "slug": "claim-transmission-immediate-blocker",
         "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck",
         "category": "claims",
-        "context": "…a-bharatpur-bardaghat-corridor]] — 220 kV east–west spine - dana-kushma-butwal-corridor — 220 kV west-central evacuation ## Boundary Conditions -…",
+        "context": "…a-bharatpur-bardaghat-corridor]] — 220 kV east–west spine - dana-kushma-butwal-corridor — 220 kV west-central evacuation ### Cross-border pages -…",
         "target_exists": true
       },
       {
@@ -16072,7 +16203,7 @@
         "slug": "nea-960mw-solar-tender",
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
-        "context": "…operationalises - [[claim-solar-cheaper-than-small-hydro]], claim-solar-terai-only-short-cycle-build — the tracked claims this tender evidences ## Sources - […",
+        "context": "…operationalises - [[claim-solar-cheaper-than-small-hydro]], claim-solar-terai-only-short-cycle-build — the tracked claims this tender evidences",
         "target_exists": true
       },
       {
@@ -16093,7 +16224,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…+ short-cycle buildability | New binding solar constraint | claim-solar-terai-only-short-cycle-build | — | ## Tier 2 — Shaping Constraints | Rank | Bottleneck…",
+        "context": "…framework for Terai solar | New binding solar constraint | claim-solar-terai-only-short-cycle-build | — | | 3 | Storage build-out (hydro + BESS), re-framed as…",
         "target_exists": true
       },
       {
@@ -16115,6 +16246,15 @@
         "title": "Layer: Solar Plants + NEA 960 MW Awards",
         "category": "data",
         "context": "…-solar-fleet-inventory]] - [[claim-floating-pv-leverage]] - claim-solar-terai-only-short-cycle-build - [[data-map-layer-labels]] - [[data-map-inventory]]",
+        "target_exists": true
+      }
+    ],
+    "khungri-solar-hybrid-50mw": [
+      {
+        "slug": "nea-solar",
+        "title": "NEA Solar Programme",
+        "category": "entities",
+        "context": "…ard** | 50 | LoI-awarded / pre-PPA | Rapti Urja Pvt. Ltd. | khungri-solar-hybrid-50mw | | **Karnali Solar Energy Project** | ~10 (pilot) | Planne…",
         "target_exists": true
       }
     ],
@@ -16832,7 +16972,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…nt]] | | 7 | Project finance / institutional coordination | claim-governance-binding | [[intervention-nea-structural-separation]]; [[interventio…",
+        "context": "…nt]] | | 8 | Project finance / institutional coordination | claim-governance-binding | [[intervention-nea-structural-separation]]; [[interventio…",
         "target_exists": true
       },
       {
@@ -16872,6 +17012,13 @@
         "title": "Consumption Trajectory Outlook",
         "category": "concepts",
         "context": "…own terms. This page synthesizes [[data-domestic-demand]], data-industrial-electricity-consumers, [[data-agricultural-energy-consumption]], and [[data-consu…",
+        "target_exists": true
+      },
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…was historically unreliable (14 hours/day of outages). See data-industrial-electricity-consumers and [[energy-substitution-pathway]]. - **The \"reliability p…",
         "target_exists": true
       },
       {
@@ -16996,7 +17143,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…Evidence - [[bottleneck-hierarchy]] — ranked constraints - twenty-year-strategy — phased implementation - [[data-potential-pyramid]] — the…",
+        "context": "…erarchy]] — ranked constraints, updated by the 2035 model - twenty-year-strategy — phased implementation - [[data-winter-deficit-model]] — t…",
         "target_exists": true
       },
       {
@@ -17098,7 +17245,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…in-winter-deficit]] — the solar correction to the ranking - solar-in-the-master-narrative — the master-frame update",
+        "context": "…in-winter-deficit]] — the solar correction to the ranking - solar-in-the-master-narrative — the master-frame update - [[data-winter-deficit-model]] —…",
         "target_exists": true
       },
       {
@@ -17112,7 +17259,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…task. ## Related - [[master-thesis]] — the master frame - solar-in-the-master-narrative — the parallel synthesis - [[solar-hydro-complementarity]]…",
+        "context": "…hole. ## Related - [[master-thesis]] — the master frame - solar-in-the-master-narrative — the parallel synthesis - [[solar-hydro-complementarity]]…",
         "target_exists": true
       },
       {
@@ -17120,6 +17267,13 @@
         "title": "Start Here",
         "category": "syntheses",
         "context": "…y]] -> [[domestic-led-hydro-strategy]]. - For solar's role: solar-in-the-master-narrative -> [[solar-hydro-complementarity]] -> [[solar-role-in-winte…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…-in-winter-deficit]] — the four-lever portfolio synthesis - solar-in-the-master-narrative — how solar changes the strategy",
         "target_exists": true
       },
       {
@@ -17537,6 +17691,15 @@
         "target_exists": true
       }
     ],
+    "timilsina-cge-load-shedding-2021": [
+      {
+        "slug": "load-shedding-era",
+        "title": "Load Shedding Era",
+        "category": "concepts",
+        "context": "…dding | 14–18 hours/day (2009–2016) | World Bank CGE model (timilsina-cge-load-shedding-2021) | | Total GDP lost 2008–2016 | ~US$11 billion | Timilsina…",
+        "target_exists": true
+      }
+    ],
     "icimod-hkh-glacier-change": [
       {
         "slug": "peak-water",
@@ -17622,7 +17785,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…orage-deficit]] / [[seasonal-mismatch]] | Deep structural | claim-storage-physical-fix | [[intervention-electric-cooking-transition]] (demand-side…",
+        "context": "…re-framed as combined | Deep structural, but job changed | claim-storage-physical-fix | [[intervention-electric-cooking-transition]] (demand-side…",
         "target_exists": true
       },
       {
@@ -17647,13 +17810,6 @@
         "target_exists": true
       },
       {
-        "slug": "claim-timing-not-volume",
-        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
-        "category": "claims",
-        "context": "…icy responses (storage vs trade vs demand flexibility); see claim-storage-physical-fix, [[seasonal-arbitrage-trap]], and relevant syntheses for so…",
-        "target_exists": true
-      },
-      {
         "slug": "data-layer-storage-shortlist",
         "title": "Layer: Storage Shortlist",
         "category": "data",
@@ -17666,7 +17822,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…atch]] | Deep structural | [[claim-storage-physical-fix]] | intervention-electric-cooking-transition (demand-side); [[intervention-q-design-climate-adjustment]]…",
+        "context": "…uctural, but job changed | [[claim-storage-physical-fix]] | intervention-electric-cooking-transition (demand-side); [[intervention-q-design-climate-adjustment]]…",
         "target_exists": true
       },
       {
@@ -17680,7 +17836,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…[[green-hydrogen-nepal]] investment **Key interventions:** intervention-electric-cooking-transition (build domestic demand to absorb monsoon surplus); [[interv…",
+        "context": "…[[green-hydrogen-nepal]] investment **Key interventions:** intervention-electric-cooking-transition (build domestic demand to absorb monsoon surplus and shift…",
         "target_exists": true
       }
     ],
@@ -17689,7 +17845,7 @@
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
-        "context": "…/ offtake / demand weakness | [[seasonal-arbitrage-trap]] | intervention-nea-structural-separation; [[intervention-electric-cooking-transition]] | | 6 | Clima…",
+        "context": "…/ offtake / demand weakness | [[seasonal-arbitrage-trap]] | intervention-nea-structural-separation; [[intervention-electric-cooking-transition]] | | 7 | Clima…",
         "target_exists": true
       },
       {
@@ -17726,7 +17882,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…-adjusted hydrology before licensing the Phase 2 pipeline); intervention-sebon-data-transparency (ensure Phase 2 IPOs are transparently disclosed). ### Val…",
+        "context": "…-adjusted hydrology before licensing the Phase 2 pipeline); intervention-sebon-data-transparency (ensure Phase 2 IPOs are transparently disclosed). **Prior…",
         "target_exists": true
       }
     ],
@@ -17749,7 +17905,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…esilient, financeable, politically executable power.** See claim-systems-conversion-failure. ## The Failure Stack The conversion failure is not one b…",
+        "context": "…ded for the second. See [[data-winter-deficit-model]]. See claim-systems-conversion-failure. ## The Failure Stack The conversion failure is not one b…",
         "target_exists": true
       },
       {
@@ -17815,21 +17971,12 @@
         "target_exists": true
       }
     ],
-    "data-winter-deficit-model": [
-      {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…numbers - [[bottleneck-hierarchy]] — the ranking to patch - data-winter-deficit-model — the reproducible monthly energy-balance model backing thi…",
-        "target_exists": true
-      }
-    ],
     "data-map-layer-labels": [
       {
         "slug": "start-here",
         "title": "Start Here",
         "category": "syntheses",
-        "context": "…solar + storage + demand portfolio. ## Use The Map - Open data-map-layer-labels when you want to know what each map layer means. - Use [[da…",
+        "context": "…cit]] for what it means for policy. ## Use The Map - Open data-map-layer-labels when you want to know what each map layer means. - Use [[da…",
         "target_exists": true
       },
       {

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nepal Energy Charts — 2035 Winter Adequacy Model</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #f8f9fa;
+    color: #2d3436;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .subtitle {
+    font-size: 0.95rem;
+    color: #636e72;
+    margin-bottom: 2rem;
+  }
+  .chart-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+  .chart-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  }
+  .chart-preview {
+    width: 120px;
+    height: 80px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .chart-info h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .chart-info p {
+    font-size: 0.875rem;
+    color: #636e72;
+    line-height: 1.5;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .tag-energy { background: #fdcb6e; color: #2d3436; }
+  .tag-peak { background: #d63031; color: #fff; }
+  .tag-portfolio { background: #00b894; color: #fff; }
+  .back {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    color: #0984e3;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .back:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="../../pages/syntheses/start-here.html">← Back to Start Here</a>
+  <h1>2035 Winter Adequacy Model — Charts</h1>
+  <p class="subtitle">Self-contained SVG charts from the two-phase reproducible model. Open any chart in a new tab for a full-screen view.</p>
+  
+  <a class="chart-card" href="winter-energy-balance-2035.html">
+    <div class="chart-preview" style="background: linear-gradient(135deg, #0984e3 52%, #00b894 18%, #fdcb6e 21%, #00cec9 9%);">📊</div>
+    <div class="chart-info">
+      <h2>2035 Winter Energy Balance</h2>
+      <p>Stacked bar showing how the four-lever portfolio closes the Dec–Feb energy gap. Solar is the largest single new source, but no single lever dominates.</p>
+      <span class="tag tag-energy">Energy balance</span>
+    </div>
+  </a>
+  
+  <a class="chart-card" href="evening-peak-dispatch-2035.html">
+    <div class="chart-preview" style="background: linear-gradient(135deg, #0984e3 37%, #00b894 18%, #6c5ce7 12%, #00cec9 10%, #006266 27%);">⚡</div>
+    <div class="chart-info">
+      <h2>Evening Peak Dispatch at 18:30</h2>
+      <p>Four scenarios at the 6:30 pm winter peak. The full portfolio still leaves a 933 MW gap. Budhigandaki is the only tested lever that closes it.</p>
+      <span class="tag tag-peak">Evening peak</span>
+    </div>
+  </a>
+  
+  <a class="chart-card" href="gap-closure-trajectory.html">
+    <div class="chart-preview" style="background: linear-gradient(to right, #d63031 20%, #fdcb6e 30%, #d63031 15%, #00b894 20%, #6c5ce7 15%);">📈</div>
+    <div class="chart-info">
+      <h2>Gap Closure Trajectory</h2>
+      <p>Waterfall chart: from the 2025 baseline gap, through solar addition, demand growth, storage build, and BESS + shaping, to gap closed.</p>
+      <span class="tag tag-portfolio">Portfolio</span>
+    </div>
+  </a>
+  
+  <a class="chart-card" href="four-lever-contribution.html">
+    <div class="chart-preview" style="background: linear-gradient(135deg, #0984e3 52%, #00b894 18%, #fdcb6e 21%, #00cec9 9%);">🔧</div>
+    <div class="chart-info">
+      <h2>Four-Lever Contribution</h2>
+      <p>How each lever contributes to total 2035 winter supply. The existing RoR baseline still carries more than half the load.</p>
+      <span class="tag tag-portfolio">Portfolio</span>
+    </div>
+  </a>
+  
+  <a class="chart-card" href="evening-peak-budhigandaki.html">
+    <div class="chart-preview" style="background: linear-gradient(135deg, #d63031 23%, #00b894 27%);">🏔️</div>
+    <div class="chart-info">
+      <h2>Evening Peak: With and Without Budhigandaki</h2>
+      <p>Side-by-side before/after. Without Budhigandaki: 933 MW shortage. With it: 147 MW surplus. The distinction between energy and firm capacity.</p>
+      <span class="tag tag-peak">Evening peak</span>
+    </div>
+  </a>
+  
+  <p style="margin-top: 2rem; font-size: 0.8rem; color: #b2bec3;">
+    Source: <code>scripts/build_winter_deficit_model.py</code> and <code>scripts/build_diurnal_peak_model.py</code>. 
+    See <a href="../../pages/data/data-winter-deficit-model.html" style="color:#0984e3;">data-winter-deficit-model</a> for methodology.
+  </p>
+</div>
+</body>
+</html>

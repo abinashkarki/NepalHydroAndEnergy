@@ -2,7 +2,7 @@
 title: Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-07
 claim_id: C-019
 confidence: medium-high
 status: verified-with-caveats
@@ -61,12 +61,6 @@ The pattern confirms the claim: **piecemeal progress with persistent local-resis
 - [[khimti-dhalkebar-corridor]] — the original 220 kV IPP evacuation line
 - [[hetauda-bharatpur-bardaghat-corridor]] — 220 kV east–west spine
 - [[dana-kushma-butwal-corridor]] — 220 kV west-central evacuation
-
-## Boundary Conditions
-
-- This claim is about **immediate monetization** bottlenecks, not the only system bottleneck. It does not claim transmission alone solves seasonal mismatch or storage deficit.
-- It does not claim all curtailment is transmission-caused; market-absorption limits and scheduling failures also strand energy.
-- It does not claim the 400 kV backbone completion eliminates all west/east evacuation constraints; distribution and substation capacity may remain binding.
 
 ### Cross-border pages
 

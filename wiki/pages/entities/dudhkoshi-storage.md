@@ -2,7 +2,7 @@
 title: Dudhkoshi Storage Hydroelectric Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-08
 generator: specs-refresh
 page_quality: analysis
 sources: [dudhkoshi-nea-proposal-2024, nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2]
@@ -37,14 +37,20 @@ images:
   <figcaption>Project area of Dudhkoshi Storage</figcaption>
 </figure>
 
-## Summary
-
 A 635–670 MW **storage reservoir** scheme straddling Okhaldhunga,
 Khotang and Solukhumbu in the eastern [[koshi-basin]] — on paper, the
 single largest dry-season lever in Nepal's planned pipeline, and a
 decades-old feasibility that is only now approaching a real financing
 decision. NEA-owned, AIIB-financed-in-proposal, ~2027 construction
 start, ~2031 commercial operation if the schedule holds.
+
+## In plain language
+
+**What it is:** a very large dam on the Dudh Koshi River that would store monsoon water in a reservoir roughly 1.6 billion cubic metres in size, then release it to generate electricity in the dry winter months. It also includes a 200 MW "pumped storage" component — Nepal's first water battery that can pump water back uphill at night and release it again in the evening peak.
+
+**Why it matters:** Nepal currently has only one operating storage plant: [[kulekhani-cascade]] at 106 MW. Dudhkoshi at 670 MW would be **six times larger** and transform the country's ability to keep the lights on in winter. But the project has been "about to be built" for roughly 40 years, so the timeline is uncertain.
+
+**What the 2035 model says:** Dudhkoshi is the second-biggest storage contributor in the 2035 full portfolio, after the existing hydro baseline. Together with [[tanahu-hydropower]], it provides roughly **~834 GWh of dry-season energy** above the run-of-river baseline. In the evening peak model, Dudhkoshi's 670 MW (603 MW effective at 0.9 dispatch factor) is the difference between a 1,833 MW shortage and a much more manageable gap — provided solar, BESS, and demand-shaping also arrive. See [[data-winter-deficit-model]].
 
 ## Specifications
 
@@ -115,7 +121,7 @@ that makes it structurally important:
 2. **Pumped storage first mover.** A 200 MW pumped storage component
    is planned as Nepal's first "water battery." This turns Dudhkoshi
    into a grid-balancing asset, not just an energy source, and is the
-   natural counterpart to the growing RoR fleet that drives Nepal's
+   natural counterpart to the growing run-of-river fleet that drives Nepal's
    [[seasonal-mismatch]] problem on the daily timescale.
 
 3. **Climate-aware design.** The project is being scoped with
@@ -123,6 +129,15 @@ that makes it structurally important:
    response to Nepal's [[sediment-as-design-constraint]] reality and
    to the fact that the upper Dudh Koshi routinely receives GLOF
    pulses from the Everest region (see [[glof-risk]]).
+
+**In the 2035 portfolio model**, Dudhkoshi is the largest pre-2035
+storage addition. Its absence is what makes the "solar only" scenario
+fail so badly at evening peak: without Dudhkoshi, the evening shortage
+jumps to 2,436 MW. With Dudhkoshi (and Tanahu, solar, BESS, and
+demand-shaping), the gap shrinks to 933 MW — still material, but
+manageable with imports or additional firm capacity. Dudhkoshi does
+not close the evening peak alone, but it is the biggest single reason
+why the 2035 full portfolio gets as close as it does.
 
 Compare Dudhkoshi (670 MW, storage, AIIB, domestic) to [[arun-3]]
 (900 MW, peaking RoR, SJVN, export-first). Both are in the Koshi
@@ -156,6 +171,12 @@ projects at this scale is several years, and Nepal will need to
 demonstrate fiscal space, guarantee structures and procurement
 readiness to move the conversation.
 
+**Schedule risk in the model.** The 2035 adequacy model flags
+Dudhkoshi as a *scenario-risk* project: its COD is ambitious and
+the project has been "about to start" for decades. If Dudhkoshi
+slips past 2035, the winter gap reopens unless solar, BESS, or
+demand-shaping are scaled up to compensate.
+
 ## Official Visual References
 
 The new DKJVCL project material is a stronger visual source than the
@@ -177,11 +198,14 @@ Source: [Dudhkoshi Storage Hydroelectric Project Development Teaser (PDF)](https
 
 ## Related
 
+- [[data-winter-deficit-model]] — the model that treats Dudhkoshi as a core 2035 portfolio lever
+- [[solar-role-in-winter-deficit]] — how Dudhkoshi fits into the four-lever winter strategy
 - [[storage-deficit]] — what Dudhkoshi would begin to address
 - [[koshi-basin]] — the basin context
 - [[glof-risk]] — the 2024 Thame Valley GLOF traveled down the Dudh Koshi river
-- [[tanahu-hydropower]]
-- [[firm-power]]
+- [[tanahu-hydropower]] — the storage project Nepal is building now
+- [[firm-power]] — why dependable timing matters more than nameplate megawatts
+- [[budhigandaki]] — the post-2035 storage option for evening firm capacity
 - [[sediment-as-design-constraint]]
 
 ## Map Assets

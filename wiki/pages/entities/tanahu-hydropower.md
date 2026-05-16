@@ -2,7 +2,7 @@
 title: Tanahu Hydropower Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-05-08
 generator: specs-refresh
 page_quality: analysis
 sources: [tanahu-adb-status-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
@@ -57,15 +57,21 @@ images:
 
 # Tanahu Hydropower Project
 
-## Summary
-
 A 140 MW **storage-type** reservoir scheme on the Seti River — the
 only large dam-and-reservoir project actually in active construction
-in Nepal, making it the single most important test case for
+in Nepal, and therefore the single most important test case for
 whether the country can execute [[storage-deficit]]-closing assets at
 all. ADB-financed, NEA-owned, ~67% complete as of FY 2024/25, and
 shadowed by two Accountability Mechanism complaints over land and
 buffer-zone compensation.
+
+## In plain language
+
+**What it is:** a dam on the Seti River that stores water during the monsoon and releases it to generate electricity in the dry winter months. Unlike most Nepali hydropower, which is "run-of-river" (meaning it generates when the river flows and stops when it drops), Tanahu can **choose when to generate**.
+
+**Why it matters:** Nepal's rivers are full in summer and nearly empty in winter. Tanahu is the first large "water battery" Nepal has tried to build since 1982. If it succeeds, it proves Nepal can build storage. If it fails, every future storage project — including much larger ones like [[dudhkoshi-storage]] and [[budhigandaki]] — becomes harder to finance.
+
+**What the 2035 model says:** Tanahu contributes roughly **~834 GWh of dry-season energy** in the 2035 full portfolio scenario (combined with Dudhkoshi above the existing run-of-river baseline). That is a meaningful share of the ~4,188 GWh winter demand, but Tanahu alone cannot close the gap. It is one lever in a four-lever portfolio. See [[data-winter-deficit-model]].
 
 ## Specifications
 
@@ -120,6 +126,16 @@ If Tanahu fails — especially on the social-compliance dimension the
 Accountability Mechanism is reviewing — future large storage
 proposals will carry that memory as a risk premium.
 
+**In the 2035 portfolio model**, Tanahu is the first and most certain
+storage addition. Its 140 MW of dispatchable evening capacity is
+included in every 2035 scenario that closes the winter energy gap.
+Together with Dudhkoshi, it provides the reservoir-hydro backbone
+that allows solar to do its daytime job without leaving the evening
+peak exposed. Without Tanahu (and Dudhkoshi), the 2035 model shows a
+much larger gap — 2,436 MW of evening shortage in the "solar only"
+scenario — because there is simply no stored water to release after
+sunset.
+
 Compare Tanahu (140 MW, reservoir, ADB, domestic) to [[arun-3]] (900 MW,
 peaking RoR, SJVN-India, export-oriented). Both are under construction
 but solve different problems: Tanahu addresses dry-season [[firm-power]]
@@ -141,6 +157,12 @@ elsewhere. Each additional year compounds NEA's dry-season
 [[firm-power]] exposure, since the entire medium-term planning
 rationale for Tanahu depends on it arriving before the
 [[seasonal-mismatch]] pressure peaks.
+
+**Model assumption.** The 2035 adequacy model assumes Tanahu is
+operational by 2026. If Tanahu delays further, the 2035 portfolio
+loses its first storage lever and the winter gap widens. Tanahu is
+the most certain storage addition in the model — but "most certain"
+is relative in Nepal's project pipeline.
 
 **Not a basin-scale answer.** Even at full output, Tanahu cannot
 close the dry-season gap on its own. It is one node in a portfolio
@@ -170,12 +192,14 @@ Source: [An Overview of Tanahu Hydropower Project (PDF)](https://edcnepal.org/wp
 
 ## Related
 
+- [[data-winter-deficit-model]] — the model that includes Tanahu in the 2035 full portfolio
+- [[solar-role-in-winter-deficit]] — how Tanahu fits into the four-lever winter strategy
 - [[storage-deficit]] — what Tanahu begins to address
 - [[buildability]] — Tanahu's progress suggests storage is difficult but not impossible
 - [[kulekhani-cascade]] — the only current storage asset
-- [[firm-power]]
-- [[dudhkoshi-storage]]
-- [[budhigandaki]]
+- [[firm-power]] — why dependable timing matters more than nameplate megawatts
+- [[dudhkoshi-storage]] — the next storage project in the pipeline
+- [[budhigandaki]] — the largest storage project, treated as post-2035 in the model
 
 ## Map Assets
 

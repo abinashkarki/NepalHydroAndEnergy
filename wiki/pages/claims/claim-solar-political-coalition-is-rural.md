@@ -2,7 +2,7 @@
 title: Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale
 type: claim
 created: 2026-04-24
-updated: 2026-05-13
+updated: 2026-05-07
 claim_id: C-016
 confidence: medium
 status: stable
@@ -27,12 +27,9 @@ Nepal's durable solar coalition is not only the utility-scale IPP market. It is 
 
 **Medium** because political-coalition strength is harder to quantify than capacity or tariff. The institutional basis is clear: AEPC's mandate and programme stack make solar visible to rural households, farmers, local governments, and cooperatives, not only IPPs.
 
-## Boundary Conditions
+## Boundary conditions
 
-- This claim does not say distributed solar supplies most grid energy. It says it supplies political legitimacy and local value.
-- It does not say utility-scale solar has no political support. It says the coalition is broader than IPPs alone.
-- It does not say rural solar is more cost-effective than utility solar. It says rural solar creates a different kind of value.
-- It does not predict policy outcomes. It explains why solar policy has institutional resilience.
+This claim does not argue that distributed solar supplies most grid energy. It argues that distributed solar supplies political legitimacy and local value, which utility-scale solar needs if land and subsidy debates intensify.
 
 ## Related
 
