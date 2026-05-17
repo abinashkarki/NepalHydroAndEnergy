@@ -8,7 +8,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' unpkg.com; img-src 'self' data: *.cartocdn.com *.opentopomap.org server.arcgisonline.com *.tile.openstreetmap.org tile.openstreetmap.org *.basemaps.cartocdn.com; connect-src 'self' cdn.jsdelivr.net unpkg.com; frame-src 'none';" />
   <title>Nepal Energy · Wiki & Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" />
-  <link rel="stylesheet" href="shared/style.css?v=public-launch-6" />
+  <link rel="stylesheet" href="shared/style.css?v=public-launch-7" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
   <script src="shared/marked.min.js?v=public-launch-6"></script>
   <script src="shared/leaflet-init.js?v=public-launch-6"></script>
@@ -2809,7 +2809,7 @@
 <body>
 
   <div class="app-bar">
-    <span class="title">Nepal Energy · Wiki & Map</span>
+    <a class="title home-link" id="home-link" href="?page=start-here" title="Open Start Here" aria-label="Open Start Here">Nepal Energy · Wiki & Map</a>
     <span class="pill">nav · wiki page · live map (bidirectional)</span>
     <span class="spacer"></span>
     <button class="reset-btn" id="reset-layout" title="Reset pane widths and view preferences">Reset layout</button>
@@ -2901,6 +2901,15 @@
       let currentBaseLayer = "Carto Positron";
       let layerFeatureCounts = {};
       const DEFAULT_PAGE = "start-here";
+      const homeLink = document.getElementById("home-link");
+      if (homeLink) {
+        homeLink.addEventListener("click", (e) => {
+          if (typeof window.openWikiPage !== "function") return;
+          e.preventDefault();
+          pageHistory = [];
+          window.openWikiPage(DEFAULT_PAGE, { resetHistory: true });
+        });
+      }
       let searchMode = localStorage.getItem("explorer.searchMode") || "seek";
       if (!["search", "seek"].includes(searchMode)) searchMode = "seek";
       let seekSeq = 0;
@@ -3874,7 +3883,7 @@
 
         // Reader-local breadcrumb history. Back navigation must not record the
         // page it just left, otherwise the stack collapses into a two-page loop.
-        if (!opts.fromBreadcrumb && prevSlug && prevSlug !== slug) {
+        if (!opts.resetHistory && !opts.fromBreadcrumb && prevSlug && prevSlug !== slug) {
           const histIdx = pageHistory.findIndex(p => p.slug === slug);
           if (histIdx >= 0) {
             pageHistory = pageHistory.slice(0, histIdx);
