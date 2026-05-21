@@ -2,7 +2,7 @@
 title: Figure Index
 type: data
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-21
 figure_type: table
 sources: []
 tags: [figures, charts, manifest, data]

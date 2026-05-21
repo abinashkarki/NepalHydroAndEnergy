@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -66,6 +67,19 @@ def rel(path: Path) -> str:
 
 def figure_rel_path(figure_id: str, suffix: str = "svg") -> str:
     return f"../assets/figures/{figure_id}.{suffix}"
+
+
+def file_sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def source_file_hashes(entry: dict) -> dict[str, str]:
+    hashes: dict[str, str] = {}
+    for source_file in entry.get("source_files", []):
+        source_path = ROOT / source_file
+        if source_path.exists():
+            hashes[source_file] = file_sha256(source_path)
+    return hashes
 
 
 def parse_percent_metric(raw: str) -> tuple[float | None, str]:
@@ -778,12 +792,17 @@ def copy_legacy_figure(
 
 
 def write_manifest(figures: list[dict]) -> None:
+    enriched_figures: dict[str, dict] = {}
+    for entry in figures:
+        enriched = dict(entry)
+        enriched["source_file_hashes"] = source_file_hashes(enriched)
+        enriched_figures[entry["figure_id"]] = enriched
     manifest = {
         "version": 1,
         "_doc": "Published wiki figure registry. Figure paths resolve relative to wiki/explorer/.",
         "generated_at": TODAY,
         "default_license": "CC-BY 4.0",
-        "figures": {entry["figure_id"]: entry for entry in figures},
+        "figures": enriched_figures,
     }
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     MANIFEST_PATH.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

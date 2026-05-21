@@ -1529,6 +1529,28 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-21 — Validation Warning Cleanup
+
+**Agent:** Codex
+**Session type:** Validation hygiene / registry coverage pass
+**Pages touched:**
+- `data/solar_project_specs.csv`: added `project_group_slug` coverage for 63 NEA 960 MW LOI rows and 5 Nuwakot NEA solar block rows.
+- `scripts/build_wiki_figures.py`: added source-file SHA-256 hashes to generated figure manifest entries.
+- `scripts/validate_repo.py`: replaced figure staleness checks based on file modification time with hash-based source drift checks; treated solar rows as covered when their own slug or group slug has a wiki page.
+- `wiki/explorer/shared/wiki-figure-manifest.json`, `wiki/assets/figures/*`, `wiki/pages/data/figure-index`: regenerated the published figure registry and assets.
+
+**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 386 wiki pages, caches valid, map manifest valid, tracked hygiene clean`; `git diff --check` passed. The stale-figure timestamp warnings and 67-row solar coverage warning are resolved.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Preserved row-level solar records in `data/solar_project_specs.csv` rather than creating dozens of low-value tender stub pages.
+- Used group-page coverage for pre-PPA LOI awards and project-block records because the wiki already has canonical pages for the portfolio-level interpretation.
+- Made figure freshness content-based so clean checkout timestamp order no longer creates false stale warnings.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

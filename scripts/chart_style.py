@@ -100,4 +100,8 @@ def save_svg(
             "Description": f"{figure_id}: {source_note}. Caveat: {caveat}",
         },
     )
+    path.write_text(
+        "\n".join(line.rstrip() for line in path.read_text(encoding="utf-8").splitlines()) + "\n",
+        encoding="utf-8",
+    )
     plt.close(fig)

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-05-13</dc:date>
+    <dc:date>2026-05-21</dc:date>
     <dc:description>wecs_basin_potential: WECS 2019 gross potential table. Caveat: gross potential is not buildable capacity</dc:description>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
@@ -27,19 +27,19 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 328.506047 
-L 592.848 328.506047 
-L 592.848 0 
-L 0 0 
+   <path d="M 0 328.506047
+L 592.848 328.506047
+L 592.848 0
+L 0 0
 z
 " style="fill: #fbfaf7"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 63.216 249.306047 
-L 582.768 249.306047 
-L 582.768 31.578047 
-L 63.216 31.578047 
+    <path d="M 63.216 249.306047
+L 582.768 249.306047
+L 582.768 31.578047
+L 63.216 31.578047
 z
 " style="fill: #fbfaf7"/>
    </g>
@@ -73,9 +73,9 @@ z
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_5">
-      <path d="M 63.216 249.306047 
-L 582.768 249.306047 
-" clip-path="url(#p10f0a943fc)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+      <path d="M 63.216 249.306047
+L 582.768 249.306047
+" clip-path="url(#p1c8c85aebb)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_6"/>
      <g id="text_5">
@@ -84,9 +84,9 @@ L 582.768 249.306047
     </g>
     <g id="ytick_2">
      <g id="line2d_7">
-      <path d="M 63.216 214.188628 
-L 582.768 214.188628 
-" clip-path="url(#p10f0a943fc)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+      <path d="M 63.216 214.188628
+L 582.768 214.188628
+" clip-path="url(#p1c8c85aebb)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_8"/>
      <g id="text_6">
@@ -95,9 +95,9 @@ L 582.768 214.188628
     </g>
     <g id="ytick_3">
      <g id="line2d_9">
-      <path d="M 63.216 179.071208 
-L 582.768 179.071208 
-" clip-path="url(#p10f0a943fc)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+      <path d="M 63.216 179.071208
+L 582.768 179.071208
+" clip-path="url(#p1c8c85aebb)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_10"/>
      <g id="text_7">
@@ -106,9 +106,9 @@ L 582.768 179.071208
     </g>
     <g id="ytick_4">
      <g id="line2d_11">
-      <path d="M 63.216 143.953789 
-L 582.768 143.953789 
-" clip-path="url(#p10f0a943fc)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+      <path d="M 63.216 143.953789
+L 582.768 143.953789
+" clip-path="url(#p1c8c85aebb)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_12"/>
      <g id="text_8">
@@ -117,9 +117,9 @@ L 582.768 143.953789
     </g>
     <g id="ytick_5">
      <g id="line2d_13">
-      <path d="M 63.216 108.836369 
-L 582.768 108.836369 
-" clip-path="url(#p10f0a943fc)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+      <path d="M 63.216 108.836369
+L 582.768 108.836369
+" clip-path="url(#p1c8c85aebb)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_14"/>
      <g id="text_9">
@@ -128,9 +128,9 @@ L 582.768 108.836369
     </g>
     <g id="ytick_6">
      <g id="line2d_15">
-      <path d="M 63.216 73.71895 
-L 582.768 73.71895 
-" clip-path="url(#p10f0a943fc)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+      <path d="M 63.216 73.71895
+L 582.768 73.71895
+" clip-path="url(#p1c8c85aebb)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_16"/>
      <g id="text_10">
@@ -139,9 +139,9 @@ L 582.768 73.71895
     </g>
     <g id="ytick_7">
      <g id="line2d_17">
-      <path d="M 63.216 38.601531 
-L 582.768 38.601531 
-" clip-path="url(#p10f0a943fc)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+      <path d="M 63.216 38.601531
+L 582.768 38.601531
+" clip-path="url(#p1c8c85aebb)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_18"/>
      <g id="text_11">
@@ -153,55 +153,55 @@ L 582.768 38.601531
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 86.832 249.306047 
-L 167.726586 249.306047 
-L 167.726586 54.018078 
-L 86.832 54.018078 
+    <path d="M 86.832 249.306047
+L 167.726586 249.306047
+L 167.726586 54.018078
+L 86.832 54.018078
 z
-" clip-path="url(#p10f0a943fc)" style="fill: #4477aa"/>
+" clip-path="url(#p1c8c85aebb)" style="fill: #4477aa"/>
    </g>
    <g id="patch_4">
-    <path d="M 217.307138 249.306047 
-L 298.201724 249.306047 
-L 298.201724 106.132328 
-L 217.307138 106.132328 
+    <path d="M 217.307138 249.306047
+L 298.201724 249.306047
+L 298.201724 106.132328
+L 217.307138 106.132328
 z
-" clip-path="url(#p10f0a943fc)" style="fill: #ccbb44"/>
+" clip-path="url(#p1c8c85aebb)" style="fill: #ccbb44"/>
    </g>
    <g id="patch_5">
-    <path d="M 347.782276 249.306047 
-L 428.676862 249.306047 
-L 428.676862 110.219996 
-L 347.782276 110.219996 
+    <path d="M 347.782276 249.306047
+L 428.676862 249.306047
+L 428.676862 110.219996
+L 347.782276 110.219996
 z
-" clip-path="url(#p10f0a943fc)" style="fill: #228833"/>
+" clip-path="url(#p1c8c85aebb)" style="fill: #228833"/>
    </g>
    <g id="patch_6">
-    <path d="M 478.257414 249.306047 
-L 559.152 249.306047 
-L 559.152 217.342172 
-L 478.257414 217.342172 
+    <path d="M 478.257414 249.306047
+L 559.152 249.306047
+L 559.152 217.342172
+L 478.257414 217.342172
 z
-" clip-path="url(#p10f0a943fc)" style="fill: #667085"/>
+" clip-path="url(#p1c8c85aebb)" style="fill: #667085"/>
    </g>
    <g id="patch_7">
-    <path d="M 63.216 249.306047 
-L 63.216 31.578047 
+    <path d="M 63.216 249.306047
+L 63.216 31.578047
 " style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_8">
-    <path d="M 582.768 249.306047 
-L 582.768 31.578047 
+    <path d="M 582.768 249.306047
+L 582.768 31.578047
 " style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_9">
-    <path d="M 63.216 249.306047 
-L 582.768 249.306047 
+    <path d="M 63.216 249.306047
+L 582.768 249.306047
 " style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_10">
-    <path d="M 63.216 31.578047 
-L 582.768 31.578047 
+    <path d="M 63.216 31.578047
+L 582.768 31.578047
 " style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_13">
@@ -226,11 +226,11 @@ L 582.768 31.578047
   </g>
   <g id="text_18">
    <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 308.705672)">wecs_basin_potential | WECS 2019 gross potential table | Caveat: gross potential is not buildable capacity |</text>
-   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 316.775578)">2026-05-13 | CC-BY 4.0</text>
+   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 316.775578)">2026-05-21 | CC-BY 4.0</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p10f0a943fc">
+  <clipPath id="p1c8c85aebb">
    <rect x="63.216" y="31.578047" width="519.552" height="217.728"/>
   </clipPath>
  </defs>

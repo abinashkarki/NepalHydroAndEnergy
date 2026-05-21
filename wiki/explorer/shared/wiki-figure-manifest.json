@@ -1,7 +1,7 @@
 {
   "version": 1,
   "_doc": "Published wiki figure registry. Figure paths resolve relative to wiki/explorer/.",
-  "generated_at": "2026-05-13",
+  "generated_at": "2026-05-21",
   "default_license": "CC-BY 4.0",
   "figures": {
     "monthly_trade_3y": {
@@ -21,7 +21,10 @@
       "caveat": "Annual-report comparison chart totals differ slightly from NEA narrative totals.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "data/processed/tables/nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv": "429957d9ecca98a3b736f6cad16e4dcb274f33a3822266c0256cfc260261e068"
+      }
     },
     "fleet_capacity_mix": {
       "figure_id": "fleet_capacity_mix",
@@ -41,7 +44,10 @@
       "caveat": "Fleet taxonomy varies by reporting source; FY 2022/23 seasonal split is single-year.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "wiki/pages/data/data-fleet-composition.md": "051b51c51edf82fe643ccd5b24eaf357bd221dd5292c2d5f3511b57ad056fcbd"
+      }
     },
     "basin_seasonality_compare": {
       "figure_id": "basin_seasonality_compare",
@@ -61,7 +67,10 @@
       "caveat": "Metrics mix runoff, surface flow, and rainfall depending on available public source.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "data/processed/tables/nepal_basin_seasonality_baseline.csv": "1de5c88f9ecb9d40d305b20f75139a5e42cfe6d12d69fc7384ef4d7a651dca84"
+      }
     },
     "storage_gap": {
       "figure_id": "storage_gap",
@@ -82,7 +91,11 @@
       "caveat": "JICA storage-need estimates are electricity-system planning needs; current storage uses Kulekhani operational capacity.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "data/processed/tables/nepal_storage_dry_energy_shortlist.csv": "edfb715311555f3dd27fae0e97cb35f45ceaa4e34d81813d45243cc0c49765b3",
+        "wiki/pages/data/data-storage-comparison.md": "4e678aadea0e62ca54e74a117205580b10220107cc8be6faa44fc42a3f1ddc3f"
+      }
     },
     "electricity_trade_shift": {
       "figure_id": "electricity_trade_shift",
@@ -102,7 +115,10 @@
       "caveat": "Annual totals hide the wet-export and dry-import monthly structure shown in monthly_trade_3y.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "wiki/pages/data/data-trade-time-series.md": "0abd49f63611fc97d848a551b9feeebb3ece3c5830ff806f9e29497f023e2e59"
+      }
     },
     "lead1_fy2081_82_trade_vs_storage": {
       "figure_id": "lead1_fy2081_82_trade_vs_storage",
@@ -121,7 +137,10 @@
       "caveat": "Compact wiki figure excludes daily-report parsed points; see the lead-1 table for daily subset coverage.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "data/processed/lead1_trade/lead1_monthly_import_export_storage_fy2081_82.csv": "4e68c008a50f2e03e61ee7bd617e3b93b20abed38995cc7f35480f46739ae4b2"
+      }
     },
     "license_type_mix": {
       "figure_id": "license_type_mix",
@@ -140,7 +159,10 @@
       "caveat": "Licensing-stage counts are administrative status snapshots, not financing readiness.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "data/processed/naxa_hydropower_projects.csv": "e84f52d2aa7b108ba40a582dc713c523c99ad56074818e8bc50f2392340d3176"
+      }
     },
     "top_operational_projects": {
       "figure_id": "top_operational_projects",
@@ -159,7 +181,10 @@
       "caveat": "Public-portal operating status and capacity values can lag commissioning updates.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "data/processed/naxa_hydropower_projects.csv": "e84f52d2aa7b108ba40a582dc713c523c99ad56074818e8bc50f2392340d3176"
+      }
     },
     "wecs_basin_potential": {
       "figure_id": "wecs_basin_potential",
@@ -179,7 +204,10 @@
       "caveat": "Gross potential is not equivalent to economically developable or transmission-ready capacity.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "data/processed/wecs_hydropower_potential_2019.txt": "9e18e4bba07bd95715e15465d8cac6f4b5d22c60584d76135567b28c546fc6a8"
+      }
     },
     "capacity_balance_fy2024_25": {
       "figure_id": "capacity_balance_fy2024_25",
@@ -199,7 +227,10 @@
       "caveat": "Monthly capacity-balance rows do not replace hourly dispatch or adequacy modeling.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "data/processed/tables/nea_monthly_capacity_balance_fy2024_2025.csv": "d76b7e0d14da43373dc9d812ce42396ee5c639d379a3cd6d5e871deec249722b"
+      }
     },
     "export_revenue_fy2025_26": {
       "figure_id": "export_revenue_fy2025_26",
@@ -218,7 +249,10 @@
       "caveat": "First five months only; this is not a full-year revenue curve.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "wiki/pages/data/data-trade-time-series.md": "0abd49f63611fc97d848a551b9feeebb3ece3c5830ff806f9e29497f023e2e59"
+      }
     },
     "potential_pyramid_funnel": {
       "figure_id": "potential_pyramid_funnel",
@@ -239,7 +273,10 @@
       "caveat": "Intermediate levels are compiled order-of-magnitude estimates, not definitive ceilings.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13"
+      "last_generated": "2026-05-21",
+      "source_file_hashes": {
+        "wiki/pages/data/data-potential-pyramid.md": "106f0e982c02c420e5e605799a906377df8e6b0f5e14e43bb2795c15c4931a67"
+      }
     },
     "hydropower_license_map": {
       "figure_id": "hydropower_license_map",
@@ -258,10 +295,13 @@
       "caveat": "Static map is a portfolio snapshot; use the explorer map for current interactive filtering.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-13",
+      "last_generated": "2026-05-21",
       "format": "png",
       "legacy_source": "figures/hydropower_license_map.png",
-      "raster_ok": true
+      "raster_ok": true,
+      "source_file_hashes": {
+        "figures/hydropower_license_map.png": "3f89798d1723025bf6dca662067912b14a73f3ed19adfee1ff366234a8bae6a8"
+      }
     }
   }
 }

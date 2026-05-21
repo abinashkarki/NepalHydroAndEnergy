@@ -5,6 +5,7 @@ from __future__ import annotations
 import csv as csv_module
 import datetime as dt
 import difflib
+import hashlib
 import json
 import os
 import re
@@ -197,6 +198,10 @@ def resolve_explorer_path(path: str) -> Path:
     return (ROOT / "wiki" / "explorer" / path).resolve()
 
 
+def file_sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
 def validate_figure_manifest() -> None:
     if not FIGURE_MANIFEST.exists():
         return
@@ -224,13 +229,24 @@ def validate_figure_manifest() -> None:
         source_files = entry.get("source_files") or []
         if not isinstance(source_files, list):
             fail(f"figure manifest entry {figure_id} source_files must be a list")
+        source_hashes = entry.get("source_file_hashes") or {}
+        if source_hashes and not isinstance(source_hashes, dict):
+            fail(f"figure manifest entry {figure_id} source_file_hashes must be an object")
         for source_file in source_files:
             if not isinstance(source_file, str):
                 fail(f"figure manifest entry {figure_id} source_files contains a non-string")
             source_path = ROOT / source_file
             if not source_path.exists():
                 fail(f"figure manifest entry {figure_id} source file is missing: {source_file}")
-            if source_path.stat().st_mtime > figure_path.stat().st_mtime:
+            expected_hash = source_hashes.get(source_file)
+            if isinstance(expected_hash, str) and expected_hash:
+                actual_hash = file_sha256(source_path)
+                if actual_hash != expected_hash:
+                    warn(
+                        f"figure {figure_id} may be stale: {source_file} content changed since "
+                        f"{figure_path.relative_to(ROOT)} was generated"
+                    )
+            elif source_path.stat().st_mtime > figure_path.stat().st_mtime:
                 warn(
                     f"figure {figure_id} may be stale: {source_file} is newer than "
                     f"{figure_path.relative_to(ROOT)}"
@@ -821,11 +837,24 @@ def validate_solar_specs_csv(slugs: set[str]) -> None:
     if orphaned:
         fail("solar CSV references wiki pages that do not exist:\n  " + "\n  ".join(orphaned[:25]))
 
-    # Collect slugs and check against wiki pages
+    # Collect slugs and check against wiki pages. Rows can be covered either by
+    # their own page or by a canonical group page for tender/block records.
     spec_slugs = {row.get("slug", "").strip() for row in rows if row.get("slug", "").strip()}
-    orphaned_pages = spec_slugs - slugs
-    if orphaned_pages:
-        print(f"WARNING: {len(orphaned_pages)} solar CSV slugs with no wiki page: {', '.join(sorted(orphaned_pages)[:20])}")
+    missing_groups: list[str] = []
+    uncovered: list[str] = []
+    for row in rows:
+        row_slug = (row.get("slug") or "").strip()
+        if not row_slug:
+            continue
+        group_slug = (row.get("project_group_slug") or "").strip()
+        if group_slug and group_slug not in slugs:
+            missing_groups.append(f"{row_slug}: project_group_slug '{group_slug}' not found in wiki pages")
+        if row_slug not in slugs and (not group_slug or group_slug not in slugs):
+            uncovered.append(row_slug)
+    if missing_groups:
+        fail("solar CSV references project_group_slug pages that do not exist:\n  " + "\n  ".join(missing_groups[:25]))
+    if uncovered:
+        print(f"WARNING: {len(uncovered)} solar CSV rows with no wiki or group page: {', '.join(sorted(uncovered)[:20])}")
     print(f"solar specs CSV: {len(spec_slugs)} project slugs, {len(fieldnames)} columns")
 
 
