@@ -2,7 +2,7 @@
 title: Nepal Electricity Authority (NEA)
 type: entity
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-21
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, jica-ipsdp-main-report-vol2]
 tags: [organization, utility, grid, buyer, generator]
 images:
@@ -43,10 +43,10 @@ Nepal's central electricity institution. Simultaneously serves as **primary gene
 ## Key Facts
 
 - NEA and subsidiaries: ~36% of installed hydro; IPPs: ~64%
-- System losses: ~13.46% (FY 2024/25)
+- Total system loss: **12.26%** (FY 2024/25)
 - Eliminated scheduled load shedding in 2018
 - 76% of firms still reported regular outages in 2022
-- Electricity access: **91.41%** of households (5.586 million metered connections) — lower than the **99%** claimed by previous management
+- National grid coverage: **97.6%** (FY 2024/25). NEA consumer-category shares should not be read as household access rates.
 
 ## Financial Health (FY 2024/25)
 

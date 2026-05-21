@@ -2,7 +2,7 @@
 title: NEA Annual Report FY 2024/25
 type: source
 created: 2026-04-14
-updated: 2026-04-22
+updated: 2026-05-21
 source_type: report
 source_author: Nepal Electricity Authority
 source_date: 2025-07-15
@@ -26,6 +26,10 @@ This run is ingesting roughly 130 images from the FY 2024/25 annual report; the 
 
 - Total installed generation capacity: **3,591.262 MW** (hydro 3,389.912 MW, solar 141.940 MW, thermal 53.410 MW, bagasse 6 MW)
 - Hydropower is **94.4%** of installed generation
+- System peak demand reached **2,901 MW** on July 1, 2025
+- Per-capita electricity consumption reached **465 kWh**
+- Total system loss declined to **12.26%**
+- National grid coverage reached **97.6%**
 - 22 new projects (434 MW combined) commissioned in FY 2024/25
 - Available energy: **15,641 GWh** (34% NEA/subsidiaries, 55% IPPs, 11% imported from India)
 - [[kulekhani-cascade]] generated **279.8 GWh**

@@ -2,8 +2,8 @@
 title: NEA Triple-Authority Conflict
 type: concept
 created: 2026-05-02
-updated: 2026-05-12
-sources: [nea-annual-report-fy2024-25, fenner-school-nepal-state-of-knowledge-renewables-psh]
+updated: 2026-05-21
+sources: [nea-annual-report-fy2024-25, erc-open-access-directive-2082, fenner-school-nepal-state-of-knowledge-renewables-psh]
 tags: [NEA, governance, PPA, dispatch, curtailment, AD-penalties, IPP, regulation, accountability]
 page_quality: analysis
 ---
@@ -69,10 +69,10 @@ The ERC formally acknowledged this for small projects, amending by-laws to allow
 A healthy market would separate the three functions:
 
 - **Independent system operator (ISO)** — dispatch decisions separated from NEA's commercial interests.
-- **Multiple buyers or open access** — IPPs able to sell to alternative off-takers (industrial consumers, export markets, trading companies).
+- **Multiple buyers or operational open access** — IPPs able to sell to alternative off-takers (industrial consumers, export markets, trading companies) under rules that actually work in dispatch and settlement.
 - **Neutral penalty authority** — AD enforcement managed by the ERC or an independent entity, not the off-taker.
 
-The 2003 World Bank Nepal power sector review recommended "eliminating conflicts of interest" in NEA's structure. The draft 2025 Open Access policy envisions moving beyond the single-buyer model. No legislation implementing these reforms has been enacted.
+The 2003 World Bank Nepal power sector review recommended "eliminating conflicts of interest" in NEA's structure. ERC's **Open Access Directive 2082**, issued in January 2026, moves the open-access leg beyond draft status by creating a legal route for qualified generators and large consumers to use the grid on open-access terms. That is not the same as full market implementation: ISO separation, neutral AD-penalty administration, and the operating manuals / settlement practices needed for real third-party trading remain unresolved.
 
 ## Analytical links
 

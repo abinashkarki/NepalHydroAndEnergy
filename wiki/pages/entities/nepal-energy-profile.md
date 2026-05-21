@@ -2,8 +2,8 @@
 title: Nepal Energy Profile
 type: entity
 created: 2026-04-14
-updated: 2026-05-11
-sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025, nea-transmission-annual-book-2077]
+updated: 2026-05-21
+sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025, wb-niettp-load-shedding-gdp-cost, nefport-protected-area-hydro-ruling-2025, nea-transmission-annual-book-2077]
 tags: [country, energy, system, overview]
 images:
   - src: nepal-energy-profile/nea2077-p199-img01.png
@@ -45,13 +45,13 @@ Energy-specific profile of Nepal for electricity-system context.
 | Export revenue | NPR 17.46B (India + Bangladesh) |
 | Approved export capacity | 941 MW (400 MW bilateral + 540 MW IEX) |
 | Transmission | 5,742 circuit-km at 66 kV+; 8,867 MVA substations |
-| System losses | **13.46%** (NEA FY 2024/25) / **~12.7%** (broader 2024 report framing) |
+| System losses | **12.26%** total system loss (NEA FY 2024/25) |
 | Cross-border transfer capacity | ~1,141 MW approved |
-| Household electrification | **91.41%** households (5.586M metered connections); broader access indicators often round toward **~95%** |
+| Grid coverage | **97.6%** national grid coverage (NEA FY 2024/25) |
 | Sep 2024 flood damage | **11 operational projects**, **600+ MW** affected |
 
 > [!warning] Supreme Court Hydropower Halt
-> In early 2025, Nepal's Supreme Court ordered a **halt to development activities — including hydropower — within all protected areas**. The ruling covers 12 national parks, 6 conservation areas, 1 hunting reserve, 1 wildlife reserve, and 13 buffer zones. IPPAN estimates this could affect **~300 hydropower projects** and up to **20 GW of potential capacity**. This is a significant new constraint on the "developable potential" claim.
+> In early 2025, Nepal's Supreme Court ordered a **halt to development activities — including hydropower — within all protected areas**. The ruling covers 12 national parks, 6 conservation areas, 1 hunting reserve, 1 wildlife reserve, and 13 buffer zones. IPPAN / sector estimates reported through NEFPORT put the affected exposure at **267 hydropower projects totaling 19,736 MW**. This is a significant new constraint on the "developable potential" claim, but the project/MW count is an industry estimate, not a Supreme Court table.
 
 ## The Core Paradox
 
@@ -63,7 +63,7 @@ The country is far better off than during the classic shortage era, but that rec
 
 - Scheduled load shedding ended in **2018**.
 - Before that, outages lasted up to **14 hours/day** between **2007 and 2017**.
-- World Bank-linked framing in the merged notes puts the macroeconomic cost of that era at roughly **7% of GDP per year**.
+- World Bank NIETTP project documents estimate the macroeconomic cost of that era at roughly **7% of GDP per year**.
 
 That history matters because today's system should be read as a transition from shortage to **fragile seasonal surplus**, not as a finished reliability story.
 
@@ -75,11 +75,11 @@ Nepal's broader energy system is **not electricity-centered**. Biomass still dom
 
 **Data reconciliation gaps.** NEA reports 3,591.262 MW total / 3,389.912 MW hydro (FY 2024/25); the DoED operating registry lists 3,791.874 MW. The discrepancy (~200 MW) reflects different cut-off dates, sub-MW plant inclusion rules, and NEA vs DoED accounting boundaries. System-scale claims are source-dependent unless the source boundary is stated explicitly.
 
-**Supreme Court protected-area halt.** The early 2025 ruling halting development in all protected areas could affect ~300 projects and up to 20 GW of potential capacity. This is a live constraint on "developable potential" claims that existing capacity figures do not yet reflect.
+**Supreme Court protected-area halt.** The early 2025 ruling halting development in all protected areas could affect **267 projects totaling 19,736 MW** under the current IPPAN / sector estimate. This is a live constraint on "developable potential" claims that existing capacity figures do not yet reflect; the number should be attributed as industry exposure framing, not court quantification.
 
 **Fragile seasonal surplus.** The transition from chronic shortage to seasonal surplus is recent (since 2023). The system still imports 400–500 MW daily in winter. Framing Nepal as "energy sufficient" ignores the dry-season dependency.
 
-**Per-capita electricity use is low.** At 370–465 kWh/yr, Nepal's per-capita consumption is a fraction of regional peers. The electrification rate (91.41%) measures connection, not consumption intensity.
+**Per-capita electricity use is low.** At 370–465 kWh/yr, Nepal's per-capita consumption is a fraction of regional peers. NEA's 97.6% grid-coverage figure measures reach, not consumption intensity.
 
 ## Related
 

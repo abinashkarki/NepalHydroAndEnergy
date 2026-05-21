@@ -2,8 +2,8 @@
 title: Energy Substitution Pathway
 type: concept
 created: 2026-04-23
-updated: 2026-05-12
-sources: [wecs-energy-synopsis-2024, wb-country-economic-memo-2025, green-hydrogen-roadmap-nepal]
+updated: 2026-05-21
+sources: [wecs-energy-synopsis-2024, wb-household-electric-cooking-nepal-2025, wb-country-economic-memo-2025, green-hydrogen-roadmap-nepal]
 tags: [substitution, electrification, biomass, coal, petroleum, strategy, demand-creation, nepal]
 page_quality: analysis
 ---
@@ -56,11 +56,11 @@ Cooking also has an ideal load-shape match: shift on evening peak → needs stor
 
 ### Sink 3 — Diesel, petrol, and ATF in transportation (55.5 PJ)
 
-Transport is **10.43% of total energy and 100% fossil** (petroleum 55,528 TJ vs electricity 25 TJ). It is also Nepal's **single largest foreign-exchange drain by category** — petroleum imports have hovered near NPR 300 billion/yr, roughly 20% of total merchandise imports.
+Transport is **10.43% of total energy and 100% fossil** (petroleum 55,528 TJ vs electricity 25 TJ). It is also Nepal's **single largest foreign-exchange drain by category** — petroleum imports have recently been in the rough **NPR 270-300 billion/yr** band, with exact shares depending on the customs fiscal-year cut.
 
 - **Substitute:** EV passenger cars (already rising rapidly — over 70% of new passenger vehicle imports in FY 2024/25 were EVs, driven by tax differentials), electric buses, electric two-wheelers, eventually electric freight on the Terai corridors; rail electrification if and when Nepal builds any.
 - **Why it's hard:** freight (trucks + buses) is the bulk of the 30.5 PJ diesel flow, and heavy EV trucking economics are still marginal; charging infrastructure is thin outside Kathmandu Valley; tractor electrification is effectively unsolved globally.
-- **Why it matters:** each kWh that displaces petroleum saves roughly 3× its cost in imported-fuel outflow because of petroleum's high retail price and foreign-exchange premium. This is where the export-revenue comparison inverts: selling 1 kWh to India at NPR 7 is worth less than using 1 kWh domestically to displace NPR ~20 of imported diesel.
+- **Why it matters:** the export-revenue comparison inverts when electricity displaces imported fuels. A transparent retail-displacement model built for the documentary verification pass suggests roughly **4.3-6.6× export value** for diesel mechanical displacement, **2.1-2.6×** for LPG cooking, and **0.9-2.3×** for private fuelwood displacement before hard-to-price health and time costs.
 - **Connected wiki pages:** [[seasonal-arbitrage-trap]], [[india-energy-relationship]].
 
 ## The secondary sinks
@@ -73,11 +73,27 @@ Smaller in volume but strategically interesting:
 
 ## What this pathway implies for strategy
 
+## Domestic substitution value model
+
+The current safe value claim is **not** a single `20:1` ratio. It is a
+fuel-specific comparison between the domestic fuel displaced by 1 kWh of
+electricity and the benchmark monsoon export price of **NPR 8.72/kWh**.
+
+| Fuel displaced by 1 kWh electricity | Displacement value (NPR/kWh) | Ratio vs NPR 8.72/kWh export price | Main assumptions |
+|-------------------------------------|------------------------------:|-----------------------------------:|------------------|
+| LPG cooking | **18.7-22.4** | **2.1-2.6×** | LPG cylinder NPR 1,800-2,160; LPG LHV 46.1 MJ/kg; LPG stove 45%; induction 85% |
+| Diesel mechanical work | **37.5-57.5** | **4.3-6.6×** | Diesel NPR 145-222.5/L sensitivity; diesel LHV 35.8 MJ/L; diesel engine/pump 35%; electric motor 90% |
+| Fuelwood cooking | **8.2-20.4** | **0.9-2.3×** | Fuelwood NPR 8-15/kg sensitivity; wood LHV 15 MJ/kg; traditional stove 15-20%; induction 85% |
+
+Biomass is the hardest category to price. Private cash displacement can
+be low where households collect wood, but social value rises when PM2.5
+exposure, time spent collecting fuel, and forest pressure are counted.
+
 1. **Sequencing.** Do not treat all electrification opportunities as equivalent. Residential cooking is 7× larger than all of transport, and 10× larger than industrial coal. The demand-creation program in [[twenty-year-strategy]] should be sized to cooking first, then industrial coal (via hydrogen) + transport freight, then everything else.
 
 2. **Load-shape matters.** Cooking is evening-peak; industrial process heat is daytime/continuous; EV charging can be night-shifted. A rational sequencing should match new load to the monsoon-surplus shape the RoR fleet produces — which argues for **industrial and EV-charging loads first as baseload absorbers**, and for pairing cooking electrification with storage/pondage investments. This is the demand-side mirror of [[storage-deficit]].
 
-3. **Foreign-exchange value is higher than export value.** Petroleum displacement saves imports priced at NPR 130/L (diesel, 2026) or NPR 180/L (petrol). Nepal's realized export price to India is around NPR 7/kWh. The kWh-for-kWh value of domestic substitution is materially higher than the value of export trade, for the same physical energy. [[claim-mw-not-equal-value]] applies directly here.
+3. **Foreign-exchange value is higher than export value, but it is fuel-specific.** Against a monsoon export benchmark of **NPR 8.72/kWh**, the documentary verification model estimates **LPG cooking displacement at NPR 18.7-22.4/kWh (2.1-2.6× export value)**, **diesel mechanical displacement at NPR 37.5-57.5/kWh (4.3-6.6×)**, and **private fuelwood displacement at NPR 8.2-20.4/kWh (0.9-2.3×)** before PM2.5, time, and forest-pressure externalities. The old blanket "20:1" framing is not supported by the model. [[claim-mw-not-equal-value]] applies directly here, but the ratio depends on which fuel is being displaced.
 
 4. **The "two-step" mistake to avoid.** Building generation and exporting monsoon surplus *without simultaneously* building the demand-side substitution infrastructure (induction cookers, EV charging, cement retrofits, brick-kiln conversions) locks Nepal into the seasonal-arbitrage pattern already diagnosed in [[seasonal-arbitrage-trap]]. The substitution pathway is not a *complement* to the export story — it is a *prerequisite* for exports to become net-positive rather than value-destroying.
 

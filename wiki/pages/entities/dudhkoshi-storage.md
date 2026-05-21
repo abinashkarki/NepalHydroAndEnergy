@@ -91,7 +91,7 @@ AIIB sovereign financing is proposed but not yet committed — the typical laten
 | Lead financier | AIIB (sovereign proposed) |
 
 ### Schedule
-Four decades of feasibility work (ADB-supported since the 1980s) with land acquisition restarting only in 2021. The current timeline targets construction from ~2027 and COD ~2031. This schedule carries a credibility tax that Nepali storage projects make full: compare [[tanahu-hydropower]] (67% complete after ~10 years) and [[pancheshwar]] (30 years, zero output).
+Four decades of feasibility work (ADB-supported since the 1980s) with land acquisition restarting only in 2021. The current timeline targets construction from ~2027 and COD ~2031. This schedule carries a credibility tax that Nepali storage projects make full: compare [[tanahu-hydropower]] (~67% complete after ~10 years in the NEA FY 2024/25 baseline; ~75% in an April 2026 public update) and [[pancheshwar]] (30 years, zero output).
 
 | Parameter | Value |
 |-----------|-------|

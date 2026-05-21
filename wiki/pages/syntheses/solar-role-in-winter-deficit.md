@@ -34,7 +34,7 @@ The 2030 gap more than doubles from today’s ~550 GWh baseline; by 2035, demand
 
 **Mechanism:** Shift monsoon water into dry-season generation. The [[claim-storage-physical-fix]] answer.
 
-**Realistic 2035 contribution:** [[tanahu-hydropower]] (140 MW, COD 2026 — under construction, 67% complete as of mid-2025) + [[dudhkoshi-storage]] (670 MW, COD ambitious ~2035). ([[budhigandaki]] 1,200 MW excluded from pre-2036 scenarios — main EPC contract not expected until January 2028, implying earliest COD 2036.) Aggregate new storage dry-season generation ~800–900 GWh/winter-season above the RoR baseline. (Model: 2035_full hydro ~3,246 GWh vs. 2035_solar_only hydro ~2,412 GWh = net storage addition of ~834 GWh.)
+**Realistic 2035 contribution:** [[tanahu-hydropower]] (140 MW, COD 2026/27 window — under construction, ~67% complete in the NEA FY 2024/25 report and roughly 75% complete in an April 2026 public update) + [[dudhkoshi-storage]] (670 MW, COD ambitious ~2035). ([[budhigandaki]] 1,200 MW excluded from pre-2036 scenarios — main EPC contract not expected until January 2028, implying earliest COD 2036.) Aggregate new storage dry-season generation ~800–900 GWh/winter-season above the RoR baseline. (Model: 2035_full hydro ~3,246 GWh vs. 2035_solar_only hydro ~2,412 GWh = net storage addition of ~834 GWh.)
 
 **Physical advantage:** Dispatchable; provides capacity credit for evening peak; non-intermittent.
 

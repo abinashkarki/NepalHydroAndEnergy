@@ -38,9 +38,9 @@ Areas where public evidence remains thin, source definitions conflict, or more g
 | Potential (techno-economic) | Different filters produce different ranges | Use **32,680 MW** from WECS 2019 where the exact reassessment is needed |
 | Current storage (MCM) | Active and gross reservoir volume are mixed in public summaries | Keep both: **85 MCM active** / **130-150 MCM total** |
 | Cross-border capacity | Rounded older values compete with project-specific approvals | Use **1,141 MW approved**, with older ~1,000 MW references retained only as rounded framing |
-| System losses | Source year and accounting frame differ | Keep source-year tags: **13.46%** (NEA FY 2024/25) vs **~12.7%** (2024 report framing) |
+| System losses | Source year and accounting frame differ | Use **12.26% total system loss** for NEA FY 2024/25; older **~12.7%** references belong to the prior report framing |
 | Basin discharge baselines | Gauge points and basin-border models are not interchangeable | Always label **measurement point**: gauge (e.g. Chatara/Chisapani) vs WECS border model |
-| Electricity access | Metered households and broader access/service indicators differ | Keep both by scope: **91.41% metered households** vs **~95% broader access/service indicator** |
+| Electricity access | Consumer-category shares and access/service indicators are easily conflated | Use **97.6% national grid coverage** for NEA FY 2024/25; do not treat the domestic-consumer share as household electrification |
 | Fleet split | Detailed fleet split and shorthand RoR+PRoR share use different classifications | Use **85.7/9.9/3.7%** for the granular split, with **>90% RoR+PRoR** as shorthand |
 | Per-capita electricity | Different source years create a range | Use **370-465 kWh** as a range unless a specific source year is named |
 

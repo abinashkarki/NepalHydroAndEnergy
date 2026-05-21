@@ -2,7 +2,7 @@
 title: Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-05-21
 claim_id: C-006
 confidence: high
 status: stable

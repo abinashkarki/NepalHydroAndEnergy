@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 338,
-  "total_refs": 2525,
+  "total_targets": 340,
+  "total_refs": 2545,
   "backlinks": {
     "barahi-hydropower": [
       {
@@ -57,7 +57,7 @@
       },
       {
         "slug": "tanahu-adb-status-2025",
-        "title": "Tanahu Hydropower Project Status (ADB, 2024–2025)",
+        "title": "Tanahu Hydropower Project Status (ADB, 2024–2026)",
         "category": "sources",
         "context": "…# See also - [[tanahu-hydropower]] - [[storage-deficit]] - buildability",
         "target_exists": true
@@ -66,14 +66,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…e potential below techno-economic estimates. ## Used By - buildability - [[firm-power]] - [[hydropower-potential-categories]] - [[…",
+        "context": "…e potential below techno-economic estimates. ## Used By - buildability - [[data-layer-nepal-tributaries]] - [[data-potential-pyram…",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…[[data-potential-pyramid]] - [[wb-grid-solar-ee-project]] - buildability - [[firm-power]]",
+        "context": "…ve URL for this document needs verification. ## Used By - buildability - [[data-potential-pyramid]] - [[figure-index]] - [[firm-po…",
         "target_exists": true
       },
       {
@@ -534,10 +534,31 @@
         "target_exists": true
       },
       {
+        "slug": "iea-tracking-sdg7-2025",
+        "title": "IEA / Tracking SDG7 Energy Progress Report 2025",
+        "category": "sources",
+        "context": "…tatus, published in the 2025 report cycle. ## Used By - nepal-energy-profile",
+        "target_exists": true
+      },
+      {
+        "slug": "nefport-protected-area-hydro-ruling-2025",
+        "title": "NEFPORT Protected-Area Hydropower Ruling Estimate (2025)",
+        "category": "sources",
+        "context": "…be treated as a legal annex to the ruling. ## Used By - nepal-energy-profile",
+        "target_exists": true
+      },
+      {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
         "context": "…strategy]], and [[energy-substitution-pathway]]. Feeds into nepal-energy-profile and [[data-final-energy-mix]]. .",
+        "target_exists": true
+      },
+      {
+        "slug": "wb-niettp-load-shedding-gdp-cost",
+        "title": "World Bank NIETTP Load-Shedding GDP-Cost Estimate",
+        "category": "sources",
+        "context": "…t estimate, not as a new 2025 CEM finding. ## Used By - nepal-energy-profile",
         "target_exists": true
       },
       {
@@ -962,14 +983,14 @@
         "slug": "wb-country-economic-memo-2025",
         "title": "World Bank Nepal Country Economic Memorandum (2025)",
         "category": "sources",
-        "context": "…on]] - [[data-trade-time-series]] - [[irena-remap-nepal]] - wb-grid-solar-ee-project",
+        "context": "…-time-series]] - [[figure-index]] - [[irena-remap-nepal]] - wb-grid-solar-ee-project",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…s verification. ## Used By - [[data-potential-pyramid]] - wb-grid-solar-ee-project - [[buildability]] - [[firm-power]]",
+        "context": "…a-potential-pyramid]] - [[figure-index]] - [[firm-power]] - wb-grid-solar-ee-project",
         "target_exists": true
       },
       {
@@ -1078,7 +1099,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…- [[data-solar-hydro-lcoe]] - [[data-trade-time-series]] - eib-rural-solar-phase2 - [[firm-power]] - [[kali-gandaki-a]] - [[khimti-ii]] - [[k…",
+        "context": "…- [[data-solar-hydro-lcoe]] - [[data-trade-time-series]] - eib-rural-solar-phase2 - [[figure-index]] - [[firm-power]] - [[kali-gandaki-a]] -…",
         "target_exists": true
       },
       {
@@ -1137,6 +1158,13 @@
         "title": "NEA Transmission Annual Book 2077",
         "category": "sources",
         "context": "…*Superseded for totals:** Later FY 2024/25 system totals in nea-annual-report-fy2024-25 replace the aggregate figures here. - **No technical modell…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-progress-2026",
+        "title": "Tanahu Hydropower Progress Update (April 2026)",
+        "category": "sources",
+        "context": "…## Relevance Use for current-status wording on Tanahu. Use nea-annual-report-fy2024-25 for official FY 2024/25 annual-report wording and construct…",
         "target_exists": true
       },
       {
@@ -2340,12 +2368,84 @@
         "target_exists": true
       }
     ],
+    "figure-index": [
+      {
+        "slug": "doed-licensing-directive-2075",
+        "title": "DoED Licensing Directive 2075 — Hydropower Project Licensing",
+        "category": "sources",
+        "context": "…checked against the specific version cited. ## Used By - figure-index - [[trishuli-galchhi]]",
+        "target_exists": true
+      },
+      {
+        "slug": "jica-ipsdp-main-report-vol2",
+        "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
+        "category": "sources",
+        "context": "…- [[budhigandaki]] - [[chera-1]] - [[dudhkoshi-storage]] - figure-index - [[humla-karnali-1]] - [[karnali-chisapani]] - [[khimti-ca…",
+        "target_exists": true
+      },
+      {
+        "slug": "national-water-plan-nepal",
+        "title": "National Water Plan, Nepal",
+        "category": "sources",
+        "context": "…es or boundaries. ## Used By - [[data-basin-discharge]] - figure-index - [[ganges-contribution]] - [[pancheshwar]] - [[storage-def…",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-annual-report-fy2024-25",
+        "title": "NEA Annual Report FY 2024/25",
+        "category": "sources",
+        "context": "…- [[data-trade-time-series]] - [[eib-rural-solar-phase2]] - figure-index - [[firm-power]] - [[kali-gandaki-a]] - [[khimti-ii]] - [[k…",
+        "target_exists": true
+      },
+      {
+        "slug": "wecs-hydropower-potential-2019",
+        "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
+        "category": "sources",
+        "context": "…ta-layer-nepal-tributaries]] - [[data-potential-pyramid]] - figure-index - [[firm-power]] - [[hydropower-potential-categories]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "wecs-energy-synopsis-2024",
+        "title": "WECS Energy Sector Synopsis Report 2024",
+        "category": "sources",
+        "context": "…rement coverage. ## Used By - [[data-final-energy-mix]] - figure-index - [[irena-remap-nepal]] - [[run-of-river-hydropower]] - [[s…",
+        "target_exists": true
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "category": "sources",
+        "context": "…butaries]] - [[data-solar-hydro-complementarity-profile]] - figure-index - [[solar-hydro-complementarity]] - [[wecs]]",
+        "target_exists": true
+      },
+      {
+        "slug": "wb-country-economic-memo-2025",
+        "title": "World Bank Nepal Country Economic Memorandum (2025)",
+        "category": "sources",
+        "context": "…- [[data-fleet-composition]] - [[data-trade-time-series]] - figure-index - [[irena-remap-nepal]] - [[wb-grid-solar-ee-project]]",
+        "target_exists": true
+      },
+      {
+        "slug": "wb-nepal-power-sector-reform-2022",
+        "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
+        "category": "sources",
+        "context": "…Used By - [[buildability]] - [[data-potential-pyramid]] - figure-index - [[firm-power]] - [[wb-grid-solar-ee-project]]",
+        "target_exists": true
+      },
+      {
+        "slug": "wb-water-sector-diagnostic",
+        "title": "World Bank Nepal Water Sector Diagnostic",
+        "category": "sources",
+        "context": "…ruction plans. ## Used By - [[data-storage-comparison]] - figure-index - [[storage-deficit]] ## Relevance to Project The 29.86 k…",
+        "target_exists": true
+      }
+    ],
     "trishuli-galchhi": [
       {
         "slug": "doed-licensing-directive-2075",
         "title": "DoED Licensing Directive 2075 — Hydropower Project Licensing",
         "category": "sources",
-        "context": "…checked against the specific version cited. ## Used By - trishuli-galchhi",
+        "context": "…e specific version cited. ## Used By - [[figure-index]] - trishuli-galchhi",
         "target_exists": true
       },
       {
@@ -3108,7 +3208,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…ati-nadi]] - [[balephi]] - [[budhigandaki]] - [[chera-1]] - dudhkoshi-storage - [[humla-karnali-1]] - [[karnali-chisapani]] - [[khimti-ca…",
+        "context": "…ati-nadi]] - [[balephi]] - [[budhigandaki]] - [[chera-1]] - dudhkoshi-storage - [[figure-index]] - [[humla-karnali-1]] - [[karnali-chisap…",
         "target_exists": true
       },
       {
@@ -3150,7 +3250,7 @@
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…: [[tanahu-hydropower]] (140 MW storage, ~67% complete) and dudhkoshi-storage (635 MW, pre-construction) are the next storage projects th…",
+        "context": "…24/25 baseline and ~75% in an April 2026 public update) and dudhkoshi-storage (635 MW, pre-construction) are the next storage projects th…",
         "target_exists": true
       },
       {
@@ -3213,7 +3313,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…D 2026 — under construction, 67% complete as of mid-2025) + dudhkoshi-storage (670 MW, COD ambitious ~2035). ([[budhigandaki]] 1,200 MW e…",
+        "context": "…and roughly 75% complete in an April 2026 public update) + dudhkoshi-storage (670 MW, COD ambitious ~2035). ([[budhigandaki]] 1,200 MW e…",
         "target_exists": true
       },
       {
@@ -3364,7 +3464,7 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…nes or boundaries. ## Used By - [[ganges-contribution]] - storage-deficit - [[data-basin-discharge]] - [[pancheshwar]] ## Relevance…",
+        "context": "…igure-index]] - [[ganges-contribution]] - [[pancheshwar]] - storage-deficit ## Relevance to Project Source for the [[ganges-contribut…",
         "target_exists": true
       },
       {
@@ -3375,8 +3475,15 @@
         "target_exists": true
       },
       {
+        "slug": "tanahu-progress-2026",
+        "title": "Tanahu Hydropower Progress Update (April 2026)",
+        "category": "sources",
+        "context": "…project disclosure. ## Used By - [[tanahu-hydropower]] - storage-deficit - [[kulekhani-cascade]]",
+        "target_exists": true
+      },
+      {
         "slug": "tanahu-adb-status-2025",
-        "title": "Tanahu Hydropower Project Status (ADB, 2024–2025)",
+        "title": "Tanahu Hydropower Project Status (ADB, 2024–2026)",
         "category": "sources",
         "context": "…tanahu-hydropower]] ## See also - [[tanahu-hydropower]] - storage-deficit - [[buildability]]",
         "target_exists": true
@@ -3392,7 +3499,7 @@
         "slug": "wb-water-sector-diagnostic",
         "title": "World Bank Nepal Water Sector Diagnostic",
         "category": "sources",
-        "context": "…dy outputs, not verified construction plans. ## Used By - storage-deficit - [[data-storage-comparison]] ## Relevance to Project The…",
+        "context": "…Used By - [[data-storage-comparison]] - [[figure-index]] - storage-deficit ## Relevance to Project The 29.86 km³ requirement vs near…",
         "target_exists": true
       },
       {
@@ -3574,7 +3681,7 @@
         "slug": "energy-substitution-pathway",
         "title": "Energy Substitution Pathway",
         "category": "concepts",
-        "context": "…rage/pondage investments. This is the demand-side mirror of storage-deficit. 3. **Foreign-exchange value is higher than export value.*…",
+        "context": "…rage/pondage investments. This is the demand-side mirror of storage-deficit. 3. **Foreign-exchange value is higher than export value,…",
         "target_exists": true
       },
       {
@@ -4237,6 +4344,171 @@
         "target_exists": true
       }
     ],
+    "intervention-nea-structural-separation": [
+      {
+        "slug": "erc-open-access-directive-2082",
+        "title": "ERC Open Access Directive 2082",
+        "category": "sources",
+        "context": "…y NEA, grid users, or market participants. ## Used By - intervention-nea-structural-separation - [[nea-triple-authority]]",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…/ offtake / demand weakness | [[seasonal-arbitrage-trap]] | intervention-nea-structural-separation; [[intervention-electric-cooking-transition]] | | 6 | Clima…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…auda–Dhalkebar 400 kV and complete cross-border corridors - intervention-nea-structural-separation — carve NLDC into an ISO, transfer AD penalty authority to…",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…mission-completion]] (Hetauda–Dhalkebar, Butwal–Gorakhpur); intervention-nea-structural-separation (begin ISO and open-access work in this phase). **Priority…",
+        "target_exists": true
+      }
+    ],
+    "nea-triple-authority": [
+      {
+        "slug": "ppa-data-retrieval-icra-care-2026",
+        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "category": "sources",
+        "context": "…ancial-analysis-triple-authority-2026]] - [[ppa-pricing]] - nea-triple-authority - [[sahas-urja]] - [[chilime]] - [[rasuwagadhi]] - [[upper-…",
+        "target_exists": true
+      },
+      {
+        "slug": "sector-financial-analysis-triple-authority-2026",
+        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
+        "category": "sources",
+        "context": "…- [[ppa-data-retrieval-icra-care-2026]] - [[ppa-pricing]] - nea-triple-authority - [[ipo-hydropower-bailout]] - [[stranded-generation]] - [[…",
+        "target_exists": true
+      },
+      {
+        "slug": "erc-open-access-directive-2082",
+        "title": "ERC Open Access Directive 2082",
+        "category": "sources",
+        "context": "…## Used By - [[intervention-nea-structural-separation]] - nea-triple-authority",
+        "target_exists": true
+      },
+      {
+        "slug": "barahi-hydropower",
+        "title": "Barahi Hydropower",
+        "category": "entities",
+        "context": "…age exists as the wiki's primary audited case study for the nea-triple-authority conflict. ## Summary **Barahi Hydropower is an operationa…",
+        "target_exists": true
+      },
+      {
+        "slug": "chameliya-hydropower",
+        "title": "Chameliya Hydropower",
+        "category": "entities",
+        "context": "…ghly efficient projects** — is the quantitative core of the nea-triple-authority governance problem. The same institution that cannot delive…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…See [[ppa-pricing]] for the full rate comparison table and nea-triple-authority for the institutional framework. 6. **IPO after profitabil…",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "…ad-penalties]] — the penalty regime Khimti's PPA predates - nea-triple-authority — NEA as regulator, shareholder (post-2020), and off-taker…",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja",
+        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
+        "category": "entities",
+        "context": "…See [[ppa-pricing]] for the full rate comparison table and nea-triple-authority for the institutional framework. ## Promoters and Institut…",
+        "target_exists": true
+      },
+      {
+        "slug": "tamor-storage",
+        "title": "Tamor Storage",
+        "category": "entities",
+        "context": "…loan interest, depreciation, and foreign exchange risk. See nea-triple-authority. ## System Context In a system increasingly saturated wit…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-tamakoshi",
+        "title": "Upper Tamakoshi",
+        "category": "entities",
+        "context": "…ese rates and the project's debt service is the core of the nea-triple-authority problem. See the Financial Performance section below for th…",
+        "target_exists": true
+      },
+      {
+        "slug": "ad-penalties",
+        "title": "AD Penalties",
+        "category": "concepts",
+        "context": "…anism is the primary financial instrument through which the nea-triple-authority conflict operates. ## Simple Explanation AD penalties are…",
+        "target_exists": true
+      },
+      {
+        "slug": "hydro-insurance",
+        "title": "Hydro Insurance",
+        "category": "concepts",
+        "context": "…and debt service obligations. The central connection is to nea-triple-authority: when physical damage prevents generation, NEA may still ap…",
+        "target_exists": true
+      },
+      {
+        "slug": "ipo-hydropower-bailout",
+        "title": "IPO Hydropower Bailout",
+        "category": "concepts",
+        "context": "…on of that revenue is clawed back through AD penalties. See nea-triple-authority for the institutional framework and [[ad-penalties]] for th…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…scretionary process. The central institutional framework is nea-triple-authority: the same entity that sets PPA rates (NEA as single buyer)…",
+        "target_exists": true
+      },
+      {
+        "slug": "q-design-discharge",
+        "title": "Q-Design Discharge",
+        "category": "concepts",
+        "context": "…billing-architecture subsidy, documented in [[chilime]] and nea-triple-authority. Chilime's 2010 IPO occurred **after seven years of profit…",
+        "target_exists": true
+      },
+      {
+        "slug": "stranded-generation",
+        "title": "Stranded Generation",
+        "category": "concepts",
+        "context": "…no guaranteed compensation for the curtailed producer. See nea-triple-authority for the institutional structure that enables uncompensated…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "NEA Structural Separation",
+        "category": "interventions",
+        "context": "…A. ## Theory of Change The NEA Triple-Authority Conflict (nea-triple-authority) is not an edge-case governance flaw — it is the institutio…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Q-Design Climate Adjustment",
+        "category": "interventions",
+        "context": "…ot told their shares are PPA'd against obsolete hydrology - nea-triple-authority — the institutional framework that enforces unrealistic con…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-sebon-data-transparency",
+        "title": "SEBON Data Transparency",
+        "category": "interventions",
+        "context": "…the IPO-to-bailout pattern this data intervention targets - nea-triple-authority — the institutional structure that AD penalty exposure refl…",
+        "target_exists": true
+      }
+    ],
     "data-map-inventory": [
       {
         "slug": "global-solar-atlas-nepal",
@@ -4691,14 +4963,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…id]] - [[karnali-chisapani]] - [[koshi-basin]] - [[wecs]] - irena-remap-nepal ## Relevance to Project The definitive source for [[hydro…",
+        "context": "…]] - [[firm-power]] - [[hydropower-potential-categories]] - irena-remap-nepal - [[karnali-chisapani]] - [[koshi-basin]] - [[run-of-river-…",
         "target_exists": true
       },
       {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…-complementarity]] - [[data-final-energy-mix]] - [[wecs]] - irena-remap-nepal ## Relevance to Project The 7.23% grid-electricity share…",
+        "context": "…# Used By - [[data-final-energy-mix]] - [[figure-index]] - irena-remap-nepal - [[run-of-river-hydropower]] - [[solar-hydro-complementari…",
         "target_exists": true
       },
       {
@@ -4712,7 +4984,7 @@
         "slug": "wb-country-economic-memo-2025",
         "title": "World Bank Nepal Country Economic Memorandum (2025)",
         "category": "sources",
-        "context": "…- [[data-fleet-composition]] - [[data-trade-time-series]] - irena-remap-nepal - [[wb-grid-solar-ee-project]]",
+        "context": "…osition]] - [[data-trade-time-series]] - [[figure-index]] - irena-remap-nepal - [[wb-grid-solar-ee-project]]",
         "target_exists": true
       },
       {
@@ -5440,7 +5712,7 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…s may use different baselines or boundaries. ## Used By - ganges-contribution - [[storage-deficit]] - [[data-basin-discharge]] - [[panche…",
+        "context": "…## Used By - [[data-basin-discharge]] - [[figure-index]] - ganges-contribution - [[pancheshwar]] - [[storage-deficit]] ## Relevance to Pr…",
         "target_exists": true
       },
       {
@@ -5775,7 +6047,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…ural-solar-phase2]] - [[firm-power]] - [[kali-gandaki-a]] - khimti-ii - [[khudi-220-132kv-substation]] - [[kulekhani-cascade]] -…",
+        "context": "…- [[figure-index]] - [[firm-power]] - [[kali-gandaki-a]] - khimti-ii - [[khudi-220-132kv-substation]] - [[kulekhani-cascade]] -…",
         "target_exists": true
       },
       {
@@ -5919,7 +6191,7 @@
         "slug": "energy-substitution-pathway",
         "title": "Energy Substitution Pathway",
         "category": "concepts",
-        "context": "…l. - **Connected wiki pages:** [[seasonal-arbitrage-trap]], india-energy-relationship. ## The secondary sinks Smaller in volume but strategical…",
+        "context": "…s. - **Connected wiki pages:** [[seasonal-arbitrage-trap]], india-energy-relationship. ## The secondary sinks Smaller in volume but strategical…",
         "target_exists": true
       },
       {
@@ -7200,6 +7472,13 @@
         "target_exists": true
       },
       {
+        "slug": "tanahu-progress-2026",
+        "title": "Tanahu Hydropower Progress Update (April 2026)",
+        "category": "sources",
+        "context": "…## Used By - [[tanahu-hydropower]] - [[storage-deficit]] - kulekhani-cascade",
+        "target_exists": true
+      },
+      {
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
@@ -7387,7 +7666,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…me-series]] - [[eib-rural-solar-phase2]] - [[firm-power]] - kali-gandaki-a - [[khimti-ii]] - [[khudi-220-132kv-substation]] - [[kulekh…",
+        "context": "…-rural-solar-phase2]] - [[figure-index]] - [[firm-power]] - kali-gandaki-a - [[khimti-ii]] - [[khudi-220-132kv-substation]] - [[kulekh…",
         "target_exists": true
       },
       {
@@ -7470,8 +7749,15 @@
         "target_exists": true
       },
       {
+        "slug": "tanahu-progress-2026",
+        "title": "Tanahu Hydropower Progress Update (April 2026)",
+        "category": "sources",
+        "context": "…ress report or audited project disclosure. ## Used By - tanahu-hydropower - [[storage-deficit]] - [[kulekhani-cascade]]",
+        "target_exists": true
+      },
+      {
         "slug": "tanahu-adb-status-2025",
-        "title": "Tanahu Hydropower Project Status (ADB, 2024–2025)",
+        "title": "Tanahu Hydropower Project Status (ADB, 2024–2026)",
         "category": "sources",
         "context": "…lution may affect project timeline and cost. ## Used By - tanahu-hydropower ## See also - [[tanahu-hydropower]] - [[storage-deficit]]…",
         "target_exists": true
@@ -7501,7 +7787,7 @@
         "slug": "kulekhani-cascade",
         "title": "Kulekhani Cascade",
         "category": "entities",
-        "context": "…not add new reservoir capacity. Compare with the pipeline: tanahu-hydropower (140 MW storage, ~67% complete) and [[dudhkoshi-storage]] (…",
+        "context": "…not add new reservoir capacity. Compare with the pipeline: tanahu-hydropower (140 MW storage, ~67% complete in the NEA FY 2024/25 baseli…",
         "target_exists": true
       },
       {
@@ -7564,14 +7850,14 @@
         "slug": "storage-deficit",
         "title": "Storage Deficit",
         "category": "concepts",
-        "context": "…whole engineering–social–finance package survives scrutiny. Tanahu (140 MW, 67% complete after ~10 years) is the test case for…",
+        "context": "…whole engineering–social–finance package survives scrutiny. Tanahu (140 MW, ~67% complete in the NEA FY 2024/25 report and rou…",
         "target_exists": true
       },
       {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…ge-physical-fix]] answer. **Realistic 2035 contribution:** tanahu-hydropower (140 MW, COD 2026 — under construction, 67% complete as of…",
+        "context": "…ge-physical-fix]] answer. **Realistic 2035 contribution:** tanahu-hydropower (140 MW, COD 2026/27 window — under construction, ~67% comp…",
         "target_exists": true
       },
       {
@@ -7686,7 +7972,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…dhi-khola]] - [[arun-3]] - [[bagmati-nadi]] - [[balephi]] - budhigandaki - [[chera-1]] - [[dudhkoshi-storage]] - [[humla-karnali-1]]…",
+        "context": "…dhi-khola]] - [[arun-3]] - [[bagmati-nadi]] - [[balephi]] - budhigandaki - [[chera-1]] - [[dudhkoshi-storage]] - [[figure-index]] -…",
         "target_exists": true
       },
       {
@@ -7812,7 +8098,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…25) + [[dudhkoshi-storage]] (670 MW, COD ambitious ~2035). (budhigandaki 1,200 MW excluded from pre-2036 scenarios — main EPC contra…",
+        "context": "…te) + [[dudhkoshi-storage]] (670 MW, COD ambitious ~2035). (budhigandaki 1,200 MW excluded from pre-2036 scenarios — main EPC contra…",
         "target_exists": true
       },
       {
@@ -7877,7 +8163,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…n-3]] - [[bagmati-nadi]] - [[balephi]] - [[budhigandaki]] - chera-1 - [[dudhkoshi-storage]] - [[humla-karnali-1]] - [[karnali-c…",
+        "context": "…n-3]] - [[bagmati-nadi]] - [[balephi]] - [[budhigandaki]] - chera-1 - [[dudhkoshi-storage]] - [[figure-index]] - [[humla-karnal…",
         "target_exists": true
       },
       {
@@ -7893,7 +8179,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…- [[budhigandaki]] - [[chera-1]] - [[dudhkoshi-storage]] - humla-karnali-1 - [[karnali-chisapani]] - [[khimti-cascade]] - [[khimti-i]]…",
+        "context": "…- [[chera-1]] - [[dudhkoshi-storage]] - [[figure-index]] - humla-karnali-1 - [[karnali-chisapani]] - [[khimti-cascade]] - [[khimti-i]]…",
         "target_exists": true
       }
     ],
@@ -7902,14 +8188,14 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…[[chera-1]] - [[dudhkoshi-storage]] - [[humla-karnali-1]] - karnali-chisapani - [[khimti-cascade]] - [[khimti-i]] - [[kokhajor-1]] - [[li…",
+        "context": "…hkoshi-storage]] - [[figure-index]] - [[humla-karnali-1]] - karnali-chisapani - [[khimti-cascade]] - [[khimti-i]] - [[kokhajor-1]] - [[li…",
         "target_exists": true
       },
       {
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…ta-layer-nepal-tributaries]] - [[data-potential-pyramid]] - karnali-chisapani - [[koshi-basin]] - [[wecs]] - [[irena-remap-nepal]] ## Re…",
+        "context": "…hydropower-potential-categories]] - [[irena-remap-nepal]] - karnali-chisapani - [[koshi-basin]] - [[run-of-river-hydropower]] - [[wecs]]…",
         "target_exists": true
       },
       {
@@ -7946,7 +8232,7 @@
         "slug": "jica-ipsdp-main-report-vol2",
         "title": "JICA IPSDP Final Report Annexes (Vol. 2)",
         "category": "sources",
-        "context": "…i-storage]] - [[humla-karnali-1]] - [[karnali-chisapani]] - khimti-cascade - [[khimti-i]] - [[kokhajor-1]] - [[likhu-4]] - [[lower-bad…",
+        "context": "…ure-index]] - [[humla-karnali-1]] - [[karnali-chisapani]] - khimti-cascade - [[khimti-i]] - [[kokhajor-1]] - [[likhu-4]] - [[lower-bad…",
         "target_exists": true
       }
     ],
@@ -8654,7 +8940,7 @@
         "slug": "tanahu-hydropower",
         "title": "Tanahu Hydropower Project",
         "category": "entities",
-        "context": "…construction — ~67% complete (FY 2024/25) | | River | Seti (gandaki-basin) | | District | Tanahu | ### Engineering A 140 m RCC dam w…",
+        "context": "…); ~75% public progress update (Apr 2026) | | River | Seti (gandaki-basin) | | District | Tanahu | ### Engineering A 140 m RCC dam w…",
         "target_exists": true
       },
       {
@@ -8831,14 +9117,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…]] - [[firm-power]] - [[hydropower-potential-categories]] - run-of-river-hydropower - [[data-layer-nepal-tributaries]] - [[data-potential-pyram…",
+        "context": "…a-remap-nepal]] - [[karnali-chisapani]] - [[koshi-basin]] - run-of-river-hydropower - [[wecs]] ## Relevance to Project The definitive source…",
         "target_exists": true
       },
       {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…th and improvements in measurement coverage. ## Used By - run-of-river-hydropower - [[solar-hydro-complementarity]] - [[data-final-energy-mix…",
+        "context": "…l-energy-mix]] - [[figure-index]] - [[irena-remap-nepal]] - run-of-river-hydropower - [[solar-hydro-complementarity]] - [[wecs]] ## Relevance…",
         "target_exists": true
       },
       {
@@ -10242,14 +10528,14 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…Used By - [[ganges-contribution]] - [[storage-deficit]] - data-basin-discharge - [[pancheshwar]] ## Relevance to Project Source for the…",
+        "context": "…s may use different baselines or boundaries. ## Used By - data-basin-discharge - [[figure-index]] - [[ganges-contribution]] - [[pancheshwa…",
         "target_exists": true
       },
       {
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…- [[data-solar-hydro-complementarity-profile]] - [[wecs]] - data-basin-discharge - [[data-layer-nepal-tributaries]]",
+        "context": "…nnual variability may be wider than implied. ## Used By - data-basin-discharge - [[data-layer-nepal-tributaries]] - [[data-solar-hydro-com…",
         "target_exists": true
       },
       {
@@ -10300,7 +10586,7 @@
         "slug": "national-water-plan-nepal",
         "title": "National Water Plan, Nepal",
         "category": "sources",
-        "context": "…bution]] - [[storage-deficit]] - [[data-basin-discharge]] - pancheshwar ## Relevance to Project Source for the [[ganges-contribut…",
+        "context": "…-discharge]] - [[figure-index]] - [[ganges-contribution]] - pancheshwar - [[storage-deficit]] ## Relevance to Project Source for…",
         "target_exists": true
       },
       {
@@ -10328,7 +10614,7 @@
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
-        "context": "…re [[tanahu-hydropower]] (67% complete after ~10 years) and pancheshwar (30 years, zero output). | Parameter | Value | |----------…",
+        "context": "…2024/25 baseline; ~75% in an April 2026 public update) and pancheshwar (30 years, zero output). | Parameter | Value | |----------…",
         "target_exists": true
       },
       {
@@ -10558,14 +10844,14 @@
         "slug": "wb-country-economic-memo-2025",
         "title": "World Bank Nepal Country Economic Memorandum (2025)",
         "category": "sources",
-        "context": "…A fiscal-year accounting. ## Used By - [[budhigandaki]] - data-fleet-composition - [[data-trade-time-series]] - [[irena-remap-nepal]] - [[wb…",
+        "context": "…A fiscal-year accounting. ## Used By - [[budhigandaki]] - data-fleet-composition - [[data-trade-time-series]] - [[figure-index]] - [[irena-r…",
         "target_exists": true
       },
       {
         "slug": "nepal-energy-profile",
         "title": "Nepal Energy Profile",
         "category": "entities",
-        "context": "…sures connection, not consumption intensity. ## Related - data-fleet-composition — fleet breakdown - [[data-trade-time-series]] — import/exp…",
+        "context": "…e measures reach, not consumption intensity. ## Related - data-fleet-composition — fleet breakdown - [[data-trade-time-series]] — import/exp…",
         "target_exists": true
       },
       {
@@ -10683,14 +10969,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…-of-river-hydropower]] - [[data-layer-nepal-tributaries]] - data-potential-pyramid - [[karnali-chisapani]] - [[koshi-basin]] - [[wecs]] - [[ir…",
+        "context": "…By - [[buildability]] - [[data-layer-nepal-tributaries]] - data-potential-pyramid - [[figure-index]] - [[firm-power]] - [[hydropower-potentia…",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…ve URL for this document needs verification. ## Used By - data-potential-pyramid - [[wb-grid-solar-ee-project]] - [[buildability]] - [[firm-…",
+        "context": "…ument needs verification. ## Used By - [[buildability]] - data-potential-pyramid - [[figure-index]] - [[firm-power]] - [[wb-grid-solar-ee-pr…",
         "target_exists": true
       },
       {
@@ -10762,7 +11048,7 @@
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…n implied. ## Used By - [[solar-hydro-complementarity]] - data-solar-hydro-complementarity-profile - [[wecs]] - [[data-basin-discharge]] - [[data-layer-nepal-…",
+        "context": "…data-basin-discharge]] - [[data-layer-nepal-tributaries]] - data-solar-hydro-complementarity-profile - [[figure-index]] - [[solar-hydro-complementarity]] - [[we…",
         "target_exists": true
       },
       {
@@ -10813,7 +11099,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…dro-complementarity-profile]] - [[data-solar-hydro-lcoe]] - data-trade-time-series - [[eib-rural-solar-phase2]] - [[firm-power]] - [[kali-gand…",
+        "context": "…dro-complementarity-profile]] - [[data-solar-hydro-lcoe]] - data-trade-time-series - [[eib-rural-solar-phase2]] - [[figure-index]] - [[firm-po…",
         "target_exists": true
       },
       {
@@ -10913,21 +11199,21 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…- [[data-trade-time-series]] - [[eib-rural-solar-phase2]] - firm-power - [[kali-gandaki-a]] - [[khimti-ii]] - [[khudi-220-132kv-su…",
+        "context": "…-series]] - [[eib-rural-solar-phase2]] - [[figure-index]] - firm-power - [[kali-gandaki-a]] - [[khimti-ii]] - [[khudi-220-132kv-su…",
         "target_exists": true
       },
       {
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…echno-economic estimates. ## Used By - [[buildability]] - firm-power - [[hydropower-potential-categories]] - [[run-of-river-hydr…",
+        "context": "…utaries]] - [[data-potential-pyramid]] - [[figure-index]] - firm-power - [[hydropower-potential-categories]] - [[irena-remap-nepal…",
         "target_exists": true
       },
       {
         "slug": "wb-nepal-power-sector-reform-2022",
         "title": "World Bank Nepal Power Sector Reform Roadmap (2022)",
         "category": "sources",
-        "context": "…ramid]] - [[wb-grid-solar-ee-project]] - [[buildability]] - firm-power",
+        "context": "…ability]] - [[data-potential-pyramid]] - [[figure-index]] - firm-power - [[wb-grid-solar-ee-project]]",
         "target_exists": true
       },
       {
@@ -11223,7 +11509,7 @@
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25",
         "category": "sources",
-        "context": "…2]] - [[firm-power]] - [[kali-gandaki-a]] - [[khimti-ii]] - khudi-220-132kv-substation - [[kulekhani-cascade]] - [[kulekhani-i]] - [[kulekhani-ii]…",
+        "context": "…x]] - [[firm-power]] - [[kali-gandaki-a]] - [[khimti-ii]] - khudi-220-132kv-substation - [[kulekhani-cascade]] - [[kulekhani-i]] - [[kulekhani-ii]…",
         "target_exists": true
       },
       {
@@ -11563,14 +11849,14 @@
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…ment coverage. ## Used By - [[run-of-river-hydropower]] - solar-hydro-complementarity - [[data-final-energy-mix]] - [[wecs]] - [[irena-remap-nepa…",
+        "context": "…x]] - [[irena-remap-nepal]] - [[run-of-river-hydropower]] - solar-hydro-complementarity - [[wecs]] ## Relevance to Project The 7.23% grid-electri…",
         "target_exists": true
       },
       {
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…nnual variability may be wider than implied. ## Used By - solar-hydro-complementarity - [[data-solar-hydro-complementarity-profile]] - [[wecs]] -…",
+        "context": "…-solar-hydro-complementarity-profile]] - [[figure-index]] - solar-hydro-complementarity - [[wecs]]",
         "target_exists": true
       },
       {
@@ -13075,134 +13361,6 @@
         "target_exists": true
       }
     ],
-    "nea-triple-authority": [
-      {
-        "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
-        "category": "sources",
-        "context": "…ancial-analysis-triple-authority-2026]] - [[ppa-pricing]] - nea-triple-authority - [[sahas-urja]] - [[chilime]] - [[rasuwagadhi]] - [[upper-…",
-        "target_exists": true
-      },
-      {
-        "slug": "sector-financial-analysis-triple-authority-2026",
-        "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\"",
-        "category": "sources",
-        "context": "…- [[ppa-data-retrieval-icra-care-2026]] - [[ppa-pricing]] - nea-triple-authority - [[ipo-hydropower-bailout]] - [[stranded-generation]] - [[…",
-        "target_exists": true
-      },
-      {
-        "slug": "barahi-hydropower",
-        "title": "Barahi Hydropower",
-        "category": "entities",
-        "context": "…age exists as the wiki's primary audited case study for the nea-triple-authority conflict. ## Summary **Barahi Hydropower is an operationa…",
-        "target_exists": true
-      },
-      {
-        "slug": "chameliya-hydropower",
-        "title": "Chameliya Hydropower",
-        "category": "entities",
-        "context": "…ghly efficient projects** — is the quantitative core of the nea-triple-authority governance problem. The same institution that cannot delive…",
-        "target_exists": true
-      },
-      {
-        "slug": "chilime",
-        "title": "Chilime",
-        "category": "entities",
-        "context": "…See [[ppa-pricing]] for the full rate comparison table and nea-triple-authority for the institutional framework. 6. **IPO after profitabil…",
-        "target_exists": true
-      },
-      {
-        "slug": "khimti-i",
-        "title": "Khimti -I",
-        "category": "entities",
-        "context": "…ad-penalties]] — the penalty regime Khimti's PPA predates - nea-triple-authority — NEA as regulator, shareholder (post-2020), and off-taker…",
-        "target_exists": true
-      },
-      {
-        "slug": "sahas-urja",
-        "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project",
-        "category": "entities",
-        "context": "…See [[ppa-pricing]] for the full rate comparison table and nea-triple-authority for the institutional framework. ## Promoters and Institut…",
-        "target_exists": true
-      },
-      {
-        "slug": "tamor-storage",
-        "title": "Tamor Storage",
-        "category": "entities",
-        "context": "…loan interest, depreciation, and foreign exchange risk. See nea-triple-authority. ## System Context In a system increasingly saturated wit…",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-tamakoshi",
-        "title": "Upper Tamakoshi",
-        "category": "entities",
-        "context": "…ese rates and the project's debt service is the core of the nea-triple-authority problem. See the Financial Performance section below for th…",
-        "target_exists": true
-      },
-      {
-        "slug": "ad-penalties",
-        "title": "AD Penalties",
-        "category": "concepts",
-        "context": "…anism is the primary financial instrument through which the nea-triple-authority conflict operates. ## Simple Explanation AD penalties are…",
-        "target_exists": true
-      },
-      {
-        "slug": "hydro-insurance",
-        "title": "Hydro Insurance",
-        "category": "concepts",
-        "context": "…and debt service obligations. The central connection is to nea-triple-authority: when physical damage prevents generation, NEA may still ap…",
-        "target_exists": true
-      },
-      {
-        "slug": "ipo-hydropower-bailout",
-        "title": "IPO Hydropower Bailout",
-        "category": "concepts",
-        "context": "…on of that revenue is clawed back through AD penalties. See nea-triple-authority for the institutional framework and [[ad-penalties]] for th…",
-        "target_exists": true
-      },
-      {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "…scretionary process. The central institutional framework is nea-triple-authority: the same entity that sets PPA rates (NEA as single buyer)…",
-        "target_exists": true
-      },
-      {
-        "slug": "q-design-discharge",
-        "title": "Q-Design Discharge",
-        "category": "concepts",
-        "context": "…billing-architecture subsidy, documented in [[chilime]] and nea-triple-authority. Chilime's 2010 IPO occurred **after seven years of profit…",
-        "target_exists": true
-      },
-      {
-        "slug": "stranded-generation",
-        "title": "Stranded Generation",
-        "category": "concepts",
-        "context": "…no guaranteed compensation for the curtailed producer. See nea-triple-authority for the institutional structure that enables uncompensated…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-nea-structural-separation",
-        "title": "NEA Structural Separation",
-        "category": "interventions",
-        "context": "…A. ## Theory of Change The NEA Triple-Authority Conflict (nea-triple-authority) is not an edge-case governance flaw — it is the institutio…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-q-design-climate-adjustment",
-        "title": "Q-Design Climate Adjustment",
-        "category": "interventions",
-        "context": "…ot told their shares are PPA'd against obsolete hydrology - nea-triple-authority — the institutional framework that enforces unrealistic con…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-sebon-data-transparency",
-        "title": "SEBON Data Transparency",
-        "category": "interventions",
-        "context": "…the IPO-to-bailout pattern this data intervention targets - nea-triple-authority — the institutional structure that AD penalty exposure refl…",
-        "target_exists": true
-      }
-    ],
     "lower-solu": [
       {
         "slug": "sahas-urja-benchmark-icra-2026",
@@ -13541,6 +13699,15 @@
         "target_exists": true
       }
     ],
+    "tanahu-progress-2026": [
+      {
+        "slug": "tanahu-adb-status-2025",
+        "title": "Tanahu Hydropower Project Status (ADB, 2024–2026)",
+        "category": "sources",
+        "context": "…progress check (April 2026): roughly **75%** complete per tanahu-progress-2026 - ADB monitoring visit: December 2024 — flagged buffer-zone…",
+        "target_exists": true
+      }
+    ],
     "claim-solar-cheaper-than-small-hydro": [
       {
         "slug": "wb-esmap-solar-resource-assessment",
@@ -13611,7 +13778,7 @@
         "slug": "wb-water-sector-diagnostic",
         "title": "World Bank Nepal Water Sector Diagnostic",
         "category": "sources",
-        "context": "…ed construction plans. ## Used By - [[storage-deficit]] - data-storage-comparison ## Relevance to Project The 29.86 km³ requirement vs near…",
+        "context": "…dy outputs, not verified construction plans. ## Used By - data-storage-comparison - [[figure-index]] - [[storage-deficit]] ## Relevance to P…",
         "target_exists": true
       },
       {
@@ -13878,7 +14045,7 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…timates. ## Used By - [[buildability]] - [[firm-power]] - hydropower-potential-categories - [[run-of-river-hydropower]] - [[data-layer-nepal-tributar…",
+        "context": "…a-potential-pyramid]] - [[figure-index]] - [[firm-power]] - hydropower-potential-categories - [[irena-remap-nepal]] - [[karnali-chisapani]] - [[koshi-b…",
         "target_exists": true
       },
       {
@@ -14008,21 +14175,21 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…ntial-pyramid]] - [[karnali-chisapani]] - [[koshi-basin]] - wecs - [[irena-remap-nepal]] ## Relevance to Project The defin…",
+        "context": "…isapani]] - [[koshi-basin]] - [[run-of-river-hydropower]] - wecs ## Relevance to Project The definitive source for [[hydro…",
         "target_exists": true
       },
       {
         "slug": "wecs-energy-synopsis-2024",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "category": "sources",
-        "context": "…solar-hydro-complementarity]] - [[data-final-energy-mix]] - wecs - [[irena-remap-nepal]] ## Relevance to Project The 7.23%…",
+        "context": "…n-of-river-hydropower]] - [[solar-hydro-complementarity]] - wecs ## Relevance to Project The 7.23% grid-electricity share…",
         "target_exists": true
       },
       {
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…entarity]] - [[data-solar-hydro-complementarity-profile]] - wecs - [[data-basin-discharge]] - [[data-layer-nepal-tributaries…",
+        "context": "…le]] - [[figure-index]] - [[solar-hydro-complementarity]] - wecs",
         "target_exists": true
       },
       {
@@ -14166,7 +14333,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "…mestic-led-hydro-strategy]] for the structural argument and energy-substitution-pathway for the full substitution logic. **Priority:** Add [[stora…",
+        "context": "…ic absorption, but not as a single magic ratio: the current energy-substitution-pathway model estimates roughly **2.1-2.6× export value for LPG coo…",
         "target_exists": true
       },
       {
@@ -14210,14 +14377,14 @@
         "slug": "wecs-hydropower-potential-2019",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "category": "sources",
-        "context": "…ower-potential-categories]] - [[run-of-river-hydropower]] - data-layer-nepal-tributaries - [[data-potential-pyramid]] - [[karnali-chisapani]] - [[ko…",
+        "context": "…echno-economic estimates. ## Used By - [[buildability]] - data-layer-nepal-tributaries - [[data-potential-pyramid]] - [[figure-index]] - [[firm-po…",
         "target_exists": true
       },
       {
         "slug": "wecs-river-basin-plan-2024",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "category": "sources",
-        "context": "…mentarity-profile]] - [[wecs]] - [[data-basin-discharge]] - data-layer-nepal-tributaries",
+        "context": "…der than implied. ## Used By - [[data-basin-discharge]] - data-layer-nepal-tributaries - [[data-solar-hydro-complementarity-profile]] - [[figure-i…",
         "target_exists": true
       },
       {
@@ -15070,7 +15237,7 @@
         "slug": "energy-substitution-pathway",
         "title": "Energy Substitution Pathway",
         "category": "concepts",
-        "context": "…an the value of export trade, for the same physical energy. claim-mw-not-equal-value applies directly here. 4. **The \"two-step\" mistake to avoi…",
+        "context": "…e old blanket \"20:1\" framing is not supported by the model. claim-mw-not-equal-value applies directly here, but the ratio depends on which fuel…",
         "target_exists": true
       },
       {
@@ -17681,29 +17848,6 @@
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
         "context": "…[[green-hydrogen-nepal]] investment **Key interventions:** intervention-electric-cooking-transition (build domestic demand to absorb monsoon surplus); [[interv…",
-        "target_exists": true
-      }
-    ],
-    "intervention-nea-structural-separation": [
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…/ offtake / demand weakness | [[seasonal-arbitrage-trap]] | intervention-nea-structural-separation; [[intervention-electric-cooking-transition]] | | 6 | Clima…",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "…auda–Dhalkebar 400 kV and complete cross-border corridors - intervention-nea-structural-separation — carve NLDC into an ISO, transfer AD penalty authority to…",
-        "target_exists": true
-      },
-      {
-        "slug": "twenty-year-strategy",
-        "title": "Twenty-Year Strategy",
-        "category": "syntheses",
-        "context": "…mission-completion]] (Hetauda–Dhalkebar, Butwal–Gorakhpur); intervention-nea-structural-separation (begin ISO and open-access work in this phase). **Priority…",
         "target_exists": true
       }
     ],

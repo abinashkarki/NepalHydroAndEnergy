@@ -4,6 +4,7 @@ category: interventions
 type: intervention
 tags: [NEA, governance, ISO, ERC, PPA, open-access, IPP, reform]
 excerpt: Carve NLDC into an independent system operator, transfer AD penalty authority to ERC, and create an open-access framework allowing IPPs to sell to third parties — resolving the triple-authority conflict that institutionalises curtailment without compensation.
+sources: [erc-open-access-directive-2082]
 page_quality: analysis
 ---
 # NEA Structural Separation
@@ -16,7 +17,7 @@ Separate the Nepal Electricity Authority's three conflicting roles into independ
 
 2. **Transfer AD penalty authority to the Electricity Regulatory Commission (ERC).** Amend the ERC Act or relevant bylaws to make the ERC — not NEA — the entity that calculates, levies, and adjudicates Availability Declaration penalties. NEA would retain the role of off-taker but would no longer be the simultaneous prosecutor and judge of its own counterparties.
 
-3. **Create an open-access framework.** Promulgate the draft Open Access policy (anticipated since at least 2022) allowing IPPs to sell to third parties: industrial consumers, export markets, and trading companies. This would end the single-buyer monopoly that makes every IPP a captive seller to NEA.
+3. **Implement the Open Access Directive 2082.** ERC issued the directive in January 2026, creating a legal route for eligible generators and large consumers to use the transmission and distribution system on an open-access basis. The remaining task is implementation: manuals, wheeling charges, operational procedures, settlement rules, and NEA practice. If implemented with fidelity, open access would reduce the single-buyer monopoly that makes every IPP a captive seller to NEA.
 
 ## Theory of Change
 
@@ -33,7 +34,7 @@ Without separation, every additional MW of IPP capacity faces the same structura
 
 **PARTIALLY VERIFIED:**
 - The 2003 World Bank Nepal power sector review recommended eliminating conflicts of interest in NEA's structure. No legislation has been enacted in the 23 years since.
-- A draft Open Access policy exists and has been discussed since at least 2022. No promulgation date has been announced.
+- ERC issued the **Open Access Directive 2082** in January 2026. This updates the older "draft policy" status, but implementation remains unproven: the directive is issued, not yet demonstrated as fully operational in dispatch, wheeling, settlement, and third-party contracting practice.
 - The ERC has demonstrated willingness to exercise regulatory authority — ERC Bylaws 2076 created an AD penalty exemption for sub-10 MW projects. But the Barahi case proves the ERC cannot enforce its own bylaws against NEA's control of cash disbursement.
 
 **UNVERIFIED:**
@@ -41,7 +42,7 @@ Without separation, every additional MW of IPP capacity faces the same structura
 - Whether any PPA contains an explicit clause exempting IPPs from AD penalties when curtailment is ordered by NEA/NLDC
 - The exact statutory mechanism by which AD penalties are retained by NEA (rather than remitted to an independent fund)
 
-**No legislation implementing any of the three separation actions has been enacted.**
+**No legislation implementing ISO separation or AD-penalty transfer has been enacted.** Open access has moved from draft status to an issued ERC directive, but the operational market architecture is still under test.
 
 The Fenner School's independent academic audit (ANU) has verified the institutional bias: *"The major complaint of the rising IPPs is that the playing field is not level, that NEA as generator, transmitter and distributor gives preferential terms to its own projects compared to IPPs."*
 
@@ -70,7 +71,7 @@ The Fenner School's independent academic audit (ANU) has verified the institutio
 **Realistic path:** Nepal has had 18+ governments in 30 years. A comprehensive legislative overhaul (Electricity Act amendment + ERC Act amendment + open-access promulgation) is improbable in a single government's tenure. A more realistic sequence:
 1. **Executive action first:** Ring-fence NLDC within NEA with published merit-order criteria — achievable without legislation
 2. **ERC capacity-building:** Fund and staff ERC to prepare for penalty adjudication authority — requires budget commitment, not law reform
-3. **Legislative sequencing:** Open-access regulation (simplest, most precedent internationally) → ISO legislation → penalty transfer
+3. **Legislative / regulatory sequencing:** operationalize Open Access Directive 2082 → ISO legislation → penalty transfer
 
 The window of a majority government (current post-2024) is the most favourable in a decade for structural reform. The risk is that the political cycle turns before any component is enacted.
 

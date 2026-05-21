@@ -2,8 +2,8 @@
 title: Storage Deficit
 type: concept
 created: 2026-04-14
-updated: 2026-05-12
-sources: [wb-water-sector-diagnostic, national-water-plan-nepal, nea-annual-report-fy2024-25]
+updated: 2026-05-21
+sources: [wb-water-sector-diagnostic, national-water-plan-nepal, nea-annual-report-fy2024-25, tanahu-progress-2026]
 tags: [reservoir, water-security, seasonality, infrastructure, nepal]
 page_quality: analysis
 ---
@@ -50,7 +50,7 @@ Nepal’s steep gradients are good for **head** and therefore for RoR hydropower
 
 ## Why storage is politically hard even when physically “obvious”
 
-Seasonal mismatch ([[seasonal-mismatch]]) makes storage the clearest physical answer for evening and multi-week scarcity, but projects collide with **sedimentation**, **seismic hazard**, **resettlement**, **financing**, and **treaty-dependent** downstream politics. That is why [[buildability]] matters as much as MW: a reservoir is not a line on a map until the whole engineering–social–finance package survives scrutiny. [[tanahu-hydropower|Tanahu]] (140 MW, 67% complete after ~10 years) is the test case for whether Nepal can deliver a reservoir at all — and [[kulekhani-i|Kulekhani's]] ~24% gross / ~19% live sedimentation loss is the warning for what happens after commissioning.
+Seasonal mismatch ([[seasonal-mismatch]]) makes storage the clearest physical answer for evening and multi-week scarcity, but projects collide with **sedimentation**, **seismic hazard**, **resettlement**, **financing**, and **treaty-dependent** downstream politics. That is why [[buildability]] matters as much as MW: a reservoir is not a line on a map until the whole engineering–social–finance package survives scrutiny. [[tanahu-hydropower|Tanahu]] (140 MW, ~67% complete in the NEA FY 2024/25 report and roughly 75% complete in an April 2026 public update) is the test case for whether Nepal can deliver a reservoir at all — and [[kulekhani-i|Kulekhani's]] ~24% gross / ~19% live sedimentation loss is the warning for what happens after commissioning.
 
 ## Common Misunderstandings
 

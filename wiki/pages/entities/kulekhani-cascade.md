@@ -2,10 +2,10 @@
 title: Kulekhani Cascade
 type: entity
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-05-21
 generator: specs-refresh
 page_quality: analysis
-sources: [nea-annual-report-fy2024-25]
+sources: [nea-annual-report-fy2024-25, tanahu-progress-2026]
 tags: [project, storage, reservoir, operational, kulekhani, landmark]
 images:
   - src: kulekhani-cascade/the-kulekhani-dam.jpg
@@ -100,7 +100,7 @@ Beyond energy, Kulekhani provides services that RoR plants cannot:
 These services are not priced in the PPA, which pays the same NPR/kWh as any RoR plant. The value of storage is captured in grid reliability, not in Kulekhani's revenue line. This is part of the broader [[ppa-pricing]] challenge: Nepal's tariff structure does not compensate storage for the services it uniquely provides.
 
 ### Schedule
-Kulekhani I was commissioned in 1982, making it Nepal's first major storage hydropower project — and, 40+ years later, still its only one. The cascade additions (KL-II in 1986, KL-III in 2019) extended the system but did not add new reservoir capacity. Compare with the pipeline: [[tanahu-hydropower]] (140 MW storage, ~67% complete) and [[dudhkoshi-storage]] (635 MW, pre-construction) are the next storage projects that would break this four-decade monopoly.
+Kulekhani I was commissioned in 1982, making it Nepal's first major storage hydropower project — and, 40+ years later, still its only one. The cascade additions (KL-II in 1986, KL-III in 2019) extended the system but did not add new reservoir capacity. Compare with the pipeline: [[tanahu-hydropower]] (140 MW storage, ~67% complete in the NEA FY 2024/25 baseline and ~75% in an April 2026 public update) and [[dudhkoshi-storage]] (635 MW, pre-construction) are the next storage projects that would break this four-decade monopoly.
 
 | Parameter | Value |
 |-----------|-------|

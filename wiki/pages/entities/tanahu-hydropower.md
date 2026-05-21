@@ -2,10 +2,10 @@
 title: Tanahu Hydropower Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-05-21
 generator: specs-refresh
 page_quality: analysis
-sources: [tanahu-adb-status-2025, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
+sources: [tanahu-adb-status-2025, tanahu-progress-2026, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [project, storage, under-construction, gandaki, seti, adb-financed, tanahu]
 images:
   - src: tanahu-hydropower/seti-gandaki-river.jpg
@@ -63,7 +63,7 @@ A 140 MW **storage-type** reservoir scheme on the Seti River — the
 only large dam-and-reservoir project actually in active construction
 in Nepal, making it the single most important test case for
 whether the country can execute [[storage-deficit]]-closing assets at
-all. ADB-financed, NEA-owned, ~67% complete as of FY 2024/25, and
+all. ADB-financed, NEA-owned, ~67% complete as of the NEA FY 2024/25 annual report and roughly **75% complete by April 2026**, and
 shadowed by two Accountability Mechanism complaints over land and
 buffer-zone compensation.
 
@@ -72,7 +72,7 @@ buffer-zone compensation.
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 140 MW |
-| Status | Under construction — ~67% complete (FY 2024/25) |
+| Status | Under construction — ~67% complete (FY 2024/25 NEA baseline); ~75% public progress update (Apr 2026) |
 | River | Seti ([[gandaki-basin]]) |
 | District | Tanahu |
 
@@ -96,11 +96,11 @@ ADB-financed, NEA-owned, and shadowed by two Accountability Mechanism complaints
 | Developer | NEA |
 
 ### Schedule
-~67% complete after roughly ten years of construction — slower than comparable multilateral projects elsewhere. Each additional year of delay compounds NEA's dry-season exposure, since Tanahu is counted in medium-term planning to arrive before the [[seasonal-mismatch]] pressure peaks.
+Roughly 67% complete after the FY 2024/25 reporting year, with a later public progress update placing it around 75% complete in April 2026. The project remains slower than comparable multilateral projects elsewhere. Each additional year of delay compounds NEA's dry-season exposure, since Tanahu is counted in medium-term planning to arrive before the [[seasonal-mismatch]] pressure peaks.
 
 | Parameter | Value |
 |-----------|-------|
-| Completion | ~67 % |
+| Completion | ~67% in NEA FY 2024/25; ~75% in Apr 2026 public update |
 
 
 ## Significance
@@ -135,9 +135,10 @@ demarcation, untitled-land registration, and free prior informed
 consent done properly? Current complaints flag all three. ADB
 accepted the 2025 complaint for eligibility review in April.
 
-**Schedule discipline.** 67% physical progress after ~10 years of
+**Schedule discipline.** Roughly 67% physical progress after ~10 years of
 construction is slower than comparable multilateral-financed projects
-elsewhere. Each additional year compounds NEA's dry-season
+elsewhere; a later April 2026 public update put progress around 75%.
+Each additional year compounds NEA's dry-season
 [[firm-power]] exposure, since the entire medium-term planning
 rationale for Tanahu depends on it arriving before the
 [[seasonal-mismatch]] pressure peaks.

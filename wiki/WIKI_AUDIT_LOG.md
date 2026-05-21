@@ -1489,6 +1489,46 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-05-21 — Documentary Verification Wiki Update
+
+**Agent:** Codex
+**Session type:** Cross-cutting verification update from documentary fact/model review
+**Pages touched:**
+- `sources/iea-tracking-sdg7-2025`: added current global electricity-access benchmark source page.
+- `sources/wb-niettp-load-shedding-gdp-cost`: added source page for the World Bank 7% GDP/year load-shedding cost estimate.
+- `sources/erc-open-access-directive-2082`: added source page for January 2026 issued Open Access Directive status.
+- `sources/tanahu-progress-2026`: added source page for April 2026 Tanahu progress update.
+- `sources/nefport-protected-area-hydro-ruling-2025`: added source page for 267 projects / 19,736 MW protected-area exposure estimate.
+- `sources/nea-annual-report-fy2024-25`: added system peak, per-capita consumption, 12.26% total system loss, and 97.6% grid coverage to key data points.
+- `entities/nepal-energy-profile`: corrected system losses, grid coverage, protected-area exposure estimate, and load-shedding GDP-cost citation.
+- `entities/nea`: corrected NEA key facts for total system loss and national grid coverage.
+- `interventions/intervention-nea-structural-separation`: updated Open Access from draft status to issued directive with implementation caveat.
+- `concepts/nea-triple-authority`: updated reform-model language for issued Open Access Directive 2082 while keeping ISO and penalty-transfer gaps unresolved.
+- `concepts/energy-substitution-pathway`: replaced broad domestic-substitution value claims with fuel-specific model ranges and softened petroleum-import framing.
+- `concepts/domestic-led-hydro-strategy`: replaced unsupported high-ratio domestic value language with the fuel-specific substitution ranges.
+- `syntheses/twenty-year-strategy`: updated value-capture section to reference fuel-specific substitution economics.
+- `entities/tanahu-hydropower`: added April 2026 ~75% progress update while preserving NEA FY 2024/25 ~67% baseline.
+- `sources/tanahu-adb-status-2025`: updated source compilation to include 2026 public progress check.
+- `concepts/storage-deficit`: updated Tanahu status wording with baseline/current distinction.
+- `entities/kulekhani-cascade`: updated Tanahu pipeline comparison wording.
+- `syntheses/solar-role-in-winter-deficit`: updated storage lever wording for Tanahu progress.
+- `entities/dudhkoshi-storage`: updated Tanahu comparison wording.
+- `syntheses/unresolved-questions`: updated system-loss and electricity-access reconciliation guidance.
+- `claims/claim-mw-not-equal-value`: updated frontmatter date only to satisfy governed-claim recency validation after `nepal-energy-profile` metric-source update.
+- `claims/claim-governance-binding`, `claims/claim-india-decisive-actor`, `claims/claim-transmission-immediate-blocker`: updated frontmatter dates only to satisfy governed-claim recency validation after `nea` / `nepal-energy-profile` metric-source updates.
+
+**Validation result:** Passed after index rebuild. `.venv/bin/python scripts/validate_repo.py` returned `OK: 386 wiki pages, caches valid, map manifest valid, tracked hygiene clean`; warnings remain for stale figure timestamps and 67 solar CSV slugs with no wiki pages. `git diff --check` passed.
+
+**Flags raised:**
+- Scope exception: `wiki/GOVERNANCE.md` states a five-page session limit. This user-requested verification update is cross-cutting and exceeded that limit. The session is logged explicitly; no new ontology terms were introduced.
+
+**Decisions made:**
+- Preserved hierarchy: source pages were kept descriptive; model interpretation lives in concept/synthesis pages.
+- Retained NEA FY 2024/25 Tanahu progress as the official annual-report baseline and used April 2026 as a time-sensitive public update.
+- Avoided adding the unsupported `20:1` substitution ratio or `2-3×` firm-power premium to wiki pages.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

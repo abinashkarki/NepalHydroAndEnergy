@@ -2,8 +2,8 @@
 title: Domestic-Led Hydro Strategy
 type: concept
 created: 2026-04-14
-updated: 2026-04-24
-sources: [wb-country-economic-memo-2025, wecs-energy-synopsis-2024, adb-hydropower-growth-nepal]
+updated: 2026-05-21
+sources: [wb-country-economic-memo-2025, wecs-energy-synopsis-2024, wb-household-electric-cooking-nepal-2025, adb-hydropower-growth-nepal]
 tags: [strategy, demand, industrial-policy, electrification, nepal, hydro]
 page_quality: analysis
 ---
@@ -43,7 +43,7 @@ The sectoral breakdown (FY 2020/21, NEA) reveals a critical structure (see [[dat
 
 **The electric cooking gap is the most dramatic underdevelopment:** fewer than **~1% of Nepal's households** use electricity for cooking. Biomass and imported LPG dominate. This is not a preference story — it is a reliability and appliance-access story. Shifting even 20–30% of cooking loads to electricity would create large, distributed, flexible domestic demand that simultaneously absorbs monsoon surplus and cuts the LPG import bill.
 
-Industrialization, urbanization, and replacement of costly fossil inputs add concurrent load. **Highest-value uses** include displacing **captive diesel**, electrifying **cooking and transport**, and feeding **manufacturing** where reliability converts kWh into jobs and tax base. Order-of-magnitude estimates suggest **ferroalloys and similar electro-intensive industry** can yield **8–10x the domestic value** of selling the same energy as a commodity export to India at spot-like realizations.
+Industrialization, urbanization, and replacement of costly fossil inputs add concurrent load. **Highest-value uses** include displacing **captive diesel**, electrifying **cooking and transport**, and feeding **manufacturing** where reliability converts kWh into jobs and tax base. The current fuel-displacement model in [[energy-substitution-pathway]] supports a fuel-specific domestic value premium rather than a single headline ratio: roughly **2.1-2.6× export value for LPG cooking** and **4.3-6.6× for diesel mechanical displacement**, with biomass value depending heavily on whether health and time externalities are counted.
 
 ## The constraint is not "can Nepal export?" — it can
 
