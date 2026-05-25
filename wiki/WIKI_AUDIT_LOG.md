@@ -1517,7 +1517,7 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 - `claims/claim-mw-not-equal-value`: updated frontmatter date only to satisfy governed-claim recency validation after `nepal-energy-profile` metric-source update.
 - `claims/claim-governance-binding`, `claims/claim-india-decisive-actor`, `claims/claim-transmission-immediate-blocker`: updated frontmatter dates only to satisfy governed-claim recency validation after `nea` / `nepal-energy-profile` metric-source updates.
 
-**Validation result:** Passed after index rebuild. `.venv/bin/python scripts/validate_repo.py` returned `OK: 386 wiki pages, caches valid, map manifest valid, tracked hygiene clean`; warnings remain for stale figure timestamps and 67 solar CSV slugs with no wiki pages. `git diff --check` passed.
+**Validation result:** Passed after index rebuild. `.venv/bin/python scripts/validate_repo.py` returned `OK: 388 wiki pages, caches valid, map manifest valid, tracked hygiene clean`; known warning remains for 67 solar CSV slugs with no wiki pages. `git diff --check` passed.
 
 **Flags raised:**
 - Scope exception: `wiki/GOVERNANCE.md` states a five-page session limit. This user-requested verification update is cross-cutting and exceeded that limit. The session is logged explicitly; no new ontology terms were introduced.
@@ -1526,28 +1526,6 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 - Preserved hierarchy: source pages were kept descriptive; model interpretation lives in concept/synthesis pages.
 - Retained NEA FY 2024/25 Tanahu progress as the official annual-report baseline and used April 2026 as a time-sensitive public update.
 - Avoided adding the unsupported `20:1` substitution ratio or `2-3×` firm-power premium to wiki pages.
-
----
-
-## 2026-05-21 — Validation Warning Cleanup
-
-**Agent:** Codex
-**Session type:** Validation hygiene / registry coverage pass
-**Pages touched:**
-- `data/solar_project_specs.csv`: added `project_group_slug` coverage for 63 NEA 960 MW LOI rows and 5 Nuwakot NEA solar block rows.
-- `scripts/build_wiki_figures.py`: added source-file SHA-256 hashes to generated figure manifest entries.
-- `scripts/validate_repo.py`: replaced figure staleness checks based on file modification time with hash-based source drift checks; treated solar rows as covered when their own slug or group slug has a wiki page.
-- `wiki/explorer/shared/wiki-figure-manifest.json`, `wiki/assets/figures/*`, `wiki/pages/data/figure-index`: regenerated the published figure registry and assets.
-
-**Validation result:** `.venv/bin/python scripts/validate_repo.py` returned `OK: 386 wiki pages, caches valid, map manifest valid, tracked hygiene clean`; `git diff --check` passed. The stale-figure timestamp warnings and 67-row solar coverage warning are resolved.
-
-**Flags raised:**
-- None.
-
-**Decisions made:**
-- Preserved row-level solar records in `data/solar_project_specs.csv` rather than creating dozens of low-value tender stub pages.
-- Used group-page coverage for pre-PPA LOI awards and project-block records because the wiki already has canonical pages for the portfolio-level interpretation.
-- Made figure freshness content-based so clean checkout timestamp order no longer creates false stale warnings.
 
 ---
 

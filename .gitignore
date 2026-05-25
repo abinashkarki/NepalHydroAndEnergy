@@ -47,6 +47,7 @@ wiki/explorer/lib/cesium/
 # Scratch / derived intermediates (regenerate on demand)
 # ==========================================================================
 tmp/
+documentary/
 wiki/explorer/shots/
 *.404-stub.bak
 
