@@ -1,34 +1,40 @@
 ---
-title: New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal
+title: NEA Solar Award Tariffs Undercut the Standard Small-RoR Blended Tariff
 type: claim
 created: 2026-04-24
-updated: 2026-05-11
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2024-11-12
 claim_id: C-017
-confidence: high
-status: stable
+confidence: medium-high
+status: verified-with-boundaries
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, irena-remap-nepal, nea-solar-loi-2024]
 tags: [solar, hydro, economics, LCOE, PPA, tariff, nepal]
+excerpt: NEA's 2024 solar LoI award tariffs sit below an illustrative standard small-RoR blended PPA tariff, without proving delivered cost or firm system value.
+caveat: Award tariffs are not final delivered LCOE or commissioned performance, and solar and hydro provide different timing and firmness services.
+maturity: working-page
 page_quality: analysis
 ---
 
 ## Claim
 
-For Nepal's next marginal MW of non-firm generation, **utility-scale solar is now cheaper than small run-of-river hydro** on a blended tariff basis, and its advantage grows when timing value is counted.
+In the cited public records, **NEA's 2024 solar LoI award tariffs are below an illustrative standard small run-of-river blended PPA tariff**. This is a tariff comparison, not proof that every solar project is cheaper to deliver or more valuable to the system.
 
 ## Evidence
 
-- The newer 960 MW national tender table in [[data-solar-hydro-lcoe]] treats the canonical batch as **63 projects** at **4.99-5.54 NPR/kWh**, with a capacity-weighted average of roughly **5.43 NPR/kWh**.
+- The corrected 960 MW award table in [[nea-solar-loi-2024]] contains **63 records** at **4.99–5.54 NPR/kWh**, with a capacity-weighted average of about **5.43 NPR/kWh**.
 - Standard small RoR hydro PPA economics remain around **8.40 NPR/kWh dry-season** and **4.80 NPR/kWh wet-season**, or roughly **6.20 NPR/kWh blended** before project-specific adjustments.
-- Solar's seasonal profile is better matched to Nepal's scarcity window: dry-season clear skies raise the value of solar kWh, while RoR hydro's output remains monsoon-heavy.
-- [[data-solar-hydro-lcoe]] and [[solar-lcoe-crossover]] document the crossover, while [[seasonal-arbitrage-trap]] explains why a kWh's month matters.
+- Solar's seasonal profile can complement weak dry-season hydro, but daytime solar is not firm evening capacity and award rows do not establish operation.
+- [[data-solar-hydro-lcoe]] documents the arithmetic and its assumptions; [[seasonal-arbitrage-trap]] explains why service timing must remain separate from the headline tariff.
 
 ## Confidence rationale
 
-**High** for the narrow tariff claim, because the NEA LoI and standard hydro PPA structure are public and directly comparable at the blended level. **Medium-high** for the time-weighted advantage, because it depends on assumptions about seasonal market value and plant output profile, but the direction is robust.
+**Medium-high.** The award table and standard tariff schedule support the narrow arithmetic. Confidence is not high because an LoI award is not a final PPA, delivered cost or operating record, and a blended energy tariff does not equal firm system value.
 
 ## Boundary Conditions
 
-This claim does **not** say solar replaces storage hydro or peaking hydro. It says solar beats small RoR as the default marginal non-firm energy source when the system needs dry-season daytime kWh quickly.
+This claim does **not** say solar replaces storage or peaking hydro, that all award rows will be built, or that the tariff comparison determines the default portfolio choice.
 
 ## Related
 

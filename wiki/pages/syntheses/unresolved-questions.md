@@ -2,15 +2,22 @@
 title: Unresolved Questions
 type: synthesis
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 sources: []
 tags: [synthesis, gaps, verification, follow-up]
-page_quality: analysis
+excerpt: A current register of evidence gaps, data conflicts and monitoring priorities that materially limit claims about Nepal's electricity system.
+page_quality: flagship
+maturity: verified-core
+caveat: A filled source-discovery task does not imply that the underlying project outcome, national aggregate or current status is verified.
+evidence_register: true
 ---
 
 # Unresolved Questions
 
-Areas where public evidence remains thin, source definitions conflict, or more granular data would materially improve the hub.
+Areas where public evidence remains thin, source definitions conflict, or more granular data would materially improve the hub. Project-specific active blockers are now also maintained in [the monitoring registry](../../data/project_blockers.csv).
 
 ## Research Gaps
 
@@ -18,9 +25,9 @@ Areas where public evidence remains thin, source definitions conflict, or more g
 |---|-----|---------------|--------|
 | 1 | DHM long time-series discharge data by tributary | Validate basin-level flow claims at project resolution | **OPEN** — likely locked behind institutional access |
 | 2 | Monthly import-export time series | Strengthen [[seasonal-arbitrage-trap]] argument beyond annual aggregates | **FILLED** — month-by-month GWh table for FY 2079/80 (~2022/23), combined with FY 2025/26 NPR monthly revenue data. See [[data-trade-time-series]] |
-| 3 | Plant-level curtailment and outage data | Quantify [[stranded-generation]] precisely | **OPEN** — NEA Load Dispatch Center data not public |
+| 3 | Plant-level curtailment and outage data | Quantify [[stranded-generation]] precisely | **OPEN** — public transmission reports provide daily aggregates, while the Generation Directorate operational-report page is not yet populated; plant availability, dispatch events and reason codes remain unavailable. See [[nea-operational-reporting-portals-2026]] |
 | 4 | NEA financial health | Audited accounts, debt burden, PPA liability exposure | **FILLED** — FY 2024/25 financials and May 2025 white paper data in [[nea]] |
-| 5 | Project-level sediment and geology assessments | Move [[sediment-as-design-constraint]] from general to specific | **OPEN** — requires individual project EIAs |
+| 5 | Project-level sediment and geology assessments | Move [[sediment-as-design-constraint]] from general to specific | **OPEN** — requires individual project EIAs and current safeguard instruments |
 | 6 | Demand-side load shape (hourly/daily) | Critical for system design and [[firm-power]] analysis | **PARTIALLY FILLED** — evening peak timing (18:30-19:25), peak import-at-peak magnitude (643 MW in Falgun 2080), and monthly import totals are documented. Full hourly load curve is not public. See [[data-domestic-demand]] |
 | 7 | Post-2024 Bangladesh trade route status | Scale-up trajectory for buyer diversification | **FILLED** — full page at [[bangladesh-trade-route]] |
 | 8 | Chinese-linked project status | Earlier public summaries left uncertainty unresolved | **FILLED** — West Seti (CTG withdrew 2018, NHPC now), Budhigandaki (Gezhouba blocked, domestic). See [[west-seti]], [[budhigandaki]] |
@@ -48,11 +55,22 @@ Areas where public evidence remains thin, source definitions conflict, or more g
 
 | Claim Area | What's Needed | Status |
 |------------|--------------|--------|
-| 400/220 kV corridor status | Current status of internal transmission buildout | **FILLED** — corridor table in [[claim-transmission-immediate-blocker]] with 7 segments verified |
+| 400/220 kV corridor status | Current status of internal transmission buildout | **PARTIALLY FILLED** — corridor evidence exists, but current Hetauda–Dhalkebar completion, energisation, remaining works and transfer capacity are unverified. See [[claim-transmission-immediate-blocker]] and [[hetauda-dhalkebar-inaruwa-backbone]] |
 | Plant-wise export approvals | Sharpen firm-vs-surplus export argument | **PARTIALLY FILLED** — 941 MW approved from 28 projects; India CEA data confirms project-level approvals |
 | Realized export prices | Firm up [[seasonal-arbitrage-trap]] economics | **FILLED** — NPR 7.11/unit export avg, 6.40 US cents Bangladesh, in [[data-trade-time-series]] |
-| Pancheshwar status | Refine [[pancheshwar]] treatment | **FILLED** — Feb 2025 ministerial meeting, 50-50 vs 75-25 impasse, JEG-6 deadline; updated in [[pancheshwar]] |
+| Pancheshwar status | Refine [[pancheshwar]] treatment | **PARTIALLY FILLED** — current official records support the 6,720 MW scheme basis, but an agreed final DPR, detailed benefit allocation and current joint minutes remain open. See [[pancheshwar]] |
 | China-linked projects | Keep [[hydro-geopolitics]] accurate | **FILLED** — CTG withdrew West Seti 2018, Gezhouba blocked from Budhigandaki; updated in [[hydro-geopolitics]], [[west-seti]], [[budhigandaki]] |
+
+## Current Monitoring Priorities
+
+| Area | Evidence needed | Current handling |
+|------|-----------------|------------------|
+| [[upper-tamakoshi]] | Current Rolwaling package progress, stop/restart evidence and commissioning schedule | **PARTIALLY FILLED** — April–May 2026 filings have been ingested and financial lines reconciled; they do not establish current package percentage, a stop/restart date or commissioning schedule |
+| [[budhigandaki]] | Approved DPR/salient features, financing, compensation and resettlement disclosures | **OPEN** — current procurement notices do not establish construction readiness |
+| [[upper-karnali]] | Executed financial close, bankable offtake and current PDA/court milestone | **OPEN** — proposed partner structure is not financial close |
+| [[dudhkoshi-storage]] | Financing approval and current safeguard instruments, including GLOF design basis | **OPEN** — proposed financing and early design material do not establish implementation |
+| [[arun-3]] and [[gorakhpur-butwal-interconnection]] | Dated, component-level generation, evacuation-line and cross-border commissioning progress | **OPEN** — overall target dates are not sufficient evidence of synchronized delivery |
+| [[ipo-hydropower-bailout]] | Issuer-by-issuer prospectus extraction, offer completion and post-offer use of proceeds | **OPEN** — SEBON records now identify a primary-document trail, but no audited sector-wide inventory yet |
 
 ## Related
 

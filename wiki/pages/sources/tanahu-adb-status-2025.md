@@ -64,10 +64,6 @@ transparency layer.
 - **Construction progress is time-sensitive.** The ~67% completion figure is from the NEA FY 2024/25 annual report; the ~75% figure is a later public update and should be refreshed before final publication or narration lock.
 - **Accountability Mechanism complaints are unresolved.** Two complaints (2024 and 2025) are filed and eligible for review but not yet adjudicated. Their resolution may affect project timeline and cost.
 
-## Used By
-
-- [[tanahu-hydropower]]
-
 ## See also
 
 - [[tanahu-hydropower]]

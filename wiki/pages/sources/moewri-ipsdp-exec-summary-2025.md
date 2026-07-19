@@ -80,29 +80,6 @@ Local workspace copy:
 - **Date discrepancy.** Cover date is December 2024, but the local filename uses 2025. Citation precision depends on distinguishing the report cover date from the local filename.
 - **Cutoff limitation.** The study predates significant 2025 events (e.g., September 2024 flood damage to 600+ MW of capacity, post-flood recovery timelines, and any PPA or trade-agreement developments after the study cutoff).
 
-## Used By
-
-- [[betan-karnali]]
-- [[bheri-1]]
-- [[chera-1]]
-- [[data-ipsdp-milestone-ladder-2022-2040]]
-- [[environmental-flow-policy]]
-- [[ipsdp-2025-vs-wiki-claims]]
-- [[jica-ipsdp-main-report-vol2]]
-- [[kimathanka-arun]]
-- [[lower-badigad]]
-- [[madi]]
-- [[nalsyau-gad]]
-- [[naumure-w-rapti]]
-- [[nepal-power-trade-schemes]]
-- [[phukot-karnali]]
-- [[sun-koshi-no-3]]
-- [[tamakoshi-3]]
-- [[tamor-storage]]
-- [[upper-tamor]]
-- [[upper-trishuli-1]]
-- [[uttarganga-storage]]
-
 ## See also
 
 - [[data-ipsdp-milestone-ladder-2022-2040]]

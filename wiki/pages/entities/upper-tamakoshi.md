@@ -2,11 +2,18 @@
 title: Upper Tamakoshi
 type: entity
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-07-13
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-10
 generator: specs-refresh
+project_dossier: lighthouse
+maturity: working-page
 page_quality: analysis
-sources: [nea-annual-report-fy2024-25, nea-transmission-annual-book-2077, ukhl-financials-generation-fy2079-82]
+sources: [utkhpl-disclosures-2026, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077, ukhl-financials-generation-fy2079-82]
 tags: [project, ror, operational, landmark, dolakha]
+excerpt: A 456 MW operating peaking run-of-river project tracked through company disclosures, with financial recovery and expansion milestones kept separate.
+caveat: Operating status is established, but current financial reconciliation and the Rolwaling diversion schedule remain filing-dependent.
 images:
   - src: upper-tamakoshi/stupa-park-in-lambagar-dolakha-district-dolakha-nepal-rajesh-dhungana-2.jpg
     caption: Beautiful Stupa Park in Lambagar, Dolakha District.
@@ -55,6 +62,43 @@ images:
 ## Summary
 
 Nepal's **largest operating hydropower plant** at 456 MW. Located on the Tama Koshi River in Dolakha district. Commissioned in 2021.
+
+## Current Status and Performance Provenance
+
+**As of 10 July 2026:** operating. UTKHPL published combined annual
+reports for FY 2079/80 and 2080/81 in April 2026 and its FY 2082/83
+third-quarter financial report in May 2026. Those company disclosures
+are the current evidence base for operations, debt, insurance recovery
+and shareholder monitoring; older research compilations should not be
+treated as the final word when a newer filing differs.
+
+| Dimension | Current position | Evidence |
+|---|---|---|
+| Delivery | Operating; 456 MW | Structured project registry and UTKHPL disclosures |
+| Financial reporting | Third-quarter FY 2082/83 report published | 13 May 2026 |
+| Annual reporting | FY 2079/80 and FY 2080/81 annual reports published | 6 Apr 2026 |
+| Expansion | Rolwaling diversion milestone and contribution require current project-company verification | Monitoring gap |
+
+## Recent Updates
+
+| Date | Update | Source |
+|---|---|---|
+| 13 May 2026 | FY 2082/83 third-quarter financial report published | [UTKHPL project updates](https://utkhpl.org.np/) |
+| 6 Apr 2026 | Sixteenth and seventeenth annual reports published | [UTKHPL annual reports](https://utkhpl.org.np/annual-reports/) |
+
+## Active Blockers
+
+| Blocker | Prevents | Current handling |
+|---|---|---|
+| Financial recovery and insurance/debt reconciliation remain filing-dependent | A stable forward financial assessment | Update from company and rating disclosures, not secondary summaries |
+| Rolwaling diversion schedule, cost and incremental energy lack a current milestone record in the wiki | Reliable expansion forecast | Keep the milestone explicitly unverified until a primary update is ingested |
+
+> [!warning] **Evidence boundary.** The detailed generation and financial
+> sections below were assembled from audited accounts, rating material and
+> research compilations with different reporting cut-offs. Where those figures
+> conflict with the April–May 2026 company filings, the newer primary filing
+> should control and the discrepancy should be logged rather than silently
+> averaged.
 
 ## Specifications
 
@@ -231,23 +275,22 @@ loan payments within 30 days of the outage triggered ICRA Nepal to downgrade
 UKHLL to **D** — formal default. Shareholders who had just doubled their exposure
 held equity in an insolvent entity.
 
-### The Rolwaling Diversion — Stalled
+### The Rolwaling Diversion — Current Delivery Status Unverified
 
 UKHLL's only viable internal mechanism to improve its financial position is the
 **Rolwaling Khola diversion** (22 MW): infrastructure to redirect the adjacent
 Rolwaling river into the Upper Tamakoshi reservoir, adding approximately **212 GWh**
 of annual energy and extending dry-season peaking capacity from 4 hours to 6 hours.
 
-> [!warning] **Construction stalled.** As of May 2026, construction on the
-> Rolwaling Diversion — alongside the adjacent Tamakoshi-V project — has been
-> completely halted for several months. The project footprint intersects with the
-> **Gaurishankar Conservation Area**, and the Supreme Court of Nepal annulled a
-> 2024 government amendment to the National Parks Act that would have expedited
-> infrastructure in protected zones. The Ministry of Forests and Environment
-> has not finalized the policy guidelines required to implement the Court's
-> directive, and conservation area authorities have blockaded the construction
-> sites. The NPR ~10.59 billion raised through the 100% right share issuance for
-> this Phase II expansion is sitting idle while the company accumulates losses.
+> [!warning] **Current construction status is unverified.** UTKHPL's FY
+> 2080/81 annual statements describe the 22 MW Rolwaling project as under
+> construction, with an EPC contract awarded and a PPA application in process.
+> The May 2026 quarterly statement reports NPR 2.103 billion of Rolwaling
+> capital work in progress, but gives no package-progress percentage,
+> stop/restart date or commissioning schedule. Those disclosures do not support
+> the former claim that work was completely halted or that construction sites
+> were blockaded. No current delivery status should be inferred from the
+> accounting balance alone.
 
 The dry-season energy matters disproportionately: at NPR 6.96/kWh versus NPR
 3.74/kWh, an extra 212 GWh skewed toward the dry season could add NPR 1.2–1.5
@@ -258,7 +301,7 @@ depends on the debt restructuring terms that accompany any resolution.
 
 - **Structural default at near-peak generation.** UKHLL was downgraded to ICRA **D (Default)** in FY 2081/82 despite achieving 90.2% of contracted energy in FY 2080/81. The crisis is a tariff-debt mismatch, not an engineering failure. See [[nea-triple-authority]] and [[ppa-pricing]] for the structural analysis.
 - **September 2024 flood damage.** 88-day forced shutdown, NPR 1.79 billion physical damage, NPR 1.43 billion business interruption. Insurance claim of NPR 2.0 billion remains unsettled as of May 2026 due to transmission-exclusion clauses. See Financial Performance section above for full detail.
-- **Rolwaling Diversion stalled.** Conservation-area blockade after Supreme Court annulment of National Parks Act amendment. NPR ~10.59 billion raised for Phase II expansion sits idle.
+- **Rolwaling delivery status unverified.** The latest company filing in the wiki reports capital work in progress but no package milestone, stop/restart date or commissioning schedule.
 - **Cascading systemic risk.** Default forces domestic banks (EPF, CIT, commercial banks) to reclassify loans as NPAs; hardens hydropower insurance market; signals to foreign investors that current risk-allocation framework may be uninvestable for mega-projects.
 
 ## Structural implication
@@ -323,6 +366,7 @@ is uninvestable for complex mega-projects.
 
 ## Sources
 
+- [[utkhpl-disclosures-2026|Upper Tamakoshi Hydropower Limited Disclosures (2026)]]
 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
 - [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
 - [[ukhl-financials-generation-fy2079-82|UKHLL Financials and Generation Data — FY 2079/80 to FY 2081/82]]

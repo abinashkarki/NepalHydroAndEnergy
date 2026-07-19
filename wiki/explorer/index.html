@@ -4,17 +4,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="np-build" content="public-launch-6" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' unpkg.com; img-src 'self' data: *.cartocdn.com *.opentopomap.org server.arcgisonline.com *.tile.openstreetmap.org tile.openstreetmap.org *.basemaps.cartocdn.com; connect-src 'self' cdn.jsdelivr.net unpkg.com; frame-src 'none';" />
+  <meta name="np-build" content="public-launch-11" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' unpkg.com; img-src 'self' data: *.cartocdn.com *.opentopomap.org server.arcgisonline.com *.tile.openstreetmap.org tile.openstreetmap.org *.basemaps.cartocdn.com; connect-src 'self' cdn.jsdelivr.net unpkg.com huggingface.co *.huggingface.co *.hf.co; worker-src 'self' blob:; frame-src 'none';" />
   <title>Nepal Energy · Wiki & Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" />
-  <link rel="stylesheet" href="shared/style.css?v=public-launch-7" />
+  <link rel="stylesheet" href="shared/style.css?v=public-launch-11" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
-  <script src="shared/marked.min.js?v=public-launch-6"></script>
-  <script src="shared/leaflet-init.js?v=public-launch-6"></script>
-  <script src="shared/wiki-loader.js?v=public-launch-6"></script>
-  <script src="shared/wiki-search.js?v=public-launch-6"></script>
-  <script src="shared/wiki-vector-search.js?v=public-launch-6"></script>
+  <script src="shared/marked.min.js?v=public-launch-11"></script>
+  <script src="shared/leaflet-init.js?v=public-launch-11"></script>
+  <script src="shared/source-used-by.js?v=public-launch-11"></script>
+  <script src="shared/wiki-loader.js?v=public-launch-11"></script>
+  <script src="shared/wiki-search.js?v=public-launch-11"></script>
+  <script src="shared/wiki-vector-search.js?v=public-launch-11"></script>
   <style>
     /* Layout: resizable three-pane grid. */
     .layout {
@@ -170,68 +171,121 @@
       display: block;
     }
 
-    .seg {
-      display: flex;
-      gap: 0;
-      margin-top: 6px;
-      background: var(--panel-2);
-      border: 1px solid var(--rule);
+    /* Find landing: a slim guide above the browsable index */
+    .find-landing {
+      padding: 10px 10px 12px;
+      margin: 0 0 6px;
+      border-bottom: 1px solid var(--rule);
+      background: linear-gradient(180deg, var(--panel-2), transparent 90%);
       border-radius: 4px;
-      padding: 2px;
     }
 
-    .seg button {
-      flex: 1;
-      background: transparent;
-      border: none;
-      font: inherit;
-      font-size: 11px;
-      padding: 4px 6px;
-      border-radius: 3px;
-      cursor: pointer;
+    .find-landing .fl-line {
+      font-size: 12px;
       color: var(--ink-soft);
+      line-height: 1.45;
+      margin-bottom: 8px;
+    }
+
+    .find-landing .fl-kicker {
+      margin-bottom: 4px;
+      color: var(--accent);
+      font-size: 9px;
+      font-weight: 750;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
     }
 
-    .seg button.active {
-      background: var(--panel);
+    .find-landing .fl-title {
+      margin-bottom: 5px;
       color: var(--ink);
-      font-weight: 600;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      font-family: var(--serif);
+      font-size: 18px;
+      font-weight: 650;
+      line-height: 1.15;
     }
 
-    .seg button:hover:not(.active) {
-      color: var(--ink);
-    }
-
-    .seek-suggestions {
-      display: none;
-      gap: 5px;
-      flex-wrap: wrap;
-      padding-top: 8px;
-    }
-
-    .seek-suggestions.show {
+    .find-landing .fl-chips {
       display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
     }
 
-    .seek-suggestions button {
+    .find-landing .fl-label {
+      font-size: 9.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--ink-soft);
+      opacity: 0.7;
+      margin-right: 2px;
+    }
+
+    .find-landing .fl-chip {
       border: 1px solid var(--rule);
       background: var(--panel);
-      color: var(--ink-soft);
+      color: var(--ink);
       border-radius: 999px;
-      padding: 4px 7px;
+      padding: 4px 9px;
       font: inherit;
-      font-size: 10.5px;
+      font-size: 11.5px;
       cursor: pointer;
       white-space: nowrap;
     }
 
-    .seek-suggestions button:hover {
-      color: var(--ink);
+    .find-landing .fl-chip:hover {
       border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
       background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .find-landing .fl-browse {
+      margin-top: 10px;
+      padding-top: 9px;
+      border-top: 1px solid var(--rule);
+      color: var(--ink-soft);
+      font-size: 11px;
+      line-height: 1.35;
+    }
+
+    .find-landing .fl-feature {
+      margin-top: 11px;
+    }
+
+    .find-landing .fl-feature button {
+      width: 100%;
+      padding: 8px 9px;
+      border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--rule));
+      border-radius: 7px;
+      background: var(--panel);
+      color: var(--ink);
+      font: inherit;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .find-landing .fl-feature button:hover {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .find-landing .fl-feature small,
+    .find-landing .fl-proof {
+      display: block;
+      color: var(--ink-soft);
+      font-size: 10px;
+      line-height: 1.35;
+    }
+
+    .find-landing .fl-feature b {
+      display: block;
+      margin-top: 2px;
+      font-size: 11px;
+    }
+
+    .find-landing .fl-proof {
+      margin-top: 8px;
+      opacity: 0.82;
     }
 
     .tour-toggle {
@@ -496,59 +550,6 @@
       font-style: italic;
     }
 
-    .seek-landing {
-      padding: 22px 18px;
-      max-width: 680px;
-    }
-
-    .seek-landing .sl-kicker {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--ink-soft);
-      margin-bottom: 7px;
-    }
-
-    .seek-landing .sl-title {
-      font-size: 17px;
-      font-weight: 700;
-      color: var(--ink);
-      line-height: 1.25;
-      margin-bottom: 6px;
-    }
-
-    .seek-landing .sl-copy {
-      color: var(--ink-soft);
-      font-size: 13px;
-      line-height: 1.45;
-      max-width: 520px;
-      margin-bottom: 14px;
-    }
-
-    .seek-landing .sl-chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 7px;
-    }
-
-    .seek-landing .sl-chip {
-      border: 1px solid var(--rule);
-      background: var(--panel);
-      color: var(--ink);
-      border-radius: 999px;
-      padding: 6px 10px;
-      font: inherit;
-      font-size: 12px;
-      cursor: pointer;
-    }
-
-    .seek-landing .sl-chip:hover {
-      border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
-      background: var(--accent-soft);
-      color: var(--accent);
-    }
-
     .results-summary {
       padding: 6px 10px;
       font-size: 10px;
@@ -556,6 +557,76 @@
       letter-spacing: 0.06em;
       color: var(--ink-soft);
       border-bottom: 1px solid var(--rule);
+    }
+
+    .search-tools {
+      display: grid;
+      gap: 7px;
+      padding: 9px 10px;
+      border-bottom: 1px solid var(--rule);
+      background: var(--panel-2);
+    }
+
+    .search-filters,
+    .search-actions {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .search-filter,
+    .search-action,
+    .results-more {
+      border: 1px solid var(--rule);
+      border-radius: 999px;
+      background: var(--panel);
+      color: var(--ink-soft);
+      padding: 4px 8px;
+      font: inherit;
+      font-size: 10.5px;
+      cursor: pointer;
+    }
+
+    .search-filter:hover,
+    .search-action:hover,
+    .results-more:hover,
+    .search-filter.active {
+      color: var(--accent);
+      border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
+      background: var(--accent-soft);
+    }
+
+    .search-action.primary {
+      color: #fff;
+      border-color: var(--accent);
+      background: var(--accent);
+    }
+
+    .result-group-title {
+      padding: 10px 10px 4px;
+      color: var(--ink-soft);
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .result .r-meta {
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 10px;
+    }
+
+    .result.keyboard-active {
+      outline: 2px solid var(--accent);
+      outline-offset: -2px;
+      background: var(--accent-soft);
+    }
+
+    .results-footer {
+      padding: 5px 10px 12px;
+      text-align: center;
     }
 
     .answer-card {
@@ -623,8 +694,73 @@
       font-weight: 700;
     }
 
+    .answer-action {
+      border: 1px solid rgba(37, 99, 235, .22);
+      border-radius: 6px;
+      background: rgba(255,255,255,.78);
+      color: var(--accent);
+      padding: 6px 8px;
+      font: inherit;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
     .fact-page h1 {
       margin-bottom: 4px;
+    }
+
+    .project-intel {
+      margin: 0 0 18px;
+      padding: 12px;
+      border: 1px solid #cfe4df;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #f7fbff, #f1f8f5);
+    }
+
+    .project-intel-kicker {
+      color: #44615c;
+      font-size: 9.5px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .project-intel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
+      gap: 9px;
+      margin-top: 9px;
+    }
+
+    .project-intel-cell span {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--ink-soft);
+      font-size: 9px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    .project-intel-cell b {
+      display: block;
+      color: var(--ink);
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    .project-intel-note {
+      margin-top: 10px;
+      padding-top: 9px;
+      border-top: 1px solid #d8e7e2;
+      color: var(--ink-soft);
+      font-size: 11px;
+      line-height: 1.45;
+    }
+
+    .project-intel-note a {
+      margin-left: 7px;
+      font-weight: 700;
     }
 
     .fact-kicker {
@@ -2411,7 +2547,7 @@
 
       .left-head {
         display: grid;
-        grid-template-columns: minmax(220px, 1fr) minmax(190px, 280px);
+        grid-template-columns: 1fr;
         gap: 8px;
         align-items: center;
         padding: 8px 12px;
@@ -2421,7 +2557,6 @@
         grid-column: 1 / -1;
       }
 
-      .left-head .seg,
       .left-head .tour-toggle {
         margin-top: 0;
       }
@@ -2809,7 +2944,7 @@
 <body>
 
   <div class="app-bar">
-    <a class="title home-link" id="home-link" href="?page=start-here" title="Open Start Here" aria-label="Open Start Here">Nepal Energy · Wiki & Map</a>
+    <a class="title home-link" id="home-link" href="?page=start-here" title="Open wiki front page" aria-label="Open wiki front page">Nepal Energy · Wiki & Map</a>
     <span class="pill">nav · wiki page · live map (bidirectional)</span>
     <span class="spacer"></span>
     <button class="reset-btn" id="reset-layout" title="Reset pane widths and view preferences">Reset layout</button>
@@ -2826,23 +2961,13 @@
       <div class="left-head">
         <div class="search-input-wrap" id="search-wrap">
           <span class="si">⌕</span>
-          <input id="q" placeholder="Find pages…" autocomplete="off" />
-          <button class="clear-btn" id="clear-q" title="clear">×</button>
-        </div>
-        <div class="seg" id="search-mode">
-          <button data-mode="search" class="active" title="Find a page by title">Find</button>
-          <button data-mode="seek" title="Ask across topics, sources, and related pages">Explore</button>
-        </div>
-        <div class="seek-suggestions" id="seek-suggestions" aria-label="Suggested Explore queries">
-          <button type="button" data-query="how does transmission bottleneck block Nepal hydropower delivery">transmission bottleneck</button>
-          <button type="button" data-query="why does dry season cause winter electricity deficit">dry season deficit</button>
-          <button type="button" data-query="what is the largest storage project in Karnali basin">largest Karnali storage</button>
-          <button type="button" data-query="how can solar hydro complementarity help firm power">solar + hydro</button>
+          <input id="q" placeholder="Ask about a project, system, claim, or source…" autocomplete="off" aria-label="Search the wiki" />
+          <button class="clear-btn" id="clear-q" title="Clear search">×</button>
         </div>
       </div>
       <div class="seek-status" id="seek-status" aria-live="polite">
         <span class="pulse" aria-hidden="true"></span>
-        <span class="seek-status-msg">Seek is ready.</span>
+        <span class="seek-status-msg">Search ready.</span>
       </div>
       <div id="nav" class="nav-list"></div>
     </aside>
@@ -2900,20 +3025,32 @@
       let currentPreset = null;
       let currentBaseLayer = "Carto Positron";
       let layerFeatureCounts = {};
+      let lastSearchResults = [];
+      let lastSearchQuery = "";
+      let lastSearchIntent = null;
+      let searchVisibleLimit = 9;
+      let searchKeyboardIndex = -1;
+      let searchFilters = { kind: "all", status: "all", evidence: false };
+      let searchMapState = null;
+      let requestVectorBoost = null;
+      // Keep the default search path deterministic, private, and fully local.
+      // The optional transformer reranker remains available for future opt-in use.
+      const SEMANTIC_RERANK_ENABLED = false;
       const DEFAULT_PAGE = "start-here";
       const homeLink = document.getElementById("home-link");
       if (homeLink) {
         homeLink.addEventListener("click", (e) => {
-          if (typeof window.openWikiPage !== "function") return;
           e.preventDefault();
           pageHistory = [];
           window.openWikiPage(DEFAULT_PAGE, { resetHistory: true });
         });
       }
-      let searchMode = localStorage.getItem("explorer.searchMode") || "seek";
-      if (!["search", "seek"].includes(searchMode)) searchMode = "seek";
       let seekSeq = 0;
-      let collapsedGroups = new Set(JSON.parse(localStorage.getItem("explorer.collapsedGroups") || "[]"));
+      const savedCollapsedGroups = localStorage.getItem("explorer.collapsedGroups");
+      let collapsedGroups = new Set(savedCollapsedGroups
+        ? JSON.parse(savedCollapsedGroups)
+        : ["entities", "concepts", "claims", "syntheses", "interventions", "data", "sources"]
+      );
       let suppressUrlSync = false;
       const TOURS_ENABLED = false;
       let tourManifest = null;
@@ -2927,15 +3064,28 @@
         basins: "Basins", projects: "Projects", institutions: "Institutions",
         geopolitics: "Geopolitics & Trade", profiles: "Profiles", other: "Other",
       };
-      const CAT_ORDER = ["entities", "concepts", "claims", "syntheses", "data", "sources"];
-      const CAT_LABEL = { entities: "Entities", concepts: "Concepts", claims: "Claims", syntheses: "Syntheses", data: "Data", sources: "Sources" };
-      const PQ_LABEL = { record: "Record", brief: "Brief", analysis: "Analysis", flagship: "Flagship" };
-      const PQ_TOOLTIP = {
-        record: "Basic factual page with limited narrative context",
-        brief: "Short interpretive page with essential context",
-        analysis: "Substantial narrative page with evidence and sourcing",
-        flagship: "Core guide page for understanding the electricity system",
+      const CAT_ORDER = ["entities", "concepts", "claims", "syntheses", "interventions", "data", "sources"];
+      const CAT_LABEL = {
+        entities: "Entities", concepts: "Concepts", claims: "Claims", syntheses: "Syntheses",
+        interventions: "Decision Dossiers", data: "Data", sources: "Sources",
       };
+      const MATURITY_LABEL = {
+        "verified-core": "Verified Core",
+        "working-page": "Working Page",
+        "registry-record": "Registry Record",
+      };
+      const MATURITY_TOOLTIP = {
+        "verified-core": "Priority guide page with explicit evidence, review metadata, and editorial scrutiny",
+        "working-page": "Useful sourced analysis that is still being deepened or refreshed",
+        "registry-record": "Structured reference record with limited narrative interpretation",
+      };
+      function maturityFromMeta(meta) {
+        const explicit = String((meta && meta.maturity) || "").toLowerCase();
+        if (MATURITY_LABEL[explicit]) return explicit;
+        if (meta && meta.page_quality === "flagship") return "verified-core";
+        if (meta && (meta.page_quality === "record" || meta.is_stub)) return "registry-record";
+        return "working-page";
+      }
       const LAYER_HELP_PAGE = "data-map-layer-labels";
       const LAYER_WIKI_SLUG = {
         "base:carto": "data-layer-carto-positron",
@@ -3032,6 +3182,10 @@
         hydropower_operating: {
           summary: "Operating hydropower projects from the project registry. Marker area scales by capacity, and narrated/wiki counts show page coverage.",
           related: ["run-of-river-hydropower", "nepal-energy-profile", "nea-annual-report-fy2024-25"],
+        },
+        doed_operating_reference_midpoints: {
+          summary: "Ten official DoED operating records missing from the legacy local registry. These are licence-envelope reference midpoints, not facility locations; six records without usable coordinates remain unmapped.",
+          related: ["doed-licensing-directive-2075", "nea-annual-report-fy2024-25"],
         },
         hydropower_construction: {
           summary: "Projects licensed for generation/construction, useful for seeing near-term capacity pressure on basins and transmission corridors.",
@@ -3150,8 +3304,9 @@
       }
 
       function initialCompactView(url) {
+        if (url && url.q) return "find";
         if (url && (url.page || url.fact)) return "read";
-        return "read";
+        return "find";
       }
 
       function currentReaderTitle() {
@@ -3182,6 +3337,15 @@
         const title = currentReaderTitle();
         const hasTarget = currentHasMapTarget();
         if (compactView === "map") {
+          if (searchMapState) {
+            bar.innerHTML = `
+              <div class="mobile-context-label"><b>Search results</b>${escapeHtml(lastSearchQuery || "Mapped matches")}</div>
+              <button type="button" data-mobile-action="restore-search-map">Restore map</button>
+              <button type="button" class="primary" data-mobile-action="search-results">Back to results</button>
+            `;
+            bar.classList.add("show");
+            return;
+          }
           if (!title) return;
           bar.innerHTML = `
             <div class="mobile-context-label"><b>${escapeHtml(title)}</b>Synced map view</div>
@@ -3239,6 +3403,13 @@
             if (!button) return;
             const action = button.dataset.mobileAction;
             if (action === "find" || action === "read" || action === "map") setCompactView(action);
+            if (action === "search-results") {
+              renderResults(lastSearchResults, lastSearchQuery, lastSearchIntent);
+              setCompactView("find");
+            }
+            if (action === "restore-search-map") {
+              restoreSearchMap().then(() => setCompactView("find"));
+            }
           });
         }
         const onViewportChange = () => {
@@ -3361,14 +3532,12 @@
       function navItem(it) {
         const sp = spatialSlugs.has(it.slug) ? " spatial" : "";
         const meta = pageMeta.bySlug[it.slug];
-        const pq = (meta && meta.category === "entities" && meta.page_quality) ? meta.page_quality : "";
-        const badge = pq ? ` <span class="pq-chip pq-${pq}" title="${PQ_TOOLTIP[pq] || pq}">${PQ_LABEL[pq] || pq}</span>` : "";
+        const maturity = maturityFromMeta(meta);
+        const badge = ` <span class="pq-chip maturity-${maturity}" title="${MATURITY_TOOLTIP[maturity]}">${MATURITY_LABEL[maturity]}</span>`;
         return `<a class="nav-link${sp}" data-slug="${it.slug}" href="javascript:void(0)" onclick="openWikiPage('${it.slug}')"><span>${it.title}</span>${badge}</a>`;
       }
 
-      function buildNav() {
-        const nav = document.getElementById("nav");
-        nav.className = "nav-list";
+      function buildNavHtml() {
         let html = "";
         for (const cat of CAT_ORDER) {
           const items = pageIndex.byCategory[cat] || [];
@@ -3390,7 +3559,13 @@
           }
           html += `</div></div>`;
         }
-        nav.innerHTML = html;
+        return html;
+      }
+
+      function buildNav() {
+        const nav = document.getElementById("nav");
+        nav.className = "nav-list";
+        nav.innerHTML = buildNavHtml();
         setActiveNav(currentSlug);
       }
 
@@ -3398,68 +3573,129 @@
         if (collapsedGroups.has(cat)) collapsedGroups.delete(cat);
         else collapsedGroups.add(cat);
         localStorage.setItem("explorer.collapsedGroups", JSON.stringify(Array.from(collapsedGroups)));
-        buildNav();
+        renderFindLanding();
       };
 
       // ============================================================
-      // Search modes: Search / Seek
+      // Unified search: empty query → browsable index; typing → hybrid
+      // results (lexical + facts + optional meaning boost).
       // ============================================================
-      function setSearchMode(mode) {
-        if (!["search", "seek"].includes(mode)) mode = "search";
-        searchMode = mode;
-        localStorage.setItem("explorer.searchMode", mode);
-        document.querySelectorAll("#search-mode button").forEach((b) => b.classList.toggle("active", b.dataset.mode === mode));
-        const input = document.getElementById("q");
-        input.placeholder = mode === "search" ? "Find pages…" : "Ask about topics, questions, tradeoffs…";
-        updateSeekSuggestions();
-        if (mode !== "seek") hideSeekStatus();
-        applySearch();
-      }
+      const FIND_PROMPTS = [
+        ["Track a project", "Upper Karnali current status and blockers"],
+        ["Understand a system problem", "why Nepal imports electricity in winter"],
+        ["Compare options", "largest storage projects in Karnali basin"],
+        ["Verify a claim", "sources for Pancheshwar capacity"],
+      ];
 
-      function updateSeekSuggestions() {
-        const el = document.getElementById("seek-suggestions");
-        if (el) el.classList.remove("show");
+      function renderFindLanding() {
+        const nav = document.getElementById("nav");
+        nav.className = "nav-list";
+        const pageCount = pageIndex && Array.isArray(pageIndex.allSlugs) ? pageIndex.allSlugs.length : 400;
+        const sourceCount = pageIndex && pageIndex.byCategory && pageIndex.byCategory.sources ? pageIndex.byCategory.sources.length : 0;
+        const helper = `<div class="find-landing">
+          <div class="fl-kicker">Find in the wiki</div>
+          <div class="fl-title">What do you want to understand?</div>
+          <div class="fl-line">Ask about a project, bottleneck, basin, claim, or source. Find brings together structured records and analysis, then lets you follow the evidence.</div>
+          <div class="fl-chips">
+            ${FIND_PROMPTS.map(([label, query]) => `<button type="button" class="fl-chip" data-query="${escapeAttr(query)}">${escapeHtml(label)}</button>`).join("")}
+          </div>
+          <div class="fl-feature"><button type="button" data-page="${DEFAULT_PAGE}"><small>New to Nepal's energy system?</small><b>Read the five-minute overview →</b></button></div>
+          <div class="fl-proof">${pageCount} linked pages · ${sourceCount || "source"} notes · records, claims, and visible evidence gaps</div>
+          <div class="fl-browse">Or browse by section below. Open only the category you need.</div>
+        </div>`;
+        nav.innerHTML = helper + buildNavHtml();
+        nav.querySelectorAll("[data-query]").forEach((button) => {
+          button.addEventListener("click", () => runFindQuery(button.dataset.query || ""));
+        });
+        nav.querySelectorAll("[data-page]").forEach((button) => {
+          button.addEventListener("click", () => window.openWikiPage(button.dataset.page || DEFAULT_PAGE, { resetHistory: true }));
+        });
+        setActiveNav(currentSlug);
       }
 
       async function applySearch() {
         const seq = ++seekSeq;
         const q = document.getElementById("q").value.trim();
         document.getElementById("search-wrap").classList.toggle("has-text", !!q);
-        updateSeekSuggestions();
         if (!q) {
+          lastSearchResults = [];
+          lastSearchQuery = "";
+          searchVisibleLimit = 9;
+          searchKeyboardIndex = -1;
+          lastSearchIntent = null;
+          updateSearchQueryUrl("");
           hideSeekStatus();
-          if (searchMode === "seek") renderSeekLanding();
-          else buildNav();
+          renderFindLanding();
           return;
         }
-        if (searchMode === "search") {
-          filterNavInPlace(q);
-        } else if (searchMode === "seek") {
-          const lexical = searchIndex.seek(q, { limit: 30 });
-          const facts = factIndex ? factIndex.seek(q, { limit: 8 }) : [];
-          let results = mergeFactResults(facts, lexical);
-          if (!results.length) {
-            document.getElementById("nav").innerHTML = `<div class="results-empty">no matches for <b>${escapeHtml(q)}</b></div>`;
-            hideSeekStatus();
-            return;
-          }
-          renderResults(results, q, "Explore");
-          if (vectorBoost && results.length < 30) {
-            showSeekStatus("loading", "Fast results shown. Adding meaning boost...");
-            try {
-              const vectorHits = await vectorBoost.search(q, { limit: 45 });
-              if (seq !== seekSeq || searchMode !== "seek") return;
-              const merged = mergeSeekResults(lexical, vectorHits, 30);
-              results = mergeFactResults(facts, merged);
-              renderResults(results, q, "Explore + meaning");
-              showSeekStatus("ready", "Meaning boost applied.");
-              setTimeout(() => { if (seq === seekSeq) hideSeekStatus(); }, 2200);
-            } catch (err) {
-              if (seq !== seekSeq || searchMode !== "seek") return;
-              showSeekStatus("failed", "Meaning boost unavailable. Fast Seek remains active.");
-            }
+        const lexical = searchIndex.seek(q, { limit: 30 });
+        const factAnalysis = factIndex && typeof factIndex.analyze === "function"
+          ? factIndex.analyze(q, { limit: 8 })
+          : null;
+        const facts = factAnalysis ? factAnalysis.results : (factIndex ? factIndex.seek(q, { limit: 8 }) : []);
+        const intent = factAnalysis
+          ? { ...factAnalysis.intent, answer: factAnalysis.answer }
+          : (factIndex && typeof factIndex.classify === "function" ? factIndex.classify(q) : null);
+        if (structuredEmptyShouldYieldToLexical(intent, lexical)) {
+          intent.answer = { ...intent.answer, applicable: false, suppressedByEditorialMatches: true };
+        }
+        if (q !== lastSearchQuery) {
+          searchFilters = { kind: "all", status: "all", evidence: false };
+          const inferredStatuses = intent && intent.constraints && intent.constraints.statuses;
+          if (inferredStatuses && inferredStatuses.length === 1) searchFilters.status = inferredStatuses[0];
+          if (intent && intent.kind === "project-list" && intent.answer && !intent.answer.empty) searchFilters.kind = "projects";
+        }
+        let results = orderResultsForIntent(mergeFactResults(facts, lexical), intent);
+        if (intent && intent.answer && intent.answer.contradictoryStatuses) results = [];
+        if (!results.length) {
+          lastSearchResults = [];
+          lastSearchQuery = q;
+          lastSearchIntent = intent;
+          updateSearchQueryUrl(q);
+          renderResults([], q, intent);
+          hideSeekStatus();
+          return;
+        }
+        lastSearchResults = results;
+        lastSearchQuery = q;
+        lastSearchIntent = intent;
+        updateSearchQueryUrl(q);
+        searchVisibleLimit = 9;
+        searchKeyboardIndex = -1;
+        renderResults(results, q, intent);
+        const useMeaningBoost = shouldUseMeaningBoost(q, lexical, intent);
+        if (useMeaningBoost && !vectorBoost && requestVectorBoost) requestVectorBoost();
+        // Longer conceptual questions may benefit from semantic re-ranking;
+        // exact-title and structured-answer queries stay entirely local/fast.
+        if (useMeaningBoost && vectorBoost) {
+          showSeekStatus("loading", "Fast results shown. Adding meaning boost…");
+          try {
+            const vectorHits = await vectorBoost.search(q, { limit: 45 });
+            if (seq !== seekSeq) return;
+            const merged = mergeSeekResults(lexical, vectorHits, 30);
+            results = orderResultsForIntent(mergeFactResults(facts, merged), intent);
+            lastSearchResults = results;
+            renderResults(results, q, intent);
+            showSeekStatus("ready", "Results refined.");
+            setTimeout(() => { if (seq === seekSeq) hideSeekStatus(); }, 2200);
+          } catch (err) {
+            if (seq !== seekSeq) return;
+            showSeekStatus("failed", "Meaning boost unavailable. Fast search remains active.");
           }
         }
+      }
+
+      function updateSearchQueryUrl(q) {
+        const params = new URLSearchParams(location.search);
+        if (q) params.set("q", q);
+        else params.delete("q");
+        if (q && searchFilters.kind !== "all") params.set("filter", searchFilters.kind);
+        else params.delete("filter");
+        if (q && searchFilters.status !== "all") params.set("status", searchFilters.status);
+        else params.delete("status");
+        if (q && searchFilters.evidence) params.set("evidence", "1");
+        else params.delete("evidence");
+        history.replaceState(null, "", params.toString() ? "?" + params.toString() : location.pathname);
       }
 
       function mergeFactResults(facts, textResults) {
@@ -3476,38 +3712,52 @@
         return out;
       }
 
-      function runSeekQuery(query) {
-        setSearchMode("seek");
+      function orderResultsForIntent(results, intent) {
+        if (!intent) return results;
+        if (intent.kind === "project-list") {
+          const structured = results.filter((result) => result.structured);
+          const supporting = results.filter((result) => !result.structured);
+          return [...structured.slice(0, 3), ...supporting, ...structured.slice(3)];
+        }
+        if (!intent.sourceSeeking) return results;
+        const sourcePages = results.filter((result) => result.category === "sources");
+        const structured = results.filter((result) => result.category !== "sources" && result.structured);
+        const supporting = results.filter((result) => result.category !== "sources" && !result.structured);
+        return [...sourcePages, ...structured, ...supporting];
+      }
+
+      function structuredEmptyShouldYieldToLexical(intent, lexical) {
+        if (!intent || !intent.answer || !intent.answer.applicable || !intent.answer.empty) return false;
+        const constraints = intent.constraints || {};
+        const explicitConstraint = Boolean(
+          (constraints.statuses && constraints.statuses.length)
+          || constraints.capacity
+          || (constraints.targetFactIds && constraints.targetFactIds.length)
+          || intent.superlative
+          || intent.sourceSeeking
+        );
+        if (explicitConstraint) return false;
+        return (lexical || []).some((result) =>
+          ["concepts", "syntheses", "claims", "interventions", "data"].includes(result.category)
+        );
+      }
+
+      function shouldUseMeaningBoost(query, lexical, intent) {
+        if (!SEMANTIC_RERANK_ENABLED) return false;
+        const normalize = (value) => String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+        const q = normalize(query);
+        const firstTitle = normalize(lexical && lexical[0] && lexical[0].title);
+        if (q && firstTitle === q) return false;
+        if (intent && intent.answer && intent.answer.applicable && !intent.answer.empty) return false;
+        return q.split(/\s+/).filter(Boolean).length >= 3;
+      }
+
+      function runFindQuery(query) {
         const input = document.getElementById("q");
         input.value = query;
         applySearch();
+        if (isCompactLayout()) setCompactView("find");
         input.focus();
-      }
-
-      function renderSeekLanding() {
-        const nav = document.getElementById("nav");
-        nav.className = "nav-list";
-        const prompts = [
-          ["Transmission bottleneck", "how does transmission bottleneck block Nepal hydropower delivery"],
-          ["Dry season deficit", "why does dry season cause winter electricity deficit"],
-          ["Largest Karnali storage", "what is the largest storage project in Karnali basin"],
-          ["Solar hydro fit", "how can solar hydro complementarity help firm power"],
-          ["Monsoon export surplus", "what does monsoon surplus mean for electricity export"],
-          ["India cross-border trade", "how does India cross-border electricity trade shape project viability"],
-          ["Sediment in the Koshi", "how does sediment shorten reservoir life in the Koshi"],
-          ["Winter energy security", "why does Nepal need storage for winter energy security"],
-        ];
-        nav.innerHTML = `<div class="seek-landing">
-          <div class="sl-kicker">Explore</div>
-          <div class="sl-title">Ask across the hub.</div>
-          <div class="sl-copy">Use this for questions, comparisons, and tradeoffs. Switch back to Find when you want the page directory.</div>
-          <div class="sl-chips">
-            ${prompts.map(([label, query]) => `<button type="button" class="sl-chip" data-seek-query="${escapeAttr(query)}">${escapeHtml(label)}</button>`).join("")}
-          </div>
-        </div>`;
-        nav.querySelectorAll("[data-seek-query]").forEach((button) => {
-          button.addEventListener("click", () => runSeekQuery(button.dataset.seekQuery || ""));
-        });
       }
 
       function showSeekStatus(state, message) {
@@ -3562,41 +3812,338 @@
           .map((r) => ({ ...r, score: r.vectorScore || r.score || r.combined, chip: r.source === "hybrid" ? "text + meaning" : r.source }));
       }
 
-      function filterNavInPlace(q) {
-        buildNav();
-        const ql = q.toLowerCase();
-        document.querySelectorAll(".nav-link").forEach((el) => {
-          const txt = el.textContent.toLowerCase();
-          el.style.display = txt.includes(ql) ? "" : "none";
+      function factForResult(result) {
+        if (!factIndex) return null;
+        if (result.factId && typeof factIndex.getFact === "function") {
+          const direct = factIndex.getFact(result.factId);
+          if (direct) return direct;
+        }
+        return (factIndex.facts || []).find((fact) => {
+          const slug = fact.wiki_slug || fact.slug;
+          return slug && slug === result.slug;
+        }) || null;
+      }
+
+      function resultGroup(result) {
+        if (result.category === "sources") return "sources";
+        if (result.kind === "fact" || factForResult(result)) return "projects";
+        if (["syntheses", "claims", "interventions", "concepts"].includes(result.category)) return "analysis";
+        return "related";
+      }
+
+      function hasPrimaryEvidence(result) {
+        if (result.category === "sources") return true;
+        const fact = factForResult(result);
+        return !!(fact && (fact.evidence_urls || []).length);
+      }
+
+      function filteredSearchResults(results) {
+        return results.filter((result) => {
+          if (searchFilters.kind !== "all" && resultGroup(result) !== searchFilters.kind) return false;
+          const fact = factForResult(result);
+          if (searchFilters.status !== "all" && (!fact || fact.status !== searchFilters.status)) return false;
+          if (searchFilters.evidence && !hasPrimaryEvidence(result)) return false;
+          return true;
         });
       }
 
-      function renderResults(results, q, scoreLabel) {
+      function humanResultLabel(result) {
+        const fact = factForResult(result);
+        const meta = pageMeta && pageMeta.bySlug ? pageMeta.bySlug[result.slug] : null;
+        const maturity = result.maturity || maturityFromMeta(meta);
+        const maturityLabel = MATURITY_LABEL[maturity] || "Working Page";
+        if (result.category === "sources") return `${maturityLabel} · Source note`;
+        if (fact) {
+          const bits = [];
+          if (fact.status_display || fact.status_raw || fact.status) bits.push(fact.status_display || fact.status_raw || fact.status);
+          if (Number.isFinite(Number(fact.capacity_mw))) bits.push(formatMw(fact.capacity_mw));
+          if (fact.as_of || fact.last_updated) bits.push(`record checked ${fact.as_of || fact.last_updated}`);
+          return bits.join(" · ") || "Project record";
+        }
+        if (["syntheses", "claims"].includes(result.category)) return `${maturityLabel} · Analysis`;
+        if (result.category === "interventions") return `${maturityLabel} · Decision dossier`;
+        if (result.category === "concepts") return `${maturityLabel} · Explainer`;
+        return `${maturityLabel} · Wiki page`;
+      }
+
+      function normalizedSearchLabel(value) {
+        return String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().replace(/\s+/g, " ");
+      }
+
+      function exactSearchResults(results, query = lastSearchQuery) {
+        const normalizedQuery = normalizedSearchLabel(query);
+        if (!normalizedQuery) return [];
+        return results.filter((result) => {
+          return normalizedSearchLabel(result.title) === normalizedQuery
+            || normalizedSearchLabel(result.slug) === normalizedQuery;
+        });
+      }
+
+      function answerCardHtml(results, intent, query = lastSearchQuery) {
+        const exact = exactSearchResults(results, query);
+        const isStructuredAnswer = !!(intent && intent.answer && intent.answer.applicable);
+        const structuredResults = results.filter((result) => result.structured);
+        const answerResults = isStructuredAnswer && structuredResults.length
+          ? structuredResults
+          : (!isStructuredAnswer && exact.length ? exact : results);
+        const facts = answerResults.map(factForResult).filter(Boolean);
+        const uniqueFacts = Array.from(new Map(facts.map((fact) => [fact.id, fact])).values());
+        const first = intent && intent.sourceSeeking
+          ? preferredAnswerResult(results, intent)
+          : preferredAnswerResult(answerResults, intent);
+        const explicit = intent && intent.answer && intent.answer.applicable === false
+          ? null
+          : intent && (intent.answer || intent.answer_text || intent.summary);
+        let primary = "Best place to start";
+        let detail = "";
+        if (explicit) {
+          primary = typeof explicit === "string" ? explicit : (explicit.title || explicit.value || primary);
+          detail = typeof explicit === "object" ? (explicit.detail || explicit.summary || "") : "";
+        } else if (exact.length && first) {
+          primary = first.title;
+          detail = humanResultLabel(first);
+        } else if (first) {
+          primary = first.title;
+          const snippet = plainSearchText(first.snippetHtml || first.snippet || "");
+          detail = snippet ? `${snippet.slice(0, 220)}${snippet.length > 220 ? "…" : ""}` : "The strongest available wiki match for this question.";
+        }
+        const evidenceCount = uniqueFacts.reduce((sum, fact) => sum + (fact.evidence_urls || []).length, 0);
+        const dates = uniqueFacts.map((fact) => fact.as_of || fact.last_updated).filter(Boolean).sort().reverse();
+        const sourceLine = intent && intent.answer && intent.answer.applicable && intent.answer.empty
+          ? "No structured project record satisfies all of these constraints."
+          : (isStructuredAnswer || exact.length) && uniqueFacts.length
+            ? `${evidenceCount || "No direct"} evidence link${evidenceCount === 1 ? "" : "s"}${dates[0] ? ` · records checked through ${dates[0]}` : ""}`
+            : "Open the result to inspect its claims and source trail.";
+        const spatialCount = mapEligibleResults(answerResults, intent, query).length;
+        const kicker = isStructuredAnswer ? "Answer first" : "Best match";
+        return `<section class="answer-card" aria-label="Search answer">
+          <div class="answer-kicker">${kicker}</div>
+          <div class="answer-primary">${escapeHtml(primary)}</div>
+          ${detail ? `<div class="answer-detail">${escapeHtml(detail)}</div>` : ""}
+          <div class="answer-source">${escapeHtml(sourceLine)}</div>
+          <div class="answer-options">
+            ${first ? `<button type="button" class="answer-action" data-answer-open="${first.kind === "fact" ? "fact" : "page"}" data-answer-id="${escapeAttr(first.kind === "fact" ? (first.factId || "") : (first.slug || ""))}">Open best match</button>` : ""}
+            ${spatialCount ? `<button type="button" class="answer-action" data-search-map>${spatialCount === 1 ? "Show on map" : "Map available matches"}</button>` : ""}
+          </div>
+        </section>`;
+      }
+
+      function searchToolsHtml(results) {
+        const statuses = Array.from(new Set(results.map(factForResult).filter(Boolean).map((fact) => fact.status).filter(Boolean))).slice(0, 5);
+        const filterButton = (id, label, active) => `<button type="button" class="search-filter${active ? " active" : ""}" data-search-kind="${id}">${label}</button>`;
+        return `<div class="search-tools" aria-label="Search filters">
+          <div class="search-filters">
+            ${filterButton("all", "All", searchFilters.kind === "all")}
+            ${filterButton("projects", "Projects & corridors", searchFilters.kind === "projects")}
+            ${filterButton("analysis", "Analysis & options", searchFilters.kind === "analysis")}
+            ${filterButton("sources", "Sources", searchFilters.kind === "sources")}
+            ${statuses.map((status) => `<button type="button" class="search-filter${searchFilters.status === status ? " active" : ""}" data-search-status="${escapeAttr(status)}">${escapeHtml(status.replace(/-/g, " "))}</button>`).join("")}
+            <button type="button" class="search-filter${searchFilters.evidence ? " active" : ""}" data-search-evidence>Evidence linked</button>
+          </div>
+          ${searchMapState ? `<div class="search-actions"><button type="button" class="search-action" data-search-map-restore>Restore previous map</button></div>` : ""}
+        </div>`;
+      }
+
+      function mapEligibleResults(results, intent = null, query = lastSearchQuery) {
+        if (intent && intent.answer && intent.answer.applicable === false) {
+          results = exactSearchResults(results, query);
+          if (!results.length) return [];
+        }
+        const targetIds = new Set(intent && intent.constraints && intent.constraints.targetFactIds || []);
+        return results.filter((result) => {
+          if (!result.slug || !spatialSlugs.has(result.slug)) return false;
+          if (!targetIds.size) return true;
+          const fact = factForResult(result);
+          return !!(fact && targetIds.has(fact.id));
+        });
+      }
+
+      function plainSearchText(value) {
+        const holder = document.createElement("div");
+        holder.innerHTML = String(value || "");
+        return String(holder.textContent || "").replace(/\s+/g, " ").trim();
+      }
+
+      function preferredAnswerResult(results, intent = null) {
+        if (!results.length) return null;
+        if (intent && intent.sourceSeeking) return results.find((result) => result.category === "sources") || results[0];
+        if (intent && intent.answer && intent.answer.applicable) return results.find((result) => result.structured) || results[0];
+        return results.find((result) => resultGroup(result) === "analysis") || results[0];
+      }
+
+      function renderResults(results, q, intent = null) {
         const nav = document.getElementById("nav");
         nav.className = "nav-list";
         if (!results.length) {
-          nav.innerHTML = `<div class="results-empty">no matches for <b>${escapeHtml(q)}</b></div>`;
+          const hasStructuredAnswer = !!(intent && intent.answer && intent.answer.applicable);
+          nav.innerHTML = `${hasStructuredAnswer ? answerCardHtml([], intent) : ""}<div class="results-empty">No matches for <b>${escapeHtml(q)}</b>.<br/>Try a project name, status, basin, or broader topic.</div>`;
           return;
         }
-        let html = `<div class="results-summary">${results.length} result${results.length === 1 ? "" : "s"} · ${scoreLabel}</div><div class="results">`;
-        for (const r of results) {
-          const sp = spatialSlugs.has(r.slug) ? " spatial" : "";
-          const meaning = r.chip === "meaning" || r.chip === "hybrid" || r.chip === "text + meaning" ? " meaning" : "";
-          const score = (r.score >= 1 ? r.score.toFixed(2) : (r.score * 100).toFixed(0) + "%");
-          const snippet = r.snippetHtml || escapeHtml(r.snippet || "");
-          const chip = r.chip ? ` · <span class="r-chip">${escapeHtml(r.chip)}</span>` : "";
-          const isFact = r.kind === "fact" && r.factId;
-          const action = isFact ? `openFactDetail('${r.factId}')` : `openWikiPage('${r.slug}')`;
-          const dataAttr = isFact ? `data-fact-id="${escapeHtml(r.factId)}"` : `data-slug="${escapeHtml(r.slug)}"`;
-          html += `<a class="result${sp}${meaning}" ${dataAttr} href="javascript:void(0)" onclick="${action}">
-      <div class="r-title">${escapeHtml(r.title)}</div>
-      <div class="r-meta"><span>${r.category}${r.subcategory ? " · " + r.subcategory : ""}${r.reason ? " · " + escapeHtml(r.reason) : ""}${chip}</span><span class="score">${score}</span></div>
-      <div class="r-snippet">${snippet}</div>
-    </a>`;
+        const filtered = filteredSearchResults(results);
+        const visible = filtered.slice(0, searchVisibleLimit);
+        const defaultGroups = [
+          ["projects", "Projects and corridors"],
+          ["analysis", "Analysis, explanations and policy options"],
+          ["sources", "Sources"],
+          ["related", "Related material"],
+        ];
+        const groups = intent && intent.sourceSeeking
+          ? [defaultGroups[2], defaultGroups[0], defaultGroups[1], defaultGroups[3]]
+          : (intent && intent.answer && intent.answer.applicable === false
+            ? [defaultGroups[1], defaultGroups[3], defaultGroups[0], defaultGroups[2]]
+            : defaultGroups);
+        let html = answerCardHtml(filtered.length ? filtered : results, intent);
+        html += `<div class="results-summary">${filtered.length} result${filtered.length === 1 ? "" : "s"} for “${escapeHtml(q)}”</div>`;
+        html += searchToolsHtml(results);
+        html += `<div class="results">`;
+        if (!visible.length) html += `<div class="results-empty">No results match these filters. Choose All or turn off a filter.</div>`;
+        for (const [group, label] of groups) {
+          const groupResults = visible.filter((result) => resultGroup(result) === group);
+          if (!groupResults.length) continue;
+          html += `<div class="result-group-title">${label}</div>`;
+          for (const r of groupResults) {
+            const sp = spatialSlugs.has(r.slug) ? " spatial" : "";
+            const meaning = r.chip === "meaning" || r.chip === "hybrid" || r.chip === "text + meaning" ? " meaning" : "";
+            const snippet = r.snippetHtml || escapeHtml(r.snippet || "");
+            const isFact = r.kind === "fact" && r.factId;
+            const action = isFact ? `openFactDetail('${r.factId}')` : `openWikiPage('${r.slug}')`;
+            const href = isFact ? `?fact=${encodeURIComponent(r.factId)}` : `?page=${encodeURIComponent(r.slug)}`;
+            const dataAttr = isFact ? `data-fact-id="${escapeHtml(r.factId)}"` : `data-slug="${escapeHtml(r.slug)}"`;
+            html += `<a class="result${sp}${meaning}" ${dataAttr} href="${escapeAttr(href)}" onclick="event.preventDefault();${action}" aria-selected="false">
+              <div class="r-title">${escapeHtml(r.title)}</div>
+              <div class="r-meta"><span>${escapeHtml(humanResultLabel(r))}</span></div>
+              <div class="r-snippet">${snippet}</div>
+            </a>`;
+          }
         }
-        html += `</div>`;
+        html += `</div>${filtered.length > visible.length ? `<div class="results-footer"><button type="button" class="results-more" data-search-more>Show more results</button></div>` : ""}`;
         nav.innerHTML = html;
+        wireSearchResults(intent);
         setActiveNav(currentSlug);
+      }
+
+      function wireSearchResults(intent) {
+        const nav = document.getElementById("nav");
+        nav.querySelectorAll("[data-search-kind]").forEach((button) => {
+          button.addEventListener("click", () => {
+            searchFilters.kind = button.dataset.searchKind || "all";
+            if (searchFilters.kind === "all") searchFilters = { kind: "all", status: "all", evidence: false };
+            searchVisibleLimit = 9;
+            updateSearchQueryUrl(lastSearchQuery);
+            renderResults(lastSearchResults, lastSearchQuery, intent);
+          });
+        });
+        nav.querySelectorAll("[data-search-status]").forEach((button) => {
+          button.addEventListener("click", () => {
+            const status = button.dataset.searchStatus || "all";
+            searchFilters.status = searchFilters.status === status ? "all" : status;
+            searchVisibleLimit = 9;
+            updateSearchQueryUrl(lastSearchQuery);
+            renderResults(lastSearchResults, lastSearchQuery, intent);
+          });
+        });
+        const evidence = nav.querySelector("[data-search-evidence]");
+        if (evidence) evidence.addEventListener("click", () => {
+          searchFilters.evidence = !searchFilters.evidence;
+          searchVisibleLimit = 9;
+          updateSearchQueryUrl(lastSearchQuery);
+          renderResults(lastSearchResults, lastSearchQuery, intent);
+        });
+        const more = nav.querySelector("[data-search-more]");
+        if (more) more.addEventListener("click", () => {
+          searchVisibleLimit += 9;
+          renderResults(lastSearchResults, lastSearchQuery, intent);
+        });
+        const mapButton = nav.querySelector("[data-search-map]");
+        if (mapButton) mapButton.addEventListener("click", focusSearchMatchesOnMap);
+        const restoreButton = nav.querySelector("[data-search-map-restore]");
+        if (restoreButton) restoreButton.addEventListener("click", restoreSearchMap);
+        const answerOpen = nav.querySelector("[data-answer-open]");
+        if (answerOpen) answerOpen.addEventListener("click", () => {
+          const id = answerOpen.dataset.answerId;
+          if (!id) return;
+          if (answerOpen.dataset.answerOpen === "fact") window.openFactDetail(id);
+          else window.openWikiPage(id);
+        });
+      }
+
+      async function focusSearchMatchesOnMap() {
+        if (!lm || !map) return;
+        const slugs = Array.from(new Set(mapEligibleResults(filteredSearchResults(lastSearchResults), lastSearchIntent)
+          .map((result) => result.slug)
+          .filter((slug) => slug && spatialSlugs.has(slug))
+        )).slice(0, 16);
+        if (!slugs.length) return;
+        const rawGroups = await Promise.all(slugs.map((slug) => lm.findFeatureDataForSlug(slug, bindings)));
+        const seen = new Set();
+        const resolvedSlugs = new Set();
+        const rawFeatures = [];
+        rawGroups.forEach((group, groupIndex) => {
+          let resolved = false;
+          group.forEach((feature) => {
+            const props = feature.props || (feature.feature && feature.feature.properties) || {};
+            const identity = props.project || props.name || props.corridor_id || props.segment_id || props.id || "feature";
+            const geometry = JSON.stringify(feature.feature && feature.feature.geometry || null);
+            const id = `${String(identity).toLowerCase()}:${geometry}`;
+            if (seen.has(id)) return;
+            seen.add(id);
+            rawFeatures.push(feature);
+            resolved = true;
+          });
+          if (resolved) resolvedSlugs.add(slugs[groupIndex]);
+        });
+        if (!rawFeatures.length) return;
+        if (!searchMapState) {
+          searchMapState = {
+            center: map.getCenter(),
+            zoom: map.getZoom(),
+            activeKeys: lm.activeKeys(),
+          };
+        }
+        if (isCompactLayout()) {
+          // A reader page may have queued a map focus while the map pane was
+          // hidden. Search-result mapping supersedes that deferred camera move.
+          pendingMapFocus = null;
+          setCompactView("map");
+          await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(() => {
+            map.invalidateSize();
+            resolve();
+          })));
+        }
+        map.closePopup();
+        const info = document.getElementById("map-info");
+        if (info) info.innerHTML = "<b>Locating search results…</b><br/>Preparing the mapped matches.";
+        await lm.setActive(manifest.layers.country_outline ? ["country_outline"] : []);
+        const features = typeof lm.showFocusOverlays === "function" ? lm.showFocusOverlays(rawFeatures) : [];
+        if (features.length) {
+          lm.flyToFeatures(features, { duration: 0.8, maxZoom: 10 });
+          if (info) info.innerHTML = `<b>Search results only</b><br/>Showing ${features.length} mapped feature${features.length === 1 ? "" : "s"} from ${resolvedSlugs.size} result${resolvedSlugs.size === 1 ? "" : "s"}. Use “Restore previous map” in Find to return.`;
+        }
+        renderResults(lastSearchResults, lastSearchQuery, lastSearchIntent);
+      }
+
+      async function restoreSearchMap() {
+        if (!searchMapState || !lm || !map) return;
+        const previous = searchMapState;
+        searchMapState = null;
+        if (typeof lm.clearFocusOverlay === "function") lm.clearFocusOverlay();
+        await lm.setActive(previous.activeKeys || []);
+        map.flyTo(previous.center, previous.zoom, { duration: 0.7 });
+        const info = document.getElementById("map-info");
+        if (info) info.innerHTML = "<b>Map restored.</b> Search-result focus has been cleared.";
+        renderResults(lastSearchResults, lastSearchQuery, lastSearchIntent);
+      }
+
+      function moveSearchKeyboardSelection(delta) {
+        const rows = Array.from(document.querySelectorAll("#nav .result"));
+        if (!rows.length) return;
+        searchKeyboardIndex = (searchKeyboardIndex + delta + rows.length) % rows.length;
+        rows.forEach((row, index) => {
+          const selected = index === searchKeyboardIndex;
+          row.classList.toggle("keyboard-active", selected);
+          row.setAttribute("aria-selected", selected ? "true" : "false");
+        });
+        rows[searchKeyboardIndex].scrollIntoView({ block: "nearest" });
       }
 
       function formatMw(value) {
@@ -3855,6 +4402,42 @@
         document.getElementById("now-page").textContent = slug || "no page";
       }
 
+      function renderProjectIntelligenceHeader(slug) {
+        if (!factIndex || !Array.isArray(factIndex.facts)) return "";
+        const candidates = factIndex.facts.filter((row) => (row.wiki_slug || row.slug) === slug);
+        const fact = candidates.find((row) => row.as_of && (
+          (row.latest_events || []).length
+          || (row.blockers || []).length
+          || (row.evidence_urls || []).length
+        ));
+        if (!fact) return "";
+        const evidenceUrls = Array.from(new Set(fact.evidence_urls || []));
+        const blockers = (fact.blockers || []).filter((blocker) => blocker.status === "active");
+        const latestEvent = (fact.latest_events || []).slice().sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")))[0];
+        const location = [fact.basin || fact.river, fact.district].filter(Boolean).join(" · ");
+        const type = fact.project_type || ({ hydro: "Hydropower", storage: "Storage", solar: "Solar", transmission: "Transmission" }[fact.domain]) || "Project";
+        const cells = [
+          ["Current status", fact.status_display || fact.status_raw || fact.status],
+          ["Capacity", Number.isFinite(Number(fact.capacity_mw)) ? formatMw(fact.capacity_mw) : ""],
+          ["Project type", type],
+          ["Basin / district", location],
+          ["Promoter", fact.developer || fact.promoter],
+          ["Record checked", fact.as_of],
+          ["Active blockers", String(blockers.length)],
+          ["Direct evidence links", String(evidenceUrls.length)],
+        ].filter((row) => row[1]);
+        if (!cells.length) return "";
+        const evidenceLinks = evidenceUrls.slice(0, 3).map((url, index) => `<a href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">Evidence ${index + 1}</a>`).join("");
+        const latest = latestEvent
+          ? `<div class="project-intel-note"><b>Latest recorded update:</b> ${escapeHtml(latestEvent.date || "")} · ${escapeHtml(latestEvent.title || latestEvent.description || "Update")}${evidenceLinks}</div>`
+          : (evidenceLinks ? `<div class="project-intel-note"><b>Evidence:</b>${evidenceLinks}</div>` : "");
+        return `<section class="project-intel" aria-label="Project intelligence summary">
+          <div class="project-intel-kicker">Monitored project · record checked</div>
+          <div class="project-intel-grid">${cells.map(([label, value]) => `<div class="project-intel-cell"><span>${escapeHtml(label)}</span><b>${escapeHtml(value)}</b></div>`).join("")}</div>
+          ${latest}
+        </section>`;
+      }
+
       window.openWikiPage = async function (slug, opts = {}) {
         // Detect "re-open the page that's already showing" — typically happens when
         // the user clicks a feature whose canonical page is already loaded. In that
@@ -3877,6 +4460,8 @@
           // state so the user doesn't lose their place.
           return;
         }
+        const projectIntel = renderProjectIntelligenceHeader(slug);
+        if (projectIntel) page.insertAdjacentHTML("afterbegin", projectIntel);
         const prevSlug = currentSlug;
         currentSlug = slug;
         currentFactId = null;
@@ -4091,10 +4676,11 @@
 
       function renderFactDetail(fact) {
         const statusDisplay = fact.status_display || fact.status_raw || fact.status;
-        const pq = fact.wiki_slug && pageMeta && pageMeta.bySlug && pageMeta.bySlug[fact.wiki_slug]
-          ? (pageMeta.bySlug[fact.wiki_slug].page_quality || "record")
-          : "record";
-        const pqLabel = (PQ_LABEL[pq] || pq);
+        const linkedMeta = fact.wiki_slug && pageMeta && pageMeta.bySlug
+          ? pageMeta.bySlug[fact.wiki_slug]
+          : null;
+        const maturity = linkedMeta ? maturityFromMeta(linkedMeta) : "registry-record";
+        const maturityLabel = MATURITY_LABEL[maturity];
         const domainLabel = ({ hydro: "Hydro", solar: "Solar", storage: "Storage" }[fact.domain] || "Fact");
         const rows = [
           [fact.domain === "solar" ? "Capacity (MWp)" : "Capacity", formatMw(fact.capacity_mwp || fact.capacity_mw)],
@@ -4118,10 +4704,10 @@
           return `<li><a href="javascript:void(0)" onclick="openWikiPage('${slug}')">${escapeHtml(title)}</a></li>`;
         }).join("");
         const wikiLink = fact.wiki_slug
-          ? `<p><a href="javascript:void(0)" onclick="openWikiPage('${fact.wiki_slug}')">Open wiki page →</a> <span class="pq-chip pq-${pq}" title="${PQ_TOOLTIP[pq] || pqLabel}">${pqLabel}</span></p>`
+          ? `<p><a href="javascript:void(0)" onclick="openWikiPage('${fact.wiki_slug}')">Open wiki page →</a> <span class="pq-chip maturity-${maturity}" title="${MATURITY_TOOLTIP[maturity]}">${maturityLabel}</span></p>`
           : `<p class="muted">Map data only · no wiki page yet.</p>`;
         return `<article class="page fact-page">
-          <div class="fact-kicker">${escapeHtml(fact.wiki_slug ? `${domainLabel} · ${pqLabel} page` : `${domainLabel} · Map fact`)}</div>
+          <div class="fact-kicker">${escapeHtml(fact.wiki_slug ? `${domainLabel} · ${maturityLabel}` : `${domainLabel} · Map fact`)}</div>
           <h1>${escapeHtml(fact.name)}</h1>
           ${wikiLink}
           <div class="fact-grid">${cells}</div>
@@ -4249,9 +4835,12 @@
           id: "projects",
           title: "Projects & Storage",
           rows: [
-            { key: "hydropower_operating", label: "Hydro — operating", symbol: "live" },
-            { key: "hydropower_construction", label: "Hydro — under construction", symbol: "build" },
-            { key: "hydropower_survey", label: "Hydro — surveyed sites", symbol: "survey" },
+            { key: "hydropower_operating", label: "Hydro — operating records", symbol: "live" },
+            { key: "doed_operating_reference_midpoints", label: "DoED additions — reference midpoints (not facility locations)", symbol: "source" },
+            { key: "hydropower_construction", label: "Hydro — generation licences", symbol: "build" },
+            { key: "hydropower_verified_construction", label: "Hydro — verified construction", symbol: "build" },
+            { key: "hydropower_survey", label: "Hydro — survey / application / study", symbol: "survey" },
+            { key: "hydropower_cancelled", label: "Hydro — cancelled records", symbol: "survey" },
             { key: "storage_shortlist", label: "Storage reservoirs", symbol: "storage" },
             { key: "top_capacity", label: "Top 10 largest projects", symbol: "big" },
             { key: "solar_plants", label: "Solar plants", symbol: "solar" },
@@ -4945,18 +5534,17 @@
             foot = document.createElement("div");
             foot.className = "lc-foot";
             foot.innerHTML = `
-        <div class="lc-tierseg" role="group" aria-label="Filter markers by page quality tier">
+        <div class="lc-tierseg" role="group" aria-label="Filter markers by public page maturity">
           <button data-tier="all"       title="Show every marker">All</button>
           <button data-tier="bound"     title="Hide map-only markers and show features that already have wiki pages">Wiki Pages</button>
-          <button data-tier="narrated"  title="Show only pages with substantial narrative depth">Analysis+</button>
+          <button data-tier="narrated"  title="Show only Working Pages and Verified Core pages">Working + Core</button>
         </div>
         <div class="lc-dotcap" style="margin-top:6px; line-height:1.5">
           <div>Dot size ∝ √capacity (MW)</div>
           <div style="margin-top:3px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-            <span title="Comprehensive core page"><span class="lc-legend-dot lc-legend-flagship"></span> Flagship</span>
-            <span title="Substantial narrative page"><span class="lc-legend-dot lc-legend-analysis"></span> Analysis</span>
-            <span title="Short interpretive page"><span class="lc-legend-dot lc-legend-brief"></span> Brief</span>
-            <span title="Basic factual page"><span class="lc-legend-dot lc-legend-record"></span> Record</span>
+            <span title="Priority evidence-reviewed guide"><span class="lc-legend-dot lc-legend-flagship"></span> Verified Core</span>
+            <span title="Sourced analysis still being deepened or refreshed"><span class="lc-legend-dot lc-legend-analysis"></span> Working Page</span>
+            <span title="Structured record with limited narrative"><span class="lc-legend-dot lc-legend-record"></span> Registry Record</span>
             <span title="No wiki page"><span class="lc-legend-dot lc-legend-orphan"></span> Map only</span>
           </div>
         </div>
@@ -5010,7 +5598,7 @@
             return;
           }
           const label = tier === "narrated"
-            ? "Showing narrative pages only — project records &amp; data-only markers hidden."
+            ? "Showing Working Pages and Verified Core only — Registry Records and data-only markers hidden."
             : "Showing wiki-bound markers only — data-only markers hidden.";
           if (!banner) {
             banner = document.createElement("div");
@@ -5047,6 +5635,13 @@
         if (currentPreset) params.set("preset", currentPreset);
         if (currentFactId) params.set("fact", currentFactId);
         else if (currentSlug) params.set("page", currentSlug);
+        const searchQuery = document.getElementById("q") && document.getElementById("q").value.trim();
+        if (searchQuery) {
+          params.set("q", searchQuery);
+          if (searchFilters.kind !== "all") params.set("filter", searchFilters.kind);
+          if (searchFilters.status !== "all") params.set("status", searchFilters.status);
+          if (searchFilters.evidence) params.set("evidence", "1");
+        }
         if (TOURS_ENABLED && tourState.enabled) params.set("guided", "1");
         if (TOURS_ENABLED && tourState.enabled && tourState.active && tourState.tourId) {
           params.set("tour", tourState.tourId);
@@ -5064,6 +5659,10 @@
           preset: params.get("preset"),
           page: params.get("page"),
           fact: params.get("fact"),
+          q: params.get("q"),
+          filter: params.get("filter"),
+          status: params.get("status"),
+          evidence: params.get("evidence"),
           guided: params.get("guided"),
           tour: params.get("tour"),
           mode: params.get("mode"),
@@ -5104,7 +5703,7 @@
         pageIndex = pageIndexData;
         spatialSlugs = new Set(Object.keys(bindings.pages || {}));
         pageMeta = pageMetaData;
-        // Slim format: {slug: {t, c, e, g, s, q, u, b}} — build pages array + bySlug lookup.
+        // Slim format uses compact keys; retain legacy page_quality as a fallback.
         pageMeta.pages = Object.entries(pageMeta).map(([slug, v]) => ({
           slug,
           title: v.t,
@@ -5114,7 +5713,12 @@
           tags: v.g || [],
           is_stub: v.s || false,
           page_quality: v.q || "",
+          maturity: v.m || "",
           updated: v.u || null,
+          reviewed: v.r || null,
+          review_due: v.d || null,
+          as_of: v.a || null,
+          verified_on: v.v || null,
           superseded_by: v.b || null,
           image_count: 0,
         }));
@@ -5126,32 +5730,65 @@
           if (vectorBoost) return;
           try {
             vectorBoost = new window.NepalExplorer.VectorSeekBoost(await loadJSON("shared/wiki-vector-index.json"), {
-              onStatus: (s) => showSeekStatus(s.state, s.message),
+              onStatus: (s) => {
+                const message = s.state === "ready"
+                  ? "Result refinement ready."
+                  : (s.state === "failed" ? "Fast local search remains active." : "Improving result order…");
+                showSeekStatus(s.state, message);
+              },
             });
+            if (document.getElementById("q").value.trim()) applySearch();
           } catch (err) {
             vectorBoost = null;
           }
         };
-        const scheduleVectorBoost = () => {
-          if ("requestIdleCallback" in window) window.requestIdleCallback(loadVectorBoost, { timeout: 4000 });
-          else setTimeout(loadVectorBoost, 1500);
-        };
-
+        requestVectorBoost = SEMANTIC_RERANK_ENABLED ? loadVectorBoost : null;
         setupSplitters();
         setupCompactShell();
 
-        document.querySelectorAll("#search-mode button").forEach((b) => {
-          b.addEventListener("click", () => setSearchMode(b.dataset.mode));
-        });
-        document.querySelectorAll("#seek-suggestions button").forEach((b) => {
-          b.addEventListener("click", () => {
-            setSearchMode("seek");
-            document.getElementById("q").value = b.dataset.query || "";
+        const searchInput = document.getElementById("q");
+        const initialSearchParams = new URLSearchParams(location.search);
+        const initialQuery = initialSearchParams.get("q") || "";
+        searchInput.value = initialQuery;
+        const hasExplicitSearchFilters = initialSearchParams.has("filter") || initialSearchParams.has("status") || initialSearchParams.get("evidence") === "1";
+        if (initialQuery && hasExplicitSearchFilters) {
+          const kind = initialSearchParams.get("filter");
+          const status = initialSearchParams.get("status");
+          searchFilters = {
+            kind: ["all", "projects", "analysis", "sources", "related"].includes(kind) ? kind : "all",
+            status: status || "all",
+            evidence: initialSearchParams.get("evidence") === "1",
+          };
+          lastSearchQuery = initialQuery;
+        }
+        searchInput.addEventListener("input", applySearch);
+        searchInput.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+            e.preventDefault();
+            moveSearchKeyboardSelection(e.key === "ArrowDown" ? 1 : -1);
+          } else if (e.key === "Enter") {
+            const rows = Array.from(document.querySelectorAll("#nav .result"));
+            const target = rows[searchKeyboardIndex] || rows[0];
+            if (target) {
+              e.preventDefault();
+              target.click();
+            }
+          } else if (e.key === "Escape") {
+            e.preventDefault();
+            searchInput.value = "";
             applySearch();
-            document.getElementById("q").focus();
-          });
+          }
         });
-        document.getElementById("q").addEventListener("input", applySearch);
+        document.addEventListener("keydown", (e) => {
+          const tag = String(e.target && e.target.tagName || "").toLowerCase();
+          const editing = tag === "input" || tag === "textarea" || (e.target && e.target.isContentEditable);
+          if ((e.key === "/" && !editing) || ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k")) {
+            e.preventDefault();
+            if (isCompactLayout()) setCompactView("find");
+            searchInput.focus();
+            searchInput.select();
+          }
+        });
         document.getElementById("clear-q").addEventListener("click", () => {
           document.getElementById("q").value = "";
           applySearch();
@@ -5174,7 +5811,7 @@
           });
         }
 
-        setSearchMode(searchMode);
+        applySearch();
 
         ({ map, baseLayers } = makeMap("map"));
         const reverseIdx = buildReverseIndex(bindings);
@@ -5261,12 +5898,16 @@
           await window.openFactDetail(url.fact);
         } else if (url.page && pageIndex.slugToCategory[url.page]) {
           await window.openWikiPage(url.page);
+        } else if (url.q) {
+          document.getElementById("page").innerHTML = `<div class="placeholder">Choose a result from Find, or open the wiki front page.</div>`;
+          syncUrl();
         } else if (pageIndex.slugToCategory[DEFAULT_PAGE]) {
           await window.openWikiPage(DEFAULT_PAGE);
-        } else {
-          setCompactView(initialView, { persist: false });
-          syncUrl();
         }
+        // Opening the reader above necessarily selects Read. Re-apply the URL's
+        // compact intent afterwards so a shared search URL opens on Find, while
+        // a page-only deep link still opens on Read.
+        if (isCompactLayout()) setCompactView(initialView, { persist: false });
         if (TOURS_ENABLED) applyTourEnabledState();
         else clearTourNote();
         if (TOURS_ENABLED && tourState.enabled && url.tour && tourManifest.tours[url.tour]) {
@@ -5280,10 +5921,8 @@
           if (currentPreset) localStorage.setItem("explorer.preset", currentPreset);
         });
 
-        window._explorer = { lm, map, baseLayers, openWikiPage, setSearchMode, buildNav, applyPreset, presetsCfg, setCompactView };
+        window._explorer = { lm, map, baseLayers, openWikiPage, buildNav, applySearch, applyPreset, presetsCfg, setCompactView };
         syncLayerPanel();
-        scheduleVectorBoost();
-
         // --- Wiki-page image lightbox -------------------------------------------
         // The wiki renderer embeds a <script type="application/json"> payload with
         // the page's images; we read it each time the lightbox opens so the handler

@@ -2,7 +2,7 @@
 title: Project Roadmap
 type: concept
 created: 2026-04-20
-updated: 2026-05-12
+updated: 2026-07-19
 sources: []
 tags: [meta, roadmap, planning]
 page_quality: analysis
@@ -12,142 +12,50 @@ page_quality: analysis
 
 ## Summary
 
-Live checklist for the Nepal Energy wiki-map explorer. Updated as each
-item lands. Persists across agent sessions so either of us can pick up
-where the other stopped.
+This roadmap describes the public coverage of the Nepal Energy Wiki and the evidence work needed to deepen it. The V1 release is a source-linked guide to Nepal's electricity system, not a comprehensive encyclopedia of every energy source, project or policy.
 
 ## Simple Explanation
 
-This page is the project-management concept for the wiki itself. It tracks what has been built, what remains open, and which workstreams matter next for the explorer, content graph, and validation system.
+V1 provides a coherent route through generation, networks, demand, institutions and impacts. It also keeps the editorial [[master-thesis]] separate from the factual [[state-of-the-system]] overview and labels pages using the [[wiki-page-maturity]] model.
 
-Status legend: `[x]` done · `[~]` in progress · `[ ]` open · `[→]` deferred.
+Future releases will deepen the evidence behind existing branches before expanding into broad new topic areas. Missing information is recorded as a research gap rather than filled with unsupported estimates.
 
-## Priority 1–3 · Content depth
+## Released in V1
 
-### Step 1. Narrate top 10 anchor projects
+The current public spine covers:
 
-Raise the `Narrated`-tier marker count from 2 to 10+ so the tier filter
-is useful and the reader has real prose, not just spec tables.
+- system orientation through [[state-of-the-system]] and [[unresolved-questions]];
+- generation and seasonality through [[hydropower-system]], [[seasonal-mismatch]], [[solar-system]] and [[storage-and-flexibility]];
+- delivery through [[transmission-and-cross-border-trade]] and [[distribution-and-reliability]];
+- electricity use and delivery institutions through [[demand-and-electrification]] and [[institutions-finance-and-project-delivery]]; and
+- system consequences through [[environmental-and-social-impacts]] and [[climate-resilience-and-decarbonization]].
 
-- [x] Upper Tamakoshi — already narrated (reference template)
-- [x] Budhi Gandaki — narrated, cites WB CEM 2025
-- [x] Arun-3 — narrated + `arun-3-project-status-2025` source page
-- [x] Kali Gandaki A — narrated + `kali-gandaki-a-adb-evaluation` source
-- [x] Tanahu — extended + `tanahu-adb-status-2025` source
-- [x] Dudhkoshi Storage — extended + `dudhkoshi-nea-proposal-2024` source
-- [x] Upper Karnali — narrated + `upper-karnali-pda-record` source
-- [x] Mugu Karnali — narrated + `mugu-karnali-feasibility-2025` source
-- [ ] West Seti (Bajhang/Doti, 750 MW, storage; recent Indian re-entry) — reserved for user
-- [ ] Pancheshwar (Darchula/Uttarakhand, 6720 MW, bi-national treaty) — reserved for user
+The explorer continues to connect structured project and corridor records to these explanatory pages. Decision Dossiers present response options and trade-offs without treating advocacy as established fact.
 
-Template: bold 1-sentence opener · Specifications table · Significance
-section · Limitations/Controversies · 2+ primary sources · 3+ inline
-`[[wikilinks]]`.
+## Future Evidence Work
 
-### Step 2. Wikimedia Commons image fetcher
+The next development phase should concentrate on four evidence gaps:
 
-- [x] `scripts/fetch_commons_images.py` — Commons search + CC-license
-      filter + download to `wiki/assets/images/<slug>/` + idempotent
-      frontmatter patching. Near-duplicate collapse and minimum-width
-      filter. Per-slug `_commons.json` manifest captures attribution.
-- [x] Batch mode with curated query map for 15 slugs; 50 images pulled
-      on first sweep (Kali Gandaki A, Kulekhani cascade, all four
-      basins all got real in-subject photos; survey-stage projects
-      fell back to district scenery).
-- [x] `--sync` mode prunes frontmatter entries when images are
-      deleted from disk — user curation workflow confirmed.
+1. **Reliability and demand:** add repeatable series for feeder outages, voltage quality, hourly and seasonal demand, productive use and electrification quality.
+2. **Project delivery:** deepen dated status, cost, financing and performance evidence for major projects, including [[west-seti]] and [[pancheshwar]].
+3. **Solar and flexibility:** distinguish operating assets from tenders and pipeline records, then add verified geography, output and storage-service data where available.
+4. **Network performance:** connect corridor completion records to transfer capability, congestion, curtailment and distribution outcomes without inferring unavailable operational data.
 
-### Step 3. Sources & citations discipline
+Broader branches—such as transport fuels, biomass, industrial heat or economy-wide energy balances—remain outside the V1 electricity-system scope until their source base and public purpose are defined.
 
-- [ ] `## Sources` convention on all entity pages
-- [ ] `scripts/check_sources.py` — flags pages with claims but no cites
-- [ ] Require at least one primary source for the top-10 narrated
+## Why It Matters in Nepal
 
-## Priority 4–6 · Graph structure
-
-### Step 4. Backlinks & related pages
-
-- [x] `scripts/build_backlinks.py` — scans `[[slug]]` refs, writes
-      `wiki/explorer/shared/wiki-backlinks.json` (570+ refs, 71 targets)
-- [x] wiki-loader renders grouped "Referenced by" footer with context
-      snippets
-- [x] Chained into `gen_wiki_stubs.py --write` regeneration pipeline
-- [x] Code-span-aware scanner (skips wikilink-like examples in templates)
-
-### Step 5. Transmission corridor ↔ wiki bindings ✅
-
-- [x] 10 corridor / cross-border pages written:
-      - Corridors: [[hetauda-dhalkebar-inaruwa-backbone]], [[mca-central-400]],
-        [[khimti-dhalkebar-corridor]], [[hetauda-bharatpur-bardaghat-corridor]],
-        [[dana-kushma-butwal-corridor]]
-      - Cross-border: [[dhalkebar-muzaffarpur]], [[gorakhpur-butwal-interconnection]],
-        [[inaruwa-purnea-interconnection]], [[kataiya-kushaha-interconnection]],
-        [[chameliya-jauljibi-interconnection]]
-- [x] Source compilation page [[nepal-transmission-landscape-2025]]
-- [x] Bindings in `bindings.json` for all ten features
-- [x] Alias `transmission_corridors` added to `transmission_traced_network` so
-      clicks on major-network segments resolve to the parent corridor page
-- [x] Cross-links from `claim-transmission-immediate-blocker`, `arun-3`,
-      `khimti-i` and `bangladesh-trade-route` to the new corridor pages
-- [x] Makes the "Power" preset actually narrate
-
-### Step 6. Preset narrative landing pages
-
-- [ ] `narrative_slug` field per preset in `presets.json`
-- [ ] Six short landing pages (tributary / koshi / power / geopolitics /
-      rivers / minimal)
-- [ ] Auto-open on preset switch
-
-## Priority 7–8 · Reproducibility & authoring
-
-### Step 7. `make regenerate` & deterministic build-id
-
-- [ ] `Makefile` with targets: `stubs`, `indexes`, `validate`, `all`
-- [ ] `wiki/explorer/shared/build-id.txt` bumped by build, read via
-      `<meta name="np-build">` for deterministic cache-busting
-
-### Step 8. `validate_wiki.py` integrity checker
-
-- [ ] Every binding points to an existing slug
-- [ ] Every `layers_on` key resolves in the manifest
-- [ ] Every `features[].layer` resolves
-- [ ] Every `[[wikilink]]` resolves (or is flagged)
-- [ ] No orphan entity `.md` without bindings
-- [ ] Runs as `make validate`
-
-## Priority 9–10 · Polish & shareability
-
-### Step 9. Shareable deep-links
-
-- [ ] Hash fragment encoding of `{ preset, layers[], slug, tier,
-      basemap }`
-- [ ] Copy-link button in the toolbar
-
-### Step 10. Mobile/small-screen fallback
-
-- [ ] `@media (max-width: 900px)` — three-pane collapses to tabbed
-      layout (Nav · Wiki · Map)
-
-## Completed milestones (archive)
-
-- Explorer foundation: three-pane layout, Leaflet init, layer manifest
-- 83 auto-generated project stubs (`hydropower_operating/construction ≥ 20 MW`)
-- Three-tier marker system + segmented filter
-- Image filmstrip + lightbox from frontmatter
-- Cache-busting for JSON indexes and markdown fetches
-- Curated-layer exemption from tier filter
-- Tier-state banner
-- Popup handshake fixes ("Showing in reader", optimistic currentSlug)
-- "buildReverseIndex" exact-match binding fix
-
-## See also
-
-- [[hydropower-potential-categories]]
-- [[run-of-river-hydropower]]
-- [[firm-power]]
+A public electricity guide is most useful when readers can distinguish established system facts from working analysis and registry coverage. Publishing the roadmap makes the wiki's boundaries visible and directs new research toward the gaps that most affect interpretation of Nepal's electricity system.
 
 ## Common Misunderstandings
 
-- **This is not an energy-system claim page.** It is a living roadmap for the wiki/explorer project.
-- **Open checklist items are not validated findings.** They are implementation tasks or editorial targets.
-- **Completed milestones are archived context.** They explain project history but do not replace current validation checks.
+- **Released does not mean complete.** V1 provides a usable evidence spine while retaining visible uncertainties.
+- **A mapped record is not a verified current project status.** Registry records and project dossiers carry different evidence expectations.
+- **The roadmap is not an energy-policy prescription.** It describes editorial coverage and evidence priorities for the wiki.
+
+## Related
+
+- [[state-of-the-system]]
+- [[wiki-page-maturity]]
+- [[unresolved-questions]]
+- [[master-thesis]]

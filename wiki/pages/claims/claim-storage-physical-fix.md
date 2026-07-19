@@ -2,12 +2,18 @@
 title: Storage Is the Clearest Physical Answer to Seasonal Mismatch
 type: claim
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 claim_id: C-008
 confidence: high
 status: stable
-sources: [wb-water-sector-diagnostic, wecs-energy-synopsis-2024, data-storage-comparison]
+sources: [wb-water-sector-diagnostic, wecs-energy-synopsis-2024, data-storage-comparison, solar-role-in-winter-deficit]
 tags: [storage, seasonal-mismatch, infrastructure, tradeoffs]
+excerpt: Multi-week or multi-month storage directly addresses seasonal mismatch, while feasibility and portfolio trade-offs remain project-specific.
+caveat: Physical fit does not establish that any reservoir is financially, socially, environmentally or politically preferable.
+maturity: working-page
 page_quality: analysis
 ---
 
@@ -17,11 +23,10 @@ page_quality: analysis
 
 ## Evidence
 
-- **Cross-source finding:** Converge that without large-scale shifting of energy across seasons, a RoR-heavy system will reproduce dry-season scarcity and wet-season surplus/stranding dynamics.
-- **World Bank Water Diagnostic (cited thread):** Uses a large-order storage need figure (**29.86 km³** in the diagnostic framing) against current storage of only ~0.085–0.15 km³, a **~200x shortfall**—useful as a "scale of the mismatch" anchor, not a literal procurement shopping list without engineering siting.
-- **Winter-balance framing:** Refreshed system pages put the current hydro dry-season floor around **~1,100–1,300 MW**, far below monsoon capability and consistent with the idea that **timing**, not annual energy, binds.
-- **Research ledger:** "If you ask for the most direct **physical** answer to Nepal's timing problem, **storage** is it."
-- **But (same consensus):** Storage collides with **sediment**, **seismicity**, **resettlement**, **financing**, **treaty dependence** (e.g., transboundary basins), and **execution drag**—so the physical answer is not automatically the implementable first step.
+- A RoR-heavy system cannot carry monsoon water into winter without a resource that shifts energy across seasons; [[storage-deficit]] describes that physical inventory gap.
+- [[wb-water-sector-diagnostic]] uses a large-order national storage need of **29.86 km³** against a much smaller current base. It is a planning magnitude, not a project shopping list or proof that every reservoir is feasible.
+- The governed winter-balance summary retains a current hydro dry-season band of **~1,100–1,300 MW**, far below monsoon capability and consistent with a timing constraint.
+- Storage proposals still face sediment, seismicity, resettlement, financing, downstream politics and execution risk. Physical fit is not automatic project approval.
 
 ## Confidence rationale
 

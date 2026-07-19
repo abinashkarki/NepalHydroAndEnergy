@@ -2,9 +2,15 @@
 title: Solar's Role in the Winter Deficit
 type: synthesis
 created: 2026-04-23
-updated: 2026-05-07
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, irena-remap-nepal]
 tags: [solar, hydro, winter, deficit, seasonal, complementarity, strategy, storage, BESS, synthesis]
+excerpt: A Working Page that explores how solar, storage, demand timing and batteries could interact in a winter-balance model.
+caveat: The 2030/2035 portfolio values are scenario assumptions, not a verified delivery pipeline or forecast; current award records do not establish construction or operation.
+maturity: working-page
 page_quality: analysis
 ---
 
@@ -44,11 +50,11 @@ The 2030 gap more than doubles from today’s ~550 GWh baseline; by 2035, demand
 
 **Mechanism:** Exploit the ~55% dry-season-share of solar generation (Terai, [[data-solar-hydro-lcoe]]) to fill the daytime energy component of the winter gap.
 
-**Realistic 2035 contribution:** Current ~142 MWp + 170 MWp PPA-signed + 960 MW tender + ~500 MW additional pipeline = **~1,700 MWp by 2028** → **~3,500 MWp by 2032** → **~5,000 MWp by 2035** (at moderate growth).
+**Illustrative 2035 scenario input:** the model tests **5,000 MWp** of solar. This is not a verified pipeline forecast. The public V1 evidence establishes roughly 142 MW in the operating snapshot and 960 MW of LoI awards whose subsequent delivery status is unknown; see [[solar-system]].
 
 At 5 GW of Terai solar with CF 16.5% (empirical GIZ/AEPC measurement for Terai fixed-tilt), Dec–Feb dry-season generation ~**966 GWh** (2035_full model output at 16.5% CF); the full dry-season (Nov–Mar) contribution is higher. Source: build_winter_deficit_model.py, 2035_full scenario.
 
-**Physical advantage:** 2–3 year build cycle. The only lever that operates on the 2026–2030 window. Cheaper per-kWh than any new hydropower ([[solar-lcoe-crossover]]).
+**Potential advantage:** solar avoids tunnelling and major waterway works and can therefore have a shorter development cycle than many hydro projects. Nepal's current public corpus does not contain a representative award-to-commissioning cohort that establishes a universal build duration. Tariff comparisons also depend on service scope and firmness; see [[claim-solar-cheaper-than-small-hydro]].
 
 **Strategic weakness:** Zero contribution to 6 pm evening peak. Requires land (see [[agrivoltaics-and-land]]). Requires BESS or hydro peaking for firm capacity.
 
@@ -69,7 +75,7 @@ At 5 GW of Terai solar with CF 16.5% (empirical GIZ/AEPC measurement for Terai f
 
 **Mechanism:** Charge from mid-day solar and discharge into the winter-evening peak. The [[data-solar-hydro-complementarity-profile]] diurnal profile case.
 
-**Realistic 2035 contribution:** At 2 GWh of 4h-BESS deployed (plausible 2030–2035 rollout if tender-integrated with solar), covers **~500 MW** of evening peak for 4 hours (2 GWh / 4h). If cycled once daily through the core Dec–Feb winter window, that is roughly **116 GWh** of dispatchable evening energy; Phase 1 keeps BESS as a placeholder energy term, while Phase 2 uses the 500 MW capacity value for evening-peak analysis.
+**Illustrative 2035 scenario input:** 2 GWh of four-hour BESS represents **500 MW** for four hours. If cycled once daily through the core Dec–Feb window, the arithmetic is roughly **116 GWh**. V1 has not found a national operating BESS registry or an official deployment plan establishing that scenario.
 
 **Physical advantage:** Pairs with solar to provide firm capacity. 4-hour BESS at 2030 prices (~NPR 10/kWh LCOE per [[data-solar-hydro-lcoe]]) competes with reservoir hydropower on firm-capacity cost.
 
@@ -90,13 +96,13 @@ Assuming all four levers work at realistic-ambition (not best-case) levels:
 | 2035 Dec–Feb demand | ~4,188 | |
 | **Net position** | **+425 GWh surplus** | **Gap closed; surplus is headroom** |
 
-Source: `scripts/build_winter_deficit_model.py`, 2035_full scenario. Demand CAGR 7% (2030–35), solar CF 16.5% Terai fixed-tilt, storage pipeline excludes Budhigandaki.
+Source: `scripts/build_winter_deficit_model.py`, `2035_full` scenario. Demand CAGR 7% (2030–35), solar CF 16.5% Terai fixed-tilt and the storage sequence are model assumptions, not observed outcomes.
 
 ## The Budhigandaki distinction
 
 The model clarifies a distinction the narrative math obscured: Budhigandaki is not necessary to close the 2035 energy gap, but it is the decisive asset for evening firm capacity. At 8%/7% CAGR, the four-lever portfolio closes the Dec–Feb energy balance without Budhigandaki — the 2035_full and 2035_no_budhigandaki scenarios are identical at 0 GWh deficit. But the Phase 2 diurnal model shows a 933 MW residual evening-peak gap at 18:30 in the 2035_full scenario (23% of peak demand) — covered today by imports, and in 2035 still requiring either Budhigandaki or a combination of additional BESS, explicit peak demand-shaping, and cross-border capacity. Budhigandaki's 1,200 MW at 0.9 dispatch factor contributes 1,080 MW to the evening peak, flipping the 933 MW gap to a 147 MW surplus. It is not an energy asset for 2035 — it is a capacity asset, and the most important one in the pipeline. Source: `scripts/build_diurnal_peak_model.py`, 2035_with_budhigandaki scenario.
 
-The combined portfolio **closes the 2035 winter deficit if all four levers execute.** No single lever closes it alone.
+Under the model's assumptions, the combined portfolio closes the 2035 winter energy deficit. That is a conditional scenario result, not a delivery forecast. No single lever closes the modelled gap alone.
 
 ## The re-ranking this argues for
 

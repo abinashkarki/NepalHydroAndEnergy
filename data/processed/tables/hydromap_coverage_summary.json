@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-11T01:30:55.060850+00:00",
+  "scope": {
+    "purpose": "comparison benchmark and manual review; not a source-data mirror",
+    "production_source_guidance": "Prefer current Department of Electricity Development records for publishable facts.",
+    "hydromap_rights_notice": "HydroMap's public page states Copyright. All Rights Reserved."
+  },
+  "methodology": {
+    "match_rule": "Exact conservative normalized name; duplicate names disambiguated only by capacity within 0.01 MW.",
+    "normalization": "Unicode NFKD, ASCII fold, casefold, punctuation collapse, generic HEP/HPP/project terms removed; positional, storage, cascade, and number tokens retained.",
+    "suggestions": "Similarity scores are review-only and never auto-accepted.",
+    "capacity_warning": "Licence, application, study, cancelled, construction, and operating MW are not interchangeable or additive delivery forecasts.",
+    "coverage_interpretation": "Zero matches for studied or cancelled categories indicate different registry scope, not necessarily missing active projects.",
+    "coordinate_comparison": "Distances compare local registry reference points with the midpoint of HydroMap lat1/lat2/lon1/lon2 licence envelopes; neither is asserted to be a physical facility coordinate."
+  },
+  "provenance": {
+    "hydromap": {
+      "kind": "url",
+      "reference": "https://hydromapnepal.com/data/hydropower-projects.json",
+      "sha256": "ac552d5d5fca781a32a0912784c0900ae2f39a8b9b3dd5f53743c31203b3d30f",
+      "bytes": 444360,
+      "content_type": "application/json"
+    },
+    "local_hydropower_points": {
+      "path": "data/processed/maps/hydropower_project_display_points.geojson",
+      "sha256": "f3da2dc8d50090bd0d7bf33fac9099b44e1d71fc7b5ca6305e4732687b1b7b1f"
+    },
+    "local_solar_plants": {
+      "path": "data/processed/maps/solar_plants.geojson",
+      "sha256": "867c066dfd867555672f57243b1aed61d1c566569a2f11a77f8e34c970a1433a"
+    },
+    "local_project_specs": {
+      "path": "data/project_specs.csv",
+      "sha256": "fa33c03002dae6976ecc6f5b6719859c6f9787be83a36554d861aa188e9f2e2c"
+    }
+  },
+  "hydromap_snapshot": {
+    "declared_total": 1587,
+    "rows_loaded": 1587,
+    "last_updated": "2026-07-06T06:43:52.035977+00:00",
+    "last_updated_display": "2026-07-02"
+  },
+  "external": {
+    "hydro": {
+      "rows": 1432,
+      "capacity_mw": 56537.989,
+      "categories": {
+        "app_const": {
+          "rows": 45,
+          "capacity_mw": 8735.71
+        },
+        "app_survey": {
+          "rows": 346,
+          "capacity_mw": 7309.639
+        },
+        "basket_cancel": {
+          "rows": 170,
+          "capacity_mw": 2466.553
+        },
+        "construction": {
+          "rows": 288,
+          "capacity_mw": 12364.056
+        },
+        "gon_studied": {
+          "rows": 28,
+          "capacity_mw": 3573.9
+        },
+        "gon_under_study": {
+          "rows": 37,
+          "capacity_mw": 5883.14
+        },
+        "operation": {
+          "rows": 214,
+          "capacity_mw": 3904.671
+        },
+        "survey": {
+          "rows": 304,
+          "capacity_mw": 12300.32
+        }
+      }
+    },
+    "solar": {
+      "rows": 149,
+      "capacity_mw": 2476.305,
+      "categories": {
+        "app_const": {
+          "rows": 5,
+          "capacity_mw": 54.0
+        },
+        "app_survey": {
+          "rows": 19,
+          "capacity_mw": 214.708
+        },
+        "construction": {
+          "rows": 11,
+          "capacity_mw": 79.6
+        },
+        "operation": {
+          "rows": 26,
+          "capacity_mw": 149.74
+        },
+        "survey": {
+          "rows": 88,
+          "capacity_mw": 1978.257
+        }
+      }
+    },
+    "wind": {
+      "rows": 6,
+      "capacity_mw": 16.45,
+      "categories": {
+        "app_survey": {
+          "rows": 1,
+          "capacity_mw": 1.0
+        },
+        "gon_studied": {
+          "rows": 1,
+          "capacity_mw": 0.45
+        },
+        "survey": {
+          "rows": 4,
+          "capacity_mw": 15.0
+        }
+      }
+    },
+    "all": {
+      "rows": 1587,
+      "capacity_mw": 59030.744
+    }
+  },
+  "local": {
+    "hydro": {
+      "rows": 572,
+      "capacity_mw": 23973.179,
+      "license_types": {
+        "Generation": {
+          "rows": 177,
+          "capacity_mw": 4435.93
+        },
+        "Operation": {
+          "rows": 84,
+          "capacity_mw": 1536.86
+        },
+        "Survey": {
+          "rows": 311,
+          "capacity_mw": 18000.389
+        }
+      }
+    },
+    "solar": {
+      "rows": 88,
+      "capacity_mw": 1101.74,
+      "statuses": {
+        "Operating": {
+          "rows": 25,
+          "capacity_mw": 141.74
+        },
+        "Tender award / pre-PPA": {
+          "rows": 63,
+          "capacity_mw": 960.0
+        }
+      }
+    }
+  },
+  "matching": {
+    "local_exact_rows": 460,
+    "external_unique_records": 457,
+    "ambiguous_local_rows": 11,
+    "unmatched_local_rows": 101,
+    "active_review_rows": 100,
+    "active_review_scope": {
+      "external_categories": [
+        "construction",
+        "operation"
+      ],
+      "excludes": [
+        "app_const",
+        "app_survey",
+        "basket_cancel",
+        "gon_studied",
+        "gon_under_study",
+        "survey"
+      ],
+      "reason": "Prioritize current delivery-stage reconciliation; regulatory-universe categories remain visible in category_coverage."
+    },
+    "capacity_exact_rows": 333,
+    "capacity_conflict_rows": 127,
+    "category_coverage": {
+      "app_const": {
+        "matched_rows": 24,
+        "total_rows": 45,
+        "row_pct": 53.3,
+        "matched_mw": 6107.5,
+        "total_mw": 8735.71,
+        "mw_pct": 69.9
+      },
+      "app_survey": {
+        "matched_rows": 9,
+        "total_rows": 346,
+        "row_pct": 2.6,
+        "matched_mw": 206.008,
+        "total_mw": 7309.639,
+        "mw_pct": 2.8
+      },
+      "basket_cancel": {
+        "matched_rows": 0,
+        "total_rows": 170,
+        "row_pct": 0.0,
+        "matched_mw": 0,
+        "total_mw": 2466.553,
+        "mw_pct": 0.0
+      },
+      "construction": {
+        "matched_rows": 211,
+        "total_rows": 288,
+        "row_pct": 73.3,
+        "matched_mw": 7815.245,
+        "total_mw": 12364.056,
+        "mw_pct": 63.2
+      },
+      "gon_studied": {
+        "matched_rows": 0,
+        "total_rows": 28,
+        "row_pct": 0.0,
+        "matched_mw": 0,
+        "total_mw": 3573.9,
+        "mw_pct": 0.0
+      },
+      "gon_under_study": {
+        "matched_rows": 4,
+        "total_rows": 37,
+        "row_pct": 10.8,
+        "matched_mw": 394.82,
+        "total_mw": 5883.14,
+        "mw_pct": 6.7
+      },
+      "operation": {
+        "matched_rows": 191,
+        "total_rows": 214,
+        "row_pct": 89.3,
+        "matched_mw": 3657.191,
+        "total_mw": 3904.671,
+        "mw_pct": 93.7
+      },
+      "survey": {
+        "matched_rows": 18,
+        "total_rows": 304,
+        "row_pct": 5.9,
+        "matched_mw": 1323.218,
+        "total_mw": 12300.32,
+        "mw_pct": 10.8
+      }
+    },
+    "status_crosswalk": {
+      "Generation -> construction": 72,
+      "Generation -> gon_under_study": 1,
+      "Generation -> operation": 84,
+      "Generation -> survey": 1,
+      "Operation -> operation": 83,
+      "Survey -> app_const": 24,
+      "Survey -> app_survey": 9,
+      "Survey -> construction": 141,
+      "Survey -> gon_under_study": 3,
+      "Survey -> operation": 25,
+      "Survey -> survey": 17
+    },
+    "coordinate_envelope_midpoint_distance_km": {
+      "n": 460,
+      "median": 0.0,
+      "p90": 0.4948,
+      "max": 50.8299
+    }
+  },
+  "quality": {
+    "external_duplicates": {
+      "normalized_name_groups": 88,
+      "extra_rows": 96
+    },
+    "local_duplicates": {
+      "normalized_name_groups": 10,
+      "extra_rows": 11
+    },
+    "external_duplicate_nonempty_license_keys": 63,
+    "external_zero_coordinate_rows": 8
+  },
+  "specs": {
+    "rows": 25,
+    "fields": 41,
+    "overall_cell_completeness_pct": 32.2,
+    "field_nonempty": {
+      "slug": 25,
+      "capacity_mw": 25,
+      "river": 25,
+      "status": 25,
+      "source_note": 25,
+      "last_updated": 25,
+      "gross_head_m": 4,
+      "design_discharge_m3s": 2,
+      "headrace_tunnel_km": 0,
+      "dam_height_m": 7,
+      "dam_type": 4,
+      "num_units": 4,
+      "unit_capacity_mw": 4,
+      "turbine_type": 4,
+      "underground_powerhouse": 4,
+      "penstock_length_m": 0,
+      "penstock_diameter_m": 0,
+      "tailrace_length_m": 0,
+      "annual_design_energy_gwh": 22,
+      "dry_season_energy_gwh": 12,
+      "dry_share_pct": 11,
+      "plant_load_factor_pct": 2,
+      "q_design": 2,
+      "project_type": 25,
+      "catchment_area_km2": 1,
+      "environmental_release_m3s": 0,
+      "total_storage_mcm": 13,
+      "effective_storage_mcm": 12,
+      "pumped_storage_mw": 0,
+      "total_cost_usd_m": 2,
+      "cost_per_mw_usd_m": 1,
+      "ppa_rate_wet_npr_kwh": 2,
+      "ppa_rate_dry_npr_kwh": 2,
+      "debt_equity_ratio": 3,
+      "developer": 14,
+      "concession_type": 3,
+      "lead_financier": 6,
+      "concession_years": 1,
+      "construction_start_year": 1,
+      "cod_year": 5,
+      "completion_pct": 7
+    },
+    "map_rows_enriched_with_curated_status": 11
+  }
+}

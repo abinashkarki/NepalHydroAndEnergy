@@ -3,13 +3,21 @@ title: WECS Energy Sector Synopsis Report 2024
 type: source
 created: 2026-04-14
 updated: 2026-05-12
+reviewed: 2026-07-19
+review_due: 2027-01-19
 source_type: report
 source_author: Water and Energy Commission Secretariat (WECS)
 source_date: 2024-01-01
 source_url: https://giwmscdnone.gov.np/media/pdf_upload/Energy%20Sector%20Synopsis%20Report%20(2024%20FY%202079-80)_qbbivka.pdf
+source_status: public-online
+accessed: 2026-07-19
+verification_status: government-source-checked
 sources: []
 tags: [wecs, energy-balance, demand, consumption, official]
-page_quality: analysis
+excerpt: WECS's FY2079/80 full-energy balance, used to place grid electricity within Nepal's wider final-energy system.
+caveat: The report's energy year predates the NEA FY2024/25 electricity snapshot and should not be blended without labels.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # WECS Energy Sector Synopsis Report 2024
@@ -51,15 +59,6 @@ The local file at `data/raw/core/wecs_energy_sector_synopsis_2024.pdf` is now a 
 - **Local copy status:** The repository copy has been verified as a 167-page PDF, but future extraction should still cross-check against the external `source_url`.
 - **Biomass estimates:** The 63.87% traditional biomass share relies on survey assumptions and stock-flow models, not metered consumption data.
 - **Grid-electricity share jump:** The 4.96% → 7.23% jump in one year may reflect both real electrification growth and improvements in measurement coverage.
-
-## Used By
-
-- [[data-final-energy-mix]]
-- [[figure-index]]
-- [[irena-remap-nepal]]
-- [[run-of-river-hydropower]]
-- [[solar-hydro-complementarity]]
-- [[wecs]]
 
 ## Relevance to Project
 

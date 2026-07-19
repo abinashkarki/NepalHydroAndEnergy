@@ -36,7 +36,13 @@ IMAGES_BLOCK_RE = re.compile(r"^images:\s*\n((?:\s+-\s.*\n?|\s{2,}.*\n?)+)", re.
 IMAGE_ITEM_RE = re.compile(r"-\s*src\s*:\s*(\S+)")
 GENERATOR_RE = re.compile(r"^generator:\s*(.+?)\s*$", re.MULTILINE)
 PAGE_QUALITY_RE = re.compile(r"^page_quality:\s*(.+?)\s*$", re.MULTILINE)
+MATURITY_RE = re.compile(r"^maturity:\s*(.+?)\s*$", re.MULTILINE)
+EXCERPT_RE = re.compile(r"^excerpt:\s*(.+?)\s*$", re.MULTILINE)
 UPDATED_RE = re.compile(r"^updated:\s*(.+?)\s*$", re.MULTILINE)
+REVIEWED_RE = re.compile(r"^reviewed:\s*(.+?)\s*$", re.MULTILINE)
+REVIEW_DUE_RE = re.compile(r"^review_due:\s*(.+?)\s*$", re.MULTILINE)
+AS_OF_RE = re.compile(r"^as_of:\s*(.+?)\s*$", re.MULTILINE)
+VERIFIED_ON_RE = re.compile(r"^verified_on:\s*(.+?)\s*$", re.MULTILINE)
 SUPERSEDED_RE = re.compile(r"<!--\s*superseded-by:\s*(\S+)\s*-->")
 HEADING_RE = re.compile(r"^#{1,4}\s+(.+?)\s*$", re.MULTILINE)
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+?)(?:\|[^\]]+)?\]\]")
@@ -73,10 +79,41 @@ def first_paragraph(body: str) -> str:
     body = MD_LINK_RE.sub(r"\1", body)
     paras = [p.strip() for p in re.split(r"\n\n+", body) if p.strip()]
     for p in paras:
-        if p.startswith("#") or p.startswith("---") or p.startswith("|"):
+        if (
+            p.startswith("#")
+            or p.startswith("---")
+            or p.startswith("|")
+            or p.startswith("<!--")
+            or p.startswith("> [!")
+            or p.startswith("![")
+        ):
             continue
         return clean_body(p)[:280]
     return ""
+
+
+def frontmatter_scalar(match: re.Match[str] | None) -> str:
+    """Return a tolerant single-line frontmatter scalar.
+
+    The legacy corpus is intentionally parsed without requiring every page to be
+    valid YAML. This keeps index generation compatible with older unquoted
+    titles while still allowing curated fields such as ``excerpt`` and
+    ``maturity`` to drive the public explorer.
+    """
+    if not match:
+        return ""
+    return match.group(1).strip().strip('"').strip("'").strip()
+
+
+def public_maturity(explicit: str, page_quality: str, is_stub: bool) -> str:
+    allowed = {"verified-core", "working-page", "registry-record"}
+    if explicit in allowed:
+        return explicit
+    if page_quality == "flagship":
+        return "verified-core"
+    if page_quality == "record" or is_stub:
+        return "registry-record"
+    return "working-page"
 
 
 def is_search_token(token: str) -> bool:
@@ -142,7 +179,8 @@ def main() -> None:
             tags = parse_tags(fm)
             headings = HEADING_RE.findall(body)
             cleaned = clean_body(body)
-            excerpt = first_paragraph(body)
+            explicit_excerpt = frontmatter_scalar(EXCERPT_RE.search(fm))
+            excerpt = (explicit_excerpt or first_paragraph(body))[:280]
             tokens = tokenize(f"{title_m.group(1) if title_m else slug} {' '.join(tags)} {' '.join(headings)} {cleaned}")
             unique = sorted(set(tokens))
             for t in unique:
@@ -153,11 +191,18 @@ def main() -> None:
                 image_count = len(IMAGE_ITEM_RE.findall(img_block_m.group(1)))
             gen_m = GENERATOR_RE.search(fm)
             pq_m = PAGE_QUALITY_RE.search(fm)
+            maturity_m = MATURITY_RE.search(fm)
             up_m = UPDATED_RE.search(fm)
+            reviewed_m = REVIEWED_RE.search(fm)
+            review_due_m = REVIEW_DUE_RE.search(fm)
+            as_of_m = AS_OF_RE.search(fm)
+            verified_on_m = VERIFIED_ON_RE.search(fm)
             sup_m = SUPERSEDED_RE.search(body)
             page_quality = (pq_m.group(1).strip() if pq_m else
                             "record" if (gen_m and gen_m.group(1).strip() == "auto-stub") else
                             "")
+            is_stub = (gen_m.group(1).strip() == "auto-stub") if gen_m else False
+            maturity = public_maturity(frontmatter_scalar(maturity_m), page_quality, is_stub)
             pages.append({
                 "slug": slug,
                 "title": title_m.group(1).strip() if title_m else slug,
@@ -170,10 +215,15 @@ def main() -> None:
                 "body_text": cleaned,
                 "token_freq": dict(Counter(tokens)),
                 "image_count": image_count,
-                "is_stub": (gen_m.group(1).strip() == "auto-stub") if gen_m else False,
+                "is_stub": is_stub,
                 "page_quality": page_quality,
+                "maturity": maturity,
                 "generator": gen_m.group(1).strip() if gen_m else "",
                 "updated": up_m.group(1).strip() if up_m else None,
+                "reviewed": frontmatter_scalar(reviewed_m) or None,
+                "review_due": frontmatter_scalar(review_due_m) or None,
+                "as_of": frontmatter_scalar(as_of_m) or None,
+                "verified_on": frontmatter_scalar(verified_on_m) or None,
                 "superseded_by": sup_m.group(1).strip() if sup_m else None,
             })
 
@@ -198,7 +248,12 @@ def main() -> None:
             "g": p["tags"],
             "s": p["is_stub"],
             "q": p["page_quality"],
+            "m": p["maturity"],
             "u": p["updated"],
+            "r": p["reviewed"],
+            "d": p["review_due"],
+            "a": p["as_of"],
+            "v": p["verified_on"],
             "b": p["superseded_by"],
             "sc": p.get("subcategory", ""),
         }

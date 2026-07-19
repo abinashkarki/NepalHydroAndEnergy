@@ -2,96 +2,66 @@
 title: NEA Triple-Authority Conflict
 type: concept
 created: 2026-05-02
-updated: 2026-05-21
-sources: [nea-annual-report-fy2024-25, erc-open-access-directive-2082, fenner-school-nepal-state-of-knowledge-renewables-psh]
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
+sources: [nea-annual-report-fy2024-25, erc-open-access-directive-2082, nea-standard-ppa-clauses, ad-penalty-clause-research]
 tags: [NEA, governance, PPA, dispatch, curtailment, AD-penalties, IPP, regulation, accountability]
+excerpt: A governance concept describing the conflict risk created when dispatch, purchasing and penalty administration are concentrated around one utility; public evidence does not establish discriminatory dispatch or a proven Barahi outcome.
+caveat: The PPA evidence is secondary legal analysis, project-level dispatch and penalty ledgers are unavailable, and the current corpus contains no primary Barahi filing or adjudication record.
 page_quality: analysis
+maturity: working-page
 ---
 
 # NEA Triple-Authority Conflict
 
 ## Summary
 
-The **NEA Triple-Authority Conflict** describes how the Nepal Electricity Authority simultaneously holds three powers over private hydropower producers (IPPs) that, in a well-designed market, would be separated across independent institutions:
-
-1. **Dispatcher** — through the National Load Dispatch Centre (NLDC), NEA decides which plants run and which are curtailed.
-2. **Single Buyer** — under the standard PPA framework, NEA is the sole off-taker. IPPs cannot sell to third parties, enter direct corporate PPAs, or export independently.
-3. **Penalty Administrator** — NEA calculates, levies, and deducts Availability Declaration (AD) penalties from IPP receivables.
-
-The same entity controls the physical flow of electrons, the commercial flow of money, and the enforcement flow of penalties. No independent arbiter exists between these roles.
+The **NEA Triple-Authority Conflict** is an analytical description of the governance risk created when the Nepal Electricity Authority is involved in dispatch, electricity purchasing and administration of contractual deductions. Concentrating these functions can create conflicts of interest and weak appeal pathways. It does not, by itself, prove discriminatory dispatch, unlawful deductions or a particular project's loss.
 
 ## Simple Explanation
 
-NEA is not only a buyer of electricity. It also decides dispatch and can deduct penalties from project payments. The conflict arises because one institution can tell a private generator not to run, buy all of its power under the PPA system, and then enforce penalties when generation falls short.
+The concern is procedural: a generator may depend on the same utility for dispatch instructions, payment and application of contractual penalties. A credible system therefore needs transparent rules, auditable records and a review mechanism that affected parties can use.
 
-## The structural double-bind
+## What the Current Evidence Establishes
 
-When NEA exercises role (1) to curtail a project — citing grid stability, N-1 transmission limits, or low domestic demand — the project's revenue stops. When NEA then exercises role (3), it can apply AD penalties for the generation shortfall that **it itself ordered**. Because role (2) guarantees no alternative market, the IPP cannot recoup the loss elsewhere.
+- [[nea-annual-report-fy2024-25]] records electricity supplied by NEA and its subsidiaries, independent producers and imports, while NEA operates central parts of the transmission and distribution system.
+- [[nea-standard-ppa-clauses]] and [[ad-penalty-clause-research]] report availability-declaration, reserve-margin and curtailment provisions through secondary legal analysis. They are not a corpus of signed project PPAs and are not a formal legal opinion.
+- Public reporting indexed at [[erc-open-access-directive-2082]] states that ERC issued Open Access Directive 2082. The official directive and implementing manuals are not archived in the current corpus, and issuance does not demonstrate operational third-party trading.
+- The available evidence is sufficient to identify a structural conflict risk. It is not sufficient to measure how dispatch or deductions are applied across projects.
 
-The standard PPA contains **no explicit exemption clause** protecting an IPP from AD penalties when the root cause of the generation shortfall was an NLDC/NEA curtailment instruction. Exhaustive reviews of legacy PPA templates have not found such a carve-out. This means NEA can legally order a project off-line and legally extract cash for it being off-line, in the same transaction.
+## What Is Not Established
 
-## The incentive to favor NEA-owned generation
+- A project-level pattern of dispatch discrimination after controlling for plant availability, location, network constraints and contract terms.
+- A public merit-order, dispatch-instruction or accepted-energy dataset that permits ownership comparisons.
+- A representative set of signed PPAs showing whether curtailment relief and dispute clauses vary by project.
+- A project-by-project ledger of penalties assessed, waived, disputed, adjudicated or recovered.
+- A primary audited filing, ERC decision or court record establishing the reported Barahi Hydropower outcome.
 
-NEA generates approximately 34% of national power through its own plants and subsidiaries. When NLDC dispatches an NEA-subsidiary plant, NEA pays itself — no cash leaves the institution. When NLDC dispatches a private IPP, NEA must release budget funds. The structure gives NEA a built-in incentive to prioritize its own output, particularly during periods of surplus when curtailment decisions must be made.
+## The Barahi Research Lead
 
-This structural favoritism has been independently verified in academic audit. The Fenner School of Environment and Society (Australian National University), *Nepal State of Knowledge Report — Renewables and PSH*, states:
+Legacy pages treated [[barahi-hydropower]] as an audited demonstration of the conflict. The audited statement, fiscal year, applicable PPA and regulatory or adjudication record are not present in the current corpus. Barahi must therefore remain a research lead, not proof of the mechanism in operation.
 
-> "The major complaint of the rising IPPs is that the playing field is not level, that NEA as generator, transmitter and distributor gives preferential terms to its own projects compared to IPPs; and indeed, this is seen in the case of the Chilime hydropower company that is owned by the NEA and its staff."
+No sector-wide penalty share should be inferred from the reported case or from the standard-contract formula. The public evidence needed for such a measure is not available here.
 
-Citation: Fenner School of Environment and Society, ANU, *Nepal State of Knowledge Report — Renewables and PSH*, p. 20. URL: https://fennerschool.anu.edu.au/files/Nepal%20State%20of%20Knowledge%20Report%20-%20Renewables%20%26%20PSH.pdf.
+## Governance Options
 
-No published merit order or dispatch protocol exists. NLDC's curtailment decisions affecting billions of rupees in annual revenue are made without public criteria. Neither the Auditor General nor any parliamentary committee has formally investigated dispatch discrimination.
+Possible responses include publishing dispatch and penalty records, operationalising open access under current institutions, ring-fencing dispatch functions, creating an independent operator, or establishing a neutral penalty-review pathway. Their legal requirements, cost and effectiveness have not been compared in the current source set.
 
-## Primary case study: Barahi Hydropower
-
-The Barahi Hydropower case provides the wiki's primary audited documentation of this double-bind in operation. NEA deducted AD penalties from a sub-10 MW project despite an explicit ERC statutory exemption (ERC Bylaws 2076, Clause 8(2)), and the project was forced to classify the deductions as "receivable from NEA" — a forced loan to the off-taker. See [[ad-penalties]] for full case detail and [[barahi-hydropower]] for the entity page.
-
-## The AD penalty formula
-
-The standard penalty formula documented in investment and tender materials is:
-
-**Penalty = (0.8 × Contracted Energy − Electricity Output) × Electricity Tariff**
-
-If a project's generation falls beneath 80% of its contracted energy (or declared availability, depending on the specific PPA tier), the developer pays a penalty effectively equal to the revenue of the undelivered power. These penalties are deducted directly from trade receivables owed by NEA — not remitted to an independent fund.
-
-Industry sources assert that AD penalties can consume **up to 16% of project revenue**. This figure is not a statutory ceiling — it is an IPPAN-circulated aggregate derived from the PPA penalty formula: Penalty = (0.80 × contracted − actual) × tariff. Exhaustive search of IPPAN, ERC, ICRA/CARE, and media sources confirms no legal cap or named project case study verifying a 16% ceiling exists. The figure represents the formula's mathematical outcome during severe dry-season shortfalls, not a codified statutory limit. The penalty impact is variable and project-specific.
-
-See [[ad-penalties]].
-
-## The metrological impossibility
-
-The AD system requires generators to declare their available generation 30 days in advance. For a run-of-river project with no storage reservoir, predicting daily output in a Himalayan monsoon watershed 30 days ahead is not an engineering failure — it is an inherently unsolvable forecasting problem.
-
-The ERC formally acknowledged this for small projects, amending by-laws to allow plants under 10 MW to declare availability one week in advance and exempting them from financial damages. However, the Barahi case demonstrates that even explicit statutory exemption does not prevent NEA from deducting penalties when the institutional structure gives it unilateral power over cash disbursement.
-
-## Reform models
-
-A healthy market would separate the three functions:
-
-- **Independent system operator (ISO)** — dispatch decisions separated from NEA's commercial interests.
-- **Multiple buyers or operational open access** — IPPs able to sell to alternative off-takers (industrial consumers, export markets, trading companies) under rules that actually work in dispatch and settlement.
-- **Neutral penalty authority** — AD enforcement managed by the ERC or an independent entity, not the off-taker.
-
-The 2003 World Bank Nepal power sector review recommended "eliminating conflicts of interest" in NEA's structure. ERC's **Open Access Directive 2082**, issued in January 2026, moves the open-access leg beyond draft status by creating a legal route for qualified generators and large consumers to use the grid on open-access terms. That is not the same as full market implementation: ISO separation, neutral AD-penalty administration, and the operating manuals / settlement practices needed for real third-party trading remain unresolved.
-
-## Analytical links
-
-The Triple-Authority Conflict is the institutional mechanism underlying:
-
-- [[stranded-generation]] — curtailment without compensation
-- [[seasonal-arbitrage-trap]] — pricing structure that extracts value from IPPs
-- [[ad-penalties]] — the penalty mechanics enforced through this conflict
-- [[ppa-pricing]] — rate-setting by the same entity that enforces performance
-- [[upper-tamakoshi]] — Nepal's largest plant: NEA as regulator set the tariff, NEA as shareholder (41%) saw equity diluted by IDC, NEA as off-taker buys at rates that can't service the debt. Three roles, one institution, zero resolution mechanism.
-- [[khimti-i]] — the 1996 USD PPA that predates the triple-authority regime entirely
-- [[chilime]] — NEA subsidiary with legacy billing architecture yielding 37% revenue advantage
-- [[barahi-hydropower]] — primary audited case study of penalty enforcement
-- [[sahas-urja]] — why the standard IPP rate succeeds only at exceptional scale, not as a replicable model
-- [[chameliya-hydropower]] — state capital inefficiency absorbed off-balance sheet while private developers face rigid caps
-- [[hydro-insurance]] — the insurance market failure that compounds the financial squeeze when NEA applies penalties during claim settlement gaps
+See [[intervention-nea-structural-separation]] for the evidence-led Decision Dossier, including response options, trade-offs and the visibly labelled TransparentGov assessment.
 
 ## Common Misunderstandings
 
-- **The conflict is structural, not just a claim of bad intent.** The same institution holds roles that would normally be separated.
-- **Curtailment and AD penalties are linked.** A generator can lose output because of dispatch decisions and still face penalty exposure if the contract does not carve out that cause.
-- **NEA ownership matters because dispatch has cash consequences.** Dispatching an NEA plant and dispatching an IPP have different institutional cash-flow effects.
+- **A structural conflict is not proof of misconduct.** The institutional arrangement creates a risk that needs controls and evidence.
+- **A complaint recorded in an academic or industry report is not a dispatch audit.** It can identify an issue for investigation without establishing its frequency or cause.
+- **Secondary standard-PPA analysis is not a signed-contract census.** Clause wording and enforcement may vary.
+- **Barahi is not currently an audited case in this wiki.** The primary filing and adjudication trail are missing.
+
+## Related
+
+- [[intervention-nea-structural-separation]]
+- [[ad-penalties]]
+- [[stranded-generation]]
+- [[claim-governance-binding]]
+- [[institutions-finance-and-project-delivery]]

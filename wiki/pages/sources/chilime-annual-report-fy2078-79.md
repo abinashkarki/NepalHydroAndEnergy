@@ -41,7 +41,3 @@ In FY2078/79, **85.4%** of total generation (133.24 of 156.06 GWh) was classifie
 - **Subsidiary scope:** CHCL is an NEA subsidiary with a 1997 PPA; its billing architecture is not representative of post-2010 private IPP contracts.
 - **Single-plant view:** Does not cover other NEA subsidiaries (e.g., Rasuwagadhi) or the broader IPP tariff matrix.
 - **No audited financial statements:** Revenue and volume figures are as reported by CHCL, not independently audited in this document.
-
-## Used By
-
-*No pages currently reference this source.*

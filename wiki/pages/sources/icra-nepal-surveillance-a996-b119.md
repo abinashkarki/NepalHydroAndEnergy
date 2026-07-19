@@ -32,8 +32,3 @@ for project-financial and performance claims around [[sahas-urja]] and
 - **Incomplete citation:** Full document metadata and URL still need expansion. Treated as a reviewed rating-note anchor, not a finished bibliographic entry.
 - **Surveillance rating:** Reflects a point-in-time assessment; financial conditions may have changed since issuance.
 - **Single-source dependency:** Revenue, profit, and leverage claims for Sahas Urja and Khimti II trace to this one document — cross-check against audited financials where possible.
-
-## Used By
-
-- [[khimti-ii]]
-- [[sahas-urja]]

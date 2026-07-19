@@ -29,6 +29,7 @@ MANIFEST = ROOT / "wiki" / "explorer" / "shared" / "layer-manifest.json"
 FIGURE_MANIFEST = ROOT / "wiki" / "explorer" / "shared" / "wiki-figure-manifest.json"
 BINDINGS = ROOT / "wiki" / "explorer" / "shared" / "bindings.json"
 WIKI_INDEX_MD = ROOT / "wiki" / "index.md"
+CORE_PAGES = ROOT / "wiki" / "core-pages.json"
 PUBLIC_TEXT_FILES = [
     ROOT / "README.md",
     ROOT / "wiki" / "index.md",
@@ -45,11 +46,13 @@ FORBIDDEN_TRACKED_PREFIXES = (
     "output/playwright/",
     "tmp/",
     "wiki/explorer/shots/",
+    "wiki/explorer/screenshots",
     "wiki/explorer/lib/cesium/",
 )
 FORBIDDEN_TRACKED_SUFFIXES = (
     ".DS_Store",
     ".404-stub.bak",
+    ".backup-proposal2",
 )
 FORBIDDEN_TRACKED_EXACT = {
     "wiki/explorer/3d-terrain.html",
@@ -364,6 +367,8 @@ SPECS_CSV_PATH = ROOT / "data" / "project_specs.csv"
 SCHEMA_PATH = ROOT / "wiki" / "specs-schema.json"
 SOLAR_SPECS_CSV_PATH = ROOT / "data" / "solar_project_specs.csv"
 SOLAR_SCHEMA_PATH = ROOT / "wiki" / "solar-specs-schema.json"
+MONITORING_SCHEMA_PATH = ROOT / "wiki" / "monitoring-schema.json"
+MONITORING_DATA_DIR = ROOT / "data"
 
 STATUS_ENUM = [
     "operating", "under-construction", "survey", "pre-construction",
@@ -504,6 +509,120 @@ def validate_page_generator(slugs: set[str]) -> None:
              + ", ".join(missing[:30]))
 
 
+def validate_public_maturity_metadata() -> None:
+    """Validate the opt-in V1 maturity contract without burdening legacy pages.
+
+    Pages that do not yet declare ``maturity`` continue to use the explorer's
+    documented legacy fallback. Only explicit Verified Core pages receive the
+    stricter excerpt, freshness, and category-specific provenance checks.
+    """
+    allowed = {"verified-core", "working-page", "registry-record"}
+    invalid: list[str] = []
+    incomplete: list[str] = []
+
+    for category in PAGE_CATEGORIES:
+        for page in sorted((WIKI_PAGES / category).glob("*.md")):
+            text = page.read_text(encoding="utf-8")
+            maturity = _extract_frontmatter_field(text, "maturity").strip("'\"")
+            if not maturity:
+                continue
+            label = str(page.relative_to(ROOT))
+            if maturity not in allowed:
+                invalid.append(f"{label}: {maturity}")
+                continue
+            if maturity != "verified-core":
+                continue
+
+            required = ["excerpt", "updated"]
+            missing = [field for field in required if not _extract_frontmatter_field(text, field)]
+            if not (_extract_frontmatter_field(text, "reviewed") or _extract_frontmatter_field(text, "verified_on")):
+                missing.append("reviewed|verified_on")
+
+            if category == "sources":
+                for field in ("source_type", "source_date", "source_url"):
+                    if not _extract_frontmatter_field(text, field):
+                        missing.append(field)
+                if not (_extract_frontmatter_field(text, "source_author") or _extract_frontmatter_field(text, "publisher")):
+                    missing.append("source_author|publisher")
+            elif category == "claims":
+                for field in ("confidence", "status"):
+                    if not _extract_frontmatter_field(text, field):
+                        missing.append(field)
+                if not extract_frontmatter_list(text, "sources"):
+                    missing.append("sources")
+
+            if missing:
+                incomplete.append(f"{label}: {', '.join(missing)}")
+
+    if invalid:
+        fail("invalid public maturity values:\n" + "\n".join(invalid))
+    if incomplete:
+        fail("Verified Core pages missing V1 metadata:\n" + "\n".join(incomplete))
+
+
+def validate_v1_core_pages(slugs: set[str]) -> None:
+    """Validate only the governed V1 spine and dossier contract."""
+    registry = load_json(CORE_PAGES)
+    core = registry.get("pages") or []
+    if not isinstance(core, list) or not 12 <= len(core) <= 15:
+        fail("wiki/core-pages.json must list 12–15 flagship page slugs")
+    if len(core) != len(set(core)):
+        fail("wiki/core-pages.json contains duplicate slugs")
+    missing_slugs = sorted(set(core) - slugs)
+    if missing_slugs:
+        fail("wiki/core-pages.json references missing pages: " + ", ".join(missing_slugs))
+
+    files = {path.stem: path for path in WIKI_PAGES.rglob("*.md")}
+    failures: list[str] = []
+    for slug in core:
+        path = files[slug]
+        text = path.read_text(encoding="utf-8")
+        required = ["excerpt", "updated", "review_due", "caveat"]
+        missing = [field for field in required if not _extract_frontmatter_field(text, field)]
+        if not (_extract_frontmatter_field(text, "reviewed") or _extract_frontmatter_field(text, "verified_on")):
+            missing.append("reviewed|verified_on")
+        if _extract_frontmatter_field(text, "maturity").strip("'\"") != "verified-core":
+            missing.append("maturity=verified-core")
+        if extract_page_quality(text) != "flagship":
+            missing.append("page_quality=flagship")
+        if not extract_frontmatter_list(text, "sources") and _extract_frontmatter_field(text, "evidence_register") != "true":
+            missing.append("sources|evidence_register=true")
+        if missing:
+            failures.append(f"{slug}: {', '.join(missing)}")
+
+    master = files["master-thesis"].read_text(encoding="utf-8")
+    if _extract_frontmatter_field(master, "editorial_position") != "TransparentGov assessment":
+        failures.append("master-thesis: editorial_position=TransparentGov assessment")
+
+    if failures:
+        fail("V1 core-page contract failed:\n" + "\n".join(failures))
+
+    required_sections = [
+        "Decision Question",
+        "Established Facts",
+        "Unknowns",
+        "Response Options and Trade-offs",
+        "TransparentGov Assessment",
+    ]
+    dossier_failures: list[str] = []
+    for path in sorted((WIKI_PAGES / "interventions").glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        missing = [heading for heading in required_sections if not re.search(rf"^## {re.escape(heading)}\s*$", text, re.MULTILINE)]
+        if not re.search(r"^## Comparable Cases?\s*$", text, re.MULTILINE):
+            missing.append("Comparable Case(s)")
+        comparable = re.search(
+            r"^## Comparable Cases?\s*$([\s\S]*?)^## Response Options and Trade-offs\s*$",
+            text,
+            re.MULTILINE,
+        )
+        if not comparable or "transfer limitation" not in comparable.group(1).lower():
+            missing.append("explicit transfer limitation")
+        if missing:
+            dossier_failures.append(f"{path.stem}: {', '.join(missing)}")
+    if dossier_failures:
+        fail("Decision Dossier contract failed:\n" + "\n".join(dossier_failures))
+
+
 def validate_source_blocks() -> None:
     source_pages = {
         p.stem for p in (WIKI_PAGES / "sources").glob("*.md")
@@ -554,7 +673,7 @@ REQUIRED_SECTIONS: dict[str, list[str]] = {
     "concepts": ["## Summary", "## Simple Explanation", "## Common Misunderstandings"],
     "data": ["## Summary", "## Coverage / Method", "## Caveats"],
     "entities": ["## Summary", "## Limitations & Controversies"],
-    "sources": ["## Summary", "## Limitations", "## Used By"],
+    "sources": ["## Summary", "## Limitations"],
 }
 
 
@@ -858,6 +977,63 @@ def validate_solar_specs_csv(slugs: set[str]) -> None:
     print(f"solar specs CSV: {len(spec_slugs)} project slugs, {len(fieldnames)} columns")
 
 
+def validate_monitoring_data(slugs: set[str]) -> None:
+    schema = load_json(MONITORING_SCHEMA_PATH)
+    datasets = schema.get("datasets") or {}
+    enums = schema.get("enums") or {}
+    confidence_values = set(enums.get("confidence") or [])
+    delivery_values = set(enums.get("delivery_status") or [])
+    blocker_values = set(enums.get("blocker_status") or [])
+    date_fields = {
+        "event_date", "source_date", "verified_on", "first_observed_date",
+        "last_verified_date", "status_as_of",
+    }
+    date_re = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+    for filename, contract in datasets.items():
+        path = MONITORING_DATA_DIR / filename
+        if not path.exists():
+            fail(f"missing monitoring dataset: data/{filename}")
+        with path.open(newline="", encoding="utf-8-sig") as handle:
+            reader = csv_module.DictReader(handle)
+            rows = list(reader)
+            columns = set(reader.fieldnames or [])
+        missing = set(contract.get("required") or []) - columns
+        if missing:
+            fail(f"data/{filename} missing columns: {', '.join(sorted(missing))}")
+        if not rows:
+            fail(f"data/{filename} is empty")
+        for unique_field in contract.get("unique") or []:
+            seen: set[str] = set()
+            duplicates: set[str] = set()
+            for row in rows:
+                value = (row.get(unique_field) or "").strip()
+                if value in seen:
+                    duplicates.add(value)
+                seen.add(value)
+            if duplicates:
+                fail(f"data/{filename} has duplicate {unique_field}: {', '.join(sorted(duplicates))}")
+        slug_field = "project_slug" if "project_slug" in columns else "slug"
+        unknown_slugs = sorted({(row.get(slug_field) or "").strip() for row in rows} - slugs)
+        if unknown_slugs:
+            fail(f"data/{filename} references missing wiki slugs: {', '.join(unknown_slugs)}")
+        for row_number, row in enumerate(rows, start=2):
+            if row.get("confidence") not in confidence_values:
+                fail(f"data/{filename}:{row_number} has invalid confidence={row.get('confidence')!r}")
+            if "status_after" in columns and row.get("status_after") not in delivery_values:
+                fail(f"data/{filename}:{row_number} has invalid status_after={row.get('status_after')!r}")
+            if filename == "corridor_specs.csv" and row.get("status") not in delivery_values:
+                fail(f"data/{filename}:{row_number} has invalid status={row.get('status')!r}")
+            if filename == "project_blockers.csv" and row.get("status") not in blocker_values:
+                fail(f"data/{filename}:{row_number} has invalid blocker status={row.get('status')!r}")
+            for field in date_fields & columns:
+                value = (row.get(field) or "").strip()
+                if value and not date_re.fullmatch(value):
+                    fail(f"data/{filename}:{row_number} has invalid {field}={value!r}; expected YYYY-MM-DD")
+            source_url = (row.get("source_url") or "").strip()
+            if source_url and not source_url.startswith(("https://", "http://")):
+                fail(f"data/{filename}:{row_number} has invalid source_url={source_url!r}")
+
 # ---------------------------------------------------------------------------
 # Claim integrity
 # ---------------------------------------------------------------------------
@@ -1086,8 +1262,11 @@ def main() -> None:
     validate_tracked_hygiene()
     validate_specs_csv(slugs)
     validate_solar_specs_csv(slugs)
+    validate_monitoring_data(slugs)
     validate_duplicate_entities(slugs)
     validate_page_generator(slugs)
+    validate_public_maturity_metadata()
+    validate_v1_core_pages(slugs)
     validate_source_blocks()
     validate_required_sections()
     validate_status_consistency()

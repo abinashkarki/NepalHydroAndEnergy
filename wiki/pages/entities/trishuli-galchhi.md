@@ -16,7 +16,7 @@ page_quality: analysis
 
 Trishuli Galchhi is a 75 MW under-construction low-head run-of-river project on the Trishuli River in Nuwakot, developed by Siddhakali Power within Api Power's portfolio.
 
-75 MW · under construction (generation licence) · on the Trishuli River · in Nuwakot district. Nepal's densest river corridor, less than two hours from Kathmandu.
+75 MW · generation licence recorded · on the Trishuli River · in Nuwakot district. Construction status is tracked separately from the regulatory licence. Nepal's densest river corridor, less than two hours from Kathmandu.
 
 <!-- generated:specs:start -->
 

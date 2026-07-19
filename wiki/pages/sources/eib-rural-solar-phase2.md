@@ -96,15 +96,6 @@ Supporting source for:
 - **AEPC institutional bridge untested.** This programme funds utility-scale grid-connected PV through AEPC rather than NEA's standard tender track — a novel institutional arrangement whose effectiveness is not yet demonstrated.
 - **No agrivoltaic element confirmed.** Despite the scale match for agrivoltaic pilots, there is no public confirmation that any of the four sites include an agrivoltaic component.
 
-## Used By
-
-- [[claim-solar-political-coalition-is-rural]]
-- [[aepc]]
-- [[wb-grid-solar-ee-project]]
-- [[agrivoltaics-and-land]]
-- [[data-rooftop-shs-deployment]]
-- [[aepc-renewable-framework]]
-
 ## Related
 
 - [[wb-grid-solar-ee-project]] — parallel donor programme (NEA-track)

@@ -2,55 +2,60 @@
 title: Barahi Hydropower
 type: entity
 created: 2026-05-02
-updated: 2026-05-13
-sources: [ad-penalty-clause-research, sector-financial-analysis-triple-authority-2026]
-tags: [project, operating, case-study, AD-penalties, NEA, ERC, governance]
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
+sources: [sector-financial-analysis-triple-authority-2026]
+tags: [project, research-lead, AD-penalties, NEA, ERC, governance]
 generator: manual
+excerpt: A retained research lead concerning a reported availability-declaration dispute; the current corpus does not contain the primary audited statement, PPA or adjudication record needed to establish the case.
+caveat: Project capacity, operating status, the reported deduction and its regulatory treatment are not independently established by a primary record linked in the wiki.
 page_quality: analysis
+maturity: working-page
 ---
 
 # Barahi Hydropower
 
-Sub-10 MW run-of-river hydropower project, operational. This page exists as the wiki's primary audited case study for the [[nea-triple-authority]] conflict.
-
 ## Summary
 
-**Barahi Hydropower is an operational sub-10 MW run-of-river project used as the wiki's audited case study for AD-penalty governance.** The page centers on the conflict between the ERC small-project exemption and NEA invoice deductions reported in the source record.
+This slug is retained because legacy research identified Barahi Hydropower as a possible project-level case concerning availability-declaration deductions. The current source set does not contain the underlying audited financial statement, the applicable PPA, an ERC decision or a court record.
 
-## The AD penalty conflict
+The page must not be cited as an audited demonstration of the [[nea-triple-authority]] conflict.
 
-Barahi is protected by a statutory exemption from Availability Declaration (AD) penalties. The Electricity Regulatory Commission (ERC) Bylaws 2076, Clause 8(2) and Schedule 5, explicitly exempt projects below 10 MW from AD penalties and financial damages for availability shortfalls.
+## Current Evidence Status
 
-Despite this exemption, NEA deducted penalty amounts for short supply from Barahi's invoices. Out of Rs 14.9 million in trade receivables, Barahi's management classified the deducted penalties as **"receivable from NEA"** — openly stating in their audited annual report that NEA's actions contradict the prevailing ERC By-laws.
-
-Because NEA controls the cash disbursement, the IPP carries the deducted penalty on its balance sheet while the statutory exemption exists on paper with no enforcement mechanism. The independent arbiter is absent.
-
-## Key facts
-
-| Fact | Detail |
+| Question | Current status |
 |---|---|
-| Capacity | Sub-10 MW |
-| Type | Run-of-River |
-| Status | Operational |
-| Regulatory protection | ERC Bylaws 2076, Clause 8(2), Schedule 5 |
-| Penalty deducted | Part of Rs 14.9M in receivables [UNVERIFIED: exact fiscal year to be confirmed] |
-| Accounting treatment | "Receivable from NEA" in audited financial statements |
-| Source | Barahi Hydropower Public Limited audited financial statements [UNVERIFIED: exact fiscal year and report date to be confirmed] |
+| Project identity, capacity and operating status | Not established by a primary registry or company record linked here |
+| Reported penalty deduction | Recorded only in a secondary research compilation |
+| Audited financial statement | Not present in the current corpus |
+| Fiscal year and report date | Not established |
+| Applicable PPA clause | Not present |
+| ERC exemption or decision | Not linked in primary text |
+| Appeal, arbitration or court outcome | Not present |
 
-## Significance
+## Evidence Needed
 
-Barahi is the best-documented instance of the structural double-bind at the core of [[nea-triple-authority]]: a regulatory protection exists on paper, but the off-taker — who is also the dispatcher and penalty administrator — can deduct penalties regardless, because it controls the cash. The ERC can issue directives, but it cannot enforce them against the entity that holds the cheque book.
+- The exact company and project identity, verified against an official registry.
+- The audited annual report and note containing the reported receivable or deduction.
+- The signed PPA provisions applicable in that fiscal year.
+- The ERC by-law, directive or order relied on by the company.
+- Correspondence, arbitration, regulatory or court records showing how the dispute was resolved.
+
+Until those records are available, no amount, legal conclusion or institutional outcome should be attributed to this project.
 
 ## Limitations & Controversies
 
-The current record still carries explicit verification gaps: the exact fiscal year, report date, and detailed accounting context for the Rs 14.9 million receivables need confirmation from the audited financial statements. The page should be used as a documented case study of the AD-penalty conflict, not as a complete financial history of Barahi.
+The absence of a primary record in this corpus does not establish that the reported dispute did not occur. It means the wiki cannot presently identify the exact entity, reproduce the accounting treatment, test the contractual interpretation or report an outcome. If the underlying company and filing cannot be located, this page should remain a research lead rather than a project dossier.
 
 ## Sources
 
-- [[ad-penalty-clause-research]]
+- [[sector-financial-analysis-triple-authority-2026]] — provenance-incomplete secondary research compilation; retained only as the origin of this research lead.
+
+## Related
+
+- [[nea-triple-authority]]
+- [[ad-penalties]]
+- [[intervention-nea-structural-separation]]
 - [[sector-financial-analysis-triple-authority-2026]]
-
-## See also
-
-- [[nea-triple-authority]] — the institutional framework this case anchors
-- [[ad-penalties]] — the penalty mechanism at issue

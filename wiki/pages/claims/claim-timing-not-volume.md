@@ -2,12 +2,18 @@
 title: Nepal's Core Hydro Problem Is Timing, Not Annual Volume
 type: claim
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2025-07-15
 claim_id: C-001
 confidence: high
 status: stable
-sources: [wecs-energy-synopsis-2024, wecs-river-basin-plan-2024, wb-water-sector-diagnostic]
+sources: [wecs-energy-synopsis-2024, wecs-river-basin-plan-2024, wb-water-sector-diagnostic, nea-annual-report-fy2024-25]
 tags: [hydrology, seasonality, planning, energy-security]
+excerpt: Nepal's hydro-dominated electricity system is constrained by when river flow and demand occur, not simply by annual water volume.
+caveat: Seasonal output bands are operational summaries rather than a consolidated plant-level dispatch series; the claim does not rank timing above every institutional or delivery constraint.
+maturity: working-page
 page_quality: analysis
 ---
 
@@ -17,14 +23,14 @@ Nepal's core hydro problem is a **timing** problem (when water arrives and when 
 
 ## Evidence
 
-- **Research ledger:** Treats this as one of the core anchor claims for the project framing: the mismatch is structural in the hydrograph, not a misunderstanding of total runoff.
-- **Source review:** Argues the most important hydrological number for energy planning is not annual discharge but the **shape of the annual hydrograph**—peaking, shoulder months, and dry-season tails dominate dispatch and revenue logic.
-- **Narrative review:** Older dry-season shorthand understated the current operating floor. The refreshed winter-balance pages put the current hydro dry-season floor closer to **~1,100–1,300 MW**, against monsoon production around **~3,000 MW** and export surpluses near **~850 MW**—still a major swing in *when* capacity is usable, not in whether Nepal "has water" in the year.
-- **Engineering review:** Aligns with the wet-season concentration narrative: **75%+** of annual flow in the monsoon window (per [[wecs]] / WECS 2024 framing), which implies limited dry-season firm energy from RoR-heavy fleets unless complemented by storage, imports, or demand flexibility.
+- [[wecs-river-basin-plan-2024]] documents the strong wet-season concentration of basin flows. The relevant planning quantity is therefore the annual hydrograph—especially dry-season tails—not annual discharge alone.
+- The governed operating summaries retain a dry-season hydro band of **~1,100–1,300 MW**, monsoon production around **~3,000 MW** and export surplus near **~850 MW**. The exact series use different scopes and are not a plant-level dispatch ledger, but they show a large intra-annual swing.
+- [[nea-annual-report-fy2024-25]] records dry-season imports alongside annual net exports, a system outcome consistent with the physical timing mechanism.
+- A RoR-heavy fleet cannot move monsoon inflow into winter without storage, imports, flexible demand or complementary resources; see [[seasonal-mismatch]].
 
 ## Confidence rationale
 
-**High** because four independent research threads converge on the same mechanism (hydrograph shape and intra-annual concentration), and it is consistent with standard hydropower planning doctrine (firm energy vs energy). The quantitative band for monsoon share is documented in official energy synopsis material; seasonal generation bands are operational summaries rather than single definitive meters, but the directional claim is robust.
+**High** for the directional mechanism because official basin planning, the RoR-heavy fleet structure and NEA's seasonal trade outcome point the same way. The seasonal generation bands remain operational summaries rather than a single definitive plant-level series.
 
 ## Unresolved issues
 

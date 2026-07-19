@@ -10,7 +10,7 @@ The Nepal Energy Wiki — the first content vertical of [TransparentGov](https:/
 
 | Component | Description |
 |---|---|
-| `wiki/pages/` | 380 interlinked markdown pages — entities, concepts, claims, sources, data, syntheses, interventions |
+| `wiki/pages/` | 418 interlinked markdown pages — entities, concepts, claims, sources, data, syntheses, and decision dossiers |
 | `wiki/explorer/` | Leaflet-based interactive map + wiki reader, served as static HTML |
 | `data/project_specs.csv` | Structured project specs — single source of truth for technical data |
 | `data/processed/maps/` | GeoJSON layers (hydropower, transmission, basins, scenarios) |
@@ -42,7 +42,7 @@ data/project_specs.csv
 
 ```bash
 # Install deps
-python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 
 # Regenerate wiki metadata (backlinks, search index, page index, presets)
 make wiki-index
@@ -59,6 +59,9 @@ python scripts/report_spec_completeness.py --all
 
 # Validate generated files
 make validate
+
+# Run the full public release gate
+make release-check
 
 # Serve explorer locally
 make serve     # or: ./wiki/explorer/serve.sh 8765
@@ -79,3 +82,5 @@ make serve     # or: ./wiki/explorer/serve.sh 8765
 | `data/processed/maps/` | Built GeoJSON outputs |
 | `data/processed/tables/` | Derived CSVs including spec_completeness_report |
 | `wiki/pages/` | Wiki content (markdown, interlinked) |
+
+Source-page `Used By` lists are computed from `wiki/explorer/shared/wiki-backlinks.json` and rendered in the explorer. Do not manually maintain `## Used By` sections in source markdown.

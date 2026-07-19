@@ -55,11 +55,6 @@ India-developed export projects like [[arun-3]] and [[upper-karnali]].
 - **Design-vs-actual gap unresolved.** The >250 GWh/year shortfall between design (~860 GWh) and average actual output (~592 GWh) is documented but not diagnostically explained.
 - **Rehabilitation snapshot only.** Covers the 2024 rehabilitation tender announcement but not the subsequent procurement, contractor selection, or scope finalization.
 
-## Used By
-
-- [[kali-gandaki-a]]
-- [[kali-gandaki-kowan]]
-
 ## See also
 
 - [[kali-gandaki-a]]

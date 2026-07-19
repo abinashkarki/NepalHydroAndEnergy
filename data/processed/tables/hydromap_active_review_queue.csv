@@ -1,0 +1,101 @@
+external_name,external_capacity_mw,external_category,external_river,external_license_no,suggested_local_name,suggested_local_capacity_mw,suggested_local_license_type,name_similarity,river_similarity,capacity_similarity,combined_similarity,review_status
+Upper Arun HEP,1063.36,construction,Arun,506,Upper Karnali,900.0,Survey,0.783,0.545,0.846,0.738,unreviewed_no_auto_accept
+Tila-1 Hydropower Project,440.0,construction,Tila,236,Tinau,1.024,Operation,0.545,0.667,0.002,0.492,unreviewed_no_auto_accept
+Tila-2 Hydropower Project,420.0,construction,Tila,237,Tinau,1.024,Operation,0.545,0.667,0.002,0.492,unreviewed_no_auto_accept
+Kaligandaki Koban,400.0,construction,Kali Gandaki,167,Kali Gandaki-Kowan,400.0,Generation,0.914,1.0,1.0,0.947,unreviewed_no_auto_accept
+Bajhang Upper Seti HEP,216.0,construction,Seti (Far West),437,Chainpur Seti,210.0,Survey,0.645,0.522,0.972,0.666,unreviewed_no_auto_accept
+Kaligandaki Gorge,180.0,construction,Kali Gandaki,251,Kaligandki Gorge,164.0,Survey,0.97,1.0,0.911,0.968,unreviewed_no_auto_accept
+Lower Manang Marsyangdi,139.2,construction,Marsyangdi,242,Madhya Marsyangdi,70.0,Operation,0.7,1.0,0.503,0.739,unreviewed_no_auto_accept
+Upper Marsyangdi 1,138.0,construction,Marsyangdi,247,Upper Marsyangdi A,50.0,Operation,0.944,1.0,0.362,0.87,unreviewed_no_auto_accept
+Manang Marsyangdi,135.0,construction,Marsyangdi,243,Madhya Marsyangdi,70.0,Operation,0.824,1.0,0.519,0.818,unreviewed_no_auto_accept
+Budhi Gandaki Ka,130.0,construction,Budhi Gandaki,426,Budhi Gandaki Kha HEP,260.0,Survey,0.97,0.96,0.5,0.897,unreviewed_no_auto_accept
+Marsyangdi River PRoR Hydropower Project,90.0,construction,Marsyangdi,509,Marsyangdi,69.0,Operation,0.645,1.0,0.767,0.745,unreviewed_no_auto_accept
+Chameliya (Chhetigad),85.0,construction,Chameliya Khola,248,Chameliya Khola,30.0,Operation,0.706,1.0,0.353,0.721,unreviewed_no_auto_accept
+Ghunsa Khola HEP,77.5,construction,Ghunsa Khola,376,Ghunsa Khola HPP,71.5,Survey,1.0,1.0,0.923,0.988,unreviewed_no_auto_accept
+Nilgiri Khola-II cascade Project,71.0,operation,Nilgiri,241,Nilgiri Khola,38.0,Generation,0.703,1.0,0.535,0.746,unreviewed_no_auto_accept
+Dudhkoshi-2 (Jaleswar) HPP,70.0,construction,Dudhkoshi,316,Dudhkoshi 10 HEP,75.0,Survey,0.625,1.0,0.933,0.758,unreviewed_no_auto_accept
+Lower Apsuwa HEP,54.0,construction,Apsuwa,447,Upper Apsuwa HEP,24.6,Survey,0.75,1.0,0.456,0.763,unreviewed_no_auto_accept
+Upper Rahughat,48.5,operation,Rahughat,253,Rahughat,40.0,Generation,0.727,1.0,0.825,0.805,unreviewed_no_auto_accept
+Bhotekoshi 5 HEP,46.0,construction,Bhotekoshi (Sindhupalchowk),303,Bhotekoshi 1 Hydropower Project,44.0,Survey,0.917,0.571,0.957,0.843,unreviewed_no_auto_accept
+Upper Balephi,46.0,construction,Balephi,345,Upper Balefhi,46.0,Survey,0.923,1.0,1.0,0.952,unreviewed_no_auto_accept
+Bakan Khola HEP,44.0,construction,Bakan,468,Khani Khola - 1,40.0,Generation,0.75,0.375,0.909,0.688,unreviewed_no_auto_accept
+Chilun Khola HEP,43.2,construction,Chhilung,436,Chujung Khola HEP,48.0,Survey,0.8,0.667,0.9,0.784,unreviewed_no_auto_accept
+Tamor Khola,43.0,construction,Tamor,511,Tamor Khola-5 HEP,40.0,Survey,0.917,1.0,0.93,0.938,unreviewed_no_auto_accept
+Sankhuwa Khola HEP,41.061,construction,Sankhuwa,463,Ankhu Khola,42.9,Generation,0.88,0.632,0.957,0.834,unreviewed_no_auto_accept
+Isuwa Khola PRoR Cascade HEP,40.1,construction,Isuwa Khola,356,Lower Isuwa Khola HPP,37.7,Survey,0.537,1.0,0.94,0.704,unreviewed_no_auto_accept
+Yaru Khola HEP,30.59,construction,Yaru,435,Syar Khola HPP,59.5,Survey,0.9,0.75,0.514,0.808,unreviewed_no_auto_accept
+Likhu Khola HPP,30.0,construction,Likhu Khola,263,Likhu Khola 'A',51.0,Generation,0.917,1.0,0.588,0.887,unreviewed_no_auto_accept
+Myardi Khola,30.0,construction,Myardi Khola,514,Myagdi Khola Hydropower Project,57.3,Survey,0.917,0.917,0.524,0.858,unreviewed_no_auto_accept
+Mathillo Kabeli HEP,28.1,construction,Kabeli Khola,359,Upper Kabeli HPP,22.9,Survey,0.519,1.0,0.815,0.674,unreviewed_no_auto_accept
+Super Aankhu Khola Hydropower Project,25.4,construction,Ankhu Khola,239,Upper Ankhu Khola,35.0,Survey,0.914,1.0,0.726,0.906,unreviewed_no_auto_accept
+Seti Khola HPP,25.0,operation,Seti Khola (Gandaki),304,Seti Khola HPP,30.0,Survey,1.0,0.714,0.833,0.909,unreviewed_no_auto_accept
+Induwa Khola PRoR HEP,24.921,construction,Induwa,496,Ikhuwa Khola HEP,30.0,Survey,0.69,0.667,0.831,0.706,unreviewed_no_auto_accept
+Bajra Madi Hydropower Project,24.8,construction,Madi Khola,257,Upper Madi,25.0,Operation,0.6,1.0,0.992,0.751,unreviewed_no_auto_accept
+Dobhan Khola HEP,24.5,construction,Dobhan Khola,429,dobhan Khola HPP,16.0,Survey,1.0,1.0,0.653,0.948,unreviewed_no_auto_accept
+Mathillo Thulo Khola A HEP,22.5,operation,Thulo Khola,371,Thulo Khola Hydropower Project,21.3,Survey,0.667,1.0,0.947,0.785,unreviewed_no_auto_accept
+Madhya Hongu Khola -A HPP,22.0,construction,Hongu Khola,374,Middle Hongukhola A Hydropower Project,22.0,Survey,0.769,1.0,1.0,0.857,unreviewed_no_auto_accept
+Seti Khola HEP,22.0,construction,Seti Khola (Gandaki),334,Setikhola Hydroelectric Project,22.0,Survey,0.947,0.714,1.0,0.902,unreviewed_no_auto_accept
+Kabeli-3 Cascade HEP,21.93,operation,Kabeli Khola,350,Kabeli B1 Cascade HPP,9.94,Survey,0.909,1.0,0.453,0.862,unreviewed_no_auto_accept
+Nyadi-Phidi HPP,21.4,construction,"Nyadi,Phidi",252,Nyadi Khola,30.0,Generation,0.636,0.625,0.713,0.645,unreviewed_no_auto_accept
+Rauje Khola HPP,18.6,construction,Rauje Khola,302,Rauje Khola HPP,4.99,Survey,1.0,1.0,0.268,0.89,unreviewed_no_auto_accept
+Supreme Middle Seti HEP,18.0,construction,Seti Khola (Gandaki),513,Super Seti HEP,24.0,Survey,0.621,0.711,0.75,0.661,unreviewed_no_auto_accept
+Chhahare Khola,17.5,construction,Chhahare,66,Machhe Khola HPP,18.0,Survey,0.769,0.6,0.972,0.761,unreviewed_no_auto_accept
+Thuligad Khola Small PRoR HEP,17.0,construction,Thuli Gad,421,Thuligad Khola Small HEP,9.0,Survey,0.889,1.0,0.529,0.861,unreviewed_no_auto_accept
+Middle Trishuli Ganga nadi,15.625,construction,Trishuli,379,Trishuli,24.0,Operation,0.471,1.0,0.651,0.619,unreviewed_no_auto_accept
+Upper Kabeli-2 HEP,15.0,construction,Kabeli Khola,384,Upper Kabeli HPP,22.9,Survey,0.923,1.0,0.655,0.901,unreviewed_no_auto_accept
+Sisuwa Khola HEP,13.5,construction,"Sisuwa, Hinuwa",432,Isuwa Khola Hydropower Project,97.2,Survey,0.957,0.667,0.139,0.767,unreviewed_no_auto_accept
+Middle Mailung (cascade) HEP,13.0,construction,Mailung Khola,382,Middle Mailung Hydropower Project,10.0,Survey,0.778,1.0,0.769,0.828,unreviewed_no_auto_accept
+Upper Mudi Khola,12.73,construction,Mudi & Ghurma,501,Upper Midim Khola SHP,7.5,Survey,0.909,0.385,0.589,0.74,unreviewed_no_auto_accept
+Maygdi Khola- B HEP,12.5,construction,Myagdi,489,Myagdi Khola- B HEP,9.5,Survey,0.929,0.667,0.76,0.843,unreviewed_no_auto_accept
+Lower Modi -1,10.0,operation,Modi Khola,29,Lower Modi Khola,20.0,Generation,0.786,1.0,0.5,0.792,unreviewed_no_auto_accept
+Sabha Khola C HEP (Cascade),9.9,construction,Sabha,419,Sabha Khola A HEP,9.55,Survey,0.765,1.0,0.965,0.849,unreviewed_no_auto_accept
+Daraudi Nadi HEP,9.84,construction,Daraudi,456,Daraundi A,6.0,Operation,0.818,0.933,0.61,0.813,unreviewed_no_auto_accept
+Luja Khola Cascade Hydropower Project,9.8,construction,Luja Khola,517,Luja Khola HPP,24.8,Survey,0.714,1.0,0.395,0.732,unreviewed_no_auto_accept
+Tirija Khola HEP,9.71,construction,Tirija,484,Sipring Khola,10.0,Operation,0.72,0.462,0.971,0.698,unreviewed_no_auto_accept
+Upper Ingwa Khola,9.7,operation,Ingwa Khola,329,Upper Siwa Khola HPP,8.18,Survey,0.909,0.857,0.843,0.887,unreviewed_no_auto_accept
+Super Sabha Khola A HPP,9.55,construction,Sabha Khola,492,Sabha Khola A,8.3,Generation,0.812,1.0,0.869,0.864,unreviewed_no_auto_accept
+Lower Dudhkunda Hydropower Project,9.48,construction,Dudhkunda (Solu),441,Lower Dudkunda HPP,6.0,Survey,0.966,0.75,0.633,0.866,unreviewed_no_auto_accept
+Siwakhola HEP,9.3,construction,Siwa Khola,392,Iwa Khola,9.9,Generation,0.889,0.947,0.939,0.91,unreviewed_no_auto_accept
+Khimti Ghwang Khola HEP,9.0,construction,Khimti khola and Ghwan Khola,430,Khimti Ghwang Khola Small HPP,9.8,Survey,0.864,0.6,0.918,0.811,unreviewed_no_auto_accept
+Middle Likhu Small HEP,8.6,construction,Likhu Khola,498,Middle Mailung Hydropower Project,10.0,Survey,0.625,0.667,0.86,0.67,unreviewed_no_auto_accept
+Phalakhu Khola HPP,7.29,construction,Phalankhu Khola,161,Phalakhu Khola HPP,5.0,Generation,1.0,1.0,0.686,0.953,unreviewed_no_auto_accept
+Garchyang Khola,6.6,construction,Garchyang,245,Chyandi Khola,5.1,Survey,0.786,0.455,0.773,0.708,unreviewed_no_auto_accept
+Super Hewa HPP,6.0,operation,Hewa (Sankhuwasabha),254,Upper Hewa HPP,8.5,Generation,0.9,0.571,0.706,0.795,unreviewed_no_auto_accept
+Tallo Likhu Cascade Hydropower Project,6.0,construction,Likhu Khola,490,Mai Cascade,7.0,Operation,0.667,0.7,0.857,0.703,unreviewed_no_auto_accept
+Upper Junbesi Khola HEP,5.875,construction,Junbeshi,427,Upper Junbesi HPP,3.7,Survey,0.812,1.0,0.63,0.828,unreviewed_no_auto_accept
+Upper Phawa HPP,5.8,operation,Phawa Khola,238,Upper Hewa HPP,8.5,Generation,0.857,0.857,0.682,0.831,unreviewed_no_auto_accept
+Rawa Khola HEP,5.4,construction,Rawa,448,Rawa Khola HEP,3.5,Survey,1.0,1.0,0.648,0.947,unreviewed_no_auto_accept
+Super Irkhuwa Khola HEP,5.0,construction,Irkhuwa Khola,504,Super Iwa Khola HEP,4.0,Survey,0.882,0.818,0.8,0.855,unreviewed_no_auto_accept
+Upper Piluwa Hills Small HP Project,4.99,construction,"Piluwa, Tupuwa & Chhange Khola",249,Upper Piluwa Khola-2 SHP,4.72,Generation,0.727,0.558,0.946,0.721,unreviewed_no_auto_accept
+Puwa II hydropower Project,4.96,operation,Puwa,240,Puwa,6.2,Operation,0.727,1.0,0.8,0.801,unreviewed_no_auto_accept
+Upper Pikhuwa Khola HEP,4.9,construction,pikhuwa,390,Pikhuwa Khola,5.0,Generation,0.812,1.0,0.98,0.881,unreviewed_no_auto_accept
+Lower Thulo Khola HEP (RoR Cascade),4.75,construction,Thulo Khola,458,Lower Thulo Khola Hydropower Project,4.75,Survey,0.739,1.0,1.0,0.838,unreviewed_no_auto_accept
+Lapa Khola Hydropower Project,4.72,construction,Lapa Khola,486,Padam Khola SHP,4.8,Generation,0.762,0.762,0.983,0.795,unreviewed_no_auto_accept
+Upper Chirkhuwa Khola,4.7,operation,Chirkhuwa,185,Upper Chirkuwa Khola,4.7,Generation,0.976,1.0,1.0,0.985,unreviewed_no_auto_accept
+Manahari Khola HEP,4.5,construction,Manhari,507,Manahari Khola HEP,9.258,Survey,1.0,1.0,0.486,0.923,unreviewed_no_auto_accept
+Tallo Indrawati HEP,4.5,construction,Indrawati,401,Indrawati -III,7.5,Operation,0.643,0.75,0.6,0.661,unreviewed_no_auto_accept
+Super Sabha Khola Small Hydropower Project,4.1,construction,Sabha Khola,482,Supper Sabha Khola Small HPP,4.1,Survey,0.979,1.0,1.0,0.987,unreviewed_no_auto_accept
+Upper Lohore SHP,4.0,operation,Lohare Khola,246,Upper Hewa HPP,8.5,Generation,0.727,0.727,0.471,0.689,unreviewed_no_auto_accept
+Syarpu HEP,3.3,construction,Dharne,385,Bijayapur-1,4.5,Operation,0.471,0.267,0.733,0.463,unreviewed_no_auto_accept
+Everest Cogeneration Electricity Project,3.0,operation,Co-Generation,335,Charnawati Khola Hydroelectric Project,3.52,Operation,0.292,0.435,0.852,0.409,unreviewed_no_auto_accept
+Indushankar Cogeneration and Transmission Project,3.0,operation,Co-Generation,354,Charnawati Khola Hydroelectric Project,3.52,Operation,0.316,0.435,0.852,0.424,unreviewed_no_auto_accept
+Upper Parajuli Khola,2.15,construction,Parajuli Khola,102,Parajuli Khola-1,2.15,Generation,0.778,1.0,1.0,0.862,unreviewed_no_auto_accept
+Chepe Khola Cascade Hydropower Project,2.0,construction,Chepe Khola,462,Chepe Khola HPP,7.0,Survey,0.733,1.0,0.286,0.728,unreviewed_no_auto_accept
+Jhyadi Khola,2.0,operation,Jhyari Khola,63,Jhyari Khola,2.0,Operation,0.917,1.0,1.0,0.948,unreviewed_no_auto_accept
+Thaligad Small HPP,2.0,construction,Thaligad,451,Thuligad Khola Small HEP,9.0,Survey,0.765,0.824,0.222,0.697,unreviewed_no_auto_accept
+Lodo Khola Sana HEP,1.6,construction,Lodo,478,Lodo Khola Small HEP,1.73,Survey,0.839,0.571,0.925,0.79,unreviewed_no_auto_accept
+Gandigad SHP,1.0,construction,Gandi Gad,,Sanigad,10.7,Generation,0.8,0.824,0.093,0.699,unreviewed_no_auto_accept
+Jadari Gad,1.0,construction,Jadari Gad,,Gamari Gad HEP,4.36,Survey,0.8,0.8,0.229,0.714,unreviewed_no_auto_accept
+Hadi Khola (Sunkoshi) A HPP,0.997,construction,Hadi,,Dhansi Khola Mini,0.996,Generation,0.632,0.6,0.999,0.679,unreviewed_no_auto_accept
+Miya Khola,0.996,operation,Miya,,Maya Khola Hydropower Project,14.9,Generation,0.9,0.75,0.067,0.741,unreviewed_no_auto_accept
+Pati Khola,0.996,operation,Pati,,Saiti Khola Small,0.999,Generation,0.667,0.667,0.997,0.716,unreviewed_no_auto_accept
+Upper Hadi Khola,0.99,operation,Hadi,,Upper Jumdi Khola,0.995,Generation,0.848,0.444,0.995,0.778,unreviewed_no_auto_accept
+Idi Khola SHP,0.975,operation,Idi Khola,,Idi Khola SHP,0.975,Generation,1.0,1.0,1.0,1.0,unreviewed_no_auto_accept
+Idi Khola SHP,0.975,construction,Idi Khola,,Idi Khola SHP,0.975,Generation,1.0,1.0,1.0,1.0,unreviewed_no_auto_accept
+Tauthali Khola,0.95,construction,Tauthali,,Thoppal Khola,1.65,Operation,0.741,0.533,0.576,0.668,unreviewed_no_auto_accept
+Belkhu Khola,0.518,operation,Belkhu Khola,,Elun Khola,0.485,Survey,0.818,0.818,0.936,0.836,unreviewed_no_auto_accept
+Rairang,0.5,operation,Rairang,,Kalanga,15.33,Generation,0.571,0.444,0.033,0.461,unreviewed_no_auto_accept
+Salubyani Gad SHP,0.233,construction,Salubyan,,Sanigad,10.7,Generation,0.7,0.375,0.022,0.524,unreviewed_no_auto_accept
+Sali Nadi,0.232,operation,Sali Nadi,,Sanigad,10.7,Generation,0.625,0.706,0.022,0.553,unreviewed_no_auto_accept
+Giri khola,0.214,construction,giri,,Gidi Khola HEP,9.0,Survey,0.9,0.75,0.024,0.734,unreviewed_no_auto_accept
+Syange Khola,0.183,operation,Syange,,Upper Syange Khola SHP,2.4,Generation,0.8,1.0,0.076,0.737,unreviewed_no_auto_accept

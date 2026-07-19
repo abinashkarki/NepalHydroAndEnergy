@@ -1,0 +1,26 @@
+local_slug,local_capacity_mw,local_status,local_river,suggested_external_name,suggested_external_capacity_mw,suggested_external_category,suggested_external_river,name_similarity,river_similarity,capacity_similarity,combined_similarity,review_status
+upper-tamakoshi,456,operating,Tama Koshi,Upper Tamakoshi HPP,456,operation,Tama Koshi,1.0,1.0,1.0,1.0,unreviewed_no_auto_accept
+arun-3,900,under-construction,Arun,Arun 3,900,construction,Arun,1.0,1.0,1.0,1.0,unreviewed_no_auto_accept
+dudhkoshi-storage,670,pre-construction,Dudh Koshi,Dudhkoshi Storage HEP,600,app_const,Dudhkoshi,1.0,0.947,0.896,0.958,unreviewed_no_auto_accept
+kali-gandaki-a,144,operating,Kali Gandaki,Kali Gandaki A,144,operation,Kali Gandaki,1.0,1.0,1.0,1.0,unreviewed_no_auto_accept
+tanahu-hydropower,140,under-construction,Seti,Tanahu HEP,140,construction,Seti Khola (Gandaki),1.0,0.364,1.0,0.809,unreviewed_no_auto_accept
+chameliya-hydropower,30,operating,Chameliya River,Chameliya Khola,30,operation,Chameliya Khola,0.75,0.667,1.0,0.787,unreviewed_no_auto_accept
+sahas-urja,86,operating,Solu Khola,Solu Khola (Dudha Koshi),86,operation,Solu Khola,0.312,1.0,1.0,0.691,unreviewed_no_auto_accept
+chilime,22,operating,Chilime,Chilime,22,operation,Chilime,1.0,1.0,1.0,1.0,unreviewed_no_auto_accept
+mugu-karnali-storage,1902,pre-construction,Karnali,Mugu Karnali Storage HEP,1902,app_const,Karnali,1.0,1.0,1.0,1.0,unreviewed_no_auto_accept
+upper-karnali,900,stalled,Karnali,Upper Karnali HEP,900,survey,Karnali,1.0,1.0,1.0,1.0,unreviewed_no_auto_accept
+karnali-chisapani,10800,conceptual,Karnali,Mugu Karnali Storage HEP,1902,app_const,Karnali,0.541,1.0,0.176,0.587,unreviewed_no_auto_accept
+budhigandaki,1200,pre-construction,Budhi Gandaki,Budhi Gandaki Storage Hydropower Project,1200,survey,Budhi Gandaki,0.727,1.0,1.0,0.877,unreviewed_no_auto_accept
+pancheshwar,6720,stalled,Mahakali,Machhe Khola HEP,16,construction,Machha Khola,0.522,0.6,0.002,0.415,unreviewed_no_auto_accept
+phukot-karnali,426,survey,Karnali,Phukot Karnali HEP,480,app_const,Karnali,1.0,1.0,0.887,0.972,unreviewed_no_auto_accept
+west-seti,750,stalled,Seti River,West Seti Hydropower Project,800,survey,Seti (Far West),1.0,0.609,0.938,0.867,unreviewed_no_auto_accept
+kulekhani-cascade,106,operating,Kulekhani,Kulekhani Sisneri PSP (SLC),100,basket_cancel,Kulekhani,0.524,1.0,0.943,0.772,unreviewed_no_auto_accept
+nalsyau-gad,410,survey,Nalsyau Gad,Nalsyau Gad Storage HEP,417,app_const,Nalsyau,0.733,0.778,0.983,0.809,unreviewed_no_auto_accept
+lower-badigad,380.3,survey,Badigad,Lower Badigad Storage HEP,350,gon_under_study,Badigad,0.765,1.0,0.92,0.874,unreviewed_no_auto_accept
+naumure-w-rapti,245,survey,West Rapti,Naumure Storage Project,281.04,gon_studied,west rapti,0.667,1.0,0.872,0.818,unreviewed_no_auto_accept
+sun-koshi-no-3,536,survey,Sun Koshi,Sunkoshi 2,978,gon_studied,Sun Koshi,0.75,1.0,0.548,0.775,unreviewed_no_auto_accept
+madi,199.8,survey,Madi,Madi Siti,128,gon_under_study,Madi Khola,0.615,0.571,0.641,0.609,unreviewed_no_auto_accept
+andhi-khola,180,survey,Andhi Khola,Adhikhola Storage HEP,180,app_const,Adhikhola,0.643,0.9,1.0,0.809,unreviewed_no_auto_accept
+chera-1,148.7,survey,Chera,Chera 1 Storage HPP,176,gon_under_study,Chera,0.636,1.0,0.845,0.798,unreviewed_no_auto_accept
+kokhajor-1,111.5,survey,Kokhajor Khola,Kokhajor Storage HEP,63,gon_studied,Kokhajor Khola,0.692,1.0,0.565,0.753,unreviewed_no_auto_accept
+lower-jhimruk,142.5,survey,Jhimruk,Upper Jhimruk Storage Project,100,gon_studied,Jhimruk,0.588,1.0,0.702,0.74,unreviewed_no_auto_accept

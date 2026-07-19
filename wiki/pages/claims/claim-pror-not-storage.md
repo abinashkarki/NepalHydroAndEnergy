@@ -2,12 +2,18 @@
 title: PRoR Is Not Seasonal Storage
 type: claim
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 claim_id: C-009
 confidence: high
 status: stable
-sources: [wecs-energy-synopsis-2024, wb-nepal-power-sector-reform-2022, data-fleet-composition]
+sources: [wecs-energy-synopsis-2024, wb-nepal-power-sector-reform-2022, data-fleet-composition, solar-role-in-winter-deficit]
 tags: [pror, peaking, storage, dispatch]
+excerpt: Peaking run-of-river pondage can shift energy within a day but is not the same resource as multi-month seasonal storage.
+caveat: Individual cascades and upstream regulation require project-specific classification; the claim blocks a general equivalence, not all operational value from PRoR.
+maturity: working-page
 page_quality: analysis
 ---
 
@@ -17,10 +23,10 @@ page_quality: analysis
 
 ## Evidence
 
-- **PRoR function:** Provider consensus describes PRoR as helping with **daily peaking** windows—roughly **2–6 hrs peaking** in the fleet-composition shorthand—valuable for intraday shaping, not for carrying monsoon energy into dry-season months.
-- **Nepal's binding mismatch is multi-month:** Wet-season energy surplus vs dry-season scarcity is a **seasonal** problem; current hydro dry-season output is closer to **~1,100–1,300 MW** even as monsoon capability is much higher. Daily pondage does not re-time bulk energy across monsoon→winter unless paired with very large effective storage volumes or exogenous balancing (trade, demand migration, etc.).
-- **Research ledger:** Calls the PRoR-as-storage substitution "analytically sloppy and strategically dangerous"—because it invites under-investment in true seasonal buffers and mis-prices firm capacity.
-- **Cross-source finding:** Align on separating **intraday flexibility** from **inter-seasonal energy inventory**.
+- [[data-fleet-composition]] uses a **2–6 hrs peaking** shorthand for PRoR pondage: valuable for intraday shaping, not for carrying monsoon energy into dry-season months.
+- Wet-season surplus versus dry-season scarcity is a multi-month problem; the governed operating summary retains a dry-season hydro band of **~1,100–1,300 MW** even as monsoon capability is much higher.
+- Daily pondage does not re-time bulk energy across seasons unless it is paired with much larger effective storage or another balancing resource.
+- The evidence therefore supports separating intraday flexibility from inter-seasonal energy inventory.
 
 ## Confidence rationale
 

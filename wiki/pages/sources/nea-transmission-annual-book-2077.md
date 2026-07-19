@@ -72,23 +72,6 @@ Local workspace copy:
 - **No technical modelling:** Does not contain detailed load-flow or dispatch modelling.
 - **Mixed genre:** Directorates narrative, project status notes, and appendix tables may include promotional framing alongside raw data.
 
-## Used By
-
-- [[andhi-khola]]
-- [[chainpur-seti]]
-- [[chilime]]
-- [[dudhkoshi-storage]]
-- [[kali-gandaki-a]]
-- [[marsyangdi]]
-- [[phukot-karnali]]
-- [[solu-tingla-mirchaiya-132]]
-- [[tanahu-hydropower]]
-- [[trishuli]]
-- [[upper-arun]]
-- [[upper-tamakoshi]]
-- [[upper-trishuli-3a]]
-- [[uttarganga-storage]]
-
 ## What This Source Does Not Cover
 
 - post-2020 commissioning outcomes for projects still under construction here

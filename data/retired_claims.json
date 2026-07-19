@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "scan_roots": ["wiki/pages", "wiki/explorer/shared", "wiki/explorer/index.html"],
+  "rules": [
+    {
+      "id": "national-curtailment-700-800mw",
+      "reason": "No public plant-level availability, dispatch-event, accepted-energy and reason-code series supports this national daily estimate.",
+      "patterns": ["700–800 MW", "700-800 MW", "spilled daily", "daily curtailment"]
+    },
+    {
+      "id": "hetauda-remaining-tower-counts",
+      "reason": "Current official evidence confirms July 2026 construction activity but not a current remaining-tower count.",
+      "patterns": ["18 of 20 towers", "14 towers remain", "Only 14 towers", "Exactly 14 towers", "98.24% complete"]
+    },
+    {
+      "id": "public-production-residue",
+      "reason": "Research workflow instructions and internal completion labels are not public editorial content.",
+      "patterns": ["research agent", "RESOLVED. VERIFIED", "THIS PAGE SHOULD BE UPDATED", "sure win"]
+    }
+  ]
+}

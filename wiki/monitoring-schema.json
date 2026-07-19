@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nepal Energy project monitoring datasets",
+  "description": "Column and vocabulary contract for dated project events, active blockers, and transmission-corridor segment records.",
+  "datasets": {
+    "project_events.csv": {
+      "required": ["event_id", "project_slug", "event_date", "event_type", "title", "status_after", "description", "source_url", "source_title", "source_date", "confidence", "verified_on"],
+      "unique": ["event_id"]
+    },
+    "project_blockers.csv": {
+      "required": ["blocker_id", "project_slug", "category", "status", "first_observed_date", "last_verified_date", "owner", "blocked_milestone", "description", "source_url", "source_title", "confidence"],
+      "unique": ["blocker_id"]
+    },
+    "corridor_specs.csv": {
+      "required": ["slug", "corridor_name", "segment_id", "segment_name", "country", "voltage_kv", "status", "status_as_of", "length_km", "owner", "contractor", "financing", "dependency", "source_url", "source_title", "confidence"],
+      "unique": ["segment_id"]
+    }
+  },
+  "enums": {
+    "confidence": ["high", "medium", "low"],
+    "blocker_status": ["active", "monitoring", "resolved"],
+    "delivery_status": ["operating", "under-construction", "partially-operational", "pre-construction", "survey", "stalled", "cancelled", "conceptual", "unknown"]
+  }
+}

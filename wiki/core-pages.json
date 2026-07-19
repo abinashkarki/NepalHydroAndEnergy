@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "updated": "2026-07-19",
+  "description": "The public V1 flagship spine. These pages receive targeted freshness, provenance and caveat validation without forcing the full legacy corpus through the V1 template.",
+  "pages": [
+    "start-here",
+    "state-of-the-system",
+    "seasonal-mismatch",
+    "hydropower-system",
+    "transmission-and-cross-border-trade",
+    "distribution-and-reliability",
+    "solar-system",
+    "storage-and-flexibility",
+    "demand-and-electrification",
+    "institutions-finance-and-project-delivery",
+    "environmental-and-social-impacts",
+    "climate-resilience-and-decarbonization",
+    "master-thesis",
+    "unresolved-questions"
+  ]
+}

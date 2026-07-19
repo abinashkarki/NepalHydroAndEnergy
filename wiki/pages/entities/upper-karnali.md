@@ -2,11 +2,18 @@
 title: Upper Karnali
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-07-10
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-10
 generator: specs-refresh
+project_dossier: lighthouse
+maturity: working-page
 page_quality: analysis
-sources: [upper-karnali-pda-record, jica-ipsdp-main-report-vol2]
-tags: [project, watchlist, top-capacity, survey, karnali, surkhet, dailekh, achham, india-developed, export-project, stalled, geopolitics]
+sources: [icra-upper-karnali-2026, upper-karnali-official-records-2022-2026, upper-karnali-pda-record, jica-ipsdp-main-report-vol2]
+tags: [project, watchlist, top-capacity, pre-construction, karnali, surkhet, dailekh, achham, india-developed, export-project, stalled, geopolitics]
+excerpt: A 900 MW export-oriented project with a revised partner structure but no verified financial close, disbursement or construction start.
+caveat: Partner announcements and prospective offtake do not establish a bankable, financed project or a notice to proceed.
 images:
   - src: upper-karnali/ipsdpv2-p125-img00.png
     caption: "Figure 2.7-2 Location Map of NHDP Priority Projects"
@@ -19,14 +26,19 @@ images:
 
 ## Summary
 
-A 900 MW run-of-river scheme on the Karnali, licensed to India's GMR Group since 2008 and **still in survey / pre-construction 18 years later**. Upper Karnali is the canonical example of an India-developed Nepali hydropower project that has not been built: repeatedly extended PDA deadlines, stalled financial closure, a Supreme Court that finally refused open-ended extensions, and a Bangladesh export PPA that has never actually closed. In 2026 the government cleared a new path for financial closure — the first credible forward motion in more than a decade.
+A 900 MW run-of-river scheme on the Karnali, awarded to GMR in 2008
+and still at an early, pre-construction stage. The project has a revised
+partner structure but no verified achieved financial close,
+disbursement or construction commencement. A June 2026 ICRA rationale
+records GMR 34%, SJVN 34%, IREDA 5% and NEA 27%, while continuing to
+describe the project as being at a very early stage of development.
 
 ## Specifications
 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 900 MW |
-| Status | Survey / pre-construction (financial closure approaching 2026) |
+| Status | Stalled / pre-construction; financial close not verified |
 | River | Karnali ([[karnali-basin]]) |
 | Districts | Surkhet, Dailekh, Achham |
 | Province | Karnali Pradesh |
@@ -42,7 +54,11 @@ Upper Karnali is a run-of-river diversion scheme on the Karnali main stem — th
 | Planned export share | ~88% |
 
 ### Output
-Design annual energy of ~3,466 GWh with ~88% planned for export — primarily to India, with a Bangladesh PPA live since 2017 (quoted figures ranging from 200–500 MW). This is the canonical export-first model that [[arun-3]] is executing and Upper Karnali has not.
+Design annual energy is reported at approximately 3,466 GWh, with a
+large export orientation. Public statements have cited several possible
+Bangladesh volumes, but the wiki has not verified an executed, bankable
+offtake agreement and the approvals needed to wheel that electricity
+through India.
 
 The Bangladesh component makes Upper Karnali the test case for Nepal's "second neighbour" trade strategy — but no PPA has yet closed. The Bangladesh figures have shifted repeatedly: 250 MW, 300 MW, 500 MW, and 200 MW have all been quoted at different moments between 2017 and 2025. A moving target is not a market — it is a signal that the tri-nation transmission architecture (Nepal → India → Bangladesh) remains unresolved.
 
@@ -51,22 +67,27 @@ The Bangladesh component makes Upper Karnali the test case for Nepal's "second n
 | Annual design energy | 3,466 GWh |
 | Planned export share | ~88% |
 | India export | Primary target (no firm PPA) |
-| Bangladesh export | 200–500 MW quoted (no firm PPA) |
+| Bangladesh export | Multiple quantities announced; bankable executed PPA not verified |
 
 ### Governance
-The equity stack tells the project's evolution: GMR (original 2008 sponsor), plus SJVN, IREDA, and NEA — Indian state entities stepping into a project the original private sponsor could not alone finance. This is a structural change in what "India-developed" means in Nepal. See [[hydro-geopolitics]].
+The current reported ownership structure is GMR 34%, SJVN 34%, IREDA
+5% and NEA 27%. Ownership participation is not equivalent to financing
+approval, financial close or funds disbursed. See [[hydro-geopolitics]].
 
 The 2008 international competitive bidding awarded the project to GMR under a Project Development Agreement (PDA) — a bilateral contract between the Government of Nepal and the developer that gave GMR exclusive development rights with defined milestones. GMR failed to meet the financial closure deadline; the government extended it repeatedly. Each extension eroded the credibility of the PDA model: if deadlines are routinely extended, they are not deadlines.
 
 | Parameter | Value |
 |-----------|-------|
 | Developer | GMR Upper Karnali Hydropower Limited |
-| Equity (2026) | GMR + SJVN + IREDA + NEA |
+| Reported ownership (Jun 2026) | GMR 34% · SJVN 34% · IREDA 5% · NEA 27% |
 | Concession type | PDA (international competitive bidding, 2008) |
 | Original financial close deadline | ~2014 (extended repeatedly) |
 
 ### Schedule
-Eighteen years since the 2008 licence award. The Supreme Court ultimately ruled against open-ended extensions, granting only a 186-day allowance for time lost under its own interim orders. Compare with [[arun-3]] (same era, 74.6% complete, COD 2026): the contract is not the product, execution is. See [[buildability]] and [[stranded-generation]].
+Eighteen years have passed since the 2008 award without construction
+commencement. The project should be monitored through evidence of
+financial close, offtake, land and access readiness, notice to proceed
+and physical works—not through deadline-extension announcements.
 
 | Parameter | Value |
 |-----------|-------|
@@ -74,6 +95,34 @@ Eighteen years since the 2008 licence award. The Supreme Court ultimately ruled 
 | Financial closure | Not achieved (as of 2026) |
 | Completion | ~0% |
 | Construction | Not started |
+
+## Current Status and Performance Provenance
+
+**As of 10 July 2026:** stalled / pre-construction. The partner
+structure has changed, but the current primary evidence does not show
+financial close, lender disbursement or a construction notice to
+proceed.
+
+| Dimension | Current position | Evidence date |
+|---|---|---|
+| Ownership | GMR 34%, SJVN 34%, IREDA 5%, NEA 27% | 29 Jun 2026 |
+| Financial close | Not verified | 29 Jun 2026 |
+| Construction | Very early development stage; physical works not established | 29 Jun 2026 |
+| Offtake | Prospective export arrangements; bankable status not verified | 10 Jul 2026 review |
+
+## Recent Updates
+
+| Date | Update | Source |
+|---|---|---|
+| 29 Jun 2026 | ICRA recorded the current proposed ownership split and described the project as very early stage | [ICRA rating rationale](https://www.icra.in/Rating/GetRationalReportFilePdf?id=143894) |
+
+## Active Blockers
+
+| Blocker | Prevents | Verification rule |
+|---|---|---|
+| Achieved financial close and disbursement are not evidenced | Notice to proceed and major construction | Require lender or project-company closing disclosure |
+| Bankable power offtake is not evidenced | Revenue certainty and financing | Require executed PPA and applicable approvals |
+| Export evacuation remains a critical dependency | Delivery of contracted electricity | Require committed project-to-market transmission path |
 
 
 ## The GMR Saga: Timeline of an Unbuilt Project
@@ -89,9 +138,12 @@ Eighteen years since the 2008 licence award. The Supreme Court ultimately ruled 
 | **2020–2022** | COVID-19 disruptions; project enters "force majeure" discussions |
 | **2023–2024** | Supreme Court of Nepal intervenes: rules that open-ended PDA extensions are not permissible; grants only 186-day allowance for time lost under court's own interim orders |
 | **2025** | SJVN and IREDA join equity stack alongside GMR; NEA takes a stake |
-| **2026** | Government clears path for revised financial closure; first credible forward motion in a decade |
+| **2026** | ICRA records revised ownership participation while describing the project as very early stage |
 
-This timeline illustrates the structural problem with the PDA model for large Nepal-India projects. The developer (GMR) cannot finance the project without a bankable PPA; the PPA cannot be finalized without transmission access; the transmission requires coordinated investment from Nepal and India; and none of this can happen while the PDA deadlines are in legal limbo. The 2026 restructuring — adding SJVN, IREDA, and NEA to the equity stack — is an attempt to break this deadlock by bringing in entities with the balance-sheet strength and political capital to close the financing.
+The dated record shows repeated attempts to resolve a linked financing,
+offtake, transmission and deadline problem. The revised ownership may
+change the sponsor base, but it does not itself prove that any of those
+milestones has closed.
 
 ## The Supreme Court Intervention
 
@@ -113,9 +165,15 @@ The India-Bangladesh link exists, but the Nepal-India link for Upper Karnali doe
 
 Upper Karnali is the twin case to [[arun-3]] — same licence era, similar capacity, same India-developer / export-first model — but with the opposite outcome. Arun-3 is at 74% physical progress; Upper Karnali has been at "about to reach financial closure" for a decade. Reading the two projects together is how you understand the variance in Nepal's India-developed export class: the contract is not the product, execution is.
 
-The project also marks how [[hydro-geopolitics]] has widened in Nepal's hydropower conversation. The original export target was India, but a Bangladesh PPA has been live in some form since 2017 — making Upper Karnali the test case for Nepal's tri-nation energy trade ambition.
+The project also marks how [[hydro-geopolitics]] has widened in Nepal's
+hydropower conversation. The original export target was India, while
+successive Bangladesh proposals make Upper Karnali a test case for
+tri-nation energy trade whose bankable arrangements remain unverified.
 
-Finally, the 2026 financing stack — IREDA, SJVN and Nepali banks stepping in alongside GMR — is a pattern worth noting: Indian state-owned entities are now effectively taking equity in Nepali projects their original sponsor could not alone finance. That is a structural change in what "India-developed" means, and Upper Karnali is the first at-scale instance.
+The revised ownership brings Indian state-owned entities and NEA into
+the project company alongside GMR. The monitored distinction is that
+equity participation is not the same milestone as committed project
+debt or financial close.
 
 ## Comparison: Arun-3 vs Upper Karnali
 
@@ -124,11 +182,11 @@ Finally, the 2026 financing stack — IREDA, SJVN and Nepali banks stepping in a
 | Licence awarded | 2008 | 2008 |
 | Capacity | 900 MW | 900 MW |
 | Developer | SJVN (India, state-owned) | GMR (India, private) |
-| Status | 74.6% complete | ~0% (not started) |
-| COD | 2026 | No date |
+| Status | Under construction; progress must be read with its evidence date | Not started |
+| COD | Target has moved; verify against current SJVN disclosure | No verified date |
 | Financial closure | Achieved | Not achieved |
 | Export PPA | India (firm) | None (India uncertain, Bangladesh unclosed) |
-| Transmission | Arun-Dhalkebar 400 kV (built) | Karnali corridor (not built) |
+| Transmission | Dedicated evacuation line under delivery with the project | Project-to-market corridor not committed in the current record |
 | Years to construction | ~10 | 18+ and counting |
 
 The comparison isolates the variables: same basin (Koshi vs Karnali), same era (2008), same model (PDA, export-first). The difference is developer — SJVN is a state-owned Indian utility with sovereign backing and a balance sheet that can absorb construction risk; GMR is a private conglomerate whose energy portfolio shifted substantially after 2008. See [[buildability]] for why developer identity matters more than project design.
@@ -173,6 +231,8 @@ Tracked official references:
 
 ## Sources
 
+- [[icra-upper-karnali-2026|ICRA GMR Energy Rating Rationale — Upper Karnali (June 2026)]]
+- [[upper-karnali-official-records-2022-2026|Upper Karnali Official Records — IBN and DoED (2022–2026)]]
 - [[upper-karnali-pda-record|Upper Karnali — PDA, Financial Closure & Court Record]]
 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
 

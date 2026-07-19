@@ -44,6 +44,8 @@ CONTEXT_WINDOW = 60  # chars on each side
 # roadmap page) doesn't pollute the graph.
 FENCED_RE = re.compile(r"```.*?```", re.DOTALL)
 INLINE_CODE_RE = re.compile(r"`[^`\n]+`")
+HTML_COMMENT_RE = re.compile(r"<!--[\s\S]*?-->")
+MD_LINK_RE = re.compile(r"\[([^\]]+)\]\([^)]+\)")
 
 
 def strip_code(text: str) -> str:
@@ -56,6 +58,7 @@ def strip_code(text: str) -> str:
 
     text = FENCED_RE.sub(blank, text)
     text = INLINE_CODE_RE.sub(blank, text)
+    text = HTML_COMMENT_RE.sub(blank, text)
     return text
 
 
@@ -82,13 +85,23 @@ def make_context(body: str, match: re.Match[str]) -> str:
     reads like sentence text, not markup."""
     start, end = match.span()
     display = (match.group(2) or match.group(1)).strip()
-    left = max(0, start - CONTEXT_WINDOW)
-    right = min(len(body), end + CONTEXT_WINDOW)
+    # Prefer the containing prose/list line so snippets never run across section
+    # headings or generated-marker comments. Fall back to the historical bounded
+    # window only for unusually long lines.
+    line_left = body.rfind("\n", 0, start) + 1
+    line_right = body.find("\n", end)
+    if line_right == -1:
+        line_right = len(body)
+    left = max(line_left, start - CONTEXT_WINDOW)
+    right = min(line_right, end + CONTEXT_WINDOW)
     snippet = body[left:start] + display + body[end:right]
+    snippet = MD_LINK_RE.sub(r"\1", snippet)
+    snippet = re.sub(r"^\s*(?:#{1,6}|[-+*])\s*", "", snippet)
+    snippet = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", lambda m: (m.group(2) or m.group(1)).strip(), snippet)
     snippet = re.sub(r"\s+", " ", snippet).strip()
-    if left > 0:
+    if left > line_left:
         snippet = "\u2026" + snippet
-    if right < len(body):
+    if right < line_right:
         snippet = snippet + "\u2026"
     return snippet
 

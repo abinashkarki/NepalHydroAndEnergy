@@ -3,13 +3,21 @@ title: ICIMOD Threats to the Koshi River Basin
 type: source
 created: 2026-04-14
 updated: 2026-05-12
+reviewed: 2026-07-19
+review_due: 2027-07-19
 source_type: report
 source_author: ICIMOD
 source_date: 2018-01-01
 source_url: https://lib.icimod.org/records/a6xby-zmk57
+source_status: public-online
+accessed: 2026-07-19
+verification_status: institutional-source-checked
 sources: []
 tags: [icimod, koshi, sediment, hazard, erosion]
-page_quality: analysis
+excerpt: ICIMOD's basin-level account of Koshi sediment loads, erosion and environmental threats.
+caveat: Basin-scale sediment estimates cannot replace site-specific sediment studies or operating records for an individual project.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # ICIMOD Threats to the Koshi River Basin
@@ -35,7 +43,3 @@ ICIMOD's 2018 outreach publication *Understanding Sediment Management*, focused 
 - **Basin scope:** Covers the Koshi basin only; does not assess sediment regimes in Karnali, Gandaki, or Mahakali basins.
 - **Outreach-publication scope:** The assessment provides several useful quantitative anchors, but it is not a full technical sediment design manual for hydropower projects.
 - **Source type:** ICIMOD is a regional knowledge centre; data should be cross-referenced with WECS river-basin plans and project-level feasibility studies where possible.
-
-## Used By
-
-*No pages currently reference this source.*

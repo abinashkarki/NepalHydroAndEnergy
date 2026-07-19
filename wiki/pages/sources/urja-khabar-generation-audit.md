@@ -86,7 +86,3 @@ The "32% average generation" figure widely circulated in industry discussion **d
 - **No independent data collection.** Urja Khabar did not conduct its own generation audit; it republished and interpreted a government study. The framing ("conditions have calcified") is Pandey's editorial argument, not a verified finding.
 - **Transmission bottleneck table may be partial.** The 18 named projects represent Pandey's selection, not necessarily an exhaustive listing of all transmission-bottlenecked projects.
 - **The "32% generation" figure is a misconception.** This widely circulated industry figure does not appear in the article; the article's ~33% figure refers to cost ratios, not generation output.
-
-## Used By
-
-- [[middle-tamor]]

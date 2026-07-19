@@ -142,11 +142,11 @@ These claim pages are the authoritative formulations. Do not restate their argum
 |---|---|---|
 | `claim-timing-not-volume` | Nepal has a timing problem, not an energy shortage | high |
 | `claim-mw-not-equal-value` | Installed MW, energy, seasonality, and firm power are routinely conflated | high |
-| `claim-transmission-immediate-blocker` | Grid delivery is the #1 immediate monetization bottleneck | medium-high |
+| `claim-transmission-immediate-blocker` | Transmission and delivery readiness are material immediate monetization constraints; their relative rank is not nationally quantified | medium-high |
 | `claim-storage-physical-fix` | Storage, not more RoR, is the physical solution to seasonal mismatch | high |
-| `claim-solar-cheaper-than-small-hydro` | Utility solar is now cheaper than small RoR hydro on blended tariff | high |
+| `claim-solar-cheaper-than-small-hydro` | NEA solar award tariffs undercut an illustrative standard small-RoR blended PPA tariff; delivered cost and service differ | medium-high |
 | `claim-climate-harder-not-easier` | Climate change increases hydrological volatility and tail risks | high |
-| `claim-governance-binding` | Institutional failures are now the binding constraint | medium-high |
+| `claim-governance-binding` | Governance weakness is a major channel of delay, cost and misaligned incentives | medium-high |
 | `claim-sediment-core-issue` | Sediment is a design constraint, not an O&M footnote | high |
 | `claim-systems-conversion-failure` | Nepal fails to convert hydrological advantage into deliverable power | high |
 | `claim-india-decisive-actor` | India's market rules and corridor control shape Nepal's options | high |
@@ -154,7 +154,7 @@ These claim pages are the authoritative formulations. Do not restate their argum
 | `claim-ror-dominance` | >90% of Nepal's hydropower is RoR/PRoR, structurally amplifying seasonal mismatch | high |
 | `claim-pror-not-storage` | Peaking run-of-river is often mistaken for seasonal storage | high |
 | `claim-floating-pv-leverage` | Floating PV on reservoirs can improve dry-season output and reduce evaporation | medium |
-| `claim-solar-terai-only-short-cycle-build` | Terai solar has shorter construction cycles than mountain hydro | high |
+| `claim-solar-terai-only-short-cycle-build` | Substation-adjacent solar can have a shorter development cycle than many new hydro projects | medium |
 | `claim-solar-political-coalition-is-rural` | Solar's rural land-use footprint creates a different political coalition than hydro | medium |
 
 ---
@@ -188,5 +188,5 @@ This list is intentionally incomplete. New terms will be added through use. The 
 4. If it is a near-synonym, the page is redirected or merged.
 5. If it is a disallowed alias, it is listed in the disallowed table.
 
-**Last updated:** 2026-05-11
-**Next review:** 2026-06-10
+**Last updated:** 2026-07-19
+**Next review:** 2026-10-19

@@ -28,7 +28,3 @@ Research compilation covering Nepal's first large private IPP: 60 MW Khimti-I on
 - **Single-project scope:** Khimti-I is one 60 MW RoR project with ~25 years of operating history; its generation performance and financial structure are not representative of newer or differently-designed projects.
 - **Ownership transition:** The September 2025 ownership transfer to BPC is recorded but post-transfer operational or financial data is not included.
 - **Compilation source:** Data is compiled from secondary disclosures and press releases, not from audited financial statements or regulatory filings.
-
-## Used By
-
-*No pages currently reference this source.*

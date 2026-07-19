@@ -10,6 +10,8 @@ import sys
 import unittest
 from pathlib import Path
 
+from scripts.build_wiki_fact_index import status_norm
+
 
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "wiki" / "explorer" / "shared" / "wiki-search-index.json"
@@ -74,6 +76,7 @@ class WikiSearchIndexTests(unittest.TestCase):
         self.assertIn("Explore", html)
         self.assertIn("wiki-vector-search.js", html)
         self.assertIn("wiki-fact-index.json", html)
+        self.assertIn("const SEMANTIC_RERANK_ENABLED = false", html)
 
     def test_legacy_semantic_module_is_not_kept_active(self) -> None:
         self.assertFalse(SEMANTIC_JS.exists(), "remove inactive browser-side model loader")
@@ -86,7 +89,10 @@ class WikiSearchIndexTests(unittest.TestCase):
         self.assertGreaterEqual(vector["model"]["dim"], 128)
         self.assertIn("mixedbread-ai/mxbai-embed-xsmall-v1", vector["model"]["id"])
         self.assertGreater(vector["stats"]["chunks"], vector["stats"]["pages"])
-        self.assertLess(len(gzip.compress(VECTOR_INDEX.read_bytes(), compresslevel=9)), 1_300_000)
+        # V1 adds the core editorial spine while keeping the optional quantized
+        # artifact below a modest 1.4 MB compressed release budget. The browser
+        # does not request it unless semantic reranking is explicitly enabled.
+        self.assertLess(len(gzip.compress(VECTOR_INDEX.read_bytes(), compresslevel=9)), 1_400_000)
         sample = vector["chunks"][0]
         self.assertEqual({"p", "h", "s", "v"}, set(sample))
 
@@ -143,7 +149,9 @@ class WikiSearchIndexTests(unittest.TestCase):
             fact = fact_by_feature[feature_id]
             self.assertEqual(fact["capacity_mw"], float(row["capacity_mw"]))
             self.assertEqual(fact["capacity_mwp"], float(row["capacity_mwp"]))
-            self.assertEqual(fact["status"], row["status"])
+            expected_raw_status = row.get("delivery_status") or row["status"]
+            self.assertEqual(fact["status"], status_norm(expected_raw_status))
+            self.assertEqual(fact["status_raw"], expected_raw_status)
             self.assertEqual(fact["procurement_stage"], row["procurement_stage"])
             self.assertEqual(fact["developer_type"], row["developer_type"])
             self.assertEqual(fact["registry_slug"], row["slug"])

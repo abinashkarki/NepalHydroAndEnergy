@@ -46,6 +46,17 @@ class ExplorerPerformanceGuardrails(unittest.TestCase):
     def test_country_outline_is_simplified_for_startup(self) -> None:
         self.assertLess((MAP_DIR / "nepal_country_outline.geojson").stat().st_size, 250_000)
 
+    def test_semantic_index_is_query_triggered_not_idle_preloaded(self) -> None:
+        html = INDEX_HTML.read_text(encoding="utf-8")
+        self.assertNotIn("requestIdleCallback(loadVectorBoost", html)
+        self.assertNotIn("scheduleVectorBoost", html)
+        self.assertIn("if (useMeaningBoost && !vectorBoost && requestVectorBoost)", html)
+
+    def test_search_result_dom_starts_bounded(self) -> None:
+        html = INDEX_HTML.read_text(encoding="utf-8")
+        self.assertIn('let searchVisibleLimit = 9;', html)
+        self.assertIn('const visible = filtered.slice(0, searchVisibleLimit);', html)
+
 
 if __name__ == "__main__":
     unittest.main()

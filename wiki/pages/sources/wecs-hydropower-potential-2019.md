@@ -41,20 +41,6 @@ The revised national hydropower potential assessment. Supersedes the older 83,00
 - **Legacy figure persistence:** The older 83,000 MW figure remains politically prominent despite this revision.
 - **Exclusions:** Does not account for climate-adjusted hydrology, sediment risk, or buildability constraints that would reduce realisable potential below techno-economic estimates.
 
-## Used By
-
-- [[buildability]]
-- [[data-layer-nepal-tributaries]]
-- [[data-potential-pyramid]]
-- [[figure-index]]
-- [[firm-power]]
-- [[hydropower-potential-categories]]
-- [[irena-remap-nepal]]
-- [[karnali-chisapani]]
-- [[koshi-basin]]
-- [[run-of-river-hydropower]]
-- [[wecs]]
-
 ## Relevance to Project
 
 The definitive source for [[hydropower-potential-categories]]. Only  surfaced the revised 72,544 MW figure — public summaries used the legacy 83,000 MW. The basin concentration data (94% in three basins) is central to the strategic argument.

@@ -35,7 +35,3 @@ citation page.
 - **Company-source, not independently verified.** Progress-report data is self-reported by Sahas Urja Limited; no independent audit or regulatory verification is cited.
 - **Incomplete citation.** Exact document metadata and URL are not yet expanded — the source cannot be independently accessed or verified in its current state.
 - **Single-project scope.** Covers only Sahas Urja / Solu Khola; findings are not representative of other IPPs.
-
-## Used By
-
-- [[sahas-urja]]

@@ -35,7 +35,3 @@ complete citation page.
 - **Missing citation metadata:** The specific article URL and publication date are not recorded, limiting verifiability.
 - **Single-source media:** Relies on one outlet's reporting; claims are not cross-referenced against other media or primary sources.
 - **Thin extraction:** The page records narrative support for the buildability failure framing; it is a media anchor, not a data source.
-
-## Used By
-
-- [[chameliya-hydropower]]

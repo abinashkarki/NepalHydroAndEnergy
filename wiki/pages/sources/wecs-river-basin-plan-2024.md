@@ -3,13 +3,21 @@ title: WECS River Basin Plans and Hydropower Development Master Plan (2024)
 type: source
 created: 2026-04-14
 updated: 2026-05-11
+reviewed: 2026-07-19
+review_due: 2027-01-19
 source_type: report
 source_author: Water and Energy Commission Secretariat (WECS)
 source_date: 2024-09-24
 source_url: https://giwmscdntwo.gov.np/media/pdf_upload/River%20Basin%20Plan_Final%20Main%20Report_Print%20version_corrected_20240924_vvcb7lm.pdf
+source_status: public-online
+accessed: 2026-07-19
+verification_status: government-source-checked
 sources: []
 tags: [wecs, hydrology, basins, discharge, planning, official]
-page_quality: analysis
+excerpt: WECS's 2024 basin-planning source for discharge, seasonality and hydropower-resource context.
+caveat: Basin-border or modelled flows must retain their measurement point and cannot be substituted for project-site design hydrology.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # WECS River Basin Plans and Hydropower Development Master Plan (2024)
@@ -39,12 +47,3 @@ Foundation for the hydrology evidence base. Provides the basin-level evidence fo
 - **Model-derived, not measured.** Basin flow numbers are MIKE SHE / MIKE Hydro Basin model outputs, not DHM gauge observations. Values may differ from project-specific hydrological studies.
 - **Single planning document.** The master plan represents WECS's planning framework at a point in time; it does not reflect subsequent basin-level developments, project-specific feasibility studies, or post-2024 hydrological events.
 - **Dry-season flow estimates are model projections.** The ~10x wet-to-dry flow reduction cited for Koshi is a model estimate, not a multi-decadal gauge average. Interannual variability may be wider than implied.
-
-## Used By
-
-- [[data-basin-discharge]]
-- [[data-layer-nepal-tributaries]]
-- [[data-solar-hydro-complementarity-profile]]
-- [[figure-index]]
-- [[solar-hydro-complementarity]]
-- [[wecs]]

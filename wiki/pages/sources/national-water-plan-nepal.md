@@ -3,10 +3,15 @@ title: National Water Plan, Nepal
 type: source
 created: 2026-04-14
 updated: 2026-04-14
+reviewed: 2026-07-19
+review_due: 2027-07-19
 source_type: report
 source_author: Government of Nepal / ADB
 source_date: 2005-01-01
 source_url: https://lpr.adb.org/sites/default/files/resource/650/nepal-water-plan.pdf
+source_status: public-online
+accessed: 2026-07-19
+verification_status: government-plan-checked
 sources: [nea-transmission-annual-book-2077]
 tags: [national-plan, water, ganges-contribution, historical]
 images:
@@ -15,7 +20,10 @@ images:
     credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
-page_quality: analysis
+excerpt: Nepal's 2005 national water plan, retained as a historical policy and storage-planning reference.
+caveat: This is a historical plan, not a current implementation or infrastructure-status record.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # National Water Plan, Nepal
@@ -37,14 +45,6 @@ Older but widely cited national planning document for Nepal's water resources. P
 - **2005 cutoff:** Does not account for post-2005 basin development, irrigation expansion, or transboundary treaty changes.
 - **Strategic vs precise:** The directional conclusion (Nepal is a major Ganges contributor) is robust; the exact percentages should be treated as indicative.
 - **Single planning document:** Represents one national planning frame; other studies may use different baselines or boundaries.
-
-## Used By
-
-- [[data-basin-discharge]]
-- [[figure-index]]
-- [[ganges-contribution]]
-- [[pancheshwar]]
-- [[storage-deficit]]
 
 ## Relevance to Project
 

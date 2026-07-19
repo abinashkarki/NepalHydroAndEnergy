@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-13T12:44:20.090280+00:00",
+  "scope": "Local map crosswalk to official DoED records; generation licences are not construction evidence.",
+  "local_rows": 572,
+  "official_hydro_rows": 3994,
+  "matched_local_rows": 545,
+  "exact_local_rows": 519,
+  "alias_local_rows": 26,
+  "unmatched_local_rows": 27,
+  "operating_local_rows": 201,
+  "mixed_record_status_rows": 147,
+  "review_rows": 63,
+  "unreviewed_rows": 32,
+  "rejected_suggestion_rows": 31,
+  "primary_category_counts": {
+    "cancelled_generation_application": 3,
+    "cancelled_generation_license": 11,
+    "cancelled_survey_application": 12,
+    "cancelled_survey_license": 24,
+    "generation_application": 23,
+    "generation_license": 239,
+    "gon_under_study": 5,
+    "operating_record": 201,
+    "survey_application": 9,
+    "survey_license": 18,
+    "unmatched": 27
+  }
+}

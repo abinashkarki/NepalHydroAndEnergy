@@ -1,298 +1,154 @@
 #!/usr/bin/env python3
-"""Data completeness report for solar_project_specs.csv.
+"""Report independent V1 evidence coverage axes for solar records.
 
-Usage:
-    python3 scripts/report_solar_spec_completeness.py          # terminal summary
-    python3 scripts/report_solar_spec_completeness.py --csv    # also write CSV
-    python3 scripts/report_solar_spec_completeness.py --md     # also write markdown
-    python3 scripts/report_solar_spec_completeness.py --all    # write both
+There is intentionally no overall rich/moderate/thin score: a procurement row
+can have excellent provenance while still having no delivery, output or precise
+geography evidence.
 """
+
+from __future__ import annotations
 
 import csv
 import sys
 from pathlib import Path
 
-# ---------------------------------------------------------------------------
-# Constants
-# ---------------------------------------------------------------------------
-
-SECTIONS: dict[str, list[str]] = {
-    "Output & Economics": [
-        "tariff_npr_kwh",
-        "expected_annual_generation_gwh",
-    ],
-    "Geography & Siting": [
-        "district",
-        "province",
-        "substation",
-        "resource_zone",
-        "siting_archetype",
-    ],
-    "Ownership": [
-        "owner",
-        "bidder",
-        "developer_type",
-    ],
-    "Data Quality": [
-        "precision_label",
-        "location_basis",
-        "confidence",
-    ],
-}
-
-SECTION_KEYS = {
-    "Output & Economics": "output_economics",
-    "Geography & Siting": "geography_siting",
-    "Ownership": "ownership",
-    "Data Quality": "data_quality",
-}
-
-REGISTRY_FIELDS = {
-    "slug",
-    "feature_id",
-    "label_title",
-    "project_group_slug",
-    "status",
-    "procurement_stage",
-    "is_operating",
-    "capacity_mwp",
-    "capacity_mw",
-    "source_note",
-    "source_slug",
-    "last_updated",
-}
-
 CSV_PATH = Path("data/solar_project_specs.csv")
 CSV_OUT = Path("data/processed/tables/solar_spec_completeness_report.csv")
 MD_OUT = Path("data/processed/tables/solar_spec_completeness_report.md")
 
-# ---------------------------------------------------------------------------
-# Core logic
-# ---------------------------------------------------------------------------
+AXES = {
+    "lifecycle": ["record_kind", "delivery_status", "status_as_of", "operating_status", "delivery_verification_note"],
+    "output": ["expected_annual_generation_gwh", "expected_generation_basis"],
+    "geography": ["latitude", "longitude", "province", "municipality", "geography_verification_status"],
+    "provenance": ["source_slug", "source_type", "source_date", "verified_on", "evidence_scope", "verification_status"],
+}
 
 
-def load_projects(csv_path: Path) -> list[dict]:
-    with open(csv_path, newline="", encoding="utf-8-sig") as f:
-        return list(csv.DictReader(f))
+def populated(value: str | None) -> bool:
+    return bool(value and value.strip())
 
 
-def is_populated(value: str | None) -> bool:
-    if value is None:
+def covered(axis: str, field: str, value: str | None) -> bool:
+    """Count explicit missing markers as honest metadata, not data coverage."""
+    if not populated(value):
         return False
-    return value.strip() != ""
+    if axis == "output" and value == "not-published-in-source":
+        return False
+    if axis == "geography" and value == "missing":
+        return False
+    return True
 
 
-def tier_label(pct: float) -> str:
-    if pct >= 50:
-        return "rich"
-    if pct >= 25:
-        return "moderate"
-    if pct > 0:
-        return "thin"
-    return "empty"
+def load() -> list[dict[str, str]]:
+    with CSV_PATH.open(newline="", encoding="utf-8-sig") as handle:
+        return list(csv.DictReader(handle))
 
 
-def completeness(project: dict) -> dict:
-    result: dict = {"slug": project["slug"]}
-    filled_total = 0
-    possible_total = 0
-
-    for section_name, fields in SECTIONS.items():
-        section_key = SECTION_KEYS[section_name]
-        filled = sum(1 for f in fields if is_populated(project.get(f)))
-        total = len(fields)
-        result[f"{section_key}_filled"] = filled
-        result[f"{section_key}_total"] = total
-        filled_total += filled
-        possible_total += total
-
-    result["total_filled"] = filled_total
-    result["total_possible"] = possible_total
-    result["completeness_pct"] = (
-        round(filled_total / possible_total * 100, 1) if possible_total else 0.0
-    )
-    result["tier"] = tier_label(result["completeness_pct"])
-    result["capacity_mwp"] = project.get("capacity_mwp", "")
-    result["status"] = project.get("status", "")
-    result["is_operating"] = project.get("is_operating", "")
+def coverage(row: dict[str, str]) -> dict[str, object]:
+    result: dict[str, object] = {
+        "slug": row["slug"],
+        "capacity_mw": row.get("capacity_mw", ""),
+        "record_kind": row.get("record_kind", ""),
+        "delivery_status": row.get("delivery_status", ""),
+    }
+    for axis, fields in AXES.items():
+        filled = sum(covered(axis, field, row.get(field)) for field in fields)
+        result[f"{axis}_filled"] = filled
+        result[f"{axis}_total"] = len(fields)
+        result[f"{axis}_pct"] = round(100 * filled / len(fields), 1)
     return result
 
 
-# ---------------------------------------------------------------------------
-# Reporting helpers
-# ---------------------------------------------------------------------------
-
-
-def _section_label(name: str) -> str:
-    return {
-        "Output & Economics": "Econ",
-        "Geography & Siting": "Geo",
-        "Ownership": "Owner",
-        "Data Quality": "DQ",
-    }.get(name, name)
-
-
-def _bar(filled: int, total: int, width: int = 10) -> str:
-    if total == 0:
-        return "·" * width
-    ratio = filled / total
-    blocks = round(ratio * width)
+def bar(percent: float, width: int = 10) -> str:
+    blocks = round(percent / 100 * width)
     return "█" * blocks + "░" * (width - blocks)
 
 
-def _tier_icon(tier: str) -> str:
-    return {"rich": "★", "moderate": "⬖", "thin": "·", "empty": " "}.get(tier, tier)
+def print_summary(rows: list[dict[str, str]], results: list[dict[str, object]]) -> None:
+    print("\nSolar V1 evidence coverage (axes are independent; no overall quality tier)\n")
+    print("  slug                                 delivery status                 life        output      geo         provenance")
+    for result in results:
+        axes = "  ".join(bar(float(result[f"{axis}_pct"])) for axis in AXES)
+        print(f"  {str(result['slug']):<36} {str(result['delivery_status']):<31} {axes}")
 
+    print(f"\n  Records: {len(rows)}")
+    for status in sorted({row["delivery_status"] for row in rows}):
+        selected = [row for row in rows if row["delivery_status"] == status]
+        capacity = sum(float(row.get("capacity_mw") or 0) for row in selected)
+        print(f"  {status}: {len(selected)} records / {capacity:.2f} MW")
 
-def print_summary(projects: list[dict]) -> None:
-    results = [completeness(p) for p in projects]
+    print("\n  Axis averages:")
+    for axis in AXES:
+        average = sum(float(result[f"{axis}_pct"]) for result in results) / len(results)
+        print(f"    {axis:<12} {average:5.1f}%")
 
-    sect_names = list(SECTIONS.keys())
-
-    print()
-
-    # Per-project rows
-    for r in results:
-        slug = r["slug"]
-        parts = [f"{slug:<35}", f"{r['capacity_mwp']:>6}", f"{r['status']:<12}"]
-        for s in sect_names:
-            section_key = SECTION_KEYS[s]
-            fill = r[f"{section_key}_filled"]
-            tot = r[f"{section_key}_total"]
-            parts.append(_bar(fill, tot, 10))
-        parts.append(f"{r['completeness_pct']:>5.0f}%")
-        parts.append(_tier_icon(r["tier"]))
-        print("  ".join(parts))
-
-    # Summary counts by tier
-    counts = {"rich": 0, "moderate": 0, "thin": 0, "empty": 0}
-    op_count = sum(1 for p in projects if (p.get("is_operating") or "").strip().upper() == "TRUE")
-    for r in results:
-        counts[r["tier"]] += 1
-    total_proj = len(results)
-
-    print(f"\n{'─' * 85}")
-    print(f"  Projects: {total_proj} ({op_count} operating, {total_proj - op_count} tender/pre-PPA)  |  "
-          f"★ rich: {counts['rich']}  ⬖ moderate: {counts['moderate']}  "
-          f"· thin: {counts['thin']}  empty: {counts['empty']}")
-
-    # Coverage gaps: most under-populated fields
-    all_spec_fields = [f for fields in SECTIONS.values() for f in fields]
-    field_counts: dict[str, int] = {f: 0 for f in all_spec_fields}
-    for p in projects:
-        for f in all_spec_fields:
-            if is_populated(p.get(f)):
-                field_counts[f] += 1
-
-    ranked = sorted(field_counts.items(), key=lambda x: x[1])
-    missing = [(f, c) for f, c in ranked if c < total_proj]
-    if missing:
-        print(f"\n  Most under-populated fields ({total_proj} projects total):")
-        for f, c in missing[:10]:
-            fill_pct = c / total_proj * 100
-            print(f"    {f:<40} {c}/{total_proj} ({fill_pct:.0f}% filled)")
-
+    print("\n  Missing-field coverage:")
+    for axis, fields in AXES.items():
+        for field in fields:
+            count = sum(covered(axis, field, row.get(field)) for row in rows)
+            if count < len(rows):
+                print(f"    {axis:<12} {field:<38} {count}/{len(rows)}")
     print()
 
 
-def write_csv(results: list[dict], out_path: Path) -> None:
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    csv_section_order = [SECTION_KEYS[s] for s in SECTIONS.keys()]
-    filled_total_pairs = []
-    for k in csv_section_order:
-        filled_total_pairs.append(f"{k}_filled")
-        filled_total_pairs.append(f"{k}_total")
-    fieldnames = (
-        ["slug", "capacity_mwp", "status", "is_operating"]
-        + filled_total_pairs
-        + ["total_filled", "total_possible", "completeness_pct", "tier"]
-    )
-    with open(out_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+def write_csv(results: list[dict[str, object]]) -> None:
+    CSV_OUT.parent.mkdir(parents=True, exist_ok=True)
+    fields = ["slug", "capacity_mw", "record_kind", "delivery_status"]
+    for axis in AXES:
+        fields.extend([f"{axis}_filled", f"{axis}_total", f"{axis}_pct"])
+    with CSV_OUT.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(results)
-    print(f"  CSV written -> {out_path}")
+    print(f"  CSV written -> {CSV_OUT}")
 
 
-def write_markdown_full(results: list[dict], projects: list[dict], out_path: Path) -> None:
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-
-    counts = {"rich": 0, "moderate": 0, "thin": 0, "empty": 0}
-    for r in results:
-        counts[r["tier"]] += 1
-
-    rich_projects = [r for r in results if r["tier"] == "rich"]
-    total_proj = len(results)
-    op_count = sum(1 for p in projects if (p.get("is_operating") or "").strip().upper() == "TRUE")
-
-    # Most under-populated fields
-    all_spec_fields = [f for fields in SECTIONS.values() for f in fields]
-    field_counts: dict[str, int] = {f: 0 for f in all_spec_fields}
-    for p in projects:
-        for f in all_spec_fields:
-            if is_populated(p.get(f)):
-                field_counts[f] += 1
-    ranked = sorted(field_counts.items(), key=lambda x: x[1])
-    missing = [(f, c) for f, c in ranked if c < total_proj]
-
-    # Build field -> section map
-    field_section: dict[str, str] = {}
-    for sec, fields in SECTIONS.items():
-        for f in fields:
-            field_section[f] = sec
-
-    lines: list[str] = []
-    lines.append("# Solar specification completeness report")
+def write_markdown(rows: list[dict[str, str]], results: list[dict[str, object]]) -> None:
+    MD_OUT.parent.mkdir(parents=True, exist_ok=True)
+    operating = [row for row in rows if row["delivery_status"] == "operating-registry-listed"]
+    awards = [row for row in rows if row["delivery_status"] == "award-only-delivery-unknown"]
+    lines = [
+        "# Solar V1 evidence coverage",
+        "",
+        "Coverage is reported on four independent axes. There is no overall rich/moderate/thin score because complete procurement metadata does not establish project delivery.",
+        "",
+        f"- **Operating-registry-listed:** {len(operating)} records / {sum(float(r.get('capacity_mw') or 0) for r in operating):.2f} MW",
+        f"- **Award-only, delivery unknown:** {len(awards)} records / {sum(float(r.get('capacity_mw') or 0) for r in awards):.2f} MW",
+        "",
+        "## Axis coverage",
+        "",
+        "| Axis | Average coverage | Interpretation |",
+        "|---|---:|---|",
+    ]
+    meanings = {
+        "lifecycle": "Evidence class, dated delivery status and its limitation",
+        "output": "Expected or observed generation and its basis",
+        "geography": "Coordinates plus administrative/siting verification",
+        "provenance": "Source, date, review and evidence scope",
+    }
+    for axis in AXES:
+        average = sum(float(result[f"{axis}_pct"]) for result in results) / len(results)
+        lines.append(f"| {axis.title()} | {average:.1f}% | {meanings[axis]} |")
+    lines.extend(["", "## Material gaps", ""])
+    for axis, fields in AXES.items():
+        for field in fields:
+            count = sum(covered(axis, field, row.get(field)) for row in rows)
+            if count < len(rows):
+                lines.append(f"- **{axis} / `{field}`:** {count} of {len(rows)} records populated")
     lines.append("")
-    lines.append(f"**{total_proj} projects** ({op_count} operating, {total_proj - op_count} tender/pre-PPA) &mdash; "
-                 f"{counts['rich']} rich, {counts['moderate']} moderate, "
-                 f"{counts['thin']} thin, {counts['empty']} empty.")
-    lines.append("")
-
-    if rich_projects:
-        lines.append("## Rich projects (>=50% complete)")
-        lines.append("")
-        lines.append("| Project | MWp | Status | % Complete |")
-        lines.append("|---------|-----|--------|-----------|")
-        for r in sorted(rich_projects, key=lambda x: x["completeness_pct"], reverse=True):
-            lines.append(f"| {r['slug']} | {r['capacity_mwp']} | {r['status']} | {r['completeness_pct']}% |")
-        lines.append("")
-
-    lines.append("## Most under-populated fields")
-    lines.append("")
-    lines.append("| Field | Section | Filled | Total |")
-    lines.append("|-------|---------|--------|-------|")
-    for f, c in missing[:15]:
-        sec = field_section.get(f, "")
-        lines.append(f"| `{f}` | {sec} | {c} | {total_proj} |")
-    lines.append("")
-
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
-
-    print(f"  Markdown written -> {out_path}")
-
-
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
+    MD_OUT.write_text("\n".join(lines), encoding="utf-8")
+    print(f"  Markdown written -> {MD_OUT}")
 
 
 def main() -> None:
     args = set(sys.argv[1:])
-    do_csv = "--csv" in args or "--all" in args
-    do_md = "--md" in args or "--all" in args
-
-    projects = load_projects(CSV_PATH)
-    results = [completeness(p) for p in projects]
-
-    print_summary(projects)
-
-    if do_csv:
-        write_csv(results, CSV_OUT)
-
-    if do_md:
-        write_markdown_full(results, projects, MD_OUT)
+    rows = load()
+    results = [coverage(row) for row in rows]
+    print_summary(rows, results)
+    if "--csv" in args or "--all" in args:
+        write_csv(results)
+    if "--md" in args or "--all" in args:
+        write_markdown(rows, results)
 
 
 if __name__ == "__main__":

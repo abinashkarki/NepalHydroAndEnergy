@@ -2,10 +2,16 @@
 title: Seasonal Mismatch
 type: concept
 created: 2026-04-14
-updated: 2026-04-24
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2025-07-15
 sources: [wecs-river-basin-plan-2024, wb-water-sector-diagnostic, nea-annual-report-fy2024-25]
 tags: [seasonality, monsoon, dry-season, grid, nepal, RoR, demand]
-page_quality: analysis
+excerpt: Why Nepal can experience wet-season electricity surplus and dry-season scarcity within the same hydro-dominated system.
+caveat: Illustrative output ranges summarize system reporting; plant-level dispatch and curtailment series are not publicly consolidated.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # Seasonal Mismatch

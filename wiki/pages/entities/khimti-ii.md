@@ -12,7 +12,7 @@ page_quality: analysis
 
 # Khimti II
 
-48.8 MW · under construction (generation licence) · on the Khimti Khola · in Dolakha district. A **Peoples Energy Limited (PEL)** project — part of the **RM Group** — sharing the Khimti Khola river with [[khimti-i]] but following an entirely different developer lineage and era.
+48.8 MW · generation licence recorded · on the Khimti Khola · in Dolakha district. Construction status is supported separately by project and credit-rating disclosures. A **Peoples Energy Limited (PEL)** project — part of the **RM Group** — sharing the Khimti Khola river with [[khimti-i]] but following an entirely different developer lineage and era.
 
 ## Summary
 

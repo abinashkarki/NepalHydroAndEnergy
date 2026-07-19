@@ -56,7 +56,3 @@ NEA maintains a standard template but PPAs are negotiated individually. No publi
 - **Analyst's framing:** The "16% Curtailment" debunking is a correction of industry lore, not a positive textual finding. The analysis may emphasize clauses relevant to its bankability argument.
 - **ERC evolution:** ERC regulatory context reflects the Commission's authority as understood at the time of analysis; ERC by-laws and interpretations continue to evolve.
 - **Negotiated variation:** NEA maintains a standard template but PPAs are negotiated individually. Clause language and enforcement may vary across projects.
-
-## Used By
-
-*No pages currently reference this source.*

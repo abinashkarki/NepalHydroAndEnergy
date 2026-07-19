@@ -195,31 +195,12 @@
     "claim-solar-terai-only-short-cycle-build": {
       "claim_id": "C-014",
       "tier": "core",
-      "metrics": [
-        {
-          "id": "solar_short_cycle_window",
-          "name": "Solar short-cycle window",
-          "value": "2–3 year build cycle; 2026–2030 window",
-          "source_slug": "solar-role-in-winter-deficit"
-        },
-        {
-          "id": "solar_2035_pipeline_mwp",
-          "name": "Solar pipeline to 2035",
-          "value": "~1,700 MWp by 2028; ~3,500 MWp by 2032; ~5,000 MWp by 2035",
-          "source_slug": "solar-role-in-winter-deficit"
-        }
-      ]
+      "metrics": []
     },
     "claim-storage-physical-fix": {
       "claim_id": "C-008",
       "tier": "core",
       "metrics": [
-        {
-          "id": "seasonal_storage_requirement",
-          "name": "Seasonal storage requirement",
-          "value": "29.86 km³; ~200x shortfall",
-          "source_slug": "data-storage-comparison"
-        },
         {
           "id": "dry_season_hydro_floor_current",
           "name": "Dry-season hydro floor",
@@ -291,20 +272,7 @@
     "claim-transmission-immediate-blocker": {
       "claim_id": "C-019",
       "tier": "core",
-      "metrics": [
-        {
-          "id": "india_project_export_approval",
-          "name": "India project export approval",
-          "value": "941 MW",
-          "source_slug": "nepal-energy-profile"
-        },
-        {
-          "id": "cross_border_transfer_capacity",
-          "name": "Cross-border transfer capacity",
-          "value": "~1,141 MW",
-          "source_slug": "nepal-energy-profile"
-        }
-      ]
+      "metrics": []
     }
   }
 }

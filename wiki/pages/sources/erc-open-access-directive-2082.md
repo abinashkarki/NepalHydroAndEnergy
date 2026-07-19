@@ -43,8 +43,3 @@ separation unresolved.
   stable official ERC URL is archived.
 - Issuance does not prove effective operational implementation by NEA,
   grid users, or market participants.
-
-## Used By
-
-- [[intervention-nea-structural-separation]]
-- [[nea-triple-authority]]

@@ -2,12 +2,18 @@
 title: Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power
 type: claim
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 claim_id: C-032
 confidence: high
 status: stable
-sources: [wecs-energy-synopsis-2024, wb-water-sector-diagnostic, wb-nepal-power-sector-reform-2022]
+sources: [wecs-energy-synopsis-2024, wb-water-sector-diagnostic, wb-nepal-power-sector-reform-2022, master-thesis, solar-role-in-winter-deficit]
 tags: [systems, synthesis, firm-power, institutions]
+excerpt: An explicitly evaluative systems claim that Nepal's resource base has not yet been converted into fully firm, deliverable and productive electricity value.
+caveat: This is an organising diagnosis, not a single measured failure rate; it does not deny major progress in access, capacity or trade.
+maturity: working-page
 page_quality: analysis
 ---
 
@@ -17,15 +23,15 @@ Nepal is **not** failing because its rivers are "fake" or because annual water i
 
 ## Evidence
 
-- **Master synthesis:** source evidence converges on a "conversion stack" diagnosis: the binding failures are institutional, financial, and engineering-system integration—not ignorance that Nepal is steep and wet.
-- **Source review:** The national failure is "not hydrological scarcity" but "**incomplete conversion**" from resource to dependable service.
-- **Failure stack (shared):** [[seasonal-mismatch]] timing → RoR-heavy [[run-of-river-hydropower]] fleet shape → [[storage-deficit]] → climate and [[sediment-as-design-constraint]] penalties → [[buildability]] constraints → weak transmission/absorption ([[stranded-generation]]) → fragile offtake and trade architecture → [[hydro-geopolitics]] and governance frictions.
+- The explicitly editorial [[master-thesis]] defines the "conversion stack": hydrology, fleet shape, storage, climate and sediment, buildability, networks, markets and institutions.
+- [[state-of-the-system]] documents progress in capacity, access and annual trade while retaining dry-season, reliability and delivery gaps; the diagnosis is therefore incomplete conversion, not zero achievement.
+- The failure stack links [[seasonal-mismatch]] → [[run-of-river-hydropower]] → [[storage-deficit]] → climate and [[sediment-as-design-constraint]] → [[buildability]] → transmission/absorption ([[stranded-generation]]) → trade and governance.
 - **Current numeric anchors:** the fleet remains structurally RoR-weighted (**85.7%** RoR, **9.9%** PRoR, **3.7%** storage), and current dry-season hydro still falls to roughly **~1,100–1,300 MW**.
-- **Cross-source finding:** Echo that **MW announcements** do not equal **development outcomes** without the delivery chain.
+- Across these branches, announced MW do not establish financing, construction, grid connection, dependable operation or productive use.
 
 ## Confidence rationale
 
-**High** as a **research-program organizing claim**: it matches multi-source convergence and organizes lower-level claims (C-001, C-005, C-008, C-019, etc.) into a single diagnostic sentence. It is intentionally **evaluative**—useful for strategy, not a single falsifiable meter reading.
+**High** as an organising systems claim with explicit editorial status. It connects separately evidenced mechanisms and is useful for strategy, but it is not a single falsifiable meter reading.
 
 ## Unresolved issues
 

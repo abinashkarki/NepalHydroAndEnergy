@@ -2,13 +2,19 @@
 title: Nepal Should Prioritize Domestic-Led Hydro With Export Support
 type: claim
 created: 2026-04-14
-updated: 2026-05-12
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 claim_id: C-034
-confidence: high
+confidence: medium
 status: stable
 sources: [wb-country-economic-memo-2025, nea-annual-report-fy2024-25, green-hydrogen-roadmap-nepal]
 tags: [industrial-policy, electrification, exports, value-add]
+excerpt: A domestic-demand-led strategy with exports in a supporting role is a policy framing that merits comparison with export-led sequencing; its sector choices and welfare effects remain model-dependent.
 page_quality: analysis
+maturity: working-page
+caveat: This is an editorial strategy claim, not a measured finding that every domestic use is higher-value than exports.
 ---
 
 ## Claim
@@ -25,7 +31,7 @@ Nepal should pursue a **domestic-led** hydro strategy (electrification + product
 
 ## Confidence rationale
 
-**High** at the level of **economic strategy framing** (sequencing absorption, valorization, and export) given convergent multi-provider review and standard development-economics logic; **implementation** remains contested politically.
+**Medium.** The evidence establishes low electricity use, remaining reliability constraints and multiple possible domestic uses, but it does not provide a national welfare comparison between domestic-led and export-led sequencing. The claim is therefore an editorial strategy framing whose sector choices and implementation remain contestable.
 
 ## Unresolved issues
 

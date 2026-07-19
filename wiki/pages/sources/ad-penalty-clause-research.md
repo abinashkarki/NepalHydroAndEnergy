@@ -28,7 +28,3 @@ Research compilation on the Available Declaration (AD) penalty mechanism in Nepa
 - **Clause-level focus.** The source isolates Article 10.1/10.2 AD-penalty mechanics and does not quantify how often NEA actually applies penalties in practice.
 - **Curtailment interaction unresolved.** The no-deemed-generation finding identifies a contractual exposure, but the source does not provide case-by-case adjudication history.
 - **Legal interpretation boundary.** The analysis describes contract structure and regulatory implications; it is not a formal legal opinion.
-
-## Used By
-
-- [[barahi-hydropower]]

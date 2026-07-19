@@ -1,38 +1,43 @@
 ---
-title: Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030
+title: Substation-Adjacent Solar Can Offer a Shorter Development Cycle
 type: claim
 created: 2026-04-24
-updated: 2026-05-07
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 claim_id: C-014
 confidence: medium
 status: stable
-sources: [nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment, global-solar-atlas-nepal]
+sources: [nea-solar-loi-2024, nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment, global-solar-atlas-nepal]
 tags: [solar, terai, buildability, transmission, winter, short-cycle]
+excerpt: Substation-adjacent solar can move through development faster than many new hydropower projects, but land, grid studies, finance and commissioning evidence determine whether awards become operating winter supply.
 page_quality: analysis
+maturity: working-page
+caveat: The 960 MW procurement record is an award and pre-PPA snapshot, not a commissioned fleet or proof that solar is Nepal's only pre-2030 build option.
 ---
 
 ## Claim
 
-For large new supply that can materially affect Nepal's pre-2030 winter balance, **Terai and substation-adjacent solar is the only short-cycle build lever at national scale**.
+**Substation-adjacent solar can have a shorter development cycle than many new hydropower projects**, making it a potentially important pre-2030 supply option when land, grid connection, financing and procurement conversion are ready.
 
 ## Evidence
 
-- Solar PV projects in the 5-50 MW range can move from award to COD on a **2–3 year build cycle** if land, grid connection, and financing are ready. This is the only large supply lever that operates inside the **2026–2030 window**.
-- Comparable hydropower additions face longer development paths: survey, hydrology, geology, EIA, access roads, civil works, tunneling, sediment design, finance closure, and evacuation.
-- The NEA 960 MW LoI concentrates awards around substations and DCS/grid nodes, which is exactly the geography where build cycle compression is possible.
-- The working solar pathway in [[solar-role-in-winter-deficit]] uses a moderate-growth ladder of **~1,700 MWp by 2028**, **~3,500 MWp by 2032**, and **~5,000 MWp by 2035**.
-- [[hybrid-siting-logic]] and [[solar-resource-geography-nepal]] show why the strategic variable is not just GHI; it is GHI plus grid adjacency plus land feasibility.
+- [[nea-solar-loi-2024]] records 63 awards totalling 960 MW around substations or named grid nodes. These are tender awards and pre-PPA records, not commissioned plants.
+- Solar avoids the tunnelling, waterway and major civil works required by many hydropower projects, but it still needs land, grid studies, procurement conversion, finance and construction.
+- [[wb-esmap-solar-resource-assessment]] and [[global-solar-atlas-nepal]] establish resource-assessment context; resource quality alone does not establish project buildability or winter delivery.
+- [[hybrid-siting-logic]] and [[solar-resource-geography-nepal]] therefore treat grid adjacency and land feasibility as part of the siting question, not as automatic advantages.
 
 ## Confidence rationale
 
-**Medium** because individual solar projects can still stall on land and grid impact, and hydropower schedules vary widely. The claim is not that every Terai solar project is fast; it is that no other large resource class has the same national-scale, pre-2030 deployment path.
+**Medium.** Technology and civil-works differences support a shorter-cycle hypothesis, but the current evidence does not provide an award-to-commissioning cohort for Nepal or a complete comparison with every competing supply option.
 
 ## Boundary Conditions
 
 - This claim is about build cycle speed, not full firm capacity. Solar still needs BESS, peaking hydro, or demand shifting.
 - It does not say every Terai solar project will be fast. Individual projects can still stall on land and grid.
-- It does not say hydropower is unnecessary. It says no other large resource class matches the pre-2030 deployment path.
-- It does not say solar alone solves winter balance. It says solar is the only large short-cycle build lever.
+- It does not say hydropower, storage, imports or demand response are unnecessary.
+- It does not say solar alone solves winter balance or provides firm capacity.
 
 ## Related
 

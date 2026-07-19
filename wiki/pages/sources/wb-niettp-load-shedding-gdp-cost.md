@@ -39,7 +39,3 @@ GDP-cost estimate on the checked page.
 - The estimate describes the load-shedding era, not current outage costs.
 - It should be cited as a World Bank project-document estimate, not as a
   new 2025 CEM finding.
-
-## Used By
-
-- [[nepal-energy-profile]]

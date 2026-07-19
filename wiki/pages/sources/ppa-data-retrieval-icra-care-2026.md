@@ -69,16 +69,6 @@ Sanima Mai Hydropower paid NPR 13.77 million in non-life premiums against NPR 76
 - **Snapshot date:** Financial data reflects FY 2080/81 or earlier; market conditions (tariffs, interest rates, construction costs) may have shifted.
 - **Inaccessible sources:** Some referenced documents (e.g., IPPAN premium surge claim) were not retrievable at time of compilation.
 
-## Used By
-
-Verified via grep. Pages that cite this source:
-
-- [[rasuwagadhi]]
-- [[upper-trishuli-3b]]
-- [[icra-nepal-surveillance-a996-b119]]
-- [[sahas-urja-benchmark-icra-2026]]
-- [[sector-financial-analysis-triple-authority-2026]]
-
 ## See Also
 
 - [[sector-financial-analysis-triple-authority-2026]]

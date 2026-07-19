@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nepal-energy.local/evals/retrieval_holdout/schema-v1.json",
+  "title": "Nepal Energy retrieval holdout v1",
+  "oneOf": [
+    {"$ref": "#/$defs/query_set"},
+    {"$ref": "#/$defs/ranked_run"}
+  ],
+  "$defs": {
+    "query_set": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "artifact_type",
+        "set_id",
+        "purpose",
+        "status",
+        "provenance",
+        "queries"
+      ],
+      "properties": {
+        "schema_version": {"const": "retrieval-holdout.v1"},
+        "artifact_type": {"const": "query_set"},
+        "set_id": {"type": "string", "minLength": 1},
+        "purpose": {"enum": ["synthetic_example", "real_holdout"]},
+        "status": {"enum": ["example", "template", "frozen"]},
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "created_by",
+            "created_at",
+            "judgments_established_before_system_execution",
+            "system_results_inspected_during_judging"
+          ],
+          "properties": {
+            "created_by": {"type": "string", "minLength": 1},
+            "created_at": {"type": "string", "minLength": 1},
+            "frozen_at": {"type": ["string", "null"]},
+            "judgments_established_before_system_execution": {"type": "boolean"},
+            "system_results_inspected_during_judging": {"type": "boolean"},
+            "notes": {"type": "string"}
+          }
+        },
+        "queries": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/query"}
+        }
+      }
+    },
+    "query": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "query", "query_type", "judgments"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "query": {"type": ["string", "null"]},
+        "query_type": {
+          "enum": [
+            "exact_entity",
+            "attribute_lookup",
+            "conceptual",
+            "source_seeking",
+            "comparative",
+            "multi_constraint",
+            "other",
+            "UNASSIGNED"
+          ]
+        },
+        "notes": {"type": "string"},
+        "judgments": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/judgment"}
+        }
+      }
+    },
+    "judgment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["doc_id", "relevance"],
+      "properties": {
+        "doc_id": {"type": "string", "minLength": 1},
+        "relevance": {"type": "integer", "minimum": 0, "maximum": 3},
+        "rationale": {"type": "string"}
+      }
+    },
+    "ranked_run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "artifact_type",
+        "query_set_id",
+        "run_id",
+        "generated_at",
+        "system",
+        "results"
+      ],
+      "properties": {
+        "schema_version": {"const": "retrieval-run.v1"},
+        "artifact_type": {"const": "ranked_run"},
+        "query_set_id": {"type": "string", "minLength": 1},
+        "run_id": {"type": "string", "minLength": 1},
+        "generated_at": {"type": "string", "minLength": 1},
+        "system": {
+          "type": "object",
+          "additionalProperties": true,
+          "required": ["name"],
+          "properties": {
+            "name": {"type": "string", "minLength": 1},
+            "version": {"type": "string"},
+            "index_version": {"type": ["string", "number", "null"]},
+            "notes": {"type": "string"}
+          }
+        },
+        "results": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/query_results"}
+        }
+      }
+    },
+    "query_results": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["query_id", "ranked_results"],
+      "properties": {
+        "query_id": {"type": "string", "minLength": 1},
+        "ranked_results": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/ranked_result"}
+        }
+      }
+    },
+    "ranked_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["doc_id"],
+      "properties": {
+        "doc_id": {"type": "string", "minLength": 1},
+        "score": {"type": ["number", "null"]},
+        "title": {"type": "string"}
+      }
+    }
+  }
+}

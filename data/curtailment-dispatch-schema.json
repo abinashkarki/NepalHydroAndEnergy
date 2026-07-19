@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nepal generation dispatch and curtailment acquisition schema",
+  "description": "Target contract for records requested from NEA. This is a review schema, not evidence that any field is publicly available or has been received.",
+  "datasets": {
+    "generator_monthly": {
+      "required": ["reporting_period", "generator_id", "installed_capacity_mw", "available_energy_mwh", "accepted_energy_mwh", "source_document_ref"],
+      "recommended": ["curtailed_energy_mwh", "substation", "corridor_id", "disclosure_status"],
+      "unique": ["reporting_period", "generator_id"]
+    },
+    "dispatch_event": {
+      "required": ["event_id", "event_start", "generator_id", "instruction_ref", "reason_code", "source_document_ref"],
+      "recommended": ["event_end", "curtailed_energy_mwh", "affected_element", "corridor_id", "restoration_time", "compensation_status", "disclosure_status"],
+      "unique": ["event_id"]
+    },
+    "reason_code": {
+      "required": ["reason_code", "reason_label", "source_document_ref"],
+      "recommended": ["reason_group", "definition", "active_from", "active_to"],
+      "unique": ["reason_code"]
+    }
+  },
+  "enums": {
+    "reason_group": ["transmission", "system_security", "market", "maintenance", "hydrology", "plant_availability", "unknown"],
+    "compensation_status": ["not_recorded", "not_applicable", "pending", "paid", "disputed", "unknown"],
+    "disclosure_status": ["public", "anonymised", "restricted", "unknown"]
+  },
+  "notes": [
+    "Available energy, accepted energy and curtailed energy must not be inferred from installed capacity or annual generation.",
+    "A response may legitimately omit recommended fields; preserve omissions as coverage metadata rather than imputing values.",
+    "Do not combine plant-level and aggregated cohorts without recording the aggregation basis."
+  ]
+}

@@ -34,7 +34,3 @@ reviewed media-source anchor, not a fully expanded citation record.
 - **Missing citation metadata:** The exact article metadata and URL are not recorded, limiting verifiability.
 - **Single-source media:** Relies on one outlet's reporting; claims are not cross-referenced against other media or primary sources.
 - **Thin extraction:** The page provides framing context for PAC scrutiny; it is a media anchor, not a data source.
-
-## Used By
-
-- [[chameliya-hydropower]]

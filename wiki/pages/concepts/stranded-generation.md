@@ -2,8 +2,8 @@
 title: Stranded Generation
 type: concept
 created: 2026-04-14
-updated: 2026-05-02
-sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, adb-hydropower-growth-nepal]
+updated: 2026-07-10
+sources: [nea-annual-report-fy2024-25, nea-operational-reporting-portals-2026, likhu-cascade-research-compilation, nea-standard-ppa-clauses]
 tags: [curtailment, transmission, grid, monsoon, IPP, nepal]
 page_quality: analysis
 ---
@@ -12,52 +12,103 @@ page_quality: analysis
 
 ## Summary
 
-Stranded generation is the condition where hydropower plants could produce but the grid cannot absorb or move the energy — so operators spill water, throttle output, or receive dispatch orders to stop. In Nepal, this is increasingly a monsoon phenomenon: generation buildout has raced ahead of transmission and market access.
+Stranded generation is the condition where a power plant could produce,
+but the grid cannot absorb or move its electricity—so water is spilled,
+output is reduced or a dispatch instruction stops generation. In Nepal,
+the mechanism is plausible in a run-of-river system with constrained
+transmission and export paths, but the public source corpus does not
+provide a national, plant-level curtailment series to measure its scale.
 
 ## Simple Explanation
 
-Nepal builds hydro plants faster than it builds power lines to carry the electricity away. During monsoon, when rivers are full and plants want to generate at maximum, the grid hits its limits. The plants must then "spill" water (let it flow past the turbines unused) or shut down. The energy is "stranded" — available but unusable.
+Nepal can add hydropower faster than the lines, substations, domestic
+demand and cross-border access needed to use it. During high-flow
+periods, that can leave available generation without an outlet. A low
+annual generation figure alone is not proof of curtailment: it can also
+reflect hydrology, maintenance, forced outage, transmission failure or
+plant availability.
+
+## What the Current Evidence Establishes
+
+During wet-season peaks, run-of-river output, domestic demand, export
+access and internal transmission capacity can diverge (see
+[[seasonal-mismatch]]). The NEA annual report is an essential system
+snapshot, but it does not publish the plant-by-plant available energy,
+dispatch instruction, rejected MWh or reason code needed to quantify
+national curtailment.
+
+As checked on 10 July 2026, NEA's Generation Directorate public
+operational-report page was marked `Coming soon`, while its Transmission
+Directorate published daily aggregate system reports. Neither public
+surface supplies the plant-level availability and dispatch-event fields
+needed for a curtailment series. See
+[[nea-operational-reporting-portals-2026]].
+
+The Likhu cascade is the best-documented corridor case in the current
+corpus. A research compilation attributes Likhu-2's FY 2023/24
+underperformance to the New Khimti transformer constraint and records
+improved performance after an upgrade. This is useful evidence of a
+specific bottleneck mechanism, not a national curtailment rate or a
+representative sample. See [[buildability]] for the delivery-risk
+context.
+
+The public evidence supports a transmission-and-market risk, not a
+precise current daily spill figure. Installed capacity, exports and
+annual sales cannot be subtracted from one another to obtain
+curtailment, because they use different time bases and omit hydrology,
+availability, imports, storage, losses and dispatch constraints.
+
+## Contract Exposure Is Distinct From Observed Losses
+
+Secondary analysis of standard NEA PPA clauses identifies a possible
+contractual exposure where dispatch curtailment is not treated as a
+compensable deemed-generation event. It does not provide a signed-PPA
+corpus, a dispatch-order log or adjudicated outcomes. The effect on
+individual IPPs therefore remains a question for contract and
+plant-level evidence, rather than a fact established by the current
+page.
+
+## Minimum Disclosure Needed to Measure the Problem
+
+An auditable monthly public dataset should publish, for each generator
+or an appropriately anonymised cohort:
+
+| Field | Why it is required |
+|---|---|
+| Available generation (MWh) and actual accepted generation (MWh) | Separates physical availability from accepted output |
+| Curtailment MWh and timestamp | Makes the amount and system period measurable |
+| Reason code | Distinguishes transmission, system-security, market, maintenance and hydrology causes |
+| Affected transmission node/corridor | Connects a loss to an investment or operating constraint |
+| Dispatch instruction and restoration time | Establishes whether curtailment was ordered and for how long |
+| Contractual treatment and compensation status | Separates physical curtailment from the resulting financial loss |
+
+Until that data exists, project-level reports should be labelled as
+individual research leads, not combined into a national total. This is
+the highest-priority operational-data request in [[unresolved-questions]].
 
 ## Common Misunderstandings
 
-- **"Stranded generation means the plants are broken."** It does not. The plants are operational; the bottleneck is the grid or market access.
-- **"More generation always helps."** Adding RoR capacity without transmission or demand growth increases stranded energy, not usable energy.
-- **"Curtailment only hurts small IPPs."** While small IPPs are most vulnerable, NEA's own plants also face curtailment during severe surplus weeks.
+- **"Stranded generation means plants are broken."** It may instead be
+  a grid, market or dispatch constraint; the reason must be observed.
+- **"More generation automatically solves supply needs."** Generation
+  without transmission, demand and usable market access can increase
+  the risk of unavailable output in particular hours or seasons.
+- **"Annual energy reveals curtailment."** It cannot do so without an
+  availability baseline and dispatch-cause data.
 
-**Stranded generation** is the condition where **plants could produce** but **the grid cannot absorb or move** the energy—so operators spill water, throttle output, or receive dispatch orders to stop. In Nepal, this is increasingly a **monsoon** phenomenon tied to a simple mismatch: **generation buildout has raced ahead of transmission and market access**.
+## Analytical Links
 
-## Monsoon surpluses meet hard export and internal bottlenecks
+Stranded energy is the physical mirror of
+[[seasonal-arbitrage-trap]]: surplus energy without priced scarcity,
+dispatchable demand or firm export paths does not necessarily become
+useful electricity. The institutional counterpart is whether [[nea]] and
+regulators can align incentives so that installed MW stops diverging
+from delivered MWh.
 
-During wet-season peaks, domestic demand is insufficient to swallow RoR-heavy output (see [[seasonal-mismatch]]). Export is the obvious relief valve—but export is not "infinite outlet": it is constrained by **cross-border approval**, **contracted corridors**, and **internal backbone capacity**.
+## Related
 
-The Likhu cascade provides the best-documented internal bottleneck case: [[likhu-2]] (55 MW) generated only 60% of contracted energy in FY 2023/24 because the New Khimti substation's 100 MVA transformer was saturated by 213 MW of cascade capacity — the plant was ready, the grid wasn't. [[likhu-4]] (52.4 MW) was originally designed as a 120 MW export project, completely redesigned and downscaled to domestic-only after a cross-border wheeling dispute with India. After a 200 MVA transformer upgrade in late 2023, Likhu-2 recovered to 91% of contracted energy — proving the assets were never the problem. See [[buildability]] for the full execution-risk context.
-
-Illustrative orders of magnitude from recent public reporting cycles include **~1,400 MW** of surplus conditions against only **~1,141 MW** approved for export, with internal constraints still producing **~700–800 MW** of daily spill/curtailment in severe weeks—even affecting **[[nea]]**’s own plants. Those numbers drift year to year; the structural point is stable: **without absorption, more RoR does not become more “used” electricity**.
-
-## Small IPPs at the knife-edge
-
-Curtailment is socially and financially asymmetric. Large plants negotiate visibility; **small IPPs (<10 MW)** can be ordered to halt by the **Load Dispatch Center** when operators judge stability margins are threatened. For a leveraged rural RoR project, **zero-generation weeks** are not a cash-flow smoothing problem—they are **covenant-breaking** events. That dynamic links stranded energy to **[[buildability]]** in the financial sense: a “cheap” project that cannot run in the season it was built for is expensive.
-
-### Documented curtailment cases
-
-Industry and credit rating reports name specific projects forced into contingency or severely curtailed. No official NEA/NLDC master list has been published; the cases below are sourced from media reporting and rating agency surveillance. [UNVERIFIED: media-sourced; no NEA/NLDC primary confirmation.]
-
-| Project | Capacity (MW) | Curtailment severity | Detail |
-|---|---|---|---|
-| Super Madi | 44 | 70–73% curtailed | NEA buying only 12–15 of 44 MW. Not on any published contingency list — suggests discretionary curtailment. |
-| Nilgiri II | 71 | ~43% curtailed | Only ~40 MW generated out of 71 MW under NEA instructions. |
-| Tallo | 28.1 | ~50% curtailed | Only ~14 MW generated out of 28.1 MW. |
-| Super Dordi | 54 | ~87% curtailed | Cut to 5–7 MW after large industrial loads were disconnected. On published contingency list. |
-| Rahughat | 84 | ~100% curtailed | Operator reports all generation “completely wasted due to NEA’s dispatch restrictions” during off-peak season. |
-| Iwa Khola | 9.9 | ~100% curtailed | “Completely wasted” — zero output taken by NEA during curtailment. |
-| Upper Mardi | 7 | On contingency | Placed on NEA contingency plan, only evacuated via alternate line through 2024 monsoon. Removed from list October 2024. |
-
-In total, industry sources allege tens of projects (>500 MW aggregate) have been ordered off-line or severely limited during surplus periods. These curtailments occur under PPA and Grid Code provisions granting NEA/NLDC authority to restrict generation for “system security” — but with no guaranteed compensation for the curtailed producer. See [[nea-triple-authority]] for the institutional structure that enables uncompensated curtailment and [[ad-penalties]] for the penalty mechanism that may compound the loss.
-
-## Transmission as national economic infrastructure
-
-Geography concentrates stress: the corridor **west of Butwal** has relied heavily on **legacy 132 kV** lines in narratives of congestion, while multilateral packages (for example **ADB**-backed reinforcement on the order of **~$311M**) illustrate the capital scale of partial fixes. Export-ambition scenarios citing **~10,000 MW** of export capacity imply transmission and converter investment on the order of **~$5–8B**—numbers that land around **~12–19% of GDP** in some macro framings—i.e., not a sector line item but a **state-building** commitment.
-
-## Analytical links
-
-Stranded energy is the physical mirror of [[seasonal-arbitrage-trap]]: surplus energy without **priced scarcity**, **dispatchable demand**, or **firm export paths** does not become welfare—it becomes **spill**. The institutional counterpart is whether [[nea]] and regulators can align incentives so that “installed MW” stops diverging from **delivered MWh**.
+- [[seasonal-mismatch]]
+- [[intervention-transmission-completion]]
+- [[data-domestic-demand]]
+- [[likhu-2]]
+- [[unresolved-questions]]

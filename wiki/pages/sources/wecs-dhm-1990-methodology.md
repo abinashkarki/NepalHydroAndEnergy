@@ -31,7 +31,3 @@ page_quality: analysis
 - **Simplistic regression:** Instantaneous flood flows use regression equations based solely on catchment area below 3,000 m elevation, which may not capture complex Himalayan terrain.
 - **Proprietary dependence:** Data processing and gap-filling historically rely on HYMOS (version 4), a proprietary software system that limits transparency and reproducibility.
 - **Partial update:** DHM issued a 2016 update, but the 1990 methodology remains the regulatory default; newer hydrological insights are not systematically integrated.
-
-## Used By
-
-*No pages currently reference this source.*

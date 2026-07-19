@@ -62,12 +62,6 @@ Sahas Urja Limited is the critical **positive benchmark** in Nepal's private IPP
 - **Financial snapshot.** Data reflects FY 2080/81 performance; does not capture subsequent operational or financial developments, deleveraging progress, or PPA rate adjustments.
 - **Promoter profile from public sources only.** Promoter relationships and institutional connections are inferred from publicly available corporate disclosures and IPPAN listings, not from direct interviews.
 
-## Used By
-
-- [[lower-solu]]
-- [[himalayan-capital-analysis]]
-- [[icra-nepal-surveillance-a996-b119]]
-
 ## See Also
 
 - [[ppa-data-retrieval-icra-care-2026]]
