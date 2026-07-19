@@ -56,10 +56,6 @@ respected secondary sources; this page records both.
 - **Self-reported data:** Cost, schedule, and social impact figures are drawn from secondary compilations of NEA/AIIB materials, not independent audit.
 - **Pre-financing status:** The AIIB sovereign funding is proposed, not committed; financing is not closed.
 
-## Used By
-
-- [[dudhkoshi-storage]]
-
 ## See also
 
 - [[dudhkoshi-storage]]

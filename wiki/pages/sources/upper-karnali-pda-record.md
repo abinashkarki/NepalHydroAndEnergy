@@ -71,10 +71,6 @@ building; Upper Karnali has been paperwork since 2008.
 - **Financial commitments are announced, not disbursed.** The INR 65 billion IREDA and NPR 20 billion Nepali bank commitments are investment proposals, not disbursed funds. Financial closure has been announced before without follow-through.
 - **Bangladesh PPA gap unaddressed.** The source documents the history of Bangladesh PPA discussions without resolving whether the transmission corridor and tripartite agreements can actually deliver the promised 500/300/200 MW.
 
-## Used By
-
-- [[upper-karnali]]
-
 ## See also
 
 - [[upper-karnali]]

@@ -281,6 +281,7 @@ def status_human(status: str | None) -> str:
     m = {
         "operating": "Operating",
         "under-construction": "Under construction",
+        "licensed": "Generation licence",
         "survey": "Survey / study",
         "pre-construction": "Pre-construction",
         "stalled": "Stalled",
@@ -297,8 +298,10 @@ def status_normalized(raw: str | None) -> str | None:
     s = raw.lower().strip()
     if s in {"operating", "operational", "operation", "commissioned", "generating"}:
         return "operating"
-    if s in {"under-construction", "under construction", "construction", "generation"}:
+    if s in {"under-construction", "under construction", "construction"}:
         return "under-construction"
+    if s in {"generation", "generation licence", "generation license", "licensed"}:
+        return "licensed"
     if s in {"survey", "survey licence", "feasibility"}:
         return "survey"
     if s in {"pre-construction", "pre construction"}:
@@ -322,7 +325,7 @@ def build_tags(layers_in: set[str], props: dict, basin: str | None, csv_status: 
     if not norm:
         lt = (props.get("license_type") or "").lower()
         if lt == "operation":   norm = "operating"
-        elif lt == "generation":norm = "under-construction"
+        elif lt == "generation":norm = "licensed"
         elif lt == "survey":    norm = "survey"
     if norm:
         tags.append(norm)
@@ -585,7 +588,7 @@ def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] 
     if not norm_status:
         lt = (p.get("license_type") or "").lower()
         if lt == "operation": norm_status = "operating"
-        elif lt == "generation": norm_status = "under-construction"
+        elif lt == "generation": norm_status = "licensed"
         elif lt == "survey": norm_status = "survey"
     if norm_status == "operating":
         see_also.append("run-of-river-hydropower")
@@ -645,8 +648,9 @@ def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] 
         "## Notes",
         "",
         "> [!note] This is a registry-backed project record. Capacity, location,",
-        "> and status come from the Ministry of Energy registry",
-        "> mirrored in the map data. Narrative context and images are added",
+        "> and regulatory stage come from the Ministry of Energy registry.",
+        "> A generation licence does not by itself establish construction progress.",
+        "> Registry data are mirrored in the map data. Narrative context and images are added",
         "> where public sources are strong enough; the specification table is",
         "> maintained from the registry.",
         "",

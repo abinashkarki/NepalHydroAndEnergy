@@ -1,0 +1,64 @@
+official_project,official_capacity_mw,official_regulatory_category,official_river,official_record_number,official_source_url,suggested_local_project,suggested_local_capacity_mw,suggested_local_license_type,name_similarity,river_similarity,capacity_similarity,coordinate_distance_km,coordinate_similarity,combined_similarity,review_decision
+Upper Arun HEP,1063.36,generation_license,Arun,506,https://doed.gov.np/pages/clhydromorethan1,Upper Barunkhola HEP,55.0,Survey,0.769,0.889,0.052,11.556,0.769,0.685,rejected_distinct_project
+Tila-1 Hydropower Project,440.0,generation_license,Tila,236,https://doed.gov.np/pages/clhydromorethan1,Phukot Karnali,426.0,Survey,0.2,0.182,0.968,12.891,0.742,0.42,rejected_distinct_project
+Tila-2 Hydropower Project,420.0,generation_license,Tila,237,https://doed.gov.np/pages/clhydromorethan1,Phukot Karnali,426.0,Survey,0.2,0.182,0.986,17.496,0.65,0.404,rejected_distinct_project
+Bajhang Upper Seti HEP,216.0,generation_license,Seti (Far West),437,https://doed.gov.np/pages/clhydromorethan1,Chainpur Seti,210.0,Survey,0.645,0.522,0.972,13.409,0.732,0.687,rejected_distinct_project
+Lower Manang Marsyangdi,139.2,generation_license,Marsyangdi,242,https://doed.gov.np/pages/clhydromorethan1,Marshyangdi-7 Hydropower Project,54.0,Survey,0.556,1.0,0.388,14.038,0.719,0.652,rejected_distinct_project
+Upper Marsyangdi 1,138.0,generation_license,Marsyangdi,247,https://doed.gov.np/pages/clhydromorethan1,Upper Marsyangdi A,50.0,Operation,0.944,1.0,0.362,5.395,0.892,0.858,rejected_distinct_project
+Manang Marsyangdi,135.0,generation_license,Marsyangdi,243,https://doed.gov.np/pages/clhydromorethan1,Marshyangdi-7 Hydropower Project,54.0,Survey,0.667,1.0,0.4,8.318,0.834,0.727,rejected_distinct_project
+Budhi Gandaki Ka,130.0,generation_license,Budhi Gandaki,426,https://doed.gov.np/pages/clhydromorethan1,Budhi Gandaki Kha HEP,260.0,Survey,0.97,0.96,0.5,8.945,0.821,0.868,rejected_distinct_project
+Marsyangdi River PRoR Hydropower Project,90.0,generation_license,Marsyangdi,509,https://doed.gov.np/pages/clhydromorethan1,Marsyangdi,69.0,Operation,0.645,1.0,0.767,13.834,0.723,0.75,unreviewed_no_auto_accept
+Chameliya (Chhetigad),85.0,generation_license,Chameliya Khola,248,https://doed.gov.np/pages/clhydromorethan1,Chameliya Khola,30.0,Operation,0.706,1.0,0.353,18.743,0.625,0.696,rejected_distinct_project
+Dudhkoshi-2 (Jaleswar) HPP,70.0,generation_license,Dudhkoshi,316,https://doed.gov.np/pages/clhydromorethan1,Dudhkoshi-6 HEP,83.0,Survey,0.645,0.947,0.843,29.241,0.415,0.689,rejected_distinct_project
+Lower Apsuwa HEP,54.0,generation_license,Apsuwa,447,https://doed.gov.np/pages/clhydromorethan1,Upper Apsuwa HEP,24.6,Survey,0.75,1.0,0.456,5.224,0.896,0.785,rejected_distinct_project
+Bakan Khola HEP,44.0,generation_license,Bakan,468,https://doed.gov.np/pages/clhydromorethan1,Upper Barunkhola HEP,55.0,Survey,0.593,0.6,0.8,20.948,0.581,0.623,rejected_distinct_project
+Chilun Khola HEP,43.2,generation_license,Chhilung,436,https://doed.gov.np/pages/clhydromorethan1,Chujung Khola HEP,48.0,Survey,0.8,0.667,0.9,267.414,0.0,0.628,rejected_distinct_project
+Sankhuwa Khola HEP,41.061,generation_license,Sankhuwa,463,https://doed.gov.np/pages/clhydromorethan1,Upper Sankhuwa Khola HEP,24.0,Survey,0.824,1.0,0.584,12.031,0.759,0.81,rejected_distinct_project
+Isuwa Khola PRoR Cascade HEP,40.1,generation_license,Isuwa Khola,356,https://doed.gov.np/pages/clhydromorethan1,Lower Isuwa Khola HPP,37.7,Survey,0.537,1.0,0.94,0.494,0.99,0.781,unreviewed_no_auto_accept
+Yaru Khola HEP,30.59,generation_license,Yaru,435,https://doed.gov.np/pages/clhydromorethan1,Syar Khola HPP,59.5,Survey,0.9,0.75,0.514,18.66,0.627,0.757,rejected_distinct_project
+Likhu Khola HPP,30.0,generation_license,Likhu Khola,263,https://doed.gov.np/pages/clhydromorethan1,Likhu Khola 'A',51.0,Generation,0.917,1.0,0.588,6.148,0.877,0.876,unreviewed_no_auto_accept
+Myardi Khola,30.0,generation_license,Myardi Khola,514,https://doed.gov.np/pages/clhydromorethan1,Nyadi Khola,30.0,Generation,0.87,0.471,1.0,15.576,0.688,0.773,rejected_distinct_project
+Super Aankhu Khola Hydropower Project,25.4,generation_license,Ankhu Khola,239,https://doed.gov.np/pages/clhydromorethan1,Upper Ankhu Khola,35.0,Survey,0.914,1.0,0.726,5.55,0.889,0.898,rejected_distinct_project
+Induwa Khola PRoR HEP,24.921,generation_license,Induwa,496,https://doed.gov.np/pages/clhydromorethan1,Ikhuwa Khola HEP,30.0,Survey,0.69,0.667,0.831,8.259,0.835,0.735,rejected_distinct_project
+Bajra Madi Hydropower Project,24.8,generation_license,Madi Khola,257,https://doed.gov.np/pages/clhydromorethan1,Upper Madi,25.0,Operation,0.6,1.0,0.992,5.198,0.896,0.798,rejected_distinct_project
+Nyadi-Phidi HPP,21.4,generation_license,"Nyadi,Phidi",252,https://doed.gov.np/pages/clhydromorethan1,Nyadi Khola,30.0,Generation,0.636,0.625,0.713,11.682,0.766,0.672,rejected_distinct_project
+Supreme Middle Seti HEP,18.0,generation_license,Seti Khola (Gandaki),513,https://doed.gov.np/pages/clhydromorethan1,Upper Seti-1 HEP,13.0,Survey,0.516,0.714,0.722,19.2,0.616,0.607,rejected_distinct_project
+Chhahare Khola,17.5,generation_license,Chhahare,66,https://doed.gov.np/pages/clhydromorethan1,Dana Khola Hydropower Project,19.0,Survey,0.667,0.222,0.921,9.888,0.802,0.643,rejected_distinct_project
+Middle Trishuli Ganga nadi,15.625,generation_license,Trishuli,379,https://doed.gov.np/pages/clhydromorethan1,Trishuli,24.0,Operation,0.471,1.0,0.651,4.011,0.92,0.693,rejected_distinct_project
+Sisuwa Khola HEP,13.5,generation_license,"Sisuwa, Hinuwa",432,https://doed.gov.np/pages/clhydromorethan1,Irkhuwa Khola-B HPP,15.524,Generation,0.741,0.538,0.87,7.908,0.842,0.74,rejected_distinct_project
+Daraudi Nadi HEP,9.84,generation_license,Daraudi,456,https://doed.gov.np/pages/clhydromorethan1,Daraundi-1,10.0,Generation,0.727,0.933,0.984,18.716,0.626,0.787,unreviewed_no_auto_accept
+Luja Khola Cascade Hydropower Project,9.8,generation_license,Luja Khola,517,https://doed.gov.np/pages/clhydromorethan1,Luja Khola HPP,24.8,Survey,0.714,1.0,0.395,1.98,0.96,0.773,unreviewed_no_auto_accept
+Tirija Khola HEP,9.71,generation_license,Tirija,484,https://doed.gov.np/pages/clhydromorethan1,Mudi Khola Hydropower Project,14.7,Survey,0.636,0.25,0.661,3.717,0.926,0.621,rejected_distinct_project
+Siwakhola HEP,9.3,generation_license,Siwa Khola,392,https://doed.gov.np/pages/clhydromorethan1,Upper Siwa Khola HPP,8.18,Survey,0.72,1.0,0.88,3.179,0.936,0.843,unreviewed_no_auto_accept
+Middle Likhu Small HEP,8.6,generation_license,Likhu Khola,498,https://doed.gov.np/pages/clhydromorethan1,Lower Likhu,28.1,Generation,0.552,1.0,0.306,16.821,0.664,0.627,rejected_distinct_project
+Garchyang Khola,6.6,generation_license,Garchyang,245,https://doed.gov.np/pages/clhydromorethan1,Nyache Khola Hydropower Project,8.76,Survey,0.667,0.381,0.753,1.843,0.963,0.682,rejected_distinct_project
+Tallo Likhu Cascade Hydropower Project,6.0,generation_license,Likhu Khola,490,https://doed.gov.np/pages/clhydromorethan1,Lower Likhu,28.1,Generation,0.533,1.0,0.214,3.113,0.938,0.66,unreviewed_no_auto_accept
+Super Irkhuwa Khola HEP,5.0,generation_license,Irkhuwa Khola,504,https://doed.gov.np/pages/clhydromorethan1,Upper Chirkuwa Khola,4.7,Generation,0.872,0.636,0.94,14.809,0.704,0.801,unreviewed_no_auto_accept
+Upper Piluwa Hills Small HP Project,4.99,generation_license,"Piluwa, Tupuwa & Chhange Khola",249,https://doed.gov.np/pages/clhydromorethan1,Upper Piluwa Khola-2 SHP,4.72,Generation,0.727,0.558,0.946,5.452,0.891,0.759,unreviewed_no_auto_accept
+Lapa Khola Hydropower Project,4.72,generation_license,Lapa Khola,486,https://doed.gov.np/pages/clhydromorethan1,Mailung Khola,5.0,Operation,0.609,0.609,0.944,18.785,0.624,0.662,rejected_distinct_project
+Tallo Indrawati HEP,4.5,generation_license,Indrawati,401,https://doed.gov.np/pages/clhydromorethan1,Indrawati -III,7.5,Operation,0.643,0.75,0.6,2.846,0.943,0.718,rejected_distinct_project
+Syarpu HEP,3.3,generation_license,Dharne,385,https://doed.gov.np/pages/clhydromorethan1,Bijayapur-1,4.5,Operation,0.471,0.267,0.733,160.775,0.0,0.375,rejected_distinct_project
+Thaligad Small HPP,2.0,generation_license,Thaligad,451,https://doed.gov.np/pages/clhydromorethan1,Thuligad Khola Small HEP,9.0,Survey,0.765,0.824,0.222,96.796,0.0,0.542,rejected_distinct_project
+Chepe Khola Cascade Hydropower Project,2.0,generation_license,Chepe Khola,462,https://doed.gov.np/pages/clhydromorethan1,Chepe Khola Small Hydropower Project,8.63,Survey,0.722,1.0,0.232,2.082,0.958,0.751,unreviewed_no_auto_accept
+Jadari Gad,1.0,generation_license,Jadari Gad,,https://doed.gov.np/pages/clhydrolessthan1,Jeuli Gad,0.996,Generation,0.632,0.4,0.996,11.655,0.767,0.667,unreviewed_no_auto_accept
+Gandigad SHP,1.0,generation_license,Gandi Gad,,https://doed.gov.np/pages/clhydrolessthan1,Sanigad,10.7,Generation,0.8,0.824,0.093,14.473,0.711,0.681,unreviewed_no_auto_accept
+Hadi Khola (Sunkoshi) A HPP,0.997,generation_license,Hadi Khola,,https://doed.gov.np/pages/clhydrolessthan1,Khani Khola Small HPP,0.979,Survey,0.632,0.857,0.982,22.986,0.54,0.711,unreviewed_no_auto_accept
+Tauthali Khola,0.95,generation_license,Tauthali,,https://doed.gov.np/pages/clhydrolessthan1,Suspa Bukhari Khola,0.998,Operation,0.667,0.37,0.952,16.966,0.661,0.649,unreviewed_no_auto_accept
+Salubyani Gad SHP,0.233,generation_license,Salubyan,,https://doed.gov.np/pages/clhydrolessthan1,Dhauligad Sunakhani Bagar SHP,0.99,Survey,0.421,0.353,0.235,1.439,0.971,0.49,unreviewed_no_auto_accept
+Giri khola,0.214,generation_license,Gidi,,https://doed.gov.np/pages/clhydrolessthan1,Gidi Khola HEP,9.0,Survey,0.9,1.0,0.024,3.715,0.926,0.794,unreviewed_no_auto_accept
+Nilgiri Khola-II cascade Project,71.0,operating_record,Nilgiri,241,https://doed.gov.np/pages/powerplantsmorethan1,Nilgiri Khola,38.0,Generation,0.703,1.0,0.535,3.438,0.931,0.783,unreviewed_no_auto_accept
+Upper Rahughat,48.5,operating_record,Rahughat,253,https://doed.gov.np/pages/powerplantsmorethan1,Rahughat,40.0,Generation,0.727,1.0,0.825,6.553,0.869,0.825,unreviewed_no_auto_accept
+Mathillo Thulo Khola A HEP,22.5,operating_record,Thulo Khola,371,https://doed.gov.np/pages/powerplantsmorethan1,Thulo Khola Hydropower Project,21.3,Survey,0.667,1.0,0.947,3.271,0.935,0.829,unreviewed_no_auto_accept
+Lower Modi -1,10.0,operating_record,Modi Khola,29,https://doed.gov.np/pages/powerplantsmorethan1,Lower Modi-II Cascade HPP,10.5,Generation,0.667,1.0,0.952,2.856,0.943,0.831,unreviewed_no_auto_accept
+Upper Ingwa Khola,9.7,operating_record,Ingwa Khola,329,https://doed.gov.np/pages/powerplantsmorethan1,Iwa Khola,9.9,Generation,0.692,0.9,0.98,5.264,0.895,0.817,unreviewed_no_auto_accept
+Super Hewa HPP,6.0,operating_record,Hewa (Sankhuwasabha),254,https://doed.gov.np/pages/powerplantsmorethan1,Upper Hewa HPP,8.5,Generation,0.9,0.571,0.706,3.819,0.924,0.81,unreviewed_no_auto_accept
+Upper Phawa HPP,5.8,operating_record,Phawa Khola,238,https://doed.gov.np/pages/powerplantsmorethan1,Phawa khola Hydropower Project,5.0,Operation,0.455,1.0,0.862,4.574,0.909,0.716,unreviewed_no_auto_accept
+Puwa II hydropower Project,4.96,operating_record,Puwa,240,https://doed.gov.np/pages/powerplantsmorethan1,Puwa,6.2,Operation,0.727,1.0,0.8,8.727,0.825,0.812,unreviewed_no_auto_accept
+Upper Lohore SHP,4.0,operating_record,Lohare Khola,246,https://doed.gov.np/pages/powerplantsmorethan1,Lohare Khola,4.2,Generation,0.417,0.917,0.952,4.306,0.914,0.696,unreviewed_no_auto_accept
+Pati Khola,0.996,operating_record,Pati,,https://doed.gov.np/pages/powerplantslessthan1,Saiti Khola Small,0.999,Generation,0.667,0.667,0.997,,0.0,0.583,unreviewed_no_auto_accept
+Miya Khola,0.996,operating_record,Miya,,https://doed.gov.np/pages/powerplantslessthan1,Ribal Khola SHP,0.998,Survey,0.762,0.444,0.998,156.51,0.0,0.581,unreviewed_no_auto_accept
+Upper Hadi Khola,0.99,operating_record,Hadi,,https://doed.gov.np/pages/powerplantslessthan1,Upper Jumdi Khola,0.995,Generation,0.848,0.444,0.995,,0.0,0.62,unreviewed_no_auto_accept
+Belkhu Khola,0.518,operating_record,Belkhu Khola,,https://doed.gov.np/pages/powerplantslessthan1,Elun Khola,0.485,Survey,0.818,0.818,0.936,,0.0,0.672,unreviewed_no_auto_accept
+Rairang,0.5,operating_record,Rairang,,https://doed.gov.np/pages/powerplantslessthan1,Khadigad Khola,0.5,Survey,0.286,0.4,1.0,,0.0,0.359,unreviewed_no_auto_accept
+Sali Nadi,0.232,operating_record,Sali Nadi,,https://doed.gov.np/pages/powerplantslessthan1,Sanigad,10.7,Generation,0.625,0.706,0.022,,0.0,0.426,unreviewed_no_auto_accept
+Syange Khola,0.183,operating_record,Syange,,https://doed.gov.np/pages/powerplantslessthan1,Upper Syange Khola SHP,2.4,Generation,0.8,1.0,0.076,,0.0,0.571,unreviewed_no_auto_accept

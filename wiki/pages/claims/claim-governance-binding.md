@@ -2,13 +2,19 @@
 title: Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives
 type: claim
 created: 2026-04-14
-updated: 2026-05-21
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 claim_id: C-029
-confidence: high
+confidence: medium-high
 status: stable
 sources: [wb-nepal-power-sector-reform-2022, national-water-plan-nepal, adb-hydropower-growth-nepal]
 tags: [governance, permitting, nea, institutions]
+excerpt: Project histories and institutional sources support governance as a major channel of delay, cost and misaligned incentives, but not as the single binding constraint in every project or period.
 page_quality: analysis
+maturity: working-page
+caveat: Governance effects overlap with engineering, finance, market, environmental and social constraints; the available corpus does not isolate a national causal share.
 ---
 
 ## Claim
@@ -26,7 +32,7 @@ page_quality: analysis
 
 ## Confidence rationale
 
-**High** because the causal channel (institutions → schedule/cost/finance) is repeatedly observed in project histories and is consistent with standard political-economy of infrastructure literature; exact reform sequencing is contested, not the existence of the bottleneck.
+**Medium-high.** The institutional channel is repeatedly visible in reform records and project histories, but the corpus does not contain a standardized event database capable of isolating governance from engineering, finance, market, environmental and social causes across the full project portfolio.
 
 ## Unresolved issues
 

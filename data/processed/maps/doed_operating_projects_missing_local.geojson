@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection",
+  "name": "DoED operating projects missing from legacy local registry",
+  "metadata": {
+    "scope": "Official DoED operating records unmatched to the legacy Naxa/local registry.",
+    "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location.",
+    "separation": "This is an official-additions layer and must not be merged into the Naxa-derived registry without identity review."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.691667,
+          28.5575
+        ]
+      },
+      "properties": {
+        "project": "Nilgiri Khola-II cascade Project",
+        "capacity_mw": "71.0",
+        "river": "Nilgiri",
+        "record_number": "241",
+        "record_id": "800ef477892983f09210",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "28o 32' 17\"",
+        "latitude_2_dms": "28o 34' 37\"",
+        "longitude_1_dms": "83o 40' 00\"",
+        "longitude_2_dms": "83o 43' 00\"",
+        "reference_latitude": 28.5575,
+        "reference_longitude": 83.691667,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Nilgiri Khola-II cascade Project — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.515278,
+          28.452222
+        ]
+      },
+      "properties": {
+        "project": "Upper Rahughat",
+        "capacity_mw": "48.5",
+        "river": "Rahughat",
+        "record_number": "253",
+        "record_id": "ed36eea054b7c6013ecd",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "28o 25' 46\"",
+        "latitude_2_dms": "28o 28' 30\"",
+        "longitude_1_dms": "83o 30' 00\"",
+        "longitude_2_dms": "83o 31' 50\"",
+        "reference_latitude": 28.452222,
+        "reference_longitude": 83.515278,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Upper Rahughat — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.531944,
+          28.591389
+        ]
+      },
+      "properties": {
+        "project": "Mathillo Thulo Khola A HEP",
+        "capacity_mw": "22.5",
+        "river": "Thulo Khola",
+        "record_number": "371",
+        "record_id": "8799ffbe24e9c7078643",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "28o 34' 56\"",
+        "latitude_2_dms": "28o 36' 02\"",
+        "longitude_1_dms": "83o 31' 10\"",
+        "longitude_2_dms": "83o 32' 40\"",
+        "reference_latitude": 28.591389,
+        "reference_longitude": 83.531944,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Mathillo Thulo Khola A HEP — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.709028,
+          28.228056
+        ]
+      },
+      "properties": {
+        "project": "Lower Modi -1",
+        "capacity_mw": "10.0",
+        "river": "Modi Khola",
+        "record_number": "29",
+        "record_id": "3d53d98a849347db17c4",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "28o 13' 15\"",
+        "latitude_2_dms": "28o 14' 07\"",
+        "longitude_1_dms": "83o 42' 05\"",
+        "longitude_2_dms": "83o 43' 00\"",
+        "reference_latitude": 28.228056,
+        "reference_longitude": 83.709028,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Lower Modi -1 — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.903194,
+          27.283472
+        ]
+      },
+      "properties": {
+        "project": "Upper Ingwa Khola",
+        "capacity_mw": "9.7",
+        "river": "Ingwa Khola",
+        "record_number": "329",
+        "record_id": "afa4adf5e3cb00ce460c",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "27o 16' 41\"",
+        "latitude_2_dms": "27o 17' 20\"",
+        "longitude_1_dms": "87o 53' 03\"",
+        "longitude_2_dms": "87o 55' 20\"",
+        "reference_latitude": 27.283472,
+        "reference_longitude": 87.903194,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Upper Ingwa Khola — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.389861,
+          27.359722
+        ]
+      },
+      "properties": {
+        "project": "Super Hewa HPP",
+        "capacity_mw": "6.0",
+        "river": "Hewa (Sankhuwasabha)",
+        "record_number": "254",
+        "record_id": "bcb165074c91242498a2",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "27o 20' 55\"",
+        "latitude_2_dms": "27o 22' 15\"",
+        "longitude_1_dms": "87o 22' 25\"",
+        "longitude_2_dms": "87o 24' 22\"",
+        "reference_latitude": 27.359722,
+        "reference_longitude": 87.389861,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Super Hewa HPP — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.785694,
+          27.334167
+        ]
+      },
+      "properties": {
+        "project": "Upper Phawa HPP",
+        "capacity_mw": "5.8",
+        "river": "Phawa Khola",
+        "record_number": "238",
+        "record_id": "94e9229335db1e617732",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "27o 19' 04\"",
+        "latitude_2_dms": "27o 21' 02\"",
+        "longitude_1_dms": "87o 46' 05\"",
+        "longitude_2_dms": "87o 48' 12\"",
+        "reference_latitude": 27.334167,
+        "reference_longitude": 87.785694,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Upper Phawa HPP — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.903194,
+          26.971944
+        ]
+      },
+      "properties": {
+        "project": "Puwa II hydropower Project",
+        "capacity_mw": "4.96",
+        "river": "Puwa",
+        "record_number": "240",
+        "record_id": "3902e8ce494d16aff88e",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "26o 57' 14\"",
+        "latitude_2_dms": "26o 59' 24\"",
+        "longitude_1_dms": "87o 53' 49\"",
+        "longitude_2_dms": "87o 54' 34\"",
+        "reference_latitude": 26.971944,
+        "reference_longitude": 87.903194,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Puwa II hydropower Project — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.807361,
+          28.944722
+        ]
+      },
+      "properties": {
+        "project": "Upper Lohore SHP",
+        "capacity_mw": "4.0",
+        "river": "Lohare Khola",
+        "record_number": "246",
+        "record_id": "f55a024995e31355dd2f",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "28o 56' 01\"",
+        "latitude_2_dms": "28o 57' 21\"",
+        "longitude_1_dms": "81o 48' 13\"",
+        "longitude_2_dms": "81o 48' 40\"",
+        "reference_latitude": 28.944722,
+        "reference_longitude": 81.807361,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Upper Lohore SHP — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.826806,
+          27.1825
+        ]
+      },
+      "properties": {
+        "project": "Miya Khola",
+        "capacity_mw": "0.996",
+        "river": "Miya",
+        "record_number": "",
+        "record_id": "9c0dd47b37e3353f2428",
+        "source_url": "https://doed.gov.np/pages/powerplantslessthan1",
+        "source_updated_on": "2026-07-02",
+        "latitude_1_dms": "27o 10' 24\"",
+        "latitude_2_dms": "27o 11' 30\"",
+        "longitude_1_dms": "86o 49' 22\"",
+        "longitude_2_dms": "86o 49' 51\"",
+        "reference_latitude": 27.1825,
+        "reference_longitude": 86.826806,
+        "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location",
+        "local_registry_relation": "official operating record unmatched to legacy Naxa/local registry",
+        "label_title": "Miya Khola — reference midpoint, not a facility location",
+        "location_basis": "DoED licence-envelope reference midpoint; not a facility location",
+        "dataset_role": "official DoED addition; separate from legacy Naxa registry",
+        "regulatory_category": "operating_record",
+        "delivery_status": "operating",
+        "source_authority": "Department of Electricity Development (DoED), Nepal"
+      }
+    }
+  ]
+}

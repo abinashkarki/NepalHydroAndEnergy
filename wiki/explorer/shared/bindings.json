@@ -1195,7 +1195,7 @@
         "priority_watchlist",
         "transmission_traced_network"
       ],
-      "narrative": "Monsoon 2025 spilled 700–800 MW daily — energy that exists but cannot be moved or sold."
+        "narrative": "Public evidence establishes transmission, market-access and dispatch constraints, but does not provide the plant-level series needed to calculate a current national curtailment total."
     },
     "seasonal-mismatch": {
       "type": "concept",

@@ -1,78 +1,59 @@
 ---
-title: Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck
+title: Transmission and Delivery Are Material Immediate Monetization Constraints
 type: claim
+category: claims
 created: 2026-04-14
-updated: 2026-05-21
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 claim_id: C-019
 confidence: medium-high
-status: verified-with-caveats
-sources: [nea-annual-report-fy2024-25, wb-nepal-power-sector-reform-2022, india-cbte-2018]
+status: verified-with-material-data-gap
+sources: [nea-annual-report-fy2024-25, nea-hddi-construction-notices-july-2026, india-cbte-2018, nea-operational-reporting-portals-2026]
 tags: [transmission, grid, curtailment, trade, monetization]
-page_quality: analysis
+excerpt: Transmission, substations, market access and scheduling can prevent available electricity from reaching a paying load, but public data do not support a national curtailment total or prove transmission is always the single largest constraint.
+page_quality: flagship
+maturity: verified-core
+caveat: Public plant-level availability, dispatch-event and curtailment records are not available, so the scale and cause of constrained generation cannot be quantified nationally.
 ---
+
+# Transmission and Delivery Are Material Immediate Monetization Constraints
 
 ## Claim
 
-**Transmission and delivery readiness** may be the **#1 immediate monetization bottleneck**—turning available energy into **paid**, **moved**, **non-curtailed** deliveries—even if **seasonal storage** remains the deeper **physical** bottleneck for firm domestic and strategic export shape.
+**Transmission and delivery readiness are material immediate constraints on monetizing available electricity.** The evidence does not yet rank transmission conclusively against domestic demand, market access and dispatch constraints in every season.
 
 ## Evidence
 
-- **Monsoon 2025 spill/curtailment narrative (synthesis):** Headline band **700–800 MW** "spilled daily" during surplus periods—signals a **grid/trade absorption** constraint in wet season even when hydrology is abundant.
-- **Cross-border capacity framing:** The wiki now separates **~1,141 MW** of broader approved cross-border transfer capacity from only **941 MW** of project-specific export approval into India; both still lag generation expansion stories, and both show that export is not just policy willingness but **corridor hardware**, **market approval**, and **scheduling**.
-- **Grid architecture west of Butwal:** Described as legacy **132 kV** constraints in synthesis—bottlenecking westward evacuation and market access patterns that determine realized prices.
-- **Narrative review:** Claims generation is built **5–10× faster than grid** in Nepal's recent development pacing—an institutional/execution asymmetry that shows up as curtailment and stranded energy.
-- **Research synthesis:** Even with continued capacity additions, Nepal lacks **grid and trade architecture commensurate** with the largest hydro ambitions.
+- The [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] records continued reinforcement of strategic transmission lines, substations and distribution networks while installed generation reached 3,591 MW. This establishes that network expansion remains an active system requirement.
+- The eastern Dhalkebar–Inaruwa section of the [[hetauda-dhalkebar-inaruwa-backbone]] has operated since June 2024, while official NEA outage notices document conductor-stringing work on the Hetauda–Dhalkebar section in early July 2026. The notices do not establish completion or energisation of the western section. See [[nea-hddi-construction-notices-july-2026]].
+- Cross-border delivery depends on corridor hardware, project-level approvals and scheduling rules. [[india-cbte-2018]] and [[india-energy-relationship]] document that these are separate constraints rather than a single export-capacity number.
+- [[stranded-generation]] and [[nea-operational-reporting-portals-2026]] show the central measurement gap: annual generation, capacity and trade totals cannot be converted into a national curtailment estimate without plant-level availability, accepted energy, dispatch events and reason codes.
 
-### Updated corridor status (as of early 2026)
+## Confidence Rationale
 
-| Corridor | Spec | Status | Notes |
-|----------|------|--------|-------|
-| Dhalkebar–Inaruwa | 400 kV, 154 km | **Operational** (Jun 2024) | Eastern backbone complete |
-| Dhalkebar–Bara | 400 kV, 100 km | **Completed** (Mar 2025) | Operating at 132 kV via tapping; carries ~200 MW, upgradeable to 400 MW |
-| Hetauda–Dhalkebar | 400 kV, 134 km | **Delayed** | 18 of 20 towers in Hetauda-Hatiya area blocked by local resistance |
-| New Butwal–Bardaghat | 220 kV, 21.5 km | **Operational** (Dec 2024) | ADB-funded; creates 220 kV backbone from Butwal to Hetauda (~1,200 MW capacity) |
-| Marsyangdi Corridor (Udipur–Markichoke–Bharatpur) | 220 kV, 68 km | **65% complete** | Target was May 2025; delayed. 90/116 + 38/83 tower foundations laid |
-| Damauli–Bharatpur | 220 kV, 33 km | **76% complete** (Mar 2026) | Part of Tanahun Hydropower Package 3; tree marking in progress |
-| New Butwal–Gorakhpur | 400 kV cross-border | **Under construction** | 2nd cross-border line to India |
+**Medium-high.** The physical mechanism and the existence of unfinished or constrained delivery infrastructure are well supported. Confidence is not `high` because the public evidence cannot quantify national curtailed energy, attribute all lost production to transmission, or rank transmission against demand and market-access constraints across all periods.
 
-The pattern confirms the claim: **piecemeal progress with persistent local-resistance delays**, meaning the 400 kV east-west backbone remains **incomplete** even as generation exceeds 3,500 MW installed.
+## Unresolved Issues
 
-## Confidence rationale
+- Current commissioning and energisation status of the Hetauda–Dhalkebar section after the early-July 2026 stringing notices.
+- Plant-level available energy, accepted energy, curtailed MWh and reason codes.
+- Load-flow and N-1 studies showing which transmission or substation elements bind under specific dispatch conditions.
+- Separation of domestic network congestion from export approval, scheduling and buyer-absorption limits.
 
-**Medium-high** after corridor verification: the **mechanism** is universally true in power systems (delivery limits monetization), source evidence converges, **and the 2025–2026 corridor status table above confirms** that the 400 kV backbone is still incomplete (Hetauda–Dhalkebar stuck on local resistance, Marsyangdi corridor at 65%). The evidence now supports upgrading toward `high` — the bottleneck is confirmed, specific, and ongoing.
+## Boundary Conditions
 
-## Unresolved issues
-
-- Separate **domestic absorption** vs **export** constraints; they overlap but are not identical.
-- Distinguish **temporary wet-season spill** from **structural** west/east evacuation limits; each implies different remedies.
-- Update after verifying **2025 monsoon** curtailment totals against primary NEA disclosures.
+- This claim does not provide a current national curtailment total.
+- It does not claim that every low-generation outcome is caused by the grid; hydrology, maintenance, forced outage and plant availability can produce the same observation.
+- It does not claim that transmission completion resolves seasonal firmness, storage needs or weak demand.
+- “Material constraint” is not a permanent ranking of transmission as Nepal's single largest bottleneck.
 
 ## Related
 
 - [[stranded-generation]]
-- [[nea]]
+- [[hetauda-dhalkebar-inaruwa-backbone]]
+- [[intervention-transmission-completion]]
+- [[india-energy-relationship]]
 - [[storage-deficit]]
 - [[seasonal-mismatch]]
-
-### Corridor pages
-
-- [[hetauda-dhalkebar-inaruwa-backbone]] — the only operational 400 kV backbone
-- [[mca-central-400]] — the parallel 400 kV under construction
-- [[khimti-dhalkebar-corridor]] — the original 220 kV IPP evacuation line
-- [[hetauda-bharatpur-bardaghat-corridor]] — 220 kV east–west spine
-- [[dana-kushma-butwal-corridor]] — 220 kV west-central evacuation
-
-## Boundary Conditions
-
-- This claim is about **immediate monetization** bottlenecks, not the only system bottleneck. It does not claim transmission alone solves seasonal mismatch or storage deficit.
-- It does not claim all curtailment is transmission-caused; market-absorption limits and scheduling failures also strand energy.
-- It does not claim the 400 kV backbone completion eliminates all west/east evacuation constraints; distribution and substation capacity may remain binding.
-
-### Cross-border pages
-
-- [[dhalkebar-muzaffarpur]] — the only operational 400 kV cross-border
-- [[gorakhpur-butwal-interconnection]] — second 400 kV, under construction
-- [[inaruwa-purnea-interconnection]] — third 400 kV, tied to [[arun-3]]
-- [[kataiya-kushaha-interconnection]] — the historic 132 kV first link
-- [[chameliya-jauljibi-interconnection]] — planned 220 kV far-west
-- [[nepal-transmission-landscape-2025]] — source compilation

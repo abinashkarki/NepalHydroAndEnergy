@@ -54,10 +54,6 @@ current operating hydropower fleet.
 - **Bid landscape fluid:** Only one formal bid (Chowdhury Group) is on record as of January 2025; the competitive landscape may shift.
 - **Schedule aspirational:** The 2030 construction / 2034 COD timeline is a Power Technology projection, not a committed project schedule.
 
-## Used By
-
-- [[mugu-karnali-storage]]
-
 ## See also
 
 - [[mugu-karnali-storage]]

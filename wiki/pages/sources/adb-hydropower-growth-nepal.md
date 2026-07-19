@@ -2,7 +2,7 @@
 title: ADB Hydropower Growth Nepal Study
 type: source
 created: 2026-04-14
-updated: 2026-05-12
+updated: 2026-07-19
 source_type: report
 source_author: Asian Development Bank
 source_date: 2020-01-01
@@ -18,22 +18,18 @@ page_quality: analysis
 
 ADB assessment of Nepal's hydropower development trajectory, covering growth patterns, project pipeline, and development constraints.
 
-## Key Data Points
+## Key Findings
 
 - Documents the IPP-driven expansion model
 - Identifies financing, terrain, and institutional bottlenecks
 - Provides context for [[buildability]] constraints
 
+## Relevance
+
+The wiki currently uses this report as background for [[buildability]]. The public source link above is the provenance authority; this page does not represent a complete extraction of the report.
+
 ## Limitations
 
-- **Thin extraction:** Full report text not yet extracted into the wiki; claims rely on secondary summaries.
-- **2020 cutoff:** Pre-dates post-2020 IPP commissioning surge and recent policy shifts.
-- **Thin source page:** The live ADB PDF is now linked, but this page still captures only the high-level points currently used by the wiki.
-
-## Used By
-
-- [[buildability]]
-
-## Relevance to Project
-
-Background source for engineering and [[buildability]] analysis. Extracted text stored in `hermes/research/wave2/adb_hydropower_growth_nepal.txt`. Provides context for understanding why [[nepal-energy-profile]] grew through IPPs rather than state-led mega-projects.
+- **Partial extraction:** This source page records only the high-level points currently used by the wiki and does not provide page-level extracts for the full report.
+- **2020 cutoff:** The report does not cover subsequent commissioning, financing or policy developments.
+- **Use boundary:** Project-specific or current system claims require more recent primary records rather than inference from this sector-level study.

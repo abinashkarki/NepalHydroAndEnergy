@@ -60,10 +60,6 @@ example of India-developed, India-dispatched hydropower inside Nepal.
 - **Grid absorption unknown:** India-side grid absorption constraints for the exported power are not addressed.
 - **Schedule fluidity:** COD target has already been missed; the September 2026 extension is under review and not assured.
 
-## Used By
-
-- [[arun-3]]
-
 ## See also
 
 - [[arun-3]]

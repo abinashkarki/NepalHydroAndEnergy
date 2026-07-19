@@ -92,13 +92,6 @@ metrics:
       - "~85–150 MCM"
     deprecated_text: []
 
-  seasonal_storage_requirement:
-    source_slug: data-storage-comparison
-    canonical_text:
-      - "29.86 km³"
-      - "~200x shortfall"
-    deprecated_text: []
-
   pror_daily_peaking_window:
     source_slug: data-fleet-composition
     canonical_text:
@@ -117,21 +110,6 @@ metrics:
     canonical_text:
       - "NPR 77.1B"
       - "11.73%"
-    deprecated_text: []
-
-  solar_short_cycle_window:
-    source_slug: solar-role-in-winter-deficit
-    canonical_text:
-      - "2–3 year build cycle"
-      - "2026–2030 window"
-    deprecated_text: []
-
-  solar_2035_pipeline_mwp:
-    source_slug: solar-role-in-winter-deficit
-    canonical_text:
-      - "~1,700 MWp by 2028"
-      - "~3,500 MWp by 2032"
-      - "~5,000 MWp by 2035"
     deprecated_text: []
 
   karnali_climate_seasonal_band:
@@ -202,9 +180,7 @@ claims:
   C-014:
     slug: claim-solar-terai-only-short-cycle-build
     tier: core
-    depends_on:
-      - solar_short_cycle_window
-      - solar_2035_pipeline_mwp
+    depends_on: []
 
   C-017:
     slug: claim-solar-cheaper-than-small-hydro
@@ -215,9 +191,7 @@ claims:
   C-019:
     slug: claim-transmission-immediate-blocker
     tier: core
-    depends_on:
-      - india_project_export_approval
-      - cross_border_transfer_capacity
+    depends_on: []
 
   C-034:
     slug: claim-domestic-led-strategy
@@ -238,7 +212,6 @@ claims:
     slug: claim-storage-physical-fix
     tier: core
     depends_on:
-      - seasonal_storage_requirement
       - dry_season_hydro_floor_current
 
   C-009:

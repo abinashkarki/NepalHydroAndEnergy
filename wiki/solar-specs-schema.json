@@ -4,7 +4,13 @@
   "title": "Solar Project Technical Specifications",
   "description": "Schema for the structured solar_project_specs.csv — the authoritative source for per-project identity, status, capacity, economic, geographic, ownership, and data-quality fields.",
   "type": "object",
-  "required": ["slug", "feature_id"],
+  "required": [
+    "slug", "feature_id", "record_kind", "delivery_status", "status_as_of",
+    "operating_status", "capacity_mw", "capacity_basis",
+    "geography_verification_status", "source_slug", "source_type",
+    "source_date", "verified_on", "evidence_scope", "verification_status",
+    "delivery_verification_note"
+  ],
   "properties": {
     "slug": {
       "type": "string",
@@ -118,6 +124,95 @@
       "type": "string",
       "format": "date",
       "description": "Date when this row's data was last verified or updated."
+    },
+    "record_kind": {
+      "type": "string",
+      "enum": ["operating-registry-record", "procurement-award-record"],
+      "description": "The kind of evidence record, kept separate from delivery status."
+    },
+    "record_scope": {
+      "type": "string",
+      "description": "Scope of the row; award rows may not represent a constructed asset."
+    },
+    "delivery_status": {
+      "type": "string",
+      "enum": ["operating-registry-listed", "award-only-delivery-unknown"],
+      "description": "Delivery classification supported by the cited source."
+    },
+    "regulatory_stage": {
+      "type": "string",
+      "enum": ["operation-registry", "letter-of-intent-award"],
+      "description": "Regulatory or procurement stage directly evidenced by the source."
+    },
+    "status_as_of": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of the source supporting the delivery classification."
+    },
+    "operating_status": {
+      "type": "string",
+      "enum": ["official-registry-listed-operating", "not-established-by-source"],
+      "description": "Whether operation is established by the cited evidence."
+    },
+    "capacity_basis": {
+      "type": "string",
+      "enum": ["source-reported-mw-ac-dc-unspecified"],
+      "description": "AC/DC basis; remains unspecified when the source does not distinguish it."
+    },
+    "expected_generation_basis": {
+      "type": "string",
+      "enum": ["not-published-in-source", "source-reported", "modelled"],
+      "description": "Evidence basis for expected annual generation."
+    },
+    "latitude": {
+      "type": "number",
+      "description": "Display-anchor latitude copied from the deployable GeoJSON."
+    },
+    "longitude": {
+      "type": "number",
+      "description": "Display-anchor longitude copied from the deployable GeoJSON."
+    },
+    "municipality": {
+      "type": "string",
+      "description": "Municipality when established; blank rather than inferred otherwise."
+    },
+    "coordinate_precision": {
+      "type": "string",
+      "description": "Precision classification for the display anchor."
+    },
+    "geography_verification_status": {
+      "type": "string",
+      "enum": ["display-anchor-only", "missing"],
+      "description": "Whether geography is only a display anchor or missing."
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["official-registry", "official-procurement-notice"],
+      "description": "Source class for the record."
+    },
+    "source_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Publication or snapshot date of the source."
+    },
+    "verified_on": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the source-to-row mapping was checked."
+    },
+    "evidence_scope": {
+      "type": "string",
+      "enum": ["operating-registry-listing", "award-event-only"],
+      "description": "What the cited source establishes."
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["primary-registry-checked", "primary-procurement-record-checked"],
+      "description": "Verification class for the row."
+    },
+    "delivery_verification_note": {
+      "type": "string",
+      "description": "Plain-language limit on delivery and performance inferences."
     }
   },
   "additionalProperties": false

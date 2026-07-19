@@ -23,6 +23,7 @@ from shapely.ops import unary_union
 ROOT = Path(os.environ.get("NEPAL_ENERGY_ROOT", Path(__file__).resolve().parent.parent))
 RAW = ROOT / "data" / "raw"
 PROCESSED = ROOT / "data" / "processed" / "maps"
+PROCESSED_TABLES = ROOT / "data" / "processed" / "tables"
 DOCS = ROOT / "docs" / "maps"
 TRACED_SEGMENTS_PATH = PROCESSED / "transmission_corridor_traced_segments.geojson"
 TRACED_NETWORK_PATH = PROCESSED / "transmission_corridor_traced_network.geojson"
@@ -179,7 +180,16 @@ TOP_PROJECT_LIMIT = 10
 
 PRIORITY_PROJECT_GROUP_STYLES = {
     "priority_operating": {"color": "#14532d", "label": "Key operating and under-construction projects"},
-    "radar_survey": {"color": "#9a3412", "label": "Survey-stage proposals"},
+    "radar_survey": {"color": "#9a3412", "label": "Pre-construction and survey proposals"},
+    "stalled_project": {"color": "#991b1b", "label": "Stalled or blocked projects"},
+}
+
+DELIVERY_STATUS_COLORS = {
+    "operating": "#0f766e",
+    "under-construction": "#14532d",
+    "pre-construction": "#9a3412",
+    "survey": "#9a3412",
+    "stalled": "#991b1b",
 }
 
 PRIORITY_PROJECTS = [
@@ -260,18 +270,18 @@ PRIORITY_PROJECTS = [
     {
         "id": "arun3_radar",
         "project_name": "Arun 3",
-        "group": "radar_survey",
+        "group": "priority_operating",
         "label_title": "Arun 3",
-        "label_subtitle": "900 MW · survey stage",
+        "label_subtitle": "900 MW · under construction",
         "priority_read": "National-scale eastern corridor project with major export and transmission implications for the Arun basin.",
         "source_note": "SAPDC resettlement plan and current project registry",
     },
     {
         "id": "upper_karnali_radar",
         "project_name": "Upper Karnali",
-        "group": "radar_survey",
+        "group": "stalled_project",
         "label_title": "Upper Karnali",
-        "label_subtitle": "900 MW · survey stage",
+        "label_subtitle": "900 MW · stalled",
         "priority_read": "Strategically important export-oriented Karnali project with long-running implications for basin use and cross-border power trade.",
         "source_note": "IBN Energy Sector Profile, DoED survey-license extent, and current project registry",
     },
@@ -3003,6 +3013,13 @@ def hydropower_display_points_geojson(projects: list[dict[str, Any]]) -> dict[st
         "total_cost_usd_m", "ppa_rate_wet_npr_kwh", "ppa_rate_dry_npr_kwh",
         "developer", "cod_year",
     ]
+    doed_fields = [
+        "doed_primary_category", "doed_status_display", "doed_delivery_status",
+        "doed_source_updated_on",
+        "legacy_capacity_mw", "legacy_capacity_source",
+        "current_official_capacity_mw", "current_official_capacity_source",
+        "capacity_difference_mw", "capacity_reconciliation", "capacity_mw_basis",
+    ]
     for row in projects:
         props: dict[str, Any] = {
             "project": row["project"],
@@ -3021,7 +3038,7 @@ def hydropower_display_points_geojson(projects: list[dict[str, Any]]) -> dict[st
             "raw_lat": row["raw_lat"],
             "raw_lon": row["raw_lon"],
         }
-        for f in spec_fields:
+        for f in spec_fields + doed_fields:
             v = row.get(f)
             if v is not None and v != "":
                 props[f] = v
@@ -3194,6 +3211,93 @@ def _merge_spec_fields(project_name: str, specs_lookup: dict[str, dict[str, Any]
     return out
 
 
+def _load_doed_status_overlay() -> dict[str, dict[str, Any]]:
+    """Load reviewed official status facts without replacing curated delivery status."""
+    overlay_path = PROCESSED_TABLES / "doed_project_status_overlay.csv"
+    if not overlay_path.exists():
+        return {}
+    field_map = {
+        "match_status": "doed_match_status",
+        "match_confidence": "doed_match_confidence",
+        "match_basis": "doed_match_basis",
+    }
+    numeric_fields = {"doed_capacity_mw", "doed_capacity_difference_mw"}
+    overlay: dict[str, dict[str, Any]] = {}
+    for source in read_csv_rows(overlay_path):
+        project = str(source.get("local_project", "")).strip()
+        if not project:
+            continue
+        row: dict[str, Any] = {}
+        for key, value in source.items():
+            if key in {"local_project", "local_capacity_mw", "local_license_type", "local_river"}:
+                continue
+            target = field_map.get(key, key)
+            text = str(value or "").strip()
+            if not text:
+                continue
+            if target in numeric_fields:
+                try:
+                    row[target] = float(text)
+                except ValueError:
+                    row[target] = text
+            else:
+                row[target] = text
+        overlay[project] = row
+    return overlay
+
+
+MATERIAL_CAPACITY_CONFLICT_MW = 10.0
+
+
+def _capacity_authority_fields(
+    legacy_capacity_mw: Any,
+    official_overlay: dict[str, Any],
+    reviewed_for_dual_value: bool = False,
+) -> dict[str, Any]:
+    """Expose material reviewed capacity revisions without erasing the legacy value.
+
+    The map's ``capacity_mw`` remains the Naxa snapshot value for historical
+    continuity.  A high-confidence official identity match can add a clearly
+    named current DoED value; it never implies construction or delivery status.
+    """
+    if not reviewed_for_dual_value:
+        return {}
+    if official_overlay.get("doed_match_status") != "exact":
+        return {}
+    if official_overlay.get("doed_match_confidence") != "high":
+        return {}
+    try:
+        legacy = float(legacy_capacity_mw)
+        official = float(official_overlay["doed_capacity_mw"])
+    except (KeyError, TypeError, ValueError):
+        return {}
+    difference = abs(official - legacy)
+    if difference < MATERIAL_CAPACITY_CONFLICT_MW:
+        return {}
+    return {
+        "legacy_capacity_mw": legacy,
+        "legacy_capacity_source": "Naxa registry snapshot",
+        "current_official_capacity_mw": official,
+        "current_official_capacity_source": "Department of Electricity Development",
+        "capacity_difference_mw": difference,
+        "capacity_reconciliation": "dual_value_material_conflict",
+        "capacity_mw_basis": "legacy_snapshot_preserved",
+    }
+
+
+def _load_capacity_authority_decisions() -> set[str]:
+    """Return projects explicitly reviewed for dual-value publication."""
+    path = ROOT / "data" / "capacity_authority_decisions.csv"
+    if not path.exists():
+        return set()
+    return {
+        str(row.get("local_project", "")).strip()
+        for row in read_csv_rows(path)
+        if str(row.get("decision", "")).strip() == "publish_dual_value"
+        and str(row.get("local_project", "")).strip()
+    }
+
+
 def load_projects() -> list[dict[str, Any]]:
     data = read_geojson(RAW / "projects_storage" / "naxa_hydropower_projects.geojson")
     province_lookup = province_name_lookup(read_geojson(RAW / "maps" / "nepal_provinces.geojson"))
@@ -3218,6 +3322,9 @@ def load_projects() -> list[dict[str, Any]]:
             if slug:
                 specs_lookup[slug] = dict(row)
 
+    doed_overlay = _load_doed_status_overlay()
+    capacity_authority_decisions = _load_capacity_authority_decisions()
+
     rows: list[dict[str, Any]] = []
     for feature in data["features"]:
         props = feature["properties"]
@@ -3229,6 +3336,7 @@ def load_projects() -> list[dict[str, Any]]:
         # Apply override if this project's status has changed
         if project_name in overrides:
             license_type = overrides[project_name]
+        official_overlay = doed_overlay.get(project_name, {})
         rows.append(
             {
                 "project": project_name,
@@ -3244,6 +3352,12 @@ def load_projects() -> list[dict[str, Any]]:
                 "raw_lat": lat,
                 "raw_lon": lon,
                 **_merge_spec_fields(project_name, specs_lookup),
+                **official_overlay,
+                **_capacity_authority_fields(
+                    props["capacity"],
+                    official_overlay,
+                    project_name in capacity_authority_decisions,
+                ),
             }
         )
     return rows
@@ -3338,8 +3452,8 @@ def build_top_capacity_project_annotations(projects: list[dict[str, Any]]) -> di
                     "rank": index,
                     "name": row["project"],
                     "label_title": short_project_name(row["project"]),
-                    "label_subtitle": f"{capacity:,.0f} MW · {row['license_type']}",
-                    "marker_color": LICENSE_COLORS.get(row["license_type"], "#475569"),
+                    "label_subtitle": f"{capacity:,.0f} MW · {str(row.get('status') or row['license_type']).replace('-', ' ').title()}",
+                    "marker_color": DELIVERY_STATUS_COLORS.get(str(row.get("status") or "").lower(), LICENSE_COLORS.get(row["license_type"], "#475569")),
                     "dx": dx,
                     "dy": dy,
                     "project": row["project"],
@@ -3348,6 +3462,7 @@ def build_top_capacity_project_annotations(projects: list[dict[str, Any]]) -> di
                     "district": row["district"],
                     "province": row["province"],
                     "license_type": row["license_type"],
+                    "status": row.get("status"),
                     "promoter": row["promoter"],
                     "source_note": "Naxa / DoED-linked public hydropower project dataset",
                     "location_basis": row.get("location_basis", "Project point"),
@@ -3407,6 +3522,7 @@ def build_priority_project_watchlist(
                 "district": project.get("district") if project else None,
                 "province": project.get("province") if project else None,
                 "license_type": project.get("license_type") if project else "Survey",
+                "status": project.get("status") if project else None,
                 "location_basis": storage_props.get("location_basis"),
                 "precision_label": project.get("precision_label") if project else None,
                 "display_offset_m": project.get("display_offset_m") if project else None,
@@ -3420,6 +3536,7 @@ def build_priority_project_watchlist(
                 "district": project.get("district"),
                 "province": project.get("province"),
                 "license_type": project.get("license_type"),
+                "status": project.get("status"),
                 "location_basis": project.get("location_basis"),
                 "precision_label": project.get("precision_label"),
                 "display_offset_m": project.get("display_offset_m"),
@@ -3454,6 +3571,7 @@ def build_priority_project_watchlist(
                     "district": props["district"],
                     "province": props["province"],
                     "license_type": props["license_type"],
+                    "status": props["status"],
                     "location_basis": props["location_basis"],
                     "precision_label": props["precision_label"],
                     "display_offset_m": props["display_offset_m"],

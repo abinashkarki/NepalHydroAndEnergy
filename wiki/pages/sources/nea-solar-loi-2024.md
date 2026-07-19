@@ -3,13 +3,21 @@ title: NEA Notice of Intent to Award Solar Projects (2024)
 type: source
 created: 2026-05-07
 updated: 2026-05-12
+reviewed: 2026-07-19
+review_due: 2026-11-12
 source_type: procurement
 source_author: Nepal Electricity Authority
 source_date: 2024-11-12
 source_url: https://nea.org.np/uploads/shares/Tender_Award/1731396732_amendment.pdf?csrt=13757254593846507005
+source_status: public-online
+accessed: 2026-07-19
+verification_status: primary-source-checked
 sources: []
 tags: [nea, solar, loi, procurement, tender, 960mw]
-page_quality: record
+excerpt: NEA's corrected 2024 letter-of-intent award table for 63 solar rows totalling 960 MW.
+caveat: The notice establishes procurement awards only, not PPA execution, financing, construction or operation.
+maturity: working-page
+page_quality: analysis
 ---
 
 # NEA Notice of Intent to Award Solar Projects (2024)
@@ -37,11 +45,6 @@ The corrected NEA table lists 63 awards totaling 960 MW, with awarded tariffs fr
 - **Snapshot date:** November 2024 — the award landscape and tariff figures may have shifted since publication.
 - **Coordinate precision:** District or substation anchors with jitter are display positions, not parcel coordinates. Not suitable for site boundary or land-use analysis.
 - **Tariff data:** Awarded tariffs (NPR 4.99–5.54/kWh) may not reflect final PPA rates or as-constructed costs.
-
-## Used By
-
-- [[khungri-solar-hybrid-50mw]]
-- [[nea-960mw-solar-tender]]
 
 ## Related
 

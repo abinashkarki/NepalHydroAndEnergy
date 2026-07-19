@@ -4,7 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-05-06
 sources: [jica-ipsdp-main-report-vol2]
-tags: [project, under-construction, myagdi]
+tags: [project, licensed, myagdi]
 images: []
 generator: auto-stub
 page_quality: record
@@ -22,7 +22,7 @@ page_quality: record
   <figcaption>Table 6.3-9 Hydropower Development Projects on the Myagdi Khola River</figcaption>
 </figure>
 
-20 MW · under construction (generation licence) · on the Myagdi Khola · in Myagdi district.
+20 MW · generation licence recorded; delivery status unverified · on the Myagdi Khola · in Myagdi district.
 
 <!-- generated:specs:start -->
 
@@ -31,7 +31,7 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 20 MW |
-| Status | Under construction |
+| Status | Generation licence; delivery status unverified |
 | Registry licence | Generation |
 | River | Myagdi Khola |
 | District | Myagdi |
@@ -50,7 +50,8 @@ page_quality: record
 ## Notes
 
 > [!note] This is a registry-backed project record. Capacity, location,
-> and licence status come from the Ministry of Energy registry
-> mirrored in the map data. Narrative context and images are added
+> and regulatory stage come from the Ministry of Energy registry.
+> A generation licence does not by itself establish construction progress.
+> Registry data are mirrored in the map data. Narrative context and images are added
 > where public sources are strong enough; the specification table is
 > maintained from the registry.

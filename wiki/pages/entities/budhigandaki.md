@@ -2,11 +2,18 @@
 title: Budhigandaki Hydroelectric Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-10
+updated: 2026-07-10
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-10
 generator: specs-refresh
+project_dossier: lighthouse
+maturity: working-page
 page_quality: analysis
-sources: [wb-country-economic-memo-2025, jica-ipsdp-main-report-vol2]
+sources: [bgjcl-project-record-2026, wb-country-economic-memo-2025, jica-ipsdp-main-report-vol2]
 tags: [project, storage, proposed, gandaki, mega-project]
+excerpt: A proposed 1,200 MW storage project with active company notices but unresolved financing, resettlement and construction-readiness evidence.
+caveat: Procurement notices do not establish major-works commencement; design figures still require reconciliation to an approved current DPR.
 images:
   - src: budhigandaki/budi-gandaki-river.jpg
     caption: Budi Gandaki River.
@@ -39,14 +46,19 @@ images:
 
 ## Summary
 
-A 1,200 MW **reservoir storage** project on the border of Gorkha and Dhading districts, in the [[gandaki-basin]]. Considered a national pride initiative and the most important near-term storage intervention for grid stability.
+A proposed 1,200 MW **reservoir storage** project on the border of
+Gorkha and Dhading districts in the [[gandaki-basin]]. BGJCL's current
+public record gives a 263 m dam and 3,338 GWh of annual design energy
+and shows active procurement notices. Those notices demonstrate
+pre-construction activity, not construction commencement or financial
+close.
 
 ## Specifications
 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 1,200 MW |
-| Status | Pre-construction (bids invited for permanent camps April 2026) |
+| Status | Pre-construction; active procurement notices |
 | River | Budhi Gandaki ([[gandaki-basin]]) |
 | Districts | Gorkha / Dhading |
 
@@ -62,68 +74,96 @@ A 263 m double-curvature arch dam — Nepal's largest planned dam structure — 
 | Type | Storage / Reservoir |
 
 ### Output
-Budhigandaki's defining economic feature is its seasonal split: **42% of annual output comes in winter** (1.41 billion units of a total 3.38 billion). For comparison, the average RoR plant delivers 15–25% of its energy in the dry season. This makes Budhigandaki the single most important dry-season asset in Nepal's planned pipeline. See [[storage-deficit]] and [[seasonal-mismatch]].
+BGJCL's current public project page gives 3,338 GWh of annual energy.
+Earlier wiki records used 3,380 GWh and a 1,410 GWh dry-season value;
+the annual total has been aligned to the current official page, while
+the seasonal split remains a historical design figure pending a direct
+DPR or company source.
 
 | Parameter | Value |
 |-----------|-------|
-| Annual design energy | 3,380 GWh |
-| Dry-season energy | 1,410 GWh |
-| Dry-season share | 42 % |
+| Annual design energy | 3,338 GWh current BGJCL figure |
+| Historical alternate | 3,380 GWh |
+| Dry-season split | Requires direct current design source |
 
 ### Financial
-Structured as 70% debt / 30% equity, with the government holding 80% and [[nea]] 20%. The winter tariff (NPR 12.40/kWh) is nearly double the monsoon rate (NPR 7.10/kWh) — a pricing differential that reflects storage's value premium: shifting water from monsoon surplus to dry-season premium pricing. Revenue projection: ~NPR 31.48 billion/year.
+The current BGJCL notices do not establish a complete financing package,
+executed PPA or financial close. Earlier debt/equity, tariff, revenue
+and total-cost figures are treated as historical proposals until their
+underlying approved documents are ingested.
 
 | Parameter | Value |
 |-----------|-------|
-| Total cost | ~USD 2.77 billion |
-| PPA rate (wet) | NPR 7.10/kWh |
-| PPA rate (dry) | NPR 12.40/kWh |
-| Debt/equity | 70/30 |
+| Financial close | Not established |
+| Executed PPA | Not established in current source set |
 
 ### Governance
-After a politically blocked Chinese Gezhouba Group proposal, the project is now structured as a domestic investment. Government ownership (80%) plus NEA (20%) through Budhigandaki Company Limited. The proposed 50-year license term is longer than the standard 30-year concession — a recognition of the longer payback period for large storage.
+The current project company is Budhigandaki Jalbidhyut Company Limited.
+Historical developer and investment-modality proposals should be read
+as dated governance events rather than assumed current financing terms.
 
 | Parameter | Value |
 |-----------|-------|
-| Developer | Budhigandaki Company Limited (80% govt, 20% NEA) |
-| License term | 50 years (proposed) |
+| Developer | Budhigandaki Jalbidhyut Company Limited |
 
 ### Schedule
-After years of repeated modality formation, the investment framework was approved by Cabinet in January 2026. Bids for permanent camps and an access bridge were invited in April 2026 — the first concrete procurement. Construction is targeted from January 2028 with an 8-year build, placing commercial operation around 2036. The gap between "modality approved" and "COD" has been fatal for many storage projects in Nepal — see [[buildability]] and compare with [[pancheshwar]] (30 years, zero output).
+BGJCL was publishing procurement notices in June and July 2026,
+including a letter of intent on 8 July. The public record does not yet
+establish a firm construction-start or commercial-operation date.
 
 | Parameter | Value |
 |-----------|-------|
-| Construction start | 2028 (target) |
-| Commercial operation | 2036 (earliest) |
+| Construction start | Not established in current primary record |
+| Commercial operation | Not established in current primary record |
+
+## Current Status and Performance Provenance
+
+**As of 10 July 2026:** pre-construction with active company and
+procurement activity. Construction readiness remains dependent on a
+complete financing package, resettlement/compensation evidence and
+major-works procurement.
+
+| Dimension | Current position | Evidence |
+|---|---|---|
+| Technical basis | 1,200 MW; 263 m dam; 3,338 GWh annual energy | [BGJCL project page](https://bgjcl.com/) |
+| Procurement | Letter of intent and financial-bid notices published | [BGJCL notices](https://bgjcl.com/pages/notices) |
+| Finance | Full package and financial close not established | Current evidence gap |
+| Construction | Not established as commenced | 10 Jul 2026 verification |
+
+## Recent Updates
+
+| Date | Update |
+|---|---|
+| 8 Jul 2026 | BGJCL published a letter-of-intent notice |
+| 23–30 Jun 2026 | BGJCL published financial-bid opening notices and an addendum |
+
+## Active Blockers
+
+| Blocker | Prevents | Required evidence |
+|---|---|---|
+| Complete financing package is not public | Financial close and major construction | Approved financing agreements and effectiveness |
+| Current compensation/resettlement completion is not established | Construction readiness | Project-company or government implementation disclosure |
+| Exact design figures differ across public records | Stable public specification baseline | Current approved DPR/salient-features document |
 
 
 ## Limitations & Controversies
 
-- **Repeated modality changes.** Years of repeated modality formation before Cabinet approval in January 2026. Each cycle consumed political capital and delayed procurement.
-- **Long build horizon.** 8-year construction from 2028 places earliest COD around 2036. The 2027–2035 window remains uncovered for storage if Budhigandaki is the only large reservoir in the pipeline.
-- **Massive displacement.** 8,117 households in Gorkha and Dhading will be physically and economically displaced. NPR 42.65 billion distributed as compensation. ~90% land acquisition complete as of April 2026.
-- **Seismic and sediment risks.** The Gandaki system carries high Himalayan sediment loads. A 263 m arch dam in seismic zone 4 requires conservative design for MCE scenarios and GLOF cascades. See [[sediment-as-design-constraint]].
-- **Chinese involvement blocked.** A previous proposal to award to China Gezhouba Group was politically blocked (Nepali Congress opposition). Project now structured as domestic investment, but this history adds political fragility.
-- **Financing uncertainty.** Total cost with interest estimated at NPR 406–460 billion. Government holds 80% equity, NEA 20%. Sovereign balance-sheet exposure is significant if cost overruns materialize.
-- **Long payback period.** 50-year license term reflects the extended payback for large storage — but also the political risk that a future government may seek to renegotiate terms.
-
-## Status (updated April 2026)
-
-**Moving forward — but still pre-construction.**
-
-- **Jan 2026:** Cabinet approved the investment modality (financial framework) — after years of repeated modality formation without approval
-- **Apr 2026:** Bids invited for **permanent camps and access bridge** connecting Dhading and Gorkha — the first concrete construction procurement
-- **Land acquisition: ~90% complete.** NPR 42.65 billion distributed as compensation for land, structures, plants and trees. 8,117 households in Gorkha and Dhading will be physically and economically displaced
-- **Financial modality:** 70% debt / 30% equity. Government holds 80% stake, [[nea]] holds 20%, through Budhigandaki Company Limited
-- **Total cost with interest:** NPR 406–460 billion (varies by estimate)
-- **Target:** Construction start from **January 2028**, 8-year build — meaning earliest completion ~2036
-- **Revenue projection:** annual income NPR 31.48 billion; tariff split at NPR 12.40/unit (winter) and NPR 7.10/unit (monsoon)
-- **Generation:** 3.38 billion units/year (1.41B winter + 1.97B monsoon) — crucially, **42% of output in winter**, far better than RoR fleet ratios
-- **License term:** proposed 50 years
-- **Chinese involvement: none.** A previous proposal to award the project to China Gezhouba Group was politically blocked (Nepali Congress opposition). Project is now structured as a **domestic investment** initiative
-
-> [!note] Contrast with Pancheshwar
-> Where [[pancheshwar]] has produced zero concrete output in 30 years as a bilateral project, Budhigandaki is advancing (slowly) as a **domestically controlled** venture. The comparison is a data point for the [[domestic-led-hydro-strategy]] thesis.
+- **Evidence coverage.** The current official site is strong for headline
+  design and procurement notices but thin on a consolidated, current
+  financing and resettlement dashboard.
+- **Design reconciliation.** Public annual-energy figures include 3,338
+  and 3,380 GWh; the current company figure is used here, with the older
+  value preserved as a discrepancy.
+- **Social footprint.** Historical sources report a large land and
+  resettlement programme, but the current completion percentage and
+  household totals require direct implementation reporting before being
+  repeated as current facts.
+- **Seismic and sediment exposure.** A 263 m Himalayan arch dam requires
+  project-specific seismic, sediment and dam-safety evidence. See
+  [[sediment-as-design-constraint]] and [[buildability]].
+- **Procurement is not construction.** A letter of intent or bid-opening
+  notice shows administrative progress but does not establish notice to
+  proceed, mobilisation or physical completion.
 
 ## Why It Matters
 
@@ -142,7 +182,7 @@ If built, Budhigandaki would not just add generation — it would **change the e
 
 - [[storage-deficit]] — the gap Budhigandaki would address
 - [[seasonal-mismatch]] — the problem its winter output solves
-- [[firm-power]] — what 42% dry-season share means for reliability
+- [[firm-power]] — why the verified seasonal design split matters for reliability
 - [[pancheshwar]] — the bilateral mega-project that hasn't moved
 - [[domestic-led-hydro-strategy]] — the thesis Budhigandaki supports
 - [[sediment-as-design-constraint]] — the engineering challenge of Gandaki sediment
@@ -152,6 +192,7 @@ If built, Budhigandaki would not just add generation — it would **change the e
 
 ## Sources
 
+- [[bgjcl-project-record-2026|Budhigandaki Jalbidhyut Company Project Record and Notices (2026)]]
 - [[wb-country-economic-memo-2025|World Bank Nepal Country Economic Memorandum (2025)]]
 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
 

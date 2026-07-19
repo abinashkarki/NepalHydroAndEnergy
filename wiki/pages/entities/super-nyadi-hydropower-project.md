@@ -4,7 +4,7 @@ type: entity
 created: 2026-04-20
 updated: 2026-04-20
 sources: []
-tags: [project, under-construction, lamjung]
+tags: [project, licensed, lamjung]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Super Nyadi Hydropower Project
 
-40.27 MW · under construction (generation licence) · on the Nyadi · in Lamjung district.
+40.27 MW · generation licence recorded; delivery status unverified · on the Nyadi · in Lamjung district.
 
 > [!note] **Disambiguation**
 > "Super" is the official Nepal DoED/MoE registry tier — distinct from "Upper". On the same Nyadi river, [[nyadi-khola]] (30 MW) is a separate under-construction project. Super Nyadi is the larger downstream plant in the Nyadi cascade.
@@ -24,7 +24,7 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 40.27 MW |
-| Status | Under construction |
+| Status | Generation licence; delivery status unverified |
 | Registry licence | Generation |
 | River | Nyadi |
 | District | Lamjung |
@@ -35,7 +35,8 @@ page_quality: record
 ## Notes
 
 > [!note] This is a registry-backed project record. Capacity, location,
-> and licence status come from the Ministry of Energy registry
-> mirrored in the map data. Narrative context and images are added
+> and regulatory stage come from the Ministry of Energy registry.
+> A generation licence does not by itself establish construction progress.
+> Registry data are mirrored in the map data. Narrative context and images are added
 > where public sources are strong enough; the specification table is
 > maintained from the registry.

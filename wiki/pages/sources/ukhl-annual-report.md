@@ -40,7 +40,3 @@ The audited annual reports of Upper Tamakoshi Hydropower Limited (UKHLL), the NE
 - **Post-flood data recency:** The FY 2081/82 data (flood shutdown, ICRA D rating, insurance claim) is the most recent extracted; later fiscal-year data is not included.
 - **D/E ratio caveat:** The effective 88:12 D/E ratio at COD is from UKHLL annual reports but cross-referencing against external debt-registrar data is not done.
 - **Insurance range:** The insurance claim figure is reported as a range (NPR 2.0–3.22 billion) indicating uncertainty in the claim resolution.
-
-## Used By
-
-*No pages currently reference this source.*

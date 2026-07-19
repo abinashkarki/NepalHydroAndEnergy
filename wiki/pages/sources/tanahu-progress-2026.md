@@ -37,9 +37,3 @@ for official FY 2024/25 annual-report wording and construction details.
 - Construction progress is time-sensitive and can change quickly.
 - This is a news status update, not a full engineering progress report or
   audited project disclosure.
-
-## Used By
-
-- [[tanahu-hydropower]]
-- [[storage-deficit]]
-- [[kulekhani-cascade]]

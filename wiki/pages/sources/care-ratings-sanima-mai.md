@@ -42,7 +42,3 @@ The declining trajectory from 96% to 73%, followed by partial recovery to 85%, e
 - **Q40 design context:** The Q40 exceedance design is less conservative than the Q65+ designs common on glacially-fed rivers; hydrological variability observations apply to Q40-configured projects specifically.
 - **PPA vintage:** The PPA terms described (2010, 3% escalation, NPR 4.80/8.40 wet/dry) are specific to this project's 2010-vintage PPA and do not represent current NEA PPA terms.
 - **Credit rating source:** CARE Ratings surveillance reports prioritize creditworthiness metrics; they may not capture all technical or hydrological operating conditions in detail.
-
-## Used By
-
-*No pages currently reference this source.*

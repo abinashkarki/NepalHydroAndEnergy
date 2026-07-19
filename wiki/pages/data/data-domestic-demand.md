@@ -144,7 +144,7 @@ This evening peak pattern is what makes storage + solar the physical complement 
 - Biomass (firewood) and **imported LPG** dominate cooking energy
 - NEA's FY 2024/25 report explicitly flags government policy to "encourage the use of electricity for cooking, transportation, and industry to reduce reliance on fossil fuels"
 
-As an order-of-magnitude data point, shifting 20–30% of cooking to electricity would create ~50–75 PJ of new electric demand. See [[energy-substitution-pathway]] for the substitution logic and [[twenty-year-strategy]] for the strategic interpretation.
+The current public corpus does not contain a metered national scenario for the electricity demand created by a 20–30% cooking transition. [[energy-substitution-pathway]] discusses the substitution logic, but modelled scenarios must remain separate from observed demand.
 
 ### Residential electricity still dominated by lighting
 
@@ -160,7 +160,7 @@ Electricity captures higher value when it serves scarce periods (dry-season firm
 - Export revenue: averaging NPR 7.11–8.72/unit in monsoon
 - Domestic industrial tariff: peak hours NPR 10.00–10.20/unit
 
-The electric cooking gap (0.5% of households) represents the largest unrealized demand pool. Shifting 20–30% of cooking to electricity would create ~50–75 PJ of new electric demand — a magnitude larger than current export contracts. See [[energy-substitution-pathway]] for substitution logic and [[consumption-trajectory-outlook]] for forward growth. The interpretive payoff (why domestic electrification outranks export optimization) lives in [[twenty-year-strategy]] and [[domestic-led-hydro-strategy]].
+Electric cooking is a large candidate demand pool, but its national load effect depends on adoption, appliance efficiency, meal timing, fuel stacking and feeder readiness. The copied public corpus does not contain a metered national conversion scenario. See [[energy-substitution-pathway]] for substitution logic and [[consumption-trajectory-outlook]] for forward growth; the argument for prioritising domestic electrification remains explicitly editorial in [[twenty-year-strategy]] and [[domestic-led-hydro-strategy]].
 
 ## Linked Data
 

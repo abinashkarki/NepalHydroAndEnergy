@@ -1,0 +1,4665 @@
+{
+  "schema_version": "retrieval-run.v1",
+  "artifact_type": "ranked_run",
+  "query_set_id": "nepal-energy-real-v1-30",
+  "run_id": "explorer-static-real-v1",
+  "generated_at": "2026-06-20T07:40:55.189121+00:00",
+  "system": {
+    "name": "existing-explorer-static-search",
+    "version": "scripts/evaluate_search_benchmark.py",
+    "index_version": 1,
+    "notes": "Read-only adapter; lexical and fact results are merged by the existing evaluator."
+  },
+  "results": [
+    {
+      "query_id": "real-v1-01",
+      "ranked_results": [
+        {
+          "doc_id": "data-domestic-demand",
+          "score": 21.6522241,
+          "title": "Domestic Electricity Demand Distribution"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 20.58683362,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "data-trade-time-series",
+          "score": 20.50059371,
+          "title": "Electricity Trade Time Series"
+        },
+        {
+          "doc_id": "consumption-trajectory-outlook",
+          "score": 19.6335788,
+          "title": "Consumption Trajectory Outlook"
+        },
+        {
+          "doc_id": "seasonal-arbitrage-trap",
+          "score": 19.40506418,
+          "title": "Seasonal Arbitrage Trap"
+        },
+        {
+          "doc_id": "domestic-led-hydro-strategy",
+          "score": 19.2589684,
+          "title": "Domestic-Led Hydro Strategy"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 18.81777878,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "intervention-electric-cooking-transition",
+          "score": 16.18823797,
+          "title": "Electric Cooking Transition"
+        },
+        {
+          "doc_id": "nea",
+          "score": 15.839418,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 15.57042429,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "firm-power",
+          "score": 14.96774075,
+          "title": "Firm Power"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 14.41419248,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "data-industrial-electricity-consumers",
+          "score": 13.95782793,
+          "title": "Industrial Electricity Consumers in Nepal"
+        },
+        {
+          "doc_id": "seasonal-mismatch",
+          "score": 13.79005247,
+          "title": "Seasonal Mismatch"
+        },
+        {
+          "doc_id": "energy-substitution-pathway",
+          "score": 13.5522384,
+          "title": "Energy Substitution Pathway"
+        },
+        {
+          "doc_id": "hydropower-potential-categories",
+          "score": 12.5466644,
+          "title": "Hydropower Potential Categories"
+        },
+        {
+          "doc_id": "data-final-energy-mix",
+          "score": 11.86378606,
+          "title": "Nepal Final Energy Mix"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 11.84620844,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "twenty-year-strategy",
+          "score": 11.73215713,
+          "title": "Twenty-Year Strategy"
+        },
+        {
+          "doc_id": "claim-domestic-led-strategy",
+          "score": 11.69926555,
+          "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support"
+        },
+        {
+          "doc_id": "run-of-river-hydropower",
+          "score": 11.66795545,
+          "title": "Run-of-River Hydropower"
+        },
+        {
+          "doc_id": "solar-hydro-complementarity",
+          "score": 11.65274071,
+          "title": "Solar–Hydro Complementarity"
+        },
+        {
+          "doc_id": "master-thesis",
+          "score": 11.2511575,
+          "title": "Master Thesis"
+        },
+        {
+          "doc_id": "data-winter-deficit-model",
+          "score": 11.22549574,
+          "title": "Winter Deficit Model"
+        },
+        {
+          "doc_id": "claim-timing-not-volume",
+          "score": 11.14985505,
+          "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume"
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnections",
+          "score": 11.05701722,
+          "title": "Layer: Cross-Border Gateways"
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnection-lines",
+          "score": 10.67069066,
+          "title": "Layer: Cross-Border Links"
+        },
+        {
+          "doc_id": "data-nepal-peak-load-curve-fy2024-25",
+          "score": 10.50362934,
+          "title": "Nepal Peak Load Curve FY 2024/25"
+        },
+        {
+          "doc_id": "data-solar-hydro-complementarity-profile",
+          "score": 10.42089939,
+          "title": "Solar–Hydro Complementarity Profile"
+        },
+        {
+          "doc_id": "claim-storage-physical-fix",
+          "score": 10.34628837,
+          "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-02",
+      "ranked_results": [
+        {
+          "doc_id": "run-of-river-hydropower",
+          "score": 21.39332839,
+          "title": "Run-of-River Hydropower"
+        },
+        {
+          "doc_id": "storage-deficit",
+          "score": 15.68651389,
+          "title": "Storage Deficit"
+        },
+        {
+          "doc_id": "kulekhani-cascade",
+          "score": 14.39584115,
+          "title": "Kulekhani Cascade"
+        },
+        {
+          "doc_id": "tamor-storage",
+          "score": 14.36800888,
+          "title": "Tamor Storage"
+        },
+        {
+          "doc_id": "claim-solar-cheaper-than-small-hydro",
+          "score": 13.63831698,
+          "title": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 13.37929567,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "claim-pror-not-storage",
+          "score": 13.25687001,
+          "title": "PRoR Is Not Seasonal Storage"
+        },
+        {
+          "doc_id": "lower-solu",
+          "score": 13.1676407,
+          "title": "Lower Solu Hydropower Project"
+        },
+        {
+          "doc_id": "barahi-hydropower",
+          "score": 13.1422167,
+          "title": "Barahi Hydropower"
+        },
+        {
+          "doc_id": "seasonal-mismatch",
+          "score": 13.07327575,
+          "title": "Seasonal Mismatch"
+        },
+        {
+          "doc_id": "claim-ror-dominance",
+          "score": 12.97750478,
+          "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage"
+        },
+        {
+          "doc_id": "data-basin-discharge",
+          "score": 12.92129191,
+          "title": "Basin Discharge Data"
+        },
+        {
+          "doc_id": "solar-hydro-complementarity",
+          "score": 12.4414421,
+          "title": "Solar–Hydro Complementarity"
+        },
+        {
+          "doc_id": "data-fleet-composition",
+          "score": 12.22542069,
+          "title": "Hydropower Fleet Composition"
+        },
+        {
+          "doc_id": "chameliya-hydropower",
+          "score": 11.99145425,
+          "title": "Chameliya Hydropower"
+        },
+        {
+          "doc_id": "seasonal-arbitrage-trap",
+          "score": 11.91395342,
+          "title": "Seasonal Arbitrage Trap"
+        },
+        {
+          "doc_id": "koshi-basin",
+          "score": 11.85943047,
+          "title": "Koshi Basin"
+        },
+        {
+          "doc_id": "upper-tamor",
+          "score": 11.85504589,
+          "title": "Upper Tamor"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 11.50677297,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "hydropower-potential-categories",
+          "score": 11.43572379,
+          "title": "Hydropower Potential Categories"
+        },
+        {
+          "doc_id": "peak-water",
+          "score": 10.96490261,
+          "title": "Peak Water"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 10.94886505,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "super-trishuli",
+          "score": 10.57656532,
+          "title": "Super Trishuli"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 10.56879021,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "upper-trishuli-3b",
+          "score": 10.56824835,
+          "title": "Upper Trishuli 3B"
+        },
+        {
+          "doc_id": "tanahu-hydropower",
+          "score": 10.38197387,
+          "title": "Tanahu Hydropower Project"
+        },
+        {
+          "doc_id": "kulekhani-i",
+          "score": 10.30566227,
+          "title": "Kulekhani I"
+        },
+        {
+          "doc_id": "upper-marsyangdi-a",
+          "score": 10.27101782,
+          "title": "Upper Marsyangdi A"
+        },
+        {
+          "doc_id": "wecs-river-basin-plan-2024",
+          "score": 10.12187385,
+          "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)"
+        },
+        {
+          "doc_id": "super-madi",
+          "score": 10.08985964,
+          "title": "Super Madi"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-03",
+      "ranked_results": [
+        {
+          "doc_id": "data-domestic-demand",
+          "score": 19.31198704,
+          "title": "Domestic Electricity Demand Distribution"
+        },
+        {
+          "doc_id": "data-final-energy-mix",
+          "score": 17.15612888,
+          "title": "Nepal Final Energy Mix"
+        },
+        {
+          "doc_id": "data-industrial-electricity-consumers",
+          "score": 16.95512357,
+          "title": "Industrial Electricity Consumers in Nepal"
+        },
+        {
+          "doc_id": "consumption-trajectory-outlook",
+          "score": 14.33440672,
+          "title": "Consumption Trajectory Outlook"
+        },
+        {
+          "doc_id": "wb-household-electric-cooking-nepal-2025",
+          "score": 13.86272821,
+          "title": "World Bank / CCAC Economics of Household Cooking Using Electricity in Nepal"
+        },
+        {
+          "doc_id": "nea",
+          "score": 13.40293432,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 13.27478391,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "data-consumption-geographic-distribution",
+          "score": 11.58281418,
+          "title": "Electricity Consumption Geographic Distribution"
+        },
+        {
+          "doc_id": "energy-substitution-pathway",
+          "score": 10.99352846,
+          "title": "Energy Substitution Pathway"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 10.59187468,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 10.46177918,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 10.35388001,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "intervention-electric-cooking-transition",
+          "score": 9.97732711,
+          "title": "Electric Cooking Transition"
+        },
+        {
+          "doc_id": "domestic-led-hydro-strategy",
+          "score": 9.9525388,
+          "title": "Domestic-Led Hydro Strategy"
+        },
+        {
+          "doc_id": "western-132-backbone",
+          "score": 9.78498285,
+          "title": "Western Nepal 132 kV Backbone"
+        },
+        {
+          "doc_id": "wecs",
+          "score": 9.46577478,
+          "title": "Water and Energy Commission Secretariat (WECS)"
+        },
+        {
+          "doc_id": "data-agricultural-energy-consumption",
+          "score": 9.34377135,
+          "title": "Agricultural Energy Consumption"
+        },
+        {
+          "doc_id": "arun-3",
+          "score": 9.06827387,
+          "title": "Arun 3"
+        },
+        {
+          "doc_id": "mustang-high-altitude-solar-zone",
+          "score": 8.05831064,
+          "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone"
+        },
+        {
+          "doc_id": "bihar-ganges-trunk-zone",
+          "score": 8.04651694,
+          "title": "Bihar Ganges Trunk Zone"
+        },
+        {
+          "doc_id": "wecs-energy-synopsis-2024",
+          "score": 7.58478904,
+          "title": "WECS Energy Sector Synopsis Report 2024"
+        },
+        {
+          "doc_id": "storage-deficit",
+          "score": 7.3108385,
+          "title": "Storage Deficit"
+        },
+        {
+          "doc_id": "karnali-solar-energy-project",
+          "score": 7.12452621,
+          "title": "Karnali Solar Energy Project"
+        },
+        {
+          "doc_id": "ppa-pricing",
+          "score": 7.10196409,
+          "title": "PPA Pricing"
+        },
+        {
+          "doc_id": "rooftop-minigrid-offgrid",
+          "score": 7.04961573,
+          "title": "Rooftop, Mini-Grid, and Off-Grid Solar"
+        },
+        {
+          "doc_id": "data-storage-comparison",
+          "score": 6.93883162,
+          "title": "Storage Capacity Comparison"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 6.70478583,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 6.64097393,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "aepc",
+          "score": 6.48539714,
+          "title": "Alternative Energy Promotion Centre (AEPC)"
+        },
+        {
+          "doc_id": "seasonal-mismatch",
+          "score": 6.34328521,
+          "title": "Seasonal Mismatch"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-04",
+      "ranked_results": [
+        {
+          "doc_id": "intervention-electric-cooking-transition",
+          "score": 50.32548197,
+          "title": "Electric Cooking Transition"
+        },
+        {
+          "doc_id": "consumption-trajectory-outlook",
+          "score": 38.46552057,
+          "title": "Consumption Trajectory Outlook"
+        },
+        {
+          "doc_id": "data-domestic-demand",
+          "score": 37.32934791,
+          "title": "Domestic Electricity Demand Distribution"
+        },
+        {
+          "doc_id": "energy-substitution-pathway",
+          "score": 32.49331021,
+          "title": "Energy Substitution Pathway"
+        },
+        {
+          "doc_id": "domestic-led-hydro-strategy",
+          "score": 27.39735021,
+          "title": "Domestic-Led Hydro Strategy"
+        },
+        {
+          "doc_id": "data-final-energy-mix",
+          "score": 25.70616652,
+          "title": "Nepal Final Energy Mix"
+        },
+        {
+          "doc_id": "wb-household-electric-cooking-nepal-2025",
+          "score": 22.83073186,
+          "title": "World Bank / CCAC Economics of Household Cooking Using Electricity in Nepal"
+        },
+        {
+          "doc_id": "data-industrial-electricity-consumers",
+          "score": 22.52031308,
+          "title": "Industrial Electricity Consumers in Nepal"
+        },
+        {
+          "doc_id": "twenty-year-strategy",
+          "score": 19.98380224,
+          "title": "Twenty-Year Strategy"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 17.94043271,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "data-agricultural-energy-consumption",
+          "score": 15.84149289,
+          "title": "Agricultural Energy Consumption"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 12.43212696,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "master-thesis",
+          "score": 12.39184665,
+          "title": "Master Thesis"
+        },
+        {
+          "doc_id": "for-journalists",
+          "score": 12.37572406,
+          "title": "For Journalists"
+        },
+        {
+          "doc_id": "bottleneck-hierarchy",
+          "score": 11.90020078,
+          "title": "Bottleneck Hierarchy"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 11.11444641,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "mithila-solar-dhanusha-10mwp",
+          "score": 10.63194907,
+          "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+        },
+        {
+          "doc_id": "wecs-energy-synopsis-2024",
+          "score": 9.20733872,
+          "title": "WECS Energy Sector Synopsis Report 2024"
+        },
+        {
+          "doc_id": "for-policymakers",
+          "score": 9.1746697,
+          "title": "For Policymakers"
+        },
+        {
+          "doc_id": "seasonal-arbitrage-trap",
+          "score": 8.80970986,
+          "title": "Seasonal Arbitrage Trap"
+        },
+        {
+          "doc_id": "solar-resource-geography-nepal",
+          "score": 8.68595204,
+          "title": "Solar Resource Geography of Nepal"
+        },
+        {
+          "doc_id": "solar-role-in-winter-deficit",
+          "score": 8.5883608,
+          "title": "Solar's Role in the Winter Deficit"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 8.16854169,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "data-consumption-geographic-distribution",
+          "score": 7.14846069,
+          "title": "Electricity Consumption Geographic Distribution"
+        },
+        {
+          "doc_id": "jica-ipsdp-main-report-vol2",
+          "score": 6.29163045,
+          "title": "JICA IPSDP Final Report Annexes (Vol. 2)"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 5.63442854,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "western-132-backbone",
+          "score": 5.61574685,
+          "title": "Western Nepal 132 kV Backbone"
+        },
+        {
+          "doc_id": "solar-hydro-complementarity",
+          "score": 5.53883524,
+          "title": "Solar–Hydro Complementarity"
+        },
+        {
+          "doc_id": "nea",
+          "score": 5.51653408,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "modi-lekhnath-132kv",
+          "score": 5.43389827,
+          "title": "New Modi–Lekhnath 132 kV Transmission Line"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-05",
+      "ranked_results": [
+        {
+          "doc_id": "mustang-high-altitude-solar-zone",
+          "score": 17.68905314,
+          "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone"
+        },
+        {
+          "doc_id": "mithila-solar-dhanusha-10mwp",
+          "score": 15.4507686,
+          "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+        },
+        {
+          "doc_id": "bishnu-priya-nawalparasi",
+          "score": 13.97545705,
+          "title": "Bishnu Priya Solar Farm (Surya Power, ~1 MWp)"
+        },
+        {
+          "doc_id": "solar-resource-geography-nepal",
+          "score": 13.7753386,
+          "title": "Solar Resource Geography of Nepal"
+        },
+        {
+          "doc_id": "dhalkebar-solar-1mw",
+          "score": 13.31196223,
+          "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\""
+        },
+        {
+          "doc_id": "dhalkebar-solar-3mw",
+          "score": 13.1794098,
+          "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\""
+        },
+        {
+          "doc_id": "solar-in-the-master-narrative",
+          "score": 13.04681238,
+          "title": "Solar in the Master Narrative"
+        },
+        {
+          "doc_id": "solar-energy-lalitpur",
+          "score": 12.84157629,
+          "title": "\"Solar Energy\""
+        },
+        {
+          "doc_id": "simara-solar",
+          "score": 12.67012636,
+          "title": "\"Solar Power Project, Simara 11 kV S/S\""
+        },
+        {
+          "doc_id": "data-layer-solar-strategic-suitability",
+          "score": 12.66632533,
+          "title": "Layer: Solar Strategic Suitability"
+        },
+        {
+          "doc_id": "nea-solar",
+          "score": 12.59874902,
+          "title": "NEA Solar Programme"
+        },
+        {
+          "doc_id": "bidur-trishuli-solar-25mwp",
+          "score": 12.35204567,
+          "title": "Bidur / Trishuli 25 MWp Solar Farm"
+        },
+        {
+          "doc_id": "nea-960mw-solar-tender",
+          "score": 11.96574262,
+          "title": "NEA 960 MW National Solar Tender"
+        },
+        {
+          "doc_id": "solar-hydro-complementarity",
+          "score": 11.94581915,
+          "title": "Solar–Hydro Complementarity"
+        },
+        {
+          "doc_id": "irena-remap-nepal",
+          "score": 11.8273369,
+          "title": "IRENA Renewable Readiness Assessment and REmap Nepal"
+        },
+        {
+          "doc_id": "provider-comparison",
+          "score": 11.76401884,
+          "title": "Evidence Review Notes"
+        },
+        {
+          "doc_id": "butwal-solar-ridi-8-5mwp",
+          "score": 11.55052675,
+          "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)"
+        },
+        {
+          "doc_id": "som-radha-krishna",
+          "score": 11.37970217,
+          "title": "\"Som Radha Krishna Solar Farm Project\""
+        },
+        {
+          "doc_id": "master-thesis",
+          "score": 11.11247508,
+          "title": "Master Thesis"
+        },
+        {
+          "doc_id": "karnali-solar-energy-project",
+          "score": 11.10041126,
+          "title": "Karnali Solar Energy Project"
+        },
+        {
+          "doc_id": "pratappur-solar",
+          "score": 11.03516946,
+          "title": "\"Solar PV Pratappur\""
+        },
+        {
+          "doc_id": "chandranigahpur-solar",
+          "score": 11.01462937,
+          "title": "\"Chandranigahpur Solar Project\""
+        },
+        {
+          "doc_id": "ramgram-solar",
+          "score": 11.00095111,
+          "title": "\"Grid Connected Solar PV Project, Ramgram\""
+        },
+        {
+          "doc_id": "wb-esmap-solar-resource-assessment",
+          "score": 10.98512485,
+          "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement"
+        },
+        {
+          "doc_id": "data-solar-fleet-inventory",
+          "score": 10.95991876,
+          "title": "Solar Fleet Inventory"
+        },
+        {
+          "doc_id": "morang-utility-solar",
+          "score": 10.89203565,
+          "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\""
+        },
+        {
+          "doc_id": "bel-chautara-solar",
+          "score": 10.87479471,
+          "title": "\"Bel Chautara Solar Farm Project\""
+        },
+        {
+          "doc_id": "dharamnagar-solar",
+          "score": 10.86636099,
+          "title": "\"Dharamnagar Solar Farm Project\""
+        },
+        {
+          "doc_id": "raniyapur-block-1",
+          "score": 10.86636099,
+          "title": "\"Solar PV Project, Raniyapur, Block 1\""
+        },
+        {
+          "doc_id": "dharamnagar-solar-ii",
+          "score": 10.85571973,
+          "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\""
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-06",
+      "ranked_results": [
+        {
+          "doc_id": "data-potential-pyramid",
+          "score": 35.492444,
+          "title": "Hydropower Potential Pyramid"
+        },
+        {
+          "doc_id": "hydropower-potential-categories",
+          "score": 32.4991178,
+          "title": "Hydropower Potential Categories"
+        },
+        {
+          "doc_id": "claim-mw-not-equal-value",
+          "score": 23.62253902,
+          "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated"
+        },
+        {
+          "doc_id": "wecs-hydropower-potential-2019",
+          "score": 21.19320983,
+          "title": "WECS Assessment of Hydropower Potential of Nepal (2019)"
+        },
+        {
+          "doc_id": "wb-nepal-power-sector-reform-2022",
+          "score": 20.22919837,
+          "title": "World Bank Nepal Power Sector Reform Roadmap (2022)"
+        },
+        {
+          "doc_id": "firm-power",
+          "score": 15.9154743,
+          "title": "Firm Power"
+        },
+        {
+          "doc_id": "wecs",
+          "score": 14.36876728,
+          "title": "Water and Energy Commission Secretariat (WECS)"
+        },
+        {
+          "doc_id": "figure-index",
+          "score": 12.8437988,
+          "title": "Figure Index"
+        },
+        {
+          "doc_id": "data-solar-fleet-inventory",
+          "score": 12.5425789,
+          "title": "Solar Fleet Inventory"
+        },
+        {
+          "doc_id": "rooftop-minigrid-offgrid",
+          "score": 10.78397771,
+          "title": "Rooftop, Mini-Grid, and Off-Grid Solar"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 10.03330488,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "irena-remap-nepal",
+          "score": 8.85568372,
+          "title": "IRENA Renewable Readiness Assessment and REmap Nepal"
+        },
+        {
+          "doc_id": "data-storage-comparison",
+          "score": 8.70653747,
+          "title": "Storage Capacity Comparison"
+        },
+        {
+          "doc_id": "wecs-river-basin-plan-2024",
+          "score": 8.02059291,
+          "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)"
+        },
+        {
+          "doc_id": "butwal-solar-ridi-8-5mwp",
+          "score": 7.8899639,
+          "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 7.55150966,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "chameliya-hydropower",
+          "score": 7.54503741,
+          "title": "Chameliya Hydropower"
+        },
+        {
+          "doc_id": "claim-india-decisive-actor",
+          "score": 7.29183594,
+          "title": "India Is the Decisive External Actor in Nepal's Hydro Future"
+        },
+        {
+          "doc_id": "bhutan-hydropower-model",
+          "score": 7.05587634,
+          "title": "Bhutan Hydropower Model"
+        },
+        {
+          "doc_id": "wb-esmap-solar-resource-assessment",
+          "score": 7.0269154,
+          "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement"
+        },
+        {
+          "doc_id": "khimti-dhalkebar-corridor",
+          "score": 6.9449202,
+          "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor"
+        },
+        {
+          "doc_id": "data-mountain-hydro-comparison",
+          "score": 6.93061472,
+          "title": "Mountain Hydro System Comparison"
+        },
+        {
+          "doc_id": "super-nyadi-hydropower-project",
+          "score": 6.83855164,
+          "title": "Super Nyadi Hydropower Project"
+        },
+        {
+          "doc_id": "tanahu-hydropower",
+          "score": 6.82915003,
+          "title": "Tanahu Hydropower Project"
+        },
+        {
+          "doc_id": "super-dordi-kha-hydropower-project",
+          "score": 6.82637685,
+          "title": "Super Dordi Kha Hydropower Project"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 6.81146814,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "super-mai",
+          "score": 6.81101528,
+          "title": "Super Mai Hydropower Project"
+        },
+        {
+          "doc_id": "data-layer-nepal-tributaries",
+          "score": 6.78900436,
+          "title": "Layer: Nepal Tributaries (HydroRIVERS)"
+        },
+        {
+          "doc_id": "lower-solu",
+          "score": 6.71615832,
+          "title": "Lower Solu Hydropower Project"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 6.70621302,
+          "title": "India — Energy Relationship with Nepal"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-07",
+      "ranked_results": [
+        {
+          "doc_id": "start-here",
+          "score": 25.09228417,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "claim-transmission-immediate-blocker",
+          "score": 25.07127285,
+          "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+        },
+        {
+          "doc_id": "for-policymakers",
+          "score": 24.80091499,
+          "title": "For Policymakers"
+        },
+        {
+          "doc_id": "bottleneck-hierarchy",
+          "score": 19.92797095,
+          "title": "Bottleneck Hierarchy"
+        },
+        {
+          "doc_id": "provider-comparison",
+          "score": 17.22684906,
+          "title": "Evidence Review Notes"
+        },
+        {
+          "doc_id": "master-thesis",
+          "score": 17.05428668,
+          "title": "Master Thesis"
+        },
+        {
+          "doc_id": "for-journalists",
+          "score": 16.32460092,
+          "title": "For Journalists"
+        },
+        {
+          "doc_id": "bheri-corridor-400kv",
+          "score": 16.04123286,
+          "title": "Bheri Corridor 400 kV Transmission Line"
+        },
+        {
+          "doc_id": "claim-ror-dominance",
+          "score": 15.48664545,
+          "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage"
+        },
+        {
+          "doc_id": "intervention-transmission-completion",
+          "score": 14.71069205,
+          "title": "Transmission Completion"
+        },
+        {
+          "doc_id": "claim-systems-conversion-failure",
+          "score": 13.60818043,
+          "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power"
+        },
+        {
+          "doc_id": "claim-domestic-led-strategy",
+          "score": 13.12697447,
+          "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support"
+        },
+        {
+          "doc_id": "data-potential-pyramid",
+          "score": 12.89649922,
+          "title": "Hydropower Potential Pyramid"
+        },
+        {
+          "doc_id": "data-layer-transmission-network-nodes",
+          "score": 12.14728284,
+          "title": "Internal Data: Transmission Topology Nodes"
+        },
+        {
+          "doc_id": "claim-mw-not-equal-value",
+          "score": 11.87922921,
+          "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated"
+        },
+        {
+          "doc_id": "ratmate-rasuwagadhi-kerung-400kv",
+          "score": 11.8569674,
+          "title": "Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line"
+        },
+        {
+          "doc_id": "claim-governance-binding",
+          "score": 11.3242107,
+          "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives"
+        },
+        {
+          "doc_id": "twenty-year-strategy",
+          "score": 11.25096642,
+          "title": "Twenty-Year Strategy"
+        },
+        {
+          "doc_id": "claim-timing-not-volume",
+          "score": 11.11006395,
+          "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume"
+        },
+        {
+          "doc_id": "data-layer-transmission-raw-traced-segments",
+          "score": 11.08019061,
+          "title": "Internal Data: Source Trace Fragments"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 10.99954213,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "likhu-2",
+          "score": 10.96318086,
+          "title": "Likhu -2"
+        },
+        {
+          "doc_id": "intervention-nea-structural-separation",
+          "score": 10.85902815,
+          "title": "NEA Structural Separation"
+        },
+        {
+          "doc_id": "chilime-trishuli-220kv-transmission-line",
+          "score": 10.31047883,
+          "title": "Chilime-Trishuli 220 kV Transmission Line"
+        },
+        {
+          "doc_id": "solar-in-the-master-narrative",
+          "score": 10.13895613,
+          "title": "Solar in the Master Narrative"
+        },
+        {
+          "doc_id": "hetauda-dhalkebar-inaruwa-backbone",
+          "score": 9.72306372,
+          "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone"
+        },
+        {
+          "doc_id": "mithila-solar-dhanusha-10mwp",
+          "score": 9.70191795,
+          "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+        },
+        {
+          "doc_id": "hydro-geopolitics",
+          "score": 9.49903199,
+          "title": "Hydro-Geopolitics"
+        },
+        {
+          "doc_id": "firm-power",
+          "score": 9.35271011,
+          "title": "Firm Power"
+        },
+        {
+          "doc_id": "gorakhpur-butwal-interconnection",
+          "score": 9.32444833,
+          "title": "Gorakhpur–New Butwal 400 kV Cross-Border Interconnection"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-08",
+      "ranked_results": [
+        {
+          "doc_id": "firm-power",
+          "score": 54.42277544,
+          "title": "Firm Power"
+        },
+        {
+          "doc_id": "claim-mw-not-equal-value",
+          "score": 37.76599963,
+          "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated"
+        },
+        {
+          "doc_id": "run-of-river-hydropower",
+          "score": 31.27106662,
+          "title": "Run-of-River Hydropower"
+        },
+        {
+          "doc_id": "claim-pror-not-storage",
+          "score": 28.62796857,
+          "title": "PRoR Is Not Seasonal Storage"
+        },
+        {
+          "doc_id": "claim-ror-dominance",
+          "score": 27.7310846,
+          "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage"
+        },
+        {
+          "doc_id": "data-layer-storage-shortlist",
+          "score": 26.1906764,
+          "title": "Layer: Storage Shortlist"
+        },
+        {
+          "doc_id": "data-potential-pyramid",
+          "score": 25.58824872,
+          "title": "Hydropower Potential Pyramid"
+        },
+        {
+          "doc_id": "claim-systems-conversion-failure",
+          "score": 25.44179632,
+          "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power"
+        },
+        {
+          "doc_id": "seasonal-mismatch",
+          "score": 24.99526067,
+          "title": "Seasonal Mismatch"
+        },
+        {
+          "doc_id": "claim-timing-not-volume",
+          "score": 23.30774719,
+          "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 22.96645855,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "hydropower-potential-categories",
+          "score": 22.9514902,
+          "title": "Hydropower Potential Categories"
+        },
+        {
+          "doc_id": "data-fleet-composition",
+          "score": 22.56395364,
+          "title": "Hydropower Fleet Composition"
+        },
+        {
+          "doc_id": "kokhajor-1",
+          "score": 22.48924664,
+          "title": "Kokhajor-1"
+        },
+        {
+          "doc_id": "storage-deficit",
+          "score": 22.27063711,
+          "title": "Storage Deficit"
+        },
+        {
+          "doc_id": "madi",
+          "score": 22.1422022,
+          "title": "Madi"
+        },
+        {
+          "doc_id": "claim-storage-physical-fix",
+          "score": 21.76022286,
+          "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch"
+        },
+        {
+          "doc_id": "lower-jhimruk",
+          "score": 21.7152925,
+          "title": "Lower Jhimruk"
+        },
+        {
+          "doc_id": "naumure-w-rapti",
+          "score": 20.4163861,
+          "title": "Naumure (W. Rapti)"
+        },
+        {
+          "doc_id": "andhi-khola",
+          "score": 19.71984534,
+          "title": "Andhi Khola"
+        },
+        {
+          "doc_id": "nalsyau-gad",
+          "score": 19.57591225,
+          "title": "Nalsyau Gad"
+        },
+        {
+          "doc_id": "sun-koshi-no-3",
+          "score": 19.1313712,
+          "title": "Sun Koshi No.3"
+        },
+        {
+          "doc_id": "lower-badigad",
+          "score": 18.55468414,
+          "title": "Lower Badigad"
+        },
+        {
+          "doc_id": "chera-1",
+          "score": 17.79712628,
+          "title": "Chera-1"
+        },
+        {
+          "doc_id": "kulekhani-cascade",
+          "score": 17.57999697,
+          "title": "Kulekhani Cascade"
+        },
+        {
+          "doc_id": "solar-hydro-complementarity",
+          "score": 17.16033997,
+          "title": "Solar–Hydro Complementarity"
+        },
+        {
+          "doc_id": "claim-solar-cheaper-than-small-hydro",
+          "score": 17.13793915,
+          "title": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal"
+        },
+        {
+          "doc_id": "arun-3",
+          "score": 16.91922398,
+          "title": "Arun 3"
+        },
+        {
+          "doc_id": "data-layer-basin-seasonality",
+          "score": 16.76460572,
+          "title": "Layer: Basin Seasonality"
+        },
+        {
+          "doc_id": "seasonal-arbitrage-trap",
+          "score": 16.73908164,
+          "title": "Seasonal Arbitrage Trap"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-09",
+      "ranked_results": [
+        {
+          "doc_id": "mugu-karnali-storage",
+          "score": 1.0,
+          "title": "Mugu Karnali Storage HEP"
+        },
+        {
+          "doc_id": "arun-3",
+          "score": 0.96,
+          "title": "Arun 3"
+        },
+        {
+          "doc_id": "upper-karnali",
+          "score": 0.92,
+          "title": "Upper Karnali"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 0.88,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "betan-karnali",
+          "score": 0.84,
+          "title": "Betan Karnali HP"
+        },
+        {
+          "doc_id": "dudhkoshi-storage",
+          "score": 0.8,
+          "title": "Dudhkoshi Storage"
+        },
+        {
+          "doc_id": "tamakoshi-3",
+          "score": 0.76,
+          "title": "Tamakoshi 3"
+        },
+        {
+          "doc_id": "sun-koshi-no-3",
+          "score": 0.72,
+          "title": "Sun Koshi No.3"
+        },
+        {
+          "doc_id": "run-of-river-hydropower",
+          "score": 25.62153932,
+          "title": "Run-of-River Hydropower"
+        },
+        {
+          "doc_id": "seasonal-mismatch",
+          "score": 24.05216675,
+          "title": "Seasonal Mismatch"
+        },
+        {
+          "doc_id": "tamor-storage",
+          "score": 22.69775916,
+          "title": "Tamor Storage"
+        },
+        {
+          "doc_id": "solar-hydro-complementarity",
+          "score": 21.0860694,
+          "title": "Solar–Hydro Complementarity"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 20.32747144,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "storage-deficit",
+          "score": 20.27298112,
+          "title": "Storage Deficit"
+        },
+        {
+          "doc_id": "claim-solar-cheaper-than-small-hydro",
+          "score": 19.57432046,
+          "title": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal"
+        },
+        {
+          "doc_id": "claim-ror-dominance",
+          "score": 19.53585715,
+          "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 18.80727549,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "claim-pror-not-storage",
+          "score": 18.38733343,
+          "title": "PRoR Is Not Seasonal Storage"
+        },
+        {
+          "doc_id": "nea",
+          "score": 17.85092902,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "data-fleet-composition",
+          "score": 17.60092573,
+          "title": "Hydropower Fleet Composition"
+        },
+        {
+          "doc_id": "barahi-hydropower",
+          "score": 17.39844451,
+          "title": "Barahi Hydropower"
+        },
+        {
+          "doc_id": "solar-lcoe-crossover",
+          "score": 17.32443248,
+          "title": "Solar LCOE Crossover"
+        },
+        {
+          "doc_id": "kulekhani-cascade",
+          "score": 17.20246346,
+          "title": "Kulekhani Cascade"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 16.91329916,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "upper-tamor",
+          "score": 16.06018635,
+          "title": "Upper Tamor"
+        },
+        {
+          "doc_id": "seasonal-arbitrage-trap",
+          "score": 15.71725501,
+          "title": "Seasonal Arbitrage Trap"
+        },
+        {
+          "doc_id": "lower-solu",
+          "score": 15.56445402,
+          "title": "Lower Solu Hydropower Project"
+        },
+        {
+          "doc_id": "nea-triple-authority",
+          "score": 15.24222445,
+          "title": "NEA Triple-Authority Conflict"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 14.83459365,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "firm-power",
+          "score": 14.2702648,
+          "title": "Firm Power"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-10",
+      "ranked_results": [
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 21.54836281,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "data-domestic-demand",
+          "score": 19.76749239,
+          "title": "Domestic Electricity Demand Distribution"
+        },
+        {
+          "doc_id": "consumption-trajectory-outlook",
+          "score": 18.40577926,
+          "title": "Consumption Trajectory Outlook"
+        },
+        {
+          "doc_id": "seasonal-arbitrage-trap",
+          "score": 18.36994236,
+          "title": "Seasonal Arbitrage Trap"
+        },
+        {
+          "doc_id": "domestic-led-hydro-strategy",
+          "score": 17.61995085,
+          "title": "Domestic-Led Hydro Strategy"
+        },
+        {
+          "doc_id": "data-trade-time-series",
+          "score": 17.47114142,
+          "title": "Electricity Trade Time Series"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 16.30094637,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "data-industrial-electricity-consumers",
+          "score": 15.22632418,
+          "title": "Industrial Electricity Consumers in Nepal"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 14.35094062,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "data-final-energy-mix",
+          "score": 13.51262193,
+          "title": "Nepal Final Energy Mix"
+        },
+        {
+          "doc_id": "india-cbte-2018",
+          "score": 12.18235503,
+          "title": "India Cross-Border Trade in Electricity Guidelines (2018)"
+        },
+        {
+          "doc_id": "energy-substitution-pathway",
+          "score": 11.99294911,
+          "title": "Energy Substitution Pathway"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 11.93572983,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "claim-domestic-led-strategy",
+          "score": 11.3936222,
+          "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support"
+        },
+        {
+          "doc_id": "data-consumption-geographic-distribution",
+          "score": 10.94529614,
+          "title": "Electricity Consumption Geographic Distribution"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 10.63090863,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "seasonal-mismatch",
+          "score": 10.23010139,
+          "title": "Seasonal Mismatch"
+        },
+        {
+          "doc_id": "master-thesis",
+          "score": 10.14459208,
+          "title": "Master Thesis"
+        },
+        {
+          "doc_id": "nea",
+          "score": 10.01001024,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "intervention-electric-cooking-transition",
+          "score": 9.81147764,
+          "title": "Electric Cooking Transition"
+        },
+        {
+          "doc_id": "data-ipsdp-milestone-ladder-2022-2040",
+          "score": 9.73376335,
+          "title": "IPSDP Milestone Ladder 2022-2040"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 9.09965619,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "twenty-year-strategy",
+          "score": 8.69638417,
+          "title": "Twenty-Year Strategy"
+        },
+        {
+          "doc_id": "data-agricultural-energy-consumption",
+          "score": 8.65417397,
+          "title": "Agricultural Energy Consumption"
+        },
+        {
+          "doc_id": "moewri-ipsdp-exec-summary-2025",
+          "score": 8.6096581,
+          "title": "MoEWRI IPSDP Executive Summary"
+        },
+        {
+          "doc_id": "betan-karnali",
+          "score": 8.04236305,
+          "title": "Betan Karnali HP"
+        },
+        {
+          "doc_id": "nepal-power-trade-schemes",
+          "score": 7.87209034,
+          "title": "Nepal Power Trade Schemes"
+        },
+        {
+          "doc_id": "intervention-sebon-data-transparency",
+          "score": 7.58314241,
+          "title": "SEBON Data Transparency"
+        },
+        {
+          "doc_id": "data-fleet-composition",
+          "score": 7.32918795,
+          "title": "Hydropower Fleet Composition"
+        },
+        {
+          "doc_id": "q-design-discharge",
+          "score": 7.32521689,
+          "title": "Q-Design Discharge"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-11",
+      "ranked_results": [
+        {
+          "doc_id": "mugu-karnali-storage",
+          "score": 1.0,
+          "title": "Mugu Karnali Storage HEP"
+        },
+        {
+          "doc_id": "arun-3",
+          "score": 0.96,
+          "title": "Arun 3"
+        },
+        {
+          "doc_id": "upper-karnali",
+          "score": 0.92,
+          "title": "Upper Karnali"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 0.88,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "betan-karnali",
+          "score": 0.84,
+          "title": "Betan Karnali HP"
+        },
+        {
+          "doc_id": "dudhkoshi-storage",
+          "score": 0.8,
+          "title": "Dudhkoshi Storage"
+        },
+        {
+          "doc_id": "tamakoshi-3",
+          "score": 0.76,
+          "title": "Tamakoshi 3"
+        },
+        {
+          "doc_id": "sun-koshi-no-3",
+          "score": 0.72,
+          "title": "Sun Koshi No.3"
+        },
+        {
+          "doc_id": "ppa-pricing",
+          "score": 15.32046226,
+          "title": "PPA Pricing"
+        },
+        {
+          "doc_id": "nea-triple-authority",
+          "score": 15.16198726,
+          "title": "NEA Triple-Authority Conflict"
+        },
+        {
+          "doc_id": "nea",
+          "score": 13.50369699,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "ad-penalties",
+          "score": 13.33457461,
+          "title": "AD Penalties"
+        },
+        {
+          "doc_id": "solar-lcoe-crossover",
+          "score": 12.4281668,
+          "title": "Solar LCOE Crossover"
+        },
+        {
+          "doc_id": "butwal-solar-ridi-8-5mwp",
+          "score": 12.30066686,
+          "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)"
+        },
+        {
+          "doc_id": "chameliya-hydropower",
+          "score": 11.70211144,
+          "title": "Chameliya Hydropower"
+        },
+        {
+          "doc_id": "claim-solar-cheaper-than-small-hydro",
+          "score": 11.69607266,
+          "title": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal"
+        },
+        {
+          "doc_id": "care-ratings-sanima-mai",
+          "score": 11.4129198,
+          "title": "CARE Ratings Nepal — Sanima Mai Hydropower Credit Assessments"
+        },
+        {
+          "doc_id": "ppa-data-retrieval-icra-care-2026",
+          "score": 11.40354705,
+          "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\""
+        },
+        {
+          "doc_id": "lower-solu",
+          "score": 11.39324782,
+          "title": "Lower Solu Hydropower Project"
+        },
+        {
+          "doc_id": "hydropower-potential-categories",
+          "score": 11.37146981,
+          "title": "Hydropower Potential Categories"
+        },
+        {
+          "doc_id": "data-potential-pyramid",
+          "score": 11.29748131,
+          "title": "Hydropower Potential Pyramid"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 11.2806098,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "data-solar-hydro-lcoe",
+          "score": 11.21388234,
+          "title": "Solar and Hydro LCOE"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 11.06197491,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "barahi-hydropower",
+          "score": 10.77005054,
+          "title": "Barahi Hydropower"
+        },
+        {
+          "doc_id": "khimti-i",
+          "score": 10.76835388,
+          "title": "Khimti -I"
+        },
+        {
+          "doc_id": "intervention-nea-structural-separation",
+          "score": 10.76613206,
+          "title": "NEA Structural Separation"
+        },
+        {
+          "doc_id": "chilime",
+          "score": 10.55797047,
+          "title": "Chilime"
+        },
+        {
+          "doc_id": "khimti-dhalkebar-corridor",
+          "score": 9.99898509,
+          "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor"
+        },
+        {
+          "doc_id": "nea-960mw-solar-tender",
+          "score": 9.99458396,
+          "title": "NEA 960 MW National Solar Tender"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-12",
+      "ranked_results": [
+        {
+          "doc_id": "sanima-mai",
+          "score": 46.95076088,
+          "title": "Sanima Mai"
+        },
+        {
+          "doc_id": "care-ratings-sanima-mai",
+          "score": 35.1317448,
+          "title": "CARE Ratings Nepal — Sanima Mai Hydropower Credit Assessments"
+        },
+        {
+          "doc_id": "ppa-pricing",
+          "score": 32.64690343,
+          "title": "PPA Pricing"
+        },
+        {
+          "doc_id": "ppa-data-retrieval-icra-care-2026",
+          "score": 28.19895636,
+          "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\""
+        },
+        {
+          "doc_id": "q-design-discharge",
+          "score": 22.96445807,
+          "title": "Q-Design Discharge"
+        },
+        {
+          "doc_id": "super-mai",
+          "score": 21.05074817,
+          "title": "Super Mai Hydropower Project"
+        },
+        {
+          "doc_id": "mai",
+          "score": 20.94962557,
+          "title": "Mai"
+        },
+        {
+          "doc_id": "super-mai-a",
+          "score": 19.70087396,
+          "title": "Super Mai-A HPP"
+        },
+        {
+          "doc_id": "middle-tamor",
+          "score": 18.96912474,
+          "title": "Middle Tamor"
+        },
+        {
+          "doc_id": "chilime",
+          "score": 16.69097219,
+          "title": "Chilime"
+        },
+        {
+          "doc_id": "nea-triple-authority",
+          "score": 15.08482823,
+          "title": "NEA Triple-Authority Conflict"
+        },
+        {
+          "doc_id": "stranded-generation",
+          "score": 14.67684015,
+          "title": "Stranded Generation"
+        },
+        {
+          "doc_id": "sahas-urja",
+          "score": 13.18386215,
+          "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project"
+        },
+        {
+          "doc_id": "hydro-insurance",
+          "score": 12.68965613,
+          "title": "Hydro Insurance"
+        },
+        {
+          "doc_id": "chilime-annual-report-fy2078-79",
+          "score": 12.64272426,
+          "title": "Chilime Hydropower Company Limited Annual Report FY 2078/79"
+        },
+        {
+          "doc_id": "khimti-i",
+          "score": 12.62883328,
+          "title": "Khimti -I"
+        },
+        {
+          "doc_id": "intervention-nea-structural-separation",
+          "score": 12.6183284,
+          "title": "NEA Structural Separation"
+        },
+        {
+          "doc_id": "sahas-urja-benchmark-icra-2026",
+          "score": 12.41701875,
+          "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\""
+        },
+        {
+          "doc_id": "ad-penalties",
+          "score": 12.38855276,
+          "title": "AD Penalties"
+        },
+        {
+          "doc_id": "upper-tamakoshi",
+          "score": 12.10261371,
+          "title": "Upper Tamakoshi"
+        },
+        {
+          "doc_id": "likhu-2",
+          "score": 11.81860326,
+          "title": "Likhu -2"
+        },
+        {
+          "doc_id": "chameliya-hydropower",
+          "score": 11.04023652,
+          "title": "Chameliya Hydropower"
+        },
+        {
+          "doc_id": "khimti-ii",
+          "score": 10.91725838,
+          "title": "Khimti II"
+        },
+        {
+          "doc_id": "likhu-4",
+          "score": 10.90688608,
+          "title": "Likhu-4"
+        },
+        {
+          "doc_id": "upper-marsyangdi-a",
+          "score": 10.59194186,
+          "title": "Upper Marsyangdi A"
+        },
+        {
+          "doc_id": "likhu-1",
+          "score": 10.27612675,
+          "title": "Likhu -1"
+        },
+        {
+          "doc_id": "intervention-q-design-climate-adjustment",
+          "score": 10.2190253,
+          "title": "Q-Design Climate Adjustment"
+        },
+        {
+          "doc_id": "likhu-khola-a",
+          "score": 10.07365737,
+          "title": "Likhu Khola 'A'"
+        },
+        {
+          "doc_id": "tamor-storage",
+          "score": 9.48138831,
+          "title": "Tamor Storage"
+        },
+        {
+          "doc_id": "intervention-sebon-data-transparency",
+          "score": 9.03354941,
+          "title": "SEBON Data Transparency"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-13",
+      "ranked_results": [
+        {
+          "doc_id": "ipo-hydropower-bailout",
+          "score": 30.69824158,
+          "title": "IPO Hydropower Bailout"
+        },
+        {
+          "doc_id": "intervention-sebon-data-transparency",
+          "score": 26.52694396,
+          "title": "SEBON Data Transparency"
+        },
+        {
+          "doc_id": "sector-financial-analysis-triple-authority-2026",
+          "score": 19.70824454,
+          "title": "\"Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector\""
+        },
+        {
+          "doc_id": "khimti-ii",
+          "score": 18.7406811,
+          "title": "Khimti II"
+        },
+        {
+          "doc_id": "ankhu-khola",
+          "score": 17.66952398,
+          "title": "Ankhu Khola"
+        },
+        {
+          "doc_id": "likhu-khola-a",
+          "score": 16.63747476,
+          "title": "Likhu Khola 'A'"
+        },
+        {
+          "doc_id": "chilime",
+          "score": 15.17134003,
+          "title": "Chilime"
+        },
+        {
+          "doc_id": "likhu-1",
+          "score": 15.12009528,
+          "title": "Likhu -1"
+        },
+        {
+          "doc_id": "likhu-2",
+          "score": 15.00206907,
+          "title": "Likhu -2"
+        },
+        {
+          "doc_id": "nea-triple-authority",
+          "score": 13.28979422,
+          "title": "NEA Triple-Authority Conflict"
+        },
+        {
+          "doc_id": "chameliya-hydropower",
+          "score": 12.80429847,
+          "title": "Chameliya Hydropower"
+        },
+        {
+          "doc_id": "q-design-discharge",
+          "score": 12.47598362,
+          "title": "Q-Design Discharge"
+        },
+        {
+          "doc_id": "trishuli-galchhi",
+          "score": 12.16335304,
+          "title": "Trishuli Galchhi"
+        },
+        {
+          "doc_id": "sahas-urja",
+          "score": 11.9553867,
+          "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project"
+        },
+        {
+          "doc_id": "likhu-4",
+          "score": 11.80136886,
+          "title": "Likhu-4"
+        },
+        {
+          "doc_id": "hydro-insurance",
+          "score": 11.71118169,
+          "title": "Hydro Insurance"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 11.6338751,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "upper-tamakoshi",
+          "score": 11.62929172,
+          "title": "Upper Tamakoshi"
+        },
+        {
+          "doc_id": "butwal-solar-ridi-8-5mwp",
+          "score": 10.88417234,
+          "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)"
+        },
+        {
+          "doc_id": "khimti-i",
+          "score": 10.47855207,
+          "title": "Khimti -I"
+        },
+        {
+          "doc_id": "khimti-dhalkebar-corridor",
+          "score": 10.40153044,
+          "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor"
+        },
+        {
+          "doc_id": "ppa-pricing",
+          "score": 10.18208433,
+          "title": "PPA Pricing"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 10.0262718,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "ppa-data-retrieval-icra-care-2026",
+          "score": 9.22819821,
+          "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\""
+        },
+        {
+          "doc_id": "rasuwagadhi",
+          "score": 8.92094024,
+          "title": "Rasuwagadhi"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 8.61227595,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "nea",
+          "score": 8.56406495,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "likhu-cascade",
+          "score": 8.54311967,
+          "title": "Likhu Cascade"
+        },
+        {
+          "doc_id": "super-mai",
+          "score": 8.05943177,
+          "title": "Super Mai Hydropower Project"
+        },
+        {
+          "doc_id": "middle-tamor",
+          "score": 7.97391474,
+          "title": "Middle Tamor"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-14",
+      "ranked_results": [
+        {
+          "doc_id": "claim-solar-cheaper-than-small-hydro",
+          "score": 46.41266579,
+          "title": "New Utility Solar Is Now Cheaper Than Small Run-of-River Hydro in Nepal"
+        },
+        {
+          "doc_id": "data-solar-hydro-lcoe",
+          "score": 43.61404333,
+          "title": "Solar and Hydro LCOE"
+        },
+        {
+          "doc_id": "nea-960mw-solar-tender",
+          "score": 40.59451985,
+          "title": "NEA 960 MW National Solar Tender"
+        },
+        {
+          "doc_id": "solar-lcoe-crossover",
+          "score": 39.91727063,
+          "title": "Solar LCOE Crossover"
+        },
+        {
+          "doc_id": "nea-solar",
+          "score": 34.46336767,
+          "title": "NEA Solar Programme"
+        },
+        {
+          "doc_id": "data-solar-fleet-inventory",
+          "score": 33.54416571,
+          "title": "Solar Fleet Inventory"
+        },
+        {
+          "doc_id": "butwal-solar-ridi-8-5mwp",
+          "score": 28.58830665,
+          "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)"
+        },
+        {
+          "doc_id": "solar-in-the-master-narrative",
+          "score": 24.62646597,
+          "title": "Solar in the Master Narrative"
+        },
+        {
+          "doc_id": "claim-solar-political-coalition-is-rural",
+          "score": 24.14165714,
+          "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale"
+        },
+        {
+          "doc_id": "irena-remap-nepal",
+          "score": 24.14145468,
+          "title": "IRENA Renewable Readiness Assessment and REmap Nepal"
+        },
+        {
+          "doc_id": "solar-hydro-complementarity",
+          "score": 24.05272072,
+          "title": "Solar–Hydro Complementarity"
+        },
+        {
+          "doc_id": "bidur-trishuli-solar-25mwp",
+          "score": 23.78206922,
+          "title": "Bidur / Trishuli 25 MWp Solar Farm"
+        },
+        {
+          "doc_id": "data-rooftop-shs-deployment",
+          "score": 22.20616684,
+          "title": "Rooftop and Solar Home System Deployment"
+        },
+        {
+          "doc_id": "karnali-solar-energy-project",
+          "score": 21.90227292,
+          "title": "Karnali Solar Energy Project"
+        },
+        {
+          "doc_id": "solar-role-in-winter-deficit",
+          "score": 21.89942215,
+          "title": "Solar's Role in the Winter Deficit"
+        },
+        {
+          "doc_id": "rooftop-minigrid-offgrid",
+          "score": 21.52052882,
+          "title": "Rooftop, Mini-Grid, and Off-Grid Solar"
+        },
+        {
+          "doc_id": "morang-utility-solar",
+          "score": 20.49450121,
+          "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\""
+        },
+        {
+          "doc_id": "solar-energy-lalitpur",
+          "score": 20.31752875,
+          "title": "\"Solar Energy\""
+        },
+        {
+          "doc_id": "solar-resource-geography-nepal",
+          "score": 19.6937508,
+          "title": "Solar Resource Geography of Nepal"
+        },
+        {
+          "doc_id": "mustang-high-altitude-solar-zone",
+          "score": 19.44342344,
+          "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone"
+        },
+        {
+          "doc_id": "data-nepal-solar-resource-zones",
+          "score": 19.37984434,
+          "title": "Nepal Solar Resource Zones"
+        },
+        {
+          "doc_id": "wb-grid-solar-ee-project",
+          "score": 18.95797772,
+          "title": "World Bank Grid Solar and Energy Efficiency Project"
+        },
+        {
+          "doc_id": "mithila-solar-dhanusha-10mwp",
+          "score": 18.80329597,
+          "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+        },
+        {
+          "doc_id": "eib-rural-solar-phase2",
+          "score": 17.77173748,
+          "title": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II"
+        },
+        {
+          "doc_id": "hybrid-siting-logic",
+          "score": 17.41503941,
+          "title": "Hybrid Siting Logic"
+        },
+        {
+          "doc_id": "agrivoltaics-and-land",
+          "score": 17.21361297,
+          "title": "Agrivoltaics and Land"
+        },
+        {
+          "doc_id": "aepc",
+          "score": 17.09472857,
+          "title": "Alternative Energy Promotion Centre (AEPC)"
+        },
+        {
+          "doc_id": "aepc-renewable-framework",
+          "score": 16.62431835,
+          "title": "AEPC Renewable Framework and Progress Reports"
+        },
+        {
+          "doc_id": "data-layer-solar-plants-nea-awards",
+          "score": 16.18473252,
+          "title": "Layer: Solar Plants + NEA 960 MW Awards"
+        },
+        {
+          "doc_id": "wb-esmap-solar-resource-assessment",
+          "score": 15.72816617,
+          "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-15",
+      "ranked_results": [
+        {
+          "doc_id": "mugu-karnali-storage",
+          "score": 1.0,
+          "title": "Mugu Karnali Storage HEP"
+        },
+        {
+          "doc_id": "arun-3",
+          "score": 0.96,
+          "title": "Arun 3"
+        },
+        {
+          "doc_id": "upper-karnali",
+          "score": 0.92,
+          "title": "Upper Karnali"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 0.88,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "betan-karnali",
+          "score": 0.84,
+          "title": "Betan Karnali HP"
+        },
+        {
+          "doc_id": "dudhkoshi-storage",
+          "score": 0.8,
+          "title": "Dudhkoshi Storage"
+        },
+        {
+          "doc_id": "tamakoshi-3",
+          "score": 0.76,
+          "title": "Tamakoshi 3"
+        },
+        {
+          "doc_id": "sun-koshi-no-3",
+          "score": 0.72,
+          "title": "Sun Koshi No.3"
+        },
+        {
+          "doc_id": "data-layer-priority-watchlist",
+          "score": 16.58822388,
+          "title": "Layer: Priority Watchlist"
+        },
+        {
+          "doc_id": "tamor-storage",
+          "score": 16.38322861,
+          "title": "Tamor Storage"
+        },
+        {
+          "doc_id": "project-roadmap",
+          "score": 14.72463075,
+          "title": "Project Roadmap"
+        },
+        {
+          "doc_id": "green-hydrogen-roadmap-nepal",
+          "score": 14.45606512,
+          "title": "Green Hydrogen Roadmap for Nepal"
+        },
+        {
+          "doc_id": "data-layer-hydropower-survey-study",
+          "score": 14.3282565,
+          "title": "Layer: Hydropower - Survey/Study"
+        },
+        {
+          "doc_id": "data-layer-top-10-capacity-projects",
+          "score": 13.16203939,
+          "title": "Layer: Top-10 Capacity Projects"
+        },
+        {
+          "doc_id": "green-hydrogen-nepal",
+          "score": 12.90832044,
+          "title": "Green Hydrogen Nepal"
+        },
+        {
+          "doc_id": "data-map-layer-labels",
+          "score": 12.71612256,
+          "title": "Map Layer Labels"
+        },
+        {
+          "doc_id": "super-tamor",
+          "score": 11.97666692,
+          "title": "Super Tamor"
+        },
+        {
+          "doc_id": "upper-tamor",
+          "score": 11.73935597,
+          "title": "Upper Tamor"
+        },
+        {
+          "doc_id": "data-layer-hydropower-construction",
+          "score": 11.62364282,
+          "title": "Layer: Hydropower - Construction"
+        },
+        {
+          "doc_id": "data-layer-hydropower-operating",
+          "score": 11.33213304,
+          "title": "Layer: Hydropower - Operating"
+        },
+        {
+          "doc_id": "wb-nepal-power-sector-reform-2022",
+          "score": 10.96503307,
+          "title": "World Bank Nepal Power Sector Reform Roadmap (2022)"
+        },
+        {
+          "doc_id": "tanahu-hydropower",
+          "score": 10.66400636,
+          "title": "Tanahu Hydropower Project"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 10.30930738,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "data-fleet-composition",
+          "score": 9.6984804,
+          "title": "Hydropower Fleet Composition"
+        },
+        {
+          "doc_id": "sediment-as-design-constraint",
+          "score": 9.32158307,
+          "title": "Sediment as Design Constraint"
+        },
+        {
+          "doc_id": "data-layer-storage-shortlist",
+          "score": 9.18025358,
+          "title": "Layer: Storage Shortlist"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 9.17626522,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 9.10193475,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "intervention-q-design-climate-adjustment",
+          "score": 8.83053795,
+          "title": "Q-Design Climate Adjustment"
+        },
+        {
+          "doc_id": "data-layer-grid-hubs-place-anchors",
+          "score": 8.50426329,
+          "title": "Layer: Grid Hubs and Substations"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-16",
+      "ranked_results": [
+        {
+          "doc_id": "hetauda-dhalkebar-inaruwa-backbone",
+          "score": 66.65025158,
+          "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone"
+        },
+        {
+          "doc_id": "nepal-transmission-landscape-2025",
+          "score": 41.52135969,
+          "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)"
+        },
+        {
+          "doc_id": "dhalkebar-muzaffarpur",
+          "score": 38.28834167,
+          "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "inaruwa-purnea-interconnection",
+          "score": 35.35344588,
+          "title": "Inaruwa–Purnea 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "hetauda-bharatpur-bardaghat-corridor",
+          "score": 32.2510552,
+          "title": "Hetauda–Bharatpur–Bardaghat 220 kV Corridor"
+        },
+        {
+          "doc_id": "claim-transmission-immediate-blocker",
+          "score": 30.22564368,
+          "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+        },
+        {
+          "doc_id": "mca-central-400",
+          "score": 29.68960166,
+          "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)"
+        },
+        {
+          "doc_id": "khimti-dhalkebar-corridor",
+          "score": 28.49640878,
+          "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor"
+        },
+        {
+          "doc_id": "data-nea-substation-capacity-fy2076-77",
+          "score": 26.81398074,
+          "title": "NEA Substation Capacity FY 2076/77"
+        },
+        {
+          "doc_id": "gorakhpur-butwal-interconnection",
+          "score": 24.89348662,
+          "title": "Gorakhpur–New Butwal 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "intervention-transmission-completion",
+          "score": 24.79502221,
+          "title": "Transmission Completion"
+        },
+        {
+          "doc_id": "data-nea-transmission-length-fy2076-77",
+          "score": 24.66452622,
+          "title": "NEA Transmission Length FY 2076/77"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 22.8401951,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "data-layer-transmission-connected-traced-network",
+          "score": 19.81331003,
+          "title": "Layer: Major Transmission Network"
+        },
+        {
+          "doc_id": "mithila-solar-dhanusha-10mwp",
+          "score": 19.32093661,
+          "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+        },
+        {
+          "doc_id": "main-load-dispatch-centre",
+          "score": 18.87043327,
+          "title": "Main Load Dispatch Centre"
+        },
+        {
+          "doc_id": "nea-transmission-annual-book-2077",
+          "score": 16.07788016,
+          "title": "NEA Transmission Annual Book 2077"
+        },
+        {
+          "doc_id": "project-roadmap",
+          "score": 13.45303254,
+          "title": "Project Roadmap"
+        },
+        {
+          "doc_id": "khimti-cascade",
+          "score": 11.65521774,
+          "title": "Khimti Cascade"
+        },
+        {
+          "doc_id": "nea-960mw-solar-tender",
+          "score": 11.18906508,
+          "title": "NEA 960 MW National Solar Tender"
+        },
+        {
+          "doc_id": "arun-3-project-status-2025",
+          "score": 10.40364312,
+          "title": "Arun-3 Project Status & PDA Summary (2025)"
+        },
+        {
+          "doc_id": "western-132-backbone",
+          "score": 10.29817081,
+          "title": "Western Nepal 132 kV Backbone"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 9.6567444,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "kataiya-kushaha-interconnection",
+          "score": 8.93100478,
+          "title": "Kataiya–Kushaha 132 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "twenty-year-strategy",
+          "score": 8.74610959,
+          "title": "Twenty-Year Strategy"
+        },
+        {
+          "doc_id": "dhalkebar-solar-1mw",
+          "score": 8.70938981,
+          "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\""
+        },
+        {
+          "doc_id": "dhalkebar-solar-3mw",
+          "score": 8.47321525,
+          "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\""
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnections",
+          "score": 8.45178394,
+          "title": "Layer: Cross-Border Gateways"
+        },
+        {
+          "doc_id": "arun-3",
+          "score": 8.34935385,
+          "title": "Arun 3"
+        },
+        {
+          "doc_id": "khimti-ii",
+          "score": 8.29551045,
+          "title": "Khimti II"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-17",
+      "ranked_results": [
+        {
+          "doc_id": "nepal-transmission-landscape-2025",
+          "score": 45.48214685,
+          "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)"
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnection-lines",
+          "score": 41.14260978,
+          "title": "Layer: Cross-Border Links"
+        },
+        {
+          "doc_id": "dhalkebar-muzaffarpur",
+          "score": 40.26305922,
+          "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "gorakhpur-butwal-interconnection",
+          "score": 39.92295139,
+          "title": "Gorakhpur–New Butwal 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "chameliya-jauljibi-interconnection",
+          "score": 39.284818,
+          "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "kataiya-kushaha-interconnection",
+          "score": 36.02512848,
+          "title": "Kataiya–Kushaha 132 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "inaruwa-purnea-interconnection",
+          "score": 35.17185151,
+          "title": "Inaruwa–Purnea 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 34.05648831,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "data-map-inventory",
+          "score": 29.80713342,
+          "title": "Map Inventory"
+        },
+        {
+          "doc_id": "data-map-layer-labels",
+          "score": 27.43170139,
+          "title": "Map Layer Labels"
+        },
+        {
+          "doc_id": "chameliya-attariya-132",
+          "score": 25.44043647,
+          "title": "Chameliya-Syaule-Attariya 132 kV Line"
+        },
+        {
+          "doc_id": "claim-transmission-immediate-blocker",
+          "score": 25.35953519,
+          "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+        },
+        {
+          "doc_id": "ratmate-rasuwagadhi-kerung-400kv",
+          "score": 25.21534217,
+          "title": "Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line"
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnections",
+          "score": 24.55687226,
+          "title": "Layer: Cross-Border Gateways"
+        },
+        {
+          "doc_id": "western-132-backbone",
+          "score": 24.09751575,
+          "title": "Western Nepal 132 kV Backbone"
+        },
+        {
+          "doc_id": "mca-central-400",
+          "score": 22.22402894,
+          "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)"
+        },
+        {
+          "doc_id": "india-cbte-2018",
+          "score": 22.11604406,
+          "title": "India Cross-Border Trade in Electricity Guidelines (2018)"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 21.46013571,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "hetauda-dhalkebar-inaruwa-backbone",
+          "score": 20.68468179,
+          "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone"
+        },
+        {
+          "doc_id": "upper-karnali",
+          "score": 18.87897704,
+          "title": "Upper Karnali"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 18.22669075,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "arun-3-project-status-2025",
+          "score": 17.79038084,
+          "title": "Arun-3 Project Status & PDA Summary (2025)"
+        },
+        {
+          "doc_id": "stranded-generation",
+          "score": 17.08925777,
+          "title": "Stranded Generation"
+        },
+        {
+          "doc_id": "claim-india-decisive-actor",
+          "score": 17.03336136,
+          "title": "India Is the Decisive External Actor in Nepal's Hydro Future"
+        },
+        {
+          "doc_id": "khimti-dhalkebar-corridor",
+          "score": 16.6556533,
+          "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor"
+        },
+        {
+          "doc_id": "intervention-transmission-completion",
+          "score": 16.41461672,
+          "title": "Transmission Completion"
+        },
+        {
+          "doc_id": "dana-kushma-butwal-corridor",
+          "score": 16.15876684,
+          "title": "Dana–Kushma–New Butwal 220 kV Corridor"
+        },
+        {
+          "doc_id": "likhu-4",
+          "score": 16.00156463,
+          "title": "Likhu-4"
+        },
+        {
+          "doc_id": "data-layer-grid-hubs-place-anchors",
+          "score": 15.84267901,
+          "title": "Layer: Grid Hubs and Substations"
+        },
+        {
+          "doc_id": "bheri-corridor-400kv",
+          "score": 15.6536384,
+          "title": "Bheri Corridor 400 kV Transmission Line"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-18",
+      "ranked_results": [
+        {
+          "doc_id": "data-layer-transmission-trace-gaps-qa",
+          "score": 29.21328931,
+          "title": "Internal Data: Transmission Trace Gaps"
+        },
+        {
+          "doc_id": "western-132-backbone",
+          "score": 28.63148061,
+          "title": "Western Nepal 132 kV Backbone"
+        },
+        {
+          "doc_id": "data-layer-transmission-connected-traced-network",
+          "score": 28.32166879,
+          "title": "Layer: Major Transmission Network"
+        },
+        {
+          "doc_id": "chameliya-attariya-132",
+          "score": 28.27041524,
+          "title": "Chameliya-Syaule-Attariya 132 kV Line"
+        },
+        {
+          "doc_id": "data-layer-transmission-raw-traced-segments",
+          "score": 27.09405881,
+          "title": "Internal Data: Source Trace Fragments"
+        },
+        {
+          "doc_id": "kohalpur-surkhet-dailekh-132",
+          "score": 23.92988498,
+          "title": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach"
+        },
+        {
+          "doc_id": "data-layer-transmission-corridors-curated",
+          "score": 22.69772843,
+          "title": "Layer: Context Corridor Sketch"
+        },
+        {
+          "doc_id": "solu-tingla-mirchaiya-132",
+          "score": 22.15971242,
+          "title": "Solu Corridor Tingla-Mirchaiya 132 kV"
+        },
+        {
+          "doc_id": "kabeli-132",
+          "score": 21.95690819,
+          "title": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor"
+        },
+        {
+          "doc_id": "data-layer-transmission-labels",
+          "score": 20.20910702,
+          "title": "Layer: Transmission Labels"
+        },
+        {
+          "doc_id": "data-layer-transmission-network-nodes",
+          "score": 19.10602488,
+          "title": "Internal Data: Transmission Topology Nodes"
+        },
+        {
+          "doc_id": "data-map-inventory",
+          "score": 17.91358911,
+          "title": "Map Inventory"
+        },
+        {
+          "doc_id": "hetauda-bharatpur-bardaghat-corridor",
+          "score": 17.0182928,
+          "title": "Hetauda–Bharatpur–Bardaghat 220 kV Corridor"
+        },
+        {
+          "doc_id": "data-map-layer-labels",
+          "score": 16.7521032,
+          "title": "Map Layer Labels"
+        },
+        {
+          "doc_id": "dana-kushma-butwal-corridor",
+          "score": 16.29332527,
+          "title": "Dana–Kushma–New Butwal 220 kV Corridor"
+        },
+        {
+          "doc_id": "data-layer-topographic-basemap",
+          "score": 15.67487789,
+          "title": "Layer: Topographic Basemap"
+        },
+        {
+          "doc_id": "udipur-damauli-bharatpur-220",
+          "score": 15.43564498,
+          "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement"
+        },
+        {
+          "doc_id": "marsyangdi-upper-220",
+          "score": 15.30073424,
+          "title": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV"
+        },
+        {
+          "doc_id": "data-layer-india-comparison-rivers",
+          "score": 14.34128574,
+          "title": "Layer: India Comparison Rivers"
+        },
+        {
+          "doc_id": "chilime-trishuli-220kv-transmission-line",
+          "score": 13.54610965,
+          "title": "Chilime-Trishuli 220 kV Transmission Line"
+        },
+        {
+          "doc_id": "hetauda-dhalkebar-inaruwa-backbone",
+          "score": 13.23959349,
+          "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone"
+        },
+        {
+          "doc_id": "bheri-corridor-400kv",
+          "score": 13.13937175,
+          "title": "Bheri Corridor 400 kV Transmission Line"
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnections",
+          "score": 12.92922166,
+          "title": "Layer: Cross-Border Gateways"
+        },
+        {
+          "doc_id": "mca-central-400",
+          "score": 12.70213735,
+          "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)"
+        },
+        {
+          "doc_id": "data-layer-nepal-origin-route-callouts",
+          "score": 12.0547229,
+          "title": "Layer: Nepal-Origin Route Callouts"
+        },
+        {
+          "doc_id": "ratmate-rasuwagadhi-kerung-400kv",
+          "score": 11.74595919,
+          "title": "Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line"
+        },
+        {
+          "doc_id": "modi-lekhnath-132kv",
+          "score": 11.46749115,
+          "title": "New Modi–Lekhnath 132 kV Transmission Line"
+        },
+        {
+          "doc_id": "data-layer-nepal-origin-downstream-systems",
+          "score": 11.2932329,
+          "title": "Layer: Nepal-Origin Downstream Systems"
+        },
+        {
+          "doc_id": "data-layer-nepal-origin-ocean-routes",
+          "score": 11.09292675,
+          "title": "Layer: Nepal-Origin Routes To Ocean"
+        },
+        {
+          "doc_id": "damak-godak-phidim-132kv",
+          "score": 10.40913989,
+          "title": "Damak–Godak–Phidim 132 kV Corridor"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-19",
+      "ranked_results": [
+        {
+          "doc_id": "niettp",
+          "score": 12.83430079,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "bottleneck-hierarchy",
+          "score": 12.04971382,
+          "title": "Bottleneck Hierarchy"
+        },
+        {
+          "doc_id": "data-nea-substation-capacity-fy2076-77",
+          "score": 11.81267203,
+          "title": "NEA Substation Capacity FY 2076/77"
+        },
+        {
+          "doc_id": "data-layer-grid-hubs-place-anchors",
+          "score": 11.80895294,
+          "title": "Layer: Grid Hubs and Substations"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 10.69444682,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "western-132-backbone",
+          "score": 8.00214007,
+          "title": "Western Nepal 132 kV Backbone"
+        },
+        {
+          "doc_id": "claim-solar-terai-only-short-cycle-build",
+          "score": 7.79645633,
+          "title": "Terai Solar Is Nepal's Only Large Short-Cycle Build Lever Before 2030"
+        },
+        {
+          "doc_id": "ramgram-solar",
+          "score": 7.78411391,
+          "title": "\"Grid Connected Solar PV Project, Ramgram\""
+        },
+        {
+          "doc_id": "shivasatakshi-jhapa",
+          "score": 7.7799332,
+          "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\""
+        },
+        {
+          "doc_id": "morang-utility-solar",
+          "score": 7.76956764,
+          "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\""
+        },
+        {
+          "doc_id": "dhalkebar-solar-3mw",
+          "score": 7.75932313,
+          "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\""
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 7.75561049,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "data-layer-transmission-labels",
+          "score": 7.58015995,
+          "title": "Layer: Transmission Labels"
+        },
+        {
+          "doc_id": "stranded-generation",
+          "score": 7.574135,
+          "title": "Stranded Generation"
+        },
+        {
+          "doc_id": "nea",
+          "score": 7.56611294,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "data-nea-transmission-length-fy2076-77",
+          "score": 7.50123061,
+          "title": "NEA Transmission Length FY 2076/77"
+        },
+        {
+          "doc_id": "data-solar-fleet-inventory",
+          "score": 7.42541492,
+          "title": "Solar Fleet Inventory"
+        },
+        {
+          "doc_id": "hetauda-bharatpur-bardaghat-corridor",
+          "score": 7.41321904,
+          "title": "Hetauda–Bharatpur–Bardaghat 220 kV Corridor"
+        },
+        {
+          "doc_id": "claim-transmission-immediate-blocker",
+          "score": 7.33668775,
+          "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 7.31716472,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "kohalpur-surkhet-dailekh-132",
+          "score": 7.17945398,
+          "title": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach"
+        },
+        {
+          "doc_id": "data-layer-floating-pv-candidates",
+          "score": 6.83678171,
+          "title": "Layer: Floating PV Candidates"
+        },
+        {
+          "doc_id": "dhungesangu-basantapur-220-132kv",
+          "score": 6.75453258,
+          "title": "Dhungesanghu–Basantapur 220/132 kV Corridor"
+        },
+        {
+          "doc_id": "data-layer-top-10-capacity-projects",
+          "score": 6.74836283,
+          "title": "Layer: Top-10 Capacity Projects"
+        },
+        {
+          "doc_id": "tingla-132-33kv-substation",
+          "score": 6.70866331,
+          "title": "Tingla 132/33 kV Substation"
+        },
+        {
+          "doc_id": "data-map-layer-labels",
+          "score": 6.54966839,
+          "title": "Map Layer Labels"
+        },
+        {
+          "doc_id": "butwal-solar-ridi-8-5mwp",
+          "score": 6.47145275,
+          "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)"
+        },
+        {
+          "doc_id": "nea-transmission-annual-book-2077",
+          "score": 6.44066193,
+          "title": "NEA Transmission Annual Book 2077"
+        },
+        {
+          "doc_id": "wecs",
+          "score": 6.38565595,
+          "title": "Water and Energy Commission Secretariat (WECS)"
+        },
+        {
+          "doc_id": "hetauda-dhalkebar-inaruwa-backbone",
+          "score": 6.36906283,
+          "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-20",
+      "ranked_results": [
+        {
+          "doc_id": "arun-3",
+          "score": 59.97811901,
+          "title": "Arun 3"
+        },
+        {
+          "doc_id": "arun-3-project-status-2025",
+          "score": 35.36031679,
+          "title": "Arun-3 Project Status & PDA Summary (2025)"
+        },
+        {
+          "doc_id": "kimathanka-arun",
+          "score": 31.08987359,
+          "title": "Kimathanka Arun HEP"
+        },
+        {
+          "doc_id": "upper-karnali",
+          "score": 30.67811053,
+          "title": "Upper Karnali"
+        },
+        {
+          "doc_id": "upper-arun",
+          "score": 29.53871208,
+          "title": "Upper Arun Hydroelectric Project"
+        },
+        {
+          "doc_id": "inaruwa-purnea-interconnection",
+          "score": 28.34341757,
+          "title": "Inaruwa–Purnea 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "upper-karnali-pda-record",
+          "score": 24.97430714,
+          "title": "Upper Karnali — PDA, Financial Closure & Court Record"
+        },
+        {
+          "doc_id": "khimti-dhalkebar-corridor",
+          "score": 22.56256606,
+          "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor"
+        },
+        {
+          "doc_id": "hetauda-dhalkebar-inaruwa-backbone",
+          "score": 21.99847251,
+          "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone"
+        },
+        {
+          "doc_id": "dhungesangu-basantapur-220-132kv",
+          "score": 21.50071025,
+          "title": "Dhungesanghu–Basantapur 220/132 kV Corridor"
+        },
+        {
+          "doc_id": "nepal-transmission-landscape-2025",
+          "score": 19.93696504,
+          "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)"
+        },
+        {
+          "doc_id": "mugu-karnali-storage",
+          "score": 19.59431808,
+          "title": "Mugu Karnali Storage HEP"
+        },
+        {
+          "doc_id": "claim-transmission-immediate-blocker",
+          "score": 18.4077775,
+          "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+        },
+        {
+          "doc_id": "dana-kushma-butwal-corridor",
+          "score": 17.09874393,
+          "title": "Dana–Kushma–New Butwal 220 kV Corridor"
+        },
+        {
+          "doc_id": "data-layer-top-10-capacity-projects",
+          "score": 16.59243023,
+          "title": "Layer: Top-10 Capacity Projects"
+        },
+        {
+          "doc_id": "karnali-chisapani",
+          "score": 15.99427243,
+          "title": "Karnali Chisapani Project"
+        },
+        {
+          "doc_id": "bheri-corridor-400kv",
+          "score": 15.49476963,
+          "title": "Bheri Corridor 400 kV Transmission Line"
+        },
+        {
+          "doc_id": "likhu-4",
+          "score": 14.94892537,
+          "title": "Likhu-4"
+        },
+        {
+          "doc_id": "khimti-cascade",
+          "score": 14.88200833,
+          "title": "Khimti Cascade"
+        },
+        {
+          "doc_id": "dhalkebar-muzaffarpur",
+          "score": 14.77872956,
+          "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "tanahu-hydropower",
+          "score": 14.57463908,
+          "title": "Tanahu Hydropower Project"
+        },
+        {
+          "doc_id": "modi-lekhnath-132kv",
+          "score": 13.98465656,
+          "title": "New Modi–Lekhnath 132 kV Transmission Line"
+        },
+        {
+          "doc_id": "kabeli-132",
+          "score": 13.95662474,
+          "title": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor"
+        },
+        {
+          "doc_id": "marsyangdi-upper-220",
+          "score": 13.65895641,
+          "title": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV"
+        },
+        {
+          "doc_id": "hetauda-bharatpur-bardaghat-corridor",
+          "score": 13.53582833,
+          "title": "Hetauda–Bharatpur–Bardaghat 220 kV Corridor"
+        },
+        {
+          "doc_id": "mca-central-400",
+          "score": 13.22376191,
+          "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 12.97631943,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "solu-tingla-mirchaiya-132",
+          "score": 12.93434269,
+          "title": "Solu Corridor Tingla-Mirchaiya 132 kV"
+        },
+        {
+          "doc_id": "kali-gandaki-a",
+          "score": 12.80458068,
+          "title": "Kali Gandaki A"
+        },
+        {
+          "doc_id": "hydro-geopolitics",
+          "score": 12.6008279,
+          "title": "Hydro-Geopolitics"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-21",
+      "ranked_results": [
+        {
+          "doc_id": "nea-annual-report-fy2024-25",
+          "score": 28.60016204,
+          "title": "NEA Annual Report FY 2024/25"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 27.70754558,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "data-trade-time-series",
+          "score": 27.66799743,
+          "title": "Electricity Trade Time Series"
+        },
+        {
+          "doc_id": "data-domestic-demand",
+          "score": 26.8986198,
+          "title": "Domestic Electricity Demand Distribution"
+        },
+        {
+          "doc_id": "consumption-trajectory-outlook",
+          "score": 23.29312014,
+          "title": "Consumption Trajectory Outlook"
+        },
+        {
+          "doc_id": "seasonal-arbitrage-trap",
+          "score": 21.30215942,
+          "title": "Seasonal Arbitrage Trap"
+        },
+        {
+          "doc_id": "data-fleet-composition",
+          "score": 19.16858525,
+          "title": "Hydropower Fleet Composition"
+        },
+        {
+          "doc_id": "data-nepal-peak-load-curve-fy2024-25",
+          "score": 18.30339071,
+          "title": "Nepal Peak Load Curve FY 2024/25"
+        },
+        {
+          "doc_id": "data-industrial-electricity-consumers",
+          "score": 17.69616017,
+          "title": "Industrial Electricity Consumers in Nepal"
+        },
+        {
+          "doc_id": "tanahu-adb-status-2025",
+          "score": 16.64035699,
+          "title": "Tanahu Hydropower Project Status (ADB, 2024–2026)"
+        },
+        {
+          "doc_id": "data-final-energy-mix",
+          "score": 15.74073701,
+          "title": "Nepal Final Energy Mix"
+        },
+        {
+          "doc_id": "domestic-led-hydro-strategy",
+          "score": 15.65160213,
+          "title": "Domestic-Led Hydro Strategy"
+        },
+        {
+          "doc_id": "unresolved-questions",
+          "score": 15.4182355,
+          "title": "Unresolved Questions"
+        },
+        {
+          "doc_id": "data-solar-hydro-complementarity-profile",
+          "score": 15.13054766,
+          "title": "Solar–Hydro Complementarity Profile"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 14.83809563,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "intervention-electric-cooking-transition",
+          "score": 14.17584343,
+          "title": "Electric Cooking Transition"
+        },
+        {
+          "doc_id": "data-mountain-hydro-comparison",
+          "score": 13.9663887,
+          "title": "Mountain Hydro System Comparison"
+        },
+        {
+          "doc_id": "nepal-transmission-landscape-2025",
+          "score": 13.73092803,
+          "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 13.38624909,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "wecs-energy-synopsis-2024",
+          "score": 13.26131729,
+          "title": "WECS Energy Sector Synopsis Report 2024"
+        },
+        {
+          "doc_id": "data-ipsdp-milestone-ladder-2022-2040",
+          "score": 13.21901148,
+          "title": "IPSDP Milestone Ladder 2022-2040"
+        },
+        {
+          "doc_id": "nea",
+          "score": 13.1020625,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "data-consumption-geographic-distribution",
+          "score": 13.04594717,
+          "title": "Electricity Consumption Geographic Distribution"
+        },
+        {
+          "doc_id": "claim-mw-not-equal-value",
+          "score": 12.99467232,
+          "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated"
+        },
+        {
+          "doc_id": "moewri-ipsdp-exec-summary-2025",
+          "score": 12.85308582,
+          "title": "MoEWRI IPSDP Executive Summary"
+        },
+        {
+          "doc_id": "for-journalists",
+          "score": 12.84889457,
+          "title": "For Journalists"
+        },
+        {
+          "doc_id": "wb-country-economic-memo-2025",
+          "score": 12.81197414,
+          "title": "World Bank Nepal Country Economic Memorandum (2025)"
+        },
+        {
+          "doc_id": "india-cbte-2018",
+          "score": 12.70173781,
+          "title": "India Cross-Border Trade in Electricity Guidelines (2018)"
+        },
+        {
+          "doc_id": "irena-remap-nepal",
+          "score": 12.69913458,
+          "title": "IRENA Renewable Readiness Assessment and REmap Nepal"
+        },
+        {
+          "doc_id": "data-potential-pyramid",
+          "score": 12.69835214,
+          "title": "Hydropower Potential Pyramid"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-22",
+      "ranked_results": [
+        {
+          "doc_id": "chameliya-hydropower",
+          "score": 40.29788523,
+          "title": "Chameliya Hydropower"
+        },
+        {
+          "doc_id": "bhutan-hydropower-model",
+          "score": 21.37072348,
+          "title": "Bhutan Hydropower Model"
+        },
+        {
+          "doc_id": "myrepublica-pac-chameliya",
+          "score": 19.30068478,
+          "title": "\"My Republica — PAC Chameliya Investigation\""
+        },
+        {
+          "doc_id": "chameliya-jauljibi-interconnection",
+          "score": 18.01088029,
+          "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "kathmandu-post-chameliya",
+          "score": 15.60018719,
+          "title": "\"Kathmandu Post — Chameliya Hydropower Coverage\""
+        },
+        {
+          "doc_id": "chameliya-attariya-132",
+          "score": 15.46887601,
+          "title": "Chameliya-Syaule-Attariya 132 kV Line"
+        },
+        {
+          "doc_id": "urja-khabar-generation-audit",
+          "score": 13.54115243,
+          "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 13.08082381,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "sahas-urja",
+          "score": 12.42576796,
+          "title": "Sahas Urja — Solu Khola (Dudh Koshi) Hydroelectric Project"
+        },
+        {
+          "doc_id": "claim-governance-binding",
+          "score": 12.1386218,
+          "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives"
+        },
+        {
+          "doc_id": "ppa-pricing",
+          "score": 11.69152927,
+          "title": "PPA Pricing"
+        },
+        {
+          "doc_id": "nea-generation-directorate-2081",
+          "score": 11.4622774,
+          "title": "\"NEA Generation Directorate Data — FY 2080/81\""
+        },
+        {
+          "doc_id": "lower-solu",
+          "score": 11.0128047,
+          "title": "Lower Solu Hydropower Project"
+        },
+        {
+          "doc_id": "rasuwagadhi",
+          "score": 9.85009612,
+          "title": "Rasuwagadhi"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 9.72129635,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "karnali-chisapani",
+          "score": 9.14990685,
+          "title": "Karnali Chisapani Project"
+        },
+        {
+          "doc_id": "claim-transmission-immediate-blocker",
+          "score": 8.90593618,
+          "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+        },
+        {
+          "doc_id": "hydro-insurance",
+          "score": 8.73136241,
+          "title": "Hydro Insurance"
+        },
+        {
+          "doc_id": "claim-solar-political-coalition-is-rural",
+          "score": 8.65007593,
+          "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale"
+        },
+        {
+          "doc_id": "upper-arun",
+          "score": 8.18681638,
+          "title": "Upper Arun Hydroelectric Project"
+        },
+        {
+          "doc_id": "khare",
+          "score": 8.08817415,
+          "title": "Khare Hydropower Project"
+        },
+        {
+          "doc_id": "solu",
+          "score": 8.08692074,
+          "title": "Solu Hydropower Project"
+        },
+        {
+          "doc_id": "singati-khola-hydropower-project",
+          "score": 8.08441923,
+          "title": "Singati Khola Hydropower Project"
+        },
+        {
+          "doc_id": "mewa-khola-hydropower-project",
+          "score": 8.08317111,
+          "title": "Mewa Khola Hydropower Project"
+        },
+        {
+          "doc_id": "lantang-khola-reservoir",
+          "score": 8.07819621,
+          "title": "Lantang Khola Reservoir Hydropower Project"
+        },
+        {
+          "doc_id": "super-nyadi-hydropower-project",
+          "score": 8.06426782,
+          "title": "Super Nyadi Hydropower Project"
+        },
+        {
+          "doc_id": "super-mai",
+          "score": 8.05495667,
+          "title": "Super Mai Hydropower Project"
+        },
+        {
+          "doc_id": "super-dordi-kha-hydropower-project",
+          "score": 8.04413964,
+          "title": "Super Dordi Kha Hydropower Project"
+        },
+        {
+          "doc_id": "mithila-solar-dhanusha-10mwp",
+          "score": 8.02079044,
+          "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+        },
+        {
+          "doc_id": "pancheshwar",
+          "score": 8.01898299,
+          "title": "Pancheshwar Multipurpose Project"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-23",
+      "ranked_results": [
+        {
+          "doc_id": "data-potential-pyramid",
+          "score": 38.36604803,
+          "title": "Hydropower Potential Pyramid"
+        },
+        {
+          "doc_id": "wecs-hydropower-potential-2019",
+          "score": 36.07943751,
+          "title": "WECS Assessment of Hydropower Potential of Nepal (2019)"
+        },
+        {
+          "doc_id": "wb-nepal-power-sector-reform-2022",
+          "score": 25.83536082,
+          "title": "World Bank Nepal Power Sector Reform Roadmap (2022)"
+        },
+        {
+          "doc_id": "hydropower-potential-categories",
+          "score": 25.63524818,
+          "title": "Hydropower Potential Categories"
+        },
+        {
+          "doc_id": "wecs",
+          "score": 20.62904385,
+          "title": "Water and Energy Commission Secretariat (WECS)"
+        },
+        {
+          "doc_id": "wecs-river-basin-plan-2024",
+          "score": 15.8621436,
+          "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)"
+        },
+        {
+          "doc_id": "wb-niettp-load-shedding-gdp-cost",
+          "score": 15.73471404,
+          "title": "World Bank NIETTP Load-Shedding GDP-Cost Estimate"
+        },
+        {
+          "doc_id": "claim-mw-not-equal-value",
+          "score": 15.59026228,
+          "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated"
+        },
+        {
+          "doc_id": "figure-index",
+          "score": 14.24302249,
+          "title": "Figure Index"
+        },
+        {
+          "doc_id": "wb-water-sector-diagnostic",
+          "score": 13.95031305,
+          "title": "World Bank Nepal Water Sector Diagnostic"
+        },
+        {
+          "doc_id": "nefport-protected-area-hydro-ruling-2025",
+          "score": 12.52319463,
+          "title": "NEFPORT Protected-Area Hydropower Ruling Estimate (2025)"
+        },
+        {
+          "doc_id": "data-solar-fleet-inventory",
+          "score": 12.51819676,
+          "title": "Solar Fleet Inventory"
+        },
+        {
+          "doc_id": "irena-remap-nepal",
+          "score": 11.87075007,
+          "title": "IRENA Renewable Readiness Assessment and REmap Nepal"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 11.34212376,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "wb-household-electric-cooking-nepal-2025",
+          "score": 11.27813992,
+          "title": "World Bank / CCAC Economics of Household Cooking Using Electricity in Nepal"
+        },
+        {
+          "doc_id": "unresolved-questions",
+          "score": 10.10365401,
+          "title": "Unresolved Questions"
+        },
+        {
+          "doc_id": "rooftop-minigrid-offgrid",
+          "score": 9.97593866,
+          "title": "Rooftop, Mini-Grid, and Off-Grid Solar"
+        },
+        {
+          "doc_id": "firm-power",
+          "score": 9.89125954,
+          "title": "Firm Power"
+        },
+        {
+          "doc_id": "doed-licensing-directive-2075",
+          "score": 9.80580526,
+          "title": "DoED Licensing Directive 2075 — Hydropower Project Licensing"
+        },
+        {
+          "doc_id": "data-basin-discharge",
+          "score": 9.77572271,
+          "title": "Basin Discharge Data"
+        },
+        {
+          "doc_id": "data-storage-comparison",
+          "score": 9.61615661,
+          "title": "Storage Capacity Comparison"
+        },
+        {
+          "doc_id": "national-water-plan-nepal",
+          "score": 9.42628742,
+          "title": "National Water Plan, Nepal"
+        },
+        {
+          "doc_id": "wb-country-economic-memo-2025",
+          "score": 9.18157025,
+          "title": "World Bank Nepal Country Economic Memorandum (2025)"
+        },
+        {
+          "doc_id": "wb-esmap-solar-resource-assessment",
+          "score": 9.11926245,
+          "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement"
+        },
+        {
+          "doc_id": "nea-standard-ppa-clauses",
+          "score": 9.08238672,
+          "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment"
+        },
+        {
+          "doc_id": "koshi-basin",
+          "score": 8.80460468,
+          "title": "Koshi Basin"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 8.75693287,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "mahakali-basin",
+          "score": 8.0898261,
+          "title": "Mahakali Basin"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 8.08905912,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "data-mountain-hydro-comparison",
+          "score": 8.04373673,
+          "title": "Mountain Hydro System Comparison"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-24",
+      "ranked_results": [
+        {
+          "doc_id": "master-thesis",
+          "score": 20.2957327,
+          "title": "Master Thesis"
+        },
+        {
+          "doc_id": "start-here",
+          "score": 19.54626012,
+          "title": "Start Here"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 16.28460957,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 16.19295867,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "domestic-led-hydro-strategy",
+          "score": 15.32992219,
+          "title": "Domestic-Led Hydro Strategy"
+        },
+        {
+          "doc_id": "intervention-nea-structural-separation",
+          "score": 15.24778361,
+          "title": "NEA Structural Separation"
+        },
+        {
+          "doc_id": "india-cbte-2018",
+          "score": 15.19293977,
+          "title": "India Cross-Border Trade in Electricity Guidelines (2018)"
+        },
+        {
+          "doc_id": "claim-india-decisive-actor",
+          "score": 15.09485595,
+          "title": "India Is the Decisive External Actor in Nepal's Hydro Future"
+        },
+        {
+          "doc_id": "twenty-year-strategy",
+          "score": 14.9628632,
+          "title": "Twenty-Year Strategy"
+        },
+        {
+          "doc_id": "claim-domestic-led-strategy",
+          "score": 14.82891525,
+          "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support"
+        },
+        {
+          "doc_id": "erc-open-access-directive-2082",
+          "score": 14.12804185,
+          "title": "ERC Open Access Directive 2082"
+        },
+        {
+          "doc_id": "for-journalists",
+          "score": 13.9204218,
+          "title": "For Journalists"
+        },
+        {
+          "doc_id": "claim-governance-binding",
+          "score": 13.89300176,
+          "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives"
+        },
+        {
+          "doc_id": "nea-triple-authority",
+          "score": 13.16346255,
+          "title": "NEA Triple-Authority Conflict"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 13.1630845,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "nepal-power-trade-schemes",
+          "score": 12.41865294,
+          "title": "Nepal Power Trade Schemes"
+        },
+        {
+          "doc_id": "seasonal-arbitrage-trap",
+          "score": 12.30670475,
+          "title": "Seasonal Arbitrage Trap"
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnection-lines",
+          "score": 12.29906381,
+          "title": "Layer: Cross-Border Links"
+        },
+        {
+          "doc_id": "dhalkebar-muzaffarpur",
+          "score": 12.09463602,
+          "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 11.83683098,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "for-policymakers",
+          "score": 11.63203262,
+          "title": "For Policymakers"
+        },
+        {
+          "doc_id": "provider-comparison",
+          "score": 11.52884521,
+          "title": "Evidence Review Notes"
+        },
+        {
+          "doc_id": "claim-timing-not-volume",
+          "score": 11.29866353,
+          "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume"
+        },
+        {
+          "doc_id": "pancheshwar",
+          "score": 11.2084224,
+          "title": "Pancheshwar Multipurpose Project"
+        },
+        {
+          "doc_id": "mithila-solar-dhanusha-10mwp",
+          "score": 10.94875443,
+          "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+        },
+        {
+          "doc_id": "claim-pror-not-storage",
+          "score": 10.62182061,
+          "title": "PRoR Is Not Seasonal Storage"
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnections",
+          "score": 10.48271412,
+          "title": "Layer: Cross-Border Gateways"
+        },
+        {
+          "doc_id": "karnali-chisapani",
+          "score": 10.21763615,
+          "title": "Karnali Chisapani Project"
+        },
+        {
+          "doc_id": "unresolved-questions",
+          "score": 10.14942023,
+          "title": "Unresolved Questions"
+        },
+        {
+          "doc_id": "upper-karnali",
+          "score": 9.99332859,
+          "title": "Upper Karnali"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-25",
+      "ranked_results": [
+        {
+          "doc_id": "claim-climate-harder-not-easier",
+          "score": 28.22600327,
+          "title": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win"
+        },
+        {
+          "doc_id": "peak-water",
+          "score": 23.1255095,
+          "title": "Peak Water"
+        },
+        {
+          "doc_id": "icimod-hkh-glacier-change",
+          "score": 20.11887187,
+          "title": "ICIMOD HKH Glacier Change Summary"
+        },
+        {
+          "doc_id": "downstream-river-geopolitics",
+          "score": 20.10229552,
+          "title": "Downstream River Geopolitics"
+        },
+        {
+          "doc_id": "how-to-read-geopolitics-map",
+          "score": 17.02142198,
+          "title": "How To Read The Geopolitics Map"
+        },
+        {
+          "doc_id": "icimod-koshi-sediment-threats",
+          "score": 16.90857781,
+          "title": "ICIMOD Threats to the Koshi River Basin"
+        },
+        {
+          "doc_id": "koshi-basin",
+          "score": 16.25726619,
+          "title": "Koshi Basin"
+        },
+        {
+          "doc_id": "glof-risk",
+          "score": 15.82602905,
+          "title": "GLOF Risk"
+        },
+        {
+          "doc_id": "data-layer-downstream-dependency-zones",
+          "score": 15.47917282,
+          "title": "Layer: Downstream Dependency Zones"
+        },
+        {
+          "doc_id": "data-map-inventory",
+          "score": 13.38640228,
+          "title": "Map Inventory"
+        },
+        {
+          "doc_id": "data-map-layer-labels",
+          "score": 13.29146387,
+          "title": "Map Layer Labels"
+        },
+        {
+          "doc_id": "sediment-as-design-constraint",
+          "score": 12.25687349,
+          "title": "Sediment as Design Constraint"
+        },
+        {
+          "doc_id": "kulekhani-i",
+          "score": 11.34064875,
+          "title": "Kulekhani I"
+        },
+        {
+          "doc_id": "claim-india-decisive-actor",
+          "score": 11.25217859,
+          "title": "India Is the Decisive External Actor in Nepal's Hydro Future"
+        },
+        {
+          "doc_id": "claim-sediment-core-issue",
+          "score": 11.10644645,
+          "title": "Sediment Is a Central Design and Economics Constraint, Not an O&M Footnote"
+        },
+        {
+          "doc_id": "madhya-marsyangdi",
+          "score": 11.05177985,
+          "title": "Madhya Marsyangdi"
+        },
+        {
+          "doc_id": "data-layer-nepal-origin-route-callouts",
+          "score": 11.01484993,
+          "title": "Layer: Nepal-Origin Route Callouts"
+        },
+        {
+          "doc_id": "data-layer-future-regulation-scenario",
+          "score": 10.88282902,
+          "title": "Layer: Future Regulation Scenario"
+        },
+        {
+          "doc_id": "claim-domestic-led-strategy",
+          "score": 10.5842946,
+          "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support"
+        },
+        {
+          "doc_id": "buildability",
+          "score": 10.54758988,
+          "title": "Buildability"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 10.3330362,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "data-basin-discharge",
+          "score": 10.13325248,
+          "title": "Basin Discharge Data"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 9.97237189,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "intervention-q-design-climate-adjustment",
+          "score": 9.78228592,
+          "title": "Q-Design Climate Adjustment"
+        },
+        {
+          "doc_id": "kulekhani-cascade",
+          "score": 9.7803255,
+          "title": "Kulekhani Cascade"
+        },
+        {
+          "doc_id": "master-thesis",
+          "score": 9.61353123,
+          "title": "Master Thesis"
+        },
+        {
+          "doc_id": "icimod-koshi-basin",
+          "score": 9.53840489,
+          "title": "ICIMOD Koshi Basin Programme"
+        },
+        {
+          "doc_id": "kathmandu-valley-underground-cabling",
+          "score": 9.49131427,
+          "title": "Kathmandu Valley Underground Cabling"
+        },
+        {
+          "doc_id": "upper-trishuli-3a",
+          "score": 9.44200317,
+          "title": "Upper Trishuli 3A"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 9.32370763,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-26",
+      "ranked_results": [
+        {
+          "doc_id": "mugu-karnali-storage",
+          "score": 1.0,
+          "title": "Mugu Karnali Storage HEP"
+        },
+        {
+          "doc_id": "arun-3",
+          "score": 0.96,
+          "title": "Arun 3"
+        },
+        {
+          "doc_id": "upper-karnali",
+          "score": 0.92,
+          "title": "Upper Karnali"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 0.88,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "betan-karnali",
+          "score": 0.84,
+          "title": "Betan Karnali HP"
+        },
+        {
+          "doc_id": "dudhkoshi-storage",
+          "score": 0.8,
+          "title": "Dudhkoshi Storage"
+        },
+        {
+          "doc_id": "tamakoshi-3",
+          "score": 0.76,
+          "title": "Tamakoshi 3"
+        },
+        {
+          "doc_id": "sun-koshi-no-3",
+          "score": 0.72,
+          "title": "Sun Koshi No.3"
+        },
+        {
+          "doc_id": "environmental-flow-policy",
+          "score": 14.52811895,
+          "title": "Environmental Flow Policy"
+        },
+        {
+          "doc_id": "data-layer-future-regulation-scenario",
+          "score": 13.53736801,
+          "title": "Layer: Future Regulation Scenario"
+        },
+        {
+          "doc_id": "moewri-ipsdp-exec-summary-2025",
+          "score": 12.64428062,
+          "title": "MoEWRI IPSDP Executive Summary"
+        },
+        {
+          "doc_id": "downstream-river-geopolitics",
+          "score": 11.76420476,
+          "title": "Downstream River Geopolitics"
+        },
+        {
+          "doc_id": "nepal-energy-profile",
+          "score": 10.86657495,
+          "title": "Nepal Energy Profile"
+        },
+        {
+          "doc_id": "how-to-read-geopolitics-map",
+          "score": 10.54398673,
+          "title": "How To Read The Geopolitics Map"
+        },
+        {
+          "doc_id": "data-layer-nepal-origin-ocean-routes",
+          "score": 10.29789193,
+          "title": "Layer: Nepal-Origin Routes To Ocean"
+        },
+        {
+          "doc_id": "lower-solu",
+          "score": 9.99366272,
+          "title": "Lower Solu Hydropower Project"
+        },
+        {
+          "doc_id": "glof-risk",
+          "score": 9.65420814,
+          "title": "GLOF Risk"
+        },
+        {
+          "doc_id": "peak-water",
+          "score": 9.45214213,
+          "title": "Peak Water"
+        },
+        {
+          "doc_id": "super-madi",
+          "score": 9.29157019,
+          "title": "Super Madi"
+        },
+        {
+          "doc_id": "kosi-ganges-merge",
+          "score": 9.1296912,
+          "title": "Kosi-Ganges Merge"
+        },
+        {
+          "doc_id": "super-mai",
+          "score": 9.06560829,
+          "title": "Super Mai Hydropower Project"
+        },
+        {
+          "doc_id": "khimti-dhalkebar-corridor",
+          "score": 8.83049796,
+          "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor"
+        },
+        {
+          "doc_id": "super-dordi-kha-hydropower-project",
+          "score": 8.80310275,
+          "title": "Super Dordi Kha Hydropower Project"
+        },
+        {
+          "doc_id": "data-layer-cross-border-interconnections",
+          "score": 8.42809277,
+          "title": "Layer: Cross-Border Gateways"
+        },
+        {
+          "doc_id": "ganges-contribution",
+          "score": 8.24577735,
+          "title": "Nepal's Contribution to the Ganges"
+        },
+        {
+          "doc_id": "bhutan-hydropower-model",
+          "score": 8.20810242,
+          "title": "Bhutan Hydropower Model"
+        },
+        {
+          "doc_id": "india-energy-relationship",
+          "score": 8.11055681,
+          "title": "India — Energy Relationship with Nepal"
+        },
+        {
+          "doc_id": "tanahu-hydropower",
+          "score": 7.92877358,
+          "title": "Tanahu Hydropower Project"
+        },
+        {
+          "doc_id": "seasonal-mismatch",
+          "score": 7.82308928,
+          "title": "Seasonal Mismatch"
+        },
+        {
+          "doc_id": "super-nyadi-hydropower-project",
+          "score": 7.7607116,
+          "title": "Super Nyadi Hydropower Project"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-27",
+      "ranked_results": [
+        {
+          "doc_id": "upper-karnali",
+          "score": 41.96810389,
+          "title": "Upper Karnali"
+        },
+        {
+          "doc_id": "karnali-chisapani",
+          "score": 17.29322596,
+          "title": "Karnali Chisapani Project"
+        },
+        {
+          "doc_id": "betan-karnali",
+          "score": 15.61478972,
+          "title": "Betan Karnali HP"
+        },
+        {
+          "doc_id": "mugu-karnali-storage",
+          "score": 15.2609326,
+          "title": "Mugu Karnali Storage HEP"
+        },
+        {
+          "doc_id": "pancheshwar",
+          "score": 14.79618989,
+          "title": "Pancheshwar Multipurpose Project"
+        },
+        {
+          "doc_id": "phukot-karnali",
+          "score": 11.9742139,
+          "title": "Phukot Karnali"
+        },
+        {
+          "doc_id": "data-layer-top-10-capacity-projects",
+          "score": 11.54043953,
+          "title": "Layer: Top-10 Capacity Projects"
+        },
+        {
+          "doc_id": "karnali-solar-energy-project",
+          "score": 11.25257164,
+          "title": "Karnali Solar Energy Project"
+        },
+        {
+          "doc_id": "upper-arun",
+          "score": 10.90541597,
+          "title": "Upper Arun Hydroelectric Project"
+        },
+        {
+          "doc_id": "upper-karnali-pda-record",
+          "score": 10.72931869,
+          "title": "Upper Karnali — PDA, Financial Closure & Court Record"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 10.56157252,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "upper-tamakoshi",
+          "score": 10.29918139,
+          "title": "Upper Tamakoshi"
+        },
+        {
+          "doc_id": "upper-trishuli-1",
+          "score": 10.22640465,
+          "title": "Upper Trishuli-1"
+        },
+        {
+          "doc_id": "karnali-basin",
+          "score": 10.10215365,
+          "title": "Karnali Basin"
+        },
+        {
+          "doc_id": "humla-karnali-2",
+          "score": 9.8520754,
+          "title": "Humla Karnali 2 HPP"
+        },
+        {
+          "doc_id": "humla-karnali-1",
+          "score": 9.84713466,
+          "title": "Humla Karnali 1 HPP"
+        },
+        {
+          "doc_id": "upper-bhotekoshi",
+          "score": 9.67478438,
+          "title": "Upper Bhotekoshi"
+        },
+        {
+          "doc_id": "data-layer-priority-watchlist",
+          "score": 9.38400134,
+          "title": "Layer: Priority Watchlist"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 9.29831405,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "upper-tamor",
+          "score": 9.09740401,
+          "title": "Upper Tamor"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 9.06413736,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "upper-trishuli-3b",
+          "score": 9.04498694,
+          "title": "Upper Trishuli 3B"
+        },
+        {
+          "doc_id": "upper-marsyangdi-a",
+          "score": 8.97539301,
+          "title": "Upper Marsyangdi A"
+        },
+        {
+          "doc_id": "upper-chaku-a",
+          "score": 8.86360401,
+          "title": "Upper Chaku A"
+        },
+        {
+          "doc_id": "upper-khudi",
+          "score": 8.86360401,
+          "title": "Upper Khudi"
+        },
+        {
+          "doc_id": "upper-dordi-a",
+          "score": 8.85533613,
+          "title": "Upper Dordi A HEP"
+        },
+        {
+          "doc_id": "upper-lapche-khola",
+          "score": 8.85533613,
+          "title": "Upper Lapche Khola"
+        },
+        {
+          "doc_id": "upper-kalangad",
+          "score": 8.85258935,
+          "title": "Upper Kalangad"
+        },
+        {
+          "doc_id": "upper-nyasim-khola",
+          "score": 8.84984715,
+          "title": "Upper Nyasim Khola"
+        },
+        {
+          "doc_id": "kali-gandaki-upper",
+          "score": 8.8471095,
+          "title": "Kaligandaki Upper"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-28",
+      "ranked_results": [
+        {
+          "doc_id": "rooftop-minigrid-offgrid",
+          "score": 67.35565211,
+          "title": "Rooftop, Mini-Grid, and Off-Grid Solar"
+        },
+        {
+          "doc_id": "data-rooftop-shs-deployment",
+          "score": 62.69933296,
+          "title": "Rooftop and Solar Home System Deployment"
+        },
+        {
+          "doc_id": "claim-solar-political-coalition-is-rural",
+          "score": 62.46450373,
+          "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale"
+        },
+        {
+          "doc_id": "aepc",
+          "score": 60.61841657,
+          "title": "Alternative Energy Promotion Centre (AEPC)"
+        },
+        {
+          "doc_id": "aepc-renewable-framework",
+          "score": 60.57958583,
+          "title": "AEPC Renewable Framework and Progress Reports"
+        },
+        {
+          "doc_id": "karnali-solar-energy-project",
+          "score": 50.26482484,
+          "title": "Karnali Solar Energy Project"
+        },
+        {
+          "doc_id": "eib-rural-solar-phase2",
+          "score": 41.81114069,
+          "title": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II"
+        },
+        {
+          "doc_id": "wb-grid-solar-ee-project",
+          "score": 32.39191154,
+          "title": "World Bank Grid Solar and Energy Efficiency Project"
+        },
+        {
+          "doc_id": "data-nepal-solar-resource-zones",
+          "score": 29.41522049,
+          "title": "Nepal Solar Resource Zones"
+        },
+        {
+          "doc_id": "data-solar-fleet-inventory",
+          "score": 29.14490593,
+          "title": "Solar Fleet Inventory"
+        },
+        {
+          "doc_id": "mustang-high-altitude-solar-zone",
+          "score": 18.43361331,
+          "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone"
+        },
+        {
+          "doc_id": "solar-resource-geography-nepal",
+          "score": 17.73028449,
+          "title": "Solar Resource Geography of Nepal"
+        },
+        {
+          "doc_id": "nea-solar",
+          "score": 17.59942117,
+          "title": "NEA Solar Programme"
+        },
+        {
+          "doc_id": "intervention-electric-cooking-transition",
+          "score": 16.2848013,
+          "title": "Electric Cooking Transition"
+        },
+        {
+          "doc_id": "nea-960mw-solar-tender",
+          "score": 15.25244558,
+          "title": "NEA 960 MW National Solar Tender"
+        },
+        {
+          "doc_id": "bidur-trishuli-solar-25mwp",
+          "score": 14.19375203,
+          "title": "Bidur / Trishuli 25 MWp Solar Farm"
+        },
+        {
+          "doc_id": "doed-solar-power-plants-table",
+          "score": 13.98137913,
+          "title": "DoED Power Plants: Solar Table"
+        },
+        {
+          "doc_id": "data-domestic-demand",
+          "score": 13.98125599,
+          "title": "Domestic Electricity Demand Distribution"
+        },
+        {
+          "doc_id": "domestic-led-hydro-strategy",
+          "score": 13.80077282,
+          "title": "Domestic-Led Hydro Strategy"
+        },
+        {
+          "doc_id": "agrivoltaics-and-land",
+          "score": 13.09407769,
+          "title": "Agrivoltaics and Land"
+        },
+        {
+          "doc_id": "data-agricultural-energy-consumption",
+          "score": 13.01384046,
+          "title": "Agricultural Energy Consumption"
+        },
+        {
+          "doc_id": "solar-energy-lalitpur",
+          "score": 12.87745667,
+          "title": "\"Solar Energy\""
+        },
+        {
+          "doc_id": "dhalkebar-solar-3mw",
+          "score": 12.53760594,
+          "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\""
+        },
+        {
+          "doc_id": "ramgram-solar",
+          "score": 12.3443262,
+          "title": "\"Grid Connected Solar PV Project, Ramgram\""
+        },
+        {
+          "doc_id": "morang-utility-solar",
+          "score": 12.29814144,
+          "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\""
+        },
+        {
+          "doc_id": "khungri-solar-hybrid-50mw",
+          "score": 11.97204155,
+          "title": "Khungri Solar Award (50 MW, Rolpa)"
+        },
+        {
+          "doc_id": "claim-domestic-led-strategy",
+          "score": 11.51016531,
+          "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support"
+        },
+        {
+          "doc_id": "consumption-trajectory-outlook",
+          "score": 11.42306933,
+          "title": "Consumption Trajectory Outlook"
+        },
+        {
+          "doc_id": "butwal-solar-ridi-8-5mwp",
+          "score": 11.10494583,
+          "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)"
+        },
+        {
+          "doc_id": "dhalkebar-solar-1mw",
+          "score": 11.06198771,
+          "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\""
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-29",
+      "ranked_results": [
+        {
+          "doc_id": "nea-960mw-solar-tender",
+          "score": 18.00425757,
+          "title": "NEA 960 MW National Solar Tender"
+        },
+        {
+          "doc_id": "intervention-transmission-completion",
+          "score": 17.82213871,
+          "title": "Transmission Completion"
+        },
+        {
+          "doc_id": "nea-solar",
+          "score": 16.77573229,
+          "title": "NEA Solar Programme"
+        },
+        {
+          "doc_id": "bheri-corridor-400kv",
+          "score": 16.53696311,
+          "title": "Bheri Corridor 400 kV Transmission Line"
+        },
+        {
+          "doc_id": "nea",
+          "score": 16.39335481,
+          "title": "Nepal Electricity Authority (NEA)"
+        },
+        {
+          "doc_id": "modi-lekhnath-132kv",
+          "score": 15.4617522,
+          "title": "New Modi–Lekhnath 132 kV Transmission Line"
+        },
+        {
+          "doc_id": "tanahu-adb-status-2025",
+          "score": 14.10279651,
+          "title": "Tanahu Hydropower Project Status (ADB, 2024–2026)"
+        },
+        {
+          "doc_id": "khimti-dhalkebar-corridor",
+          "score": 13.10752538,
+          "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor"
+        },
+        {
+          "doc_id": "data-nea-transmission-length-fy2076-77",
+          "score": 12.96152225,
+          "title": "NEA Transmission Length FY 2076/77"
+        },
+        {
+          "doc_id": "tanahu-hydropower",
+          "score": 12.84279446,
+          "title": "Tanahu Hydropower Project"
+        },
+        {
+          "doc_id": "ratmate-rasuwagadhi-kerung-400kv",
+          "score": 12.26188046,
+          "title": "Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line"
+        },
+        {
+          "doc_id": "data-solar-fleet-inventory",
+          "score": 12.24006405,
+          "title": "Solar Fleet Inventory"
+        },
+        {
+          "doc_id": "hybrid-siting-logic",
+          "score": 11.93830975,
+          "title": "Hybrid Siting Logic"
+        },
+        {
+          "doc_id": "chilime-trishuli-220kv-transmission-line",
+          "score": 11.22626403,
+          "title": "Chilime-Trishuli 220 kV Transmission Line"
+        },
+        {
+          "doc_id": "urja-khabar-generation-audit",
+          "score": 10.95933649,
+          "title": "Urja Khabar Generation Audit — IPP Generation vs Contracted"
+        },
+        {
+          "doc_id": "mca-central-400",
+          "score": 10.89608322,
+          "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 10.85201908,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "claim-transmission-immediate-blocker",
+          "score": 10.84211032,
+          "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+        },
+        {
+          "doc_id": "for-journalists",
+          "score": 10.45793668,
+          "title": "For Journalists"
+        },
+        {
+          "doc_id": "data-layer-hydropower-construction",
+          "score": 10.3481346,
+          "title": "Layer: Hydropower - Construction"
+        },
+        {
+          "doc_id": "nea-transmission-annual-book-2077",
+          "score": 10.27813134,
+          "title": "NEA Transmission Annual Book 2077"
+        },
+        {
+          "doc_id": "niettp",
+          "score": 10.21347022,
+          "title": "Nepal–India Electricity Transmission and Trade Project (NIETTP)"
+        },
+        {
+          "doc_id": "dudhkoshi-storage",
+          "score": 10.08918434,
+          "title": "Dudhkoshi Storage Hydroelectric Project"
+        },
+        {
+          "doc_id": "chameliya-attariya-132",
+          "score": 9.97491597,
+          "title": "Chameliya-Syaule-Attariya 132 kV Line"
+        },
+        {
+          "doc_id": "western-132-backbone",
+          "score": 9.76276939,
+          "title": "Western Nepal 132 kV Backbone"
+        },
+        {
+          "doc_id": "ad-penalties",
+          "score": 9.4370867,
+          "title": "AD Penalties"
+        },
+        {
+          "doc_id": "stranded-generation",
+          "score": 9.35956858,
+          "title": "Stranded Generation"
+        },
+        {
+          "doc_id": "nawalpur-132kv-substation",
+          "score": 9.33359121,
+          "title": "Nawalpur 132 kV Substation"
+        },
+        {
+          "doc_id": "bangladesh-trade-route",
+          "score": 8.92661292,
+          "title": "Nepal–Bangladesh Electricity Trade Route"
+        },
+        {
+          "doc_id": "mustang-high-altitude-solar-zone",
+          "score": 8.76308162,
+          "title": "Mustang / Trans-Himalayan High-Altitude Solar Zone"
+        }
+      ]
+    },
+    {
+      "query_id": "real-v1-30",
+      "ranked_results": [
+        {
+          "doc_id": "dudhkoshi-storage",
+          "score": 37.03189239,
+          "title": "Dudhkoshi Storage Hydroelectric Project"
+        },
+        {
+          "doc_id": "claim-storage-physical-fix",
+          "score": 20.52157116,
+          "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch"
+        },
+        {
+          "doc_id": "tanahu-hydropower",
+          "score": 17.55392857,
+          "title": "Tanahu Hydropower Project"
+        },
+        {
+          "doc_id": "west-seti",
+          "score": 16.83919159,
+          "title": "West Seti Hydroelectric Project"
+        },
+        {
+          "doc_id": "uttarganga-storage",
+          "score": 14.82883751,
+          "title": "Uttarganga Storage Hydropower Project"
+        },
+        {
+          "doc_id": "data-layer-storage-shortlist",
+          "score": 14.33872202,
+          "title": "Layer: Storage Shortlist"
+        },
+        {
+          "doc_id": "nalsyau-gad",
+          "score": 14.29288438,
+          "title": "Nalsyau Gad"
+        },
+        {
+          "doc_id": "storage-deficit",
+          "score": 13.68745795,
+          "title": "Storage Deficit"
+        },
+        {
+          "doc_id": "sun-koshi-no-3",
+          "score": 13.54680386,
+          "title": "Sun Koshi No.3"
+        },
+        {
+          "doc_id": "karnali-chisapani",
+          "score": 13.15304208,
+          "title": "Karnali Chisapani Project"
+        },
+        {
+          "doc_id": "tamor-storage",
+          "score": 12.93084458,
+          "title": "Tamor Storage"
+        },
+        {
+          "doc_id": "pancheshwar",
+          "score": 12.62544667,
+          "title": "Pancheshwar Multipurpose Project"
+        },
+        {
+          "doc_id": "budhigandaki",
+          "score": 12.3502719,
+          "title": "Budhigandaki Hydroelectric Project"
+        },
+        {
+          "doc_id": "mugu-karnali-storage",
+          "score": 11.98868171,
+          "title": "Mugu Karnali Storage HEP"
+        },
+        {
+          "doc_id": "surke-dudhkoshi",
+          "score": 11.63107402,
+          "title": "Surke Dudhkoshi HEP"
+        },
+        {
+          "doc_id": "nea-960mw-solar-tender",
+          "score": 11.40924491,
+          "title": "NEA 960 MW National Solar Tender"
+        },
+        {
+          "doc_id": "claim-timing-not-volume",
+          "score": 11.15369231,
+          "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume"
+        },
+        {
+          "doc_id": "claim-pror-not-storage",
+          "score": 10.88594371,
+          "title": "PRoR Is Not Seasonal Storage"
+        },
+        {
+          "doc_id": "mithila-solar-dhanusha-10mwp",
+          "score": 10.45764582,
+          "title": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)"
+        },
+        {
+          "doc_id": "kulekhani-cascade",
+          "score": 10.14066878,
+          "title": "Kulekhani Cascade"
+        },
+        {
+          "doc_id": "dudhkoshi-nea-proposal-2024",
+          "score": 10.00701518,
+          "title": "Dudhkoshi Storage — NEA Proposal & Feasibility Record"
+        },
+        {
+          "doc_id": "moewri-ipsdp-exec-summary-2025",
+          "score": 9.75140457,
+          "title": "MoEWRI IPSDP Executive Summary"
+        },
+        {
+          "doc_id": "claim-ror-dominance",
+          "score": 9.73813784,
+          "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage"
+        },
+        {
+          "doc_id": "claim-transmission-immediate-blocker",
+          "score": 9.40245485,
+          "title": "Transmission and Delivery May Be the #1 Immediate Monetization Bottleneck"
+        },
+        {
+          "doc_id": "jica-ipsdp-main-report-vol2",
+          "score": 9.28071149,
+          "title": "JICA IPSDP Final Report Annexes (Vol. 2)"
+        },
+        {
+          "doc_id": "tanahu-adb-status-2025",
+          "score": 8.98116434,
+          "title": "Tanahu Hydropower Project Status (ADB, 2024–2026)"
+        },
+        {
+          "doc_id": "karnali-solar-energy-project",
+          "score": 8.7809757,
+          "title": "Karnali Solar Energy Project"
+        },
+        {
+          "doc_id": "lower-badigad",
+          "score": 8.61296833,
+          "title": "Lower Badigad"
+        },
+        {
+          "doc_id": "inaruwa-purnea-interconnection",
+          "score": 8.59986866,
+          "title": "Inaruwa–Purnea 400 kV Cross-Border Interconnection"
+        },
+        {
+          "doc_id": "claim-systems-conversion-failure",
+          "score": 8.54465591,
+          "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power"
+        }
+      ]
+    }
+  ]
+}

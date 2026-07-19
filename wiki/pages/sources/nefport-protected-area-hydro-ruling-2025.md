@@ -37,7 +37,3 @@ protected-area ruling. Wording should say "industry groups estimate" or
 - The 267 / 19,736 MW figure is an industry exposure estimate.
 - It is not a neutral court quantification and should not be treated as
   a legal annex to the ruling.
-
-## Used By
-
-- [[nepal-energy-profile]]

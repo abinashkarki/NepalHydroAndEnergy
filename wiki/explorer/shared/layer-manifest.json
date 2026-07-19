@@ -448,7 +448,7 @@
     "hydropower_operating": {
       "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
       "kind": "point",
-      "label": "Hydropower · Operating (83)",
+      "label": "Hydropower · Operating",
       "filter": {
         "field": "hydropower_status_class",
         "equals": "operating"
@@ -469,6 +469,8 @@
       },
       "popup_fields": [
         {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "doed_status_display", "label": "Official DoED status"},
+        {"field": "doed_source_updated_on", "label": "DoED register updated"},
         {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
@@ -540,22 +542,63 @@
         "wiki": "off"
       }
     },
+    "doed_operating_reference_midpoints": {
+      "path": "../../../data/processed/maps/doed_operating_projects_missing_local.geojson",
+      "kind": "point",
+      "pane": "np-reference-points",
+      "label": "DoED operating additions · reference midpoints, not facility locations",
+      "style": {
+        "color": "#3730a3",
+        "weight": 2,
+        "fillColor": "#818cf8",
+        "fillOpacity": 0.78,
+        "radius_field": "capacity_mw",
+        "radius_min": 5,
+        "radius_max": 12,
+        "radius_scale": "sqrt"
+      },
+      "popup_fields": [
+        {"field": "coordinate_precision", "label": "Map location"},
+        {"field": "delivery_status", "label": "DoED status"},
+        {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
+        "river",
+        {"field": "source_authority", "label": "Source authority"},
+        {"field": "source_updated_on", "label": "Register updated"},
+        {"field": "record_number", "label": "DoED record number"},
+        {"field": "local_registry_relation", "label": "Local coverage"}
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "capacity_mw",
+        "coordinate_precision"
+      ],
+      "name_field": "project",
+      "allow_draft": true,
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off"
+      }
+    },
     "hydropower_construction": {
       "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
       "kind": "point",
-      "label": "Hydropower · Construction (178)",
+      "label": "Hydropower · Generation licence",
       "filter": {
         "field": "hydropower_status_class",
-        "equals": "under-construction"
+        "equals": "licensed"
       },
       "aliases": [
         "hydropower_points"
       ],
       "tiered": true,
       "style": {
-        "color": "#1e40af",
+        "color": "#9a3412",
         "weight": 1.4,
-        "fillColor": "#60a5fa",
+        "fillColor": "#f59e0b",
         "fillOpacity": 0.55,
         "radius_field": "capacity_mw",
         "radius_min": 3,
@@ -564,6 +607,8 @@
       },
       "popup_fields": [
         {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "doed_status_display", "label": "Official DoED status"},
+        {"field": "doed_source_updated_on", "label": "DoED register updated"},
         {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
@@ -635,10 +680,48 @@
         "wiki": "off"
       }
     },
+    "hydropower_verified_construction": {
+      "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
+      "kind": "point",
+      "label": "Hydropower · Under construction (verified)",
+      "filter": {
+        "field": "hydropower_status_class",
+        "equals": "under-construction"
+      },
+      "aliases": ["hydropower_points"],
+      "tiered": true,
+      "style": {
+        "color": "#1e40af",
+        "weight": 1.8,
+        "fillColor": "#60a5fa",
+        "fillOpacity": 0.75,
+        "radius_field": "capacity_mw",
+        "radius_min": 4,
+        "radius_max": 13,
+        "radius_scale": "sqrt"
+      },
+      "popup_fields": [
+        {"field": "hydropower_status_display", "label": "Delivery status"},
+        {"field": "doed_status_display", "label": "Official DoED status"},
+        {"field": "license_type", "label": "Legacy registry licence"},
+        {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
+        "river", "district", "province"
+      ],
+      "tooltip_fields": ["project", "capacity_mw"],
+      "name_field": "project",
+      "roleByPreset": {
+        "overview": "secondary",
+        "tributaries": "muted",
+        "geopolitics": "muted",
+        "power_system": "primary",
+        "solar_system": "off",
+        "wiki": "off"
+      }
+    },
     "hydropower_survey": {
       "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
       "kind": "point",
-      "label": "Hydropower · Survey/study (311)",
+      "label": "Hydropower · Survey / application / study",
       "filter": {
         "field": "hydropower_status_class",
         "equals": "survey"
@@ -659,6 +742,8 @@
       },
       "popup_fields": [
         {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "doed_status_display", "label": "Official DoED status"},
+        {"field": "doed_source_updated_on", "label": "DoED register updated"},
         {"field": "license_type", "label": "Registry licence"},
         {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
         {"field": "project_type", "label": "Type"},
@@ -725,6 +810,44 @@
         "tributaries": "muted",
         "geopolitics": "muted",
         "power_system": "secondary",
+        "solar_system": "off",
+        "wiki": "off"
+      }
+    },
+    "hydropower_cancelled": {
+      "path": "../../../data/processed/maps/hydropower_project_display_points.geojson",
+      "kind": "point",
+      "label": "Hydropower · Cancelled record",
+      "filter": {
+        "field": "hydropower_status_class",
+        "equals": "cancelled"
+      },
+      "aliases": ["hydropower_points"],
+      "tiered": true,
+      "style": {
+        "color": "#7f1d1d",
+        "weight": 1.1,
+        "fillColor": "#ef4444",
+        "fillOpacity": 0.4,
+        "radius_field": "capacity_mw",
+        "radius_min": 2,
+        "radius_max": 8,
+        "radius_scale": "sqrt"
+      },
+      "popup_fields": [
+        {"field": "hydropower_status_display", "label": "Status"},
+        {"field": "doed_status_display", "label": "Official DoED status"},
+        {"field": "doed_source_updated_on", "label": "DoED register updated"},
+        {"field": "capacity_mw", "label": "Capacity", "suffix": " MW"},
+        "river", "district", "province"
+      ],
+      "tooltip_fields": ["project", "capacity_mw"],
+      "name_field": "project",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
         "solar_system": "off",
         "wiki": "off"
       }

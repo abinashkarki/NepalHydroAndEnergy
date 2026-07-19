@@ -76,13 +76,6 @@ Most of these overlap with the [[bottleneck-hierarchy]] for hydro, with one addi
 - IRENA REmap pathways are **normative scenarios, not forecasts.** Use for direction of travel, not for calendar-year predictions.
 - Global LCOE benchmarks reflect **weighted averages**; Nepal-specific numbers should always be context-adjusted for grid costs, land costs, and FX.
 
-## Used By
-
-- [[data-solar-hydro-lcoe]]
-- [[global-solar-atlas-nepal]]
-- [[solar-role-in-winter-deficit]]
-- [[wb-esmap-solar-resource-assessment]]
-
 ## Related
 
 - [[wb-esmap-solar-resource-assessment]] — the measured-resource complement

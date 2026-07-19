@@ -24,18 +24,20 @@ explorer/
   shared/
     style.css                         # base stylesheet
     leaflet-init.js                   # makeMap, LayerManager, popupHTML, slug lookup
+    source-used-by.js                 # computed backlinks / source Used By renderer
     wiki-loader.js                    # markdown loader, frontmatter split, wikilink rewriter
-    wiki-search.js                    # fast static Search / Seek runtime
-    wiki-vector-search.js             # lazy query-vector boost for Seek
-    layer-manifest.json               # declarative layer definitions (all 16 layers)
+    wiki-search.js                    # fast lexical + structured search runtime
+    wiki-vector-search.js             # on-demand semantic reranking for conceptual queries
+    layer-manifest.json               # declarative layer definitions (29 layers)
     presets.json                      # named map lenses (mirrors docs/maps/*.html)
     bindings.json                     # slug ↔ feature(s) mapping (stand-in for frontmatter)
     wiki-page-index.json              # built by scripts/build_wiki_page_index.py
     wiki-page-meta.json               # built by scripts/build_wiki_page_meta.py
-    wiki-fact-index.json              # structured facts for factual Seek answers
+    wiki-backlinks.json               # built by scripts/build_backlinks.py
+    wiki-fact-index.json              # structured facts for answer-first search
     wiki-search-index.json            # built by scripts/build_wiki_search_index.py
     wiki-vector-index.json            # quantized chunks built by scripts/build_wiki_vector_index.py
-    wiki-search-aliases.json          # curated Seek query expansion terms
+    wiki-search-aliases.json          # curated query expansion terms
 ```
 
 ## Data sources (live, not duplicated)
@@ -43,17 +45,45 @@ explorer/
 - Wiki markdown: `../pages/{sources,entities,concepts,syntheses,claims,data}/*.md`
 - GeoJSON layers: `../../data/processed/maps/*.geojson`
 
+## Interaction philosophy
+
+The explorer is an evidence reader with a spatial companion, not a map dashboard
+with articles attached. Its interaction rules are:
+
+1. **Start with the user's question.** Find is the primary discovery surface;
+   browse categories stay collapsed until the reader chooses one.
+2. **State knowledge depth honestly.** A **Record** is a registry-backed factual
+   page, **Analysis** adds substantial narrative and sourcing, and **Map only**
+   means no wiki page exists. Visual polish must not blur those distinctions.
+3. **Let the page lead and the map explain place.** Opening a page preserves the
+   chosen map lens and adds only the context needed for that page.
+4. **Claims and counts must come from the matching data path.** Structured search
+   may summarize only structured facts. Lexical results may recommend a page but
+   must not be presented as a factual project set. The map reports what actually
+   resolved to geometry, not what merely has a binding entry.
+5. **Prefer progressive disclosure.** Presets answer common questions; individual
+   layers, the full wiki index, and long related-result lists are secondary tools.
+6. **Every spatial detour is reversible.** Temporary search overlays preserve the
+   previous preset, layers, centre and zoom, with an explicit restore action.
+7. **Mobile presents one task at a time.** Find, Read and Map are distinct modes;
+   a shared search URL reopens in Find, while a page-only link reopens in Read.
+
+When behavior is ambiguous, choose the state that makes provenance, uncertainty
+and the user's next reversible action clearest.
+
 ## Features
 
 ### Map presets (lenses)
-A pill bar at the top of the map flips between five named layer sets:
+A pill bar at the top of the map flips between six named layer sets:
 
 | Preset | What it shows | Mirrors |
 |---|---|---|
-| **Tributaries** (default) | rivers + downstream + operating / under-construction hydro | `nepal_tributary_explorer.html` |
+| **Overview** (default) | national project and system overview | — |
+| **Tributaries** | rivers + downstream + operating / under-construction hydro | `nepal_tributary_explorer.html` |
 | **Geopolitics** | basin polygons (Nepal + India), comparison rivers, origin/control callouts, downstream impact markers | `nepal_geopolitics_river_influence.html` |
-| **Power** | traced corridors, grid hubs, cross-border gateways, priority watchlist, storage shortlist, project cloud | `nepal_power_system_explorer.html` |
-| **Minimal** | country outline + basin polygons | — |
+| **Power system** | traced corridors, grid hubs, cross-border gateways, priority watchlist, storage shortlist, project cloud | `nepal_power_system_explorer.html` |
+| **Solar system** | solar resources, projects and grid context | — |
+| **Wiki minimal** | restrained map context for reading | — |
 
 The current preset is reflected in the URL (`?preset=power_system`). Opening a wiki page **adds** that page's bound layers on top of the active preset rather than replacing it, so you keep your chosen lens. Use the `≡` button to open the per-layer toggle panel.
 
@@ -64,7 +94,7 @@ Presets and layers are declarative: edit `shared/presets.json` to add a new lens
 ### Resizable panes
 Drag the vertical bars between panes. Widths persist in `localStorage`.
 **Reset layout** in the app bar clears all viewer preferences (widths,
-collapsed groups, search mode).
+collapsed groups and map preferences).
 
 ### Nav
 Collapsible category sections (Entities · Concepts · Claims · Syntheses · Data
@@ -73,24 +103,24 @@ Geopolitics & Trade / Profiles** — subcategory inferred from frontmatter
 `tags:` and slug patterns by `scripts/build_wiki_page_meta.py`. Spatial
 anchoring is shown via the leading dot: ● = mapped, ○ = no spatial binding.
 
-Click a category header to collapse/expand it. State is persisted.
+Categories start collapsed to keep discovery scannable. Click a category header
+to expand it; state is persisted.
 
-### Search modes
-- **Search** — substring match on page titles. Instant. Best when you know the
-  page or project name.
-- **Seek** — routed discovery. Factual/superlative questions use the structured
-  fact index first, then show supporting wiki pages. Facts without narrative
-  wiki pages open generated data-record details and fly to the exact map feature,
-  keeping the wiki curated without hiding complete map inventory. Conceptual
-  questions search page text, tags, headings, phrase-aware aliases, and
-  precomputed chunk vectors. It shows fast static results immediately, then may
-  lazily load a small browser embedding model to add a meaning-based boost for
-  the query. It never embeds the page corpus in the browser. Try queries like
-  *"what is the biggest hydro plant"*, *"biggest solar project"*,
-  *"winter deficit"*, *"firm power"*, *"India export risk"*, or
-  *"storage projects Karnali"*.
+### Search and decision UX
 
-Seek is rebuilt by `scripts/build_wiki_fact_index.py` from local processed map
+The unified Find surface handles exact page lookup, normal-language questions,
+structured project filters and source seeking. Structured matches produce an
+answer-first summary, followed by grouped project, analysis, source and related
+results. Queries and active filters are reflected in the URL. Keyboard users can
+focus Find with `/` or Cmd/Ctrl+K and navigate results with the arrow keys.
+
+Status, basin, storage and capacity questions are filtered through the fact
+index before ranking. Conceptual questions show fast local results first and
+load the optional semantic index only when reranking may help. Spatial result
+sets can be shown as a temporary map-only overlay and then restored without
+discarding the prior preset.
+
+Search artifacts are rebuilt by `scripts/build_wiki_fact_index.py` from local processed map
 datasets, by `scripts/build_wiki_search_index.py` from `wiki-page-meta.json`
 plus `wiki-search-aliases.json`, and by `scripts/build_wiki_vector_index.py`
 from local markdown chunks. The vector index uses
@@ -117,6 +147,12 @@ If your wiki page already has the slug `my-new-page-slug.md` under
 
 The bindings live centrally for now; same shape works as per-page YAML
 frontmatter (`map:` block) when we want to migrate.
+
+## Computed source Used By
+
+Source-page `Used By` sections are not maintained in markdown. The reader loads
+`shared/wiki-backlinks.json` and renders exact backlinks as `Used By` for source
+pages. If page links change, rebuild wiki metadata before release.
 
 ## Regenerating the page indices
 

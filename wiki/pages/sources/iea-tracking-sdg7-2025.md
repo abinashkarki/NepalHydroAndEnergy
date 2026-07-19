@@ -37,7 +37,3 @@ and should not be used for current narration without a year label.
 - This is a global access benchmark, not Nepal-specific.
 - The headline figure refers to **2023** access status, published in
   the 2025 report cycle.
-
-## Used By
-
-- [[nepal-energy-profile]]

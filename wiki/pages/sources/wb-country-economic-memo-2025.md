@@ -3,13 +3,21 @@ title: World Bank Nepal Country Economic Memorandum (2025)
 type: source
 created: 2026-04-14
 updated: 2026-04-14
+reviewed: 2026-07-19
+review_due: 2027-03-01
 source_type: report
 source_author: World Bank
 source_date: 2025-03-01
 source_url: https://documents1.worldbank.org/curated/en/099032125103030263/pdf/P179761-430153ad-672c-4418-89c5-ef3740c65113.pdf
+source_status: public-online
+accessed: 2026-07-19
+verification_status: institutional-source-checked
 sources: []
 tags: [world-bank, economics, trade, grid, ipp, official]
-page_quality: analysis
+excerpt: The World Bank's 2025 account of Nepal's growth constraints, including power-sector expansion, trade and enterprise reliability evidence.
+caveat: Many figures have 2022–2024 cutoffs and do not replace current NEA operating records or a utility interruption series.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # World Bank Nepal Country Economic Memorandum (2025)
@@ -40,12 +48,3 @@ Key source for the IPP-driven growth story, the trade transformation timeline, a
 - **Snapshot date:** Published March 2025; covers data through end-2024. Does not capture 2025 capacity additions or trade shifts.
 - **Firm-level data:** The 76% outage figure and 13% sales-loss figure are from a World Bank enterprise survey (2022) — representative but not annual-update series.
 - **Trade data:** The 2023 import/export figures are calendar-year approximations from the report narrative, not identical to NEA fiscal-year accounting.
-
-## Used By
-
-- [[budhigandaki]]
-- [[data-fleet-composition]]
-- [[data-trade-time-series]]
-- [[figure-index]]
-- [[irena-remap-nepal]]
-- [[wb-grid-solar-ee-project]]

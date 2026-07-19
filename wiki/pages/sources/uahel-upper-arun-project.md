@@ -35,7 +35,3 @@ Provides the current project-parameter basis for [[upper-arun]], replacing the e
 - **Developer source.** This is the project company's own public page and should be cross-checked against NEA annual reports, DoED licenses, lender documents, and environmental approvals.
 - **Preparation-stage status.** The page describes project preparation and target schedule; it does not prove financial closure, PPA execution, or construction commencement.
 - **Dynamic page.** The project page may update without a versioned archive, so numbers should be rechecked during any future deep-research pass.
-
-## Used By
-
-- [[upper-arun]]

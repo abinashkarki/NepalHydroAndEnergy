@@ -1,0 +1,123 @@
+local_project,legacy_capacity_mw,current_official_capacity_mw,decision,decision_basis
+Budhi Gandaki Prok Khola HEP,420,81,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Upper Tamor HEP,32.5,285,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Betan Karnali HP,688,439,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Jagdulla HEP,307,106,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Bheri-1 HEP,440,270,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Surke Dudhkoshi HEP,350,188,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Dudhkoshi-6 HEP,83,171,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Seti Nadi-3,165,87,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Dudhkoshi-9 HPP,111,166,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Upper Barunkhola HEP,55,109.5,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Phukot Karnali,426,480,publish_dual_value,Exact high-confidence DoED identity match; preserve legacy Naxa snapshot
+Lower Seti (Tanahu) HEP,92,126,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Lower Isuwa Khola HPP,37.7,4.9,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Marshyangdi-7 Hydropower Project,54,85,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Dana Khola Hydropower Project,19,49.95,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Dadagau Khalanga Bheri Hydropower Project,128,97.43,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Upper Myagdi-I HEP,80,53.5,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Palun khola 1 Hydropower Project,4.95,30,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Middle Mewa HPP,49,73.5,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Kuwadi Khola Hydropower Project,9.6,30,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Lapche- Tamakoshi HEP,22,42,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Gapuche Madi Nadi HEP,24,4.9,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Middle Tamor,54,73,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Upper Budhigandaki HEP,203,220,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Upper Myagdi,20,37,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Chujung Khola HEP,48,63,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Chunchet Syar Khola HEP,60,45,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Tamakoshi- 9 HEP,24.46,10.5,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Upper Nyasem A HEP,7.5,21,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Tamakoshi V,87,99.8,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Kunban Khola HPP,8.2,20,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Hongu Khola I HEP,18.64,30,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Kalika Kaligandaki HEP,49.5,38.16,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Super Tamor,155,166,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Upper Apsuwa HEP,24.6,35.15,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Bagmati Nadi,22,32,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Langtang Khola Small Hydropower Project,10,20,publish_dual_value,Exact high-confidence single-record DoED identity match; preserve legacy Naxa snapshot
+Super Budhigandaki,52,34.39,publish_dual_value,Exact high-confidence current DoED government-study record; exclude the historical cancelled survey application and preserve legacy Naxa snapshot
+Simbuwa Khola Hydroelectric Project,53.7,70.3,publish_dual_value,Exact high-confidence current DoED generation licence 377; exclude historical cancelled applications and preserve legacy Naxa snapshot
+Upper Sankhuwa Khola HEP,24,40,publish_dual_value,Exact high-confidence current DoED generation licence 416; exclude the historical cancelled SHP application and preserve legacy Naxa snapshot
+Middle Chameliya HPP,13,28.304,publish_dual_value,Exact high-confidence current DoED generation licence 470; exclude the historical cancelled survey application and preserve legacy Naxa snapshot
+Upper Tamor A HPP,72,60,publish_dual_value,Exact high-confidence current DoED generation licence 512; exclude the historical cancelled survey application and preserve legacy Naxa snapshot
+Balephi A,10.6,22.14,publish_dual_value,Exact high-confidence current DoED generation licence 132; exclude historical cancelled survey applications and preserve legacy Naxa snapshot
+Kapadigad,3.3,3.33,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Arun Khola 2 HEP,2.16,2.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Melamchi HEP,4.6,4.95,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Kalinchok Small,2.6,3.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Sardi Hydropower Project,3.3,2.9,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Kisedi Khola Small HPP,4.6,4.1,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Lower Hewa,21.6,22.1,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Syano Khola HPP,4.2,4.75,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Lower Rupse Khola HEP,2.5,1.86,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Sipa Khola HEP,1.514,0.8,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Phedi Khola (Thumlung) Small HPP,3.52,4.3,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Down Piluwa,9.5,10.3,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Super Mai Khola Cascade HPP,3.8,3.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Piluwa-1,8.51,7.7,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Pikhuwa Pashupati HEP,3.28,4.1,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Irkhuwa Khola Ka HPP,14.1,15.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Lower Tawakhola HEP,8.0,7.1,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Super Most Iwa,3.7,4.6,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Lower Melamchi HEP,4.0,4.96,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Chhomron Khola Small Hydro Power Project,3.914,4.894,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Super Melamchi Hydropower Project,24.7,23.6,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Middle Molung Khola Small HEP,4.839,6.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Ghatte Khola Small HPP,2.73,1.478,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Dhaula Khola HEP,9.5,10.8,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Syalque Khola Small HEP,3.41,4.8,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Taksu Small HPP,4.87,6.3,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Super Kabeli Khola A,15.0,13.5,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Most Iwa Khola HEP,2.5,4.1,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Dordi-1,10.3,12.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Middle Midim,3.1,4.8,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Dordi Dudh Khola Small Hydropower,20.8,19.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Darkhola Small HPP,4.64,6.5,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Machhe Khola HPP,18.0,16.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Jurimba Khola Small Hydropower Project,9.824,7.63,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Super Inkhu Khola,22.12,24.41,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Malta Bagmati Small Hydro Power Project,8.85,6.5,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Maiwa HPP,15.5,17.85,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Thapa Khola,11.2,13.6,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Lower Bhim Khola HPP,3.6,6.05,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Tamor Khola-5 HEP,40.0,37.5,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Midim 1 HEP,16.0,13.424,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Budum,11.8,14.5,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Sani Bheri 3 HEP,49.59,46.72,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Middle Modi,15.1,18.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Ankhu Khola,35.0,38.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Tadi Ghyamphedi HPP,4.7,8.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Brahmayani HPP,40.0,36.52,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Mewa Khola -A HPP,28.22,31.92,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Sona Khola Hydropower Project,5.0,9.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Modi HPP cascade project,14.0,18.2,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Super Dordi Kha Hydropower Project,49.6,54.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Bhurundi Khola- A Small HEP,4.5,9.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Brahmayeni HEP,20.07,15.15,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Sunigad HEP,8.42,14.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Super Lower Bagmati HPP,35.9,41.86,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Myagdi Khola A HEP,23.7,30.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Nalsyau Gad Storage HEP,410.0,417.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Hongu Khola HPP,21.87,28.9,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Super Kabeli Khola HPP,20.0,12.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Upper Mailung B Hydropower Project,7.5,17.0,retain_legacy_below_materiality,Exact high-confidence single-record DoED identity match; difference below 10 MW materiality threshold; preserve legacy Naxa snapshot
+Kabeli-3 HEP,21.93,21.93,retain_legacy_below_materiality,Reviewed HydroMap normalized-name collision with the distinct 9.85 MW Kabeli-3 record; official alias match is operating record 350 Kabeli-3 Cascade HEP at the same 21.93 MW and near-identical midpoint
+Ikhuwa Khola HEP,30.0,40.0,publish_dual_value,Current DoED generation application 8118 is held by Upper Arun Hydro Electric Limited; the same promoter held cancelled 30 MW survey application 4421, establishing a capacity revision while excluding unrelated smaller cancelled applications
+Myagdi Khola- B HEP,9.5,12.5,retain_legacy_below_materiality,Reviewed HydroMap collision with the distinct 3.06 MW application; high-confidence DoED alias match is generation licence 489 Maygdi Khola- B HEP at 12.5 MW and the same midpoint
+Jum Khola Hydropower Project,62.0,56.0,retain_legacy_below_materiality,Current DoED generation licence 342 is the only active Jum Khola record and the only comparable utility-scale record; exclude unrelated cancelled applications below 5 MW
+Ghar Khola,8.3,14.0,retain_legacy_below_materiality,Current DoED operating record 137 is the sole active Ghar Khola record; exclude the unrelated 4.79 MW cancelled survey application held by a different promoter
+Tatopani khola HPP,24.3,19.0,retain_legacy_below_materiality,Current DoED generation licence 410 matches the Tatopani Ilep river identity; exclude the distinct 7 MW cancelled Tatopani application held by another promoter
+Kimathanka Arun HEP,450.0,454.0,retain_legacy_below_materiality,Current DoED generation application 8701 is the sole active Kimathanka Arun record and matches the utility-scale project; exclude unrelated cancelled 30 MW and 95 MW applications
+Suti Khola Hydropower Project,17.0,21.0,retain_legacy_below_materiality,Current DoED generation licence 431 is the sole active Suti Khola record and the only utility-scale record; exclude the unrelated sub-1 MW cancelled application
+Balephi Khola HEP,42.14,40.0,retain_legacy_below_materiality,Current DoED generation licence 453 is the sole active Balephi Khola record and matches the utility-scale project; exclude historical cancelled applications held by other promoters
+Lower Nyadi HPP,10.5,12.6,retain_legacy_below_materiality,Current DoED generation licence 387 is the sole active Lower Nyadi record and the only current record; exclude historical cancelled applications held by other promoters
+Sabha Khola A,8.3,10.4,retain_legacy_below_materiality,Exact high-confidence match to the sole DoED Sabha Khola A generation licence 128; preserve the legacy Naxa snapshot below the 10 MW publication threshold
+Upper Solu Khola HPP,18.0,19.8,retain_legacy_below_materiality,Current DoED operating record 169 is the sole active Upper Solu Khola record; exclude the unrelated sub-1 MW cancelled application
+Molung Cascade HEP,3.5,3.5,retain_legacy_below_materiality,Reviewed HydroMap normalized-name collision with the distinct 2.4 MW application; DoED exact match is the 3.5 MW Molung Cascade HEP cancelled survey-licence record
+Chyandi Khola,5.1,4.2,retain_legacy_below_materiality,Current DoED generation licence 505 is the sole active Chyandi Khola record; exclude the historical 4.5 MW cancelled application held by a different promoter
+Sabha Khola A HEP,9.55,9.55,retain_legacy_below_materiality,Reviewed HydroMap collision with the distinct 10.4 MW Sabha Khola A project; official alias match is generation licence 492 Super Sabha Khola A HEP at the same 9.55 MW and exact midpoint
+Jogmai Cascade,6.0,5.2,retain_legacy_below_materiality,DoED operating record 285 and historical cancelled application 4180 share the same promoter, establishing the current 5.2 MW lifecycle record
+Super Iwa Khola HEP,4.0,4.795,retain_legacy_below_materiality,Current DoED generation licence 461 is the sole active Super Iwa Khola record; exclude the unrelated 1.7 MW cancelled application held by another promoter
+Chino Khola HEP,8.5,7.9,retain_legacy_below_materiality,Current DoED generation licence 375 is the sole active Chino Khola record; exclude the historical 4.6 MW cancelled application held by another promoter
+Lower Mid Rawa Khola HEP,3.64,4.0,retain_legacy_below_materiality,Current DoED generation licence 319 is the sole active Lower Mid Rawa record; preserve the legacy value associated with historical cancelled application 4929

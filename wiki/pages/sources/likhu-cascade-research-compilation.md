@@ -29,12 +29,4 @@ Comprehensive research compilation covering the 213 MW Likhu hydropower cascade 
 - **Single-cascade scope.** Covers only the Likhu cascade; findings on stranded generation, corridor dependency, and redesign dynamics are not necessarily representative of other Nepal cascades.
 - **Snapshot date.** Ratings and financial data reflect March 2026 CARE-NP assessment; does not capture subsequent operational or financial developments.
 
-## Used By
-
-- [[likhu-1]]
-- [[likhu-2]]
-- [[likhu-4]]
-- [[likhu-cascade]]
-- [[likhu-khola-a]]
-
 ## See also

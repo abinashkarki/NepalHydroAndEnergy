@@ -1,0 +1,377 @@
+{
+  "schema_version": "retrieval-holdout.v1",
+  "artifact_type": "query_set",
+  "set_id": "nepal-energy-real-v1-30",
+  "purpose": "real_holdout",
+  "status": "frozen",
+  "provenance": {
+    "created_by": "OpenAI Codex, internal simulated-persona assessment",
+    "created_at": "2026-06-20T07:34:52Z",
+    "frozen_at": "2026-06-20T07:38:00Z",
+    "judgments_established_before_system_execution": true,
+    "system_results_inspected_during_judging": false,
+    "notes": "Exactly 30 queries from six simulated personas, five each. Queries and graded relevance were created by internal assessment from direct wiki markdown reading. The independent reviewer was a second simulated internal role, not an external participant. This is not external user research. No candidate rankings, aliases, generated indexes, or search output were inspected before freeze."
+  },
+  "queries": [
+    {
+      "id": "real-v1-01",
+      "query": "Why does Nepal export electricity in the monsoon but still import power in winter?",
+      "query_type": "conceptual",
+      "notes": "persona=P1; simulated Nepali citizen/general reader; seasonal trade explanation",
+      "judgments": [
+        {"doc_id": "seasonal-mismatch", "relevance": 3, "rationale": "Direct plain-language explanation of monsoon-heavy generation, stable demand, wet surplus, and dry deficit."},
+        {"doc_id": "data-trade-time-series", "relevance": 3, "rationale": "Directly documents import/export seasonality and annual trade values with caveats."},
+        {"doc_id": "nepal-energy-profile", "relevance": 2, "rationale": "Country overview explicitly states the monsoon-export and dry-season-import paradox."},
+        {"doc_id": "run-of-river-hydropower", "relevance": 1, "rationale": "Explains the fleet physics behind the pattern but not the trade record itself."}
+      ]
+    },
+    {
+      "id": "real-v1-02",
+      "query": "Is most of Nepal's hydropower run-of-river, and what does that mean in the dry months?",
+      "query_type": "conceptual",
+      "notes": "persona=P1; simulated Nepali citizen/general reader; fleet composition and consequence",
+      "judgments": [
+        {"doc_id": "run-of-river-hydropower", "relevance": 3, "rationale": "Defines RoR and directly explains why output falls in Nepal's dry season."},
+        {"doc_id": "data-fleet-composition", "relevance": 3, "rationale": "Provides the RoR, PRoR, and storage shares plus wet/dry generation split."},
+        {"doc_id": "seasonal-mismatch", "relevance": 2, "rationale": "Substantially explains the dry-season consequence of an RoR-dominated fleet."},
+        {"doc_id": "firm-power", "relevance": 1, "rationale": "Useful for dependable-output implications but does not establish the fleet share."}
+      ]
+    },
+    {
+      "id": "real-v1-03",
+      "query": "How much of household energy in Nepal still comes from firewood compared with electricity?",
+      "query_type": "attribute_lookup",
+      "notes": "persona=P1; simulated Nepali citizen/general reader; residential fuel comparison",
+      "judgments": [
+        {"doc_id": "data-final-energy-mix", "relevance": 3, "rationale": "Contains the residential fuel-by-sector matrix, including fuelwood and electricity quantities and shares."},
+        {"doc_id": "wecs-energy-synopsis-2024", "relevance": 3, "rationale": "Upstream official source page for the final-energy and household-fuel figures."},
+        {"doc_id": "energy-substitution-pathway", "relevance": 2, "rationale": "Interprets residential fuelwood as Nepal's largest energy flow and compares it with electricity."},
+        {"doc_id": "data-domestic-demand", "relevance": 1, "rationale": "Explains low electric cooking and residential electricity use but is not a full household fuel balance."}
+      ]
+    },
+    {
+      "id": "real-v1-04",
+      "query": "Would switching to electric cooking really reduce Nepal's LPG imports and indoor air pollution?",
+      "query_type": "conceptual",
+      "notes": "persona=P1; simulated Nepali citizen/general reader; cooking transition benefits and limits",
+      "judgments": [
+        {"doc_id": "intervention-electric-cooking-transition", "relevance": 3, "rationale": "Directly addresses LPG displacement, health benefits, appliance finance, tariffs, and grid constraints."},
+        {"doc_id": "wb-household-electric-cooking-nepal-2025", "relevance": 3, "rationale": "Source page compares household cooking economics and PM2.5 external costs in Nepal."},
+        {"doc_id": "energy-substitution-pathway", "relevance": 2, "rationale": "Explains LPG and fuelwood displacement by electric cooking within the wider transition."},
+        {"doc_id": "data-final-energy-mix", "relevance": 1, "rationale": "Quantifies LPG and fuelwood use but does not by itself assess adoption feasibility."}
+      ]
+    },
+    {
+      "id": "real-v1-05",
+      "query": "Which parts of Nepal have the best solar power potential?",
+      "query_type": "attribute_lookup",
+      "notes": "persona=P1; simulated Nepali citizen/general reader; solar geography",
+      "judgments": [
+        {"doc_id": "solar-resource-geography-nepal", "relevance": 3, "rationale": "Direct narrative comparison of Nepal's strongest and most practical solar zones."},
+        {"doc_id": "data-nepal-solar-resource-zones", "relevance": 3, "rationale": "Provides zone and district-level GHI ranges and intended uses."},
+        {"doc_id": "global-solar-atlas-nepal", "relevance": 2, "rationale": "Satellite-derived source page identifies highest, Terai, and lower-resource zones."},
+        {"doc_id": "data-solar-fleet-inventory", "relevance": 0, "rationale": "Existing and planned plants are not the same as geographic resource potential."}
+      ]
+    },
+    {
+      "id": "real-v1-06",
+      "query": "What is the difference between Nepal's theoretical, technical, and economically feasible hydropower potential?",
+      "query_type": "conceptual",
+      "notes": "persona=P2; simulated energy-policy student; potential taxonomy",
+      "judgments": [
+        {"doc_id": "hydropower-potential-categories", "relevance": 3, "rationale": "Directly defines the successive potential categories and warns against conflation."},
+        {"doc_id": "data-potential-pyramid", "relevance": 3, "rationale": "Tabulates the reduction from theoretical/gross through technical, techno-economic, and installed."},
+        {"doc_id": "wecs-hydropower-potential-2019", "relevance": 2, "rationale": "Official assessment source for gross and techno-economic values."},
+        {"doc_id": "firm-power", "relevance": 1, "rationale": "Adds the important distinction between potential/nameplate and dependable output."}
+      ]
+    },
+    {
+      "id": "real-v1-07",
+      "query": "What evidence supports the claim that transmission is Nepal's immediate power-sector bottleneck?",
+      "query_type": "source_seeking",
+      "notes": "persona=P2; simulated energy-policy student; evidence behind a contested system claim",
+      "judgments": [
+        {"doc_id": "claim-transmission-immediate-blocker", "relevance": 3, "rationale": "Directly states the claim, evidence, corridor status, caveats, and confidence."},
+        {"doc_id": "bottleneck-hierarchy", "relevance": 3, "rationale": "Places transmission first as the immediate constraint while distinguishing deeper storage constraints."},
+        {"doc_id": "intervention-transmission-completion", "relevance": 2, "rationale": "Gives concrete delayed-corridor, curtailment, compensation, and loss evidence."},
+        {"doc_id": "stranded-generation", "relevance": 2, "rationale": "Documents mechanisms and project examples where generation is limited by grid capacity."}
+      ]
+    },
+    {
+      "id": "real-v1-08",
+      "query": "What does firm power mean, and why is installed megawatts not the same as dependable supply?",
+      "query_type": "conceptual",
+      "notes": "persona=P2; simulated energy-policy student; reliability terminology",
+      "judgments": [
+        {"doc_id": "firm-power", "relevance": 3, "rationale": "Direct definition with examples and explicit installed-MW distinction."},
+        {"doc_id": "claim-mw-not-equal-value", "relevance": 3, "rationale": "Directly tracks the claim that nameplate MW, annual energy, and firm power differ."},
+        {"doc_id": "data-potential-pyramid", "relevance": 2, "rationale": "Contains a concise table distinguishing installed MW, annual GWh, firm, and export-grade power."},
+        {"doc_id": "seasonal-mismatch", "relevance": 1, "rationale": "Provides the seasonal reason nameplate capacity can fail to be dependable."}
+      ]
+    },
+    {
+      "id": "real-v1-09",
+      "query": "How do storage hydropower and run-of-river projects play different roles in Nepal's seasonal electricity system?",
+      "query_type": "comparative",
+      "notes": "persona=P2; simulated energy-policy student; technology-role comparison",
+      "judgments": [
+        {"doc_id": "run-of-river-hydropower", "relevance": 3, "rationale": "Direct RoR/PRoR/storage comparison table and Nepal-specific implications."},
+        {"doc_id": "storage-deficit", "relevance": 3, "rationale": "Explains how seasonal storage retimes monsoon water for dry-season scarcity."},
+        {"doc_id": "data-storage-comparison", "relevance": 2, "rationale": "Quantifies operating storage and candidate dry-energy contributions."},
+        {"doc_id": "seasonal-mismatch", "relevance": 2, "rationale": "Explains the system problem that makes the roles different."}
+      ]
+    },
+    {
+      "id": "real-v1-10",
+      "query": "Is there a dataset showing Nepal's electricity imports and exports over recent years?",
+      "query_type": "source_seeking",
+      "notes": "persona=P2; simulated energy-policy student; reusable trade data",
+      "judgments": [
+        {"doc_id": "data-trade-time-series", "relevance": 3, "rationale": "Direct data page with annual and monthly trade series, pricing, linked tables, and caveats."},
+        {"doc_id": "nea-annual-report-fy2024-25", "relevance": 2, "rationale": "Primary annual source for current trade totals but not a full multi-year dataset page."},
+        {"doc_id": "data-domestic-demand", "relevance": 1, "rationale": "Includes selected energy-balance comparison years and linked monthly tables."},
+        {"doc_id": "india-energy-relationship", "relevance": 1, "rationale": "Provides trade context but not a reusable time-series dataset."}
+      ]
+    },
+    {
+      "id": "real-v1-11",
+      "query": "What PPA prices and tariff rules apply to new hydropower projects in Nepal?",
+      "query_type": "attribute_lookup",
+      "notes": "persona=P3; simulated hydropower/renewable investor; tariff and contract rules",
+      "judgments": [
+        {"doc_id": "ppa-pricing", "relevance": 3, "rationale": "Direct overview of seasonal rates, project differences, escalation, and the 2026 reservoir directive."},
+        {"doc_id": "nea-standard-ppa-clauses", "relevance": 2, "rationale": "Explains standard AD, reserve-margin, curtailment, take-or-pay, and force-majeure clauses."},
+        {"doc_id": "data-solar-hydro-lcoe", "relevance": 1, "rationale": "Contains hydro tariff bands useful for comparison but is not the governing rules page."},
+        {"doc_id": "erc-open-access-directive-2082", "relevance": 0, "rationale": "Open grid access is distinct from PPA tariff-setting for new hydropower."}
+      ]
+    },
+    {
+      "id": "real-v1-12",
+      "query": "How has Sanima Mai's generation compared with its contracted energy, and what PPA rates does it receive?",
+      "query_type": "exact_entity",
+      "notes": "persona=P3; simulated hydropower/renewable investor; project performance and tariff",
+      "judgments": [
+        {"doc_id": "care-ratings-sanima-mai", "relevance": 3, "rationale": "Direct multi-year generation-versus-contract table and project PPA structure."},
+        {"doc_id": "q-design-discharge", "relevance": 2, "rationale": "Reuses the Sanima Mai contracted/actual series to explain performance under Q40 design."},
+        {"doc_id": "ppa-pricing", "relevance": 2, "rationale": "Provides current and historical Sanima Mai wet/dry rates and escalation context."},
+        {"doc_id": "sanima-mai", "relevance": 1, "rationale": "Confirms entity identity, capacity, river, and operating status but lacks performance detail."}
+      ]
+    },
+    {
+      "id": "real-v1-13",
+      "query": "Why are some Nepali hydropower IPO companies struggling to service debt even after their plants start operating?",
+      "query_type": "conceptual",
+      "notes": "persona=P3; simulated hydropower/renewable investor; capital-market and operating risk",
+      "judgments": [
+        {"doc_id": "ipo-hydropower-bailout", "relevance": 3, "rationale": "Directly explains rights issues, debt repair, weak disclosure, and the limits of the Chilime analogy."},
+        {"doc_id": "sector-financial-analysis-triple-authority-2026", "relevance": 3, "rationale": "Detailed compilation of debt-repayment rights issues, curtailment penalties, and capital sequencing."},
+        {"doc_id": "nea-triple-authority", "relevance": 2, "rationale": "Explains the single buyer/dispatcher/penalty conflict affecting project cash flow."},
+        {"doc_id": "ad-penalties", "relevance": 1, "rationale": "Covers one mechanism that can worsen debt service but not the whole IPO problem."}
+      ]
+    },
+    {
+      "id": "real-v1-14",
+      "query": "Is utility-scale solar now cheaper than small hydropower in Nepal on an LCOE basis?",
+      "query_type": "comparative",
+      "notes": "persona=P3; simulated hydropower/renewable investor; technology cost comparison",
+      "judgments": [
+        {"doc_id": "data-solar-hydro-lcoe", "relevance": 3, "rationale": "Direct numerical comparison of Nepal solar awards, hydro PPA bands, and time-weighted value."},
+        {"doc_id": "solar-lcoe-crossover", "relevance": 3, "rationale": "Explains when and why the Nepal solar/hydro crossover occurred, with boundary conditions."},
+        {"doc_id": "claim-solar-cheaper-than-small-hydro", "relevance": 2, "rationale": "Concise tracked claim with evidence and scope limits."},
+        {"doc_id": "nea-solar-loi-2024", "relevance": 2, "rationale": "Primary procurement source page for the recent solar tariff band."}
+      ]
+    },
+    {
+      "id": "real-v1-15",
+      "query": "Which major storage hydropower projects are on Nepal's roadmap, and what stage is each one at?",
+      "query_type": "multi_constraint",
+      "notes": "persona=P3; simulated hydropower/renewable investor; portfolio plus development stage",
+      "judgments": [
+        {"doc_id": "data-ipsdp-milestone-ladder-2022-2040", "relevance": 3, "rationale": "Directly organizes named storage projects into official planning windows through 2040."},
+        {"doc_id": "data-layer-storage-shortlist", "relevance": 3, "rationale": "Portfolio list distinguishes operating, under-construction, advanced, and promising storage candidates."},
+        {"doc_id": "moewri-ipsdp-exec-summary-2025", "relevance": 2, "rationale": "Official planning source page with project-era buckets and explicit caveats that they are targets."},
+        {"doc_id": "storage-deficit", "relevance": 1, "rationale": "Provides strategic context and examples but not a complete stage-by-stage roadmap."}
+      ]
+    },
+    {
+      "id": "real-v1-16",
+      "query": "What is the status and capacity of the Hetauda-Dhalkebar-Inaruwa 400 kV backbone?",
+      "query_type": "exact_entity",
+      "notes": "persona=P4; simulated transmission planning engineer; corridor status and specification",
+      "judgments": [
+        {"doc_id": "hetauda-dhalkebar-inaruwa-backbone", "relevance": 3, "rationale": "Direct entity page with voltage, length, segment status, substations, and map-confidence caveats."},
+        {"doc_id": "claim-transmission-immediate-blocker", "relevance": 2, "rationale": "Contains updated segment status and explains the corridor's bottleneck role."},
+        {"doc_id": "intervention-transmission-completion", "relevance": 2, "rationale": "Detailed current status for the delayed Hetauda-Dhalkebar segment."},
+        {"doc_id": "nea-transmission-annual-book-2077", "relevance": 1, "rationale": "Official historical source for project and substation context, but superseded for current status."}
+      ]
+    },
+    {
+      "id": "real-v1-17",
+      "query": "Which Nepal-India cross-border transmission lines are operating now, and which high-voltage links are planned?",
+      "query_type": "multi_constraint",
+      "notes": "persona=P4; simulated transmission planning engineer; operating/planned cross-border inventory",
+      "judgments": [
+        {"doc_id": "nepal-transmission-landscape-2025", "relevance": 3, "rationale": "Direct compilation of operating, construction, implementation, and planned links by voltage."},
+        {"doc_id": "data-layer-cross-border-interconnection-lines", "relevance": 3, "rationale": "Summarizes ten cross-border features and status categories with geometry caveats."},
+        {"doc_id": "dhalkebar-muzaffarpur", "relevance": 2, "rationale": "Detailed operating 400 kV link."},
+        {"doc_id": "gorakhpur-butwal-interconnection", "relevance": 2, "rationale": "Detailed under-construction second 400 kV link."}
+      ]
+    },
+    {
+      "id": "real-v1-18",
+      "query": "Where does the Nepal transmission map have traced gaps or approximate alignments rather than authoritative line geometry?",
+      "query_type": "source_seeking",
+      "notes": "persona=P4; simulated transmission planning engineer; geometry provenance and QA",
+      "judgments": [
+        {"doc_id": "data-layer-transmission-trace-gaps-qa", "relevance": 3, "rationale": "Direct audit page for evidence gaps; states the current layer is empty after repair and defines its meaning."},
+        {"doc_id": "data-layer-transmission-connected-traced-network", "relevance": 3, "rationale": "Directly explains source-controlled versus manual traces, confidence fields, and non-tower-level precision."},
+        {"doc_id": "hetauda-dhalkebar-inaruwa-backbone", "relevance": 2, "rationale": "Provides corridor-specific trace provenance, length validation, and precision caveats."},
+        {"doc_id": "data-layer-transmission-network-nodes", "relevance": 1, "rationale": "Useful topology-QA caveats but concerns generated nodes more than line alignments."}
+      ]
+    },
+    {
+      "id": "real-v1-19",
+      "query": "Which substations are identified as capacity bottlenecks in Nepal's grid?",
+      "query_type": "attribute_lookup",
+      "notes": "persona=P4; simulated transmission planning engineer; named substation constraints",
+      "judgments": [
+        {"doc_id": "stranded-generation", "relevance": 3, "rationale": "Directly documents New Khimti transformer saturation and the generation recovery after upgrade."},
+        {"doc_id": "hetauda-bharatpur-bardaghat-corridor", "relevance": 2, "rationale": "Identifies Bharatpur bus configuration as a weak link in reliability review."},
+        {"doc_id": "data-nea-substation-capacity-fy2076-77", "relevance": 2, "rationale": "Structured historical capacity and expansion inventory useful for identifying constrained nodes, with cutoff caveat."},
+        {"doc_id": "data-layer-transmission-network-nodes", "relevance": 0, "rationale": "Topology nodes are not a surveyed or capacity-rated substation bottleneck register."}
+      ]
+    },
+    {
+      "id": "real-v1-20",
+      "query": "Which transmission corridor is supposed to evacuate power from Arun-3, and how does it connect toward India?",
+      "query_type": "multi_constraint",
+      "notes": "persona=P4; simulated transmission planning engineer; project evacuation path; corpus contains an unresolved route-description ambiguity",
+      "judgments": [
+        {"doc_id": "arun-3", "relevance": 3, "rationale": "Direct project page specifies the 400 kV export line toward Bihar and explains evacuation dependency."},
+        {"doc_id": "arun-3-project-status-2025", "relevance": 2, "rationale": "Source compilation includes cross-border line progress and export structure."},
+        {"doc_id": "inaruwa-purnea-interconnection", "relevance": 2, "rationale": "Directly presents the planned Inaruwa-Purnea link as critical to Arun-3 evacuation, creating a noted corpus ambiguity."},
+        {"doc_id": "hetauda-dhalkebar-inaruwa-backbone", "relevance": 1, "rationale": "Explains the internal eastern backbone and India-facing connections but not the full project-specific route."}
+      ]
+    },
+    {
+      "id": "real-v1-21",
+      "query": "What is the best primary source for Nepal's installed capacity, generation, imports, and exports in FY 2024/25?",
+      "query_type": "source_seeking",
+      "notes": "persona=P5; simulated journalist/source verifier; current official system statistics",
+      "judgments": [
+        {"doc_id": "nea-annual-report-fy2024-25", "relevance": 3, "rationale": "The official NEA report source page directly covers all requested FY 2024/25 categories."},
+        {"doc_id": "nepal-energy-profile", "relevance": 2, "rationale": "Useful derived snapshot with source-boundary cautions, but not itself the primary source requested."},
+        {"doc_id": "data-trade-time-series", "relevance": 1, "rationale": "Strong for trade figures but not the full installed-capacity and generation request."},
+        {"doc_id": "wb-country-economic-memo-2025", "relevance": 0, "rationale": "Its end-2024 cutoff differs from the requested NEA FY 2024/25 accounting frame."}
+      ]
+    },
+    {
+      "id": "real-v1-22",
+      "query": "What evidence explains the delays and cost overruns at the Chameliya hydropower project?",
+      "query_type": "source_seeking",
+      "notes": "persona=P5; simulated journalist/source verifier; project accountability evidence",
+      "judgments": [
+        {"doc_id": "chameliya-hydropower", "relevance": 3, "rationale": "Detailed synthesis of tunnel squeezing, variation disputes, PAC intervention, delay, and final cost."},
+        {"doc_id": "kathmandu-post-chameliya", "relevance": 2, "rationale": "Media-source anchor for delay, tunnel, and variation-order reporting, though citation metadata is incomplete."},
+        {"doc_id": "myrepublica-pac-chameliya", "relevance": 2, "rationale": "Supports the PAC scrutiny and cost-escalation angle, with incomplete article metadata noted."},
+        {"doc_id": "nea-generation-directorate-2081", "relevance": 1, "rationale": "Provides operating/cost accounting after completion but not the construction-delay causes."}
+      ]
+    },
+    {
+      "id": "real-v1-23",
+      "query": "What source supports the estimate that Nepal has about 72,544 MW of economically feasible hydropower potential?",
+      "query_type": "source_seeking",
+      "notes": "persona=P5; simulated journalist/source verifier; claim correction: 72,544 MW is gross, not economically feasible",
+      "judgments": [
+        {"doc_id": "wecs-hydropower-potential-2019", "relevance": 3, "rationale": "Definitive source page: 72,544 MW is revised gross potential and 32,680 MW is techno-economic."},
+        {"doc_id": "data-potential-pyramid", "relevance": 3, "rationale": "Directly corrects the category error and locates 72,544 MW in the potential pyramid."},
+        {"doc_id": "hydropower-potential-categories", "relevance": 2, "rationale": "Explains why gross, technical, techno-economic, and viable values cannot be interchanged."},
+        {"doc_id": "wb-nepal-power-sector-reform-2022", "relevance": 0, "rationale": "Provides a different approximately 42,000 MW feasibility figure, not support for the 72,544 claim."}
+      ]
+    },
+    {
+      "id": "real-v1-24",
+      "query": "Can I verify the claim that India approves Nepal power exports project by project rather than allowing open access?",
+      "query_type": "source_seeking",
+      "notes": "persona=P5; simulated journalist/source verifier; cross-border approval regime, not Nepal domestic open access",
+      "judgments": [
+        {"doc_id": "india-cbte-2018", "relevance": 3, "rationale": "Direct Indian policy source page describing approval requirements and project/developer restrictions."},
+        {"doc_id": "india-energy-relationship", "relevance": 2, "rationale": "Explains India as approval gatekeeper and the project-eligibility constraint."},
+        {"doc_id": "claim-india-decisive-actor", "relevance": 2, "rationale": "Summarizes project export approvals and the India-mediated corridor regime with boundaries."},
+        {"doc_id": "erc-open-access-directive-2082", "relevance": 0, "rationale": "Nepal's domestic grid open-access directive does not establish Indian cross-border export access."}
+      ]
+    },
+    {
+      "id": "real-v1-25",
+      "query": "What evidence links glacier change and sediment risks to the future reliability of Nepal's hydropower?",
+      "query_type": "multi_constraint",
+      "notes": "persona=P5; simulated journalist/source verifier; climate plus sediment reliability evidence",
+      "judgments": [
+        {"doc_id": "claim-climate-harder-not-easier", "relevance": 3, "rationale": "Direct synthesis linking changing runoff, extremes, glacier retreat, and sediment pulses to resilience risk."},
+        {"doc_id": "sediment-as-design-constraint", "relevance": 3, "rationale": "Detailed mechanisms connecting sediment to turbine wear, outages, reservoir life, and finance."},
+        {"doc_id": "icimod-hkh-glacier-change", "relevance": 2, "rationale": "Regional source page for glacier retreat and scenario-dependent future loss."},
+        {"doc_id": "icimod-koshi-sediment-threats", "relevance": 2, "rationale": "Quantitative basin source page for sediment loads, erosion, and climate-linked pulses."}
+      ]
+    },
+    {
+      "id": "real-v1-26",
+      "query": "What environmental-flow rules are hydropower projects in Nepal supposed to follow?",
+      "query_type": "attribute_lookup",
+      "notes": "persona=P6; simulated local/community stakeholder; environmental-flow requirements",
+      "judgments": [
+        {"doc_id": "environmental-flow-policy", "relevance": 3, "rationale": "Direct plain-language policy page on maintenance flows, E-flow planning, and protected-area permission."},
+        {"doc_id": "moewri-ipsdp-exec-summary-2025", "relevance": 2, "rationale": "Official planning source page identifying the SEA mitigation language and IFC handbook reference."},
+        {"doc_id": "hydropower-potential-categories", "relevance": 1, "rationale": "Explains that environmental minimums reduce technical potential but not the applicable rule details."},
+        {"doc_id": "doed-licensing-directive-2075", "relevance": 0, "rationale": "The page concerns Q45 licensing discharge and does not document environmental-flow rules."}
+      ]
+    },
+    {
+      "id": "real-v1-27",
+      "query": "Why has the Upper Karnali project still not started, and what is holding up the project agreement?",
+      "query_type": "source_seeking",
+      "notes": "persona=P6; simulated local/community stakeholder; stalled project and agreement status",
+      "judgments": [
+        {"doc_id": "upper-karnali", "relevance": 3, "rationale": "Detailed project timeline explaining repeated extensions, financing, PPA, transmission, and court constraints."},
+        {"doc_id": "upper-karnali-pda-record", "relevance": 3, "rationale": "Focused agreement, financial-closure, court, and Bangladesh-PPA record."},
+        {"doc_id": "stranded-generation", "relevance": 1, "rationale": "Explains why missing evacuation can strand projects but is not Upper Karnali-specific enough."},
+        {"doc_id": "arun-3", "relevance": 0, "rationale": "A useful comparator in prose, but it does not answer why Upper Karnali itself is stalled."}
+      ]
+    },
+    {
+      "id": "real-v1-28",
+      "query": "What support is available for rural households that need off-grid solar or mini-grid electricity?",
+      "query_type": "source_seeking",
+      "notes": "persona=P6; simulated local/community stakeholder; rural renewable support channels",
+      "judgments": [
+        {"doc_id": "aepc-renewable-framework", "relevance": 3, "rationale": "Primary programme source page for SHS, mini-grids, institutional solar, subsidy, and finance channels."},
+        {"doc_id": "aepc", "relevance": 3, "rationale": "Direct institution page explaining AEPC's role and subsidy-plus-concessional-finance model."},
+        {"doc_id": "rooftop-minigrid-offgrid", "relevance": 2, "rationale": "Explains household and community tracks, institutions, financing, and practical constraints."},
+        {"doc_id": "data-rooftop-shs-deployment", "relevance": 2, "rationale": "Shows deployment reach and geographic pattern, while warning that totals are estimates."}
+      ]
+    },
+    {
+      "id": "real-v1-29",
+      "query": "How are land acquisition, compensation, and local disputes handled for transmission-line projects in Nepal?",
+      "query_type": "conceptual",
+      "notes": "persona=P6; simulated local/community stakeholder; transmission rights and dispute resolution",
+      "judgments": [
+        {"doc_id": "intervention-transmission-completion", "relevance": 3, "rationale": "Directly covers right-of-way compensation, community demands, mediation, dispute resolution, and the 2025 land-rule change."},
+        {"doc_id": "claim-transmission-immediate-blocker", "relevance": 2, "rationale": "Connects local resistance and delayed towers to corridor completion, with status evidence."},
+        {"doc_id": "hetauda-dhalkebar-inaruwa-backbone", "relevance": 1, "rationale": "Corridor context is relevant but the page has little detail on compensation procedure."},
+        {"doc_id": "data-layer-transmission-connected-traced-network", "relevance": 0, "rationale": "Map geometry provenance does not explain land acquisition or dispute handling."}
+      ]
+    },
+    {
+      "id": "real-v1-30",
+      "query": "What local impacts and resettlement issues are expected around the Dudhkoshi storage project?",
+      "query_type": "multi_constraint",
+      "notes": "persona=P6; simulated local/community stakeholder; project social footprint plus local hazards",
+      "judgments": [
+        {"doc_id": "dudhkoshi-storage", "relevance": 3, "rationale": "Direct project page with affected-household counts, displacement caveats, districts, and local GLOF risk."},
+        {"doc_id": "dudhkoshi-nea-proposal-2024", "relevance": 2, "rationale": "Focused proposal record with land area, fully and partially affected households, and financing/status caveats."},
+        {"doc_id": "glof-risk", "relevance": 1, "rationale": "Important local hazard context for the Dudh Koshi corridor but does not cover resettlement."},
+        {"doc_id": "storage-deficit", "relevance": 1, "rationale": "Explains why the project matters and why reservoirs are socially difficult, without project-specific resettlement detail."}
+      ]
+    }
+  ]
+}

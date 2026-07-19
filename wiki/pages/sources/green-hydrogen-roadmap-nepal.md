@@ -37,7 +37,3 @@ Central to [[green-hydrogen-nepal]] and the demand-creation argument in [[domest
 - **Demand-creation assumptions.** The roadmap assumes industrial offtake, electrolysis deployment, water availability, and fertilizer-market integration that are not yet demonstrated in Nepal.
 - **Cost trajectory uncertainty.** The projected $2.15/kg production cost by 2035 depends on equipment-cost declines, power-price assumptions, and utilization rates.
 - **Policy still early-stage.** The 2024 Green Hydrogen Policy creates a framework, but pilot delivery, permitting, and industrial procurement models remain unsettled.
-
-## Used By
-
-- [[green-hydrogen-nepal]]

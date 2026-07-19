@@ -31,8 +31,3 @@ page_quality: analysis
 - **Hydrology rule specificity.** The Q45 rule is explicit, but the source does not provide the hydrological datasets or statistical methods used by applicants.
 - **Climate-adjustment absence.** The directive does not mandate climate-adjusted hydrology; that absence is a regulatory gap, not a quantified estimate of project risk.
 - **Amended text boundary.** This source page now points to the current DoED publication page for the fifth-amendment version. Any claim about the original 2075 wording should be checked against the specific version cited.
-
-## Used By
-
-- [[figure-index]]
-- [[trishuli-galchhi]]

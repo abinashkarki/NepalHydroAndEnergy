@@ -1,0 +1,55 @@
+{
+  "schema_version": "retrieval-holdout.v1",
+  "artifact_type": "query_set",
+  "set_id": "synthetic-example-v1",
+  "purpose": "synthetic_example",
+  "status": "example",
+  "provenance": {
+    "created_by": "evaluation-package example",
+    "created_at": "2026-06-20T00:00:00Z",
+    "frozen_at": "2026-06-20T00:00:00Z",
+    "judgments_established_before_system_execution": true,
+    "system_results_inspected_during_judging": false,
+    "notes": "Fictional document identifiers for scorer demonstration only; not a Nepal Energy holdout."
+  },
+  "queries": [
+    {
+      "id": "syn-01",
+      "query": "fictional blue reservoir project",
+      "query_type": "exact_entity",
+      "notes": "Synthetic exact-name lookup.",
+      "judgments": [
+        {"doc_id": "synthetic-blue-reservoir", "relevance": 3, "rationale": "Direct fictional entity page."},
+        {"doc_id": "synthetic-reservoir-overview", "relevance": 1, "rationale": "Related but not direct."}
+      ]
+    },
+    {
+      "id": "syn-02",
+      "query": "why does fictional winter output fall",
+      "query_type": "conceptual",
+      "notes": "Synthetic mechanism query.",
+      "judgments": [
+        {"doc_id": "synthetic-seasonality-explainer", "relevance": 3, "rationale": "Direct explanation."},
+        {"doc_id": "synthetic-winter-data", "relevance": 1, "rationale": "Supporting data."}
+      ]
+    },
+    {
+      "id": "syn-03",
+      "query": "fictional annual source table",
+      "query_type": "source_seeking",
+      "notes": "Synthetic empty-result failure.",
+      "judgments": [
+        {"doc_id": "synthetic-annual-source", "relevance": 3, "rationale": "Requested fictional source."}
+      ]
+    },
+    {
+      "id": "syn-04",
+      "query": "compare fictional east and west corridors",
+      "query_type": "comparative",
+      "notes": "Synthetic missing-query-results failure.",
+      "judgments": [
+        {"doc_id": "synthetic-corridor-comparison", "relevance": 3, "rationale": "Direct fictional comparison."}
+      ]
+    }
+  ]
+}

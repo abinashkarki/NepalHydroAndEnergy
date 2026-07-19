@@ -14,7 +14,7 @@ function sanitizeHTML(html) {
     .replace(/javascript\s*:/gi, "blocked:");
 }
 
-const PAGE_DIRS = ["sources", "entities", "concepts", "syntheses", "claims", "data"];
+const PAGE_DIRS = ["sources", "entities", "concepts", "syntheses", "claims", "data", "interventions"];
 
 const PAGE_INDEX_CACHE = { built: false, byCategory: {}, allSlugs: [], slugToCategory: {}, slugToTitle: {} };
 const BACKLINKS_CACHE = { built: false, map: {} };
@@ -80,51 +80,179 @@ async function loadClaimGovernance() {
   return CLAIM_GOVERNANCE_CACHE;
 }
 
-function renderBacklinks(slug, idx, spatialSlugs) {
+function renderBacklinks(slug, idx, spatialSlugs, options = {}) {
   const refs = (BACKLINKS_CACHE.map || {})[slug] || [];
-  if (!refs.length) return "";
-  // Group by category so the footer reads: "3 entities, 2 concepts, ...".
-  const byCat = {};
-  for (const r of refs) {
-    (byCat[r.category] = byCat[r.category] || []).push(r);
-  }
-  const CAT_LABEL = {
-    entities: "Entities",
-    concepts: "Concepts",
-    syntheses: "Syntheses",
-    claims: "Claims",
-    sources: "Sources",
-    data: "Data",
-  };
-  const parts = [];
-  for (const cat of ["entities", "syntheses", "concepts", "claims", "sources", "data"]) {
-    const items = byCat[cat];
-    if (!items || !items.length) continue;
-    const rows = items.map((r) => {
-      const sp = spatialSlugs && spatialSlugs.has(r.slug) ? " spatial" : "";
-      return `<li class="backlink-item">
-        <a class="wikilink${sp}" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${r.slug}')">${r.title}</a>
-        <div class="backlink-context">${r.context.replace(/</g, "&lt;")}</div>
-      </li>`;
-    }).join("");
-    parts.push(
-      `<div class="backlinks-group"><div class="backlinks-cat">${CAT_LABEL[cat] || cat} <span class="backlinks-count">${items.length}</span></div><ul class="backlinks-list">${rows}</ul></div>`
-    );
-  }
-  return `<section class="backlinks-section"><h2 class="backlinks-heading">Referenced by <span class="backlinks-total">${refs.length}</span></h2>${parts.join("")}</section>`;
+  const renderer = window.NepalExplorer && window.NepalExplorer.renderReferenceSection;
+  if (renderer) return renderer(refs, { ...options, spatialSlugs });
+  return "";
 }
 
 function escapeHtml(s) {
   return String(s || "").replace(/[<>&"']/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
-function renderClaimGovernance(slug) {
+function unquoteFrontmatterValue(value) {
+  const text = String(value || "").trim();
+  if ((text.startsWith('"') && text.endsWith('"')) || (text.startsWith("'") && text.endsWith("'"))) {
+    return text.slice(1, -1).trim();
+  }
+  return text;
+}
+
+function frontmatterScalar(frontmatter, key) {
+  const escaped = String(key).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = String(frontmatter || "").match(new RegExp(`^${escaped}:\\s*(.+?)\\s*$`, "m"));
+  return match ? unquoteFrontmatterValue(match[1]) : "";
+}
+
+function frontmatterList(frontmatter, key) {
+  const escaped = String(key).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const text = String(frontmatter || "");
+  const inline = text.match(new RegExp(`^${escaped}:\\s*\\[([^\\]]*)\\]\\s*$`, "m"));
+  if (inline) {
+    return inline[1].split(",").map(unquoteFrontmatterValue).filter(Boolean);
+  }
+  const lines = text.split(/\r?\n/);
+  const start = lines.findIndex((line) => new RegExp(`^${escaped}:\\s*$`).test(line));
+  if (start < 0) return [];
+  const values = [];
+  for (let i = start + 1; i < lines.length; i++) {
+    const item = lines[i].match(/^\s+-\s+(.+?)\s*$/);
+    if (!item) break;
+    values.push(unquoteFrontmatterValue(item[1]));
+  }
+  return values.filter(Boolean);
+}
+
+function publicMaturity(frontmatter) {
+  const explicit = frontmatterScalar(frontmatter, "maturity");
+  if (["verified-core", "working-page", "registry-record"].includes(explicit)) return explicit;
+  const quality = frontmatterScalar(frontmatter, "page_quality");
+  const generator = frontmatterScalar(frontmatter, "generator");
+  if (quality === "flagship") return "verified-core";
+  if (quality === "record" || generator === "auto-stub") return "registry-record";
+  return "working-page";
+}
+
+const MATURITY_LABEL = {
+  "verified-core": "Verified Core",
+  "working-page": "Working Page",
+  "registry-record": "Registry Record",
+};
+
+const MATURITY_HELP = {
+  "verified-core": "Core V1 page that passed evidence and editorial review; individual caveats still apply.",
+  "working-page": "Useful analysis or explanation that remains open to further evidence and editorial development.",
+  "registry-record": "Basic factual record; inclusion does not mean every status or technical field has been independently verified.",
+};
+
+function todayIsoDate() {
+  const now = new Date();
+  const local = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
+  return local.toISOString().slice(0, 10);
+}
+
+function renderPageStatus(frontmatter) {
+  const maturity = publicMaturity(frontmatter);
+  const updated = frontmatterScalar(frontmatter, "updated");
+  const asOf = frontmatterScalar(frontmatter, "as_of");
+  const reviewed = frontmatterScalar(frontmatter, "reviewed");
+  const verifiedOn = frontmatterScalar(frontmatter, "verified_on");
+  const reviewDue = frontmatterScalar(frontmatter, "review_due");
+  const caveat = frontmatterScalar(frontmatter, "caveat") || frontmatterScalar(frontmatter, "verification_note");
+  const facts = [];
+  if (updated) facts.push(`Updated ${escapeHtml(updated)}`);
+  if (asOf) facts.push(`Evidence as of ${escapeHtml(asOf)}`);
+  if (reviewed) facts.push(`Reviewed ${escapeHtml(reviewed)}`);
+  else if (verifiedOn) facts.push(`Verified ${escapeHtml(verifiedOn)}`);
+  const overdue = /^\d{4}-\d{2}-\d{2}$/.test(reviewDue) && reviewDue < todayIsoDate();
+  if (reviewDue) facts.push(`${overdue ? "Review overdue" : "Review due"} ${escapeHtml(reviewDue)}`);
+  const line = `<div class="wiki-page-status">
+    ${facts.length ? `<span class="wiki-status-dates">${facts.join(" · ")}</span>` : ""}
+    <span class="maturity-chip maturity-${maturity}" title="${escapeHtml(MATURITY_HELP[maturity])}">${MATURITY_LABEL[maturity]}</span>
+    ${overdue ? `<span class="freshness-alert">Review overdue</span>` : ""}
+  </div>`;
+  const caveatHtml = caveat
+    ? `<aside class="wiki-caveat"><b>Current caveat</b><span>${escapeHtml(caveat)}</span></aside>`
+    : "";
+  return { line, caveatHtml, maturity };
+}
+
+function publicAssetPath(value) {
+  let path = String(value || "")
+    .trim()
+    .replace(/[?#].*$/, "")
+    .replace(/\\/g, "/")
+    .replace(/^\/+/, "");
+  while (path.startsWith("../")) path = path.slice(3);
+  if (path.startsWith("./")) path = path.slice(2);
+  return path;
+}
+
+function isOmittedPublicAsset(value) {
+  return publicAssetPath(value).startsWith("data/raw/");
+}
+
+function safeSourceHref(value) {
+  const href = String(value || "").trim();
+  if (/^https?:\/\//i.test(href)) return href;
+  if (isOmittedPublicAsset(href)) return "";
+  if (/^(?:\.\.\/|\.\/|\/)[^<>"']+$/.test(href)) return href;
+  return "";
+}
+
+function humanize(value) {
+  return String(value || "").replace(/[-_]+/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function renderSourceProvenance(frontmatter) {
+  const sourceType = frontmatterScalar(frontmatter, "source_type");
+  const author = frontmatterScalar(frontmatter, "source_author") || frontmatterScalar(frontmatter, "publisher");
+  const sourceDate = frontmatterScalar(frontmatter, "source_date");
+  const sourceUrl = frontmatterScalar(frontmatter, "source_url");
+  const authority = frontmatterScalar(frontmatter, "source_authority");
+  const access = frontmatterScalar(frontmatter, "source_access");
+  const verifiedOn = frontmatterScalar(frontmatter, "verified_on");
+  const reviewed = frontmatterScalar(frontmatter, "reviewed");
+  const caveat = frontmatterScalar(frontmatter, "caveat") || frontmatterScalar(frontmatter, "verification_note");
+  const href = safeSourceHref(sourceUrl);
+  const isExternal = /^https?:\/\//i.test(href);
+  const isOmittedLocal = Boolean(sourceUrl)
+    && !/^https?:\/\//i.test(sourceUrl)
+    && isOmittedPublicAsset(sourceUrl);
+  const cells = [
+    ["Type", sourceType ? humanize(sourceType) : "Not recorded"],
+    ["Author / publisher", author || "Not recorded"],
+    ["Publication date", sourceDate || "Not recorded"],
+    ["Authority", authority ? humanize(authority) : "Not classified"],
+    ["Evidence checked", verifiedOn || reviewed || "No separate verification date"],
+  ];
+  let accessText = access ? humanize(access) : "";
+  if (isOmittedLocal) {
+    accessText = accessText
+      ? `${accessText} · Asset not included in public release`
+      : "Local archive reference · Asset not included in public release";
+  } else if (!accessText) {
+    accessText = sourceUrl ? (isExternal ? "Public external link" : "Local archive path") : "No direct link recorded";
+  }
+  return `<aside class="provenance-card source-provenance-card" aria-label="Source provenance">
+    <div class="provenance-kicker">Source provenance</div>
+    <div class="provenance-grid">${cells.map(([label, value]) => `<div><span>${escapeHtml(label)}</span><b>${escapeHtml(value)}</b></div>`).join("")}</div>
+    <div class="provenance-access"><span>${escapeHtml(accessText)}</span>${href ? `<a href="${escapeHtml(href)}" ${isExternal ? 'target="_blank" rel="noopener noreferrer"' : ""}>Open source</a>` : ""}</div>
+    ${caveat ? `<div class="provenance-caveat"><b>Caveat:</b> ${escapeHtml(caveat)}</div>` : ""}
+  </aside>`;
+}
+
+function wikiPageLink(slug, title) {
+  return `<a class="evidence-source-link" href="?page=${encodeURIComponent(slug)}" onclick="event.preventDefault();window.openWikiPage && window.openWikiPage('${escapeHtml(slug)}')">${escapeHtml(title || slug)}</a>`;
+}
+
+function renderClaimGovernance(slug, frontmatter = "", idx = PAGE_INDEX_CACHE) {
   const entry = (CLAIM_GOVERNANCE_CACHE.bySlug || {})[slug];
-  if (!entry) return "";
-  const metrics = Array.isArray(entry.metrics) ? entry.metrics.slice(0, 6) : [];
+  const metrics = entry && Array.isArray(entry.metrics) ? entry.metrics.slice(0, 6) : [];
   const metricRows = metrics.map((m) => {
     const source = m.source_slug
-      ? `<button type="button" class="cg-source" onclick="window.openWikiPage && window.openWikiPage('${escapeHtml(m.source_slug)}')">${escapeHtml(m.source_slug)}</button>`
+      ? wikiPageLink(m.source_slug, (idx.slugToTitle && idx.slugToTitle[m.source_slug]) || m.source_slug)
       : "";
     return `<li>
       <span class="cg-metric-name">${escapeHtml(m.name || m.id || "Metric")}</span>
@@ -132,27 +260,79 @@ function renderClaimGovernance(slug) {
       ${source}
     </li>`;
   }).join("");
-  const tier = entry.tier === "core" ? "Core claim" : "Supporting claim";
+  const tier = entry ? (entry.tier === "core" ? "Core claim" : "Supporting claim") : "Page claim";
   const count = metrics.length === 1 ? "1 tracked metric" : `${metrics.length} tracked metrics`;
   const summary = metrics.length
     ? `${count} checked against the claim registry.`
-    : "Registered in the claim registry; no numeric metric anchors are required yet.";
-  return `<aside class="claim-governance-card">
+    : entry
+      ? "Registered in the claim registry; no numeric metric anchors are required yet."
+      : "No governed numeric metric is registered for this page.";
+  const sourceSlugs = frontmatterList(frontmatter, "sources");
+  const sourceLinks = sourceSlugs.map((sourceSlug) => wikiPageLink(sourceSlug, (idx.slugToTitle && idx.slugToTitle[sourceSlug]) || sourceSlug)).join("");
+  const confidence = frontmatterScalar(frontmatter, "confidence") || "Not recorded";
+  const status = frontmatterScalar(frontmatter, "status") || "Not recorded";
+  const verifiedOn = frontmatterScalar(frontmatter, "verified_on");
+  const reviewed = frontmatterScalar(frontmatter, "reviewed");
+  const reviewDue = frontmatterScalar(frontmatter, "review_due");
+  const claimId = frontmatterScalar(frontmatter, "claim_id") || (entry && entry.claim_id) || "";
+  return `<aside class="claim-governance-card" aria-label="Claim evidence">
     <button type="button" class="cg-info" aria-label="What is a governed claim?">
       <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
         <circle cx="10" cy="10" r="8.25"></circle>
         <path d="M10 8.8v5"></path>
         <path d="M10 5.9h.01"></path>
       </svg>
-      <span class="cg-tooltip" role="tooltip">This claim is tied to a registry of load-bearing evidence. The listed metric values are checked by validation so stale or conflicting numbers are caught before publishing.</span>
+      <span class="cg-tooltip" role="tooltip">${entry
+        ? "This claim is tied to a registry of load-bearing evidence. Listed metric values are checked by validation so stale or conflicting numbers are caught before publishing."
+        : "This page lists its evidence links and review metadata. It does not currently have governed numeric metrics in the claim registry."
+      }</span>
     </button>
     <div class="cg-topline">
-      <span class="cg-badge">Governed claim</span>
-      <span>${escapeHtml(tier)} · ${escapeHtml(entry.claim_id || "")}</span>
+      <span class="cg-badge">${entry ? "Governed claim" : "Claim evidence"}</span>
+      <span>${escapeHtml(tier)}${claimId ? ` · ${escapeHtml(claimId)}` : ""}</span>
+    </div>
+    <div class="claim-status-grid">
+      <span><small>Confidence</small><b>${escapeHtml(humanize(confidence))}</b></span>
+      <span><small>Status</small><b>${escapeHtml(humanize(status))}</b></span>
+      <span><small>Evidence checked</small><b>${escapeHtml(verifiedOn || reviewed || "No separate date")}</b></span>
+      <span><small>Review due</small><b>${escapeHtml(reviewDue || "Not scheduled")}</b></span>
     </div>
     <div class="cg-title">${escapeHtml(summary)}</div>
+    <div class="claim-source-list"><b>Evidence sources</b>${sourceLinks || `<span class="evidence-missing">No source links recorded.</span>`}</div>
     ${metricRows ? `<ul class="cg-metrics">${metricRows}</ul>` : ""}
   </aside>`;
+}
+
+function decorateHeadingsAndBuildToc(html) {
+  if (typeof document === "undefined") return { html, toc: "" };
+  const template = document.createElement("template");
+  template.innerHTML = String(html || "");
+  const headings = Array.from(template.content.querySelectorAll("h2, h3"));
+  const h2Count = headings.filter((heading) => heading.tagName === "H2").length;
+  if (h2Count < 3) return { html: template.innerHTML, toc: "" };
+  const used = new Set();
+  const links = headings.slice(0, 18).map((heading, index) => {
+    const label = String(heading.textContent || "").replace(/\s+/g, " ").trim();
+    if (!label) return "";
+    let base = label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || `section-${index + 1}`;
+    let id = `wiki-${base}`;
+    let suffix = 2;
+    while (used.has(id)) id = `wiki-${base}-${suffix++}`;
+    used.add(id);
+    heading.id = id;
+    heading.classList.add("wiki-section-heading");
+    return `<a class="toc-${heading.tagName.toLowerCase()}" href="#${escapeHtml(id)}">${escapeHtml(label)}</a>`;
+  }).filter(Boolean);
+  const toc = `<details class="wiki-toc" open><summary>On this page</summary><nav>${links.join("")}</nav></details>`;
+  return { html: template.innerHTML, toc };
+}
+
+function insertAfterLeadHeading(html, addition) {
+  if (!addition) return html;
+  const match = String(html || "").match(/<h1\b[^>]*>[\s\S]*?<\/h1>/i);
+  if (!match) return addition + html;
+  const end = match.index + match[0].length;
+  return html.slice(0, end) + addition + html.slice(end);
 }
 
 async function fetchPageMarkdown(slug) {
@@ -270,8 +450,6 @@ async function renderPage(slug, opts = {}) {
   const html = sanitizeHTML(rawHtml);
   const linked = renderCallouts(rewriteWikilinks(html, idx, opts.spatialSlugs));
   const fm = opts.showFrontmatter ? `<pre class="frontmatter show">${frontmatter}</pre>` : "";
-  const cat = `<div style="font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;">${category} · ${slug}</div>`;
-
   // Superseded-by banner — points readers to the richer page.
   const supMatch = body.match(/<!--\s*superseded-by:\s*(\S+)\s*-->/);
   let supersededBanner = "";
@@ -284,40 +462,30 @@ async function renderPage(slug, opts = {}) {
     </aside>`;
   }
 
-  // Updated date and page quality badge.
-  const upMatch = frontmatter.match(/^updated:\s*(.+?)\s*$/m);
-  const genMatch = frontmatter.match(/^generator:\s*(.+?)\s*$/m);
-  const pqMatch = frontmatter.match(/^page_quality:\s*(.+?)\s*$/m);
-  let pageQuality = pqMatch ? pqMatch[1].trim() : (genMatch && genMatch[1].trim() === "auto-stub" ? "record" : "");
-  const PQ_BADGE_STYLE = {
-    record: "background:var(--accent-light,#fff3cd);color:var(--accent,#856404);",
-    brief: "background:#dbeafe;color:#1e40af;",
-    analysis: "background:#d1fae5;color:#065f46;",
-    flagship: "background:#fef3c7;color:#92400e;",
-  };
-  const PQ_LABEL = { record: "Record", brief: "Brief", analysis: "Analysis", flagship: "Flagship" };
-  let freshness = "";
-  if (upMatch) {
-    freshness = `<span style="font-family:var(--sans);font-size:11px;color:var(--ink-soft);margin-left:8px">· Updated ${upMatch[1]}</span>`;
-  }
-  if (pageQuality) {
-    const badgeStyle = PQ_BADGE_STYLE[pageQuality] || PQ_BADGE_STYLE.analysis;
-    freshness += `<span style="font-family:var(--sans);font-size:11px;${badgeStyle}padding:2px 6px;border-radius:3px;margin-left:8px">${PQ_LABEL[pageQuality] || pageQuality}</span>`;
-  }
-
-  const catWithFreshness = `<div style="font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;">${category} · ${slug}${freshness}</div>`;
+  const pageStatus = renderPageStatus(frontmatter);
+  const categoryLabel = category === "interventions" ? "Decision Dossier" : category;
+  const catWithFreshness = `<div class="wiki-page-identity">${escapeHtml(categoryLabel)} · ${escapeHtml(slug)}</div>${pageStatus.line}`;
   // Stash images on the page element via a data attribute so the lightbox
   // handler can read them without a global.
   const filmstrip = renderFilmstrip(images);
   const imageData = images.length
     ? `<script type="application/json" id="wiki-images-data">${JSON.stringify(images).replace(/</g, "\\u003c")}</script>`
     : "";
-  const claimGovernance = renderClaimGovernance(slug);
-  const backlinks = renderBacklinks(slug, idx, opts.spatialSlugs);
-  return catWithFreshness + supersededBanner + fm + filmstrip + imageData + linked + claimGovernance + backlinks;
+  const sourceProvenance = category === "sources" ? renderSourceProvenance(frontmatter) : "";
+  const claimGovernance = category === "claims" ? renderClaimGovernance(slug, frontmatter, idx) : "";
+  const decorated = decorateHeadingsAndBuildToc(linked);
+  // Source cards already carry their caveat; avoid repeating the same warning
+  // immediately below the card while retaining the header freshness line.
+  const inlineCaveat = category === "sources" ? "" : pageStatus.caveatHtml;
+  const readerCards = sourceProvenance + claimGovernance + inlineCaveat + decorated.toc;
+  const readerBody = insertAfterLeadHeading(decorated.html, readerCards);
+  const backlinks = renderBacklinks(slug, idx, opts.spatialSlugs, {
+    heading: category === "sources" ? "Used By" : "Referenced by",
+  });
+  return catWithFreshness + supersededBanner + fm + filmstrip + imageData + readerBody + backlinks;
 }
 
 window.NepalExplorer = window.NepalExplorer || {};
-Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, loadBacklinks, loadClaimGovernance });
+Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, frontmatterScalar, frontmatterList, publicMaturity, renderPageStatus, renderSourceProvenance, renderClaimGovernance, decorateHeadingsAndBuildToc, loadBacklinks, loadClaimGovernance });
 window.NepalExplorer._wikiLoaderLoaded = true;
 })();

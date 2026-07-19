@@ -3,10 +3,15 @@ title: World Bank Nepal Water Sector Diagnostic
 type: source
 created: 2026-04-14
 updated: 2026-04-14
+reviewed: 2026-07-19
+review_due: 2027-03-01
 source_type: report
 source_author: World Bank
 source_date: 2023-03-01
 source_url: https://documents1.worldbank.org/curated/en/099605103232250863/pdf/P17157506ca2380d5096a90d786e1c2d560.pdf
+source_status: public-online
+accessed: 2026-07-19
+verification_status: institutional-source-checked
 sources: [nea-transmission-annual-book-2077]
 tags: [world-bank, water, storage, irrigation, official]
 images:
@@ -20,7 +25,10 @@ images:
     credit: "Nepal Electricity Authority, A Year in Review FY 2019/20 (B.S. 2077)"
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
-page_quality: analysis
+excerpt: The World Bank's national diagnostic of Nepal's water institutions, storage, resilience and investment needs.
+caveat: National planning magnitudes and comparisons do not establish project feasibility or current operating storage.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # World Bank Nepal Water Sector Diagnostic
@@ -42,12 +50,6 @@ A water-sector-wide diagnostic covering storage requirements, irrigation, and th
 - **Active vs total storage ambiguity:** The ~85 MCM active storage and 130–150 MCM total figures differ by boundary definition. Both are vanishingly small relative to need.
 - **2023 cutoff:** Post-2023 project progress, policy changes, and new studies (e.g., JICA IPSDP) may update the storage requirement estimates.
 - **JICA MW targets:** The 1,993 MW (BAU) and 3,154 MW (high demand) storage hydropower figures are JICA study outputs, not verified construction plans.
-
-## Used By
-
-- [[data-storage-comparison]]
-- [[figure-index]]
-- [[storage-deficit]]
 
 ## Relevance to Project
 

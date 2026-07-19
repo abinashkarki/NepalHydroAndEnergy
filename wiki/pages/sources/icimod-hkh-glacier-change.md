@@ -3,13 +3,21 @@ title: ICIMOD HKH Glacier Change Summary
 type: source
 created: 2026-04-14
 updated: 2026-05-11
+reviewed: 2026-07-19
+review_due: 2027-07-19
 source_type: report
 source_author: ICIMOD
 source_date: 2023-01-01
 source_url: https://lib.icimod.org/records/z2xka-9nz56
+source_status: public-online
+accessed: 2026-07-19
+verification_status: institutional-source-checked
 sources: []
 tags: [icimod, glaciers, climate-change, hkh, cryosphere]
-page_quality: analysis
+excerpt: ICIMOD's regional evidence on glacier change across the Hindu Kush Himalaya and its implications for long-run water systems.
+caveat: Regional glacier findings do not establish a future design flow or hazard outcome for any individual power project.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # ICIMOD HKH Glacier Change Summary
@@ -35,8 +43,3 @@ Underpins [[peak-water]] concept and [[glof-risk]]. Relevant to [[koshi-basin]] 
 - **2023 publication window.** Does not capture the most recent acceleration in glacier mass loss reported in subsequent ICIMOD and WMO assessments.
 - **Scenario-dependent projections.** The 65% volume reduction figure is under a high-emission scenario; lower-emission pathways produce different outcomes. The source page does not differentiate between scenario bands.
 - **Glacier retreat rate is a regional average.** The ~0.4–0.5m water equivalent per year varies significantly by sub-basin and elevation band.
-
-## Used By
-
-- [[claim-climate-harder-not-easier]]
-- [[peak-water]]

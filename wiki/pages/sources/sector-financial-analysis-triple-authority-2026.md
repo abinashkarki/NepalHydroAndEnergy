@@ -1,76 +1,67 @@
 ---
-title: "Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector"
+title: Systemic Risk and Triple-Authority Research Compilation (2026)
 type: source
 created: 2026-05-02
-updated: 2026-05-11
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+source_type: research-compilation
+source_author: Not recorded in repository
+source_date: Not recorded in repository
+source_status: local-compilation-not-archived
+verification_status: provenance-incomplete
+sources: []
 tags: [source, financial, capital-markets, ipo, rights-shares, nea, nepse]
-images: []
+excerpt: A legacy research compilation that proposed links among utility governance, project finance and hydropower securities; it is a research lead, not independent evidence for its claims.
+caveat: The underlying 17-page file, authorship, date and row-level source map are not archived here; quantitative and named-project claims require reconstruction from primary records.
 page_quality: analysis
+maturity: working-page
 ---
 
-# Systemic Risk & Triple-Authority Conflict in Nepal's Hydropower Sector
-
-**Source type**: Research compilation — Google Docs export (17 pages)
-**Original**: Exhaustive investigation of structural imbalances at the intersection of capital markets, regulatory frameworks, and project finance in Nepal's hydropower IPP sector.
+# Systemic Risk and Triple-Authority Research Compilation (2026)
 
 ## Summary
 
-The "Triple-Authority Conflict" — NEA simultaneously functioning as sole off-taker (buyer), system dispatcher (NLDC), and autonomous penalty administrator — distorts IPOs, rights share issuances, and DSCR metrics. Retail investors on NEPSE are downstream victims of a system they were never properly informed about.
+This page records the existence and evidentiary boundary of a legacy 17-page research compilation about NEA's institutional roles, hydropower project finance and securities offerings. The underlying file and its row-level source map are not present in the release corpus.
 
-## IPO & Rights Share Inventory (VERIFIED from SEBON/NEPSE)
+The compilation is not peer-reviewed, audited or institutionally verified. It must not be used as a substitute for company accounts, signed PPAs, SEBON records, dispatch data or regulatory decisions.
 
-| Company | MW | IPO Year | IPO Amount (NPR Cr) | Rights Issue | Rights Amount (NPR Cr) | Rights Use |
-|---|---|---|---|---|---|---|
-| Chilime Hydropower | 22.1 | 2010 | 24.0 | None | — | Holding company expansion (Sanjen, Rasuwagadhi) |
-| Upper Tamakoshi | 456.0 | 2018 | 100.0 (Local) | 2023/24 | 1,059.0 (1:1) | Retire legacy commercial debt |
-| Rasuwagadhi Hydropower | 111.0 | 2018 | 66.0 (Local/Staff) | None | — | Delayed COD due to disasters |
-| Ankhu Khola Jalvidhyut | 8.4 | 2013 | 20.0 | 2024 | 120.0 (1:1.5) | Repay bank loans (150% dilution) |
-| Peoples Power Ltd | 4.96 | 2022 | 31.6 | 2024 | 15.8 (1:0.5) | Repay Prime Commercial Bank loans |
-| Joshi Hydropower | 3.0 | 2018 | 24.1 | 2024 | 15.6 (1:0.65) | Prevent NPL status (NMB Bank) |
-| Terhathum Power Co. | 7.5 | 2021 | 12.0 | 2024 | 12.0 (1:1) | Repay bank loans + 2 MW cascade |
+## Provenance
 
-## Key Findings
+- **Source type:** legacy research compilation described as a Google Docs export.
+- **Author:** not recorded in the repository.
+- **Document date:** not recorded in the repository.
+- **Public URL or archived local file:** not available.
+- **Verification status:** provenance incomplete; claims require primary-source reconstruction.
 
-### The Chilime Anomaly
-Chilime operated profitably for **7 years** before its 2010 IPO — distributing 35% cash dividends within a year. Modern IPOs are floated pre-commissioning, dumping execution risk onto retail investors. Today's investors buy debt-repayment vehicles, not dividend-yielding assets.
+## Topics Recorded by the Compilation
 
-### The AD Penalty Blindspot
-IPO prospectuses detail PPA tariff rates to project revenues, but fail to model scenarios where up to 16% of projected revenue is clawed back by the off-taker through structural AD (Availability Declaration) penalties.
+- The potential conflict risk created by concentrating dispatch, purchasing and penalty administration around NEA.
+- Hydropower IPO and rights-offer financing patterns.
+- Availability-declaration clauses and possible project-finance effects.
+- Differences between NEA-affiliated and private-project contracting.
 
-### Capital Sequencing Inversion
-Standard model: promoter equity → bank debt → COD → operational cash flow → IPO as exit.  
-Nepal model: pre-COD IPO → rights shares within 24–36 months → proceeds used to prevent bank foreclosure.
+These are research topics, not findings established by this page.
 
-### Market Concentration
-Hydropower equities grew from ~6% to ~16% of NEPSE total market capitalization. During FY 2020/21 liquidity surge: NPR 102B → NPR 342B.
+## Current Evidence Boundary
 
-## Data Gaps
-
-- "Promoters injected 2–6 Crore NPR/MW out-of-pocket to cover loan repayments" — based on regulatory corpus, not verified primary data
-- "103 MW of small projects required NPR 2.5 billion of additional equity to stop foreclosure" — parameters align with global reports, not a verified Nepal-specific study
+- The compilation's named-issuer and proceeds claims should be replaced by the bounded official record at [[sebon-hydropower-offering-records]].
+- Its standard-PPA discussion should be checked against [[nea-standard-ppa-clauses]] and, ultimately, signed project contracts.
+- Its reported Barahi case cannot be checked because the underlying audited statement and adjudication record are absent. See [[barahi-hydropower]].
+- Its institutional thesis is treated as a conflict-risk hypothesis at [[nea-triple-authority]], not as proof of discriminatory dispatch or a quantified project loss.
 
 ## Limitations
 
-- **Research compilation, not peer-reviewed.** This is a Google Docs export (17 pages) that assembles findings from regulatory filings, NEPSE data, and secondary sources. It has not undergone peer review or institutional fact-checking.
-- **Data gaps propagate.** Two key quantitative claims (promoter out-of-pocket estimates and the 103 MW equity-rescue figure) are flagged as unverified, so they remain provisional until backed by primary-source confirmation.
-- **No primary interviews.** The analysis draws from published regulatory sources and market data but does not include direct interviews with NEA officials, promoters, or investors. Motivational claims about promoter behaviour are inferred, not directly attested.
-- **Snapshot date.** Compiled in early 2026; does not capture any SEBON regulatory changes, NEPSE market movements, or NEA PPA revisions after that date.
+- **Missing source artifact:** the described 17-page document is not archived in the release corpus.
+- **Missing authorship and date:** provenance cannot be independently checked.
+- **No row-level source map:** earlier issuer, market and project assertions cannot be reproduced from this page.
+- **No primary dispatch or penalty records:** the compilation cannot establish operational discrimination or a sector-wide penalty effect.
+- **No verified named-project case:** references to Barahi remain research leads only.
 
-## Used By
+## Related
 
-- [[ankhu-khola]]
-- [[barahi-hydropower]]
-- [[rasuwagadhi]]
-- [[madhya-bhotekoshi]]
-- [[sanjen]]
-- [[ppa-data-retrieval-icra-care-2026]]
-- [[sahas-urja-benchmark-icra-2026]]
-
-## See Also
-
-- [[ppa-data-retrieval-icra-care-2026]]
-- [[ppa-pricing]]
+- [[intervention-nea-structural-separation]]
 - [[nea-triple-authority]]
-- [[ipo-hydropower-bailout]]
-- [[stranded-generation]]
 - [[ad-penalties]]
+- [[sebon-hydropower-offering-records]]
+- [[ipo-hydropower-bailout]]

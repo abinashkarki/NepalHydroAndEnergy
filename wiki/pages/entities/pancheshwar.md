@@ -2,10 +2,10 @@
 title: Pancheshwar Multipurpose Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-10
+updated: 2026-07-10
 generator: specs-refresh
 page_quality: analysis
-sources: [national-water-plan-nepal, wb-ganges-strategic-basin-assessment]
+sources: [pancheshwar-official-project-record, national-water-plan-nepal, wb-ganges-strategic-basin-assessment]
 tags: [project, storage, bilateral, treaty, mahakali, stalled, geopolitics]
 images:
   - src: pancheshwar/mahakali-river-came-from-api-mountain-at-darchula.jpg
@@ -19,13 +19,19 @@ images:
 
 ## Summary
 
-A bi-national mega-project on the [[mahakali-basin]] river forming the Nepal-India border. At 6,480 MW, the largest proposed hydropower project in the region — and the most instructive case study in [[hydro-geopolitics]] anywhere in South Asia. Signed into a treaty in 1996, the project has produced zero megawatts, zero construction, and zero approved DPR in 30 years. Every delay reason that can exist exists here.
+A proposed bi-national multipurpose project on the Mahakali/Sharda
+border river. The current official Nepal project description gives
+6,720 MW for the full scheme: 6,480 MW at the high dam plus 240 MW at
+the Rupali Gad re-regulating dam, with 12,333 GWh of average annual
+energy. The Mahakali Treaty was signed in 1996, but the 2016 WAPCOS
+draft DPR has not become a mutually accepted final DPR and construction
+has not started.
 
 ## Specifications
 
 | Parameter | Value |
 |-----------|-------|
-| Capacity | 6,480 MW (divided equally between Nepal and India) |
+| Capacity | 6,720 MW total: 6,480 MW high dam + 240 MW re-regulating dam |
 | Status | Stalled — 30 years, zero construction |
 | Treaty basis | Mahakali Treaty (1996) |
 | DPR | Drafted by India's WAPCOS (2016, unapproved) |
@@ -34,7 +40,11 @@ A bi-national mega-project on the [[mahakali-basin]] river forming the Nepal-Ind
 ### Engineering
 At 315 m, the proposed rockfill dam on the Mahakali River would be among the world's largest of its type — taller than the Nurek Dam (300 m, Tajikistan) and comparable in scale to the Rogun Dam (335 m, under construction). The site is in the Mahakali gorge near the Nepal-India border, with the dam axis straddling the international boundary.
 
-The powerhouse concept envisions an underground cavern on the Nepal side with 12 units of ~540 MW each (or equivalent configuration), fed by tunnels from a reservoir extending approximately 40 km upstream into Nepal's Darchula district. The multipurpose design includes irrigation off-take structures for both banks and flood-control gates.
+The published concept uses two equal underground powerhouses, one on
+each bank, providing 3,240 MW per country at the high dam. The official
+Nepal project page describes six 540 MW Francis units on each side. An
+83 m Rupali Gad re-regulating dam adds 240 MW and moderates downstream
+flow variation from peaking operation.
 
 But the engineering question is not whether the dam can be built — it is whether the bilateral governance structure can deliver it. 30 years after the Mahakali Treaty was signed, Nepal has received zero megawatts. This is the definitive case for [[buildability]] as a political construct, not an engineering one.
 
@@ -42,31 +52,39 @@ But the engineering question is not whether the dam can be built — it is wheth
 |-----------|-------|
 | Dam height | 315 m |
 | Dam type | Rockfill |
-| Powerhouse | Underground (Nepal side, proposed) |
-| Units (conceptual) | 12 × ~540 MW |
-| Reservoir extent | ~40 km upstream into Darchula |
+| Powerhouses | Two underground powerhouses, 3,240 MW each |
+| Units (high dam concept) | 12 × 540 MW total |
+| Re-regulating component | Rupali Gad, 240 MW |
 | Type | Storage / Multipurpose |
 
 ### Storage & Output
 Pancheshwar's multipurpose design means three outputs share the same reservoir:
-1. **Power generation** (~6,480 MW, 50/50 split) — the only benefit with a clear pricing mechanism
+1. **Power generation** (6,720 MW full scheme, with equal high-dam powerhouse capacity on each bank)
 2. **Irrigation regulation** for downstream Uttar Pradesh and Nepal's far-western Terai — valued differently by each side
 3. **Flood control** — the Mahakali/Sharda is a monsoon flood source for the Ghaghara-Ganges system
 
-No public design energy estimate exists (the DPR remains unapproved), but at 6,480 MW with a large reservoir, annual generation could exceed 20,000 GWh — roughly equivalent to Nepal's entire current electricity consumption.
+The official Nepal project description gives 12,333 GWh of average
+annual energy for the full scheme and 6.56 billion m³ of live storage
+at the high dam. These are published project parameters, not evidence
+of an approved final DPR or construction readiness.
+
+| Parameter | Value |
+|---|---|
+| Average annual energy | 12,333 GWh |
+| High-dam live storage | 6,560 MCM |
 
 ### Financial
-Nepal's share of the initial phase is estimated at NPR 126–130 billion, with total project cost projected at NPR 336 billion (USD 2.5–3 billion at current rates). This is comparable to Budhigandaki (~USD 2.77 billion) but for 5.4x the capacity — Pancheshwar's cost/MW is dramatically lower because the dam provides scale economics.
-
-Financing is unresolved. The revenue split on electricity is 50/50, prescribed by the treaty. The fight is over the non-electricity value: irrigation and flood-control benefits that India values differently than Nepal. Without agreement on valuing these non-power outputs, neither side can commit capital.
+The current official source set does not establish an approved project
+cost, financing plan, sovereign guarantees or financial close. Cost
+and benefit-allocation estimates in older commentary should be treated
+as dated proposals until the final DPR and bilateral decisions are
+published.
 
 | Parameter | Value |
 |-----------|-------|
-| Total project cost (est.) | NPR 336 billion (~USD 2.5–3 billion) |
-| Nepal's share (initial phase) | NPR 126–130 billion |
-| Electricity revenue split | 50/50 (treaty-prescribed) |
-| Non-electricity benefit split | **Unresolved** — core impasse |
-| Cost per MW (est.) | ~USD 0.38–0.46 million/MW |
+| Approved project cost | Not established |
+| Financing close | Not achieved |
+| Benefit allocation | Bilateral issues remain unresolved |
 
 ### Schedule
 The Mahakali Treaty was signed in 1996. The DPR was drafted by India's WAPCOS in 2016 and remains unapproved — now a decade in ministerial limbo. This is not a construction delay; this is a governance delay at the most fundamental level.
@@ -76,28 +94,64 @@ The Mahakali Treaty was signed in 1996. The DPR was drafted by India's WAPCOS in
 | Treaty signed | 1996 |
 | DPR drafted | 2016 (WAPCOS, India) |
 | DPR approved | **No** (as of 2026) |
-| 6th Joint Expert Group | Scheduled Aug 2025 — unconfirmed |
 | Construction start | No date |
 | Time since treaty (no output) | **30 years** |
+
+## Current Status
+
+**As of 10 July 2026:** stalled before an agreed final DPR. India's
+Ministry of Jal Shakti records that WAPCOS submitted the draft final
+DPR in November 2016 and that finalisation remains underway because
+contentious issues are unresolved.
+
+| Dimension | Current position | Evidence |
+|---|---|---|
+| Treaty basis | Mahakali Treaty, 1996 | Official India project page |
+| Technical concept | 6,720 MW full scheme; 12,333 GWh annual energy | [Official Nepal project description](https://www.pmp.gov.np/about-project.php) |
+| DPR | Draft final submitted November 2016; mutually accepted final DPR unresolved | [Ministry of Jal Shakti project page](https://www.jalshakti-dowr.gov.in/offerings/schemes-and-services/details/pancheshwar-multipurpose-project-wMwETNtQWa) |
+| Construction | Not started | 10 Jul 2026 verification |
+
+## Recent Updates
+
+The current official websites continue to publish project, disclosure
+and institutional material, but no source reviewed for this update
+establishes final DPR approval or construction commencement.
+
+## Active Blockers
+
+| Blocker | Prevents | Responsible forum |
+|---|---|---|
+| No mutually accepted final DPR | Investment approval, procurement and construction | Pancheshwar Development Authority and both governments |
+| Bilateral technical and benefit-allocation issues remain open | Final project configuration and financing | Joint water-resources institutions |
+| Financing commitments are not established | Financial close | Both governments / project authority |
 
 
 ## Limitations & Controversies
 
-- **30-year stall with zero construction.** The Mahakali Treaty was signed in 1996; the DPR drafted in 2016 remains unapproved. No construction has started. This is a governance failure, not an engineering one.
-- **Benefit-sharing impasse.** The 50/50 electricity split is accepted. The fight is over non-electricity benefits (irrigation, flood control). Nepal demands 50/50 on all benefits; India insists on 75/25 for non-power benefits. No valuation mechanism exists in the treaty.
-- **Displacement at unprecedented scale.** ~50,000 people would be affected across both sides of the border. A binational resettlement plan across two legal systems has no precedent in Nepal.
-- **Seismic zone 4–5 risk.** Near the Main Central Thrust, within the influence zone of the 1505 Lo Mustang earthquake (M~8.2) and the 2015 Gorkha earthquake (M7.8). A 315 m rockfill dam in this environment requires conservative MCE design.
-- **Financing unresolved.** Initial phase estimated at NPR 126–130 billion for Nepal's share. No sovereign guarantee or joint project entity exists to borrow against.
-- **No joint project entity.** Contrast with Itaipu Binacional (Brazil/Paraguay), which had a single binational entity with clear governance and Brazilian debt guarantee. Pancheshwar has none of these.
+- **Final DPR unresolved.** The 2016 draft remains the central evidence
+  gap. Technical figures may change until a mutually accepted final DPR
+  is published.
+- **Benefit allocation unresolved.** Official India material explicitly
+  records contentious bilateral issues but does not provide a current,
+  agreed allocation protocol in the source set used here.
+- **Social and environmental evidence is incomplete.** Displacement,
+  resettlement, biodiversity, downstream-flow and cumulative-impact
+  totals should not be treated as current without the final assessment
+  documents.
+- **Seismic and dam-safety requirements are material.** A 315 m
+  Himalayan rockfill dam requires current project-specific design and
+  review evidence; regional hazard descriptions are not a substitute.
+- **Financing unresolved.** No approved cost and financing package is
+  established in the current official record.
 
 ## The DPR: What WAPCOS Drafted in 2016
 
 The Detailed Project Report drafted by India's WAPCOS in 2016 is the most important unapproved document in Nepal-India hydropower relations. Key technical elements reported in public summaries include:
 
 - **Dam axis**: near the Pancheshwar gorge, with the dam body straddling the international boundary
-- **Installed capacity**: 6,480 MW (12 × 540 MW Francis turbines in underground powerhouse)
-- **Annual energy**: ~20,000+ GWh (design estimate, unconfirmed)
-- **Reservoir**: ~40 km extent, predominantly in Nepal's Darchula district
+- **Installed capacity**: 6,720 MW full scheme (6,480 MW high dam plus 240 MW re-regulating dam)
+- **Annual energy**: 12,333 GWh on the current official Nepal project page
+- **High-dam live storage**: 6.56 billion m³ on the current official Nepal project page
 - **Irrigation**: command area in both Nepal's far-western Terai and India's Uttar Pradesh
 - **Flood control**: downstream regulation for the Sharda-Ghaghara system
 
@@ -105,13 +159,12 @@ The DPR's unapproved status means none of these figures are bankable. Until the 
 
 ## The Benefit-Sharing Impasse
 
-The core breakdown is not about electricity — the Mahakali Treaty prescribes an equal 50/50 split, and both sides accept this. The breakdown is about **non-electricity benefits**: irrigation water and flood-control value.
-
-**Nepal's position**: 50/50 sharing of *all* project benefits, including the indirect value of irrigation regulation and flood control. Nepal argues that the reservoir is predominantly in Nepali territory, and that downstream benefits should be compensated on a par with power.
-
-**India's position**: 75/25 split on irrigation and flood-control benefits, reflecting the fact that the primary beneficiaries of these services are in India's downstream states. India argues that Nepal cannot claim 50% of benefits it cannot physically consume (Nepal's far-western Terai has limited irrigation command area).
-
-This is not a dispute about fairness — it is a dispute about **how to value water that Nepal cannot use but India cannot get without Nepal's cooperation**. The treaty provides no valuation mechanism for non-power outputs, and three decades of diplomacy have not created one.
+Official India material states that contentious bilateral issues prevent
+final DPR agreement. Public commentary commonly identifies irrigation,
+regulated-water and other non-power benefits among those issues, but the
+current wiki source set does not establish a mutually agreed valuation or
+allocation formula. Precise negotiating positions should be linked to
+joint minutes before being presented as current.
 
 ### Parallel stalls
 
@@ -130,11 +183,11 @@ The pattern is systemic: India-Nepal water cooperation lacks a standardized fram
 | Construction start | 1975 | **Not started** |
 | COD | 1984 | **No date** |
 | Treaty-to-COD | 11 years | **30+ years and counting** |
-| Capacity | 14,000 MW | 6,480 MW |
+| Capacity | 14,000 MW | 6,720 MW full scheme |
 | Dam type | Concrete gravity/buttress | Rockfill |
 | Dam height | 196 m | 315 m |
 | Benefit split | 50/50 (power — Paraguay sells excess to Brazil) | 50/50 (power) / unresolved (non-power) |
-| Governance | Itaipu Binacional (single entity) | No joint project entity |
+| Governance | Itaipu Binacional (single entity) | Pancheshwar Development Authority; final DPR unresolved |
 | Financing | Brazilian guarantee + export revenue | Unresolved |
 
 The Itaipu comparison is instructive: the treaty created a single binational entity (Itaipu Binacional) with clear governance, Brazil guaranteed the debt (80% of the cost), and Paraguay's excess power was purchased by Brazil at a defined price. Pancheshwar has none of these.
@@ -143,51 +196,30 @@ The critical difference is governance architecture. Itaipu showed that a single 
 
 ## Displacement & Social Impact
 
-The 315 m dam would create a reservoir extending approximately 40 km upstream into Nepal's Darchula district, affecting an estimated **~50,000 people** across both sides of the border. The displacement footprint includes:
-- Agricultural land in the Mahakali river valley — the primary livelihood source in upper Darchula
-- Villages along both banks of the river
-- Cultural and religious sites in the border region
-- Upstream ecosystem services that support both Nepali and Indian communities
-
-A resettlement plan of this scale has no precedent in Nepal. The largest displacement to date from a single hydropower project is Budhigandaki (~8,117 households, ~45,000+ people), and that is a domestically-controlled project with clear land-acquisition authority. A binational resettlement plan across two legal systems has never been attempted.
+The reservoir and associated infrastructure would affect communities on
+both sides of the border. The current source set used for this update
+does not contain an approved, consolidated resettlement plan or a final
+cross-border affected-household total. Historical estimates should be
+retained only with their document date and assessment boundary.
 
 ## Seismic & Environmental Risk
 
-The Mahakali gorge sits in **seismic zone 4–5** — among the most active fault zones in the Himalayas, near the Main Central Thrust (MCT) and within the influence zone of the 1505 Lo Mustang earthquake (M~8.2) and the 2015 Gorkha earthquake (M7.8). A 315 m rockfill dam in this seismic environment requires:
-- Conservative dynamic analysis for maximum credible earthquake (MCE) scenarios
-- Spillway capacity design for cascading GLOF scenarios upstream
-- Sediment management for a river carrying high Himalayan sediment loads
+The Himalayan setting makes seismic loading, slope stability, sediment,
+spillway design and downstream-flow change material assessment topics
+for a 315 m rockfill dam. The current page does not assign a project
+hazard class or quantify those impacts because the governing final DPR,
+dam-safety review and environmental documents are not in the source set.
 
-Environmental concerns include biodiversity loss in the Mahakali river corridor (part of the Kailash Sacred Landscape), downstream flow alteration affecting the Sharda River ecosystem, and induced seismicity risk from reservoir impoundment.
+## Unresolved Milestones
 
-## Status (updated May 2026)
+The evidence trail supports three pending milestones without prescribing
+how the two governments should resolve them:
 
-**Stalled. No construction has started after 30 years.**
-
-- **Feb 2025:** Energy Ministers Khadka (Nepal) and Patil (India) met in New Delhi; India "assured commitment to finalizing the DPR" — a promise made repeatedly since 2016. The headline "India assures yet again" was the literal Republica headline.
-- **6th Joint Expert Group (JEG)** meeting was to be convened by **August 2025** to finalize DPR. No public confirmation it occurred.
-- **Core impasse: water/irrigation share.** Nepal demands **50-50** sharing of irrigation and flood-control benefits; India insists on **75-25**. Electricity is already split equally, so the fight is about the **non-electricity** value.
-- **Saptakoshi High Dam** and **Sunkoshi Storage** projects face similar JTE stalls; the 17th JTE meeting was October 2023.
-- Additional stalling factors:
-  - India's internal federal politics (Uttarakhand and UP have conflicting interests)
-  - Nepal's political instability (18+ governments in 30 years)
-  - Financing uncertainty (initial phase est. NPR 336 billion; Nepal share NPR 126–130B)
-  - Seismic zone 4–5 risk, with ~50,000 people affected across both sides
-  - Environmental concerns including biodiversity loss and flood risk from a 315 m dam
-
-Nepal has received **zero megawatts** from the Mahakali Treaty after **30 years** (signed 1996).
-
-## What a Breakthrough Requires
-
-Moving Pancheshwar from stalled to started would require at least three things:
-
-1. **DPR approval at the Joint Expert Group level**, followed by cabinet-level ratification on both sides. The 6th JEG (August 2025, unconfirmed) is the next procedural milestone.
-
-2. **A benefit-sharing protocol for non-electricity outputs.** Neither the 50/50 nor the 75/25 positions have a technical basis. A mutually agreed methodology for valuing irrigation and flood-control benefits — possibly based on avoided costs or downstream economic modelling — could break the logjam.
-
-3. **A joint project entity with financing commitments.** The Itaipu model (Itaipu Binacional, backed by Brazilian sovereign guarantee) offers one template. Without a single entity that can sign contracts, hire contractors, and borrow money, Pancheshwar remains a paper project.
-
-Until these three conditions are met, Pancheshwar belongs in the same category as Karnali Chisapani — a strategically obvious project whose governance architecture does not exist. The difference is that Pancheshwar has a signed treaty and a drafted DPR. It is closer, which makes the stall more painful.
+1. A mutually accepted final DPR.
+2. A documented agreement on outstanding bilateral technical and
+   benefit-allocation issues.
+3. An approved cost, financing and implementation package capable of
+   supporting procurement and construction.
 
 ## Significance
 
@@ -211,6 +243,7 @@ The comparison with [[budhigandaki]] — a 1,200 MW domestically-controlled stor
 
 ## Sources
 
+- [[pancheshwar-official-project-record|Pancheshwar Official Project Records — Nepal and India]]
 - [[national-water-plan-nepal|National Water Plan, Nepal]]
 - [[wb-ganges-strategic-basin-assessment|World Bank Ganges Strategic Basin Assessment]]
 

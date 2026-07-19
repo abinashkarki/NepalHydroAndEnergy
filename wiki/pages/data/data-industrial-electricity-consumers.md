@@ -2,7 +2,7 @@
 title: Industrial Electricity Consumers in Nepal
 type: data
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-07-10
 figure_type: table
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [industry, consumption, manufacturing, brick, cement, steel, ferroalloy, nepal]
@@ -101,13 +101,23 @@ The above tiers sum to roughly 3,100–4,800 GWh, compared to the NEA-reported 4
 
 ## Structural Features of Nepal's Industrial Electricity Demand
 
-### 1. It's a few large consumers, not a broad base
+### 1. Aggregate data do not show the consumer concentration
 
-From the NEA consumer data: industrial consumers are **1.23% of all customers** but consume **36.64% of all electricity**. This means approximately 70,000 industrial connections serve an average of ~59,000 kWh/yr each — but the distribution is heavily skewed. The top ~50-100 consumers (cement plants, steel mills, large cold stores) likely account for 30-50% of total industrial consumption.
+From the NEA consumer data: industrial consumers are **1.23% of all
+customers** but consume **36.64% of all electricity**. This implies an
+average of about 59,000 kWh per industrial connection per year, but an
+average cannot establish the distribution. The reviewed public sources
+do not identify the share taken by the largest consumers, the number of
+high-load accounts, or their sector mix.
 
-This concentration makes industrial demand the highest-leverage policy target: converting a single major brick kiln cluster or cement plant to grid electricity can shift the demand curve more than adding thousands of new household connections.
+Large industrial conversions may be high-leverage, but the claim needs
+an anonymised account-level load extract or a disclosed large-customer
+cohort before it can be quantified.
 
-NEA explicitly recognizes this by categorizing top consumers as "Most Important Consumers" (MIC), "Very Important Consumers" (VIC), and "Important Consumers" (IC) with dedicated customer care.
+The next evidence threshold is an anonymised NEA or regulator extract
+with annual kWh, maximum demand, tariff class, location and industrial
+sub-sector for the largest accounts. It should be published in bands if
+customer confidentiality prevents plant-level disclosure.
 
 ### 2. Industry is underelectrified compared to peers
 

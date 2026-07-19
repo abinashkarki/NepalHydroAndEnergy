@@ -2,25 +2,31 @@
 title: Index
 type: overview
 created: 2026-04-14
-updated: 2026-05-21
+updated: 2026-07-19
 ---
 
 # Nepal Energy Wiki
 
 This public wiki explains Nepal's electricity system through linked pages, source notes, and interactive map layers. It focuses on the practical questions behind the headlines: seasonal hydropower timing, storage scarcity, transmission bottlenecks, electricity trade, solar complementarity, domestic demand, and downstream river geography.
 
-The explorer now opens with [[start-here]], a public entry page designed for first-time readers. The full page directory remains available in Find, while Explore is best for questions and comparisons.
+The explorer opens with Find as its discovery surface, the [[start-here]] page as the editorial wiki front page, and the map as its spatial companion. The full page directory remains available in Find.
 
 ## Start Here
 
-- [[start-here]] - the public guide to how the wiki, map, sources, claims, and records fit together
-- [[master-thesis]] - the core argument about turning resource potential into firm, deliverable power
+- [[start-here]] - the editorial front page for the system, its major questions, and its evidence model
+- [[state-of-the-system]] - the neutral, dated status page
+- [[master-thesis]] - TransparentGov's explicitly editorial synthesis
 - [[seasonal-mismatch]] - why annual water abundance does not equal year-round electricity
-- [[run-of-river-hydropower]] - the project type that dominates Nepal's current fleet
-- [[storage-deficit]] - why dry-season firmness remains hard
-- [[claim-transmission-immediate-blocker]] - why grid delivery is now an immediate monetization constraint
-- [[solar-hydro-complementarity]] - why solar changes the power-system portfolio
-- [[seasonal-arbitrage-trap]] - how wet-season exports and dry-season imports can destroy value
+- [[hydropower-system]] - capacity, dependable energy and project buildability
+- [[transmission-and-cross-border-trade]] - internal delivery and external markets
+- [[distribution-and-reliability]] - reach, losses and service-quality gaps
+- [[solar-system]] - operating records, award records and seasonal complementarity
+- [[storage-and-flexibility]] - seasonal, daily and operating balance
+- [[demand-and-electrification]] - users, peaks and fuel switching
+- [[institutions-finance-and-project-delivery]] - the chain from concept to operation
+- [[environmental-and-social-impacts]] - safeguards, settlements and river impacts
+- [[climate-resilience-and-decarbonization]] - climate exposure and official transition targets
+- [[unresolved-questions]] - conflicts, unknowns and monitoring priorities
 
 ## Reader Doors
 
@@ -62,4 +68,4 @@ Persona-specific entry pages with curated reading paths and citation guidance.
 
 Some project pages are concise data-backed records rather than finished narrative articles. They preserve map coverage and registry facts for public navigation. Pages with fuller interpretation link out to source notes, claims, and data pages so readers can follow the evidence trail.
 
-The explorer currently indexes 388 wiki pages across sources, entities, concepts, syntheses, claims, data, and interventions.
+The explorer currently indexes 418 wiki pages across sources, entities, concepts, syntheses, claims, data, and Decision Dossiers (stored under the legacy `interventions` category for compatibility).

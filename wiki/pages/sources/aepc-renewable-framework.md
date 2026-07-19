@@ -93,15 +93,6 @@ And it is the first place to look when the question is "how much solar is actual
 - **Mini-grid reliability data uneven.** Some mini-grids have been dormant between donor-project cycles; continuous-operation data is not systematically published.
 - **Composite source.** This page synthesizes multiple AEPC documents (yearbooks, NREF, subsidy policy, donor reports) rather than representing a single published document at a fixed date.
 
-## Used By
-
-- [[claim-solar-political-coalition-is-rural]]
-- [[aepc]]
-- [[wb-grid-solar-ee-project]]
-- [[wb-esmap-solar-resource-assessment]]
-- [[eib-rural-solar-phase2]]
-- [[agrivoltaics-and-land]]
-
 ## Related
 
 - [[aepc]]

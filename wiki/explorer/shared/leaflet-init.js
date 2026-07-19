@@ -8,11 +8,14 @@ const NEPAL_VIEW = { center: [28.2, 84.0], zoom: 7 };
 const HYDROPOWER_FALLBACK_LAYERS = new Set([
   "hydropower_operating",
   "hydropower_construction",
+  "hydropower_verified_construction",
   "hydropower_survey",
+  "hydropower_cancelled",
 ]);
 const ZOOM_GATED_LAYERS = new Set([
   "hydropower_operating",
   "hydropower_construction",
+  "hydropower_verified_construction",
   "hydropower_survey",
   "transmission_traced_network",
   "cross_border_lines",
@@ -115,7 +118,7 @@ const _APP_CB = (() => {
     const m = document.querySelector('meta[name="np-build"]');
     if (m && m.content) return m.content;
   } catch (e) {}
-  return "public-launch-6";
+  return "public-launch-11";
 })();
 
 function bustify(path) {
@@ -182,6 +185,9 @@ function makeMap(elId, opts = {}) {
   map.createPane("np-polygons");  map.getPane("np-polygons").style.zIndex = 410;
   map.createPane("np-lines");     map.getPane("np-lines").style.zIndex     = 420;
   map.createPane("np-points");    map.getPane("np-points").style.zIndex    = 430;
+  // Explicit reference/approximation layers need to remain clickable when
+  // their orientation points overlap the denser project registry.
+  map.createPane("np-reference-points"); map.getPane("np-reference-points").style.zIndex = 440;
 
   const baseLayers = makeBaseLayers();
   const defaultBase = opts.defaultBase || "Carto Positron";
@@ -199,26 +205,32 @@ function normalizeHydropowerStatus(raw) {
   if (text.includes("conceptual")) return "conceptual";
   if (text.includes("survey") || text.includes("planned") || text.includes("proposed") || text.includes("tender") || text.includes("pre-ppa") || text.includes("radar")) return "survey";
   if (text.includes("operation") || text.includes("operating")) return "operating";
-  if (text.includes("construction") || text.includes("generation")) return "under-construction";
+  if (text.includes("construction")) return "under-construction";
+  if (text.includes("generation") || text.includes("licence") || text.includes("license")) return "licensed";
   return "";
 }
 
 function hydropowerStatusClass(props) {
-  const curated = normalizeHydropowerStatus(props && props.status);
+  const curated = normalizeHydropowerStatus(props && (props.delivery_status || props.status));
   if (curated) {
-    if (curated === "operating" || curated === "under-construction") return curated;
+    if (["operating", "under-construction", "cancelled"].includes(curated)) return curated;
     return "survey";
   }
+  const officialDelivery = normalizeHydropowerStatus(props && props.doed_delivery_status);
+  if (officialDelivery === "operating") return "operating";
+  const officialCategory = normalizeHydropowerStatus(props && props.doed_primary_category);
+  if (["licensed", "cancelled"].includes(officialCategory)) return officialCategory;
   const fallback = normalizeHydropowerStatus((props && props.license_type) || (props && props.category));
-  if (fallback === "operating" || fallback === "under-construction") return fallback;
+  if (["operating", "licensed", "cancelled"].includes(fallback)) return fallback;
   return "survey";
 }
 
 function hydropowerStatusDisplay(props) {
-  const curated = normalizeHydropowerStatus(props && props.status);
+  const curated = normalizeHydropowerStatus(props && (props.delivery_status || props.status));
   const labels = {
     operating: "Operating",
     "under-construction": "Under construction",
+    licensed: "Generation licence",
     survey: "Survey",
     "pre-construction": "Pre-construction",
     stalled: "Stalled",
@@ -226,6 +238,9 @@ function hydropowerStatusDisplay(props) {
     conceptual: "Conceptual",
   };
   if (curated) return labels[curated] || curated;
+  const officialDelivery = normalizeHydropowerStatus(props && props.doed_delivery_status);
+  if (officialDelivery === "operating") return labels.operating;
+  if (props && props.doed_status_display) return props.doed_status_display;
   const fallback = normalizeHydropowerStatus((props && props.license_type) || (props && props.category));
   return labels[fallback || "survey"] || "Survey";
 }
@@ -571,7 +586,7 @@ class LayerManager {
     // Route each kind to its own pane so click priority is enforced by CSS
     // z-index (polygons under, points over). See makeMap() for the panes.
     const KIND_PANE = { polygon: "np-polygons", line: "np-lines", point: "np-points" };
-    const pane = KIND_PANE[def.kind];
+    const pane = def.pane || KIND_PANE[def.kind];
     const styleWithPane = pane ? Object.assign({}, baseStyle, { pane }) : baseStyle;
     // Coverage stats (how many features in this layer have a bound wiki slug).
     // We compute the slug up-front so pointToLayer can give orphan markers a
@@ -1156,6 +1171,64 @@ class LayerManager {
       primary: !!featureRef.primary,
       focusOverlay: true,
     };
+  }
+
+  // Render several source features as one temporary search-result overlay.
+  // The source layers do not need to be active, and the cloned features keep
+  // search focus independent from preset and manual layer state.
+  showFocusOverlays(featureRefs, opts = {}) {
+    const refs = (featureRefs || []).filter((ref) => ref && ref.feature);
+    if (!refs.length) return [];
+    this.clearFocusOverlay();
+    const group = L.featureGroup().addTo(this.map);
+    const rendered = [];
+    for (const ref of refs) {
+      const def = this.manifest.layers[ref.key] || {};
+      const baseStyle = def.style || {};
+      const focusStyle = {
+        pane: def.kind === "point" ? "np-points" : (def.kind === "line" ? "np-lines" : "np-polygons"),
+        color: opts.color || "#2563eb",
+        weight: Math.max(4, Number(baseStyle.weight || 2) + 2),
+        opacity: 0.98,
+        fillColor: opts.fillColor || baseStyle.fillColor || "#60a5fa",
+        fillOpacity: def.kind === "polygon" ? 0.22 : 0.85,
+        dashArray: null,
+        interactive: true,
+        className: "np-focus-overlay np-search-focus-overlay",
+      };
+      let selected = null;
+      const overlay = L.geoJSON(ref.feature, {
+        style: () => focusStyle,
+        pointToLayer: (feat, latlng) => L.circleMarker(latlng, {
+          pane: "np-points",
+          radius: Math.max(11, Number(baseStyle.radius || 8) + 4),
+          color: opts.color || "#2563eb",
+          weight: 3,
+          opacity: 0.98,
+          fillColor: opts.fillColor || "#60a5fa",
+          fillOpacity: 0.86,
+          className: "np-focus-overlay np-search-focus-overlay",
+        }),
+        onEachFeature: (feat, layer) => {
+          selected = layer;
+          layer.feature = feat;
+        },
+      }).addTo(group);
+      const layer = selected || (overlay.getLayers && overlay.getLayers()[0]);
+      if (layer) rendered.push({
+        key: ref.key,
+        layer,
+        props: ref.props || (ref.feature.properties || {}),
+        primary: !!ref.primary,
+        focusOverlay: true,
+      });
+    }
+    if (!rendered.length) {
+      try { this.map.removeLayer(group); } catch (e) {}
+      return [];
+    }
+    this.focusOverlay = group;
+    return rendered;
   }
 
   findFeatureByRef(ref) {

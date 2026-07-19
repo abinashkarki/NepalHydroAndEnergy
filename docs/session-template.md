@@ -23,7 +23,7 @@ Do not begin editing until you have read all three.
 
 ## Source-Page Rule
 
-When editing `sources/*` pages: the `## Used By` section must be built from a `grep` or backlink check against the wiki, never from memory or recall. Reconstructing citations from memory produces false positives and misses. Run `grep -rl '[[SLUG]]' wiki/pages/*/*.md` or check `wiki/explorer/shared/wiki-backlinks.json` before writing.
+When editing `sources/*` pages: do not write a manual `## Used By` section. Source-page `Used By` is rendered from `wiki/explorer/shared/wiki-backlinks.json`; run `make wiki-index` after link changes so the computed display stays current.
 
 ## Rules
 

@@ -2,11 +2,11 @@
 title: Mugu Karnali Storage HEP
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-07-10
 generator: specs-refresh
 page_quality: analysis
-sources: [mugu-karnali-feasibility-2025]
-tags: [project, watchlist, top-capacity, survey, karnali, mugu, bajura, storage, pumped-storage, vuc, ppp, geopolitics]
+sources: [vucl-mugu-karnali-project, mugu-karnali-feasibility-2025]
+tags: [project, watchlist, top-capacity, pre-construction, karnali, mugu, bajura, storage, vucl, ppp, geopolitics]
 images:
   - src: mugu-karnali-storage/official-layout.jpg
     caption: Official project layout image published on the VUCL Mugu Karnali Storage HEP page.
@@ -21,64 +21,113 @@ images:
 
 # Mugu Karnali Storage HEP
 
-At a proposed **1,902 MW**, Mugu Karnali would be the single largest generation asset Nepal has ever planned — by itself larger than the country's entire current operating hydropower fleet. Still at pre-feasibility stage under state-owned Vidhyut Utpadan Company (VUCL), open to public–private partnership bidding, and attracting expressions of interest from India's Adani Group and Bangladesh's Chowdhury Group. Its schedule (construction from ~2030, commissioning ~2034) and transmission dependencies place it on a longer horizon than any of the other top-10 anchor projects.
+At a proposed **1,902 MW**, Mugu Karnali is one of Nepal's largest
+storage projects in feasibility development. VUCL's official project
+page publishes a detailed current design basis; NEA Engineering Company
+describes the feasibility work as ongoing. Neither source establishes
+construction commencement, financial close or a firm commissioning
+date.
 
 ## Summary
 
-**Mugu Karnali Storage HEP is a proposed 1,902 MW storage/pumped-storage hydropower project in the Karnali basin**, at pre-feasibility stage under state-owned VUCL with PPP bidding underway. At 1,902 MW and ~5,883 GWh design annual energy, it would be Nepal's largest single generation asset. The page tracks it as a top-capacity planning candidate using the VUCL feasibility and bid-record source set.
+**Mugu Karnali Storage HEP is a proposed 1,902 MW conventional storage
+project in the Karnali basin.** The current primary project page does
+not describe it as pumped storage. It gives eight Francis units and
+6,291.8 GWh of annual design energy, correcting the earlier wiki values
+of ten units and 5,883 GWh.
 
 ## Specifications
 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 1,902 MW |
-| Status | Pre-feasibility; PPP bidding underway |
+| Status | Pre-construction / feasibility under review |
 | River | Karnali ([[karnali-basin]]) |
 | District | Mugu (registry primary); Bajura referenced in early materials |
 | Province | Karnali Pradesh |
 
 ### Engineering
-At 1,902 MW with 10 Francis units and ~285 m gross head, Mugu Karnali would be Nepal's largest generation asset — by itself larger than the country's entire current operating fleet. The storage / pumped-storage design makes it a grid-scale balancing asset: it can time-shift energy across daily and seasonal scales, the structural answer to [[seasonal-mismatch]] that Nepal has not yet built. All parameters are screening-level estimates subject to bankable feasibility revision.
-
-The pumped-storage component — the ability to pump water back into the reservoir during low-demand periods and release it during peaks — is what separates Mugu Karnali from a conventional storage dam. In a system with growing variable solar generation (see [[solar-hydro-complementarity]]), pumped storage converts daytime solar surplus into evening peak power. This is a value stream that did not exist when Kulekhani was designed in the 1970s.
+VUCL publishes a 283 m dam, 793.45 m³/s design discharge, eight
+242.67 MW Francis units, 4,843.2 MCM of total storage and 2,238.95 MCM
+of live storage. NEA Engineering publishes a 276 m gross-head figure.
+These remain feasibility-stage design parameters rather than final
+construction quantities.
 
 | Parameter | Value |
 |-----------|-------|
-| Units | 10 × Francis |
-| Gross head | ~285 m |
-| Type | Storage / Pumped-storage |
+| Units | 8 × 242.67 MW Francis |
+| Gross head | 276 m |
+| Dam height | 283 m |
+| Design discharge | 793.45 m³/s |
+| Total / live storage | 4,843.2 / 2,238.95 MCM |
+| Type | Storage |
 
 ### Output
-Design annual energy of ~5,883 GWh — the largest single-project energy contribution in Nepal's planning universe. For context: this is roughly 2.5x the annual generation of [[upper-tamakoshi]] (2,281 GWh) and approximately equal to Nepal's total current annual electricity consumption. The storage design means this energy can be concentrated in dry-season months and peak hours rather than spilling during monsoon when it is least valuable.
+VUCL publishes 6,291.8 GWh of annual design energy, split into 2,415
+GWh dry-season and 3,876.8 GWh wet-season energy. These are design
+outputs, not an operating forecast.
 
 | Parameter | Value |
 |-----------|-------|
-| Annual design energy | 5,883 GWh |
+| Annual design energy | 6,291.8 GWh |
+| Dry-season design energy | 2,415 GWh |
 
 ### Governance
-Vidhyut Utpadan Company Limited (VUCL), a state-owned developer created to develop Karnali-basin projects, is seeking a 51% PPP partnership. The competitive dynamic is notable:
-
-- **Adani Group (India):** Expressed interest — consistent with the India-developer pattern that runs through [[arun-3]] (SJVN), [[upper-karnali]] (GMR), and [[west-seti]] (NHPC). Adani's interest signals that Indian conglomerates see Nepal's western Karnali as the next frontier after the eastern Koshi basin is fully allocated.
-- **Chowdhury Group (Bangladesh):** Formal bid — the first time a Bangladeshi private group has bid for a large Nepali hydropower project. This is a direct consequence of Bangladesh's growing energy import strategy (see [[bangladesh-trade-route]]) and represents a structural expansion of the regional developer pool beyond the India-dominated pattern.
-
-The 51% PPP structure means whichever partner wins will have operational control of the project, including reservoir dispatch rules. This is geopolitically sensitive: control over 5,883 GWh of Karnali-basin dispatch affects downstream India's flood management and irrigation timing.
+VUCL is the licensed state-owned developer and NEA Engineering Company
+is the design consultant in the current official record. Public EOI and
+PPP reporting should be logged as dated procurement events; expressions
+of interest do not establish a selected partner, ownership control or
+financing close.
 
 | Parameter | Value |
 |-----------|-------|
 | Developer | Vidhyut Utpadan Company Limited (VUCL) |
-| Concession type | PPP (51% partnership sought) |
-| Bidders | Adani Group (India), Chowdhury Group (Bangladesh) |
+| Design consultant | NEA Engineering Company Limited |
+| Development model | PPP proposals reported; final partner not established |
 
 ### Financial
-No public cost estimate exists at the current pre-feasibility stage. As a reference: [[dudhkoshi-storage]] (635 MW) has an estimated cost of ~USD 2.2 billion (~USD 3.5 million/MW). At comparable storage-project costs, Mugu Karnali at 1,902 MW could require USD 5–7 billion — roughly 2–3x the cost of [[budhigandaki]] (1,200 MW, ~USD 2.77 billion). The financing structure (sovereign, PPP, or mixed) will be determined by the partnership outcome.
+VUCL publishes a base-2024 project cost described as "46,000 Crore"
+and a 75:25 debt/equity assumption. The currency and cost basis must be
+verified from the feasibility report before conversion into USD or
+cost-per-MW comparisons, so the wiki does not publish a converted total.
 
 ### Schedule
-Targeted for construction from ~2030 with COD ~2034, Mugu Karnali sits outside the 5-year planning window most NEA decisions use. Every dry season until then must be managed without it.
+VUCL describes a ten-year implementation duration. The current source
+set does not establish a firm construction-start or commissioning year.
 
 | Parameter | Value |
 |-----------|-------|
-| Construction start | 2030 (target) |
-| Commercial operation | 2034 (target) |
+| Construction start | Not established |
+| Commercial operation | Not established |
+| Published duration | 10 years |
+
+## Current Status
+
+**As of 10 July 2026:** pre-construction, with feasibility material
+under expert review and a separate 271.5 MW re-regulating-dam
+application visible in the current DoED register.
+
+| Dimension | Current position | Evidence |
+|---|---|---|
+| Design | 1,902 MW storage; eight units; 6,291.8 GWh | [VUCL project page](https://www.vucl.org/projects/mugu-karnali-storage-hep) |
+| Feasibility | Ongoing / under expert review | NEA Engineering current project and annual-report material |
+| Cascade | Separate 271.5 MW re-regulating-dam application | [DoED application register](https://doed.gov.np/pages/appslhydromorethan1/) |
+| Construction | Not started | 10 Jul 2026 verification |
+
+## Recent Updates
+
+| Date | Update |
+|---|---|
+| 2 Jul 2026 | Current DoED register verified the separate re-regulating-dam application |
+| 10 Jul 2026 | Wiki specification record reconciled to the current VUCL design page |
+
+## Active Blockers
+
+| Blocker | Prevents | Required evidence |
+|---|---|---|
+| Feasibility basis remains under review | Final design and investment decision | Approved feasibility report |
+| Main project, re-regulating dam and overlapping licence boundaries are not reconciled in one public record | Stable cascade and licence definition | DoED/VUCL boundary decision |
+| Evacuation, financing and partner selection are not established | Construction readiness | Approved transmission and financing package |
 
 
 ## Top-Capacity Comparison
@@ -87,34 +136,44 @@ Mugu Karnali belongs to a small class of projects that individually exceed Nepal
 
 | Project | MW | Type | Status | Developer |
 |---------|-----|------|--------|-----------|
-| **Mugu Karnali** | 1,902 | Storage / Pumped | Pre-feasibility | VUCL (PPP bid) |
+| **Mugu Karnali** | 1,902 | Storage | Feasibility / pre-construction | VUCL |
 | [[budhigandaki]] | 1,200 | Storage | Pre-construction | Budhigandaki Co. Ltd. |
-| [[arun-3]] | 900 | Peaking RoR | 74.6% complete | SJVN (India) |
+| [[arun-3]] | 900 | Peaking RoR | Under construction | SJVN (India) |
 | [[upper-karnali]] | 900 | RoR | Stalled (18 yrs) | GMR (India) |
 | [[karnali-chisapani]] | 10,800 | Storage | Conceptual | None |
-| [[pancheshwar]] | 6,480 | Storage | Stalled (30 yrs) | Bilateral (Nepal/India) |
+| [[pancheshwar]] | 6,720 | Storage / multipurpose | Stalled before final DPR | Bilateral (Nepal/India) |
 
-Mugu Karnali is distinguished from [[budhigandaki]] and the export projects by its pumped-storage capability — it is the only project in this class designed from the start as a grid-balancing asset, not just a generation source.
+Mugu Karnali is distinguished by its scale and published seasonal
+storage parameters. The current primary page does not establish pumped
+storage capability.
 
 ## Significance
 
-Mugu Karnali changes the arithmetic of Nepal's planning rather than the arithmetic of the current grid. At 1,902 MW and ~5,883 GWh of design annual energy, it is the one pipeline project whose success or failure genuinely rewrites the national [[storage-deficit]] and [[firm-power]] picture — more than [[dudhkoshi-storage]], [[budhigandaki]] or any combination of smaller reservoirs in the current pipeline.
-
-It is also the project that most clearly surfaces Nepal's post-India export opening. Adani's EOI reflects the India-developer pattern; Chowdhury Group's formal bid represents Bangladeshi developer interest — the first time a Bangladeshi private group has bid for a project of this scale in Nepal. Whichever way the 51% PPP lands, Mugu Karnali is where the question "who builds Nepal's biggest reservoirs?" stops being rhetorical.
-
-Because it is storage / pumped-storage, Mugu Karnali is also the project that would finally give Nepal the **grid-scale balancing asset** the run-of-river fleet needs. RoR over-generation in the monsoon and RoR under-generation in the dry season are the two faces of [[seasonal-mismatch]]; a 1,900 MW asset that can time-shift energy across days and partly across seasons is the structural answer the country has not yet built.
-
-The pumped-storage component adds a value dimension that pure storage lacks: the ability to absorb surplus generation (from solar during the day, from RoR during monsoon nights) and release it during peaks. In a future system with significant [[solar-hydro-complementarity]], pumped storage is the enabling technology that makes solar viable at scale without destabilizing the grid.
+Mugu Karnali is relevant to long-horizon [[storage-deficit]] and
+[[firm-power]] analysis because its current design combines 1,902 MW
+with 2,415 GWh of dry-season energy. Its scale also makes transmission,
+financing, reservoir operation and the downstream cascade part of the
+project definition rather than secondary details. None of that design
+value should be counted as available capacity while feasibility and
+investment decisions remain pending.
 
 ## Limitations & Controversies
 
-**Horizon risk.** Construction from ~2030 and COD ~2034 places Mugu Karnali outside the 5-year energy planning window most of NEA's current decisions use. Every dry season between now and 2034 has to be managed without it — by imports, by [[tanahu-hydropower]] and [[kulekhani-cascade]] augmentation, by demand response, or by accepting unserved energy.
+**Horizon risk.** A ten-year implementation duration and the absence of
+a firm start date place the project outside near-term capacity planning.
 
-**Transmission gap.** A 1,902 MW generator at the head of the Karnali implies a new 400 kV (or higher) evacuation corridor through some of Nepal's most rugged terrain. That corridor is not in the current NEA transmission masterplan at scale. Without it, Mugu Karnali is [[stranded-generation]] by construction. The closest existing 400 kV infrastructure is the proposed Karnali corridor, which was sized for [[upper-karnali]] (900 MW) — Mugu Karnali would require an entirely new transmission spine from Mugu through the Karnali valley to the central grid.
+**Transmission gap.** The official design includes an approximately
+40 km, 400 kV double-circuit connection to the proposed Regil/Rengil
+hub. The downstream grid path and capacity needed to move 1,902 MW are
+not yet established in the project dossier; without them the asset
+would face [[stranded-generation]] risk.
 
-**Feasibility depth.** The project is at survey / pre-feasibility stage with a two-year DoED deadline (extensible to five). None of the capacity, head or energy figures above has yet been locked down by a bankable feasibility study. Expect all three to move — likely downward, as feasibility studies typically reduce screening-level estimates.
+**Feasibility depth.** Published capacity, head, storage and energy
+figures remain subject to the approved feasibility and detailed design.
 
-**Geopolitical visibility.** Any bidder decision that confers control of 1,900 MW of upstream Karnali generation — and the reservoir operation rules that accompany it — will be read in Delhi and Dhaka. The downstream implications for Indian flood management and irrigation are material and not yet publicly modelled. An Adani win would be interpreted as India extending its downstream hydro-influence upstream; a Chowdhury win would signal a tri-nation energy architecture (Nepal–India–Bangladesh) that India's traditional bilateral framework does not easily accommodate.
+**Partner and financing uncertainty.** Expressions of interest and PPP
+reporting do not establish selected ownership, financing or reservoir
+dispatch control.
 
 **Competing Karnali priorities.** The Karnali basin has multiple large projects competing for limited development and transmission bandwidth: [[upper-karnali]] (900 MW, stalled), [[phukot-karnali]] (426 MW, survey), [[nalsyau-gad]] (410 MW, survey), [[karnali-chisapani]] (10,800 MW, conceptual). Mugu Karnali must compete for developer attention, financing, and — critically — transmission capacity with projects at varying stages of readiness.
 
@@ -136,6 +195,7 @@ The pumped-storage component adds a value dimension that pure storage lacks: the
 
 ## Sources
 
+- [[vucl-mugu-karnali-project|VUCL Mugu Karnali Storage HEP Project Page]]
 - [[mugu-karnali-feasibility-2025|Mugu Karnali Storage — Feasibility, Bids & EOI Record (2024–2025)]]
 
 <!-- generated:sources:end -->

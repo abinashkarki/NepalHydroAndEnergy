@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "assets": {
+    "wiki/explorer/shared/wiki-page-index.json": {
+      "owner": "scripts/build_wiki_page_index.py",
+      "command": "python scripts/build_wiki_page_index.py",
+      "inputs": ["wiki/pages/**/*.md"],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/wiki-page-meta.json": {
+      "owner": "scripts/build_wiki_page_meta.py",
+      "command": "python scripts/build_wiki_page_meta.py",
+      "inputs": ["wiki/pages/**/*.md"],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/wiki-page-meta-slim.json": {
+      "owner": "scripts/build_wiki_page_meta.py",
+      "command": "python scripts/build_wiki_page_meta.py",
+      "inputs": ["wiki/pages/**/*.md"],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/wiki-backlinks.json": {
+      "owner": "scripts/build_backlinks.py",
+      "command": "python scripts/build_backlinks.py",
+      "inputs": ["wiki/pages/**/*.md"],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/wiki-fact-index.json": {
+      "owner": "scripts/build_wiki_fact_index.py",
+      "command": "python scripts/build_wiki_fact_index.py",
+      "inputs": ["data/processed/maps/*.geojson", "wiki/explorer/shared/wiki-page-index.json"],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/wiki-search-index.json": {
+      "owner": "scripts/build_wiki_search_index.py",
+      "command": "python scripts/build_wiki_search_index.py",
+      "inputs": ["wiki/explorer/shared/wiki-page-meta.json", "wiki/explorer/shared/wiki-search-aliases.json"],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/wiki-vector-index.json": {
+      "owner": "scripts/build_wiki_vector_index.py",
+      "command": ".venv/bin/python scripts/build_wiki_vector_index.py --local-files-only",
+      "inputs": ["wiki/pages/**/*.md"],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/claim-governance.json": {
+      "owner": "scripts/build_claim_governance.py",
+      "command": ".venv/bin/python scripts/build_claim_governance.py",
+      "inputs": ["data/claim_registry.yaml", "wiki/pages/claims/*.md"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/*.geojson": {
+      "owner": "scripts/build_tributary_maps.py and related map builders",
+      "command": "python scripts/build_tributary_maps.py",
+      "inputs": ["data/project_specs.csv", "data/solar_project_specs.csv", "data/capacity_authority_decisions.csv", "data/raw/"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/hydropower_project_display_points.geojson": {
+      "owner": "scripts/build_tributary_maps.py and scripts/apply_doed_project_status_overlay.py",
+      "command": "python scripts/build_tributary_maps.py && python scripts/apply_doed_project_status_overlay.py",
+      "inputs": ["data/project_specs.csv", "data/capacity_authority_decisions.csv", "data/processed/tables/doed_project_status_overlay.csv"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/doed_operating_projects_missing_local.geojson": {
+      "owner": "scripts/build_doed_missing_operating_projects.py",
+      "command": "python scripts/build_doed_missing_operating_projects.py",
+      "inputs": ["data/processed/tables/doed_hydropower_registry.csv", "data/processed/tables/doed_project_crosswalk_review.csv"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/tables/spec_completeness_report.csv": {
+      "owner": "scripts/report_spec_completeness.py",
+      "command": "python scripts/report_spec_completeness.py --all",
+      "inputs": ["data/project_specs.csv"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/solar_spec_completeness_report.csv": {
+      "owner": "scripts/report_solar_spec_completeness.py",
+      "command": "python scripts/report_solar_spec_completeness.py --all",
+      "inputs": ["data/solar_project_specs.csv", "wiki/solar-specs-schema.json"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/solar_spec_completeness_report.md": {
+      "owner": "scripts/report_solar_spec_completeness.py",
+      "command": "python scripts/report_solar_spec_completeness.py --all",
+      "inputs": ["data/solar_project_specs.csv", "wiki/solar-specs-schema.json"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_hydropower_registry.csv": {
+      "owner": "scripts/build_doed_hydropower_registry.py",
+      "command": "python scripts/build_doed_hydropower_registry.py",
+      "inputs": ["scripts/build_doed_hydropower_registry.py", "https://doed.gov.np/pages/"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_hydropower_registry_summary.json": {
+      "owner": "scripts/build_doed_hydropower_registry.py",
+      "command": "python scripts/build_doed_hydropower_registry.py",
+      "inputs": ["data/processed/tables/doed_hydropower_registry.csv"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_project_status_overlay.csv": {
+      "owner": "scripts/build_doed_project_status_overlay.py",
+      "command": "python scripts/build_doed_project_status_overlay.py",
+      "inputs": ["data/processed/maps/hydropower_project_display_points.geojson", "data/processed/tables/doed_hydropower_registry.csv", "data/project_identity_aliases.csv", "data/doed_crosswalk_dispositions.csv"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_project_crosswalk_review.csv": {
+      "owner": "scripts/build_doed_project_status_overlay.py",
+      "command": "python scripts/build_doed_project_status_overlay.py",
+      "inputs": ["data/processed/maps/hydropower_project_display_points.geojson", "data/processed/tables/doed_hydropower_registry.csv", "data/project_identity_aliases.csv", "data/doed_crosswalk_dispositions.csv"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_project_status_overlay_summary.json": {
+      "owner": "scripts/build_doed_project_status_overlay.py",
+      "command": "python scripts/build_doed_project_status_overlay.py",
+      "inputs": ["data/processed/tables/doed_project_status_overlay.csv", "data/processed/tables/doed_project_crosswalk_review.csv"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_operating_projects_missing_local.csv": {
+      "owner": "scripts/build_doed_missing_operating_projects.py",
+      "command": "python scripts/build_doed_missing_operating_projects.py",
+      "inputs": ["data/processed/tables/doed_hydropower_registry.csv", "data/processed/tables/doed_project_crosswalk_review.csv"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_operating_projects_missing_local_summary.json": {
+      "owner": "scripts/build_doed_missing_operating_projects.py",
+      "command": "python scripts/build_doed_missing_operating_projects.py",
+      "inputs": ["data/processed/tables/doed_operating_projects_missing_local.csv"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/hydromap_*.csv": {
+      "owner": "scripts/benchmark_hydromap_coverage.py",
+      "command": "python scripts/benchmark_hydromap_coverage.py",
+      "inputs": ["https://hydromapnepal.com/data/hydropower-projects.json", "data/processed/maps/hydropower_project_display_points.geojson", "data/processed/maps/solar_plants.geojson", "data/project_specs.csv"],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/hydromap_coverage_summary.json": {
+      "owner": "scripts/benchmark_hydromap_coverage.py",
+      "command": "python scripts/benchmark_hydromap_coverage.py",
+      "inputs": ["https://hydromapnepal.com/data/hydropower-projects.json", "data/processed/maps/hydropower_project_display_points.geojson", "data/processed/maps/solar_plants.geojson", "data/project_specs.csv"],
+      "committed": true,
+      "deployable": false
+    }
+  }
+}

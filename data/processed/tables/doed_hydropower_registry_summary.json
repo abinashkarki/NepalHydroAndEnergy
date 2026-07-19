@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-11T01:07:30.148710+00:00",
+  "source_authority": "Nepal Department of Electricity Development",
+  "scope": "Regulatory and operating records; generation licences do not prove physical construction.",
+  "rows": 3995,
+  "duplicate_content_rows": 13,
+  "technology_counts": {
+    "hydro": 3994,
+    "wind": 1
+  },
+  "category_counts": {
+    "cancelled_generation_application": 14,
+    "cancelled_generation_license": 23,
+    "cancelled_survey_application": 2630,
+    "cancelled_survey_license": 112,
+    "generation_application": 46,
+    "generation_license": 288,
+    "gon_studied": 29,
+    "gon_under_study": 37,
+    "operating_record": 213,
+    "survey_application": 346,
+    "survey_license": 257
+  },
+  "sources": [
+    {
+      "page_id": "survey_license_gt_1mw",
+      "url": "https://doed.gov.np/pages/hydromorethan1",
+      "regulatory_category": "survey_license",
+      "updated_on": "2026-07-02",
+      "rows": 244,
+      "sha256": "b246c9d45d735bb5788382ff638b41ceb41d4a48f5347f18ee7bb8a1c8d8f531"
+    },
+    {
+      "page_id": "survey_license_lt_1mw",
+      "url": "https://doed.gov.np/pages/hydrolessthan1",
+      "regulatory_category": "survey_license",
+      "updated_on": "2026-07-02",
+      "rows": 13,
+      "sha256": "e351e6ae9f38a32585d4a3eadf1a2ae092ec75acdcb7e80c7604ad93cec3c7e2"
+    },
+    {
+      "page_id": "generation_license_gt_1mw",
+      "url": "https://doed.gov.np/pages/clhydromorethan1",
+      "regulatory_category": "generation_license",
+      "updated_on": "2026-07-02",
+      "rows": 265,
+      "sha256": "b46c244d41fc980c3e85c9f8a14d0d46fb48bd2da6f00240f5d38cbe37101136"
+    },
+    {
+      "page_id": "generation_license_lt_1mw",
+      "url": "https://doed.gov.np/pages/clhydrolessthan1",
+      "regulatory_category": "generation_license",
+      "updated_on": "2026-07-02",
+      "rows": 23,
+      "sha256": "65b7d978453803667ad3307db002548fc6f52a1dff019cf0954dbf0341f8bb62"
+    },
+    {
+      "page_id": "survey_application_gt_1mw",
+      "url": "https://doed.gov.np/pages/appslhydromorethan1",
+      "regulatory_category": "survey_application",
+      "updated_on": "2026-07-02",
+      "rows": 280,
+      "sha256": "721265aeed937073cad1f8776c48c3362776a495d4ec1848bed26324a9aa675a"
+    },
+    {
+      "page_id": "survey_application_lt_1mw",
+      "url": "https://doed.gov.np/pages/appslhydrolessthan1",
+      "regulatory_category": "survey_application",
+      "updated_on": "2026-07-02",
+      "rows": 66,
+      "sha256": "4cadcba3846cbb3eb13a1a8776b303608a6d2e51648f5c8f1d6d313f71f1e3be"
+    },
+    {
+      "page_id": "generation_application",
+      "url": "https://doed.gov.np/pages/appclhydro",
+      "regulatory_category": "generation_application",
+      "updated_on": "2026-07-02",
+      "rows": 46,
+      "sha256": "858b7039923eed96c7119ca7cec999386faa4c5957c03eb294f4fcfdf6afd8f9"
+    },
+    {
+      "page_id": "operating_gt_1mw",
+      "url": "https://doed.gov.np/pages/powerplantsmorethan1",
+      "regulatory_category": "operating_record",
+      "updated_on": "2026-07-02",
+      "rows": 194,
+      "sha256": "9eca822f8c55ce52c157a4a828c7072a2b4edc5def200300c775aeef3ea2d4a1"
+    },
+    {
+      "page_id": "operating_lt_1mw",
+      "url": "https://doed.gov.np/pages/powerplantslessthan1",
+      "regulatory_category": "operating_record",
+      "updated_on": "2026-07-02",
+      "rows": 19,
+      "sha256": "33ef7b8078fd6ca4108d3ea24af2db61140173e2c5591b57072efebdf6d8076b"
+    },
+    {
+      "page_id": "gon_under_study",
+      "url": "https://doed.gov.np/pages/gonunderstudy",
+      "regulatory_category": "gon_under_study",
+      "updated_on": "2026-07-02",
+      "rows": 37,
+      "sha256": "29494d52a048f3de3aa60b4b7480a5dbdac4efa3b6d86975219844b22d7d6419"
+    },
+    {
+      "page_id": "gon_studied",
+      "url": "https://doed.gov.np/pages/gonstudied",
+      "regulatory_category": "gon_studied",
+      "updated_on": "2026-06-02",
+      "rows": 29,
+      "sha256": "a9f0bc2542d3f97e6fc0d59741f40838e6fa1812e989c29fff3d50ad275e8d0f"
+    },
+    {
+      "page_id": "cancelled_survey_license",
+      "url": "https://doed.gov.np/pages/slc",
+      "regulatory_category": "cancelled_survey_license",
+      "updated_on": "2026-07-02",
+      "rows": 112,
+      "sha256": "266b234ab010aff37a664ea2ecb8a2f076573791800ff8d12eaf77293cb348a0"
+    },
+    {
+      "page_id": "cancelled_generation_license",
+      "url": "https://doed.gov.np/pages/glc",
+      "regulatory_category": "cancelled_generation_license",
+      "updated_on": "2026-07-02",
+      "rows": 23,
+      "sha256": "0373e6c28dfdb216f6e51da3d54bff9d202234e9dde25f2f6963ea5d8cbf76d9"
+    },
+    {
+      "page_id": "cancelled_generation_application",
+      "url": "https://doed.gov.np/pages/generationcanceled",
+      "regulatory_category": "cancelled_generation_application",
+      "updated_on": "2026-07-02",
+      "rows": 14,
+      "sha256": "0be5a9ff491c068cbb75e60a2149a5f8dd3b8b9683d678010537a7fcfeb081ff"
+    },
+    {
+      "page_id": "cancelled_survey_application",
+      "url": "https://doed.gov.np/pages/canceled_hydro/",
+      "regulatory_category": "cancelled_survey_application",
+      "updated_on": "2026-07-02",
+      "rows": 2630,
+      "sha256": "60d0e2e5c7ff86903639373a7b3caa4e6c68ad5e6cd7eb20c5846806f826c449"
+    }
+  ]
+}

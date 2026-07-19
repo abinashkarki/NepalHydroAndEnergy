@@ -109,17 +109,6 @@ Cross-references:
 - **Generation data gap.** The Bidur/Trishuli 25 MWp plant's actual FY 2023/24 and FY 2024/25 generation figures are in NEA annual reports and internal operational statistics, not in the WB project documents accessed for this page.
 - **Implementation period estimates.** The ~2014–2023 window is approximate; precise approval, effectiveness, and closing dates are in the PAD and ICR.
 
-## Used By
-
-- [[aepc-renewable-framework]]
-- [[agrivoltaics-and-land]]
-- [[bidur-trishuli-solar-25mwp]]
-- [[data-rooftop-shs-deployment]]
-- [[data-solar-hydro-lcoe]]
-- [[eib-rural-solar-phase2]]
-- [[nea-960mw-solar-tender]]
-- [[nea-solar]]
-
 ## Related
 
 - [[bidur-trishuli-solar-25mwp]]

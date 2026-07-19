@@ -2,11 +2,18 @@
 title: Arun 3
 type: entity
 created: 2026-04-20
-updated: 2026-05-11
+updated: 2026-07-10
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-10
 generator: specs-refresh
+project_dossier: lighthouse
+maturity: working-page
 page_quality: analysis
-sources: [arun-3-project-status-2025, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
+sources: [sjvn-arun-3-project-record, arun-3-project-status-2025, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
 tags: [project, watchlist, top-capacity, under-construction, koshi, sankhuwasabha, india-developed, peaking-ror]
+excerpt: A 900 MW project under construction whose generating works, evacuation line and changing commissioning expectations are tracked separately.
+caveat: Public progress percentages use different dates and denominators; V1 does not present a single current completion percentage.
 ---
 
 # Arun 3
@@ -20,17 +27,18 @@ tags: [project, watchlist, top-capacity, under-construction, koshi, sankhuwasabh
 
 Nepal's **single largest project under construction** — a 900 MW
 peaking run-of-river scheme on the Arun River in Sankhuwasabha,
-developed and financed by India's state utility SJVN. When it comes
-online (revised target: September 2026), it will almost double the
-country's operating hydropower fleet — but only ~22% of its output
-will stay in Nepal.
+developed by India's state utility SJVN through SAPDC. The project is
+under construction, but the wiki no longer presents September 2026 as
+a firm commissioning date: public percentages and schedule statements
+use different dates and scopes, and the 217 km evacuation line must be
+tracked separately from the generating works.
 
 ## Specifications
 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 900 MW |
-| Status | Under construction — 74.6% complete (Dec 2025) |
+| Status | Under construction; current comparable completion percentage not established |
 | River | Arun (eastern [[koshi-basin]]) |
 | District | Sankhuwasabha |
 
@@ -45,20 +53,25 @@ Arun-3 is designed as a peaking RoR plant — 3.4 hours of full rated output per
 | Evacuation | 400 kV DC line to Sitamarhi, Bihar |
 
 ### Output
-Design energy of ~3,971 GWh/yr leaves Nepal with only 21.9% (~870 GWh) as royalty-free share. The remaining output goes to the Indian grid — making Arun-3 an export-first asset with a domestic free-share component. How this interacts with dry-season [[firm-power]] accounting is a core question for [[hydro-geopolitics]].
+SJVN's current project description gives design energy of 4,018.87 GWh
+in a 90%-dependable year. The PDA includes a 21.9% free-energy share for
+Nepal; the timing and dependable capacity value of that energy should
+not be inferred from the annual GWh figure alone.
 
 | Parameter | Value |
 |-----------|-------|
-| Annual design energy | 3,971 GWh |
+| Annual design energy | 4,018.87 GWh (90%-dependable year) |
 | Nepal free share | 21.9% (~197 MW equivalent) |
 | Peaking duration | ~3.4 hours/day at full output |
 
 ### Financial
-At ~USD 1.6 billion total cost, Arun-3 is a 30-year BOOT concession — built, owned, operated, and eventually transferred by India's state utility SJVN. The economics depend heavily on whether the 400 kV cross-border evacuation line to Sitamarhi (only 58% complete as of late 2025) is finished on schedule.
+Arun-3 is structured as a 30-year BOOT concession. The current dossier
+does not use a single project-wide progress percentage to infer the
+financial or commissioning position because civil works, generation
+equipment and evacuation have different delivery paths.
 
 | Parameter | Value |
 |-----------|-------|
-| Total cost | ~USD 1.6 billion |
 | Concession | 30-year BOOT |
 
 ### Governance
@@ -71,12 +84,43 @@ SJVN, an Indian state utility, develops, owns, and operates the project through 
 | Concession period | 30 years |
 
 ### Schedule
-Original commissioning target was March 2025; SJVN has formally applied to extend COD to September 2026. Every year of delay compounds Nepal's [[storage-deficit]] exposure because Arun-3 is already counted in NEA's near-term planning. The evacuation line dependency creates a single-point-of-failure — without the 400 kV Sitamarhi line, the export revenue case collapses.
+Earlier commissioning targets have moved. A reliable current forecast
+requires separate dated milestones for the generating works and the
+217 km 400 kV evacuation component.
 
 | Parameter | Value |
 |-----------|-------|
-| Completion | 74.6 % |
-| COD target | September 2026 |
+| Completion | Not stated as a single current comparable figure |
+| COD target | FY 2028/29 Q3 in SJVN's May 2026 investor presentation; an announced expectation, not a firm forecast |
+
+## Current Status and Performance Provenance
+
+**As of 10 July 2026:** under construction. SJVN recorded a management
+review on 8 December 2025, but that event does not supply a comparable
+project-wide progress denominator.
+
+| Dimension | Current position | Evidence basis |
+|---|---|---|
+| Generation works | Under construction | [SJVN Arun III project page](https://sjvn.nic.in/en/arun-iii-hep) |
+| Evacuation | 217 km 400 kV component under delivery with the project | SJVN corporate description |
+| Design energy | 4,018.87 GWh in a 90%-dependable year | SJVN project page |
+| Commissioning | FY 2028/29 Q3 expectation announced by SJVN; firm date not established | SJVN, May 2026 |
+
+## Recent Updates
+
+| Date | Update |
+|---|---|
+| 23 May 2025 | SJVN described FY 2027/28 as the project's expected commissioning period in a power-sale announcement |
+| 8 Dec 2025 | SJVN management recorded a review of Arun-3 progress |
+| May 2026 | SJVN's investor presentation listed FY 2028/29 Q3 as the expected commissioning schedule, superseding the earlier FY 2027/28 expectation |
+| 10 Jul 2026 | Structured record changed from a stale single percentage/COD to component-aware monitoring |
+
+## Active Blockers
+
+| Blocker | Prevents | Monitoring requirement |
+|---|---|---|
+| Incomparable public progress percentages | Reliable completion forecast | Record date, denominator and package for every percentage |
+| Generation and evacuation schedules may diverge | Commercial operation and export | Track powerhouse and 217 km line separately |
 
 
 ## Significance
@@ -105,16 +149,13 @@ reliability value.
 
 ## Limitations & Controversies
 
-**Repeated schedule slip.** Original commissioning target was
-March 2025; SJVN has formally applied to extend COD to September 2026.
-Every year of delay compounds Nepal's [[storage-deficit]] exposure
-because Arun-3 is in the pipeline of projects NEA's planning has
-already counted on as "coming online soon."
+**Repeated schedule changes.** Earlier commissioning targets have
+moved. The current page therefore treats target dates as dated events,
+not as a guaranteed operating date.
 
-**Evacuation dependency.** The 400 kV cross-border line to Sitamarhi
-is only 58% complete as of late 2025. Without it, Arun-3's Indian
-export cannot move; with it, a single line carries most of the value.
-Both sides are exposed to the cross-border transmission asset.
+**Evacuation dependency.** The 217 km 400 kV evacuation component is a
+separate critical path. A current component-level percentage is needed
+before its readiness can be compared with the generating works.
 
 **Free power as compensation theory.** The 21.9% free share is the
 political justification for allowing the dominant share of the energy
@@ -153,6 +194,7 @@ Source: [SAPDC monthly progress report up to 28 February 2023 (PDF)](https://www
 
 ## Sources
 
+- [[sjvn-arun-3-project-record|SJVN Arun III HEP Project Record]]
 - [[arun-3-project-status-2025|Arun-3 Project Status & PDA Summary (2025)]]
 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]

@@ -1,0 +1,128 @@
+normalized_name,local_name,external_name,local_capacity_mw,external_capacity_mw,absolute_difference_mw,local_license_type,external_category,local_river,external_river
+budhi gandaki prok khola,Budhi Gandaki Prok Khola HEP,Budhi Gandaki Prok Khola HEP,420.0,81.0,339.0,Survey,construction,Budhi Gandaki,Budhi Gandaki
+upper tamor,Upper Tamor HEP,Upper Tamor,32.5,285.0,252.5,Survey,construction,Tamor,Tamor
+betan karnali,Betan Karnali HP,Betan Karnali HEP,688.0,439.0,249.0,Survey,construction,Karnali,Karnali
+jagdulla,Jagdulla HEP,Jagdulla HEP,307.0,106.0,201.0,Survey,construction,Bheri,Bheri
+bheri 1,Bheri-1 HEP,Bheri-1 HEP,440.0,270.0,170.0,Survey,app_const,Bheri,Bheri
+surke dudhkoshi,Surke Dudhkoshi HEP,Surke Dudhkoshi HEP,350.0,188.0,162.0,Survey,app_const,Dudhkoshi,Dudhkoshi
+dudhkoshi 6,Dudhkoshi-6 HEP,Dudhkoshi-6 HEP,83.0,171.0,88.0,Survey,app_const,Dudh Koshi,Dudhkoshi
+seti nadi 3,Seti Nadi-3,Seti Nadi-3 HEP,165.0,87.0,78.0,Survey,construction,Seti Khola,Seti (Far West)
+dudhkoshi 9,Dudhkoshi-9 HPP,Dudhkoshi - 9 Hydropower Project,111.0,166.0,55.0,Survey,app_survey,Dudhkoshi,Dudhkoshi
+upper barunkhola,Upper Barunkhola HEP,Upper Barunkhola HEP,55.0,109.5,54.5,Survey,survey,Barun,Barun
+phukot karnali,Phukot Karnali,Phukot Karnali HEP,426.0,480.0,54.0,Survey,app_const,Karnali,Karnali
+lower seti tanahu,Lower Seti (Tanahu) HEP,Lower Seti (Tanahu) HEP,92.0,126.0,34.0,Survey,app_const,Seti,Seti Khola (Gandaki)
+lower isuwa khola,Lower Isuwa Khola HPP,Lower Isuwa Khola Hydropower Project,37.7,4.9,32.8,Survey,app_survey,Isuwa Khola,Isuwa Khola
+dana khola,Dana Khola Hydropower Project,Dana Khola HEP,19.0,49.95,30.95,Survey,construction,Dana Khola,Dana Khola
+dadagau khalanga bheri,Dadagau Khalanga Bheri Hydropower Project,Dadagau Khalanga Bheri HEP,128.0,97.43,30.57,Survey,gon_under_study,Bheri,Bheri
+upper myagdi i,Upper Myagdi-I HEP,Upper Myagdi-I HEP,80.0,53.5,26.5,Survey,construction,Myagdi Khola,Myagdi Khola
+palun khola 1,Palun khola 1 Hydropower Project,Palun khola 1 HEP,4.95,30.0,25.05,Survey,construction,Palun Khola,Palun Khola
+middle mewa,Middle Mewa HPP,Middle Mewa HPP,49.0,73.5,24.5,Survey,construction,Mewa Khola,Mewa Khola
+lapche tamakoshi,Lapche- Tamakoshi HEP,Lapche- Tamakoshi HEP,22.0,42.0,20.0,Survey,construction,"Lapche, Tamakoshi",Lapche
+middle tamor,Middle Tamor,Middle Tamor,54.0,73.0,19.0,Generation,operation,Tamor,Tamor
+super budhigandaki,Super Budhigandaki,Super Budhigandaki HEP,52.0,34.39,17.61,Survey,gon_under_study,Budhigandaki,Budhi Gandaki
+upper myagdi,Upper Myagdi,Upper Myagdi,20.0,37.0,17.0,Generation,construction,Myagdi Khola,Myagdi Khola
+simbuwa khola,Simbuwa Khola Hydroelectric Project,Simbuwa Khola HEP,53.7,70.3,16.6,Survey,construction,Simbuwa Khola,Simbuwa Khola
+thulo khola,Thulo Khola HPP,Thulo Khola Hydropower Project,4.99,21.3,16.31,Survey,operation,Thulo Khola,Thulo Khola
+upper sankhuwa khola,Upper Sankhuwa Khola HEP,Upper Sankhuwa Khola HEP,24.0,40.0,16.0,Survey,construction,Sankhuwa,Sankhuwa
+middle chameliya,Middle Chameliya HPP,Middle Chameliya HEP,13.0,28.304,15.304,Survey,construction,Chameliya Khola,Chameliya Khola
+chujung khola,Chujung Khola HEP,Chujung Khola HEP,48.0,63.0,15.0,Survey,construction,Chujung,Chhujung
+chunchet syar khola,Chunchet Syar Khola HEP,Chunchet Syar Khola HEP,60.0,45.0,15.0,Survey,construction,Syar Khola,Syar Khola
+upper nyasem a,Upper Nyasem A HEP,Upper Nyasem A HEP,7.5,21.0,13.5,Survey,app_const,Nyasem Khola,Nyasem Khola
+tamakoshi v,Tamakoshi V,Tamakoshi V,87.0,99.8,12.8,Generation,construction,Tama Koshi,Tama Koshi
+kabeli 3,Kabeli-3 HEP,Kabeli-3 Hydropower Project,21.93,9.85,12.08,Survey,survey,Kabeli,Kabeli Khola
+upper tamor a,Upper Tamor A HPP,Upper Tamor A HEP,72.0,60.0,12.0,Survey,construction,Tamor,Tamor
+kunban khola,Kunban Khola HPP,Kunban Khola HEP,8.2,20.0,11.8,Survey,construction,Kunban,Kunban
+balephi a,Balephi A,Balephi A,10.6,22.14,11.54,Generation,construction,Balephi,Balephi
+hongu khola i,Hongu Khola I HEP,Hongu Khola I HEP,18.64,30.0,11.36,Survey,construction,Hongu Khola,Hongu Khola
+kalika kaligandaki,Kalika Kaligandaki HEP,Kalika Kaligandaki HEP,49.5,38.16,11.34,Survey,construction,Kali Gandaki,Kali Gandaki
+super tamor,Super Tamor,Super Tamor HEP,155.0,166.0,11.0,Survey,construction,Tamor,Tamor
+upper apsuwa,Upper Apsuwa HEP,Upper Apsuwa HEP,24.6,35.15,10.55,Survey,app_const,Apsuwa,Apsuwa
+bagmati nadi,Bagmati Nadi,Bagmati Nadi,22.0,32.0,10.0,Generation,operation,Bagmati,Bagmati
+ikhuwa khola,Ikhuwa Khola HEP,Ikhuwa Khola HEP,30.0,40.0,10.0,Survey,app_const,Ikhuwa,Ikhuwa Khola
+langtang khola small,Langtang Khola Small Hydropower Project,Langtang Khola Small Hydropower Project,10.0,20.0,10.0,Generation,construction,Langtang,Langtang
+upper mailung b,Upper Mailung B Hydropower Project,Upper Mailung B HEP,7.5,17.0,9.5,Survey,construction,Mailung Khola,Mailung Khola
+upper dudh khola,Upper Dudh Khola HPP,Upper Dudh Khola HPP,21.16,30.4,9.24,Survey,construction,Dudh Khola,Dudh Khola
+nar khola,Nar Khola Hydro-Electric Project,Nar Khola HEP,50.0,58.9,8.9,Survey,construction,Nar Khola,"Nar Khola, Soti Khola"
+super kabeli khola,Super Kabeli Khola HPP,Super Kabeli Khola HEP,20.0,12.0,8.0,Survey,operation,Kabeli Khola,Kabeli Khola
+hongu khola,Hongu Khola HPP,Hongu Khola HEP,21.87,28.9,7.03,Survey,construction,Hongu Khola,Hongu Khola
+nalsyau gad storage,Nalsyau Gad Storage HEP,Nalsyau Gad Storage HEP,410.0,417.0,7.0,Survey,app_const,Nalsyau,Nalsyau
+myagdi khola b,Myagdi Khola- B HEP,Myagdi Khola B Hydropower Project,9.5,3.06,6.44,Survey,app_survey,Myagdi Khola,Myagdi Khola
+myagdi khola a,Myagdi Khola A HEP,Myagdi Khola A HEP,23.7,30.0,6.3,Survey,construction,Myagdi,Myagdi
+trishuli khola,Trishuli Khola,Trishuli Khola Hydropower Project,4.409,10.45,6.041,Survey,app_survey,Trishuli Khola,Trishuli
+jum khola,Jum Khola Hydropower Project,Jum Khola HEP,62.0,56.0,6.0,Survey,construction,Jum,Jum
+super lower bagmati,Super Lower Bagmati HPP,Super Lower Bagmati HEP,35.9,41.86,5.96,Survey,construction,Bagmati,Bagmati
+ghar khola,Ghar Khola,Ghar Khola,8.3,14.0,5.7,Generation,operation,Ghar,Ghar
+upper sunigad,Upper Sunigad HEP,Upper Sunigad HEP,8.42,14.0,5.58,Survey,construction,Suni Gad,Suni Gad
+tatopani khola,Tatopani khola HPP,Tatopani khola HEP,24.3,19.0,5.3,Survey,construction,Tatopani(Ilep) Khola,Tatopani(Ilep) Khola
+upper brahmayeni,Upper Brahmayeni HEP,Upper Brahmayeni HEP,20.07,15.15,4.92,Survey,construction,Nyamya Masal,Nyamya Masal
+upper bhurundi khola a small,Upper Bhurundi Khola- A Small HEP,Upper Bhurundi Khola- A Small HEP,4.5,9.0,4.5,Survey,construction,Bhurundi,Bhurundi Khola
+super dordi kha,Super Dordi Kha Hydropower Project,Super Dordi Kha Hydropower Project,49.6,54.0,4.4,Generation,operation,Dordi,Dordi
+upper modi cascade,Upper Modi HPP cascade project,Upper Modi HPP Cascade Project,14.0,18.2,4.2,Generation,construction,Modi Khola,Modi Khola
+kimathanka arun,Kimathanka Arun HEP,Kimathanka Arun HEP,450.0,454.0,4.0,Survey,app_const,Arun,Arun
+sona khola,Sona Khola Hydropower Project,Sona Khola HEP,5.0,9.0,4.0,Survey,construction,Sona Khola,"Sona Khola, Khahare Khola"
+suti khola,Suti Khola Hydropower Project,Suti Khola HEP,17.0,21.0,4.0,Survey,construction,Suti,Suti
+upper mewa khola a,Upper Mewa Khola -A HPP,Upper Mewa Khola -A HEP,28.22,31.92,3.7,Survey,construction,Mewa Khola,Mewa Khola
+brahmayani,Brahmayani HPP,Brahmayani HEP,40.0,36.52,3.48,Survey,construction,Balefi Khola,Balephi
+tadi ghyamphedi,Tadi Ghyamphedi HPP,Tadi Ghyamphedi HEP,4.7,8.0,3.3,Survey,construction,Tadi Khola,Tadi Khola
+upper ankhu khola,Upper Ankhu Khola,Upper Ankhu Khola,35.0,38.0,3.0,Survey,construction,Ankhu Khola,Ankhu Khola
+middle modi,Middle Modi,Middle Modi,15.1,18.0,2.9,Generation,operation,Modi Khola,Modi Khola
+sani bheri 3,Sani Bheri 3 HEP,Sani Bheri 3 HEP,49.59,46.72,2.87,Survey,construction,Sani Bheri,Sani Bheri
+budum,Budum,Budum HEP,11.8,14.5,2.7,Survey,construction,budum,budum
+midim 1,Midim 1 HEP,Midim 1 HEP,16.0,13.424,2.576,Survey,construction,Midim Khola,Midim Khola
+tamor khola 5,Tamor Khola-5 HEP,Tamor Khola-5 HEP,40.0,37.5,2.5,Survey,construction,Tamor,Tamor
+lower bhim khola,Lower Bhim Khola HPP,Lower Bhim Khola HEP,3.6,6.05,2.45,Survey,construction,Bhim Khola,Bhim Khola
+thapa khola,Thapa Khola,Thapa Khola,11.2,13.6,2.4,Operation,operation,Thapa Khola,Thapa Khola
+malta bagmati small,Malta Bagmati Small Hydro Power Project,Malta Bagmati Small HEP,8.85,6.5,2.35,Survey,construction,Bagmati,Bagmati
+upper maiwa,Upper Maiwa HPP,Upper Maiwa HPP,15.5,17.85,2.35,Survey,construction,Maiwa,Maiwa
+daram khola,Daram Khola HEP,Daram Khola HEP,7.3,9.6,2.3,Generation,construction,Daram,Daram
+super inkhu khola,Super Inkhu Khola,Super Inkhu Khola HEP,22.12,24.41,2.29,Survey,app_const,Inkhu,Inkhu
+jurimba khola small,Jurimba Khola Small Hydropower Project,Jurimba Khola Small Hydropower Project,9.824,7.63,2.194,Survey,construction,Jurimba,Jurimba
+balephi khola,Balephi Khola HEP,Balephi Khola HEP,42.14,40.0,2.14,Survey,construction,Balephi,Balephi
+lower nyadi,Lower Nyadi HPP,Lower Nyadi HEP,10.5,12.6,2.1,Survey,construction,Nyadi,Nyadi
+sabha khola a,Sabha Khola A,Sabha Khola A,8.3,10.4,2.1,Generation,construction,Sabha Khola,Sabha Khola
+machhe khola,Machhe Khola HPP,Machhe Khola HEP,18.0,16.0,2.0,Survey,construction,Machha Khola,Machha Khola
+darkhola small,Darkhola Small HPP,Darkhola Small HEP,4.64,6.5,1.86,Survey,construction,Dar Khola,Dar Khola
+bhalaudi khola,Bhalaudi Khola HEP,Bhalaudi Khola HEP,4.5,2.645,1.855,Survey,construction,Bhalaudi,Bhalaudi
+dordi dudh khola small,Dordi Dudh Khola Small Hydropower,Dordi Dudh Khola Small HEP,20.8,19.0,1.8,Survey,construction,Dordi,Dordi
+upper solu khola,Upper Solu Khola HPP,Upper Solu Khola HPP,18.0,19.8,1.8,Generation,operation,Solu Khola,Solu Khola
+dordi 1,Dordi-1,Dordi-1,10.3,12.0,1.7,Generation,operation,Dordi,Dordi
+middle midim,Middle Midim,Middle Midim,3.1,4.8,1.7,Generation,construction,Midim Khola,Midim Khola
+tadi khola,Tadi Khola,Tadi Khola,5.0,6.6,1.6,Generation,construction,Tadi Khola,Tadi Khola
+upper most iwa khola,Upper Most Iwa Khola HEP,Upper Most Iwa Khola HEP,2.5,4.1,1.6,Survey,construction,Iwa,Iwa Khola
+super kabeli khola a,Super Kabeli Khola A,Super Kabeli Khola A HEP,15.0,13.5,1.5,Survey,operation,Kabeli Khola,Kabeli Khola
+upper taksu small,Upper Taksu Small HPP,Upper Taksu Small HEP,4.87,6.3,1.43,Survey,survey,thaksu,Taksu
+syalque khola small,Syalque Khola Small HEP,Syalque Khola Small HEP,3.41,4.8,1.39,Survey,construction,"Syalque khola, Danque Khola","Syalque khola, Danque Khola"
+dhaula khola,Dhaula Khola HEP,Dhaula Khola HEP,9.5,10.8,1.3,Survey,construction,Dhaula,"Dhaula, khewas"
+upper ghatte khola small,Upper Ghatte Khola Small HPP,Upper Ghatte Khola Small Hydropower Project,2.73,1.478,1.252,Survey,app_survey,Ghatte,Ghatte Khola (Dolakha)
+middle molung khola small,Middle Molung Khola Small HEP,Middle Molung Khola Small HEP,4.839,6.0,1.161,Survey,construction,Molung,Molung
+molung cascade,Molung Cascade HEP,Molung Cascade Hydropower Project,3.5,2.4,1.1,Survey,app_survey,Molung,Molung
+super melamchi,Super Melamchi Hydropower Project,Super Melamchi HEP,24.7,23.6,1.1,Survey,construction,Melamchi,Melamchi
+chhomron khola small,Chhomron Khola Small Hydro Power Project,Chhomron Khola Small HEP,3.914,4.894,0.98,Survey,construction,Chhomron Khola,Chhomron Khola
+lower melamchi,Lower Melamchi HEP,Lower Melamchi HEP,4.0,4.96,0.96,Survey,construction,Melamchi,Melamchi
+chyandi khola,Chyandi Khola,Chyandi Khola HEP,5.1,4.2,0.9,Survey,construction,Chyandi Khola,Chyandi Khola
+irkhuwa khola ka,Irkhuwa Khola Ka HPP,Irkhuwa Khola Ka HEP,14.1,15.0,0.9,Survey,construction,Irkhuwa Khola,Irkhuwa Khola
+lower tawakhola,Lower Tawakhola HEP,Lower Tawakhola HEP,8.0,7.1,0.9,Survey,construction,Tawa Khola,Tawa Khola
+super most iwa,Super Most Iwa,Super Most Iwa HEP,3.7,4.6,0.9,Survey,construction,Iwa,Iwa Khola
+sabha khola a,Sabha Khola A HEP,Sabha Khola A,9.55,10.4,0.85,Survey,construction,Sabha,Sabha Khola
+pikhuwa pashupati,Pikhuwa Pashupati HEP,Pikhuwa Pashupati HEP,3.28,4.1,0.82,Survey,construction,Pikhuwa,Pikhuwa
+upper piluwa 1,Upper Piluwa-1,Upper Piluwa-1 HEP,8.51,7.7,0.81,Survey,construction,Piluwa,Piluwa
+down piluwa,Down Piluwa,Down Piluwa,9.5,10.3,0.8,Generation,operation,Piluwa Khola,Piluwa Khola
+jogmai cascade,Jogmai Cascade,Jogmai Cascade,6.0,5.2,0.8,Survey,operation,Jogmai Khola,Jogmai Khola
+super mai khola cascade,Super Mai Khola Cascade HPP,Super Mai Khola Cascade HPP,3.8,3.0,0.8,Survey,operation,Mai Khola,Mai Khola
+super iwa khola,Super Iwa Khola HEP,Super Iwa Khola HEP,4.0,4.795,0.795,Survey,construction,Iwa Khola,Iwa Khola
+phedi khola thumlung small,Phedi Khola (Thumlung) Small HPP,Phedi Khola (Thumlung) Small HPP,3.52,4.3,0.78,Survey,construction,Phedi khola (Thumlung),Phedi khola (Thumlung)
+sipa khola,Sipa Khola HEP,Sipa Khola HEP,1.514,0.8,0.714,Survey,survey,Sipa,Sipa
+lower rupse khola,Lower Rupse Khola HEP,Lower Rupse Khola HEP,2.5,1.86,0.64,Survey,construction,Rupse,Rupse
+chino khola,Chino Khola HEP,Chino Khola HEP,8.5,7.9,0.6,Survey,construction,Chino,Chino
+toj khola,Toj Khola HPP,Toj Khola Hydropower Project,2.3,1.7,0.6,Survey,survey,Toj Khola,Toj Khola
+syano khola,Syano Khola HPP,Syano Khola HEP,4.2,4.75,0.55,Survey,construction,Syano Khola,Syano Khola
+kisedi khola small,Kisedi Khola Small HPP,Kisedi Khola Small HEP,4.6,4.1,0.5,Survey,construction,Kisedi Khola,Kisedi Khola
+lower hewa,Lower Hewa,Lower Hewa,21.6,22.1,0.5,Generation,operation,Hewa Khola,Hewa (Panchthar)
+badigad,Badigad HPP,Badigad,6.6,7.0,0.4,Generation,gon_under_study,Badigad,Badigad
+kalinchok small,Kalinchok Small,Kalinchok Small HEP,2.6,3.0,0.4,Survey,construction,Budhekhani khola and Bhumithan,"Budhekhani,Shikhaarjun, Bhumit"
+upper sardi,Upper Sardi Hydropower Project,Upper Sardi HEP,3.3,2.9,0.4,Survey,construction,"Sardi, kutmi","Sardi, kutmi"
+lower mid rawa khola,Lower Mid Rawa Khola HEP,Lower Mid Rawa Khola HEP,3.64,4.0,0.36,Survey,construction,Rawa,Rawa
+upper melamchi,Upper Melamchi HEP,Upper Melamchi HEP,4.6,4.95,0.35,Survey,construction,Melamchi,Melamchi
+gamari gad,Gamari Gad HEP,Gamari Gad Hydropower Project,4.36,4.6,0.24,Survey,app_survey,Gamari Gad,Gamari Gad
+arun khola 2,Arun Khola 2 HEP,Arun Khola 2 HEP,2.16,2.0,0.16,Survey,construction,Arun Khola,Arung
+kapadigad,Kapadigad,Kapadigad,3.3,3.33,0.03,Generation,operation,Kapadigad,Kapadigad

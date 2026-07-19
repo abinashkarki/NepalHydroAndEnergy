@@ -400,8 +400,9 @@ def wiki_list_pages(category: str | None = None, limit: int = 50) -> str:
         return f"Unknown category '{category}'. Valid: {', '.join(_categories)}"
 
     lines = [f"{category} ({len(cat_slugs)} pages, showing {min(len(cat_slugs), limit)}):"]
-    for slug in sorted(cat_slugs)[:limit]:
-        title = _page_index["slugToTitle"].get(slug, slug)
+    for entry in sorted(cat_slugs, key=lambda e: e["slug"])[:limit]:
+        slug = entry["slug"]
+        title = entry.get("title") or _page_index["slugToTitle"].get(slug, slug)
         lines.append(f"  - {title} ({slug})")
     return "\n".join(lines)
 
@@ -423,7 +424,8 @@ def wiki_get_all_entities() -> str:
     entity_slugs = _page_index["byCategory"].get("entities", [])
     lines = [f"Entities ({len(entity_slugs)} total):", ""]
 
-    for slug in sorted(entity_slugs):
+    for entry in sorted(entity_slugs, key=lambda e: e["slug"]):
+        slug = entry["slug"]
         page = _pages_by_slug.get(slug, {})
         title = page.get("title", slug)
         tags = page.get("tags", [])

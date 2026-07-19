@@ -3,13 +3,21 @@ title: DoED Power Plants: Solar Table
 type: source
 created: 2026-05-07
 updated: 2026-05-12
+reviewed: 2026-07-19
+review_due: 2026-10-09
 source_type: registry
 source_author: Department of Electricity Development
 source_date: 2026-01-09
 source_url: https://doed.gov.np/pages/powerplantssolar/
+source_status: public-online
+accessed: 2026-07-19
+verification_status: primary-source-checked
 sources: []
 tags: [doed, solar, registry, operating, power-plants]
-page_quality: record
+excerpt: The official DoED snapshot used for 25 operating solar registry records totalling 141.74 MW.
+caveat: Registry listing supports operating status at the source date but does not provide plant-level generation or parcel-precise geography.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # DoED Power Plants: Solar Table
@@ -36,26 +44,6 @@ The January 2026 registry snapshot lists 25 operating grid-connected solar plant
 - **Coordinate precision:** DoED coordinates are display anchors, not surveyed parcel boundaries. Rows with zero or unusable coordinates are mapped with lower-confidence locality anchors. Not suitable for parcel-level siting analysis.
 - **Coverage scope:** Only operating grid-connected plants. Under-construction, proposed, and off-grid solar are excluded.
 - **Capacity reporting:** The 141.74 MW total is a registry sum at snapshot date; individual plant capacities may differ from other registries or reporting periods.
-
-## Used By
-
-- [[dhalkebar-solar-1mw]]
-- [[raniyapur-block-1]]
-- [[dharamnagar-solar]]
-- [[chandranigahpur-solar]]
-- [[solar-energy-lalitpur]]
-- [[ddb-saurya]]
-- [[morang-utility-solar]]
-- [[bel-chautara-solar]]
-- [[pratappur-solar]]
-- [[simara-solar]]
-- [[dharamnagar-solar-ii]]
-- [[banke-block-2]]
-- [[dhalkebar-solar-3mw]]
-- [[ramgram-solar]]
-- [[jira-bhawani-sedawa]]
-- [[som-radha-krishna]]
-- [[shivasatakshi-jhapa]]
 
 ## Related
 

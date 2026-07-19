@@ -1,0 +1,11 @@
+gap_id,branch,missing_measure,current_public_status,why_it_matters,next_evidence_needed,reviewed
+reliability-saidi-saifi,distribution-reliability,National and feeder SAIDI/SAIFI,not-consolidated-in-public-corpus,Separates grid reach from continuity and restoration performance,Utility interruption series with definitions and feeder coverage,2026-07-19
+reliability-voltage,distribution-reliability,Voltage-quality compliance,not-consolidated-in-public-corpus,Low or unstable voltage can make a nominal connection unusable,Dated monitoring series by feeder or service area,2026-07-19
+reliability-hosting,distribution-reliability,Feeder hosting capacity,not-consolidated-in-public-corpus,Constrains solar cooking transport and industrial electrification,Substation and feeder hosting-capacity study,2026-07-19
+demand-hourly,demand-electrification,Public hourly load by customer class,chart-only-or-not-public,Needed for peak demand response and storage sizing,Machine-readable hourly series with scope and timezone,2026-07-19
+demand-cooking,demand-electrification,Current electric-cooking adoption,2021-exact-baseline-only,Needed to measure progress beyond connections,Repeat household survey with appliance use and primary fuel,2026-07-19
+flex-bess,flexibility,National operating BESS registry,not-found-in-public-corpus,Separates proposed batteries from operating flexibility,Official asset registry with MW MWh status and commissioning date,2026-07-19
+flex-reserves,flexibility,Reserve requirements and performance,not-found-in-public-corpus,Needed to assess operating adequacy,NLDC reserve definitions procurement and performance series,2026-07-19
+flex-ancillary,flexibility,Ancillary-service procurement and settlement,not-found-in-public-corpus,Shows how flexibility is valued and dispatched,Rules awards volumes prices and performance,2026-07-19
+flex-dispatch,flexibility,Plant-level dispatch congestion and curtailment,not-consolidated-in-public-corpus,Needed for a defensible national curtailment total,Timestamped plant series with reason codes,2026-07-19
+flex-state-of-charge,flexibility,Reservoir and battery state of charge,not-found-in-public-corpus,Shows duration and remaining flexibility,Public operational time series with asset scope,2026-07-19

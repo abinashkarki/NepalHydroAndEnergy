@@ -58,7 +58,3 @@ A DISTINCT study using spatial modeling, not physical bathymetry. Uses InVEST SD
 - **Multi-study compilation with different rigor levels.** Combines a doctoral dissertation, spatial modeling (InVEST/RUSLE), an ADB/WB post-completion review, and a turbine-degradation case study — each with different methodologies and confidence levels.
 - **InVEST/RUSLE modeled, not measured.** The Bokan et al. sedimentation rates (13.3 → 6.6 → 4.8 t/ha/yr) are model outputs, not physical sediment trap measurements. The declining trend is directionally consistent with the bathymetric survey but the absolute rates are model-derived.
 - **No post-2018 bathymetry.** The most recent reservoir capacity measurement (61.66 MCM) is from April 2018. Current storage volume is uncertain.
-
-## Used By
-
-- [[kulekhani-iii]]

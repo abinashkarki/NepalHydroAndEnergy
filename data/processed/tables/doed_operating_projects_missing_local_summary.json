@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-13T12:44:20.192009+00:00",
+  "missing_operating_records": 16,
+  "mapped_reference_midpoints": 10,
+  "records_without_usable_coordinates": 6,
+  "scope": "Official DoED operating records unmatched to the legacy Naxa/local registry.",
+  "coordinate_precision": "DoED licence-envelope reference midpoint; not a facility location."
+}

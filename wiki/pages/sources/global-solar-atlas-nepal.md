@@ -81,15 +81,6 @@ Trans-Himalayan is the one zone where satellite systematically **under**-estimat
 - **Satellite-derived, not ground-measured.** GHI/DNI values are modelled from satellite data, not from a dense ground-pyranometer network. The 14-station ESMAP calibration provides validation points but does not cover all terrain types.
 - **Static climatology.** The dataset represents long-term average climatology and does not capture interannual variability, monsoon onset shifts, or trends under climate change.
 
-## Used By
-
-- [[mustang-high-altitude-solar-zone]]
-- [[bishnu-priya-nawalparasi]]
-- [[data-nepal-solar-resource-zones]]
-- [[irena-remap-nepal]]
-- [[solar-resource-geography-nepal]]
-- [[wb-esmap-solar-resource-assessment]]
-
 ## Related
 
 - [[wb-esmap-solar-resource-assessment]] — the calibration source

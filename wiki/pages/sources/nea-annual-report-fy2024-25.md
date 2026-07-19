@@ -3,13 +3,21 @@ title: NEA Annual Report FY 2024/25
 type: source
 created: 2026-04-14
 updated: 2026-05-21
+reviewed: 2026-07-19
+review_due: 2026-10-19
 source_type: report
 source_author: Nepal Electricity Authority
 source_date: 2025-07-15
-source_url: https://neasite.dryicesolutions.net/uploads/shares/publication/77022320.pdf
+source_url: https://nea.org.np/uploads/shares/publication/77022320.pdf
+source_status: public-online
+accessed: 2026-07-19
+verification_status: primary-source-checked
 sources: []
 tags: [nea, generation, capacity, trade, grid, official]
-page_quality: analysis
+excerpt: NEA's official FY2024/25 snapshot of capacity, generation, demand, trade, losses, grid reach and project activity.
+caveat: Annual-report sections use several accounting scopes; trade totals and peak definitions must retain their labels, and post-July-2025 changes are outside the report.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # NEA Annual Report FY 2024/25
@@ -52,51 +60,3 @@ Primary source for current installed capacity, fleet composition, generation spl
 - Seasonal monthly breakdown of generation and trade
 - Plant-level curtailment data
 - Audited financial statements (separate document)
-
-## Used By
-
-- [[aepc-renewable-framework]]
-- [[arun-3]]
-- [[chilime]]
-- [[chilime-trishuli-220kv-transmission-line]]
-- [[data-fleet-composition]]
-- [[data-layer-hydropower-operating]]
-- [[data-nepal-peak-load-curve-fy2024-25]]
-- [[data-potential-pyramid]]
-- [[data-solar-fleet-inventory]]
-- [[data-solar-hydro-complementarity-profile]]
-- [[data-solar-hydro-lcoe]]
-- [[data-trade-time-series]]
-- [[eib-rural-solar-phase2]]
-- [[firm-power]]
-- [[kali-gandaki-a]]
-- [[khimti-ii]]
-- [[khudi-220-132kv-substation]]
-- [[kulekhani-cascade]]
-- [[kulekhani-i]]
-- [[kulekhani-ii]]
-- [[kulekhani-iii]]
-- [[madhya-marsyangdi]]
-- [[markichowk-220-132kv-substation]]
-- [[marsyangdi]]
-- [[middle-tamor]]
-- [[nea-960mw-solar-tender]]
-- [[nea-transmission-annual-book-2077]]
-- [[run-of-river-hydropower]]
-- [[sanjen-khola]]
-- [[solar-hydro-complementarity]]
-- [[solar-lcoe-crossover]]
-- [[storage-deficit]]
-- [[super-madi]]
-- [[super-trishuli]]
-- [[tamakoshi-v]]
-- [[tanahu-hydropower]]
-- [[trishuli]]
-- [[trishuli-cascade]]
-- [[trishuli-galchhi]]
-- [[upper-arun]]
-- [[upper-bhotekoshi]]
-- [[upper-marsyangdi-a]]
-- [[upper-tamakoshi]]
-- [[upper-trishuli-3a]]
-- [[wb-grid-solar-ee-project]]

@@ -2,10 +2,10 @@
 title: Tanahu Hydropower Project
 type: entity
 created: 2026-04-14
-updated: 2026-05-21
+updated: 2026-07-10
 generator: specs-refresh
 page_quality: analysis
-sources: [tanahu-adb-status-2025, tanahu-progress-2026, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
+sources: [adb-tanahu-project-documents-2026, tanahu-adb-status-2025, tanahu-progress-2026, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [project, storage, under-construction, gandaki, seti, adb-financed, tanahu]
 images:
   - src: tanahu-hydropower/seti-gandaki-river.jpg
@@ -59,20 +59,20 @@ images:
 
 ## Summary
 
-A 140 MW **storage-type** reservoir scheme on the Seti River — the
-only large dam-and-reservoir project actually in active construction
-in Nepal, making it the single most important test case for
-whether the country can execute [[storage-deficit]]-closing assets at
-all. ADB-financed, NEA-owned, ~67% complete as of the NEA FY 2024/25 annual report and roughly **75% complete by April 2026**, and
-shadowed by two Accountability Mechanism complaints over land and
-buffer-zone compensation.
+A 140 MW **storage-type** reservoir scheme on the Seti River and the
+most advanced large reservoir project under construction in Nepal.
+The NEA FY 2024/25 baseline reported about 67% physical progress; a
+later April 2026 public update reported roughly 75%. ADB's current
+project record also exposes audited financial statements, contract
+utilisation and environmental and social monitoring, allowing progress
+to be tracked by package rather than by a single headline percentage.
 
 ## Specifications
 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 140 MW |
-| Status | Under construction — ~67% complete (FY 2024/25 NEA baseline); ~75% public progress update (Apr 2026) |
+| Status | Under construction — ~67% NEA FY 2024/25 baseline; ~75% April 2026 public update |
 | River | Seti ([[gandaki-basin]]) |
 | District | Tanahu |
 
@@ -96,11 +96,46 @@ ADB-financed, NEA-owned, and shadowed by two Accountability Mechanism complaints
 | Developer | NEA |
 
 ### Schedule
-Roughly 67% complete after the FY 2024/25 reporting year, with a later public progress update placing it around 75% complete in April 2026. The project remains slower than comparable multilateral projects elsewhere. Each additional year of delay compounds NEA's dry-season exposure, since Tanahu is counted in medium-term planning to arrive before the [[seasonal-mismatch]] pressure peaks.
+Roughly 67% complete in the NEA FY 2024/25 reporting baseline, with a
+later public progress update placing it around 75% in April 2026. The
+ADB record shows that the original loan closing dates were revised to
+30 June 2026; package milestones and commissioning evidence should be
+used instead of extrapolating a completion date from the headline
+percentage.
 
 | Parameter | Value |
 |-----------|-------|
 | Completion | ~67% in NEA FY 2024/25; ~75% in Apr 2026 public update |
+
+## Current Status
+
+**As of 10 July 2026:** under construction. The ADB project remains
+active and publishes financial, procurement and safeguard records. The
+wiki does not treat the April 2026 percentage as proof of commissioning
+or infer a commercial-operation date from it.
+
+| Dimension | Current position | Evidence |
+|---|---|---|
+| Physical delivery | Major packages under construction; roughly 75% in the April public update | [[tanahu-progress-2026]] |
+| Finance | Active ADB project; FY 2024/25 audited project statements disclosed January 2026 | [ADB project documents](https://www.adb.org/projects/43281-013/main) |
+| Safeguards | Ninth Panel of Experts report disclosed April 2026 | [ADB project documents](https://www.adb.org/projects/43281-013/main) |
+| Operation | Not commissioned | Project monitoring record |
+
+## Recent Updates
+
+| Date | Update |
+|---|---|
+| Apr 2026 | ADB disclosed the ninth environmental and social Panel of Experts report |
+| Apr 2026 | Public progress update placed overall physical progress at approximately 75% |
+| Jan 2026 | ADB disclosed audited project financial statements for FY 2024/25 |
+
+## Active Blockers
+
+| Blocker | Prevents | Monitoring basis |
+|---|---|---|
+| Remaining package and integration works | Commissioning | Package-level construction record |
+| Land, compensation and environmental-management issues | Completion with safeguard compliance | Current ADB monitoring and Panel of Experts reports |
+| Schedule slippage beyond earlier loan dates | Reliable commercial-operation forecast | Revised ADB timetable |
 
 
 ## Significance
@@ -188,6 +223,7 @@ Source: [An Overview of Tanahu Hydropower Project (PDF)](https://edcnepal.org/wp
 
 ## Sources
 
+- [[adb-tanahu-project-documents-2026|ADB Tanahu Hydropower Project Documents (2026)]]
 - [[tanahu-adb-status-2025|Tanahu Hydropower Project Status (ADB, 2024–2025)]]
 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
 - [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]

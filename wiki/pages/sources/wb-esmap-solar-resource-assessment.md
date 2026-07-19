@@ -3,13 +3,21 @@ title: World Bank ESMAP Nepal Solar and Wind Resource Measurement
 type: source
 created: 2026-04-23
 updated: 2026-05-11
+reviewed: 2026-07-19
+review_due: 2027-07-19
 source_type: dataset
 source_author: World Bank ESMAP Energy Sector Management Assistance Program, with AEPC implementation
 source_date: 2019-01-01
 source_url: https://esmap.org/renewable_energy_resource_mapping
+source_status: public-online
+accessed: 2026-07-19
+verification_status: institutional-dataset-record-checked
 sources: []
 tags: [esmap, world-bank, solar, wind, resource-assessment, pyranometer, GHI, DNI, measured-data]
-page_quality: analysis
+excerpt: World Bank ESMAP's Nepal solar and wind measurement programme and ground-station resource evidence.
+caveat: Resource measurement does not establish project feasibility, land availability, grid connection or operating output.
+maturity: verified-core
+page_quality: flagship
 ---
 
 # World Bank ESMAP Nepal Solar and Wind Resource Measurement
@@ -107,15 +115,6 @@ Validation source for:
 - **Temporal cutoff at 2019.** The measurement campaign ended in 2019, pre-dating the 2021–2024 atmospheric-aerosol shifts. Terai stations in particular may now face dust-aerosol conditions not captured in the dataset.
 - **Post-2019 data patchy.** Some stations continued under AEPC operation after 2019; others were decommissioned. There is no uniform post-campaign dataset.
 - **Station values are representative, not precise.** The GHI means in the station table are approximate; exact values require cross-reference with the ESMAP final report tables.
-
-## Used By
-
-- [[data-solar-hydro-complementarity-profile]]
-- [[mustang-high-altitude-solar-zone]]
-- [[data-nepal-solar-resource-zones]]
-- [[irena-remap-nepal]]
-- [[global-solar-atlas-nepal]]
-- [[solar-resource-geography-nepal]]
 
 ## Related
 

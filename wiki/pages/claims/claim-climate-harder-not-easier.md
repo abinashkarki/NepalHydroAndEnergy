@@ -2,13 +2,19 @@
 title: Climate Change Increases Volatility and Resilience Risk, Not a Simple "More Water" Win
 type: claim
 created: 2026-04-14
-updated: 2026-05-11
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
 claim_id: C-012
 confidence: high
 status: stable
 sources: [wecs-river-basin-plan-2024, icimod-hkh-glacier-change, wb-ganges-strategic-basin-assessment]
 tags: [climate, cmip6, runoff, hazards, resilience]
+excerpt: Climate change can increase hydrological volatility, sediment and hazard exposure even where some models project higher annual or monsoon runoff; basin-specific outcomes remain uncertain.
 page_quality: analysis
+maturity: working-page
+caveat: Numeric runoff bands are model-, scenario- and basin-specific and must not be generalized across Nepal's project fleet.
 ---
 
 ## Claim
@@ -25,9 +31,6 @@ Climate change does **not** make Nepal's hydro story straightforwardly **easier*
 ## Confidence rationale
 
 **High** because the "volatility and uncertainty dominate naive averages" framing is consistent with IPCC HKH literature and with source convergence; numeric bands should always be presented as **model-dependent** and basin-specific.
-
-> [!note]
-> The canonical claims table in `wiki/ONTOLOGY.md` registers this claim at `medium-high`, reflecting the model-dependent nature of specific numeric bands. The page-level `high` rating is justified by the directional convergence of IPCC HKH literature across model ensembles, which is stronger than any single projection. See `wiki/FLAGGED_FOR_REVIEW.md` for the monthly-review item to reconcile this discrepancy.
 
 ## Unresolved issues
 

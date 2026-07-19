@@ -1529,6 +1529,586 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-07-10 — Stage 1 Primary Sources, Construction and Corridor Batch
+
+**Agent:** Codex
+**Session type:** Five-page governed source batch plus five-page mechanical entity-link batch
+**Source pages added:**
+- `sources/sjvn-arun-3-project-record`
+- `sources/adb-tanahu-project-documents-2026`
+- `sources/utkhpl-disclosures-2026`
+- `sources/world-bank-hddi-rap`
+- `sources/powergrid-gorakhpur-butwal-fy2024-25`
+
+**Entity links updated:** `arun-3`, `tanahu-hydropower`, `upper-tamakoshi`, `hetauda-dhalkebar-inaruwa-backbone`, `gorakhpur-butwal-interconnection`.
+
+**Validation result:** Computed backlinks, index rebuild and final validation are recorded in the completion handoff.
+
+**Flags raised:** Existing Stage 1 flags cover missing component progress, filing extraction and synchronized corridor status.
+
+**Decisions made:** Source pages remain descriptive and contain no manual `Used By` sections.
+
+---
+
+## 2026-07-10 — Stage 1 Primary Sources, Storage and Stalled-Project Batch
+
+**Agent:** Codex
+**Session type:** Five-page governed source batch plus five-page mechanical entity-link batch
+**Source pages added:**
+- `sources/aiib-dudhkoshi-project-2026`
+- `sources/bgjcl-project-record-2026`
+- `sources/vucl-mugu-karnali-project`
+- `sources/pancheshwar-official-project-record`
+- `sources/icra-upper-karnali-2026`
+
+**Entity links updated:** `dudhkoshi-storage`, `budhigandaki`, `mugu-karnali-storage`, `pancheshwar`, `upper-karnali`.
+
+**Validation result:** Computed backlinks, index rebuild and final validation are recorded in the completion handoff.
+
+**Flags raised:** Existing Stage 1 flags cover DPR, feasibility, financial-close, cost-basis and design reconciliation gaps.
+
+**Decisions made:** Source pages remain descriptive and contain no manual `Used By` sections.
+
+---
+
+## 2026-07-10 — Stage 1 Project Monitoring, Second Priority Batch
+
+**Agent:** Codex
+**Session type:** Five-page governed entity batch
+**Pages touched:**
+- `entities/arun-3`: replaced stale single-percentage/COD framing with component-aware construction and evacuation monitoring; aligned design energy to the current SJVN figure.
+- `entities/budhigandaki`: aligned annual energy to BGJCL's 3,338 GWh figure, separated procurement from construction, and downgraded unsupported financing, tariff, schedule and resettlement claims to explicit gaps.
+- `entities/pancheshwar`: corrected the full scheme to 6,720 MW and 12,333 GWh, centered the unresolved final DPR, and removed unsupported current cost, benefit-allocation, displacement and hazard assertions.
+- `entities/mugu-karnali-storage`: corrected the project to conventional storage, eight units, 6,291.8 GWh and current reservoir parameters; added the 271.5 MW re-regulating application and feasibility/licence blockers.
+- `entities/gorakhpur-butwal-interconnection`: added country-segment status, corrected the 50:50 JV ownership and removed the unverified firm commissioning date.
+
+**Validation result:** Final index rebuild, validator, source-backlink checker, diff check, tests and browser QA are recorded in the completion handoff.
+
+**Flags raised:**
+- Added a second Stage 1 reconciliation item covering primary DPR, feasibility, resettlement, cost, progress and corridor-status evidence gaps.
+
+**Decisions made:**
+- Kept the batch to five entity pages.
+- Removed or downgraded values whose current primary basis was not available instead of carrying them forward from secondary summaries.
+- Distinguished full-scheme capacity from component capacity for Pancheshwar.
+
+---
+
+## 2026-07-10 — Stage 1 Project Monitoring, Lighthouse Batch
+
+**Agent:** Codex
+**Session type:** Five-page governed entity batch plus shared structured-data pipeline
+**Pages touched:**
+- `entities/upper-tamakoshi`: added dated current-status, recent-update, blocker and evidence-boundary sections.
+- `entities/tanahu-hydropower`: added package-aware current status, current ADB disclosures and active blockers.
+- `entities/dudhkoshi-storage`: reconciled the current 670 MW / 220 m design basis, removed the unsupported pumped-storage field, separated proposed financing from financial close, and added safeguard blockers.
+- `entities/upper-karnali`: changed the user-facing state from survey/approaching close to stalled pre-construction, added the June 2026 ownership record, and separated partner participation from financial close and offtake.
+- `entities/hetauda-dhalkebar-inaruwa-backbone`: added segment-level status, the unfinished western-segment blocker and a canonical Sources section.
+
+**Shared data and tooling:**
+- Added `data/project_events.csv`, `data/project_blockers.csv`, `data/corridor_specs.csv`, `wiki/monitoring-schema.json`, and `data/README.md`.
+- Updated the fact-index builder to overlay curated project specs, include the ten priority projects' dated events and blockers, and create segment-aware transmission facts.
+- Updated map generation so curated delivery status controls project labels while registry licence type remains preserved separately.
+- Added monitoring-dataset validation for columns, unique identifiers, canonical slugs, dates, source URLs and controlled vocabularies.
+
+**Validation result:** Baseline validation passed before edits. Intermediate `python scripts/validate_repo.py` passed after the structured layer was added. Final index rebuild and full test results are recorded in the completion handoff for this session.
+
+**Flags raised:**
+- Added the Stage 1 reconciliation item to `wiki/FLAGGED_FOR_REVIEW.md` for Dudhkoshi design variants, Upper Karnali financial-close/offtake evidence, and Upper Tamakoshi filing reconciliation.
+
+**Decisions made:**
+- Preserved administrative licence type separately from physical delivery status.
+- Treated proposed financing, approval, effectiveness, disbursement and financial close as distinct milestones.
+- Kept the governed page batch to five entity pages; primary-source-page ingestion remains a separate five-page batch.
+
+---
+
+## 2026-07-10 — Stage 1 Completion Verification
+
+**Agent:** Codex
+**Session type:** Cross-batch generated-output, validation and browser QA handoff
+
+**Generated outputs:** Rebuilt the page, metadata, backlink, search, vector and structured-fact indexes after the four governed Stage 1 batches. The resulting public corpus contains 398 wiki pages, including 72 source pages, and the fact index contains 666 structured facts.
+
+**Validation result:** `make validate` passed with `OK: 398 wiki pages, caches valid, map manifest valid, tracked hygiene clean`; all 72 source pages passed the no-manual-`Used By` check. `make test` passed all 64 tests and the strict search benchmark passed 50/50 queries. `python scripts/check_generated_ownership.py` passed all 10 ownership entries. `git diff --check` passed.
+
+**Browser QA:** The local explorer passed desktop checks on Dudhkoshi and Upper Karnali and a 390 x 844 mobile check on Mugu Karnali. Current-status, recent-update and active-blocker sections rendered; corrected design/status evidence appeared; no horizontal overflow was present; and the tested explorer console contained no errors or warnings. The temporary mobile viewport override was reset after testing.
+
+**Open flags:** The two Stage 1 reconciliation entries in `wiki/FLAGGED_FOR_REVIEW.md` remain intentionally open for primary-document gaps and time-sensitive project/corridor reconciliation. They are evidence limitations, not failed release checks.
+
+---
+
+## 2026-07-10 — Explorer Trust-Copy Maintenance
+
+**Agent:** Codex
+**Session type:** One-page governed wording correction supporting the Search and Decision UX release
+
+**Pages touched:**
+- `syntheses/start-here`: replaced the stale hard-coded 388-page count with durable “nearly 400 interconnected” wording so the public entry page remains accurate across routine corpus additions.
+
+**Validation result:** Included in the completed Search and Decision UX release gate below: 398-page index rebuild, repository validation, full test suite, generated-ownership check, diff check and browser QA all passed.
+
+**Flags raised:** None. No factual, source, confidence or ontology change was made.
+
+**Decisions made:** Used durable descriptive copy instead of replacing one brittle exact count with another.
+
+---
+
+## 2026-07-10 — Search and Decision UX Release
+
+**Agent:** Codex
+**Session type:** Explorer search, decision-support UI and responsive interaction release
+
+**Explorer changes:**
+- Reworked search into an answer-first experience with structured intent handling for project status, capacity, technology, location and source-seeking questions.
+- Added grouped result types, project/status/evidence filters, nine-result progressive disclosure, shareable URL state and full keyboard navigation.
+- Added exact temporary map overlays for matched projects, including reversible map state and mobile map/result context controls.
+- Added monitored-project intelligence headers with record dates, direct evidence, active blockers and latest events. Unmonitored records retain normal page-quality metadata and do not receive a monitoring claim.
+- Kept exact and structured searches local and fast. The optional semantic reranker is loaded only for longer conceptual questions; local results remain usable if that external runtime is unavailable.
+- Updated explorer documentation, cache versioning and the durable Start Here corpus wording.
+
+**Files and tests:** Updated `wiki/explorer/index.html`, `wiki/explorer/shared/leaflet-init.js`, `wiki/explorer/shared/wiki-search.js`, `wiki/explorer/shared/wiki-search-aliases.json`, `wiki/explorer/README.md`, `wiki/pages/syntheses/start-here.md`, `Makefile` and search/performance test coverage. Added `tests/test_wiki_search_intents.js` and `scripts/test_explorer_search_runtime.py`.
+
+**Validation result:** `make wiki-index` rebuilt 398 pages, 666 facts and 3,138 vector chunks. `make validate` returned `OK: 398 wiki pages, caches valid, map manifest valid, tracked hygiene clean`; all 72 source pages passed the no-manual-`Used By` check. `make test` passed all 72 Python tests, the browser-JavaScript runtime contracts, the Node intent suite and the strict search benchmark at 50/50. `python scripts/check_generated_ownership.py` passed all 10 ownership entries, and `git diff --check` passed.
+
+**Retrieval holdout:** A fresh 30-query run against the shipped JavaScript achieved 30/30 relevant results within the top ten (MRR 0.701; hit@1 0.567; hit@3 0.700; hit@5 0.967; hit@10 1.000). This is not an across-the-board ranking improvement claim: early-rank metrics are lower than the older frozen run partly because newly introduced structured project facts are absent from that frozen relevance pool. The previously missed storage-roadmap query now has a relevant result at rank eight.
+
+**Browser QA:** Desktop checks verified the exact three-project stalled answer, source-first Pancheshwar evidence search, direct Upper Karnali status/capacity answer, capacity-sorted storage list, contradictory-status handling, keyboard opening, exact map overlay and restoration, monitored/unmonitored header boundaries and conceptual search fallback. Mobile 390 x 844 checks verified the Find-first landing, task prompts, preserved query state, result-to-reader flow, shared filter URLs, exact overlay transition, Restore map and Back to results. Tablet 900 x 800 checks verified source ordering and overflow. No application exceptions were observed; the optional third-party ONNX runtime emits non-fatal provider-placement and response-header diagnostics during first model startup.
+
+**Flags raised:** The external semantic reranker remains an optional enhancement with a network/model-startup dependency. The complete local lexical and structured search path is the release baseline.
+
+**Decisions made:** Prioritized verifiable direct answers and reversible map actions over opaque scores. Monitoring language is shown only where dated monitoring evidence exists; the UI makes no confidence-score claim.
+
+---
+
+## 2026-07-10 — Capital-Markets and Contract-Evidence Pass
+
+**Agent:** Codex
+**Session type:** Governed five-page evidence-integrity and research-backlog pass
+
+**Pages touched:**
+- `sources/sebon-hydropower-offering-records`: added a primary SEBON record trail for selected hydropower IPO and rights-share filings, with explicit application-versus-completion limitations.
+- `concepts/ipo-hydropower-bailout`: replaced the unsupported inventory with a primary-document research protocol; removed three missing source slugs, unsupported NEPSE allegations and pipeline-to-completed-issue conflation.
+- `concepts/ad-penalties`: changed primary-source claims to correctly labelled secondary PPA analysis and retained the Barahi material only as a documented research lead.
+- `concepts/hydro-insurance`: removed unsupported market and premium findings, retained the evidence boundary, and narrowed the PPA/force-majeure question to the available secondary record.
+- `syntheses/unresolved-questions`: refreshed the research backlog from the current project-monitoring registry and changed Pancheshwar from filled to partially filled.
+
+**Supporting maintenance:**
+- Updated `wiki/index.md` from 398 to 399 pages after adding the SEBON source page.
+- Added a capital-markets evidence flag to `wiki/FLAGGED_FOR_REVIEW.md`.
+
+**Validation result:** `make wiki-index` rebuilt 399 pages and all metadata caches. `python scripts/check_source_used_by.py` passed for all 73 source pages; `python scripts/validate_repo.py`, `git diff --check` and `make test` all passed. The strict search benchmark passed 50/50.
+
+**Flags raised:**
+- IPO and rights-share claims remain contingent on issuer-level prospectus, offer/allotment and audited-post-offer reconciliation.
+- Signed PPAs, enforcement records and adjudicated AD-penalty outcomes remain absent from the source corpus.
+
+**Decisions made:**
+- Treated SEBON pipeline status as an application/review signal, never as evidence that funds were raised or applied.
+- Preserved the research questions while removing assertions that the current sources cannot substantiate.
+
+---
+
+## 2026-07-10 — Upper Tamakoshi Primary-Filing Extraction
+
+**Agent:** Codex
+**Session type:** Governed source-page extraction and evidence-boundary update
+
+**Pages touched:**
+- `sources/utkhpl-disclosures-2026`: extracted the current official annual-report and third-quarter statement figures for revenue, finance costs, insurance expense, insurance claims and Rolwaling capital work; added direct official-document links and limitations.
+- `concepts/hydro-insurance`: restored one explicitly bounded, primary-filed Upper Tamakoshi insurance-to-revenue observation and clarified the known claim-settlement boundary.
+
+**Supporting maintenance:**
+- Added an Upper Tamakoshi Rolwaling status-conflict flag. The annual statement records ongoing work at its reporting date, whereas the entity page contains a later halted-construction claim. No entity status was changed because the May 2026 statement lacks a package progress or stop/restart date.
+
+**Validation result:** `make wiki-index` rebuilt 399 pages and metadata caches. `python scripts/check_source_used_by.py`, `python scripts/validate_repo.py`, `git diff --check` and `make test` passed. The strict search benchmark passed 50/50.
+
+**Flags raised:**
+- Resolve the Rolwaling status only with a dated 2026 project, contractor or conservation-authority record.
+
+**Decisions made:**
+- Reported the 1.14% insurance/revenue figure as a single-project-year observation, not a sector-wide premium estimate.
+- Kept the later claim-settlement outcome and financial-recovery story explicitly unresolved.
+
+---
+
+## 2026-07-10 — Upper Karnali Official-Record Pass
+
+**Agent:** Codex
+**Session type:** Governed primary-source addition for financial-close and delivery-status research
+
+**Pages touched:**
+- `sources/upper-karnali-official-records-2022-2026`: added a primary IBN/DoED record that distinguishes the conditional 2022 financial-close extension and July 2026 administrative registry listing from actual financial close.
+- `entities/upper-karnali`: linked the new primary record alongside the existing ICRA and historical compilation sources.
+
+**Supporting maintenance:**
+- Updated `wiki/index.md` from 399 to 400 pages after adding the source page.
+
+**Validation result:** `make wiki-index` rebuilt 400 pages and metadata caches. `python scripts/check_source_used_by.py`, `python scripts/validate_repo.py`, `git diff --check` and `make test` passed. The strict search benchmark passed 50/50.
+
+**Flags raised:** None. The existing Upper Karnali financial-close/offtake flag remains open and is now grounded in a primary institutional record as well as the rating rationale.
+
+**Decisions made:**
+- Treated DoED's survey-licence classification as a registry fact, not a delivery-status label.
+- Did not imply that a deadline extension, partner announcement or registry listing is financial close.
+
+---
+
+## 2026-07-10 — Arun 3 and Gorakhpur Evidence-Boundary Pass
+
+**Agent:** Codex
+**Session type:** Governed project-monitoring source refinement
+
+**Pages touched:**
+- `sources/sjvn-arun-3-project-record`: added the dated May 2025 and May 2026 SJVN schedule disclosures, with the later FY 2028/29 Q3 expectation superseding the earlier FY 2027/28 expectation.
+- `entities/arun-3`: replaced the stale schedule placeholder with the current announced expectation while retaining the firm-date and package-progress boundary.
+- `sources/powergrid-gorakhpur-butwal-fy2024-25`: added POWERGRID's PMC agreement date and planned end date, plus the absence of an evidenced post-period outcome.
+- `entities/gorakhpur-butwal-interconnection`: made the elapsed PMC period a monitoring fact, not a completion claim.
+
+**Validation result:** `make wiki-index`, `python scripts/check_source_used_by.py`, `python scripts/validate_repo.py`, `git diff --check` and `make test` passed after the initial update. The schedule refinement was then verified against SJVN's May 2026 primary investor presentation and rebuilt/validated in the final pass.
+
+**Flags raised:** None. The existing absence of a package-defined Arun 3 progress denominator and of a post-July 2025 Gorakhpur PMC completion outcome remains explicit.
+
+**Decisions made:**
+- Treat an announced schedule as a dated expectation, not a firm commissioning forecast.
+- Treat a contract-duration end date as no more than a monitoring trigger unless a completion, testing or energisation record is available.
+
+---
+
+## 2026-07-10 — Demand and Operational-Data Evidence Pass
+
+**Agent:** Codex
+**Session type:** Governed demand-side and operational-data gap refinement
+
+**Pages touched:**
+- `sources/wb-household-electric-cooking-nepal-2025`: replaced the secondary catalogue link with the World Bank policy research paper and clarified its analytical, non-programme-evaluation scope.
+- `interventions/intervention-electric-cooking-transition`: added named evidence sources and a research gate for adoption, load shape, feeder readiness, LPG fiscal treatment and appliance finance; converted national outcomes and fiscal reform into testable scenarios.
+- `data/data-industrial-electricity-consumers`: removed the unsupported top-consumer concentration estimate and specified the anonymised account-level dataset required to test it.
+- `concepts/stranded-generation`: retired unverified national and project-by-project curtailment figures; retained the bounded Likhu corridor evidence and defined the dispatch dataset needed to quantify the issue.
+
+**Validation result:** `make wiki-index` rebuilt 400 pages and all metadata caches. `python scripts/check_source_used_by.py`, `python scripts/validate_repo.py`, `git diff --check` and `make test` passed; the strict search benchmark passed 50/50.
+
+**Flags raised:**
+- No current public national dataset in the corpus measures available generation, rejected MWh, dispatch reason and compensation at plant or cohort level.
+- No current national cooking load profile, LPG fiscal ledger, feeder reliability dataset or annual electric-cooking uptake series is in the corpus.
+
+**Decisions made:**
+- Treat electric-cooking scale, demand timing, LPG savings and fiscal policy as scenarios gated by evidence, not as observed outcomes.
+- Treat a single documented transmission bottleneck as mechanism evidence, never as a national curtailment estimate.
+
+---
+
+## 2026-07-11 — Curtailment Data-Acquisition Preparation
+
+**Agent:** Codex
+**Session type:** Governed operational-data source and acquisition preparation
+
+**Pages touched:**
+- `sources/nea-operational-reporting-portals-2026`: added a dated primary-source record of the Generation Directorate's unpopulated public operational-report surface and the separate aggregate daily-report surface.
+- `concepts/stranded-generation`: linked the public-reporting boundary without treating it as evidence that internal records do not exist.
+- `syntheses/unresolved-questions`: specified the missing plant availability, dispatch-event and reason-code fields behind the open curtailment question.
+
+**Supporting research infrastructure:**
+- Added a review-only bilingual request draft at `docs/research_briefs/curtailment_dispatch_data_acquisition.md`; it has not been sent.
+- Added `data/curtailment-dispatch-schema.json` as a receipt/validation contract for any future response, and documented it in `data/README.md`.
+- Added a review flag for acquisition, coverage and redaction handling; updated `wiki/index.md` from 400 to 401 pages.
+
+**Validation result:** `make wiki-index` rebuilt 401 pages. `python scripts/check_source_used_by.py`, `python scripts/validate_repo.py`, `git diff --check` and `make test` passed; the strict search benchmark passed.
+
+**Flags raised:** Plant-level availability, curtailment-event, reason-code and contractual-treatment records are not established as public by the reviewed portals. The drafted request asks for existing records only and must be reviewed before submission.
+
+**Decisions made:**
+- Did not duplicate daily aggregate generation/trade fields already recoverable from the NEA Transmission Directorate archive.
+- Did not infer a curtailment total from aggregate generation, exports or annual energy.
+
+---
+
+## 2026-07-11 — Explorer Onboarding Home Alignment
+
+**Agent:** Codex
+**Session type:** Governed navigation-copy alignment
+
+**Pages touched:**
+- `wiki/index`: replaced the outdated statement that the explorer opens directly on `start-here`; documented the new task-based home and repositioned `start-here` as the five-minute narrative introduction.
+
+**Validation result:** `make wiki-index`, `python scripts/validate_repo.py`, and `git diff --check` passed. The explorer home, search route, narrative route, direct page links, and mobile map transition were browser-verified with no new console errors.
+
+**Flags raised:** None.
+
+**Decisions made:**
+- Kept the existing `start-here` synthesis intact as a guided editorial route instead of using it as the default application state.
+
+---
+
+## 2026-07-12 — Find-Led Explorer and Wiki Front Page Pass
+
+**Agent:** Codex
+**Session type:** Governed explorer onboarding and synthesis navigation refinement
+
+**Pages touched:**
+- `syntheses/start-here`: reshaped the opening page into a broad editorial front page covering system context, major questions, subject routes, evidence boundaries, map context, and non-persona reading paths.
+- `wiki/index`: aligned the repository index with Find as the discovery surface and `start-here` as the editorial front page.
+
+**Explorer changes:**
+- Removed the duplicate Home state, central search form, Home tab, and task-card router.
+- Expanded the existing Find landing with the product promise, evidence model, example questions, a five-minute overview route, and live page/source counts.
+- Restored Find as the compact default while keeping the wiki front page in the centre pane on desktop.
+
+**Validation result:** `make wiki-index`, `python scripts/validate_repo.py`, and `git diff --check` passed. Desktop and 390×844 mobile flows were browser-verified: Find-first opening, front-page route, ordinary search, and no new console errors.
+
+**Flags raised:** None.
+
+**Decisions made:**
+- Treat Find, the wiki front page, and the map as distinct surfaces with distinct jobs: discovery, editorial orientation, and spatial exploration.
+
+---
+
+## 2026-07-13 — Research-Flag Reconciliation
+
+**Agent:** Codex
+**Session type:** Governed research-queue cleanup
+
+**Pages touched:**
+- `wiki/FLAGGED_FOR_REVIEW.md`: moved the two completed Stage 1 project-monitoring umbrella flags to the resolved table.
+- `sources/wb-nepal-power-sector-reform-2022`: replaced the misidentified standalone 2022-roadmap description with a bounded 2018–2025 World Bank evidence record and verified official URLs.
+
+**Validation result:** Baseline and post-edit `python scripts/validate_repo.py` passed. `make wiki-index`, dashboard build/check, `make test`, and `git diff --check` also passed; the regenerated dashboard reports three open research flags.
+
+**Flags raised:** None. The specific Upper Tamakoshi/Rolwaling contradiction remains open; it was not absorbed into the resolved umbrella item.
+
+**Decisions made:**
+- Accepted the existing dossier updates as completion of the umbrella flags because primary records, dated evidence boundaries and explicit unknowns are now present.
+- Did not treat unresolved DPR, financing, package-progress or commissioning facts as verified project outcomes.
+- Preserved the World Bank page's legacy slug to avoid breaking backlinks, while separating the 2025 hydropower-potential evidence from the 2018 reform-programme evidence.
+
+---
+
+## 2026-07-13 — Parallel Evidence and Registry Sprint
+
+**Agent:** Codex with three parallel sub-agents
+**Session type:** Governed research, registry and entity-status reconciliation
+
+**Pages touched:**
+- 38 auto-stub entity pages: replaced inherited `under construction (generation licence)` wording with a generation-licence record and explicitly unverified delivery status.
+- `entities/khimti-ii` and `entities/trishuli-galchhi`: separated independently sourced construction evidence from regulatory licence status.
+- `entities/upper-tamakoshi`: retired unsupported Rolwaling complete-halt/blockade claims and retained a filing-bounded unknown current status.
+- `concepts/ipo-hydropower-bailout` and `sources/sebon-hydropower-offering-records`: added Ankhu Khola's prospectus-level proceeds allocation and preserved completion/actual-use gaps.
+- `sources/nea-operational-reporting-portals-2026`: recorded the 13 July portal recheck.
+- `wiki/FLAGGED_FOR_REVIEW.md`: closed the Rolwaling contradiction flag and narrowed the curtailment and capital-markets flags.
+
+**Supporting data and generator changes:**
+- Approved the reviewed `Kabeli-3 HEP` → `Kabeli-3 Cascade HEP` identity alias and rebuilt the DoED crosswalk outputs.
+- Added a separate official-provenance pipeline for 16 unmatched DoED operating records: 10 licence-envelope midpoint references and 6 explicitly unmapped zero-coordinate records; none were merged into the legacy Naxa registry.
+- Added reviewed dual-value publication for 11 capacity differences of at least 50 MW, preserving the legacy Naxa value alongside current official DoED capacity and provenance.
+- Updated `scripts/gen_wiki_stubs.py` so future stubs do not equate a generation licence with construction progress.
+
+**Validation result:** `make wiki-index`, tributary-map and DoED-additions builds, DoED overlay application, dashboard build/check, `python scripts/validate_repo.py`, `make test`, strict 50-case search benchmark, new targeted pipeline tests and `git diff --check` passed. The dashboard now reports two open research flags, 67 DoED review rows and 116 unresolved capacity conflicts after 11 reviewed resolutions; the prohibited licence/construction phrase scan is zero.
+
+**Flags raised:** None. Curtailment remains awaiting an external response; the capital-markets flag remains open for allotment, audited actual-use, subsequent loan-balance reconciliation and broader-sample design.
+
+**Decisions made:**
+- User explicitly waived the normal five-page batch limit for this parallel sprint.
+- Rejected 16 unsafe operating-record fuzzy matches rather than merge distinct projects.
+- Treated current DoED records as regulatory authority while preserving the separation between identity, capacity history and delivery status.
+- Completed approved-prospectus use-of-proceeds extraction for the bounded Ankhu Khola, Joshi Hydropower, People's Power and Terhathum Power cohort; retained the flag for post-offer reconciliation and sampling limits.
+
+---
+
+## 2026-07-13 — Parallel Dashboard Priority Sprint, Wave 3
+
+**Agent:** Codex with three parallel sub-agents
+**Session type:** Explorer integration, capacity reconciliation and capital-markets evidence pass
+
+**Pages touched:**
+- `concepts/ipo-hydropower-bailout` and `sources/sebon-hydropower-offering-records`: added post-offer evidence for Ankhu Khola, People's Power and Terhathum; narrowed the remaining flag to Joshi, Ankhu Khola-2 investment tracing and audited cohort confirmation.
+- `wiki/FLAGGED_FOR_REVIEW.md`: moved curtailment from active research to monitored external dependency and narrowed the remaining capital-markets item.
+
+**Explorer and data changes:**
+- Added an opt-in DoED operating-reference layer with 10 licence-envelope midpoints; six zero-coordinate official records remain explicitly unmapped.
+- Reclassified those 16 records from identity review into a distinct missing-local-coverage queue.
+- Reviewed 37 capacity differences in the 10–50 MW tier, approved 26 single-record authority matches and deferred 11 multi-record or aggregate conflicts.
+- Fixed generated GeoJSON serialization so reviewed legacy/current dual-capacity fields are retained.
+
+**Validation result:** The missing-operating and tributary-map builds, `make wiki-index` (401 pages), dashboard build/check, `python scripts/validate_repo.py`, `make test` (85 tests), the strict 50-case search benchmark, targeted missing-operating and capacity-authority tests, and `git diff --check` passed. Desktop and 354×767 mobile explorer flows were browser-verified with the opt-in reference layer showing 10 mapped records, no horizontal overflow, and no new console errors. The dashboard now reports one active research flag, 51 DoED identity-review rows, 16 separately classified missing-operating rows, and 95 unresolved capacity conflicts.
+
+**Flags raised:** None. One active research flag remains for bounded capital-market post-offer reconciliation; curtailment is monitored while awaiting an external response.
+
+**Decisions made:**
+- Kept the new DoED layer opt-in and described every coordinate as a reference midpoint, not a facility location.
+- Preserved legacy Naxa capacity alongside current DoED capacity instead of silently overwriting historical provenance.
+- Kept unaudited issuer quarterlies explicitly labelled and did not infer audited use of proceeds.
+
+---
+
+## 2026-07-13 — Parallel Dashboard Priority Sprint, Wave 4
+
+**Agent:** Codex with three parallel sub-agents
+**Session type:** Capacity-authority and project-identity reconciliation
+
+**Pages touched:**
+- No wiki content pages were changed. This pass updated governed reconciliation ledgers, pipeline documentation, tests and generated dashboard/map outputs.
+
+**Data and pipeline changes:**
+- Added 60 `retain_legacy_below_materiality` capacity decisions for exact, single-record matches below the 10 MW publication threshold; these are reviewed without emitting dual-value map fields.
+- Added six `publish_dual_value` decisions above 10 MW where a current DoED record was unambiguous, while preserving legacy Naxa capacity provenance.
+- Approved four evidence-backed DoED identity aliases, raising local hydropower identity coverage to 545 of 572 records (95.3%).
+- Updated dashboard accounting so both capacity decision types leave the unresolved queue without conflating review completion with public dual-value publication.
+
+**Validation result:** DoED overlay and missing-operating builds, tributary-map build, `make wiki-index` (401 pages), dashboard build/check, `python scripts/validate_repo.py`, `make test` (85 tests), the strict 50-case search benchmark, 27 targeted reconciliation tests plus four subtests, and `git diff --check` passed. The dashboard reports 47 identity-review rows, 16 separately classified missing-operating rows, 29 unresolved capacity conflicts and one active research flag (193 total queue records).
+
+**Flags raised:** None. Ambiguous multi-record, duplicate-project and false nearest-neighbour cases remain unresolved rather than being forced into matches.
+
+**Decisions made:**
+- User explicitly continued the parallel marathon sprint and the prior waiver of the normal five-page batch limit.
+- Kept 27 low-difference capacity cases deferred where identity, category or lifecycle records collide; kept two greater-than-10 MW cases deferred because they point to distinct or duplicate local projects.
+- Rejected nearest-neighbour collapses involving Upper Marsyangdi 1/A, Budhi Gandaki Ka/Kha, Tamor/Tamor-5 and Tallo Indrawati/Indrawati-III.
+
+---
+
+## 2026-07-13 — Parallel Dashboard Priority Sprint, Wave 5
+
+**Agent:** Codex with three parallel sub-agents
+**Session type:** Residual capacity classification and DoED suggestion disposition
+
+**Pages touched:**
+- No wiki content pages were changed. This pass updated governed decision ledgers, reconciliation pipelines, documentation, tests and generated outputs.
+
+**Data and pipeline changes:**
+- Reviewed 19 of the 29 residual capacity conflicts: one material 30→40 MW Ikhuwa decision publishes both values, while 18 lower-difference or benchmark-collision cases are recorded without unnecessary dual-value fields.
+- Added `data/doed_crosswalk_dispositions.csv` and keyed reviewed rejections by official project, regulatory category, record number and the specific suggested local project.
+- Classified 31 high-confidence false nearest-neighbour suggestions as distinct projects. The underlying official records remain in the raw priority review artifact and can re-enter review if the suggested local candidate changes.
+- Reviewed all 47 actionable identity candidates and approved no new aliases because none met the high-confidence identity threshold.
+
+**Validation result:** DoED overlay and missing-operating builds, tributary-map build, `make wiki-index` (401 pages), dashboard build/check, `python scripts/validate_repo.py`, `make test` (85 tests), the strict 50-case search benchmark, 29 targeted reconciliation tests plus 35 subtests, and `git diff --check` passed. The dashboard reports 10 capacity conflicts, 16 identity-review rows, 16 separately classified missing-operating rows and one active research flag (143 total queue records).
+
+**Flags raised:** None. Ten capacity conflicts and 16 identity suggestions remain actionable because the available evidence does not justify a resolution.
+
+**Decisions made:**
+- Preserved all 63 unmatched official priority records in the raw review artifact: 31 reviewed rejections and 32 unreviewed records, including 16 missing-operating records tracked in their own coverage queue.
+- Did not treat review rejection as an identity alias, map-status change or deletion of an official record.
+- Retained distinct numbered, directional and promoter-separated projects even when fuzzy name or geographic scores were high.
+
+---
+
+## 2026-07-19 — V1 trust-repair pass
+
+**Agent:** Codex with delegated read-only audits
+**Session type:** standalone V1 Priority 0 evidence repair
+
+**Pages touched:**
+- `claim-transmission-immediate-blocker`: retired the unsupported national daily curtailment estimate, removed stale corridor counts and bounded the constraint ranking.
+- `hetauda-dhalkebar-inaruwa-backbone`: separated the July 2025 NEA project snapshot from July 2026 construction notices; current commissioning remains unverified.
+- `intervention-transmission-completion`: converted advocacy and production notes into an evidence-led Decision Dossier with facts, unknowns, comparison limits, options and a labelled assessment.
+- `for-journalists`: replaced stale verification prompts and corrected the evidence-link promise.
+- `nea-hddi-construction-notices-july-2026`: added a primary-source-bounded NEA notice record.
+- `world-bank-bharatpur-bardaghat-drs-2023`: added the official mediated-settlement comparison and explicit transfer limitations.
+
+**Pipeline changes:**
+- Added `data/retired_claims.json` and `scripts/check_retired_claims.py`; `make validate` now scans public pages for retired figures, stale Hetauda counts and production residue.
+
+**Validation result:** Pending metadata regeneration and phase checkpoint.
+
+**Flags raised:**
+- Current Hetauda–Dhalkebar completion, energisation, remaining works and transfer capacity remain unverified in the checked public primary-source corpus.
+
+**Decisions made:**
+- User explicitly authorized the V1 scope, broader page batch and transformation of interventions into Decision Dossiers.
+- The transmission constraint remains `medium-high`; its wording no longer asserts a permanently ranked “#1” bottleneck.
+
+---
+
+## 2026-07-19 — V1 Decision-Dossier and Claim-Confidence Pass
+
+**Agent:** Codex delegated editorial pass
+**Session type:** standalone V1 evidence-bounded intervention and monitoring cleanup
+
+**Pages touched:**
+- `intervention-electric-cooking-transition`: replaced a programme prescription and national scenarios with a Decision Dossier covering baseline research, bounded pilot and scale-up options.
+- `intervention-nea-structural-separation`: separated established institutional facts from dispatch-discrimination, penalty and reform-benefit unknowns; retained institutional separation as an option rather than a settled remedy.
+- `intervention-q-design-climate-adjustment`: removed the unsupported published-guideline claim, universal decrement proposal, research-agent residue and unsourced cost/compliance claims; added disclosure, pilot, phased and current-rule options.
+- `intervention-sebon-data-transparency`: bounded the evidence to the documented four-issuer cohort, removed unsupported foreign comparisons and market-conduct assertions, and compared minimum-annex, reconciliation and fuller structured-filing options.
+- `claim-domestic-led-strategy`, `claim-governance-binding`, `claim-solar-terai-only-short-cycle-build`, `claim-climate-harder-not-easier`: reconciled canonical confidence records, added freshness/maturity/caveat metadata and removed the stale climate-confidence note. The solar claim no longer asserts that it is Nepal's only large short-cycle option.
+- `unresolved-questions`: changed corridor status from filled to partially filled and replaced the completed Upper Tamakoshi filing-extraction task with the actual unresolved delivery-status evidence.
+- `FLAGGED_FOR_REVIEW`: removed the stale statement that the separately resolved Rolwaling contradiction remained open.
+- `ONTOLOGY`: aligned governance and solar formulations and confidence with their claim pages.
+
+**Validation result:** `make wiki-index` completed with 416 pages; `check_source_used_by.py`, `check_retired_claims.py`, `git diff --check`, and a targeted retired-phrase/production-residue scan of all touched public pages passed. Repository-wide validation then stopped on the stale page count in `wiki/index.md` (401 declared versus 416 present), outside this editorial batch.
+
+**Flags raised:**
+- The official Open Access Directive 2082 text and implementing manuals are not archived in the current corpus.
+- No comparable programme or regulatory case is yet sourced for electric cooking, power-system role separation, hydropower study requirements or securities disclosure; the dossiers therefore expose transfer limitations instead of importing unsupported precedents.
+
+**Decisions made:**
+- User authorized a broader V1 batch and required the four intervention slugs to remain stable while their public form changes to evidence-led Decision Dossiers.
+- Every dossier is publicly labelled `working-page`; no page was promoted to Verified Core without primary evidence.
+
+---
+
+## 2026-07-19 — Barahi and AD-Penalty Contradiction Repair
+
+**Agent:** Codex delegated editorial correction
+**Session type:** bounded public evidence repair
+
+**Pages touched:**
+- `nea-triple-authority`: recast the triple-authority argument as a structural conflict risk, removed unsupported claims of audited discrimination and legal certainty, and linked the evidence-led structural-separation Decision Dossier.
+- `barahi-hydropower`: downgraded the page from an audited case study to a research lead and made the missing company filing, PPA, regulatory text and adjudication record explicit.
+- `ad-penalties`: retained the secondary standard-contract formula as reported analysis, removed the unsupported 16% revenue outcome and confirmed-case framing, and separated contractual exposure from evidence of enforcement.
+- `sector-financial-analysis-triple-authority-2026`: relabelled the source as a provenance-incomplete local research compilation and removed unsupported issuer inventory, market figures and named-project findings.
+
+**Validation result:** `make wiki-index` regenerated metadata, backlink, lexical-search, fact, claim-governance and vector indexes for 418 pages. `make validate`, the retired-claim scan, the Barahi contradiction-path scan and `git diff --check` passed. The full 81-test target completed 79 tests but errored in two DoED HTML-table parser tests because the available shared Python environment lacks the declared `lxml` dependency; the remaining 76-test suite passed when that dependency-bound module was excluded.
+
+**Flags raised:**
+- No primary Barahi audited filing, signed PPA, ERC decision, court record or project-level dispatch and penalty ledger is archived in the current corpus.
+- No representative signed-PPA corpus supports a universal clause interpretation, and no public evidence supports a sector-wide penalty share.
+
+**Decisions made:**
+- Preserved the governance hypothesis and response options while treating them as analysis rather than proof of misconduct or a settled legal outcome.
+- Kept all four pages at `working-page` maturity and directed the policy discussion to the existing evidence-led Decision Dossier.
+
+---
+
+## 2026-07-19 — Public Release Content Cleanup
+
+**Agent:** Codex
+**Session type:** bounded governed cleanup of public roadmap, source provenance and entity media references
+
+**Pages touched:**
+- `project-roadmap`: replaced the internal agent-session checklist with a concise public coverage roadmap that separates released V1 scope from future evidence work.
+- `adb-hydropower-growth-nepal`: removed a private local extraction path, normalized source-page headings and retained neutral public provenance, relevance and use limitations. The source has one exact page backlink, from `buildability`; Used By remains computed from the backlink index rather than maintained in Markdown.
+- `uttarganga-storage`: removed missing image metadata, broken inline figures and the local raw-PDF link; retained both source-page links and disclosed that project-specific annual-book visuals are not bundled in the public release.
+
+**Validation result:** `make wiki-index` completed with 418 pages, 2,514 references and 666 facts. `python scripts/validate_repo.py`, `python scripts/check_source_used_by.py`, `python scripts/check_retired_claims.py`, `git diff --check`, the targeted private/local-residue scan and `make test` passed (81 Python tests plus the Node structured-search intent suite). Repository validation retained warning-only template gaps on unrelated V1 pages; none of the three pages in this cleanup appears in that warning list.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Kept the roadmap within the V1 electricity-system scope and described broader whole-energy branches as future work requiring a defined source base and public purpose.
+- Did not add replacement images or infer source content that is not represented in the public evidence record.
+
+---
+
+## 2026-07-19 — V1 Template-Alignment Pass
+
+**Agent:** Codex bounded wiki-editor session
+**Session type:** governed template alignment
+
+**Pages touched:**
+- `wiki-page-maturity`: added the canonical Summary, Simple Explanation and Common Misunderstandings sections using the page's existing maturity definitions and caveat.
+- `data-electricity-system-evidence-gaps`: added the canonical Summary, What This Shows, Coverage / Method, Caveats and Linked Data structure using the existing register description and CSV fields.
+- `data-electricity-system-indicators`: added the canonical Summary, What This Shows, Coverage / Method, Caveats, Linked Data and Sources structure using the existing register description, branch coverage and source list.
+- `nepal-ndc-3-2025`: added Summary and aligned the existing source content under Key Findings, Limitations and Relevance; no manual Used By section was added.
+
+**Validation result:** `make wiki-index` rebuilt metadata for 418 pages, 666 facts and 16 governed claims. `make validate` passed with no required-section warnings; the no-manual-Used-By check passed for all 78 source pages, all three retired-claim rules cleared and `git diff --check` passed. `make test` ran 81 Python tests: 79 passed and two DoED HTML-parser tests errored because the available shared Python environment lacks the declared `lxml` dependency; the Node search-intent test did not run after that Make target stopped.
+
+**Flags raised:**
+- None. The two test errors are an environment dependency issue and do not change wiki evidence or claims.
+
+**Decisions made:**
+- Reused only facts, caveats, links and structured-field descriptions already present on the four pages or their linked local CSVs; no confidence, ontology or source-scope changes were made.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

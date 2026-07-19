@@ -1,148 +1,137 @@
 ---
-title: Start Here
+title: Nepal Energy Wiki
 category: syntheses
 type: synthesis
+created: 2026-04-14
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
+sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
 tags: [overview, guide, public, navigation]
-excerpt: The public entry point to the Nepal Energy Wiki — the argument, the evidence trail, and the fastest paths to what you need.
+excerpt: The editorial front page for a source-linked guide to Nepal's electricity system, its projects, evidence, and unresolved questions.
+caveat: This page is a navigation synthesis; dated operating facts and official targets are separated on the linked State of the System page.
+maturity: verified-core
+page_quality: flagship
 ---
 
-# Start Here
+# Nepal Energy Wiki
 
-Nepal exports electricity and imports electricity — at the same time, every year.
+This is a source-linked guide to Nepal's electricity system: the projects being built, the rivers that shape them, the grid that has to deliver them, the markets that value them, and the institutions that govern them.
 
-In monsoon, rivers flood and hydro plants produce more than the country can absorb. In winter, those same rivers run low, the plants underperform, and Nepal imports hundreds of megawatts daily from India at prices three to four times what it earned on its summer exports. The country has more electricity than it can sell *and* less than it needs — simultaneously, structurally, every single year.
+Start with [[state-of-the-system]] for the neutral, dated public baseline. [[master-thesis]] is a separate and visibly editorial interpretation of that evidence.
 
-That is not a shortage problem. It is a timing problem.
+The wiki separates three things that are often mixed together in energy discussion:
 
-> **Nepal is not energy-poor. It is dispatch-poor.**
+- **Records** describe projects, places, organisations, and datasets.
+- **Analysis** explains the system-level mechanisms and makes bounded arguments.
+- **Evidence notes** show where a number came from, what it does not establish, and what remains unknown.
 
-This wiki is the evidence trail behind that argument: 388 pages of claim pages, source citations, data tables, project records, and intervention proposals that try to answer a single question — why does a country with perhaps the most concentrated hydropower endowment on earth still pay a winter scarcity tax, and what would it take to stop?
+Use **Find** to ask a question or locate a page. Use the map to see how infrastructure and river geography fit together. Use the links on every page to move from a claim to its evidence.
 
----
+## The system at a glance
 
-## The central argument
+The V1 guide has an explicit flagship spine:
 
-The master thesis, in full: **Nepal is not failing because it lacks hydropower potential. It is failing to convert hydrological advantage — and now cheap solar complementarity — into firm, deliverable, resilient, financeable, politically executable power.**
+[[state-of-the-system]] · [[seasonal-mismatch]] · [[hydropower-system]] · [[transmission-and-cross-border-trade]] · [[distribution-and-reliability]] · [[solar-system]] · [[storage-and-flexibility]] · [[demand-and-electrification]] · [[institutions-finance-and-project-delivery]] · [[environmental-and-social-impacts]] · [[climate-resilience-and-decarbonization]]
 
-The failure is not one bottleneck. It is a stack:
+### Seasonal supply
 
-1. 75% of river water arrives in four months. The fleet is >90% run-of-river hydro, which means generation follows the monsoon, not the calendar of human need. See [[seasonal-mismatch]].
-2. Nepal has almost no seasonal storage — roughly 5 m³ of water per person, against India's ~180 and Norway's ~15,100. The country cannot hold its monsoon water and release it in winter. See [[storage-deficit]].
-3. Generation has been built five to ten times faster than transmission. During monsoon peaks, 700–800 MW spills daily because the grid has no room to carry it. See [[stranded-generation]] and [[claim-transmission-immediate-blocker]].
-4. When Nepal does export, it sells cheap monsoon surplus and buys expensive winter imports. Value is destroyed by timing. See [[seasonal-arbitrage-trap]].
-5. Institutional fragmentation — NEA as operator, regulator, and system manager simultaneously — means the signals that should drive investment to the right places are blurred. See [[nea-triple-authority]] and [[claim-governance-binding]].
+Nepal's hydropower fleet follows a strongly seasonal river system. The same monsoon that creates abundant generation also creates the need for transmission capacity, market access, and flexible demand. In the dry season, the system faces the opposite problem. [[seasonal-mismatch]] explains the physical pattern; [[run-of-river-hydropower]] explains why the fleet follows it.
 
-The good news is that solar has changed the strategic geometry. Nepal's dry-season days are clear and cold; its winter skies are the near-mirror image of its winter rivers. Utility-scale Terai solar is now cheaper than new small run-of-river hydro and can cover the daytime winter deficit while reservoir projects work through their decade-long build cycles. See [[solar-hydro-complementarity]] and [[claim-solar-cheaper-than-small-hydro]].
+### Delivery and trade
 
-For the full argument: [[master-thesis]] → [[bottleneck-hierarchy]] → [[twenty-year-strategy]].
+Generation only has value when it can reach a load or a market. Transmission corridors, cross-border gateways, and the rules governing electricity trade therefore sit between installed capacity and realised value. Start with [[claim-transmission-immediate-blocker]], [[stranded-generation]], and [[india-energy-relationship]].
 
----
+### Firmness and storage
 
-## Who are you?
+Installed megawatts are not the same as dependable power. Seasonal storage, peaking capability, hydrology, and design assumptions determine what the system can deliver when demand is high. The key concepts are [[firm-power]], [[storage-deficit]], and [[claim-mw-not-equal-value]].
 
-**The policymaker or analyst on a deadline**
+### Portfolio choices
 
-Read [[master-thesis]], [[claim-transmission-immediate-blocker]], and [[intervention-transmission-completion]] in sequence. That is the diagnosis, the binding constraint today, and the highest-leverage near-term move — about fifteen minutes of reading. Then add [[bottleneck-hierarchy]] for the ranked constraint list and [[for-policymakers]] for curated reading paths at one-hour and half-day depths.
+Solar changes the portfolio because its dry-season resource can complement weak hydro output, but solar does not by itself solve evening peaks, transmission constraints, or seasonal storage. See [[solar-hydro-complementarity]], [[solar-role-in-winter-deficit]], and [[claim-solar-cheaper-than-small-hydro]].
 
-**The journalist tracing a number**
+### Institutions and finance
 
-Most Nepal energy headlines reduce to about a dozen figures — installed capacity, export revenue, spill volumes, the 83,000 MW potential claim. [[for-journalists]] has a three-click verification table for all of them, with the source page and the caveat behind each one. Start there.
+Projects are also shaped by offtake rules, disclosure quality, regulatory authority, financing, and buildability. [[claim-governance-binding]], [[nea-triple-authority]], [[buildability]], and [[upper-tamakoshi]] provide entry points into that layer.
 
-**The researcher or student building up from first principles**
+## Questions this wiki helps answer
 
-Follow the physical system chain: [[seasonal-mismatch]] → [[run-of-river-hydropower]] → [[storage-deficit]] → [[firm-power]]. That sequence explains why installed capacity is not the same as reliable power, and why "build more dams" is an incomplete answer. Then add [[solar-hydro-complementarity]] for how the portfolio picture has changed, and [[india-energy-relationship]] for why export strategy is more constrained than the headline MW numbers suggest.
+- **Why can Nepal export electricity in one season and import it in another?** See [[seasonal-arbitrage-trap]] and [[data-trade-time-series]].
+- **Which projects are operating, being built, delayed, or still only proposed?** Start with a project name in Find; project records and map features expose their status basis.
+- **Where are the immediate delivery constraints?** Follow [[claim-transmission-immediate-blocker]] into the transmission and corridor pages.
+- **What does the India relationship make possible or constrain?** Read [[india-energy-relationship]] and [[hydro-geopolitics]].
+- **Could storage, solar, or domestic demand improve dry-season value?** Read [[storage-deficit]], [[solar-hydro-complementarity]], and [[energy-substitution-pathway]].
+- **Which arguments are strong, and which remain open?** Use the claim pages and [[unresolved-questions]] to see confidence, boundaries, and evidence gaps.
 
-**The investor or financier**
+## Read the editorial argument
 
-The critical distinction this wiki enforces is between installed MW, annual energy (GWh), and firm power — three numbers that are routinely conflated in project pitches and policy documents. See [[claim-mw-not-equal-value]]. For the financial stress case, [[upper-tamakoshi]] is the reference project: 456 MW, Nepal's largest private hydro, in debt restructuring due to the structural mismatch between fixed PPA tariffs and floating construction debt. For the governance layer, [[claim-governance-binding]] and [[intervention-sebon-data-transparency]].
+For the full system-level case, follow:
 
-**Someone who just wants to understand Nepal's energy story**
+[[state-of-the-system]] → [[master-thesis]] → [[bottleneck-hierarchy]] → [[twenty-year-strategy]]
 
-The paradox at the top of this page is the whole story in one sentence. To understand it properly, read [[seasonal-mismatch]] first — it is the structural pattern every other claim is downstream of. Then [[firm-power]] to understand why MW counts overstate what the system can actually deliver. Then [[master-thesis]] for the full argument. That is about thirty minutes of reading, and most of it will read like a mystery with a surprising answer.
+That sequence moves from factual baseline to editorial diagnosis, ranked constraints and strategy. It is a reading path, not a prerequisite: you can enter through a project, a basin, a data page, or a source note instead.
 
----
+## Decision Dossiers
 
-## The system right now
+Policy options are not presented as settled fact. The five [[decision-dossiers|Decision Dossiers]] separate established evidence, unknowns, comparable cases, trade-offs and a short visibly labelled TransparentGov assessment.
 
-A few numbers that anchor the wiki's claims — each is a puzzle, not just a data point.
+[[intervention-transmission-completion]] · [[intervention-nea-structural-separation]] · [[intervention-sebon-data-transparency]] · [[intervention-electric-cooking-transition]] · [[intervention-q-design-climate-adjustment]]
 
-**3,591 MW installed. Still importing 400–500 MW daily in winter.** Nepal crossed from chronic shortage to seasonal surplus in 2023 — a genuine achievement after years of 14-hour daily load shedding. But the surplus is wet-season only. The winter deficit persists because >90% of installed capacity is run-of-river, and run-of-river plants follow rivers. The transition from shortage to "fragile seasonal surplus" is not a finished reliability story. See [[nepal-energy-profile]].
+## Explore by subject
 
-**97.6% grid coverage. 7.23% of final energy is electricity.** Nepal has nearly universal grid reach. But biomass and imported petroleum still dominate total energy consumption. The grid touches almost every household; most of those households still cook with wood or gas. Converting that reach into real consumption is the domestic demand argument. See [[energy-substitution-pathway]] and [[intervention-electric-cooking-transition]].
+### Physical system
 
-**941 MW of project-specific India export approval. ~700–800 MW spilling daily in peak monsoon.** Generation capacity and export capacity have grown at completely different rates. The result is that new hydropower plants are approved, built, and then curtailed in their most productive season because the grid and trade architecture cannot absorb their output. See [[stranded-generation]].
+[[seasonal-mismatch]] · [[run-of-river-hydropower]] · [[firm-power]] · [[storage-deficit]] · [[sediment-as-design-constraint]]
 
-**5 m³ per person of seasonal water storage.** Almost nothing. Kulekhani — Nepal's only meaningful reservoir hydropower — is 106 MW of installed capacity, has lost roughly 24% of its gross storage volume to sediment since commissioning, and stores water for weeks not seasons. The country has the rivers, the head, and the demand. It does not have the reservoirs. See [[storage-deficit]] and [[data-storage-comparison]].
+### Projects and places
 
----
+[[upper-karnali]] · [[upper-tamakoshi]] · [[budhigandaki]] · [[dudhkoshi-storage]] · [[kulekhani-cascade]] · [[koshi-basin]]
 
-## Five claims the evidence most strongly supports
+### Grid and trade
 
-These are the wiki's spine — the arguments that survive the hardest scrutiny and that the data pages most directly back.
+[[claim-transmission-immediate-blocker]] · [[stranded-generation]] · [[india-energy-relationship]] · [[nepal-power-trade-schemes]] · [[data-layer-transmission-corridors-curated]]
 
-- [[claim-timing-not-volume]] — Nepal does not have a water shortage. It has a timing problem. Annual volume is not the binding constraint; the seasonal shape of the hydrograph is.
-- [[claim-transmission-immediate-blocker]] — Transmission and delivery are the #1 *immediate* monetization bottleneck. The 400 kV east-west backbone is still incomplete, and generation has raced ahead of grid capacity.
-- [[claim-storage-physical-fix]] — Storage is the clearest physical answer to seasonal mismatch. More run-of-river hydro amplifies both the monsoon surplus and the winter deficit.
-- [[claim-mw-not-equal-value]] — Installed megawatts, annual energy, and firm power are routinely conflated. The number that matters for reliability is the last one, and it is much smaller than the headline figure.
-- [[claim-solar-cheaper-than-small-hydro]] — New utility solar is now below small run-of-river hydro on blended tariff, and its seasonal profile actively helps the dry-season problem.
+### Solar and domestic demand
 
----
+[[solar-hydro-complementarity]] · [[solar-role-in-winter-deficit]] · [[energy-substitution-pathway]] · [[intervention-electric-cooking-transition]]
 
-## Five interventions — where the argument becomes action
+### Governance and finance
 
-The wiki's intervention pages translate the failure-stack diagnosis into specific, institutionally-grounded reforms. Each has a theory of change, a current-status assessment, a political feasibility analysis, and an honest list of what is still unresolved.
+[[claim-governance-binding]] · [[nea-triple-authority]] · [[claim-mw-not-equal-value]] · [[intervention-nea-structural-separation]] · [[intervention-sebon-data-transparency]]
 
-- [[intervention-transmission-completion]] — Complete the Hetauda–Dhalkebar 400 kV corridor and the Butwal–Gorakhpur cross-border line. The towers blocking the eastern backbone are not an engineering problem; they are a community-resistance and political problem with a known solution path.
-- [[intervention-nea-structural-separation]] — Carve NLDC into an independent system operator, transfer penalty authority to ERC, and create open access. NEA cannot be operator, planner, and regulator simultaneously without systemic conflicts of interest.
-- [[intervention-electric-cooking-transition]] — Only 0.5% of Nepali households use electricity for cooking. Shifting even 20–30% would create more new electric demand than any plausible export contract. The economics favour domestic absorption, but only if tariff design, appliance financing, and LPG policy move together.
-- [[intervention-sebon-data-transparency]] — Mandate machine-readable financial disclosures for hydropower IPOs. The market cannot price hydro equity accurately when project-level cashflows are not public.
-- [[intervention-q-design-climate-adjustment]] — Mandate climate-adjusted hydrology in all new feasibility studies. Projects being permitted today will operate in the 2040s and 2050s; their design discharge assumptions should not be based on a pre-climate-change baseline.
+### Data and evidence
 
----
+[[nepal-energy-profile]] · [[data-map-inventory]] · [[data-trade-time-series]] · [[unresolved-questions]]
 
-## How the wiki is organized
+## How to read the evidence
 
-Every page belongs to one of six categories, and the categories enforce a strict separation of what claims can be made where.
+Source pages record what a document provides and how reliable it is. Data pages describe datasets and their limitations. Entity pages preserve project and actor records, including concise registry entries where narrative material is limited. Claim pages state bounded arguments with confidence and unresolved issues. Synthesis pages connect those pieces into a system-level interpretation.
 
-**Source pages** describe what a document says. They do not interpret or argue — they summarize and record. A source page for an NEA annual report lists what the report contains; it does not say what it means.
+If a page says that a project is mapped, that does not mean its status is verified. If a source page is linked, that does not mean the source proves every sentence around it. The evidence trail is part of the answer.
 
-**Data pages** describe datasets, tables, map layers, and figures. They record the numbers and the caveats — which source they come from, what cut-off date applies, where definitions conflict.
+Every public page carries one of three maturity labels. **Verified Core** is a flagship page with dated review and source-bounded claims. **Working Page** is useful analysis with material gaps or ongoing reconciliation. **Registry Record** is a concise structured entry whose existence or basic attributes are recorded but whose narrative depth may be limited. Maturity describes evidence and editorial readiness, not whether a topic is important. See [[wiki-page-maturity]].
 
-**Entity pages** cover projects, basins, institutions, and country-level actors. They preserve capacity, status, location, and map coverage. The largest category in the wiki (187 pages) because it is registry-backed: even projects without enough public material for a full narrative article get a stub record.
+## What the wiki does not know
 
-**Concept pages** explain mechanisms — what run-of-river hydro actually is, what firm power means, why sediment is a design constraint rather than a maintenance problem. They build the vocabulary the claim pages use.
+Important gaps remain. Plant-level curtailment and dispatch records are not consolidated in the public corpus. Project progress can differ across registry, company, lender, and media records. Some design, financing, environmental, and trade claims require a dated primary document before they can be stated more strongly.
 
-**Claim pages** make bounded arguments backed by source and data pages. Every claim has a confidence level, boundary conditions, and unresolved issues. Claims are the only place the wiki argues. There are 16 of them.
-
-**Synthesis pages** — including this one — are the only place "so what" is allowed. They are explicitly interpretive and should be read as analysis, not as source material.
-
-If a claim in the wiki cannot be traced to a source page, that is a gap, not a feature. The [[unresolved-questions]] page tracks exactly those gaps — areas where the evidence is thin, definitions conflict, or primary data is locked behind institutional access.
-
----
-
-## What the wiki doesn't know
-
-Intellectual honesty matters here. Several of the wiki's most important arguments depend on data that is not fully public.
-
-Plant-level curtailment totals — the most direct evidence for [[claim-transmission-immediate-blocker]] — are not published by NEA's Load Dispatch Center. The 700–800 MW spill figure is a synthesis from media reporting and IPP disclosures, not a primary source. Month-by-month load curves are partially filled. Project-level sediment assessments are scattered across individual EIAs with no public consolidation.
-
-The [[unresolved-questions]] page maintains a live table of these gaps, distinguishing open items from filled ones as new data arrives. If a number you need to verify is not traceable through the wiki to a primary source, that absence is itself information.
-
----
+[[unresolved-questions]] maintains the live list of those gaps. A missing number is not silently filled with an estimate; it is marked as an evidence problem to resolve.
 
 ## The map
 
-The wiki includes an interactive map. The default lens — **Overview** — shows basin geography, major rivers, operating hydropower, storage candidates, transmission corridors, cross-border gateways, and solar context in a single view. It is intentionally broad.
+The interactive map is the spatial companion to the wiki. The **Overview** lens provides national context; other lenses focus on rivers, geopolitics, the power system, or solar. [[data-map-layer-labels]] explains what each layer represents and what it should not be used to infer.
 
-Layer-specific guides: [[data-map-layer-labels]] for what each layer means, [[data-layer-hydropower-operating]] to separate operating projects from the licensing pipeline, [[data-layer-transmission-connected-traced-network]] for the transmission corridor layer, [[data-layer-storage-shortlist]] for storage candidates with dry-season system value.
+Open a project or place from the map to load its page in the reader. Open a page from Find to see the map context that has a documented spatial binding. The two surfaces are deliberately reversible.
 
----
+## Where to begin
 
-## Good starting chains
+- **Five-minute factual orientation:** [[state-of-the-system]] → [[seasonal-mismatch]] → [[distribution-and-reliability]].
+- **Editorial interpretation:** [[master-thesis]] → [[bottleneck-hierarchy]] → [[twenty-year-strategy]].
+- **Project investigation:** search a project name, then inspect its record, map feature, blockers, and linked sources.
+- **Evidence check:** search for a claim or number, open the source notes, and read the caveats before repeating it.
+- **Spatial exploration:** choose a map lens, then use the feature cards to move back into the wiki.
 
-- **The full argument, fast:** [[master-thesis]] → [[bottleneck-hierarchy]] → [[twenty-year-strategy]]
-- **The physical system:** [[seasonal-mismatch]] → [[run-of-river-hydropower]] → [[storage-deficit]] → [[firm-power]]
-- **Delivery and trade:** [[stranded-generation]] → [[claim-transmission-immediate-blocker]] → [[india-energy-relationship]]
-- **The solar correction:** [[solar-hydro-complementarity]] → [[solar-role-in-winter-deficit]] → [[claim-solar-cheaper-than-small-hydro]]
-- **The data spine:** [[nepal-energy-profile]] → [[data-final-energy-mix]] → [[data-trade-time-series]] → [[data-domestic-demand]]
-- **The intervention layer:** [[intervention-transmission-completion]] → [[intervention-nea-structural-separation]] → [[intervention-electric-cooking-transition]]
+## Related
+
+[[master-thesis]] · [[bottleneck-hierarchy]] · [[twenty-year-strategy]] · [[domestic-led-hydro-strategy]] · [[india-energy-relationship]]

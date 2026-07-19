@@ -2,15 +2,24 @@
 title: Master Thesis
 type: synthesis
 created: 2026-04-14
-updated: 2026-04-24
-sources: []
+updated: 2026-07-19
+reviewed: 2026-07-19
+review_due: 2026-10-19
+as_of: 2026-07-19
+sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, wb-water-sector-diagnostic, nepal-ndc-3-2025]
 tags: [thesis, synthesis, core-argument]
-page_quality: analysis
+excerpt: TransparentGov's editorial synthesis of the constraints between Nepal's renewable resource base and firm, deliverable electricity value.
+caveat: This is an editorial interpretation, not a neutral status report; linked claims retain their own confidence levels and evidence limits.
+editorial_position: TransparentGov assessment
+maturity: verified-core
+page_quality: flagship
 ---
 
 # Master Thesis
 
-The central argument of the Nepal Energy & Hydropower knowledge hub, supported by the source notes, data pages, and synthesis pages linked below.
+> **Editorial synthesis — TransparentGov assessment.** This page makes an argument from the linked evidence. It is not the neutral system baseline. Read [[state-of-the-system]] first for dated facts, official targets and unresolved data gaps.
+
+The central argument of the Nepal Electricity System Wiki, supported—and bounded—by the source notes, data pages and claim pages linked below.
 
 ## The Thesis
 
@@ -39,9 +48,9 @@ The conversion failure is not one bottleneck. It is a stack:
 - It is not "exports are bad" — exports are necessary but should not define the master strategy
 - It is not "India is the enemy" — India is the decisive market interface, and Nepal must work through that structure
 
-## The Strategic Prescription
+## Editorial implications
 
-**[[domestic-led-hydro-strategy]]** plus [[solar-in-the-master-narrative]] — build for domestic dry-season reliability and productive demand first, use exports to monetize surplus. Grounded in storage, solar, BESS, transmission, demand shaping, and institutional repair. Not in headline MW worship.
+The linked [[domestic-led-hydro-strategy]] and [[solar-in-the-master-narrative]] argue for prioritising domestic dry-season reliability and productive demand while using trade to monetise surplus. That is an editorial policy position. Its component choices and trade-offs belong in the evidence-led Decision Dossiers, not in the factual baseline.
 
 ## Supporting Evidence
 
@@ -53,15 +62,15 @@ The conversion failure is not one bottleneck. It is a stack:
 - [[solar-role-in-winter-deficit]] — why solar is now a core winter-deficit lever
 - [[claim-solar-cheaper-than-small-hydro]] — the new marginal-cost benchmark
 
-## Intervention Layer
+## Decision Dossiers
 
-The wiki now includes a fifth category — **interventions** — representing the actionable prescription layer. These five pages translate the master thesis diagnosis into specific, institutionally-grounded reforms, each with a theory of change, current status assessment, political feasibility analysis, and honest research gaps. They are written to be useful to both a researcher and a policymaker.
+The repository retains the `interventions` content category for compatibility, but the public pages are **Decision Dossiers / Policy Options**. Each dossier separates the decision question, established facts, unknowns, comparable cases, options and trade-offs, and a short labelled TransparentGov assessment.
 
-- [[intervention-transmission-completion]] — resolve community resistance on Hetauda–Dhalkebar 400 kV and complete cross-border corridors
-- [[intervention-nea-structural-separation]] — carve NLDC into an ISO, transfer AD penalty authority to ERC, create open access
-- [[intervention-sebon-data-transparency]] — mandate machine-readable financial disclosures and build civic hydro-IPO dataset
-- [[intervention-electric-cooking-transition]] — coordinated demand-creation: appliance financing, tariff redesign, LPG reform
-- [[intervention-q-design-climate-adjustment]] — mandate ICIMOD climate-adjusted hydrology in all new feasibility studies
+- [[intervention-transmission-completion]] — corridor delivery and negotiated settlement options
+- [[intervention-nea-structural-separation]] — system-operation, penalty-authority and open-access options
+- [[intervention-sebon-data-transparency]] — financial-disclosure and civic-data options
+- [[intervention-electric-cooking-transition]] — demand, appliance, tariff and reliability options
+- [[intervention-q-design-climate-adjustment]] — climate-adjusted hydrology and design-review options
 
 ## Public Framing Lines
 

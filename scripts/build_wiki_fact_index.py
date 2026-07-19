@@ -13,6 +13,10 @@ SHARED = ROOT / "wiki" / "explorer" / "shared"
 META = SHARED / "wiki-page-meta.json"
 OUT = SHARED / "wiki-fact-index.json"
 MAPS = ROOT / "data" / "processed" / "maps"
+PROJECT_SPECS = ROOT / "data" / "project_specs.csv"
+PROJECT_EVENTS = ROOT / "data" / "project_events.csv"
+PROJECT_BLOCKERS = ROOT / "data" / "project_blockers.csv"
+CORRIDOR_SPECS = ROOT / "data" / "corridor_specs.csv"
 
 SOURCES = [
     ("hydro", "top_capacity_project_annotations", MAPS / "top_capacity_project_annotations.geojson"),
@@ -43,6 +47,11 @@ RELATED_BY_DOMAIN = {
         "firm-power",
         "seasonal-mismatch",
     ],
+    "transmission": [
+        "claim-transmission-immediate-blocker",
+        "intervention-transmission-completion",
+        "nepal-transmission-landscape-2025",
+    ],
 }
 
 
@@ -65,7 +74,7 @@ def _safe_float(value, default=None):
 
 def status_norm(raw: str) -> str:
     text = str(raw or "").lower().strip()
-    if text in {"operating", "under-construction", "survey", "pre-construction", "stalled", "cancelled", "conceptual", "planned", "unknown"}:
+    if text in {"operating", "under-construction", "partially-operational", "licensed", "survey", "pre-construction", "stalled", "cancelled", "conceptual", "planned", "unknown"}:
         return text
     if any(term in text for term in ["pre-construction", "pre construction"]):
         return "pre-construction"
@@ -80,9 +89,10 @@ def status_norm(raw: str) -> str:
     # Check for operating first (explicit terms)
     if any(term in text for term in ["operation", "operating"]):
         return "operating"
-    # "construction" or "generation" (Generation licence = under construction)
-    if "construction" in text or "generation" in text:
+    if "construction" in text:
         return "under-construction"
+    if "generation" in text or "licence" in text or "license" in text:
+        return "licensed"
     return "unknown"
 
 
@@ -90,6 +100,8 @@ def status_display(value: str) -> str:
     labels = {
         "operating": "Operating",
         "under-construction": "Under construction",
+        "licensed": "Generation licence",
+        "partially-operational": "Partially operational",
         "survey": "Survey",
         "pre-construction": "Pre-construction",
         "stalled": "Stalled",
@@ -102,7 +114,11 @@ def status_display(value: str) -> str:
 
 
 def status_priority(props: dict) -> int:
-    return 2 if props.get("status") else 1 if (props.get("license_type") or props.get("category")) else 0
+    if props.get("status") or props.get("delivery_status"):
+        return 3
+    if props.get("doed_primary_category") or props.get("doed_delivery_status"):
+        return 2
+    return 1 if (props.get("license_type") or props.get("category")) else 0
 
 
 def title_slug_lookup() -> dict[str, str]:
@@ -145,6 +161,144 @@ def load_features(path: Path) -> list[dict]:
     return [feature.get("properties", {}) for feature in data.get("features", [])]
 
 
+def load_csv_rows(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(newline="", encoding="utf-8-sig") as handle:
+        return list(csv.DictReader(handle))
+
+
+def page_titles_by_slug() -> dict[str, str]:
+    meta = json.loads(META.read_text(encoding="utf-8"))
+    return {page["slug"]: page.get("title") or page["slug"] for page in meta.get("pages", [])}
+
+
+def apply_project_specs(facts_by_key: dict[str, dict], titles: dict[str, str]) -> None:
+    """Overlay curated specs while retaining map-derived spatial references."""
+    numeric_fields = {
+        "capacity_mw", "gross_head_m", "dam_height_m", "num_units",
+        "unit_capacity_mw", "annual_design_energy_gwh", "dry_season_energy_gwh",
+        "dry_share_pct", "total_storage_mcm", "effective_storage_mcm",
+        "total_cost_usd_m", "ppa_rate_wet_npr_kwh", "ppa_rate_dry_npr_kwh",
+        "plant_load_factor_pct", "cod_year", "completion_pct",
+    }
+    field_map = {
+        "annual_design_energy_gwh": "annual_energy_gwh",
+        "dry_season_energy_gwh": "dry_energy_gwh",
+    }
+    text_fields = {
+        "river", "source_note", "last_updated", "dam_type", "turbine_type",
+        "project_type", "q_design", "developer", "concession_type",
+        "lead_financier", "debt_equity_ratio",
+    }
+    for row in load_csv_rows(PROJECT_SPECS):
+        slug = (row.get("slug") or "").strip()
+        if not slug or slug not in titles:
+            continue
+        key = next(
+            (key for key, fact in facts_by_key.items() if fact.get("wiki_slug") == slug or fact.get("registry_slug") == slug),
+            norm_name(titles[slug]),
+        )
+        fact = facts_by_key.get(key)
+        if fact is None:
+            fact = {
+                "id": f"project:{slug}", "domain": "project", "facets": ["hydro", "project-monitoring"],
+                "name": titles[slug], "wiki_slug": slug,
+                "feature_ref": {"layer": "project_specs", "id": slug, "match_field": "slug", "match_value": slug},
+                "sources": [],
+            }
+            facts_by_key[key] = fact
+        fact["wiki_slug"] = slug
+        fact["registry_slug"] = slug
+        fact["name"] = fact.get("name") or titles[slug]
+        fact["source_layer"] = fact.get("source_layer") or "project_specs"
+        fact["sources"] = sorted(set(fact.get("sources", [])) | {"project_specs"})
+        for csv_field, raw_value in row.items():
+            value = (raw_value or "").strip()
+            if not value:
+                continue
+            out_field = field_map.get(csv_field, csv_field)
+            if csv_field in numeric_fields:
+                parsed = _safe_float(value)
+                fact[out_field] = parsed if parsed is not None else value
+            elif csv_field in text_fields:
+                fact[out_field] = value
+        fact["status"] = status_norm(row.get("status") or fact.get("status", ""))
+        fact["status_raw"] = row.get("status") or fact.get("status_raw", "")
+        fact["status_display"] = status_display(fact["status"])
+        fact["capacity_mw"] = _safe_float(row.get("capacity_mw"), fact.get("capacity_mw"))
+        fact["installed_mw"] = fact["capacity_mw"]
+
+
+def apply_monitoring_data(facts_by_key: dict[str, dict]) -> None:
+    by_slug = {fact.get("wiki_slug"): fact for fact in facts_by_key.values() if fact.get("wiki_slug")}
+    events: dict[str, list[dict]] = {}
+    for row in load_csv_rows(PROJECT_EVENTS):
+        slug = row["project_slug"].strip()
+        events.setdefault(slug, []).append({
+            "id": row["event_id"], "date": row["event_date"], "type": row["event_type"],
+            "title": row["title"], "status_after": row["status_after"],
+            "description": row["description"], "source_url": row["source_url"],
+            "source_title": row["source_title"], "confidence": row["confidence"],
+            "verified_on": row["verified_on"],
+        })
+    blockers: dict[str, list[dict]] = {}
+    for row in load_csv_rows(PROJECT_BLOCKERS):
+        slug = row["project_slug"].strip()
+        blockers.setdefault(slug, []).append({
+            "id": row["blocker_id"], "category": row["category"], "status": row["status"],
+            "owner": row["owner"], "blocked_milestone": row["blocked_milestone"],
+            "description": row["description"], "source_url": row["source_url"],
+            "source_title": row["source_title"], "confidence": row["confidence"],
+            "last_verified_date": row["last_verified_date"],
+        })
+    for slug in sorted(set(events) | set(blockers)):
+        fact = by_slug.get(slug)
+        if fact is None:
+            continue
+        fact_events = sorted(events.get(slug, []), key=lambda item: item["date"], reverse=True)
+        fact_blockers = sorted(blockers.get(slug, []), key=lambda item: (item["status"] != "active", item["category"]))
+        fact["latest_events"] = fact_events
+        fact["blockers"] = fact_blockers
+        dates = [item["verified_on"] for item in fact_events] + [item["last_verified_date"] for item in fact_blockers]
+        fact["as_of"] = max(dates) if dates else fact.get("last_updated", "")
+        fact["status_dimensions"] = {
+            "delivery": fact.get("status", "unknown"),
+            "finance": "blocked" if any(item["category"] == "finance" and item["status"] == "active" for item in fact_blockers) else "not-recorded",
+            "safeguards": "active-review" if any(item["category"] == "safeguards" and item["status"] == "active" for item in fact_blockers) else "not-recorded",
+        }
+        fact["evidence_urls"] = sorted({item["source_url"] for item in fact_events + fact_blockers if item.get("source_url")})
+
+
+def add_corridor_facts(facts_by_key: dict[str, dict], titles: dict[str, str]) -> None:
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for row in load_csv_rows(CORRIDOR_SPECS):
+        grouped.setdefault(row["slug"].strip(), []).append(row)
+    for slug, rows in grouped.items():
+        if slug not in titles:
+            continue
+        statuses = {row["status"] for row in rows}
+        overall_status = next(iter(statuses)) if len(statuses) == 1 else "partially-operational"
+        segments = [{
+            "id": row["segment_id"], "name": row["segment_name"], "country": row["country"],
+            "voltage_kv": _safe_float(row["voltage_kv"]), "status": row["status"],
+            "status_as_of": row["status_as_of"], "owner": row["owner"],
+            "dependency": row["dependency"], "source_url": row["source_url"],
+            "confidence": row["confidence"],
+        } for row in rows]
+        facts_by_key[f"corridor:{slug}"] = {
+            "id": f"transmission:{slug}", "domain": "transmission", "facets": ["transmission"],
+            "name": titles[slug], "wiki_slug": slug, "status": status_norm(overall_status),
+            "status_raw": overall_status, "status_display": status_display(overall_status),
+            "voltage_kv": max(_safe_float(row["voltage_kv"], 0) for row in rows),
+            "segments": segments, "as_of": max(row["status_as_of"] for row in rows),
+            "source_layer": "corridor_specs", "sources": ["corridor_specs"],
+            "evidence_urls": sorted({row["source_url"] for row in rows}),
+            "feature_ref": {"layer": "corridor_specs", "id": slug, "match_field": "slug", "match_value": slug},
+            "confidence": "high" if all(row["confidence"] == "high" for row in rows) else "medium",
+        }
+
+
 def better_capacity(new: dict, old: dict) -> bool:
     return float(new.get("capacity_mw") or new.get("installed_mw") or 0) > float(old.get("capacity_mw") or old.get("installed_mw") or 0)
 
@@ -172,7 +326,15 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
         capacity = float(capacity) if capacity is not None else None
     except (TypeError, ValueError):
         capacity = None
-    raw_status = props.get("status") or props.get("license_type") or props.get("category") or ""
+    raw_status = (
+        props.get("delivery_status")
+        or props.get("status")
+        or props.get("doed_delivery_status")
+        or props.get("doed_primary_category")
+        or props.get("license_type")
+        or props.get("category")
+        or ""
+    )
     status = status_norm(raw_status)
     key = norm_name(name)
     fact_domain = "hydro" if domain == "storage" else domain
@@ -186,7 +348,9 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
     if layer == "hydropower_project_display_points":
         layer_key = {
             "operating": "hydropower_operating",
-            "under-construction": "hydropower_construction",
+            "under-construction": "hydropower_verified_construction",
+            "licensed": "hydropower_construction",
+            "cancelled": "hydropower_cancelled",
             "survey": "hydropower_survey",
         }.get(status, "hydropower_survey")
     fact_id = f"{domain}:{slugify(name)}"
@@ -209,7 +373,11 @@ def fact_from_props(domain: str, layer: str, props: dict, lookup: dict[str, str]
         "capacity_mwp": _safe_float(props.get("capacity_mwp"), capacity),
         "status": status,
         "status_raw": str(raw_status) if raw_status else "",
-        "status_display": status_display(props.get("status") or status),
+        "status_display": (
+            status_display(props.get("delivery_status") or props.get("status"))
+            if (props.get("delivery_status") or props.get("status"))
+            else ("Operating" if props.get("doed_delivery_status") == "operating" else props.get("doed_status_display") or status_display(status))
+        ),
         "status_priority": status_priority(props),
         "river": props.get("river") or "",
         "basin": props.get("basin") or props.get("river") or "",
@@ -310,6 +478,7 @@ def merge_fact(old: dict, new: dict) -> dict:
 def main() -> None:
     lookup = title_slug_lookup()
     slugs = existing_slugs()
+    titles = page_titles_by_slug()
     solar_specs = load_solar_specs_lookup()  # feature_id -> CSV row
     facts_by_key: dict[str, dict] = {}
     for domain, layer, path in SOURCES:
@@ -333,6 +502,9 @@ def main() -> None:
                 continue
             key = fact.pop("key")
             facts_by_key[key] = merge_fact(facts_by_key[key], fact) if key in facts_by_key else fact
+    apply_project_specs(facts_by_key, titles)
+    add_corridor_facts(facts_by_key, titles)
+    apply_monitoring_data(facts_by_key)
     facts = sorted(
         facts_by_key.values(),
         key=lambda f: (f.get("domain", ""), -(f.get("capacity_mw") or 0), f.get("name", "")),

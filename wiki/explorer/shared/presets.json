@@ -5,14 +5,14 @@
     "overview": {
       "label": "Overview",
       "short": "Overview",
-      "subtitle": "Basins, rivers, operating hydro, grid backbone",
-      "description": "The public starting lens: Nepal's four river basins, major tributaries, operating hydropower plants, construction-stage projects (visible when zoomed in), and the main transmission network in one readable national view.",
+      "subtitle": "Basins, rivers, hydro status, grid backbone",
+      "description": "The public starting lens: Nepal's four river basins, major tributaries, official operating records, separately verified construction projects, and the main transmission network in one readable national view. Generation licences remain one toggle away.",
       "layers_on": [
         "country_outline",
         "basin_polygons",
         "tributaries",
         "hydropower_operating",
-        "hydropower_construction",
+        "hydropower_verified_construction",
         "transmission_traced_network"
       ],
       "bounds": [
@@ -29,8 +29,8 @@
     "tributaries": {
       "label": "Tributaries",
       "short": "Tributaries",
-      "subtitle": "Rivers + downstream + operating / under-construction hydro",
-      "description": "The unified Nepal river view: tributaries, Nepal-origin downstream systems, and the 261 hydropower projects that are operating or licensed to build. The 311 survey-only sites stay one toggle away in the layer panel.",
+      "subtitle": "Rivers + downstream + official hydropower records",
+      "description": "The unified Nepal river view: tributaries, Nepal-origin downstream systems, and hydropower projects with official operating records. Generation licences, verified construction, survey/application/study records, and cancelled records remain distinct toggles in the layer panel.",
       "layers_on": [
         "country_outline",
         "tributaries",
@@ -83,7 +83,7 @@
       "label": "Power system",
       "short": "Power",
       "subtitle": "Grid, gateways, priority projects, storage",
-      "description": "The reader-facing grid view: major transmission network, grid hubs and substations, cross-border gateways and conservative cross-border links, the priority watchlist, storage shortlist, and the operating/build hydropower cloud. QA trace fragments, topology nodes, and the conceptual corridor spine stay available but off by default.",
+      "description": "The reader-facing grid view: major transmission network, grid hubs and substations, cross-border gateways and conservative cross-border links, the priority watchlist, storage shortlist, official operating records, generation licences, and separately verified construction. QA trace fragments, topology nodes, and the conceptual corridor spine stay available but off by default.",
       "layers_on": [
         "country_outline",
         "transmission_traced_network",
@@ -93,7 +93,8 @@
         "priority_watchlist",
         "storage_shortlist",
         "hydropower_operating",
-        "hydropower_construction"
+        "hydropower_construction",
+        "hydropower_verified_construction"
       ],
       "bounds": [
         [

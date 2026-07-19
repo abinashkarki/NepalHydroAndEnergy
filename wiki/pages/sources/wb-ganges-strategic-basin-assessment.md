@@ -34,8 +34,3 @@ The valley-shape paradox (same dam height, 180x less storage) is one of the most
 - **2014 publication.** Pre-dates the 2015 earthquake, post-earthquake hydrological assessments, and the 2021 Melamchi flood. Basin conditions, sedimentation rates, and infrastructure assumptions may have shifted.
 - **Regional focus, not Nepal-specific.** The assessment covers the entire Ganges basin across four countries; Nepal-specific storage figures are extracted from a broader regional frame and may lack the granularity of a Nepal-only study.
 - **Karnali Chisapani figures are study-era estimates.** The 28.2 BCM gross / 16.2 BCM live figures predate the most recent project feasibility iterations.
-
-## Used By
-
-- [[karnali-chisapani]]
-- [[pancheshwar]]

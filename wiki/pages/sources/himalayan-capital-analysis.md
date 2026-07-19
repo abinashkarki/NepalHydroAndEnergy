@@ -31,7 +31,3 @@ This page anchors the Himalayan Capital *The Pulse* Shrawan 2081 scrip analysis 
 - **Market-analysis lens.** Himalayan Capital's analysis is investor-facing and may emphasize valuation, earnings, and balance-sheet interpretation over project-engineering detail.
 - **Secondary interpretation.** The page anchors market commentary used alongside ICRA/corporate disclosures; it is not a primary audited financial statement.
 - **Single-company scope.** The analysis applies to Sahas Urja and does not establish sector-wide IPP performance.
-
-## Used By
-
-- [[sahas-urja]]

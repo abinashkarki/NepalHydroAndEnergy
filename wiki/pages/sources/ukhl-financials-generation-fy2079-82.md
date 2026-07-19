@@ -28,7 +28,3 @@ Comprehensive research compilation covering Upper Tamakoshi Hydroelectric Limite
 - **Research compilation, not primary audited accounts.** Assembled from NEA reports, ICRA assessments, and ShareSansar disclosures — has not undergone independent verification.
 - **Flood damage estimates are provisional.** Insurance claims (NPR 2.0-3.22 billion) span a range; final settlement figures may differ.
 - **Financial snapshot.** Data reflects FY 2081/82 performance; does not capture subsequent deleveraging, right-share execution, or operational recovery post-flood.
-
-## Used By
-
-- [[upper-tamakoshi]]

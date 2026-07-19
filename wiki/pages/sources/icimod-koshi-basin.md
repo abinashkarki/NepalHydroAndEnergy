@@ -35,7 +35,3 @@ Central to [[hydro-geopolitics]] and [[ganges-contribution]]. Also relevant to [
 - **Directional sediment framing.** The page supports high-level sediment and flood-risk context but does not provide design-grade suspended-sediment parameters.
 - **Downstream aggregate scale.** Population and irrigation figures are basin-scale context; they do not allocate impacts by project, district, or season.
 - **Programme date ambiguity.** The page uses a 2023 source date, but the programme spans multiple outputs with different publication dates.
-
-## Used By
-
-- [[intervention-q-design-climate-adjustment]]
