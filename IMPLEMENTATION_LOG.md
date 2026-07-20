@@ -48,3 +48,10 @@
 - Verified source provenance, claim evidence, maturity labels, TOCs, collapsed backlinks and Decision Dossier identity in the rendered explorer.
 - Confirmed the dry-season solar query safely returns lexical analysis rather than a false structured “no record” result.
 - Original repository remained at source HEAD `ee6f4aea8ed4e7da935b63f5b4aeed97256a0139` with its pre-existing 258 status entries and 401 pages.
+
+## 2026-07-20 — Find interface simplification
+
+- Reduced the empty Find view to one search field, one short instruction and the existing seven browse sections.
+- Removed the duplicated intent buttons, introductory feature card, page/source counts and repeated explanatory copy without changing the search engine, structured answers, filters or result ranking.
+- Shortened the input placeholder to `Search this wiki…` and verified the revised surface at desktop and 390×844 mobile widths.
+- Confirmed a `solar winter` query still returns results and that the browser console remains clear.
