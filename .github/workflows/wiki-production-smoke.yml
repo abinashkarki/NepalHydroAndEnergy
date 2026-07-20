@@ -1,0 +1,28 @@
+name: Production wiki smoke check
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 02:17 UTC; the offset avoids common top-of-hour scheduler load.
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-wiki-smoke
+  cancel-in-progress: true
+
+jobs:
+  production-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the production probe
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Probe the public wiki
+        run: python scripts/check_production_wiki.py --json

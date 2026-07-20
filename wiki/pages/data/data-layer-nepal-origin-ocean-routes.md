@@ -56,7 +56,7 @@ The layer covers 4 generated route features. Routes are traced from existing Nep
 
 This is a topology and communication layer, not a hydrodynamic model. It does not represent reservoir operations, flow volumes after withdrawals, distributary splits, tidal dynamics, embankments, barrages, irrigation diversions, or floodplain storage.
 
-Dense delta distributaries are intentionally out of scope for v1. The layer preserves one strategic trunk per Nepal-linked system so the reader can follow the basin story without turning the map into a complete delta-network inventory.
+Dense delta distributaries are intentionally out of scope for the current layer. It preserves one strategic trunk per Nepal-linked system so the reader can follow the basin story without turning the map into a complete delta-network inventory.
 
 ## Linked Data
 

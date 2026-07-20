@@ -27,7 +27,7 @@ This layer turns the route-to-ocean trace into a downstream stakes map. It marks
 
 For the non-technical reading sequence, start with [[how-to-read-geopolitics-map]]. For the main synthesis, use [[downstream-river-geopolitics]].
 
-The five v1 zones are:
+The five mapped zones are:
 
 | Zone | Main read |
 |------|-----------|

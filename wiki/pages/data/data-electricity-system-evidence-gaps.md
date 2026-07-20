@@ -1,5 +1,5 @@
 ---
-title: V1 Electricity System Evidence Gaps
+title: Electricity System Evidence Gaps
 type: data
 created: 2026-07-19
 updated: 2026-07-19
@@ -7,13 +7,13 @@ reviewed: 2026-07-19
 review_due: 2026-10-19
 sources: []
 tags: [data-gaps, distribution, demand, flexibility, csv]
-excerpt: A machine-readable inventory of missing public measures that V1 will not replace with invented coverage.
+excerpt: A machine-readable inventory of missing public measures that this wiki will not replace with invented coverage.
 caveat: Not found in the copied public corpus does not prove that an institution does not collect the measure internally.
 maturity: working-page
 page_quality: analysis
 ---
 
-# V1 Electricity System Evidence Gaps
+# Electricity System Evidence Gaps
 
 ## Summary
 

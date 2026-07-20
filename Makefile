@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: wiki-index validate serve figures test release-check mcp deficit-model wiki-figures lead1-outputs wiki-build
+.PHONY: wiki-index validate serve figures test release-check release-record-check mcp deficit-model wiki-figures lead1-outputs wiki-build
 
 wiki-index:
 	$(PYTHON) scripts/build_wiki_page_index.py
@@ -25,8 +25,11 @@ test:
 	$(PYTHON) -m unittest scripts.test_wiki_search_index scripts.test_explorer_search_runtime scripts.test_explorer_performance scripts.test_claim_integrity scripts.test_source_used_by tests.test_apply_doed_project_status_overlay tests.test_benchmark_hydromap_coverage tests.test_build_doed_hydropower_registry tests.test_build_doed_missing_operating_projects tests.test_build_doed_project_status_overlay tests.test_build_tributary_maps_capacity_authority
 	node tests/test_wiki_search_intents.js
 
-release-check: wiki-index validate test
+release-check: wiki-index validate test release-record-check
 	$(PYTHON) scripts/check_generated_ownership.py
+
+release-record-check:
+	$(PYTHON) scripts/check_release_record.py
 
 serve:
 	./wiki/explorer/serve.sh 8765

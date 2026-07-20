@@ -59,7 +59,7 @@ The layer covers 7 callout features documented in `nepal_origin_route_callouts.g
 
 These are strategic callouts, not engineering-grade confluence points. Coordinates are intentionally approximate and are used to make the route-to-ocean layer legible at explorer scale.
 
-Dense distributaries, tidal channels, barrages, embankments, irrigation withdrawals, and local floodplain storage are out of scope for this v1 layer.
+Dense distributaries, tidal channels, barrages, embankments, irrigation withdrawals, and local floodplain storage are out of scope for this layer.
 
 ## Linked Data
 

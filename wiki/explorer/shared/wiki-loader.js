@@ -141,7 +141,7 @@ const MATURITY_LABEL = {
 };
 
 const MATURITY_HELP = {
-  "verified-core": "Core V1 page that passed evidence and editorial review; individual caveats still apply.",
+  "verified-core": "Core page that passed evidence and editorial review; individual caveats still apply.",
   "working-page": "Useful analysis or explanation that remains open to further evidence and editorial development.",
   "registry-record": "Basic factual record; inclusion does not mean every status or technical field has been independently verified.",
 };

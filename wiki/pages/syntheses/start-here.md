@@ -31,7 +31,7 @@ Use **Find** to ask a question or locate a page. Use the map to see how infrastr
 
 ## The system at a glance
 
-The V1 guide has an explicit flagship spine:
+The guide has an explicit flagship spine:
 
 [[state-of-the-system]] · [[seasonal-mismatch]] · [[hydropower-system]] · [[transmission-and-cross-border-trade]] · [[distribution-and-reliability]] · [[solar-system]] · [[storage-and-flexibility]] · [[demand-and-electrification]] · [[institutions-finance-and-project-delivery]] · [[environmental-and-social-impacts]] · [[climate-resilience-and-decarbonization]]
 

@@ -12,15 +12,15 @@ page_quality: analysis
 
 ## Summary
 
-This roadmap describes the public coverage of the Nepal Energy Wiki and the evidence work needed to deepen it. The V1 release is a source-linked guide to Nepal's electricity system, not a comprehensive encyclopedia of every energy source, project or policy.
+This roadmap describes the public coverage of the Nepal Energy Wiki and the evidence work needed to deepen it. The wiki is a source-linked guide to Nepal's electricity system, not a comprehensive encyclopedia of every energy source, project or policy.
 
 ## Simple Explanation
 
-V1 provides a coherent route through generation, networks, demand, institutions and impacts. It also keeps the editorial [[master-thesis]] separate from the factual [[state-of-the-system]] overview and labels pages using the [[wiki-page-maturity]] model.
+The current coverage provides a coherent route through generation, networks, demand, institutions and impacts. It also keeps the editorial [[master-thesis]] separate from the factual [[state-of-the-system]] overview and labels pages using the [[wiki-page-maturity]] model.
 
-Future releases will deepen the evidence behind existing branches before expanding into broad new topic areas. Missing information is recorded as a research gap rather than filled with unsupported estimates.
+Future updates will deepen the evidence behind existing branches before expanding into broad new topic areas. Missing information is recorded as a research gap rather than filled with unsupported estimates.
 
-## Released in V1
+## Current coverage
 
 The current public spine covers:
 
@@ -41,7 +41,7 @@ The next development phase should concentrate on four evidence gaps:
 3. **Solar and flexibility:** distinguish operating assets from tenders and pipeline records, then add verified geography, output and storage-service data where available.
 4. **Network performance:** connect corridor completion records to transfer capability, congestion, curtailment and distribution outcomes without inferring unavailable operational data.
 
-Broader branches—such as transport fuels, biomass, industrial heat or economy-wide energy balances—remain outside the V1 electricity-system scope until their source base and public purpose are defined.
+Broader branches—such as transport fuels, biomass, industrial heat or economy-wide energy balances—remain outside the current electricity-system scope until their source base and public purpose are defined.
 
 ## Why It Matters in Nepal
 
@@ -49,7 +49,7 @@ A public electricity guide is most useful when readers can distinguish establish
 
 ## Common Misunderstandings
 
-- **Released does not mean complete.** V1 provides a usable evidence spine while retaining visible uncertainties.
+- **Published does not mean complete.** This wiki provides a usable evidence spine while retaining visible uncertainties.
 - **A mapped record is not a verified current project status.** Registry records and project dossiers carry different evidence expectations.
 - **The roadmap is not an energy-policy prescription.** It describes editorial coverage and evidence priorities for the wiki.
 

@@ -20,7 +20,7 @@ page_quality: flagship
 
 Nepal's electricity system is shaped by ministries, the Department of Electricity Development, Nepal Electricity Authority, the Electricity Regulatory Commission, project companies, lenders, investors, local governments and affected communities. A project must pass through several different evidence stages: concept, licence, studies, safeguards, offtake, financing, construction, grid connection, commissioning and operation.
 
-V1 does not treat one stage as proof of the next. A licence is not financial close; a letter of intent is not construction; a reported progress percentage is not synchronised commissioning; installed capacity is not reliable delivery.
+This wiki does not treat one stage as proof of the next. A licence is not financial close; a letter of intent is not construction; a reported progress percentage is not synchronised commissioning; installed capacity is not reliable delivery.
 
 ## Finance and risk allocation
 

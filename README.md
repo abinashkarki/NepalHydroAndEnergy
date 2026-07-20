@@ -209,7 +209,12 @@ Wiki pages are not all maintained the same way. Frontmatter determines how some 
 
 ## Deployment note
 
-The live site deploys from `main`. If work is done on a side branch, merging to `main` is the step that updates the deploy source.
+The live site is assembled by the separate TransparentGov Docker build. A
+reviewed wiki change must be merged to `main`, tagged, pinned in Coolify by its
+full commit SHA, rebuilt, and verified; merging alone does not prove that the
+parent image was rebuilt. See
+[Wiki Release and Rollback Runbook](docs/releasing-and-rollback.md) for the
+versioning, cache-safe deployment, verification, and rollback procedure.
 
 ## Related docs
 

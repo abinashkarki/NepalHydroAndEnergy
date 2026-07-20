@@ -157,7 +157,7 @@
         "river_system": "Padma-Meghna",
         "country": "Bangladesh",
         "strategic_note": "Marks the delta convergence where upstream timing, sediment, flood, and dry-season stories accumulate.",
-        "map_read_note": "Approximate delta merge marker; v1 does not map dense distributaries.",
+        "map_read_note": "Approximate delta merge marker; this layer does not map dense distributaries.",
         "confidence": "medium",
         "source_method": "Curated strategic marker aligned to the generated HydroRIVERS downstream terminal reach.",
         "theme": "nepal_origin_route_callout"

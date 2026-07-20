@@ -135,7 +135,7 @@ ROUTE_CALLOUTS = [
         "lon": 90.64,
         "lat": 23.25,
         "strategic_note": "Marks the delta convergence where upstream timing, sediment, flood, and dry-season stories accumulate.",
-        "map_read_note": "Approximate delta merge marker; v1 does not map dense distributaries.",
+        "map_read_note": "Approximate delta merge marker; this layer does not map dense distributaries.",
         "confidence": "medium",
         "source_method": "Curated strategic marker aligned to the generated HydroRIVERS downstream terminal reach.",
     },
@@ -280,7 +280,7 @@ def build_dependency_zones() -> list[dict[str, Any]]:
     for item in DEPENDENCY_ZONES:
         props = {k: v for k, v in item.items() if k != "coords"}
         props["theme"] = "downstream_dependency_zone"
-        props["source_note"] = "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+        props["source_note"] = "Strategic dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
         features.append(polygon_feature(item["coords"], props))
     return features
 
@@ -326,7 +326,7 @@ def main() -> None:
                 "dependency_zone_count": len(dependency_zones),
                 "population_anchor_count": len(population_anchors),
                 "scope": "strategic_dependency_context",
-                "precision_note": "Curated v1 overlays for route legibility and downstream exposure; not hydrodynamic modeling.",
+                "precision_note": "Curated overlays for route legibility and downstream exposure; not hydrodynamic modeling.",
                 "outputs": [
                     str(ROUTE_CALLOUTS_OUT.relative_to(ROOT)),
                     str(DEPENDENCY_ZONES_OUT.relative_to(ROOT)),
