@@ -8,6 +8,7 @@ const vm = require("node:vm");
 
 const ROOT = path.resolve(__dirname, "..");
 const source = fs.readFileSync(path.join(ROOT, "wiki/explorer/shared/wiki-search.js"), "utf8");
+const explorerSource = fs.readFileSync(path.join(ROOT, "wiki/explorer/index.html"), "utf8");
 const window = {};
 vm.runInNewContext(source, { window, console, Intl });
 
@@ -136,5 +137,13 @@ const analysis = index.analyze("status of Arun 3");
 assert.deepEqual(titles(analysis.results), ["Arun 3"]);
 assert.equal(analysis.intent.kind, "fact-lookup");
 assert.equal(analysis.answer.count, 1);
+
+// Keep the Find surface compact while preserving structured answers and
+// advanced filters in the runtime.
+assert.match(explorerSource, /placeholder="Search this wiki…"/);
+assert.match(explorerSource, /Search by project, topic, claim, or source—or browse a section below\./);
+assert.doesNotMatch(explorerSource, /Track a project|Understand a system problem|Compare options|Verify a claim/);
+assert.match(explorerSource, /<details class="search-advanced"/);
+assert.match(explorerSource, /const showAnswer = !!\(intent && intent\.answer && intent\.answer\.applicable\)/);
 
 console.log("OK: structured wiki search intent tests passed");
