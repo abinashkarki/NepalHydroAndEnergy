@@ -2,22 +2,23 @@
   "schema_version": 1,
   "environment": "production",
   "public_url": "https://transparentgov.ai/wiki/explorer/",
-  "release_version": "1.0.0",
+  "release_version": "1.1.1",
   "wiki_repository": "abinashkarki/NepalHydroAndEnergy",
-  "wiki_ref": "72edb433bcae4291e83011eb1ea21ea06041a3cc",
-  "wiki_commit": "72edb433bcae4291e83011eb1ea21ea06041a3cc",
+  "wiki_ref": "0c258d29c65f9d9faa1537243dc5d25669c502d4",
+  "wiki_commit": "0c258d29c65f9d9faa1537243dc5d25669c502d4",
   "transparentgov_repository": "abinashkarki/TransparentGov",
   "transparentgov_commit": "cba779465646dc1b27b741044d3989acd24d2326",
-  "coolify_deployment_id": "xtxa1bbb991gnfwsuxze3dvl",
-  "deployed_at": "2026-07-19",
-  "verified_at": "2026-07-19",
+  "coolify_deployment_id": "bp6eijolldgf5dcz12ntwa0d",
+  "deployed_at": "2026-07-20T04:43:15Z",
+  "verified_at": "2026-07-20T04:46:19Z",
   "verification": {
     "page_count": 418,
     "assets": {
-      "wiki/explorer/index.html": "892369a05dffb7cb19f38af42256b82aae0eb35aff9086503f5f417380596d5b",
-      "wiki/explorer/shared/wiki-loader.js": "ee2f04eece93c994a8979ec6b5b5f8522f30dcd6a7e502200ad636ebd7337031",
-      "wiki/explorer/shared/wiki-page-index.json": "9f8cc1b2c2a210822e9203aa3d80e1c0703603bcb7190c2103483da6ff2277bd"
+      "wiki/explorer/index.html": "9de221d223e299ab189a536c0680c092e53f5879f80d8db0a905085c36efb6a6",
+      "wiki/explorer/shared/wiki-loader.js": "f7ae0c2f21be49f922ba51e66adc029dfb55bc79be4c884a211a3edee103a72e",
+      "wiki/explorer/shared/wiki-page-index.json": "06d15e8c83b34b050d885b1b13a239ddd3536fc189faf0204a68cfa37c16b6f6",
+      "wiki/explorer/shared/wiki-vector-index.json": "9b6b0990272ffb498722ff07c4b64d2629739bec7b7fc4e1c0b49ac3d9db5f1d"
     }
   },
-  "notes": "First production release recorded after the source-linked electricity-system deployment. Exact deployment timestamps were not retained, so date-only values are used. The immutable wiki commit is authoritative even though this deployment was initiated while Coolify still used the mutable main build argument."
+  "notes": "Coolify production is pinned to the full wiki commit and was rebuilt without cache. The production probe matched four source assets, 418 pages, 666 structured facts, 3,299 vector chunks and 28 map assets. Known hosting warnings remain: GeoJSON is served as text/plain and responses have validators but no explicit Cache-Control policy."
 }
