@@ -2,12 +2,12 @@
 title: State of Nepal's Electricity System
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+updated: 2026-07-20
+reviewed: 2026-07-20
+review_due: 2026-10-20
 as_of: 2025-07-15
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
-tags: [overview, system, neutral, electricity, v1]
+tags: [overview, system, neutral, electricity]
 excerpt: A neutral, dated account of Nepal's electricity system—capacity, demand, trade, reliability and the evidence gaps that limit stronger conclusions.
 caveat: Most operating totals are NEA FY2024/25 snapshots; later project additions and trade outcomes are not included unless separately dated.
 maturity: verified-core
@@ -16,7 +16,7 @@ page_quality: flagship
 
 # State of Nepal's Electricity System
 
-This page is the factual landing point for the V1 wiki. It separates the latest consolidated operating snapshot in the public corpus from policy targets and from TransparentGov's editorial interpretation.
+This page is the factual landing point for this wiki. It separates the latest consolidated operating snapshot in the public corpus from policy targets and from TransparentGov's editorial interpretation.
 
 ## Current snapshot
 
@@ -36,6 +36,8 @@ This page is the factual landing point for the V1 wiki. It separates the latest 
 
 Nepal has moved from chronic scheduled load shedding to a larger, IPP-heavy generation fleet and annual net electricity exports. That transition is material. It does not mean that every hour or location has abundant, reliable electricity. Hydropower output remains seasonal; dry-season imports persist; transmission projects can lag generation; and a World Bank memorandum reports that 76% of surveyed firms experienced regular outages in 2022.
 
+The World Bank records that more than 70% of generation capacity added since 2018 came from independent power producers, which held 64% of installed hydropower capacity by the end of 2024. Those figures describe ownership and fleet growth at that cutoff; they do not establish plant availability, dispatch priority or financial health. See [[wb-country-economic-memo-2025]].
+
 ## The physical system
 
 Hydropower accounts for about 94% of installed capacity in the NEA snapshot. Because most hydro capacity is run-of-river or peaking run-of-river, river flow strongly shapes output. [[seasonal-mismatch]] explains why wet-season surplus and dry-season weakness can coexist. [[storage-and-flexibility]] covers the limited tools available to shift energy across seasons and hours.
@@ -49,6 +51,16 @@ Domestic customers account for most connections, while industry accounts for a m
 ## Official direction is not current performance
 
 Nepal's NDC 3.0 targets 14,031 MW of renewable electricity capacity by 2030 and 28,500 MW by 2035, alongside lower losses and expanded electric cooking. These are official policy targets, not verified delivery forecasts. Their implementation depends on finance, permits, transmission, demand, environmental and social safeguards, and project execution.
+
+## Evidence trail
+
+| System question | Evidence used here | What it establishes | Boundary |
+|---|---|---|---|
+| What was installed and supplied? | [[nea-annual-report-fy2024-25]] | FY2024/25 capacity, available energy, peaks, sales, losses, grid coverage and annual trade narrative | Utility reporting through mid-July 2025; no plant-level dispatch or curtailment series |
+| How did the fleet and trade structure change? | [[wb-country-economic-memo-2025]] | End-2024 ownership mix, trade history and 2022 enterprise-outage evidence | Different dates and accounting frames from the NEA fiscal-year snapshot |
+| What is government aiming for? | [[nepal-ndc-3-2025]] | Official 2030 and 2035 capacity, loss and electrification targets | A policy submission, not an implementation or financing dashboard |
+
+The dates and scopes in this table are part of the claim. A later target does not update an earlier operating observation, and an annual total does not establish hourly reliability.
 
 ## What is not yet measurable
 

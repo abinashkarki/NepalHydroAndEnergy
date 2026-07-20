@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 316,
-  "total_refs": 2517,
+  "total_targets": 317,
+  "total_refs": 2530,
   "backlinks": {
     "buildability": [
       {
@@ -1339,6 +1339,27 @@
         "target_exists": true
       },
       {
+        "slug": "distribution-and-reliability",
+        "title": "Distribution and Reliability",
+        "category": "syntheses",
+        "context": "The NEA observations come from nea-annual-report-fy2024-25. The enterprise evidence is reported in [[wb-country-econom…",
+        "target_exists": true
+      },
+      {
+        "slug": "state-of-the-system",
+        "title": "State of Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "| What was installed and supplied? | nea-annual-report-fy2024-25 | FY2024/25 capacity, available energy, peaks, sales, losse…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-and-flexibility",
+        "title": "Storage and System Flexibility",
+        "category": "syntheses",
+        "context": "| nea-annual-report-fy2024-25 | Kulekhani cascade capacity and FY2024/25 annual generatio…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-timing-not-volume",
         "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
         "category": "claims",
@@ -1350,6 +1371,13 @@
         "title": "Transmission and Delivery Are Material Immediate Monetization Constraints",
         "category": "claims",
         "context": "The NEA Annual Report FY 2024/25 records continued reinforcement of strategic transmission l…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-electricity-system-indicators",
+        "title": "Electricity System Indicator Register",
+        "category": "data",
+        "context": "nea-annual-report-fy2024-25",
         "target_exists": true
       },
       {
@@ -1411,13 +1439,6 @@
       {
         "slug": "data-solar-hydro-complementarity-profile",
         "title": "Solar–Hydro Complementarity Profile",
-        "category": "data",
-        "context": "nea-annual-report-fy2024-25",
-        "target_exists": true
-      },
-      {
-        "slug": "data-electricity-system-indicators",
-        "title": "V1 Electricity System Indicator Register",
         "category": "data",
         "context": "nea-annual-report-fy2024-25",
         "target_exists": true
@@ -2940,7 +2961,7 @@
         "slug": "solar-system",
         "title": "Solar in Nepal's Electricity System",
         "category": "syntheses",
-        "context": "data-solar-fleet-inventory · solar-hydro-complementarity · [[solar-role-in-winter-…",
+        "context": "…w-level status and missing-field coverage are maintained in data-solar-fleet-inventory.",
         "target_exists": true
       },
       {
@@ -3711,7 +3732,7 @@
         "slug": "storage-and-flexibility",
         "title": "Storage and System Flexibility",
         "category": "syntheses",
-        "context": "…s also show storage generation and imports across the year. storage-deficit explains the limited seasonal inventory behind those figure…",
+        "context": "…ration or current seasonal state. kulekhani-cascade and storage-deficit preserve those distinctions.",
         "target_exists": true
       },
       {
@@ -3945,6 +3966,13 @@
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
         "context": "solar-resource-geography-nepal — where the resource is and why altitude beats latitude",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-system",
+        "title": "Solar in Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "…lled output. See wb-esmap-solar-resource-assessment and solar-resource-geography-nepal.",
         "target_exists": true
       },
       {
@@ -4282,6 +4310,13 @@
         "title": "Solar Resource Geography of Nepal",
         "category": "concepts",
         "context": "wb-esmap-solar-resource-assessment — the underlying pyranometer data",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-system",
+        "title": "Solar in Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "…lopable or that a project will achieve modelled output. See wb-esmap-solar-resource-assessment and solar-resource-geography-nepal.",
         "target_exists": true
       },
       {
@@ -6751,6 +6786,13 @@
         "target_exists": true
       },
       {
+        "slug": "demand-and-electrification",
+        "title": "Demand and Electrification",
+        "category": "syntheses",
+        "context": "…heat and industrial fuel use have already electrified. See wecs-energy-synopsis-2024 and data-final-energy-mix.",
+        "target_exists": true
+      },
+      {
         "slug": "figure-index",
         "title": "Figure Index",
         "category": "data",
@@ -6795,6 +6837,27 @@
         "target_exists": true
       },
       {
+        "slug": "distribution-and-reliability",
+        "title": "Distribution and Reliability",
+        "category": "syntheses",
+        "context": "…report-fy2024-25]]. The enterprise evidence is reported in wb-country-economic-memo-2025. These sources are complementary, but they cannot be combin…",
+        "target_exists": true
+      },
+      {
+        "slug": "state-of-the-system",
+        "title": "State of Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "…nt availability, dispatch priority or financial health. See wb-country-economic-memo-2025.",
+        "target_exists": true
+      },
+      {
+        "slug": "data-electricity-system-indicators",
+        "title": "Electricity System Indicator Register",
+        "category": "data",
+        "context": "wb-country-economic-memo-2025",
+        "target_exists": true
+      },
+      {
         "slug": "data-trade-time-series",
         "title": "Electricity Trade Time Series",
         "category": "data",
@@ -6813,13 +6876,6 @@
         "title": "Hydropower Fleet Composition",
         "category": "data",
         "context": "…summaries use the broader \"**>90% RoR+PRoR**\" framing from wb-country-economic-memo-2025. Both framings are consistent. The granular breakdown is th…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-electricity-system-indicators",
-        "title": "V1 Electricity System Indicator Register",
-        "category": "data",
-        "context": "wb-country-economic-memo-2025",
         "target_exists": true
       }
     ],
@@ -7357,7 +7413,7 @@
         "slug": "storage-and-flexibility",
         "title": "Storage and System Flexibility",
         "category": "syntheses",
-        "context": "kulekhani-cascade · storage-deficit · seasonal-mismatch · [[solar-sys…",
+        "context": "…torage volume, dispatch duration or current seasonal state. kulekhani-cascade and storage-deficit preserve those distinctions.",
         "target_exists": true
       },
       {
@@ -9623,7 +9679,7 @@
       },
       {
         "slug": "data-electricity-system-indicators",
-        "title": "V1 Electricity System Indicator Register",
+        "title": "Electricity System Indicator Register",
         "category": "data",
         "context": "distribution-and-reliability · demand-and-electrification · [[storage-and-flexibilit…",
         "target_exists": true
@@ -9674,7 +9730,7 @@
       },
       {
         "slug": "data-electricity-system-indicators",
-        "title": "V1 Electricity System Indicator Register",
+        "title": "Electricity System Indicator Register",
         "category": "data",
         "context": "distribution-and-reliability · demand-and-electrification · storage-and-flexibility · [[data-electricity-system-e…",
         "target_exists": true
@@ -11687,7 +11743,7 @@
         "slug": "demand-and-electrification",
         "title": "Demand and Electrification",
         "category": "syntheses",
-        "context": "data-domestic-demand · data-final-energy-mix · distribution-and-reliability · [[intervention-electri…",
+        "context": "…already electrified. See wecs-energy-synopsis-2024 and data-final-energy-mix.",
         "target_exists": true
       },
       {
@@ -14485,6 +14541,13 @@
         "target_exists": true
       },
       {
+        "slug": "solar-system",
+        "title": "Solar in Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "…han calling all 960 MW a current construction pipeline. See nea-solar-loi-2024.",
+        "target_exists": true
+      },
+      {
         "slug": "claim-solar-cheaper-than-small-hydro",
         "title": "NEA Solar Award Tariffs Undercut the Standard Small-RoR Blended Tariff",
         "category": "claims",
@@ -15124,6 +15187,13 @@
         "title": "Storage Deficit",
         "category": "concepts",
         "context": "national-water-plan-nepal",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-and-flexibility",
+        "title": "Storage and System Flexibility",
+        "category": "syntheses",
+        "context": "| national-water-plan-nepal | Historical runoff and transboundary water-planning contex…",
         "target_exists": true
       },
       {
@@ -16401,7 +16471,7 @@
       },
       {
         "slug": "data-electricity-system-evidence-gaps",
-        "title": "V1 Electricity System Evidence Gaps",
+        "title": "Electricity System Evidence Gaps",
         "category": "data",
         "context": "unresolved-questions · data-electricity-system-indicators",
         "target_exists": true
@@ -17034,7 +17104,7 @@
       },
       {
         "slug": "data-electricity-system-indicators",
-        "title": "V1 Electricity System Indicator Register",
+        "title": "Electricity System Indicator Register",
         "category": "data",
         "context": "…bution-and-reliability]] · demand-and-electrification · storage-and-flexibility · data-electricity-system-evidence-gaps",
         "target_exists": true
@@ -17175,6 +17245,13 @@
         "title": "Storage Deficit",
         "category": "concepts",
         "context": "wb-water-sector-diagnostic",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-and-flexibility",
+        "title": "Storage and System Flexibility",
+        "category": "syntheses",
+        "context": "| wb-water-sector-diagnostic | A national water-sector storage requirement of 29.86 km³,…",
         "target_exists": true
       },
       {
@@ -17432,6 +17509,36 @@
         "title": "Layer: Hydropower - Survey/Study",
         "category": "data",
         "context": "claim-systems-conversion-failure",
+        "target_exists": true
+      }
+    ],
+    "wb-household-electric-cooking-nepal-2025": [
+      {
+        "slug": "demand-and-electrification",
+        "title": "Demand and Electrification",
+        "category": "syntheses",
+        "context": "…nsourced demand-conversion scenario as observed demand. See wb-household-electric-cooking-nepal-2025.",
+        "target_exists": true
+      },
+      {
+        "slug": "data-domestic-demand",
+        "title": "Domestic Electricity Demand Distribution",
+        "category": "data",
+        "context": "…nergy cross-tab); World Bank Country Economic Memo 2025 and wb-household-electric-cooking-nepal-2025 (cooking electrification baseline).",
+        "target_exists": true
+      },
+      {
+        "slug": "data-electricity-system-indicators",
+        "title": "Electricity System Indicator Register",
+        "category": "data",
+        "context": "wb-household-electric-cooking-nepal-2025",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Decision Dossier — Electric-Cooking Evidence Gate and Pilot",
+        "category": "interventions",
+        "context": "wb-household-electric-cooking-nepal-2025 describes electricity use for cooking as below one percent…",
         "target_exists": true
       }
     ],
@@ -17805,6 +17912,15 @@
         "target_exists": true
       }
     ],
+    "nepal-ndc-3-2025": [
+      {
+        "slug": "state-of-the-system",
+        "title": "State of Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "| What is government aiming for? | nepal-ndc-3-2025 | Official 2030 and 2035 capacity, loss and electrification…",
+        "target_exists": true
+      }
+    ],
     "data-mountain-hydro-comparison": [
       {
         "slug": "unresolved-questions",
@@ -17839,29 +17955,6 @@
         "target_exists": true
       }
     ],
-    "wb-household-electric-cooking-nepal-2025": [
-      {
-        "slug": "data-domestic-demand",
-        "title": "Domestic Electricity Demand Distribution",
-        "category": "data",
-        "context": "…nergy cross-tab); World Bank Country Economic Memo 2025 and wb-household-electric-cooking-nepal-2025 (cooking electrification baseline).",
-        "target_exists": true
-      },
-      {
-        "slug": "data-electricity-system-indicators",
-        "title": "V1 Electricity System Indicator Register",
-        "category": "data",
-        "context": "wb-household-electric-cooking-nepal-2025",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-electric-cooking-transition",
-        "title": "Decision Dossier — Electric-Cooking Evidence Gate and Pilot",
-        "category": "interventions",
-        "context": "wb-household-electric-cooking-nepal-2025 describes electricity use for cooking as below one percent…",
-        "target_exists": true
-      }
-    ],
     "data-nepal-peak-load-curve-fy2024-25": [
       {
         "slug": "data-domestic-demand",
@@ -17890,7 +17983,7 @@
     "data-electricity-system-indicators": [
       {
         "slug": "data-electricity-system-evidence-gaps",
-        "title": "V1 Electricity System Evidence Gaps",
+        "title": "Electricity System Evidence Gaps",
         "category": "data",
         "context": "unresolved-questions · data-electricity-system-indicators",
         "target_exists": true
@@ -17899,7 +17992,7 @@
     "data-electricity-system-evidence-gaps": [
       {
         "slug": "data-electricity-system-indicators",
-        "title": "V1 Electricity System Indicator Register",
+        "title": "Electricity System Indicator Register",
         "category": "data",
         "context": "…emand-and-electrification]] · storage-and-flexibility · data-electricity-system-evidence-gaps",
         "target_exists": true

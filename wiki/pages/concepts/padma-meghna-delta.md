@@ -28,7 +28,7 @@ Read this with [[padma-meghna-delta-dependency]] and [[lower-delta-bay-interface
 
 ## Caveat
 
-The v1 map does not model dense delta distributaries, tidal hydraulics, embankments, or salinity fronts. The marker is a route-reading device.
+The current map does not model dense delta distributaries, tidal hydraulics, embankments, or salinity fronts. The marker is a route-reading device.
 
 ## Common Misunderstandings
 

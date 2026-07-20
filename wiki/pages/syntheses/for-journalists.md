@@ -48,7 +48,7 @@ Each Decision Dossier separates established facts, unknowns, comparable cases, o
 
 ## How Sources Are Handled
 
-V1 claim pages expose declared source notes and governed metrics in an evidence card. Priority claims also link their material evidence inline. Source pages record the primary document, report, regulation, registry, dataset or disclosure and list what other wiki pages cite it. A missing source link or inaccessible underlying document should be treated as a visible evidence gap, not as verification.
+Claim pages expose declared source notes and governed metrics in an evidence card. Priority claims also link their material evidence inline. Source pages record the primary document, report, regulation, registry, dataset or disclosure and list what other wiki pages cite it. A missing source link or inaccessible underlying document should be treated as a visible evidence gap, not as verification.
 
 - Source pages describe evidence, not policy implications.
 - Data pages describe datasets and caveats, not strategy.
@@ -67,7 +67,7 @@ For project pages, use the project slug, the wiki title, and the source page tha
 
 ## A Note On Dates And Updates
 
-`Updated` is an editorial date, not proof that every underlying fact was reverified. Priority V1 pages separately display the evidence cutoff, review date and review-due date where those fields exist. For a breaking story, check the source card and the underlying primary record even when the page is recent.
+`Updated` is an editorial date, not proof that every underlying fact was reverified. Priority pages separately display the evidence cutoff, review date and review-due date where those fields exist. For a breaking story, check the source card and the underlying primary record even when the page is recent.
 
 ## Related
 

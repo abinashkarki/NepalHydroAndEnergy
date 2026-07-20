@@ -50,7 +50,7 @@ The 2030 gap more than doubles from today’s ~550 GWh baseline; by 2035, demand
 
 **Mechanism:** Exploit the ~55% dry-season-share of solar generation (Terai, [[data-solar-hydro-lcoe]]) to fill the daytime energy component of the winter gap.
 
-**Illustrative 2035 scenario input:** the model tests **5,000 MWp** of solar. This is not a verified pipeline forecast. The public V1 evidence establishes roughly 142 MW in the operating snapshot and 960 MW of LoI awards whose subsequent delivery status is unknown; see [[solar-system]].
+**Illustrative 2035 scenario input:** the model tests **5,000 MWp** of solar. This is not a verified pipeline forecast. The public evidence in this wiki establishes roughly 142 MW in the operating snapshot and 960 MW of LoI awards whose subsequent delivery status is unknown; see [[solar-system]].
 
 At 5 GW of Terai solar with CF 16.5% (empirical GIZ/AEPC measurement for Terai fixed-tilt), Dec–Feb dry-season generation ~**966 GWh** (2035_full model output at 16.5% CF); the full dry-season (Nov–Mar) contribution is higher. Source: build_winter_deficit_model.py, 2035_full scenario.
 
@@ -75,7 +75,7 @@ At 5 GW of Terai solar with CF 16.5% (empirical GIZ/AEPC measurement for Terai f
 
 **Mechanism:** Charge from mid-day solar and discharge into the winter-evening peak. The [[data-solar-hydro-complementarity-profile]] diurnal profile case.
 
-**Illustrative 2035 scenario input:** 2 GWh of four-hour BESS represents **500 MW** for four hours. If cycled once daily through the core Dec–Feb window, the arithmetic is roughly **116 GWh**. V1 has not found a national operating BESS registry or an official deployment plan establishing that scenario.
+**Illustrative 2035 scenario input:** 2 GWh of four-hour BESS represents **500 MW** for four hours. If cycled once daily through the core Dec–Feb window, the arithmetic is roughly **116 GWh**. The reviewed public corpus does not include a national operating BESS registry or an official deployment plan establishing that scenario.
 
 **Physical advantage:** Pairs with solar to provide firm capacity. 4-hour BESS at 2030 prices (~NPR 10/kWh LCOE per [[data-solar-hydro-lcoe]]) competes with reservoir hydropower on firm-capacity cost.
 

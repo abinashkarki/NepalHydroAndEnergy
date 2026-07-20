@@ -1,5 +1,5 @@
 ---
-title: V1 Electricity System Indicator Register
+title: Electricity System Indicator Register
 type: data
 created: 2026-07-19
 updated: 2026-07-19
@@ -7,17 +7,17 @@ reviewed: 2026-07-19
 review_due: 2026-10-19
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, wb-household-electric-cooking-nepal-2025]
 tags: [indicators, distribution, demand, flexibility, csv]
-excerpt: A compact, source-linked register of headline distribution, demand and flexibility observations used by the V1 branch pages.
+excerpt: A compact, source-linked register of headline distribution, demand and flexibility observations used by the wiki's core branch pages.
 caveat: The register contains dated public observations, not interpolated current values; unlike metrics are not combined into a composite score.
 maturity: working-page
 page_quality: analysis
 ---
 
-# V1 Electricity System Indicator Register
+# Electricity System Indicator Register
 
 ## Summary
 
-This compact, source-linked register collects headline distribution, demand and flexibility observations used by the V1 branch pages. It reduces repeated headline values while preserving distinctions such as grid coverage versus reliability and national peak versus system peak.
+This compact, source-linked register collects headline distribution, demand and flexibility observations used by the wiki's core branch pages. It reduces repeated headline values while preserving distinctions such as grid coverage versus reliability and national peak versus system peak.
 
 ## What This Shows
 

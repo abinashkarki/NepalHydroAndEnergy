@@ -2109,6 +2109,50 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-07-20 — Flagship Evidence-Depth Pass
+
+**Agent:** Codex delegated evidence-depth pass
+**Session type:** bounded synthesis-page evidence and language cleanup
+
+**Pages touched:**
+- `state-of-the-system`: removed reader-facing version terminology, added the IPP fleet-growth boundary and a source-by-system-question evidence trail.
+- `solar-system`: separated the operating and award records in an evidence table, added award-tariff provenance and resource-measurement limits, and replaced version terminology with neutral data-model language.
+- `distribution-and-reliability`: separated reach, loss and outage observations by metric and date, and made the absence of feeder-level causal and interruption evidence explicit.
+- `demand-and-electrification`: placed FY2024/25 electricity sales beside the separately dated WECS final-energy balance, added customer/peak evidence boundaries, and retained the electric-cooking baseline as a gap rather than a current estimate.
+- `storage-and-flexibility`: distinguished reservoir capacity, cascade capacity, annual generation and stored volume; bounded national water-storage and JICA planning figures to their source frames.
+
+**Validation result:** `make wiki-index` rebuilt metadata for 418 pages, 2,530 references, 666 facts and 16 governed claims. `python scripts/validate_repo.py`, `python scripts/check_source_used_by.py`, `python scripts/check_retired_claims.py`, the scoped version/residue scan and `git diff --check` passed. `make test` passed all 81 Python tests and the Node structured-search intent suite.
+
+**Flags raised:**
+- None. The pages retain explicit gaps for dispatch, curtailment, feeder reliability, solar lifecycle conversion, hourly demand and storage state; no confidence or ontology decision was changed.
+
+**Decisions made:**
+- Used only existing official or institutional source records in the repository and did not infer current project status, operating solar delivery, reliability duration or a national flexibility margin.
+- Replaced reader-facing `V1` references with `this wiki` or `the current data model`; technical version terminology in release and internal documentation was left unchanged.
+
+---
+
+## 2026-07-20 — Public Version-Language Cleanup
+
+**Agent:** Codex
+**Session type:** bounded public-language and generated-surface consistency pass
+
+**Pages touched:**
+- Public syntheses, concepts, data pages and `arun-3`: replaced reader-facing `V1`, `v1` and `version 1` labels with durable descriptions such as `this wiki`, `current coverage` and `future updates`; renamed the two electricity-system register pages without changing their factual scope.
+- Explorer loader and downstream map-layer generator: removed release-number language from reader-visible labels and regenerated the affected map artifacts.
+- Search, page metadata, backlink and vector indexes: regenerated from the edited pages so titles, excerpts and semantic-search text match the published wording.
+
+**Validation result:** Public authored pages, generated page metadata, map-layer text and vector-index chunks contain no reader-facing version-one terminology. Technical release history, frozen schema identifiers and the embedding model identifier retain their literal version names.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Kept semantic version numbers in release tooling and operations records because they identify immutable deployments rather than editorial maturity.
+- Preserved historical audit wording where it describes a past release decision.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

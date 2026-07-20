@@ -1429,11 +1429,11 @@
       },
       {
         "slug": "data-electricity-system-evidence-gaps",
-        "title": "V1 Electricity System Evidence Gaps"
+        "title": "Electricity System Evidence Gaps"
       },
       {
         "slug": "data-electricity-system-indicators",
-        "title": "V1 Electricity System Indicator Register"
+        "title": "Electricity System Indicator Register"
       },
       {
         "slug": "data-final-energy-mix",
@@ -2882,8 +2882,8 @@
     "data-basin-discharge": "Basin Discharge Data",
     "data-consumption-geographic-distribution": "Electricity Consumption Geographic Distribution",
     "data-domestic-demand": "Domestic Electricity Demand Distribution",
-    "data-electricity-system-evidence-gaps": "V1 Electricity System Evidence Gaps",
-    "data-electricity-system-indicators": "V1 Electricity System Indicator Register",
+    "data-electricity-system-evidence-gaps": "Electricity System Evidence Gaps",
+    "data-electricity-system-indicators": "Electricity System Indicator Register",
     "data-final-energy-mix": "Nepal Final Energy Mix",
     "data-fleet-composition": "Hydropower Fleet Composition",
     "data-industrial-electricity-consumers": "Industrial Electricity Consumers in Nepal",

@@ -28,7 +28,7 @@
         "confidence": "medium",
         "geometry_basis": "Curated broad dependency polygon around major downstream river corridors.",
         "theme": "downstream_dependency_zone",
-        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+        "source_note": "Strategic dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
       },
       "geometry": {
         "type": "Polygon",
@@ -88,7 +88,7 @@
         "confidence": "medium",
         "geometry_basis": "Curated broad dependency polygon around Kosi-Gandak floodplain geography.",
         "theme": "downstream_dependency_zone",
-        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+        "source_note": "Strategic dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
       },
       "geometry": {
         "type": "Polygon",
@@ -155,7 +155,7 @@
         "confidence": "medium",
         "geometry_basis": "Curated broad dependency polygon around the lower Bihar Ganges corridor.",
         "theme": "downstream_dependency_zone",
-        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+        "source_note": "Strategic dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
       },
       "geometry": {
         "type": "Polygon",
@@ -217,7 +217,7 @@
         "confidence": "medium",
         "geometry_basis": "Curated broad dependency polygon around Padma-Meghna delta geography.",
         "theme": "downstream_dependency_zone",
-        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+        "source_note": "Strategic dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
       },
       "geometry": {
         "type": "Polygon",
@@ -282,7 +282,7 @@
         "confidence": "low_medium",
         "geometry_basis": "Curated broad coastal-delta context polygon; not a distributary or salinity model.",
         "theme": "downstream_dependency_zone",
-        "source_note": "Strategic v1 dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
+        "source_note": "Strategic dependency zone curated from route geography; not a hydrodynamic, demographic, or allocation model."
       },
       "geometry": {
         "type": "Polygon",

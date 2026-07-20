@@ -2,9 +2,9 @@
 title: Demand and Electrification
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+updated: 2026-07-20
+reviewed: 2026-07-20
+review_due: 2026-10-20
 as_of: 2025-07-15
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-household-electric-cooking-nepal-2025, nepal-ndc-3-2025]
 tags: [demand, electrification, cooking, industry, consumption]
@@ -26,7 +26,21 @@ Per-capita electricity use reached **465 kWh**. The **2,409 MW national peak** i
 
 Grid coverage measures network reach. Sales measure metered use. Reliable service measures continuity and quality. Productive electrification asks whether electricity displaces other fuels or enables economic activity. None is a substitute for the others.
 
-Electric cooking illustrates the distinction. The national **0.5% household baseline is from 2021**; a 2025 World Bank-linked report corroborates only that the share remained below one percent, not a new exact annual value. V1 does not present an unsourced demand-conversion scenario as observed demand.
+Electric cooking illustrates the distinction. The national **0.5% household baseline is from 2021**; a 2025 World Bank report corroborates only that the share remained below one percent, not a new exact annual value. This wiki does not present an unsourced demand-conversion scenario as observed demand. See [[wb-household-electric-cooking-nepal-2025]].
+
+## Electricity within the wider energy system
+
+The WECS FY2079/80 energy balance puts grid electricity at **7.23% of final energy**, compared with **63.87% traditional biomass** and **25.80% commercial fuels**. This older, whole-energy accounting frame should not be blended with the FY2024/25 electricity-sales snapshot. It does show why network reach alone is not evidence that cooking, transport, heat and industrial fuel use have already electrified. See [[wecs-energy-synopsis-2024]] and [[data-final-energy-mix]].
+
+## Evidence trail
+
+| Question | Dated observation | Interpretation boundary |
+|---|---|---|
+| How much electricity was sold? | 11,288 GWh in FY2024/25 | Annual sales do not show hourly or seasonal load shape |
+| Who bought it? | Domestic: 91.08% of connections and 42.02% of sales; industry: 1.23% and 36.64% | Customer-category totals do not show service quality or end use |
+| How large was peak demand? | 2,409 MW national peak; 2,901 MW system peak including export load in the report's framing | The two peak definitions are not interchangeable |
+| How deep is whole-economy electrification? | Grid electricity: 7.23% of final energy in WECS FY2079/80 | Different year and energy-balance denominator from NEA sales |
+| How current is the cooking baseline? | 0.5% in 2021; described only as below 1% in the reviewed 2025 report | No current annual adoption series |
 
 ## Official direction
 

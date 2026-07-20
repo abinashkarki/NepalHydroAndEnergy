@@ -25,7 +25,7 @@ Maturity applies to the page. Confidence applies to a claim. A Verified Core pag
 
 ## Verified Core
 
-A flagship page on the V1 reading spine. It has an explicit excerpt, dated review, source provenance, a visible caveat and bounded claims. Verified Core does not mean complete or certain; important gaps must remain visible.
+A flagship page on the wiki's core reading path. It has an explicit excerpt, dated review, source provenance, a visible caveat and bounded claims. Verified Core does not mean complete or certain; important gaps must remain visible.
 
 ## Working Page
 

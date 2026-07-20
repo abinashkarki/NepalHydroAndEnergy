@@ -13,7 +13,7 @@ page_quality: analysis
 sources: [sjvn-arun-3-project-record, arun-3-project-status-2025, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
 tags: [project, watchlist, top-capacity, under-construction, koshi, sankhuwasabha, india-developed, peaking-ror]
 excerpt: A 900 MW project under construction whose generating works, evacuation line and changing commissioning expectations are tracked separately.
-caveat: Public progress percentages use different dates and denominators; V1 does not present a single current completion percentage.
+caveat: Public progress percentages use different dates and denominators; this wiki does not present a single current completion percentage.
 ---
 
 # Arun 3

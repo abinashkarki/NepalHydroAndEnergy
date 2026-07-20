@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "environment": "production",
+  "public_url": "https://transparentgov.ai/wiki/explorer/",
+  "release_version": "1.0.0",
+  "wiki_repository": "abinashkarki/NepalHydroAndEnergy",
+  "wiki_ref": "72edb433bcae4291e83011eb1ea21ea06041a3cc",
+  "wiki_commit": "72edb433bcae4291e83011eb1ea21ea06041a3cc",
+  "transparentgov_repository": "abinashkarki/TransparentGov",
+  "transparentgov_commit": "cba779465646dc1b27b741044d3989acd24d2326",
+  "coolify_deployment_id": "xtxa1bbb991gnfwsuxze3dvl",
+  "deployed_at": "2026-07-19",
+  "verified_at": "2026-07-19",
+  "verification": {
+    "page_count": 418,
+    "assets": {
+      "wiki/explorer/index.html": "892369a05dffb7cb19f38af42256b82aae0eb35aff9086503f5f417380596d5b",
+      "wiki/explorer/shared/wiki-loader.js": "ee2f04eece93c994a8979ec6b5b5f8522f30dcd6a7e502200ad636ebd7337031",
+      "wiki/explorer/shared/wiki-page-index.json": "9f8cc1b2c2a210822e9203aa3d80e1c0703603bcb7190c2103483da6ff2277bd"
+    }
+  },
+  "notes": "First production release recorded after the source-linked electricity-system deployment. Exact deployment timestamps were not retained, so date-only values are used. The immutable wiki commit is authoritative even though this deployment was initiated while Coolify still used the mutable main build argument."
+}

@@ -24,7 +24,7 @@ These are not external details added after engineering. Unresolved safeguards ca
 
 ## Project-specific evidence
 
-V1 links claims to current project instruments where available. [[budhigandaki]] and [[dudhkoshi-storage]] illustrate reservoir-scale resettlement and safeguard questions. [[hetauda-dhalkebar-inaruwa-backbone]] and the Bharatpur–Bardaghat comparison illustrate land and transmission-settlement questions. One project's outcome is not treated as a universal template.
+This wiki links claims to current project instruments where available. [[budhigandaki]] and [[dudhkoshi-storage]] illustrate reservoir-scale resettlement and safeguard questions. [[hetauda-dhalkebar-inaruwa-backbone]] and the Bharatpur–Bardaghat comparison illustrate land and transmission-settlement questions. One project's outcome is not treated as a universal template.
 
 ## How to read comparable cases
 

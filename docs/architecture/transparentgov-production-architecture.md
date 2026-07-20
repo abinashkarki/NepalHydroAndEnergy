@@ -24,8 +24,10 @@ flowchart TD
     B --> D["Map outputs<br/>GeoJSON, manifests, presets"]
     C --> E["Static explorer files<br/>HTML, JS, CSS, JSON"]
     D --> E
-    E --> F["Static web host<br/>transparentgov.ai/wiki/explorer"]
-    G["Governance and validation<br/>validate_repo.py, make test"] -- "gates merges to" --> A
+    E --> F["Immutable wiki commit<br/>NEPAL_ENERGY_REF"]
+    F --> G["TransparentGov Docker build"]
+    G --> H["Static web host<br/>transparentgov.ai/wiki/explorer"]
+    I["Governance and validation<br/>validate_repo.py, make test"] -- "gates merges to" --> A
 ```
 
 The deployable surface is primarily:
@@ -49,6 +51,8 @@ The development surface includes:
 - Client-side search is easy to deploy, but needs benchmark tests to prevent ranking regressions.
 - GeoJSON files are transparent and portable, but large or numerous layers can affect browser performance.
 - Deployment from `main` is simple, but raises the importance of pre-push validation.
+- The deployed wiki is fetched by the separate TransparentGov Docker build, so
+  the wiki commit and parent application commit must both be recorded.
 
 ## Failure Modes
 
@@ -67,12 +71,17 @@ The development surface includes:
 - Layer manifests and presets keep map configuration declarative.
 - Page frontmatter classifies generator behavior: `auto-stub`, `specs-refresh`, or `manual`.
 - Known confidence limits are documented in data/entity pages rather than hidden in code.
+- `release/production.json` records the immutable wiki commit, parent build
+  commit, selected asset hashes, and deployment verification metadata.
+- `docs/releasing-and-rollback.md` defines guarded tagging, cache-safe rebuild,
+  production verification, and rollback procedures.
 
 ## Next Improvements
 
 - Add a one-command production build target that rebuilds wiki indexes, map layers, validation, and tests.
 - Add screenshot regression checks for key explorer presets.
-- Add a generated deployment manifest listing page count, layer count, search benchmark result, and validation status.
+- Extend the production release record with layer counts and performance-budget
+  results once those checks are stable in CI.
 - Add per-layer size/performance budget checks.
 - Add a public changelog generated from `wiki/WIKI_AUDIT_LOG.md` or curated release notes.
 
@@ -81,4 +90,3 @@ The development surface includes:
 - [Case study: Nepal Energy Wiki](../case-studies/transparentgov-nepal-energy-wiki.md) — what the deployed site is for.
 - [Knowledge Pipeline](transparentgov-knowledge-pipeline.md) — how the deployed assets are produced.
 - [Agent Workflow](transparentgov-agent-workflow.md) — pre-push validation and audit discipline.
-
