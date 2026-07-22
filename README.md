@@ -4,6 +4,10 @@ Part of [TransparentGov](https://transparentgov.ai/), a citizen-led project to t
 
 Live site: [transparentgov.ai/wiki/explorer](https://transparentgov.ai/wiki/explorer/)
 
+Canonical local checkout: `/Users/hi/projects/nepalEnergy-wiki`. See
+[INFRASTRUCTURE.md](INFRASTRUCTURE.md) before releasing or working across the
+wiki and TransparentGov repositories.
+
 ## What this repo contains
 
 This repository combines four things:
@@ -98,6 +102,7 @@ wiki/
 
 ## Architecture deep-dives
 
+- [INFRASTRUCTURE.md](INFRASTRUCTURE.md) — canonical checkouts, production path, and release authority
 - [docs/architecture/transparentgov-knowledge-pipeline.md](docs/architecture/transparentgov-knowledge-pipeline.md) — inputs, build pipelines, and outputs
 - [docs/architecture/transparentgov-agent-workflow.md](docs/architecture/transparentgov-agent-workflow.md) — how AI editing agents are constrained
 - [docs/architecture/transparentgov-production-architecture.md](docs/architecture/transparentgov-production-architecture.md) — static deployment model
@@ -215,6 +220,10 @@ full commit SHA, rebuilt, and verified; merging alone does not prove that the
 parent image was rebuilt. See
 [Wiki Release and Rollback Runbook](docs/releasing-and-rollback.md) for the
 versioning, cache-safe deployment, verification, and rollback procedure.
+
+Do not release from `/Users/hi/projects/nepalEnergy`, the archived migration
+precursor, or a feature worktree. Their roles are documented in
+[INFRASTRUCTURE.md](INFRASTRUCTURE.md).
 
 ## Related docs
 

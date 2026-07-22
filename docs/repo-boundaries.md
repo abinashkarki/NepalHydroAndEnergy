@@ -4,6 +4,19 @@ This repository is both a public knowledge product and a research production
 workspace. Release readiness depends on keeping source material, generated
 assets, deployable files, local scratch, and experiments distinct.
 
+## Local Workspace Roles
+
+- `/Users/hi/projects/nepalEnergy-wiki` is the only active wiki release
+  checkout.
+- `/Users/hi/projects/transparentgov-app` is the clean hosting-application
+  checkout.
+- `/Users/hi/projects/nepalEnergy` is preserved research/documentary work and
+  must not be used to publish the wiki.
+- `/Users/hi/projects/archive/nepalEnergy-v1-frozen-2026-07-22` is a frozen,
+  recoverable migration precursor.
+
+See `INFRASTRUCTURE.md` for the end-to-end deployment path.
+
 ## Path Classes
 
 | Class | Paths | Rule |
