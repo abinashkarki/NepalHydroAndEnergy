@@ -7,10 +7,10 @@
   "wiki_ref": "0c258d29c65f9d9faa1537243dc5d25669c502d4",
   "wiki_commit": "0c258d29c65f9d9faa1537243dc5d25669c502d4",
   "transparentgov_repository": "abinashkarki/TransparentGov",
-  "transparentgov_commit": "cba779465646dc1b27b741044d3989acd24d2326",
-  "coolify_deployment_id": "bp6eijolldgf5dcz12ntwa0d",
-  "deployed_at": "2026-07-20T04:43:15Z",
-  "verified_at": "2026-07-20T04:46:19Z",
+  "transparentgov_commit": "415b7b09559b170bff084b8fc0b7591fa430c77b",
+  "coolify_deployment_id": "s790ts7ik3vb3hwirnhsdj7e",
+  "deployed_at": "2026-07-22T07:35:22Z",
+  "verified_at": "2026-07-22T07:38:32Z",
   "verification": {
     "page_count": 418,
     "assets": {
@@ -20,5 +20,5 @@
       "wiki/explorer/shared/wiki-vector-index.json": "9b6b0990272ffb498722ff07c4b64d2629739bec7b7fc4e1c0b49ac3d9db5f1d"
     }
   },
-  "notes": "Coolify production is pinned to the full wiki commit and was rebuilt without cache. The production probe matched four source assets, 418 pages, 666 structured facts, 3,299 vector chunks and 28 map assets. Known hosting warnings remain: GeoJSON is served as text/plain and responses have validators but no explicit Cache-Control policy."
+  "notes": "Coolify production remains pinned to the full wiki commit and was rebuilt from TransparentGov commit 415b7b09559b170bff084b8fc0b7591fa430c77b. The production probe matched four source assets, 418 pages, 666 structured facts, 3,299 vector chunks and 28 map assets. All 53 checked responses now carry explicit Cache-Control headers, and GeoJSON is served as application/geo+json. Desktop and 390 x 844 mobile browser checks passed with no console errors."
 }
