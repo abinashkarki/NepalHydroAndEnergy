@@ -1,11 +1,18 @@
-# V1 migration manifest
+# Standalone wiki migration manifest
 
 Created: 2026-07-19
 Source snapshot: `/Users/hi/projects/nepalEnergy` working tree
 Source HEAD: `ee6f4aea8ed4e7da935b63f5b4aeed97256a0139`
-Standalone destination: `/Users/hi/projects/nepalEnergy-v1`
+Initial standalone destination: `/Users/hi/projects/nepalEnergy-v1`
+Current canonical checkout: `/Users/hi/projects/nepalEnergy-wiki`
+Frozen precursor archive: `/Users/hi/projects/archive/nepalEnergy-v1-frozen-2026-07-22`
 
-The source repository is not a Git ancestor of this workspace. The V1 folder was initialized as a new repository so its changes and checkpoints cannot alter the original project.
+The first standalone folder was initialized as an independent repository so its
+changes and checkpoints could not alter the original project. Its reviewed
+content was subsequently merged into the canonical GitHub history. On
+2026-07-22 the clean precursor, which had no tracked paths absent from the
+canonical checkout, was moved into the dated archive above. No files were
+deleted.
 
 ## Copied
 
@@ -46,7 +53,7 @@ The source repository is not a Git ancestor of this workspace. The V1 folder was
 ## Regeneration and setup
 
 ```bash
-cd /Users/hi/projects/nepalEnergy-v1
+cd /Users/hi/projects/nepalEnergy-wiki
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -64,4 +71,4 @@ Open `http://127.0.0.1:8765/wiki/explorer/`.
 
 `make wiki-index` preserves the shipped vector index when `sentence-transformers` is unavailable. Map GeoJSON already ships in `data/processed/maps/`; a full GIS rebuild additionally requires the omitted upstream HydroRIVERS, HydroBASINS and OSM inputs or reacquisition from their documented providers.
 
-The copied source was an intentionally captured **dirty working-tree snapshot**, not a clean checkout. The source repository already had approximately 258 changed/untracked/deleted status entries before migration. All V1 writes and Git history are confined to this sibling folder.
+The copied source was an intentionally captured **dirty working-tree snapshot**, not a clean checkout. The source repository already had approximately 258 changed/untracked/deleted status entries before migration. The original workspace remains preserved; current wiki development and release work belongs only in `/Users/hi/projects/nepalEnergy-wiki`.

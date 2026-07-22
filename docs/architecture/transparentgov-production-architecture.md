@@ -4,7 +4,7 @@
 
 ## Context
 
-The public site is a static wiki and map explorer. The production goal is not high-concurrency transactional application behavior. It is reproducible publication of a research artifact: pages, JSON indexes, GeoJSON layers, images, and map configuration should build locally and deploy predictably from `main`.
+The public site is a static wiki and map explorer. The production goal is not high-concurrency transactional application behavior. It is reproducible publication of a research artifact: pages, JSON indexes, GeoJSON layers, images, and map configuration should build locally and deploy predictably from a reviewed immutable commit.
 
 ## Constraints
 
@@ -50,7 +50,8 @@ The development surface includes:
 - Static hosting removes backend operational complexity, but pushes dynamic behavior into generated client-side indexes.
 - Client-side search is easy to deploy, but needs benchmark tests to prevent ranking regressions.
 - GeoJSON files are transparent and portable, but large or numerous layers can affect browser performance.
-- Deployment from `main` is simple, but raises the importance of pre-push validation.
+- An immutable deployment ref adds one explicit release step, but prevents a
+  mutable branch from obscuring which wiki revision is live.
 - The deployed wiki is fetched by the separate TransparentGov Docker build, so
   the wiki commit and parent application commit must both be recorded.
 
