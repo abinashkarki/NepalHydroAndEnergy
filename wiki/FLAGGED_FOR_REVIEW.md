@@ -6,6 +6,11 @@ Review this file monthly. Resolve items by editing the wiki, merging pages, or u
 
 ## Open Items
 
+- **[2026-08-27]** GLOF ontology definition is narrower than the vetted event evidence
+  - The current ontology describes a GLOF only as failure of a moraine-dammed lake, while the 2024 Thame investigation documents a cascade involving bedrock-dammed lakes and the 2025 Rasuwa situation report identifies rapid discharge from a supraglacial lake.
+  - Proposed action: human-review a broader canonical definition covering glacier-related lakes and moraine, ice and bedrock controls, while retaining a clear boundary from ice avalanches, rock-ice avalanches and other high-mountain floods that do not involve a lake outburst.
+  - Flagged by: Codex — historical GLOF evidence pass
+
 - **[2026-07-10]** Capital-markets evidence: IPO and rights-share claims need issuer-level primary-document reconciliation
   - Approved-prospectus use-of-proceeds extraction is complete for the bounded four-issuer cohort: Ankhu Khola, Joshi Hydropower, People's Power and Terhathum Power. Every issuer assigns some rights proceeds to financing liabilities, but the expansion, repair, promoter-advance and bank-repayment mixes differ materially.
   - Post-offer evidence now shows audited rights issuance and debt reduction for Ankhu Khola, issuer-reported capital completion and long-term debt falling to zero for People's Power, and an issuer statement that Terhathum completed its rights issue and used proceeds to repay long-term bank borrowing. People's Power and Terhathum evidence remains unaudited at the current reporting cutoff.

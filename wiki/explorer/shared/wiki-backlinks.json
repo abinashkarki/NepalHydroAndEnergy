@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 317,
-  "total_refs": 2530,
+  "total_targets": 321,
+  "total_refs": 2547,
   "backlinks": {
     "buildability": [
       {
@@ -358,7 +358,7 @@
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
-        "context": "3. **Insurance, financing, and EPC risk** feed back into buildability: projects that look attractive on LCOE spreadsheets can fai…",
+        "context": "…ropower planning, GLOF exposure connects physical hazard to buildability. Historical gauge records remain useful, but they do not by…",
         "target_exists": true
       },
       {
@@ -1481,6 +1481,13 @@
         "target_exists": true
       },
       {
+        "slug": "icimod-ndrrma-thame-glof-2024",
+        "title": "Thame Valley GLOF 2024 — Causes, Impacts and Future Risks",
+        "category": "sources",
+        "context": "…ferences on koshi-basin and provides hazard context for dudhkoshi-storage, without establishing the design basis or exposure of that…",
+        "target_exists": true
+      },
+      {
         "slug": "andhi-khola",
         "title": "Andhi Khola",
         "category": "entities",
@@ -1540,7 +1547,7 @@
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
-        "context": "Storage concepts in high-hazard reaches—dudhkoshi-storage is a prominent example—must therefore integrate **landscape…",
+        "context": "dudhkoshi-storage",
         "target_exists": true
       },
       {
@@ -3349,6 +3356,27 @@
         "target_exists": true
       },
       {
+        "slug": "ndrrma-rasuwa-glacial-flood-sitrep-2025",
+        "title": "NDRRMA Rasuwa Glacial Flood Situation Report 1 (2025)",
+        "category": "sources",
+        "context": "…early-government source for the 2025 historical example on glof-risk and for the event context recorded on rasuwagadhi.",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-engineering-annual-report-2081-82",
+        "title": "NEA Engineering Company Annual Report FY 2081/82",
+        "category": "sources",
+        "context": "…nfrastructure consequences described in the 2025 example on glof-risk.",
+        "target_exists": true
+      },
+      {
+        "slug": "icimod-ndrrma-thame-glof-2024",
+        "title": "Thame Valley GLOF 2024 — Causes, Impacts and Future Risks",
+        "category": "sources",
+        "context": "This is the direct technical source for the 2024 example on glof-risk. It also supports the event-specific references on [[koshi-…",
+        "target_exists": true
+      },
+      {
         "slug": "dudhkoshi-storage",
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
@@ -3360,6 +3388,13 @@
         "title": "Koshi Basin",
         "category": "entities",
         "context": "**glof-risk** — the 2024 Thame Valley GLOF traveled >80 km down the Dud…",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "glof-risk",
         "target_exists": true
       },
       {
@@ -5030,7 +5065,7 @@
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
-        "context": "The same deglaciation dynamics that define the peak-water window also **produce** unstable lakes. Mitigation (lowerin…",
+        "context": "peak-water",
         "target_exists": true
       },
       {
@@ -5082,6 +5117,13 @@
         "title": "ICIMOD Threats to the Koshi River Basin",
         "category": "sources",
         "context": "…ediment dynamics, erosion, and environmental threats in the koshi-basin. Provides the evidence base for treating sediment as a cent…",
+        "target_exists": true
+      },
+      {
+        "slug": "icimod-ndrrma-thame-glof-2024",
+        "title": "Thame Valley GLOF 2024 — Causes, Impacts and Future Risks",
+        "category": "sources",
+        "context": "…f-risk]]. It also supports the event-specific references on koshi-basin and provides hazard context for dudhkoshi-storage, with…",
         "target_exists": true
       },
       {
@@ -5305,7 +5347,7 @@
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
-        "context": "…pping with sediment-as-design-constraint in basins like koshi-basin.",
+        "context": "koshi-basin",
         "target_exists": true
       },
       {
@@ -5666,7 +5708,7 @@
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
-        "context": "…wear, intake burial, and channel avulsion—overlapping with sediment-as-design-constraint in basins like koshi-basin.",
+        "context": "…reate secondary surges. These processes link GLOF hazard to sediment-as-design-constraint and to the wider hydrological uncertainty described in [[cl…",
         "target_exists": true
       },
       {
@@ -8992,6 +9034,50 @@
         "target_exists": true
       }
     ],
+    "rasuwagadhi": [
+      {
+        "slug": "ppa-data-retrieval-icra-care-2026",
+        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "category": "sources",
+        "context": "rasuwagadhi",
+        "target_exists": true
+      },
+      {
+        "slug": "ndrrma-rasuwa-glacial-flood-sitrep-2025",
+        "title": "NDRRMA Rasuwa Glacial Flood Situation Report 1 (2025)",
+        "category": "sources",
+        "context": "…mple on glof-risk and for the event context recorded on rasuwagadhi.",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-engineering-annual-report-2081-82",
+        "title": "NEA Engineering Company Annual Report FY 2081/82",
+        "category": "sources",
+        "context": "…issioning, flood-damage and partial-restoration timeline on rasuwagadhi. Together with the government situation report, it supports…",
+        "target_exists": true
+      },
+      {
+        "slug": "ratmate-rasuwagadhi-kerung-400kv",
+        "title": "Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line",
+        "category": "entities",
+        "context": "Even as a survey-stage line, it belongs with rasuwagadhi and",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…(see gandaki-basin). The adjacent Bhote Koshi corridor (rasuwagadhi, madhya-bhotekoshi, upper-bhotekoshi) shares transm…",
+        "target_exists": true
+      },
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "The 111 MW rasuwagadhi plant had entered commercial operation in January 2025. NEA…",
+        "target_exists": true
+      }
+    ],
     "hetauda-dhalkebar-inaruwa-backbone": [
       {
         "slug": "nea-hddi-construction-notices-july-2026",
@@ -10279,29 +10365,6 @@
         "title": "Q-Design Discharge",
         "category": "concepts",
         "context": "…ariff gap but a billing-architecture subsidy, documented in chilime and nea-triple-authority.",
-        "target_exists": true
-      }
-    ],
-    "rasuwagadhi": [
-      {
-        "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
-        "category": "sources",
-        "context": "rasuwagadhi",
-        "target_exists": true
-      },
-      {
-        "slug": "ratmate-rasuwagadhi-kerung-400kv",
-        "title": "Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line",
-        "category": "entities",
-        "context": "Even as a survey-stage line, it belongs with rasuwagadhi and",
-        "target_exists": true
-      },
-      {
-        "slug": "trishuli-cascade",
-        "title": "Trishuli Cascade",
-        "category": "entities",
-        "context": "…(see gandaki-basin). The adjacent Bhote Koshi corridor (rasuwagadhi, madhya-bhotekoshi, upper-bhotekoshi) shares transm…",
         "target_exists": true
       }
     ],
@@ -15211,6 +15274,38 @@
         "target_exists": true
       }
     ],
+    "ndrrma-rasuwa-glacial-flood-sitrep-2025": [
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "…causal and damage investigations were still under way. See ndrrma-rasuwa-glacial-flood-sitrep-2025.",
+        "target_exists": true
+      },
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…ailed causal and damage investigations were continuing. See ndrrma-rasuwa-glacial-flood-sitrep-2025.",
+        "target_exists": true
+      }
+    ],
+    "nea-engineering-annual-report-2081-82": [
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "…al rehabilitation completion or later operating status. See nea-engineering-annual-report-2081-82.",
+        "target_exists": true
+      },
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…under available dry-season discharge from 25 December. See nea-engineering-annual-report-2081-82.",
+        "target_exists": true
+      }
+    ],
     "sahas-urja-progress-report-w010": [
       {
         "slug": "sahas-urja",
@@ -16838,6 +16933,77 @@
         "target_exists": true
       }
     ],
+    "claim-climate-harder-not-easier": [
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…nt]] and to the wider hydrological uncertainty described in claim-climate-harder-not-easier.",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "| 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | intervention-q-design-climate-adjustment |",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
+        "category": "interventions",
+        "context": "claim-climate-harder-not-easier",
+        "target_exists": true
+      }
+    ],
+    "icimod-ndrrma-thame-glof-2024": [
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…e investigation, not only the initial rapid assessment. See icimod-ndrrma-thame-glof-2024.",
+        "target_exists": true
+      }
+    ],
+    "icimod-hkh-glacier-change": [
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "icimod-hkh-glacier-change — regional glacier-change context",
+        "target_exists": true
+      },
+      {
+        "slug": "peak-water",
+        "title": "Peak Water",
+        "category": "concepts",
+        "context": "…basin]] pages; cryosphere evidence synthesis is anchored on icimod-hkh-glacier-change.",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-climate-harder-not-easier",
+        "title": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
+        "category": "claims",
+        "context": "**HKH cryosphere signal:** icimod-hkh-glacier-change context: glacier area decline on the order of **~12%** betw…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
+        "category": "interventions",
+        "context": "icimod-hkh-glacier-change provides regional evidence of glacier loss and scenario-dep…",
+        "target_exists": true
+      }
+    ],
+    "icimod-koshi-sediment-threats": [
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "icimod-koshi-sediment-threats — Koshi sediment and hazard context",
+        "target_exists": true
+      }
+    ],
     "green-hydrogen-roadmap-nepal": [
       {
         "slug": "green-hydrogen-nepal",
@@ -16994,29 +17160,6 @@
         "title": "Decision Dossier — Power-System Role Separation and Open Access",
         "category": "interventions",
         "context": "institutions-finance-and-project-delivery",
-        "target_exists": true
-      }
-    ],
-    "icimod-hkh-glacier-change": [
-      {
-        "slug": "peak-water",
-        "title": "Peak Water",
-        "category": "concepts",
-        "context": "…basin]] pages; cryosphere evidence synthesis is anchored on icimod-hkh-glacier-change.",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-climate-harder-not-easier",
-        "title": "Climate Change Increases Volatility and Resilience Risk, Not a Simple \"More Water\" Win",
-        "category": "claims",
-        "context": "**HKH cryosphere signal:** icimod-hkh-glacier-change context: glacier area decline on the order of **~12%** betw…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-q-design-climate-adjustment",
-        "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
-        "category": "interventions",
-        "context": "icimod-hkh-glacier-change provides regional evidence of glacier loss and scenario-dep…",
         "target_exists": true
       }
     ],
@@ -17412,22 +17555,6 @@
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
         "context": "…sition]] (build domestic demand to absorb monsoon surplus); intervention-q-design-climate-adjustment (mandate climate-adjusted hydrology before licensing the Ph…",
-        "target_exists": true
-      }
-    ],
-    "claim-climate-harder-not-easier": [
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "| 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | intervention-q-design-climate-adjustment |",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-q-design-climate-adjustment",
-        "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
-        "category": "interventions",
-        "context": "claim-climate-harder-not-easier",
         "target_exists": true
       }
     ],

@@ -86,6 +86,10 @@
         "title": "ICIMOD Threats to the Koshi River Basin"
       },
       {
+        "slug": "icimod-ndrrma-thame-glof-2024",
+        "title": "Thame Valley GLOF 2024 \u2014 Causes, Impacts and Future Risks"
+      },
+      {
         "slug": "icra-nepal-surveillance-a996-b119",
         "title": "\"ICRA Nepal \u2014 Surveillance Rating A996/B119\""
       },
@@ -142,8 +146,16 @@
         "title": "National Water Plan, Nepal"
       },
       {
+        "slug": "ndrrma-rasuwa-glacial-flood-sitrep-2025",
+        "title": "NDRRMA Rasuwa Glacial Flood Situation Report 1 (2025)"
+      },
+      {
         "slug": "nea-annual-report-fy2024-25",
         "title": "NEA Annual Report FY 2024/25"
+      },
+      {
+        "slug": "nea-engineering-annual-report-2081-82",
+        "title": "NEA Engineering Company Annual Report FY 2081/82"
       },
       {
         "slug": "nea-generation-directorate-2081",
@@ -1709,6 +1721,7 @@
     "icimod-hkh-glacier-change",
     "icimod-koshi-basin",
     "icimod-koshi-sediment-threats",
+    "icimod-ndrrma-thame-glof-2024",
     "icra-nepal-surveillance-a996-b119",
     "icra-upper-karnali-2026",
     "iea-tracking-sdg7-2025",
@@ -1723,7 +1736,9 @@
     "mugu-karnali-feasibility-2025",
     "myrepublica-pac-chameliya",
     "national-water-plan-nepal",
+    "ndrrma-rasuwa-glacial-flood-sitrep-2025",
     "nea-annual-report-fy2024-25",
+    "nea-engineering-annual-report-2081-82",
     "nea-generation-directorate-2081",
     "nea-hddi-construction-notices-july-2026",
     "nea-operational-reporting-portals-2026",
@@ -2129,6 +2144,7 @@
     "icimod-hkh-glacier-change": "sources",
     "icimod-koshi-basin": "sources",
     "icimod-koshi-sediment-threats": "sources",
+    "icimod-ndrrma-thame-glof-2024": "sources",
     "icra-nepal-surveillance-a996-b119": "sources",
     "icra-upper-karnali-2026": "sources",
     "iea-tracking-sdg7-2025": "sources",
@@ -2143,7 +2159,9 @@
     "mugu-karnali-feasibility-2025": "sources",
     "myrepublica-pac-chameliya": "sources",
     "national-water-plan-nepal": "sources",
+    "ndrrma-rasuwa-glacial-flood-sitrep-2025": "sources",
     "nea-annual-report-fy2024-25": "sources",
+    "nea-engineering-annual-report-2081-82": "sources",
     "nea-generation-directorate-2081": "sources",
     "nea-hddi-construction-notices-july-2026": "sources",
     "nea-operational-reporting-portals-2026": "sources",
@@ -2549,6 +2567,7 @@
     "icimod-hkh-glacier-change": "ICIMOD HKH Glacier Change Summary",
     "icimod-koshi-basin": "ICIMOD Koshi Basin Programme",
     "icimod-koshi-sediment-threats": "ICIMOD Threats to the Koshi River Basin",
+    "icimod-ndrrma-thame-glof-2024": "Thame Valley GLOF 2024 \u2014 Causes, Impacts and Future Risks",
     "icra-nepal-surveillance-a996-b119": "\"ICRA Nepal \u2014 Surveillance Rating A996/B119\"",
     "icra-upper-karnali-2026": "ICRA GMR Energy Rating Rationale \u2014 Upper Karnali (June 2026)",
     "iea-tracking-sdg7-2025": "IEA / Tracking SDG7 Energy Progress Report 2025",
@@ -2563,7 +2582,9 @@
     "mugu-karnali-feasibility-2025": "Mugu Karnali Storage \u2014 Feasibility, Bids & EOI Record (2024\u20132025)",
     "myrepublica-pac-chameliya": "\"My Republica \u2014 PAC Chameliya Investigation\"",
     "national-water-plan-nepal": "National Water Plan, Nepal",
+    "ndrrma-rasuwa-glacial-flood-sitrep-2025": "NDRRMA Rasuwa Glacial Flood Situation Report 1 (2025)",
     "nea-annual-report-fy2024-25": "NEA Annual Report FY 2024/25",
+    "nea-engineering-annual-report-2081-82": "NEA Engineering Company Annual Report FY 2081/82",
     "nea-generation-directorate-2081": "\"NEA Generation Directorate Data \u2014 FY 2080/81\"",
     "nea-hddi-construction-notices-july-2026": "NEA Hetauda\u2013Dhalkebar Construction Notices, July 2026",
     "nea-operational-reporting-portals-2026": "NEA Operational-Reporting Portals (2026)",
@@ -2947,5 +2968,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 418
+  "totalPages": 421
 }

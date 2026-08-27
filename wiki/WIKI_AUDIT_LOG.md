@@ -2153,6 +2153,29 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-08-27 — Historical GLOF Evidence Pass
+
+**Agent:** Codex
+**Session type:** Historical source and entity reconciliation
+
+**Pages touched:**
+- `sources/icimod-ndrrma-thame-glof-2024`: added the later field-and-satellite reconstruction of the August 2024 two-lake cascade, downstream debris transport and documented damage.
+- `sources/ndrrma-rasuwa-glacial-flood-sitrep-2025`: added the early government situation report for the July 2025 supraglacial-lake discharge and its explicitly preliminary damage record.
+- `sources/nea-engineering-annual-report-2081-82`: added the institutional commissioning, flood-damage and partial-restoration record for Rasuwagadhi and the Trishuli 3B Hub.
+- `concepts/glof-risk`: replaced the moraine-only framing with an evidence-bounded explanation of glacier-related lakes, added the 2024 and 2025 historical examples, and distinguished GLOFs from other high-mountain flood mechanisms.
+- `entities/rasuwagadhi`: corrected the stale construction status to January 2025 commercial commissioning, documented the July interruption and December partial return, and kept later operating status explicitly unknown.
+
+**Validation result:** Rebuilt the page, metadata, backlink, lexical-search and vector indexes for 421 pages. `make validate`, the focused wiki-search and source-backlink tests, and `git diff --check` passed in a clean branch based on current `origin/main`.
+
+**Flags raised:**
+- `wiki/ONTOLOGY.md` still defines GLOF only through moraine-dam failure, which is narrower than the bedrock-dammed and supraglacial-lake evidence. The proposed broader canonical definition is logged in `wiki/FLAGGED_FOR_REVIEW.md` for human approval.
+
+**Decisions made:**
+- Per user direction, did not add the 26 August 2026 disaster while its initiating mechanism remains unresolved and the site is not serving as a breaking-news publication.
+- Preserved source-page `Used By` relationships as generated backlinks rather than manual Markdown sections.
+
+---
+
 ## Log Format for Future Sessions
 
 ```
