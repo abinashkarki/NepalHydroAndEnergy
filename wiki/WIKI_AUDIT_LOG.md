@@ -2153,6 +2153,52 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-08-27 — Historical GLOF Evidence Pass
+
+**Agent:** Codex
+**Session type:** Historical source and entity reconciliation
+
+**Pages touched:**
+- `sources/icimod-ndrrma-thame-glof-2024`: added the later field-and-satellite reconstruction of the August 2024 two-lake cascade, downstream debris transport and documented damage.
+- `sources/ndrrma-rasuwa-glacial-flood-sitrep-2025`: added the early government situation report for the July 2025 supraglacial-lake discharge and its explicitly preliminary damage record.
+- `sources/nea-engineering-annual-report-2081-82`: added the institutional commissioning, flood-damage and partial-restoration record for Rasuwagadhi and the Trishuli 3B Hub.
+- `concepts/glof-risk`: replaced the moraine-only framing with an evidence-bounded explanation of glacier-related lakes, added the 2024 and 2025 historical examples, and distinguished GLOFs from other high-mountain flood mechanisms.
+- `entities/rasuwagadhi`: corrected the stale construction status to January 2025 commercial commissioning, documented the July interruption and December partial return, and kept later operating status explicitly unknown.
+
+**Validation result:** Rebuilt the page, metadata, backlink, lexical-search and vector indexes for 421 pages. `make validate`, the focused wiki-search and source-backlink tests, and `git diff --check` passed in a clean branch based on current `origin/main`.
+
+**Flags raised:**
+- `wiki/ONTOLOGY.md` still defines GLOF only through moraine-dam failure, which is narrower than the bedrock-dammed and supraglacial-lake evidence. The proposed broader canonical definition is logged in `wiki/FLAGGED_FOR_REVIEW.md` for human approval.
+
+**Decisions made:**
+- Per user direction, did not add the 26 August 2026 disaster while its initiating mechanism remains unresolved and the site is not serving as a breaking-news publication.
+- Preserved source-page `Used By` relationships as generated backlinks rather than manual Markdown sections.
+
+---
+
+## 2026-08-28 — Unified Wiki Route Pilot
+
+**Agent:** Codex with three Luna review sub-agents
+**Session type:** Generated clean-route and explorer-bootstrap validation pilot
+
+**Pages touched:**
+- No additional governed wiki Markdown content was changed in this pass.
+- Generated clean-route HTML for `glof-risk`, `rasuwagadhi`, `icimod-ndrrma-thame-glof-2024`, `ndrrma-rasuwa-glacial-flood-sitrep-2025` and `nea-engineering-annual-report-2081-82`.
+
+**Implementation:** Added a bounded five-slug generator that copies the existing explorer shell, injects query-free canonical metadata, structured data, bootstrap state and crawlable article HTML, then hydrates the same page inside the unified reader/map experience. Route-aware links use clean URLs for pilot subjects and retain explorer-query fallbacks outside the pilot. After human approval for the bounded release, promoted the five route outputs, pilot manifest and pilot sitemap to deployable production assets without expanding the slug inventory.
+
+**Validation result:** `make release-check` passed on a clean branch from current `origin/main`: 421 wiki pages, 3,318 vector chunks, 93 Python tests, the JavaScript search-intent suite, release-record validation and 30 generated-asset ownership entries. Focused static tests initially passed all 12 route contracts; release due diligence added a thirteenth contract requiring a clean route's bootstrap slug to override any conflicting legacy `?page=` value. Browser checks covered all five clean routes, exact title/canonical/H1/bootstrap alignment, desktop and 390×844 mobile layouts, Rasuwagadhi map focus, non-spatial sources, Back/Forward, legacy query compatibility, same-origin asset loading and an unknown-route 404 with zero application console errors.
+
+**Flags raised:**
+- Production hosting is owned outside this repository. Domain-root sitemap/robots handling, legacy redirects and branded 404 behavior remain separate SEO and host-integration decisions; they do not block the approved five-page nested-route pilot.
+
+**Decisions made:**
+- Kept the pilot inventory immutable at exactly five pages and preserved the existing explorer as the single reader experience.
+- Approved the bounded five-page pilot for production while retaining the approval gate before any full-wiki expansion.
+- Made a clean subject route authoritative over a conflicting legacy `?page=` parameter so document content, reader state and canonical metadata cannot diverge.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

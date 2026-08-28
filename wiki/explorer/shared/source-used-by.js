@@ -23,8 +23,11 @@ function cleanContext(value) {
 function backlinkRow(r, spatialSlugs) {
   const sp = spatialSlugs && spatialSlugs.has(r.slug) ? " spatial" : "";
   const context = cleanContext(r.context);
+  const linkAttrs = window.NepalExplorer && window.NepalExplorer.wikiPageLinkAttrs
+    ? window.NepalExplorer.wikiPageLinkAttrs(r.slug)
+    : `href="/wiki/explorer/?page=${encodeURIComponent(r.slug)}"`;
   return `<li class="backlink-item">
-    <a class="wikilink${sp}" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${escapeHtml(r.slug)}')">${escapeHtml(r.title)}</a>
+    <a class="wikilink${sp}" ${linkAttrs}>${escapeHtml(r.title)}</a>
     ${context ? `<div class="backlink-context">${escapeHtml(context)}</div>` : ""}
   </li>`;
 }

@@ -267,13 +267,20 @@ function popupHTML(props, popupFields, opts = {}) {
   let cta = "";
   if (opts.wikiSlug) {
     const escSlug = escapeHtml(opts.wikiSlug);
+    const cleanRoutes = new Set(window.__WIKI_CLEAN_ROUTE_SLUGS__ || []);
+    const href = cleanRoutes.has(opts.wikiSlug)
+      ? `/wiki/${encodeURIComponent(opts.wikiSlug)}/`
+      : `/wiki/explorer/?page=${encodeURIComponent(opts.wikiSlug)}`;
+    const clickAttr = cleanRoutes.has(opts.wikiSlug)
+      ? ""
+      : ` onclick="event.preventDefault(); window.openWikiPage && window.openWikiPage('${escSlug}')"`;
     const isCurrent = opts.currentSlug && opts.currentSlug === opts.wikiSlug;
     if (isCurrent) {
-      cta = `<a class="popup-cta popup-cta-current" href="javascript:void(0)"
+      cta = `<a class="popup-cta popup-cta-current" href="${href}"
                title="Reopen / scroll to top"
-               onclick="window.openWikiPage && window.openWikiPage('${escSlug}')">✓ Showing in reader</a>`;
+               ${clickAttr}>✓ Showing in reader</a>`;
     } else {
-      cta = `<a class="popup-cta" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${escSlug}')">Open wiki page →</a>`;
+      cta = `<a class="popup-cta" href="${href}"${clickAttr}>Open wiki page →</a>`;
     }
   } else if (opts.allowDraft) {
     cta = `<span class="popup-no-page" title="This feature is available on the map but does not yet have a wiki page.">Map data only · no wiki page yet</span>`;
