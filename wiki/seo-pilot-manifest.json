@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "mode": "unified-explorer-route-pilot",
+  "discovery_status": "not-advertised-pending-host-review",
+  "root_robots_owner": "TransparentGov deployment project (outside this repository)",
+  "total_wiki_pages": 421,
+  "generated_pages": 5,
+  "pages": [
+    {
+      "slug": "glof-risk",
+      "category": "concepts",
+      "title": "GLOF Risk",
+      "updated": "2026-08-27",
+      "source": "wiki/pages/concepts/glof-risk.md",
+      "output": "wiki/glof-risk/index.html",
+      "canonical": "https://transparentgov.ai/wiki/glof-risk/",
+      "explorer_url": "/wiki/explorer/?page=glof-risk",
+      "description": "A glacial lake outburst flood (GLOF) is a sudden release of water from a glacier-related lake. The lake may sit on, beside or below a glacier and may be…"
+    },
+    {
+      "slug": "rasuwagadhi",
+      "category": "entities",
+      "title": "Rasuwagadhi",
+      "updated": "2026-08-27",
+      "source": "wiki/pages/entities/rasuwagadhi.md",
+      "output": "wiki/rasuwagadhi/index.html",
+      "canonical": "https://transparentgov.ai/wiki/rasuwagadhi/",
+      "explorer_url": "/wiki/explorer/?page=rasuwagadhi",
+      "description": "Rasuwagadhi is a 111 MW Bhote Koshi run-of-river project in Rasuwa, developed within the Chilime/NEA subsidiary structure. NEA Engineering records commercial…"
+    },
+    {
+      "slug": "icimod-ndrrma-thame-glof-2024",
+      "category": "sources",
+      "title": "Thame Valley GLOF 2024 — Causes, Impacts and Future Risks",
+      "updated": "2026-08-27",
+      "source": "wiki/pages/sources/icimod-ndrrma-thame-glof-2024.md",
+      "output": "wiki/icimod-ndrrma-thame-glof-2024/index.html",
+      "canonical": "https://transparentgov.ai/wiki/icimod-ndrrma-thame-glof-2024/",
+      "explorer_url": "/wiki/explorer/?page=icimod-ndrrma-thame-glof-2024",
+      "description": "This 2025 technical publication by ICIMOD and Nepal's National Disaster Risk Reduction and Management Authority documents the 16 August 2024 Thame Valley…"
+    },
+    {
+      "slug": "ndrrma-rasuwa-glacial-flood-sitrep-2025",
+      "category": "sources",
+      "title": "NDRRMA Rasuwa Glacial Flood Situation Report 1 (2025)",
+      "updated": "2026-08-27",
+      "source": "wiki/pages/sources/ndrrma-rasuwa-glacial-flood-sitrep-2025.md",
+      "output": "wiki/ndrrma-rasuwa-glacial-flood-sitrep-2025/index.html",
+      "canonical": "https://transparentgov.ai/wiki/ndrrma-rasuwa-glacial-flood-sitrep-2025/",
+      "explorer_url": "/wiki/explorer/?page=ndrrma-rasuwa-glacial-flood-sitrep-2025",
+      "description": "This two-page Government of Nepal situation report records the early official assessment of the 8 July 2025 Rasuwa flood. It combines a situation overview,…"
+    },
+    {
+      "slug": "nea-engineering-annual-report-2081-82",
+      "category": "sources",
+      "title": "NEA Engineering Company Annual Report FY 2081/82",
+      "updated": "2026-08-27",
+      "source": "wiki/pages/sources/nea-engineering-annual-report-2081-82.md",
+      "output": "wiki/nea-engineering-annual-report-2081-82/index.html",
+      "canonical": "https://transparentgov.ai/wiki/nea-engineering-annual-report-2081-82/",
+      "explorer_url": "/wiki/explorer/?page=nea-engineering-annual-report-2081-82",
+      "description": "NEA Engineering Company Limited's FY 2081/82 annual report covers its financial position and engineering assignments. Its damaged-assessment and restoration…"
+    }
+  ]
+}

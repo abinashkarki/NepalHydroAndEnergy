@@ -2176,6 +2176,28 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-08-28 — Unified Wiki Route Pilot
+
+**Agent:** Codex with three Luna review sub-agents
+**Session type:** Generated clean-route and explorer-bootstrap validation pilot
+
+**Pages touched:**
+- No additional governed wiki Markdown content was changed in this pass.
+- Generated clean-route HTML for `glof-risk`, `rasuwagadhi`, `icimod-ndrrma-thame-glof-2024`, `ndrrma-rasuwa-glacial-flood-sitrep-2025` and `nea-engineering-annual-report-2081-82`.
+
+**Implementation:** Added a bounded five-slug generator that copies the existing explorer shell, injects query-free canonical metadata, structured data, bootstrap state and crawlable article HTML, then hydrates the same page inside the unified reader/map experience. Route-aware links use clean URLs for pilot subjects and retain explorer-query fallbacks outside the pilot. Generated route outputs, the pilot sitemap and their ownership records remain explicitly nondeployable pending host review.
+
+**Validation result:** `make release-check` passed on a clean branch from current `origin/main`: 421 wiki pages, 3,318 vector chunks, 93 Python tests, the JavaScript search-intent suite, release-record validation and 30 generated-asset ownership entries. Focused static tests passed all 12 route contracts, including bootstrap and spatial/non-spatial binding assertions. Browser checks covered all five clean routes, exact title/canonical/H1/bootstrap alignment, desktop and 390×844 mobile layouts, Rasuwagadhi map focus, non-spatial sources, Back/Forward, legacy query compatibility, same-origin asset loading and an unknown-route 404 with zero application console errors.
+
+**Flags raised:**
+- Production hosting is owned outside this repository. Nested-route publication, production sitemap/robots handling, legacy redirects and branded 404 behavior remain a separate host-integration and merge approval.
+
+**Decisions made:**
+- Kept the pilot inventory immutable at exactly five pages and preserved the existing explorer as the single reader experience.
+- Did not merge to `main`, deploy the pilot, expand the generator to the full wiki or advertise the review-only sitemap.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

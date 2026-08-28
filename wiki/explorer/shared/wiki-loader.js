@@ -20,6 +20,20 @@ const PAGE_INDEX_CACHE = { built: false, byCategory: {}, allSlugs: [], slugToCat
 const BACKLINKS_CACHE = { built: false, map: {} };
 const CLAIM_GOVERNANCE_CACHE = { built: false, bySlug: {} };
 
+function wikiPageHref(slug) {
+  const cleanRoutes = new Set(window.__WIKI_CLEAN_ROUTE_SLUGS__ || []);
+  return cleanRoutes.has(slug)
+    ? `/wiki/${encodeURIComponent(slug)}/`
+    : `/wiki/explorer/?page=${encodeURIComponent(slug)}`;
+}
+
+function wikiPageLinkAttrs(slug, onClickAttr = "openWikiPage") {
+  const cleanRoutes = new Set(window.__WIKI_CLEAN_ROUTE_SLUGS__ || []);
+  const href = wikiPageHref(slug);
+  if (cleanRoutes.has(slug)) return `href="${escapeHtml(href)}"`;
+  return `href="${escapeHtml(href)}" onclick="event.preventDefault(); window.${onClickAttr} && window.${onClickAttr}('${escapeHtml(slug)}')"`;
+}
+
 // Cache-bust JSON fetches with the release token instead of per-page-load
 // timestamps so production browsers can reuse wiki metadata across reloads.
 const _WL_CB = (() => {
@@ -244,7 +258,7 @@ function renderSourceProvenance(frontmatter) {
 }
 
 function wikiPageLink(slug, title) {
-  return `<a class="evidence-source-link" href="?page=${encodeURIComponent(slug)}" onclick="event.preventDefault();window.openWikiPage && window.openWikiPage('${escapeHtml(slug)}')">${escapeHtml(title || slug)}</a>`;
+  return `<a class="evidence-source-link" ${wikiPageLinkAttrs(slug)}>${escapeHtml(title || slug)}</a>`;
 }
 
 function renderClaimGovernance(slug, frontmatter = "", idx = PAGE_INDEX_CACHE) {
@@ -415,7 +429,7 @@ function rewriteWikilinks(html, slugIndex, spatialSlugs, onClickAttr = "openWiki
     const klass = ["wikilink"];
     if (!known) klass.push("broken");
     if (spatialSlugs && spatialSlugs.has(slug)) klass.push("spatial");
-    return `<a class="${klass.join(" ")}" href="javascript:void(0)" onclick="window.${onClickAttr} && window.${onClickAttr}('${slug}')">${text}</a>`;
+    return `<a class="${klass.join(" ")}" ${wikiPageLinkAttrs(slug, onClickAttr)}>${text}</a>`;
   });
 }
 
@@ -458,7 +472,7 @@ async function renderPage(slug, opts = {}) {
     const targetTitle = (idx.slugToTitle && idx.slugToTitle[target]) || target;
     supersededBanner = `<aside class="wiki-callout wiki-callout-note" style="margin-bottom:16px">
       <div class="wiki-callout-label">Updated page available</div>
-      <div class="wiki-callout-body">A more detailed page for this project exists: <a class="wikilink" href="javascript:void(0)" onclick="window.openWikiPage && window.openWikiPage('${target}')">${targetTitle}</a></div>
+      <div class="wiki-callout-body">A more detailed page for this project exists: <a class="wikilink" ${wikiPageLinkAttrs(target)}>${targetTitle}</a></div>
     </aside>`;
   }
 
@@ -486,6 +500,6 @@ async function renderPage(slug, opts = {}) {
 }
 
 window.NepalExplorer = window.NepalExplorer || {};
-Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, frontmatterScalar, frontmatterList, publicMaturity, renderPageStatus, renderSourceProvenance, renderClaimGovernance, decorateHeadingsAndBuildToc, loadBacklinks, loadClaimGovernance });
+Object.assign(window.NepalExplorer, { buildPageIndex, fetchPageMarkdown, renderPage, splitFrontmatter, rewriteWikilinks, renderCallouts, parseImagesFromFrontmatter, frontmatterScalar, frontmatterList, publicMaturity, renderPageStatus, renderSourceProvenance, renderClaimGovernance, decorateHeadingsAndBuildToc, loadBacklinks, loadClaimGovernance, wikiPageHref, wikiPageLinkAttrs });
 window.NepalExplorer._wikiLoaderLoaded = true;
 })();
