@@ -2,23 +2,24 @@
   "schema_version": 1,
   "environment": "production",
   "public_url": "https://transparentgov.ai/wiki/explorer/",
-  "release_version": "1.2.0",
+  "release_version": "1.2.1",
   "wiki_repository": "abinashkarki/NepalHydroAndEnergy",
-  "wiki_ref": "b3f4fb197d6f4bc23a19f0362f4f72974db8f39a",
-  "wiki_commit": "b3f4fb197d6f4bc23a19f0362f4f72974db8f39a",
+  "wiki_ref": "cf384691a6e168b8ea82c441df0f6c6f600f5d53",
+  "wiki_commit": "cf384691a6e168b8ea82c441df0f6c6f600f5d53",
   "transparentgov_repository": "abinashkarki/TransparentGov",
-  "transparentgov_commit": "c4dd2866a326120e6f8a975b11fa208c5ec4c73e",
-  "coolify_deployment_id": "ubqmt9kxrnwrmierny1svzd9",
-  "deployed_at": "2026-08-28T01:39:46Z",
-  "verified_at": "2026-08-28T01:43:42Z",
+  "transparentgov_commit": "ce049ca7e0ba43be024ffbe50f42354401261ea9",
+  "coolify_deployment_id": "cttnmf7ujh0i8dv4w7rygyk3",
+  "deployed_at": "2026-08-28T16:25:40Z",
+  "verified_at": "2026-08-28T16:28:35Z",
   "verification": {
     "page_count": 421,
     "assets": {
-      "wiki/explorer/index.html": "466e067c64e13bf683c501b1617f92c43bf5d08c4d81e4b675d0c1455171135a",
+      "wiki/explorer/index.html": "c2c5c32b532b5af2849e17ccc1fb9e08b1174ad4ca61d1c8c91669ac20bae332",
+      "wiki/explorer/shared/leaflet-init.js": "2d9cd678cc255e9e3a8f7ac1d44b7873f5eeb67c0571528cb9c2ca2beb7dccde",
       "wiki/explorer/shared/wiki-loader.js": "70ac05ce03bdd5c1affae449b005ce9f4a8ac4396b82d3015009e3aa0b167eae",
       "wiki/explorer/shared/wiki-page-index.json": "a9b9d228f84d3c745e064443790666ed472a4323f94cbc87feab0363a1f851bb",
       "wiki/explorer/shared/wiki-vector-index.json": "2601645cbd046e27325c2719c8d2e62155731b8d723d4a1d583bccbf48fcb680"
     }
   },
-  "notes": "Coolify production is pinned to the full wiki-v1.2.0 merge commit and was rebuilt without cache from TransparentGov commit c4dd2866a326120e6f8a975b11fa208c5ec4c73e. The production probe passed without warnings and matched four source assets, 421 pages, 666 structured facts, 3,318 vector chunks and 28 map assets; all 53 checked responses carried explicit Cache-Control headers. The five approved clean wiki routes returned HTTP 200, an unknown clean route returned a genuine 404, and desktop plus 390 x 844 mobile browser checks passed with correct canonical identity, legacy-query compatibility, Rasuwagadhi map focus, Back/Forward navigation and no console errors."
+  "notes": "Coolify production is pinned to the full wiki-v1.2.1 merge commit and was rebuilt from TransparentGov trigger commit ce049ca7e0ba43be024ffbe50f42354401261ea9 after updating NEPAL_ENERGY_REF. The production probe passed all 54 requests without warnings and matched five source assets, 421 pages, 666 structured facts, 3,318 vector chunks and 28 map assets; all 53 successful checked responses carried validators and explicit Cache-Control headers. Browser verification confirmed public-launch-12, 30 keyed CARTO tiles loaded at Retina resolution, no failed tiles, no API-key watermark and no console warnings or errors."
 }
