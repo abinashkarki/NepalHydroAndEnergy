@@ -26,12 +26,12 @@ The five slugs exercise the approved coverage:
 
 Links to pages outside the pilot continue to use `/wiki/explorer/?page=<slug>`. The legacy query route remains compatible. Redirecting or canonicalizing all legacy page queries is a deployment decision for after the full clean-route set is approved.
 
-`wiki/seo-pilot-sitemap.xml` is a review artifact, not the production sitemap. It is intentionally not advertised in a repository-local robots file. The domain-root `https://transparentgov.ai/robots.txt`, `/sitemap.xml`, redirects and 404 behavior are owned by the separate TransparentGov deployment project and must be coordinated there after this pilot passes human review and a live nested-index probe.
+`wiki/seo-pilot-sitemap.xml` is the production sitemap for this five-page pilot. It can be submitted directly after deployment, but it is not yet advertised by the domain-root robots file. Domain-root `https://transparentgov.ai/robots.txt`, `/sitemap.xml`, redirects and branded 404 behavior remain owned by the separate TransparentGov deployment project and can be coordinated in the broader SEO phase.
 
-The generated routes and manifest are marked non-deployable until human review. Before expanding beyond five pages:
+The generated routes and manifest are approved for this bounded production pilot. This approval does not authorize expansion beyond the five listed pages. Before a broader rollout:
 
 1. Confirm the deployed host serves `/wiki/<slug>/index.html` as `/wiki/<slug>/`.
 2. Confirm invalid routes return a real 404.
-3. Approve the unified explorer experience and decide redirect timing for `/wiki/explorer/?page=<slug>`.
-4. Publish the full 406-page sitemap through the domain-root deployment.
+3. Decide redirect timing for `/wiki/explorer/?page=<slug>`.
+4. Publish a full-wiki sitemap through the domain-root deployment.
 5. Submit the sitemap and monitor indexing through Search Console.

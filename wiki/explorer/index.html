@@ -5584,7 +5584,10 @@
         const params = new URLSearchParams(location.search);
         return {
           preset: params.get("preset"),
-          page: params.get("page") || (routeBootstrap && routeBootstrap.slug) || null,
+          // A clean subject route owns its document identity. Ignore a
+          // conflicting legacy ?page= value so the rendered article, explorer
+          // state and canonical URL can never describe different subjects.
+          page: (routeBootstrap && routeBootstrap.slug) || params.get("page") || null,
           fact: params.get("fact"),
           q: params.get("q"),
           filter: params.get("filter"),

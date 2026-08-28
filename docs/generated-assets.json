@@ -62,49 +62,49 @@
       "command": "node scripts/build_wiki_seo.js",
       "inputs": ["wiki/seo-pilot-slugs.json", "wiki/explorer/index.html", "wiki/pages/**/*.md", "wiki/explorer/shared/wiki-page-meta.json", "wiki/explorer/shared/wiki-backlinks.json"],
       "committed": true,
-      "deployable": false
+      "deployable": true
     },
     "wiki/rasuwagadhi/index.html": {
       "owner": "scripts/build_wiki_seo.js",
       "command": "node scripts/build_wiki_seo.js",
       "inputs": ["wiki/seo-pilot-slugs.json", "wiki/explorer/index.html", "wiki/pages/**/*.md", "wiki/explorer/shared/wiki-page-meta.json", "wiki/explorer/shared/wiki-backlinks.json"],
       "committed": true,
-      "deployable": false
+      "deployable": true
     },
     "wiki/icimod-ndrrma-thame-glof-2024/index.html": {
       "owner": "scripts/build_wiki_seo.js",
       "command": "node scripts/build_wiki_seo.js",
       "inputs": ["wiki/seo-pilot-slugs.json", "wiki/explorer/index.html", "wiki/pages/**/*.md", "wiki/explorer/shared/wiki-page-meta.json", "wiki/explorer/shared/wiki-backlinks.json"],
       "committed": true,
-      "deployable": false
+      "deployable": true
     },
     "wiki/ndrrma-rasuwa-glacial-flood-sitrep-2025/index.html": {
       "owner": "scripts/build_wiki_seo.js",
       "command": "node scripts/build_wiki_seo.js",
       "inputs": ["wiki/seo-pilot-slugs.json", "wiki/explorer/index.html", "wiki/pages/**/*.md", "wiki/explorer/shared/wiki-page-meta.json", "wiki/explorer/shared/wiki-backlinks.json"],
       "committed": true,
-      "deployable": false
+      "deployable": true
     },
     "wiki/nea-engineering-annual-report-2081-82/index.html": {
       "owner": "scripts/build_wiki_seo.js",
       "command": "node scripts/build_wiki_seo.js",
       "inputs": ["wiki/seo-pilot-slugs.json", "wiki/explorer/index.html", "wiki/pages/**/*.md", "wiki/explorer/shared/wiki-page-meta.json", "wiki/explorer/shared/wiki-backlinks.json"],
       "committed": true,
-      "deployable": false
+      "deployable": true
     },
     "wiki/seo-pilot-manifest.json": {
       "owner": "scripts/build_wiki_seo.js",
       "command": "node scripts/build_wiki_seo.js",
       "inputs": ["wiki/seo-pilot-slugs.json", "wiki/explorer/index.html", "wiki/pages/**/*.md", "wiki/explorer/shared/wiki-page-meta.json", "wiki/explorer/shared/wiki-backlinks.json"],
       "committed": true,
-      "deployable": false
+      "deployable": true
     },
     "wiki/seo-pilot-sitemap.xml": {
       "owner": "scripts/build_wiki_seo.js",
       "command": "node scripts/build_wiki_seo.js",
       "inputs": ["wiki/seo-pilot-slugs.json", "wiki/explorer/index.html", "wiki/pages/**/*.md", "wiki/explorer/shared/wiki-page-meta.json"],
       "committed": true,
-      "deployable": false
+      "deployable": true
     },
     "data/processed/maps/*.geojson": {
       "owner": "scripts/build_tributary_maps.py and related map builders",

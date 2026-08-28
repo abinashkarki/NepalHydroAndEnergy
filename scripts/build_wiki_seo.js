@@ -310,7 +310,7 @@ function expectedOutputs() {
   const manifest = `${JSON.stringify({
     version: 1,
     mode: "unified-explorer-route-pilot",
-    discovery_status: "not-advertised-pending-host-review",
+    discovery_status: "approved-five-page-production-pilot",
     root_robots_owner: "TransparentGov deployment project (outside this repository)",
     total_wiki_pages: (pageIndex.allSlugs || []).length,
     generated_pages: manifestPages.length,

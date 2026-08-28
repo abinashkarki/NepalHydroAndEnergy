@@ -114,6 +114,10 @@ class StaticSeoPilotTests(unittest.TestCase):
         self.assertEqual(5, len(self.slugs))
         self.assertEqual(len(self.slugs), len(set(self.slugs)))
         self.assertEqual("unified-explorer-route-pilot", self.manifest["mode"])
+        self.assertEqual(
+            "approved-five-page-production-pilot",
+            self.manifest["discovery_status"],
+        )
         self.assertEqual(self.slugs, [page["slug"] for page in self.manifest["pages"]])
         self.assertEqual(5, self.manifest["generated_pages"])
         for slug in self.slugs:
@@ -204,7 +208,7 @@ class StaticSeoPilotTests(unittest.TestCase):
     def test_explorer_bootstrap_runtime_contract(self) -> None:
         required_fragments = (
             "const routeBootstrap = window.__WIKI_ROUTE_BOOTSTRAP__ || null",
-            "params.get(\"page\") || (routeBootstrap && routeBootstrap.slug) || null",
+            "(routeBootstrap && routeBootstrap.slug) || params.get(\"page\") || null",
             "window.openWikiPage(url.page, { initialLoad: true })",
             "location.assign(wikiPageHref(slug))",
             "const isBootstrappedSubject = Boolean(routeBootstrap && currentSlug === routeBootstrap.slug)",
@@ -212,6 +216,16 @@ class StaticSeoPilotTests(unittest.TestCase):
         )
         for fragment in required_fragments:
             self.assertIn(fragment, EXPLORER_SOURCE)
+
+    def test_clean_route_identity_wins_over_conflicting_legacy_query(self) -> None:
+        authoritative_expression = (
+            '(routeBootstrap && routeBootstrap.slug) || params.get("page") || null'
+        )
+        conflicting_expression = (
+            'params.get("page") || (routeBootstrap && routeBootstrap.slug) || null'
+        )
+        self.assertIn(authoritative_expression, EXPLORER_SOURCE)
+        self.assertNotIn(conflicting_expression, EXPLORER_SOURCE)
 
     def test_spatial_and_non_spatial_binding_contract(self) -> None:
         pages = BINDINGS["pages"]

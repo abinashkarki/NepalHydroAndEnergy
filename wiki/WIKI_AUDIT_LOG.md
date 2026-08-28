@@ -2185,16 +2185,17 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 - No additional governed wiki Markdown content was changed in this pass.
 - Generated clean-route HTML for `glof-risk`, `rasuwagadhi`, `icimod-ndrrma-thame-glof-2024`, `ndrrma-rasuwa-glacial-flood-sitrep-2025` and `nea-engineering-annual-report-2081-82`.
 
-**Implementation:** Added a bounded five-slug generator that copies the existing explorer shell, injects query-free canonical metadata, structured data, bootstrap state and crawlable article HTML, then hydrates the same page inside the unified reader/map experience. Route-aware links use clean URLs for pilot subjects and retain explorer-query fallbacks outside the pilot. Generated route outputs, the pilot sitemap and their ownership records remain explicitly nondeployable pending host review.
+**Implementation:** Added a bounded five-slug generator that copies the existing explorer shell, injects query-free canonical metadata, structured data, bootstrap state and crawlable article HTML, then hydrates the same page inside the unified reader/map experience. Route-aware links use clean URLs for pilot subjects and retain explorer-query fallbacks outside the pilot. After human approval for the bounded release, promoted the five route outputs, pilot manifest and pilot sitemap to deployable production assets without expanding the slug inventory.
 
-**Validation result:** `make release-check` passed on a clean branch from current `origin/main`: 421 wiki pages, 3,318 vector chunks, 93 Python tests, the JavaScript search-intent suite, release-record validation and 30 generated-asset ownership entries. Focused static tests passed all 12 route contracts, including bootstrap and spatial/non-spatial binding assertions. Browser checks covered all five clean routes, exact title/canonical/H1/bootstrap alignment, desktop and 390×844 mobile layouts, Rasuwagadhi map focus, non-spatial sources, Back/Forward, legacy query compatibility, same-origin asset loading and an unknown-route 404 with zero application console errors.
+**Validation result:** `make release-check` passed on a clean branch from current `origin/main`: 421 wiki pages, 3,318 vector chunks, 93 Python tests, the JavaScript search-intent suite, release-record validation and 30 generated-asset ownership entries. Focused static tests initially passed all 12 route contracts; release due diligence added a thirteenth contract requiring a clean route's bootstrap slug to override any conflicting legacy `?page=` value. Browser checks covered all five clean routes, exact title/canonical/H1/bootstrap alignment, desktop and 390×844 mobile layouts, Rasuwagadhi map focus, non-spatial sources, Back/Forward, legacy query compatibility, same-origin asset loading and an unknown-route 404 with zero application console errors.
 
 **Flags raised:**
-- Production hosting is owned outside this repository. Nested-route publication, production sitemap/robots handling, legacy redirects and branded 404 behavior remain a separate host-integration and merge approval.
+- Production hosting is owned outside this repository. Domain-root sitemap/robots handling, legacy redirects and branded 404 behavior remain separate SEO and host-integration decisions; they do not block the approved five-page nested-route pilot.
 
 **Decisions made:**
 - Kept the pilot inventory immutable at exactly five pages and preserved the existing explorer as the single reader experience.
-- Did not merge to `main`, deploy the pilot, expand the generator to the full wiki or advertise the review-only sitemap.
+- Approved the bounded five-page pilot for production while retaining the approval gate before any full-wiki expansion.
+- Made a clean subject route authoritative over a conflicting legacy `?page=` parameter so document content, reader state and canonical metadata cannot diverge.
 
 ---
 
