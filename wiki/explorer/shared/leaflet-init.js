@@ -134,7 +134,7 @@ async function loadJSON(path) {
 // Three basemaps, identical to the ones in docs/maps/*.html.
 function makeBaseLayers() {
   const positron = L.tileLayer(
-    "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+    "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2h0a_1_3dac8736d012a6f0cd5f8bab",
     {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: "abcd",
