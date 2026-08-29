@@ -1292,14 +1292,6 @@
         "title": "Environmental and Social Impacts"
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists"
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers"
-      },
-      {
         "slug": "hydropower-system",
         "title": "Nepal's Hydropower System"
       },
@@ -2021,8 +2013,6 @@
     "distribution-and-reliability",
     "downstream-river-geopolitics",
     "environmental-and-social-impacts",
-    "for-journalists",
-    "for-policymakers",
     "hydropower-system",
     "institutions-finance-and-project-delivery",
     "ipsdp-2025-vs-wiki-claims",
@@ -2444,8 +2434,6 @@
     "distribution-and-reliability": "syntheses",
     "downstream-river-geopolitics": "syntheses",
     "environmental-and-social-impacts": "syntheses",
-    "for-journalists": "syntheses",
-    "for-policymakers": "syntheses",
     "hydropower-system": "syntheses",
     "institutions-finance-and-project-delivery": "syntheses",
     "ipsdp-2025-vs-wiki-claims": "syntheses",
@@ -2867,8 +2855,6 @@
     "distribution-and-reliability": "Distribution and Reliability",
     "downstream-river-geopolitics": "Downstream River Geopolitics",
     "environmental-and-social-impacts": "Environmental and Social Impacts",
-    "for-journalists": "For Journalists",
-    "for-policymakers": "For Policymakers",
     "hydropower-system": "Nepal's Hydropower System",
     "institutions-finance-and-project-delivery": "Institutions, Finance and Project Delivery",
     "ipsdp-2025-vs-wiki-claims": "IPSDP 2025 vs Wiki Claims",
@@ -2968,5 +2954,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 421
+  "totalPages": 419
 }

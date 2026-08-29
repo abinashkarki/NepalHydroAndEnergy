@@ -28,13 +28,6 @@ The explorer opens with Find as its discovery surface, the [[start-here]] page a
 - [[climate-resilience-and-decarbonization]] - climate exposure and official transition targets
 - [[unresolved-questions]] - conflicts, unknowns and monitoring priorities
 
-## Reader Doors
-
-Persona-specific entry pages with curated reading paths and citation guidance.
-
-- [[for-policymakers]] - entry door for policy advisors, ministry staff, and donor sector leads
-- [[for-journalists]] - story-ready evidence paths from headline numbers back to source pages
-
 ## Map Lenses
 
 - [[data-map-layer-labels]] - guide to every explorer layer and what each layer should, and should not, be used to infer
@@ -68,4 +61,4 @@ Persona-specific entry pages with curated reading paths and citation guidance.
 
 Some project pages are concise data-backed records rather than finished narrative articles. They preserve map coverage and registry facts for public navigation. Pages with fuller interpretation link out to source notes, claims, and data pages so readers can follow the evidence trail.
 
-The explorer currently indexes 421 wiki pages across sources, entities, concepts, syntheses, claims, data, and Decision Dossiers (stored under the legacy `interventions` category for compatibility).
+The explorer currently indexes 419 wiki pages across sources, entities, concepts, syntheses, claims, data, and Decision Dossiers (stored under the legacy `interventions` category for compatibility).
