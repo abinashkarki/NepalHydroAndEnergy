@@ -3,13 +3,13 @@ title: Nepal Energy Wiki
 category: syntheses
 type: synthesis
 created: 2026-04-14
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
-as_of: 2026-07-19
+updated: 2026-08-29
+reviewed: 2026-08-29
+review_due: 2026-11-29
+as_of: 2026-08-29
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
 tags: [overview, guide, public, navigation]
-excerpt: The editorial front page for a source-linked guide to Nepal's electricity system, its projects, evidence, and unresolved questions.
+excerpt: A task-led starting point for understanding Nepal's electricity system, exploring projects and places, and checking claims against their evidence.
 caveat: This page is a navigation synthesis; dated operating facts and official targets are separated on the linked State of the System page.
 maturity: verified-core
 page_quality: flagship
@@ -17,121 +17,61 @@ page_quality: flagship
 
 # Nepal Energy Wiki
 
-This is a source-linked guide to Nepal's electricity system: the projects being built, the rivers that shape them, the grid that has to deliver them, the markets that value them, and the institutions that govern them.
+This is a source-linked guide to Nepal's electricity system: its projects and rivers, the grid that connects them, the markets that value electricity, and the institutions that shape delivery.
 
-Start with [[state-of-the-system]] for the neutral, dated public baseline. [[master-thesis]] is a separate and visibly editorial interpretation of that evidence.
+Use **Find** to locate a project, claim, source or question. Use the **Map** to see how infrastructure and river geography fit together. Use the links inside each page to follow an argument back to its evidence.
 
-The wiki separates three things that are often mixed together in energy discussion:
+## Choose what you want to do
 
-- **Records** describe projects, places, organisations, and datasets.
-- **Analysis** explains the system-level mechanisms and makes bounded arguments.
-- **Evidence notes** show where a number came from, what it does not establish, and what remains unknown.
+### Understand the electricity system
 
-Use **Find** to ask a question or locate a page. Use the map to see how infrastructure and river geography fit together. Use the links on every page to move from a claim to its evidence.
+Begin with [[state-of-the-system]] for the neutral, dated baseline. Then follow the five-minute sequence below to understand why capacity, seasonal output, delivery and flexibility must be read together.
 
-## The system at a glance
+### Explore a project or place
 
-The guide has an explicit flagship spine:
+Search a project, river, basin or transmission corridor in **Find**, or select it from the **Map**. Project records state what is known about status and specifications; linked source notes show where those statements came from.
 
-[[state-of-the-system]] · [[seasonal-mismatch]] · [[hydropower-system]] · [[transmission-and-cross-border-trade]] · [[distribution-and-reliability]] · [[solar-system]] · [[storage-and-flexibility]] · [[demand-and-electrification]] · [[institutions-finance-and-project-delivery]] · [[environmental-and-social-impacts]] · [[climate-resilience-and-decarbonization]]
+### Check a claim or number
 
-### Seasonal supply
+Search the wording or subject, open the relevant claim or data page, then follow its evidence links. Read the confidence, cutoff date and caveats before repeating a figure. [[unresolved-questions]] records important gaps the public evidence does not yet resolve.
 
-Nepal's hydropower fleet follows a strongly seasonal river system. The same monsoon that creates abundant generation also creates the need for transmission capacity, market access, and flexible demand. In the dry season, the system faces the opposite problem. [[seasonal-mismatch]] explains the physical pattern; [[run-of-river-hydropower]] explains why the fleet follows it.
+## Understand the system in five minutes
 
-### Delivery and trade
+1. **[[state-of-the-system|State of the System]]** — the dated public baseline, kept separate from editorial interpretation.
+2. **[[seasonal-mismatch|Seasonal Mismatch]]** — why annual water abundance does not produce the same electricity in every season.
+3. **[[transmission-and-cross-border-trade|Transmission and Cross-Border Trade]]** — how electricity reaches domestic users and external markets.
+4. **[[storage-and-flexibility|Storage and Flexibility]]** — why installed megawatts are not the same as dependable power.
+5. **[[institutions-finance-and-project-delivery|Institutions, Finance and Project Delivery]]** — how rules, financing and execution shape what gets built and operated.
 
-Generation only has value when it can reach a load or a market. Transmission corridors, cross-border gateways, and the rules governing electricity trade therefore sit between installed capacity and realised value. Start with [[claim-transmission-immediate-blocker]], [[stranded-generation]], and [[india-energy-relationship]].
+For TransparentGov's explicitly editorial interpretation, continue to [[master-thesis]], [[bottleneck-hierarchy]] and [[twenty-year-strategy]]. These pages interpret the evidence; they are not the neutral baseline.
 
-### Firmness and storage
+## Explore the major subjects
 
-Installed megawatts are not the same as dependable power. Seasonal storage, peaking capability, hydrology, and design assumptions determine what the system can deliver when demand is high. The key concepts are [[firm-power]], [[storage-deficit]], and [[claim-mw-not-equal-value]].
+- **Hydropower and rivers:** [[hydropower-system]], [[run-of-river-hydropower]], [[hydropower-potential-categories]], [[sediment-as-design-constraint]].
+- **Grid and trade:** [[transmission-and-cross-border-trade]], [[distribution-and-reliability]], [[india-energy-relationship]], [[stranded-generation]].
+- **Storage, solar and demand:** [[storage-and-flexibility]], [[solar-system]], [[demand-and-electrification]], [[solar-hydro-complementarity]].
+- **Projects and places:** [[upper-tamakoshi]], [[budhigandaki]], [[dudhkoshi-storage]], [[koshi-basin]]. Use **Find** for the full project directory.
+- **Governance and evidence:** [[institutions-finance-and-project-delivery]], [[decision-dossiers]], [[data-map-inventory]], [[unresolved-questions]].
 
-### Portfolio choices
+## How the evidence works
 
-Solar changes the portfolio because its dry-season resource can complement weak hydro output, but solar does not by itself solve evening peaks, transmission constraints, or seasonal storage. See [[solar-hydro-complementarity]], [[solar-role-in-winter-deficit]], and [[claim-solar-cheaper-than-small-hydro]].
+- **Records** describe projects, places, organisations and datasets.
+- **Source notes** state what a document provides and what it does not establish.
+- **Claims and analysis** make bounded arguments with confidence, caveats and linked evidence.
+- **Syntheses** connect those arguments into a wider interpretation.
 
-### Institutions and finance
+A mapped project is not automatically a verified project. A linked source does not automatically prove every nearby sentence. Follow the evidence trail and check the page's maturity label: **Verified Core**, **Working Page** or **Registry Record**. [[wiki-page-maturity]] explains these labels.
 
-Projects are also shaped by offtake rules, disclosure quality, regulatory authority, financing, and buildability. [[claim-governance-binding]], [[nea-triple-authority]], [[buildability]], and [[upper-tamakoshi]] provide entry points into that layer.
+## Use Find and the Map together
 
-## Questions this wiki helps answer
+**Find** is the quickest route to a named project, concept, claim, dataset or source. The **Map** is the spatial companion: its lenses show rivers, geopolitics, the power system and solar context. [[data-map-layer-labels]] explains what each layer represents and what should not be inferred from it.
 
-- **Why can Nepal export electricity in one season and import it in another?** See [[seasonal-arbitrage-trap]] and [[data-trade-time-series]].
-- **Which projects are operating, being built, delayed, or still only proposed?** Start with a project name in Find; project records and map features expose their status basis.
-- **Where are the immediate delivery constraints?** Follow [[claim-transmission-immediate-blocker]] into the transmission and corridor pages.
-- **What does the India relationship make possible or constrain?** Read [[india-energy-relationship]] and [[hydro-geopolitics]].
-- **Could storage, solar, or domestic demand improve dry-season value?** Read [[storage-deficit]], [[solar-hydro-complementarity]], and [[energy-substitution-pathway]].
-- **Which arguments are strong, and which remain open?** Use the claim pages and [[unresolved-questions]] to see confidence, boundaries, and evidence gaps.
+Opening a mapped feature loads its wiki record. Opening a spatially bound page focuses the relevant map context. Pages without a meaningful location remain readable without forcing a map view.
 
-## Read the editorial argument
+## What remains unknown
 
-For the full system-level case, follow:
-
-[[state-of-the-system]] → [[master-thesis]] → [[bottleneck-hierarchy]] → [[twenty-year-strategy]]
-
-That sequence moves from factual baseline to editorial diagnosis, ranked constraints and strategy. It is a reading path, not a prerequisite: you can enter through a project, a basin, a data page, or a source note instead.
-
-## Decision Dossiers
-
-Policy options are not presented as settled fact. The five [[decision-dossiers|Decision Dossiers]] separate established evidence, unknowns, comparable cases, trade-offs and a short visibly labelled TransparentGov assessment.
-
-[[intervention-transmission-completion]] · [[intervention-nea-structural-separation]] · [[intervention-sebon-data-transparency]] · [[intervention-electric-cooking-transition]] · [[intervention-q-design-climate-adjustment]]
-
-## Explore by subject
-
-### Physical system
-
-[[seasonal-mismatch]] · [[run-of-river-hydropower]] · [[firm-power]] · [[storage-deficit]] · [[sediment-as-design-constraint]]
-
-### Projects and places
-
-[[upper-karnali]] · [[upper-tamakoshi]] · [[budhigandaki]] · [[dudhkoshi-storage]] · [[kulekhani-cascade]] · [[koshi-basin]]
-
-### Grid and trade
-
-[[claim-transmission-immediate-blocker]] · [[stranded-generation]] · [[india-energy-relationship]] · [[nepal-power-trade-schemes]] · [[data-layer-transmission-corridors-curated]]
-
-### Solar and domestic demand
-
-[[solar-hydro-complementarity]] · [[solar-role-in-winter-deficit]] · [[energy-substitution-pathway]] · [[intervention-electric-cooking-transition]]
-
-### Governance and finance
-
-[[claim-governance-binding]] · [[nea-triple-authority]] · [[claim-mw-not-equal-value]] · [[intervention-nea-structural-separation]] · [[intervention-sebon-data-transparency]]
-
-### Data and evidence
-
-[[nepal-energy-profile]] · [[data-map-inventory]] · [[data-trade-time-series]] · [[unresolved-questions]]
-
-## How to read the evidence
-
-Source pages record what a document provides and how reliable it is. Data pages describe datasets and their limitations. Entity pages preserve project and actor records, including concise registry entries where narrative material is limited. Claim pages state bounded arguments with confidence and unresolved issues. Synthesis pages connect those pieces into a system-level interpretation.
-
-If a page says that a project is mapped, that does not mean its status is verified. If a source page is linked, that does not mean the source proves every sentence around it. The evidence trail is part of the answer.
-
-Every public page carries one of three maturity labels. **Verified Core** is a flagship page with dated review and source-bounded claims. **Working Page** is useful analysis with material gaps or ongoing reconciliation. **Registry Record** is a concise structured entry whose existence or basic attributes are recorded but whose narrative depth may be limited. Maturity describes evidence and editorial readiness, not whether a topic is important. See [[wiki-page-maturity]].
-
-## What the wiki does not know
-
-Important gaps remain. Plant-level curtailment and dispatch records are not consolidated in the public corpus. Project progress can differ across registry, company, lender, and media records. Some design, financing, environmental, and trade claims require a dated primary document before they can be stated more strongly.
-
-[[unresolved-questions]] maintains the live list of those gaps. A missing number is not silently filled with an estimate; it is marked as an evidence problem to resolve.
-
-## The map
-
-The interactive map is the spatial companion to the wiki. The **Overview** lens provides national context; other lenses focus on rivers, geopolitics, the power system, or solar. [[data-map-layer-labels]] explains what each layer represents and what it should not be used to infer.
-
-Open a project or place from the map to load its page in the reader. Open a page from Find to see the map context that has a documented spatial binding. The two surfaces are deliberately reversible.
-
-## Where to begin
-
-- **Five-minute factual orientation:** [[state-of-the-system]] → [[seasonal-mismatch]] → [[distribution-and-reliability]].
-- **Editorial interpretation:** [[master-thesis]] → [[bottleneck-hierarchy]] → [[twenty-year-strategy]].
-- **Project investigation:** search a project name, then inspect its record, map feature, blockers, and linked sources.
-- **Evidence check:** search for a claim or number, open the source notes, and read the caveats before repeating it.
-- **Spatial exploration:** choose a map lens, then use the feature cards to move back into the wiki.
+The wiki leaves evidence gaps visible. Project status can differ across registries, companies, lenders and media reports, while some operational and financial records are not available as consolidated public data. [[unresolved-questions]] maintains the current list rather than filling missing evidence with an estimate.
 
 ## Related
 
-[[master-thesis]] · [[bottleneck-hierarchy]] · [[twenty-year-strategy]] · [[domestic-led-hydro-strategy]] · [[india-energy-relationship]]
+[[state-of-the-system]] · [[master-thesis]] · [[data-map-layer-labels]] · [[wiki-page-maturity]] · [[unresolved-questions]]
