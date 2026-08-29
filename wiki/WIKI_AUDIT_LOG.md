@@ -2199,6 +2199,27 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-08-29 — Rejected Reader-Door Removal
+
+**Agent:** Codex
+**Session type:** Human-approved page deletion and navigation cleanup
+
+**Pages touched:**
+- `syntheses/for-policymakers`: deleted after the user rejected the persona-specific reader-door concept.
+- `syntheses/for-journalists`: deleted after the user rejected the persona-specific reader-door concept.
+- `wiki/index.md`: removed the obsolete Reader Doors section and both links.
+
+**Validation result:** Rebuilt page, metadata, backlink, fact, claim-governance, search and five-route SEO outputs for 419 pages. The full repository release gate passed, including validation, generated-asset ownership, 94 Python tests, JavaScript search-intent tests and diff hygiene. This deletion pass did not change explorer behavior and did not run separate browser automation.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Human approval was explicit: remove both rejected pages so they do not remain as future product direction or navigation candidates.
+- The general `start-here` page remains the single editorial entry point and was not changed in this deletion pass.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

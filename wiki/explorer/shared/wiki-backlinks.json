@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 321,
-  "total_refs": 2547,
+  "total_targets": 318,
+  "total_refs": 2494,
   "backlinks": {
     "buildability": [
       {
@@ -1579,13 +1579,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…rage-physical-fix]], storage-deficit, budhigandaki, dudhkoshi-storage.",
-        "target_exists": true
-      },
-      {
         "slug": "institutions-finance-and-project-delivery",
         "title": "Institutions, Finance and Project Delivery",
         "category": "syntheses",
@@ -1982,13 +1975,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…ndia-energy-relationship]], claim-india-decisive-actor, hydro-geopolitics.",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -2278,20 +2264,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| \"How much electricity is curtailed nationally?\" | stranded-generation, nea-operational-reporting-portals-2026 | No public pla…",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…]] -> run-of-river-hydropower -> storage-deficit -> stranded-generation -> claim-transmission-immediate-blocker -> [[seasonal-a…",
-        "target_exists": true
-      },
-      {
         "slug": "ipsdp-2025-vs-wiki-claims",
         "title": "IPSDP 2025 vs Wiki Claims",
         "category": "syntheses",
@@ -2529,13 +2501,6 @@
         "title": "Environmental and Social Impacts",
         "category": "syntheses",
         "context": "…inks claims to current project instruments where available. budhigandaki and dudhkoshi-storage illustrate reservoir-scale resett…",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…y?\"_ — claim-storage-physical-fix, storage-deficit, budhigandaki, dudhkoshi-storage.",
         "target_exists": true
       },
       {
@@ -3726,13 +3691,6 @@
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
         "context": "This is where storage-deficit, firm-power, environmental-flow-policy, and [[hydro…",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…is: seasonal-mismatch -> run-of-river-hydropower -> storage-deficit -> stranded-generation -> [[claim-transmission-immediat…",
         "target_exists": true
       },
       {
@@ -5719,13 +5677,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "…hani has lost major storage to sediment\" | kulekhani-i, sediment-as-design-constraint | JICA Storage Master Plan Vol. 1; bathymetry and sediment…",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -6070,20 +6021,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "…pal exported NPR 17 billion of electricity in FY 2024/25\" | india-energy-relationship | NEA Annual Report FY 2024/25 |",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…mediate-blocker]] -> seasonal-arbitrage-trap. Then read india-energy-relationship for the trade interface and [[solar-in-the-master-narrative…",
-        "target_exists": true
-      },
-      {
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
@@ -6268,13 +6205,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…generation]] -> claim-transmission-immediate-blocker -> seasonal-arbitrage-trap. Then read india-energy-relationship for the trade inte…",
-        "target_exists": true
-      },
-      {
         "slug": "ipsdp-2025-vs-wiki-claims",
         "title": "IPSDP 2025 vs Wiki Claims",
         "category": "syntheses",
@@ -6414,13 +6344,6 @@
         "title": "Solar LCOE Crossover",
         "category": "concepts",
         "context": "data-solar-hydro-lcoe — the underlying numbers and time series",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…heaper-than-small-hydro]], solar-hydro-complementarity, data-solar-hydro-lcoe.",
         "target_exists": true
       },
       {
@@ -6616,13 +6539,6 @@
         "title": "IRENA Renewable Readiness Assessment and REmap Nepal",
         "category": "sources",
         "context": "Most of these overlap with the bottleneck-hierarchy for hydro, with one addition specific to solar: **absence o…",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "*The one-hour version.** Add bottleneck-hierarchy, twenty-year-strategy, and the four other interventions…",
         "target_exists": true
       },
       {
@@ -7578,13 +7494,6 @@
         "category": "concepts",
         "context": "kali-gandaki-a — 144 MW NEA flagship; dam-adjacent flats suited to 25–40 M…",
         "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "| kali-gandaki-a | The reference case for an NEA-run, multilaterally-finance…",
-        "target_exists": true
       }
     ],
     "upper-arun": [
@@ -8125,13 +8034,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…lure stack from the master thesis: seasonal-mismatch -> run-of-river-hydropower -> storage-deficit -> stranded-generation -> [[clai…",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -8636,13 +8538,6 @@
         "title": "Uttarganga Storage Hydropower Project",
         "category": "entities",
         "context": "data-ipsdp-milestone-ladder-2022-2040",
-        "target_exists": true
-      },
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| \"Nepal will hit 28,500 MW by 2035\" | data-ipsdp-milestone-ladder-2022-2040 | DoED / MoEWRI IPSDP 2025 |",
         "target_exists": true
       }
     ],
@@ -9192,13 +9087,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| \"Is Hetauda-Dhalkebar complete?\" | hetauda-dhalkebar-inaruwa-backbone, intervention-transmission-completion | NEA July 2026 n…",
-        "target_exists": true
-      },
-      {
         "slug": "transmission-and-cross-border-trade",
         "title": "Transmission and Cross-Border Electricity Trade",
         "category": "syntheses",
@@ -9338,13 +9226,6 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "Transmission is the immediate blocker (claim-transmission-immediate-blocker)",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "| claim-transmission-immediate-blocker | Why grid delivery, not generation, is the binding constra…",
         "target_exists": true
       },
       {
@@ -9494,20 +9375,6 @@
         "title": "Decision Dossiers and Policy Options",
         "category": "syntheses",
         "context": "intervention-transmission-completion — transmission delivery and settlement",
-        "target_exists": true
-      },
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "…lkebar complete?\" | hetauda-dhalkebar-inaruwa-backbone, intervention-transmission-completion | NEA July 2026 notices establish active stringing work, no…",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "| intervention-transmission-completion | The closest thing to a sure-win infrastructure interventi…",
         "target_exists": true
       },
       {
@@ -10247,13 +10114,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "…they conflict | intervention-nea-structural-separation, nea-triple-authority |",
-        "target_exists": true
-      },
-      {
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
@@ -10512,13 +10372,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "…d hydrology | intervention-q-design-climate-adjustment, q-design-discharge |",
-        "target_exists": true
-      },
-      {
         "slug": "intervention-q-design-climate-adjustment",
         "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
         "category": "interventions",
@@ -10708,20 +10561,6 @@
         "title": "Decision Dossiers and Policy Options",
         "category": "syntheses",
         "context": "intervention-nea-structural-separation — system operation, regulatory roles and open access",
-        "target_exists": true
-      },
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| NEA's three roles and why they conflict | intervention-nea-structural-separation, nea-triple-authority |",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…twenty-year-strategy, and the four other interventions: intervention-nea-structural-separation, intervention-sebon-data-transparency, [[intervention-e…",
         "target_exists": true
       },
       {
@@ -10948,20 +10787,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| \"Upper Tamakoshi is in default\" | upper-tamakoshi | UKHLL accounts; ICRA Nepal downgrade notice |",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "| upper-tamakoshi | What the structural tariff-debt mismatch looks like at sc…",
-        "target_exists": true
-      },
-      {
         "slug": "institutions-finance-and-project-delivery",
         "title": "Institutions, Finance and Project Delivery",
         "category": "syntheses",
@@ -11106,20 +10931,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| \"Solar is now cheaper than small hydro\" | claim-solar-cheaper-than-small-hydro | NEA tender awards; PPA tariff schedule |",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "_\"Is solar competitive with new hydro yet?\"_ — claim-solar-cheaper-than-small-hydro, solar-hydro-complementarity, data-solar-hydro-lcoe…",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -11224,13 +11035,6 @@
         "title": "Solar Resource Geography of Nepal",
         "category": "concepts",
         "context": "solar-hydro-complementarity — what the seasonal profile does for the hydro fleet",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…ew hydro yet?\"_ — claim-solar-cheaper-than-small-hydro, solar-hydro-complementarity, data-solar-hydro-lcoe.",
         "target_exists": true
       },
       {
@@ -11666,20 +11470,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| Electric cooking and why uptake has stayed low | intervention-electric-cooking-transition |",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…ral-separation]], intervention-sebon-data-transparency, intervention-electric-cooking-transition, intervention-q-design-climate-adjustment.",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -11735,20 +11525,6 @@
         "title": "Firm Power",
         "category": "concepts",
         "context": "…oretical resource to what is financeable and buildable; see hydropower-potential-categories and the tabulated reductions in data-potential-pyramid.…",
-        "target_exists": true
-      },
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "…MW of hydropower potential\" | claim-mw-not-equal-value, hydropower-potential-categories | WECS Hydropower Potential 2019 |",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…W potential figures real?\"_ — claim-mw-not-equal-value, hydropower-potential-categories, data-potential-pyramid.",
         "target_exists": true
       },
       {
@@ -11872,13 +11648,6 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "master-thesis — the central public argument",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "| master-thesis | The conversion-failure frame for the entire sector |",
         "target_exists": true
       },
       {
@@ -12315,13 +12084,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "| seasonal-mismatch | The structural pattern every other claim is downstream of…",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -12503,13 +12265,6 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "Timing > volume (claim-timing-not-volume)",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…in monsoon and import in winter?\"_ — seasonal-mismatch, claim-timing-not-volume.",
         "target_exists": true
       },
       {
@@ -13356,20 +13111,6 @@
         "title": "Firm Power",
         "category": "concepts",
         "context": "claim-mw-not-equal-value — the canonical claim about conflation of MW, energy, and f…",
-        "target_exists": true
-      },
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| \"Nepal has 83,000 MW of hydropower potential\" | claim-mw-not-equal-value, hydropower-potential-categories | WECS Hydropower Pote…",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "| claim-mw-not-equal-value | The four categories — potential, installed, energy, firm…",
         "target_exists": true
       },
       {
@@ -14660,13 +14401,6 @@
         "category": "concepts",
         "context": "…kulekhani-cascade** — three plants totaling **106 MW** (Kulekhani I 60 MW reservoir, II 32 MW cascade, [[kulek…",
         "target_exists": true
-      },
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| \"Kulekhani has lost major storage to sediment\" | kulekhani-i, sediment-as-design-constraint | JICA Storage Master Pl…",
-        "target_exists": true
       }
     ],
     "kulekhani-ii": [
@@ -15183,13 +14917,6 @@
         "title": "Hydropower Potential Categories",
         "category": "concepts",
         "context": "Think of a pyramid—quantified in data-potential-pyramid—where each step applies filters the previous step ignores:",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…mw-not-equal-value]], hydropower-potential-categories, data-potential-pyramid.",
         "target_exists": true
       },
       {
@@ -16423,13 +16150,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "*The one-hour version.** Add bottleneck-hierarchy, twenty-year-strategy, and the four other interventions: [[intervention-nea-struc…",
-        "target_exists": true
-      },
-      {
         "slug": "ipsdp-2025-vs-wiki-claims",
         "title": "IPSDP 2025 vs Wiki Claims",
         "category": "syntheses",
@@ -16530,13 +16250,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "unresolved-questions — the longer-running open questions the wiki has not yet re…",
-        "target_exists": true
-      },
-      {
         "slug": "institutions-finance-and-project-delivery",
         "title": "Institutions, Finance and Project Delivery",
         "category": "syntheses",
@@ -16592,13 +16305,6 @@
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
         "context": "solar-in-the-master-narrative — the master-frame update",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…d india-energy-relationship for the trade interface and solar-in-the-master-narrative for the portfolio response.",
         "target_exists": true
       },
       {
@@ -17428,13 +17134,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "…ricity is curtailed nationally?\" | stranded-generation, nea-operational-reporting-portals-2026 | No public plant-level series currently establishes a nati…",
-        "target_exists": true
-      },
-      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -17469,13 +17168,6 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "Storage is the physical fix (claim-storage-physical-fix)",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "| claim-storage-physical-fix | Why storage is the only physical answer to seasonal misma…",
         "target_exists": true
       },
       {
@@ -17523,20 +17215,6 @@
         "target_exists": true
       },
       {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| Q-design discharge and climate-adjusted hydrology | intervention-q-design-climate-adjustment, q-design-discharge |",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…ansparency]], intervention-electric-cooking-transition, intervention-q-design-climate-adjustment.",
-        "target_exists": true
-      },
-      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -17571,20 +17249,6 @@
         "title": "Decision Dossiers and Policy Options",
         "category": "syntheses",
         "context": "intervention-sebon-data-transparency — hydropower financial disclosure",
-        "target_exists": true
-      },
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "| Listed hydropower IPOs and disclosure quality | intervention-sebon-data-transparency |",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…interventions: intervention-nea-structural-separation, intervention-sebon-data-transparency, intervention-electric-cooking-transition, [[interventi…",
         "target_exists": true
       },
       {
@@ -17715,53 +17379,12 @@
         "target_exists": true
       }
     ],
-    "start-here": [
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "start-here — the general public entry point",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "start-here — the general public entry point",
-        "target_exists": true
-      }
-    ],
-    "for-policymakers": [
-      {
-        "slug": "for-journalists",
-        "title": "For Journalists",
-        "category": "syntheses",
-        "context": "for-policymakers — the policy-advisor entry door",
-        "target_exists": true
-      }
-    ],
     "claim-india-decisive-actor": [
       {
         "slug": "provider-comparison",
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "India is decisive (claim-india-decisive-actor)",
-        "target_exists": true
-      },
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "…ship actually constrain?\"_ — india-energy-relationship, claim-india-decisive-actor, hydro-geopolitics.",
-        "target_exists": true
-      }
-    ],
-    "for-journalists": [
-      {
-        "slug": "for-policymakers",
-        "title": "For Policymakers",
-        "category": "syntheses",
-        "context": "for-journalists — the journalist entry door",
         "target_exists": true
       }
     ],
