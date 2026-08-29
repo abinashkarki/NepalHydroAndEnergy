@@ -2,24 +2,24 @@
   "schema_version": 1,
   "environment": "production",
   "public_url": "https://transparentgov.ai/wiki/explorer/",
-  "release_version": "1.2.1",
+  "release_version": "1.2.2",
   "wiki_repository": "abinashkarki/NepalHydroAndEnergy",
-  "wiki_ref": "cf384691a6e168b8ea82c441df0f6c6f600f5d53",
-  "wiki_commit": "cf384691a6e168b8ea82c441df0f6c6f600f5d53",
+  "wiki_ref": "d01c37648513ab2e0c83b0980fa7ec40c854c865",
+  "wiki_commit": "d01c37648513ab2e0c83b0980fa7ec40c854c865",
   "transparentgov_repository": "abinashkarki/TransparentGov",
-  "transparentgov_commit": "ce049ca7e0ba43be024ffbe50f42354401261ea9",
-  "coolify_deployment_id": "cttnmf7ujh0i8dv4w7rygyk3",
-  "deployed_at": "2026-08-28T16:25:40Z",
-  "verified_at": "2026-08-28T16:28:35Z",
+  "transparentgov_commit": "ecf077b659593c3bb8f816661e4cb49c9ebae025",
+  "coolify_deployment_id": "s7wc1mdkvpsq5qb8u37bp99f",
+  "deployed_at": "2026-08-29T13:13:39Z",
+  "verified_at": "2026-08-29T13:17:06Z",
   "verification": {
-    "page_count": 421,
+    "page_count": 419,
     "assets": {
       "wiki/explorer/index.html": "c2c5c32b532b5af2849e17ccc1fb9e08b1174ad4ca61d1c8c91669ac20bae332",
       "wiki/explorer/shared/leaflet-init.js": "2d9cd678cc255e9e3a8f7ac1d44b7873f5eeb67c0571528cb9c2ca2beb7dccde",
       "wiki/explorer/shared/wiki-loader.js": "70ac05ce03bdd5c1affae449b005ce9f4a8ac4396b82d3015009e3aa0b167eae",
-      "wiki/explorer/shared/wiki-page-index.json": "a9b9d228f84d3c745e064443790666ed472a4323f94cbc87feab0363a1f851bb",
-      "wiki/explorer/shared/wiki-vector-index.json": "2601645cbd046e27325c2719c8d2e62155731b8d723d4a1d583bccbf48fcb680"
+      "wiki/explorer/shared/wiki-page-index.json": "37185832e182361d365c2b3983d910bce02206fd0a3a52c32505aecdb279070f",
+      "wiki/explorer/shared/wiki-vector-index.json": "c87e3bcf8c7a1afa6d042da1a9408a0a06d015fe0d16b88bfdb147242b3c4184"
     }
   },
-  "notes": "Coolify production is pinned to the full wiki-v1.2.1 merge commit and was rebuilt from TransparentGov trigger commit ce049ca7e0ba43be024ffbe50f42354401261ea9 after updating NEPAL_ENERGY_REF. The production probe passed all 54 requests without warnings and matched five source assets, 421 pages, 666 structured facts, 3,318 vector chunks and 28 map assets; all 53 successful checked responses carried validators and explicit Cache-Control headers. Browser verification confirmed public-launch-12, 30 keyed CARTO tiles loaded at Retina resolution, no failed tiles, no API-key watermark and no console warnings or errors."
+  "notes": "Coolify production is pinned to the full wiki-v1.2.2 merge commit and was rebuilt from TransparentGov trigger commit ecf077b659593c3bb8f816661e4cb49c9ebae025 after updating NEPAL_ENERGY_REF. This release removes the rejected For policymakers and For journalists reader pages and replaces Start Here with a shorter task-led entry page. The production probe passed all 54 requests without warnings and matched the selected deployed assets, 419 pages, 666 structured facts, 3,302 vector chunks, 32 map layers and 28 map assets; all 53 successful checked responses carried validators and explicit Cache-Control headers. Browser verification confirmed all three task paths, absence of the rejected page labels, 30 keyed CARTO tiles loaded at Retina resolution, no failed tiles, no API-key watermark and no console messages. The five clean pilot routes returned 200, an unknown clean slug returned 404, and both deleted markdown paths returned 404."
 }
