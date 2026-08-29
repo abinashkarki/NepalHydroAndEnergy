@@ -2220,6 +2220,26 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-08-29 — Task-Led Start Page
+
+**Agent:** Codex
+**Session type:** Human-approved navigation synthesis consolidation
+
+**Pages touched:**
+- `syntheses/start-here`: consolidated overlapping link catalogues into three reader tasks, a five-minute system path, five subject groups, a compact evidence guide and coordinated Find/Map instructions.
+
+**Validation result:** Rebuilt page, metadata, backlink, lexical-search and semantic-vector indexes for 419 pages and 3,302 vector chunks. The full repository release gate passed with 94 Python tests, JavaScript search-intent tests, generated-asset ownership and diff hygiene. Browser review confirmed the task-led hierarchy at desktop and 390×844 mobile widths, no horizontal overflow, correct navigation from the first reading-path link and no console warnings or errors.
+
+**Flags raised:**
+- None.
+
+**Decisions made:**
+- Kept `start-here` as the single general entry point rather than restoring persona-specific reader doors.
+- Preserved the boundary between the neutral `state-of-the-system` baseline and TransparentGov's explicitly editorial synthesis pages.
+- Changed navigation and framing only; no factual claims, confidence levels, sources or ontology terms were changed.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

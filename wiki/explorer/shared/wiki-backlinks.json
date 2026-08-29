@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 318,
-  "total_refs": 2494,
+  "total_refs": 2469,
   "backlinks": {
     "buildability": [
       {
@@ -415,13 +415,6 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "6. **buildability** — brutal terrain, geology, access, and execution constrai…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…ty. claim-governance-binding, nea-triple-authority, buildability, and upper-tamakoshi provide entry points into that lay…",
         "target_exists": true
       },
       {
@@ -1589,7 +1582,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…[upper-karnali]] · upper-tamakoshi · budhigandaki · dudhkoshi-storage · kulekhani-cascade · koshi-basin",
+        "context": "…ojects and places:** upper-tamakoshi, budhigandaki, dudhkoshi-storage, koshi-basin. Use **Find** for the full project directo…",
         "target_exists": true
       },
       {
@@ -1982,13 +1975,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…ible or constrain?** Read india-energy-relationship and hydro-geopolitics.",
-        "target_exists": true
-      },
-      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -2281,7 +2267,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…value. Start with claim-transmission-immediate-blocker, stranded-generation, and india-energy-relationship.",
+        "context": "…tribution-and-reliability]], india-energy-relationship, stranded-generation.",
         "target_exists": true
       },
       {
@@ -2514,7 +2500,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "upper-karnali · upper-tamakoshi · budhigandaki · dudhkoshi-storage · kulekhani-cascade · [[koshi-b…",
+        "context": "**Projects and places:** upper-tamakoshi, budhigandaki, dudhkoshi-storage, koshi-basin. Use **Find** for t…",
         "target_exists": true
       },
       {
@@ -3701,13 +3687,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…r when demand is high. The key concepts are firm-power, storage-deficit, and claim-mw-not-equal-value.",
-        "target_exists": true
-      },
-      {
         "slug": "solar-in-the-master-narrative",
         "title": "Solar in the Master Narrative",
         "category": "syntheses",
@@ -4444,7 +4423,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "nepal-energy-profile · data-map-inventory · data-trade-time-series · unresolved-questions",
+        "context": "…ions-finance-and-project-delivery]], decision-dossiers, data-map-inventory, unresolved-questions.",
         "target_exists": true
       },
       {
@@ -4918,13 +4897,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…s]] · bottleneck-hierarchy · twenty-year-strategy · domestic-led-hydro-strategy · india-energy-relationship",
-        "target_exists": true
-      },
-      {
         "slug": "solar-in-the-master-narrative",
         "title": "Solar in the Master Narrative",
         "category": "syntheses",
@@ -5368,7 +5340,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…gandaki]] · dudhkoshi-storage · kulekhani-cascade · koshi-basin",
+        "context": "…upper-tamakoshi]], budhigandaki, dudhkoshi-storage, koshi-basin. Use **Find** for the full project directory.",
         "target_exists": true
       },
       {
@@ -5687,7 +5659,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…river-hydropower]] · firm-power · storage-deficit · sediment-as-design-constraint",
+        "context": "…of-river-hydropower]], hydropower-potential-categories, sediment-as-design-constraint.",
         "target_exists": true
       },
       {
@@ -5872,13 +5844,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "upper-karnali · upper-tamakoshi · budhigandaki · [[dudhkoshi-stor…",
-        "target_exists": true
-      },
-      {
         "slug": "hydropower-system",
         "title": "Nepal's Hydropower System",
         "category": "syntheses",
@@ -6024,7 +5989,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…nsmission-immediate-blocker]], stranded-generation, and india-energy-relationship.",
+        "context": "…and-cross-border-trade]], distribution-and-reliability, india-energy-relationship, stranded-generation.",
         "target_exists": true
       },
       {
@@ -6216,13 +6181,6 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "8. **seasonal-arbitrage-trap** — selling cheap monsoon, buying expensive winter; value d…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…t electricity in one season and import it in another?** See seasonal-arbitrage-trap and data-trade-time-series.",
         "target_exists": true
       },
       {
@@ -6552,7 +6510,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "state-of-the-system → master-thesis → bottleneck-hierarchy → twenty-year-strategy",
+        "context": "…ly editorial interpretation, continue to master-thesis, bottleneck-hierarchy and twenty-year-strategy. These pages interpret the evi…",
         "target_exists": true
       },
       {
@@ -6618,13 +6576,6 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "solar-role-in-winter-deficit — why solar is now a core winter-deficit lever",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…, or seasonal storage. See solar-hydro-complementarity, solar-role-in-winter-deficit, and claim-solar-cheaper-than-small-hydro.",
         "target_exists": true
       },
       {
@@ -7361,13 +7312,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…er-tamakoshi]] · budhigandaki · dudhkoshi-storage · kulekhani-cascade · koshi-basin",
-        "target_exists": true
-      },
-      {
         "slug": "storage-and-flexibility",
         "title": "Storage and System Flexibility",
         "category": "syntheses",
@@ -8044,7 +7988,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…oblem. seasonal-mismatch explains the physical pattern; run-of-river-hydropower explains why the fleet follows it.",
+        "context": "**Hydropower and rivers:** hydropower-system, run-of-river-hydropower, hydropower-potential-categories, [[sediment-as-design-…",
         "target_exists": true
       },
       {
@@ -8554,13 +8498,6 @@
         "title": "NEA Solar Programme",
         "category": "entities",
         "context": "…are adding ~NPR 6–8B/year to this. The single-buyer model (nepal-power-trade-schemes) plus fixed-price solar PPAs creates a structural interest-…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…· stranded-generation · india-energy-relationship · nepal-power-trade-schemes · data-layer-transmission-corridors-curated",
         "target_exists": true
       },
       {
@@ -9229,13 +9166,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…t between installed capacity and realised value. Start with claim-transmission-immediate-blocker, stranded-generation, and india-energy-relationship…",
-        "target_exists": true
-      },
-      {
         "slug": "transmission-and-cross-border-trade",
         "title": "Transmission and Cross-Border Electricity Trade",
         "category": "syntheses",
@@ -9385,13 +9315,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "intervention-transmission-completion · intervention-nea-structural-separation · [[interventi…",
-        "target_exists": true
-      },
-      {
         "slug": "transmission-and-cross-border-trade",
         "title": "Transmission and Cross-Border Electricity Trade",
         "category": "syntheses",
@@ -9532,7 +9455,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "Start with state-of-the-system for the neutral, dated public baseline. master-thesis i…",
+        "context": "Begin with state-of-the-system for the neutral, dated baseline. Then follow the five-minut…",
         "target_exists": true
       },
       {
@@ -9569,7 +9492,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…d-cross-border-trade]] · distribution-and-reliability · solar-system · storage-and-flexibility · [[demand-and-electrificatio…",
+        "context": "…*Storage, solar and demand:** storage-and-flexibility, solar-system, demand-and-electrification, [[solar-hydro-complementar…",
         "target_exists": true
       },
       {
@@ -9620,7 +9543,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…opower-system]] · transmission-and-cross-border-trade · distribution-and-reliability · solar-system · storage-and-flexibility · [[demand…",
+        "context": "…Grid and trade:** transmission-and-cross-border-trade, distribution-and-reliability, india-energy-relationship, stranded-generation.",
         "target_exists": true
       },
       {
@@ -9671,7 +9594,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…bility]] · solar-system · storage-and-flexibility · demand-and-electrification · institutions-finance-and-project-delivery · [[environ…",
+        "context": "…nd demand:** storage-and-flexibility, solar-system, demand-and-electrification, solar-hydro-complementarity.",
         "target_exists": true
       },
       {
@@ -9716,13 +9639,6 @@
         "title": "Environmental and Social Impacts",
         "category": "syntheses",
         "context": "sediment-as-design-constraint · buildability · climate-resilience-and-decarbonization · unresolved-questions",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…project-delivery]] · environmental-and-social-impacts · climate-resilience-and-decarbonization",
         "target_exists": true
       },
       {
@@ -10111,13 +10027,6 @@
         "title": "Q-Design Discharge",
         "category": "concepts",
         "context": "…billing-architecture subsidy, documented in chilime and nea-triple-authority.",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…financing, and buildability. claim-governance-binding, nea-triple-authority, buildability, and upper-tamakoshi provide entry po…",
         "target_exists": true
       },
       {
@@ -10578,13 +10487,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "intervention-transmission-completion · intervention-nea-structural-separation · intervention-sebon-data-transparency · [[intervention…",
-        "target_exists": true
-      },
-      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -10797,7 +10699,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…binding]], nea-triple-authority, buildability, and upper-tamakoshi provide entry points into that layer.",
+        "context": "**Projects and places:** upper-tamakoshi, budhigandaki, dudhkoshi-storage, koshi-basin.…",
         "target_exists": true
       },
       {
@@ -10849,13 +10751,6 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "data-trade-time-series — the seasonal trade pattern",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…import it in another?** See seasonal-arbitrage-trap and data-trade-time-series.",
         "target_exists": true
       },
       {
@@ -10935,13 +10830,6 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…ro-complementarity]], solar-role-in-winter-deficit, and claim-solar-cheaper-than-small-hydro.",
         "target_exists": true
       },
       {
@@ -11048,7 +10936,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…g peaks, transmission constraints, or seasonal storage. See solar-hydro-complementarity, solar-role-in-winter-deficit, and [[claim-solar-cheape…",
+        "context": "…bility]], solar-system, demand-and-electrification, solar-hydro-complementarity.",
         "target_exists": true
       },
       {
@@ -11477,13 +11365,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…l-separation]] · intervention-sebon-data-transparency · intervention-electric-cooking-transition · intervention-q-design-climate-adjustment",
-        "target_exists": true
-      },
-      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -11525,6 +11406,13 @@
         "title": "Firm Power",
         "category": "concepts",
         "context": "…oretical resource to what is financeable and buildable; see hydropower-potential-categories and the tabulated reductions in data-potential-pyramid.…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Nepal Energy Wiki",
+        "category": "syntheses",
+        "context": "…vers:** hydropower-system, run-of-river-hydropower, hydropower-potential-categories, sediment-as-design-constraint.",
         "target_exists": true
       },
       {
@@ -11661,7 +11549,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…ate-of-the-system]] for the neutral, dated public baseline. master-thesis is a separate and visibly editorial interpretation of that…",
+        "context": "…arentGov's explicitly editorial interpretation, continue to master-thesis, bottleneck-hierarchy and twenty-year-strategy. The…",
         "target_exists": true
       },
       {
@@ -11758,13 +11646,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…d storage-deficit, solar-hydro-complementarity, and energy-substitution-pathway.",
-        "target_exists": true
-      },
-      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -11834,13 +11715,6 @@
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
         "context": "nepal-energy-profile makes clear that \"low consumption\" is better read as **head…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "nepal-energy-profile · data-map-inventory · data-trade-time-series · [[u…",
         "target_exists": true
       },
       {
@@ -12094,7 +11968,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "state-of-the-system · seasonal-mismatch · hydropower-system · [[transmission-and-cross-border-t…",
+        "context": "2. **Seasonal Mismatch** — why annual water abundance does not produce the same el…",
         "target_exists": true
       },
       {
@@ -12570,13 +12444,6 @@
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
         "context": "This is where storage-deficit, firm-power, environmental-flow-policy, and hydro-geopolitics m…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…ystem can deliver when demand is high. The key concepts are firm-power, storage-deficit, and claim-mw-not-equal-value.",
         "target_exists": true
       },
       {
@@ -13118,13 +12985,6 @@
         "title": "Institutions, Finance and Project Delivery",
         "category": "syntheses",
         "context": "nea · claim-governance-binding · claim-mw-not-equal-value · unresolved-questions",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…e key concepts are firm-power, storage-deficit, and claim-mw-not-equal-value.",
         "target_exists": true
       },
       {
@@ -16000,13 +15860,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…quality, regulatory authority, financing, and buildability. claim-governance-binding, nea-triple-authority, buildability, and [[upper-ta…",
-        "target_exists": true
-      },
-      {
         "slug": "intervention-nea-structural-separation",
         "title": "Decision Dossier — Power-System Role Separation and Open Access",
         "category": "interventions",
@@ -16167,7 +16020,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…e-system]] → master-thesis → bottleneck-hierarchy → twenty-year-strategy",
+        "context": "…continue to master-thesis, bottleneck-hierarchy and twenty-year-strategy. These pages interpret the evidence; they are not the neutr…",
         "target_exists": true
       },
       {
@@ -16260,7 +16113,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…re strong, and which remain open?** Use the claim pages and unresolved-questions to see confidence, boundaries, and evidence gaps.",
+        "context": "…fidence, cutoff date and caveats before repeating a figure. unresolved-questions records important gaps the public evidence does not yet res…",
         "target_exists": true
       },
       {
@@ -16844,7 +16697,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…torage-and-flexibility]] · demand-and-electrification · institutions-finance-and-project-delivery · environmental-and-social-impacts · [[climate-resilien…",
+        "context": "5. **Institutions, Finance and Project Delivery** — how rules, financing and execution shape what gets buil…",
         "target_exists": true
       },
       {
@@ -16881,7 +16734,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…editorial readiness, not whether a topic is important. See wiki-page-maturity.",
+        "context": "…*Verified Core**, **Working Page** or **Registry Record**. wiki-page-maturity explains these labels.",
         "target_exists": true
       }
     ],
@@ -16897,7 +16750,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "state-of-the-system · seasonal-mismatch · hydropower-system · transmission-and-cross-border-trade · [[distribution-…",
+        "context": "**Hydropower and rivers:** hydropower-system, run-of-river-hydropower, [[hydropower-potential-catego…",
         "target_exists": true
       },
       {
@@ -16927,7 +16780,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…e]] · distribution-and-reliability · solar-system · storage-and-flexibility · demand-and-electrification · [[institutions-finance-a…",
+        "context": "4. **Storage and Flexibility** — why installed megawatts are not the same as dependable…",
         "target_exists": true
       },
       {
@@ -16971,7 +16824,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…system]] · seasonal-mismatch · hydropower-system · transmission-and-cross-border-trade · distribution-and-reliability · solar-system · [[s…",
+        "context": "3. **Transmission and Cross-Border Trade** — how electricity reaches domestic users and external mar…",
         "target_exists": true
       },
       {
@@ -17002,13 +16855,6 @@
         "title": "Climate Resilience and Decarbonization",
         "category": "syntheses",
         "context": "environmental-and-social-impacts · seasonal-mismatch · solar-system · [[storage-and-…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…ication]] · institutions-finance-and-project-delivery · environmental-and-social-impacts · climate-resilience-and-decarbonization",
         "target_exists": true
       },
       {
@@ -17222,13 +17068,6 @@
         "target_exists": true
       },
       {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…sparency]] · intervention-electric-cooking-transition · intervention-q-design-climate-adjustment",
-        "target_exists": true
-      },
-      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
@@ -17256,13 +17095,6 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "intervention-sebon-data-transparency — financial-disclosure and civic-data options",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…completion]] · intervention-nea-structural-separation · intervention-sebon-data-transparency · intervention-electric-cooking-transition · [[interven…",
         "target_exists": true
       },
       {
@@ -17402,23 +17234,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "Policy options are not presented as settled fact. The five Decision Dossiers separate established evidence, unknowns, comparable cases,…",
-        "target_exists": true
-      }
-    ],
-    "data-layer-transmission-corridors-curated": [
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…dia-energy-relationship]] · nepal-power-trade-schemes · data-layer-transmission-corridors-curated",
-        "target_exists": true
-      },
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…ch for orientation and not-yet-promoted corridor context. | data-layer-transmission-corridors-curated |",
+        "context": "…evidence:** institutions-finance-and-project-delivery, decision-dossiers, data-map-inventory, unresolved-questions.",
         "target_exists": true
       }
     ],
@@ -17427,7 +17243,7 @@
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
-        "context": "…s focus on rivers, geopolitics, the power system, or solar. data-map-layer-labels explains what each layer represents and what it should not…",
+        "context": "…ow rivers, geopolitics, the power system and solar context. data-map-layer-labels explains what each layer represents and what should not be…",
         "target_exists": true
       },
       {
@@ -18004,6 +17820,15 @@
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…border interconnections with status and timeline context. | data-layer-cross-border-interconnections |",
+        "target_exists": true
+      }
+    ],
+    "data-layer-transmission-corridors-curated": [
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…ch for orientation and not-yet-promoted corridor context. | data-layer-transmission-corridors-curated |",
         "target_exists": true
       }
     ],
