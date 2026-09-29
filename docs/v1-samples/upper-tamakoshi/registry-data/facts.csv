@@ -1,0 +1,61 @@
+entity,metric,period,value,unit,as_of,source_slug,evidence_grade,note
+upper-tamakoshi,capacity_mw,static,456,MW,2026-07-10,project-specs-csv,research-compilation,Hand-curated registry row; source_note cites UTKHPL disclosures through May 2026
+upper-tamakoshi,gross_head_m,static,822,m,2026-07-10,project-specs-csv,research-compilation,
+upper-tamakoshi,headrace_tunnel_length_km,static,7.2,km,2026-07-10,upper-tamakoshi#engineering,research-compilation,Existing wiki page only; no linked source page
+upper-tamakoshi,turbine_units,static,6 x 76 MW Pelton,text,2026-07-10,upper-tamakoshi#significance,research-compilation,Existing wiki page prose only; 6 x 76 = 456 MW
+upper-tamakoshi,design_discharge_q_design_m3s,static,66,m3/s,2026-07-10,upper-tamakoshi#generation-performance,research-compilation,Existing wiki page prose only
+upper-tamakoshi,annual_design_energy_gwh,static,2281,GWh,2026-07-10,project-specs-csv,research-compilation,Used as the contracted-energy denominator in generation percentages
+upper-tamakoshi,plant_load_factor_pct,static,65,%,2026-07-10,project-specs-csv,research-compilation,
+upper-tamakoshi,ppa_rate_wet_npr_kwh,first-year,3.74,NPR/kWh,2026-07-10,project-specs-csv,research-compilation,Page describes as first-year PPA rate; escalation not recorded
+upper-tamakoshi,ppa_rate_dry_npr_kwh,first-year,6.96,NPR/kWh,2026-07-10,project-specs-csv,research-compilation,Page describes as first-year PPA rate; escalation not recorded
+upper-tamakoshi,debt_equity_original_model,at-financial-close,75/25,ratio,2026-07-10,project-specs-csv,research-compilation,Original financing model. Different metric from effective ratio at COD; not a conflict
+upper-tamakoshi,debt_equity_effective_at_cod,2021,88:12,ratio,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Effective ratio after capitalised IDC. Compilation not primary; ukhl-annual-report repeats it from a compilation of audited accounts
+upper-tamakoshi,project_cost_npr_bn,at-cod,87-89.4,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Existing wiki page states 87-89
+upper-tamakoshi,idc_npr_bn,construction,~14,NPR bn,2026-07-10,upper-tamakoshi#financial,research-compilation,Interest During Construction; approximate; existing wiki page only
+upper-tamakoshi,nea_shareholding_pct,static,41,%,2026-07-10,upper-tamakoshi#structural-implication,research-compilation,Existing wiki page only; date of holding not stated
+upper-tamakoshi,cod_year,static,2021,year,2026-07-10,project-specs-csv,research-compilation,Existing wiki page prose gives August 2021
+upper-tamakoshi,construction_duration_years,construction,~7,years,2026-07-10,upper-tamakoshi#schedule,research-compilation,CONFLICT with 11 years. No start date in evidence. Implied start from COD Aug 2021 is roughly 2014
+upper-tamakoshi,construction_duration_years,construction,11,years,2026-07-10,upper-tamakoshi#financial-performance,research-compilation,CONFLICT with ~7 years. Implied start from COD Aug 2021 is roughly 2010. Start year not in evidence (project_specs.csv construction_start_year is blank)
+upper-tamakoshi,generation_gwh,FY2079/80,1945.83,GWh,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Replaced an earlier wiki estimate of ~1340 GWh back-calculated from revenue
+upper-tamakoshi,generation_gwh,FY2080/81,2058.36,GWh,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,
+upper-tamakoshi,generation_gwh,FY2081/82,1529.07,GWh,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,88-day forced shutdown after Sep 2024 flood
+upper-tamakoshi,generation_pct_of_contracted,FY2079/80,85.3,%,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Denominator 2281 GWh
+upper-tamakoshi,generation_pct_of_contracted,FY2080/81,90.2,%,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Denominator 2281 GWh
+upper-tamakoshi,generation_pct_of_contracted,FY2081/82,67.0,%,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Denominator 2281 GWh
+upper-tamakoshi,forced_shutdown_days,FY2081/82,88,days,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Generation fully suspended after Sep 2024 flood
+upper-tamakoshi,river_flow_pct_of_historical_expectation,Spring 2023,45.12,%,2026-07-10,upper-tamakoshi#output,research-compilation,Existing wiki page only; measurement basis not stated
+upper-tamakoshi,revenue_npr_bn,FY2079/80,~8.68,NPR bn,2026-07-10,upper-tamakoshi#financial-performance,research-compilation,POSSIBLE MIS-ASSIGNED YEAR. Primary filing gives 8.679 for FY2080/81; the existing page may have carried the same figure into FY2079/80. Unverified
+upper-tamakoshi,revenue_npr_bn,FY2080/81,8.679,NPR bn,2026-04-06,utkhpl-disclosures-2026,primary-filing,Electricity-sales revenue per annual statements (16th/17th annual report)
+upper-tamakoshi,revenue_npr_bn,FY2080/81,9.3-9.5,NPR bn,2026-07-10,upper-tamakoshi#generation-performance,derived,CONFLICT with 8.679. Computed maximum gross revenue at 2058 GWh and 3.74/6.96 tariff; a ceiling not a reported figure
+upper-tamakoshi,revenue_npr_bn,FY2081/82,~6.9,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,No primary filing ingested for this year
+upper-tamakoshi,revenue_npr_bn,FY2082/83-Q3,7.718,NPR bn,2026-05-13,utkhpl-disclosures-2026,primary-filing,Unaudited; single image. Source says "quarter ending Chaitra 2082" but size vs annual revenue suggests year-to-date; basis unconfirmed
+upper-tamakoshi,net_profit_loss_npr_bn,FY2079/80,-2.52,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Approximate
+upper-tamakoshi,net_profit_loss_npr_bn,FY2080/81,-1.39,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Approximate; primary annual statements not yet transcribed for this metric
+upper-tamakoshi,net_profit_loss_npr_bn,FY2081/82,-2.57,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Approximate
+upper-tamakoshi,net_profit_loss_npr_bn,FY2082/83-Q3,0.2868,NPR bn,2026-05-13,utkhpl-disclosures-2026,primary-filing,Unaudited; NPR 286.8 million; same period-basis caveat as Q3 revenue
+upper-tamakoshi,interest_expense_npr_bn,FY2079/80,~6.68,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Approximate
+upper-tamakoshi,interest_expense_npr_bn,FY2080/81,~6.7,NPR bn,2026-07-10,upper-tamakoshi#generation-performance,research-compilation,Existing page prose only (table cell says "insufficient coverage"); approximate
+upper-tamakoshi,finance_cost_npr_bn,FY2082/83-Q3,4.052,NPR bn,2026-05-13,utkhpl-disclosures-2026,primary-filing,Unaudited; "finance costs" line may not equal interest expense in compilation
+upper-tamakoshi,total_debt_npr_bn,FY2079/80,~78.6,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Approximate
+upper-tamakoshi,total_debt_npr_bn,FY2080/81,~78.6,NPR bn,2026-07-10,upper-tamakoshi#financial-performance,research-compilation,Identical to prior year on the existing page; possibly carried forward rather than observed
+upper-tamakoshi,accumulated_losses_npr_bn,FY2081/82,12.18,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,
+upper-tamakoshi,dscr_x,FY2079/80,<1.0,x,2026-07-10,upper-tamakoshi#financial-performance,research-compilation,Existing page only; no computed value
+upper-tamakoshi,dscr_x,FY2080/81,<1.0,x,2026-07-10,upper-tamakoshi#financial-performance,research-compilation,Existing page only; no computed value
+upper-tamakoshi,dscr_x,FY2081/82,<1.0,x,2026-07-10,upper-tamakoshi#financial-performance,research-compilation,Existing page only; no computed value
+upper-tamakoshi,icra_rating,FY2080/81,Distressed,rating,2026-07-10,upper-tamakoshi#financial-performance,research-compilation,Existing page only; not a formal ICRA grade symbol; ICRA report not ingested
+upper-tamakoshi,icra_rating,FY2081/82,D,rating,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Default; ICRA report itself not ingested. Current rating after FY2081/82 unknown
+upper-tamakoshi,insurance_expense_npr_bn,FY2080/81,0.0993,NPR bn,2026-04-06,utkhpl-disclosures-2026,primary-filing,NPR 99.3 million
+upper-tamakoshi,insurance_expense_pct_of_revenue,FY2080/81,1.14,%,2026-07-10,hydro-insurance,derived,99.3 / 8679; single project-year; not a sector finding
+upper-tamakoshi,right_share_paid_up_capital_before_npr_bn,FY2080/81,10.59,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,100% right share issue
+upper-tamakoshi,right_share_paid_up_capital_after_npr_bn,FY2080/81,21.18,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,100% right share issue
+upper-tamakoshi,flood_physical_damage_npr_bn,Sep 2024,1.79,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Provisional per source limitations
+upper-tamakoshi,flood_business_interruption_loss_npr_bn,Sep 2024,1.43,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Provisional per source limitations
+upper-tamakoshi,insurance_claim_npr_bn,Sep 2024,2.0,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Claim lower bound of compilation range 2.0-3.22
+upper-tamakoshi,insurance_claim_npr_bn,Sep 2024,3.22,NPR bn,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Upper bound of compilation range; equals 1.79 + 1.43 so it is total loss not claim amount. Amount paid is not established anywhere in evidence
+upper-tamakoshi,rolwaling_capacity_mw,static,22,MW,2026-04-06,utkhpl-disclosures-2026,primary-filing,Rolwaling Khola project
+upper-tamakoshi,rolwaling_own_generation_gwh,static,105.04,GWh,2026-04-06,utkhpl-disclosures-2026,primary-filing,Additional generation of the Rolwaling project itself
+upper-tamakoshi,rolwaling_diversion_added_energy_gwh,static,216.51,GWh,2026-04-06,utkhpl-disclosures-2026,primary-filing,Expected addition to Upper Tamakoshi from diversion
+upper-tamakoshi,rolwaling_diversion_added_energy_gwh,static,212,GWh,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,CONFLICT with 216.51
+upper-tamakoshi,rolwaling_capital_wip_npr_bn,FY2082/83-Q3,2.103,NPR bn,2026-05-13,utkhpl-disclosures-2026,primary-filing,Accounting balance only; no progress percentage or schedule given
+upper-tamakoshi,dry_season_peaking_hours_after_rolwaling,static,6 (from 4),hours,2026-05-11,ukhl-financials-generation-fy2079-82,research-compilation,Projected; depends on diversion completion
+upper-tamakoshi,rolwaling_added_annual_revenue_npr_bn,static,1.2-1.5,NPR bn,2026-07-10,upper-tamakoshi#the-rolwaling-diversion,derived,Existing page estimate for 212 GWh skewed to dry season; assumptions not stated

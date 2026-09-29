@@ -1,0 +1,12 @@
+entity,date,event_type,summary,source_slug,evidence_grade
+upper-tamakoshi,2015,construction,Gorkha earthquake cited as one interruption of construction (with border blockades and COVID-19),upper-tamakoshi#financial-performance,research-compilation
+upper-tamakoshi,2021-08,commissioning,Commercial operation (COD); CSV gives year 2021 only,upper-tamakoshi#financial-performance,research-compilation
+upper-tamakoshi,2023-spring,hydrology,River flow reported at 45.12% of historical expectation,upper-tamakoshi#output,research-compilation
+upper-tamakoshi,FY2080/81,financing,100% right share issue; paid-up capital NPR 10.59bn to 21.18bn,ukhl-financials-generation-fy2079-82,research-compilation
+upper-tamakoshi,2024-09,incident,Post-monsoon flood damages desander ponds culverts control rooms and a 220 kV tower; generation suspended 88 days,ukhl-financials-generation-fy2079-82,research-compilation
+upper-tamakoshi,2024-09,insurance,Property and lost-revenue insurance claims lodged after flood; in settlement processing at annual report date,utkhpl-disclosures-2026,primary-filing
+upper-tamakoshi,2025-01,operations,Partial generation resumes on repaired left desander pond (mid-January),upper-tamakoshi#fy-2081/82,research-compilation
+upper-tamakoshi,2025-mid,operations,Full dual-desander operation restored (mid-2025; exact date not given),upper-tamakoshi#fy-2081/82,research-compilation
+upper-tamakoshi,FY2081/82,rating,ICRA Nepal downgrades to D (default) after missed loan payments,ukhl-financials-generation-fy2079-82,research-compilation
+upper-tamakoshi,2026-04-06,disclosure,Combined 16th and 17th annual reports (FY2079/80 and FY2080/81) published,utkhpl-disclosures-2026,primary-filing
+upper-tamakoshi,2026-05-13,disclosure,FY2082/83 third-quarter financial report published (unaudited),utkhpl-disclosures-2026,primary-filing

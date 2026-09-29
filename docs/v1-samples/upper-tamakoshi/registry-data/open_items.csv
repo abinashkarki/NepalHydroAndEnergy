@@ -1,0 +1,13 @@
+entity,item,status,opened,last_checked,what_would_close_it
+upper-tamakoshi,Insurance claim settlement outcome and amount paid,open,2026-07-10,2026-07-10,UTKHPL filing or notice stating amount received or rejected; existing page says unpaid as of May 2026 but the primary filings do not establish this
+upper-tamakoshi,Transmission-exclusion in loss-of-profit cover and reinsurer contest,open,2026-07-10,2026-07-10,Policy wording or company statement; currently only in existing wiki page and compilation
+upper-tamakoshi,Rolwaling construction progress and commissioning schedule,monitoring,2026-07-10,2026-07-10,Package progress percentage and commissioning date in a company update or next annual report
+upper-tamakoshi,FY2079/80 revenue: is ~8.68bn a mis-assigned FY2080/81 figure,open,2026-07-10,2026-07-10,Transcribe FY2079/80 electricity-sales revenue from the 2026 annual report PDF
+upper-tamakoshi,FY2080/81 net profit/loss interest and debt from primary statements,open,2026-07-10,2026-07-10,Transcribe those lines from the annual report PDF and add primary-filing rows
+upper-tamakoshi,FY2081/82 audited results not ingested,open,2026-07-10,2026-07-10,Publication and ingestion of the FY2081/82 audited accounts
+upper-tamakoshi,Construction start date and true duration (7 vs 11 years),open,2026-07-10,2026-07-10,Dated construction-start record (contract or company history) so duration is computed from dates
+upper-tamakoshi,Q3 FY2082/83 period basis (quarter vs year-to-date),open,2026-07-10,2026-07-10,Read the Q3 statement header or compare with Q4/annual figures
+upper-tamakoshi,Current ICRA rating after FY2081/82,open,2026-07-10,2026-07-10,Latest ICRA Nepal rating rationale ingested as a source
+upper-tamakoshi,Debt restructuring or repayment arrangement,monitoring,2026-07-10,2026-07-10,Company or lender disclosure of a restructuring agreement or cure of default
+upper-tamakoshi,Rolwaling diversion added energy 216.51 vs 212 GWh,open,2026-07-10,2026-07-10,Confirm 216.51 in annual report text and retire 212 as superseded
+upper-tamakoshi,FY2082/83 annual report,monitoring,2026-07-10,2026-07-10,Publication of the FY2082/83 annual report; then append rows as shown in the update example
