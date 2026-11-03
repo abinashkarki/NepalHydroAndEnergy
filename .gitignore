@@ -43,6 +43,9 @@ playwright-report/
 # 3D terrain PoC — local-only, not production-ready (see AGENTS.md)
 wiki/explorer/3d-terrain.*
 wiki/explorer/lib/cesium/
+wiki/explorer/index.html.backup*
+wiki/explorer/screenshots*/
+wiki/explorer/__pycache__/
 
 # Scratch / derived intermediates (regenerate on demand)
 # ==========================================================================
@@ -84,3 +87,17 @@ data/raw/**/*.html
 credentials.json
 secrets.json
 mcp-config.json
+
+# ==========================================================================
+# Documentary / video production workspace — lives in ../nepalEnergy-documentary
+# (see docs/repo-boundaries.md). Keep it out of this repo.
+# ==========================================================================
+docs/research_briefs/energy-series/
+documentary/
+public/
+outputs/
+Claude outputs/
+implementation_plan.md
+
+# Local agent scratch
+.zcode/
