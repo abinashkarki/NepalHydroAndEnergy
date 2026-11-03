@@ -23,7 +23,7 @@ caveat: Governance effects overlap with engineering, finance, market, environmen
 
 ## Evidence
 
-- **Market design gaps:** Weak **wheeling** and **open access** (in provider synthesis) limit competitive offtake and efficient dispatch experiments—locking the system into slower learning and politicized allocation.
+- **Market design gaps:** Weak **wheeling** and **open access** (unverified lead from an AI-assisted research synthesis; needs a primary ERC or NEA source) limit competitive offtake and efficient dispatch experiments—locking the system into slower learning and politicized allocation.
 - **Institutional conflicts of interest:** [[nea]] is simultaneously the **primary generator, monopsony buyer, and sole grid operator** — a structure that distorts signals for IPPs, weakens open-access reform, and slows transparent grid planning.
 - **Financial squeeze:** **PPA liability exposure is growing**: electricity purchase costs rose **11.73%** to **NPR 77.1B**, while export prices are the revenue relief valve. That turns governance into a balance-sheet constraint, not just an administrative issue.
 - **Land, forest, ROW:** Right-of-way and environmental clearance fragmentation causes multi-year stalls; public sources cite **inter-agency disputes** as binding more often than pure technical unknowns.
