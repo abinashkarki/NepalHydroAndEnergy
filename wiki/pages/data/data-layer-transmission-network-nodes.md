@@ -1,5 +1,5 @@
 ---
-title: Internal Data: Transmission Topology Nodes
+title: "Internal Data: Transmission Topology Nodes"
 type: data
 created: 2026-04-25
 updated: 2026-05-13

@@ -626,7 +626,7 @@ def render_stub(slug: str, entry: dict, specs_lookup: dict[str, dict[str, str]] 
     # frontmatter — uses block list for images so they're easy to hand-fill.
     fm_lines = [
         "---",
-        f'title: {title}',
+        f'title: {json.dumps(title, ensure_ascii=False) if ": " in title else title}',
         "type: entity",
         f"created: {today}",
         f"updated: {today}",

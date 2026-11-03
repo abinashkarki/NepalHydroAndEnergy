@@ -1,5 +1,5 @@
 ---
-title: DoED Power Plants: Solar Table
+title: "DoED Power Plants: Solar Table"
 type: source
 created: 2026-05-07
 updated: 2026-05-12

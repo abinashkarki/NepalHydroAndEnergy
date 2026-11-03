@@ -26,7 +26,7 @@ def extract_title(md_path: Path) -> str | None:
         return None
     fm = text[4:end]
     m = TITLE_RE.search(fm)
-    return m.group(1).strip() if m else None
+    return m.group(1).strip().strip('"').strip("'").strip() if m else None
 
 
 def main() -> None:

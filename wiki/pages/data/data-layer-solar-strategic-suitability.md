@@ -1,5 +1,5 @@
 ---
-title: Layer: Solar Strategic Suitability
+title: "Layer: Solar Strategic Suitability"
 type: data
 created: 2026-04-25
 updated: 2026-05-12

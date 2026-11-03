@@ -1,5 +1,5 @@
 ---
-title: Internal Data: Source Trace Fragments
+title: "Internal Data: Source Trace Fragments"
 type: data
 created: 2026-04-25
 updated: 2026-05-13
