@@ -751,6 +751,270 @@ def build_potential_pyramid_funnel() -> dict:
     }
 
 
+ENERGY_BALANCE_FY2025_26 = ROOT / "data" / "processed" / "tables" / "nea_energy_balance_monthly_fy2025_26.csv"
+ENERGY_BALANCE_MONTHS = ["Shrawan", "Bhadra", "Ashwin", "Kartik", "Mangshir", "Poush", "Magh", "Falgun",
+                         "Chaitra", "Baishakh", "Jestha", "Ashadh"]
+DOMESTIC_ROWS = ["IPP", "NEA_SUBSIDIARY", "NEA_ROR_PROR", "STORAGE", "SOLAR", "THERMAL"]
+
+
+def read_energy_balance_fy2025_26() -> dict:
+    rows = {row["metric"]: row for row in read_csv(ENERGY_BALANCE_FY2025_26)}
+    series: dict = {metric: [float(row[m]) for m in ENERGY_BALANCE_MONTHS] for metric, row in rows.items()}
+    series["DOMESTIC"] = [sum(series[r][i] for r in DOMESTIC_ROWS) for i in range(12)]
+    # NEA's printed row totals; monthly cells can differ by rounding.
+    series["TOTALS"] = {metric: float(row["Total"]) for metric, row in rows.items()}
+    return series
+
+
+def build_energy_balance_fy2025_26() -> dict:
+    figure_id = "energy_balance_fy2025_26"
+    s = read_energy_balance_fy2025_26()
+    x = list(range(12))
+    gen, demand = s["DOMESTIC"], s["MONTHLY_NATIONAL_ENERGY_DEMAND"]
+    fig, ax = plt.subplots(figsize=(8.4, 4.8))
+    ax.fill_between(x, gen, demand, where=[g >= d for g, d in zip(gen, demand)], interpolate=True,
+                    color=PALETTE["green"], alpha=0.18, linewidth=0, label="Surplus (exported)")
+    ax.fill_between(x, gen, demand, where=[g < d for g, d in zip(gen, demand)], interpolate=True,
+                    color=PALETTE["red"], alpha=0.25, linewidth=0, label="Deficit (imported)")
+    ax.plot(x, gen, color=PALETTE["blue"], linewidth=2.4, marker="o", markersize=4, label="Domestic generation")
+    ax.plot(x, demand, color=PALETTE["ink"], linewidth=1.8, linestyle="--", label="National demand")
+    bhadra, falgun = 1, 7
+    ax.annotate(f"Bhadra: {gen[bhadra]:,.0f} GWh generated,\n{s['EXPORT'][bhadra]:,.0f} GWh exported",
+                xy=(bhadra, gen[bhadra]), xytext=(1.6, 2350), fontsize=8.5, color=PALETTE["ink"],
+                arrowprops={"arrowstyle": "-", "color": PALETTE["muted"], "linewidth": 0.8})
+    ax.annotate(f"Falgun: {gen[falgun]:,.0f} GWh generated,\n{s['IMPORT'][falgun]:,.0f} GWh imported",
+                xy=(falgun, gen[falgun]), xytext=(4.6, 380), fontsize=8.5, color=PALETTE["ink"],
+                arrowprops={"arrowstyle": "-", "color": PALETTE["muted"], "linewidth": 0.8})
+    ax.set_xticks(x, MONTH_LABELS)
+    ax.set_ylim(0, 2600)
+    ax.set_ylabel("GWh per month")
+    ax.set_xlabel("Nepali fiscal month, FY 2025/26 (mid-July 2025 to mid-July 2026)")
+    ax.set_title("A record net-export year still ran a dry-season deficit", loc="left", fontsize=13, pad=12)
+    ax.grid(axis="y", alpha=0.42)
+    ax.grid(axis="x", visible=False)
+    ax.legend(ncol=4, loc="lower center", bbox_to_anchor=(0.5, -0.33), fontsize=8.5, frameon=False)
+    fig.subplots_adjust(left=0.10, right=0.98, top=0.88, bottom=0.30)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="NEA Annual Report FY 2025/26, energy balance p.166",
+             caveat="monthly table; summary trade totals differ slightly", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "Monthly domestic generation and national demand, FY 2025/26",
+        "path": figure_rel_path(figure_id),
+        "source_files": [rel(ENERGY_BALANCE_FY2025_26)],
+        "source_slugs": ["nea-annual-report-fy2025-26"],
+        "target_pages": ["master-thesis", "seasonal-mismatch"],
+        "caption": "Domestic generation exceeded national demand from Baishakh to Mangshir and fell short from Poush to Chaitra, even though FY 2025/26 ended with 2,794 GWh of net exports.",
+        "caveat": "Monthly energy-balance table totals (exports 3,938 GWh, imports 1,155 GWh) differ slightly from the managing director's summary (3,965 and 1,171 GWh).",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+def build_storage_vs_imports_fy2025_26() -> dict:
+    figure_id = "storage_vs_imports_fy2025_26"
+    s = read_energy_balance_fy2025_26()
+    x = list(range(12))
+    width = 0.4
+    fig, ax = plt.subplots(figsize=(8.4, 4.6))
+    ax.bar([i - width / 2 for i in x], s["IMPORT"], width=width, color=PALETTE["red"], label=f"Imports ({s['TOTALS']['IMPORT']:,.0f} GWh in the year)")
+    ax.bar([i + width / 2 for i in x], s["STORAGE"], width=width, color=PALETTE["purple"], label=f"Kulekhani storage cascade ({s['TOTALS']['STORAGE']:,.0f} GWh)")
+    ax.set_xticks(x, MONTH_LABELS)
+    ax.set_ylabel("GWh per month")
+    ax.set_xlabel("Nepali fiscal month, FY 2025/26")
+    ax.set_title("Nepal's only reservoir cascade is small beside the dry-season gap", loc="left", fontsize=12.5, pad=12)
+    ax.grid(axis="y", alpha=0.42)
+    ax.grid(axis="x", visible=False)
+    ax.legend(loc="upper left", fontsize=8.8, frameon=False)
+    fig.subplots_adjust(left=0.10, right=0.98, top=0.87, bottom=0.17)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="NEA Annual Report FY 2025/26, energy balance p.166 and plant table",
+             caveat="storage row = Kulekhani I-III output", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "Monthly imports versus seasonal-storage generation, FY 2025/26",
+        "path": figure_rel_path(figure_id),
+        "source_files": [rel(ENERGY_BALANCE_FY2025_26)],
+        "source_slugs": ["nea-annual-report-fy2025-26"],
+        "target_pages": ["storage-deficit"],
+        "caption": "The Kulekhani cascade generated 92 GWh across FY 2025/26, most of it in Baishakh and Jestha; Nepal imported 1,155 GWh, most of it from Poush to Chaitra.",
+        "caveat": "The energy-balance STORAGE row equals the Kulekhani I-III plant totals (53.0, 26.4 and 12.9 GWh) in NEA's generation table.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+def build_mw_vs_dependable_fy2025_26() -> dict:
+    figure_id = "mw_vs_dependable_fy2025_26"
+    s = read_energy_balance_fy2025_26()
+    falgun_days = 30  # Falgun 2082: 13 February to 14 March 2026
+    falgun_avg_mw = s["DOMESTIC"][7] * 1000 / (falgun_days * 24)
+    labels = ["Installed generation capacity", "National peak demand", "Average domestic output in Falgun", "Operating seasonal storage (Kulekhani)"]
+    values = [4120, 2479, falgun_avg_mw, 106]
+    colors = [PALETTE["gray"], PALETTE["ink"], PALETTE["blue"], PALETTE["purple"]]
+    fig, ax = plt.subplots(figsize=(8.4, 3.6))
+    bars = ax.barh(labels[::-1], values[::-1], color=colors[::-1], height=0.55)
+    for bar, value in zip(bars, values[::-1]):
+        ax.text(value + 50, bar.get_y() + bar.get_height() / 2, f"{value:,.0f} MW", va="center", fontsize=9.5, fontweight="bold")
+    ax.set_xlim(0, 4800)
+    ax.set_xlabel("MW")
+    ax.set_title("Megawatts installed are not megawatts available in the dry season", loc="left", fontsize=12.5, pad=12)
+    ax.grid(axis="x", alpha=0.35)
+    ax.grid(axis="y", visible=False)
+    fig.subplots_adjust(left=0.36, right=0.97, top=0.85, bottom=0.17)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="NEA Annual Report FY 2025/26, pp.1, 3, 166, 175",
+             caveat="Falgun output is a monthly average, not a peak-hour capability", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "Installed capacity, peak demand and dry-season output, FY 2025/26",
+        "path": figure_rel_path(figure_id),
+        "source_files": [rel(ENERGY_BALANCE_FY2025_26)],
+        "source_slugs": ["nea-annual-report-fy2025-26"],
+        "target_pages": ["master-thesis", "claim-mw-not-equal-value"],
+        "caption": "4,120 MW was installed and national peak demand reached 2,479 MW, but domestic generation in Falgun averaged about 1,110 MW across the month; operating seasonal storage is 106 MW.",
+        "caveat": "The Falgun figure divides 801 GWh by the hours in a 30-day month. It is an average, not dependable peak-hour capacity, which is not published.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+def build_nea_cost_structure_fy2025_26() -> dict:
+    figure_id = "nea_cost_structure_fy2025_26"
+    revenue = 148.625  # NRs billion, net revenue from energy sales incl. 29.314 exports (PDF pp.12-13)
+    items = [
+        ("Power purchases", 96.104),
+        ("Distribution", 13.113),
+        ("Foreign-exchange losses", 11.517),
+        ("Depreciation and amortisation", 11.196),
+        ("Interest", 7.597),
+        ("Transmission", 2.523),
+        ("Generation", 2.305),
+        ("Royalties incl. ERC fee", 1.902),
+        ("Power-service export charges", 1.440),
+    ]
+    labels = [label for label, _ in items][::-1]
+    values = [value for _, value in items][::-1]
+    fig, ax = plt.subplots(figsize=(8.4, 4.8))
+    bars = ax.barh(labels, values, color=[PALETTE["red"] if v > 50 else PALETTE["gray"] for v in values], height=0.6)
+    for bar, value in zip(bars, values):
+        ax.text(value + 1.2, bar.get_y() + bar.get_height() / 2, f"{value:,.1f} ({value / revenue:.0%})", va="center", fontsize=9)
+    ax.set_xlim(0, 120)
+    ax.set_xlabel("NRs billion (share of NRs 148.6 billion energy-sales revenue)")
+    ax.set_title("Buying power from producers is NEA's dominant cost", loc="left", fontsize=12.5, pad=12)
+    ax.grid(axis="x", alpha=0.35)
+    ax.grid(axis="y", visible=False)
+    fig.subplots_adjust(left=0.33, right=0.97, top=0.88, bottom=0.14)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="NEA Annual Report FY 2025/26, managing director's report pp.2-3",
+             caveat="pre-audit figures; shares are of energy-sales revenue", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "NEA cost lines as a share of energy-sales revenue, FY 2025/26",
+        "path": figure_rel_path(figure_id),
+        "source_files": ["wiki/pages/sources/nea-annual-report-fy2025-26.md"],
+        "source_slugs": ["nea-annual-report-fy2025-26"],
+        "target_pages": ["nea-triple-authority"],
+        "caption": "Power purchases of NRs 96.1 billion equalled 65% of NEA's NRs 148.6 billion energy-sales revenue in FY 2025/26, up 23.97% on the year.",
+        "caveat": "Managing director's report figures, pre-audit. Cost lines are not exhaustive and do not sum to revenue minus profit because other income and provisions are excluded.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+def build_schedule_slippage() -> dict:
+    figure_id = "schedule_slippage"
+    # (project, planned year, latest year, latest label, finished?) from the linked entity pages.
+    rows = [
+        ("Chameliya (30 MW)", 2011.45, 2018.11, "commissioned Feb 2018", True),
+        ("Tanahu (140 MW reservoir)", 2020.99, 2026.54, "~78% complete, mid-2026", False),
+        ("Arun-3 (900 MW)", 2028.0, 2029.2, "expected FY 2028/29 Q3 (May 2026)", False),
+    ]
+    planned_labels = ["planned Jun 2011", "planned end-2020 (ADB 2013)", "expected FY 2027/28 (May 2025)"]
+    fig, ax = plt.subplots(figsize=(8.4, 3.6))
+    for i, ((_name, planned, latest, label, finished), plabel) in enumerate(zip(rows, planned_labels)):
+        y = len(rows) - 1 - i
+        ax.plot([planned, latest], [y, y], color=PALETTE["grid"], linewidth=6, solid_capstyle="round", zorder=1)
+        ax.scatter([planned], [y], s=70, color=PALETTE["blue"], zorder=3)
+        ax.scatter([latest], [y], s=70, color=PALETTE["red"] if finished else "white",
+                   edgecolors=PALETTE["red"], linewidths=2, zorder=3)
+        ax.text(planned - 0.15, y + 0.22, plabel, ha="right", fontsize=8.3, color=PALETTE["blue"])
+        ax.text(latest + 0.15, y + 0.22, label, ha="left", fontsize=8.3, color=PALETTE["red"])
+    ax.set_yticks(range(len(rows)), [r[0] for r in rows][::-1])
+    ax.set_xlim(2008, 2036)
+    ax.set_ylim(-0.6, len(rows) - 0.3)
+    ax.set_xlabel("Year (filled red = commissioned; hollow = not yet)")
+    ax.set_title("Large hydropower projects finish years after their plans", loc="left", fontsize=12.5, pad=12)
+    ax.grid(axis="x", alpha=0.35)
+    ax.grid(axis="y", visible=False)
+    fig.subplots_adjust(left=0.26, right=0.98, top=0.86, bottom=0.18)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="Chameliya, Tanahu and Arun-3 entity pages (ADB 2013; NEA FY 2025/26; SJVN 2025-26)",
+             caveat="Arun-3 points are successive developer expectations, not an original target", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "Planned versus actual or latest expected completion for three hydropower projects",
+        "path": figure_rel_path(figure_id),
+        "source_files": ["wiki/pages/entities/chameliya-hydropower.md", "wiki/pages/entities/tanahu-hydropower.md", "wiki/pages/entities/arun-3.md"],
+        "source_slugs": ["adb-tanahu-project-documents-2026", "nea-annual-report-fy2025-26"],
+        "target_pages": ["buildability"],
+        "caption": "Chameliya was planned for June 2011 and commissioned in February 2018; Tanahu was appraised for completion by end-2020 and was about 78% complete in mid-2026; Arun-3's expected commissioning moved a year later between May 2025 and May 2026.",
+        "caveat": "Arun-3's two points are successive developer expectations, not the original target. Mid-year positions are approximate.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+def build_contracted_energy_performance() -> dict:
+    figure_id = "contracted_energy_performance"
+    # Actual generation as % of contracted energy, from the table on the Q-design page.
+    # Likhu-2 FY 2023/24 (~60%) is excluded there as a transmission bottleneck, not hydrology.
+    rows = [
+        ("Chilime (22.1 MW)", [("FY 2075/76", 115.6), ("FY 2076/77", 110.1)]),
+        ("Upper Tamakoshi (456 MW)", [("FY 2079/80", 85.3), ("FY 2080/81", 90.2)]),
+        ("Sanima Mai (22 MW)", [("FY 2076/77", 96.0), ("FY 2077/78", 88.0), ("FY 2078/79", 73.0), ("FY 2079/80", 85.0)]),
+        ("Likhu-2 (55 MW)", [("FY 2024/25", 91.0)]),
+        ("Api Power (8 MW)", [("FY 2075/76", 68.0)]),
+    ]
+    fig, ax = plt.subplots(figsize=(8.4, 3.9))
+    for i, (_name, points) in enumerate(rows):
+        y = len(rows) - 1 - i
+        values = [v for _, v in points]
+        ax.plot([min(values), max(values)], [y, y], color=PALETTE["grid"], linewidth=5, solid_capstyle="round", zorder=1)
+        ax.scatter(values, [y] * len(values), s=55, color=[PALETTE["green"] if v >= 100 else PALETTE["blue"] for v in values], zorder=3)
+    ax.axvline(100, color=PALETTE["ink"], linewidth=1.2, linestyle="--")
+    ax.text(100.8, len(rows) - 0.55, "contracted energy", fontsize=8.5, color=PALETTE["ink"])
+    ax.set_yticks(range(len(rows)), [r[0] for r in rows][::-1])
+    ax.set_xlim(60, 120)
+    ax.set_ylim(-0.6, len(rows) - 0.3)
+    ax.set_xlabel("Actual annual generation as % of contracted energy (each dot is one fiscal year)")
+    ax.set_title("Most projects deliver less energy than their contracts assume", loc="left", fontsize=12.5, pad=12)
+    ax.grid(axis="x", alpha=0.35)
+    ax.grid(axis="y", visible=False)
+    fig.subplots_adjust(left=0.27, right=0.97, top=0.87, bottom=0.17)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="Q-design discharge page: CHCL, UKHLL, CARE and ICRANP records",
+             caveat="small non-random sample; Likhu-2 FY 2023/24 excluded (transmission)", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "Actual generation as a share of contracted energy, selected projects",
+        "path": figure_rel_path(figure_id),
+        "source_files": ["wiki/pages/concepts/q-design-discharge.md"],
+        "source_slugs": ["chilime-annual-report-fy2078-79", "care-ratings-sanima-mai", "ukhl-annual-report"],
+        "target_pages": ["q-design-discharge"],
+        "caption": "Only Chilime exceeded its contracted energy in the years shown; the others delivered 68–96% of contract, with Sanima Mai falling to 73% in FY 2078/79.",
+        "caveat": "A small, non-random sample from company reports and ratings; no central public database tracks generation against contract. Likhu-2's FY 2023/24 shortfall reflected a substation bottleneck and is excluded.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
 def copy_legacy_figure(
     *,
     figure_id: str,
@@ -873,6 +1137,12 @@ def main() -> int:
         build_capacity_balance_fy2024_25(),
         build_export_revenue_fy2025_26(),
         build_potential_pyramid_funnel(),
+        build_energy_balance_fy2025_26(),
+        build_storage_vs_imports_fy2025_26(),
+        build_mw_vs_dependable_fy2025_26(),
+        build_nea_cost_structure_fy2025_26(),
+        build_schedule_slippage(),
+        build_contracted_energy_performance(),
         copy_legacy_figure(
             figure_id="hydropower_license_map",
             filename="hydropower_license_map.png",

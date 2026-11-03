@@ -2412,6 +2412,37 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-04 — Master Thesis and Thesis Flagships, Session 1
+
+**Agent:** Claude Code
+**Session type:** Writing session (5 pages; human-approved v2 Phase 3)
+
+**Pages touched:**
+- `syntheses/master-thesis`: rewritten from a link list into a 2,594-word argument on FY 2025/26 evidence, with two new exhibits (`energy_balance_fy2025_26`, `mw_vs_dependable_fy2025_26`), claim confidence levels, conditions for revision, reading paths and update history. Unsupported framing lines (for example the USD 0.04/0.40 per kWh comparison) were dropped.
+- `concepts/seasonal-mismatch`: rebuilt around measured monthly data (1,599 words), including the finding that FY 2025/26 annual peaks fell in late June and early July.
+- `concepts/storage-deficit`: storage-versus-imports exhibit, reservoir pipeline, duration ladder, the 2082 directive (1,547 words).
+- `concepts/nea-triple-authority`: NEA's roles from the FY 2025/26 report, cost-structure exhibit, seasonal mechanism, contract mechanism, audit questions (1,537 words). Evidence limits on discriminatory dispatch and Barahi retained.
+- `concepts/buildability`: schedule-slippage exhibit, storage test, post-commissioning hazards, transmission, financing consequence of delay, review checklist (1,513 words).
+
+**New data:** `data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv`, transcribed from PDF p.176 and checked against the table's own identities (system demand = generation + imports + interruption; national demand = system demand − exports).
+
+**Flags raised:** the Kulekhani cascade generated 92 GWh in FY 2025/26 per NEA's plant table, while `storage-and-flexibility` records 279.8 GWh for FY 2024/25; reconcile.
+
+---
+
+## 2026-11-04 — Thesis Flagships, Session 2
+
+**Agent:** Claude Code
+**Session type:** Writing session (1 page plus search tuning)
+
+**Pages touched:** `concepts/q-design-discharge`: contracted-energy exhibit from its own performance table, conditions for revision, update history.
+
+**Search change:** multi-word search aliases now also apply when all their words appear in any order, and a "solar dry season" alias was added, so solar questions rank the solar pages above `seasonal-mismatch`. The retrieval benchmark is unchanged apart from the one pre-existing stale case.
+
+**Validation result:** `make validate` and `make test` passed; all six thesis pages earn flagship under `scripts/assess_page_quality.py`.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

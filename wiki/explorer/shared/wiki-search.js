@@ -132,8 +132,12 @@ class StaticSearchIndex {
       for (const alias of this.aliases[term] || []) expanded.add(alias);
     }
     const q = String(query || "").toLowerCase();
+    const termSet = new Set(terms);
     for (const item of this.aliasPhrases) {
-      if (!item.phrase || !q.includes(item.phrase)) continue;
+      if (!item.phrase) continue;
+      // A multi-word alias also applies when all of its words appear, in any order.
+      const allTerms = (item.terms || []).length > 1 && item.terms.every((term) => termSet.has(term));
+      if (!q.includes(item.phrase) && !allTerms) continue;
       for (const term of item.expand || []) expanded.add(term);
     }
     return Array.from(expanded).filter((term) => this.postings[term]);

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-05-21</dc:date>
+    <dc:date>2026-11-04</dc:date>
     <dc:description>electricity_trade_shift: WB 2018 and NEA FY2024/25 annual totals. Caveat: annual totals hide monthly dry-season imports</dc:description>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
@@ -62,7 +62,7 @@ z
      <g id="line2d_3">
       <path d="M 61.92 235.482047
 L 568.8 235.482047
-" clip-path="url(#p86d4648f9f)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+" clip-path="url(#p89eae55845)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_4"/>
      <g id="text_3">
@@ -73,7 +73,7 @@ L 568.8 235.482047
      <g id="line2d_5">
       <path d="M 61.92 199.709415
 L 568.8 199.709415
-" clip-path="url(#p86d4648f9f)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+" clip-path="url(#p89eae55845)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_6"/>
      <g id="text_4">
@@ -84,7 +84,7 @@ L 568.8 199.709415
      <g id="line2d_7">
       <path d="M 61.92 163.936784
 L 568.8 163.936784
-" clip-path="url(#p86d4648f9f)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+" clip-path="url(#p89eae55845)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_8"/>
      <g id="text_5">
@@ -95,7 +95,7 @@ L 568.8 163.936784
      <g id="line2d_9">
       <path d="M 61.92 128.164152
 L 568.8 128.164152
-" clip-path="url(#p86d4648f9f)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+" clip-path="url(#p89eae55845)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_10"/>
      <g id="text_6">
@@ -106,7 +106,7 @@ L 568.8 128.164152
      <g id="line2d_11">
       <path d="M 61.92 92.391521
 L 568.8 92.391521
-" clip-path="url(#p86d4648f9f)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+" clip-path="url(#p89eae55845)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_12"/>
      <g id="text_7">
@@ -117,7 +117,7 @@ L 568.8 92.391521
      <g id="line2d_13">
       <path d="M 61.92 56.618889
 L 568.8 56.618889
-" clip-path="url(#p86d4648f9f)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+" clip-path="url(#p89eae55845)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
      </g>
      <g id="line2d_14"/>
      <g id="text_8">
@@ -134,7 +134,7 @@ L 178.217143 235.482047
 L 178.217143 50.752177
 L 84.96 50.752177
 z
-" clip-path="url(#p86d4648f9f)" style="fill: #ee6677"/>
+" clip-path="url(#p89eae55845)" style="fill: #ee6677"/>
    </g>
    <g id="patch_4">
     <path d="M 359.245714 235.482047
@@ -142,7 +142,7 @@ L 452.502857 235.482047
 L 452.502857 115.21446
 L 359.245714 115.21446
 z
-" clip-path="url(#p86d4648f9f)" style="fill: #ee6677"/>
+" clip-path="url(#p89eae55845)" style="fill: #ee6677"/>
    </g>
    <g id="patch_5">
     <path d="M 178.217143 235.482047
@@ -150,7 +150,7 @@ L 271.474286 235.482047
 L 271.474286 235.267411
 L 178.217143 235.267411
 z
-" clip-path="url(#p86d4648f9f)" style="fill: #228833"/>
+" clip-path="url(#p89eae55845)" style="fill: #228833"/>
    </g>
    <g id="patch_6">
     <path d="M 452.502857 235.482047
@@ -158,7 +158,7 @@ L 545.76 235.482047
 L 545.76 65.204321
 L 452.502857 65.204321
 z
-" clip-path="url(#p86d4648f9f)" style="fill: #228833"/>
+" clip-path="url(#p89eae55845)" style="fill: #228833"/>
    </g>
    <g id="patch_7">
     <path d="M 61.92 235.482047
@@ -222,11 +222,11 @@ z
   </g>
   <g id="text_17">
    <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 308.705672)">electricity_trade_shift | WB 2018 and NEA FY2024/25 annual totals | Caveat: annual totals hide monthly dry-season</text>
-   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 316.775578)">imports | 2026-05-21 | CC-BY 4.0</text>
+   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 316.775578)">imports | 2026-11-04 | CC-BY 4.0</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p86d4648f9f">
+  <clipPath id="p89eae55845">
    <rect x="61.92" y="31.578047" width="506.88" height="203.904"/>
   </clipPath>
  </defs>

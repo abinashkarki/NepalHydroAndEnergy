@@ -2,10 +2,12 @@
 title: Q-Design Discharge
 type: concept
 created: 2026-05-02
-updated: 2026-05-02
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 sources: [doed-licensing-directive-2075, wecs-dhm-1990-methodology, urja-khabar-generation-audit, chilime-annual-report-fy2078-79, care-ratings-sanima-mai, ukhl-annual-report]
 tags: [hydrology, Q-design, DoED, licensing, PPA, contracted-energy, generation, DSCR, climate, regulation]
-page_quality: brief
+page_quality: flagship
 ---
 
 # Q-Design Discharge
@@ -77,6 +79,11 @@ The following table compares contracted energy against actual generation for pro
 | **Api Power (Upper Naugarh Gad)** | 8.0 | Q40 | 46.0 | 31.2 | **68.0%** | FY 2075/76 | ICRANP rating |
 | **Likhu-2** | 55 | RoR | 242.4 | ~146 | **~60%** ⚠ | FY 2023/24 | CARE Nepal — **exclude: stranded generation (NEA substation bottleneck), not a hydrology signal** |
 | **Likhu-2** | 55 | RoR | 242.4 | ~221 | **~91%** | FY 2024/25 | CARE Nepal — operationally valid baseline after 200 MVA transformer upgrade |
+
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/contracted_energy_performance.svg" alt="Actual generation as a percentage of contracted energy for Chilime, Upper Tamakoshi, Sanima Mai, Likhu-2 and Api Power">
+  <figcaption>Each dot is one fiscal year from the table above. Only Chilime exceeded its contract in the years shown. Small, non-random sample.</figcaption>
+</figure>
 
 A broader audit published by Urja Khabar (January 2026, Kumar Pandey), citing a
 MoEWRI report from Ashad 2077 (mid-2020) on financially distressed small hydropower
@@ -166,10 +173,23 @@ The DoED Director-General and the Survey and Feasibility Study Section within th
 
 The Auditor General has not retroactively penalized DoED for licensing projects based on flawed hydrological models, though recent climate-responsive public financial management audit directives signal emerging scrutiny.
 
-## Analytical links
+## Related
 
 - [[peak-water]] — the glacio-hydrological window that Q-design assumptions ignore
 - [[seasonal-mismatch]] — the structural monsoon surplus vs winter deficit
 - [[buildability]] — execution risk amplifies when contracted energy is unrealistic
 - [[nea-triple-authority]] — the same institution (NEA) that enforces PPA contracted energy also controls dispatch and penalties
 - [[ipo-hydropower-bailout]] — investors in IPOs are not told that contracted energy targets may be structurally unachievable
+
+## What would change our mind
+
+- A public, project-by-project database of contracted versus actual generation showing that most projects meet their contracted energy in normal hydrological years.
+- Evidence that the DoED licensing rule and appraisal practice now use recent, climate-adjusted flow records, so new contracts no longer embed optimistic design discharge.
+- Dry-season performance data showing shortfalls are driven mainly by outages and transmission rather than by design hydrology.
+
+## Update history
+
+| Date | Change |
+|---|---|
+| 2026-11-04 | Added the contracted-energy exhibit, conditions for revision and this history; renamed related links |
+| 2026-05-02 | Generation-performance table, Chilime anomaly and financial consequences |

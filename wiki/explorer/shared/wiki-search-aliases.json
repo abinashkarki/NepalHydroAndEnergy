@@ -9,6 +9,7 @@
   "transmission bottleneck": ["grid constraint", "evacuation", "corridor", "stranded generation", "transmission immediate blocker"],
   "monsoon surplus": ["seasonal arbitrage", "wet season", "export", "spill", "run-of-river"],
   "dry season": ["winter", "storage", "firm power", "imports", "seasonal mismatch"],
+  "solar dry season": ["solar hydro complementarity", "solar role", "dry-season solar", "hybrid siting"],
   "run of river hydro": ["run-of-river hydropower", "ror", "seasonal mismatch", "dry-season"],
   "ror": ["run-of-river", "hydropower", "seasonal mismatch"],
   "pror": ["peaking run-of-river", "firm power", "hydropower"],

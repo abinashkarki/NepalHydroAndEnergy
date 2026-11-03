@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="655.92845pt" height="261.978047pt" viewBox="0 0 655.92845 261.978047" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-04</dc:date>
+    <dc:description>schedule_slippage: Chameliya, Tanahu and Arun-3 entity pages (ADB 2013; NEA FY 2025/26; SJVN 2025-26). Caveat: Arun-3 points are successive developer expectations, not an original target</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>TransparentGov Nepal Energy Wiki</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>CC-BY 4.0</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 261.978047
+L 655.92845 261.978047
+L 655.92845 0
+L 0 0
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 161.28 207.834047
+L 596.736 207.834047
+L 596.736 31.578047
+L 161.28 31.578047
+z
+" style="fill: #fbfaf7"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 192.384 207.834047
+L 192.384 31.578047
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="192.384" y="218.932484" transform="rotate(-0 192.384 218.932484)">2010</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 270.144 207.834047
+L 270.144 31.578047
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="270.144" y="218.932484" transform="rotate(-0 270.144 218.932484)">2015</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 347.904 207.834047
+L 347.904 31.578047
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="347.904" y="218.932484" transform="rotate(-0 347.904 218.932484)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 425.664 207.834047
+L 425.664 31.578047
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="425.664" y="218.932484" transform="rotate(-0 425.664 218.932484)">2025</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 503.424 207.834047
+L 503.424 31.578047
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="503.424" y="218.932484" transform="rotate(-0 503.424 218.932484)">2030</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 581.184 207.834047
+L 581.184 31.578047
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.35; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="581.184" y="218.932484" transform="rotate(-0 581.184 218.932484)">2035</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="379.008" y="232.610609" transform="rotate(-0 379.008 232.610609)">Year (filled red = commissioned; hollow = not yet)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="157.78" y="179.58672" transform="rotate(-0 157.78 179.58672)">Arun-3 (900 MW)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="157.78" y="126.175811" transform="rotate(-0 157.78 126.175811)">Tanahu (140 MW reservoir)</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="157.78" y="72.764902" transform="rotate(-0 157.78 72.764902)">Chameliya (30 MW)</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_16">
+    <path d="M 214.9344 68.965683
+L 318.51072 68.965683
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-width: 6; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 363.30048 122.376592
+L 449.61408 122.376592
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-width: 6; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 472.32 175.787501
+L 490.9824 175.787501
+" clip-path="url(#p3c2eb4f8bd)" style="fill: none; stroke: #d8d2ca; stroke-width: 6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 161.28 207.834047
+L 161.28 31.578047
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 596.736 207.834047
+L 596.736 31.578047
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 161.28 207.834047
+L 596.736 207.834047
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 161.28 31.578047
+L 596.736 31.578047
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m1a2414e31f" d="M 0 4.1833
+C 1.109424 4.1833 2.173559 3.742521 2.95804 2.95804
+C 3.742521 2.173559 4.1833 1.109424 4.1833 0
+C 4.1833 -1.109424 3.742521 -2.173559 2.95804 -2.95804
+C 2.173559 -3.742521 1.109424 -4.1833 0 -4.1833
+C -1.109424 -4.1833 -2.173559 -3.742521 -2.95804 -2.95804
+C -3.742521 -2.173559 -4.1833 -1.109424 -4.1833 0
+C -4.1833 1.109424 -3.742521 2.173559 -2.95804 2.95804
+C -2.173559 3.742521 -1.109424 4.1833 0 4.1833
+z
+" style="stroke: #4477aa"/>
+    </defs>
+    <g clip-path="url(#p3c2eb4f8bd)">
+     <use xlink:href="#m1a2414e31f" x="214.9344" y="68.965683" style="fill: #4477aa; stroke: #4477aa"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m2d09515290" d="M 0 4.1833
+C 1.109424 4.1833 2.173559 3.742521 2.95804 2.95804
+C 3.742521 2.173559 4.1833 1.109424 4.1833 0
+C 4.1833 -1.109424 3.742521 -2.173559 2.95804 -2.95804
+C 2.173559 -3.742521 1.109424 -4.1833 0 -4.1833
+C -1.109424 -4.1833 -2.173559 -3.742521 -2.95804 -2.95804
+C -3.742521 -2.173559 -4.1833 -1.109424 -4.1833 0
+C -4.1833 1.109424 -3.742521 2.173559 -2.95804 2.95804
+C -2.173559 3.742521 -1.109424 4.1833 0 4.1833
+z
+" style="stroke: #ee6677; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#p3c2eb4f8bd)">
+     <use xlink:href="#m2d09515290" x="318.51072" y="68.965683" style="fill: #ee6677; stroke: #ee6677; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #4477aa" x="212.6016" y="57.215283" transform="rotate(-0 212.6016 57.215283)">planned Jun 2011</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #ee6677" x="320.84352" y="57.215283" transform="rotate(-0 320.84352 57.215283)">commissioned Feb 2018</text>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p3c2eb4f8bd)">
+     <use xlink:href="#m1a2414e31f" x="363.30048" y="122.376592" style="fill: #4477aa; stroke: #4477aa"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="mca075f35e2" d="M 0 4.1833
+C 1.109424 4.1833 2.173559 3.742521 2.95804 2.95804
+C 3.742521 2.173559 4.1833 1.109424 4.1833 0
+C 4.1833 -1.109424 3.742521 -2.173559 2.95804 -2.95804
+C 2.173559 -3.742521 1.109424 -4.1833 0 -4.1833
+C -1.109424 -4.1833 -2.173559 -3.742521 -2.95804 -2.95804
+C -3.742521 -2.173559 -4.1833 -1.109424 -4.1833 0
+C -4.1833 1.109424 -3.742521 2.173559 -2.95804 2.95804
+C -2.173559 3.742521 -1.109424 4.1833 0 4.1833
+z
+" style="stroke: #ee6677; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#p3c2eb4f8bd)">
+     <use xlink:href="#mca075f35e2" x="449.61408" y="122.376592" style="fill: #ffffff; stroke: #ee6677; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #4477aa" x="360.96768" y="110.626192" transform="rotate(-0 360.96768 110.626192)">planned end-2020 (ADB 2013)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #ee6677" x="451.94688" y="110.626192" transform="rotate(-0 451.94688 110.626192)">~78% complete, mid-2026</text>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#p3c2eb4f8bd)">
+     <use xlink:href="#m1a2414e31f" x="472.32" y="175.787501" style="fill: #4477aa; stroke: #4477aa"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#p3c2eb4f8bd)">
+     <use xlink:href="#mca075f35e2" x="490.9824" y="175.787501" style="fill: #ffffff; stroke: #ee6677; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #4477aa" x="469.9872" y="164.037101" transform="rotate(-0 469.9872 164.037101)">expected FY 2027/28 (May 2025)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #ee6677" x="493.3152" y="164.037101" transform="rotate(-0 493.3152 164.037101)">expected FY 2028/29 Q3 (May 2026)</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="161.28" y="19.578047" transform="rotate(-0 161.28 19.578047)">Large hydropower projects finish years after their plans</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 242.177672)">schedule_slippage | Chameliya, Tanahu and Arun-3 entity pages (ADB 2013; NEA FY 2025/26; SJVN 2025-26) | Caveat:</text>
+   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 250.247578)">Arun-3 points are successive developer expectations, not an original target | 2026-11-04 | CC-BY 4.0</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3c2eb4f8bd">
+   <rect x="161.28" y="31.578047" width="435.456" height="176.256"/>
+  </clipPath>
+ </defs>
+</svg>
