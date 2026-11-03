@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Nepal Energy · Evidence Control Room</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./dashboard.css">
+</head>
+<body>
+  <a class="skip-link" href="#dashboard-main">Skip to dashboard</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Dashboard navigation">
+      <div class="brand-block">
+        <span class="eyebrow">TransparentGov · Internal</span>
+        <strong>Evidence Control Room</strong>
+        <span class="brand-sub">Nepal Energy</span>
+      </div>
+      <nav class="primary-nav" aria-label="Primary">
+        <button type="button" data-view="overview" aria-current="page"><span>01</span> Overview</button>
+        <button type="button" data-view="coverage"><span>02</span> Coverage</button>
+        <button type="button" data-view="reconciliation"><span>03</span> Reconciliation</button>
+        <button type="button" data-view="monitoring"><span>04</span> Monitoring</button>
+        <button type="button" data-view="sources"><span>05</span> Sources</button>
+      </nav>
+      <div class="scope-note">
+        <span>Scope</span>
+        Research operations only. Regulatory records are not delivery claims.
+      </div>
+    </aside>
+
+    <main id="dashboard-main" tabindex="-1">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" id="view-kicker">Control room</p>
+          <h1 id="view-title">Portfolio overview</h1>
+        </div>
+        <div class="topbar-actions">
+          <span class="as-of" id="as-of">Loading evidence…</span>
+          <button type="button" class="button secondary" id="export-view">Export view</button>
+        </div>
+      </header>
+
+      <section id="load-state" class="state-card" aria-live="polite">
+        <div class="spinner" aria-hidden="true"></div>
+        <div><strong>Building the operating picture</strong><br><span>Loading governed repository data.</span></div>
+      </section>
+
+      <section id="dashboard-content" hidden>
+        <div id="view-overview" class="dashboard-view" data-view-panel="overview"></div>
+        <div id="view-coverage" class="dashboard-view" data-view-panel="coverage" hidden></div>
+        <div id="view-reconciliation" class="dashboard-view" data-view-panel="reconciliation" hidden></div>
+        <div id="view-monitoring" class="dashboard-view" data-view-panel="monitoring" hidden></div>
+        <div id="view-sources" class="dashboard-view" data-view-panel="sources" hidden></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="project-detail" aria-labelledby="detail-title">
+    <div class="dialog-head">
+      <div><p class="eyebrow">Monitored record</p><h2 id="detail-title">Project</h2></div>
+      <button type="button" class="icon-button" id="close-detail" aria-label="Close project details">×</button>
+    </div>
+    <div id="detail-body" class="dialog-body"></div>
+  </dialog>
+
+  <script src="./dashboard-charts.js" defer></script>
+  <script src="./dashboard.js" defer></script>
+</body>
+</html>

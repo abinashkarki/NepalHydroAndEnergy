@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: wiki-index seo-pilot validate serve figures test release-check release-record-check mcp deficit-model wiki-figures lead1-outputs wiki-build
+.PHONY: wiki-index seo-pilot validate serve figures test release-check release-record-check mcp deficit-model wiki-figures lead1-outputs wiki-build dashboard-build dashboard-check dashboard-serve
 
 wiki-index:
 	$(PYTHON) scripts/build_wiki_page_index.py
@@ -26,10 +26,14 @@ validate:
 	git diff --check
 
 test:
-	$(PYTHON) -m unittest scripts.test_wiki_search_index scripts.test_explorer_search_runtime scripts.test_explorer_performance scripts.test_claim_integrity scripts.test_source_used_by tests.test_apply_doed_project_status_overlay tests.test_benchmark_hydromap_coverage tests.test_build_doed_hydropower_registry tests.test_build_doed_missing_operating_projects tests.test_build_doed_project_status_overlay tests.test_build_tributary_maps_capacity_authority tests.test_static_seo
+	$(PYTHON) -m unittest scripts.test_wiki_search_index scripts.test_explorer_search_runtime scripts.test_extract_pdf_images scripts.test_explorer_performance scripts.test_claim_integrity scripts.test_source_used_by tests.test_apply_doed_project_status_overlay tests.test_benchmark_hydromap_coverage tests.test_build_doed_hydropower_registry tests.test_build_doed_missing_operating_projects tests.test_build_doed_project_status_overlay tests.test_build_tributary_maps_capacity_authority tests.test_build_internal_dashboard tests.test_static_seo
 	node tests/test_wiki_search_intents.js
+	node tests/test_lalupate_stage_one.js
+	node tests/test_internal_dashboard_runtime.js
 
 release-check: wiki-index seo-pilot validate test release-record-check
+	$(PYTHON) scripts/build_internal_dashboard.py
+	$(PYTHON) scripts/build_internal_dashboard.py --check
 	$(PYTHON) scripts/check_generated_ownership.py
 
 release-record-check:
@@ -52,6 +56,17 @@ lead1-outputs:
 	$(PYTHON) scripts/build_lead1_trade_outputs.py
 
 wiki-build: wiki-figures wiki-index
+
+dashboard-build:
+	$(PYTHON) scripts/build_internal_dashboard.py
+
+dashboard-check:
+	$(PYTHON) scripts/build_internal_dashboard.py --check
+	$(PYTHON) -m unittest tests.test_build_internal_dashboard
+	node tests/test_internal_dashboard_runtime.js
+
+dashboard-serve: dashboard-build
+	./internal/dashboard/serve.sh 8765
 
 .PHONY: deficit-model
 deficit-model: data/winter_deficit_model/solar_monthly_cf_profile.csv data/winter_deficit_model/storage_hydro_pipeline.csv

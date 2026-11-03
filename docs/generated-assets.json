@@ -211,5 +211,68 @@
       "committed": true,
       "deployable": false
     }
-  }
+  },
+    "data/processed/dashboard/control-room.json": {
+      "owner": "scripts/build_internal_dashboard.py",
+      "command": "python scripts/build_internal_dashboard.py",
+      "inputs": [
+        "wiki/explorer/shared/wiki-page-meta.json",
+        "wiki/explorer/shared/wiki-backlinks.json",
+        "wiki/explorer/shared/wiki-fact-index.json",
+        "data/project_specs.csv",
+        "data/project_events.csv",
+        "data/project_blockers.csv",
+        "data/corridor_specs.csv",
+        "data/processed/tables/doed_project_status_overlay_summary.json",
+        "data/processed/tables/doed_project_crosswalk_review.csv",
+        "data/processed/tables/hydromap_coverage_summary.json",
+        "data/processed/tables/hydromap_active_review_queue.csv",
+        "data/processed/tables/hydromap_capacity_conflicts.csv",
+        "wiki/FLAGGED_FOR_REVIEW.md"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/maps/flood_2026_route.geojson": {
+      "owner": "scripts/build_flood_2026_layer.py",
+      "command": "python scripts/build_flood_2026_layer.py",
+      "inputs": ["data/flood_2026_08_impact_register.csv", "data/processed/maps/hydropower_project_display_points.geojson", "data/processed/maps/nepal_relevant_tributaries.geojson"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/flood_2026_impacts_confirmed.geojson": {
+      "owner": "scripts/build_flood_2026_layer.py",
+      "command": "python scripts/build_flood_2026_layer.py",
+      "inputs": ["data/flood_2026_08_impact_register.csv", "data/processed/maps/hydropower_project_display_points.geojson", "data/processed/maps/nepal_relevant_tributaries.geojson"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/flood_2026_impacts_watch.geojson": {
+      "owner": "scripts/build_flood_2026_layer.py",
+      "command": "python scripts/build_flood_2026_layer.py",
+      "inputs": ["data/flood_2026_08_impact_register.csv", "data/processed/maps/hydropower_project_display_points.geojson", "data/processed/maps/nepal_relevant_tributaries.geojson"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/flood_2026_corridor_projects.geojson": {
+      "owner": "scripts/build_flood_2026_layer.py",
+      "command": "python scripts/build_flood_2026_layer.py",
+      "inputs": ["data/flood_2026_08_impact_register.csv", "data/processed/maps/hydropower_project_display_points.geojson", "data/processed/maps/nepal_relevant_tributaries.geojson"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/flood_2026_secondary_hazards.geojson": {
+      "owner": "scripts/build_flood_2026_layer.py",
+      "command": "python scripts/build_flood_2026_layer.py",
+      "inputs": ["data/flood_2026_08_impact_register.csv", "data/processed/maps/hydropower_project_display_points.geojson", "data/processed/maps/nepal_relevant_tributaries.geojson"],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/flood_2026_build_report.json": {
+      "owner": "scripts/build_flood_2026_layer.py",
+      "command": "python scripts/build_flood_2026_layer.py",
+      "inputs": ["data/flood_2026_08_impact_register.csv", "data/processed/maps/hydropower_project_display_points.geojson", "data/processed/maps/nepal_relevant_tributaries.geojson"],
+      "committed": true,
+      "deployable": false
+    }
 }
