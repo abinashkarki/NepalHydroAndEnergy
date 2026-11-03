@@ -1,0 +1,43 @@
+python -m unittest scripts.test_wiki_search_index scripts.test_explorer_search_runtime scripts.test_extract_pdf_images scripts.test_explorer_performance scripts.test_claim_integrity scripts.test_source_used_by tests.test_build_internal_dashboard tests.test_static_seo
+wrote wiki/explorer/shared/wiki-search-index.json (412 pages, 12462 terms)
+wrote wiki/explorer/shared/wiki-fact-index.json (666 facts)
+.............................................FAIL: data/claim_registry.yaml claim C-001 must be a mapping
+..FAIL: governed claim claim-x contains forbidden text: '4.99-5.55'
+..FAIL: duplicate claim_id C-001 on pages: claim-a, claim-b
+..FAIL: governed claim claim-x contains forbidden text: 'BAD OLD NUMBER'
+.FAIL: governed claim claim-x (updated 2026-01-01) is older than metric source source-page-1 (updated 2026-05-01)
+...FAIL: data/claim_registry.yaml claim C-001 has invalid tier: 'cor'
+.FAIL: governed claim claim-x missing required text: '7.23%'
+.FAIL: governed claim claim-x contains forbidden text: '4.96%'
+.FAIL: data/claim_registry.yaml metric m1 must be a mapping
+.FAIL: metric m1 source_slug 'page-that-does-not-exist' does not exist in wiki
+.FAIL: metric m1 canonical_text must be a list
+.FAIL: metric m1 has no source_slug
+.FAIL: claim page claim-x has claim_id 'C-999' but registry expects 'C-001'
+.FAIL: data/claim_registry.yaml claim C-001 points to missing slug: claim-missing
+.FAIL: governed claim claim-x missing required text: 'MUST HAVE THIS'
+..FAIL: data/claim_registry.yaml must be a YAML mapping
+.FAIL: data/claim_registry.yaml version must be 1
+.FAIL: claim C-001 depends on unknown metric: no_such_metric
+...OK: 85 source pages have no manual Used By sections
+..............F.........
+======================================================================
+FAIL: test_generated_outputs_are_current (tests.test_static_seo.StaticSeoPilotTests.test_generated_outputs_are_current)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/hi/projects/nepalEnergy/tests/test_static_seo.py", line 318, in test_generated_outputs_are_current
+    self.assertEqual(0, result.returncode, result.stdout + result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : FAIL: stale SEO pilot output(s):
+wiki/glof-risk/index.html
+wiki/rasuwagadhi/index.html
+wiki/icimod-ndrrma-thame-glof-2024/index.html
+wiki/ndrrma-rasuwa-glacial-flood-sitrep-2025/index.html
+wiki/nea-engineering-annual-report-2081-82/index.html
+
+
+----------------------------------------------------------------------
+Ran 95 tests in 3.712s
+
+FAILED (failures=1)
+make: *** [test] Error 1

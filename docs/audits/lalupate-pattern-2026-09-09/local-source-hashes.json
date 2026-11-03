@@ -1,0 +1,18 @@
+[
+  {
+    "path": "data/raw/projects_storage/hydro_naxa_datasets.csv",
+    "sha256": "659e1e8182bf8f460e7e3b8833ce9f1698c28338c93b57eb8a11747208c303a0"
+  },
+  {
+    "path": "data/raw/projects_storage/naxa_hydropower_projects.geojson",
+    "sha256": "e04775a2b2aeca3b89a852fa4a786d82da4f39e938745bada3cc0a82c8573986"
+  },
+  {
+    "path": "scripts/build_tributary_maps.py",
+    "sha256": "8b9f7e4b43bf1d2b7cebd1d43ef9abdb0414bfe99e553583e548b9c624236395"
+  },
+  {
+    "path": "scripts/build_wiki_fact_index.py",
+    "sha256": "69888f175bcdb4d29573b0b152587bb54d49f66b7a905fed2ac98f77e62a3dff"
+  }
+]

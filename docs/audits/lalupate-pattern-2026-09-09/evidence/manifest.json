@@ -1,0 +1,47 @@
+{
+  "retrieved_utc": "2026-09-09T09:04:01.962219+00:00",
+  "assets": [
+    {
+      "url": "https://transparentgov.ai/wiki/explorer/shared/wiki-page-index.json",
+      "file": "wiki__explorer__shared__wiki-page-index.json",
+      "sha256": "37185832e182361d365c2b3983d910bce02206fd0a3a52c32505aecdb279070f",
+      "bytes": 106411
+    },
+    {
+      "url": "https://transparentgov.ai/wiki/explorer/shared/wiki-search-index.json",
+      "file": "wiki__explorer__shared__wiki-search-index.json",
+      "sha256": "684d64fa51b9df5387a7aef30cf38d5cabb2fcea242429864e71be03822f3ac9",
+      "bytes": 1176450
+    },
+    {
+      "url": "https://transparentgov.ai/data/processed/maps/hydropower_project_display_points.geojson",
+      "file": "data__processed__maps__hydropower_project_display_points.geojson",
+      "sha256": "ffc858d46fc1a374679a813e2570774c173f678825ed28eccf98590fe97324b6",
+      "bytes": 467553
+    },
+    {
+      "url": "https://transparentgov.ai/wiki/explorer/index.html",
+      "file": "wiki__explorer__index.html",
+      "sha256": "c2c5c32b532b5af2849e17ccc1fb9e08b1174ad4ca61d1c8c91669ac20bae332",
+      "bytes": 225286
+    },
+    {
+      "url": "https://transparentgov.ai/wiki/explorer/shared/wiki-search.js",
+      "file": "wiki__explorer__shared__wiki-search.js",
+      "sha256": "b521e78113e47cd48ab4d173542ed3bdedcc5a906a66cbf05c56eef84ebd5d95",
+      "bytes": 28211
+    },
+    {
+      "url": "https://transparentgov.ai/wiki/explorer/shared/bindings.json",
+      "file": "wiki__explorer__shared__bindings.json",
+      "sha256": "dd0202a783d158075c3cd8b6a3b6223476e4504a01600c4e144f4543507f9a50",
+      "bytes": 91694
+    },
+    {
+      "url": "https://transparentgov.ai/wiki/explorer/shared/wiki-fact-index.json",
+      "file": "wiki__explorer__shared__wiki-fact-index.json",
+      "sha256": "1dd60a0029d75150a9c16b7c35b691f8d4df15da2f62ef8b9ecfc4ac37d4771a",
+      "bytes": 1089437
+    }
+  ]
+}
