@@ -40,7 +40,7 @@
   <script src="shared/leaflet-init.js?v=public-launch-12"></script>
   <script src="shared/source-used-by.js?v=public-launch-12"></script>
   <script src="shared/wiki-loader.js?v=public-launch-12"></script>
-  <script src="shared/wiki-search.js?v=public-launch-12"></script>
+  <script src="shared/wiki-search.js?v=public-launch-13"></script>
   <script src="shared/wiki-vector-search.js?v=public-launch-12"></script>
   <style>
     /* Layout: resizable three-pane grid. */
@@ -2946,9 +2946,11 @@
 </ul>
 </article>
     <aside class="backlinks" aria-labelledby="backlinks-heading">
-    <h2 id="backlinks-heading">Used By <span>2</span></h2>
-    <ul><li><a href="/wiki/rasuwagadhi/" data-route="canonical-page">Rasuwagadhi</a><span>entities</span></li>
-<li><a href="/wiki/glof-risk/" data-route="canonical-page">GLOF Risk</a><span>concepts</span></li></ul>
+    <h2 id="backlinks-heading">Used By <span>4</span></h2>
+    <ul><li><a href="/wiki/explorer/?page=kathmandupost-bhotekoshi-flood-barrier-lake-2026" data-route="explorer-fallback">Kathmandu Post — New barrier lake in Nepal raises fresh flood threat, China warns (2026)</a><span>sources</span></li>
+<li><a href="/wiki/rasuwagadhi/" data-route="canonical-page">Rasuwagadhi</a><span>entities</span></li>
+<li><a href="/wiki/glof-risk/" data-route="canonical-page">GLOF Risk</a><span>concepts</span></li>
+<li><a href="/wiki/explorer/?page=bhotekoshi-trishuli-flood-2026" data-route="explorer-fallback">Bhotekoshi–Trishuli Flood 2026</a><span>syntheses</span></li></ul>
   </aside>
   </div>
   <!-- wiki-route-prerender:end --></div>
@@ -3239,6 +3241,26 @@
         transmission_labels: {
           summary: "Permanent corridor text labels for the transmission overlays, separated from river labels to reduce low-zoom clutter.",
           related: ["nepal-transmission-landscape-2025", "claim-transmission-immediate-blocker"],
+        },
+        flood_2026_route: {
+          summary: "Reconstructed 26 August 2026 flood route from the Langtang Lirung avalanche source through the Bhote Koshi and Trishuli to the Narayani at the India border. Tibet-side reaches are approximate; damage-anchored waypoints fix the Rasuwa valley alignment.",
+          related: ["bhotekoshi-trishuli-flood-2026", "glof-risk", "trishuli-cascade"],
+        },
+        flood_2026_impacts_confirmed: {
+          summary: "Hydropower damage from the 26 August 2026 flood where an official or named-media source records the impact. Preliminary while rescue operations continue; every entry carries an as-of date.",
+          related: ["bhotekoshi-trishuli-flood-2026", "rasuwagadhi", "chilime", "upper-trishuli-3a"],
+        },
+        flood_2026_impacts_watch: {
+          summary: "Corridor projects with indirect damage signals (market or location) but no project-level damage statement yet. Watch tier, not confirmation.",
+          related: ["bhotekoshi-trishuli-flood-2026", "trishuli-cascade"],
+        },
+        flood_2026_corridor_projects: {
+          summary: "Registry projects whose mapped location falls within 3 km of the reconstructed flood route. Geometric exposure only — these are candidates for verification, not confirmed damage.",
+          related: ["bhotekoshi-trishuli-flood-2026", "data-map-inventory"],
+        },
+        flood_2026_secondary_hazards: {
+          summary: "Post-event secondary hazards: the barrier lake at the Chhochen Khola-Purepu Tsangpo confluence with breach risk, and the Tibet-side Gyirong damage cluster.",
+          related: ["bhotekoshi-trishuli-flood-2026", "glof-risk"],
         },
       };
 
@@ -3843,12 +3865,13 @@
         const exact = exactSearchResults(results, query);
         const isStructuredAnswer = !!(intent && intent.answer && intent.answer.applicable);
         const structuredResults = results.filter((result) => result.structured);
-        const answerResults = isStructuredAnswer && structuredResults.length
+        const emptyStructuredAnswer = isStructuredAnswer && intent.answer.empty;
+        const answerResults = emptyStructuredAnswer ? [] : isStructuredAnswer && structuredResults.length
           ? structuredResults
           : (!isStructuredAnswer && exact.length ? exact : results);
         const facts = answerResults.map(factForResult).filter(Boolean);
         const uniqueFacts = Array.from(new Map(facts.map((fact) => [fact.id, fact])).values());
-        const first = intent && intent.sourceSeeking
+        const first = emptyStructuredAnswer ? null : intent && intent.sourceSeeking
           ? preferredAnswerResult(results, intent)
           : preferredAnswerResult(answerResults, intent);
         const explicit = intent && intent.answer && intent.answer.applicable === false
@@ -3870,7 +3893,7 @@
         const evidenceCount = uniqueFacts.reduce((sum, fact) => sum + (fact.evidence_urls || []).length, 0);
         const dates = uniqueFacts.map((fact) => fact.as_of || fact.last_updated).filter(Boolean).sort().reverse();
         const sourceLine = intent && intent.answer && intent.answer.applicable && intent.answer.empty
-          ? "No structured project record satisfies all of these constraints."
+          ? "No structured project record satisfies all of these constraints. Any results below are related reading, not matches to all constraints."
           : (isStructuredAnswer || exact.length) && uniqueFacts.length
             ? `${evidenceCount || "No direct"} evidence link${evidenceCount === 1 ? "" : "s"}${dates[0] ? ` · records checked through ${dates[0]}` : ""}`
             : "Open the result to inspect its claims and source trail.";
@@ -4122,6 +4145,8 @@
       }
 
       function formatTariff(value) {
+        if (typeof value !== "number" && typeof value !== "string") return "";
+        if (typeof value === "string" && !value.trim()) return "";
         const n = Number(value);
         if (!Number.isFinite(n)) return "";
         return `NPR ${n.toLocaleString(undefined, { maximumFractionDigits: 2 })}/kWh`;
@@ -4849,6 +4874,17 @@
             { key: "route_callouts", label: "Route notes", symbol: "route" },
             { key: "basin_seasonality", label: "Wet/dry season flow", symbol: "season" },
             { key: "hydrology_markers", label: "Flow measurements", symbol: "impact" },
+          ],
+        },
+        {
+          id: "flood_2026",
+          title: "Bhotekoshi 2026 Flood",
+          rows: [
+            { key: "flood_2026_route", label: "Reconstructed flood route", symbol: "route" },
+            { key: "flood_2026_impacts_confirmed", label: "Confirmed damage", symbol: "watch" },
+            { key: "flood_2026_impacts_watch", label: "Watch list", symbol: "survey" },
+            { key: "flood_2026_corridor_projects", label: "Corridor exposure (unconfirmed)", symbol: "pin" },
+            { key: "flood_2026_secondary_hazards", label: "Secondary hazards", symbol: "source" },
           ],
         },
         {
