@@ -1,0 +1,467 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31958,
+     28.16972
+    ]
+   },
+   "properties": {
+    "project": "Chilime",
+    "capacity_mw": 22.0,
+    "license_type": "Operation",
+    "district": "RASUWA",
+    "river": "Chilime",
+    "exposure_tier": "near-corridor",
+    "exposure_label": "Near corridor (<= 3000 m of mapped route)",
+    "distance_to_route_m": 2294,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.13889,
+     27.90222
+    ]
+   },
+   "properties": {
+    "project": "Devighat",
+    "capacity_mw": 14.1,
+    "license_type": "Operation",
+    "district": "NUWAKOT",
+    "river": "Trishuli",
+    "exposure_tier": "on-corridor",
+    "exposure_label": "On flood corridor (<= 300 m of mapped route)",
+    "distance_to_route_m": 61,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.86292,
+     27.44681
+    ]
+   },
+   "properties": {
+    "project": "Gandak",
+    "capacity_mw": 15.0,
+    "license_type": "Operation",
+    "district": "NAWALPARASI_W",
+    "river": "Narayani",
+    "exposure_tier": "near-corridor",
+    "exposure_label": "Near corridor (<= 3000 m of mapped route)",
+    "distance_to_route_m": 1989,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.335,
+     27.72569
+    ]
+   },
+   "properties": {
+    "project": "Kalika Kaligandaki HEP",
+    "capacity_mw": 49.5,
+    "license_type": "Survey",
+    "district": "NAWALPARASI_E",
+    "river": "Kali Gandaki",
+    "exposure_tier": "near-corridor",
+    "exposure_label": "Near corridor (<= 3000 m of mapped route)",
+    "distance_to_route_m": 2657,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.20458,
+     28.07542
+    ]
+   },
+   "properties": {
+    "project": "Mailung Khola",
+    "capacity_mw": 5.0,
+    "license_type": "Operation",
+    "district": "RASUWA",
+    "river": "Mailung Khola",
+    "exposure_tier": "corridor-adjacent",
+    "exposure_label": "Corridor-adjacent (<= 1500 m of mapped route)",
+    "distance_to_route_m": 637,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.20069,
+     28.09111
+    ]
+   },
+   "properties": {
+    "project": "Middle Mailung Hydropower Project",
+    "capacity_mw": 10.0,
+    "license_type": "Survey",
+    "district": "RASUWA",
+    "river": "Mailung Khola",
+    "exposure_tier": "near-corridor",
+    "exposure_label": "Near corridor (<= 3000 m of mapped route)",
+    "distance_to_route_m": 2053,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.19792,
+     28.07847
+    ]
+   },
+   "properties": {
+    "project": "Nyam Nyam",
+    "capacity_mw": 6.0,
+    "license_type": "Generation",
+    "district": "RASUWA",
+    "river": "Nyam Nyam Khola",
+    "exposure_tier": "corridor-adjacent",
+    "exposure_label": "Corridor-adjacent (<= 1500 m of mapped route)",
+    "distance_to_route_m": 1374,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.35417,
+     28.20472
+    ]
+   },
+   "properties": {
+    "project": "Rasuwa Bhotekoshi",
+    "capacity_mw": 120.0,
+    "license_type": "Generation",
+    "district": "RASUWA",
+    "river": "Bhote koshi",
+    "exposure_tier": "on-corridor",
+    "exposure_label": "On flood corridor (<= 300 m of mapped route)",
+    "distance_to_route_m": 35,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.37014,
+     28.25111
+    ]
+   },
+   "properties": {
+    "project": "Rasuwagadhi",
+    "capacity_mw": 111.0,
+    "license_type": "Generation",
+    "district": "RASUWA",
+    "river": "Bhote koshi",
+    "exposure_tier": "on-corridor",
+    "exposure_label": "On flood corridor (<= 300 m of mapped route)",
+    "distance_to_route_m": 18,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.51667,
+     27.80764
+    ]
+   },
+   "properties": {
+    "project": "Rigdi Khola Hydro Project",
+    "capacity_mw": 3.7,
+    "license_type": "Survey",
+    "district": "CHITAWAN",
+    "river": "Rigdi",
+    "exposure_tier": "corridor-adjacent",
+    "exposure_label": "Corridor-adjacent (<= 1500 m of mapped route)",
+    "distance_to_route_m": 796,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.28958,
+     28.2
+    ]
+   },
+   "properties": {
+    "project": "Sanjen",
+    "capacity_mw": 42.5,
+    "license_type": "Generation",
+    "district": "RASUWA",
+    "river": "Sanjen",
+    "exposure_tier": "corridor-adjacent",
+    "exposure_label": "Corridor-adjacent (<= 1500 m of mapped route)",
+    "distance_to_route_m": 1016,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.62583,
+     27.84681
+    ]
+   },
+   "properties": {
+    "project": "Super Trishuli",
+    "capacity_mw": 100.0,
+    "license_type": "Generation",
+    "district": "GORKHA",
+    "river": "Trishuli",
+    "exposure_tier": "near-corridor",
+    "exposure_label": "Near corridor (<= 3000 m of mapped route)",
+    "distance_to_route_m": 2028,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.86667,
+     27.83333
+    ]
+   },
+   "properties": {
+    "project": "Thoppal Khola",
+    "capacity_mw": 1.65,
+    "license_type": "Operation",
+    "district": "DHADING",
+    "river": "Thoppal",
+    "exposure_tier": "near-corridor",
+    "exposure_label": "Near corridor (<= 3000 m of mapped route)",
+    "distance_to_route_m": 2739,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.16611,
+     27.94639
+    ]
+   },
+   "properties": {
+    "project": "Trishuli",
+    "capacity_mw": 24.0,
+    "license_type": "Operation",
+    "district": "NUWAKOT",
+    "river": "Trishuli",
+    "exposure_tier": "on-corridor",
+    "exposure_label": "On flood corridor (<= 300 m of mapped route)",
+    "distance_to_route_m": 225,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.02292,
+     27.82778
+    ]
+   },
+   "properties": {
+    "project": "Trishuli Galchhi",
+    "capacity_mw": 75.0,
+    "license_type": "Generation",
+    "district": "NUWAKOT",
+    "river": "Trishuli",
+    "exposure_tier": "on-corridor",
+    "exposure_label": "On flood corridor (<= 300 m of mapped route)",
+    "distance_to_route_m": 255,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31125,
+     28.11264
+    ]
+   },
+   "properties": {
+    "project": "Trishuli Khola",
+    "capacity_mw": 4.409,
+    "license_type": "Survey",
+    "district": "RASUWA",
+    "river": "Trishuli Khola",
+    "exposure_tier": "near-corridor",
+    "exposure_label": "Near corridor (<= 3000 m of mapped route)",
+    "distance_to_route_m": 2042,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.28958,
+     28.22847
+    ]
+   },
+   "properties": {
+    "project": "Upper Sanjen",
+    "capacity_mw": 14.8,
+    "license_type": "Generation",
+    "district": "RASUWA",
+    "river": "Sanjen",
+    "exposure_tier": "near-corridor",
+    "exposure_label": "Near corridor (<= 3000 m of mapped route)",
+    "distance_to_route_m": 2425,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.19917,
+     28.04653
+    ]
+   },
+   "properties": {
+    "project": "Upper Trishuli 3A",
+    "capacity_mw": 60.0,
+    "license_type": "Generation",
+    "district": "RASUWA",
+    "river": "Trishuli",
+    "exposure_tier": "on-corridor",
+    "exposure_label": "On flood corridor (<= 300 m of mapped route)",
+    "distance_to_route_m": 113,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.185,
+     28.00458
+    ]
+   },
+   "properties": {
+    "project": "Upper Trishuli 3B",
+    "capacity_mw": 37.0,
+    "license_type": "Generation",
+    "district": "RASUWA",
+    "river": "Trishuli",
+    "exposure_tier": "on-corridor",
+    "exposure_label": "On flood corridor (<= 300 m of mapped route)",
+    "distance_to_route_m": 41,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.25597,
+     28.10125
+    ]
+   },
+   "properties": {
+    "project": "Upper Trishuli-1",
+    "capacity_mw": 216.0,
+    "license_type": "Generation",
+    "district": "RASUWA",
+    "river": "Trishuli",
+    "exposure_tier": "corridor-adjacent",
+    "exposure_label": "Corridor-adjacent (<= 1500 m of mapped route)",
+    "distance_to_route_m": 572,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.20903,
+     28.0725
+    ]
+   },
+   "properties": {
+    "project": "Upper Trishuli-I Cascade HEP",
+    "capacity_mw": 24.6,
+    "license_type": "Survey",
+    "district": "RASUWA",
+    "river": "Trishuli Ganga",
+    "exposure_tier": "on-corridor",
+    "exposure_label": "On flood corridor (<= 300 m of mapped route)",
+    "distance_to_route_m": 137,
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  }
+ ]
+}

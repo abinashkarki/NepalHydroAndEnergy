@@ -2,8 +2,8 @@
 title: GLOF Risk
 type: concept
 created: 2026-04-14
-updated: 2026-08-27
-sources: [icimod-ndrrma-thame-glof-2024, ndrrma-rasuwa-glacial-flood-sitrep-2025, nea-engineering-annual-report-2081-82, icimod-hkh-glacier-change, icimod-koshi-sediment-threats]
+updated: 2026-08-30
+sources: [icimod-ndrrma-thame-glof-2024, ndrrma-rasuwa-glacial-flood-sitrep-2025, nea-engineering-annual-report-2081-82, icimod-hkh-glacier-change, icimod-koshi-sediment-threats, reuters-bhotekoshi-flood-climate-attribution-2026, kathmandupost-bhotekoshi-flood-barrier-lake-2026]
 tags: [GLOF, hazards, climate, nepal, infrastructure, koshi, rasuwa, trishuli, transboundary]
 page_quality: analysis
 ---
@@ -42,6 +42,12 @@ On 8 July 2025, rapid discharge from a supraglacial lake on the Purepu Glacier s
 
 The 111 MW [[rasuwagadhi]] plant had entered commercial operation in January 2025. NEA Engineering records severe civil, hydromechanical and electromechanical damage, suspension of generation, one unit returning on 6 December and two-unit generation under available dry-season discharge from 25 December. See [[nea-engineering-annual-report-2081-82]].
 
+### 2026 — Langtang Lirung avalanche / Bhotekoshi–Trishuli
+
+On 26 August 2026, an ice-rock avalanche from the northern slopes of Langtang Lirung into the Lhende Khola on the Tibetan side sent a debris-laden flood down the Bhote Koshi and Trishuli to the Narayani at the Indian border. The same corridor hit in 2025 was struck again: [[rasuwagadhi]] — only partially restored from the 2025 damage — was reported completely washed away, Chilime was buried, and roughly 430 MW across 14–15 corridor projects was knocked out. A landslide-dam barrier lake then formed near the Chhochen Khola–Purepu Tsangpo confluence, creating breach risk over the same reach. See [[reuters-bhotekoshi-flood-climate-attribution-2026]], [[kathmandupost-bhotekoshi-flood-barrier-lake-2026]] and the event page [[bhotekoshi-trishuli-flood-2026]].
+
+Note the causal-label discipline: this event is an ice-rock avalanche flood, not a documented glacial-lake outburst. The initiating mechanism must be established by investigation before applying the GLOF label — exactly the distinction the misunderstandings below describe.
+
 ## Common Misunderstandings
 
 - **"A GLOF is just a large monsoon flood."** No. It originates from sudden release of a glacial lake and may develop a very different flood wave and sediment load.
@@ -58,6 +64,7 @@ The 111 MW [[rasuwagadhi]] plant had entered commercial operation in January 202
 - [[peak-water]]
 - [[rasuwagadhi]]
 - [[sediment-as-design-constraint]]
+- [[bhotekoshi-trishuli-flood-2026]]
 
 ## Sources
 

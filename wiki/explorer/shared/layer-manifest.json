@@ -18,7 +18,8 @@
         "geopolitics": "context",
         "power_system": "context",
         "solar_system": "context",
-        "wiki": "context"
+        "wiki": "context",
+        "flood_2026": "off"
       }
     },
     "basin_polygons": {
@@ -63,7 +64,8 @@
         "geopolitics": "context",
         "power_system": "context",
         "solar_system": "muted",
-        "wiki": "context"
+        "wiki": "context",
+        "flood_2026": "off"
       }
     },
     "india_basins": {
@@ -92,7 +94,8 @@
         "geopolitics": "primary",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "tributaries": {
@@ -119,7 +122,8 @@
         "geopolitics": "secondary",
         "power_system": "context",
         "solar_system": "context",
-        "wiki": "context"
+        "wiki": "context",
+        "flood_2026": "off"
       }
     },
     "downstream_systems": {
@@ -148,7 +152,8 @@
         "geopolitics": "primary",
         "power_system": "muted",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "ocean_routes": {
@@ -198,7 +203,8 @@
         "geopolitics": "secondary",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "route_callouts": {
@@ -250,7 +256,8 @@
         "geopolitics": "annotation",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "dependency_zones": {
@@ -307,7 +314,8 @@
         "geopolitics": "context",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "population_anchors": {
@@ -357,7 +365,8 @@
         "geopolitics": "secondary",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "india_rivers": {
@@ -382,7 +391,8 @@
         "geopolitics": "secondary",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "hydrology_markers": {
@@ -412,7 +422,8 @@
         "geopolitics": "primary",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "callouts": {
@@ -442,7 +453,8 @@
         "geopolitics": "annotation",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "hydropower_operating": {
@@ -539,7 +551,8 @@
         "geopolitics": "secondary",
         "power_system": "primary",
         "solar_system": "muted",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "doed_operating_reference_midpoints": {
@@ -580,7 +593,8 @@
         "geopolitics": "off",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "hydropower_construction": {
@@ -677,7 +691,8 @@
         "geopolitics": "muted",
         "power_system": "primary",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "hydropower_verified_construction": {
@@ -715,7 +730,8 @@
         "geopolitics": "muted",
         "power_system": "primary",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "hydropower_survey": {
@@ -811,7 +827,8 @@
         "geopolitics": "muted",
         "power_system": "secondary",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "hydropower_cancelled": {
@@ -849,7 +866,8 @@
         "geopolitics": "off",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "priority_watchlist": {
@@ -896,7 +914,8 @@
         "geopolitics": "secondary",
         "power_system": "secondary",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "storage_shortlist": {
@@ -948,7 +967,8 @@
         "geopolitics": "secondary",
         "power_system": "secondary",
         "solar_system": "muted",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "future_regulation_scenario": {
@@ -1060,7 +1080,8 @@
         "geopolitics": "secondary",
         "power_system": "muted",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "top_capacity": {
@@ -1111,7 +1132,8 @@
         "geopolitics": "secondary",
         "power_system": "secondary",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "transmission_corridors": {
@@ -1159,7 +1181,8 @@
         "geopolitics": "context",
         "power_system": "secondary",
         "solar_system": "context",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "transmission_traced_network": {
@@ -1242,7 +1265,8 @@
         "geopolitics": "context",
         "power_system": "primary",
         "solar_system": "secondary",
-        "wiki": "context"
+        "wiki": "context",
+        "flood_2026": "off"
       }
     },
     "place_anchors": {
@@ -1281,7 +1305,8 @@
         "geopolitics": "secondary",
         "power_system": "secondary",
         "solar_system": "secondary",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "cross_border": {
@@ -1330,7 +1355,8 @@
         "geopolitics": "primary",
         "power_system": "secondary",
         "solar_system": "secondary",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "cross_border_lines": {
@@ -1427,7 +1453,8 @@
         "geopolitics": "secondary",
         "power_system": "secondary",
         "solar_system": "secondary",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "solar_ghi_zones": {
@@ -1472,7 +1499,8 @@
         "geopolitics": "off",
         "power_system": "off",
         "solar_system": "primary",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "solar_plants": {
@@ -1530,7 +1558,8 @@
         "geopolitics": "off",
         "power_system": "muted",
         "solar_system": "primary",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "solar_suitability": {
@@ -1575,7 +1604,8 @@
         "geopolitics": "off",
         "power_system": "off",
         "solar_system": "primary",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "floating_pv_candidates": {
@@ -1625,7 +1655,8 @@
         "geopolitics": "off",
         "power_system": "muted",
         "solar_system": "primary",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
       }
     },
     "basin_seasonality": {
@@ -1654,7 +1685,275 @@
         "geopolitics": "annotation",
         "power_system": "off",
         "solar_system": "off",
-        "wiki": "off"
+        "wiki": "off",
+        "flood_2026": "off"
+      }
+    },
+    "flood_2026_route": {
+      "path": "../../../data/processed/maps/flood_2026_route.geojson",
+      "kind": "line",
+      "label": "Flood 2026 - reconstructed route",
+      "style": {
+        "color": "#dc2626",
+        "weight": 3.5,
+        "opacity": 0.9,
+        "dashArray": "8,5"
+      },
+      "tooltip_fields": [
+        "from",
+        "to",
+        "alignment"
+      ],
+      "popup_fields": [
+        {
+          "field": "from",
+          "label": "From"
+        },
+        {
+          "field": "to",
+          "label": "To"
+        },
+        {
+          "field": "description",
+          "label": "Reach notes"
+        },
+        {
+          "field": "alignment",
+          "label": "Alignment"
+        },
+        {
+          "field": "confidence",
+          "label": "Geometry confidence"
+        },
+        {
+          "field": "as_of",
+          "label": "As of"
+        }
+      ],
+      "name_field": "from",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "primary"
+      }
+    },
+    "flood_2026_impacts_confirmed": {
+      "path": "../../../data/processed/maps/flood_2026_impacts_confirmed.geojson",
+      "kind": "point",
+      "label": "Flood 2026 - confirmed damage",
+      "style": {
+        "color": "#7f1d1d",
+        "weight": 1.5,
+        "fillColor": "#ef4444",
+        "fillOpacity": 0.92
+      },
+      "tooltip_fields": [
+        "project",
+        "status_tier"
+      ],
+      "popup_fields": [
+        {
+          "field": "status_tier",
+          "label": "Impact tier"
+        },
+        {
+          "field": "confidence",
+          "label": "Confidence"
+        },
+        {
+          "field": "phase",
+          "label": "Phase"
+        },
+        {
+          "field": "capacity_mw",
+          "label": "Capacity",
+          "suffix": " MW"
+        },
+        {
+          "field": "impact_summary",
+          "label": "Impact (preliminary)"
+        },
+        {
+          "field": "people_note",
+          "label": "People status"
+        },
+        {
+          "field": "district",
+          "label": "District"
+        },
+        {
+          "field": "sources",
+          "label": "Sources"
+        },
+        {
+          "field": "as_of",
+          "label": "As of"
+        }
+      ],
+      "name_field": "project",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "primary"
+      }
+    },
+    "flood_2026_impacts_watch": {
+      "path": "../../../data/processed/maps/flood_2026_impacts_watch.geojson",
+      "kind": "point",
+      "label": "Flood 2026 - watch list",
+      "style": {
+        "color": "#78350f",
+        "weight": 1.5,
+        "fillColor": "#f59e0b",
+        "fillOpacity": 0.85,
+        "radius": 6
+      },
+      "tooltip_fields": [
+        "project",
+        "status_tier"
+      ],
+      "popup_fields": [
+        {
+          "field": "status_tier",
+          "label": "Impact tier"
+        },
+        {
+          "field": "confidence",
+          "label": "Confidence"
+        },
+        {
+          "field": "phase",
+          "label": "Phase"
+        },
+        {
+          "field": "capacity_mw",
+          "label": "Capacity",
+          "suffix": " MW"
+        },
+        {
+          "field": "impact_summary",
+          "label": "Why watch"
+        },
+        {
+          "field": "as_of",
+          "label": "As of"
+        }
+      ],
+      "name_field": "project",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off"
+      }
+    },
+    "flood_2026_corridor_projects": {
+      "path": "../../../data/processed/maps/flood_2026_corridor_projects.geojson",
+      "kind": "point",
+      "label": "Flood 2026 - corridor projects (unconfirmed)",
+      "style": {
+        "color": "#525252",
+        "weight": 1.2,
+        "fillColor": "#a3a3a3",
+        "fillOpacity": 0.7,
+        "radius": 4
+      },
+      "tooltip_fields": [
+        "project",
+        "exposure_label"
+      ],
+      "popup_fields": [
+        {
+          "field": "exposure_label",
+          "label": "Exposure (geometric, unconfirmed)"
+        },
+        {
+          "field": "distance_to_route_m",
+          "label": "Distance to route",
+          "suffix": " m"
+        },
+        {
+          "field": "capacity_mw",
+          "label": "Capacity",
+          "suffix": " MW"
+        },
+        {
+          "field": "license_type",
+          "label": "Registry licence"
+        },
+        {
+          "field": "district",
+          "label": "District"
+        },
+        {
+          "field": "as_of",
+          "label": "As of"
+        }
+      ],
+      "name_field": "project",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off"
+      }
+    },
+    "flood_2026_secondary_hazards": {
+      "path": "../../../data/processed/maps/flood_2026_secondary_hazards.geojson",
+      "kind": "point",
+      "label": "Flood 2026 - secondary hazards",
+      "style": {
+        "color": "#4c1d95",
+        "weight": 1.5,
+        "fillColor": "#8b5cf6",
+        "fillOpacity": 0.9,
+        "radius": 7
+      },
+      "tooltip_fields": [
+        "name",
+        "hazard"
+      ],
+      "popup_fields": [
+        {
+          "field": "hazard",
+          "label": "Hazard"
+        },
+        {
+          "field": "description",
+          "label": "Detail"
+        },
+        {
+          "field": "location_precision",
+          "label": "Location precision"
+        },
+        {
+          "field": "as_of",
+          "label": "As of"
+        }
+      ],
+      "name_field": "name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "primary"
       }
     }
   },

@@ -151,6 +151,31 @@
           88.5
         ]
       ]
+    },
+    "flood_2026": {
+      "label": "Bhotekoshi 2026 Flood",
+      "short": "Flood 2026",
+      "subtitle": "26 Aug 2026 flood route, damage confidence, corridor exposure",
+      "description": "The 26 August 2026 Bhotekoshi-Trishuli flood: reconstructed route from the Langtang Lirung avalanche source through Rasuwa and Nuwakot to the Narayani at the India border, confirmed and watch-list hydropower damage with confidence tiers, unconfirmed corridor-exposed registry projects, and the barrier-lake secondary hazard. Developing-event view: entries carry as-of timestamps and rescue-period caveats.",
+      "layers_on": [
+        "country_outline",
+        "tributaries",
+        "flood_2026_route",
+        "flood_2026_impacts_confirmed",
+        "flood_2026_impacts_watch",
+        "flood_2026_corridor_projects",
+        "flood_2026_secondary_hazards"
+      ],
+      "bounds": [
+        [
+          27.1,
+          84.0
+        ],
+        [
+          28.6,
+          85.6
+        ]
+      ]
     }
   }
 }

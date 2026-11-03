@@ -2,8 +2,8 @@
 title: Upper Trishuli 3A
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
+updated: 2026-08-30
+sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]
 tags: [project, operating, gandaki, rasuwa, nuwakot]
 images:
   - src: upper-trishuli-3a/nea2077-p002-img01.png
@@ -142,6 +142,19 @@ Himalayan catchment. The missing early warning system — flagged in the
 NEA's own incident report — is the operational gap that climate-resilient
 design would need to close across the fleet. See [[glof-risk]] and
 [[buildability]] for the broader infrastructure-resilience context.
+
+### August 2026 — workers trapped in the underground powerhouse
+
+The 26 August 2026 Bhote Koshi avalanche flood hit the plant again, this
+time far more severely: the Ministry of Energy described a special
+operation to reach the underground powerhouse after the cable-tunnel
+entrance was buried, with NEA's acting managing director citing 40–45
+people unaccounted and the Army drilling through debris with technical
+teams. See [[kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]] and
+[[bhotekoshi-trishuli-flood-2026]]. The contrast with the 2025 event is
+instructive: headworks damage alone left operators able to respond, while
+a burial event severs the access path that rescue — and recovery — depend
+on.
 
 ## Significance — NEA's Highest-Design-Energy RoR Asset
 

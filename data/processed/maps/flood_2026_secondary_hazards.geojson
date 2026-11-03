@@ -1,0 +1,41 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.28,
+     28.27
+    ]
+   },
+   "properties": {
+    "name": "Barrier lake (Chhochen Khola - Purepu Tsangpo confluence)",
+    "hazard": "landslide-dam-barrier-lake",
+    "description": "China MWR via CCTV/Global Times (27 Aug): lake volume about 2 million cubic metres, already overflowing, with another 3 million cubic metres expected within three days and a high breach risk. Location approximate; the same Purepu glacier system produced the 8 July 2025 GLOF.",
+    "location_precision": "approximate",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.32,
+     28.32
+    ]
+   },
+   "properties": {
+    "name": "Gyirong Port damage cluster, Tibet",
+    "hazard": "tibet-side-damage",
+    "description": "Reuters-cited reporting: at least six major hydropower plants and infrastructure at the Gyirong Port trade hub damaged in the multi-stage hazard chain before the flood reached Nepal.",
+    "location_precision": "approximate",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30"
+   }
+  }
+ ]
+}
