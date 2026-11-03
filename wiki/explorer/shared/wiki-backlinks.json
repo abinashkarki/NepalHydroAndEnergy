@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 328,
-  "total_refs": 2574,
+  "total_refs": 2585,
   "backlinks": {
     "buildability": [
       {
@@ -1392,6 +1392,13 @@
         "title": "Storage and System Flexibility",
         "category": "syntheses",
         "context": "| nea-annual-report-fy2024-25 | Kulekhani cascade capacity and FY2024/25 annual generatio…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…d 3,591.262 MW total and 3,389.912 MW hydro for FY 2024/25 (nea-annual-report-fy2024-25) and 4,120.252 MW total for FY 2025/26 ([[nea-annual-report…",
         "target_exists": true
       },
       {
@@ -6640,6 +6647,13 @@
         "target_exists": true
       },
       {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…hile the legacy 83,500 MW figure is a theoretical estimate (wecs-hydropower-potential-2019, hydropower-potential-categories). The three numbers an…",
+        "target_exists": true
+      },
+      {
         "slug": "figure-index",
         "title": "Figure Index",
         "category": "data",
@@ -7629,6 +7643,13 @@
         "category": "syntheses",
         "context": "…: 144 MW peaking run-of-river, six hours of daily peaking | kali-gandaki-a | NEA Annual Report FY 2024/25, PDF p.21 | Matches source |",
         "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…Kali Gandaki A (144 MW) as a six-hour daily peaking plant (kali-gandaki-a); daily pondage shifts energy within a day, not across seas…",
+        "target_exists": true
       }
     ],
     "upper-arun": [
@@ -8579,6 +8600,13 @@
         "title": "Unresolved Questions",
         "category": "syntheses",
         "context": "…ctory for buyer diversification | **FILLED** — full page at bangladesh-trade-route |",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…n grid, so India is the transit state for Bangladesh sales (bangladesh-trade-route).",
         "target_exists": true
       },
       {
@@ -10643,7 +10671,7 @@
         "slug": "claim-india-decisive-actor",
         "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
         "category": "claims",
-        "context": "**Treaty and corridor politics:** Shared basins (pancheshwar-class deadlocks) can stall or unlock multi-gigawatt-scale p…",
+        "context": "…basins:** Multi-gigawatt storage on shared rivers, such as pancheshwar, depends on treaty-level agreement with India.",
         "target_exists": true
       },
       {
@@ -12287,7 +12315,7 @@
         "slug": "claim-mw-not-equal-value",
         "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
         "category": "claims",
-        "context": "…sible) attaches to which public numbers, with citations per hydropower-potential-categories and data-potential-pyramid.",
+        "context": "…a theoretical estimate (wecs-hydropower-potential-2019, hydropower-potential-categories). The three numbers answer different questions; none is a c…",
         "target_exists": true
       },
       {
@@ -12590,6 +12618,13 @@
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
         "context": "nepal-energy-profile makes clear that \"low consumption\" is better read as **head…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…l and ~1,141 MW of approved cross-border transfer capacity (nepal-energy-profile); both sit inside an India-mediated corridor regime.",
         "target_exists": true
       },
       {
@@ -14348,6 +14383,20 @@
         "target_exists": true
       },
       {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…0 MW to Bihar) and the Indo-Nepal Power Exchange Committee (nea-annual-report-fy2025-26, PDF p.14). India is therefore the main practical export ma…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…report-fy2024-25]]) and 4,120.252 MW total for FY 2025/26 (nea-annual-report-fy2025-26); the DoED operating registry stood at 3,791.874 MW in its…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-systems-conversion-failure",
         "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
         "category": "claims",
@@ -14507,6 +14556,13 @@
         "title": "India — Energy Relationship with Nepal",
         "category": "entities",
         "context": "…opers to align with Indian interests for market access. See india-cbte-2018.",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…rade guidelines govern which entities may import or export (india-cbte-2018). Wiki sources report that in practice India blocks Chinese…",
         "target_exists": true
       },
       {
@@ -15372,6 +15428,13 @@
         "title": "Run-of-River Hydropower",
         "category": "concepts",
         "context": "…*~85.7% RoR**, **~9.9% PRoR**, and **~3.7% storage** (see data-fleet-composition). That single sentence is already a forecast: most megawatt…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…its April 10, 2026 snapshot and 3,909.721 MW in July 2026 (data-fleet-composition). These are different accounting scopes and dates.",
         "target_exists": true
       },
       {
@@ -17463,6 +17526,13 @@
         "target_exists": true
       },
       {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…capacity as a possible basis for a separate fixed payment (erc-eca-storage-ppa-discussion-paper-2025). The regulator itself treats energy and dependable capacit…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-ror-dominance",
         "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
         "category": "claims",
@@ -17626,6 +17696,13 @@
         "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
         "category": "syntheses",
         "context": "…he 106 MW Kulekhani cascade holds water across seasons. See claim-pror-not-storage (C-009) and kulekhani-cascade.",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…ily pondage shifts energy within a day, not across seasons (claim-pror-not-storage).",
         "target_exists": true
       }
     ],

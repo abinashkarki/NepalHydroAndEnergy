@@ -2385,6 +2385,20 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-04 — Claim Re-grounding Session
+
+**Agent:** Claude Code
+**Session type:** Writing session (3 pages; confidence changes flagged)
+
+**Pages touched:**
+- `claims/claim-india-decisive-actor` (C-025): evidence rebuilt on NEA FY 2025/26 primary data (export channels, dry-season imports, bilaterally set transfer limits, 40 MW Bangladesh supply via India). Research-ledger bullets removed. **Confidence medium → high.** The China-ownership exclusion is kept as a supporting point, explicitly marked as not yet traced to a primary clause (the CEA procedure URL now returns 404).
+- `claims/claim-mw-not-equal-value` (C-006): evidence rebuilt on WECS 2019, NEA FY 2024/25 and FY 2025/26, the DoED register, Kali Gandaki A and the ERC/ECA paper. **Confidence medium → medium-high**: the distinctions are primary-sourced; the frequency of public conflation is not yet sampled.
+- `claims/claim-governance-binding` (C-029): the unverified open-access bullet replaced with the ERC's January 2026 open-access directive, the FY 2026/27 transmission charges and the draft status of implementing directives (September 2026).
+
+**Flags raised:** Locate the primary CBTE/CEA clause on third-country ownership for `india-cbte-2018`, which still has no `source_url`.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

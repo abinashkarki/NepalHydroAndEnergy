@@ -2,11 +2,14 @@
 title: Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated
 type: claim
 created: 2026-04-14
-updated: 2026-11-03
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
+as_of: 2026-07-16
 claim_id: C-006
-confidence: medium
+confidence: medium-high
 status: stable
-sources: [wecs-hydropower-potential-2019, data-potential-pyramid, nea-annual-report-fy2024-25]
+sources: [nea-annual-report-fy2025-26, wecs-hydropower-potential-2019, data-potential-pyramid, nea-annual-report-fy2024-25]
 tags: [discourse, economics, potential, firm-energy]
 page_quality: analysis
 ---
@@ -17,16 +20,17 @@ page_quality: analysis
 
 ## Evidence
 
-**Provenance note (2026-11-03):** confidence lowered from high to medium. The research-ledger and source-review bullets below summarise AI-assisted research syntheses, not primary documents. Confidence returns to high only when each evidence bullet cites a primary source page (NEA, WECS, DoED, ERC, treaty or government text).
+*Re-grounded 2026-11-04 in primary sources; the earlier research-ledger and source-review bullets were removed.*
 
-- **Research ledger:** Describes **category confusion** as the source of "a shocking amount of bad analysis"—especially when headline **potential** figures are read as if they were **dispatchable capacity** or near-term **delivery**.
-- **Source review:** Frames Nepal as **resource-rich but not yet dispatch-rich**—large theoretical endowment does not translate into firm, tradeable, time-targeted power without storage, grid, markets, and institutions.
-- **The slogan stack:** Public politics still tolerates juxtaposition of very large **~83,000 MW** "potential" rhetoric against multiple different "current capacity" figures—**3,591.262 MW total** in the NEA FY 2024/25 frame, **3,389.912 MW hydro** in that same cut, and **3,791.874 MW** in the DoED operating registry snapshot of April 10, 2026—without clarifying that these belong to different accounting categories, and are still different again from **dry-season firm power** or **monetizable export capacity**.
-- **Cross-source finding:** Reinforce that **nameplate** is not **energy**, and **energy** is not **firm power** at the times the grid needs it most.
+- **"Potential" has several official definitions.** WECS (2019) reports a revised gross potential of 72,544 MW and a techno-economic potential of 32,680 MW, while the legacy 83,500 MW figure is a theoretical estimate ([[wecs-hydropower-potential-2019]], [[hydropower-potential-categories]]). The three numbers answer different questions; none is a construction pipeline.
+- **Installed capacity has several official totals.** NEA reported 3,591.262 MW total and 3,389.912 MW hydro for FY 2024/25 ([[nea-annual-report-fy2024-25]]) and 4,120.252 MW total for FY 2025/26 ([[nea-annual-report-fy2025-26]]); the DoED operating registry stood at 3,791.874 MW in its April 10, 2026 snapshot and 3,909.721 MW in July 2026 ([[data-fleet-composition]]). These are different accounting scopes and dates.
+- **Installed MW is not dry-season output.** With 4,120 MW installed, Nepal's domestic generation in Falgun 2082 was 801 GWh, about 1,100 MW on average across the month, while national peak demand that year reached 2,479 MW ([[nea-annual-report-fy2025-26]], PDF pp.11, 176).
+- **Peaking duration is measured in hours.** NEA describes Kali Gandaki A (144 MW) as a six-hour daily peaking plant ([[kali-gandaki-a]]); daily pondage shifts energy within a day, not across seasons ([[claim-pror-not-storage]]).
+- **Standard contracts price energy, not dependable capacity.** The 2025 ERC/ECA discussion paper records energy-priced standard tariffs and discusses available capacity as a possible basis for a separate fixed payment ([[erc-eca-storage-ppa-discussion-paper-2025]]). The regulator itself treats energy and dependable capacity as different products.
 
 ## Confidence rationale
 
-**Medium.** Lowered pending primary-source re-grounding. The structural reasoning that supported a high rating was: the error mode is observable in policy speech and investor-facing materials, and the corrective distinction is standard power-systems literacy; source reviews independently flag the same epistemic failure.
+**Medium-high.** The distinctions themselves are high-confidence: each rests on WECS, NEA, DoED or ERC documents. How *routinely* public discourse conflates them is supported by the coexistence of several unlabelled "potential" and "capacity" figures, but the corpus does not yet hold a systematic sample of public statements. A documented sample of official speeches or plans that present one measure as another would justify high.
 
 ## Unresolved issues
 
