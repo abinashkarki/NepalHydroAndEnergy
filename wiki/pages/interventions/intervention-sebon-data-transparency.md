@@ -8,7 +8,7 @@ review_due: 2027-02-04
 as_of: 2026-07-19
 tags: [decision-dossier, SEBON, securities, disclosure, IPO, rights-shares, retail-investors]
 excerpt: An evidence-led comparison of bounded civic data, minimum machine-readable annexes and fuller structured filing for hydropower securities; the current evidence covers four issuers, not the sector.
-page_quality: analysis
+page_quality: brief
 maturity: working-page
 caveat: The reviewed issuer cohort is small, post-offer evidence is incomplete, and only Ankhu Khola has an audited post-offer reconciliation in the current source record.
 sources: [sebon-hydropower-offering-records]

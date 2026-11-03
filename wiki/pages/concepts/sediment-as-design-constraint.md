@@ -5,7 +5,7 @@ created: 2026-04-14
 updated: 2026-05-12
 sources: [icimod-koshi-sediment-threats, wecs-river-basin-plan-2024, adb-hydropower-growth-nepal]
 tags: [sediment, turbines, O&M, design, nepal, rivers]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Sediment as Design Constraint

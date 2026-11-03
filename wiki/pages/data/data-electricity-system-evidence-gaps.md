@@ -10,7 +10,7 @@ tags: [data-gaps, distribution, demand, flexibility, csv]
 excerpt: A machine-readable inventory of missing public measures that this wiki will not replace with invented coverage.
 caveat: Not found in the copied public corpus does not prove that an institution does not collect the measure internally.
 maturity: working-page
-page_quality: analysis
+page_quality: brief
 ---
 
 # Electricity System Evidence Gaps

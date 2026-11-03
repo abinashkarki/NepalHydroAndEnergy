@@ -11,7 +11,7 @@ tags: [solar, hydro, winter, deficit, seasonal, complementarity, strategy, stora
 excerpt: A Working Page that explores how solar, storage, demand timing and batteries could interact in a winter-balance model.
 caveat: The 2030/2035 portfolio values are scenario assumptions, not a verified delivery pipeline or forecast; current award records do not establish construction or operation.
 maturity: working-page
-page_quality: analysis
+page_quality: brief
 ---
 
 # Solar's Role in the Winter Deficit

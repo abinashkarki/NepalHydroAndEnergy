@@ -11,7 +11,7 @@ tags: [climate, resilience, decarbonization, ndc, electrification]
 excerpt: How a renewable electricity system can support decarbonization while remaining exposed to floods, drought, sediment, heat and glacier change.
 caveat: Climate targets are conditional policy commitments, while project-level resilience requires site-specific hydrology and engineering evidence.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Climate Resilience and Decarbonization

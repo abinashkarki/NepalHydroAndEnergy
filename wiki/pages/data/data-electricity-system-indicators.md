@@ -10,7 +10,7 @@ tags: [indicators, distribution, demand, flexibility, csv]
 excerpt: A compact, source-linked register of headline distribution, demand and flexibility observations used by the wiki's core branch pages.
 caveat: The register contains dated public observations, not interpolated current values; unlike metrics are not combined into a composite score.
 maturity: working-page
-page_quality: analysis
+page_quality: brief
 ---
 
 # Electricity System Indicator Register

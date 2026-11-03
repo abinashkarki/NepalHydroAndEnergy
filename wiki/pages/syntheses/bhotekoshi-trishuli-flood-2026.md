@@ -5,7 +5,7 @@ created: 2026-08-30
 updated: 2026-08-30
 sources: [kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026, kathmandupost-bhotekoshi-flood-barrier-lake-2026, kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026, reuters-bhotekoshi-flood-climate-attribution-2026]
 tags: [bhotekoshi, trishuli, rasuwa, nuwakot, dhading, chitwan, flood-2026, hazards, GLOF, transboundary, corridor, developing-event]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Bhotekoshi–Trishuli Flood 2026

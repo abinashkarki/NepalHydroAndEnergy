@@ -7,7 +7,7 @@ sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, rights-issue, bailout-pattern]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Ankhu Khola

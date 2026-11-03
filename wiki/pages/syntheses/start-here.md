@@ -12,7 +12,7 @@ tags: [overview, guide, public, navigation]
 excerpt: A task-led starting point for understanding Nepal's electricity system, exploring projects and places, and checking claims against their evidence.
 caveat: This page is a navigation synthesis; dated operating facts and official targets are separated on the linked State of the System page.
 maturity: verified-core
-page_quality: flagship
+page_quality: analysis
 ---
 
 # Nepal Energy Wiki

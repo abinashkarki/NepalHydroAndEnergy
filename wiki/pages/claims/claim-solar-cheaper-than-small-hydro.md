@@ -14,7 +14,7 @@ tags: [solar, hydro, economics, LCOE, PPA, tariff, nepal]
 excerpt: NEA's 2024 solar LoI award tariffs sit below an illustrative standard small-RoR blended PPA tariff, without proving delivered cost or firm system value.
 caveat: Award tariffs are not final delivered LCOE or commissioned performance, and solar and hydro provide different timing and firmness services.
 maturity: working-page
-page_quality: analysis
+page_quality: brief
 ---
 
 ## Claim

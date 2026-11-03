@@ -11,7 +11,7 @@ tags: [demand, electrification, cooking, industry, consumption]
 excerpt: Who uses Nepal's electricity, how much is used, and where access, reliability and productive electrification remain distinct questions.
 caveat: Sector shares are NEA FY 2025/26 and FY 2024/25 snapshots; electric-cooking prevalence remains a 2021 baseline corroborated only as below one percent in 2025.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Demand and Electrification

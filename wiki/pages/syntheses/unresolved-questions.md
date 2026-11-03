@@ -9,7 +9,7 @@ as_of: 2026-07-19
 sources: []
 tags: [synthesis, gaps, verification, follow-up]
 excerpt: A current register of evidence gaps, data conflicts and monitoring priorities that materially limit claims about Nepal's electricity system.
-page_quality: flagship
+page_quality: record
 maturity: verified-core
 caveat: A filled source-discovery task does not imply that the underlying project outcome, national aggregate or current status is verified.
 evidence_register: true

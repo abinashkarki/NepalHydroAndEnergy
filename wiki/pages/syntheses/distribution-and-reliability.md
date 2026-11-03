@@ -11,7 +11,7 @@ tags: [distribution, reliability, access, outages, losses]
 excerpt: Grid reach, distribution losses and the still-incomplete evidence on the quality and continuity of electricity service in Nepal.
 caveat: Grid coverage is not a reliability metric; the public corpus lacks a national feeder-level interruption and voltage-quality series.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Distribution and Reliability

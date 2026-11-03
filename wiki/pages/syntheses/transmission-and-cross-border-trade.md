@@ -11,7 +11,7 @@ tags: [transmission, grid, trade, india, bangladesh, delivery]
 excerpt: A source-bounded guide to the corridors and market interfaces that turn generation into domestic service or electricity trade.
 caveat: Construction notices establish active work but not completion; national curtailment cannot be quantified from the current public corpus.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Transmission and Cross-Border Electricity Trade

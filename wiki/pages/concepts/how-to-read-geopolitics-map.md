@@ -5,7 +5,7 @@ created: 2026-04-30
 updated: 2026-05-12
 sources: [data-map-layer-labels, downstream-river-geopolitics]
 tags: [geopolitics, maps, guide, downstream, ganges]
-page_quality: analysis
+page_quality: brief
 ---
 
 # How To Read The Geopolitics Map

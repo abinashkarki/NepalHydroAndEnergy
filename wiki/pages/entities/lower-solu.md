@@ -7,7 +7,7 @@ sources: [sahas-urja-benchmark-icra-2026]
 tags: [project, under-construction, koshi, solukhumbu]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Lower Solu Hydropower Project

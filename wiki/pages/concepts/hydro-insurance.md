@@ -5,7 +5,7 @@ created: 2026-05-02
 updated: 2026-07-10
 sources: [care-ratings-sanima-mai, utkhpl-disclosures-2026, nea-standard-ppa-clauses]
 tags: [insurance, reinsurance, premiums, claims, hydropower, IPP, risk]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Hydro Insurance

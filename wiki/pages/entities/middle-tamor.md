@@ -7,7 +7,7 @@ sources: [nea-annual-report-fy2024-25, urja-khabar-generation-audit]
 tags: [project, under-construction, private-ipp, koshi, taplejung]
 images: []
 generator: specs-refresh
-page_quality: analysis
+page_quality: brief
 ---
 
 # Middle Tamor

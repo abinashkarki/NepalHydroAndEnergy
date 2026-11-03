@@ -11,7 +11,7 @@ tags: [project, research-lead, AD-penalties, NEA, ERC, governance]
 generator: manual
 excerpt: A retained research lead concerning a reported availability-declaration dispute; the current corpus does not contain the primary audited statement, PPA or adjudication record needed to establish the case.
 caveat: Project capacity, operating status, the reported deduction and its regulatory treatment are not independently established by a primary record linked in the wiki.
-page_quality: analysis
+page_quality: brief
 maturity: working-page
 ---
 

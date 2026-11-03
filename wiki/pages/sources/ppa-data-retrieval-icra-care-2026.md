@@ -5,7 +5,7 @@ created: 2026-05-02
 updated: 2026-05-10
 tags: [source, financial, ppa, icra-nepal, care-ratings, tariff]
 images: []
-page_quality: analysis
+page_quality: brief
 ---
 
 # Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal

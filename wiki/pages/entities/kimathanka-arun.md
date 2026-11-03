@@ -7,7 +7,7 @@ sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, koshi, sankhuwasabha]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Kimathanka Arun HEP

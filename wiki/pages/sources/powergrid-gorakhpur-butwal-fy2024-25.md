@@ -6,7 +6,7 @@ updated: 2026-07-10
 source_url: https://www.powergrid.in/sites/default/files/annual_reports/Powergrid_Annual_Report_2024-25-1.pdf
 publisher: Power Grid Corporation of India Limited
 source_date: 2025-03-31
-page_quality: analysis
+page_quality: brief
 tags: [source, powergrid, gorakhpur, butwal, cross-border, transmission]
 ---
 

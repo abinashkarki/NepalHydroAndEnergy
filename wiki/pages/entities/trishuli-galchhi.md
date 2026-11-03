@@ -7,7 +7,7 @@ sources: [nea-annual-report-fy2024-25, doed-licensing-directive-2075]
 tags: [project, under-construction, private-ipp, gandaki, nuwakot]
 images: []
 generator: specs-refresh
-page_quality: analysis
+page_quality: brief
 ---
 
 # Trishuli Galchhi

@@ -17,7 +17,7 @@ tags: [nea, generation, capacity, trade, grid, official]
 excerpt: NEA's official FY2024/25 snapshot of capacity, generation, demand, trade, losses, grid reach and project activity.
 caveat: Superseded as the latest annual snapshot by the FY 2025/26 report (August 2026). Annual-report sections use several accounting scopes; trade totals and peak definitions must retain their labels.
 maturity: verified-core
-page_quality: flagship
+page_quality: analysis
 ---
 
 # NEA Annual Report FY 2024/25

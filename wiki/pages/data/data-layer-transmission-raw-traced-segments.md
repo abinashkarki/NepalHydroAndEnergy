@@ -6,7 +6,7 @@ updated: 2026-05-13
 figure_type: map-layer-label
 sources: [data-map-inventory]
 tags: [maps, geojson, layers, explorer, legend]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Internal Data: Source Trace Fragments

@@ -7,7 +7,7 @@ updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea_marsyangdi_rap]
 tags: [transmission, 220kv, marsyangdi, under-construction, traced-corridor]
 generator: manual
-page_quality: analysis
+page_quality: record
 ---
 
 # Udipur-Damauli-Bharatpur 220 kV Reinforcement

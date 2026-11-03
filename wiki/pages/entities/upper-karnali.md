@@ -9,7 +9,7 @@ as_of: 2026-07-10
 generator: specs-refresh
 project_dossier: lighthouse
 maturity: working-page
-page_quality: analysis
+page_quality: flagship
 sources: [icra-upper-karnali-2026, upper-karnali-official-records-2022-2026, upper-karnali-pda-record, jica-ipsdp-main-report-vol2]
 tags: [project, watchlist, top-capacity, pre-construction, karnali, surkhet, dailekh, achham, india-developed, export-project, stalled, geopolitics]
 excerpt: A 900 MW export-oriented project with a revised partner structure but no verified financial close, disbursement or construction start.

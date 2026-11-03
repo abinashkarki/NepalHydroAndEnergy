@@ -7,7 +7,7 @@ sources: [likhu-cascade-research-compilation]
 tags: [project, operating, private-ipp, solukhumbu, koshi]
 images: []
 generator: specs-refresh
-page_quality: analysis
+page_quality: brief
 ---
 
 # Likhu Khola 'A'

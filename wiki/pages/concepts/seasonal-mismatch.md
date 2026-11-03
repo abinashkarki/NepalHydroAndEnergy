@@ -11,7 +11,7 @@ tags: [seasonality, monsoon, dry-season, grid, nepal, RoR, demand]
 excerpt: Why Nepal can experience wet-season electricity surplus and dry-season scarcity within the same hydro-dominated system.
 caveat: Monthly figures are NEA energy-balance totals; plant-level dispatch and curtailment series are not publicly consolidated.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Seasonal Mismatch

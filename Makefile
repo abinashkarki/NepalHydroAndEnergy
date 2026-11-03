@@ -23,6 +23,7 @@ validate:
 	$(PYTHON) scripts/validate_repo.py
 	$(PYTHON) scripts/check_source_used_by.py
 	$(PYTHON) scripts/check_retired_claims.py
+	$(PYTHON) scripts/assess_page_quality.py --check
 	git diff --check
 
 test:

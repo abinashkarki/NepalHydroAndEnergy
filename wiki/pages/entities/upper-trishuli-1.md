@@ -7,7 +7,7 @@ sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, watchlist, under-construction, gandaki, rasuwa]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Upper Trishuli-1

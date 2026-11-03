@@ -11,7 +11,7 @@ tags: [storage, flexibility, bess, imports, demand-response]
 excerpt: The resources that shift or balance electricity across seasons, days and hours—and the operating data Nepal still does not publish.
 caveat: Storage generation is observed in NEA reporting, but reserve, battery, dispatch and state-of-charge datasets are not publicly consolidated.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Storage and System Flexibility

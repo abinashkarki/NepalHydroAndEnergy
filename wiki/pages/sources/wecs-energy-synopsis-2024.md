@@ -17,7 +17,7 @@ tags: [wecs, energy-balance, demand, consumption, official]
 excerpt: WECS's FY2079/80 full-energy balance, used to place grid electricity within Nepal's wider final-energy system.
 caveat: The report's energy year predates the NEA FY2024/25 electricity snapshot and should not be blended without labels.
 maturity: verified-core
-page_quality: flagship
+page_quality: analysis
 ---
 
 # WECS Energy Sector Synopsis Report 2024

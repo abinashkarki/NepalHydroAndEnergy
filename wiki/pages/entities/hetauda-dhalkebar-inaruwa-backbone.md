@@ -22,7 +22,7 @@ images:
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
 generator: manual
 excerpt: Nepal's first domestic 400 kV backbone is operational east of Dhalkebar; on Hetauda–Dhalkebar the construction dispute is resolved and charging was announced as imminent in October 2026, but energisation is not yet verified.
-page_quality: flagship
+page_quality: analysis
 maturity: verified-core
 caveat: No NEA energisation or commissioning notice for Hetauda–Dhalkebar was located as of 4 November 2026; the latest tower count is an NEA official quoted in the press on 7 October 2026.
 ---

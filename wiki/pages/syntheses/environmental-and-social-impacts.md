@@ -11,7 +11,7 @@ tags: [environment, social, resettlement, rivers, safeguards]
 excerpt: The environmental and social questions that determine whether electricity infrastructure is legitimate, resilient and buildable.
 caveat: Impacts are project- and site-specific; national summaries cannot replace current EIAs, safeguard instruments or community evidence.
 maturity: verified-core
-page_quality: flagship
+page_quality: record
 ---
 
 # Environmental and Social Impacts

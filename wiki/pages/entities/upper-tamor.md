@@ -7,7 +7,7 @@ sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, under-construction, koshi, top-capacity]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Upper Tamor

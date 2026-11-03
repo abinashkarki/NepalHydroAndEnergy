@@ -5,7 +5,7 @@ created: 2026-04-14
 updated: 2026-08-30
 sources: [icimod-ndrrma-thame-glof-2024, ndrrma-rasuwa-glacial-flood-sitrep-2025, nea-engineering-annual-report-2081-82, icimod-hkh-glacier-change, icimod-koshi-sediment-threats, reuters-bhotekoshi-flood-climate-attribution-2026, kathmandupost-bhotekoshi-flood-barrier-lake-2026]
 tags: [GLOF, hazards, climate, nepal, infrastructure, koshi, rasuwa, trishuli, transboundary]
-page_quality: analysis
+page_quality: flagship
 ---
 
 # GLOF Risk

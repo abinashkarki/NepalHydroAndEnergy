@@ -10,7 +10,7 @@ tags: [methodology, maturity, provenance, quality]
 excerpt: The three public labels used to distinguish flagship evidence pages, useful work in progress and concise registry entries.
 caveat: Maturity is an editorial and evidence-readiness label, not a confidence score for every claim on a page.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Wiki Page Maturity

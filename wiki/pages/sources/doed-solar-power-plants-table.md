@@ -17,7 +17,7 @@ tags: [doed, solar, registry, operating, power-plants]
 excerpt: The official DoED snapshot used for 25 operating solar registry records totalling 141.74 MW.
 caveat: Registry listing supports operating status at the source date but does not provide plant-level generation or parcel-precise geography.
 maturity: verified-core
-page_quality: flagship
+page_quality: record
 ---
 
 # DoED Power Plants: Solar Table

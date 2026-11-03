@@ -11,7 +11,7 @@ tags: [overview, system, neutral, electricity]
 excerpt: A neutral, dated account of Nepal's electricity system—capacity, demand, trade, reliability and the evidence gaps that limit stronger conclusions.
 caveat: Operating totals are NEA FY2025/26 snapshots to mid-July 2026; the August 2026 Bhotekoshi flood losses and later project additions are not included unless separately dated.
 maturity: verified-core
-page_quality: flagship
+page_quality: analysis
 ---
 
 # State of Nepal's Electricity System

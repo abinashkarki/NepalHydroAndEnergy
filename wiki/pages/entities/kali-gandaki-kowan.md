@@ -7,7 +7,7 @@ sources: [kali-gandaki-a-adb-evaluation]
 tags: [project, under-construction, gandaki]
 images: ['- src: kali-gandaki-kowan/ipsdpv2-p263-img00.png']
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Kali Gandaki-Kowan

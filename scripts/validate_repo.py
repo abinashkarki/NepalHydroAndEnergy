@@ -588,7 +588,7 @@ def validate_v1_core_pages(slugs: set[str]) -> None:
     registry = load_json(CORE_PAGES)
     core = registry.get("pages") or []
     if not isinstance(core, list) or not 12 <= len(core) <= 15:
-        fail("wiki/core-pages.json must list 12–15 flagship page slugs")
+        fail("wiki/core-pages.json must list 12–15 core page slugs")
     if len(core) != len(set(core)):
         fail("wiki/core-pages.json contains duplicate slugs")
     missing_slugs = sorted(set(core) - slugs)
@@ -606,8 +606,8 @@ def validate_v1_core_pages(slugs: set[str]) -> None:
             missing.append("reviewed|verified_on")
         if _extract_frontmatter_field(text, "maturity").strip("'\"") != "verified-core":
             missing.append("maturity=verified-core")
-        if extract_page_quality(text) != "flagship":
-            missing.append("page_quality=flagship")
+        # page_quality is earned against the rubric (scripts/assess_page_quality.py),
+        # not granted by core membership.
         if not extract_frontmatter_list(text, "sources") and _extract_frontmatter_field(text, "evidence_register") != "true":
             missing.append("sources|evidence_register=true")
         if missing:

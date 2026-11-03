@@ -23,7 +23,7 @@ images:
 excerpt: Nepal's 2005 national water plan, retained as a historical policy and storage-planning reference.
 caveat: This is a historical plan, not a current implementation or infrastructure-status record.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # National Water Plan, Nepal

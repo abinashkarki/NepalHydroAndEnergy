@@ -5,7 +5,7 @@ created: 2026-05-02
 updated: 2026-07-25
 sources: [erc-eca-storage-ppa-discussion-paper-2025, erc-reservoir-ppa-directive-2082, chilime-annual-report-fy2078-79, care-ratings-sanima-mai, care-ratings-nyadi, icra-nepal-sahas-urja, nea-generation-directorate-2081, ukhl-annual-report, fenner-school-nepal-state-of-knowledge-renewables-psh]
 tags: [PPA, pricing, tariff, NEA, IPP, ERC, regulation]
-page_quality: analysis
+page_quality: brief
 ---
 
 # PPA Pricing

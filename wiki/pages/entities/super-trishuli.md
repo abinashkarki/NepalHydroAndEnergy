@@ -7,7 +7,7 @@ sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, gandaki, trishuli-cascade]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Super Trishuli

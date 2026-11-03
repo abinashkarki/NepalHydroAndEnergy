@@ -7,7 +7,7 @@ sources: [likhu-cascade-research-compilation]
 tags: [project, cascade, koshi, solukhumbu, ramechhap]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Likhu Cascade

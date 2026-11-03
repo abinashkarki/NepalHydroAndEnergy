@@ -5,7 +5,7 @@ created: 2026-04-14
 updated: 2026-05-21
 sources: [wb-water-sector-diagnostic, national-water-plan-nepal, nea-annual-report-fy2024-25, tanahu-progress-2026]
 tags: [reservoir, water-security, seasonality, infrastructure, nepal]
-page_quality: analysis
+page_quality: flagship
 ---
 
 # Storage Deficit

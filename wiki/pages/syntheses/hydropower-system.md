@@ -11,7 +11,7 @@ tags: [hydropower, fleet, rivers, projects, system]
 excerpt: How Nepal's hydro fleet converts river flow into electricity, and why capacity, dependable energy and buildability must be kept separate.
 caveat: Fleet totals are dated snapshots, and project registry status does not by itself verify construction progress or operating performance.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Nepal's Hydropower System

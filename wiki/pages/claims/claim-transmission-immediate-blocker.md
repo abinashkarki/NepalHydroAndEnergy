@@ -13,7 +13,7 @@ status: verified-with-material-data-gap
 sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, nea-hddi-construction-notices-july-2026, india-cbte-2018, nea-operational-reporting-portals-2026]
 tags: [transmission, grid, curtailment, trade, monetization]
 excerpt: Transmission, substations, market access and scheduling can prevent available electricity from reaching a paying load, but public data do not support a national curtailment total or prove transmission is always the single largest constraint.
-page_quality: flagship
+page_quality: analysis
 maturity: verified-core
 caveat: Public plant-level availability, dispatch-event and curtailment records are not available, so the scale and cause of constrained generation cannot be quantified nationally.
 ---

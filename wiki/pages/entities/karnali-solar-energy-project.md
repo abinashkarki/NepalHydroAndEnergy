@@ -6,7 +6,7 @@ updated: 2026-05-13
 sources: [nea-annual-report-fy2024-25, aepc-renewable-framework]
 tags: [solar, karnali, off-grid, BESS, nea, aepc, remote]
 generator: manual
-page_quality: analysis
+page_quality: record
 ---
 
 # Karnali Solar Energy Project

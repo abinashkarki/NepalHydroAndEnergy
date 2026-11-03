@@ -6,7 +6,7 @@ updated: 2026-05-11
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, doed-solar-power-plants-table, nea-solar-loi-2024]
 tags: [nea, solar, utility, programme, tender, bidur-trishuli, 960mw, ppa]
 generator: manual
-page_quality: analysis
+page_quality: record
 ---
 
 # NEA Solar Programme

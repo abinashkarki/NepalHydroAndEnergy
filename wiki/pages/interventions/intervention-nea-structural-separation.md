@@ -8,7 +8,7 @@ review_due: 2027-02-04
 as_of: 2026-07-19
 tags: [decision-dossier, NEA, governance, dispatch, ERC, PPA, open-access, IPP]
 excerpt: An evidence-led comparison of transparency, open-access implementation, ring-fenced dispatch and institutional-separation options; public records do not yet establish discriminatory dispatch or the benefits of a particular reform model.
-page_quality: analysis
+page_quality: brief
 maturity: working-page
 caveat: The accessible open-access source is secondary reporting, standard-PPA evidence is secondary legal analysis, and public project-level dispatch and penalty ledgers are absent.
 sources: [erc-open-access-directive-2082, nea-annual-report-fy2024-25, nea-standard-ppa-clauses, ad-penalty-clause-research]

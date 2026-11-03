@@ -16,7 +16,7 @@ verification_status: primary-source-checked
 excerpt: AIIB's proposed-project summary records Dudhkoshi's design, proposed financing and preliminary safeguard classification as of February 2026.
 caveat: Proposed financing and appraisal information do not establish approval, financial close, procurement completion or construction start.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 tags: [source, aiib, dudhkoshi, storage, safeguards, financing]
 ---
 

@@ -12,7 +12,7 @@ excerpt: TransparentGov's editorial synthesis of the constraints between Nepal's
 caveat: This is an editorial interpretation, not a neutral status report; linked claims retain their own confidence levels and evidence limits.
 editorial_position: TransparentGov assessment
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Master Thesis

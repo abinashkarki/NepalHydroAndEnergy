@@ -8,7 +8,7 @@ review_due: 2027-02-04
 as_of: 2026-07-19
 tags: [decision-dossier, Q-design, hydrology, climate, DoED, licensing, resilience]
 excerpt: An evidence-led comparison of disclosure, pilot and mandate options for climate and hazard analysis in hydropower studies; the current corpus does not support a universal Q-design decrement or a claimed published national guideline.
-page_quality: analysis
+page_quality: brief
 maturity: working-page
 caveat: Regional climate evidence does not determine a single project-level discharge adjustment, and the reviewed corpus does not establish a final adopted ICIMOD hydropower guideline or sector-wide use of obsolete methods.
 sources: [doed-licensing-directive-2075, wecs-river-basin-plan-2024, icimod-hkh-glacier-change, aiib-dudhkoshi-project-2026, uahel-upper-arun-project]

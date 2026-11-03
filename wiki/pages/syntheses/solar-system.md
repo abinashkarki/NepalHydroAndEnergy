@@ -11,7 +11,7 @@ tags: [solar, pv, winter, pipeline, registry]
 excerpt: The operating solar baseline, award-only pipeline evidence and the role solar can play alongside seasonal hydropower.
 caveat: NEA award records do not verify construction or operation; output and precise geography remain sparse for much of the inventory.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Solar in Nepal's Electricity System

@@ -10,7 +10,7 @@ sources: [nea-annual-report-fy2024-25, wecs-hydropower-potential-2019, wecs-rive
 tags: [film, documentary, evidence, seasonal-mismatch, storage, ppa]
 excerpt: Companion evidence page for TransparentGov's film on why Nepal exports electricity in the monsoon and imports it in the dry season, mapping each spoken claim to its wiki page, claim ID and primary source.
 caveat: This page records what the film said on 2 October 2026 and the sources shown on screen; it does not re-verify later changes in trade, project status or regulation.
-page_quality: analysis
+page_quality: brief
 maturity: working-page
 ---
 

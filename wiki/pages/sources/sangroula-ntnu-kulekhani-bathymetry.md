@@ -6,7 +6,7 @@ source_type: academic
 source_author: Durga Prasad Sangroula (NTNU / Hydro Lab Nepal)
 source_date: 2006-01-01 (doctoral dissertation), DGPS bathymetric surveys 2009/2010
 tags: [source, kulekhani, sedimentation, bathymetry, reservoir, storage]
-page_quality: analysis
+page_quality: record
 ---
 
 # Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies

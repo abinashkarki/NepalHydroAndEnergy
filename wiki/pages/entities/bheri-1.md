@@ -7,7 +7,7 @@ sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, karnali, rukum_w]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Bheri-1 HEP

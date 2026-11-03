@@ -2399,6 +2399,19 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-04 — Retiering by Script
+
+**Agent:** Claude Code
+**Session type:** batch-review (page_quality only)
+
+**Change:** `scripts/assess_page_quality.py` encodes `wiki/QUALITY_RUBRIC.md` as required headings and minimum prose per category and tier, and `make validate` now fails if any page declares a higher tier than it earns. `--apply` lowered 263 over-declared labels. Six pages that meet the flagship rubric and are the wiki's canonical reference on their subject were raised to flagship: `storage-deficit`, `glof-risk`, `solar-hydro-complementarity`, `upper-tamakoshi`, `upper-karnali`, `pancheshwar`. Nine more earn flagship structurally but were left at analysis pending an editorial read.
+
+**Result:** declared tiers moved from 320 analysis / 33 flagship / 76 record to 92 analysis / 180 brief / 6 flagship / 151 record, close to the rubric's target mix.
+
+**Governance change:** core pages (`wiki/core-pages.json`) no longer have to be labelled flagship; they keep `verified-core` maturity, freshness and caveat rules, and their quality label is earned. All 14 core pages currently earn below flagship; the master thesis and the five thesis pages are rewritten next.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

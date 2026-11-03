@@ -14,7 +14,7 @@ sources: []
 tags: [source, financial, capital-markets, ipo, rights-shares, nea, nepse]
 excerpt: A legacy research compilation that proposed links among utility governance, project finance and hydropower securities; it is a research lead, not independent evidence for its claims.
 caveat: The underlying 17-page file, authorship, date and row-level source map are not archived here; quantitative and named-project claims require reconstruction from primary records.
-page_quality: analysis
+page_quality: record
 maturity: working-page
 ---
 

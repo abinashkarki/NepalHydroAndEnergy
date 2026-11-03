@@ -5,7 +5,7 @@ created: 2026-04-24
 updated: 2026-05-07
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, wb-esmap-solar-resource-assessment, aepc-renewable-framework, nea-solar-loi-2024]
 tags: [solar, master-thesis, synthesis, portfolio, winter, bess, demand-shaping]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Solar in the Master Narrative

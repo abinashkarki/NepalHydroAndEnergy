@@ -9,7 +9,7 @@ source_date: 2026-08-27
 source_url: https://kathmandupost.com/national/2026/08/27/new-barrier-lake-in-nepal-raises-fresh-flood-threat-china-warns
 sources: []
 tags: [bhotekoshi, rasuwa, flood-2026, hazards, GLOF, transboundary, barrier-lake, official]
-page_quality: analysis
+page_quality: record
 ---
 
 # Kathmandu Post — New barrier lake in Nepal raises fresh flood threat, China warns (2026)

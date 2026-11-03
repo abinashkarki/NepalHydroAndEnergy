@@ -5,7 +5,7 @@ created: 2026-04-14
 updated: 2026-05-21
 sources: [wecs-energy-synopsis-2024, wb-household-electric-cooking-nepal-2025, nea-annual-report-fy2024-25]
 tags: [synthesis, strategy, phased, planning]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Twenty-Year Strategy

@@ -10,7 +10,7 @@ tags: [decisions, policy-options, interventions, navigation]
 excerpt: Evidence-led policy pages that separate established facts, unknowns, comparable cases, trade-offs and TransparentGov's assessment.
 caveat: Dossiers structure choices; they do not establish that any option is legally authorised, financed or politically agreed.
 maturity: working-page
-page_quality: analysis
+page_quality: record
 ---
 
 # Decision Dossiers and Policy Options

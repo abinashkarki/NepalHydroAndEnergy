@@ -11,7 +11,7 @@ tags: [institutions, finance, regulation, delivery, governance]
 excerpt: The institutional and financial chain between a project concept, an operating asset and reliable electricity service.
 caveat: Institutional mandates can be stated from public records; implementation quality and project readiness require dated, transaction-specific evidence.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Institutions, Finance and Project Delivery
