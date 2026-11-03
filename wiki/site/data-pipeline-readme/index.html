@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content="scripts/build_wiki_site.js" />
+  <title>Data Pipeline Readme · Nepal Energy Wiki</title>
+  <meta name="description" content="This data page documents the copied data-build scripts, the processed products they generate, what dependencies are present in the merged workspace, and which…" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://transparentgov.ai/wiki/data-pipeline-readme/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Nepal Energy Wiki" />
+  <meta property="og:title" content="Data Pipeline Readme · Nepal Energy Wiki" />
+  <meta property="og:description" content="This data page documents the copied data-build scripts, the processed products they generate, what dependencies are present in the merged workspace, and which…" />
+  <meta property="og:url" content="https://transparentgov.ai/wiki/data-pipeline-readme/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="stylesheet" href="/wiki/assets/site/wiki.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b6b57'/%3E%3C/svg%3E" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://transparentgov.ai/wiki/data-pipeline-readme/#article","headline":"Data Pipeline Readme","name":"Data Pipeline Readme","description":"This data page documents the copied data-build scripts, the processed products they generate, what dependencies are present in the merged workspace, and which…","url":"https://transparentgov.ai/wiki/data-pipeline-readme/","datePublished":"2026-04-15","dateModified":"2026-05-13","publisher":{"@type":"Organization","name":"TransparentGov","url":"https://transparentgov.ai/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Nepal Energy Wiki","item":"https://transparentgov.ai/wiki/"},{"@type":"ListItem","position":2,"name":"Data","item":"https://transparentgov.ai/wiki/#data"},{"@type":"ListItem","position":3,"name":"Data Pipeline Readme","item":"https://transparentgov.ai/wiki/data-pipeline-readme/"}]}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="site-bar">
+    <a class="site-name" href="/wiki/">Nepal Energy Wiki</a>
+    <form class="site-search" action="/wiki/explorer/" method="get" role="search">
+      <label class="visually-hidden" for="site-q">Search the wiki</label>
+      <input id="site-q" name="q" type="search" placeholder="Search projects, claims, sources…" />
+    </form>
+    <a class="site-map" href="/wiki/explorer/">Map</a>
+  </div>
+  <nav class="site-nav" aria-label="Sections"><a href="/wiki/#syntheses">Analysis</a><a href="/wiki/#claims">Claims</a><a href="/wiki/#concepts">Explainers</a><a href="/wiki/#interventions">Policy options</a><a href="/wiki/#entities">Projects & places</a><a href="/wiki/#data">Data</a><a href="/wiki/#sources">Sources</a></nav>
+</header>
+<main class="page">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/wiki/">Wiki</a> › <a href="/wiki/#data">Data</a></nav>
+  <article>
+    <header class="page-head">
+      <h1>Data Pipeline Readme</h1>
+      <p class="dek">This data page documents the copied data-build scripts, the processed products they generate, what dependencies are present in the merged workspace, and which regeneration paths still require fuller raw inputs.</p>
+      <dl class="facts"><div><dt>Page status</dt><dd>Working page</dd></div><div><dt>Updated</dt><dd>2026-05-13</dd></div></dl>
+      <p class="page-actions"><a href="/wiki/explorer/?page=data-pipeline-readme">Open in the interactive explorer and map</a></p>
+    </header>
+    
+    <div class="prose"><h2>Summary</h2>
+<p>This data page documents the copied data-build scripts, the processed products they generate, what dependencies are present in the merged workspace, and which regeneration paths still require fuller raw inputs.</p>
+<p>Reference page for the copied scripts and the data products they generate. The scripts now live in the merged workspace under <code>scripts/</code>, but not all raw dependencies were copied over.</p>
+<h2>Script Inventory</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Script</th>
+<th>Purpose</th>
+<th>Main inputs</th>
+<th>Main outputs</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="../../../scripts/build_wiki_figures.py">build_wiki_figures.py</a></td>
+<td>Published wiki figures and figure manifest</td>
+<td>processed tables, curated legacy figures</td>
+<td><code>wiki/assets/figures/</code>, <code>wiki/explorer/shared/wiki-figure-manifest.json</code></td>
+</tr>
+<tr>
+<td><a href="../../../scripts/build_research_figures.py">build_research_figures.py</a></td>
+<td>Legacy static research figures</td>
+<td>processed project table, Nepal boundary</td>
+<td>files in <code>figures/</code></td>
+</tr>
+<tr>
+<td><a href="../../../scripts/build_tributary_maps.py">build_tributary_maps.py</a></td>
+<td>Tributary/basin HTML maps and GeoJSON layers</td>
+<td>raw waterways, HydroBASINS, project geodata</td>
+<td><code>data/processed/maps/</code>, <code>wiki/assets/maps/html/</code></td>
+</tr>
+<tr>
+<td><a href="../../../scripts/build_lead1_trade_outputs.py">build_lead1_trade_outputs.py</a></td>
+<td>Lead-1 monthly trade panels</td>
+<td>monthly trade and NEA balance CSVs</td>
+<td><code>data/processed/lead1_trade/</code>, <code>figures/lead1_*.png</code></td>
+</tr>
+<tr>
+<td><a href="../../../scripts/build_nea_daily_trade_series.py">build_nea_daily_trade_series.py</a></td>
+<td>NEA daily-report crawl and parse pipeline</td>
+<td>NEA archive pages + cached PDFs</td>
+<td><code>data/processed/lead1_trade/</code> manifest, parsed CSVs, summary JSON</td>
+</tr>
+</tbody></table></div>
+<h2>What Is Present In This Merged Workspace</h2>
+<ul>
+<li>Processed tables and lead-1 outputs under <code>data/processed/</code></li>
+<li>Published wiki figures under <code>wiki/assets/figures/</code></li>
+<li>Legacy research figures under <code>figures/</code></li>
+<li>Interactive HTML maps and preview PNGs under <code>wiki/assets/maps/</code></li>
+<li>The copied scripts themselves under <code>scripts/</code></li>
+</ul>
+<h2>Coverage / Method</h2>
+<p>The inventory is based on the scripts checked into <code>scripts/</code>, the processed outputs under <code>data/processed/</code>, the figure directory, and the copied map assets under <code>wiki/assets/maps/</code>. It distinguishes scripts that are close to runnable from scripts that still depend on raw source libraries or fuller geospatial inputs not present in this workspace.</p>
+<h2>Caveats</h2>
+<p>This page is a regeneration guide for the merged workspace, not a guarantee that every pipeline can be fully rerun from checked-in files alone.</p>
+<h2>What Is Not Fully Present</h2>
+<ul>
+<li>The original raw PDF source library from the code repo was <strong>not</strong> copied wholesale.</li>
+<li>The full raw geospatial stack used to regenerate the maps was <strong>not</strong> copied wholesale.</li>
+<li>The checked-in NEA daily parsed dataset here is only a <strong>40-report subset</strong>, even though archive coverage has been scanned much deeper.</li>
+</ul>
+<p>That means:</p>
+<ul>
+<li><code>build_lead1_trade_outputs.py</code> is the closest to immediately runnable.</li>
+<li><code>build_research_figures.py</code> is partly runnable from merged processed data.</li>
+<li><code>build_tributary_maps.py</code> and <code>build_nea_daily_trade_series.py</code> still expect a fuller raw-input environment for full regeneration.</li>
+</ul>
+<h2>Regeneration Commands</h2>
+<p>Run from the workspace root:</p>
+<pre><code class="language-bash">python scripts/build_lead1_trade_outputs.py
+python scripts/build_wiki_figures.py
+python scripts/build_research_figures.py
+python scripts/build_tributary_maps.py
+python scripts/build_nea_daily_trade_series.py --max-pages 4 --max-reports 40 --refresh
+</code></pre>
+<p>For daily-trade work, the last command should be treated as a pipeline entry point, not as proof of full historical completeness. The archive-depth note in <a href="/wiki/data-trade-time-series/">Electricity Trade Time Series</a> remains the authoritative caveat.</p>
+<h2>Related</h2>
+<ul>
+<li><a href="/wiki/data-trade-time-series/">Electricity Trade Time Series</a></li>
+<li><a href="/wiki/data-map-inventory/">Map Inventory</a></li>
+<li><a href="/wiki/data-storage-comparison/">Storage Capacity Comparison</a></li>
+<li><a href="/wiki/unresolved-questions/">Unresolved Questions</a></li>
+</ul>
+</div>
+  </article>
+  <aside class="backlinks" aria-label="Pages that link here"><h2>Pages that link here <span>1</span></h2><ul><li><a href="/wiki/unresolved-questions/">Unresolved Questions</a><span>Analysis</span></li></ul></aside>
+</main>
+<footer class="site-footer">
+  <p>Nepal Energy Wiki is a citizen-led evidence project by <a href="https://transparentgov.ai/">TransparentGov</a>. Every page links to its sources; confidence ratings and caveats are part of the answer.</p>
+  <p><a href="https://www.youtube.com/watch?v=_35zVh1yD1U">Watch the film: Nepal Has Hydropower. Why Isn’t It Enough?</a> · <a href="https://github.com/abinashkarki/NepalHydroAndEnergy">Source on GitHub</a> · <a href="/wiki/start-here/">Start here</a></p>
+</footer>
+</body>
+</html>

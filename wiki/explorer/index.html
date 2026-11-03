@@ -6,16 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="np-build" content="public-launch-12" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' unpkg.com; img-src 'self' data: *.cartocdn.com *.opentopomap.org server.arcgisonline.com *.tile.openstreetmap.org tile.openstreetmap.org *.basemaps.cartocdn.com; connect-src 'self' cdn.jsdelivr.net unpkg.com huggingface.co *.huggingface.co *.hf.co; worker-src 'self' blob:; frame-src 'none';" />
-  <script>
-    window.__WIKI_CLEAN_ROUTE_SLUGS__ = Object.freeze([
-      "glof-risk",
-      "rasuwagadhi",
-      "icimod-ndrrma-thame-glof-2024",
-      "ndrrma-rasuwa-glacial-flood-sitrep-2025",
-      "nea-engineering-annual-report-2081-82",
-    ]);
-  </script>
   <title>Nepal Energy · Wiki & Map</title>
+  <link rel="canonical" id="canonical-link" href="https://transparentgov.ai/wiki/explorer/" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b6b57'/%3E%3Cpath d='M14 44 27 18l8 16 6-10 9 20Z' fill='%23fff'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" />
   <link rel="stylesheet" href="shared/style.css?v=public-launch-12" />
@@ -5610,6 +5602,14 @@
           if (step && step.id) params.set("step", step.id);
         }
         const pathname = isBootstrappedSubject ? `/wiki/${encodeURIComponent(currentSlug)}/` : location.pathname;
+        // Every wiki page has a static reader URL; point search engines there
+        // rather than at this app state.
+        const canonicalLink = document.getElementById("canonical-link");
+        if (canonicalLink) {
+          canonicalLink.href = currentSlug
+            ? `https://transparentgov.ai/wiki/${encodeURIComponent(currentSlug)}/`
+            : "https://transparentgov.ai/wiki/explorer/";
+        }
         const url = pathname + (params.toString() ? "?" + params.toString() : "");
         history.replaceState(null, "", url);
       }

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content="scripts/build_wiki_site.js" />
+  <title>Solar&#39;s Role in the Winter Deficit · Nepal Energy Wiki</title>
+  <meta name="description" content="A Working Page that explores how solar, storage, demand timing and batteries could interact in a winter-balance model." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://transparentgov.ai/wiki/solar-role-in-winter-deficit/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Nepal Energy Wiki" />
+  <meta property="og:title" content="Solar&#39;s Role in the Winter Deficit · Nepal Energy Wiki" />
+  <meta property="og:description" content="A Working Page that explores how solar, storage, demand timing and batteries could interact in a winter-balance model." />
+  <meta property="og:url" content="https://transparentgov.ai/wiki/solar-role-in-winter-deficit/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="stylesheet" href="/wiki/assets/site/wiki.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b6b57'/%3E%3C/svg%3E" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://transparentgov.ai/wiki/solar-role-in-winter-deficit/#article","headline":"Solar's Role in the Winter Deficit","name":"Solar's Role in the Winter Deficit","description":"A Working Page that explores how solar, storage, demand timing and batteries could interact in a winter-balance model.","url":"https://transparentgov.ai/wiki/solar-role-in-winter-deficit/","datePublished":"2026-04-23","dateModified":"2026-07-19","publisher":{"@type":"Organization","name":"TransparentGov","url":"https://transparentgov.ai/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Nepal Energy Wiki","item":"https://transparentgov.ai/wiki/"},{"@type":"ListItem","position":2,"name":"Analysis","item":"https://transparentgov.ai/wiki/#syntheses"},{"@type":"ListItem","position":3,"name":"Solar's Role in the Winter Deficit","item":"https://transparentgov.ai/wiki/solar-role-in-winter-deficit/"}]}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="site-bar">
+    <a class="site-name" href="/wiki/">Nepal Energy Wiki</a>
+    <form class="site-search" action="/wiki/explorer/" method="get" role="search">
+      <label class="visually-hidden" for="site-q">Search the wiki</label>
+      <input id="site-q" name="q" type="search" placeholder="Search projects, claims, sources…" />
+    </form>
+    <a class="site-map" href="/wiki/explorer/">Map</a>
+  </div>
+  <nav class="site-nav" aria-label="Sections"><a href="/wiki/#syntheses">Analysis</a><a href="/wiki/#claims">Claims</a><a href="/wiki/#concepts">Explainers</a><a href="/wiki/#interventions">Policy options</a><a href="/wiki/#entities">Projects & places</a><a href="/wiki/#data">Data</a><a href="/wiki/#sources">Sources</a></nav>
+</header>
+<main class="page">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/wiki/">Wiki</a> › <a href="/wiki/#syntheses">Analysis</a></nav>
+  <article>
+    <header class="page-head">
+      <h1>Solar&#39;s Role in the Winter Deficit</h1>
+      <p class="dek">A Working Page that explores how solar, storage, demand timing and batteries could interact in a winter-balance model.</p>
+      <dl class="facts"><div><dt>Page status</dt><dd>Working page</dd></div><div><dt>Updated</dt><dd>2026-07-19</dd></div><div><dt>Last reviewed</dt><dd>2026-07-19</dd></div><div><dt>Review due</dt><dd>2026-10-19 (overdue)</dd></div></dl>
+      <p class="page-actions"><a href="/wiki/explorer/?page=solar-role-in-winter-deficit">Open in the interactive explorer and map</a></p>
+    </header>
+    <aside class="callout callout-warning"><div class="callout-label">Caveat</div><div class="callout-body"><p>The 2030/2035 portfolio values are scenario assumptions, not a verified delivery pipeline or forecast; current award records do not establish construction or operation.</p></div></aside><aside class="callout callout-gap"><div class="callout-label">Review overdue</div><div class="callout-body"><p>This page is past its scheduled evidence review. Figures may have changed since it was last checked.</p></div></aside>
+    <div class="prose"><p>This page argues that Nepal&#39;s 2035 winter deficit is solvable not by storage hydro alone, but by a four-lever portfolio of storage hydro, utility solar, demand-shaping, and BESS — and it quantifies each lever&#39;s contribution.</p>
+<p>The wiki&#39;s existing framing treats Nepal&#39;s winter deficit as a <strong>storage problem</strong> (<a href="/wiki/storage-deficit/">Storage Deficit</a>, <a href="/wiki/seasonal-mismatch/">Seasonal Mismatch</a>). The honest 2026 framing is: <strong>part-storage, part-solar, part-demand-shaping</strong>. This synthesis is an argument for the updated framing, with quantified contribution shares for each lever.</p>
+<h2>The problem, tightened</h2>
+<p>Nepal&#39;s <strong>Dec–Feb dry-season energy gap</strong> is approximately:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Component</th>
+<th align="right">Magnitude (GWh / season, 3 months)</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Current domestic demand</td>
+<td align="right">~2,130</td>
+<td>NEA FY 2024/25, baseline_fy2025 scenario</td>
+</tr>
+<tr>
+<td>Current hydro output</td>
+<td align="right">~1,551</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Current gap (covered by imports)</td>
+<td align="right"><strong>~550</strong></td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Projected demand 2030 (at 8%/yr growth)</td>
+<td align="right">~3,128</td>
+<td>2030_baseline scenario, build_winter_deficit_model.py</td>
+</tr>
+<tr>
+<td>Projected demand 2035 (at 7%/yr growth)</td>
+<td align="right">~4,188</td>
+<td>2035_full scenario, build_winter_deficit_model.py</td>
+</tr>
+</tbody></table></div>
+<p>The 2030 gap more than doubles from today’s ~550 GWh baseline; by 2035, demand growth at 7% CAGR adds roughly 2,000 GWh to the problem if supply does not keep pace. The lever-ranking below addresses the 2030 and 2035 gaps, not the 2024 gap.</p>
+<h2>The four levers</h2>
+<h3>Lever 1: Storage hydropower (reservoir + PRoR)</h3>
+<p><strong>Mechanism:</strong> Shift monsoon water into dry-season generation. The <a href="/wiki/claim-storage-physical-fix/">Storage Is the Clearest Physical Answer to Seasonal Mismatch</a> answer.</p>
+<p><strong>Realistic 2035 contribution:</strong> <a href="/wiki/tanahu-hydropower/">Tanahu Hydropower Project</a> (140 MW, COD 2026/27 window — under construction, ~67% complete in the NEA FY 2024/25 report and roughly 75% complete in an April 2026 public update) + <a href="/wiki/dudhkoshi-storage/">Dudhkoshi Storage Hydroelectric Project</a> (670 MW, COD ambitious ~2035). (<a href="/wiki/budhigandaki/">Budhigandaki Hydroelectric Project</a> 1,200 MW excluded from pre-2036 scenarios — main EPC contract not expected until January 2028, implying earliest COD 2036.) Aggregate new storage dry-season generation ~800–900 GWh/winter-season above the RoR baseline. (Model: 2035_full hydro ~3,246 GWh vs. 2035_solar_only hydro ~2,412 GWh = net storage addition of ~834 GWh.)</p>
+<p><strong>Physical advantage:</strong> Dispatchable; provides capacity credit for evening peak; non-intermittent.</p>
+<p><strong>Strategic weakness:</strong> Build timelines. Beyond Tanahu (2026), none of the remaining storage projects has COD before 2035; <a href="/wiki/buildability/">Buildability</a> concerns are severe (<a href="/wiki/budhigandaki/">Budhigandaki Hydroelectric Project</a> has been at &quot;planning&quot; stage for 20+ years). If storage is the only lever, the <strong>2027–2034 window has no new dispatchable storage — Dudhkoshi is the next meaningful addition, with an ambitious COD of ~2035.</strong></p>
+<h3>Lever 2: Utility-scale Terai solar</h3>
+<p><strong>Mechanism:</strong> Exploit the ~55% dry-season-share of solar generation (Terai, <a href="/wiki/data-solar-hydro-lcoe/">Solar and Hydro LCOE</a>) to fill the daytime energy component of the winter gap.</p>
+<p><strong>Illustrative 2035 scenario input:</strong> the model tests <strong>5,000 MWp</strong> of solar. This is not a verified pipeline forecast. The public evidence in this wiki establishes roughly 142 MW in the operating snapshot and 960 MW of LoI awards whose subsequent delivery status is unknown; see <a href="/wiki/solar-system/">Solar in Nepal&#39;s Electricity System</a>.</p>
+<p>At 5 GW of Terai solar with CF 16.5% (empirical GIZ/AEPC measurement for Terai fixed-tilt), Dec–Feb dry-season generation ~<strong>966 GWh</strong> (2035_full model output at 16.5% CF); the full dry-season (Nov–Mar) contribution is higher. Source: build_winter_deficit_model.py, 2035_full scenario.</p>
+<p><strong>Potential advantage:</strong> solar avoids tunnelling and major waterway works and can therefore have a shorter development cycle than many hydro projects. Nepal&#39;s current public corpus does not contain a representative award-to-commissioning cohort that establishes a universal build duration. Tariff comparisons also depend on service scope and firmness; see <a href="/wiki/claim-solar-cheaper-than-small-hydro/">NEA Solar Award Tariffs Undercut the Standard Small-RoR Blended Tariff</a>.</p>
+<p><strong>Strategic weakness:</strong> Zero contribution to 6 pm evening peak. Requires land (see <a href="/wiki/agrivoltaics-and-land/">Agrivoltaics and Land</a>). Requires BESS or hydro peaking for firm capacity.</p>
+<h3>Lever 3: Demand-shaping (electrification + time-of-use)</h3>
+<p><strong>Mechanism:</strong> Shift the winter-evening peak (the hardest MW to cover) into mid-day (when solar + flat hydro are available) through electrified cooking + time-of-use tariffs + large industrial demand scheduling.</p>
+<p><strong>Realistic 2035 contribution:</strong></p>
+<ul>
+<li>Electric cooking penetration: 1% → 20% by 2035 moves ~200–400 MW of winter-evening peak to mid-day if combined with ToU pricing.</li>
+<li>Industrial process scheduling (rolling mills, cement, crushers): ~150–300 MW shiftable to mid-day.</li>
+<li>Net peak-reduction effect: ~300–700 MW, equivalent to ~500–1,200 GWh/winter-season of &quot;virtual storage.&quot;</li>
+</ul>
+<p><strong>Physical advantage:</strong> Cheapest lever per kWh shifted. No new physical plant.</p>
+<p><strong>Strategic weakness:</strong> Requires coordinated tariff reform (ERC + NEA), consumer behavior change (slow), and electrification of cooking (slow — <a href="/wiki/data-domestic-demand/">Domestic Electricity Demand Distribution</a> shows &lt;1% of households cook electric today).</p>
+<h3>Lever 4: Battery energy storage (BESS)</h3>
+<p><strong>Mechanism:</strong> Charge from mid-day solar and discharge into the winter-evening peak. The <a href="/wiki/data-solar-hydro-complementarity-profile/">Solar–Hydro Complementarity Profile</a> diurnal profile case.</p>
+<p><strong>Illustrative 2035 scenario input:</strong> 2 GWh of four-hour BESS represents <strong>500 MW</strong> for four hours. If cycled once daily through the core Dec–Feb window, the arithmetic is roughly <strong>116 GWh</strong>. The reviewed public corpus does not include a national operating BESS registry or an official deployment plan establishing that scenario.</p>
+<p><strong>Physical advantage:</strong> Pairs with solar to provide firm capacity. 4-hour BESS at 2030 prices (~NPR 10/kWh LCOE per <a href="/wiki/data-solar-hydro-lcoe/">Solar and Hydro LCOE</a>) competes with reservoir hydropower on firm-capacity cost.</p>
+<p><strong>Strategic weakness:</strong> Capex; cycle life; thermal management in Terai heat. Not yet routinely included in Nepal PPA structures.</p>
+<h2>The combined portfolio — 2035 dry-season energy balance</h2>
+<p>Assuming all four levers work at realistic-ambition (not best-case) levels:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Lever</th>
+<th align="right">Dec–Feb GWh (model)</th>
+<th>Firm-capacity note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>New storage hydro (Tanahu + Dudhkoshi above RoR baseline)</td>
+<td align="right">~834</td>
+<td>Dispatchable; evening capacity credit</td>
+</tr>
+<tr>
+<td>Utility solar 5 GW Terai (16.5% CF)</td>
+<td align="right">~966</td>
+<td>Daytime only; zero evening without BESS</td>
+</tr>
+<tr>
+<td>BESS 2 GWh</td>
+<td align="right">~1 (Phase 1 placeholder; about ~116 GWh if cycled once daily across core Dec–Feb)</td>
+<td>~500 MW evening firm capacity</td>
+</tr>
+<tr>
+<td>Demand-shaping</td>
+<td align="right">~400</td>
+<td>Shifts ~400 MW of evening peak</td>
+</tr>
+<tr>
+<td>Existing RoR + rooftop baseline</td>
+<td align="right">~2,412</td>
+<td>Continues at current trajectory</td>
+</tr>
+<tr>
+<td><strong>Total supply</strong></td>
+<td align="right"><strong>~4,613</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>2035 Dec–Feb demand</td>
+<td align="right">~4,188</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Net position</strong></td>
+<td align="right"><strong>+425 GWh surplus</strong></td>
+<td><strong>Gap closed; surplus is headroom</strong></td>
+</tr>
+</tbody></table></div>
+<p>Source: <code>scripts/build_winter_deficit_model.py</code>, <code>2035_full</code> scenario. Demand CAGR 7% (2030–35), solar CF 16.5% Terai fixed-tilt and the storage sequence are model assumptions, not observed outcomes.</p>
+<h2>The Budhigandaki distinction</h2>
+<p>The model clarifies a distinction the narrative math obscured: Budhigandaki is not necessary to close the 2035 energy gap, but it is the decisive asset for evening firm capacity. At 8%/7% CAGR, the four-lever portfolio closes the Dec–Feb energy balance without Budhigandaki — the 2035_full and 2035_no_budhigandaki scenarios are identical at 0 GWh deficit. But the Phase 2 diurnal model shows a 933 MW residual evening-peak gap at 18:30 in the 2035_full scenario (23% of peak demand) — covered today by imports, and in 2035 still requiring either Budhigandaki or a combination of additional BESS, explicit peak demand-shaping, and cross-border capacity. Budhigandaki&#39;s 1,200 MW at 0.9 dispatch factor contributes 1,080 MW to the evening peak, flipping the 933 MW gap to a 147 MW surplus. It is not an energy asset for 2035 — it is a capacity asset, and the most important one in the pipeline. Source: <code>scripts/build_diurnal_peak_model.py</code>, 2035_with_budhigandaki scenario.</p>
+<p>Under the model&#39;s assumptions, the combined portfolio closes the 2035 winter energy deficit. That is a conditional scenario result, not a delivery forecast. No single lever closes the modelled gap alone.</p>
+<h2>The re-ranking this argues for</h2>
+<p>The existing <a href="/wiki/bottleneck-hierarchy/">Bottleneck Hierarchy</a> ranks:</p>
+<ol>
+<li>Storage deficit</li>
+<li>Transmission readiness</li>
+<li>Buildability</li>
+<li>Market design / demand</li>
+<li>Climate / hazard</li>
+<li>Governance</li>
+<li>Geopolitics</li>
+</ol>
+<p>The updated ranking, if this synthesis holds:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th align="right">Rank</th>
+<th>Bottleneck</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">1</td>
+<td><strong>Transmission + delivery (including solar interconnection)</strong></td>
+<td>Promoted, because 5 GW solar needs grid headroom</td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td><strong>Land + agrivoltaic framework for Terai solar</strong></td>
+<td><strong>New</strong></td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td><strong>Storage build-out (hydro + BESS)</strong></td>
+<td>Re-framed: combined, not hydro-alone</td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td>Demand-shaping + electrification</td>
+<td>Promoted</td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td>Buildability</td>
+<td>Unchanged</td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td>Market / PPA / tariff design</td>
+<td>Unchanged</td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td>Geopolitics</td>
+<td>Unchanged</td>
+</tr>
+</tbody></table></div>
+<p>The biggest change: <strong>storage</strong> is no longer a pure reservoir-hydro question, and <strong>solar-land-politics</strong> becomes a top-tier national constraint it was not before.</p>
+<h2>Three policy moves this synthesis implies</h2>
+<h3>1. Tender integration — mandate solar-plus-BESS in the next round.</h3>
+<p>The 960 MW Phase IV tender (<a href="/wiki/nea-960mw-solar-tender/">NEA 960 MW National Solar Tender</a>) does not include BESS mandates. The Phase V tender, for ~1,500–2,000 MW, should. This alone captures ~500 MW of evening-peak firm capacity at marginal capex.</p>
+<h3>2. Agrivoltaic framework — deliver the four institutional fixes from <a href="/wiki/agrivoltaics-and-land/">Agrivoltaics and Land</a>.</h3>
+<p>Lease-template law, agrivoltaic tariff adder, technical standards, VGF channel. Without these, the Terai solar build-out stalls at ~2 GW.</p>
+<h3>3. ERC-led time-of-use tariff reform.</h3>
+<p>Creates the demand-side incentive for lever 3. Also structures the right price signals for BESS investment.</p>
+<h2>Relationship to the master thesis</h2>
+<p><a href="/wiki/master-thesis/">Master Thesis</a> argues: Nepal is failing to convert hydrological advantage into firm, deliverable, resilient power.</p>
+<p>This synthesis adds: <strong>The fleet that delivers firm winter power in 2035 is not predominantly hydro. It is a hydro + solar + BESS + demand-shaping portfolio. The mastery Nepal needs is not in hydrological conversion alone; it is in sequencing a four-lever portfolio, and in the institutional capacity to deliver all four on overlapping timelines.</strong></p>
+<p>That is a more complex master strategy than &quot;build reservoirs.&quot; But it is also a more achievable one — the four levers are partial substitutes, so slippage in any one does not collapse the whole.</p>
+<h2>Benchmarking context</h2>
+<p><a href="/wiki/irena-remap-nepal/">IRENA Renewable Readiness Assessment and REmap Nepal</a> provides an externally-credentialed normative benchmark against which to judge Nepal&#39;s actual solar trajectory. IRENA&#39;s REmap Accelerated Case targets &gt;1 GW solar by 2030 — a target that Nepal&#39;s 960 MW tender + 170 MW PPA + 142 MW operating already approaches in installed capacity, but with important gaps in institutional readiness (no agrivoltaic framework, no BESS mandates, no time-of-use tariff). The IRENA barriers analysis (policy coherence, financing access, grid integration, institutional capacity, land and permits) overlaps with the <a href="/wiki/bottleneck-hierarchy/">Bottleneck Hierarchy</a> for hydro, with one addition specific to solar: the absence of a land/permitting framework for utility-scale ground-mount. Mapping these programme gaps against donor channels (AEPC, EIB, WB) is a remaining institutional task.</p>
+<h2>Related</h2>
+<ul>
+<li><a href="/wiki/master-thesis/">Master Thesis</a> — the master frame</li>
+<li><a href="/wiki/solar-in-the-master-narrative/">Solar in the Master Narrative</a> — the parallel synthesis</li>
+<li><a href="/wiki/solar-hydro-complementarity/">Solar–Hydro Complementarity</a> — the physical basis</li>
+<li><a href="/wiki/storage-deficit/">Storage Deficit</a>, <a href="/wiki/seasonal-mismatch/">Seasonal Mismatch</a> — the problems</li>
+<li><a href="/wiki/data-solar-hydro-complementarity-profile/">Solar–Hydro Complementarity Profile</a> — the hour-by-hour numbers</li>
+<li><a href="/wiki/bottleneck-hierarchy/">Bottleneck Hierarchy</a> — the ranking to patch</li>
+<li><a href="/wiki/data-winter-deficit-model/">Winter Deficit Model</a> — the reproducible monthly energy-balance model backing this synthesis</li>
+<li><a href="/wiki/claim-timing-not-volume/">Nepal&#39;s Core Hydro Problem Is Timing, Not Annual Volume</a>, <a href="/wiki/claim-storage-physical-fix/">Storage Is the Clearest Physical Answer to Seasonal Mismatch</a> — the claims this synthesis extends</li>
+</ul>
+</div>
+  </article>
+  <aside class="backlinks" aria-label="Pages that link here"><h2>Pages that link here <span>9</span></h2><ul><li><a href="/wiki/irena-remap-nepal/">IRENA Renewable Readiness Assessment and REmap Nepal</a><span>Sources</span></li><li><a href="/wiki/storage-deficit/">Storage Deficit</a><span>Explainers</span></li><li><a href="/wiki/bottleneck-hierarchy/">Bottleneck Hierarchy</a><span>Analysis</span></li><li><a href="/wiki/master-thesis/">Master Thesis</a><span>Analysis</span></li><li><a href="/wiki/solar-system/">Solar in Nepal&#39;s Electricity System</a><span>Analysis</span></li><li><a href="/wiki/solar-in-the-master-narrative/">Solar in the Master Narrative</a><span>Analysis</span></li><li><a href="/wiki/claim-floating-pv-leverage/">Floating PV Is a Leverage Play, Not a Core Supply Pillar</a><span>Claims</span></li><li><a href="/wiki/data-solar-hydro-complementarity-profile/">Solar–Hydro Complementarity Profile</a><span>Data</span></li><li><a href="/wiki/data-winter-deficit-model/">Winter Deficit Model</a><span>Data</span></li></ul></aside>
+</main>
+<footer class="site-footer">
+  <p>Nepal Energy Wiki is a citizen-led evidence project by <a href="https://transparentgov.ai/">TransparentGov</a>. Every page links to its sources; confidence ratings and caveats are part of the answer.</p>
+  <p><a href="https://www.youtube.com/watch?v=_35zVh1yD1U">Watch the film: Nepal Has Hydropower. Why Isn’t It Enough?</a> · <a href="https://github.com/abinashkarki/NepalHydroAndEnergy">Source on GitHub</a> · <a href="/wiki/start-here/">Start here</a></p>
+</footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: wiki-index seo-pilot validate serve figures test release-check release-record-check mcp deficit-model wiki-figures lead1-outputs wiki-build dashboard-build dashboard-check dashboard-serve
+.PHONY: wiki-index wiki-site validate serve figures test release-check release-record-check mcp deficit-model wiki-figures lead1-outputs wiki-build dashboard-build dashboard-check dashboard-serve
 
 wiki-index:
 	$(PYTHON) scripts/build_wiki_page_index.py
@@ -15,9 +15,9 @@ wiki-index:
 		echo "INFO: keeping the shipped vector index (install requirements-search.txt to rebuild it)"; \
 	fi
 
-seo-pilot:
-	node scripts/build_wiki_seo.js
-	node scripts/build_wiki_seo.js --check
+wiki-site:
+	node scripts/build_wiki_site.js
+	node scripts/build_wiki_site.js --check
 
 validate:
 	$(PYTHON) scripts/validate_repo.py
@@ -26,12 +26,12 @@ validate:
 	git diff --check
 
 test:
-	$(PYTHON) -m unittest scripts.test_wiki_search_index scripts.test_explorer_search_runtime scripts.test_extract_pdf_images scripts.test_explorer_performance scripts.test_claim_integrity scripts.test_source_used_by tests.test_apply_doed_project_status_overlay tests.test_benchmark_hydromap_coverage tests.test_build_doed_hydropower_registry tests.test_build_doed_missing_operating_projects tests.test_build_doed_project_status_overlay tests.test_build_tributary_maps_capacity_authority tests.test_build_internal_dashboard tests.test_static_seo
+	$(PYTHON) -m unittest scripts.test_wiki_search_index scripts.test_explorer_search_runtime scripts.test_extract_pdf_images scripts.test_explorer_performance scripts.test_claim_integrity scripts.test_source_used_by tests.test_apply_doed_project_status_overlay tests.test_benchmark_hydromap_coverage tests.test_build_doed_hydropower_registry tests.test_build_doed_missing_operating_projects tests.test_build_doed_project_status_overlay tests.test_build_tributary_maps_capacity_authority tests.test_build_internal_dashboard tests.test_static_site
 	node tests/test_wiki_search_intents.js
 	node tests/test_lalupate_stage_one.js
 	node tests/test_internal_dashboard_runtime.js
 
-release-check: wiki-index seo-pilot validate test release-record-check
+release-check: wiki-index wiki-site validate test release-record-check
 	$(PYTHON) scripts/build_internal_dashboard.py
 	$(PYTHON) scripts/build_internal_dashboard.py --check
 	$(PYTHON) scripts/check_generated_ownership.py

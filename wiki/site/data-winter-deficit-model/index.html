@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content="scripts/build_wiki_site.js" />
+  <title>Winter Deficit Model · Nepal Energy Wiki</title>
+  <meta name="description" content="This data page documents a two-phase winter deficit model that estimates Nepal&#39;s Dec-Feb monthly energy balance and the 18:30 winter evening peak dispatch gap…" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://transparentgov.ai/wiki/data-winter-deficit-model/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Nepal Energy Wiki" />
+  <meta property="og:title" content="Winter Deficit Model · Nepal Energy Wiki" />
+  <meta property="og:description" content="This data page documents a two-phase winter deficit model that estimates Nepal&#39;s Dec-Feb monthly energy balance and the 18:30 winter evening peak dispatch gap…" />
+  <meta property="og:url" content="https://transparentgov.ai/wiki/data-winter-deficit-model/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="stylesheet" href="/wiki/assets/site/wiki.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b6b57'/%3E%3C/svg%3E" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://transparentgov.ai/wiki/data-winter-deficit-model/#article","headline":"Winter Deficit Model","name":"Winter Deficit Model","description":"This data page documents a two-phase winter deficit model that estimates Nepal's Dec-Feb monthly energy balance and the 18:30 winter evening peak dispatch gap…","url":"https://transparentgov.ai/wiki/data-winter-deficit-model/","datePublished":"2026-05-07","dateModified":"2026-05-12","publisher":{"@type":"Organization","name":"TransparentGov","url":"https://transparentgov.ai/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Nepal Energy Wiki","item":"https://transparentgov.ai/wiki/"},{"@type":"ListItem","position":2,"name":"Data","item":"https://transparentgov.ai/wiki/#data"},{"@type":"ListItem","position":3,"name":"Winter Deficit Model","item":"https://transparentgov.ai/wiki/data-winter-deficit-model/"}]}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="site-bar">
+    <a class="site-name" href="/wiki/">Nepal Energy Wiki</a>
+    <form class="site-search" action="/wiki/explorer/" method="get" role="search">
+      <label class="visually-hidden" for="site-q">Search the wiki</label>
+      <input id="site-q" name="q" type="search" placeholder="Search projects, claims, sources…" />
+    </form>
+    <a class="site-map" href="/wiki/explorer/">Map</a>
+  </div>
+  <nav class="site-nav" aria-label="Sections"><a href="/wiki/#syntheses">Analysis</a><a href="/wiki/#claims">Claims</a><a href="/wiki/#concepts">Explainers</a><a href="/wiki/#interventions">Policy options</a><a href="/wiki/#entities">Projects & places</a><a href="/wiki/#data">Data</a><a href="/wiki/#sources">Sources</a></nav>
+</header>
+<main class="page">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/wiki/">Wiki</a> › <a href="/wiki/#data">Data</a></nav>
+  <article>
+    <header class="page-head">
+      <h1>Winter Deficit Model</h1>
+      <p class="dek">This data page documents a two-phase winter deficit model that estimates Nepal&#39;s Dec-Feb monthly energy balance and the 18:30 winter evening peak dispatch gap under parameterised 2025, 2030, and 2035 scenarios.</p>
+      <dl class="facts"><div><dt>Page status</dt><dd>Working page</dd></div><div><dt>Updated</dt><dd>2026-05-12</dd></div></dl>
+      <p class="page-actions"><a href="/wiki/explorer/?page=data-winter-deficit-model">Open in the interactive explorer and map</a></p>
+    </header>
+    
+    <div class="prose"><h2>Summary</h2>
+<p>This data page documents a two-phase winter deficit model that estimates Nepal&#39;s Dec-Feb monthly energy balance and the 18:30 winter evening peak dispatch gap under parameterised 2025, 2030, and 2035 scenarios.</p>
+<p>A two-phase reproducible model quantifying Nepal&#39;s winter electricity gap at both monthly energy (GWh) and sub-daily capacity (MW) resolution. Phase 1 (<code>scripts/build_winter_deficit_model.py</code>) models Dec–Feb monthly energy balances under parameterised 2030/2035 scenarios. Phase 2 (<code>scripts/build_diurnal_peak_model.py</code>) models the evening peak hour (18:30) dispatch to answer whether the portfolio that closes the energy gap also delivers evening firm capacity — the 6pm–10pm winter window where solar is zero.</p>
+<h2>Phase 1 — Monthly energy balance (all scenarios)</h2>
+<p>Phase 1 reads NEA FY 2024/25 monthly energy data as baseline, applies scenario assumptions (solar deployment, storage hydro additions, demand growth, BESS, demand-shaping), and outputs monthly Dec–Feb balances. Dec–Feb = Poush + Magh (two BS months, 58 days).</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th align="right">Horizon</th>
+<th align="right">Solar MWp</th>
+<th align="right">BESS GWh</th>
+<th align="right">Demand CAGR</th>
+<th align="right">Dec–Feb Demand GWh</th>
+<th align="right">Hydro GWh</th>
+<th align="right">Solar GWh</th>
+<th align="right">BESS GWh</th>
+<th align="right">Shaping GWh</th>
+<th align="right">Gap GWh</th>
+<th align="right">Gap %</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>baseline_fy2025</td>
+<td align="right">2025</td>
+<td align="right">142</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+<td align="right">2,129</td>
+<td align="right">1,551</td>
+<td align="right">28</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">551</td>
+<td align="right">25.9%</td>
+</tr>
+<tr>
+<td>current_1gw</td>
+<td align="right">2025</td>
+<td align="right">1,000</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+<td align="right">2,129</td>
+<td align="right">1,551</td>
+<td align="right">193</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">385</td>
+<td align="right">18.1%</td>
+</tr>
+<tr>
+<td>current_3gw</td>
+<td align="right">2025</td>
+<td align="right">3,000</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+<td align="right">2,129</td>
+<td align="right">1,551</td>
+<td align="right">580</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">76</td>
+<td align="right">3.6%</td>
+</tr>
+<tr>
+<td>current_5gw</td>
+<td align="right">2025</td>
+<td align="right">5,000</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+<td align="right">2,129</td>
+<td align="right">1,551</td>
+<td align="right">966</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+</tr>
+<tr>
+<td>current_5gw_bess</td>
+<td align="right">2025</td>
+<td align="right">5,000</td>
+<td align="right">2</td>
+<td align="right">0%</td>
+<td align="right">2,129</td>
+<td align="right">1,551</td>
+<td align="right">966</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+</tr>
+<tr>
+<td>2030_baseline</td>
+<td align="right">2030</td>
+<td align="right">142</td>
+<td align="right">0</td>
+<td align="right">8%</td>
+<td align="right">3,128</td>
+<td align="right">1,926</td>
+<td align="right">28</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1,175</td>
+<td align="right">37.6%</td>
+</tr>
+<tr>
+<td>2030_17gw</td>
+<td align="right">2030</td>
+<td align="right">1,700</td>
+<td align="right">0</td>
+<td align="right">8%</td>
+<td align="right">3,128</td>
+<td align="right">1,926</td>
+<td align="right">329</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">874</td>
+<td align="right">27.9%</td>
+</tr>
+<tr>
+<td>2035_full</td>
+<td align="right">2035</td>
+<td align="right">5,000</td>
+<td align="right">2</td>
+<td align="right">7%</td>
+<td align="right">4,188</td>
+<td align="right">3,247</td>
+<td align="right">966</td>
+<td align="right">1</td>
+<td align="right">400</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+</tr>
+<tr>
+<td>2035_solar_only</td>
+<td align="right">2035</td>
+<td align="right">5,000</td>
+<td align="right">0</td>
+<td align="right">7%</td>
+<td align="right">4,188</td>
+<td align="right">2,412</td>
+<td align="right">966</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">810</td>
+<td align="right">19.3%</td>
+</tr>
+<tr>
+<td>2035_no_solar</td>
+<td align="right">2035</td>
+<td align="right">142</td>
+<td align="right">0</td>
+<td align="right">7%</td>
+<td align="right">4,188</td>
+<td align="right">3,247</td>
+<td align="right">28</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">914</td>
+<td align="right">21.8%</td>
+</tr>
+<tr>
+<td>2035_no_budhigandaki</td>
+<td align="right">2035</td>
+<td align="right">5,000</td>
+<td align="right">2</td>
+<td align="right">7%</td>
+<td align="right">4,188</td>
+<td align="right">3,247</td>
+<td align="right">966</td>
+<td align="right">1</td>
+<td align="right">400</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+</tr>
+<tr>
+<td>2035_with_budhigandaki</td>
+<td align="right">2035</td>
+<td align="right">5,000</td>
+<td align="right">2</td>
+<td align="right">7%</td>
+<td align="right">4,188</td>
+<td align="right">4,187</td>
+<td align="right">966</td>
+<td align="right">1</td>
+<td align="right">400</td>
+<td align="right">0</td>
+<td align="right">0%</td>
+</tr>
+</tbody></table></div>
+<p><strong>Assumptions:</strong> WECS Low GDP demand CAGRs (8% 2025–30, 7% 2030–35). Terai solar CF 16.5% fixed-tilt. Storage pipeline: Tanahu 140 MW (COD 2026), Dudhkoshi 670 MW (COD 2035, scenario_risk), Budhigandaki 1,200 MW (COD 2036, post-2035). Hydro growth CAGR: 3% (2030), 4% (2035). Dry-season storage energy distributed across four winter months with triangular weights [1,2,2,1] peaking in Poush-Magh. Source: <code>data/processed/tables/winter_deficit_model/model_parameters.csv</code>.</p>
+<h2>Phase 2 — Diurnal evening-peak dispatch (2035 scenarios)</h2>
+<p>Phase 2 takes Magh (mid-Jan to mid-Feb, ≈February) as the canonical winter reference month and models the 18:30 evening peak dispatch. The diurnal profile is sourced from <a href="/wiki/data-solar-hydro-complementarity-profile/">Solar–Hydro Complementarity Profile</a> lines 71–85: February weekday demand shape normalised to peak=100 at 18:30, RoR hydro flat at 30, solar bell curve dropping to zero by 17:30. Interpolation to hourly resolution yields an implied peak-to-average demand ratio of 1.35.</p>
+<p>Dispatch logic: RoR hydro flat at average monthly MW. Reservoir hydro dispatched at rated MW in the 17:00–21:00 window (dispatch factor 0.9). Solar = 0 MW at 18:30 (sunset). BESS = 500 MW flat in the 17:30–21:30 window (2 GWh / 4h). Demand shaping = an explicit 400 MW peak reduction at 18:30 for scenarios that include demand-shaping energy.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th align="right">Peak Demand MW</th>
+<th align="right">RoR MW</th>
+<th align="right">Reservoir MW</th>
+<th align="right">Solar at Peak</th>
+<th align="right">BESS MW</th>
+<th align="right">Shaping MW</th>
+<th align="right">Residual MW</th>
+<th align="right">Residual %</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2035_no_solar</td>
+<td align="right">4,066</td>
+<td align="right">1,504</td>
+<td align="right">729</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1,833</td>
+<td align="right">45.1%</td>
+</tr>
+<tr>
+<td>2035_solar_only</td>
+<td align="right">4,066</td>
+<td align="right">1,504</td>
+<td align="right">126</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">2,436</td>
+<td align="right">59.9%</td>
+</tr>
+<tr>
+<td>2035_full</td>
+<td align="right">4,066</td>
+<td align="right">1,504</td>
+<td align="right">729</td>
+<td align="right">0</td>
+<td align="right">500</td>
+<td align="right">400</td>
+<td align="right">933</td>
+<td align="right">23.0%</td>
+</tr>
+<tr>
+<td>2035_no_budhigandaki</td>
+<td align="right">4,066</td>
+<td align="right">1,504</td>
+<td align="right">729</td>
+<td align="right">0</td>
+<td align="right">500</td>
+<td align="right">400</td>
+<td align="right">933</td>
+<td align="right">23.0%</td>
+</tr>
+<tr>
+<td>2035_with_budhigandaki</td>
+<td align="right">4,066</td>
+<td align="right">1,504</td>
+<td align="right">1,809</td>
+<td align="right">0</td>
+<td align="right">500</td>
+<td align="right">400</td>
+<td align="right">−147</td>
+<td align="right">−3.6%</td>
+</tr>
+</tbody></table></div>
+<p>Model parameters: Magh reference month, 29 days, profile-implied peak-to-average ratio 1.348, reservoir dispatch factor 0.9, solar_mw_at_peak always 0.0 at the default 18:30 target hour. Budhigandaki (1,200 MW × 0.9 = 1,080 MW effective) flips the 933 MW deficit to a 147 MW surplus. Source: <code>scripts/build_diurnal_peak_model.py</code>, 2035_with_budhigandaki scenario.</p>
+<h2>Scenario definitions</h2>
+<p>Scenario names are inherited from Phase 1 energy-balance design. Note that <code>2035_solar_only</code> excludes risky storage (Dudhkoshi) and <code>2035_no_solar</code> includes it — the labels describe the <em>additional</em> resource being tested, not what is excluded.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Scenario ID</th>
+<th>Solar MWp</th>
+<th>Storage hydro active</th>
+<th>BESS</th>
+<th>Demand shaping</th>
+<th>Budhigandaki</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2035_full</td>
+<td>5,000</td>
+<td>Tanahu + Dudhkoshi (810 MW)</td>
+<td>Yes (2 GWh)</td>
+<td>Yes (400 GWh Dec–Feb)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>2035_solar_only</td>
+<td>5,000</td>
+<td>Tanahu only (140 MW)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>2035_no_solar</td>
+<td>142</td>
+<td>Tanahu + Dudhkoshi (810 MW)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>2035_no_budhigandaki</td>
+<td>5,000</td>
+<td>Tanahu + Dudhkoshi (810 MW)</td>
+<td>Yes (2 GWh)</td>
+<td>Yes (400 GWh Dec–Feb)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>2035_with_budhigandaki</td>
+<td>5,000</td>
+<td>Tanahu + Dudhkoshi + Budhi (2,010 MW)</td>
+<td>Yes (2 GWh)</td>
+<td>Yes (400 GWh Dec–Feb)</td>
+<td>Yes (1,200 MW)</td>
+</tr>
+</tbody></table></div>
+<p>The counterintuitive result — <code>2035_solar_only</code> has a worse evening peak (2,436 MW residual) than <code>2035_no_solar</code> (1,833 MW) — follows from these definitions. Both have zero solar at 18:30. The difference is 670 MW of Dudhkoshi reservoir dispatch, excluded from <code>2035_solar_only</code> by the Phase 1 design. The 603 MW residual gap between them (2,436 − 1,833) equals Dudhkoshi&#39;s dispatch contribution (670 × 0.9 = 603 MW).</p>
+<h2>Coverage / Method</h2>
+<p>Phase 1 reads NEA FY 2024/25 monthly energy data, applies scenario assumptions for solar deployment, storage hydro additions, demand growth, BESS, and demand shaping, and outputs Dec-Feb balances. Phase 2 uses the February weekday diurnal profile from <a href="/wiki/data-solar-hydro-complementarity-profile/">Solar–Hydro Complementarity Profile</a> and the scenario definitions to estimate 18:30 dispatch capacity by resource class.</p>
+<h2>Caveats</h2>
+<ul>
+<li><strong>Import overcount:</strong> Phase 1 overcounts annual imports by ~282 GWh/year because it does not model shoulder-month simultaneous import/export or NEA curtailment. Winter Dec–Feb figures (Poush-Magh) are more reliable than annual totals. Source: <code>data/processed/tables/winter_deficit_model/model_parameters.csv</code> import_accounting_note.</li>
+<li><strong>BESS sizing:</strong> Phase 1 models BESS as a placeholder ~1 GWh Dec–Feb seasonal contribution (2 GWh distributed evenly across four winter months). Phase 2 diurnal model uses the full 500 MW / 2 GWh BESS power rating for evening dispatch, which is more realistic for the 4-hour evening window. The Phase 1 seasonal GWh understates BESS energy contribution; Phase 2 MW capacity is the correct metric for evening firm capacity analysis.</li>
+<li><strong>Scenario naming:</strong> <code>2035_solar_only</code> excludes scenario_risk storage (Dudhkoshi); <code>2035_no_solar</code> includes it. Names reflect Phase 1 energy-balance design and are counterintuitive for Phase 2 capacity-credit comparison. Read the scenario definitions table above when interpreting evening-peak results.</li>
+<li><strong>Reservoir dispatch:</strong> All reservoir capacity is assumed dispatched at full rated MW in the 17:00–21:00 window at 0.9 availability. This is optimistic — it assumes reservoirs are full and operators choose evening-peak dispatch. Use <code>--reservoir-dispatch-factor</code> to test lower availability.</li>
+<li><strong>BESS state of charge:</strong> No degradation, no state-of-charge constraints within the daily cycle (assumes full charge from mid-day solar). Optimistic.</li>
+<li><strong>Demand shaping:</strong> Phase 1 models 400 GWh of Dec–Feb energy shifted out of high-stress periods. Phase 2 separately models an explicit 400 MW reduction at the 18:30 target hour for scenarios that include demand shaping; it is a peak-MW assumption, not a GWh-to-MW conversion.</li>
+<li><strong>Weekday vs weekend:</strong> February weekday profile used as canonical. Weekend industrial load is lower but the evening residential peak still dominates.</li>
+</ul>
+<h2>Model parameters</h2>
+<p>Full parameter table and scenario definitions are in <code>data/processed/tables/winter_deficit_model/model_parameters.csv</code>. Key inputs: solar CF profile, storage hydro pipeline, NEA monthly energy balance FY 2024/25. Model source code is in <code>scripts/build_winter_deficit_model.py</code> and <code>scripts/build_diurnal_peak_model.py</code>.</p>
+<h2>Related</h2>
+<ul>
+<li><a href="/wiki/solar-role-in-winter-deficit/">Solar&#39;s Role in the Winter Deficit</a> — synthesis page for what the model implies for policy</li>
+<li><a href="/wiki/data-solar-hydro-complementarity-profile/">Solar–Hydro Complementarity Profile</a> — the diurnal profile the Phase 2 model uses</li>
+<li><a href="/wiki/budhigandaki/">Budhigandaki Hydroelectric Project</a> — the 1,200 MW storage project quantified here</li>
+<li><a href="/wiki/dudhkoshi-storage/">Dudhkoshi Storage Hydroelectric Project</a> — the 670 MW storage project in the 2035 full portfolio</li>
+<li><a href="/wiki/tanahu-hydropower/">Tanahu Hydropower Project</a> — the 140 MW storage project, first to commission</li>
+<li><a href="/wiki/storage-deficit/">Storage Deficit</a> — the framing page for Nepal&#39;s storage gap</li>
+<li><a href="/wiki/seasonal-mismatch/">Seasonal Mismatch</a> — the structural problem this model quantifies</li>
+<li><a href="/wiki/firm-power/">Firm Power</a> — the capacity-credit frame</li>
+</ul>
+</div>
+  </article>
+  <aside class="backlinks" aria-label="Pages that link here"><h2>Pages that link here <span>1</span></h2><ul><li><a href="/wiki/solar-role-in-winter-deficit/">Solar&#39;s Role in the Winter Deficit</a><span>Analysis</span></li></ul></aside>
+</main>
+<footer class="site-footer">
+  <p>Nepal Energy Wiki is a citizen-led evidence project by <a href="https://transparentgov.ai/">TransparentGov</a>. Every page links to its sources; confidence ratings and caveats are part of the answer.</p>
+  <p><a href="https://www.youtube.com/watch?v=_35zVh1yD1U">Watch the film: Nepal Has Hydropower. Why Isn’t It Enough?</a> · <a href="https://github.com/abinashkarki/NepalHydroAndEnergy">Source on GitHub</a> · <a href="/wiki/start-here/">Start here</a></p>
+</footer>
+</body>
+</html>

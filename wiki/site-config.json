@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "site_name": "Nepal Energy Wiki",
+  "canonical_base": "https://transparentgov.ai/wiki",
+  "as_of": "2026-11-03",
+  "repository": "https://github.com/abinashkarki/NepalHydroAndEnergy",
+  "film": {
+    "title": "Nepal Has Hydropower. Why Isn’t It Enough?",
+    "runtime": "16:17",
+    "youtube_id": "_35zVh1yD1U",
+    "page": "https://www.youtube.com/watch?v=_35zVh1yD1U",
+    "related_pages": [
+      "master-thesis",
+      "seasonal-mismatch",
+      "storage-deficit",
+      "claim-ror-dominance",
+      "claim-timing-not-volume",
+      "firm-power",
+      "nea-triple-authority",
+      "claim-transmission-immediate-blocker",
+      "state-of-the-system"
+    ]
+  },
+  "home": {
+    "title": "Evidence on Nepal’s electricity system",
+    "lead": "Nepal builds more hydropower every year, yet still imports electricity every winter. This wiki explains why, page by page, with every figure traced to its source and every claim given a confidence rating.",
+    "questions": [
+      {
+        "title": "Why does Nepal import power in winter?",
+        "answer": "Most plants run with the river and there is very little storage, so output falls with dry-season flows while demand does not.",
+        "pages": ["seasonal-mismatch", "storage-deficit", "claim-ror-dominance", "master-thesis"]
+      },
+      {
+        "title": "Who controls the grid?",
+        "answer": "The Nepal Electricity Authority dispatches the grid, buys most of the electricity and administers contract penalties, while also owning power plants that compete with the producers it judges.",
+        "pages": ["nea-triple-authority", "intervention-nea-structural-separation", "claim-transmission-immediate-blocker"]
+      },
+      {
+        "title": "What should change?",
+        "answer": "The constraints are ranked, and the options are compared with the evidence each one still needs.",
+        "pages": ["bottleneck-hierarchy", "twenty-year-strategy", "decision-dossiers"]
+      }
+    ]
+  }
+}
