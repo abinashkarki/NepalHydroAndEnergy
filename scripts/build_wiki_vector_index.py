@@ -111,7 +111,9 @@ def build_chunks(meta: dict, max_chunks_per_page: int = 10) -> tuple[list[dict],
         )
         page_chunks: list[tuple[str, str, str]] = [("Overview", summary, page.get("excerpt", ""))]
         for heading, section in split_sections(body):
-            if not section and not heading:
+            # A heading with no body repeats title/section metadata already
+            # represented by the overview chunk and adds no searchable passage.
+            if not section:
                 continue
             label = heading or "Body"
             for piece in window_text(section):

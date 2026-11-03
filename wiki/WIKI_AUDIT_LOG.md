@@ -2153,6 +2153,51 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-07-25 — Episode 1 Causal and Regulatory Evidence Pass
+
+**Agent:** Codex
+**Session type:** Episode 1 source and claim alignment
+
+**Pages touched:**
+- `sources/erc-eca-storage-ppa-discussion-paper-2025`: added a source note for the ERC-commissioned proposal/discussion paper, bounded to its predominantly RoR/PRoR description, energy-sale tariff context, and differentiated reservoir risk and finance analysis.
+- `sources/erc-reservoir-ppa-directive-2082`: added a direct official-text source note treating the directive as a published reservoir purchase-and-sale framework, not evidence of implementation or outcomes.
+- `claims/claim-ror-dominance`: rebuilt the structural claim around independent high-authority sector descriptions, the bounded Kulekhani exception, and the incomplete plant taxonomy.
+- `concepts/ppa-pricing`: separated discussion-paper proposals from the final directive and removed unverified detailed directive terms.
+- `syntheses/unresolved-questions`: added open work for a representative cross-technology causal cohort and project-level directive implementation.
+
+**Validation result:** `make wiki-index` regenerated the 403-page metadata set; `.venv/bin/python scripts/validate_repo.py`, `python3 scripts/check_source_used_by.py`, `make test` (85 tests plus 50/50 strict search benchmarks), Research Room generation and syntax checks, desktop/mobile browser checks, and `git diff --check` passed. The overview page count was mechanically advanced from 401 to 403.
+
+**Flags raised:**
+- The relative causal weight of contracts, finance, licensing, scale, geology, land, safeguards, transmission and state delivery capacity remains unresolved pending a representative project cohort.
+- The 2082 directive remains a policy framework signal until project-level application, contract approvals and delivery outcomes are documented.
+
+**Decisions made:**
+- Kept the Episode 1 causal account explicitly multi-factor and directional; no PPA, policy, incentive, institution or actor is presented as the single cause of RoR/PRoR dominance.
+- Kept Kulekhani as a bounded operating exception and did not infer a national firm-power value from its nameplate or storage estimate.
+- Kept source-page `Used By` relationships computed from backlinks rather than adding manual sections.
+
+---
+
+## 2026-07-30 — Tanahu Schedule Evidence Correction
+
+**Agent:** Codex
+**Session type:** Entity and source-page factual correction
+
+**Pages touched:**
+- `entities/tanahu-hydropower`: replaced the stale June 2026 loan-closing statement with the current ADB timetable, distinguished appraisal completion, loan closing and commissioning, and added the dated schedule milestones.
+- `sources/adb-tanahu-project-documents-2026`: recorded the current Loan 2990 closing date and the ADB contract register's headworks rebidding and replacement-award sequence.
+
+**Validation result:** `make wiki-index` rebuilt the 403-page metadata set and 3,183 vector chunks. The Research Room regenerated with 10 beats, 22 keyframes, 19 claims, 12 evidence requests and 24 sources; its generated JavaScript passed syntax validation. `python scripts/validate_repo.py`, `python scripts/check_source_used_by.py`, `make test` (85 tests plus the 50/50 strict search benchmark), and `git diff --check` passed.
+
+**Flags raised:**
+- None. The narration treats the headworks procurement episode as one documented delay, not a complete causal account of Tanahu's schedule.
+
+**Decisions made:**
+- Kept the April 2026 overall-progress figure attributed to its news source rather than ADB.
+- Did not equate the revised 2028 loan closing with a commissioning forecast.
+
+---
+
 ## 2026-08-27 — Historical GLOF Evidence Pass
 
 **Agent:** Codex
@@ -2164,6 +2209,8 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 - `sources/nea-engineering-annual-report-2081-82`: added the institutional commissioning, flood-damage and partial-restoration record for Rasuwagadhi and the Trishuli 3B Hub.
 - `concepts/glof-risk`: replaced the moraine-only framing with an evidence-bounded explanation of glacier-related lakes, added the 2024 and 2025 historical examples, and distinguished GLOFs from other high-mountain flood mechanisms.
 - `entities/rasuwagadhi`: corrected the stale construction status to January 2025 commercial commissioning, documented the July interruption and December partial return, and kept later operating status explicitly unknown.
+
+**Supporting index change:** Removed heading-only semantic-vector chunks because they duplicated overview metadata without adding searchable passages. Rebuilt the page, metadata, backlink, fact, search and vector indexes for 406 pages.
 
 **Validation result:** Rebuilt the page, metadata, backlink, lexical-search and vector indexes for 421 pages. `make validate`, the focused wiki-search and source-backlink tests, and `git diff --check` passed in a clean branch based on current `origin/main`.
 

@@ -10,14 +10,15 @@ The project combines a linked research wiki, derived datasets, curated GeoJSON l
 
 - **Research engineering**: converted official reports, PDFs, tables, and source notes into reusable structured outputs.
 - **Geospatial analysis**: built map layers for basins, rivers, hydropower projects, storage candidates, transmission corridors, grid hubs, solar zones, and floating-PV candidates.
-- **Knowledge-system design**: maintained a 247-page wiki with page types, backlinks, cache metadata, spatial bindings, and full-text search.
+- **Knowledge-system design**: maintained a 388-page wiki with page types, backlinks, cache metadata, spatial bindings, and full-text search.
 - **Energy-system reasoning**: connected Nepal's monsoon hydrograph, dry-season imports, storage deficit, transmission constraints, and solar economics into one strategic frame.
 - **Source discipline**: tracked claims separately from concepts and data pages, with confidence, provenance, and caveats.
 
 ## Current Outputs
 
 - Interactive wiki/map explorer with presets for hydrology, geopolitics, power system, and solar system views.
-- 247 wiki pages across sources, entities, concepts, syntheses, claims, and data.
+- 388 wiki pages across sources, entities, concepts, syntheses, claims, data, and interventions.
+- 32 committed GeoJSON map layers under `data/processed/maps/`.
 - Processed GeoJSON map layers under `data/processed/maps/`.
 - Research briefs and narrative reports under `docs/`.
 - Regeneration scripts for wiki caches, figures, map layers, and selected source extractions.

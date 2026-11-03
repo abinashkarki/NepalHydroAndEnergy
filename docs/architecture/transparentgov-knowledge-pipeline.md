@@ -40,6 +40,7 @@ python scripts/build_tributary_maps.py
 python scripts/report_spec_completeness.py --all
 make validate
 make test
+make release-check
 ```
 
 ## Tradeoffs
@@ -54,14 +55,16 @@ make test
 - A page claims a number without a source link.
 - A generated cache goes stale after page edits.
 - A project slug exists in structured data but not in the wiki.
-- A source `Used By` list drifts from exact backlinks.
+- A source page grows a manual `Used By` list instead of using computed backlinks.
 - A map trace gets read as engineering-grade alignment.
 - Search quality regresses after content changes.
 
 ## Mitigations
 
 - `scripts/validate_repo.py` checks wiki structure, generated caches, map manifests, and hygiene.
-- `make test` runs source Used By integrity and strict search benchmarks.
+- `make validate` rejects manual source-page `Used By` sections; the explorer renders `Used By` from `wiki-backlinks.json`.
+- `make test` runs source-integrity and strict search benchmarks.
+- `make release-check` rebuilds wiki indexes, validates, tests, and checks generated asset ownership.
 - `wiki/TEMPLATES.md` defines required sections by page type.
 - `wiki/GOVERNANCE.md` defines authority levels and hierarchy rules.
 - `wiki/QUALITY_RUBRIC.md` prevents overbuilding or underbuilding pages relative to tier.
@@ -79,4 +82,3 @@ make test
 - [Case study: Nepal Energy Wiki](../case-studies/transparentgov-nepal-energy-wiki.md) — narrative overview and governance model.
 - [Agent Workflow](transparentgov-agent-workflow.md) — how editing agents interact with this pipeline.
 - [Production Architecture](transparentgov-production-architecture.md) — how generated outputs become the deployed site.
-

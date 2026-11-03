@@ -89,11 +89,11 @@ Ten **non-negotiable invariants** follow (full text in `GOVERNANCE.md`), includi
 
 It also warns (tier-aware) when pages lack required headings per `TEMPLATES.md` — e.g. claims need `## Boundary Conditions`; concepts need `## Summary`, `## Simple Explanation`, `## Common Misunderstandings`; data pages need `## Summary`, `## Coverage / Method`, `## Caveats`. Record-tier pages are skipped where the rubric says minimal pages are correct.
 
-`scripts/check_source_used_by.py` compares each source page’s `## Used By` list to **exact backlinks** from the rest of the wiki (excluding other pages’ own `## Used By` bodies). That catches “looks cited” lists that are wrong.
+`scripts/check_source_used_by.py` now rejects manual source-page `## Used By` sections. The explorer renders source `Used By` from the generated backlink graph, which removes a drift-prone manual maintenance surface.
 
 ### 3.5 Bounded sessions and audit log
 
-`docs/session-template.md` caps work at **five pages per session**, requires reading `GOVERNANCE.md` and `ONTOLOGY.md` first, and defines a per-page loop: diagnose → propose → flag → confirm. Source `## Used By` must be built from grep/backlinks, not memory.
+`docs/session-template.md` caps work at **five pages per session**, requires reading `GOVERNANCE.md` and `ONTOLOGY.md` first, and defines a per-page loop: diagnose → propose → flag → confirm. Source `Used By` is computed from backlinks rather than written by memory.
 
 Every session that edits pages should append to `wiki/WIKI_AUDIT_LOG.md`: agent, pages touched, validation result, flags raised, patterns observed, decisions made. That log is the longitudinal dataset for “what keeps breaking.”
 
@@ -115,7 +115,7 @@ Many pages were written **before** templates existed. The dominant fix was not �
 
 ### 4.3 Used By rebuilt from memory
 
-The audit log records a failure mode where `## Used By` was reconstructed from recall rather than grep — plausible but false. The session template now mandates grep/backlinks; `check_source_used_by.py` enforces equality with actual backlinks.
+The audit log records a failure mode where `## Used By` was reconstructed from recall rather than grep — plausible but false. The current policy removes that manual surface: the explorer computes source `Used By` from `wiki-backlinks.json`, and validation rejects source pages that reintroduce manual `## Used By` sections.
 
 ### 4.4 Audit log vs disk
 
@@ -161,7 +161,7 @@ One cross-cutting prediction worth keeping: **interpretation tends to accumulate
 | `wiki/WIKI_AUDIT_LOG.md` | Session accountability + empirical patterns |
 | `docs/session-template.md` | Reusable edit-session prompt |
 | `scripts/validate_repo.py` | Fail/warn structural checks |
-| `scripts/check_source_used_by.py` | Exact Used By ↔ backlinks |
+| `scripts/check_source_used_by.py` | No manual source `Used By`; explorer uses computed backlinks |
 | `AGENTS.md`, `CONTRIBUTING.md` | Entry points for humans and agents |
 
 ---

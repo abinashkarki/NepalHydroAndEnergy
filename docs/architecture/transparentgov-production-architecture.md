@@ -62,6 +62,7 @@ The development surface includes:
 - A map layer renders but miscommunicates confidence.
 - A page exists in the wiki but is not indexed correctly.
 - A pipeline change updates generated assets in a noisy or non-reviewable way.
+- A generated asset lands without a declared owner or rebuild command.
 - Browser performance degrades as layers and page indexes grow.
 
 ## Mitigations
@@ -69,6 +70,7 @@ The development surface includes:
 - `make wiki-index` rebuilds page indexes, backlinks, facts, claim governance, search, and vector search assets.
 - `scripts/validate_repo.py` checks caches, map manifests, page structure, and tracked hygiene.
 - `make test` runs explorer/search-related tests and strict benchmark evaluation.
+- `make release-check` rebuilds wiki indexes, runs validation/tests, and checks generated asset ownership.
 - Layer manifests and presets keep map configuration declarative.
 - Page frontmatter classifies generator behavior: `auto-stub`, `specs-refresh`, or `manual`.
 - Known confidence limits are documented in data/entity pages rather than hidden in code.
@@ -79,7 +81,7 @@ The development surface includes:
 
 ## Next Improvements
 
-- Add a one-command production build target that rebuilds wiki indexes, map layers, validation, and tests.
+- Expand `make release-check` to include map-layer rebuilds when those outputs are made fully deterministic.
 - Add screenshot regression checks for key explorer presets.
 - Extend the production release record with layer counts and performance-budget
   results once those checks are stable in CI.

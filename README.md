@@ -111,7 +111,8 @@ wiki/
 
 - [AGENTS.md](AGENTS.md)
 - [docs/maps/README.md](docs/maps/README.md)
-- [docs/agent-handoff-may-2026.md](docs/agent-handoff-may-2026.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [docs/repo-boundaries.md](docs/repo-boundaries.md)
 
 ## Local setup
 
@@ -159,6 +160,12 @@ Validate the repository:
 make validate
 ```
 
+Run the full public release gate:
+
+```bash
+make release-check
+```
+
 Run the explorer locally:
 
 ```bash
@@ -189,6 +196,8 @@ In practice, explorer changes usually touch one or more of:
 
 If you change layer data or popup fields, rebuild the map outputs and run `make validate`.
 
+Source-page `Used By` lists are computed from `wiki/explorer/shared/wiki-backlinks.json` and rendered by the explorer. Do not manually maintain `## Used By` sections in source markdown.
+
 ## Wiki page types
 
 Wiki pages are not all maintained the same way. Frontmatter determines how some pages participate in generation pipelines.
@@ -211,6 +220,7 @@ Wiki pages are not all maintained the same way. Frontmatter determines how some 
 - Official power-sector documents often disagree internally; the project keeps those tensions visible instead of flattening them away.
 - Coverage in `data/project_specs.csv` is intentionally incomplete where sources are weak; `report_spec_completeness.py` exists to make that visible.
 - Some raw PDFs, GIS bundles, and extracted artifacts are too large or unstable to track or re-fetch reliably in a simple way.
+- Generated asset ownership and repo path boundaries are documented in [docs/repo-boundaries.md](docs/repo-boundaries.md) and [docs/generated-assets.json](docs/generated-assets.json).
 
 ## Deployment note
 
