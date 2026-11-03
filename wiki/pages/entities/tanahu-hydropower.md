@@ -2,7 +2,7 @@
 title: Tanahu Hydropower Project
 type: entity
 created: 2026-04-14
-updated: 2026-07-10
+updated: 2026-07-30
 generator: specs-refresh
 page_quality: analysis
 sources: [adb-tanahu-project-documents-2026, tanahu-adb-status-2025, tanahu-progress-2026, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
@@ -97,19 +97,23 @@ ADB-financed, NEA-owned, and shadowed by two Accountability Mechanism complaints
 
 ### Schedule
 Roughly 67% complete in the NEA FY 2024/25 reporting baseline, with a
-later public progress update placing it around 75% in April 2026. The
-ADB record shows that the original loan closing dates were revised to
-30 June 2026; package milestones and commissioning evidence should be
-used instead of extrapolating a completion date from the headline
-percentage.
+later public progress update placing it around 75% in April 2026.
+ADB's 2013 appraisal estimated completion by 31 December 2020. Its
+current project record shows that Loan 2990's original 30 June 2021
+closing date has been revised to 30 December 2028. These are schedule
+and financing milestones, not proof of commissioning; package
+milestones and commissioning evidence should be used instead of
+extrapolating a completion date from the headline percentage.
 
 | Parameter | Value |
 |-----------|-------|
 | Completion | ~67% in NEA FY 2024/25; ~75% in Apr 2026 public update |
+| Appraisal completion estimate | 31 Dec 2020 |
+| ADB Loan 2990 closing | Original: 30 Jun 2021; revised: 30 Dec 2028 |
 
 ## Current Status
 
-**As of 10 July 2026:** under construction. The ADB project remains
+**As of 30 July 2026:** under construction. The ADB project remains
 active and publishes financial, procurement and safeguard records. The
 wiki does not treat the April 2026 percentage as proof of commissioning
 or infer a commercial-operation date from it.
@@ -125,6 +129,7 @@ or infer a commercial-operation date from it.
 
 | Date | Update |
 |---|---|
+| Jul 2026 | ADB's current project record showed Loan 2990's revised closing date as 30 December 2028 |
 | Apr 2026 | ADB disclosed the ninth environmental and social Panel of Experts report |
 | Apr 2026 | Public progress update placed overall physical progress at approximately 75% |
 | Jan 2026 | ADB disclosed audited project financial statements for FY 2024/25 |
