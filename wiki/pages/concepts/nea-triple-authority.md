@@ -3,8 +3,8 @@ title: NEA Triple-Authority Conflict
 type: concept
 created: 2026-05-02
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 sources: [nea-annual-report-fy2024-25, erc-open-access-directive-2082, nea-standard-ppa-clauses, ad-penalty-clause-research]
 tags: [NEA, governance, PPA, dispatch, curtailment, AD-penalties, IPP, regulation, accountability]

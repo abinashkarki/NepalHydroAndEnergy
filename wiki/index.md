@@ -61,4 +61,4 @@ The explorer opens with Find as its discovery surface, the [[start-here]] page a
 
 Some project pages are concise data-backed records rather than finished narrative articles. They preserve map coverage and registry facts for public navigation. Pages with fuller interpretation link out to source notes, claims, and data pages so readers can follow the evidence trail.
 
-The explorer currently indexes 428 wiki pages across sources, entities, concepts, syntheses, claims, data, and Decision Dossiers (stored under the legacy `interventions` category for compatibility).
+The explorer currently indexes 429 wiki pages across sources, entities, concepts, syntheses, claims, data, and Decision Dossiers (stored under the legacy `interventions` category for compatibility).

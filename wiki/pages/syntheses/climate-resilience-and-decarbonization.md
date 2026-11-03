@@ -2,9 +2,9 @@
 title: Climate Resilience and Decarbonization
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2025-05-19
 sources: [nepal-ndc-3-2025, icimod-hkh-glacier-change, wb-country-economic-memo-2025, wb-water-sector-diagnostic]
 tags: [climate, resilience, decarbonization, ndc, electrification]
@@ -28,7 +28,7 @@ These targets describe direction and ambition. They do not establish an executab
 
 ## System exposure
 
-Hydropower depends on climate-sensitive river flow and is exposed to extreme events, sediment and access disruption. The September 2024 floods and landslides affected operational projects with more than 600 MW of combined capacity in the World Bank's 2025 account. Solar diversifies hydrological exposure but introduces land, grid, forecasting and evening-balancing needs.
+Hydropower depends on climate-sensitive river flow and is exposed to extreme events, sediment and access disruption. The September 2024 floods and landslides affected operational projects with more than 600 MW of combined capacity in the World Bank's 2025 account. On one corridor alone, the Rasuwa Bhote Koshi–Trishuli saw three damaging events in 26 months: the September 2024 floods, the July 2025 Purepu glacial-lake outburst and the 26 August 2026 Langtang Lirung avalanche flood, which washed away the 111 MW Rasuwagadhi plant ([[bhotekoshi-trishuli-flood-2026]], [[glof-risk]]). Solar diversifies hydrological exposure but introduces land, grid, forecasting and evening-balancing needs.
 
 ## Evidence discipline
 

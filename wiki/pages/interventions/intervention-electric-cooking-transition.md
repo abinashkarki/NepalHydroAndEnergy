@@ -3,8 +3,8 @@ title: Decision Dossier — Electric-Cooking Evidence Gate and Pilot
 category: interventions
 type: decision-dossier
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 tags: [decision-dossier, cooking, electrification, induction, demand, distribution, reliability]
 excerpt: An evidence-led comparison of research, pilot and scale-up options for electric cooking; national adoption, feeder readiness, load timing, appliance costs and LPG fiscal effects remain incompletely measured.

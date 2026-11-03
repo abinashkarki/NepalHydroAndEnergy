@@ -2,14 +2,14 @@
 title: Demand and Electrification
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-20
-reviewed: 2026-07-20
-review_due: 2026-10-20
-as_of: 2025-07-15
-sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-household-electric-cooking-nepal-2025, nepal-ndc-3-2025]
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
+as_of: 2026-07-16
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-household-electric-cooking-nepal-2025, nepal-ndc-3-2025]
 tags: [demand, electrification, cooking, industry, consumption]
 excerpt: Who uses Nepal's electricity, how much is used, and where access, reliability and productive electrification remain distinct questions.
-caveat: Sectoral sales are FY2024/25 snapshots; electric-cooking prevalence remains a 2021 baseline corroborated only as below one percent in 2025.
+caveat: Sector shares are NEA FY 2025/26 and FY 2024/25 snapshots; electric-cooking prevalence remains a 2021 baseline corroborated only as below one percent in 2025.
 maturity: verified-core
 page_quality: flagship
 ---
@@ -18,9 +18,9 @@ page_quality: flagship
 
 ## Current demand
 
-NEA reports **11,288 GWh of electricity sales** and **5,707,528 consumers** for FY2024/25. Domestic customers account for 91.08% of connections and 42.02% of sales. Industry accounts for 1.23% of customers and 36.64% of sales. Commercial, non-commercial and other categories make up the balance.
+In FY 2025/26, NEA reports **12,376 GWh of domestic consumption** including its own use (+9%) and **5.927 million consumers**; domestic consumers took 42% of consumption and industry 36%, while domestic customers were 90.64% of connections ([[nea-annual-report-fy2025-26]], PDF p.13). For FY 2024/25, NEA reported **11,288 GWh of electricity sales** and **5,707,528 consumers**. Domestic customers account for 91.08% of connections and 42.02% of sales. Industry accounts for 1.23% of customers and 36.64% of sales. Commercial, non-commercial and other categories make up the balance.
 
-Per-capita electricity use reached **465 kWh**. The **2,409 MW national peak** is distinct from the **2,901 MW system peak**, which includes export load in the annual-report framing.
+Per-capita electricity use reached **496 kWh** in FY 2025/26, from 465 kWh a year earlier. The **2,479 MW national peak** (28 June 2026) is distinct from the **3,226 MW system peak** (6 July 2026), which includes export load in the annual-report framing.
 
 ## Electrification has several layers
 
@@ -36,9 +36,9 @@ The WECS FY2079/80 energy balance puts grid electricity at **7.23% of final ener
 
 | Question | Dated observation | Interpretation boundary |
 |---|---|---|
-| How much electricity was sold? | 11,288 GWh in FY2024/25 | Annual sales do not show hourly or seasonal load shape |
+| How much electricity was used? | 12,376 GWh domestic consumption incl. NEA use in FY 2025/26; 11,288 GWh sold in FY 2024/25 | Annual sales do not show hourly or seasonal load shape |
 | Who bought it? | Domestic: 91.08% of connections and 42.02% of sales; industry: 1.23% and 36.64% | Customer-category totals do not show service quality or end use |
-| How large was peak demand? | 2,409 MW national peak; 2,901 MW system peak including export load in the report's framing | The two peak definitions are not interchangeable |
+| How large was peak demand? | 2,479 MW national peak; 3,226 MW system peak including export load (FY 2025/26) | The two peak definitions are not interchangeable |
 | How deep is whole-economy electrification? | Grid electricity: 7.23% of final energy in WECS FY2079/80 | Different year and energy-balance denominator from NEA sales |
 | How current is the cooking baseline? | 0.5% in 2021; described only as below 1% in the reviewed 2025 report | No current annual adoption series |
 

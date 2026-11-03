@@ -3,8 +3,8 @@ title: NEA Annual Report FY 2024/25
 type: source
 created: 2026-04-14
 updated: 2026-05-21
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 source_type: report
 source_author: Nepal Electricity Authority
 source_date: 2025-07-15
@@ -15,7 +15,7 @@ verification_status: primary-source-checked
 sources: []
 tags: [nea, generation, capacity, trade, grid, official]
 excerpt: NEA's official FY2024/25 snapshot of capacity, generation, demand, trade, losses, grid reach and project activity.
-caveat: Annual-report sections use several accounting scopes; trade totals and peak definitions must retain their labels, and post-July-2025 changes are outside the report.
+caveat: Superseded as the latest annual snapshot by the FY 2025/26 report (August 2026). Annual-report sections use several accounting scopes; trade totals and peak definitions must retain their labels.
 maturity: verified-core
 page_quality: flagship
 ---

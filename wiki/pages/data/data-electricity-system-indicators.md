@@ -3,8 +3,8 @@ title: Electricity System Indicator Register
 type: data
 created: 2026-07-19
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, wb-household-electric-cooking-nepal-2025]
 tags: [indicators, distribution, demand, flexibility, csv]
 excerpt: A compact, source-linked register of headline distribution, demand and flexibility observations used by the wiki's core branch pages.

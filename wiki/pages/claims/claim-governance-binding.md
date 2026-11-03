@@ -2,9 +2,9 @@
 title: Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives
 type: claim
 created: 2026-04-14
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 claim_id: C-029
 confidence: medium-high
@@ -25,7 +25,7 @@ caveat: Governance effects overlap with engineering, finance, market, environmen
 
 - **Market design gaps:** Weak **wheeling** and **open access** (unverified lead from an AI-assisted research synthesis; needs a primary ERC or NEA source) limit competitive offtake and efficient dispatch experiments—locking the system into slower learning and politicized allocation.
 - **Institutional conflicts of interest:** [[nea]] is simultaneously the **primary generator, monopsony buyer, and sole grid operator** — a structure that distorts signals for IPPs, weakens open-access reform, and slows transparent grid planning.
-- **Financial squeeze:** **PPA liability exposure is growing**: electricity purchase costs rose **11.73%** to **NPR 77.1B**, while export prices are the revenue relief valve. That turns governance into a balance-sheet constraint, not just an administrative issue.
+- **Financial squeeze:** **PPA liability exposure is growing**: electricity purchase costs rose **11.73%** to **NPR 77.1B** in the earlier reporting year and a further **23.97%** to **NPR 96.1B** in FY 2025/26 ([[nea-annual-report-fy2025-26]], PDF p.13), while export revenue (NPR 29.3B in FY 2025/26) is the relief valve. That turns governance into a balance-sheet constraint, not just an administrative issue.
 - **Land, forest, ROW:** Right-of-way and environmental clearance fragmentation causes multi-year stalls; public sources cite **inter-agency disputes** as binding more often than pure technical unknowns.
 - **Political churn:** **18+ governments in 30 years** (synthesis statistic) undermines multi-decade continuity for storage, transmission, and treaty-linked portfolios.
 - **Narrative review:** "Without institutional capacity, engineering plans are **blueprints that age on shelves**."

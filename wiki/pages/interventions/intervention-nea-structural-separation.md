@@ -3,8 +3,8 @@ title: Decision Dossier — Power-System Role Separation and Open Access
 category: interventions
 type: decision-dossier
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-08-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 tags: [decision-dossier, NEA, governance, dispatch, ERC, PPA, open-access, IPP]
 excerpt: An evidence-led comparison of transparency, open-access implementation, ring-fenced dispatch and institutional-separation options; public records do not yet establish discriminatory dispatch or the benefits of a particular reform model.

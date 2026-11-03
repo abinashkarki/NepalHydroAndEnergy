@@ -3,8 +3,8 @@ title: Environmental and Social Impacts
 type: synthesis
 created: 2026-07-19
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 sources: [wb-water-sector-diagnostic, world-bank-hddi-rap, aiib-dudhkoshi-project-2026, icimod-koshi-sediment-threats]
 tags: [environment, social, resettlement, rivers, safeguards]

@@ -3,8 +3,8 @@ title: Electricity System Evidence Gaps
 type: data
 created: 2026-07-19
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 sources: []
 tags: [data-gaps, distribution, demand, flexibility, csv]
 excerpt: A machine-readable inventory of missing public measures that this wiki will not replace with invented coverage.

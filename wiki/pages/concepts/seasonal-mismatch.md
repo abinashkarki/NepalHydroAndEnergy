@@ -2,14 +2,14 @@
 title: Seasonal Mismatch
 type: concept
 created: 2026-04-14
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
-as_of: 2025-07-15
-sources: [wecs-river-basin-plan-2024, wb-water-sector-diagnostic, nea-annual-report-fy2024-25]
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
+as_of: 2026-07-16
+sources: [wecs-river-basin-plan-2024, wb-water-sector-diagnostic, nea-annual-report-fy2025-26, nea-annual-report-fy2024-25]
 tags: [seasonality, monsoon, dry-season, grid, nepal, RoR, demand]
 excerpt: Why Nepal can experience wet-season electricity surplus and dry-season scarcity within the same hydro-dominated system.
-caveat: Illustrative output ranges summarize system reporting; plant-level dispatch and curtailment series are not publicly consolidated.
+caveat: Monthly figures are NEA energy-balance totals; plant-level dispatch and curtailment series are not publicly consolidated.
 maturity: verified-core
 page_quality: flagship
 ---
@@ -36,7 +36,7 @@ Nepal's rivers flood in monsoon (June–September) and shrink in winter (Decembe
 
 In Nepal's major rivers, a large share of annual discharge arrives in the wet season (commonly cited as **75%+ between June and September** in basin planning discourse). RoR plants therefore produce a **wet-season surplus** and a **dry-season deficit** *simultaneously*—two faces of the same physics.
 
-Operational anecdotes and system reporting cohere around a brutal swing: system-relevant generation often peaks in **August–September** in the **~2,200–2,500 MW** range, then contracts in **January–February** toward roughly **600–900 MW**—on the order of a **60–65%** decline from the monsoon crest. Demand, by contrast, is comparatively **smooth**: winter heating and structural load growth do not "turn off" when the rivers fall.
+NEA's monthly energy balance for FY 2025/26 measures the swing. Domestic generation was **1,991 GWh in Bhadra** (August–September 2025) and **801 GWh in Falgun** (February–March 2026), a **60% fall**. National demand fell far less, from 1,405 to 1,067 GWh (24%). Nepal exported 587 GWh in Bhadra and imported 273 GWh in Falgun, in a year when it was a large net exporter overall ([[nea-annual-report-fy2025-26]], PDF p.176). FY 2024/25 showed the same shape: 1,848 GWh generated in Bhadra and 605 GWh in Falgun ([[nea-annual-report-fy2024-25]], p.134).
 
 The result is a recurring annual pattern: **large monsoon surplus** paired with **material winter deficit**. This is a **structural property** of RoR hydro in a monsoon climate, not a temporary market glitch.
 

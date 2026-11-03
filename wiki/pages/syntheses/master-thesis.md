@@ -3,8 +3,8 @@ title: Master Thesis
 type: synthesis
 created: 2026-04-14
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, wb-water-sector-diagnostic, nepal-ndc-3-2025]
 tags: [thesis, synthesis, core-argument]

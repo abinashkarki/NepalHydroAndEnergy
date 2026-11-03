@@ -3,8 +3,8 @@ title: Decision Dossier — Climate-Risk Requirements in Hydropower Studies
 category: interventions
 type: decision-dossier
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 tags: [decision-dossier, Q-design, hydrology, climate, DoED, licensing, resilience]
 excerpt: An evidence-led comparison of disclosure, pilot and mandate options for climate and hazard analysis in hydropower studies; the current corpus does not support a universal Q-design decrement or a claimed published national guideline.

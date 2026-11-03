@@ -10,7 +10,7 @@ The Nepal Energy Wiki — the first content vertical of [TransparentGov](https:/
 
 | Component | Description |
 |---|---|
-| `wiki/pages/` | 428 interlinked markdown pages — entities, concepts, claims, sources, data, syntheses, and decision dossiers |
+| `wiki/pages/` | 429 interlinked markdown pages — entities, concepts, claims, sources, data, syntheses, and decision dossiers |
 | `wiki/explorer/` | Leaflet-based interactive map + wiki reader, served as static HTML |
 | `data/project_specs.csv` | Structured project specs — single source of truth for technical data |
 | `data/processed/maps/` | GeoJSON layers (hydropower, transmission, basins, scenarios) |

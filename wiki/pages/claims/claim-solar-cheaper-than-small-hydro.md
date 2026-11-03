@@ -3,8 +3,8 @@ title: NEA Solar Award Tariffs Undercut the Standard Small-RoR Blended Tariff
 type: claim
 created: 2026-04-24
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2024-11-12
 claim_id: C-017
 confidence: medium-high

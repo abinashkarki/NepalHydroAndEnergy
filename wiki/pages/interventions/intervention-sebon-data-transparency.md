@@ -3,8 +3,8 @@ title: Decision Dossier — Hydropower Securities Disclosure
 category: interventions
 type: decision-dossier
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 tags: [decision-dossier, SEBON, securities, disclosure, IPO, rights-shares, retail-investors]
 excerpt: An evidence-led comparison of bounded civic data, minimum machine-readable annexes and fuller structured filing for hydropower securities; the current evidence covers four issuers, not the sector.

@@ -3,8 +3,8 @@ title: Storage and System Flexibility
 type: synthesis
 created: 2026-07-19
 updated: 2026-07-20
-reviewed: 2026-07-20
-review_due: 2026-10-20
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2025-07-15
 sources: [nea-annual-report-fy2024-25, wb-water-sector-diagnostic, national-water-plan-nepal]
 tags: [storage, flexibility, bess, imports, demand-response]

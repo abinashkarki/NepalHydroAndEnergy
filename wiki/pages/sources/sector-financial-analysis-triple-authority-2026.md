@@ -3,8 +3,8 @@ title: Systemic Risk and Triple-Authority Research Compilation (2026)
 type: source
 created: 2026-05-02
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 source_type: research-compilation
 source_author: Not recorded in repository
 source_date: Not recorded in repository
