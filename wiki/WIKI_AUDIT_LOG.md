@@ -2443,6 +2443,17 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-04 — Inline Citations and Kulekhani Reconciliation
+
+**Agent:** Claude Code
+**Session type:** Writing session (5 pages)
+
+**Pages touched:** `syntheses/climate-resilience-and-decarbonization`, `syntheses/solar-in-the-master-narrative`, `syntheses/twenty-year-strategy` (inline source links added for each quoted figure; the 50–75 PJ cooking figure relabelled as a model scenario, as the electric-cooking dossier already treats it), `syntheses/storage-and-flexibility` and `syntheses/unresolved-questions` (Kulekhani output).
+
+**Resolved flag:** the Kulekhani discrepancy is real, not an error. NEA's FY 2024/25 energy balance records 280 GWh of storage generation (Kulekhani I 170.6 GWh) and the FY 2025/26 balance 92 GWh (Kulekhani I 53.0 GWh). The FY 2025/26 report mentions automation works at Kulekhani I and II but gives no cause; logged as an open question.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

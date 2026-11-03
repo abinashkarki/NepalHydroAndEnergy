@@ -22,13 +22,13 @@ page_quality: brief
 
 ## Official targets
 
-Nepal's NDC 3.0 targets renewable electricity capacity of 14,031 MW by 2030 and 28,500 MW by 2035, expanded electric cooking and transport, lower system losses, smart metering and demand-side management. It also identifies adaptation priorities and states that most targeted emissions reductions depend on international climate finance and support.
+Nepal's NDC 3.0 ([[nepal-ndc-3-2025]]) targets renewable electricity capacity of 14,031 MW by 2030 and 28,500 MW by 2035, expanded electric cooking and transport, lower system losses, smart metering and demand-side management. It also identifies adaptation priorities and states that most targeted emissions reductions depend on international climate finance and support.
 
 These targets describe direction and ambition. They do not establish an executable project sequence or current delivery.
 
 ## System exposure
 
-Hydropower depends on climate-sensitive river flow and is exposed to extreme events, sediment and access disruption. The September 2024 floods and landslides affected operational projects with more than 600 MW of combined capacity in the World Bank's 2025 account. On one corridor alone, the Rasuwa Bhote Koshi–Trishuli saw three damaging events in 26 months: the September 2024 floods, the July 2025 Purepu glacial-lake outburst and the 26 August 2026 Langtang Lirung avalanche flood, which washed away the 111 MW Rasuwagadhi plant ([[bhotekoshi-trishuli-flood-2026]], [[glof-risk]]). Solar diversifies hydrological exposure but introduces land, grid, forecasting and evening-balancing needs.
+Hydropower depends on climate-sensitive river flow and is exposed to extreme events, sediment and access disruption. The September 2024 floods and landslides affected operational projects with more than 600 MW of combined capacity in the World Bank's 2025 account ([[wb-country-economic-memo-2025]]). On one corridor alone, the Rasuwa Bhote Koshi–Trishuli saw three damaging events in 26 months: the September 2024 floods, the July 2025 Purepu glacial-lake outburst and the 26 August 2026 Langtang Lirung avalanche flood, which washed away the 111 MW Rasuwagadhi plant ([[bhotekoshi-trishuli-flood-2026]], [[glof-risk]]). Solar diversifies hydrological exposure but introduces land, grid, forecasting and evening-balancing needs.
 
 ## Evidence discipline
 

@@ -2,7 +2,7 @@
 title: Storage and System Flexibility
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-20
+updated: 2026-11-04
 reviewed: 2026-11-04
 review_due: 2027-02-04
 as_of: 2025-07-15
@@ -26,7 +26,7 @@ These are related but not interchangeable. A battery sized for an evening peak i
 
 ## What exists in the public baseline
 
-The Kulekhani cascade totals **106 MW**—60 MW at Kulekhani I, 32 MW at Kulekhani II and 14 MW at Kulekhani III—and generated **279.8 GWh** in FY2024/25. Only Kulekhani I provides the reservoir; II and III reuse its regulated downstream releases. The cascade's MW and annual GWh do not disclose usable storage volume, dispatch duration or current seasonal state. [[kulekhani-cascade]] and [[storage-deficit]] preserve those distinctions.
+The Kulekhani cascade totals **106 MW**—60 MW at Kulekhani I, 32 MW at Kulekhani II and 14 MW at Kulekhani III—and generated **279.8 GWh** in FY2024/25, falling to **92 GWh** in FY 2025/26 ([[nea-annual-report-fy2025-26]], PDF pp.175–176); the report does not explain the drop. Only Kulekhani I provides the reservoir; II and III reuse its regulated downstream releases. The cascade's MW and annual GWh do not disclose usable storage volume, dispatch duration or current seasonal state. [[kulekhani-cascade]] and [[storage-deficit]] preserve those distinctions.
 
 Other flexibility sources include peaking run-of-river operation, cross-border imports, dispatchable reservoir projects, demand response and future battery storage. The presence of a technology in a plan or tender does not verify an operating resource.
 

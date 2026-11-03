@@ -1,7 +1,7 @@
 {
   "generated": "auto",
   "total_targets": 330,
-  "total_refs": 2656,
+  "total_refs": 2663,
   "backlinks": {
     "buildability": [
       {
@@ -1413,6 +1413,13 @@
         "title": "Master Thesis",
         "category": "syntheses",
         "context": "…, with 1,848 GWh generated in Bhadra and 605 GWh in Falgun (nea-annual-report-fy2024-25, p.134). This is not a drought or a bad year. It is the str…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…resource: roughly 142 MW inside a 3.6 GW generation fleet (nea-annual-report-fy2024-25); by FY 2025/26 it was 154.94 MW of 4,120 MW, with 675 MW o…",
         "target_exists": true
       },
       {
@@ -7063,6 +7070,13 @@
         "target_exists": true
       },
       {
+        "slug": "climate-resilience-and-decarbonization",
+        "title": "Climate Resilience and Decarbonization",
+        "category": "syntheses",
+        "context": "…0 MW of combined capacity in the World Bank's 2025 account (wb-country-economic-memo-2025). On one corridor alone, the Rasuwa Bhote Koshi–Trishuli sa…",
+        "target_exists": true
+      },
+      {
         "slug": "distribution-and-reliability",
         "title": "Distribution and Reliability",
         "category": "syntheses",
@@ -12402,7 +12416,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "The evidence from data-domestic-demand is stark: only **0.5% of Nepali households** use electricit…",
+        "context": "The evidence from data-domestic-demand is stark: only about **0.5% of Nepali households** used ele…",
         "target_exists": true
       },
       {
@@ -14691,10 +14705,24 @@
         "target_exists": true
       },
       {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…4,120 MW, with 675 MW of new solar PPAs signed in the year (nea-annual-report-fy2025-26).",
+        "target_exists": true
+      },
+      {
         "slug": "state-of-the-system",
         "title": "State of Nepal's Electricity System",
         "category": "syntheses",
         "context": "Sources: nea-annual-report-fy2025-26 (PDF pp.11–14, 176, 185) and [[nea-annual-report-fy2024-25]…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-and-flexibility",
+        "title": "Storage and System Flexibility",
+        "category": "syntheses",
+        "context": "….8 GWh** in FY2024/25, falling to **92 GWh** in FY 2025/26 (nea-annual-report-fy2025-26, PDF pp.175–176); the report does not explain the drop. Onl…",
         "target_exists": true
       },
       {
@@ -15261,6 +15289,13 @@
         "title": "Solar in Nepal's Electricity System",
         "category": "syntheses",
         "context": "…han calling all 960 MW a current construction pipeline. See nea-solar-loi-2024.",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…not as a generic green add-on. The 960 MW national tender (nea-solar-loi-2024) then turned that logic into a market signal: the canonical…",
         "target_exists": true
       },
       {
@@ -17254,7 +17289,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "…279.8 GWh for FY 2024/25? The two figures need reconciling (unresolved-questions).",
+        "context": "…works at Kulekhani I and II but does not explain the drop (unresolved-questions).",
         "target_exists": true
       },
       {
@@ -18452,12 +18487,35 @@
         "target_exists": true
       }
     ],
+    "nepal-ndc-3-2025": [
+      {
+        "slug": "climate-resilience-and-decarbonization",
+        "title": "Climate Resilience and Decarbonization",
+        "category": "syntheses",
+        "context": "Nepal's NDC 3.0 (nepal-ndc-3-2025) targets renewable electricity capacity of 14,031 MW by 203…",
+        "target_exists": true
+      },
+      {
+        "slug": "state-of-the-system",
+        "title": "State of Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "| What is government aiming for? | nepal-ndc-3-2025 | Official 2030 and 2035 capacity, loss and electrification…",
+        "target_exists": true
+      }
+    ],
     "wb-household-electric-cooking-nepal-2025": [
       {
         "slug": "demand-and-electrification",
         "title": "Demand and Electrification",
         "category": "syntheses",
         "context": "…nsourced demand-conversion scenario as observed demand. See wb-household-electric-cooking-nepal-2025.",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…in the World Bank's 2021 estimate, still below 1% in 2025 (wb-household-electric-cooking-nepal-2025). In a scenario where 20–30% of cooking shifts to electrici…",
         "target_exists": true
       },
       {
@@ -18790,15 +18848,6 @@
         "title": "Map Inventory",
         "category": "data",
         "context": "For the reader-facing legend and layer-control wording, see data-map-layer-labels.",
-        "target_exists": true
-      }
-    ],
-    "nepal-ndc-3-2025": [
-      {
-        "slug": "state-of-the-system",
-        "title": "State of Nepal's Electricity System",
-        "category": "syntheses",
-        "context": "| What is government aiming for? | nepal-ndc-3-2025 | Official 2030 and 2035 capacity, loss and electrification…",
         "target_exists": true
       }
     ],

@@ -156,7 +156,7 @@ Each job needs a named controller and an honest confidence level. The 2082 reser
 
 - What is Nepal's dependable dry-season capacity under a stated hydrology and reliability test? It is not published.
 - How much generation is curtailed, where and why? Plant-level dispatch and availability data are not public.
-- Why did the Kulekhani cascade generate 92 GWh in FY 2025/26 when an earlier wiki record gives 279.8 GWh for FY 2024/25? The two figures need reconciling ([[unresolved-questions]]).
+- Why did Kulekhani's output fall by two-thirds, from about 280 GWh in FY 2024/25 to 92 GWh in FY 2025/26? Both figures come from NEA's energy balances; the FY 2025/26 report mentions automation works at Kulekhani I and II but does not explain the drop ([[unresolved-questions]]).
 - How will the reservoir directive and open-access rules change what gets built? Neither has a project-level track record yet.
 
 ## Reading paths
