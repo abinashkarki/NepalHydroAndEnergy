@@ -45,6 +45,8 @@ Search the wording or subject, open the relevant claim or data page, then follow
 
 For TransparentGov's explicitly editorial interpretation, continue to [[master-thesis]], [[bottleneck-hierarchy]] and [[twenty-year-strategy]]. These pages interpret the evidence; they are not the neutral baseline.
 
+Prefer to watch first? The 16-minute film *Nepal Has Hydropower. Why Isn't It Enough?* tells the seasonal story; [[film-nepal-has-hydropower]] maps each of its claims to the evidence here.
+
 ## Explore the major subjects
 
 - **Hydropower and rivers:** [[hydropower-system]], [[run-of-river-hydropower]], [[hydropower-potential-categories]], [[sediment-as-design-constraint]].

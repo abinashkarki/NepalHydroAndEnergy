@@ -1324,6 +1324,10 @@
         "title": "Environmental and Social Impacts"
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?"
+      },
+      {
         "slug": "hydropower-system",
         "title": "Nepal's Hydropower System"
       },
@@ -2053,6 +2057,7 @@
     "distribution-and-reliability",
     "downstream-river-geopolitics",
     "environmental-and-social-impacts",
+    "film-nepal-has-hydropower",
     "hydropower-system",
     "institutions-finance-and-project-delivery",
     "ipsdp-2025-vs-wiki-claims",
@@ -2482,6 +2487,7 @@
     "distribution-and-reliability": "syntheses",
     "downstream-river-geopolitics": "syntheses",
     "environmental-and-social-impacts": "syntheses",
+    "film-nepal-has-hydropower": "syntheses",
     "hydropower-system": "syntheses",
     "institutions-finance-and-project-delivery": "syntheses",
     "ipsdp-2025-vs-wiki-claims": "syntheses",
@@ -2911,6 +2917,7 @@
     "distribution-and-reliability": "Distribution and Reliability",
     "downstream-river-geopolitics": "Downstream River Geopolitics",
     "environmental-and-social-impacts": "Environmental and Social Impacts",
+    "film-nepal-has-hydropower": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
     "hydropower-system": "Nepal's Hydropower System",
     "institutions-finance-and-project-delivery": "Institutions, Finance and Project Delivery",
     "ipsdp-2025-vs-wiki-claims": "IPSDP 2025 vs Wiki Claims",
@@ -3010,5 +3017,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 427
+  "totalPages": 428
 }

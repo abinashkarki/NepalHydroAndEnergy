@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 326,
-  "total_refs": 2521,
+  "total_targets": 327,
+  "total_refs": 2549,
   "backlinks": {
     "buildability": [
       {
@@ -599,6 +599,13 @@
         "title": "Storage Deficit",
         "category": "concepts",
         "context": "…whole engineering–social–finance package survives scrutiny. Tanahu (140 MW, ~67% complete in the NEA FY 2024/25 report and rou…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…to hold for years.** Tanahu shows the delivery burden. See tanahu-hydropower.",
         "target_exists": true
       },
       {
@@ -1350,6 +1357,13 @@
         "title": "Distribution and Reliability",
         "category": "syntheses",
         "context": "The NEA observations come from nea-annual-report-fy2024-25. The enterprise evidence is reported in [[wb-country-econom…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…024/25: about 1,848 GWh generated, about 1,290 GWh demand | nea-annual-report-fy2024-25 | NEA Annual Report FY 2024/25, energy balance p.134 | Matc…",
         "target_exists": true
       },
       {
@@ -2688,6 +2702,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…un-of-river plants. See claim-ror-dominance (C-005) and ppa-pricing.",
+        "target_exists": true
+      },
+      {
         "slug": "claim-ror-dominance",
         "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
         "category": "claims",
@@ -3743,6 +3764,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…s fill it: reduce, produce, shift, deliver and protect. See storage-deficit, solar-hydro-complementarity and [[claim-transmission-i…",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -4341,6 +4369,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…favoured run-of-river and peaking run-of-river plants. See claim-ror-dominance (C-005) and ppa-pricing.",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -4375,6 +4410,13 @@
         "title": "Solar Resource Geography of Nepal",
         "category": "concepts",
         "context": "wb-esmap-solar-resource-assessment — the underlying pyranometer data",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…everal hydro-weak months | solar-hydro-complementarity, wb-esmap-solar-resource-assessment | World Bank/ESMAP 2020, Table 5 | Single-site measurement;…",
         "target_exists": true
       },
       {
@@ -6563,6 +6605,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…theoretical estimate | hydropower-potential-categories, wecs-hydropower-potential-2019 | WECS 2019, pp.1, 8, 117 | Correct, but see the correction…",
+        "target_exists": true
+      },
+      {
         "slug": "figure-index",
         "title": "Figure Index",
         "category": "data",
@@ -6843,6 +6892,13 @@
         "title": "Distribution and Reliability",
         "category": "syntheses",
         "context": "…report-fy2024-25]]. The enterprise evidence is reported in wb-country-economic-memo-2025. These sources are complementary, but they cannot be combin…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…n 2024 and supplied over 70% of capacity added since 2018 | wb-country-economic-memo-2025 | World Bank CEM 2025, p.62 | Matches source |",
         "target_exists": true
       },
       {
@@ -7405,6 +7461,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…across seasons. See claim-pror-not-storage (C-009) and kulekhani-cascade.",
+        "target_exists": true
+      },
+      {
         "slug": "storage-and-flexibility",
         "title": "Storage and System Flexibility",
         "category": "syntheses",
@@ -7530,6 +7593,13 @@
         "title": "Hybrid Siting Logic",
         "category": "concepts",
         "context": "kali-gandaki-a — 144 MW NEA flagship; dam-adjacent flats suited to 25–40 M…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…: 144 MW peaking run-of-river, six hours of daily peaking | kali-gandaki-a | NEA Annual Report FY 2024/25, PDF p.21 | Matches source |",
         "target_exists": true
       }
     ],
@@ -8075,6 +8145,13 @@
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
         "context": "…hydro fleet is >90% run-of-river (claim-ror-dominance, run-of-river-hydropower). RoR output is a direct function of discharge, which colla…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…Run-of-river projects helped end scheduled load-shedding | run-of-river-hydropower | The Kathmandu Post, 14 May 2018 | Matches source |",
         "target_exists": true
       },
       {
@@ -9479,6 +9556,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…ee storage-deficit, solar-hydro-complementarity and claim-transmission-immediate-blocker (C-019).",
+        "target_exists": true
+      },
+      {
         "slug": "transmission-and-cross-border-trade",
         "title": "Transmission and Cross-Border Electricity Trade",
         "category": "syntheses",
@@ -9735,6 +9819,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…rder links and trade arrows are schematic, except the named dhalkebar-muzaffarpur 400 kV line. The 552 and 357 GWh figures are national month…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-cross-border-interconnections",
         "title": "Layer: Cross-Border Gateways",
         "category": "data",
@@ -9755,6 +9846,13 @@
         "title": "Project Roadmap",
         "category": "concepts",
         "context": "…s the editorial master-thesis separate from the factual state-of-the-system overview and labels pages using the wiki-page-maturity…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "state-of-the-system: the neutral, dated baseline",
         "target_exists": true
       },
       {
@@ -11067,6 +11165,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "| 0:21 | About 552 GWh exported in Bhadra | data-trade-time-series | NEA Annual Report FY 2024/25, India trade chart p.137 | M…",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -11243,6 +11348,13 @@
         "title": "Solar Resource Geography of Nepal",
         "category": "concepts",
         "context": "solar-hydro-complementarity — what the seasonal profile does for the hydro fleet",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…oduce, shift, deliver and protect. See storage-deficit, solar-hydro-complementarity and claim-transmission-immediate-blocker (C-019).",
         "target_exists": true
       },
       {
@@ -11729,6 +11841,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "| 1:06 | 83,500 MW is a theoretical estimate | hydropower-potential-categories, wecs-hydropower-potential-2019 | WECS 2019, pp.1, 8, 1…",
+        "target_exists": true
+      },
+      {
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
@@ -11856,6 +11975,13 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "master-thesis — the central public argument",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "master-thesis: the wiki's full argument",
         "target_exists": true
       },
       {
@@ -12278,6 +12404,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…tion fell to 605 GWh against demand of about 1,013 GWh. See seasonal-mismatch and claim-timing-not-volume (C-001).",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
@@ -12459,6 +12592,13 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "Timing > volume (claim-timing-not-volume)",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…st demand of about 1,013 GWh. See seasonal-mismatch and claim-timing-not-volume (C-001).",
         "target_exists": true
       },
       {
@@ -12764,6 +12904,13 @@
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
         "context": "This is where storage-deficit, firm-power, environmental-flow-policy, and hydro-geopolitics m…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…able megawatts and duration answer different questions. See firm-power and claim-mw-not-equal-value (C-006).",
         "target_exists": true
       },
       {
@@ -13298,6 +13445,13 @@
         "title": "Firm Power",
         "category": "concepts",
         "context": "claim-mw-not-equal-value — the canonical claim about conflation of MW, energy, and f…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…duration answer different questions. See firm-power and claim-mw-not-equal-value (C-006).",
         "target_exists": true
       },
       {
@@ -15425,6 +15579,13 @@
         "category": "entities",
         "context": "ADB Tanahu Hydropower Project Documents (2026)",
         "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…n estimated completion by end-2020 | tanahu-hydropower, adb-tanahu-project-documents-2026 | ADB RRP (Jan 2013) p.9 Table 3; NEA AR p.94; DoED registe…",
+        "target_exists": true
       }
     ],
     "tanahu-adb-status-2025": [
@@ -15663,6 +15824,13 @@
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
         "context": "wecs-river-basin-plan-2024",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…ly 67–78% of annual flow arrives June–September, by basin | wecs-river-basin-plan-2024 | WECS 2024, p.20 (Koshi basin) | Modelled basin shares; di…",
         "target_exists": true
       },
       {
@@ -16444,6 +16612,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "unresolved-questions: evidence gaps the film depends on",
+        "target_exists": true
+      },
+      {
         "slug": "institutions-finance-and-project-delivery",
         "title": "Institutions, Finance and Project Delivery",
         "category": "syntheses",
@@ -17081,6 +17256,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…rates declared available capacity from contract energy. See erc-reservoir-ppa-directive-2082.",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -17267,6 +17449,13 @@
         "title": "Run-of-River Hydropower",
         "category": "concepts",
         "context": "…pically stores 2–6 hours of water, not weeks or months. See claim-pror-not-storage.",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…he 106 MW Kulekhani cascade holds water across seasons. See claim-pror-not-storage (C-009) and kulekhani-cascade.",
         "target_exists": true
       }
     ],
@@ -17606,6 +17795,15 @@
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
         "context": "data-winter-deficit-model — the reproducible monthly energy-balance model backing thi…",
+        "target_exists": true
+      }
+    ],
+    "film-nepal-has-hydropower": [
+      {
+        "slug": "start-here",
+        "title": "Nepal Energy Wiki",
+        "category": "syntheses",
+        "context": "…Hydropower. Why Isn't It Enough?* tells the seasonal story; film-nepal-has-hydropower maps each of its claims to the evidence here.",
         "target_exists": true
       }
     ],
