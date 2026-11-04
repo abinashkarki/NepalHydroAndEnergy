@@ -1,0 +1,109 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.28958,
+     28.2
+    ]
+   },
+   "properties": {
+    "project": "Sanjen",
+    "capacity_mw": "42.5",
+    "phase": "operating",
+    "river": "Sanjen",
+    "district": "Rasuwa",
+    "status_tier": "exposed_watch",
+    "confidence": "watch_market_signal",
+    "impact_summary": "No project-level damage statement located as of 2026-08-30; Sanjen Jalvidyut share fell 11.18% on NEPSE on 26 Aug and the plant sits in the flood-affected Rasuwa corridor.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.28958,
+     28.22847
+    ]
+   },
+   "properties": {
+    "project": "Upper Sanjen",
+    "capacity_mw": "14.8",
+    "phase": "operating",
+    "river": "Sanjen",
+    "district": "Rasuwa",
+    "status_tier": "exposed_watch",
+    "confidence": "watch_market_signal",
+    "impact_summary": "No project-level damage statement located as of 2026-08-30; sits upstream of Sanjen in the affected corridor.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.27792,
+     28.26347
+    ]
+   },
+   "properties": {
+    "project": "Sanjen Khola (Upper)",
+    "capacity_mw": "78",
+    "phase": "operating",
+    "river": "Sanjen",
+    "district": "Rasuwa",
+    "status_tier": "exposed_watch",
+    "confidence": "watch_market_signal",
+    "impact_summary": "No project-level damage statement located as of 2026-08-30; upper Sanjen development near the border ridge above the Bhote Koshi valley.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.02292,
+     27.82778
+    ]
+   },
+   "properties": {
+    "project": "Trishuli Galchhi",
+    "capacity_mw": "75",
+    "phase": "operating",
+    "river": "Trishuli",
+    "district": "Nuwakot",
+    "status_tier": "exposed_watch",
+    "confidence": "watch_market_signal",
+    "impact_summary": "No project-level damage statement located as of 2026-08-30; Trishuli Jal Vidyut share fell 12.95% on NEPSE on 26 Aug; site on the Trishuli mainstem downstream of the worst-hit reach.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  }
+ ]
+}

@@ -28,7 +28,7 @@ I built a public knowledge infrastructure stack with four connected surfaces:
 
 | Surface | Purpose |
 |---|---|
-| Wiki | 380 interlinked markdown pages across sources, data, entities, claims, concepts, syntheses, and interventions |
+| Wiki | 388 interlinked markdown pages across sources, data, entities, claims, concepts, syntheses, and interventions |
 | Map explorer | Static Leaflet app combining wiki reading with hydropower, transmission, storage, basin, solar, and geopolitics layers |
 | Project databases | Structured CSV-backed hydropower and solar project records with schema and completeness checks |
 | Build pipelines | Python scripts for GeoJSON generation, wiki indexes, backlinks, search, fact extraction, validation, and data-quality reporting |
@@ -90,7 +90,7 @@ The project uses AI coding agents as editors and maintainers, but the repo is de
 | Context drift | bounded batches, explicit handoff prompts, audit log entries |
 | Inconsistent terminology | ontology file, canonical page slugs, template discipline |
 | Unsourced quantitative claims | validation and governance invariants |
-| Inflated backlinks | exact backlink checks for source `Used By` sections |
+| Inflated backlinks | source `Used By` rendered from exact computed backlinks |
 | Search regressions | strict search benchmark in `make test` |
 | Hierarchy violations | page-type rules and targeted scans for prescriptive or proof-language patterns |
 
@@ -108,7 +108,7 @@ The important lesson is that agents become more reliable when the repository con
 | `scripts/build_wiki_search_index.py` | builds the client-side search index |
 | `scripts/build_wiki_fact_index.py` | builds structured facts for explorer search and display |
 | `scripts/build_claim_governance.py` | exports claim-governance metadata for validation and review |
-| `scripts/check_source_used_by.py` | verifies source `Used By` sections against exact backlinks |
+| `scripts/check_source_used_by.py` | prevents manual source-page `Used By` sections from drifting from computed backlinks |
 | `scripts/report_spec_completeness.py` | scores hydropower project-spec completeness |
 | `scripts/report_solar_spec_completeness.py` | scores solar project-spec completeness |
 | `scripts/validate_repo.py` | validates wiki structure, generated caches, manifests, and hygiene |
@@ -151,4 +151,3 @@ The highest-leverage next moves are:
 - [Agent Workflow](../architecture/transparentgov-agent-workflow.md) — how AI editing agents are constrained against the governance model above.
 - [Production Architecture](../architecture/transparentgov-production-architecture.md) — static deployment, generated assets, and pre-push gates.
 - [Repository README](../../README.md) and [AGENTS.md](../../AGENTS.md) for the contributor view.
-

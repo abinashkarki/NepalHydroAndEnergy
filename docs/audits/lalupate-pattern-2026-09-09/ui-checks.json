@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-09",
+  "site": "https://transparentgov.ai/wiki/explorer/",
+  "method": "Actual browser text-input interactions and returned DOM/AX snapshots. Targeted purposive sample, not a statistical failure rate.",
+  "checks": [
+    {
+      "query": "Lalupate",
+      "result": "No matches (verified in initial investigation on same date)."
+    },
+    {
+      "query": "Dana Khola",
+      "result": "30 results; first visible result Dana–Kushma–New Butwal corridor, followed by unrelated Khola projects. Dana project not in initial visible results."
+    },
+    {
+      "query": "Dana Khola Hydropower Project",
+      "result": "Correct fact first, Generation licence, 19 MW, no direct evidence links. Clicked and verified working Map fact reader; no wiki page yet. Tariff shown NPR 0/kWh despite null tariff_npr_kwh."
+    },
+    {
+      "query": "Nilganga",
+      "result": "No matches."
+    },
+    {
+      "query": "Suti Khola",
+      "result": "30 results; initial visible results unrelated Khola projects; Suti project absent from initial visible list."
+    },
+    {
+      "query": "Suti Khola Hydropower Project",
+      "result": "Correct fact first, Generation licence, 17 MW, no direct evidence links."
+    },
+    {
+      "query": "Sayapatri",
+      "result": "No matches."
+    },
+    {
+      "query": "Upper Tamakoshi",
+      "result": "Positive control: correct best match and wiki page first, 456 MW, 2 evidence links."
+    }
+  ]
+}

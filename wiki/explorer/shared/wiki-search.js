@@ -22,6 +22,7 @@ const INTENT_CONTROL_TERMS = new Set([
 ]);
 
 const STATUS_DEFINITIONS = [
+  { status: "licensed", requested: "licensed", re: /\b(?:licensed|licenced|licence|license)\b/g },
   { status: "pre-construction", requested: "pre-construction", re: /\b(?:pre[\s-]?construction|pre[\s-]?build|preparatory)\b/g },
   { status: "under-construction", requested: "under-construction", re: /\b(?:under[\s-]?construction|in[\s-]?construction|being built|buildout|building)\b/g },
   { status: "stalled", requested: "stalled", re: /\b(?:stalled|stranded|suspended|on hold|not moving)\b/g },
@@ -30,7 +31,7 @@ const STATUS_DEFINITIONS = [
   { status: "operating", requested: "operating", re: /\b(?:operating|operational|in operation|existing|built|commissioned|working|running|producing)\b/g },
   { status: "conceptual", requested: "conceptual", re: /\b(?:conceptual|concept-stage|idea-stage)\b/g },
   { status: "planned", requested: "planned", re: /\b(?:planned|proposed|pipeline|prospective|future)\b/g },
-  { status: "survey", requested: "survey", re: /\b(?:survey|surveyed|survey-stage|licensed|licence|license)\b/g },
+  { status: "survey", requested: "survey", re: /\b(?:survey|surveyed|survey-stage)\b/g },
 ];
 
 function tokenize(text) {
@@ -243,7 +244,10 @@ class StaticFactIndex {
     const requestedStatuses = [];
     for (const definition of STATUS_DEFINITIONS) {
       definition.re.lastIndex = 0;
-      if (!definition.re.test(q)) continue;
+      const statusQuery = definition.status === "licensed"
+        ? q.replace(/\bsurvey(?: stage)? licen[cs]e\b/g, "survey")
+        : q;
+      if (!definition.re.test(statusQuery)) continue;
       if (!statuses.includes(definition.status)) statuses.push(definition.status);
       if (!requestedStatuses.includes(definition.requested)) requestedStatuses.push(definition.requested);
     }
@@ -274,7 +278,14 @@ class StaticFactIndex {
     const hasDomainTerm = domains.length > 0 || storageMention;
     const locationScoped = locations.length > 0 && targetFactIds.length === 0 && (hasProjectTerm || hasDomainTerm || hasPhrase("basin", "river", "district"));
     const constrainedList = statuses.length > 0 || Boolean(capacity) || locationScoped || storageConstraint;
-    const targetedLookup = targetFactIds.length > 0 && (sourceSeeking || attributeSeeking || statuses.length > 0 || Boolean(capacity));
+    // A recognized project name is itself a lookup, including map-only facts.
+    // Require all query terms to belong to one matched name so editorial
+    // phrases such as "Upper Tamakoshi environmental impacts" stay lexical.
+    const plainNameLookup = targetFactIds.some((id) => {
+      const nameTerms = new Set(tokenize(normalizeSearchText(this.factById.get(id).name)));
+      return terms.every((term) => nameTerms.has(term));
+    });
+    const targetedLookup = targetFactIds.length > 0 && (plainNameLookup || sourceSeeking || attributeSeeking || statuses.length > 0 || Boolean(capacity));
     const factish = superlative || targetedLookup || constrainedList || (hasProjectTerm && hasDomainTerm) || (sourceSeeking && (hasDomainTerm || hasProjectTerm));
 
     // Generic "largest project" questions refer to generation assets unless a

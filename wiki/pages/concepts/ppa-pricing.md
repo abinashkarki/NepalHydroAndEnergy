@@ -2,8 +2,8 @@
 title: PPA Pricing
 type: concept
 created: 2026-05-02
-updated: 2026-05-02
-sources: [chilime-annual-report-fy2078-79, care-ratings-sanima-mai, care-ratings-nyadi, icra-nepal-sahas-urja, nea-generation-directorate-2081, ukhl-annual-report, fenner-school-nepal-state-of-knowledge-renewables-psh]
+updated: 2026-07-25
+sources: [erc-eca-storage-ppa-discussion-paper-2025, erc-reservoir-ppa-directive-2082, chilime-annual-report-fy2078-79, care-ratings-sanima-mai, care-ratings-nyadi, icra-nepal-sahas-urja, nea-generation-directorate-2081, ukhl-annual-report, fenner-school-nepal-state-of-knowledge-renewables-psh]
 tags: [PPA, pricing, tariff, NEA, IPP, ERC, regulation]
 page_quality: analysis
 ---
@@ -12,23 +12,35 @@ page_quality: analysis
 
 ## Summary
 
-Power Purchase Agreement (PPA) pricing in Nepal is set project-by-project through bilateral negotiation between developers and NEA, without a publicly disclosed cost-reflective formula (prior to the 2026 ERC Directive). Rates are differentiated by season (wet/dry) and project type, with significant structural divergence between NEA subsidiaries and private IPPs.
+Public evidence for Power Purchase Agreement pricing in Nepal comes from several sources with different authority: standard NEA tariff schedules, signed-project disclosures, issuer and ratings records, ERC discussion papers, and the [[erc-reservoir-ppa-directive-2082|2082 reservoir directive]]. RoR and PRoR records commonly use energy tariffs differentiated by wet and dry season. Reservoir procurement now has a dedicated regulatory framework, but project-level implementation must be established from ERC decisions and signed agreements rather than inferred from the directive alone.
 
 ## Simple Explanation
 
-When a private company builds a hydropower plant in Nepal, NEA signs a contract to buy the electricity at a fixed rate. That rate is different in the wet season (when rivers are full) and the dry season (when they're low). But the rate isn't set by a public formula — it's negotiated bilaterally. And NEA's own subsidiary companies often get better terms than private developers, creating a two-tier market.
+When a private company builds a hydropower plant in Nepal, its PPA states what the buyer will pay and under what delivery conditions. Many published RoR and PRoR records use a rate per kilowatt-hour, with different wet- and dry-season prices. Reservoir projects raise additional questions about fixed costs, available capacity, construction risk, financing, and long-term service; the ERC's 2025 discussion paper and 2082 directive address that distinct contract problem.
 
 ## Common Misunderstandings
 
 - **"PPA rates are market prices."** They are regulated, negotiated tariffs — not set by competitive auction or spot market dynamics.
 - **"All projects get the same rate."** NEA subsidiaries (like Chilime) use different billing architectures that produce structurally higher blended rates than private IPPs.
 - **"Lower PPA rates are always better for consumers."** Rates below cost of capital deter investment, lengthen project timelines, and can increase system risk.
+- **"One PPA rule explains why the fleet is RoR-heavy."** Current sources do not quantify that causal claim. Contract form is one factor among capital, approvals, project scale, risk allocation, land, safeguards, transmission, and state delivery capacity.
 
 How Power Purchase Agreement rates are set for hydropower projects in Nepal — and whether rate-setting follows an economic formula or a discretionary process. The central institutional framework is [[nea-triple-authority]]: the same entity that sets PPA rates (NEA as single buyer) is also the penalty enforcer and dispatcher.
 
+## Source Status
+
+| Evidence type | What it can establish | What it cannot establish |
+|---|---|---|
+| Signed PPA or official project filing | Terms for the named project and contract date | A universal tariff or current terms for other projects |
+| NEA standard tariff schedule | Published default energy-tariff structure for its stated date and technology | A signed project outcome or the full negotiated risk allocation |
+| ERC/ECA 2025 discussion paper | Sector context and proposed reservoir pricing logic, including capacity-versus-energy questions | Final regulatory adoption, historical causation, or a signed tariff |
+| ERC reservoir directive 2082 | The approved regulatory framework and procedure for covered reservoir projects | Project uptake, financial close, construction, or delivered capacity |
+| Ratings disclosure | Reported terms and financial consequences for the rated issuer | Complete contract text or sector-wide representativeness |
+| Secondary commentary | A lead to a document or dispute | A verified tariff term without the underlying primary record |
+
 ## PPA Rate Comparison Table
 
-Nepal's Power Purchase Agreement rates are set project-by-project through bilateral negotiation between the developer and NEA, without a publicly disclosed cost-reflective formula prior to 2026. The table below compiles verified PPA rates from primary sources. Rates marked with escalation notes reflect the initial contracted rate; actual current rates will be higher for projects within their escalation window.
+The table below compiles project terms disclosed in primary corporate or ratings records. It is not a complete register of signed PPAs, and no row should be generalized to a technology-wide current rate without checking its contract date, escalation, season definition, delivery obligation, and current applicability.
 
 | project | capacity_mw | ppa_wet_npr_kwh | ppa_dry_npr_kwh | ppa_blended_npr_kwh | entity_type | ppa_year | escalation | source | confidence |
 |---|---|---|---|---|---|---|---|---|---|
@@ -75,7 +87,11 @@ The tariff regime's evolution is best understood through two bookend cases. [[kh
 
 ## Rate-Setting Mechanism and Regulatory History
 
-The Electricity Regulatory Commission (ERC) now vests with rate-setting authority. The **"Directive on Electricity Purchase and Sale of Reservoir-Based Power Plants, 2026"** (issued 11 February 2026 / Magh 2082 BS) transitions large projects (>100 MW) to a transparent cost-plus determination model — factoring in loan interest, depreciation, foreign exchange risks, and hedging costs. Sub-100 MW reservoir projects are capped at **NPR 14.80/kWh (winter) and NPR 8.45/kWh (monsoon)**. Legacy contracts like Chilime's 1997 PPA remain grandfathered into the system, perpetually skewing the competitive balance.
+The [[erc-eca-storage-ppa-discussion-paper-2025|2025 ERC/ECA discussion paper]] records NEA's April 2017 standard tariffs for RoR, PRoR, and reservoir projects in NPR per kilowatt-hour. It says ERC understood the reservoir schedule to have been intended for Kulekhani I and subsequently withdrawn. The paper then examines a reservoir-specific approach that could distinguish fixed or available-capacity recovery from generated-energy recovery while addressing construction, financing, foreign-exchange, and volume risks.
+
+The [[erc-reservoir-ppa-directive-2082|Reservoir-Based Generating Station Electricity Purchase and Sale Directive 2082]] is the current official framework. The original Nepali text was approved by ERC's 299th meeting on 2082/10/20 BS and published on ERC's site. For this page, issuance establishes regulatory status only. The earlier claims that it imposed a simple size split and two universal tariff caps are removed pending a project-level legal and implementation review of the official text.
+
+The directive's practical effect remains a record-by-record question. ERC applications, tariff decisions, signed PPAs, financing close, construction milestones, and operating obligations are needed before the framework can be described as having delivered reservoir capacity or dependable service.
 
 ## Royalty and Taxation Schedule
 

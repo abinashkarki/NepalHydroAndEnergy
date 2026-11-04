@@ -42,6 +42,8 @@ A persistent analytical challenge: [[upper-trishuli-3b]] (37 MW, subsidiary) is 
 
 The corridor's density concentrates systemic risk: geological events, sediment surges, or flow alterations from upstream projects cascade through the entire system. The September 2024 floods demonstrated how a single extreme event can affect multiple plants simultaneously.
 
+The 26 August 2026 Bhote Koshi avalanche flood proved the point at corridor scale: roughly 430 MW across 14–15 projects was knocked out in one morning, from Rasuwagadhi (destroyed) and Chilime (buried) down through the Upper Trishuli 3A/3B sites, Trishuli and Devighat plants, to the Bidur solar substation — with bodies recovered roughly 250 km downstream on the Narayani. A single corridor event removed over 12 percent of national installed capacity. See [[bhotekoshi-trishuli-flood-2026]], [[kathmandupost-bhotekoshi-flood-hydropower-damage-2026]] and [[kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026]].
+
 ## Related Corridors
 
 The Trishuli River is a tributary of the Narayani/Gandaki system (see [[gandaki-basin]]). The adjacent Bhote Koshi corridor ([[rasuwagadhi]], [[madhya-bhotekoshi]], [[upper-bhotekoshi]]) shares transmission infrastructure and Chilime-group sponsorship patterns with several Trishuli projects via the [[chilime-trishuli-220kv-transmission-line]].
@@ -53,6 +55,8 @@ The cascade table combines projects at different evidence levels and status stag
 ## Sources
 
 - [[nea-annual-report-fy2024-25]]
+- [[kathmandupost-bhotekoshi-flood-hydropower-damage-2026]]
+- [[kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026]]
 ## See also
 
 - [[upper-trishuli-3a]]
@@ -63,3 +67,4 @@ The cascade table combines projects at different evidence levels and status stag
 - [[trishuli-galchhi]]
 - [[gandaki-basin]]
 - [[chilime-trishuli-220kv-transmission-line]]
+- [[bhotekoshi-trishuli-flood-2026]]

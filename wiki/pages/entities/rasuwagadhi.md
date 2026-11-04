@@ -2,8 +2,8 @@
 title: Rasuwagadhi
 type: entity
 created: 2026-04-20
-updated: 2026-08-27
-sources: [nea-engineering-annual-report-2081-82, ndrrma-rasuwa-glacial-flood-sitrep-2025, ppa-data-retrieval-icra-care-2026, sector-financial-analysis-triple-authority-2026]
+updated: 2026-08-30
+sources: [nea-engineering-annual-report-2081-82, ndrrma-rasuwa-glacial-flood-sitrep-2025, ppa-data-retrieval-icra-care-2026, sector-financial-analysis-triple-authority-2026, kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]
 tags: [project, operating, hazards, koshi, rasuwa, nea-subsidiary, chilime-group]
 images: []
 generator: manual
@@ -32,6 +32,12 @@ The project entered commercial operation in January 2025. On 8 July 2025, rapid 
 
 NEA Engineering records severe damage at Rasuwagadhi to civil structures, hydromechanical equipment and electromechanical systems, followed by suspension of generation. Its FY 2081/82 report says one unit returned to partial generation on 6 December 2025 and two units generated under available dry-season discharge from 25 December. The report does not establish final rehabilitation completion or later operating status. See [[nea-engineering-annual-report-2081-82]].
 
+## August 2026 Destruction
+
+On 26 August 2026, an ice-rock avalanche flood on the Lhende/Bhote Koshi destroyed the project outright. NEA's spokesperson stated the plant was "completely washed away"; Korea South-East Power (KOEN), linked to the project's works, reported 90 percent of its facilities destroyed. Forty-nine employees remained out of contact, with three to six estimated inside the six- or seven-storey underground powerhouse. The plant had been in partial generation for barely eight months after the July 2025 flood. See [[kathmandupost-bhotekoshi-flood-hydropower-damage-2026]], [[kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]] and the event page [[bhotekoshi-trishuli-flood-2026]].
+
+The 2026 destruction also resolves a registry ambiguity: the project sits on the **Rasuwa Bhote Koshi (Lende)**, an upper tributary of the Trishuli in the Gandaki system — not the eastern Koshi-basin Bhote Koshi (the Sindhupalchok river, roughly 60 km east, was not flooded). The specification table below has been corrected accordingly.
+
 ## Geopolitical Position
 
 Located near Nepal's northern border with Tibet in Rasuwa district, Rasuwagadhi sits in a corridor that includes the Kerung border crossing — an increasingly strategic trade and infrastructure point between Nepal and China. This geographic positioning gives the project significance beyond its 111 MW capacity.
@@ -43,9 +49,9 @@ Located near Nepal's northern border with Tibet in Rasuwa district, Rasuwagadhi 
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 111 MW |
-| Status | Commercially commissioned January 2025; partial generation restored by December 2025 |
+| Status | Destroyed 26 August 2026 flood; partial generation Dec 2025–Aug 2026 after July 2025 flood damage |
 | Registry licence | Generation |
-| River | Bhote koshi (eastern [[koshi-basin]]) |
+| River | Bhote koshi (Rasuwa/Lende, upper [[trishuli-cascade|Trishuli]] tributary, [[gandaki-basin]]) |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |
 | Commercial operation | January 2025 |
@@ -63,8 +69,11 @@ The page has a verified commissioning month and a dated partial-restoration reco
 - [[buildability]]
 - [[chilime]]
 - [[glof-risk]]
+- [[bhotekoshi-trishuli-flood-2026]]
 - [[nea-engineering-annual-report-2081-82]]
 - [[ndrrma-rasuwa-glacial-flood-sitrep-2025]]
+- [[kathmandupost-bhotekoshi-flood-hydropower-damage-2026]]
+- [[kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]]
 - [[ppa-data-retrieval-icra-care-2026]]
 - [[sector-financial-analysis-triple-authority-2026]]
 
@@ -72,5 +81,7 @@ The page has a verified commissioning month and a dated partial-restoration reco
 
 - [[nea-engineering-annual-report-2081-82]]
 - [[ndrrma-rasuwa-glacial-flood-sitrep-2025]]
+- [[kathmandupost-bhotekoshi-flood-hydropower-damage-2026]]
+- [[kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]]
 - [[ppa-data-retrieval-icra-care-2026]]
 - [[sector-financial-analysis-triple-authority-2026]]

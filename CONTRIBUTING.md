@@ -31,6 +31,7 @@ Interpretive freedom increases upward only:
 8. **Use internal links intentionally.** Links should help readers navigate the system.
 9. **Do not manually duplicate structured project data.** If the CSV owns the fact, prose should explain its meaning.
 10. **Unknown is acceptable; unsupported certainty is not.** A visible gap is better than a confident weak claim.
+11. **Do not write manual `## Used By` sections on source pages.** The explorer renders source `Used By` from computed backlinks.
 
 ## Data Page Rule
 
@@ -51,7 +52,15 @@ Run before any commit:
 make validate
 ```
 
-This checks broken links, cache consistency, public language, map manifest, and spec CSV hygiene.
+This checks broken links, cache consistency, public language, map manifest, spec CSV hygiene, and the computed `Used By` policy.
+
+Run before a public release:
+
+```bash
+make release-check
+```
+
+This rebuilds wiki indexes, runs validation and tests, and checks generated asset ownership.
 
 ---
 

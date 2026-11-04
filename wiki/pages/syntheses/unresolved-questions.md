@@ -2,7 +2,7 @@
 title: Unresolved Questions
 type: synthesis
 created: 2026-04-14
-updated: 2026-07-19
+updated: 2026-07-25
 reviewed: 2026-07-19
 review_due: 2026-10-19
 as_of: 2026-07-19
@@ -33,6 +33,8 @@ Areas where public evidence remains thin, source definitions conflict, or more g
 | 8 | Chinese-linked project status | Earlier public summaries left uncertainty unresolved | **FILLED** — West Seti (CTG withdrew 2018, NHPC now), Budhigandaki (Gezhouba blocked, domestic). See [[west-seti]], [[budhigandaki]] |
 | 9 | Environmental/social impact data on storage candidates | Displacement, ecological, downstream effects of [[budhigandaki]], [[dudhkoshi-storage]] | **PARTIALLY FILLED** — Budhigandaki resettlement (8,117 households, NPR 42.65B compensation) now documented |
 | 10 | Comparison with other mountain hydro systems | Norway, Switzerland, [[bhutan-hydropower-model]], Laos with actual data | **FILLED** — [[data-mountain-hydro-comparison]] created with IHA/StatRanker/Oxford data |
+| 11 | Representative RoR/PRoR/reservoir development cohort | Test the multi-factor explanation for [[claim-ror-dominance]] without assigning one PPA, policy, incentive, institution, or actor as the cause | **OPEN** — compare development time, capital, PPA form, risk allocation, approvals, land, safeguards, transmission, public support, and completion outcomes under a declared sampling rule |
+| 12 | Implementation of the reservoir PPA directive | Distinguish an approved framework from actual procurement, finance, construction, and dependable service | **OPEN** — official text is verified at [[erc-reservoir-ppa-directive-2082]]; project-level ERC applications, decisions, signed PPAs, financing close, and service obligations remain to be tracked |
 
 ## Data Conflicts Needing Resolution
 
@@ -48,7 +50,8 @@ Areas where public evidence remains thin, source definitions conflict, or more g
 | System losses | Source year and accounting frame differ | Use **12.26% total system loss** for NEA FY 2024/25; older **~12.7%** references belong to the prior report framing |
 | Basin discharge baselines | Gauge points and basin-border models are not interchangeable | Always label **measurement point**: gauge (e.g. Chatara/Chisapani) vs WECS border model |
 | Electricity access | Consumer-category shares and access/service indicators are easily conflated | Use **97.6% national grid coverage** for NEA FY 2024/25; do not treat the domestic-consumer share as household electrification |
-| Fleet split | Detailed fleet split and shorthand RoR+PRoR share use different classifications | Use **85.7/9.9/3.7%** for the granular split, with **>90% RoR+PRoR** as shorthand |
+| Fleet split | World Bank and ERC/ECA descriptions, older detailed splits, and the current DoED register use different dates and taxonomies | Use **predominantly RoR/PRoR** for the structural statement; use **106 MW / 2.71%** only for the Kulekhani seasonal-service cascade against the June 2026 DoED register; do not classify the 97.29% complement by subtraction |
+| Reservoir PPA framework | The 2025 ERC/ECA paper is a proposal, while the 2082 directive is approved official text | Cite [[erc-eca-storage-ppa-discussion-paper-2025]] for discussion-paper findings and [[erc-reservoir-ppa-directive-2082]] for regulatory status; do not treat proposals as adopted terms or issuance as delivered capacity |
 | Per-capita electricity | Different source years create a range | Use **370-465 kWh** as a range unless a specific source year is named |
 
 ## Claims Still Needing Verification
@@ -60,6 +63,7 @@ Areas where public evidence remains thin, source definitions conflict, or more g
 | Realized export prices | Firm up [[seasonal-arbitrage-trap]] economics | **FILLED** — NPR 7.11/unit export avg, 6.40 US cents Bangladesh, in [[data-trade-time-series]] |
 | Pancheshwar status | Refine [[pancheshwar]] treatment | **PARTIALLY FILLED** — current official records support the 6,720 MW scheme basis, but an agreed final DPR, detailed benefit allocation and current joint minutes remain open. See [[pancheshwar]] |
 | China-linked projects | Keep [[hydro-geopolitics]] accurate | **FILLED** — CTG withdrew West Seti 2018, Gezhouba blocked from Budhigandaki; updated in [[hydro-geopolitics]], [[west-seti]], [[budhigandaki]] |
+| Causes of RoR/PRoR dominance | Quantify the contribution of contract, capital, approval, project-scale, safeguard, transmission, market, and state-capacity factors across periods | **OPEN** — current evidence supports a source-bounded multi-factor account but not a single-cause claim |
 
 ## Current Monitoring Priorities
 

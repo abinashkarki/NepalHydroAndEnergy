@@ -1,0 +1,19 @@
+{
+ "event": "bhotekoshi-trishuli-flood-2026",
+ "as_of": "2026-08-30",
+ "route_reaches": 12,
+ "route_alignment_note": "Tibet-side and border reaches are approximate hand alignment; Trishuli/Narayani reaches use HydroRIVERS linework from nepal_relevant_tributaries.geojson",
+ "impacts_confirmed": 13,
+ "impacts_watch": 4,
+ "register_rows": 18,
+ "register_unmatched": [
+  "Middle Trishuli Ganga"
+ ],
+ "corridor_projects": 21,
+ "corridor_tiers": {
+  "on-corridor": 8,
+  "corridor-adjacent": 5,
+  "near-corridor": 8
+ },
+ "secondary_hazards": 2
+}

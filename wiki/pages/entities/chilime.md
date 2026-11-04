@@ -2,8 +2,8 @@
 title: Chilime
 type: entity
 created: 2026-04-20
-updated: 2026-05-10
-sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25]
+updated: 2026-08-30
+sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]
 tags: [project, operating, rasuwa]
 images:
   - src: chilime/nea2077-p177-img01.png
@@ -87,6 +87,12 @@ page_quality: analysis
 
 <!-- generated:specs:end -->
 
+## August 2026 Flood Damage
+
+On 26 August 2026, the Bhote Koshi avalanche flood on the adjacent Trishuli corridor buried the plant. NEA's spokesperson reported the project "buried"; the company's executive director described a tunnel filled with mud — impossible to enter — and damage to the tunnel and powerhouse, with eight people including employees out of contact (six believed inside the tunnel) and a rock-climbing rescue team being mobilised. Chilime shares fell 10.12 percent on NEPSE on 26 August. See [[kathmandupost-bhotekoshi-flood-hydropower-damage-2026]], [[kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]] and [[bhotekoshi-trishuli-flood-2026]].
+
+The Chilime group's subsidiary structure concentrates this exposure: Rasuwagadhi (33 percent CHCL-held, destroyed in the same flood), Sanjen and Madhya Bhotekoshi sit in the same Rasuwa corridor system.
+
 ## Significance / Why It Matters
 
 Chilime is the sector's most cited success case — and its performance metrics justify the reputation. However, the conditions that produced those metrics are **not replicable** for modern projects. See Limitations & Controversies below.
@@ -161,6 +167,7 @@ Chilime's subsequent role as a holding company — spinning off subsidiaries (Ra
 - [[nea-triple-authority]]
 - [[ppa-pricing]]
 - [[ipo-hydropower-bailout]]
+- [[bhotekoshi-trishuli-flood-2026]]
 
 <!-- generated:sources:start -->
 

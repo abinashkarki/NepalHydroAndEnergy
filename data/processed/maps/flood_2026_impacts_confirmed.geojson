@@ -1,0 +1,342 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.37014,
+     28.25111
+    ]
+   },
+   "properties": {
+    "project": "Rasuwagadhi",
+    "capacity_mw": "111",
+    "phase": "operating",
+    "river": "Bhote koshi (Rasuwa)",
+    "district": "Rasuwa",
+    "status_tier": "destroyed",
+    "confidence": "confirmed_official",
+    "impact_summary": "NEA spokesperson: project completely washed away. KOEN (Korea South-East Power) reported 90% of its facilities destroyed; NEA preliminary loss estimate runs to hundreds of billions of rupees for the sector.",
+    "people_note": "49 employees out of contact per company; 3-6 believed inside six- or seven-storey underground powerhouse; 9 South Koreans reported missing (Reuters).",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026;kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.31958,
+     28.16972
+    ]
+   },
+   "properties": {
+    "project": "Chilime",
+    "capacity_mw": "22",
+    "phase": "operating",
+    "river": "Chilime",
+    "district": "Rasuwa",
+    "status_tier": "severe",
+    "confidence": "confirmed_official",
+    "impact_summary": "NEA spokesperson: project buried. Company executive director: tunnel filled with mud and impossible to enter; tunnel and powerhouse damaged; rescue attempting rock-climbing team access.",
+    "people_note": "8 people including employees out of contact; 6 believed inside tunnel. NEA acting MD separately cited 15-20 uncontacted.",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026;kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "Higher-confidence site point",
+    "developer": "Chilime Hydropower Company Limited"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.19917,
+     28.04653
+    ]
+   },
+   "properties": {
+    "project": "Upper Trishuli 3A",
+    "capacity_mw": "60",
+    "phase": "operating",
+    "river": "Trishuli",
+    "district": "Rasuwa",
+    "status_tier": "severe",
+    "confidence": "confirmed_official",
+    "impact_summary": "Ministry of Energy: special operation under way to reach underground powerhouse; cable tunnel entrance buried; Army and technical teams excavating with heavy equipment.",
+    "people_note": "40-45 people unaccounted per NEA acting MD; NEA employee appeals described 35+ waiting inside and outside tunnel; Army drilling tunnel access.",
+    "sources": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.185,
+     28.00458
+    ]
+   },
+   "properties": {
+    "project": "Upper Trishuli 3B",
+    "capacity_mw": "37",
+    "phase": "under-construction",
+    "river": "Trishuli",
+    "district": "Rasuwa",
+    "status_tier": "severe",
+    "confidence": "confirmed_official",
+    "impact_summary": "Developer Trishuli Hydropower Company: project office and construction site completely buried under flood debris and effectively turned into a riverbed; heavy excavation equipment needed but no road access.",
+    "people_note": "213 initially reported missing including interns and security; 85 since rescued; 20-25 workers unaccounted per NEA acting MD.",
+    "sources": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.25597,
+     28.10125
+    ]
+   },
+   "properties": {
+    "project": "Upper Trishuli-1",
+    "capacity_mw": "216",
+    "phase": "under-construction",
+    "river": "Trishuli",
+    "district": "Rasuwa",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Army rescue footage from inside headrace tunnel; project among NEA-IPPAN damaged list of 13; part of the 430MW knocked out along the corridor.",
+    "people_note": "254 rescued by Nepali Army from the site.",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026;kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.16611,
+     27.94639
+    ]
+   },
+   "properties": {
+    "project": "Trishuli (NEA)",
+    "capacity_mw": "24",
+    "phase": "operating",
+    "river": "Trishuli",
+    "district": "Nuwakot",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Named among affected operational projects in NEA-IPPAN damage reporting; historic NEA plant on the Trishuli mainstem.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "Higher-confidence site point",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.13889,
+     27.90222
+    ]
+   },
+   "properties": {
+    "project": "Devighat",
+    "capacity_mw": "14.1",
+    "phase": "operating",
+    "river": "Trishuli",
+    "district": "Nuwakot",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Named among affected operational projects in NEA-IPPAN damage reporting.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "Higher-confidence site point",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.20458,
+     28.07542
+    ]
+   },
+   "properties": {
+    "project": "Mailung Khola",
+    "capacity_mw": "5",
+    "phase": "operating",
+    "river": "Mailung Khola",
+    "district": "Rasuwa",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Named among affected operational projects (5 MW Mailung Khola). Mailung Khola share fell 14.99% on NEPSE on 26 Aug.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "Higher-confidence site point",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.2,
+     28.11611
+    ]
+   },
+   "properties": {
+    "project": "Upper Mailung Khola",
+    "capacity_mw": "14.3",
+    "phase": "operating",
+    "river": "Mailung Khola",
+    "district": "Dhading",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Named among affected operational projects (14.8 MW Mailung Khola per media; registry capacity 14.3 MW). Share fell 11.56% on NEPSE.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.20833,
+     28.18542
+    ]
+   },
+   "properties": {
+    "project": "Upper Mailung A",
+    "capacity_mw": "6.42",
+    "phase": "under-construction",
+    "river": "Mailung Khola",
+    "district": "Dhading",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Named among affected under-construction projects (6.42 MW).",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.35681,
+     28.1575
+    ]
+   },
+   "properties": {
+    "project": "Langtang Khola",
+    "capacity_mw": "",
+    "phase": "operating",
+    "river": "Langtang",
+    "district": "Rasuwa",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Project in testing phase damaged; promoter says approach-road bridges swept away and site now reachable only by helicopter.",
+    "people_note": "18 rescued by Nepali Army; 42 people unaccounted per promoter.",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026;kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "River-aligned project reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.35417,
+     28.20472
+    ]
+   },
+   "properties": {
+    "project": "Rasuwagadhi Bhotekoshi",
+    "capacity_mw": "120",
+    "phase": "under-construction",
+    "river": "Bhote koshi (Rasuwa)",
+    "district": "Rasuwa",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Named among affected under-construction projects (120 MW private development).",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "Low-confidence registry reference",
+    "developer": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.145,
+     27.918
+    ]
+   },
+   "properties": {
+    "project": "Bidur / Trishuli 25 MWp Solar Farm",
+    "capacity_mw": "25",
+    "phase": "operating",
+    "river": "Trishuli (Bidur)",
+    "district": "Nuwakot",
+    "status_tier": "damaged",
+    "confidence": "confirmed_media",
+    "impact_summary": "Named among affected operational projects as a 25 MW solar project; Ministry of Energy photo shows substation inundated with mud and debris. No display point in the hydropower registry.",
+    "people_note": "",
+    "sources": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "event": "bhotekoshi-trishuli-flood-2026",
+    "as_of": "2026-08-30",
+    "location_precision": "approximate hand placement"
+   }
+  }
+ ]
+}

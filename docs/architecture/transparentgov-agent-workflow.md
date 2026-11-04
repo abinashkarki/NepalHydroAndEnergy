@@ -11,7 +11,7 @@ This repository uses AI agents for research cleanup, wiki maintenance, documenta
 - Agents enter with partial context and can overgeneralize from earlier pages.
 - Wiki pages have different authority levels; the same sentence may be valid in a synthesis page and invalid in a data page.
 - Quantitative claims need source linkage.
-- Source `Used By` sections must reflect exact backlinks, not semantic similarity.
+- Source `Used By` is computed from exact backlinks, not manually maintained.
 - Bulk editing can create consistent-looking but unsupported prose.
 - Human review time is limited, so failures must be easy to locate.
 
@@ -22,7 +22,7 @@ flowchart TD
     A["Human task prompt<br/>scope, page list, stopping rules"] --> B["Agent reads governance<br/>GOVERNANCE, ONTOLOGY, TEMPLATES, RUBRIC"]
     B --> C["Baseline validation<br/>validate_repo.py, git status"]
     C --> D["Bounded edit batch<br/>small page set, no unrelated files"]
-    D --> E["Local checks<br/>validate, diff check, make test"]
+    D --> E["Local checks<br/>validate, diff check, make test, release-check"]
     E --> F{"Checks pass?"}
     F -- "No" --> G["Stop, diagnose, flag"]
     F -- "Yes" --> H["Audit log entry<br/>pages touched, warnings before/after, flags"]
@@ -43,7 +43,7 @@ The workflow treats the repository as the control surface. The prompt gives the 
 - **Context drift:** an agent continues an old task after the user changes scope.
 - **Terminology drift:** new aliases appear instead of canonical ontology terms.
 - **Hierarchy violation:** data or source pages contain strategic implications.
-- **Backlink inflation:** `Used By` lists include likely users instead of exact backlinks.
+- **Backlink inflation:** hand-written `Used By` lists include likely users instead of exact backlinks.
 - **Timestamp drift:** governed claims become older than metric source pages after edits.
 - **Overconfident closure:** unresolved source disputes are rewritten as settled facts.
 
@@ -52,8 +52,9 @@ The workflow treats the repository as the control surface. The prompt gives the 
 - Start every cleanup session with `git status --short --branch` and `scripts/validate_repo.py`.
 - Read the governance files before editing.
 - Work in bounded batches and stop on source reconciliation, confidence changes, or ontology changes.
-- Use exact repository backlinks for `Used By`, excluding links inside other pages' own `## Used By` sections.
+- Do not write source-page `## Used By` sections; the explorer renders them from `wiki-backlinks.json`.
 - Run `git diff --check`, `make test`, and strict search benchmark before committing.
+- Run `make release-check` before public release.
 - Record every editing session in `wiki/WIKI_AUDIT_LOG.md`.
 - Keep unresolved research issues in `wiki/FLAGGED_FOR_REVIEW.md` instead of resolving them by assumption.
 
@@ -61,7 +62,7 @@ The workflow treats the repository as the control surface. The prompt gives the 
 
 - Add a dedicated hierarchy-violation scanner for lower-level pages.
 - Add a script that reports pages edited since the last audit and samples them by category.
-- Add CI enforcement for the source Used By check and strict search benchmark if deployment moves to pull requests.
+- Add CI enforcement for `make release-check` if deployment moves to pull requests.
 - Expand claim-governance tests to detect more stale metric-source relationships.
 - Create a reusable "fresh agent" audit command that runs validation, flags, audit-log review, and phrase scans in one report.
 
@@ -70,4 +71,3 @@ The workflow treats the repository as the control surface. The prompt gives the 
 - [Case study: Nepal Energy Wiki](../case-studies/transparentgov-nepal-energy-wiki.md) — narrative overview, governance model, and engineering decisions.
 - [Knowledge Pipeline](transparentgov-knowledge-pipeline.md) — the inputs and generated outputs agents are editing against.
 - [Production Architecture](transparentgov-production-architecture.md) — what agent-edited content gets published to.
-

@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 318,
-  "total_refs": 2469,
+  "total_targets": 326,
+  "total_refs": 2521,
   "backlinks": {
     "buildability": [
       {
@@ -9,6 +9,13 @@
         "title": "ADB Hydropower Growth Nepal Study",
         "category": "sources",
         "context": "Provides context for buildability constraints",
+        "target_exists": true
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+        "title": "Kathmandu Post — Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)",
+        "category": "sources",
+        "context": "…on raised by the event — the same design logic discussed on buildability and in the 2024 Thame case on glof-risk.",
         "target_exists": true
       },
       {
@@ -387,6 +394,13 @@
         "title": "Stranded Generation",
         "category": "concepts",
         "context": "representative sample. See buildability for the delivery-risk",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "…al space — the same double-edged design logic documented on buildability.",
         "target_exists": true
       },
       {
@@ -2597,6 +2611,20 @@
         "target_exists": true
       },
       {
+        "slug": "erc-reservoir-ppa-directive-2082",
+        "title": "ERC Reservoir-Based Generating Station Electricity Purchase and Sale Directive 2082",
+        "category": "sources",
+        "context": "…directive supplies the verified regulatory-status update in ppa-pricing. For documentary use, it supports only the bounded statemen…",
+        "target_exists": true
+      },
+      {
+        "slug": "erc-eca-storage-ppa-discussion-paper-2025",
+        "title": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)",
+        "category": "sources",
+        "context": "The paper is cited by ppa-pricing for the difference between energy-priced standard tariffs a…",
+        "target_exists": true
+      },
+      {
         "slug": "chameliya-hydropower",
         "title": "Chameliya Hydropower",
         "category": "entities",
@@ -2657,6 +2685,13 @@
         "title": "Upper Tamakoshi",
         "category": "entities",
         "context": "…ot an engineering failure. See nea-triple-authority and ppa-pricing for the structural analysis.",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-ror-dominance",
+        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
+        "category": "claims",
+        "context": "ppa-pricing",
         "target_exists": true
       }
     ],
@@ -3307,6 +3342,20 @@
         "target_exists": true
       },
       {
+        "slug": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+        "title": "Kathmandu Post — Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)",
+        "category": "sources",
+        "context": "…discussed on buildability and in the 2024 Thame case on glof-risk.",
+        "target_exists": true
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-barrier-lake-2026",
+        "title": "Kathmandu Post — New barrier lake in Nepal raises fresh flood threat, China warns (2026)",
+        "category": "sources",
+        "context": "…p-2025]], which is central to the repeat-hazard argument on glof-risk and bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
         "slug": "ndrrma-rasuwa-glacial-flood-sitrep-2025",
         "title": "NDRRMA Rasuwa Glacial Flood Situation Report 1 (2025)",
         "category": "sources",
@@ -3318,6 +3367,13 @@
         "title": "NEA Engineering Company Annual Report FY 2081/82",
         "category": "sources",
         "context": "…nfrastructure consequences described in the 2025 example on glof-risk.",
+        "target_exists": true
+      },
+      {
+        "slug": "reuters-bhotekoshi-flood-climate-attribution-2026",
+        "title": "Reuters — Climate change boosted risk of devastating Himalayan flood, experts say (2026)",
+        "category": "sources",
+        "context": "…n hazard pages must mirror — the causal-discipline rules on glof-risk apply directly.",
         "target_exists": true
       },
       {
@@ -3381,6 +3437,13 @@
         "title": "Sediment as Design Constraint",
         "category": "concepts",
         "context": "…runner in spec?\" Sediment-linked hazards also overlap with glof-risk as part of the same mountain hazard stack.",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "…gument on trishuli-cascade and the exposure analysis on glof-risk: Himalayan run-of-river corridors concentrate settlements,…",
         "target_exists": true
       },
       {
@@ -4252,6 +4315,36 @@
         "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
         "category": "claims",
         "context": "aepc-renewable-framework",
+        "target_exists": true
+      }
+    ],
+    "claim-ror-dominance": [
+      {
+        "slug": "erc-eca-storage-ppa-discussion-paper-2025",
+        "title": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)",
+        "category": "sources",
+        "context": "…tions raised for reservoir procurement. It is also cited by claim-ror-dominance as one current official-sector description of the operating…",
+        "target_exists": true
+      },
+      {
+        "slug": "run-of-river-hydropower",
+        "title": "Run-of-River Hydropower",
+        "category": "concepts",
+        "context": "claim-ror-dominance — the canonical claim (>90% RoR/PRoR)",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-hydro-complementarity",
+        "title": "Solar–Hydro Complementarity",
+        "category": "concepts",
+        "context": "Nepal's hydro fleet is >90% run-of-river (claim-ror-dominance, run-of-river-hydropower). RoR output is a direct funct…",
+        "target_exists": true
+      },
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…development cohort | Test the multi-factor explanation for claim-ror-dominance without assigning one PPA, policy, incentive, institution,…",
         "target_exists": true
       }
     ],
@@ -5197,13 +5290,6 @@
         "target_exists": true
       },
       {
-        "slug": "rasuwagadhi",
-        "title": "Rasuwagadhi",
-        "category": "entities",
-        "context": "| River | Bhote koshi (eastern koshi-basin) |",
-        "target_exists": true
-      },
-      {
         "slug": "sun-koshi-no-3",
         "title": "Sun Koshi No.3",
         "category": "entities",
@@ -5639,6 +5725,13 @@
         "title": "GLOF Risk",
         "category": "concepts",
         "context": "…reate secondary surges. These processes link GLOF hazard to sediment-as-design-constraint and to the wider hydrological uncertainty described in [[cl…",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "sediment-as-design-constraint — debris loads and channel change",
         "target_exists": true
       },
       {
@@ -6760,6 +6853,13 @@
         "target_exists": true
       },
       {
+        "slug": "claim-ror-dominance",
+        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
+        "category": "claims",
+        "context": "The World Bank's 2025 Country Economic Memorandum describes more than 90% of Nepal's hydropower as RoR or PRo…",
+        "target_exists": true
+      },
+      {
         "slug": "data-electricity-system-indicators",
         "title": "Electricity System Indicator Register",
         "category": "data",
@@ -7163,13 +7263,6 @@
         "target_exists": true
       },
       {
-        "slug": "claim-ror-dominance",
-        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
-        "category": "claims",
-        "context": "…\"storage\" varies by license, design, and reporting line in nea statistics—headline percentages should be tied to an explic…",
-        "target_exists": true
-      },
-      {
         "slug": "data-domestic-demand",
         "title": "Domestic Electricity Demand Distribution",
         "category": "data",
@@ -7329,7 +7422,7 @@
         "slug": "claim-ror-dominance",
         "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
         "category": "claims",
-        "context": "**Fleet fact pattern:** kulekhani-cascade (**106 MW**, roughly **~85–150 MCM** depending on active vs…",
+        "context": "kulekhani-cascade",
         "target_exists": true
       },
       {
@@ -7581,6 +7674,13 @@
         "title": "Marsyangdi Besi",
         "category": "entities",
         "context": "| River | Marsyangdi (gandaki-basin) |",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "…asuwa/Lende, upper Trishuli tributary, gandaki-basin) |",
         "target_exists": true
       },
       {
@@ -8096,6 +8196,212 @@
         "title": "PPA Pricing",
         "category": "concepts",
         "context": "…ration Directorate Report 2080/2081 (16th Issue, 2024). See chameliya-hydropower.",
+        "target_exists": true
+      }
+    ],
+    "ndrrma-rasuwa-glacial-flood-sitrep-2025": [
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-barrier-lake-2026",
+        "title": "Kathmandu Post — New barrier lake in Nepal raises fresh flood threat, China warns (2026)",
+        "category": "sources",
+        "context": "…duced the 8 July 2025 supraglacial-lake flood documented in ndrrma-rasuwa-glacial-flood-sitrep-2025, which is central to the repeat-hazard argument on [[glof-r…",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "…causal and damage investigations were still under way. See ndrrma-rasuwa-glacial-flood-sitrep-2025.",
+        "target_exists": true
+      },
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…ailed causal and damage investigations were continuing. See ndrrma-rasuwa-glacial-flood-sitrep-2025.",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "…ced the **8 July 2025** supraglacial-lake flood recorded in ndrrma-rasuwa-glacial-flood-sitrep-2025 — and the corridor also took heavy damage in the September…",
+        "target_exists": true
+      }
+    ],
+    "bhotekoshi-trishuli-flood-2026": [
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026",
+        "title": "Kathmandu Post / NDRRMA — Death toll from Bhotekoshi flood reaches 734 (2026)",
+        "category": "sources",
+        "context": "…ydropower corridor — it anchors the Narayani reaches of the bhotekoshi-trishuli-flood-2026 route layer and quantifies the corridor's human toll alongs…",
+        "target_exists": true
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+        "title": "Kathmandu Post — Flood damage to Nepal's hydropower sector could run into billions (2026)",
+        "category": "sources",
+        "context": "…rimary source for the confidence-tiered register behind the bhotekoshi-trishuli-flood-2026 map layers. It connects the event to insurance-system expos…",
+        "target_exists": true
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+        "title": "Kathmandu Post — Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)",
+        "category": "sources",
+        "context": "…s is the primary source for the people-status column in the bhotekoshi-trishuli-flood-2026 impact register and for the underground-powerhouse survival…",
+        "target_exists": true
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-barrier-lake-2026",
+        "title": "Kathmandu Post — New barrier lake in Nepal raises fresh flood threat, China warns (2026)",
+        "category": "sources",
+        "context": "…central to the repeat-hazard argument on glof-risk and bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "reuters-bhotekoshi-flood-climate-attribution-2026",
+        "title": "Reuters — Climate change boosted risk of devastating Himalayan flood, experts say (2026)",
+        "category": "sources",
+        "context": "…echanism and the Tibet-side reach of the flood route in the bhotekoshi-trishuli-flood-2026 reconstruction, and supplies the attribution language (prob…",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…kathmandupost-bhotekoshi-flood-tunnel-rescues-2026 and bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "…t-bhotekoshi-flood-tunnel-rescues-2026]] and the event page bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…removed over 12 percent of national installed capacity. See bhotekoshi-trishuli-flood-2026, kathmandupost-bhotekoshi-flood-hydropower-damage-2026…",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "bhotekoshi-trishuli-flood-2026. The contrast with the 2025 event is",
+        "target_exists": true
+      },
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…ost-bhotekoshi-flood-barrier-lake-2026]] and the event page bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      }
+    ],
+    "claim-climate-harder-not-easier": [
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+        "title": "Kathmandu Post — Flood damage to Nepal's hydropower sector could run into billions (2026)",
+        "category": "sources",
+        "context": "…nnects the event to insurance-system exposure documented in claim-climate-harder-not-easier territory and to corridor concentration described on [[tris…",
+        "target_exists": true
+      },
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…nt]] and to the wider hydrological uncertainty described in claim-climate-harder-not-easier.",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "| 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | intervention-q-design-climate-adjustment |",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
+        "category": "interventions",
+        "context": "claim-climate-harder-not-easier",
+        "target_exists": true
+      }
+    ],
+    "trishuli-cascade": [
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+        "title": "Kathmandu Post — Flood damage to Nepal's hydropower sector could run into billions (2026)",
+        "category": "sources",
+        "context": "…sier]] territory and to corridor concentration described on trishuli-cascade.",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "| River | Bhote koshi (Rasuwa/Lende, upper Trishuli tributary, gandaki-basin) |",
+        "target_exists": true
+      },
+      {
+        "slug": "super-trishuli",
+        "title": "Super Trishuli",
+        "category": "entities",
+        "context": "…separate asset with its own promoter, PPA, and status. See trishuli-cascade for the corridor overview.",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "and multiple smaller plants. See trishuli-cascade for the full corridor profile.",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "…est evidence yet for the corridor-concentration argument on trishuli-cascade and the exposure analysis on glof-risk: Himalayan run-o…",
+        "target_exists": true
+      }
+    ],
+    "kathmandupost-bhotekoshi-flood-hydropower-damage-2026": [
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026",
+        "title": "Kathmandu Post / NDRRMA — Death toll from Bhotekoshi flood reaches 734 (2026)",
+        "category": "sources",
+        "context": "…corridor's human toll alongside the project-level damage in kathmandupost-bhotekoshi-flood-hydropower-damage-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…hilime shares fell 10.12 percent on NEPSE on 26 August. See kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026 and…",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "…tion for barely eight months after the July 2025 flood. See kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026 and…",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…installed capacity. See bhotekoshi-trishuli-flood-2026, kathmandupost-bhotekoshi-flood-hydropower-damage-2026 and kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "…essment of reconstruction needs up to **US$5 billion**. See kathmandupost-bhotekoshi-flood-hydropower-damage-2026.",
         "target_exists": true
       }
     ],
@@ -8907,6 +9213,13 @@
         "title": "GLOF Risk",
         "category": "concepts",
         "context": "The 111 MW rasuwagadhi plant had entered commercial operation in January 2025. NEA…",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "rasuwagadhi — the destroyed project, with its 2025 damage-recovery hist…",
         "target_exists": true
       }
     ],
@@ -10134,6 +10447,13 @@
         "title": "Q-Design Discharge",
         "category": "concepts",
         "context": "…ariff gap but a billing-architecture subsidy, documented in chilime and nea-triple-authority.",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "chilime — the buried plant within the Chilime group structure",
         "target_exists": true
       }
     ],
@@ -13613,6 +13933,36 @@
         "target_exists": true
       }
     ],
+    "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026": [
+      {
+        "slug": "chilime",
+        "title": "Chilime",
+        "category": "entities",
+        "context": "…kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026 and bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwagadhi",
+        "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "…kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026 and the event page bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "teams. See kathmandupost-bhotekoshi-flood-tunnel-rescues-2026 and",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+        "target_exists": true
+      }
+    ],
     "kabeli-a": [
       {
         "slug": "damak-godak-phidim-132kv",
@@ -14861,22 +15211,6 @@
         "target_exists": true
       }
     ],
-    "ndrrma-rasuwa-glacial-flood-sitrep-2025": [
-      {
-        "slug": "rasuwagadhi",
-        "title": "Rasuwagadhi",
-        "category": "entities",
-        "context": "…causal and damage investigations were still under way. See ndrrma-rasuwa-glacial-flood-sitrep-2025.",
-        "target_exists": true
-      },
-      {
-        "slug": "glof-risk",
-        "title": "GLOF Risk",
-        "category": "concepts",
-        "context": "…ailed causal and damage investigations were continuing. See ndrrma-rasuwa-glacial-flood-sitrep-2025.",
-        "target_exists": true
-      }
-    ],
     "nea-engineering-annual-report-2081-82": [
       {
         "slug": "rasuwagadhi",
@@ -15052,6 +15386,13 @@
         "category": "concepts",
         "context": "the NEA fleet as well as private IPPs. Upper Trishuli 3A (60 MW, 72.7% of design) and Trishuli (24 MW,…",
         "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "upper-trishuli-3a — the underground-powerhouse rescue case",
+        "target_exists": true
       }
     ],
     "upper-trishuli-1": [
@@ -15074,22 +15415,6 @@
         "title": "Trishuli Galchhi",
         "category": "entities",
         "context": "upper-trishuli-1 upstream, the Trishuli corridor now hosts roughly 540 MW of",
-        "target_exists": true
-      }
-    ],
-    "trishuli-cascade": [
-      {
-        "slug": "super-trishuli",
-        "title": "Super Trishuli",
-        "category": "entities",
-        "context": "…separate asset with its own promoter, PPA, and status. See trishuli-cascade for the corridor overview.",
-        "target_exists": true
-      },
-      {
-        "slug": "trishuli-galchhi",
-        "title": "Trishuli Galchhi",
-        "category": "entities",
-        "context": "and multiple smaller plants. See trishuli-cascade for the full corridor profile.",
         "target_exists": true
       }
     ],
@@ -15158,6 +15483,22 @@
         "title": "Layer: Major Transmission Network",
         "category": "data",
         "context": "marsyangdi-upper-220",
+        "target_exists": true
+      }
+    ],
+    "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026": [
+      {
+        "slug": "trishuli-cascade",
+        "title": "Trishuli Cascade",
+        "category": "entities",
+        "context": "…kathmandupost-bhotekoshi-flood-hydropower-damage-2026]] and kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "…ple linked to hydropower projects — with 8,186 rescued. See kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026.",
         "target_exists": true
       }
     ],
@@ -16492,35 +16833,44 @@
         "target_exists": true
       }
     ],
-    "claim-climate-harder-not-easier": [
-      {
-        "slug": "glof-risk",
-        "title": "GLOF Risk",
-        "category": "concepts",
-        "context": "…nt]] and to the wider hydrological uncertainty described in claim-climate-harder-not-easier.",
-        "target_exists": true
-      },
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "| 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | intervention-q-design-climate-adjustment |",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-q-design-climate-adjustment",
-        "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
-        "category": "interventions",
-        "context": "claim-climate-harder-not-easier",
-        "target_exists": true
-      }
-    ],
     "icimod-ndrrma-thame-glof-2024": [
       {
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
         "context": "…e investigation, not only the initial rapid assessment. See icimod-ndrrma-thame-glof-2024.",
+        "target_exists": true
+      }
+    ],
+    "reuters-bhotekoshi-flood-climate-attribution-2026": [
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…o confluence, creating breach risk over the same reach. See reuters-bhotekoshi-flood-climate-attribution-2026, kathmandupost-bhotekoshi-flood-barrier-lake-2026 and t…",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "…ic activity is cited as a probable trigger combination. See reuters-bhotekoshi-flood-climate-attribution-2026.",
+        "target_exists": true
+      }
+    ],
+    "kathmandupost-bhotekoshi-flood-barrier-lake-2026": [
+      {
+        "slug": "glof-risk",
+        "title": "GLOF Risk",
+        "category": "concepts",
+        "context": "…See reuters-bhotekoshi-flood-climate-attribution-2026, kathmandupost-bhotekoshi-flood-barrier-lake-2026 and the event page bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi–Trishuli Flood 2026",
+        "category": "syntheses",
+        "context": "…or also took heavy damage in the September 2024 floods. See kathmandupost-bhotekoshi-flood-barrier-lake-2026.",
         "target_exists": true
       }
     ],
@@ -16722,6 +17072,52 @@
         "target_exists": true
       }
     ],
+    "erc-reservoir-ppa-directive-2082": [
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…issuer and ratings records, ERC discussion papers, and the 2082 reservoir directive. RoR and PRoR records commonly use energy tariffs different…",
+        "target_exists": true
+      },
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…ependable service | **OPEN** — official text is verified at erc-reservoir-ppa-directive-2082; project-level ERC applications, decisions, signed PPAs, fi…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-ror-dominance",
+        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
+        "category": "claims",
+        "context": "Track project-level use of the 2082 reservoir PPA directive. Issuance is a framework signal, not evidence that the oper…",
+        "target_exists": true
+      }
+    ],
+    "erc-eca-storage-ppa-discussion-paper-2025": [
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "The 2025 ERC/ECA discussion paper records NEA's April 2017 standard tariffs for RoR, PRoR, an…",
+        "target_exists": true
+      },
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…, while the 2082 directive is approved official text | Cite erc-eca-storage-ppa-discussion-paper-2025 for discussion-paper findings and [[erc-reservoir-ppa-direc…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-ror-dominance",
+        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
+        "category": "claims",
+        "context": "The 2025 ERC/ECA storage-PPA discussion paper independently describes hydro capacity as predominantly RoR…",
+        "target_exists": true
+      }
+    ],
     "wiki-page-maturity": [
       {
         "slug": "project-roadmap",
@@ -16871,22 +17267,6 @@
         "title": "Run-of-River Hydropower",
         "category": "concepts",
         "context": "…pically stores 2–6 hours of water, not weeks or months. See claim-pror-not-storage.",
-        "target_exists": true
-      }
-    ],
-    "claim-ror-dominance": [
-      {
-        "slug": "run-of-river-hydropower",
-        "title": "Run-of-River Hydropower",
-        "category": "concepts",
-        "context": "claim-ror-dominance — the canonical claim (>90% RoR/PRoR)",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-hydro-complementarity",
-        "title": "Solar–Hydro Complementarity",
-        "category": "concepts",
-        "context": "Nepal's hydro fleet is >90% run-of-river (claim-ror-dominance, run-of-river-hydropower). RoR output is a direct funct…",
         "target_exists": true
       }
     ],

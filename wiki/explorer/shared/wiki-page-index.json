@@ -58,8 +58,16 @@
         "title": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II"
       },
       {
+        "slug": "erc-eca-storage-ppa-discussion-paper-2025",
+        "title": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)"
+      },
+      {
         "slug": "erc-open-access-directive-2082",
         "title": "ERC Open Access Directive 2082"
+      },
+      {
+        "slug": "erc-reservoir-ppa-directive-2082",
+        "title": "ERC Reservoir-Based Generating Station Electricity Purchase and Sale Directive 2082"
       },
       {
         "slug": "global-solar-atlas-nepal",
@@ -120,6 +128,22 @@
       {
         "slug": "kathmandu-post-chameliya",
         "title": "\"Kathmandu Post \u2014 Chameliya Hydropower Coverage\""
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-barrier-lake-2026",
+        "title": "Kathmandu Post \u2014 New barrier lake in Nepal raises fresh flood threat, China warns (2026)"
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+        "title": "Kathmandu Post \u2014 Flood damage to Nepal's hydropower sector could run into billions (2026)"
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026",
+        "title": "Kathmandu Post / NDRRMA \u2014 Death toll from Bhotekoshi flood reaches 734 (2026)"
+      },
+      {
+        "slug": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+        "title": "Kathmandu Post \u2014 Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)"
       },
       {
         "slug": "khimti-i-project-research",
@@ -204,6 +228,10 @@
       {
         "slug": "ppa-data-retrieval-icra-care-2026",
         "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\""
+      },
+      {
+        "slug": "reuters-bhotekoshi-flood-climate-attribution-2026",
+        "title": "Reuters \u2014 Climate change boosted risk of devastating Himalayan flood, experts say (2026)"
       },
       {
         "slug": "sahas-urja-benchmark-icra-2026",
@@ -1264,6 +1292,10 @@
     ],
     "syntheses": [
       {
+        "slug": "bhotekoshi-trishuli-flood-2026",
+        "title": "Bhotekoshi\u2013Trishuli Flood 2026"
+      },
+      {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy"
       },
@@ -1706,7 +1738,9 @@
     "doed-solar-power-plants-table",
     "dudhkoshi-nea-proposal-2024",
     "eib-rural-solar-phase2",
+    "erc-eca-storage-ppa-discussion-paper-2025",
     "erc-open-access-directive-2082",
+    "erc-reservoir-ppa-directive-2082",
     "global-solar-atlas-nepal",
     "green-hydrogen-roadmap-nepal",
     "himalayan-capital-analysis",
@@ -1722,6 +1756,10 @@
     "jica-ipsdp-main-report-vol2",
     "kali-gandaki-a-adb-evaluation",
     "kathmandu-post-chameliya",
+    "kathmandupost-bhotekoshi-flood-barrier-lake-2026",
+    "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
+    "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026",
+    "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
     "khimti-i-project-research",
     "likhu-cascade-research-compilation",
     "moewri-ipsdp-exec-summary-2025",
@@ -1743,6 +1781,7 @@
     "pancheshwar-official-project-record",
     "powergrid-gorakhpur-butwal-fy2024-25",
     "ppa-data-retrieval-icra-care-2026",
+    "reuters-bhotekoshi-flood-climate-attribution-2026",
     "sahas-urja-benchmark-icra-2026",
     "sahas-urja-progress-report-w010",
     "sangroula-ntnu-kulekhani-bathymetry",
@@ -2006,6 +2045,7 @@
     "storage-deficit",
     "stranded-generation",
     "wiki-page-maturity",
+    "bhotekoshi-trishuli-flood-2026",
     "bottleneck-hierarchy",
     "climate-resilience-and-decarbonization",
     "decision-dossiers",
@@ -2127,7 +2167,9 @@
     "doed-solar-power-plants-table": "sources",
     "dudhkoshi-nea-proposal-2024": "sources",
     "eib-rural-solar-phase2": "sources",
+    "erc-eca-storage-ppa-discussion-paper-2025": "sources",
     "erc-open-access-directive-2082": "sources",
+    "erc-reservoir-ppa-directive-2082": "sources",
     "global-solar-atlas-nepal": "sources",
     "green-hydrogen-roadmap-nepal": "sources",
     "himalayan-capital-analysis": "sources",
@@ -2143,6 +2185,10 @@
     "jica-ipsdp-main-report-vol2": "sources",
     "kali-gandaki-a-adb-evaluation": "sources",
     "kathmandu-post-chameliya": "sources",
+    "kathmandupost-bhotekoshi-flood-barrier-lake-2026": "sources",
+    "kathmandupost-bhotekoshi-flood-hydropower-damage-2026": "sources",
+    "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026": "sources",
+    "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026": "sources",
     "khimti-i-project-research": "sources",
     "likhu-cascade-research-compilation": "sources",
     "moewri-ipsdp-exec-summary-2025": "sources",
@@ -2164,6 +2210,7 @@
     "pancheshwar-official-project-record": "sources",
     "powergrid-gorakhpur-butwal-fy2024-25": "sources",
     "ppa-data-retrieval-icra-care-2026": "sources",
+    "reuters-bhotekoshi-flood-climate-attribution-2026": "sources",
     "sahas-urja-benchmark-icra-2026": "sources",
     "sahas-urja-progress-report-w010": "sources",
     "sangroula-ntnu-kulekhani-bathymetry": "sources",
@@ -2427,6 +2474,7 @@
     "storage-deficit": "concepts",
     "stranded-generation": "concepts",
     "wiki-page-maturity": "concepts",
+    "bhotekoshi-trishuli-flood-2026": "syntheses",
     "bottleneck-hierarchy": "syntheses",
     "climate-resilience-and-decarbonization": "syntheses",
     "decision-dossiers": "syntheses",
@@ -2548,7 +2596,9 @@
     "doed-solar-power-plants-table": "DoED Power Plants: Solar Table",
     "dudhkoshi-nea-proposal-2024": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record",
     "eib-rural-solar-phase2": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
+    "erc-eca-storage-ppa-discussion-paper-2025": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)",
     "erc-open-access-directive-2082": "ERC Open Access Directive 2082",
+    "erc-reservoir-ppa-directive-2082": "ERC Reservoir-Based Generating Station Electricity Purchase and Sale Directive 2082",
     "global-solar-atlas-nepal": "Global Solar Atlas (Nepal coverage)",
     "green-hydrogen-roadmap-nepal": "Green Hydrogen Roadmap for Nepal",
     "himalayan-capital-analysis": "\"Himalayan Capital \u2014 Sahas Urja Analysis\"",
@@ -2564,6 +2614,10 @@
     "jica-ipsdp-main-report-vol2": "JICA IPSDP Final Report Annexes (Vol. 2)",
     "kali-gandaki-a-adb-evaluation": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia",
     "kathmandu-post-chameliya": "\"Kathmandu Post \u2014 Chameliya Hydropower Coverage\"",
+    "kathmandupost-bhotekoshi-flood-barrier-lake-2026": "Kathmandu Post \u2014 New barrier lake in Nepal raises fresh flood threat, China warns (2026)",
+    "kathmandupost-bhotekoshi-flood-hydropower-damage-2026": "Kathmandu Post \u2014 Flood damage to Nepal's hydropower sector could run into billions (2026)",
+    "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026": "Kathmandu Post / NDRRMA \u2014 Death toll from Bhotekoshi flood reaches 734 (2026)",
+    "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026": "Kathmandu Post \u2014 Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)",
     "khimti-i-project-research": "Khimti-I Project Research \u2014 PPA, Generation, Finance, Ownership",
     "likhu-cascade-research-compilation": "Likhu Cascade Research Compilation",
     "moewri-ipsdp-exec-summary-2025": "MoEWRI IPSDP Executive Summary",
@@ -2585,6 +2639,7 @@
     "pancheshwar-official-project-record": "Pancheshwar Official Project Records \u2014 Nepal and India",
     "powergrid-gorakhpur-butwal-fy2024-25": "POWERGRID FY 2024/25 \u2014 Gorakhpur\u2013New Butwal Joint Venture Record",
     "ppa-data-retrieval-icra-care-2026": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+    "reuters-bhotekoshi-flood-climate-attribution-2026": "Reuters \u2014 Climate change boosted risk of devastating Himalayan flood, experts say (2026)",
     "sahas-urja-benchmark-icra-2026": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) \u2014 Benchmark IPP Success\"",
     "sahas-urja-progress-report-w010": "\"Sahas Urja \u2014 Progress Report W010\"",
     "sangroula-ntnu-kulekhani-bathymetry": "Sangroula/NTNU Kulekhani Reservoir Bathymetry and Sedimentation Studies",
@@ -2848,6 +2903,7 @@
     "storage-deficit": "Storage Deficit",
     "stranded-generation": "Stranded Generation",
     "wiki-page-maturity": "Wiki Page Maturity",
+    "bhotekoshi-trishuli-flood-2026": "Bhotekoshi\u2013Trishuli Flood 2026",
     "bottleneck-hierarchy": "Bottleneck Hierarchy",
     "climate-resilience-and-decarbonization": "Climate Resilience and Decarbonization",
     "decision-dossiers": "Decision Dossiers and Policy Options",
@@ -2954,5 +3010,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 419
+  "totalPages": 427
 }

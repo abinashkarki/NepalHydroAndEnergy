@@ -37,7 +37,7 @@ plant/corridor cohort. Do not request NEA to create a new analysis.
 
 ## English Draft
 
-**To:** Information Officer, Nepal Electricity Authority
+**To:** Information Officer, Nepal Electricity Authority  
 **Subject:** Request for existing electronic records on generation dispatch and curtailment — FY 2080/81 and 2081/82
 
 Dear Information Officer,
@@ -71,13 +71,13 @@ basis for withholding that field.
 
 Sincerely,
 
-[Name]
-[Nepali citizenship/identity and contact details, if required]
+[Name]  
+[Nepali citizenship/identity and contact details, if required]  
 [Date]
 
 ## नेपाली मस्यौदा
 
-**प्रति:** सूचना अधिकारी, नेपाल विद्युत प्राधिकरण
+**प्रति:** सूचना अधिकारी, नेपाल विद्युत प्राधिकरण  
 **विषय:** आ.व. २०८०/८१ र २०८१/८२ का उत्पादन डिस्प्याच तथा कटौती सम्बन्धी विद्यमान विद्युतीय अभिलेख माग सम्बन्धमा
 
 महोदय/महोदया,
@@ -110,8 +110,8 @@ Sincerely,
 
 भवदीय,
 
-[नाम]
-[आवश्यक परे नागरिकता/पहिचान र सम्पर्क]
+[नाम]  
+[आवश्यक परे नागरिकता/पहिचान र सम्पर्क]  
 [मिति]
 
 ## Review Checklist Before Sending

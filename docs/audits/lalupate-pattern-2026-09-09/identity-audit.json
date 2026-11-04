@@ -1,0 +1,48 @@
+{
+  "source": {
+    "path": "data/raw/projects_storage/hydro_naxa_datasets.csv",
+    "rows": 572,
+    "unique_project_names": 569,
+    "nonblank_promoter_rows": 572
+  },
+  "deployed_display_snapshot": {
+    "path": "evidence/data__processed__maps__hydropower_project_display_points.geojson",
+    "features": 572,
+    "unique_project_names": 569,
+    "promoter_key_features": 0,
+    "promoter_loss_rows": 572
+  },
+  "deployed_fact_snapshot": {
+    "path": "evidence/wiki__explorer__shared__wiki-fact-index.json",
+    "facts": 666,
+    "hydro_facts": 568,
+    "display_source_facts": 560,
+    "exact_name_pair_rows": 563,
+    "exact_name_matched_identities": 560,
+    "promoter_present_matched_identities": 10,
+    "promoter_blank_matched_identities": 550,
+    "unmatched_source_names": [
+      "Mai Cascade HPP",
+      "Mewa khola HPP",
+      "Mugu Karnali HPP",
+      "Rawa Khola HEP",
+      "Rawa Khola HPP",
+      "Rolwaling Khola HPP",
+      "Sabha Khola A HEP",
+      "Thulo Khola Hydropower Project",
+      "Upper Tamor HEP"
+    ]
+  },
+  "duplicate_project_names": [
+    "Ghunsa Khola HPP",
+    "Phalakhu Khola HPP",
+    "Seti Khola HPP"
+  ],
+  "representative_promoter_rows": [
+    {"csv_line": 65, "project": "Dana Khola Hydropower Project", "promoter": "Lalupate Hydropower Company Pvt. Ltd.", "fact_promoter": ""},
+    {"csv_line": 2, "project": "Aayu Chhatigad Hydropower Project", "promoter": "Puwa Khola-1 Hydro Power Pvt.Ltd.", "fact_promoter": ""},
+    {"csv_line": 4, "project": "Adhikhola Storage HEP", "promoter": "Nepal Electricity Authority", "fact_promoter": ""},
+    {"csv_line": 17, "project": "Balephi", "promoter": "Balephi Jalbidhut Company Ltd", "fact_promoter": ""},
+    {"csv_line": 57, "project": "Chilime", "promoter": "Chilime Hydropower Company Limited", "fact_promoter": "Chilime Hydropower Company Limited"}
+  ]
+}

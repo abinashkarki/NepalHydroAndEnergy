@@ -86,11 +86,11 @@ assert.equal(sources[0].sourceSeeking, true);
 assert.equal(sources[0].evidenceCount, 1);
 assert.equal(sources.answer.title, "Evidence for Upper Karnali");
 
-// An entity name that happens to contain a basin name stays with lexical
-// search instead of prepending an unrelated basin-wide capacity list.
+// A project name that contains a basin name retrieves that record alone,
+// rather than an unrelated basin-wide capacity list.
 const exactEntity = index.seek("Upper Karnali");
-assert.equal(exactEntity.length, 0);
-assert.equal(exactEntity.intent.constraints.noFacts, true);
+assert.deepEqual(titles(exactEntity), ["Upper Karnali"]);
+assert.equal(exactEntity.intent.kind, "fact-lookup");
 
 const targetedStatus = index.seek("stalled Upper Karnali project");
 assert.deepEqual(titles(targetedStatus), ["Upper Karnali"]);
