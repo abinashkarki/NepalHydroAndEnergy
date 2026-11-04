@@ -1,7 +1,7 @@
 {
   "version": 1,
   "_doc": "Published wiki figure registry. Figure paths resolve relative to wiki/explorer/.",
-  "generated_at": "2026-05-21",
+  "generated_at": "2026-11-04",
   "default_license": "CC-BY 4.0",
   "figures": {
     "monthly_trade_3y": {
@@ -21,7 +21,7 @@
       "caveat": "Annual-report comparison chart totals differ slightly from NEA narrative totals.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "data/processed/tables/nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv": "429957d9ecca98a3b736f6cad16e4dcb274f33a3822266c0256cfc260261e068"
       }
@@ -44,9 +44,9 @@
       "caveat": "Fleet taxonomy varies by reporting source; FY 2022/23 seasonal split is single-year.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
-        "wiki/pages/data/data-fleet-composition.md": "051b51c51edf82fe643ccd5b24eaf357bd221dd5292c2d5f3511b57ad056fcbd"
+        "wiki/pages/data/data-fleet-composition.md": "0d475db4f3de6607bc873f38fd3b86aa949582e5d5287d7f95220ec75c90cea8"
       }
     },
     "basin_seasonality_compare": {
@@ -67,7 +67,7 @@
       "caveat": "Metrics mix runoff, surface flow, and rainfall depending on available public source.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "data/processed/tables/nepal_basin_seasonality_baseline.csv": "1de5c88f9ecb9d40d305b20f75139a5e42cfe6d12d69fc7384ef4d7a651dca84"
       }
@@ -91,7 +91,7 @@
       "caveat": "JICA storage-need estimates are electricity-system planning needs; current storage uses Kulekhani operational capacity.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "data/processed/tables/nepal_storage_dry_energy_shortlist.csv": "edfb715311555f3dd27fae0e97cb35f45ceaa4e34d81813d45243cc0c49765b3",
         "wiki/pages/data/data-storage-comparison.md": "4e678aadea0e62ca54e74a117205580b10220107cc8be6faa44fc42a3f1ddc3f"
@@ -115,7 +115,7 @@
       "caveat": "Annual totals hide the wet-export and dry-import monthly structure shown in monthly_trade_3y.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "wiki/pages/data/data-trade-time-series.md": "0abd49f63611fc97d848a551b9feeebb3ece3c5830ff806f9e29497f023e2e59"
       }
@@ -137,7 +137,7 @@
       "caveat": "Compact wiki figure excludes daily-report parsed points; see the lead-1 table for daily subset coverage.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "data/processed/lead1_trade/lead1_monthly_import_export_storage_fy2081_82.csv": "4e68c008a50f2e03e61ee7bd617e3b93b20abed38995cc7f35480f46739ae4b2"
       }
@@ -159,7 +159,7 @@
       "caveat": "Licensing-stage counts are administrative status snapshots, not financing readiness.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "data/processed/naxa_hydropower_projects.csv": "e84f52d2aa7b108ba40a582dc713c523c99ad56074818e8bc50f2392340d3176"
       }
@@ -181,7 +181,7 @@
       "caveat": "Public-portal operating status and capacity values can lag commissioning updates.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "data/processed/naxa_hydropower_projects.csv": "e84f52d2aa7b108ba40a582dc713c523c99ad56074818e8bc50f2392340d3176"
       }
@@ -204,7 +204,7 @@
       "caveat": "Gross potential is not equivalent to economically developable or transmission-ready capacity.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "data/processed/wecs_hydropower_potential_2019.txt": "9e18e4bba07bd95715e15465d8cac6f4b5d22c60584d76135567b28c546fc6a8"
       }
@@ -227,7 +227,7 @@
       "caveat": "Monthly capacity-balance rows do not replace hourly dispatch or adequacy modeling.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "data/processed/tables/nea_monthly_capacity_balance_fy2024_2025.csv": "d76b7e0d14da43373dc9d812ce42396ee5c639d379a3cd6d5e871deec249722b"
       }
@@ -249,7 +249,7 @@
       "caveat": "First five months only; this is not a full-year revenue curve.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "wiki/pages/data/data-trade-time-series.md": "0abd49f63611fc97d848a551b9feeebb3ece3c5830ff806f9e29497f023e2e59"
       }
@@ -273,9 +273,150 @@
       "caveat": "Intermediate levels are compiled order-of-magnitude estimates, not definitive ceilings.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "source_file_hashes": {
         "wiki/pages/data/data-potential-pyramid.md": "106f0e982c02c420e5e605799a906377df8e6b0f5e14e43bb2795c15c4931a67"
+      }
+    },
+    "energy_balance_fy2025_26": {
+      "figure_id": "energy_balance_fy2025_26",
+      "title": "Monthly domestic generation and national demand, FY 2025/26",
+      "path": "../assets/figures/energy_balance_fy2025_26.svg",
+      "source_files": [
+        "data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2025-26"
+      ],
+      "target_pages": [
+        "master-thesis",
+        "seasonal-mismatch"
+      ],
+      "caption": "Domestic generation exceeded national demand from Baishakh to Mangshir and fell short from Poush to Chaitra, even though FY 2025/26 ended with 2,794 GWh of net exports.",
+      "caveat": "Monthly energy-balance table totals (exports 3,938 GWh, imports 1,155 GWh) differ slightly from the managing director's summary (3,965 and 1,171 GWh).",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-11-04",
+      "source_file_hashes": {
+        "data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv": "355481b94b3fd041b02faa1153b5201ccbd8346e0a68ab411eb1b4bfa48f7511"
+      }
+    },
+    "storage_vs_imports_fy2025_26": {
+      "figure_id": "storage_vs_imports_fy2025_26",
+      "title": "Monthly imports versus seasonal-storage generation, FY 2025/26",
+      "path": "../assets/figures/storage_vs_imports_fy2025_26.svg",
+      "source_files": [
+        "data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2025-26"
+      ],
+      "target_pages": [
+        "storage-deficit"
+      ],
+      "caption": "The Kulekhani cascade generated 92 GWh across FY 2025/26, most of it in Baishakh and Jestha; Nepal imported 1,155 GWh, most of it from Poush to Chaitra.",
+      "caveat": "The energy-balance STORAGE row equals the Kulekhani I-III plant totals (53.0, 26.4 and 12.9 GWh) in NEA's generation table.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-11-04",
+      "source_file_hashes": {
+        "data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv": "355481b94b3fd041b02faa1153b5201ccbd8346e0a68ab411eb1b4bfa48f7511"
+      }
+    },
+    "mw_vs_dependable_fy2025_26": {
+      "figure_id": "mw_vs_dependable_fy2025_26",
+      "title": "Installed capacity, peak demand and dry-season output, FY 2025/26",
+      "path": "../assets/figures/mw_vs_dependable_fy2025_26.svg",
+      "source_files": [
+        "data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2025-26"
+      ],
+      "target_pages": [
+        "master-thesis",
+        "claim-mw-not-equal-value"
+      ],
+      "caption": "4,120 MW was installed and national peak demand reached 2,479 MW, but domestic generation in Falgun averaged about 1,110 MW across the month; operating seasonal storage is 106 MW.",
+      "caveat": "The Falgun figure divides 801 GWh by the hours in a 30-day month. It is an average, not dependable peak-hour capacity, which is not published.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-11-04",
+      "source_file_hashes": {
+        "data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv": "355481b94b3fd041b02faa1153b5201ccbd8346e0a68ab411eb1b4bfa48f7511"
+      }
+    },
+    "nea_cost_structure_fy2025_26": {
+      "figure_id": "nea_cost_structure_fy2025_26",
+      "title": "NEA cost lines as a share of energy-sales revenue, FY 2025/26",
+      "path": "../assets/figures/nea_cost_structure_fy2025_26.svg",
+      "source_files": [
+        "wiki/pages/sources/nea-annual-report-fy2025-26.md"
+      ],
+      "source_slugs": [
+        "nea-annual-report-fy2025-26"
+      ],
+      "target_pages": [
+        "nea-triple-authority"
+      ],
+      "caption": "Power purchases of NRs 96.1 billion equalled 65% of NEA's NRs 148.6 billion energy-sales revenue in FY 2025/26, up 23.97% on the year.",
+      "caveat": "Managing director's report figures, pre-audit. Cost lines are not exhaustive and do not sum to revenue minus profit because other income and provisions are excluded.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-11-04",
+      "source_file_hashes": {
+        "wiki/pages/sources/nea-annual-report-fy2025-26.md": "cfbb6bda89cfb31530f5a765f728c9604e7de16cc354b84ac764620b45b80d70"
+      }
+    },
+    "schedule_slippage": {
+      "figure_id": "schedule_slippage",
+      "title": "Planned versus actual or latest expected completion for three hydropower projects",
+      "path": "../assets/figures/schedule_slippage.svg",
+      "source_files": [
+        "wiki/pages/entities/chameliya-hydropower.md",
+        "wiki/pages/entities/tanahu-hydropower.md",
+        "wiki/pages/entities/arun-3.md"
+      ],
+      "source_slugs": [
+        "adb-tanahu-project-documents-2026",
+        "nea-annual-report-fy2025-26"
+      ],
+      "target_pages": [
+        "buildability"
+      ],
+      "caption": "Chameliya was planned for June 2011 and commissioned in February 2018; Tanahu was appraised for completion by end-2020 and was about 78% complete in mid-2026; Arun-3's expected commissioning moved a year later between May 2025 and May 2026.",
+      "caveat": "Arun-3's two points are successive developer expectations, not the original target. Mid-year positions are approximate.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-11-04",
+      "source_file_hashes": {
+        "wiki/pages/entities/chameliya-hydropower.md": "9a19fa5b8a5bd622f0b396786c6521c2e2c29541e7d681cd6917a1e4580654dd",
+        "wiki/pages/entities/tanahu-hydropower.md": "462a615b10f99856e7fecb14a566e1afdebb83f54e6a8da062d76516a9a93d0f",
+        "wiki/pages/entities/arun-3.md": "76678940c02aa7760586f66e854a51996fd8920c0e31ceb38782bc5f21bc33cb"
+      }
+    },
+    "contracted_energy_performance": {
+      "figure_id": "contracted_energy_performance",
+      "title": "Actual generation as a share of contracted energy, selected projects",
+      "path": "../assets/figures/contracted_energy_performance.svg",
+      "source_files": [
+        "wiki/pages/concepts/q-design-discharge.md"
+      ],
+      "source_slugs": [
+        "chilime-annual-report-fy2078-79",
+        "care-ratings-sanima-mai",
+        "ukhl-annual-report"
+      ],
+      "target_pages": [
+        "q-design-discharge"
+      ],
+      "caption": "Only Chilime exceeded its contracted energy in the years shown; the others delivered 68–96% of contract, with Sanima Mai falling to 73% in FY 2078/79.",
+      "caveat": "A small, non-random sample from company reports and ratings; no central public database tracks generation against contract. Likhu-2's FY 2023/24 shortfall reflected a substation bottleneck and is excluded.",
+      "license": "CC-BY 4.0",
+      "generator_script": "scripts/build_wiki_figures.py",
+      "last_generated": "2026-11-04",
+      "source_file_hashes": {
+        "wiki/pages/concepts/q-design-discharge.md": "d22fb568fc23fa71e3280499aea7bfcb5dee809762396c6e94378023c2381c43"
       }
     },
     "hydropower_license_map": {
@@ -295,7 +436,7 @@
       "caveat": "Static map is a portfolio snapshot; use the explorer map for current interactive filtering.",
       "license": "CC-BY 4.0",
       "generator_script": "scripts/build_wiki_figures.py",
-      "last_generated": "2026-05-21",
+      "last_generated": "2026-11-04",
       "format": "png",
       "legacy_source": "figures/hydropower_license_map.png",
       "raster_ok": true,

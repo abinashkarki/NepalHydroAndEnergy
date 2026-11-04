@@ -16,7 +16,7 @@ verification_status: primary-project-document-checked
 excerpt: The 2021 resettlement action plan for Hetauda–Dhalkebar–Inaruwa transmission components and affected assets.
 caveat: A plan documents scope and intended measures at its date; it does not prove current completion or livelihood outcomes.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 tags: [source, transmission, hddi, resettlement, right-of-way, world-bank]
 ---
 

@@ -138,21 +138,15 @@
       "tier": "core",
       "metrics": [
         {
-          "id": "fleet_ror_share",
-          "name": "RoR fleet share",
-          "value": "85.7%",
+          "id": "operating_hydro_register_total",
+          "name": "Operating Hydro Register Total",
+          "value": "3,909.721 MW",
           "source_slug": "data-fleet-composition"
         },
         {
-          "id": "fleet_pror_share",
-          "name": "PRoR fleet share",
-          "value": "9.9%",
-          "source_slug": "data-fleet-composition"
-        },
-        {
-          "id": "fleet_storage_share",
-          "name": "Storage fleet share",
-          "value": "3.7%",
+          "id": "kulekhani_register_share",
+          "name": "Kulekhani Register Share",
+          "value": "2.71%",
           "source_slug": "data-fleet-composition"
         },
         {

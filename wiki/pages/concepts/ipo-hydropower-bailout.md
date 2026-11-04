@@ -5,7 +5,7 @@ created: 2026-05-02
 updated: 2026-07-13
 sources: [sebon-hydropower-offering-records, chilime-annual-report-fy2078-79]
 tags: [IPO, rights-shares, NEPSE, SEBON, retail-investors, debt, bailout, capital-markets]
-page_quality: analysis
+page_quality: brief
 ---
 
 # IPO Hydropower Bailout

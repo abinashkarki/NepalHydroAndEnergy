@@ -6,7 +6,7 @@ updated: 2026-05-13
 sources: [wb-country-economic-memo-2025]
 tags: [country, bhutan, comparison, export, india]
 generator: manual
-page_quality: analysis
+page_quality: record
 ---
 
 # Bhutan Hydropower Model

@@ -4,7 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-07-10
 generator: specs-refresh
-page_quality: analysis
+page_quality: flagship
 sources: [pancheshwar-official-project-record, national-water-plan-nepal, wb-ganges-strategic-basin-assessment]
 tags: [project, storage, bilateral, treaty, mahakali, stalled, geopolitics]
 images:

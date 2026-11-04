@@ -3,8 +3,8 @@ title: Systemic Risk and Triple-Authority Research Compilation (2026)
 type: source
 created: 2026-05-02
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 source_type: research-compilation
 source_author: Not recorded in repository
 source_date: Not recorded in repository
@@ -14,7 +14,7 @@ sources: []
 tags: [source, financial, capital-markets, ipo, rights-shares, nea, nepse]
 excerpt: A legacy research compilation that proposed links among utility governance, project finance and hydropower securities; it is a research lead, not independent evidence for its claims.
 caveat: The underlying 17-page file, authorship, date and row-level source map are not archived here; quantitative and named-project claims require reconstruction from primary records.
-page_quality: analysis
+page_quality: record
 maturity: working-page
 ---
 

@@ -7,7 +7,7 @@ sources: [moewri-ipsdp-exec-summary-2025]
 tags: [project, survey, koshi, storage]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Tamor Storage

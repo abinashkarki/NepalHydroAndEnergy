@@ -7,7 +7,7 @@ sources: [likhu-cascade-research-compilation]
 tags: [project, operating, private-ipp, ramechhap, solukhumbu, okhaldhunga, koshi]
 images: []
 generator: specs-refresh
-page_quality: analysis
+page_quality: brief
 ---
 
 # Likhu -1

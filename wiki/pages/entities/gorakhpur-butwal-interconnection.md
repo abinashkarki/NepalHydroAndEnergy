@@ -7,7 +7,7 @@ updated: 2026-07-10
 sources: [powergrid-gorakhpur-butwal-fy2024-25, nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 400kv, cross-border, india, butwal, gorakhpur, under-construction]
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Gorakhpur–New Butwal 400 kV Interconnection

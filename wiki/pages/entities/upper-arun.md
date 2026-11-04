@@ -33,7 +33,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Upper Arun Hydroelectric Project

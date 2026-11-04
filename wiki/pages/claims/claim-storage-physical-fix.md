@@ -2,9 +2,9 @@
 title: Storage Is the Clearest Physical Answer to Seasonal Mismatch
 type: claim
 created: 2026-04-14
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 claim_id: C-008
 confidence: high

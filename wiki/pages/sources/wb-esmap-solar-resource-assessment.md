@@ -17,7 +17,7 @@ tags: [esmap, world-bank, solar, wind, resource-assessment, pyranometer, GHI, DN
 excerpt: World Bank ESMAP's Nepal solar and wind measurement programme and ground-station resource evidence.
 caveat: Resource measurement does not establish project feasibility, land availability, grid connection or operating output.
 maturity: verified-core
-page_quality: flagship
+page_quality: analysis
 ---
 
 # World Bank ESMAP Nepal Solar and Wind Resource Measurement

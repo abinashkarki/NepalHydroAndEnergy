@@ -17,7 +17,7 @@ tags: [world-bank, economics, trade, grid, ipp, official]
 excerpt: The World Bank's 2025 account of Nepal's growth constraints, including power-sector expansion, trade and enterprise reliability evidence.
 caveat: Many figures have 2022–2024 cutoffs and do not replace current NEA operating records or a utility interruption series.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # World Bank Nepal Country Economic Memorandum (2025)

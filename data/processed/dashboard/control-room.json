@@ -1299,15 +1299,15 @@
       }
     ]
   },
-  "data_as_of": "2026-08-30",
+  "data_as_of": "2026-11-04",
   "inputs": [
     {
       "path": "wiki/explorer/shared/wiki-page-meta.json",
-      "sha256": "e3d41bc429807cd6f9968bb00761921fd330cb0aa86822deec864bd8a888eb1e"
+      "sha256": "f7908d8f8876864d78207411d4de2fa6a23fa7ed604e83883e4542bb35b34574"
     },
     {
       "path": "wiki/explorer/shared/wiki-backlinks.json",
-      "sha256": "b400848f6e49a1a693237626848e2ad9506959210732227470f22b1cfa178a68"
+      "sha256": "98407583b79711255f6f2db6c610fd92590e243bbe30682b0b36b272535e4a61"
     },
     {
       "path": "wiki/explorer/shared/wiki-fact-index.json",
@@ -2613,31 +2613,32 @@
         "auto-stub": 70,
         "figures": 1,
         "manual": 80,
-        "none": 239,
+        "none": 241,
         "specs-refresh": 37
       },
       "quality_counts": {
-        "analysis": 318,
-        "flagship": 33,
-        "record": 76
+        "analysis": 90,
+        "brief": 177,
+        "flagship": 11,
+        "record": 151
       },
-      "source_pages": 88,
+      "source_pages": 89,
       "sources_missing_date": 18,
       "sources_missing_url": 15,
-      "sources_with_date": 70,
+      "sources_with_date": 71,
       "sources_with_last_checked": 0,
-      "sources_with_url": 73,
-      "sources_without_backlinks": 8,
+      "sources_with_url": 74,
+      "sources_without_backlinks": 6,
       "structured_facts": 666,
-      "total_pages": 427,
+      "total_pages": 429,
       "type_counts": {
         "claim": 16,
         "concept": 46,
         "data": 63,
         "decision-dossier": 5,
         "entity": 187,
-        "source": 88,
-        "synthesis": 22
+        "source": 89,
+        "synthesis": 23
       }
     },
     "monitoring": {
@@ -5207,7 +5208,7 @@
         "source_url": "https://www.adb.org/projects/43281-013/main",
         "title": "ADB Tanahu Hydropower Project Documents (2026)",
         "updated": "2026-07-30",
-        "used_by_count": 1,
+        "used_by_count": 4,
         "wiki_url": "/wiki/explorer/?page=adb-tanahu-project-documents-2026"
       },
       {
@@ -5235,7 +5236,7 @@
         "source_url": "https://www.aiib.org/en/projects/details/2026/proposed/nepal-dudhkoshi-storage-hydroelectric-project.html",
         "title": "AIIB Dudhkoshi Storage Hydroelectric Project Summary (2026)",
         "updated": "2026-07-10",
-        "used_by_count": 2,
+        "used_by_count": 3,
         "wiki_url": "/wiki/explorer/?page=aiib-dudhkoshi-project-2026"
       },
       {
@@ -5277,7 +5278,7 @@
         "source_url": null,
         "title": "CARE Ratings Nepal — Sanima Mai Hydropower Credit Assessments",
         "updated": "2026-05-12",
-        "used_by_count": 0,
+        "used_by_count": 1,
         "wiki_url": "/wiki/explorer/?page=care-ratings-sanima-mai"
       },
       {
@@ -5291,7 +5292,7 @@
         "source_url": null,
         "title": "Chilime Hydropower Company Limited Annual Report FY 2078/79",
         "updated": "2026-05-10",
-        "used_by_count": 1,
+        "used_by_count": 2,
         "wiki_url": "/wiki/explorer/?page=chilime-annual-report-fy2078-79"
       },
       {
@@ -5375,7 +5376,7 @@
         "source_url": "https://erc.gov.np/download-notice-file/Notices-202602151711173999.pdf",
         "title": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)",
         "updated": "2026-07-25",
-        "used_by_count": 3,
+        "used_by_count": 5,
         "wiki_url": "/wiki/explorer/?page=erc-eca-storage-ppa-discussion-paper-2025"
       },
       {
@@ -5403,7 +5404,7 @@
         "source_url": "https://www.erc.gov.np/erc-notice-file/Notices-202602151506433031.pdf",
         "title": "ERC Reservoir-Based Generating Station Electricity Purchase and Sale Directive 2082",
         "updated": "2026-07-25",
-        "used_by_count": 3,
+        "used_by_count": 7,
         "wiki_url": "/wiki/explorer/?page=erc-reservoir-ppa-directive-2082"
       },
       {
@@ -5557,7 +5558,7 @@
         "source_url": null,
         "title": "India Cross-Border Trade in Electricity Guidelines (2018)",
         "updated": "2026-05-12",
-        "used_by_count": 2,
+        "used_by_count": 3,
         "wiki_url": "/wiki/explorer/?page=india-cbte-2018"
       },
       {
@@ -5781,8 +5782,22 @@
         "source_url": "https://nea.org.np/uploads/shares/publication/77022320.pdf",
         "title": "NEA Annual Report FY 2024/25",
         "updated": "2026-05-21",
-        "used_by_count": 59,
+        "used_by_count": 65,
         "wiki_url": "/wiki/explorer/?page=nea-annual-report-fy2024-25"
+      },
+      {
+        "has_last_checked": false,
+        "has_source_date": true,
+        "has_url": true,
+        "last_checked": null,
+        "slug": "nea-annual-report-fy2025-26",
+        "source_date": "2026-08-18",
+        "source_href": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+        "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+        "title": "NEA Annual Report FY 2025/26",
+        "updated": "2026-11-04",
+        "used_by_count": 23,
+        "wiki_url": "/wiki/explorer/?page=nea-annual-report-fy2025-26"
       },
       {
         "has_last_checked": false,
@@ -5851,7 +5866,7 @@
         "source_url": "https://nea.org.np/uploads/shares/Tender_Award/1731396732_amendment.pdf?csrt=13757254593846507005",
         "title": "NEA Notice of Intent to Award Solar Projects (2024)",
         "updated": "2026-05-12",
-        "used_by_count": 5,
+        "used_by_count": 6,
         "wiki_url": "/wiki/explorer/?page=nea-solar-loi-2024"
       },
       {
@@ -5907,7 +5922,7 @@
         "source_url": "https://unfccc.int/sites/default/files/2025-05/Nepal%20NDC3.pdf",
         "title": "Nepal Nationally Determined Contribution 3.0 (2025)",
         "updated": "2026-07-19",
-        "used_by_count": 1,
+        "used_by_count": 2,
         "wiki_url": "/wiki/explorer/?page=nepal-ndc-3-2025"
       },
       {
@@ -6117,7 +6132,7 @@
         "source_url": null,
         "title": "UKHLL Annual Reports — Upper Tamakoshi Hydropower Limited",
         "updated": "2026-05-12",
-        "used_by_count": 0,
+        "used_by_count": 1,
         "wiki_url": "/wiki/explorer/?page=ukhl-annual-report"
       },
       {
@@ -6215,7 +6230,7 @@
         "source_url": "https://documents1.worldbank.org/curated/en/099032125103030263/pdf/P179761-430153ad-672c-4418-89c5-ef3740c65113.pdf",
         "title": "World Bank Nepal Country Economic Memorandum (2025)",
         "updated": "2026-04-14",
-        "used_by_count": 10,
+        "used_by_count": 14,
         "wiki_url": "/wiki/explorer/?page=wb-country-economic-memo-2025"
       },
       {
@@ -6229,7 +6244,7 @@
         "source_url": "https://esmap.org/renewable_energy_resource_mapping",
         "title": "World Bank ESMAP Nepal Solar and Wind Resource Measurement",
         "updated": "2026-05-11",
-        "used_by_count": 8,
+        "used_by_count": 10,
         "wiki_url": "/wiki/explorer/?page=wb-esmap-solar-resource-assessment"
       },
       {
@@ -6271,7 +6286,7 @@
         "source_url": "https://documents1.worldbank.org/curated/en/099324006302540761/pdf/IDU-686cabfc-60ae-4f9f-9161-f3a6d2ec12c0.pdf",
         "title": "World Bank Economics of Household Cooking Using Electricity in Nepal",
         "updated": "2026-07-10",
-        "used_by_count": 4,
+        "used_by_count": 5,
         "wiki_url": "/wiki/explorer/?page=wb-household-electric-cooking-nepal-2025"
       },
       {
@@ -6355,7 +6370,7 @@
         "source_url": "https://wecs.gov.np/content/37/hydropower-potential-of-nepal-2019/",
         "title": "WECS Assessment of Hydropower Potential of Nepal (2019)",
         "updated": "2026-04-14",
-        "used_by_count": 11,
+        "used_by_count": 14,
         "wiki_url": "/wiki/explorer/?page=wecs-hydropower-potential-2019"
       },
       {
@@ -6369,7 +6384,7 @@
         "source_url": "https://giwmscdntwo.gov.np/media/pdf_upload/River%20Basin%20Plan_Final%20Main%20Report_Print%20version_corrected_20240924_vvcb7lm.pdf",
         "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
         "updated": "2026-05-11",
-        "used_by_count": 8,
+        "used_by_count": 11,
         "wiki_url": "/wiki/explorer/?page=wecs-river-basin-plan-2024"
       },
       {

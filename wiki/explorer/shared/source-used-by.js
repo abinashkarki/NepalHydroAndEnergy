@@ -39,13 +39,13 @@ function renderReferenceSection(refs, options = {}) {
     (byCat[r.category] = byCat[r.category] || []).push(r);
   }
   const catLabel = {
-    entities: "Entities",
-    concepts: "Concepts",
-    syntheses: "Syntheses",
+    entities: "Projects & places",
+    concepts: "Explainers",
+    syntheses: "Analysis",
     claims: "Claims",
     sources: "Sources",
     data: "Data",
-    interventions: "Decision Dossiers",
+    interventions: "Policy options",
   };
   const spatialSlugs = options.spatialSlugs;
   const parts = [];

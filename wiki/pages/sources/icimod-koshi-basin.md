@@ -9,7 +9,7 @@ source_date: 2023-01-01
 source_url: https://www.icimod.org/initiative/koshi-basin-programme-future/
 sources: []
 tags: [icimod, koshi, basin, downstream, flood]
-page_quality: analysis
+page_quality: brief
 ---
 
 # ICIMOD Koshi Basin Programme

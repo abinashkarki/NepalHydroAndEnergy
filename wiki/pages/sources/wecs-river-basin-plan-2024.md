@@ -17,7 +17,7 @@ tags: [wecs, hydrology, basins, discharge, planning, official]
 excerpt: WECS's 2024 basin-planning source for discharge, seasonality and hydropower-resource context.
 caveat: Basin-border or modelled flows must retain their measurement point and cannot be substituted for project-site design hydrology.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # WECS River Basin Plans and Hydropower Development Master Plan (2024)

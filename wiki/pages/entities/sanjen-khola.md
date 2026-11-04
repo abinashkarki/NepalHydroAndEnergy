@@ -7,7 +7,7 @@ sources: [nea-annual-report-fy2024-25]
 tags: [project, under-construction, rasuwa]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Sanjen Khola

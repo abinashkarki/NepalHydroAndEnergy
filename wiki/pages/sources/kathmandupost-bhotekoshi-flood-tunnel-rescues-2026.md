@@ -9,7 +9,7 @@ source_date: 2026-08-29
 source_url: https://kathmandupost.com/national/2026/08/29/hundreds-feared-trapped-in-hydropower-tunnels-after-bhotekoshi-flood
 sources: []
 tags: [bhotekoshi, trishuli, rasuwa, flood-2026, hazards, nea, ippan, rescue, official]
-page_quality: analysis
+page_quality: record
 ---
 
 # Kathmandu Post — Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)

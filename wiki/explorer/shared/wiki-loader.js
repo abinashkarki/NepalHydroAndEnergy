@@ -421,10 +421,22 @@ function renderFilmstrip(images) {
   return `<div class="wiki-filmstrip" data-count="${images.length}">${items}</div>`;
 }
 
+// Reader-facing names for the internal page categories.
+const READER_CATEGORY_LABEL = {
+  syntheses: "Analysis",
+  claims: "Claim",
+  concepts: "Explainer",
+  interventions: "Policy option",
+  entities: "Project or place",
+  data: "Data",
+  sources: "Source",
+};
+
 function rewriteWikilinks(html, slugIndex, spatialSlugs, onClickAttr = "openWikiPage") {
   return html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => {
     const slug = target.trim();
-    const text = (label || slug).trim();
+    // Unlabelled links show the page title rather than the raw slug.
+    const text = label ? label.trim() : escapeHtml((slugIndex.slugToTitle && slugIndex.slugToTitle[slug]) || slug);
     const known = slugIndex.allSlugs && slugIndex.allSlugs.includes(slug);
     const klass = ["wikilink"];
     if (!known) klass.push("broken");
@@ -477,8 +489,8 @@ async function renderPage(slug, opts = {}) {
   }
 
   const pageStatus = renderPageStatus(frontmatter);
-  const categoryLabel = category === "interventions" ? "Decision Dossier" : category;
-  const catWithFreshness = `<div class="wiki-page-identity">${escapeHtml(categoryLabel)} · ${escapeHtml(slug)}</div>${pageStatus.line}`;
+  const categoryLabel = READER_CATEGORY_LABEL[category] || category;
+  const catWithFreshness = `<div class="wiki-page-identity">${escapeHtml(categoryLabel)}</div>${pageStatus.line}`;
   // Stash images on the page element via a data attribute so the lightbox
   // handler can read them without a global.
   const filmstrip = renderFilmstrip(images);

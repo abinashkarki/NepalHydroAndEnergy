@@ -17,7 +17,7 @@ tags: [source, cooking, electrification, household-energy, world-bank, ccac]
 excerpt: A 2025 World Bank study of household electric-cooking economics that corroborates adoption as below one percent.
 caveat: It does not provide a new exact annual national adoption share; the 0.5% figure remains a 2021 baseline.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # World Bank / CCAC Economics of Household Cooking Using Electricity in Nepal

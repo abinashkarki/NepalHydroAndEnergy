@@ -9,7 +9,7 @@ source_date: 2026-08-27
 source_url: https://kathmandupost.com/world/2026/08/27/climate-change-boosted-risk-of-devastating-himalayan-flood-experts-say
 sources: []
 tags: [bhotekoshi, flood-2026, hazards, GLOF, climate, attribution, transboundary, langtang, official]
-page_quality: analysis
+page_quality: record
 ---
 
 # Reuters — Climate change boosted risk of devastating Himalayan flood, experts say (2026)

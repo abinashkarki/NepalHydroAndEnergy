@@ -17,7 +17,7 @@ tags: [icimod, koshi, sediment, hazard, erosion]
 excerpt: ICIMOD's basin-level account of Koshi sediment loads, erosion and environmental threats.
 caveat: Basin-scale sediment estimates cannot replace site-specific sediment studies or operating records for an individual project.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # ICIMOD Threats to the Koshi River Basin

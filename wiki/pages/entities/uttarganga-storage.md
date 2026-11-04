@@ -6,7 +6,7 @@ updated: 2026-07-19
 sources: [nea-transmission-annual-book-2077, moewri-ipsdp-exec-summary-2025]
 tags: [project, top-capacity, survey, baglung]
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Uttarganga Storage Hydropower Project

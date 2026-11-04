@@ -15,7 +15,7 @@ verification_status: primary-source-bounded
 tags: [transmission, hetauda-dhalkebar, construction, operational-notice]
 excerpt: Official July 2026 outage notices establish active conductor-stringing work on the Hetauda–Dhalkebar section, but do not establish completion, energisation, a remaining-tower count or transfer capacity.
 caveat: Maintenance notices evidence the named work on specific dates only; they do not establish corridor completion or a current tower denominator.
-page_quality: analysis
+page_quality: brief
 maturity: verified-core
 ---
 

@@ -6,7 +6,7 @@ updated: 2026-07-30
 source_url: https://www.adb.org/projects/43281-013/main
 publisher: Asian Development Bank
 source_date: 2026-07-30
-page_quality: analysis
+page_quality: brief
 tags: [source, tanahu, adb, safeguards, finance, construction]
 ---
 

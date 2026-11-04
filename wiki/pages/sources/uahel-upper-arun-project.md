@@ -9,7 +9,7 @@ source_date: 2026-05-08
 source_url: https://uahel.com.np/post/upper-arun-hydro-electric-project
 sources: []
 tags: [source, upper-arun, uahel, hydropower, project-page]
-page_quality: analysis
+page_quality: brief
 ---
 
 # UAHEL Upper Arun Hydroelectric Project Page

@@ -32,7 +32,7 @@ images:
     license: gov-permissive
     source_url: "../../../data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
 generator: specs-refresh
-page_quality: analysis
+page_quality: brief
 ---
 
 # Chilime

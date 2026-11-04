@@ -7,7 +7,7 @@ sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, under-construction, koshi, sindhupalchok, chilime-group]
 images: ['- src: madhya-bhotekoshi/nea2425-p193-img01.png']
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Madhya Bhotekoshi

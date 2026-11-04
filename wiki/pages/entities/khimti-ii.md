@@ -7,7 +7,7 @@ sources: [nea-annual-report-fy2024-25, icra-nepal-surveillance-a996-b119]
 tags: [project, under-construction, private-ipp, dolakha, koshi]
 images: []
 generator: specs-refresh
-page_quality: analysis
+page_quality: brief
 ---
 
 # Khimti II

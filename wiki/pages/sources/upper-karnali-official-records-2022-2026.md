@@ -5,7 +5,7 @@ created: 2026-07-10
 updated: 2026-07-10
 source_url: https://www.doed.gov.np/pages/hydromorethan1/
 publisher: Investment Board Nepal and Department of Electricity Development
-page_quality: analysis
+page_quality: brief
 tags: [source, upper-karnali, ibn, doed, financial-close, licence, gmr]
 ---
 

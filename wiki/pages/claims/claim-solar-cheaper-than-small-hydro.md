@@ -3,8 +3,8 @@ title: NEA Solar Award Tariffs Undercut the Standard Small-RoR Blended Tariff
 type: claim
 created: 2026-04-24
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2024-11-12
 claim_id: C-017
 confidence: medium-high
@@ -14,7 +14,7 @@ tags: [solar, hydro, economics, LCOE, PPA, tariff, nepal]
 excerpt: NEA's 2024 solar LoI award tariffs sit below an illustrative standard small-RoR blended PPA tariff, without proving delivered cost or firm system value.
 caveat: Award tariffs are not final delivered LCOE or commissioned performance, and solar and hydro provide different timing and firmness services.
 maturity: working-page
-page_quality: analysis
+page_quality: brief
 ---
 
 ## Claim

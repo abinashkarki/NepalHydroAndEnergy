@@ -3,15 +3,15 @@ title: Transmission and Cross-Border Electricity Trade
 type: synthesis
 created: 2026-07-19
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-05
 sources: [nea-annual-report-fy2024-25, nea-hddi-construction-notices-july-2026, world-bank-bharatpur-bardaghat-drs-2023]
 tags: [transmission, grid, trade, india, bangladesh, delivery]
 excerpt: A source-bounded guide to the corridors and market interfaces that turn generation into domestic service or electricity trade.
 caveat: Construction notices establish active work but not completion; national curtailment cannot be quantified from the current public corpus.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Transmission and Cross-Border Electricity Trade

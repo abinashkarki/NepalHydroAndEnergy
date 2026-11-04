@@ -2,16 +2,16 @@
 title: Storage and System Flexibility
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-20
-reviewed: 2026-07-20
-review_due: 2026-10-20
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2025-07-15
 sources: [nea-annual-report-fy2024-25, wb-water-sector-diagnostic, national-water-plan-nepal]
 tags: [storage, flexibility, bess, imports, demand-response]
 excerpt: The resources that shift or balance electricity across seasons, days and hours—and the operating data Nepal still does not publish.
 caveat: Storage generation is observed in NEA reporting, but reserve, battery, dispatch and state-of-charge datasets are not publicly consolidated.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Storage and System Flexibility
@@ -26,7 +26,7 @@ These are related but not interchangeable. A battery sized for an evening peak i
 
 ## What exists in the public baseline
 
-The Kulekhani cascade totals **106 MW**—60 MW at Kulekhani I, 32 MW at Kulekhani II and 14 MW at Kulekhani III—and generated **279.8 GWh** in FY2024/25. Only Kulekhani I provides the reservoir; II and III reuse its regulated downstream releases. The cascade's MW and annual GWh do not disclose usable storage volume, dispatch duration or current seasonal state. [[kulekhani-cascade]] and [[storage-deficit]] preserve those distinctions.
+The Kulekhani cascade totals **106 MW**—60 MW at Kulekhani I, 32 MW at Kulekhani II and 14 MW at Kulekhani III—and generated **279.8 GWh** in FY2024/25, falling to **92 GWh** in FY 2025/26 ([[nea-annual-report-fy2025-26]], PDF pp.175–176); the report does not explain the drop. Only Kulekhani I provides the reservoir; II and III reuse its regulated downstream releases. The cascade's MW and annual GWh do not disclose usable storage volume, dispatch duration or current seasonal state. [[kulekhani-cascade]] and [[storage-deficit]] preserve those distinctions.
 
 Other flexibility sources include peaking run-of-river operation, cross-border imports, dispatchable reservoir projects, demand response and future battery storage. The presence of a technology in a plan or tender does not verify an operating resource.
 

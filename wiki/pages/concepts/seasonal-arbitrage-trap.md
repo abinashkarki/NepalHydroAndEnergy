@@ -5,7 +5,7 @@ created: 2026-04-14
 updated: 2026-04-14
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, data-trade-time-series]
 tags: [trade, monsoon, dry-season, pricing, nepal, india, storage, PPA]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Seasonal Arbitrage Trap

@@ -6,7 +6,7 @@ updated: 2026-05-13
 sources: [nea-solar-loi-2024]
 tags: [solar, khungri, rolpa, lumbini, tender, loi, ipp, substation, planned]
 generator: manual
-page_quality: analysis
+page_quality: record
 ---
 
 # Khungri Solar Award (50 MW, Rolpa)

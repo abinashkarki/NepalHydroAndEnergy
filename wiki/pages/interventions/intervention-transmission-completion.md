@@ -3,16 +3,16 @@ title: Decision Dossier — Hetauda–Dhalkebar Completion and Community Resolut
 category: interventions
 type: decision-dossier
 created: 2026-05-09
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-08-19
-as_of: 2026-07-19
-sources: [nea-annual-report-fy2024-25, nea-hddi-construction-notices-july-2026, world-bank-hddi-rap, world-bank-bharatpur-bardaghat-drs-2023, nea-operational-reporting-portals-2026]
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2026-12-04
+as_of: 2026-10-07
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, nea-hddi-construction-notices-july-2026, world-bank-hddi-rap, world-bank-bharatpur-bardaghat-drs-2023, nea-operational-reporting-portals-2026]
 tags: [decision-dossier, transmission, hetauda-dhalkebar, right-of-way, mediation]
-excerpt: An evidence-led assessment of options for completing and commissioning Hetauda–Dhalkebar while resolving community and right-of-way concerns; current completion and remaining-tower counts are not verified.
-page_quality: flagship
+excerpt: An evidence-led assessment of options for completing and commissioning Hetauda–Dhalkebar while resolving community and right-of-way concerns; the dispute is reported resolved and charging was announced as imminent in October 2026, but energisation is not verified.
+page_quality: brief
 maturity: verified-core
-caveat: Official July 2026 notices confirm conductor-stringing activity, not completion, energisation, remaining-tower counts or a quantified national curtailment benefit.
+caveat: NEA reports the dispute resolved and an NEA official announced imminent charging in October 2026; no energisation notice or quantified national curtailment benefit had been located by 4 November 2026.
 ---
 
 # Decision Dossier — Hetauda–Dhalkebar Completion and Community Resolution
@@ -28,6 +28,7 @@ What combination of construction management, public disclosure, compensation and
 
 - [[nea-annual-report-fy2024-25]] reports that, at its July 2025 cutoff, 773 of 792 tower foundations were complete, 770 towers had been erected and more than 534 circuit-kilometres of conductor had been strung across the wider Hetauda–Dhalkebar–Inaruwa project. It also reports the Dhalkebar–Inaruwa section charged since June 2024.
 - [[nea-hddi-construction-notices-july-2026]] records NEA local-outage notices on 3 and 5 July 2026 associated with conductor-stringing work on the Hetauda–Dhalkebar section. The notices establish active work, not completion or energisation.
+- [[nea-annual-report-fy2025-26]] states that the decade-long construction dispute "has finally been resolved" and that works resumed with completion expected "in few months" (PDF pp.13–14). On 7 October 2026 NEA's executive director said 14 of the 16 towers on the outstanding stretch were built and charging would follow in about 15 days ([Spotlight Nepal, 7 Oct 2026](https://www.spotlightnepal.com/2026/10/07/hetaudadhalkebar-400-kv-transmission-line-to-be-charged-within-two-weeks/)). No energisation notice had been located by 4 November 2026, so the options below remain relevant until commissioning is confirmed.
 - [[world-bank-hddi-rap]] documents the corridor's right-of-way, land and structure impacts. These are material project-delivery issues, not merely a construction scheduling problem.
 - The public operational corpus does not contain the plant-level availability and dispatch data required to estimate national curtailed energy or attribute it to this corridor. See [[stranded-generation]] and [[nea-operational-reporting-portals-2026]].
 

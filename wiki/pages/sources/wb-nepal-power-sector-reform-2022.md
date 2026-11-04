@@ -17,7 +17,7 @@ tags: [world-bank, reform, policy, institutional, hydropower-potential, official
 excerpt: A reconciled World Bank evidence record replacing a previously misidentified standalone reform-roadmap citation.
 caveat: This page combines two documented World Bank evidence trails and does not establish that a standalone 2022 roadmap publication exists.
 maturity: verified-core
-page_quality: flagship
+page_quality: analysis
 ---
 
 # World Bank Nepal Power-Sector Evidence Record (2018–2025)

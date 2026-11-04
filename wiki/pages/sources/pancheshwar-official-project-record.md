@@ -6,7 +6,7 @@ updated: 2026-07-10
 source_url: https://www.jalshakti-dowr.gov.in/offerings/schemes-and-services/details/pancheshwar-multipurpose-project-wMwETNtQWa
 publisher: Pancheshwar Multipurpose Project and Ministry of Jal Shakti
 source_date: 2026-07-10
-page_quality: analysis
+page_quality: brief
 tags: [source, pancheshwar, mahakali, bilateral, dpr, treaty]
 ---
 

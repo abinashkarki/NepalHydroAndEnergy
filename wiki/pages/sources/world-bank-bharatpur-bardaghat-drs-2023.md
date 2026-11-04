@@ -15,7 +15,7 @@ verification_status: primary-institutional-record
 tags: [transmission, mediation, right-of-way, bharatpur-bardaghat, comparable-case]
 excerpt: The World Bank Accountability Mechanism records a mediated agreement between NEA and affected residents that allowed the last two Bharatpur–Bardaghat towers to proceed, while keeping the settlement terms confidential.
 caveat: The voluntary case involved named parties and confidential terms; it is process evidence, not a transferable settlement formula.
-page_quality: analysis
+page_quality: brief
 maturity: verified-core
 ---
 

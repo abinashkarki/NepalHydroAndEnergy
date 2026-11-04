@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "updated": "2026-07-19",
-  "description": "The public V1 flagship spine. These pages receive targeted freshness, provenance and caveat validation without forcing the full legacy corpus through the V1 template.",
+  "updated": "2026-11-04",
+  "description": "The public core spine. These pages receive targeted freshness, provenance and caveat validation. Their page_quality is earned against wiki/QUALITY_RUBRIC.md like any other page (scripts/assess_page_quality.py).",
   "pages": [
     "start-here",
     "state-of-the-system",

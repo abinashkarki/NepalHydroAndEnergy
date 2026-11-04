@@ -3,8 +3,8 @@ title: Substation-Adjacent Solar Can Offer a Shorter Development Cycle
 type: claim
 created: 2026-04-24
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 claim_id: C-014
 confidence: medium
@@ -12,7 +12,7 @@ status: stable
 sources: [nea-solar-loi-2024, nea-annual-report-fy2024-25, wb-esmap-solar-resource-assessment, global-solar-atlas-nepal]
 tags: [solar, terai, buildability, transmission, winter, short-cycle]
 excerpt: Substation-adjacent solar can move through development faster than many new hydropower projects, but land, grid studies, finance and commissioning evidence determine whether awards become operating winter supply.
-page_quality: analysis
+page_quality: brief
 maturity: working-page
 caveat: The 960 MW procurement record is an award and pre-PPA snapshot, not a commissioned fleet or proof that solar is Nepal's only pre-2030 build option.
 ---

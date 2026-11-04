@@ -7,7 +7,7 @@ updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea-annual-report-fy2024-25]
 tags: [transmission, 132kv, cross-border, india, historic, kataiya, kushaha]
 generator: manual
-page_quality: analysis
+page_quality: record
 ---
 
 # Kataiya–Kushaha 132 kV Interconnection
