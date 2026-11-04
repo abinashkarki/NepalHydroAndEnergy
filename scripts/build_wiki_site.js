@@ -21,6 +21,9 @@ const BACKLINKS_PATH = path.join(WIKI, "explorer", "shared", "wiki-backlinks.jso
 const SITE_CONFIG_PATH = path.join(WIKI, "site-config.json");
 const CHECK = process.argv.includes("--check");
 const GENERATOR = "scripts/build_wiki_site.js";
+// Applies a stored theme choice before first paint (see wiki/assets/site/theme.js).
+const THEME_BOOT = '<script>try{var t=localStorage.getItem("np-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>';
+const THEME_TOGGLE = `<button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme" title="Switch theme"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>`;
 
 // Reader-facing names for the internal ontology categories, in display order.
 const SECTIONS = [
@@ -209,7 +212,10 @@ function siteHeader(config) {
       <label class="visually-hidden" for="site-q">Search the wiki</label>
       <input id="site-q" name="q" type="search" placeholder="Search projects, claims, sources…" />
     </form>
-    <a class="site-map" href="/wiki/explorer/">Map</a>
+    <div class="site-actions">
+      <a class="site-map" href="/wiki/explorer/">Map</a>
+      ${THEME_TOGGLE}
+    </div>
   </div>
   <nav class="site-nav" aria-label="Sections">${nav}</nav>
 </header>`;
@@ -238,7 +244,10 @@ function document({ title, description, canonical, jsonLd, body, config, robots 
   <meta property="og:title" content="${escapeHtml(title)}" />
   <meta property="og:description" content="${escapeHtml(description)}" />${canonical ? `\n  <meta property="og:url" content="${escapeHtml(canonical)}" />` : ""}
   <meta name="twitter:card" content="summary" />
+  ${THEME_BOOT}
+  <link rel="stylesheet" href="/wiki/assets/site/theme.css" />
   <link rel="stylesheet" href="/wiki/assets/site/wiki.css" />
+  <script src="/wiki/assets/site/theme.js" defer></script>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b6b57'/%3E%3C/svg%3E" />${ld}
 </head>
 <body>
@@ -310,12 +319,13 @@ function renderArticle({ slug, category, meta, markdown, known, titles, backlink
   <article>
     <header class="page-head">
       <h1>${escapeHtml(meta.title)}</h1>
-      ${meta.excerpt ? `<p class="dek">${escapeHtml(meta.excerpt)}</p>` : ""}
+      ${frontmatterScalar(frontmatter, "excerpt") ? `<p class="dek">${escapeHtml(frontmatterScalar(frontmatter, "excerpt"))}</p>` : ""}
       ${renderFacts({ category, frontmatter, meta, today })}
       <p class="page-actions"><a href="${explorerHref(slug)}">Open in the interactive explorer and map</a></p>
     </header>
-    ${notices}${renderProvenance(category, frontmatter)}${filmCallout(slug, config)}
+    ${notices}${renderProvenance(category, frontmatter)}
     <div class="prose">${renderBody(body, known, titles)}</div>
+    ${filmCallout(slug, config)}
   </article>
   ${renderBacklinks(slug, category, backlinks)}
 </main>`;

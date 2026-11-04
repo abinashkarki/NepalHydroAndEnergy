@@ -1,0 +1,155 @@
+/*
+ * Nepal Energy Wiki design tokens, shared by the static reader pages
+ * (wiki/assets/site/wiki.css) and the interactive explorer
+ * (wiki/explorer/shared/style.css). Change colours here, nowhere else.
+ *
+ * Theme selection: the page follows the operating-system setting until the
+ * reader presses the theme toggle; the choice is stored in localStorage
+ * ("np-theme") and applied as <html data-theme="light|dark"> before paint.
+ */
+:root {
+  color-scheme: light;
+
+  /* Surfaces: a soft paper background with white cards keeps glare down. */
+  --bg: #f5f5f2;
+  --surface: #ffffff;
+  --surface-2: #efeee9;
+  --surface-3: #e5e4de;
+  --surface-glass: rgba(255, 255, 255, 0.92);
+
+  /* Text: near-black, never pure black. */
+  --ink: #1d2327;
+  --ink-2: #49535b;
+  --ink-3: #6b757d;
+
+  --rule: #e1dfd8;
+  --rule-strong: #cbc8bf;
+
+  /* Brand: TransparentGov navy for headings, a calm blue for links and
+     interactive state, coral reserved for highlights such as the film. */
+  --brand: #173044;
+  --accent: #1f5f8b;
+  --accent-strong: #174a6d;
+  --accent-soft: #e3edf5;
+  --accent-line: #9fbfd8;
+  --on-accent: #ffffff;
+  --highlight: #b83423;
+  --highlight-soft: #f8e8e4;
+
+  /* Status: muted, legible, and distinct from the accent. */
+  --ok: #2f6b4f;
+  --ok-soft: #e4efe8;
+  --warn: #8a5a12;
+  --warn-soft: #f7eedc;
+  --bad: #a33a2a;
+  --bad-soft: #f7e5e1;
+
+  --focus: rgba(31, 95, 139, 0.35);
+  --shadow-sm: 0 1px 2px rgba(20, 28, 34, 0.06);
+  --shadow: 0 1px 2px rgba(20, 28, 34, 0.05), 0 6px 20px rgba(20, 28, 34, 0.07);
+  --figure-dim: none;
+
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", system-ui, sans-serif;
+  --serif: "Iowan Old Style", "Charter", "Georgia", serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Charcoal, not black: lower contrast between text and ground reduces
+     halation for long reading. */
+  --bg: #131719;
+  --surface: #1a1f22;
+  --surface-2: #20262a;
+  --surface-3: #283035;
+  --surface-glass: rgba(26, 31, 34, 0.92);
+
+  --ink: #e2e5e7;
+  --ink-2: #b3bbc1;
+  --ink-3: #8b959c;
+
+  --rule: #2b3338;
+  --rule-strong: #3b454c;
+
+  --brand: #dbe4ec;
+  --accent: #8fbadc;
+  --accent-strong: #b3d1e8;
+  --accent-soft: #1d2e3b;
+  --accent-line: #4b6f8c;
+  --on-accent: #10171c;
+  --highlight: #e8836f;
+  --highlight-soft: #3a2420;
+
+  --ok: #8fc9a6;
+  --ok-soft: #1b2b23;
+  --warn: #e0b46c;
+  --warn-soft: #30281a;
+  --bad: #ec9283;
+  --bad-soft: #36221e;
+
+  --focus: rgba(143, 186, 220, 0.4);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  /* Charts are drawn on paper; soften them slightly on a dark ground. */
+  --figure-dim: brightness(0.84) contrast(0.96);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #131719;
+    --surface: #1a1f22;
+    --surface-2: #20262a;
+    --surface-3: #283035;
+    --surface-glass: rgba(26, 31, 34, 0.92);
+    --ink: #e2e5e7;
+    --ink-2: #b3bbc1;
+    --ink-3: #8b959c;
+    --rule: #2b3338;
+    --rule-strong: #3b454c;
+    --brand: #dbe4ec;
+    --accent: #8fbadc;
+    --accent-strong: #b3d1e8;
+    --accent-soft: #1d2e3b;
+    --accent-line: #4b6f8c;
+    --on-accent: #10171c;
+    --highlight: #e8836f;
+    --highlight-soft: #3a2420;
+    --ok: #8fc9a6;
+    --ok-soft: #1b2b23;
+    --warn: #e0b46c;
+    --warn-soft: #30281a;
+    --bad: #ec9283;
+    --bad-soft: #36221e;
+    --focus: rgba(143, 186, 220, 0.4);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+    --figure-dim: brightness(0.84) contrast(0.96);
+  }
+}
+
+/* Theme toggle button, used in both surfaces. */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+.theme-toggle:hover { color: var(--ink); border-color: var(--rule-strong); }
+.theme-toggle:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.theme-toggle svg { width: 16px; height: 16px; }
+.theme-toggle .icon-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: block; }
+  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
+}
