@@ -35,3 +35,7 @@ The generated routes and manifest are approved for this bounded production pilot
 3. Decide redirect timing for `/wiki/explorer/?page=<slug>`.
 4. Publish a full-wiki sitemap through the domain-root deployment.
 5. Submit the sitemap and monitor indexing through Search Console.
+
+## Design tokens and themes
+
+Colours for both the static pages and the explorer live in `wiki/assets/site/theme.css`; change them there only. Pages follow the operating-system light/dark setting until the reader presses the theme toggle, which stores the choice in `localStorage` (`np-theme`) and applies `<html data-theme>` before first paint. `wiki/assets/site/theme.js` wires the toggle and emits `np-themechange`, which the explorer uses to swap CARTO light/dark basemap tiles. Map-symbology colours (status dots, legend swatches) are data colours and stay the same in both themes.

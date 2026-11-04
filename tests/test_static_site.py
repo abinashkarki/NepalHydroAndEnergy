@@ -90,7 +90,8 @@ class StaticSiteTests(unittest.TestCase):
                 self.assertEqual([META_BY_SLUG[slug]["title"]], [text.strip() for text in page.h1])
                 graph = json.loads(page.json_ld[0])["@graph"]
                 self.assertEqual(f"{BASE}/{slug}/#article", graph[0]["@id"])
-                self.assertEqual(0, page.scripts, "static articles must not need JavaScript")
+                # Only the theme boot snippet and toggle script; content needs no JavaScript.
+                self.assertLessEqual(page.scripts, 2, "static articles must not need JavaScript beyond the theme toggle")
 
     def test_internal_links_resolve_to_generated_pages(self) -> None:
         known = set(PAGE_INDEX["allSlugs"])
