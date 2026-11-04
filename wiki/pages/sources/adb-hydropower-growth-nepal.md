@@ -9,7 +9,7 @@ source_date: 2020-01-01
 source_url: https://www.adb.org/sites/default/files/publication/612641/hydropower-development-economic-growth-nepal.pdf
 sources: []
 tags: [adb, hydropower, growth, development]
-page_quality: analysis
+page_quality: record
 ---
 
 # ADB Hydropower Growth Nepal Study

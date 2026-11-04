@@ -6,7 +6,7 @@ updated: 2026-07-10
 source_url: https://sjvn.nic.in/en/arun-iii-hep
 publisher: SJVN Limited
 source_date: 2026-07-10
-page_quality: analysis
+page_quality: brief
 tags: [source, arun-3, sjvn, construction, transmission]
 ---
 

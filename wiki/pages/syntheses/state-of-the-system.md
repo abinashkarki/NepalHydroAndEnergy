@@ -2,16 +2,16 @@
 title: State of Nepal's Electricity System
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-20
-reviewed: 2026-07-20
-review_due: 2026-10-20
-as_of: 2025-07-15
-sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
+as_of: 2026-07-16
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
 tags: [overview, system, neutral, electricity]
 excerpt: A neutral, dated account of Nepal's electricity system—capacity, demand, trade, reliability and the evidence gaps that limit stronger conclusions.
-caveat: Most operating totals are NEA FY2024/25 snapshots; later project additions and trade outcomes are not included unless separately dated.
+caveat: Operating totals are NEA FY2025/26 snapshots to mid-July 2026; the August 2026 Bhotekoshi flood losses and later project additions are not included unless separately dated.
 maturity: verified-core
-page_quality: flagship
+page_quality: analysis
 ---
 
 # State of Nepal's Electricity System
@@ -20,27 +20,30 @@ This page is the factual landing point for this wiki. It separates the latest co
 
 ## Current snapshot
 
-| Indicator | Publicly reported value | Scope and date |
-|---|---:|---|
-| Installed generation | **3,591.262 MW** | NEA FY2024/25; 3,389.912 MW hydro, 141.940 MW solar, 53.410 MW thermal and 6 MW bagasse |
-| System peak | **2,901 MW** | 1 July 2025; includes domestic demand and exports at the recorded peak |
-| National peak | **2,409 MW** | 10 June 2025; domestic system scope |
-| Available energy | **15,641 GWh** | NEA FY2024/25 |
-| Imports / exports | **1,681 / 2,380 GWh** | NEA annual-report narrative; alternative tables differ slightly and are retained in [[unresolved-questions]] |
-| Total system loss | **12.26%** | NEA FY2024/25 |
-| National grid coverage | **97.6%** | NEA FY2024/25; reach, not service-quality evidence |
-| Electricity sales | **11,288 GWh** | NEA distribution reporting, FY2024/25 |
-| Per-capita electricity use | **465 kWh** | NEA FY2024/25 |
+| Indicator | FY 2025/26 | FY 2024/25 | Scope |
+|---|---:|---:|---|
+| Installed generation | **4,120.252 MW** | 3,591.262 MW | FY 2025/26: 3,905.902 MW hydro, 154.940 MW solar, 53.410 MW thermal, 6 MW bagasse |
+| System peak | **3,226 MW** | 2,901 MW | 6 July 2026; includes domestic demand and exports at the recorded peak |
+| National peak | **2,479 MW** | 2,409 MW | 28 June 2026; domestic system scope |
+| Energy available | **18,624 GWh** | 15,641 GWh | NEA and subsidiaries 36%, IPPs 58%, imports 6% in FY 2025/26 |
+| Imports / exports | **1,171 / 3,965 GWh** | 1,681 / 2,380 GWh | Managing director's summary; the monthly energy-balance table gives 1,155 / 3,938 GWh |
+| Net export | **2,794 GWh** | 699 GWh | Exports minus imports, summary scope |
+| Total system loss | **12.16%** | 12.26% | NEA system accounting |
+| National grid coverage | **97.6%** | 97.6% | Reach, not service-quality evidence; 18 local levels unconnected |
+| Domestic consumption | **12,376 GWh** | 11,288 GWh sold | FY 2025/26 includes NEA's own use; FY 2024/25 is distribution sales, so the two are not strictly comparable |
+| Per-capita electricity use | **496 kWh** | 465 kWh | NEA |
+
+Sources: [[nea-annual-report-fy2025-26]] (PDF pp.11–14, 176, 185) and [[nea-annual-report-fy2024-25]].
 
 ## What changed
 
-Nepal has moved from chronic scheduled load shedding to a larger, IPP-heavy generation fleet and annual net electricity exports. That transition is material. It does not mean that every hour or location has abundant, reliable electricity. Hydropower output remains seasonal; dry-season imports persist; transmission projects can lag generation; and a World Bank memorandum reports that 76% of surveyed firms experienced regular outages in 2022.
+Nepal has moved from chronic scheduled load shedding to a larger, IPP-heavy generation fleet and annual net electricity exports. That transition is material: FY 2025/26 net exports of 2,794 GWh were four times the previous year's. The seasonal pattern did not disappear. In Falgun 2082 (February–March 2026), domestic generation was 801 GWh against national demand of 1,067 GWh; Nepal imported 273 GWh and exported 13 GWh. It does not mean that every hour or location has abundant, reliable electricity. Hydropower output remains seasonal; dry-season imports persist; transmission projects can lag generation; and a World Bank memorandum reports that 76% of surveyed firms experienced regular outages in 2022.
 
 The World Bank records that more than 70% of generation capacity added since 2018 came from independent power producers, which held 64% of installed hydropower capacity by the end of 2024. Those figures describe ownership and fleet growth at that cutoff; they do not establish plant availability, dispatch priority or financial health. See [[wb-country-economic-memo-2025]].
 
 ## The physical system
 
-Hydropower accounts for about 94% of installed capacity in the NEA snapshot. Because most hydro capacity is run-of-river or peaking run-of-river, river flow strongly shapes output. [[seasonal-mismatch]] explains why wet-season surplus and dry-season weakness can coexist. [[storage-and-flexibility]] covers the limited tools available to shift energy across seasons and hours.
+Hydropower accounts for about 95% of installed capacity in the FY 2025/26 NEA snapshot. Because most hydro capacity is run-of-river or peaking run-of-river, river flow strongly shapes output. [[seasonal-mismatch]] explains why wet-season surplus and dry-season weakness can coexist. [[storage-and-flexibility]] covers the limited tools available to shift energy across seasons and hours.
 
 ## Delivery, trade and end use
 
@@ -56,7 +59,8 @@ Nepal's NDC 3.0 targets 14,031 MW of renewable electricity capacity by 2030 and 
 
 | System question | Evidence used here | What it establishes | Boundary |
 |---|---|---|---|
-| What was installed and supplied? | [[nea-annual-report-fy2024-25]] | FY2024/25 capacity, available energy, peaks, sales, losses, grid coverage and annual trade narrative | Utility reporting through mid-July 2025; no plant-level dispatch or curtailment series |
+| What was installed and supplied? | [[nea-annual-report-fy2025-26]] | FY 2025/26 capacity, energy available, peaks, consumption, losses, grid coverage, annual trade and the monthly energy balance | Utility reporting through mid-July 2026; no plant-level dispatch or curtailment series |
+| How did it compare a year earlier? | [[nea-annual-report-fy2024-25]] | FY 2024/25 baseline for the comparison column | Through mid-July 2025 |
 | How did the fleet and trade structure change? | [[wb-country-economic-memo-2025]] | End-2024 ownership mix, trade history and 2022 enterprise-outage evidence | Different dates and accounting frames from the NEA fiscal-year snapshot |
 | What is government aiming for? | [[nepal-ndc-3-2025]] | Official 2030 and 2035 capacity, loss and electrification targets | A policy submission, not an implementation or financing dashboard |
 

@@ -5,7 +5,7 @@ created: 2026-04-24
 updated: 2026-05-07
 sources: [nea-annual-report-fy2024-25, wb-grid-solar-ee-project, wb-esmap-solar-resource-assessment, aepc-renewable-framework, nea-solar-loi-2024]
 tags: [solar, master-thesis, synthesis, portfolio, winter, bess, demand-shaping]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Solar in the Master Narrative
@@ -20,13 +20,13 @@ The more accurate frame is:
 
 Solar matters because it attacks the same timing failure that the hydro pages already identify. [[seasonal-mismatch]] says Nepal's RoR-heavy fleet is long in the monsoon and short in the dry season. [[solar-hydro-complementarity]] adds the missing correction: fixed-tilt utility solar is strongest in the clear dry months, especially in Terai and rain-shadow zones, exactly when RoR hydropower is weakest.
 
-The World Bank's original Grid Solar project already framed solar as a winter complement to hydro, not as a generic green add-on. The 960 MW national tender then turned that logic into a market signal: the canonical [[data-solar-hydro-lcoe]] table treats the batch as 63 projects at **4.99-5.54 NPR/kWh**, with a capacity-weighted average around **5.43 NPR/kWh**. That is below small RoR's blended tariff, and more valuable seasonally.
+The World Bank's original Grid Solar project already framed solar as a winter complement to hydro, not as a generic green add-on. The 960 MW national tender ([[nea-solar-loi-2024]]) then turned that logic into a market signal: the canonical [[data-solar-hydro-lcoe]] table treats the batch as 63 projects at **4.99-5.54 NPR/kWh**, with a capacity-weighted average around **5.43 NPR/kWh**. That is below small RoR's blended tariff, and more valuable seasonally.
 
 > [!cite] wb-grid-solar-ee-project
 > The World Bank project rationale explicitly tied grid solar to winter shortages, when hydropower generation is low and solar radiation is comparatively strong.
 
 > [!cite] nea-annual-report-fy2024-25
-> NEA's FY 2024/25 system already records solar as a real, if still small, grid resource: roughly 142 MW inside a 3.6 GW generation fleet.
+> NEA's FY 2024/25 system already records solar as a real, if still small, grid resource: roughly 142 MW inside a 3.6 GW generation fleet ([[nea-annual-report-fy2024-25]]); by FY 2025/26 it was 154.94 MW of 4,120 MW, with 675 MW of new solar PPAs signed in the year ([[nea-annual-report-fy2025-26]]).
 
 ## What solar does not solve
 

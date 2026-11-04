@@ -7,7 +7,7 @@ sources: [nea-annual-report-fy2024-25]
 tags: [project, watchlist, operating, koshi, sindhupalchok]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Upper Bhotekoshi

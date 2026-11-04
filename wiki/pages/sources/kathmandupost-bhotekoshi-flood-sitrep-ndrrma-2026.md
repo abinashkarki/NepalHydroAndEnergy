@@ -9,7 +9,7 @@ source_date: 2026-08-30
 source_url: https://kathmandupost.com/national/2026/08/30/death-toll-from-bhotekoshi-flood-reaches-734
 sources: []
 tags: [bhotekoshi, trishuli, flood-2026, hazards, ndrrma, rasuwa, nuwakot, dhading, gorkha, tanahun, chitwan, nawalparasi, official]
-page_quality: analysis
+page_quality: record
 ---
 
 # Kathmandu Post / NDRRMA — Death toll from Bhotekoshi flood reaches 734 (2026)

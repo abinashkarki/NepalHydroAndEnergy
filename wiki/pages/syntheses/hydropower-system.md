@@ -2,23 +2,23 @@
 title: Nepal's Hydropower System
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
-as_of: 2025-07-15
-sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, wb-water-sector-diagnostic]
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
+as_of: 2026-07-16
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, wb-water-sector-diagnostic]
 tags: [hydropower, fleet, rivers, projects, system]
 excerpt: How Nepal's hydro fleet converts river flow into electricity, and why capacity, dependable energy and buildability must be kept separate.
 caveat: Fleet totals are dated snapshots, and project registry status does not by itself verify construction progress or operating performance.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Nepal's Hydropower System
 
 ## Fleet structure
 
-NEA reports **3,389.912 MW of hydropower** in a 3,591.262 MW electricity fleet for FY2024/25. More than 90% of hydro capacity is commonly classified as run-of-river or peaking run-of-river. Those plants can generate large annual energy volumes but generally cannot move monsoon water into the dry season.
+NEA reports **3,905.902 MW of hydropower** in a 4,120.252 MW electricity fleet for FY 2025/26, up from 3,389.912 MW of hydro in FY 2024/25 ([[nea-annual-report-fy2025-26]], PDF p.185). More than 90% of hydro capacity is commonly classified as run-of-river or peaking run-of-river. Those plants can generate large annual energy volumes but generally cannot move monsoon water into the dry season.
 
 ## Capacity is not one thing
 

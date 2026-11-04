@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="606.816pt" height="326.490047pt" viewBox="0 0 606.816 326.490047" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-04</dc:date>
+    <dc:description>storage_vs_imports_fy2025_26: NEA Annual Report FY 2025/26, energy balance p.166 and plant table. Caveat: storage row = Kulekhani I-III output</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>TransparentGov Nepal Energy Wiki</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>CC-BY 4.0</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 326.490047
+L 606.816 326.490047
+L 606.816 0
+L 0 0
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 64.512 263.418047
+L 596.736 263.418047
+L 596.736 31.578047
+L 64.512 31.578047
+z
+" style="fill: #fbfaf7"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="105.105356" y="274.516484" transform="rotate(-0 105.105356 274.516484)">Shr</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="146.108746" y="274.516484" transform="rotate(-0 146.108746 274.516484)">Bhd</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="187.112136" y="274.516484" transform="rotate(-0 187.112136 274.516484)">Ash</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="228.115525" y="274.516484" transform="rotate(-0 228.115525 274.516484)">Kar</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="269.118915" y="274.516484" transform="rotate(-0 269.118915 274.516484)">Man</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="310.122305" y="274.516484" transform="rotate(-0 310.122305 274.516484)">Pou</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="351.125695" y="274.516484" transform="rotate(-0 351.125695 274.516484)">Mag</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="392.129085" y="274.516484" transform="rotate(-0 392.129085 274.516484)">Fal</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="433.132475" y="274.516484" transform="rotate(-0 433.132475 274.516484)">Cha</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="474.135864" y="274.516484" transform="rotate(-0 474.135864 274.516484)">Bai</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="515.139254" y="274.516484" transform="rotate(-0 515.139254 274.516484)">Jes</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="556.142644" y="274.516484" transform="rotate(-0 556.142644 274.516484)">Asa</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="330.624" y="288.194609" transform="rotate(-0 330.624 288.194609)">Nepali fiscal month, FY 2025/26</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <path d="M 64.512 263.418047
+L 596.736 263.418047
+" clip-path="url(#pdf42d15db8)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="61.012" y="267.217266" transform="rotate(-0 61.012 267.217266)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_15">
+      <path d="M 64.512 222.978486
+L 596.736 222.978486
+" clip-path="url(#pdf42d15db8)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="61.012" y="226.777705" transform="rotate(-0 61.012 226.777705)">50</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17">
+      <path d="M 64.512 182.538926
+L 596.736 182.538926
+" clip-path="url(#pdf42d15db8)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="61.012" y="186.338145" transform="rotate(-0 61.012 186.338145)">100</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_19">
+      <path d="M 64.512 142.099366
+L 596.736 142.099366
+" clip-path="url(#pdf42d15db8)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_20"/>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="61.012" y="145.898584" transform="rotate(-0 61.012 145.898584)">150</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_21">
+      <path d="M 64.512 101.659805
+L 596.736 101.659805
+" clip-path="url(#pdf42d15db8)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_22"/>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="61.012" y="105.459024" transform="rotate(-0 61.012 105.459024)">200</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_23">
+      <path d="M 64.512 61.220245
+L 596.736 61.220245
+" clip-path="url(#pdf42d15db8)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_24"/>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="61.012" y="65.019463" transform="rotate(-0 61.012 65.019463)">250</text>
+     </g>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="35.844813" y="147.498047" transform="rotate(-90 35.844813 147.498047)">GWh per month</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 88.704 263.418047
+L 105.105356 263.418047
+L 105.105356 260.991673
+L 88.704 260.991673
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 129.70739 263.418047
+L 146.108746 263.418047
+L 146.108746 262.609256
+L 129.70739 262.609256
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 170.71078 263.418047
+L 187.112136 263.418047
+L 187.112136 262.609256
+L 170.71078 262.609256
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 211.714169 263.418047
+L 228.115525 263.418047
+L 228.115525 263.418047
+L 211.714169 263.418047
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 252.717559 263.418047
+L 269.118915 263.418047
+L 269.118915 262.609256
+L 252.717559 262.609256
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 293.720949 263.418047
+L 310.122305 263.418047
+L 310.122305 163.127937
+L 293.720949 163.127937
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 334.724339 263.418047
+L 351.125695 263.418047
+L 351.125695 59.602662
+L 334.724339 59.602662
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 375.727729 263.418047
+L 392.129085 263.418047
+L 392.129085 42.618047
+L 375.727729 42.618047
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 416.731119 263.418047
+L 433.132475 263.418047
+L 433.132475 49.897168
+L 416.731119 49.897168
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 457.734508 263.418047
+L 474.135864 263.418047
+L 474.135864 159.892772
+L 457.734508 159.892772
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 498.737898 263.418047
+L 515.139254 263.418047
+L 515.139254 197.905959
+L 498.737898 197.905959
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 539.741288 263.418047
+L 556.142644 263.418047
+L 556.142644 241.580684
+L 539.741288 241.580684
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #ee6677"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 105.105356 263.418047
+L 121.506712 263.418047
+L 121.506712 252.09497
+L 105.105356 252.09497
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 146.108746 263.418047
+L 162.510102 263.418047
+L 162.510102 260.182882
+L 146.108746 260.182882
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 187.112136 263.418047
+L 203.513492 263.418047
+L 203.513492 262.609256
+L 187.112136 262.609256
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 228.115525 263.418047
+L 244.516881 263.418047
+L 244.516881 262.609256
+L 228.115525 262.609256
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 269.118915 263.418047
+L 285.520271 263.418047
+L 285.520271 262.609256
+L 269.118915 262.609256
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 310.122305 263.418047
+L 326.523661 263.418047
+L 326.523661 261.800464
+L 310.122305 261.800464
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 351.125695 263.418047
+L 367.527051 263.418047
+L 367.527051 262.609256
+L 351.125695 262.609256
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 392.129085 263.418047
+L 408.530441 263.418047
+L 408.530441 260.991673
+L 392.129085 260.991673
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 433.132475 263.418047
+L 449.533831 263.418047
+L 449.533831 259.374091
+L 433.132475 259.374091
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 474.135864 263.418047
+L 490.53722 263.418047
+L 490.53722 238.345519
+L 474.135864 238.345519
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 515.139254 263.418047
+L 531.54061 263.418047
+L 531.54061 248.051014
+L 515.139254 248.051014
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 556.142644 263.418047
+L 572.544 263.418047
+L 572.544 256.138926
+L 556.142644 256.138926
+z
+" clip-path="url(#pdf42d15db8)" style="fill: #aa3377"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 64.512 263.418047
+L 64.512 31.578047
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 596.736 263.418047
+L 596.736 31.578047
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 64.512 263.418047
+L 596.736 263.418047
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 64.512 31.578047
+L 596.736 31.578047
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="64.512" y="19.578047" transform="rotate(-0 64.512 19.578047)">Nepal's only reservoir cascade is small beside the dry-season gap</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_31">
+     <path d="M 72.432 46.184672
+L 90.032 46.184672
+L 90.032 40.024672
+L 72.432 40.024672
+z
+" style="fill: #ee6677"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="97.072" y="46.184672" transform="rotate(-0 97.072 46.184672)">Imports (1,155 GWh in the year)</text>
+    </g>
+    <g id="patch_32">
+     <path d="M 72.432 59.101422
+L 90.032 59.101422
+L 90.032 52.941422
+L 72.432 52.941422
+z
+" style="fill: #aa3377"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="97.072" y="59.101422" transform="rotate(-0 97.072 59.101422)">Kulekhani storage cascade (92 GWh)</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 306.689672)">storage_vs_imports_fy2025_26 | NEA Annual Report FY 2025/26, energy balance p.166 and plant table | Caveat: storage</text>
+   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 314.759578)">row = Kulekhani I-III output | 2026-11-04 | CC-BY 4.0</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pdf42d15db8">
+   <rect x="64.512" y="31.578047" width="532.224" height="231.84"/>
+  </clipPath>
+ </defs>
+</svg>

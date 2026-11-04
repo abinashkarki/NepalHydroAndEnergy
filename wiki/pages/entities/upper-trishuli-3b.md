@@ -7,7 +7,7 @@ sources: [ppa-data-retrieval-icra-care-2026]
 tags: [project, under-construction, gandaki, rasuwa, trishuli-cascade]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Upper Trishuli 3B

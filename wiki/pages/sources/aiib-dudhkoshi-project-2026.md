@@ -3,8 +3,8 @@ title: AIIB Dudhkoshi Storage Hydroelectric Project Summary (2026)
 type: source
 created: 2026-07-10
 updated: 2026-07-10
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 source_type: proposed-project-summary
 source_author: Asian Infrastructure Investment Bank
 source_url: https://www.aiib.org/en/projects/details/2026/proposed/nepal-dudhkoshi-storage-hydroelectric-project.html
@@ -16,7 +16,7 @@ verification_status: primary-source-checked
 excerpt: AIIB's proposed-project summary records Dudhkoshi's design, proposed financing and preliminary safeguard classification as of February 2026.
 caveat: Proposed financing and appraisal information do not establish approval, financial close, procurement completion or construction start.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 tags: [source, aiib, dudhkoshi, storage, safeguards, financing]
 ---
 

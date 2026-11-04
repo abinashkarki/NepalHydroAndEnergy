@@ -17,7 +17,7 @@ tags: [nea, solar, loi, procurement, tender, 960mw]
 excerpt: NEA's corrected 2024 letter-of-intent award table for 63 solar rows totalling 960 MW.
 caveat: The notice establishes procurement awards only, not PPA execution, financing, construction or operation.
 maturity: working-page
-page_quality: analysis
+page_quality: record
 ---
 
 # NEA Notice of Intent to Award Solar Projects (2024)

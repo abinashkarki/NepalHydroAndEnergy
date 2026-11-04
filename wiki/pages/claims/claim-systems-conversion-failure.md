@@ -2,9 +2,9 @@
 title: Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power
 type: claim
 created: 2026-04-14
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 claim_id: C-032
 confidence: high
@@ -26,7 +26,7 @@ Nepal is **not** failing because its rivers are "fake" or because annual water i
 - The explicitly editorial [[master-thesis]] defines the "conversion stack": hydrology, fleet shape, storage, climate and sediment, buildability, networks, markets and institutions.
 - [[state-of-the-system]] documents progress in capacity, access and annual trade while retaining dry-season, reliability and delivery gaps; the diagnosis is therefore incomplete conversion, not zero achievement.
 - The failure stack links [[seasonal-mismatch]] → [[run-of-river-hydropower]] → [[storage-deficit]] → climate and [[sediment-as-design-constraint]] → [[buildability]] → transmission/absorption ([[stranded-generation]]) → trade and governance.
-- **Current numeric anchors:** the fleet remains structurally RoR-weighted (**85.7%** RoR, **9.9%** PRoR, **3.7%** storage), and current dry-season hydro still falls to roughly **~1,100–1,300 MW**.
+- **Numeric anchors:** the fleet remains structurally RoR-weighted. The older FY 2022/23 split (**85.7%** RoR, **9.9%** PRoR, **3.7%** storage) has not been reconciled with the current DoED register, where the Kulekhani storage cascade is 2.71% of 3,909.721 MW ([[data-fleet-composition]]). Current dry-season hydro still falls to roughly **~1,100–1,300 MW**, and NEA's FY 2025/26 balance shows domestic generation falling from 1,991 GWh in Bhadra to 801 GWh in Falgun ([[nea-annual-report-fy2025-26]]).
 - Across these branches, announced MW do not establish financing, construction, grid connection, dependable operation or productive use.
 
 ## Confidence rationale

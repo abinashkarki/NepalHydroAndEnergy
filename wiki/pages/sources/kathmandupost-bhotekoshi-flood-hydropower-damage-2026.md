@@ -9,7 +9,7 @@ source_date: 2026-08-30
 source_url: https://kathmandupost.com/national/2026/08/30/flood-damage-to-nepal-s-hydropower-sector-could-run-into-billions
 sources: []
 tags: [bhotekoshi, trishuli, rasuwa, nuwakot, flood-2026, hazards, nea, ippan, insurance, official]
-page_quality: analysis
+page_quality: record
 ---
 
 # Kathmandu Post — Flood damage to Nepal's hydropower sector could run into billions (2026)

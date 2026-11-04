@@ -2314,6 +2314,146 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-04 — Film Companion Evidence Page
+
+**Agent:** Claude Code
+**Session type:** Human-approved v2 Phase 4 writing session
+
+**Pages touched:**
+- `syntheses/film-nepal-has-hydropower` (new): maps each claim in the 2 October 2026 film to its wiki page, claim ID and the primary source shown on screen, using the release captions, description and pinned comment. Records the open correction at 1:12 (the 1966-study remark) and the picture caveats.
+- `syntheses/start-here`: one sentence linking the film page.
+
+**Flags raised:** The film's YouTube description and pinned comment should link back to `/wiki/film-nepal-has-hydropower/`; that is a channel action for the owner.
+
+---
+
+## 2026-11-04 — FY 2025/26 Annual Report and Fleet Register
+
+**Agent:** Claude Code
+**Session type:** Writing session (source ingestion and dependent data)
+
+**Pages touched:**
+- `sources/nea-annual-report-fy2025-26` (new): key data points, the full monthly energy balance (PDF p.176) and project status from NEA's 18 August 2026 report, read from the original PDF.
+- `data/data-fleet-composition`: added the DoED operating register (213 records, 3,909.721 MW; Kulekhani 106 MW = 2.71%), recomputed from `data/processed/tables/doed_hydropower_registry.csv`; labelled the FY 2022/23 split as unreconciled.
+- `claims/claim-ror-dominance` (C-005): reviewed against the register; `data/claim_registry.yaml` now tracks `operating_hydro_register_total` and `kulekhani_register_share` instead of the unreconciled 85.7/9.9/3.7 split, which the claim page itself says not to reuse.
+
+---
+
+## 2026-11-04 — Current-Baseline Writing Session 1
+
+**Agent:** Claude Code
+**Session type:** Writing session (5 pages)
+
+**Pages touched:** `syntheses/state-of-the-system` (snapshot table moved to FY 2025/26 with FY 2024/25 comparison), `concepts/seasonal-mismatch` (replaced anecdotal MW ranges, including the registry-deprecated "600–900 MW", with measured Bhadra/Falgun energy for FY 2025/26 and FY 2024/25), `syntheses/hydropower-system`, `syntheses/demand-and-electrification`, `syntheses/distribution-and-reliability` (FY 2025/26 capacity, consumption, peaks, losses).
+
+---
+
+## 2026-11-04 — Transmission and Project-Status Writing Session 2
+
+**Agent:** Claude Code
+**Session type:** Writing session (5 pages)
+
+**Pages touched:** `entities/hetauda-dhalkebar-inaruwa-backbone` and `interventions/intervention-transmission-completion` (dispute resolved per NEA FY 2025/26; NEA official on 7 Oct 2026: 14 of 16 towers on the outstanding stretch built, charging expected in about 15 days, transfer limited to ~300 MW; no energisation notice located by 4 Nov 2026; review_due set to 2026-12-04 so the status is rechecked), `claims/claim-transmission-immediate-blocker` (C-019: NEA evidence that Markichowk–Bharatpur 220 kV enabled Marsyangdi generators to evacuate at rated capacity), `entities/tanahu-hydropower` and `syntheses/solar-role-in-winter-deficit` (Tanahu ~78% per NEA FY 2025/26).
+
+---
+
+## 2026-11-04 — Claim Evidence Writing Session 3
+
+**Agent:** Claude Code
+**Session type:** Writing session (5 pages)
+
+**Pages touched:** `claims/claim-systems-conversion-failure` (C-032: FY 2022/23 split labelled unreconciled; FY 2025/26 monthly swing added), `claims/claim-governance-binding` (C-029: FY 2025/26 power-purchase cost NPR 96.1B, +23.97%), `claims/claim-domestic-led-strategy` (496 kWh per capita, FY 2025/26), `claims/claim-timing-not-volume` (C-001: FY 2025/26 Bhadra/Falgun evidence), `syntheses/climate-resilience-and-decarbonization` (three damaging events on the Rasuwa Bhote Koshi–Trishuli corridor in 26 months, including the August 2026 flood).
+
+---
+
+## 2026-11-04 — Batch Review of Overdue Pages
+
+**Agent:** Claude Code
+**Session type:** batch-review
+
+**Method:** Every page past `review_due` (45 on 3 Nov 2026) was scanned for dated and time-sensitive statements and checked against NEA's FY 2025/26 annual report (original PDF), the AIIB Dudhkoshi project page (still "Proposed", USD 200M, 4 Nov 2026), Budhigandaki reporting (main construction contract planned from January 2028), the POWERGRID Arun-3 evacuation notice (Indian portion only, commissioned September 2023) and October 2026 Hetauda–Dhalkebar reporting. Pages whose facts changed were handled in writing sessions 1–3 above.
+
+**Reviewed, no change:** `claim-climate-harder-not-easier`, `claim-pror-not-storage` (C-009; `updated` advanced because its metric source page changed), `claim-solar-cheaper-than-small-hydro`, `claim-solar-terai-only-short-cycle-build`, `claim-storage-physical-fix` (C-008; `updated` advanced for the same reason), `ad-penalties`, `nea-triple-authority`, `data-electricity-system-evidence-gaps`, `data-electricity-system-indicators`, `arun-3`, `barahi-hydropower`, `budhigandaki`, `dudhkoshi-storage`, `upper-karnali`, `upper-tamakoshi`, `intervention-electric-cooking-transition`, `intervention-nea-structural-separation`, `intervention-q-design-climate-adjustment`, `intervention-sebon-data-transparency`, `aiib-dudhkoshi-project-2026`, `doed-solar-power-plants-table`, `sector-financial-analysis-triple-authority-2026`, `decision-dossiers`, `environmental-and-social-impacts`, `institutions-finance-and-project-delivery`, `storage-and-flexibility`, `transmission-and-cross-border-trade`, `unresolved-questions`, `master-thesis` (rewrite follows separately).
+
+**Caveat added:** `nea-annual-report-fy2024-25` (superseded as the latest snapshot); `solar-system` (FY 2025/26 solar capacity 154.940 MW and 675 MW of new solar PPAs added beside the FY 2024/25 figure).
+
+**Flags raised:**
+- Hetauda–Dhalkebar energisation to be confirmed; review due 2026-12-04.
+- `environmental-and-social-impacts` does not yet discuss the August 2026 flood's social impacts; left for a writing session.
+
+**Validation result:** `make validate` and `make test` passed; 0 pages past `review_due`.
+
+---
+
+## 2026-11-04 — Claim Re-grounding Session
+
+**Agent:** Claude Code
+**Session type:** Writing session (3 pages; confidence changes flagged)
+
+**Pages touched:**
+- `claims/claim-india-decisive-actor` (C-025): evidence rebuilt on NEA FY 2025/26 primary data (export channels, dry-season imports, bilaterally set transfer limits, 40 MW Bangladesh supply via India). Research-ledger bullets removed. **Confidence medium → high.** The China-ownership exclusion is kept as a supporting point, explicitly marked as not yet traced to a primary clause (the CEA procedure URL now returns 404).
+- `claims/claim-mw-not-equal-value` (C-006): evidence rebuilt on WECS 2019, NEA FY 2024/25 and FY 2025/26, the DoED register, Kali Gandaki A and the ERC/ECA paper. **Confidence medium → medium-high**: the distinctions are primary-sourced; the frequency of public conflation is not yet sampled.
+- `claims/claim-governance-binding` (C-029): the unverified open-access bullet replaced with the ERC's January 2026 open-access directive, the FY 2026/27 transmission charges and the draft status of implementing directives (September 2026).
+
+**Flags raised:** Locate the primary CBTE/CEA clause on third-country ownership for `india-cbte-2018`, which still has no `source_url`.
+
+---
+
+## 2026-11-04 — Retiering by Script
+
+**Agent:** Claude Code
+**Session type:** batch-review (page_quality only)
+
+**Change:** `scripts/assess_page_quality.py` encodes `wiki/QUALITY_RUBRIC.md` as required headings and minimum prose per category and tier, and `make validate` now fails if any page declares a higher tier than it earns. `--apply` lowered 263 over-declared labels. Six pages that meet the flagship rubric and are the wiki's canonical reference on their subject were raised to flagship: `storage-deficit`, `glof-risk`, `solar-hydro-complementarity`, `upper-tamakoshi`, `upper-karnali`, `pancheshwar`. Nine more earn flagship structurally but were left at analysis pending an editorial read.
+
+**Result:** declared tiers moved from 320 analysis / 33 flagship / 76 record to 92 analysis / 180 brief / 6 flagship / 151 record, close to the rubric's target mix.
+
+**Governance change:** core pages (`wiki/core-pages.json`) no longer have to be labelled flagship; they keep `verified-core` maturity, freshness and caveat rules, and their quality label is earned. All 14 core pages currently earn below flagship; the master thesis and the five thesis pages are rewritten next.
+
+---
+
+## 2026-11-04 — Master Thesis and Thesis Flagships, Session 1
+
+**Agent:** Claude Code
+**Session type:** Writing session (5 pages; human-approved v2 Phase 3)
+
+**Pages touched:**
+- `syntheses/master-thesis`: rewritten from a link list into a 2,594-word argument on FY 2025/26 evidence, with two new exhibits (`energy_balance_fy2025_26`, `mw_vs_dependable_fy2025_26`), claim confidence levels, conditions for revision, reading paths and update history. Unsupported framing lines (for example the USD 0.04/0.40 per kWh comparison) were dropped.
+- `concepts/seasonal-mismatch`: rebuilt around measured monthly data (1,599 words), including the finding that FY 2025/26 annual peaks fell in late June and early July.
+- `concepts/storage-deficit`: storage-versus-imports exhibit, reservoir pipeline, duration ladder, the 2082 directive (1,547 words).
+- `concepts/nea-triple-authority`: NEA's roles from the FY 2025/26 report, cost-structure exhibit, seasonal mechanism, contract mechanism, audit questions (1,537 words). Evidence limits on discriminatory dispatch and Barahi retained.
+- `concepts/buildability`: schedule-slippage exhibit, storage test, post-commissioning hazards, transmission, financing consequence of delay, review checklist (1,513 words).
+
+**New data:** `data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv`, transcribed from PDF p.176 and checked against the table's own identities (system demand = generation + imports + interruption; national demand = system demand − exports).
+
+**Flags raised:** the Kulekhani cascade generated 92 GWh in FY 2025/26 per NEA's plant table, while `storage-and-flexibility` records 279.8 GWh for FY 2024/25; reconcile.
+
+---
+
+## 2026-11-04 — Thesis Flagships, Session 2
+
+**Agent:** Claude Code
+**Session type:** Writing session (1 page plus search tuning)
+
+**Pages touched:** `concepts/q-design-discharge`: contracted-energy exhibit from its own performance table, conditions for revision, update history.
+
+**Search change:** multi-word search aliases now also apply when all their words appear in any order, and a "solar dry season" alias was added, so solar questions rank the solar pages above `seasonal-mismatch`. The retrieval benchmark is unchanged apart from the one pre-existing stale case.
+
+**Validation result:** `make validate` and `make test` passed; all six thesis pages earn flagship under `scripts/assess_page_quality.py`.
+
+---
+
+## 2026-11-04 — Inline Citations and Kulekhani Reconciliation
+
+**Agent:** Claude Code
+**Session type:** Writing session (5 pages)
+
+**Pages touched:** `syntheses/climate-resilience-and-decarbonization`, `syntheses/solar-in-the-master-narrative`, `syntheses/twenty-year-strategy` (inline source links added for each quoted figure; the 50–75 PJ cooking figure relabelled as a model scenario, as the electric-cooking dossier already treats it), `syntheses/storage-and-flexibility` and `syntheses/unresolved-questions` (Kulekhani output).
+
+**Resolved flag:** the Kulekhani discrepancy is real, not an error. NEA's FY 2024/25 energy balance records 280 GWh of storage generation (Kulekhani I 170.6 GWh) and the FY 2025/26 balance 92 GWh (Kulekhani I 53.0 GWh). The FY 2025/26 report mentions automation works at Kulekhani I and II but gives no cause; logged as an open question.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

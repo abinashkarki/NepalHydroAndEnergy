@@ -3,13 +3,13 @@ title: Upper Tamakoshi
 type: entity
 created: 2026-04-14
 updated: 2026-07-13
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-10
 generator: specs-refresh
 project_dossier: lighthouse
 maturity: working-page
-page_quality: analysis
+page_quality: flagship
 sources: [utkhpl-disclosures-2026, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077, ukhl-financials-generation-fy2079-82]
 tags: [project, ror, operational, landmark, dolakha]
 excerpt: A 456 MW operating peaking run-of-river project tracked through company disclosures, with financial recovery and expansion milestones kept separate.

@@ -6,7 +6,7 @@ updated: 2026-07-10
 source_url: https://www.icra.in/Rating/GetRationalReportFilePdf?id=143894
 publisher: ICRA Limited
 source_date: 2026-06-29
-page_quality: analysis
+page_quality: brief
 tags: [source, upper-karnali, gmr, financing, ownership, rating]
 ---
 

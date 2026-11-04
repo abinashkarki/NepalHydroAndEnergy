@@ -2,7 +2,7 @@
 title: Hydropower Fleet Composition
 type: data
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-11-04
 figure_type: chart
 sources: [nea-annual-report-fy2024-25, wecs-energy-synopsis-2024, wb-country-economic-memo-2025]
 tags: [fleet, ror, pror, storage, capacity]
@@ -46,7 +46,13 @@ Nepal's installed hydropower fleet, broken down by technology type. The RoR domi
 | Reservoir / Storage | ~3.7% | Seasonal regulation; only [[kulekhani-cascade]] | NEA FY 2022/23 review |
 
 > [!note]
-> Public summaries use the broader "**>90% RoR+PRoR**" framing from [[wb-country-economic-memo-2025]]. Both framings are consistent. The granular breakdown is the most granular.
+> Public summaries use the broader "**>90% RoR+PRoR**" framing from [[wb-country-economic-memo-2025]]. The granular split above is an FY 2022/23 snapshot whose taxonomy and denominator have not been reconciled with the current register; do not reuse it as a current share without that reconciliation (see [[claim-ror-dominance]]).
+
+## Current Operating Register (DoED, updated 2 July 2026)
+
+The Department of Electricity Development's operating-plant register, captured in `data/processed/tables/doed_hydropower_registry.csv`, lists **213 operating hydropower records totalling 3,909.721 MW**. Kulekhani I (60 MW), II (32 MW) and Third (14 MW) total **106 MW, or 2.71%** of that register. They are the only operating seasonal-storage cascade.
+
+The register does not assign a hydraulic type to each plant. Published sources checked for TransparentGov's film typed **44 plants (2,577 MW)**: 33 run-of-river (1,605 MW), 8 peaking run-of-river (866 MW) and the 3-plant Kulekhani cascade (106 MW). The remaining 169 records (about 1,333 MW) have no published type, so no full-register RoR or PRoR percentage is computed here. See [[film-nepal-has-hydropower]] for the typing sources.
 
 ## Installed Capacity Timeline
 

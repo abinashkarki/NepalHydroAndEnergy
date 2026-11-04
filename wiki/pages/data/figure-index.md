@@ -2,7 +2,7 @@
 title: Figure Index
 type: data
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-11-04
 figure_type: table
 sources: []
 tags: [figures, charts, manifest, data]
@@ -32,6 +32,12 @@ Registry of published wiki figures generated from `wiki/explorer/shared/wiki-fig
 | [capacity_balance_fy2024_25](../../../wiki/assets/figures/capacity_balance_fy2024_25.svg) | SVG | [[data-domestic-demand]], [[data-fleet-composition]] | [[nea-annual-report-fy2024-25]] | Monthly capacity-balance rows do not replace hourly dispatch or adequacy modeling. |
 | [export_revenue_fy2025_26](../../../wiki/assets/figures/export_revenue_fy2025_26.svg) | SVG | [[data-trade-time-series]] | [[nea-annual-report-fy2024-25]] | First five months only; this is not a full-year revenue curve. |
 | [potential_pyramid_funnel](../../../wiki/assets/figures/potential_pyramid_funnel.svg) | SVG | [[data-potential-pyramid]] | [[wecs-hydropower-potential-2019]], [[wb-nepal-power-sector-reform-2022]], [[nea-annual-report-fy2024-25]] | Intermediate levels are compiled order-of-magnitude estimates, not definitive ceilings. |
+| [energy_balance_fy2025_26](../../../wiki/assets/figures/energy_balance_fy2025_26.svg) | SVG | [[master-thesis]], [[seasonal-mismatch]] | [[nea-annual-report-fy2025-26]] | Monthly energy-balance table totals (exports 3,938 GWh, imports 1,155 GWh) differ slightly from the managing director's summary (3,965 and 1,171 GWh). |
+| [storage_vs_imports_fy2025_26](../../../wiki/assets/figures/storage_vs_imports_fy2025_26.svg) | SVG | [[storage-deficit]] | [[nea-annual-report-fy2025-26]] | The energy-balance STORAGE row equals the Kulekhani I-III plant totals (53.0, 26.4 and 12.9 GWh) in NEA's generation table. |
+| [mw_vs_dependable_fy2025_26](../../../wiki/assets/figures/mw_vs_dependable_fy2025_26.svg) | SVG | [[master-thesis]], [[claim-mw-not-equal-value]] | [[nea-annual-report-fy2025-26]] | The Falgun figure divides 801 GWh by the hours in a 30-day month. It is an average, not dependable peak-hour capacity, which is not published. |
+| [nea_cost_structure_fy2025_26](../../../wiki/assets/figures/nea_cost_structure_fy2025_26.svg) | SVG | [[nea-triple-authority]] | [[nea-annual-report-fy2025-26]] | Managing director's report figures, pre-audit. Cost lines are not exhaustive and do not sum to revenue minus profit because other income and provisions are excluded. |
+| [schedule_slippage](../../../wiki/assets/figures/schedule_slippage.svg) | SVG | [[buildability]] | [[adb-tanahu-project-documents-2026]], [[nea-annual-report-fy2025-26]] | Arun-3's two points are successive developer expectations, not the original target. Mid-year positions are approximate. |
+| [contracted_energy_performance](../../../wiki/assets/figures/contracted_energy_performance.svg) | SVG | [[q-design-discharge]] | [[chilime-annual-report-fy2078-79]], [[care-ratings-sanima-mai]], [[ukhl-annual-report]] | A small, non-random sample from company reports and ratings; no central public database tracks generation against contract. Likhu-2's FY 2023/24 shortfall reflected a substation bottleneck and is excluded. |
 | [hydropower_license_map](../../../wiki/assets/figures/hydropower_license_map.png) | PNG | [[data-potential-pyramid]] | [[doed-licensing-directive-2075]] | Static map is a portfolio snapshot; use the explorer map for current interactive filtering. |
 
 ## Regeneration

@@ -12,7 +12,7 @@ tags: [overview, guide, public, navigation]
 excerpt: A task-led starting point for understanding Nepal's electricity system, exploring projects and places, and checking claims against their evidence.
 caveat: This page is a navigation synthesis; dated operating facts and official targets are separated on the linked State of the System page.
 maturity: verified-core
-page_quality: flagship
+page_quality: analysis
 ---
 
 # Nepal Energy Wiki
@@ -44,6 +44,8 @@ Search the wording or subject, open the relevant claim or data page, then follow
 5. **[[institutions-finance-and-project-delivery|Institutions, Finance and Project Delivery]]** — how rules, financing and execution shape what gets built and operated.
 
 For TransparentGov's explicitly editorial interpretation, continue to [[master-thesis]], [[bottleneck-hierarchy]] and [[twenty-year-strategy]]. These pages interpret the evidence; they are not the neutral baseline.
+
+Prefer to watch first? The 16-minute film *Nepal Has Hydropower. Why Isn't It Enough?* tells the seasonal story; [[film-nepal-has-hydropower]] maps each of its claims to the evidence here.
 
 ## Explore the major subjects
 

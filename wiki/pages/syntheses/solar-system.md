@@ -2,23 +2,23 @@
 title: Solar in Nepal's Electricity System
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-20
-reviewed: 2026-07-20
-review_due: 2026-10-20
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-01-09
 sources: [nea-annual-report-fy2024-25, doed-solar-power-plants-table, nea-solar-loi-2024, wb-esmap-solar-resource-assessment, nepal-ndc-3-2025]
 tags: [solar, pv, winter, pipeline, registry]
 excerpt: The operating solar baseline, award-only pipeline evidence and the role solar can play alongside seasonal hydropower.
 caveat: NEA award records do not verify construction or operation; output and precise geography remain sparse for much of the inventory.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Solar in Nepal's Electricity System
 
 ## Verified baseline
 
-NEA reports **141.940 MW of installed solar** in FY2024/25. The wiki's DoED-derived solar registry contains 25 records marked operating, totalling **141.74 MW** as of the source-table update. The small difference reflects source and compilation boundaries and should not be silently reconciled.
+NEA reported **141.940 MW of installed solar** in FY2024/25 and **154.940 MW** in FY 2025/26 ([[nea-annual-report-fy2025-26]], PDF p.185); NEA also signed 49 solar PPAs totalling 675 MW during FY 2025/26 (PDF p.14). The wiki's DoED-derived solar registry contains 25 records marked operating, totalling **141.74 MW** as of the source-table update. The small difference reflects source and compilation boundaries and should not be silently reconciled.
 
 ## Award records are not operating projects
 

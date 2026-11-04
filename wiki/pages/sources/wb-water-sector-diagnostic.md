@@ -28,7 +28,7 @@ images:
 excerpt: The World Bank's national diagnostic of Nepal's water institutions, storage, resilience and investment needs.
 caveat: National planning magnitudes and comparisons do not establish project feasibility or current operating storage.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # World Bank Nepal Water Sector Diagnostic

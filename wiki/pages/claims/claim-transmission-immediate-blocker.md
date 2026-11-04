@@ -3,17 +3,17 @@ title: Transmission and Delivery Are Material Immediate Monetization Constraints
 type: claim
 category: claims
 created: 2026-04-14
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
-as_of: 2026-07-19
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
+as_of: 2026-10-07
 claim_id: C-019
 confidence: medium-high
 status: verified-with-material-data-gap
-sources: [nea-annual-report-fy2024-25, nea-hddi-construction-notices-july-2026, india-cbte-2018, nea-operational-reporting-portals-2026]
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, nea-hddi-construction-notices-july-2026, india-cbte-2018, nea-operational-reporting-portals-2026]
 tags: [transmission, grid, curtailment, trade, monetization]
 excerpt: Transmission, substations, market access and scheduling can prevent available electricity from reaching a paying load, but public data do not support a national curtailment total or prove transmission is always the single largest constraint.
-page_quality: flagship
+page_quality: analysis
 maturity: verified-core
 caveat: Public plant-level availability, dispatch-event and curtailment records are not available, so the scale and cause of constrained generation cannot be quantified nationally.
 ---
@@ -28,6 +28,8 @@ caveat: Public plant-level availability, dispatch-event and curtailment records 
 
 - The [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]] records continued reinforcement of strategic transmission lines, substations and distribution networks while installed generation reached 3,591 MW. This establishes that network expansion remains an active system requirement.
 - The eastern Dhalkebar–Inaruwa section of the [[hetauda-dhalkebar-inaruwa-backbone]] has operated since June 2024, while official NEA outage notices document conductor-stringing work on the Hetauda–Dhalkebar section in early July 2026. The notices do not establish completion or energisation of the western section. See [[nea-hddi-construction-notices-july-2026]].
+- The [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]] says the newly commissioned Markichowk–Bharatpur 220 kV line enables "power evacuation of generators in Marsyangdi basin at their rated capacity", and that Khimti–Barhabise 400 kV strengthens evacuation from the Tamakoshi and Sunkoshi basins (PDF p.13). NEA also names minimising generation curtailment as a challenge, without publishing a volume (PDF p.12). This is direct utility evidence that specific corridors limited delivery, not a national curtailment total.
+- On 7 October 2026 NEA's executive director said transfer between Hetauda and Dhalkebar was limited to about 300 MW pending completion of the section, against about 2,000 MW once complete ([Spotlight Nepal, 7 Oct 2026](https://www.spotlightnepal.com/2026/10/07/hetaudadhalkebar-400-kv-transmission-line-to-be-charged-within-two-weeks/)).
 - Cross-border delivery depends on corridor hardware, project-level approvals and scheduling rules. [[india-cbte-2018]] and [[india-energy-relationship]] document that these are separate constraints rather than a single export-capacity number.
 - [[stranded-generation]] and [[nea-operational-reporting-portals-2026]] show the central measurement gap: annual generation, capacity and trade totals cannot be converted into a national curtailment estimate without plant-level availability, accepted energy, dispatch events and reason codes.
 
@@ -37,7 +39,7 @@ caveat: Public plant-level availability, dispatch-event and curtailment records 
 
 ## Unresolved Issues
 
-- Current commissioning and energisation status of the Hetauda–Dhalkebar section after the early-July 2026 stringing notices.
+- Energisation of the Hetauda–Dhalkebar section, announced as imminent in October 2026 but not verified by 4 November 2026.
 - Plant-level available energy, accepted energy, curtailed MWh and reason codes.
 - Load-flow and N-1 studies showing which transmission or substation elements bind under specific dispatch conditions.
 - Separation of domestic network congestion from export approval, scheduling and buyer-absorption limits.

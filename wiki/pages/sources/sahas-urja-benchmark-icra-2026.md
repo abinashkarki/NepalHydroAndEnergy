@@ -5,7 +5,7 @@ created: 2026-05-02
 updated: 2026-05-12
 tags: [source, financial, sahas-urja, solu-khola, icra-nepal, benchmark]
 images: []
-page_quality: analysis
+page_quality: record
 ---
 
 # Mission 1: Sahas Urja (Solu Khola, 86 MW)

@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 326,
-  "total_refs": 2521,
+  "total_targets": 330,
+  "total_refs": 2663,
   "backlinks": {
     "buildability": [
       {
@@ -376,6 +376,13 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…t is the clearest physical answer and the hardest to build (buildability).",
+        "target_exists": true
+      },
+      {
         "slug": "sediment-as-design-constraint",
         "title": "Sediment as Design Constraint",
         "category": "concepts",
@@ -428,7 +435,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "6. **buildability** — brutal terrain, geology, access, and execution constrai…",
+        "context": "…ce and politics for ten years before it earns anything. See buildability.",
         "target_exists": true
       },
       {
@@ -464,6 +471,13 @@
         "title": "Substation-Adjacent Solar Can Offer a Shorter Development Cycle",
         "category": "claims",
         "context": "buildability",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…../../../wiki/assets/figures/schedule_slippage.svg) | SVG | buildability | adb-tanahu-project-documents-2026, [[nea-annual-repor…",
         "target_exists": true
       },
       {
@@ -574,6 +588,13 @@
         "target_exists": true
       },
       {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…est expected completion. Sources: chameliya-hydropower, tanahu-hydropower, arun-3.</figcaption>",
+        "target_exists": true
+      },
+      {
         "slug": "hybrid-siting-logic",
         "title": "Hybrid Siting Logic",
         "category": "concepts",
@@ -598,14 +619,28 @@
         "slug": "storage-deficit",
         "title": "Storage Deficit",
         "category": "concepts",
-        "context": "…whole engineering–social–finance package survives scrutiny. Tanahu (140 MW, ~67% complete in the NEA FY 2024/25 report and rou…",
+        "context": "…whole engineering–social–finance package survives scrutiny. Tanahu (140 MW, about 78% complete in the NEA FY 2025/26 report) i…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…to hold for years.** Tanahu shows the delivery burden. See tanahu-hydropower.",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "| tanahu-hydropower (140 MW) | ADB's 2013 appraisal estimated completion by end…",
         "target_exists": true
       },
       {
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "*Realistic 2035 contribution:** tanahu-hydropower (140 MW, COD 2026/27 window — under construction, ~67% comp…",
+        "context": "*Realistic 2035 contribution:** tanahu-hydropower (140 MW, COD 2026/27 window — under construction, about 78%…",
         "target_exists": true
       },
       {
@@ -1073,6 +1108,13 @@
         "target_exists": true
       },
       {
+        "slug": "nea-annual-report-fy2025-26",
+        "title": "NEA Annual Report FY 2025/26",
+        "category": "sources",
+        "context": "…dh 2083). NEA published it on 18 August 2026. It supersedes nea-annual-report-fy2024-25 as the latest official system-wide snapshot. Page numbers b…",
+        "target_exists": true
+      },
+      {
         "slug": "nea-transmission-annual-book-2077",
         "title": "NEA Transmission Annual Book 2077",
         "category": "sources",
@@ -1325,6 +1367,13 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…n generation was 1,848 GWh in Bhadra and 605 GWh in Falgun (nea-annual-report-fy2024-25, p.134). The mismatch is a property of the system, not of o…",
+        "target_exists": true
+      },
+      {
         "slug": "solar-lcoe-crossover",
         "title": "Solar LCOE Crossover",
         "category": "concepts",
@@ -1353,10 +1402,31 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…024/25: about 1,848 GWh generated, about 1,290 GWh demand | nea-annual-report-fy2024-25 | NEA Annual Report FY 2024/25, energy balance p.134 | Matc…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…, with 1,848 GWh generated in Bhadra and 605 GWh in Falgun (nea-annual-report-fy2024-25, p.134). This is not a drought or a bad year. It is the str…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…resource: roughly 142 MW inside a 3.6 GW generation fleet (nea-annual-report-fy2024-25); by FY 2025/26 it was 154.94 MW of 4,120 MW, with 675 MW o…",
+        "target_exists": true
+      },
+      {
         "slug": "state-of-the-system",
         "title": "State of Nepal's Electricity System",
         "category": "syntheses",
-        "context": "| What was installed and supplied? | nea-annual-report-fy2024-25 | FY2024/25 capacity, available energy, peaks, sales, losse…",
+        "context": "…[nea-annual-report-fy2025-26]] (PDF pp.11–14, 176, 185) and nea-annual-report-fy2024-25.",
         "target_exists": true
       },
       {
@@ -1364,6 +1434,13 @@
         "title": "Storage and System Flexibility",
         "category": "syntheses",
         "context": "| nea-annual-report-fy2024-25 | Kulekhani cascade capacity and FY2024/25 annual generatio…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…d 3,591.262 MW total and 3,389.912 MW hydro for FY 2024/25 (nea-annual-report-fy2024-25) and 4,120.252 MW total for FY 2025/26 ([[nea-annual-report…",
         "target_exists": true
       },
       {
@@ -1551,6 +1628,13 @@
         "target_exists": true
       },
       {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…afety instruments still under preparation in February 2026 (dudhkoshi-storage). Every one of those strands has to hold at the same time,…",
+        "target_exists": true
+      },
+      {
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
@@ -1593,6 +1677,13 @@
         "target_exists": true
       },
       {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "| dudhkoshi-storage (670 MW) | ADB-led financing with USD 200 million proposed…",
+        "target_exists": true
+      },
+      {
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
@@ -1610,7 +1701,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…and roughly 75% complete in an April 2026 public update) + dudhkoshi-storage (670 MW, COD ambitious ~2035). (budhigandaki 1,200 MW e…",
+        "context": "…n the NEA FY 2025/26 report, up from ~67% a year earlier) + dudhkoshi-storage (670 MW, COD ambitious ~2035). (budhigandaki 1,200 MW e…",
         "target_exists": true
       },
       {
@@ -1767,6 +1858,13 @@
         "title": "Upper Karnali",
         "category": "entities",
         "context": "…n the Karnali main stem — the same engineering archetype as arun-3 but in the western Karnali basin. At 900 MW, it would be th…",
+        "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…. Sources: chameliya-hydropower, tanahu-hydropower, arun-3.</figcaption>",
         "target_exists": true
       },
       {
@@ -1979,13 +2077,6 @@
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
         "context": "…ficit]], firm-power, environmental-flow-policy, and hydro-geopolitics meet. Hydropower becomes geopolitical only when it can regu…",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "9. **hydro-geopolitics** and governance — corridor dependence on India, institutio…",
         "target_exists": true
       },
       {
@@ -2264,6 +2355,13 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…, so the energy lost in the monsoon cannot yet be measured (stranded-generation).",
+        "target_exists": true
+      },
+      {
         "slug": "ipsdp-2025-vs-wiki-claims",
         "title": "IPSDP 2025 vs Wiki Claims",
         "category": "syntheses",
@@ -2274,7 +2372,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "7. **stranded-generation** — grid and transmission built slower than generation, now…",
+        "context": "…level availability and dispatch records are not published (stranded-generation). That gap is itself a finding. See [[claim-transmission-im…",
         "target_exists": true
       },
       {
@@ -2458,7 +2556,7 @@
         "slug": "buildability",
         "title": "Buildability",
         "category": "concepts",
-        "context": "Megaprojects such as budhigandaki are instructive case files: the controversy is not only \"ho…",
+        "context": "| budhigandaki (1,200 MW reservoir) | Decades of planning | Preparatory wo…",
         "target_exists": true
       },
       {
@@ -2511,6 +2609,13 @@
         "target_exists": true
       },
       {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "| budhigandaki (1,200 MW) | Government-led reservoir with its own developm…",
+        "target_exists": true
+      },
+      {
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
@@ -2528,7 +2633,7 @@
         "slug": "solar-role-in-winter-deficit",
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
-        "context": "…te) + dudhkoshi-storage (670 MW, COD ambitious ~2035). (budhigandaki 1,200 MW excluded from pre-2036 scenarios — main EPC contra…",
+        "context": "…er) + dudhkoshi-storage (670 MW, COD ambitious ~2035). (budhigandaki 1,200 MW excluded from pre-2036 scenarios — main EPC contra…",
         "target_exists": true
       },
       {
@@ -2685,6 +2790,34 @@
         "title": "Upper Tamakoshi",
         "category": "entities",
         "context": "…ot an engineering failure. See nea-triple-authority and ppa-pricing for the structural analysis.",
+        "target_exists": true
+      },
+      {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…from contract energy (erc-reservoir-ppa-directive-2082, ppa-pricing).",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…d tariff pays per kWh generated, with a dry-season premium (ppa-pricing). A reservoir's main product is different: capacity kept av…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…un-of-river plants. See claim-ror-dominance (C-005) and ppa-pricing.",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…pplied energy. Seasonal readiness was nobody's product. See ppa-pricing and claim-systems-conversion-failure (C-032, high).",
         "target_exists": true
       },
       {
@@ -3419,6 +3552,13 @@
         "target_exists": true
       },
       {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…storical hydrology may not be operable on future hydrology (glof-risk, q-design-discharge).",
+        "target_exists": true
+      },
+      {
         "slug": "environmental-flow-policy",
         "title": "Environmental Flow Policy",
         "category": "concepts",
@@ -3444,6 +3584,20 @@
         "title": "Bhotekoshi–Trishuli Flood 2026",
         "category": "syntheses",
         "context": "…gument on trishuli-cascade and the exposure analysis on glof-risk: Himalayan run-of-river corridors concentrate settlements,…",
+        "target_exists": true
+      },
+      {
+        "slug": "climate-resilience-and-decarbonization",
+        "title": "Climate Resilience and Decarbonization",
+        "category": "syntheses",
+        "context": "…1 MW Rasuwagadhi plant (bhotekoshi-trishuli-flood-2026, glof-risk). Solar diversifies hydrological exposure but introduces la…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…1 MW Rasuwagadhi plant (bhotekoshi-trishuli-flood-2026, glof-risk). Projects are designed on historical flow records ([[q-des…",
         "target_exists": true
       },
       {
@@ -3669,7 +3823,7 @@
         "slug": "buildability",
         "title": "Buildability",
         "category": "concepts",
-        "context": "…an headline megawatts. That reframing connects naturally to storage-deficit (seasonal re-timing is worthless if the dam never reaches C…",
+        "context": "That is why the storage-deficit persists even though storage is the clearest physical answe…",
         "target_exists": true
       },
       {
@@ -3711,7 +3865,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…is the evening peak, which is why solar must be paired with storage-deficit-class water storage, BESS, or demand shifting rather than s…",
+        "context": "…2 GWh across FY 2025/26, most of it in Baishakh and Jestha (storage-deficit).",
         "target_exists": true
       },
       {
@@ -3743,10 +3897,17 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…s fill it: reduce, produce, shift, deliver and protect. See storage-deficit, solar-hydro-complementarity and [[claim-transmission-i…",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "3. **storage-deficit** — 5 m³/capita vs global average 900; the country cannot h…",
+        "context": "…its gross storage to sediment since commissioning in 1982 (storage-deficit, kulekhani-i).",
         "target_exists": true
       },
       {
@@ -3817,6 +3978,13 @@
         "title": "Agricultural Energy Consumption",
         "category": "data",
         "context": "…t currently can't be scheduled without reservoirs — linking storage-deficit to food security",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…ki/assets/figures/storage_vs_imports_fy2025_26.svg) | SVG | storage-deficit | nea-annual-report-fy2025-26 | The energy-balance STOR…",
         "target_exists": true
       },
       {
@@ -4341,10 +4509,38 @@
         "target_exists": true
       },
       {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…else either follows the river or shifts water within a day (claim-ror-dominance, claim-pror-not-storage).",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…favoured run-of-river and peaking run-of-river plants. See claim-ror-dominance (C-005) and ppa-pricing.",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…of 3,909.721 MW, or 2.71% (data-fleet-composition). See claim-ror-dominance (C-005, high).",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
         "context": "…development cohort | Test the multi-factor explanation for claim-ror-dominance without assigning one PPA, policy, incentive, institution,…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-fleet-composition",
+        "title": "Hydropower Fleet Composition",
+        "category": "data",
+        "context": "…euse it as a current share without that reconciliation (see claim-ror-dominance).",
         "target_exists": true
       }
     ],
@@ -4375,6 +4571,20 @@
         "title": "Solar Resource Geography of Nepal",
         "category": "concepts",
         "context": "wb-esmap-solar-resource-assessment — the underlying pyranometer data",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…everal hydro-weak months | solar-hydro-complementarity, wb-esmap-solar-resource-assessment | World Bank/ESMAP 2020, Table 5 | Single-site measurement;…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…lgunj found useful irradiance in several hydro-weak months (wb-esmap-solar-resource-assessment, solar-hydro-complementarity). Installed solar reached…",
         "target_exists": true
       },
       {
@@ -4980,13 +5190,6 @@
         "title": "IPSDP 2025 vs Wiki Claims",
         "category": "syntheses",
         "context": "Against domestic-led-hydro-strategy, the ladder is notable because",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "The linked domestic-led-hydro-strategy and solar-in-the-master-narrative argue for prioritisin…",
         "target_exists": true
       },
       {
@@ -5742,13 +5945,6 @@
         "target_exists": true
       },
       {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "5. **sediment-as-design-constraint** and climate penalties — the Himalayas are young, active,…",
-        "target_exists": true
-      },
-      {
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
@@ -6231,7 +6427,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…ly—without pretending PRoR pondage is seasonal banking (see seasonal-arbitrage-trap)",
+        "context": "…mary totals, against about NPR 7.4 earned per kWh exported (seasonal-arbitrage-trap).",
         "target_exists": true
       },
       {
@@ -6273,7 +6469,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "8. **seasonal-arbitrage-trap** — selling cheap monsoon, buying expensive winter; value d…",
+        "context": "…and buys when it is scarce, so the timing works against it (seasonal-arbitrage-trap).",
         "target_exists": true
       },
       {
@@ -6563,6 +6759,27 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…theoretical estimate | hydropower-potential-categories, wecs-hydropower-potential-2019 | WECS 2019, pp.1, 8, 117 | Correct, but see the correction…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…of 72,544 MW and a techno-economic potential of 32,680 MW (wecs-hydropower-potential-2019). None of these is a construction pipeline, and none says w…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…hile the legacy 83,500 MW figure is a theoretical estimate (wecs-hydropower-potential-2019, hydropower-potential-categories). The three numbers an…",
+        "target_exists": true
+      },
+      {
         "slug": "figure-index",
         "title": "Figure Index",
         "category": "data",
@@ -6596,7 +6813,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "bottleneck-hierarchy — ranked constraints",
+        "context": "…d pay for dependable service. The ranked constraints are in bottleneck-hierarchy; the phased programme is in twenty-year-strategy; the p…",
         "target_exists": true
       },
       {
@@ -6651,6 +6868,13 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "solar-role-in-winter-deficit — how a daylight resource changes the dry-season arithmetic",
+        "target_exists": true
+      },
+      {
         "slug": "storage-deficit",
         "title": "Storage Deficit",
         "category": "concepts",
@@ -6668,7 +6892,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "solar-role-in-winter-deficit — why solar is now a core winter-deficit lever",
+        "context": "…and demand response to move midday energy into the evening (solar-role-in-winter-deficit). That makes solar a core part of the answer and makes stor…",
         "target_exists": true
       },
       {
@@ -6839,10 +7063,38 @@
         "target_exists": true
       },
       {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…rating projects with more than 600 MW of combined capacity (wb-country-economic-memo-2025). On the Rasuwa Bhote Koshi–Trishuli corridor, a July 2025…",
+        "target_exists": true
+      },
+      {
+        "slug": "climate-resilience-and-decarbonization",
+        "title": "Climate Resilience and Decarbonization",
+        "category": "syntheses",
+        "context": "…0 MW of combined capacity in the World Bank's 2025 account (wb-country-economic-memo-2025). On one corridor alone, the Rasuwa Bhote Koshi–Trishuli sa…",
+        "target_exists": true
+      },
+      {
         "slug": "distribution-and-reliability",
         "title": "Distribution and Reliability",
         "category": "syntheses",
         "context": "…report-fy2024-25]]. The enterprise evidence is reported in wb-country-economic-memo-2025. These sources are complementary, but they cannot be combin…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…n 2024 and supplied over 70% of capacity added since 2018 | wb-country-economic-memo-2025 | World Bank CEM 2025, p.62 | Matches source |",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…bes more than 90% of hydropower as RoR or PRoR at end-2024 (wb-country-economic-memo-2025). In the Department of Electricity Development's July 2026…",
         "target_exists": true
       },
       {
@@ -6884,7 +7136,7 @@
         "slug": "data-fleet-composition",
         "title": "Hydropower Fleet Composition",
         "category": "data",
-        "context": "…summaries use the broader \"**>90% RoR+PRoR**\" framing from wb-country-economic-memo-2025. Both framings are consistent. The granular breakdown is th…",
+        "context": "…summaries use the broader \"**>90% RoR+PRoR**\" framing from wb-country-economic-memo-2025. The granular split above is an FY 2022/23 snapshot whose t…",
         "target_exists": true
       }
     ],
@@ -7405,6 +7657,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…across seasons. See claim-pror-not-storage (C-009) and kulekhani-cascade.",
+        "target_exists": true
+      },
+      {
         "slug": "storage-and-flexibility",
         "title": "Storage and System Flexibility",
         "category": "syntheses",
@@ -7530,6 +7789,34 @@
         "title": "Hybrid Siting Logic",
         "category": "concepts",
         "context": "kali-gandaki-a — 144 MW NEA flagship; dam-adjacent flats suited to 25–40 M…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…as Kali Gandaki A provide about six hours of daily peaking (kali-gandaki-a). That is valuable for the evening, but it does not move wa…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…: 144 MW peaking run-of-river, six hours of daily peaking | kali-gandaki-a | NEA Annual Report FY 2024/25, PDF p.21 | Matches source |",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…he 144 MW Kali Gandaki A as a six-hour daily peaking plant (kali-gandaki-a). Six hours is not six months (claim-pror-not-storage,…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…Kali Gandaki A (144 MW) as a six-hour daily peaking plant (kali-gandaki-a); daily pondage shifts energy within a day, not across seas…",
         "target_exists": true
       }
     ],
@@ -8067,7 +8354,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…and profile** under a **run-of-river–dominated fleet** (see run-of-river-hydropower).",
+        "context": "run-of-river-hydropower — the plant type that follows the river",
         "target_exists": true
       },
       {
@@ -8078,10 +8365,10 @@
         "target_exists": true
       },
       {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
         "category": "syntheses",
-        "context": "2. **run-of-river-hydropower** — fleet is >90% RoR/PRoR; structurally produces wet-seaso…",
+        "context": "…Run-of-river projects helped end scheduled load-shedding | run-of-river-hydropower | The Kathmandu Post, 14 May 2018 | Matches source |",
         "target_exists": true
       },
       {
@@ -8188,7 +8475,7 @@
         "slug": "buildability",
         "title": "Buildability",
         "category": "concepts",
-        "context": "…ics winter, and financing covenants that survive delay. See Chameliya (11-year build, $7.5M/MW, headrace tunnel collapse) and [[u…",
+        "context": "…nned against actual or latest expected completion. Sources: chameliya-hydropower, tanahu-hydropower, arun-3.</figcaption>",
         "target_exists": true
       },
       {
@@ -8259,6 +8546,13 @@
         "target_exists": true
       },
       {
+        "slug": "nea-annual-report-fy2025-26",
+        "title": "NEA Annual Report FY 2025/26",
+        "category": "sources",
+        "context": "Events after mid-July 2026, including the August 2026 bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
         "slug": "reuters-bhotekoshi-flood-climate-attribution-2026",
         "title": "Reuters — Climate change boosted risk of devastating Himalayan flood, experts say (2026)",
         "category": "sources",
@@ -8294,10 +8588,31 @@
         "target_exists": true
       },
       {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…uried access to Upper Trishuli 3A's underground powerhouse (bhotekoshi-trishuli-flood-2026). A project that is buildable on historical hydrology may n…",
+        "target_exists": true
+      },
+      {
         "slug": "glof-risk",
         "title": "GLOF Risk",
         "category": "concepts",
         "context": "…ost-bhotekoshi-flood-barrier-lake-2026]] and the event page bhotekoshi-trishuli-flood-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "climate-resilience-and-decarbonization",
+        "title": "Climate Resilience and Decarbonization",
+        "category": "syntheses",
+        "context": "…nche flood, which washed away the 111 MW Rasuwagadhi plant (bhotekoshi-trishuli-flood-2026, glof-risk). Solar diversifies hydrological exposure bu…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…lanche flood that washed away the 111 MW Rasuwagadhi plant (bhotekoshi-trishuli-flood-2026, glof-risk). Projects are designed on historical flow r…",
         "target_exists": true
       }
     ],
@@ -8317,10 +8632,24 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…gh to close the gap. Current evidence points the other way (claim-climate-harder-not-easier).",
+        "target_exists": true
+      },
+      {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
         "context": "| 6 | Climate / hazard / sediment non-stationarity | claim-climate-harder-not-easier | intervention-q-design-climate-adjustment |",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…cted energy, debt service and safety margins shift with it (claim-climate-harder-not-easier, C-012, high).",
         "target_exists": true
       },
       {
@@ -8460,6 +8789,13 @@
         "title": "Unresolved Questions",
         "category": "syntheses",
         "context": "…ctory for buyer diversification | **FILLED** — full page at bangladesh-trade-route |",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…n grid, so India is the transit state for Bangladesh sales (bangladesh-trade-route).",
         "target_exists": true
       },
       {
@@ -9225,6 +9561,13 @@
     ],
     "hetauda-dhalkebar-inaruwa-backbone": [
       {
+        "slug": "nea-annual-report-fy2025-26",
+        "title": "NEA Annual Report FY 2025/26",
+        "category": "sources",
+        "context": "…ith completion expected \"in few months\" (PDF pp.13–14). See hetauda-dhalkebar-inaruwa-backbone for later status.",
+        "target_exists": true
+      },
+      {
         "slug": "nea-hddi-construction-notices-july-2026",
         "title": "NEA Hetauda–Dhalkebar Construction Notices, July 2026",
         "category": "sources",
@@ -9316,6 +9659,13 @@
         "target_exists": true
       },
       {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…n of about 2,000 MW until the dispute was resolved in 2026 (hetauda-dhalkebar-inaruwa-backbone). NEA's FY 2025/26 report says the new Markichowk–Bharatpur…",
+        "target_exists": true
+      },
+      {
         "slug": "hybrid-siting-logic",
         "title": "Hybrid Siting Logic",
         "category": "concepts",
@@ -9334,6 +9684,13 @@
         "title": "Environmental and Social Impacts",
         "category": "syntheses",
         "context": "…trate reservoir-scale resettlement and safeguard questions. hetauda-dhalkebar-inaruwa-backbone and the Bharatpur–Bardaghat comparison illustrate land and…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…energisation had not been confirmed by early November 2026 (hetauda-dhalkebar-inaruwa-backbone).",
         "target_exists": true
       },
       {
@@ -9383,6 +9740,444 @@
         "title": "Decision Dossier — Hetauda–Dhalkebar Completion and Community Resolution",
         "category": "interventions",
         "context": "hetauda-dhalkebar-inaruwa-backbone",
+        "target_exists": true
+      }
+    ],
+    "state-of-the-system": [
+      {
+        "slug": "nea-annual-report-fy2025-26",
+        "title": "NEA Annual Report FY 2025/26",
+        "category": "sources",
+        "context": "…is is the primary source for the current system baseline in state-of-the-system and the seasonal pattern in seasonal-mismatch. FY 2025/…",
+        "target_exists": true
+      },
+      {
+        "slug": "nepal-ndc-3-2025",
+        "title": "Nepal Nationally Determined Contribution 3.0 (2025)",
+        "category": "sources",
+        "context": "This source anchors official-target passages in state-of-the-system, solar-system, distribution-and-reliability, [[dema…",
+        "target_exists": true
+      },
+      {
+        "slug": "project-roadmap",
+        "title": "Project Roadmap",
+        "category": "concepts",
+        "context": "…s the editorial master-thesis separate from the factual state-of-the-system overview and labels pages using the wiki-page-maturity…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "state-of-the-system: the neutral, dated baseline",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…inked evidence. It is not the neutral system baseline. Read state-of-the-system first for dated facts, official targets and unresolved data…",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Nepal Energy Wiki",
+        "category": "syntheses",
+        "context": "Begin with state-of-the-system for the neutral, dated baseline. Then follow the five-minut…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "category": "claims",
+        "context": "state-of-the-system documents progress in capacity, access and annual trade whi…",
+        "target_exists": true
+      }
+    ],
+    "seasonal-mismatch": [
+      {
+        "slug": "nea-annual-report-fy2025-26",
+        "title": "NEA Annual Report FY 2025/26",
+        "category": "sources",
+        "context": "…line in state-of-the-system and the seasonal pattern in seasonal-mismatch. FY 2025/26 matters because Nepal was a large net exporter…",
+        "target_exists": true
+      },
+      {
+        "slug": "wecs-river-basin-plan-2024",
+        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
+        "category": "sources",
+        "context": "…rology evidence base. Provides the basin-level evidence for seasonal-mismatch and claim-timing-not-volume.",
+        "target_exists": true
+      },
+      {
+        "slug": "arun-3",
+        "title": "Arun 3",
+        "category": "entities",
+        "context": "seasonal-mismatch and firm-power deficits in dry months, which",
+        "target_exists": true
+      },
+      {
+        "slug": "budhigandaki",
+        "title": "Budhigandaki Hydroelectric Project",
+        "category": "entities",
+        "context": "…l's electricity system**. It addresses storage-deficit, seasonal-mismatch, and firm-power simultaneously. The revenue difference…",
+        "target_exists": true
+      },
+      {
+        "slug": "dudhkoshi-storage",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "category": "entities",
+        "context": "figure make the project relevant to seasonal-mismatch without",
+        "target_exists": true
+      },
+      {
+        "slug": "kali-gandaki-a",
+        "title": "Kali Gandaki A",
+        "category": "entities",
+        "context": "firm-power and seasonal-mismatch analysis.",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-cascade",
+        "title": "Kulekhani Cascade",
+        "category": "entities",
+        "context": "…400) is the number behind every argument in this wiki about seasonal-mismatch and firm-power. It means that in the driest months (Feb…",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-i",
+        "title": "Kulekhani I",
+        "category": "entities",
+        "context": "seasonal-mismatch — the monsoon-to-drought cycle Kulekhani partially offsets",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-ii",
+        "title": "Kulekhani II",
+        "category": "entities",
+        "context": "seasonal-mismatch — the cycle the cascade partially addresses",
+        "target_exists": true
+      },
+      {
+        "slug": "kulekhani-iii",
+        "title": "Kulekhani III",
+        "category": "entities",
+        "context": "seasonal-mismatch — the system problem this cascade partially addresses",
+        "target_exists": true
+      },
+      {
+        "slug": "madhya-marsyangdi",
+        "title": "Madhya Marsyangdi",
+        "category": "entities",
+        "context": "seasonal-mismatch — even 107.6% doesn't fix the monsoon-drought cycle",
+        "target_exists": true
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "category": "entities",
+        "context": "cannot escape seasonal-mismatch, regardless of its design-performance",
+        "target_exists": true
+      },
+      {
+        "slug": "mugu-karnali-storage",
+        "title": "Mugu Karnali Storage HEP",
+        "category": "entities",
+        "context": "seasonal-mismatch",
+        "target_exists": true
+      },
+      {
+        "slug": "nepal-energy-profile",
+        "title": "Nepal Energy Profile",
+        "category": "entities",
+        "context": "…and* less than it needs — at the same time, every year. See seasonal-mismatch.",
+        "target_exists": true
+      },
+      {
+        "slug": "tamor-storage",
+        "title": "Tamor Storage",
+        "category": "entities",
+        "context": "…eason when system demand peaks. See storage-deficit and seasonal-mismatch.",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "seasonal-mismatch pressure peaks.",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-marsyangdi-a",
+        "title": "Upper Marsyangdi A",
+        "category": "entities",
+        "context": "and seasonal-mismatch.",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "seasonal-mismatch without storage — even in its best basins.",
+        "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…ists even though storage is the clearest physical answer to seasonal-mismatch. The binding constraint is not knowing what to build. It is…",
+        "target_exists": true
+      },
+      {
+        "slug": "firm-power",
+        "title": "Firm Power",
+        "category": "concepts",
+        "context": "seasonal-mismatch — the problem firm power addresses",
+        "target_exists": true
+      },
+      {
+        "slug": "peak-water",
+        "title": "Peak Water",
+        "category": "concepts",
+        "context": "…e to **intra-annual** and **inter-annual** hydrographs; see seasonal-mismatch. Peak water defines a **planning window**: roughly **20-40…",
+        "target_exists": true
+      },
+      {
+        "slug": "project-roadmap",
+        "title": "Project Roadmap",
+        "category": "concepts",
+        "context": "generation and seasonality through hydropower-system, seasonal-mismatch, solar-system and storage-and-flexibility;",
+        "target_exists": true
+      },
+      {
+        "slug": "q-design-discharge",
+        "title": "Q-Design Discharge",
+        "category": "concepts",
+        "context": "seasonal-mismatch — the structural monsoon surplus vs winter deficit",
+        "target_exists": true
+      },
+      {
+        "slug": "run-of-river-hydropower",
+        "title": "Run-of-River Hydropower",
+        "category": "concepts",
+        "context": "…hen the river is high** and **deficit when it is low** (see seasonal-mismatch).",
+        "target_exists": true
+      },
+      {
+        "slug": "seasonal-arbitrage-trap",
+        "title": "Seasonal Arbitrage Trap",
+        "category": "concepts",
+        "context": "The pattern is the trade manifestation of seasonal-mismatch: a **run-of-river–heavy fleet** produces when rivers are hi…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-lcoe-crossover",
+        "title": "Solar LCOE Crossover",
+        "category": "concepts",
+        "context": "…hose production profile is **worst-matched** to demand (the seasonal-mismatch pattern), and ~5.43 NPR/kWh for solar energy whose producti…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-hydro-complementarity",
+        "title": "Solar–Hydro Complementarity",
+        "category": "concepts",
+        "context": "…ollapses to **25–35% of monsoon peak** in January–February (seasonal-mismatch, data-basin-discharge). The hydro fleet is therefore **…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "Seasonal mismatch (seasonal-mismatch) makes storage the clearest physical answer for evening and…",
+        "target_exists": true
+      },
+      {
+        "slug": "stranded-generation",
+        "title": "Stranded Generation",
+        "category": "concepts",
+        "context": "seasonal-mismatch). The NEA annual report is an essential system",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "| 2 | storage-deficit / seasonal-mismatch | Deep structural | claim-storage-physical-fix | [[inte…",
+        "target_exists": true
+      },
+      {
+        "slug": "climate-resilience-and-decarbonization",
+        "title": "Climate Resilience and Decarbonization",
+        "category": "syntheses",
+        "context": "environmental-and-social-impacts · seasonal-mismatch · solar-system · storage-and-flexibility",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…tion fell to 605 GWh against demand of about 1,013 GWh. See seasonal-mismatch and claim-timing-not-volume (C-001).",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…in June to September (wecs-river-basin-plan-2024). See seasonal-mismatch and claim-timing-not-volume (C-001, high confidence).",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Nepal Energy Wiki",
+        "category": "syntheses",
+        "context": "2. **Seasonal Mismatch** — why annual water abundance does not produce the same el…",
+        "target_exists": true
+      },
+      {
+        "slug": "hydropower-system",
+        "title": "Nepal's Hydropower System",
+        "category": "syntheses",
+        "context": "…xible demand or other balancing resources grow with it. See seasonal-mismatch.",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…same timing failure that the hydro pages already identify. seasonal-mismatch says Nepal's RoR-heavy fleet is long in the monsoon and sho…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…nter deficit as a **storage problem** (storage-deficit, seasonal-mismatch). The honest 2026 framing is: **part-storage, part-solar, p…",
+        "target_exists": true
+      },
+      {
+        "slug": "state-of-the-system",
+        "title": "State of Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "…or peaking run-of-river, river flow strongly shapes output. seasonal-mismatch explains why wet-season surplus and dry-season weakness can…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-and-flexibility",
+        "title": "Storage and System Flexibility",
+        "category": "syntheses",
+        "context": "kulekhani-cascade · storage-deficit · seasonal-mismatch · solar-system · data-domestic-demand",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-solar-cheaper-than-small-hydro",
+        "title": "NEA Solar Award Tariffs Undercut the Standard Small-RoR Blended Tariff",
+        "category": "claims",
+        "context": "seasonal-mismatch",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "category": "claims",
+        "context": "The failure stack links seasonal-mismatch → run-of-river-hydropower → storage-deficit → clima…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "…e, imports, flexible demand or complementary resources; see seasonal-mismatch.",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-storage-physical-fix",
+        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
+        "category": "claims",
+        "context": "seasonal-mismatch",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-transmission-immediate-blocker",
+        "title": "Transmission and Delivery Are Material Immediate Monetization Constraints",
+        "category": "claims",
+        "context": "seasonal-mismatch",
+        "target_exists": true
+      },
+      {
+        "slug": "data-basin-discharge",
+        "title": "Basin Discharge Data",
+        "category": "data",
+        "context": "…onth chart, with the monsoon window shaded. That would make seasonal-mismatch visible as a shape, not only a percentage.",
+        "target_exists": true
+      },
+      {
+        "slug": "data-trade-time-series",
+        "title": "Electricity Trade Time Series",
+        "category": "data",
+        "context": "…orter. Central evidence for seasonal-arbitrage-trap and seasonal-mismatch.",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…es/energy_balance_fy2025_26.svg) | SVG | master-thesis, seasonal-mismatch | nea-annual-report-fy2025-26 | Monthly energy-balance…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-fleet-composition",
+        "title": "Hydropower Fleet Composition",
+        "category": "data",
+        "context": "…chnology type. The RoR dominance is the structural cause of seasonal-mismatch in generation.",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-basin-seasonality",
+        "title": "Layer: Basin Seasonality",
+        "category": "data",
+        "context": "seasonal-mismatch",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-downstream-impact-markers",
+        "title": "Layer: Downstream Impact Markers",
+        "category": "data",
+        "context": "seasonal-mismatch",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-nepal-origin-downstream-systems",
+        "title": "Layer: Nepal-Origin Downstream Systems",
+        "category": "data",
+        "context": "seasonal-mismatch",
+        "target_exists": true
+      },
+      {
+        "slug": "data-mountain-hydro-comparison",
+        "title": "Mountain Hydro System Comparison",
+        "category": "data",
+        "context": "seasonal-mismatch — why the fleet mix matters more than installed MW",
+        "target_exists": true
+      },
+      {
+        "slug": "data-solar-hydro-complementarity-profile",
+        "title": "Solar–Hydro Complementarity Profile",
+        "category": "data",
+        "context": "seasonal-mismatch — the problem this profile solves",
+        "target_exists": true
+      },
+      {
+        "slug": "data-winter-deficit-model",
+        "title": "Winter Deficit Model",
+        "category": "data",
+        "context": "seasonal-mismatch — the structural problem this model quantifies",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-electric-cooking-transition",
+        "title": "Decision Dossier — Electric-Cooking Evidence Gate and Pilot",
+        "category": "interventions",
+        "context": "seasonal-mismatch",
         "target_exists": true
       }
     ],
@@ -9476,6 +10271,20 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "Transmission is the immediate blocker (claim-transmission-immediate-blocker)",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…ee storage-deficit, solar-hydro-complementarity and claim-transmission-immediate-blocker (C-019).",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…stranded-generation). That gap is itself a finding. See claim-transmission-immediate-blocker (C-019, medium-high).",
         "target_exists": true
       },
       {
@@ -9621,13 +10430,6 @@
         "target_exists": true
       },
       {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "intervention-transmission-completion — corridor delivery and negotiated settlement options",
-        "target_exists": true
-      },
-      {
         "slug": "transmission-and-cross-border-trade",
         "title": "Transmission and Cross-Border Electricity Trade",
         "category": "syntheses",
@@ -9735,47 +10537,17 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…rder links and trade arrows are schematic, except the named dhalkebar-muzaffarpur 400 kV line. The 552 and 357 GWh figures are national month…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-cross-border-interconnections",
         "title": "Layer: Cross-Border Gateways",
         "category": "data",
         "context": "dhalkebar-muzaffarpur",
-        "target_exists": true
-      }
-    ],
-    "state-of-the-system": [
-      {
-        "slug": "nepal-ndc-3-2025",
-        "title": "Nepal Nationally Determined Contribution 3.0 (2025)",
-        "category": "sources",
-        "context": "This source anchors official-target passages in state-of-the-system, solar-system, distribution-and-reliability, [[dema…",
-        "target_exists": true
-      },
-      {
-        "slug": "project-roadmap",
-        "title": "Project Roadmap",
-        "category": "concepts",
-        "context": "…s the editorial master-thesis separate from the factual state-of-the-system overview and labels pages using the wiki-page-maturity…",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "…inked evidence. It is not the neutral system baseline. Read state-of-the-system first for dated facts, official targets and unresolved data…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "Begin with state-of-the-system for the neutral, dated baseline. Then follow the five-minut…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-systems-conversion-failure",
-        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
-        "category": "claims",
-        "context": "state-of-the-system documents progress in capacity, access and annual trade whi…",
         "target_exists": true
       }
     ],
@@ -9799,6 +10571,13 @@
         "title": "Climate Resilience and Decarbonization",
         "category": "syntheses",
         "context": "…nvironmental-and-social-impacts]] · seasonal-mismatch · solar-system · storage-and-flexibility",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…and NEA signed 49 solar PPAs totalling 675 MW in the year (solar-system).",
         "target_exists": true
       },
       {
@@ -10116,7 +10895,7 @@
         "slug": "claim-india-decisive-actor",
         "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
         "category": "claims",
-        "context": "**Treaty and corridor politics:** Shared basins (pancheshwar-class deadlocks) can stall or unlock multi-gigawatt-scale p…",
+        "context": "…basins:** Multi-gigawatt storage on shared rivers, such as pancheshwar, depends on treaty-level agreement with India.",
         "target_exists": true
       },
       {
@@ -10340,6 +11119,20 @@
         "title": "Q-Design Discharge",
         "category": "concepts",
         "context": "…billing-architecture subsidy, documented in chilime and nea-triple-authority.",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…power plants that compete with the producers it buys from (nea-triple-authority). Power purchases cost NEA NPR 96.1 billion in FY 2025/26,…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…ki/assets/figures/nea_cost_structure_fy2025_26.svg) | SVG | nea-triple-authority | nea-annual-report-fy2025-26 | Managing director's rep…",
         "target_exists": true
       },
       {
@@ -10594,10 +11387,31 @@
         "target_exists": true
       },
       {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…ogy may not be operable on future hydrology (glof-risk, q-design-discharge).",
+        "target_exists": true
+      },
+      {
         "slug": "ppa-pricing",
         "title": "PPA Pricing",
         "category": "concepts",
         "context": "q-design-discharge — how design discharge determines contracted energy (the de…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…risk]]). Projects are designed on historical flow records (q-design-discharge). When the hydrology shifts, contracted energy, debt servic…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…i/assets/figures/contracted_energy_performance.svg) | SVG | q-design-discharge | chilime-annual-report-fy2078-79, [[care-ratings-sanim…",
         "target_exists": true
       },
       {
@@ -10715,7 +11529,7 @@
         "slug": "nea-triple-authority",
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
-        "context": "nea-standard-ppa-clauses and ad-penalty-clause-research report availability-decl…",
+        "context": "…r for the shortfall at the purchase rate (ad-penalties, nea-standard-ppa-clauses).",
         "target_exists": true
       },
       {
@@ -10775,7 +11589,7 @@
         "slug": "nea-triple-authority",
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
-        "context": "See intervention-nea-structural-separation for the evidence-led Decision Dossier, including response o…",
+        "context": "…changes outcomes (intervention-sebon-data-transparency, intervention-nea-structural-separation).",
         "target_exists": true
       },
       {
@@ -10803,7 +11617,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "intervention-nea-structural-separation — system-operation, penalty-authority and open-access optio…",
+        "context": "…026 (claim-governance-binding, C-029, medium-high). See intervention-nea-structural-separation.",
         "target_exists": true
       },
       {
@@ -10861,7 +11675,7 @@
         "slug": "nea-triple-authority",
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
-        "context": "ad-penalties",
+        "context": "…lability-declaration and related provisions under its PPAs (ad-penalties) |",
         "target_exists": true
       },
       {
@@ -10984,7 +11798,7 @@
         "slug": "buildability",
         "title": "Buildability",
         "category": "concepts",
-        "context": "…24 flood destroyed gates and control room, 88-day outage at Upper Tamakoshi).",
+        "context": "| upper-tamakoshi (456 MW) | National-priority run-of-river project | Commiss…",
         "target_exists": true
       },
       {
@@ -11005,7 +11819,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…rsyangdi|Madhya Marsyangdi]] (70 MW, 107.6% of design), and Upper Tamakoshi (456 MW, 90.2% in a good year but 67% in a flood-shutdown y…",
+        "context": "…ration; Madhya Marsyangdi (70 MW) and Upper Tamakoshi (456 MW) show the same shape at different amplitudes. Peaki…",
         "target_exists": true
       },
       {
@@ -11067,10 +11881,17 @@
         "target_exists": true
       },
       {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "data-trade-time-series — multi-year monthly trade",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
         "category": "syntheses",
-        "context": "data-trade-time-series — the seasonal trade pattern",
+        "context": "| 0:21 | About 552 GWh exported in Bhadra | data-trade-time-series | NEA Annual Report FY 2024/25, India trade chart p.137 | M…",
         "target_exists": true
       },
       {
@@ -11143,13 +11964,6 @@
         "title": "Solar LCOE Crossover",
         "category": "concepts",
         "context": "claim-solar-cheaper-than-small-hydro — the tracked claim",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "claim-solar-cheaper-than-small-hydro — the new marginal-cost benchmark",
         "target_exists": true
       },
       {
@@ -11228,7 +12042,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…, but it attacks the dry-season daytime component directly: solar-hydro-complementarity shows why Nepal's clear winter sky is a physical complement…",
+        "context": "…t generation that is strongest when rivers are weakest; see solar-hydro-complementarity. It needs pondage, batteries or demand shifting to reach th…",
         "target_exists": true
       },
       {
@@ -11246,10 +12060,17 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…oduce, shift, deliver and protect. See storage-deficit, solar-hydro-complementarity and claim-transmission-immediate-blocker (C-019).",
+        "target_exists": true
+      },
+      {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "4. **solar-hydro-complementarity** — solar is the first scalable resource whose seasonal pro…",
+        "context": "…hydro-weak months (wb-esmap-solar-resource-assessment, solar-hydro-complementarity). Installed solar reached 154.94 MW in FY 2025/26, and NEA…",
         "target_exists": true
       },
       {
@@ -11393,14 +12214,14 @@
         "slug": "storage-deficit",
         "title": "Storage Deficit",
         "category": "concepts",
-        "context": "…as **India ~180**, **China ~664**, **Norway ~15,100** (see data-storage-comparison for the project table and caveats). Nepal's operational hyd…",
+        "context": "…,154 MW with higher demand, against 106 MW operating today (data-storage-comparison).",
         "target_exists": true
       },
       {
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "data-storage-comparison — the storage gap in numbers",
+        "context": "…opower Nepal needs by 2032 range from 1,993 MW to 3,154 MW (data-storage-comparison). The projects that would supply it show how hard delivery…",
         "target_exists": true
       },
       {
@@ -11550,6 +12371,13 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…public hourly load curve is not (unresolved-questions, data-domestic-demand). Without it, nobody outside NEA can calculate exactly how…",
+        "target_exists": true
+      },
+      {
         "slug": "solar-hydro-complementarity",
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
@@ -11588,7 +12416,7 @@
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
-        "context": "The evidence from data-domestic-demand is stark: only **0.5% of Nepali households** use electricit…",
+        "context": "The evidence from data-domestic-demand is stark: only about **0.5% of Nepali households** used ele…",
         "target_exists": true
       },
       {
@@ -11657,6 +12485,13 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…n or toward daylight reduce the winter evening requirement (intervention-electric-cooking-transition).",
+        "target_exists": true
+      },
+      {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
@@ -11675,13 +12510,6 @@
         "title": "Demand and Electrification",
         "category": "syntheses",
         "context": "…ata-final-energy-mix]] · distribution-and-reliability · intervention-electric-cooking-transition",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "intervention-electric-cooking-transition — demand, appliance, tariff and reliability options",
         "target_exists": true
       },
       {
@@ -11729,6 +12557,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "| 1:06 | 83,500 MW is a theoretical estimate | hydropower-potential-categories, wecs-hydropower-potential-2019 | WECS 2019, pp.1, 8, 1…",
+        "target_exists": true
+      },
+      {
         "slug": "start-here",
         "title": "Nepal Energy Wiki",
         "category": "syntheses",
@@ -11739,7 +12574,7 @@
         "slug": "claim-mw-not-equal-value",
         "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
         "category": "claims",
-        "context": "…sible) attaches to which public numbers, with citations per hydropower-potential-categories and data-potential-pyramid.",
+        "context": "…a theoretical estimate (wecs-hydropower-potential-2019, hydropower-potential-categories). The three numbers answer different questions; none is a c…",
         "target_exists": true
       },
       {
@@ -11845,6 +12680,13 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…tfolio measured in dependable dry-season service, which the master-thesis develops.",
+        "target_exists": true
+      },
+      {
         "slug": "bottleneck-hierarchy",
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
@@ -11856,6 +12698,13 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "master-thesis — the central public argument",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "master-thesis: the wiki's full argument",
         "target_exists": true
       },
       {
@@ -11912,6 +12761,13 @@
         "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
         "category": "claims",
         "context": "The explicitly editorial master-thesis defines the \"conversion stack\": hydrology, fleet shape, sto…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…./wiki/assets/figures/energy_balance_fy2025_26.svg) | SVG | master-thesis, seasonal-mismatch | nea-annual-report-fy2025-26 |…",
         "target_exists": true
       },
       {
@@ -12038,6 +12894,13 @@
         "target_exists": true
       },
       {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…l and ~1,141 MW of approved cross-border transfer capacity (nepal-energy-profile); both sit inside an India-mediated corridor regime.",
+        "target_exists": true
+      },
+      {
         "slug": "data-consumption-geographic-distribution",
         "title": "Electricity Consumption Geographic Distribution",
         "category": "data",
@@ -12073,365 +12936,6 @@
         "target_exists": true
       }
     ],
-    "seasonal-mismatch": [
-      {
-        "slug": "wecs-river-basin-plan-2024",
-        "title": "WECS River Basin Plans and Hydropower Development Master Plan (2024)",
-        "category": "sources",
-        "context": "…rology evidence base. Provides the basin-level evidence for seasonal-mismatch and claim-timing-not-volume.",
-        "target_exists": true
-      },
-      {
-        "slug": "arun-3",
-        "title": "Arun 3",
-        "category": "entities",
-        "context": "seasonal-mismatch and firm-power deficits in dry months, which",
-        "target_exists": true
-      },
-      {
-        "slug": "budhigandaki",
-        "title": "Budhigandaki Hydroelectric Project",
-        "category": "entities",
-        "context": "…l's electricity system**. It addresses storage-deficit, seasonal-mismatch, and firm-power simultaneously. The revenue difference…",
-        "target_exists": true
-      },
-      {
-        "slug": "dudhkoshi-storage",
-        "title": "Dudhkoshi Storage Hydroelectric Project",
-        "category": "entities",
-        "context": "figure make the project relevant to seasonal-mismatch without",
-        "target_exists": true
-      },
-      {
-        "slug": "kali-gandaki-a",
-        "title": "Kali Gandaki A",
-        "category": "entities",
-        "context": "firm-power and seasonal-mismatch analysis.",
-        "target_exists": true
-      },
-      {
-        "slug": "kulekhani-cascade",
-        "title": "Kulekhani Cascade",
-        "category": "entities",
-        "context": "…400) is the number behind every argument in this wiki about seasonal-mismatch and firm-power. It means that in the driest months (Feb…",
-        "target_exists": true
-      },
-      {
-        "slug": "kulekhani-i",
-        "title": "Kulekhani I",
-        "category": "entities",
-        "context": "seasonal-mismatch — the monsoon-to-drought cycle Kulekhani partially offsets",
-        "target_exists": true
-      },
-      {
-        "slug": "kulekhani-ii",
-        "title": "Kulekhani II",
-        "category": "entities",
-        "context": "seasonal-mismatch — the cycle the cascade partially addresses",
-        "target_exists": true
-      },
-      {
-        "slug": "kulekhani-iii",
-        "title": "Kulekhani III",
-        "category": "entities",
-        "context": "seasonal-mismatch — the system problem this cascade partially addresses",
-        "target_exists": true
-      },
-      {
-        "slug": "madhya-marsyangdi",
-        "title": "Madhya Marsyangdi",
-        "category": "entities",
-        "context": "seasonal-mismatch — even 107.6% doesn't fix the monsoon-drought cycle",
-        "target_exists": true
-      },
-      {
-        "slug": "marsyangdi",
-        "title": "Marsyangdi",
-        "category": "entities",
-        "context": "cannot escape seasonal-mismatch, regardless of its design-performance",
-        "target_exists": true
-      },
-      {
-        "slug": "mugu-karnali-storage",
-        "title": "Mugu Karnali Storage HEP",
-        "category": "entities",
-        "context": "seasonal-mismatch",
-        "target_exists": true
-      },
-      {
-        "slug": "nepal-energy-profile",
-        "title": "Nepal Energy Profile",
-        "category": "entities",
-        "context": "…and* less than it needs — at the same time, every year. See seasonal-mismatch.",
-        "target_exists": true
-      },
-      {
-        "slug": "tamor-storage",
-        "title": "Tamor Storage",
-        "category": "entities",
-        "context": "…eason when system demand peaks. See storage-deficit and seasonal-mismatch.",
-        "target_exists": true
-      },
-      {
-        "slug": "tanahu-hydropower",
-        "title": "Tanahu Hydropower Project",
-        "category": "entities",
-        "context": "seasonal-mismatch pressure peaks.",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-marsyangdi-a",
-        "title": "Upper Marsyangdi A",
-        "category": "entities",
-        "context": "and seasonal-mismatch.",
-        "target_exists": true
-      },
-      {
-        "slug": "upper-trishuli-3a",
-        "title": "Upper Trishuli 3A",
-        "category": "entities",
-        "context": "seasonal-mismatch without storage — even in its best basins.",
-        "target_exists": true
-      },
-      {
-        "slug": "firm-power",
-        "title": "Firm Power",
-        "category": "concepts",
-        "context": "seasonal-mismatch — the problem firm power addresses",
-        "target_exists": true
-      },
-      {
-        "slug": "peak-water",
-        "title": "Peak Water",
-        "category": "concepts",
-        "context": "…e to **intra-annual** and **inter-annual** hydrographs; see seasonal-mismatch. Peak water defines a **planning window**: roughly **20-40…",
-        "target_exists": true
-      },
-      {
-        "slug": "project-roadmap",
-        "title": "Project Roadmap",
-        "category": "concepts",
-        "context": "generation and seasonality through hydropower-system, seasonal-mismatch, solar-system and storage-and-flexibility;",
-        "target_exists": true
-      },
-      {
-        "slug": "q-design-discharge",
-        "title": "Q-Design Discharge",
-        "category": "concepts",
-        "context": "seasonal-mismatch — the structural monsoon surplus vs winter deficit",
-        "target_exists": true
-      },
-      {
-        "slug": "run-of-river-hydropower",
-        "title": "Run-of-River Hydropower",
-        "category": "concepts",
-        "context": "…hen the river is high** and **deficit when it is low** (see seasonal-mismatch).",
-        "target_exists": true
-      },
-      {
-        "slug": "seasonal-arbitrage-trap",
-        "title": "Seasonal Arbitrage Trap",
-        "category": "concepts",
-        "context": "The pattern is the trade manifestation of seasonal-mismatch: a **run-of-river–heavy fleet** produces when rivers are hi…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-lcoe-crossover",
-        "title": "Solar LCOE Crossover",
-        "category": "concepts",
-        "context": "…hose production profile is **worst-matched** to demand (the seasonal-mismatch pattern), and ~5.43 NPR/kWh for solar energy whose producti…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-hydro-complementarity",
-        "title": "Solar–Hydro Complementarity",
-        "category": "concepts",
-        "context": "…ollapses to **25–35% of monsoon peak** in January–February (seasonal-mismatch, data-basin-discharge). The hydro fleet is therefore **…",
-        "target_exists": true
-      },
-      {
-        "slug": "storage-deficit",
-        "title": "Storage Deficit",
-        "category": "concepts",
-        "context": "Seasonal mismatch (seasonal-mismatch) makes storage the clearest physical answer for evening and…",
-        "target_exists": true
-      },
-      {
-        "slug": "stranded-generation",
-        "title": "Stranded Generation",
-        "category": "concepts",
-        "context": "seasonal-mismatch). The NEA annual report is an essential system",
-        "target_exists": true
-      },
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "| 2 | storage-deficit / seasonal-mismatch | Deep structural | claim-storage-physical-fix | [[inte…",
-        "target_exists": true
-      },
-      {
-        "slug": "climate-resilience-and-decarbonization",
-        "title": "Climate Resilience and Decarbonization",
-        "category": "syntheses",
-        "context": "environmental-and-social-impacts · seasonal-mismatch · solar-system · storage-and-flexibility",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "1. **seasonal-mismatch** — 75%+ of water in four months; hydrology delivers a mons…",
-        "target_exists": true
-      },
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "2. **Seasonal Mismatch** — why annual water abundance does not produce the same el…",
-        "target_exists": true
-      },
-      {
-        "slug": "hydropower-system",
-        "title": "Nepal's Hydropower System",
-        "category": "syntheses",
-        "context": "…xible demand or other balancing resources grow with it. See seasonal-mismatch.",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-in-the-master-narrative",
-        "title": "Solar in the Master Narrative",
-        "category": "syntheses",
-        "context": "…same timing failure that the hydro pages already identify. seasonal-mismatch says Nepal's RoR-heavy fleet is long in the monsoon and sho…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…nter deficit as a **storage problem** (storage-deficit, seasonal-mismatch). The honest 2026 framing is: **part-storage, part-solar, p…",
-        "target_exists": true
-      },
-      {
-        "slug": "state-of-the-system",
-        "title": "State of Nepal's Electricity System",
-        "category": "syntheses",
-        "context": "…or peaking run-of-river, river flow strongly shapes output. seasonal-mismatch explains why wet-season surplus and dry-season weakness can…",
-        "target_exists": true
-      },
-      {
-        "slug": "storage-and-flexibility",
-        "title": "Storage and System Flexibility",
-        "category": "syntheses",
-        "context": "kulekhani-cascade · storage-deficit · seasonal-mismatch · solar-system · data-domestic-demand",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-solar-cheaper-than-small-hydro",
-        "title": "NEA Solar Award Tariffs Undercut the Standard Small-RoR Blended Tariff",
-        "category": "claims",
-        "context": "seasonal-mismatch",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-systems-conversion-failure",
-        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
-        "category": "claims",
-        "context": "The failure stack links seasonal-mismatch → run-of-river-hydropower → storage-deficit → clima…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-timing-not-volume",
-        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
-        "category": "claims",
-        "context": "…e, imports, flexible demand or complementary resources; see seasonal-mismatch.",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-storage-physical-fix",
-        "title": "Storage Is the Clearest Physical Answer to Seasonal Mismatch",
-        "category": "claims",
-        "context": "seasonal-mismatch",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-transmission-immediate-blocker",
-        "title": "Transmission and Delivery Are Material Immediate Monetization Constraints",
-        "category": "claims",
-        "context": "seasonal-mismatch",
-        "target_exists": true
-      },
-      {
-        "slug": "data-basin-discharge",
-        "title": "Basin Discharge Data",
-        "category": "data",
-        "context": "…onth chart, with the monsoon window shaded. That would make seasonal-mismatch visible as a shape, not only a percentage.",
-        "target_exists": true
-      },
-      {
-        "slug": "data-trade-time-series",
-        "title": "Electricity Trade Time Series",
-        "category": "data",
-        "context": "…orter. Central evidence for seasonal-arbitrage-trap and seasonal-mismatch.",
-        "target_exists": true
-      },
-      {
-        "slug": "data-fleet-composition",
-        "title": "Hydropower Fleet Composition",
-        "category": "data",
-        "context": "…chnology type. The RoR dominance is the structural cause of seasonal-mismatch in generation.",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-basin-seasonality",
-        "title": "Layer: Basin Seasonality",
-        "category": "data",
-        "context": "seasonal-mismatch",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-downstream-impact-markers",
-        "title": "Layer: Downstream Impact Markers",
-        "category": "data",
-        "context": "seasonal-mismatch",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-nepal-origin-downstream-systems",
-        "title": "Layer: Nepal-Origin Downstream Systems",
-        "category": "data",
-        "context": "seasonal-mismatch",
-        "target_exists": true
-      },
-      {
-        "slug": "data-mountain-hydro-comparison",
-        "title": "Mountain Hydro System Comparison",
-        "category": "data",
-        "context": "seasonal-mismatch — why the fleet mix matters more than installed MW",
-        "target_exists": true
-      },
-      {
-        "slug": "data-solar-hydro-complementarity-profile",
-        "title": "Solar–Hydro Complementarity Profile",
-        "category": "data",
-        "context": "seasonal-mismatch — the problem this profile solves",
-        "target_exists": true
-      },
-      {
-        "slug": "data-winter-deficit-model",
-        "title": "Winter Deficit Model",
-        "category": "data",
-        "context": "seasonal-mismatch — the structural problem this model quantifies",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-electric-cooking-transition",
-        "title": "Decision Dossier — Electric-Cooking Evidence Gate and Pilot",
-        "category": "interventions",
-        "context": "seasonal-mismatch",
-        "target_exists": true
-      }
-    ],
     "claim-timing-not-volume": [
       {
         "slug": "wecs-river-basin-plan-2024",
@@ -12444,7 +12948,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…bates about \"potential MW\" often miss the point captured in claim-timing-not-volume: **timing** can dominate **volume** in value.",
+        "context": "…ates about \"potential megawatts\" miss the point captured in claim-timing-not-volume (C-001, high): timing can matter more than volume.",
         "target_exists": true
       },
       {
@@ -12459,6 +12963,20 @@
         "title": "Evidence Review Notes",
         "category": "syntheses",
         "context": "Timing > volume (claim-timing-not-volume)",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…st demand of about 1,013 GWh. See seasonal-mismatch and claim-timing-not-volume (C-001).",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…ecs-river-basin-plan-2024]]). See seasonal-mismatch and claim-timing-not-volume (C-001, high confidence).",
         "target_exists": true
       },
       {
@@ -12742,7 +13260,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…installed capacity\" from what the system can *depend* on is firm-power.",
+        "context": "firm-power — what the system can depend on, as distinct from what is i…",
         "target_exists": true
       },
       {
@@ -12764,6 +13282,20 @@
         "title": "Downstream River Geopolitics",
         "category": "syntheses",
         "context": "This is where storage-deficit, firm-power, environmental-flow-policy, and hydro-geopolitics m…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…able megawatts and duration answer different questions. See firm-power and claim-mw-not-equal-value (C-006).",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…ult dry-season hour, for how long, and delivered where? See firm-power and claim-mw-not-equal-value (C-006, medium-high: the d…",
         "target_exists": true
       },
       {
@@ -13301,6 +13833,13 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…duration answer different questions. See firm-power and claim-mw-not-equal-value (C-006).",
+        "target_exists": true
+      },
+      {
         "slug": "institutions-finance-and-project-delivery",
         "title": "Institutions, Finance and Project Delivery",
         "category": "syntheses",
@@ -13308,10 +13847,24 @@
         "target_exists": true
       },
       {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…, for how long, and delivered where? See firm-power and claim-mw-not-equal-value (C-006, medium-high: the distinctions are documented; how o…",
+        "target_exists": true
+      },
+      {
         "slug": "hydropower-system",
         "title": "Nepal's Hydropower System",
         "category": "syntheses",
         "context": "…project MW to status evidence and treats firm-power and claim-mw-not-equal-value as separate concepts.",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…/mw_vs_dependable_fy2025_26.svg) | SVG | master-thesis, claim-mw-not-equal-value | nea-annual-report-fy2025-26 | The Falgun figure divid…",
         "target_exists": true
       },
       {
@@ -13990,6 +14543,13 @@
         "target_exists": true
       },
       {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…n AIIB financing still listed as proposed in November 2026 (aiib-dudhkoshi-project-2026) |",
+        "target_exists": true
+      },
+      {
         "slug": "intervention-q-design-climate-adjustment",
         "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
         "category": "interventions",
@@ -14063,6 +14623,169 @@
         "title": "Layer: Major Transmission Network",
         "category": "data",
         "context": "dana-kushma-butwal-corridor",
+        "target_exists": true
+      }
+    ],
+    "nea-annual-report-fy2025-26": [
+      {
+        "slug": "hetauda-dhalkebar-inaruwa-backbone",
+        "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone",
+        "category": "entities",
+        "context": "…hat work resumed, with completion expected \"in few months\" (nea-annual-report-fy2025-26, PDF pp.13–14). On 7 October 2026, NEA's executive director…",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "packages (nea-annual-report-fy2025-26, PDF pp.13, 16). ADB's current",
+        "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…; ADB's loan closing moved from June 2021 to December 2028 (nea-annual-report-fy2025-26, adb-tanahu-project-documents-2026) |",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…al report documents how many roles meet in one institution (nea-annual-report-fy2025-26):",
+        "target_exists": true
+      },
+      {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…from Bhadra to Falgun and Nepal imported 273 GWh in Falgun (nea-annual-report-fy2025-26, PDF p.176).",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…l imported 1,155 GWh, most of it between Poush and Chaitra (nea-annual-report-fy2025-26, PDF pp.175–176). The gap between those two numbers is the…",
+        "target_exists": true
+      },
+      {
+        "slug": "demand-and-electrification",
+        "title": "Demand and Electrification",
+        "category": "syntheses",
+        "context": "…y 36%, while domestic customers were 90.64% of connections (nea-annual-report-fy2025-26, PDF p.13). For FY 2024/25, NEA reported **11,288 GWh of el…",
+        "target_exists": true
+      },
+      {
+        "slug": "distribution-and-reliability",
+        "title": "Distribution and Reliability",
+        "category": "syntheses",
+        "context": "…stem loss** for FY 2025/26, down from 12.26% in FY 2024/25 (nea-annual-report-fy2025-26, PDF pp.11, 13). These show grid expansion and aggregate ef…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…electricity exports: 2,794 GWh, four times the year before (nea-annual-report-fy2025-26, PDF p.11). That headline hides a seasonal reversal. In Bha…",
+        "target_exists": true
+      },
+      {
+        "slug": "hydropower-system",
+        "title": "Nepal's Hydropower System",
+        "category": "syntheses",
+        "context": "…or FY 2025/26, up from 3,389.912 MW of hydro in FY 2024/25 (nea-annual-report-fy2025-26, PDF p.185). More than 90% of hydro capacity is commonly cl…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-system",
+        "title": "Solar in Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "…lled solar** in FY2024/25 and **154.940 MW** in FY 2025/26 (nea-annual-report-fy2025-26, PDF p.185); NEA also signed 49 solar PPAs totalling 675 MW…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…4,120 MW, with 675 MW of new solar PPAs signed in the year (nea-annual-report-fy2025-26).",
+        "target_exists": true
+      },
+      {
+        "slug": "state-of-the-system",
+        "title": "State of Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "Sources: nea-annual-report-fy2025-26 (PDF pp.11–14, 176, 185) and [[nea-annual-report-fy2024-25]…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-and-flexibility",
+        "title": "Storage and System Flexibility",
+        "category": "syntheses",
+        "context": "….8 GWh** in FY2024/25, falling to **92 GWh** in FY 2025/26 (nea-annual-report-fy2025-26, PDF pp.175–176); the report does not explain the drop. Onl…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-governance-binding",
+        "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives",
+        "category": "claims",
+        "context": "…ar and a further **23.97%** to **NPR 96.1B** in FY 2025/26 (nea-annual-report-fy2025-26, PDF p.13), while export revenue (NPR 29.3B in FY 2025/26)…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…0 MW to Bihar) and the Indo-Nepal Power Exchange Committee (nea-annual-report-fy2025-26, PDF p.14). India is therefore the main practical export ma…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…report-fy2024-25]]) and 4,120.252 MW total for FY 2025/26 (nea-annual-report-fy2025-26); the DoED operating registry stood at 3,791.874 MW in its…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "category": "claims",
+        "context": "…tion falling from 1,991 GWh in Bhadra to 801 GWh in Falgun (nea-annual-report-fy2025-26).",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "category": "claims",
+        "context": "…and in synthesis; NEA reports **496 kWh** for FY 2025/26 in nea-annual-report-fy2025-26), and electricity is still a small share of final energy (*…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "nea-annual-report-fy2025-26 repeats the pattern in a year of record net exports (2,794…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-transmission-immediate-blocker",
+        "title": "Transmission and Delivery Are Material Immediate Monetization Constraints",
+        "category": "claims",
+        "context": "The NEA Annual Report FY 2025/26 says the newly commissioned Markichowk–Bharatpur 220 kV lin…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…_26.svg) | SVG | master-thesis, seasonal-mismatch | nea-annual-report-fy2025-26 | Monthly energy-balance table totals (exports 3,938 GWh, i…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Decision Dossier — Hetauda–Dhalkebar Completion and Community Resolution",
+        "category": "interventions",
+        "context": "nea-annual-report-fy2025-26 states that the decade-long construction dispute \"has final…",
         "target_exists": true
       }
     ],
@@ -14190,6 +14913,13 @@
         "title": "India — Energy Relationship with Nepal",
         "category": "entities",
         "context": "…opers to align with Indian interests for market access. See india-cbte-2018.",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…rade guidelines govern which entities may import or export (india-cbte-2018). Wiki sources report that in practice India blocks Chinese…",
         "target_exists": true
       },
       {
@@ -14562,6 +15292,13 @@
         "target_exists": true
       },
       {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…not as a generic green add-on. The 960 MW national tender (nea-solar-loi-2024) then turned that logic into a market signal: the canonical…",
+        "target_exists": true
+      },
+      {
         "slug": "claim-solar-cheaper-than-small-hydro",
         "title": "NEA Solar Award Tariffs Undercut the Standard Small-RoR Blended Tariff",
         "category": "claims",
@@ -14610,6 +15347,13 @@
         "title": "Storage Deficit",
         "category": "concepts",
         "context": "…kulekhani-cascade** — three plants totaling **106 MW** (Kulekhani I 60 MW reservoir, II 32 MW cascade, [[kulek…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…sediment since commissioning in 1982 (storage-deficit, kulekhani-i).",
         "target_exists": true
       }
     ],
@@ -14720,7 +15464,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…ible across every NEA operating plant with multi-year data: Marsyangdi (69 MW, seasonal variation charts from FY 2081/82 show the…",
+        "context": "The pattern is visible plant by plant. Marsyangdi (69 MW) shows the monsoon-to-dry collapse even in a year at…",
         "target_exists": true
       }
     ],
@@ -14991,6 +15735,13 @@
         "target_exists": true
       },
       {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…s short-cycle resources, such as substation-adjacent solar (claim-solar-terai-only-short-cycle-build, medium confidence) and batteries, with a small number of c…",
+        "target_exists": true
+      },
+      {
         "slug": "domestic-led-hydro-strategy",
         "title": "Domestic-Led Hydro Strategy",
         "category": "concepts",
@@ -15055,6 +15806,34 @@
         "title": "Run-of-River Hydropower",
         "category": "concepts",
         "context": "…*~85.7% RoR**, **~9.9% PRoR**, and **~3.7% storage** (see data-fleet-composition). That single sentence is already a forecast: most megawatt…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…'s 106 MW is 2.71% of 3,909.721 MW of operating hydropower (data-fleet-composition); everything else either follows the river or shifts water…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…ting seasonal storage, is 106 MW of 3,909.721 MW, or 2.71% (data-fleet-composition). See claim-ror-dominance (C-005, high).",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…its April 10, 2026 snapshot and 3,909.721 MW in July 2026 (data-fleet-composition). These are different accounting scopes and dates.",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "category": "claims",
+        "context": "…ere the Kulekhani storage cascade is 2.71% of 3,909.721 MW (data-fleet-composition). Current dry-season hydro still falls to roughly **~1,100–…",
         "target_exists": true
       },
       {
@@ -15127,13 +15906,6 @@
         "title": "Hydropower Potential Categories",
         "category": "concepts",
         "context": "Think of a pyramid—quantified in data-potential-pyramid—where each step applies filters the previous step ignores:",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "data-potential-pyramid — the 83,000 to 3,591 reduction",
         "target_exists": true
       },
       {
@@ -15425,6 +16197,27 @@
         "category": "entities",
         "context": "ADB Tanahu Hydropower Project Documents (2026)",
         "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…une 2021 to December 2028 (nea-annual-report-fy2025-26, adb-tanahu-project-documents-2026) |",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…n estimated completion by end-2020 | tanahu-hydropower, adb-tanahu-project-documents-2026 | ADB RRP (Jan 2013) p.9 Table 3; NEA AR p.94; DoED registe…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…s/figures/schedule_slippage.svg) | SVG | buildability | adb-tanahu-project-documents-2026, nea-annual-report-fy2025-26 | Arun-3's two points are…",
+        "target_exists": true
       }
     ],
     "tanahu-adb-status-2025": [
@@ -15621,7 +16414,7 @@
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "…drought collapse even at 97% of design annual generation), Madhya Marsyangdi (70 MW, 107.6% of design), and [[upper-tamakoshi|Upper Tama…",
+        "context": "…to-dry collapse even in a year at 97% of design generation; Madhya Marsyangdi (70 MW) and Upper Tamakoshi (456 MW) sh…",
         "target_exists": true
       }
     ],
@@ -15659,10 +16452,31 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…–14% after the monsoon and 5–11% in winter and pre-monsoon (wecs-river-basin-plan-2024, p.20). Other basins differ in detail but share the shape.…",
+        "target_exists": true
+      },
+      {
         "slug": "solar-hydro-complementarity",
         "title": "Solar–Hydro Complementarity",
         "category": "concepts",
         "context": "wecs-river-basin-plan-2024",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…ly 67–78% of annual flow arrives June–September, by basin | wecs-river-basin-plan-2024 | WECS 2024, p.20 (Koshi basin) | Modelled basin shares; di…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…s place roughly 67–78% of annual flow in June to September (wecs-river-basin-plan-2024). See seasonal-mismatch and claim-timing-not-volume…",
         "target_exists": true
       },
       {
@@ -16201,6 +17015,13 @@
         "target_exists": true
       },
       {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…ake open access work were still in draft in September 2026 (claim-governance-binding, C-029, medium-high). See [[intervention-nea-structural-sep…",
+        "target_exists": true
+      },
+      {
         "slug": "intervention-nea-structural-separation",
         "title": "Decision Dossier — Power-System Role Separation and Open Access",
         "category": "interventions",
@@ -16354,7 +17175,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "twenty-year-strategy — phased implementation",
+        "context": "…are in bottleneck-hierarchy; the phased programme is in twenty-year-strategy; the policy choices are compared in the [[decision-dossiers…",
         "target_exists": true
       },
       {
@@ -16416,6 +17237,13 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…are documented, but a full public hourly load curve is not (unresolved-questions, data-domestic-demand). Without it, nobody outside NEA…",
+        "target_exists": true
+      },
+      {
         "slug": "stranded-generation",
         "title": "Stranded Generation",
         "category": "concepts",
@@ -16444,10 +17272,24 @@
         "target_exists": true
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "unresolved-questions: evidence gaps the film depends on",
+        "target_exists": true
+      },
+      {
         "slug": "institutions-finance-and-project-delivery",
         "title": "Institutions, Finance and Project Delivery",
         "category": "syntheses",
         "context": "…claim-governance-binding]] · claim-mw-not-equal-value · unresolved-questions",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…works at Kulekhani I and II but does not explain the drop (unresolved-questions).",
         "target_exists": true
       },
       {
@@ -16461,7 +17303,7 @@
         "slug": "state-of-the-system",
         "title": "State of Nepal's Electricity System",
         "category": "syntheses",
-        "context": "…ive; alternative tables differ slightly and are retained in unresolved-questions |",
+        "context": "These are maintained as evidence gaps in unresolved-questions, not silently replaced with estimates.",
         "target_exists": true
       },
       {
@@ -16499,13 +17341,6 @@
         "title": "Bottleneck Hierarchy",
         "category": "syntheses",
         "context": "solar-in-the-master-narrative — the master-frame update",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "The linked domestic-led-hydro-strategy and solar-in-the-master-narrative argue for prioritising domestic dry-season reliability and…",
         "target_exists": true
       },
       {
@@ -17010,6 +17845,43 @@
         "category": "concepts",
         "context": "chilime-annual-report-fy2078-79",
         "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…ed_energy_performance.svg) | SVG | q-design-discharge | chilime-annual-report-fy2078-79, care-ratings-sanima-mai, ukhl-annual-report | A sm…",
+        "target_exists": true
+      }
+    ],
+    "intervention-sebon-data-transparency": [
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…uld let anyone check whether the conflict changes outcomes (intervention-sebon-data-transparency, intervention-nea-structural-separation).",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…nce-binding]] | intervention-nea-structural-separation; intervention-sebon-data-transparency |",
+        "target_exists": true
+      },
+      {
+        "slug": "decision-dossiers",
+        "title": "Decision Dossiers and Policy Options",
+        "category": "syntheses",
+        "context": "intervention-sebon-data-transparency — hydropower financial disclosure",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…adjusted hydrology before licensing the Phase 2 pipeline); intervention-sebon-data-transparency (ensure Phase 2 IPOs are transparently disclosed).",
+        "target_exists": true
       }
     ],
     "erc-open-access-directive-2082": [
@@ -17017,7 +17889,7 @@
         "slug": "nea-triple-authority",
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
-        "context": "Public reporting indexed at erc-open-access-directive-2082 states that ERC issued Open Access Directive 2082. The offi…",
+        "context": "…in Transmission and Distribution System on 9 January 2026 (erc-open-access-directive-2082; [Pioneer Law brief](https://pioneerlaw.com/resource/brief-…",
         "target_exists": true
       },
       {
@@ -17081,6 +17953,34 @@
         "target_exists": true
       },
       {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…inguishes declared available capacity from contract energy (erc-reservoir-ppa-directive-2082, ppa-pricing).",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…rom capacity declared and kept available for named periods (erc-reservoir-ppa-directive-2082). Whether that framework attracts finance and survives cont…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…rates declared available capacity from contract energy. See erc-reservoir-ppa-directive-2082.",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…contract energy from capacity declared and kept available (erc-reservoir-ppa-directive-2082). If what gets paid for shapes what gets built, more of Nep…",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
@@ -17104,10 +18004,24 @@
         "target_exists": true
       },
       {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "….8 per kWh in the wet season and NPR 8.4 in the dry season (erc-eca-storage-ppa-discussion-paper-2025, Table 1): generate a unit, earn for that unit. A run-of-ri…",
+        "target_exists": true
+      },
+      {
         "slug": "unresolved-questions",
         "title": "Unresolved Questions",
         "category": "syntheses",
         "context": "…, while the 2082 directive is approved official text | Cite erc-eca-storage-ppa-discussion-paper-2025 for discussion-paper findings and [[erc-reservoir-ppa-direc…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…capacity as a possible basis for a separate fixed payment (erc-eca-storage-ppa-discussion-paper-2025). The regulator itself treats energy and dependable capacit…",
         "target_exists": true
       },
       {
@@ -17268,16 +18182,148 @@
         "category": "concepts",
         "context": "…pically stores 2–6 hours of water, not weeks or months. See claim-pror-not-storage.",
         "target_exists": true
-      }
-    ],
-    "data-basin-discharge": [
+      },
       {
         "slug": "seasonal-mismatch",
         "title": "Seasonal Mismatch",
         "category": "concepts",
-        "context": "Basin-scale discharge framing and indicators belong in data-basin-discharge. The analytical lens that separates \"installed capacity\" fr…",
+        "context": "…daki A's six hours of daily peaking, but not across months (claim-pror-not-storage, C-009, high).",
         "target_exists": true
       },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…iver or shifts water within a day (claim-ror-dominance, claim-pror-not-storage).",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…he 106 MW Kulekhani cascade holds water across seasons. See claim-pror-not-storage (C-009) and kulekhani-cascade.",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…ng plant (kali-gandaki-a). Six hours is not six months (claim-pror-not-storage, C-009, high).",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…ily pondage shifts energy within a day, not across seasons (claim-pror-not-storage).",
+        "target_exists": true
+      }
+    ],
+    "claim-storage-physical-fix": [
+      {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…olds monsoon water for the dry months (storage-deficit, claim-storage-physical-fix). It is the clearest physical answer and the hardest to bui…",
+        "target_exists": true
+      },
+      {
+        "slug": "bottleneck-hierarchy",
+        "title": "Bottleneck Hierarchy",
+        "category": "syntheses",
+        "context": "…orage-deficit]] / seasonal-mismatch | Deep structural | claim-storage-physical-fix | intervention-electric-cooking-transition (demand-side…",
+        "target_exists": true
+      },
+      {
+        "slug": "provider-comparison",
+        "title": "Evidence Review Notes",
+        "category": "syntheses",
+        "context": "Storage is the physical fix (claim-storage-physical-fix)",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…y to move monsoon water into the dry season is to store it (claim-storage-physical-fix, C-008, high). Nepal has almost none. The Kulekhani cascade…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-role-in-winter-deficit",
+        "title": "Solar's Role in the Winter Deficit",
+        "category": "syntheses",
+        "context": "…nism:** Shift monsoon water into dry-season generation. The claim-storage-physical-fix answer.",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "…icy responses (storage vs trade vs demand flexibility); see claim-storage-physical-fix, seasonal-arbitrage-trap, and relevant syntheses for so…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-layer-storage-shortlist",
+        "title": "Layer: Storage Shortlist",
+        "category": "data",
+        "context": "claim-storage-physical-fix",
+        "target_exists": true
+      }
+    ],
+    "claim-india-decisive-actor": [
+      {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…but leave it exposed to Indian prices and corridor limits (claim-india-decisive-actor).",
+        "target_exists": true
+      },
+      {
+        "slug": "provider-comparison",
+        "title": "Evidence Review Notes",
+        "category": "syntheses",
+        "context": "India is decisive (claim-india-decisive-actor)",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…es India's grid. India is the decisive market and corridor (claim-india-decisive-actor, C-025, high). Trade is valuable and should grow. It is a w…",
+        "target_exists": true
+      }
+    ],
+    "film-nepal-has-hydropower": [
+      {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "film-nepal-has-hydropower — the documentary built around this mismatch",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "**The film:** film-nepal-has-hydropower maps the documentary's claims to this evidence.",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Nepal Energy Wiki",
+        "category": "syntheses",
+        "context": "…Hydropower. Why Isn't It Enough?* tells the seasonal story; film-nepal-has-hydropower maps each of its claims to the evidence here.",
+        "target_exists": true
+      },
+      {
+        "slug": "data-fleet-composition",
+        "title": "Hydropower Fleet Composition",
+        "category": "data",
+        "context": "…full-register RoR or PRoR percentage is computed here. See film-nepal-has-hydropower for the typing sources.",
+        "target_exists": true
+      }
+    ],
+    "data-basin-discharge": [
       {
         "slug": "solar-hydro-complementarity",
         "title": "Solar–Hydro Complementarity",
@@ -17381,43 +18427,6 @@
         "target_exists": true
       }
     ],
-    "claim-storage-physical-fix": [
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…orage-deficit]] / seasonal-mismatch | Deep structural | claim-storage-physical-fix | intervention-electric-cooking-transition (demand-side…",
-        "target_exists": true
-      },
-      {
-        "slug": "provider-comparison",
-        "title": "Evidence Review Notes",
-        "category": "syntheses",
-        "context": "Storage is the physical fix (claim-storage-physical-fix)",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-role-in-winter-deficit",
-        "title": "Solar's Role in the Winter Deficit",
-        "category": "syntheses",
-        "context": "…nism:** Shift monsoon water into dry-season generation. The claim-storage-physical-fix answer.",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-timing-not-volume",
-        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
-        "category": "claims",
-        "context": "…icy responses (storage vs trade vs demand flexibility); see claim-storage-physical-fix, seasonal-arbitrage-trap, and relevant syntheses for so…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-layer-storage-shortlist",
-        "title": "Layer: Storage Shortlist",
-        "category": "data",
-        "context": "claim-storage-physical-fix",
-        "target_exists": true
-      }
-    ],
     "intervention-q-design-climate-adjustment": [
       {
         "slug": "bottleneck-hierarchy",
@@ -17441,47 +18450,10 @@
         "target_exists": true
       },
       {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "intervention-q-design-climate-adjustment — climate-adjusted hydrology and design-review options",
-        "target_exists": true
-      },
-      {
         "slug": "twenty-year-strategy",
         "title": "Twenty-Year Strategy",
         "category": "syntheses",
         "context": "…sition]] (build domestic demand to absorb monsoon surplus); intervention-q-design-climate-adjustment (mandate climate-adjusted hydrology before licensing the Ph…",
-        "target_exists": true
-      }
-    ],
-    "intervention-sebon-data-transparency": [
-      {
-        "slug": "bottleneck-hierarchy",
-        "title": "Bottleneck Hierarchy",
-        "category": "syntheses",
-        "context": "…nce-binding]] | intervention-nea-structural-separation; intervention-sebon-data-transparency |",
-        "target_exists": true
-      },
-      {
-        "slug": "decision-dossiers",
-        "title": "Decision Dossiers and Policy Options",
-        "category": "syntheses",
-        "context": "intervention-sebon-data-transparency — hydropower financial disclosure",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "intervention-sebon-data-transparency — financial-disclosure and civic-data options",
-        "target_exists": true
-      },
-      {
-        "slug": "twenty-year-strategy",
-        "title": "Twenty-Year Strategy",
-        "category": "syntheses",
-        "context": "…adjusted hydrology before licensing the Phase 2 pipeline); intervention-sebon-data-transparency (ensure Phase 2 IPOs are transparently disclosed).",
         "target_exists": true
       }
     ],
@@ -17504,7 +18476,7 @@
         "slug": "master-thesis",
         "title": "Master Thesis",
         "category": "syntheses",
-        "context": "See claim-systems-conversion-failure.",
+        "context": "…nal readiness was nobody's product. See ppa-pricing and claim-systems-conversion-failure (C-032, high).",
         "target_exists": true
       },
       {
@@ -17515,12 +18487,35 @@
         "target_exists": true
       }
     ],
+    "nepal-ndc-3-2025": [
+      {
+        "slug": "climate-resilience-and-decarbonization",
+        "title": "Climate Resilience and Decarbonization",
+        "category": "syntheses",
+        "context": "Nepal's NDC 3.0 (nepal-ndc-3-2025) targets renewable electricity capacity of 14,031 MW by 203…",
+        "target_exists": true
+      },
+      {
+        "slug": "state-of-the-system",
+        "title": "State of Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "| What is government aiming for? | nepal-ndc-3-2025 | Official 2030 and 2035 capacity, loss and electrification…",
+        "target_exists": true
+      }
+    ],
     "wb-household-electric-cooking-nepal-2025": [
       {
         "slug": "demand-and-electrification",
         "title": "Demand and Electrification",
         "category": "syntheses",
         "context": "…nsourced demand-conversion scenario as observed demand. See wb-household-electric-cooking-nepal-2025.",
+        "target_exists": true
+      },
+      {
+        "slug": "twenty-year-strategy",
+        "title": "Twenty-Year Strategy",
+        "category": "syntheses",
+        "context": "…in the World Bank's 2021 estimate, still below 1% in 2025 (wb-household-electric-cooking-nepal-2025). In a scenario where 20–30% of cooking shifts to electrici…",
         "target_exists": true
       },
       {
@@ -17591,12 +18586,19 @@
         "target_exists": true
       }
     ],
-    "claim-india-decisive-actor": [
+    "decision-dossiers": [
       {
-        "slug": "provider-comparison",
-        "title": "Evidence Review Notes",
+        "slug": "master-thesis",
+        "title": "Master Thesis",
         "category": "syntheses",
-        "context": "India is decisive (claim-india-decisive-actor)",
+        "context": "…nty-year-strategy]]; the policy choices are compared in the decision-dossiers.",
+        "target_exists": true
+      },
+      {
+        "slug": "start-here",
+        "title": "Nepal Energy Wiki",
+        "category": "syntheses",
+        "context": "…evidence:** institutions-finance-and-project-delivery, decision-dossiers, data-map-inventory, unresolved-questions.",
         "target_exists": true
       }
     ],
@@ -17606,15 +18608,6 @@
         "title": "Solar's Role in the Winter Deficit",
         "category": "syntheses",
         "context": "data-winter-deficit-model — the reproducible monthly energy-balance model backing thi…",
-        "target_exists": true
-      }
-    ],
-    "decision-dossiers": [
-      {
-        "slug": "start-here",
-        "title": "Nepal Energy Wiki",
-        "category": "syntheses",
-        "context": "…evidence:** institutions-finance-and-project-delivery, decision-dossiers, data-map-inventory, unresolved-questions.",
         "target_exists": true
       }
     ],
@@ -17855,15 +18848,6 @@
         "title": "Map Inventory",
         "category": "data",
         "context": "For the reader-facing legend and layer-control wording, see data-map-layer-labels.",
-        "target_exists": true
-      }
-    ],
-    "nepal-ndc-3-2025": [
-      {
-        "slug": "state-of-the-system",
-        "title": "State of Nepal's Electricity System",
-        "category": "syntheses",
-        "context": "| What is government aiming for? | nepal-ndc-3-2025 | Official 2030 and 2035 capacity, loss and electrification…",
         "target_exists": true
       }
     ],
@@ -18290,6 +19274,24 @@
         "title": "Nepal Peak Load Curve FY 2024/25",
         "category": "data",
         "context": "The daily shape on the FY peak day shows why main-load-dispatch-centre",
+        "target_exists": true
+      }
+    ],
+    "care-ratings-sanima-mai": [
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…q-design-discharge]] | chilime-annual-report-fy2078-79, care-ratings-sanima-mai, ukhl-annual-report | A small, non-random sample from c…",
+        "target_exists": true
+      }
+    ],
+    "ukhl-annual-report": [
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…ime-annual-report-fy2078-79]], care-ratings-sanima-mai, ukhl-annual-report | A small, non-random sample from company reports and ratin…",
         "target_exists": true
       }
     ],

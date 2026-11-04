@@ -5,7 +5,7 @@ created: 2026-04-30
 updated: 2026-05-12
 sources: [data-layer-nepal-origin-route-callouts, downstream-river-geopolitics]
 tags: [geopolitics, downstream, gandaki, gandak, ganges]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Gandak-Ganges Merge

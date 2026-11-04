@@ -7,7 +7,7 @@ updated: 2026-05-13
 sources: [nepal-transmission-landscape-2025, nea_marsyangdi_rap_upper]
 tags: [transmission, 220kv, marsyangdi, under-construction, traced-corridor]
 generator: manual
-page_quality: analysis
+page_quality: record
 ---
 
 # Marsyangdi Corridor Manang-Khudi-Udipur 220 kV

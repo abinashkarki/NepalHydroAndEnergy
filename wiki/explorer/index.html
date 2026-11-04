@@ -6,25 +6,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="np-build" content="public-launch-12" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' unpkg.com; img-src 'self' data: *.cartocdn.com *.opentopomap.org server.arcgisonline.com *.tile.openstreetmap.org tile.openstreetmap.org *.basemaps.cartocdn.com; connect-src 'self' cdn.jsdelivr.net unpkg.com huggingface.co *.huggingface.co *.hf.co; worker-src 'self' blob:; frame-src 'none';" />
-  <script>
-    window.__WIKI_CLEAN_ROUTE_SLUGS__ = Object.freeze([
-      "glof-risk",
-      "rasuwagadhi",
-      "icimod-ndrrma-thame-glof-2024",
-      "ndrrma-rasuwa-glacial-flood-sitrep-2025",
-      "nea-engineering-annual-report-2081-82",
-    ]);
-  </script>
   <title>Nepal Energy · Wiki & Map</title>
+  <link rel="canonical" id="canonical-link" href="https://transparentgov.ai/wiki/explorer/" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b6b57'/%3E%3Cpath d='M14 44 27 18l8 16 6-10 9 20Z' fill='%23fff'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" />
   <link rel="stylesheet" href="shared/style.css?v=public-launch-12" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
   <script src="shared/marked.min.js?v=public-launch-12"></script>
   <script src="shared/leaflet-init.js?v=public-launch-12"></script>
-  <script src="shared/source-used-by.js?v=public-launch-12"></script>
-  <script src="shared/wiki-loader.js?v=public-launch-12"></script>
-  <script src="shared/wiki-search.js?v=public-launch-13"></script>
+  <script src="shared/source-used-by.js?v=public-launch-13"></script>
+  <script src="shared/wiki-loader.js?v=public-launch-13"></script>
+  <script src="shared/wiki-search.js?v=public-launch-14"></script>
   <script src="shared/wiki-vector-search.js?v=public-launch-12"></script>
   <style>
     /* Layout: resizable three-pane grid. */
@@ -2868,10 +2860,9 @@
 
   <div class="app-bar">
     <a class="title home-link" id="home-link" href="?page=start-here" title="Open wiki front page" aria-label="Open wiki front page">Nepal Energy · Wiki & Map</a>
-    <span class="pill">nav · wiki page · live map (bidirectional)</span>
     <span class="spacer"></span>
-    <button class="reset-btn" id="reset-layout" title="Reset pane widths and view preferences">Reset layout</button>
-    <span class="crumb" id="now-page" style="margin-left: 10px">no page selected</span>
+    <button class="reset-btn" id="reset-layout" title="Reset pane widths and view preferences" aria-label="Reset layout">↺</button>
+    <span class="crumb" id="now-page" style="margin-left: 10px"></span>
     <div class="compact-tabs" id="compact-tabs" role="group" aria-label="Compact wiki views">
       <button type="button" data-view="find">Find</button>
       <button type="button" data-view="read">Read</button>
@@ -2992,10 +2983,11 @@
         basins: "Basins", projects: "Projects", institutions: "Institutions",
         geopolitics: "Geopolitics & Trade", profiles: "Profiles", other: "Other",
       };
-      const CAT_ORDER = ["entities", "concepts", "claims", "syntheses", "interventions", "data", "sources"];
+      // Reader-facing section names; the internal categories stay unchanged.
+      const CAT_ORDER = ["syntheses", "claims", "concepts", "interventions", "entities", "data", "sources"];
       const CAT_LABEL = {
-        entities: "Entities", concepts: "Concepts", claims: "Claims", syntheses: "Syntheses",
-        interventions: "Decision Dossiers", data: "Data", sources: "Sources",
+        syntheses: "Analysis", claims: "Claims", concepts: "Explainers", interventions: "Policy options",
+        entities: "Projects & places", data: "Data", sources: "Sources",
       };
       const MATURITY_LABEL = {
         "verified-core": "Verified Core",
@@ -3253,8 +3245,8 @@
 
       function initialCompactView(url) {
         if (url && url.q) return "find";
-        if (url && (url.page || url.fact)) return "read";
-        return "find";
+        // With no deep link, phones open on the Start Here page, not the index.
+        return "read";
       }
 
       function currentReaderTitle() {
@@ -4338,7 +4330,9 @@
         document.querySelectorAll("#nav .nav-link, #nav .result").forEach((el) => {
           el.classList.toggle("active", el.dataset.slug === slug);
         });
-        document.getElementById("now-page").textContent = slug || "no page";
+        const title = slug ? ((pageIndex && pageIndex.slugToTitle && pageIndex.slugToTitle[slug]) || slug) : "";
+        document.getElementById("now-page").textContent = title;
+        document.title = title ? `${title} · Nepal Energy Wiki` : "Nepal Energy · Wiki & Map";
       }
 
       function renderProjectIntelligenceHeader(slug) {
@@ -4449,7 +4443,7 @@
 
         const binding = bindings.pages[slug];
         if (!binding) {
-          document.getElementById("map-info").innerHTML = "<b>" + slug + "</b><br/>Reader page · map stays on the current lens.";
+          document.getElementById("map-info").innerHTML = "<b>" + escapeHtml(currentReaderTitle() || slug) + "</b><br/>This page has no map location; the map keeps the current lens.";
           syncUrl();
           return;
         }
@@ -4738,6 +4732,9 @@
         syncLayerControlPlaceholders();
         if (opts.fly !== false && p.bounds) {
           map.flyToBounds(p.bounds, { padding: [40, 40], duration: 0.9, maxZoom: 9 });
+        } else if (p.bounds) {
+          // Without the animation the map would stay on the wide initial view.
+          map.fitBounds(p.bounds, { padding: [20, 20], maxZoom: 9 });
         }
         syncLayerPanel();
         syncUrl();
@@ -5610,6 +5607,14 @@
           if (step && step.id) params.set("step", step.id);
         }
         const pathname = isBootstrappedSubject ? `/wiki/${encodeURIComponent(currentSlug)}/` : location.pathname;
+        // Every wiki page has a static reader URL; point search engines there
+        // rather than at this app state.
+        const canonicalLink = document.getElementById("canonical-link");
+        if (canonicalLink) {
+          canonicalLink.href = currentSlug
+            ? `https://transparentgov.ai/wiki/${encodeURIComponent(currentSlug)}/`
+            : "https://transparentgov.ai/wiki/explorer/";
+        }
         const url = pathname + (params.toString() ? "?" + params.toString() : "");
         history.replaceState(null, "", url);
       }

@@ -6,7 +6,7 @@ updated: 2026-05-13
 sources: [aepc-renewable-framework, eib-rural-solar-phase2]
 tags: [aepc, institution, renewable, solar, SHS, mini-grid, off-grid]
 generator: manual
-page_quality: analysis
+page_quality: record
 ---
 
 # Alternative Energy Promotion Centre (AEPC)

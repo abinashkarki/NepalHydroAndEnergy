@@ -178,6 +178,10 @@
         "title": "NEA Annual Report FY 2024/25"
       },
       {
+        "slug": "nea-annual-report-fy2025-26",
+        "title": "NEA Annual Report FY 2025/26"
+      },
+      {
         "slug": "nea-engineering-annual-report-2081-82",
         "title": "NEA Engineering Company Annual Report FY 2081/82"
       },
@@ -1324,6 +1328,10 @@
         "title": "Environmental and Social Impacts"
       },
       {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?"
+      },
+      {
         "slug": "hydropower-system",
         "title": "Nepal's Hydropower System"
       },
@@ -1768,6 +1776,7 @@
     "national-water-plan-nepal",
     "ndrrma-rasuwa-glacial-flood-sitrep-2025",
     "nea-annual-report-fy2024-25",
+    "nea-annual-report-fy2025-26",
     "nea-engineering-annual-report-2081-82",
     "nea-generation-directorate-2081",
     "nea-hddi-construction-notices-july-2026",
@@ -2053,6 +2062,7 @@
     "distribution-and-reliability",
     "downstream-river-geopolitics",
     "environmental-and-social-impacts",
+    "film-nepal-has-hydropower",
     "hydropower-system",
     "institutions-finance-and-project-delivery",
     "ipsdp-2025-vs-wiki-claims",
@@ -2197,6 +2207,7 @@
     "national-water-plan-nepal": "sources",
     "ndrrma-rasuwa-glacial-flood-sitrep-2025": "sources",
     "nea-annual-report-fy2024-25": "sources",
+    "nea-annual-report-fy2025-26": "sources",
     "nea-engineering-annual-report-2081-82": "sources",
     "nea-generation-directorate-2081": "sources",
     "nea-hddi-construction-notices-july-2026": "sources",
@@ -2482,6 +2493,7 @@
     "distribution-and-reliability": "syntheses",
     "downstream-river-geopolitics": "syntheses",
     "environmental-and-social-impacts": "syntheses",
+    "film-nepal-has-hydropower": "syntheses",
     "hydropower-system": "syntheses",
     "institutions-finance-and-project-delivery": "syntheses",
     "ipsdp-2025-vs-wiki-claims": "syntheses",
@@ -2626,6 +2638,7 @@
     "national-water-plan-nepal": "National Water Plan, Nepal",
     "ndrrma-rasuwa-glacial-flood-sitrep-2025": "NDRRMA Rasuwa Glacial Flood Situation Report 1 (2025)",
     "nea-annual-report-fy2024-25": "NEA Annual Report FY 2024/25",
+    "nea-annual-report-fy2025-26": "NEA Annual Report FY 2025/26",
     "nea-engineering-annual-report-2081-82": "NEA Engineering Company Annual Report FY 2081/82",
     "nea-generation-directorate-2081": "NEA Generation Directorate Data \u2014 FY 2080/81",
     "nea-hddi-construction-notices-july-2026": "NEA Hetauda\u2013Dhalkebar Construction Notices, July 2026",
@@ -2911,6 +2924,7 @@
     "distribution-and-reliability": "Distribution and Reliability",
     "downstream-river-geopolitics": "Downstream River Geopolitics",
     "environmental-and-social-impacts": "Environmental and Social Impacts",
+    "film-nepal-has-hydropower": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
     "hydropower-system": "Nepal's Hydropower System",
     "institutions-finance-and-project-delivery": "Institutions, Finance and Project Delivery",
     "ipsdp-2025-vs-wiki-claims": "IPSDP 2025 vs Wiki Claims",
@@ -3010,5 +3024,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 427
+  "totalPages": 429
 }

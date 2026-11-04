@@ -2,10 +2,10 @@
 title: Tanahu Hydropower Project
 type: entity
 created: 2026-04-14
-updated: 2026-07-30
+updated: 2026-11-04
 generator: specs-refresh
 page_quality: analysis
-sources: [adb-tanahu-project-documents-2026, tanahu-adb-status-2025, tanahu-progress-2026, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
+sources: [nea-annual-report-fy2025-26, adb-tanahu-project-documents-2026, tanahu-adb-status-2025, tanahu-progress-2026, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077]
 tags: [project, storage, under-construction, gandaki, seti, adb-financed, tanahu]
 images:
   - src: tanahu-hydropower/seti-gandaki-river.jpg
@@ -62,7 +62,9 @@ images:
 A 140 MW **storage-type** reservoir scheme on the Seti River and the
 most advanced large reservoir project under construction in Nepal.
 The NEA FY 2024/25 baseline reported about 67% physical progress; a
-later April 2026 public update reported roughly 75%. ADB's current
+later April 2026 public update reported roughly 75%, and NEA's FY 2025/26
+annual report puts it at about 78% across the three construction
+packages ([[nea-annual-report-fy2025-26]], PDF pp.13, 16). ADB's current
 project record also exposes audited financial statements, contract
 utilisation and environmental and social monitoring, allowing progress
 to be tracked by package rather than by a single headline percentage.
@@ -72,7 +74,7 @@ to be tracked by package rather than by a single headline percentage.
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 140 MW |
-| Status | Under construction — ~67% NEA FY 2024/25 baseline; ~75% April 2026 public update |
+| Status | Under construction — ~78% NEA FY 2025/26 (mid-July 2026); ~67% in FY 2024/25 |
 | River | Seti ([[gandaki-basin]]) |
 | District | Tanahu |
 
@@ -107,7 +109,7 @@ extrapolating a completion date from the headline percentage.
 
 | Parameter | Value |
 |-----------|-------|
-| Completion | ~67% in NEA FY 2024/25; ~75% in Apr 2026 public update |
+| Completion | ~78% in NEA FY 2025/26; ~75% in Apr 2026 public update; ~67% in FY 2024/25 |
 | Appraisal completion estimate | 31 Dec 2020 |
 | ADB Loan 2990 closing | Original: 30 Jun 2021; revised: 30 Dec 2028 |
 
@@ -132,6 +134,7 @@ or infer a commercial-operation date from it.
 | Jul 2026 | ADB's current project record showed Loan 2990's revised closing date as 30 December 2028 |
 | Apr 2026 | ADB disclosed the ninth environmental and social Panel of Experts report |
 | Apr 2026 | Public progress update placed overall physical progress at approximately 75% |
+| Aug 2026 | NEA FY 2025/26 annual report: about 78% complete across three construction packages |
 | Jan 2026 | ADB disclosed audited project financial statements for FY 2024/25 |
 
 ## Active Blockers

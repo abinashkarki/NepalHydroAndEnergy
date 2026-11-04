@@ -6,7 +6,7 @@ updated: 2026-05-12
 figure_type: map-layer-label
 sources: [data-map-inventory, doed-solar-power-plants-table, nea-solar-loi-2024]
 tags: [maps, geojson, layers, explorer, legend]
-page_quality: analysis
+page_quality: brief
 ---
 
 # Layer: Solar Plants + NEA 960 MW Awards

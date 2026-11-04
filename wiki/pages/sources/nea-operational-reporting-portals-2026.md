@@ -6,7 +6,7 @@ updated: 2026-07-13
 source_url: https://genrd.nea.org.np/en/pages/generation-operational-reports
 publisher: Nepal Electricity Authority
 source_date: 2026-07-13
-page_quality: analysis
+page_quality: brief
 tags: [source, nea, generation, dispatch, curtailment, operations, transparency]
 ---
 

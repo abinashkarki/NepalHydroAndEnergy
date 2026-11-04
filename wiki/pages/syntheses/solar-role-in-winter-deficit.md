@@ -2,16 +2,16 @@
 title: Solar's Role in the Winter Deficit
 type: synthesis
 created: 2026-04-23
-updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
-sources: [nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, irena-remap-nepal]
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, wecs-river-basin-plan-2024, irena-remap-nepal]
 tags: [solar, hydro, winter, deficit, seasonal, complementarity, strategy, storage, BESS, synthesis]
 excerpt: A Working Page that explores how solar, storage, demand timing and batteries could interact in a winter-balance model.
 caveat: The 2030/2035 portfolio values are scenario assumptions, not a verified delivery pipeline or forecast; current award records do not establish construction or operation.
 maturity: working-page
-page_quality: analysis
+page_quality: brief
 ---
 
 # Solar's Role in the Winter Deficit
@@ -40,7 +40,7 @@ The 2030 gap more than doubles from today’s ~550 GWh baseline; by 2035, demand
 
 **Mechanism:** Shift monsoon water into dry-season generation. The [[claim-storage-physical-fix]] answer.
 
-**Realistic 2035 contribution:** [[tanahu-hydropower]] (140 MW, COD 2026/27 window — under construction, ~67% complete in the NEA FY 2024/25 report and roughly 75% complete in an April 2026 public update) + [[dudhkoshi-storage]] (670 MW, COD ambitious ~2035). ([[budhigandaki]] 1,200 MW excluded from pre-2036 scenarios — main EPC contract not expected until January 2028, implying earliest COD 2036.) Aggregate new storage dry-season generation ~800–900 GWh/winter-season above the RoR baseline. (Model: 2035_full hydro ~3,246 GWh vs. 2035_solar_only hydro ~2,412 GWh = net storage addition of ~834 GWh.)
+**Realistic 2035 contribution:** [[tanahu-hydropower]] (140 MW, COD 2026/27 window — under construction, about 78% complete in the NEA FY 2025/26 report, up from ~67% a year earlier) + [[dudhkoshi-storage]] (670 MW, COD ambitious ~2035). ([[budhigandaki]] 1,200 MW excluded from pre-2036 scenarios — main EPC contract not expected until January 2028, implying earliest COD 2036.) Aggregate new storage dry-season generation ~800–900 GWh/winter-season above the RoR baseline. (Model: 2035_full hydro ~3,246 GWh vs. 2035_solar_only hydro ~2,412 GWh = net storage addition of ~834 GWh.)
 
 **Physical advantage:** Dispatchable; provides capacity credit for evening peak; non-intermittent.
 

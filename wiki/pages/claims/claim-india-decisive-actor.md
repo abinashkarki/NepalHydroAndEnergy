@@ -2,11 +2,14 @@
 title: India Is the Decisive External Actor in Nepal's Hydro Future
 type: claim
 created: 2026-04-14
-updated: 2026-11-03
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
+as_of: 2026-07-16
 claim_id: C-025
-confidence: medium
+confidence: high
 status: stable
-sources: [india-cbte-2018, wb-ganges-strategic-basin-assessment, national-water-plan-nepal]
+sources: [nea-annual-report-fy2025-26, india-cbte-2018, wb-ganges-strategic-basin-assessment, national-water-plan-nepal]
 tags: [geopolitics, trade, treaties, corridors]
 page_quality: analysis
 ---
@@ -17,18 +20,18 @@ page_quality: analysis
 
 ## Evidence
 
-**Provenance note (2026-11-03):** confidence lowered from high to medium. The research-ledger and source-review bullets below summarise AI-assisted research syntheses, not primary documents. Confidence returns to high only when each evidence bullet cites a primary source page (NEA, WECS, DoED, ERC, treaty or government text).
+*Re-grounded 2026-11-04 in primary sources; the earlier research-ledger and source-review bullets were removed.*
 
-- **Market and corridor:** Most bankable export stories route through Indian demand, Indian grid scheduling practices, and Indian permitting for cross-border lines and trading windows. India is the **main practical export market**, so India's policy state changes Nepal's **realized** export price and volume even when Nepali plants exist.
-- **Balancing and seasonality:** India is large enough to absorb or substitute flows in ways that change Nepal's **arbitrage** options during surplus/deficit phases—Nepal's optimization is not independent.
-- **Approval and transfer limits:** Nepal currently has **941 MW** of project export approval and roughly **~1,141 MW** of broader approved cross-border transfer capacity; both sit inside an India-mediated corridor regime.
-- **Treaty and corridor politics:** Shared basins ([[pancheshwar]]-class deadlocks) can stall or unlock multi-gigawatt-scale portfolios; Bangladesh diversification still depends on India as the **transit state for Bangladesh sales**, and **India blocks Chinese equity/EPC projects** from the cross-border export market.
-- **Research ledger:** "This does not mean Nepal has no agency. It means Nepal's agency has to operate through a structure in which India remains the dominant **market-and-corridor interface**."
-- **Cross-source finding:** Align that **hydro-geopolitics** is not a side plot; it is part of feasibility and finance.
+- **Main practical export market:** In FY 2025/26 almost all of Nepal's 3,965 GWh of electricity exports went to Indian buyers, through the Indian Day-Ahead and Real-Time power markets, medium-term bilateral agreements (400 MW to Haryana, up to 200 MW to Bihar) and the Indo-Nepal Power Exchange Committee ([[nea-annual-report-fy2025-26]], PDF p.14). India is therefore the main practical export market: Indian market rules and prices set Nepal's realised export volume and revenue.
+- **Dry-season balancing:** The same year Nepal imported 1,171 GWh from India, 6% of energy available, concentrated in Poush–Chaitra (124–273 GWh a month) when domestic generation was lowest (PDF pp.13, 176). India is both the outlet for monsoon surplus and the supplier for dry-season shortfall.
+- **Transfer limits are set bilaterally:** NEA exported up to 1,200 MW and imported around 750 MW in FY 2025/26. The July 2026 India–Nepal Joint Working Group/Joint Steering Committee approved a combined Dhalkebar–Muzaffarpur/Sitamarhi limit of 1,650 MW export and 1,400 MW import, and interim 220 kV operation of Butwal–Gorakhpur with 200 MW export and 130 MW import (PDF p.14). Earlier wiki records gave 941 MW of project export approval and ~1,141 MW of approved cross-border transfer capacity ([[nepal-energy-profile]]); both sit inside an India-mediated corridor regime.
+- **Transit for third markets:** NEA's FY 2025/26 report records "exporting a round-the-clock quantum of 40 MW power to Bangladesh starting June" (PDF p.55), which moves through the Indian grid, so India is the transit state for Bangladesh sales ([[bangladesh-trade-route]]).
+- **Rules on who may sell:** India's 2018 cross-border trade guidelines govern which entities may import or export ([[india-cbte-2018]]). Wiki sources report that in practice India blocks Chinese equity/EPC projects from selling into its market; the exact clause has not yet been located in a primary text in the corpus, so this point is supporting, not load-bearing.
+- **Shared basins:** Multi-gigawatt storage on shared rivers, such as [[pancheshwar]], depends on treaty-level agreement with India.
 
 ## Confidence rationale
 
-**Medium.** Lowered pending primary-source re-grounding. The structural reasoning that supported a high rating was: it is a structural claim about market size, geography, and institutional interdependence—not a forecast that every project requires Indian equity.
+**High.** Restored on 2026-11-04 after re-grounding: the market, balancing and transfer-limit evidence comes from NEA's FY 2025/26 annual report. It is a structural claim about market size, geography, and institutional interdependence—not a forecast that every project requires Indian equity.
 
 ## Unresolved issues
 

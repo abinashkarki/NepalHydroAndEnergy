@@ -2,23 +2,23 @@
 title: Distribution and Reliability
 type: synthesis
 created: 2026-07-19
-updated: 2026-07-20
-reviewed: 2026-07-20
-review_due: 2026-10-20
-as_of: 2025-07-15
-sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
+as_of: 2026-07-16
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
 tags: [distribution, reliability, access, outages, losses]
 excerpt: Grid reach, distribution losses and the still-incomplete evidence on the quality and continuity of electricity service in Nepal.
 caveat: Grid coverage is not a reliability metric; the public corpus lacks a national feeder-level interruption and voltage-quality series.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Distribution and Reliability
 
 ## Reach and service are different
 
-NEA reports **97.6% national grid coverage** and **12.26% total system loss** for FY2024/25. These show grid expansion and aggregate efficiency; they do not establish that electricity is continuously available at adequate voltage to every connected customer.
+NEA reports **97.6% national grid coverage** (18 local levels still unconnected) and **12.16% total system loss** for FY 2025/26, down from 12.26% in FY 2024/25 ([[nea-annual-report-fy2025-26]], PDF pp.11, 13). These show grid expansion and aggregate efficiency; they do not establish that electricity is continuously available at adequate voltage to every connected customer.
 
 The World Bank's 2025 economic memorandum cites 2022 enterprise evidence in which **76% of firms reported regular outages** and more than 13% reported sales losses above 10% from power cuts. This is an important reliability signal, but it is a dated enterprise survey rather than a utility interruption series.
 
@@ -30,8 +30,8 @@ NEA's provincial-office reporting shows distribution losses ranging from 6.51% i
 
 | Observation | Value and date | What it measures | What it does not measure |
 |---|---|---|---|
-| National grid coverage | 97.6%, FY2024/25 | NEA's network-reach measure | Connection quality, hours available or voltage quality |
-| Total system loss | 12.26%, FY2024/25 | Aggregate loss under NEA's system accounting | A feeder diagnosis or interruption metric |
+| National grid coverage | 97.6%, FY 2025/26 | NEA's network-reach measure | Connection quality, hours available or voltage quality |
+| Total system loss | 12.16%, FY 2025/26 (12.26% in FY 2024/25) | Aggregate loss under NEA's system accounting | A feeder diagnosis or interruption metric |
 | Distribution-office loss range | 6.51% Kathmandu to 17.02% Surkhet, FY2024/25 | Administrative-office aggregates | A causal explanation for technical versus non-technical loss |
 | Firms reporting regular outages | 76%, 2022 enterprise evidence | Dated customer-experience evidence | National SAIDI/SAIFI or current household reliability |
 

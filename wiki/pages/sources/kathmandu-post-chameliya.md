@@ -7,7 +7,7 @@ source_type: media
 source_author: Kathmandu Post
 sources: []
 tags: [source, media, chameliya, hydropower, accountability]
-page_quality: analysis
+page_quality: record
 ---
 
 # Kathmandu Post — Chameliya Hydropower Coverage

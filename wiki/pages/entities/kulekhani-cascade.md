@@ -4,7 +4,7 @@ type: entity
 created: 2026-04-14
 updated: 2026-05-21
 generator: specs-refresh
-page_quality: analysis
+page_quality: brief
 sources: [nea-annual-report-fy2024-25, tanahu-progress-2026]
 tags: [project, storage, reservoir, operational, kulekhani, landmark]
 images:

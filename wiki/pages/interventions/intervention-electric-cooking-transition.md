@@ -3,12 +3,12 @@ title: Decision Dossier — Electric-Cooking Evidence Gate and Pilot
 category: interventions
 type: decision-dossier
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 tags: [decision-dossier, cooking, electrification, induction, demand, distribution, reliability]
 excerpt: An evidence-led comparison of research, pilot and scale-up options for electric cooking; national adoption, feeder readiness, load timing, appliance costs and LPG fiscal effects remain incompletely measured.
-page_quality: analysis
+page_quality: brief
 maturity: working-page
 caveat: The reviewed evidence supports low current adoption and comparative cooking-cost analysis, not a national rollout forecast, LPG-savings estimate or claim that cooking load will align with surplus electricity.
 sources: [wb-household-electric-cooking-nepal-2025, nea-annual-report-fy2024-25, wecs-energy-synopsis-2024]

@@ -2,14 +2,14 @@
 title: Unresolved Questions
 type: synthesis
 created: 2026-04-14
-updated: 2026-07-25
-reviewed: 2026-07-19
-review_due: 2026-10-19
+updated: 2026-11-04
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 sources: []
 tags: [synthesis, gaps, verification, follow-up]
 excerpt: A current register of evidence gaps, data conflicts and monitoring priorities that materially limit claims about Nepal's electricity system.
-page_quality: flagship
+page_quality: record
 maturity: verified-core
 caveat: A filled source-discovery task does not imply that the underlying project outcome, national aggregate or current status is verified.
 evidence_register: true
@@ -64,6 +64,7 @@ Areas where public evidence remains thin, source definitions conflict, or more g
 | Pancheshwar status | Refine [[pancheshwar]] treatment | **PARTIALLY FILLED** — current official records support the 6,720 MW scheme basis, but an agreed final DPR, detailed benefit allocation and current joint minutes remain open. See [[pancheshwar]] |
 | China-linked projects | Keep [[hydro-geopolitics]] accurate | **FILLED** — CTG withdrew West Seti 2018, Gezhouba blocked from Budhigandaki; updated in [[hydro-geopolitics]], [[west-seti]], [[budhigandaki]] |
 | Causes of RoR/PRoR dominance | Quantify the contribution of contract, capital, approval, project-scale, safeguard, transmission, market, and state-capacity factors across periods | **OPEN** — current evidence supports a source-bounded multi-factor account but not a single-cause claim |
+| Kulekhani output drop | Explain why the only seasonal-storage cascade generated 92 GWh in FY 2025/26 against about 280 GWh in FY 2024/25 (NEA energy balances); determine whether automation works, outages, low inflow or operating policy caused it | **OPEN** — the FY 2025/26 report notes Kulekhani I/II automation in final testing but gives no cause |
 
 ## Current Monitoring Priorities
 

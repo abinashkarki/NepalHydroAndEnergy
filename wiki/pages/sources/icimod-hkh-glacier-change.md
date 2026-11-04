@@ -17,7 +17,7 @@ tags: [icimod, glaciers, climate-change, hkh, cryosphere]
 excerpt: ICIMOD's regional evidence on glacier change across the Hindu Kush Himalaya and its implications for long-run water systems.
 caveat: Regional glacier findings do not establish a future design flow or hazard outcome for any individual power project.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # ICIMOD HKH Glacier Change Summary

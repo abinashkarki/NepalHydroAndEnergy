@@ -3,8 +3,8 @@ title: "DoED Power Plants: Solar Table"
 type: source
 created: 2026-05-07
 updated: 2026-05-12
-reviewed: 2026-07-19
-review_due: 2026-10-09
+reviewed: 2026-11-04
+review_due: 2027-02-04
 source_type: registry
 source_author: Department of Electricity Development
 source_date: 2026-01-09
@@ -17,7 +17,7 @@ tags: [doed, solar, registry, operating, power-plants]
 excerpt: The official DoED snapshot used for 25 operating solar registry records totalling 141.74 MW.
 caveat: Registry listing supports operating status at the source date but does not provide plant-level generation or parcel-precise geography.
 maturity: verified-core
-page_quality: flagship
+page_quality: record
 ---
 
 # DoED Power Plants: Solar Table

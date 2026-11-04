@@ -3,15 +3,15 @@ title: Barahi Hydropower
 type: entity
 created: 2026-05-02
 updated: 2026-07-19
-reviewed: 2026-07-19
-review_due: 2026-10-19
+reviewed: 2026-11-04
+review_due: 2027-02-04
 as_of: 2026-07-19
 sources: [sector-financial-analysis-triple-authority-2026]
 tags: [project, research-lead, AD-penalties, NEA, ERC, governance]
 generator: manual
 excerpt: A retained research lead concerning a reported availability-declaration dispute; the current corpus does not contain the primary audited statement, PPA or adjudication record needed to establish the case.
 caveat: Project capacity, operating status, the reported deduction and its regulatory treatment are not independently established by a primary record linked in the wiki.
-page_quality: analysis
+page_quality: brief
 maturity: working-page
 ---
 

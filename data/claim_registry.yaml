@@ -85,6 +85,19 @@ metrics:
       - "3.7%"
     deprecated_text: []
 
+  operating_hydro_register_total:
+    source_slug: data-fleet-composition
+    canonical_text:
+      - "3,909.721 MW"
+    deprecated_text: []
+    note: "DoED operating-plant register updated 2 July 2026 (213 records)."
+
+  kulekhani_register_share:
+    source_slug: data-fleet-composition
+    canonical_text:
+      - "2.71%"
+    deprecated_text: []
+
   kulekhani_storage_anchor:
     source_slug: data-storage-comparison
     canonical_text:
@@ -203,9 +216,8 @@ claims:
     slug: claim-ror-dominance
     tier: core
     depends_on:
-      - fleet_ror_share
-      - fleet_pror_share
-      - fleet_storage_share
+      - operating_hydro_register_total
+      - kulekhani_register_share
       - kulekhani_storage_anchor
 
   C-008:

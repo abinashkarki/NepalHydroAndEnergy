@@ -9,7 +9,7 @@ source_date: 2024-07-16
 source_url: https://himalayancapital.com/public/uploads/source/the_pulse-_shrawan_2081.pdf
 sources: []
 tags: [source, market-analysis, sahas-urja, financial]
-page_quality: analysis
+page_quality: record
 ---
 
 # Himalayan Capital — Sahas Urja Analysis

@@ -17,7 +17,7 @@ tags: [climate, electricity, targets, solar, losses, electrification, official]
 excerpt: Nepal's official 2025 climate submission sets electricity, loss-reduction, electric-cooking and system-modernisation targets through 2035.
 caveat: The document states policy targets, many conditional on international support; it is not evidence that the targets have been financed or achieved.
 maturity: verified-core
-page_quality: flagship
+page_quality: brief
 ---
 
 # Nepal Nationally Determined Contribution 3.0 (2025)

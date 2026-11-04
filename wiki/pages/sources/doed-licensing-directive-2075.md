@@ -8,7 +8,7 @@ source_author: Department of Electricity Development (DoED), Government of Nepal
 source_date: 2018-10-01
 source_url: https://doed.gov.np/content/28/purmities-related-to-the-license-of-the/
 tags: [source, doed, licensing, q-design, regulation, legal]
-page_quality: analysis
+page_quality: record
 ---
 
 # DoED Licensing Directive 2075

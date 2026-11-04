@@ -7,7 +7,7 @@ sources: [nea-engineering-annual-report-2081-82, ndrrma-rasuwa-glacial-flood-sit
 tags: [project, operating, hazards, koshi, rasuwa, nea-subsidiary, chilime-group]
 images: []
 generator: manual
-page_quality: analysis
+page_quality: brief
 ---
 
 # Rasuwagadhi

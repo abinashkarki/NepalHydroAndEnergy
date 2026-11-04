@@ -6,7 +6,7 @@ updated: 2026-07-10
 source_url: https://bgjcl.com/
 publisher: Budhigandaki Jalbidhyut Company Limited
 source_date: 2026-07-08
-page_quality: analysis
+page_quality: brief
 tags: [source, budhigandaki, storage, procurement, project-company]
 ---
 
