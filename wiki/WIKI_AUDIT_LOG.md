@@ -2287,6 +2287,33 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-03 — v2 Credibility and Hygiene Pass
+
+**Agent:** Claude Code
+**Session type:** Human-approved v2 Phase 0–2 cleanup (confidence downgrades and mechanical frontmatter repair; no new argument)
+
+**Pages touched:**
+- `claims/claim-mw-not-equal-value` (C-006): confidence high → medium; dated provenance note added because its evidence bullets summarise AI-assisted research syntheses.
+- `claims/claim-india-decisive-actor` (C-025): confidence high → medium; same provenance note.
+- `claims/claim-governance-binding` (C-029): market-design bullet relabelled as an unverified lead; confidence unchanged at medium-high.
+- 36 `data/data-layer-*` pages and `sources/doed-solar-power-plants-table`: quoted frontmatter values containing `: ` so frontmatter is strict YAML. No content change.
+
+**Pipeline changes:** `validate_repo.py` now fails on frontmatter that is not strict YAML. `gen_wiki_stubs.py` quotes such titles. The page-index and page-meta builders unquote titles, which also fixes quoted solar entity titles that previously rendered with literal quote marks.
+
+**Governance change:** Added the `batch-review` session type to `GOVERNANCE.md`.
+
+**Validation result:** `make validate` and `make test` passed (427 pages, 127 Python tests, JavaScript search-intent, Lalupate and dashboard suites).
+
+**Flags raised:**
+- C-006 and C-025 need primary-source re-grounding before confidence can return to high.
+- C-029 market-design bullet needs a primary ERC or NEA source.
+
+**Decisions made:**
+- Downgraded confidence instead of rewriting evidence, because re-grounding needs primary documents that are not yet in the corpus.
+- Did not bump any `reviewed` or `review_due` dates; clearing the overdue backlog requires an actual `batch-review` session.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

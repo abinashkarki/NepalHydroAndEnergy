@@ -181,7 +181,7 @@ def main() -> None:
             cleaned = clean_body(body)
             explicit_excerpt = frontmatter_scalar(EXCERPT_RE.search(fm))
             excerpt = (explicit_excerpt or first_paragraph(body))[:280]
-            tokens = tokenize(f"{title_m.group(1) if title_m else slug} {' '.join(tags)} {' '.join(headings)} {cleaned}")
+            tokens = tokenize(f"{frontmatter_scalar(title_m) or slug} {' '.join(tags)} {' '.join(headings)} {cleaned}")
             unique = sorted(set(tokens))
             for t in unique:
                 df[t] += 1
@@ -205,7 +205,7 @@ def main() -> None:
             maturity = public_maturity(frontmatter_scalar(maturity_m), page_quality, is_stub)
             pages.append({
                 "slug": slug,
-                "title": title_m.group(1).strip() if title_m else slug,
+                "title": frontmatter_scalar(title_m) or slug,
                 "category": cat,
                 "type": type_m.group(1).strip() if type_m else cat[:-1] if cat.endswith("s") else cat,
                 "subcategory": infer_subcategory(slug, cat, tags),

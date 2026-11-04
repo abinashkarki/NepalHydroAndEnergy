@@ -181,7 +181,7 @@
       },
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "stranded-generation status. See buildability and stranded-generation.",
         "target_exists": true
@@ -2160,7 +2160,7 @@
       },
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "stranded-generation status. See buildability and stranded-generation.",
         "target_exists": true
@@ -2590,20 +2590,6 @@
     ],
     "ppa-pricing": [
       {
-        "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
-        "category": "sources",
-        "context": "ppa-pricing",
-        "target_exists": true
-      },
-      {
-        "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
-        "category": "sources",
-        "context": "ppa-pricing",
-        "target_exists": true
-      },
-      {
         "slug": "chilime-annual-report-fy2078-79",
         "title": "Chilime Hydropower Company Limited Annual Report FY 2078/79",
         "category": "sources",
@@ -2622,6 +2608,20 @@
         "title": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)",
         "category": "sources",
         "context": "The paper is cited by ppa-pricing for the difference between energy-priced standard tariffs a…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-data-retrieval-icra-care-2026",
+        "title": "Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal",
+        "category": "sources",
+        "context": "ppa-pricing",
+        "target_exists": true
+      },
+      {
+        "slug": "sahas-urja-benchmark-icra-2026",
+        "title": "Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success",
+        "category": "sources",
+        "context": "ppa-pricing",
         "target_exists": true
       },
       {
@@ -2698,42 +2698,42 @@
     "sahas-urja": [
       {
         "slug": "clickmandu-financial-reporting",
-        "title": "\"Clickmandu — Sahas Urja Financial Reporting\"",
+        "title": "Clickmandu — Sahas Urja Financial Reporting",
         "category": "sources",
         "context": "This page anchors Clickmandu reporting used in the sahas-urja profile for",
         "target_exists": true
       },
       {
         "slug": "himalayan-capital-analysis",
-        "title": "\"Himalayan Capital — Sahas Urja Analysis\"",
+        "title": "Himalayan Capital — Sahas Urja Analysis",
         "category": "sources",
         "context": "…Shrawan 2081 scrip analysis of Sahas Urja Limited, used in sahas-urja for investor-facing interpretation of the company's perform…",
         "target_exists": true
       },
       {
         "slug": "icra-nepal-surveillance-a996-b119",
-        "title": "\"ICRA Nepal — Surveillance Rating A996/B119\"",
+        "title": "ICRA Nepal — Surveillance Rating A996/B119",
         "category": "sources",
         "context": "for project-financial and performance claims around sahas-urja and",
         "target_exists": true
       },
       {
         "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "title": "Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal",
         "category": "sources",
         "context": "sahas-urja",
         "target_exists": true
       },
       {
         "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
+        "title": "Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success",
         "category": "sources",
         "context": "sahas-urja",
         "target_exists": true
       },
       {
         "slug": "sahas-urja-progress-report-w010",
-        "title": "\"Sahas Urja — Progress Report W010\"",
+        "title": "Sahas Urja — Progress Report W010",
         "category": "sources",
         "context": "…is page anchors the company progress-report source cited in sahas-urja",
         "target_exists": true
@@ -2784,119 +2784,7 @@
       },
       {
         "slug": "bel-chautara-solar",
-        "title": "\"Bel Chautara Solar Farm Project\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "chandranigahpur-solar",
-        "title": "\"Chandranigahpur Solar Project\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "ddb-saurya",
-        "title": "\"DDB Saurya Vidyut Aayojana\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "dharamnagar-solar-ii",
-        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "dharamnagar-solar",
-        "title": "\"Dharamnagar Solar Farm Project\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "shivasatakshi-jhapa",
-        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "ramgram-solar",
-        "title": "\"Grid Connected Solar PV Project, Ramgram\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "dhalkebar-solar-3mw",
-        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "jira-bhawani-sedawa",
-        "title": "\"Jira Bhawani Sedawa PV Project\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-energy-lalitpur",
-        "title": "\"Solar Energy\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "dhalkebar-solar-1mw",
-        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "simara-solar",
-        "title": "\"Solar Power Project, Simara 11 kV S/S\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "pratappur-solar",
-        "title": "\"Solar PV Pratappur\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "banke-block-2",
-        "title": "\"Solar PV Project Banke, block-2\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "raniyapur-block-1",
-        "title": "\"Solar PV Project, Raniyapur, Block 1\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "som-radha-krishna",
-        "title": "\"Som Radha Krishna Solar Farm Project\"",
-        "category": "entities",
-        "context": "data-solar-fleet-inventory",
-        "target_exists": true
-      },
-      {
-        "slug": "morang-utility-solar",
-        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
+        "title": "Bel Chautara Solar Farm Project",
         "category": "entities",
         "context": "data-solar-fleet-inventory",
         "target_exists": true
@@ -2918,6 +2806,62 @@
       {
         "slug": "butwal-solar-ridi-8-5mwp",
         "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "chandranigahpur-solar",
+        "title": "Chandranigahpur Solar Project",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "ddb-saurya",
+        "title": "DDB Saurya Vidyut Aayojana",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar",
+        "title": "Dharamnagar Solar Farm Project",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "Dharamnagar Solar Farm Project - II Kapilbastu",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "shivasatakshi-jhapa",
+        "title": "Grid Connected Solar Project, Shivasatakshi Jhapa",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "ramgram-solar",
+        "title": "Grid Connected Solar PV Project, Ramgram",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-3mw",
+        "title": "Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "jira-bhawani-sedawa",
+        "title": "Jira Bhawani Sedawa PV Project",
         "category": "entities",
         "context": "data-solar-fleet-inventory",
         "target_exists": true
@@ -2948,6 +2892,62 @@
         "title": "NEA Solar Programme",
         "category": "entities",
         "context": "data-solar-fleet-inventory — the full portfolio",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-energy-lalitpur",
+        "title": "Solar Energy",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-1mw",
+        "title": "Solar Power Project, Dhalkebar 11 kV S/S",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "simara-solar",
+        "title": "Solar Power Project, Simara 11 kV S/S",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "pratappur-solar",
+        "title": "Solar PV Pratappur",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "banke-block-2",
+        "title": "Solar PV Project Banke, block-2",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "raniyapur-block-1",
+        "title": "Solar PV Project, Raniyapur, Block 1",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "som-radha-krishna",
+        "title": "Som Radha Krishna Solar Farm Project",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
+        "target_exists": true
+      },
+      {
+        "slug": "morang-utility-solar",
+        "title": "Utility Scale Solar PV, Grid Connected Solar Project, Morang",
+        "category": "entities",
+        "context": "data-solar-fleet-inventory",
         "target_exists": true
       },
       {
@@ -3017,119 +3017,119 @@
       },
       {
         "slug": "bel-chautara-solar",
-        "title": "\"Bel Chautara Solar Farm Project\"",
+        "title": "Bel Chautara Solar Farm Project",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "chandranigahpur-solar",
-        "title": "\"Chandranigahpur Solar Project\"",
+        "title": "Chandranigahpur Solar Project",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "ddb-saurya",
-        "title": "\"DDB Saurya Vidyut Aayojana\"",
-        "category": "entities",
-        "context": "data-layer-solar-plants-nea-awards",
-        "target_exists": true
-      },
-      {
-        "slug": "dharamnagar-solar-ii",
-        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
+        "title": "DDB Saurya Vidyut Aayojana",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "dharamnagar-solar",
-        "title": "\"Dharamnagar Solar Farm Project\"",
+        "title": "Dharamnagar Solar Farm Project",
+        "category": "entities",
+        "context": "data-layer-solar-plants-nea-awards",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "Dharamnagar Solar Farm Project - II Kapilbastu",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "shivasatakshi-jhapa",
-        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
+        "title": "Grid Connected Solar Project, Shivasatakshi Jhapa",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "ramgram-solar",
-        "title": "\"Grid Connected Solar PV Project, Ramgram\"",
+        "title": "Grid Connected Solar PV Project, Ramgram",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "dhalkebar-solar-3mw",
-        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
+        "title": "Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "jira-bhawani-sedawa",
-        "title": "\"Jira Bhawani Sedawa PV Project\"",
+        "title": "Jira Bhawani Sedawa PV Project",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "solar-energy-lalitpur",
-        "title": "\"Solar Energy\"",
+        "title": "Solar Energy",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "dhalkebar-solar-1mw",
-        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
+        "title": "Solar Power Project, Dhalkebar 11 kV S/S",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "simara-solar",
-        "title": "\"Solar Power Project, Simara 11 kV S/S\"",
+        "title": "Solar Power Project, Simara 11 kV S/S",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "pratappur-solar",
-        "title": "\"Solar PV Pratappur\"",
+        "title": "Solar PV Pratappur",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "banke-block-2",
-        "title": "\"Solar PV Project Banke, block-2\"",
+        "title": "Solar PV Project Banke, block-2",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "raniyapur-block-1",
-        "title": "\"Solar PV Project, Raniyapur, Block 1\"",
+        "title": "Solar PV Project, Raniyapur, Block 1",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "som-radha-krishna",
-        "title": "\"Som Radha Krishna Solar Farm Project\"",
+        "title": "Som Radha Krishna Solar Farm Project",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
       },
       {
         "slug": "morang-utility-solar",
-        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
+        "title": "Utility Scale Solar PV, Grid Connected Solar Project, Morang",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
         "target_exists": true
@@ -3159,119 +3159,7 @@
       },
       {
         "slug": "bel-chautara-solar",
-        "title": "\"Bel Chautara Solar Farm Project\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "chandranigahpur-solar",
-        "title": "\"Chandranigahpur Solar Project\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "ddb-saurya",
-        "title": "\"DDB Saurya Vidyut Aayojana\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "dharamnagar-solar-ii",
-        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "dharamnagar-solar",
-        "title": "\"Dharamnagar Solar Farm Project\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "shivasatakshi-jhapa",
-        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "ramgram-solar",
-        "title": "\"Grid Connected Solar PV Project, Ramgram\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "dhalkebar-solar-3mw",
-        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "jira-bhawani-sedawa",
-        "title": "\"Jira Bhawani Sedawa PV Project\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-energy-lalitpur",
-        "title": "\"Solar Energy\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "dhalkebar-solar-1mw",
-        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "simara-solar",
-        "title": "\"Solar Power Project, Simara 11 kV S/S\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "pratappur-solar",
-        "title": "\"Solar PV Pratappur\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "banke-block-2",
-        "title": "\"Solar PV Project Banke, block-2\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "raniyapur-block-1",
-        "title": "\"Solar PV Project, Raniyapur, Block 1\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "som-radha-krishna",
-        "title": "\"Som Radha Krishna Solar Farm Project\"",
-        "category": "entities",
-        "context": "nea-solar",
-        "target_exists": true
-      },
-      {
-        "slug": "morang-utility-solar",
-        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
+        "title": "Bel Chautara Solar Farm Project",
         "category": "entities",
         "context": "nea-solar",
         "target_exists": true
@@ -3295,6 +3183,62 @@
         "title": "Butwal Solar (Ridi Hydropower Development, 8.5 MWp)",
         "category": "entities",
         "context": "nea-solar — programme context",
+        "target_exists": true
+      },
+      {
+        "slug": "chandranigahpur-solar",
+        "title": "Chandranigahpur Solar Project",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "ddb-saurya",
+        "title": "DDB Saurya Vidyut Aayojana",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar",
+        "title": "Dharamnagar Solar Farm Project",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "Dharamnagar Solar Farm Project - II Kapilbastu",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "shivasatakshi-jhapa",
+        "title": "Grid Connected Solar Project, Shivasatakshi Jhapa",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "ramgram-solar",
+        "title": "Grid Connected Solar PV Project, Ramgram",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-3mw",
+        "title": "Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "jira-bhawani-sedawa",
+        "title": "Jira Bhawani Sedawa PV Project",
+        "category": "entities",
+        "context": "nea-solar",
         "target_exists": true
       },
       {
@@ -3323,6 +3267,62 @@
         "title": "NEA 960 MW National Solar Tender",
         "category": "entities",
         "context": "nea-solar — programme parent",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-energy-lalitpur",
+        "title": "Solar Energy",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "dhalkebar-solar-1mw",
+        "title": "Solar Power Project, Dhalkebar 11 kV S/S",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "simara-solar",
+        "title": "Solar Power Project, Simara 11 kV S/S",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "pratappur-solar",
+        "title": "Solar PV Pratappur",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "banke-block-2",
+        "title": "Solar PV Project Banke, block-2",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "raniyapur-block-1",
+        "title": "Solar PV Project, Raniyapur, Block 1",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "som-radha-krishna",
+        "title": "Som Radha Krishna Solar Farm Project",
+        "category": "entities",
+        "context": "nea-solar",
+        "target_exists": true
+      },
+      {
+        "slug": "morang-utility-solar",
+        "title": "Utility Scale Solar PV, Grid Connected Solar Project, Morang",
+        "category": "entities",
+        "context": "nea-solar",
         "target_exists": true
       }
     ],
@@ -5049,14 +5049,14 @@
     "sahas-urja-benchmark-icra-2026": [
       {
         "slug": "himalayan-capital-analysis",
-        "title": "\"Himalayan Capital — Sahas Urja Analysis\"",
+        "title": "Himalayan Capital — Sahas Urja Analysis",
         "category": "sources",
         "context": "sahas-urja-benchmark-icra-2026",
         "target_exists": true
       },
       {
         "slug": "icra-nepal-surveillance-a996-b119",
-        "title": "\"ICRA Nepal — Surveillance Rating A996/B119\"",
+        "title": "ICRA Nepal — Surveillance Rating A996/B119",
         "category": "sources",
         "context": "sahas-urja-benchmark-icra-2026 and",
         "target_exists": true
@@ -5249,7 +5249,7 @@
       },
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "| River | Likhu Khola (eastern koshi-basin) |",
         "target_exists": true
@@ -5822,7 +5822,7 @@
     "khimti-ii": [
       {
         "slug": "icra-nepal-surveillance-a996-b119",
-        "title": "\"ICRA Nepal — Surveillance Rating A996/B119\"",
+        "title": "ICRA Nepal — Surveillance Rating A996/B119",
         "category": "sources",
         "context": "khimti-ii.",
         "target_exists": true
@@ -5845,14 +5845,14 @@
     "ppa-data-retrieval-icra-care-2026": [
       {
         "slug": "icra-nepal-surveillance-a996-b119",
-        "title": "\"ICRA Nepal — Surveillance Rating A996/B119\"",
+        "title": "ICRA Nepal — Surveillance Rating A996/B119",
         "category": "sources",
         "context": "ppa-data-retrieval-icra-care-2026",
         "target_exists": true
       },
       {
         "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
+        "title": "Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success",
         "category": "sources",
         "context": "ppa-data-retrieval-icra-care-2026",
         "target_exists": true
@@ -8137,21 +8137,21 @@
     "chameliya-hydropower": [
       {
         "slug": "kathmandu-post-chameliya",
-        "title": "\"Kathmandu Post — Chameliya Hydropower Coverage\"",
+        "title": "Kathmandu Post — Chameliya Hydropower Coverage",
         "category": "sources",
         "context": "chameliya-hydropower for the project's construction crisis,",
         "target_exists": true
       },
       {
         "slug": "myrepublica-pac-chameliya",
-        "title": "\"My Republica — PAC Chameliya Investigation\"",
+        "title": "My Republica — PAC Chameliya Investigation",
         "category": "sources",
         "context": "chameliya-hydropower for the Public Accounts Committee angle on the",
         "target_exists": true
       },
       {
         "slug": "nea-generation-directorate-2081",
-        "title": "\"NEA Generation Directorate Data — FY 2080/81\"",
+        "title": "NEA Generation Directorate Data — FY 2080/81",
         "category": "sources",
         "context": "heavily by chameliya-hydropower.",
         "target_exists": true
@@ -9175,7 +9175,7 @@
     "rasuwagadhi": [
       {
         "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "title": "Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal",
         "category": "sources",
         "context": "rasuwagadhi",
         "target_exists": true
@@ -10195,14 +10195,14 @@
     "sector-financial-analysis-triple-authority-2026": [
       {
         "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "title": "Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal",
         "category": "sources",
         "context": "sector-financial-analysis-triple-authority-2026",
         "target_exists": true
       },
       {
         "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
+        "title": "Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success",
         "category": "sources",
         "context": "sector-financial-analysis-triple-authority-2026",
         "target_exists": true
@@ -10246,7 +10246,7 @@
     "nea-triple-authority": [
       {
         "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "title": "Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal",
         "category": "sources",
         "context": "nea-triple-authority",
         "target_exists": true
@@ -10353,7 +10353,7 @@
     "chilime": [
       {
         "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "title": "Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal",
         "category": "sources",
         "context": "chilime",
         "target_exists": true
@@ -10460,7 +10460,7 @@
     "upper-trishuli-3b": [
       {
         "slug": "ppa-data-retrieval-icra-care-2026",
-        "title": "\"Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal\"",
+        "title": "Investigative Report: PPA Data Retrieval from ICRA & CARE Ratings Nepal",
         "category": "sources",
         "context": "upper-trishuli-3b",
         "target_exists": true
@@ -10490,7 +10490,7 @@
     "q-design-discharge": [
       {
         "slug": "sahas-urja-benchmark-icra-2026",
-        "title": "\"Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success\"",
+        "title": "Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success",
         "category": "sources",
         "context": "q-design-discharge",
         "target_exists": true
@@ -13074,119 +13074,119 @@
     "doed-solar-power-plants-table": [
       {
         "slug": "bel-chautara-solar",
-        "title": "\"Bel Chautara Solar Farm Project\"",
+        "title": "Bel Chautara Solar Farm Project",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "chandranigahpur-solar",
-        "title": "\"Chandranigahpur Solar Project\"",
+        "title": "Chandranigahpur Solar Project",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "ddb-saurya",
-        "title": "\"DDB Saurya Vidyut Aayojana\"",
-        "category": "entities",
-        "context": "| **Source** | doed-solar-power-plants-table |",
-        "target_exists": true
-      },
-      {
-        "slug": "dharamnagar-solar-ii",
-        "title": "\"Dharamnagar Solar Farm Project - II Kapilbastu\"",
+        "title": "DDB Saurya Vidyut Aayojana",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "dharamnagar-solar",
-        "title": "\"Dharamnagar Solar Farm Project\"",
+        "title": "Dharamnagar Solar Farm Project",
+        "category": "entities",
+        "context": "| **Source** | doed-solar-power-plants-table |",
+        "target_exists": true
+      },
+      {
+        "slug": "dharamnagar-solar-ii",
+        "title": "Dharamnagar Solar Farm Project - II Kapilbastu",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "shivasatakshi-jhapa",
-        "title": "\"Grid Connected Solar Project, Shivasatakshi Jhapa\"",
+        "title": "Grid Connected Solar Project, Shivasatakshi Jhapa",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "ramgram-solar",
-        "title": "\"Grid Connected Solar PV Project, Ramgram\"",
+        "title": "Grid Connected Solar PV Project, Ramgram",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "dhalkebar-solar-3mw",
-        "title": "\"Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S\"",
+        "title": "Grid-Connected Solar Power Project, Dhalkebar 33 kV S/S",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "jira-bhawani-sedawa",
-        "title": "\"Jira Bhawani Sedawa PV Project\"",
+        "title": "Jira Bhawani Sedawa PV Project",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "solar-energy-lalitpur",
-        "title": "\"Solar Energy\"",
+        "title": "Solar Energy",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "dhalkebar-solar-1mw",
-        "title": "\"Solar Power Project, Dhalkebar 11 kV S/S\"",
+        "title": "Solar Power Project, Dhalkebar 11 kV S/S",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "simara-solar",
-        "title": "\"Solar Power Project, Simara 11 kV S/S\"",
+        "title": "Solar Power Project, Simara 11 kV S/S",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "pratappur-solar",
-        "title": "\"Solar PV Pratappur\"",
+        "title": "Solar PV Pratappur",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "banke-block-2",
-        "title": "\"Solar PV Project Banke, block-2\"",
+        "title": "Solar PV Project Banke, block-2",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "raniyapur-block-1",
-        "title": "\"Solar PV Project, Raniyapur, Block 1\"",
+        "title": "Solar PV Project, Raniyapur, Block 1",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "som-radha-krishna",
-        "title": "\"Som Radha Krishna Solar Farm Project\"",
+        "title": "Som Radha Krishna Solar Farm Project",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
       },
       {
         "slug": "morang-utility-solar",
-        "title": "\"Utility Scale Solar PV, Grid Connected Solar Project, Morang\"",
+        "title": "Utility Scale Solar PV, Grid Connected Solar Project, Morang",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
         "target_exists": true
@@ -14150,7 +14150,7 @@
       },
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "khimti-dhalkebar-corridor — the 220 kV backbone",
         "target_exists": true
@@ -14415,7 +14415,7 @@
       },
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "years before likhu-1 (April 2024). For a conglomerate simultaneously developing",
         "target_exists": true
@@ -14452,7 +14452,7 @@
       },
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "on February 8, 2022 — nearly 18 months before likhu-2 (July 2023) and over two",
         "target_exists": true
@@ -14510,7 +14510,7 @@
       },
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "(BBB- Is), above likhu-4 (BB). The rating reflects the project's",
         "target_exists": true
@@ -14757,7 +14757,7 @@
       },
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "Likhu Cascade Research Compilation",
         "target_exists": true
@@ -14782,7 +14782,7 @@
     "likhu-cascade": [
       {
         "slug": "likhu-khola-a",
-        "title": "Likhu Khola 'A'",
+        "title": "Likhu Khola 'A",
         "category": "entities",
         "context": "likhu-cascade — cascade overview and corridor context",
         "target_exists": true

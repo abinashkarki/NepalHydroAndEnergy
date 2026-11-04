@@ -109,6 +109,29 @@ def validate_wiki_links(slugs: set[str]) -> None:
         fail("broken wikilinks:\n" + "\n".join(broken[:50]))
 
 
+def validate_frontmatter_yaml() -> None:
+    """Frontmatter must parse as strict YAML, not only with the tolerant loader.
+
+    Unquoted values containing ": " (e.g. ``title: Layer: Basin``) load in the
+    explorer but break standard static-site generators.
+    """
+    if yaml is None:
+        warn("skipping strict frontmatter YAML check because PyYAML is not installed")
+        return
+    invalid: list[str] = []
+    for category in PAGE_CATEGORIES:
+        for page in sorted((WIKI_PAGES / category).glob("*.md")):
+            match = re.match(r"---\n(.*?)\n---", page.read_text(encoding="utf-8"), re.S)
+            if not match:
+                continue
+            try:
+                yaml.safe_load(match.group(1))
+            except yaml.YAMLError as exc:
+                invalid.append(f"{page.relative_to(ROOT)}: {str(exc).splitlines()[0]}")
+    if invalid:
+        fail("frontmatter is not valid YAML (quote values containing ': '):\n" + "\n".join(invalid[:50]))
+
+
 def validate_caches(slugs: set[str]) -> None:
     index = load_json(INDEX)
     if index.get("totalPages") != len(slugs):
@@ -1252,6 +1275,7 @@ def validate_claim_integrity(
 def main() -> None:
     slugs = wiki_page_slugs()
     validate_wiki_links(slugs)
+    validate_frontmatter_yaml()
     validate_caches(slugs)
     validate_public_index(slugs)
     validate_public_language()

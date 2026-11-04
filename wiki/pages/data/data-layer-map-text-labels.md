@@ -1,5 +1,5 @@
 ---
-title: Layer: Map Text Labels
+title: "Layer: Map Text Labels"
 type: data
 created: 2026-04-25
 updated: 2026-05-13

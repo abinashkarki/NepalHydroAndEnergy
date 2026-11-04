@@ -2,9 +2,9 @@
 title: India Is the Decisive External Actor in Nepal's Hydro Future
 type: claim
 created: 2026-04-14
-updated: 2026-05-21
+updated: 2026-11-03
 claim_id: C-025
-confidence: high
+confidence: medium
 status: stable
 sources: [india-cbte-2018, wb-ganges-strategic-basin-assessment, national-water-plan-nepal]
 tags: [geopolitics, trade, treaties, corridors]
@@ -17,6 +17,8 @@ page_quality: analysis
 
 ## Evidence
 
+**Provenance note (2026-11-03):** confidence lowered from high to medium. The research-ledger and source-review bullets below summarise AI-assisted research syntheses, not primary documents. Confidence returns to high only when each evidence bullet cites a primary source page (NEA, WECS, DoED, ERC, treaty or government text).
+
 - **Market and corridor:** Most bankable export stories route through Indian demand, Indian grid scheduling practices, and Indian permitting for cross-border lines and trading windows. India is the **main practical export market**, so India's policy state changes Nepal's **realized** export price and volume even when Nepali plants exist.
 - **Balancing and seasonality:** India is large enough to absorb or substitute flows in ways that change Nepal's **arbitrage** options during surplus/deficit phases—Nepal's optimization is not independent.
 - **Approval and transfer limits:** Nepal currently has **941 MW** of project export approval and roughly **~1,141 MW** of broader approved cross-border transfer capacity; both sit inside an India-mediated corridor regime.
@@ -26,7 +28,7 @@ page_quality: analysis
 
 ## Confidence rationale
 
-**High** because it is a structural claim about market size, geography, and institutional interdependence—not a forecast that every project requires Indian equity.
+**Medium.** Lowered pending primary-source re-grounding. The structural reasoning that supported a high rating was: it is a structural claim about market size, geography, and institutional interdependence—not a forecast that every project requires Indian equity.
 
 ## Unresolved issues
 

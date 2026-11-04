@@ -1,5 +1,5 @@
 ---
-title: Internal Data: Transmission Trace Gaps
+title: "Internal Data: Transmission Trace Gaps"
 type: data
 created: 2026-04-25
 updated: 2026-05-13

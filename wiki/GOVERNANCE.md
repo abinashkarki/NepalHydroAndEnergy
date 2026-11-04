@@ -88,12 +88,21 @@ Every page belongs to exactly one category. If a page feels like it should be tw
 
 ## Bounded Session Rules
 
-1. **Scope limit:** 5 pages maximum per session. No exceptions.
+1. **Scope limit:** 5 pages maximum per writing session. The only exception is a declared `batch-review` session (below).
 2. **Confirm gate:** Wait for human approval before writing the final version of any page.
 3. **Flag gate:** Any change touching confidence, facts, sources, or ontology terms must be explicitly flagged.
 4. **Stopping conditions:** Stop immediately if you encounter a split/merge decision, unresolved contradiction, category uncertainty, or missing source material.
 5. **No broad rewrites:** Do not rewrite whole pages. Show only what changes and why.
 6. **Audit trail:** Every session that edits pages must be logged in `wiki/WIKI_AUDIT_LOG.md`.
+
+### Batch-review sessions
+
+A `batch-review` session clears review and re-tiering backlog. It is exempt from the 5-page limit because it does not write new argument.
+
+- **Allowed edits:** `reviewed`, `review_due`, `as_of`, `page_quality` and `maturity` frontmatter; downgrading `confidence`; adding a caveat; marking a sentence as unverified or removing a statement its cited source does not support.
+- **Not allowed:** new claims, new prose sections, upgraded confidence, new sources, or any change that needs a stopping-condition decision. Pages that need these go to `FLAGGED_FOR_REVIEW.md` and wait for a normal writing session.
+- **Review means checked:** a page's `reviewed` date moves only after its cited sources were reopened and its figures still match. Never bump dates to clear a badge.
+- **Audit trail:** log the session as `Session type: batch-review` with every page touched and, for each one, either "reviewed, no change", the specific downgrade or caveat, or the flag raised.
 
 ## Monthly Review Protocol
 

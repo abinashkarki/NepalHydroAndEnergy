@@ -1,5 +1,5 @@
 ---
-title: Layer: Solar Plants + NEA 960 MW Awards
+title: "Layer: Solar Plants + NEA 960 MW Awards"
 type: data
 created: 2026-04-25
 updated: 2026-05-12
