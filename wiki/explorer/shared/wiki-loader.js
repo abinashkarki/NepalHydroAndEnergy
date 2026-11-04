@@ -337,7 +337,9 @@ function decorateHeadingsAndBuildToc(html) {
     heading.classList.add("wiki-section-heading");
     return `<a class="toc-${heading.tagName.toLowerCase()}" href="#${escapeHtml(id)}">${escapeHtml(label)}</a>`;
   }).filter(Boolean);
-  const toc = `<details class="wiki-toc" open><summary>On this page</summary><nav>${links.join("")}</nav></details>`;
+  // Long contents lists start collapsed so the article leads.
+  const open = links.length <= 8 ? " open" : "";
+  const toc = `<details class="wiki-toc"${open}><summary>On this page · ${links.length} sections</summary><nav>${links.join("")}</nav></details>`;
   return { html: template.innerHTML, toc };
 }
 

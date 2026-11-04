@@ -132,9 +132,21 @@ async function loadJSON(path) {
 }
 
 // Three basemaps, identical to the ones in docs/maps/*.html.
+const CARTO_TILES = {
+  light: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2h0a_1_3dac8736d012a6f0cd5f8bab",
+  dark: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_2h0a_1_3dac8736d012a6f0cd5f8bab",
+};
+
+function currentTheme() {
+  return window.NepalTheme ? window.NepalTheme.current()
+    : (document.documentElement.getAttribute("data-theme")
+      || (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+}
+
 function makeBaseLayers() {
+  // The default basemap follows the page theme: CARTO light or dark tiles.
   const positron = L.tileLayer(
-    "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2h0a_1_3dac8736d012a6f0cd5f8bab",
+    CARTO_TILES[currentTheme()] || CARTO_TILES.light,
     {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: "abcd",
@@ -192,6 +204,10 @@ function makeMap(elId, opts = {}) {
   const baseLayers = makeBaseLayers();
   const defaultBase = opts.defaultBase || "Carto Positron";
   baseLayers[defaultBase].addTo(map);
+  document.addEventListener("np-themechange", (event) => {
+    const theme = (event.detail && event.detail.theme) || currentTheme();
+    baseLayers["Carto Positron"].setUrl(CARTO_TILES[theme] || CARTO_TILES.light);
+  });
   L.control.zoom({ position: "bottomright" }).addTo(map);
   L.control.scale({ imperial: false }).addTo(map);
   return { map, baseLayers };
