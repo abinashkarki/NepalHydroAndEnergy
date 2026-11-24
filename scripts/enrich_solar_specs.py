@@ -14,7 +14,10 @@ the row's own fields. No network calls; re-running produces identical output.
   substation names the Parasi (Nawalparasi West) headquarters; otherwise blank.
 * ``resource_zone`` — from the district listing in the zone table of
   ``wiki/pages/data/data-nepal-solar-resource-zones.md`` (the framework that
-  defines the schema enum). Districts not listed there stay blank. The
+  defines the schema enum). A district not listed there takes the zone of the
+  listed districts that share its CBS ecological belt and former development
+  region, only when that zone is unique and is not the valley-only C1;
+  otherwise it stays blank. The audit records which basis applied. The
   ``solar_ghi_zones.geojson`` polygon(s) containing the point are recorded in
   the audit table as a cross-check only (those polygons do not carry sub-zone
   codes).
@@ -120,6 +123,46 @@ ZONE_DISTRICTS: dict[str, tuple[str, ...]] = {
 # The zone table lists the pre-split "Nawalparasi"; both successor districts inherit it.
 ZONE_DISTRICT_ALIASES = {"Nawalpur": "Nawalparasi", "Parasi": "Nawalparasi"}
 
+# Fallback for districts the zone table does not list (canonical-lookup).
+# Each pre-2015 district's CBS ecological belt (Mountain/Hill/Terai) and former
+# development region (Eastern/Central/Western/Mid-Western/Far-Western). The
+# zone-table rows group districts by exactly these two attributes, so an
+# unlisted district takes the zone of the listed districts that share both,
+# and only when that zone is unique. C1 is not propagated because it is a single
+# closed valley basin defined by its haze penalty, not a regional belt. D is
+# never assigned (upper-slope listing only).
+_BELT_REGION_GROUPS: dict[tuple[str, str], tuple[str, ...]] = {
+    ("Mountain", "Eastern"): ("Taplejung", "Sankhuwasabha", "Solukhumbu"),
+    ("Hill", "Eastern"): ("Panchthar", "Ilam", "Terhathum", "Dhankuta", "Bhojpur", "Khotang",
+                          "Okhaldhunga", "Udayapur"),
+    ("Terai", "Eastern"): ("Jhapa", "Morang", "Sunsari", "Saptari", "Siraha"),
+    ("Mountain", "Central"): ("Dolakha", "Sindhupalchok", "Rasuwa"),
+    ("Hill", "Central"): ("Ramechhap", "Sindhuli", "Kavrepalanchok", "Lalitpur", "Bhaktapur",
+                          "Kathmandu", "Nuwakot", "Dhading", "Makwanpur"),
+    ("Terai", "Central"): ("Dhanusha", "Mahottari", "Sarlahi", "Rautahat", "Bara", "Parsa", "Chitwan"),
+    ("Mountain", "Western"): ("Manang", "Mustang"),
+    ("Hill", "Western"): ("Gorkha", "Lamjung", "Tanahu", "Syangja", "Kaski", "Myagdi", "Parbat",
+                          "Baglung", "Gulmi", "Palpa", "Arghakhanchi"),
+    ("Terai", "Western"): ("Nawalparasi", "Rupandehi", "Kapilvastu"),
+    ("Mountain", "Mid-Western"): ("Dolpa", "Jumla", "Kalikot", "Mugu", "Humla"),
+    ("Hill", "Mid-Western"): ("Pyuthan", "Rolpa", "Rukum", "Salyan", "Surkhet", "Dailekh", "Jajarkot"),
+    ("Terai", "Mid-Western"): ("Dang", "Banke", "Bardiya"),
+    ("Mountain", "Far-Western"): ("Bajura", "Bajhang", "Darchula"),
+    ("Hill", "Far-Western"): ("Achham", "Doti", "Dadeldhura", "Baitadi"),
+    ("Terai", "Far-Western"): ("Kailali", "Kanchanpur"),
+}
+DISTRICT_BELT_REGION: dict[str, tuple[str, str]] = {
+    d: key for key, districts in _BELT_REGION_GROUPS.items() for d in districts
+}
+# Post-2015 successor districts inherit their parent district's belt and region.
+DISTRICT_BELT_REGION.update({
+    "Nawalpur": DISTRICT_BELT_REGION["Nawalparasi"],
+    "Parasi": DISTRICT_BELT_REGION["Nawalparasi"],
+    "Rukum East": DISTRICT_BELT_REGION["Rukum"],
+    "Rukum West": DISTRICT_BELT_REGION["Rukum"],
+})
+NON_PROPAGATING_ZONES = {"C1"}
+
 SUBSTATION_TITLE_RE = re.compile(r"\b\d+\s*kV\s+S/S\b", re.IGNORECASE)
 
 AUDIT_FIELDS = [
@@ -170,9 +213,29 @@ def derive_zone(district: str) -> tuple[str, str]:
     matches = [zone for zone, districts in ZONE_DISTRICTS.items() if d in districts]
     if len(matches) == 1:
         return matches[0], "zone-table-district-listing"
-    if not matches:
+    if matches:
+        return "", "district-listed-in-multiple-zones"
+    return derive_zone_from_belt_region(d)
+
+
+def derive_zone_from_belt_region(district: str) -> tuple[str, str]:
+    """Zone shared by every listed district with the same belt and region, if unique."""
+    key = DISTRICT_BELT_REGION.get(district)
+    if key is None:
         return "", "district-not-listed-in-zone-table"
-    return "", "district-listed-in-multiple-zones"
+    label = f"{key[0].lower()}/{key[1].lower()}"
+    zones = {
+        zone
+        for zone, districts in ZONE_DISTRICTS.items()
+        if zone not in NON_PROPAGATING_ZONES
+        for listed in districts
+        if DISTRICT_BELT_REGION.get(listed) == key
+    }
+    if len(zones) == 1:
+        return zones.pop(), f"belt-region-fallback:{label}"
+    if not zones:
+        return "", f"belt-region-no-listed-zone:{label}"
+    return "", f"belt-region-multiple-zones:{label}"
 
 
 def derive_siting(row: dict[str, str]) -> tuple[str, str]:

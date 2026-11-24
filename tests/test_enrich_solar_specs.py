@@ -34,10 +34,29 @@ class EnrichSolarSpecsTests(unittest.TestCase):
         row = {"district": "Kanchanpur", "substation": "Belauri"}
         self.assertEqual(enrich.derive_province(row, ["Koshi"]), ("Sudurpashchim", "district-lookup"))
 
-    def test_unlisted_district_gets_no_zone(self) -> None:
-        self.assertEqual(enrich.derive_zone("Nuwakot")[0], "")
-        self.assertEqual(enrich.derive_zone("Kapilbastu")[0], "B1")
+    def test_zone_listing_takes_precedence(self) -> None:
+        self.assertEqual(enrich.derive_zone("Kapilbastu"), ("B1", "zone-table-district-listing"))
         self.assertEqual(enrich.derive_zone("Nawalpur")[0], "B1")
+
+    def test_belt_region_table_covers_all_75_pre_2015_districts(self) -> None:
+        pre_2015 = [d for d in enrich.DISTRICT_BELT_REGION if d not in {"Nawalpur", "Parasi", "Rukum East", "Rukum West"}]
+        self.assertEqual(len(pre_2015), 75)
+        belts = [k[0] for k in (enrich.DISTRICT_BELT_REGION[d] for d in pre_2015)]
+        self.assertEqual((belts.count("Mountain"), belts.count("Hill"), belts.count("Terai")), (16, 39, 20))
+        for d in enrich.DISTRICT_PROVINCES:
+            if len(enrich.DISTRICT_PROVINCES[d]) == 1:
+                self.assertIn(d, enrich.DISTRICT_BELT_REGION, d)
+
+    def test_unlisted_district_uses_unique_belt_region_zone(self) -> None:
+        # Nuwakot (Hill/Central): Ramechhap is the only propagating match; C1 is valley-only.
+        self.assertEqual(enrich.derive_zone("Nuwakot"), ("C3", "belt-region-fallback:hill/central"))
+        # Dang (Terai/Mid-Western) shares belt and region with Banke and Bardiya.
+        self.assertEqual(enrich.derive_zone("Dang"), ("B3", "belt-region-fallback:terai/mid-western"))
+
+    def test_unlisted_district_without_unique_zone_stays_blank(self) -> None:
+        self.assertEqual(enrich.derive_zone("Dadeldhura"), ("", "belt-region-no-listed-zone:hill/far-western"))
+        self.assertEqual(enrich.derive_zone("Sankhuwasabha"), ("", "belt-region-no-listed-zone:mountain/eastern"))
+        self.assertEqual(enrich.derive_zone("Chitwan"), ("", "belt-region-multiple-zones:terai/central"))
 
     def test_siting_requires_named_substation(self) -> None:
         award = {"record_kind": "procurement-award-record", "procurement_stage": "loi-awarded", "substation": "Lamahi"}

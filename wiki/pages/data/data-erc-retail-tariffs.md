@@ -2,13 +2,13 @@
 title: NEA Retail Electricity Tariff Schedule
 type: data
 created: 2026-11-24
-updated: 2026-11-24
-reviewed: 2026-11-24
+updated: 2026-11-25
+reviewed: 2026-11-25
 review_due: 2027-02-24
-sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25]
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, erc-nea-consumer-tariff-order-2078]
 tags: [tariff, retail, erc, nea, time-of-day, ev-charging, csv]
 excerpt: Row-level transcription of the retail tariff schedule printed in NEA's FY 2025/26 annual report, covering domestic slabs, low/medium/high-voltage categories, time-of-day rates, EV charging and community wholesale supply.
-caveat: The schedule is transcribed from NEA's annual-report appendix, not from the ERC tariff order itself; the order's effective date is not printed there and is recorded as unknown.
+caveat: The schedule is transcribed from NEA's annual-report appendix and cross-checked against the ERC tariff order 2078, which applies from Mangsir 2078 consumption (recorded as 2021-11-17).
 maturity: working-page
 page_quality: record
 ---
@@ -49,7 +49,8 @@ page_quality: record
 
 ## Caveats
 
-- `effective_from` is `unknown` for every row. The annual report prints the schedule without the date or reference number of the ERC decision behind it, and no official ERC tariff order was retrieved for this table.
+- `effective_from` is `2021-11-17` for every row. The annual report prints the schedule without a date. The date comes from [[erc-nea-consumer-tariff-order-2078]], which the Commission set at its 140th meeting on 2078/07/08 BS for Mangsir 2078 consumption and bills from Paush 2078. Mangsir 1, 2078 BS is converted to 2021-11-17 (canonical lookup). Every non-zero demand, energy and minimum charge in the CSV appears in the order's tariff pages (PDF pp.74–83).
+- As of 2026-11-25, the ERC charge-order page lists no later NEA consumer tariff order. Taxes such as VAT are not part of the order.
 - In table 3.2 (Paush–Chaitra), the normal-time header is printed as 23.00–5.00. The swap-card table 3.3 prints normal time as 23.00–17.00, so normal time is read as all hours outside the peak.
 - The worked example for the 15 A billing method mentions an NRs 10.00 band for 151–250 units that is not in table 1.1. The CSV records only the table values.
 - The schedule does not include charges outside the tariff table, such as dedicated-line or trunk-line provisions, taxes or service fees.
@@ -63,6 +64,7 @@ page_quality: record
 
 - [[nea-annual-report-fy2025-26]] — Appendix 4 Electricity Tariff, PDF pp.179–184
 - [[nea-annual-report-fy2024-25]] — same schedule, used for the cross-year comparison
+- [[erc-nea-consumer-tariff-order-2078]] — the ERC order behind the schedule, PDF pp.74–83, used for `effective_from`
 
 ## Related
 
