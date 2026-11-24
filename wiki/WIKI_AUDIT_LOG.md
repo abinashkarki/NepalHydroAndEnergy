@@ -2469,6 +2469,21 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-24 — Coverage Sprint WP 1B — Plant Generation and Grid Summary
+
+**Agent:** Claude Code (Opus 5.5, overnight sprint on `data/coverage-sprint-2026-11`)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Pages touched:** `data/data-plant-annual-generation` (new, record), `data/data-nea-grid-infrastructure-fy2025-26` (new, record); cross-link notes added atop `data/data-nea-substation-capacity-fy2076-77` and `data/data-nea-transmission-length-fy2076-77` (no content removed).
+
+**Data:** `data/plant_annual_generation.csv` (44 rows; NEA plant rows sum exactly to Generation Directorate totals 2,902.40 / 2,763.73 GWh); `data/nea_grid_infrastructure_summary.csv` (116 long-format rows). New `scripts/extract_nea_plant_and_grid_tables.py` (--check).
+
+**Flags raised:** NEA does not itemise IPP or most subsidiary generation by plant (residuals 8,606 / 10,825 GWh IPP documented). Ten-year table gives 7,110 circuit-km for FY 2025/26 while the line inventory sums to 6,739.46 — both kept as separate metrics.
+
+**Validation result:** OK (wiki-index, wiki-site, validate, test)
+
+---
+
 ## Log Format for Future Sessions
 
 ```

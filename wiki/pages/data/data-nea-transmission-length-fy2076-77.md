@@ -2,7 +2,7 @@
 title: NEA Transmission Length FY 2076/77
 type: data
 created: 2026-04-20
-updated: 2026-05-12
+updated: 2026-11-24
 figure_type: table
 sources: [nea-transmission-annual-book-2077]
 tags: [transmission, line-length, 132kv, 220kv, 400kv, nea]
@@ -10,6 +10,9 @@ page_quality: analysis
 ---
 
 # NEA Transmission Length FY 2076/77
+
+> [!note]
+> Historical snapshot: this page keeps the FY 2076/77 record as published. For current FY 2024/25 and FY 2025/26 figures by voltage class, and the ten-year series, see [[data-nea-grid-infrastructure-fy2025-26]].
 
 ## Summary
 

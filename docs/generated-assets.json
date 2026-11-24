@@ -354,6 +354,28 @@
       ],
       "committed": true,
       "deployable": false
+    },
+    "data/plant_annual_generation.csv": {
+      "owner": "scripts/extract_nea_plant_and_grid_tables.py",
+      "command": "python scripts/extract_nea_plant_and_grid_tables.py",
+      "inputs": [
+        "data/raw/nea_annual_reports/nea_annual_report_2025_26.pdf",
+        "data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+        "data/nea_system_annual_timeseries.csv"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/nea_grid_infrastructure_summary.csv": {
+      "owner": "scripts/extract_nea_plant_and_grid_tables.py",
+      "command": "python scripts/extract_nea_plant_and_grid_tables.py",
+      "inputs": [
+        "data/raw/nea_annual_reports/nea_annual_report_2025_26.pdf",
+        "data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+        "data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+      ],
+      "committed": true,
+      "deployable": false
     }
   }
 }

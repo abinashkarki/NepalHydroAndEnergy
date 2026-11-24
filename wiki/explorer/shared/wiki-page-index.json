@@ -1652,6 +1652,10 @@
         "title": "Mountain Hydro System Comparison"
       },
       {
+        "slug": "data-nea-grid-infrastructure-fy2025-26",
+        "title": "NEA Grid Infrastructure FY 2025/26"
+      },
+      {
         "slug": "data-nea-substation-capacity-fy2076-77",
         "title": "NEA Substation Capacity FY 2076/77"
       },
@@ -1674,6 +1678,10 @@
       {
         "slug": "data-pipeline-readme",
         "title": "Data Pipeline Readme"
+      },
+      {
+        "slug": "data-plant-annual-generation",
+        "title": "Plant Annual Generation FY 2024/25\u20132025/26"
       },
       {
         "slug": "data-potential-pyramid",
@@ -2146,12 +2154,14 @@
     "data-map-inventory",
     "data-map-layer-labels",
     "data-mountain-hydro-comparison",
+    "data-nea-grid-infrastructure-fy2025-26",
     "data-nea-substation-capacity-fy2076-77",
     "data-nea-system-annual-timeseries",
     "data-nea-transmission-length-fy2076-77",
     "data-nepal-peak-load-curve-fy2024-25",
     "data-nepal-solar-resource-zones",
     "data-pipeline-readme",
+    "data-plant-annual-generation",
     "data-potential-pyramid",
     "data-rooftop-shs-deployment",
     "data-solar-fleet-inventory",
@@ -2578,12 +2588,14 @@
     "data-map-inventory": "data",
     "data-map-layer-labels": "data",
     "data-mountain-hydro-comparison": "data",
+    "data-nea-grid-infrastructure-fy2025-26": "data",
     "data-nea-substation-capacity-fy2076-77": "data",
     "data-nea-system-annual-timeseries": "data",
     "data-nea-transmission-length-fy2076-77": "data",
     "data-nepal-peak-load-curve-fy2024-25": "data",
     "data-nepal-solar-resource-zones": "data",
     "data-pipeline-readme": "data",
+    "data-plant-annual-generation": "data",
     "data-potential-pyramid": "data",
     "data-rooftop-shs-deployment": "data",
     "data-solar-fleet-inventory": "data",
@@ -3010,12 +3022,14 @@
     "data-map-inventory": "Map Inventory",
     "data-map-layer-labels": "Map Layer Labels",
     "data-mountain-hydro-comparison": "Mountain Hydro System Comparison",
+    "data-nea-grid-infrastructure-fy2025-26": "NEA Grid Infrastructure FY 2025/26",
     "data-nea-substation-capacity-fy2076-77": "NEA Substation Capacity FY 2076/77",
     "data-nea-system-annual-timeseries": "NEA System Annual Time Series FY 2015/16\u20132025/26",
     "data-nea-transmission-length-fy2076-77": "NEA Transmission Length FY 2076/77",
     "data-nepal-peak-load-curve-fy2024-25": "Nepal Peak Load Curve FY 2024/25",
     "data-nepal-solar-resource-zones": "Nepal Solar Resource Zones",
     "data-pipeline-readme": "Data Pipeline Readme",
+    "data-plant-annual-generation": "Plant Annual Generation FY 2024/25\u20132025/26",
     "data-potential-pyramid": "Hydropower Potential Pyramid",
     "data-rooftop-shs-deployment": "Rooftop and Solar Home System Deployment",
     "data-solar-fleet-inventory": "Solar Fleet Inventory",
@@ -3031,5 +3045,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 430
+  "totalPages": 432
 }
