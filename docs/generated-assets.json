@@ -376,6 +376,35 @@
       ],
       "committed": true,
       "deployable": false
+    },
+    "data/processed/tables/solar_enrichment_audit.csv": {
+      "owner": "scripts/enrich_solar_specs.py",
+      "command": "python scripts/enrich_solar_specs.py",
+      "inputs": [
+        "data/solar_project_specs.csv",
+        "data/raw/maps/nepal_provinces.geojson",
+        "data/processed/maps/solar_ghi_zones.geojson"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_nonhydro_registry.csv": {
+      "owner": "scripts/build_doed_nonhydro_registry.py",
+      "command": "python scripts/build_doed_nonhydro_registry.py",
+      "inputs": [
+        "https://doed.gov.np/pages/ (powerplants*, cl*, sl*, appcl*, appsl* for solar/wind/thermal/biomass/cogeneration)"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_nonhydro_registry_summary.json": {
+      "owner": "scripts/build_doed_nonhydro_registry.py",
+      "command": "python scripts/build_doed_nonhydro_registry.py",
+      "inputs": [
+        "https://doed.gov.np/pages/ (powerplants*, cl*, sl*, appcl*, appsl* for solar/wind/thermal/biomass/cogeneration)"
+      ],
+      "committed": true,
+      "deployable": false
     }
   }
 }
