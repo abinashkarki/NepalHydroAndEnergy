@@ -344,6 +344,16 @@
       ],
       "committed": true,
       "deployable": true
+    },
+    "data/nea_system_annual_timeseries.csv": {
+      "owner": "scripts/extract_nea_annual_tables.py",
+      "command": "python scripts/extract_nea_annual_tables.py",
+      "inputs": [
+        "data/raw/nea_annual_reports/nea_annual_report_2025_26.pdf",
+        "data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
+      ],
+      "committed": true,
+      "deployable": false
     }
   }
 }

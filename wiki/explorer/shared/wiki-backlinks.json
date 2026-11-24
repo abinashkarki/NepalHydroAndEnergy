@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 330,
-  "total_refs": 2663,
+  "total_targets": 331,
+  "total_refs": 2670,
   "backlinks": {
     "buildability": [
       {
@@ -1497,6 +1497,13 @@
         "title": "Layer: Hydropower - Operating",
         "category": "data",
         "context": "nea-annual-report-fy2024-25",
+        "target_exists": true
+      },
+      {
+        "slug": "data-nea-system-annual-timeseries",
+        "title": "NEA System Annual Time Series FY 2015/16–2025/26",
+        "category": "data",
+        "context": "…eport-fy2025-26]]. FY 2015/16 comes from the same tables in nea-annual-report-fy2024-25. Values are copied from the tables. Nothing is interpolated…",
         "target_exists": true
       },
       {
@@ -10653,6 +10660,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-nea-system-annual-timeseries",
+        "title": "NEA System Annual Time Series FY 2015/16–2025/26",
+        "category": "data",
+        "context": "…city-system-indicators]] · demand-and-electrification · distribution-and-reliability",
+        "target_exists": true
+      },
+      {
         "slug": "intervention-electric-cooking-transition",
         "title": "Decision Dossier — Electric-Cooking Evidence Gate and Pilot",
         "category": "interventions",
@@ -10701,6 +10715,13 @@
         "title": "Electricity System Indicator Register",
         "category": "data",
         "context": "distribution-and-reliability · demand-and-electrification · storage-and-flexibility · [[data-electricity-system-e…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-nea-system-annual-timeseries",
+        "title": "NEA System Annual Time Series FY 2015/16–2025/26",
+        "category": "data",
+        "context": "data-electricity-system-indicators · demand-and-electrification · distribution-and-reliability",
         "target_exists": true
       },
       {
@@ -14775,10 +14796,24 @@
         "target_exists": true
       },
       {
+        "slug": "data-electricity-system-indicators",
+        "title": "Electricity System Indicator Register",
+        "category": "data",
+        "context": "…and national peak versus system peak. FY 2025/26 rows from nea-annual-report-fy2025-26 sit alongside the FY 2024/25 rows. Earlier rows are kept as…",
+        "target_exists": true
+      },
+      {
         "slug": "figure-index",
         "title": "Figure Index",
         "category": "data",
         "context": "…_26.svg) | SVG | master-thesis, seasonal-mismatch | nea-annual-report-fy2025-26 | Monthly energy-balance table totals (exports 3,938 GWh, i…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-nea-system-annual-timeseries",
+        "title": "NEA System Annual Time Series FY 2015/16–2025/26",
+        "category": "data",
+        "context": "…2016/17 to FY 2025/26 come from the statistics appendix of nea-annual-report-fy2025-26. FY 2015/16 comes from the same tables in [[nea-annual-repo…",
         "target_exists": true
       },
       {
@@ -18118,7 +18153,7 @@
         "slug": "data-electricity-system-indicators",
         "title": "Electricity System Indicator Register",
         "category": "data",
-        "context": "…bution-and-reliability]] · demand-and-electrification · storage-and-flexibility · data-electricity-system-evidence-gaps",
+        "context": "…bution-and-reliability]] · demand-and-electrification · storage-and-flexibility · data-electricity-system-evidence-gaps · [[data-nea-sy…",
         "target_exists": true
       }
     ],
@@ -18917,6 +18952,22 @@
         "category": "data",
         "context": "unresolved-questions · data-electricity-system-indicators",
         "target_exists": true
+      },
+      {
+        "slug": "data-nea-system-annual-timeseries",
+        "title": "NEA System Annual Time Series FY 2015/16–2025/26",
+        "category": "data",
+        "context": "data-electricity-system-indicators",
+        "target_exists": true
+      }
+    ],
+    "data-nea-system-annual-timeseries": [
+      {
+        "slug": "data-electricity-system-indicators",
+        "title": "Electricity System Indicator Register",
+        "category": "data",
+        "context": "…y, not overwritten. For an eleven-year national series, see data-nea-system-annual-timeseries.",
+        "target_exists": true
       }
     ],
     "data-electricity-system-evidence-gaps": [
@@ -18924,7 +18975,7 @@
         "slug": "data-electricity-system-indicators",
         "title": "Electricity System Indicator Register",
         "category": "data",
-        "context": "…emand-and-electrification]] · storage-and-flexibility · data-electricity-system-evidence-gaps",
+        "context": "…emand-and-electrification]] · storage-and-flexibility · data-electricity-system-evidence-gaps · data-nea-system-annual-timeseries",
         "target_exists": true
       }
     ],

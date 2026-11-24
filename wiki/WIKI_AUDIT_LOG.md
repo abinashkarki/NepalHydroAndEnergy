@@ -2454,6 +2454,21 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-24 — Coverage Sprint WP 1A — NEA Ten-Year Time Series
+
+**Agent:** Claude Code (Opus 5.5, overnight sprint on `data/coverage-sprint-2026-11`)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Pages touched:** `data/data-nea-system-annual-timeseries` (new, record), `data/data-electricity-system-indicators` (FY 2025/26 refresh).
+
+**Data:** new `data/nea_system_annual_timeseries.csv` (FY 2015/16–2025/26, NEA FY 2025/26 report pp.156, 169–173; FY 2015/16 from FY 2024/25 report); `data/electricity_system_indicators.csv` 23 → 45 rows. New `scripts/extract_nea_annual_tables.py` (--check).
+
+**Flags raised:** FY 2024/25 revenue and profit before tax restated in the FY 2025/26 report (newer figures used). Monthly energy balance vs annual totals differ (IPP +345 GWh; system demand vs total available +454 GWh), documented in page caveats. `data/raw/core/nea_annual_report_2020.pdf` is an HTML file, not a PDF.
+
+**Validation result:** OK (wiki-index, wiki-site, validate, test)
+
+---
+
 ## Log Format for Future Sessions
 
 ```

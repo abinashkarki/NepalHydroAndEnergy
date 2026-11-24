@@ -63,7 +63,7 @@ Check `scripts/validate_repo.py` before modifying existing schemas:
 
 | WP | Priority | Title | Mode | Status | Commit | Key Metric / Result |
 |---|---|---|---|---|---|---|
-| **WP 1A** | P1 | 10-Year NEA System Time-Series + FY 2025/26 Indicators Refresh | Local PDFs | `PENDING` | — | — |
+| **WP 1A** | P1 | 10-Year NEA System Time-Series + FY 2025/26 Indicators Refresh | Local PDFs | `DONE` | (this commit) | 11 FYs (2072/73–2082/83) in nea_system_annual_timeseries.csv; indicators 23→45 rows incl. 9 provincial-office losses FY 2025/26 |
 | **WP 1B** | P1 | Plant-by-Plant Annual Generation CSV + Refresh Stale FY 2076/77 Grid Tables | Local PDFs | `PENDING` | — | — |
 | **WP 2A** | P2 | Build `data/substation_specs.csv` + Schema + Data Page (400/220/132 kV) | Local PDFs + GeoJSON | `PENDING` | — | — |
 | **WP 2B** | P2 | Expand `data/corridor_specs.csv` (2 → 22+ Domestic & Cross-Border Corridors) | Local Dossiers + PDFs | `PENDING` | — | — |
