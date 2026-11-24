@@ -49,6 +49,406 @@
     "projects": [
       {
         "active_blocker_count": 0,
+        "capacity_mw": 439.0,
+        "completeness": {
+          "filled": 1,
+          "pct": 2.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "betan-karnali",
+        "status": "unknown",
+        "title": "Betan Karnali HP",
+        "wiki_url": "/wiki/explorer/?page=betan-karnali"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 106.0,
+        "completeness": {
+          "filled": 1,
+          "pct": 2.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "jagdulla",
+        "status": "under-construction",
+        "title": "Jagdulla HEP",
+        "wiki_url": "/wiki/explorer/?page=jagdulla"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 160.0,
+        "completeness": {
+          "filled": 1,
+          "pct": 2.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "lapche-khola",
+        "status": "under-construction",
+        "title": "Lapche Khola",
+        "wiki_url": "/wiki/explorer/?page=lapche-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 120.0,
+        "completeness": {
+          "filled": 1,
+          "pct": 2.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "rasuwa-bhotekoshi",
+        "status": "under-construction",
+        "title": "Rasuwa Bhotekoshi",
+        "wiki_url": "/wiki/explorer/?page=rasuwa-bhotekoshi"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 166.0,
+        "completeness": {
+          "filled": 1,
+          "pct": 2.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "super-tamor",
+        "status": "under-construction",
+        "title": "Super Tamor",
+        "wiki_url": "/wiki/explorer/?page=super-tamor"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 100.0,
+        "completeness": {
+          "filled": 1,
+          "pct": 2.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "super-trishuli",
+        "status": "under-construction",
+        "title": "Super Trishuli",
+        "wiki_url": "/wiki/explorer/?page=super-trishuli"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 285.0,
+        "completeness": {
+          "filled": 1,
+          "pct": 2.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-tamor",
+        "status": "under-construction",
+        "title": "Upper Tamor",
+        "wiki_url": "/wiki/explorer/?page=upper-tamor"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 216.0,
+        "completeness": {
+          "filled": 1,
+          "pct": 2.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-trishuli-1",
+        "status": "under-construction",
+        "title": "Upper Trishuli-1",
+        "wiki_url": "/wiki/explorer/?page=upper-trishuli-1"
+      },
+      {
+        "active_blocker_count": 0,
         "capacity_mw": 106.0,
         "completeness": {
           "filled": 2,
@@ -99,6 +499,1756 @@
       },
       {
         "active_blocker_count": 0,
+        "capacity_mw": 32.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "bagmati-nadi",
+        "status": "operating",
+        "title": "Bagmati Nadi",
+        "wiki_url": "/wiki/explorer/?page=bagmati-nadi"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 27.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "dordi-khola",
+        "status": "operating",
+        "title": "Dordi Khola",
+        "wiki_url": "/wiki/explorer/?page=dordi-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 21.93,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "kabeli-3",
+        "status": "operating",
+        "title": "Kabeli-3 Cascade",
+        "wiki_url": "/wiki/explorer/?page=kabeli-3"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 25.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "kabeli-b-1",
+        "status": "operating",
+        "title": "Kabeli B - 1",
+        "wiki_url": "/wiki/explorer/?page=kabeli-b-1"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 32.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "karuwa-seti",
+        "status": "operating",
+        "title": "Karuwa Seti",
+        "wiki_url": "/wiki/explorer/?page=karuwa-seti"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 22.1,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "lower-hewa",
+        "status": "operating",
+        "title": "Lower Hewa",
+        "wiki_url": "/wiki/explorer/?page=lower-hewa"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 28.1,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "lower-likhu",
+        "status": "operating",
+        "title": "Lower Likhu",
+        "wiki_url": "/wiki/explorer/?page=lower-likhu"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 20.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "lower-modi-khola",
+        "status": "operating",
+        "title": "Lower Modi Khola",
+        "wiki_url": "/wiki/explorer/?page=lower-modi-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 82.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "lower-solu",
+        "status": "operating",
+        "title": "Lower Solu Hydropower Project",
+        "wiki_url": "/wiki/explorer/?page=lower-solu"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 24.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "madme-khola",
+        "status": "operating",
+        "title": "Madme Khola",
+        "wiki_url": "/wiki/explorer/?page=madme-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 22.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "mai",
+        "status": "operating",
+        "title": "Mai",
+        "wiki_url": "/wiki/explorer/?page=mai"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 22.5,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "mathillo-thulo-khola-a",
+        "status": "operating",
+        "title": "Mathillo Thulo Khola A",
+        "wiki_url": "/wiki/explorer/?page=mathillo-thulo-khola-a"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 50.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "mewa-khola-hydropower-project",
+        "status": "operating",
+        "title": "Mewa Khola Hydropower Project",
+        "wiki_url": "/wiki/explorer/?page=mewa-khola-hydropower-project"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 73.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "middle-tamor",
+        "status": "operating",
+        "title": "Middle Tamor",
+        "wiki_url": "/wiki/explorer/?page=middle-tamor"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 42.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "mristi-khola",
+        "status": "operating",
+        "title": "Mristi Khola",
+        "wiki_url": "/wiki/explorer/?page=mristi-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 38.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "nilgiri-khola",
+        "status": "operating",
+        "title": "Nilgiri Khola",
+        "wiki_url": "/wiki/explorer/?page=nilgiri-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 71.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "nilgiri-khola-ii",
+        "status": "operating",
+        "title": "Nilgiri Khola-II Cascade",
+        "wiki_url": "/wiki/explorer/?page=nilgiri-khola-ii"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 30.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "nyadi-khola",
+        "status": "operating",
+        "title": "Nyadi Khola",
+        "wiki_url": "/wiki/explorer/?page=nyadi-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 37.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "rahughat-mangale",
+        "status": "operating",
+        "title": "Rahughat Mangale",
+        "wiki_url": "/wiki/explorer/?page=rahughat-mangale"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 20.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "sagu-khola",
+        "status": "operating",
+        "title": "Sagu Khola",
+        "wiki_url": "/wiki/explorer/?page=sagu-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 78.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "sanjen-khola",
+        "status": "operating",
+        "title": "Sanjen Khola",
+        "wiki_url": "/wiki/explorer/?page=sanjen-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 25.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "seti-khola-kaski",
+        "status": "operating",
+        "title": "Seti Khola HPP (Kaski, 25 MW)",
+        "wiki_url": "/wiki/explorer/?page=seti-khola-kaski"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 25.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "singati-khola-hydropower-project",
+        "status": "operating",
+        "title": "Singati Khola Hydropower Project",
+        "wiki_url": "/wiki/explorer/?page=singati-khola-hydropower-project"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 23.5,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "solu",
+        "status": "operating",
+        "title": "Solu Hydropower Project",
+        "wiki_url": "/wiki/explorer/?page=solu"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 54.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "super-dordi-kha-hydropower-project",
+        "status": "operating",
+        "title": "Super Dordi Kha Hydropower Project",
+        "wiki_url": "/wiki/explorer/?page=super-dordi-kha-hydropower-project"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 44.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "super-madi",
+        "status": "operating",
+        "title": "Super Madi",
+        "wiki_url": "/wiki/explorer/?page=super-madi"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 21.3,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "thulo-khola",
+        "status": "operating",
+        "title": "Thulo Khola",
+        "wiki_url": "/wiki/explorer/?page=thulo-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 36.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-balephi-a",
+        "status": "operating",
+        "title": "Upper Balephi A",
+        "wiki_url": "/wiki/explorer/?page=upper-balephi-a"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 45.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-bhotekoshi",
+        "status": "operating",
+        "title": "Upper Bhotekoshi",
+        "wiki_url": "/wiki/explorer/?page=upper-bhotekoshi"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 22.2,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-chaku-a",
+        "status": "operating",
+        "title": "Upper Chaku A",
+        "wiki_url": "/wiki/explorer/?page=upper-chaku-a"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 40.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-chameliya",
+        "status": "operating",
+        "title": "Upper Chameliya",
+        "wiki_url": "/wiki/explorer/?page=upper-chameliya"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 25.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-dordi-a",
+        "status": "operating",
+        "title": "Upper Dordi A HEP",
+        "wiki_url": "/wiki/explorer/?page=upper-dordi-a"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 38.46,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-kalangad",
+        "status": "operating",
+        "title": "Upper Kalangad",
+        "wiki_url": "/wiki/explorer/?page=upper-kalangad"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 25.0,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-madi",
+        "status": "operating",
+        "title": "Upper Madi",
+        "wiki_url": "/wiki/explorer/?page=upper-madi"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 48.5,
+        "completeness": {
+          "filled": 3,
+          "pct": 8.6,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-rahughat",
+        "status": "operating",
+        "title": "Upper Rahughat",
+        "wiki_url": "/wiki/explorer/?page=upper-rahughat"
+      },
+      {
+        "active_blocker_count": 0,
         "capacity_mw": 10800.0,
         "completeness": {
           "filled": 4,
@@ -146,6 +2296,106 @@
         "status": "conceptual",
         "title": "Karnali Chisapani Project",
         "wiki_url": "/wiki/explorer/?page=karnali-chisapani"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 52.4,
+        "completeness": {
+          "filled": 4,
+          "pct": 11.4,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 1,
+              "pct": 12.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "likhu-4",
+        "status": "operating",
+        "title": "Likhu-4",
+        "wiki_url": "/wiki/explorer/?page=likhu-4"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 50.0,
+        "completeness": {
+          "filled": 4,
+          "pct": 11.4,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 1,
+              "pct": 12.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-marsyangdi-a",
+        "status": "operating",
+        "title": "Upper Marsyangdi A",
+        "wiki_url": "/wiki/explorer/?page=upper-marsyangdi-a"
       },
       {
         "active_blocker_count": 0,
@@ -249,7 +2499,7 @@
       },
       {
         "active_blocker_count": 0,
-        "capacity_mw": 180.0,
+        "capacity_mw": 210.0,
         "completeness": {
           "filled": 6,
           "pct": 17.1,
@@ -265,13 +2515,13 @@
               "total": 5
             },
             "governance": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 1,
+              "pct": 25.0,
               "total": 4
             },
             "output": {
-              "filled": 4,
-              "pct": 50.0,
+              "filled": 5,
+              "pct": 62.5,
               "total": 8
             },
             "schedule": {
@@ -280,8 +2530,8 @@
               "total": 3
             },
             "storage": {
-              "filled": 2,
-              "pct": 66.7,
+              "filled": 0,
+              "pct": 0.0,
               "total": 3
             }
           },
@@ -290,112 +2540,12 @@
         },
         "event_count": 0,
         "identity_state": "linked",
-        "last_updated": "2026-05-05",
+        "last_updated": "2026-11-24",
         "monitoring_state": "registry-only",
-        "slug": "andhi-khola",
-        "status": "survey",
-        "title": "Andhi Khola",
-        "wiki_url": "/wiki/explorer/?page=andhi-khola"
-      },
-      {
-        "active_blocker_count": 2,
-        "capacity_mw": 1200.0,
-        "completeness": {
-          "filled": 6,
-          "pct": 17.1,
-          "sections": {
-            "engineering": {
-              "filled": 2,
-              "pct": 16.7,
-              "total": 12
-            },
-            "financial": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 1,
-              "pct": 25.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 2,
-              "pct": 25.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 1,
-              "pct": 33.3,
-              "total": 3
-            }
-          },
-          "tier": "thin",
-          "total": 35
-        },
-        "event_count": 1,
-        "identity_state": "linked",
-        "last_updated": "2026-07-10",
-        "monitoring_state": "monitored",
-        "slug": "budhigandaki",
+        "slug": "chainpur-seti",
         "status": "pre-construction",
-        "title": "Budhigandaki Hydroelectric Project",
-        "wiki_url": "/wiki/explorer/?page=budhigandaki"
-      },
-      {
-        "active_blocker_count": 0,
-        "capacity_mw": 148.7,
-        "completeness": {
-          "filled": 6,
-          "pct": 17.1,
-          "sections": {
-            "engineering": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 12
-            },
-            "financial": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 4,
-              "pct": 50.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 2,
-              "pct": 66.7,
-              "total": 3
-            }
-          },
-          "tier": "thin",
-          "total": 35
-        },
-        "event_count": 0,
-        "identity_state": "linked",
-        "last_updated": "2026-05-05",
-        "monitoring_state": "registry-only",
-        "slug": "chera-1",
-        "status": "survey",
-        "title": "Chera-1",
-        "wiki_url": "/wiki/explorer/?page=chera-1"
+        "title": "Chainpur Seti",
+        "wiki_url": "/wiki/explorer/?page=chainpur-seti"
       },
       {
         "active_blocker_count": 0,
@@ -449,7 +2599,7 @@
       },
       {
         "active_blocker_count": 0,
-        "capacity_mw": 111.5,
+        "capacity_mw": 51.0,
         "completeness": {
           "filled": 6,
           "pct": 17.1,
@@ -460,28 +2610,28 @@
               "total": 12
             },
             "financial": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 1,
+              "pct": 20.0,
               "total": 5
             },
             "governance": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 2,
+              "pct": 50.0,
               "total": 4
             },
             "output": {
-              "filled": 4,
-              "pct": 50.0,
+              "filled": 1,
+              "pct": 12.5,
               "total": 8
             },
             "schedule": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 2,
+              "pct": 66.7,
               "total": 3
             },
             "storage": {
-              "filled": 2,
-              "pct": 66.7,
+              "filled": 0,
+              "pct": 0.0,
               "total": 3
             }
           },
@@ -490,273 +2640,23 @@
         },
         "event_count": 0,
         "identity_state": "linked",
-        "last_updated": "2026-05-05",
+        "last_updated": "2026-11-24",
         "monitoring_state": "registry-only",
-        "slug": "kokhajor-1",
-        "status": "survey",
-        "title": "Kokhajor-1",
-        "wiki_url": "/wiki/explorer/?page=kokhajor-1"
+        "slug": "likhu-khola-a",
+        "status": "operating",
+        "title": "Likhu Khola 'A",
+        "wiki_url": "/wiki/explorer/?page=likhu-khola-a"
       },
       {
         "active_blocker_count": 0,
-        "capacity_mw": 380.3,
+        "capacity_mw": 102.0,
         "completeness": {
           "filled": 6,
           "pct": 17.1,
           "sections": {
             "engineering": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 12
-            },
-            "financial": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 4,
-              "pct": 50.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 2,
-              "pct": 66.7,
-              "total": 3
-            }
-          },
-          "tier": "thin",
-          "total": 35
-        },
-        "event_count": 0,
-        "identity_state": "linked",
-        "last_updated": "2026-05-05",
-        "monitoring_state": "registry-only",
-        "slug": "lower-badigad",
-        "status": "survey",
-        "title": "Lower Badigad",
-        "wiki_url": "/wiki/explorer/?page=lower-badigad"
-      },
-      {
-        "active_blocker_count": 0,
-        "capacity_mw": 142.5,
-        "completeness": {
-          "filled": 6,
-          "pct": 17.1,
-          "sections": {
-            "engineering": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 12
-            },
-            "financial": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 4,
-              "pct": 50.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 2,
-              "pct": 66.7,
-              "total": 3
-            }
-          },
-          "tier": "thin",
-          "total": 35
-        },
-        "event_count": 0,
-        "identity_state": "linked",
-        "last_updated": "2026-05-05",
-        "monitoring_state": "registry-only",
-        "slug": "lower-jhimruk",
-        "status": "survey",
-        "title": "Lower Jhimruk",
-        "wiki_url": "/wiki/explorer/?page=lower-jhimruk"
-      },
-      {
-        "active_blocker_count": 0,
-        "capacity_mw": 199.8,
-        "completeness": {
-          "filled": 6,
-          "pct": 17.1,
-          "sections": {
-            "engineering": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 12
-            },
-            "financial": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 4,
-              "pct": 50.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 2,
-              "pct": 66.7,
-              "total": 3
-            }
-          },
-          "tier": "thin",
-          "total": 35
-        },
-        "event_count": 0,
-        "identity_state": "linked",
-        "last_updated": "2026-05-05",
-        "monitoring_state": "registry-only",
-        "slug": "madi",
-        "status": "survey",
-        "title": "Madi",
-        "wiki_url": "/wiki/explorer/?page=madi"
-      },
-      {
-        "active_blocker_count": 0,
-        "capacity_mw": 410.0,
-        "completeness": {
-          "filled": 6,
-          "pct": 17.1,
-          "sections": {
-            "engineering": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 12
-            },
-            "financial": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 4,
-              "pct": 50.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 2,
-              "pct": 66.7,
-              "total": 3
-            }
-          },
-          "tier": "thin",
-          "total": 35
-        },
-        "event_count": 0,
-        "identity_state": "linked",
-        "last_updated": "2026-05-05",
-        "monitoring_state": "registry-only",
-        "slug": "nalsyau-gad",
-        "status": "survey",
-        "title": "Nalsyau Gad",
-        "wiki_url": "/wiki/explorer/?page=nalsyau-gad"
-      },
-      {
-        "active_blocker_count": 0,
-        "capacity_mw": 245.0,
-        "completeness": {
-          "filled": 6,
-          "pct": 17.1,
-          "sections": {
-            "engineering": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 12
-            },
-            "financial": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 4,
-              "pct": 50.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 2,
-              "pct": 66.7,
-              "total": 3
-            }
-          },
-          "tier": "thin",
-          "total": 35
-        },
-        "event_count": 0,
-        "identity_state": "linked",
-        "last_updated": "2026-05-05",
-        "monitoring_state": "registry-only",
-        "slug": "naumure-w-rapti",
-        "status": "survey",
-        "title": "Naumure (W. Rapti)",
-        "wiki_url": "/wiki/explorer/?page=naumure-w-rapti"
-      },
-      {
-        "active_blocker_count": 1,
-        "capacity_mw": 6720.0,
-        "completeness": {
-          "filled": 6,
-          "pct": 17.1,
-          "sections": {
-            "engineering": {
-              "filled": 2,
-              "pct": 16.7,
+              "filled": 3,
+              "pct": 25.0,
               "total": 12
             },
             "financial": {
@@ -770,32 +2670,32 @@
               "total": 4
             },
             "output": {
-              "filled": 2,
-              "pct": 25.0,
+              "filled": 0,
+              "pct": 0.0,
               "total": 8
             },
             "schedule": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 2,
+              "pct": 66.7,
               "total": 3
             },
             "storage": {
-              "filled": 1,
-              "pct": 33.3,
+              "filled": 0,
+              "pct": 0.0,
               "total": 3
             }
           },
           "tier": "thin",
           "total": 35
         },
-        "event_count": 1,
+        "event_count": 0,
         "identity_state": "linked",
-        "last_updated": "2026-07-10",
-        "monitoring_state": "monitored",
-        "slug": "pancheshwar",
-        "status": "stalled",
-        "title": "Pancheshwar Multipurpose Project",
-        "wiki_url": "/wiki/explorer/?page=pancheshwar"
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "madhya-bhotekoshi",
+        "status": "operating",
+        "title": "Madhya Bhotekoshi",
+        "wiki_url": "/wiki/explorer/?page=madhya-bhotekoshi"
       },
       {
         "active_blocker_count": 0,
@@ -849,14 +2749,14 @@
       },
       {
         "active_blocker_count": 0,
-        "capacity_mw": 536.0,
+        "capacity_mw": 24.0,
         "completeness": {
           "filled": 6,
           "pct": 17.1,
           "sections": {
             "engineering": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 1,
+              "pct": 8.3,
               "total": 12
             },
             "financial": {
@@ -865,23 +2765,23 @@
               "total": 5
             },
             "governance": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 1,
+              "pct": 25.0,
               "total": 4
             },
             "output": {
-              "filled": 4,
-              "pct": 50.0,
+              "filled": 2,
+              "pct": 25.0,
               "total": 8
             },
             "schedule": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 2,
+              "pct": 66.7,
               "total": 3
             },
             "storage": {
-              "filled": 2,
-              "pct": 66.7,
+              "filled": 0,
+              "pct": 0.0,
               "total": 3
             }
           },
@@ -890,23 +2790,23 @@
         },
         "event_count": 0,
         "identity_state": "linked",
-        "last_updated": "2026-05-05",
+        "last_updated": "2026-11-24",
         "monitoring_state": "registry-only",
-        "slug": "sun-koshi-no-3",
-        "status": "survey",
-        "title": "Sun Koshi No.3",
-        "wiki_url": "/wiki/explorer/?page=sun-koshi-no-3"
+        "slug": "trishuli",
+        "status": "operating",
+        "title": "Trishuli",
+        "wiki_url": "/wiki/explorer/?page=trishuli"
       },
       {
         "active_blocker_count": 2,
-        "capacity_mw": 140.0,
+        "capacity_mw": 1200.0,
         "completeness": {
-          "filled": 8,
-          "pct": 22.9,
+          "filled": 7,
+          "pct": 20.0,
           "sections": {
             "engineering": {
-              "filled": 3,
-              "pct": 25.0,
+              "filled": 2,
+              "pct": 16.7,
               "total": 12
             },
             "financial": {
@@ -915,148 +2815,48 @@
               "total": 5
             },
             "governance": {
-              "filled": 2,
-              "pct": 50.0,
+              "filled": 1,
+              "pct": 25.0,
               "total": 4
             },
             "output": {
-              "filled": 2,
-              "pct": 25.0,
+              "filled": 3,
+              "pct": 37.5,
               "total": 8
             },
             "schedule": {
-              "filled": 1,
-              "pct": 33.3,
+              "filled": 0,
+              "pct": 0.0,
               "total": 3
             },
             "storage": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 1,
+              "pct": 33.3,
               "total": 3
             }
           },
           "tier": "thin",
-          "total": 35
-        },
-        "event_count": 2,
-        "identity_state": "linked",
-        "last_updated": "2026-07-10",
-        "monitoring_state": "monitored",
-        "slug": "tanahu-hydropower",
-        "status": "under-construction",
-        "title": "Tanahu Hydropower Project",
-        "wiki_url": "/wiki/explorer/?page=tanahu-hydropower"
-      },
-      {
-        "active_blocker_count": 1,
-        "capacity_mw": 900.0,
-        "completeness": {
-          "filled": 9,
-          "pct": 25.7,
-          "sections": {
-            "engineering": {
-              "filled": 3,
-              "pct": 25.0,
-              "total": 12
-            },
-            "financial": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 4,
-              "pct": 100.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 2,
-              "pct": 25.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            }
-          },
-          "tier": "moderate",
           "total": 35
         },
         "event_count": 1,
         "identity_state": "linked",
-        "last_updated": "2026-07-10",
+        "last_updated": "2026-11-24",
         "monitoring_state": "monitored",
-        "slug": "arun-3",
-        "status": "under-construction",
-        "title": "Arun 3",
-        "wiki_url": "/wiki/explorer/?page=arun-3"
-      },
-      {
-        "active_blocker_count": 2,
-        "capacity_mw": 670.0,
-        "completeness": {
-          "filled": 10,
-          "pct": 28.6,
-          "sections": {
-            "engineering": {
-              "filled": 2,
-              "pct": 16.7,
-              "total": 12
-            },
-            "financial": {
-              "filled": 1,
-              "pct": 20.0,
-              "total": 5
-            },
-            "governance": {
-              "filled": 2,
-              "pct": 50.0,
-              "total": 4
-            },
-            "output": {
-              "filled": 4,
-              "pct": 50.0,
-              "total": 8
-            },
-            "schedule": {
-              "filled": 0,
-              "pct": 0.0,
-              "total": 3
-            },
-            "storage": {
-              "filled": 1,
-              "pct": 33.3,
-              "total": 3
-            }
-          },
-          "tier": "moderate",
-          "total": 35
-        },
-        "event_count": 2,
-        "identity_state": "linked",
-        "last_updated": "2026-07-10",
-        "monitoring_state": "monitored",
-        "slug": "dudhkoshi-storage",
+        "slug": "budhigandaki",
         "status": "pre-construction",
-        "title": "Dudhkoshi Storage Hydroelectric Project",
-        "wiki_url": "/wiki/explorer/?page=dudhkoshi-storage"
+        "title": "Budhigandaki Hydroelectric Project",
+        "wiki_url": "/wiki/explorer/?page=budhigandaki"
       },
       {
         "active_blocker_count": 0,
-        "capacity_mw": 144.0,
+        "capacity_mw": 77.0,
         "completeness": {
-          "filled": 10,
-          "pct": 28.6,
+          "filled": 7,
+          "pct": 20.0,
           "sections": {
             "engineering": {
-              "filled": 4,
-              "pct": 33.3,
+              "filled": 3,
+              "pct": 25.0,
               "total": 12
             },
             "financial": {
@@ -1065,13 +2865,13 @@
               "total": 5
             },
             "governance": {
-              "filled": 2,
-              "pct": 50.0,
+              "filled": 1,
+              "pct": 25.0,
               "total": 4
             },
             "output": {
-              "filled": 2,
-              "pct": 25.0,
+              "filled": 1,
+              "pct": 12.5,
               "total": 8
             },
             "schedule": {
@@ -1085,28 +2885,28 @@
               "total": 3
             }
           },
-          "tier": "moderate",
+          "tier": "thin",
           "total": 35
         },
         "event_count": 0,
         "identity_state": "linked",
-        "last_updated": "2026-05-05",
+        "last_updated": "2026-11-24",
         "monitoring_state": "registry-only",
-        "slug": "kali-gandaki-a",
+        "slug": "likhu-1",
         "status": "operating",
-        "title": "Kali Gandaki A",
-        "wiki_url": "/wiki/explorer/?page=kali-gandaki-a"
+        "title": "Likhu -1",
+        "wiki_url": "/wiki/explorer/?page=likhu-1"
       },
       {
         "active_blocker_count": 0,
-        "capacity_mw": 30.0,
+        "capacity_mw": 55.0,
         "completeness": {
-          "filled": 11,
-          "pct": 31.4,
+          "filled": 7,
+          "pct": 20.0,
           "sections": {
             "engineering": {
-              "filled": 2,
-              "pct": 16.7,
+              "filled": 0,
+              "pct": 0.0,
               "total": 12
             },
             "financial": {
@@ -1120,13 +2920,13 @@
               "total": 4
             },
             "output": {
-              "filled": 2,
-              "pct": 25.0,
+              "filled": 1,
+              "pct": 12.5,
               "total": 8
             },
             "schedule": {
-              "filled": 3,
-              "pct": 100.0,
+              "filled": 2,
+              "pct": 66.7,
               "total": 3
             },
             "storage": {
@@ -1135,24 +2935,74 @@
               "total": 3
             }
           },
-          "tier": "moderate",
+          "tier": "thin",
           "total": 35
         },
         "event_count": 0,
         "identity_state": "linked",
-        "last_updated": "2026-05-05",
+        "last_updated": "2026-11-24",
         "monitoring_state": "registry-only",
-        "slug": "chameliya-hydropower",
+        "slug": "likhu-2",
         "status": "operating",
-        "title": "Chameliya Hydropower",
-        "wiki_url": "/wiki/explorer/?page=chameliya-hydropower"
+        "title": "Likhu -2",
+        "wiki_url": "/wiki/explorer/?page=likhu-2"
       },
       {
-        "active_blocker_count": 1,
-        "capacity_mw": 456.0,
+        "active_blocker_count": 0,
+        "capacity_mw": 60.0,
         "completeness": {
-          "filled": 11,
-          "pct": 31.4,
+          "filled": 8,
+          "pct": 22.9,
+          "sections": {
+            "engineering": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 3,
+              "pct": 75.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 3,
+              "pct": 37.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "khimti-i",
+        "status": "operating",
+        "title": "Khimti -I",
+        "wiki_url": "/wiki/explorer/?page=khimti-i"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 70.0,
+        "completeness": {
+          "filled": 8,
+          "pct": 22.9,
           "sections": {
             "engineering": {
               "filled": 2,
@@ -1160,8 +3010,108 @@
               "total": 12
             },
             "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
               "filled": 3,
-              "pct": 60.0,
+              "pct": 37.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "madhya-marsyangdi",
+        "status": "operating",
+        "title": "Madhya Marsyangdi",
+        "wiki_url": "/wiki/explorer/?page=madhya-marsyangdi"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 42.5,
+        "completeness": {
+          "filled": 8,
+          "pct": 22.9,
+          "sections": {
+            "engineering": {
+              "filled": 2,
+              "pct": 16.7,
+              "total": 12
+            },
+            "financial": {
+              "filled": 1,
+              "pct": 20.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 2,
+              "pct": 25.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "thin",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "sanjen",
+        "status": "operating",
+        "title": "Sanjen",
+        "wiki_url": "/wiki/explorer/?page=sanjen"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 69.0,
+        "completeness": {
+          "filled": 9,
+          "pct": 25.7,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
               "total": 5
             },
             "governance": {
@@ -1188,14 +3138,864 @@
           "tier": "moderate",
           "total": 35
         },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "marsyangdi",
+        "status": "operating",
+        "title": "Marsyangdi",
+        "wiki_url": "/wiki/explorer/?page=marsyangdi"
+      },
+      {
+        "active_blocker_count": 1,
+        "capacity_mw": 6720.0,
+        "completeness": {
+          "filled": 9,
+          "pct": 25.7,
+          "sections": {
+            "engineering": {
+              "filled": 5,
+              "pct": 41.7,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 2,
+              "pct": 25.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 1,
+              "pct": 33.3,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 1,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "monitored",
+        "slug": "pancheshwar",
+        "status": "stalled",
+        "title": "Pancheshwar Multipurpose Project",
+        "wiki_url": "/wiki/explorer/?page=pancheshwar"
+      },
+      {
+        "active_blocker_count": 1,
+        "capacity_mw": 900.0,
+        "completeness": {
+          "filled": 10,
+          "pct": 28.6,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 4,
+              "pct": 100.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 3,
+              "pct": 37.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 1,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "monitored",
+        "slug": "arun-3",
+        "status": "under-construction",
+        "title": "Arun 3",
+        "wiki_url": "/wiki/explorer/?page=arun-3"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 60.0,
+        "completeness": {
+          "filled": 10,
+          "pct": 28.6,
+          "sections": {
+            "engineering": {
+              "filled": 4,
+              "pct": 33.3,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 3,
+              "pct": 37.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-trishuli-3a",
+        "status": "operating",
+        "title": "Upper Trishuli 3A",
+        "wiki_url": "/wiki/explorer/?page=upper-trishuli-3a"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 199.8,
+        "completeness": {
+          "filled": 11,
+          "pct": 31.4,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "madi",
+        "status": "survey",
+        "title": "Madi",
+        "wiki_url": "/wiki/explorer/?page=madi"
+      },
+      {
+        "active_blocker_count": 2,
+        "capacity_mw": 140.0,
+        "completeness": {
+          "filled": 11,
+          "pct": 31.4,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 2,
+              "pct": 50.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 3,
+              "pct": 37.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 1,
+              "pct": 33.3,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
         "event_count": 2,
         "identity_state": "linked",
-        "last_updated": "2026-07-10",
+        "last_updated": "2026-11-24",
         "monitoring_state": "monitored",
-        "slug": "upper-tamakoshi",
+        "slug": "tanahu-hydropower",
+        "status": "under-construction",
+        "title": "Tanahu Hydropower Project",
+        "wiki_url": "/wiki/explorer/?page=tanahu-hydropower"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 30.0,
+        "completeness": {
+          "filled": 12,
+          "pct": 34.3,
+          "sections": {
+            "engineering": {
+              "filled": 2,
+              "pct": 16.7,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 2,
+              "pct": 50.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 3,
+              "pct": 37.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 3,
+              "pct": 100.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "chameliya-hydropower",
         "status": "operating",
-        "title": "Upper Tamakoshi",
-        "wiki_url": "/wiki/explorer/?page=upper-tamakoshi"
+        "title": "Chameliya Hydropower",
+        "wiki_url": "/wiki/explorer/?page=chameliya-hydropower"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 144.0,
+        "completeness": {
+          "filled": 12,
+          "pct": 34.3,
+          "sections": {
+            "engineering": {
+              "filled": 4,
+              "pct": 33.3,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 2,
+              "pct": 50.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 2,
+              "pct": 25.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "kali-gandaki-a",
+        "status": "operating",
+        "title": "Kali Gandaki A",
+        "wiki_url": "/wiki/explorer/?page=kali-gandaki-a"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 48.8,
+        "completeness": {
+          "filled": 12,
+          "pct": 34.3,
+          "sections": {
+            "engineering": {
+              "filled": 6,
+              "pct": 50.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 3,
+              "pct": 60.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 2,
+              "pct": 50.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 1,
+              "pct": 12.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "khimti-ii",
+        "status": "under-construction",
+        "title": "Khimti II",
+        "wiki_url": "/wiki/explorer/?page=khimti-ii"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 111.0,
+        "completeness": {
+          "filled": 12,
+          "pct": 34.3,
+          "sections": {
+            "engineering": {
+              "filled": 6,
+              "pct": 50.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 4,
+              "pct": 50.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 1,
+              "pct": 33.3,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "rasuwagadhi",
+        "status": "unknown",
+        "title": "Rasuwagadhi",
+        "wiki_url": "/wiki/explorer/?page=rasuwagadhi"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 180.0,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "andhi-khola",
+        "status": "survey",
+        "title": "Andhi Khola",
+        "wiki_url": "/wiki/explorer/?page=andhi-khola"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 148.7,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "chera-1",
+        "status": "survey",
+        "title": "Chera-1",
+        "wiki_url": "/wiki/explorer/?page=chera-1"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 111.5,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "kokhajor-1",
+        "status": "survey",
+        "title": "Kokhajor-1",
+        "wiki_url": "/wiki/explorer/?page=kokhajor-1"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 380.3,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "lower-badigad",
+        "status": "survey",
+        "title": "Lower Badigad",
+        "wiki_url": "/wiki/explorer/?page=lower-badigad"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 142.5,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "lower-jhimruk",
+        "status": "survey",
+        "title": "Lower Jhimruk",
+        "wiki_url": "/wiki/explorer/?page=lower-jhimruk"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 410.0,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "nalsyau-gad",
+        "status": "survey",
+        "title": "Nalsyau Gad",
+        "wiki_url": "/wiki/explorer/?page=nalsyau-gad"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 245.0,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "naumure-w-rapti",
+        "status": "survey",
+        "title": "Naumure (W. Rapti)",
+        "wiki_url": "/wiki/explorer/?page=naumure-w-rapti"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 40.0,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 6,
+              "pct": 50.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 2,
+              "pct": 50.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 1,
+              "pct": 12.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "rahughat",
+        "status": "under-construction",
+        "title": "Rahughat",
+        "wiki_url": "/wiki/explorer/?page=rahughat"
       },
       {
         "active_blocker_count": 0,
@@ -1248,15 +4048,115 @@
         "wiki_url": "/wiki/explorer/?page=sahas-urja"
       },
       {
-        "active_blocker_count": 2,
-        "capacity_mw": 1902.0,
+        "active_blocker_count": 0,
+        "capacity_mw": 536.0,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 3,
+              "pct": 25.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 2,
+              "pct": 40.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "sun-koshi-no-3",
+        "status": "survey",
+        "title": "Sun Koshi No.3",
+        "wiki_url": "/wiki/explorer/?page=sun-koshi-no-3"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 37.0,
+        "completeness": {
+          "filled": 13,
+          "pct": 37.1,
+          "sections": {
+            "engineering": {
+              "filled": 8,
+              "pct": 66.7,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 2,
+              "pct": 25.0,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-trishuli-3b",
+        "status": "under-construction",
+        "title": "Upper Trishuli 3B",
+        "wiki_url": "/wiki/explorer/?page=upper-trishuli-3b"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 99.8,
         "completeness": {
           "filled": 15,
           "pct": 42.9,
           "sections": {
             "engineering": {
-              "filled": 6,
-              "pct": 50.0,
+              "filled": 7,
+              "pct": 58.3,
               "total": 12
             },
             "financial": {
@@ -1275,6 +4175,106 @@
               "total": 8
             },
             "schedule": {
+              "filled": 1,
+              "pct": 33.3,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "tamakoshi-v",
+        "status": "under-construction",
+        "title": "Tamakoshi V",
+        "wiki_url": "/wiki/explorer/?page=tamakoshi-v"
+      },
+      {
+        "active_blocker_count": 2,
+        "capacity_mw": 670.0,
+        "completeness": {
+          "filled": 16,
+          "pct": 45.7,
+          "sections": {
+            "engineering": {
+              "filled": 5,
+              "pct": 41.7,
+              "total": 12
+            },
+            "financial": {
+              "filled": 3,
+              "pct": 60.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 2,
+              "pct": 50.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 5,
+              "pct": 62.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            },
+            "storage": {
+              "filled": 1,
+              "pct": 33.3,
+              "total": 3
+            }
+          },
+          "tier": "moderate",
+          "total": 35
+        },
+        "event_count": 2,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "monitored",
+        "slug": "dudhkoshi-storage",
+        "status": "pre-construction",
+        "title": "Dudhkoshi Storage Hydroelectric Project",
+        "wiki_url": "/wiki/explorer/?page=dudhkoshi-storage"
+      },
+      {
+        "active_blocker_count": 2,
+        "capacity_mw": 1902.0,
+        "completeness": {
+          "filled": 17,
+          "pct": 48.6,
+          "sections": {
+            "engineering": {
+              "filled": 6,
+              "pct": 50.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 1,
+              "pct": 20.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 2,
+              "pct": 50.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 6,
+              "pct": 75.0,
+              "total": 8
+            },
+            "schedule": {
               "filled": 0,
               "pct": 0.0,
               "total": 3
@@ -1290,32 +4290,132 @@
         },
         "event_count": 1,
         "identity_state": "linked",
-        "last_updated": "2026-07-10",
+        "last_updated": "2026-11-24",
         "monitoring_state": "monitored",
         "slug": "mugu-karnali-storage",
         "status": "pre-construction",
         "title": "Mugu Karnali Storage HEP",
         "wiki_url": "/wiki/explorer/?page=mugu-karnali-storage"
+      },
+      {
+        "active_blocker_count": 0,
+        "capacity_mw": 1063.36,
+        "completeness": {
+          "filled": 18,
+          "pct": 51.4,
+          "sections": {
+            "engineering": {
+              "filled": 9,
+              "pct": 75.0,
+              "total": 12
+            },
+            "financial": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 2,
+              "pct": 50.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 5,
+              "pct": 62.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "rich",
+          "total": 35
+        },
+        "event_count": 0,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "registry-only",
+        "slug": "upper-arun",
+        "status": "pre-construction",
+        "title": "Upper Arun Hydroelectric Project",
+        "wiki_url": "/wiki/explorer/?page=upper-arun"
+      },
+      {
+        "active_blocker_count": 1,
+        "capacity_mw": 456.0,
+        "completeness": {
+          "filled": 19,
+          "pct": 54.3,
+          "sections": {
+            "engineering": {
+              "filled": 10,
+              "pct": 83.3,
+              "total": 12
+            },
+            "financial": {
+              "filled": 3,
+              "pct": 60.0,
+              "total": 5
+            },
+            "governance": {
+              "filled": 1,
+              "pct": 25.0,
+              "total": 4
+            },
+            "output": {
+              "filled": 3,
+              "pct": 37.5,
+              "total": 8
+            },
+            "schedule": {
+              "filled": 2,
+              "pct": 66.7,
+              "total": 3
+            },
+            "storage": {
+              "filled": 0,
+              "pct": 0.0,
+              "total": 3
+            }
+          },
+          "tier": "rich",
+          "total": 35
+        },
+        "event_count": 2,
+        "identity_state": "linked",
+        "last_updated": "2026-11-24",
+        "monitoring_state": "monitored",
+        "slug": "upper-tamakoshi",
+        "status": "operating",
+        "title": "Upper Tamakoshi",
+        "wiki_url": "/wiki/explorer/?page=upper-tamakoshi"
       }
     ]
   },
-  "data_as_of": "2026-11-04",
+  "data_as_of": "2026-11-24",
   "inputs": [
     {
       "path": "wiki/explorer/shared/wiki-page-meta.json",
-      "sha256": "f7908d8f8876864d78207411d4de2fa6a23fa7ed604e83883e4542bb35b34574"
+      "sha256": "af680f4c1a906a1e6be535fb8786a45a5cc9b919ea941888787865e48764e0e9"
     },
     {
       "path": "wiki/explorer/shared/wiki-backlinks.json",
-      "sha256": "98407583b79711255f6f2db6c610fd92590e243bbe30682b0b36b272535e4a61"
+      "sha256": "2d2902b95db9af55e2b927990c06adf5c4e4c7413e6278337d3a462ee941fc76"
     },
     {
       "path": "wiki/explorer/shared/wiki-fact-index.json",
-      "sha256": "1dd60a0029d75150a9c16b7c35b691f8d4df15da2f62ef8b9ecfc4ac37d4771a"
+      "sha256": "cfcd88455ea9f2f08e331220c837024487f72777d7bdee85692b4dc77bde64a3"
     },
     {
       "path": "data/project_specs.csv",
-      "sha256": "fa33c03002dae6976ecc6f5b6719859c6f9787be83a36554d861aa188e9f2e2c"
+      "sha256": "94c2ffcfe6447c2b9fe88e10b02a49ac5e3dbf072ec3d9e1ec0be828807f4c97"
     },
     {
       "path": "data/project_events.csv",
@@ -1327,7 +4427,7 @@
     },
     {
       "path": "data/corridor_specs.csv",
-      "sha256": "1e99b2239e86438de3077d1846f9bbb16fd6d19a978ae5d18bfcb6aa8674377f"
+      "sha256": "96f4b6f19bb43ecb8e5bc39cf124132ee569fe7a4442c2f09d9107a9b0f18fa8"
     },
     {
       "path": "data/processed/tables/doed_project_status_overlay_summary.json",
@@ -1408,7 +4508,7 @@
           "https://sjvn.nic.in/en/arun-iii-hep",
           "https://sjvn.nic.in/en/press-release?items_per_page=25"
         ],
-        "last_verified": "2026-07-10",
+        "last_verified": "2026-11-24",
         "latest_event": {
           "confidence": "high",
           "description": "SJVN recorded a management review of Arun-3; the event confirms active construction but does not by itself establish a comparable physical-progress percentage.",
@@ -1426,8 +4526,8 @@
         "river": "Arun",
         "slug": "arun-3",
         "spec_completeness": {
-          "filled": 9,
-          "pct": 25.7,
+          "filled": 10,
+          "pct": 28.6,
           "sections": {
             "engineering": {
               "filled": 3,
@@ -1445,8 +4545,8 @@
               "total": 4
             },
             "output": {
-              "filled": 2,
-              "pct": 25.0,
+              "filled": 3,
+              "pct": 37.5,
               "total": 8
             },
             "schedule": {
@@ -1471,6 +4571,46 @@
         },
         "title": "Arun 3",
         "wiki_url": "/wiki/explorer/?page=arun-3"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "low",
+            "contractor": null,
+            "corridor_name": "Bheri Corridor 400 kV Transmission Line",
+            "country": "Nepal",
+            "dependency": "Uttarganga 400/132 kV 200 MVA hub at Bafikot (land acquired, July 2020); Uttarganga and Sani Bheri generation",
+            "financing": "Government of Nepal",
+            "length_km": "25",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "bheri-bafikot-nalsingadh",
+            "segment_name": "Bafikot-Nalsingadh",
+            "slug": "bheri-corridor-400kv",
+            "source_title": "NEA Transmission Annual Book 2077 (FY 2019/20), Transmission Directorate, 'Bheri Corridor 400 kV Transmission Line', printed p.65 (PDF p.67); length stated as 'about 25 km' double circuit",
+            "source_url": "https://www.nea.org.np/admin/assets/uploads/annual_publications/Transmission_2020.pdf",
+            "status": "survey",
+            "status_as_of": "2020-07-15",
+            "voltage_kv": "400"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://www.nea.org.np/admin/assets/uploads/annual_publications/Transmission_2020.pdf"
+        ],
+        "last_verified": "2020-07-15",
+        "latest_event": null,
+        "river": null,
+        "slug": "bheri-corridor-400kv",
+        "spec_completeness": null,
+        "status": "survey",
+        "status_dimensions": {
+          "delivery": "survey"
+        },
+        "title": "Bheri Corridor 400 kV Transmission Line",
+        "wiki_url": "/wiki/explorer/?page=bheri-corridor-400kv"
       },
       {
         "active_blocker_count": 2,
@@ -1526,7 +4666,7 @@
           "https://bgjcl.com/",
           "https://bgjcl.com/pages/notices"
         ],
-        "last_verified": "2026-07-10",
+        "last_verified": "2026-11-24",
         "latest_event": {
           "confidence": "high",
           "description": "BGJCL published a current letter-of-intent notice, demonstrating active procurement activity without establishing construction commencement.",
@@ -1544,8 +4684,8 @@
         "river": "Budhi Gandaki",
         "slug": "budhigandaki",
         "spec_completeness": {
-          "filled": 6,
-          "pct": 17.1,
+          "filled": 7,
+          "pct": 20.0,
           "sections": {
             "engineering": {
               "filled": 2,
@@ -1563,8 +4703,8 @@
               "total": 4
             },
             "output": {
-              "filled": 2,
-              "pct": 25.0,
+              "filled": 3,
+              "pct": 37.5,
               "total": 8
             },
             "schedule": {
@@ -1589,6 +4729,341 @@
         },
         "title": "Budhigandaki Hydroelectric Project",
         "wiki_url": "/wiki/explorer/?page=budhigandaki"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Chameliya-Syaule-Attariya 132 kV Line",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "131",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "ca-chameliya-attariya",
+            "segment_name": "Chameliya-Syaule-Attaria",
+            "slug": "chameliya-attariya-132",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Chameliya- Syaule- Attaria', printed p.197 (PDF p.207); length_km = 262 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "chameliya-attariya-132",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Chameliya-Syaule-Attariya 132 kV Line",
+        "wiki_url": "/wiki/explorer/?page=chameliya-attariya-132"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "medium",
+            "contractor": null,
+            "corridor_name": "Chameliya-Jauljibi 220 kV Cross-Border Interconnection",
+            "country": "Nepal-India",
+            "dependency": "NEA plans 'commencing' the line (NEA FY2025/26 printed p.7)",
+            "financing": null,
+            "length_km": "32",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "cj-chameliya-jauljibi",
+            "segment_name": "Chameliya-Jauljibi (NEA planned-line entry)",
+            "slug": "chameliya-jauljibi-interconnection",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Planned and Proposed High Voltage Transmission Lines, item 'Chameliya-Jauljibi', printed p.202 (PDF p.212); length_km = 64 circuit-km / 2 (double circuit); status per outlook text printed p.7 (PDF p.17); table does not state whether length is Nepal portion only",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "pre-construction",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "chameliya-jauljibi-interconnection",
+        "spec_completeness": null,
+        "status": "pre-construction",
+        "status_dimensions": {
+          "delivery": "pre-construction"
+        },
+        "title": "Chameliya–Jauljibi 220 kV Cross-Border Interconnection",
+        "wiki_url": "/wiki/explorer/?page=chameliya-jauljibi-interconnection"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Chilime-Trishuli 220 kV Transmission Line",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "36",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "ct-chilime-trishuli",
+            "segment_name": "Chilime Hub-Trishuli 3B Hub",
+            "slug": "chilime-trishuli-220kv-transmission-line",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Chilime-Trishuli', printed p.199 (PDF p.209); length_km = 72 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "chilime-trishuli-220kv-transmission-line",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Chilime-Trishuli 220 kV Transmission Line",
+        "wiki_url": "/wiki/explorer/?page=chilime-trishuli-220kv-transmission-line"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Damak-Godak-Phidim 132 kV Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "35",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "dgp-damak-godak",
+            "segment_name": "Damak-Godak",
+            "slug": "damak-godak-phidim-132kv",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Damak-Godak', printed p.197 (PDF p.207); length_km = 70 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Damak-Godak-Phidim 132 kV Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "56.565",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "dgp-godak-phidim-amarpur",
+            "segment_name": "Godak-Phidim-Amarpur (Kabeli II & III)",
+            "slug": "damak-godak-phidim-132kv",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Godak- Phidim-Amarpur (Kabeli II & III)', printed p.198 (PDF p.208); length_km = 113.13 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "damak-godak-phidim-132kv",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Damak–Godak–Phidim 132 kV Corridor",
+        "wiki_url": "/wiki/explorer/?page=damak-godak-phidim-132kv"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Dana-Kushma-New Butwal 220 kV Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "39.8",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "dkb-dana-kushma",
+            "segment_name": "Dana-Kushma",
+            "slug": "dana-kushma-butwal-corridor",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Dana-Kushma', printed p.198 (PDF p.208); length_km = 79.6 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Dana-Kushma-New Butwal 220 kV Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "88",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "dkb-kushma-new-butwal",
+            "segment_name": "Kushma-New Butwal",
+            "slug": "dana-kushma-butwal-corridor",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Kushma-New Butwal', printed p.199 (PDF p.209); length_km = 176 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "dana-kushma-butwal-corridor",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Dana–Kushma–New Butwal 220 kV Corridor",
+        "wiki_url": "/wiki/explorer/?page=dana-kushma-butwal-corridor"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Dhalkebar-Muzaffarpur 400 kV Cross-Border Interconnection",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "39",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "dm-nepal",
+            "segment_name": "Dhalkebar-Nepal/India border",
+            "slug": "dhalkebar-muzaffarpur",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Dhalkebar-Muzzaffarpur (Nepal Portion)', printed p.199 (PDF p.209); length_km = 78 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "400"
+          },
+          {
+            "confidence": "medium",
+            "contractor": null,
+            "corridor_name": "Dhalkebar-Muzaffarpur 400 kV Cross-Border Interconnection",
+            "country": "India",
+            "dependency": null,
+            "financing": null,
+            "length_km": null,
+            "owner": null,
+            "segment_id": "dm-india",
+            "segment_name": "Nepal/India border-Muzaffarpur",
+            "slug": "dhalkebar-muzaffarpur",
+            "source_title": "PIB (Government of India) Lok Sabha reply, 2 Apr 2026 - Nepal-India cross-border interconnections (status)",
+            "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3",
+            "status": "operating",
+            "status_as_of": "2026-04-02",
+            "voltage_kv": "400"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+          "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2248339&lang=1&reg=3"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "dhalkebar-muzaffarpur",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Dhalkebar–Muzaffarpur 400 kV Cross-Border Interconnection",
+        "wiki_url": "/wiki/explorer/?page=dhalkebar-muzaffarpur"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Dhungesanghu-Basantapur 220/132 kV Corridor",
+            "country": "Nepal",
+            "dependency": "Dhungesanghu 220/132 kV transformation (7x66.67 MVA bank under construction, expected 2027/28)",
+            "financing": null,
+            "length_km": "35",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "db-basantapur-dhungesanghu",
+            "segment_name": "Basantapur-Dhungesanghu",
+            "slug": "dhungesangu-basantapur-220-132kv",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Koshi Corridor (Basantapur-Dhungesanghu)', printed p.199 (PDF p.209); length_km = 70 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "dhungesangu-basantapur-220-132kv",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Dhungesanghu–Basantapur 220/132 kV Corridor",
+        "wiki_url": "/wiki/explorer/?page=dhungesangu-basantapur-220-132kv"
       },
       {
         "active_blocker_count": 2,
@@ -1658,7 +5133,7 @@
           "https://dkjvcl.org.np/wp-content/uploads/2026/02/20260202-Teaser-for-Market-Sounding-Final-2.pdf",
           "https://www.aiib.org/en/projects/details/2026/proposed/nepal-dudhkoshi-storage-hydroelectric-project.html"
         ],
-        "last_verified": "2026-07-10",
+        "last_verified": "2026-11-24",
         "latest_event": {
           "confidence": "high",
           "description": "AIIB listed Dudhkoshi as proposed, Category A, with USD 200 million of proposed sovereign financing and ADB as lead co-financier.",
@@ -1676,17 +5151,17 @@
         "river": "Dudh Koshi",
         "slug": "dudhkoshi-storage",
         "spec_completeness": {
-          "filled": 10,
-          "pct": 28.6,
+          "filled": 16,
+          "pct": 45.7,
           "sections": {
             "engineering": {
-              "filled": 2,
-              "pct": 16.7,
+              "filled": 5,
+              "pct": 41.7,
               "total": 12
             },
             "financial": {
-              "filled": 1,
-              "pct": 20.0,
+              "filled": 3,
+              "pct": 60.0,
               "total": 5
             },
             "governance": {
@@ -1695,8 +5170,8 @@
               "total": 4
             },
             "output": {
-              "filled": 4,
-              "pct": 50.0,
+              "filled": 5,
+              "pct": 62.5,
               "total": 8
             },
             "schedule": {
@@ -1841,6 +5316,64 @@
         "wiki_url": "/wiki/explorer/?page=gorakhpur-butwal-interconnection"
       },
       {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Hetauda-Bharatpur-Bardaghat 220 kV Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "71.7",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "hbb-new-hetauda-new-bharatpur",
+            "segment_name": "New Hetauda-New Bharatpur",
+            "slug": "hetauda-bharatpur-bardaghat-corridor",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'New Bharatpur-New Hetauda', printed p.199 (PDF p.209); length_km = 143.4 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Hetauda-Bharatpur-Bardaghat 220 kV Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "74",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "hbb-bharatpur-bardaghat",
+            "segment_name": "Bharatpur-Bardaghat",
+            "slug": "hetauda-bharatpur-bardaghat-corridor",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Bharatpur-Bardghat', printed p.199 (PDF p.209); length_km = 148 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "hetauda-bharatpur-bardaghat-corridor",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Hetauda–Bharatpur–Bardaghat 220 kV Corridor",
+        "wiki_url": "/wiki/explorer/?page=hetauda-bharatpur-bardaghat-corridor"
+      },
+      {
         "active_blocker_count": 1,
         "blockers": [
           {
@@ -1885,12 +5418,12 @@
             "country": "Nepal",
             "dependency": "Hetauda-Dhalkebar completion for a continuous full backbone",
             "financing": "World Bank / ADB / KfW segment financing",
-            "length_km": null,
+            "length_km": "153",
             "owner": "Nepal Electricity Authority",
             "segment_id": "hddi-dhalkebar-inaruwa",
             "segment_name": "Dhalkebar-Inaruwa",
             "slug": "hetauda-dhalkebar-inaruwa-backbone",
-            "source_title": "NEA Annual Report FY 2024/25",
+            "source_title": "NEA Annual Report FY 2024/25 (existing-line table: Dhalkebar-Inaruwa 306 circuit-km double circuit, PDF p.170; length_km = 306/2)",
             "source_url": "https://nea.org.np/admin/assets/uploads/annual_publications/Annual_Report_2024_25.pdf",
             "status": "operating",
             "status_as_of": "2024-06-01",
@@ -1943,6 +5476,452 @@
         },
         "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone",
         "wiki_url": "/wiki/explorer/?page=hetauda-dhalkebar-inaruwa-backbone"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "medium",
+            "contractor": null,
+            "corridor_name": "Inaruwa-Purnea 400 kV Cross-Border Interconnection",
+            "country": "Nepal-India",
+            "dependency": "Arun-3 evacuation; cross-border study 'will be continued' (NEA FY2025/26 printed p.7)",
+            "financing": null,
+            "length_km": "25",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "ip-inaruwa-purnia",
+            "segment_name": "Inaruwa-Purnia (NEA planned-line entry)",
+            "slug": "inaruwa-purnea-interconnection",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Planned and Proposed High Voltage Transmission Lines, item 'Inaruwa - Purnia', printed p.202 (PDF p.212); length_km = 50 circuit-km / 2 (double circuit); status per outlook text printed p.7 (PDF p.17); table does not state whether length is Nepal portion only",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "survey",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "400"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "inaruwa-purnea-interconnection",
+        "spec_completeness": null,
+        "status": "survey",
+        "status_dimensions": {
+          "delivery": "survey"
+        },
+        "title": "Inaruwa–Purnea 400 kV Cross-Border Interconnection",
+        "wiki_url": "/wiki/explorer/?page=inaruwa-purnea-interconnection"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "8",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "kab-godak-soyak",
+            "segment_name": "Godak-Soyak",
+            "slug": "kabeli-132",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Under Construction High Voltage Transmission Lines, item 'Godak Soyak (TD, expected 2026/27)', printed p.200 (PDF p.210); length_km = 16 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "under-construction",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "20",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "kab-amarpur-dhungesanghu",
+            "segment_name": "Kabeli (Amarpur)-Dhungesanghu",
+            "slug": "kabeli-132",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Under Construction High Voltage Transmission Lines, item 'Kabeli (Amarpur) Dhungesangu (TD, expected 2026/27)', printed p.200 (PDF p.210); length_km = 40 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "under-construction",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "kabeli-132",
+        "spec_completeness": null,
+        "status": "under-construction",
+        "status_dimensions": {
+          "delivery": "under-construction"
+        },
+        "title": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
+        "wiki_url": "/wiki/explorer/?page=kabeli-132"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Kataiya-Kushaha 132 kV Cross-Border Interconnection",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "15",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "kk-single-circuit-nepal",
+            "segment_name": "Kushaha-Kataiya single circuit (Nepal portion)",
+            "slug": "kataiya-kushaha-interconnection",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Kushaha (Nepal)-Kataiya(India)', printed p.197 (PDF p.207); length_km = 15 circuit-km / 1 (single circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Kataiya-Kushaha 132 kV Cross-Border Interconnection",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "13",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "kk-double-circuit-nepal",
+            "segment_name": "Kusaha-Kataiya double circuit (Nepal portion)",
+            "slug": "kataiya-kushaha-interconnection",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Kusaha-Kataiya (Cross Border-Nepal Portion)', printed p.198 (PDF p.208); length_km = 26 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "kataiya-kushaha-interconnection",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Kataiya–Kushaha 132 kV Cross-Border Interconnection",
+        "wiki_url": "/wiki/explorer/?page=kataiya-kushaha-interconnection"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Khimti-Dhalkebar 220 kV Hydropower Corridor",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "75",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "kd-khimti-dhalkebar",
+            "segment_name": "Khimti-Dhalkebar",
+            "slug": "khimti-dhalkebar-corridor",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Khimti- Dhalkebar', printed p.198 (PDF p.208); length_km = 150 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "khimti-dhalkebar-corridor",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Khimti–Dhalkebar 220 kV Hydropower Corridor",
+        "wiki_url": "/wiki/explorer/?page=khimti-dhalkebar-corridor"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": "Government of Nepal and NEA",
+            "length_km": "52",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "ksd-kohalpur-surkhet",
+            "segment_name": "Kohalpur-Surkhet",
+            "slug": "kohalpur-surkhet-dailekh-132",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Kohalpur-Surkhet', printed p.198 (PDF p.208); length_km = 104 circuit-km / 2 (double circuit); charged and commissioned 1 Feb 2026 per project narrative printed p.28 (PDF p.38)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
+            "country": "Nepal",
+            "dependency": "Dailekh 132/33/11 kV substation; 44 of 101 tower foundations done (July 2026)",
+            "financing": "Government of Nepal and NEA",
+            "length_km": "32",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "ksd-surkhet-dailekh",
+            "segment_name": "Surkhet-Dailekh",
+            "slug": "kohalpur-surkhet-dailekh-132",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Under Construction High Voltage Transmission Lines, item 'Surkhet-Dailekh (TD, expected 2026/27)', printed p.200 (PDF p.210); length_km = 64 circuit-km / 2 (double circuit); progress per project narrative printed p.28 (PDF p.38)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "under-construction",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "kohalpur-surkhet-dailekh-132",
+        "spec_completeness": null,
+        "status": "partially-operational",
+        "status_dimensions": {
+          "delivery": "partially-operational"
+        },
+        "title": "Kohalpur-Surkhet-Dailekh 132 kV Grid Reach",
+        "wiki_url": "/wiki/explorer/?page=kohalpur-surkhet-dailekh-132"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
+            "country": "Nepal",
+            "dependency": "Dharapani and Khudi substations (under construction)",
+            "financing": null,
+            "length_km": "28",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "mu-dharapani-khudi",
+            "segment_name": "Dharapani-Khudi",
+            "slug": "marsyangdi-upper-220",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Under Construction High Voltage Transmission Lines, item 'Dharapani - Khudi TL (PMD, expected 2027/28)', printed p.201 (PDF p.211); length_km = 56 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "under-construction",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
+            "country": "Nepal",
+            "dependency": "Khudi 220/132 kV substation (under construction)",
+            "financing": null,
+            "length_km": "18",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "mu-khudi-udipur",
+            "segment_name": "Khudi-Udipur",
+            "slug": "marsyangdi-upper-220",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Under Construction High Voltage Transmission Lines, item 'Khudi - Udipur TL (PMD, expected 2027/28)', printed p.201 (PDF p.211); length_km = 36 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "under-construction",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "marsyangdi-upper-220",
+        "spec_completeness": null,
+        "status": "under-construction",
+        "status_dimensions": {
+          "delivery": "under-construction"
+        },
+        "title": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
+        "wiki_url": "/wiki/explorer/?page=marsyangdi-upper-220"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "medium",
+            "contractor": null,
+            "corridor_name": "MCA Central 400 kV Corridor (Lapsiphedi-Ratmate-Hetauda-Damauli-Butwal)",
+            "country": "Nepal",
+            "dependency": "Lapsiphedi and Ratmate 400 kV substations",
+            "financing": "US MCC grant + Government of Nepal",
+            "length_km": "57.83",
+            "owner": "Nepal Electricity Authority (implemented by MCA-Nepal)",
+            "segment_id": "mca-lapsiphedi-ratmate",
+            "segment_name": "Lapsiphedi-Ratmate",
+            "slug": "mca-central-400",
+            "source_title": "MCA-Nepal EIA Annex D-1 Alignment Maps (segment route length, as recorded in transmission_corridor_traced_segments.geojson); status per transmission_corridor_dossiers.csv mca_central_400 and wiki mca-central-400 (updated 2026-05-11)",
+            "source_url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FEIAReports%2FAnnexD_1_Alignment-Maps.pdf&section=EIAReports&guid=90d56f40-0b72-4cb0-9e2b-fa8eeaba72d3",
+            "status": "under-construction",
+            "status_as_of": "2026-05-11",
+            "voltage_kv": "400"
+          },
+          {
+            "confidence": "medium",
+            "contractor": null,
+            "corridor_name": "MCA Central 400 kV Corridor (Lapsiphedi-Ratmate-Hetauda-Damauli-Butwal)",
+            "country": "Nepal",
+            "dependency": "Ratmate 400 kV substation; New Hetauda 400/220 kV interface",
+            "financing": "US MCC grant + Government of Nepal",
+            "length_km": "55.59",
+            "owner": "Nepal Electricity Authority (implemented by MCA-Nepal)",
+            "segment_id": "mca-ratmate-new-hetauda",
+            "segment_name": "Ratmate-New Hetauda",
+            "slug": "mca-central-400",
+            "source_title": "MCA-Nepal EIA Annex D-1 Alignment Maps (segment route length, as recorded in transmission_corridor_traced_segments.geojson); status per transmission_corridor_dossiers.csv mca_central_400 and wiki mca-central-400 (updated 2026-05-11)",
+            "source_url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FEIAReports%2FAnnexD_1_Alignment-Maps.pdf&section=EIAReports&guid=90d56f40-0b72-4cb0-9e2b-fa8eeaba72d3",
+            "status": "under-construction",
+            "status_as_of": "2026-05-11",
+            "voltage_kv": "400"
+          },
+          {
+            "confidence": "medium",
+            "contractor": null,
+            "corridor_name": "MCA Central 400 kV Corridor (Lapsiphedi-Ratmate-Hetauda-Damauli-Butwal)",
+            "country": "Nepal",
+            "dependency": "Ratmate and New Damauli 400 kV substations",
+            "financing": "US MCC grant + Government of Nepal",
+            "length_km": "88.23",
+            "owner": "Nepal Electricity Authority (implemented by MCA-Nepal)",
+            "segment_id": "mca-ratmate-new-damauli",
+            "segment_name": "Ratmate-New Damauli",
+            "slug": "mca-central-400",
+            "source_title": "MCA-Nepal EIA Annex D-1 Alignment Maps (segment route length, as recorded in transmission_corridor_traced_segments.geojson); status per transmission_corridor_dossiers.csv mca_central_400 and wiki mca-central-400 (updated 2026-05-11)",
+            "source_url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FEIAReports%2FAnnexD_1_Alignment-Maps.pdf&section=EIAReports&guid=90d56f40-0b72-4cb0-9e2b-fa8eeaba72d3",
+            "status": "under-construction",
+            "status_as_of": "2026-05-11",
+            "voltage_kv": "400"
+          },
+          {
+            "confidence": "medium",
+            "contractor": null,
+            "corridor_name": "MCA Central 400 kV Corridor (Lapsiphedi-Ratmate-Hetauda-Damauli-Butwal)",
+            "country": "Nepal",
+            "dependency": "New Damauli substation and New Butwal 400 kV extension",
+            "financing": "US MCC grant + Government of Nepal",
+            "length_km": "84",
+            "owner": "Nepal Electricity Authority (implemented by MCA-Nepal)",
+            "segment_id": "mca-new-damauli-new-butwal",
+            "segment_name": "New Damauli-New Butwal",
+            "slug": "mca-central-400",
+            "source_title": "MCA-Nepal EIA Annex D-1 Alignment Maps (segment route length, as recorded in transmission_corridor_traced_segments.geojson); status per transmission_corridor_dossiers.csv mca_central_400 and wiki mca-central-400 (updated 2026-05-11)",
+            "source_url": "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FEIAReports%2FAnnexD_1_Alignment-Maps.pdf&section=EIAReports&guid=90d56f40-0b72-4cb0-9e2b-fa8eeaba72d3",
+            "status": "under-construction",
+            "status_as_of": "2026-05-11",
+            "voltage_kv": "400"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://mcanp.org/Content/GetPdf?filePath=%2FMCANP%2FEIAReports%2FAnnexD_1_Alignment-Maps.pdf&section=EIAReports&guid=90d56f40-0b72-4cb0-9e2b-fa8eeaba72d3"
+        ],
+        "last_verified": "2026-05-11",
+        "latest_event": null,
+        "river": null,
+        "slug": "mca-central-400",
+        "spec_completeness": null,
+        "status": "under-construction",
+        "status_dimensions": {
+          "delivery": "under-construction"
+        },
+        "title": "MCA Central 400 kV Corridor (Lapsiphedi–Ratmate–Hetauda–Damauli–Butwal)",
+        "wiki_url": "/wiki/explorer/?page=mca-central-400"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "New Modi-Lekhnath 132 kV Transmission Line",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "42",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "ml-new-modi-lekhnath",
+            "segment_name": "New Modi-Lahachowk-Lekhnath",
+            "slug": "modi-lekhnath-132kv",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'New Modi -Lahachwok -Lekhnath', printed p.198 (PDF p.208); length_km = 84 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "modi-lekhnath-132kv",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "New Modi–Lekhnath 132 kV Transmission Line",
+        "wiki_url": "/wiki/explorer/?page=modi-lekhnath-132kv"
       },
       {
         "active_blocker_count": 2,
@@ -1998,7 +5977,7 @@
           "https://doed.gov.np/pages/appslhydromorethan1/",
           "https://www.vucl.org/projects/mugu-karnali-storage-hep"
         ],
-        "last_verified": "2026-07-10",
+        "last_verified": "2026-11-24",
         "latest_event": {
           "confidence": "high",
           "description": "DoED's current application register includes a separate 271.5 MW Mugu Karnali Re-regulating Dam Hydropower Project promoted by VUCL.",
@@ -2016,8 +5995,8 @@
         "river": "Karnali",
         "slug": "mugu-karnali-storage",
         "spec_completeness": {
-          "filled": 15,
-          "pct": 42.9,
+          "filled": 17,
+          "pct": 48.6,
           "sections": {
             "engineering": {
               "filled": 6,
@@ -2035,8 +6014,8 @@
               "total": 4
             },
             "output": {
-              "filled": 4,
-              "pct": 50.0,
+              "filled": 6,
+              "pct": 75.0,
               "total": 8
             },
             "schedule": {
@@ -2101,7 +6080,7 @@
         "evidence_urls": [
           "https://www.jalshakti-dowr.gov.in/offerings/schemes-and-services/details/pancheshwar-multipurpose-project-wMwETNtQWa"
         ],
-        "last_verified": "2026-07-10",
+        "last_verified": "2026-11-24",
         "latest_event": {
           "confidence": "high",
           "description": "India's Ministry of Jal Shakti records that WAPCOS submitted the draft final DPR in November 2016; a mutually acceptable final DPR remains unresolved.",
@@ -2119,12 +6098,12 @@
         "river": "Mahakali",
         "slug": "pancheshwar",
         "spec_completeness": {
-          "filled": 6,
-          "pct": 17.1,
+          "filled": 9,
+          "pct": 25.7,
           "sections": {
             "engineering": {
-              "filled": 2,
-              "pct": 16.7,
+              "filled": 5,
+              "pct": 41.7,
               "total": 12
             },
             "financial": {
@@ -2153,7 +6132,7 @@
               "total": 3
             }
           },
-          "tier": "thin",
+          "tier": "moderate",
           "total": 35
         },
         "status": "stalled",
@@ -2164,6 +6143,105 @@
         },
         "title": "Pancheshwar Multipurpose Project",
         "wiki_url": "/wiki/explorer/?page=pancheshwar"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "low",
+            "contractor": null,
+            "corridor_name": "Ratmate-Rasuwagadhi-Kerung 400 kV Transmission Line",
+            "country": "Nepal",
+            "dependency": "Ratmate 400 kV substation; converter station at Gyirong (Tibet)",
+            "financing": null,
+            "length_km": "70",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "rrk-ratmate-rasuwagadhi-400",
+            "segment_name": "Ratmate-Rasuwagadhi border (400 kV, 2020 scope)",
+            "slug": "ratmate-rasuwagadhi-kerung-400kv",
+            "source_title": "NEA Transmission Annual Book 2077 (FY 2019/20), Transmission Directorate, 'Ratmate-Rasuwagadhi-Kerung 400 kV Transmission Line', printed p.65 (PDF p.67); length stated as 'about 70 km' double circuit; detail survey as of July 2020",
+            "source_url": "https://www.nea.org.np/admin/assets/uploads/annual_publications/Transmission_2020.pdf",
+            "status": "survey",
+            "status_as_of": "2020-07-15",
+            "voltage_kv": "400"
+          },
+          {
+            "confidence": "medium",
+            "contractor": null,
+            "corridor_name": "Ratmate-Rasuwagadhi-Kerung 400 kV Transmission Line",
+            "country": "Nepal-China",
+            "dependency": "Chilime Hub 220 kV GIS line bays; feasibility study with CIDCA/PowerChina",
+            "financing": null,
+            "length_km": "26",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "rrk-chilime-kerung-220",
+            "segment_name": "Chilime-Kerung (220 kV, current NEA scope)",
+            "slug": "ratmate-rasuwagadhi-kerung-400kv",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Planned and Proposed High Voltage Transmission Lines, item 'Chilime-Kerung', printed p.202 (PDF p.212); length_km = 52 circuit-km / 2 (double circuit); NEA FY2025/26 printed p.40 (PDF p.50) describes the China-Nepal Power Grid Interconnection (Chilime-Rasuwagadhi-Kerung) as a 220 kV double-circuit line of over 22 km from Chilime to the Rasuwagadhi border",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "survey",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+          "https://www.nea.org.np/admin/assets/uploads/annual_publications/Transmission_2020.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "ratmate-rasuwagadhi-kerung-400kv",
+        "spec_completeness": null,
+        "status": "survey",
+        "status_dimensions": {
+          "delivery": "survey"
+        },
+        "title": "Ratmate–Rasuwagadhi–Kerung 400 kV Transmission Line",
+        "wiki_url": "/wiki/explorer/?page=ratmate-rasuwagadhi-kerung-400kv"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Solu Corridor Tingla-Mirchaiya 132 kV",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "90",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "solu-tingla-mirchaiya",
+            "segment_name": "Tingla-Mirchaiya",
+            "slug": "solu-tingla-mirchaiya-132",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Solu Corridor (Tingla-Mirchaiya)', printed p.198 (PDF p.208); length_km = 180 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "solu-tingla-mirchaiya-132",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Solu Corridor Tingla-Mirchaiya 132 kV",
+        "wiki_url": "/wiki/explorer/?page=solu-tingla-mirchaiya-132"
       },
       {
         "active_blocker_count": 2,
@@ -2232,7 +6310,7 @@
         "evidence_urls": [
           "https://www.adb.org/projects/43281-013/main"
         ],
-        "last_verified": "2026-07-10",
+        "last_verified": "2026-11-24",
         "latest_event": {
           "confidence": "high",
           "description": "ADB disclosed the ninth environmental and social Panel of Experts report for the active Tanahu project.",
@@ -2250,8 +6328,8 @@
         "river": "Seti",
         "slug": "tanahu-hydropower",
         "spec_completeness": {
-          "filled": 8,
-          "pct": 22.9,
+          "filled": 11,
+          "pct": 31.4,
           "sections": {
             "engineering": {
               "filled": 3,
@@ -2259,8 +6337,8 @@
               "total": 12
             },
             "financial": {
-              "filled": 0,
-              "pct": 0.0,
+              "filled": 2,
+              "pct": 40.0,
               "total": 5
             },
             "governance": {
@@ -2269,8 +6347,8 @@
               "total": 4
             },
             "output": {
-              "filled": 2,
-              "pct": 25.0,
+              "filled": 3,
+              "pct": 37.5,
               "total": 8
             },
             "schedule": {
@@ -2284,7 +6362,7 @@
               "total": 3
             }
           },
-          "tier": "thin",
+          "tier": "moderate",
           "total": 35
         },
         "status": "under-construction",
@@ -2295,6 +6373,64 @@
         },
         "title": "Tanahu Hydropower Project",
         "wiki_url": "/wiki/explorer/?page=tanahu-hydropower"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
+            "country": "Nepal",
+            "dependency": "Udipur 220/132 kV and Markichowk 220/132 kV substations",
+            "financing": null,
+            "length_km": "39",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "udb-udipur-markichowk",
+            "segment_name": "Udipur-Markichowk",
+            "slug": "udipur-damauli-bharatpur-220",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Under Construction High Voltage Transmission Lines, item 'Udipur - Markhichowk TL (PMD, expected 2026/27)', printed p.201 (PDF p.211); length_km = 78 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "under-construction",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "28",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "udb-markichowk-bharatpur",
+            "segment_name": "Markichowk-Bharatpur",
+            "slug": "udipur-damauli-bharatpur-220",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Markhichowk-Bharatpur', printed p.199 (PDF p.209); length_km = 56 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "220"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "udipur-damauli-bharatpur-220",
+        "spec_completeness": null,
+        "status": "partially-operational",
+        "status_dimensions": {
+          "delivery": "partially-operational"
+        },
+        "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
+        "wiki_url": "/wiki/explorer/?page=udipur-damauli-bharatpur-220"
       },
       {
         "active_blocker_count": 2,
@@ -2481,7 +6617,7 @@
           "https://utkhpl.org.np/",
           "https://utkhpl.org.np/annual-reports/"
         ],
-        "last_verified": "2026-07-10",
+        "last_verified": "2026-11-24",
         "latest_event": {
           "confidence": "high",
           "description": "UTKHPL published its third-quarter financial report, providing a current company disclosure for operating and financial monitoring.",
@@ -2499,12 +6635,12 @@
         "river": "Tama Koshi",
         "slug": "upper-tamakoshi",
         "spec_completeness": {
-          "filled": 11,
-          "pct": 31.4,
+          "filled": 19,
+          "pct": 54.3,
           "sections": {
             "engineering": {
-              "filled": 2,
-              "pct": 16.7,
+              "filled": 10,
+              "pct": 83.3,
               "total": 12
             },
             "financial": {
@@ -2533,7 +6669,7 @@
               "total": 3
             }
           },
-          "tier": "moderate",
+          "tier": "rich",
           "total": 35
         },
         "status": "operating",
@@ -2544,6 +6680,82 @@
         },
         "title": "Upper Tamakoshi",
         "wiki_url": "/wiki/explorer/?page=upper-tamakoshi"
+      },
+      {
+        "active_blocker_count": 0,
+        "blockers": [],
+        "capacity_mw": null,
+        "corridor_segments": [
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Western Nepal 132 kV Backbone",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "215",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "w132-butwal-kohalpur",
+            "segment_name": "Butwal-Shivapur-Lamahi-Kohalpur",
+            "slug": "western-132-backbone",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Butwal-Shivapur-Lamahi-Kohalpur', printed p.197 (PDF p.207); length_km = 430 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Western Nepal 132 kV Backbone",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "88.33",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "w132-kohalpur-lamki",
+            "segment_name": "Kohalpur-Bhurigaun-Lamki",
+            "slug": "western-132-backbone",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Kohalpur-Bhurigaun-Lumki', printed p.197 (PDF p.207); length_km = 176.66 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          },
+          {
+            "confidence": "high",
+            "contractor": null,
+            "corridor_name": "Western Nepal 132 kV Backbone",
+            "country": "Nepal",
+            "dependency": null,
+            "financing": null,
+            "length_km": "101.56",
+            "owner": "Nepal Electricity Authority",
+            "segment_id": "w132-lamki-mahendranagar",
+            "segment_name": "Lamki-Pahalwanpur-Attariya-Mahendranagar (Lalpur)",
+            "slug": "western-132-backbone",
+            "source_title": "NEA Annual Report FY 2025/26, Appendix 8 Existing High Voltage Transmission Lines, item 'Lamki-Pahalwanpur-Attariya-Mahendranagar (Lalpur)', printed p.197 (PDF p.207); length_km = 203.12 circuit-km / 2 (double circuit)",
+            "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
+            "status": "operating",
+            "status_as_of": "2026-07-16",
+            "voltage_kv": "132"
+          }
+        ],
+        "events": [],
+        "evidence_urls": [
+          "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf"
+        ],
+        "last_verified": "2026-07-16",
+        "latest_event": null,
+        "river": null,
+        "slug": "western-132-backbone",
+        "spec_completeness": null,
+        "status": "operating",
+        "status_dimensions": {
+          "delivery": "operating"
+        },
+        "title": "Western Nepal 132 kV Backbone",
+        "wiki_url": "/wiki/explorer/?page=western-132-backbone"
       }
     ]
   },
@@ -2592,7 +6804,7 @@
         "view": "sources"
       },
       {
-        "count": 18,
+        "count": 61,
         "id": "thin-specs",
         "severity": "medium",
         "title": "Curated specifications below moderate depth",
@@ -2610,34 +6822,34 @@
     },
     "corpus": {
       "generator_counts": {
-        "auto-stub": 70,
+        "auto-stub": 80,
         "figures": 1,
-        "manual": 80,
-        "none": 241,
+        "manual": 88,
+        "none": 256,
         "specs-refresh": 37
       },
       "quality_counts": {
         "analysis": 90,
         "brief": 177,
         "flagship": 11,
-        "record": 151
+        "record": 184
       },
-      "source_pages": 89,
+      "source_pages": 93,
       "sources_missing_date": 18,
       "sources_missing_url": 15,
-      "sources_with_date": 71,
+      "sources_with_date": 75,
       "sources_with_last_checked": 0,
-      "sources_with_url": 74,
+      "sources_with_url": 78,
       "sources_without_backlinks": 6,
-      "structured_facts": 666,
-      "total_pages": 429,
+      "structured_facts": 692,
+      "total_pages": 462,
       "type_counts": {
         "claim": 16,
         "concept": 46,
-        "data": 63,
+        "data": 74,
         "decision-dossier": 5,
-        "entity": 187,
-        "source": 89,
+        "entity": 205,
+        "source": 93,
         "synthesis": 23
       }
     },
@@ -2647,9 +6859,9 @@
         "monitoring": 1
       },
       "blockers": 16,
-      "corridor_segments": 4,
+      "corridor_segments": 40,
       "events": 14,
-      "projects": 10
+      "projects": 31
     },
     "registry": {
       "identity_review_rows": 16,
@@ -2665,11 +6877,12 @@
       "unmatched_local_rows": 27
     },
     "specifications": {
-      "average_completeness_pct": 20.5,
-      "projects": 25,
+      "average_completeness_pct": 18.2,
+      "projects": 87,
       "tier_counts": {
-        "moderate": 7,
-        "thin": 18
+        "moderate": 24,
+        "rich": 2,
+        "thin": 61
       }
     }
   },
@@ -5222,7 +9435,7 @@
         "source_url": "https://aepc.gov.np/",
         "title": "AEPC Renewable Framework and Progress Reports",
         "updated": "2026-05-11",
-        "used_by_count": 6,
+        "used_by_count": 7,
         "wiki_url": "/wiki/explorer/?page=aepc-renewable-framework"
       },
       {
@@ -5314,13 +9527,41 @@
         "has_source_date": true,
         "has_url": true,
         "last_checked": null,
+        "slug": "customs-foreign-trade-statistics-2080-83",
+        "source_date": "2026-07-23",
+        "source_href": "https://www.customs.gov.np/content/450/foreign-trade-statistics-came-208-83/",
+        "source_url": "https://www.customs.gov.np/content/450/foreign-trade-statistics-came-208-83/",
+        "title": "Department of Customs Foreign Trade Statistics, FY 2080/81–2082/83",
+        "updated": "2026-11-24",
+        "used_by_count": 1,
+        "wiki_url": "/wiki/explorer/?page=customs-foreign-trade-statistics-2080-83"
+      },
+      {
+        "has_last_checked": false,
+        "has_source_date": true,
+        "has_url": true,
+        "last_checked": null,
+        "slug": "doed-hydropower-registry",
+        "source_date": "2026-07-02",
+        "source_href": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
+        "title": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "updated": "2026-11-24",
+        "used_by_count": 50,
+        "wiki_url": "/wiki/explorer/?page=doed-hydropower-registry"
+      },
+      {
+        "has_last_checked": false,
+        "has_source_date": true,
+        "has_url": true,
+        "last_checked": null,
         "slug": "doed-licensing-directive-2075",
         "source_date": "2018-10-01",
         "source_href": "https://doed.gov.np/content/28/purmities-related-to-the-license-of-the/",
         "source_url": "https://doed.gov.np/content/28/purmities-related-to-the-license-of-the/",
         "title": "DoED Licensing Directive 2075 — Hydropower Project Licensing",
         "updated": "2026-05-12",
-        "used_by_count": 3,
+        "used_by_count": 6,
         "wiki_url": "/wiki/explorer/?page=doed-licensing-directive-2075"
       },
       {
@@ -5334,7 +9575,7 @@
         "source_url": "https://doed.gov.np/pages/powerplantssolar/",
         "title": "DoED Power Plants: Solar Table",
         "updated": "2026-05-12",
-        "used_by_count": 17,
+        "used_by_count": 18,
         "wiki_url": "/wiki/explorer/?page=doed-solar-power-plants-table"
       },
       {
@@ -5376,7 +9617,7 @@
         "source_url": "https://erc.gov.np/download-notice-file/Notices-202602151711173999.pdf",
         "title": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)",
         "updated": "2026-07-25",
-        "used_by_count": 5,
+        "used_by_count": 7,
         "wiki_url": "/wiki/explorer/?page=erc-eca-storage-ppa-discussion-paper-2025"
       },
       {
@@ -5390,7 +9631,7 @@
         "source_url": "https://www.fiscalnepal.com/nepal-electricity-regulatory-commission-issues-open-access-directive-for-transmission-and-distribution-system/",
         "title": "ERC Open Access Directive 2082",
         "updated": "2026-05-21",
-        "used_by_count": 2,
+        "used_by_count": 3,
         "wiki_url": "/wiki/explorer/?page=erc-open-access-directive-2082"
       },
       {
@@ -5404,7 +9645,7 @@
         "source_url": "https://www.erc.gov.np/erc-notice-file/Notices-202602151506433031.pdf",
         "title": "ERC Reservoir-Based Generating Station Electricity Purchase and Sale Directive 2082",
         "updated": "2026-07-25",
-        "used_by_count": 7,
+        "used_by_count": 9,
         "wiki_url": "/wiki/explorer/?page=erc-reservoir-ppa-directive-2082"
       },
       {
@@ -5566,6 +9807,20 @@
         "has_source_date": true,
         "has_url": true,
         "last_checked": null,
+        "slug": "indian-embassy-motihari-amlekhgunj-pipeline-2019",
+        "source_date": "2019-09-10",
+        "source_href": "https://indembkathmandu.gov.in/media-detail/298",
+        "source_url": "https://indembkathmandu.gov.in/media-detail/298",
+        "title": "Embassy of India Release on the Motihari–Amlekhgunj Pipeline (2019)",
+        "updated": "2026-11-24",
+        "used_by_count": 2,
+        "wiki_url": "/wiki/explorer/?page=indian-embassy-motihari-amlekhgunj-pipeline-2019"
+      },
+      {
+        "has_last_checked": false,
+        "has_source_date": true,
+        "has_url": true,
+        "last_checked": null,
         "slug": "irena-remap-nepal",
         "source_date": "2023-01-01",
         "source_href": "https://www.irena.org/publications",
@@ -5642,7 +9897,7 @@
         "source_url": "https://kathmandupost.com/national/2026/08/30/flood-damage-to-nepal-s-hydropower-sector-could-run-into-billions",
         "title": "Kathmandu Post — Flood damage to Nepal's hydropower sector could run into billions (2026)",
         "updated": "2026-08-30",
-        "used_by_count": 5,
+        "used_by_count": 8,
         "wiki_url": "/wiki/explorer/?page=kathmandupost-bhotekoshi-flood-hydropower-damage-2026"
       },
       {
@@ -5712,7 +9967,7 @@
         "source_url": "data/raw/corridor_tracing/moewri/moewri_ipsdp_exec_summary_2025.pdf",
         "title": "MoEWRI IPSDP Executive Summary",
         "updated": "2026-05-11",
-        "used_by_count": 20,
+        "used_by_count": 22,
         "wiki_url": "/wiki/explorer/?page=moewri-ipsdp-exec-summary-2025"
       },
       {
@@ -5782,7 +10037,7 @@
         "source_url": "https://nea.org.np/uploads/shares/publication/77022320.pdf",
         "title": "NEA Annual Report FY 2024/25",
         "updated": "2026-05-21",
-        "used_by_count": 65,
+        "used_by_count": 72,
         "wiki_url": "/wiki/explorer/?page=nea-annual-report-fy2024-25"
       },
       {
@@ -5796,7 +10051,7 @@
         "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
         "title": "NEA Annual Report FY 2025/26",
         "updated": "2026-11-04",
-        "used_by_count": 23,
+        "used_by_count": 84,
         "wiki_url": "/wiki/explorer/?page=nea-annual-report-fy2025-26"
       },
       {
@@ -5866,7 +10121,7 @@
         "source_url": "https://nea.org.np/uploads/shares/Tender_Award/1731396732_amendment.pdf?csrt=13757254593846507005",
         "title": "NEA Notice of Intent to Award Solar Projects (2024)",
         "updated": "2026-05-12",
-        "used_by_count": 6,
+        "used_by_count": 8,
         "wiki_url": "/wiki/explorer/?page=nea-solar-loi-2024"
       },
       {
@@ -5880,7 +10135,7 @@
         "source_url": "https://sushilparajuli.com/ror-ppa-bankability-in-nepal/",
         "title": "NEA Standard Hydropower PPA Clauses — AD Penalty, Reserve Margin, and Curtailment",
         "updated": "2026-05-12",
-        "used_by_count": 4,
+        "used_by_count": 5,
         "wiki_url": "/wiki/explorer/?page=nea-standard-ppa-clauses"
       },
       {
@@ -5894,7 +10149,7 @@
         "source_url": "../../../data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf",
         "title": "NEA Transmission Annual Book 2077",
         "updated": "2026-04-20",
-        "used_by_count": 15,
+        "used_by_count": 17,
         "wiki_url": "/wiki/explorer/?page=nea-transmission-annual-book-2077"
       },
       {
@@ -5910,6 +10165,20 @@
         "updated": "2026-05-21",
         "used_by_count": 0,
         "wiki_url": "/wiki/explorer/?page=nefport-protected-area-hydro-ruling-2025"
+      },
+      {
+        "has_last_checked": false,
+        "has_source_date": true,
+        "has_url": true,
+        "last_checked": null,
+        "slug": "nepal-energy-institution-websites-2026",
+        "source_date": "2026-11-24",
+        "source_href": "https://moewri.gov.np/",
+        "source_url": "https://moewri.gov.np/",
+        "title": "Nepal Energy Institution Official Websites (Nov 2026 Review)",
+        "updated": "2026-11-24",
+        "used_by_count": 11,
+        "wiki_url": "/wiki/explorer/?page=nepal-energy-institution-websites-2026"
       },
       {
         "has_last_checked": false,
@@ -5936,7 +10205,7 @@
         "source_url": "https://neasite.dryicesolutions.net/uploads/shares/publication/77022320.pdf",
         "title": "Nepal Transmission System — 400 kV Landscape & Cross-Border Plan (2025)",
         "updated": "2026-04-20",
-        "used_by_count": 28,
+        "used_by_count": 29,
         "wiki_url": "/wiki/explorer/?page=nepal-transmission-landscape-2025"
       },
       {
@@ -6048,7 +10317,7 @@
         "source_url": "https://www.sebon.gov.np/prospectus",
         "title": "SEBON Hydropower Offering Records (Selected Issuers, 2018–2025)",
         "updated": "2026-07-13",
-        "used_by_count": 3,
+        "used_by_count": 4,
         "wiki_url": "/wiki/explorer/?page=sebon-hydropower-offering-records"
       },
       {
@@ -6356,7 +10625,7 @@
         "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/Energy%20Sector%20Synopsis%20Report%20(2024%20FY%202079-80)_qbbivka.pdf",
         "title": "WECS Energy Sector Synopsis Report 2024",
         "updated": "2026-05-12",
-        "used_by_count": 8,
+        "used_by_count": 13,
         "wiki_url": "/wiki/explorer/?page=wecs-energy-synopsis-2024"
       },
       {

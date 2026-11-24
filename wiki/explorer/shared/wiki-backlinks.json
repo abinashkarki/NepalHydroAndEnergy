@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 336,
-  "total_refs": 2705,
+  "total_targets": 354,
+  "total_refs": 2958,
   "backlinks": {
     "buildability": [
       {
@@ -839,6 +839,13 @@
         "target_exists": true
       },
       {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "Its website lists wecs, doed, nea, erc, aepc, VUCL, rpgcl, hidcl, DWRI and NNRFC as related bodi…",
+        "target_exists": true
+      },
+      {
         "slug": "rooftop-minigrid-offgrid",
         "title": "Rooftop, Mini-Grid, and Off-Grid Solar",
         "category": "concepts",
@@ -850,6 +857,13 @@
         "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
         "category": "claims",
         "context": "aepc",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "planning and promotion bodies: wecs, aepc",
         "target_exists": true
       },
       {
@@ -1181,7 +1195,7 @@
         "slug": "khimti-ii",
         "title": "Khimti II",
         "category": "entities",
-        "context": "nea-annual-report-fy2024-25",
+        "context": "NEA Annual Report FY 2024/25",
         "target_exists": true
       },
       {
@@ -1244,7 +1258,7 @@
         "slug": "middle-tamor",
         "title": "Middle Tamor",
         "category": "entities",
-        "context": "nea-annual-report-fy2024-25",
+        "context": "NEA Annual Report FY 2024/25",
         "target_exists": true
       },
       {
@@ -1458,6 +1472,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "nea-annual-report-fy2024-25",
+        "target_exists": true
+      },
+      {
         "slug": "data-electricity-system-indicators",
         "title": "Electricity System Indicator Register",
         "category": "data",
@@ -1507,10 +1528,24 @@
         "target_exists": true
       },
       {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "**Charging:** rows come from nea-annual-report-fy2024-25 (PDF pp.13, 71, 88) and nea-annual-report-fy2025-26 (PD…",
+        "target_exists": true
+      },
+      {
         "slug": "data-nea-grid-infrastructure-fy2025-26",
         "title": "NEA Grid Infrastructure FY 2025/26",
         "category": "data",
         "context": "nea-annual-report-fy2024-25",
+        "target_exists": true
+      },
+      {
+        "slug": "data-erc-retail-tariffs",
+        "title": "NEA Retail Electricity Tariff Schedule",
+        "category": "data",
+        "context": "…025/26 schedule also appears in the same tariff appendix of nea-annual-report-fy2024-25, with the same count. The two reports print the same schedu…",
         "target_exists": true
       },
       {
@@ -1914,6 +1949,13 @@
         "title": "Unresolved Questions",
         "category": "syntheses",
         "context": "| arun-3 and gorakhpur-butwal-interconnection | Dated, component…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry",
+        "category": "data",
+        "context": "…ric Limited (1,063 MW) and Satluj Jal Vidyut Nigam Limited (arun-3, 900 MW).",
         "target_exists": true
       }
     ],
@@ -2772,6 +2814,13 @@
         "target_exists": true
       },
       {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "nea · moewri · ppa-pricing · data-ppa-standard-rates · [[data-energy-institutions]…",
+        "target_exists": true
+      },
+      {
         "slug": "khimti-i",
         "title": "Khimti -I",
         "category": "entities",
@@ -2854,6 +2903,20 @@
         "category": "claims",
         "context": "ppa-pricing",
         "target_exists": true
+      },
+      {
+        "slug": "data-erc-retail-tariffs",
+        "title": "NEA Retail Electricity Tariff Schedule",
+        "category": "data",
+        "context": "ppa-pricing · data-industrial-electricity-consumers · [[data-domest…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "…level escalation terms reported in ratings documents are on ppa-pricing and are not used here.",
+        "target_exists": true
       }
     ],
     "sahas-urja": [
@@ -2918,6 +2981,742 @@
         "title": "PPA Pricing",
         "category": "concepts",
         "context": "…ale and cost discipline unavailable to most developers. See sahas-urja.",
+        "target_exists": true
+      }
+    ],
+    "data-layer-hydropower-operating": [
+      {
+        "slug": "doed-hydropower-registry",
+        "title": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "category": "sources",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "kabeli-3",
+        "title": "Kabeli-3 Cascade",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "karuwa-seti",
+        "title": "Karuwa Seti",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "madme-khola",
+        "title": "Madme Khola",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "mathillo-thulo-khola-a",
+        "title": "Mathillo Thulo Khola A",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "nilgiri-khola-ii",
+        "title": "Nilgiri Khola-II Cascade",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "sagu-khola",
+        "title": "Sagu Khola",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "seti-khola-kaski",
+        "title": "Seti Khola HPP (Kaski, 25 MW)",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "thulo-khola",
+        "title": "Thulo Khola",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-chameliya",
+        "title": "Upper Chameliya",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-rahughat",
+        "title": "Upper Rahughat",
+        "category": "entities",
+        "context": "data-layer-hydropower-operating",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…a scales by capacity, and wiki counts show page coverage. | data-layer-hydropower-operating |",
+        "target_exists": true
+      }
+    ],
+    "data-layer-hydropower-construction": [
+      {
+        "slug": "doed-hydropower-registry",
+        "title": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "category": "sources",
+        "context": "data-layer-hydropower-construction",
+        "target_exists": true
+      },
+      {
+        "slug": "data-map-layer-labels",
+        "title": "Map Layer Labels",
+        "category": "data",
+        "context": "…m capacity pressure on basins and transmission corridors. | data-layer-hydropower-construction |",
+        "target_exists": true
+      }
+    ],
+    "nea-annual-report-fy2025-26": [
+      {
+        "slug": "doed-hydropower-registry",
+        "title": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "category": "sources",
+        "context": "nea-annual-report-fy2025-26",
+        "target_exists": true
+      },
+      {
+        "slug": "bagmati-nadi",
+        "title": "Bagmati Nadi",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "chainpur-seti",
+        "title": "Chainpur Seti",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "dordi-khola",
+        "title": "Dordi Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "nea-annual-report-fy2025-26",
+        "target_exists": true
+      },
+      {
+        "slug": "hetauda-dhalkebar-inaruwa-backbone",
+        "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone",
+        "category": "entities",
+        "context": "…hat work resumed, with completion expected \"in few months\" (nea-annual-report-fy2025-26, PDF pp.13–14). On 7 October 2026, NEA's executive director…",
+        "target_exists": true
+      },
+      {
+        "slug": "hidcl",
+        "title": "Hydroelectricity Investment and Development Company Limited (HIDCL)",
+        "category": "entities",
+        "context": "nea-annual-report-fy2025-26",
+        "target_exists": true
+      },
+      {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)",
+        "category": "entities",
+        "context": "…ssociation's display of NEA data, not a primary NEA record. nea-annual-report-fy2025-26 remains the official capacity source.",
+        "target_exists": true
+      },
+      {
+        "slug": "jagdulla",
+        "title": "Jagdulla HEP",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "kabeli-b-1",
+        "title": "Kabeli B - 1",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "kabeli-3",
+        "title": "Kabeli-3 Cascade",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "karuwa-seti",
+        "title": "Karuwa Seti",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "lapche-khola",
+        "title": "Lapche Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-1",
+        "title": "Likhu -1",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-khola-a",
+        "title": "Likhu Khola 'A",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-4",
+        "title": "Likhu-4",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-hewa",
+        "title": "Lower Hewa",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-likhu",
+        "title": "Lower Likhu",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-modi-khola",
+        "title": "Lower Modi Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "madme-khola",
+        "title": "Madme Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "mai",
+        "title": "Mai",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "mathillo-thulo-khola-a",
+        "title": "Mathillo Thulo Khola A",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "mewa-khola-hydropower-project",
+        "title": "Mewa Khola Hydropower Project",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "mristi-khola",
+        "title": "Mristi Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "nilgiri-khola",
+        "title": "Nilgiri Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "nilgiri-khola-ii",
+        "title": "Nilgiri Khola-II Cascade",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "nyadi-khola",
+        "title": "Nyadi Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "rahughat",
+        "title": "Rahughat",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "rahughat-mangale",
+        "title": "Rahughat Mangale",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "rpgcl",
+        "title": "Rastriya Prasaran Grid Company Limited (RPGCL)",
+        "category": "entities",
+        "context": "nea-annual-report-fy2025-26",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwa-bhotekoshi",
+        "title": "Rasuwa Bhotekoshi",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "sagu-khola",
+        "title": "Sagu Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "seti-khola-kaski",
+        "title": "Seti Khola HPP (Kaski, 25 MW)",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "singati-khola-hydropower-project",
+        "title": "Singati Khola Hydropower Project",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "solu",
+        "title": "Solu Hydropower Project",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "tanahu-hydropower",
+        "title": "Tanahu Hydropower Project",
+        "category": "entities",
+        "context": "packages (nea-annual-report-fy2025-26, PDF pp.13, 16). ADB's current",
+        "target_exists": true
+      },
+      {
+        "slug": "thulo-khola",
+        "title": "Thulo Khola",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-balephi-a",
+        "title": "Upper Balephi A",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-chaku-a",
+        "title": "Upper Chaku A",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-chameliya",
+        "title": "Upper Chameliya",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-dordi-a",
+        "title": "Upper Dordi A HEP",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-kalangad",
+        "title": "Upper Kalangad",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-madi",
+        "title": "Upper Madi",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-rahughat",
+        "title": "Upper Rahughat",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "NEA Annual Report FY 2025/26",
+        "target_exists": true
+      },
+      {
+        "slug": "buildability",
+        "title": "Buildability",
+        "category": "concepts",
+        "context": "…; ADB's loan closing moved from June 2021 to December 2028 (nea-annual-report-fy2025-26, adb-tanahu-project-documents-2026) |",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…al report documents how many roles meet in one institution (nea-annual-report-fy2025-26):",
+        "target_exists": true
+      },
+      {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…from Bhadra to Falgun and Nepal imported 273 GWh in Falgun (nea-annual-report-fy2025-26, PDF p.176).",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…l imported 1,155 GWh, most of it between Poush and Chaitra (nea-annual-report-fy2025-26, PDF pp.175–176). The gap between those two numbers is the…",
+        "target_exists": true
+      },
+      {
+        "slug": "demand-and-electrification",
+        "title": "Demand and Electrification",
+        "category": "syntheses",
+        "context": "…y 36%, while domestic customers were 90.64% of connections (nea-annual-report-fy2025-26, PDF p.13). For FY 2024/25, NEA reported **11,288 GWh of el…",
+        "target_exists": true
+      },
+      {
+        "slug": "distribution-and-reliability",
+        "title": "Distribution and Reliability",
+        "category": "syntheses",
+        "context": "…stem loss** for FY 2025/26, down from 12.26% in FY 2024/25 (nea-annual-report-fy2025-26, PDF pp.11, 13). These show grid expansion and aggregate ef…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…electricity exports: 2,794 GWh, four times the year before (nea-annual-report-fy2025-26, PDF p.11). That headline hides a seasonal reversal. In Bha…",
+        "target_exists": true
+      },
+      {
+        "slug": "hydropower-system",
+        "title": "Nepal's Hydropower System",
+        "category": "syntheses",
+        "context": "…or FY 2025/26, up from 3,389.912 MW of hydro in FY 2024/25 (nea-annual-report-fy2025-26, PDF p.185). More than 90% of hydro capacity is commonly cl…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-system",
+        "title": "Solar in Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "…lled solar** in FY2024/25 and **154.940 MW** in FY 2025/26 (nea-annual-report-fy2025-26, PDF p.185); NEA also signed 49 solar PPAs totalling 675 MW…",
+        "target_exists": true
+      },
+      {
+        "slug": "solar-in-the-master-narrative",
+        "title": "Solar in the Master Narrative",
+        "category": "syntheses",
+        "context": "…4,120 MW, with 675 MW of new solar PPAs signed in the year (nea-annual-report-fy2025-26).",
+        "target_exists": true
+      },
+      {
+        "slug": "state-of-the-system",
+        "title": "State of Nepal's Electricity System",
+        "category": "syntheses",
+        "context": "Sources: nea-annual-report-fy2025-26 (PDF pp.11–14, 176, 185) and [[nea-annual-report-fy2024-25]…",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-and-flexibility",
+        "title": "Storage and System Flexibility",
+        "category": "syntheses",
+        "context": "….8 GWh** in FY2024/25, falling to **92 GWh** in FY 2025/26 (nea-annual-report-fy2025-26, PDF pp.175–176); the report does not explain the drop. Onl…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-governance-binding",
+        "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives",
+        "category": "claims",
+        "context": "…ar and a further **23.97%** to **NPR 96.1B** in FY 2025/26 (nea-annual-report-fy2025-26, PDF p.13), while export revenue (NPR 29.3B in FY 2025/26)…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-india-decisive-actor",
+        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
+        "category": "claims",
+        "context": "…0 MW to Bihar) and the Indo-Nepal Power Exchange Committee (nea-annual-report-fy2025-26, PDF p.14). India is therefore the main practical export ma…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…report-fy2024-25]]) and 4,120.252 MW total for FY 2025/26 (nea-annual-report-fy2025-26); the DoED operating registry stood at 3,791.874 MW in its…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-systems-conversion-failure",
+        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
+        "category": "claims",
+        "context": "…tion falling from 1,991 GWh in Bhadra to 801 GWh in Falgun (nea-annual-report-fy2025-26).",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-domestic-led-strategy",
+        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
+        "category": "claims",
+        "context": "…and in synthesis; NEA reports **496 kWh** for FY 2025/26 in nea-annual-report-fy2025-26), and electricity is still a small share of final energy (*…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-timing-not-volume",
+        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
+        "category": "claims",
+        "context": "nea-annual-report-fy2025-26 repeats the pattern in a year of record net exports (2,794…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-transmission-immediate-blocker",
+        "title": "Transmission and Delivery Are Material Immediate Monetization Constraints",
+        "category": "claims",
+        "context": "The NEA Annual Report FY 2025/26 says the newly commissioned Markichowk–Bharatpur 220 kV lin…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "nea-annual-report-fy2025-26",
+        "target_exists": true
+      },
+      {
+        "slug": "data-electricity-system-indicators",
+        "title": "Electricity System Indicator Register",
+        "category": "data",
+        "context": "…and national peak versus system peak. FY 2025/26 rows from nea-annual-report-fy2025-26 sit alongside the FY 2024/25 rows. Earlier rows are kept as…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…_26.svg) | SVG | master-thesis, seasonal-mismatch | nea-annual-report-fy2025-26 | Monthly energy-balance table totals (exports 3,938 GWh, i…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "nea-annual-report-fy2025-26 — Appendix 8 substation tables (PDF pp.214–226) and project…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "…rom nea-annual-report-fy2024-25 (PDF pp.13, 71, 88) and nea-annual-report-fy2025-26 (PDF p.66).",
+        "target_exists": true
+      },
+      {
+        "slug": "data-nea-grid-infrastructure-fy2025-26",
+        "title": "NEA Grid Infrastructure FY 2025/26",
+        "category": "data",
+        "context": "nea-annual-report-fy2025-26",
+        "target_exists": true
+      },
+      {
+        "slug": "data-erc-retail-tariffs",
+        "title": "NEA Retail Electricity Tariff Schedule",
+        "category": "data",
+        "context": "…rows transcribed from Appendix 4, \"Electricity Tariff\", of nea-annual-report-fy2025-26 (PDF pp.179–184, printed pp.169–174). Each row is one charg…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "…te is from the FY 2025/26 key financial indicators table in nea-annual-report-fy2025-26 (PDF p.158). The table marks the figure provisional, subjec…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-nea-system-annual-timeseries",
+        "title": "NEA System Annual Time Series FY 2015/16–2025/26",
+        "category": "data",
+        "context": "…2016/17 to FY 2025/26 come from the statistics appendix of nea-annual-report-fy2025-26. FY 2015/16 comes from the same tables in [[nea-annual-repo…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "NEA's incorporation date and act come from nea-annual-report-fy2025-26 (PDF p.159). NOC's row uses wecs-energy-synopsis-2024,…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-non-dam-storage-pipeline",
+        "title": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)",
+        "category": "data",
+        "context": "nea-annual-report-fy2025-26",
+        "target_exists": true
+      },
+      {
+        "slug": "data-plant-annual-generation",
+        "title": "Plant Annual Generation FY 2024/25–2025/26",
+        "category": "data",
+        "context": "nea-annual-report-fy2025-26",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-transmission-completion",
+        "title": "Decision Dossier — Hetauda–Dhalkebar Completion and Community Resolution",
+        "category": "interventions",
+        "context": "nea-annual-report-fy2025-26 states that the decade-long construction dispute \"has final…",
+        "target_exists": true
+      }
+    ],
+    "doed-licensing-directive-2075": [
+      {
+        "slug": "doed-hydropower-registry",
+        "title": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "category": "sources",
+        "context": "doed-licensing-directive-2075",
+        "target_exists": true
+      },
+      {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)",
+        "category": "entities",
+        "context": "…ch as the Q45 design-discharge requirement come from DoED's licensing directive 2075.",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli-galchhi",
+        "title": "Trishuli Galchhi",
+        "category": "entities",
+        "context": "doed-licensing-directive-2075",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…/license_type_mix.svg) | SVG | data-fleet-composition | doed-licensing-directive-2075 | Licensing-stage counts are administrative status snapshot…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry",
+        "category": "data",
+        "context": "…plant lists, via the processed registry; licensing rules in doed-licensing-directive-2075",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-q-design-climate-adjustment",
+        "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
+        "category": "interventions",
+        "context": "doed-licensing-directive-2075 records a Q45 design-discharge requirement in the current a…",
         "target_exists": true
       }
     ],
@@ -4100,6 +4899,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-non-dam-storage-pipeline",
+        "title": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)",
+        "category": "data",
+        "context": "storage-and-flexibility · storage-deficit · karnali-solar-energy-project · kulekhani-cascade",
+        "target_exists": true
+      },
+      {
         "slug": "data-solar-hydro-complementarity-profile",
         "title": "Solar–Hydro Complementarity Profile",
         "category": "data",
@@ -4356,6 +5162,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "ppa-pricing · nea-standard-ppa-clauses · nea-960mw-solar-tender",
+        "target_exists": true
+      },
+      {
         "slug": "data-solar-fleet-inventory",
         "title": "Solar Fleet Inventory",
         "category": "data",
@@ -4517,6 +5330,13 @@
         "slug": "claim-solar-political-coalition-is-rural",
         "title": "Solar's Durable Political Coalition Is Rural and Distributed, Not Just Utility-Scale",
         "category": "claims",
+        "context": "aepc-renewable-framework",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
         "context": "aepc-renewable-framework",
         "target_exists": true
       }
@@ -5430,6 +6250,13 @@
         "target_exists": true
       },
       {
+        "slug": "kabeli-3",
+        "title": "Kabeli-3 Cascade",
+        "category": "entities",
+        "context": "| River | Kabeli Khola (koshi-basin) |",
+        "target_exists": true
+      },
+      {
         "slug": "khimti-i",
         "title": "Khimti -I",
         "category": "entities",
@@ -5525,6 +6352,13 @@
         "title": "Rasuwa Bhotekoshi",
         "category": "entities",
         "context": "| River | Bhote koshi (eastern koshi-basin) |",
+        "target_exists": true
+      },
+      {
+        "slug": "sagu-khola",
+        "title": "Sagu Khola",
+        "category": "entities",
+        "context": "| River | Sangu Khola (koshi-basin) |",
         "target_exists": true
       },
       {
@@ -6338,6 +7172,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "india-energy-relationship · bangladesh-trade-route · dhalkebar-muzaffarpur",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-cross-border-interconnections",
         "title": "Layer: Cross-Border Gateways",
         "category": "data",
@@ -7026,6 +7867,27 @@
         "target_exists": true
       },
       {
+        "slug": "nepal-energy-institution-websites-2026",
+        "title": "Nepal Energy Institution Official Websites (Nov 2026 Review)",
+        "category": "sources",
+        "context": "…bsite could not be read, so NOC facts in the wiki come from wecs-energy-synopsis-2024.",
+        "target_exists": true
+      },
+      {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)",
+        "category": "entities",
+        "context": "…it collects electricity data from for its energy synopsis (wecs-energy-synopsis-2024, Table 3.1). IPPAN office-holders also appear as named sour…",
+        "target_exists": true
+      },
+      {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)",
+        "category": "entities",
+        "context": "…il Corporation (NOC)** is the state petroleum supplier. The WECS Energy Sector Synopsis 2024 describes the petroleum sector as \"operated by the Nepal Oi…",
+        "target_exists": true
+      },
+      {
         "slug": "wecs",
         "title": "Water and Energy Commission Secretariat (WECS)",
         "category": "entities",
@@ -7058,6 +7920,20 @@
         "title": "Figure Index",
         "category": "data",
         "context": "…data-fleet-composition]] | nea-annual-report-fy2024-25, wecs-energy-synopsis-2024 | Fleet taxonomy varies by reporting source; FY 2022/23 sea…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "…peline-2019]] (69 km, 10-inch, 2 MMTPA). Storage comes from wecs-energy-synopsis-2024 Table 4.4.",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "…nea-annual-report-fy2025-26 (PDF p.159). NOC's row uses wecs-energy-synopsis-2024, because the NOC site returned HTTP 403.",
         "target_exists": true
       },
       {
@@ -7226,6 +8102,13 @@
         "target_exists": true
       },
       {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "…issued the 2025 integrated power-system plan summarised in moewri-ipsdp-exec-summary-2025.",
+        "target_exists": true
+      },
+      {
         "slug": "nalsyau-gad",
         "title": "Nalsyau Gad",
         "category": "entities",
@@ -7315,6 +8198,13 @@
         "category": "data",
         "context": "Figure 3.1-1 in moewri-ipsdp-exec-summary-2025 is the most compact official",
         "target_exists": true
+      },
+      {
+        "slug": "data-non-dam-storage-pipeline",
+        "title": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)",
+        "category": "data",
+        "context": "moewri-ipsdp-exec-summary-2025",
+        "target_exists": true
       }
     ],
     "nea": [
@@ -7361,6 +8251,20 @@
         "target_exists": true
       },
       {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)",
+        "category": "entities",
+        "context": "moewri · erc · nea · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "nea · moewri · ppa-pricing · [[data-ppa-standard-rates]…",
+        "target_exists": true
+      },
+      {
         "slug": "gorakhpur-butwal-interconnection",
         "title": "Gorakhpur–New Butwal 400 kV Cross-Border Interconnection",
         "category": "entities",
@@ -7379,6 +8283,20 @@
         "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone",
         "category": "entities",
         "context": "| Owner | nea (Nepal Electricity Authority) |",
+        "target_exists": true
+      },
+      {
+        "slug": "hidcl",
+        "title": "Hydroelectricity Investment and Development Company Limited (HIDCL)",
+        "category": "entities",
+        "context": "moewri · rpgcl · nea · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)",
+        "category": "entities",
+        "context": "IPPAN represents independent power producers, who sell to nea under PPAs. Its homepage republishes NEA-sourced capacity f…",
         "target_exists": true
       },
       {
@@ -7431,6 +8349,13 @@
         "target_exists": true
       },
       {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "Its website lists wecs, doed, nea, erc, aepc, VUCL, rpgcl, hidcl, DWRI and NN…",
+        "target_exists": true
+      },
+      {
         "slug": "nawalpur-132kv-substation",
         "title": "Nawalpur 132 kV Substation",
         "category": "entities",
@@ -7463,6 +8388,13 @@
         "title": "Purbi Chitwan 132 kV Substation",
         "category": "entities",
         "context": "nea",
+        "target_exists": true
+      },
+      {
+        "slug": "rpgcl",
+        "title": "Rastriya Prasaran Grid Company Limited (RPGCL)",
+        "category": "entities",
+        "context": "RPGCL develops transmission corridors alongside nea. Its website lists 11 transmission-line projects:",
         "target_exists": true
       },
       {
@@ -7561,6 +8493,20 @@
         "title": "Electricity Consumption Geographic Distribution",
         "category": "data",
         "context": "nea — the distribution utility",
+        "target_exists": true
+      },
+      {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry",
+        "category": "data",
+        "context": "nea is the largest operating promoter, with 571 MW in DoED's op…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "utility: nea",
         "target_exists": true
       },
       {
@@ -7745,6 +8691,13 @@
         "title": "Nepal Solar Resource Zones",
         "category": "data",
         "context": "4. ** ** — point/polygon for kulekhani-cascade, tanahu-hydropower, budhigandaki, [[dudhkoshi-stora…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-non-dam-storage-pipeline",
+        "title": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)",
+        "category": "data",
+        "context": "…· storage-deficit · karnali-solar-energy-project · kulekhani-cascade",
         "target_exists": true
       },
       {
@@ -7936,13 +8889,6 @@
         "target_exists": true
       },
       {
-        "slug": "chainpur-seti",
-        "title": "Chainpur Seti",
-        "category": "entities",
-        "context": "| River | Seti Khola (gandaki-basin) |",
-        "target_exists": true
-      },
-      {
         "slug": "dana-kushma-butwal-corridor",
         "title": "Dana–Kushma–New Butwal 220 kV Corridor",
         "category": "entities",
@@ -7978,6 +8924,13 @@
         "target_exists": true
       },
       {
+        "slug": "karuwa-seti",
+        "title": "Karuwa Seti",
+        "category": "entities",
+        "context": "| River | Seti Khola (gandaki-basin) |",
+        "target_exists": true
+      },
+      {
         "slug": "lower-badigad",
         "title": "Lower Badigad",
         "category": "entities",
@@ -7999,6 +8952,13 @@
         "target_exists": true
       },
       {
+        "slug": "madme-khola",
+        "title": "Madme Khola",
+        "category": "entities",
+        "context": "| River | Madme Khola (gandaki-basin) |",
+        "target_exists": true
+      },
+      {
         "slug": "marsyangdi",
         "title": "Marsyangdi",
         "category": "entities",
@@ -8013,10 +8973,31 @@
         "target_exists": true
       },
       {
+        "slug": "mathillo-thulo-khola-a",
+        "title": "Mathillo Thulo Khola A",
+        "category": "entities",
+        "context": "| River | Thulo Khola (gandaki-basin) |",
+        "target_exists": true
+      },
+      {
+        "slug": "nilgiri-khola-ii",
+        "title": "Nilgiri Khola-II Cascade",
+        "category": "entities",
+        "context": "| River | Nilgiri (gandaki-basin) |",
+        "target_exists": true
+      },
+      {
         "slug": "rasuwagadhi",
         "title": "Rasuwagadhi",
         "category": "entities",
         "context": "…asuwa/Lende, upper Trishuli tributary, gandaki-basin) |",
+        "target_exists": true
+      },
+      {
+        "slug": "seti-khola-kaski",
+        "title": "Seti Khola HPP (Kaski, 25 MW)",
+        "category": "entities",
+        "context": "| River | Seti Khola (gandaki-basin) |",
         "target_exists": true
       },
       {
@@ -8038,6 +9019,13 @@
         "title": "Tanahu Hydropower Project",
         "category": "entities",
         "context": "| River | Seti (gandaki-basin) |",
+        "target_exists": true
+      },
+      {
+        "slug": "thulo-khola",
+        "title": "Thulo Khola",
+        "category": "entities",
+        "context": "| River | Thulo Khola (gandaki-basin) |",
         "target_exists": true
       },
       {
@@ -8087,6 +9075,13 @@
         "title": "Upper Modi A",
         "category": "entities",
         "context": "| River | Modi Khola (gandaki-basin) |",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-rahughat",
+        "title": "Upper Rahughat",
+        "category": "entities",
+        "context": "| River | Rahughat (gandaki-basin) |",
         "target_exists": true
       },
       {
@@ -8225,6 +9220,13 @@
         "target_exists": true
       },
       {
+        "slug": "kabeli-3",
+        "title": "Kabeli-3 Cascade",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
         "slug": "kali-gandaki-a",
         "title": "Kali Gandaki A",
         "category": "entities",
@@ -8234,6 +9236,13 @@
       {
         "slug": "kali-gandaki-kowan",
         "title": "Kali Gandaki Kowan",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
+        "slug": "karuwa-seti",
+        "title": "Karuwa Seti",
         "category": "entities",
         "context": "run-of-river-hydropower",
         "target_exists": true
@@ -8267,6 +9276,13 @@
         "target_exists": true
       },
       {
+        "slug": "madme-khola",
+        "title": "Madme Khola",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
         "slug": "mai",
         "title": "Mai",
         "category": "entities",
@@ -8281,6 +9297,13 @@
         "target_exists": true
       },
       {
+        "slug": "mathillo-thulo-khola-a",
+        "title": "Mathillo Thulo Khola A",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
         "slug": "nepal-energy-profile",
         "title": "Nepal Energy Profile",
         "category": "entities",
@@ -8288,8 +9311,22 @@
         "target_exists": true
       },
       {
+        "slug": "nilgiri-khola-ii",
+        "title": "Nilgiri Khola-II Cascade",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
         "slug": "rasuwagadhi",
         "title": "Rasuwagadhi",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
+        "slug": "sagu-khola",
+        "title": "Sagu Khola",
         "category": "entities",
         "context": "run-of-river-hydropower",
         "target_exists": true
@@ -8304,6 +9341,13 @@
       {
         "slug": "sanjen-khola",
         "title": "Sanjen Khola",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
+        "slug": "seti-khola-kaski",
+        "title": "Seti Khola HPP (Kaski, 25 MW)",
         "category": "entities",
         "context": "run-of-river-hydropower",
         "target_exists": true
@@ -8330,6 +9374,13 @@
         "target_exists": true
       },
       {
+        "slug": "thulo-khola",
+        "title": "Thulo Khola",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
         "slug": "trishuli",
         "title": "Trishuli",
         "category": "entities",
@@ -8339,6 +9390,13 @@
       {
         "slug": "upper-bhotekoshi",
         "title": "Upper Bhotekoshi",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-chameliya",
+        "title": "Upper Chameliya",
         "category": "entities",
         "context": "run-of-river-hydropower",
         "target_exists": true
@@ -8360,6 +9418,13 @@
       {
         "slug": "upper-marsyangdi-a",
         "title": "Upper Marsyangdi A",
+        "category": "entities",
+        "context": "run-of-river-hydropower",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-rahughat",
+        "title": "Upper Rahughat",
         "category": "entities",
         "context": "run-of-river-hydropower",
         "target_exists": true
@@ -8769,6 +9834,13 @@
         "target_exists": true
       },
       {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)",
+        "category": "entities",
+        "context": "…ge, for example on the August 2026 Bhotekoshi flood losses (kathmandupost-bhotekoshi-flood-hydropower-damage-2026).",
+        "target_exists": true
+      },
+      {
         "slug": "rasuwagadhi",
         "title": "Rasuwagadhi",
         "category": "entities",
@@ -8776,10 +9848,24 @@
         "target_exists": true
       },
       {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "Kathmandu Post — Flood damage to Nepal's hydropower sector could run into billions (2026)",
+        "target_exists": true
+      },
+      {
         "slug": "trishuli-cascade",
         "title": "Trishuli Cascade",
         "category": "entities",
         "context": "…installed capacity. See bhotekoshi-trishuli-flood-2026, kathmandupost-bhotekoshi-flood-hydropower-damage-2026 and kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026.",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "Kathmandu Post — Flood damage to Nepal's hydropower sector could run into billions (2026)",
         "target_exists": true
       },
       {
@@ -8852,6 +9938,13 @@
         "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
         "category": "claims",
         "context": "…n grid, so India is the transit state for Bangladesh sales (bangladesh-trade-route).",
+        "target_exists": true
+      },
+      {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "india-energy-relationship · bangladesh-trade-route · dhalkebar-muzaffarpur",
         "target_exists": true
       },
       {
@@ -9358,6 +10451,13 @@
         "title": "Bheri-2 HEP",
         "category": "entities",
         "context": "| River | Bheri (karnali-basin) |",
+        "target_exists": true
+      },
+      {
+        "slug": "chainpur-seti",
+        "title": "Chainpur Seti",
+        "category": "entities",
+        "context": "| River | Seti (karnali-basin) |",
         "target_exists": true
       },
       {
@@ -10607,6 +11707,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "…[india-energy-relationship]] · bangladesh-trade-route · dhalkebar-muzaffarpur",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-cross-border-interconnections",
         "title": "Layer: Cross-Border Gateways",
         "category": "data",
@@ -10771,6 +11878,13 @@
         "title": "Electricity System Indicator Register",
         "category": "data",
         "context": "distribution-and-reliability · demand-and-electrification · storage-and-flexibility · [[data-electricity-system-e…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "…trial-electricity-consumers]] · data-final-energy-mix · demand-and-electrification",
         "target_exists": true
       },
       {
@@ -11587,6 +12701,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry",
+        "category": "data",
+        "context": "…ON listing record was checked against these promoter names. sebon-hydropower-offering-records covers selected offerings only.",
+        "target_exists": true
+      },
+      {
         "slug": "intervention-sebon-data-transparency",
         "title": "Decision Dossier — Hydropower Securities Disclosure",
         "category": "interventions",
@@ -11614,6 +12735,13 @@
         "title": "NEA Triple-Authority Conflict",
         "category": "concepts",
         "context": "…r for the shortfall at the purchase rate (ad-penalties, nea-standard-ppa-clauses).",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "…C text on disk states them; the secondary legal analysis in nea-standard-ppa-clauses is not used as a rate source.",
         "target_exists": true
       },
       {
@@ -12546,6 +13674,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-erc-retail-tariffs",
+        "title": "NEA Retail Electricity Tariff Schedule",
+        "category": "data",
+        "context": "…ppa-pricing]] · data-industrial-electricity-consumers · data-domestic-demand",
+        "target_exists": true
+      },
+      {
         "slug": "data-final-energy-mix",
         "title": "Nepal Final Energy Mix",
         "category": "data",
@@ -12692,6 +13827,13 @@
         "target_exists": true
       },
       {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)",
+        "category": "entities",
+        "context": "…nstitutions]] · data-load-anchors-and-fossil-backbone · data-final-energy-mix",
+        "target_exists": true
+      },
+      {
         "slug": "consumption-trajectory-outlook",
         "title": "Consumption Trajectory Outlook",
         "category": "concepts",
@@ -12745,6 +13887,13 @@
         "title": "Industrial Electricity Consumers in Nepal",
         "category": "data",
         "context": "data-final-energy-mix — the total-energy denominator with sector × fuel cross-tab",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "noc · data-industrial-electricity-consumers · data-final-energy-mix · demand-and-electrification",
         "target_exists": true
       }
     ],
@@ -13708,6 +14857,358 @@
         "target_exists": true
       }
     ],
+    "doed-hydropower-registry": [
+      {
+        "slug": "bagmati-nadi",
+        "title": "Bagmati Nadi",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "chainpur-seti",
+        "title": "Chainpur Seti",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "dordi-khola",
+        "title": "Dordi Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "jagdulla",
+        "title": "Jagdulla HEP",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "kabeli-b-1",
+        "title": "Kabeli B - 1",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "kabeli-3",
+        "title": "Kabeli-3 Cascade",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "karuwa-seti",
+        "title": "Karuwa Seti",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-i",
+        "title": "Khimti -I",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "khimti-ii",
+        "title": "Khimti II",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "lapche-khola",
+        "title": "Lapche Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-1",
+        "title": "Likhu -1",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-2",
+        "title": "Likhu -2",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-khola-a",
+        "title": "Likhu Khola 'A",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "likhu-4",
+        "title": "Likhu-4",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-hewa",
+        "title": "Lower Hewa",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-likhu",
+        "title": "Lower Likhu",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-modi-khola",
+        "title": "Lower Modi Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "lower-solu",
+        "title": "Lower Solu Hydropower Project",
+        "category": "entities",
+        "context": "…ction elsewhere on this page predate commissioning. Source: doed-hydropower-registry.",
+        "target_exists": true
+      },
+      {
+        "slug": "madhya-bhotekoshi",
+        "title": "Madhya Bhotekoshi",
+        "category": "entities",
+        "context": "…ction elsewhere on this page predate commissioning. Source: doed-hydropower-registry.",
+        "target_exists": true
+      },
+      {
+        "slug": "madme-khola",
+        "title": "Madme Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "mai",
+        "title": "Mai",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "marsyangdi",
+        "title": "Marsyangdi",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "mathillo-thulo-khola-a",
+        "title": "Mathillo Thulo Khola A",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "mewa-khola-hydropower-project",
+        "title": "Mewa Khola Hydropower Project",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "middle-tamor",
+        "title": "Middle Tamor",
+        "category": "entities",
+        "context": "…ction elsewhere on this page predate commissioning. Source: doed-hydropower-registry.",
+        "target_exists": true
+      },
+      {
+        "slug": "mristi-khola",
+        "title": "Mristi Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "nilgiri-khola",
+        "title": "Nilgiri Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "nilgiri-khola-ii",
+        "title": "Nilgiri Khola-II Cascade",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "nyadi-khola",
+        "title": "Nyadi Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "rahughat",
+        "title": "Rahughat",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "rahughat-mangale",
+        "title": "Rahughat Mangale",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "rasuwa-bhotekoshi",
+        "title": "Rasuwa Bhotekoshi",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "sagu-khola",
+        "title": "Sagu Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "sanjen",
+        "title": "Sanjen",
+        "category": "entities",
+        "context": "…ction elsewhere on this page predate commissioning. Source: doed-hydropower-registry.",
+        "target_exists": true
+      },
+      {
+        "slug": "sanjen-khola",
+        "title": "Sanjen Khola",
+        "category": "entities",
+        "context": "…ction elsewhere on this page predate commissioning. Source: doed-hydropower-registry.",
+        "target_exists": true
+      },
+      {
+        "slug": "seti-khola-kaski",
+        "title": "Seti Khola HPP (Kaski, 25 MW)",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "singati-khola-hydropower-project",
+        "title": "Singati Khola Hydropower Project",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "solu",
+        "title": "Solu Hydropower Project",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "super-madi",
+        "title": "Super Madi",
+        "category": "entities",
+        "context": "…ction elsewhere on this page predate commissioning. Source: doed-hydropower-registry.",
+        "target_exists": true
+      },
+      {
+        "slug": "tamakoshi-v",
+        "title": "Tamakoshi V",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "thulo-khola",
+        "title": "Thulo Khola",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "trishuli",
+        "title": "Trishuli",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-balephi-a",
+        "title": "Upper Balephi A",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-chaku-a",
+        "title": "Upper Chaku A",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-chameliya",
+        "title": "Upper Chameliya",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-dordi-a",
+        "title": "Upper Dordi A HEP",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-kalangad",
+        "title": "Upper Kalangad",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-madi",
+        "title": "Upper Madi",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-rahughat",
+        "title": "Upper Rahughat",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      },
+      {
+        "slug": "upper-trishuli-3a",
+        "title": "Upper Trishuli 3A",
+        "category": "entities",
+        "context": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
+        "target_exists": true
+      }
+    ],
     "doed-solar-power-plants-table": [
       {
         "slug": "bel-chautara-solar",
@@ -13728,6 +15229,13 @@
         "title": "DDB Saurya Vidyut Aayojana",
         "category": "entities",
         "context": "| **Source** | doed-solar-power-plants-table |",
+        "target_exists": true
+      },
+      {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)",
+        "category": "entities",
+        "context": "…er-plant lists by technology; the solar list is recorded in doed-solar-power-plants-table",
         "target_exists": true
       },
       {
@@ -14563,6 +16071,13 @@
         "target_exists": true
       },
       {
+        "slug": "upper-chameliya",
+        "title": "Upper Chameliya",
+        "category": "entities",
+        "context": "| River | Chameliya Khola (mahakali-basin) |",
+        "target_exists": true
+      },
+      {
         "slug": "mahakali-sharda-handoff",
         "title": "Mahakali/Sharda Handoff",
         "category": "concepts",
@@ -14624,7 +16139,7 @@
         "slug": "upper-trishuli-3a",
         "title": "Upper Trishuli 3A",
         "category": "entities",
-        "context": "teams. See kathmandupost-bhotekoshi-flood-tunnel-rescues-2026 and",
+        "context": "Kathmandu Post — Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)",
         "target_exists": true
       },
       {
@@ -14650,6 +16165,254 @@
         "title": "Damak–Godak–Phidim 132 kV Corridor",
         "category": "entities",
         "context": "kabeli-b-1, and the broader claim-transmission-immediate-blocker",
+        "target_exists": true
+      }
+    ],
+    "moewri": [
+      {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)",
+        "category": "entities",
+        "context": "…(विद्युत विकास विभाग)** is the government department under moewri that licenses electricity projects. DoED's introduction pag…",
+        "target_exists": true
+      },
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "nea · moewri · ppa-pricing · data-ppa-standard-rates · [[data-en…",
+        "target_exists": true
+      },
+      {
+        "slug": "hidcl",
+        "title": "Hydroelectricity Investment and Development Company Limited (HIDCL)",
+        "category": "entities",
+        "context": "moewri · rpgcl · nea · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "ibn",
+        "title": "Investment Board Nepal (IBN)",
+        "category": "entities",
+        "context": "doed · moewri · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)",
+        "category": "entities",
+        "context": "wecs · moewri · data-energy-institutions · [[data-load-anchors-and-fo…",
+        "target_exists": true
+      },
+      {
+        "slug": "rpgcl",
+        "title": "Rastriya Prasaran Grid Company Limited (RPGCL)",
+        "category": "entities",
+        "context": "moewri · nea · hidcl · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "ministry and departments: moewri, doed, DHM",
+        "target_exists": true
+      }
+    ],
+    "data-major-developers": [
+      {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)",
+        "category": "entities",
+        "context": "…ilt from these lists. It also feeds the promoter ranking in data-major-developers.",
+        "target_exists": true
+      },
+      {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)",
+        "category": "entities",
+        "context": "nea · erc · data-major-developers · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "data-major-developers — promoter-level capacity registry",
+        "target_exists": true
+      }
+    ],
+    "nepal-energy-institution-websites-2026": [
+      {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)",
+        "category": "entities",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "hidcl",
+        "title": "Hydroelectricity Investment and Development Company Limited (HIDCL)",
+        "category": "entities",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)",
+        "category": "entities",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "ibn",
+        "title": "Investment Board Nepal (IBN)",
+        "category": "entities",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)",
+        "category": "entities",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "rpgcl",
+        "title": "Rastriya Prasaran Grid Company Limited (RPGCL)",
+        "category": "entities",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry",
+        "category": "data",
+        "context": "nepal-energy-institution-websites-2026",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "…The rows come from the official-website review recorded in nepal-energy-institution-websites-2026.",
+        "target_exists": true
+      }
+    ],
+    "erc": [
+      {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)",
+        "category": "entities",
+        "context": "moewri · erc · nea · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)",
+        "category": "entities",
+        "context": "nea · erc · data-major-developers · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "Its website lists wecs, doed, nea, erc, aepc, VUCL, rpgcl, hidcl, DWRI and NNRFC as re…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "regulators: erc, SEBON",
+        "target_exists": true
+      }
+    ],
+    "data-energy-institutions": [
+      {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)",
+        "category": "entities",
+        "context": "moewri · erc · nea · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "…[moewri]] · ppa-pricing · data-ppa-standard-rates · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "hidcl",
+        "title": "Hydroelectricity Investment and Development Company Limited (HIDCL)",
+        "category": "entities",
+        "context": "moewri · rpgcl · nea · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)",
+        "category": "entities",
+        "context": "nea · erc · data-major-developers · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "ibn",
+        "title": "Investment Board Nepal (IBN)",
+        "category": "entities",
+        "context": "doed · moewri · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "data-energy-institutions · nea · doed · wecs",
+        "target_exists": true
+      },
+      {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)",
+        "category": "entities",
+        "context": "wecs · moewri · data-energy-institutions · data-load-anchors-and-fossil-backbone · [[data-final-…",
+        "target_exists": true
+      },
+      {
+        "slug": "rpgcl",
+        "title": "Rastriya Prasaran Grid Company Limited (RPGCL)",
+        "category": "entities",
+        "context": "moewri · nea · hidcl · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry",
+        "category": "data",
+        "context": "data-energy-institutions",
         "target_exists": true
       }
     ],
@@ -14682,6 +16445,184 @@
         "title": "Dudhkoshi Storage Hydroelectric Project",
         "category": "entities",
         "context": "Dudhkoshi Storage — NEA Proposal & Feasibility Record",
+        "target_exists": true
+      }
+    ],
+    "erc-reservoir-ppa-directive-2082": [
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "On the purchase side, ERC issued the reservoir PPA directive 2082 and commissioned the [[erc-eca-storage-ppa-discussion-paper…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "…issuer and ratings records, ERC discussion papers, and the 2082 reservoir directive. RoR and PRoR records commonly use energy tariffs different…",
+        "target_exists": true
+      },
+      {
+        "slug": "seasonal-mismatch",
+        "title": "Seasonal Mismatch",
+        "category": "concepts",
+        "context": "…inguishes declared available capacity from contract energy (erc-reservoir-ppa-directive-2082, ppa-pricing).",
+        "target_exists": true
+      },
+      {
+        "slug": "storage-deficit",
+        "title": "Storage Deficit",
+        "category": "concepts",
+        "context": "…rom capacity declared and kept available for named periods (erc-reservoir-ppa-directive-2082). Whether that framework attracts finance and survives cont…",
+        "target_exists": true
+      },
+      {
+        "slug": "film-nepal-has-hydropower",
+        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
+        "category": "syntheses",
+        "context": "…rates declared available capacity from contract energy. See erc-reservoir-ppa-directive-2082.",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "…contract energy from capacity declared and kept available (erc-reservoir-ppa-directive-2082). If what gets paid for shapes what gets built, more of Nep…",
+        "target_exists": true
+      },
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…ependable service | **OPEN** — official text is verified at erc-reservoir-ppa-directive-2082; project-level ERC applications, decisions, signed PPAs, fi…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-ror-dominance",
+        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
+        "category": "claims",
+        "context": "Track project-level use of the 2082 reservoir PPA directive. Issuance is a framework signal, not evidence that the oper…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "**Reservoir:** the current reservoir framework is erc-reservoir-ppa-directive-2082, which sets a tariff methodology, not a posted rate.",
+        "target_exists": true
+      }
+    ],
+    "erc-eca-storage-ppa-discussion-paper-2025": [
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "…ve-2082|reservoir PPA directive 2082]] and commissioned the 2025 storage PPA discussion paper. Public reporting also records an [[erc-open-access-directi…",
+        "target_exists": true
+      },
+      {
+        "slug": "ppa-pricing",
+        "title": "PPA Pricing",
+        "category": "concepts",
+        "context": "The 2025 ERC/ECA discussion paper records NEA's April 2017 standard tariffs for RoR, PRoR, an…",
+        "target_exists": true
+      },
+      {
+        "slug": "master-thesis",
+        "title": "Master Thesis",
+        "category": "syntheses",
+        "context": "….8 per kWh in the wet season and NPR 8.4 in the dry season (erc-eca-storage-ppa-discussion-paper-2025, Table 1): generate a unit, earn for that unit. A run-of-ri…",
+        "target_exists": true
+      },
+      {
+        "slug": "unresolved-questions",
+        "title": "Unresolved Questions",
+        "category": "syntheses",
+        "context": "…, while the 2082 directive is approved official text | Cite erc-eca-storage-ppa-discussion-paper-2025 for discussion-paper findings and [[erc-reservoir-ppa-direc…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-mw-not-equal-value",
+        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
+        "category": "claims",
+        "context": "…capacity as a possible basis for a separate fixed payment (erc-eca-storage-ppa-discussion-paper-2025). The regulator itself treats energy and dependable capacit…",
+        "target_exists": true
+      },
+      {
+        "slug": "claim-ror-dominance",
+        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
+        "category": "claims",
+        "context": "The 2025 ERC/ECA storage-PPA discussion paper independently describes hydro capacity as predominantly RoR…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "Hydropower rows come from Table 1 of erc-eca-storage-ppa-discussion-paper-2025 (printed p.9, PDF p.14). The paper cites \"NEA Board Decisio…",
+        "target_exists": true
+      }
+    ],
+    "erc-open-access-directive-2082": [
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "…ge PPA discussion paper]]. Public reporting also records an open access directive 2082.",
+        "target_exists": true
+      },
+      {
+        "slug": "nea-triple-authority",
+        "title": "NEA Triple-Authority Conflict",
+        "category": "concepts",
+        "context": "…in Transmission and Distribution System on 9 January 2026 (erc-open-access-directive-2082; [Pioneer Law brief](https://pioneerlaw.com/resource/brief-…",
+        "target_exists": true
+      },
+      {
+        "slug": "intervention-nea-structural-separation",
+        "title": "Decision Dossier — Power-System Role Separation and Open Access",
+        "category": "interventions",
+        "context": "Public reporting indexed at erc-open-access-directive-2082 states that ERC issued the Open Access Directive 2082 in Ja…",
+        "target_exists": true
+      }
+    ],
+    "data-erc-retail-tariffs": [
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "The retail tariff values held in this wiki (data-erc-retail-tariffs) are transcribed from NEA's annual report, not from an ERC…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "data-erc-retail-tariffs — EV charging and industrial tariff rates",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "data-erc-retail-tariffs — the retail (sales) side",
+        "target_exists": true
+      }
+    ],
+    "data-ppa-standard-rates": [
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "nea · moewri · ppa-pricing · data-ppa-standard-rates · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "data-erc-retail-tariffs",
+        "title": "NEA Retail Electricity Tariff Schedule",
+        "category": "data",
+        "context": "data-ppa-standard-rates — the purchase side of NEA's tariff book",
         "target_exists": true
       }
     ],
@@ -14742,204 +16683,6 @@
         "title": "Layer: Major Transmission Network",
         "category": "data",
         "context": "dana-kushma-butwal-corridor",
-        "target_exists": true
-      }
-    ],
-    "nea-annual-report-fy2025-26": [
-      {
-        "slug": "hetauda-dhalkebar-inaruwa-backbone",
-        "title": "Hetauda–Dhalkebar–Inaruwa 400 kV Backbone",
-        "category": "entities",
-        "context": "…hat work resumed, with completion expected \"in few months\" (nea-annual-report-fy2025-26, PDF pp.13–14). On 7 October 2026, NEA's executive director…",
-        "target_exists": true
-      },
-      {
-        "slug": "tanahu-hydropower",
-        "title": "Tanahu Hydropower Project",
-        "category": "entities",
-        "context": "packages (nea-annual-report-fy2025-26, PDF pp.13, 16). ADB's current",
-        "target_exists": true
-      },
-      {
-        "slug": "buildability",
-        "title": "Buildability",
-        "category": "concepts",
-        "context": "…; ADB's loan closing moved from June 2021 to December 2028 (nea-annual-report-fy2025-26, adb-tanahu-project-documents-2026) |",
-        "target_exists": true
-      },
-      {
-        "slug": "nea-triple-authority",
-        "title": "NEA Triple-Authority Conflict",
-        "category": "concepts",
-        "context": "…al report documents how many roles meet in one institution (nea-annual-report-fy2025-26):",
-        "target_exists": true
-      },
-      {
-        "slug": "seasonal-mismatch",
-        "title": "Seasonal Mismatch",
-        "category": "concepts",
-        "context": "…from Bhadra to Falgun and Nepal imported 273 GWh in Falgun (nea-annual-report-fy2025-26, PDF p.176).",
-        "target_exists": true
-      },
-      {
-        "slug": "storage-deficit",
-        "title": "Storage Deficit",
-        "category": "concepts",
-        "context": "…l imported 1,155 GWh, most of it between Poush and Chaitra (nea-annual-report-fy2025-26, PDF pp.175–176). The gap between those two numbers is the…",
-        "target_exists": true
-      },
-      {
-        "slug": "demand-and-electrification",
-        "title": "Demand and Electrification",
-        "category": "syntheses",
-        "context": "…y 36%, while domestic customers were 90.64% of connections (nea-annual-report-fy2025-26, PDF p.13). For FY 2024/25, NEA reported **11,288 GWh of el…",
-        "target_exists": true
-      },
-      {
-        "slug": "distribution-and-reliability",
-        "title": "Distribution and Reliability",
-        "category": "syntheses",
-        "context": "…stem loss** for FY 2025/26, down from 12.26% in FY 2024/25 (nea-annual-report-fy2025-26, PDF pp.11, 13). These show grid expansion and aggregate ef…",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "…electricity exports: 2,794 GWh, four times the year before (nea-annual-report-fy2025-26, PDF p.11). That headline hides a seasonal reversal. In Bha…",
-        "target_exists": true
-      },
-      {
-        "slug": "hydropower-system",
-        "title": "Nepal's Hydropower System",
-        "category": "syntheses",
-        "context": "…or FY 2025/26, up from 3,389.912 MW of hydro in FY 2024/25 (nea-annual-report-fy2025-26, PDF p.185). More than 90% of hydro capacity is commonly cl…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-system",
-        "title": "Solar in Nepal's Electricity System",
-        "category": "syntheses",
-        "context": "…lled solar** in FY2024/25 and **154.940 MW** in FY 2025/26 (nea-annual-report-fy2025-26, PDF p.185); NEA also signed 49 solar PPAs totalling 675 MW…",
-        "target_exists": true
-      },
-      {
-        "slug": "solar-in-the-master-narrative",
-        "title": "Solar in the Master Narrative",
-        "category": "syntheses",
-        "context": "…4,120 MW, with 675 MW of new solar PPAs signed in the year (nea-annual-report-fy2025-26).",
-        "target_exists": true
-      },
-      {
-        "slug": "state-of-the-system",
-        "title": "State of Nepal's Electricity System",
-        "category": "syntheses",
-        "context": "Sources: nea-annual-report-fy2025-26 (PDF pp.11–14, 176, 185) and [[nea-annual-report-fy2024-25]…",
-        "target_exists": true
-      },
-      {
-        "slug": "storage-and-flexibility",
-        "title": "Storage and System Flexibility",
-        "category": "syntheses",
-        "context": "….8 GWh** in FY2024/25, falling to **92 GWh** in FY 2025/26 (nea-annual-report-fy2025-26, PDF pp.175–176); the report does not explain the drop. Onl…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-governance-binding",
-        "title": "Governance Weakness Wastes Hydro Opportunity Through Delays and Misaligned Incentives",
-        "category": "claims",
-        "context": "…ar and a further **23.97%** to **NPR 96.1B** in FY 2025/26 (nea-annual-report-fy2025-26, PDF p.13), while export revenue (NPR 29.3B in FY 2025/26)…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-india-decisive-actor",
-        "title": "India Is the Decisive External Actor in Nepal's Hydro Future",
-        "category": "claims",
-        "context": "…0 MW to Bihar) and the Indo-Nepal Power Exchange Committee (nea-annual-report-fy2025-26, PDF p.14). India is therefore the main practical export ma…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-mw-not-equal-value",
-        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
-        "category": "claims",
-        "context": "…report-fy2024-25]]) and 4,120.252 MW total for FY 2025/26 (nea-annual-report-fy2025-26); the DoED operating registry stood at 3,791.874 MW in its…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-systems-conversion-failure",
-        "title": "Nepal Fails on Conversion of Hydrological Advantage Into Deliverable Power",
-        "category": "claims",
-        "context": "…tion falling from 1,991 GWh in Bhadra to 801 GWh in Falgun (nea-annual-report-fy2025-26).",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-domestic-led-strategy",
-        "title": "Nepal Should Prioritize Domestic-Led Hydro With Export Support",
-        "category": "claims",
-        "context": "…and in synthesis; NEA reports **496 kWh** for FY 2025/26 in nea-annual-report-fy2025-26), and electricity is still a small share of final energy (*…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-timing-not-volume",
-        "title": "Nepal's Core Hydro Problem Is Timing, Not Annual Volume",
-        "category": "claims",
-        "context": "nea-annual-report-fy2025-26 repeats the pattern in a year of record net exports (2,794…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-transmission-immediate-blocker",
-        "title": "Transmission and Delivery Are Material Immediate Monetization Constraints",
-        "category": "claims",
-        "context": "The NEA Annual Report FY 2025/26 says the newly commissioned Markichowk–Bharatpur 220 kV lin…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-electricity-system-indicators",
-        "title": "Electricity System Indicator Register",
-        "category": "data",
-        "context": "…and national peak versus system peak. FY 2025/26 rows from nea-annual-report-fy2025-26 sit alongside the FY 2024/25 rows. Earlier rows are kept as…",
-        "target_exists": true
-      },
-      {
-        "slug": "figure-index",
-        "title": "Figure Index",
-        "category": "data",
-        "context": "…_26.svg) | SVG | master-thesis, seasonal-mismatch | nea-annual-report-fy2025-26 | Monthly energy-balance table totals (exports 3,938 GWh, i…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-substation-inventory",
-        "title": "Grid Substation Inventory",
-        "category": "data",
-        "context": "nea-annual-report-fy2025-26 — Appendix 8 substation tables (PDF pp.214–226) and project…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-nea-grid-infrastructure-fy2025-26",
-        "title": "NEA Grid Infrastructure FY 2025/26",
-        "category": "data",
-        "context": "nea-annual-report-fy2025-26",
-        "target_exists": true
-      },
-      {
-        "slug": "data-nea-system-annual-timeseries",
-        "title": "NEA System Annual Time Series FY 2015/16–2025/26",
-        "category": "data",
-        "context": "…2016/17 to FY 2025/26 come from the statistics appendix of nea-annual-report-fy2025-26. FY 2015/16 comes from the same tables in [[nea-annual-repo…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-plant-annual-generation",
-        "title": "Plant Annual Generation FY 2024/25–2025/26",
-        "category": "data",
-        "context": "nea-annual-report-fy2025-26",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-transmission-completion",
-        "title": "Decision Dossier — Hetauda–Dhalkebar Completion and Community Resolution",
-        "category": "interventions",
-        "context": "nea-annual-report-fy2025-26 states that the decade-long construction dispute \"has final…",
         "target_exists": true
       }
     ],
@@ -15058,6 +16801,59 @@
         "title": "NEA Transmission Length FY 2076/77",
         "category": "data",
         "context": "corridors such as khimti-dhalkebar-corridor and the later",
+        "target_exists": true
+      }
+    ],
+    "rpgcl": [
+      {
+        "slug": "hidcl",
+        "title": "Hydroelectricity Investment and Development Company Limited (HIDCL)",
+        "category": "entities",
+        "context": "moewri · rpgcl · nea · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "…lists wecs, doed, nea, erc, aepc, VUCL, rpgcl, hidcl, DWRI and NNRFC as related bodies.",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "state-promoted companies: rpgcl, hidcl, VUCL",
+        "target_exists": true
+      }
+    ],
+    "doed": [
+      {
+        "slug": "ibn",
+        "title": "Investment Board Nepal (IBN)",
+        "category": "entities",
+        "context": "…ect portfolio. The overlap with licensing is visible on the doed website, which publishes separate Investment Board project…",
+        "target_exists": true
+      },
+      {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "Its website lists wecs, doed, nea, erc, aepc, VUCL, rpgcl, hidcl, DW…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry",
+        "category": "data",
+        "context": "doed · ippan · nea",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "ministry and departments: moewri, doed, DHM",
         "target_exists": true
       }
     ],
@@ -15271,7 +17067,7 @@
         "slug": "khimti-ii",
         "title": "Khimti II",
         "category": "entities",
-        "context": "icra-nepal-surveillance-a996-b119",
+        "context": "ICRA Nepal — Surveillance Rating A996/B119",
         "target_exists": true
       },
       {
@@ -15471,6 +17267,13 @@
         "title": "Grid Substation Inventory",
         "category": "data",
         "context": "nea-solar-loi-2024 — substation names and districts on the 2024 solar award re…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "Solar rows aggregate the 63 award rows of nea-solar-loi-2024, as transcribed in . The capa…",
         "target_exists": true
       }
     ],
@@ -15758,7 +17561,7 @@
         "slug": "middle-tamor",
         "title": "Middle Tamor",
         "category": "entities",
-        "context": "urja-khabar-generation-audit",
+        "context": "Urja Khabar Generation Audit — IPP Generation vs Contracted",
         "target_exists": true
       }
     ],
@@ -15786,6 +17589,52 @@
         "title": "New Modi–Lekhnath 132 kV Transmission Line",
         "category": "entities",
         "context": "including pages such as lower-modi-khola and upper-modi-a.",
+        "target_exists": true
+      }
+    ],
+    "wecs": [
+      {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "Its website lists wecs, doed, nea, erc, aepc, VUCL, rpgcl, [[h…",
+        "target_exists": true
+      },
+      {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)",
+        "category": "entities",
+        "context": "wecs · moewri · data-energy-institutions · [[data-load-a…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "planning and promotion bodies: wecs, aepc",
+        "target_exists": true
+      }
+    ],
+    "hidcl": [
+      {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
+        "category": "entities",
+        "context": "…s]], doed, nea, erc, aepc, VUCL, rpgcl, hidcl, DWRI and NNRFC as related bodies.",
+        "target_exists": true
+      },
+      {
+        "slug": "rpgcl",
+        "title": "Rastriya Prasaran Grid Company Limited (RPGCL)",
+        "category": "entities",
+        "context": "moewri · nea · hidcl · data-energy-institutions",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "state-promoted companies: rpgcl, hidcl, VUCL",
         "target_exists": true
       }
     ],
@@ -15905,6 +17754,13 @@
         "title": "NEA Solar Programme",
         "category": "entities",
         "context": "…~10 (pilot) | Planned/implementation | NEA / AEPC hybrid | karnali-solar-energy-project |",
+        "target_exists": true
+      },
+      {
+        "slug": "data-non-dam-storage-pipeline",
+        "title": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)",
+        "category": "data",
+        "context": "storage-and-flexibility · storage-deficit · karnali-solar-energy-project · kulekhani-cascade",
         "target_exists": true
       }
     ],
@@ -16119,6 +17975,31 @@
         "target_exists": true
       }
     ],
+    "data-load-anchors-and-fossil-backbone": [
+      {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)",
+        "category": "entities",
+        "context": "…and Dhangadi. Line-level storage and pipeline detail is in data-load-anchors-and-fossil-backbone.",
+        "target_exists": true
+      }
+    ],
+    "indian-embassy-motihari-amlekhgunj-pipeline-2019": [
+      {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)",
+        "category": "entities",
+        "context": "…Indian Oil Corporation built it in collaboration with NOC (indian-embassy-motihari-amlekhgunj-pipeline-2019).",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "**Fossil backbone:** the pipeline comes from indian-embassy-motihari-amlekhgunj-pipeline-2019 (69 km, 10-inch, 2 MMTPA). Storage comes from [[wecs-energy…",
+        "target_exists": true
+      }
+    ],
     "pancheshwar-official-project-record": [
       {
         "slug": "pancheshwar",
@@ -16290,7 +18171,7 @@
         "slug": "super-tamor",
         "title": "Super Tamor",
         "category": "entities",
-        "context": "…stry tier — distinct from \"Upper\". On the same Tamor River, upper-tamor (285 MW) and middle-tamor (54 MW) are under constructio…",
+        "context": "…stry tier — distinct from \"Upper\". On the same Tamor River, upper-tamor (285 MW) and Super Tamor (166 MW) appear in NEA's FY 2025/2…",
         "target_exists": true
       }
     ],
@@ -16299,7 +18180,7 @@
         "slug": "super-tamor",
         "title": "Super Tamor",
         "category": "entities",
-        "context": "…per\". On the same Tamor River, upper-tamor (285 MW) and middle-tamor (54 MW) are under construction, while Super Tamor (155 MW)…",
+        "context": "…pear in NEA's FY 2025/26 under-construction appendix, while middle-tamor (73 MW) is in the DoED operating register. [[tamor-storage]…",
         "target_exists": true
       }
     ],
@@ -16308,7 +18189,7 @@
         "slug": "super-tamor",
         "title": "Super Tamor",
         "category": "entities",
-        "context": "…uction, while Super Tamor (155 MW) remains at survey stage. tamor-storage (200 MW) is a separate storage proposal. See also the broad…",
+        "context": "…middle-tamor (73 MW) is in the DoED operating register. tamor-storage (200 MW) is a separate storage proposal. See also the broad…",
         "target_exists": true
       }
     ],
@@ -16515,29 +18396,6 @@
         "title": "Trishuli Cascade",
         "category": "entities",
         "context": "…sponsorship patterns with several Trishuli projects via the chilime-trishuli-220kv-transmission-line.",
-        "target_exists": true
-      }
-    ],
-    "doed-licensing-directive-2075": [
-      {
-        "slug": "trishuli-galchhi",
-        "title": "Trishuli Galchhi",
-        "category": "entities",
-        "context": "doed-licensing-directive-2075",
-        "target_exists": true
-      },
-      {
-        "slug": "figure-index",
-        "title": "Figure Index",
-        "category": "data",
-        "context": "…/license_type_mix.svg) | SVG | data-fleet-composition | doed-licensing-directive-2075 | Licensing-stage counts are administrative status snapshot…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-q-design-climate-adjustment",
-        "title": "Decision Dossier — Climate-Risk Requirements in Hydropower Studies",
-        "category": "interventions",
-        "context": "doed-licensing-directive-2075 records a Q45 design-discharge requirement in the current a…",
         "target_exists": true
       }
     ],
@@ -17268,6 +19126,20 @@
         "title": "Electricity Consumption Geographic Distribution",
         "category": "data",
         "context": "data-industrial-electricity-consumers — which industries are the top consumers",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "noc · data-industrial-electricity-consumers · data-final-energy-mix · [[demand-and-electrification]…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-erc-retail-tariffs",
+        "title": "NEA Retail Electricity Tariff Schedule",
+        "category": "data",
+        "context": "ppa-pricing · data-industrial-electricity-consumers · data-domestic-demand",
         "target_exists": true
       }
     ],
@@ -18087,22 +19959,6 @@
         "target_exists": true
       }
     ],
-    "erc-open-access-directive-2082": [
-      {
-        "slug": "nea-triple-authority",
-        "title": "NEA Triple-Authority Conflict",
-        "category": "concepts",
-        "context": "…in Transmission and Distribution System on 9 January 2026 (erc-open-access-directive-2082; [Pioneer Law brief](https://pioneerlaw.com/resource/brief-…",
-        "target_exists": true
-      },
-      {
-        "slug": "intervention-nea-structural-separation",
-        "title": "Decision Dossier — Power-System Role Separation and Open Access",
-        "category": "interventions",
-        "context": "Public reporting indexed at erc-open-access-directive-2082 states that ERC issued the Open Access Directive 2082 in Ja…",
-        "target_exists": true
-      }
-    ],
     "institutions-finance-and-project-delivery": [
       {
         "slug": "nea-triple-authority",
@@ -18144,94 +20000,6 @@
         "title": "Decision Dossier — Power-System Role Separation and Open Access",
         "category": "interventions",
         "context": "institutions-finance-and-project-delivery",
-        "target_exists": true
-      }
-    ],
-    "erc-reservoir-ppa-directive-2082": [
-      {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "…issuer and ratings records, ERC discussion papers, and the 2082 reservoir directive. RoR and PRoR records commonly use energy tariffs different…",
-        "target_exists": true
-      },
-      {
-        "slug": "seasonal-mismatch",
-        "title": "Seasonal Mismatch",
-        "category": "concepts",
-        "context": "…inguishes declared available capacity from contract energy (erc-reservoir-ppa-directive-2082, ppa-pricing).",
-        "target_exists": true
-      },
-      {
-        "slug": "storage-deficit",
-        "title": "Storage Deficit",
-        "category": "concepts",
-        "context": "…rom capacity declared and kept available for named periods (erc-reservoir-ppa-directive-2082). Whether that framework attracts finance and survives cont…",
-        "target_exists": true
-      },
-      {
-        "slug": "film-nepal-has-hydropower",
-        "title": "Film Evidence: Nepal Has Hydropower. Why Isn't It Enough?",
-        "category": "syntheses",
-        "context": "…rates declared available capacity from contract energy. See erc-reservoir-ppa-directive-2082.",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "…contract energy from capacity declared and kept available (erc-reservoir-ppa-directive-2082). If what gets paid for shapes what gets built, more of Nep…",
-        "target_exists": true
-      },
-      {
-        "slug": "unresolved-questions",
-        "title": "Unresolved Questions",
-        "category": "syntheses",
-        "context": "…ependable service | **OPEN** — official text is verified at erc-reservoir-ppa-directive-2082; project-level ERC applications, decisions, signed PPAs, fi…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-ror-dominance",
-        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
-        "category": "claims",
-        "context": "Track project-level use of the 2082 reservoir PPA directive. Issuance is a framework signal, not evidence that the oper…",
-        "target_exists": true
-      }
-    ],
-    "erc-eca-storage-ppa-discussion-paper-2025": [
-      {
-        "slug": "ppa-pricing",
-        "title": "PPA Pricing",
-        "category": "concepts",
-        "context": "The 2025 ERC/ECA discussion paper records NEA's April 2017 standard tariffs for RoR, PRoR, an…",
-        "target_exists": true
-      },
-      {
-        "slug": "master-thesis",
-        "title": "Master Thesis",
-        "category": "syntheses",
-        "context": "….8 per kWh in the wet season and NPR 8.4 in the dry season (erc-eca-storage-ppa-discussion-paper-2025, Table 1): generate a unit, earn for that unit. A run-of-ri…",
-        "target_exists": true
-      },
-      {
-        "slug": "unresolved-questions",
-        "title": "Unresolved Questions",
-        "category": "syntheses",
-        "context": "…, while the 2082 directive is approved official text | Cite erc-eca-storage-ppa-discussion-paper-2025 for discussion-paper findings and [[erc-reservoir-ppa-direc…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-mw-not-equal-value",
-        "title": "Installed MW, Energy, Seasonality, and Firm Power Are Routinely Conflated",
-        "category": "claims",
-        "context": "…capacity as a possible basis for a separate fixed payment (erc-eca-storage-ppa-discussion-paper-2025). The regulator itself treats energy and dependable capacit…",
-        "target_exists": true
-      },
-      {
-        "slug": "claim-ror-dominance",
-        "title": "Operating Fleet Is Overwhelmingly RoR/PRoR, Not True Storage",
-        "category": "claims",
-        "context": "The 2025 ERC/ECA storage-PPA discussion paper independently describes hydro capacity as predominantly RoR…",
         "target_exists": true
       }
     ],
@@ -18322,6 +20090,13 @@
         "title": "Electricity System Indicator Register",
         "category": "data",
         "context": "…bution-and-reliability]] · demand-and-electrification · storage-and-flexibility · data-electricity-system-evidence-gaps · [[data-nea-sy…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-non-dam-storage-pipeline",
+        "title": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)",
+        "category": "data",
+        "context": "storage-and-flexibility · storage-deficit · karnali-solar-energy-project ·…",
         "target_exists": true
       }
     ],
@@ -19168,6 +20943,47 @@
         "target_exists": true
       }
     ],
+    "ibn": [
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "investment board: ibn",
+        "target_exists": true
+      }
+    ],
+    "ippan": [
+      {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry",
+        "category": "data",
+        "context": "doed · ippan · nea",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "industry association: ippan",
+        "target_exists": true
+      }
+    ],
+    "noc": [
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "noc · data-industrial-electricity-consumers · [[data-final-…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry",
+        "category": "data",
+        "context": "petroleum supplier: noc",
+        "target_exists": true
+      }
+    ],
     "claim-floating-pv-leverage": [
       {
         "slug": "data-layer-floating-pv-candidates",
@@ -19301,6 +21117,15 @@
         "target_exists": true
       }
     ],
+    "customs-foreign-trade-statistics-2080-83": [
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "…from Table 5 of the customs annual workbooks (customs-foreign-trade-statistics-2080-83).",
+        "target_exists": true
+      }
+    ],
     "data-layer-carto-positron": [
       {
         "slug": "data-map-layer-labels",
@@ -19370,24 +21195,6 @@
         "title": "Map Layer Labels",
         "category": "data",
         "context": "…al share, and downstream identity across the basin stack. | data-layer-origin-control-callouts |",
-        "target_exists": true
-      }
-    ],
-    "data-layer-hydropower-operating": [
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…a scales by capacity, and wiki counts show page coverage. | data-layer-hydropower-operating |",
-        "target_exists": true
-      }
-    ],
-    "data-layer-hydropower-construction": [
-      {
-        "slug": "data-map-layer-labels",
-        "title": "Map Layer Labels",
-        "category": "data",
-        "context": "…m capacity pressure on basins and transmission corridors. | data-layer-hydropower-construction |",
         "target_exists": true
       }
     ],

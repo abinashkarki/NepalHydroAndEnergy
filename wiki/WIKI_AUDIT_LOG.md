@@ -2531,3 +2531,15 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 **Decisions made:**
 - [any human approval or override]
 ```
+
+---
+
+## 2026-11-24 — Data Sprint Wrap-Up (WP 3A–5C Consolidation, Canonical Geography, WP 3B & Governance v2)
+
+- **Session type:** `data-sprint` (branch `data/coverage-sprint-2026-11`)
+- **Work completed:**
+  - Consolidated WP 3A (`2173cfb`), WP 4A+4B (`4fb2070`), and WP 5A–5C (`9a38fe9`) cleanly from parallel sprint worktrees without intermediate generated-artifact churn.
+  - Added `scripts/enrich_canonical_geography.py` (`1848e57`), backfilling canonical Nepal `district`/`province` on 149/153 grid substations (up from 37–40/153) and linking 20/20 rows in `data/industrial_load_anchors.csv` to verified `substation_slug` entries.
+  - Completed WP 3B (`e9c9432`), adding +127 verified technical spec cells across 29 flagship and JICA storage rows in `data/project_specs.csv` (87 projects total: 2 rich, 24 moderate, 61 thin; 0 remaining legacy `under construction (generation licence)` wording).
+  - Updated `wiki/GOVERNANCE.md` (`df64740`) with the Two-Tier Grounding Rule and Data Sprint Mode.
+  - Rebuilt `wiki-index`, `wiki-site`, and `control-room.json` once at sprint end; full release gate passed (462 pages, 145 Python tests, 3 Node suites, 38 generated-asset ownership checks).

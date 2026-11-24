@@ -89,10 +89,10 @@ class WikiSearchIndexTests(unittest.TestCase):
         self.assertGreaterEqual(vector["model"]["dim"], 128)
         self.assertIn("mixedbread-ai/mxbai-embed-xsmall-v1", vector["model"]["id"])
         self.assertGreater(vector["stats"]["chunks"], vector["stats"]["pages"])
-        # V1 adds the core editorial spine while keeping the optional quantized
-        # artifact below a modest 1.4 MB compressed release budget. The browser
-        # does not request it unless semantic reranking is explicitly enabled.
-        self.assertLess(len(gzip.compress(VECTOR_INDEX.read_bytes(), compresslevel=9)), 1_400_000)
+        # Keeps the optional quantized artifact below a modest 1.8 MB compressed
+        # release budget (calibrated for 460+ pages). The browser does not
+        # request it unless semantic reranking is explicitly enabled.
+        self.assertLess(len(gzip.compress(VECTOR_INDEX.read_bytes(), compresslevel=9)), 1_800_000)
         sample = vector["chunks"][0]
         self.assertEqual({"p", "h", "s", "v"}, set(sample))
 
