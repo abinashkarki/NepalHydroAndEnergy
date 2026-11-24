@@ -2512,6 +2512,26 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-25 — Coverage Sprint 2 (Activation, Geocoding, Deepening, Visuals)
+
+**Agent:** Claude Code (Opus 5.5, Data Sprint Mode on `data/coverage-sprint-2026-11`, 3 parallel sub-agents)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Scope:** Step 0 + WP 6A–10B (commits `94b9f38`…`9eefeab`). Substations geocoded 28 → 98/153; five Explorer infrastructure layers + opt-in GLOF layer and new `energy_infrastructure` preset; fact index 692 → 1,050 facts; `project_specs.csv` tiers 2/24 → 9 rich / 41 moderate; ERC tariff effective date verified for 223/223 rows; 28 plant-level export-approval rows; solar resource_zone 86/88; 5 new charts; hazard register (13 events) + 21 ICIMOD dangerous lakes; project events 57, blockers 40. Pages 462 → 470.
+
+**Validation result:** OK (single final `make wiki-index`, `make wiki-site`, `make dashboard-build`, `make release-check`)
+
+**Flags raised:**
+- Harnaiya substation district corrected Parsa → Bara (NEA FY 2025/26); Ridi geography withheld (Gulmi/Palpa border).
+- Legacy RPGCL georeference places committed labels/linework/place anchors/network nodes ~7–14 km south of true position; 11 substation rows re-derived, but the shared layers still carry the bias (Kushma, Mahendranagar, Bhurigaon rows too).
+- Engineering fields for Super Dordi Kha, Mristi, Upper Bhotekoshi, Upper Marsyangdi A cite NWR Map (unsourced secondary) — marked secondary in `source_note`; review before relying on them.
+- VUCL now lists Phukot Karnali at 480 MW vs `capacity_mw` 426 — unchanged, flagged in `source_note`.
+- All 28 per-plant export-approval rows are press-sourced (CEA letters still HTTP 404); channel totals must be computed from `channel-aggregate` rows only.
+- Upper Tamakoshi Sept 2024 outage/damage figures rest on the wiki's UKHL compilation (medium confidence).
+- WP 8A commit subject says "100% solar resource zones"; actual is 86/88 (Dadeldhura, Sankhuwasabha unresolved).
+
+---
+
 ## Log Format for Future Sessions
 
 ```

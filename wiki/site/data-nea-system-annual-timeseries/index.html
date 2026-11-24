@@ -289,6 +289,11 @@
 <p>Installed capacity is only populated for the two report years. FY 2024/25 had 3,591.262 MW in total: NEA 661.57, NEA subsidiaries 646.4, IPPs 2,283.292, of which solar was 141.94. FY 2025/26 had 4,120.252 MW: NEA 661.57, subsidiaries 748.4, IPPs 2,710.282, of which solar was 154.94. Grid coverage was 97.6% in both years.</p>
 <aside class="callout callout-finding"><div class="callout-label">Finding</div><div class="callout-body"><p>Energy available rose from 5,077 GWh in FY 2015/16 to 18,624 GWh in FY 2025/26. Over the same years, purchases from India fell from 35% of the total (1,778 GWh) to 6% (1,171 GWh), and exports rose from 3 GWh to 3,965 GWh.</p></div></aside>
 <aside class="callout callout-finding"><div class="callout-label">Finding</div><div class="callout-body"><p>The NEA-subsidiary purchase series jumps from 148 GWh in FY 2020/21 to 1,976 GWh in FY 2021/22. The tables report this as a supplier-category total and do not attribute the step to individual plants.</p></div></aside>
+<figure class="wiki-inline-figure">
+  <img src="/wiki/assets/figures/nea_system_trajectory_11yr.svg" alt="Three stacked panels for FY 2015/16 to 2025/26: domestic generation by NEA, NEA subsidiaries and IPPs; imports and exports in GWh; and NEA system loss in percent">
+  <figcaption>Domestic generation rose from 3,299 GWh to 17,454 GWh, exports from 3 to 3,965 GWh, and system loss fell from 25.78% to 12.16%. Source: <a href="/wiki/nea-annual-report-fy2024-25/">NEA Annual Report FY 2024/25</a> and <a href="/wiki/nea-annual-report-fy2025-26/">NEA Annual Report FY 2025/26</a> statistics appendices, via the CSV on this page.</figcaption>
+</figure>
+
 <h2>Coverage / Method</h2>
 <p><a href="../../../scripts/extract_nea_annual_tables.py"><code>scripts/extract_nea_annual_tables.py</code></a> runs <code>pdftotext -layout</code> on fixed appendix pages and parses the labelled ten-year rows. It checks that the capacity components sum to the reported total, prints any differences in the years the two reports share, and prints a cross-check against the monthly energy balance. <code>--check</code> fails if the committed CSV is stale. Pages used, as PDF page numbers:</p>
 <ul>
@@ -378,7 +383,7 @@
 </div>
     
   </article>
-  <aside class="backlinks" aria-label="Pages that link here"><h2>Pages that link here <span>3</span></h2><ul><li><a href="/wiki/data-electricity-system-indicators/">Electricity System Indicator Register</a><span>Data</span></li><li><a href="/wiki/data-nea-grid-infrastructure-fy2025-26/">NEA Grid Infrastructure FY 2025/26</a><span>Data</span></li><li><a href="/wiki/data-plant-annual-generation/">Plant Annual Generation FY 2024/25–2025/26</a><span>Data</span></li></ul></aside>
+  <aside class="backlinks" aria-label="Pages that link here"><h2>Pages that link here <span>4</span></h2><ul><li><a href="/wiki/data-electricity-system-indicators/">Electricity System Indicator Register</a><span>Data</span></li><li><a href="/wiki/figure-index/">Figure Index</a><span>Data</span></li><li><a href="/wiki/data-nea-grid-infrastructure-fy2025-26/">NEA Grid Infrastructure FY 2025/26</a><span>Data</span></li><li><a href="/wiki/data-plant-annual-generation/">Plant Annual Generation FY 2024/25–2025/26</a><span>Data</span></li></ul></aside>
 </main>
 <footer class="site-footer">
   <p>Nepal Energy Wiki is a citizen-led evidence project by <a href="https://transparentgov.ai/">TransparentGov</a>. Every page links to its sources; confidence ratings and caveats are part of the answer.</p>

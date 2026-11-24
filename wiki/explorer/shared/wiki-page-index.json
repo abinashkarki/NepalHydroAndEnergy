@@ -66,8 +66,16 @@
         "title": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II"
       },
       {
+        "slug": "ekantipur-additional-80mw-export-approval-2025",
+        "title": "Kantipur \u2014 Approval to sell an additional 80 MW of electricity in India (2025)"
+      },
+      {
         "slug": "erc-eca-storage-ppa-discussion-paper-2025",
         "title": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)"
+      },
+      {
+        "slug": "erc-nea-consumer-tariff-order-2078",
+        "title": "ERC \u2014 NEA Electricity Consumer Tariff Determination 2078"
       },
       {
         "slug": "erc-open-access-directive-2082",
@@ -88,6 +96,10 @@
       {
         "slug": "himalayan-capital-analysis",
         "title": "Himalayan Capital \u2014 Sahas Urja Analysis"
+      },
+      {
+        "slug": "icimod-glacial-lake-inventory-2020",
+        "title": "ICIMOD & UNDP Glacial Lake Inventory and Potentially Dangerous Lakes (2020)"
       },
       {
         "slug": "icimod-hkh-glacier-change",
@@ -156,6 +168,18 @@
       {
         "slug": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
         "title": "Kathmandu Post \u2014 Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)"
+      },
+      {
+        "slug": "kathmandupost-export-approval-renewals-2026",
+        "title": "Kathmandu Post \u2014 India renews export approvals for four Nepali hydropower projects (2026)"
+      },
+      {
+        "slug": "kathmandupost-india-approves-additional-200mw-2025",
+        "title": "Kathmandu Post \u2014 India approves purchase of additional 200 MW from Nepal (2025)"
+      },
+      {
+        "slug": "kathmandupost-nvvn-200mw-five-year-deal-2023",
+        "title": "Kathmandu Post \u2014 Nepal to sell 200MW under 5-year deal (2023)"
       },
       {
         "slug": "khimti-i-project-research",
@@ -276,6 +300,10 @@
       {
         "slug": "sjvn-arun-3-project-record",
         "title": "SJVN Arun III HEP Project Record"
+      },
+      {
+        "slug": "spotlightnepal-nea-594mw-iex-approval-2026",
+        "title": "Spotlight Nepal \u2014 NEA secures approval from India to sell 594 MW (2026)"
       },
       {
         "slug": "tanahu-adb-status-2025",
@@ -1592,6 +1620,10 @@
         "title": "Industrial Electricity Consumers in Nepal"
       },
       {
+        "slug": "data-infrastructure-hazard-register",
+        "title": "Infrastructure Hazard Register (2023-2026) and Dangerous Glacial Lakes"
+      },
+      {
         "slug": "data-ipsdp-milestone-ladder-2022-2040",
         "title": "IPSDP Milestone Ladder 2022-2040"
       },
@@ -1880,12 +1912,15 @@
     "doed-solar-power-plants-table",
     "dudhkoshi-nea-proposal-2024",
     "eib-rural-solar-phase2",
+    "ekantipur-additional-80mw-export-approval-2025",
     "erc-eca-storage-ppa-discussion-paper-2025",
+    "erc-nea-consumer-tariff-order-2078",
     "erc-open-access-directive-2082",
     "erc-reservoir-ppa-directive-2082",
     "global-solar-atlas-nepal",
     "green-hydrogen-roadmap-nepal",
     "himalayan-capital-analysis",
+    "icimod-glacial-lake-inventory-2020",
     "icimod-hkh-glacier-change",
     "icimod-koshi-basin",
     "icimod-koshi-sediment-threats",
@@ -1903,6 +1938,9 @@
     "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
     "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026",
     "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+    "kathmandupost-export-approval-renewals-2026",
+    "kathmandupost-india-approves-additional-200mw-2025",
+    "kathmandupost-nvvn-200mw-five-year-deal-2023",
     "khimti-i-project-research",
     "likhu-cascade-research-compilation",
     "moewri-ipsdp-exec-summary-2025",
@@ -1933,6 +1971,7 @@
     "sebon-hydropower-offering-records",
     "sector-financial-analysis-triple-authority-2026",
     "sjvn-arun-3-project-record",
+    "spotlightnepal-nea-594mw-iex-approval-2026",
     "tanahu-adb-status-2025",
     "tanahu-progress-2026",
     "uahel-upper-arun-project",
@@ -2259,6 +2298,7 @@
     "data-final-energy-mix",
     "data-fleet-composition",
     "data-industrial-electricity-consumers",
+    "data-infrastructure-hazard-register",
     "data-ipsdp-milestone-ladder-2022-2040",
     "data-layer-basin-seasonality",
     "data-layer-carto-positron",
@@ -2344,12 +2384,15 @@
     "doed-solar-power-plants-table": "sources",
     "dudhkoshi-nea-proposal-2024": "sources",
     "eib-rural-solar-phase2": "sources",
+    "ekantipur-additional-80mw-export-approval-2025": "sources",
     "erc-eca-storage-ppa-discussion-paper-2025": "sources",
+    "erc-nea-consumer-tariff-order-2078": "sources",
     "erc-open-access-directive-2082": "sources",
     "erc-reservoir-ppa-directive-2082": "sources",
     "global-solar-atlas-nepal": "sources",
     "green-hydrogen-roadmap-nepal": "sources",
     "himalayan-capital-analysis": "sources",
+    "icimod-glacial-lake-inventory-2020": "sources",
     "icimod-hkh-glacier-change": "sources",
     "icimod-koshi-basin": "sources",
     "icimod-koshi-sediment-threats": "sources",
@@ -2367,6 +2410,9 @@
     "kathmandupost-bhotekoshi-flood-hydropower-damage-2026": "sources",
     "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026": "sources",
     "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026": "sources",
+    "kathmandupost-export-approval-renewals-2026": "sources",
+    "kathmandupost-india-approves-additional-200mw-2025": "sources",
+    "kathmandupost-nvvn-200mw-five-year-deal-2023": "sources",
     "khimti-i-project-research": "sources",
     "likhu-cascade-research-compilation": "sources",
     "moewri-ipsdp-exec-summary-2025": "sources",
@@ -2397,6 +2443,7 @@
     "sebon-hydropower-offering-records": "sources",
     "sector-financial-analysis-triple-authority-2026": "sources",
     "sjvn-arun-3-project-record": "sources",
+    "spotlightnepal-nea-594mw-iex-approval-2026": "sources",
     "tanahu-adb-status-2025": "sources",
     "tanahu-progress-2026": "sources",
     "uahel-upper-arun-project": "sources",
@@ -2723,6 +2770,7 @@
     "data-final-energy-mix": "data",
     "data-fleet-composition": "data",
     "data-industrial-electricity-consumers": "data",
+    "data-infrastructure-hazard-register": "data",
     "data-ipsdp-milestone-ladder-2022-2040": "data",
     "data-layer-basin-seasonality": "data",
     "data-layer-carto-positron": "data",
@@ -2808,12 +2856,15 @@
     "doed-solar-power-plants-table": "DoED Power Plants: Solar Table",
     "dudhkoshi-nea-proposal-2024": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record",
     "eib-rural-solar-phase2": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
+    "ekantipur-additional-80mw-export-approval-2025": "Kantipur \u2014 Approval to sell an additional 80 MW of electricity in India (2025)",
     "erc-eca-storage-ppa-discussion-paper-2025": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)",
+    "erc-nea-consumer-tariff-order-2078": "ERC \u2014 NEA Electricity Consumer Tariff Determination 2078",
     "erc-open-access-directive-2082": "ERC Open Access Directive 2082",
     "erc-reservoir-ppa-directive-2082": "ERC Reservoir-Based Generating Station Electricity Purchase and Sale Directive 2082",
     "global-solar-atlas-nepal": "Global Solar Atlas (Nepal coverage)",
     "green-hydrogen-roadmap-nepal": "Green Hydrogen Roadmap for Nepal",
     "himalayan-capital-analysis": "Himalayan Capital \u2014 Sahas Urja Analysis",
+    "icimod-glacial-lake-inventory-2020": "ICIMOD & UNDP Glacial Lake Inventory and Potentially Dangerous Lakes (2020)",
     "icimod-hkh-glacier-change": "ICIMOD HKH Glacier Change Summary",
     "icimod-koshi-basin": "ICIMOD Koshi Basin Programme",
     "icimod-koshi-sediment-threats": "ICIMOD Threats to the Koshi River Basin",
@@ -2831,6 +2882,9 @@
     "kathmandupost-bhotekoshi-flood-hydropower-damage-2026": "Kathmandu Post \u2014 Flood damage to Nepal's hydropower sector could run into billions (2026)",
     "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026": "Kathmandu Post / NDRRMA \u2014 Death toll from Bhotekoshi flood reaches 734 (2026)",
     "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026": "Kathmandu Post \u2014 Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)",
+    "kathmandupost-export-approval-renewals-2026": "Kathmandu Post \u2014 India renews export approvals for four Nepali hydropower projects (2026)",
+    "kathmandupost-india-approves-additional-200mw-2025": "Kathmandu Post \u2014 India approves purchase of additional 200 MW from Nepal (2025)",
+    "kathmandupost-nvvn-200mw-five-year-deal-2023": "Kathmandu Post \u2014 Nepal to sell 200MW under 5-year deal (2023)",
     "khimti-i-project-research": "Khimti-I Project Research \u2014 PPA, Generation, Finance, Ownership",
     "likhu-cascade-research-compilation": "Likhu Cascade Research Compilation",
     "moewri-ipsdp-exec-summary-2025": "MoEWRI IPSDP Executive Summary",
@@ -2861,6 +2915,7 @@
     "sebon-hydropower-offering-records": "SEBON Hydropower Offering Records (Selected Issuers, 2018\u20132025)",
     "sector-financial-analysis-triple-authority-2026": "Systemic Risk and Triple-Authority Research Compilation (2026)",
     "sjvn-arun-3-project-record": "SJVN Arun III HEP Project Record",
+    "spotlightnepal-nea-594mw-iex-approval-2026": "Spotlight Nepal \u2014 NEA secures approval from India to sell 594 MW (2026)",
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132026)",
     "tanahu-progress-2026": "Tanahu Hydropower Progress Update (April 2026)",
     "uahel-upper-arun-project": "UAHEL Upper Arun Hydroelectric Project Page",
@@ -3187,6 +3242,7 @@
     "data-final-energy-mix": "Nepal Final Energy Mix",
     "data-fleet-composition": "Hydropower Fleet Composition",
     "data-industrial-electricity-consumers": "Industrial Electricity Consumers in Nepal",
+    "data-infrastructure-hazard-register": "Infrastructure Hazard Register (2023-2026) and Dangerous Glacial Lakes",
     "data-ipsdp-milestone-ladder-2022-2040": "IPSDP Milestone Ladder 2022-2040",
     "data-layer-basin-seasonality": "Layer: Basin Seasonality",
     "data-layer-carto-positron": "Layer: Carto Positron Basemap",
@@ -3255,5 +3311,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 462
+  "totalPages": 470
 }

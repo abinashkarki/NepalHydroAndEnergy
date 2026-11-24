@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/wiki/assets/site/wiki.css" />
   <script src="/wiki/assets/site/theme.js" defer></script>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b6b57'/%3E%3C/svg%3E" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://transparentgov.ai/wiki/data-solar-fleet-inventory/#article","headline":"Solar Fleet Inventory","name":"Solar Fleet Inventory","description":"The utility-scale solar analogue of data-fleet-composition. The full \"what is on the ground, what has PPA, what is being built, what is tendered\" picture for…","url":"https://transparentgov.ai/wiki/data-solar-fleet-inventory/","datePublished":"2026-04-23","dateModified":"2026-04-23","publisher":{"@type":"Organization","name":"TransparentGov","url":"https://transparentgov.ai/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Nepal Energy Wiki","item":"https://transparentgov.ai/wiki/"},{"@type":"ListItem","position":2,"name":"Data","item":"https://transparentgov.ai/wiki/#data"},{"@type":"ListItem","position":3,"name":"Solar Fleet Inventory","item":"https://transparentgov.ai/wiki/data-solar-fleet-inventory/"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://transparentgov.ai/wiki/data-solar-fleet-inventory/#article","headline":"Solar Fleet Inventory","name":"Solar Fleet Inventory","description":"The utility-scale solar analogue of data-fleet-composition. The full \"what is on the ground, what has PPA, what is being built, what is tendered\" picture for…","url":"https://transparentgov.ai/wiki/data-solar-fleet-inventory/","datePublished":"2026-04-23","dateModified":"2026-11-25","publisher":{"@type":"Organization","name":"TransparentGov","url":"https://transparentgov.ai/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Nepal Energy Wiki","item":"https://transparentgov.ai/wiki/"},{"@type":"ListItem","position":2,"name":"Data","item":"https://transparentgov.ai/wiki/#data"},{"@type":"ListItem","position":3,"name":"Solar Fleet Inventory","item":"https://transparentgov.ai/wiki/data-solar-fleet-inventory/"}]}]}</script>
 </head>
 <body>
 <header class="site-header">
@@ -42,7 +42,7 @@
     <header class="page-head">
       <h1>Solar Fleet Inventory</h1>
       
-      <dl class="facts"><div><dt>Page status</dt><dd>Working page</dd></div><div><dt>Updated</dt><dd>2026-04-23</dd></div></dl>
+      <dl class="facts"><div><dt>Page status</dt><dd>Working page</dd></div><div><dt>Updated</dt><dd>2026-11-25</dd></div></dl>
       <p class="page-actions"><a href="/wiki/explorer/?page=data-solar-fleet-inventory">Open in the interactive explorer and map</a></p>
     </header>
     
@@ -197,6 +197,38 @@
 </tr>
 </tbody></table></div>
 <p>The full DoED operating solar table has <strong>25 commissioned grid-connected plants totaling 141.74 MW</strong>. The table above is a narrative subset; the row-level registry is in <code>data/solar_project_specs.csv</code> and the mapped layer <a href="/wiki/data-layer-solar-plants-nea-awards/">Layer: Solar Plants + NEA 960 MW Awards</a>.</p>
+<h3>Registry reconciliation (checked 2026-11-25)</h3>
+<p>The DoED non-hydro registry snapshot in <code>data/processed/tables/doed_nonhydro_registry.csv</code> (DoED page updated 2026-10-15) lists <strong>27 operating solar plants totalling 154.74 MW</strong>. <code>data/solar_project_specs.csv</code> has 25 <code>operating-registry-record</code> rows totalling 141.74 MW, taken from the DoED table as updated on 9 January 2026. Matching on project title and capacity:</p>
+<ul>
+<li>25 registry plants match a specs row. Four match only on a shortened title: Som Radha Krishna (VGF), Pratappur (VGF), Ramgram and Nuwakot Block No. 5.</li>
+<li><strong>2 operating DoED plants are not yet in <code>solar_project_specs.csv</code>.</strong> Both have a DoED COD of 2082-10-28 BS, after the January 2026 snapshot:</li>
+</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th align="right">DoED row</th>
+<th>Project</th>
+<th align="right">Capacity (MW)</th>
+<th>Location</th>
+<th>Promoter</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">14</td>
+<td>Grid-Connected Solar Power Project, Duhabi, 33 kV S/S</td>
+<td align="right">8.0</td>
+<td>Mrigauliya (Morang)</td>
+<td>Global Energy &amp; Construction Pvt. Ltd.</td>
+</tr>
+<tr>
+<td align="right">27</td>
+<td>Solar PV Project, Dhalkebar</td>
+<td align="right">5.0</td>
+<td>Nakatajhijh (Dhanusha)</td>
+<td>Green Infrastructure Private Limited</td>
+</tr>
+</tbody></table></div>
+<p>The 13.0 MW gap accounts for the whole difference between 154.74 MW and 141.74 MW. The 141.74 MW headline above therefore reflects the January 2026 snapshot.</p>
 <p><strong>Of which:</strong></p>
 <ul>
 <li>NEA-owned: <strong>~24.36 MWp</strong> in the Bidur / Trishuli / Devighat block group</li>

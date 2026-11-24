@@ -62,15 +62,15 @@ Before starting Priority 1:
 
 | WP | Priority | Title | Status | Commit | Key Metric / Result |
 |---|---|---|---|---|---|
-| **Step 0** | Hygiene | Remove 5 Sprint 1 worktrees, fix CEA 404 note, spot-check substation geography | `PENDING` | — | — |
-| **WP 6A** | P1 | Geocode High-Voltage Substations (400/220/132 kV) & Industrial/Fossil/BESS Assets | `PENDING` | — | — |
-| **WP 6B** | P1 | Build Explorer GeoJSON Layers, New Preset & Wire All Registries into `wiki-fact-index.json` | `PENDING` | — | — |
-| **WP 7A** | P2 | Deepen Top 25 Thin Operating Hydro Plants (`project_specs.csv`) via Credit Ratings / Disclosures | `PENDING` | — | — |
-| **WP 7B** | P2 | Deepen Top 15 Thin Under-Construction Hydro Plants (`project_specs.csv`) + Refresh Maps & Stubs | `PENDING` | — | — |
-| **WP 8A** | P3 | Close Sprint 1 Open Gaps: Per-Plant CEA Export List, ERC Tariff Dates, Last 10 Solar Zones | `PENDING` | — | — |
-| **WP 9A** | P4 | Build 5 Publication-Grade Charts (`build_wiki_figures.py`) & Embed in New Data Pages | `PENDING` | — | — |
-| **WP 10A** | P5 | Multi-Year Geohazard Ledger (`infrastructure_hazard_events.csv`) + ICIMOD GLOF Lake Layer | `PENDING` | — | — |
-| **WP 10B** | P5 | Expand Live `project_events.csv` (14→50+) & `project_blockers.csv` (16→40+) Across Top 25 Projects | `PENDING` | — | — |
+| **Step 0** | Hygiene | Remove 5 Sprint 1 worktrees, fix CEA 404 note, spot-check substation geography | `DONE` | `94b9f38` | 5 worktrees + branches removed; CEA note → HTTP 404; 12 substations spot-checked: Harnaiya Parsa→Bara, Ridi geography withheld (Gulmi/Palpa border) |
+| **WP 6A** | P1 | Geocode High-Voltage Substations (400/220/132 kV) & Industrial/Fossil/BESS Assets | `PARTIAL` | `197d0d4` | substations geocoded 28→98/153 (target ≥85 met); 400 kV 12/15, 220 kV 14/22 (targets not met); 11 legacy RPGCL coords corrected (7–14 km south bias); anchors 14/20, fossil 12/20, storage 1/10 |
+| **WP 6B** | P1 | Build Explorer GeoJSON Layers, New Preset & Wire All Registries into `wiki-fact-index.json` | `DONE` | `7d292fb` | 5 GeoJSONs / 6 manifest layers, all off in overview; new energy_infrastructure preset; fact index 692→1,050 facts, 92.8 KB gzip; +substation/nonhydro/demand/storage/institution domains |
+| **WP 7A** | P2 | Deepen Top 25 Thin Operating Hydro Plants (`project_specs.csv`) via Credit Ratings / Disclosures | `DONE` | `79876cb` | 20/25 operating targets thin→moderate/rich (21/25 incl. Marsyangdi); Likhu-1/Likhu-2 field swap corrected |
+| **WP 7B** | P2 | Deepen Top 15 Thin Under-Construction Hydro Plants (`project_specs.csv`) + Refresh Maps & Stubs | `PARTIAL` | `8d6d39e` | dataset tiers 2 rich/24 moderate → 9 rich/41 moderate (target 15/50 not met); 8 flagship rows still thin for lack of primary specs |
+| **WP 8A** | P3 | Close Sprint 1 Open Gaps: Per-Plant CEA Export List, ERC Tariff Dates, Last 10 Solar Zones | `PARTIAL` | `48e0a56` | ERC tariff effective_from verified 223/223 (2021-11-17); 28 press-sourced plant-approval rows (16/37 FY 2025/26 plants named); solar resource_zone 78→86/88; DoED vs specs solar reconciliation noted |
+| **WP 9A** | P4 | Build 5 Publication-Grade Charts (`build_wiki_figures.py`) & Embed in New Data Pages | `DONE` | `649419e` | 5 new deterministic SVG charts embedded; figure manifest + ownership registered (23 SVGs total) |
+| **WP 10A** | P5 | Multi-Year Geohazard Ledger (`infrastructure_hazard_events.csv`) + ICIMOD GLOF Lake Layer | `DONE` | `1766a7e` | infrastructure_hazard_events.csv 13 events (2023–2026); 21 ICIMOD 2020 dangerous lakes + opt-in GLOF layer |
+| **WP 10B** | P5 | Expand Live `project_events.csv` (14→50+) & `project_blockers.csv` (16→40+) Across Top 25 Projects | `DONE` | `9eefeab` | project_events 14→57, project_blockers 16→40, 35 unique slugs |
 
 ---
 

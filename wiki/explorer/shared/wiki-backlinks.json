@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 354,
-  "total_refs": 2958,
+  "total_targets": 362,
+  "total_refs": 2982,
   "backlinks": {
     "buildability": [
       {
@@ -1566,7 +1566,7 @@
         "slug": "data-plant-annual-generation",
         "title": "Plant Annual Generation FY 2024/25–2025/26",
         "category": "data",
-        "context": "nea-annual-report-fy2024-25",
+        "context": "…Y 2025/26, while Upper Tamakoshi rose above design. Source: nea-annual-report-fy2024-25 and nea-annual-report-fy2025-26, via the CSV on this pa…",
         "target_exists": true
       },
       {
@@ -3609,7 +3609,7 @@
         "slug": "data-substation-inventory",
         "title": "Grid Substation Inventory",
         "category": "data",
-        "context": "nea-annual-report-fy2025-26 — Appendix 8 substation tables (PDF pp.214–226) and project…",
+        "context": "…Karnali; planned additions are spread more evenly. Source: nea-annual-report-fy2025-26 Appendix 8 and project tables, via the CSV on this page.</f…",
         "target_exists": true
       },
       {
@@ -3665,7 +3665,7 @@
         "slug": "data-plant-annual-generation",
         "title": "Plant Annual Generation FY 2024/25–2025/26",
         "category": "data",
-        "context": "nea-annual-report-fy2025-26",
+        "context": "…e above design. Source: nea-annual-report-fy2024-25 and nea-annual-report-fy2025-26, via the CSV on this page.</figcaption>",
         "target_exists": true
       },
       {
@@ -5341,6 +5341,43 @@
         "target_exists": true
       }
     ],
+    "data-cross-border-approved-plants": [
+      {
+        "slug": "ekantipur-additional-80mw-export-approval-2025",
+        "title": "Kantipur — Approval to sell an additional 80 MW of electricity in India (2025)",
+        "category": "sources",
+        "context": "…for the Mewa Khola and Karuwa Seti rows in data-cross-border-approved-plants.",
+        "target_exists": true
+      },
+      {
+        "slug": "kathmandupost-india-approves-additional-200mw-2025",
+        "title": "Kathmandu Post — India approves purchase of additional 200 MW from Nepal (2025)",
+        "category": "sources",
+        "context": "…source for most of the FY 2025/26 rows in data-cross-border-approved-plants.",
+        "target_exists": true
+      },
+      {
+        "slug": "kathmandupost-export-approval-renewals-2026",
+        "title": "Kathmandu Post — India renews export approvals for four Nepali hydropower projects (2026)",
+        "category": "sources",
+        "context": "…his report is the source for the FY 2026/27 renewal rows in data-cross-border-approved-plants.",
+        "target_exists": true
+      },
+      {
+        "slug": "kathmandupost-nvvn-200mw-five-year-deal-2023",
+        "title": "Kathmandu Post — Nepal to sell 200MW under 5-year deal (2023)",
+        "category": "sources",
+        "context": "…t is the source for the FY 2022/23 rows in data-cross-border-approved-plants.",
+        "target_exists": true
+      },
+      {
+        "slug": "spotlightnepal-nea-594mw-iex-approval-2026",
+        "title": "Spotlight Nepal — NEA secures approval from India to sell 594 MW (2026)",
+        "category": "sources",
+        "context": "…ource for the Seti Khola FY 2026/27 row in data-cross-border-approved-plants.",
+        "target_exists": true
+      }
+    ],
     "claim-ror-dominance": [
       {
         "slug": "erc-eca-storage-ppa-discussion-paper-2025",
@@ -5396,6 +5433,43 @@
         "title": "Hydropower Fleet Composition",
         "category": "data",
         "context": "…euse it as a current share without that reconciliation (see claim-ror-dominance).",
+        "target_exists": true
+      }
+    ],
+    "data-erc-retail-tariffs": [
+      {
+        "slug": "erc-nea-consumer-tariff-order-2078",
+        "title": "ERC — NEA Electricity Consumer Tariff Determination 2078",
+        "category": "sources",
+        "context": "…its annual-report tariff appendix. Every non-zero charge in data-erc-retail-tariffs was matched against the order's tariff pages, and the…",
+        "target_exists": true
+      },
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)",
+        "category": "entities",
+        "context": "The retail tariff values held in this wiki (data-erc-retail-tariffs) are transcribed from NEA's annual report, not from an ERC…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…../../../wiki/assets/figures/tariff_ppa_ladder.svg) | SVG | data-erc-retail-tariffs, data-ppa-standard-rates | [[erc-eca-storage-ppa-discus…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry",
+        "category": "data",
+        "context": "data-erc-retail-tariffs — EV charging and industrial tariff rates",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "data-erc-retail-tariffs — the retail (sales) side",
         "target_exists": true
       }
     ],
@@ -11997,6 +12071,13 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…vince_capacity.svg) | SVG | data-substation-inventory | mca-central-400, nea-annual-report-fy2025-26 | Substations without a so…",
+        "target_exists": true
+      },
+      {
         "slug": "data-substation-inventory",
         "title": "Grid Substation Inventory",
         "category": "data",
@@ -16557,6 +16638,13 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…data-erc-retail-tariffs, data-ppa-standard-rates | erc-eca-storage-ppa-discussion-paper-2025, erc-nea-consumer-tariff-order-2078, [[nea-annual-repor…",
+        "target_exists": true
+      },
+      {
         "slug": "data-ppa-standard-rates",
         "title": "NEA Standard PPA Rate Schedule",
         "category": "data",
@@ -16587,29 +16675,6 @@
         "target_exists": true
       }
     ],
-    "data-erc-retail-tariffs": [
-      {
-        "slug": "erc",
-        "title": "Electricity Regulatory Commission (ERC)",
-        "category": "entities",
-        "context": "The retail tariff values held in this wiki (data-erc-retail-tariffs) are transcribed from NEA's annual report, not from an ERC…",
-        "target_exists": true
-      },
-      {
-        "slug": "data-load-anchors-and-fossil-backbone",
-        "title": "Load Anchors and Fossil Backbone Registry",
-        "category": "data",
-        "context": "data-erc-retail-tariffs — EV charging and industrial tariff rates",
-        "target_exists": true
-      },
-      {
-        "slug": "data-ppa-standard-rates",
-        "title": "NEA Standard PPA Rate Schedule",
-        "category": "data",
-        "context": "data-erc-retail-tariffs — the retail (sales) side",
-        "target_exists": true
-      }
-    ],
     "data-ppa-standard-rates": [
       {
         "slug": "erc",
@@ -16619,10 +16684,17 @@
         "target_exists": true
       },
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…tariff_ppa_ladder.svg) | SVG | data-erc-retail-tariffs, data-ppa-standard-rates | erc-eca-storage-ppa-discussion-paper-2025, [[erc-nea-…",
+        "target_exists": true
+      },
+      {
         "slug": "data-erc-retail-tariffs",
         "title": "NEA Retail Electricity Tariff Schedule",
         "category": "data",
-        "context": "data-ppa-standard-rates — the purchase side of NEA's tariff book",
+        "context": "…erc-nea-consumer-tariff-order-2078 retail schedule and data-ppa-standard-rates purchase rates.</figcaption>",
         "target_exists": true
       }
     ],
@@ -17260,6 +17332,13 @@
         "title": "Substation-Adjacent Solar Can Offer a Shorter Development Cycle",
         "category": "claims",
         "context": "nea-solar-loi-2024 records 63 awards totalling 960 MW around substations or na…",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…sumer-tariff-order-2078]], nea-annual-report-fy2025-26, nea-solar-loi-2024 | Energy charges only, without demand, minimum or service c…",
         "target_exists": true
       },
       {
@@ -17981,6 +18060,13 @@
         "title": "Nepal Oil Corporation (NOC)",
         "category": "entities",
         "context": "…and Dhangadi. Line-level storage and pipeline detail is in data-load-anchors-and-fossil-backbone.",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…](../../../wiki/assets/figures/ev_import_surge.svg) | SVG | data-load-anchors-and-fossil-backbone | customs-foreign-trade-statistics-2080-83 | Customs co…",
         "target_exists": true
       }
     ],
@@ -20863,6 +20949,51 @@
         "target_exists": true
       }
     ],
+    "kathmandupost-nvvn-200mw-five-year-deal-2023": [
+      {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "| FY 2022/23 | kathmandupost-nvvn-200mw-five-year-deal-2023 | 5 | Five plants in NEA's five-year 200 MW NVVN sale, with…",
+        "target_exists": true
+      }
+    ],
+    "kathmandupost-india-approves-additional-200mw-2025": [
+      {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "| FY 2025/26 | kathmandupost-india-approves-additional-200mw-2025 | 16 | 14 plants selling in IEX DAM/RTM (capacity only), an…",
+        "target_exists": true
+      }
+    ],
+    "ekantipur-additional-80mw-export-approval-2025": [
+      {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "| FY 2025/26 | ekantipur-additional-80mw-export-approval-2025 | 2 | Mewa Khola 48.5 MW and Karuwa Seti 31.04 MW |",
+        "target_exists": true
+      }
+    ],
+    "kathmandupost-export-approval-renewals-2026": [
+      {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "| FY 2026/27 | kathmandupost-export-approval-renewals-2026 | 4 | Renewals for Upper Chameliya, Seti river, Upper Tadi…",
+        "target_exists": true
+      }
+    ],
+    "spotlightnepal-nea-594mw-iex-approval-2026": [
+      {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger",
+        "category": "data",
+        "context": "| FY 2026/27 | spotlightnepal-nea-594mw-iex-approval-2026 | 1 | Seti Khola, an additional 21.34 MW on IEX valid to 20…",
+        "target_exists": true
+      }
+    ],
     "data-nepal-peak-load-curve-fy2024-25": [
       {
         "slug": "data-domestic-demand",
@@ -20917,6 +21048,13 @@
         "title": "Electricity System Indicator Register",
         "category": "data",
         "context": "…y, not overwritten. For an eleven-year national series, see data-nea-system-annual-timeseries.",
+        "target_exists": true
+      },
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…wiki/assets/figures/nea_system_trajectory_11yr.svg) | SVG | data-nea-system-annual-timeseries | nea-annual-report-fy2024-25, [[nea-annual-report-fy20…",
         "target_exists": true
       },
       {
@@ -20981,6 +21119,29 @@
         "title": "Nepal Energy Institutions Registry",
         "category": "data",
         "context": "petroleum supplier: noc",
+        "target_exists": true
+      }
+    ],
+    "erc-nea-consumer-tariff-order-2078": [
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…rd-rates]] | erc-eca-storage-ppa-discussion-paper-2025, erc-nea-consumer-tariff-order-2078, nea-annual-report-fy2025-26, nea-solar-loi-2024 |…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-erc-retail-tariffs",
+        "title": "NEA Retail Electricity Tariff Schedule",
+        "category": "data",
+        "context": "…y rate), and solar awards cleared at NRs 4.99-5.54. Source: erc-nea-consumer-tariff-order-2078 retail schedule and data-ppa-standard-rates purchase ra…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule",
+        "category": "data",
+        "context": "…y rate), and solar awards cleared at NRs 4.99-5.54. Source: erc-nea-consumer-tariff-order-2078 retail schedule and data-ppa-standard-rates purchase ra…",
         "target_exists": true
       }
     ],
@@ -21119,10 +21280,17 @@
     ],
     "customs-foreign-trade-statistics-2080-83": [
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…ge.svg) | SVG | data-load-anchors-and-fossil-backbone | customs-foreign-trade-statistics-2080-83 | Customs counts of units imported under the listed HS code…",
+        "target_exists": true
+      },
+      {
         "slug": "data-load-anchors-and-fossil-backbone",
         "title": "Load Anchors and Fossil Backbone Registry",
         "category": "data",
-        "context": "…from Table 5 of the customs annual workbooks (customs-foreign-trade-statistics-2080-83).",
+        "context": "…2,408, while three-wheeler imports rose every year. Source: customs-foreign-trade-statistics-2080-83, via ev_adoption_and_charging.csv.</figcaption>",
         "target_exists": true
       }
     ],
@@ -21315,6 +21483,13 @@
     ],
     "data-plant-annual-generation": [
       {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…wiki/assets/figures/plant_generation_vs_design.svg) | SVG | data-plant-annual-generation | nea-annual-report-fy2024-25, [[nea-annual-report-fy20…",
+        "target_exists": true
+      },
+      {
         "slug": "data-nea-grid-infrastructure-fy2025-26",
         "title": "NEA Grid Infrastructure FY 2025/26",
         "category": "data",
@@ -21405,6 +21580,15 @@
         "title": "Figure Index",
         "category": "data",
         "context": "…ime-annual-report-fy2078-79]], care-ratings-sanima-mai, ukhl-annual-report | A small, non-random sample from company reports and ratin…",
+        "target_exists": true
+      }
+    ],
+    "data-substation-inventory": [
+      {
+        "slug": "figure-index",
+        "title": "Figure Index",
+        "category": "data",
+        "context": "…ki/assets/figures/substation_province_capacity.svg) | SVG | data-substation-inventory | mca-central-400, nea-annual-report-fy2025-26 | Su…",
         "target_exists": true
       }
     ],
