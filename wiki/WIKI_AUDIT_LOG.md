@@ -2499,6 +2499,19 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-24 — Coverage Sprint WP 2B — Corridor Specs Expansion
+
+**Agent:** Claude Code (Opus 5.5, overnight sprint on `data/coverage-sprint-2026-11`)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Data:** `data/corridor_specs.csv` expanded from 2 corridors / 4 rows to 23 corridors / 40 segment rows; columns unchanged, all slugs resolve to existing entity pages, status enums valid. Route km derived as NEA FY 2025/26 circuit-km ÷ circuits (arithmetic stated in `source_title`); MCA segments from MCA Annex D-1.
+
+**Flags raised:** five cross-border links without entity pages skipped (Raxaul–Parwanipur, Nautanwa–Mainahiya, Tanakpur–Mahendranagar, Nepalgunj–Nanpara, Lamki–Bareilly). Bheri and Ratmate 400 kV rows rest on the 2077 transmission book (low confidence, status as of 2020). Financing/contractor mostly blank (not in NEA tables).
+
+**Validation result:** OK (wiki-index, wiki-site, validate, test)
+
+---
+
 ## Log Format for Future Sessions
 
 ```
