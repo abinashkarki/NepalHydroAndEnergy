@@ -2484,6 +2484,21 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-24 — Coverage Sprint WP 2A — Substation Backbone
+
+**Agent:** Claude Code (Opus 5.5, overnight sprint on `data/coverage-sprint-2026-11`)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Pages touched:** `data/data-substation-inventory` (new, record).
+
+**Data:** new `data/substation_specs.csv` (153 substations), `wiki/substation-specs-schema.json`, `substation_specs_errors` validation in `scripts/validate_repo.py`, `tests/test_substation_specs.py`, `scripts/build_substation_specs_links.py` (programmatic `linked_solar_award_mw` from `data/solar_project_specs.csv`).
+
+**Flags raised:** coordinates populated only where grounded in network-node / place-anchor GeoJSON (28/153); remaining rows left blank rather than geocoded.
+
+**Validation result:** OK (wiki-index, wiki-site, validate, test)
+
+---
+
 ## Log Format for Future Sessions
 
 ```

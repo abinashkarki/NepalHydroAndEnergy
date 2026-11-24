@@ -1,7 +1,7 @@
 {
   "generated": "auto",
-  "total_targets": 335,
-  "total_refs": 2695,
+  "total_targets": 336,
+  "total_refs": 2705,
   "backlinks": {
     "buildability": [
       {
@@ -1476,6 +1476,13 @@
         "title": "Figure Index",
         "category": "data",
         "context": "…/monthly_trade_3y.svg) | SVG | data-trade-time-series | nea-annual-report-fy2024-25 | Annual-report comparison chart totals differ slightly fro…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "nea-annual-report-fy2024-25 — prior-year existing-substation table and New Butwal locat…",
         "target_exists": true
       },
       {
@@ -3286,6 +3293,13 @@
         "title": "Utility Scale Solar PV, Grid Connected Solar Project, Morang",
         "category": "entities",
         "context": "data-layer-solar-plants-nea-awards",
+        "target_exists": true
+      },
+      {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "…ca-central-400]] · data-layer-grid-hubs-place-anchors · data-layer-solar-plants-nea-awards · tingla-132-33kv-substation · [[markichowk-220-132kv-s…",
         "target_exists": true
       },
       {
@@ -9757,6 +9771,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "hetauda-dhalkebar-inaruwa-backbone · mca-central-400 · [[data-layer-grid-hubs-place-anchor…",
+        "target_exists": true
+      },
+      {
         "slug": "data-layer-transmission-connected-traced-network",
         "title": "Layer: Major Transmission Network",
         "category": "data",
@@ -10859,6 +10880,13 @@
         "title": "Udipur-Damauli-Bharatpur 220 kV Reinforcement",
         "category": "entities",
         "context": "mca-central-400",
+        "target_exists": true
+      },
+      {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "…Damauli are not itemised in NEA's appendix. They come from mca-central-400 and carry no MVA.",
         "target_exists": true
       },
       {
@@ -13164,6 +13192,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "nea-transmission-annual-book-2077 — Tingla commissioning date and Purbi Chitwan location",
+        "target_exists": true
+      },
+      {
         "slug": "data-nea-grid-infrastructure-fy2025-26",
         "title": "NEA Grid Infrastructure FY 2025/26",
         "category": "data",
@@ -14873,6 +14908,13 @@
         "target_exists": true
       },
       {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "nea-annual-report-fy2025-26 — Appendix 8 substation tables (PDF pp.214–226) and project…",
+        "target_exists": true
+      },
+      {
         "slug": "data-nea-grid-infrastructure-fy2025-26",
         "title": "NEA Grid Infrastructure FY 2025/26",
         "category": "data",
@@ -15422,6 +15464,13 @@
         "title": "Substation-Adjacent Solar Can Offer a Shorter Development Cycle",
         "category": "claims",
         "context": "nea-solar-loi-2024 records 63 awards totalling 960 MW around substations or na…",
+        "target_exists": true
+      },
+      {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "nea-solar-loi-2024 — substation names and districts on the 2024 solar award re…",
         "target_exists": true
       }
     ],
@@ -19353,6 +19402,13 @@
     ],
     "data-layer-grid-hubs-place-anchors": [
       {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "…etauda-dhalkebar-inaruwa-backbone]] · mca-central-400 · data-layer-grid-hubs-place-anchors · data-layer-solar-plants-nea-awards · [[tingla-132-33k…",
+        "target_exists": true
+      },
+      {
         "slug": "data-map-layer-labels",
         "title": "Map Layer Labels",
         "category": "data",
@@ -19477,6 +19533,13 @@
     ],
     "tingla-132-33kv-substation": [
       {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "…place-anchors]] · data-layer-solar-plants-nea-awards · tingla-132-33kv-substation · markichowk-220-132kv-substation",
+        "target_exists": true
+      },
+      {
         "slug": "data-nea-substation-capacity-fy2076-77",
         "title": "NEA Substation Capacity FY 2076/77",
         "category": "data",
@@ -19508,6 +19571,15 @@
         "title": "Nepal Peak Load Curve FY 2024/25",
         "category": "data",
         "context": "The daily shape on the FY peak day shows why main-load-dispatch-centre",
+        "target_exists": true
+      }
+    ],
+    "markichowk-220-132kv-substation": [
+      {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory",
+        "category": "data",
+        "context": "…olar-plants-nea-awards]] · tingla-132-33kv-substation · markichowk-220-132kv-substation",
         "target_exists": true
       }
     ],

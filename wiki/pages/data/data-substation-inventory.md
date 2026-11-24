@@ -1,0 +1,92 @@
+---
+title: Grid Substation Inventory
+type: data
+created: 2026-11-24
+updated: 2026-11-24
+reviewed: 2026-11-24
+review_due: 2027-02-24
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077, nea-solar-loi-2024]
+tags: [substations, transmission, grid, csv, nea]
+excerpt: "A source-located inventory of 153 grid substations from 66 to 400 kV: 95 in service with 15,541 MVA of transformer capacity, plus the substations NEA lists as under construction or planned."
+caveat: Installed MVA counts every transformer NEA lists at a substation, including 33/11 kV and 66/11 kV units. Coordinates and districts are filled only where a repo anchor or source gives them, so province totals cover less than a third of rows.
+maturity: working-page
+page_quality: record
+---
+
+# Grid Substation Inventory
+
+## Summary
+
+[substation_specs.csv](../../../data/substation_specs.csv) lists **153 grid substations** from 66 kV to 400 kV. Each row records voltage ratios, installed and pipeline MVA, status, location where one is sourced, linked corridors, cross-border role and linked solar awards. There are **95 substations in service** (94 operating, one partially operational) and 58 under construction or planned. The in-service rows add up to **15,540.6 MVA**, which matches NEA's FY 2025/26 total of 15,541 MVA across 318 transformers.
+
+## What This Shows
+
+| Highest voltage | Status | Substations | Installed MVA | Pipeline MVA |
+|---|---|---:|---:|---:|
+| 400 kV | operating | 2 | 3,445.2 | — |
+| 400 kV | partially operational | 1 | 830.0 | — |
+| 400 kV | under construction | 4 | — | 982.5 |
+| 400 kV | planned | 8 | — | 6,176.0 |
+| 220 kV | operating | 13 | 3,429.9 | 1,460.0 |
+| 220 kV | under construction | 4 | — | 894.0 |
+| 220 kV | planned | 5 | — | 2,189.0 |
+| 132 kV | operating | 67 | 7,313.0 | 2,741.0 |
+| 132 kV | under construction | 21 | — | 2,028.0 |
+| 132 kV | planned | 16 | — | 1,567.5 |
+| 66 kV | operating | 12 | 522.5 | 351.0 |
+| **Total** | | **153** | **15,540.6** | **18,389.0** |
+
+"Pipeline MVA" (`planned_additional_mva`) is the capacity NEA prints for each substation in its under-construction and planned tables. For operating substations it is expansion capacity. The total splits into 6,260.5 MVA under construction (NEA total: 6,261) and 12,128.5 MVA of itemised planned capacity. NEA's planned total of 16,258 MVA also includes a 4,129 MVA aggregate for the Kathmandu Valley Transmission System Expansion. NEA gives no per-substation breakdown of that aggregate, so the CSV leaves it out.
+
+| Province (from sourced district) | Substations | Installed MVA |
+|---|---:|---:|
+| Madhesh | 8 | 2,868.4 |
+| Koshi | 3 | 1,429.0 |
+| Bagmati | 5 | 1,384.1 |
+| Gandaki | 6 | 831.0 |
+| Lumbini | 10 | 759.9 |
+| Sudurpashchim | 4 | 275.2 |
+| Karnali | 1 | 60.0 |
+| Province not sourced | 116 | 7,933.0 |
+
+> [!finding]
+> Two substations, Dhalkebar (2,054.2 MVA) and Inaruwa (1,391.0 MVA), hold 22% of in-service transformer capacity. Of the 15 rows at 400 kV, 12 are under construction or planned.
+
+> [!finding]
+> All 63 NEA 2024 solar award rows that name a substation were checked against the inventory. 30 rows matched 24 inventory substations, totalling 590 MW. The largest linked totals are Dhalkebar, Kushaha, Motipur and Sunwal at 50 MW each, and Kushaha has 22.5 MVA of listed transformer capacity.
+
+## Coverage / Method
+
+- **Existing substations.** The 95 in-service rows were parsed from NEA FY 2025/26, Appendix 8, "Existing High Voltage Grid Substations" (printed pp.204–211). Every transformer's FY 082-83 MVA is summed. Rows are checked against NEA's summary table (printed p.212): 318 transformers, 15,541 MVA, and matching subtotals for each ratio. The FY 2024/25 table was used only to flag substations that first appear with capacity in that year.
+- **Pipeline.** The under-construction table (printed pp.213–214) and the planned/proposed table (printed pp.215–216) were transcribed per substation. Directorate totals were checked against the printed totals: 2,457.5 and 3,803 MVA under construction; 9,267.5 (including the 4,129 MVA aggregate) and 6,990 MVA planned. When a new entry shares a name with an existing substation, it is merged into that row and described in `notes`. Name-only merges of 400 kV sites (Lamahi, Kushma, Burtibang) are marked as site-unconfirmed.
+- **MCA-Nepal 400 kV terminals.** Ratmate and New Damauli are not itemised in NEA's appendix. They come from [[mca-central-400]] and carry no MVA.
+- **Coordinates.** 28 of 153 rows (18%) have coordinates, copied only from `place_anchor_index.geojson`. Those anchors are also the grid-hub nodes in `transmission_network_nodes.geojson`. 14 rows are `official-map-node` (RPGCL official vector/map node) and 14 are `approximate-place` (a Nominatim match for the place, not the substation footprint). Kushaha's coordinates are withheld because the anchor and the solar award record disagree on its district.
+- **District / province.** 40 rows have a district from a Nominatim display name, NEA text, the NEA solar LoI substation/district list, or an entity page, and the basis is recorded in `notes`. Province is derived from district for 37 rows. "Nawalparasi", which now spans two provinces, is left without a province.
+- **Commissioning year.** Six rows have a commissioning year, each taken from a dated statement: Dhalkebar 2018, Tingla 2019, Inaruwa 2022, New Hetauda 2024, Surkhet 2026 and Parsauni 2026.
+- **Solar links.** `linked_solar_award_mw` is generated by `scripts/build_substation_specs_links.py`. The script normalises names, applies an explicit alias table (for example Sunawal→Sunwal and Paudi→Paudi Amarai), rejects matches where the districts disagree, and excludes Maharajgunj, a Kapilvastu solar site that is not the planned Kathmandu Valley substation of the same name. The script's `--check` mode runs in the test suite.
+- **Validation.** The CSV is checked against `wiki/substation-specs-schema.json` by `scripts/validate_repo.py`, which tests enums, numeric ranges, unique slugs, coordinate pairs and the existence of source and corridor slugs.
+
+29 solar substation names do not match an inventory row: Aurahi, Baniyani, Bardibas, Barju, Belauri, Birendrabazzar, Chandrapur, Dhanusha Dham, Dhulabari, Gadhawa, Gorusinge, Gulariya, Haripur, Khungri, Kolabhi, Krishnanagar, Machhagad, Maharajgunj (excluded), Mainapokhar, Manpur, Maulapur, Mukundapur, New Nepalgunj, Palpa/Batasa, Parasi, Rakathum, Sangutar, Simaraungadh and Taulihawa. Most look like 33 kV-level sites outside NEA's grid-substation appendix. Matching them would need a source that ties each name to a grid substation.
+
+## Caveats
+
+- Installed MVA includes distribution-level 33/11 kV and 66/11 kV transformers, as NEA's appendix totals do. It is not the same as grid transformation capacity.
+- Status is as of the end of FY 2082/83 (mid-July 2026). New Hetauda is recorded as partially operational: NEA lists its 400/220 kV transformers, but the narrative records 220 kV charging, and the 400 kV Hetauda–Dhalkebar line was still under construction.
+- `highest_voltage_kv` is the in-service voltage for operating rows. Planned 400 kV extensions at existing sites, such as New Khimti, Kushma and Lamahi, are recorded in `planned_additional_mva` and `notes`.
+- The coordinate and district gaps are deliberate. No location was estimated from a substation's name.
+
+## Linked Data
+
+- [Grid substation inventory (CSV)](../../../data/substation_specs.csv)
+- [Substation CSV schema](../../substation-specs-schema.json)
+
+## Sources
+
+- [[nea-annual-report-fy2025-26]] — Appendix 8 substation tables (PDF pp.214–226) and project narratives
+- [[nea-annual-report-fy2024-25]] — prior-year existing-substation table and New Butwal location
+- [[nea-transmission-annual-book-2077]] — Tingla commissioning date and Purbi Chitwan location
+- [[nea-solar-loi-2024]] — substation names and districts on the 2024 solar award records
+
+## Related
+
+[[hetauda-dhalkebar-inaruwa-backbone]] · [[mca-central-400]] · [[data-layer-grid-hubs-place-anchors]] · [[data-layer-solar-plants-nea-awards]] · [[tingla-132-33kv-substation]] · [[markichowk-220-132kv-substation]]

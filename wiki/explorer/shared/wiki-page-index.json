@@ -1708,6 +1708,10 @@
         "title": "Storage Capacity Comparison"
       },
       {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory"
+      },
+      {
         "slug": "data-trade-time-series",
         "title": "Electricity Trade Time Series"
       },
@@ -2168,6 +2172,7 @@
     "data-solar-hydro-complementarity-profile",
     "data-solar-hydro-lcoe",
     "data-storage-comparison",
+    "data-substation-inventory",
     "data-trade-time-series",
     "data-winter-deficit-model",
     "figure-index",
@@ -2602,6 +2607,7 @@
     "data-solar-hydro-complementarity-profile": "data",
     "data-solar-hydro-lcoe": "data",
     "data-storage-comparison": "data",
+    "data-substation-inventory": "data",
     "data-trade-time-series": "data",
     "data-winter-deficit-model": "data",
     "figure-index": "data",
@@ -3036,6 +3042,7 @@
     "data-solar-hydro-complementarity-profile": "Solar\u2013Hydro Complementarity Profile",
     "data-solar-hydro-lcoe": "Solar and Hydro LCOE",
     "data-storage-comparison": "Storage Capacity Comparison",
+    "data-substation-inventory": "Grid Substation Inventory",
     "data-trade-time-series": "Electricity Trade Time Series",
     "data-winter-deficit-model": "Winter Deficit Model",
     "figure-index": "Figure Index",
@@ -3045,5 +3052,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 432
+  "totalPages": 433
 }
