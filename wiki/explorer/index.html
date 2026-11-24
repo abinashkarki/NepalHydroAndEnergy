@@ -4352,7 +4352,7 @@
         const blockers = (fact.blockers || []).filter((blocker) => blocker.status === "active");
         const latestEvent = (fact.latest_events || []).slice().sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")))[0];
         const location = [fact.basin || fact.river, fact.district].filter(Boolean).join(" · ");
-        const type = fact.project_type || ({ hydro: "Hydropower", storage: "Storage", solar: "Solar", transmission: "Transmission" }[fact.domain]) || "Project";
+        const type = fact.project_type || ({ hydro: "Hydropower", storage: "Storage", solar: "Solar", transmission: "Transmission", substation: "Grid substation", demand: "Industrial load anchor", nonhydro: "Non-hydro (DoED record)", institution: "Institution" }[fact.domain]) || "Project";
         const cells = [
           ["Current status", fact.status_display || fact.status_raw || fact.status],
           ["Capacity", Number.isFinite(Number(fact.capacity_mw)) ? formatMw(fact.capacity_mw) : ""],
@@ -4625,7 +4625,7 @@
           : null;
         const maturity = linkedMeta ? maturityFromMeta(linkedMeta) : "registry-record";
         const maturityLabel = MATURITY_LABEL[maturity];
-        const domainLabel = ({ hydro: "Hydro", solar: "Solar", storage: "Storage" }[fact.domain] || "Fact");
+        const domainLabel = ({ hydro: "Hydro", solar: "Solar", storage: "Storage", substation: "Substation", demand: "Load anchor", nonhydro: "Non-hydro", institution: "Institution" }[fact.domain] || "Fact");
         const rows = [
           [fact.domain === "solar" ? "Capacity (MWp)" : "Capacity", formatMw(fact.capacity_mwp || fact.capacity_mw)],
           ["Status", statusDisplay],
@@ -4805,6 +4805,18 @@
             { key: "cross_border", label: "International gateways", symbol: "gateway" },
             { key: "place_anchors", label: "Power hubs & substations", symbol: "substation" },
             { special: "transmission_labels", label: "Grid line labels", symbol: "text-grid" },
+          ],
+        },
+        {
+          id: "energy_infrastructure",
+          title: "Energy Infrastructure",
+          rows: [
+            { key: "grid_substations", label: "Grid substations (66–400 kV)", symbol: "substation" },
+            { key: "industrial_load_anchors", label: "Industrial load anchors", symbol: "big" },
+            { key: "fossil_pipeline", label: "Petroleum pipeline (schematic)", symbol: "route" },
+            { key: "fossil_depots", label: "NOC fuel depots (town-level)", symbol: "pipeline" },
+            { key: "non_dam_storage", label: "Pumped storage & batteries", symbol: "storage" },
+            { key: "doed_nonhydro_operating", label: "DoED non-hydro — reference midpoints (not facility locations)", symbol: "source" },
           ],
         },
         {

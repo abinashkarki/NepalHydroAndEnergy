@@ -43,6 +43,35 @@ class ExplorerPerformanceGuardrails(unittest.TestCase):
             total += (MAP_DIR / Path(rel).name).stat().st_size
         self.assertLess(total, 2_200_000)
 
+    def test_energy_infrastructure_layers_are_opt_in(self) -> None:
+        manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+        presets = json.loads(PRESETS.read_text(encoding="utf-8"))
+        new_layers = ["grid_substations", "industrial_load_anchors", "fossil_pipeline", "fossil_depots",
+                      "non_dam_storage", "doed_nonhydro_operating"]
+        overview_on = set(presets["presets"]["overview"]["layers_on"])
+        energy = presets["presets"]["energy_infrastructure"]
+        for key in new_layers:
+            layer = manifest["layers"][key]
+            for field in ["path", "kind", "label", "style", "roleByPreset"]:
+                self.assertIn(field, layer, key)
+            self.assertTrue((MAP_DIR / Path(layer["path"]).name).exists(), key)
+            self.assertEqual(layer["roleByPreset"].get("overview", "off"), "off", key)
+            self.assertNotIn(key, overview_on, key)
+            self.assertNotEqual(layer["roleByPreset"].get("energy_infrastructure", "off"), "off", key)
+        for key in energy["layers_on"]:
+            self.assertIn(key, manifest["layers"], key)
+            self.assertNotEqual(manifest["layers"][key]["roleByPreset"].get("energy_infrastructure", "off"), "off", key)
+        self.assertIn("grid_substations", energy["layers_on"])
+        self.assertIn("reference midpoint", manifest["layers"]["doed_nonhydro_operating"]["label"])
+        self.assertIn("schematic", manifest["layers"]["fossil_pipeline"]["label"])
+
+    def test_energy_infrastructure_preset_payload_budget(self) -> None:
+        manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+        presets = json.loads(PRESETS.read_text(encoding="utf-8"))
+        paths = {manifest["layers"][key]["path"] for key in presets["presets"]["energy_infrastructure"]["layers_on"]}
+        total = sum((MAP_DIR / Path(rel).name).stat().st_size for rel in paths)
+        self.assertLess(total, 4_000_000)
+
     def test_country_outline_is_simplified_for_startup(self) -> None:
         self.assertLess((MAP_DIR / "nepal_country_outline.geojson").stat().st_size, 250_000)
 

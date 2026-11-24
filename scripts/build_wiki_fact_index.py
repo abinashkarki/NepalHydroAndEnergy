@@ -47,6 +47,22 @@ RELATED_BY_DOMAIN = {
         "firm-power",
         "seasonal-mismatch",
     ],
+    "substation": [
+        "data-substation-inventory",
+        "data-nea-grid-infrastructure-fy2025-26",
+        "data-layer-grid-hubs-place-anchors",
+    ],
+    "demand": [
+        "data-load-anchors-and-fossil-backbone",
+        "data-industrial-electricity-consumers",
+    ],
+    "nonhydro": [
+        "doed-solar-power-plants-table",
+        "data-solar-fleet-inventory",
+    ],
+    "institution": [
+        "data-energy-institutions",
+    ],
     "transmission": [
         "claim-transmission-immediate-blocker",
         "intervention-transmission-completion",
@@ -288,7 +304,7 @@ def add_corridor_facts(facts_by_key: dict[str, dict], titles: dict[str, str]) ->
         } for row in rows]
         facts_by_key[f"corridor:{slug}"] = {
             "id": f"transmission:{slug}", "domain": "transmission", "facets": ["transmission"],
-            "name": titles[slug], "wiki_slug": slug, "status": status_norm(overall_status),
+            "name": titles[slug], "wiki_slug": slug, "capacity_mw": None, "status": status_norm(overall_status),
             "status_raw": overall_status, "status_display": status_display(overall_status),
             "voltage_kv": max(_safe_float(row["voltage_kv"], 0) for row in rows),
             "segments": segments, "as_of": max(row["status_as_of"] for row in rows),
@@ -296,6 +312,122 @@ def add_corridor_facts(facts_by_key: dict[str, dict], titles: dict[str, str]) ->
             "evidence_urls": sorted({row["source_url"] for row in rows}),
             "feature_ref": {"layer": "corridor_specs", "id": slug, "match_field": "slug", "match_value": slug},
             "confidence": "high" if all(row["confidence"] == "high" for row in rows) else "medium",
+        }
+
+
+SUBSTATION_SPECS = ROOT / "data" / "substation_specs.csv"
+NON_DAM_STORAGE = ROOT / "data" / "storage_non_dam_specs.csv"
+INDUSTRIAL_ANCHORS = ROOT / "data" / "industrial_load_anchors.csv"
+DOED_NONHYDRO = ROOT / "data" / "processed" / "tables" / "doed_nonhydro_registry.csv"
+ENERGY_INSTITUTIONS = ROOT / "data" / "energy_institutions.csv"
+
+DOED_CATEGORY_STATUS = {
+    "operating": ("operating", "Operating (DoED register)"),
+    "generation_license": ("licensed", "Generation licence (DoED)"),
+    "generation_application": ("planned", "Generation licence application (DoED)"),
+    "survey_license": ("survey", "Survey licence (DoED)"),
+    "survey_application": ("survey", "Survey licence application (DoED)"),
+}
+NON_DAM_STATUS = {
+    "feasibility-study": ("survey", "Feasibility study"),
+    "survey-licence": ("survey", "Survey licence"),
+    "screened": ("conceptual", "Screened candidate"),
+    "proposed": ("planned", "Proposed"),
+    "under-construction": ("under-construction", "Under construction"),
+    "pre-construction": ("pre-construction", "Pre-construction"),
+}
+
+
+def _has_coords(row: dict[str, str]) -> bool:
+    return bool((row.get("latitude") or "").strip() and (row.get("longitude") or "").strip())
+
+
+def add_infrastructure_facts(facts_by_key: dict[str, dict], slugs: set[str]) -> None:
+    """Index the Sprint 1 infrastructure registries (compact facts; capacity in MW only where it is MW)."""
+    for row in load_csv_rows(SUBSTATION_SPECS):
+        slug = row["slug"].strip()
+        status = status_norm(row["status"])
+        mapped = _has_coords(row)
+        facts_by_key[f"substation:{slug}"] = {
+            "id": f"substation:{slug}", "domain": "substation", "facets": ["grid", "substation", "transmission"],
+            "name": f"{row['substation_name']} substation", "wiki_slug": slug if slug in slugs else "",
+            "capacity_mw": None, "status": status, "status_raw": row["status"],
+            "status_display": status_display(status),
+            "voltage_kv": _safe_float(row["highest_voltage_kv"]),
+            "installed_mva": _safe_float(row.get("installed_mva")),
+            "planned_additional_mva": _safe_float(row.get("planned_additional_mva")),
+            "district": row.get("district", ""), "province": row.get("province", ""),
+            "promoter": row.get("owner", ""), "as_of": row.get("status_as_of", ""),
+            "precision_label": row.get("coordinate_precision", "") if mapped else "not mapped",
+            "source_layer": "substation_specs", "sources": ["substation_specs"],
+            "feature_ref": ({"layer": "grid_substations", "id": slug, "match_field": "id", "match_value": slug}
+                            if mapped else {"layer": "substation_specs", "id": slug, "match_field": "slug", "match_value": slug}),
+            "confidence": row.get("confidence", ""),
+        }
+    for row in load_csv_rows(NON_DAM_STORAGE):
+        slug = row["slug"].strip()
+        status, display = NON_DAM_STATUS.get(row["status"], (status_norm(row["status"]), status_display(row["status"])))
+        tech = row["technology"]
+        facets = ["storage", "pumped-storage", "hydro"] if tech == "pumped-hydro" else ["storage", "battery"]
+        facts_by_key[f"storage:{slug}"] = {
+            "id": f"storage:{slug}", "domain": "storage", "facets": facets,
+            "name": row["project_name"], "wiki_slug": slug if slug in slugs else "",
+            "capacity_mw": _safe_float(row.get("power_mw")), "status": status, "status_raw": row["status"],
+            "status_display": display, "project_type": "Pumped storage" if tech == "pumped-hydro" else "Battery storage",
+            "province": row.get("province", ""), "promoter": row.get("developer_or_agency", ""),
+            "as_of": row.get("last_updated", ""), "source_layer": "storage_non_dam_specs",
+            "sources": ["storage_non_dam_specs"], "evidence_urls": [row["source_url"]] if row.get("source_url") else [],
+            "feature_ref": ({"layer": "non_dam_storage", "id": slug, "match_field": "id", "match_value": slug}
+                            if _has_coords(row) else {"layer": "storage_non_dam_specs", "id": slug, "match_field": "slug", "match_value": slug}),
+            "confidence": row.get("confidence", ""),
+        }
+    for row in load_csv_rows(INDUSTRIAL_ANCHORS):
+        aid = row["anchor_id"].strip()
+        facts_by_key[f"demand:{aid}"] = {
+            "id": f"demand:{aid}", "domain": "demand", "facets": ["demand", "industrial"],
+            "name": row["anchor_name"], "wiki_slug": "",
+            "capacity_mw": None, "status": "not-applicable", "status_raw": row.get("project_status_as_reported", ""),
+            "status_display": "Load anchor", "district": row.get("district", ""), "province": row.get("province", ""),
+            "substation": row.get("nearest_substation_name", ""), "voltage_kv": _safe_float(row.get("supply_voltage_kv")),
+            "as_of": row.get("verified_on", ""), "source_layer": "industrial_load_anchors",
+            "sources": ["industrial_load_anchors"], "evidence_urls": [row["source_url"]] if row.get("source_url") else [],
+            "feature_ref": ({"layer": "industrial_load_anchors", "id": aid, "match_field": "id", "match_value": aid}
+                            if _has_coords(row) else {"layer": "industrial_load_anchors_csv", "id": aid, "match_field": "anchor_id", "match_value": aid}),
+            "confidence": "medium",
+        }
+    for row in load_csv_rows(DOED_NONHYDRO):
+        rid = row["record_id"].strip()
+        status, display = DOED_CATEGORY_STATUS.get(row["regulatory_category"], ("unknown", row["regulatory_category"]))
+        tech = row["technology"]
+        place = f", {row['location_text']}" if row.get("location_text") else ""
+        # Name carries the DoED qualifier and place so generic register names ("Solar Energy")
+        # cannot hijack plain-language queries.
+        name = f"{row['project']} (DoED {tech} record{place})"
+        feature_ref = {"layer": "doed_nonhydro_registry", "id": rid, "match_field": "record_id", "match_value": rid}
+        if row["regulatory_category"] == "operating" and all(row.get(k) for k in ("latitude_1_dms", "latitude_2_dms", "longitude_1_dms", "longitude_2_dms")):
+            feature_ref = {"layer": "doed_nonhydro_operating", "id": rid, "match_field": "id", "match_value": rid}
+        facts_by_key[f"nonhydro:{rid}"] = {
+            "id": f"nonhydro:{rid}", "domain": "nonhydro", "facets": ["nonhydro", f"nonhydro-{tech}"],
+            "name": name, "wiki_slug": "", "capacity_mw": _safe_float(row.get("capacity_mw")),
+            "status": status, "status_raw": row["regulatory_category"], "status_display": display,
+            "project_type": tech.title(), "promoter": row.get("promoter", ""),
+            "as_of": row.get("source_updated_on", ""), "source_layer": "doed_nonhydro_registry",
+            "sources": ["doed_nonhydro_registry"], "evidence_urls": [row["source_url"]] if row.get("source_url") else [],
+            "feature_ref": feature_ref, "confidence": "medium",
+        }
+    for row in load_csv_rows(ENERGY_INSTITUTIONS):
+        slug = row["institution_slug"].strip()
+        page = (row.get("wiki_page_slug") or "").strip()
+        facts_by_key[f"institution:{slug}"] = {
+            "id": f"institution:{slug}", "domain": "institution", "facets": ["institution"],
+            "name": f"{row['full_name']} ({row['short_name']})" if row.get("short_name") else row["full_name"],
+            "wiki_slug": page if page in slugs else "", "capacity_mw": None,
+            "status": "not-applicable", "status_raw": "", "status_display": "Institution",
+            "project_type": row.get("institution_type", ""), "as_of": row.get("verified_on", ""),
+            "source_layer": "energy_institutions", "sources": ["energy_institutions"],
+            "evidence_urls": [row["source_url"]] if row.get("source_url") else [],
+            "feature_ref": {"layer": "energy_institutions", "id": slug, "match_field": "institution_slug", "match_value": slug},
+            "confidence": "high",
         }
 
 
@@ -504,6 +636,7 @@ def main() -> None:
             facts_by_key[key] = merge_fact(facts_by_key[key], fact) if key in facts_by_key else fact
     apply_project_specs(facts_by_key, titles)
     add_corridor_facts(facts_by_key, titles)
+    add_infrastructure_facts(facts_by_key, slugs)
     apply_monitoring_data(facts_by_key)
     facts = sorted(
         facts_by_key.values(),

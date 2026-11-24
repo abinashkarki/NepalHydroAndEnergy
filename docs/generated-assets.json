@@ -42,7 +42,12 @@
       "command": "python scripts/build_wiki_fact_index.py",
       "inputs": [
         "data/processed/maps/*.geojson",
-        "wiki/explorer/shared/wiki-page-index.json"
+        "wiki/explorer/shared/wiki-page-index.json",
+        "data/substation_specs.csv",
+        "data/storage_non_dam_specs.csv",
+        "data/industrial_load_anchors.csv",
+        "data/processed/tables/doed_nonhydro_registry.csv",
+        "data/energy_institutions.csv"
       ],
       "committed": true,
       "deployable": true
@@ -415,6 +420,51 @@
       ],
       "committed": true,
       "deployable": false
+    },
+    "data/processed/maps/grid_substations.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/substation_specs.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/industrial_load_anchors.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/industrial_load_anchors.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/fossil_infrastructure.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/fossil_infrastructure.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/non_dam_storage.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/storage_non_dam_specs.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/doed_nonhydro_operating.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/processed/tables/doed_nonhydro_registry.csv"
+      ],
+      "committed": true,
+      "deployable": true
     }
   }
 }

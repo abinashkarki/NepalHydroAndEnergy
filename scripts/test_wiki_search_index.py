@@ -106,6 +106,31 @@ class WikiSearchIndexTests(unittest.TestCase):
             self.assertIn(key, sample)
         self.assertIn("layer", sample["feature_ref"])
 
+    def test_every_fact_has_required_keys(self) -> None:
+        required = ["id", "domain", "facets", "name", "capacity_mw", "status", "source_layer", "sources", "feature_ref", "related_slugs"]
+        for fact in self.fact_index["facts"]:
+            for key in required:
+                self.assertIn(key, fact, fact.get("id"))
+            self.assertIn("layer", fact["feature_ref"], fact["id"])
+
+    def test_fact_index_covers_infrastructure_registries(self) -> None:
+        facts = self.fact_index["facts"]
+        by_domain: dict[str, list[dict]] = {}
+        for fact in facts:
+            by_domain.setdefault(fact["domain"], []).append(fact)
+        for domain in ["substation", "storage", "demand", "nonhydro", "institution"]:
+            self.assertIn(domain, by_domain, domain)
+        with (ROOT / "data" / "substation_specs.csv").open(newline="", encoding="utf-8") as handle:
+            substations = list(csv.DictReader(handle))
+        self.assertEqual(len(by_domain["substation"]), len(substations))
+        for fact in by_domain["substation"]:
+            self.assertIsNone(fact["capacity_mw"], "substation MVA must not be reported as MW")
+        mapped = [f for f in by_domain["substation"] if f["feature_ref"]["layer"] == "grid_substations"]
+        self.assertEqual(len(mapped), sum(1 for row in substations if row["latitude"].strip()))
+        # New registries never enter the hydro/solar domains used by the superlative answers.
+        self.assertTrue(all(f["domain"] != "solar" for f in by_domain["nonhydro"]))
+        self.assertTrue(all("solar" not in f["facets"] for f in by_domain["nonhydro"]))
+
     def test_fact_index_answers_biggest_hydro_queries(self) -> None:
         hydro = [f for f in self.fact_index["facts"] if f["domain"] == "hydro" and f.get("capacity_mw")]
         any_status = sorted(hydro, key=lambda f: f["capacity_mw"], reverse=True)
