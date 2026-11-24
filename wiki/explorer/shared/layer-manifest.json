@@ -2362,6 +2362,60 @@
         "flood_2026": "off",
         "energy_infrastructure": "secondary"
       }
+    },
+    "glof_dangerous_lakes": {
+      "path": "../../../data/processed/maps/glof_dangerous_lakes.geojson",
+      "kind": "point",
+      "label": "Potentially dangerous glacial lakes (ICIMOD 2020)",
+      "wiki_slug": "data-infrastructure-hazard-register",
+      "feature_context": "Hazard overlay: ICIMOD & UNDP (2020) potentially dangerous glacial lakes in Nepal. A screening rank, not an outburst forecast.",
+      "style": {
+        "color": "#0c4a6e",
+        "weight": 1.5,
+        "fillColor": "#38bdf8",
+        "fillOpacity": 0.85,
+        "radius": 6
+      },
+      "popup_fields": [
+        {
+          "field": "rank",
+          "label": "ICIMOD rank (I = highest)"
+        },
+        {
+          "field": "sub_basin",
+          "label": "Sub-basin"
+        },
+        {
+          "field": "river_basin",
+          "label": "Basin"
+        },
+        {
+          "field": "pdgl_earlier_identified",
+          "label": "Also flagged in"
+        },
+        {
+          "field": "precision_label",
+          "label": "Map location"
+        },
+        {
+          "field": "source_locator",
+          "label": "Source locator"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title"
+      ],
+      "name_field": "name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
+      }
     }
   },
   "labels_overlay": [

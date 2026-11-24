@@ -519,6 +519,15 @@
       ],
       "committed": true,
       "deployable": true
+    },
+    "data/processed/maps/glof_dangerous_lakes.geojson": {
+      "owner": "scripts/build_hazard_layers.py",
+      "command": "python scripts/build_hazard_layers.py",
+      "inputs": [
+        "data/glof_dangerous_lakes.csv"
+      ],
+      "committed": true,
+      "deployable": true
     }
   }
 }
