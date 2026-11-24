@@ -130,7 +130,8 @@ SUBSTATION_CANONICAL_GEO: dict[str, tuple[str, str]] = {
     "ghorahi-substation": ("Dang", "Lumbini"),
     # Under Construction & Planned Substations
     "biratnagar-substation": ("Morang", "Koshi"),
-    "ridi-substation": ("Palpa", "Lumbini"),
+    # Ridi Bazaar straddles Gulmi/Palpa; NEA FY 2024/25 says the line serves "Palpa and Gulmi districts" -> district and province left blank (validator requires a sourced district for province)
+    "ridi-substation": ("", ""),
     "salimpur-substation": ("Sarlahi", "Madhesh"),
     "hakui-substation": ("Nawalparasi West", "Lumbini"),
     "dailekh-substation": ("Dailekh", "Karnali"),
@@ -168,7 +169,8 @@ SUBSTATION_CANONICAL_GEO: dict[str, tuple[str, str]] = {
     "gaidakot-substation": ("Nawalparasi East", "Gandaki"),
     "meghauli-substation": ("Chitwan", "Bagmati"),
     "nijgadh-substation": ("Bara", "Madhesh"),
-    "harnaiya-substation": ("Parsa", "Madhesh"),
+    # NEA FY 2025/26: "Harnaiya Substation (Adarsha Kotawal Rural Municipality, Bara)"
+    "harnaiya-substation": ("Bara", "Madhesh"),
     "new-kohalpur-substation": ("Banke", "Lumbini"),
     "new-attariya-substation": ("Kailali", "Sudurpashchim"),
     "likhu-hub-substation": ("", ""),
