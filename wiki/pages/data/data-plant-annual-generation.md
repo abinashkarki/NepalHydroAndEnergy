@@ -72,6 +72,11 @@ The subsidiary residual covers the five other operating subsidiary plants listed
 > [!finding]
 > Plant-level generation covers 5,152 GWh of the 17,454 GWh of domestic supply (NEA, subsidiaries and IPPs) in FY 2025/26, about 30%. The remaining 70% is mostly IPP purchase, which the annual report publishes only as an aggregate.
 
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/plant_generation_vs_design.svg" alt="Horizontal bars of FY 2024/25 and FY 2025/26 generation as a percentage of design energy for NEA plants of 14 MW or more and Upper Tamakoshi">
+  <figcaption>Labels give FY 2025/26 actual over design GWh. The Kulekhani storage plants fell to about a quarter of design energy in FY 2025/26, while Upper Tamakoshi rose above design. Source: [[nea-annual-report-fy2024-25]] and [[nea-annual-report-fy2025-26]], via the CSV on this page.</figcaption>
+</figure>
+
 ## Coverage / Method
 
 [`scripts/extract_nea_plant_and_grid_tables.py`](../../../scripts/extract_nea_plant_and_grid_tables.py) builds the CSV from these pages:

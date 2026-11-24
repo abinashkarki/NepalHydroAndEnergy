@@ -41,6 +41,11 @@ page_quality: record
 > [!finding]
 > Public EV charging-station rates are printed at NRs 5.60–5.75/kWh flat, against NRs 8.60–8.90 for "other transportation". A table note allows charging-station operators to add at most 20% when serving EVs.
 
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/tariff_ppa_ladder.svg" alt="Two bar panels in NPR per kWh: retail energy charges for domestic, industrial time-of-day and EV charging consumers, and NEA purchase rates for RoR, PRoR, storage and solar">
+  <figcaption>Retail energy charges run from NRs 0 to 11.00/kWh. NEA's posted purchase rates run from NRs 4.80 (wet-season RoR) to 12.40 (withdrawn 2017 storage dry rate), and solar awards cleared at NRs 4.99-5.54. Source: [[erc-nea-consumer-tariff-order-2078]] retail schedule and [[data-ppa-standard-rates]] purchase rates.</figcaption>
+</figure>
+
 ## Coverage / Method
 
 - Values were copied cell by cell from `pdftotext -layout` output and re-checked against per-page extraction of the PDF.

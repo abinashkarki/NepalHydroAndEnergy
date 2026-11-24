@@ -36,6 +36,11 @@ page_quality: record
 > [!finding]
 > The 2024 solar award tariffs (NRs 4.99–5.54/kWh, single rate) are higher than the 2017 hydropower wet-season rate (NRs 4.80) and lower than its dry-season rate (NRs 8.40).
 
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/tariff_ppa_ladder.svg" alt="Two bar panels in NPR per kWh: retail energy charges for domestic, industrial time-of-day and EV charging consumers, and NEA purchase rates for RoR, PRoR, storage and solar">
+  <figcaption>Retail energy charges run from NRs 0 to 11.00/kWh. NEA's posted purchase rates run from NRs 4.80 (wet-season RoR) to 12.40 (withdrawn 2017 storage dry rate), and solar awards cleared at NRs 4.99-5.54. Source: [[erc-nea-consumer-tariff-order-2078]] retail schedule and [[data-ppa-standard-rates]] purchase rates.</figcaption>
+</figure>
+
 ## Coverage / Method
 
 - Hydropower rows come from Table 1 of [[erc-eca-storage-ppa-discussion-paper-2025]] (printed p.9, PDF p.14). The paper cites "NEA Board Decisions on the Power Purchase Rates and Associated Rules for PPA of ROR/PROR/Storage Projects Effective from 2074/01/14". The season definitions are from the same table: wet is 16 Jestha–15 Mangsir and dry is 16 Mangsir–15 Jestha.

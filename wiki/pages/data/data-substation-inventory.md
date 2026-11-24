@@ -55,6 +55,11 @@ page_quality: record
 > [!finding]
 > All 63 NEA 2024 solar award rows that name a substation were checked against the inventory. 30 rows matched 24 inventory substations, totalling 590 MW. The largest linked totals are Dhalkebar, Kushaha, Motipur and Sunwal at 50 MW each, and Kushaha has 22.5 MVA of listed transformer capacity.
 
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/substation_province_capacity.svg" alt="Horizontal bars of installed and planned additional grid substation MVA for each of Nepal's seven provinces">
+  <figcaption>Bagmati holds 5,136 MVA of installed substation capacity against 60 MVA in Karnali; planned additions are spread more evenly. Source: [[nea-annual-report-fy2025-26]] Appendix 8 and project tables, via the CSV on this page.</figcaption>
+</figure>
+
 ## Coverage / Method
 
 - **Existing substations.** The 95 in-service rows were parsed from NEA FY 2025/26, Appendix 8, "Existing High Voltage Grid Substations" (printed pp.204–211). Every transformer's FY 082-83 MVA is summed. Rows are checked against NEA's summary table (printed p.212): 318 transformers, 15,541 MVA, and matching subtotals for each ratio. The FY 2024/25 table was used only to flag substations that first appear with capacity in that year.

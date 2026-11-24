@@ -43,6 +43,7 @@ def apply_chart_style() -> None:
             "grid.linewidth": 0.8,
             "legend.frameon": False,
             "svg.fonttype": "none",
+            "svg.hashsalt": "transparentgov-nepal-energy",
             "figure.dpi": 160,
         }
     )

@@ -60,6 +60,11 @@ Installed capacity is only populated for the two report years. FY 2024/25 had 3,
 > [!finding]
 > The NEA-subsidiary purchase series jumps from 148 GWh in FY 2020/21 to 1,976 GWh in FY 2021/22. The tables report this as a supplier-category total and do not attribute the step to individual plants.
 
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/nea_system_trajectory_11yr.svg" alt="Three stacked panels for FY 2015/16 to 2025/26: domestic generation by NEA, NEA subsidiaries and IPPs; imports and exports in GWh; and NEA system loss in percent">
+  <figcaption>Domestic generation rose from 3,299 GWh to 17,454 GWh, exports from 3 to 3,965 GWh, and system loss fell from 25.78% to 12.16%. Source: [[nea-annual-report-fy2024-25]] and [[nea-annual-report-fy2025-26]] statistics appendices, via the CSV on this page.</figcaption>
+</figure>
+
 ## Coverage / Method
 
 [`scripts/extract_nea_annual_tables.py`](../../../scripts/extract_nea_annual_tables.py) runs `pdftotext -layout` on fixed appendix pages and parses the labelled ten-year rows. It checks that the capacity components sum to the reported total, prints any differences in the years the two reports share, and prints a cross-check against the monthly energy balance. `--check` fails if the committed CSV is stale. Pages used, as PDF page numbers:

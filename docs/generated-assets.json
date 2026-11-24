@@ -465,6 +465,60 @@
       ],
       "committed": true,
       "deployable": true
+    },
+    "wiki/assets/figures/*.svg": {
+      "owner": "scripts/build_wiki_figures.py",
+      "command": "python scripts/build_wiki_figures.py",
+      "inputs": [
+        "scripts/build_wiki_figures.py",
+        "scripts/chart_style.py",
+        "data/nea_system_annual_timeseries.csv",
+        "data/substation_specs.csv",
+        "data/plant_annual_generation.csv",
+        "data/erc_retail_tariffs.csv",
+        "data/ppa_standard_rates.csv",
+        "data/ev_adoption_and_charging.csv",
+        "data/processed/tables/",
+        "wiki/pages/"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/wiki-figure-manifest.json": {
+      "owner": "scripts/build_wiki_figures.py",
+      "command": "python scripts/build_wiki_figures.py",
+      "inputs": [
+        "scripts/build_wiki_figures.py",
+        "scripts/chart_style.py",
+        "data/nea_system_annual_timeseries.csv",
+        "data/substation_specs.csv",
+        "data/plant_annual_generation.csv",
+        "data/erc_retail_tariffs.csv",
+        "data/ppa_standard_rates.csv",
+        "data/ev_adoption_and_charging.csv",
+        "data/processed/tables/",
+        "wiki/pages/"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/pages/data/figure-index.md": {
+      "owner": "scripts/build_wiki_figures.py",
+      "command": "python scripts/build_wiki_figures.py",
+      "inputs": [
+        "scripts/build_wiki_figures.py",
+        "scripts/chart_style.py",
+        "data/nea_system_annual_timeseries.csv",
+        "data/substation_specs.csv",
+        "data/plant_annual_generation.csv",
+        "data/erc_retail_tariffs.csv",
+        "data/ppa_standard_rates.csv",
+        "data/ev_adoption_and_charging.csv",
+        "data/processed/tables/",
+        "wiki/pages/"
+      ],
+      "committed": true,
+      "deployable": true
     }
   }
 }

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="657.038796pt" height="397.296pt" viewBox="0 0 657.038796 397.296" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-25</dc:date>
+    <dc:description>tariff_ppa_ladder: erc_retail_tariffs.csv (ERC order 2078) and ppa_standard_rates.csv (NEA posted rates, 2024 solar LoI). Caveat: energy charges only; demand and minimum charges excluded</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>TransparentGov Nepal Energy Wiki</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>CC-BY 4.0</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 397.296
+L 657.038796 397.296
+L 657.038796 0
+L -0 0
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 175.68 328.896
+L 335.105085 328.896
+L 335.105085 56.736
+L 175.68 56.736
+z
+" style="fill: #fbfaf7"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 175.68 328.896
+L 175.68 56.736
+" clip-path="url(#pe318bf5d1e)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="175.68" y="338.854672" transform="rotate(-0 175.68 338.854672)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 202.919114 328.896
+L 202.919114 56.736
+" clip-path="url(#pe318bf5d1e)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="202.919114" y="338.854672" transform="rotate(-0 202.919114 338.854672)">2.5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 230.158227 328.896
+L 230.158227 56.736
+" clip-path="url(#pe318bf5d1e)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="230.158227" y="338.854672" transform="rotate(-0 230.158227 338.854672)">5.0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 257.397341 328.896
+L 257.397341 56.736
+" clip-path="url(#pe318bf5d1e)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="257.397341" y="338.854672" transform="rotate(-0 257.397341 338.854672)">7.5</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 284.636455 328.896
+L 284.636455 56.736
+" clip-path="url(#pe318bf5d1e)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="284.636455" y="338.854672" transform="rotate(-0 284.636455 338.854672)">10.0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 311.875569 328.896
+L 311.875569 56.736
+" clip-path="url(#pe318bf5d1e)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="311.875569" y="338.854672" transform="rotate(-0 311.875569 338.854672)">12.5</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="255.392542" y="352.220844" transform="rotate(-0 255.392542 352.220844)">NPR per kWh</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="80.068063" transform="rotate(-0 172.18 80.068063)">Domestic 5 A, 0-20 units</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="105.84079" transform="rotate(-0 172.18 105.84079)">Domestic 5 A, 21-30 units</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="131.613518" transform="rotate(-0 172.18 131.613518)">Domestic 5 A, 31-50 units</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="157.386245" transform="rotate(-0 172.18 157.386245)">Domestic 5 A, 51-250 units</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17"/>
+     <g id="text_12">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="183.158972" transform="rotate(-0 172.18 183.158972)">Domestic 5 A, over 250 units</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="208.9317" transform="rotate(-0 172.18 208.9317)">Industrial 132 kV ToD, off-peak (wet)</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="234.704427" transform="rotate(-0 172.18 234.704427)">Industrial 132 kV ToD, normal</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_20"/>
+     <g id="text_15">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="260.477154" transform="rotate(-0 172.18 260.477154)">Industrial 132 kV ToD, peak</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_21"/>
+     <g id="text_16">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="286.249881" transform="rotate(-0 172.18 286.249881)">Public EV charging, 33 kV flat</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_22"/>
+     <g id="text_17">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="172.18" y="312.022609" transform="rotate(-0 172.18 312.022609)">Public EV charging, LV flat</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 175.68 84.570545
+L 175.68 84.570545
+L 175.68 69.106909
+L 175.68 69.106909
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 175.68 110.343273
+L 246.501696 110.343273
+L 246.501696 94.879636
+L 175.68 94.879636
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 175.68 136.116
+L 262.845164 136.116
+L 262.845164 120.652364
+L 175.68 120.652364
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 175.68 161.888727
+L 279.188632 161.888727
+L 279.188632 146.425091
+L 175.68 146.425091
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 175.68 187.661455
+L 295.5321 187.661455
+L 295.5321 172.197818
+L 175.68 172.197818
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 175.68 213.434182
+L 226.344752 213.434182
+L 226.344752 197.970545
+L 175.68 197.970545
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 175.68 239.206909
+L 265.024293 239.206909
+L 265.024293 223.743273
+L 175.68 223.743273
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 175.68 264.979636
+L 284.636455 264.979636
+L 284.636455 249.516
+L 175.68 249.516
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 175.68 290.752364
+L 236.695615 290.752364
+L 236.695615 275.288727
+L 175.68 275.288727
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 175.68 316.525091
+L 238.329962 316.525091
+L 238.329962 301.061455
+L 175.68 301.061455
+z
+" clip-path="url(#pe318bf5d1e)" style="fill: #4477aa; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 175.68 328.896
+L 175.68 56.736
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 175.68 328.896
+L 335.105085 328.896
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="178.071376" y="79.046227" transform="rotate(-0 178.071376 79.046227)">0.00</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="248.893072" y="104.818955" transform="rotate(-0 248.893072 104.818955)">6.50</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="265.23654" y="130.591682" transform="rotate(-0 265.23654 130.591682)">8.00</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="281.580008" y="156.364409" transform="rotate(-0 281.580008 156.364409)">9.50</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="297.923477" y="182.137136" transform="rotate(-0 297.923477 182.137136)">11.00</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="228.736128" y="207.909864" transform="rotate(-0 228.736128 207.909864)">4.65</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="267.415669" y="233.682591" transform="rotate(-0 267.415669 233.682591)">8.20</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="287.027831" y="259.455318" transform="rotate(-0 287.027831 259.455318)">10.00</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="239.086991" y="285.228045" transform="rotate(-0 239.086991 285.228045)">5.60</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="240.721338" y="311.000773" transform="rotate(-0 240.721338 311.000773)">5.75</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="175.68" y="48.736" transform="rotate(-0 175.68 48.736)">What consumers pay (energy charge)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_15">
+    <path d="M 486.558915 328.896
+L 645.984 328.896
+L 645.984 56.736
+L 486.558915 56.736
+z
+" style="fill: #fbfaf7"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_23">
+      <path d="M 486.558915 328.896
+L 486.558915 56.736
+" clip-path="url(#pb84a8fc891)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_24"/>
+     <g id="text_29">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="486.558915" y="338.854672" transform="rotate(-0 486.558915 338.854672)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_25">
+      <path d="M 513.798029 328.896
+L 513.798029 56.736
+" clip-path="url(#pb84a8fc891)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_26"/>
+     <g id="text_30">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="513.798029" y="338.854672" transform="rotate(-0 513.798029 338.854672)">2.5</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_27">
+      <path d="M 541.037143 328.896
+L 541.037143 56.736
+" clip-path="url(#pb84a8fc891)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_28"/>
+     <g id="text_31">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="541.037143" y="338.854672" transform="rotate(-0 541.037143 338.854672)">5.0</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_29">
+      <path d="M 568.276256 328.896
+L 568.276256 56.736
+" clip-path="url(#pb84a8fc891)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_30"/>
+     <g id="text_32">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="568.276256" y="338.854672" transform="rotate(-0 568.276256 338.854672)">7.5</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_31">
+      <path d="M 595.51537 328.896
+L 595.51537 56.736
+" clip-path="url(#pb84a8fc891)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_32"/>
+     <g id="text_33">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="595.51537" y="338.854672" transform="rotate(-0 595.51537 338.854672)">10.0</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_33">
+      <path d="M 622.754484 328.896
+L 622.754484 56.736
+" clip-path="url(#pb84a8fc891)" style="fill: none; stroke: #d8d2ca; stroke-opacity: 0.42; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_34"/>
+     <g id="text_34">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="622.754484" y="338.854672" transform="rotate(-0 622.754484 338.854672)">12.5</text>
+     </g>
+    </g>
+    <g id="text_35">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #25211d" x="566.271458" y="352.220844" transform="rotate(-0 566.271458 352.220844)">NPR per kWh</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_11">
+     <g id="line2d_35"/>
+     <g id="text_36">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="483.058915" y="82.102752" transform="rotate(-0 483.058915 82.102752)">RoR, wet season</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_36"/>
+     <g id="text_37">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="483.058915" y="114.657776" transform="rotate(-0 483.058915 114.657776)">RoR, dry season</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_37"/>
+     <g id="text_38">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="483.058915" y="147.2128" transform="rotate(-0 483.058915 147.2128)">PRoR 4-6 hr, dry peak</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_38"/>
+     <g id="text_39">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="483.058915" y="179.767824" transform="rotate(-0 483.058915 179.767824)">Storage, wet (2017, withdrawn)</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_39"/>
+     <g id="text_40">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="483.058915" y="212.322848" transform="rotate(-0 483.058915 212.322848)">Storage, dry (2017, withdrawn)</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_40"/>
+     <g id="text_41">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="483.058915" y="244.877872" transform="rotate(-0 483.058915 244.877872)">Solar 2024 award, min</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_41"/>
+     <g id="text_42">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="483.058915" y="277.432896" transform="rotate(-0 483.058915 277.432896)">Solar 2024 award, max</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_42"/>
+     <g id="text_43">
+      <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: end; fill: #25211d" x="483.058915" y="309.98792" transform="rotate(-0 483.058915 309.98792)">NEA average purchase FY 2025/26</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_16">
+    <path d="M 486.558915 88.639923
+L 538.858014 88.639923
+L 538.858014 69.106909
+L 486.558915 69.106909
+z
+" clip-path="url(#pb84a8fc891)" style="fill: #228833; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 486.558915 121.194947
+L 578.082337 121.194947
+L 578.082337 101.661933
+L 486.558915 101.661933
+z
+" clip-path="url(#pb84a8fc891)" style="fill: #228833; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 486.558915 153.749971
+L 601.507975 153.749971
+L 601.507975 134.216957
+L 486.558915 134.216957
+z
+" clip-path="url(#pb84a8fc891)" style="fill: #228833; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 486.558915 186.304995
+L 563.917998 186.304995
+L 563.917998 166.771981
+L 486.558915 166.771981
+z
+" clip-path="url(#pb84a8fc891)" style="fill: #228833; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 486.558915 218.860019
+L 621.664919 218.860019
+L 621.664919 199.327005
+L 486.558915 199.327005
+z
+" clip-path="url(#pb84a8fc891)" style="fill: #228833; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 486.558915 251.415043
+L 540.928186 251.415043
+L 540.928186 231.882029
+L 486.558915 231.882029
+z
+" clip-path="url(#pb84a8fc891)" style="fill: #228833; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 486.558915 283.970067
+L 546.920791 283.970067
+L 546.920791 264.437053
+L 486.558915 264.437053
+z
+" clip-path="url(#pb84a8fc891)" style="fill: #228833; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 486.558915 316.525091
+L 552.695483 316.525091
+L 552.695483 296.992077
+L 486.558915 296.992077
+z
+" clip-path="url(#pb84a8fc891)" style="fill: #228833; stroke: #fbfaf7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 486.558915 328.896
+L 486.558915 56.736
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 486.558915 328.896
+L 645.984 328.896
+" style="fill: none; stroke: #6b6259; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="541.24939" y="81.080916" transform="rotate(-0 541.24939 81.080916)">4.80</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="580.473714" y="113.63594" transform="rotate(-0 580.473714 113.63594)">8.40</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="603.899351" y="146.190964" transform="rotate(-0 603.899351 146.190964)">10.55</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="566.309374" y="178.745988" transform="rotate(-0 566.309374 178.745988)">7.10</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="624.056296" y="211.301012" transform="rotate(-0 624.056296 211.301012)">12.40</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="543.319562" y="243.856036" transform="rotate(-0 543.319562 243.856036)">4.99</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="549.312168" y="276.41106" transform="rotate(-0 549.312168 276.41106)">5.54</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="555.08686" y="308.966084" transform="rotate(-0 555.08686 308.966084)">6.07</text>
+   </g>
+   <g id="text_52">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="486.558915" y="48.736" transform="rotate(-0 486.558915 48.736)">What NEA pays generators</text>
+   </g>
+  </g>
+  <g id="text_53">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; text-anchor: start; fill: #25211d" x="10.08" y="19.957969" transform="rotate(-0 10.08 19.957969)">Nepal electricity price ladder: retail tariffs and purchase rates</text>
+  </g>
+  <g id="text_54">
+   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 377.495625)">tariff_ppa_ladder | erc_retail_tariffs.csv (ERC order 2078) and ppa_standard_rates.csv (NEA posted rates, 2024 solar</text>
+   <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', 'Liberation Sans', sans-serif; fill: #6b6259" transform="translate(10.08 385.565531)">LoI) | Caveat: energy charges only; demand and minimum charges excluded | 2026-11-25 | CC-BY 4.0</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe318bf5d1e">
+   <rect x="175.68" y="56.736" width="159.425085" height="272.16"/>
+  </clipPath>
+  <clipPath id="pb84a8fc891">
+   <rect x="486.558915" y="56.736" width="159.425085" height="272.16"/>
+  </clipPath>
+ </defs>
+</svg>

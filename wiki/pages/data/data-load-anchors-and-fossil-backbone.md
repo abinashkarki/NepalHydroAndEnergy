@@ -41,6 +41,11 @@ Each table has a `nearest_substation_name` column, filled only where the source 
 > [!finding]
 > The NOC storage table reproduced by WECS (as of 2080/01/23 BS) totals 13,632 for petrol (MS), 2,695 for kerosene (SKO) and 8,815 for ATF. It has no diesel or LPG column and states no unit.
 
+<figure class="wiki-inline-figure">
+  <img src="../assets/figures/ev_import_surge.svg" alt="Grouped bars of electric car, three-wheeler and bus imports by unit count and customs value for FY 2080/81 to 2082/83">
+  <figcaption>Electric car, jeep and van imports went from 12,147 to 10,949 units, and electric bus imports from 884 to 2,408, while three-wheeler imports rose every year. Source: [[customs-foreign-trade-statistics-2080-83]], via ev_adoption_and_charging.csv.</figcaption>
+</figure>
+
 ## Coverage / Method
 
 - **Industrial anchors:** rows come from FY 2025/26 transmission-project descriptions that name an industrial corridor, SEZ or industrial consumer. District is filled only where the text names it, and province is left `unknown` for the post-integration join. The 10 industrial districts and Bhairahawa SEZ are kept as explicit gap rows, because the Industrial District Management website could not be reached.
