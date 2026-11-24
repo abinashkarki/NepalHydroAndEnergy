@@ -49,11 +49,11 @@
     "province": {
       "type": "string",
       "enum": ["Koshi", "Madhesh", "Bagmati", "Gandaki", "Lumbini", "Karnali", "Sudurpashchim"],
-      "description": "Province, derived only from a sourced district. Blank when unknown or ambiguous."
+      "description": "Province, derived from a sourced or canonical-geography district lookup. Blank when unknown or spanning multiple provinces."
     },
     "district": {
       "type": "string",
-      "description": "District, only where a source names it (basis recorded in notes)."
+      "description": "District from a primary source or canonical Nepal administrative geography lookup (basis recorded in notes)."
     },
     "latitude": {
       "type": "number",
