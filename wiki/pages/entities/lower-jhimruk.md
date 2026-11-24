@@ -30,6 +30,14 @@ Lower Jhimruk is a 142.5 MW JICA promising-storage candidate in the West Rapti b
 | Total storage | 386.0 MCM |
 | Effective storage | 211.6 MCM |
 
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Gross head | 194.6 m |
+| Design discharge | 88.1 m³/s |
+| Dam height | 167.0 m |
+
 ### Storage
 
 | Parameter | Value |
@@ -44,7 +52,16 @@ Lower Jhimruk is a 142.5 MW JICA promising-storage candidate in the West Rapti b
 | Annual design energy | 454.7 GWh |
 | Dry-season energy | 94.4 GWh |
 | Dry-season share | 20.8 % |
+| Plant load factor | 36.4 % |
 | Type | Storage |
+| Catchment area | 995.0 km² |
+
+### Financial
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | 520.9 million USD |
+| Cost per MW | 3.66 million USD/MW |
 
 <!-- generated:specs:end -->
 

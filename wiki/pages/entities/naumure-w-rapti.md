@@ -34,6 +34,14 @@ Naumure is a 245 MW JICA promising-storage candidate in the West Rapti basin. It
 | Total storage | 1021.0 MCM |
 | Effective storage | 580.0 MCM |
 
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Gross head | 162.6 m |
+| Design discharge | 185.6 m³/s |
+| Dam height | 190.0 m |
+
 ### Storage
 
 | Parameter | Value |
@@ -48,7 +56,16 @@ Naumure is a 245 MW JICA promising-storage candidate in the West Rapti basin. It
 | Annual design energy | 1157.5 GWh |
 | Dry-season energy | 309.9 GWh |
 | Dry-season share | 26.8 % |
+| Plant load factor | 53.9 % |
 | Type | Storage |
+| Catchment area | 3430.0 km² |
+
+### Financial
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | 954.5 million USD |
+| Cost per MW | 3.90 million USD/MW |
 
 <!-- generated:specs:end -->
 

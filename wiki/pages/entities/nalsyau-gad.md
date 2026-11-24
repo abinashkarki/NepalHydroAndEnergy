@@ -33,6 +33,14 @@ contributes the kind of dry-season energy Nepal's run-of-river-heavy system is m
 | Total storage | 419.6 MCM |
 | Effective storage | 296.3 MCM |
 
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Gross head | 649.3 m |
+| Design discharge | 75.0 m³/s |
+| Dam height | 200.0 m |
+
 ### Storage
 
 | Parameter | Value |
@@ -47,7 +55,16 @@ contributes the kind of dry-season energy Nepal's run-of-river-heavy system is m
 | Annual design energy | 1406.1 GWh |
 | Dry-season energy | 581.8 GWh |
 | Dry-season share | 41.4 % |
+| Plant load factor | 39.1 % |
 | Type | Storage |
+| Catchment area | 571.5 km² |
+
+### Financial
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | 966.9 million USD |
+| Cost per MW | 2.36 million USD/MW |
 
 <!-- generated:specs:end -->
 

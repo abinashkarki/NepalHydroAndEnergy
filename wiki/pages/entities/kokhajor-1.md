@@ -34,6 +34,14 @@ Kokhajor-1 is a 111.5 MW JICA promising-storage candidate in the Koshi basin. It
 | Total storage | 218.7 MCM |
 | Effective storage | 166.1 MCM |
 
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Gross head | 226.3 m |
+| Design discharge | 63.9 m³/s |
+| Dam height | 107.0 m |
+
 ### Storage
 
 | Parameter | Value |
@@ -48,7 +56,16 @@ Kokhajor-1 is a 111.5 MW JICA promising-storage candidate in the Koshi basin. It
 | Annual design energy | 278.9 GWh |
 | Dry-season energy | 94.1 GWh |
 | Dry-season share | 33.7 % |
+| Plant load factor | 28.6 % |
 | Type | Storage |
+| Catchment area | 281.0 km² |
+
+### Financial
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | 476.5 million USD |
+| Cost per MW | 4.27 million USD/MW |
 
 <!-- generated:specs:end -->
 
