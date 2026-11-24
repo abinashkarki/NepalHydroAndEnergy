@@ -59,7 +59,7 @@
       "type": "number",
       "minimum": 26.0,
       "maximum": 30.6,
-      "description": "WGS84 latitude copied from transmission_network_nodes.geojson / place_anchor_index.geojson. Never estimated."
+      "description": "WGS84 latitude copied from a local spatial asset (rpgcl_substation_nodes.geojson, place_anchor_index.geojson or the OpenStreetMap Geofabrik extract) by scripts/geocode_infrastructure_assets.py; basis recorded in notes. Never estimated."
     },
     "longitude": {
       "type": "number",
@@ -70,7 +70,7 @@
     "coordinate_precision": {
       "type": "string",
       "enum": ["official-map-node", "approximate-place"],
-      "description": "official-map-node = node position from the RPGCL official transmission vector/map; approximate-place = Nominatim place-level match, not the substation footprint."
+      "description": "official-map-node = substation symbol position on the RPGCL official transmission network GeoPDF (data/processed/maps/rpgcl_substation_nodes.geojson; symbol-level, ~1 km); approximate-place = Nominatim or OpenStreetMap place-level match for the named town/village, not the substation footprint."
     },
     "owner": {
       "type": "string",

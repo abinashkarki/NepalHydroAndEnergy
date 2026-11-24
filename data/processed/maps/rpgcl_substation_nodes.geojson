@@ -1,0 +1,3410 @@
+{
+ "type": "FeatureCollection",
+ "name": "rpgcl_substation_nodes",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.297899,
+     27.725663
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_001",
+    "label": "Balaju",
+    "name_key": "balaju",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3621.38,
+    "page_y": 590.05,
+    "label_distance_pt": 3.47,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.539866,
+     27.626143
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_002",
+    "label": "Banepa",
+    "name_key": "banepa",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3961.46,
+    "page_y": 742.44,
+    "label_distance_pt": 3.47,
+    "district": "Kavrepalanchok",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.341364,
+     27.684597
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_003",
+    "label": "Baneshwor",
+    "name_key": "baneshwor",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3682.82,
+    "page_y": 653.88,
+    "label_distance_pt": 3.58,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.423808,
+     27.674147
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_004",
+    "label": "Baneshwor (New Airport)",
+    "name_key": "baneshwor",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3798.26,
+    "page_y": 669.0,
+    "label_distance_pt": 0.0,
+    "district": "Bhaktapur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.349022,
+     27.720895
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_005",
+    "label": "Chabahil",
+    "name_key": "chabahil",
+    "symbol_status": "future",
+    "map_frame": "inset",
+    "page_x": 3692.9,
+    "page_y": 596.77,
+    "label_distance_pt": 1.58,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.320826,
+     27.589888
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_006",
+    "label": "Chapagaon",
+    "name_key": "chapagaon",
+    "symbol_status": "future",
+    "map_frame": "inset",
+    "page_x": 3655.7,
+    "page_y": 802.92,
+    "label_distance_pt": 2.78,
+    "district": "Lalitpur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.360546,
+     27.763726
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_007",
+    "label": "Chapali",
+    "name_key": "chapali",
+    "symbol_status": "under-construction",
+    "map_frame": "inset",
+    "page_x": 3708.26,
+    "page_y": 529.33,
+    "label_distance_pt": 3.45,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.353099,
+     27.647652
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_008",
+    "label": "Harsiddhi",
+    "name_key": "harsiddhi",
+    "symbol_status": "future",
+    "map_frame": "inset",
+    "page_x": 3699.86,
+    "page_y": 711.72,
+    "label_distance_pt": 2.78,
+    "district": "Lalitpur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.341637,
+     27.706907
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_009",
+    "label": "K-3",
+    "name_key": "k3",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3682.82,
+    "page_y": 618.85,
+    "label_distance_pt": 0.0,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.049913,
+     27.512876
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_010",
+    "label": "Kulekhani II-",
+    "name_key": "kulekhaniii",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3277.7,
+    "page_y": 927.48,
+    "label_distance_pt": 3.58,
+    "district": "Makwanpur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.116186,
+     27.540024
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_011",
+    "label": "Kulekhani-I",
+    "name_key": "kulekhanii",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3370.1,
+    "page_y": 884.04,
+    "label_distance_pt": 1.91,
+    "district": "Makwanpur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.509309,
+     27.749805
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_012",
+    "label": "Lapsephedi",
+    "name_key": "lapsiphedi",
+    "symbol_status": "future",
+    "map_frame": "inset",
+    "page_x": 3916.34,
+    "page_y": 548.77,
+    "label_distance_pt": 3.02,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.242761,
+     27.679709
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_013",
+    "label": "Matatirtha",
+    "name_key": "matatirtha",
+    "symbol_status": "under-construction",
+    "map_frame": "inset",
+    "page_x": 3545.06,
+    "page_y": 663.0,
+    "label_distance_pt": 3.58,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.401866,
+     27.703407
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_014",
+    "label": "Mulpani",
+    "name_key": "mulpani",
+    "symbol_status": "future",
+    "map_frame": "inset",
+    "page_x": 3767.06,
+    "page_y": 623.41,
+    "label_distance_pt": 2.9,
+    "district": "Bhaktapur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.036565,
+     27.442211
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_015",
+    "label": "New Hetauda",
+    "name_key": "newhetauda",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3259.94,
+    "page_y": 1038.6,
+    "label_distance_pt": 0.0,
+    "district": "Makwanpur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.618369,
+     27.643893
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_016",
+    "label": "Panckkhal",
+    "name_key": "panchkhal",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 4070.91,
+    "page_y": 713.16,
+    "label_distance_pt": 1.91,
+    "district": "Kavrepalanchok",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.323617,
+     27.665053
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_017",
+    "label": "Patan",
+    "name_key": "patan",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3658.34,
+    "page_y": 684.84,
+    "label_distance_pt": 3.37,
+    "district": "Lalitpur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.052443,
+     27.848638
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_018",
+    "label": "Ratmate",
+    "name_key": "ratmate",
+    "symbol_status": "future",
+    "map_frame": "inset",
+    "page_x": 3276.74,
+    "page_y": 400.21,
+    "label_distance_pt": 2.9,
+    "district": "Nuwakot",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.393899,
+     27.92676
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_019",
+    "label": "Samundratar",
+    "name_key": "samundratar",
+    "symbol_status": "future",
+    "map_frame": "inset",
+    "page_x": 3751.94,
+    "page_y": 272.77,
+    "label_distance_pt": 2.78,
+    "district": "Nuwakot",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.279543,
+     27.698019
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_020",
+    "label": "Siuchatar",
+    "name_key": "siuchatar",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3596.18,
+    "page_y": 633.73,
+    "label_distance_pt": 1.91,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.326098,
+     27.699874
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_021",
+    "label": "Teku",
+    "name_key": "teku",
+    "symbol_status": "existing",
+    "map_frame": "inset",
+    "page_x": 3661.22,
+    "page_y": 630.13,
+    "label_distance_pt": 0.0,
+    "district": "Kathmandu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.184546,
+     28.010481
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_022",
+    "label": "Trishuli 3B",
+    "name_key": "trishuli3b",
+    "symbol_status": "under-construction",
+    "map_frame": "inset",
+    "page_x": 3458.66,
+    "page_y": 144.37,
+    "label_distance_pt": 0.0,
+    "district": "Rasuwa",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.994443,
+     27.278184
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_023",
+    "label": "Amlekhgunj",
+    "name_key": "amlekhgunj",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2603.05,
+    "page_y": 1912.91,
+    "label_distance_pt": 3.02,
+    "district": "Bara",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.990952,
+     26.635046
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_024",
+    "label": "Anarmani",
+    "name_key": "anarmani",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 4144.35,
+    "page_y": 2250.11,
+    "label_distance_pt": 0.0,
+    "district": "Jhapa",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.039653,
+     28.130572
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_025",
+    "label": "Ankhu",
+    "name_key": "ankhu",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2622.01,
+    "page_y": 1425.96,
+    "label_distance_pt": 0.0,
+    "district": "Dhading",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.554788,
+     28.804525
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_026",
+    "label": "Attariya",
+    "name_key": "attariya",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 362.14,
+    "page_y": 1018.2,
+    "label_distance_pt": 0.0,
+    "district": "Kailali",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.230199,
+     28.881825
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_027",
+    "label": "BETAN",
+    "name_key": "betan",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 703.18,
+    "page_y": 982.92,
+    "label_distance_pt": 0.0,
+    "district": "Surkhet",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.542183,
+     28.649896
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_028",
+    "label": "Bafikot",
+    "name_key": "banfikot",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1361.27,
+    "page_y": 1127.16,
+    "label_distance_pt": 0.0,
+    "district": "Rukum West",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.276841,
+     29.609306
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_029",
+    "label": "Bajhang",
+    "name_key": "bajhang",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 736.3,
+    "page_y": 567.73,
+    "label_distance_pt": 2.73,
+    "district": "Bajhang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.643842,
+     29.686316
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_030",
+    "label": "Balanch",
+    "name_key": "balanch",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 421.42,
+    "page_y": 515.41,
+    "label_distance_pt": 0.0,
+    "district": "Darchula",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.281503,
+     27.273466
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_031",
+    "label": "Baneshwor",
+    "name_key": "baneshwor",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3770.42,
+    "page_y": 1895.63,
+    "label_distance_pt": 0.0,
+    "district": "Sankhuwasabha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.795325,
+     27.532079
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_032",
+    "label": "Bardaghat",
+    "name_key": "bardghat",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1991.52,
+    "page_y": 1769.87,
+    "label_distance_pt": 0.0,
+    "district": "Nawalparasi West",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.909194,
+     27.791815
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_033",
+    "label": "Barhabise",
+    "name_key": "barhabise",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3065.29,
+    "page_y": 1614.12,
+    "label_distance_pt": 2.97,
+    "district": "Sindhupalchok",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.893601,
+     28.292496
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_034",
+    "label": "Baskot",
+    "name_key": "baskot",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2041.92,
+    "page_y": 1335.72,
+    "label_distance_pt": 2.86,
+    "district": "Kaski",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.999291,
+     26.498811
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_035",
+    "label": "Bhadrapur",
+    "name_key": "bhadrapur",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 4151.07,
+    "page_y": 2327.87,
+    "label_distance_pt": 0.0,
+    "district": "Jhapa",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.233664,
+     26.454407
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_036",
+    "label": "Biratnagar",
+    "name_key": "biratnagar",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3757.94,
+    "page_y": 2364.35,
+    "label_distance_pt": 0.0,
+    "district": "Sunsari",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.891798,
+     27.029213
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_037",
+    "label": "Birgunj",
+    "name_key": "birgunj",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2551.69,
+    "page_y": 2055.47,
+    "label_distance_pt": 0.0,
+    "district": "Parsa",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.149665,
+     28.339899
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_038",
+    "label": "Burtibang",
+    "name_key": "burtibang",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1666.08,
+    "page_y": 1307.16,
+    "label_distance_pt": 3.33,
+    "district": "Baglung",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.473104,
+     27.66825
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_039",
+    "label": "Butwal",
+    "name_key": "butwal",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1827.84,
+    "page_y": 1691.63,
+    "label_distance_pt": 0.0,
+    "district": "Rupandehi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.355254,
+     27.125119
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_040",
+    "label": "Chandranigahapur",
+    "name_key": "chandranigahpur",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2788.09,
+    "page_y": 1998.59,
+    "label_distance_pt": 0.0,
+    "district": "Rautahat",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.468298,
+     27.685883
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_041",
+    "label": "Chauraha",
+    "name_key": "chauraha",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1825.44,
+    "page_y": 1681.55,
+    "label_distance_pt": 3.39,
+    "district": "Rupandehi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.30998,
+     28.179101
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_042",
+    "label": "Chilime",
+    "name_key": "chilime",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2758.57,
+    "page_y": 1396.92,
+    "label_distance_pt": 3.05,
+    "district": "Rasuwa",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.709492,
+     28.853024
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_043",
+    "label": "Dailekh",
+    "name_key": "dailekh",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 943.91,
+    "page_y": 1004.52,
+    "label_distance_pt": 0.0,
+    "district": "Dailekh",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.729076,
+     26.65518
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_044",
+    "label": "Damak",
+    "name_key": "damak",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 4009.46,
+    "page_y": 2242.67,
+    "label_distance_pt": 0.0,
+    "district": "Jhapa",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.272191,
+     27.97832
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_045",
+    "label": "Damauli",
+    "name_key": "damauli",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2233.68,
+    "page_y": 1515.0,
+    "label_distance_pt": 3.28,
+    "district": "Tanahun",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.652068,
+     28.536683
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_046",
+    "label": "Dana",
+    "name_key": "dana",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1920.24,
+    "page_y": 1196.04,
+    "label_distance_pt": 2.85,
+    "district": "Myagdi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.387629,
+     28.425645
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_047",
+    "label": "Dandakhet",
+    "name_key": "dadakhet",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1786.56,
+    "page_y": 1258.92,
+    "label_distance_pt": 0.0,
+    "district": "Myagdi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.313818,
+     26.871253
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_048",
+    "label": "Dharan",
+    "name_key": "dharan",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3792.98,
+    "page_y": 2125.07,
+    "label_distance_pt": 0.0,
+    "district": "Dhankuta",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.597204,
+     27.358064
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_049",
+    "label": "Dhungesanu SS",
+    "name_key": "dhungesanghu",
+    "symbol_status": "under-construction",
+    "map_frame": "main",
+    "page_x": 3930.26,
+    "page_y": 1842.83,
+    "label_distance_pt": 3.07,
+    "district": "Taplejung",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.049115,
+     28.687327
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_050",
+    "label": "Dododhara",
+    "name_key": "dododhara",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 609.34,
+    "page_y": 1091.88,
+    "label_distance_pt": 0.0,
+    "district": "Kailali",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.456105,
+     27.125723
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_051",
+    "label": "DudK",
+    "name_key": "dudk",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3350.66,
+    "page_y": 1989.71,
+    "label_distance_pt": 0.0,
+    "district": "Khotang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.689692,
+     27.563761
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_052",
+    "label": "Dudhkoshi-4",
+    "name_key": "dudhkoshi4",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3464.66,
+    "page_y": 1736.99,
+    "label_distance_pt": 2.97,
+    "district": "Solukhumbu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.27807,
+     26.572242
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_053",
+    "label": "Duhabi",
+    "name_key": "duhabi",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 3779.06,
+    "page_y": 2296.43,
+    "label_distance_pt": 3.38,
+    "district": "Sunsari",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.417443,
+     27.954
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_054",
+    "label": "Dumre",
+    "name_key": "dumre",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2307.36,
+    "page_y": 1528.68,
+    "label_distance_pt": 0.0,
+    "district": "Tanahun",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.902662,
+     28.935247
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_055",
+    "label": "Dunai",
+    "name_key": "dunai",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1544.39,
+    "page_y": 966.12,
+    "label_distance_pt": 0.0,
+    "district": "Dolpa",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.794109,
+     27.425737
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_056",
+    "label": "Gandak-",
+    "name_key": "gandak",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1990.8,
+    "page_y": 1830.59,
+    "label_distance_pt": 0.0,
+    "district": "Nawalparasi West",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.322407,
+     27.649791
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_057",
+    "label": "Garjyang",
+    "name_key": "garjyang",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3276.74,
+    "page_y": 1691.63,
+    "label_distance_pt": 3.33,
+    "district": "Ramechhap",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.497931,
+     27.97081
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_058",
+    "label": "Ghorahi s/s",
+    "name_key": "ghorahi",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1334.15,
+    "page_y": 1514.76,
+    "label_distance_pt": 0.0,
+    "district": "Dang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.831217,
+     28.212262
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_059",
+    "label": "Gumda",
+    "name_key": "gumda",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2516.17,
+    "page_y": 1380.12,
+    "label_distance_pt": 0.0,
+    "district": "Gorkha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.357932,
+     27.624788
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_060",
+    "label": "Haitar SS",
+    "name_key": "haitar",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3804.02,
+    "page_y": 1693.79,
+    "label_distance_pt": 1.94,
+    "district": "Sankhuwasabha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.148819,
+     28.181256
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_061",
+    "label": "Hapure",
+    "name_key": "hapure",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1158.95,
+    "page_y": 1392.12,
+    "label_distance_pt": 0.0,
+    "district": "Dang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.549002,
+     26.803984
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_062",
+    "label": "IN_Bettiah",
+    "name_key": "inbettiah",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2376.96,
+    "page_y": 2185.07,
+    "label_distance_pt": 0.0,
+    "district": "",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.33032,
+     27.15607
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_063",
+    "label": "IN_Ramnagar",
+    "name_key": "inramnagar",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2264.4,
+    "page_y": 1984.43,
+    "label_distance_pt": 0.0,
+    "district": "",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.843363,
+     26.954275
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_064",
+    "label": "IN_Raxual",
+    "name_key": "inraxual",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2527.21,
+    "page_y": 2098.43,
+    "label_distance_pt": 0.0,
+    "district": "",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.928229,
+     26.875644
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_065",
+    "label": "Illam",
+    "name_key": "ilam",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 4107.87,
+    "page_y": 2113.55,
+    "label_distance_pt": 0.0,
+    "district": "Ilam",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.123609,
+     26.611837
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_066",
+    "label": "Inaruwa",
+    "name_key": "inaruwa",
+    "symbol_status": "under-construction",
+    "map_frame": "main",
+    "page_x": 3699.14,
+    "page_y": 2275.79,
+    "label_distance_pt": 3.5,
+    "district": "Sunsari",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.763482,
+     27.479985
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_067",
+    "label": "Inkhu",
+    "name_key": "inkhu",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3503.3,
+    "page_y": 1784.03,
+    "label_distance_pt": 0.0,
+    "district": "Solukhumbu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.261505,
+     26.745226
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_068",
+    "label": "Itahari",
+    "name_key": "itahari",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3768.02,
+    "page_y": 2197.79,
+    "label_distance_pt": 0.0,
+    "district": "Sunsari",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.841689,
+     26.652713
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_069",
+    "label": "Jaleswor",
+    "name_key": "jaleswor",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3040.57,
+    "page_y": 2265.23,
+    "label_distance_pt": 0.0,
+    "district": "Mahottari",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.917422,
+     26.734495
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_070",
+    "label": "Janakpur",
+    "name_key": "janakpur",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3078.73,
+    "page_y": 2217.95,
+    "label_distance_pt": 0.0,
+    "district": "Dhanusha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.160924,
+     26.642755
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_071",
+    "label": "Jaynagar",
+    "name_key": "jaynagar",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3204.49,
+    "page_y": 2268.35,
+    "label_distance_pt": 0.0,
+    "district": "Dhanusha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.872705,
+     28.117692
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_072",
+    "label": "Jhimruk",
+    "name_key": "jhimruk",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1524.95,
+    "page_y": 1432.92,
+    "label_distance_pt": 3.01,
+    "district": "Pyuthan",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.187921,
+     29.273692
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_073",
+    "label": "Jumla",
+    "name_key": "jumla",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1188.23,
+    "page_y": 768.36,
+    "label_distance_pt": 0.0,
+    "district": "Jumla",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.744066,
+     27.264779
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_074",
+    "label": "Kabeli",
+    "name_key": "kabeli",
+    "symbol_status": "under-construction",
+    "map_frame": "main",
+    "page_x": 4006.82,
+    "page_y": 1893.95,
+    "label_distance_pt": 1.52,
+    "district": "Panchthar",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.616173,
+     27.930142
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_075",
+    "label": "Kali Gandaki",
+    "name_key": "kaligandaki",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1901.04,
+    "page_y": 1542.36,
+    "label_distance_pt": 0.0,
+    "district": "Palpa",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.036851,
+     27.38715
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_076",
+    "label": "Kamane",
+    "name_key": "kamane",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2624.17,
+    "page_y": 1850.51,
+    "label_distance_pt": 0.0,
+    "district": "Makwanpur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.958518,
+     26.497339
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_077",
+    "label": "Kataiya",
+    "name_key": "kataiya",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 3615.86,
+    "page_y": 2343.23,
+    "label_distance_pt": 0.0,
+    "district": "",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.187859,
+     27.668703
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_078",
+    "label": "Kawasoti",
+    "name_key": "kawasoti",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2191.2,
+    "page_y": 1691.87,
+    "label_distance_pt": 2.98,
+    "district": "Nawalparasi East",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.625824,
+     28.138129
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_079",
+    "label": "Kerabari SS",
+    "name_key": "kerabari",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2412.49,
+    "page_y": 1423.08,
+    "label_distance_pt": 0.0,
+    "district": "Gorkha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.579856,
+     27.652643
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_080",
+    "label": "Khaireni",
+    "name_key": "khaireni",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1882.08,
+    "page_y": 1700.75,
+    "label_distance_pt": 0.0,
+    "district": "Rupandehi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.209213,
+     27.30916
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_081",
+    "label": "Khandbari",
+    "name_key": "khandbari",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3732.98,
+    "page_y": 1876.19,
+    "label_distance_pt": 0.0,
+    "district": "Sankhuwasabha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.38079,
+     28.29789
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_082",
+    "label": "Khudi",
+    "name_key": "khudi",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2288.16,
+    "page_y": 1332.36,
+    "label_distance_pt": 2.98,
+    "district": "Lamjung",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.490257,
+     28.249631
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_083",
+    "label": "Kirtipur",
+    "name_key": "kirtipur",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2343.6,
+    "page_y": 1359.72,
+    "label_distance_pt": 0.26,
+    "district": "Lamjung",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.688346,
+     28.184336
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_084",
+    "label": "Kohalpur",
+    "name_key": "kohalpur",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 925.91,
+    "page_y": 1386.36,
+    "label_distance_pt": 0.0,
+    "district": "Banke",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.650656,
+     28.242079
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_085",
+    "label": "Kusma",
+    "name_key": "kusma",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1919.04,
+    "page_y": 1364.28,
+    "label_distance_pt": 0.0,
+    "district": "Parbat",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.763002,
+     27.86771
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_086",
+    "label": "L Balephi",
+    "name_key": "lbalephi",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2990.41,
+    "page_y": 1571.88,
+    "label_distance_pt": 0.0,
+    "district": "Sindhupalchok",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.471441,
+     26.709956
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_087",
+    "label": "Lahan",
+    "name_key": "lahan",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 3363.14,
+    "page_y": 2227.07,
+    "label_distance_pt": 0.0,
+    "district": "Siraha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.523369,
+     27.875277
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_088",
+    "label": "Lamahi",
+    "name_key": "lamahi",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1346.39,
+    "page_y": 1569.48,
+    "label_distance_pt": 0.0,
+    "district": "Dang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.843755,
+     27.749846
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_089",
+    "label": "Lamosangu",
+    "name_key": "lamosangu",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 3032.41,
+    "page_y": 1638.6,
+    "label_distance_pt": 0.0,
+    "district": "Sindhupalchok",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.22417,
+     27.969432
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_090",
+    "label": "Lapche",
+    "name_key": "lapche",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3223.46,
+    "page_y": 1509.96,
+    "label_distance_pt": 0.0,
+    "district": "Dolakha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.3608,
+     27.526051
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_091",
+    "label": "Likhu",
+    "name_key": "likhu",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3297.62,
+    "page_y": 1761.95,
+    "label_distance_pt": 0.0,
+    "district": "Solukhumbu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.281243,
+     27.481198
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_092",
+    "label": "Lumbini",
+    "name_key": "lumbini",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1729.68,
+    "page_y": 1797.95,
+    "label_distance_pt": 0.0,
+    "district": "Rupandehi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.15892,
+     28.624584
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_093",
+    "label": "Lumki",
+    "name_key": "lamki",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 663.82,
+    "page_y": 1129.08,
+    "label_distance_pt": 0.0,
+    "district": "Kailali",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.61697,
+     27.51709
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_094",
+    "label": "MEWA",
+    "name_key": "mewa",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3937.7,
+    "page_y": 1751.63,
+    "label_distance_pt": 2.85,
+    "district": "Taplejung",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.442345,
+     28.140525
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_095",
+    "label": "Madhya Marsyangdi",
+    "name_key": "madhyamarsyangdi",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2319.6,
+    "page_y": 1422.12,
+    "label_distance_pt": 0.0,
+    "district": "Lamjung",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.82706,
+     28.428166
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_096",
+    "label": "Mainatada",
+    "name_key": "mainatada",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 998.63,
+    "page_y": 1248.36,
+    "label_distance_pt": 0.0,
+    "district": "Surkhet",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.347838,
+     28.531641
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_097",
+    "label": "Manang",
+    "name_key": "manang",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2271.12,
+    "page_y": 1198.92,
+    "label_distance_pt": 0.0,
+    "district": "Manang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.542011,
+     27.875814
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_098",
+    "label": "Marsyangdi-",
+    "name_key": "marsyangdi",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2370.72,
+    "page_y": 1573.08,
+    "label_distance_pt": 0.0,
+    "district": "Gorkha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.121694,
+     27.691264
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_099",
+    "label": "Motipur",
+    "name_key": "motipur",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1649.28,
+    "page_y": 1677.47,
+    "label_distance_pt": 0.0,
+    "district": "Kapilvastu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.780188,
+     29.625827
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_100",
+    "label": "Mugu Karnali",
+    "name_key": "mugukarnali",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 987.83,
+    "page_y": 563.65,
+    "label_distance_pt": 0.0,
+    "district": "Humla",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.314714,
+     28.989171
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_101",
+    "label": "NEW ATARIYA",
+    "name_key": "newattariya",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 244.54,
+    "page_y": 909.0,
+    "label_distance_pt": 2.73,
+    "district": "Kanchanpur",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.346642,
+     28.786719
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_102",
+    "label": "Nalgad SS",
+    "name_key": "nalgad",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1263.83,
+    "page_y": 1047.72,
+    "label_distance_pt": 0.0,
+    "district": "Rukum West",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.412238,
+     27.153184
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_103",
+    "label": "New Basantapur",
+    "name_key": "newbasantapur",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3839.06,
+    "page_y": 1962.59,
+    "label_distance_pt": 0.0,
+    "district": "Terhathum",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.44476,
+     27.688711
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_104",
+    "label": "New Bharatpur",
+    "name_key": "newbharatpur",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2321.76,
+    "page_y": 1680.11,
+    "label_distance_pt": 0.0,
+    "district": "Chitwan",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.690534,
+     27.573076
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_105",
+    "label": "New Butwal",
+    "name_key": "newbutwal",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1938.24,
+    "page_y": 1746.35,
+    "label_distance_pt": 0.0,
+    "district": "Nawalparasi West",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.296779,
+     27.966922
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_106",
+    "label": "New Damauli",
+    "name_key": "newdamauli",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2246.16,
+    "page_y": 1521.48,
+    "label_distance_pt": 0.0,
+    "district": "Tanahun",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.953266,
+     26.94159
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_107",
+    "label": "New Dhalkebar-",
+    "name_key": "newdhalkebar",
+    "symbol_status": "under-construction",
+    "map_frame": "main",
+    "page_x": 3095.29,
+    "page_y": 2099.39,
+    "label_distance_pt": 3.28,
+    "district": "Dhanusha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.100515,
+     27.494096
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_108",
+    "label": "New Khimti",
+    "name_key": "newkhimti",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3165.37,
+    "page_y": 1782.59,
+    "label_distance_pt": 0.0,
+    "district": "Ramechhap",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.424803,
+     27.889313
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_109",
+    "label": "New Lamahi",
+    "name_key": "newlamahi",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1296.47,
+    "page_y": 1560.84,
+    "label_distance_pt": 0.0,
+    "district": "Dang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.50155,
+     27.922618
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_110",
+    "label": "New Marsyangdi",
+    "name_key": "newmarsyangdi",
+    "symbol_status": "under-construction",
+    "map_frame": "main",
+    "page_x": 2350.08,
+    "page_y": 1546.44,
+    "label_distance_pt": 3.07,
+    "district": "Tanahun",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.237693,
+     26.838206
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_111",
+    "label": "New Mirchaiya",
+    "name_key": "newmirchaiya",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3241.94,
+    "page_y": 2156.03,
+    "label_distance_pt": 0.0,
+    "district": "Siraha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.743131,
+     28.272123
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_112",
+    "label": "New Modi",
+    "name_key": "newmodi",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1965.84,
+    "page_y": 1347.24,
+    "label_distance_pt": 0.0,
+    "district": "Parbat",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.503556,
+     27.31603
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_113",
+    "label": "Okhaldhunga",
+    "name_key": "okhaldhunga",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3372.74,
+    "page_y": 1880.51,
+    "label_distance_pt": 0.0,
+    "district": "Okhaldhunga",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.877513,
+     28.708668
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_114",
+    "label": "Pahalmanpur",
+    "name_key": "pahalmanpur",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 523.18,
+    "page_y": 1077.48,
+    "label_distance_pt": 0.0,
+    "district": "Kailali",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.255316,
+     29.441265
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_115",
+    "label": "Pancheswor",
+    "name_key": "pancheswor",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 222.94,
+    "page_y": 649.56,
+    "label_distance_pt": 2.18,
+    "district": "Baitadi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.935917,
+     27.085669
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_116",
+    "label": "Parwanipur",
+    "name_key": "parwanipur",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2574.01,
+    "page_y": 2023.07,
+    "label_distance_pt": 0.0,
+    "district": "Bara",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.06493,
+     27.171752
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_117",
+    "label": "Pathlaiya",
+    "name_key": "pathlaiya",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2639.53,
+    "page_y": 1973.39,
+    "label_distance_pt": 0.0,
+    "district": "Bara",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.765509,
+     27.120211
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_118",
+    "label": "Phidim",
+    "name_key": "phidim",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 4020.27,
+    "page_y": 1976.27,
+    "label_distance_pt": 0.0,
+    "district": "Panchthar",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.61398,
+     29.16849
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_119",
+    "label": "Phukot",
+    "name_key": "phukot",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 899.51,
+    "page_y": 823.32,
+    "label_distance_pt": 2.18,
+    "district": "Kalikot",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.815454,
+     27.222969
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_120",
+    "label": "Pinasegaht LILO",
+    "name_key": "pinasegaht",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 4044.03,
+    "page_y": 1916.75,
+    "label_distance_pt": 0.0,
+    "district": "Panchthar",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.057829,
+     28.179052
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_121",
+    "label": "Pokhara",
+    "name_key": "pokhara",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2124.96,
+    "page_y": 1400.52,
+    "label_distance_pt": 0.0,
+    "district": "Kaski",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.57848,
+     28.372156
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_122",
+    "label": "Rahughat",
+    "name_key": "rahughat",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1882.8,
+    "page_y": 1289.88,
+    "label_distance_pt": 0.0,
+    "district": "Parbat",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.516467,
+     26.587329
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_123",
+    "label": "Rajbiraj",
+    "name_key": "rajbiraj",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3387.62,
+    "page_y": 2296.67,
+    "label_distance_pt": 0.0,
+    "district": "Saptari",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.719221,
+     26.624767
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_124",
+    "label": "Rupani",
+    "name_key": "rupani",
+    "symbol_status": "under-construction",
+    "map_frame": "main",
+    "page_x": 3491.3,
+    "page_y": 2273.15,
+    "label_distance_pt": 3.39,
+    "district": "Saptari",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.142758,
+     27.955326
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_125",
+    "label": "Sandhikharka",
+    "name_key": "sandhikharka",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1661.04,
+    "page_y": 1526.76,
+    "label_distance_pt": 0.0,
+    "district": "Arghakhanchi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.86397,
+     27.638539
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_126",
+    "label": "Shivapur",
+    "name_key": "shivapur",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 1517.99,
+    "page_y": 1706.51,
+    "label_distance_pt": 0.0,
+    "district": "Kapilvastu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.844995,
+     28.084414
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_127",
+    "label": "Shyangja",
+    "name_key": "syangja",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2017.2,
+    "page_y": 1454.52,
+    "label_distance_pt": 0.0,
+    "district": "Syangja",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.97417,
+     27.164846
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_128",
+    "label": "Simra",
+    "name_key": "simra",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 2593.21,
+    "page_y": 1977.71,
+    "label_distance_pt": 0.62,
+    "district": "Bara",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.162854,
+     27.741441
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_129",
+    "label": "Singati",
+    "name_key": "singati",
+    "symbol_status": "under-construction",
+    "map_frame": "main",
+    "page_x": 3194.65,
+    "page_y": 1640.76,
+    "label_distance_pt": 0.0,
+    "district": "Dolakha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.69577,
+     28.672051
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_130",
+    "label": "Sisne",
+    "name_key": "sisne",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1438.79,
+    "page_y": 1115.4,
+    "label_distance_pt": 0.0,
+    "district": "Rukum East",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.136111,
+     27.401111
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_131",
+    "label": "SitalPati",
+    "name_key": "sitalpati",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3694.34,
+    "page_y": 1824.59,
+    "label_distance_pt": 3.23,
+    "district": "Sankhuwasabha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.867748,
+     26.845411
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_132",
+    "label": "Soyak Tap",
+    "name_key": "soyaktap",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 4077.39,
+    "page_y": 2131.79,
+    "label_distance_pt": 0.0,
+    "district": "Ilam",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.961341,
+     27.324274
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_133",
+    "label": "Sunkoshi St2",
+    "name_key": "sunkoshist2",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3096.01,
+    "page_y": 1880.75,
+    "label_distance_pt": 0.0,
+    "district": "Sindhuli",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.651568,
+     28.563032
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_134",
+    "label": "Surkhet",
+    "name_key": "surkhet",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 911.51,
+    "page_y": 1169.64,
+    "label_distance_pt": 0.0,
+    "district": "Surkhet",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.613433,
+     29.286298
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_135",
+    "label": "Syaule",
+    "name_key": "syaule",
+    "symbol_status": "under-construction",
+    "map_frame": "main",
+    "page_x": 399.58,
+    "page_y": 743.64,
+    "label_distance_pt": 3.28,
+    "district": "Dadeldhura",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.214829,
+     28.068387
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_136",
+    "label": "Tamghash",
+    "name_key": "tamghas",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1698.0,
+    "page_y": 1462.44,
+    "label_distance_pt": 0.0,
+    "district": "Gulmi",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     87.806618,
+     27.513701
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_137",
+    "label": "Tamor",
+    "name_key": "tamor",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 4034.43,
+    "page_y": 1750.67,
+    "label_distance_pt": 0.0,
+    "district": "Taplejung",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.095533,
+     29.003123
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_138",
+    "label": "Tanakpur",
+    "name_key": "tanakpur",
+    "symbol_status": "existing",
+    "map_frame": "main",
+    "page_x": 134.62,
+    "page_y": 897.48,
+    "label_distance_pt": 0.0,
+    "district": "",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.59376,
+     27.412681
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_139",
+    "label": "Tingla 2",
+    "name_key": "tingla2",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3417.62,
+    "page_y": 1824.35,
+    "label_distance_pt": 0.0,
+    "district": "Solukhumbu",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.543363,
+     28.976376
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_140",
+    "label": "Tribeni SS",
+    "name_key": "tribeni",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1364.15,
+    "page_y": 940.68,
+    "label_distance_pt": 0.0,
+    "district": "Rukum West",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.302772,
+     28.13157
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_141",
+    "label": "Tulsipur",
+    "name_key": "tulsipur",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 1236.47,
+    "page_y": 1421.64,
+    "label_distance_pt": 0.0,
+    "district": "Dang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.83314,
+     29.782928
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_142",
+    "label": "U Balanch",
+    "name_key": "ubalanch",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 517.42,
+    "page_y": 462.85,
+    "label_distance_pt": 3.02,
+    "district": "Darchula",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.90388,
+     28.445453
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_143",
+    "label": "U BudhiG",
+    "name_key": "ubudhig",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2551.93,
+    "page_y": 1246.68,
+    "label_distance_pt": 0.0,
+    "district": "Gorkha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.855633,
+     29.555482
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_144",
+    "label": "U Kalangad",
+    "name_key": "ukalangad",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 525.1,
+    "page_y": 593.17,
+    "label_distance_pt": 3.02,
+    "district": "Bajhang",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.121127,
+     28.367291
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_145",
+    "label": "U Madi",
+    "name_key": "umadi",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2156.88,
+    "page_y": 1293.0,
+    "label_distance_pt": 2.98,
+    "district": "Kaski",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.223475,
+     27.842989
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_146",
+    "label": "U Tamakoshi",
+    "name_key": "utamakoshi",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 3224.42,
+    "page_y": 1582.2,
+    "label_distance_pt": 0.0,
+    "district": "Dolakha",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.427349,
+     28.185121
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_147",
+    "label": "Udipur",
+    "name_key": "udipur",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 2311.92,
+    "page_y": 1396.68,
+    "label_distance_pt": 0.0,
+    "district": "Lamjung",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.768831,
+     29.29435
+    ]
+   },
+   "properties": {
+    "node_id": "rpgcl_ss_148",
+    "label": "WEST SETI",
+    "name_key": "westseti",
+    "symbol_status": "future",
+    "map_frame": "main",
+    "page_x": 477.58,
+    "page_y": 741.24,
+    "label_distance_pt": 0.0,
+    "district": "Doti",
+    "source_pdf": "nepal_transmission_network_map_revised1.pdf",
+    "basis": "RPGCL Nepal Power Transmission Network Map substation symbol paired with its map label (mutual nearest neighbour); georeferenced with the GeoPDF MUTM measure dictionary"
+   }
+  }
+ ]
+}

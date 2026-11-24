@@ -405,6 +405,16 @@
       ],
       "committed": true,
       "deployable": false
+    },
+    "data/processed/maps/rpgcl_substation_nodes.geojson": {
+      "owner": "scripts/geocode_infrastructure_assets.py",
+      "command": "python scripts/geocode_infrastructure_assets.py --refresh-rpgcl-nodes --write",
+      "inputs": [
+        "data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+        "data/raw/maps/nepal-osm-free.shp.zip"
+      ],
+      "committed": true,
+      "deployable": false
     }
   }
 }
