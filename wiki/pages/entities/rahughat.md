@@ -2,9 +2,9 @@
 title: Rahughat
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
-tags: [project, licensed, myagdi]
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, under-construction, myagdi]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Rahughat
 
-40 MW · generation licence recorded; delivery status unverified · on the Rahughat · in Myagdi district.
+40 MW · under construction (NEA FY 2025/26 under-construction appendix) · on the Rahughat · in Myagdi district.
 
 <!-- generated:specs:start -->
 
@@ -21,11 +21,49 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 40 MW |
-| Status | Generation licence; delivery status unverified |
+| Status | Under construction |
+| Status basis | NEA FY 2025/26 Annual Report, pp. 115-116 |
 | Registry licence | Generation |
 | River | Rahughat |
 | District | Myagdi |
 | Province | Gandaki Pradesh |
+
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Design discharge | 16.67 m³/s |
+| Headrace tunnel | 6.27 km |
+| Dam height | 25 m |
+| Units | 2 |
+| Unit capacity | 20 MW |
+| Underground powerhouse | no |
+
+### Output
+
+| Parameter | Value |
+|-----------|-------|
+| Type | PROR |
+
+### Financial
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | 81.89 million USD |
+| Cost per MW | 2.05 million USD/MW |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Raghuganga Hydropower Limited (NEA subsidiary) |
+| Lead financier | EXIM Bank of India (USD 67m LOC) |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Construction start | 2018 |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +71,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

@@ -2,8 +2,8 @@
 title: Madhya Marsyangdi
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, gandaki]
 images: []
 generator: manual
@@ -38,6 +38,7 @@ The Marsyangdi valley's generation feeds into the national grid via the Marsyang
 |-----------|-------|
 | Capacity | 70 MW |
 | Status | Operating |
+| DoED register | Operating record no. 8; commercial operation 2065-07-16 BS (about AD 2008) |
 | Registry licence | Operation |
 | River | Marsyangdi ([[gandaki-basin]]) |
 | District | Lamjung |

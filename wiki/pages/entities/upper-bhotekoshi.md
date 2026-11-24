@@ -2,8 +2,8 @@
 title: Upper Bhotekoshi
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, watchlist, operating, koshi, sindhupalchok]
 images: []
 generator: manual
@@ -26,6 +26,7 @@ Upper Bhotekoshi is a 45 MW operating project on the Bhote Koshi in Sindhupalcho
 |-----------|-------|
 | Capacity | 45 MW |
 | Status | Operating |
+| DoED register | Operating record no. 5; commercial operation 2057-10-11 BS (about AD 2001) |
 | Registry licence | Operation |
 | River | Bhote Koshi (eastern [[koshi-basin]]) |
 | District | Sindhupalchok |

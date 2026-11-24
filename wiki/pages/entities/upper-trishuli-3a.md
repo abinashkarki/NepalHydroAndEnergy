@@ -2,8 +2,8 @@
 title: Upper Trishuli 3A
 type: entity
 created: 2026-04-20
-updated: 2026-08-30
-sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]
+updated: 2026-11-24
+sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026, doed-hydropower-registry, nea-annual-report-fy2025-26, kathmandupost-bhotekoshi-flood-hydropower-damage-2026]
 tags: [project, operating, gandaki, rasuwa, nuwakot]
 images:
   - src: upper-trishuli-3a/nea2077-p002-img01.png
@@ -40,7 +40,8 @@ Upper Trishuli 3A is a 60 MW operating NEA run-of-river plant on the Trishuli, w
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 60 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 43; commercial operation 2076-05-13 BS (about AD 2019) |
 | Registry licence | Generation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Rasuwa |
@@ -54,6 +55,10 @@ Upper Trishuli 3A is a 60 MW operating NEA run-of-river plant on the Trishuli, w
 
 - [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[kathmandupost-bhotekoshi-flood-tunnel-rescues-2026|Kathmandu Post — Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
+- [[kathmandupost-bhotekoshi-flood-hydropower-damage-2026|Kathmandu Post — Flood damage to Nepal's hydropower sector could run into billions (2026)]]
 
 <!-- generated:sources:end -->
 
@@ -78,12 +83,10 @@ plant (not peaking RoR — it runs on whatever the river provides).
 | Cumulative lifetime generation | 2,391.5 GWh |
 | Districts | Rasuwa and Nuwakot, Bagmati Province |
 
-> [!warning] **Status correction.** The Ministry of Energy registry and
-> the auto-generated spec table list the plant as "Under construction
-> (Generation licence)." The NEA's FY 2024/25 report covers it as an
-> operating station with multi-year generation data, cumulative lifetime
-> output, completed overhauls, and operational incident reporting. The
-> plant is operating. The registry status is stale.
+> [!note] **Registry status resolved (24 Nov 2026).** The specification table now follows the DoED
+> operating-plants register (snapshot 2 July 2026), which lists this plant as operating. Older legacy
+> registry fields carried it as under construction; that label is retired here. NEA's FY 2024/25
+> report already covered it as an operating station with multi-year generation data.
 
 For the first time in FY 2081/82, NEA's in-house maintenance team
 overhauled both Units 1 and 2 — a significant operational milestone

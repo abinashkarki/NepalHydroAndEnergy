@@ -2,9 +2,9 @@
 title: Solu Hydropower Project
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
-tags: [project, licensed, solukhumbu]
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, solukhumbu]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Solu Hydropower Project
 
-23.5 MW · generation licence recorded; delivery status unverified · on the Solu Khola · in Solukhumbu district.
+23.5 MW · operating (DoED operating record) · on the Solu Khola · in Solukhumbu district.
 
 <!-- generated:specs:start -->
 
@@ -21,11 +21,25 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 23.5 MW |
-| Status | Generation licence; delivery status unverified |
+| Status | Operating |
+| DoED register | Operating record no. 117; commercial operation 2076-12-10 BS (about AD 2020) |
 | Registry licence | Generation |
 | River | Solu Khola |
 | District | Solukhumbu |
 | Province | Province No 1 |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Upper Solu Hydroelectric Company Pvt Ltd |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2020 |
+| Completion | 100 % |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +47,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

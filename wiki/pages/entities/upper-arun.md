@@ -3,9 +3,9 @@ title: Upper Arun Hydroelectric Project
 type: entity
 category: hydropower-project
 created: 2026-04-20
-updated: 2026-05-12
-sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, uahel-upper-arun-project]
-tags: [hydropower, arun, storage-study, upper-arun]
+updated: 2026-11-24
+sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, uahel-upper-arun-project, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [pre-construction, hydropower, arun, storage-study, upper-arun]
 images:
   - src: upper-arun/nea2077-p115-img01.png
     caption: "Honorable Minister for Energy, Water Resources and Irrigation and NEA leadership during the Upper Arun site visit"

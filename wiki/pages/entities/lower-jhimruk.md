@@ -2,7 +2,7 @@
 title: Lower Jhimruk
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-24
 generator: specs-refresh
 page_quality: brief
 sources: [jica-ipsdp-main-report-vol2]
@@ -15,10 +15,6 @@ images: []
 Lower Jhimruk is a 142.5 MW JICA promising-storage candidate in the West Rapti basin. It is pinned in [[data-layer-storage-shortlist]] as a medium-basin storage option, with the important caveat that its layout conflicts with Naumure in the current design set.
 
 <!-- generated:specs:start -->
-
-## Summary
-
-**Lower Jhimruk is a 142.5 MW JICA promising-storage candidate in the West Rapti basin (Karnali basin).** It contributes 94.4 GWh of dry-season energy with 386 MCM total storage and 211.6 MCM effective storage. The page tracks it as a medium-basin storage option using the current JICA/NEA source set, with the noted caveat that its layout conflicts with Naumure in the current design set.
 
 ## Specifications
 

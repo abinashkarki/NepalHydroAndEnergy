@@ -2,8 +2,8 @@
 title: Khimti II
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25, icra-nepal-surveillance-a996-b119]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, icra-nepal-surveillance-a996-b119, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, under-construction, private-ipp, dolakha, koshi]
 images: []
 generator: specs-refresh
@@ -26,6 +26,7 @@ page_quality: brief
 |-----------|-------|
 | Capacity | 48.8 MW |
 | Status | Under construction |
+| Status basis | NEA FY 2025/26 appendix, under-construction (financial closure concluded) list, p. 185 |
 | Registry licence | Generation |
 | River | Khimti Khola |
 | District | Dolakha |
@@ -37,8 +38,10 @@ page_quality: brief
 
 ## Sources
 
-- [[nea-annual-report-fy2024-25]]
-- [[icra-nepal-surveillance-a996-b119]]
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[icra-nepal-surveillance-a996-b119|ICRA Nepal — Surveillance Rating A996/B119]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

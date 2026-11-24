@@ -2,8 +2,8 @@
 title: Upper Trishuli 3B
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [ppa-data-retrieval-icra-care-2026]
+updated: 2026-11-24
+sources: [ppa-data-retrieval-icra-care-2026, doed-hydropower-registry, nea-annual-report-fy2025-26, kathmandupost-bhotekoshi-flood-hydropower-damage-2026]
 tags: [project, under-construction, gandaki, rasuwa, trishuli-cascade]
 images: []
 generator: manual
@@ -41,6 +41,7 @@ Industry analysis notes that projects in the Trishuli corridor, including Upper 
 |-----------|-------|
 | Capacity | 37 MW |
 | Status | Under construction |
+| Status basis | NEA FY 2025/26 Annual Report, pp. 113-114 |
 | Registry licence | Generation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Rasuwa |

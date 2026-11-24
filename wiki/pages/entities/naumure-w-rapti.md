@@ -2,7 +2,7 @@
 title: Naumure (W. Rapti)
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-24
 generator: specs-refresh
 page_quality: brief
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -19,10 +19,6 @@ images:
 Naumure is a 245 MW JICA promising-storage candidate in the West Rapti basin. It is pinned in [[data-layer-storage-shortlist]] because its effective storage is unusually large for its installed capacity, giving it strong seasonal-regulation value in a water-deficit medium basin.
 
 <!-- generated:specs:start -->
-
-## Summary
-
-**Naumure is a 245 MW JICA promising-storage candidate in the West Rapti basin (Karnali basin).** It is pinned in the storage shortlist for its unusually large effective storage (580 MCM) relative to installed capacity, giving it strong seasonal-regulation value in a water-deficit medium basin. The page tracks it as a planning-layer storage comparator using the JICA/NEA source set.
 
 ## Specifications
 

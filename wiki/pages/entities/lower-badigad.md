@@ -2,7 +2,7 @@
 title: Lower Badigad
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-24
 generator: specs-refresh
 page_quality: brief
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -19,10 +19,6 @@ images:
 Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basin. It is pinned in [[data-layer-storage-shortlist]] because it pairs large carryover storage with meaningful dry-season output, making it more relevant to system value than many larger wet-season-heavy projects.
 
 <!-- generated:specs:start -->
-
-## Summary
-
-**Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basin.** It is pinned in the storage shortlist for its large carryover storage (995.9 MCM total, 505.5 MCM effective) and meaningful dry-season output (354.7 GWh, 26.0% dry share). The page tracks it as a planning-layer storage comparator using the current JICA/NEA source set.
 
 ## Specifications
 

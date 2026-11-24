@@ -2,15 +2,17 @@
 title: Middle Tamor
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25, urja-khabar-generation-audit]
-tags: [project, under-construction, private-ipp, koshi, taplejung]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, urja-khabar-generation-audit, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, private-ipp, koshi, taplejung]
 images: []
 generator: specs-refresh
 page_quality: brief
 ---
 
 # Middle Tamor
+
+> [!note] **Status update (24 Nov 2026):** the DoED operating-plants register (snapshot 2 July 2026) lists this plant as operating (record no. 198, commercial operation 2081-01-23 BS, about AD 2024). Descriptions of the project as under construction elsewhere on this page predate commissioning. Source: [[doed-hydropower-registry]].
 
 73 MW · under construction · on the Tamor River · in Taplejung district. A **Sanima Group** private IPP stranded pending completion of evacuation infrastructure in Nepal's easternmost Koshi basin development corridor.
 
@@ -25,7 +27,8 @@ page_quality: brief
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 54 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 198; commercial operation 2081-01-23 BS (about AD 2024) |
 | Registry licence | Generation |
 | River | Tamor (eastern [[koshi-basin]]) |
 | District | Taplejung |
@@ -37,8 +40,10 @@ page_quality: brief
 
 ## Sources
 
-- [[nea-annual-report-fy2024-25]]
-- [[urja-khabar-generation-audit]]
+- [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
+- [[urja-khabar-generation-audit|Urja Khabar Generation Audit — IPP Generation vs Contracted]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

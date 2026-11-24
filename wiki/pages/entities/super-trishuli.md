@@ -2,8 +2,8 @@
 title: Super Trishuli
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, under-construction, gandaki, trishuli-cascade]
 images: []
 generator: manual
@@ -41,6 +41,7 @@ The 100 MW mark represents a significant threshold: projects at this scale are l
 |-----------|-------|
 | Capacity | 100 MW |
 | Status | Under construction |
+| Status basis | NEA FY 2025/26 appendix, under-construction (financial closure concluded) list, p. 186 |
 | Registry licence | Generation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Gorkha |

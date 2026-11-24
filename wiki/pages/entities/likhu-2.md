@@ -2,8 +2,8 @@
 title: Likhu -2
 type: entity
 created: 2026-04-20
-updated: 2026-05-11
-sources: [likhu-cascade-research-compilation]
+updated: 2026-11-24
+sources: [likhu-cascade-research-compilation, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, private-ipp, ramechhap, okhaldhunga, koshi]
 images: []
 generator: specs-refresh
@@ -23,7 +23,8 @@ page_quality: brief
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 55 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 146; commercial operation 2080-04-15 BS (about AD 2023) |
 | Registry licence | Generation |
 | River | Likhu Khola (eastern [[koshi-basin]]) |
 | District | Solukhumbu |
@@ -36,6 +37,8 @@ page_quality: brief
 ## Sources
 
 - [[likhu-cascade-research-compilation|Likhu Cascade Research Compilation]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 
@@ -54,11 +57,9 @@ page_quality: brief
 | Lead financier | Machhapuchchhre Bank (MBL) — consortium of 6 banks |
 | CARE Nepal rating | CARE-NP BBB- (Is) (March 2026) |
 
-> [!warning] **Registry status correction.** The Ministry of Energy registry
-> and the auto-generated spec table list Likhu-2 as "Under construction."
-> The plant commissioned on July 31, 2023 and has two full operating years
-> of generation data. The narrative follows the CARE Nepal rating and
-> developer operational data.
+> [!note] **Registry status resolved (24 Nov 2026).** The specification table now follows the DoED
+> operating-plants register (snapshot 2 July 2026), which lists this plant as operating. Older legacy
+> registry fields carried it as under construction; that label is retired here.
 
 ## The Stranded Generation Case Study
 

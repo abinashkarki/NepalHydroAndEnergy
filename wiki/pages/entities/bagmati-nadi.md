@@ -2,9 +2,9 @@
 title: Bagmati Nadi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: [jica-ipsdp-main-report-vol2]
-tags: [project, licensed, lalitpur]
+updated: 2026-11-24
+sources: [jica-ipsdp-main-report-vol2, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, lalitpur]
 images: []
 generator: auto-stub
 page_quality: record
@@ -17,7 +17,7 @@ page_quality: record
   <figcaption>Figure 6.3-32 River Longitudinal Profile of the Bagmati River</figcaption>
 </figure>
 
-22 MW · generation licence recorded; delivery status unverified · on the Bagmati · in Lalitpur district.
+22 MW · operating (DoED operating record) · on the Bagmati · in Lalitpur district.
 
 <!-- generated:specs:start -->
 
@@ -26,11 +26,25 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 22 MW |
-| Status | Generation licence; delivery status unverified |
+| Status | Operating |
+| DoED register | Operating record no. 125; commercial operation 2075-12-19 BS (about AD 2019) |
 | Registry licence | Generation |
 | River | Bagmati |
 | District | Lalitpur |
 | Province | Bagmati Pradesh |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Mandu Hydropower Ltd. |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2019 |
+| Completion | 100 % |
 
 <!-- generated:specs:end -->
 
@@ -39,6 +53,8 @@ page_quality: record
 ## Sources
 
 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

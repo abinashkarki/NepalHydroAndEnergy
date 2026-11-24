@@ -3177,6 +3177,10 @@ def _merge_spec_fields(project_name: str, specs_lookup: dict[str, dict[str, Any]
             "chameliya-khola": "chameliya-hydropower",
             "solu-khola-dudha-koshi": "sahas-urja",
         }
+        # Reviewed registry-name -> canonical page slug aliases shared with gen_wiki_stubs.py.
+        alias_path = ROOT / "wiki" / "explorer" / "shared" / "hydropower-slug-aliases.json"
+        if alias_path.exists():
+            aliases.update(json.loads(alias_path.read_text(encoding="utf-8")))
         alt = aliases.get(slug)
         if alt:
             row = specs_lookup.get(alt, {})

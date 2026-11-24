@@ -2,7 +2,7 @@
 title: Phukot Karnali
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-24
 generator: specs-refresh
 page_quality: analysis
 sources: [nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]

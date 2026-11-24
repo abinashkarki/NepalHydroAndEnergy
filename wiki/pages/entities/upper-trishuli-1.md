@@ -2,8 +2,8 @@
 title: Upper Trishuli-1
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [moewri-ipsdp-exec-summary-2025]
+updated: 2026-11-24
+sources: [moewri-ipsdp-exec-summary-2025, doed-hydropower-registry, nea-annual-report-fy2025-26, kathmandupost-bhotekoshi-flood-hydropower-damage-2026]
 tags: [project, watchlist, under-construction, gandaki, rasuwa]
 images: []
 generator: manual
@@ -26,6 +26,7 @@ Upper Trishuli-1 is a 216 MW generation-licence / under-construction-stage proje
 |-----------|-------|
 | Capacity | 216 MW |
 | Status | Under construction |
+| Status basis | NEA FY 2025/26 appendix, under-construction (financial closure concluded) list, p. 186 |
 | Registry licence | Generation |
 | River | Trishuli ([[gandaki-basin]]) |
 | District | Rasuwa |

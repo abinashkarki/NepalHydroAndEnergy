@@ -2,8 +2,8 @@
 title: Tamakoshi V
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, under-construction, nea-subsidiary, koshi, dolakha, cascade]
 images:
   - src: tamakoshi-v/nea2077-p191-img01.png
@@ -36,6 +36,7 @@ Tamakoshi V is a downstream cascade project of Upper Tamakoshi, developed as an 
 |-----------|-------|
 | Capacity | 87 MW |
 | Status | Under construction |
+| Status basis | NEA FY 2025/26 Annual Report, pp. 101-102 |
 | Registry licence | Generation |
 | River | Tama Koshi (eastern [[koshi-basin]]) |
 | District | Dolakha |
@@ -49,6 +50,8 @@ Tamakoshi V is a downstream cascade project of Upper Tamakoshi, developed as an 
 
 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 
