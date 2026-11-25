@@ -528,6 +528,18 @@
       ],
       "committed": true,
       "deployable": true
+    },
+    "data/processed/tables/dataset_catalog.json": {
+      "owner": "scripts/build_dataset_catalog.py",
+      "command": "python scripts/build_dataset_catalog.py",
+      "inputs": [
+        "data/*.csv",
+        "data/processed/tables/*.csv",
+        "data/processed/maps/*.geojson",
+        "wiki/pages/**/*.md"
+      ],
+      "committed": true,
+      "deployable": true
     }
   }
 }
