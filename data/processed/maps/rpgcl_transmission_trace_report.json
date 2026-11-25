@@ -1,5 +1,5 @@
 {
-  "source_pdf": "./data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+  "source_pdf": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
   "viewports": {
     "Layers": {
       "bbox": [
@@ -17,7 +17,14 @@
         88.43548,
         26.30627,
         88.26467
-      ]
+      ],
+      "fitz_frame": [
+        28.80035,
+        43.19957000000022,
+        4291.25214,
+        2433.57607
+      ],
+      "page_height": 2448.0
     },
     "New Data Frame": {
       "bbox": [
@@ -35,11 +42,19 @@
         85.64735,
         27.41192,
         85.63828
-      ]
+      ],
+      "fitz_frame": [
+        3153.63832,
+        126.95874999999978,
+        4103.56986,
+        1077.10941
+      ],
+      "page_height": 2448.0
     }
   },
-  "linework_feature_count": 4636,
-  "label_feature_count": 1845,
+  "georeference": "rpgcl_georef.georef_factory (MUTM affine, PDF y-up BBox flipped to fitz space)",
+  "linework_feature_count": 5396,
+  "label_feature_count": 2194,
   "selected_anchor_keys": [
     "Layers",
     "fallback"
@@ -47,7 +62,7 @@
   "corridors": {
     "hddi_400": {
       "status": "ok_manual_rap_trace",
-      "source_path": "./data/raw/corridor_tracing/world_bank/hddi_400_rap_trace.geojson",
+      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/world_bank/hddi_400_rap_trace.geojson",
       "source_id": "world_bank_hddtl_rap",
       "source_pdf": "world_bank_hddtl_rap.pdf",
       "output_segment_count": 2,
@@ -58,7 +73,7 @@
     },
     "hetauda_bharatpur_bardaghat_220": {
       "status": "ok_manual_source_trace",
-      "source_path": "./data/raw/corridor_tracing/nea/hetauda_bharatpur_bardaghat_220_source_trace.geojson",
+      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/hetauda_bharatpur_bardaghat_220_source_trace.geojson",
       "source_id": "rpgcl_transmission_network_map_revised1+nea_bharatpur_bardaghat_sia",
       "source_pdf": "nepal_transmission_network_map_revised1.pdf; SIA-Bharatpur-Bardghat.pdf",
       "output_segment_count": 2,
@@ -69,7 +84,7 @@
     },
     "mca_central_400": {
       "status": "ok_manual_atlas_trace",
-      "source_path": "./data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson",
+      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/mca/mca_central_400_atlas_trace.geojson",
       "source_id": "mca_annex_d1_alignment_maps",
       "source_pdf": "mca_annex_d1_alignment_maps.pdf",
       "output_segment_count": 5,
@@ -80,7 +95,7 @@
     },
     "udipur_damauli_bharatpur_220": {
       "status": "ok_manual_rap_trace",
-      "source_path": "./data/raw/corridor_tracing/nea/udipur_damauli_bharatpur_220_rap_trace.geojson",
+      "source_path": "/Users/hi/projects/nepalEnergy/data/raw/corridor_tracing/nea/udipur_damauli_bharatpur_220_rap_trace.geojson",
       "source_id": "nea_marsyangdi_rap",
       "source_pdf": "nea_marsyangdi_rap.pdf",
       "output_segment_count": 1,
@@ -115,8 +130,8 @@
       "confidence": "high",
       "trace_method": "manual_source_trace",
       "selected_source_ids": [
-        "rpgcl_line_00064",
-        "rpgcl_line_00067"
+        "rpgcl_line_00072",
+        "rpgcl_line_00077"
       ],
       "official_route_km": 127.57,
       "official_circuit_km": 255.6,
@@ -142,7 +157,7 @@
             37
           ],
           "official_route_km": 215.0,
-          "traced_length_km": 210.988
+          "traced_length_km": 210.477
         },
         {
           "segment_id": "kohalpur_bhurigaun_lamki_132_rpgcl_trace",
@@ -151,7 +166,7 @@
             47
           ],
           "official_route_km": 88.33,
-          "traced_length_km": 89.781
+          "traced_length_km": 89.416
         },
         {
           "segment_id": "lamki_pahalwanpur_attariya_mahendranagar_132_rpgcl_trace",
@@ -162,7 +177,7 @@
             45
           ],
           "official_route_km": 101.56,
-          "traced_length_km": 117.379
+          "traced_length_km": 116.059
         },
         {
           "segment_id": "chameliya_syaule_attariya_132_rpgcl_trace",
@@ -171,7 +186,7 @@
             8
           ],
           "official_route_km": 131.0,
-          "traced_length_km": 129.506
+          "traced_length_km": 129.647
         }
       ]
     },

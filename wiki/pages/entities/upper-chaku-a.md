@@ -2,9 +2,9 @@
 title: Upper Chaku A
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
-tags: [project, licensed, sindhupalchok]
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, sindhupalchok]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Upper Chaku A
 
-22.2 MW · generation licence recorded; delivery status unverified · on the Chaku · in Sindhupalchok district.
+22.2 MW · operating (DoED operating record) · on the Chaku · in Sindhupalchok district.
 
 <!-- generated:specs:start -->
 
@@ -21,11 +21,25 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 22.2 MW |
-| Status | Generation licence; delivery status unverified |
+| Status | Operating |
+| DoED register | Operating record no. 58; commercial operation 2078-02-01 BS (about AD 2021) |
 | Registry licence | Generation |
 | River | Chaku |
 | District | Sindhupalchok |
 | Province | Bagmati Pradesh |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Shiva Sri Hydropower Pvt. Ltd |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2021 |
+| Completion | 100 % |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +47,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

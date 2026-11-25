@@ -2,8 +2,8 @@
 title: Likhu-4
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [likhu-cascade-research-compilation, jica-ipsdp-main-report-vol2]
+updated: 2026-11-24
+sources: [likhu-cascade-research-compilation, jica-ipsdp-main-report-vol2, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, private-ipp, ramechhap, koshi]
 images:
   - src: likhu-4/ipsdpv2-p277-img00.png
@@ -30,7 +30,8 @@ page_quality: brief
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 52.4 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 59; commercial operation 2078-07-21 BS (about AD 2021) |
 | Registry licence | Generation |
 | River | Likhu Khola (eastern [[koshi-basin]]) |
 | District | Ramechhap |
@@ -44,6 +45,8 @@ page_quality: brief
 
 - [[likhu-cascade-research-compilation|Likhu Cascade Research Compilation]]
 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 
@@ -62,10 +65,9 @@ page_quality: brief
 | Contractor (civil) | SSNR Projects (India) |
 | Evacuation | New Khimti substation → Khimti–Dhalkebar 220 kV |
 
-> [!warning] **Registry status correction.** The Ministry of Energy registry
-> and auto-generated spec table list Likhu-4 as "Under construction." The
-> plant commissioned in November 2021. The narrative follows CARE Nepal
-> credit rating data and DoED registries.
+> [!note] **Registry status resolved (24 Nov 2026).** The specification table now follows the DoED
+> operating-plants register (snapshot 2 July 2026), which lists this plant as operating. Older legacy
+> registry fields carried it as under construction; that label is retired here.
 
 ## From Export Megaproject to Domestic Afterthought — A Regulatory Case Study
 

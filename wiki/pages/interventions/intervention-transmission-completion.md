@@ -4,15 +4,15 @@ category: interventions
 type: decision-dossier
 created: 2026-05-09
 updated: 2026-11-04
-reviewed: 2026-11-04
-review_due: 2026-12-04
+reviewed: 2026-11-25
+review_due: 2027-02-25
 as_of: 2026-10-07
 sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, nea-hddi-construction-notices-july-2026, world-bank-hddi-rap, world-bank-bharatpur-bardaghat-drs-2023, nea-operational-reporting-portals-2026]
 tags: [decision-dossier, transmission, hetauda-dhalkebar, right-of-way, mediation]
 excerpt: An evidence-led assessment of options for completing and commissioning Hetauda–Dhalkebar while resolving community and right-of-way concerns; the dispute is reported resolved and charging was announced as imminent in October 2026, but energisation is not verified.
 page_quality: brief
 maturity: verified-core
-caveat: NEA reports the dispute resolved and an NEA official announced imminent charging in October 2026; no energisation notice or quantified national curtailment benefit had been located by 4 November 2026.
+caveat: NEA reports the dispute resolved and an NEA official announced imminent charging in October 2026; no energisation notice or quantified national curtailment benefit had been located by 25 November 2026 (web recheck).
 ---
 
 # Decision Dossier — Hetauda–Dhalkebar Completion and Community Resolution

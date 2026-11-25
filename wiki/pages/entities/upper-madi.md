@@ -2,8 +2,8 @@
 title: Upper Madi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, gandaki, kaski]
 images: []
 generator: auto-stub
@@ -22,10 +22,24 @@ page_quality: record
 |-----------|-------|
 | Capacity | 25 MW |
 | Status | Operating |
+| DoED register | Operating record no. 35; commercial operation 2073-09-25 BS (about AD 2017) |
 | Registry licence | Operation |
 | River | Madi Khola ([[gandaki-basin]]) |
 | District | Kaski |
 | Province | Gandaki Pradesh |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Madi Power Pvt Ltd. |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2017 |
+| Completion | 100 % |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +47,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

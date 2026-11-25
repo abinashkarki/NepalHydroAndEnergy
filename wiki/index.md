@@ -2,7 +2,7 @@
 title: Index
 type: overview
 created: 2026-04-14
-updated: 2026-08-27
+updated: 2026-11-25
 ---
 
 # Nepal Energy Wiki
@@ -28,7 +28,20 @@ The explorer opens with Find as its discovery surface, the [[start-here]] page a
 - [[climate-resilience-and-decarbonization]] - climate exposure and official transition targets
 - [[unresolved-questions]] - conflicts, unknowns and monitoring priorities
 
+## Open Data & Infrastructure Registries
+
+- [[data-open-data-catalog]] - every downloadable CSV registry and GeoJSON layer, with row counts, freshness dates and schemas
+- [[data-substation-inventory]] - 153 grid substations from 66 to 400 kV with installed and pipeline MVA
+- [[data-nea-grid-infrastructure-fy2025-26]] - NEA transmission length, transformer and substation totals
+- [[data-fleet-composition]] and [[data-plant-annual-generation]] - the hydropower fleet and reported plant output
+- [[data-solar-fleet-inventory]] and [[data-non-dam-storage-pipeline]] - solar, non-hydro and non-dam storage records
+- [[data-erc-retail-tariffs]], [[data-ppa-standard-rates]] and [[data-cross-border-approved-plants]] - tariffs, purchase rates and export approvals
+- [[data-energy-institutions]] and [[data-major-developers]] - public institutions and the largest developers
+- [[data-load-anchors-and-fossil-backbone]] - industrial load anchors, EV adoption and petroleum infrastructure
+- [[data-infrastructure-hazard-register]] - floods, GLOFs, landslides and earthquakes affecting energy assets
+
 ## Map Lenses
+
 
 - [[data-map-layer-labels]] - guide to every explorer layer and what each layer should, and should not, be used to infer
 - [[data-layer-nepal-tributaries]] - Nepal-linked rivers and basin context
@@ -36,6 +49,8 @@ The explorer opens with Find as its discovery surface, the [[start-here]] page a
 - [[data-layer-transmission-connected-traced-network]] - public-facing transmission corridor layer
 - [[data-layer-solar-plants-nea-awards]] - operating solar plants and NEA tender-award anchors
 - [[data-layer-storage-shortlist]] - storage and storage-like projects ranked by dry-season system value
+- **Full Energy Infrastructure** lens - substations, transmission network, operating hydropower and solar, industrial load anchors, fuel depots and storage sites in one view; see [[data-substation-inventory]] and [[data-load-anchors-and-fossil-backbone]]
+- **ICIMOD Dangerous Glacial Lakes** layer - ICIMOD 2020 potentially dangerous glacial lakes, a screening rank rather than an outburst forecast; see [[data-infrastructure-hazard-register]] and [[glof-risk]]
 
 ## Major Public Themes
 
@@ -61,4 +76,4 @@ The explorer opens with Find as its discovery surface, the [[start-here]] page a
 
 Some project pages are concise data-backed records rather than finished narrative articles. They preserve map coverage and registry facts for public navigation. Pages with fuller interpretation link out to source notes, claims, and data pages so readers can follow the evidence trail.
 
-The explorer currently indexes 429 wiki pages across sources, entities, concepts, syntheses, claims, data, and Decision Dossiers (stored under the legacy `interventions` category for compatibility).
+The explorer currently indexes 474 wiki pages across sources, entities, concepts, syntheses, claims, data, and Decision Dossiers (stored under the legacy `interventions` category for compatibility).

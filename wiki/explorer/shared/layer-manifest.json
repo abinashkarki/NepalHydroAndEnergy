@@ -19,7 +19,8 @@
         "power_system": "context",
         "solar_system": "context",
         "wiki": "context",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "context"
       }
     },
     "basin_polygons": {
@@ -65,7 +66,8 @@
         "power_system": "context",
         "solar_system": "muted",
         "wiki": "context",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "india_basins": {
@@ -95,7 +97,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "tributaries": {
@@ -123,7 +126,8 @@
         "power_system": "context",
         "solar_system": "context",
         "wiki": "context",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "downstream_systems": {
@@ -153,7 +157,8 @@
         "power_system": "muted",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "ocean_routes": {
@@ -204,7 +209,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "route_callouts": {
@@ -257,7 +263,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "dependency_zones": {
@@ -315,7 +322,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "population_anchors": {
@@ -366,7 +374,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "india_rivers": {
@@ -392,7 +401,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "hydrology_markers": {
@@ -423,7 +433,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "callouts": {
@@ -454,7 +465,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "hydropower_operating": {
@@ -552,7 +564,8 @@
         "power_system": "primary",
         "solar_system": "muted",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
       }
     },
     "doed_operating_reference_midpoints": {
@@ -594,7 +607,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "hydropower_construction": {
@@ -692,7 +706,8 @@
         "power_system": "primary",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "hydropower_verified_construction": {
@@ -731,7 +746,8 @@
         "power_system": "primary",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "hydropower_survey": {
@@ -828,7 +844,8 @@
         "power_system": "secondary",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "hydropower_cancelled": {
@@ -867,7 +884,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "priority_watchlist": {
@@ -915,7 +933,8 @@
         "power_system": "secondary",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "storage_shortlist": {
@@ -968,7 +987,8 @@
         "power_system": "secondary",
         "solar_system": "muted",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "future_regulation_scenario": {
@@ -1081,7 +1101,8 @@
         "power_system": "muted",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "top_capacity": {
@@ -1133,7 +1154,8 @@
         "power_system": "secondary",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "transmission_corridors": {
@@ -1182,7 +1204,8 @@
         "power_system": "secondary",
         "solar_system": "context",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "transmission_traced_network": {
@@ -1266,7 +1289,8 @@
         "power_system": "primary",
         "solar_system": "secondary",
         "wiki": "context",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
       }
     },
     "place_anchors": {
@@ -1306,7 +1330,8 @@
         "power_system": "secondary",
         "solar_system": "secondary",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "cross_border": {
@@ -1356,7 +1381,8 @@
         "power_system": "secondary",
         "solar_system": "secondary",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "context"
       }
     },
     "cross_border_lines": {
@@ -1454,7 +1480,8 @@
         "power_system": "secondary",
         "solar_system": "secondary",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
       }
     },
     "solar_ghi_zones": {
@@ -1500,7 +1527,8 @@
         "power_system": "off",
         "solar_system": "primary",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "solar_plants": {
@@ -1559,7 +1587,8 @@
         "power_system": "muted",
         "solar_system": "primary",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
       }
     },
     "solar_suitability": {
@@ -1605,7 +1634,8 @@
         "power_system": "off",
         "solar_system": "primary",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "floating_pv_candidates": {
@@ -1656,7 +1686,8 @@
         "power_system": "muted",
         "solar_system": "primary",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "basin_seasonality": {
@@ -1686,7 +1717,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "flood_2026_route": {
@@ -1738,7 +1770,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "primary"
+        "flood_2026": "primary",
+        "energy_infrastructure": "off"
       }
     },
     "flood_2026_impacts_confirmed": {
@@ -1802,7 +1835,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "primary"
+        "flood_2026": "primary",
+        "energy_infrastructure": "off"
       }
     },
     "flood_2026_impacts_watch": {
@@ -1855,7 +1889,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "flood_2026_corridor_projects": {
@@ -1909,7 +1944,8 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "off"
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
       }
     },
     "flood_2026_secondary_hazards": {
@@ -1953,7 +1989,505 @@
         "power_system": "off",
         "solar_system": "off",
         "wiki": "off",
-        "flood_2026": "primary"
+        "flood_2026": "primary",
+        "energy_infrastructure": "off"
+      }
+    },
+    "grid_substations": {
+      "path": "../../../data/processed/maps/grid_substations.geojson",
+      "kind": "point",
+      "label": "Grid substations (66-400 kV)",
+      "wiki_slug": "data-substation-inventory",
+      "feature_context": "Substation location from the RPGCL official map symbol or a place-level match; see Map location.",
+      "style": {
+        "color": "#1e3a8a",
+        "weight": 1.5,
+        "fillColor": "#3b82f6",
+        "fillOpacity": 0.85,
+        "radius_field": "highest_voltage_kv",
+        "radius_min": 5,
+        "radius_max": 10,
+        "radius_scale": "sqrt"
+      },
+      "popup_fields": [
+        {
+          "field": "highest_voltage_kv",
+          "label": "Highest voltage",
+          "suffix": " kV"
+        },
+        {
+          "field": "status_display",
+          "label": "Status"
+        },
+        {
+          "field": "installed_mva",
+          "label": "Installed transformer capacity",
+          "suffix": " MVA"
+        },
+        {
+          "field": "planned_additional_mva",
+          "label": "Planned additions",
+          "suffix": " MVA"
+        },
+        {
+          "field": "voltage_ratios",
+          "label": "Transformer ratios"
+        },
+        "district",
+        {
+          "field": "linked_solar_award_mw",
+          "label": "Linked solar awards",
+          "suffix": " MW"
+        },
+        {
+          "field": "cross_border_link",
+          "label": "Cross-border link"
+        },
+        {
+          "field": "precision_label",
+          "label": "Map location"
+        },
+        {
+          "field": "status_as_of",
+          "label": "Status as of"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "status_display"
+      ],
+      "name_field": "name",
+      "card_fields": {
+        "title": "name",
+        "lead_template": "${highest_voltage_kv} kV · ${status_display}",
+        "body": [
+          {
+            "label": "Installed MVA",
+            "field": "installed_mva"
+          },
+          {
+            "label": "District",
+            "field": "district"
+          },
+          {
+            "label": "Map location",
+            "field": "precision_label"
+          }
+        ]
+      },
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "primary"
+      }
+    },
+    "industrial_load_anchors": {
+      "path": "../../../data/processed/maps/industrial_load_anchors.geojson",
+      "kind": "point",
+      "label": "Industrial load anchors",
+      "wiki_slug": "data-load-anchors-and-fossil-backbone",
+      "feature_context": "Named industrial area or SEZ, plotted at its town (place-level), not a parcel boundary.",
+      "style": {
+        "color": "#7c2d12",
+        "weight": 1.5,
+        "fillColor": "#f97316",
+        "fillOpacity": 0.85,
+        "radius": 6
+      },
+      "popup_fields": [
+        {
+          "field": "anchor_type",
+          "label": "Type"
+        },
+        "district",
+        {
+          "field": "nearest_substation_name",
+          "label": "Supplying substation"
+        },
+        {
+          "field": "supply_voltage_kv",
+          "label": "Supply voltage",
+          "suffix": " kV"
+        },
+        {
+          "field": "grid_project_reference",
+          "label": "Grid project"
+        },
+        {
+          "field": "project_status_as_reported",
+          "label": "Project status (as reported)"
+        },
+        {
+          "field": "precision_label",
+          "label": "Map location"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "anchor_type"
+      ],
+      "name_field": "name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
+      }
+    },
+    "fossil_pipeline": {
+      "path": "../../../data/processed/maps/fossil_infrastructure.geojson",
+      "kind": "line",
+      "label": "Motihari-Amlekhgunj petroleum pipeline (schematic)",
+      "wiki_slug": "data-load-anchors-and-fossil-backbone",
+      "feature_context": "Schematic straight line between the two terminals; not the surveyed pipeline alignment.",
+      "filter": {
+        "field": "geometry_kind",
+        "equals": "pipeline"
+      },
+      "style": {
+        "color": "#57534e",
+        "weight": 3,
+        "opacity": 0.8,
+        "dashArray": "6,6"
+      },
+      "popup_fields": [
+        {
+          "field": "geometry_note",
+          "label": "Geometry"
+        },
+        "status",
+        {
+          "field": "length_km",
+          "label": "Length",
+          "suffix": " km"
+        },
+        {
+          "field": "design_capacity",
+          "label": "Design capacity"
+        },
+        {
+          "field": "endpoint_basis",
+          "label": "Endpoint basis"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title"
+      ],
+      "name_field": "name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
+      }
+    },
+    "fossil_depots": {
+      "path": "../../../data/processed/maps/fossil_infrastructure.geojson",
+      "kind": "point",
+      "label": "NOC fuel depots (town-level)",
+      "wiki_slug": "data-load-anchors-and-fossil-backbone",
+      "feature_context": "Depot plotted at the town named in the WECS/NOC storage table, not the depot site.",
+      "filter": {
+        "field": "geometry_kind",
+        "equals": "depot"
+      },
+      "style": {
+        "color": "#292524",
+        "weight": 1.5,
+        "fillColor": "#a8a29e",
+        "fillOpacity": 0.9,
+        "radius": 6
+      },
+      "popup_fields": [
+        {
+          "field": "ms_storage_kl",
+          "label": "Petrol (MS) storage",
+          "suffix": " kL"
+        },
+        {
+          "field": "sko_storage_kl",
+          "label": "Kerosene (SKO) storage",
+          "suffix": " kL"
+        },
+        {
+          "field": "atf_storage_kl",
+          "label": "Jet fuel (ATF) storage",
+          "suffix": " kL"
+        },
+        {
+          "field": "storage_as_of",
+          "label": "Table date"
+        },
+        {
+          "field": "precision_label",
+          "label": "Map location"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title"
+      ],
+      "name_field": "name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
+      }
+    },
+    "non_dam_storage": {
+      "path": "../../../data/processed/maps/non_dam_storage.geojson",
+      "kind": "point",
+      "label": "Pumped storage & batteries (mappable sites)",
+      "wiki_slug": "data-non-dam-storage-pipeline",
+      "feature_context": "Only projects whose source names a single site are mapped; most rows have no mappable site yet.",
+      "style": {
+        "color": "#065f46",
+        "weight": 1.5,
+        "fillColor": "#10b981",
+        "fillOpacity": 0.85,
+        "radius": 7
+      },
+      "popup_fields": [
+        "technology",
+        {
+          "field": "power_mw",
+          "label": "Power",
+          "suffix": " MW"
+        },
+        "status",
+        {
+          "field": "site",
+          "label": "Site (as stated)"
+        },
+        {
+          "field": "developer_or_agency",
+          "label": "Developer / agency"
+        },
+        {
+          "field": "precision_label",
+          "label": "Map location"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "power_mw"
+      ],
+      "name_field": "name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
+      }
+    },
+    "doed_nonhydro_operating": {
+      "path": "../../../data/processed/maps/doed_nonhydro_operating.geojson",
+      "kind": "point",
+      "pane": "np-reference-points",
+      "label": "DoED operating non-hydro · licence-envelope reference midpoints, not facility locations",
+      "feature_context": "Midpoint of the DoED licence coordinate envelope; a reference midpoint, not a facility location.",
+      "style": {
+        "color": "#854d0e",
+        "weight": 2,
+        "fillColor": "#facc15",
+        "fillOpacity": 0.78,
+        "radius_field": "capacity_mw",
+        "radius_min": 4,
+        "radius_max": 10,
+        "radius_scale": "sqrt"
+      },
+      "popup_fields": [
+        {
+          "field": "coordinate_precision",
+          "label": "Map location"
+        },
+        "technology",
+        {
+          "field": "capacity_mw",
+          "label": "Capacity",
+          "suffix": " MW"
+        },
+        {
+          "field": "delivery_status",
+          "label": "DoED status"
+        },
+        {
+          "field": "location_text",
+          "label": "Location (DoED text)"
+        },
+        {
+          "field": "source_authority",
+          "label": "Source authority"
+        },
+        {
+          "field": "source_updated_on",
+          "label": "Register updated"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "capacity_mw",
+        "coordinate_precision"
+      ],
+      "name_field": "project",
+      "allow_draft": true,
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
+      }
+    },
+    "glof_dangerous_lakes": {
+      "path": "../../../data/processed/maps/glof_dangerous_lakes.geojson",
+      "kind": "point",
+      "label": "Potentially dangerous glacial lakes (ICIMOD 2020)",
+      "wiki_slug": "data-infrastructure-hazard-register",
+      "feature_context": "Hazard overlay: ICIMOD & UNDP (2020) potentially dangerous glacial lakes in Nepal. A screening rank, not an outburst forecast.",
+      "style": {
+        "color": "#0c4a6e",
+        "weight": 1.5,
+        "fillColor": "#38bdf8",
+        "fillOpacity": 0.85,
+        "radius": 6
+      },
+      "popup_fields": [
+        {
+          "field": "rank",
+          "label": "ICIMOD rank (I = highest)"
+        },
+        {
+          "field": "sub_basin",
+          "label": "Sub-basin"
+        },
+        {
+          "field": "river_basin",
+          "label": "Basin"
+        },
+        {
+          "field": "pdgl_earlier_identified",
+          "label": "Also flagged in"
+        },
+        {
+          "field": "precision_label",
+          "label": "Map location"
+        },
+        {
+          "field": "source_locator",
+          "label": "Source locator"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title"
+      ],
+      "name_field": "name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "off"
+      }
+    },
+    "clean_industry_siting": {
+      "path": "../../../data/processed/maps/clean_industry_siting.geojson",
+      "kind": "point",
+      "label": "Clean-industry & compute siting hubs (verified grid facts, no scores)",
+      "wiki_slug": "data-clean-industry-and-compute-siting",
+      "feature_context": "Siting baseline: 220/400 kV grid hubs and industrial estates joined to verified substation, ERC tariff and ecological-belt facts. Not a ranking; bay headroom, fibre and reliability data are not public.",
+      "style": {
+        "color": "#1e3a8a",
+        "weight": 2,
+        "fillColor": "#a78bfa",
+        "fillOpacity": 0.8,
+        "radius": 7
+      },
+      "popup_fields": [
+        {
+          "field": "hub_type",
+          "label": "Hub type"
+        },
+        "district",
+        {
+          "field": "climate_zone_band",
+          "label": "Ecological belt"
+        },
+        {
+          "field": "highest_voltage_kv",
+          "label": "Highest voltage",
+          "suffix": " kV"
+        },
+        {
+          "field": "installed_mva",
+          "label": "Installed",
+          "suffix": " MVA"
+        },
+        {
+          "field": "planned_additional_mva",
+          "label": "Planned addition",
+          "suffix": " MVA"
+        },
+        {
+          "field": "substation_status",
+          "label": "Substation status"
+        },
+        {
+          "field": "industrial_tod_132kv_wet_offpeak_npr",
+          "label": "ERC 132 kV industrial wet off-peak",
+          "suffix": " NPR/kWh"
+        },
+        {
+          "field": "industrial_tod_132kv_dry_peak_npr",
+          "label": "ERC 132 kV industrial dry peak",
+          "suffix": " NPR/kWh"
+        },
+        {
+          "field": "precision_label",
+          "label": "Map location"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "hub_type"
+      ],
+      "name_field": "hub_name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
       }
     }
   },

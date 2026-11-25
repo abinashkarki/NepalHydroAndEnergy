@@ -2,7 +2,7 @@
 title: Solar Fleet Inventory
 type: data
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-11-25
 figure_type: table
 sources: [nea-annual-report-fy2024-25, aepc-renewable-framework, wb-grid-solar-ee-project, doed-solar-power-plants-table, nea-solar-loi-2024]
 tags: [solar, fleet, capacity, inventory, operating, PPA, tendered, IPP, NEA]
@@ -57,6 +57,20 @@ Source: DoED solar power-plant registry cross-referenced with NEA Annual Report 
 | **Grid Solar & EE Project (WB) — additional components** | — | various | NEA | — | — | Also includes distribution upgrades |
 
 The full DoED operating solar table has **25 commissioned grid-connected plants totaling 141.74 MW**. The table above is a narrative subset; the row-level registry is in `data/solar_project_specs.csv` and the mapped layer [[data-layer-solar-plants-nea-awards]].
+
+### Registry reconciliation (checked 2026-11-25)
+
+The DoED non-hydro registry snapshot in `data/processed/tables/doed_nonhydro_registry.csv` (DoED page updated 2026-10-15) lists **27 operating solar plants totalling 154.74 MW**. `data/solar_project_specs.csv` has 25 `operating-registry-record` rows totalling 141.74 MW, taken from the DoED table as updated on 9 January 2026. Matching on project title and capacity:
+
+- 25 registry plants match a specs row. Four match only on a shortened title: Som Radha Krishna (VGF), Pratappur (VGF), Ramgram and Nuwakot Block No. 5.
+- **2 operating DoED plants are not yet in `solar_project_specs.csv`.** Both have a DoED COD of 2082-10-28 BS, after the January 2026 snapshot:
+
+| DoED row | Project | Capacity (MW) | Location | Promoter |
+|---:|---|---:|---|---|
+| 14 | Grid-Connected Solar Power Project, Duhabi, 33 kV S/S | 8.0 | Mrigauliya (Morang) | Global Energy & Construction Pvt. Ltd. |
+| 27 | Solar PV Project, Dhalkebar | 5.0 | Nakatajhijh (Dhanusha) | Green Infrastructure Private Limited |
+
+The 13.0 MW gap accounts for the whole difference between 154.74 MW and 141.74 MW. The 141.74 MW headline above therefore reflects the January 2026 snapshot.
 
 **Of which:**
 - NEA-owned: **~24.36 MWp** in the Bidur / Trishuli / Devighat block group

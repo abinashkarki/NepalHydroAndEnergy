@@ -2,9 +2,9 @@
 title: Chainpur Seti
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: [nea-transmission-annual-book-2077]
-tags: [project, survey, gandaki, bajhang]
+updated: 2026-11-24
+sources: [nea-transmission-annual-book-2077, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, pre-construction, karnali, bajhang]
 images:
   - src: chainpur-seti/nea2077-p129-img01.png
     caption: "SD/ToR approved by MoFE"
@@ -27,7 +27,7 @@ page_quality: record
   <figcaption>Powerhouse Area of Chainpur Seti</figcaption>
 </figure>
 
-210 MW · survey / study · on the Seti Khola · in Bajhang district.
+210 MW · pre-construction (NEA FY 2025/26 project report) · on the Seti Khola · in Bajhang district.
 
 <!-- generated:specs:start -->
 
@@ -36,11 +36,27 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 210 MW |
-| Status | Survey / study |
+| Status | Pre-construction |
+| Status basis | NEA FY 2025/26 Annual Report, pp. 112-113 |
 | Registry licence | Survey |
-| River | Seti Khola ([[gandaki-basin]]) |
+| River | Seti ([[karnali-basin]]) |
 | District | Bajhang |
 | Province | Sudurpashchim Pradesh |
+
+### Output
+
+| Parameter | Value |
+|-----------|-------|
+| Annual design energy | 1206.674 GWh |
+| Dry-season energy | 371.973 GWh |
+| Dry-season share | 30.8 % |
+| Type | PROR |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Chainpur Seti Jalbidhyut Company Limited (NEA subsidiary) |
 
 <!-- generated:specs:end -->
 
@@ -49,6 +65,8 @@ page_quality: record
 ## Sources
 
 - [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 
@@ -62,5 +80,5 @@ page_quality: record
 
 ## See also
 
-- [[gandaki-basin]]
+- [[karnali-basin]]
 - [[buildability]]

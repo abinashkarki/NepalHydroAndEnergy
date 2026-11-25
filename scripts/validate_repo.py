@@ -1000,6 +1000,106 @@ def validate_solar_specs_csv(slugs: set[str]) -> None:
     print(f"solar specs CSV: {len(spec_slugs)} project slugs, {len(fieldnames)} columns")
 
 
+SUBSTATION_SPECS_CSV_PATH = ROOT / "data" / "substation_specs.csv"
+SUBSTATION_SCHEMA_PATH = ROOT / "wiki" / "substation-specs-schema.json"
+
+
+def substation_specs_errors(
+    schema: dict, fieldnames: list[str], rows: list[dict[str, str]], slugs: set[str]
+) -> list[str]:
+    """Validate substation_specs.csv rows against its JSON-schema contract.
+
+    Pure function (no I/O) so tests can exercise it with synthetic rows.
+    Substation slugs do not need wiki pages; source_slug and corridor_slugs do.
+    """
+    props = schema.get("properties", {})
+    required = set(schema.get("required", []))
+    errs: list[str] = []
+    cols = set(fieldnames)
+    if schema.get("additionalProperties") is False and cols - set(props):
+        errs.append("unexpected columns: " + ", ".join(sorted(cols - set(props))))
+    if set(props) - cols:
+        errs.append("missing schema columns: " + ", ".join(sorted(set(props) - cols)))
+    if not rows:
+        errs.append("no rows")
+
+    seen: dict[str, int] = {}
+    for i, row in enumerate(rows, start=2):
+        label = (row.get("slug") or f"row {i}").strip()
+        slug = (row.get("slug") or "").strip()
+        if slug:
+            if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
+                errs.append(f"{label}: slug must be kebab-case")
+            seen[slug] = seen.get(slug, 0) + 1
+        for col, spec in props.items():
+            raw = (row.get(col) or "").strip()
+            if not raw:
+                if col in required:
+                    errs.append(f"{label}: required field '{col}' is blank")
+                continue
+            enum = spec.get("enum")
+            if enum is not None and raw not in enum:
+                errs.append(f"{label}: '{col}' value '{raw}' not in schema enum")
+                continue
+            if spec.get("type") == "number":
+                try:
+                    value = float(raw)
+                except ValueError:
+                    errs.append(f"{label}: '{col}' must be numeric, got '{raw}'")
+                    continue
+                if "minimum" in spec and value < spec["minimum"]:
+                    errs.append(f"{label}: '{col}'={raw} below minimum {spec['minimum']}")
+                if "maximum" in spec and value > spec["maximum"]:
+                    errs.append(f"{label}: '{col}'={raw} above maximum {spec['maximum']}")
+            if spec.get("format") == "date":
+                try:
+                    dt.date.fromisoformat(raw)
+                except ValueError:
+                    errs.append(f"{label}: '{col}' must be ISO date YYYY-MM-DD, got '{raw}'")
+        has_lat = bool((row.get("latitude") or "").strip())
+        has_lon = bool((row.get("longitude") or "").strip())
+        if has_lat != has_lon:
+            errs.append(f"{label}: latitude and longitude must both be set or both blank")
+        if has_lat and not (row.get("coordinate_precision") or "").strip():
+            errs.append(f"{label}: coordinates require coordinate_precision")
+        if not has_lat and (row.get("coordinate_precision") or "").strip():
+            errs.append(f"{label}: coordinate_precision set without coordinates")
+        if (row.get("province") or "").strip() and not (row.get("district") or "").strip():
+            errs.append(f"{label}: province requires a sourced district")
+        status = (row.get("status") or "").strip()
+        if status in {"operating", "partially-operational"} and not (row.get("voltage_ratios") or "").strip() \
+                and (row.get("installed_mva") or "").strip() not in {"", "0"}:
+            errs.append(f"{label}: installed_mva without voltage_ratios")
+        if status in {"planned", "under-construction"} and (row.get("installed_mva") or "").strip() not in {"", "0"}:
+            errs.append(f"{label}: {status} row must not report installed_mva")
+        for ratio in filter(None, (row.get("voltage_ratios") or "").split(";")):
+            if not re.fullmatch(r"\d{2,3}(?:/\d{2,3}){1,2}", ratio.strip()):
+                errs.append(f"{label}: malformed voltage ratio '{ratio}'")
+        source_slug = (row.get("source_slug") or "").strip()
+        if source_slug and source_slug not in slugs:
+            errs.append(f"{label}: source_slug '{source_slug}' not found in wiki pages")
+        for corridor in filter(None, (row.get("corridor_slugs") or "").split(";")):
+            if corridor.strip() not in slugs:
+                errs.append(f"{label}: corridor slug '{corridor.strip()}' not found in wiki pages")
+    dupes = sorted(k for k, v in seen.items() if v > 1)
+    if dupes:
+        errs.append("duplicate slugs: " + ", ".join(dupes))
+    return errs
+
+
+def validate_substation_specs_csv(slugs: set[str]) -> None:
+    if not SUBSTATION_SPECS_CSV_PATH.exists():
+        return
+    with SUBSTATION_SPECS_CSV_PATH.open(newline="", encoding="utf-8-sig") as handle:
+        reader = csv_module.DictReader(handle)
+        rows = list(reader)
+        fieldnames = list(reader.fieldnames or [])
+    errs = substation_specs_errors(load_json(SUBSTATION_SCHEMA_PATH), fieldnames, rows, slugs)
+    if errs:
+        fail("data/substation_specs.csv violates wiki/substation-specs-schema.json:\n  " + "\n  ".join(errs[:40]))
+    print(f"substation specs CSV: {len(rows)} substations, {len(fieldnames)} columns")
+
+
 def validate_monitoring_data(slugs: set[str]) -> None:
     schema = load_json(MONITORING_SCHEMA_PATH)
     datasets = schema.get("datasets") or {}
@@ -1286,6 +1386,7 @@ def main() -> None:
     validate_tracked_hygiene()
     validate_specs_csv(slugs)
     validate_solar_specs_csv(slugs)
+    validate_substation_specs_csv(slugs)
     validate_monitoring_data(slugs)
     validate_duplicate_entities(slugs)
     validate_page_generator(slugs)

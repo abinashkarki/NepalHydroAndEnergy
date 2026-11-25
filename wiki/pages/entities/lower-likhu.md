@@ -2,9 +2,9 @@
 title: Lower Likhu
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
-tags: [project, licensed, koshi, ramechhap]
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, koshi, ramechhap]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Lower Likhu
 
-28.1 MW · generation licence recorded; delivery status unverified · on the Likhu Khola · in Ramechhap district.
+28.1 MW · operating (DoED operating record) · on the Likhu Khola · in Ramechhap district.
 
 <!-- generated:specs:start -->
 
@@ -21,11 +21,25 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 28.1 MW |
-| Status | Generation licence; delivery status unverified |
+| Status | Operating |
+| DoED register | Operating record no. 154; commercial operation 2079-07-19 BS (about AD 2022) |
 | Registry licence | Generation |
 | River | Likhu Khola (eastern [[koshi-basin]]) |
 | District | Ramechhap |
 | Province | Bagmati Pradesh |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Swaita Ganga Hydropower and Construction Pvt. Ltd. |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2022 |
+| Completion | 100 % |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +47,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

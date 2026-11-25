@@ -2,9 +2,9 @@
 title: Dordi Khola
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
-tags: [project, licensed, lamjung]
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, lamjung]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Dordi Khola
 
-27 MW · generation licence recorded; delivery status unverified · on the Dordi · in Lamjung district.
+27 MW · operating (DoED operating record) · on the Dordi · in Lamjung district.
 
 <!-- generated:specs:start -->
 
@@ -21,11 +21,25 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 27 MW |
-| Status | Generation licence; delivery status unverified |
+| Status | Operating |
+| DoED register | Operating record no. 48; commercial operation 2079-06-14 BS (about AD 2022) |
 | Registry licence | Generation |
 | River | Dordi |
 | District | Lamjung |
 | Province | Gandaki Pradesh |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Himalaya Power Partner Pvt. Ltd |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2022 |
+| Completion | 100 % |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +47,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

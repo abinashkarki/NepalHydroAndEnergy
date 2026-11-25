@@ -2,15 +2,17 @@
 title: Super Madi
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25]
-tags: [project, under-construction, gandaki, kaski]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, gandaki, kaski]
 images: []
 generator: manual
 page_quality: brief
 ---
 
 # Super Madi
+
+> [!note] **Status update (24 Nov 2026):** the DoED operating-plants register (snapshot 2 July 2026) lists this plant as operating (record no. 192, commercial operation 2079-12-27 BS, about AD 2023). Descriptions of the project as under construction elsewhere on this page predate commissioning. Source: [[doed-hydropower-registry]].
 
 ## Summary
 
@@ -36,7 +38,8 @@ Super Madi sits within the broader Gandaki basin development landscape, where pr
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 44 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 192; commercial operation 2079-12-27 BS (about AD 2023) |
 | Registry licence | Generation |
 | River | Madi Khola ([[gandaki-basin]]) |
 | District | Kaski |

@@ -2,9 +2,9 @@
 title: Rasuwa Bhotekoshi
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
-tags: [project, licensed, koshi, rasuwa]
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, under-construction, koshi, rasuwa]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Rasuwa Bhotekoshi
 
-120 MW · generation licence recorded; delivery status unverified · on the Bhote koshi · in Rasuwa district.
+120 MW · under construction (NEA FY 2025/26 under-construction appendix) · on the Bhote koshi · in Rasuwa district.
 
 <!-- generated:specs:start -->
 
@@ -21,11 +21,18 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 120 MW |
-| Status | Generation licence; delivery status unverified |
+| Status | Under construction |
+| Status basis | NEA FY 2025/26 appendix, under-construction (financial closure concluded) list, p. 186 |
 | Registry licence | Generation |
 | River | Bhote koshi (eastern [[koshi-basin]]) |
 | District | Rasuwa |
 | Province | Bagmati Pradesh |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Langtang Bhotekoshi Hydropower Company Pvt. Ltd. |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +40,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

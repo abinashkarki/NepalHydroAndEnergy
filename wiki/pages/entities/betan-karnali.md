@@ -2,8 +2,8 @@
 title: Betan Karnali HP
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [moewri-ipsdp-exec-summary-2025]
+updated: 2026-11-24
+sources: [moewri-ipsdp-exec-summary-2025, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, watchlist, top-capacity, generation, karnali, achham, semi-reservoir]
 images: []
 generator: manual

@@ -138,6 +138,29 @@ assert.deepEqual(titles(analysis.results), ["Arun 3"]);
 assert.equal(analysis.intent.kind, "fact-lookup");
 assert.equal(analysis.answer.count, 1);
 
+// Infrastructure registries (substations, DoED non-hydro records) join the
+// index without displacing the hydro/solar superlative answers.
+const infraFacts = [
+  ...facts,
+  fact("substation:dhalkebar", "Dhalkebar substation", "substation", ["grid", "substation", "transmission"], "under-construction", null, { district: "Dhanusha", voltage_kv: 400, installed_mva: 2054.2 }),
+  fact("nonhydro:doed-solar", "Solar Energy (DoED solar record, Bungamati (Lalitpur))", "nonhydro", ["nonhydro", "nonhydro-solar"], "operating", 60, { project_type: "Solar" }),
+  fact("storage:hulingtar", "Hulingtar-Dumkim Pumped Storage Hydropower Project", "storage", ["storage", "pumped-storage", "hydro"], "survey", 494.5, { project_type: "Pumped storage" }),
+  fact("storage:bess-pilot", "NEA Grid BESS Pilot", "storage", ["storage", "battery"], "planned", 20, { project_type: "Battery storage" }),
+  fact("demand:simara-sez", "Simara Special Economic Zone", "demand", ["demand", "industrial", "sez"], "not-applicable", null, { district: "Bara" }),
+];
+const infraIndex = new StaticFactIndex({ version: 1, facts: infraFacts }, { pages: infraFacts.map((item) => ({ s: item.wiki_slug, t: item.name, c: "entities", y: "entity", u: "project" })) });
+assert.equal(titles(infraIndex.seek("biggest hydropower project"))[0], "Mugu Karnali Storage HEP");
+const dhalkebar = infraIndex.seek("Dhalkebar substation");
+assert.ok(titles(dhalkebar).includes("Dhalkebar substation"));
+assert.match(dhalkebar[0].snippetHtml, /400 kV/);
+assert.match(dhalkebar[0].snippetHtml, /2,054\.2 MVA/);
+assert.doesNotMatch(dhalkebar[0].snippetHtml, /\b0 MW\b/);
+assert.ok(titles(infraIndex.seek("under-construction substations")).includes("Dhalkebar substation"));
+assert.deepEqual(titles(infraIndex.seek("operating solar plants")), ["Example Operating Solar"]);
+assert.equal(titles(infraIndex.seek("biggest storage projects"))[0], "Mugu Karnali Storage HEP");
+assert.deepEqual(titles(infraIndex.seek("BESS")), ["NEA Grid BESS Pilot"]);
+assert.deepEqual(titles(infraIndex.seek("Simara SEZ")), ["Simara Special Economic Zone"]);
+
 // Keep the Find surface compact while preserving structured answers and
 // advanced filters in the runtime.
 assert.match(explorerSource, /placeholder="Search this wiki…"/);

@@ -2,7 +2,7 @@
 title: Nalsyau Gad
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-24
 generator: specs-refresh
 page_quality: analysis
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -19,10 +19,6 @@ contributes the kind of dry-season energy Nepal's run-of-river-heavy system is m
 
 <!-- generated:specs:start -->
 
-## Summary
-
-**Nalsyau Gad is a 410 MW JICA promising-storage candidate in the Karnali basin** and the best dry-energy performer in the JICA shortlist used by this wiki, with 581.8 GWh dry-season energy (41.4% dry share). It is pinned in both the storage shortlist and priority watchlist. The page tracks it as a dry-season portfolio option using the JICA/NEA source set.
-
 ## Specifications
 
 | Parameter | Value |
@@ -36,6 +32,14 @@ contributes the kind of dry-season energy Nepal's run-of-river-heavy system is m
 | Dry share | 41.4% |
 | Total storage | 419.6 MCM |
 | Effective storage | 296.3 MCM |
+
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Gross head | 649.3 m |
+| Design discharge | 75.0 m³/s |
+| Dam height | 200.0 m |
 
 ### Storage
 
@@ -51,7 +55,16 @@ contributes the kind of dry-season energy Nepal's run-of-river-heavy system is m
 | Annual design energy | 1406.1 GWh |
 | Dry-season energy | 581.8 GWh |
 | Dry-season share | 41.4 % |
+| Plant load factor | 39.1 % |
 | Type | Storage |
+| Catchment area | 571.5 km² |
+
+### Financial
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | 966.9 million USD |
+| Cost per MW | 2.36 million USD/MW |
 
 <!-- generated:specs:end -->
 

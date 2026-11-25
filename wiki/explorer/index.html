@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="np-build" content="public-launch-12" />
+  <meta name="np-build" content="public-launch-16" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' unpkg.com; img-src 'self' data: *.cartocdn.com *.opentopomap.org server.arcgisonline.com *.tile.openstreetmap.org tile.openstreetmap.org *.basemaps.cartocdn.com; connect-src 'self' cdn.jsdelivr.net unpkg.com huggingface.co *.huggingface.co *.hf.co; worker-src 'self' blob:; frame-src 'none';" />
   <title>Nepal Energy · Wiki & Map</title>
   <link rel="canonical" id="canonical-link" href="https://transparentgov.ai/wiki/explorer/" />
@@ -12,15 +12,16 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" />
   <script>try{var t=localStorage.getItem("np-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
   <link rel="stylesheet" href="../assets/site/theme.css?v=design-1" />
-  <link rel="stylesheet" href="shared/style.css?v=design-1" />
+  <link rel="stylesheet" href="shared/style.css?v=design-3" />
   <script src="../assets/site/theme.js?v=design-1" defer></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
   <script src="shared/marked.min.js?v=public-launch-12"></script>
-  <script src="shared/leaflet-init.js?v=design-1"></script>
+  <script src="shared/leaflet-init.js?v=design-2"></script>
   <script src="shared/source-used-by.js?v=public-launch-13"></script>
   <script src="shared/wiki-loader.js?v=design-1"></script>
-  <script src="shared/wiki-search.js?v=public-launch-14"></script>
+  <script src="shared/wiki-search.js?v=public-launch-15"></script>
   <script src="shared/wiki-vector-search.js?v=public-launch-12"></script>
+  <script src="shared/data-explorer.js?v=design-3" defer></script>
   <style>
     /* Layout: resizable three-pane grid. */
     .layout {
@@ -701,6 +702,8 @@
       border-radius: 8px;
       padding: 9px 10px;
       background: var(--panel-2);
+      min-width: 0;
+      overflow-wrap: anywhere;
     }
 
     .fact-cell b {
@@ -2864,6 +2867,7 @@
   <div class="app-bar">
     <a class="title home-link" id="home-link" href="?page=start-here" title="Open wiki front page" aria-label="Open wiki front page">Nepal Energy · Wiki & Map</a>
     <span class="spacer"></span>
+    <button class="reset-btn data-tables-btn" id="data-tables-btn" type="button" title="Filter, sort and download registry tables" aria-label="Open data tables" aria-pressed="false">Tables</button>
     <button class="reset-btn" id="reset-layout" title="Reset pane widths and view preferences" aria-label="Reset layout">↺</button>
     <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme" title="Switch theme"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
     <span class="crumb" id="now-page" style="margin-left: 10px"></span>
@@ -2939,6 +2943,8 @@
       let syncingLayerControl = false;
       let currentSlug = null;
       let currentFactId = null;
+      let currentTablesDataset = null;
+      let dataExplorer = null;
       let pageHistory = [];
       let currentPreset = null;
       let currentBaseLayer = "Carto Positron";
@@ -3452,6 +3458,48 @@
         startDrag(document.getElementById("split-2"), "right");
       }
 
+      // Data Tables view: shared/data-explorer.js fetches registry CSVs only
+      // when the user opens a table, so the default startup payload is unchanged.
+      window.openDataTables = async function (datasetId) {
+        // The module loads with `defer`; a ?tables= deep link can arrive first.
+        if (!window.NepalDataExplorer && document.readyState === "loading") {
+          await new Promise((resolve) => document.addEventListener("DOMContentLoaded", resolve, { once: true }));
+        }
+        if (!window.NepalDataExplorer) return;
+        if (datasetId && !window.NepalDataExplorer.DATASETS[datasetId]) datasetId = null;
+        if (!dataExplorer) {
+          dataExplorer = window.NepalDataExplorer.createExplorer({
+            hooks: {
+              openPage: (slug) => window.openWikiPage(slug),
+              openFact: (id) => window.openFactDetail(id),
+              pageTitle: (slug) => (pageIndex && pageIndex.slugToTitle && pageIndex.slugToTitle[slug]) || null,
+              onDatasetChange: (id) => { if (currentTablesDataset) { currentTablesDataset = id; syncUrl(); } },
+            },
+          });
+        }
+        currentSlug = null;
+        currentFactId = null;
+        setActiveNav(null);
+        document.getElementById("now-page").textContent = "data tables";
+        const page = document.getElementById("page");
+        page.innerHTML = '<div id="data-tables-root"></div>';
+        if (isCompactLayout()) setCompactView("read");
+        const btn = document.getElementById("data-tables-btn");
+        if (btn) btn.setAttribute("aria-pressed", "true");
+        const opened = dataExplorer.open(document.getElementById("data-tables-root"), { dataset: datasetId || currentTablesDataset || "substations" });
+        currentTablesDataset = dataExplorer.state.dataset;
+        syncUrl();
+        await opened;
+      };
+
+      function leaveDataTables() {
+        currentTablesDataset = null;
+        const btn = document.getElementById("data-tables-btn");
+        if (btn) btn.setAttribute("aria-pressed", "false");
+      }
+
+      document.getElementById("data-tables-btn").addEventListener("click", () => window.openDataTables());
+
       document.getElementById("reset-layout").addEventListener("click", () => {
         Object.keys(localStorage)
           .filter((k) => k.startsWith("explorer."))
@@ -3779,9 +3827,16 @@
         if (fact) {
           const bits = [];
           if (fact.status_display || fact.status_raw || fact.status) bits.push(fact.status_display || fact.status_raw || fact.status);
-          if (Number.isFinite(Number(fact.capacity_mw))) bits.push(formatMw(fact.capacity_mw));
+          const mw = formatMw(fact.capacity_mw);
+          if (mw) bits.push(mw);
+          else if (fact.domain === "substation") {
+            const kv = formatKv(fact.voltage_kv);
+            const mva = formatMva(fact.installed_mva);
+            if (kv) bits.push(kv);
+            if (mva) bits.push(mva);
+          }
           if (fact.as_of || fact.last_updated) bits.push(`record checked ${fact.as_of || fact.last_updated}`);
-          return bits.join(" · ") || "Project record";
+          return bits.join(" · ") || (fact.domain === "institution" ? "Institution record" : "Project record");
         }
         if (["syntheses", "claims"].includes(result.category)) return `${maturityLabel} · Analysis`;
         if (result.category === "interventions") return `${maturityLabel} · Decision dossier`;
@@ -4080,9 +4135,56 @@
       }
 
       function formatMw(value) {
+        if (value == null || value === "" || typeof value === "boolean") return "";
         const n = Number(value);
         if (!Number.isFinite(n)) return "";
         return `${n.toLocaleString(undefined, { maximumFractionDigits: n >= 100 ? 0 : 2 })} MW`;
+      }
+
+      function formatMva(value) {
+        if (value == null || value === "" || typeof value === "boolean") return "";
+        const n = Number(value);
+        if (!Number.isFinite(n)) return "";
+        return `${n.toLocaleString(undefined, { maximumFractionDigits: 1 })} MVA`;
+      }
+
+      function formatKv(value) {
+        if (value == null || value === "" || typeof value === "boolean") return "";
+        const n = Number(value);
+        if (!Number.isFinite(n) || n <= 0) return "";
+        return `${n.toLocaleString(undefined, { maximumFractionDigits: 0 })} kV`;
+      }
+
+      function humanSourceLabel(value) {
+        const key = String(value || "").trim();
+        if (!key) return "";
+        const labels = {
+          substation_specs: "Grid substation registry (NEA FY 2025/26)",
+          corridor_specs: "Transmission corridor specs",
+          storage_non_dam_specs: "Non-dam storage registry (BESS / PSH)",
+          industrial_load_anchors: "Industrial load anchors registry",
+          doed_nonhydro_registry: "DoED non-hydro register",
+          energy_institutions: "Nepal energy institutions registry",
+          project_specs: "Hydropower project specs",
+          solar_plants: "Solar fleet & NEA award registry",
+          hydropower_project_display_points: "Hydropower project registry",
+          top_capacity_project_annotations: "Top-capacity hydropower registry",
+          storage_shortlist_annotations: "Storage hydropower shortlist",
+          priority_project_watchlist: "Priority project watchlist",
+        };
+        return labels[key] || key.replace(/_/g, " ");
+      }
+
+      function humanPrecisionLabel(value) {
+        const key = String(value || "").trim();
+        if (!key) return "";
+        const labels = {
+          "official-map-node": "Official map symbol (RPGCL / NEA)",
+          "approximate-place": "Approximate place / locality",
+          "facility-verified": "Verified facility coordinates",
+          "not mapped": "Not yet mapped",
+        };
+        return labels[key] || key.replace(/[-_]+/g, " ");
       }
 
       function formatTariff(value) {
@@ -4342,7 +4444,7 @@
       function renderProjectIntelligenceHeader(slug) {
         if (!factIndex || !Array.isArray(factIndex.facts)) return "";
         const candidates = factIndex.facts.filter((row) => (row.wiki_slug || row.slug) === slug);
-        const fact = candidates.find((row) => row.as_of && (
+        const fact = candidates.find((row) => row.domain !== "institution" && row.as_of && (
           (row.latest_events || []).length
           || (row.blockers || []).length
           || (row.evidence_urls || []).length
@@ -4352,10 +4454,12 @@
         const blockers = (fact.blockers || []).filter((blocker) => blocker.status === "active");
         const latestEvent = (fact.latest_events || []).slice().sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")))[0];
         const location = [fact.basin || fact.river, fact.district].filter(Boolean).join(" · ");
-        const type = fact.project_type || ({ hydro: "Hydropower", storage: "Storage", solar: "Solar", transmission: "Transmission" }[fact.domain]) || "Project";
+        const type = fact.project_type || ({ hydro: "Hydropower", storage: "Storage", solar: "Solar", transmission: "Transmission", substation: "Grid substation", demand: "Industrial load anchor", nonhydro: "Non-hydro (DoED record)", institution: "Institution" }[fact.domain]) || "Project";
         const cells = [
           ["Current status", fact.status_display || fact.status_raw || fact.status],
-          ["Capacity", Number.isFinite(Number(fact.capacity_mw)) ? formatMw(fact.capacity_mw) : ""],
+          ["Capacity", formatMw(fact.capacity_mw)],
+          ["Highest voltage", fact.domain === "substation" ? formatKv(fact.voltage_kv) : ""],
+          ["Installed capacity", fact.domain === "substation" ? formatMva(fact.installed_mva) : ""],
           ["Project type", type],
           ["Basin / district", location],
           ["Promoter", fact.developer || fact.promoter],
@@ -4376,6 +4480,7 @@
       }
 
       window.openWikiPage = async function (slug, opts = {}) {
+        leaveDataTables();
         // Detect "re-open the page that's already showing" — typically happens when
         // the user clicks a feature whose canonical page is already loaded. In that
         // case the map view is already adequate (we just opened the bound popup);
@@ -4585,6 +4690,7 @@
       window.openFactDetail = async function (factId, opts = {}) {
         const fact = factIndex && factIndex.getFact(factId);
         if (!fact) return;
+        leaveDataTables();
         currentFactId = factId;
         currentSlug = null;
         setActiveNav(null);
@@ -4598,7 +4704,7 @@
         const feature = ref.layer ? lm.findFeatureByRef(ref) : null;
         document.getElementById("map-info").innerHTML =
           `<b>${escapeHtml(fact.name)}</b><br/>` +
-          `<span class="muted">Project record · ${escapeHtml(fact.source_layer || "fact index")}</span>`;
+          `<span class="muted">Project record · ${escapeHtml(humanSourceLabel(fact.source_layer) || "fact index")}</span>`;
 
         scheduleMapFocus(() => {
           if (!feature) return;
@@ -4625,9 +4731,12 @@
           : null;
         const maturity = linkedMeta ? maturityFromMeta(linkedMeta) : "registry-record";
         const maturityLabel = MATURITY_LABEL[maturity];
-        const domainLabel = ({ hydro: "Hydro", solar: "Solar", storage: "Storage" }[fact.domain] || "Fact");
+        const domainLabel = ({ hydro: "Hydro", solar: "Solar", storage: "Storage", substation: "Substation", demand: "Load anchor", nonhydro: "Non-hydro", institution: "Institution" }[fact.domain] || "Fact");
         const rows = [
-          [fact.domain === "solar" ? "Capacity (MWp)" : "Capacity", formatMw(fact.capacity_mwp || fact.capacity_mw)],
+          [fact.domain === "solar" ? "Capacity (MWp)" : "Capacity", formatMw(fact.capacity_mwp ?? fact.capacity_mw)],
+          ["Highest voltage", formatKv(fact.voltage_kv)],
+          ["Installed capacity", formatMva(fact.installed_mva)],
+          ["Planned expansion", formatMva(fact.planned_additional_mva)],
           ["Status", statusDisplay],
           ["Procurement", fact.procurement_stage],
           ["District", fact.district],
@@ -4637,9 +4746,9 @@
           ["Promoter / owner", fact.promoter],
           ["Bidder", fact.bidder],
           ["Tariff", formatTariff(fact.tariff_npr_kwh)],
-          ["Precision", fact.precision_label],
+          ["Precision", humanPrecisionLabel(fact.precision_label)],
           ["Location basis", fact.location_basis],
-          ["Source", fact.source_note || fact.source_layer],
+          ["Source", fact.source_note || humanSourceLabel(fact.source_layer)],
         ].filter((row) => row[1]);
         const cells = rows.map(([label, value]) => `<div class="fact-cell"><b>${escapeHtml(label)}</b>${escapeHtml(value)}</div>`).join("");
         const related = (fact.related_slugs || []).map((slug) => {
@@ -4808,6 +4917,19 @@
           ],
         },
         {
+          id: "energy_infrastructure",
+          title: "Energy Infrastructure",
+          rows: [
+            { key: "grid_substations", label: "Grid substations (66–400 kV)", symbol: "substation" },
+            { key: "industrial_load_anchors", label: "Industrial load anchors", symbol: "big" },
+            { key: "fossil_pipeline", label: "Petroleum pipeline (schematic)", symbol: "route" },
+            { key: "fossil_depots", label: "NOC fuel depots (town-level)", symbol: "pipeline" },
+            { key: "non_dam_storage", label: "Pumped storage & batteries", symbol: "storage" },
+            { key: "doed_nonhydro_operating", label: "DoED non-hydro — reference midpoints (not facility locations)", symbol: "source" },
+            { key: "clean_industry_siting", label: "Clean-industry & compute siting hubs (no scores)", symbol: "big" },
+          ],
+        },
+        {
           id: "rivers",
           title: "Rivers & Downstream",
           rows: [
@@ -4831,6 +4953,13 @@
             { key: "flood_2026_impacts_watch", label: "Watch list", symbol: "survey" },
             { key: "flood_2026_corridor_projects", label: "Corridor exposure (unconfirmed)", symbol: "pin" },
             { key: "flood_2026_secondary_hazards", label: "Secondary hazards", symbol: "source" },
+          ],
+        },
+        {
+          id: "hazards",
+          title: "Hazards",
+          rows: [
+            { key: "glof_dangerous_lakes", label: "Potentially dangerous glacial lakes (ICIMOD 2020)", symbol: "impact" },
           ],
         },
         {
@@ -5595,6 +5724,7 @@
         const isBootstrappedSubject = Boolean(routeBootstrap && currentSlug === routeBootstrap.slug);
         if (currentPreset && (!isBootstrappedSubject || currentPreset !== presetsCfg.default_preset)) params.set("preset", currentPreset);
         if (currentFactId) params.set("fact", currentFactId);
+        else if (currentTablesDataset) params.set("tables", currentTablesDataset);
         else if (currentSlug && !isBootstrappedSubject) params.set("page", currentSlug);
         const searchQuery = document.getElementById("q") && document.getElementById("q").value.trim();
         if (searchQuery) {
@@ -5632,6 +5762,7 @@
           // state and canonical URL can never describe different subjects.
           page: (routeBootstrap && routeBootstrap.slug) || params.get("page") || null,
           fact: params.get("fact"),
+          tables: params.get("tables"),
           q: params.get("q"),
           filter: params.get("filter"),
           status: params.get("status"),
@@ -5869,6 +6000,8 @@
 
         if (url.fact && factIndex.getFact(url.fact)) {
           await window.openFactDetail(url.fact);
+        } else if (url.tables) {
+          await window.openDataTables(url.tables);
         } else if (url.page && pageIndex.slugToCategory[url.page]) {
           await window.openWikiPage(url.page, { initialLoad: true });
         } else if (url.q) {

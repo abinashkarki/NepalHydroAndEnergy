@@ -1015,6 +1015,353 @@ def build_contracted_energy_performance() -> dict:
     }
 
 
+# ── Sprint 2 data-registry figures (values read only from committed CSVs) ─────
+
+
+def _num(raw: str) -> float | None:
+    raw = (raw or "").strip().replace(",", "")
+    try:
+        return float(raw)
+    except ValueError:
+        return None
+
+
+def _slugs(values) -> list[str]:
+    return sorted({slug.strip() for value in values for slug in (value or "").split(";") if slug.strip()})
+
+
+def _style_axis(ax, *, grid_axis: str = "y") -> None:
+    ax.grid(axis=grid_axis, alpha=0.42)
+    ax.grid(axis="x" if grid_axis == "y" else "y", visible=False)
+    for side in ("top", "right"):
+        ax.spines[side].set_visible(False)
+    ax.tick_params(axis="both", labelsize=8.5)
+
+
+def build_nea_system_trajectory() -> dict:
+    figure_id = "nea_system_trajectory_11yr"
+    source = ROOT / "data" / "nea_system_annual_timeseries.csv"
+    rows = read_csv(source)
+    years = [r["fiscal_year_ad"] for r in rows]
+    labels = [y.replace("20", "", 1) for y in years]  # "2015/16" -> "15/16"
+    nea = [_num(r["energy_nea_gwh"]) or 0 for r in rows]
+    sub = [_num(r["energy_nea_subsidiary_gwh"]) or 0 for r in rows]
+    ipp = [_num(r["energy_ipp_gwh"]) or 0 for r in rows]
+    imports = [_num(r["energy_import_gwh"]) or 0 for r in rows]
+    exports = [_num(r["energy_export_gwh"]) or 0 for r in rows]
+    loss = [_num(r["system_loss_pct"]) for r in rows]
+    x = list(range(len(rows)))
+
+    fig, axes = plt.subplots(3, 1, figsize=(8.4, 8.6), sharex=True,
+                             gridspec_kw={"height_ratios": [1.5, 1.0, 0.8], "hspace": 0.32})
+    ax = axes[0]
+    bottom = [0.0] * len(rows)
+    for values, label, color in (
+        (nea, "NEA own plants", PALETTE["blue"]),
+        (sub, "NEA subsidiaries", PALETTE["cyan"]),
+        (ipp, "Independent power producers", PALETTE["green"]),
+    ):
+        ax.bar(x, values, bottom=bottom, width=0.68, color=color, label=label,
+               edgecolor=PALETTE["panel"], linewidth=1.0)
+        bottom = [b + v for b, v in zip(bottom, values)]
+    ax.text(x[0], bottom[0] + 300, f"{bottom[0]:,.0f}", ha="center", fontsize=8, color=PALETTE["ink"])
+    ax.text(x[-1], bottom[-1] + 300, f"{bottom[-1]:,.0f}", ha="center", fontsize=8, color=PALETTE["ink"])
+    ax.set_ylim(0, max(bottom) * 1.12)
+    ax.set_ylabel("Domestic generation, GWh")
+    ax.set_title("Nepal's power system, FY 2015/16 to 2025/26", loc="left", fontsize=13, pad=10)
+    ax.legend(ncol=3, loc="upper left", fontsize=8.5, frameon=False)
+    _style_axis(ax)
+
+    ax = axes[1]
+    ax.plot(x, imports, marker="o", linewidth=2, markersize=5, color=PALETTE["red"], label="Imports")
+    ax.plot(x, exports, marker="o", linewidth=2, markersize=5, color=PALETTE["purple"], label="Exports")
+    ax.text(x[-1] + 0.15, imports[-1], f"{imports[-1]:,.0f}", va="center", fontsize=8, color=PALETTE["ink"])
+    ax.text(x[-1] + 0.15, exports[-1], f"{exports[-1]:,.0f}", va="center", fontsize=8, color=PALETTE["ink"])
+    ax.set_ylabel("Cross-border, GWh")
+    ax.set_ylim(0, max(imports + exports) * 1.15)
+    ax.legend(ncol=2, loc="upper left", fontsize=8.5, frameon=False)
+    _style_axis(ax)
+
+    ax = axes[2]
+    lx = [i for i, v in zip(x, loss) if v is not None]
+    ly = [v for v in loss if v is not None]
+    ax.plot(lx, ly, marker="o", linewidth=2, markersize=5, color=PALETTE["gray"])
+    ax.text(lx[0], ly[0] + 1.4, f"{ly[0]:.2f}%", ha="center", fontsize=8, color=PALETTE["ink"])
+    ax.text(lx[-1], ly[-1] + 1.4, f"{ly[-1]:.2f}%", ha="center", fontsize=8, color=PALETTE["ink"])
+    ax.set_ylim(0, max(ly) * 1.25)
+    ax.set_ylabel("System loss, %")
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels)
+    ax.set_xlabel("Fiscal year (AD)")
+    _style_axis(ax)
+    fig.subplots_adjust(left=0.11, right=0.95, top=0.94, bottom=0.10)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="NEA annual-report statistics appendices FY 2024/25 and 2025/26",
+             caveat="subsidiary/NEA split changes from FY 2021/22; loss is NEA system loss", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "Nepal power system trajectory, FY 2015/16 to 2025/26",
+        "path": figure_rel_path(figure_id),
+        "source_files": [rel(source)],
+        "source_slugs": _slugs(r["source_slug"] for r in rows),
+        "target_pages": ["data-nea-system-annual-timeseries"],
+        "caption": (f"Domestic generation rose from {bottom[0]:,.0f} GWh to {bottom[-1]:,.0f} GWh, exports from "
+                    f"{exports[0]:,.0f} to {exports[-1]:,.0f} GWh, and system loss fell from {ly[0]:.2f}% to {ly[-1]:.2f}%."),
+        "caveat": "The jump in NEA-subsidiary generation from FY 2021/22 reflects plants reported under subsidiaries (such as Upper Tamakoshi), not only new capacity.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+PROVINCE_ORDER = ["Koshi", "Madhesh", "Bagmati", "Gandaki", "Lumbini", "Karnali", "Sudurpashchim"]
+
+
+def build_substation_province_capacity() -> dict:
+    figure_id = "substation_province_capacity"
+    source = ROOT / "data" / "substation_specs.csv"
+    rows = read_csv(source)
+    installed: dict[str, float] = {}
+    pipeline: dict[str, float] = {}
+    for row in rows:
+        province = row["province"].strip() or "Province not assigned"
+        installed[province] = installed.get(province, 0.0) + (_num(row["installed_mva"]) or 0.0)
+        pipeline[province] = pipeline.get(province, 0.0) + (_num(row["planned_additional_mva"]) or 0.0)
+    provinces = sorted((p for p in installed if p in PROVINCE_ORDER), key=lambda p: installed[p])
+    if "Province not assigned" in installed:
+        provinces = ["Province not assigned"] + provinces
+    y = list(range(len(provinces)))
+    h = 0.38
+
+    fig, ax = plt.subplots(figsize=(8.4, 5.0))
+    inst_vals = [installed[p] for p in provinces]
+    pipe_vals = [pipeline[p] for p in provinces]
+    ax.barh([i + h / 2 for i in y], inst_vals, height=h, color=PALETTE["blue"], label="Installed MVA",
+            edgecolor=PALETTE["panel"], linewidth=1.0)
+    ax.barh([i - h / 2 for i in y], pipe_vals, height=h, color=PALETTE["yellow"],
+            label="Planned additional MVA (under construction + planned)", edgecolor=PALETTE["panel"], linewidth=1.0)
+    xmax = max(inst_vals + pipe_vals)
+    for i, (a, b) in enumerate(zip(inst_vals, pipe_vals)):
+        ax.text(a + xmax * 0.01, i + h / 2, f"{a:,.0f}", va="center", fontsize=8, color=PALETTE["ink"])
+        ax.text(b + xmax * 0.01, i - h / 2, f"{b:,.0f}", va="center", fontsize=8, color=PALETTE["muted"])
+    ax.set_yticks(y)
+    ax.set_yticklabels(provinces)
+    ax.set_xlim(0, xmax * 1.12)
+    ax.set_xlabel("Transformer capacity, MVA (sum over grid substations)")
+    ax.set_title("Grid substation capacity by province", loc="left", fontsize=13, pad=10)
+    ax.legend(loc="lower right", fontsize=8.5, frameon=False)
+    _style_axis(ax, grid_axis="x")
+    fig.subplots_adjust(left=0.24, right=0.97, top=0.90, bottom=0.17)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="substation_specs.csv from NEA FY 2025/26 Appendix 8 and project tables",
+             caveat="installed MVA sums transformer ratings; planned MVA is NEA's listed addition", generated_date=TODAY)
+    top = max(PROVINCE_ORDER, key=lambda p: installed.get(p, 0.0))
+    low = min((p for p in PROVINCE_ORDER if p in installed), key=lambda p: installed[p])
+    return {
+        "figure_id": figure_id,
+        "title": "Grid substation capacity by province, installed vs planned",
+        "path": figure_rel_path(figure_id),
+        "source_files": [rel(source)],
+        "source_slugs": _slugs(r["source_slug"] for r in rows),
+        "target_pages": ["data-substation-inventory"],
+        "caption": (f"{top} holds {installed[top]:,.0f} MVA of installed substation capacity against "
+                    f"{installed[low]:,.0f} MVA in {low}; planned additions are spread more evenly."),
+        "caveat": "Substations without a sourced province are shown separately. Installed MVA is summed nameplate transformer capacity, not firm capacity.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+def build_plant_generation_vs_design() -> dict:
+    figure_id = "plant_generation_vs_design"
+    source = ROOT / "data" / "plant_annual_generation.csv"
+    rows = read_csv(source)
+    by_plant: dict[str, dict[str, dict[str, str]]] = {}
+    for row in rows:
+        by_plant.setdefault(row["plant_name"], {})[row["fiscal_year_ad"]] = row
+    plants = []
+    for name, years in by_plant.items():
+        latest = years.get("2025/26")
+        prior = years.get("2024/25")
+        if not latest or not prior:
+            continue
+        design = _num(latest["contracted_or_design_gwh"])
+        capacity = _num(latest["installed_capacity_mw"]) or 0.0
+        if not design or capacity < 14 or latest["ownership_class"] == "thermal":
+            continue
+        plants.append((name, capacity, design, _num(prior["actual_generation_gwh"]) or 0.0,
+                       _num(latest["actual_generation_gwh"]) or 0.0))
+    plants.sort(key=lambda p: p[4] / p[2])
+    y = list(range(len(plants)))
+    h = 0.38
+    prior_pct = [p[3] / p[2] * 100 for p in plants]
+    latest_pct = [p[4] / p[2] * 100 for p in plants]
+
+    fig, ax = plt.subplots(figsize=(8.4, 6.0))
+    ax.barh([i + h / 2 for i in y], prior_pct, height=h, color=PALETTE["cyan"], label="FY 2024/25",
+            edgecolor=PALETTE["panel"], linewidth=1.0)
+    ax.barh([i - h / 2 for i in y], latest_pct, height=h, color=PALETTE["blue"], label="FY 2025/26",
+            edgecolor=PALETTE["panel"], linewidth=1.0)
+    ax.axvline(100, color=PALETTE["ink"], linewidth=1, linestyle="--")
+    ax.text(100.8, len(plants) - 0.4, "design energy", fontsize=8, color=PALETTE["muted"], va="center")
+    for i, p in enumerate(plants):
+        ax.text(latest_pct[i] + 1, i - h / 2, f"{p[4]:,.0f} / {p[2]:,.0f} GWh", va="center", fontsize=7.5,
+                color=PALETTE["ink"])
+    ax.set_yticks(y)
+    ax.set_yticklabels([f"{p[0]} ({p[1]:g} MW)" for p in plants])
+    ax.set_xlim(0, max(prior_pct + latest_pct + [100]) * 1.28)
+    ax.set_xlabel("Actual generation as % of design energy (FY 2025/26 fact-sheet value)")
+    ax.set_title("NEA and Upper Tamakoshi plants against design energy", loc="left", fontsize=13, pad=10)
+    ax.legend(loc="lower right", fontsize=8.5, frameon=False)
+    _style_axis(ax, grid_axis="x")
+    fig.subplots_adjust(left=0.30, right=0.97, top=0.92, bottom=0.14)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="plant_annual_generation.csv from NEA annual reports FY 2024/25 and 2025/26",
+             caveat="both years compared with the FY 2025/26 design value; plants of 14 MW or more", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "NEA plant generation against design energy, FY 2024/25 and 2025/26",
+        "path": figure_rel_path(figure_id),
+        "source_files": [rel(source)],
+        "source_slugs": _slugs(r["source_slug"] for r in rows),
+        "target_pages": ["data-plant-annual-generation"],
+        "caption": "Labels give FY 2025/26 actual over design GWh. The Kulekhani storage plants fell to about a quarter of design energy in FY 2025/26, while Upper Tamakoshi rose above design.",
+        "caveat": "Design energy is printed only in the FY 2025/26 report and is applied to both years. Plants under 14 MW and thermal plants are omitted.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+def build_tariff_ppa_ladder() -> dict:
+    figure_id = "tariff_ppa_ladder"
+    retail_src = ROOT / "data" / "erc_retail_tariffs.csv"
+    ppa_src = ROOT / "data" / "ppa_standard_rates.csv"
+    retail = {r["tariff_id"]: r for r in read_csv(retail_src)}
+    ppa = {r["rate_id"]: r for r in read_csv(ppa_src)}
+    retail_items = [
+        ("Domestic 5 A, 0-20 units", "dom-1ph-5a-0-20"),
+        ("Domestic 5 A, 21-30 units", "dom-1ph-5a-21-30"),
+        ("Domestic 5 A, 31-50 units", "dom-1ph-5a-31-50"),
+        ("Domestic 5 A, 51-250 units", "dom-1ph-5a-51-100"),
+        ("Domestic 5 A, over 250 units", "dom-1ph-5a-251plus"),
+        ("Industrial 132 kV ToD, off-peak (wet)", "tod-132-industrial-wet-off-peak"),
+        ("Industrial 132 kV ToD, normal", "tod-132-industrial-wet-normal"),
+        ("Industrial 132 kV ToD, peak", "tod-132-industrial-wet-peak"),
+        ("Public EV charging, 33 kV flat", "33kv-transportation-public-ev"),
+        ("Public EV charging, LV flat", "lv-transportation-public-ev"),
+    ]
+    ppa_items = [
+        ("RoR, wet season", "ror-opt1-wet"),
+        ("RoR, dry season", "ror-opt1-dry"),
+        ("PRoR 4-6 hr, dry peak", "pror-4-6hr-dry-peak"),
+        ("Storage, wet (2017, withdrawn)", "storage-wet"),
+        ("Storage, dry (2017, withdrawn)", "storage-dry"),
+        ("Solar 2024 award, min", "solar-award-2024-min"),
+        ("Solar 2024 award, max", "solar-award-2024-max"),
+        ("NEA average purchase FY 2025/26", "nea-avg-purchase-fy2025-26"),
+    ]
+    r_vals = [(label, _num(retail[key]["energy_rate_npr_kwh"])) for label, key in retail_items]
+    p_vals = [(label, _num(ppa[key]["rate_npr_kwh"])) for label, key in ppa_items]
+    xmax = max(v for _, v in r_vals + p_vals if v is not None) * 1.18
+
+    fig, axes = plt.subplots(1, 2, figsize=(9.2, 5.4), sharex=True, gridspec_kw={"wspace": 0.95})
+    for ax, vals, color, title in (
+        (axes[0], r_vals, PALETTE["blue"], "What consumers pay (energy charge)"),
+        (axes[1], p_vals, PALETTE["green"], "What NEA pays generators"),
+    ):
+        y = list(range(len(vals)))[::-1]
+        ax.barh(y, [v or 0 for _, v in vals], height=0.6, color=color, edgecolor=PALETTE["panel"], linewidth=1.0)
+        for yi, (_, v) in zip(y, vals):
+            ax.text((v or 0) + xmax * 0.015, yi, f"{v:.2f}", va="center", fontsize=8, color=PALETTE["ink"])
+        ax.set_yticks(y)
+        ax.set_yticklabels([label for label, _ in vals], fontsize=8)
+        ax.set_xlim(0, xmax)
+        ax.set_xlabel("NPR per kWh")
+        ax.set_title(title, loc="left", fontsize=10.5, pad=8)
+        _style_axis(ax, grid_axis="x")
+    fig.suptitle("Nepal electricity price ladder: retail tariffs and purchase rates", x=0.01, ha="left",
+                 fontsize=13, fontweight="bold", color=PALETTE["ink"])
+    fig.subplots_adjust(left=0.26, right=0.97, top=0.86, bottom=0.16)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="erc_retail_tariffs.csv (ERC order 2078) and ppa_standard_rates.csv (NEA posted rates, 2024 solar LoI)",
+             caveat="energy charges only; demand and minimum charges excluded", generated_date=TODAY)
+    return {
+        "figure_id": figure_id,
+        "title": "Retail tariff and power purchase rate ladder",
+        "path": figure_rel_path(figure_id),
+        "source_files": [rel(retail_src), rel(ppa_src)],
+        "source_slugs": _slugs([retail[k]["source_slug"] for _, k in retail_items] + [ppa[k]["source_slug"] for _, k in ppa_items] + ["erc-nea-consumer-tariff-order-2078"]),
+        "target_pages": ["data-erc-retail-tariffs", "data-ppa-standard-rates"],
+        "caption": "Retail energy charges run from NRs 0 to 11.00/kWh. NEA's posted purchase rates run from NRs 4.80 (wet-season RoR) to 12.40 (withdrawn 2017 storage dry rate), and solar awards cleared at NRs 4.99-5.54.",
+        "caveat": "Energy charges only, without demand, minimum or service charges, or taxes. The 51-250 unit bar uses the 51-100 slab, which equals the 101-250 slab. Storage rates are the withdrawn 2017 schedule.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
+def build_ev_import_surge() -> dict:
+    figure_id = "ev_import_surge"
+    source = ROOT / "data" / "ev_adoption_and_charging.csv"
+    rows = [r for r in read_csv(source) if r["record_type"] == "ev_imports"]
+    periods = sorted({r["period"] for r in rows})
+    classes = [
+        ("Electric cars, jeeps & vans", ("Electric car, jeep & van (HS 8703.80)", "Electric jeep, car & van classed under HS 8702.40.49"), PALETTE["blue"]),
+        ("Electric three-wheelers", ("Electric three-wheelers (HS 8703.80.1x)",), PALETTE["yellow"]),
+        ("Electric buses & minibuses", ("Electric buses, minibuses & microbuses (HS 8702.40.10-30)",), PALETTE["green"]),
+    ]
+
+    def total(period: str, cats: tuple[str, ...], field: str) -> float:
+        return sum(_num(r[field]) or 0.0 for r in rows if r["period"] == period and r["category"] in cats)
+
+    fig, axes = plt.subplots(1, 2, figsize=(9.8, 4.8), gridspec_kw={"wspace": 0.3})
+    n = len(classes)
+    w = 0.26
+    x = list(range(len(periods)))
+    for ax, field, scale, ylabel in (
+        (axes[0], "quantity", 1.0, "Units imported"),
+        (axes[1], "value_npr_thousand", 1e6, "Import value, NPR billion"),
+    ):
+        for j, (label, cats, color) in enumerate(classes):
+            vals = [total(p, cats, field) / scale for p in periods]
+            xs = [i + (j - (n - 1) / 2) * w for i in x]
+            ax.bar(xs, vals, width=w, color=color, label=label, edgecolor=PALETTE["panel"], linewidth=1.0)
+            for xi, v in zip(xs, vals):
+                ax.text(xi, v, f"{v:,.0f}" if scale == 1.0 else f"{v:.1f}", ha="center", va="bottom",
+                        fontsize=6.8, color=PALETTE["ink"])
+        ax.set_xticks(x)
+        ax.set_xticklabels(periods, fontsize=8.5)
+        ax.set_ylabel(ylabel)
+        _style_axis(ax)
+    axes[0].set_title("Units", loc="left", fontsize=10.5)
+    axes[1].set_title("Customs value", loc="left", fontsize=10.5)
+    fig.suptitle("Electric vehicle imports by class, FY 2080/81 to 2082/83", x=0.01, ha="left",
+                 fontsize=13, fontweight="bold", color=PALETTE["ink"])
+    axes[0].legend(ncol=3, loc="upper center", bbox_to_anchor=(1.08, -0.12), fontsize=8.5, frameon=False)
+    fig.subplots_adjust(left=0.09, right=0.98, top=0.85, bottom=0.27)
+    save_svg(fig, FIGURE_DIR / f"{figure_id}.svg", figure_id=figure_id,
+             source_note="ev_adoption_and_charging.csv from Department of Customs foreign trade statistics",
+             caveat="HS-code import counts, not registrations; two-wheelers and e-bicycles omitted", generated_date=TODAY)
+    cars = [total(p, classes[0][1], "quantity") for p in periods]
+    buses = [total(p, classes[2][1], "quantity") for p in periods]
+    return {
+        "figure_id": figure_id,
+        "title": "Electric vehicle imports by class, FY 2080/81 to 2082/83",
+        "path": figure_rel_path(figure_id),
+        "source_files": [rel(source)],
+        "source_slugs": _slugs(r["source_slug"] for r in rows),
+        "target_pages": ["data-load-anchors-and-fossil-backbone"],
+        "caption": (f"Electric car, jeep and van imports went from {cars[0]:,.0f} to {cars[-1]:,.0f} units, and electric "
+                    f"bus imports from {buses[0]:,.0f} to {buses[-1]:,.0f}, while three-wheeler imports rose every year."),
+        "caveat": "Customs counts of units imported under the listed HS codes, not vehicle registrations or vehicles in use. The car class combines HS 8703.80 and HS 8702.40.49 rows.",
+        "license": "CC-BY 4.0",
+        "generator_script": "scripts/build_wiki_figures.py",
+        "last_generated": TODAY,
+    }
+
+
 def copy_legacy_figure(
     *,
     figure_id: str,
@@ -1143,6 +1490,11 @@ def main() -> int:
         build_nea_cost_structure_fy2025_26(),
         build_schedule_slippage(),
         build_contracted_energy_performance(),
+        build_nea_system_trajectory(),
+        build_substation_province_capacity(),
+        build_plant_generation_vs_design(),
+        build_tariff_ppa_ladder(),
+        build_ev_import_surge(),
         copy_legacy_figure(
             figure_id="hydropower_license_map",
             filename="hydropower_license_map.png",

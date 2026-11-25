@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content="scripts/build_wiki_site.js" />
+  <title>Open Data Catalog · Nepal Energy Wiki</title>
+  <meta name="description" content="Every downloadable dataset behind the Nepal Energy Wiki — curated CSV registries, derived tables and GeoJSON map layers — with live row counts, freshness…" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://transparentgov.ai/wiki/data-open-data-catalog/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Nepal Energy Wiki" />
+  <meta property="og:title" content="Open Data Catalog · Nepal Energy Wiki" />
+  <meta property="og:description" content="Every downloadable dataset behind the Nepal Energy Wiki — curated CSV registries, derived tables and GeoJSON map layers — with live row counts, freshness…" />
+  <meta property="og:url" content="https://transparentgov.ai/wiki/data-open-data-catalog/" />
+  <meta name="twitter:card" content="summary" />
+  <script>try{var t=localStorage.getItem("np-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="stylesheet" href="/wiki/assets/site/theme.css" />
+  <link rel="stylesheet" href="/wiki/assets/site/wiki.css" />
+  <script src="/wiki/assets/site/theme.js" defer></script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b6b57'/%3E%3C/svg%3E" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://transparentgov.ai/wiki/data-open-data-catalog/#article","headline":"Open Data Catalog","name":"Open Data Catalog","description":"Every downloadable dataset behind the Nepal Energy Wiki — curated CSV registries, derived tables and GeoJSON map layers — with live row counts, freshness…","url":"https://transparentgov.ai/wiki/data-open-data-catalog/","datePublished":"2026-11-25","dateModified":"2026-11-25","publisher":{"@type":"Organization","name":"TransparentGov","url":"https://transparentgov.ai/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Nepal Energy Wiki","item":"https://transparentgov.ai/wiki/"},{"@type":"ListItem","position":2,"name":"Data","item":"https://transparentgov.ai/wiki/#data"},{"@type":"ListItem","position":3,"name":"Open Data Catalog","item":"https://transparentgov.ai/wiki/data-open-data-catalog/"}]}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="site-bar">
+    <a class="site-name" href="/wiki/">Nepal Energy Wiki</a>
+    <form class="site-search" action="/wiki/explorer/" method="get" role="search">
+      <label class="visually-hidden" for="site-q">Search the wiki</label>
+      <input id="site-q" name="q" type="search" placeholder="Search projects, claims, sources…" />
+    </form>
+    <div class="site-actions">
+      <a class="site-map" href="/wiki/explorer/">Map</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme" title="Switch theme"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+    </div>
+  </div>
+  <nav class="site-nav" aria-label="Sections"><a href="/wiki/#syntheses">Analysis</a><a href="/wiki/#claims">Claims</a><a href="/wiki/#concepts">Explainers</a><a href="/wiki/#interventions">Policy options</a><a href="/wiki/#entities">Projects & places</a><a href="/wiki/#data">Data</a><a href="/wiki/#sources">Sources</a></nav>
+</header>
+<main class="page">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/wiki/">Wiki</a> › <a href="/wiki/#data">Data</a></nav>
+  <article>
+    <header class="page-head">
+      <h1>Open Data Catalog</h1>
+      <p class="dek">Every downloadable dataset behind the Nepal Energy Wiki — curated CSV registries, derived tables and GeoJSON map layers — with live row counts, freshness dates, schemas and companion pages.</p>
+      <dl class="facts"><div><dt>Page status</dt><dd>Working page</dd></div><div><dt>Updated</dt><dd>2026-11-25</dd></div><div><dt>Last reviewed</dt><dd>2026-11-25</dd></div><div><dt>Review due</dt><dd>2027-02-25</dd></div></dl>
+      <p class="page-actions"><a href="/wiki/explorer/?page=data-open-data-catalog">Open in the interactive explorer and map</a></p>
+    </header>
+    <aside class="callout callout-warning"><div class="callout-label">Caveat</div><div class="callout-body"><p>Row and column counts are measured from the files on each build. &quot;Last verified&quot; is the latest row-level verification date where a dataset records one, otherwise the companion page&#39;s review date; it is not a guarantee that every row was re-checked on that date.</p></div></aside>
+    <div class="prose"><h2>Summary</h2>
+<p>This page lists every dataset the wiki publishes for reuse: the hand-curated CSV registries in <code>data/</code>, the derived tables in <code>data/processed/tables/</code>, and the main GeoJSON map layers in <code>data/processed/maps/</code>. Each row gives the live row and column count, a freshness date, the wiki page that explains the data, a JSON Schema where one exists, and a direct download link. The machine-readable version is <a href="../../../data/processed/tables/dataset_catalog.json">dataset_catalog.json</a>.</p>
+<p>The catalog only describes files. It does not add any new figures, and it makes no claims beyond what each dataset and its companion page already state.</p>
+<h2>What This Shows</h2>
+
+
+<p><strong>53 datasets</strong> — 38 CSV tables and 15 GeoJSON map layers. Counts are measured from the files on every build.</p>
+<h3>Hydropower fleet &amp; projects</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th align="right">Rows</th>
+<th align="right">Cols</th>
+<th>Last verified</th>
+<th>Companion page</th>
+<th>Schema</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Hydropower project technical specs</td>
+<td align="right">87</td>
+<td align="right">41</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/hydropower-system/">Nepal&#39;s Hydropower System</a></td>
+<td><a href="../../../wiki/specs-schema.json">schema</a></td>
+<td><a href="../../../data/project_specs.csv">project_specs.csv</a></td>
+</tr>
+<tr>
+<td>Plant annual generation</td>
+<td align="right">44</td>
+<td align="right">12</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-plant-annual-generation/">Plant Annual Generation FY 2024/25–2025/26</a></td>
+<td>—</td>
+<td><a href="../../../data/plant_annual_generation.csv">plant_annual_generation.csv</a></td>
+</tr>
+<tr>
+<td>Capacity authority decisions</td>
+<td align="right">122</td>
+<td align="right">5</td>
+<td>2026-05-13</td>
+<td><a href="/wiki/data-pipeline-readme/">Data Pipeline Readme</a></td>
+<td>—</td>
+<td><a href="../../../data/capacity_authority_decisions.csv">capacity_authority_decisions.csv</a></td>
+</tr>
+<tr>
+<td>DoED crosswalk dispositions</td>
+<td align="right">31</td>
+<td align="right">9</td>
+<td>2026-07-13</td>
+<td><a href="/wiki/doed-hydropower-registry/">DoED Hydropower Registry Tables (July 2026 Snapshot)</a></td>
+<td>—</td>
+<td><a href="../../../data/doed_crosswalk_dispositions.csv">doed_crosswalk_dispositions.csv</a></td>
+</tr>
+<tr>
+<td>Licence type overrides</td>
+<td align="right">3</td>
+<td align="right">3</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/doed-hydropower-registry/">DoED Hydropower Registry Tables (July 2026 Snapshot)</a></td>
+<td>—</td>
+<td><a href="../../../data/license_type_overrides.csv">license_type_overrides.csv</a></td>
+</tr>
+<tr>
+<td>Project identity aliases</td>
+<td align="right">26</td>
+<td align="right">7</td>
+<td>2026-07-13</td>
+<td><a href="/wiki/data-pipeline-readme/">Data Pipeline Readme</a></td>
+<td>—</td>
+<td><a href="../../../data/project_identity_aliases.csv">project_identity_aliases.csv</a></td>
+</tr>
+<tr>
+<td>Project milestone events</td>
+<td align="right">57</td>
+<td align="right">12</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/hydropower-system/">Nepal&#39;s Hydropower System</a></td>
+<td>—</td>
+<td><a href="../../../data/project_events.csv">project_events.csv</a></td>
+</tr>
+<tr>
+<td>Project blockers</td>
+<td align="right">40</td>
+<td align="right">12</td>
+<td>2026-11-20</td>
+<td><a href="/wiki/unresolved-questions/">Unresolved Questions</a></td>
+<td>—</td>
+<td><a href="../../../data/project_blockers.csv">project_blockers.csv</a></td>
+</tr>
+<tr>
+<td>Non-dam storage pipeline</td>
+<td align="right">10</td>
+<td align="right">20</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-non-dam-storage-pipeline/">Non-Dam Storage Pipeline (BESS and Pumped Hydro)</a></td>
+<td>—</td>
+<td><a href="../../../data/storage_non_dam_specs.csv">storage_non_dam_specs.csv</a></td>
+</tr>
+<tr>
+<td>DoED hydropower licence registry</td>
+<td align="right">3,995</td>
+<td align="right">25</td>
+<td>2026-07-02</td>
+<td><a href="/wiki/doed-hydropower-registry/">DoED Hydropower Registry Tables (July 2026 Snapshot)</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/doed_hydropower_registry.csv">doed_hydropower_registry.csv</a></td>
+</tr>
+<tr>
+<td>DoED project status overlay</td>
+<td align="right">572</td>
+<td align="right">21</td>
+<td>2026-07-02</td>
+<td><a href="/wiki/doed-hydropower-registry/">DoED Hydropower Registry Tables (July 2026 Snapshot)</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/doed_project_status_overlay.csv">doed_project_status_overlay.csv</a></td>
+</tr>
+<tr>
+<td>Storage dry-energy shortlist</td>
+<td align="right">12</td>
+<td align="right">11</td>
+<td>2026-05-13</td>
+<td><a href="/wiki/data-storage-comparison/">Storage Capacity Comparison</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/nepal_storage_dry_energy_shortlist.csv">nepal_storage_dry_energy_shortlist.csv</a></td>
+</tr>
+<tr>
+<td>Hydropower project map points</td>
+<td align="right">572</td>
+<td align="right">49</td>
+<td>2026-05-12</td>
+<td><a href="/wiki/data-layer-hydropower-operating/">Layer: Hydropower - Operating</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/hydropower_project_display_points.geojson">hydropower_project_display_points.geojson</a></td>
+</tr>
+<tr>
+<td>Non-dam storage map layer</td>
+<td align="right">1</td>
+<td align="right">13</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-non-dam-storage-pipeline/">Non-Dam Storage Pipeline (BESS and Pumped Hydro)</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/non_dam_storage.geojson">non_dam_storage.geojson</a></td>
+</tr>
+</tbody></table></div>
+<h3>Solar &amp; non-hydro renewables</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th align="right">Rows</th>
+<th align="right">Cols</th>
+<th>Last verified</th>
+<th>Companion page</th>
+<th>Schema</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Solar project specs</td>
+<td align="right">88</td>
+<td align="right">44</td>
+<td>2026-07-19</td>
+<td><a href="/wiki/data-solar-fleet-inventory/">Solar Fleet Inventory</a></td>
+<td><a href="../../../wiki/solar-specs-schema.json">schema</a></td>
+<td><a href="../../../data/solar_project_specs.csv">solar_project_specs.csv</a></td>
+</tr>
+<tr>
+<td>DoED non-hydro registry</td>
+<td align="right">161</td>
+<td align="right">21</td>
+<td>2026-10-15</td>
+<td><a href="/wiki/data-solar-fleet-inventory/">Solar Fleet Inventory</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/doed_nonhydro_registry.csv">doed_nonhydro_registry.csv</a></td>
+</tr>
+<tr>
+<td>Solar plants map layer</td>
+<td align="right">88</td>
+<td align="right">15</td>
+<td>2026-05-12</td>
+<td><a href="/wiki/data-layer-solar-plants-nea-awards/">Layer: Solar Plants + NEA 960 MW Awards</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/solar_plants.geojson">solar_plants.geojson</a></td>
+</tr>
+<tr>
+<td>DoED non-hydro operating layer</td>
+<td align="right">28</td>
+<td align="right">13</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-solar-fleet-inventory/">Solar Fleet Inventory</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/doed_nonhydro_operating.geojson">doed_nonhydro_operating.geojson</a></td>
+</tr>
+<tr>
+<td>Solar GHI zones</td>
+<td align="right">6</td>
+<td align="right">6</td>
+<td>2026-05-12</td>
+<td><a href="/wiki/data-layer-solar-ghi-zones/">Layer: Solar GHI Zones</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/solar_ghi_zones.geojson">solar_ghi_zones.geojson</a></td>
+</tr>
+</tbody></table></div>
+<h3>Grid, substations &amp; corridors</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th align="right">Rows</th>
+<th align="right">Cols</th>
+<th>Last verified</th>
+<th>Companion page</th>
+<th>Schema</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Grid substation specs</td>
+<td align="right">153</td>
+<td align="right">23</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-substation-inventory/">Grid Substation Inventory</a></td>
+<td><a href="../../../wiki/substation-specs-schema.json">schema</a></td>
+<td><a href="../../../data/substation_specs.csv">substation_specs.csv</a></td>
+</tr>
+<tr>
+<td>Transmission corridor specs</td>
+<td align="right">40</td>
+<td align="right">16</td>
+<td>2026-11-04</td>
+<td><a href="/wiki/transmission-and-cross-border-trade/">Transmission and Cross-Border Electricity Trade</a></td>
+<td>—</td>
+<td><a href="../../../data/corridor_specs.csv">corridor_specs.csv</a></td>
+</tr>
+<tr>
+<td>NEA grid infrastructure summary</td>
+<td align="right">116</td>
+<td align="right">11</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-nea-grid-infrastructure-fy2025-26/">NEA Grid Infrastructure FY 2025/26</a></td>
+<td>—</td>
+<td><a href="../../../data/nea_grid_infrastructure_summary.csv">nea_grid_infrastructure_summary.csv</a></td>
+</tr>
+<tr>
+<td>Grid substations map layer</td>
+<td align="right">102</td>
+<td align="right">20</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-substation-inventory/">Grid Substation Inventory</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/grid_substations.geojson">grid_substations.geojson</a></td>
+</tr>
+<tr>
+<td>Transmission corridors (curated)</td>
+<td align="right">7</td>
+<td align="right">18</td>
+<td>2026-05-12</td>
+<td><a href="/wiki/data-layer-transmission-corridors-curated/">Layer: Context Corridor Sketch</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/transmission_corridors.geojson">transmission_corridors.geojson</a></td>
+</tr>
+<tr>
+<td>Transmission traced network</td>
+<td align="right">22</td>
+<td align="right">18</td>
+<td>2026-05-12</td>
+<td><a href="/wiki/data-layer-transmission-connected-traced-network/">Layer: Major Transmission Network</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/transmission_corridor_traced_network.geojson">transmission_corridor_traced_network.geojson</a></td>
+</tr>
+<tr>
+<td>Clean-industry &amp; compute siting index</td>
+<td align="right">35</td>
+<td align="right">22</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-clean-industry-and-compute-siting/">Clean-Industry and Compute Siting Baseline</a></td>
+<td>—</td>
+<td><a href="../../../data/clean_industry_siting_index.csv">clean_industry_siting_index.csv</a></td>
+</tr>
+<tr>
+<td>Clean-industry siting layer</td>
+<td align="right">33</td>
+<td align="right">21</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-clean-industry-and-compute-siting/">Clean-Industry and Compute Siting Baseline</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/clean_industry_siting.geojson">clean_industry_siting.geojson</a></td>
+</tr>
+</tbody></table></div>
+<h3>Tariffs, PPAs &amp; cross-border trade</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th align="right">Rows</th>
+<th align="right">Cols</th>
+<th>Last verified</th>
+<th>Companion page</th>
+<th>Schema</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ERC retail tariffs</td>
+<td align="right">223</td>
+<td align="right">18</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-erc-retail-tariffs/">NEA Retail Electricity Tariff Schedule</a></td>
+<td>—</td>
+<td><a href="../../../data/erc_retail_tariffs.csv">erc_retail_tariffs.csv</a></td>
+</tr>
+<tr>
+<td>PPA standard rates</td>
+<td align="right">25</td>
+<td align="right">20</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-ppa-standard-rates/">NEA Standard PPA Rate Schedule</a></td>
+<td>—</td>
+<td><a href="../../../data/ppa_standard_rates.csv">ppa_standard_rates.csv</a></td>
+</tr>
+<tr>
+<td>Cross-border approved plants</td>
+<td align="right">38</td>
+<td align="right">16</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-cross-border-approved-plants/">Cross-Border Export Approvals Ledger</a></td>
+<td>—</td>
+<td><a href="../../../data/cross_border_approved_plants.csv">cross_border_approved_plants.csv</a></td>
+</tr>
+<tr>
+<td>Cross-border trade monthly GWh</td>
+<td align="right">6</td>
+<td align="right">16</td>
+<td>2026-05-13</td>
+<td><a href="/wiki/data-trade-time-series/">Electricity Trade Time Series</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv">nea_cross_border_trade_monthly_gwh_fy2079_80_to_2081_82.csv</a></td>
+</tr>
+<tr>
+<td>Cross-border interconnections</td>
+<td align="right">10</td>
+<td align="right">18</td>
+<td>2026-05-13</td>
+<td><a href="/wiki/data-layer-cross-border-interconnections/">Layer: Cross-Border Gateways</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/cross_border_interconnections.geojson">cross_border_interconnections.geojson</a></td>
+</tr>
+</tbody></table></div>
+<h3>Institutions, developers &amp; finance</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th align="right">Rows</th>
+<th align="right">Cols</th>
+<th>Last verified</th>
+<th>Companion page</th>
+<th>Schema</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Energy institutions</td>
+<td align="right">15</td>
+<td align="right">16</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-energy-institutions/">Nepal Energy Institutions Registry</a></td>
+<td>—</td>
+<td><a href="../../../data/energy_institutions.csv">energy_institutions.csv</a></td>
+</tr>
+<tr>
+<td>Major developers (NEPSE)</td>
+<td align="right">30</td>
+<td align="right">17</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-major-developers/">Major Hydropower Developers Registry</a></td>
+<td>—</td>
+<td><a href="../../../data/major_developers_nepse.csv">major_developers_nepse.csv</a></td>
+</tr>
+<tr>
+<td>NEPSE-listed hydropower performance</td>
+<td align="right">5</td>
+<td align="right">19</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-nepse-hydro-performance/">Listed Hydropower Performance (Starter)</a></td>
+<td>—</td>
+<td><a href="../../../data/nepse_hydro_performance.csv">nepse_hydro_performance.csv</a></td>
+</tr>
+</tbody></table></div>
+<h3>Demand, industry, EVs &amp; fossil backbone</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th align="right">Rows</th>
+<th align="right">Cols</th>
+<th>Last verified</th>
+<th>Companion page</th>
+<th>Schema</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Industrial load anchors</td>
+<td align="right">20</td>
+<td align="right">19</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-load-anchors-and-fossil-backbone/">Load Anchors and Fossil Backbone Registry</a></td>
+<td>—</td>
+<td><a href="../../../data/industrial_load_anchors.csv">industrial_load_anchors.csv</a></td>
+</tr>
+<tr>
+<td>EV adoption &amp; charging</td>
+<td align="right">24</td>
+<td align="right">19</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-load-anchors-and-fossil-backbone/">Load Anchors and Fossil Backbone Registry</a></td>
+<td>—</td>
+<td><a href="../../../data/ev_adoption_and_charging.csv">ev_adoption_and_charging.csv</a></td>
+</tr>
+<tr>
+<td>Fossil fuel infrastructure</td>
+<td align="right">20</td>
+<td align="right">24</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-load-anchors-and-fossil-backbone/">Load Anchors and Fossil Backbone Registry</a></td>
+<td>—</td>
+<td><a href="../../../data/fossil_infrastructure.csv">fossil_infrastructure.csv</a></td>
+</tr>
+<tr>
+<td>Industrial load anchors layer</td>
+<td align="right">14</td>
+<td align="right">16</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-load-anchors-and-fossil-backbone/">Load Anchors and Fossil Backbone Registry</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/industrial_load_anchors.geojson">industrial_load_anchors.geojson</a></td>
+</tr>
+<tr>
+<td>Fossil infrastructure layer</td>
+<td align="right">12</td>
+<td align="right">21</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-load-anchors-and-fossil-backbone/">Load Anchors and Fossil Backbone Registry</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/fossil_infrastructure.geojson">fossil_infrastructure.geojson</a></td>
+</tr>
+</tbody></table></div>
+<h3>Geohazards &amp; climate resilience</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th align="right">Rows</th>
+<th align="right">Cols</th>
+<th>Last verified</th>
+<th>Companion page</th>
+<th>Schema</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Infrastructure hazard events</td>
+<td align="right">13</td>
+<td align="right">19</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/data-infrastructure-hazard-register/">Infrastructure Hazard Register (2023-2026) and Dangerous Glacial Lakes</a></td>
+<td>—</td>
+<td><a href="../../../data/infrastructure_hazard_events.csv">infrastructure_hazard_events.csv</a></td>
+</tr>
+<tr>
+<td>August 2026 flood impact register</td>
+<td align="right">18</td>
+<td align="right">13</td>
+<td>2026-08-30</td>
+<td><a href="/wiki/bhotekoshi-trishuli-flood-2026/">Bhotekoshi–Trishuli Flood 2026</a></td>
+<td>—</td>
+<td><a href="../../../data/flood_2026_08_impact_register.csv">flood_2026_08_impact_register.csv</a></td>
+</tr>
+<tr>
+<td>ICIMOD dangerous glacial lakes</td>
+<td align="right">21</td>
+<td align="right">21</td>
+<td>2026-11-25</td>
+<td><a href="/wiki/glof-risk/">GLOF Risk</a></td>
+<td>—</td>
+<td><a href="../../../data/glof_dangerous_lakes.csv">glof_dangerous_lakes.csv</a></td>
+</tr>
+<tr>
+<td>Basin seasonality baseline</td>
+<td align="right">9</td>
+<td align="right">12</td>
+<td>2026-05-13</td>
+<td><a href="/wiki/data-basin-discharge/">Basin Discharge Data</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/nepal_basin_seasonality_baseline.csv">nepal_basin_seasonality_baseline.csv</a></td>
+</tr>
+<tr>
+<td>Dangerous glacial lakes layer</td>
+<td align="right">21</td>
+<td align="right">11</td>
+<td>2026-08-30</td>
+<td><a href="/wiki/glof-risk/">GLOF Risk</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/glof_dangerous_lakes.geojson">glof_dangerous_lakes.geojson</a></td>
+</tr>
+<tr>
+<td>August 2026 flood confirmed impacts</td>
+<td align="right">13</td>
+<td align="right">14</td>
+<td>2026-08-30</td>
+<td><a href="/wiki/bhotekoshi-trishuli-flood-2026/">Bhotekoshi–Trishuli Flood 2026</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/flood_2026_impacts_confirmed.geojson">flood_2026_impacts_confirmed.geojson</a></td>
+</tr>
+<tr>
+<td>Nepal-linked basin polygons</td>
+<td align="right">4</td>
+<td align="right">11</td>
+<td>2026-05-13</td>
+<td><a href="/wiki/data-layer-nepal-linked-basin-polygons/">Layer: Nepal-Linked Basin Polygons</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/maps/nepal_linked_basin_polygons.geojson">nepal_linked_basin_polygons.geojson</a></td>
+</tr>
+</tbody></table></div>
+<h3>System indicators &amp; time series</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th align="right">Rows</th>
+<th align="right">Cols</th>
+<th>Last verified</th>
+<th>Companion page</th>
+<th>Schema</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Electricity system indicators</td>
+<td align="right">46</td>
+<td align="right">12</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-electricity-system-indicators/">Electricity System Indicator Register</a></td>
+<td>—</td>
+<td><a href="../../../data/electricity_system_indicators.csv">electricity_system_indicators.csv</a></td>
+</tr>
+<tr>
+<td>Electricity system data gaps</td>
+<td align="right">10</td>
+<td align="right">7</td>
+<td>2026-11-04</td>
+<td><a href="/wiki/data-electricity-system-evidence-gaps/">Electricity System Evidence Gaps</a></td>
+<td>—</td>
+<td><a href="../../../data/electricity_system_data_gaps.csv">electricity_system_data_gaps.csv</a></td>
+</tr>
+<tr>
+<td>NEA system annual time series</td>
+<td align="right">11</td>
+<td align="right">24</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-nea-system-annual-timeseries/">NEA System Annual Time Series FY 2015/16–2025/26</a></td>
+<td>—</td>
+<td><a href="../../../data/nea_system_annual_timeseries.csv">nea_system_annual_timeseries.csv</a></td>
+</tr>
+<tr>
+<td>NEA monthly energy balance FY 2025/26</td>
+<td align="right">11</td>
+<td align="right">14</td>
+<td>2026-11-24</td>
+<td><a href="/wiki/data-nea-system-annual-timeseries/">NEA System Annual Time Series FY 2015/16–2025/26</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/nea_energy_balance_monthly_fy2025_26.csv">nea_energy_balance_monthly_fy2025_26.csv</a></td>
+</tr>
+<tr>
+<td>NEA monthly energy balance FY 2024/25</td>
+<td align="right">11</td>
+<td align="right">16</td>
+<td>2026-05-13</td>
+<td><a href="/wiki/data-domestic-demand/">Domestic Electricity Demand Distribution</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/nea_monthly_energy_balance_fy2024_2025.csv">nea_monthly_energy_balance_fy2024_2025.csv</a></td>
+</tr>
+<tr>
+<td>NEA monthly capacity balance FY 2024/25</td>
+<td align="right">9</td>
+<td align="right">15</td>
+<td>2026-05-13</td>
+<td><a href="/wiki/data-domestic-demand/">Domestic Electricity Demand Distribution</a></td>
+<td>—</td>
+<td><a href="../../../data/processed/tables/nea_monthly_capacity_balance_fy2024_2025.csv">nea_monthly_capacity_balance_fy2024_2025.csv</a></td>
+</tr>
+</tbody></table></div>
+
+
+<h2>Method and Coverage</h2>
+<p><code>scripts/build_dataset_catalog.py</code> reads a curated list of datasets (title, domain, companion page, summary) and measures each file on every run:</p>
+<ul>
+<li><strong>Rows</strong> are CSV data rows parsed with a proper CSV reader (quoted multi-line fields count once), or GeoJSON feature counts.</li>
+<li><strong>Cols</strong> are CSV header columns, or the union of GeoJSON property keys.</li>
+<li><strong>Last verified</strong> is the latest ISO date in a <code>verified_on</code>, <code>last_verified_date</code>, <code>reviewed_on</code>, <code>last_updated</code> or <code>source_updated_on</code> column. Where a dataset has none, the companion page&#39;s <code>reviewed</code> date is used instead and the JSON records <code>last_verified_basis: companion page review date</code>.</li>
+</ul>
+<p><code>--check</code> mode fails the release gate if a CSV is added to <code>data/</code> without a catalog entry, or if the counts on this page drift from the files.</p>
+<h2>How to Reuse and Cite</h2>
+<ul>
+<li><strong>Cite the dataset and the primary source.</strong> Each CSV carries <code>source_slug</code>, <code>source_url</code> and/or <code>source_locator</code> columns that point to the original NEA, DoED, ERC, ICIMOD or other public document. Cite that primary source for any figure, and cite the wiki file as the compilation, e.g. <em>TransparentGov Nepal Energy Wiki, <code>data/substation_specs.csv</code>, accessed YYYY-MM-DD</em>.</li>
+<li><strong>Check the precision columns.</strong> Coordinates carry <code>coordinate_precision</code> tags (exact, place anchor, district centroid and so on). District-anchored points are display positions, not site boundaries.</li>
+<li><strong>Check status dates.</strong> Delivery status columns describe what a source reported on its date (<code>status_as_of</code>, <code>as_of_fy</code>), not live operating state.</li>
+<li><strong>Licence.</strong> The repository compilation is MIT-licensed. Upstream government and institutional documents keep their own terms.</li>
+</ul>
+<h2>Provenance Boundary (Tier A vs. Tier B)</h2>
+<p>The wiki applies a two-tier grounding rule to every dataset:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Applies to</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Tier A — strict primary source</strong></td>
+<td>MW, MVA, GWh, tariffs, revenue, profit, coordinates, delivery status</td>
+<td>Every value traces to a cited primary document or a precision-tagged geocode. Nothing is estimated or invented to fill a gap; missing values stay blank.</td>
+</tr>
+<tr>
+<td><strong>Tier B — canonical lookup</strong></td>
+<td>District ↔ province geography, Bikram Sambat ↔ AD date conversion, ecological belt by district</td>
+<td>Filled from Nepal&#39;s standard 77-district / 7-province administrative lookup and calendar conversion, and tagged <code>canonical-lookup</code> where the dataset records a basis.</td>
+</tr>
+</tbody></table></div>
+<h2>Limitations</h2>
+<ul>
+<li>The catalog covers the curated and key derived datasets, not every intermediate build artefact or review queue in <code>data/processed/</code>.</li>
+<li>Several curation tables (capacity authority decisions, identity aliases, licence overrides) are pipeline inputs rather than reader-facing registries; they are listed for transparency.</li>
+<li>Row counts measure file size, not completeness. Field-level completeness for hydropower and solar specs is reported in <a href="../../../data/processed/tables/spec_completeness_report.md">spec_completeness_report.md</a> and <a href="../../../data/processed/tables/solar_spec_completeness_report.md">solar_spec_completeness_report.md</a>.</li>
+</ul>
+<h2>Related</h2>
+<ul>
+<li><a href="/wiki/data-pipeline-readme/">Data Pipeline Readme</a></li>
+<li><a href="/wiki/data-map-inventory/">Map Inventory</a></li>
+<li><a href="/wiki/start-here/">Nepal Energy Wiki</a></li>
+</ul>
+</div>
+
+  </article>
+  <aside class="backlinks" aria-label="Pages that link here"><h2>Pages that link here <span>3</span></h2><ul><li><a href="/wiki/start-here/">Nepal Energy Wiki</a><span>Analysis</span></li><li><a href="/wiki/data-clean-industry-and-compute-siting/">Clean-Industry and Compute Siting Baseline</a><span>Data</span></li><li><a href="/wiki/data-nepse-hydro-performance/">Listed Hydropower Performance (Starter)</a><span>Data</span></li></ul></aside>
+</main>
+<footer class="site-footer">
+  <p>Nepal Energy Wiki is a citizen-led evidence project by <a href="https://transparentgov.ai/">TransparentGov</a>. Every page links to its sources; confidence ratings and caveats are part of the answer.</p>
+  <p><a href="/wiki/film-nepal-has-hydropower/">Watch the film: Nepal Has Hydropower. Why Isn’t It Enough?</a> · <a href="https://github.com/abinashkarki/NepalHydroAndEnergy">Source on GitHub</a> · <a href="/wiki/start-here/">Start here</a></p>
+</footer>
+</body>
+</html>

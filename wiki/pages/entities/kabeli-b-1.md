@@ -2,9 +2,9 @@
 title: Kabeli B - 1
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
-tags: [project, licensed, taplejung]
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, taplejung]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Kabeli B - 1
 
-25 MW · generation licence recorded; delivery status unverified · on the Kabeli Khola · in Taplejung district.
+25 MW · operating (DoED operating record) · on the Kabeli Khola · in Taplejung district.
 
 <!-- generated:specs:start -->
 
@@ -21,11 +21,25 @@ page_quality: record
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 25 MW |
-| Status | Generation licence; delivery status unverified |
+| Status | Operating |
+| DoED register | Operating record no. 98; commercial operation 2076-07-23 BS (about AD 2019) |
 | Registry licence | Generation |
 | River | Kabeli Khola |
 | District | Taplejung |
 | Province | Province No 1 |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Arun Kabeli Power Limited. |
+
+### Schedule
+
+| Parameter | Value |
+|-----------|-------|
+| Commercial operation | 2019 |
+| Completion | 100 % |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +47,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

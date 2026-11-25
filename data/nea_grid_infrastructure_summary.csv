@@ -1,0 +1,117 @@
+metric,voltage_class,fiscal_year_bs,fiscal_year_ad,value,unit,count,source_slug,source_locator,verified_on,notes
+transmission_circuit_km,132kV,2072/73,2015/16,2417,circuit-km,,nea-annual-report-fy2024-25,PDF p.170 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,220 kV and 400 kV cells blank in source
+transmission_circuit_km,66kV,2072/73,2015/16,494,circuit-km,,nea-annual-report-fy2024-25,PDF p.170 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,220 kV and 400 kV cells blank in source
+transmission_circuit_km,total,2072/73,2015/16,2911,circuit-km,,nea-annual-report-fy2024-25,PDF p.170 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,220 kV and 400 kV cells blank in source
+transmission_circuit_km,132kV,2073/74,2016/17,2596,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2073/74,2016/17,75,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2073/74,2016/17,78,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2073/74,2016/17,494,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2073/74,2016/17,3243,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2074/75,2017/18,2717,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2074/75,2017/18,75,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2074/75,2017/18,78,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2074/75,2017/18,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2074/75,2017/18,3384,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2075/76,2018/19,3143,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2075/76,2018/19,255,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2075/76,2018/19,78,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2075/76,2018/19,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2075/76,2018/19,3990,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2076/77,2019/20,3240,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2076/77,2019/20,437,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2076/77,2019/20,78,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2076/77,2019/20,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2076/77,2019/20,4269,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2077/78,2020/21,3541,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2077/78,2020/21,741,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2077/78,2020/21,78,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2077/78,2020/21,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2077/78,2020/21,4874,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2078/79,2021/22,3817,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2078/79,2021/22,897,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2078/79,2021/22,102,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2078/79,2021/22,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2078/79,2021/22,5329,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2079/80,2022/23,3979,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2079/80,2022/23,1101,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2079/80,2022/23,148,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2079/80,2022/23,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2079/80,2022/23,5742,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2080/81,2023/24,4136,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2080/81,2023/24,1213,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2080/81,2023/24,644,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2080/81,2023/24,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2080/81,2023/24,6508,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2081/82,2024/25,4193,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2081/82,2024/25,1266,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2081/82,2024/25,787,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2081/82,2024/25,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2081/82,2024/25,6760,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,132kV,2082/83,2025/26,4464,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,220kV,2082/83,2025/26,1324,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,400kV,2082/83,2025/26,807,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,66kV,2082/83,2025/26,514,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+transmission_circuit_km,total,2082/83,2025/26,7110,circuit-km,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Transmission Line Length in the last Ten Fiscal Years,2026-11-24,
+existing_line_inventory_circuit_km,132kV,2081/82,2024/25,4005.87,circuit-km,,nea-annual-report-fy2024-25,PDF p.173 Existing High Voltage Transmission Lines inventory subtotal,2026-11-24,sum of the line-by-line inventory; differs from the ten-year comparison table
+existing_line_inventory_circuit_km,220kV,2081/82,2024/25,1254.00,circuit-km,,nea-annual-report-fy2024-25,PDF p.174 Existing High Voltage Transmission Lines inventory subtotal,2026-11-24,sum of the line-by-line inventory; differs from the ten-year comparison table
+existing_line_inventory_circuit_km,400kV,2081/82,2024/25,384.00,circuit-km,,nea-annual-report-fy2024-25,PDF p.174 Existing High Voltage Transmission Lines inventory subtotal,2026-11-24,sum of the line-by-line inventory; differs from the ten-year comparison table
+existing_line_inventory_circuit_km,66kV,2081/82,2024/25,514.46,circuit-km,,nea-annual-report-fy2024-25,PDF p.174 Existing High Voltage Transmission Lines inventory subtotal,2026-11-24,sum of the line-by-line inventory; differs from the ten-year comparison table
+existing_line_inventory_circuit_km,132kV,2082/83,2025/26,4355,circuit-km,,nea-annual-report-fy2025-26,PDF p.208 Existing High Voltage Transmission Lines inventory subtotal,2026-11-24,sum of the line-by-line inventory; differs from the ten-year comparison table
+existing_line_inventory_circuit_km,220kV,2082/83,2025/26,1310.00,circuit-km,,nea-annual-report-fy2025-26,PDF p.209 Existing High Voltage Transmission Lines inventory subtotal,2026-11-24,sum of the line-by-line inventory; differs from the ten-year comparison table
+existing_line_inventory_circuit_km,400kV,2082/83,2025/26,560.00,circuit-km,,nea-annual-report-fy2025-26,PDF p.209 Existing High Voltage Transmission Lines inventory subtotal,2026-11-24,sum of the line-by-line inventory; differs from the ten-year comparison table
+existing_line_inventory_circuit_km,66kV,2082/83,2025/26,514.46,circuit-km,,nea-annual-report-fy2025-26,PDF p.209 Existing High Voltage Transmission Lines inventory subtotal,2026-11-24,sum of the line-by-line inventory; differs from the ten-year comparison table
+substation_capacity_total_mva,all-hv,2072/73,2015/16,2223,MVA,,nea-annual-report-fy2024-25,PDF p.170 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2073/74,2016/17,2618,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2074/75,2017/18,3198,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2075/76,2018/19,3935,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2076/77,2019/20,4300,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2077/78,2020/21,6434,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2078/79,2021/22,7149,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2079/80,2022/23,8867,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2080/81,2023/24,13050,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2081/82,2024/25,14123,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_capacity_total_mva,all-hv,2082/83,2025/26,15541,MVA,,nea-annual-report-fy2025-26,PDF p.205 Comparison of Substation Capacity in the Last Ten Fiscal Years,2026-11-24,
+substation_transformer_mva,132/11,2076/77,2019/20,462.50,MVA,17,nea-transmission-annual-book-2077,PDF p.251 annexure summary of existing substations by voltage rating (FY 76-77 column),2026-11-24,
+substation_transformer_mva,132/33,2076/77,2019/20,1889.00,MVA,51,nea-transmission-annual-book-2077,PDF p.251 annexure summary of existing substations by voltage rating (FY 76-77 column),2026-11-24,
+substation_transformer_mva,132/66,2076/77,2019/20,522.90,MVA,11,nea-transmission-annual-book-2077,PDF p.251 annexure summary of existing substations by voltage rating (FY 76-77 column),2026-11-24,
+substation_transformer_mva,220/132,2076/77,2019/20,320,MVA,2,nea-transmission-annual-book-2077,PDF p.251 annexure summary of existing substations by voltage rating (FY 76-77 column),2026-11-24,
+substation_transformer_mva,33/11,2076/77,2019/20,478.3,MVA,37,nea-transmission-annual-book-2077,PDF p.251 annexure summary of existing substations by voltage rating (FY 76-77 column),2026-11-24,
+substation_transformer_mva,66/11,2076/77,2019/20,584.50,MVA,32,nea-transmission-annual-book-2077,PDF p.251 annexure summary of existing substations by voltage rating (FY 76-77 column),2026-11-24,
+substation_transformer_mva,66/33,2076/77,2019/20,42.50,MVA,2,nea-transmission-annual-book-2077,PDF p.251 annexure summary of existing substations by voltage rating (FY 76-77 column),2026-11-24,
+substation_transformer_mva,total,2076/77,2019/20,4299.70,MVA,152,nea-transmission-annual-book-2077,PDF p.251 annexure summary of existing substations by voltage rating (FY 76-77 column),2026-11-24,
+substation_transformer_mva,132/11,2080/81,2023/24,835,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,132/33,2080/81,2023/24,3532,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,132/66,2080/81,2023/24,635,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,220/132,2080/81,2023/24,3870,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,220/33,2080/81,2023/24,186,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,33/11,2080/81,2023/24,752,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,400/220,2080/81,2023/24,2390,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,66/11,2080/81,2023/24,780,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,66/33,2080/81,2023/24,70,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table; transformer count not given for this year
+substation_transformer_mva,total,2080/81,2023/24,13050,MVA,,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,prior-year column of the same table
+substation_transformer_mva,132/11,2081/82,2024/25,993,MVA,31,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,132/33,2081/82,2024/25,3729,MVA,89,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,132/66,2081/82,2024/25,835,MVA,14,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,220/132,2081/82,2024/25,4350,MVA,52,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,220/33,2081/82,2024/25,186,MVA,4,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,33/11,2081/82,2024/25,784,MVA,54,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,400/220,2081/82,2024/25,2390,MVA,9,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,66/11,2081/82,2024/25,796,MVA,34,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,66/33,2081/82,2024/25,60,MVA,3,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,total,2081/82,2024/25,14123,MVA,290,nea-annual-report-fy2024-25,PDF p.184 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,132/11,2082/83,2025/26,1270,MVA,38,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,132/33,2082/83,2025/26,4450,MVA,100,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,132/66,2082/83,2025/26,1098,MVA,18,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,220/132,2082/83,2025/26,4350,MVA,52,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,220/33,2082/83,2025/26,186,MVA,4,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,33/11,2082/83,2025/26,876,MVA,58,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,400/220,2082/83,2025/26,2390,MVA,9,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,66/11,2082/83,2025/26,848,MVA,36,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,66/33,2082/83,2025/26,73,MVA,3,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+substation_transformer_mva,total,2082/83,2025/26,15541,MVA,318,nea-annual-report-fy2025-26,PDF p.222 summary of existing high voltage grid substations by voltage rating,2026-11-24,
+distribution_line_circuit_km,11kV,2081/82,2024/25,53131,circuit-km,,nea-annual-report-fy2024-25,PDF p.49 Distribution and Consumer Services Directorate narrative,2026-11-24,DCSD distribution network (not Transmission Directorate grid substations)
+distribution_line_circuit_km,33kV,2081/82,2024/25,8145,circuit-km,,nea-annual-report-fy2024-25,PDF p.49 Distribution and Consumer Services Directorate narrative,2026-11-24,DCSD distribution network (not Transmission Directorate grid substations)
+distribution_line_circuit_km,11kV,2082/83,2025/26,54296,circuit-km,,nea-annual-report-fy2025-26,PDF p.61 Distribution and Consumer Services Directorate narrative,2026-11-24,DCSD distribution network (not Transmission Directorate grid substations)
+distribution_line_circuit_km,33kV,2082/83,2025/26,8388,circuit-km,,nea-annual-report-fy2025-26,PDF p.61 Distribution and Consumer Services Directorate narrative,2026-11-24,DCSD distribution network (not Transmission Directorate grid substations)
+distribution_substation_mva,33/11,2081/82,2024/25,2997,MVA,210,nea-annual-report-fy2024-25,PDF p.49 Distribution and Consumer Services Directorate narrative,2026-11-24,DCSD distribution network (not Transmission Directorate grid substations)
+distribution_substation_mva,33/11,2082/83,2025/26,3048,MVA,221,nea-annual-report-fy2025-26,PDF p.61 Distribution and Consumer Services Directorate narrative,2026-11-24,DCSD distribution network (not Transmission Directorate grid substations)

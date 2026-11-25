@@ -2,15 +2,17 @@
 title: Sanjen Khola
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25]
-tags: [project, under-construction, rasuwa]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, rasuwa]
 images: []
 generator: manual
 page_quality: brief
 ---
 
 # Sanjen Khola
+
+> [!note] **Status update (24 Nov 2026):** the DoED operating-plants register (snapshot 2 July 2026) lists this plant as operating (record no. 160, commercial operation 2081-10-29 BS, about AD 2025). Descriptions of the project as under construction elsewhere on this page predate commissioning. Source: [[doed-hydropower-registry]].
 
 ## Summary
 
@@ -33,7 +35,8 @@ Both Sanjen projects benefit from the Chilime-Trishuli transmission corridor inf
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 78 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 160; commercial operation 2081-10-29 BS (about AD 2025) |
 | Registry licence | Generation |
 | River | Sanjen |
 | District | Rasuwa |

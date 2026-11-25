@@ -2,8 +2,8 @@
 title: Upper Marsyangdi A
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [nea-annual-report-fy2024-25]
+updated: 2026-11-24
+sources: [nea-annual-report-fy2024-25, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, gandaki]
 images: []
 generator: manual
@@ -29,6 +29,7 @@ projects on the Marsyangdi system.
 |-----------|-------|
 | Capacity | 50 MW |
 | Status | Operating |
+| DoED register | Operating record no. 60; commercial operation 2073-07-30 BS (about AD 2016) |
 | Registry licence | Operation |
 | River | Marsyangdi ([[gandaki-basin]]) |
 | District | Lamjung |

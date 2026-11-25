@@ -2,15 +2,17 @@
 title: Sanjen
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [sector-financial-analysis-triple-authority-2026]
-tags: [project, under-construction, rasuwa, chilime-group]
+updated: 2026-11-24
+sources: [sector-financial-analysis-triple-authority-2026, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, rasuwa, chilime-group]
 images: ['- src: sanjen/nea2077-p181-img01.png']
 generator: manual
 page_quality: brief
 ---
 
 # Sanjen
+
+> [!note] **Status update (24 Nov 2026):** the DoED operating-plants register (snapshot 2 July 2026) lists this plant as operating (record no. 55, commercial operation 2081-09-01 BS, about AD 2024). Descriptions of the project as under construction elsewhere on this page predate commissioning. Source: [[doed-hydropower-registry]].
 
 ## Summary
 
@@ -37,7 +39,8 @@ Sanjen and the nearby Sanjen Khola (78 MW) project are located in Rasuwa distric
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 42.5 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 55; commercial operation 2081-09-01 BS (about AD 2024) |
 | Registry licence | Generation |
 | River | Sanjen |
 | District | Rasuwa |

@@ -2,7 +2,7 @@
 title: Figure Index
 type: data
 created: 2026-05-13
-updated: 2026-11-04
+updated: 2026-11-25
 figure_type: table
 sources: []
 tags: [figures, charts, manifest, data]
@@ -38,6 +38,11 @@ Registry of published wiki figures generated from `wiki/explorer/shared/wiki-fig
 | [nea_cost_structure_fy2025_26](../../../wiki/assets/figures/nea_cost_structure_fy2025_26.svg) | SVG | [[nea-triple-authority]] | [[nea-annual-report-fy2025-26]] | Managing director's report figures, pre-audit. Cost lines are not exhaustive and do not sum to revenue minus profit because other income and provisions are excluded. |
 | [schedule_slippage](../../../wiki/assets/figures/schedule_slippage.svg) | SVG | [[buildability]] | [[adb-tanahu-project-documents-2026]], [[nea-annual-report-fy2025-26]] | Arun-3's two points are successive developer expectations, not the original target. Mid-year positions are approximate. |
 | [contracted_energy_performance](../../../wiki/assets/figures/contracted_energy_performance.svg) | SVG | [[q-design-discharge]] | [[chilime-annual-report-fy2078-79]], [[care-ratings-sanima-mai]], [[ukhl-annual-report]] | A small, non-random sample from company reports and ratings; no central public database tracks generation against contract. Likhu-2's FY 2023/24 shortfall reflected a substation bottleneck and is excluded. |
+| [nea_system_trajectory_11yr](../../../wiki/assets/figures/nea_system_trajectory_11yr.svg) | SVG | [[data-nea-system-annual-timeseries]] | [[nea-annual-report-fy2024-25]], [[nea-annual-report-fy2025-26]] | The jump in NEA-subsidiary generation from FY 2021/22 reflects plants reported under subsidiaries (such as Upper Tamakoshi), not only new capacity. |
+| [substation_province_capacity](../../../wiki/assets/figures/substation_province_capacity.svg) | SVG | [[data-substation-inventory]] | [[mca-central-400]], [[nea-annual-report-fy2025-26]] | Substations without a sourced province are shown separately. Installed MVA is summed nameplate transformer capacity, not firm capacity. |
+| [plant_generation_vs_design](../../../wiki/assets/figures/plant_generation_vs_design.svg) | SVG | [[data-plant-annual-generation]] | [[nea-annual-report-fy2024-25]], [[nea-annual-report-fy2025-26]] | Design energy is printed only in the FY 2025/26 report and is applied to both years. Plants under 14 MW and thermal plants are omitted. |
+| [tariff_ppa_ladder](../../../wiki/assets/figures/tariff_ppa_ladder.svg) | SVG | [[data-erc-retail-tariffs]], [[data-ppa-standard-rates]] | [[erc-eca-storage-ppa-discussion-paper-2025]], [[erc-nea-consumer-tariff-order-2078]], [[nea-annual-report-fy2025-26]], [[nea-solar-loi-2024]] | Energy charges only, without demand, minimum or service charges, or taxes. The 51-250 unit bar uses the 51-100 slab, which equals the 101-250 slab. Storage rates are the withdrawn 2017 schedule. |
+| [ev_import_surge](../../../wiki/assets/figures/ev_import_surge.svg) | SVG | [[data-load-anchors-and-fossil-backbone]] | [[customs-foreign-trade-statistics-2080-83]] | Customs counts of units imported under the listed HS codes, not vehicle registrations or vehicles in use. The car class combines HS 8703.80 and HS 8702.40.49 rows. |
 | [hydropower_license_map](../../../wiki/assets/figures/hydropower_license_map.png) | PNG | [[data-potential-pyramid]] | [[doed-licensing-directive-2075]] | Static map is a portfolio snapshot; use the explorer map for current interactive filtering. |
 
 ## Regeneration

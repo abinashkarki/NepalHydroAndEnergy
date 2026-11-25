@@ -2,7 +2,7 @@
 title: Lower Badigad
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-24
 generator: specs-refresh
 page_quality: brief
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -20,10 +20,6 @@ Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basi
 
 <!-- generated:specs:start -->
 
-## Summary
-
-**Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basin.** It is pinned in the storage shortlist for its large carryover storage (995.9 MCM total, 505.5 MCM effective) and meaningful dry-season output (354.7 GWh, 26.0% dry share). The page tracks it as a planning-layer storage comparator using the current JICA/NEA source set.
-
 ## Specifications
 
 | Parameter | Value |
@@ -37,6 +33,14 @@ Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basi
 | Dry share | 26.0% |
 | Total storage | 995.9 MCM |
 | Effective storage | 505.5 MCM |
+
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Gross head | 196.0 m |
+| Design discharge | 232.6 m³/s |
+| Dam height | 191.0 m |
 
 ### Storage
 
@@ -52,7 +56,16 @@ Lower Badigad is a 380.3 MW JICA promising-storage candidate in the Gandaki basi
 | Annual design energy | 1366.0 GWh |
 | Dry-season energy | 354.7 GWh |
 | Dry-season share | 26.0 % |
+| Plant load factor | 41.0 % |
 | Type | Storage |
+| Catchment area | 2050.0 km² |
+
+### Financial
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | 1209.8 million USD |
+| Cost per MW | 3.18 million USD/MW |
 
 <!-- generated:specs:end -->
 

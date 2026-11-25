@@ -2,15 +2,17 @@
 title: Madhya Bhotekoshi
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [sector-financial-analysis-triple-authority-2026]
-tags: [project, under-construction, koshi, sindhupalchok, chilime-group]
+updated: 2026-11-24
+sources: [sector-financial-analysis-triple-authority-2026, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, koshi, sindhupalchok, chilime-group]
 images: ['- src: madhya-bhotekoshi/nea2425-p193-img01.png']
 generator: manual
 page_quality: brief
 ---
 
 # Madhya Bhotekoshi
+
+> [!note] **Status update (24 Nov 2026):** the DoED operating-plants register (snapshot 2 July 2026) lists this plant as operating (record no. 108, commercial operation 2082-06-20 BS, about AD 2025). Descriptions of the project as under construction elsewhere on this page predate commissioning. Source: [[doed-hydropower-registry]].
 
 Madhya Bhotekoshi (Middle Bhotekoshi) is a 102 MW run-of-river hydropower project under construction on the Bhote Koshi River in Sindhupalchok district. It is one of the key capacity additions in the Bhote Koshi corridor, an area that has seen repeated geological setbacks including landslides and glacial lake outburst floods.
 
@@ -37,7 +39,8 @@ At 102 MW, Madhya Bhotekoshi represents a significant block of capacity in the u
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 102 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 108; commercial operation 2082-06-20 BS (about AD 2025) |
 | Registry licence | Generation |
 | River | Bhote koshi (eastern [[koshi-basin]]) |
 | District | Sindhupalchok |

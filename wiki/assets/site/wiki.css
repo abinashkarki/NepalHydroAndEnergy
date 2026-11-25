@@ -74,10 +74,10 @@ h1 { color: var(--brand); font: 680 clamp(30px, 5vw, 40px)/1.15 var(--serif); le
 .prose code { font: 0.86em var(--mono); background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
 .prose pre { overflow-x: auto; background: var(--surface-2); padding: 14px; border-radius: 8px; }
 .prose hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0; }
-.table-wrap { overflow-x: auto; margin: 22px 0; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
-.table-wrap table { border-collapse: collapse; width: 100%; font: 14px/1.5 var(--sans); }
-.table-wrap th, .table-wrap td { padding: 9px 12px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
-.table-wrap th { background: var(--surface-2); font-weight: 600; color: var(--ink-2); font-size: 13px; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: thin; margin: 22px 0; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); max-width: 100%; }
+.table-wrap table { border-collapse: collapse; width: 100%; font: 13.5px/1.45 var(--sans); }
+.table-wrap th, .table-wrap td { padding: 7px 10px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+.table-wrap th { background: var(--surface-2); font-weight: 600; color: var(--ink-2); font-size: 12.5px; }
 .table-wrap tr:last-child td { border-bottom: 0; }
 
 /* Callouts */

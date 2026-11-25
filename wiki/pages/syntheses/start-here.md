@@ -3,13 +3,13 @@ title: Nepal Energy Wiki
 category: syntheses
 type: synthesis
 created: 2026-04-14
-updated: 2026-08-29
-reviewed: 2026-08-29
-review_due: 2026-11-29
-as_of: 2026-08-29
-sources: [nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
+updated: 2026-11-25
+reviewed: 2026-11-25
+review_due: 2027-02-25
+as_of: 2026-11-25
+sources: [nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, wb-country-economic-memo-2025, nepal-ndc-3-2025]
 tags: [overview, guide, public, navigation]
-excerpt: A task-led starting point for understanding Nepal's electricity system, exploring projects and places, and checking claims against their evidence.
+excerpt: A task-led starting point for understanding Nepal's electricity system, exploring its infrastructure registries and open data, and checking claims against their evidence.
 caveat: This page is a navigation synthesis; dated operating facts and official targets are separated on the linked State of the System page.
 maturity: verified-core
 page_quality: analysis
@@ -20,6 +20,23 @@ page_quality: analysis
 This is a source-linked guide to Nepal's electricity system: its projects and rivers, the grid that connects them, the markets that value electricity, and the institutions that shape delivery.
 
 Use **Find** to locate a project, claim, source or question. Use the **Map** to see how infrastructure and river geography fit together. Use the links inside each page to follow an argument back to its evidence.
+
+## Infrastructure registries and open data
+
+Every registry behind the wiki can be browsed, filtered on the map, and downloaded. Start with the **[[data-open-data-catalog|Open Data Catalog]]**, which lists every CSV table and GeoJSON layer with row counts, freshness dates and download links.
+
+| Pillar | Start with |
+|---|---|
+| **Open data** | [[data-open-data-catalog]] — all downloadable CSV registries and GeoJSON map layers |
+| **Hydropower fleet** | [[hydropower-system]] · [[data-fleet-composition]] · [[data-plant-annual-generation]] |
+| **Grid, substations and corridors** | [[data-substation-inventory]] (153 substations, 66–400 kV) · [[data-nea-grid-infrastructure-fy2025-26]] · [[transmission-and-cross-border-trade]] |
+| **Solar and non-hydro renewables** | [[solar-system]] · [[data-solar-fleet-inventory]] · [[data-non-dam-storage-pipeline]] |
+| **Tariffs, PPAs and cross-border trade** | [[data-erc-retail-tariffs]] · [[data-ppa-standard-rates]] · [[data-cross-border-approved-plants]] · [[data-nea-system-annual-timeseries]] |
+| **Institutions and developers** | [[data-energy-institutions]] · [[data-major-developers]] · [[erc]] · [[doed]] · [[nea]] |
+| **Demand, EVs, industry and fossil backbone** | [[data-load-anchors-and-fossil-backbone]] · [[data-final-energy-mix]] |
+| **Geohazards and climate resilience** | [[data-infrastructure-hazard-register]] · [[bhotekoshi-trishuli-flood-2026]] · [[glof-risk]] |
+
+On the **Map**, the *Full Energy Infrastructure* lens shows substations, the transmission network, operating hydropower and solar, industrial load anchors, fuel depots and storage sites together.
 
 ## Choose what you want to do
 
@@ -53,7 +70,7 @@ Prefer to watch first? The 16-minute film *Nepal Has Hydropower. Why Isn't It En
 - **Grid and trade:** [[transmission-and-cross-border-trade]], [[distribution-and-reliability]], [[india-energy-relationship]], [[stranded-generation]].
 - **Storage, solar and demand:** [[storage-and-flexibility]], [[solar-system]], [[demand-and-electrification]], [[solar-hydro-complementarity]].
 - **Projects and places:** [[upper-tamakoshi]], [[budhigandaki]], [[dudhkoshi-storage]], [[koshi-basin]]. Use **Find** for the full project directory.
-- **Governance and evidence:** [[institutions-finance-and-project-delivery]], [[decision-dossiers]], [[data-map-inventory]], [[unresolved-questions]].
+- **Governance and evidence:** [[institutions-finance-and-project-delivery]], [[decision-dossiers]], [[data-open-data-catalog]], [[data-map-inventory]], [[unresolved-questions]].
 
 ## How the evidence works
 
@@ -66,7 +83,7 @@ A mapped project is not automatically a verified project. A linked source does n
 
 ## Use Find and the Map together
 
-**Find** is the quickest route to a named project, concept, claim, dataset or source. The **Map** is the spatial companion: its lenses show rivers, geopolitics, the power system and solar context. [[data-map-layer-labels]] explains what each layer represents and what should not be inferred from it.
+**Find** is the quickest route to a named project, concept, claim, dataset or source. The **Map** is the spatial companion: its lenses show rivers, geopolitics, the power system, solar context, the full energy infrastructure backbone and the August 2026 flood. [[data-map-layer-labels]] explains what each layer represents and what should not be inferred from it.
 
 Opening a mapped feature loads its wiki record. Opening a spatially bound page focuses the relevant map context. Pages without a meaningful location remain readable without forcing a map view.
 

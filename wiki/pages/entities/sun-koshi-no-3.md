@@ -2,7 +2,7 @@
 title: Sun Koshi No.3
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-24
 generator: specs-refresh
 page_quality: brief
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -38,6 +38,14 @@ Sun Koshi No.3 is a 536 MW JICA promising-storage candidate in the Koshi basin. 
 | Total storage | 1220.0 MCM |
 | Effective storage | 555.0 MCM |
 
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Gross head | 116.3 m |
+| Design discharge | 570.0 m³/s |
+| Dam height | 140.0 m |
+
 ### Storage
 
 | Parameter | Value |
@@ -52,7 +60,16 @@ Sun Koshi No.3 is a 536 MW JICA promising-storage candidate in the Koshi basin. 
 | Annual design energy | 1883.6 GWh |
 | Dry-season energy | 335.9 GWh |
 | Dry-season share | 17.8 % |
+| Plant load factor | 40.1 % |
 | Type | Storage |
+| Catchment area | 5520.0 km² |
+
+### Financial
+
+| Parameter | Value |
+|-----------|-------|
+| Total cost | 1690.5 million USD |
+| Cost per MW | 3.15 million USD/MW |
 
 <!-- generated:specs:end -->
 

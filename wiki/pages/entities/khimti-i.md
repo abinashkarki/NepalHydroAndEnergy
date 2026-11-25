@@ -2,8 +2,8 @@
 title: Khimti -I
 type: entity
 created: 2026-04-20
-updated: 2026-05-11
-sources: [jica-ipsdp-main-report-vol2]
+updated: 2026-11-24
+sources: [jica-ipsdp-main-report-vol2, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, private-ipp, dolakha, ramechhap, first-ipp, koshi]
 images:
   - src: khimti-i/ipsdpv2-p278-img00.png
@@ -29,6 +29,7 @@ page_quality: brief
 |-----------|-------|
 | Capacity | 60 MW |
 | Status | Operating |
+| DoED register | Operating record no. 1; commercial operation 2057-03-27 BS (about AD 2000) |
 | Registry licence | Operation |
 | River | Khimti Khola |
 | District | Dolakha |
@@ -41,6 +42,8 @@ page_quality: brief
 ## Sources
 
 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

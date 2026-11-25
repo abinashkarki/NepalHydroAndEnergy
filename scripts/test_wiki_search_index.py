@@ -89,10 +89,10 @@ class WikiSearchIndexTests(unittest.TestCase):
         self.assertGreaterEqual(vector["model"]["dim"], 128)
         self.assertIn("mixedbread-ai/mxbai-embed-xsmall-v1", vector["model"]["id"])
         self.assertGreater(vector["stats"]["chunks"], vector["stats"]["pages"])
-        # V1 adds the core editorial spine while keeping the optional quantized
-        # artifact below a modest 1.4 MB compressed release budget. The browser
-        # does not request it unless semantic reranking is explicitly enabled.
-        self.assertLess(len(gzip.compress(VECTOR_INDEX.read_bytes(), compresslevel=9)), 1_400_000)
+        # Keeps the optional quantized artifact below a modest 1.8 MB compressed
+        # release budget (calibrated for 460+ pages). The browser does not
+        # request it unless semantic reranking is explicitly enabled.
+        self.assertLess(len(gzip.compress(VECTOR_INDEX.read_bytes(), compresslevel=9)), 1_800_000)
         sample = vector["chunks"][0]
         self.assertEqual({"p", "h", "s", "v"}, set(sample))
 
@@ -105,6 +105,31 @@ class WikiSearchIndexTests(unittest.TestCase):
         for key in ["id", "domain", "facets", "name", "capacity_mw", "status", "source_layer", "sources", "feature_ref", "related_slugs"]:
             self.assertIn(key, sample)
         self.assertIn("layer", sample["feature_ref"])
+
+    def test_every_fact_has_required_keys(self) -> None:
+        required = ["id", "domain", "facets", "name", "capacity_mw", "status", "source_layer", "sources", "feature_ref", "related_slugs"]
+        for fact in self.fact_index["facts"]:
+            for key in required:
+                self.assertIn(key, fact, fact.get("id"))
+            self.assertIn("layer", fact["feature_ref"], fact["id"])
+
+    def test_fact_index_covers_infrastructure_registries(self) -> None:
+        facts = self.fact_index["facts"]
+        by_domain: dict[str, list[dict]] = {}
+        for fact in facts:
+            by_domain.setdefault(fact["domain"], []).append(fact)
+        for domain in ["substation", "storage", "demand", "nonhydro", "institution"]:
+            self.assertIn(domain, by_domain, domain)
+        with (ROOT / "data" / "substation_specs.csv").open(newline="", encoding="utf-8") as handle:
+            substations = list(csv.DictReader(handle))
+        self.assertEqual(len(by_domain["substation"]), len(substations))
+        for fact in by_domain["substation"]:
+            self.assertIsNone(fact["capacity_mw"], "substation MVA must not be reported as MW")
+        mapped = [f for f in by_domain["substation"] if f["feature_ref"]["layer"] == "grid_substations"]
+        self.assertEqual(len(mapped), sum(1 for row in substations if row["latitude"].strip()))
+        # New registries never enter the hydro/solar domains used by the superlative answers.
+        self.assertTrue(all(f["domain"] != "solar" for f in by_domain["nonhydro"]))
+        self.assertTrue(all("solar" not in f["facets"] for f in by_domain["nonhydro"]))
 
     def test_fact_index_answers_biggest_hydro_queries(self) -> None:
         hydro = [f for f in self.fact_index["facts"] if f["domain"] == "hydro" and f.get("capacity_mw")]

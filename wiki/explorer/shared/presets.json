@@ -176,6 +176,35 @@
           85.6
         ]
       ]
+    },
+    "energy_infrastructure": {
+      "label": "Full Energy Infrastructure",
+      "short": "Infrastructure",
+      "subtitle": "Substations, grid, generation, industry, fuel and storage",
+      "description": "Nepal's wider energy backbone in one view: 66-400 kV grid substations (RPGCL map symbols or place-level matches, labelled per point), the major transmission network and cross-border links, operating hydropower and solar, industrial load anchors, NOC fuel depots and a schematic Motihari-Amlekhgunj pipeline line, and mappable pumped-storage/battery sites. DoED non-hydro licence-envelope reference midpoints are one toggle away.",
+      "layers_on": [
+        "country_outline",
+        "transmission_traced_network",
+        "cross_border_lines",
+        "grid_substations",
+        "hydropower_operating",
+        "solar_plants",
+        "industrial_load_anchors",
+        "fossil_pipeline",
+        "fossil_depots",
+        "non_dam_storage",
+        "clean_industry_siting"
+      ],
+      "bounds": [
+        [
+          25.9,
+          79.8
+        ],
+        [
+          30.5,
+          88.4
+        ]
+      ]
     }
   }
 }

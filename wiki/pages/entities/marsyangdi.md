@@ -2,8 +2,8 @@
 title: Marsyangdi
 type: entity
 created: 2026-04-20
-updated: 2026-05-11
-sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2]
+updated: 2026-11-24
+sources: [nea-transmission-annual-book-2077, nea-annual-report-fy2024-25, jica-ipsdp-main-report-vol2, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, gandaki, gorkha]
 images:
   - src: marsyangdi/nea2077-p072-img02.png
@@ -69,6 +69,7 @@ page_quality: brief
 |-----------|-------|
 | Capacity | 69 MW |
 | Status | Operating |
+| DoED register | Operating record no. 1_gtd; commercial operation 2046-07-20 BS (about AD 1989) |
 | Registry licence | Operation |
 | River | Marsyangdi ([[gandaki-basin]]) |
 | District | Gorkha |
@@ -83,6 +84,8 @@ page_quality: brief
 - [[nea-transmission-annual-book-2077|NEA Transmission Annual Book 2077]]
 - [[nea-annual-report-fy2024-25|NEA Annual Report FY 2024/25]]
 - [[jica-ipsdp-main-report-vol2|JICA IPSDP Final Report Annexes (Vol. 2)]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

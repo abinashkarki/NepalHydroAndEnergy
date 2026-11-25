@@ -2,9 +2,9 @@
 title: Jagdulla HEP
 type: entity
 created: 2026-04-20
-updated: 2026-05-06
-sources: []
-tags: [project, survey, karnali, jajarkot]
+updated: 2026-11-24
+sources: [doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, under-construction, karnali, jajarkot]
 images: []
 generator: auto-stub
 page_quality: record
@@ -12,7 +12,7 @@ page_quality: record
 
 # Jagdulla HEP
 
-307 MW · survey / study · on the Bheri · in Jajarkot district.
+106 MW · under construction (NEA FY 2025/26 under-construction appendix) · on the Bheri system · in Dolpa and Jajarkot districts.
 
 <!-- generated:specs:start -->
 
@@ -20,12 +20,19 @@ page_quality: record
 
 | Parameter | Value |
 |-----------|-------|
-| Capacity | 307 MW |
-| Status | Survey / study |
+| Capacity | 106 MW (DoED generation licence; the legacy local registry carried a 307 MW survey record) |
+| Status | Under construction |
+| Status basis | NEA FY 2025/26 appendix, under-construction (financial closure concluded) list, p. 183 |
 | Registry licence | Survey |
 | River | Bheri ([[karnali-basin]]) |
-| District | Jajarkot |
+| District | Dolpa / Jajarkot (DoED licence location) |
 | Province | Karnali Pradesh |
+
+### Governance
+
+| Parameter | Value |
+|-----------|-------|
+| Developer | Jagdulla Hydropower Company Limited |
 
 <!-- generated:specs:end -->
 
@@ -33,7 +40,8 @@ page_quality: record
 
 ## Sources
 
-_No primary sources have been linked yet._
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 

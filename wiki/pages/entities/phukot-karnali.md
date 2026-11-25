@@ -2,7 +2,7 @@
 title: Phukot Karnali
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-25
 generator: specs-refresh
 page_quality: analysis
 sources: [nea-transmission-annual-book-2077, jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -50,6 +50,8 @@ Phukot Karnali is a 426-480 MW peaking run-of-river project on the Karnali in Ka
 
 | Parameter | Value |
 |-----------|-------|
+| Gross head | 168.62 m |
+| Design discharge | 348 m³/s |
 | Units | 6 |
 | Unit capacity | 79 MW |
 | Turbine type | Francis |
@@ -59,7 +61,9 @@ Phukot Karnali is a 426-480 MW peaking run-of-river project on the Karnali in Ka
 
 | Parameter | Value |
 |-----------|-------|
+| Annual design energy | 2447 GWh |
 | Type | PROR |
+| Catchment area | 16902 km² |
 
 ### Governance
 

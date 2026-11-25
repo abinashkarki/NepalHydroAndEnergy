@@ -42,6 +42,14 @@
         "title": "Clickmandu \u2014 Sahas Urja Financial Reporting"
       },
       {
+        "slug": "customs-foreign-trade-statistics-2080-83",
+        "title": "Department of Customs Foreign Trade Statistics, FY 2080/81\u20132082/83"
+      },
+      {
+        "slug": "doed-hydropower-registry",
+        "title": "DoED Hydropower Registry Tables (July 2026 Snapshot)"
+      },
+      {
         "slug": "doed-licensing-directive-2075",
         "title": "DoED Licensing Directive 2075 \u2014 Hydropower Project Licensing"
       },
@@ -58,8 +66,16 @@
         "title": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II"
       },
       {
+        "slug": "ekantipur-additional-80mw-export-approval-2025",
+        "title": "Kantipur \u2014 Approval to sell an additional 80 MW of electricity in India (2025)"
+      },
+      {
         "slug": "erc-eca-storage-ppa-discussion-paper-2025",
         "title": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)"
+      },
+      {
+        "slug": "erc-nea-consumer-tariff-order-2078",
+        "title": "ERC \u2014 NEA Electricity Consumer Tariff Determination 2078"
       },
       {
         "slug": "erc-open-access-directive-2082",
@@ -80,6 +96,10 @@
       {
         "slug": "himalayan-capital-analysis",
         "title": "Himalayan Capital \u2014 Sahas Urja Analysis"
+      },
+      {
+        "slug": "icimod-glacial-lake-inventory-2020",
+        "title": "ICIMOD & UNDP Glacial Lake Inventory and Potentially Dangerous Lakes (2020)"
       },
       {
         "slug": "icimod-hkh-glacier-change",
@@ -114,6 +134,10 @@
         "title": "India Cross-Border Trade in Electricity Guidelines (2018)"
       },
       {
+        "slug": "indian-embassy-motihari-amlekhgunj-pipeline-2019",
+        "title": "Embassy of India Release on the Motihari\u2013Amlekhgunj Pipeline (2019)"
+      },
+      {
         "slug": "irena-remap-nepal",
         "title": "IRENA Renewable Readiness Assessment and REmap Nepal"
       },
@@ -144,6 +168,18 @@
       {
         "slug": "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
         "title": "Kathmandu Post \u2014 Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)"
+      },
+      {
+        "slug": "kathmandupost-export-approval-renewals-2026",
+        "title": "Kathmandu Post \u2014 India renews export approvals for four Nepali hydropower projects (2026)"
+      },
+      {
+        "slug": "kathmandupost-india-approves-additional-200mw-2025",
+        "title": "Kathmandu Post \u2014 India approves purchase of additional 200 MW from Nepal (2025)"
+      },
+      {
+        "slug": "kathmandupost-nvvn-200mw-five-year-deal-2023",
+        "title": "Kathmandu Post \u2014 Nepal to sell 200MW under 5-year deal (2023)"
       },
       {
         "slug": "khimti-i-project-research",
@@ -214,6 +250,10 @@
         "title": "NEFPORT Protected-Area Hydropower Ruling Estimate (2025)"
       },
       {
+        "slug": "nepal-energy-institution-websites-2026",
+        "title": "Nepal Energy Institution Official Websites (Nov 2026 Review)"
+      },
+      {
         "slug": "nepal-ndc-3-2025",
         "title": "Nepal Nationally Determined Contribution 3.0 (2025)"
       },
@@ -260,6 +300,10 @@
       {
         "slug": "sjvn-arun-3-project-record",
         "title": "SJVN Arun III HEP Project Record"
+      },
+      {
+        "slug": "spotlightnepal-nea-594mw-iex-approval-2026",
+        "title": "Spotlight Nepal \u2014 NEA secures approval from India to sell 594 MW (2026)"
       },
       {
         "slug": "tanahu-adb-status-2025",
@@ -516,6 +560,10 @@
         "title": "Dhungesanghu\u2013Basantapur 220/132 kV Corridor"
       },
       {
+        "slug": "doed",
+        "title": "Department of Electricity Development (DoED)"
+      },
+      {
         "slug": "dordi-khola",
         "title": "Dordi Khola"
       },
@@ -526,6 +574,10 @@
       {
         "slug": "durbang-myagdi-khola",
         "title": "Durbang Myagdi Khola"
+      },
+      {
+        "slug": "erc",
+        "title": "Electricity Regulatory Commission (ERC)"
       },
       {
         "slug": "gandaki-basin",
@@ -544,6 +596,10 @@
         "title": "Hetauda\u2013Dhalkebar\u2013Inaruwa 400 kV Backbone"
       },
       {
+        "slug": "hidcl",
+        "title": "Hydroelectricity Investment and Development Company Limited (HIDCL)"
+      },
+      {
         "slug": "humla-karnali-1",
         "title": "Humla Karnali 1 HPP"
       },
@@ -552,12 +608,20 @@
         "title": "Humla Karnali 2 HPP"
       },
       {
+        "slug": "ibn",
+        "title": "Investment Board Nepal (IBN)"
+      },
+      {
         "slug": "inaruwa-purnea-interconnection",
         "title": "Inaruwa\u2013Purnea 400 kV Cross-Border Interconnection"
       },
       {
         "slug": "india-energy-relationship",
         "title": "India \u2014 Energy Relationship with Nepal"
+      },
+      {
+        "slug": "ippan",
+        "title": "Independent Power Producers' Association, Nepal (IPPAN)"
       },
       {
         "slug": "jagdulla",
@@ -570,6 +634,10 @@
       {
         "slug": "kabeli-132",
         "title": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor"
+      },
+      {
+        "slug": "kabeli-3",
+        "title": "Kabeli-3 Cascade"
       },
       {
         "slug": "kabeli-a",
@@ -602,6 +670,10 @@
       {
         "slug": "karnali-solar-energy-project",
         "title": "Karnali Solar Energy Project"
+      },
+      {
+        "slug": "karuwa-seti",
+        "title": "Karuwa Seti"
       },
       {
         "slug": "kasuwa-khola",
@@ -748,6 +820,10 @@
         "title": "Madi"
       },
       {
+        "slug": "madme-khola",
+        "title": "Madme Khola"
+      },
+      {
         "slug": "mahakali-basin",
         "title": "Mahakali Basin"
       },
@@ -776,6 +852,10 @@
         "title": "Marsyangdi"
       },
       {
+        "slug": "mathillo-thulo-khola-a",
+        "title": "Mathillo Thulo Khola A"
+      },
+      {
         "slug": "mca-central-400",
         "title": "MCA Central 400 kV Corridor (Lapsiphedi\u2013Ratmate\u2013Hetauda\u2013Damauli\u2013Butwal)"
       },
@@ -794,6 +874,10 @@
       {
         "slug": "modi-lekhnath-132kv",
         "title": "New Modi\u2013Lekhnath 132 kV Transmission Line"
+      },
+      {
+        "slug": "moewri",
+        "title": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)"
       },
       {
         "slug": "morang-utility-solar",
@@ -836,6 +920,10 @@
         "title": "Nepal Electricity Authority (NEA)"
       },
       {
+        "slug": "nepal-digital-infrastructure",
+        "title": "Nepal Digital Infrastructure Company Limited (NDICL)"
+      },
+      {
         "slug": "nepal-energy-profile",
         "title": "Nepal Energy Profile"
       },
@@ -844,8 +932,16 @@
         "title": "Nepal\u2013India Electricity Transmission and Trade Project (NIETTP)"
       },
       {
+        "slug": "nilgiri-khola-ii",
+        "title": "Nilgiri Khola-II Cascade"
+      },
+      {
         "slug": "nilgiri-khola",
         "title": "Nilgiri Khola"
+      },
+      {
+        "slug": "noc",
+        "title": "Nepal Oil Corporation (NOC)"
       },
       {
         "slug": "nyadi-khola",
@@ -896,6 +992,14 @@
         "title": "Ratmate\u2013Rasuwagadhi\u2013Kerung 400 kV Transmission Line"
       },
       {
+        "slug": "rpgcl",
+        "title": "Rastriya Prasaran Grid Company Limited (RPGCL)"
+      },
+      {
+        "slug": "sagu-khola",
+        "title": "Sagu Khola"
+      },
+      {
         "slug": "sahas-urja",
         "title": "Sahas Urja \u2014 Solu Khola (Dudh Koshi) Hydroelectric Project"
       },
@@ -910,6 +1014,10 @@
       {
         "slug": "sanjen",
         "title": "Sanjen"
+      },
+      {
+        "slug": "seti-khola-kaski",
+        "title": "Seti Khola HPP (Kaski, 25 MW)"
       },
       {
         "slug": "shivasatakshi-jhapa",
@@ -992,6 +1100,10 @@
         "title": "Tanahu Hydropower Project"
       },
       {
+        "slug": "thulo-khola",
+        "title": "Thulo Khola"
+      },
+      {
         "slug": "tingla-132-33kv-substation",
         "title": "Tingla 132/33 kV Substation"
       },
@@ -1032,6 +1144,10 @@
         "title": "Upper Chaku A"
       },
       {
+        "slug": "upper-chameliya",
+        "title": "Upper Chameliya"
+      },
+      {
         "slug": "upper-dordi-a",
         "title": "Upper Dordi A HEP"
       },
@@ -1070,6 +1186,10 @@
       {
         "slug": "upper-nyasim-khola",
         "title": "Upper Nyasim Khola"
+      },
+      {
+        "slug": "upper-rahughat",
+        "title": "Upper Rahughat"
       },
       {
         "slug": "upper-tamakoshi",
@@ -1464,8 +1584,16 @@
         "title": "Basin Discharge Data"
       },
       {
+        "slug": "data-clean-industry-and-compute-siting",
+        "title": "Clean-Industry and Compute Siting Baseline"
+      },
+      {
         "slug": "data-consumption-geographic-distribution",
         "title": "Electricity Consumption Geographic Distribution"
+      },
+      {
+        "slug": "data-cross-border-approved-plants",
+        "title": "Cross-Border Export Approvals Ledger"
       },
       {
         "slug": "data-domestic-demand",
@@ -1480,6 +1608,14 @@
         "title": "Electricity System Indicator Register"
       },
       {
+        "slug": "data-energy-institutions",
+        "title": "Nepal Energy Institutions Registry"
+      },
+      {
+        "slug": "data-erc-retail-tariffs",
+        "title": "NEA Retail Electricity Tariff Schedule"
+      },
+      {
         "slug": "data-final-energy-mix",
         "title": "Nepal Final Energy Mix"
       },
@@ -1490,6 +1626,10 @@
       {
         "slug": "data-industrial-electricity-consumers",
         "title": "Industrial Electricity Consumers in Nepal"
+      },
+      {
+        "slug": "data-infrastructure-hazard-register",
+        "title": "Infrastructure Hazard Register (2023-2026) and Dangerous Glacial Lakes"
       },
       {
         "slug": "data-ipsdp-milestone-ladder-2022-2040",
@@ -1640,6 +1780,14 @@
         "title": "Internal Data: Transmission Trace Gaps"
       },
       {
+        "slug": "data-load-anchors-and-fossil-backbone",
+        "title": "Load Anchors and Fossil Backbone Registry"
+      },
+      {
+        "slug": "data-major-developers",
+        "title": "Major Hydropower Developers Registry"
+      },
+      {
         "slug": "data-map-inventory",
         "title": "Map Inventory"
       },
@@ -1652,8 +1800,16 @@
         "title": "Mountain Hydro System Comparison"
       },
       {
+        "slug": "data-nea-grid-infrastructure-fy2025-26",
+        "title": "NEA Grid Infrastructure FY 2025/26"
+      },
+      {
         "slug": "data-nea-substation-capacity-fy2076-77",
         "title": "NEA Substation Capacity FY 2076/77"
+      },
+      {
+        "slug": "data-nea-system-annual-timeseries",
+        "title": "NEA System Annual Time Series FY 2015/16\u20132025/26"
       },
       {
         "slug": "data-nea-transmission-length-fy2076-77",
@@ -1668,12 +1824,32 @@
         "title": "Nepal Solar Resource Zones"
       },
       {
+        "slug": "data-nepse-hydro-performance",
+        "title": "Listed Hydropower Performance (Starter)"
+      },
+      {
+        "slug": "data-non-dam-storage-pipeline",
+        "title": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)"
+      },
+      {
+        "slug": "data-open-data-catalog",
+        "title": "Open Data Catalog"
+      },
+      {
         "slug": "data-pipeline-readme",
         "title": "Data Pipeline Readme"
       },
       {
+        "slug": "data-plant-annual-generation",
+        "title": "Plant Annual Generation FY 2024/25\u20132025/26"
+      },
+      {
         "slug": "data-potential-pyramid",
         "title": "Hydropower Potential Pyramid"
+      },
+      {
+        "slug": "data-ppa-standard-rates",
+        "title": "NEA Standard PPA Rate Schedule"
       },
       {
         "slug": "data-rooftop-shs-deployment",
@@ -1694,6 +1870,10 @@
       {
         "slug": "data-storage-comparison",
         "title": "Storage Capacity Comparison"
+      },
+      {
+        "slug": "data-substation-inventory",
+        "title": "Grid Substation Inventory"
       },
       {
         "slug": "data-trade-time-series",
@@ -1742,16 +1922,21 @@
     "care-ratings-sanima-mai",
     "chilime-annual-report-fy2078-79",
     "clickmandu-financial-reporting",
+    "customs-foreign-trade-statistics-2080-83",
+    "doed-hydropower-registry",
     "doed-licensing-directive-2075",
     "doed-solar-power-plants-table",
     "dudhkoshi-nea-proposal-2024",
     "eib-rural-solar-phase2",
+    "ekantipur-additional-80mw-export-approval-2025",
     "erc-eca-storage-ppa-discussion-paper-2025",
+    "erc-nea-consumer-tariff-order-2078",
     "erc-open-access-directive-2082",
     "erc-reservoir-ppa-directive-2082",
     "global-solar-atlas-nepal",
     "green-hydrogen-roadmap-nepal",
     "himalayan-capital-analysis",
+    "icimod-glacial-lake-inventory-2020",
     "icimod-hkh-glacier-change",
     "icimod-koshi-basin",
     "icimod-koshi-sediment-threats",
@@ -1760,6 +1945,7 @@
     "icra-upper-karnali-2026",
     "iea-tracking-sdg7-2025",
     "india-cbte-2018",
+    "indian-embassy-motihari-amlekhgunj-pipeline-2019",
     "irena-remap-nepal",
     "jica-ipsdp-main-report-vol2",
     "kali-gandaki-a-adb-evaluation",
@@ -1768,6 +1954,9 @@
     "kathmandupost-bhotekoshi-flood-hydropower-damage-2026",
     "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026",
     "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026",
+    "kathmandupost-export-approval-renewals-2026",
+    "kathmandupost-india-approves-additional-200mw-2025",
+    "kathmandupost-nvvn-200mw-five-year-deal-2023",
     "khimti-i-project-research",
     "likhu-cascade-research-compilation",
     "moewri-ipsdp-exec-summary-2025",
@@ -1785,6 +1974,7 @@
     "nea-standard-ppa-clauses",
     "nea-transmission-annual-book-2077",
     "nefport-protected-area-hydro-ruling-2025",
+    "nepal-energy-institution-websites-2026",
     "nepal-ndc-3-2025",
     "nepal-transmission-landscape-2025",
     "pancheshwar-official-project-record",
@@ -1797,6 +1987,7 @@
     "sebon-hydropower-offering-records",
     "sector-financial-analysis-triple-authority-2026",
     "sjvn-arun-3-project-record",
+    "spotlightnepal-nea-594mw-iex-approval-2026",
     "tanahu-adb-status-2025",
     "tanahu-progress-2026",
     "uahel-upper-arun-project",
@@ -1860,20 +2051,26 @@
     "dharamnagar-solar-ii",
     "dharamnagar-solar",
     "dhungesangu-basantapur-220-132kv",
+    "doed",
     "dordi-khola",
     "dudhkoshi-storage",
     "durbang-myagdi-khola",
+    "erc",
     "gandaki-basin",
     "gorakhpur-butwal-interconnection",
     "hetauda-bharatpur-bardaghat-corridor",
     "hetauda-dhalkebar-inaruwa-backbone",
+    "hidcl",
     "humla-karnali-1",
     "humla-karnali-2",
+    "ibn",
     "inaruwa-purnea-interconnection",
     "india-energy-relationship",
+    "ippan",
     "jagdulla",
     "jira-bhawani-sedawa",
     "kabeli-132",
+    "kabeli-3",
     "kabeli-a",
     "kabeli-b-1",
     "kali-gandaki-a",
@@ -1882,6 +2079,7 @@
     "karnali-basin",
     "karnali-chisapani",
     "karnali-solar-energy-project",
+    "karuwa-seti",
     "kasuwa-khola",
     "kataiya-kushaha-interconnection",
     "kathmandu-valley-underground-cabling",
@@ -1918,6 +2116,7 @@
     "madhya-bhotekoshi",
     "madhya-marsyangdi",
     "madi",
+    "madme-khola",
     "mahakali-basin",
     "mai",
     "main-load-dispatch-centre",
@@ -1925,11 +2124,13 @@
     "marsyangdi-besi",
     "marsyangdi-upper-220",
     "marsyangdi",
+    "mathillo-thulo-khola-a",
     "mca-central-400",
     "mewa-khola-hydropower-project",
     "middle-tamor",
     "mithila-solar-dhanusha-10mwp",
     "modi-lekhnath-132kv",
+    "moewri",
     "morang-utility-solar",
     "mristi-khola",
     "mugu-karnali-storage",
@@ -1940,9 +2141,12 @@
     "nea-960mw-solar-tender",
     "nea-solar",
     "nea",
+    "nepal-digital-infrastructure",
     "nepal-energy-profile",
     "niettp",
+    "nilgiri-khola-ii",
     "nilgiri-khola",
+    "noc",
     "nyadi-khola",
     "pancheshwar",
     "phukot-karnali",
@@ -1955,10 +2159,13 @@
     "rasuwa-bhotekoshi",
     "rasuwagadhi",
     "ratmate-rasuwagadhi-kerung-400kv",
+    "rpgcl",
+    "sagu-khola",
     "sahas-urja",
     "sanima-mai",
     "sanjen-khola",
     "sanjen",
+    "seti-khola-kaski",
     "shivasatakshi-jhapa",
     "simara-solar",
     "singati-khola-hydropower-project",
@@ -1979,6 +2186,7 @@
     "tamakoshi-v",
     "tamor-storage",
     "tanahu-hydropower",
+    "thulo-khola",
     "tingla-132-33kv-substation",
     "trishuli-cascade",
     "trishuli-galchhi",
@@ -1989,6 +2197,7 @@
     "upper-bhotekoshi",
     "upper-budhigandaki",
     "upper-chaku-a",
+    "upper-chameliya",
     "upper-dordi-a",
     "upper-kalangad",
     "upper-karnali",
@@ -1999,6 +2208,7 @@
     "upper-modi-a",
     "upper-myagdi",
     "upper-nyasim-khola",
+    "upper-rahughat",
     "upper-tamakoshi",
     "upper-tamor",
     "upper-trishuli-1",
@@ -2095,13 +2305,18 @@
     "claim-transmission-immediate-blocker",
     "data-agricultural-energy-consumption",
     "data-basin-discharge",
+    "data-clean-industry-and-compute-siting",
     "data-consumption-geographic-distribution",
+    "data-cross-border-approved-plants",
     "data-domestic-demand",
     "data-electricity-system-evidence-gaps",
     "data-electricity-system-indicators",
+    "data-energy-institutions",
+    "data-erc-retail-tariffs",
     "data-final-energy-mix",
     "data-fleet-composition",
     "data-industrial-electricity-consumers",
+    "data-infrastructure-hazard-register",
     "data-ipsdp-milestone-ladder-2022-2040",
     "data-layer-basin-seasonality",
     "data-layer-carto-positron",
@@ -2139,20 +2354,30 @@
     "data-layer-transmission-network-nodes",
     "data-layer-transmission-raw-traced-segments",
     "data-layer-transmission-trace-gaps-qa",
+    "data-load-anchors-and-fossil-backbone",
+    "data-major-developers",
     "data-map-inventory",
     "data-map-layer-labels",
     "data-mountain-hydro-comparison",
+    "data-nea-grid-infrastructure-fy2025-26",
     "data-nea-substation-capacity-fy2076-77",
+    "data-nea-system-annual-timeseries",
     "data-nea-transmission-length-fy2076-77",
     "data-nepal-peak-load-curve-fy2024-25",
     "data-nepal-solar-resource-zones",
+    "data-nepse-hydro-performance",
+    "data-non-dam-storage-pipeline",
+    "data-open-data-catalog",
     "data-pipeline-readme",
+    "data-plant-annual-generation",
     "data-potential-pyramid",
+    "data-ppa-standard-rates",
     "data-rooftop-shs-deployment",
     "data-solar-fleet-inventory",
     "data-solar-hydro-complementarity-profile",
     "data-solar-hydro-lcoe",
     "data-storage-comparison",
+    "data-substation-inventory",
     "data-trade-time-series",
     "data-winter-deficit-model",
     "figure-index",
@@ -2173,16 +2398,21 @@
     "care-ratings-sanima-mai": "sources",
     "chilime-annual-report-fy2078-79": "sources",
     "clickmandu-financial-reporting": "sources",
+    "customs-foreign-trade-statistics-2080-83": "sources",
+    "doed-hydropower-registry": "sources",
     "doed-licensing-directive-2075": "sources",
     "doed-solar-power-plants-table": "sources",
     "dudhkoshi-nea-proposal-2024": "sources",
     "eib-rural-solar-phase2": "sources",
+    "ekantipur-additional-80mw-export-approval-2025": "sources",
     "erc-eca-storage-ppa-discussion-paper-2025": "sources",
+    "erc-nea-consumer-tariff-order-2078": "sources",
     "erc-open-access-directive-2082": "sources",
     "erc-reservoir-ppa-directive-2082": "sources",
     "global-solar-atlas-nepal": "sources",
     "green-hydrogen-roadmap-nepal": "sources",
     "himalayan-capital-analysis": "sources",
+    "icimod-glacial-lake-inventory-2020": "sources",
     "icimod-hkh-glacier-change": "sources",
     "icimod-koshi-basin": "sources",
     "icimod-koshi-sediment-threats": "sources",
@@ -2191,6 +2421,7 @@
     "icra-upper-karnali-2026": "sources",
     "iea-tracking-sdg7-2025": "sources",
     "india-cbte-2018": "sources",
+    "indian-embassy-motihari-amlekhgunj-pipeline-2019": "sources",
     "irena-remap-nepal": "sources",
     "jica-ipsdp-main-report-vol2": "sources",
     "kali-gandaki-a-adb-evaluation": "sources",
@@ -2199,6 +2430,9 @@
     "kathmandupost-bhotekoshi-flood-hydropower-damage-2026": "sources",
     "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026": "sources",
     "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026": "sources",
+    "kathmandupost-export-approval-renewals-2026": "sources",
+    "kathmandupost-india-approves-additional-200mw-2025": "sources",
+    "kathmandupost-nvvn-200mw-five-year-deal-2023": "sources",
     "khimti-i-project-research": "sources",
     "likhu-cascade-research-compilation": "sources",
     "moewri-ipsdp-exec-summary-2025": "sources",
@@ -2216,6 +2450,7 @@
     "nea-standard-ppa-clauses": "sources",
     "nea-transmission-annual-book-2077": "sources",
     "nefport-protected-area-hydro-ruling-2025": "sources",
+    "nepal-energy-institution-websites-2026": "sources",
     "nepal-ndc-3-2025": "sources",
     "nepal-transmission-landscape-2025": "sources",
     "pancheshwar-official-project-record": "sources",
@@ -2228,6 +2463,7 @@
     "sebon-hydropower-offering-records": "sources",
     "sector-financial-analysis-triple-authority-2026": "sources",
     "sjvn-arun-3-project-record": "sources",
+    "spotlightnepal-nea-594mw-iex-approval-2026": "sources",
     "tanahu-adb-status-2025": "sources",
     "tanahu-progress-2026": "sources",
     "uahel-upper-arun-project": "sources",
@@ -2291,20 +2527,26 @@
     "dharamnagar-solar-ii": "entities",
     "dharamnagar-solar": "entities",
     "dhungesangu-basantapur-220-132kv": "entities",
+    "doed": "entities",
     "dordi-khola": "entities",
     "dudhkoshi-storage": "entities",
     "durbang-myagdi-khola": "entities",
+    "erc": "entities",
     "gandaki-basin": "entities",
     "gorakhpur-butwal-interconnection": "entities",
     "hetauda-bharatpur-bardaghat-corridor": "entities",
     "hetauda-dhalkebar-inaruwa-backbone": "entities",
+    "hidcl": "entities",
     "humla-karnali-1": "entities",
     "humla-karnali-2": "entities",
+    "ibn": "entities",
     "inaruwa-purnea-interconnection": "entities",
     "india-energy-relationship": "entities",
+    "ippan": "entities",
     "jagdulla": "entities",
     "jira-bhawani-sedawa": "entities",
     "kabeli-132": "entities",
+    "kabeli-3": "entities",
     "kabeli-a": "entities",
     "kabeli-b-1": "entities",
     "kali-gandaki-a": "entities",
@@ -2313,6 +2555,7 @@
     "karnali-basin": "entities",
     "karnali-chisapani": "entities",
     "karnali-solar-energy-project": "entities",
+    "karuwa-seti": "entities",
     "kasuwa-khola": "entities",
     "kataiya-kushaha-interconnection": "entities",
     "kathmandu-valley-underground-cabling": "entities",
@@ -2349,6 +2592,7 @@
     "madhya-bhotekoshi": "entities",
     "madhya-marsyangdi": "entities",
     "madi": "entities",
+    "madme-khola": "entities",
     "mahakali-basin": "entities",
     "mai": "entities",
     "main-load-dispatch-centre": "entities",
@@ -2356,11 +2600,13 @@
     "marsyangdi-besi": "entities",
     "marsyangdi-upper-220": "entities",
     "marsyangdi": "entities",
+    "mathillo-thulo-khola-a": "entities",
     "mca-central-400": "entities",
     "mewa-khola-hydropower-project": "entities",
     "middle-tamor": "entities",
     "mithila-solar-dhanusha-10mwp": "entities",
     "modi-lekhnath-132kv": "entities",
+    "moewri": "entities",
     "morang-utility-solar": "entities",
     "mristi-khola": "entities",
     "mugu-karnali-storage": "entities",
@@ -2371,9 +2617,12 @@
     "nea-960mw-solar-tender": "entities",
     "nea-solar": "entities",
     "nea": "entities",
+    "nepal-digital-infrastructure": "entities",
     "nepal-energy-profile": "entities",
     "niettp": "entities",
+    "nilgiri-khola-ii": "entities",
     "nilgiri-khola": "entities",
+    "noc": "entities",
     "nyadi-khola": "entities",
     "pancheshwar": "entities",
     "phukot-karnali": "entities",
@@ -2386,10 +2635,13 @@
     "rasuwa-bhotekoshi": "entities",
     "rasuwagadhi": "entities",
     "ratmate-rasuwagadhi-kerung-400kv": "entities",
+    "rpgcl": "entities",
+    "sagu-khola": "entities",
     "sahas-urja": "entities",
     "sanima-mai": "entities",
     "sanjen-khola": "entities",
     "sanjen": "entities",
+    "seti-khola-kaski": "entities",
     "shivasatakshi-jhapa": "entities",
     "simara-solar": "entities",
     "singati-khola-hydropower-project": "entities",
@@ -2410,6 +2662,7 @@
     "tamakoshi-v": "entities",
     "tamor-storage": "entities",
     "tanahu-hydropower": "entities",
+    "thulo-khola": "entities",
     "tingla-132-33kv-substation": "entities",
     "trishuli-cascade": "entities",
     "trishuli-galchhi": "entities",
@@ -2420,6 +2673,7 @@
     "upper-bhotekoshi": "entities",
     "upper-budhigandaki": "entities",
     "upper-chaku-a": "entities",
+    "upper-chameliya": "entities",
     "upper-dordi-a": "entities",
     "upper-kalangad": "entities",
     "upper-karnali": "entities",
@@ -2430,6 +2684,7 @@
     "upper-modi-a": "entities",
     "upper-myagdi": "entities",
     "upper-nyasim-khola": "entities",
+    "upper-rahughat": "entities",
     "upper-tamakoshi": "entities",
     "upper-tamor": "entities",
     "upper-trishuli-1": "entities",
@@ -2526,13 +2781,18 @@
     "claim-transmission-immediate-blocker": "claims",
     "data-agricultural-energy-consumption": "data",
     "data-basin-discharge": "data",
+    "data-clean-industry-and-compute-siting": "data",
     "data-consumption-geographic-distribution": "data",
+    "data-cross-border-approved-plants": "data",
     "data-domestic-demand": "data",
     "data-electricity-system-evidence-gaps": "data",
     "data-electricity-system-indicators": "data",
+    "data-energy-institutions": "data",
+    "data-erc-retail-tariffs": "data",
     "data-final-energy-mix": "data",
     "data-fleet-composition": "data",
     "data-industrial-electricity-consumers": "data",
+    "data-infrastructure-hazard-register": "data",
     "data-ipsdp-milestone-ladder-2022-2040": "data",
     "data-layer-basin-seasonality": "data",
     "data-layer-carto-positron": "data",
@@ -2570,20 +2830,30 @@
     "data-layer-transmission-network-nodes": "data",
     "data-layer-transmission-raw-traced-segments": "data",
     "data-layer-transmission-trace-gaps-qa": "data",
+    "data-load-anchors-and-fossil-backbone": "data",
+    "data-major-developers": "data",
     "data-map-inventory": "data",
     "data-map-layer-labels": "data",
     "data-mountain-hydro-comparison": "data",
+    "data-nea-grid-infrastructure-fy2025-26": "data",
     "data-nea-substation-capacity-fy2076-77": "data",
+    "data-nea-system-annual-timeseries": "data",
     "data-nea-transmission-length-fy2076-77": "data",
     "data-nepal-peak-load-curve-fy2024-25": "data",
     "data-nepal-solar-resource-zones": "data",
+    "data-nepse-hydro-performance": "data",
+    "data-non-dam-storage-pipeline": "data",
+    "data-open-data-catalog": "data",
     "data-pipeline-readme": "data",
+    "data-plant-annual-generation": "data",
     "data-potential-pyramid": "data",
+    "data-ppa-standard-rates": "data",
     "data-rooftop-shs-deployment": "data",
     "data-solar-fleet-inventory": "data",
     "data-solar-hydro-complementarity-profile": "data",
     "data-solar-hydro-lcoe": "data",
     "data-storage-comparison": "data",
+    "data-substation-inventory": "data",
     "data-trade-time-series": "data",
     "data-winter-deficit-model": "data",
     "figure-index": "data",
@@ -2604,16 +2874,21 @@
     "care-ratings-sanima-mai": "CARE Ratings Nepal \u2014 Sanima Mai Hydropower Credit Assessments",
     "chilime-annual-report-fy2078-79": "Chilime Hydropower Company Limited Annual Report FY 2078/79",
     "clickmandu-financial-reporting": "Clickmandu \u2014 Sahas Urja Financial Reporting",
+    "customs-foreign-trade-statistics-2080-83": "Department of Customs Foreign Trade Statistics, FY 2080/81\u20132082/83",
+    "doed-hydropower-registry": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
     "doed-licensing-directive-2075": "DoED Licensing Directive 2075 \u2014 Hydropower Project Licensing",
     "doed-solar-power-plants-table": "DoED Power Plants: Solar Table",
     "dudhkoshi-nea-proposal-2024": "Dudhkoshi Storage \u2014 NEA Proposal & Feasibility Record",
     "eib-rural-solar-phase2": "EIB Promotion of Solar Energy in Rural and Semi-Urban Regions II",
+    "ekantipur-additional-80mw-export-approval-2025": "Kantipur \u2014 Approval to sell an additional 80 MW of electricity in India (2025)",
     "erc-eca-storage-ppa-discussion-paper-2025": "ERC/ECA Discussion Paper on Storage Hydro PPA Pricing (2025)",
+    "erc-nea-consumer-tariff-order-2078": "ERC \u2014 NEA Electricity Consumer Tariff Determination 2078",
     "erc-open-access-directive-2082": "ERC Open Access Directive 2082",
     "erc-reservoir-ppa-directive-2082": "ERC Reservoir-Based Generating Station Electricity Purchase and Sale Directive 2082",
     "global-solar-atlas-nepal": "Global Solar Atlas (Nepal coverage)",
     "green-hydrogen-roadmap-nepal": "Green Hydrogen Roadmap for Nepal",
     "himalayan-capital-analysis": "Himalayan Capital \u2014 Sahas Urja Analysis",
+    "icimod-glacial-lake-inventory-2020": "ICIMOD & UNDP Glacial Lake Inventory and Potentially Dangerous Lakes (2020)",
     "icimod-hkh-glacier-change": "ICIMOD HKH Glacier Change Summary",
     "icimod-koshi-basin": "ICIMOD Koshi Basin Programme",
     "icimod-koshi-sediment-threats": "ICIMOD Threats to the Koshi River Basin",
@@ -2622,6 +2897,7 @@
     "icra-upper-karnali-2026": "ICRA GMR Energy Rating Rationale \u2014 Upper Karnali (June 2026)",
     "iea-tracking-sdg7-2025": "IEA / Tracking SDG7 Energy Progress Report 2025",
     "india-cbte-2018": "India Cross-Border Trade in Electricity Guidelines (2018)",
+    "indian-embassy-motihari-amlekhgunj-pipeline-2019": "Embassy of India Release on the Motihari\u2013Amlekhgunj Pipeline (2019)",
     "irena-remap-nepal": "IRENA Renewable Readiness Assessment and REmap Nepal",
     "jica-ipsdp-main-report-vol2": "JICA IPSDP Final Report Annexes (Vol. 2)",
     "kali-gandaki-a-adb-evaluation": "Kali Gandaki A \u2014 ADB Performance Evaluation & Wikipedia",
@@ -2630,6 +2906,9 @@
     "kathmandupost-bhotekoshi-flood-hydropower-damage-2026": "Kathmandu Post \u2014 Flood damage to Nepal's hydropower sector could run into billions (2026)",
     "kathmandupost-bhotekoshi-flood-sitrep-ndrrma-2026": "Kathmandu Post / NDRRMA \u2014 Death toll from Bhotekoshi flood reaches 734 (2026)",
     "kathmandupost-bhotekoshi-flood-tunnel-rescues-2026": "Kathmandu Post \u2014 Hundreds feared trapped in hydropower tunnels after Bhotekoshi flood (2026)",
+    "kathmandupost-export-approval-renewals-2026": "Kathmandu Post \u2014 India renews export approvals for four Nepali hydropower projects (2026)",
+    "kathmandupost-india-approves-additional-200mw-2025": "Kathmandu Post \u2014 India approves purchase of additional 200 MW from Nepal (2025)",
+    "kathmandupost-nvvn-200mw-five-year-deal-2023": "Kathmandu Post \u2014 Nepal to sell 200MW under 5-year deal (2023)",
     "khimti-i-project-research": "Khimti-I Project Research \u2014 PPA, Generation, Finance, Ownership",
     "likhu-cascade-research-compilation": "Likhu Cascade Research Compilation",
     "moewri-ipsdp-exec-summary-2025": "MoEWRI IPSDP Executive Summary",
@@ -2647,6 +2926,7 @@
     "nea-standard-ppa-clauses": "NEA Standard Hydropower PPA Clauses \u2014 AD Penalty, Reserve Margin, and Curtailment",
     "nea-transmission-annual-book-2077": "NEA Transmission Annual Book 2077",
     "nefport-protected-area-hydro-ruling-2025": "NEFPORT Protected-Area Hydropower Ruling Estimate (2025)",
+    "nepal-energy-institution-websites-2026": "Nepal Energy Institution Official Websites (Nov 2026 Review)",
     "nepal-ndc-3-2025": "Nepal Nationally Determined Contribution 3.0 (2025)",
     "nepal-transmission-landscape-2025": "Nepal Transmission System \u2014 400 kV Landscape & Cross-Border Plan (2025)",
     "pancheshwar-official-project-record": "Pancheshwar Official Project Records \u2014 Nepal and India",
@@ -2659,6 +2939,7 @@
     "sebon-hydropower-offering-records": "SEBON Hydropower Offering Records (Selected Issuers, 2018\u20132025)",
     "sector-financial-analysis-triple-authority-2026": "Systemic Risk and Triple-Authority Research Compilation (2026)",
     "sjvn-arun-3-project-record": "SJVN Arun III HEP Project Record",
+    "spotlightnepal-nea-594mw-iex-approval-2026": "Spotlight Nepal \u2014 NEA secures approval from India to sell 594 MW (2026)",
     "tanahu-adb-status-2025": "Tanahu Hydropower Project Status (ADB, 2024\u20132026)",
     "tanahu-progress-2026": "Tanahu Hydropower Progress Update (April 2026)",
     "uahel-upper-arun-project": "UAHEL Upper Arun Hydroelectric Project Page",
@@ -2722,20 +3003,26 @@
     "dharamnagar-solar-ii": "Dharamnagar Solar Farm Project - II Kapilbastu",
     "dharamnagar-solar": "Dharamnagar Solar Farm Project",
     "dhungesangu-basantapur-220-132kv": "Dhungesanghu\u2013Basantapur 220/132 kV Corridor",
+    "doed": "Department of Electricity Development (DoED)",
     "dordi-khola": "Dordi Khola",
     "dudhkoshi-storage": "Dudhkoshi Storage Hydroelectric Project",
     "durbang-myagdi-khola": "Durbang Myagdi Khola",
+    "erc": "Electricity Regulatory Commission (ERC)",
     "gandaki-basin": "Gandaki Basin",
     "gorakhpur-butwal-interconnection": "Gorakhpur\u2013New Butwal 400 kV Cross-Border Interconnection",
     "hetauda-bharatpur-bardaghat-corridor": "Hetauda\u2013Bharatpur\u2013Bardaghat 220 kV Corridor",
     "hetauda-dhalkebar-inaruwa-backbone": "Hetauda\u2013Dhalkebar\u2013Inaruwa 400 kV Backbone",
+    "hidcl": "Hydroelectricity Investment and Development Company Limited (HIDCL)",
     "humla-karnali-1": "Humla Karnali 1 HPP",
     "humla-karnali-2": "Humla Karnali 2 HPP",
+    "ibn": "Investment Board Nepal (IBN)",
     "inaruwa-purnea-interconnection": "Inaruwa\u2013Purnea 400 kV Cross-Border Interconnection",
     "india-energy-relationship": "India \u2014 Energy Relationship with Nepal",
+    "ippan": "Independent Power Producers' Association, Nepal (IPPAN)",
     "jagdulla": "Jagdulla HEP",
     "jira-bhawani-sedawa": "Jira Bhawani Sedawa PV Project",
     "kabeli-132": "Kabeli / Godak-Soyak-Amarpur 132 kV Corridor",
+    "kabeli-3": "Kabeli-3 Cascade",
     "kabeli-a": "Kabeli-A",
     "kabeli-b-1": "Kabeli B - 1",
     "kali-gandaki-a": "Kali Gandaki A",
@@ -2744,6 +3031,7 @@
     "karnali-basin": "Karnali Basin",
     "karnali-chisapani": "Karnali Chisapani Project",
     "karnali-solar-energy-project": "Karnali Solar Energy Project",
+    "karuwa-seti": "Karuwa Seti",
     "kasuwa-khola": "Kasuwa Khola HPP",
     "kataiya-kushaha-interconnection": "Kataiya\u2013Kushaha 132 kV Cross-Border Interconnection",
     "kathmandu-valley-underground-cabling": "Kathmandu Valley Underground Cabling",
@@ -2780,6 +3068,7 @@
     "madhya-bhotekoshi": "Madhya Bhotekoshi",
     "madhya-marsyangdi": "Madhya Marsyangdi",
     "madi": "Madi",
+    "madme-khola": "Madme Khola",
     "mahakali-basin": "Mahakali Basin",
     "mai": "Mai",
     "main-load-dispatch-centre": "Main Load Dispatch Centre",
@@ -2787,11 +3076,13 @@
     "marsyangdi-besi": "Marsyangdi Besi",
     "marsyangdi-upper-220": "Marsyangdi Corridor Manang-Khudi-Udipur 220 kV",
     "marsyangdi": "Marsyangdi",
+    "mathillo-thulo-khola-a": "Mathillo Thulo Khola A",
     "mca-central-400": "MCA Central 400 kV Corridor (Lapsiphedi\u2013Ratmate\u2013Hetauda\u2013Damauli\u2013Butwal)",
     "mewa-khola-hydropower-project": "Mewa Khola Hydropower Project",
     "middle-tamor": "Middle Tamor",
     "mithila-solar-dhanusha-10mwp": "Mithila Solar PV Electric Project (Eco Power, 10 MWp)",
     "modi-lekhnath-132kv": "New Modi\u2013Lekhnath 132 kV Transmission Line",
+    "moewri": "Ministry of Energy, Water Resources and Irrigation (MoEWRI)",
     "morang-utility-solar": "Utility Scale Solar PV, Grid Connected Solar Project, Morang",
     "mristi-khola": "Mristi Khola",
     "mugu-karnali-storage": "Mugu Karnali Storage HEP",
@@ -2802,9 +3093,12 @@
     "nea-960mw-solar-tender": "NEA 960 MW National Solar Tender",
     "nea-solar": "NEA Solar Programme",
     "nea": "Nepal Electricity Authority (NEA)",
+    "nepal-digital-infrastructure": "Nepal Digital Infrastructure Company Limited (NDICL)",
     "nepal-energy-profile": "Nepal Energy Profile",
     "niettp": "Nepal\u2013India Electricity Transmission and Trade Project (NIETTP)",
+    "nilgiri-khola-ii": "Nilgiri Khola-II Cascade",
     "nilgiri-khola": "Nilgiri Khola",
+    "noc": "Nepal Oil Corporation (NOC)",
     "nyadi-khola": "Nyadi Khola",
     "pancheshwar": "Pancheshwar Multipurpose Project",
     "phukot-karnali": "Phukot Karnali",
@@ -2817,10 +3111,13 @@
     "rasuwa-bhotekoshi": "Rasuwa Bhotekoshi",
     "rasuwagadhi": "Rasuwagadhi",
     "ratmate-rasuwagadhi-kerung-400kv": "Ratmate\u2013Rasuwagadhi\u2013Kerung 400 kV Transmission Line",
+    "rpgcl": "Rastriya Prasaran Grid Company Limited (RPGCL)",
+    "sagu-khola": "Sagu Khola",
     "sahas-urja": "Sahas Urja \u2014 Solu Khola (Dudh Koshi) Hydroelectric Project",
     "sanima-mai": "Sanima Mai",
     "sanjen-khola": "Sanjen Khola",
     "sanjen": "Sanjen",
+    "seti-khola-kaski": "Seti Khola HPP (Kaski, 25 MW)",
     "shivasatakshi-jhapa": "Grid Connected Solar Project, Shivasatakshi Jhapa",
     "simara-solar": "Solar Power Project, Simara 11 kV S/S",
     "singati-khola-hydropower-project": "Singati Khola Hydropower Project",
@@ -2841,6 +3138,7 @@
     "tamakoshi-v": "Tamakoshi V",
     "tamor-storage": "Tamor Storage",
     "tanahu-hydropower": "Tanahu Hydropower Project",
+    "thulo-khola": "Thulo Khola",
     "tingla-132-33kv-substation": "Tingla 132/33 kV Substation",
     "trishuli-cascade": "Trishuli Cascade",
     "trishuli-galchhi": "Trishuli Galchhi",
@@ -2851,6 +3149,7 @@
     "upper-bhotekoshi": "Upper Bhotekoshi",
     "upper-budhigandaki": "Upper Budhigandaki HEP",
     "upper-chaku-a": "Upper Chaku A",
+    "upper-chameliya": "Upper Chameliya",
     "upper-dordi-a": "Upper Dordi A HEP",
     "upper-kalangad": "Upper Kalangad",
     "upper-karnali": "Upper Karnali",
@@ -2861,6 +3160,7 @@
     "upper-modi-a": "Upper Modi A",
     "upper-myagdi": "Upper Myagdi",
     "upper-nyasim-khola": "Upper Nyasim Khola",
+    "upper-rahughat": "Upper Rahughat",
     "upper-tamakoshi": "Upper Tamakoshi",
     "upper-tamor": "Upper Tamor",
     "upper-trishuli-1": "Upper Trishuli-1",
@@ -2957,13 +3257,18 @@
     "claim-transmission-immediate-blocker": "Transmission and Delivery Are Material Immediate Monetization Constraints",
     "data-agricultural-energy-consumption": "Agricultural Energy Consumption",
     "data-basin-discharge": "Basin Discharge Data",
+    "data-clean-industry-and-compute-siting": "Clean-Industry and Compute Siting Baseline",
     "data-consumption-geographic-distribution": "Electricity Consumption Geographic Distribution",
+    "data-cross-border-approved-plants": "Cross-Border Export Approvals Ledger",
     "data-domestic-demand": "Domestic Electricity Demand Distribution",
     "data-electricity-system-evidence-gaps": "Electricity System Evidence Gaps",
     "data-electricity-system-indicators": "Electricity System Indicator Register",
+    "data-energy-institutions": "Nepal Energy Institutions Registry",
+    "data-erc-retail-tariffs": "NEA Retail Electricity Tariff Schedule",
     "data-final-energy-mix": "Nepal Final Energy Mix",
     "data-fleet-composition": "Hydropower Fleet Composition",
     "data-industrial-electricity-consumers": "Industrial Electricity Consumers in Nepal",
+    "data-infrastructure-hazard-register": "Infrastructure Hazard Register (2023-2026) and Dangerous Glacial Lakes",
     "data-ipsdp-milestone-ladder-2022-2040": "IPSDP Milestone Ladder 2022-2040",
     "data-layer-basin-seasonality": "Layer: Basin Seasonality",
     "data-layer-carto-positron": "Layer: Carto Positron Basemap",
@@ -3001,20 +3306,30 @@
     "data-layer-transmission-network-nodes": "Internal Data: Transmission Topology Nodes",
     "data-layer-transmission-raw-traced-segments": "Internal Data: Source Trace Fragments",
     "data-layer-transmission-trace-gaps-qa": "Internal Data: Transmission Trace Gaps",
+    "data-load-anchors-and-fossil-backbone": "Load Anchors and Fossil Backbone Registry",
+    "data-major-developers": "Major Hydropower Developers Registry",
     "data-map-inventory": "Map Inventory",
     "data-map-layer-labels": "Map Layer Labels",
     "data-mountain-hydro-comparison": "Mountain Hydro System Comparison",
+    "data-nea-grid-infrastructure-fy2025-26": "NEA Grid Infrastructure FY 2025/26",
     "data-nea-substation-capacity-fy2076-77": "NEA Substation Capacity FY 2076/77",
+    "data-nea-system-annual-timeseries": "NEA System Annual Time Series FY 2015/16\u20132025/26",
     "data-nea-transmission-length-fy2076-77": "NEA Transmission Length FY 2076/77",
     "data-nepal-peak-load-curve-fy2024-25": "Nepal Peak Load Curve FY 2024/25",
     "data-nepal-solar-resource-zones": "Nepal Solar Resource Zones",
+    "data-nepse-hydro-performance": "Listed Hydropower Performance (Starter)",
+    "data-non-dam-storage-pipeline": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)",
+    "data-open-data-catalog": "Open Data Catalog",
     "data-pipeline-readme": "Data Pipeline Readme",
+    "data-plant-annual-generation": "Plant Annual Generation FY 2024/25\u20132025/26",
     "data-potential-pyramid": "Hydropower Potential Pyramid",
+    "data-ppa-standard-rates": "NEA Standard PPA Rate Schedule",
     "data-rooftop-shs-deployment": "Rooftop and Solar Home System Deployment",
     "data-solar-fleet-inventory": "Solar Fleet Inventory",
     "data-solar-hydro-complementarity-profile": "Solar\u2013Hydro Complementarity Profile",
     "data-solar-hydro-lcoe": "Solar and Hydro LCOE",
     "data-storage-comparison": "Storage Capacity Comparison",
+    "data-substation-inventory": "Grid Substation Inventory",
     "data-trade-time-series": "Electricity Trade Time Series",
     "data-winter-deficit-model": "Winter Deficit Model",
     "figure-index": "Figure Index",
@@ -3024,5 +3339,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 429
+  "totalPages": 474
 }

@@ -2,8 +2,8 @@
 title: Likhu Khola 'A'
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [likhu-cascade-research-compilation]
+updated: 2026-11-24
+sources: [likhu-cascade-research-compilation, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, private-ipp, solukhumbu, koshi]
 images: []
 generator: specs-refresh
@@ -25,7 +25,8 @@ page_quality: brief
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 51 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 148; commercial operation 2078-10-25 BS (about AD 2022) |
 | Registry licence | Generation |
 | River | Likhu Khola (eastern [[koshi-basin]]) |
 | District | Solukhumbu |
@@ -38,6 +39,8 @@ page_quality: brief
 ## Sources
 
 - [[likhu-cascade-research-compilation|Likhu Cascade Research Compilation]]
+- [[doed-hydropower-registry|DoED Hydropower Registry Tables (July 2026 Snapshot)]]
+- [[nea-annual-report-fy2025-26|NEA Annual Report FY 2025/26]]
 
 <!-- generated:sources:end -->
 
@@ -57,11 +60,9 @@ page_quality: brief
 | PBILDT margins | 82–91% |
 | Evacuation | New Khimti substation → Khimti–Dhalkebar 220 kV |
 
-> [!warning] **Registry status correction.** The Ministry of Energy registry
-> and the auto-generated spec table list Likhu Khola A as "Under construction"
-> at 51 MW. The plant commissioned on February 8, 2022 at a confirmed capacity
-> of 29.04 MW. The narrative follows CARE Nepal credit rating data and developer
-> operational disclosures.
+> [!note] **Registry status resolved (24 Nov 2026).** The specification table now follows the DoED
+> operating-plants register (snapshot 2 July 2026), which lists this plant as operating. Older legacy
+> registry fields carried it as under construction; that label is retired here.
 
 ## The Finishing Line — First to Commission
 

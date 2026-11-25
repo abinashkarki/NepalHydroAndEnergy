@@ -2,7 +2,7 @@
 title: Madi
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
+updated: 2026-11-24
 generator: specs-refresh
 page_quality: brief
 sources: [jica-ipsdp-main-report-vol2, moewri-ipsdp-exec-summary-2025]
@@ -15,10 +15,6 @@ images: []
 Madi is a 199.8 MW JICA promising-storage candidate in the West Rapti basin. It is pinned in [[data-layer-storage-shortlist]] because its dry-energy ratio is useful even though it is not a headline-MW project.
 
 <!-- generated:specs:start -->
-
-## Summary
-
-**Madi is a 199.8 MW JICA promising-storage candidate in the West Rapti basin (Karnali basin).** It contributes 170.7 GWh of dry-season energy with a 27.5% dry share and 359.5 MCM total storage (235.1 MCM effective). The page tracks it as a mid-tier storage portfolio option using the current JICA/NEA source set.
 
 ## Specifications
 
@@ -34,6 +30,14 @@ Madi is a 199.8 MW JICA promising-storage candidate in the West Rapti basin. It 
 | Total storage | 359.5 MCM |
 | Effective storage | 235.1 MCM |
 
+### Engineering
+
+| Parameter | Value |
+|-----------|-------|
+| Gross head | 280.8 m |
+| Design discharge | 84.9 m³/s |
+| Dam height | 190.0 m |
+
 ### Storage
 
 | Parameter | Value |
@@ -48,7 +52,9 @@ Madi is a 199.8 MW JICA promising-storage candidate in the West Rapti basin. It 
 | Annual design energy | 621.1 GWh |
 | Dry-season energy | 170.7 GWh |
 | Dry-season share | 27.5 % |
+| Plant load factor | 35.5 % |
 | Type | Storage |
+| Catchment area | 674.0 km² |
 
 <!-- generated:specs:end -->
 

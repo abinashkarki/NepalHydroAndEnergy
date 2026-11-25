@@ -296,8 +296,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.6520159781521,
-          28.42186786278833
+          83.65211362095337,
+          28.53733384217886
         ]
       }
     },
@@ -316,8 +316,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.65060885791756,
-          28.1280642459853
+          83.65070149018588,
+          28.2427291179528
         ]
       }
     },
@@ -336,8 +336,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.69052298786728,
-          27.460784986382116
+          83.69057958413792,
+          27.57372605380932
         ]
       }
     },
@@ -356,8 +356,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.47321851682389,
-          27.556542431092055
+          83.47314834630446,
+          27.668899768528664
         ]
       }
     },
@@ -376,8 +376,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          81.6886043769513,
-          28.09132093292611
+          81.68837943464126,
+          28.184986486650267
         ]
       }
     },
@@ -396,8 +396,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          81.15880776919326,
-          28.54114421639382
+          81.15895020515963,
+          28.62523399516448
         ]
       }
     },
@@ -416,8 +416,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.09452366380923,
-          28.946220417499394
+          80.09604919069734,
+          29.00336713098938
         ]
       }
     },
@@ -436,8 +436,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.55398409703626,
-          28.735364655748388
+          80.554814263865,
+          28.805175438765943
         ]
       }
     },
@@ -456,8 +456,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.64439891503855,
-          29.613418786265093
+          80.64386821586577,
+          29.68696597308902
         ]
       }
     },
@@ -465,6 +465,26 @@
       "type": "Feature",
       "properties": {
         "node_id": "trace_node_0024",
+        "label": "Kohalpur-Surkhet-Dailekh 132 kV line",
+        "node_type": "trace_endpoint",
+        "status": "Under construction",
+        "voltage_kv": "132",
+        "source_basis": "endpoint cluster from traced transmission geometry",
+        "confidence": "medium",
+        "place_anchor_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6886043769513,
+          28.09132093292611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "trace_node_0025",
         "label": "Kohalpur-Surkhet-Dailekh 132 kV line",
         "node_type": "trace_endpoint",
         "status": "Under construction",
@@ -484,7 +504,7 @@
     {
       "type": "Feature",
       "properties": {
-        "node_id": "trace_node_0025",
+        "node_id": "trace_node_0026",
         "label": "Kabeli 132 kV southern trunk (Lakhanpur-Soyak)",
         "node_type": "trace_endpoint",
         "status": "Under construction",
@@ -504,7 +524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "node_id": "trace_node_0026",
+        "node_id": "trace_node_0027",
         "label": "kabeli_132 junction",
         "node_type": "inferred_junction",
         "status": "Under construction",
@@ -524,7 +544,7 @@
     {
       "type": "Feature",
       "properties": {
-        "node_id": "trace_node_0027",
+        "node_id": "trace_node_0028",
         "label": "Kabeli 132 kV Godak branch",
         "node_type": "trace_endpoint",
         "status": "Under construction",
@@ -544,7 +564,7 @@
     {
       "type": "Feature",
       "properties": {
-        "node_id": "trace_node_0028",
+        "node_id": "trace_node_0029",
         "label": "Kabeli 132 kV Phidim-Amarpur branch",
         "node_type": "trace_endpoint",
         "status": "Under construction",
@@ -564,7 +584,7 @@
     {
       "type": "Feature",
       "properties": {
-        "node_id": "trace_node_0029",
+        "node_id": "trace_node_0030",
         "label": "Marsyangdi Upper 220 kV main route",
         "node_type": "trace_endpoint",
         "status": "Under construction",
@@ -584,7 +604,7 @@
     {
       "type": "Feature",
       "properties": {
-        "node_id": "trace_node_0030",
+        "node_id": "trace_node_0031",
         "label": "Solu Corridor 132 kV main route",
         "node_type": "trace_endpoint",
         "status": "Operational",
@@ -604,7 +624,7 @@
     {
       "type": "Feature",
       "properties": {
-        "node_id": "trace_node_0031",
+        "node_id": "trace_node_0032",
         "label": "Solu Corridor 132 kV main route",
         "node_type": "trace_endpoint",
         "status": "Operational",

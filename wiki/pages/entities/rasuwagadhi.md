@@ -2,8 +2,8 @@
 title: Rasuwagadhi
 type: entity
 created: 2026-04-20
-updated: 2026-08-30
-sources: [nea-engineering-annual-report-2081-82, ndrrma-rasuwa-glacial-flood-sitrep-2025, ppa-data-retrieval-icra-care-2026, sector-financial-analysis-triple-authority-2026, kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026]
+updated: 2026-11-24
+sources: [nea-engineering-annual-report-2081-82, ndrrma-rasuwa-glacial-flood-sitrep-2025, ppa-data-retrieval-icra-care-2026, sector-financial-analysis-triple-authority-2026, kathmandupost-bhotekoshi-flood-hydropower-damage-2026, kathmandupost-bhotekoshi-flood-tunnel-rescues-2026, doed-hydropower-registry, nea-annual-report-fy2025-26]
 tags: [project, operating, hazards, koshi, rasuwa, nea-subsidiary, chilime-group]
 images: []
 generator: manual

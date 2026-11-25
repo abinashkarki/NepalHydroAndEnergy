@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-24T08:33:04.480632+00:00",
+  "source_authority": "Nepal Department of Electricity Development",
+  "scope": "Non-hydro regulatory and operating records; licences and applications do not prove physical construction. Address column omitted (contains personal contact details).",
+  "rows": 161,
+  "technology_counts": {
+    "cogeneration": 4,
+    "solar": 150,
+    "thermal": 2,
+    "wind": 5
+  },
+  "category_counts": {
+    "generation_application": 6,
+    "generation_license": 15,
+    "operating": 31,
+    "survey_application": 21,
+    "survey_license": 88
+  },
+  "listed_capacity_mw_by_technology_and_category": {
+    "cogeneration|generation_license": 3.0,
+    "cogeneration|operating": 6.0,
+    "cogeneration|survey_license": 15.0,
+    "solar|generation_application": 129.0,
+    "solar|generation_license": 124.6,
+    "solar|operating": 154.74,
+    "solar|survey_application": 256.208,
+    "solar|survey_license": 1885.489,
+    "thermal|operating": 53.41,
+    "wind|survey_application": 1.0,
+    "wind|survey_license": 15.0
+  },
+  "sources": [
+    {
+      "page_id": "operating_solar",
+      "url": "https://doed.gov.np/pages/powerplantssolar/",
+      "technology": "solar",
+      "regulatory_category": "operating",
+      "updated_on": "2026-10-15",
+      "rows": 27,
+      "sha256": "47351345ca061d914024d1515e369d208caaea1f2f42f1734304bc29856242d2"
+    },
+    {
+      "page_id": "operating_wind",
+      "url": "https://doed.gov.np/pages/powerplantswind/",
+      "technology": "wind",
+      "regulatory_category": "operating",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "2725da338472890161b0237d173c6ec335e6a75af8926d40897dce5ae51a1db5"
+    },
+    {
+      "page_id": "operating_thermal",
+      "url": "https://doed.gov.np/pages/powerplantsthermal/",
+      "technology": "thermal",
+      "regulatory_category": "operating",
+      "updated_on": "2026-10-15",
+      "rows": 2,
+      "sha256": "c282df735bb5a62fb3cc40e177b7580237149a6cc88e351d7c44aecff7b8f03e"
+    },
+    {
+      "page_id": "operating_biomass",
+      "url": "https://doed.gov.np/pages/powerplantsbiomass/",
+      "technology": "biomass",
+      "regulatory_category": "operating",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "7643df8b8db601591d63ccf6443a1fe2735b5610afd254a91bce8ebe18224258"
+    },
+    {
+      "page_id": "operating_cogeneration",
+      "url": "https://doed.gov.np/pages/powerplantscogeneration/",
+      "technology": "cogeneration",
+      "regulatory_category": "operating",
+      "updated_on": "2026-10-15",
+      "rows": 2,
+      "sha256": "7d3e80820f22837cfc3191ca09bfc638cb17782e24edb5463521cc159942afa7"
+    },
+    {
+      "page_id": "generation_license_solar",
+      "url": "https://doed.gov.np/pages/clsolar/",
+      "technology": "solar",
+      "regulatory_category": "generation_license",
+      "updated_on": "2026-10-15",
+      "rows": 14,
+      "sha256": "c9bf21bd974079293a79c4be914ccce88051f3d0a8cc902a20919ac27ab17ac3"
+    },
+    {
+      "page_id": "generation_license_wind",
+      "url": "https://doed.gov.np/pages/clwind/",
+      "technology": "wind",
+      "regulatory_category": "generation_license",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "84eae6c173da28e79c9aacde67e69e07bb436361b01263645f5ba6985308caec"
+    },
+    {
+      "page_id": "generation_license_thermal",
+      "url": "https://doed.gov.np/pages/clthermal/",
+      "technology": "thermal",
+      "regulatory_category": "generation_license",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "a5e2c269ed80c7b8097ae8521d409f691fb71a4191a992fa31c9b55a742c5607"
+    },
+    {
+      "page_id": "generation_license_biomass",
+      "url": "https://doed.gov.np/pages/clbiomass-77/",
+      "technology": "biomass",
+      "regulatory_category": "generation_license",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "c210cf74dc789b9e6e15f502f9f0ec0fda4f8bb8192a31cd30bd3b6dda2ece20"
+    },
+    {
+      "page_id": "generation_license_cogeneration",
+      "url": "https://doed.gov.np/pages/clcogeneration/",
+      "technology": "cogeneration",
+      "regulatory_category": "generation_license",
+      "updated_on": "2026-10-15",
+      "rows": 1,
+      "sha256": "df82c6c85ee40901550ea0d300cff7ecdb362e65f19bc911b6afd56741fadf8e"
+    },
+    {
+      "page_id": "survey_license_solar",
+      "url": "https://doed.gov.np/pages/slsolar/",
+      "technology": "solar",
+      "regulatory_category": "survey_license",
+      "updated_on": "2026-10-15",
+      "rows": 83,
+      "sha256": "afc83136216ba15075dff65fedc4e27b87e3b7bc301a0be14884af160dbce024"
+    },
+    {
+      "page_id": "survey_license_wind",
+      "url": "https://doed.gov.np/pages/slwind/",
+      "technology": "wind",
+      "regulatory_category": "survey_license",
+      "updated_on": "2026-10-15",
+      "rows": 4,
+      "sha256": "47df13224baf42108e2d87d4b86928e37f25ea6082db0c799b380097313f79f9"
+    },
+    {
+      "page_id": "survey_license_thermal",
+      "url": "https://doed.gov.np/pages/slthermal/",
+      "technology": "thermal",
+      "regulatory_category": "survey_license",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "c1ac9148038d0b3d76b6004703f512334c438abec6d1d22e001c96e0ba4d51d6"
+    },
+    {
+      "page_id": "survey_license_biomass",
+      "url": "https://doed.gov.np/pages/slbiomass/",
+      "technology": "biomass",
+      "regulatory_category": "survey_license",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "cae049411aeceb3289d9205eb67c7486cf0134d416c1f2c8194aa7a320b1e397"
+    },
+    {
+      "page_id": "survey_license_cogeneration",
+      "url": "https://doed.gov.np/pages/slcogeneration/",
+      "technology": "cogeneration",
+      "regulatory_category": "survey_license",
+      "updated_on": "2026-10-15",
+      "rows": 1,
+      "sha256": "6d63718af74467bfe7c6b1018108874ec1d10b99916e6224af3319c4be42f473"
+    },
+    {
+      "page_id": "generation_application_solar",
+      "url": "https://doed.gov.np/pages/appclsolar/",
+      "technology": "solar",
+      "regulatory_category": "generation_application",
+      "updated_on": "2026-10-15",
+      "rows": 6,
+      "sha256": "222a3758782d0d7ddfe935f932fd40ac8a1ba45225dfc9592ff48253a3e60bbb"
+    },
+    {
+      "page_id": "generation_application_wind",
+      "url": "https://doed.gov.np/pages/appclwind/",
+      "technology": "wind",
+      "regulatory_category": "generation_application",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "57316b2c28414b199d297f0b8c2b8b476c8e399ee100583cf3129a71fd6da082"
+    },
+    {
+      "page_id": "generation_application_thermal",
+      "url": "https://doed.gov.np/pages/appclthermal/",
+      "technology": "thermal",
+      "regulatory_category": "generation_application",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "76c52c4589d33bdeeda648059688bbc0e0ee6b02bf66ac5b149584431c457df8"
+    },
+    {
+      "page_id": "generation_application_biomass",
+      "url": "https://doed.gov.np/pages/appclbiomass/",
+      "technology": "biomass",
+      "regulatory_category": "generation_application",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "e1a81a71c901c9ef74d598010c97bab14f88eeb393876a6714ebcbe1e6bf25da"
+    },
+    {
+      "page_id": "generation_application_cogeneration",
+      "url": "https://doed.gov.np/pages/appclcogeneration/",
+      "technology": "cogeneration",
+      "regulatory_category": "generation_application",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "d1d27b51479a5225ae28f2bd0594d29707847d73a1c668722a9d850f5a6c550c"
+    },
+    {
+      "page_id": "survey_application_solar",
+      "url": "https://doed.gov.np/pages/appslsolar/",
+      "technology": "solar",
+      "regulatory_category": "survey_application",
+      "updated_on": "2026-10-15",
+      "rows": 20,
+      "sha256": "021f6da4c6d27507da007b1695b881a82b04b2650ef2d76baa2b5aba28c546e5"
+    },
+    {
+      "page_id": "survey_application_wind",
+      "url": "https://doed.gov.np/pages/appslwind/",
+      "technology": "wind",
+      "regulatory_category": "survey_application",
+      "updated_on": "2026-10-15",
+      "rows": 1,
+      "sha256": "56aff106197b73a735f551bd7ea84f8b49ac1f01a2c5e99bea53946f196961ab"
+    },
+    {
+      "page_id": "survey_application_thermal",
+      "url": "https://doed.gov.np/pages/appslthermal/",
+      "technology": "thermal",
+      "regulatory_category": "survey_application",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "e9781ed2cd2ad5368ff1fc0ec23a73ce4ce2334a13a5c5b8c87ced5d6e4be151"
+    },
+    {
+      "page_id": "survey_application_biomass",
+      "url": "https://doed.gov.np/pages/appslbiomass/",
+      "technology": "biomass",
+      "regulatory_category": "survey_application",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "8dffa3bab672b0d49f30a5e00de8593539ee58c7f87bb466bf02060c97f25893"
+    },
+    {
+      "page_id": "survey_application_cogeneration",
+      "url": "https://doed.gov.np/pages/appslcogeneration/",
+      "technology": "cogeneration",
+      "regulatory_category": "survey_application",
+      "updated_on": "2026-10-15",
+      "rows": 0,
+      "sha256": "e8428aae26ed8d8f38c6c3ade8b58c1eedb6ab43a497c7e5888c49f7ef6bc92a"
+    }
+  ]
+}

@@ -2454,6 +2454,104 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-24 — Coverage Sprint WP 1A — NEA Ten-Year Time Series
+
+**Agent:** Claude Code (Opus 5.5, overnight sprint on `data/coverage-sprint-2026-11`)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Pages touched:** `data/data-nea-system-annual-timeseries` (new, record), `data/data-electricity-system-indicators` (FY 2025/26 refresh).
+
+**Data:** new `data/nea_system_annual_timeseries.csv` (FY 2015/16–2025/26, NEA FY 2025/26 report pp.156, 169–173; FY 2015/16 from FY 2024/25 report); `data/electricity_system_indicators.csv` 23 → 45 rows. New `scripts/extract_nea_annual_tables.py` (--check).
+
+**Flags raised:** FY 2024/25 revenue and profit before tax restated in the FY 2025/26 report (newer figures used). Monthly energy balance vs annual totals differ (IPP +345 GWh; system demand vs total available +454 GWh), documented in page caveats. `data/raw/core/nea_annual_report_2020.pdf` is an HTML file, not a PDF.
+
+**Validation result:** OK (wiki-index, wiki-site, validate, test)
+
+---
+
+## 2026-11-24 — Coverage Sprint WP 1B — Plant Generation and Grid Summary
+
+**Agent:** Claude Code (Opus 5.5, overnight sprint on `data/coverage-sprint-2026-11`)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Pages touched:** `data/data-plant-annual-generation` (new, record), `data/data-nea-grid-infrastructure-fy2025-26` (new, record); cross-link notes added atop `data/data-nea-substation-capacity-fy2076-77` and `data/data-nea-transmission-length-fy2076-77` (no content removed).
+
+**Data:** `data/plant_annual_generation.csv` (44 rows; NEA plant rows sum exactly to Generation Directorate totals 2,902.40 / 2,763.73 GWh); `data/nea_grid_infrastructure_summary.csv` (116 long-format rows). New `scripts/extract_nea_plant_and_grid_tables.py` (--check).
+
+**Flags raised:** NEA does not itemise IPP or most subsidiary generation by plant (residuals 8,606 / 10,825 GWh IPP documented). Ten-year table gives 7,110 circuit-km for FY 2025/26 while the line inventory sums to 6,739.46 — both kept as separate metrics.
+
+**Validation result:** OK (wiki-index, wiki-site, validate, test)
+
+---
+
+## 2026-11-24 — Coverage Sprint WP 2A — Substation Backbone
+
+**Agent:** Claude Code (Opus 5.5, overnight sprint on `data/coverage-sprint-2026-11`)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Pages touched:** `data/data-substation-inventory` (new, record).
+
+**Data:** new `data/substation_specs.csv` (153 substations), `wiki/substation-specs-schema.json`, `substation_specs_errors` validation in `scripts/validate_repo.py`, `tests/test_substation_specs.py`, `scripts/build_substation_specs_links.py` (programmatic `linked_solar_award_mw` from `data/solar_project_specs.csv`).
+
+**Flags raised:** coordinates populated only where grounded in network-node / place-anchor GeoJSON (28/153); remaining rows left blank rather than geocoded.
+
+**Validation result:** OK (wiki-index, wiki-site, validate, test)
+
+---
+
+## 2026-11-24 — Coverage Sprint WP 2B — Corridor Specs Expansion
+
+**Agent:** Claude Code (Opus 5.5, overnight sprint on `data/coverage-sprint-2026-11`)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Data:** `data/corridor_specs.csv` expanded from 2 corridors / 4 rows to 23 corridors / 40 segment rows; columns unchanged, all slugs resolve to existing entity pages, status enums valid. Route km derived as NEA FY 2025/26 circuit-km ÷ circuits (arithmetic stated in `source_title`); MCA segments from MCA Annex D-1.
+
+**Flags raised:** five cross-border links without entity pages skipped (Raxaul–Parwanipur, Nautanwa–Mainahiya, Tanakpur–Mahendranagar, Nepalgunj–Nanpara, Lamki–Bareilly). Bheri and Ratmate 400 kV rows rest on the 2077 transmission book (low confidence, status as of 2020). Financing/contractor mostly blank (not in NEA tables).
+
+**Validation result:** OK (wiki-index, wiki-site, validate, test)
+
+---
+
+## 2026-11-25 — Coverage Sprint 2 (Activation, Geocoding, Deepening, Visuals)
+
+**Agent:** Claude Code (Opus 5.5, Data Sprint Mode on `data/coverage-sprint-2026-11`, 3 parallel sub-agents)
+**Session type:** Data groundwork (pre-authorized overnight batch)
+
+**Scope:** Step 0 + WP 6A–10B (commits `94b9f38`…`9eefeab`). Substations geocoded 28 → 98/153; five Explorer infrastructure layers + opt-in GLOF layer and new `energy_infrastructure` preset; fact index 692 → 1,050 facts; `project_specs.csv` tiers 2/24 → 9 rich / 41 moderate; ERC tariff effective date verified for 223/223 rows; 28 plant-level export-approval rows; solar resource_zone 86/88; 5 new charts; hazard register (13 events) + 21 ICIMOD dangerous lakes; project events 57, blockers 40. Pages 462 → 470.
+
+**Validation result:** OK (single final `make wiki-index`, `make wiki-site`, `make dashboard-build`, `make release-check`)
+
+**Flags raised:**
+- Harnaiya substation district corrected Parsa → Bara (NEA FY 2025/26); Ridi geography withheld (Gulmi/Palpa border).
+- Legacy RPGCL georeference places committed labels/linework/place anchors/network nodes ~7–14 km south of true position; 11 substation rows re-derived, but the shared layers still carry the bias (Kushma, Mahendranagar, Bhurigaon rows too).
+- Engineering fields for Super Dordi Kha, Mristi, Upper Bhotekoshi, Upper Marsyangdi A cite NWR Map (unsourced secondary) — marked secondary in `source_note`; review before relying on them.
+- VUCL now lists Phukot Karnali at 480 MW vs `capacity_mw` 426 — unchanged, flagged in `source_note`.
+- All 28 per-plant export-approval rows are press-sourced (CEA letters still HTTP 404); channel totals must be computed from `channel-aggregate` rows only.
+- Upper Tamakoshi Sept 2024 outage/damage figures rest on the wiki's UKHL compilation (medium confidence).
+- WP 8A commit subject says "100% solar resource zones"; actual is 86/88 (Dadeldhura, Sankhuwasabha unresolved).
+
+---
+
+## 2026-11-25 — RPGCL Georeference Fix and Static-Site Whitespace
+
+**Agent:** Claude Code (Opus 5.5) on `data/coverage-sprint-2026-11`
+**Session type:** Cleanup
+
+**Pages touched:** `data/data-substation-inventory` (coordinate coverage, method and gaps restated).
+
+**Data:**
+- Corrected RPGCL GeoPDF georeference (`scripts/rpgcl_georef.py`; legacy bias 6–13 km south). Regenerated RPGCL labels and linework, traced corridors, network nodes and `place_anchor_index`; 16 hard-coded anchors re-derived.
+- `substation_specs.csv` coordinates 98 → 102/153 (400 kV 13/15, 220 kV 17/22); 3 legacy rows corrected. New Attariya district Kailali → Kanchanpur (NEA map label "DAIJI (NEW ATTARIYA)").
+- `build_wiki_site.js` strips trailing whitespace from generated HTML.
+
+**Validation result:** OK (`make release-check`)
+
+**Flags raised:**
+- Seven 400/220 kV planned or under-construction substations remain without coordinates: no map symbol and no unambiguous place match.
+- Tinpiple coordinates are a locality-level OSM bus-stop match.
+
+---
+
 ## Log Format for Future Sessions
 
 ```
@@ -2473,3 +2571,32 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 **Decisions made:**
 - [any human approval or override]
 ```
+
+---
+
+## 2026-11-24 — Data Sprint Wrap-Up (WP 3A–5C Consolidation, Canonical Geography, WP 3B & Governance v2)
+
+- **Session type:** `data-sprint` (branch `data/coverage-sprint-2026-11`)
+- **Work completed:**
+  - Consolidated WP 3A (`2173cfb`), WP 4A+4B (`4fb2070`), and WP 5A–5C (`9a38fe9`) cleanly from parallel sprint worktrees without intermediate generated-artifact churn.
+  - Added `scripts/enrich_canonical_geography.py` (`1848e57`), backfilling canonical Nepal `district`/`province` on 149/153 grid substations (up from 37–40/153) and linking 20/20 rows in `data/industrial_load_anchors.csv` to verified `substation_slug` entries.
+  - Completed WP 3B (`e9c9432`), adding +127 verified technical spec cells across 29 flagship and JICA storage rows in `data/project_specs.csv` (87 projects total: 2 rich, 24 moderate, 61 thin; 0 remaining legacy `under construction (generation licence)` wording).
+  - Updated `wiki/GOVERNANCE.md` (`df64740`) with the Two-Tier Grounding Rule and Data Sprint Mode.
+  - Rebuilt `wiki-index`, `wiki-site`, and `control-room.json` once at sprint end; full release gate passed (462 pages, 145 Python tests, 3 Node suites, 38 generated-asset ownership checks).
+
+## 2026-11-25 — Sprint 3 Wrap-Up (Open Data Hub, Data Tables, Siting Baseline, NEPSE Starter, Refresh Orchestrator)
+
+- **Session type:** `data-sprint` (branch `data/coverage-sprint-2026-11`); runbook `docs/operations/sprint-3-hub-and-release-2026-11.md`
+- **Work completed:**
+  - WP 11A (`fe3f8af`): refreshed the stale `substation_province_capacity` figure hash; reverified `nea-solar-loi-2024` (63 rows / 960 MW / NPR 4.99–5.54 recomputed from `solar_project_specs.csv`), `hetauda-dhalkebar-inaruwa-backbone` and `intervention-transmission-completion` (web recheck 25 Nov 2026: no energisation notice found; caveats re-dated, no claims changed).
+  - WP 12A (`f3623a6`): `scripts/build_dataset_catalog.py` + `data/processed/tables/dataset_catalog.json` + `data-open-data-catalog` (53 datasets, live counts, `--check` in `make validate`).
+  - WP 12B (`269adc9`): `start-here` and `wiki/index.md` now surface all eight registry pillars, the catalog, and the Full Energy Infrastructure / ICIMOD glacial-lake map views.
+  - WP 13A (`1c30727`): lazy-loaded Explorer Data Tables (`shared/data-explorer.js`, `wiki/explorer/tables/*.csv` via `build_explorer_tables.py`); Find strings and startup payload unchanged.
+  - WP 14A (`4db09a3`): `nepal-digital-infrastructure` (NDICL, NEA FY2025/26 PDF p.138), `energy_institutions.csv` row 15, `clean_industry_siting_index.csv` (35 hubs, no scores) + opt-in map layer + `data-clean-industry-and-compute-siting`.
+  - WP 15A (`b2026ac`): `nepse_hydro_performance.csv` strict Tier A starter (UTKHPL FY2079/80–2082/83, MBJCL FY2082/83) + `data-nepse-hydro-performance`.
+  - WP 15B (`1a2ada9`): `scripts/refresh_official_registries.py` + `docs/operations/quarterly-refresh-playbook.md`.
+- **Validation result:** single full rebuild + `make release-check` OK — 474 pages, 187 Python tests, 4 Node suites, 0 stale figures, 0 over-declared pages, 52 generated-asset entries.
+- **Flags raised:**
+  - `madhya-bhotekoshi` entity prose still says "under construction"; `project_specs.csv` and NEA FY2025/26 (PDF p.117) record COD 6 Oct 2025. Needs a normal writing session.
+  - NEPSE cohort is 2 companies vs. the 15–20 target; private listed IPPs need audited annual reports (unaudited aggregator quarterlies were rejected).
+  - Production deploys only `wiki/` and `data/processed/maps/`, so `../../../data/*.csv` download links on wiki pages (catalog and older data pages) resolve only in the repo, not on transparentgov.ai.

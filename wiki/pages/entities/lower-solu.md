@@ -2,15 +2,17 @@
 title: Lower Solu Hydropower Project
 type: entity
 created: 2026-04-20
-updated: 2026-05-13
-sources: [sahas-urja-benchmark-icra-2026]
-tags: [project, under-construction, koshi, solukhumbu]
+updated: 2026-11-24
+sources: [sahas-urja-benchmark-icra-2026, doed-hydropower-registry, nea-annual-report-fy2025-26]
+tags: [project, operating, koshi, solukhumbu]
 images: []
 generator: manual
 page_quality: brief
 ---
 
 # Lower Solu Hydropower Project
+
+> [!note] **Status update (24 Nov 2026):** the DoED operating-plants register (snapshot 2 July 2026) lists this plant as operating (record no. 118, commercial operation 2082-04-24 BS, about AD 2025). Descriptions of the project as under construction elsewhere on this page predate commissioning. Source: [[doed-hydropower-registry]].
 
 Lower Solu is an 82 MW run-of-river hydropower project under construction in the Solukhumbu district — part of the Dudh Koshi river system that includes the benchmark Sahas Urja (Solu Khola, 86 MW) project.
 
@@ -39,7 +41,8 @@ The single most important variable determining Lower Solu's financial outcome is
 | Parameter | Value |
 |-----------|-------|
 | Capacity | 82 MW |
-| Status | Under construction |
+| Status | Operating |
+| DoED register | Operating record no. 118; commercial operation 2082-04-24 BS (about AD 2025) |
 | Registry licence | Generation |
 | River | Solu Khola |
 | District | Solukhumbu |

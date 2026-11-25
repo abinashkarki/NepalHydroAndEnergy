@@ -88,12 +88,30 @@ Every page belongs to exactly one category. If a page feels like it should be tw
 
 ## Bounded Session Rules
 
-1. **Scope limit:** 5 pages maximum per writing session. The only exception is a declared `batch-review` session (below).
-2. **Confirm gate:** Wait for human approval before writing the final version of any page.
+Interactive narrative writing sessions (new claims, syntheses, or editorial rewrites) remain bounded:
+
+1. **Scope limit:** 5 pages maximum per interactive writing session. Exceptions: `batch-review` sessions and `data-sprint` sessions (below).
+2. **Confirm gate:** Wait for human approval before editing flagship syntheses, claims, or ontology terms.
 3. **Flag gate:** Any change touching confidence, facts, sources, or ontology terms must be explicitly flagged.
 4. **Stopping conditions:** Stop immediately if you encounter a split/merge decision, unresolved contradiction, category uncertainty, or missing source material.
 5. **No broad rewrites:** Do not rewrite whole pages. Show only what changes and why.
-6. **Audit trail:** Every session that edits pages must be logged in `wiki/WIKI_AUDIT_LOG.md`.
+6. **Audit trail:** Log sprint-level or session-level summaries in `wiki/WIKI_AUDIT_LOG.md` (avoid redundant per-commit essays that duplicate `git log` and cause parallel-agent merge conflicts).
+
+### Two-Tier Grounding Rule (Modern-Model Standard)
+
+Rigor is split into two explicit tiers so strictness protects high-stakes facts without turning tables into `unknown`s on trivial reference geography:
+
+- **Tier A — Measured, Financial & Delivery Facts (strict primary source required):** Capacities (MW/MVA), generation (GWh), costs, tariffs, PPA rates, CODs, construction progress, physical coordinates, and regulatory-vs-delivery status distinctions (`generation_license` ≠ `under-construction`). Never infer or estimate without an explicit basis column.
+- **Tier B — Canonical Reference Lookups (deterministic lookup permitted):** Unambiguous Nepal administrative geography (77 districts ↔ 7 provinces, established municipal/substation/industrial-district assignments) and standard BS ↔ AD fiscal-year conversions. Populate via deterministic scripts/lookup tables and tag `canonical-geography` or `canonical-lookup` in `notes`; leave genuinely ambiguous or multi-district hubs blank.
+
+### Data Sprint Mode (Structured Coverage Batches)
+
+A `data-sprint` session expands structured CSV registries, ingestion scripts, schemas, validators, and concise `record`-tier entity/data pages on a dedicated feature branch. It is exempt from the 5-page cap and per-page confirm gate while keeping all epistemic invariants intact:
+
+- **Schema-first:** Validate CSVs and scripts with fast targeted checks (`scripts/validate_repo.py`, `unittest`) on each atomic commit.
+- **Batch rebuild once:** Do **not** rebuild `make wiki-index`, `make wiki-site`, `make dashboard-build`, or `wiki-vector-index.json` on every intermediate commit or inside parallel worktrees. Run the full `make wiki-index && make wiki-site && make dashboard-build && make release-check` **once at sprint/PR completion**.
+- **Parallel worktree discipline:** When fanning out across parallel agents, cherry-pick only source/CSV/script/page/test files (never generated `wiki/site/` or `wiki/explorer/shared/*` blobs) and run dependent registries sequentially (e.g., `substation_specs.csv` before load-anchor linking).
+- **Concise audit logging:** Append a single sprint-level summary entry to `wiki/WIKI_AUDIT_LOG.md` at wrap-up; let atomic `git log` commits carry per-package detail.
 
 ### Batch-review sessions
 

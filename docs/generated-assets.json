@@ -42,7 +42,12 @@
       "command": "python scripts/build_wiki_fact_index.py",
       "inputs": [
         "data/processed/maps/*.geojson",
-        "wiki/explorer/shared/wiki-page-index.json"
+        "wiki/explorer/shared/wiki-page-index.json",
+        "data/substation_specs.csv",
+        "data/storage_non_dam_specs.csv",
+        "data/industrial_load_anchors.csv",
+        "data/processed/tables/doed_nonhydro_registry.csv",
+        "data/energy_institutions.csv"
       ],
       "committed": true,
       "deployable": true
@@ -341,6 +346,233 @@
         "wiki/site-config.json",
         "wiki/explorer/shared/wiki-page-index.json",
         "wiki/explorer/shared/wiki-page-meta.json"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/nea_system_annual_timeseries.csv": {
+      "owner": "scripts/extract_nea_annual_tables.py",
+      "command": "python scripts/extract_nea_annual_tables.py",
+      "inputs": [
+        "data/raw/nea_annual_reports/nea_annual_report_2025_26.pdf",
+        "data/raw/projects_storage/nea_annual_report_2024_2025.pdf"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/plant_annual_generation.csv": {
+      "owner": "scripts/extract_nea_plant_and_grid_tables.py",
+      "command": "python scripts/extract_nea_plant_and_grid_tables.py",
+      "inputs": [
+        "data/raw/nea_annual_reports/nea_annual_report_2025_26.pdf",
+        "data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+        "data/nea_system_annual_timeseries.csv"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/nea_grid_infrastructure_summary.csv": {
+      "owner": "scripts/extract_nea_plant_and_grid_tables.py",
+      "command": "python scripts/extract_nea_plant_and_grid_tables.py",
+      "inputs": [
+        "data/raw/nea_annual_reports/nea_annual_report_2025_26.pdf",
+        "data/raw/projects_storage/nea_annual_report_2024_2025.pdf",
+        "data/raw/corridor_tracing/nea/nea_transmission_annual_book_2077.pdf"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/solar_enrichment_audit.csv": {
+      "owner": "scripts/enrich_solar_specs.py",
+      "command": "python scripts/enrich_solar_specs.py",
+      "inputs": [
+        "data/solar_project_specs.csv",
+        "data/raw/maps/nepal_provinces.geojson",
+        "data/processed/maps/solar_ghi_zones.geojson"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_nonhydro_registry.csv": {
+      "owner": "scripts/build_doed_nonhydro_registry.py",
+      "command": "python scripts/build_doed_nonhydro_registry.py",
+      "inputs": [
+        "https://doed.gov.np/pages/ (powerplants*, cl*, sl*, appcl*, appsl* for solar/wind/thermal/biomass/cogeneration)"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/tables/doed_nonhydro_registry_summary.json": {
+      "owner": "scripts/build_doed_nonhydro_registry.py",
+      "command": "python scripts/build_doed_nonhydro_registry.py",
+      "inputs": [
+        "https://doed.gov.np/pages/ (powerplants*, cl*, sl*, appcl*, appsl* for solar/wind/thermal/biomass/cogeneration)"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/maps/rpgcl_substation_nodes.geojson": {
+      "owner": "scripts/geocode_infrastructure_assets.py",
+      "command": "python scripts/geocode_infrastructure_assets.py --refresh-rpgcl-nodes --write",
+      "inputs": [
+        "data/raw/corridor_tracing/rpgcl/nepal_transmission_network_map_revised1.pdf",
+        "data/raw/maps/nepal-osm-free.shp.zip"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/maps/grid_substations.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/substation_specs.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/industrial_load_anchors.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/industrial_load_anchors.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/fossil_infrastructure.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/fossil_infrastructure.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/non_dam_storage.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/storage_non_dam_specs.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/doed_nonhydro_operating.geojson": {
+      "owner": "scripts/build_energy_infrastructure_layers.py",
+      "command": "python scripts/build_energy_infrastructure_layers.py",
+      "inputs": [
+        "data/processed/tables/doed_nonhydro_registry.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/assets/figures/*.svg": {
+      "owner": "scripts/build_wiki_figures.py",
+      "command": "python scripts/build_wiki_figures.py",
+      "inputs": [
+        "scripts/build_wiki_figures.py",
+        "scripts/chart_style.py",
+        "data/nea_system_annual_timeseries.csv",
+        "data/substation_specs.csv",
+        "data/plant_annual_generation.csv",
+        "data/erc_retail_tariffs.csv",
+        "data/ppa_standard_rates.csv",
+        "data/ev_adoption_and_charging.csv",
+        "data/processed/tables/",
+        "wiki/pages/"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/shared/wiki-figure-manifest.json": {
+      "owner": "scripts/build_wiki_figures.py",
+      "command": "python scripts/build_wiki_figures.py",
+      "inputs": [
+        "scripts/build_wiki_figures.py",
+        "scripts/chart_style.py",
+        "data/nea_system_annual_timeseries.csv",
+        "data/substation_specs.csv",
+        "data/plant_annual_generation.csv",
+        "data/erc_retail_tariffs.csv",
+        "data/ppa_standard_rates.csv",
+        "data/ev_adoption_and_charging.csv",
+        "data/processed/tables/",
+        "wiki/pages/"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/pages/data/figure-index.md": {
+      "owner": "scripts/build_wiki_figures.py",
+      "command": "python scripts/build_wiki_figures.py",
+      "inputs": [
+        "scripts/build_wiki_figures.py",
+        "scripts/chart_style.py",
+        "data/nea_system_annual_timeseries.csv",
+        "data/substation_specs.csv",
+        "data/plant_annual_generation.csv",
+        "data/erc_retail_tariffs.csv",
+        "data/ppa_standard_rates.csv",
+        "data/ev_adoption_and_charging.csv",
+        "data/processed/tables/",
+        "wiki/pages/"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/maps/glof_dangerous_lakes.geojson": {
+      "owner": "scripts/build_hazard_layers.py",
+      "command": "python scripts/build_hazard_layers.py",
+      "inputs": [
+        "data/glof_dangerous_lakes.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/processed/tables/dataset_catalog.json": {
+      "owner": "scripts/build_dataset_catalog.py",
+      "command": "python scripts/build_dataset_catalog.py",
+      "inputs": [
+        "data/*.csv",
+        "data/processed/tables/*.csv",
+        "data/processed/maps/*.geojson",
+        "wiki/pages/**/*.md"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "wiki/explorer/tables/*.csv": {
+      "owner": "scripts/build_explorer_tables.py",
+      "command": "python scripts/build_explorer_tables.py",
+      "inputs": [
+        "data/substation_specs.csv",
+        "data/project_specs.csv",
+        "data/erc_retail_tariffs.csv",
+        "data/processed/tables/doed_nonhydro_registry.csv",
+        "data/industrial_load_anchors.csv",
+        "data/energy_institutions.csv"
+      ],
+      "committed": true,
+      "deployable": true
+    },
+    "data/clean_industry_siting_index.csv": {
+      "owner": "scripts/build_siting_readiness.py",
+      "command": "python scripts/build_siting_readiness.py",
+      "inputs": [
+        "data/substation_specs.csv",
+        "data/industrial_load_anchors.csv",
+        "data/erc_retail_tariffs.csv"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/maps/clean_industry_siting.geojson": {
+      "owner": "scripts/build_siting_readiness.py",
+      "command": "python scripts/build_siting_readiness.py",
+      "inputs": [
+        "data/substation_specs.csv",
+        "data/industrial_load_anchors.csv",
+        "data/erc_retail_tariffs.csv"
       ],
       "committed": true,
       "deployable": true

@@ -68,7 +68,7 @@
     },
     "province": {
       "type": "string",
-      "description": "Nepal province name. Left blank in v1 pending authoritative derivation."
+      "description": "Nepal province name (current official name, e.g. Koshi, Madhesh). Derived from district by scripts/enrich_solar_specs.py; blank when the district cannot be resolved to one province."
     },
     "substation": {
       "type": "string",
