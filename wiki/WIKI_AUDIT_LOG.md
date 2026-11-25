@@ -2532,6 +2532,26 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
 
 ---
 
+## 2026-11-25 — RPGCL Georeference Fix and Static-Site Whitespace
+
+**Agent:** Claude Code (Opus 5.5) on `data/coverage-sprint-2026-11`
+**Session type:** Cleanup
+
+**Pages touched:** `data/data-substation-inventory` (coordinate coverage, method and gaps restated).
+
+**Data:**
+- Corrected RPGCL GeoPDF georeference (`scripts/rpgcl_georef.py`; legacy bias 6–13 km south). Regenerated RPGCL labels and linework, traced corridors, network nodes and `place_anchor_index`; 16 hard-coded anchors re-derived.
+- `substation_specs.csv` coordinates 98 → 102/153 (400 kV 13/15, 220 kV 17/22); 3 legacy rows corrected. New Attariya district Kailali → Kanchanpur (NEA map label "DAIJI (NEW ATTARIYA)").
+- `build_wiki_site.js` strips trailing whitespace from generated HTML.
+
+**Validation result:** OK (`make release-check`)
+
+**Flags raised:**
+- Seven 400/220 kV planned or under-construction substations remain without coordinates: no map symbol and no unambiguous place match.
+- Tinpiple coordinates are a locality-level OSM bus-stop match.
+
+---
+
 ## Log Format for Future Sessions
 
 ```

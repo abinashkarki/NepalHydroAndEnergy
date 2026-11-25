@@ -4403,7 +4403,7 @@
   "inputs": [
     {
       "path": "wiki/explorer/shared/wiki-page-meta.json",
-      "sha256": "15e848dd14fa35955bf0576619f864800778d82275aee8a9da4079e3f4a118bd"
+      "sha256": "77e4810756b8fb8bafa3a7ba3c8ee7552087a88bdfff737f6b2c07612087783f"
     },
     {
       "path": "wiki/explorer/shared/wiki-backlinks.json",
@@ -4411,7 +4411,7 @@
     },
     {
       "path": "wiki/explorer/shared/wiki-fact-index.json",
-      "sha256": "e3fe660fb3fd903deefaf1900750458ae4b626da031518176a549d1103792b76"
+      "sha256": "312f20a1f7593c83fa2e90d43b3065e73cfc901aaf33a938647c7cb9db08cd0a"
     },
     {
       "path": "data/project_specs.csv",

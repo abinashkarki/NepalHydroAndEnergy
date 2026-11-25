@@ -168,49 +168,9 @@ LABEL_MIN_SIZE = 10.0
 MAX_LABEL_DISTANCE = 10.0  # PDF points from the marker centre to the label box
 
 
-def _tm_transformer(wkt: str):
-    from pyproj import CRS, Transformer
-
-    crs = CRS.from_wkt(wkt)
-    geog = crs.geodetic_crs
-    fwd = Transformer.from_crs(geog, crs, always_xy=True)
-    inv = Transformer.from_crs(crs, geog, always_xy=True)
-    return fwd, inv
-
-
-def georef_factory(bbox: list[float], gpts: list[float], wkt: str, page_height: float):
-    """Return f(x_fitz, y_fitz) -> (lon, lat) for one GeoPDF viewport.
-
-    The viewport BBox is in PDF user space (y up). LPTS are [0,1, 0,0, 1,0, 1,1]
-    relative to (BBox x1,y1)-(x2,y2); GPTS give the matching lat/lon pairs. The
-    map frame is a rectangle in the projected CRS, so an affine fit is done in
-    projected metres, then inverted back to geographic coordinates.
-    """
-    import numpy as np
-
-    fwd, inv = _tm_transformer(wkt)
-    x1, y1, x2, y2 = bbox
-    lpts = [(0, 1), (0, 0), (1, 0), (1, 1)]
-    rows, east, north = [], [], []
-    for (u, v), (lat, lon) in zip(lpts, zip(gpts[0::2], gpts[1::2])):
-        e, n = fwd.transform(lon, lat)
-        rows.append([u, v, 1.0])
-        east.append(e)
-        north.append(n)
-    a = np.array(rows)
-    ce, *_ = np.linalg.lstsq(a, np.array(east), rcond=None)
-    cn, *_ = np.linalg.lstsq(a, np.array(north), rcond=None)
-
-    def to_geo(x: float, y_fitz: float) -> tuple[float, float]:
-        y_pdf = page_height - y_fitz
-        u = (x - x1) / (x2 - x1)
-        v = (y_pdf - y1) / (y2 - y1)
-        e = ce[0] * u + ce[1] * v + ce[2]
-        n = cn[0] * u + cn[1] * v + cn[2]
-        lon, lat = inv.transform(e, n)
-        return lon, lat
-
-    return to_geo
+# The georeference lives in scripts/rpgcl_georef.py (shared with extract_rpgcl_transmission_vectors.py).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from rpgcl_georef import georef_factory  # noqa: E402
 
 
 def _box_distance(px: float, py: float, box: tuple[float, float, float, float]) -> float:
@@ -381,6 +341,22 @@ class DistrictIndex:
         hits = [self._names[i] for i in self._tree.query(pt) if self._geoms[i].covers(pt)]
         return hits[0] if len(set(hits)) == 1 else ""
 
+    def distance_km(self, lon: float, lat: float, district: str) -> float:
+        """Approximate distance (km) from a point to the named district polygon (0 if inside)."""
+        from shapely.geometry import Point
+        from shapely.ops import nearest_points
+
+        pt = Point(lon, lat)
+        best = float("inf")
+        for geom, name in zip(self._geoms, self._names):
+            if name != district:
+                continue
+            if geom.covers(pt):
+                return 0.0
+            near = nearest_points(geom, pt)[0]
+            best = min(best, _km(lat, lon, near.y, near.x))
+        return best
+
 
 # Loose phonetic key shared by Latin and Devanagari spellings: vowels and
 # aspiration dropped, dental/retroflex and b/v merged, doubled letters collapsed.
@@ -502,7 +478,14 @@ def pick(
     district: str,
     districts: DistrictIndex | None,
     allow_no_district: bool,
+    border_tolerance_km: float = 0.0,
 ) -> tuple[dict[str, Any] | None, str]:
+    """Pick one candidate consistent with the row's district.
+
+    ``border_tolerance_km`` (used only for RPGCL substation symbols, whose stated precision is
+    ~1 km) also accepts a candidate whose point lies in a neighbouring district but within that
+    distance of the row's district polygon, i.e. a symbol drawn on the district border.
+    """
     if not candidates:
         return None, "no candidate"
     if district:
@@ -511,7 +494,10 @@ def pick(
         kept = []
         for c in candidates:
             got = c.get("district") or districts.lookup(c["lon"], c["lat"])
-            if got == district:
+            if got == district or (
+                border_tolerance_km > 0
+                and districts.distance_km(c["lon"], c["lat"], district) <= border_tolerance_km
+            ):
                 kept.append(c)
         if len(kept) == 1:
             return kept[0], "ok"
@@ -583,13 +569,15 @@ def _km(a_lat: float, a_lon: float, b_lat: float, b_lon: float) -> float:
 
 
 LEGACY_RPGCL_TOLERANCE_KM = 3.0
+RPGCL_BORDER_TOLERANCE_KM = 1.0  # = stated RPGCL symbol precision; see pick()
 
 
 def geocode_substations(rows, nodes, anchors, osm_places, districts, report) -> int:
     """Fill blank substation coordinates; re-derive legacy RPGCL-node coordinates.
 
     Rows already tagged ``official-map-node`` came from place_anchor_index RPGCL anchors that were
-    georeferenced with a lat/lon bilinear fit (~0.07-0.12 deg south bias). When the same substation
+    georeferenced with a lat/lon bilinear fit (~0.07-0.12 deg south bias). Rows with no symbol match
+    take the anchor's current (corrected) value from place_anchor_index. When the same substation
     symbol is matched here and differs by more than LEGACY_RPGCL_TOLERANCE_KM, the coordinates are
     replaced and the previous value is recorded in notes.
     """
@@ -599,6 +587,10 @@ def geocode_substations(rows, nodes, anchors, osm_places, districts, report) -> 
     used_points = {(r["latitude"].strip(), r["longitude"].strip()) for r in rows if (r.get("latitude") or "").strip()}
     used_nodes: set[str] = set()
     filled = 0
+    rpgcl_anchors: dict[str, tuple[float, float]] = {}
+    for f in json.loads(PLACE_ANCHORS.read_text(encoding="utf-8"))["features"]:
+        if (f["properties"].get("basis") or "").startswith("RPGCL"):
+            rpgcl_anchors[f["properties"]["id"]] = tuple(f["geometry"]["coordinates"])
 
     # Pass 1: legacy official-map-node rows.
     for row in rows:
@@ -606,9 +598,31 @@ def geocode_substations(rows, nodes, anchors, osm_places, districts, report) -> 
             continue
         district = canonical_district(row.get("district", ""))
         cands = [n for k in name_keys(row["substation_name"]) for n in nodes_by_key.get(k, [])]
-        chosen, reason = pick(cands, district, districts, allow_no_district=True)
+        chosen, reason = pick(cands, district, districts, allow_no_district=True,
+                              border_tolerance_km=RPGCL_BORDER_TOLERANCE_KM)
         if not chosen:
-            report.append(("substation", row["slug"], row["highest_voltage_kv"], "LEGACY-KEPT", f"rpgcl: {reason}"))
+            # No symbol match: if the coordinates were copied from a place_anchor_index RPGCL anchor,
+            # take that anchor's current value (re-derived with the corrected georeference).
+            m = re.search(r"place_anchor_index\.geojson id '([^']+)' \(RPGCL official vector/map node\)",
+                          row.get("notes") or "")
+            anchor = rpgcl_anchors.get(m.group(1)) if m else None
+            if anchor is None:
+                report.append(("substation", row["slug"], row["highest_voltage_kv"], "LEGACY-KEPT", f"rpgcl: {reason}"))
+                continue
+            old_lat, old_lon = float(row["latitude"]), float(row["longitude"])
+            dist = _km(old_lat, old_lon, anchor[1], anchor[0])
+            if dist <= LEGACY_RPGCL_TOLERANCE_KM:
+                report.append(("substation", row["slug"], row["highest_voltage_kv"], "LEGACY-OK", f"{dist:.1f} km"))
+                continue
+            used_points.discard((row["latitude"].strip(), row["longitude"].strip()))
+            row["latitude"], row["longitude"] = round6(anchor[1]), round6(anchor[0])
+            used_points.add((row["latitude"], row["longitude"]))
+            append_note(row, "notes", (
+                f"coordinates: place_anchor_index.geojson id '{m.group(1)}' re-derived with the corrected RPGCL "
+                f"georeference (scripts/rpgcl_georef.py); replaces previous {old_lat}, {old_lon} ({dist:.1f} km off; "
+                f"legacy lat/lon-bilinear RPGCL georeference bias); via {SCRIPT_TAG} {RUN_DATE}"))
+            row["last_updated"] = RUN_DATE
+            report.append(("substation", row["slug"], row["highest_voltage_kv"], "LEGACY-CORRECTED-ANCHOR", f"{dist:.1f} km"))
             continue
         used_nodes.add(chosen["node_id"])
         old_lat, old_lon = float(row["latitude"]), float(row["longitude"])
@@ -633,7 +647,8 @@ def geocode_substations(rows, nodes, anchors, osm_places, districts, report) -> 
         keys = name_keys(row["substation_name"])
         precision, basis = "", ""
         cands = [n for k in keys for n in nodes_by_key.get(k, []) if n["node_id"] not in used_nodes]
-        chosen, reason = pick(cands, district, districts, allow_no_district=True)
+        chosen, reason = pick(cands, district, districts, allow_no_district=True,
+                              border_tolerance_km=RPGCL_BORDER_TOLERANCE_KM)
         if chosen:
             precision, basis = "official-map-node", rpgcl_basis(chosen)
             used_nodes.add(chosen["node_id"])

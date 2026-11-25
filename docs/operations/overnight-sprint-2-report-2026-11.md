@@ -47,7 +47,7 @@ The full rebuild ran once at the end: `make wiki-index`, `make wiki-site`, `make
 
 ## 4. Needs Human Review
 
-1. **RPGCL georeference bias.** The committed RPGCL labels, linework, `place_anchor_index` and network nodes sit about 7–14 km south of the true position. 11 substation rows were re-derived from the GeoPDF symbols, with the old values kept in their notes. The shared layers still carry the bias and need a separate fix in `extract_rpgcl_transmission_vectors.py`.
+1. ~~**RPGCL georeference bias.**~~ **Resolved after the sprint (see §7).**
 2. **NWR Map citations.** Some engineering fields for Super Dordi Kha, Mristi, Upper Bhotekoshi and Upper Marsyangdi A come from NWR Map, which doesn't say where its data comes from. They are marked secondary in `source_note`.
 3. **Phukot Karnali.** VUCL now lists 480 MW; `capacity_mw` is still 426 and the discrepancy is flagged in `source_note`.
 4. **Export approvals are press-sourced.** All plant-level rows come from Kathmandu Post, Kantipur and Spotlight Nepal; the CEA approval letters still return HTTP 404. Totals must come from the `channel-aggregate` rows only.
@@ -69,3 +69,17 @@ The full rebuild ran once at the end: `make wiki-index`, `make wiki-site`, `make
 All sub-agent worktrees from Sprint 2 were removed after integration. `git status` is clean after this commit.
 
 Note: `node scripts/build_wiki_site.js` emits trailing whitespace in generated `wiki/site/*/index.html`, which was already true of 456 committed pages. The new pages show the same pattern. `make validate` (unstaged `git diff --check`) is unaffected; fixing it belongs in the generator.
+
+## 7. Post-Sprint Fixes (2026-11-25)
+
+- **RPGCL georeference.** `extract_rpgcl_transmission_vectors.py` compared the PDF-user-space viewport BBox (y up) directly with PyMuPDF's y-down coordinates and blended lat/lon bilinearly. The result was a southward bias of 6.1–13.5 km (median 12.2 km), and the inset-frame exclusion box sat in the wrong place, so inset labels leaked into the main map while a strip of the real eastern map was dropped. The script also could not run, because of a missing `import os`. Six other scripts had the same missing import, all from `bcafa93`, and were fixed too.
+  - **Fix:** a shared `scripts/rpgcl_georef.py` (MUTM affine plus y-flip) used by both the extractor and the geocoder. It also has an exact legacy-to-corrected transform, verified to round-trip to 4e-14° across 1,623 labels. That transform re-derived the 16 hard-coded RPGCL anchors in `build_tributary_maps.py` and 8 route hints. Map labels and linework, the traced corridors, network nodes and `place_anchor_index` were all regenerated.
+  - **Result:** median label-to-symbol distance went from 13.3 km to 2.0 km (2,194 labels, up from 1,845). Corridor trace statuses are unchanged, and route-length agreement held (western 132 kV backbone +3.27% → +2.73%).
+  - **Tests:** new `tests.test_rpgcl_georef` (6 tests).
+- **Substation geocoding: 98 → 102 of 153.** 400 kV is now 13/15 and 220 kV 17/22.
+  - The last 3 legacy-biased rows (Kushma, Mahendranagar, Bhurigaon) were corrected by 6.3–12.7 km.
+  - RPGCL symbols drawn within their stated 1 km precision of the row's district border are now accepted, which places Trishuli 3B Hub and Rahughat.
+  - New Attariya's district was corrected from a canonical-lookup Kailali to Kanchanpur: NEA's map labels it "DAIJI (NEW ATTARIYA)", which matches the RPGCL symbol.
+  - Tinpiple is placed from OSM node 3514839204, as an `approximate-place` match at locality level.
+  - **Not closed by the georeference fix.** The geocoder already georeferenced its symbols correctly, so the bias was never what blocked these. New Kohalpur and Sunkoshi Hub (400 kV) and Markichowk, Lapang, Dhaubadi, Palpa and Harnaiya (220 kV) have no RPGCL symbol and no unambiguous place match, so they stay blank.
+- **Static site whitespace.** `build_wiki_site.js` now strips trailing whitespace from every generated line before both write and `--check`. `wiki/site/` has 0 files with trailing whitespace, down from 456+.

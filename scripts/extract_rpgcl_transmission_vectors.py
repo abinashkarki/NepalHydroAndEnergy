@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import math
+import os
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -10,6 +12,9 @@ import fitz
 from pypdf import PdfReader
 from shapely.geometry import LineString, MultiLineString, Point, mapping
 from shapely.ops import linemerge, unary_union
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from rpgcl_georef import fitz_frame, georef_factory, in_frame, load_viewports  # noqa: E402
 
 
 ROOT = Path(os.environ.get("NEPAL_ENERGY_ROOT", Path(__file__).resolve().parent.parent))
@@ -308,17 +313,17 @@ MANUAL_CORRIDOR_TRACES: list[dict[str, Any]] = [
 ]
 
 
-def load_geospatial_viewports(reader: PdfReader) -> dict[str, dict[str, Any]]:
-    page = reader.pages[0]
+def load_geospatial_viewports(pdf_path: Path) -> dict[str, dict[str, Any]]:
+    """Viewports with fitz-space frames and a correct MUTM georeference (see rpgcl_georef)."""
+    raw, page_height = load_viewports(pdf_path)
     viewports: dict[str, dict[str, Any]] = {}
-    for viewport in page["/VP"]:
-        name = str(viewport["/Name"])
-        measure = viewport["/Measure"].get_object()
-        bbox = [float(v) for v in viewport["/BBox"]]
-        gpts = [float(v) for v in measure["/GPTS"]]
+    for name, vp in raw.items():
         viewports[name] = {
-            "bbox": bbox,
-            "gpts": gpts,
+            "bbox": vp["bbox"],
+            "gpts": vp["gpts"],
+            "fitz_frame": list(fitz_frame(vp["bbox"], page_height)),
+            "page_height": page_height,
+            "wkt": vp["wkt"],
         }
     return viewports
 
@@ -332,37 +337,12 @@ def euclidean_distance(a: tuple[float, float], b: tuple[float, float]) -> float:
 
 
 def point_to_geo_factory(viewport: dict[str, Any]):
-    left, bottom, right, top = viewport["bbox"]
-    g = viewport["gpts"]
-    # GPTS order follows the LPTS order [0,1, 0,0, 1,0, 1,1].
-    top_left = (g[2], g[3])
-    top_right = (g[4], g[5])
-    bottom_right = (g[6], g[7])
-    bottom_left = (g[0], g[1])
-
-    def point_to_geo(x: float, y: float) -> tuple[float, float]:
-        u = (x - left) / (right - left)
-        v = (y - top) / (bottom - top)
-        lat = (
-            (1 - u) * (1 - v) * top_left[0]
-            + u * (1 - v) * top_right[0]
-            + u * v * bottom_right[0]
-            + (1 - u) * v * bottom_left[0]
-        )
-        lon = (
-            (1 - u) * (1 - v) * top_left[1]
-            + u * (1 - v) * top_right[1]
-            + u * v * bottom_right[1]
-            + (1 - u) * v * bottom_left[1]
-        )
-        return lon, lat
-
-    return point_to_geo
+    return georef_factory(viewport["bbox"], viewport["gpts"], viewport["wkt"], viewport["page_height"])
 
 
-def point_in_bbox(x: float, y: float, bbox: list[float]) -> bool:
-    left, bottom, right, top = bbox
-    return left <= x <= right and top <= y <= bottom
+def point_in_bbox(x: float, y: float, frame: list[float]) -> bool:
+    """`frame` is a fitz-space (y-down) box from load_geospatial_viewports()["fitz_frame"]."""
+    return in_frame(x, y, tuple(frame))
 
 
 def flatten_line_items(items: list[Any]) -> list[tuple[float, float]]:
@@ -947,8 +927,8 @@ def build_western_132_source_trace(
             "segment_id": "butwal_shivapur_lamahi_kohalpur_132_rpgcl_trace",
             "segment_name": "Butwal-Shivapur-Lamahi-Kohalpur 132 kV line",
             "drawing_indexes": [34, 35, 36, 37],
-            "start_hint": (83.47321851682389, 27.556542431092055),
-            "end_hint": (81.6886043769513, 28.09132093292611),
+            "start_hint": (83.473148, 27.668900),
+            "end_hint": (81.688379, 28.184986),
             "anchor_chain": "Butwal -> Shivapur -> Lamahi -> Kohalpur",
             "official_length_km": 215.0,
             "official_circuit_km": 430.0,
@@ -958,8 +938,8 @@ def build_western_132_source_trace(
             "segment_id": "kohalpur_bhurigaun_lamki_132_rpgcl_trace",
             "segment_name": "Kohalpur-Bhurigaun-Lamki 132 kV line",
             "drawing_indexes": [42, 47],
-            "start_hint": (81.6886043769513, 28.09132093292611),
-            "end_hint": (81.15880776919326, 28.54114421639382),
+            "start_hint": (81.688379, 28.184986),
+            "end_hint": (81.158950, 28.625234),
             "anchor_chain": "Kohalpur -> Bhurigaun -> Lamki",
             "official_length_km": 88.33,
             "official_circuit_km": 176.66,
@@ -969,8 +949,8 @@ def build_western_132_source_trace(
             "segment_id": "lamki_pahalwanpur_attariya_mahendranagar_132_rpgcl_trace",
             "segment_name": "Lamki-Pahalwanpur-Attariya-Mahendranagar 132 kV line",
             "drawing_indexes": [48, 43, 44, 45],
-            "start_hint": (81.15880776919326, 28.54114421639382),
-            "end_hint": (80.09452366380923, 28.946220417499394),
+            "start_hint": (81.158950, 28.625234),
+            "end_hint": (80.096049, 29.003367),
             "anchor_chain": "Lamki -> Pahalwanpur -> Attariya -> Mahendranagar",
             "official_length_km": 101.56,
             "official_circuit_km": 203.12,
@@ -982,8 +962,8 @@ def build_western_132_source_trace(
             "corridor_id": CHAMELIYA_ATTARIYA_132_CORRIDOR_ID,
             "name": "Chameliya-Syaule-Attariya 132 kV line",
             "drawing_indexes": [7, 8],
-            "start_hint": (80.55398409703626, 28.735364655748388),
-            "end_hint": (80.64439891503855, 29.613418786265093),
+            "start_hint": (80.554814, 28.805175),
+            "end_hint": (80.643868, 29.686966),
             "anchor_chain": "Attariya -> Syaule -> Chameliya",
             "official_length_km": 131.0,
             "official_circuit_km": 262.0,
@@ -1099,8 +1079,7 @@ def build_karnali_grid_reach_trace() -> tuple[list[dict[str, Any]], dict[str, An
 def main() -> None:
     PROCESSED.mkdir(parents=True, exist_ok=True)
 
-    reader = PdfReader(str(RPGCL_PDF))
-    viewports = load_geospatial_viewports(reader)
+    viewports = load_geospatial_viewports(RPGCL_PDF)
     main_view = viewports["Layers"]
     inset_view = viewports["New Data Frame"]
     doc = fitz.open(RPGCL_PDF)
@@ -1108,16 +1087,16 @@ def main() -> None:
     labels = extract_labels(
         page,
         viewport_name="Layers",
-        viewport_bbox=main_view["bbox"],
-        excluded_bbox=inset_view["bbox"],
+        viewport_bbox=main_view["fitz_frame"],
+        excluded_bbox=inset_view["fitz_frame"],
         point_to_geo=point_to_geo_factory(main_view),
     )
     anchors = choose_anchor_points(labels)
     linework = extract_linework(
         page,
         viewport_name="Layers",
-        viewport_bbox=main_view["bbox"],
-        excluded_bbox=inset_view["bbox"],
+        viewport_bbox=main_view["fitz_frame"],
+        excluded_bbox=inset_view["fitz_frame"],
         point_to_geo=point_to_geo_factory(main_view),
     )
     traced_segments, corridor_report = build_corridor_segments(linework, anchors)
@@ -1198,7 +1177,8 @@ def main() -> None:
         json.dumps(
             {
                 "source_pdf": str(RPGCL_PDF),
-                "viewports": viewports,
+                "viewports": {name: {k: v for k, v in vp.items() if k != "wkt"} for name, vp in viewports.items()},
+                "georeference": "rpgcl_georef.georef_factory (MUTM affine, PDF y-up BBox flipped to fitz space)",
                 "linework_feature_count": len(linework),
                 "label_feature_count": len(labels),
                 "selected_anchor_keys": sorted(anchors.keys()),

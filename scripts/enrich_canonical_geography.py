@@ -172,7 +172,8 @@ SUBSTATION_CANONICAL_GEO: dict[str, tuple[str, str]] = {
     # NEA FY 2025/26: "Harnaiya Substation (Adarsha Kotawal Rural Municipality, Bara)"
     "harnaiya-substation": ("Bara", "Madhesh"),
     "new-kohalpur-substation": ("Banke", "Lumbini"),
-    "new-attariya-substation": ("Kailali", "Sudurpashchim"),
+    # NEA FY 2025/26 transmission map labels it "DAIJI (NEW ATTARIYA)" (Daiji, Kanchanpur); the RPGCL symbol is in Kanchanpur
+    "new-attariya-substation": ("Kanchanpur", "Sudurpashchim"),
     "likhu-hub-substation": ("", ""),
     "sunkoshi-hub-substation": ("", ""),
     "philim-gumda-substation": ("Gorkha", "Gandaki"),
