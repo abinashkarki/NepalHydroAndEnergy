@@ -4403,15 +4403,15 @@
   "inputs": [
     {
       "path": "wiki/explorer/shared/wiki-page-meta.json",
-      "sha256": "77e4810756b8fb8bafa3a7ba3c8ee7552087a88bdfff737f6b2c07612087783f"
+      "sha256": "6e735916ddd786886841065b4510944dc07980397e4ec728c7efd4b4cdd2c811"
     },
     {
       "path": "wiki/explorer/shared/wiki-backlinks.json",
-      "sha256": "56f89d4ad83d6731d17c7f8d1dc02e6e04fa33c994c82b263d34a15255324c7c"
+      "sha256": "25c95fa960d8ea1f5d5210203bbbfd85cf3f7fd4098bbbbfdb3bbd2164a847db"
     },
     {
       "path": "wiki/explorer/shared/wiki-fact-index.json",
-      "sha256": "042ac0552a5f3a613bafb0a6f3f20e6c6d3808bc809a15361ba234dbc28cf5d9"
+      "sha256": "1cf596d2f845576462ac57dca3e1d1d45191680d2f13c64acd289b8b6a99adc1"
     },
     {
       "path": "data/project_specs.csv",
@@ -9468,15 +9468,15 @@
       "generator_counts": {
         "auto-stub": 80,
         "figures": 1,
-        "manual": 88,
-        "none": 264,
+        "manual": 89,
+        "none": 267,
         "specs-refresh": 37
       },
       "quality_counts": {
-        "analysis": 90,
+        "analysis": 93,
         "brief": 177,
         "flagship": 11,
-        "record": 192
+        "record": 193
       },
       "source_pages": 100,
       "sources_missing_date": 18,
@@ -9485,14 +9485,14 @@
       "sources_with_last_checked": 0,
       "sources_with_url": 85,
       "sources_without_backlinks": 7,
-      "structured_facts": 1050,
-      "total_pages": 470,
+      "structured_facts": 1051,
+      "total_pages": 474,
       "type_counts": {
         "claim": 16,
         "concept": 46,
-        "data": 75,
+        "data": 78,
         "decision-dossier": 5,
-        "entity": 205,
+        "entity": 206,
         "source": 100,
         "synthesis": 23
       }
@@ -12192,7 +12192,7 @@
         "source_url": "https://doed.gov.np/pages/powerplantsmorethan1",
         "title": "DoED Hydropower Registry Tables (July 2026 Snapshot)",
         "updated": "2026-11-24",
-        "used_by_count": 50,
+        "used_by_count": 51,
         "wiki_url": "/wiki/explorer/?page=doed-hydropower-registry"
       },
       {
@@ -12780,7 +12780,7 @@
         "source_url": "https://nea.org.np/uploads/shares/td_tender/A%20Year%20In%20Review%20Annual%20Report%202025_2026_compressed.pdf",
         "title": "NEA Annual Report FY 2025/26",
         "updated": "2026-11-04",
-        "used_by_count": 84,
+        "used_by_count": 86,
         "wiki_url": "/wiki/explorer/?page=nea-annual-report-fy2025-26"
       },
       {
@@ -13004,7 +13004,7 @@
         "source_url": null,
         "title": "Mission 1: Sahas Urja (Solu Khola, 86 MW) — Benchmark IPP Success",
         "updated": "2026-05-12",
-        "used_by_count": 3,
+        "used_by_count": 4,
         "wiki_url": "/wiki/explorer/?page=sahas-urja-benchmark-icra-2026"
       },
       {
@@ -13214,7 +13214,7 @@
         "source_url": "https://utkhpl.org.np/",
         "title": "Upper Tamakoshi Hydropower Limited Disclosures (2026)",
         "updated": "2026-07-10",
-        "used_by_count": 2,
+        "used_by_count": 3,
         "wiki_url": "/wiki/explorer/?page=utkhpl-disclosures-2026"
       },
       {

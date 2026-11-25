@@ -36,13 +36,13 @@
 
 | WP | Priority | Title | Status | Commit | Key Metric / Result |
 |---|---|---|---|---|---|
-| **WP 11A** | P0 | Pre-Release Polish: Refresh Stale Substation Chart & Review-Due Check | `PENDING` | — | — |
-| **WP 12A** | P1 | Open Data Catalog (`scripts/build_dataset_catalog.py` + `data-open-data-catalog.md`) | `PENDING` | — | — |
-| **WP 12B** | P1 | Upgrade Hub Front Door (`wiki/pages/syntheses/start-here.md` & `wiki/index.md`) | `PENDING` | — | — |
-| **WP 13A** | P2 | Lazy-Loaded Interactive Registry Tables View in Explorer (`wiki/explorer/`) | `PENDING` | — | — |
-| **WP 14A** | P3 | Clean-Power, Industry & AI/Compute Siting Readiness Layer + `nepal-digital-infrastructure` | `PENDING` | — | — |
-| **WP 15A** | P4 | NEPSE-Listed Hydropower Performance Starter Table (`data/nepse_hydro_performance.csv`) | `PENDING` | — | — |
-| **WP 15B** | P4 | Quarterly Official-Registry Refresh Orchestrator (`scripts/refresh_official_registries.py`) | `PENDING` | — | — |
+| **WP 11A** | P0 | Pre-Release Polish: Refresh Stale Substation Chart & Review-Due Check | `DONE` | `fe3f8af` | 0 stale-figure warnings; 3 near-due pages reverified (HDDI energisation still unconfirmed as of 25 Nov web recheck) |
+| **WP 12A** | P1 | Open Data Catalog (`scripts/build_dataset_catalog.py` + `data-open-data-catalog.md`) | `DONE` | `f3623a6` | 53 datasets cataloged (38 CSV + 15 GeoJSON incl. later WPs); `--check` in `make validate` |
+| **WP 12B** | P1 | Upgrade Hub Front Door (`wiki/pages/syntheses/start-here.md` & `wiki/index.md`) | `DONE` | `269adc9` | 8-pillar registries table on start-here; Open Data & Map Lenses sections in index; 0 broken links |
+| **WP 13A** | P2 | Lazy-Loaded Interactive Registry Tables View in Explorer (`wiki/explorer/`) | `DONE` | `1c30727` | 5 tabs / 6 tables, lazy fetch on open, startup payload unchanged; np-build → public-launch-16 |
+| **WP 14A** | P3 | Clean-Power, Industry & AI/Compute Siting Readiness Layer + `nepal-digital-infrastructure` | `DONE` | `4db09a3` | 35 hubs (33 mapped), 0 scores; NDICL entity + institutions row 15 |
+| **WP 15A** | P4 | NEPSE-Listed Hydropower Performance Starter Table (`data/nepse_hydro_performance.csv`) | `DONE` | `b2026ac` | Starter: 2 companies / 5 company-years (Tier A only); 15–20 target deferred |
+| **WP 15B** | P4 | Quarterly Official-Registry Refresh Orchestrator (`scripts/refresh_official_registries.py`) | `DONE` | `1a2ada9` | dry-run/offline/fetch-official; `--offline` byte-stable; 6 unit tests |
 
 ---
 

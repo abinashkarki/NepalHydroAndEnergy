@@ -920,6 +920,10 @@
         "title": "Nepal Electricity Authority (NEA)"
       },
       {
+        "slug": "nepal-digital-infrastructure",
+        "title": "Nepal Digital Infrastructure Company Limited (NDICL)"
+      },
+      {
         "slug": "nepal-energy-profile",
         "title": "Nepal Energy Profile"
       },
@@ -1580,6 +1584,10 @@
         "title": "Basin Discharge Data"
       },
       {
+        "slug": "data-clean-industry-and-compute-siting",
+        "title": "Clean-Industry and Compute Siting Baseline"
+      },
+      {
         "slug": "data-consumption-geographic-distribution",
         "title": "Electricity Consumption Geographic Distribution"
       },
@@ -1816,8 +1824,16 @@
         "title": "Nepal Solar Resource Zones"
       },
       {
+        "slug": "data-nepse-hydro-performance",
+        "title": "Listed Hydropower Performance (Starter)"
+      },
+      {
         "slug": "data-non-dam-storage-pipeline",
         "title": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)"
+      },
+      {
+        "slug": "data-open-data-catalog",
+        "title": "Open Data Catalog"
       },
       {
         "slug": "data-pipeline-readme",
@@ -2125,6 +2141,7 @@
     "nea-960mw-solar-tender",
     "nea-solar",
     "nea",
+    "nepal-digital-infrastructure",
     "nepal-energy-profile",
     "niettp",
     "nilgiri-khola-ii",
@@ -2288,6 +2305,7 @@
     "claim-transmission-immediate-blocker",
     "data-agricultural-energy-consumption",
     "data-basin-discharge",
+    "data-clean-industry-and-compute-siting",
     "data-consumption-geographic-distribution",
     "data-cross-border-approved-plants",
     "data-domestic-demand",
@@ -2347,7 +2365,9 @@
     "data-nea-transmission-length-fy2076-77",
     "data-nepal-peak-load-curve-fy2024-25",
     "data-nepal-solar-resource-zones",
+    "data-nepse-hydro-performance",
     "data-non-dam-storage-pipeline",
+    "data-open-data-catalog",
     "data-pipeline-readme",
     "data-plant-annual-generation",
     "data-potential-pyramid",
@@ -2597,6 +2617,7 @@
     "nea-960mw-solar-tender": "entities",
     "nea-solar": "entities",
     "nea": "entities",
+    "nepal-digital-infrastructure": "entities",
     "nepal-energy-profile": "entities",
     "niettp": "entities",
     "nilgiri-khola-ii": "entities",
@@ -2760,6 +2781,7 @@
     "claim-transmission-immediate-blocker": "claims",
     "data-agricultural-energy-consumption": "data",
     "data-basin-discharge": "data",
+    "data-clean-industry-and-compute-siting": "data",
     "data-consumption-geographic-distribution": "data",
     "data-cross-border-approved-plants": "data",
     "data-domestic-demand": "data",
@@ -2819,7 +2841,9 @@
     "data-nea-transmission-length-fy2076-77": "data",
     "data-nepal-peak-load-curve-fy2024-25": "data",
     "data-nepal-solar-resource-zones": "data",
+    "data-nepse-hydro-performance": "data",
     "data-non-dam-storage-pipeline": "data",
+    "data-open-data-catalog": "data",
     "data-pipeline-readme": "data",
     "data-plant-annual-generation": "data",
     "data-potential-pyramid": "data",
@@ -3069,6 +3093,7 @@
     "nea-960mw-solar-tender": "NEA 960 MW National Solar Tender",
     "nea-solar": "NEA Solar Programme",
     "nea": "Nepal Electricity Authority (NEA)",
+    "nepal-digital-infrastructure": "Nepal Digital Infrastructure Company Limited (NDICL)",
     "nepal-energy-profile": "Nepal Energy Profile",
     "niettp": "Nepal\u2013India Electricity Transmission and Trade Project (NIETTP)",
     "nilgiri-khola-ii": "Nilgiri Khola-II Cascade",
@@ -3232,6 +3257,7 @@
     "claim-transmission-immediate-blocker": "Transmission and Delivery Are Material Immediate Monetization Constraints",
     "data-agricultural-energy-consumption": "Agricultural Energy Consumption",
     "data-basin-discharge": "Basin Discharge Data",
+    "data-clean-industry-and-compute-siting": "Clean-Industry and Compute Siting Baseline",
     "data-consumption-geographic-distribution": "Electricity Consumption Geographic Distribution",
     "data-cross-border-approved-plants": "Cross-Border Export Approvals Ledger",
     "data-domestic-demand": "Domestic Electricity Demand Distribution",
@@ -3291,7 +3317,9 @@
     "data-nea-transmission-length-fy2076-77": "NEA Transmission Length FY 2076/77",
     "data-nepal-peak-load-curve-fy2024-25": "Nepal Peak Load Curve FY 2024/25",
     "data-nepal-solar-resource-zones": "Nepal Solar Resource Zones",
+    "data-nepse-hydro-performance": "Listed Hydropower Performance (Starter)",
     "data-non-dam-storage-pipeline": "Non-Dam Storage Pipeline (BESS and Pumped Hydro)",
+    "data-open-data-catalog": "Open Data Catalog",
     "data-pipeline-readme": "Data Pipeline Readme",
     "data-plant-annual-generation": "Plant Annual Generation FY 2024/25\u20132025/26",
     "data-potential-pyramid": "Hydropower Potential Pyramid",
@@ -3311,5 +3339,5 @@
     "intervention-sebon-data-transparency": "Decision Dossier \u2014 Hydropower Securities Disclosure",
     "intervention-transmission-completion": "Decision Dossier \u2014 Hetauda\u2013Dhalkebar Completion and Community Resolution"
   },
-  "totalPages": 470
+  "totalPages": 474
 }

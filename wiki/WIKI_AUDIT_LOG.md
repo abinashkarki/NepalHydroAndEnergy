@@ -2583,3 +2583,20 @@ OK: 378 wiki pages, caches valid, map manifest valid, tracked hygiene clean
   - Completed WP 3B (`e9c9432`), adding +127 verified technical spec cells across 29 flagship and JICA storage rows in `data/project_specs.csv` (87 projects total: 2 rich, 24 moderate, 61 thin; 0 remaining legacy `under construction (generation licence)` wording).
   - Updated `wiki/GOVERNANCE.md` (`df64740`) with the Two-Tier Grounding Rule and Data Sprint Mode.
   - Rebuilt `wiki-index`, `wiki-site`, and `control-room.json` once at sprint end; full release gate passed (462 pages, 145 Python tests, 3 Node suites, 38 generated-asset ownership checks).
+
+## 2026-11-25 — Sprint 3 Wrap-Up (Open Data Hub, Data Tables, Siting Baseline, NEPSE Starter, Refresh Orchestrator)
+
+- **Session type:** `data-sprint` (branch `data/coverage-sprint-2026-11`); runbook `docs/operations/sprint-3-hub-and-release-2026-11.md`
+- **Work completed:**
+  - WP 11A (`fe3f8af`): refreshed the stale `substation_province_capacity` figure hash; reverified `nea-solar-loi-2024` (63 rows / 960 MW / NPR 4.99–5.54 recomputed from `solar_project_specs.csv`), `hetauda-dhalkebar-inaruwa-backbone` and `intervention-transmission-completion` (web recheck 25 Nov 2026: no energisation notice found; caveats re-dated, no claims changed).
+  - WP 12A (`f3623a6`): `scripts/build_dataset_catalog.py` + `data/processed/tables/dataset_catalog.json` + `data-open-data-catalog` (53 datasets, live counts, `--check` in `make validate`).
+  - WP 12B (`269adc9`): `start-here` and `wiki/index.md` now surface all eight registry pillars, the catalog, and the Full Energy Infrastructure / ICIMOD glacial-lake map views.
+  - WP 13A (`1c30727`): lazy-loaded Explorer Data Tables (`shared/data-explorer.js`, `wiki/explorer/tables/*.csv` via `build_explorer_tables.py`); Find strings and startup payload unchanged.
+  - WP 14A (`4db09a3`): `nepal-digital-infrastructure` (NDICL, NEA FY2025/26 PDF p.138), `energy_institutions.csv` row 15, `clean_industry_siting_index.csv` (35 hubs, no scores) + opt-in map layer + `data-clean-industry-and-compute-siting`.
+  - WP 15A (`b2026ac`): `nepse_hydro_performance.csv` strict Tier A starter (UTKHPL FY2079/80–2082/83, MBJCL FY2082/83) + `data-nepse-hydro-performance`.
+  - WP 15B (`1a2ada9`): `scripts/refresh_official_registries.py` + `docs/operations/quarterly-refresh-playbook.md`.
+- **Validation result:** single full rebuild + `make release-check` OK — 474 pages, 187 Python tests, 4 Node suites, 0 stale figures, 0 over-declared pages, 52 generated-asset entries.
+- **Flags raised:**
+  - `madhya-bhotekoshi` entity prose still says "under construction"; `project_specs.csv` and NEA FY2025/26 (PDF p.117) record COD 6 Oct 2025. Needs a normal writing session.
+  - NEPSE cohort is 2 companies vs. the 15–20 target; private listed IPPs need audited annual reports (unaudited aggregator quarterlies were rejected).
+  - Production deploys only `wiki/` and `data/processed/maps/`, so `../../../data/*.csv` download links on wiki pages (catalog and older data pages) resolve only in the repo, not on transparentgov.ai.
