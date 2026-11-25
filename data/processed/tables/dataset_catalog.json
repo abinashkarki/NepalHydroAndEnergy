@@ -13,9 +13,9 @@
     "system-timeseries": "System indicators & time series"
   },
   "counts": {
-    "datasets": 50,
-    "csv": 36,
-    "geojson": 14
+    "datasets": 52,
+    "csv": 37,
+    "geojson": 15
   },
   "datasets": [
     {
@@ -565,7 +565,7 @@
       "domain": "institutions-finance",
       "path": "data/energy_institutions.csv",
       "format": "csv",
-      "rows": 14,
+      "rows": 15,
       "columns": 16,
       "column_names": [
         "institution_slug",
@@ -587,7 +587,7 @@
       ],
       "schema_path": "",
       "companion_page_slug": "data-energy-institutions",
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-25",
       "last_verified_basis": "row verification dates",
       "license": "MIT (repository compilation); upstream public-source terms apply",
       "summary": "Core public energy institutions, mandates, parent bodies and official websites."
@@ -1721,6 +1721,83 @@
       "last_verified_basis": "companion page review date",
       "license": "MIT (repository compilation); upstream public-source terms apply",
       "summary": "Basin polygons for Nepal-origin river systems."
+    },
+    {
+      "id": "clean-industry-siting-index",
+      "title": "Clean-industry & compute siting index",
+      "domain": "grid-substations",
+      "path": "data/clean_industry_siting_index.csv",
+      "format": "csv",
+      "rows": 35,
+      "columns": 22,
+      "column_names": [
+        "hub_id",
+        "hub_name",
+        "hub_type",
+        "substation_slug",
+        "highest_voltage_kv",
+        "installed_mva",
+        "planned_additional_mva",
+        "substation_status",
+        "province",
+        "district",
+        "latitude",
+        "longitude",
+        "coordinate_precision",
+        "industrial_tod_132kv_wet_offpeak_npr",
+        "industrial_tod_132kv_dry_peak_npr",
+        "linked_corridor_slugs",
+        "linked_solar_award_mw",
+        "climate_zone_band",
+        "verified_readiness_notes",
+        "missing_siting_data",
+        "source_basis",
+        "last_updated"
+      ],
+      "schema_path": "",
+      "companion_page_slug": "data-clean-industry-and-compute-siting",
+      "last_verified": "2026-11-25",
+      "last_verified_basis": "row verification dates",
+      "license": "MIT (repository compilation); upstream public-source terms apply",
+      "summary": "Grid hubs and industrial sites joined to verified substation, tariff and climate-belt facts; no scores."
+    },
+    {
+      "id": "map-clean-industry-siting",
+      "title": "Clean-industry siting layer",
+      "domain": "grid-substations",
+      "path": "data/processed/maps/clean_industry_siting.geojson",
+      "format": "geojson",
+      "rows": 33,
+      "columns": 21,
+      "column_names": [
+        "climate_zone_band",
+        "coordinate_precision",
+        "district",
+        "highest_voltage_kv",
+        "hub_id",
+        "hub_name",
+        "hub_type",
+        "industrial_tod_132kv_dry_peak_npr",
+        "industrial_tod_132kv_wet_offpeak_npr",
+        "installed_mva",
+        "label_title",
+        "last_updated",
+        "linked_corridor_slugs",
+        "linked_solar_award_mw",
+        "planned_additional_mva",
+        "precision_label",
+        "province",
+        "status",
+        "substation_slug",
+        "substation_status",
+        "verified_readiness_notes"
+      ],
+      "schema_path": "",
+      "companion_page_slug": "data-clean-industry-and-compute-siting",
+      "last_verified": "2026-11-25",
+      "last_verified_basis": "companion page review date",
+      "license": "MIT (repository compilation); upstream public-source terms apply",
+      "summary": "Map points for the siting-readiness hubs."
     }
   ]
 }

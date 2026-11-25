@@ -192,7 +192,8 @@
         "industrial_load_anchors",
         "fossil_pipeline",
         "fossil_depots",
-        "non_dam_storage"
+        "non_dam_storage",
+        "clean_industry_siting"
       ],
       "bounds": [
         [

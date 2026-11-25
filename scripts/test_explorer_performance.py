@@ -47,7 +47,7 @@ class ExplorerPerformanceGuardrails(unittest.TestCase):
         manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
         presets = json.loads(PRESETS.read_text(encoding="utf-8"))
         new_layers = ["grid_substations", "industrial_load_anchors", "fossil_pipeline", "fossil_depots",
-                      "non_dam_storage", "doed_nonhydro_operating"]
+                      "non_dam_storage", "doed_nonhydro_operating", "clean_industry_siting"]
         overview_on = set(presets["presets"]["overview"]["layers_on"])
         energy = presets["presets"]["energy_infrastructure"]
         for key in new_layers:

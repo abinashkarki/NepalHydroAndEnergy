@@ -554,6 +554,28 @@
       ],
       "committed": true,
       "deployable": true
+    },
+    "data/clean_industry_siting_index.csv": {
+      "owner": "scripts/build_siting_readiness.py",
+      "command": "python scripts/build_siting_readiness.py",
+      "inputs": [
+        "data/substation_specs.csv",
+        "data/industrial_load_anchors.csv",
+        "data/erc_retail_tariffs.csv"
+      ],
+      "committed": true,
+      "deployable": false
+    },
+    "data/processed/maps/clean_industry_siting.geojson": {
+      "owner": "scripts/build_siting_readiness.py",
+      "command": "python scripts/build_siting_readiness.py",
+      "inputs": [
+        "data/substation_specs.csv",
+        "data/industrial_load_anchors.csv",
+        "data/erc_retail_tariffs.csv"
+      ],
+      "committed": true,
+      "deployable": true
     }
   }
 }

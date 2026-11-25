@@ -2416,6 +2416,79 @@
         "flood_2026": "off",
         "energy_infrastructure": "off"
       }
+    },
+    "clean_industry_siting": {
+      "path": "../../../data/processed/maps/clean_industry_siting.geojson",
+      "kind": "point",
+      "label": "Clean-industry & compute siting hubs (verified grid facts, no scores)",
+      "wiki_slug": "data-clean-industry-and-compute-siting",
+      "feature_context": "Siting baseline: 220/400 kV grid hubs and industrial estates joined to verified substation, ERC tariff and ecological-belt facts. Not a ranking; bay headroom, fibre and reliability data are not public.",
+      "style": {
+        "color": "#1e3a8a",
+        "weight": 2,
+        "fillColor": "#a78bfa",
+        "fillOpacity": 0.8,
+        "radius": 7
+      },
+      "popup_fields": [
+        {
+          "field": "hub_type",
+          "label": "Hub type"
+        },
+        "district",
+        {
+          "field": "climate_zone_band",
+          "label": "Ecological belt"
+        },
+        {
+          "field": "highest_voltage_kv",
+          "label": "Highest voltage",
+          "suffix": " kV"
+        },
+        {
+          "field": "installed_mva",
+          "label": "Installed",
+          "suffix": " MVA"
+        },
+        {
+          "field": "planned_additional_mva",
+          "label": "Planned addition",
+          "suffix": " MVA"
+        },
+        {
+          "field": "substation_status",
+          "label": "Substation status"
+        },
+        {
+          "field": "industrial_tod_132kv_wet_offpeak_npr",
+          "label": "ERC 132 kV industrial wet off-peak",
+          "suffix": " NPR/kWh"
+        },
+        {
+          "field": "industrial_tod_132kv_dry_peak_npr",
+          "label": "ERC 132 kV industrial dry peak",
+          "suffix": " NPR/kWh"
+        },
+        {
+          "field": "precision_label",
+          "label": "Map location"
+        }
+      ],
+      "tooltip_fields": [
+        "label_title",
+        "hub_type"
+      ],
+      "name_field": "hub_name",
+      "roleByPreset": {
+        "overview": "off",
+        "tributaries": "off",
+        "geopolitics": "off",
+        "power_system": "off",
+        "solar_system": "off",
+        "wiki": "off",
+        "flood_2026": "off",
+        "energy_infrastructure": "secondary"
+      }
     }
   },
   "labels_overlay": [
