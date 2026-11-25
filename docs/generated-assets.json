@@ -540,6 +540,20 @@
       ],
       "committed": true,
       "deployable": true
+    },
+    "wiki/explorer/tables/*.csv": {
+      "owner": "scripts/build_explorer_tables.py",
+      "command": "python scripts/build_explorer_tables.py",
+      "inputs": [
+        "data/substation_specs.csv",
+        "data/project_specs.csv",
+        "data/erc_retail_tariffs.csv",
+        "data/processed/tables/doed_nonhydro_registry.csv",
+        "data/industrial_load_anchors.csv",
+        "data/energy_institutions.csv"
+      ],
+      "committed": true,
+      "deployable": true
     }
   }
 }

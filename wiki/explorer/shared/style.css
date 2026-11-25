@@ -798,3 +798,41 @@ code, pre, .mono { font-family: var(--mono); }
 .leaflet-tooltip-left:before { border-left-color: var(--surface); }
 .leaflet-tooltip-right:before { border-right-color: var(--surface); }
 .app-bar .theme-toggle { width: 30px; height: 30px; }
+
+/* ------------------------------------------------------------------
+   Data Tables view (shared/data-explorer.js) — theme-token driven,
+   so light and dark themes both apply automatically.
+   ------------------------------------------------------------------ */
+.data-tables .dt-tabs { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid var(--rule); margin: 12px 0 8px; }
+.data-tables .dt-tab { background: transparent; border: 0; border-bottom: 2px solid transparent; color: var(--ink-soft); font: inherit; font-size: 13px; padding: 6px 10px; cursor: pointer; }
+.data-tables .dt-tab:hover { color: var(--ink); }
+.data-tables .dt-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+.data-tables .dt-variants { display: flex; gap: 6px; margin: 6px 0 10px; }
+.data-tables .dt-variant { background: var(--panel); border: 1px solid var(--rule); border-radius: 999px; color: var(--ink-soft); font: inherit; font-size: 12px; padding: 3px 10px; cursor: pointer; }
+.data-tables .dt-variant.active { background: var(--accent-soft); border-color: var(--accent); color: var(--ink); }
+.data-tables .dt-controls { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: flex-end; margin: 8px 0; }
+.data-tables .dt-filter { display: flex; flex-direction: column; gap: 2px; font-size: 11px; color: var(--ink-soft); }
+.data-tables .dt-filter select,
+.data-tables .dt-filter input { background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: 4px; font: inherit; font-size: 13px; padding: 4px 6px; max-width: 220px; }
+.data-tables .dt-search input { min-width: 180px; }
+.data-tables .dt-reset,
+.data-tables .dt-downloads button,
+.data-tables .dt-row-action { background: var(--panel); border: 1px solid var(--rule); border-radius: 4px; color: var(--ink-soft); font: inherit; font-size: 12px; padding: 3px 8px; cursor: pointer; white-space: nowrap; }
+.data-tables .dt-reset:hover,
+.data-tables .dt-downloads button:hover,
+.data-tables .dt-row-action:hover { color: var(--accent); border-color: var(--accent); }
+.data-tables .dt-summary { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; padding: 6px 8px; margin: 6px 0; background: var(--panel-2); border: 1px solid var(--rule); border-radius: 4px; font-size: 13px; color: var(--ink-soft); }
+.data-tables .dt-summary b { color: var(--ink); }
+.data-tables .dt-downloads { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+.data-tables .dt-downloads a { color: var(--accent); font-size: 12px; }
+.data-tables .dt-scroll { overflow: auto; max-height: 62vh; border: 1px solid var(--rule); border-radius: 4px; }
+.data-tables .dt-table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin: 0; }
+.data-tables .dt-table th { position: sticky; top: 0; background: var(--panel); z-index: 1; text-align: left; border-bottom: 1px solid var(--rule); padding: 0; }
+.data-tables .dt-table th button { background: transparent; border: 0; color: var(--ink); font: inherit; font-weight: 600; padding: 6px 8px; cursor: pointer; width: 100%; text-align: inherit; white-space: nowrap; }
+.data-tables .dt-table th.num,
+.data-tables .dt-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.data-tables .dt-table td { padding: 5px 8px; border-bottom: 1px solid var(--rule); color: var(--ink); vertical-align: top; }
+.data-tables .dt-table tbody tr:hover td { background: var(--accent-soft); }
+.data-tables .dt-source { font-size: 12px; margin-top: 8px; }
+.data-tables .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.data-tables-btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }

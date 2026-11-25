@@ -24,6 +24,8 @@ validate:
 	$(PYTHON) scripts/check_source_used_by.py
 	$(PYTHON) scripts/check_retired_claims.py
 	$(PYTHON) scripts/assess_page_quality.py --check
+	$(PYTHON) scripts/build_dataset_catalog.py --check
+	$(PYTHON) scripts/build_explorer_tables.py --check
 	git diff --check
 
 test:
@@ -31,6 +33,7 @@ test:
 	node tests/test_wiki_search_intents.js
 	node tests/test_lalupate_stage_one.js
 	node tests/test_internal_dashboard_runtime.js
+	node tests/test_data_explorer.js
 
 release-check: wiki-index wiki-site validate test release-record-check
 	$(PYTHON) scripts/build_internal_dashboard.py
