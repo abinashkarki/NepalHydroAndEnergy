@@ -4,8 +4,8 @@ type: entity
 category: transmission-corridor
 created: 2026-04-20
 updated: 2026-11-04
-reviewed: 2026-11-04
-review_due: 2026-12-04
+reviewed: 2026-11-25
+review_due: 2027-02-25
 as_of: 2026-10-07
 sources: [world-bank-hddi-rap, nepal-transmission-landscape-2025, nea-annual-report-fy2025-26, nea-annual-report-fy2024-25, nea-transmission-annual-book-2077, nea-hddi-construction-notices-july-2026]
 tags: [transmission, 400kv, backbone, hddi, internal-grid]
@@ -24,7 +24,7 @@ generator: manual
 excerpt: Nepal's first domestic 400 kV backbone is operational east of Dhalkebar; on Hetauda–Dhalkebar the construction dispute is resolved and charging was announced as imminent in October 2026, but energisation is not yet verified.
 page_quality: analysis
 maturity: verified-core
-caveat: No NEA energisation or commissioning notice for Hetauda–Dhalkebar was located as of 4 November 2026; the latest tower count is an NEA official quoted in the press on 7 October 2026.
+caveat: No NEA energisation or commissioning notice for Hetauda–Dhalkebar was located as of 25 November 2026 (web recheck); the latest tower count is an NEA official quoted in the press on 7 October 2026.
 ---
 
 # Hetauda–Dhalkebar–Inaruwa 400 kV Backbone
@@ -58,7 +58,7 @@ east–west transfer path to the **[[dhalkebar-muzaffarpur]]** gateway.
 
 ## Current Status
 
-**Evidence checked through 4 November 2026:** partially operational. NEA's FY 2025/26 annual report says the decade-long construction dispute "has finally been resolved" and that work resumed, with completion expected "in few months" ([[nea-annual-report-fy2025-26]], PDF pp.13–14). On 7 October 2026, NEA's executive director said 14 of the 16 towers on the outstanding stretch were built, with two multi-circuit towers in their final stage, and that the line would be charged in about 15 days; transfer between Hetauda and Dhalkebar was limited to about 300 MW, against about 2,000 MW once complete ([Spotlight Nepal, 7 Oct 2026](https://www.spotlightnepal.com/2026/10/07/hetaudadhalkebar-400-kv-transmission-line-to-be-charged-within-two-weeks/)). No energisation notice had been located by 4 November 2026. The
+**Evidence checked through 25 November 2026:** partially operational. NEA's FY 2025/26 annual report says the decade-long construction dispute "has finally been resolved" and that work resumed, with completion expected "in few months" ([[nea-annual-report-fy2025-26]], PDF pp.13–14). On 7 October 2026, NEA's executive director said 14 of the 16 towers on the outstanding stretch were built, with two multi-circuit towers in their final stage, and that the line would be charged in about 15 days; transfer between Hetauda and Dhalkebar was limited to about 300 MW, against about 2,000 MW once complete ([Spotlight Nepal, 7 Oct 2026](https://www.spotlightnepal.com/2026/10/07/hetaudadhalkebar-400-kv-transmission-line-to-be-charged-within-two-weeks/)). No energisation notice had been located by 4 November 2026. The
 corridor's status is stored by segment in `data/corridor_specs.csv`,
 while the map uses document-bounded corridor geometry rather than a
 tower-by-tower engineering alignment.

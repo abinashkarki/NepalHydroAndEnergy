@@ -462,7 +462,7 @@
       "generator_script": "scripts/build_wiki_figures.py",
       "last_generated": "2026-11-25",
       "source_file_hashes": {
-        "data/substation_specs.csv": "c9be65ee5b69a8c9bad36bc919dc7a5b9460cd5124aef3f97166070f226a1e69"
+        "data/substation_specs.csv": "5332edf90740943ac5614ce35e9e2637a8544233e17584a0ea532fff9708a5ed"
       }
     },
     "plant_generation_vs_design": {
