@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="np-build" content="public-launch-12" />
+  <meta name="np-build" content="public-launch-15" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' unpkg.com; img-src 'self' data: *.cartocdn.com *.opentopomap.org server.arcgisonline.com *.tile.openstreetmap.org tile.openstreetmap.org *.basemaps.cartocdn.com; connect-src 'self' cdn.jsdelivr.net unpkg.com huggingface.co *.huggingface.co *.hf.co; worker-src 'self' blob:; frame-src 'none';" />
   <title>Nepal Energy · Wiki & Map</title>
   <link rel="canonical" id="canonical-link" href="https://transparentgov.ai/wiki/explorer/" />
@@ -16,10 +16,10 @@
   <script src="../assets/site/theme.js?v=design-1" defer></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
   <script src="shared/marked.min.js?v=public-launch-12"></script>
-  <script src="shared/leaflet-init.js?v=design-1"></script>
+  <script src="shared/leaflet-init.js?v=design-2"></script>
   <script src="shared/source-used-by.js?v=public-launch-13"></script>
   <script src="shared/wiki-loader.js?v=design-1"></script>
-  <script src="shared/wiki-search.js?v=public-launch-14"></script>
+  <script src="shared/wiki-search.js?v=public-launch-15"></script>
   <script src="shared/wiki-vector-search.js?v=public-launch-12"></script>
   <style>
     /* Layout: resizable three-pane grid. */
@@ -701,6 +701,8 @@
       border-radius: 8px;
       padding: 9px 10px;
       background: var(--panel-2);
+      min-width: 0;
+      overflow-wrap: anywhere;
     }
 
     .fact-cell b {
@@ -3779,9 +3781,16 @@
         if (fact) {
           const bits = [];
           if (fact.status_display || fact.status_raw || fact.status) bits.push(fact.status_display || fact.status_raw || fact.status);
-          if (Number.isFinite(Number(fact.capacity_mw))) bits.push(formatMw(fact.capacity_mw));
+          const mw = formatMw(fact.capacity_mw);
+          if (mw) bits.push(mw);
+          else if (fact.domain === "substation") {
+            const kv = formatKv(fact.voltage_kv);
+            const mva = formatMva(fact.installed_mva);
+            if (kv) bits.push(kv);
+            if (mva) bits.push(mva);
+          }
           if (fact.as_of || fact.last_updated) bits.push(`record checked ${fact.as_of || fact.last_updated}`);
-          return bits.join(" · ") || "Project record";
+          return bits.join(" · ") || (fact.domain === "institution" ? "Institution record" : "Project record");
         }
         if (["syntheses", "claims"].includes(result.category)) return `${maturityLabel} · Analysis`;
         if (result.category === "interventions") return `${maturityLabel} · Decision dossier`;
@@ -4080,9 +4089,56 @@
       }
 
       function formatMw(value) {
+        if (value == null || value === "" || typeof value === "boolean") return "";
         const n = Number(value);
         if (!Number.isFinite(n)) return "";
         return `${n.toLocaleString(undefined, { maximumFractionDigits: n >= 100 ? 0 : 2 })} MW`;
+      }
+
+      function formatMva(value) {
+        if (value == null || value === "" || typeof value === "boolean") return "";
+        const n = Number(value);
+        if (!Number.isFinite(n)) return "";
+        return `${n.toLocaleString(undefined, { maximumFractionDigits: 1 })} MVA`;
+      }
+
+      function formatKv(value) {
+        if (value == null || value === "" || typeof value === "boolean") return "";
+        const n = Number(value);
+        if (!Number.isFinite(n) || n <= 0) return "";
+        return `${n.toLocaleString(undefined, { maximumFractionDigits: 0 })} kV`;
+      }
+
+      function humanSourceLabel(value) {
+        const key = String(value || "").trim();
+        if (!key) return "";
+        const labels = {
+          substation_specs: "Grid substation registry (NEA FY 2025/26)",
+          corridor_specs: "Transmission corridor specs",
+          storage_non_dam_specs: "Non-dam storage registry (BESS / PSH)",
+          industrial_load_anchors: "Industrial load anchors registry",
+          doed_nonhydro_registry: "DoED non-hydro register",
+          energy_institutions: "Nepal energy institutions registry",
+          project_specs: "Hydropower project specs",
+          solar_plants: "Solar fleet & NEA award registry",
+          hydropower_project_display_points: "Hydropower project registry",
+          top_capacity_project_annotations: "Top-capacity hydropower registry",
+          storage_shortlist_annotations: "Storage hydropower shortlist",
+          priority_project_watchlist: "Priority project watchlist",
+        };
+        return labels[key] || key.replace(/_/g, " ");
+      }
+
+      function humanPrecisionLabel(value) {
+        const key = String(value || "").trim();
+        if (!key) return "";
+        const labels = {
+          "official-map-node": "Official map symbol (RPGCL / NEA)",
+          "approximate-place": "Approximate place / locality",
+          "facility-verified": "Verified facility coordinates",
+          "not mapped": "Not yet mapped",
+        };
+        return labels[key] || key.replace(/[-_]+/g, " ");
       }
 
       function formatTariff(value) {
@@ -4342,7 +4398,7 @@
       function renderProjectIntelligenceHeader(slug) {
         if (!factIndex || !Array.isArray(factIndex.facts)) return "";
         const candidates = factIndex.facts.filter((row) => (row.wiki_slug || row.slug) === slug);
-        const fact = candidates.find((row) => row.as_of && (
+        const fact = candidates.find((row) => row.domain !== "institution" && row.as_of && (
           (row.latest_events || []).length
           || (row.blockers || []).length
           || (row.evidence_urls || []).length
@@ -4355,7 +4411,9 @@
         const type = fact.project_type || ({ hydro: "Hydropower", storage: "Storage", solar: "Solar", transmission: "Transmission", substation: "Grid substation", demand: "Industrial load anchor", nonhydro: "Non-hydro (DoED record)", institution: "Institution" }[fact.domain]) || "Project";
         const cells = [
           ["Current status", fact.status_display || fact.status_raw || fact.status],
-          ["Capacity", Number.isFinite(Number(fact.capacity_mw)) ? formatMw(fact.capacity_mw) : ""],
+          ["Capacity", formatMw(fact.capacity_mw)],
+          ["Highest voltage", fact.domain === "substation" ? formatKv(fact.voltage_kv) : ""],
+          ["Installed capacity", fact.domain === "substation" ? formatMva(fact.installed_mva) : ""],
           ["Project type", type],
           ["Basin / district", location],
           ["Promoter", fact.developer || fact.promoter],
@@ -4598,7 +4656,7 @@
         const feature = ref.layer ? lm.findFeatureByRef(ref) : null;
         document.getElementById("map-info").innerHTML =
           `<b>${escapeHtml(fact.name)}</b><br/>` +
-          `<span class="muted">Project record · ${escapeHtml(fact.source_layer || "fact index")}</span>`;
+          `<span class="muted">Project record · ${escapeHtml(humanSourceLabel(fact.source_layer) || "fact index")}</span>`;
 
         scheduleMapFocus(() => {
           if (!feature) return;
@@ -4627,7 +4685,10 @@
         const maturityLabel = MATURITY_LABEL[maturity];
         const domainLabel = ({ hydro: "Hydro", solar: "Solar", storage: "Storage", substation: "Substation", demand: "Load anchor", nonhydro: "Non-hydro", institution: "Institution" }[fact.domain] || "Fact");
         const rows = [
-          [fact.domain === "solar" ? "Capacity (MWp)" : "Capacity", formatMw(fact.capacity_mwp || fact.capacity_mw)],
+          [fact.domain === "solar" ? "Capacity (MWp)" : "Capacity", formatMw(fact.capacity_mwp ?? fact.capacity_mw)],
+          ["Highest voltage", formatKv(fact.voltage_kv)],
+          ["Installed capacity", formatMva(fact.installed_mva)],
+          ["Planned expansion", formatMva(fact.planned_additional_mva)],
           ["Status", statusDisplay],
           ["Procurement", fact.procurement_stage],
           ["District", fact.district],
@@ -4637,9 +4698,9 @@
           ["Promoter / owner", fact.promoter],
           ["Bidder", fact.bidder],
           ["Tariff", formatTariff(fact.tariff_npr_kwh)],
-          ["Precision", fact.precision_label],
+          ["Precision", humanPrecisionLabel(fact.precision_label)],
           ["Location basis", fact.location_basis],
-          ["Source", fact.source_note || fact.source_layer],
+          ["Source", fact.source_note || humanSourceLabel(fact.source_layer)],
         ].filter((row) => row[1]);
         const cells = rows.map(([label, value]) => `<div class="fact-cell"><b>${escapeHtml(label)}</b>${escapeHtml(value)}</div>`).join("");
         const related = (fact.related_slugs || []).map((slug) => {

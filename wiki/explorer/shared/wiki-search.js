@@ -240,9 +240,13 @@ class StaticFactIndex {
     if (hasPhrase("hydro", "hydropower", "run of river", "ror", "hep", "hpp")) domains.push("hydro");
     if (hasPhrase("solar", "photovoltaic", "pv")) domains.push("solar");
     if (hasPhrase("transmission", "grid", "corridor", "interconnection", "power line", "substation")) domains.push("transmission");
+    const demandMention = hasPhrase("industrial estate", "industrial district", "industrial corridor", "special economic zone", "sez", "load anchor", "load anchors");
+    if (demandMention) domains.push("demand");
 
-    const storageMention = hasPhrase("storage", "reservoir", "reservoir storage", "dry season", "peaking");
-    if (storageMention && !domains.length) domains.push("hydro");
+    const batteryMention = hasPhrase("bess", "battery", "batteries", "battery storage");
+    const pumpedMention = hasPhrase("pumped storage", "pumped hydro", "pump storage", "psh");
+    const storageMention = batteryMention || pumpedMention || hasPhrase("storage", "reservoir", "reservoir storage", "dry season", "peaking");
+    if (storageMention && !batteryMention && !pumpedMention && !domains.length) domains.push("hydro");
 
     const statuses = [];
     const requestedStatuses = [];
@@ -272,22 +276,29 @@ class StaticFactIndex {
     const targetFactIds = this.matchNamedFacts(termSet, q);
     const targetNames = targetFactIds.map((id) => this.factById.get(id)?.name).filter(Boolean);
     const subjectTerms = terms.filter((term) => !INTENT_CONTROL_TERMS.has(term) && !/^\d+(?:\.\d+)?$/.test(term));
-    const storageConstraint = storageMention && (
+    const storageConstraint = batteryMention || pumpedMention || (storageMention && (
       hasProjectTerm
       || superlative
       || statuses.length > 0
       || Boolean(capacity)
       || targetFactIds.length > 0
-    );
+    ));
     const hasDomainTerm = domains.length > 0 || storageMention;
     const locationScoped = locations.length > 0 && targetFactIds.length === 0 && (hasProjectTerm || hasDomainTerm || hasPhrase("basin", "river", "district"));
-    const constrainedList = statuses.length > 0 || Boolean(capacity) || locationScoped || storageConstraint;
+    const constrainedList = statuses.length > 0 || Boolean(capacity) || locationScoped || storageConstraint || demandMention;
     // A recognized project name is itself a lookup, including map-only facts.
     // Require all query terms to belong to one matched name so editorial
     // phrases such as "Upper Tamakoshi environmental impacts" stay lexical.
+    const expandedQueryTerms = new Set(terms);
+    if (expandedQueryTerms.has("sez")) {
+      expandedQueryTerms.delete("sez");
+      expandedQueryTerms.add("special");
+      expandedQueryTerms.add("economic");
+      expandedQueryTerms.add("zone");
+    }
     const plainNameLookup = targetFactIds.some((id) => {
       const nameTerms = new Set(tokenize(normalizeSearchText(this.factById.get(id).name)));
-      return terms.every((term) => nameTerms.has(term));
+      return [...expandedQueryTerms].every((term) => nameTerms.has(term));
     });
     const targetedLookup = targetFactIds.length > 0 && (plainNameLookup || sourceSeeking || attributeSeeking || statuses.length > 0 || Boolean(capacity));
     const factish = superlative || targetedLookup || constrainedList || (hasProjectTerm && hasDomainTerm) || (sourceSeeking && (hasDomainTerm || hasProjectTerm));
@@ -295,9 +306,14 @@ class StaticFactIndex {
     // Generic "largest project" questions refer to generation assets unless a
     // user names another domain. Status-only queries deliberately remain
     // cross-domain so stalled transmission and hydropower records can coexist.
-    if (!domains.length && superlative) domains.push("hydro");
+    if (!domains.length && superlative && !batteryMention && !pumpedMention) domains.push("hydro");
 
     const primaryStatus = statuses.length === 1 ? statuses[0] : (statuses.length ? "multiple" : "any");
+    const requiredFacets = batteryMention
+      ? ["battery"]
+      : pumpedMention
+        ? ["pumped-storage"]
+        : (storageConstraint ? ["storage"] : []);
     return {
       relevant: factish,
       kind: sourceSeeking ? "source-seeking" : ((targetedLookup || singleBest) ? "fact-lookup" : "project-list"),
@@ -306,7 +322,7 @@ class StaticFactIndex {
       constraints: {
         noFacts: !factish,
         domains,
-        requiredFacets: storageConstraint ? ["storage"] : [],
+        requiredFacets,
         statuses,
         statusMode: statusUnion ? "any" : "all",
         contradictoryStatuses,
@@ -368,7 +384,13 @@ class StaticFactIndex {
     const page = slug ? this.pageBySlug.get(slug) : null;
     const evidenceUrls = Array.isArray(fact.evidence_urls) ? fact.evidence_urls : [];
     const sources = Array.isArray(fact.sources) ? fact.sources : [];
-    const details = [formatMw(fact.capacity_mw), fact.status_display || fact.status_raw || fact.status, fact.river, fact.district].filter(Boolean);
+    const subDetails = fact.domain === "substation"
+      ? [
+        finiteNumber(fact.voltage_kv) != null ? `${finiteNumber(fact.voltage_kv)} kV` : "",
+        finiteNumber(fact.installed_mva) != null ? `${finiteNumber(fact.installed_mva).toLocaleString(undefined, { maximumFractionDigits: 1 })} MVA` : "",
+      ]
+      : [];
+    const details = [formatMw(fact.capacity_mw), ...subDetails, fact.status_display || fact.status_raw || fact.status, fact.river, fact.district].filter(Boolean);
     return {
       kind: slug ? "wiki" : "fact",
       structured: true,
@@ -428,13 +450,21 @@ class StaticFactIndex {
   }
 
   matchNamedFacts(queryTerms, normalizedQuery) {
+    const expandedTerms = new Set(queryTerms);
+    let expandedQuery = normalizedQuery;
+    if (expandedTerms.has("sez")) {
+      expandedTerms.add("special");
+      expandedTerms.add("economic");
+      expandedTerms.add("zone");
+      expandedQuery = normalizedQuery.replace(/\bsez\b/g, "special economic zone");
+    }
     const matches = [];
     for (const fact of this.facts) {
       const nameTerms = normalizeSearchText(fact.name).split(" ").filter((term) => term && !STOPWORDS.has(term) && !GENERIC_NAME_TERMS.has(term));
       if (!nameTerms.length) continue;
-      const allPresent = nameTerms.every((term) => queryTerms.has(term));
+      const allPresent = nameTerms.every((term) => expandedTerms.has(term));
       const namePhrase = normalizeSearchText(fact.name).replace(/\b(?:hep|hpp|hydroelectric|hydropower|power plant|project|scheme)\b/g, "").trim().replace(/\s+/g, " ");
-      const phrasePresent = namePhrase.length >= 5 && (` ${normalizedQuery} `).includes(` ${namePhrase} `);
+      const phrasePresent = namePhrase.length >= 5 && (` ${expandedQuery} `).includes(` ${namePhrase} `);
       const specificEnough = nameTerms.length > 1 || nameTerms[0].length >= 6;
       if ((allPresent && specificEnough) || phrasePresent) matches.push(fact.id);
     }
@@ -499,8 +529,14 @@ class StaticFactIndex {
       : (intent.kind === "fact-lookup" && topFact ? String(topFact.name || subject) : `${subject[0].toUpperCase()}${subject.slice(1)} projects`);
     const capacityText = formatCapacityConstraint(c.capacity);
     const qualifier = capacityText ? ` ${capacityText}` : "";
+    const topSubstationMeta = topFact && topFact.domain === "substation"
+      ? [
+        finiteNumber(topFact.voltage_kv) != null ? `${finiteNumber(topFact.voltage_kv)} kV` : "",
+        finiteNumber(topFact.installed_mva) != null ? `${finiteNumber(topFact.installed_mva).toLocaleString(undefined, { maximumFractionDigits: 1 })} MVA` : "",
+      ]
+      : [];
     const lookupDetails = intent.kind === "fact-lookup" && topFact
-      ? [topFact.status_display || topFact.status_raw || topFact.status, formatMw(topFact.capacity_mw)].filter(Boolean).join(" · ")
+      ? [topFact.status_display || topFact.status_raw || topFact.status, formatMw(topFact.capacity_mw), ...topSubstationMeta].filter(Boolean).join(" · ")
       : "";
     const summary = c.contradictoryStatuses
       ? `No single structured record can satisfy the conflicting statuses ${statusLabels.join(" and ")}.`

@@ -344,8 +344,10 @@ def _has_coords(row: dict[str, str]) -> bool:
 
 def add_infrastructure_facts(facts_by_key: dict[str, dict], slugs: set[str]) -> None:
     """Index the Sprint 1 infrastructure registries (compact facts; capacity in MW only where it is MW)."""
+    substation_names: dict[str, str] = {}
     for row in load_csv_rows(SUBSTATION_SPECS):
         slug = row["slug"].strip()
+        substation_names[slug] = f"{row['substation_name'].strip()} substation"
         status = status_norm(row["status"])
         mapped = _has_coords(row)
         facts_by_key[f"substation:{slug}"] = {
@@ -383,12 +385,24 @@ def add_infrastructure_facts(facts_by_key: dict[str, dict], slugs: set[str]) -> 
         }
     for row in load_csv_rows(INDUSTRIAL_ANCHORS):
         aid = row["anchor_id"].strip()
+        raw_sub = (row.get("nearest_substation_name") or "").strip()
+        if raw_sub.lower() in ("", "unknown") and (row.get("substation_slug") or "").strip():
+            linked = [
+                substation_names.get(s.strip(), s.strip().replace("-", " ").title())
+                for s in row["substation_slug"].split(";") if s.strip()
+            ]
+            sub_display = "; ".join(linked)
+        else:
+            sub_display = "" if raw_sub.lower() == "unknown" else raw_sub
+        facets = ["demand", "industrial"]
+        if row.get("anchor_type") == "special_economic_zone" or "sez" in aid:
+            facets.append("sez")
         facts_by_key[f"demand:{aid}"] = {
-            "id": f"demand:{aid}", "domain": "demand", "facets": ["demand", "industrial"],
+            "id": f"demand:{aid}", "domain": "demand", "facets": facets,
             "name": row["anchor_name"], "wiki_slug": "",
             "capacity_mw": None, "status": "not-applicable", "status_raw": row.get("project_status_as_reported", ""),
             "status_display": "Load anchor", "district": row.get("district", ""), "province": row.get("province", ""),
-            "substation": row.get("nearest_substation_name", ""), "voltage_kv": _safe_float(row.get("supply_voltage_kv")),
+            "substation": sub_display, "voltage_kv": _safe_float(row.get("supply_voltage_kv")),
             "as_of": row.get("verified_on", ""), "source_layer": "industrial_load_anchors",
             "sources": ["industrial_load_anchors"], "evidence_urls": [row["source_url"]] if row.get("source_url") else [],
             "feature_ref": ({"layer": "industrial_load_anchors", "id": aid, "match_field": "id", "match_value": aid}

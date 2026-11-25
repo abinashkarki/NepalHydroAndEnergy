@@ -716,7 +716,7 @@ class LayerManager {
             allowDraft: def.allow_draft,
             currentSlug: getCurrentSlug(),
           }),
-          { maxWidth: 320 }
+          { maxWidth: 320, autoPanPaddingTopLeft: [40, 120], autoPanPaddingBottomRight: [40, 40] }
         );
         if (def.tooltip_fields !== false) {
           const tip = tooltipHTML(props, def.tooltip_fields);
@@ -1500,7 +1500,8 @@ class LayerManager {
       maxWidth: 280,
       minWidth: 220,
       autoPan: true,
-      autoPanPadding: [40, 60],
+      autoPanPaddingTopLeft: [40, 120],
+      autoPanPaddingBottomRight: [40, 40],
       closeButton: true,
       offset: typeof layer.getRadius === "function" ? [0, -(layer.getRadius() + 4)] : [0, -8],
     })
