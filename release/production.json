@@ -2,24 +2,30 @@
   "schema_version": 1,
   "environment": "production",
   "public_url": "https://transparentgov.ai/wiki/explorer/",
-  "release_version": "1.2.2",
+  "release_version": "1.3.0",
   "wiki_repository": "abinashkarki/NepalHydroAndEnergy",
-  "wiki_ref": "d01c37648513ab2e0c83b0980fa7ec40c854c865",
-  "wiki_commit": "d01c37648513ab2e0c83b0980fa7ec40c854c865",
+  "wiki_ref": "f3db33bfab9a74b0a3e46c4c8e38df9c96cf1ac8",
+  "wiki_commit": "f3db33bfab9a74b0a3e46c4c8e38df9c96cf1ac8",
   "transparentgov_repository": "abinashkarki/TransparentGov",
-  "transparentgov_commit": "ecf077b659593c3bb8f816661e4cb49c9ebae025",
-  "coolify_deployment_id": "s7wc1mdkvpsq5qb8u37bp99f",
-  "deployed_at": "2026-08-29T13:13:39Z",
-  "verified_at": "2026-08-29T13:17:06Z",
+  "transparentgov_commit": "2e3660c6ddb1d14235851d6cded7f5d761497066",
+  "coolify_deployment_id": "a97v0qyrxj4rns17z7hqkrcy",
+  "deployed_at": "2026-11-25T08:25:26Z",
+  "verified_at": "2026-11-25T08:27:00Z",
   "verification": {
-    "page_count": 419,
+    "page_count": 474,
     "assets": {
-      "wiki/explorer/index.html": "c2c5c32b532b5af2849e17ccc1fb9e08b1174ad4ca61d1c8c91669ac20bae332",
-      "wiki/explorer/shared/leaflet-init.js": "2d9cd678cc255e9e3a8f7ac1d44b7873f5eeb67c0571528cb9c2ca2beb7dccde",
-      "wiki/explorer/shared/wiki-loader.js": "70ac05ce03bdd5c1affae449b005ce9f4a8ac4396b82d3015009e3aa0b167eae",
-      "wiki/explorer/shared/wiki-page-index.json": "37185832e182361d365c2b3983d910bce02206fd0a3a52c32505aecdb279070f",
-      "wiki/explorer/shared/wiki-vector-index.json": "c87e3bcf8c7a1afa6d042da1a9408a0a06d015fe0d16b88bfdb147242b3c4184"
+      "wiki/explorer/index.html": "705760f4fb65e2031d94a8d015a7fc8d4eff72439d88395e13e1919c59c64cfa",
+      "wiki/explorer/shared/wiki-loader.js": "eb2062d46b3edd8e7f903dd0cc67036d92a1d3d14e69a42403618726132718e0",
+      "wiki/explorer/shared/wiki-page-index.json": "b5bbafa45893eccf204fcf31e6f23a7952dddd74cbebb6e1f2c324894037fbbf",
+      "wiki/explorer/shared/layer-manifest.json": "ae8f03e2af099320eab1d0aa7116ed1a19d65c5a4dc1e00b8175556f0004bf4b",
+      "wiki/explorer/shared/wiki-vector-index.json": "f90d06ee11bea3e032e0f5054025d5eea0b50fcc840d93c00d6eb1aeb8fe13c7",
+      "wiki/explorer/tables/doed_nonhydro_registry.csv": "b1451749867c42f06c1cec7ec1c9f8dd73e83cd40a04702c08c39c2e339fb9e7",
+      "wiki/explorer/tables/energy_institutions.csv": "10ce1080ba3d91114ba5251af32118057c96e132f284c832b2d051f00cb4865b",
+      "wiki/explorer/tables/erc_retail_tariffs.csv": "b5dabe3ab12059ea0df9281a686ba348e618fb9e8f910a5ec2c232b6e45ba239",
+      "wiki/explorer/tables/industrial_load_anchors.csv": "297335fb94e6db70c3392591f683e30d211ab980ec3f1ee45b324eeb3db39f77",
+      "wiki/explorer/tables/project_specs.csv": "379af20109f6f19ae951707d11430edb372100aa149a680805f9d0dde9ec3c3b",
+      "wiki/explorer/tables/substation_specs.csv": "5332edf90740943ac5614ce35e9e2637a8544233e17584a0ea532fff9708a5ed"
     }
   },
-  "notes": "Coolify production is pinned to the full wiki-v1.2.2 merge commit and was rebuilt from TransparentGov trigger commit ecf077b659593c3bb8f816661e4cb49c9ebae025 after updating NEPAL_ENERGY_REF. This release removes the rejected For policymakers and For journalists reader pages and replaces Start Here with a shorter task-led entry page. The production probe passed all 54 requests without warnings and matched the selected deployed assets, 419 pages, 666 structured facts, 3,302 vector chunks, 32 map layers and 28 map assets; all 53 successful checked responses carried validators and explicit Cache-Control headers. Browser verification confirmed all three task paths, absence of the rejected page labels, 30 keyed CARTO tiles loaded at Retina resolution, no failed tiles, no API-key watermark and no console messages. The five clean pilot routes returned 200, an unknown clean slug returned 404, and both deleted markdown paths returned 404."
+  "notes": "Coolify completed a no-cache build with the pinned wiki commit. The production probe passed 66 HTTP checks, including byte comparisons of four release assets. The deployed vector index and all six Explorer CSVs also matched byte-for-byte. The static reader, Open Data Catalog, State of the System and Upper Tamakoshi returned HTTP 200. The Explorer rendered the Hydropower table with 87 rows and showed no browser console errors or warnings during the check. The static catalog direct project specs CSV URL returned HTTP 404."
 }
