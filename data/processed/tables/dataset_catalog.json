@@ -13,8 +13,8 @@
     "system-timeseries": "System indicators & time series"
   },
   "counts": {
-    "datasets": 52,
-    "csv": 37,
+    "datasets": 53,
+    "csv": 38,
     "geojson": 15
   },
   "datasets": [
@@ -1760,6 +1760,42 @@
       "last_verified_basis": "row verification dates",
       "license": "MIT (repository compilation); upstream public-source terms apply",
       "summary": "Grid hubs and industrial sites joined to verified substation, tariff and climate-belt facts; no scores."
+    },
+    {
+      "id": "nepse-hydro-performance",
+      "title": "NEPSE-listed hydropower performance",
+      "domain": "institutions-finance",
+      "path": "data/nepse_hydro_performance.csv",
+      "format": "csv",
+      "rows": 5,
+      "columns": 19,
+      "column_names": [
+        "company_slug",
+        "company_name",
+        "nepse_ticker",
+        "project_slug",
+        "installed_mw",
+        "fiscal_year_bs",
+        "fiscal_year_ad",
+        "contracted_or_design_gwh",
+        "actual_generation_gwh",
+        "delivery_vs_contract_pct",
+        "electricity_revenue_npr_m",
+        "net_profit_npr_m",
+        "total_debt_npr_m",
+        "source_slug",
+        "source_url",
+        "source_locator",
+        "confidence",
+        "verified_on",
+        "notes"
+      ],
+      "schema_path": "",
+      "companion_page_slug": "data-nepse-hydro-performance",
+      "last_verified": "2026-11-25",
+      "last_verified_basis": "row verification dates",
+      "license": "MIT (repository compilation); upstream public-source terms apply",
+      "summary": "Audited generation and financial results for a starter cohort of listed hydropower companies."
     },
     {
       "id": "map-clean-industry-siting",
